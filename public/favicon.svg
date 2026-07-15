@@ -1,24 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
   <defs>
-    <linearGradient id="mainGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea"/>
+      <stop offset="100%" style="stop-color:#764ba2"/>
     </linearGradient>
   </defs>
   
-  <!-- 背景 -->
-  <rect width="64" height="64" rx="14" ry="14" fill="url(#mainGradient)"/>
+  <!-- 渐变背景 -->
+  <rect width="64" height="64" rx="14" fill="url(#bg)"/>
   
-  <!-- 大写字母 C - 简洁清晰 -->
-  <path d="M 38 20 Q 38 14 32 14 Q 20 14 20 32 Q 20 50 32 50 Q 38 50 38 44 L 34 44 Q 34 46 32 46 Q 24 46 24 32 Q 24 18 32 18 Q 34 18 34 20 Z" 
-        fill="white"/>
+  <!-- 简洁的 C 字母 -->
+  <text x="32" y="46" font-family="Arial, sans-serif" font-size="40" font-weight="bold" fill="white" text-anchor="middle">C</text>
   
-  <!-- AI 装饰点 -->
-  <circle cx="44" cy="22" r="3" fill="white" opacity="0.9"/>
-  <circle cx="48" cy="32" r="2.5" fill="white" opacity="0.7"/>
-  <circle cx="44" cy="42" r="3" fill="white" opacity="0.9"/>
-  
-  <!-- 连接线 -->
-  <line x1="44" y1="22" x2="48" y2="32" stroke="white" stroke-width="1.5" opacity="0.5"/>
-  <line x1="48" y1="32" x2="44" y2="42" stroke="white" stroke-width="1.5" opacity="0.5"/>
+  <!-- AI 小点 -->
+  <circle cx="50" cy="16" r="3" fill="white" opacity="0.8"/>
+  <circle cx="54" cy="24" r="2" fill="white" opacity="0.6"/>
 </svg>
