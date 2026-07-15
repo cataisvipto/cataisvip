@@ -1,0 +1,141 @@
+{
+  "site": {
+    "title": "CATAI - AI 生态门户",
+    "description": "你的全球 AI 生态入口。发现 AI 模型、智能体、工具和资源。"
+  },
+  "nav": {
+    "home": "首页",
+    "submit": "提交资源",
+    "searchPlaceholder": "搜索 AI 资源..."
+  },
+  "hero": {
+    "title": "你的 AI 生态入口",
+    "subtitle": "发现来自全球的 AI 模型、智能体、工具和资源。紧跟人工智能最新发展。",
+    "featured": "精选资源",
+    "explore": "浏览全部"
+  },
+  "categories": {
+    "all": "全部",
+    "Chat": "对话与助手",
+    "Image": "图像生成",
+    "Code": "代码与开发",
+    "Writing": "写作与内容",
+    "Video": "视频与动画",
+    "Audio": "音频与语音",
+    "Search": "搜索与研究",
+    "Design": "设计与创意",
+    "Agent": "AI 智能体",
+    "Developer": "开发者工具",
+    "Platform": "平台与模型"
+  },
+  "tags": {
+    "Free": "免费",
+    "Freemium": "免费增值",
+    "Paid": "付费",
+    "Open Source": "开源",
+    "API": "API"
+  },
+  "submit": {
+    "title": "提交 AI 资源",
+    "description": "发现优秀的 AI 工具、模型或资源？分享给全球社区！",
+    "toolName": "资源名称",
+    "toolUrl": "官网链接",
+    "toolDescription": "简要描述",
+    "toolCategory": "分类",
+    "submitBtn": "提交",
+    "success": "感谢提交！我们已收到你的信息，将进行审核。",
+    "selectCategory": "选择分类"
+  },
+  "footer": {
+    "privacy": "隐私政策",
+    "disclaimer": "免责声明",
+    "copyright": "© 2025 CATAI. 保留所有权利。",
+    "description": "你的全球 AI 生态入口。",
+    "contact": "联系我们"
+  },
+  "cta": {
+    "title": "发现优秀的 AI 资源？",
+    "description": "帮助我们打造最全面的 AI 生态门户，提交你喜欢的工具和资源！",
+    "button": "提交资源"
+  },
+  "common": {
+    "visit": "访问",
+    "noResults": "未找到相关资源，试试其他关键词。",
+    "featured": "精选",
+    "about": "关于",
+    "keyFeatures": "核心功能",
+    "pricing": "定价方案",
+    "useCases": "使用场景",
+    "pros": "优点",
+    "cons": "缺点",
+    "latestUpdate": "最新动态",
+    "backToHome": "返回首页",
+    "lastUpdated": "最后更新"
+  },
+  "detail": {
+    "visitWebsite": "访问官网",
+    "about": "关于此资源"
+  },
+  "privacy": {
+    "title": "隐私政策",
+    "intro_title": "1. 引言",
+    "intro_text": "欢迎访问 CATAI（以下简称我们）。我们致力于保护您的隐私，并谨慎处理您的个人信息。本隐私政策说明了我们如何收集、使用和保护您访问 catai.cc.cd（本站）时的信息。",
+    "collect_title": "2. 我们收集的信息",
+    "collect_auto_title": "2.1 自动收集的信息",
+    "collect_auto_text": "当您访问本站时，我们可能自动收集：",
+    "collect_auto_items": ["浏览器类型和版本", "操作系统", "来源网站", "访问页面和停留时间", "IP 地址（尽可能匿名）", "设备类型和屏幕分辨率"],
+    "collect_user_title": "2.2 您提供的信息",
+    "collect_user_text": "当您通过提交表单提交 AI 工具时，我们会收集您自愿提供的工具名称、链接、描述和分类。",
+    "use_title": "3. 我们如何使用您的信息",
+    "use_text": "我们使用收集的信息来：",
+    "use_items": ["运营和维护本站", "改善用户体验和网站性能", "分析流量和使用模式", "通过第三方服务展示相关广告", "处理工具提交"],
+    "third_title": "4. 第三方服务",
+    "third_text": "本站使用以下第三方服务：",
+    "third_items": ["Google Analytics - 分析网站流量和使用模式", "Google AdSense - 展示广告", "Cloudflare - CDN 和安全服务", "Vercel - 网站托管"],
+    "third_text2": "这些服务可能根据其各自的隐私政策收集和处理数据，建议您查阅相关政策。",
+    "cookies_title": "5. Cookie",
+    "cookies_text": "我们使用 Cookie 和类似跟踪技术来提升您的体验。您可以通过浏览器设置控制 Cookie。",
+    "links_title": "6. 外部链接",
+    "links_text": "本站包含指向外部 AI 工具和服务的链接。我们不对这些外部网站的隐私行为或内容负责，建议您阅读相关网站的隐私政策。",
+    "security_title": "7. 数据安全",
+    "security_text": "我们采取合理的安全措施保护您的信息。但互联网传输方式无法保证 100% 安全。",
+    "rights_title": "8. 您的权利（GDPR 及全球隐私法）",
+    "rights_text": "根据您所在地区，您可能拥有以下权利：",
+    "rights_items": ["访问我们持有的您的个人数据", "要求更正不准确的数据", "要求删除您的数据", "反对或限制数据处理", "数据可携带权", "随时撤回同意"],
+    "rights_text2": "如需行使上述权利，请通过下方联系方式与我们联系。",
+    "children_title": "9. 儿童隐私",
+    "children_text": "本站不面向 13 岁以下儿童，我们不会故意收集 13 岁以下儿童的个人信息。",
+    "changes_title": "10. 政策变更",
+    "changes_text": "我们可能不时更新本隐私政策。变更将在此页面发布，并更新最后更新日期。继续使用本站即表示接受修订后的政策。",
+    "contact_title": "11. 联系我们",
+    "contact_text": "如对本隐私政策有疑问，请联系我们："
+  },
+  "disclaimer": {
+    "title": "免责声明",
+    "general_title": "1. 一般免责声明",
+    "general_text": "CATAI（本站）提供的信息仅供一般参考。虽然我们努力保持信息的及时性和准确性，但我们对本站信息的完整性、准确性、可靠性、适用性或可用性不作任何明示或暗示的陈述或保证。",
+    "endorse_title": "2. 非背书声明",
+    "endorse_text": "CATAI 是独立目录，不背书、推荐或保证本站列出的任何 AI 工具、服务或产品。列入任何工具不代表我们的认可或推荐。用户在使用任何列出的服务前应自行调查。",
+    "links_title": "3. 外部链接",
+    "links_text": "本站包含指向外部网站和服务的链接。我们不控制这些外部站点的内容、隐私政策或使用条款。点击任何第三方链接意味着您将离开本站，我们不对以下内容负责：",
+    "links_items": ["外部站点内容的准确性或可靠性", "外部站点的隐私行为", "因使用外部站点而产生的任何损害或损失", "所列工具可用性或缺能的变更"],
+    "pricing_title": "4. 工具可用性和定价",
+    "pricing_text": "本站列出的 AI 工具可能随时更改其功能、定价或可用性，恕不另行通知。我们不保证任何工具将保持免费、可用或可访问。用户应直接向工具提供商确认当前定价和功能。",
+    "submit_title": "5. 用户提交",
+    "submit_text": "用户可以提交 AI 工具以供收录。我们不验证提交工具的准确性、合法性或安全性。提交不保证收录，我们保留自行决定删除任何条目的权利。",
+    "risks_title": "6. AI 工具使用风险",
+    "risks_text": "使用本站列出的 AI 工具时，请注意：",
+    "risks_items": ["AI 生成的内容可能不准确或不完整", "您的数据可能根据各工具自身的隐私政策进行处理", "部分工具的服务条款可能影响您的权利", "AI 工具不应替代专业建议"],
+    "ads_title": "7. 广告",
+    "ads_text": "本站可能展示由第三方广告网络（如 Google AdSense）投放的广告。这些广告由第三方选择和投放，我们不对广告内容、准确性或观点负责。",
+    "liability_title": "8. 责任限制",
+    "liability_text": "在任何情况下，CATAI 及其所有者、运营者或关联方均不对任何直接、间接、附带、特殊、后果性或惩罚性损害负责，包括但不限于：",
+    "liability_items": ["利润、商誉、数据或其他无形损失的损害", "因使用或无法使用本站而产生的损害", "因依赖本站信息而产生的损害", "因未经授权访问或更改您的数据而产生的损害"],
+    "trademark_title": "9. 商标",
+    "trademark_text": "本站展示的所有商标、标志、品牌名称和服务标志均为其各自所有者的财产。使用这些标志不代表与所有者有关联或获得认可。CATAI 尊重他人的知识产权。",
+    "changes_title": "10. 免责声明变更",
+    "changes_text": "我们保留随时修改本免责声明的权利。变更在发布后立即生效。您继续使用本站即表示接受任何修改。",
+    "contact_title": "11. 联系方式",
+    "contact_text": "如对本免责声明有疑问，请联系我们："
+  }
+}

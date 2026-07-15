@@ -1,0 +1,141 @@
+{
+  "site": {
+    "title": "CATAI - AI Ecosystem Portal",
+    "description": "Your gateway to the global AI ecosystem. Discover AI models, agents, tools, and resources."
+  },
+  "nav": {
+    "home": "Home",
+    "submit": "Submit Resource",
+    "searchPlaceholder": "Search AI resources..."
+  },
+  "hero": {
+    "title": "Your Gateway to the AI Ecosystem",
+    "subtitle": "Discover AI models, agents, tools, and resources from around the world. Stay updated with the latest in artificial intelligence.",
+    "featured": "Featured Resources",
+    "explore": "Explore All"
+  },
+  "categories": {
+    "all": "All",
+    "Chat": "Chat & Assistants",
+    "Image": "Image Generation",
+    "Code": "Code & Development",
+    "Writing": "Writing & Content",
+    "Video": "Video & Animation",
+    "Audio": "Audio & Speech",
+    "Search": "Search & Research",
+    "Design": "Design & Creative",
+    "Agent": "AI Agents",
+    "Developer": "Developer Tools",
+    "Platform": "Platforms & Models"
+  },
+  "tags": {
+    "Free": "Free",
+    "Freemium": "Freemium",
+    "Paid": "Paid",
+    "Open Source": "Open Source",
+    "API": "API"
+  },
+  "submit": {
+    "title": "Submit an AI Resource",
+    "description": "Know a great AI tool, model, or resource? Share it with the global community!",
+    "toolName": "Resource Name",
+    "toolUrl": "Website URL",
+    "toolDescription": "Brief Description",
+    "toolCategory": "Category",
+    "submitBtn": "Submit",
+    "success": "Thank you! Your submission has been received and will be reviewed.",
+    "selectCategory": "Select a category"
+  },
+  "footer": {
+    "privacy": "Privacy Policy",
+    "disclaimer": "Disclaimer",
+    "copyright": "© 2025 CATAI. All rights reserved.",
+    "description": "Your gateway to the global AI ecosystem.",
+    "contact": "Contact Us"
+  },
+  "cta": {
+    "title": "Know a Great AI Resource?",
+    "description": "Help us build the most comprehensive AI ecosystem portal. Submit your favorite tools and resources!",
+    "button": "Submit a Resource"
+  },
+  "common": {
+    "visit": "Visit",
+    "noResults": "No resources found. Try a different search term.",
+    "featured": "Featured",
+    "about": "About",
+    "keyFeatures": "Key Features",
+    "pricing": "Pricing",
+    "useCases": "Use Cases",
+    "pros": "Pros",
+    "cons": "Cons",
+    "latestUpdate": "Latest Update",
+    "backToHome": "Back to Home",
+    "lastUpdated": "Last updated"
+  },
+  "detail": {
+    "visitWebsite": "Visit Website",
+    "about": "About This Resource"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "intro_title": "1. Introduction",
+    "intro_text": "Welcome to CATAI (\"we\", \"our\", or \"us\"). We are committed to protecting your privacy and handling your personal information with care. This Privacy Policy explains how we collect, use, and safeguard information when you visit our website at catai.cc.cd (the \"Site\").",
+    "collect_title": "2. Information We Collect",
+    "collect_auto_title": "2.1 Automatically Collected Information",
+    "collect_auto_text": "When you access our Site, we may automatically collect:",
+    "collect_auto_items": ["Browser type and version", "Operating system", "Referring website", "Pages visited and time spent on each page", "IP address (anonymized where possible)", "Device type and screen resolution"],
+    "collect_user_title": "2.2 Information You Provide",
+    "collect_user_text": "When you submit an AI tool through our submission form, we collect the tool name, URL, description, and category that you voluntarily provide.",
+    "use_title": "3. How We Use Your Information",
+    "use_text": "We use collected information to:",
+    "use_items": ["Operate and maintain the Site", "Improve user experience and site performance", "Analyze traffic and usage patterns", "Display relevant advertisements through third-party services", "Process tool submissions"],
+    "third_title": "4. Third-Party Services",
+    "third_text": "Our Site uses the following third-party services:",
+    "third_items": ["Google Analytics - To analyze website traffic and usage patterns", "Google AdSense - To display advertisements", "Cloudflare - For CDN and security services", "Vercel - For website hosting"],
+    "third_text2": "These services may collect and process data according to their own privacy policies. We encourage you to review their policies.",
+    "cookies_title": "5. Cookies",
+    "cookies_text": "We use cookies and similar tracking technologies to enhance your experience on our Site. You can control cookie settings through your browser preferences.",
+    "links_title": "6. External Links",
+    "links_text": "Our Site contains links to external AI tools and services. We are not responsible for the privacy practices or content of these external sites. We encourage you to read the privacy policies of any website you visit.",
+    "security_title": "7. Data Security",
+    "security_text": "We implement reasonable security measures to protect your information. However, no method of transmission over the Internet is 100% secure, and we cannot guarantee absolute security.",
+    "rights_title": "8. Your Rights (GDPR & Global Privacy Laws)",
+    "rights_text": "Depending on your location, you may have the right to:",
+    "rights_items": ["Access the personal data we hold about you", "Request correction of inaccurate data", "Request deletion of your data", "Object to or restrict data processing", "Data portability", "Withdraw consent at any time"],
+    "rights_text2": "To exercise these rights, please contact us using the information below.",
+    "children_title": "9. Children's Privacy",
+    "children_text": "Our Site is not intended for children under 13 years of age. We do not knowingly collect personal information from children under 13.",
+    "changes_title": "10. Changes to This Policy",
+    "changes_text": "We may update this Privacy Policy from time to time. Changes will be posted on this page with an updated \"Last updated\" date. Continued use of the Site after changes constitutes acceptance of the revised policy.",
+    "contact_title": "11. Contact Us",
+    "contact_text": "If you have questions about this Privacy Policy, please contact us at:"
+  },
+  "disclaimer": {
+    "title": "Disclaimer",
+    "general_title": "1. General Disclaimer",
+    "general_text": "The information provided on CATAI (the \"Site\") is for general informational purposes only. While we strive to keep the information up to date and accurate, we make no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, suitability, or availability of the information, products, services, or related graphics contained on the Site.",
+    "endorse_title": "2. No Endorsement",
+    "endorse_text": "CATAI is an independent directory and does not endorse, recommend, or guarantee any AI tools, services, or products listed on this Site. The inclusion of any tool does not imply our approval or recommendation. Users should conduct their own research before using any listed service.",
+    "links_title": "3. External Links",
+    "links_text": "The Site contains links to external websites and services. We do not control the content, privacy practices, or terms of use of these external sites. Clicking on any third-party link means you are leaving our Site, and we are not responsible for:",
+    "links_items": ["The accuracy or reliability of content on external sites", "The privacy practices of external sites", "Any damages or losses resulting from your use of external sites", "Changes in availability or functionality of listed tools"],
+    "pricing_title": "4. Tool Availability and Pricing",
+    "pricing_text": "AI tools listed on our Site may change their features, pricing, or availability at any time without notice. We do not guarantee that any tool will remain free, functional, or accessible. Users should verify current pricing and features directly with the tool providers.",
+    "submit_title": "5. User Submissions",
+    "submit_text": "Users may submit AI tools for inclusion on our Site. We do not verify the accuracy, legality, or safety of submitted tools. Submission does not guarantee inclusion, and we reserve the right to remove any listing at our discretion.",
+    "risks_title": "6. AI Tool Usage Risks",
+    "risks_text": "When using AI tools listed on our Site, please be aware that:",
+    "risks_items": ["AI-generated content may be inaccurate or incomplete", "Your data may be processed according to each tool's own privacy policy", "Some tools may have terms of service that affect your rights", "AI tools should not be used as a substitute for professional advice"],
+    "ads_title": "7. Advertisements",
+    "ads_text": "The Site may display advertisements served by third-party advertising networks (such as Google AdSense). These advertisements are selected and served by third parties, and we are not responsible for the content, accuracy, or opinions expressed in such advertising.",
+    "liability_title": "8. Limitation of Liability",
+    "liability_text": "In no event shall CATAI, its owners, operators, or affiliates be liable for any direct, indirect, incidental, special, consequential, or exemplary damages, including but not limited to:",
+    "liability_items": ["Damages for loss of profits, goodwill, data, or other intangible losses", "Damages resulting from your use or inability to use the Site", "Damages resulting from any reliance on information provided on the Site", "Damages resulting from unauthorized access to or alteration of your data"],
+    "trademark_title": "9. Trademarks",
+    "trademark_text": "All trademarks, logos, brand names, and service marks displayed on the Site are the property of their respective owners. Their use does not imply any affiliation with or endorsement by these owners. CATAI respects the intellectual property rights of others.",
+    "changes_title": "10. Changes to This Disclaimer",
+    "changes_text": "We reserve the right to modify this Disclaimer at any time. Changes will be effective immediately upon posting on the Site. Your continued use of the Site constitutes acceptance of any modifications.",
+    "contact_title": "11. Contact",
+    "contact_text": "If you have any questions about this Disclaimer, please contact us at:"
+  }
+}
