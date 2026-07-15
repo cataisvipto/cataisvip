@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CATAI 网站运营手册</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+      line-height: 1.8;
+      color: #333;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      min-height: 100vh;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      background: white;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+    }
+    header {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 60px 40px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+      font-weight: 700;
+    }
+    header p {
+      font-size: 1.1em;
+      opacity: 0.95;
+    }
+    .meta {
+      margin-top: 20px;
+      font-size: 0.9em;
+      opacity: 0.8;
+    }
+    nav {
+      background: #f8f9fa;
+      padding: 20px 40px;
+      border-bottom: 2px solid #e9ecef;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    nav h3 {
+      color: #667eea;
+      margin-bottom: 10px;
+      font-size: 1em;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    nav li a {
+      color: #495057;
+      text-decoration: none;
+      padding: 6px 12px;
+      border-radius: 6px;
+      font-size: 0.9em;
+      transition: all 0.2s;
+      display: block;
+    }
+    nav li a:hover {
+      background: #667eea;
+      color: white;
+    }
+    main {
+      padding: 40px;
+    }
+    section {
+      margin-bottom: 50px;
+      padding-bottom: 30px;
+      border-bottom: 2px solid #f1f3f5;
+    }
+    section:last-child {
+      border-bottom: none;
+    }
+    h2 {
+      color: #667eea;
+      font-size: 1.8em;
+      margin-bottom: 20px;
+      padding-bottom: 10px;
+      border-bottom: 3px solid #667eea;
+    }
+    h3 {
+      color: #764ba2;
+      font-size: 1.3em;
+      margin: 25px 0 15px;
+    }
+    h4 {
+      color: #495057;
+      font-size: 1.1em;
+      margin: 20px 0 10px;
+    }
+    p {
+      margin-bottom: 15px;
+    }
+    ul, ol {
+      margin: 15px 0 15px 30px;
+    }
+    li {
+      margin-bottom: 8px;
+    }
+    code {
+      background: #f8f9fa;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-family: 'Consolas', 'Monaco', monospace;
+      font-size: 0.9em;
+      color: #e83e8c;
+    }
+    pre {
+      background: #2d3748;
+      color: #e2e8f0;
+      padding: 20px;
+      border-radius: 8px;
+      overflow-x: auto;
+      margin: 15px 0;
+      line-height: 1.6;
+    }
+    pre code {
+      background: none;
+      color: inherit;
+      padding: 0;
+    }
+    .info-box {
+      background: #e7f5ff;
+      border-left: 4px solid #339af0;
+      padding: 15px 20px;
+      margin: 20px 0;
+      border-radius: 6px;
+    }
+    .warning-box {
+      background: #fff9db;
+      border-left: 4px solid #fcc419;
+      padding: 15px 20px;
+      margin: 20px 0;
+      border-radius: 6px;
+    }
+    .success-box {
+      background: #d3f9d8;
+      border-left: 4px solid #51cf66;
+      padding: 15px 20px;
+      margin: 20px 0;
+      border-radius: 6px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+    th {
+      background: #667eea;
+      color: white;
+      padding: 12px;
+      text-align: left;
+      font-weight: 600;
+    }
+    td {
+      padding: 12px;
+      border-bottom: 1px solid #e9ecef;
+    }
+    tr:hover {
+      background: #f8f9fa;
+    }
+    .checklist {
+      list-style: none;
+      margin-left: 0;
+    }
+    .checklist li {
+      padding: 8px 0 8px 30px;
+      position: relative;
+    }
+    .checklist li::before {
+      content: '☐';
+      position: absolute;
+      left: 0;
+      color: #667eea;
+      font-size: 1.2em;
+    }
+    .file-tree {
+      background: #f8f9fa;
+      padding: 20px;
+      border-radius: 8px;
+      font-family: 'Consolas', monospace;
+      line-height: 1.8;
+    }
+    .tag {
+      display: inline-block;
+      background: #e7f5ff;
+      color: #1971c2;
+      padding: 4px 12px;
+      border-radius: 12px;
+      font-size: 0.85em;
+      margin: 2px;
+    }
+    footer {
+      background: #f8f9fa;
+      padding: 30px 40px;
+      text-align: center;
+      color: #868e96;
+      font-size: 0.9em;
+    }
+    @media (max-width: 768px) {
+      header { padding: 40px 20px; }
+      header h1 { font-size: 1.8em; }
+      main { padding: 20px; }
+      nav { padding: 15px 20px; }
+      nav ul { gap: 5px; }
+      table { font-size: 0.9em; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>📘 CATAI 网站运营手册</h1>
+      <p>AI 生态门户 - 完整运营指南</p>
+      <div class="meta">
+        <div>版本：v1.0 | 最后更新：2025年7月</div>
+        <div>适用对象：站长 / 运营人员</div>
+      </div>
+    </header>
+
+    <nav>
+      <h3>📑 快速导航</h3>
+      <ul>
+        <li><a href="#overview">项目概述</a></li>
+        <li><a href="#deploy">首次部署</a></li>
+        <li><a href="#maintenance">日常维护</a></li>
+        <li><a href="#update">内容更新</a></li>
+        <li><a href="#monitor">监控分析</a></li>
+        <li><a href="#seo">SEO优化</a></li>
+        <li><a href="#troubleshoot">故障排查</a></li>
+        <li><a href="#backup">备份回滚</a></li>
+        <li><a href="#performance">性能优化</a></li>
+        <li><a href="#future">未来规划</a></li>
+        <li><a href="#commands">命令速查</a></li>
+        <li><a href="#contact">联系支持</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section id="overview">
+        <h2>1. 项目概述</h2>
+        
+        <h3>网站信息</h3>
+        <table>
+          <tr><th>项目</th><th>信息</th></tr>
+          <tr><td>域名</td><td>catai.cc.cd</td></tr>
+          <tr><td>定位</td><td>AI 生态门户（AI Ecosystem Portal）</td></tr>
+          <tr><td>技术栈</td><td>Next.js 16 + TypeScript + Tailwind CSS</td></tr>
+          <tr><td>部署平台</td><td>Vercel</td></tr>
+          <tr><td>DNS 托管</td><td>Cloudflare</td></tr>
+          <tr><td>代码托管</td><td>GitHub</td></tr>
+        </table>
+
+        <h3>核心功能</h3>
+        <div class="success-box">
+          <strong>✅ 已实现功能：</strong>
+          <ul style="margin-top: 10px;">
+            <li>37+ AI 工具导航</li>
+            <li>中英文双语支持</li>
+            <li>工具详情页（核心功能、定价、使用场景、优缺点）</li>
+            <li>响应式设计（手机/平板/电脑）</li>
+            <li>SEO 优化（静态生成、结构化数据、sitemap）</li>
+            <li>Google Analytics 数据追踪</li>
+            <li>隐私政策 & 免责声明（多语言）</li>
+          </ul>
+        </div>
+
+        <h3>文件结构</h3>
+        <div class="file-tree">
+catai/<br>
+├── src/<br>
+│   ├── app/              <span style="color: #868e96;"># 页面</span><br>
+│   │   ├── [locale]/     <span style="color: #868e96;"># 多语言页面</span><br>
+│   │   │   ├── tool/[slug]/  <span style="color: #868e96;"># 工具详情页</span><br>
+│   │   │   ├── privacy/  <span style="color: #868e96;"># 隐私政策</span><br>
+│   │   │   ├── disclaimer/ <span style="color: #868e96;"># 免责声明</span><br>
+│   │   │   └── submit/   <span style="color: #868e96;"># 提交页面</span><br>
+│   │   └── GoogleAnalytics.tsx  <span style="color: #868e96;"># 统计代码</span><br>
+│   ├── components/       <span style="color: #868e96;"># 组件</span><br>
+│   ├── data/             <span style="color: #868e96;"># 数据文件 ⭐</span><br>
+│   │   ├── tools.json    <span style="color: #868e96;"># 工具列表</span><br>
+│   │   └── toolDetails.json  <span style="color: #868e96;"># 工具详情</span><br>
+│   └── i18n/             <span style="color: #868e96;"># 国际化配置</span><br>
+├── messages/             <span style="color: #868e96;"># 翻译文件</span><br>
+│   ├── en.json           <span style="color: #868e96;"># 英文翻译</span><br>
+│   └── zh.json           <span style="color: #868e96;"># 中文翻译</span><br>
+├── tool-editor.html      <span style="color: #868e96;"># 可视化工具编辑器</span><br>
+└── package.json          <span style="color: #868e96;"># 项目配置</span>
+        </div>
+      </section>
+
+      <section id="deploy">
+        <h2>2. 首次部署指南</h2>
+        
+        <h3>第一步：创建 GitHub 仓库</h3>
+        <ol>
+          <li>访问 <a href="https://github.com/new" target="_blank">https://github.com/new</a></li>
+          <li>填写信息：
+            <ul>
+              <li><strong>Repository name</strong>：catai</li>
+              <li><strong>Description</strong>：AI Ecosystem Portal</li>
+              <li><strong>Public</strong>（公开）</li>
+              <li><strong>不要</strong>勾选 "Add a README file"</li>
+            </ul>
+          </li>
+          <li>点击 <strong>Create repository</strong></li>
+        </ol>
+
+        <h3>第二步：推送代码到 GitHub</h3>
+        <pre><code># 添加远程仓库（替换为你的用户名）
+git remote add origin https://github.com/你的用户名/catai.git
+
+# 推送代码
+git branch -M main
+git push -u origin main
+
+# 推送版本标签
+git push origin v1.0</code></pre>
+
+        <h3>第三步：部署到 Vercel</h3>
+        <ol>
+          <li>访问 <a href="https://vercel.com/signup" target="_blank">https://vercel.com/signup</a></li>
+          <li>使用 <strong>GitHub 账号</strong> 登录</li>
+          <li>点击 <strong>Add New Project</strong></li>
+          <li>选择 <code>catai</code> 仓库</li>
+          <li>配置保持不变，点击 <strong>Deploy</strong></li>
+          <li>等待 1-2 分钟，部署完成</li>
+        </ol>
+
+        <h3>第四步：配置域名</h3>
+        
+        <h4>4.1 在 Vercel 添加域名</h4>
+        <ol>
+          <li>进入项目 → <strong>Settings</strong> → <strong>Domains</strong></li>
+          <li>输入 <code>catai.cc.cd</code></li>
+          <li>点击 <strong>Add</strong></li>
+        </ol>
+
+        <h4>4.2 在 Cloudflare 配置 DNS</h4>
+        <ol>
+          <li>登录 Cloudflare，选择域名</li>
+          <li>进入 <strong>DNS</strong> → <strong>Records</strong></li>
+          <li>添加 CNAME 记录：
+            <ul>
+              <li><strong>Type</strong>：CNAME</li>
+              <li><strong>Name</strong>：@</li>
+              <li><strong>Target</strong>：cname.vercel-dns.com</li>
+              <li><strong>Proxy status</strong>：DNS only（关闭代理）</li>
+            </ul>
+          </li>
+          <li>保存，等待 5-10 分钟生效</li>
+        </ol>
+
+        <h3>第五步：提交 Google 收录</h3>
+        <ol>
+          <li>访问 <a href="https://search.google.com/search-console" target="_blank">Google Search Console</a></li>
+          <li>添加资源：https://catai.cc.cd</li>
+          <li>验证域名（DNS 验证）</li>
+          <li>提交 Sitemap：<code>https://catai.cc.cd/sitemap.xml</code></li>
+        </ol>
+      </section>
+
+      <section id="maintenance">
+        <h2>3. 日常维护</h2>
+        
+        <h3>每日检查（1分钟）</h3>
+        <ul class="checklist">
+          <li>访问网站，确认正常打开</li>
+          <li>检查中英文切换是否正常</li>
+          <li>查看 Google Analytics 实时数据</li>
+        </ul>
+
+        <h3>每周任务</h3>
+        <ul class="checklist">
+          <li>添加 3-5 个新工具</li>
+          <li>检查 Google Search Console 是否有错误</li>
+          <li>查看 Analytics 数据，分析流量来源</li>
+        </ul>
+
+        <h3>每月任务</h3>
+        <ul class="checklist">
+          <li>备份数据文件</li>
+          <li>检查所有链接是否有效</li>
+          <li>更新工具信息（如有变化）</li>
+          <li>分析 SEO 效果</li>
+        </ul>
+      </section>
+
+      <section id="update">
+        <h2>4. 内容更新</h2>
+        
+        <h3>方法一：使用可视化工具（推荐）</h3>
+        <div class="info-box">
+          <strong>📝 操作步骤：</strong>
+          <ol style="margin-top: 10px;">
+            <li>打开 <code>tool-editor.html</code></li>
+            <li>填写工具信息</li>
+            <li>点击"生成 JSON"</li>
+            <li>复制生成的代码</li>
+            <li>粘贴到 <code>src/data/tools.json</code></li>
+            <li>提交代码：
+              <pre style="margin-top: 10px;"><code>git add .
+git commit -m "添加新工具：XXX"
+git push</code></pre>
+            </li>
+          </ol>
+        </div>
+
+        <h3>方法二：直接编辑 JSON</h3>
+        
+        <h4>添加新工具</h4>
+        <p><strong>1. 编辑 tools.json</strong></p>
+        <p>在最后一个 <code>}</code> 后面加逗号，添加：</p>
+        <pre><code>{
+  "slug": "新工具标识",
+  "name": "English Name",
+  "nameZh": "中文名称",
+  "description": "中文描述",
+  "descriptionEn": "English description",
+  "url": "https://工具官网.com",
+  "logo": "https://www.google.com/s2/favicons?domain=工具官网.com&sz=128",
+  "category": "分类",
+  "tags": ["Free"],
+  "featured": false
+}</code></pre>
+
+        <p><strong>2. 编辑 toolDetails.json（可选）</strong></p>
+        <pre><code>"新工具标识": {
+  "features": {
+    "en": ["Feature 1", "Feature 2"],
+    "zh": ["功能1", "功能2"]
+  },
+  "useCases": {
+    "en": ["Use case 1"],
+    "zh": ["使用场景1"]
+  },
+  "pros": {
+    "en": ["Pros 1"],
+    "zh": ["优点1"]
+  },
+  "cons": {
+    "en": ["Cons 1"],
+    "zh": ["缺点1"]
+  },
+  "latestUpdate": {
+    "en": "Latest update",
+    "zh": "最新动态"
+  }
+}</code></pre>
+
+        <p><strong>3. 提交并部署</strong></p>
+        <pre><code>git add .
+git commit -m "添加新工具：XXX"
+git push</code></pre>
+      </section>
+
+      <section id="monitor">
+        <h2>5. 监控与分析</h2>
+        
+        <h3>Google Analytics</h3>
+        <table>
+          <tr><th>项目</th><th>信息</th></tr>
+          <tr><td>访问地址</td><td><a href="https://analytics.google.com" target="_blank">https://analytics.google.com</a></td></tr>
+          <tr><td>测量 ID</td><td><code>G-TZM2023RV7</code></td></tr>
+          <tr><td>查看内容</td><td>实时用户、页面浏览量、用户来源、设备类型</td></tr>
+        </table>
+
+        <h3>Google Search Console</h3>
+        <table>
+          <tr><th>项目</th><th>信息</th></tr>
+          <tr><td>访问地址</td><td><a href="https://search.google.com/search-console" target="_blank">https://search.google.com/search-console</a></td></tr>
+          <tr><td>查看内容</td><td>收录页面、搜索关键词、排名、点击率</td></tr>
+        </table>
+
+        <h3>Vercel Analytics</h3>
+        <table>
+          <tr><th>项目</th><th>信息</th></tr>
+          <tr><td>访问地址</td><td><a href="https://vercel.com/dashboard" target="_blank">https://vercel.com/dashboard</a></td></tr>
+          <tr><td>查看内容</td><td>页面访问量、性能指标、访客地区</td></tr>
+        </table>
+      </section>
+
+      <section id="seo">
+        <h2>6. SEO 优化</h2>
+        
+        <h3>已实现的优化</h3>
+        <div class="success-box">
+          <ul>
+            <li>✅ 静态生成（SSG）- 页面加载快</li>
+            <li>✅ 结构化数据（JSON-LD）- 搜索结果展示丰富</li>
+            <li>✅ Sitemap.xml - 帮助 Google 发现页面</li>
+            <li>✅ Robots.txt - 指导爬虫行为</li>
+            <li>✅ Meta 标签 - 标题、描述、关键词</li>
+            <li>✅ Open Graph - 社交媒体分享优化</li>
+            <li>✅ 语义化 HTML - 清晰的页面结构</li>
+            <li>✅ 多语言支持 - hreflang 标签</li>
+          </ul>
+        </div>
+
+        <h3>持续优化建议</h3>
+        <h4>1. 内容质量</h4>
+        <ul>
+          <li>每个工具添加详细描述（300+ 字）</li>
+          <li>添加使用教程和案例</li>
+          <li>定期更新工具信息</li>
+        </ul>
+
+        <h4>2. 内链建设</h4>
+        <ul>
+          <li>相关工具互相链接</li>
+          <li>分类页面链接到工具</li>
+        </ul>
+
+        <h4>3. 外链建设</h4>
+        <ul>
+          <li>在 AI 相关论坛分享</li>
+          <li>提交到导航网站</li>
+          <li>写客座文章</li>
+        </ul>
+      </section>
+
+      <section id="troubleshoot">
+        <h2>7. 故障排查</h2>
+        
+        <h3>网站无法访问</h3>
+        <div class="warning-box">
+          <strong>检查步骤：</strong>
+          <ol style="margin-top: 10px;">
+            <li>检查 Vercel 状态：https://vercel.com/dashboard</li>
+            <li>检查域名解析：<code>ping catai.cc.cd</code></li>
+            <li>检查部署日志：Vercel Dashboard → 项目 → Deployments</li>
+          </ol>
+        </div>
+
+        <h3>页面显示异常</h3>
+        <p><strong>常见原因：</strong></p>
+        <ul>
+          <li><strong>JSON 格式错误</strong>：访问 https://jsonlint.com/ 验证</li>
+          <li><strong>构建失败</strong>：本地运行 <code>npm run build</code> 测试</li>
+          <li><strong>缓存问题</strong>：清除浏览器缓存，硬刷新 Ctrl + F5</li>
+        </ul>
+
+        <h3>Logo 不显示</h3>
+        <p><strong>解决方案：</strong></p>
+        <ol>
+          <li>手动上传 Logo 到 <code>public/logos/</code> 文件夹</li>
+          <li>修改 tools.json 中的 logo 路径：<code>"logo": "/logos/工具名.png"</code></li>
+        </ol>
+      </section>
+
+      <section id="backup">
+        <h2>8. 备份与回滚</h2>
+        
+        <h3>自动备份（GitHub）</h3>
+        <div class="info-box">
+          所有代码自动保存在 GitHub，无需手动备份。
+        </div>
+
+        <h3>回滚到上一版本</h3>
+        <pre><code># 查看最近提交
+git log --oneline -5
+
+# 回滚到上一版本
+git reset --hard HEAD~1
+git push --force</code></pre>
+
+        <h3>回滚到指定版本</h3>
+        <pre><code># 查看所有版本
+git log --oneline
+
+# 回滚到 v1.0
+git reset --hard v1.0
+git push --force</code></pre>
+
+        <h3>只回滚特定文件</h3>
+        <pre><code># 恢复文件到指定版本
+git checkout v1.0 -- src/data/tools.json
+git commit -m "回滚 tools.json 到 v1.0"
+git push</code></pre>
+      </section>
+
+      <section id="performance">
+        <h2>9. 性能优化</h2>
+        
+        <h3>图片优化</h3>
+        <ul>
+          <li>使用 WebP 格式（体积更小）</li>
+          <li>压缩图片（使用 TinyPNG）</li>
+          <li>使用 CDN（Vercel 已内置）</li>
+        </ul>
+
+        <h3>监控性能</h3>
+        <p><strong>工具：</strong></p>
+        <ul>
+          <li>Google PageSpeed Insights</li>
+          <li>WebPageTest</li>
+          <li>Vercel Analytics</li>
+        </ul>
+
+        <p><strong>目标指标：</strong></p>
+        <table>
+          <tr><th>指标</th><th>目标值</th></tr>
+          <tr><td>First Contentful Paint (FCP)</td><td>&lt; 1.5s</td></tr>
+          <tr><td>Largest Contentful Paint (LCP)</td><td>&lt; 2.5s</td></tr>
+          <tr><td>Cumulative Layout Shift (CLS)</td><td>&lt; 0.1</td></tr>
+        </table>
+      </section>
+
+      <section id="future">
+        <h2>10. 未来规划</h2>
+        
+        <h3>第二期功能（建议）</h3>
+        <ul>
+          <li><strong>AI 新闻聚合</strong>：自动抓取 AI 行业新闻</li>
+          <li><strong>AI Agent 下载中心</strong>：Agent 市场、用户评价</li>
+          <li><strong>用户系统</strong>：注册/登录、收藏工具、提交工具</li>
+          <li><strong>评论系统</strong>：工具评价、用户讨论</li>
+          <li><strong>暗色模式</strong>：自动切换、用户偏好</li>
+        </ul>
+
+        <h3>变现方式</h3>
+        <ul>
+          <li><strong>Google AdSense</strong>：流量达到一定规模后申请</li>
+          <li><strong>联盟营销</strong>：AI 工具推荐链接，佣金收入</li>
+          <li><strong>付费收录</strong>：工具优先展示、特色标签</li>
+          <li><strong>赞助内容</strong>：工具评测、专题文章</li>
+        </ul>
+      </section>
+
+      <section id="commands">
+        <h2>11. 常用命令速查</h2>
+        
+        <h3>本地开发</h3>
+        <pre><code>npm run dev          # 启动开发服务器
+npm run build        # 构建生产版本
+npm start            # 运行生产版本
+npm run lint         # 代码检查</code></pre>
+
+        <h3>Git 操作</h3>
+        <pre><code>git status           # 查看状态
+git add .            # 添加所有修改
+git commit -m "说明" # 提交
+git push             # 推送到 GitHub
+git log --oneline    # 查看历史</code></pre>
+
+        <h3>回滚操作</h3>
+        <pre><code>git reset --hard HEAD~1    # 回滚到上一版本
+git push --force           # 强制推送
+git reset --hard v1.0      # 回滚到 v1.0</code></pre>
+      </section>
+
+      <section id="contact">
+        <h2>12. 联系与支持</h2>
+        
+        <h3>项目联系方式</h3>
+        <table>
+          <tr><th>项目</th><th>信息</th></tr>
+          <tr><td>邮箱</td><td>cataisvip@gmail.com</td></tr>
+          <tr><td>网站</td><td>https://catai.cc.cd</td></tr>
+        </table>
+
+        <h3>技术支持</h3>
+        <ul>
+          <li><strong>Next.js 文档</strong>：https://nextjs.org/docs</li>
+          <li><strong>Vercel 文档</strong>：https://vercel.com/docs</li>
+          <li><strong>next-intl 文档</strong>：https://next-intl-docs.vercel.app</li>
+        </ul>
+
+        <h3>相关账号</h3>
+        <ul>
+          <li><strong>GitHub</strong>：（你的 GitHub 账号）</li>
+          <li><strong>Vercel</strong>：（你的 Vercel 账号）</li>
+          <li><strong>Cloudflare</strong>：（你的 Cloudflare 账号）</li>
+          <li><strong>Google Analytics</strong>：G-TZM2023RV7</li>
+          <li><strong>Google Search Console</strong>：catai.cc.cd</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <p><strong>文档版本</strong>：v1.0 | <strong>最后更新</strong>：2025年7月 | <strong>维护者</strong>：CATAI 团队</p>
+      <p style="margin-top: 10px;">📘 CATAI 网站运营手册 - 完整运营指南</p>
+    </footer>
+  </div>
+</body>
+</html>
