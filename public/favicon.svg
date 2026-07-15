@@ -2,34 +2,23 @@
   <defs>
     <linearGradient id="mainGradient" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
-      <stop offset="50%" style="stop-color:#764ba2;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#f093fb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
     </linearGradient>
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="1" result="coloredBlur"/>
-      <feMerge>
-        <feMergeNode in="coloredBlur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
   </defs>
   
-  <!-- 背景圆角 -->
-  <rect width="64" height="64" rx="14" ry="14" fill="white"/>
-  <rect width="64" height="64" rx="14" ry="14" fill="url(#mainGradient)" opacity="0.05"/>
+  <!-- 背景 -->
+  <rect width="64" height="64" rx="14" ry="14" fill="url(#mainGradient)"/>
   
-  <!-- C -->
-  <path d="M 12 32 Q 12 16 24 16 L 30 16 L 30 20 L 25 20 Q 16 20 16 32 Q 16 44 25 44 L 30 44 L 30 48 L 24 48 Q 12 48 12 32 Z" 
-        fill="url(#mainGradient)" filter="url(#glow)"/>
+  <!-- 大写字母 C - 简洁清晰 -->
+  <path d="M 38 20 Q 38 14 32 14 Q 20 14 20 32 Q 20 50 32 50 Q 38 50 38 44 L 34 44 Q 34 46 32 46 Q 24 46 24 32 Q 24 18 32 18 Q 34 18 34 20 Z" 
+        fill="white"/>
   
-  <!-- A -->
-  <path d="M 32 48 L 38 16 L 42 16 L 48 48 L 44 48 L 42 40 L 34 40 L 32 48 Z M 35 36 L 41 36 L 38 24 Z" 
-        fill="url(#mainGradient)" filter="url(#glow)"/>
+  <!-- AI 装饰点 -->
+  <circle cx="44" cy="22" r="3" fill="white" opacity="0.9"/>
+  <circle cx="48" cy="32" r="2.5" fill="white" opacity="0.7"/>
+  <circle cx="44" cy="42" r="3" fill="white" opacity="0.9"/>
   
-  <!-- AI 连接点装饰 -->
-  <circle cx="52" cy="22" r="2.5" fill="url(#mainGradient)" opacity="0.7"/>
-  <circle cx="56" cy="32" r="2" fill="url(#mainGradient)" opacity="0.5"/>
-  <circle cx="52" cy="42" r="2.5" fill="url(#mainGradient)" opacity="0.7"/>
-  <line x1="52" y1="22" x2="56" y2="32" stroke="url(#mainGradient)" stroke-width="1" opacity="0.4"/>
-  <line x1="56" y1="32" x2="52" y2="42" stroke="url(#mainGradient)" stroke-width="1" opacity="0.4"/>
+  <!-- 连接线 -->
+  <line x1="44" y1="22" x2="48" y2="32" stroke="white" stroke-width="1.5" opacity="0.5"/>
+  <line x1="48" y1="32" x2="44" y2="42" stroke="white" stroke-width="1.5" opacity="0.5"/>
 </svg>
