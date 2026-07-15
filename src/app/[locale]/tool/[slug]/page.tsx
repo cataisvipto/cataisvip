@@ -3,15 +3,20 @@ import { notFound } from 'next/navigation';
 import tools from '@/data/tools.json';
 import { Tool } from '@/components/ToolCard';
 import ToolDetailClient from './ToolDetailClient';
+import { routing } from '@/i18n/routing';
 
 interface Props {
   params: Promise<{ locale: string; slug: string }>;
 }
 
 export async function generateStaticParams() {
-  return tools.map((tool) => ({
-    slug: tool.slug,
-  }));
+  const params = [];
+  for (const locale of routing.locales) {
+    for (const tool of tools) {
+      params.push({ locale, slug: tool.slug });
+    }
+  }
+  return params;
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
