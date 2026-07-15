@@ -24,7 +24,7 @@ export default function PrivacyClient() {
 
         <article className="prose prose-gray max-w-none">
           <h1 className="text-3xl font-bold text-gray-900 mb-2">{t('title')}</h1>
-          <p className="text-sm text-gray-500 mb-8">{tCommon('lastUpdated')}: July 15, 2025</p>
+          <p className="text-sm text-gray-500 mb-8">{tCommon('lastUpdated')}: July 15, 2026</p>
 
           <div className="space-y-6 text-gray-700 leading-relaxed">
             <section>
