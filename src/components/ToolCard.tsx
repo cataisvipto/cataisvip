@@ -33,6 +33,7 @@ const TAG_COLORS: Record<string, string> = {
 
 export default function ToolCard({ tool, locale }: ToolCardProps) {
   const t = useTranslations('common');
+  const tTags = useTranslations('tags');
   const tCategories = useTranslations('categories');
   const description = locale === 'zh' ? tool.description : tool.descriptionEn;
   const displayName = locale === 'zh' && tool.nameZh ? tool.nameZh : tool.name;
@@ -78,7 +79,7 @@ export default function ToolCard({ tool, locale }: ToolCardProps) {
             key={tag}
             className={`px-2 py-0.5 rounded-md text-xs font-medium ${TAG_COLORS[tag] || 'bg-gray-100 text-gray-600'}`}
           >
-            {locale === 'zh' ? t(tag as any) : tag}
+            {tTags(tag as any)}
           </span>
         ))}
       </div>

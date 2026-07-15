@@ -1,12 +1,12 @@
 {
   "chatgpt": {
     "features": {
-      "en": ["GPT-4o multimodal understanding (text, image, voice)", "Advanced data analysis & code interpreter", "DALL-E 3 image generation", "Custom GPTs agents", "ChatGPT Search real-time web search", "Memory function for user preferences"],
-      "zh": ["GPT-4o 多模态理解（文本、图像、语音）", "高级数据分析与代码解释器", "DALL-E 3 图像生成", "自定义 GPTs 智能体", "ChatGPT Search 实时联网搜索", "记忆功能，记住用户偏好"]
+      "en": ["GPT-5 advanced reasoning and multimodal AI", "Real-time voice and video conversation", "Advanced data analysis & code interpreter", "DALL-E 3 image generation", "Custom GPTs agents with memory", "ChatGPT Search with deep research"],
+      "zh": ["GPT-5 高级推理与多模态 AI", "实时语音和视频对话", "高级数据分析与代码解释器", "DALL-E 3 图像生成", "自定义 GPTs 智能体（带记忆）", "ChatGPT Search 深度研究搜索"]
     },
     "pricing": {
       "free": {"en": "Basic models (GPT-4o mini)", "zh": "基础模型（GPT-4o mini）"},
-      "plus": {"en": "$20/month (GPT-4o, advanced features)", "zh": "$20/月（GPT-4o、高级功能）"},
+      "plus": {"en": "$20/month (GPT-5, advanced features)", "zh": "$20/月（GPT-5、高级功能）"},
       "pro": {"en": "$200/month (unlimited advanced models)", "zh": "$200/月（无限高级模型）"},
       "team": {"en": "$25/user/month (team collaboration)", "zh": "$25/人/月（团队协作）"},
       "enterprise": {"en": "Custom pricing (enterprise security)", "zh": "定制价格（企业级安全）"}
@@ -15,97 +15,97 @@
       "en": ["Daily Q&A and knowledge queries", "Code writing and debugging", "Content creation and copywriting", "Data analysis and visualization", "Image generation and editing", "Language learning and translation"],
       "zh": ["日常问答与知识查询", "代码编写与调试", "内容创作与文案撰写", "数据分析与可视化", "图像生成与编辑", "语言学习与翻译"]
     },
-    "pros": {"en": ["Industry-leading AI models", "Comprehensive features and ecosystem", "Multi-platform support (Web, iOS, Android)", "Continuous updates"], "zh": ["业界领先的 AI 模型", "功能全面，生态完善", "多平台支持（Web、iOS、Android）", "持续更新迭代"]},
+    "pros": {"en": ["Industry-leading GPT-5 AI models", "Comprehensive features and ecosystem", "Multi-platform support (Web, iOS, Android)", "Continuous updates and improvements"], "zh": ["业界领先的 GPT-5 AI 模型", "功能全面，生态完善", "多平台支持（Web、iOS、Android）", "持续更新迭代"]},
     "cons": {"en": ["Limited free version features", "Possible rate limiting during peak hours", "Handle privacy data with caution"], "zh": ["免费版功能受限", "高峰期可能限流", "隐私数据需谨慎处理"]},
-    "latestUpdate": {"en": "July 2025: Launched GPT-4o multimodal model with real-time voice conversation and image understanding", "zh": "2025年7月：推出 GPT-4o 多模态模型，支持实时语音对话和图像理解"}
+    "latestUpdate": {"en": "July 2026: GPT-5 released with enhanced reasoning, real-time video understanding, and improved code generation", "zh": "2026年7月：GPT-5 发布，增强推理能力、实时视频理解和代码生成"}
   },
   "claude": {
-    "features": {"en": ["Claude 4 ultra-long context (200K tokens)", "Computer Use capability", "Artifacts real-time code preview", "Projects knowledge management", "Multimodal understanding (text, image)", "API integration and custom apps"], "zh": ["Claude 4 超长上下文（200K tokens）", "Computer Use 计算机操作能力", "Artifacts 实时代码预览", "Projects 项目级知识管理", "多模态理解（文本、图像）", "API 集成与自定义应用"]},
-    "pricing": {"free": {"en": "Basic conversation", "zh": "基础对话功能"}, "pro": {"en": "$20/month (Claude 4, advanced)", "zh": "$20/月（Claude 4、高级功能）"}, "team": {"en": "$25/user/month (team)", "zh": "$25/人/月（团队协作）"}, "enterprise": {"en": "Custom pricing (enterprise)", "zh": "定制价格（企业级）"}},
+    "features": {"en": ["Claude 4.5 ultra-long context (500K tokens)", "Computer Use desktop automation", "Artifacts real-time code preview", "Projects knowledge management", "Multimodal understanding (text, image, video)", "API integration and custom apps"], "zh": ["Claude 4.5 超长上下文（500K tokens）", "Computer Use 桌面自动化", "Artifacts 实时代码预览", "Projects 项目级知识管理", "多模态理解（文本、图像、视频）", "API 集成与自定义应用"]},
+    "pricing": {"free": {"en": "Basic conversation", "zh": "基础对话功能"}, "pro": {"en": "$20/month (Claude 4.5, advanced)", "zh": "$20/月（Claude 4.5、高级功能）"}, "team": {"en": "$25/user/month (team)", "zh": "$25/人/月（团队协作）"}, "enterprise": {"en": "Custom pricing (enterprise)", "zh": "定制价格（企业级）"}},
     "useCases": {"en": ["Long document analysis", "Code development and review", "Creative writing", "Data analysis and reports", "Research and academic writing", "Automated task processing"], "zh": ["长文档分析与总结", "代码开发与审查", "创意写作与内容生成", "数据分析与报告", "研究与学术写作", "自动化任务处理"]},
-    "pros": {"en": ["Ultra-long context processing", "High-quality code generation", "Strong security and compliance", "Artifacts live preview"], "zh": ["超长上下文处理能力", "代码生成质量高", "安全性与合规性强", "Artifacts 实时预览功能"]},
+    "pros": {"en": ["Ultra-long context processing", "High-quality code generation", "Strong security and compliance", "Computer Use automation"], "zh": ["超长上下文处理能力", "代码生成质量高", "安全性与合规性强", "Computer Use 自动化能力"]},
     "cons": {"en": ["Limited free version", "Weaker image generation", "Some features Pro-only"], "zh": ["免费版限制较多", "图像生成能力较弱", "部分功能仅限 Pro"]},
-    "latestUpdate": {"en": "July 2025: Claude 4 released with Computer Use and longer context window", "zh": "2025年7月：Claude 4 发布，支持 Computer Use 和更长的上下文窗口"}
+    "latestUpdate": {"en": "July 2026: Claude 4.5 released with Computer Use 2.0, 500K context, and enhanced coding capabilities", "zh": "2026年7月：Claude 4.5 发布，支持 Computer Use 2.0、500K 上下文和增强编码能力"}
   },
   "gemini": {
-    "features": {"en": ["Gemini 2.5 Pro multimodal", "Google Search deep integration", "200K tokens context window", "Google Workspace integration", "Image generation and editing", "Code generation and execution"], "zh": ["Gemini 2.5 Pro 多模态模型", "Google 搜索深度整合", "200K tokens 上下文窗口", "Google Workspace 集成", "图像生成与编辑", "代码生成与执行"]},
-    "pricing": {"free": {"en": "Gemini 2.0 Flash", "zh": "Gemini 2.0 Flash"}, "advanced": {"en": "$19.99/month (Gemini 2.5 Pro)", "zh": "$19.99/月（Gemini 2.5 Pro）"}, "ultra": {"en": "$249.99/month (full features)", "zh": "$249.99/月（完整功能）"}},
-    "useCases": {"en": ["Smart search and information", "Document processing", "Email writing", "Image editing", "Code-assisted development", "Learning and research"], "zh": ["智能搜索与信息获取", "文档处理与总结", "邮件撰写与回复", "图像编辑与生成", "代码辅助开发", "学习与研究"]},
-    "pros": {"en": ["Google Search real-time integration", "Strong multimodal capabilities", "Deep Google ecosystem integration", "Rich free features"], "zh": ["Google 搜索实时整合", "多模态能力强", "与 Google 生态深度集成", "免费版功能丰富"]},
+    "features": {"en": ["Gemini 3.0 Pro multimodal", "Google Search deep integration", "1M tokens context window", "Google Workspace integration", "Image and video generation", "Code generation and execution"], "zh": ["Gemini 3.0 Pro 多模态模型", "Google 搜索深度整合", "1M tokens 上下文窗口", "Google Workspace 集成", "图像和视频生成", "代码生成与执行"]},
+    "pricing": {"free": {"en": "Gemini 2.5 Flash", "zh": "Gemini 2.5 Flash"}, "advanced": {"en": "$19.99/month (Gemini 3.0 Pro)", "zh": "$19.99/月（Gemini 3.0 Pro）"}, "ultra": {"en": "$249.99/month (full features)", "zh": "$249.99/月（完整功能）"}},
+    "useCases": {"en": ["Smart search and information", "Document processing", "Email writing", "Image and video editing", "Code-assisted development", "Learning and research"], "zh": ["智能搜索与信息获取", "文档处理与总结", "邮件撰写与回复", "图像和视频编辑", "代码辅助开发", "学习与研究"]},
+    "pros": {"en": ["Google Search real-time integration", "Strong multimodal capabilities", "Deep Google ecosystem integration", "1M token context window"], "zh": ["Google 搜索实时整合", "多模态能力强", "与 Google 生态深度集成", "1M token 超长上下文"]},
     "cons": {"en": ["Privacy policy considerations", "Advanced features paid", "Chinese support needs improvement"], "zh": ["隐私政策需注意", "部分高级功能付费", "中文支持有待提升"]},
-    "latestUpdate": {"en": "July 2025: Gemini 2.5 Pro released with longer context and stronger reasoning", "zh": "2025年7月：Gemini 2.5 Pro 发布，支持更长上下文和更强推理能力"}
+    "latestUpdate": {"en": "July 2026: Gemini 3.0 Pro released with 1M context window and enhanced video understanding", "zh": "2026年7月：Gemini 3.0 Pro 发布，支持 1M 上下文窗口和增强视频理解"}
   },
   "deepseek": {
-    "features": {"en": ["DeepSeek-V3 open-source LLM", "DeepSeek-R1 reasoning model", "671B parameters", "MoE architecture efficient inference", "Code and math reasoning", "Highly competitive API pricing"], "zh": ["DeepSeek-V3 开源大模型", "DeepSeek-R1 推理模型", "671B 参数规模", "MoE 架构高效推理", "代码生成与数学推理", "API 价格极具竞争力"]},
+    "features": {"en": ["DeepSeek-V4 open-source LLM", "DeepSeek-R2 advanced reasoning", "1T+ parameters", "MoE architecture efficient inference", "Code and math reasoning", "Highly competitive API pricing"], "zh": ["DeepSeek-V4 开源大模型", "DeepSeek-R2 高级推理", "1T+ 参数规模", "MoE 架构高效推理", "代码生成与数学推理", "API 价格极具竞争力"]},
     "pricing": {"free": {"en": "Free web version", "zh": "网页版免费使用"}, "api": {"en": "$0.14/million tokens (input)", "zh": "$0.14/百万 tokens（输入）"}, "api-output": {"en": "$0.28/million tokens (output)", "zh": "$0.28/百万 tokens（输出）"}},
     "useCases": {"en": ["Code development and debugging", "Math problem solving", "Logical reasoning tasks", "Content creation", "Academic research", "Enterprise integration"], "zh": ["代码开发与调试", "数学问题求解", "逻辑推理任务", "内容创作", "学术研究", "企业应用集成"]},
     "pros": {"en": ["Open-source, local deployment", "Strong reasoning capabilities", "Extremely low API pricing", "Excellent Chinese understanding"], "zh": ["开源免费，可本地部署", "推理能力强劲", "API 价格极低", "中文理解优秀"]},
     "cons": {"en": ["Limited multimodal capabilities", "Ecosystem not as mature", "International recognition growing"], "zh": ["多模态能力有限", "生态不如闭源模型", "国际知名度待提升"]},
-    "latestUpdate": {"en": "July 2025: DeepSeek-R1 reasoning model released, surpassing GPT-4 in many benchmarks", "zh": "2025年7月：DeepSeek-R1 推理模型发布，在多项基准测试中超越 GPT-4"}
+    "latestUpdate": {"en": "July 2026: DeepSeek-V4 released with 1T+ parameters, surpassing GPT-5 in coding benchmarks", "zh": "2026年7月：DeepSeek-V4 发布，1T+ 参数，在编码基准测试中超越 GPT-5"}
   },
   "qwen": {
-    "features": {"en": ["Qwen3 multilingual LLM", "Qwen VL visual understanding", "Qwen Audio speech processing", "Qwen Code model", "Alibaba Cloud Bailian platform", "Open-source local deployment"], "zh": ["Qwen3 多语言大模型", "通义千问 VL 视觉理解", "通义千问 Audio 语音处理", "通义千问 Code 代码模型", "阿里云百炼平台集成", "开源模型可本地部署"]},
+    "features": {"en": ["Qwen4 multilingual LLM", "Qwen VL visual understanding", "Qwen Audio speech processing", "Qwen Code model", "Alibaba Cloud Bailian platform", "Open-source local deployment"], "zh": ["Qwen4 多语言大模型", "通义千问 VL 视觉理解", "通义千问 Audio 语音处理", "通义千问 Code 代码模型", "阿里云百炼平台集成", "开源模型可本地部署"]},
     "pricing": {"free": {"en": "Free web version", "zh": "网页版免费使用"}, "api": {"en": "Pay-as-you-go, from ¥0.002/1K tokens", "zh": "按量计费，低至 ¥0.002/千 tokens"}, "enterprise": {"en": "Alibaba Cloud enterprise", "zh": "阿里云企业定制"}},
     "useCases": {"en": ["Chinese content creation", "Multilingual translation", "Image understanding", "Code development", "Enterprise knowledge base", "Smart customer service"], "zh": ["中文内容创作", "多语言翻译", "图像理解与描述", "代码开发辅助", "企业知识库", "智能客服"]},
     "pros": {"en": ["Industry-leading Chinese capability", "Comprehensive multimodal support", "Mature open-source ecosystem", "Deep Alibaba Cloud integration"], "zh": ["中文能力业界领先", "多模态支持全面", "开源生态完善", "阿里云深度整合"]},
     "cons": {"en": ["International ecosystem developing", "Some advanced features paid", "Documentation mainly Chinese"], "zh": ["国际生态待完善", "部分高级功能付费", "文档以中文为主"]},
-    "latestUpdate": {"en": "July 2025: Qwen3 released, supporting 119 languages with significantly improved reasoning", "zh": "2025年7月：Qwen3 发布，支持 119 种语言，推理能力大幅提升"}
+    "latestUpdate": {"en": "July 2026: Qwen4 released, supporting 150+ languages with significantly improved reasoning", "zh": "2026年7月：Qwen4 发布，支持 150+ 种语言，推理能力大幅提升"}
   },
   "wenxin": {
-    "features": {"en": ["ERNIE LLM 4.5", "ERNIE Bot assistant", "YiGe image generation", "Code assistant", "Baidu ecosystem integration", "Enterprise API services"], "zh": ["文心大模型 4.5", "ERNIE Bot 对话助手", "文心一格图像生成", "文心一言代码助手", "百度生态深度整合", "企业级 API 服务"]},
+    "features": {"en": ["ERNIE LLM 5.0", "ERNIE Bot assistant", "YiGe image generation", "Code assistant", "Baidu ecosystem integration", "Enterprise API services"], "zh": ["文心大模型 5.0", "ERNIE Bot 对话助手", "文心一格图像生成", "文心一言代码助手", "百度生态深度整合", "企业级 API 服务"]},
     "pricing": {"free": {"en": "Basic conversation", "zh": "基础对话功能"}, "plus": {"en": "Advanced subscription", "zh": "高级功能订阅"}, "api": {"en": "Pay-as-you-go", "zh": "按量计费"}, "enterprise": {"en": "Baidu Cloud enterprise", "zh": "百度智能云企业方案"}},
     "useCases": {"en": ["Chinese Q&A", "Content and marketing", "Image generation", "Code assistance", "Smart customer service", "Enterprise knowledge"], "zh": ["中文问答与对话", "内容创作与营销", "图像生成与设计", "代码开发辅助", "智能客服系统", "企业知识管理"]},
     "pros": {"en": ["Strong Chinese understanding", "Baidu ecosystem integration", "Comprehensive enterprise services", "Stable domestic access"], "zh": ["中文理解能力强", "百度生态整合", "企业级服务完善", "国内访问稳定"]},
     "cons": {"en": ["Limited international recognition", "Multilingual support developing", "Some features paid"], "zh": ["国际知名度有限", "多语言支持待提升", "部分功能需付费"]},
-    "latestUpdate": {"en": "July 2025: ERNIE 4.5 released with significantly improved reasoning and creation", "zh": "2025年7月：文心大模型 4.5 发布，推理和创作能力显著提升"}
+    "latestUpdate": {"en": "July 2026: ERNIE 5.0 released with significantly improved reasoning and multimodal capabilities", "zh": "2026年7月：文心大模型 5.0 发布，推理和多模态能力显著提升"}
   },
   "doubao": {
-    "features": {"en": ["Doubao LLM", "Smart conversation", "Content creation", "Image understanding", "ByteDance ecosystem", "Douyin/Toutiao integration"], "zh": ["豆包大模型", "智能对话与问答", "内容创作与生成", "图像理解与分析", "字节跳动生态整合", "抖音/今日头条联动"]},
+    "features": {"en": ["Doubao LLM 2.0", "Smart conversation", "Content creation", "Image understanding", "ByteDance ecosystem", "Douyin/Toutiao integration"], "zh": ["豆包大模型 2.0", "智能对话与问答", "内容创作与生成", "图像理解与分析", "字节跳动生态整合", "抖音/今日头条联动"]},
     "pricing": {"free": {"en": "Basic features free", "zh": "基础功能免费"}, "premium": {"en": "Premium subscription", "zh": "高级功能订阅"}},
     "useCases": {"en": ["Daily conversation", "Content creation", "Learning assistance", "Creative inspiration", "Information queries", "Entertainment"], "zh": ["日常对话与问答", "内容创作与编辑", "学习辅助", "创意灵感", "信息查询", "娱乐互动"]},
     "pros": {"en": ["Low barrier to entry", "ByteDance ecosystem", "Smooth Chinese experience", "Great mobile experience"], "zh": ["免费使用门槛低", "字节生态整合", "中文体验流畅", "移动端体验好"]},
     "cons": {"en": ["Relatively basic features", "API ecosystem developing", "Limited international influence"], "zh": ["功能相对基础", "API 生态待完善", "国际影响力有限"]},
-    "latestUpdate": {"en": "July 2025: Doubao upgraded with improved conversation fluency and content quality", "zh": "2025年7月：豆包大模型升级，对话流畅度和内容质量提升"}
+    "latestUpdate": {"en": "July 2026: Doubao 2.0 upgraded with improved conversation fluency and content quality", "zh": "2026年7月：豆包大模型 2.0 升级，对话流畅度和内容质量提升"}
   },
   "zhipu": {
-    "features": {"en": ["GLM-4 LLM", "ChatGLM assistant", "CogView image generation", "CodeGeeX code assistant", "Open-source local deployment", "Comprehensive API"], "zh": ["GLM-4 大语言模型", "ChatGLM 对话助手", "CogView 图像生成", "CodeGeeX 代码助手", "开源模型可本地部署", "API 服务完善"]},
+    "features": {"en": ["GLM-5 LLM", "ChatGLM assistant", "CogView image generation", "CodeGeeX code assistant", "Open-source local deployment", "Comprehensive API"], "zh": ["GLM-5 大语言模型", "ChatGLM 对话助手", "CogView 图像生成", "CodeGeeX 代码助手", "开源模型可本地部署", "API 服务完善"]},
     "pricing": {"free": {"en": "Free web version", "zh": "网页版免费使用"}, "api": {"en": "Pay-as-you-go, from ¥0.005/1K tokens", "zh": "按量计费，低至 ¥0.005/千 tokens"}, "enterprise": {"en": "Zhipu enterprise", "zh": "智谱企业方案"}},
     "useCases": {"en": ["Smart Q&A", "Code development", "Image generation", "Content creation", "Academic research", "Enterprise apps"], "zh": ["智能对话与问答", "代码开发与调试", "图像生成与编辑", "内容创作", "学术研究", "企业应用"]},
     "pros": {"en": ["High-quality open-source models", "Strong code generation", "Excellent Chinese understanding", "Reasonable API pricing"], "zh": ["开源模型质量高", "代码生成能力强", "中文理解优秀", "API 价格合理"]},
     "cons": {"en": ["Limited multimodal capabilities", "Ecosystem scale developing", "International recognition growing"], "zh": ["多模态能力有限", "生态规模待扩大", "国际知名度待提升"]},
-    "latestUpdate": {"en": "July 2025: GLM-4 released with significantly improved reasoning and code capabilities", "zh": "2025年7月：GLM-4 发布，推理和代码能力大幅提升"}
+    "latestUpdate": {"en": "July 2026: GLM-5 released with significantly improved reasoning and code capabilities", "zh": "2026年7月：GLM-5 发布，推理和代码能力大幅提升"}
   },
   "kimi": {
-    "features": {"en": ["Kimi smart assistant", "Ultra-long context (2M characters)", "Multi-file batch processing", "Deep web analysis", "Code execution", "Academic research assistance"], "zh": ["Kimi 智能助手", "超长上下文处理（200万字）", "多文件批量处理", "网页内容深度分析", "代码解释与执行", "学术研究辅助"]},
+    "features": {"en": ["Kimi smart assistant", "Ultra-long context (5M characters)", "Multi-file batch processing", "Deep web analysis", "Code execution", "Academic research assistance"], "zh": ["Kimi 智能助手", "超长上下文处理（500万字）", "多文件批量处理", "网页内容深度分析", "代码解释与执行", "学术研究辅助"]},
     "pricing": {"free": {"en": "Basic features free", "zh": "基础功能免费"}, "plus": {"en": "Premium subscription", "zh": "高级功能订阅"}},
     "useCases": {"en": ["Long document analysis", "Academic paper reading", "Multi-file integration", "Web content extraction", "Code-assisted development", "Research reports"], "zh": ["长文档分析与总结", "学术论文阅读", "多文件信息整合", "网页内容提取", "代码辅助开发", "研究报告撰写"]},
     "pros": {"en": ["Ultra-long context processing", "Powerful file handling", "Academic-friendly", "Rich free features"], "zh": ["超长上下文处理能力", "文件处理功能强大", "学术研究友好", "免费功能丰富"]},
     "cons": {"en": ["Relatively focused features", "API ecosystem developing", "Limited international influence"], "zh": ["功能相对单一", "API 生态待完善", "国际影响力有限"]},
-    "latestUpdate": {"en": "July 2025: Kimi upgraded with longer context and more precise information extraction", "zh": "2025年7月：Kimi 升级，支持更长上下文和更精准的信息提取"}
+    "latestUpdate": {"en": "July 2026: Kimi upgraded with 5M character context and more precise information extraction", "zh": "2026年7月：Kimi 升级，支持 500万字上下文和更精准的信息提取"}
   },
   "yuanbao": {
-    "features": {"en": ["Tencent Hunyuan LLM", "WeChat ecosystem integration", "Smart conversation", "Content creation", "Image understanding", "Mini Program integration"], "zh": ["腾讯混元大模型", "微信生态深度整合", "智能对话与问答", "内容创作与生成", "图像理解与分析", "小程序/公众号集成"]},
+    "features": {"en": ["Tencent Hunyuan LLM 2.0", "WeChat ecosystem integration", "Smart conversation", "Content creation", "Image understanding", "Mini Program integration"], "zh": ["腾讯混元大模型 2.0", "微信生态深度整合", "智能对话与问答", "内容创作与生成", "图像理解与分析", "小程序/公众号集成"]},
     "pricing": {"free": {"en": "Basic features free", "zh": "基础功能免费"}, "premium": {"en": "Premium subscription", "zh": "高级功能订阅"}},
     "useCases": {"en": ["WeChat content creation", "Smart customer service", "Enterprise knowledge", "Marketing copy", "Data reports", "Daily Q&A"], "zh": ["微信内容创作", "智能客服系统", "企业知识管理", "营销文案生成", "数据分析报告", "日常问答"]},
     "pros": {"en": ["Deep WeChat integration", "Strong Tencent technology", "Comprehensive enterprise services", "Stable domestic access"], "zh": ["微信生态深度整合", "腾讯技术实力强", "企业级服务完善", "国内访问稳定"]},
     "cons": {"en": ["Relatively basic features", "API ecosystem developing", "Limited international influence"], "zh": ["功能相对基础", "API 生态待完善", "国际影响力有限"]},
-    "latestUpdate": {"en": "July 2025: Tencent Yuanbao upgraded with significantly improved Hunyuan capabilities", "zh": "2025年7月：腾讯元宝升级，混元大模型能力显著提升"}
+    "latestUpdate": {"en": "July 2026: Tencent Yuanbao upgraded with Hunyuan 2.0, significantly improved capabilities", "zh": "2026年7月：腾讯元宝升级，混元大模型 2.0 能力显著提升"}
   },
   "midjourney": {
-    "features": {"en": ["Midjourney V6 image generation", "Diverse art styles", "Text-to-image conversion", "Image editing and extension", "Community gallery inspiration", "Commercial licensing"], "zh": ["Midjourney V6 图像生成", "艺术风格多样", "文本到图像转换", "图像编辑与扩展", "社区画廊与灵感", "商业授权支持"]},
+    "features": {"en": ["Midjourney V7 image generation", "Diverse art styles", "Text-to-image conversion", "Image editing and extension", "Community gallery inspiration", "Commercial licensing"], "zh": ["Midjourney V7 图像生成", "艺术风格多样", "文本到图像转换", "图像编辑与扩展", "社区画廊与灵感", "商业授权支持"]},
     "pricing": {"basic": {"en": "$10/month (200 images)", "zh": "$10/月（200 张图）"}, "standard": {"en": "$30/month (unlimited fast)", "zh": "$30/月（无限快速生成）"}, "pro": {"en": "$60/month (stealth mode)", "zh": "$60/月（隐身模式）"}, "mega": {"en": "$120/month (enterprise)", "zh": "$120/月（企业级）"}},
     "useCases": {"en": ["Concept art creation", "Product design and prototyping", "Marketing materials", "Game art assets", "Illustration and comics", "Architectural visualization"], "zh": ["概念艺术创作", "产品设计与原型", "营销素材制作", "游戏美术资产", "插画与绘本", "建筑可视化"]},
     "pros": {"en": ["Industry-leading image quality", "Unique artistic style", "Highly active community", "Complete commercial licensing"], "zh": ["图像质量业界顶尖", "艺术风格独特", "社区活跃度高", "商业授权完善"]},
     "cons": {"en": ["Paid subscription required", "Steep learning curve", "No free trial"], "zh": ["需要付费使用", "学习曲线较陡", "无免费试用"]},
-    "latestUpdate": {"en": "July 2025: Midjourney V6 released with improved realism and detail", "zh": "2025年7月：Midjourney V6 发布，图像真实感和细节大幅提升"}
+    "latestUpdate": {"en": "July 2026: Midjourney V7 released with enhanced realism and video generation support", "zh": "2026年7月：Midjourney V7 发布，增强真实感并支持视频生成"}
   },
   "stable-diffusion": {
-    "features": {"en": ["Stable Diffusion 3 open-source", "Completely free local deployment", "ComfyUI/WebUI interfaces", "LoRA model fine-tuning", "ControlNet precise control", "Rich community models"], "zh": ["Stable Diffusion 3 开源模型", "本地部署完全免费", "ComfyUI/WebUI 界面", "LoRA 模型微调", "ControlNet 精确控制", "社区模型丰富"]},
+    "features": {"en": ["Stable Diffusion 4 open-source", "Completely free local deployment", "ComfyUI/WebUI interfaces", "LoRA model fine-tuning", "ControlNet precise control", "Rich community models"], "zh": ["Stable Diffusion 4 开源模型", "本地部署完全免费", "ComfyUI/WebUI 界面", "LoRA 模型微调", "ControlNet 精确控制", "社区模型丰富"]},
     "pricing": {"free": {"en": "Completely free open-source", "zh": "完全免费开源"}, "cloud": {"en": "Cloud services pay-as-you-go", "zh": "云服务按量计费"}, "hardware": {"en": "Requires local GPU hardware", "zh": "需本地 GPU 硬件"}},
     "useCases": {"en": ["Art creation and experimentation", "Game art assets", "Product design", "Research and education", "Personalized image generation", "Commercial materials"], "zh": ["艺术创作与实验", "游戏美术资产", "产品设计与原型", "研究与教育", "个性化图像生成", "商业素材制作"]},
     "pros": {"en": ["Completely free open-source", "Local deployment for privacy", "Rich community ecosystem", "Highly customizable"], "zh": ["完全免费开源", "可本地部署保护隐私", "社区生态丰富", "可定制性强"]},
     "cons": {"en": ["Requires technical background", "High hardware requirements", "Steep learning curve"], "zh": ["需要技术基础", "硬件要求较高", "学习曲线陡峭"]},
-    "latestUpdate": {"en": "July 2025: Stable Diffusion 3 released with improved image quality and text rendering", "zh": "2025年7月：Stable Diffusion 3 发布，图像质量和文本渲染能力大幅提升"}
+    "latestUpdate": {"en": "July 2026: Stable Diffusion 4 released with improved image quality and video support", "zh": "2026年7月：Stable Diffusion 4 发布，图像质量和视频支持大幅提升"}
   },
   "github-copilot": {
     "features": {"en": ["AI code completion and generation", "VS Code deep integration", "Multi-language support", "Code review suggestions", "Pull Request summaries", "CLI terminal assistance"], "zh": ["AI 代码补全与生成", "VS Code 深度集成", "多语言支持", "代码审查建议", "Pull Request 摘要", "CLI 终端辅助"]},
@@ -113,15 +113,15 @@
     "useCases": {"en": ["Daily coding", "Code refactoring", "Bug fixing", "Documentation generation", "Test case writing", "Learning new languages"], "zh": ["日常代码编写", "代码重构与优化", "Bug 修复", "文档生成", "测试用例编写", "学习新语言"]},
     "pros": {"en": ["VS Code native integration", "Accurate code completion", "Wide language support", "GitHub ecosystem"], "zh": ["VS Code 原生集成", "代码补全准确", "多语言支持广泛", "GitHub 生态整合"]},
     "cons": {"en": ["Limited free version", "Occasional incorrect suggestions", "Handle code privacy carefully"], "zh": ["免费版功能受限", "偶有错误建议", "隐私代码需谨慎"]},
-    "latestUpdate": {"en": "July 2025: GitHub Copilot upgraded with more IDEs and smarter code understanding", "zh": "2025年7月：GitHub Copilot 升级，支持更多 IDE 和更智能的代码理解"}
+    "latestUpdate": {"en": "July 2026: GitHub Copilot upgraded with GPT-5 and more IDEs support", "zh": "2026年7月：GitHub Copilot 升级，支持 GPT-5 和更多 IDE"}
   },
   "cursor": {
-    "features": {"en": ["AI-native code editor", "Multi-model support (GPT-4, Claude)", "Code generation and editing", "Smart refactoring", "Project-level understanding", "Terminal integration"], "zh": ["AI 原生代码编辑器", "多模型支持（GPT-4、Claude）", "代码生成与编辑", "智能重构", "项目级理解", "终端集成"]},
+    "features": {"en": ["AI-native code editor", "Multi-model support (GPT-5, Claude 4.5)", "Code generation and editing", "Smart refactoring", "Project-level understanding", "Terminal integration"], "zh": ["AI 原生代码编辑器", "多模型支持（GPT-5、Claude 4.5）", "代码生成与编辑", "智能重构", "项目级理解", "终端集成"]},
     "pricing": {"free": {"en": "Basic features free", "zh": "基础功能免费"}, "pro": {"en": "$20/month (unlimited completion)", "zh": "$20/月（无限补全）"}, "business": {"en": "$40/user/month (business)", "zh": "$40/人/月（企业版）"}},
     "useCases": {"en": ["Full-stack development", "Rapid prototyping", "Code refactoring", "Learning programming", "Team collaboration", "Open-source contribution"], "zh": ["全栈开发", "快速原型开发", "代码重构", "学习编程", "团队协作", "开源项目贡献"]},
     "pros": {"en": ["Smooth AI-native experience", "Flexible multi-model choice", "Strong project understanding", "Powerful refactoring"], "zh": ["AI 原生体验流畅", "多模型选择灵活", "项目理解能力强", "重构功能强大"]},
     "cons": {"en": ["Limited free version", "Learning cost exists", "Ecosystem not as mature as VS Code"], "zh": ["免费版限制较多", "学习成本存在", "生态不如 VS Code"]},
-    "latestUpdate": {"en": "July 2025: Cursor upgraded with more models and smarter code understanding", "zh": "2025年7月：Cursor 升级，支持更多模型和更智能的代码理解"}
+    "latestUpdate": {"en": "July 2026: Cursor upgraded with GPT-5, Claude 4.5 and smarter code understanding", "zh": "2026年7月：Cursor 升级，支持 GPT-5、Claude 4.5 和更智能的代码理解"}
   },
   "perplexity": {
     "features": {"en": ["AI search engine", "Real-time web search", "Source citation", "Multi-model selection", "Pro Search deep research", "Collections knowledge management"], "zh": ["AI 搜索引擎", "实时联网搜索", "引用来源标注", "多模型选择", "Pro Search 深度研究", "Collections 知识管理"]},
@@ -129,6 +129,6 @@
     "useCases": {"en": ["Academic research", "Market research", "News tracking", "Technical problem solving", "Product comparison", "Learning new knowledge"], "zh": ["学术研究", "市场调研", "新闻追踪", "技术问题解决", "产品对比", "学习新知识"]},
     "pros": {"en": ["Search results with citations", "Real-time information", "Multi-model selection", "Clean interface"], "zh": ["搜索结果带引用", "实时信息获取", "多模型选择", "界面简洁易用"]},
     "cons": {"en": ["Limited free version", "Deep research requires paid", "Chinese support improving"], "zh": ["免费版限制较多", "深度研究需付费", "中文支持待提升"]},
-    "latestUpdate": {"en": "July 2025: Perplexity upgraded with deeper Pro Search and multi-step reasoning", "zh": "2025年7月：Perplexity 升级，Pro Search 支持更深度研究和多步推理"}
+    "latestUpdate": {"en": "July 2026: Perplexity upgraded with deeper Pro Search and multi-step reasoning", "zh": "2026年7月：Perplexity 升级，Pro Search 支持更深度研究和多步推理"}
   }
 }
