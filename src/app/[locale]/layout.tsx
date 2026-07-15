@@ -21,6 +21,10 @@ export const metadata: Metadata = {
   description: "Your gateway to the global AI ecosystem. Discover AI models, agents, tools, and resources from around the world.",
   keywords: "AI portal, AI ecosystem, AI tools, AI models, AI agents, ChatGPT, Claude, Gemini, DeepSeek, AI resources, artificial intelligence",
   authors: [{ name: "CATAI" }],
+  icons: {
+    icon: '/favicon.svg',
+    apple: '/favicon.svg',
+  },
   openGraph: {
     title: "CATAI - AI Ecosystem Portal",
     description: "Discover AI models, agents, tools, and resources from around the world.",

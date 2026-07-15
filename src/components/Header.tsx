@@ -2,7 +2,8 @@
 
 import { useTranslations } from 'next-intl';
 import { Link, usePathname } from '@/i18n/navigation';
-import { Search, Globe, Send, Zap } from 'lucide-react';
+import { Search, Globe, Send } from 'lucide-react';
+import Image from 'next/image';
 
 interface HeaderProps {
   searchQuery: string;
@@ -21,10 +22,14 @@ export default function Header({ searchQuery, onSearchChange, locale }: HeaderPr
         <div className="flex items-center justify-between h-16 gap-4">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 shrink-0">
-            <div className="w-8 h-8 bg-gradient-to-br from-indigo-500 to-cyan-400 rounded-lg flex items-center justify-center">
-              <Zap className="w-5 h-5 text-white" />
-            </div>
-            <span className="text-xl font-bold bg-gradient-to-r from-indigo-600 to-cyan-500 bg-clip-text text-transparent">
+            <Image
+              src="/favicon.svg"
+              alt="CATAI"
+              width={36}
+              height={36}
+              className="w-9 h-9"
+            />
+            <span className="text-xl font-bold bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-500 bg-clip-text text-transparent">
               CATAI
             </span>
           </Link>

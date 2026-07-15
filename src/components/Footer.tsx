@@ -1,6 +1,7 @@
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/navigation';
-import { Zap, Mail } from 'lucide-react';
+import { Mail } from 'lucide-react';
+import Image from 'next/image';
 
 export default function Footer() {
   const t = useTranslations('footer');
@@ -11,10 +12,14 @@ export default function Footer() {
         <div className="flex flex-col sm:flex-row items-center justify-between gap-6">
           {/* Logo */}
           <div className="flex items-center gap-2">
-            <div className="w-7 h-7 bg-gradient-to-br from-indigo-500 to-cyan-400 rounded-lg flex items-center justify-center">
-              <Zap className="w-4 h-4 text-white" />
-            </div>
-            <span className="text-lg font-bold bg-gradient-to-r from-indigo-600 to-cyan-500 bg-clip-text text-transparent">
+            <Image
+              src="/favicon.svg"
+              alt="CATAI"
+              width={28}
+              height={28}
+              className="w-7 h-7"
+            />
+            <span className="text-lg font-bold bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-500 bg-clip-text text-transparent">
               CATAI
             </span>
           </div>
