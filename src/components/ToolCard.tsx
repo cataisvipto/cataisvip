@@ -11,12 +11,26 @@ export interface Tool {
   nameZh?: string;
   description: string;
   descriptionEn: string;
+  descriptionJa?: string;
+  descriptionEs?: string;
+  descriptionFr?: string;
   url: string;
   logo: string;
   category: string;
   tags: string[];
   featured: boolean;
 }
+
+// Helper to get localized description
+export const getLocalizedDescription = (tool: Tool, locale: string) => {
+  switch (locale) {
+    case 'zh': return tool.description;
+    case 'ja': return tool.descriptionJa || tool.descriptionEn;
+    case 'es': return tool.descriptionEs || tool.descriptionEn;
+    case 'fr': return tool.descriptionFr || tool.descriptionEn;
+    default: return tool.descriptionEn;
+  }
+};
 
 interface ToolCardProps {
   tool: Tool;
@@ -35,7 +49,7 @@ export default function ToolCard({ tool, locale }: ToolCardProps) {
   const t = useTranslations('common');
   const tTags = useTranslations('tags');
   const tCategories = useTranslations('categories');
-  const description = locale === 'zh' ? tool.description : tool.descriptionEn;
+  const description = getLocalizedDescription(tool, locale);
   const displayName = locale === 'zh' && tool.nameZh ? tool.nameZh : tool.name;
 
   return (

@@ -4,7 +4,7 @@ import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/navigation';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-import { Tool } from '@/components/ToolCard';
+import { Tool, getLocalizedDescription } from '@/components/ToolCard';
 import toolDetails from '@/data/toolDetails.json';
 import { ArrowLeft, ExternalLink, Globe, Star, CheckCircle, XCircle, Lightbulb, DollarSign, Zap, Info, Share2, Link2, Check } from 'lucide-react';
 import { TwitterIcon, LinkedinIcon, FacebookIcon } from '@/components/SocialIcons';
@@ -36,7 +36,7 @@ export default function ToolDetailClient({ tool, locale }: ToolDetailClientProps
   const tTags = useTranslations('tags');
   const [searchQuery, setSearchQuery] = useState('');
   const [copied, setCopied] = useState(false);
-  const description = locale === 'zh' ? tool.description : tool.descriptionEn;
+  const description = getLocalizedDescription(tool, locale);
   const displayName = locale === 'zh' && tool.nameZh ? tool.nameZh : tool.name;
   const details = (toolDetails as any)[tool.slug];
 
