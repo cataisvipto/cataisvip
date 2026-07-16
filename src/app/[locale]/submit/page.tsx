@@ -5,9 +5,10 @@ import { useTranslations, useLocale } from 'next-intl';
 import { Link } from '@/i18n/navigation';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-import { ArrowLeft, Send, CheckCircle } from 'lucide-react';
+import { ArrowLeft, Send, CheckCircle, Loader2, AlertCircle } from 'lucide-react';
 
 const CATEGORIES = ['Chat', 'Image', 'Code', 'Writing', 'Video', 'Audio', 'Search', 'Design', 'Agent', 'Developer', 'Platform'];
+const FORMSUBMIT_URL = 'https://formsubmit.co/ajax/cataisvip@gmail.com';
 
 export default function SubmitPage() {
   const t = useTranslations('submit');
@@ -16,18 +17,48 @@ export default function SubmitPage() {
   const locale = useLocale();
   const [searchQuery, setSearchQuery] = useState('');
   const [submitted, setSubmitted] = useState(false);
+  const [submitting, setSubmitting] = useState(false);
+  const [error, setError] = useState('');
   const [formData, setFormData] = useState({
     name: '',
     url: '',
     description: '',
     category: '',
+    email: '',
   });
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    // In production, this would send to an API or create a GitHub Issue
-    // For now, we just show success message
-    setSubmitted(true);
+    setSubmitting(true);
+    setError('');
+
+    try {
+      const res = await fetch(FORMSUBMIT_URL, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+        body: JSON.stringify({
+          _subject: `🔔 New AI Resource Submission: ${formData.name}`,
+          _template: 'table',
+          'Resource Name': formData.name,
+          'Website URL': formData.url,
+          'Description': formData.description,
+          'Category': formData.category,
+          'Submitter Email': formData.email || 'Not provided',
+          'Submitted From': window.location.href,
+          'Locale': locale,
+        }),
+      });
+
+      if (res.ok) {
+        setSubmitted(true);
+      } else {
+        setError(t('submitError'));
+      }
+    } catch {
+      setError(t('submitError'));
+    } finally {
+      setSubmitting(false);
+    }
   };
 
   return (
@@ -59,16 +90,27 @@ export default function SubmitPage() {
           {submitted ? (
             <div className="text-center py-8">
               <CheckCircle className="w-16 h-16 text-emerald-500 mx-auto mb-4" />
-              <p className="text-lg font-medium text-gray-900">{t('success')}</p>
+              <p className="text-lg font-medium text-gray-900 mb-2">{t('success')}</p>
+              <p className="text-sm text-gray-500 mb-6">{t('successDetail')}</p>
               <Link
                 href="/"
-                className="mt-6 inline-flex items-center gap-2 px-6 py-3 bg-indigo-600 text-white rounded-full hover:bg-indigo-700 transition"
+                className="inline-flex items-center gap-2 px-6 py-3 bg-indigo-600 text-white rounded-full hover:bg-indigo-700 transition"
               >
                 {tCommon('backToHome')}
               </Link>
             </div>
           ) : (
             <form onSubmit={handleSubmit} className="space-y-5">
+              {/* Honeypot for spam */}
+              <input type="text" name="_honey" style={{ display: 'none' }} />
+
+              {error && (
+                <div className="flex items-center gap-2 p-3 bg-red-50 border border-red-200 rounded-xl text-sm text-red-700">
+                  <AlertCircle className="w-4 h-4 shrink-0" />
+                  {error}
+                </div>
+              )}
+
               {/* Tool Name */}
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-1.5">
@@ -132,13 +174,29 @@ export default function SubmitPage() {
                 </select>
               </div>
 
+              {/* Submitter Email (optional) */}
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-1.5">
+                  {t('yourEmail')}
+                  <span className="text-gray-400 font-normal ml-1">({t('optional')})</span>
+                </label>
+                <input
+                  type="email"
+                  value={formData.email}
+                  onChange={(e) => setFormData({ ...formData, email: e.target.value })}
+                  className="w-full px-4 py-2.5 border border-gray-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition"
+                  placeholder={locale === 'zh' ? '您的邮箱（可选，方便我们回复您）' : 'Your email (optional, so we can reply to you)'}
+                />
+              </div>
+
               {/* Submit */}
               <button
                 type="submit"
-                className="w-full py-3 bg-gradient-to-r from-indigo-500 to-cyan-500 text-white font-medium rounded-xl hover:opacity-90 transition shadow-sm flex items-center justify-center gap-2"
+                disabled={submitting}
+                className="w-full py-3 bg-gradient-to-r from-indigo-500 to-cyan-500 text-white font-medium rounded-xl hover:opacity-90 transition shadow-sm flex items-center justify-center gap-2 disabled:opacity-60 disabled:cursor-not-allowed"
               >
-                <Send className="w-4 h-4" />
-                {t('submitBtn')}
+                {submitting ? <Loader2 className="w-4 h-4 animate-spin" /> : <Send className="w-4 h-4" />}
+                {submitting ? t('submitting') : t('submitBtn')}
               </button>
             </form>
           )}

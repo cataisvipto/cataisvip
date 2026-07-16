@@ -2,8 +2,9 @@
 
 import { useTranslations } from 'next-intl';
 import { Link, usePathname } from '@/i18n/navigation';
-import { Search, Globe, Send } from 'lucide-react';
+import { Search, Globe, Send, ChevronDown } from 'lucide-react';
 import Image from 'next/image';
+import { useState, useRef, useEffect } from 'react';
 
 interface HeaderProps {
   searchQuery: string;
@@ -14,7 +15,25 @@ interface HeaderProps {
 export default function Header({ searchQuery, onSearchChange, locale }: HeaderProps) {
   const t = useTranslations();
   const pathname = usePathname();
-  const otherLocale = locale === 'en' ? 'zh' : 'en';
+  const [langOpen, setLangOpen] = useState(false);
+  const langRef = useRef<HTMLDivElement>(null);
+
+  const locales: { code: string; label: string; short: string }[] = [
+    { code: 'en', label: 'English', short: 'EN' },
+    { code: 'zh', label: '中文', short: '中' },
+    { code: 'ja', label: '日本語', short: '日' },
+    { code: 'es', label: 'Español', short: 'ES' },
+    { code: 'fr', label: 'Français', short: 'FR' },
+  ];
+  const currentLang = locales.find(l => l.code === locale) || locales[0];
+
+  useEffect(() => {
+    const handleClickOutside = (e: MouseEvent) => {
+      if (langRef.current && !langRef.current.contains(e.target as Node)) setLangOpen(false);
+    };
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => document.removeEventListener('mousedown', handleClickOutside);
+  }, []);
 
   return (
     <header className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-gray-100">
@@ -50,15 +69,40 @@ export default function Header({ searchQuery, onSearchChange, locale }: HeaderPr
 
           {/* Right Actions */}
           <div className="flex items-center gap-3">
-            {/* Language Switch */}
+            {/* Blog Link */}
             <Link
-              href={pathname}
-              locale={otherLocale as 'en' | 'zh'}
-              className="flex items-center gap-1 px-3 py-1.5 text-sm text-gray-600 hover:text-indigo-600 border border-gray-200 rounded-full hover:border-indigo-300 transition"
+              href="/blog"
+              className="hidden sm:flex items-center gap-1.5 px-3 py-1.5 text-sm text-gray-600 hover:text-indigo-600 transition"
             >
-              <Globe className="w-4 h-4" />
-              <span>{otherLocale === 'en' ? 'EN' : '中'}</span>
+              {t('nav.blog')}
             </Link>
+
+            {/* Language Switch */}
+            <div className="relative" ref={langRef}>
+              <button
+                onClick={() => setLangOpen(!langOpen)}
+                className="flex items-center gap-1 px-3 py-1.5 text-sm text-gray-600 hover:text-indigo-600 border border-gray-200 rounded-full hover:border-indigo-300 transition"
+              >
+                <Globe className="w-4 h-4" />
+                <span>{currentLang.short}</span>
+                <ChevronDown className="w-3 h-3" />
+              </button>
+              {langOpen && (
+                <div className="absolute right-0 top-full mt-1 bg-white border border-gray-200 rounded-lg shadow-lg py-1 min-w-[140px] z-50">
+                  {locales.map((l) => (
+                    <Link
+                      key={l.code}
+                      href={pathname}
+                      locale={l.code as any}
+                      onClick={() => setLangOpen(false)}
+                      className={`block px-4 py-2 text-sm hover:bg-indigo-50 transition ${l.code === locale ? 'text-indigo-600 font-medium bg-indigo-50/50' : 'text-gray-700'}`}
+                    >
+                      {l.label}
+                    </Link>
+                  ))}
+                </div>
+              )}
+            </div>
 
             {/* Submit Button */}
             <Link

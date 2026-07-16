@@ -1,13 +1,14 @@
 import { MetadataRoute } from 'next';
 import tools from '@/data/tools.json';
+import blogPosts from '@/data/blogPosts.json';
 
 const BASE_URL = 'https://catai.cc.cd';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const locales = ['en', 'zh'];
+  const locales = ['en', 'zh', 'ja', 'es', 'fr'];
 
   // Static pages
-  const staticPages = ['', '/submit', '/privacy', '/disclaimer'].flatMap((path) =>
+  const staticPages = ['', '/submit', '/privacy', '/disclaimer', '/blog'].flatMap((path) =>
     locales.map((locale) => ({
       url: `${BASE_URL}/${locale}${path}`,
       lastModified: new Date(),
@@ -26,5 +27,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }))
   );
 
-  return [...staticPages, ...toolPages];
+  // Blog pages
+  const blogPages = blogPosts.flatMap((post: any) =>
+    locales.map((locale) => ({
+      url: `${BASE_URL}/${locale}/blog/${post.slug}`,
+      lastModified: post.publishedAt || new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.7,
+    }))
+  );
+
+  return [...staticPages, ...toolPages, ...blogPages];
 }

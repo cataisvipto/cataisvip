@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CATAI 项目技术文档</title>
+  <style>
+    :root { --bg: #ffffff; --text: #1a1a2e; --heading: #2d3748; --accent: #6366f1; --border: #e2e8f0; --code-bg: #f7f8fa; --sidebar-bg: #f8fafc; --card-bg: #f0f4ff; }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans SC', sans-serif; color: var(--text); background: var(--bg); line-height: 1.8; font-size: 15px; }
+    .container { max-width: 960px; margin: 0 auto; padding: 40px 24px; }
+    
+    /* 页眉 */
+    header { border-bottom: 3px solid var(--accent); padding-bottom: 24px; margin-bottom: 40px; }
+    header h1 { font-size: 32px; font-weight: 700; color: var(--accent); margin-bottom: 4px; letter-spacing: -0.5px; }
+    header .subtitle { font-size: 14px; color: #6b7280; }
+    header .meta { display: flex; gap: 24px; margin-top: 12px; font-size: 13px; color: #9ca3af; }
+    
+    /* 目录 */
+    .toc { background: var(--sidebar-bg); border: 1px solid var(--border); border-radius: 12px; padding: 24px 28px; margin-bottom: 40px; }
+    .toc h2 { font-size: 18px; color: var(--heading); margin-bottom: 12px; }
+    .toc ol { padding-left: 20px; }
+    .toc li { margin-bottom: 6px; font-size: 14px; }
+    .toc a { color: var(--accent); text-decoration: none; }
+    .toc a:hover { text-decoration: underline; }
+    .toc .sub { padding-left: 20px; list-style-type: disc; margin-top: 4px; }
+    
+    /* 章节 */
+    section { margin-bottom: 48px; page-break-inside: avoid; }
+    h2 { font-size: 24px; font-weight: 700; color: var(--heading); border-left: 4px solid var(--accent); padding-left: 12px; margin-bottom: 20px; margin-top: 8px; }
+    h3 { font-size: 18px; font-weight: 600; color: var(--heading); margin: 24px 0 12px; }
+    h4 { font-size: 15px; font-weight: 600; color: #4b5563; margin: 16px 0 8px; }
+    p { margin-bottom: 12px; }
+    
+    /* 表格 */
+    table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 14px; }
+    th { background: var(--card-bg); color: var(--accent); font-weight: 600; text-align: left; padding: 10px 14px; border: 1px solid var(--border); }
+    td { padding: 10px 14px; border: 1px solid var(--border); vertical-align: top; }
+    tr:nth-child(even) { background: #fafbfc; }
+    
+    /* 代码 */
+    code { background: var(--code-bg); padding: 2px 6px; border-radius: 4px; font-family: 'JetBrains Mono', 'Fira Code', monospace; font-size: 13px; color: #e11d48; }
+    pre { background: #1e293b; color: #e2e8f0; padding: 16px 20px; border-radius: 8px; overflow-x: auto; margin: 12px 0; line-height: 1.6; }
+    pre code { background: none; color: inherit; padding: 0; font-size: 13px; }
+    
+    /* 卡片 */
+    .card { background: var(--card-bg); border: 1px solid #c7d2fe; border-radius: 10px; padding: 16px 20px; margin: 16px 0; }
+    .card.warn { background: #fef3c7; border-color: #fcd34d; }
+    .card.success { background: #d1fae5; border-color: #6ee7b7; }
+    .card.info { background: #e0e7ff; border-color: #a5b4fc; }
+    .card strong { color: var(--heading); }
+    
+    /* 列表 */
+    ul, ol { padding-left: 24px; margin-bottom: 12px; }
+    li { margin-bottom: 4px; }
+    
+    /* 文件树 */
+    .tree { background: var(--code-bg); border: 1px solid var(--border); border-radius: 8px; padding: 16px 20px; font-family: monospace; font-size: 13px; line-height: 1.8; white-space: pre; overflow-x: auto; }
+    
+    /* 色块 */
+    .color-swatch { display: inline-block; width: 16px; height: 16px; border-radius: 4px; vertical-align: middle; margin-right: 6px; border: 1px solid rgba(0,0,0,0.1); }
+    
+    /* 页脚 */
+    footer { border-top: 2px solid var(--border); padding-top: 20px; margin-top: 60px; font-size: 13px; color: #9ca3af; text-align: center; }
+    
+    /* 打印 */
+    @media print {
+      body { font-size: 12px; }
+      .container { max-width: 100%; padding: 20px; }
+      pre { background: #f3f4f6; color: #1f2937; }
+      section { page-break-inside: avoid; }
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+
+<!-- ===== 页眉 ===== -->
+<header>
+  <h1>CATAI 项目技术文档</h1>
+  <div class="subtitle">AI 生态门户网站 · 新人上手指南 · 从零到一完整说明</div>
+  <div class="meta">
+    <span>版本：v2.0</span>
+    <span>更新日期：2026-07-15</span>
+    <span>域名：catai.cc.cd</span>
+    <span>仓库：github.com/aaron202302/cataisvip</span>
+  </div>
+</header>
+
+<!-- ===== 目录 ===== -->
+<nav class="toc">
+  <h2>目录</h2>
+  <ol>
+    <li><a href="#overview">项目概述与定位</a></li>
+    <li><a href="#tech-stack">技术栈总览</a></li>
+    <li><a href="#structure">项目文件结构</a></li>
+    <li><a href="#design">设计规范（视觉系统）</a>
+      <ul class="sub">
+        <li>配色方案</li>
+        <li>字体与字号</li>
+        <li>间距与圆角</li>
+        <li>组件样式</li>
+      </ul>
+    </li>
+    <li><a href="#pages">页面结构说明</a></li>
+    <li><a href="#i18n">国际化（多语言）系统</a></li>
+    <li><a href="#data">数据文件说明</a></li>
+    <li><a href="#blog">博客/新闻系统</a></li>
+    <li><a href="#seo">SEO 与搜索引擎</a></li>
+    <li><a href="#deploy">部署架构</a></li>
+    <li><a href="#dev-guide">开发指南（日常操作）</a></li>
+    <li><a href="#tools">运营工具</a></li>
+    <li><a href="#accounts">账号与服务清单</a></li>
+    <li><a href="#roadmap">已完成与待办规划</a></li>
+    <li><a href="#faq">常见问题 FAQ</a></li>
+  </ol>
+</nav>
+
+<!-- ===== 1. 项目概述 ===== -->
+<section id="overview">
+  <h2>1. 项目概述与定位</h2>
+  <p><strong>CATAI</strong>（读作 /kəˈtaɪ/）是一个面向全球用户的 <strong>AI 生态门户（AI Ecosystem Portal）</strong>。核心目标是成为用户发现和了解 AI 工具、模型、资源的一站式入口。</p>
+  
+  <h3>核心功能</h3>
+  <table>
+    <tr><th>功能</th><th>说明</th><th>状态</th></tr>
+    <tr><td>AI 工具导航</td><td>37 款 AI 工具的卡片展示、分类筛选、搜索</td><td>✅ 已上线</td></tr>
+    <tr><td>工具详情页</td><td>每款工具的功能特性、定价、优缺点、使用场景</td><td>✅ 已上线</td></tr>
+    <tr><td>多语言支持</td><td>英语、中文、日语、西班牙语、法语（5 种）</td><td>✅ 已上线</td></tr>
+    <tr><td>博客/新闻</td><td>AI 行业资讯、工具对比、教程文章</td><td>✅ 已上线</td></tr>
+    <tr><td>社交分享</td><td>Twitter/X、LinkedIn、Facebook 分享按钮</td><td>✅ 已上线</td></tr>
+    <tr><td>资源提交</td><td>用户提交新 AI 工具（当前为模拟，待接入通知）</td><td>⚠️ 半成品</td></tr>
+    <tr><td>Google 收录</td><td>已提交 Google Search Console</td><td>✅ 已提交</td></tr>
+    <tr><td>Google Analytics</td><td>流量分析（ID: G-TZM2023RV7）</td><td>✅ 已接入</td></tr>
+    <tr><td>Google AdSense</td><td>广告展示（待申请）</td><td>⏳ 待接入</td></tr>
+    <tr><td>CMS 内容管理</td><td>可视化发布博客，无需代码部署</td><td>⏳ 规划中</td></tr>
+  </table>
+</section>
+
+<!-- ===== 2. 技术栈 ===== -->
+<section id="tech-stack">
+  <h2>2. 技术栈总览</h2>
+  <table>
+    <tr><th>类别</th><th>技术</th><th>版本</th><th>说明</th></tr>
+    <tr><td>框架</td><td>Next.js (App Router)</td><td>16.2.10</td><td>React 全栈框架，使用 Turbopack 构建</td></tr>
+    <tr><td>语言</td><td>TypeScript</td><td>5.x</td><td>类型安全的 JavaScript</td></tr>
+    <tr><td>UI 库</td><td>React</td><td>19.2.4</td><td>最新 React 19</td></tr>
+    <tr><td>样式</td><td>Tailwind CSS</td><td>4.x</td><td>原子化 CSS，通过 class 组合样式</td></tr>
+    <tr><td>国际化</td><td>next-intl</td><td>4.13.2</td><td>Next.js App Router 专用 i18n 方案</td></tr>
+    <tr><td>图标</td><td>Lucide React</td><td>1.24.0</td><td>轻量 SVG 图标库（无品牌图标）</td></tr>
+    <tr><td>部署</td><td>Vercel</td><td>-</td><td>自动构建部署，连接 GitHub 仓库</td></tr>
+    <tr><td>域名 DNS</td><td>Cloudflare</td><td>-</td><td>DNS 解析 + CDN（仅 DNS 模式）</td></tr>
+    <tr><td>代码托管</td><td>GitHub</td><td>-</td><td>仓库名: cataisvip，用户: aaron202302</td></tr>
+  </table>
+</section>
+
+<!-- ===== 3. 文件结构 ===== -->
+<section id="structure">
+  <h2>3. 项目文件结构</h2>
+  <div class="tree">catai/
+├── messages/                    # 📁 多语言翻译文件
+│   ├── en.json                  #   英文（默认语言）
+│   ├── zh.json                  #   中文
+│   ├── ja.json                  #   日文
+│   ├── es.json                  #   西班牙文
+│   └── fr.json                  #   法文
+├── public/                      # 📁 静态资源（直接可访问）
+│   ├── favicon.svg              #   网站图标（紫蓝渐变 C 字母）
+│   ├── logo.svg                 #   完整 Logo 艺术字
+│   └── robots.txt / sitemap.xml #   自动生成
+├── src/
+│   ├── app/                     # 📁 Next.js App Router 页面
+│   │   ├── [locale]/            #   多语言路由层
+│   │   │   ├── page.tsx         #     首页
+│   │   │   ├── layout.tsx       #     页面布局（字体、meta、i18n）
+│   │   │   ├── blog/            #     博客列表页
+│   │   │   │   ├── page.tsx
+│   │   │   │   ├── BlogClient.tsx
+│   │   │   │   └── [slug]/      #     博客详情页
+│   │   │   │       ├── page.tsx
+│   │   │   │       └── BlogDetailClient.tsx
+│   │   │   ├── tool/[slug]/     #     工具详情页
+│   │   │   │   ├── page.tsx
+│   │   │   │   └── ToolDetailClient.tsx
+│   │   │   ├── submit/page.tsx  #     资源提交页
+│   │   │   ├── privacy/         #     隐私政策
+│   │   │   └── disclaimer/      #     免责声明
+│   │   ├── layout.tsx           #   根布局（字体加载、GA）
+│   │   ├── globals.css          #   全局样式变量
+│   │   ├── GoogleAnalytics.tsx  #   GA 脚本组件
+│   │   ├── robots.ts            #   robots.txt 生成
+│   │   └── sitemap.ts           #   sitemap.xml 生成
+│   ├── components/              # 📁 可复用组件
+│   │   ├── Header.tsx           #   顶部导航（搜索、语言切换、博客链接）
+│   │   ├── Footer.tsx           #   底部（Logo、链接、邮箱）
+│   │   ├── HeroSection.tsx      #   首页顶部横幅
+│   │   ├── ToolCard.tsx         #   工具卡片组件
+│   │   ├── ToolGrid.tsx         #   工具卡片网格
+│   │   ├── CategoryFilter.tsx   #   分类筛选器
+│   │   ├── SubmitCTA.tsx        #   提交资源号召区
+│   │   └── SocialIcons.tsx      #   社交分享 SVG 图标
+│   ├── data/                    # 📁 数据文件（JSON）
+│   │   ├── tools.json           #   37 款工具基础数据
+│   │   ├── toolDetails.json     #   工具详情（功能/定价/优缺点）
+│   │   └── blogPosts.json       #   博客文章数据
+│   └── i18n/                    # 📁 国际化配置
+│       ├── routing.ts           #   语言路由定义（5 种语言）
+│       ├── request.ts           #   i18n 请求处理
+│       └── navigation.ts        #   导航工具（Link, redirect 等）
+├── blog-editor.html             # 🔧 博客编辑器（独立运营工具）
+├── tool-editor.html             # 🔧 工具编辑器（独立运营工具）
+├── next.config.ts               # Next.js 配置
+├── package.json                 # 依赖管理
+└── tsconfig.json                # TypeScript 配置</div>
+</section>
+
+<!-- ===== 4. 设计规范 ===== -->
+<section id="design">
+  <h2>4. 设计规范（视觉系统）</h2>
+  
+  <h3>4.1 配色方案</h3>
+  <table>
+    <tr><th>用途</th><th>色值</th><th>预览</th><th>使用场景</th></tr>
+    <tr><td>主色 (Primary)</td><td><code>#6366f1</code></td><td><span class="color-swatch" style="background:#6366f1"></span></td><td>按钮、链接、强调元素</td></tr>
+    <tr><td>主色深 (Primary Dark)</td><td><code>#4f46e5</code></td><td><span class="color-swatch" style="background:#4f46e5"></span></td><td>hover 状态、深色变体</td></tr>
+    <tr><td>强调色 (Accent)</td><td><code>#06b6d4</code></td><td><span class="color-swatch" style="background:#06b6d4"></span></td><td>渐变终点色、CTA</td></tr>
+    <tr><td>背景色</td><td><code>#ffffff</code></td><td><span class="color-swatch" style="background:#ffffff"></span></td><td>页面背景</td></tr>
+    <tr><td>文字色</td><td><code>#0f172a</code></td><td><span class="color-swatch" style="background:#0f172a"></span></td><td>正文文字</td></tr>
+    <tr><td>卡片背景</td><td><code>#f8fafc</code></td><td><span class="color-swatch" style="background:#f8fafc"></span></td><td>卡片、区块背景</td></tr>
+    <tr><td>卡片边框</td><td><code>#e2e8f0</code></td><td><span class="color-swatch" style="background:#e2e8f0"></span></td><td>卡片边框</td></tr>
+    <tr><td>标签-免费</td><td><code>#10b981</code></td><td><span class="color-swatch" style="background:#10b981"></span></td><td>Free 标签绿色</td></tr>
+    <tr><td>标签-付费</td><td><code>#f59e0b</code></td><td><span class="color-swatch" style="background:#f59e0b"></span></td><td>Paid 标签橙色</td></tr>
+    <tr><td>标签-API</td><td><code>#8b5cf6</code></td><td><span class="color-swatch" style="background:#8b5cf6"></span></td><td>API 标签紫色</td></tr>
+    <tr><td>Logo 渐变</td><td><code>indigo-600 → purple-600 → pink-500</code></td><td><span class="color-swatch" style="background:linear-gradient(to right,#4f46e5,#9333ea,#ec4899)"></span></td><td>Header/Footer Logo 文字</td></tr>
+    <tr><td>按钮渐变</td><td><code>indigo-500 → cyan-500</code></td><td><span class="color-swatch" style="background:linear-gradient(to right,#6366f1,#06b6d4)"></span></td><td>主要按钮渐变</td></tr>
+    <tr><td>Favicon 渐变</td><td><code>#667eea → #764ba2</code></td><td><span class="color-swatch" style="background:linear-gradient(to right,#667eea,#764ba2)"></span></td><td>网站图标背景</td></tr>
+  </table>
+
+  <h3>4.2 字体与字号</h3>
+  <table>
+    <tr><th>元素</th><th>字体</th><th>字号</th><th>字重</th><th>行高</th></tr>
+    <tr><td>全局正文</td><td>Geist Sans (Google Fonts)</td><td>15px (base)</td><td>400</td><td>1.8</td></tr>
+    <tr><td>代码/等宽</td><td>Geist Mono (Google Fonts)</td><td>13px</td><td>400</td><td>1.6</td></tr>
+    <tr><td>页面标题 H1</td><td>系统字体</td><td>28-32px</td><td>700 (bold)</td><td>1.2</td></tr>
+    <tr><td>区块标题 H2</td><td>系统字体</td><td>20-24px</td><td>700</td><td>1.3</td></tr>
+    <tr><td>小标题 H3</td><td>系统字体</td><td>17-18px</td><td>600 (semibold)</td><td>1.4</td></tr>
+    <tr><td>导航文字</td><td>系统字体</td><td>14px</td><td>500</td><td>1.5</td></tr>
+    <tr><td>卡片标题</td><td>系统字体</td><td>16-18px</td><td>600</td><td>1.4</td></tr>
+    <tr><td>正文内容</td><td>系统字体</td><td>14-15px</td><td>400</td><td>1.6-1.8</td></tr>
+    <tr><td>辅助文字</td><td>系统字体</td><td>12-13px</td><td>400</td><td>1.5</td></tr>
+    <tr><td>Logo 文字</td><td>系统字体</td><td>20px (Header) / 18px (Footer)</td><td>700 (bold)</td><td>-</td></tr>
+  </table>
+
+  <h3>4.3 间距与圆角</h3>
+  <table>
+    <tr><th>元素</th><th>圆角</th><th>内边距</th><th>外边距</th><th>阴影</th></tr>
+    <tr><td>卡片</td><td>16px (rounded-2xl)</td><td>24-32px (p-6/p-8)</td><td>底部 20px</td><td>0 2px 8px rgba(0,0,0,0.08)</td></tr>
+    <tr><td>按钮</td><td>8px (rounded-lg) 或全圆</td><td>12px 24px</td><td>-</td><td>0 1px 3px</td></tr>
+    <tr><td>标签</td><td>全圆 (rounded-full)</td><td>8px 12px</td><td>-</td><td>无</td></tr>
+    <tr><td>输入框</td><td>12px (rounded-xl)</td><td>10px 16px</td><td>底部 20px</td><td>focus: ring-2 indigo</td></tr>
+    <tr><td>Favicon</td><td>14px (rounded-2xl)</td><td>-</td><td>-</td><td>无</td></tr>
+    <tr><td>页面容器</td><td>无</td><td>max-w-7xl (1280px)</td><td>居中</td><td>无</td></tr>
+  </table>
+
+  <h3>4.4 组件样式规范</h3>
+  <h4>Header（顶部导航）</h4>
+  <ul>
+    <li>高度：<code>h-16</code>（64px）</li>
+    <li>背景：<code>bg-white/80 backdrop-blur-md</code>（毛玻璃效果）</li>
+    <li>底部边框：<code>border-b border-gray-100</code></li>
+    <li>位置：<code>sticky top-0 z-50</code>（吸顶）</li>
+    <li>Logo 尺寸：36x36px，文字 20px 渐变色</li>
+    <li>搜索框：圆角全圆，灰色背景 <code>bg-gray-50</code></li>
+    <li>语言切换：下拉菜单，5 种语言</li>
+  </ul>
+  
+  <h4>Footer（底部）</h4>
+  <ul>
+    <li>背景：<code>bg-gray-50</code></li>
+    <li>顶部边框：<code>border-t border-gray-100</code></li>
+    <li>内边距：<code>py-10</code>（40px 上下）</li>
+    <li>Logo 尺寸：28x28px，文字 18px</li>
+    <li>联系邮箱：<code>cataisvip@gmail.com</code></li>
+  </ul>
+
+  <h4>工具卡片 (ToolCard)</h4>
+  <ul>
+    <li>背景：白色，边框 <code>border-gray-100</code></li>
+    <li>圆角：<code>rounded-2xl</code>（16px）</li>
+    <li>Logo 尺寸：48x48px，圆角 <code>rounded-xl</code></li>
+    <li>hover 效果：边框变 indigo，轻微上移</li>
+  </ul>
+</section>
+
+<!-- ===== 5. 页面结构 ===== -->
+<section id="pages">
+  <h2>5. 页面结构说明</h2>
+  <table>
+    <tr><th>页面</th><th>路由</th><th>类型</th><th>说明</th></tr>
+    <tr><td>首页</td><td><code>/[locale]/</code></td><td>动态渲染</td><td>Hero 区 + 搜索 + 分类筛选 + 工具卡片网格</td></tr>
+    <tr><td>博客列表</td><td><code>/[locale]/blog</code></td><td>动态渲染</td><td>博客文章列表，支持搜索和分类筛选</td></tr>
+    <tr><td>博客详情</td><td><code>/[locale]/blog/[slug]</code></td><td>静态生成</td><td>文章正文 + 社交分享按钮</td></tr>
+    <tr><td>工具详情</td><td><code>/[locale]/tool/[slug]</code></td><td>静态生成</td><td>工具信息 + 功能/定价/优缺点 + 社交分享</td></tr>
+    <tr><td>资源提交</td><td><code>/[locale]/submit</code></td><td>动态渲染</td><td>表单（当前为模拟提交）</td></tr>
+    <tr><td>隐私政策</td><td><code>/[locale]/privacy</code></td><td>动态渲染</td><td>完整隐私政策（多语言）</td></tr>
+    <tr><td>免责声明</td><td><code>/[locale]/disclaimer</code></td><td>动态渲染</td><td>完整免责声明（多语言）</td></tr>
+    <tr><td>robots.txt</td><td><code>/robots.txt</code></td><td>静态</td><td>搜索引擎爬虫规则</td></tr>
+    <tr><td>sitemap.xml</td><td><code>/sitemap.xml</code></td><td>静态</td><td>所有页面的 URL 地图</td></tr>
+  </table>
+  <div class="card info">
+    <strong>💡 路由说明：</strong><code>[locale]</code> 是语言占位符，实际 URL 如 <code>/en/tool/chatgpt</code>、<code>/zh/blog/xxx</code>、<code>/ja/tool/claude</code> 等。访问根路径 <code>/</code> 会自动跳转到 <code>/en</code>。
+  </div>
+</section>
+
+<!-- ===== 6. 国际化 ===== -->
+<section id="i18n">
+  <h2>6. 国际化（多语言）系统</h2>
+  
+  <h3>支持的语言</h3>
+  <table>
+    <tr><th>语言代码</th><th>语言</th><th>翻译文件</th><th>内容回退</th></tr>
+    <tr><td><code>en</code></td><td>English</td><td>messages/en.json</td><td>默认语言，无需回退</td></tr>
+    <tr><td><code>zh</code></td><td>中文</td><td>messages/zh.json</td><td>工具名称有 nameZh，描述有 description</td></tr>
+    <tr><td><code>ja</code></td><td>日本語</td><td>messages/ja.json</td><td>UI 翻译完整，工具/博客内容回退英文</td></tr>
+    <tr><td><code>es</code></td><td>Español</td><td>messages/es.json</td><td>UI 翻译完整，工具/博客内容回退英文</td></tr>
+    <tr><td><code>fr</code></td><td>Français</td><td>messages/fr.json</td><td>UI 翻译完整，工具/博客内容回退英文</td></tr>
+  </table>
+
+  <h3>关键文件</h3>
+  <ul>
+    <li><code>src/i18n/routing.ts</code> — 定义支持的语言列表和默认语言</li>
+    <li><code>src/i18n/request.ts</code> — 根据 URL 加载对应翻译文件</li>
+    <li><code>src/i18n/navigation.ts</code> — 提供带语言切换的 Link、redirect 等</li>
+    <li><code>src/middleware.ts</code> — 拦截请求，自动识别语言并跳转</li>
+  </ul>
+
+  <h3>新增翻译的步骤</h3>
+  <ol>
+    <li>在 <code>messages/en.json</code> 中添加英文键值对</li>
+    <li>在 <code>messages/zh.json</code> 中添加对应中文翻译</li>
+    <li>同步更新 ja.json、es.json、fr.json</li>
+    <li>在组件中使用 <code>useTranslations('namespace')</code> 引用</li>
+  </ol>
+  
+  <div class="card warn">
+    <strong>⚠️ 重要：</strong>修改任何语言文件后，必须同步更新其他 4 个语言文件。否则缺失的 key 会显示 key 名称而非翻译内容。
+  </div>
+</section>
+
+<!-- ===== 7. 数据文件 ===== -->
+<section id="data">
+  <h2>7. 数据文件说明</h2>
+  
+  <h3>7.1 tools.json（工具基础数据）</h3>
+  <p>存放 37 款 AI 工具的基础信息，每款工具结构：</p>
+  <pre><code>{
+  "slug": "chatgpt",           // URL 标识（唯一）
+  "name": "ChatGPT",           // 英文名
+  "nameZh": "ChatGPT",         // 中文名（可留空，用英文名）
+  "description": "...",         // 中文描述
+  "descriptionEn": "...",       // 英文描述
+  "url": "https://chat.openai.com",  // 官网地址
+  "logo": "https://www.google.com/s2/favicons?domain=chat.openai.com&sz=128",
+  "category": "Chat",          // 分类
+  "tags": ["Freemium", "API"], // 标签
+  "featured": true             // 是否推荐（首页置顶）
+}</code></pre>
+
+  <h3>7.2 toolDetails.json（工具详情）</h3>
+  <p>以 slug 为 key，存放每款工具的详细信息：</p>
+  <pre><code>{
+  "chatgpt": {
+    "features": { "en": [...], "zh": [...] },
+    "pricing": { "free": { "en": "...", "zh": "..." }, "plus": {...} },
+    "useCases": { "en": [...], "zh": [...] },
+    "pros": { "en": [...], "zh": [...] },
+    "cons": { "en": [...], "zh": [...] },
+    "latestUpdate": { "en": "...", "zh": "..." }
+  }
+}</code></pre>
+
+  <h3>7.3 blogPosts.json（博客文章）</h3>
+  <pre><code>{
+  "slug": "article-slug",
+  "title": { "en": "...", "zh": "..." },
+  "excerpt": { "en": "...", "zh": "..." },
+  "content": { "en": "Markdown...", "zh": "Markdown..." },
+  "author": "CATAI Team",
+  "publishedAt": "2026-07-15",
+  "category": "news|comparison|listicle|tutorial",
+  "tags": ["AI", "ChatGPT"],
+  "coverImage": "https://...",
+  "readTime": 5
+}</code></pre>
+
+  <div class="card info">
+    <strong>💡 数据更新方式：</strong>目前所有数据都是静态 JSON 文件，修改后需要 git push 到 GitHub，Vercel 自动重新构建部署。后续计划接入 CMS 实现可视化发布。
+  </div>
+</section>
+
+<!-- ===== 8. 博客系统 ===== -->
+<section id="blog">
+  <h2>8. 博客/新闻系统</h2>
+  
+  <h3>当前发布流程</h3>
+  <div class="card warn">
+    <strong>⚠️ 当前流程（需代码部署）：</strong><br>
+    1. 在 <code>blog-editor.html</code> 中编辑文章 → 导出 JSON<br>
+    2. 将 JSON 粘贴到 <code>src/data/blogPosts.json</code><br>
+    3. git add → git commit → git push<br>
+    4. Vercel 自动构建部署（1-2 分钟）<br>
+    5. 文章上线
+  </div>
+  
+  <h3>未来优化方向（已规划未实施）</h3>
+  <ul>
+    <li><strong>Sanity CMS 接入：</strong>通过可视化后台发布文章，无需代码操作</li>
+    <li><strong>首页博客展示：</strong>在首页嵌入"最新文章"区块，提高曝光度</li>
+    <li><strong>博客与工具交叉链接：</strong>文章内链到工具详情页，互相引流</li>
+  </ul>
+</section>
+
+<!-- ===== 9. SEO ===== -->
+<section id="seo">
+  <h2>9. SEO 与搜索引擎</h2>
+  
+  <h3>已完成的 SEO 工作</h3>
+  <table>
+    <tr><th>项目</th><th>状态</th><th>说明</th></tr>
+    <tr><td>Google Search Console</td><td>✅ 已提交</td><td>已请求收录</td></tr>
+    <tr><td>sitemap.xml</td><td>✅ 自动生成</td><td>包含所有 5 种语言的页面 URL</td></tr>
+    <tr><td>robots.txt</td><td>✅ 已配置</td><td>允许所有爬虫</td></tr>
+    <tr><td>Meta 标签</td><td>✅ 已设置</td><td>每个页面都有独立的 title、description</td></tr>
+    <tr><td>Open Graph</td><td>✅ 已设置</td><td>社交分享时的预览卡片</td></tr>
+    <tr><td>Twitter Card</td><td>✅ 已设置</td><td>Twitter 分享预览</td></tr>
+    <tr><td>JSON-LD 结构化数据</td><td>✅ 已设置</td><td>工具详情页有 SoftwareApplication Schema</td></tr>
+    <tr><td>Google Analytics</td><td>✅ 已接入</td><td>ID: G-TZM2023RV7</td></tr>
+    <tr><td>多语言 hreflang</td><td>⏳ 待完善</td><td>帮助 Google 识别多语言页面关系</td></tr>
+  </table>
+
+  <h3>SEO 优化建议（待实施）</h3>
+  <ul>
+    <li>每篇博客 targeting 1-2 个关键词（如 "best AI tools 2026"）</li>
+    <li>开设深度评测文章，每篇 800-1500 字</li>
+    <li>建立内链体系：博客 ↔ 工具详情页互相链接</li>
+    <li>添加 hreflang 标签，告诉 Google 多语言页面的对应关系</li>
+  </ul>
+</section>
+
+<!-- ===== 10. 部署架构 ===== -->
+<section id="deploy">
+  <h2>10. 部署架构</h2>
+  
+  <h3>架构图</h3>
+  <pre><code>用户浏览器
+    ↓
+catai.cc.cd (Cloudflare DNS，仅 DNS 模式)
+    ↓ A 记录 → 216.198.79.1
+Vercel (自动部署)
+    ↓ 监听 GitHub 仓库
+github.com/aaron202302/cataisvip (main 分支)
+    ↓ git push 触发
+Vercel 自动构建 (npm run build)
+    ↓ 约 1-2 分钟
+全球 CDN 分发</code></pre>
+
+  <h3>关键配置</h3>
+  <table>
+    <tr><th>项目</th><th>值</th></tr>
+    <tr><td>域名</td><td>catai.cc.cd</td></tr>
+    <tr><td>Vercel 项目</td><td>cataisvip</td></tr>
+    <tr><td>GitHub 仓库</td><td>aaron202302/cataisvip</td></tr>
+    <tr><td>DNS 提供商</td><td>Cloudflare（A 记录，DNS only 模式）</td></tr>
+    <tr><td>构建命令</td><td><code>npm run build</code></td></tr>
+    <tr><td>输出目录</td><td>.next（Next.js 默认）</td></tr>
+    <tr><td>Node 版本</td><td>Vercel 自动管理</td></tr>
+  </table>
+
+  <h3>部署步骤（代码推送）</h3>
+  <pre><code>cd c:\Users\83510\Desktop\QderCN\catai
+git config http.postBuffer 524288000   # 增大缓冲区（国内网络需要）
+git add .
+git commit -m "描述信息"
+git push origin main                   # 推送后 Vercel 自动部署</code></pre>
+</section>
+
+<!-- ===== 11. 开发指南 ===== -->
+<section id="dev-guide">
+  <h2>11. 开发指南（日常操作）</h2>
+  
+  <h3>本地开发环境搭建</h3>
+  <pre><code># 1. 克隆仓库
+git clone https://github.com/aaron202302/cataisvip.git
+cd catai
+
+# 2. 安装依赖
+npm install
+
+# 3. 启动开发服务器
+npm run dev
+# 浏览器打开 http://localhost:3000
+
+# 4. 构建生产版本
+npm run build</code></pre>
+
+  <h3>常用命令</h3>
+  <table>
+    <tr><th>命令</th><th>用途</th></tr>
+    <tr><td><code>npm run dev</code></td><td>启动本地开发服务器（热更新）</td></tr>
+    <tr><td><code>npm run build</code></td><td>构建生产版本（检查错误）</td></tr>
+    <tr><td><code>npm run start</code></td><td>启动生产服务器（需先 build）</td></tr>
+    <tr><td><code>npm run lint</code></td><td>代码风格检查</td></tr>
+  </table>
+
+  <h3>添加新工具的步骤</h3>
+  <ol>
+    <li>在 <code>src/data/tools.json</code> 中添加基础信息（参考现有格式）</li>
+    <li>在 <code>src/data/toolDetails.json</code> 中添加详情（功能/定价/优缺点）</li>
+    <li>运行 <code>npm run build</code> 验证无错误</li>
+    <li>git push 到 GitHub，Vercel 自动部署</li>
+    <li>也可使用 <code>tool-editor.html</code> 可视化编辑后导出 JSON</li>
+  </ol>
+
+  <h3>添加新博客的步骤</h3>
+  <ol>
+    <li>打开 <code>blog-editor.html</code>（浏览器直接打开）</li>
+    <li>填写标题、摘要、正文（支持 Markdown）</li>
+    <li>导出 JSON → 粘贴到 <code>src/data/blogPosts.json</code></li>
+    <li>运行 <code>npm run build</code> 验证</li>
+    <li>git push 部署</li>
+  </ol>
+
+  <div class="card warn">
+    <strong>⚠️ GitHub 推送注意：</strong>国内网络可能连不上 GitHub，需要先运行 <code>git config http.postBuffer 524288000</code> 增大缓冲区。如果仍然失败，等几分钟后重试。
+  </div>
+</section>
+
+<!-- ===== 12. 运营工具 ===== -->
+<section id="tools">
+  <h2>12. 运营工具</h2>
+  <table>
+    <tr><th>工具</th><th>文件</th><th>用途</th><th>使用方式</th></tr>
+    <tr><td>工具编辑器</td><td><code>tool-editor.html</code></td><td>可视化编辑工具数据，生成 tools.json 和 toolDetails.json</td><td>浏览器打开，填写表单，导出 JSON</td></tr>
+    <tr><td>博客编辑器</td><td><code>blog-editor.html</code></td><td>编辑博客文章，支持 Markdown、双语、预览</td><td>浏览器打开，写文章，导出 JSON</td></tr>
+  </table>
+  <div class="card info">
+    <strong>💡 注意：</strong>这两个 HTML 文件是<strong>独立运营工具</strong>，不依赖项目运行。已添加到 .gitignore，不会上传到公开仓库。
+  </div>
+</section>
+
+<!-- ===== 13. 账号清单 ===== -->
+<section id="accounts">
+  <h2>13. 账号与服务清单</h2>
+  <table>
+    <tr><th>服务</th><th>用途</th><th>账号/配置</th></tr>
+    <tr><td>GitHub</td><td>代码托管</td><td>用户: aaron202302，仓库: cataisvip</td></tr>
+    <tr><td>Vercel</td><td>网站部署</td><td>关联 GitHub 仓库，自动部署</td></tr>
+    <tr><td>Cloudflare</td><td>DNS 解析</td><td>catai.cc.cd 域名管理</td></tr>
+    <tr><td>Google Search Console</td><td>搜索收录</td><td>已提交 catai.cc.cd</td></tr>
+    <tr><td>Google Analytics</td><td>流量分析</td><td>测量 ID: G-TZM2023RV7</td></tr>
+    <tr><td>Google AdSense</td><td>广告</td><td>待申请</td></tr>
+    <tr><td>联系邮箱</td><td>用户联系</td><td>cataisvip@gmail.com</td></tr>
+  </table>
+</section>
+
+<!-- ===== 14. 规划 ===== -->
+<section id="roadmap">
+  <h2>14. 已完成与待办规划</h2>
+  
+  <h3>✅ 已完成</h3>
+  <ul>
+    <li>Next.js 项目搭建 + App Router 架构</li>
+    <li>37 款 AI 工具数据录入 + 详情页</li>
+    <li>中英双语支持 + 日/西/法语扩展（5 种语言）</li>
+    <li>品牌 Logo 设计（favicon.svg + logo.svg）</li>
+    <li>隐私政策 + 免责声明（多语言）</li>
+    <li>Google Analytics 接入</li>
+    <li>Google Search Console 收录提交</li>
+    <li>Vercel 部署 + 自定义域名 catai.cc.cd</li>
+    <li>博客/新闻系统（列表页 + 详情页）</li>
+    <li>社交分享按钮（Twitter/X、LinkedIn、Facebook）</li>
+    <li>博客编辑器 + 工具编辑器（HTML 运营工具）</li>
+    <li>语言切换下拉菜单（5 种语言）</li>
+    <li>sitemap.xml 包含所有语言 + 博客页面</li>
+  </ul>
+
+  <h3>⏳ 待办规划</h3>
+  <table>
+    <tr><th>优先级</th><th>任务</th><th>说明</th></tr>
+    <tr><td>🔴 高</td><td>博客首页展示</td><td>在首页嵌入"最新文章"区块，提高博客曝光度</td></tr>
+    <tr><td>🔴 高</td><td>资源提交通知</td><td>接入 GitHub Issues API 或邮件通知，让站长知道有人提交了资源</td></tr>
+    <tr><td>🔴 高</td><td>Google AdSense</td><td>申请并接入广告，实现盈利</td></tr>
+    <tr><td>🟡 中</td><td>CMS 接入</td><td>接入 Sanity CMS，实现可视化发布博客，无需代码部署</td></tr>
+    <tr><td>🟡 中</td><td>hreflang 标签</td><td>帮助 Google 识别多语言页面关系，提升 SEO</td></tr>
+    <tr><td>🟡 中</td><td>深度博客内容</td><td>撰写工具对比、使用教程等长文，提升搜索权重</td></tr>
+    <tr><td>🟢 低</td><td>暗色模式</td><td>支持 Dark Mode</td></tr>
+    <tr><td>🟢 低</td><td>用户收藏功能</td><td>用户可以收藏喜欢的工具</td></tr>
+    <tr><td>🟢 低</td><td>Newsletter 订阅</td><td>邮件订阅 AI 资讯</td></tr>
+    <tr><td>🟢 低</td><td>工具对比功能</td><td>用户可以选择多个工具并排对比</td></tr>
+  </table>
+</section>
+
+<!-- ===== 15. FAQ ===== -->
+<section id="faq">
+  <h2>15. 常见问题 FAQ</h2>
+  
+  <h3>Q: 为什么推送 GitHub 经常失败？</h3>
+  <p>A: 国内网络访问 GitHub 不稳定。解决方法：先运行 <code>git config http.postBuffer 524288000</code>，然后重试。如果还不行，等几分钟再试。</p>
+  
+  <h3>Q: 修改了翻译文件但没效果？</h3>
+  <p>A: 需要同时修改 5 个语言文件（en/zh/ja/es/fr.json），否则缺失的 key 会显示原始 key 名。修改后需要 git push 触发 Vercel 重新部署。</p>
+  
+  <h3>Q: 新增工具后为什么 Logo 不显示？</h3>
+  <p>A: Logo 使用 Google Favicon Service（<code>www.google.com/s2/favicons</code>），如果目标网站没有 favicon 就会显示空白。可以手动指定其他 Logo URL。</p>
+  
+  <h3>Q: 本地构建成功但线上报错？</h3>
+  <p>A: 检查 Vercel 的部署日志。常见原因：JSON 文件格式错误、缺少翻译 key、图片 URL 不可访问。</p>
+  
+  <h3>Q: 博客发布一定要 push 代码吗？</h3>
+  <p>A: 目前是的。后续计划接入 Sanity CMS，实现可视化发布，无需碰代码。</p>
+  
+  <h3>Q: 工具详情页的 "Latest Update" 日期怎么写？</h3>
+  <p>A: 在 <code>toolDetails.json</code> 的 <code>latestUpdate</code> 字段中填写最新动态，建议更新到当月（如 "July 2026"）。</p>
+
+  <h3>Q: 为什么 ja/es/fr 语言的工具名称和描述还是英文？</h3>
+  <p>A: 工具数据（tools.json）只有中英文翻译，其他语言回退到英文显示。如果未来需要日语/西语/法语的工具描述，需要在 tools.json 中增加对应字段。</p>
+</section>
+
+<!-- ===== 页脚 ===== -->
+<footer>
+  <p>CATAI 项目技术文档 v2.0 · 最后更新：2026-07-15</p>
+  <p>如有问题请联系 cataisvip@gmail.com</p>
+</footer>
+
+</div>
+</body>
+</html>

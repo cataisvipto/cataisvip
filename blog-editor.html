@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CATAI 博客编辑器</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f5f5f5; padding: 20px; }
+    .container { max-width: 1100px; margin: 0 auto; }
+    h1 { text-align: center; color: #333; margin-bottom: 8px; font-size: 28px; }
+    .subtitle { text-align: center; color: #6b7280; margin-bottom: 30px; font-size: 14px; }
+    .card { background: white; border-radius: 12px; padding: 24px; margin-bottom: 20px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
+    .card h2 { color: #4f46e5; margin-bottom: 16px; font-size: 18px; border-bottom: 2px solid #e5e7eb; padding-bottom: 8px; }
+    .form-group { margin-bottom: 16px; }
+    .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    .form-row-3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px; }
+    label { display: block; margin-bottom: 6px; font-weight: 500; color: #374151; font-size: 14px; }
+    input, textarea, select { width: 100%; padding: 10px 12px; border: 1px solid #d1d5db; border-radius: 8px; font-size: 14px; transition: border-color 0.2s; }
+    input:focus, textarea:focus, select:focus { outline: none; border-color: #4f46e5; box-shadow: 0 0 0 3px rgba(79,70,229,0.1); }
+    textarea { resize: vertical; min-height: 80px; font-family: 'Monaco', 'Menlo', monospace; font-size: 13px; line-height: 1.6; }
+    .hint { font-size: 12px; color: #6b7280; margin-top: 4px; }
+    .btn { padding: 12px 24px; border: none; border-radius: 8px; font-size: 14px; font-weight: 500; cursor: pointer; transition: all 0.2s; }
+    .btn-primary { background: #4f46e5; color: white; }
+    .btn-primary:hover { background: #4338ca; }
+    .btn-secondary { background: #e5e7eb; color: #374151; }
+    .btn-secondary:hover { background: #d1d5db; }
+    .btn-success { background: #10b981; color: white; }
+    .btn-success:hover { background: #059669; }
+    .btn-danger { background: #ef4444; color: white; }
+    .btn-danger:hover { background: #dc2626; }
+    .btn-sm { padding: 6px 14px; font-size: 13px; }
+    .btn-group { display: flex; gap: 12px; margin-top: 20px; flex-wrap: wrap; }
+    .tabs { display: flex; gap: 8px; margin-bottom: 16px; }
+    .tab { padding: 8px 16px; border-radius: 6px; cursor: pointer; font-size: 14px; border: none; }
+    .tab.active { background: #4f46e5; color: white; }
+    .tab:not(.active) { background: #e5e7eb; color: #374151; }
+    .lang-tabs { display: flex; gap: 0; margin-bottom: 0; }
+    .lang-tab { padding: 8px 20px; cursor: pointer; font-size: 13px; font-weight: 500; border: 1px solid #d1d5db; background: #f9fafb; color: #6b7280; }
+    .lang-tab:first-child { border-radius: 8px 0 0 8px; }
+    .lang-tab:last-child { border-radius: 0 8px 8px 0; }
+    .lang-tab.active { background: #4f46e5; color: white; border-color: #4f46e5; }
+    .output-area { background: #1f2937; color: #10b981; padding: 16px; border-radius: 8px; font-family: 'Monaco', 'Menlo', monospace; font-size: 12px; white-space: pre-wrap; word-break: break-all; max-height: 500px; overflow-y: auto; }
+    .output-wrapper { position: relative; }
+    .copy-btn { position: absolute; top: 8px; right: 8px; background: #374151; color: white; border: none; padding: 6px 12px; border-radius: 4px; font-size: 12px; cursor: pointer; }
+    .copy-btn:hover { background: #4b5563; }
+    .tag-input { display: flex; flex-wrap: wrap; gap: 8px; padding: 8px; border: 1px solid #d1d5db; border-radius: 8px; min-height: 44px; align-items: center; }
+    .tag { background: #e0e7ff; color: #4f46e5; padding: 4px 10px; border-radius: 4px; font-size: 13px; display: flex; align-items: center; gap: 4px; }
+    .tag button { background: none; border: none; color: #4f46e5; cursor: pointer; font-size: 16px; }
+    .tag-input input { border: none; outline: none; flex: 1; min-width: 100px; padding: 4px; box-shadow: none; }
+    .preview-area { background: white; border: 1px solid #e5e7eb; border-radius: 8px; padding: 24px; min-height: 300px; line-height: 1.8; }
+    .preview-area h1 { font-size: 24px; margin-bottom: 12px; text-align: left; color: #111; }
+    .preview-area h2 { font-size: 20px; margin: 24px 0 8px; color: #1f2937; }
+    .preview-area h3 { font-size: 17px; margin: 16px 0 6px; color: #374151; }
+    .preview-area p { margin-bottom: 12px; color: #4b5563; }
+    .preview-area ul, .preview-area ol { margin: 8px 0 12px 24px; }
+    .preview-area li { margin-bottom: 4px; color: #4b5563; }
+    .preview-area code { background: #f3f4f6; padding: 2px 6px; border-radius: 4px; font-size: 13px; }
+    .post-list { display: flex; flex-direction: column; gap: 8px; }
+    .post-item { display: flex; align-items: center; justify-content: space-between; padding: 12px 16px; background: #f9fafb; border-radius: 8px; border: 1px solid #e5e7eb; }
+    .post-item:hover { border-color: #4f46e5; background: #f5f3ff; }
+    .post-item .post-info { flex: 1; }
+    .post-item .post-title { font-weight: 500; color: #1f2937; font-size: 14px; }
+    .post-item .post-meta { font-size: 12px; color: #6b7280; margin-top: 2px; }
+    .post-item .post-actions { display: flex; gap: 6px; }
+    .status-badge { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 11px; font-weight: 500; }
+    .status-draft { background: #fef3c7; color: #92400e; }
+    .status-published { background: #d1fae5; color: #065f46; }
+    .editor-toolbar { display: flex; gap: 4px; padding: 8px; background: #f9fafb; border: 1px solid #d1d5db; border-bottom: none; border-radius: 8px 8px 0 0; }
+    .toolbar-btn { padding: 4px 10px; background: white; border: 1px solid #d1d5db; border-radius: 4px; cursor: pointer; font-size: 13px; }
+    .toolbar-btn:hover { background: #e5e7eb; }
+    .editor-toolbar + textarea { border-radius: 0 0 8px 8px; }
+    .markdown-help { background: #f9fafb; border: 1px solid #e5e7eb; border-radius: 8px; padding: 16px; font-size: 12px; color: #6b7280; }
+    .markdown-help code { background: #e5e7eb; padding: 1px 4px; border-radius: 3px; font-size: 11px; }
+    .toast { position: fixed; bottom: 20px; right: 20px; padding: 12px 24px; border-radius: 8px; color: white; font-size: 14px; z-index: 1000; animation: slideIn 0.3s ease; }
+    .toast-success { background: #10b981; }
+    .toast-error { background: #ef4444; }
+    @keyframes slideIn { from { transform: translateX(100%); opacity: 0; } to { transform: translateX(0); opacity: 1; } }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>📝 CATAI 博客编辑器</h1>
+    <p class="subtitle">创建、编辑和管理 CATAI 博客文章（支持中英双语）</p>
+
+    <!-- 文章管理 -->
+    <div class="card">
+      <h2>📚 文章管理</h2>
+      <div class="btn-group" style="margin-top: 0; margin-bottom: 16px;">
+        <button class="btn btn-primary btn-sm" onclick="newPost()">+ 新建文章</button>
+        <button class="btn btn-secondary btn-sm" onclick="importPosts()">📥 导入 JSON</button>
+        <button class="btn btn-secondary btn-sm" onclick="loadFromStorage()">🔄 从本地恢复</button>
+      </div>
+      <div id="postList" class="post-list"></div>
+    </div>
+
+    <!-- 基本信息 -->
+    <div class="card">
+      <h2>📋 基本信息</h2>
+      <div class="form-row-3">
+        <div class="form-group">
+          <label>Slug (英文标识) *</label>
+          <input type="text" id="slug" placeholder="如: ai-tools-2026">
+          <div class="hint">小写字母、数字和连字符</div>
+        </div>
+        <div class="form-group">
+          <label>分类 *</label>
+          <select id="category">
+            <option value="news">News - 资讯</option>
+            <option value="comparison">Comparison - 对比</option>
+            <option value="listicle">Listicle - 盘点</option>
+            <option value="tutorial">Tutorial - 教程</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>状态</label>
+          <select id="status">
+            <option value="draft">草稿</option>
+            <option value="published">已发布</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label>作者</label>
+          <input type="text" id="author" value="CATAI Team" placeholder="作者名称">
+        </div>
+        <div class="form-group">
+          <label>发布日期</label>
+          <input type="date" id="publishedAt">
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label>封面图片 URL</label>
+          <input type="text" id="coverImage" placeholder="https://images.unsplash.com/...">
+          <div class="hint">建议使用 1200x630 的图片</div>
+        </div>
+        <div class="form-group">
+          <label>阅读时间 (分钟)</label>
+          <input type="number" id="readTime" value="5" min="1" max="30">
+        </div>
+      </div>
+      <div class="form-group">
+        <label>标签</label>
+        <div class="tag-input" id="tagInput">
+          <input type="text" id="tagField" placeholder="输入标签后按回车" onkeydown="handleTagKey(event)">
+        </div>
+        <div class="hint">按回车添加标签，点击 × 删除</div>
+      </div>
+    </div>
+
+    <!-- 标题 -->
+    <div class="card">
+      <h2>📌 标题</h2>
+      <div class="lang-tabs">
+        <button class="lang-tab active" onclick="switchLang('en', this)">English</button>
+        <button class="lang-tab" onclick="switchLang('zh', this)">中文</button>
+      </div>
+      <div id="title-en">
+        <input type="text" id="titleEn" placeholder="Enter English title...">
+      </div>
+      <div id="title-zh" style="display:none">
+        <input type="text" id="titleZh" placeholder="输入中文标题...">
+      </div>
+    </div>
+
+    <!-- 摘要 -->
+    <div class="card">
+      <h2>📝 摘要</h2>
+      <div class="lang-tabs">
+        <button class="lang-tab active" onclick="switchExcerptLang('en', this)">English</button>
+        <button class="lang-tab" onclick="switchExcerptLang('zh', this)">中文</button>
+      </div>
+      <div id="excerpt-en">
+        <textarea id="excerptEn" rows="3" placeholder="Enter English excerpt..."></textarea>
+      </div>
+      <div id="excerpt-zh" style="display:none">
+        <textarea id="excerptZh" rows="3" placeholder="输入中文摘要..."></textarea>
+      </div>
+    </div>
+
+    <!-- 正文内容 -->
+    <div class="card">
+      <h2>📄 正文内容 (Markdown)</h2>
+      <div class="lang-tabs">
+        <button class="lang-tab active" onclick="switchContentLang('en', this)">English</button>
+        <button class="lang-tab" onclick="switchContentLang('zh', this)">中文</button>
+      </div>
+      <div id="content-en">
+        <div class="editor-toolbar">
+          <button class="toolbar-btn" onclick="insertMd('## ')" title="二级标题">H2</button>
+          <button class="toolbar-btn" onclick="insertMd('### ')" title="三级标题">H3</button>
+          <button class="toolbar-btn" onclick="insertMd('- ')" title="无序列表">• List</button>
+          <button class="toolbar-btn" onclick="insertMd('1. ')" title="有序列表">1. List</button>
+          <button class="toolbar-btn" onclick="insertMd('**', '**')" title="粗体">B</button>
+          <button class="toolbar-btn" onclick="insertMd('`', '`')" title="代码">Code</button>
+          <button class="toolbar-btn" onclick="insertMd('\n> ')" title="引用">Quote</button>
+          <button class="toolbar-btn" onclick="showPreview()" title="预览">Preview</button>
+        </div>
+        <textarea id="contentEn" rows="20" placeholder="Write English content in Markdown..."></textarea>
+      </div>
+      <div id="content-zh" style="display:none">
+        <div class="editor-toolbar">
+          <button class="toolbar-btn" onclick="insertMd('## ')" title="二级标题">H2</button>
+          <button class="toolbar-btn" onclick="insertMd('### ')" title="三级标题">H3</button>
+          <button class="toolbar-btn" onclick="insertMd('- ')" title="无序列表">• List</button>
+          <button class="toolbar-btn" onclick="insertMd('1. ')" title="有序列表">1. List</button>
+          <button class="toolbar-btn" onclick="insertMd('**', '**')" title="粗体">B</button>
+          <button class="toolbar-btn" onclick="insertMd('`', '`')" title="代码">Code</button>
+          <button class="toolbar-btn" onclick="insertMd('\n> ')" title="引用">Quote</button>
+          <button class="toolbar-btn" onclick="showPreview()" title="预览">Preview</button>
+        </div>
+        <textarea id="contentZh" rows="20" placeholder="输入中文正文（Markdown 格式）..."></textarea>
+      </div>
+
+      <!-- Markdown 帮助 -->
+      <div class="markdown-help" style="margin-top: 12px;">
+        <strong>Markdown 语法：</strong>
+        <code>## 标题</code> · <code>### 副标题</code> · <code>- 列表项</code> · <code>1. 有序列表</code> · <code>**粗体**</code> · <code>`代码`</code> · <code>> 引用</code> · 空行分段
+      </div>
+    </div>
+
+    <!-- 预览 -->
+    <div class="card" id="previewCard" style="display:none">
+      <h2>👁️ 文章预览</h2>
+      <div class="lang-tabs">
+        <button class="lang-tab active" onclick="switchPreviewLang('en', this)">English</button>
+        <button class="lang-tab" onclick="switchPreviewLang('zh', this)">中文</button>
+      </div>
+      <div id="previewArea" class="preview-area"></div>
+    </div>
+
+    <!-- 输出 -->
+    <div class="card">
+      <h2>📦 生成 JSON</h2>
+      <div class="btn-group" style="margin-top: 0; margin-bottom: 16px;">
+        <button class="btn btn-primary" onclick="generateJSON()">生成 JSON</button>
+        <button class="btn btn-success" onclick="generateAndCopy()">生成并复制</button>
+        <button class="btn btn-secondary" onclick="saveToStorage()">💾 保存到本地</button>
+        <button class="btn btn-secondary" onclick="downloadJSON()">📥 下载 JSON 文件</button>
+      </div>
+      <div class="output-wrapper">
+        <button class="copy-btn" onclick="copyOutput()">📋 复制</button>
+        <div id="output" class="output-area">点击"生成 JSON"按钮查看输出...</div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    let posts = [];
+    let tags = [];
+    let currentEditIndex = -1;
+    let currentPreviewLang = 'en';
+
+    // 初始化
+    document.getElementById('publishedAt').valueAsDate = new Date();
+    loadFromStorage();
+
+    function newPost() {
+      currentEditIndex = -1;
+      document.getElementById('slug').value = '';
+      document.getElementById('category').value = 'news';
+      document.getElementById('status').value = 'draft';
+      document.getElementById('author').value = 'CATAI Team';
+      document.getElementById('publishedAt').valueAsDate = new Date();
+      document.getElementById('coverImage').value = '';
+      document.getElementById('readTime').value = '5';
+      document.getElementById('titleEn').value = '';
+      document.getElementById('titleZh').value = '';
+      document.getElementById('excerptEn').value = '';
+      document.getElementById('excerptZh').value = '';
+      document.getElementById('contentEn').value = '';
+      document.getElementById('contentZh').value = '';
+      tags = [];
+      renderTags();
+      showToast('新文章已创建', 'success');
+    }
+
+    function handleTagKey(e) {
+      if (e.key === 'Enter') {
+        e.preventDefault();
+        const val = e.target.value.trim();
+        if (val && !tags.includes(val)) {
+          tags.push(val);
+          renderTags();
+          e.target.value = '';
+        }
+      }
+    }
+
+    function removeTag(index) {
+      tags.splice(index, 1);
+      renderTags();
+    }
+
+    function renderTags() {
+      const container = document.getElementById('tagInput');
+      const input = document.getElementById('tagField');
+      container.innerHTML = '';
+      tags.forEach((tag, i) => {
+        const el = document.createElement('span');
+        el.className = 'tag';
+        el.innerHTML = `${tag} <button onclick="removeTag(${i})">×</button>`;
+        container.appendChild(el);
+      });
+      container.appendChild(input);
+    }
+
+    function switchLang(lang, btn) {
+      document.querySelectorAll('#title-en, #title-zh').forEach(el => el.style.display = 'none');
+      document.getElementById(`title-${lang}`).style.display = 'block';
+      btn.parentElement.querySelectorAll('.lang-tab').forEach(t => t.classList.remove('active'));
+      btn.classList.add('active');
+    }
+
+    function switchExcerptLang(lang, btn) {
+      document.querySelectorAll('#excerpt-en, #excerpt-zh').forEach(el => el.style.display = 'none');
+      document.getElementById(`excerpt-${lang}`).style.display = 'block';
+      btn.parentElement.querySelectorAll('.lang-tab').forEach(t => t.classList.remove('active'));
+      btn.classList.add('active');
+    }
+
+    function switchContentLang(lang, btn) {
+      document.querySelectorAll('#content-en, #content-zh').forEach(el => el.style.display = 'none');
+      document.getElementById(`content-${lang}`).style.display = 'block';
+      btn.parentElement.querySelectorAll('.lang-tab').forEach(t => t.classList.remove('active'));
+      btn.classList.add('active');
+    }
+
+    function switchPreviewLang(lang, btn) {
+      currentPreviewLang = lang;
+      renderPreview();
+      btn.parentElement.querySelectorAll('.lang-tab').forEach(t => t.classList.remove('active'));
+      btn.classList.add('active');
+    }
+
+    function insertMd(before, after) {
+      const activeContent = document.querySelector('[id^="content-"]:not([style*="display: none"]) textarea');
+      if (!activeContent) return;
+      const start = activeContent.selectionStart;
+      const end = activeContent.selectionEnd;
+      const text = activeContent.value;
+      const selected = text.substring(start, end);
+      const replacement = before + selected + (after || '');
+      activeContent.value = text.substring(0, start) + replacement + text.substring(end);
+      activeContent.focus();
+      activeContent.selectionStart = start + before.length;
+      activeContent.selectionEnd = start + before.length + selected.length;
+    }
+
+    function renderMarkdown(text) {
+      return text.split('\n').map((line, i) => {
+        if (line.startsWith('### ')) return `<h3>${line.slice(4)}</h3>`;
+        if (line.startsWith('## ')) return `<h2>${line.slice(3)}</h2>`;
+        if (line.startsWith('- ')) return `<li style="list-style:disc;margin-left:20px">${line.slice(2)}</li>`;
+        if (line.match(/^\d+\.\s/)) return `<li style="list-style:decimal;margin-left:20px">${line.replace(/^\d+\.\s/, '')}</li>`;
+        if (line.startsWith('> ')) return `<blockquote style="border-left:3px solid #4f46e5;padding-left:12px;color:#6b7280;margin:8px 0">${line.slice(2)}</blockquote>`;
+        if (line === '') return '<br>';
+        line = line.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+        line = line.replace(/`(.*?)`/g, '<code>$1</code>');
+        return `<p>${line}</p>`;
+      }).join('');
+    }
+
+    function showPreview() {
+      document.getElementById('previewCard').style.display = 'block';
+      renderPreview();
+      document.getElementById('previewCard').scrollIntoView({ behavior: 'smooth' });
+    }
+
+    function renderPreview() {
+      const title = currentPreviewLang === 'zh' ? document.getElementById('titleZh').value : document.getElementById('titleEn').value;
+      const content = currentPreviewLang === 'zh' ? document.getElementById('contentZh').value : document.getElementById('contentEn').value;
+      const author = document.getElementById('author').value;
+      const date = document.getElementById('publishedAt').value;
+      const readTime = document.getElementById('readTime').value;
+      const category = document.getElementById('category').value;
+
+      document.getElementById('previewArea').innerHTML = `
+        <span style="display:inline-block;padding:2px 10px;background:#eef2ff;color:#4f46e5;border-radius:20px;font-size:13px;margin-bottom:12px">${category}</span>
+        <span style="font-size:13px;color:#6b7280;margin-left:8px">${readTime} min read</span>
+        <h1>${title || 'Untitled'}</h1>
+        <p style="font-size:13px;color:#6b7280;margin-bottom:20px">${author} · ${date}</p>
+        ${renderMarkdown(content)}
+      `;
+    }
+
+    function buildPost() {
+      return {
+        slug: document.getElementById('slug').value.trim(),
+        title: {
+          en: document.getElementById('titleEn').value.trim(),
+          zh: document.getElementById('titleZh').value.trim()
+        },
+        excerpt: {
+          en: document.getElementById('excerptEn').value.trim(),
+          zh: document.getElementById('excerptZh').value.trim()
+        },
+        content: {
+          en: document.getElementById('contentEn').value.trim(),
+          zh: document.getElementById('contentZh').value.trim()
+        },
+        author: document.getElementById('author').value.trim(),
+        publishedAt: document.getElementById('publishedAt').value,
+        category: document.getElementById('category').value,
+        tags: [...tags],
+        coverImage: document.getElementById('coverImage').value.trim(),
+        readTime: parseInt(document.getElementById('readTime').value) || 5
+      };
+    }
+
+    function validatePost(post) {
+      if (!post.slug) return 'Slug 不能为空';
+      if (!post.title.en) return '英文标题不能为空';
+      if (!post.title.zh) return '中文标题不能为空';
+      if (!post.content.en && !post.content.zh) return '至少需要填写一种语言的正文内容';
+      return null;
+    }
+
+    function generateJSON() {
+      const post = buildPost();
+      const error = validatePost(post);
+      if (error) {
+        showToast(error, 'error');
+        return null;
+      }
+
+      // 如果编辑已有文章，更新数组
+      if (currentEditIndex >= 0) {
+        posts[currentEditIndex] = post;
+      }
+
+      const output = JSON.stringify(posts.length > 0 ? posts : [post], null, 2);
+      document.getElementById('output').textContent = output;
+      return output;
+    }
+
+    function generateAndCopy() {
+      const json = generateJSON();
+      if (json) {
+        navigator.clipboard.writeText(json);
+        showToast('JSON 已复制到剪贴板！', 'success');
+      }
+    }
+
+    function copyOutput() {
+      const text = document.getElementById('output').textContent;
+      navigator.clipboard.writeText(text);
+      showToast('已复制！', 'success');
+    }
+
+    function downloadJSON() {
+      const json = generateJSON();
+      if (json) {
+        const blob = new Blob([json], { type: 'application/json' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = 'blogPosts.json';
+        a.click();
+        URL.revokeObjectURL(url);
+        showToast('文件已下载！', 'success');
+      }
+    }
+
+    function saveToStorage() {
+      const post = buildPost();
+      const error = validatePost(post);
+      if (error) {
+        showToast(error, 'error');
+        return;
+      }
+      if (currentEditIndex >= 0) {
+        posts[currentEditIndex] = post;
+      } else {
+        posts.push(post);
+        currentEditIndex = posts.length - 1;
+      }
+      localStorage.setItem('catai-blog-posts', JSON.stringify(posts));
+      renderPostList();
+      showToast('已保存到本地存储！', 'success');
+    }
+
+    function loadFromStorage() {
+      const data = localStorage.getItem('catai-blog-posts');
+      if (data) {
+        posts = JSON.parse(data);
+        renderPostList();
+        showToast(`已恢复 ${posts.length} 篇文章`, 'success');
+      }
+    }
+
+    function importPosts() {
+      const input = document.createElement('input');
+      input.type = 'file';
+      input.accept = '.json';
+      input.onchange = (e) => {
+        const reader = new FileReader();
+        reader.onload = (ev) => {
+          try {
+            const data = JSON.parse(ev.target.result);
+            if (Array.isArray(data)) {
+              posts = data;
+              renderPostList();
+              showToast(`已导入 ${data.length} 篇文章！`, 'success');
+            } else {
+              showToast('JSON 格式不正确', 'error');
+            }
+          } catch {
+            showToast('文件解析失败', 'error');
+          }
+        };
+        reader.readAsText(e.target.files[0]);
+      };
+      input.click();
+    }
+
+    function editPost(index) {
+      const post = posts[index];
+      currentEditIndex = index;
+      document.getElementById('slug').value = post.slug;
+      document.getElementById('category').value = post.category;
+      document.getElementById('status').value = post.status || 'draft';
+      document.getElementById('author').value = post.author;
+      document.getElementById('publishedAt').value = post.publishedAt;
+      document.getElementById('coverImage').value = post.coverImage;
+      document.getElementById('readTime').value = post.readTime;
+      document.getElementById('titleEn').value = post.title.en;
+      document.getElementById('titleZh').value = post.title.zh;
+      document.getElementById('excerptEn').value = post.excerpt.en;
+      document.getElementById('excerptZh').value = post.excerpt.zh;
+      document.getElementById('contentEn').value = post.content.en;
+      document.getElementById('contentZh').value = post.content.zh;
+      tags = [...(post.tags || [])];
+      renderTags();
+      showToast('文章已加载到编辑器', 'success');
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    function deletePost(index) {
+      if (confirm('确定要删除这篇文章吗？')) {
+        posts.splice(index, 1);
+        if (currentEditIndex === index) currentEditIndex = -1;
+        else if (currentEditIndex > index) currentEditIndex--;
+        localStorage.setItem('catai-blog-posts', JSON.stringify(posts));
+        renderPostList();
+        showToast('文章已删除', 'success');
+      }
+    }
+
+    function renderPostList() {
+      const container = document.getElementById('postList');
+      if (posts.length === 0) {
+        container.innerHTML = '<p style="text-align:center;color:#9ca3af;padding:20px">暂无文章，点击"新建文章"开始创作</p>';
+        return;
+      }
+      container.innerHTML = posts.map((post, i) => `
+        <div class="post-item">
+          <div class="post-info">
+            <div class="post-title">${post.title.zh || post.title.en || 'Untitled'}
+              <span class="status-badge ${post.status === 'published' ? 'status-published' : 'status-draft'}">${post.status === 'published' ? '已发布' : '草稿'}</span>
+            </div>
+            <div class="post-meta">${post.slug} · ${post.category} · ${post.publishedAt} · ${post.tags?.join(', ') || ''}</div>
+          </div>
+          <div class="post-actions">
+            <button class="btn btn-primary btn-sm" onclick="editPost(${i})">编辑</button>
+            <button class="btn btn-danger btn-sm" onclick="deletePost(${i})">删除</button>
+          </div>
+        </div>
+      `).join('');
+    }
+
+    function showToast(msg, type) {
+      const toast = document.createElement('div');
+      toast.className = `toast toast-${type}`;
+      toast.textContent = msg;
+      document.body.appendChild(toast);
+      setTimeout(() => toast.remove(), 3000);
+    }
+  </script>
+</body>
+</html>

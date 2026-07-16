@@ -6,7 +6,8 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { Tool } from '@/components/ToolCard';
 import toolDetails from '@/data/toolDetails.json';
-import { ArrowLeft, ExternalLink, Globe, Star, CheckCircle, XCircle, Lightbulb, DollarSign, Zap, Info } from 'lucide-react';
+import { ArrowLeft, ExternalLink, Globe, Star, CheckCircle, XCircle, Lightbulb, DollarSign, Zap, Info, Share2, Link2, Check } from 'lucide-react';
+import { TwitterIcon, LinkedinIcon, FacebookIcon } from '@/components/SocialIcons';
 import Image from 'next/image';
 import { useState } from 'react';
 
@@ -34,9 +35,25 @@ export default function ToolDetailClient({ tool, locale }: ToolDetailClientProps
   const tCategories = useTranslations('categories');
   const tTags = useTranslations('tags');
   const [searchQuery, setSearchQuery] = useState('');
+  const [copied, setCopied] = useState(false);
   const description = locale === 'zh' ? tool.description : tool.descriptionEn;
   const displayName = locale === 'zh' && tool.nameZh ? tool.nameZh : tool.name;
   const details = (toolDetails as any)[tool.slug];
+
+  // Social sharing
+  const siteUrl = 'https://catai.cc.cd';
+  const toolUrl = `${siteUrl}/${locale}/tool/${tool.slug}`;
+  const shareText = `${displayName} - CATAI AI Ecosystem Portal`;
+  const shareLinks = {
+    twitter: `https://twitter.com/intent/tweet?text=${encodeURIComponent(shareText)}&url=${encodeURIComponent(toolUrl)}`,
+    linkedin: `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(toolUrl)}`,
+    facebook: `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(toolUrl)}`,
+  };
+  const handleCopyLink = () => {
+    navigator.clipboard.writeText(toolUrl);
+    setCopied(true);
+    setTimeout(() => setCopied(false), 2000);
+  };
 
   // JSON-LD structured data for SEO
   const jsonLd = {
@@ -142,6 +159,29 @@ export default function ToolDetailClient({ tool, locale }: ToolDetailClientProps
                 {t('visit')}
                 <ExternalLink className="w-4 h-4" />
               </a>
+            </div>
+
+            {/* Social Sharing */}
+            <div className="px-8 pb-8">
+              <div className="flex items-center gap-2 mb-3 text-sm text-gray-500">
+                <Share2 className="w-4 h-4" />
+                <span>Share this tool</span>
+              </div>
+              <div className="flex flex-wrap gap-2">
+                <a href={shareLinks.twitter} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-black text-white rounded-lg hover:bg-gray-800 transition text-xs font-medium">
+                  <TwitterIcon className="w-3.5 h-3.5" /> Twitter
+                </a>
+                <a href={shareLinks.linkedin} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition text-xs font-medium">
+                  <LinkedinIcon className="w-3.5 h-3.5" /> LinkedIn
+                </a>
+                <a href={shareLinks.facebook} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition text-xs font-medium">
+                  <FacebookIcon className="w-3.5 h-3.5" /> Facebook
+                </a>
+                <button onClick={handleCopyLink} className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-gray-100 text-gray-700 rounded-lg hover:bg-gray-200 transition text-xs font-medium">
+                  {copied ? <Check className="w-3.5 h-3.5 text-green-600" /> : <Link2 className="w-3.5 h-3.5" />}
+                  {copied ? 'Copied!' : 'Copy Link'}
+                </button>
+              </div>
             </div>
           </div>
 
