@@ -327,21 +327,21 @@
       "en": {
         "title": "Quick Start Guide",
         "steps": [
-          {"step": 1, "title": "Visit the official website", "content": "Go to hermes-agent.nousresearch.com and explore the documentation."},
-          {"step": 2, "title": "Choose your platform", "content": "Select your preferred platform: Telegram, Discord, Slack, WhatsApp, or CLI."},
-          {"step": 3, "title": "Get API keys", "content": "Obtain necessary API keys for your chosen platform (e.g., Telegram Bot Token from @BotFather)."},
-          {"step": 4, "title": "Deploy or self-host", "content": "Use the cloud version or clone the repository for self-hosting with Docker."},
-          {"step": 5, "title": "Configure and connect", "content": "Configure your agent with API keys and connect to start chatting with unified memory."}
+          {"step": 1, "title": "Install Hermes Agent", "content": "Download Hermes Desktop installer from the official website, or run: curl -fsSL https://hermes-agent.nousresearch.com/install.sh | bash (Linux/macOS) or iex (irm https://hermes-agent.nousresearch.com/install.ps1) (Windows PowerShell)."},
+          {"step": 2, "title": "Reload shell and start", "content": "After installation, reload your shell (source ~/.bashrc) and run 'hermes' to start chatting."},
+          {"step": 3, "title": "Configure LLM provider", "content": "Run 'hermes model' to choose your LLM provider and model, or use 'hermes setup --portal' for the fastest setup with Nous Portal."},
+          {"step": 4, "title": "Set up messaging platforms", "content": "Run 'hermes gateway setup' to connect Telegram, Discord, Slack, WhatsApp, or other platforms."},
+          {"step": 5, "title": "Start using unified memory", "content": "Hermes Agent now learns from every conversation, creates skills, and remembers you across all connected platforms."}
         ]
       },
       "zh": {
         "title": "快速入门指南",
         "steps": [
-          {"step": 1, "title": "访问官方网站", "content": "前往 hermes-agent.nousresearch.com 查看文档。"},
-          {"step": 2, "title": "选择平台", "content": "选择你常用的平台：Telegram、Discord、Slack、WhatsApp 或 CLI。"},
-          {"step": 3, "title": "获取 API 密钥", "content": "获取所选平台的 API 密钥（如 Telegram 需从 @BotFather 获取 Bot Token）。"},
-          {"step": 4, "title": "部署或自托管", "content": "使用云版本或克隆仓库用 Docker 自托管。"},
-          {"step": 5, "title": "配置并连接", "content": "配置 API 密钥并连接，开始与统一记忆的智能体对话。"}
+          {"step": 1, "title": "安装 Hermes Agent", "content": "从官网下载 Hermes Desktop 安装程序，或运行：curl -fsSL https://hermes-agent.nousresearch.com/install.sh | bash（Linux/macOS）或 iex (irm https://hermes-agent.nousresearch.com/install.ps1)（Windows PowerShell）。"},
+          {"step": 2, "title": "重新加载 shell 并启动", "content": "安装完成后，重新加载 shell（source ~/.bashrc）并运行 'hermes' 开始对话。"},
+          {"step": 3, "title": "配置 LLM 提供商", "content": "运行 'hermes model' 选择 LLM 提供商和模型，或使用 'hermes setup --portal' 快速配置 Nous Portal。"},
+          {"step": 4, "title": "设置消息平台", "content": "运行 'hermes gateway setup' 连接 Telegram、Discord、Slack、WhatsApp 等平台。"},
+          {"step": 5, "title": "开始使用统一记忆", "content": "Hermes Agent 现在会从每次对话中学习，创建技能，并在所有连接的平台上记住你。"}
         ]
       }
     }
