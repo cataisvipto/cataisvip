@@ -5,6 +5,7 @@ import { Link, usePathname } from '@/i18n/navigation';
 import { Search, Globe, Send, ChevronDown, Newspaper } from 'lucide-react';
 import Image from 'next/image';
 import { useState, useRef, useEffect } from 'react';
+import ThemeToggle from './ThemeToggle';
 
 interface HeaderProps {
   searchQuery: string;
@@ -36,7 +37,7 @@ export default function Header({ searchQuery, onSearchChange, locale }: HeaderPr
   }, []);
 
   return (
-    <header className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-gray-100">
+    <header className="sticky top-0 z-50 bg-[var(--header-bg)] backdrop-blur-md border-b border-[var(--card-border)]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 gap-4">
           {/* Logo */}
@@ -82,21 +83,21 @@ export default function Header({ searchQuery, onSearchChange, locale }: HeaderPr
             <div className="relative" ref={langRef}>
               <button
                 onClick={() => setLangOpen(!langOpen)}
-                className="flex items-center gap-1 px-3 py-1.5 text-sm text-gray-600 hover:text-indigo-600 border border-gray-200 rounded-full hover:border-indigo-300 transition"
+                className="flex items-center gap-1 px-3 py-1.5 text-sm text-[var(--muted)] hover:text-[var(--primary)] border border-[var(--card-border)] rounded-full hover:border-[var(--primary)] transition"
               >
                 <Globe className="w-4 h-4" />
                 <span>{currentLang.short}</span>
                 <ChevronDown className="w-3 h-3" />
               </button>
               {langOpen && (
-                <div className="absolute right-0 top-full mt-1 bg-white border border-gray-200 rounded-lg shadow-lg py-1 min-w-[140px] z-50">
+                <div className="absolute right-0 top-full mt-1 bg-[var(--card-bg)] border border-[var(--card-border)] rounded-lg shadow-lg py-1 min-w-[140px] z-50">
                   {locales.map((l) => (
                     <Link
                       key={l.code}
                       href={pathname}
                       locale={l.code as any}
                       onClick={() => setLangOpen(false)}
-                      className={`block px-4 py-2 text-sm hover:bg-indigo-50 transition ${l.code === locale ? 'text-indigo-600 font-medium bg-indigo-50/50' : 'text-gray-700'}`}
+                      className={`block px-4 py-2 text-sm hover:bg-[var(--primary)]/10 transition ${l.code === locale ? 'text-[var(--primary)] font-medium bg-[var(--primary)]/5' : 'text-[var(--foreground)]'}`}
                     >
                       {l.label}
                     </Link>
@@ -104,6 +105,9 @@ export default function Header({ searchQuery, onSearchChange, locale }: HeaderPr
                 </div>
               )}
             </div>
+
+            {/* Theme Toggle */}
+            <ThemeToggle />
 
             {/* Submit Button */}
             <Link

@@ -6,6 +6,7 @@ import Header from '@/components/Header';
 import HeroSection from '@/components/HeroSection';
 import ToolGrid from '@/components/ToolGrid';
 import BlogHighlights from '@/components/BlogHighlights';
+import Newsletter from '@/components/Newsletter';
 import SubmitCTA from '@/components/SubmitCTA';
 import Footer from '@/components/Footer';
 import tools from '@/data/tools.json';
@@ -31,6 +32,9 @@ export default function HomePageClient() {
           onSearchChange={setSearchQuery}
         />
         <BlogHighlights />
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+          <Newsletter locale={locale} />
+        </div>
         <SubmitCTA />
       </main>
       <Footer />
