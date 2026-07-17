@@ -9,7 +9,7 @@ import { Tool, getLocalizedDescription } from '@/components/ToolCard';
 import toolDetails from '@/data/toolDetails.json';
 import tools from '@/data/tools.json';
 import blogPosts from '@/data/blogPosts.json';
-import { ArrowLeft, ExternalLink, Globe, Star, CheckCircle, XCircle, Lightbulb, DollarSign, Zap, Info, Share2, Link2, Check, Newspaper } from 'lucide-react';
+import { ArrowLeft, ExternalLink, Globe, Star, CheckCircle, XCircle, Lightbulb, DollarSign, Zap, Info, Share2, Link2, Check, Newspaper, BookOpen } from 'lucide-react';
 import { TwitterIcon, LinkedinIcon, FacebookIcon } from '@/components/SocialIcons';
 import Image from 'next/image';
 import { useState } from 'react';
@@ -300,6 +300,29 @@ export default function ToolDetailClient({ tool, locale }: ToolDetailClientProps
                 <p className="text-[var(--muted)] leading-relaxed">{getLocalized(details.latestUpdate, locale)}</p>
               </div>
             </>
+          )}
+
+          {/* Tutorial Section */}
+          {details?.tutorial && (
+            <div className="bg-[var(--card-bg)] rounded-2xl border border-[var(--card-border)] p-8 shadow-sm">
+              <h2 className="text-lg font-semibold text-[var(--foreground)] mb-6 flex items-center gap-2">
+                <BookOpen className="w-5 h-5 text-indigo-500" />
+                {getLocalized(details.tutorial.title, locale)}
+              </h2>
+              <div className="space-y-4">
+                {getLocalized(details.tutorial.steps, locale).map((step: any, index: number) => (
+                  <div key={index} className="flex gap-4">
+                    <div className="flex-shrink-0 w-8 h-8 rounded-full bg-indigo-100 dark:bg-indigo-900/30 flex items-center justify-center">
+                      <span className="text-sm font-bold text-indigo-600 dark:text-indigo-400">{step.step}</span>
+                    </div>
+                    <div className="flex-1">
+                      <h3 className="font-medium text-[var(--foreground)] mb-1">{step.title}</h3>
+                      <p className="text-sm text-[var(--muted)] leading-relaxed">{step.content}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
           )}
 
           {/* Related Tools (Same Category) */}

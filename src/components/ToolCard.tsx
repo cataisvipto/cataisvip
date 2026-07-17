@@ -19,6 +19,7 @@ export interface Tool {
   category: string;
   tags: string[];
   featured: boolean;
+  platforms?: string[];
 }
 
 // Helper to get localized description
@@ -87,7 +88,7 @@ export default function ToolCard({ tool, locale }: ToolCardProps) {
       </Link>
 
       {/* Tags */}
-      <div className="flex flex-wrap gap-1.5 mb-4">
+      <div className="flex flex-wrap gap-1.5 mb-3">
         {tool.tags.map((tag) => (
           <span
             key={tag}
@@ -97,6 +98,20 @@ export default function ToolCard({ tool, locale }: ToolCardProps) {
           </span>
         ))}
       </div>
+
+      {/* Platforms (for Agent category) */}
+      {tool.platforms && tool.platforms.length > 0 && (
+        <div className="flex flex-wrap gap-1.5 mb-3">
+          {tool.platforms.map((platform) => (
+            <span
+              key={platform}
+              className="px-2 py-0.5 rounded-md text-xs font-medium bg-slate-100 text-slate-600 dark:bg-slate-800 dark:text-slate-400"
+            >
+              {platform}
+            </span>
+          ))}
+        </div>
+      )}
 
       {/* Visit Link */}
       <a

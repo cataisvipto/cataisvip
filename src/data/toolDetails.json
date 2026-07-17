@@ -315,5 +315,35 @@
     "pros": {"en": ["Open weights, commercial use", "Strong multilingual performance", "Very long context (Scout)", "Large ecosystem support"], "zh": ["开放权重，可商用", "多语言表现强", "超长上下文（Scout）", "生态支持广泛"]},
     "cons": {"en": ["Large models need heavy hardware", "License has some usage limits", "Setup requires expertise"], "zh": ["大模型需强算力硬件", "许可存在部分使用限制", "部署需专业知识"]},
     "latestUpdate": {"en": "July 2026: Meta's Llama 4 herd (Scout, Maverick, Behemoth) brought native multimodality and up to 10M token context", "zh": "2026年7月：Meta Llama 4 系列（Scout、Maverick、Behemoth）带来原生多模态与最高 10M token 上下文"}
+  },
+  "hermes-agent": {
+    "features": {"en": ["Cross-platform unified AI agent", "Telegram, Discord, Slack, WhatsApp, Signal support", "Unified memory across all platforms", "Email and CLI interfaces", "Open-source by Nous Research", "Self-hostable with full control"], "zh": ["跨平台统一 AI 智能体", "支持 Telegram、Discord、Slack、WhatsApp、Signal", "全平台统一记忆", "邮件和 CLI 接口", "Nous Research 开源", "可自托管完全掌控"]},
+    "pricing": {"free": {"en": "Free and open-source", "zh": "免费开源"}, "self-hosted": {"en": "Self-host for free (need server)", "zh": "免费自托管（需服务器）"}, "cloud": {"en": "Cloud hosting varies by provider", "zh": "云托管费用因供应商而异"}},
+    "useCases": {"en": ["Personal AI assistant across platforms", "Team collaboration bot", "Customer support automation", "Research and experimentation", "Custom workflow automation", "Privacy-focused AI deployment"], "zh": ["跨平台个人 AI 助手", "团队协作机器人", "客户支持自动化", "研究与实验", "自定义工作流自动化", "注重隐私的 AI 部署"]},
+    "pros": {"en": ["True cross-platform unified memory", "Open-source and self-hostable", "Backed by Nous Research", "Active community development"], "zh": ["真正的跨平台统一记忆", "开源可自托管", "Nous Research 背书", "社区活跃开发"]},
+    "cons": {"en": ["Self-hosting requires technical setup", "Documentation still evolving", "Some platforms need API keys"], "zh": ["自托管需要技术配置", "文档仍在完善中", "部分平台需要 API 密钥"]},
+    "latestUpdate": {"en": "2026: Hermes Agent launched by Nous Research with multi-platform support and unified memory system", "zh": "2026年：Nous Research 发布 Hermes Agent，支持多平台与统一记忆系统"},
+    "tutorial": {
+      "en": {
+        "title": "Quick Start Guide",
+        "steps": [
+          {"step": 1, "title": "Visit the official website", "content": "Go to hermes-agent.nousresearch.com and explore the documentation."},
+          {"step": 2, "title": "Choose your platform", "content": "Select your preferred platform: Telegram, Discord, Slack, WhatsApp, or CLI."},
+          {"step": 3, "title": "Get API keys", "content": "Obtain necessary API keys for your chosen platform (e.g., Telegram Bot Token from @BotFather)."},
+          {"step": 4, "title": "Deploy or self-host", "content": "Use the cloud version or clone the repository for self-hosting with Docker."},
+          {"step": 5, "title": "Configure and connect", "content": "Configure your agent with API keys and connect to start chatting with unified memory."}
+        ]
+      },
+      "zh": {
+        "title": "快速入门指南",
+        "steps": [
+          {"step": 1, "title": "访问官方网站", "content": "前往 hermes-agent.nousresearch.com 查看文档。"},
+          {"step": 2, "title": "选择平台", "content": "选择你常用的平台：Telegram、Discord、Slack、WhatsApp 或 CLI。"},
+          {"step": 3, "title": "获取 API 密钥", "content": "获取所选平台的 API 密钥（如 Telegram 需从 @BotFather 获取 Bot Token）。"},
+          {"step": 4, "title": "部署或自托管", "content": "使用云版本或克隆仓库用 Docker 自托管。"},
+          {"step": 5, "title": "配置并连接", "content": "配置 API 密钥并连接，开始与统一记忆的智能体对话。"}
+        ]
+      }
+    }
   }
 }

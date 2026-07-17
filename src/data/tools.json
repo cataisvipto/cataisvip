@@ -568,5 +568,21 @@
     "category": "Platform",
     "tags": ["Free", "Open Source"],
     "featured": true
+  },
+  {
+    "slug": "hermes-agent",
+    "name": "Hermes Agent",
+    "nameZh": "Hermes Agent",
+    "description": "Nous Research 开发的跨平台 AI 智能体，支持 Telegram、Discord、Slack 等多平台统一记忆",
+    "descriptionEn": "Cross-platform AI agent by Nous Research with unified memory across Telegram, Discord, Slack and more",
+    "descriptionJa": "Nous Researchが開発したクロスプラットフォームAIエージェント。Telegram、Discord、Slackなどで統一メモリ",
+    "descriptionEs": "Agente de IA multiplataforma de Nous Research con memoria unificada en Telegram, Discord, Slack y más",
+    "descriptionFr": "Agent IA multiplateforme de Nous Research avec mémoire unifiée sur Telegram, Discord, Slack et plus",
+    "url": "https://hermes-agent.nousresearch.com",
+    "logo": "https://www.google.com/s2/favicons?domain=nousresearch.com&sz=128",
+    "category": "Agent",
+    "tags": ["Free", "Open Source"],
+    "featured": true,
+    "platforms": ["telegram", "discord", "slack", "whatsapp", "cli"]
   }
 ]
