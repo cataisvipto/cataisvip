@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import blogPosts from '@/data/blogPosts.json';
 import BlogDetailClient from './BlogDetailClient';
 import { routing } from '@/i18n/routing';
+import { generateAlternates, generateArticleJsonLd, BASE_URL } from '@/lib/seo';
 
 interface Props {
   params: Promise<{ locale: string; slug: string }>;
@@ -28,10 +29,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   const title = (post.title as Record<string, string>)[locale] || post.title.en;
   const excerpt = (post.excerpt as Record<string, string>)[locale] || post.excerpt.en;
+  const postUrl = `${BASE_URL}/${locale}/blog/${slug}`;
 
   return {
     title: `${title} - CATAI Blog`,
     description: excerpt,
+    alternates: generateAlternates(`/blog/${slug}`),
     openGraph: {
       title: `${title} - CATAI`,
       description: excerpt,
@@ -55,5 +58,17 @@ export default async function BlogDetailPage({ params }: Props) {
     notFound();
   }
 
-  return <BlogDetailClient post={post} locale={locale} />;
+  // Generate Article JSON-LD
+  const title = (post.title as Record<string, string>)[locale] || post.title.en;
+  const excerpt = (post.excerpt as Record<string, string>)[locale] || post.excerpt.en;
+  const articleJsonLd = generateArticleJsonLd({
+    title,
+    description: excerpt,
+    image: post.coverImage,
+    author: post.author,
+    datePublished: post.publishedAt,
+    url: `${BASE_URL}/${locale}/blog/${slug}`,
+  });
+
+  return <BlogDetailClient post={post} locale={locale} articleJsonLd={articleJsonLd} />;
 }

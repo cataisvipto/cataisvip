@@ -5,9 +5,11 @@ import { useTranslations, useLocale } from 'next-intl';
 import { Link } from '@/i18n/navigation';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-import { ArrowLeft, Calendar, Clock, User, Share2, Link2, Check } from 'lucide-react';
+import Breadcrumb from '@/components/Breadcrumb';
+import { ArrowLeft, Calendar, Clock, User, Share2, Link2, Check, ExternalLink } from 'lucide-react';
 import { TwitterIcon, LinkedinIcon, FacebookIcon } from '@/components/SocialIcons';
 import Image from 'next/image';
+import tools from '@/data/tools.json';
 
 interface BlogPost {
   slug: string;
@@ -25,19 +27,30 @@ interface BlogPost {
 interface BlogDetailClientProps {
   post: BlogPost;
   locale: string;
+  articleJsonLd: Record<string, any>;
 }
 
 // Localize a multilingual field, falling back to English so the blog follows the site language
 const getLocalized = (field: Record<string, string>, locale: string) =>
   field?.[locale] || field?.en || '';
 
-export default function BlogDetailClient({ post, locale }: BlogDetailClientProps) {
+export default function BlogDetailClient({ post, locale, articleJsonLd }: BlogDetailClientProps) {
   const t = useTranslations('blog');
   const [searchQuery, setSearchQuery] = useState('');
   const [copied, setCopied] = useState(false);
 
   const title = getLocalized(post.title, locale);
   const content = getLocalized(post.content, locale);
+
+  // Find related tools (blog tags match tool name/slug)
+  const relatedTools = tools.filter((tool) => {
+    const postTags = (post.tags || []).map((t) => t.toLowerCase());
+    const toolName = tool.name.toLowerCase();
+    const toolSlug = tool.slug.toLowerCase();
+    return postTags.some(
+      (tag) => tag === toolName || tag === toolSlug || tag.includes(toolSlug)
+    );
+  }).slice(0, 4);
 
   const siteUrl = 'https://catai.cc.cd';
   const postUrl = `${siteUrl}/${locale}/blog/${post.slug}`;
@@ -87,17 +100,21 @@ export default function BlogDetailClient({ post, locale }: BlogDetailClientProps
 
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }}
+      />
       <Header searchQuery={searchQuery} onSearchChange={setSearchQuery} locale={locale} />
       <main className="flex-1">
         <article className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-          {/* Back Link */}
-          <Link
-            href="/blog"
-            className="inline-flex items-center gap-1.5 text-sm text-gray-500 hover:text-indigo-600 transition mb-8"
-          >
-            <ArrowLeft className="w-4 h-4" />
-            {t('backToBlog')}
-          </Link>
+          {/* Breadcrumb */}
+          <Breadcrumb
+            items={[
+              { name: t('title') || 'Blog', href: '/blog' },
+              { name: title },
+            ]}
+            locale={locale}
+          />
 
           {/* Cover Image */}
           <div className="aspect-video rounded-2xl overflow-hidden mb-8">
@@ -198,6 +215,40 @@ export default function BlogDetailClient({ post, locale }: BlogDetailClientProps
               </button>
             </div>
           </div>
+
+          {/* Related Tools */}
+          {relatedTools.length > 0 && (
+            <div className="mt-8 p-6 bg-indigo-50/50 rounded-2xl border border-indigo-100">
+              <h3 className="text-lg font-semibold text-gray-900 mb-4 flex items-center gap-2">
+                <ExternalLink className="w-5 h-5 text-indigo-500" />
+                {locale === 'zh' ? '相关工具推荐' : 'Related Tools'}
+              </h3>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                {relatedTools.map((tool) => (
+                  <Link
+                    key={tool.slug}
+                    href={`/tool/${tool.slug}`}
+                    className="flex items-center gap-3 p-3 bg-white rounded-xl border border-gray-100 hover:border-indigo-200 hover:shadow-sm transition"
+                  >
+                    <Image
+                      src={tool.logo}
+                      alt={tool.name}
+                      width={32}
+                      height={32}
+                      className="w-8 h-8 rounded-lg object-contain"
+                      unoptimized
+                    />
+                    <div className="min-w-0">
+                      <div className="font-medium text-gray-900 text-sm truncate">{tool.name}</div>
+                      <div className="text-xs text-gray-500 truncate">
+                        {locale === 'zh' ? tool.description : tool.descriptionEn}
+                      </div>
+                    </div>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          )}
         </article>
       </main>
       <Footer />

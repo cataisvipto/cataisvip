@@ -4,6 +4,7 @@ import tools from '@/data/tools.json';
 import { Tool } from '@/components/ToolCard';
 import ToolDetailClient from './ToolDetailClient';
 import { routing } from '@/i18n/routing';
+import { generateAlternates } from '@/lib/seo';
 
 interface Props {
   params: Promise<{ locale: string; slug: string }>;
@@ -34,6 +35,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `${displayName} - ${siteName}`,
     description: description,
+    alternates: generateAlternates(`/tool/${slug}`),
     openGraph: {
       title: `${displayName} - CATAI`,
       description: description,

@@ -1,39 +1,41 @@
-'use client';
+import type { Metadata } from 'next';
+import { generateAlternates, generateWebSiteJsonLd, BASE_URL } from '@/lib/seo';
+import HomePageClient from './HomePageClient';
 
-import { useState } from 'react';
-import { useLocale } from 'next-intl';
-import Header from '@/components/Header';
-import HeroSection from '@/components/HeroSection';
-import ToolGrid from '@/components/ToolGrid';
-import BlogHighlights from '@/components/BlogHighlights';
-import SubmitCTA from '@/components/SubmitCTA';
-import Footer from '@/components/Footer';
-import tools from '@/data/tools.json';
-import { Tool } from '@/components/ToolCard';
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: 'CATAI - AI Ecosystem Portal | Your Gateway to AI',
+    description:
+      'Your gateway to the global AI ecosystem. Discover AI models, agents, tools, and resources from around the world.',
+    keywords:
+      'AI portal, AI ecosystem, AI tools, AI models, AI agents, ChatGPT, Claude, Gemini, DeepSeek, Grok, AI resources, artificial intelligence',
+    alternates: generateAlternates('/'),
+    openGraph: {
+      title: 'CATAI - AI Ecosystem Portal',
+      description:
+        'Discover AI models, agents, tools, and resources from around the world.',
+      type: 'website',
+      locale: 'en_US',
+      siteName: 'CATAI',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: 'CATAI - AI Ecosystem Portal',
+      description: 'Your gateway to the global AI ecosystem.',
+    },
+  };
+}
 
 export default function HomePage() {
-  const locale = useLocale();
-  const [searchQuery, setSearchQuery] = useState('');
+  const webSiteJsonLd = generateWebSiteJsonLd();
 
   return (
     <>
-      <Header
-        searchQuery={searchQuery}
-        onSearchChange={setSearchQuery}
-        locale={locale}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(webSiteJsonLd) }}
       />
-      <main className="flex-1">
-        <HeroSection />
-        <ToolGrid
-          tools={tools as Tool[]}
-          locale={locale}
-          searchQuery={searchQuery}
-          onSearchChange={setSearchQuery}
-        />
-        <BlogHighlights />
-        <SubmitCTA />
-      </main>
-      <Footer />
+      <HomePageClient />
     </>
   );
 }

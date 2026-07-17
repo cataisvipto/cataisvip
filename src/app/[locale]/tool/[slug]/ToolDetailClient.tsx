@@ -4,9 +4,11 @@ import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/navigation';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import Breadcrumb from '@/components/Breadcrumb';
 import { Tool, getLocalizedDescription } from '@/components/ToolCard';
 import toolDetails from '@/data/toolDetails.json';
-import { ArrowLeft, ExternalLink, Globe, Star, CheckCircle, XCircle, Lightbulb, DollarSign, Zap, Info, Share2, Link2, Check } from 'lucide-react';
+import blogPosts from '@/data/blogPosts.json';
+import { ArrowLeft, ExternalLink, Globe, Star, CheckCircle, XCircle, Lightbulb, DollarSign, Zap, Info, Share2, Link2, Check, Newspaper } from 'lucide-react';
 import { TwitterIcon, LinkedinIcon, FacebookIcon } from '@/components/SocialIcons';
 import Image from 'next/image';
 import { useState } from 'react';
@@ -39,6 +41,19 @@ export default function ToolDetailClient({ tool, locale }: ToolDetailClientProps
   const description = getLocalizedDescription(tool, locale);
   const displayName = locale === 'zh' && tool.nameZh ? tool.nameZh : tool.name;
   const details = (toolDetails as any)[tool.slug];
+
+  // Find related blog posts (tags match tool name/slug)
+  const relatedPosts = (blogPosts as any[]).filter((post) => {
+    const postTags = (post.tags || []).map((t: string) => t.toLowerCase());
+    const toolName = tool.name.toLowerCase();
+    const toolSlug = tool.slug.toLowerCase();
+    return postTags.some(
+      (tag: string) => tag === toolName || tag === toolSlug || tag.includes(toolSlug)
+    );
+  }).slice(0, 3);
+
+  const getLocalized = (field: any, loc: string) =>
+    typeof field === 'string' ? field : field?.[loc] || field?.en || '';
 
   // Social sharing
   const siteUrl = 'https://catai.cc.cd';
@@ -80,14 +95,14 @@ export default function ToolDetailClient({ tool, locale }: ToolDetailClientProps
       />
       <Header searchQuery={searchQuery} onSearchChange={setSearchQuery} locale={locale} />
       <main className="flex-1 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        {/* Back link */}
-        <Link
-          href="/"
-          className="inline-flex items-center gap-1.5 text-sm text-gray-500 hover:text-indigo-600 transition mb-8"
-        >
-          <ArrowLeft className="w-4 h-4" />
-          {t('backToHome')}
-        </Link>
+        {/* Breadcrumb */}
+        <Breadcrumb
+          items={[
+            { name: t('tools') || 'Tools', href: '/' },
+            { name: displayName },
+          ]}
+          locale={locale}
+        />
 
         <article className="space-y-8">
           {/* Header Card */}
@@ -278,6 +293,35 @@ export default function ToolDetailClient({ tool, locale }: ToolDetailClientProps
                 <p className="text-gray-700 leading-relaxed">{getLocalized(details.latestUpdate, locale)}</p>
               </div>
             </>
+          )}
+
+          {/* Related Blog Posts */}
+          {relatedPosts.length > 0 && (
+            <div className="bg-white rounded-2xl border border-gray-100 p-8 shadow-sm">
+              <h2 className="text-lg font-semibold text-gray-900 mb-4 flex items-center gap-2">
+                <Newspaper className="w-5 h-5 text-indigo-500" />
+                {locale === 'zh' ? '相关文章' : 'Related Articles'}
+              </h2>
+              <div className="space-y-4">
+                {relatedPosts.map((post) => (
+                  <Link
+                    key={post.slug}
+                    href={`/blog/${post.slug}`}
+                    className="block p-4 rounded-xl border border-gray-100 hover:border-indigo-200 hover:bg-indigo-50/30 transition"
+                  >
+                    <div className="text-sm text-indigo-600 mb-1 capitalize">
+                      {post.category}
+                    </div>
+                    <h3 className="font-medium text-gray-900 mb-1">
+                      {getLocalized(post.title, locale)}
+                    </h3>
+                    <p className="text-sm text-gray-500 line-clamp-2">
+                      {getLocalized(post.excerpt, locale)}
+                    </p>
+                  </Link>
+                ))}
+              </div>
+            </div>
           )}
         </article>
       </main>
