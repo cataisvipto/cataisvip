@@ -18,11 +18,11 @@ interface CategoryClientProps {
 }
 
 const TAG_COLORS: Record<string, string> = {
-  Free: 'bg-emerald-100 text-emerald-700',
-  Freemium: 'bg-blue-100 text-blue-700',
-  Paid: 'bg-amber-100 text-amber-700',
-  'Open Source': 'bg-violet-100 text-violet-700',
-  API: 'bg-purple-100 text-purple-700',
+  Free: 'bg-emerald-100 text-emerald-700 dark:bg-emerald-900/30 dark:text-emerald-400',
+  Freemium: 'bg-blue-100 text-blue-700 dark:bg-blue-900/30 dark:text-blue-400',
+  Paid: 'bg-amber-100 text-amber-700 dark:bg-amber-900/30 dark:text-amber-400',
+  'Open Source': 'bg-violet-100 text-violet-700 dark:bg-violet-900/30 dark:text-violet-400',
+  API: 'bg-purple-100 text-purple-700 dark:bg-purple-900/30 dark:text-purple-400',
 };
 
 // Category descriptions for SEO and UX
@@ -134,13 +134,13 @@ export default function CategoryClient({ category, slug, tools: categoryTools, l
 
         {/* Category Header */}
         <div className="mb-8">
-          <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-3">
+          <h1 className="text-3xl md:text-4xl font-bold text-[var(--foreground)] mb-3">
             {locale === 'zh'
               ? `最佳 ${tCategories(categorySlug as any)} AI 工具`
               : `Best ${tCategories(categorySlug as any)} AI Tools`}
           </h1>
-          <p className="text-lg text-gray-600 mb-4">{categoryDescription}</p>
-          <div className="flex items-center gap-2 text-sm text-gray-500">
+          <p className="text-lg text-[var(--muted)] mb-4">{categoryDescription}</p>
+          <div className="flex items-center gap-2 text-sm text-[var(--muted)]">
             <span>{categoryTools.length} {locale === 'zh' ? '款工具' : 'tools'}</span>
           </div>
         </div>
@@ -156,7 +156,7 @@ export default function CategoryClient({ category, slug, tools: categoryTools, l
                 className={`px-4 py-2 rounded-full text-sm font-medium transition ${
                   catSlug === slug
                     ? 'bg-indigo-600 text-white shadow-md'
-                    : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
+                    : 'bg-[var(--muted-bg)] text-[var(--muted)] hover:bg-[var(--card-border)]'
                 }`}
               >
                 {tCategories(catName as any)}
@@ -175,10 +175,10 @@ export default function CategoryClient({ category, slug, tools: categoryTools, l
               <Link
                 key={tool.slug}
                 href={`/tool/${tool.slug}`}
-                className="group bg-white rounded-2xl border border-gray-100 p-5 hover:border-indigo-200 hover:shadow-md transition"
+                className="group bg-[var(--card-bg)] rounded-2xl border border-[var(--card-border)] p-5 hover:border-[var(--primary)] hover:shadow-md transition"
               >
                 <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 rounded-xl bg-gray-50 border border-gray-100 flex items-center justify-center overflow-hidden shrink-0">
+                  <div className="w-12 h-12 rounded-xl bg-[var(--muted-bg)] border border-[var(--card-border)] flex items-center justify-center overflow-hidden shrink-0">
                     <Image
                       src={tool.logo}
                       alt={displayName}
@@ -190,19 +190,19 @@ export default function CategoryClient({ category, slug, tools: categoryTools, l
                   </div>
                   <div className="flex-1 min-w-0">
                     <div className="flex items-center gap-2 mb-1">
-                      <h3 className="font-semibold text-gray-900 truncate group-hover:text-indigo-600 transition">
+                      <h3 className="font-semibold text-[var(--foreground)] truncate group-hover:text-[var(--primary)] transition">
                         {displayName}
                       </h3>
                       {tool.featured && (
                         <Star className="w-4 h-4 text-amber-500 fill-current shrink-0" />
                       )}
                     </div>
-                    <p className="text-sm text-gray-500 line-clamp-2 mb-3">{description}</p>
+                    <p className="text-sm text-[var(--muted)] line-clamp-2 mb-3">{description}</p>
                     <div className="flex flex-wrap gap-1.5">
                       {tool.tags.map((tag) => (
                         <span
                           key={tag}
-                          className={`px-2 py-0.5 rounded-full text-xs font-medium ${TAG_COLORS[tag] || 'bg-gray-100 text-gray-600'}`}
+                          className={`px-2 py-0.5 rounded-full text-xs font-medium ${TAG_COLORS[tag] || 'bg-gray-100 text-gray-600 dark:bg-gray-800 dark:text-gray-400'}`}
                         >
                           {locale === 'zh' ? tTags(tag as any) : tag}
                         </span>
@@ -219,7 +219,7 @@ export default function CategoryClient({ category, slug, tools: categoryTools, l
         <div className="mt-8 text-center">
           <Link
             href="/"
-            className="inline-flex items-center gap-2 px-6 py-3 bg-gray-100 text-gray-700 rounded-full hover:bg-gray-200 transition font-medium"
+            className="inline-flex items-center gap-2 px-6 py-3 bg-[var(--muted-bg)] text-[var(--foreground)] rounded-full hover:bg-[var(--card-border)] transition font-medium"
           >
             {locale === 'zh' ? '查看所有工具' : 'View All Tools'}
             <ExternalLink className="w-4 h-4" />

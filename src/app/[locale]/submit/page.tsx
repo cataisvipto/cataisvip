@@ -72,26 +72,26 @@ export default function SubmitPage() {
         {/* Back link */}
         <Link
           href="/"
-          className="inline-flex items-center gap-1.5 text-sm text-gray-500 hover:text-indigo-600 transition mb-8"
+          className="inline-flex items-center gap-1.5 text-sm text-[var(--muted)] hover:text-[var(--primary)] transition mb-8"
         >
           <ArrowLeft className="w-4 h-4" />
           {tCommon('backToHome')}
         </Link>
 
-        <div className="bg-white rounded-2xl border border-gray-100 p-8 shadow-sm">
+        <div className="bg-[var(--card-bg)] rounded-2xl border border-[var(--card-border)] p-8 shadow-sm">
           <div className="text-center mb-8">
-            <div className="w-14 h-14 bg-gradient-to-br from-indigo-100 to-cyan-100 rounded-2xl flex items-center justify-center mx-auto mb-4">
-              <Send className="w-7 h-7 text-indigo-600" />
+            <div className="w-14 h-14 bg-gradient-to-br from-indigo-100 to-cyan-100 dark:from-indigo-900/30 dark:to-cyan-900/30 rounded-2xl flex items-center justify-center mx-auto mb-4">
+              <Send className="w-7 h-7 text-indigo-600 dark:text-indigo-400" />
             </div>
-            <h1 className="text-2xl font-bold text-gray-900">{t('title')}</h1>
-            <p className="text-gray-500 mt-2">{t('description')}</p>
+            <h1 className="text-2xl font-bold text-[var(--foreground)]">{t('title')}</h1>
+            <p className="text-[var(--muted)] mt-2">{t('description')}</p>
           </div>
 
           {submitted ? (
             <div className="text-center py-8">
               <CheckCircle className="w-16 h-16 text-emerald-500 mx-auto mb-4" />
-              <p className="text-lg font-medium text-gray-900 mb-2">{t('success')}</p>
-              <p className="text-sm text-gray-500 mb-6">{t('successDetail')}</p>
+              <p className="text-lg font-medium text-[var(--foreground)] mb-2">{t('success')}</p>
+              <p className="text-sm text-[var(--muted)] mb-6">{t('successDetail')}</p>
               <Link
                 href="/"
                 className="inline-flex items-center gap-2 px-6 py-3 bg-indigo-600 text-white rounded-full hover:bg-indigo-700 transition"
@@ -105,7 +105,7 @@ export default function SubmitPage() {
               <input type="text" name="_honey" style={{ display: 'none' }} />
 
               {error && (
-                <div className="flex items-center gap-2 p-3 bg-red-50 border border-red-200 rounded-xl text-sm text-red-700">
+                <div className="flex items-center gap-2 p-3 bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-900/30 rounded-xl text-sm text-red-700 dark:text-red-400">
                   <AlertCircle className="w-4 h-4 shrink-0" />
                   {error}
                 </div>
@@ -113,7 +113,7 @@ export default function SubmitPage() {
 
               {/* Tool Name */}
               <div>
-                <label className="block text-sm font-medium text-gray-700 mb-1.5">
+                <label className="block text-sm font-medium text-[var(--foreground)] mb-1.5">
                   {t('toolName')}
                 </label>
                 <input
@@ -121,14 +121,14 @@ export default function SubmitPage() {
                   required
                   value={formData.name}
                   onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                  className="w-full px-4 py-2.5 border border-gray-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition"
+                  className="w-full px-4 py-2.5 border border-[var(--card-border)] rounded-xl text-sm text-[var(--foreground)] bg-[var(--muted-bg)] focus:outline-none focus:ring-2 focus:ring-[var(--primary)] focus:border-transparent transition"
                   placeholder="e.g. ChatGPT"
                 />
               </div>
 
               {/* URL */}
               <div>
-                <label className="block text-sm font-medium text-gray-700 mb-1.5">
+                <label className="block text-sm font-medium text-[var(--foreground)] mb-1.5">
                   {t('toolUrl')}
                 </label>
                 <input
@@ -136,14 +136,14 @@ export default function SubmitPage() {
                   required
                   value={formData.url}
                   onChange={(e) => setFormData({ ...formData, url: e.target.value })}
-                  className="w-full px-4 py-2.5 border border-gray-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition"
+                  className="w-full px-4 py-2.5 border border-[var(--card-border)] rounded-xl text-sm text-[var(--foreground)] bg-[var(--muted-bg)] focus:outline-none focus:ring-2 focus:ring-[var(--primary)] focus:border-transparent transition"
                   placeholder="https://..."
                 />
               </div>
 
               {/* Description */}
               <div>
-                <label className="block text-sm font-medium text-gray-700 mb-1.5">
+                <label className="block text-sm font-medium text-[var(--foreground)] mb-1.5">
                   {t('toolDescription')}
                 </label>
                 <input
@@ -151,21 +151,21 @@ export default function SubmitPage() {
                   required
                   value={formData.description}
                   onChange={(e) => setFormData({ ...formData, description: e.target.value })}
-                  className="w-full px-4 py-2.5 border border-gray-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition"
+                  className="w-full px-4 py-2.5 border border-[var(--card-border)] rounded-xl text-sm text-[var(--foreground)] bg-[var(--muted-bg)] focus:outline-none focus:ring-2 focus:ring-[var(--primary)] focus:border-transparent transition"
                   placeholder={locale === 'zh' ? '简要描述这个资源...' : 'Briefly describe this resource...'}
                 />
               </div>
 
               {/* Category */}
               <div>
-                <label className="block text-sm font-medium text-gray-700 mb-1.5">
+                <label className="block text-sm font-medium text-[var(--foreground)] mb-1.5">
                   {t('toolCategory')}
                 </label>
                 <select
                   required
                   value={formData.category}
                   onChange={(e) => setFormData({ ...formData, category: e.target.value })}
-                  className="w-full px-4 py-2.5 border border-gray-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition bg-white"
+                  className="w-full px-4 py-2.5 border border-[var(--card-border)] rounded-xl text-sm text-[var(--foreground)] bg-[var(--muted-bg)] focus:outline-none focus:ring-2 focus:ring-[var(--primary)] focus:border-transparent transition"
                 >
                   <option value="">{t('selectCategory')}</option>
                   {CATEGORIES.map((cat) => (
@@ -176,15 +176,15 @@ export default function SubmitPage() {
 
               {/* Submitter Email (optional) */}
               <div>
-                <label className="block text-sm font-medium text-gray-700 mb-1.5">
+                <label className="block text-sm font-medium text-[var(--foreground)] mb-1.5">
                   {t('yourEmail')}
-                  <span className="text-gray-400 font-normal ml-1">({t('optional')})</span>
+                  <span className="text-[var(--muted)] font-normal ml-1">({t('optional')})</span>
                 </label>
                 <input
                   type="email"
                   value={formData.email}
                   onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                  className="w-full px-4 py-2.5 border border-gray-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition"
+                  className="w-full px-4 py-2.5 border border-[var(--card-border)] rounded-xl text-sm text-[var(--foreground)] bg-[var(--muted-bg)] focus:outline-none focus:ring-2 focus:ring-[var(--primary)] focus:border-transparent transition"
                   placeholder={locale === 'zh' ? '您的邮箱（可选，方便我们回复您）' : 'Your email (optional, so we can reply to you)'}
                 />
               </div>
