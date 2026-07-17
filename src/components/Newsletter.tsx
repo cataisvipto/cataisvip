@@ -32,11 +32,32 @@ export default function Newsletter({ locale = 'en' }: NewsletterProps) {
 
     setStatus('loading');
     
-    // Simulate API call - in production, integrate with Mailchimp/ConvertKit/etc.
     try {
-      await new Promise(resolve => setTimeout(resolve, 1000));
-      setStatus('success');
-      setEmail('');
+      // Web3Forms API - free form backend
+      const response = await fetch('https://api.web3forms.com/submit', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Accept': 'application/json',
+        },
+        body: JSON.stringify({
+          access_key: process.env.NEXT_PUBLIC_WEB3FORMS_KEY || '9ec58a55-eb5e-440e-b5d7-887b53f460ee',
+          email: email,
+          from_name: 'CATAI Newsletter',
+          subject: 'New Newsletter Subscription - CATAI',
+          message: `New subscription from: ${email}`,
+        }),
+      });
+
+      const result = await response.json();
+      
+      if (result.success) {
+        setStatus('success');
+        setEmail('');
+      } else {
+        setStatus('error');
+        setErrorMessage(t.error);
+      }
     } catch {
       setStatus('error');
       setErrorMessage(t.error);
