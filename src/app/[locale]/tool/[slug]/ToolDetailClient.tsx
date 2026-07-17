@@ -7,6 +7,7 @@ import Footer from '@/components/Footer';
 import Breadcrumb from '@/components/Breadcrumb';
 import { Tool, getLocalizedDescription } from '@/components/ToolCard';
 import toolDetails from '@/data/toolDetails.json';
+import tools from '@/data/tools.json';
 import blogPosts from '@/data/blogPosts.json';
 import { ArrowLeft, ExternalLink, Globe, Star, CheckCircle, XCircle, Lightbulb, DollarSign, Zap, Info, Share2, Link2, Check, Newspaper } from 'lucide-react';
 import { TwitterIcon, LinkedinIcon, FacebookIcon } from '@/components/SocialIcons';
@@ -41,6 +42,11 @@ export default function ToolDetailClient({ tool, locale }: ToolDetailClientProps
   const description = getLocalizedDescription(tool, locale);
   const displayName = locale === 'zh' && tool.nameZh ? tool.nameZh : tool.name;
   const details = (toolDetails as any)[tool.slug];
+
+  // Find related tools in the same category (exclude current tool)
+  const relatedTools = tools
+    .filter((t) => t.category === tool.category && t.slug !== tool.slug)
+    .slice(0, 4);
 
   // Find related blog posts (tags match tool name/slug)
   const relatedPosts = (blogPosts as any[]).filter((post) => {
@@ -99,6 +105,7 @@ export default function ToolDetailClient({ tool, locale }: ToolDetailClientProps
         <Breadcrumb
           items={[
             { name: t('tools') || 'Tools', href: '/' },
+            { name: tCategories(tool.category as any), href: `/category/${tool.category.toLowerCase()}` },
             { name: displayName },
           ]}
           locale={locale}
@@ -293,6 +300,42 @@ export default function ToolDetailClient({ tool, locale }: ToolDetailClientProps
                 <p className="text-gray-700 leading-relaxed">{getLocalized(details.latestUpdate, locale)}</p>
               </div>
             </>
+          )}
+
+          {/* Related Tools (Same Category) */}
+          {relatedTools.length > 0 && (
+            <div className="bg-white rounded-2xl border border-gray-100 p-8 shadow-sm">
+              <h2 className="text-lg font-semibold text-gray-900 mb-4 flex items-center gap-2">
+                <Globe className="w-5 h-5 text-indigo-500" />
+                {locale === 'zh' ? `同类工具推荐（${tCategories(tool.category as any)}）` : `Related ${tCategories(tool.category as any)} Tools`}
+              </h2>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                {relatedTools.map((rt) => (
+                  <Link
+                    key={rt.slug}
+                    href={`/tool/${rt.slug}`}
+                    className="flex items-center gap-3 p-3 rounded-xl border border-gray-100 hover:border-indigo-200 hover:bg-indigo-50/30 hover:shadow-sm transition"
+                  >
+                    <Image
+                      src={rt.logo}
+                      alt={rt.name}
+                      width={32}
+                      height={32}
+                      className="w-8 h-8 rounded-lg object-contain"
+                      unoptimized
+                    />
+                    <div className="min-w-0">
+                      <div className="font-medium text-gray-900 text-sm truncate">
+                        {locale === 'zh' && rt.nameZh ? rt.nameZh : rt.name}
+                      </div>
+                      <div className="text-xs text-gray-500 truncate">
+                        {locale === 'zh' ? rt.description : rt.descriptionEn}
+                      </div>
+                    </div>
+                  </Link>
+                ))}
+              </div>
+            </div>
           )}
 
           {/* Related Blog Posts */}

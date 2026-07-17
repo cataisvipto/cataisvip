@@ -17,6 +17,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }))
   );
 
+  // Category pages
+  const categories = ['chat', 'image', 'code', 'writing', 'video', 'audio', 'search', 'platform', 'developer', 'agent', 'design'];
+  const categoryPages = categories.flatMap((cat) =>
+    locales.map((locale) => ({
+      url: `${BASE_URL}/${locale}/category/${cat}`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly' as const,
+      priority: 0.8,
+    }))
+  );
+
   // Tool detail pages
   const toolPages = tools.flatMap((tool) =>
     locales.map((locale) => ({
@@ -37,5 +48,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }))
   );
 
-  return [...staticPages, ...toolPages, ...blogPages];
+  return [...staticPages, ...categoryPages, ...toolPages, ...blogPages];
 }
