@@ -56,19 +56,19 @@ export default function ToolGrid({ tools, locale, searchQuery, onSearchChange }:
       {/* Mobile Search */}
       <div className="sm:hidden mb-6">
         <div className="relative">
-          <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400" />
+          <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-[var(--muted)]" />
           <input
             type="text"
             placeholder={tNav('searchPlaceholder')}
             value={searchQuery}
             onChange={(e) => onSearchChange(e.target.value)}
-            className="w-full pl-10 pr-4 py-2.5 bg-gray-50 border border-gray-200 rounded-full text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition"
+            className="w-full pl-10 pr-4 py-2.5 bg-[var(--muted-bg)] border border-[var(--card-border)] rounded-full text-sm text-[var(--foreground)] placeholder-[var(--muted)] focus:outline-none focus:ring-2 focus:ring-[var(--primary)] focus:border-transparent transition"
           />
         </div>
       </div>
 
       {/* Results count */}
-      <div className="mb-6 text-sm text-gray-500">
+      <div className="mb-6 text-sm text-[var(--muted)]">
         {filteredTools.length} {locale === 'zh' ? '个资源' : 'resources'}
         {activeCategory !== 'all' && ` · ${tCategories(activeCategory as any)}`}
         {searchQuery && ` · "${searchQuery}"`}
@@ -83,10 +83,10 @@ export default function ToolGrid({ tools, locale, searchQuery, onSearchChange }:
         </div>
       ) : (
         <div className="text-center py-16">
-          <div className="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-4">
-            <Search className="w-7 h-7 text-gray-400" />
+          <div className="w-16 h-16 bg-[var(--muted-bg)] rounded-full flex items-center justify-center mx-auto mb-4">
+            <Search className="w-7 h-7 text-[var(--muted)]" />
           </div>
-          <p className="text-gray-500">{t('noResults')}</p>
+          <p className="text-[var(--muted)]">{t('noResults')}</p>
         </div>
       )}
     </section>

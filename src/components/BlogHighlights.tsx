@@ -36,12 +36,12 @@ export default function BlogHighlights() {
       {/* Section header */}
       <div className="flex items-end justify-between gap-4 mb-8">
         <div>
-          <h2 className="text-2xl sm:text-3xl font-bold text-gray-900">{t('latestNews')}</h2>
-          <p className="mt-2 text-gray-500 text-sm sm:text-base">{t('latestNewsSubtitle')}</p>
+          <h2 className="text-2xl sm:text-3xl font-bold text-[var(--foreground)]">{t('latestNews')}</h2>
+          <p className="mt-2 text-[var(--muted)] text-sm sm:text-base">{t('latestNewsSubtitle')}</p>
         </div>
         <Link
           href="/blog"
-          className="hidden sm:inline-flex items-center gap-1.5 shrink-0 text-sm font-medium text-indigo-600 hover:text-indigo-700 transition"
+          className="hidden sm:inline-flex items-center gap-1.5 shrink-0 text-sm font-medium text-[var(--primary)] hover:text-[var(--primary)]/80 transition"
         >
           {t('viewAll')}
           <ArrowRight className="w-4 h-4" />
@@ -57,7 +57,7 @@ export default function BlogHighlights() {
           return (
             <article
               key={post.slug}
-              className="group bg-white rounded-2xl border border-gray-100 overflow-hidden hover:shadow-lg transition-all duration-300"
+              className="group bg-[var(--card-bg)] rounded-2xl border border-[var(--card-border)] overflow-hidden hover:shadow-lg transition-all duration-300"
             >
               <Link href={`/blog/${post.slug}`} className="block aspect-video overflow-hidden">
                 <Image
@@ -70,8 +70,8 @@ export default function BlogHighlights() {
                 />
               </Link>
               <div className="p-5">
-                <div className="flex items-center gap-3 mb-2 text-sm text-gray-500">
-                  <span className="px-2 py-1 bg-indigo-50 text-indigo-600 rounded-md text-xs font-medium capitalize">
+                <div className="flex items-center gap-3 mb-2 text-sm text-[var(--muted)]">
+                  <span className="px-2 py-1 bg-indigo-50 dark:bg-indigo-900/30 text-indigo-600 dark:text-indigo-400 rounded-md text-xs font-medium capitalize">
                     {t(`categories.${post.category}` as any)}
                   </span>
                   <span className="flex items-center gap-1">
@@ -80,11 +80,11 @@ export default function BlogHighlights() {
                   </span>
                 </div>
                 <Link href={`/blog/${post.slug}`}>
-                  <h3 className="text-lg font-bold text-gray-900 mb-2 line-clamp-2 group-hover:text-indigo-600 transition">
+                  <h3 className="text-lg font-bold text-[var(--foreground)] mb-2 line-clamp-2 group-hover:text-[var(--primary)] transition">
                     {title}
                   </h3>
                 </Link>
-                <p className="text-gray-600 text-sm leading-relaxed line-clamp-2">{excerpt}</p>
+                <p className="text-[var(--muted)] text-sm leading-relaxed line-clamp-2">{excerpt}</p>
               </div>
             </article>
           );
@@ -95,7 +95,7 @@ export default function BlogHighlights() {
       <div className="mt-8 text-center sm:hidden">
         <Link
           href="/blog"
-          className="inline-flex items-center gap-1.5 text-sm font-medium text-indigo-600 hover:text-indigo-700 transition"
+          className="inline-flex items-center gap-1.5 text-sm font-medium text-[var(--primary)] hover:text-[var(--primary)]/80 transition"
         >
           {t('viewAll')}
           <ArrowRight className="w-4 h-4" />

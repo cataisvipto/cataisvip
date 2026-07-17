@@ -57,13 +57,13 @@ export default function Header({ searchQuery, onSearchChange, locale }: HeaderPr
           {/* Search Bar */}
           <div className="flex-1 max-w-md hidden sm:block">
             <div className="relative">
-              <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400" />
+              <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-[var(--muted)]" />
               <input
                 type="text"
                 placeholder={t('nav.searchPlaceholder')}
                 value={searchQuery}
                 onChange={(e) => onSearchChange(e.target.value)}
-                className="w-full pl-10 pr-4 py-2 bg-gray-50 border border-gray-200 rounded-full text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition"
+                className="w-full pl-10 pr-4 py-2 bg-[var(--muted-bg)] border border-[var(--card-border)] rounded-full text-sm text-[var(--foreground)] placeholder-[var(--muted)] focus:outline-none focus:ring-2 focus:ring-[var(--primary)] focus:border-transparent transition"
               />
             </div>
           </div>
@@ -73,7 +73,7 @@ export default function Header({ searchQuery, onSearchChange, locale }: HeaderPr
             {/* Blog Link */}
             <Link
               href="/blog"
-              className="hidden sm:flex items-center gap-1.5 px-3 py-1.5 text-sm text-gray-600 hover:text-indigo-600 border border-gray-200 rounded-full hover:border-indigo-300 transition"
+              className="hidden sm:flex items-center gap-1.5 px-3 py-1.5 text-sm text-[var(--muted)] hover:text-[var(--primary)] border border-[var(--card-border)] rounded-full hover:border-[var(--primary)] transition"
             >
               <Newspaper className="w-4 h-4" />
               {t('nav.blog')}
@@ -123,13 +123,13 @@ export default function Header({ searchQuery, onSearchChange, locale }: HeaderPr
         {/* Mobile Search */}
         <div className="pb-3 sm:hidden">
           <div className="relative">
-            <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400" />
+            <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-[var(--muted)]" />
             <input
               type="text"
               placeholder={t('nav.searchPlaceholder')}
               value={searchQuery}
               onChange={(e) => onSearchChange(e.target.value)}
-              className="w-full pl-10 pr-4 py-2 bg-gray-50 border border-gray-200 rounded-full text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition"
+              className="w-full pl-10 pr-4 py-2 bg-[var(--muted-bg)] border border-[var(--card-border)] rounded-full text-sm text-[var(--foreground)] placeholder-[var(--muted)] focus:outline-none focus:ring-2 focus:ring-[var(--primary)] focus:border-transparent transition"
             />
           </div>
         </div>
