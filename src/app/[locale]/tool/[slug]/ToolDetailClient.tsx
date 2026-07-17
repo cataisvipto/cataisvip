@@ -312,7 +312,7 @@ export default function ToolDetailClient({ tool, locale }: ToolDetailClientProps
               </div>
 
               {/* Latest Update */}
-              <div className="bg-gradient-to-r from-indigo-50 to-cyan-50 dark:from-indigo-900/20 dark:to-cyan-900/20 rounded-2xl border border-indigo-100 dark:border-indigo-900/30 p-8">
+              <div className="bg-[var(--card-bg)] bg-gradient-to-r from-indigo-50 to-cyan-50 dark:from-indigo-900/20 dark:to-cyan-900/20 rounded-2xl border border-indigo-100 dark:border-indigo-900/30 p-8">
                 <h2 className="text-lg font-semibold text-[var(--foreground)] mb-3 flex items-center gap-2">
                   <Zap className="w-5 h-5 text-indigo-500" />
                   {t('latestUpdate')}
@@ -326,7 +326,7 @@ export default function ToolDetailClient({ tool, locale }: ToolDetailClientProps
           {details?.tutorial && (
             <div className="bg-[var(--card-bg)] rounded-2xl border border-[var(--card-border)] overflow-hidden shadow-sm">
               {/* Header */}
-              <div className="px-8 py-6 border-b border-[var(--card-border)] bg-gradient-to-r from-indigo-50/50 to-transparent dark:from-indigo-900/10">
+              <div className="px-8 py-6 border-b border-[var(--card-border)] bg-[var(--card-bg)] bg-gradient-to-r from-indigo-50/50 to-transparent dark:from-indigo-900/10">
                 <div className="flex items-center gap-3">
                   <div className="w-10 h-10 rounded-xl bg-indigo-100 dark:bg-indigo-900/30 flex items-center justify-center">
                     <BookOpen className="w-5 h-5 text-indigo-600 dark:text-indigo-400" />
