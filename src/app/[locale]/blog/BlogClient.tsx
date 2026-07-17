@@ -67,7 +67,7 @@ export default function BlogClient({ posts }: BlogClientProps) {
                 className={`px-4 py-2 rounded-full text-sm font-medium transition ${
                   selectedCategory === cat
                     ? 'bg-indigo-600 text-white'
-                    : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
+                    : 'bg-[var(--muted-bg)] text-[var(--muted)] hover:bg-[var(--card-border)]'
                 }`}
               >
                 {t(`categories.${cat}` as any)}
@@ -82,7 +82,7 @@ export default function BlogClient({ posts }: BlogClientProps) {
               const excerpt = getLocalized(post.excerpt, locale);
 
               return (
-                <article key={post.slug} className="group bg-white rounded-2xl border border-gray-100 overflow-hidden hover:shadow-lg transition-all duration-300">
+                <article key={post.slug} className="group bg-[var(--card-bg)] rounded-2xl border border-[var(--card-border)] overflow-hidden hover:shadow-lg transition-all duration-300">
                   {/* Cover Image */}
                   <Link href={`/blog/${post.slug}`} className="block aspect-video overflow-hidden">
                     <Image
@@ -98,8 +98,8 @@ export default function BlogClient({ posts }: BlogClientProps) {
                   {/* Content */}
                   <div className="p-6">
                     {/* Category & Meta */}
-                    <div className="flex items-center gap-3 mb-3 text-sm text-gray-500">
-                      <span className="px-2 py-1 bg-indigo-50 text-indigo-600 rounded-md text-xs font-medium capitalize">
+                    <div className="flex items-center gap-3 mb-3 text-sm text-[var(--muted)]">
+                      <span className="px-2 py-1 bg-indigo-50 dark:bg-indigo-900/30 text-indigo-600 dark:text-indigo-400 rounded-md text-xs font-medium capitalize">
                         {t(`categories.${post.category}` as any)}
                       </span>
                       <span className="flex items-center gap-1">
@@ -110,24 +110,24 @@ export default function BlogClient({ posts }: BlogClientProps) {
 
                     {/* Title */}
                     <Link href={`/blog/${post.slug}`}>
-                      <h2 className="text-xl font-bold text-gray-900 mb-3 line-clamp-2 group-hover:text-indigo-600 transition">
+                      <h2 className="text-xl font-bold text-[var(--foreground)] mb-3 line-clamp-2 group-hover:text-[var(--primary)] transition">
                         {title}
                       </h2>
                     </Link>
 
                     {/* Excerpt */}
-                    <p className="text-gray-600 text-sm leading-relaxed mb-4 line-clamp-3">
+                    <p className="text-[var(--muted)] text-sm leading-relaxed mb-4 line-clamp-3">
                       {excerpt}
                     </p>
 
                     {/* Footer */}
-                    <div className="flex items-center justify-between pt-4 border-t border-gray-100">
-                      <span className="text-sm text-gray-500">
+                    <div className="flex items-center justify-between pt-4 border-t border-[var(--card-border)]">
+                      <span className="text-sm text-[var(--muted)]">
                         {post.publishedAt}
                       </span>
                       <Link
                         href={`/blog/${post.slug}`}
-                        className="inline-flex items-center gap-1 text-sm font-medium text-indigo-600 hover:text-indigo-700 transition"
+                        className="inline-flex items-center gap-1 text-sm font-medium text-[var(--primary)] hover:text-[var(--primary)]/80 transition"
                       >
                         {t('readMore')}
                         <ArrowRight className="w-4 h-4" />
@@ -140,7 +140,7 @@ export default function BlogClient({ posts }: BlogClientProps) {
           </div>
 
           {filteredPosts.length === 0 && (
-            <div className="text-center py-16 text-gray-500">
+            <div className="text-center py-16 text-[var(--muted)]">
               <p className="text-lg">No articles found</p>
             </div>
           )}

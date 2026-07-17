@@ -72,21 +72,21 @@ export default function BlogDetailClient({ post, locale, articleJsonLd }: BlogDe
   const renderContent = (text: string) => {
     return text.split('\n').map((line, index) => {
       if (line.startsWith('## ')) {
-        return <h2 key={index} className="text-2xl font-bold text-gray-900 mt-8 mb-4">{line.replace('## ', '')}</h2>;
+        return <h2 key={index} className="text-2xl font-bold text-[var(--foreground)] mt-8 mb-4">{line.replace('## ', '')}</h2>;
       }
       if (line.startsWith('### ')) {
-        return <h3 key={index} className="text-xl font-semibold text-gray-900 mt-6 mb-3">{line.replace('### ', '')}</h3>;
+        return <h3 key={index} className="text-xl font-semibold text-[var(--foreground)] mt-6 mb-3">{line.replace('### ', '')}</h3>;
       }
       if (line.startsWith('- ')) {
         return (
-          <li key={index} className="ml-6 text-gray-700 mb-2 list-disc">
+          <li key={index} className="ml-6 text-[var(--muted)] mb-2 list-disc">
             {line.replace('- ', '')}
           </li>
         );
       }
       if (line.match(/^\d+\.\s/)) {
         return (
-          <li key={index} className="ml-6 text-gray-700 mb-2 list-decimal">
+          <li key={index} className="ml-6 text-[var(--muted)] mb-2 list-decimal">
             {line.replace(/^\d+\.\s/, '')}
           </li>
         );
@@ -94,7 +94,7 @@ export default function BlogDetailClient({ post, locale, articleJsonLd }: BlogDe
       if (line === '') {
         return <br key={index} />;
       }
-      return <p key={index} className="text-gray-700 mb-4 leading-relaxed">{line}</p>;
+      return <p key={index} className="text-[var(--muted)] mb-4 leading-relaxed">{line}</p>;
     });
   };
 
@@ -132,18 +132,18 @@ export default function BlogDetailClient({ post, locale, articleJsonLd }: BlogDe
           {/* Header */}
           <header className="mb-8">
             <div className="flex items-center gap-3 mb-4">
-              <span className="px-3 py-1 bg-indigo-50 text-indigo-600 rounded-full text-sm font-medium capitalize">
+              <span className="px-3 py-1 bg-indigo-50 dark:bg-indigo-900/30 text-indigo-600 dark:text-indigo-400 rounded-full text-sm font-medium capitalize">
                 {t(`categories.${post.category}` as any)}
               </span>
-              <span className="flex items-center gap-1 text-sm text-gray-500">
+              <span className="flex items-center gap-1 text-sm text-[var(--muted)]">
                 <Clock className="w-4 h-4" />
                 {post.readTime} {t('readTime')}
               </span>
             </div>
 
-            <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">{title}</h1>
+            <h1 className="text-3xl md:text-4xl font-bold text-[var(--foreground)] mb-6">{title}</h1>
 
-            <div className="flex items-center gap-4 text-sm text-gray-500">
+            <div className="flex items-center gap-4 text-sm text-[var(--muted)]">
               <span className="flex items-center gap-1.5">
                 <User className="w-4 h-4" />
                 {post.author}
@@ -161,11 +161,11 @@ export default function BlogDetailClient({ post, locale, articleJsonLd }: BlogDe
           </div>
 
           {/* Tags */}
-          <div className="flex flex-wrap gap-2 mt-8 pt-8 border-t border-gray-100">
+          <div className="flex flex-wrap gap-2 mt-8 pt-8 border-t border-[var(--card-border)]">
             {post.tags.map((tag) => (
               <span
                 key={tag}
-                className="px-3 py-1 bg-gray-100 text-gray-600 rounded-full text-sm"
+                className="px-3 py-1 bg-[var(--muted-bg)] text-[var(--muted)] rounded-full text-sm"
               >
                 {tag}
               </span>
@@ -173,8 +173,8 @@ export default function BlogDetailClient({ post, locale, articleJsonLd }: BlogDe
           </div>
 
           {/* Social Sharing */}
-          <div className="mt-8 p-6 bg-gray-50 rounded-2xl">
-            <h3 className="text-lg font-semibold text-gray-900 mb-4 flex items-center gap-2">
+          <div className="mt-8 p-6 bg-[var(--muted-bg)] rounded-2xl">
+            <h3 className="text-lg font-semibold text-[var(--foreground)] mb-4 flex items-center gap-2">
               <Share2 className="w-5 h-5 text-indigo-500" />
               {t('share')}
             </h3>
@@ -208,9 +208,9 @@ export default function BlogDetailClient({ post, locale, articleJsonLd }: BlogDe
               </a>
               <button
                 onClick={handleCopyLink}
-                className="inline-flex items-center gap-2 px-4 py-2 bg-gray-200 text-gray-700 rounded-lg hover:bg-gray-300 transition text-sm font-medium"
+                className="inline-flex items-center gap-2 px-4 py-2 bg-[var(--card-bg)] text-[var(--foreground)] rounded-lg hover:bg-[var(--card-border)] transition text-sm font-medium"
               >
-                {copied ? <Check className="w-4 h-4 text-green-600" /> : <Link2 className="w-4 h-4" />}
+                {copied ? <Check className="w-4 h-4 text-green-600 dark:text-green-400" /> : <Link2 className="w-4 h-4" />}
                 {copied ? t('linkCopied') : t('copyLink')}
               </button>
             </div>
@@ -218,8 +218,8 @@ export default function BlogDetailClient({ post, locale, articleJsonLd }: BlogDe
 
           {/* Related Tools */}
           {relatedTools.length > 0 && (
-            <div className="mt-8 p-6 bg-indigo-50/50 rounded-2xl border border-indigo-100">
-              <h3 className="text-lg font-semibold text-gray-900 mb-4 flex items-center gap-2">
+            <div className="mt-8 p-6 bg-indigo-50/50 dark:bg-indigo-900/20 rounded-2xl border border-indigo-100 dark:border-indigo-900/30">
+              <h3 className="text-lg font-semibold text-[var(--foreground)] mb-4 flex items-center gap-2">
                 <ExternalLink className="w-5 h-5 text-indigo-500" />
                 {locale === 'zh' ? '相关工具推荐' : 'Related Tools'}
               </h3>
@@ -228,7 +228,7 @@ export default function BlogDetailClient({ post, locale, articleJsonLd }: BlogDe
                   <Link
                     key={tool.slug}
                     href={`/tool/${tool.slug}`}
-                    className="flex items-center gap-3 p-3 bg-white rounded-xl border border-gray-100 hover:border-indigo-200 hover:shadow-sm transition"
+                    className="flex items-center gap-3 p-3 bg-[var(--card-bg)] rounded-xl border border-[var(--card-border)] hover:border-[var(--primary)] hover:shadow-sm transition"
                   >
                     <Image
                       src={tool.logo}
@@ -239,8 +239,8 @@ export default function BlogDetailClient({ post, locale, articleJsonLd }: BlogDe
                       unoptimized
                     />
                     <div className="min-w-0">
-                      <div className="font-medium text-gray-900 text-sm truncate">{tool.name}</div>
-                      <div className="text-xs text-gray-500 truncate">
+                      <div className="font-medium text-[var(--foreground)] text-sm truncate">{tool.name}</div>
+                      <div className="text-xs text-[var(--muted)] truncate">
                         {locale === 'zh' ? tool.description : tool.descriptionEn}
                       </div>
                     </div>
