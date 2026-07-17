@@ -307,10 +307,10 @@ export default function ToolDetailClient({ tool, locale }: ToolDetailClientProps
             <div className="bg-[var(--card-bg)] rounded-2xl border border-[var(--card-border)] p-8 shadow-sm">
               <h2 className="text-lg font-semibold text-[var(--foreground)] mb-6 flex items-center gap-2">
                 <BookOpen className="w-5 h-5 text-indigo-500" />
-                {getLocalized(details.tutorial.title, locale)}
+                {details.tutorial[locale]?.title || details.tutorial.en?.title}
               </h2>
               <div className="space-y-4">
-                {getLocalized(details.tutorial.steps, locale).map((step: any, index: number) => (
+                {(details.tutorial[locale]?.steps || details.tutorial.en?.steps || []).map((step: any, index: number) => (
                   <div key={index} className="flex gap-4">
                     <div className="flex-shrink-0 w-8 h-8 rounded-full bg-indigo-100 dark:bg-indigo-900/30 flex items-center justify-center">
                       <span className="text-sm font-bold text-indigo-600 dark:text-indigo-400">{step.step}</span>
