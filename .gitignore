@@ -40,11 +40,15 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# 内部运营文档（不上传到公开仓库）
-CATAI-运营手册*
+# ===== 内部文件：绝对禁止上传到 GitHub（由 .git/hooks/pre-push 强制拦截）=====
+# 运营手册、技术文档、操作卡片等所有 CATAI- 前缀文档
+CATAI-*
 快速操作卡片*
-tool-editor.html
-blog-editor.html
-CATAI-项目技术文档.html
+# 任意可视化编辑器工具（tool-editor.html / blog-editor.html 等）
+*-editor.html
+# AI 开发工具配置文件
 AGENTS.md
 CLAUDE.md
+# 其他内部约定：以 _internal/ 存放的任何文件、*.local.* 文件
+_internal/
+*.local.*

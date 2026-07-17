@@ -26,8 +26,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     return { title: 'Article Not Found - CATAI' };
   }
 
-  const title = locale === 'zh' ? post.title.zh : post.title.en;
-  const excerpt = locale === 'zh' ? post.excerpt.zh : post.excerpt.en;
+  const title = (post.title as Record<string, string>)[locale] || post.title.en;
+  const excerpt = (post.excerpt as Record<string, string>)[locale] || post.excerpt.en;
 
   return {
     title: `${title} - CATAI Blog`,

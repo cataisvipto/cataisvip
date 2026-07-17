@@ -10,9 +10,9 @@ import Image from 'next/image';
 
 interface BlogPost {
   slug: string;
-  title: { en: string; zh: string };
-  excerpt: { en: string; zh: string };
-  content: { en: string; zh: string };
+  title: Record<string, string>;
+  excerpt: Record<string, string>;
+  content: Record<string, string>;
   author: string;
   publishedAt: string;
   category: string;
@@ -25,6 +25,10 @@ interface BlogClientProps {
   posts: BlogPost[];
 }
 
+// Localize a multilingual field, falling back to English so the blog follows the site language
+const getLocalized = (field: Record<string, string>, locale: string) =>
+  field?.[locale] || field?.en || '';
+
 export default function BlogClient({ posts }: BlogClientProps) {
   const locale = useLocale();
   const t = useTranslations('blog');
@@ -34,7 +38,7 @@ export default function BlogClient({ posts }: BlogClientProps) {
   const categories = ['all', 'news', 'comparison', 'listicle', 'tutorial'];
 
   const filteredPosts = posts.filter((post) => {
-    const title = locale === 'zh' ? post.title.zh : post.title.en;
+    const title = getLocalized(post.title, locale);
     const matchesSearch = title.toLowerCase().includes(searchQuery.toLowerCase()) ||
       post.tags.some(tag => tag.toLowerCase().includes(searchQuery.toLowerCase()));
     const matchesCategory = selectedCategory === 'all' || post.category === selectedCategory;
@@ -74,8 +78,8 @@ export default function BlogClient({ posts }: BlogClientProps) {
           {/* Blog Grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {filteredPosts.map((post) => {
-              const title = locale === 'zh' ? post.title.zh : post.title.en;
-              const excerpt = locale === 'zh' ? post.excerpt.zh : post.excerpt.en;
+              const title = getLocalized(post.title, locale);
+              const excerpt = getLocalized(post.excerpt, locale);
 
               return (
                 <article key={post.slug} className="group bg-white rounded-2xl border border-gray-100 overflow-hidden hover:shadow-lg transition-all duration-300">

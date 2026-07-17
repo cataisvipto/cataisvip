@@ -5,6 +5,7 @@ import Image from 'next/image';
 
 export default function Footer() {
   const t = useTranslations('footer');
+  const tNav = useTranslations('nav');
 
   return (
     <footer className="border-t border-gray-100 bg-gray-50">
@@ -35,6 +36,9 @@ export default function Footer() {
               <Mail className="w-3.5 h-3.5" />
               <span className="hidden sm:inline">cataisvip@gmail.com</span>
             </a>
+            <Link href="/blog" className="text-sm text-gray-500 hover:text-indigo-600 transition">
+              {tNav('blog')}
+            </Link>
             <Link href="/privacy" className="text-sm text-gray-500 hover:text-indigo-600 transition">
               {t('privacy')}
             </Link>

@@ -2,7 +2,7 @@
 
 import { useTranslations } from 'next-intl';
 import { Link, usePathname } from '@/i18n/navigation';
-import { Search, Globe, Send, ChevronDown } from 'lucide-react';
+import { Search, Globe, Send, ChevronDown, Newspaper } from 'lucide-react';
 import Image from 'next/image';
 import { useState, useRef, useEffect } from 'react';
 
@@ -72,8 +72,9 @@ export default function Header({ searchQuery, onSearchChange, locale }: HeaderPr
             {/* Blog Link */}
             <Link
               href="/blog"
-              className="hidden sm:flex items-center gap-1.5 px-3 py-1.5 text-sm text-gray-600 hover:text-indigo-600 transition"
+              className="hidden sm:flex items-center gap-1.5 px-3 py-1.5 text-sm text-gray-600 hover:text-indigo-600 border border-gray-200 rounded-full hover:border-indigo-300 transition"
             >
+              <Newspaper className="w-4 h-4" />
               {t('nav.blog')}
             </Link>
 

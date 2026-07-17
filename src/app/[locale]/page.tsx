@@ -5,6 +5,7 @@ import { useLocale } from 'next-intl';
 import Header from '@/components/Header';
 import HeroSection from '@/components/HeroSection';
 import ToolGrid from '@/components/ToolGrid';
+import BlogHighlights from '@/components/BlogHighlights';
 import SubmitCTA from '@/components/SubmitCTA';
 import Footer from '@/components/Footer';
 import tools from '@/data/tools.json';
@@ -29,6 +30,7 @@ export default function HomePage() {
           searchQuery={searchQuery}
           onSearchChange={setSearchQuery}
         />
+        <BlogHighlights />
         <SubmitCTA />
       </main>
       <Footer />

@@ -11,9 +11,9 @@ import Image from 'next/image';
 
 interface BlogPost {
   slug: string;
-  title: { en: string; zh: string };
-  excerpt: { en: string; zh: string };
-  content: { en: string; zh: string };
+  title: Record<string, string>;
+  excerpt: Record<string, string>;
+  content: Record<string, string>;
   author: string;
   publishedAt: string;
   category: string;
@@ -27,13 +27,17 @@ interface BlogDetailClientProps {
   locale: string;
 }
 
+// Localize a multilingual field, falling back to English so the blog follows the site language
+const getLocalized = (field: Record<string, string>, locale: string) =>
+  field?.[locale] || field?.en || '';
+
 export default function BlogDetailClient({ post, locale }: BlogDetailClientProps) {
   const t = useTranslations('blog');
   const [searchQuery, setSearchQuery] = useState('');
   const [copied, setCopied] = useState(false);
 
-  const title = locale === 'zh' ? post.title.zh : post.title.en;
-  const content = locale === 'zh' ? post.content.zh : post.content.en;
+  const title = getLocalized(post.title, locale);
+  const content = getLocalized(post.content, locale);
 
   const siteUrl = 'https://catai.cc.cd';
   const postUrl = `${siteUrl}/${locale}/blog/${post.slug}`;
