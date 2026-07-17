@@ -117,6 +117,8 @@ export default function CategoryClient({ category, slug, tools: categoryTools, l
     CATEGORY_DESCRIPTIONS[category]?.en ||
     '';
 
+  const categorySlug = category.charAt(0).toUpperCase() + category.slice(1).toLowerCase();
+
   return (
     <>
       <Header searchQuery={searchQuery} onSearchChange={setSearchQuery} locale={locale} />
@@ -124,8 +126,8 @@ export default function CategoryClient({ category, slug, tools: categoryTools, l
         {/* Breadcrumb */}
         <Breadcrumb
           items={[
-            { name: t('tools') || 'Tools', href: '/' },
-            { name: tCategories(category.toLowerCase() as any) },
+            { name: 'Tools', href: '/' },
+            { name: tCategories(categorySlug as any) },
           ]}
           locale={locale}
         />
@@ -134,8 +136,8 @@ export default function CategoryClient({ category, slug, tools: categoryTools, l
         <div className="mb-8">
           <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-3">
             {locale === 'zh'
-              ? `最佳 ${tCategories(category.toLowerCase() as any)} AI 工具`
-              : `Best ${tCategories(category.toLowerCase() as any)} AI Tools`}
+              ? `最佳 ${tCategories(categorySlug as any)} AI 工具`
+              : `Best ${tCategories(categorySlug as any)} AI Tools`}
           </h1>
           <p className="text-lg text-gray-600 mb-4">{categoryDescription}</p>
           <div className="flex items-center gap-2 text-sm text-gray-500">
@@ -145,19 +147,22 @@ export default function CategoryClient({ category, slug, tools: categoryTools, l
 
         {/* Category Navigation */}
         <div className="flex flex-wrap gap-2 mb-8">
-          {['chat', 'image', 'code', 'writing', 'video', 'audio', 'search', 'platform', 'developer', 'agent', 'design'].map((catSlug) => (
-            <Link
-              key={catSlug}
-              href={`/category/${catSlug}`}
-              className={`px-4 py-2 rounded-full text-sm font-medium transition ${
-                catSlug === slug
-                  ? 'bg-indigo-600 text-white shadow-md'
-                  : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
-              }`}
-            >
-              {tCategories(catSlug as any)}
-            </Link>
-          ))}
+          {['Chat', 'Image', 'Code', 'Writing', 'Video', 'Audio', 'Search', 'Platform', 'Developer', 'Agent', 'Design'].map((catName) => {
+            const catSlug = catName.toLowerCase();
+            return (
+              <Link
+                key={catSlug}
+                href={`/category/${catSlug}`}
+                className={`px-4 py-2 rounded-full text-sm font-medium transition ${
+                  catSlug === slug
+                    ? 'bg-indigo-600 text-white shadow-md'
+                    : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
+                }`}
+              >
+                {tCategories(catName as any)}
+              </Link>
+            );
+          })}
         </div>
 
         {/* Tools Grid */}
