@@ -230,14 +230,16 @@ export default function BlogDetailClient({ post, locale, articleJsonLd }: BlogDe
                     href={`/tool/${tool.slug}`}
                     className="flex items-center gap-3 p-3 bg-[var(--card-bg)] rounded-xl border border-[var(--card-border)] hover:border-[var(--primary)] hover:shadow-sm transition"
                   >
-                    <Image
-                      src={tool.logo}
-                      alt={tool.name}
-                      width={32}
-                      height={32}
-                      className="w-8 h-8 rounded-lg object-contain"
-                      unoptimized
-                    />
+                    <div className="w-10 h-10 rounded-lg bg-white dark:bg-white/90 border border-[var(--card-border)] flex items-center justify-center overflow-hidden shrink-0 shadow-sm">
+                      <Image
+                        src={tool.logo}
+                        alt={tool.name}
+                        width={24}
+                        height={24}
+                        className="w-6 h-6 object-contain"
+                        unoptimized
+                      />
+                    </div>
                     <div className="min-w-0">
                       <div className="font-medium text-[var(--foreground)] text-sm truncate">{tool.name}</div>
                       <div className="text-xs text-[var(--muted)] truncate">

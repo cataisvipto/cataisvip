@@ -178,7 +178,7 @@ export default function CategoryClient({ category, slug, tools: categoryTools, l
                 className="group bg-[var(--card-bg)] rounded-2xl border border-[var(--card-border)] p-5 hover:border-[var(--primary)] hover:shadow-md transition"
               >
                 <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 rounded-xl bg-[var(--muted-bg)] border border-[var(--card-border)] flex items-center justify-center overflow-hidden shrink-0">
+                  <div className="w-12 h-12 rounded-xl bg-white dark:bg-white/90 border border-[var(--card-border)] flex items-center justify-center overflow-hidden shrink-0 shadow-sm">
                     <Image
                       src={tool.logo}
                       alt={displayName}

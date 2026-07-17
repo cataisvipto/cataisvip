@@ -63,7 +63,7 @@ export default function ToolCard({ tool, locale }: ToolCardProps) {
 
       {/* Header - links to detail page */}
       <Link href={`/tool/${tool.slug}`} className="flex items-start gap-3 mb-3 group/header">
-        <div className="w-12 h-12 rounded-xl bg-[var(--muted-bg)] border border-[var(--card-border)] flex items-center justify-center overflow-hidden shrink-0">
+        <div className="w-12 h-12 rounded-xl bg-white dark:bg-white/90 border border-[var(--card-border)] flex items-center justify-center overflow-hidden shrink-0 shadow-sm">
           <Image
             src={tool.logo}
             alt={displayName}
