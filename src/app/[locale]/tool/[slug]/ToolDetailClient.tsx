@@ -9,7 +9,7 @@ import { Tool, getLocalizedDescription } from '@/components/ToolCard';
 import toolDetails from '@/data/toolDetails.json';
 import tools from '@/data/tools.json';
 import blogPosts from '@/data/blogPosts.json';
-import { ArrowLeft, ExternalLink, Globe, Star, CheckCircle, XCircle, Lightbulb, DollarSign, Zap, Info, Share2, Link2, Check, Newspaper, BookOpen } from 'lucide-react';
+import { ArrowLeft, ExternalLink, Globe, Star, CheckCircle, XCircle, Lightbulb, DollarSign, Zap, Info, Share2, Link2, Check, Newspaper, BookOpen, Clipboard } from 'lucide-react';
 import { TwitterIcon, LinkedinIcon, FacebookIcon } from '@/components/SocialIcons';
 import Image from 'next/image';
 import { useState } from 'react';
@@ -38,10 +38,30 @@ export default function ToolDetailClient({ tool, locale }: ToolDetailClientProps
   const tCategories = useTranslations('categories');
   const tTags = useTranslations('tags');
   const [searchQuery, setSearchQuery] = useState('');
-  const [copied, setCopied] = useState(false);
+  const [copiedIndex, setCopiedIndex] = useState<string | null>(null);
   const description = getLocalizedDescription(tool, locale);
   const displayName = locale === 'zh' && tool.nameZh ? tool.nameZh : tool.name;
   const details = (toolDetails as any)[tool.slug];
+
+  const handleCopy = async (text: string, id: string) => {
+    try {
+      await navigator.clipboard.writeText(text);
+      setCopiedIndex(id);
+      setTimeout(() => setCopiedIndex(null), 2000);
+    } catch {
+      // fallback for older browsers
+      const textarea = document.createElement('textarea');
+      textarea.value = text;
+      textarea.style.position = 'fixed';
+      textarea.style.opacity = '0';
+      document.body.appendChild(textarea);
+      textarea.select();
+      document.execCommand('copy');
+      document.body.removeChild(textarea);
+      setCopiedIndex(id);
+      setTimeout(() => setCopiedIndex(null), 2000);
+    }
+  };
 
   // Find related tools in the same category (exclude current tool)
   const relatedTools = tools
@@ -72,8 +92,8 @@ export default function ToolDetailClient({ tool, locale }: ToolDetailClientProps
   };
   const handleCopyLink = () => {
     navigator.clipboard.writeText(toolUrl);
-    setCopied(true);
-    setTimeout(() => setCopied(false), 2000);
+    setCopiedIndex('share-link');
+    setTimeout(() => setCopiedIndex(null), 2000);
   };
 
   // JSON-LD structured data for SEO
@@ -200,8 +220,8 @@ export default function ToolDetailClient({ tool, locale }: ToolDetailClientProps
                   <FacebookIcon className="w-3.5 h-3.5" /> Facebook
                 </a>
                 <button onClick={handleCopyLink} className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-[var(--muted-bg)] text-[var(--foreground)] rounded-lg hover:bg-[var(--card-border)] transition text-xs font-medium">
-                  {copied ? <Check className="w-3.5 h-3.5 text-green-600 dark:text-green-400" /> : <Link2 className="w-3.5 h-3.5" />}
-                  {copied ? 'Copied!' : 'Copy Link'}
+                  {copiedIndex === 'share-link' ? <Check className="w-3.5 h-3.5 text-green-600 dark:text-green-400" /> : <Link2 className="w-3.5 h-3.5" />}
+                  {copiedIndex === 'share-link' ? 'Copied!' : 'Copy Link'}
                 </button>
               </div>
             </div>
@@ -302,25 +322,90 @@ export default function ToolDetailClient({ tool, locale }: ToolDetailClientProps
             </>
           )}
 
-          {/* Tutorial Section */}
+          {/* Tutorial Section - redesigned for clarity and copy-ability */}
           {details?.tutorial && (
-            <div className="bg-[var(--card-bg)] rounded-2xl border border-[var(--card-border)] p-8 shadow-sm">
-              <h2 className="text-lg font-semibold text-[var(--foreground)] mb-6 flex items-center gap-2">
-                <BookOpen className="w-5 h-5 text-indigo-500" />
-                {details.tutorial[locale]?.title || details.tutorial.en?.title}
-              </h2>
-              <div className="space-y-4">
-                {(details.tutorial[locale]?.steps || details.tutorial.en?.steps || []).map((step: any, index: number) => (
-                  <div key={index} className="flex gap-4">
-                    <div className="flex-shrink-0 w-8 h-8 rounded-full bg-indigo-100 dark:bg-indigo-900/30 flex items-center justify-center">
-                      <span className="text-sm font-bold text-indigo-600 dark:text-indigo-400">{step.step}</span>
-                    </div>
-                    <div className="flex-1">
-                      <h3 className="font-medium text-[var(--foreground)] mb-1">{step.title}</h3>
-                      <p className="text-sm text-[var(--muted)] leading-relaxed">{step.content}</p>
-                    </div>
+            <div className="bg-[var(--card-bg)] rounded-2xl border border-[var(--card-border)] overflow-hidden shadow-sm">
+              {/* Header */}
+              <div className="px-8 py-6 border-b border-[var(--card-border)] bg-gradient-to-r from-indigo-50/50 to-transparent dark:from-indigo-900/10">
+                <div className="flex items-center gap-3">
+                  <div className="w-10 h-10 rounded-xl bg-indigo-100 dark:bg-indigo-900/30 flex items-center justify-center">
+                    <BookOpen className="w-5 h-5 text-indigo-600 dark:text-indigo-400" />
                   </div>
-                ))}
+                  <div>
+                    <h2 className="text-xl font-bold text-[var(--foreground)]">
+                      {details.tutorial[locale]?.title || details.tutorial.en?.title}
+                    </h2>
+                    <p className="text-sm text-[var(--muted)]">
+                      {locale === 'zh' ? '5 步完成配置，开始使用' : 'Get started in 5 steps'}
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Steps */}
+              <div className="p-8">
+                {(details.tutorial[locale]?.steps || details.tutorial.en?.steps || []).map((step: any, index: number) => {
+                  const commands = step.commands || [];
+                  return (
+                    <div key={index} className={`flex gap-6 ${index > 0 ? 'mt-8 pt-8 border-t border-[var(--card-border)]' : ''}`}>
+                      {/* Step number */}
+                      <div className="flex-shrink-0">
+                        <div className="w-10 h-10 rounded-full bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center shadow-sm">
+                          <span className="text-base font-bold text-white">{step.step}</span>
+                        </div>
+                      </div>
+
+                      {/* Content */}
+                      <div className="flex-1 min-w-0">
+                        <h3 className="text-lg font-semibold text-[var(--foreground)] mb-2">{step.title}</h3>
+
+                        {step.content && (
+                          <p className="text-sm text-[var(--muted)] mb-4 leading-relaxed">{step.content}</p>
+                        )}
+
+                        {/* Command blocks */}
+                        {commands.length > 0 && (
+                          <div className="space-y-2.5">
+                            {commands.map((cmd: any, cmdIndex: number) => {
+                              const cmdId = `${step.step}-${cmdIndex}`;
+                              return (
+                                <div key={cmdIndex} className="group">
+                                  {cmd.label && (
+                                    <div className="text-xs font-medium text-[var(--muted)] mb-1 ml-1">{cmd.label}</div>
+                                  )}
+                                  <div className="flex items-stretch">
+                                    {/* Code */}
+                                    <div className="flex-1 bg-[var(--muted-bg)] border border-[var(--card-border)] rounded-l-lg px-4 py-2.5 overflow-x-auto">
+                                      <code className="text-sm text-[var(--foreground)] font-mono whitespace-nowrap select-all">{cmd.code}</code>
+                                    </div>
+                                    {/* Copy button */}
+                                    <button
+                                      onClick={() => handleCopy(cmd.code, cmdId)}
+                                      className="flex items-center gap-1.5 px-3.5 py-2.5 bg-[var(--muted-bg)] border border-l-0 border-[var(--card-border)] rounded-r-lg text-xs font-medium text-[var(--muted)] hover:text-[var(--primary)] hover:bg-[var(--primary)]/5 transition-all"
+                                      title={locale === 'zh' ? '复制命令' : 'Copy command'}
+                                    >
+                                      {copiedIndex === cmdId ? (
+                                        <>
+                                          <Check className="w-3.5 h-3.5 text-emerald-500" />
+                                          <span className="text-emerald-500">{locale === 'zh' ? '已复制' : 'Copied'}</span>
+                                        </>
+                                      ) : (
+                                        <>
+                                          <Clipboard className="w-3.5 h-3.5" />
+                                          <span className="hidden sm:inline">{locale === 'zh' ? '复制' : 'Copy'}</span>
+                                        </>
+                                      )}
+                                    </button>
+                                  </div>
+                                </div>
+                              );
+                            })}
+                          </div>
+                        )}
+                      </div>
+                    </div>
+                  );
+                })}
               </div>
             </div>
           )}

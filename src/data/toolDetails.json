@@ -327,21 +327,83 @@
       "en": {
         "title": "Quick Start Guide",
         "steps": [
-          {"step": 1, "title": "Install Hermes Agent", "content": "Download Hermes Desktop installer from the official website, or run: curl -fsSL https://hermes-agent.nousresearch.com/install.sh | bash (Linux/macOS) or iex (irm https://hermes-agent.nousresearch.com/install.ps1) (Windows PowerShell)."},
-          {"step": 2, "title": "Reload shell and start", "content": "After installation, reload your shell (source ~/.bashrc) and run 'hermes' to start chatting."},
-          {"step": 3, "title": "Configure LLM provider", "content": "Run 'hermes model' to choose your LLM provider and model, or use 'hermes setup --portal' for the fastest setup with Nous Portal."},
-          {"step": 4, "title": "Set up messaging platforms", "content": "Run 'hermes gateway setup' to connect Telegram, Discord, Slack, WhatsApp, or other platforms."},
-          {"step": 5, "title": "Start using unified memory", "content": "Hermes Agent now learns from every conversation, creates skills, and remembers you across all connected platforms."}
+          {
+            "step": 1, "title": "Install Hermes Agent",
+            "content": "Choose your OS and run the install command:",
+            "commands": [
+              {"label": "Linux / macOS", "code": "curl -fsSL https://hermes-agent.nousresearch.com/install.sh | bash"},
+              {"label": "Windows PowerShell", "code": "iex (irm https://hermes-agent.nousresearch.com/install.ps1)"}
+            ]
+          },
+          {
+            "step": 2, "title": "Reload shell and start",
+            "content": "Reload your shell, then run hermes to start chatting:",
+            "commands": [
+              {"label": "Reload shell", "code": "source ~/.bashrc"},
+              {"label": "Start chatting", "code": "hermes"}
+            ]
+          },
+          {
+            "step": 3, "title": "Configure LLM provider",
+            "content": "Choose your LLM provider, or use Nous Portal for the fastest setup:",
+            "commands": [
+              {"label": "Quick setup (recommended)", "code": "hermes setup --portal"},
+              {"label": "Manual provider config", "code": "hermes model"}
+            ]
+          },
+          {
+            "step": 4, "title": "Connect messaging platforms",
+            "content": "Connect Telegram, Discord, Slack, WhatsApp and more:",
+            "commands": [
+              {"label": "Setup gateway", "code": "hermes gateway setup"}
+            ]
+          },
+          {
+            "step": 5, "title": "Done — your agent is ready",
+            "content": "Hermes Agent now learns from every conversation, creates skills, and remembers you across all connected platforms. No extra steps needed.",
+            "commands": []
+          }
         ]
       },
       "zh": {
         "title": "快速入门指南",
         "steps": [
-          {"step": 1, "title": "安装 Hermes Agent", "content": "从官网下载 Hermes Desktop 安装程序，或运行：curl -fsSL https://hermes-agent.nousresearch.com/install.sh | bash（Linux/macOS）或 iex (irm https://hermes-agent.nousresearch.com/install.ps1)（Windows PowerShell）。"},
-          {"step": 2, "title": "重新加载 shell 并启动", "content": "安装完成后，重新加载 shell（source ~/.bashrc）并运行 'hermes' 开始对话。"},
-          {"step": 3, "title": "配置 LLM 提供商", "content": "运行 'hermes model' 选择 LLM 提供商和模型，或使用 'hermes setup --portal' 快速配置 Nous Portal。"},
-          {"step": 4, "title": "设置消息平台", "content": "运行 'hermes gateway setup' 连接 Telegram、Discord、Slack、WhatsApp 等平台。"},
-          {"step": 5, "title": "开始使用统一记忆", "content": "Hermes Agent 现在会从每次对话中学习，创建技能，并在所有连接的平台上记住你。"}
+          {
+            "step": 1, "title": "安装 Hermes Agent",
+            "content": "根据你的系统选择安装命令：",
+            "commands": [
+              {"label": "Linux / macOS", "code": "curl -fsSL https://hermes-agent.nousresearch.com/install.sh | bash"},
+              {"label": "Windows PowerShell", "code": "iex (irm https://hermes-agent.nousresearch.com/install.ps1)"}
+            ]
+          },
+          {
+            "step": 2, "title": "重新加载 shell 并启动",
+            "content": "重新加载 shell 后运行 hermes 开始对话：",
+            "commands": [
+              {"label": "重新加载 shell", "code": "source ~/.bashrc"},
+              {"label": "开始对话", "code": "hermes"}
+            ]
+          },
+          {
+            "step": 3, "title": "配置 LLM 提供商",
+            "content": "选择 LLM 提供商，或使用 Nous Portal 快速配置：",
+            "commands": [
+              {"label": "快速配置（推荐）", "code": "hermes setup --portal"},
+              {"label": "手动配置", "code": "hermes model"}
+            ]
+          },
+          {
+            "step": 4, "title": "连接消息平台",
+            "content": "连接 Telegram、Discord、Slack、WhatsApp 等平台：",
+            "commands": [
+              {"label": "设置网关", "code": "hermes gateway setup"}
+            ]
+          },
+          {
+            "step": 5, "title": "完成——你的智能体已就绪",
+            "content": "Hermes Agent 现在会从每次对话中学习，创建技能，并在所有连接的平台上记住你。无需额外配置。",
+            "commands": []
+          }
         ]
       }
     }
