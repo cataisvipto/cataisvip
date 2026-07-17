@@ -66,24 +66,24 @@ export default function Newsletter({ locale = 'en' }: NewsletterProps) {
 
   if (status === 'success') {
     return (
-      <div className="bg-gradient-to-r from-indigo-50 to-purple-50 rounded-2xl p-8 text-center">
-        <div className="inline-flex items-center justify-center w-16 h-16 bg-green-100 rounded-full mb-4">
-          <Check className="w-8 h-8 text-green-600" />
+      <div className="bg-[var(--card-bg)] border border-[var(--card-border)] rounded-2xl p-8 text-center">
+        <div className="inline-flex items-center justify-center w-16 h-16 bg-green-100 dark:bg-green-900/30 rounded-full mb-4">
+          <Check className="w-8 h-8 text-green-600 dark:text-green-400" />
         </div>
-        <h3 className="text-xl font-bold text-gray-900 mb-2">{t.success}</h3>
-        <p className="text-gray-600 text-sm">{t.description}</p>
+        <h3 className="text-xl font-bold text-[var(--foreground)] mb-2">{t.success}</h3>
+        <p className="text-[var(--muted)] text-sm">{t.description}</p>
       </div>
     );
   }
 
   return (
-    <div className="bg-gradient-to-r from-indigo-50 to-purple-50 rounded-2xl p-8">
+    <div className="bg-[var(--card-bg)] border border-[var(--card-border)] rounded-2xl p-8">
       <div className="max-w-2xl mx-auto text-center">
-        <div className="inline-flex items-center justify-center w-12 h-12 bg-indigo-100 rounded-full mb-4">
-          <Mail className="w-6 h-6 text-indigo-600" />
+        <div className="inline-flex items-center justify-center w-12 h-12 bg-indigo-100 dark:bg-indigo-900/30 rounded-full mb-4">
+          <Mail className="w-6 h-6 text-indigo-600 dark:text-indigo-400" />
         </div>
-        <h3 className="text-2xl font-bold text-gray-900 mb-2">{t.title}</h3>
-        <p className="text-gray-600 mb-6">{t.description}</p>
+        <h3 className="text-2xl font-bold text-[var(--foreground)] mb-2">{t.title}</h3>
+        <p className="text-[var(--muted)] mb-6">{t.description}</p>
         
         <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto">
           <input
@@ -94,7 +94,7 @@ export default function Newsletter({ locale = 'en' }: NewsletterProps) {
               if (status === 'error') setStatus('idle');
             }}
             placeholder={t.placeholder}
-            className="flex-1 px-4 py-3 rounded-lg border border-gray-200 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
+            className="flex-1 px-4 py-3 rounded-lg border border-[var(--card-border)] bg-[var(--card-bg)] text-[var(--foreground)] placeholder-[var(--muted)] focus:outline-none focus:ring-2 focus:ring-[var(--primary)] focus:border-transparent"
             disabled={status === 'loading'}
           />
           <button
@@ -111,10 +111,10 @@ export default function Newsletter({ locale = 'en' }: NewsletterProps) {
         </form>
         
         {status === 'error' && (
-          <p className="mt-3 text-sm text-red-600">{errorMessage}</p>
+          <p className="mt-3 text-sm text-red-500 dark:text-red-400">{errorMessage}</p>
         )}
         
-        <p className="mt-4 text-xs text-gray-500">
+        <p className="mt-4 text-xs text-[var(--muted)]">
           {locale === 'zh' ? '我们尊重你的隐私，随时可以取消订阅。' : 'We respect your privacy. Unsubscribe at any time.'}
         </p>
       </div>
