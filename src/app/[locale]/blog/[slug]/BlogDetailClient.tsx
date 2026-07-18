@@ -95,7 +95,7 @@ export default function BlogDetailClient({ post, locale, articleJsonLd }: BlogDe
           <div key={idx++} className="overflow-x-auto my-6 rounded-xl border border-[var(--card-border)]">
             <table className="w-full border-collapse">
               <thead>
-                <tr className="bg-indigo-50 dark:bg-indigo-900/30">
+                <tr className="bg-[var(--muted-bg)]">
                   {headers.map((h, hi) => (
                     <th key={hi} className="px-4 py-3 text-left text-sm font-semibold text-[var(--foreground)]">{h}</th>
                   ))}
