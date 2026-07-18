@@ -11,8 +11,12 @@
     "url": "https://chatgpt.com",
     "logo": "https://www.google.com/s2/favicons?domain=chatgpt.com&sz=128",
     "category": "Chat",
-    "tags": ["Freemium", "API"],
-    "featured": true
+    "tags": [
+      "Freemium",
+      "API"
+    ],
+    "featured": true,
+    "developer": "OpenAI"
   },
   {
     "slug": "claude",
@@ -26,8 +30,12 @@
     "url": "https://claude.ai",
     "logo": "https://www.google.com/s2/favicons?domain=claude.ai&sz=128",
     "category": "Chat",
-    "tags": ["Freemium", "API"],
-    "featured": true
+    "tags": [
+      "Freemium",
+      "API"
+    ],
+    "featured": true,
+    "developer": "Anthropic"
   },
   {
     "slug": "gemini",
@@ -41,8 +49,12 @@
     "url": "https://gemini.google.com",
     "logo": "https://www.google.com/s2/favicons?domain=gemini.google.com&sz=128",
     "category": "Chat",
-    "tags": ["Free", "API"],
-    "featured": true
+    "tags": [
+      "Free",
+      "API"
+    ],
+    "featured": true,
+    "developer": "Google"
   },
   {
     "slug": "grok",
@@ -56,8 +68,12 @@
     "url": "https://grok.com",
     "logo": "https://www.google.com/s2/favicons?domain=grok.com&sz=128",
     "category": "Chat",
-    "tags": ["Freemium", "API"],
-    "featured": true
+    "tags": [
+      "Freemium",
+      "API"
+    ],
+    "featured": true,
+    "developer": "xAI"
   },
   {
     "slug": "deepseek",
@@ -71,8 +87,14 @@
     "url": "https://chat.deepseek.com",
     "logo": "https://www.google.com/s2/favicons?domain=chat.deepseek.com&sz=128",
     "category": "Chat",
-    "tags": ["Free", "Open Source", "API"],
-    "featured": true
+    "tags": [
+      "Free",
+      "Open Source",
+      "API"
+    ],
+    "featured": true,
+    "developer": "DeepSeek",
+    "developerZh": "深度求索"
   },
   {
     "slug": "qwen",
@@ -86,8 +108,13 @@
     "url": "https://chat.qwen.ai",
     "logo": "https://www.google.com/s2/favicons?domain=chat.qwen.ai&sz=128",
     "category": "Chat",
-    "tags": ["Free", "API"],
-    "featured": true
+    "tags": [
+      "Free",
+      "API"
+    ],
+    "featured": true,
+    "developer": "Alibaba Cloud",
+    "developerZh": "阿里云"
   },
   {
     "slug": "wenxin",
@@ -101,8 +128,12 @@
     "url": "https://yiyan.baidu.com",
     "logo": "https://www.google.com/s2/favicons?domain=yiyan.baidu.com&sz=128",
     "category": "Chat",
-    "tags": ["Free"],
-    "featured": true
+    "tags": [
+      "Free"
+    ],
+    "featured": true,
+    "developer": "Baidu",
+    "developerZh": "百度"
   },
   {
     "slug": "doubao",
@@ -116,8 +147,12 @@
     "url": "https://www.doubao.com",
     "logo": "https://www.google.com/s2/favicons?domain=www.doubao.com&sz=128",
     "category": "Chat",
-    "tags": ["Free"],
-    "featured": true
+    "tags": [
+      "Free"
+    ],
+    "featured": true,
+    "developer": "ByteDance",
+    "developerZh": "字节跳动"
   },
   {
     "slug": "zhipu",
@@ -131,8 +166,13 @@
     "url": "https://chatglm.cn",
     "logo": "https://www.google.com/s2/favicons?domain=chatglm.cn&sz=128",
     "category": "Chat",
-    "tags": ["Free", "API"],
-    "featured": false
+    "tags": [
+      "Free",
+      "API"
+    ],
+    "featured": false,
+    "developer": "Zhipu AI",
+    "developerZh": "智谱 AI"
   },
   {
     "slug": "kimi",
@@ -146,8 +186,12 @@
     "url": "https://kimi.moonshot.cn",
     "logo": "https://www.google.com/s2/favicons?domain=kimi.moonshot.cn&sz=128",
     "category": "Chat",
-    "tags": ["Free"],
-    "featured": true
+    "tags": [
+      "Free"
+    ],
+    "featured": true,
+    "developer": "Moonshot AI",
+    "developerZh": "月之暗面"
   },
   {
     "slug": "yuanbao",
@@ -161,8 +205,12 @@
     "url": "https://yuanbao.tencent.com",
     "logo": "https://www.google.com/s2/favicons?domain=yuanbao.tencent.com&sz=128",
     "category": "Chat",
-    "tags": ["Free"],
-    "featured": false
+    "tags": [
+      "Free"
+    ],
+    "featured": false,
+    "developer": "Tencent",
+    "developerZh": "腾讯"
   },
   {
     "slug": "midjourney",
@@ -176,8 +224,11 @@
     "url": "https://www.midjourney.com",
     "logo": "https://www.google.com/s2/favicons?domain=www.midjourney.com&sz=128",
     "category": "Image",
-    "tags": ["Paid"],
-    "featured": true
+    "tags": [
+      "Paid"
+    ],
+    "featured": true,
+    "developer": "Midjourney"
   },
   {
     "slug": "dalle",
@@ -191,8 +242,11 @@
     "url": "https://openai.com/dall-e-3",
     "logo": "https://www.google.com/s2/favicons?domain=openai.com&sz=128",
     "category": "Image",
-    "tags": ["Freemium"],
-    "featured": false
+    "tags": [
+      "Freemium"
+    ],
+    "featured": false,
+    "developer": "OpenAI"
   },
   {
     "slug": "stable-diffusion",
@@ -206,8 +260,12 @@
     "url": "https://stability.ai",
     "logo": "https://www.google.com/s2/favicons?domain=stability.ai&sz=128",
     "category": "Image",
-    "tags": ["Free", "Open Source"],
-    "featured": true
+    "tags": [
+      "Free",
+      "Open Source"
+    ],
+    "featured": true,
+    "developer": "Stability AI"
   },
   {
     "slug": "github-copilot",
@@ -221,8 +279,12 @@
     "url": "https://github.com/features/copilot",
     "logo": "https://www.google.com/s2/favicons?domain=github.com&sz=128",
     "category": "Code",
-    "tags": ["Paid", "API"],
-    "featured": true
+    "tags": [
+      "Paid",
+      "API"
+    ],
+    "featured": true,
+    "developer": "GitHub / Microsoft"
   },
   {
     "slug": "cursor",
@@ -236,8 +298,11 @@
     "url": "https://cursor.com",
     "logo": "https://www.google.com/s2/favicons?domain=cursor.com&sz=128",
     "category": "Code",
-    "tags": ["Freemium"],
-    "featured": true
+    "tags": [
+      "Freemium"
+    ],
+    "featured": true,
+    "developer": "Cursor"
   },
   {
     "slug": "perplexity",
@@ -251,8 +316,12 @@
     "url": "https://www.perplexity.ai",
     "logo": "https://www.google.com/s2/favicons?domain=www.perplexity.ai&sz=128",
     "category": "Search",
-    "tags": ["Freemium", "API"],
-    "featured": true
+    "tags": [
+      "Freemium",
+      "API"
+    ],
+    "featured": true,
+    "developer": "Perplexity AI"
   },
   {
     "slug": "notion-ai",
@@ -266,8 +335,11 @@
     "url": "https://www.notion.so/product/ai",
     "logo": "https://www.google.com/s2/favicons?domain=www.notion.so&sz=128",
     "category": "Writing",
-    "tags": ["Paid"],
-    "featured": false
+    "tags": [
+      "Paid"
+    ],
+    "featured": false,
+    "developer": "Notion"
   },
   {
     "slug": "jasper",
@@ -281,8 +353,11 @@
     "url": "https://www.jasper.ai",
     "logo": "https://www.google.com/s2/favicons?domain=www.jasper.ai&sz=128",
     "category": "Writing",
-    "tags": ["Paid"],
-    "featured": false
+    "tags": [
+      "Paid"
+    ],
+    "featured": false,
+    "developer": "Jasper"
   },
   {
     "slug": "runway",
@@ -296,8 +371,11 @@
     "url": "https://runwayml.com",
     "logo": "https://www.google.com/s2/favicons?domain=runwayml.com&sz=128",
     "category": "Video",
-    "tags": ["Freemium"],
-    "featured": true
+    "tags": [
+      "Freemium"
+    ],
+    "featured": true,
+    "developer": "Runway"
   },
   {
     "slug": "elevenlabs",
@@ -311,8 +389,12 @@
     "url": "https://elevenlabs.io",
     "logo": "https://www.google.com/s2/favicons?domain=elevenlabs.io&sz=128",
     "category": "Audio",
-    "tags": ["Freemium", "API"],
-    "featured": true
+    "tags": [
+      "Freemium",
+      "API"
+    ],
+    "featured": true,
+    "developer": "ElevenLabs"
   },
   {
     "slug": "suno",
@@ -326,8 +408,11 @@
     "url": "https://suno.com",
     "logo": "https://www.google.com/s2/favicons?domain=suno.com&sz=128",
     "category": "Audio",
-    "tags": ["Freemium"],
-    "featured": false
+    "tags": [
+      "Freemium"
+    ],
+    "featured": false,
+    "developer": "Suno"
   },
   {
     "slug": "hugging-face",
@@ -341,8 +426,12 @@
     "url": "https://huggingface.co",
     "logo": "https://www.google.com/s2/favicons?domain=huggingface.co&sz=128",
     "category": "Platform",
-    "tags": ["Free", "Open Source"],
-    "featured": true
+    "tags": [
+      "Free",
+      "Open Source"
+    ],
+    "featured": true,
+    "developer": "Hugging Face"
   },
   {
     "slug": "langchain",
@@ -356,8 +445,12 @@
     "url": "https://www.langchain.com",
     "logo": "https://www.google.com/s2/favicons?domain=www.langchain.com&sz=128",
     "category": "Developer",
-    "tags": ["Free", "Open Source"],
-    "featured": true
+    "tags": [
+      "Free",
+      "Open Source"
+    ],
+    "featured": true,
+    "developer": "LangChain"
   },
   {
     "slug": "v0",
@@ -371,8 +464,11 @@
     "url": "https://v0.dev",
     "logo": "https://www.google.com/s2/favicons?domain=v0.dev&sz=128",
     "category": "Code",
-    "tags": ["Freemium"],
-    "featured": false
+    "tags": [
+      "Freemium"
+    ],
+    "featured": false,
+    "developer": "Vercel"
   },
   {
     "slug": "zapier-ai",
@@ -386,8 +482,11 @@
     "url": "https://zapier.com/ai",
     "logo": "https://www.google.com/s2/favicons?domain=zapier.com&sz=128",
     "category": "Agent",
-    "tags": ["Freemium"],
-    "featured": false
+    "tags": [
+      "Freemium"
+    ],
+    "featured": false,
+    "developer": "Zapier"
   },
   {
     "slug": "autogpt",
@@ -401,8 +500,12 @@
     "url": "https://agpt.co",
     "logo": "https://www.google.com/s2/favicons?domain=agpt.co&sz=128",
     "category": "Agent",
-    "tags": ["Free", "Open Source"],
-    "featured": true
+    "tags": [
+      "Free",
+      "Open Source"
+    ],
+    "featured": true,
+    "developer": "Significant Gravitas"
   },
   {
     "slug": "copy-ai",
@@ -416,8 +519,11 @@
     "url": "https://www.copy.ai",
     "logo": "https://www.google.com/s2/favicons?domain=www.copy.ai&sz=128",
     "category": "Writing",
-    "tags": ["Freemium"],
-    "featured": false
+    "tags": [
+      "Freemium"
+    ],
+    "featured": false,
+    "developer": "Copy.ai"
   },
   {
     "slug": "descript",
@@ -431,8 +537,11 @@
     "url": "https://www.descript.com",
     "logo": "https://www.google.com/s2/favicons?domain=www.descript.com&sz=128",
     "category": "Video",
-    "tags": ["Freemium"],
-    "featured": false
+    "tags": [
+      "Freemium"
+    ],
+    "featured": false,
+    "developer": "Descript"
   },
   {
     "slug": "replit-ai",
@@ -446,8 +555,11 @@
     "url": "https://replit.com",
     "logo": "https://www.google.com/s2/favicons?domain=replit.com&sz=128",
     "category": "Code",
-    "tags": ["Freemium"],
-    "featured": false
+    "tags": [
+      "Freemium"
+    ],
+    "featured": false,
+    "developer": "Replit"
   },
   {
     "slug": "canva-ai",
@@ -461,8 +573,11 @@
     "url": "https://www.canva.com/ai",
     "logo": "https://www.google.com/s2/favicons?domain=www.canva.com&sz=128",
     "category": "Design",
-    "tags": ["Freemium"],
-    "featured": true
+    "tags": [
+      "Freemium"
+    ],
+    "featured": true,
+    "developer": "Canva"
   },
   {
     "slug": "leonardo-ai",
@@ -476,8 +591,11 @@
     "url": "https://leonardo.ai",
     "logo": "https://www.google.com/s2/favicons?domain=leonardo.ai&sz=128",
     "category": "Image",
-    "tags": ["Freemium"],
-    "featured": false
+    "tags": [
+      "Freemium"
+    ],
+    "featured": false,
+    "developer": "Leonardo AI"
   },
   {
     "slug": "pika",
@@ -491,8 +609,11 @@
     "url": "https://pika.art",
     "logo": "https://www.google.com/s2/favicons?domain=pika.art&sz=128",
     "category": "Video",
-    "tags": ["Freemium"],
-    "featured": false
+    "tags": [
+      "Freemium"
+    ],
+    "featured": false,
+    "developer": "Pika"
   },
   {
     "slug": "deepl",
@@ -506,8 +627,12 @@
     "url": "https://www.deepl.com",
     "logo": "https://www.google.com/s2/favicons?domain=www.deepl.com&sz=128",
     "category": "Writing",
-    "tags": ["Freemium", "API"],
-    "featured": true
+    "tags": [
+      "Freemium",
+      "API"
+    ],
+    "featured": true,
+    "developer": "DeepL"
   },
   {
     "slug": "tabnine",
@@ -521,8 +646,11 @@
     "url": "https://www.tabnine.com",
     "logo": "https://www.google.com/s2/favicons?domain=www.tabnine.com&sz=128",
     "category": "Code",
-    "tags": ["Freemium"],
-    "featured": false
+    "tags": [
+      "Freemium"
+    ],
+    "featured": false,
+    "developer": "Tabnine"
   },
   {
     "slug": "character-ai",
@@ -536,8 +664,11 @@
     "url": "https://character.ai",
     "logo": "https://www.google.com/s2/favicons?domain=character.ai&sz=128",
     "category": "Chat",
-    "tags": ["Free"],
-    "featured": false
+    "tags": [
+      "Free"
+    ],
+    "featured": false,
+    "developer": "Character Technologies"
   },
   {
     "slug": "whisper",
@@ -551,8 +682,12 @@
     "url": "https://github.com/openai/whisper",
     "logo": "https://www.google.com/s2/favicons?domain=github.com&sz=128",
     "category": "Audio",
-    "tags": ["Free", "Open Source"],
-    "featured": false
+    "tags": [
+      "Free",
+      "Open Source"
+    ],
+    "featured": false,
+    "developer": "OpenAI"
   },
   {
     "slug": "llama",
@@ -566,8 +701,12 @@
     "url": "https://llama.meta.com",
     "logo": "https://www.google.com/s2/favicons?domain=llama.meta.com&sz=128",
     "category": "Platform",
-    "tags": ["Free", "Open Source"],
-    "featured": true
+    "tags": [
+      "Free",
+      "Open Source"
+    ],
+    "featured": true,
+    "developer": "Meta"
   },
   {
     "slug": "hermes-agent",
@@ -581,9 +720,19 @@
     "url": "https://hermes-agent.nousresearch.com",
     "logo": "https://www.google.com/s2/favicons?domain=nousresearch.com&sz=128",
     "category": "Agent",
-    "tags": ["Free", "Open Source"],
+    "tags": [
+      "Free",
+      "Open Source"
+    ],
     "featured": true,
-    "platforms": ["telegram", "discord", "slack", "whatsapp", "cli"]
+    "platforms": [
+      "telegram",
+      "discord",
+      "slack",
+      "whatsapp",
+      "cli"
+    ],
+    "developer": "Nous Research"
   },
   {
     "slug": "jimeng-ai",
@@ -597,8 +746,12 @@
     "url": "https://jimeng.jianying.com",
     "logo": "https://www.google.com/s2/favicons?domain=jimeng.jianying.com&sz=128",
     "category": "Image",
-    "tags": ["Freemium"],
-    "featured": true
+    "tags": [
+      "Freemium"
+    ],
+    "featured": true,
+    "developer": "ByteDance",
+    "developerZh": "字节跳动"
   },
   {
     "slug": "kling-ai",
@@ -612,7 +765,11 @@
     "url": "https://klingai.com",
     "logo": "https://www.google.com/s2/favicons?domain=klingai.com&sz=128",
     "category": "Video",
-    "tags": ["Freemium"],
-    "featured": true
+    "tags": [
+      "Freemium"
+    ],
+    "featured": true,
+    "developer": "Kuaishou",
+    "developerZh": "快手"
   }
 ]

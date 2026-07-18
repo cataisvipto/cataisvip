@@ -20,6 +20,8 @@ export interface Tool {
   tags: string[];
   featured: boolean;
   platforms?: string[];
+  developer?: string;
+  developerZh?: string;
 }
 
 // Helper to get localized description

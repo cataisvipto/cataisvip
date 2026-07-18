@@ -9,7 +9,7 @@ import { Tool, getLocalizedDescription } from '@/components/ToolCard';
 import toolDetails from '@/data/toolDetails.json';
 import tools from '@/data/tools.json';
 import blogPosts from '@/data/blogPosts.json';
-import { ArrowLeft, ExternalLink, Globe, Star, CheckCircle, XCircle, Lightbulb, DollarSign, Zap, Info, Share2, Link2, Check, Newspaper, BookOpen, Clipboard } from 'lucide-react';
+import { ArrowLeft, ExternalLink, Globe, Star, Building2, CheckCircle, XCircle, Lightbulb, DollarSign, Zap, Info, Share2, Link2, Check, Newspaper, BookOpen, Clipboard } from 'lucide-react';
 import { TwitterIcon, LinkedinIcon, FacebookIcon } from '@/components/SocialIcons';
 import Image from 'next/image';
 import { useState } from 'react';
@@ -163,6 +163,13 @@ export default function ToolDetailClient({ tool, locale }: ToolDetailClientProps
                     <Globe className="w-4 h-4" />
                     <span className="text-sm">{tCategories(tool.category as any)}</span>
                   </div>
+
+                  {tool.developer && (
+                    <div className="flex items-center gap-2 text-[var(--muted)] mb-4">
+                      <Building2 className="w-4 h-4" />
+                      <span className="text-sm">{locale === 'zh' && tool.developerZh ? tool.developerZh : tool.developer}</span>
+                    </div>
+                  )}
 
                   {/* Tags */}
                   <div className="flex flex-wrap gap-2">
