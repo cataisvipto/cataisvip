@@ -9,7 +9,9 @@ import Breadcrumb from '@/components/Breadcrumb';
 import { ArrowLeft, Calendar, Clock, User, Share2, Link2, Check, ExternalLink } from 'lucide-react';
 import { TwitterIcon, LinkedinIcon, FacebookIcon } from '@/components/SocialIcons';
 import Image from 'next/image';
+import BlogCover from '@/components/BlogCover';
 import tools from '@/data/tools.json';
+import { Tool, getLocalizedDescription } from '@/components/ToolCard';
 
 interface BlogPost {
   slug: string;
@@ -118,13 +120,12 @@ export default function BlogDetailClient({ post, locale, articleJsonLd }: BlogDe
 
           {/* Cover Image */}
           <div className="aspect-video rounded-2xl overflow-hidden mb-8">
-            <Image
+            <BlogCover
               src={post.coverImage}
               alt={title}
               width={1200}
               height={630}
               className="w-full h-full object-cover"
-              unoptimized
               priority
             />
           </div>
@@ -221,7 +222,7 @@ export default function BlogDetailClient({ post, locale, articleJsonLd }: BlogDe
             <div className="mt-8 p-6 bg-indigo-50/50 dark:bg-indigo-900/20 rounded-2xl border border-indigo-100 dark:border-indigo-900/30">
               <h3 className="text-lg font-semibold text-[var(--foreground)] mb-4 flex items-center gap-2">
                 <ExternalLink className="w-5 h-5 text-indigo-500" />
-                {locale === 'zh' ? '相关工具推荐' : 'Related Tools'}
+                {t('relatedTools')}
               </h3>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                 {relatedTools.map((tool) => (
@@ -243,7 +244,7 @@ export default function BlogDetailClient({ post, locale, articleJsonLd }: BlogDe
                     <div className="min-w-0">
                       <div className="font-medium text-[var(--foreground)] text-sm truncate">{tool.name}</div>
                       <div className="text-xs text-[var(--muted)] truncate">
-                        {locale === 'zh' ? tool.description : tool.descriptionEn}
+                        {getLocalizedDescription(tool as Tool, locale)}
                       </div>
                     </div>
                   </Link>

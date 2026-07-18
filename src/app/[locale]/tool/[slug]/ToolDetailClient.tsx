@@ -207,7 +207,7 @@ export default function ToolDetailClient({ tool, locale }: ToolDetailClientProps
             <div className="px-8 pb-8">
               <div className="flex items-center gap-2 mb-3 text-sm text-[var(--muted)]">
                 <Share2 className="w-4 h-4" />
-                <span>Share this tool</span>
+                <span>{t('shareTool')}</span>
               </div>
               <div className="flex flex-wrap gap-2">
                 <a href={shareLinks.twitter} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-black text-white rounded-lg hover:bg-gray-800 transition text-xs font-medium">
@@ -221,7 +221,7 @@ export default function ToolDetailClient({ tool, locale }: ToolDetailClientProps
                 </a>
                 <button onClick={handleCopyLink} className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-[var(--muted-bg)] text-[var(--foreground)] rounded-lg hover:bg-[var(--card-border)] transition text-xs font-medium">
                   {copiedIndex === 'share-link' ? <Check className="w-3.5 h-3.5 text-green-600 dark:text-green-400" /> : <Link2 className="w-3.5 h-3.5" />}
-                  {copiedIndex === 'share-link' ? 'Copied!' : 'Copy Link'}
+                  {copiedIndex === 'share-link' ? t('linkCopied') : t('copyLink')}
                 </button>
               </div>
             </div>
@@ -312,7 +312,7 @@ export default function ToolDetailClient({ tool, locale }: ToolDetailClientProps
               </div>
 
               {/* Latest Update */}
-              <div className="bg-[var(--card-bg)] bg-gradient-to-r from-indigo-50 to-cyan-50 dark:from-indigo-900/20 dark:to-cyan-900/20 rounded-2xl border border-indigo-100 dark:border-indigo-900/30 p-8">
+              <div className="bg-[var(--card-bg)] rounded-2xl border border-[var(--card-border)] p-8 shadow-sm">
                 <h2 className="text-lg font-semibold text-[var(--foreground)] mb-3 flex items-center gap-2">
                   <Zap className="w-5 h-5 text-indigo-500" />
                   {t('latestUpdate')}
@@ -336,7 +336,7 @@ export default function ToolDetailClient({ tool, locale }: ToolDetailClientProps
                       {details.tutorial[locale]?.title || details.tutorial.en?.title}
                     </h2>
                     <p className="text-sm text-[var(--muted)]">
-                      {locale === 'zh' ? '5 步完成配置，开始使用' : 'Get started in 5 steps'}
+                      {t('tutorialSubtitle')}
                     </p>
                   </div>
                 </div>
@@ -382,17 +382,17 @@ export default function ToolDetailClient({ tool, locale }: ToolDetailClientProps
                                     <button
                                       onClick={() => handleCopy(cmd.code, cmdId)}
                                       className="flex items-center gap-1.5 px-3.5 py-2.5 bg-[var(--muted-bg)] border border-l-0 border-[var(--card-border)] rounded-r-lg text-xs font-medium text-[var(--muted)] hover:text-[var(--primary)] hover:bg-[var(--primary)]/5 transition-all"
-                                      title={locale === 'zh' ? '复制命令' : 'Copy command'}
+                                      title={t('copyCommand')}
                                     >
                                       {copiedIndex === cmdId ? (
                                         <>
                                           <Check className="w-3.5 h-3.5 text-emerald-500" />
-                                          <span className="text-emerald-500">{locale === 'zh' ? '已复制' : 'Copied'}</span>
+                                          <span className="text-emerald-500">{t('copied')}</span>
                                         </>
                                       ) : (
                                         <>
                                           <Clipboard className="w-3.5 h-3.5" />
-                                          <span className="hidden sm:inline">{locale === 'zh' ? '复制' : 'Copy'}</span>
+                                          <span className="hidden sm:inline">{t('copy')}</span>
                                         </>
                                       )}
                                     </button>
@@ -415,7 +415,7 @@ export default function ToolDetailClient({ tool, locale }: ToolDetailClientProps
             <div className="bg-[var(--card-bg)] rounded-2xl border border-[var(--card-border)] p-8 shadow-sm">
               <h2 className="text-lg font-semibold text-[var(--foreground)] mb-4 flex items-center gap-2">
                 <Globe className="w-5 h-5 text-indigo-500" />
-                {locale === 'zh' ? `同类工具推荐（${tCategories(tool.category as any)}）` : `Related ${tCategories(tool.category as any)} Tools`}
+                {t('relatedTools', { category: tCategories(tool.category as any) })}
               </h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                 {relatedTools.map((rt) => (
@@ -439,7 +439,7 @@ export default function ToolDetailClient({ tool, locale }: ToolDetailClientProps
                         {locale === 'zh' && rt.nameZh ? rt.nameZh : rt.name}
                       </div>
                       <div className="text-xs text-[var(--muted)] truncate">
-                        {locale === 'zh' ? rt.description : rt.descriptionEn}
+                        {getLocalizedDescription(rt as Tool, locale)}
                       </div>
                     </div>
                   </Link>
@@ -453,7 +453,7 @@ export default function ToolDetailClient({ tool, locale }: ToolDetailClientProps
             <div className="bg-[var(--card-bg)] rounded-2xl border border-[var(--card-border)] p-8 shadow-sm">
               <h2 className="text-lg font-semibold text-[var(--foreground)] mb-4 flex items-center gap-2">
                 <Newspaper className="w-5 h-5 text-indigo-500" />
-                {locale === 'zh' ? '相关文章' : 'Related Articles'}
+                {t('relatedArticles')}
               </h2>
               <div className="space-y-4">
                 {relatedPosts.map((post) => (

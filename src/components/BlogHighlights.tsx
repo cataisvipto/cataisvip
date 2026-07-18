@@ -3,7 +3,7 @@
 import { useTranslations, useLocale } from 'next-intl';
 import { Link } from '@/i18n/navigation';
 import { Clock, ArrowRight } from 'lucide-react';
-import Image from 'next/image';
+import BlogCover from '@/components/BlogCover';
 import posts from '@/data/blogPosts.json';
 
 interface BlogPost {
@@ -60,13 +60,12 @@ export default function BlogHighlights() {
               className="group bg-[var(--card-bg)] rounded-2xl border border-[var(--card-border)] overflow-hidden hover:shadow-lg transition-all duration-300"
             >
               <Link href={`/blog/${post.slug}`} className="block aspect-video overflow-hidden">
-                <Image
+                <BlogCover
                   src={post.coverImage}
                   alt={title}
                   width={400}
                   height={225}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                  unoptimized
                 />
               </Link>
               <div className="p-5">

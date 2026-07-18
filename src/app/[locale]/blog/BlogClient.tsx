@@ -6,7 +6,7 @@ import { Link } from '@/i18n/navigation';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { Calendar, Clock, ArrowRight, Tag } from 'lucide-react';
-import Image from 'next/image';
+import BlogCover from '@/components/BlogCover';
 
 interface BlogPost {
   slug: string;
@@ -85,13 +85,12 @@ export default function BlogClient({ posts }: BlogClientProps) {
                 <article key={post.slug} className="group bg-[var(--card-bg)] rounded-2xl border border-[var(--card-border)] overflow-hidden hover:shadow-lg transition-all duration-300">
                   {/* Cover Image */}
                   <Link href={`/blog/${post.slug}`} className="block aspect-video overflow-hidden">
-                    <Image
+                    <BlogCover
                       src={post.coverImage}
                       alt={title}
                       width={400}
                       height={225}
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                      unoptimized
                     />
                   </Link>
 
