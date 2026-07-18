@@ -536,5 +536,92 @@
         ]
       }
     }
+  },
+  "jimeng-ai": {
+    "features": {
+      "en": ["Seedance 2.0 multimodal video generation", "Text-to-image and image-to-video", "AI Canvas with inpainting/outpainting/erase/matte", "Text-to-video and image-to-video", "Seedance (Intl) vs Jimeng Dreamina (CN)", "Continuous model updates"],
+      "zh": ["Seedance 2.0 多模态视频生成", "文生图与图生视频", "AI 画布（局部重绘/扩图/消除/抠图）", "文生视频与图生视频", "Seedance（国际版）与即梦（国内版）双版本", "持续模型更新迭代"],
+      "ja": ["Seedance 2.0 マルチモーダル動画生成", "テキストから画像、画像から動画", "AI キャンバス（部分再描画/拡張/消去/切り抜き）", "テキストから動画・画像から動画", "Seedance（国際版）と即夢 Dreamina（中国版）", "継続的なモデルアップデート"],
+      "es": ["Generación de vídeo multimodal Seedance 2.0", "Texto a imagen e imagen a vídeo", "Lienzo AI con relleno inteligente/expansión/borrado/máscara", "Texto a vídeo e imagen a vídeo", "Seedance (internacional) y Jimeng Dreamina (CN)", "Actualizaciones continuas del modelo"],
+      "fr": ["Génération vidéo multimodale Seedance 2.0", "Texte vers image et image vers vidéo", "Canvas IA avec incrustation/expansion/effacement/masque", "Texte vers vidéo et image vers vidéo", "Seedance (international) et Jimeng Dreamina (CN)", "Mises à jour continues du modèle"]
+    },
+    "pricing": {
+      "free": {"en": "Free plan (daily credits ~800s new user + 60-100/day)", "zh": "免费版（每日赠送积分，新用户约800秒 + 每日60-100积分）", "ja": "無料プラン（デイリークレジット、新規約800秒＋毎日60-100ポイント）", "es": "Plan gratuito (créditos diarios ~800s nuevo usuario + 60-100/día)", "fr": "Offre gratuite (crédits quotidiens ~800s nouvel utilisateur + 60-100/jour)"},
+      "basic": {"en": "¥79/month (CN basic, 1080 points/mo)", "zh": "基础会员 ¥79/月（1080积分/月）", "ja": "ベーシック 79元/月（月1080ポイント）", "es": "Básico ¥79/mes (CN, 1080 puntos/mes)", "fr": "De base ¥79/mois (CN, 1080 points/mois)"},
+      "standard": {"en": "$6.99/month (Seedance Intl Standard)", "zh": "$6.99/月（Seedance 国际版 Standard）", "ja": "月額$6.99（Seedance 国際版 Standard）", "es": "6,99 $/mes (Seedance Intl Standard)", "fr": "6,99 $/mois (Seedance Intl Standard)"},
+      "pro": {"en": "$25.99/month (Seedance Intl Pro)", "zh": "$25.99/月（Seedance 国际版 Pro）", "ja": "月額$25.99（Seedance 国際版 Pro）", "es": "25,99 $/mes (Seedance Intl Pro)", "fr": "25,99 $/mois (Seedance Intl Pro)"}
+    },
+    "useCases": {
+      "en": ["Short video content creation", "E-commerce product design", "Social media visual assets", "Creative advertising", "AI art and illustration"],
+      "zh": ["短视频内容创作", "电商产品设计", "社交媒体视觉素材", "创意广告制作", "AI 艺术与插画"],
+      "ja": ["ショート動画のコンテンツ制作", "EC 商品デザイン", "SNS ビジュアル素材", "クリエイティブ広告", "AI アートとイラスト"],
+      "es": ["Creación de contenido de vídeo corto", "Diseño de productos de e-commerce", "Activos visuales para redes sociales", "Publicidad creativa", "Arte e ilustración con IA"],
+      "fr": ["Création de contenu vidéo court", "Design de produits e-commerce", "Actifs visuels pour réseaux sociaux", "Publicité créative", "Art et illustration IA"]
+    },
+    "pros": {
+      "en": ["Dual version (CN + Intl) flexibility", "Advanced AI Canvas with multiple tools", "Seedance 2.0 cutting-edge model", "Seamless ByteDance ecosystem integration", "Competitive pricing for quality output"],
+      "zh": ["双版本（国内+国际版）灵活选择", "AI 画布功能丰富（重绘/扩图/消除/抠图）", "Seedance 2.0 前沿模型", "字节生态无缝集成", "性价比高，输出质量优秀"],
+      "ja": ["デュアルバージョン（中国＋国際版）の柔軟性", "多彩な AI キャンバス機能（再描画/拡張/消去/切り抜き）", "Seedance 2.0 最先端モデル", "ByteDance エコシステムとのシームレスな統合", "高コスパで高品質な出力"],
+      "es": ["Flexibilidad de doble versión (CN + Intl)", "Lienzo AI avanzado con múltiples herramientas", "Modelo de vanguardia Seedance 2.0", "Integración fluida con el ecosistema ByteDance", "Precios competitivos y salida de calidad"],
+      "fr": ["Flexibilité de la double version (CN + Intl)", "Canvas IA avancé avec outils multiples", "Modèle de pointe Seedance 2.0", "Intégration fluide dans l'écosystème ByteDance", "Prix compétitifs pour une sortie de qualité"]
+    },
+    "cons": {
+      "en": ["CN version requires Chinese phone", "Pricing differs between CN and Intl", "Free tier credits are limited", "Some advanced features paywalled"],
+      "zh": ["国内版需中国手机号注册", "国内与国际版定价不同", "免费版积分有限", "部分高级功能需付费"],
+      "ja": ["中国版は中国の電話番号が必要", "中国版と国際版で料金が異なる", "無料枠のクレジットは限定的", "一部の高度な機能は有料"],
+      "es": ["Versión CN requiere teléfono chino", "Precios diferentes entre CN e Intl", "Créditos del plan gratuito limitados", "Algunas funciones avanzadas son de pago"],
+      "fr": ["Version CN nécessite un téléphone chinois", "Tarification différente entre CN et Intl", "Crédits gratuits limités", "Certaines fonctions avancées payantes"]
+    },
+    "latestUpdate": {
+      "en": "2026: Seedance 2.0 released with enhanced multimodal capabilities, AI Canvas expansion, and international pricing restructured for global users",
+      "zh": "2026年：Seedance 2.0 发布，多模态能力增强，AI 画布功能扩展，国际版定价调整面向全球用户",
+      "ja": "2026年：Seedance 2.0 をリリース、マルチモーダル機能を強化、AI キャンバスを拡張、国際版の料金体系をグローバルユーザー向けに再編",
+      "es": "2026: Seedance 2.0 lanzado con capacidades multimodales mejoradas, expansión del lienzo AI y precios internacionales reestructurados para usuarios globales",
+      "fr": "2026 : Seedance 2.0 publié avec des capacités multimodales améliorées, une extension du canvas IA et une tarification internationale restructurée pour les utilisateurs mondiaux"
+    }
+  },
+  "kling-ai": {
+    "features": {
+      "en": ["Kling 3.0 / Kling O1 multimodal video model", "Text-to-video and image-to-video", "1080p HD up to 2 minutes", "Audio generation and digital human", "Universal reference (better consistency)", "15s smart storyboard (cinematic feel)", "Image generation and creative effects"],
+      "zh": ["可灵 3.0 / 可灵 O1 多模态视频模型", "文生视频与图生视频", "1080p 高清最长 2 分钟", "音频生成与数字人", "全能参考（更强一致性）", "15 秒智能分镜（电影感）", "图像生成与创意特效"],
+      "ja": ["Kling 3.0/Kling O1 マルチモーダル動画モデル", "テキストから動画・画像から動画", "1080p HD 最大2分", "音声生成とデジタルヒューマン", "ユニバーサルリファレンス（より高い一貫性）", "15秒スマートストーリーボード（映画的な演出）", "画像生成とクリエイティブエフェクト"],
+      "es": ["Modelo de vídeo multimodal Kling 3.0/Kling O1", "Texto a vídeo e imagen a vídeo", "1080p HD hasta 2 minutos", "Generación de audio y humano digital", "Referencia universal (mayor consistencia)", "Storyboard inteligente de 15s (toque cinematográfico)", "Generación de imágenes y efectos creativos"],
+      "fr": ["Modèle vidéo multimodal Kling 3.0/Kling O1", "Texte vers vidéo et image vers vidéo", "1080p HD jusqu'à 2 minutes", "Génération audio et humain numérique", "Référence universelle (meilleure cohérence)", "Storyboard intelligent 15s (ambiance cinématographique)", "Génération d'images et effets créatifs"]
+    },
+    "pricing": {
+      "free": {"en": "Free (66 daily credits)", "zh": "免费（每日 66 灵感值）", "ja": "無料（1日66クレジット）", "es": "Gratis (66 créditos diarios)", "fr": "Gratuit (66 crédits quotidiens)"},
+      "standard": {"en": "$6.99/month (Standard)", "zh": "$6.99/月（标准版）", "ja": "月額$6.99（スタンダード）", "es": "6,99 $/mes (Estándar)", "fr": "6,99 $/mois (Standard)"},
+      "pro": {"en": "$25.99/month (Pro)", "zh": "$25.99/月（专业版）", "ja": "月額$25.99（Pro）", "es": "25,99 $/mes (Pro)", "fr": "25,99 $/mois (Pro)"},
+      "premier": {"en": "$64.99/month (Premier)", "zh": "$64.99/月（旗舰版）", "ja": "月額$64.99（プレミア）", "es": "64,99 $/mes (Premier)", "fr": "64,99 $/mois (Premier)"},
+      "ultra": {"en": "$127.99/month (Ultra)", "zh": "$127.99/月（至尊版）", "ja": "月額$127.99（Ultra）", "es": "127,99 $/mes (Ultra)", "fr": "127,99 $/mois (Ultra)"}
+    },
+    "useCases": {
+      "en": ["Short video and social media content", "Film and video production", "Digital advertising creation", "Enterprise marketing videos", "Creative art and animation"],
+      "zh": ["短视频与社交媒体内容", "影视视频制作", "数字广告创意", "企业营销视频", "创意艺术与动画"],
+      "ja": ["ショート動画とSNSコンテンツ", "映像制作", "デジタル広告の作成", "企業マーケティング動画", "クリエイティブアートとアニメーション"],
+      "es": ["Vídeos cortos y contenido para redes sociales", "Producción de vídeo y cine", "Creación de publicidad digital", "Vídeos de marketing empresarial", "Arte creativo y animación"],
+      "fr": ["Vidéos courtes et contenu pour réseaux sociaux", "Production vidéo et cinématographique", "Création de publicité numérique", "Vidéos marketing d'entreprise", "Art créatif et animation"]
+    },
+    "pros": {
+      "en": ["Industry-leading video quality (1080p, 2min)", "Latest Kling 3.0/O1 multimodal models", "Both CN and International versions available", "Comprehensive toolset (video/image/audio/digital human)", "Flexible pricing from free to Ultra"],
+      "zh": ["业界领先的视频质量（1080p，最长 2 分钟）", "最新可灵 3.0 / O1 多模态模型", "国内与国际双版本可用", "工具集全面（视频/图像/音频/数字人）", "灵活定价，从免费到至尊版"],
+      "ja": ["業界をリードする動画品質（1080p、最大2分）", "最新のKling 3.0/O1 マルチモーダルモデル", "中国版と国際版の両方を利用可能", "包括的なツールセット（動画/画像/音声/デジタルヒューマン）", "無料からUltraまでの柔軟な料金"],
+      "es": ["Calidad de vídeo líder del sector (1080p, 2 min)", "Últimos modelos multimodales Kling 3.0/O1", "Versiones CN e Internacional disponibles", "Conjunto completo de herramientas (vídeo/imagen/audio/humano digital)", "Precios flexibles de gratis a Ultra"],
+      "fr": ["Qualité vidéo leader du secteur (1080p, 2 min)", "Derniers modèles multimodaux Kling 3.0/O1", "Versions CN et Internationale disponibles", "Ensemble complet d'outils (vidéo/image/audio/humain numérique)", "Tarification flexible du gratuit à Ultra"]
+    },
+    "cons": {
+      "en": ["CN version needs Chinese phone number", "Free tier very limited (66 credits/day)", "High-end plans are expensive", "API pricing higher than some alternatives"],
+      "zh": ["国内版需中国手机号注册", "免费版额度很低（每日 66 灵感值）", "高端套餐价格较高", "API 定价高于部分竞品"],
+      "ja": ["中国版は中国の電話番号が必要", "無料枠は非常に限定的（1日66クレジット）", "ハイエンドプランは高額", "API 料金は一部競合より高い"],
+      "es": ["Versión CN requiere teléfono chino", "Plan gratuito muy limitado (66 créditos/día)", "Planes de gama alta caros", "Precio de API más alto que algunas alternativas"],
+      "fr": ["Version CN nécessite un téléphone chinois", "Offre gratuite très limitée (66 crédits/jour)", "Forfaits haut de gamme chers", "Tarification API plus élevée que certaines alternatives"]
+    },
+    "latestUpdate": {
+      "en": "2026: Kling 3.0 and Kling O1 unified multimodal model launched with 1080p 2-min video, universal reference control, smart 15s storyboard, and restructured international pricing ($6.99-$127.99/mo)",
+      "zh": "2026年：可灵 3.0 与可灵 O1 统一多模态模型发布，支持 1080p 2 分钟视频、全能参考控制、15 秒智能分镜、国际版定价调整（$6.99-$127.99/月）",
+      "ja": "2026年：Kling 3.0 と Kling O1 統合マルチモーダルモデルを発表。1080p 2分動画、ユニバーサルリファレンス制御、15秒スマートストーリーボード、国際版料金改定（月額$6.99〜$127.99）",
+      "es": "2026: Kling 3.0 y Kling O1, modelo multimodal unificado, lanzados con vídeo 1080p de 2 min, control de referencia universal, storyboard inteligente de 15s y precios internacionales reestructurados (6,99-127,99 $/mes)",
+      "fr": "2026 : Kling 3.0 et Kling O1, modèle multimodal unifié, lancé avec vidéo 1080p 2 min, contrôle de référence universel, storyboard intelligent 15s et tarification internationale restructurée (6,99 $ - 127,99 $/mois)"
+    }
   }
 }

@@ -584,5 +584,35 @@
     "tags": ["Free", "Open Source"],
     "featured": true,
     "platforms": ["telegram", "discord", "slack", "whatsapp", "cli"]
+  },
+  {
+    "slug": "jimeng-ai",
+    "name": "Jimeng AI",
+    "nameZh": "即梦AI",
+    "description": "字节跳动推出的 AI 图像与视频创作平台，支持即梦（国内版）和 Seedance（国际版）",
+    "descriptionEn": "ByteDance's AI image and video creation platform, featuring Jimeng (CN) and Seedance (International)",
+    "descriptionJa": "ByteDanceのAI画像・動画創作プラットフォーム。即夢（中国版）とSeedance（国際版）を提供",
+    "descriptionEs": "Plataforma de creación de imágenes y vídeos con IA de ByteDance, con Jimeng (CN) y Seedance (internacional)",
+    "descriptionFr": "Plateforme de création d'images et de vidéos IA de ByteDance, avec Jimeng (CN) et Seedance (international)",
+    "url": "https://jimeng.jianying.com",
+    "logo": "https://www.google.com/s2/favicons?domain=jimeng.jianying.com&sz=128",
+    "category": "Image",
+    "tags": ["Freemium"],
+    "featured": true
+  },
+  {
+    "slug": "kling-ai",
+    "name": "Kling AI",
+    "nameZh": "可灵AI",
+    "description": "快手推出的 AI 视频与图像生成平台，支持中英文双版本",
+    "descriptionEn": "Kuaishou's AI video and image generation platform with bilingual CN/EN support",
+    "descriptionJa": "快手（Kuaishou）のAI動画・画像生成プラットフォーム。中英バイリンガル対応",
+    "descriptionEs": "Plataforma de generación de vídeo e imágenes con IA de Kuaishou, con soporte bilingüe CN/EN",
+    "descriptionFr": "Plateforme de génération vidéo et d'images IA de Kuaishou, avec support bilingue CN/EN",
+    "url": "https://klingai.com",
+    "logo": "https://www.google.com/s2/favicons?domain=klingai.com&sz=128",
+    "category": "Video",
+    "tags": ["Freemium"],
+    "featured": true
   }
 ]
