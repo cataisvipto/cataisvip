@@ -35,7 +35,7 @@ export default function BlogClient({ posts }: BlogClientProps) {
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedCategory, setSelectedCategory] = useState('all');
 
-  const categories = ['all', 'news', 'comparison', 'listicle', 'tutorial'];
+  const categories = ['all', 'news', 'comparison', 'listicle', 'tutorial', 'analysis'];
 
   const filteredPosts = posts.filter((post) => {
     const title = getLocalized(post.title, locale);

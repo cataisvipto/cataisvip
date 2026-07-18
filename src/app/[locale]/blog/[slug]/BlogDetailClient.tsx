@@ -72,32 +72,69 @@ export default function BlogDetailClient({ post, locale, articleJsonLd }: BlogDe
 
   // Simple markdown-like rendering
   const renderContent = (text: string) => {
-    return text.split('\n').map((line, index) => {
+    const lines = text.split('\n');
+    const elements: React.ReactNode[] = [];
+    let idx = 0;
+
+    for (let i = 0; i < lines.length; i++) {
+      const line = lines[i];
+
+      // Handle table blocks (consecutive | lines)
+      if (line.startsWith('|')) {
+        const tableLines: string[] = [];
+        while (i < lines.length && lines[i].startsWith('|')) {
+          tableLines.push(lines[i]);
+          i++;
+        }
+        i--; // for loop will increment
+
+        const headers = tableLines[0].split('|').filter(c => c.trim()).map(c => c.trim());
+        const rows = tableLines.slice(2).filter(row => row.startsWith('|'));
+
+        elements.push(
+          <div key={idx++} className="overflow-x-auto my-6 rounded-xl border border-[var(--card-border)]">
+            <table className="w-full border-collapse">
+              <thead>
+                <tr className="bg-indigo-50 dark:bg-indigo-900/30">
+                  {headers.map((h, hi) => (
+                    <th key={hi} className="px-4 py-3 text-left text-sm font-semibold text-[var(--foreground)]">{h}</th>
+                  ))}
+                </tr>
+              </thead>
+              <tbody>
+                {rows.map((row, ri) => {
+                  const cells = row.split('|').filter(c => c.trim()).map(c => c.trim());
+                  return (
+                    <tr key={ri} className={ri % 2 === 0 ? 'bg-[var(--card-bg)]' : 'bg-[var(--muted-bg)]'}>
+                      {cells.map((cell, ci) => (
+                        <td key={ci} className="px-4 py-3 text-sm text-[var(--muted)] border-t border-[var(--card-border)]">{cell}</td>
+                      ))}
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
+          </div>
+        );
+        continue;
+      }
+
       if (line.startsWith('## ')) {
-        return <h2 key={index} className="text-2xl font-bold text-[var(--foreground)] mt-8 mb-4">{line.replace('## ', '')}</h2>;
+        elements.push(<h2 key={idx++} className="text-2xl font-bold text-[var(--foreground)] mt-8 mb-4">{line.replace('## ', '')}</h2>);
+      } else if (line.startsWith('### ')) {
+        elements.push(<h3 key={idx++} className="text-xl font-semibold text-[var(--foreground)] mt-6 mb-3">{line.replace('### ', '')}</h3>);
+      } else if (line.startsWith('- ')) {
+        elements.push(<li key={idx++} className="ml-6 text-[var(--muted)] mb-2 list-disc">{line.replace('- ', '')}</li>);
+      } else if (line.match(/^\d+\.\s/)) {
+        elements.push(<li key={idx++} className="ml-6 text-[var(--muted)] mb-2 list-decimal">{line.replace(/^\d+\.\s/, '')}</li>);
+      } else if (line === '') {
+        elements.push(<br key={idx++} />);
+      } else {
+        elements.push(<p key={idx++} className="text-[var(--muted)] mb-4 leading-relaxed">{line}</p>);
       }
-      if (line.startsWith('### ')) {
-        return <h3 key={index} className="text-xl font-semibold text-[var(--foreground)] mt-6 mb-3">{line.replace('### ', '')}</h3>;
-      }
-      if (line.startsWith('- ')) {
-        return (
-          <li key={index} className="ml-6 text-[var(--muted)] mb-2 list-disc">
-            {line.replace('- ', '')}
-          </li>
-        );
-      }
-      if (line.match(/^\d+\.\s/)) {
-        return (
-          <li key={index} className="ml-6 text-[var(--muted)] mb-2 list-decimal">
-            {line.replace(/^\d+\.\s/, '')}
-          </li>
-        );
-      }
-      if (line === '') {
-        return <br key={index} />;
-      }
-      return <p key={index} className="text-[var(--muted)] mb-4 leading-relaxed">{line}</p>;
-    });
+    }
+
+    return elements;
   };
 
   return (

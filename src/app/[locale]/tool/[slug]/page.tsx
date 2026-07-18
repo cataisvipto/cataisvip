@@ -28,12 +28,28 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     return { title: 'Resource Not Found - CATAI' };
   }
 
-  const description = locale === 'zh' ? tool.description : tool.descriptionEn;
+  const description = (() => {
+    switch (locale) {
+      case 'zh': return tool.description;
+      case 'ja': return tool.descriptionJa || tool.descriptionEn;
+      case 'es': return tool.descriptionEs || tool.descriptionEn;
+      case 'fr': return tool.descriptionFr || tool.descriptionEn;
+      default: return tool.descriptionEn;
+    }
+  })();
   const displayName = locale === 'zh' && tool.nameZh ? tool.nameZh : tool.name;
-  const siteName = locale === 'zh' ? 'AI 生态门户' : 'AI Ecosystem Portal';
+  const siteName: Record<string, string> = {
+    zh: 'AI 生态门户',
+    en: 'AI Ecosystem Portal',
+    ja: 'AI エコシステムポータル',
+    es: 'Portal de Ecosistema de IA',
+    fr: 'Portail d\'Écosystème IA',
+  };
+
+  const localizedSiteName = siteName[locale] || siteName.en;
 
   return {
-    title: `${displayName} - ${siteName}`,
+    title: `${displayName} - ${localizedSiteName}`,
     description: description,
     alternates: generateAlternates(`/tool/${slug}`),
     openGraph: {
