@@ -5,6 +5,7 @@
   },
   "nav": {
     "home": "Home",
+    "skills": "Skills",
     "blog": "Blog",
     "submit": "Submit Resource",
     "searchPlaceholder": "Search AI resources..."
@@ -153,6 +154,25 @@
     "changes_text": "We reserve the right to modify this Disclaimer at any time. Changes will be effective immediately upon posting on the Site. Your continued use of the Site constitutes acceptance of any modifications.",
     "contact_title": "11. Contact",
     "contact_text": "If you have any questions about this Disclaimer, please contact us at:"
+  },
+  "skills": {
+    "metaTitle": "AI Agent Skills & MCP Servers",
+    "metaDescription": "Discover AI Agent skills, MCP servers, and installable skill packages from the community. Browse by agent: Claude, Cursor, Codex, WorkBuddy and more.",
+    "title": "AI Agent Skills",
+    "subtitle": "Discover installable skills and MCP servers for your AI agents",
+    "filterByAgent": "Agent",
+    "filterByCategory": "Category",
+    "allAgents": "All Agents",
+    "allCategories": "All Categories",
+    "resultsCount": "{count} skills found",
+    "noResults": "No skills found. Try adjusting your filters.",
+    "viewDetails": "View Details",
+    "about": "About This Skill",
+    "install": "Installation",
+    "copyCommand": "Copy",
+    "viewOnGitHub": "View on GitHub",
+    "backToList": "Back to Skills",
+    "notFound": "Skill Not Found"
   },
   "blog": {
     "title": "AI Blog & News",

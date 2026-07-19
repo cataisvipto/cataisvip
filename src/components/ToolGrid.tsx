@@ -11,9 +11,10 @@ interface ToolGridProps {
   locale: string;
   searchQuery: string;
   onSearchChange: (query: string) => void;
+  totalCount?: number;
 }
 
-export default function ToolGrid({ tools, locale, searchQuery, onSearchChange }: ToolGridProps) {
+export default function ToolGrid({ tools, locale, searchQuery, onSearchChange, totalCount }: ToolGridProps) {
   const t = useTranslations('common');
   const tNav = useTranslations('nav');
   const tCategories = useTranslations('categories');
@@ -70,6 +71,11 @@ export default function ToolGrid({ tools, locale, searchQuery, onSearchChange }:
       {/* Results count */}
       <div className="mb-6 text-sm text-[var(--muted)]">
         {filteredTools.length} {locale === 'zh' ? '个资源' : 'resources'}
+        {totalCount && totalCount !== filteredTools.length
+          ? locale === 'zh'
+            ? ` / 共 ${totalCount} 个`
+            : ` / ${totalCount} total`
+          : ''}
         {activeCategory !== 'all' && ` · ${tCategories(activeCategory as any)}`}
         {searchQuery && ` · "${searchQuery}"`}
       </div>

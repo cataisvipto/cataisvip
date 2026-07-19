@@ -9,8 +9,9 @@ import { Tool, getLocalizedDescription } from '@/components/ToolCard';
 import toolDetails from '@/data/toolDetails.json';
 import tools from '@/data/tools.json';
 import blogPosts from '@/data/blogPosts.json';
-import { ArrowLeft, ExternalLink, Globe, Star, Building2, CheckCircle, XCircle, Lightbulb, DollarSign, Zap, Info, Share2, Link2, Check, Newspaper, BookOpen, Clipboard } from 'lucide-react';
+import { ArrowLeft, ExternalLink, Globe, Star, Building2, CheckCircle, XCircle, Lightbulb, DollarSign, Zap, Info, Share2, Link2, Check, Newspaper, BookOpen, Clipboard, LayoutGrid } from 'lucide-react';
 import { TwitterIcon, LinkedinIcon, FacebookIcon } from '@/components/SocialIcons';
+import Newsletter from '@/components/Newsletter';
 import Image from 'next/image';
 import { useState } from 'react';
 
@@ -420,37 +421,47 @@ export default function ToolDetailClient({ tool, locale }: ToolDetailClientProps
           {/* Related Tools (Same Category) */}
           {relatedTools.length > 0 && (
             <div className="bg-[var(--card-bg)] rounded-2xl border border-[var(--card-border)] p-8 shadow-sm">
-              <h2 className="text-lg font-semibold text-[var(--foreground)] mb-4 flex items-center gap-2">
-                <Globe className="w-5 h-5 text-indigo-500" />
+              <h2 className="text-lg font-semibold text-[var(--foreground)] mb-6 flex items-center gap-2">
+                <LayoutGrid className="w-5 h-5 text-indigo-500" />
                 {t('relatedTools', { category: tCategories(tool.category as any) })}
               </h2>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                {relatedTools.map((rt) => (
-                  <Link
-                    key={rt.slug}
-                    href={`/tool/${rt.slug}`}
-                    className="flex items-center gap-3 p-3 rounded-xl border border-[var(--card-border)] hover:border-[var(--primary)] hover:bg-[var(--muted-bg)] hover:shadow-sm transition"
-                  >
-                    <div className="w-10 h-10 rounded-lg bg-white dark:bg-white/90 border border-[var(--card-border)] flex items-center justify-center overflow-hidden shrink-0 shadow-sm">
-                      <Image
-                        src={rt.logo}
-                        alt={rt.name}
-                        width={24}
-                        height={24}
-                        className="w-6 h-6 object-contain"
-                        unoptimized
-                      />
-                    </div>
-                    <div className="min-w-0">
-                      <div className="font-medium text-[var(--foreground)] text-sm truncate">
-                        {locale === 'zh' && rt.nameZh ? rt.nameZh : rt.name}
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                {relatedTools.map((rt) => {
+                  const rtName = locale === 'zh' && rt.nameZh ? rt.nameZh : rt.name;
+                  const rtDesc = getLocalizedDescription(rt as Tool, locale);
+                  const rtDev = locale === 'zh' && (rt as Tool).developerZh ? (rt as Tool).developerZh : (rt as Tool).developer;
+                  return (
+                    <Link
+                      key={rt.slug}
+                      href={`/tool/${rt.slug}`}
+                      className="group flex items-start gap-4 p-5 rounded-xl border border-[var(--card-border)] hover:border-[var(--primary)] hover:bg-[var(--muted-bg)] hover:shadow-md transition-all duration-300"
+                    >
+                      <div className="w-12 h-12 rounded-xl bg-white dark:bg-white/90 border border-[var(--card-border)] flex items-center justify-center overflow-hidden shrink-0 shadow-sm">
+                        <Image
+                          src={rt.logo}
+                          alt={rtName}
+                          width={28}
+                          height={28}
+                          className="w-7 h-7 object-contain"
+                          unoptimized
+                        />
                       </div>
-                      <div className="text-xs text-[var(--muted)] truncate">
-                        {getLocalizedDescription(rt as Tool, locale)}
+                      <div className="min-w-0 flex-1">
+                        <div className="font-semibold text-[var(--foreground)] text-sm truncate group-hover:text-[var(--primary)] transition">
+                          {rtName}
+                        </div>
+                        {rtDev && (
+                          <div className="text-xs text-[var(--muted)] mt-0.5">
+                            {rtDev}
+                          </div>
+                        )}
+                        <p className="text-xs text-[var(--muted)] mt-2 leading-relaxed line-clamp-2">
+                          {rtDesc}
+                        </p>
                       </div>
-                    </div>
-                  </Link>
-                ))}
+                    </Link>
+                  );
+                })}
               </div>
             </div>
           )}
@@ -484,6 +495,11 @@ export default function ToolDetailClient({ tool, locale }: ToolDetailClientProps
             </div>
           )}
         </article>
+
+        {/* Newsletter */}
+        <div className="mt-8">
+          <Newsletter locale={locale} />
+        </div>
       </main>
       <Footer />
     </>

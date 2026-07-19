@@ -2,7 +2,7 @@
 
 import { useTranslations } from 'next-intl';
 import { Link, usePathname } from '@/i18n/navigation';
-import { Search, Globe, Send, ChevronDown, Newspaper } from 'lucide-react';
+import { Search, Globe, Send, ChevronDown, Newspaper, Code2 } from 'lucide-react';
 import Image from 'next/image';
 import { useState, useRef, useEffect } from 'react';
 import ThemeToggle from './ThemeToggle';
@@ -70,6 +70,15 @@ export default function Header({ searchQuery, onSearchChange, locale }: HeaderPr
 
           {/* Right Actions */}
           <div className="flex items-center gap-3">
+            {/* Skills Link */}
+            <Link
+              href="/skills"
+              className="hidden sm:flex items-center gap-1.5 px-3 py-1.5 text-sm text-[var(--muted)] hover:text-[var(--primary)] border border-[var(--card-border)] rounded-full hover:border-[var(--primary)] transition"
+            >
+              <Code2 className="w-4 h-4" />
+              {t('nav.skills')}
+            </Link>
+
             {/* Blog Link */}
             <Link
               href="/blog"

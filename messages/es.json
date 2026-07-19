@@ -5,6 +5,7 @@
   },
   "nav": {
     "home": "Inicio",
+    "skills": "Skills",
     "blog": "Blog",
     "submit": "Enviar Recurso",
     "searchPlaceholder": "Buscar recursos de IA..."
@@ -180,5 +181,24 @@
       "tutorial": "Tutoriales",
       "analysis": "Análisis"
     }
+  },
+  "skills": {
+    "metaTitle": "Skills y Servidores MCP para Agentes IA",
+    "metaDescription": "Descubre skills para agentes de IA, servidores MCP y paquetes instalables de la comunidad. Navega por agente: Claude, Cursor, Codex, WorkBuddy y más.",
+    "title": "Skills para Agentes IA",
+    "subtitle": "Descubre skills instalables y servidores MCP para tus agentes de IA",
+    "filterByAgent": "Agente",
+    "filterByCategory": "Categoría",
+    "allAgents": "Todos los Agentes",
+    "allCategories": "Todas las Categorías",
+    "resultsCount": "{count} skills encontradas",
+    "noResults": "No se encontraron skills. Ajusta los filtros.",
+    "viewDetails": "Ver Detalles",
+    "about": "Acerca de Esta Skill",
+    "install": "Instalación",
+    "copyCommand": "Copiar",
+    "viewOnGitHub": "Ver en GitHub",
+    "backToList": "Volver a Skills",
+    "notFound": "Skill No Encontrada"
   }
 }

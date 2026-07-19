@@ -5,6 +5,7 @@
   },
   "nav": {
     "home": "ホーム",
+    "skills": "スキル",
     "blog": "ブログ",
     "submit": "リソースを登録",
     "searchPlaceholder": "AIリソースを検索..."
@@ -153,6 +154,25 @@
     "changes_text": "当社はいつでも本免責事項を変更する権利を留保します。変更は本サイトに掲載された時点で直ちに有効になります。変更後の継続利用は変更の受諾とみなされます。",
     "contact_title": "11. お問い合わせ",
     "contact_text": "本免責事項についてご質問がある場合は、以下までご連絡ください："
+  },
+  "skills": {
+    "metaTitle": "AIエージェントスキルとMCPサーバー",
+    "metaDescription": "AIエージェントスキル、MCPサーバー、インストール可能なスキルパックを発見。Claude、Cursor、Codex、WorkBuddyなどから検索。",
+    "title": "AIエージェントスキル",
+    "subtitle": "AIエージェント向けのインストール可能なスキルとMCPサーバーを見つける",
+    "filterByAgent": "Agent",
+    "filterByCategory": "カテゴリ",
+    "allAgents": "すべてのAgent",
+    "allCategories": "すべてのカテゴリ",
+    "resultsCount": "{count}件のスキルが見つかりました",
+    "noResults": "該当するスキルが見つかりません。フィルターを調整してください。",
+    "viewDetails": "詳細を見る",
+    "about": "このスキルについて",
+    "install": "インストール方法",
+    "copyCommand": "コピー",
+    "viewOnGitHub": "GitHubで見る",
+    "backToList": "スキル一覧に戻る",
+    "notFound": "スキルが見つかりません"
   },
   "blog": {
     "title": "AIブログ＆ニュース",

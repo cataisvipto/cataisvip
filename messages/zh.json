@@ -5,6 +5,7 @@
   },
   "nav": {
     "home": "首页",
+    "skills": "技能",
     "blog": "博客",
     "submit": "提交资源",
     "searchPlaceholder": "搜索 AI 资源..."
@@ -153,6 +154,25 @@
     "changes_text": "我们保留随时修改本免责声明的权利。变更在发布后立即生效。您继续使用本站即表示接受任何修改。",
     "contact_title": "11. 联系方式",
     "contact_text": "如对本免责声明有疑问，请联系我们："
+  },
+  "skills": {
+    "metaTitle": "AI Agent 技能与 MCP 服务",
+    "metaDescription": "发现 AI Agent 技能、MCP 服务器和社区可安装技能包。按 Agent 浏览：Claude、Cursor、Codex、WorkBuddy 等。",
+    "title": "AI Agent 技能",
+    "subtitle": "发现可安装的 AI Agent 技能和 MCP 服务",
+    "filterByAgent": "Agent",
+    "filterByCategory": "分类",
+    "allAgents": "全部 Agent",
+    "allCategories": "全部分类",
+    "resultsCount": "找到 {count} 个技能",
+    "noResults": "没有找到匹配的技能，请调整筛选条件。",
+    "viewDetails": "查看详情",
+    "about": "关于此技能",
+    "install": "安装方式",
+    "copyCommand": "复制",
+    "viewOnGitHub": "在 GitHub 上查看",
+    "backToList": "返回技能列表",
+    "notFound": "技能未找到"
   },
   "blog": {
     "title": "AI 博客与资讯",
