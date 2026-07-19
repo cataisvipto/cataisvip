@@ -226,7 +226,7 @@ export default function ToolDetailClient({ tool, locale }: ToolDetailClientProps
                 <a href={shareLinks.facebook} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition text-xs font-medium">
                   <FacebookIcon className="w-3.5 h-3.5" /> Facebook
                 </a>
-                <button onClick={handleCopyLink} className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-[var(--muted-bg)] text-[var(--foreground)] rounded-lg hover:bg-[var(--card-border)] transition text-xs font-medium">
+                <button onClick={handleCopyLink} className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-indigo-500 text-white rounded-lg hover:bg-indigo-600 transition text-xs font-medium shadow-sm">
                   {copiedIndex === 'share-link' ? <Check className="w-3.5 h-3.5 text-green-600 dark:text-green-400" /> : <Link2 className="w-3.5 h-3.5" />}
                   {copiedIndex === 'share-link' ? t('linkCopied') : t('copyLink')}
                 </button>
