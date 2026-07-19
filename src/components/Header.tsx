@@ -2,7 +2,7 @@
 
 import { useTranslations } from 'next-intl';
 import { Link, usePathname } from '@/i18n/navigation';
-import { Search, Globe, Send, ChevronDown, Newspaper, Code2 } from 'lucide-react';
+import { Search, Globe, Send, ChevronDown, Newspaper, Code2, Menu, X } from 'lucide-react';
 import Image from 'next/image';
 import { useState, useRef, useEffect } from 'react';
 import ThemeToggle from './ThemeToggle';
@@ -17,6 +17,7 @@ export default function Header({ searchQuery, onSearchChange, locale }: HeaderPr
   const t = useTranslations();
   const pathname = usePathname();
   const [langOpen, setLangOpen] = useState(false);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const langRef = useRef<HTMLDivElement>(null);
 
   const locales: { code: string; label: string; short: string }[] = [
@@ -70,6 +71,14 @@ export default function Header({ searchQuery, onSearchChange, locale }: HeaderPr
 
           {/* Right Actions */}
           <div className="flex items-center gap-3">
+            {/* Mobile Menu Toggle */}
+            <button
+              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+              className="sm:hidden flex items-center justify-center w-9 h-9 text-[var(--muted)] hover:text-[var(--primary)] transition"
+              aria-label="Toggle menu"
+            >
+              {mobileMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
+            </button>
             {/* Skills Link */}
             <Link
               href="/skills"
@@ -142,6 +151,28 @@ export default function Header({ searchQuery, onSearchChange, locale }: HeaderPr
             />
           </div>
         </div>
+
+        {/* Mobile Menu */}
+        {mobileMenuOpen && (
+          <div className="sm:hidden pb-4 border-t border-[var(--card-border)] pt-3 space-y-1">
+            <Link
+              href="/skills"
+              onClick={() => setMobileMenuOpen(false)}
+              className="flex items-center gap-2 px-3 py-2.5 text-sm text-[var(--foreground)] hover:text-[var(--primary)] hover:bg-[var(--primary)]/5 rounded-lg transition"
+            >
+              <Code2 className="w-4 h-4" />
+              {t('nav.skills')}
+            </Link>
+            <Link
+              href="/blog"
+              onClick={() => setMobileMenuOpen(false)}
+              className="flex items-center gap-2 px-3 py-2.5 text-sm text-[var(--foreground)] hover:text-[var(--primary)] hover:bg-[var(--primary)]/5 rounded-lg transition"
+            >
+              <Newspaper className="w-4 h-4" />
+              {t('nav.blog')}
+            </Link>
+          </div>
+        )}
       </div>
     </header>
   );
