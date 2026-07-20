@@ -1358,5 +1358,53 @@
     "tags": ["Freemium", "API"],
     "featured": false,
     "developer": "OpenRouter"
+  },
+  {
+    "slug": "codex-cli",
+    "name": "Codex CLI",
+    "nameZh": "Codex CLI",
+    "description": "OpenAI 推出的终端 AI 编程工具，支持代码生成、调试、重构，可在终端中直接与 AI 协作开发",
+    "descriptionEn": "OpenAI's terminal-based AI coding tool supporting code generation, debugging, and refactoring with AI collaboration in the terminal",
+    "descriptionJa": "OpenAIのターミナルベースのAIコーディングツール。ターミナルでAIと協力してコード生成、デバッグ、リファクタリングをサポート",
+    "descriptionEs": "Herramienta de codificación IA de OpenAI basada en terminal, compatible con generación de código, depuración y refactorización con colaboración de IA",
+    "descriptionFr": "Outil de codage IA d'OpenAI basé sur le terminal, prenant en charge la génération de code, le débogage et le refactoring avec collaboration IA",
+    "url": "https://github.com/openai/codex",
+    "logo": "https://www.google.com/s2/favicons?domain=github.com&sz=128",
+    "category": "Code",
+    "tags": ["Free", "Open Source"],
+    "featured": true,
+    "developer": "OpenAI"
+  },
+  {
+    "slug": "qoder",
+    "name": "Qoder",
+    "nameZh": "Qoder",
+    "description": "AI 编码智能助手，支持代码生成、调试、项目管理，提供智能化的开发体验",
+    "descriptionEn": "AI coding assistant supporting code generation, debugging, and project management with intelligent development experience",
+    "descriptionJa": "AIコーディングアシスタント。コード生成、デバッグ、プロジェクト管理をサポート",
+    "descriptionEs": "Asistente de codificación IA que admite generación de código, depuración y gestión de proyectos",
+    "descriptionFr": "Assistant de codage IA prenant en charge la génération de code, le débogage et la gestion de projet",
+    "url": "https://qoder.ai",
+    "logo": "https://www.google.com/s2/favicons?domain=qoder.ai&sz=128",
+    "category": "Code",
+    "tags": ["Freemium"],
+    "featured": true,
+    "developer": "Qoder"
+  },
+  {
+    "slug": "qodercn",
+    "name": "QoderCN",
+    "nameZh": "QoderCN",
+    "description": "Qoder 中文版，专为中文开发者优化的 AI 编码助手，支持中文交互和本地化开发体验",
+    "descriptionEn": "Qoder Chinese version, AI coding assistant optimized for Chinese developers with Chinese language interaction and localized development experience",
+    "descriptionJa": "Qoder中国語版。中国語対応のAIコーディングアシスタント",
+    "descriptionEs": "Versión china de Qoder, asistente de codificación IA optimizado para desarrolladores chinos",
+    "descriptionFr": "Version chinoise de Qoder, assistant de codage IA optimisé pour les développeurs chinois",
+    "url": "https://qoder.cn",
+    "logo": "https://www.google.com/s2/favicons?domain=qoder.cn&sz=128",
+    "category": "Code",
+    "tags": ["Freemium"],
+    "featured": true,
+    "developer": "Qoder"
   }
 ]
