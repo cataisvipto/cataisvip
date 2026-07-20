@@ -1,5 +1,6 @@
 'use client';
 
+import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/navigation';
 import { ChevronRight, Home } from 'lucide-react';
 import { BASE_URL, generateBreadcrumbJsonLd } from '@/lib/seo';
@@ -15,6 +16,8 @@ interface BreadcrumbProps {
 }
 
 export default function Breadcrumb({ items, locale }: BreadcrumbProps) {
+  const t = useTranslations('common');
+
   // Build full items for JSON-LD (with absolute URLs)
   const jsonLdItems = [
     { name: 'Home', url: `${BASE_URL}/${locale}` },
@@ -41,7 +44,7 @@ export default function Breadcrumb({ items, locale }: BreadcrumbProps) {
               className="flex items-center gap-1 hover:text-[var(--primary)] transition"
             >
               <Home className="w-3.5 h-3.5" />
-              <span>Home</span>
+              <span>{t('home')}</span>
             </Link>
           </li>
           {items.map((item, index) => (

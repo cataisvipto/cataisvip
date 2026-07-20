@@ -61,7 +61,6 @@ interface SkillsClientProps {
 }
 
 export default function SkillsClient({ skills, locale, starsMap }: SkillsClientProps) {
-  const t = useTranslations('common');
   const tSkills = useTranslations('skills');
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedAgent, setSelectedAgent] = useState<string>('all');
@@ -88,7 +87,6 @@ export default function SkillsClient({ skills, locale, starsMap }: SkillsClientP
       <main className="flex-1 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <Breadcrumb
           items={[
-            { name: t('home'), href: '/' },
             { name: tSkills('title') },
           ]}
           locale={locale}

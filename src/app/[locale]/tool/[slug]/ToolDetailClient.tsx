@@ -125,7 +125,6 @@ export default function ToolDetailClient({ tool, locale }: ToolDetailClientProps
         {/* Breadcrumb */}
         <Breadcrumb
           items={[
-            { name: t('tools') || 'Tools', href: '/' },
             { name: tCategories(tool.category as any), href: `/category/${tool.category.toLowerCase()}` },
             { name: displayName },
           ]}

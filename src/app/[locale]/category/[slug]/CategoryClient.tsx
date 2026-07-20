@@ -126,7 +126,6 @@ export default function CategoryClient({ category, slug, tools: categoryTools, l
         {/* Breadcrumb */}
         <Breadcrumb
           items={[
-            { name: 'Tools', href: '/' },
             { name: tCategories(categorySlug as any) },
           ]}
           locale={locale}
