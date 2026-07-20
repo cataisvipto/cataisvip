@@ -52,3 +52,15 @@ CLAUDE.md
 # 其他内部约定：以 _internal/ 存放的任何文件、*.local.* 文件
 _internal/
 *.local.*
+
+# ===== 非上线文件：不影响 Vercel 构建，仅本地开发使用 =====
+# 项目 README（GitHub 首页展示用，非构建必需）
+README.md
+# ESLint 配置（Turbopack 构建时跳过 lint）
+eslint.config.mjs
+# Next.js 默认占位 SVG（代码中未引用）
+public/file.svg
+public/globe.svg
+public/next.svg
+public/vercel.svg
+public/window.svg
