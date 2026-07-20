@@ -7688,6 +7688,13 @@
     }
   },
   "iflytek-spark": {
+    "summary": {
+      "en": "iFlytek Spark AI Assistant, powered by the Spark X2 large model, is a conversational AI developed by iFlytek. It features 130+ language support, fully domestic computing power deployment, and enterprise-grade security, making it a strong contender in the Chinese AI assistant market.",
+      "zh": "讯飞星火是由科大讯飞推出的 AI 对话助手，基于星火 X2 大模型，支持 130+ 多语言交互、全国产算力部署和企业级安全保障。在中文理解、文档处理和多模态交互方面表现突出，是国产大模型的代表产品之一。",
+      "ja": "iFlytek Sparkは、科大讯飛が開発したAIアシスタントです。星火X2モデルを搭載し、130以上の言語対応、完全国内演算基盤、エンタープライズ級のセキュリティを特長としています。",
+      "es": "iFlytek Spark es un asistente de IA conversacional desarrollado por iFlytek, basado en el modelo Spark X2. Ofrece soporte para más de 130 idiomas, potencia informática totalmente nacional y seguridad de nivel empresarial.",
+      "fr": "iFlytek Spark est un assistant IA conversationnel développé par iFlytek, basé sur le modèle Spark X2. Il prend en charge plus de 130 langues, une puissance de calcul entièrement nationale et une sécurité de niveau entreprise."
+    },
     "features": {
       "en": [
         "Spark X2 model with strong reasoning",
@@ -13512,6 +13519,1061 @@
       "ja": "2026年：OpenRouter が 200+ モデルに拡大",
       "es": "2026: OpenRouter amplía a 200+ modelos",
       "fr": "2026 : OpenRouter étend à 200+ modèles"
+    }
+  },
+  "openclaw": {
+    "summary": {
+      "en": "OpenClaw is an open-source personal AI assistant that runs on your own infrastructure and connects via WhatsApp, Telegram, Discord, Slack and 12+ messaging platforms. It can execute commands, browse the web, manage files, and automate tasks autonomously.",
+      "zh": "OpenClaw 是一款开源自托管的个人 AI 助手，通过 WhatsApp、Telegram、Discord、Slack 等 12+ 即时通讯平台交互。它能自主执行命令、浏览网页、操作文件、自动化工作流，让 AI 真正成为你的数字员工。",
+      "ja": "OpenClawは、セルフホスティング型のオープンソース個人AIアシスタントです。WhatsApp、Telegram、Discord、Slackなど12以上のメッセージングプラットフォームに対応し、コマンド実行、Web閲覧、ファイル操作、タスク自動化を自律的に行います。",
+      "es": "OpenClaw es un asistente personal de IA de código abierto autoalojado que se conecta a través de WhatsApp, Telegram, Discord, Slack y más de 12 plataformas de mensajería. Ejecuta comandos, navega por la web, gestiona archivos y automatiza tareas de forma autónoma.",
+      "fr": "OpenClaw est un assistant IA personnel open-source auto-hébergé qui se connecte via WhatsApp, Telegram, Discord, Slack et plus de 12 plateformes de messagerie. Il exécute des commandes, navigue sur le Web, gère des fichiers et automatise des tâches de manière autonome."
+    },
+    "features": {
+      "en": [
+        "Self-hosted AI agent on your own infrastructure",
+        "12+ messaging platform support (WhatsApp, Telegram, Discord, Slack, etc.)",
+        "Autonomous command execution and file system access",
+        "Web browsing and information retrieval",
+        "Heartbeat background agent for proactive task execution",
+        "Long-term memory system via AGENTS.md, SOUL.md, MEMORY.md",
+        "Cron scheduling for automated recurring tasks",
+        "Multi-platform clients (macOS, iOS, Android, Windows, Linux)"
+      ],
+      "zh": [
+        "自托管 AI 智能体，数据完全掌控",
+        "支持 WhatsApp、Telegram、Discord、Slack 等 12+ 平台",
+        "自主执行终端命令和文件系统操作",
+        "网页浏览与信息抓取",
+        "Heartbeat 后台心跳主动执行任务",
+        "通过 AGENTS.md/SOUL.md/MEMORY.md 长期记忆系统",
+        "Cron 定时任务调度",
+        "多平台客户端（macOS、iOS、Android、Windows、Linux）"
+      ],
+      "ja": [
+        "セルフホスティングAIエージェント",
+        "12以上のメッセージングプラットフォーム対応",
+        "自律的なコマンド実行とファイルシステムアクセス",
+        "Web閲覧と情報収集",
+        "Heartbeatによるプロアクティブなタスク実行",
+        "AGENTS.md/SOUL.md/MEMORY.mdによる長期記憶",
+        "Cronスケジューリングによる自動化",
+        "マルチプラットフォーム対応"
+      ],
+      "es": [
+        "Agente IA autoalojado en tu propia infraestructura",
+        "Soporte para más de 12 plataformas de mensajería",
+        "Ejecución autónoma de comandos y acceso al sistema de archivos",
+        "Navegación web y recuperación de información",
+        "Heartbeat para ejecución proactiva de tareas",
+        "Sistema de memoria a largo plazo",
+        "Programación Cron para tareas recurrentes",
+        "Clientes multi-plataforma"
+      ],
+      "fr": [
+        "Agent IA auto-hébergé sur votre propre infrastructure",
+        "Support de plus de 12 plateformes de messagerie",
+        "Exécution autonome de commandes et accès au système de fichiers",
+        "Navigation Web et récupération d'informations",
+        "Heartbeat pour l'exécution proactive de tâches",
+        "Système de mémoire à long terme",
+        "Planification Cron pour tâches récurrentes",
+        "Clients multi-plateformes"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "Open-source and completely free",
+        "zh": "开源完全免费",
+        "ja": "オープンソースで完全無料",
+        "es": "Código abierto y completamente gratuito",
+        "fr": "Open-source et entièrement gratuit"
+      },
+      "pro": {
+        "en": "Self-hosted: ~$5-50/mo for VPS",
+        "zh": "自托管：VPS 约 $5-50/月",
+        "ja": "セルフホスティング：VPS約$5-50/月",
+        "es": "Autoalojado: ~$5-50/mes para VPS",
+        "fr": "Auto-hébergé : ~$5-50/mois pour VPS"
+      },
+      "enterprise": {
+        "en": "API usage costs vary by model",
+        "zh": "模型 API 调用费用按量计费",
+        "ja": "モデルAPIの利用料は従量課金",
+        "es": "Los costos de API varían según el modelo",
+        "fr": "Les coûts d'API varient selon le modèle"
+      }
+    },
+    "useCases": {
+      "en": [
+        "Personal inbox management and email automation",
+        "Schedule management and smart reminders",
+        "Information aggregation and news monitoring",
+        "Personal knowledge base and note-taking",
+        "Automated workflow and file management",
+        "Development assistance and code review"
+      ],
+      "zh": [
+        "个人收件箱管理与邮件自动化",
+        "日程管理与智能提醒",
+        "信息聚合与新闻监控",
+        "个人知识库与笔记管理",
+        "自动化工作流与文件管理",
+        "开发辅助与代码审查"
+      ],
+      "ja": [
+        "個人受信箱管理とメール自動化",
+        "スケジュール管理とスマートリマインダー",
+        "情報集約とニュース監視",
+        "個人ナレッジベースとメモ管理",
+        "自動化ワークフローとファイル管理",
+        "開発支援とコードレビュー"
+      ],
+      "es": [
+        "Gestión de bandeja de entrada y automatización de correo",
+        "Gestión de horarios y recordatorios inteligentes",
+        "Agregación de información y monitoreo de noticias",
+        "Base de conocimiento personal y toma de notas",
+        "Flujo de trabajo automatizado y gestión de archivos",
+        "Asistencia de desarrollo y revisión de código"
+      ],
+      "fr": [
+        "Gestion de la boîte de réception et automatisation des emails",
+        "Gestion du calendrier et rappels intelligents",
+        "Agrégation d'informations et veille d'actualités",
+        "Base de connaissances personnelle et prise de notes",
+        "Flux de travail automatisé et gestion de fichiers",
+        "Assistance au développement et révision de code"
+      ]
+    },
+    "pros": {
+      "en": [
+        "Completely open-source and free",
+        "Full data control with self-hosting",
+        "12+ messaging platform support",
+        "Proactive AI with background tasks",
+        "Highly customizable via config files",
+        "Active community development"
+      ],
+      "zh": [
+        "完全开源免费",
+        "自托管，数据完全掌控",
+        "支持 12+ 即时通讯平台",
+        "主动式 AI，后台执行任务",
+        "通过配置文件高度自定义",
+        "社区活跃，持续更新"
+      ],
+      "ja": [
+        "完全オープンソース無料",
+        "セルフホスティングでデータ完全制御",
+        "12以上のメッセージングプラットフォーム対応",
+        "バックグラウンドでプロアクティブに動作",
+        "設定ファイルによる高度なカスタマイズ",
+        "活発なコミュニティ開発"
+      ],
+      "es": [
+        "Completamente open-source y gratuito",
+        "Control total de datos con autoalojamiento",
+        "Soporte para más de 12 plataformas",
+        "IA proactiva con tareas en segundo plano",
+        "Altamente personalizable",
+        "Comunidad activa en desarrollo"
+      ],
+      "fr": [
+        "Entièrement open-source et gratuit",
+        "Contrôle total des données avec auto-hébergement",
+        "Support de plus de 12 plateformes",
+        "IA proactive avec tâches en arrière-plan",
+        "Hautement personnalisable",
+        "Développement communautaire actif"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Complex setup requiring technical skills",
+        "Self-hosting requires ongoing maintenance",
+        "API costs can add up with heavy usage",
+        "Occasional stability issues",
+        "Limited out-of-the-box functionality"
+      ],
+      "zh": [
+        "安装配置复杂，需要技术基础",
+        "自托管需要持续维护",
+        "模型 API 费用随用量增加",
+        "偶发稳定性问题",
+        "开箱即用功能有限"
+      ],
+      "ja": [
+        "技術的なセットアップが必要",
+        "セルフホスティングの継続的なメンテナンスが必要",
+        "API費用が使用量に応じて増加",
+        "安定性の問題が発生する場合あり",
+        "初期機能が限定的"
+      ],
+      "es": [
+        "Configuración compleja que requiere habilidades técnicas",
+        "El autoalojamiento requiere mantenimiento continuo",
+        "Los costos de API aumentan con el uso intensivo",
+        "Problemas de estabilidad ocasionales",
+        "Funcionalidad limitada lista para usar"
+      ],
+      "fr": [
+        "Configuration complexe nécessitant des compétences techniques",
+        "L'auto-hébergement nécessite une maintenance continue",
+        "Les coûts d'API augmentent avec une utilisation intensive",
+        "Problèmes de stabilité occasionnels",
+        "Fonctionnalité prête à l'emploi limitée"
+      ]
+    },
+    "latestUpdate": {
+      "en": "2026.07: v2026.7.1 released with redesigned Control UI, major iOS/Android/macOS app updates, enhanced remote coding sessions and improved security channel handling",
+      "zh": "2026年7月：v2026.7.1 发布，全面重构 Control UI，iOS/Android/macOS 应用重大更新，增强远程编码会话和安全频道处理",
+      "ja": "2026年7月：v2026.7.1リリース。Control UI全面刷新、iOS/Android/macOSアプリの大幅アップデート、リモートコーディングセッションの強化とセキュリティ改善",
+      "es": "Julio 2026: v2026.7.1 con Control UI rediseñado, grandes actualizaciones de iOS/Android/macOS, sesiones de codificación remota mejoradas y gestión de canales de seguridad optimizada",
+      "fr": "Juillet 2026 : v2026.7.1 avec interface Control repensée, mises à jour majeures des applications iOS/Android/macOS, sessions de codage à distance améliorées et gestion sécurisée des canaux"
+    }
+  },
+  "workbuddy": {
+    "summary": {
+      "en": "WorkBuddy by Tencent Cloud is an all-scenario AI office workbench (International version) that leverages multi-Agent parallel collaboration. It handles document processing, data analysis, content creation, and can directly operate local files with a simple natural language command.",
+      "zh": "WorkBuddy 是腾讯云推出的全场景 AI 办公工作台（国际版），多 Agent 并行协作。输入自然语言指令即可自动完成文档处理、数据分析、内容创作等复杂办公任务，支持直接操作本地文件，显著提升工作效率。",
+      "ja": "WorkBuddyは、Tencent Cloudが提供するオールシーンAIオフィスワークベンチ（国際版）です。マルチエージェント並列協調により、ドキュメント処理、データ分析、コンテンツ作成などの複雑な業務を自然言語で自動化します。",
+      "es": "WorkBuddy de Tencent Cloud es un banco de trabajo AI para oficina de todos los escenarios (versión internacional) con colaboración paralela multi-agente. Automatiza el procesamiento de documentos, análisis de datos y creación de contenido con comandos de lenguaje natural.",
+      "fr": "WorkBuddy de Tencent Cloud est un poste de travail IA multi-scénarios (version internationale) avec collaboration parallèle multi-agent. Il automatise le traitement de documents, l'analyse de données et la création de contenu avec des commandes en langage naturel."
+    },
+    "features": {
+      "en": [
+        "Multi-Agent parallel architecture for complex task decomposition",
+        "Direct local file operation (Excel, PDF, Word, PPT)",
+        "Plan mode for fully autonomous task execution",
+        "Craft mode for step-by-step user approval",
+        "Multi-model support (Claude, GPT, Gemini)",
+        "Remote control via Slack, Discord, Telegram",
+        "100+ Skills expert roles and MCP protocol support",
+        "Automated scheduled tasks and report generation"
+      ],
+      "zh": [
+        "多 Agent 并行架构，自动拆解复杂任务",
+        "直接操作本地文件（Excel、PDF、Word、PPT）",
+        "Plan 模式全自动执行任务",
+        "Craft 模式逐步确认执行",
+        "多模型支持（Claude、GPT、Gemini）",
+        "通过 Slack、Discord、Telegram 远程操控",
+        "100+ Skills 专家角色和 MCP 协议支持",
+        "定时任务自动化和报告生成"
+      ],
+      "ja": [
+        "マルチエージェント並列アーキテクチャ",
+        "ローカルファイル直接操作（Excel、PDF、Word、PPT）",
+        "Planモードによる完全自律実行",
+        "Craftモードによる段階的承認",
+        "マルチモデル対応（Claude、GPT、Gemini）",
+        "Slack、Discord、Telegramからのリモート操作",
+        "100+ SkillsエキスパートロールとMCP対応",
+        "自動スケジュールタスクとレポート生成"
+      ],
+      "es": [
+        "Arquitectura multi-agente paralela",
+        "Operación directa de archivos locales",
+        "Modo Plan para ejecución autónoma total",
+        "Modo Craft para aprobación paso a paso",
+        "Soporte multi-modelo (Claude, GPT, Gemini)",
+        "Control remoto via Slack, Discord, Telegram",
+        "100+ Skills expertos y soporte MCP",
+        "Tareas programadas automáticas y generación de informes"
+      ],
+      "fr": [
+        "Architecture multi-agent parallèle",
+        "Opération directe des fichiers locaux",
+        "Mode Plan pour exécution autonome",
+        "Mode Craft pour approbation étape par étape",
+        "Support multi-modèle (Claude, GPT, Gemini)",
+        "Contrôle à distance via Slack, Discord, Telegram",
+        "100+ rôles d'experts Skills et support MCP",
+        "Tâches planifiées automatiques et génération de rapports"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "Free tier with limited credits",
+        "zh": "免费版含有限额度",
+        "ja": "無料版は制限付き",
+        "es": "Plan gratuito con créditos limitados",
+        "fr": "Forfait gratuit avec crédits limités"
+      },
+      "pro": {
+        "en": "$9.95/mo (1,000 credits, all Skills)",
+        "zh": "$9.95/月（1000 积分，全部 Skills）",
+        "ja": "$9.95/月（1,000クレジット、全Skills）",
+        "es": "$9.95/mes (1,000 créditos, todos los Skills)",
+        "fr": "$9.95/mois (1 000 crédits, tous les Skills)"
+      },
+      "team": {
+        "en": "~$40/user/mo for team collaboration",
+        "zh": "约 $40/人/月（团队协作）",
+        "ja": "~$40/ユーザー/月（チームコラボレーション）",
+        "es": "~$40/usuario/mes para colaboración en equipo",
+        "fr": "~$40/utilisateur/mois pour la collaboration en équipe"
+      }
+    },
+    "useCases": {
+      "en": [
+        "Document research and multi-file comparison",
+        "Data cleaning and spreadsheet processing",
+        "Market research and competitive analysis",
+        "Content creation and copywriting",
+        "AI-powered PPT generation",
+        "Automated daily/weekly reports"
+      ],
+      "zh": [
+        "文档研究与多文件对比",
+        "数据清洗与表格处理",
+        "市场调研与竞品分析",
+        "内容创作与文案撰写",
+        "一句话生成演示文稿",
+        "日报/周报自动生成"
+      ],
+      "ja": [
+        "ドキュメント調査と複数ファイル比較",
+        "データクリーニングと表処理",
+        "市場調査と競合分析",
+        "コンテンツ制作とコピーライティング",
+        "AIパワードPPT生成",
+        "日報/週報の自動生成"
+      ],
+      "es": [
+        "Investigación de documentos y comparación de archivos",
+        "Limpieza de datos y procesamiento de hojas de cálculo",
+        "Investigación de mercado y análisis competitivo",
+        "Creación de contenido y redacción",
+        "Generación de PPT con IA",
+        "Informes diarios/semanales automatizados"
+      ],
+      "fr": [
+        "Recherche documentaire et comparaison de fichiers",
+        "Nettoyage de données et traitement de tableurs",
+        "Étude de marché et analyse concurrentielle",
+        "Création de contenu et rédaction",
+        "Génération de présentations PPT par IA",
+        "Rapports quotidiens/hebdomadaires automatisés"
+      ]
+    },
+    "pros": {
+      "en": [
+        "True multi-Agent parallel execution",
+        "Local file direct manipulation",
+        "Very low entry barrier (3-minute setup)",
+        "Plan/Craft dual modes for flexibility",
+        "Rich ecosystem integrations",
+        "Cross-platform remote control"
+      ],
+      "zh": [
+        "真正的多 Agent 并行执行",
+        "直接操作本地文件",
+        "入门门槛极低（3分钟安装）",
+        "Plan/Craft 双模式兼顾效率与可控",
+        "丰富的生态集成",
+        "跨平台远程操控"
+      ],
+      "ja": [
+        "真のマルチエージェント並列実行",
+        "ローカルファイル直接操作",
+        "非常に低い導入障壁（3分でセットアップ）",
+        "Plan/Craftデュアルモード",
+        "豊富なエコシステム統合",
+        "クロスプラットフォームリモート操作"
+      ],
+      "es": [
+        "Verdadera ejecución multi-agente en paralelo",
+        "Manipulación directa de archivos locales",
+        "Barrera de entrada muy baja",
+        "Modos duales Plan/Craft",
+        "Integraciones de ecosistema ricas",
+        "Control remoto multiplataforma"
+      ],
+      "fr": [
+        "Véritable exécution multi-agent en parallèle",
+        "Manipulation directe des fichiers locaux",
+        "Barrière d'entrée très basse",
+        "Modes doubles Plan/Craft",
+        "Intégrations d'écosystème riches",
+        "Contrôle à distance multiplateforme"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Free tier credits are limited",
+        "No direct WeChat personal account support",
+        "Output requires human review for accuracy",
+        "Long text (>8000 chars) needs splitting"
+      ],
+      "zh": [
+        "免费额度有限",
+        "不支持个人微信直连",
+        "输出结果需要人工复核",
+        "长文本（>8000字）需拆分处理"
+      ],
+      "ja": [
+        "無料枠のクレジットが限られている",
+        "個人WeChat直接接続非対応",
+        "出力の正確性には人間による確認が必要",
+        "長文（>8000文字）は分割が必要"
+      ],
+      "es": [
+        "Créditos limitados en el plan gratuito",
+        "Sin soporte directo para WeChat personal",
+        "La salida requiere revisión humana",
+        "Textos largos requieren división"
+      ],
+      "fr": [
+        "Crédits limités dans le forfait gratuit",
+        "Pas de support WeChat personnel direct",
+        "La sortie nécessite une révision humaine",
+        "Les textes longs nécessitent une division"
+      ]
+    },
+    "latestUpdate": {
+      "en": "2026.07: Mobile app launched, monthly visits exceed 20M, integrated GLM-5.2 model, WAIC 2026 partnership with Liweike X-AI memory glasses",
+      "zh": "2026年7月：移动端 App 上线，月访问量突破 2000 万，内置 GLM-5.2 模型，WAIC 2026 宣布与李未可记忆眼镜合作",
+      "ja": "2026年7月：モバイルアプリ公開、月間訪問者数2000万突破、GLM-5.2モデル統合、WAIC 2026でLiweike X-AIメモリグラスと提携",
+      "es": "Julio 2026: App móvil lanzada, más de 20M de visitas mensuales, integración del modelo GLM-5.2, asociación WAIC 2026 con gafas de memoria Liweike X-AI",
+      "fr": "Juillet 2026 : application mobile lancée, plus de 20 millions de visites mensuelles, intégration du modèle GLM-5.2, partenariat WAIC 2026 avec les lunettes mémoire Liweike X-AI"
+    }
+  },
+  "workbuddy-cn": {
+    "summary": {
+      "en": "WorkBuddy by Tencent Cloud is an all-scenario AI office workbench (China version), featuring multi-Agent parallel workflows, deep integration with the Tencent ecosystem (WeCom, QQ, Feishu, DingTalk), and support for domestic AI models including Hunyuan, GLM-5, Kimi and MiniMax.",
+      "zh": "WorkBuddy（中国版）是腾讯云推出的全场景 AI 办公工作台，多 Agent 并行工作。深度整合腾讯生态（企业微信、QQ、飞书、钉钉），支持混元、GLM-5、Kimi、MiniMax 等国产大模型，一句话指令完成复杂办公任务。",
+      "ja": "WorkBuddy（中国版）は、Tencent CloudのオールシーンAIオフィスワークベンチです。マルチエージェント並列処理、Tencentエコシステム（WeCom、QQ、Feishu、DingTalk）との深い統合、および国産AIモデル（混元、GLM-5、Kimi、MiniMax）をサポートします。",
+      "es": "WorkBuddy (versión China) es un banco de trabajo AI para oficina de Tencent Cloud con flujos de trabajo multi-agente en paralelo, integración profunda con el ecosistema Tencent y soporte para modelos de IA domésticos como Hunyuan, GLM-5, Kimi y MiniMax.",
+      "fr": "WorkBuddy (version Chine) est un poste de travail IA multi-scénarios de Tencent Cloud avec des flux de travail multi-agent en parallèle, une intégration profonde avec l'écosystème Tencent et la prise en charge des modèles d'IA nationaux."
+    },
+    "features": {
+      "en": [
+        "Multi-Agent parallel architecture for complex tasks",
+        "Direct local file operation (Excel, PDF, Word, PPT)",
+        "Deep integration with Tencent ecosystem (WeCom, QQ, Feishu, DingTalk)",
+        "Support for Hunyuan, GLM-5, Kimi, MiniMax models",
+        "100+ Skills expert roles compatible with OpenClaw skills",
+        "Cron scheduled tasks for automated office workflows",
+        "Sandbox isolation with high-risk command interception",
+        "Rule templates for reusable command presets"
+      ],
+      "zh": [
+        "多 Agent 并行架构，自动拆解复杂任务",
+        "直接操作本地文件（Excel、PDF、Word、PPT）",
+        "深度整合腾讯生态（企业微信、QQ、飞书、钉钉）",
+        "支持混元、GLM-5、Kimi、MiniMax 等国产模型",
+        "100+ Skills 专家角色，兼容 OpenClaw 技能",
+        "Cron 定时任务实现办公自动化",
+        "沙盒隔离 + 高危指令拦截",
+        "Rule 指令模板，@ 符号快速复用"
+      ],
+      "ja": [
+        "マルチエージェント並列アーキテクチャ",
+        "ローカルファイル直接操作",
+        "Tencentエコシステムとの深い統合",
+        "国産モデル（混元、GLM-5、Kimi、MiniMax）対応",
+        "100+ Skills、OpenClawスキルと互換",
+        "Cronスケジュールによる自動化",
+        "サンドボックス隔離 + 高リスクコマンド防止",
+        "ルールテンプレートで再利用可能"
+      ],
+      "es": [
+        "Arquitectura multi-agente paralela",
+        "Operación directa de archivos locales",
+        "Integración con ecosistema Tencent",
+        "Soporte para modelos Hunyuan, GLM-5, Kimi, MiniMax",
+        "100+ Skills compatible con OpenClaw",
+        "Tareas programadas Cron",
+        "Aislamiento sandbox + interceptación de comandos",
+        "Plantillas de reglas reutilizables"
+      ],
+      "fr": [
+        "Architecture multi-agent parallèle",
+        "Opération directe des fichiers locaux",
+        "Intégration avec l'écosystème Tencent",
+        "Support des modèles Hunyuan, GLM-5, Kimi, MiniMax",
+        "100+ Skills compatible OpenClaw",
+        "Tâches planifiées Cron",
+        "Isolement sandbox + interception de commandes",
+        "Modèles de règles réutilisables"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "Free trial with basic features",
+        "zh": "体验版限时免费",
+        "ja": "体験版は期間限定無料",
+        "es": "Prueba gratuita con funciones básicas",
+        "fr": "Essai gratuit avec fonctions de base"
+      },
+      "pro": {
+        "en": "¥70/mo (Standard) / ¥140/mo (Premium)",
+        "zh": "¥70/月（标准版）/ ¥140/月（高级版）",
+        "ja": "¥70/月（スタンダード）/ ¥140/月（プレミアム）",
+        "es": "¥70/mes (Estándar) / ¥140/mes (Premium)",
+        "fr": "¥70/mois (Standard) / ¥140/mois (Premium)"
+      },
+      "enterprise": {
+        "en": "¥198/user/mo (SaaS) / ¥316/user/mo (Private Cloud)",
+        "zh": "¥198/人/月（SaaS 企业版）/ ¥316/人/月（专有云版）",
+        "ja": "¥198/ユーザー/月（SaaS）/ ¥316/ユーザー/月（専有クラウド）",
+        "es": "¥198/usuario/mes (SaaS) / ¥316/usuario/mes (Nube privada)",
+        "fr": "¥198/utilisateur/mois (SaaS) / ¥316/utilisateur/mois (Cloud privé)"
+      }
+    },
+    "useCases": {
+      "en": [
+        "Document research and analysis reporting",
+        "Data cleaning and spreadsheet visualization",
+        "Market research and competitive analysis",
+        "PPT generation from single command",
+        "Automated daily/weekly report generation",
+        "Intelligent customer service and knowledge base"
+      ],
+      "zh": [
+        "文档研究与分析报告生成",
+        "数据清洗与表格可视化",
+        "市场调研与竞品分析",
+        "一句话生成演示文稿",
+        "日报/周报自动生成",
+        "智能客服与知识库构建"
+      ],
+      "ja": [
+        "ドキュメント調査と分析レポート生成",
+        "データクリーニングと可視化",
+        "市場調査と競合分析",
+        "ワンコマンドでPPT生成",
+        "日報/週報の自動生成",
+        "スマートカスタマーサービスとナレッジベース"
+      ],
+      "es": [
+        "Investigación documental y generación de informes",
+        "Limpieza de datos y visualización de tablas",
+        "Investigación de mercado y análisis competitivo",
+        "Generación de PPT con un solo comando",
+        "Informes diarios/semanales automatizados",
+        "Servicio al cliente inteligente y base de conocimientos"
+      ],
+      "fr": [
+        "Recherche documentaire et génération de rapports",
+        "Nettoyage de données et visualisation de tableaux",
+        "Étude de marché et analyse concurrentielle",
+        "Génération de PPT en une commande",
+        "Rapports quotidiens/hebdomadaires automatisés",
+        "Service client intelligent et base de connaissances"
+      ]
+    },
+    "pros": {
+      "en": [
+        "True multi-Agent parallel execution",
+        "Deep Tencent ecosystem integration",
+        "Very low entry barrier (3-minute setup)",
+        "Domestic AI model flexibility",
+        "Active community and corporate support",
+        "Cron task automation"
+      ],
+      "zh": [
+        "真正的多 Agent 并行执行",
+        "深度整合腾讯生态",
+        "入门门槛极低（3分钟安装）",
+        "国产模型灵活切换",
+        "社区活跃 + 企业级支持",
+        "定时任务自动化"
+      ],
+      "ja": [
+        "真のマルチエージェント並列実行",
+        "Tencentエコシステムとの深い統合",
+        "非常に低い導入障壁",
+        "国産モデルの柔軟な切替",
+        "活発なコミュニティと企業サポート",
+        "Cronタスク自動化"
+      ],
+      "es": [
+        "Verdadera ejecución multi-agente",
+        "Integración profunda con ecosistema Tencent",
+        "Barrera de entrada muy baja",
+        "Flexibilidad de modelos domésticos",
+        "Comunidad activa y soporte empresarial",
+        "Automatización de tareas Cron"
+      ],
+      "fr": [
+        "Véritable exécution multi-agent",
+        "Intégration profonde avec l'écosystème Tencent",
+        "Barrière d'entrée très basse",
+        "Flexibilité des modèles d'IA nationaux",
+        "Communauté active et support entreprise",
+        "Automatisation des tâches Cron"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Free trial has limited credits (500/mo)",
+        "No GPT/Claude support (domestic models only)",
+        "Enterprise price increased significantly",
+        "Output requires human review",
+        "Long text needs splitting"
+      ],
+      "zh": [
+        "免费版额度有限（500 积分/月）",
+        "不支持 GPT、Claude 等国外模型",
+        "企业版涨价幅度较大",
+        "输出结果需要人工复核",
+        "长文本需拆分处理"
+      ],
+      "ja": [
+        "無料版のクレジットが限定的（500/月）",
+        "GPT/Claude非対応（国産モデルのみ）",
+        "エンタープライズ価格が大幅に上昇",
+        "出力の確認が必要",
+        "長文は分割が必要"
+      ],
+      "es": [
+        "Créditos limitados en prueba gratuita",
+        "Sin soporte GPT/Claude (solo modelos domésticos)",
+        "Precio empresarial aumentó significativamente",
+        "La salida requiere revisión humana",
+        "Textos largos requieren división"
+      ],
+      "fr": [
+        "Crédits limités dans l'essai gratuit",
+        "Pas de support GPT/Claude (modèles nationaux uniquement)",
+        "Prix entreprise considérablement augmenté",
+        "La sortie nécessite une révision humaine",
+        "Les textes longs nécessitent une division"
+      ]
+    },
+    "latestUpdate": {
+      "en": "2026.07: Mobile app launched, monthly visits exceed 20M, GLM-5.2 integration, WAIC 2026 partnership announcement, enterprise price adjustment in May 2026",
+      "zh": "2026年7月：移动端 App 上线，月访问量突破 2000 万，内置 GLM-5.2 模型，WAIC 2026 宣布合作，2026年5月企业版价格调整",
+      "ja": "2026年7月：モバイルアプリ公開、月間2000万訪問突破、GLM-5.2統合、WAIC 2026提携発表、2026年5月にエンタープライズ価格改定",
+      "es": "Julio 2026: App móvil lanzada, 20M+ visitas mensuales, integración GLM-5.2, anuncio de asociación WAIC 2026, ajuste de precio empresarial en mayo 2026",
+      "fr": "Juillet 2026 : application mobile lancée, plus de 20M de visites mensuelles, intégration GLM-5.2, annonce de partenariat WAIC 2026, ajustement des prix entreprise en mai 2026"
+    }
+  },
+  "seedance": {
+    "summary": {
+      "en": "Seedance by ByteDance is a cutting-edge AI video generation platform (international version of Jimeng AI) that creates high-fidelity videos from text and images. With Seedance 2.5, it supports 30-second native video generation, 4K rendering, and advanced physics simulation.",
+      "zh": "Seedance 是字节跳动推出的顶尖 AI 视频生成平台（即梦 AI 的国际版），支持文本和图像生成高保真视频。Seedance 2.5 支持 30 秒原生视频生成、4K 渲染和真实物理模拟，在视频生成质量上处于业界领先水平。",
+      "ja": "Seedanceは、ByteDanceが開発した最先端AI動画生成プラットフォーム（Jimeng AIの国際版）です。テキストや画像から高忠実度の動画を生成します。Seedance 2.5では30秒のネイティブ動画生成、4Kレンダリング、高度な物理シミュレーションをサポートしています。",
+      "es": "Seedance de ByteDance es una plataforma de vanguardia de generación de video IA (versión internacional de Jimeng AI) que crea videos de alta fidelidad a partir de texto e imágenes. Seedance 2.5 admite generación de video nativo de 30 segundos, renderizado 4K y simulación física avanzada.",
+      "fr": "Seedance de ByteDance est une plateforme de pointe de génération vidéo IA (version internationale de Jimeng AI) qui crée des vidéos haute fidélité à partir de texte et d'images. Seedance 2.5 prend en charge la génération vidéo native de 30 secondes, le rendu 4K et la simulation physique avancée."
+    },
+    "features": {
+      "en": [
+        "Text-to-video and image-to-video generation",
+        "Native audio generation with lip sync",
+        "Multi-shot coherent scene generation",
+        "Dynamic camera movement control",
+        "Advanced physics simulation (weight, gravity, realistic motion)",
+        "30-second native video generation (Seedance 2.5)",
+        "Native 4K rendering with 10-bit color depth (Seedance 2.5)",
+        "Up to 50 multimodal reference inputs (Seedance 2.5)"
+      ],
+      "zh": [
+        "文生视频和图生视频",
+        "原生音频生成 + 口型同步",
+        "多镜头连贯场景生成",
+        "动态运镜控制",
+        "高级物理模拟（重量感、重力感、真实运动）",
+        "30 秒原生视频生成（Seedance 2.5）",
+        "原生 4K 渲染 + 10-bit 色深（Seedance 2.5）",
+        "最多 50 个多模态参考输入（Seedance 2.5）"
+      ],
+      "ja": [
+        "テキスト・画像からの動画生成",
+        "ネイティブ音声生成 + リップシンク",
+        "マルチショットの一貫したシーン生成",
+        "ダイナミックなカメラ制御",
+        "高度な物理シミュレーション",
+        "30秒ネイティブ動画生成（Seedance 2.5）",
+        "ネイティブ4Kレンダリング+10bit色深度（Seedance 2.5）",
+        "最大50のマルチモーダル参照入力（Seedance 2.5）"
+      ],
+      "es": [
+        "Generación de video de texto a video y de imagen a video",
+        "Generación de audio nativa con sincronización de labios",
+        "Generación de escenas coherentes multi-toma",
+        "Control dinámico de movimiento de cámara",
+        "Simulación física avanzada",
+        "Generación de video nativo de 30 segundos (Seedance 2.5)",
+        "Renderizado 4K nativo con profundidad de color de 10 bits (Seedance 2.5)",
+        "Hasta 50 entradas de referencia multimodales (Seedance 2.5)"
+      ],
+      "fr": [
+        "Génération vidéo texte-vers-vidéo et image-vers-vidéo",
+        "Génération audio native avec synchronisation labiale",
+        "Génération de scènes cohérentes multi-plans",
+        "Contrôle dynamique des mouvements de caméra",
+        "Simulation physique avancée",
+        "Génération vidéo native de 30 secondes (Seedance 2.5)",
+        "Rendu 4K natif avec profondeur de couleur 10 bits (Seedance 2.5)",
+        "Jusqu'à 50 entrées de référence multimodales (Seedance 2.5)"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "Free tier with limited daily credits",
+        "zh": "免费版每天有限量积分",
+        "ja": "無料版は1日あたりのクレジット制限あり",
+        "es": "Plan gratuito con créditos diarios limitados",
+        "fr": "Forfait gratuit avec crédits quotidiens limités"
+      },
+      "pro": {
+        "en": "~$15/mo (1,575 credits, ~63 videos)",
+        "zh": "约 $15/月（1575 积分，约 63 个视频）",
+        "ja": "~$15/月（1,575クレジット、約63動画）",
+        "es": "~$15/mes (1,575 créditos, ~63 videos)",
+        "fr": "~$15/mois (1 575 crédits, ~63 vidéos)"
+      },
+      "enterprise": {
+        "en": "~$70/mo (8,645 credits) or API pricing via Volcano Engine",
+        "zh": "约 $70/月（8645 积分）或通过火山引擎 API 按量计费",
+        "ja": "~$70/月（8,645クレジット）または火山Engine API",
+        "es": "~$70/mes (8,645 créditos) o API via Volcano Engine",
+        "fr": "~$70/mois (8 645 crédits) ou API via Volcano Engine"
+      }
+    },
+    "useCases": {
+      "en": [
+        "Social media short video creation",
+        "Advertising and marketing content production",
+        "Film pre-visualization and storyboarding",
+        "E-commerce product demonstration",
+        "Creative concept rapid prototyping",
+        "Short film and micro-movie production"
+      ],
+      "zh": [
+        "社交媒体短视频创作",
+        "广告与营销内容制作",
+        "影视预可视化与故事板",
+        "电商产品展示",
+        "创意构思快速原型",
+        "短片与微电影制作"
+      ],
+      "ja": [
+        "SNSショート動画作成",
+        "広告・マーケティングコンテンツ制作",
+        "映像プリビジュアライゼーション",
+        "EC商品展示",
+        "クリエイティブのラピッドプロトタイピング",
+        "短編映画制作"
+      ],
+      "es": [
+        "Creación de videos cortos para redes sociales",
+        "Producción de contenido publicitario y de marketing",
+        "Previsualización cinematográfica y storyboard",
+        "Demostración de productos de comercio electrónico",
+        "Prototipado rápido de ideas creativas",
+        "Producción de cortometrajes"
+      ],
+      "fr": [
+        "Création de vidéos courtes pour les réseaux sociaux",
+        "Production de contenu publicitaire et marketing",
+        "Prévisualisation de films et storyboarding",
+        "Démonstration de produits e-commerce",
+        "Prototypage rapide d'idées créatives",
+        "Production de courts métrages"
+      ]
+    },
+    "pros": {
+      "en": [
+        "Industry-leading physics simulation",
+        "Native audio+video joint generation",
+        "Multi-shot narrative capability",
+        "Fast generation speed (5-10s clip in ~2 min)",
+        "Competitive pricing vs Sora/Veo",
+        "Excellent prompt adherence"
+      ],
+      "zh": [
+        "业界领先的物理模拟效果",
+        "原生音视频联合生成",
+        "多镜头叙事能力",
+        "生成速度快（5-10秒片段约2分钟）",
+        "性价比高于 Sora/Veo",
+        "提示词遵循度优秀"
+      ],
+      "ja": [
+        "業界をリードする物理シミュレーション",
+        "ネイティブ音声+動画同時生成",
+        "マルチショットナラティブ能力",
+        "高速生成（5-10秒のクリップが約2分）",
+        "Sora/Veoより競争力のある価格",
+        "優れたプロンプト追従性"
+      ],
+      "es": [
+        "Simulación física líder en la industria",
+        "Generación conjunta nativa de audio+video",
+        "Capacidad narrativa multi-toma",
+        "Velocidad de generación rápida",
+        "Precios competitivos vs Sora/Veo",
+        "Excelente adherencia a indicaciones"
+      ],
+      "fr": [
+        "Simulation physique leader du secteur",
+        "Génération conjointe native audio+vidéo",
+        "Capacité narrative multi-plan",
+        "Vitesse de génération rapide",
+        "Tarifs compétitifs vs Sora/Veo",
+        "Excellente adhérence aux instructions"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Detail blur and face distortion at close zoom",
+        "Weak micro-expression rendering",
+        "Background detail deficiency",
+        "Regional restrictions for international users",
+        "Legal/copyright concerns for training data"
+      ],
+      "zh": [
+        "放大后边缘模糊、脸部变形",
+        "微表情表现较弱",
+        "背景细节缺失",
+        "国际用户访问受限",
+        "训练数据的法律/版权问题"
+      ],
+      "ja": [
+        "拡大時のぼやけや顔の歪み",
+        "微表情の表現が弱い",
+        "背景の詳細が不十分",
+        "国際ユーザーのアクセス制限",
+        "学習データの法的・著作権問題"
+      ],
+      "es": [
+        "Desenfoque de detalles y distorsión facial al ampliar",
+        "Representación débil de microexpresiones",
+        "Falta de detalles en el fondo",
+        "Restricciones regionales para usuarios internacionales",
+        "Problemas legales/de derechos de autor"
+      ],
+      "fr": [
+        "Flou des détails et distorsion faciale au zoom",
+        "Rendu faible des micro-expressions",
+        "Manque de détails d'arrière-plan",
+        "Restrictions régionales pour les utilisateurs internationaux",
+        "Problèmes juridiques/de droits d'auteur"
+      ]
+    },
+    "latestUpdate": {
+      "en": "2026.07: Seedance 2.5 launched with 30s native video, 4K rendering, 10-bit color, 50 multimodal references, and 3D white-box preview. Available on Dreamina/Jimeng and Volcano Engine API",
+      "zh": "2026年7月：Seedance 2.5 正式上线，支持 30 秒原生视频、4K 渲染、10-bit 色深、50 个多模态参考和 3D 白盒预览，登陆即梦和火山引擎 API",
+      "ja": "2026年7月：Seedance 2.5リリース。30秒ネイティブ動画、4Kレンダリング、10bit色深度、50マルチモーダル参照、3Dホワイトボックスプレビューに対応",
+      "es": "Julio 2026: Seedance 2.5 lanzado con video nativo de 30s, renderizado 4K, color de 10 bits, 50 referencias multimodales y vista previa 3D. Disponible en Dreamina/Jimeng y API Volcano Engine",
+      "fr": "Juillet 2026 : Seedance 2.5 lancé avec vidéo native 30s, rendu 4K, couleur 10 bits, 50 références multimodales et prévisualisation 3D. Disponible sur Dreamina/Jimeng et API Volcano Engine"
+    }
+  },
+  "coze-cn": {
+    "summary": {
+      "en": "Coze (Kouzi) is ByteDance's AI Agent development platform (China version) for building AI bots, workflows, and applications with zero code. Deeply integrated with the ByteDance ecosystem (Feishu, Douyin, Jianying), it supports multiple domestic LLMs and provides rich plugin and knowledge base capabilities.",
+      "zh": "扣子（Coze）是字节跳动推出的一站式 AI Agent 智能办公与开发平台（中国版），零代码构建 AI 智能体、自动化工作流和应用。深度整合飞书、抖音、剪映等字节生态，支持豆包、DeepSeek、Kimi 等多种国产大模型。",
+      "ja": "Coze（扣子）は、ByteDanceのAI Agent開発プラットフォーム（中国版）です。ノーコードでAIボット、ワークフロー、アプリケーションを構築できます。ByteDanceエコシステム（飛書、抖音、剪映）と深く統合され、複数の国産LLMをサポートしています。",
+      "es": "Coze (Kouzi) es la plataforma de desarrollo de Agent IA de ByteDance (versión China) para construir Bots IA, flujos de trabajo y aplicaciones sin código. Integrada con el ecosistema ByteDance, soporta múltiples LLM domésticos.",
+      "fr": "Coze (Kouzi) est la plateforme de développement d'Agent IA de ByteDance (version Chine) pour construire des Bots IA, des flux de travail et des applications sans code. Intégrée à l'écosystème ByteDance, elle prend en charge plusieurs LLM nationaux."
+    },
+    "features": {
+      "en": [
+        "Zero-code AI bot building with visual editor",
+        "Multi-LLM support (Doubao, DeepSeek, Kimi, Qwen, GLM, etc.)",
+        "Rich plugin ecosystem (Feishu, Douyin, Jianying integration)",
+        "Knowledge base with RAG (PDF, Word, Excel, web pages)",
+        "Visual workflow editor with drag-and-drop",
+        "Project space with multi-Agent collaboration (Coze 3.0)",
+        "Local Agent integration (Claude Code, Codex CLI, OpenClaw)",
+        "Cross-platform sync (Mobile, Desktop, Web)"
+      ],
+      "zh": [
+        "零代码可视化构建 AI Bot",
+        "多模型支持（豆包、DeepSeek、Kimi、通义千问、GLM 等）",
+        "丰富插件生态（飞书、抖音、剪映等字节集成）",
+        "知识库 RAG 能力（PDF、Word、Excel、网页）",
+        "可视化拖拽式工作流编辑器",
+        "项目空间 + 多 Agent 协作（扣子 3.0）",
+        "本地 Agent 一键接入（Claude Code、Codex CLI、OpenClaw）",
+        "三端同步（手机、电脑、网页）"
+      ],
+      "ja": [
+        "ノーコードAIボット構築",
+        "マルチLLM対応（Doubao、DeepSeek、Kimi、Qwen、GLMなど）",
+        "豊富なプラグインエコシステム",
+        "RAGによるナレッジベース",
+        "ビジュアルワークフローエディター",
+        "プロジェクトスペース+マルチエージェント協調（Coze 3.0）",
+        "ローカルエージェント統合",
+        "クロスプラットフォーム同期"
+      ],
+      "es": [
+        "Construcción de Bots IA sin código",
+        "Soporte multi-LLM (Doubao, DeepSeek, Kimi, Qwen, GLM, etc.)",
+        "Ecosistema de plugins rico",
+        "Base de conocimientos con RAG",
+        "Editor visual de flujo de trabajo",
+        "Espacio de proyecto con colaboración multi-agente (Coze 3.0)",
+        "Integración de agente local",
+        "Sincronización multiplataforma"
+      ],
+      "fr": [
+        "Construction de Bots IA sans code",
+        "Support multi-LLM (Doubao, DeepSeek, Kimi, Qwen, GLM, etc.)",
+        "Écosystème de plugins riche",
+        "Base de connaissances avec RAG",
+        "Éditeur visuel de flux de travail",
+        "Espace projet avec collaboration multi-agent (Coze 3.0)",
+        "Intégration d'agent local",
+        "Synchronisation multiplateforme"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "500 points/day + 1,500 login bonus",
+        "zh": "500 点/天 + 登录奖励 1500 积分",
+        "ja": "500ポイント/日 + ログインボーナス1500",
+        "es": "500 puntos/día + 1500 de bonificación",
+        "fr": "500 points/jour + 1 500 de bonus de connexion"
+      },
+      "pro": {
+        "en": "¥39.9/mo (30K points) / ¥99/mo (99K points)",
+        "zh": "¥39.9/月（3万点）/ ¥99/月（9.9万点）",
+        "ja": "¥39.9/月（3万ポイント）/ ¥99/月（9.9万ポイント）",
+        "es": "¥39.9/mes (30K puntos) / ¥99/mes (99K puntos)",
+        "fr": "¥39.9/mois (30K points) / ¥99/mois (99K points)"
+      },
+      "enterprise": {
+        "en": "From ¥980/mo (Standard) to ¥8,980/mo (Flagship)",
+        "zh": "¥980/月起（标准版）至 ¥8,980/月（旗舰版）",
+        "ja": "¥980/月（スタンダード）〜¥8,980/月（フラッグシップ）",
+        "es": "Desde ¥980/mes (Estándar) hasta ¥8,980/mes (Flagship)",
+        "fr": "De ¥980/mois (Standard) à ¥8,980/mois (Flagship)"
+      }
+    },
+    "useCases": {
+      "en": [
+        "Personal AI office assistant",
+        "Enterprise intelligent customer service bot",
+        "Content creation and social media management",
+        "Conversational app development (mini-program, web, app)",
+        "Automated workflow and data pipeline",
+        "Industry-specific solutions (finance, legal, research)"
+      ],
+      "zh": [
+        "个人 AI 办公助手",
+        "企业智能客服 Bot",
+        "内容创作与社交媒体运营",
+        "对话式应用开发（小程序/网页/App）",
+        "自动化工作流与数据处理",
+        "行业解决方案（金融、法务、科研）"
+      ],
+      "ja": [
+        "個人AIオフィスアシスタント",
+        "エンタープライズスマートカスタマーサービスBot",
+        "コンテンツ制作とSNS運用",
+        "会話型アプリ開発（ミニプログラム/Web/App）",
+        "自動化ワークフローとデータ処理",
+        "業界特化型ソリューション"
+      ],
+      "es": [
+        "Asistente personal de oficina AI",
+        "Bot de servicio al cliente inteligente empresarial",
+        "Creación de contenido y gestión de redes sociales",
+        "Desarrollo de aplicaciones conversacionales",
+        "Flujo de trabajo automatizado y procesamiento de datos",
+        "Soluciones específicas de la industria"
+      ],
+      "fr": [
+        "Assistant personnel AI de bureau",
+        "Bot de service client intelligent d'entreprise",
+        "Création de contenu et gestion des réseaux sociaux",
+        "Développement d'applications conversationnelles",
+        "Flux de travail automatisé et traitement de données",
+        "Solutions spécifiques à l'industrie"
+      ]
+    },
+    "pros": {
+      "en": [
+        "Zero-code AI application development",
+        "Excellent Chinese ecosystem integration",
+        "Multiple domestic LLM choices",
+        "Visual workflow editor",
+        "Free tier available for basic use",
+        "Rapid version iteration (2.0 → 2.5 → 3.0)"
+      ],
+      "zh": [
+        "零代码 AI 应用开发",
+        "中文生态集成优秀",
+        "多国产大模型可选",
+        "可视化工作流编辑器",
+        "免费版可用",
+        "版本迭代快（2.0→2.5→3.0）"
+      ],
+      "ja": [
+        "ノーコードAIアプリ開発",
+        "中国エコシステムとの統合に優れる",
+        "複数の国産LLMから選択可能",
+        "ビジュアルワークフローエディター",
+        "無料版で基本機能利用可能",
+        "迅速なバージョンアップデート"
+      ],
+      "es": [
+        "Desarrollo de aplicaciones AI sin código",
+        "Excelente integración con ecosistema chino",
+        "Múltiples LLM domésticos disponibles",
+        "Editor visual de flujo de trabajo",
+        "Plan gratuito disponible",
+        "Iteración rápida de versiones"
+      ],
+      "fr": [
+        "Développement d'applications IA sans code",
+        "Excellente intégration de l'écosystème chinois",
+        "Plusieurs LLM nationaux disponibles",
+        "Éditeur visuel de flux de travail",
+        "Forfait gratuit disponible",
+        "Itération rapide des versions"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Points consumed quickly for video/image generation",
+        "Free tier feature limitations",
+        "No GPT-4V/DALL-E support (domestic models only)",
+        "Daily points do not accumulate",
+        "Closed-source SaaS (except enterprise)"
+      ],
+      "zh": [
+        "视频/图片生成积分消耗快",
+        "免费版功能有限",
+        "不支持 GPT-4V/DALL-E 等海外顶级模型",
+        "每日积分不累积",
+        "闭源 SaaS（企业版除外）"
+      ],
+      "ja": [
+        "動画・画像生成でのポイント消費が速い",
+        "無料版の機能制限",
+        "GPT-4V/DALL-E対応なし",
+        "デイリーポイントは翌日に持ち越し不可",
+        "クローズドソースSaaS"
+      ],
+      "es": [
+        "Puntos consumidos rápidamente en video/imagen",
+        "Limitaciones del plan gratuito",
+        "Sin soporte GPT-4V/DALL-E",
+        "Los puntos diarios no se acumulan",
+        "SaaS de código cerrado"
+      ],
+      "fr": [
+        "Points consommés rapidement pour vidéo/image",
+        "Limitations du forfait gratuit",
+        "Pas de support GPT-4V/DALL-E",
+        "Les points quotidiens ne s'accumulent pas",
+        "SaaS propriétaire"
+      ]
+    },
+    "latestUpdate": {
+      "en": "2026.06: Coze 3.0 launched with project spaces, multi-Agent collaboration, local Agent integration, cross-platform sync, and industry expert templates. Personal advanced tier changed to ¥39.9/mo",
+      "zh": "2026年6月：扣子 3.0 正式发布，引入项目空间、多人多 Agent 协作、本地 Agent 一键接入、三端同步和行业专家模板。个人进阶版调整为 ¥39.9/月",
+      "ja": "2026年6月：Coze 3.0リリース。プロジェクトスペース、マルチエージェント協調、ローカルエージェント統合、クロスプラットフォーム同期、業界エキスパートテンプレートを導入",
+      "es": "Junio 2026: Coze 3.0 lanzado con espacios de proyecto, colaboración multi-agente, integración de agente local, sincronización multiplataforma y plantillas de expertos de la industria",
+      "fr": "Juin 2026 : Coze 3.0 lancé avec espaces projet, collaboration multi-agent, intégration d'agent local, synchronisation multiplateforme et modèles d'experts sectoriels"
     }
   }
 }
