@@ -14573,7 +14573,693 @@
       "zh": "2026年6月：扣子 3.0 正式发布，引入项目空间、多人多 Agent 协作、本地 Agent 一键接入、三端同步和行业专家模板。个人进阶版调整为 ¥39.9/月",
       "ja": "2026年6月：Coze 3.0リリース。プロジェクトスペース、マルチエージェント協調、ローカルエージェント統合、クロスプラットフォーム同期、業界エキスパートテンプレートを導入",
       "es": "Junio 2026: Coze 3.0 lanzado con espacios de proyecto, colaboración multi-agente, integración de agente local, sincronización multiplataforma y plantillas de expertos de la industria",
-      "fr": "Juin 2026 : Coze 3.0 lancé avec espaces projet, collaboration multi-agent, intégration d'agent local, synchronisation multiplateforme et modèles d'experts sectoriels"
+     "fr": "Juin 2026 : Coze 3.0 lancé avec espaces projet, collaboration multi-agent, intégration d'agent local, synchronisation multiplateforme et modèles d'experts sectoriels"
+    }
+  },
+  "codex": {
+    "features": {
+      "en": [
+        "Autonomous AI coding agent powered by GPT-5-Codex",
+        "Multi-file code editing and generation across entire repository",
+        "Isolated sandbox environment for safe code execution and testing",
+        "Open-source Codex CLI for terminal-native workflow",
+        "Automated pull request generation with test validation",
+        "Parallel task execution — run multiple agents simultaneously",
+        "VS Code and JetBrains IDE integration",
+        "70%+ on SWE-bench Verified benchmark"
+      ],
+      "zh": [
+        "基于 GPT-5-Codex 的自主 AI 编程智能体",
+        "跨整个仓库的多文件代码编辑与生成",
+        "隔离沙箱环境，安全执行代码和测试",
+        "开源的 Codex CLI，支持终端原生工作流",
+        "自动生成 PR，附带测试验证",
+        "并行任务执行——同时运行多个智能体",
+        "VS Code 和 JetBrains IDE 集成",
+        "SWE-bench Verified 基准测试 70%+"
+      ],
+      "ja": [
+        "GPT-5-Codex 搭載の自律型 AI コーディングエージェント",
+        "リポジトリ全体のマルチファイル編集と生成",
+        "分離されたサンドボックス環境で安全な実行",
+        "ターミナルネイティブの Codex CLI（オープンソース）",
+        "自動 PR 生成とテスト検証",
+        "複数エージェントの並列実行",
+        "VS Code および JetBrains IDE 対応",
+        "SWE-bench Verified で 70% 以上"
+      ],
+      "es": [
+        "Agente de codificación autónomo impulsado por GPT-5-Codex",
+        "Edición y generación de múltiples archivos en todo el repositorio",
+        "Entorno sandbox aislado para ejecución segura de código",
+        "Codex CLI de código abierto para flujo nativo en terminal",
+        "Generación automática de PR con validación de pruebas",
+        "Ejecución paralela de múltiples agentes",
+        "Integración con VS Code y JetBrains IDE",
+        "70%+ en SWE-bench Verified"
+      ],
+      "fr": [
+        "Agent de codage IA autonome propulsé par GPT-5-Codex",
+        "Édition et génération multi-fichiers sur l'ensemble du dépôt",
+        "Environnement sandbox isolé pour exécution sécurisée",
+        "Codex CLI open source pour flux terminal natif",
+        "Génération automatique de PR avec validation de tests",
+        "Exécution parallèle de plusieurs agents",
+        "Intégration VS Code et JetBrains IDE",
+        "70%+ sur SWE-bench Verified"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "Limited Codex access via ChatGPT Free",
+        "zh": "ChatGPT 免费版提供有限的 Codex 访问",
+        "ja": "ChatGPT 無料版で制限付き Codex アクセス",
+        "es": "Acceso limitado a Codex mediante ChatGPT Gratis",
+        "fr": "Accès limité à Codex via ChatGPT Gratuit"
+      },
+      "plus": {
+        "en": "$20/month via ChatGPT Plus",
+        "zh": "$20/月（ChatGPT Plus）",
+        "ja": "月額20ドル（ChatGPT Plus）",
+        "es": "20 $/mes (ChatGPT Plus)",
+        "fr": "20 $/mois (ChatGPT Plus)"
+      },
+      "pro": {
+        "en": "$200/month via ChatGPT Pro (max tasks)",
+        "zh": "$200/月（ChatGPT Pro，最大任务量）",
+        "ja": "月額200ドル（ChatGPT Pro，最大タスク）",
+        "es": "200 $/mes (ChatGPT Pro, máximo de tareas)",
+        "fr": "200 $/mois (ChatGPT Pro, tâches illimitées)"
+      },
+      "team": {
+        "en": "$25/user/month via ChatGPT Team",
+        "zh": "$25/人/月（ChatGPT Team）",
+        "ja": "1ユーザー月額25ドル（ChatGPT Team）",
+        "es": "25 $/usuario/mes (ChatGPT Team)",
+        "fr": "25 $/utilisateur/mois (ChatGPT Team)"
+      }
+    },
+    "useCases": {
+      "en": [
+        "Bug fixing with failing test verification",
+        "Feature development from specification",
+        "Code migration and dependency upgrades",
+        "Test coverage writing",
+        "Code review and refactoring",
+        "Technical debt reduction"
+      ],
+      "zh": [
+        "带回滚测试验证的 Bug 修复",
+        "根据需求文档开发新功能",
+        "代码迁移和依赖升级",
+        "编写测试覆盖率",
+        "代码审查和重构",
+        "技术债务削减"
+      ],
+      "ja": [
+        "テスト検証付きバグ修正",
+        "仕様書に基づく機能開発",
+        "コード移行と依存関係アップグレード",
+        "テストカバレッジ作成",
+        "コードレビューとリファクタリング",
+        "技術的負債の削減"
+      ],
+      "es": [
+        "Corrección de errores con verificación de pruebas",
+        "Desarrollo de funciones a partir de especificaciones",
+        "Migración de código y actualización de dependencias",
+        "Redacción de cobertura de pruebas",
+        "Revisión y refactorización de código",
+        "Reducción de deuda técnica"
+      ],
+      "fr": [
+        "Correction de bugs avec vérification par tests",
+        "Développement de fonctionnalités à partir de spécifications",
+        "Migration de code et mise à niveau des dépendances",
+        "Rédaction de couverture de tests",
+        "Révision et refactorisation de code",
+        "Réduction de la dette technique"
+      ]
+    },
+    "pros": {
+      "en": [
+        "Truly autonomous — delegates end-to-end tasks",
+        "Parallel execution: run multiple agents at once",
+        "Sandboxed execution with test validation built-in",
+        "Works across ChatGPT, CLI, and IDEs",
+        "Open-source CLI for custom workflows",
+        "Seamless integration with ChatGPT ecosystem"
+      ],
+      "zh": [
+        "真正自主——可委派端到端任务",
+        "并行执行：一次运行多个智能体",
+        "沙箱执行，内置测试验证",
+        "支持 ChatGPT、CLI 和 IDE 多端使用",
+        "开源 CLI，支持自定义工作流",
+        "与 ChatGPT 生态无缝集成"
+      ],
+      "ja": [
+        "真の自律性——エンドツーエンドのタスク委任",
+        "並列実行：複数エージェントを同時実行",
+        "サンドボックス実行とテスト検証",
+        "ChatGPT/CLI/IDE のマルチ環境対応",
+        "カスタムワークフロー対応の CLI（OSS）",
+        "ChatGPT エコシステムとのシームレス連携"
+      ],
+      "es": [
+        "Verdaderamente autónomo — delega tareas completas",
+        "Ejecución paralela de múltiples agentes",
+        "Ejecución en sandbox con validación de pruebas",
+        "Funciona en ChatGPT, CLI e IDE",
+        "CLI de código abierto para flujos personalizados",
+        "Integración perfecta con el ecosistema ChatGPT"
+      ],
+      "fr": [
+        "Vraiment autonome — délègue des tâches de bout en bout",
+        "Exécution parallèle de plusieurs agents",
+        "Exécution sandboxée avec validation de tests intégrée",
+        "Fonctionne sur ChatGPT, CLI et IDE",
+        "CLI open source pour flux personnalisés",
+        "Intégration transparente avec l'écosystème ChatGPT"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Expensive at Pro tier ($200/month) for heavy users",
+        "Requires clear specifications and good test coverage",
+        "~1 in 5 PRs needs meaningful human correction",
+        "Not ideal for exploratory or ambiguous tasks",
+        "No free standalone tier (requires ChatGPT subscription)",
+        "Limited to coding tasks only"
+      ],
+      "zh": [
+        "重度用户 Pro 版价格较高（$200/月）",
+        "需要清晰的需求描述和良好的测试覆盖",
+        "约 1/5 的 PR 需要人工修正",
+        "不适合探索性或不明确的任务",
+        "无独立免费版（需 ChatGPT 订阅）",
+        "仅限编程任务"
+      ],
+      "ja": [
+        "Pro プランは高額（月額200ドル）",
+        "明確な仕様とテストカバレッジが必要",
+        "約5件に1件の PR に人手による修正が必要",
+        "探索的・曖昧なタスクには不向き",
+        "スタンドアロン無料版なし",
+        "コーディングタスクのみ対応"
+      ],
+      "es": [
+        "Caro en el nivel Pro (200 $/mes) para usuarios intensivos",
+        "Requiere especificaciones claras y buena cobertura de pruebas",
+        "~1 de cada 5 PR necesita corrección humana significativa",
+        "No es ideal para tareas exploratorias o ambiguas",
+        "No hay nivel gratuito independiente",
+        "Limitado solo a tareas de codificación"
+      ],
+      "fr": [
+        "Cher au niveau Pro (200 $/mois) pour les gros utilisateurs",
+        "Nécessite des spécifications claires et une bonne couverture de tests",
+        "~1 PR sur 5 nécessite une correction humaine significative",
+        "Pas idéal pour les tâches exploratoires",
+        "Pas de niveau gratuit autonome",
+        "Limité aux tâches de codage uniquement"
+      ]
+    },
+    "latestUpdate": {
+      "en": "2026.07: OpenAI Codex runs on GPT-5-Codex model, scores 70%+ on SWE-bench Verified. Available across ChatGPT Plus ($20/mo), Pro ($200/mo), Team, and Enterprise tiers. Codex CLI is open source for terminal-native workflows. Parallel agent execution supports multiple simultaneous coding tasks.",
+      "zh": "2026年7月：OpenAI Codex 基于 GPT-5-Codex 模型，SWE-bench Verified 得分 70%+。支持 ChatGPT Plus（$20/月）、Pro（$200/月）、Team 和 Enterprise 多个订阅层级。Codex CLI 已开源，支持终端原生工作流和并行多任务执行。",
+      "ja": "2026年7月：OpenAI Codex が GPT-5-Codex モデルを搭載、SWE-bench Verified で 70% 以上を達成。ChatGPT Plus（月額20ドル）、Pro（月額200ドル）、Team、Enterprise で利用可能。Codex CLI は OSS 化。",
+      "es": "Julio 2026: OpenAI Codex funciona con el modelo GPT-5-Codex, 70%+ en SWE-bench Verified. Disponible en ChatGPT Plus (20$/mes), Pro (200$/mes), Team y Enterprise. Codex CLI es de código abierto.",
+      "fr": "Juillet 2026 : OpenAI Codex fonctionne sur le modèle GPT-5-Codex, 70%+ sur SWE-bench Verified. Disponible sur ChatGPT Plus (20$/mois), Pro (200$/mois), Team et Enterprise. Codex CLI est open source."
+    }
+  },
+  "qoder": {
+    "features": {
+      "en": [
+        "Agentic coding platform with autonomous AI agents",
+        "Multi-Agent expert collaboration for complex tasks",
+        "Repo Wiki — auto-generated codebase documentation",
+        "Knowledge Cards for persistent project memory",
+        "Quest — long-running autonomous task delegation",
+        "Context Engineering for deep codebase understanding",
+        "Supports 100k files for codebase analysis",
+        "Up to 26 hours maximum agent execution time",
+        "IDE plugins for VS Code, JetBrains, and CLI",
+        "QoderWork — AI work companion for everyday office tasks"
+      ],
+      "zh": [
+        "自主 AI 智能体编程平台",
+        "多智能体专家协作处理复杂任务",
+        "Repo Wiki — 自动生成代码库文档",
+        "知识卡片 — 持久化项目记忆",
+        "Quest — 长时间运行的自主任务委派",
+        "上下文工程 — 深度理解代码库",
+        "支持分析 10 万文件的代码库",
+        "最长 26 小时智能体执行时间",
+        "支持 VS Code、JetBrains 和 CLI 插件",
+        "QoderWork — 日常办公 AI 工作伴侣"
+      ],
+      "ja": [
+        "自律型 AI エージェントによるコーディングプラットフォーム",
+        "複雑なタスクのマルチエージェント協調",
+        "Repo Wiki — 自動生成のコードベース文書",
+        "永続的なプロジェクト記憶の知識カード",
+        "Quest — 長時間の自律タスク委任",
+        "コードベース深層理解のコンテキストエンジニアリング",
+        "最大 10 万ファイルのコードベース分析対応",
+        "最大 26 時間のエージェント実行",
+        "VS Code、JetBrains、CLI プラグイン対応",
+        "QoderWork — 日常業務の AI コンパニオン"
+      ],
+      "es": [
+        "Plataforma de codificación con agentes autónomos de IA",
+        "Colaboración multi-agente experta para tareas complejas",
+        "Repo Wiki — documentación de base de código autogenerada",
+        "Tarjetas de conocimiento para memoria persistente del proyecto",
+        "Quest — delegación autónoma de tareas de larga duración",
+        "Ingeniería de contexto para comprensión profunda del código",
+        "Soporta 100k archivos para análisis de código",
+        "Hasta 26 horas de ejecución de agente",
+        "Plugins para VS Code, JetBrains y CLI",
+        "QoderWork — asistente IA para trabajo diario"
+      ],
+      "fr": [
+        "Plateforme de codage avec agents IA autonomes",
+        "Collaboration multi-agent experte pour tâches complexes",
+        "Repo Wiki — documentation auto-générée du codebase",
+        "Fiches de connaissance pour mémoire persistante",
+        "Quest — délégation autonome de tâches longue durée",
+        "Ingénierie de contexte pour compréhension approfondie",
+        "Prend en charge 100k fichiers pour l'analyse",
+        "Jusqu'à 26 heures d'exécution d'agent",
+        "Plugins VS Code, JetBrains et CLI",
+        "QoderWork — assistant IA pour le travail quotidien"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "Free plan with 14-day Pro trial",
+        "zh": "免费版，含 14 天 Pro 试用",
+        "ja": "無料プラン（14日間 Pro トライアル付き）",
+        "es": "Plan gratuito con prueba Pro de 14 días",
+        "fr": "Forfait gratuit avec essai Pro de 14 jours"
+      },
+      "pro": {
+        "en": "$20/month (2,000 credits/mo)",
+        "zh": "$20/月（2,000 积分/月）",
+        "ja": "月額20ドル（2,000 クレジット/月）",
+        "es": "20 $/mes (2,000 créditos/mes)",
+        "fr": "20 $/mois (2 000 crédits/mois)"
+      },
+      "proPlus": {
+        "en": "$60/month (6,000 credits/mo)",
+        "zh": "$60/月（6,000 积分/月）",
+        "ja": "月額60ドル（6,000 クレジット/月）",
+        "es": "60 $/mes (6,000 créditos/mes)",
+        "fr": "60 $/mois (6 000 crédits/mois)"
+      },
+      "ultra": {
+        "en": "$200/month (20,000 credits/mo)",
+        "zh": "$200/月（20,000 积分/月）",
+        "ja": "月額200ドル（20,000 クレジット/月）",
+        "es": "200 $/mes (20,000 créditos/mes)",
+        "fr": "200 $/mois (20 000 crédits/mois)"
+      }
+    },
+    "useCases": {
+      "en": [
+        "Complex multi-file software development",
+        "Long-running autonomous coding tasks (Quest)",
+        "Codebase documentation and knowledge management",
+        "Code review and refactoring at scale",
+        "Test generation and quality assurance",
+        "Office workflow automation (QoderWork)",
+        "Enterprise-grade agent deployment (QoderWake)"
+      ],
+      "zh": [
+        "复杂的多文件软件开发",
+        "长时间运行的自主编程任务（Quest）",
+        "代码库文档化和知识管理",
+        "大规模代码审查和重构",
+        "测试生成和质量保证",
+        "办公工作流自动化（QoderWork）",
+        "企业级智能体部署（QoderWake）"
+      ],
+      "ja": [
+        "複雑なマルチファイルソフトウェア開発",
+        "長時間の自律コーディングタスク（Quest）",
+        "コードベースの文書化と知識管理",
+        "大規模なコードレビューとリファクタリング",
+        "テスト生成と品質保証",
+        "オフィスワークフロー自動化（QoderWork）",
+        "エンタープライズエージェント展開（QoderWake）"
+      ],
+      "es": [
+        "Desarrollo de software complejo multiarchivo",
+        "Tareas autónomas de codificación de larga duración (Quest)",
+        "Documentación de código y gestión del conocimiento",
+        "Revisión y refactorización de código a escala",
+        "Generación de pruebas y control de calidad",
+        "Automatización de flujos de oficina (QoderWork)",
+        "Despliegue de agentes empresariales (QoderWake)"
+      ],
+      "fr": [
+        "Développement logiciel multi-fichiers complexe",
+        "Tâches de codage autonomes longue durée (Quest)",
+        "Documentation du codebase et gestion des connaissances",
+        "Révision et refactorisation de code à l'échelle",
+        "Génération de tests et assurance qualité",
+        "Automatisation des flux de bureau (QoderWork)",
+        "Déploiement d'agents d'entreprise (QoderWake)"
+      ]
+    },
+    "pros": {
+      "en": [
+        "Powerful multi-agent collaboration system",
+        "Excellent codebase understanding via Context Engineering",
+        "Long-running agent execution (up to 26h)",
+        "Repo Wiki and Knowledge Cards for team memory",
+        "Flexible pricing with credits-based system",
+        "Covers both coding and office automation",
+        "Active community with 1M+ global users",
+        "100k files support for large projects"
+      ],
+      "zh": [
+        "强大的多智能体协作系统",
+        "通过上下文工程深入理解代码库",
+        "长达 26 小时的智能体执行时间",
+        "Repo Wiki 和知识卡片助力团队记忆",
+        "灵活的积分制定价",
+        "覆盖编程和办公自动化场景",
+        "100 万+ 全球用户的活跃社区",
+        "支持 10 万文件级别的大项目"
+      ],
+      "ja": [
+        "強力なマルチエージェントコラボレーション",
+        "コンテキストエンジニアリングによる優れたコード理解",
+        "最大 26 時間の長時間エージェント実行",
+        "Repo Wiki と知識カードによるチーム知識管理",
+        "クレジットベースの柔軟な課金",
+        "コーディングと業務自動化の両対応",
+        "100 万以上のグローバルユーザー",
+        "10 万ファイル対応"
+      ],
+      "es": [
+        "Potente sistema de colaboración multiagente",
+        "Excelente comprensión del código mediante Ingeniería de Contexto",
+        "Ejecución de agente de larga duración (hasta 26h)",
+        "Repo Wiki y Tarjetas de Conocimiento para memoria del equipo",
+        "Precios flexibles con sistema de créditos",
+        "Cubre codificación y automatización de oficina",
+        "Comunidad activa con más de 1M de usuarios",
+        "Soporte para 100k archivos en proyectos grandes"
+      ],
+      "fr": [
+        "Système de collaboration multi-agent puissant",
+        "Excellente compréhension du code via l'ingénierie de contexte",
+        "Exécution d'agent longue durée (jusqu'à 26h)",
+        "Repo Wiki et fiches de connaissance pour la mémoire d'équipe",
+        "Tarification flexible avec système de crédits",
+        "Couverture du codage et de l'automatisation de bureau",
+        "Communauté active de plus d'1M d'utilisateurs",
+        "Prise en charge de 100k fichiers pour grands projets"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Credits-based system can be complex for new users",
+        "Free plan has very limited credits after trial",
+        "Pro+ and Ultra plans are premium-priced",
+        "Some features still developing and maturing",
+        "Qoder CN and EN versions split across domains",
+        "Less brand recognition than Cursor or Copilot"
+      ],
+      "zh": [
+        "积分制对新用户来说较复杂",
+        "试用结束后免费版积分非常有限",
+        "Pro+ 和 Ultra 价格较高",
+        "部分功能仍在开发和完善中",
+        "中英文版分属不同域名",
+        "品牌知名度不如 Cursor 或 Copilot"
+      ],
+      "ja": [
+        "クレジット制は初心者に複雑",
+        "トライアル終了後、無料版のクレジットは非常に限定的",
+        "Pro+ および Ultra プランは高額",
+        "一部の機能は開発中・成熟途上",
+        "英語版と中国語版でドメインが分かれている",
+        "Cursor や Copilot ほどの認知度はない"
+      ],
+      "es": [
+        "El sistema de créditos puede ser complejo para nuevos usuarios",
+        "El plan gratuito tiene créditos muy limitados después de la prueba",
+        "Los planes Pro+ y Ultra tienen precio premium",
+        "Algunas funciones aún están en desarrollo",
+        "Versiones CN y EN separadas en diferentes dominios",
+        "Menor reconocimiento de marca que Cursor o Copilot"
+      ],
+      "fr": [
+        "Le système de crédits peut être complexe pour les nouveaux",
+        "Le forfait gratuit a des crédits très limités après l'essai",
+        "Les forfaits Pro+ et Ultra sont premium",
+        "Certaines fonctionnalités sont encore en développement",
+        "Versions CN et EN séparées sur différents domaines",
+        "Moins de reconnaissance que Cursor ou Copilot"
+      ]
+    },
+    "latestUpdate": {
+      "en": "2026.07: Qoder launched full product suite including Qoder Desktop (autonomous development IDE), QoderWork (office AI companion), QoderWake (24/7 AI employees), Qoder CLI, and Cloud Agents. New credit-based pricing: Free/Pro $20/Pro+ $60/Ultra $200 per month. 1M+ global users. GitHub 400k+ Repo Wikis generated. Context Engineering supports up to 100k files.",
+      "zh": "2026年7月：Qoder 发布完整产品线，包括 Qoder Desktop（自主开发 IDE）、QoderWork（办公 AI 助理）、QoderWake（7×24 AI 员工）、Qoder CLI 和 Cloud Agents。新积分制定价：Free/Pro $20/Pro+ $60/Ultra $200。全球用户超 100 万，已生成 40 万+ Repo Wiki。",
+      "ja": "2026年7月：Qoder が Qoder Desktop、QoderWork、QoderWake、Qoder CLI、Cloud Agents を含む製品スイートを発表。新しいクレジット制：Free/Pro $20/Pro+ $60/Ultra $200。",
+      "es": "Julio 2026: Qoder lanzó su suite completa de productos: Qoder Desktop, QoderWork, QoderWake, Qoder CLI y Cloud Agents. Nuevos precios basados en créditos: Free/Pro 20$/Pro+ 60$/Ultra 200$ al mes.",
+      "fr": "Juillet 2026 : Qoder a lancé sa suite complète de produits incluant Qoder Desktop, QoderWork, QoderWake, Qoder CLI et Cloud Agents. Nouvelle tarification par crédits : Free/Pro 20$/Pro+ 60$/Ultra 200$/mois."
+    }
+  },
+  "qodercn": {
+    "features": {
+      "en": [
+        "Full Qoder platform capabilities for Chinese market",
+        "Chinese-optimized UI and interaction design",
+        "Multi-Agent expert collaboration for complex tasks",
+        "Repo Wiki — auto-generated codebase documentation",
+        "Knowledge Cards for persistent project memory",
+        "Quest — long-running autonomous task delegation",
+        "Context Engineering for deep codebase understanding",
+        "IDE plugins for VS Code, JetBrains, and CLI",
+        "Localized support for Chinese development ecosystem",
+        "Optimized for Chinese cloud services and platforms"
+      ],
+      "zh": [
+        "面向中国市场的完整 Qoder 平台能力",
+        "针对中文场景优化的交互设计",
+        "多智能体专家协作处理复杂任务",
+        "Repo Wiki — 自动生成代码库文档",
+        "知识卡片 — 持久化项目记忆",
+        "Quest — 长时间运行的自主任务委派",
+        "上下文工程 — 深度理解代码库",
+        "支持 VS Code、JetBrains 和 CLI 插件",
+        "针对中文开发生态本地化支持",
+        "优化中国云服务集成"
+      ],
+      "ja": [
+        "中国市場向けの完全な Qoder プラットフォーム",
+        "中国語最適化の UI とインタラクション",
+        "複雑なタスクのマルチエージェント協調",
+        "Repo Wiki — 自動生成コードベース文書",
+        "永続的プロジェクト記憶の知識カード",
+        "長時間の自律タスク委任（Quest）",
+        "コードベース深層理解のコンテキストエンジニアリング",
+        "VS Code、JetBrains、CLI プラグイン対応",
+        "中国の開発エコシステムに最適化",
+        "中国のクラウドサービスとの統合最適化"
+      ],
+      "es": [
+        "Capacidades completas de la plataforma Qoder para el mercado chino",
+        "UI y diseño de interacción optimizados para chino",
+        "Colaboración multi-agente experta para tareas complejas",
+        "Repo Wiki — documentación autogenerada",
+        "Tarjetas de conocimiento para memoria persistente",
+        "Quest — delegación autónoma de tareas de larga duración",
+        "Ingeniería de contexto para comprensión profunda",
+        "Plugins para VS Code, JetBrains y CLI",
+        "Soporte localizado para el ecosistema de desarrollo chino",
+        "Optimizado para servicios en la nube chinos"
+      ],
+      "fr": [
+        "Capacités complètes de la plateforme Qoder pour le marché chinois",
+        "UI et conception d'interaction optimisées pour le chinois",
+        "Collaboration multi-agent experte pour tâches complexes",
+        "Repo Wiki — documentation auto-générée du codebase",
+        "Fiches de connaissance pour mémoire persistante",
+        "Quest — délégation autonome de tâches longue durée",
+        "Ingénierie de contexte pour compréhension approfondie",
+        "Plugins VS Code, JetBrains et CLI",
+        "Support localisé pour l'écosystème chinois",
+        "Optimisé pour les services cloud chinois"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "Free plan with 14-day Pro trial",
+        "zh": "免费版，含 14 天 Pro 试用",
+        "ja": "無料プラン（14日間 Pro トライアル付き）",
+        "es": "Plan gratuito con prueba Pro de 14 días",
+        "fr": "Forfait gratuit avec essai Pro de 14 jours"
+      },
+      "pro": {
+        "en": "$20/month (2,000 credits/mo)",
+        "zh": "$20/月（2,000 积分/月）",
+        "ja": "月額20ドル（2,000 クレジット/月）",
+        "es": "20 $/mes (2,000 créditos/mes)",
+        "fr": "20 $/mois (2 000 crédits/mois)"
+      },
+      "proPlus": {
+        "en": "$60/month (6,000 credits/mo)",
+        "zh": "$60/月（6,000 积分/月）",
+        "ja": "月額60ドル（6,000 クレジット/月）",
+        "es": "60 $/mes (6,000 créditos/mes)",
+        "fr": "60 $/mois (6 000 crédits/mois)"
+      },
+      "ultra": {
+        "en": "$200/month (20,000 credits/mo)",
+        "zh": "$200/月（20,000 积分/月）",
+        "ja": "月額200ドル（20,000 クレジット/月）",
+        "es": "200 $/mes (20,000 créditos/mes)",
+        "fr": "200 $/mois (20 000 crédits/mois)"
+      }
+    },
+    "useCases": {
+      "en": [
+        "Complex multi-file software development for Chinese teams",
+        "Long-running autonomous coding tasks (Quest)",
+        "Chinese-language codebase documentation",
+        "Code review and refactoring at scale",
+        "Test generation and quality assurance",
+        "Integration with Chinese cloud platforms (Alibaba Cloud, Tencent Cloud)"
+      ],
+      "zh": [
+        "中国团队的多文件复杂软件开发",
+        "长时间运行的自主编程任务（Quest）",
+        "中文代码库文档化",
+        "大规模代码审查和重构",
+        "测试生成和质量保证",
+        "与阿里云、腾讯云等中国云平台集成"
+      ],
+      "ja": [
+        "中国チーム向け複雑なマルチファイルソフトウェア開発",
+        "長時間の自律コーディングタスク（Quest）",
+        "中国語コードベースの文書化",
+        "大規模なコードレビューとリファクタリング",
+        "テスト生成と品質保証",
+        "中国クラウドプラットフォームとの統合"
+      ],
+      "es": [
+        "Desarrollo de software complejo para equipos chinos",
+        "Tareas autónomas de codificación de larga duración (Quest)",
+        "Documentación de código en chino",
+        "Revisión y refactorización a escala",
+        "Generación de pruebas y control de calidad",
+        "Integración con plataformas cloud chinas"
+      ],
+      "fr": [
+        "Développement logiciel complexe pour équipes chinoises",
+        "Tâches de codage autonomes longue durée (Quest)",
+        "Documentation du codebase en chinois",
+        "Révision et refactorisation à l'échelle",
+        "Génération de tests et assurance qualité",
+        "Intégration avec les plates-formes cloud chinoises"
+      ]
+    },
+    "pros": {
+      "en": [
+        "Full Qoder platform power with Chinese localization",
+        "Excellent Chinese language and ecosystem support",
+        "Optimized for Chinese cloud platforms and services",
+        "Same powerful multi-agent system as Qoder",
+        "Active community and localized support",
+        "Repo Wiki and Knowledge Cards for team collaboration"
+      ],
+      "zh": [
+        "完整的 Qoder 平台能力 + 中文本地化",
+        "优秀的中文语言和生态支持",
+        "针对中国云平台和服务的优化",
+        "与 Qoder 相同的强大多智能体系统",
+        "活跃的中文社区和本地化支持",
+        "Repo Wiki 和知识卡片助力团队协作"
+      ],
+      "ja": [
+        "完全な Qoder 機能と中国語ローカライズ",
+        "優れた中国語・中国エコシステム対応",
+        "中国クラウドプラットフォームに最適化",
+        "Qoder と同じ強力なマルチエージェントシステム",
+        "アクティブなコミュニティと現地サポート",
+        "Repo Wiki と知識カードでチームコラボレーション"
+      ],
+      "es": [
+        "Todo el poder de Qoder con localización china",
+        "Excelente soporte para chino y ecosistema local",
+        "Optimizado para plataformas cloud chinas",
+        "Mismo potente sistema multiagente que Qoder",
+        "Comunidad activa y soporte localizado",
+        "Repo Wiki y Tarjetas de Conocimiento para colaboración"
+      ],
+      "fr": [
+        "Toute la puissance de Qoder avec localisation chinoise",
+        "Excellent support pour le chinois et l'écosystème local",
+        "Optimisé pour les plates-formes cloud chinoises",
+        "Même système multi-agent puissant que Qoder",
+        "Communauté active et support localisé",
+        "Repo Wiki et fiches de connaissance pour la collaboration"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Credits-based system can be complex for new users",
+        "Free plan has very limited credits after trial",
+        "Domain split from international Qoder may confuse users",
+        "Some features still developing and maturing",
+        "Less brand recognition than Cursor or Copilot",
+        "Limited international community compared to main Qoder"
+      ],
+      "zh": [
+        "积分制对新用户来说较复杂",
+        "试用结束后免费版积分非常有限",
+        "与国际版 Qoder 域名分离可能造成混淆",
+        "部分功能仍在开发和完善中",
+        "品牌知名度不如 Cursor 或 Copilot",
+        "国际社区规模不如主版 Qoder"
+      ],
+      "ja": [
+        "クレジット制は初心者に複雑",
+        "トライアル終了後、無料版のクレジットは限定的",
+        "国際版 Qoder とのドメイン分離が混乱を招く可能性",
+        "一部の機能は開発中",
+        "Cursor や Copilot ほどの認知度はない",
+        "国際コミュニティは Qoder 本家より小規模"
+      ],
+      "es": [
+        "El sistema de créditos puede ser complejo",
+        "Créditos limitados en plan gratuito tras prueba",
+        "Separación de dominio de Qoder internacional puede confundir",
+        "Algunas funciones aún en desarrollo",
+        "Menor reconocimiento de marca que Cursor o Copilot",
+        "Comunidad internacional más pequeña que Qoder principal"
+      ],
+      "fr": [
+        "Le système de crédits peut être complexe",
+        "Crédits très limités dans le forfait gratuit après essai",
+        "Séparation de domaine avec Qoder international peut dérouter",
+        "Certaines fonctionnalités encore en développement",
+        "Moins de reconnaissance que Cursor ou Copilot",
+        "Communauté internationale plus petite que Qoder principal"
+      ]
+    },
+    "latestUpdate": {
+      "en": "2026.07: QoderCN (qoder.com.cn) launched as localized version of Qoder for Chinese market. Full product suite including Qoder Desktop, QoderWork, QoderWake, and Qoder CLI. Same credit-based pricing as international version. Optimized for Chinese cloud services and development ecosystem.",
+      "zh": "2026年7月：QoderCN（qoder.com.cn）作为 Qoder 面向中国市场的本地化版本正式上线。完整产品线包括 Qoder Desktop、QoderWork、QoderWake 和 Qoder CLI，定价与国际版一致。针对中国云服务和开发生态进行了深度优化。",
+      "ja": "2026年7月：QoderCN（qoder.com.cn）が中国市場向けローカライズ版として正式ローンチ。Qoder Desktop、QoderWork、QoderWake、Qoder CLI を含む完全製品スイート。",
+      "es": "Julio 2026: QoderCN (qoder.com.cn) lanzado como versión localizada de Qoder para el mercado chino. Suite completa de productos con el mismo sistema de precios basado en créditos.",
+      "fr": "Juillet 2026 : QoderCN (qoder.com.cn) lancé en tant que version localisée de Qoder pour le marché chinois. Suite complète de produits avec le même système de tarification par crédits."
     }
   }
 }
