@@ -9,7 +9,7 @@ import { Tool, getLocalizedDescription } from '@/components/ToolCard';
 import toolDetails from '@/data/toolDetails.json';
 import tools from '@/data/tools.json';
 import blogPosts from '@/data/blogPosts.json';
-import { ArrowLeft, ExternalLink, Globe, Star, Building2, CheckCircle, XCircle, Lightbulb, DollarSign, Zap, Info, Share2, Link2, Check, Newspaper, BookOpen, Clipboard, LayoutGrid } from 'lucide-react';
+import { ExternalLink, Globe, Star, Building2, CheckCircle, XCircle, Lightbulb, DollarSign, Zap, Info, Share2, Link2, Check, Newspaper, BookOpen, Clipboard, LayoutGrid } from 'lucide-react';
 import { TwitterIcon, LinkedinIcon, FacebookIcon } from '@/components/SocialIcons';
 import Newsletter from '@/components/Newsletter';
 import Image from 'next/image';
@@ -26,12 +26,6 @@ const TAG_COLORS: Record<string, string> = {
   'Paid': 'bg-amber-100 text-amber-700 dark:bg-amber-900/30 dark:text-amber-400',
   'Open Source': 'bg-violet-100 text-violet-700 dark:bg-violet-900/30 dark:text-violet-400',
   'API': 'bg-purple-100 text-purple-700 dark:bg-purple-900/30 dark:text-purple-400',
-};
-
-// Helper to get localized content
-const getLocalized = (content: any, locale: string) => {
-  if (typeof content === 'string') return content;
-  return content?.[locale] || content?.['en'] || '';
 };
 
 export default function ToolDetailClient({ tool, locale }: ToolDetailClientProps) {

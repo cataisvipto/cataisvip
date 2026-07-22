@@ -7,7 +7,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Breadcrumb from '@/components/Breadcrumb';
 import Image from 'next/image';
-import { Star, GitFork, ExternalLink, Code2, Copy, Check, Terminal, ChevronRight, Users, ArrowLeft, Building2 } from 'lucide-react';
+import { Star, GitFork, ExternalLink, Code2, Copy, Check, Terminal, ArrowLeft, Building2 } from 'lucide-react';
 import type { Skill } from '../SkillsClient';
 
 const getLocalizedSkillDescription = (skill: Skill, locale: string) => {

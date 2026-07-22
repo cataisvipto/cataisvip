@@ -29,7 +29,7 @@ interface BlogPost {
 interface BlogDetailClientProps {
   post: BlogPost;
   locale: string;
-  articleJsonLd: Record<string, any>;
+  articleJsonLd: Record<string, unknown>;
 }
 
 // Localize a multilingual field, falling back to English so the blog follows the site language
@@ -171,7 +171,7 @@ export default function BlogDetailClient({ post, locale, articleJsonLd }: BlogDe
           <header className="mb-8">
             <div className="flex items-center gap-3 mb-4">
               <span className="px-3 py-1 bg-indigo-50 dark:bg-indigo-900/30 text-indigo-600 dark:text-indigo-400 rounded-full text-sm font-medium capitalize">
-                {t(`categories.${post.category}` as any)}
+                {t(`categories.${post.category}`)}
               </span>
               <span className="flex items-center gap-1 text-sm text-[var(--muted)]">
                 <Clock className="w-4 h-4" />

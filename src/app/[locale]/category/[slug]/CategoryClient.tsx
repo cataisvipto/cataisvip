@@ -107,7 +107,6 @@ const CATEGORY_DESCRIPTIONS: Record<string, Record<string, string>> = {
 };
 
 export default function CategoryClient({ category, slug, tools: categoryTools, locale }: CategoryClientProps) {
-  const t = useTranslations('common');
   const tCategories = useTranslations('categories');
   const tTags = useTranslations('tags');
   const [searchQuery, setSearchQuery] = useState('');
@@ -126,7 +125,7 @@ export default function CategoryClient({ category, slug, tools: categoryTools, l
         {/* Breadcrumb */}
         <Breadcrumb
           items={[
-            { name: tCategories(categorySlug as any) },
+            { name: tCategories(categorySlug) }
           ]}
           locale={locale}
         />
@@ -135,8 +134,8 @@ export default function CategoryClient({ category, slug, tools: categoryTools, l
         <div className="mb-8">
           <h1 className="text-3xl md:text-4xl font-bold text-[var(--foreground)] mb-3">
             {locale === 'zh'
-              ? `最佳 ${tCategories(categorySlug as any)} AI 工具`
-              : `Best ${tCategories(categorySlug as any)} AI Tools`}
+              ? `最佳 ${tCategories(categorySlug)} AI 工具`
+              : `Best ${tCategories(categorySlug)} AI Tools`}
           </h1>
           <p className="text-lg text-[var(--muted)] mb-4">{categoryDescription}</p>
           <div className="flex items-center gap-2 text-sm text-[var(--muted)]">
@@ -158,7 +157,7 @@ export default function CategoryClient({ category, slug, tools: categoryTools, l
                     : 'bg-[var(--muted-bg)] text-[var(--muted)] hover:bg-[var(--card-border)]'
                 }`}
               >
-                {tCategories(catName as any)}
+                {tCategories(catName)}
               </Link>
             );
           })}
@@ -203,7 +202,7 @@ export default function CategoryClient({ category, slug, tools: categoryTools, l
                           key={tag}
                           className={`px-2 py-0.5 rounded-full text-xs font-medium ${TAG_COLORS[tag] || 'bg-gray-100 text-gray-600 dark:bg-gray-800 dark:text-gray-400'}`}
                         >
-                          {locale === 'zh' ? tTags(tag as any) : tag}
+                          {locale === 'zh' ? tTags(tag) : tag}
                         </span>
                       ))}
                     </div>

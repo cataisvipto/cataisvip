@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { generateAlternates, generateWebSiteJsonLd, BASE_URL } from '@/lib/seo';
+import { generateAlternates, generateWebSiteJsonLd } from '@/lib/seo';
 import HomePageClient from './HomePageClient';
 
 export async function generateMetadata(): Promise<Metadata> {

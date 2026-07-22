@@ -8,7 +8,6 @@ import tools from '@/data/tools.json';
 import { Tool } from './ToolCard';
 
 export default function FeaturedAgents() {
-  const t = useTranslations('common');
   const tCategories = useTranslations('categories');
   const locale = useLocale();
 

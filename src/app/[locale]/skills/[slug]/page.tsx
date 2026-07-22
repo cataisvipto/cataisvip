@@ -21,7 +21,7 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: Props) {
   const { locale, slug } = await params;
   const t = await getTranslations({ locale, namespace: 'skills' });
-  const skill = (skills as any[]).find((s: any) => s.slug === slug);
+  const skill = skills.find((s) => s.slug === slug);
   if (!skill) return { title: t('notFound') };
 
   const name = locale === 'zh' && skill.nameZh ? skill.nameZh : skill.name;

@@ -7,7 +7,7 @@ import Footer from '@/components/Footer';
 import Breadcrumb from '@/components/Breadcrumb';
 import { Link } from '@/i18n/navigation';
 import Image from 'next/image';
-import { Star, GitFork, ExternalLink, Code2, Users, ChevronDown } from 'lucide-react';
+import { Star, GitFork, ExternalLink, Code2 } from 'lucide-react';
 
 export interface Skill {
   slug: string;

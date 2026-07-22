@@ -99,7 +99,7 @@ export default function BlogClient({ posts }: BlogClientProps) {
                     {/* Category & Meta */}
                     <div className="flex items-center gap-3 mb-3 text-sm text-[var(--muted)]">
                       <span className="px-2 py-1 bg-indigo-50 dark:bg-indigo-900/30 text-indigo-600 dark:text-indigo-400 rounded-md text-xs font-medium capitalize">
-                        {t(`categories.${post.category}` as any)}
+                        {t(`categories.${post.category}`)}
                       </span>
                       <span className="flex items-center gap-1">
                         <Clock className="w-3.5 h-3.5" />
