@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next';
 import tools from '@/data/tools.json';
 import blogPosts from '@/data/blogPosts.json';
 
-const BASE_URL = 'https://catai.cc.cd';
+const BASE_URL = 'https://cataito.com';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const locales = ['en', 'zh', 'ja', 'es', 'fr'];

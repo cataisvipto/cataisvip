@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import tools from '@/data/tools.json';
-import { generateAlternates } from '@/lib/seo';
+import { generateAlternates, BASE_URL } from '@/lib/seo';
 import CategoryClient from './CategoryClient';
 
 // All available categories derived from tools data
@@ -39,7 +39,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     openGraph: {
       title,
       description,
-      url: `https://catai.cc.cd/en/category/${slug}`,
+      url: `${BASE_URL}/en/category/${slug}`,
       type: 'website',
     },
     twitter: {
@@ -68,7 +68,7 @@ export default async function CategoryPage({ params }: PageProps) {
       '@type': 'ListItem',
       position: index + 1,
       name: tool.name,
-      url: `https://catai.cc.cd/en/tool/${tool.slug}`,
+      url: `${BASE_URL}/en/tool/${tool.slug}`,
       description: tool.descriptionEn,
       image: tool.logo,
     })),

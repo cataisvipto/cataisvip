@@ -54,7 +54,7 @@ export default function BlogDetailClient({ post, locale, articleJsonLd }: BlogDe
     );
   }).slice(0, 4);
 
-  const siteUrl = 'https://catai.cc.cd';
+  const siteUrl = 'https://cataito.com';
   const postUrl = `${siteUrl}/${locale}/blog/${post.slug}`;
   const shareText = title;
 

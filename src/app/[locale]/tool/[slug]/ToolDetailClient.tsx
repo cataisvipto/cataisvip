@@ -83,7 +83,7 @@ export default function ToolDetailClient({ tool, locale }: ToolDetailClientProps
     typeof field === 'string' ? field : field?.[loc] || field?.en || '';
 
   // Social sharing
-  const siteUrl = 'https://catai.cc.cd';
+  const siteUrl = 'https://cataito.com';
   const toolUrl = `${siteUrl}/${locale}/tool/${tool.slug}`;
   const shareText = `${displayName} - CATAI AI Ecosystem Portal`;
   const shareLinks = {

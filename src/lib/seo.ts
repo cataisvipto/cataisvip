@@ -2,7 +2,7 @@
  * SEO 工具函数 — 统一生成 hreflang + canonical 元数据
  */
 
-export const BASE_URL = 'https://catai.cc.cd';
+export const BASE_URL = 'https://cataito.com';
 export const LOCALES = ['en', 'zh', 'ja', 'es', 'fr'] as const;
 export type Locale = (typeof LOCALES)[number];
 

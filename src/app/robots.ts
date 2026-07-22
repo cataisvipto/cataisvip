@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: '/api/',
     },
-    sitemap: 'https://catai.cc.cd/sitemap.xml',
+    sitemap: 'https://cataito.com/sitemap.xml',
   };
 }
