@@ -1,5 +1,4 @@
 import type { Metadata } from 'next';
-import { Link } from '@/i18n/navigation';
 import blogPosts from '@/data/blogPosts.json';
 import BlogClient from './BlogClient';
 import { generateAlternates } from '@/lib/seo';

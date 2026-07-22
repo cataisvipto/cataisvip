@@ -5,7 +5,7 @@ import { useTranslations, useLocale } from 'next-intl';
 import { Link } from '@/i18n/navigation';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-import { Calendar, Clock, ArrowRight, Tag } from 'lucide-react';
+import { Clock, ArrowRight } from 'lucide-react';
 import BlogCover from '@/components/BlogCover';
 
 interface BlogPost {
@@ -70,7 +70,7 @@ export default function BlogClient({ posts }: BlogClientProps) {
                     : 'bg-[var(--muted-bg)] text-[var(--muted)] hover:bg-[var(--card-border)]'
                 }`}
               >
-                {t(`categories.${cat}` as any)}
+                {t(`categories.${cat}`)}
               </button>
             ))}
           </div>

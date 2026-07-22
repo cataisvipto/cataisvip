@@ -29,7 +29,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   const title = (post.title as Record<string, string>)[locale] || post.title.en;
   const excerpt = (post.excerpt as Record<string, string>)[locale] || post.excerpt.en;
-  const postUrl = `${BASE_URL}/${locale}/blog/${slug}`;
 
   return {
     title: `${title} - Cataito Blog`,

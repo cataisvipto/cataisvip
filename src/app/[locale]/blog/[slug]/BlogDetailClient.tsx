@@ -1,12 +1,12 @@
 'use client';
 
 import { useState } from 'react';
-import { useTranslations, useLocale } from 'next-intl';
+import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/navigation';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Breadcrumb from '@/components/Breadcrumb';
-import { ArrowLeft, Calendar, Clock, User, Share2, Link2, Check, ExternalLink } from 'lucide-react';
+import { Calendar, Clock, User, Share2, Link2, Check, ExternalLink } from 'lucide-react';
 import { TwitterIcon, LinkedinIcon, FacebookIcon } from '@/components/SocialIcons';
 import Image from 'next/image';
 import BlogCover from '@/components/BlogCover';
