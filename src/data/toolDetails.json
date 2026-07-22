@@ -15261,5 +15261,226 @@
       "es": "Julio 2026: QoderCN (qoder.com.cn) lanzado como versión localizada de Qoder para el mercado chino. Suite completa de productos con el mismo sistema de precios basado en créditos.",
       "fr": "Juillet 2026 : QoderCN (qoder.com.cn) lancé en tant que version localisée de Qoder pour le marché chinois. Suite complète de produits avec le même système de tarification par crédits."
     }
+  },
+  "miora": {
+    "features": {
+      "en": [
+        "Creative Agent with planning — interprets briefs and orchestrates design workflows autonomously",
+        "Persistent Memory System — remembers brand style, color palettes, and creative rules across sessions",
+        "Unified Multi-Modal Canvas — image, video, UI/UX, and 3D assets coexist as editable nodes",
+        "Full-Pipeline Editing — inpainting, outpainting, background removal, relighting, HD upscaling",
+        "Skills — reusable workflow packages that encapsulate agent behavior and domain knowledge",
+        "Multi-Agent Collaboration (upcoming) — multiple designers and AI agents on the same canvas"
+      ],
+      "zh": [
+        "创意智能体规划 — 解读 brief 并自主编排设计工作流",
+        "持久记忆系统 — 跨会话记住品牌风格、配色方案和创意规则",
+        "统一多模态画布 — 图像/视频/UI/3D 资产以可编辑节点形式共存",
+        "全链路编辑 — 局部绘制、外扩、抠图、重新打光、高清放大",
+        "Skills 可复用工作流 — 封装智能体行为与领域知识的工作流包",
+        "多智能体协作（即将推出）— 多设计师 + 多 AI 智能体同画布协作"
+      ],
+      "ja": [
+        "クリエイティブエージェント — ブリーフを解釈し、デザインワークフローを自律的に编排",
+        "永続メモリシステム — ブランドスタイル、配色、クリエイティブルールをセッションを跨いで記憶",
+        "統合マルチモーダルキャンバス — 画像/動画/UI/3D アセットを編集可能ノードとして共存",
+        "フルパイプライン編集 — インペインティング、アウトペインティング、背景除去、リライティング、HD 拡大",
+        "Skills — エージェントの動作とドメイン知識をカプセル化し、再利用可能なワークフローパッケージ",
+        "マルチエージェント協業（近日公開）— 複数デザイナーと複数 AI エージェントが同一キャンバスで協業"
+      ],
+      "es": [
+        "Agente creativo con planificación — interpreta briefs y orquesta flujos de diseño de forma autónoma",
+        "Sistema de memoria persistente — recuerda estilo de marca, paletas de colores y reglas creativas entre sesiones",
+        "Lienzo multimodal unificado — activos de imagen, vídeo, UI/UX y 3D coexisten como nodos editables",
+        "Edición de pipeline completo — inpainting, outpainting, eliminación de fondo, reiluminación, ampliación HD",
+        "Skills — paquetes de flujo de trabajo reutilizables que encapsulan comportamiento del agente y conocimiento de dominio",
+        "Colaboración multi-agente (próximamente) — múltiples diseñadores y agentes IA en el mismo lienzo"
+      ],
+      "fr": [
+        "Agent créatif avec planification — interprète les briefs et orchestre les flux de design de manière autonome",
+        "Système de mémoire persistante — mémorise le style de marque, les palettes de couleurs et les règles créatives entre les sessions",
+        "Canvas multimodal unifié — les actifs image, vidéo, UI/UX et 3D coexistent sous forme de nœuds éditables",
+        "Édition pipeline complet — inpainting, outpainting, suppression d'arrière-plan, rééclairage, mise à l'échelle HD",
+        "Skills — packages de flux de travail réutilisables encapsulant le comportement de l'agent et les connaissances du domaine",
+        "Collaboration multi-agents (bientôt) — plusieurs designers et agents IA sur le même canvas"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "Free tier with 1,000 credits on signup (beta)",
+        "zh": "注册赠送 1,000 积分（测试版免费）",
+        "ja": "登録時に 1,000 クレジット無料進呈（ベータ版）",
+        "es": "Nivel gratuito con 1.000 créditos al registrarse (beta)",
+        "fr": "Niveau gratuit avec 1 000 crédits à l'inscription (bêta)"
+      },
+      "image": {
+        "en": "5-15 credits per image generation",
+        "zh": "每张图像生成 5-15 积分",
+        "ja": "画像生成ごとに 5-15 クレジット",
+        "es": "5-15 créditos por generación de imagen",
+        "fr": "5-15 crédits par génération d'image"
+      },
+      "video": {
+        "en": "80-120 credits per 15-second video",
+        "zh": "每 15 秒视频 80-120 积分",
+        "ja": "15 秒動画ごとに 80-120 クレジット",
+        "es": "80-120 créditos por vídeo de 15 segundos",
+        "fr": "80-120 crédits par vidéo de 15 secondes"
+      },
+      "3d": {
+        "en": "60-100 credits per 3D render",
+        "zh": "每次 3D 渲染 60-100 积分",
+        "ja": "3D レンダリングごとに 60-100 クレジット",
+        "es": "60-100 créditos por renderizado 3D",
+        "fr": "60-100 crédits par rendu 3D"
+      },
+      "ui": {
+        "en": "20-40 credits per UI mockup",
+        "zh": "每个 UI 原型 20-40 积分",
+        "ja": "UI モックアップごとに 20-40 クレジット",
+        "es": "20-40 créditos por maqueta UI",
+        "fr": "20-40 crédits par maquette UI"
+      },
+      "enterprise": {
+        "en": "Post-beta pricing not yet announced",
+        "zh": "正式版定价待公布",
+        "ja": "ベータ版後の料金体系は未発表",
+        "es": "Precios post-beta aún no anunciados",
+        "fr": "Tarification post-bêta pas encore annoncée"
+      }
+    },
+    "useCases": {
+      "en": [
+        "Brand visual identity — complete brand packages from a single brief",
+        "Video content production — generate and edit video directly on canvas",
+        "UI/UX prototyping — natural language to structured design drafts",
+        "3D asset creation — product visualization, characters, environments",
+        "Illustration and visual storytelling — consistent style across series",
+        "Campaign concepting — multi-format asset packs in hours instead of days"
+      ],
+      "zh": [
+        "品牌视觉识别 — 一个 brief 生成完整品牌视觉包",
+        "视频内容制作 — 在画布上直接生成和编辑视频",
+        "UI/UX 原型设计 — 自然语言描述生成结构化设计稿",
+        "3D 资产创建 — 产品可视化、角色、场景",
+        "插画与视觉叙事 — 跨系列保持风格一致",
+        "营销活动概念 — 多格式资产包从数天缩短到数小时"
+      ],
+      "ja": [
+        "ブランドビジュアルアイデンティティ — ひとつのブリーフから完全なブランドパッケージを生成",
+        "動画コンテンツ制作 — キャンバス上で直接動画を生成・編集",
+        "UI/UX プロトタイピング — 自然言語から構造化されたデザイン草案を生成",
+        "3D アセット作成 — 製品ビジュアライゼーション、キャラクター、環境",
+        "イラストとビジュアルストーリーテリング — シリーズ全体でスタイルの一貫性を維持",
+        "キャンペーンコンセプティング — 複数フォーマットのアセットパックを数日から数時間へ"
+      ],
+      "es": [
+        "Identidad visual de marca — paquetes de marca completos desde un único brief",
+        "Producción de contenido de vídeo — genera y edita vídeo directamente en el lienzo",
+        "Prototipado UI/UX — de lenguaje natural a borradores de diseño estructurados",
+        "Creación de activos 3D — visualización de productos, personajes, entornos",
+        "Ilustración y narrativa visual — estilo consistente en toda la serie",
+        "Conceptualización de campañas — paquetes de activos multiformato en horas en lugar de días"
+      ],
+      "fr": [
+        "Identité visuelle de marque — packages de marque complets à partir d'un seul brief",
+        "Production de contenu vidéo — générez et éditez la vidéo directement sur le canvas",
+        "Prototypage UI/UX — du langage naturel aux maquettes de design structurées",
+        "Création d'actifs 3D — visualisation de produits, personnages, environnements",
+        "Illustration et narration visuelle — style cohérent sur toute la série",
+        "Conception de campagnes — packs d'actifs multi-formats en heures au lieu de jours"
+      ]
+    },
+    "pros": {
+      "en": [
+        "All-in-one creative platform — image, video, UI, 3D on single canvas",
+        "Persistent agent memory eliminates re-explaining brand rules",
+        "Significant time savings — 6-12 hours/week for active creators",
+        "Strong 3D generation powered by Hunyuan 3D (2.6M+ downloads on HuggingFace)",
+        "Reusable Skills system for workflow sharing and team consistency",
+        "Free tier with 1,000 credits covers 10-15 medium projects"
+      ],
+      "zh": [
+        "全能创意平台 — 图像/视频/UI/3D 统一画布",
+        "持久记忆系统免去重复解释品牌规则",
+        "显著节省时间 — 活跃创作者每周节省 6-12 小时",
+        "强大的 3D 生成能力（混元 3D，HuggingFace 下载超 260 万）",
+        "可复用 Skills 系统便于工作流分享与团队一致性",
+        "免费 1,000 积分可完成 10-15 个中等项目"
+      ],
+      "ja": [
+        "オールインワンクリエイティブプラットフォーム — 画像/動画/UI/3D を単一キャンバスで",
+        "永続エージェントメモリでブランドルールの再説明が不要",
+        "大幅な時間短縮 — アクティブなクリエイターが週 6-12 時間を節約",
+        "Hunyuan 3D による強力な 3D 生成（HuggingFace で 260 万+ ダウンロード）",
+        "ワークフロー共有とチーム一貫性のための再利用可能 Skills システム",
+        "1,000 クレジットの無料枠で中規模プロジェクト 10-15 件をカバー"
+      ],
+      "es": [
+        "Plataforma creativa todo en uno — imagen, vídeo, UI, 3D en un solo lienzo",
+        "La memoria persistente del agente elimina la necesidad de reexplicar reglas de marca",
+        "Ahorro significativo de tiempo — 6-12 horas/semana para creadores activos",
+        "Fuerte generación 3D impulsada por Hunyuan 3D (2,6M+ descargas en HuggingFace)",
+        "Sistema Skills reutilizable para compartir flujos de trabajo y consistencia del equipo",
+        "Nivel gratuito con 1.000 créditos cubre 10-15 proyectos medianos"
+      ],
+      "fr": [
+        "Plateforme créative tout-en-un — image, vidéo, UI, 3D sur un seul canvas",
+        "La mémoire persistante de l'agent élimine le besoin de réexpliquer les règles de marque",
+        "Gain de temps significatif — 6-12 heures/semaine pour les créateurs actifs",
+        "Forte génération 3D propulsée par Hunyuan 3D (2,6M+ téléchargements sur HuggingFace)",
+        "Système Skills réutilisable pour le partage de flux de travail et la cohérence d'équipe",
+        "Niveau gratuit avec 1 000 crédits couvre 10-15 projets moyens"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Currently in beta — requires invite code (though quickly granted)",
+        "3D fidelity doesn't match Blender/Spline for production-ready renders",
+        "Video output limited to ~30 seconds; longer narratives require stitching",
+        "UI agent struggles with complex responsive layouts",
+        "No mobile app — web-only for now",
+        "No public API or third-party integration surface yet"
+      ],
+      "zh": [
+        "目前处于测试阶段 — 需要邀请码（但注册流程快速发放）",
+        "3D 精度不及 Blender/Spline 的生产级渲染",
+        "视频输出限制在约 30 秒，更长叙事需拼接多段",
+        "UI 智能体处理复杂响应式布局时表现欠佳",
+        "暂无移动端 App — 目前仅支持网页",
+        "暂无公开 API 或第三方集成接口"
+      ],
+      "ja": [
+        "現在ベータ版 — 招待コードが必要（ただし迅速に発行）",
+        "3D の精度は Blender/Spline の本番レベルレンダリングには及ばない",
+        "動画出力は約 30 秒に制限。長いナラティブには複数クリップの結合が必要",
+        "UI エージェントは複雑なレスポンシブレイアウトに課題あり",
+        "モバイルアプリなし — 現在は Web のみ",
+        "公開 API やサードパーティ統合インターフェースはまだなし"
+      ],
+      "es": [
+        "Actualmente en beta — requiere código de invitación (aunque se otorga rápidamente)",
+        "La fidelidad 3D no coincide con Blender/Spline para renders listos para producción",
+        "Salida de vídeo limitada a ~30 segundos; narrativas más largas requieren unir clips",
+        "El agente UI tiene dificultades con diseños responsivos complejos",
+        "Sin aplicación móvil — solo web por ahora",
+        "Sin API pública ni superficie de integración de terceros aún"
+      ],
+      "fr": [
+        "Actuellement en bêta — nécessite un code d'invitation (bien qu'accordé rapidement)",
+        "La fidélité 3D ne correspond pas à Blender/Spline pour les rendus prêts pour la production",
+        "Sortie vidéo limitée à ~30 secondes ; les narrations plus longues nécessitent l'assemblage",
+        "L'agent UI a des difficultés avec les mises en page responsives complexes",
+        "Pas d'application mobile — uniquement web pour l'instant",
+        "Pas encore d'API publique ni de surface d'intégration tierce"
+      ]
+    },
+    "latestUpdate": {
+      "en": "May 2026: International beta launched at Tencent Cloud Day Hong Kong. Ranked #2 on Product Hunt (493 upvotes). Features persistent agent memory, multi-modal canvas, and reusable Skills system.",
+      "zh": "2026 年 5 月：在香港云大会上发布国际版邀测。Product Hunt 排名第 2（493 票）。支持持久记忆系统、多模态画布和可复用 Skills 系统。",
+      "ja": "2026 年 5 月：香港 Tencent Cloud Day で国際版ベータをリリース。Product Hunt で第 2 位（493 票）。永続エージェントメモリ、マルチモーダルキャンバス、再利用可能 Skills システムを搭載。",
+      "es": "Mayo 2026: beta internacional lanzada en Tencent Cloud Day Hong Kong. Clasificado #2 en Product Hunt (493 votos). Cuenta con memoria persistente de agente, lienzo multimodal y sistema Skills reutilizable.",
+      "fr": "Mai 2026 : bêta internationale lancée au Tencent Cloud Day Hong Kong. Classé #2 sur Product Hunt (493 votes). Dispose d'une mémoire d'agent persistante, d'un canvas multimodal et d'un système Skills réutilisable."
+    }
   }
 }
