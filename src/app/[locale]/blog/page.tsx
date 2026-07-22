@@ -5,7 +5,7 @@ import BlogClient from './BlogClient';
 import { generateAlternates } from '@/lib/seo';
 
 export const metadata: Metadata = {
-  title: 'AI Blog & News - CATAI',
+  title: 'AI Blog & News - Cataito',
   description: 'Stay updated with the latest AI trends, tool reviews, comparisons, and industry insights.',
   alternates: generateAlternates('/blog'),
 };

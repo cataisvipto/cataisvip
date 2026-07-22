@@ -19,13 +19,13 @@ export default function Footer() {
             <div className="flex items-center gap-2">
               <Image
                 src="/favicon.svg"
-                alt="CATAI"
+                alt="Cataito"
                 width={28}
                 height={28}
                 className="w-7 h-7"
               />
               <span className="text-lg font-bold bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-500 bg-clip-text text-transparent">
-                CATAI
+                Cataito
               </span>
             </div>
             <p className="text-sm text-[var(--muted)] leading-relaxed">

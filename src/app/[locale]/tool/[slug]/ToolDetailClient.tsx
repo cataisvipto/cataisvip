@@ -85,7 +85,7 @@ export default function ToolDetailClient({ tool, locale }: ToolDetailClientProps
   // Social sharing
   const siteUrl = 'https://cataito.com';
   const toolUrl = `${siteUrl}/${locale}/tool/${tool.slug}`;
-  const shareText = `${displayName} - CATAI AI Ecosystem Portal`;
+  const shareText = `${displayName} - Cataito AI Ecosystem Portal`;
   const shareLinks = {
     twitter: `https://twitter.com/intent/tweet?text=${encodeURIComponent(shareText)}&url=${encodeURIComponent(toolUrl)}`,
     linkedin: `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(toolUrl)}`,

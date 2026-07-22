@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const tool = tools.find((t) => t.slug === slug);
 
   if (!tool) {
-    return { title: 'Resource Not Found - CATAI' };
+    return { title: 'Resource Not Found - Cataito' };
   }
 
   const description = (() => {
@@ -53,7 +53,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: description,
     alternates: generateAlternates(`/tool/${slug}`),
     openGraph: {
-      title: `${displayName} - CATAI`,
+      title: `${displayName} - Cataito`,
       description: description,
       images: [tool.logo],
     },

@@ -1,0 +1,103 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Tool Details Schema",
+  "description": "Validation schema for src/data/toolDetails.json — detailed per-tool metadata",
+  "type": "object",
+  "additionalProperties": {
+    "type": "object",
+    "required": ["features", "pricing", "useCases", "pros", "cons", "latestUpdate"],
+    "additionalProperties": false,
+    "properties": {
+      "features": { "$ref": "#/$defs/i18nStringArray" },
+      "pricing": {
+        "type": "object",
+        "additionalProperties": { "$ref": "#/$defs/i18nString" }
+      },
+      "useCases": { "$ref": "#/$defs/i18nStringArray" },
+      "pros": { "$ref": "#/$defs/i18nStringArray" },
+      "cons": { "$ref": "#/$defs/i18nStringArray" },
+      "latestUpdate": { "$ref": "#/$defs/i18nString" },
+      "tutorial": {
+        "oneOf": [
+          { "$ref": "#/$defs/i18nString" },
+          { "$ref": "#/$defs/i18nTutorial" }
+        ]
+      },
+      "summary": { "$ref": "#/$defs/i18nString" }
+    }
+  },
+  "$defs": {
+    "i18nString": {
+      "type": "object",
+      "description": "Five-language string map (en, zh, ja, es, fr)",
+      "required": ["en", "zh", "ja", "es", "fr"],
+      "additionalProperties": false,
+      "properties": {
+        "en": { "type": "string" },
+        "zh": { "type": "string" },
+        "ja": { "type": "string" },
+        "es": { "type": "string" },
+        "fr": { "type": "string" }
+      }
+    },
+    "i18nTutorial": {
+      "type": "object",
+      "description": "Five-language tutorial map with structured steps",
+      "required": ["en", "zh", "ja", "es", "fr"],
+      "additionalProperties": false,
+      "properties": {
+        "en": { "$ref": "#/$defs/tutorialSteps" },
+        "zh": { "$ref": "#/$defs/tutorialSteps" },
+        "ja": { "$ref": "#/$defs/tutorialSteps" },
+        "es": { "$ref": "#/$defs/tutorialSteps" },
+        "fr": { "$ref": "#/$defs/tutorialSteps" }
+      }
+    },
+    "tutorialSteps": {
+      "type": "object",
+      "required": ["title", "steps"],
+      "additionalProperties": false,
+      "properties": {
+        "title": { "type": "string" },
+        "steps": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["step", "title", "content", "commands"],
+            "additionalProperties": false,
+            "properties": {
+              "step": { "type": "number", "minimum": 1 },
+              "title": { "type": "string" },
+              "content": { "type": "string" },
+              "commands": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": ["label", "code"],
+                  "additionalProperties": false,
+                  "properties": {
+                    "label": { "type": "string" },
+                    "code": { "type": "string" }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "i18nStringArray": {
+      "type": "object",
+      "description": "Five-language string array map (en, zh, ja, es, fr)",
+      "required": ["en", "zh", "ja", "es", "fr"],
+      "additionalProperties": false,
+      "properties": {
+        "en": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+        "zh": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+        "ja": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+        "es": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+        "fr": { "type": "array", "items": { "type": "string", "minLength": 1 } }
+      }
+    }
+  }
+}

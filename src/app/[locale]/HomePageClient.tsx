@@ -31,7 +31,7 @@ export default function HomePageClient() {
 
   const t = {
     latestTitle: locale === 'zh' ? '最新收录' : locale === 'ja' ? '最新追加' : locale === 'es' ? 'Últimas incorporaciones' : locale === 'fr' ? 'Derniers ajouts' : 'Latest Additions',
-    latestDesc: locale === 'zh' ? '最新加入 CATAI 生态的 AI 工具' : 'Recently added AI tools to the CATAI ecosystem',
+    latestDesc: locale === 'zh' ? '最新加入 Cataito 生态的 AI 工具' : 'Recently added AI tools to the Cataito ecosystem',
     viewAll: locale === 'zh' ? '浏览全部工具' : locale === 'ja' ? 'すべてのツールを見る' : locale === 'es' ? 'Ver todas las herramientas' : locale === 'fr' ? 'Voir tous les outils' : 'Browse All Tools',
   };
 

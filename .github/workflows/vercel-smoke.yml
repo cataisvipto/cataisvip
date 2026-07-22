@@ -1,0 +1,61 @@
+name: Vercel Preview Smoke Test
+
+on:
+  # 手动触发：指定预览 URL 进行验证
+  workflow_dispatch:
+    inputs:
+      preview_url:
+        description: 'Vercel 预览部署 URL (如 https://catai-git-xxx.vercel.app)'
+        required: true
+        type: string
+
+  # Vercel 部署完成后自动触发（部分 Vercel 集成会发送 deployment_status 事件）
+  deployment_status:
+
+jobs:
+  smoke:
+    # 手动触发时不限制
+    # deployment_status 触发时仅对成功部署运行
+    if: |
+      github.event_name == 'workflow_dispatch' ||
+      (github.event_name == 'deployment_status' && github.event.deployment_status.state == 'success')
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm ci
+
+      # 确定测试 URL
+      - name: 确定测试 URL
+        id: url
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "url=${{ inputs.preview_url }}" >> $GITHUB_OUTPUT
+          else
+            echo "url=${{ github.event.deployment_status.target_url }}" >> $GITHUB_OUTPUT
+          fi
+
+      - name: 运行冒烟测试
+        run: node scripts/smoke-test.mjs --base-url="${{ steps.url.outputs.url }}" --timeout=30000
+
+      # 设置部署状态（deployment_status 事件时反馈给 Vercel）
+      - name: 上报测试结果
+        if: github.event_name == 'deployment_status' && always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ "${{ job.status }}" = "success" ]; then
+            gh api "repos/${{ github.repository }}/deployments/${{ github.event.deployment.id }}/statuses" \
+              -f state=success -f description="冒烟测试通过" \
+              -f target_url="${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          else
+            gh api "repos/${{ github.repository }}/deployments/${{ github.event.deployment.id }}/statuses" \
+              -f state=failure -f description="冒烟测试失败" \
+              -f target_url="${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          fi

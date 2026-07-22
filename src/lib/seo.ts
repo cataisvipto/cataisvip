@@ -28,7 +28,7 @@ export function generateWebSiteJsonLd() {
   return {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
-    name: 'CATAI',
+    name: 'Cataito',
     url: BASE_URL,
     description: 'Your gateway to the global AI ecosystem. Discover AI models, agents, tools, and resources from around the world.',
     potentialAction: {
@@ -58,11 +58,11 @@ export function generateArticleJsonLd(params: {
     image: params.image,
     author: {
       '@type': 'Organization',
-      name: params.author || 'CATAI Team',
+      name: params.author || 'Cataito Team',
     },
     publisher: {
       '@type': 'Organization',
-      name: 'CATAI',
+      name: 'Cataito',
       logo: {
         '@type': 'ImageObject',
         url: `${BASE_URL}/logo.svg`,

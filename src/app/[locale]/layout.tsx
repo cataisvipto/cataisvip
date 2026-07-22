@@ -18,24 +18,24 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "CATAI - AI Ecosystem Portal | Your Gateway to AI",
+  title: "Cataito - AI Ecosystem Portal | Your Gateway to AI",
   description: "Your gateway to the global AI ecosystem. Discover AI models, agents, tools, and resources from around the world.",
   keywords: "AI portal, AI ecosystem, AI tools, AI models, AI agents, ChatGPT, Claude, Gemini, DeepSeek, AI resources, artificial intelligence",
-  authors: [{ name: "CATAI" }],
+  authors: [{ name: "Cataito" }],
   icons: {
     icon: '/favicon.svg',
     apple: '/favicon.svg',
   },
   openGraph: {
-    title: "CATAI - AI Ecosystem Portal",
+    title: "Cataito - AI Ecosystem Portal",
     description: "Discover AI models, agents, tools, and resources from around the world.",
     type: "website",
     locale: "en_US",
-    siteName: "CATAI",
+    siteName: "Cataito",
   },
   twitter: {
     card: "summary_large_image",
-    title: "CATAI - AI Ecosystem Portal",
+    title: "Cataito - AI Ecosystem Portal",
     description: "Your gateway to the global AI ecosystem.",
   },
   robots: {
@@ -47,6 +47,10 @@ export const metadata: Metadata = {
     },
   },
 };
+
+export function generateStaticParams() {
+  return [{ locale: 'en' }, { locale: 'zh' }, { locale: 'ja' }, { locale: 'es' }, { locale: 'fr' }];
+}
 
 export default async function LocaleLayout({
   children,

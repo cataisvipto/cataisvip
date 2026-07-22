@@ -67,12 +67,12 @@ function parseInstallSection(markdown: string): string | null {
     const escapedCode = escapeHtml(codeContent.trimEnd());
     const langLabel = codeLang || 'text';
     html += `<div class="code-block-wrapper group relative my-3 rounded-lg overflow-hidden border border-[var(--card-border)]">` +
-      `<div class="flex items-center justify-between bg-[#0f172a] px-4 py-1.5 text-xs text-[#94a3b8] border-b border-white/5">` +
+      `<div class="code-block-header flex items-center justify-between px-4 py-1.5 text-xs border-b border-white/5">` +
       `<span class="font-mono">${escapeHtml(langLabel)}</span>` +
-      `<button type="button" class="copy-code-btn flex items-center gap-1 opacity-0 group-hover:opacity-100 transition-opacity text-[#94a3b8] hover:text-white">` +
+      `<button type="button" class="copy-code-btn flex items-center gap-1 opacity-0 group-hover:opacity-100 transition-opacity">` +
       `<svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"/></svg>` +
       `Copy</button></div>` +
-      `<pre class="bg-[#1e293b] p-4 overflow-x-auto m-0"><code class="text-sm text-[#e2e8f0] font-mono leading-relaxed">${escapedCode}</code></pre></div>\n`;
+      `<pre class="code-block-body p-4 overflow-x-auto m-0"><code class="text-sm font-mono leading-relaxed">${escapedCode}</code></pre></div>\n`;
     codeContent = '';
     inCodeBlock = false;
   };

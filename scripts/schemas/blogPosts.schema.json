@@ -1,0 +1,38 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Blog Posts Schema",
+  "description": "Validation schema for src/data/blogPosts.json — blog post entries",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["slug", "title", "excerpt", "content", "author", "publishedAt", "category", "tags", "coverImage", "readTime"],
+    "additionalProperties": false,
+    "properties": {
+      "slug":        { "type": "string", "minLength": 1 },
+      "title":       { "$ref": "#/$defs/i18nString" },
+      "excerpt":     { "$ref": "#/$defs/i18nString" },
+      "content":     { "$ref": "#/$defs/i18nString" },
+      "author":      { "type": "string", "minLength": 1 },
+      "publishedAt": { "type": "string", "minLength": 1 },
+      "category":    { "type": "string", "minLength": 1 },
+      "tags":        { "type": "array", "items": { "type": "string", "minLength": 1 } },
+      "coverImage":  { "type": "string", "minLength": 1 },
+      "readTime":    { "type": "number", "exclusiveMinimum": 0 }
+    }
+  },
+  "$defs": {
+    "i18nString": {
+      "type": "object",
+      "description": "Five-language string map (en, zh, ja, es, fr)",
+      "required": ["en", "zh", "ja", "es", "fr"],
+      "additionalProperties": false,
+      "properties": {
+        "en": { "type": "string" },
+        "zh": { "type": "string" },
+        "ja": { "type": "string" },
+        "es": { "type": "string" },
+        "fr": { "type": "string" }
+      }
+    }
+  }
+}

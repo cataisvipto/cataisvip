@@ -43,8 +43,8 @@ export default function Newsletter({ locale = 'en' }: NewsletterProps) {
         body: JSON.stringify({
           access_key: process.env.NEXT_PUBLIC_WEB3FORMS_KEY || '9ec58a55-eb5e-440e-b5d7-887b53f460ee',
           email: email,
-          from_name: 'CATAI Newsletter',
-          subject: 'New Newsletter Subscription - CATAI',
+          from_name: 'Cataito Newsletter',
+          subject: 'New Newsletter Subscription - Cataito',
           message: `New subscription from: ${email}`,
         }),
       });

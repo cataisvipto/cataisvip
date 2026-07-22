@@ -208,12 +208,12 @@ export default function SkillDetailClient({ skill, locale, readmeInstallHtml, gi
                 </div>
               ) : (
                 <div className="flex items-stretch">
-                  <div className="flex-1 bg-[#1e293b] border border-[var(--card-border)] rounded-l-lg px-4 py-3 overflow-x-auto">
-                    <code className="text-sm text-[#e2e8f0] font-mono whitespace-nowrap select-all">{installCmd}</code>
+                  <div className="code-install-box flex-1 border border-[var(--card-border)] rounded-l-lg px-4 py-3 overflow-x-auto">
+                    <code className="code-install-text text-sm font-mono whitespace-nowrap select-all">{installCmd}</code>
                   </div>
                   <button
                     onClick={handleCopyCommand}
-                    className="flex items-center gap-1.5 px-4 py-3 bg-[#1e293b] border border-l-0 border-[var(--card-border)] rounded-r-lg text-xs font-medium text-[#94a3b8] hover:text-white hover:bg-[var(--primary)]/20 transition-all"
+                    className="code-install-btn flex items-center gap-1.5 px-4 py-3 border border-l-0 border-[var(--card-border)] rounded-r-lg text-xs font-medium hover:text-white hover:bg-[var(--primary)]/20 transition-all"
                   >
                     {copied ? (
                       <>

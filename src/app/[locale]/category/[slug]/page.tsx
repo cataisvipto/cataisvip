@@ -29,7 +29,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   if (!category) return {};
 
   const categoryTools = tools.filter((t) => t.category === category);
-  const title = `Best ${category} AI Tools in 2026 - ${categoryTools.length} Tools | CATAI`;
+  const title = `Best ${category} AI Tools in 2026 - ${categoryTools.length} Tools | Cataito`;
   const description = `Discover the top ${categoryTools.length} AI ${category.toLowerCase()} tools. Compare features, pricing, and find the best ${category.toLowerCase()} AI tool for your needs.`;
 
   return {

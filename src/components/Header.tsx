@@ -62,13 +62,13 @@ export default function Header({ searchQuery, onSearchChange, locale }: HeaderPr
           <Link href="/" className="flex items-center gap-2 shrink-0">
             <Image
               src="/favicon.svg"
-              alt="CATAI"
+              alt="Cataito"
               width={36}
               height={36}
               className="w-9 h-9"
             />
             <span className="text-xl font-bold bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-500 bg-clip-text text-transparent">
-              CATAI
+              Cataito
             </span>
           </Link>
 

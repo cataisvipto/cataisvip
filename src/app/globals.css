@@ -71,3 +71,29 @@ html {
 ::-webkit-scrollbar-thumb:hover {
   background: var(--primary);
 }
+
+/* Code block styles — dark theme for both light and dark mode */
+.code-block-header {
+  background: #0f172a;
+  color: #94a3b8;
+}
+.code-block-header .copy-code-btn {
+  color: #94a3b8;
+}
+.code-block-header .copy-code-btn:hover {
+  color: #ffffff;
+}
+.code-block-body {
+  background: #1e293b;
+  color: #e2e8f0;
+}
+.code-install-box {
+  background: #1e293b;
+}
+.code-install-text {
+  color: #e2e8f0;
+}
+.code-install-btn {
+  background: #1e293b;
+  color: #94a3b8;
+}

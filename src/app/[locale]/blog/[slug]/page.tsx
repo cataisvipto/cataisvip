@@ -24,7 +24,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const post = blogPosts.find((p) => p.slug === slug);
 
   if (!post) {
-    return { title: 'Article Not Found - CATAI' };
+    return { title: 'Article Not Found - Cataito' };
   }
 
   const title = (post.title as Record<string, string>)[locale] || post.title.en;
@@ -32,11 +32,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const postUrl = `${BASE_URL}/${locale}/blog/${slug}`;
 
   return {
-    title: `${title} - CATAI Blog`,
+    title: `${title} - Cataito Blog`,
     description: excerpt,
     alternates: generateAlternates(`/blog/${slug}`),
     openGraph: {
-      title: `${title} - CATAI`,
+      title: `${title} - Cataito`,
       description: excerpt,
       images: [post.coverImage],
       type: 'article',
