@@ -77,7 +77,7 @@ function parseInstallSection(markdown: string): string | null {
     inCodeBlock = false;
   };
 
-  for (let rawLine of lines) {
+  for (const rawLine of lines) {
     // Preserve original line for code content indentation, use trimmed for detection
     const trimmed = rawLine.trim();
 
@@ -177,7 +177,7 @@ async function fetchGitHubStars(repo: string): Promise<number | null> {
 
 export default async function SkillDetailPage({ params }: Props) {
   const { locale, slug } = await params;
-  const skill = (skills as any[]).find((s: any) => s.slug === slug);
+  const skill = skills.find((s) => s.slug === slug);
   if (!skill) notFound();
 
   const [readmeInstallHtml, gitHubStars] = await Promise.all([
@@ -187,7 +187,7 @@ export default async function SkillDetailPage({ params }: Props) {
 
   return (
     <SkillDetailClient
-      skill={skill as any}
+      skill={skill}
       locale={locale}
       readmeInstallHtml={readmeInstallHtml ?? undefined}
       gitHubStars={gitHubStars ?? undefined}

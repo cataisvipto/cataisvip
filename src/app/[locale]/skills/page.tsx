@@ -45,5 +45,5 @@ export default async function SkillsPage({ params }: Props) {
   );
   const starsMap: Record<string, number> = Object.fromEntries(starsEntries);
 
-  return <SkillsClient skills={skills as any} locale={locale} starsMap={starsMap} />;
+  return <SkillsClient skills={skills} locale={locale} starsMap={starsMap} />;
 }

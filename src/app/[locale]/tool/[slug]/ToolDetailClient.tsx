@@ -36,7 +36,8 @@ export default function ToolDetailClient({ tool, locale }: ToolDetailClientProps
   const [copiedIndex, setCopiedIndex] = useState<string | null>(null);
   const description = getLocalizedDescription(tool, locale);
   const displayName = locale === 'zh' && tool.nameZh ? tool.nameZh : tool.name;
-  const details = (toolDetails as any)[tool.slug];
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const details: any = (toolDetails as Record<string, Record<string, unknown>>)[tool.slug];
 
   const handleCopy = async (text: string, id: string) => {
     try {
@@ -64,8 +65,8 @@ export default function ToolDetailClient({ tool, locale }: ToolDetailClientProps
     .slice(0, 4);
 
   // Find related blog posts (tags match tool name/slug)
-  const relatedPosts = (blogPosts as any[]).filter((post) => {
-    const postTags = (post.tags || []).map((t: string) => t.toLowerCase());
+  const relatedPosts = blogPosts.filter((post) => {
+    const postTags = (post.tags || []).map((t) => t.toLowerCase());
     const toolName = tool.name.toLowerCase();
     const toolSlug = tool.slug.toLowerCase();
     return postTags.some(
@@ -73,8 +74,15 @@ export default function ToolDetailClient({ tool, locale }: ToolDetailClientProps
     );
   }).slice(0, 3);
 
-  const getLocalized = (field: any, loc: string) =>
-    typeof field === 'string' ? field : field?.[loc] || field?.en || '';
+  const getLocalized = (field: unknown, loc: string): string | string[] => {
+    if (typeof field === 'string') return field;
+    if (Array.isArray(field)) return field;
+    if (field && typeof field === 'object') {
+      const obj = field as Record<string, string | string[]>;
+      return obj[loc] || obj.en || '';
+    }
+    return '';
+  };
 
   // Social sharing
   const siteUrl = 'https://cataito.com';
@@ -96,7 +104,7 @@ export default function ToolDetailClient({ tool, locale }: ToolDetailClientProps
     '@context': 'https://schema.org',
     '@type': 'SoftwareApplication',
     name: displayName,
-    applicationCategory: tCategories(tool.category as any),
+    applicationCategory: tCategories(tool.category),
     operatingSystem: 'Web',
     url: tool.url,
     image: tool.logo,
@@ -238,7 +246,7 @@ export default function ToolDetailClient({ tool, locale }: ToolDetailClientProps
                   {t('keyFeatures')}
                 </h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                  {getLocalized(details.features, locale).map((feature: string, index: number) => (
+                  {(getLocalized(details.features, locale) as string[]).map((feature: string, index: number) => (
                     <div key={index} className="flex items-start gap-2">
                       <CheckCircle className="w-5 h-5 text-emerald-500 shrink-0 mt-0.5" />
                       <span className="text-[var(--muted)]">{feature}</span>
@@ -254,10 +262,10 @@ export default function ToolDetailClient({ tool, locale }: ToolDetailClientProps
                   {t('pricing')}
                 </h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                  {Object.entries(details.pricing).map(([key, value]) => (
+                  {Object.entries(details.pricing as Record<string, unknown>).map(([key, value]) => (
                     <div key={key} className="p-4 bg-[var(--muted-bg)] rounded-xl">
                       <div className="text-sm font-medium text-[var(--muted)] capitalize mb-1">{key}</div>
-                      <div className="text-[var(--foreground)]">{getLocalized(value, locale)}</div>
+                      <div className="text-[var(--foreground)]">{getLocalized(value, locale) as string}</div>
                     </div>
                   ))}
                 </div>
@@ -270,7 +278,7 @@ export default function ToolDetailClient({ tool, locale }: ToolDetailClientProps
                   {t('useCases')}
                 </h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                  {getLocalized(details.useCases, locale).map((useCase: string, index: number) => (
+                  {(getLocalized(details.useCases, locale) as string[]).map((useCase: string, index: number) => (
                     <div key={index} className="flex items-start gap-2">
                       <CheckCircle className="w-5 h-5 text-blue-500 shrink-0 mt-0.5" />
                       <span className="text-[var(--muted)]">{useCase}</span>
@@ -287,7 +295,7 @@ export default function ToolDetailClient({ tool, locale }: ToolDetailClientProps
                     {t('pros')}
                   </h2>
                   <div className="space-y-3">
-                    {getLocalized(details.pros, locale).map((pro: string, index: number) => (
+                    {(getLocalized(details.pros, locale) as string[]).map((pro: string, index: number) => (
                       <div key={index} className="flex items-start gap-2">
                         <CheckCircle className="w-5 h-5 text-emerald-500 shrink-0 mt-0.5" />
                         <span className="text-[var(--muted)]">{pro}</span>
@@ -302,7 +310,7 @@ export default function ToolDetailClient({ tool, locale }: ToolDetailClientProps
                     {t('cons')}
                   </h2>
                   <div className="space-y-3">
-                    {getLocalized(details.cons, locale).map((con: string, index: number) => (
+                    {(getLocalized(details.cons, locale) as string[]).map((con: string, index: number) => (
                       <div key={index} className="flex items-start gap-2">
                         <XCircle className="w-5 h-5 text-red-500 shrink-0 mt-0.5" />
                         <span className="text-[var(--muted)]">{con}</span>
@@ -318,13 +326,13 @@ export default function ToolDetailClient({ tool, locale }: ToolDetailClientProps
                   <Zap className="w-5 h-5 text-indigo-500" />
                   {t('latestUpdate')}
                 </h2>
-                <p className="text-[var(--muted)] leading-relaxed">{getLocalized(details.latestUpdate, locale)}</p>
+                <p className="text-[var(--muted)] leading-relaxed">{getLocalized(details.latestUpdate, locale) as string}</p>
               </div>
             </>
           )}
 
           {/* Tutorial Section - redesigned for clarity and copy-ability */}
-          {details?.tutorial && (
+          {(details as Record<string, unknown>)?.tutorial && (
             <div className="bg-[var(--card-bg)] rounded-2xl border border-[var(--card-border)] overflow-hidden shadow-sm">
               {/* Header */}
               <div className="px-8 py-6 border-b border-[var(--card-border)] bg-[var(--card-bg)] bg-gradient-to-r from-indigo-50/50 to-transparent dark:from-indigo-900/10">
@@ -334,7 +342,7 @@ export default function ToolDetailClient({ tool, locale }: ToolDetailClientProps
                   </div>
                   <div>
                     <h2 className="text-xl font-bold text-[var(--foreground)]">
-                      {details.tutorial[locale]?.title || details.tutorial.en?.title}
+                      {(details.tutorial as Record<string, { title: string }>)[locale]?.title || (details.tutorial as Record<string, { title: string }>).en?.title}
                     </h2>
                     <p className="text-sm text-[var(--muted)]">
                       {t('tutorialSubtitle')}
@@ -345,30 +353,30 @@ export default function ToolDetailClient({ tool, locale }: ToolDetailClientProps
 
               {/* Steps */}
               <div className="p-8">
-                {(details.tutorial[locale]?.steps || details.tutorial.en?.steps || []).map((step: any, index: number) => {
-                  const commands = step.commands || [];
+                {(((details.tutorial as Record<string, { steps: unknown[] }>)[locale]?.steps || (details.tutorial as Record<string, { steps: unknown[] }>).en?.steps || []) as Record<string, unknown>[]).map((step, index: number) => {
+                  const commands = (step.commands as Record<string, string>[]) || [];
                   return (
                     <div key={index} className={`flex gap-6 ${index > 0 ? 'mt-8 pt-8 border-t border-[var(--card-border)]' : ''}`}>
                       {/* Step number */}
                       <div className="flex-shrink-0">
                         <div className="w-10 h-10 rounded-full bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center shadow-sm">
-                          <span className="text-base font-bold text-white">{step.step}</span>
+                          <span className="text-base font-bold text-white">{step.step as string}</span>
                         </div>
                       </div>
 
                       {/* Content */}
                       <div className="flex-1 min-w-0">
-                        <h3 className="text-lg font-semibold text-[var(--foreground)] mb-2">{step.title}</h3>
+                        <h3 className="text-lg font-semibold text-[var(--foreground)] mb-2">{step.title as string}</h3>
 
-                        {step.content && (
-                          <p className="text-sm text-[var(--muted)] mb-4 leading-relaxed">{step.content}</p>
+                        {(step.content as string) && (
+                          <p className="text-sm text-[var(--muted)] mb-4 leading-relaxed">{step.content as string}</p>
                         )}
 
                         {/* Command blocks */}
                         {commands.length > 0 && (
                           <div className="space-y-2.5">
-                            {commands.map((cmd: any, cmdIndex: number) => {
-                              const cmdId = `${step.step}-${cmdIndex}`;
+                            {commands.map((cmd, cmdIndex: number) => {
+                              const cmdId = `${step.step as string}-${cmdIndex}`;
                               return (
                                 <div key={cmdIndex} className="group">
                                   {cmd.label && (
@@ -477,10 +485,10 @@ export default function ToolDetailClient({ tool, locale }: ToolDetailClientProps
                       {post.category}
                     </div>
                     <h3 className="font-medium text-[var(--foreground)] mb-1">
-                      {getLocalized(post.title, locale)}
+                      {getLocalized(post.title, locale) as string}
                     </h3>
                     <p className="text-sm text-[var(--muted)] line-clamp-2">
-                      {getLocalized(post.excerpt, locale)}
+                      {getLocalized(post.excerpt, locale) as string}
                     </p>
                   </Link>
                 ))}

@@ -169,7 +169,7 @@ export default function SubmitPage() {
                 >
                   <option value="">{t('selectCategory')}</option>
                   {CATEGORIES.map((cat) => (
-                    <option key={cat} value={cat}>{tCategories(cat as any)}</option>
+                    <option key={cat} value={cat}>{tCategories(cat)}</option>
                   ))}
                 </select>
               </div>
