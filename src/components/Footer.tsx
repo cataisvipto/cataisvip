@@ -31,9 +31,9 @@ export default function Footer() {
             <p className="text-sm text-[var(--muted)] leading-relaxed">
               {t('description')}
             </p>
-            <a href="mailto:cataisvip@gmail.com" className="flex items-center gap-1.5 text-sm text-[var(--muted)] hover:text-[var(--primary)] transition" title={t('contact')}>
+            <a href="mailto:hello@cataito.com" className="flex items-center gap-1.5 text-sm text-[var(--muted)] hover:text-[var(--primary)] transition" title={t('contact')}>
               <Mail className="w-3.5 h-3.5" />
-              <span>cataisvip@gmail.com</span>
+              <span>hello@cataito.com</span>
             </a>
           </div>
 

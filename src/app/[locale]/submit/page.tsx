@@ -8,7 +8,7 @@ import Footer from '@/components/Footer';
 import { ArrowLeft, Send, CheckCircle, Loader2, AlertCircle } from 'lucide-react';
 
 const CATEGORIES = ['Chat', 'Image', 'Code', 'Writing', 'Video', 'Audio', 'Search', 'Design', 'Agent', 'Developer', 'Platform'];
-const FORMSUBMIT_URL = 'https://formsubmit.co/ajax/cataisvip@gmail.com';
+const FORMSUBMIT_URL = 'https://formsubmit.co/ajax/hello@cataito.com';
 
 export default function SubmitPage() {
   const t = useTranslations('submit');

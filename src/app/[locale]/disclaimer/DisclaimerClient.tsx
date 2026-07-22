@@ -95,7 +95,7 @@ export default function DisclaimerClient() {
             <section>
               <h2 className="text-xl font-semibold text-[var(--foreground)] mb-3">{t('contact_title')}</h2>
               <p>{t('contact_text')}</p>
-              <p className="mt-2"><strong>Email:</strong> cataisvip@gmail.com</p>
+              <p className="mt-2"><strong>Email:</strong> hello@cataito.com</p>
             </section>
           </div>
         </article>
