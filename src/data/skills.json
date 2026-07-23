@@ -11,11 +11,23 @@
     "developer": "Prime Radiant (Jesse Vincent)",
     "developerZh": "Prime Radiant（Jesse Vincent）",
     "repo": "obra/superpowers",
-    "agents": ["claude", "cursor", "codex", "github-copilot", "kimi-code", "opencode", "antigravity", "factory-droid"],
+    "agents": [
+      "claude",
+      "cursor",
+      "codex",
+      "github-copilot",
+      "kimi-code",
+      "opencode",
+      "antigravity",
+      "factory-droid"
+    ],
     "category": "Developer",
-    "tags": ["Free", "Open Source"],
+    "tags": [
+      "Free",
+      "Open Source"
+    ],
     "installCommand": "Available via Claude Code marketplace, Cursor /add-plugin, Codex plugin marketplace, and more. See README for details.",
-    "logo": "https://www.google.com/s2/favicons?domain=github.com&sz=128",
+    "logo": "/logos/skills/superpowers.png",
     "stars": 8500,
     "featured": true
   },
@@ -31,11 +43,18 @@
     "developer": "gloweaseco-leo",
     "developerZh": "gloweaseco-leo",
     "repo": "gloweaseco-leo/hyperdirector",
-    "agents": ["claude", "cursor", "generic"],
+    "agents": [
+      "claude",
+      "cursor",
+      "generic"
+    ],
     "category": "Video",
-    "tags": ["Free", "Open Source"],
+    "tags": [
+      "Free",
+      "Open Source"
+    ],
     "installCommand": "See README for installation instructions.",
-    "logo": "https://www.google.com/s2/favicons?domain=github.com&sz=128",
+    "logo": "/logos/skills/hyperdirector.png",
     "stars": 200,
     "featured": true
   },
@@ -51,11 +70,18 @@
     "developer": "Gyana491",
     "developerZh": "Gyana491",
     "repo": "Gyana491/opencanvas-remotion",
-    "agents": ["claude", "cursor", "generic"],
+    "agents": [
+      "claude",
+      "cursor",
+      "generic"
+    ],
     "category": "Video",
-    "tags": ["Free", "Open Source"],
+    "tags": [
+      "Free",
+      "Open Source"
+    ],
     "installCommand": "See README for installation instructions.",
-    "logo": "https://www.google.com/s2/favicons?domain=github.com&sz=128",
+    "logo": "/logos/skills/remotion-best-practices.png",
     "stars": 150,
     "featured": true
   },
@@ -71,11 +97,18 @@
     "developer": "blader",
     "developerZh": "blader",
     "repo": "blader/humanizer",
-    "agents": ["claude", "cursor", "generic"],
+    "agents": [
+      "claude",
+      "cursor",
+      "generic"
+    ],
     "category": "Writing",
-    "tags": ["Free", "Open Source"],
+    "tags": [
+      "Free",
+      "Open Source"
+    ],
     "installCommand": "npx @anthropic-ai/claude add mcp-server-humanizer",
-    "logo": "https://www.google.com/s2/favicons?domain=github.com&sz=128",
+    "logo": "/logos/skills/humanizer.png",
     "stars": 1200,
     "featured": true
   },
@@ -91,11 +124,18 @@
     "developer": "helloianneo",
     "developerZh": "helloianneo",
     "repo": "helloianneo/ian-xiaohei-illustrations",
-    "agents": ["claude", "cursor", "generic"],
+    "agents": [
+      "claude",
+      "cursor",
+      "generic"
+    ],
     "category": "Design",
-    "tags": ["Free", "Open Source"],
+    "tags": [
+      "Free",
+      "Open Source"
+    ],
     "installCommand": "npx @anthropic-ai/claude add ian-xiaohei-illustrations",
-    "logo": "https://www.google.com/s2/favicons?domain=github.com&sz=128",
+    "logo": "/logos/skills/ian-xiaohei-illustrations.png",
     "stars": 350,
     "featured": true
   },
@@ -111,11 +151,19 @@
     "developer": "nextlevelbuilder",
     "developerZh": "nextlevelbuilder",
     "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
-    "agents": ["claude", "cursor", "codex", "generic"],
+    "agents": [
+      "claude",
+      "cursor",
+      "codex",
+      "generic"
+    ],
     "category": "Design",
-    "tags": ["Free", "Open Source"],
+    "tags": [
+      "Free",
+      "Open Source"
+    ],
     "installCommand": "Available via plugin marketplace. See README for details.",
-    "logo": "https://www.google.com/s2/favicons?domain=github.com&sz=128",
+    "logo": "/logos/skills/brand.png",
     "stars": 600,
     "featured": true
   },
@@ -131,11 +179,18 @@
     "developer": "Panniantong",
     "developerZh": "Panniantong",
     "repo": "Panniantong/Agent-Reach",
-    "agents": ["claude", "cursor", "generic"],
+    "agents": [
+      "claude",
+      "cursor",
+      "generic"
+    ],
     "category": "Platform",
-    "tags": ["Free", "Open Source"],
+    "tags": [
+      "Free",
+      "Open Source"
+    ],
     "installCommand": "See README for installation instructions.",
-    "logo": "https://www.google.com/s2/favicons?domain=github.com&sz=128",
+    "logo": "/logos/skills/agent-reach.png",
     "stars": 250,
     "featured": true
   },
@@ -151,11 +206,19 @@
     "developer": "nextlevelbuilder",
     "developerZh": "nextlevelbuilder",
     "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
-    "agents": ["claude", "cursor", "codex", "generic"],
+    "agents": [
+      "claude",
+      "cursor",
+      "codex",
+      "generic"
+    ],
     "category": "Design",
-    "tags": ["Free", "Open Source"],
+    "tags": [
+      "Free",
+      "Open Source"
+    ],
     "installCommand": "Available via plugin marketplace. See README for details.",
-    "logo": "https://www.google.com/s2/favicons?domain=github.com&sz=128",
+    "logo": "/logos/skills/ui-styling.png",
     "stars": 600,
     "featured": true
   },
@@ -171,11 +234,19 @@
     "developer": "nextlevelbuilder",
     "developerZh": "nextlevelbuilder",
     "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
-    "agents": ["claude", "cursor", "codex", "generic"],
+    "agents": [
+      "claude",
+      "cursor",
+      "codex",
+      "generic"
+    ],
     "category": "Design",
-    "tags": ["Free", "Open Source"],
+    "tags": [
+      "Free",
+      "Open Source"
+    ],
     "installCommand": "Available via plugin marketplace. See README for details.",
-    "logo": "https://www.google.com/s2/favicons?domain=github.com&sz=128",
+    "logo": "/logos/skills/design-system.png",
     "stars": 600,
     "featured": true
   },
@@ -191,11 +262,19 @@
     "developer": "nextlevelbuilder",
     "developerZh": "nextlevelbuilder",
     "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
-    "agents": ["claude", "cursor", "codex", "generic"],
+    "agents": [
+      "claude",
+      "cursor",
+      "codex",
+      "generic"
+    ],
     "category": "Design",
-    "tags": ["Free", "Open Source"],
+    "tags": [
+      "Free",
+      "Open Source"
+    ],
     "installCommand": "Available via plugin marketplace. See README for details.",
-    "logo": "https://www.google.com/s2/favicons?domain=github.com&sz=128",
+    "logo": "/logos/skills/slides.png",
     "stars": 600,
     "featured": true
   },
@@ -211,11 +290,19 @@
     "developer": "nextlevelbuilder",
     "developerZh": "nextlevelbuilder",
     "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
-    "agents": ["claude", "cursor", "codex", "generic"],
+    "agents": [
+      "claude",
+      "cursor",
+      "codex",
+      "generic"
+    ],
     "category": "Design",
-    "tags": ["Free", "Open Source"],
+    "tags": [
+      "Free",
+      "Open Source"
+    ],
     "installCommand": "Available via plugin marketplace. See README for details.",
-    "logo": "https://www.google.com/s2/favicons?domain=github.com&sz=128",
+    "logo": "/logos/skills/design.png",
     "stars": 600,
     "featured": true
   },
@@ -231,11 +318,19 @@
     "developer": "nextlevelbuilder",
     "developerZh": "nextlevelbuilder",
     "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
-    "agents": ["claude", "cursor", "codex", "generic"],
+    "agents": [
+      "claude",
+      "cursor",
+      "codex",
+      "generic"
+    ],
     "category": "Design",
-    "tags": ["Free", "Open Source"],
+    "tags": [
+      "Free",
+      "Open Source"
+    ],
     "installCommand": "Available via plugin marketplace. See README for details.",
-    "logo": "https://www.google.com/s2/favicons?domain=github.com&sz=128",
+    "logo": "/logos/skills/banner-design.png",
     "stars": 600,
     "featured": true
   },
@@ -251,11 +346,16 @@
     "developer": "awesome-selfhosted",
     "developerZh": "awesome-selfhosted",
     "repo": "awesome-selfhosted/awesome-selfhosted",
-    "agents": ["generic"],
+    "agents": [
+      "generic"
+    ],
     "category": "Developer",
-    "tags": ["Free", "Open Source"],
+    "tags": [
+      "Free",
+      "Open Source"
+    ],
     "installCommand": "See README for details.",
-    "logo": "https://www.google.com/s2/favicons?domain=github.com&sz=128",
+    "logo": "/logos/skills/awesome-selfhosted.png",
     "stars": 210000,
     "featured": true
   },
@@ -271,11 +371,16 @@
     "developer": "NanmiCoder",
     "developerZh": "NanmiCoder",
     "repo": "NanmiCoder/MediaCrawler",
-    "agents": ["generic"],
+    "agents": [
+      "generic"
+    ],
     "category": "Developer",
-    "tags": ["Free", "Open Source"],
+    "tags": [
+      "Free",
+      "Open Source"
+    ],
     "installCommand": "See README for installation instructions.",
-    "logo": "https://www.google.com/s2/favicons?domain=github.com&sz=128",
+    "logo": "/logos/skills/media-crawler.png",
     "stars": 25000,
     "featured": true
   },
@@ -291,11 +396,16 @@
     "developer": "jianchang512",
     "developerZh": "jianchang512",
     "repo": "jianchang512/pyvideotrans",
-    "agents": ["generic"],
+    "agents": [
+      "generic"
+    ],
     "category": "Video",
-    "tags": ["Free", "Open Source"],
+    "tags": [
+      "Free",
+      "Open Source"
+    ],
     "installCommand": "pip install pyvideotrans",
-    "logo": "https://www.google.com/s2/favicons?domain=github.com&sz=128",
+    "logo": "/logos/skills/pyvideotrans.png",
     "stars": 12400,
     "featured": true
   }
