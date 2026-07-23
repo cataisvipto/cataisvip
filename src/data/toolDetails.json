@@ -15482,5 +15482,250 @@
       "es": "Mayo 2026: beta internacional lanzada en Tencent Cloud Day Hong Kong. Clasificado #2 en Product Hunt (493 votos). Cuenta con memoria persistente de agente, lienzo multimodal y sistema Skills reutilizable.",
       "fr": "Mai 2026 : bêta internationale lancée au Tencent Cloud Day Hong Kong. Classé #2 sur Product Hunt (493 votes). Dispose d'une mémoire d'agent persistante, d'un canvas multimodal et d'un système Skills réutilisable."
     }
+  },
+  "kimi-code": {
+    "features": {
+      "en": ["AI coding agent with CLI", "VS Code extension", "Powered by Kimi K3", "Up to 1M-token context", "Read, edit files and run commands", "Web search and subagents"],
+      "zh": ["AI 编程 Agent（CLI）", "VS Code 扩展插件", "搭载 Kimi K3 模型", "最高 100 万 token 上下文", "代码阅读、文件编辑与命令执行", "联网搜索与子 Agent"],
+      "ja": ["CLI 付き AI コーディング Agent", "VS Code 拡張", "Kimi K3 を搭載", "最大 100 万トークンのコンテキスト", "ファイルの読み書きとコマンド実行", "Web 検索とサブ Agent"],
+      "es": ["Agente de codificación con CLI", "Extensión de VS Code", "Impulsado por Kimi K3", "Contexto de hasta 1M de tokens", "Lee, edita archivos y ejecuta comandos", "Búsqueda web y subagentes"],
+      "fr": ["Agent de codage avec CLI", "Extension VS Code", "Propulsé par Kimi K3", "Contexte jusqu'à 1M de tokens", "Lecture, édition de fichiers et exécution de commandes", "Recherche web et sous-agents"]
+    },
+    "pricing": {
+      "free": {"en": "Free tier with basic quota", "zh": "免费额度（基础用量）", "ja": "基本枠の無料プラン", "es": "Nivel gratuito con cuota básica", "fr": "Offre gratuite avec quota de base"},
+      "pro": {"en": "Kimi Code Plan (Moderato and above unlock K3)", "zh": "Kimi Code 套餐（Moderato 及以上解锁 K3）", "ja": "Kimi Code プラン（Moderato 以上で K3 解放）", "es": "Plan Kimi Code (Moderato o superior desbloquea K3)", "fr": "Plan Kimi Code (Moderato et plus débloque K3)"}
+    },
+    "useCases": {
+      "en": ["Code generation", "Refactoring", "Debugging", "Cross-file project analysis"],
+      "zh": ["代码生成", "代码重构", "调试排错", "跨文件项目分析"],
+      "ja": ["コード生成", "リファクタリング", "デバッグ", "ファイル横断のプロジェクト分析"],
+      "es": ["Generación de código", "Refactorización", "Depuración", "Análisis de proyectos entre archivos"],
+      "fr": ["Génération de code", "Refactorisation", "Débogage", "Analyse de projet multi-fichiers"]
+    },
+    "pros": {
+      "en": ["Ultra-long context", "Both CLI and IDE", "Fast responses", "Compatible with mainstream workflows"],
+      "zh": ["超长上下文", "CLI 与 IDE 双端", "响应快速", "兼容主流开发流程"],
+      "ja": ["超長コンテキスト", "CLI と IDE の両対応", "高速なレスポンス", "主流の開発フローと互換"],
+      "es": ["Contexto ultralargo", "CLI e IDE", "Respuestas rápidas", "Compatible con flujos habituales"],
+      "fr": ["Contexte ultra-long", "CLI et IDE", "Réponses rapides", "Compatible avec les flux courants"]
+    },
+    "cons": {
+      "en": ["Top model requires a paid plan", "Relatively new ecosystem"],
+      "zh": ["顶级模型需付费套餐", "生态相对较新"],
+      "ja": ["最上位モデルは有料プランが必要", "エコシステムが比較的新しい"],
+      "es": ["El mejor modelo requiere plan de pago", "Ecosistema relativamente nuevo"],
+      "fr": ["Le meilleur modèle nécessite un plan payant", "Écosystème relativement récent"]
+    },
+    "latestUpdate": {
+      "en": "2026: Kimi K3 launched, up to 1M context, strong at coding and agentic tasks",
+      "zh": "2026年：Kimi K3 上线，最高 100 万上下文，擅长编程与智能体任务",
+      "ja": "2026年：Kimi K3 が登場、最大 100 万コンテキストで、コーディングとエージェント作業に強い",
+      "es": "2026: se lanza Kimi K3, hasta 1M de contexto, sólido en programación y tareas de agente",
+      "fr": "2026 : lancement de Kimi K3, jusqu'à 1M de contexte, performant en codage et tâches agentiques"
+    }
+  },
+  "kimi-code-cn": {
+    "features": {
+      "en": ["AI coding agent with CLI", "VS Code extension", "Kimi flagship model", "Ultra-long context", "Chinese-first developer experience", "Domestic direct access"],
+      "zh": ["AI 编程 Agent（CLI）", "VS Code 扩展插件", "Kimi 旗舰模型", "超长上下文", "中文优先的开发体验", "国内直连访问"],
+      "ja": ["CLI 付き AI コーディング Agent", "VS Code 拡張", "Kimi フラッグシップモデル", "超長コンテキスト", "中国語優先の開発体験", "国内から直接アクセス"],
+      "es": ["Agente de codificación con CLI", "Extensión de VS Code", "Modelo insignia de Kimi", "Contexto ultralargo", "Experiencia en chino primero", "Acceso directo nacional"],
+      "fr": ["Agent de codage avec CLI", "Extension VS Code", "Modèle phare de Kimi", "Contexte ultra-long", "Expérience en chinois d'abord", "Accès direct national"]
+    },
+    "pricing": {
+      "free": {"en": "Free tier with basic quota", "zh": "免费额度（基础用量）", "ja": "基本枠の無料プラン", "es": "Nivel gratuito con cuota básica", "fr": "Offre gratuite avec quota de base"},
+      "pro": {"en": "Kimi Code Plan (paid tiers unlock flagship model)", "zh": "Kimi Code 套餐（付费档位解锁旗舰模型）", "ja": "Kimi Code プラン（有料枠でフラッグシップ解放）", "es": "Plan Kimi Code (niveles de pago desbloquean el modelo insignia)", "fr": "Plan Kimi Code (niveaux payants débloquent le modèle phare)"}
+    },
+    "useCases": {
+      "en": ["Code generation", "Refactoring", "Debugging", "Cross-file project analysis"],
+      "zh": ["代码生成", "代码重构", "调试排错", "跨文件项目分析"],
+      "ja": ["コード生成", "リファクタリング", "デバッグ", "ファイル横断のプロジェクト分析"],
+      "es": ["Generación de código", "Refactorización", "Depuración", "Análisis de proyectos entre archivos"],
+      "fr": ["Génération de code", "Refactorisation", "Débogage", "Analyse de projet multi-fichiers"]
+    },
+    "pros": {
+      "en": ["Stable domestic access", "Ultra-long context", "Both CLI and IDE", "Chinese-friendly"],
+      "zh": ["国内访问稳定", "超长上下文", "CLI 与 IDE 双端", "中文友好"],
+      "ja": ["国内アクセスが安定", "超長コンテキスト", "CLI と IDE の両対応", "中国語に親和的"],
+      "es": ["Acceso nacional estable", "Contexto ultralargo", "CLI e IDE", "Amigable con el chino"],
+      "fr": ["Accès national stable", "Contexte ultra-long", "CLI et IDE", "Adapté au chinois"]
+    },
+    "cons": {
+      "en": ["Top model requires a paid plan", "Relatively new ecosystem"],
+      "zh": ["顶级模型需付费套餐", "生态相对较新"],
+      "ja": ["最上位モデルは有料プランが必要", "エコシステムが比較的新しい"],
+      "es": ["El mejor modelo requiere plan de pago", "Ecosistema relativamente nuevo"],
+      "fr": ["Le meilleur modèle nécessite un plan payant", "Écosystème relativement récent"]
+    },
+    "latestUpdate": {
+      "en": "2026: Chinese Kimi Code entry with the latest flagship model and VS Code extension",
+      "zh": "2026年：Kimi Code 中文入口，提供最新旗舰模型与 VS Code 扩展",
+      "ja": "2026年：中国語版 Kimi Code、最新フラッグシップモデルと VS Code 拡張を提供",
+      "es": "2026: acceso en chino a Kimi Code con el último modelo insignia y extensión de VS Code",
+      "fr": "2026 : accès chinois à Kimi Code avec le dernier modèle phare et l'extension VS Code"
+    }
+  },
+  "trae": {
+    "features": {
+      "en": ["AI-native IDE built on VS Code", "Builder and chat modes", "Integrates Claude and GPT models", "Natural-language code generation", "Real-time preview", "Autonomous multi-step agent"],
+      "zh": ["基于 VS Code 的 AI 原生 IDE", "Builder 与对话双模式", "集成 Claude、GPT 等模型", "自然语言生成代码", "实时预览", "自主多步 Agent"],
+      "ja": ["VS Code ベースの AI ネイティブ IDE", "Builder とチャットの両モード", "Claude や GPT モデルを統合", "自然言語からコード生成", "リアルタイムプレビュー", "自律的なマルチステップ Agent"],
+      "es": ["IDE nativo de IA sobre VS Code", "Modos Builder y chat", "Integra modelos Claude y GPT", "Generación de código por lenguaje natural", "Vista previa en tiempo real", "Agente autónomo de varios pasos"],
+      "fr": ["IDE natif IA basé sur VS Code", "Modes Builder et chat", "Intègre les modèles Claude et GPT", "Génération de code en langage naturel", "Aperçu en temps réel", "Agent autonome multi-étapes"]
+    },
+    "pricing": {
+      "free": {"en": "Free plan with basic usage", "zh": "免费版（基础用量）", "ja": "基本利用の無料プラン", "es": "Plan gratuito con uso básico", "fr": "Offre gratuite avec usage de base"},
+      "pro": {"en": "Pro subscription for premium model quota", "zh": "Pro 订阅（高级模型额度）", "ja": "Pro サブスク（上位モデル枠）", "es": "Suscripción Pro para cuota de modelos premium", "fr": "Abonnement Pro pour quota de modèles premium"}
+    },
+    "useCases": {
+      "en": ["Full app prototyping", "Frontend development", "Feature implementation", "Learning to code"],
+      "zh": ["完整应用原型", "前端开发", "功能实现", "学习编程"],
+      "ja": ["アプリのプロトタイピング", "フロントエンド開発", "機能実装", "プログラミング学習"],
+      "es": ["Prototipado de apps", "Desarrollo frontend", "Implementación de funciones", "Aprender a programar"],
+      "fr": ["Prototypage d'applications", "Développement frontend", "Implémentation de fonctionnalités", "Apprentissage du code"]
+    },
+    "pros": {
+      "en": ["Access to top international models", "Familiar VS Code experience", "Strong agent capabilities", "Polished UI"],
+      "zh": ["可用国际顶级模型", "熟悉的 VS Code 体验", "Agent 能力强", "界面精致"],
+      "ja": ["一流の国際モデルを利用可能", "馴染みのある VS Code 体験", "強力な Agent 機能", "洗練された UI"],
+      "es": ["Acceso a modelos internacionales de primer nivel", "Experiencia VS Code familiar", "Fuertes capacidades de agente", "Interfaz pulida"],
+      "fr": ["Accès aux meilleurs modèles internationaux", "Expérience VS Code familière", "Fortes capacités d'agent", "Interface soignée"]
+    },
+    "cons": {
+      "en": ["Premium models require payment", "May need network access outside China"],
+      "zh": ["高级模型需付费", "可能需境外网络环境"],
+      "ja": ["上位モデルは有料", "中国国外のネットワークが必要な場合あり"],
+      "es": ["Los modelos premium son de pago", "Puede requerir red fuera de China"],
+      "fr": ["Les modèles premium sont payants", "Peut nécessiter un réseau hors de Chine"]
+    },
+    "latestUpdate": {
+      "en": "2026: Trae expanded model options and improved its autonomous agent",
+      "zh": "2026年：Trae 扩充模型选择并增强自主 Agent 能力",
+      "ja": "2026年：Trae がモデル選択を拡充し、自律 Agent を強化",
+      "es": "2026: Trae amplió opciones de modelos y mejoró su agente autónomo",
+      "fr": "2026 : Trae a élargi ses options de modèles et amélioré son agent autonome"
+    }
+  },
+  "trae-cn": {
+    "features": {
+      "en": ["AI-native IDE built on VS Code", "Free, no VPN required", "Integrates Doubao-1.5-pro and DeepSeek", "Chinese natural-language coding", "Real-time preview and bug fixing", "Builder mode"],
+      "zh": ["基于 VS Code 的 AI 原生 IDE", "免费且无需 VPN", "集成 Doubao-1.5-pro 与 DeepSeek", "中文自然语言编程", "实时预览与智能修复", "Builder 模式"],
+      "ja": ["VS Code ベースの AI ネイティブ IDE", "無料で VPN 不要", "Doubao-1.5-pro と DeepSeek を統合", "中国語による自然言語コーディング", "リアルタイムプレビューとバグ修正", "Builder モード"],
+      "es": ["IDE nativo de IA sobre VS Code", "Gratis, sin VPN", "Integra Doubao-1.5-pro y DeepSeek", "Programación en chino por lenguaje natural", "Vista previa y corrección de errores", "Modo Builder"],
+      "fr": ["IDE natif IA basé sur VS Code", "Gratuit, sans VPN", "Intègre Doubao-1.5-pro et DeepSeek", "Codage en langage naturel chinois", "Aperçu en direct et correction de bugs", "Mode Builder"]
+    },
+    "pricing": {
+      "free": {"en": "Completely free", "zh": "完全免费", "ja": "完全無料", "es": "Totalmente gratis", "fr": "Entièrement gratuit"}
+    },
+    "useCases": {
+      "en": ["Domestic app development", "Frontend development", "Rapid prototyping", "Learning to code"],
+      "zh": ["国内应用开发", "前端开发", "快速原型", "学习编程"],
+      "ja": ["国内向けアプリ開発", "フロントエンド開発", "迅速なプロトタイピング", "プログラミング学習"],
+      "es": ["Desarrollo de apps nacionales", "Desarrollo frontend", "Prototipado rápido", "Aprender a programar"],
+      "fr": ["Développement d'apps nationales", "Développement frontend", "Prototypage rapide", "Apprentissage du code"]
+    },
+    "pros": {
+      "en": ["Free and no VPN needed", "Strong Chinese support", "Familiar VS Code experience", "Local model integration"],
+      "zh": ["免费且无需 VPN", "中文支持好", "熟悉的 VS Code 体验", "本土模型集成"],
+      "ja": ["無料で VPN 不要", "中国語サポートが充実", "馴染みのある VS Code 体験", "国産モデル統合"],
+      "es": ["Gratis y sin VPN", "Buen soporte de chino", "Experiencia VS Code familiar", "Integración de modelos locales"],
+      "fr": ["Gratuit et sans VPN", "Bon support du chinois", "Expérience VS Code familière", "Intégration de modèles locaux"]
+    },
+    "cons": {
+      "en": ["Fewer international model options", "Feature rollout may lag international edition"],
+      "zh": ["国际模型选择较少", "功能更新或滞后于国际版"],
+      "ja": ["国際モデルの選択肢が少ない", "機能更新が国際版より遅れる場合あり"],
+      "es": ["Menos opciones de modelos internacionales", "Las funciones pueden ir por detrás de la edición internacional"],
+      "fr": ["Moins d'options de modèles internationaux", "Les fonctionnalités peuvent être en retard sur l'édition internationale"]
+    },
+    "latestUpdate": {
+      "en": "2026: Trae China edition stays free with Doubao and DeepSeek, adding the Work assistant",
+      "zh": "2026年：Trae 国内版保持免费，集成 Doubao 与 DeepSeek，新增 Work 助手",
+      "ja": "2026年：Trae 中国版は無料を維持し、Doubao と DeepSeek を統合、Work アシスタントを追加",
+      "es": "2026: la edición China de Trae sigue gratis con Doubao y DeepSeek y añade el asistente Work",
+      "fr": "2026 : l'édition Chine de Trae reste gratuite avec Doubao et DeepSeek et ajoute l'assistant Work"
+    }
+  },
+  "zcode": {
+    "features": {
+      "en": ["AI coding agent", "Officially tuned for GLM models", "Plan, code, review and ship", "Works with existing toolchains", "Terminal-based agentic tasks", "Vibe coding experience"],
+      "zh": ["AI 编程 Agent", "官方适配 GLM 系列模型", "规划、编码、评审与上线", "兼容现有工具链", "基于终端的智能体任务", "氛围编程体验"],
+      "ja": ["AI コーディング Agent", "GLM モデルに公式対応", "計画・コーディング・レビュー・リリース", "既存ツールチェーンと連携", "ターミナルベースのエージェント作業", "Vibe コーディング体験"],
+      "es": ["Agente de codificación IA", "Adaptado oficialmente a modelos GLM", "Planificar, codificar, revisar y desplegar", "Compatible con cadenas de herramientas existentes", "Tareas de agente en terminal", "Experiencia de vibe coding"],
+      "fr": ["Agent de codage IA", "Optimisé officiellement pour les modèles GLM", "Planifier, coder, réviser et déployer", "Compatible avec les chaînes d'outils existantes", "Tâches agentiques en terminal", "Expérience de vibe coding"]
+    },
+    "pricing": {
+      "free": {"en": "Free trial quota", "zh": "免费试用额度", "ja": "無料トライアル枠", "es": "Cuota de prueba gratuita", "fr": "Quota d'essai gratuit"},
+      "pro": {"en": "GLM Coding Plan subscription", "zh": "GLM Coding Plan 订阅", "ja": "GLM Coding Plan サブスク", "es": "Suscripción GLM Coding Plan", "fr": "Abonnement GLM Coding Plan"}
+    },
+    "useCases": {
+      "en": ["Agentic coding", "Refactoring", "Code review", "Terminal task automation"],
+      "zh": ["智能体编程", "代码重构", "代码评审", "终端任务自动化"],
+      "ja": ["エージェント型コーディング", "リファクタリング", "コードレビュー", "ターミナル作業の自動化"],
+      "es": ["Codificación con agentes", "Refactorización", "Revisión de código", "Automatización de tareas en terminal"],
+      "fr": ["Codage agentique", "Refactorisation", "Revue de code", "Automatisation de tâches en terminal"]
+    },
+    "pros": {
+      "en": ["Strong GLM coding performance", "Good value pricing", "Fits existing workflows", "Fast and simple"],
+      "zh": ["GLM 编程性能强", "性价比高", "契合现有流程", "简单迅捷"],
+      "ja": ["GLM のコーディング性能が高い", "コスパが良い", "既存フローに適合", "シンプルで高速"],
+      "es": ["Buen rendimiento de codificación GLM", "Buena relación calidad-precio", "Se adapta a flujos existentes", "Rápido y sencillo"],
+      "fr": ["Bonnes performances de codage GLM", "Bon rapport qualité-prix", "S'intègre aux flux existants", "Rapide et simple"]
+    },
+    "cons": {
+      "en": ["Best experience tied to GLM models", "Newer product"],
+      "zh": ["最佳体验依赖 GLM 模型", "产品较新"],
+      "ja": ["最良の体験は GLM モデルに依存", "比較的新しい製品"],
+      "es": ["La mejor experiencia depende de modelos GLM", "Producto más reciente"],
+      "fr": ["La meilleure expérience dépend des modèles GLM", "Produit plus récent"]
+    },
+    "latestUpdate": {
+      "en": "2026: ZCode officially adapts to GLM-5.2 with stronger agentic coding",
+      "zh": "2026年：ZCode 官方适配 GLM-5.2，智能体编程能力更强",
+      "ja": "2026年：ZCode が GLM-5.2 に公式対応し、エージェント型コーディングを強化",
+      "es": "2026: ZCode se adapta oficialmente a GLM-5.2 con codificación agéntica más potente",
+      "fr": "2026 : ZCode s'adapte officiellement à GLM-5.2 avec un codage agentique renforcé"
+    }
+  },
+  "zcode-cn": {
+    "features": {
+      "en": ["AI coding agent (China edition)", "Officially tuned for GLM models", "Plan, code, review and ship", "Works with existing toolchains", "Chinese-first experience", "Domestic direct access"],
+      "zh": ["AI 编程 Agent（中文版）", "官方适配 GLM 系列模型", "规划、编码、评审与上线", "兼容现有工具链", "中文优先体验", "国内直连访问"],
+      "ja": ["AI コーディング Agent（中国版）", "GLM モデルに公式対応", "計画・コーディング・レビュー・リリース", "既存ツールチェーンと連携", "中国語優先の体験", "国内から直接アクセス"],
+      "es": ["Agente de codificación IA (edición China)", "Adaptado oficialmente a modelos GLM", "Planificar, codificar, revisar y desplegar", "Compatible con cadenas de herramientas existentes", "Experiencia en chino primero", "Acceso directo nacional"],
+      "fr": ["Agent de codage IA (édition Chine)", "Optimisé officiellement pour les modèles GLM", "Planifier, coder, réviser et déployer", "Compatible avec les chaînes d'outils existantes", "Expérience en chinois d'abord", "Accès direct national"]
+    },
+    "pricing": {
+      "free": {"en": "Free trial quota", "zh": "免费试用额度", "ja": "無料トライアル枠", "es": "Cuota de prueba gratuita", "fr": "Quota d'essai gratuit"},
+      "pro": {"en": "GLM Coding Plan subscription", "zh": "GLM Coding Plan 订阅", "ja": "GLM Coding Plan サブスク", "es": "Suscripción GLM Coding Plan", "fr": "Abonnement GLM Coding Plan"}
+    },
+    "useCases": {
+      "en": ["Agentic coding", "Refactoring", "Code review", "Terminal task automation"],
+      "zh": ["智能体编程", "代码重构", "代码评审", "终端任务自动化"],
+      "ja": ["エージェント型コーディング", "リファクタリング", "コードレビュー", "ターミナル作業の自動化"],
+      "es": ["Codificación con agentes", "Refactorización", "Revisión de código", "Automatización de tareas en terminal"],
+      "fr": ["Codage agentique", "Refactorisation", "Revue de code", "Automatisation de tâches en terminal"]
+    },
+    "pros": {
+      "en": ["Stable domestic access", "Strong GLM coding performance", "Chinese-friendly", "Fits existing workflows"],
+      "zh": ["国内访问稳定", "GLM 编程性能强", "中文友好", "契合现有流程"],
+      "ja": ["国内アクセスが安定", "GLM のコーディング性能が高い", "中国語に親和的", "既存フローに適合"],
+      "es": ["Acceso nacional estable", "Buen rendimiento de codificación GLM", "Amigable con el chino", "Se adapta a flujos existentes"],
+      "fr": ["Accès national stable", "Bonnes performances de codage GLM", "Adapté au chinois", "S'intègre aux flux existants"]
+    },
+    "cons": {
+      "en": ["Best experience tied to GLM models", "Newer product"],
+      "zh": ["最佳体验依赖 GLM 模型", "产品较新"],
+      "ja": ["最良の体験は GLM モデルに依存", "比較的新しい製品"],
+      "es": ["La mejor experiencia depende de modelos GLM", "Producto más reciente"],
+      "fr": ["La meilleure expérience dépend des modèles GLM", "Produit plus récent"]
+    },
+    "latestUpdate": {
+      "en": "2026: ZCode Chinese edition adapts to GLM-5.2 with stable domestic access",
+      "zh": "2026年：ZCode 中文版适配 GLM-5.2，国内访问稳定",
+      "ja": "2026年：ZCode 中国版が GLM-5.2 に対応し、国内アクセスが安定",
+      "es": "2026: la edición china de ZCode se adapta a GLM-5.2 con acceso nacional estable",
+      "fr": "2026 : l'édition chinoise de ZCode s'adapte à GLM-5.2 avec un accès national stable"
+    }
   }
 }

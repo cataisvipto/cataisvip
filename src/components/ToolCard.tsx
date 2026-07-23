@@ -1,5 +1,6 @@
 'use client';
 
+import { useState } from 'react';
 import { useTranslations } from 'next-intl';
 import { ExternalLink, Star } from 'lucide-react';
 import Image from 'next/image';
@@ -54,6 +55,7 @@ export default function ToolCard({ tool, locale }: ToolCardProps) {
   const tCategories = useTranslations('categories');
   const description = getLocalizedDescription(tool, locale);
   const displayName = locale === 'zh' && tool.nameZh ? tool.nameZh : tool.name;
+  const [logoError, setLogoError] = useState(false);
 
   return (
     <article className="group relative bg-[var(--card-bg)] rounded-2xl border border-[var(--card-border)] p-5 hover:shadow-lg hover:border-[var(--primary)] transition-all duration-300 flex flex-col">
@@ -67,14 +69,21 @@ export default function ToolCard({ tool, locale }: ToolCardProps) {
       {/* Header - links to detail page */}
       <Link href={`/tool/${tool.slug}`} className="flex items-start gap-3 mb-3 group/header">
         <div className="w-12 h-12 rounded-xl bg-white dark:bg-white/90 border border-[var(--card-border)] flex items-center justify-center overflow-hidden shrink-0 shadow-sm">
-          <Image
-            src={tool.logo}
-            alt={displayName}
-            width={32}
-            height={32}
-            className="w-8 h-8 object-contain"
-            unoptimized
-          />
+          {logoError ? (
+            <span className="text-lg font-bold text-[var(--primary)] select-none">
+              {displayName.charAt(0).toUpperCase()}
+            </span>
+          ) : (
+            <Image
+              src={tool.logo}
+              alt={displayName}
+              width={32}
+              height={32}
+              className="w-8 h-8 object-contain"
+              unoptimized
+              onError={() => setLogoError(true)}
+            />
+          )}
         </div>
         <div className="min-w-0">
           <h3 className="font-semibold text-[var(--foreground)] truncate group-hover/header:text-[var(--primary)] transition">{displayName}</h3>

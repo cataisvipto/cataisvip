@@ -1510,5 +1510,119 @@
     "featured": false,
     "developer": "Tencent Design",
     "developerZh": "腾讯设计"
+  },
+  {
+    "slug": "kimi-code",
+    "name": "Kimi Code",
+    "nameZh": "Kimi Code",
+    "description": "月之暗面推出的 AI 编程 Agent 与 CLI 工具（国际版），搭载 Kimi K3 模型，最高 100 万 token 上下文，兼容主流开发流程",
+    "descriptionEn": "AI coding agent and CLI by Moonshot AI (global), powered by Kimi K3 with up to 1M-token context, compatible with mainstream dev workflows",
+    "descriptionJa": "Moonshot AI が提供する AI コーディング Agent と CLI ツール（国際版）。Kimi K3 を搭載し、最大 100 万トークンのコンテキストに対応",
+    "descriptionEs": "Agente de codificación IA y CLI de Moonshot AI (versión global), con el modelo Kimi K3 y contexto de hasta 1M de tokens",
+    "descriptionFr": "Agent de codage IA et CLI de Moonshot AI (version internationale), propulsé par Kimi K3 avec un contexte allant jusqu'à 1M de tokens",
+    "url": "https://www.kimi.com/code",
+    "logo": "https://www.google.com/s2/favicons?domain=kimi.com&sz=128",
+    "category": "Code",
+    "tags": [
+      "Freemium"
+    ],
+    "featured": true,
+    "developer": "Moonshot AI",
+    "developerZh": "月之暗面"
+  },
+  {
+    "slug": "kimi-code-cn",
+    "name": "Kimi Code",
+    "nameZh": "Kimi Code",
+    "description": "月之暗面 Kimi Code 中文版，面向国内开发者，提供高性能 CLI 与 VS Code 扩展，基于 Kimi 最新旗舰模型完成代码阅读、编辑与命令执行",
+    "descriptionEn": "Kimi Code China edition by Moonshot AI, for domestic developers, with a high-performance CLI and VS Code extension powered by Kimi's latest flagship model",
+    "descriptionJa": "Moonshot AI の Kimi Code 中国版。国内開発者向けに、高性能 CLI と VS Code 拡張を提供し、Kimi 最新フラッグシップモデルで動作",
+    "descriptionEs": "Kimi Code edición China de Moonshot AI, para desarrolladores nacionales, con un CLI de alto rendimiento y extensión de VS Code basada en el modelo insignia de Kimi",
+    "descriptionFr": "Kimi Code édition Chine de Moonshot AI, pour les développeurs nationaux, avec un CLI performant et une extension VS Code propulsée par le modèle phare de Kimi",
+    "url": "https://www.kimi.com/code/zh",
+    "logo": "https://www.google.com/s2/favicons?domain=kimi.com&sz=128",
+    "category": "Code",
+    "tags": [
+      "Freemium"
+    ],
+    "featured": true,
+    "developer": "Moonshot AI",
+    "developerZh": "月之暗面"
+  },
+  {
+    "slug": "trae",
+    "name": "Trae",
+    "nameZh": "Trae",
+    "description": "字节跳动推出的 AI 原生 IDE（国际版），基于 VS Code，集成 Claude、GPT 等国际顶级模型，支持自然语言一键生成代码",
+    "descriptionEn": "AI-native IDE by ByteDance (international), built on VS Code, integrating top models like Claude and GPT, generating code from natural language",
+    "descriptionJa": "ByteDance が提供する AI ネイティブ IDE（国際版）。VS Code ベースで、Claude や GPT などの一流モデルを統合し、自然言語からコードを生成",
+    "descriptionEs": "IDE nativo de IA de ByteDance (internacional), basado en VS Code, que integra modelos de primer nivel como Claude y GPT y genera código a partir de lenguaje natural",
+    "descriptionFr": "IDE natif IA de ByteDance (international), basé sur VS Code, intégrant des modèles de premier plan comme Claude et GPT et générant du code à partir du langage naturel",
+    "url": "https://www.trae.ai",
+    "logo": "https://lf16-web-neutral.traecdn.ai/obj/trae-ai-static/trae_website/favicon.png",
+    "category": "Code",
+    "tags": [
+      "Freemium"
+    ],
+    "featured": true,
+    "developer": "ByteDance",
+    "developerZh": "字节跳动"
+  },
+  {
+    "slug": "trae-cn",
+    "name": "Trae",
+    "nameZh": "Trae",
+    "description": "字节跳动 AI 原生 IDE 国内版，免费且无需 VPN，深度集成 Doubao-1.5-pro 与 DeepSeek 模型，专为中文开发者优化",
+    "descriptionEn": "ByteDance's AI-native IDE China edition, free and no VPN required, deeply integrating Doubao-1.5-pro and DeepSeek models, optimized for Chinese developers",
+    "descriptionJa": "ByteDance の AI ネイティブ IDE 中国版。無料で VPN 不要、Doubao-1.5-pro と DeepSeek モデルを深く統合し、中国語開発者向けに最適化",
+    "descriptionEs": "IDE nativo de IA de ByteDance edición China, gratis y sin VPN, con integración profunda de los modelos Doubao-1.5-pro y DeepSeek, optimizado para desarrolladores chinos",
+    "descriptionFr": "IDE natif IA de ByteDance édition Chine, gratuit et sans VPN, intégrant en profondeur les modèles Doubao-1.5-pro et DeepSeek, optimisé pour les développeurs chinois",
+    "url": "https://www.trae.cn",
+    "logo": "https://lf-cdn.trae.com.cn/obj/trae-com-cn/trae_website_prod_cn/favicon.png",
+    "category": "Code",
+    "tags": [
+      "Free"
+    ],
+    "featured": true,
+    "developer": "ByteDance",
+    "developerZh": "字节跳动"
+  },
+  {
+    "slug": "zcode",
+    "name": "ZCode",
+    "nameZh": "ZCode",
+    "description": "智谱 AI（Z.ai）推出的 AI 编程 Agent 工具（国际版），官方适配 GLM 系列模型，将 AI Agent 融入规划、编码、评审与上线流程",
+    "descriptionEn": "AI coding agent by Zhipu AI (Z.ai, international), officially tuned for GLM models, embedding AI agents into planning, coding, review and shipping",
+    "descriptionJa": "Zhipu AI（Z.ai）が提供する AI コーディング Agent ツール（国際版）。GLM モデルに公式対応し、計画・コーディング・レビュー・リリースに AI Agent を組み込む",
+    "descriptionEs": "Agente de codificación IA de Zhipu AI (Z.ai, internacional), adaptado oficialmente a los modelos GLM, integrando agentes de IA en planificación, codificación, revisión y despliegue",
+    "descriptionFr": "Agent de codage IA de Zhipu AI (Z.ai, international), optimisé officiellement pour les modèles GLM, intégrant des agents IA dans la planification, le codage, la revue et la mise en production",
+    "url": "https://zcode.z.ai",
+    "logo": "https://www.google.com/s2/favicons?domain=z.ai&sz=128",
+    "category": "Code",
+    "tags": [
+      "Freemium"
+    ],
+    "featured": true,
+    "developer": "Zhipu AI",
+    "developerZh": "智谱 AI"
+  },
+  {
+    "slug": "zcode-cn",
+    "name": "ZCode",
+    "nameZh": "ZCode",
+    "description": "智谱 ZCode 中文版，官方适配 GLM 系列模型，简单迅捷，兼容现有工具链完成规划、编码、评审与上线",
+    "descriptionEn": "ZCode China edition by Zhipu AI, officially tuned for GLM models, simple and fast, working with existing toolchains for planning, coding, review and shipping",
+    "descriptionJa": "Zhipu AI の ZCode 中国版。GLM モデルに公式対応し、シンプルかつ高速で、既存のツールチェーンと連携して計画・コーディング・レビュー・リリースを実現",
+    "descriptionEs": "ZCode edición China de Zhipu AI, adaptado oficialmente a los modelos GLM, simple y rápido, compatible con cadenas de herramientas existentes para planificar, codificar, revisar y desplegar",
+    "descriptionFr": "ZCode édition Chine de Zhipu AI, optimisé officiellement pour les modèles GLM, simple et rapide, compatible avec les chaînes d'outils existantes pour planifier, coder, réviser et déployer",
+    "url": "https://zcode.z.ai/cn",
+    "logo": "https://www.google.com/s2/favicons?domain=z.ai&sz=128",
+    "category": "Code",
+    "tags": [
+      "Freemium"
+    ],
+    "featured": true,
+    "developer": "Zhipu AI",
+    "developerZh": "智谱 AI"
   }
 ]
