@@ -72,9 +72,7 @@ export default function HomePageClient() {
                   <LogoTile
                     logo={tool.logo}
                     alt={getDisplayName(tool)}
-                    theme={tool.logoTheme}
                     className="w-10 h-10 rounded-lg"
-                    pad="p-1.5"
                     imgPx={32}
                     fallbackClassName="text-base"
                   />

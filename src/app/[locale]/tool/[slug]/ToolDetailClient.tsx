@@ -105,9 +105,7 @@ export default function ToolDetailClient({ tool, locale }: ToolDetailClientProps
         <LogoTile
           logo={rt.logo}
           alt={rtName}
-          theme={rt.logoTheme}
           className="w-12 h-12 rounded-xl"
-          pad="p-1.5"
           imgPx={40}
           fallbackClassName="text-lg"
         />
@@ -180,9 +178,7 @@ export default function ToolDetailClient({ tool, locale }: ToolDetailClientProps
                 <LogoTile
                   logo={tool.logo}
                   alt={displayName}
-                  theme={tool.logoTheme}
                   className="w-20 h-20 rounded-2xl"
-                  pad="p-2.5"
                   imgPx={64}
                   fallbackClassName="text-3xl"
                 />

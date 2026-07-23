@@ -16,7 +16,6 @@ export interface Tool {
   descriptionFr?: string;
   url: string;
   logo: string;
-  logoTheme?: 'light' | 'dark' | 'fill';
   category: string;
   tags: string[];
   featured: boolean;
@@ -70,9 +69,7 @@ export default function ToolCard({ tool, locale }: ToolCardProps) {
         <LogoTile
           logo={tool.logo}
           alt={displayName}
-          theme={tool.logoTheme}
           className="w-12 h-12 rounded-xl"
-          pad="p-1.5"
           imgPx={40}
           fallbackClassName="text-lg"
         />
