@@ -14,9 +14,8 @@ interface ToolGridProps {
   totalCount?: number;
 }
 
-export default function ToolGrid({ tools, locale, searchQuery, onSearchChange, totalCount }: ToolGridProps) {
+export default function ToolGrid({ tools, locale, searchQuery, totalCount }: ToolGridProps) {
   const t = useTranslations('common');
-  const tNav = useTranslations('nav');
   const tCategories = useTranslations('categories');
   const [activeCategory, setActiveCategory] = useState('all');
 
@@ -52,20 +51,6 @@ export default function ToolGrid({ tools, locale, searchQuery, onSearchChange, t
           activeCategory={activeCategory}
           onCategoryChange={setActiveCategory}
         />
-      </div>
-
-      {/* Mobile Search */}
-      <div className="sm:hidden mb-6">
-        <div className="relative">
-          <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-[var(--muted)]" />
-          <input
-            type="text"
-            placeholder={tNav('searchPlaceholder')}
-            value={searchQuery}
-            onChange={(e) => onSearchChange(e.target.value)}
-            className="w-full pl-10 pr-4 py-2.5 bg-[var(--muted-bg)] border border-[var(--card-border)] rounded-full text-sm text-[var(--foreground)] placeholder-[var(--muted)] focus:outline-none focus:ring-2 focus:ring-[var(--primary)] focus:border-transparent transition"
-          />
-        </div>
       </div>
 
       {/* Results count */}

@@ -59,9 +59,16 @@ export default function ToolDetailClient({ tool, locale }: ToolDetailClientProps
     }
   };
 
-  // Find related tools in the same category (exclude current tool)
+  // Related products from the same maker / platform (auto-derived from developer)
+  const makerName = locale === 'zh' && tool.developerZh ? tool.developerZh : tool.developer;
+  const sameMaker = tool.developer
+    ? tools.filter((x) => x.developer && x.developer === tool.developer && x.slug !== tool.slug).slice(0, 4)
+    : [];
+  const sameMakerSlugs = new Set(sameMaker.map((x) => x.slug));
+
+  // Find related tools in the same category (exclude current tool and same-maker items)
   const relatedTools = tools
-    .filter((t) => t.category === tool.category && t.slug !== tool.slug)
+    .filter((t) => t.category === tool.category && t.slug !== tool.slug && !sameMakerSlugs.has(t.slug))
     .slice(0, 4);
 
   // Find related blog posts (tags match tool name/slug)
@@ -82,6 +89,31 @@ export default function ToolDetailClient({ tool, locale }: ToolDetailClientProps
       return obj[loc] || obj.en || '';
     }
     return '';
+  };
+
+  // Reusable card for related sections (same maker / same category)
+  const renderRelatedCard = (rt: Tool) => {
+    const rtName = locale === 'zh' && rt.nameZh ? rt.nameZh : rt.name;
+    const rtDesc = getLocalizedDescription(rt, locale);
+    const rtDev = locale === 'zh' && rt.developerZh ? rt.developerZh : rt.developer;
+    return (
+      <Link
+        key={rt.slug}
+        href={`/tool/${rt.slug}`}
+        className="group flex items-start gap-4 p-5 rounded-xl border border-[var(--card-border)] hover:border-[var(--primary)] hover:bg-[var(--muted-bg)] hover:shadow-md transition-all duration-300"
+      >
+        <div className="w-12 h-12 rounded-xl bg-white border border-[var(--card-border)] flex items-center justify-center overflow-hidden shrink-0 shadow-sm p-1.5">
+          <Image src={rt.logo} alt={rtName} width={40} height={40} className="w-full h-full object-contain" unoptimized />
+        </div>
+        <div className="min-w-0 flex-1">
+          <div className="font-semibold text-[var(--foreground)] text-sm truncate group-hover:text-[var(--primary)] transition">
+            {rtName}
+          </div>
+          {rtDev && <div className="text-xs text-[var(--muted)] mt-0.5">{rtDev}</div>}
+          <p className="text-xs text-[var(--muted)] mt-2 leading-relaxed line-clamp-2">{rtDesc}</p>
+        </div>
+      </Link>
+    );
   };
 
   // Social sharing
@@ -139,13 +171,13 @@ export default function ToolDetailClient({ tool, locale }: ToolDetailClientProps
             <div className="p-8 border-b border-[var(--card-border)]">
               <div className="flex items-start gap-6">
                 {/* Logo */}
-                <div className="w-20 h-20 rounded-2xl bg-white dark:bg-white/90 border border-[var(--card-border)] flex items-center justify-center overflow-hidden shrink-0 shadow-sm">
+                <div className="w-20 h-20 rounded-2xl bg-white border border-[var(--card-border)] flex items-center justify-center overflow-hidden shrink-0 shadow-sm p-2.5">
                   <Image
                     src={tool.logo}
                     alt={displayName}
-                    width={48}
-                    height={48}
-                    className="w-12 h-12 object-contain"
+                    width={56}
+                    height={56}
+                    className="w-full h-full object-contain"
                     unoptimized
                   />
                 </div>
@@ -419,6 +451,19 @@ export default function ToolDetailClient({ tool, locale }: ToolDetailClientProps
             </div>
           )}
 
+          {/* Related Products (Same Maker / Platform) */}
+          {sameMaker.length > 0 && (
+            <div className="bg-[var(--card-bg)] rounded-2xl border border-[var(--card-border)] p-8 shadow-sm">
+              <h2 className="text-lg font-semibold text-[var(--foreground)] mb-6 flex items-center gap-2">
+                <Building2 className="w-5 h-5 text-indigo-500" />
+                {t('relatedProducts', { maker: makerName as string })}
+              </h2>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                {sameMaker.map((rt) => renderRelatedCard(rt as Tool))}
+              </div>
+            </div>
+          )}
+
           {/* Related Tools (Same Category) */}
           {relatedTools.length > 0 && (
             <div className="bg-[var(--card-bg)] rounded-2xl border border-[var(--card-border)] p-8 shadow-sm">
@@ -427,42 +472,7 @@ export default function ToolDetailClient({ tool, locale }: ToolDetailClientProps
                 {t('relatedTools', { category: tCategories(tool.category as any) })}
               </h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                {relatedTools.map((rt) => {
-                  const rtName = locale === 'zh' && rt.nameZh ? rt.nameZh : rt.name;
-                  const rtDesc = getLocalizedDescription(rt as Tool, locale);
-                  const rtDev = locale === 'zh' && (rt as Tool).developerZh ? (rt as Tool).developerZh : (rt as Tool).developer;
-                  return (
-                    <Link
-                      key={rt.slug}
-                      href={`/tool/${rt.slug}`}
-                      className="group flex items-start gap-4 p-5 rounded-xl border border-[var(--card-border)] hover:border-[var(--primary)] hover:bg-[var(--muted-bg)] hover:shadow-md transition-all duration-300"
-                    >
-                      <div className="w-12 h-12 rounded-xl bg-white dark:bg-white/90 border border-[var(--card-border)] flex items-center justify-center overflow-hidden shrink-0 shadow-sm">
-                        <Image
-                          src={rt.logo}
-                          alt={rtName}
-                          width={28}
-                          height={28}
-                          className="w-7 h-7 object-contain"
-                          unoptimized
-                        />
-                      </div>
-                      <div className="min-w-0 flex-1">
-                        <div className="font-semibold text-[var(--foreground)] text-sm truncate group-hover:text-[var(--primary)] transition">
-                          {rtName}
-                        </div>
-                        {rtDev && (
-                          <div className="text-xs text-[var(--muted)] mt-0.5">
-                            {rtDev}
-                          </div>
-                        )}
-                        <p className="text-xs text-[var(--muted)] mt-2 leading-relaxed line-clamp-2">
-                          {rtDesc}
-                        </p>
-                      </div>
-                    </Link>
-                  );
-                })}
+                {relatedTools.map((rt) => renderRelatedCard(rt as Tool))}
               </div>
             </div>
           )}

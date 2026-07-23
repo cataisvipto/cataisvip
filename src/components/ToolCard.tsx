@@ -68,7 +68,7 @@ export default function ToolCard({ tool, locale }: ToolCardProps) {
 
       {/* Header - links to detail page */}
       <Link href={`/tool/${tool.slug}`} className="flex items-start gap-3 mb-3 group/header">
-        <div className="w-12 h-12 rounded-xl bg-white dark:bg-white/90 border border-[var(--card-border)] flex items-center justify-center overflow-hidden shrink-0 shadow-sm">
+        <div className="w-12 h-12 rounded-xl bg-white border border-[var(--card-border)] flex items-center justify-center overflow-hidden shrink-0 shadow-sm p-1.5">
           {logoError ? (
             <span className="text-lg font-bold text-[var(--primary)] select-none">
               {displayName.charAt(0).toUpperCase()}
@@ -77,9 +77,9 @@ export default function ToolCard({ tool, locale }: ToolCardProps) {
             <Image
               src={tool.logo}
               alt={displayName}
-              width={32}
-              height={32}
-              className="w-8 h-8 object-contain"
+              width={40}
+              height={40}
+              className="w-full h-full object-contain"
               unoptimized
               onError={() => setLogoError(true)}
             />

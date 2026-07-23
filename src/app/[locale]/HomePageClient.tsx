@@ -69,13 +69,13 @@ export default function HomePageClient() {
                 className="group bg-[var(--card-bg)] rounded-xl border border-[var(--card-border)] p-4 hover:border-[var(--primary)] hover:shadow-lg transition-all duration-300"
               >
                 <div className="flex items-center gap-3 mb-3">
-                  <div className="w-10 h-10 rounded-lg bg-white dark:bg-white/90 border border-[var(--card-border)] flex items-center justify-center overflow-hidden shrink-0 shadow-sm">
+                  <div className="w-10 h-10 rounded-lg bg-white border border-[var(--card-border)] flex items-center justify-center overflow-hidden shrink-0 shadow-sm p-1.5">
                     <Image
                       src={tool.logo}
                       alt={getDisplayName(tool)}
-                      width={24}
-                      height={24}
-                      className="w-6 h-6 object-contain"
+                      width={32}
+                      height={32}
+                      className="w-full h-full object-contain"
                       unoptimized
                     />
                   </div>
