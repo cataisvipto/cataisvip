@@ -1,7 +1,8 @@
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/navigation';
 import { Mail, Code2, Send, Newspaper } from 'lucide-react';
-import Image from 'next/image';
+import LogoFull from './Logo/LogoFull';
+import { WORDMARK_GRADIENT_VIVID } from '@/lib/brandColors';
 
 export default function Footer() {
   const t = useTranslations('footer');
@@ -14,20 +15,17 @@ export default function Footer() {
     <footer className="border-t border-[var(--card-border)] bg-[var(--card-bg)]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-          {/* Brand Column */}
-          <div className="space-y-4">
-            <div className="flex items-center gap-2">
-              <Image
-                src="/favicon.svg"
-                alt="Cataito"
-                width={28}
-                height={28}
-                className="w-7 h-7"
-              />
-              <span className="text-lg font-bold bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-500 bg-clip-text text-transparent">
-                Cataito
-              </span>
-            </div>
+          {/* Brand Column — Full Logo (CA + CATAITO + tagline), theme-aware */}
+          <div className="space-y-4 relative">
+            {/* Soft brand spotlight — dark mode only (see globals.css) */}
+            <span aria-hidden="true" className="footer-glow" />
+            <LogoFull
+              layout="horizontal"
+              maxWidth={244}
+              vivid
+              wordmarkGradient={WORDMARK_GRADIENT_VIVID}
+              className="relative z-[1]"
+            />
             <p className="text-sm text-[var(--muted)] leading-relaxed">
               {t('description')}
             </p>

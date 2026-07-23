@@ -7,7 +7,7 @@ export default function SubmitCTA() {
 
   return (
     <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-      <div className="relative overflow-hidden rounded-3xl bg-gradient-to-r from-indigo-500 to-cyan-500 p-8 sm:p-12 text-center">
+      <div className="relative overflow-hidden rounded-3xl brand-gradient p-8 sm:p-12 text-center">
         {/* Background decoration */}
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
           <div className="absolute -top-20 -right-20 w-60 h-60 bg-white/10 rounded-full blur-2xl" />

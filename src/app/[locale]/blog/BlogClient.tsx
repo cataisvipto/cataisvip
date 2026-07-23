@@ -50,7 +50,7 @@ export default function BlogClient({ posts }: BlogClientProps) {
       <Header searchQuery={searchQuery} onSearchChange={setSearchQuery} locale={locale} />
       <main className="flex-1">
         {/* Hero Section */}
-        <section className="bg-gradient-to-br from-indigo-600 via-purple-600 to-pink-500 text-white py-16">
+        <section className="brand-gradient text-white py-16">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-4">{t('title')}</h1>
             <p className="text-lg md:text-xl text-white/90 max-w-2xl mx-auto">{t('subtitle')}</p>

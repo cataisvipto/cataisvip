@@ -1,72 +1,33 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 100" width="400" height="100">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" width="480" height="320">
   <defs>
-    <!-- 主渐变 - 使用网站的紫蓝渐变 -->
-    <linearGradient id="mainGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
-      <stop offset="50%" style="stop-color:#764ba2;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#f093fb;stop-opacity:1" />
+    <linearGradient id="logoCaGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563EB"/>
+      <stop offset="52%" stop-color="#4F46E5"/>
+      <stop offset="100%" stop-color="#7C3AED"/>
     </linearGradient>
-    
-    <!-- 发光效果 -->
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
-      <feMerge>
-        <feMergeNode in="coloredBlur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-    
-    <!-- 背景渐变 -->
-    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#667eea;stop-opacity:0.05" />
-      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:0.05" />
+    <linearGradient id="logoTaglineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2563EB"/>
+      <stop offset="50%" stop-color="#4F46E5"/>
+      <stop offset="100%" stop-color="#7C3AED"/>
     </linearGradient>
   </defs>
-  
-  <!-- 背景圆角矩形 -->
-  <rect x="5" y="5" width="390" height="90" rx="16" ry="16" fill="url(#bgGradient)" />
-  
-  <!-- Cataito 字母 - 艺术化设计 -->
-  <!-- C -->
-  <path d="M 45 50 Q 45 25 70 25 L 85 25 L 85 32 L 72 32 Q 52 32 52 50 Q 52 68 72 68 L 85 68 L 85 75 L 70 75 Q 45 75 45 50 Z" 
-        fill="url(#mainGradient)" filter="url(#glow)"/>
-  
-  <!-- A -->
-  <path d="M 100 75 L 115 25 L 125 25 L 140 75 L 132 75 L 128 62 L 112 62 L 108 75 Z M 114 55 L 126 55 L 120 35 Z" 
-        fill="url(#mainGradient)" filter="url(#glow)"/>
-  
-  <!-- T -->
-  <path d="M 150 25 L 190 25 L 190 32 L 173 32 L 173 75 L 166 75 L 166 32 L 150 32 Z" 
-        fill="url(#mainGradient)" filter="url(#glow)"/>
-  
-  <!-- A -->
-  <path d="M 200 75 L 215 25 L 225 25 L 240 75 L 232 75 L 228 62 L 212 62 L 208 75 Z M 214 55 L 226 55 L 220 35 Z" 
-        fill="url(#mainGradient)" filter="url(#glow)"/>
-  
-  <!-- I - 带有AI元素的设计 -->
-  <path d="M 255 25 L 262 25 L 262 75 L 255 75 Z" 
-        fill="url(#mainGradient)" filter="url(#glow)"/>
-  
-  <!-- AI 连接点 - 代表人工智能 -->
-  <circle cx="275" cy="35" r="4" fill="url(#mainGradient)" opacity="0.8" filter="url(#glow)"/>
-  <circle cx="285" cy="50" r="3" fill="url(#mainGradient)" opacity="0.6"/>
-  <circle cx="275" cy="65" r="4" fill="url(#mainGradient)" opacity="0.8" filter="url(#glow)"/>
-  <line x1="275" y1="35" x2="285" y2="50" stroke="url(#mainGradient)" stroke-width="1.5" opacity="0.5"/>
-  <line x1="285" y1="50" x2="275" y2="65" stroke="url(#mainGradient)" stroke-width="1.5" opacity="0.5"/>
-  
-  <!-- 装饰性神经网络线条 -->
-  <path d="M 300 30 Q 320 40 340 30" stroke="url(#mainGradient)" stroke-width="1" fill="none" opacity="0.3"/>
-  <path d="M 300 50 Q 320 50 340 50" stroke="url(#mainGradient)" stroke-width="1" fill="none" opacity="0.3"/>
-  <path d="M 300 70 Q 320 60 340 70" stroke="url(#mainGradient)" stroke-width="1" fill="none" opacity="0.3"/>
-  
-  <!-- 小装饰点 -->
-  <circle cx="300" cy="30" r="2" fill="url(#mainGradient)" opacity="0.5"/>
-  <circle cx="340" cy="30" r="2" fill="url(#mainGradient)" opacity="0.5"/>
-  <circle cx="300" cy="70" r="2" fill="url(#mainGradient)" opacity="0.5"/>
-  <circle cx="340" cy="70" r="2" fill="url(#mainGradient)" opacity="0.5"/>
-  
-  <!-- 副标题 - AI Ecosystem Portal -->
-  <text x="310" y="55" font-family="Arial, sans-serif" font-size="10" fill="#667eea" opacity="0.7" font-weight="300">
-    AI
-  </text>
+
+  <!-- CA monogram -->
+  <g transform="translate(168, 20) scale(1.5)">
+    <g stroke="url(#logoCaGrad)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M 56 24 A 30 30 0 1 0 56 72" stroke-width="13"/>
+      <path d="M 48 76 L 66 16 L 88 76" stroke-width="13"/>
+    </g>
+    <circle cx="66" cy="58" r="3.8" fill="url(#logoCaGrad)"/>
+  </g>
+
+  <!-- CATAITO wordmark -->
+  <g font-family="'Inter','SF Pro Display','Helvetica Neue',Arial,sans-serif" font-weight="800" font-size="72" letter-spacing="6" fill="#0F172A" text-anchor="middle">
+    <text x="240" y="230">CATAITO</text>
+  </g>
+
+  <!-- Tagline -->
+  <g font-family="'Inter','SF Pro Display','Helvetica Neue',Arial,sans-serif" font-weight="600" font-size="16" letter-spacing="4" text-anchor="middle">
+    <text x="240" y="270" fill="url(#logoTaglineGrad)">DISCOVER · COMPARE · MASTER AI TOOLS</text>
+  </g>
 </svg>

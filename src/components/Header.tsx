@@ -3,9 +3,10 @@
 import { useTranslations } from 'next-intl';
 import { Link, usePathname } from '@/i18n/navigation';
 import { Search, Globe, Send, ChevronDown, Newspaper, Code2, Menu, X, Home, LayoutGrid } from 'lucide-react';
-import Image from 'next/image';
 import { useState, useRef, useEffect } from 'react';
 import ThemeToggle from './ThemeToggle';
+import LogoCompact from './Logo/LogoCompact';
+import LogoIcon from './Logo/LogoIcon';
 
 interface HeaderProps {
   searchQuery: string;
@@ -58,19 +59,17 @@ export default function Header({ searchQuery, onSearchChange, locale }: HeaderPr
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Row 1: Logo + Search + Utilities */}
         <div className="flex items-center justify-between h-16 gap-4">
-          {/* Logo */}
-          <Link href="/" className="flex items-center gap-2 shrink-0">
-            <Image
-              src="/favicon.svg"
-              alt="Cataito"
-              width={36}
-              height={36}
-              className="w-9 h-9"
-            />
-            <span className="text-xl font-bold bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-500 bg-clip-text text-transparent">
-              Cataito
+          {/* Logo: compact on desktop (CA + CATAITO), icon-only on mobile */}
+          <div className="shrink-0">
+            <span className="hidden sm:inline-flex">
+              <LogoCompact height={36} />
             </span>
-          </Link>
+            <span className="sm:hidden inline-flex">
+              <Link href="/" aria-label="Cataito — Home" className="inline-flex items-center">
+                <LogoIcon size={36} ariaLabel="Cataito" />
+              </Link>
+            </span>
+          </div>
 
           {/* Search Bar */}
           <div className="flex-1 max-w-md hidden sm:block">

@@ -1,18 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" width="96" height="96">
   <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#667eea"/>
-      <stop offset="100%" style="stop-color:#764ba2"/>
+    <linearGradient id="caGrad" x1="0" y1="0" x2="96" y2="96" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#22D3EE"/>
+      <stop offset="50%" stop-color="#4F6BF6"/>
+      <stop offset="100%" stop-color="#A855F7"/>
     </linearGradient>
   </defs>
-  
-  <!-- 渐变背景 -->
-  <rect width="64" height="64" rx="14" fill="url(#bg)"/>
-  
-  <!-- 简洁的 C 字母 -->
-  <text x="32" y="46" font-family="Arial, sans-serif" font-size="40" font-weight="bold" fill="white" text-anchor="middle">C</text>
-  
-  <!-- AI 小点 -->
-  <circle cx="50" cy="16" r="3" fill="white" opacity="0.8"/>
-  <circle cx="54" cy="24" r="2" fill="white" opacity="0.6"/>
+
+  <!-- App-icon tile: full-bleed rounded square with the brand gradient -->
+  <rect x="0" y="0" width="96" height="96" rx="20" fill="url(#caGrad)"/>
+
+  <!-- White letter C, opening to the right -->
+  <path d="M 67 38.8 A 21 21 0 1 0 67 57.2" fill="none" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round"/>
+
+  <!-- Cat paw centered in the C's counter: one big pad + four toe beans -->
+  <g fill="#FFFFFF">
+    <ellipse cx="48" cy="53.1" rx="7.5" ry="5.4"/>
+    <ellipse cx="40.5" cy="44.6" rx="2.6" ry="3.2"/>
+    <ellipse cx="45.3" cy="41.9" rx="2.6" ry="3.2"/>
+    <ellipse cx="50.7" cy="41.9" rx="2.6" ry="3.2"/>
+    <ellipse cx="55.5" cy="44.6" rx="2.6" ry="3.2"/>
+  </g>
 </svg>
