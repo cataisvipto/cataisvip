@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import tools from '@/data/tools.json';
 import { generateAlternates, BASE_URL } from '@/lib/seo';
+import type { Tool } from '@/components/ToolCard';
 import CategoryClient from './CategoryClient';
 
 // All available categories derived from tools data
@@ -83,7 +84,7 @@ export default async function CategoryPage({ params }: PageProps) {
       <CategoryClient
         category={category}
         slug={slug}
-        tools={categoryTools}
+        tools={categoryTools as Tool[]}
         locale={locale}
       />
     </>

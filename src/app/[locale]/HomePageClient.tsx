@@ -4,7 +4,6 @@ import { useState } from 'react';
 import { useLocale } from 'next-intl';
 import { Link } from '@/i18n/navigation';
 import { ArrowRight, Sparkles } from 'lucide-react';
-import Image from 'next/image';
 import Header from '@/components/Header';
 import HeroSection from '@/components/HeroSection';
 import ToolGrid from '@/components/ToolGrid';
@@ -13,6 +12,7 @@ import BlogHighlights from '@/components/BlogHighlights';
 import Newsletter from '@/components/Newsletter';
 import SubmitCTA from '@/components/SubmitCTA';
 import Footer from '@/components/Footer';
+import LogoTile from '@/components/LogoTile';
 import tools from '@/data/tools.json';
 import { Tool } from '@/components/ToolCard';
 
@@ -69,16 +69,15 @@ export default function HomePageClient() {
                 className="group bg-[var(--card-bg)] rounded-xl border border-[var(--card-border)] p-4 hover:border-[var(--primary)] hover:shadow-lg transition-all duration-300"
               >
                 <div className="flex items-center gap-3 mb-3">
-                  <div className="w-10 h-10 rounded-lg bg-white border border-[var(--card-border)] flex items-center justify-center overflow-hidden shrink-0 shadow-sm p-1.5">
-                    <Image
-                      src={tool.logo}
-                      alt={getDisplayName(tool)}
-                      width={32}
-                      height={32}
-                      className="w-full h-full object-contain"
-                      unoptimized
-                    />
-                  </div>
+                  <LogoTile
+                    logo={tool.logo}
+                    alt={getDisplayName(tool)}
+                    theme={tool.logoTheme}
+                    className="w-10 h-10 rounded-lg"
+                    pad="p-1.5"
+                    imgPx={32}
+                    fallbackClassName="text-base"
+                  />
                   <div className="min-w-0 flex-1">
                     <h3 className="font-semibold text-sm text-[var(--foreground)] truncate group-hover:text-[var(--primary)] transition">
                       {getDisplayName(tool)}

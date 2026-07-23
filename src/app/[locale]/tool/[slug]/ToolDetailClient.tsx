@@ -12,7 +12,7 @@ import blogPosts from '@/data/blogPosts.json';
 import { ExternalLink, Globe, Star, Building2, CheckCircle, XCircle, Lightbulb, DollarSign, Zap, Info, Share2, Link2, Check, Newspaper, BookOpen, Clipboard, LayoutGrid } from 'lucide-react';
 import { TwitterIcon, LinkedinIcon, FacebookIcon } from '@/components/SocialIcons';
 import Newsletter from '@/components/Newsletter';
-import Image from 'next/image';
+import LogoTile from '@/components/LogoTile';
 import { useState } from 'react';
 
 interface ToolDetailClientProps {
@@ -102,9 +102,15 @@ export default function ToolDetailClient({ tool, locale }: ToolDetailClientProps
         href={`/tool/${rt.slug}`}
         className="group flex items-start gap-4 p-5 rounded-xl border border-[var(--card-border)] hover:border-[var(--primary)] hover:bg-[var(--muted-bg)] hover:shadow-md transition-all duration-300"
       >
-        <div className="w-12 h-12 rounded-xl bg-white border border-[var(--card-border)] flex items-center justify-center overflow-hidden shrink-0 shadow-sm p-1.5">
-          <Image src={rt.logo} alt={rtName} width={40} height={40} className="w-full h-full object-contain" unoptimized />
-        </div>
+        <LogoTile
+          logo={rt.logo}
+          alt={rtName}
+          theme={rt.logoTheme}
+          className="w-12 h-12 rounded-xl"
+          pad="p-1.5"
+          imgPx={40}
+          fallbackClassName="text-lg"
+        />
         <div className="min-w-0 flex-1">
           <div className="font-semibold text-[var(--foreground)] text-sm truncate group-hover:text-[var(--primary)] transition">
             {rtName}
@@ -171,16 +177,15 @@ export default function ToolDetailClient({ tool, locale }: ToolDetailClientProps
             <div className="p-8 border-b border-[var(--card-border)]">
               <div className="flex items-start gap-6">
                 {/* Logo */}
-                <div className="w-20 h-20 rounded-2xl bg-white border border-[var(--card-border)] flex items-center justify-center overflow-hidden shrink-0 shadow-sm p-2.5">
-                  <Image
-                    src={tool.logo}
-                    alt={displayName}
-                    width={56}
-                    height={56}
-                    className="w-full h-full object-contain"
-                    unoptimized
-                  />
-                </div>
+                <LogoTile
+                  logo={tool.logo}
+                  alt={displayName}
+                  theme={tool.logoTheme}
+                  className="w-20 h-20 rounded-2xl"
+                  pad="p-2.5"
+                  imgPx={64}
+                  fallbackClassName="text-3xl"
+                />
 
                 {/* Info */}
                 <div className="flex-1 min-w-0">

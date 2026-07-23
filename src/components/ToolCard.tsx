@@ -1,10 +1,9 @@
 'use client';
 
-import { useState } from 'react';
 import { useTranslations } from 'next-intl';
 import { ExternalLink, Star } from 'lucide-react';
-import Image from 'next/image';
 import { Link } from '@/i18n/navigation';
+import LogoTile from './LogoTile';
 
 export interface Tool {
   slug: string;
@@ -17,6 +16,7 @@ export interface Tool {
   descriptionFr?: string;
   url: string;
   logo: string;
+  logoTheme?: 'light' | 'dark' | 'fill';
   category: string;
   tags: string[];
   featured: boolean;
@@ -55,7 +55,6 @@ export default function ToolCard({ tool, locale }: ToolCardProps) {
   const tCategories = useTranslations('categories');
   const description = getLocalizedDescription(tool, locale);
   const displayName = locale === 'zh' && tool.nameZh ? tool.nameZh : tool.name;
-  const [logoError, setLogoError] = useState(false);
 
   return (
     <article className="group relative bg-[var(--card-bg)] rounded-2xl border border-[var(--card-border)] p-5 hover:shadow-lg hover:border-[var(--primary)] transition-all duration-300 flex flex-col">
@@ -68,23 +67,15 @@ export default function ToolCard({ tool, locale }: ToolCardProps) {
 
       {/* Header - links to detail page */}
       <Link href={`/tool/${tool.slug}`} className="flex items-start gap-3 mb-3 group/header">
-        <div className="w-12 h-12 rounded-xl bg-white border border-[var(--card-border)] flex items-center justify-center overflow-hidden shrink-0 shadow-sm p-1.5">
-          {logoError ? (
-            <span className="text-lg font-bold text-[var(--primary)] select-none">
-              {displayName.charAt(0).toUpperCase()}
-            </span>
-          ) : (
-            <Image
-              src={tool.logo}
-              alt={displayName}
-              width={40}
-              height={40}
-              className="w-full h-full object-contain"
-              unoptimized
-              onError={() => setLogoError(true)}
-            />
-          )}
-        </div>
+        <LogoTile
+          logo={tool.logo}
+          alt={displayName}
+          theme={tool.logoTheme}
+          className="w-12 h-12 rounded-xl"
+          pad="p-1.5"
+          imgPx={40}
+          fallbackClassName="text-lg"
+        />
         <div className="min-w-0">
           <h3 className="font-semibold text-[var(--foreground)] truncate group-hover/header:text-[var(--primary)] transition">{displayName}</h3>
           <span className="text-xs text-[var(--muted)]">{tCategories(tool.category as any)}</span>
