@@ -15727,5 +15727,304 @@
       "es": "2026: la edición china de ZCode se adapta a GLM-5.2 con acceso nacional estable",
       "fr": "2026 : l'édition chinoise de ZCode s'adapte à GLM-5.2 avec un accès national stable"
     }
+  },
+  "marvis": {
+    "features": {
+      "en": [
+        "On-device LLMs (local mode)",
+        "Local file & image AI search",
+        "Remote PC control from your phone",
+        "One-sentence system settings",
+        "Deep file understanding & generation",
+        "Cross-platform: Windows/Mac/Android/iOS"
+      ],
+      "zh": [
+        "端侧本地大模型（本地模式）",
+        "本地文件与图片智能搜索",
+        "手机远程操控电脑",
+        "一句话修改系统设置",
+        "文件深度理解与生成",
+        "全平台：Windows/Mac/安卓/iOS"
+      ],
+      "ja": [
+        "オンデバイス大規模モデル（ローカルモード）",
+        "ローカルファイル・画像の AI 検索",
+        "スマホから PC を遠隔操作",
+        "一言でシステム設定を変更",
+        "ファイルの深い理解と生成",
+        "全プラットフォーム対応：Windows/Mac/Android/iOS"
+      ],
+      "es": [
+        "LLM en el dispositivo (modo local)",
+        "Búsqueda IA de archivos e imágenes locales",
+        "Control remoto del PC desde el móvil",
+        "Ajustes del sistema con una frase",
+        "Comprensión y generación profunda de archivos",
+        "Multiplataforma: Windows/Mac/Android/iOS"
+      ],
+      "fr": [
+        "LLM sur l'appareil (mode local)",
+        "Recherche IA de fichiers et images locaux",
+        "Contrôle du PC à distance depuis le mobile",
+        "Réglages système en une phrase",
+        "Compréhension et génération approfondies de fichiers",
+        "Multiplateforme : Windows/Mac/Android/iOS"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "Free to download and use",
+        "zh": "免费下载使用",
+        "ja": "無料でダウンロード・利用可能",
+        "es": "Descarga y uso gratuitos",
+        "fr": "Téléchargement et utilisation gratuits"
+      }
+    },
+    "useCases": {
+      "en": [
+        "Personal knowledge base",
+        "File organization & search",
+        "Automating PC tasks",
+        "Privacy-first offline AI"
+      ],
+      "zh": [
+        "个人知识库",
+        "文件整理与搜索",
+        "自动化电脑任务",
+        "隐私优先的离线 AI"
+      ],
+      "ja": [
+        "個人ナレッジベース",
+        "ファイル整理と検索",
+        "PC 作業の自動化",
+        "プライバシー重視のオフライン AI"
+      ],
+      "es": [
+        "Base de conocimiento personal",
+        "Organización y búsqueda de archivos",
+        "Automatización de tareas del PC",
+        "IA sin conexión con privacidad ante todo"
+      ],
+      "fr": [
+        "Base de connaissances personnelle",
+        "Organisation et recherche de fichiers",
+        "Automatisation des tâches PC",
+        "IA hors ligne axée sur la confidentialité"
+      ]
+    },
+    "pros": {
+      "en": [
+        "Runs locally, strong privacy",
+        "Deep OS-level integration",
+        "Cross-device control",
+        "Free"
+      ],
+      "zh": [
+        "本地运行，隐私性强",
+        "深度系统级集成",
+        "跨设备操控",
+        "免费"
+      ],
+      "ja": [
+        "ローカル実行でプライバシーが高い",
+        "OS レベルの深い統合",
+        "デバイス横断の操作",
+        "無料"
+      ],
+      "es": [
+        "Se ejecuta localmente, gran privacidad",
+        "Integración profunda a nivel de SO",
+        "Control entre dispositivos",
+        "Gratis"
+      ],
+      "fr": [
+        "Fonctionne localement, forte confidentialité",
+        "Intégration profonde au niveau du SE",
+        "Contrôle multi-appareils",
+        "Gratuit"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Requires a capable PC (6-core, 16GB+)",
+        "China-focused, mainly Chinese UI"
+      ],
+      "zh": [
+        "对电脑配置有要求（6核、16GB 以上）",
+        "以中国市场为主，界面以中文为主"
+      ],
+      "ja": [
+        "高めの PC スペックが必要（6コア・16GB 以上）",
+        "中国市場中心で UI は主に中国語"
+      ],
+      "es": [
+        "Requiere un PC potente (6 núcleos, 16GB+)",
+        "Enfocado en China, interfaz principalmente en chino"
+      ],
+      "fr": [
+        "Nécessite un PC performant (6 cœurs, 16 Go+)",
+        "Axé sur la Chine, interface principalement en chinois"
+      ]
+    },
+    "latestUpdate": {
+      "en": "May 2026: Tencent launched Marvis across Windows, macOS and mobile with on-device models",
+      "zh": "2026年5月：腾讯正式推出 Marvis，全面覆盖 Windows、macOS 与移动端，内置端侧模型",
+      "ja": "2026年5月：テンセントが Marvis を Windows・macOS・モバイルで正式リリース、オンデバイスモデルを搭載",
+      "es": "Mayo de 2026: Tencent lanzó Marvis en Windows, macOS y móvil con modelos en el dispositivo",
+      "fr": "Mai 2026 : Tencent a lancé Marvis sur Windows, macOS et mobile avec des modèles sur l'appareil"
+    }
+  },
+  "nano-banana": {
+    "features": {
+      "en": [
+        "Text-to-image generation",
+        "Natural-language image editing",
+        "Character & style consistency",
+        "Multi-image fusion",
+        "World-knowledge grounding",
+        "Powered by Gemini"
+      ],
+      "zh": [
+        "文本生成图像",
+        "自然语言修图",
+        "角色与风格一致性",
+        "多图融合",
+        "世界知识理解",
+        "由 Gemini 驱动"
+      ],
+      "ja": [
+        "テキストから画像生成",
+        "自然言語での画像編集",
+        "キャラクター・スタイルの一貫性",
+        "複数画像の合成",
+        "世界知識に基づく理解",
+        "Gemini を搭載"
+      ],
+      "es": [
+        "Generación de imágenes desde texto",
+        "Edición de imágenes en lenguaje natural",
+        "Coherencia de personajes y estilo",
+        "Fusión de varias imágenes",
+        "Comprensión basada en conocimiento del mundo",
+        "Impulsado por Gemini"
+      ],
+      "fr": [
+        "Génération d'images à partir de texte",
+        "Édition d'images en langage naturel",
+        "Cohérence des personnages et du style",
+        "Fusion de plusieurs images",
+        "Compréhension fondée sur la connaissance du monde",
+        "Propulsé par Gemini"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "Free tier in the Gemini app",
+        "zh": "Gemini 应用内免费额度",
+        "ja": "Gemini アプリ内の無料枠",
+        "es": "Nivel gratuito en la app de Gemini",
+        "fr": "Offre gratuite dans l'app Gemini"
+      },
+      "paid": {
+        "en": "Higher limits via Google AI / API",
+        "zh": "通过 Google AI / API 获得更高额度",
+        "ja": "Google AI / API でより多くの利用枠",
+        "es": "Mayores límites vía Google AI / API",
+        "fr": "Limites supérieures via Google AI / API"
+      }
+    },
+    "useCases": {
+      "en": [
+        "Marketing creatives",
+        "Photo editing & retouching",
+        "Consistent character art",
+        "Product mockups"
+      ],
+      "zh": [
+        "营销创意图",
+        "照片编辑与修饰",
+        "一致性角色美术",
+        "产品样机"
+      ],
+      "ja": [
+        "マーケティングクリエイティブ",
+        "写真編集・レタッチ",
+        "一貫したキャラクターアート",
+        "製品モックアップ"
+      ],
+      "es": [
+        "Creatividades de marketing",
+        "Edición y retoque de fotos",
+        "Arte de personajes coherente",
+        "Maquetas de producto"
+      ],
+      "fr": [
+        "Créations marketing",
+        "Édition et retouche de photos",
+        "Art de personnage cohérent",
+        "Maquettes de produit"
+      ]
+    },
+    "pros": {
+      "en": [
+        "Excellent character consistency",
+        "Fast, high-quality output",
+        "Easy prompt-based editing",
+        "Backed by Google/Gemini"
+      ],
+      "zh": [
+        "角色一致性出色",
+        "速度快、质量高",
+        "基于提示的修图简单",
+        "背靠 Google/Gemini"
+      ],
+      "ja": [
+        "キャラクター一貫性が優秀",
+        "高速・高品質な出力",
+        "プロンプトによる編集が簡単",
+        "Google/Gemini による裏付け"
+      ],
+      "es": [
+        "Excelente coherencia de personajes",
+        "Salida rápida y de alta calidad",
+        "Edición sencilla por prompts",
+        "Respaldado por Google/Gemini"
+      ],
+      "fr": [
+        "Excellente cohérence des personnages",
+        "Sortie rapide et de haute qualité",
+        "Édition simple par prompts",
+        "Soutenu par Google/Gemini"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Usage limits on the free tier",
+        "Requires a Google account / access"
+      ],
+      "zh": [
+        "免费额度有限制",
+        "需要 Google 账号 / 访问权限"
+      ],
+      "ja": [
+        "無料枠には利用制限あり",
+        "Google アカウント / アクセスが必要"
+      ],
+      "es": [
+        "Límites de uso en el nivel gratuito",
+        "Requiere cuenta de Google / acceso"
+      ],
+      "fr": [
+        "Limites d'utilisation sur l'offre gratuite",
+        "Nécessite un compte Google / un accès"
+      ]
+    },
+    "latestUpdate": {
+      "en": "Released in 2025 (Gemini 2.5 Flash Image); a higher-fidelity Nano Banana Pro later arrived on newer Gemini models",
+      "zh": "2025年发布（Gemini 2.5 Flash Image）；随后在更新的 Gemini 模型上推出画质更高的 Nano Banana Pro",
+      "ja": "2025年に公開（Gemini 2.5 Flash Image）。その後、より新しい Gemini モデルで高精細な Nano Banana Pro が登場",
+      "es": "Lanzado en 2025 (Gemini 2.5 Flash Image); más tarde llegó un Nano Banana Pro de mayor fidelidad en modelos Gemini más nuevos",
+      "fr": "Lancé en 2025 (Gemini 2.5 Flash Image) ; un Nano Banana Pro de plus haute fidélité est ensuite arrivé sur des modèles Gemini plus récents"
+    }
   }
 }

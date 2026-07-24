@@ -1754,5 +1754,49 @@
     "featured": true,
     "developer": "Zhipu AI",
     "developerZh": "智谱 AI"
+  },
+  {
+    "slug": "marvis",
+    "name": "Marvis",
+    "nameZh": "马维斯",
+    "description": "腾讯推出的操作系统级个人 AI 助手，内置端侧大模型，支持本地文件/图片智能搜索、手机远程操控电脑、一句话修改系统设置",
+    "descriptionEn": "OS-level personal AI assistant by Tencent with on-device LLMs, offering local file/image AI search, remote PC control from your phone, and one-sentence system settings",
+    "descriptionJa": "テンセントが提供する OS レベルの個人 AI アシスタント。オンデバイス大規模モデルを搭載し、ローカルのファイル/画像の AI 検索、スマホからの PC 遠隔操作、一言でのシステム設定変更に対応",
+    "descriptionEs": "Asistente de IA personal a nivel de sistema operativo de Tencent con LLM en el dispositivo, que ofrece búsqueda IA de archivos/imágenes locales, control remoto del PC desde el móvil y ajustes del sistema con una frase",
+    "descriptionFr": "Assistant IA personnel au niveau du système d'exploitation par Tencent, avec des LLM sur l'appareil, offrant une recherche IA de fichiers/images locaux, le contrôle du PC à distance depuis le mobile et des réglages système en une phrase",
+    "url": "https://marvis.qq.com/",
+    "logo": "/logos/tools/marvis.ico",
+    "category": "Agent",
+    "tags": [
+      "Free"
+    ],
+    "featured": true,
+    "developer": "Tencent",
+    "developerZh": "腾讯",
+    "platforms": [
+      "Windows",
+      "macOS",
+      "Android",
+      "iOS"
+    ]
+  },
+  {
+    "slug": "nano-banana",
+    "name": "Nano Banana",
+    "nameZh": "Nano Banana",
+    "description": "Google 推出的 Gemini 图像生成与编辑模型（代号“纳米香蕉”，即 Gemini 2.5 Flash Image），以角色一致性、自然语言精修和多图融合著称",
+    "descriptionEn": "Google's Gemini image generation and editing model (codename \"Nano Banana\", i.e. Gemini 2.5 Flash Image), known for character consistency, natural-language editing and multi-image fusion",
+    "descriptionJa": "Google の Gemini 画像生成・編集モデル（コードネーム「Nano Banana」、Gemini 2.5 Flash Image）。キャラクターの一貫性、自然言語での編集、複数画像の合成で知られる",
+    "descriptionEs": "Modelo de generación y edición de imágenes Gemini de Google (nombre en clave \"Nano Banana\", es decir Gemini 2.5 Flash Image), conocido por la coherencia de personajes, la edición en lenguaje natural y la fusión de varias imágenes",
+    "descriptionFr": "Modèle de génération et d'édition d'images Gemini de Google (nom de code « Nano Banana », soit Gemini 2.5 Flash Image), reconnu pour la cohérence des personnages, l'édition en langage naturel et la fusion de plusieurs images",
+    "url": "https://gemini.google.com/",
+    "logo": "/logos/tools/nano-banana.png",
+    "category": "Image",
+    "tags": [
+      "Freemium"
+    ],
+    "featured": true,
+    "developer": "Google",
+    "developerZh": "谷歌"
   }
 ]
