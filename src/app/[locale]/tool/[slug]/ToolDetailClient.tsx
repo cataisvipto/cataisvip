@@ -71,7 +71,7 @@ export default function ToolDetailClient({ tool, locale }: ToolDetailClientProps
     .filter((t) => t.category === tool.category && t.slug !== tool.slug && !sameMakerSlugs.has(t.slug))
     .slice(0, 4);
 
-  // Find related blog posts (tags match tool name/slug)
+  // Find related blog posts (tags match tool name/slug)，发布时间倒序（最新在前）
   const relatedPosts = blogPosts.filter((post) => {
     const postTags = (post.tags || []).map((t) => t.toLowerCase());
     const toolName = tool.name.toLowerCase();
@@ -79,7 +79,9 @@ export default function ToolDetailClient({ tool, locale }: ToolDetailClientProps
     return postTags.some(
       (tag: string) => tag === toolName || tag === toolSlug || tag.includes(toolSlug)
     );
-  }).slice(0, 3);
+  })
+    .sort((a, b) => (a.publishedAt < b.publishedAt ? 1 : -1))
+    .slice(0, 3);
 
   const getLocalized = (field: unknown, loc: string): string | string[] => {
     if (typeof field === 'string') return field;

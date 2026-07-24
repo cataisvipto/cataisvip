@@ -37,7 +37,10 @@ export default function BlogClient({ posts }: BlogClientProps) {
 
   const categories = ['all', 'news', 'comparison', 'listicle', 'tutorial', 'analysis'];
 
-  const filteredPosts = posts.filter((post) => {
+  // 统一按发布时间倒序（最新在前），与首页 BlogHighlights 一致
+  const filteredPosts = [...posts]
+    .sort((a, b) => (a.publishedAt < b.publishedAt ? 1 : -1))
+    .filter((post) => {
     const title = getLocalized(post.title, locale);
     const matchesSearch = title.toLowerCase().includes(searchQuery.toLowerCase()) ||
       post.tags.some(tag => tag.toLowerCase().includes(searchQuery.toLowerCase()));
