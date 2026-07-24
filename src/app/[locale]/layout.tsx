@@ -5,6 +5,7 @@ import { getMessages, setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import GoogleAnalytics from '../GoogleAnalytics';
 import { ThemeProvider } from '@/components/ThemeProvider';
+import { routing } from '@/i18n/routing';
 import "../globals.css";
 
 const geistSans = Geist({
@@ -49,7 +50,7 @@ export const metadata: Metadata = {
 };
 
 export function generateStaticParams() {
-  return [{ locale: 'en' }, { locale: 'zh' }, { locale: 'ja' }, { locale: 'es' }, { locale: 'fr' }];
+  return routing.locales.map((locale) => ({ locale }));
 }
 
 export default async function LocaleLayout({
@@ -61,7 +62,7 @@ export default async function LocaleLayout({
 }) {
   const { locale } = await params;
 
-  if (!['en', 'zh', 'ja', 'es', 'fr'].includes(locale)) {
+  if (!(routing.locales as readonly string[]).includes(locale)) {
     notFound();
   }
 

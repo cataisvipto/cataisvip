@@ -8,8 +8,12 @@
 const fs = require('fs');
 const path = require('path');
 
-const LOCALES = ['en', 'zh', 'ja', 'es', 'fr'];
 const MESSAGES_DIR = path.resolve(__dirname, '..', 'messages');
+// 语言列表从 messages/*.json 自动发现（单一 source of truth 由 messages 目录承担），新增语言无需改此脚本
+const LOCALES = fs.readdirSync(MESSAGES_DIR)
+  .filter((f) => f.endsWith('.json'))
+  .map((f) => path.basename(f, '.json'))
+  .sort();
 
 /**
  * 递归收集对象所有键路径（用 '.' 连接嵌套层级）

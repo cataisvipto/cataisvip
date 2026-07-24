@@ -2,8 +2,11 @@
  * SEO 工具函数 — 统一生成 hreflang + canonical 元数据
  */
 
+import { locales } from '@/i18n/routing';
+
 export const BASE_URL = 'https://cataito.com';
-export const LOCALES = ['en', 'zh', 'ja', 'es', 'fr'] as const;
+// 语言列表统一来自 routing.ts（单一 source of truth），新增语言只改那里
+export const LOCALES = locales;
 export type Locale = (typeof LOCALES)[number];
 
 /**

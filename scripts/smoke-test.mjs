@@ -11,6 +11,10 @@
  * 退出码: 0 = 全部通过, 1 = 存在失败
  */
 
+import { readdirSync } from 'node:fs';
+import { fileURLToPath } from 'node:url';
+import { dirname, join, basename } from 'node:path';
+
 const BASE_URL = process.argv
   .find((a) => a.startsWith('--base-url='))
   ?.split('=')[1] || process.env.SMOKE_TEST_URL || 'http://localhost:3000';
@@ -22,7 +26,12 @@ const TIMEOUT = parseInt(
   10
 );
 
-const LOCALES = ['en', 'zh', 'ja', 'es', 'fr'];
+// 语言列表从 messages/*.json 自动发现（单一 source of truth），新增语言无需改此脚本
+const __dirname = dirname(fileURLToPath(import.meta.url));
+const LOCALES = readdirSync(join(__dirname, '..', 'messages'))
+  .filter((f) => f.endsWith('.json'))
+  .map((f) => basename(f, '.json'))
+  .sort();
 
 // ─── 关键页面列表 ───────────────────────────────────────────────
 const PAGES = [

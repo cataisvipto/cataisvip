@@ -3,15 +3,15 @@ import { notFound } from 'next/navigation';
 import SkillDetailClient from './SkillDetailClient';
 import skills from '@/data/skills.json';
 import { generateAlternates } from '@/lib/seo';
+import { routing } from '@/i18n/routing';
 
 interface Props {
   params: Promise<{ locale: string; slug: string }>;
 }
 
 export function generateStaticParams() {
-  const locales = ['en', 'zh', 'ja', 'es', 'fr'];
   const params: { locale: string; slug: string }[] = [];
-  for (const locale of locales) {
+  for (const locale of routing.locales) {
     for (const skill of skills) {
       params.push({ locale, slug: skill.slug });
     }

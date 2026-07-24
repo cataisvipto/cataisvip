@@ -1,11 +1,12 @@
 import { MetadataRoute } from 'next';
 import tools from '@/data/tools.json';
 import blogPosts from '@/data/blogPosts.json';
+import { routing } from '@/i18n/routing';
 
 const BASE_URL = 'https://cataito.com';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const locales = ['en', 'zh', 'ja', 'es', 'fr'];
+  const locales = routing.locales;
 
   // Static pages
   const staticPages = ['', '/submit', '/privacy', '/disclaimer', '/blog'].flatMap((path) =>
