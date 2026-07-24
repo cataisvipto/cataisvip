@@ -16026,5 +16026,168 @@
       "es": "Lanzado en 2025 (Gemini 2.5 Flash Image); más tarde llegó un Nano Banana Pro de mayor fidelidad en modelos Gemini más nuevos",
       "fr": "Lancé en 2025 (Gemini 2.5 Flash Image) ; un Nano Banana Pro de plus haute fidélité est ensuite arrivé sur des modèles Gemini plus récents"
     }
+  },
+  "sensenova": {
+    "features": {
+      "en": [
+        "Native multimodal models (SenseNova U1/U1 Pro)",
+        "Text-to-image creation",
+        "Code generation",
+        "Intelligent multi-turn chat",
+        "API & developer console (token plans)",
+        "Office agent (Raccoon) & digital humans"
+      ],
+      "zh": [
+        "原生多模态模型（日日新 U1/U1 Pro）",
+        "文生图创作",
+        "代码生成",
+        "智能多轮对话",
+        "API 与开发者控制台（Token 套餐）",
+        "办公小浣熊智能体与如影数字人"
+      ],
+      "ja": [
+        "ネイティブマルチモーダルモデル（SenseNova U1/U1 Pro）",
+        "テキストから画像生成",
+        "コード生成",
+        "高度なマルチターン対話",
+        "APIと開発者コンソール（トークンプラン）",
+        "オフィスエージェント（小浣熊）とデジタルヒューマン如影"
+      ],
+      "es": [
+        "Modelos multimodales nativos (SenseNova U1/U1 Pro)",
+        "Generación de imágenes desde texto",
+        "Generación de código",
+        "Chat inteligente multironda",
+        "API y consola de desarrollador (planes de tokens)",
+        "Agente de oficina (Raccoon) y humanos digitales"
+      ],
+      "fr": [
+        "Modèles multimodaux natifs (SenseNova U1/U1 Pro)",
+        "Génération d'images à partir de texte",
+        "Génération de code",
+        "Chat intelligent multi-tours",
+        "API et console développeur (forfaits de tokens)",
+        "Agent bureautique (Raccoon) et humains numériques"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "Free trial tokens",
+        "zh": "免费体验 Token",
+        "ja": "無料体験トークン",
+        "es": "Tokens de prueba gratis",
+        "fr": "Tokens d'essai gratuits"
+      },
+      "api": {
+        "en": "Pay-as-you-go token plans",
+        "zh": "按量计费 Token 套餐",
+        "ja": "従量課金トークンプラン",
+        "es": "Planes de tokens de pago por uso",
+        "fr": "Forfaits de tokens à la consommation"
+      }
+    },
+    "useCases": {
+      "en": [
+        "Enterprise AI integration via API",
+        "Multimodal content generation",
+        "Marketing image creation",
+        "Data analysis & PPT generation",
+        "Building AI agents"
+      ],
+      "zh": [
+        "通过 API 集成企业级 AI",
+        "多模态内容生成",
+        "营销图片创作",
+        "数据分析与 PPT 生成",
+        "构建 AI 智能体"
+      ],
+      "ja": [
+        "API による企業向け AI 統合",
+        "マルチモーダルコンテンツ生成",
+        "マーケティング画像制作",
+        "データ分析と PPT 生成",
+        "AI エージェント構築"
+      ],
+      "es": [
+        "Integración de IA empresarial vía API",
+        "Generación de contenido multimodal",
+        "Creación de imágenes de marketing",
+        "Análisis de datos y generación de PPT",
+        "Creación de agentes de IA"
+      ],
+      "fr": [
+        "Intégration IA d'entreprise via API",
+        "Génération de contenu multimodal",
+        "Création d'images marketing",
+        "Analyse de données et génération de PPT",
+        "Création d'agents IA"
+      ]
+    },
+    "pros": {
+      "en": [
+        "Strong native multimodal generation",
+        "Enterprise-grade security",
+        "Open-source model ecosystem",
+        "Ready-to-use API & console"
+      ],
+      "zh": [
+        "原生多模态生成能力强",
+        "企业级安全",
+        "开源模型生态",
+        "即开即用的 API 与控制台"
+      ],
+      "ja": [
+        "ネイティブマルチモーダル生成が強力",
+        "エンタープライズ級のセキュリティ",
+        "オープンソースモデルのエコシステム",
+        "すぐ使える API とコンソール"
+      ],
+      "es": [
+        "Potente generación multimodal nativa",
+        "Seguridad de nivel empresarial",
+        "Ecosistema de modelos de código abierto",
+        "API y consola listas para usar"
+      ],
+      "fr": [
+        "Génération multimodale native puissante",
+        "Sécurité de niveau entreprise",
+        "Écosystème de modèles open source",
+        "API et console prêtes à l'emploi"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Docs & console mainly in Chinese",
+        "Advanced usage requires paid tokens",
+        "Mainly serves the China market"
+      ],
+      "zh": [
+        "文档与控制台以中文为主",
+        "进阶使用需付费 Token",
+        "主要面向中国市场"
+      ],
+      "ja": [
+        "ドキュメントとコンソールは主に中国語",
+        "高度な利用は有料トークンが必要",
+        "主に中国市場向け"
+      ],
+      "es": [
+        "Documentación y consola principalmente en chino",
+        "El uso avanzado requiere tokens de pago",
+        "Orientado principalmente al mercado chino"
+      ],
+      "fr": [
+        "Documentation et console surtout en chinois",
+        "L'usage avancé nécessite des tokens payants",
+        "Orienté principalement vers le marché chinois"
+      ]
+    },
+    "latestUpdate": {
+      "en": "2026: SenseNova launched the U1/U1 Pro native multimodal models and open-sourced multiple models via OpenSenseNova",
+      "zh": "2026 年：日日新推出 U1/U1 Pro 原生多模态模型，并通过 OpenSenseNova 开源多款模型",
+      "ja": "2026年：SenseNova が U1/U1 Pro ネイティブマルチモーダルモデルを発表し、OpenSenseNova で複数モデルをオープンソース化",
+      "es": "2026: SenseNova lanzó los modelos multimodales nativos U1/U1 Pro y liberó varios modelos vía OpenSenseNova",
+      "fr": "2026 : SenseNova a lancé les modèles multimodaux natifs U1/U1 Pro et ouvert le code de plusieurs modèles via OpenSenseNova"
+    }
   }
 }
