@@ -1,4 +1,4 @@
-import { getTranslations } from 'next-intl/server';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 import SkillsClient from './SkillsClient';
 import skills from '@/data/skills.json';
 
@@ -35,6 +35,7 @@ export async function generateMetadata({ params }: Props) {
 
 export default async function SkillsPage({ params }: Props) {
   const { locale } = await params;
+  setRequestLocale(locale);
 
   // Fetch live stars for all skills at build time
   const starsEntries = await Promise.all(

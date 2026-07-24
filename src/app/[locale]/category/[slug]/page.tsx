@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
+import { setRequestLocale } from 'next-intl/server';
 import tools from '@/data/tools.json';
 import { generateAlternates, BASE_URL } from '@/lib/seo';
 import type { Tool } from '@/components/ToolCard';
@@ -53,6 +54,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
 export default async function CategoryPage({ params }: PageProps) {
   const { locale, slug } = await params;
+  setRequestLocale(locale);
   const category = slugToCategory(slug);
   if (!category) notFound();
 

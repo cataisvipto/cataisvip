@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
+import { setRequestLocale } from 'next-intl/server';
 import tools from '@/data/tools.json';
 import { Tool } from '@/components/ToolCard';
 import ToolDetailClient from './ToolDetailClient';
@@ -68,6 +69,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function ToolDetailPage({ params }: Props) {
   const { locale, slug } = await params;
+  setRequestLocale(locale);
   const tool = tools.find((t) => t.slug === slug);
 
   if (!tool) {

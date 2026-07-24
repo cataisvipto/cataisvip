@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { NextIntlClientProvider } from 'next-intl';
-import { getMessages } from 'next-intl/server';
+import { getMessages, setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import GoogleAnalytics from '../GoogleAnalytics';
 import { ThemeProvider } from '@/components/ThemeProvider';
@@ -64,6 +64,9 @@ export default async function LocaleLayout({
   if (!['en', 'zh', 'ja', 'es', 'fr'].includes(locale)) {
     notFound();
   }
+
+  // 启用静态渲染：告知 next-intl 当前请求 locale，避免 getMessages() 因读取 headers() 而退化为动态渲染
+  setRequestLocale(locale);
 
   const messages = await getMessages();
 

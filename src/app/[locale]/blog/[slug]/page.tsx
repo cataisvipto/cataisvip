@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
+import { setRequestLocale } from 'next-intl/server';
 import blogPosts from '@/data/blogPosts.json';
 import BlogDetailClient from './BlogDetailClient';
 import { routing } from '@/i18n/routing';
@@ -51,6 +52,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function BlogDetailPage({ params }: Props) {
   const { locale, slug } = await params;
+  setRequestLocale(locale);
   const post = blogPosts.find((p) => p.slug === slug);
 
   if (!post) {

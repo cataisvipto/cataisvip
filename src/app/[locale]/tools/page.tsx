@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { getTranslations } from 'next-intl/server';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 import tools from '@/data/tools.json';
 import { generateAlternates, BASE_URL } from '@/lib/seo';
 import type { Tool } from '@/components/ToolCard';
@@ -35,6 +35,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
 export default async function ToolsPage({ params }: PageProps) {
   const { locale } = await params;
+  setRequestLocale(locale);
 
   // JSON-LD: ItemList schema for the full tool directory
   const jsonLd = {

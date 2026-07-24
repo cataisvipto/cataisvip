@@ -1,4 +1,4 @@
-import { getTranslations } from 'next-intl/server';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import SkillDetailClient from './SkillDetailClient';
 import skills from '@/data/skills.json';
@@ -177,6 +177,7 @@ async function fetchGitHubStars(repo: string): Promise<number | null> {
 
 export default async function SkillDetailPage({ params }: Props) {
   const { locale, slug } = await params;
+  setRequestLocale(locale);
   const skill = skills.find((s) => s.slug === slug);
   if (!skill) notFound();
 
