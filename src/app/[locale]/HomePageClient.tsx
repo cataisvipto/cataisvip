@@ -106,7 +106,7 @@ export default function HomePageClient() {
         {/* Browse All Link */}
         <div className="text-center pb-4">
           <Link
-            href="/"
+            href="/tools"
             className="inline-flex items-center gap-2 px-6 py-3 rounded-full border border-[var(--card-border)] text-[var(--muted)] hover:text-[var(--primary)] hover:border-[var(--primary)] transition text-sm font-medium"
           >
             {t.viewAll}

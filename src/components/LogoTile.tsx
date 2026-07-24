@@ -17,8 +17,8 @@ interface LogoTileProps {
 }
 
 /**
- * 统一 logo 渲染：白底打底 + object-cover 铺满圆角框，还原官方 App 图标观感。
- * 全部工具 logo 已规范化为 256×256，自带背景的方图铺满、透明字形居中显示于白底。
+ * 统一 logo 渲染：容器底色走 --logo-tile-bg 变量（亮白/暗柔和浅灰）+ object-cover 铺满圆角框。
+ * 全部工具 logo 已规范化为 256×256，自带背景的方图铺满、透明字形居中显示于底色。
  * 内置 onError 首字母兜底。
  */
 export default function LogoTile({
@@ -32,7 +32,7 @@ export default function LogoTile({
 
   return (
     <div
-      className={`${className} bg-white border border-[var(--card-border)] flex items-center justify-center overflow-hidden shrink-0 shadow-sm`}
+      className={`${className} bg-[var(--logo-tile-bg)] border border-[var(--card-border)] flex items-center justify-center overflow-hidden shrink-0 shadow-sm`}
     >
       {error ? (
         <span className={`${fallbackClassName} font-bold text-[var(--primary)] select-none`}>

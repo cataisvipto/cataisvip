@@ -1,0 +1,65 @@
+import type { Metadata } from 'next';
+import { getTranslations } from 'next-intl/server';
+import tools from '@/data/tools.json';
+import { generateAlternates, BASE_URL } from '@/lib/seo';
+import type { Tool } from '@/components/ToolCard';
+import ToolsClient from './ToolsClient';
+
+interface PageProps {
+  params: Promise<{ locale: string }>;
+}
+
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'allTools' });
+  const title = t('metaTitle', { count: tools.length });
+  const description = t('metaDescription', { count: tools.length });
+
+  return {
+    title,
+    description,
+    alternates: generateAlternates('/tools'),
+    openGraph: {
+      title,
+      description,
+      url: `${BASE_URL}/${locale}/tools`,
+      type: 'website',
+    },
+    twitter: {
+      card: 'summary',
+      title,
+      description,
+    },
+  };
+}
+
+export default async function ToolsPage({ params }: PageProps) {
+  const { locale } = await params;
+
+  // JSON-LD: ItemList schema for the full tool directory
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    name: 'All AI Tools',
+    description: 'The complete Cataito AI tools directory',
+    numberOfItems: tools.length,
+    itemListElement: tools.map((tool, index) => ({
+      '@type': 'ListItem',
+      position: index + 1,
+      name: tool.name,
+      url: `${BASE_URL}/${locale}/tool/${tool.slug}`,
+      description: tool.descriptionEn,
+      image: tool.logo,
+    })),
+  };
+
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <ToolsClient tools={tools as Tool[]} locale={locale} />
+    </>
+  );
+}

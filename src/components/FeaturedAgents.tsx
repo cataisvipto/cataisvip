@@ -3,7 +3,7 @@
 import { useTranslations, useLocale } from 'next-intl';
 import { Link } from '@/i18n/navigation';
 import { ArrowRight, Bot } from 'lucide-react';
-import Image from 'next/image';
+import LogoTile from '@/components/LogoTile';
 import tools from '@/data/tools.json';
 import { Tool } from './ToolCard';
 
@@ -71,16 +71,12 @@ export default function FeaturedAgents() {
               className="group bg-[var(--card-bg)] rounded-2xl border border-[var(--card-border)] p-5 hover:border-[var(--primary)] hover:shadow-lg transition-all duration-300"
             >
               <div className="flex items-start gap-4 mb-4">
-                <div className="w-14 h-14 rounded-xl bg-white dark:bg-white/90 border border-[var(--card-border)] flex items-center justify-center overflow-hidden shrink-0 shadow-sm">
-                  <Image
-                    src={agent.logo}
-                    alt={displayName}
-                    width={36}
-                    height={36}
-                    className="w-9 h-9 object-contain"
-                    unoptimized
-                  />
-                </div>
+                <LogoTile
+                  logo={agent.logo}
+                  alt={displayName}
+                  className="w-14 h-14 rounded-xl"
+                  imgPx={48}
+                />
                 <div className="flex-1 min-w-0">
                   <h3 className="font-semibold text-[var(--foreground)] truncate group-hover:text-[var(--primary)] transition">
                     {displayName}

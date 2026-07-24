@@ -181,7 +181,7 @@ export default function SkillsClient({ skills, locale, starsMap }: SkillsClientP
 
               {/* Header */}
               <Link href={`/skills/${skill.slug}`} className="flex items-start gap-3 mb-3 group/header">
-                <div className="w-12 h-12 rounded-xl bg-white dark:bg-white/90 border border-[var(--card-border)] flex items-center justify-center overflow-hidden shrink-0 shadow-sm">
+                <div className="w-12 h-12 rounded-xl bg-[var(--logo-tile-bg)] border border-[var(--card-border)] flex items-center justify-center overflow-hidden shrink-0 shadow-sm">
                   <Image
                     src={skill.logo}
                     alt={displayName(skill)}

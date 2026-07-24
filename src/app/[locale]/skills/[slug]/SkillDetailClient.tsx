@@ -99,7 +99,7 @@ export default function SkillDetailClient({ skill, locale, readmeInstallHtml, gi
             <div className="p-8">
               <div className="flex items-start gap-6">
                 {/* Logo */}
-                <div className="w-20 h-20 rounded-2xl bg-white dark:bg-white/90 border border-[var(--card-border)] flex items-center justify-center overflow-hidden shrink-0 shadow-sm">
+                <div className="w-20 h-20 rounded-2xl bg-[var(--logo-tile-bg)] border border-[var(--card-border)] flex items-center justify-center overflow-hidden shrink-0 shadow-sm">
                   <Image
                     src={skill.logo}
                     alt={displayName}

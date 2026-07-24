@@ -17,6 +17,8 @@
   --tag-opensource: #3b82f6;
   --header-bg: rgba(255, 255, 255, 0.8);
   --shadow: rgba(0, 0, 0, 0.1);
+  /* Logo 容器底色：唯一控制点，亮色纯白 */
+  --logo-tile-bg: #ffffff;
 }
 
 /* Dark mode */
@@ -36,6 +38,8 @@
   --tag-opensource: #60a5fa;
   --header-bg: rgba(15, 23, 42, 0.8);
   --shadow: rgba(0, 0, 0, 0.3);
+  /* 暗色下用柔和浅灰替代刺眼纯白，透明字形 logo 仍清晰 */
+  --logo-tile-bg: #e8edf4;
 }
 
 @theme inline {

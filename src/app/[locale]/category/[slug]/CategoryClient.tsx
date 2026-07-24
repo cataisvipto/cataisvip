@@ -7,8 +7,8 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Breadcrumb from '@/components/Breadcrumb';
 import { Tool, getLocalizedDescription } from '@/components/ToolCard';
+import LogoTile from '@/components/LogoTile';
 import { ExternalLink, Star } from 'lucide-react';
-import Image from 'next/image';
 
 interface CategoryClientProps {
   category: string;
@@ -176,16 +176,12 @@ export default function CategoryClient({ category, slug, tools: categoryTools, l
                 className="group bg-[var(--card-bg)] rounded-2xl border border-[var(--card-border)] p-5 hover:border-[var(--primary)] hover:shadow-md transition"
               >
                 <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 rounded-xl bg-white dark:bg-white/90 border border-[var(--card-border)] flex items-center justify-center overflow-hidden shrink-0 shadow-sm">
-                    <Image
-                      src={tool.logo}
-                      alt={displayName}
-                      width={32}
-                      height={32}
-                      className="w-8 h-8 object-contain"
-                      unoptimized
-                    />
-                  </div>
+                  <LogoTile
+                    logo={tool.logo}
+                    alt={displayName}
+                    className="w-12 h-12 rounded-xl"
+                    imgPx={40}
+                  />
                   <div className="flex-1 min-w-0">
                     <div className="flex items-center gap-2 mb-1">
                       <h3 className="font-semibold text-[var(--foreground)] truncate group-hover:text-[var(--primary)] transition">
