@@ -122,18 +122,21 @@ html {
      radius 0. Perspective shifts every ring's center down by orbit-r * persp,
      so the hub is lowered by ~(mid-orbit radius * persp) to land among them. */
   --catai-hub-dy: 44px;
+  /* The AI-node dot on the A letter is the orbit center.
+     Dot Y = logo-center-offset(44px) + dot-within-logo((73/96 − 0.5)×178 ≈ 46px) = 90px */
+  --catai-dot-dy: 90px;
 }
 
 @keyframes catai-orbit {
-  from { transform: translateY(calc(var(--orbit-r, 150px) * var(--catai-persp))) scaleY(var(--catai-tilt)) rotate(0deg)   translateX(var(--orbit-r, 150px)) rotate(0deg); }
-  to   { transform: translateY(calc(var(--orbit-r, 150px) * var(--catai-persp))) scaleY(var(--catai-tilt)) rotate(360deg) translateX(var(--orbit-r, 150px)) rotate(-360deg); }
+  from { transform: translateY(var(--catai-dot-dy)) scaleY(var(--catai-tilt)) rotate(0deg)   translateX(var(--orbit-r, 150px)) rotate(0deg); }
+  to   { transform: translateY(var(--catai-dot-dy)) scaleY(var(--catai-tilt)) rotate(360deg) translateX(var(--orbit-r, 150px)) rotate(-360deg); }
 }
 .catai-planet {
   position: absolute;
   top: 50%;
   left: 50%;
-  margin-top: -22px;
-  margin-left: -22px;
+  margin-top: -26px;
+  margin-left: -26px;
   animation: catai-orbit var(--orbit-dur, 28s) linear infinite,
              catai-planet-z var(--orbit-dur, 28s) step-end infinite;
   will-change: transform;
@@ -147,14 +150,35 @@ html {
 /* Counter the disk squash so the planet icon stays perfectly round + upright. */
 .catai-planet-face { transform: scaleY(calc(1 / var(--catai-tilt))); }
 
-/* Each planet's own faint orbit path, flattened into the same disk plane. */
+/* Each planet's own faint orbit path, flattened into the same disk plane.
+   All rings share the same center: the AI-node dot on the A. */
 .catai-orbit-ring {
   position: absolute;
-  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scaleY(var(--catai-tilt));
   border-radius: 9999px;
   border: 1px solid rgba(148, 163, 184, 0.22);
+  z-index: 5;
+}
+/* Front half of innermost ring sits ABOVE the A logo (z-10) for depth layering. */
+.catai-ring-front {
+  position: absolute;
+  left: 50%;
+  border-radius: 9999px;
+  border: 1px solid rgba(148, 163, 184, 0.30);
+  transform: translate(-50%, -50%) scaleY(var(--catai-tilt));
+  z-index: 15;
+  clip-path: inset(50% 0 0 0);
+  pointer-events: none;
+  background:
+    radial-gradient(closest-side, transparent 97%, rgba(103, 232, 249, 0.10) 98%, transparent 100%);
+  box-shadow:
+    0 0 18px rgba(59, 130, 246, 0.10),
+    inset 0 0 18px rgba(99, 102, 241, 0.08);
+}
+/* Back half of innermost ring — only top arc visible, sits BEHIND the A logo. */
+.catai-ring-back {
+  clip-path: inset(0 0 50% 0);
 }
 
 /* Energy core platform beneath the A (in the same tilted disk plane). */
@@ -218,7 +242,7 @@ html {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .catai-planet, .catai-stars, .catai-wave, .catai-core, .catai-galaxy { animation: none; }
+  .catai-planet, .catai-stars, .catai-wave, .catai-core, .catai-galaxy, .catai-dot-glow { animation: none; }
 }
 
 /* Code block styles — dark theme for both light and dark mode */
@@ -245,4 +269,160 @@ html {
 .code-install-btn {
   background: #1e293b;
   color: #94a3b8;
+}
+
+/* Hero orbital system refinements: glassy planets, scanning rings and a brighter A core. */
+.catai-system-aura {
+  position: absolute;
+  inset: 18%;
+  border-radius: 9999px;
+  background:
+    radial-gradient(circle at 52% 48%, rgba(34, 211, 238, 0.22), transparent 35%),
+    radial-gradient(circle at 58% 58%, rgba(99, 102, 241, 0.24), transparent 48%),
+    radial-gradient(circle at 50% 52%, rgba(168, 85, 247, 0.16), transparent 64%);
+  filter: blur(18px);
+}
+
+.catai-orbit-ring {
+  background:
+    radial-gradient(closest-side, transparent 97%, rgba(103, 232, 249, 0.08) 98%, transparent 100%);
+  box-shadow:
+    0 0 18px rgba(59, 130, 246, 0.08),
+    inset 0 0 18px rgba(99, 102, 241, 0.06);
+}
+
+.catai-orbit-ring::after {
+  content: "";
+  position: absolute;
+  inset: -1px;
+  border-radius: inherit;
+  background: conic-gradient(
+    from 110deg,
+    transparent 0deg,
+    rgba(34, 211, 238, 0.04) 80deg,
+    rgba(129, 140, 248, 0.44) 100deg,
+    rgba(168, 85, 247, 0.18) 122deg,
+    transparent 150deg,
+    transparent 360deg
+  );
+  opacity: 0.75;
+  animation: catai-ring-scan 8s linear infinite;
+  animation-delay: var(--ring-delay, 0s);
+  mask: radial-gradient(farthest-side, transparent calc(100% - 2px), #000 calc(100% - 1px));
+}
+
+@keyframes catai-ring-scan {
+  to { transform: rotate(360deg); }
+}
+
+.catai-core-grid {
+  position: absolute;
+  top: calc(50% + var(--catai-hub-dy));
+  left: 50%;
+  width: 238px;
+  height: 238px;
+  border-radius: 9999px;
+  transform: translate(-50%, -50%) scaleY(var(--catai-tilt));
+  background-image:
+    linear-gradient(rgba(103, 232, 249, 0.12) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(103, 232, 249, 0.12) 1px, transparent 1px);
+  background-size: 22px 22px;
+  opacity: 0.18;
+  mask-image: radial-gradient(circle, #000 0%, transparent 68%);
+}
+
+.catai-logo-halo {
+  position: absolute;
+  width: 178px;
+  height: 178px;
+  border-radius: 9999px;
+  background:
+    radial-gradient(circle, rgba(99, 102, 241, 0.28), transparent 64%),
+    conic-gradient(from 180deg, rgba(34, 211, 238, 0.12), rgba(168, 85, 247, 0.20), rgba(34, 211, 238, 0.12));
+  filter: blur(10px);
+  animation: catai-logo-breathe 4.8s ease-in-out infinite;
+}
+
+@keyframes catai-logo-breathe {
+  0%, 100% { opacity: 0.75; transform: scale(0.96); }
+  50% { opacity: 1; transform: scale(1.08); }
+}
+
+/* Dynamic gradient halo radiating from the AI-node dot on the A letter. */
+@keyframes catai-dot-glow {
+  0%   { opacity: 0.7; transform: translate(-50%, -50%) scale(0.9) rotate(0deg); }
+  50%  { opacity: 1;   transform: translate(-50%, -50%) scale(1.2) rotate(180deg); }
+  100% { opacity: 0.7; transform: translate(-50%, -50%) scale(0.9) rotate(360deg); }
+}
+.catai-dot-glow {
+  position: absolute;
+  left: 50%;
+  top: calc(50% + var(--catai-dot-dy));
+  width: 48px;
+  height: 48px;
+  border-radius: 9999px;
+  transform: translate(-50%, -50%);
+  background:
+    radial-gradient(circle, rgba(34, 211, 238, 0.6) 0%, rgba(99, 102, 241, 0.3) 40%, transparent 70%),
+    conic-gradient(from 0deg, rgba(34, 211, 238, 0.4), rgba(129, 140, 248, 0.5), rgba(168, 85, 247, 0.4), rgba(34, 211, 238, 0.4));
+  filter: blur(6px);
+  z-index: 12;
+  animation: catai-dot-glow 4s ease-in-out infinite;
+  pointer-events: none;
+}
+
+.catai-ai-planet {
+  position: relative;
+  display: flex;
+  width: 3.25rem;
+  height: 3.25rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  color: rgba(224, 242, 254, 0.94);
+  background:
+    radial-gradient(circle at 32% 24%, rgba(255, 255, 255, 0.30), transparent 24%),
+    linear-gradient(135deg, rgba(99, 102, 241, 0.24), rgba(14, 165, 233, 0.18));
+  box-shadow:
+    0 16px 34px rgba(2, 6, 23, 0.30),
+    0 0 22px rgba(99, 102, 241, 0.30),
+    inset 0 1px 16px rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(10px);
+}
+
+.catai-ai-planet::before {
+  content: "";
+  position: absolute;
+  inset: -7px;
+  border-radius: inherit;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.12), transparent 66%);
+  opacity: 0.88;
+}
+
+.catai-ai-planet svg {
+  position: relative;
+  filter: drop-shadow(0 0 8px currentColor);
+}
+
+.catai-ai-planet-indigo { background-color: rgba(99, 102, 241, 0.28); box-shadow: 0 0 26px rgba(99, 102, 241, 0.38), inset 0 1px 16px rgba(255, 255, 255, 0.12); }
+.catai-ai-planet-blue { background-color: rgba(59, 130, 246, 0.28); box-shadow: 0 0 26px rgba(59, 130, 246, 0.38), inset 0 1px 16px rgba(255, 255, 255, 0.12); }
+.catai-ai-planet-purple { background-color: rgba(147, 51, 234, 0.30); box-shadow: 0 0 26px rgba(147, 51, 234, 0.40), inset 0 1px 16px rgba(255, 255, 255, 0.12); }
+.catai-ai-planet-cyan { background-color: rgba(6, 182, 212, 0.28); box-shadow: 0 0 26px rgba(6, 182, 212, 0.40), inset 0 1px 16px rgba(255, 255, 255, 0.12); }
+.catai-ai-planet-violet { background-color: rgba(124, 58, 237, 0.30); box-shadow: 0 0 26px rgba(124, 58, 237, 0.40), inset 0 1px 16px rgba(255, 255, 255, 0.12); }
+.catai-ai-planet-sky { background-color: rgba(14, 165, 233, 0.28); box-shadow: 0 0 26px rgba(14, 165, 233, 0.40), inset 0 1px 16px rgba(255, 255, 255, 0.12); }
+
+.catai-particle {
+  width: 8px;
+  height: 8px;
+  margin-top: -4px;
+  margin-left: -4px;
+  border-radius: 9999px;
+  background: #67e8f9;
+  box-shadow: 0 0 10px 3px rgba(34, 211, 238, 0.72);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .catai-orbit-ring::after, .catai-logo-halo, .catai-dot-glow { animation: none; }
 }
