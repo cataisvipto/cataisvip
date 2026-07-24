@@ -10,15 +10,9 @@
   <!-- App-icon tile: full-bleed rounded square with the brand gradient -->
   <rect x="0" y="0" width="96" height="96" rx="20" fill="url(#caGrad)"/>
 
-  <!-- White letter C, opening to the right -->
-  <path d="M 67 38.8 A 21 21 0 1 0 67 57.2" fill="none" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round"/>
+  <!-- White letter A: wide splayed legs meeting at the apex (matches the CATAITO wordmark) -->
+  <path d="M 21 74 L 48 26 L 75 74" fill="none" stroke="#FFFFFF" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
 
-  <!-- Cat paw centered in the C's counter: one big pad + four toe beans -->
-  <g fill="#FFFFFF">
-    <ellipse cx="48" cy="53.1" rx="7.5" ry="5.4"/>
-    <ellipse cx="40.5" cy="44.6" rx="2.6" ry="3.2"/>
-    <ellipse cx="45.3" cy="41.9" rx="2.6" ry="3.2"/>
-    <ellipse cx="50.7" cy="41.9" rx="2.6" ry="3.2"/>
-    <ellipse cx="55.5" cy="44.6" rx="2.6" ry="3.2"/>
-  </g>
+  <!-- AI node: low dot in place of the A's crossbar -->
+  <circle cx="48" cy="68" r="5" fill="#FFFFFF"/>
 </svg>

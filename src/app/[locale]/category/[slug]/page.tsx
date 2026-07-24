@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
-import { setRequestLocale } from 'next-intl/server';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 import tools from '@/data/tools.json';
-import { generateAlternates, BASE_URL } from '@/lib/seo';
+import { generateAlternates, getCategorySeo, BASE_URL } from '@/lib/seo';
 import type { Tool } from '@/components/ToolCard';
 import CategoryClient from './CategoryClient';
 
@@ -26,22 +26,23 @@ interface PageProps {
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
-  const { slug } = await params;
+  const { locale, slug } = await params;
   const category = slugToCategory(slug);
   if (!category) return {};
 
   const categoryTools = tools.filter((t) => t.category === category);
-  const title = `Best ${category} AI Tools in 2026 - ${categoryTools.length} Tools | Cataito`;
-  const description = `Discover the top ${categoryTools.length} AI ${category.toLowerCase()} tools. Compare features, pricing, and find the best ${category.toLowerCase()} AI tool for your needs.`;
+  const tCategories = await getTranslations({ locale, namespace: 'categories' });
+  const categoryLabel = tCategories(category);
+  const { title, description } = getCategorySeo(locale, categoryLabel, categoryTools.length);
 
   return {
     title,
     description,
-    alternates: generateAlternates(`/category/${slug}`),
+    alternates: generateAlternates(`/category/${slug}`, locale),
     openGraph: {
       title,
       description,
-      url: `${BASE_URL}/en/category/${slug}`,
+      url: `${BASE_URL}/${locale}/category/${slug}`,
       type: 'website',
     },
     twitter: {

@@ -23,8 +23,11 @@
     "searchPlaceholder": "AIリソースを検索..."
   },
   "hero": {
-    "title": "AIエコシステムへの入口",
-    "subtitle": "世界中のAIモデル、エージェント、ツール、リソースを発見し、人工知能の最新情報を入手しましょう。",
+    "title": "<hl>あらゆる</hl>タスクに最適な AI を見つけよう",
+    "subtitle": "何千もの AI モデル・ツール・エージェントを比較し、あなたの仕事に最適な AI を見つけましょう。",
+    "searchPlaceholder": "何を作りたいですか？",
+    "searchButton": "検索",
+    "popular": "人気：",
     "featured": "おすすめリソース",
     "explore": "すべて見る"
   },
@@ -47,7 +50,8 @@
     "Freemium": "フリーミアム",
     "Paid": "有料",
     "Open Source": "オープンソース",
-    "API": "API"
+    "API": "API",
+    "Beta": "ベータ版"
   },
   "submit": {
     "title": "AIリソースを登録",

@@ -1,11 +1,11 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
-import { setRequestLocale } from 'next-intl/server';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 import tools from '@/data/tools.json';
 import { Tool } from '@/components/ToolCard';
 import ToolDetailClient from './ToolDetailClient';
 import { routing } from '@/i18n/routing';
-import { generateAlternates } from '@/lib/seo';
+import { generateAlternates, getToolSeoTitle } from '@/lib/seo';
 
 interface Props {
   params: Promise<{ locale: string; slug: string }>;
@@ -39,20 +39,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     }
   })();
   const displayName = locale === 'zh' && tool.nameZh ? tool.nameZh : tool.name;
-  const siteName: Record<string, string> = {
-    zh: 'AI 生态门户',
-    en: 'AI Ecosystem Portal',
-    ja: 'AI エコシステムポータル',
-    es: 'Portal de Ecosistema de IA',
-    fr: 'Portail d\'Écosystème IA',
-  };
 
-  const localizedSiteName = siteName[locale] || siteName.en;
+  // 本地化分类标签（用于长尾关键词标题）
+  const tCategories = await getTranslations({ locale, namespace: 'categories' });
+  const categoryLabel = tCategories(tool.category);
+  const title = getToolSeoTitle(locale, displayName, categoryLabel);
 
   return {
-    title: `${displayName} - ${localizedSiteName}`,
+    title,
     description: description,
-    alternates: generateAlternates(`/tool/${slug}`),
+    alternates: generateAlternates(`/tool/${slug}`, locale),
     openGraph: {
       title: `${displayName} - Cataito`,
       description: description,

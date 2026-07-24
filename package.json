@@ -11,7 +11,8 @@
     "test:data": "node scripts/validate-data.js",
     "test:i18n": "node scripts/check-i18n.js",
     "test:css": "node scripts/check-css-vars.js",
-    "test:schema": "node scripts/validate-schemas.js"
+    "test:schema": "node scripts/validate-schemas.js",
+    "gsc": "node scripts/gsc-report.mjs"
   },
   "dependencies": {
     "lucide-react": "^1.24.0",
@@ -29,6 +30,7 @@
     "ajv-formats": "^3.0.1",
     "eslint": "^9",
     "eslint-config-next": "16.2.10",
+    "google-auth-library": "^10.9.1",
     "tailwindcss": "^4",
     "typescript": "^5"
   }

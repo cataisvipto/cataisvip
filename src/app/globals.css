@@ -111,6 +111,116 @@ html {
   background: var(--primary);
 }
 
+/* ── Hero galaxy ───────────────────────────────────────────────────
+   Planets orbit the central "A" inside the SAME flattened disk as the black
+   hole (a circle seen at an angle). --catai-tilt is the shared vertical squash;
+   each planet un-squashes its own icon so it always renders as a true circle. */
+:root {
+  --catai-tilt: 0.4;
+  --catai-persp: 0.26;
+  /* The gravity hub (A + core + waves) sits at the orbital-band center, not at
+     radius 0. Perspective shifts every ring's center down by orbit-r * persp,
+     so the hub is lowered by ~(mid-orbit radius * persp) to land among them. */
+  --catai-hub-dy: 44px;
+}
+
+@keyframes catai-orbit {
+  from { transform: translateY(calc(var(--orbit-r, 150px) * var(--catai-persp))) scaleY(var(--catai-tilt)) rotate(0deg)   translateX(var(--orbit-r, 150px)) rotate(0deg); }
+  to   { transform: translateY(calc(var(--orbit-r, 150px) * var(--catai-persp))) scaleY(var(--catai-tilt)) rotate(360deg) translateX(var(--orbit-r, 150px)) rotate(-360deg); }
+}
+.catai-planet {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -22px;
+  margin-left: -22px;
+  animation: catai-orbit var(--orbit-dur, 28s) linear infinite,
+             catai-planet-z var(--orbit-dur, 28s) step-end infinite;
+  will-change: transform;
+}
+/* Depth toggle synced to the orbit: the planet renders in front of the central A on
+   the near half of the ring, and is occluded behind it on the far half (A sits at z-index 10). */
+@keyframes catai-planet-z {
+  0%  { z-index: 30; }
+  50% { z-index: 0; }
+}
+/* Counter the disk squash so the planet icon stays perfectly round + upright. */
+.catai-planet-face { transform: scaleY(calc(1 / var(--catai-tilt))); }
+
+/* Each planet's own faint orbit path, flattened into the same disk plane. */
+.catai-orbit-ring {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scaleY(var(--catai-tilt));
+  border-radius: 9999px;
+  border: 1px solid rgba(148, 163, 184, 0.22);
+}
+
+/* Energy core platform beneath the A (in the same tilted disk plane). */
+.catai-core {
+  position: absolute; top: calc(50% + var(--catai-hub-dy)); left: 50%;
+  width: 208px; height: 208px; border-radius: 9999px;
+  transform: translate(-50%, -50%) scaleY(var(--catai-tilt));
+  background: radial-gradient(circle, rgba(99,102,241,0.40), rgba(34,211,238,0.14) 55%, transparent 72%);
+  animation: catai-core-pulse 5s ease-in-out infinite;
+}
+.catai-core-rim {
+  position: absolute; top: calc(50% + var(--catai-hub-dy)); left: 50%;
+  width: 208px; height: 208px; border-radius: 9999px;
+  border: 1px solid rgba(103, 232, 249, 0.30);
+  transform: translate(-50%, -50%) scaleY(var(--catai-tilt));
+}
+@keyframes catai-core-pulse { 0%, 100% { opacity: 0.85; } 50% { opacity: 1; } }
+
+/* Radiating energy waves rippling outward from the core, flattened into the plane. */
+@keyframes catai-wave {
+  0%   { opacity: 0.5; transform: translate(-50%, -50%) scaleY(var(--catai-tilt)) scale(0.2); }
+  100% { opacity: 0;   transform: translate(-50%, -50%) scaleY(var(--catai-tilt)) scale(1); }
+}
+.catai-wave {
+  position: absolute; top: calc(50% + var(--catai-hub-dy)); left: 50%;
+  width: 480px; height: 480px; border-radius: 9999px;
+  border: 1px solid rgba(129, 140, 248, 0.35);
+  transform: translate(-50%, -50%) scaleY(var(--catai-tilt));
+  animation: catai-wave 6s ease-out infinite;
+}
+
+/* Slow cinematic camera push toward the center. */
+@keyframes catai-zoom { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.03); } }
+.catai-galaxy { animation: catai-zoom 14s ease-in-out infinite; }
+
+/* Hero starfield twinkle (scattered across the whole banner). */
+@keyframes catai-twinkle { 0%, 100% { opacity: 0.45; } 50% { opacity: 0.85; } }
+.catai-stars {
+  background-image:
+    radial-gradient(1px 1px at 8% 22%, rgba(255,255,255,0.8), transparent),
+    radial-gradient(1px 1px at 18% 68%, rgba(255,255,255,0.5), transparent),
+    radial-gradient(1.5px 1.5px at 33% 34%, rgba(255,255,255,0.7), transparent),
+    radial-gradient(1px 1px at 44% 78%, rgba(255,255,255,0.5), transparent),
+    radial-gradient(1px 1px at 57% 16%, rgba(255,255,255,0.7), transparent),
+    radial-gradient(1.5px 1.5px at 66% 56%, rgba(255,255,255,0.6), transparent),
+    radial-gradient(1px 1px at 78% 28%, rgba(255,255,255,0.5), transparent),
+    radial-gradient(1px 1px at 88% 72%, rgba(255,255,255,0.7), transparent),
+    radial-gradient(1px 1px at 27% 12%, rgba(255,255,255,0.5), transparent),
+    radial-gradient(1px 1px at 72% 88%, rgba(255,255,255,0.5), transparent),
+    radial-gradient(1.5px 1.5px at 50% 46%, rgba(255,255,255,0.6), transparent),
+    radial-gradient(1px 1px at 93% 40%, rgba(255,255,255,0.5), transparent);
+  background-repeat: no-repeat;
+  animation: catai-twinkle 6s ease-in-out infinite;
+}
+/* Faint galaxy nebula spread across the hero background. */
+.catai-nebula {
+  background:
+    radial-gradient(38% 30% at 68% 36%, rgba(99,102,241,0.20), transparent 70%),
+    radial-gradient(34% 26% at 30% 62%, rgba(34,211,238,0.13), transparent 70%),
+    radial-gradient(30% 24% at 56% 82%, rgba(168,85,247,0.14), transparent 70%);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .catai-planet, .catai-stars, .catai-wave, .catai-core, .catai-galaxy { animation: none; }
+}
+
 /* Code block styles — dark theme for both light and dark mode */
 .code-block-header {
   background: #0f172a;

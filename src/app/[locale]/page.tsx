@@ -1,27 +1,29 @@
 import type { Metadata } from 'next';
-import { generateAlternates, generateWebSiteJsonLd } from '@/lib/seo';
+import { generateAlternates, generateWebSiteJsonLd, getHomeSeo } from '@/lib/seo';
 import HomePageClient from './HomePageClient';
 
-export async function generateMetadata(): Promise<Metadata> {
+interface Props {
+  params: Promise<{ locale: string }>;
+}
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { locale } = await params;
+  const { title, description, keywords } = getHomeSeo(locale);
   return {
-    title: 'Cataito - AI Ecosystem Portal | Your Gateway to AI',
-    description:
-      'Your gateway to the global AI ecosystem. Discover AI models, agents, tools, and resources from around the world.',
-    keywords:
-      'AI portal, AI ecosystem, AI tools, AI models, AI agents, ChatGPT, Claude, Gemini, DeepSeek, Grok, AI resources, artificial intelligence',
-    alternates: generateAlternates('/'),
+    title,
+    description,
+    keywords,
+    alternates: generateAlternates('/', locale),
     openGraph: {
-      title: 'Cataito - AI Ecosystem Portal',
-      description:
-        'Discover AI models, agents, tools, and resources from around the world.',
+      title,
+      description,
       type: 'website',
-      locale: 'en_US',
       siteName: 'Cataito',
     },
     twitter: {
       card: 'summary_large_image',
-      title: 'Cataito - AI Ecosystem Portal',
-      description: 'Your gateway to the global AI ecosystem.',
+      title,
+      description,
     },
   };
 }

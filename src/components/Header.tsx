@@ -23,8 +23,10 @@ export default function Header({ searchQuery, onSearchChange, locale }: HeaderPr
   const [langOpen, setLangOpen] = useState(false);
   const [catOpen, setCatOpen] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [searchOpen, setSearchOpen] = useState(false);
   const langRef = useRef<HTMLDivElement>(null);
   const catRef = useRef<HTMLDivElement>(null);
+  const searchRef = useRef<HTMLDivElement>(null);
 
   const locales: { code: string; label: string; short: string }[] = [
     { code: 'en', label: 'English', short: 'EN' },
@@ -41,14 +43,15 @@ export default function Header({ searchQuery, onSearchChange, locale }: HeaderPr
   const isSkills = pathname.startsWith('/skills');
   const isBlog = pathname.startsWith('/blog');
 
-  const navBase = 'inline-flex items-center gap-1.5 px-1 h-11 text-sm border-b-2 transition';
-  const navActive = 'text-[var(--primary)] border-[var(--primary)] font-medium';
-  const navIdle = 'text-[var(--muted)] border-transparent hover:text-[var(--foreground)]';
+  const navBase = 'inline-flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm transition';
+  const navActive = 'text-[var(--primary)] bg-[var(--primary)]/10 font-medium';
+  const navIdle = 'text-[var(--muted)] hover:text-[var(--foreground)] hover:bg-[var(--muted-bg)]';
 
   useEffect(() => {
     const handleClickOutside = (e: MouseEvent) => {
       if (langRef.current && !langRef.current.contains(e.target as Node)) setLangOpen(false);
       if (catRef.current && !catRef.current.contains(e.target as Node)) setCatOpen(false);
+      if (searchRef.current && !searchRef.current.contains(e.target as Node)) setSearchOpen(false);
     };
     document.addEventListener('mousedown', handleClickOutside);
     return () => document.removeEventListener('mousedown', handleClickOutside);
@@ -57,8 +60,8 @@ export default function Header({ searchQuery, onSearchChange, locale }: HeaderPr
   return (
     <header className="sticky top-0 z-50 bg-[var(--header-bg)] backdrop-blur-md border-b border-[var(--card-border)]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Row 1: Logo + Search + Utilities */}
-        <div className="flex items-center justify-between h-16 gap-4">
+        {/* Top bar: Logo + primary nav + search + utilities (single row) */}
+        <div className="flex items-center h-16 gap-4 lg:gap-6">
           {/* Logo: compact on desktop (CA + CATAITO), icon-only on mobile */}
           <div className="shrink-0">
             <span className="hidden sm:inline-flex">
@@ -71,26 +74,84 @@ export default function Header({ searchQuery, onSearchChange, locale }: HeaderPr
             </span>
           </div>
 
-          {/* Search Bar */}
-          <div className="flex-1 max-w-md hidden sm:block">
-            <div className="relative">
-              <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-[var(--muted)]" />
-              <input
-                type="text"
-                placeholder={t('nav.searchPlaceholder')}
-                value={searchQuery}
-                onChange={(e) => onSearchChange(e.target.value)}
-                className="w-full pl-10 pr-4 py-2 bg-[var(--muted-bg)] border border-[var(--card-border)] rounded-full text-sm text-[var(--foreground)] placeholder-[var(--muted)] focus:outline-none focus:ring-2 focus:ring-[var(--primary)] focus:border-transparent transition"
-              />
-            </div>
-          </div>
+          {/* Primary navigation, right after the logo (desktop) */}
+          <nav className="hidden lg:flex items-center gap-1.5">
+            <Link href="/" className={`${navBase} ${isHome ? navActive : navIdle}`}>
+              <Home className="w-4 h-4" />
+              {t('nav.home')}
+            </Link>
 
-          {/* Right Actions */}
-          <div className="flex items-center gap-3">
+            {/* Categories Dropdown */}
+            <div className="relative" ref={catRef}>
+              <button
+                onClick={() => setCatOpen(!catOpen)}
+                className={`${navBase} ${isCategory ? navActive : navIdle}`}
+              >
+                <LayoutGrid className="w-4 h-4" />
+                {t('nav.categories')}
+                <ChevronDown className={`w-3 h-3 transition-transform ${catOpen ? 'rotate-180' : ''}`} />
+              </button>
+              {catOpen && (
+                <div className="absolute left-0 top-full mt-2 w-[min(90vw,32rem)] bg-[var(--card-bg)] border border-[var(--card-border)] rounded-xl shadow-xl p-3 z-50">
+                  <div className="grid grid-cols-2 sm:grid-cols-3 gap-1">
+                    {CATEGORIES.map((cat) => (
+                      <Link
+                        key={cat}
+                        href={`/category/${cat.toLowerCase()}`}
+                        onClick={() => setCatOpen(false)}
+                        className="px-3 py-2 text-sm text-[var(--foreground)] rounded-lg hover:bg-[var(--primary)]/10 hover:text-[var(--primary)] transition"
+                      >
+                        {tCategories(cat as any)}
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+              )}
+            </div>
+
+            <Link href="/skills" className={`${navBase} ${isSkills ? navActive : navIdle}`}>
+              <Code2 className="w-4 h-4" />
+              {t('nav.skills')}
+            </Link>
+
+            <Link href="/blog" className={`${navBase} ${isBlog ? navActive : navIdle}`}>
+              <Newspaper className="w-4 h-4" />
+              {t('nav.blog')}
+            </Link>
+          </nav>
+
+          {/* Search + utilities, pushed to the right */}
+          <div className="flex items-center gap-3 ml-auto">
+            {/* Search: a magnifier that expands into an input on click (no persistent box) */}
+            <div className="hidden md:block relative" ref={searchRef}>
+              {searchOpen ? (
+                <div className="relative">
+                  <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-[var(--muted)]" />
+                  <input
+                    type="text"
+                    autoFocus
+                    placeholder={t('nav.searchPlaceholder')}
+                    value={searchQuery}
+                    onChange={(e) => onSearchChange(e.target.value)}
+                    onKeyDown={(e) => { if (e.key === 'Escape') setSearchOpen(false); }}
+                    className="w-52 lg:w-64 pl-10 pr-4 py-2 bg-[var(--muted-bg)] border border-[var(--card-border)] rounded-full text-sm text-[var(--foreground)] placeholder-[var(--muted)] focus:outline-none focus:ring-2 focus:ring-[var(--primary)] focus:border-transparent transition"
+                  />
+                </div>
+              ) : (
+                <button
+                  onClick={() => setSearchOpen(true)}
+                  aria-label={t('nav.searchPlaceholder')}
+                  className="flex items-center justify-center w-9 h-9 rounded-full text-[var(--muted)] hover:text-[var(--primary)] hover:bg-[var(--muted-bg)] transition"
+                >
+                  <Search className="w-5 h-5" />
+                </button>
+              )}
+            </div>
+
             {/* Mobile Menu Toggle */}
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              className="sm:hidden flex items-center justify-center w-9 h-9 text-[var(--muted)] hover:text-[var(--primary)] transition"
+              className="lg:hidden flex items-center justify-center w-9 h-9 text-[var(--muted)] hover:text-[var(--primary)] transition"
               aria-label="Toggle menu"
             >
               {mobileMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
@@ -137,54 +198,8 @@ export default function Header({ searchQuery, onSearchChange, locale }: HeaderPr
           </div>
         </div>
 
-        {/* Row 2: Primary Navigation (desktop) */}
-        <nav className="hidden sm:flex items-center gap-6 -mt-px">
-          <Link href="/" className={`${navBase} ${isHome ? navActive : navIdle}`}>
-            <Home className="w-4 h-4" />
-            {t('nav.home')}
-          </Link>
-
-          {/* Categories Dropdown */}
-          <div className="relative" ref={catRef}>
-            <button
-              onClick={() => setCatOpen(!catOpen)}
-              className={`${navBase} ${isCategory ? navActive : navIdle}`}
-            >
-              <LayoutGrid className="w-4 h-4" />
-              {t('nav.categories')}
-              <ChevronDown className={`w-3 h-3 transition-transform ${catOpen ? 'rotate-180' : ''}`} />
-            </button>
-            {catOpen && (
-              <div className="absolute left-0 top-full mt-0 w-[min(90vw,32rem)] bg-[var(--card-bg)] border border-[var(--card-border)] rounded-xl shadow-xl p-3 z-50">
-                <div className="grid grid-cols-2 sm:grid-cols-3 gap-1">
-                  {CATEGORIES.map((cat) => (
-                    <Link
-                      key={cat}
-                      href={`/category/${cat.toLowerCase()}`}
-                      onClick={() => setCatOpen(false)}
-                      className="px-3 py-2 text-sm text-[var(--foreground)] rounded-lg hover:bg-[var(--primary)]/10 hover:text-[var(--primary)] transition"
-                    >
-                      {tCategories(cat as any)}
-                    </Link>
-                  ))}
-                </div>
-              </div>
-            )}
-          </div>
-
-          <Link href="/skills" className={`${navBase} ${isSkills ? navActive : navIdle}`}>
-            <Code2 className="w-4 h-4" />
-            {t('nav.skills')}
-          </Link>
-
-          <Link href="/blog" className={`${navBase} ${isBlog ? navActive : navIdle}`}>
-            <Newspaper className="w-4 h-4" />
-            {t('nav.blog')}
-          </Link>
-        </nav>
-
         {/* Mobile Search */}
-        <div className="pb-3 sm:hidden">
+        <div className="pb-3 md:hidden">
           <div className="relative">
             <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-[var(--muted)]" />
             <input
@@ -199,7 +214,7 @@ export default function Header({ searchQuery, onSearchChange, locale }: HeaderPr
 
         {/* Mobile Menu */}
         {mobileMenuOpen && (
-          <div className="sm:hidden pb-4 border-t border-[var(--card-border)] pt-3 space-y-1">
+          <div className="lg:hidden pb-4 border-t border-[var(--card-border)] pt-3 space-y-1">
             <Link
               href="/"
               onClick={() => setMobileMenuOpen(false)}

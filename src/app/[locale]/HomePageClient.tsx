@@ -38,7 +38,7 @@ export default function HomePageClient() {
         locale={locale}
       />
       <main className="flex-1">
-        <HeroSection />
+        <HeroSection searchQuery={searchQuery} onSearchChange={setSearchQuery} />
 
         {/* Latest Additions Section */}
         <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">

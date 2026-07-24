@@ -54,6 +54,12 @@ CLAUDE.md
 # 其他内部约定：以 _internal/ 存放的任何文件、*.local.* 文件
 _internal/
 *.local.*
+# GSC 服务账号密钥（绝对禁止上传）
+gsc-key*.json
+*.gsc-key.json
+# GSC OAuth 客户端与授权 token（含密钥/令牌，绝对禁止上传）
+gsc-oauth-client*.json
+gsc-token*.json
 
 # ===== 非上线文件：不影响 Vercel 构建，仅本地开发使用 =====
 # 项目 README（GitHub 首页展示用，非构建必需）

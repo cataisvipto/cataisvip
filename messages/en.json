@@ -23,8 +23,11 @@
     "searchPlaceholder": "Search AI resources..."
   },
   "hero": {
-    "title": "Your Gateway to the AI Ecosystem",
-    "subtitle": "Discover AI models, agents, tools, and resources from around the world. Stay updated with the latest in artificial intelligence.",
+    "title": "Find the right AI for <hl>every</hl> task.",
+    "subtitle": "Compare thousands of AI models, tools and agents. Discover the best AI solution for your work.",
+    "searchPlaceholder": "What do you want to create?",
+    "searchButton": "Search",
+    "popular": "Popular:",
     "featured": "Featured Resources",
     "explore": "Explore All"
   },
@@ -47,7 +50,8 @@
     "Freemium": "Freemium",
     "Paid": "Paid",
     "Open Source": "Open Source",
-    "API": "API"
+    "API": "API",
+    "Beta": "Beta"
   },
   "submit": {
     "title": "Submit an AI Resource",

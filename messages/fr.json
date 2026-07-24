@@ -23,8 +23,11 @@
     "searchPlaceholder": "Rechercher des ressources IA..."
   },
   "hero": {
-    "title": "Votre Porte d'Entrée vers l'Écosystème de l'IA",
-    "subtitle": "Découvrez des modèles, agents, outils et ressources IA du monde entier. Restez informé des dernières avancées en intelligence artificielle.",
+    "title": "Trouvez l'IA adaptée à <hl>chaque</hl> tâche.",
+    "subtitle": "Comparez des milliers de modèles, outils et agents d'IA. Découvrez la meilleure solution d'IA pour votre travail.",
+    "searchPlaceholder": "Que voulez-vous créer ?",
+    "searchButton": "Rechercher",
+    "popular": "Populaire :",
     "featured": "Ressources en Vedette",
     "explore": "Tout Explorer"
   },
@@ -47,7 +50,8 @@
     "Freemium": "Freemium",
     "Paid": "Payant",
     "Open Source": "Open Source",
-    "API": "API"
+    "API": "API",
+    "Beta": "Bêta"
   },
   "submit": {
     "title": "Soumettre une Ressource IA",

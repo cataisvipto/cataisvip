@@ -12,13 +12,10 @@
     </linearGradient>
   </defs>
 
-  <!-- CA monogram -->
+  <!-- A monogram: wide 0.5-stance legs + low node dot (matches the CATAITO wordmark) -->
   <g transform="translate(168, 20) scale(1.5)">
-    <g stroke="url(#logoCaGrad)" fill="none" stroke-linecap="round" stroke-linejoin="round">
-      <path d="M 56 24 A 30 30 0 1 0 56 72" stroke-width="13"/>
-      <path d="M 48 76 L 66 16 L 88 76" stroke-width="13"/>
-    </g>
-    <circle cx="66" cy="58" r="3.8" fill="url(#logoCaGrad)"/>
+    <path d="M 14 80 L 48 18 L 82 80" stroke="url(#logoCaGrad)" fill="none" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="48" cy="73" r="8" fill="url(#logoCaGrad)"/>
   </g>
 
   <!-- CATAITO wordmark -->

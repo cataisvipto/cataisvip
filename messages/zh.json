@@ -23,8 +23,11 @@
     "searchPlaceholder": "搜索 AI 资源..."
   },
   "hero": {
-    "title": "你的 AI 生态入口",
-    "subtitle": "发现来自全球的 AI 模型、智能体、工具和资源。紧跟人工智能最新发展。",
+    "title": "为<hl>每一项</hl>任务找到合适的 AI",
+    "subtitle": "比较成千上万的 AI 模型、工具与智能体，为你的工作找到最佳 AI 方案。",
+    "searchPlaceholder": "你想创造什么？",
+    "searchButton": "搜索",
+    "popular": "热门：",
     "featured": "精选资源",
     "explore": "浏览全部"
   },
@@ -47,7 +50,8 @@
     "Freemium": "免费增值",
     "Paid": "付费",
     "Open Source": "开源",
-    "API": "API"
+    "API": "API",
+    "Beta": "测试版"
   },
   "submit": {
     "title": "提交 AI 资源",

@@ -1,6 +1,7 @@
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import SkillsClient from './SkillsClient';
 import skills from '@/data/skills.json';
+import { generateAlternates } from '@/lib/seo';
 
 interface Props {
   params: Promise<{ locale: string }>;
@@ -30,6 +31,7 @@ export async function generateMetadata({ params }: Props) {
   return {
     title: t('metaTitle'),
     description: t('metaDescription'),
+    alternates: generateAlternates('/skills', locale),
   };
 }
 

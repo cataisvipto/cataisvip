@@ -19,10 +19,10 @@ export interface LogoIconProps {
 }
 
 /**
- * Brand icon: the letter "C" cradling a cat paw that fills its counter
- * (the "cat" in Cataito), with a blue-to-purple gradient.
- * Pure inline SVG so it inherits currentColor / CSS for theme flexibility.
- * Use tone="white" on dark or colored backgrounds (e.g. the hero).
+ * Brand icon: the letter "A" — two round-capped legs meeting at the apex with
+ * a node dot in place of the crossbar (the "AI Gateway" mark). Blue→cyan/purple
+ * gradient. Pure inline SVG so it inherits currentColor / CSS for theme
+ * flexibility. Use tone="white" on dark or colored backgrounds (e.g. the hero).
  */
 export default function LogoIcon({
   size = 40,
@@ -73,23 +73,17 @@ export default function LogoIcon({
         className={isStatic ? '' : 'transition-transform duration-300 group-hover:scale-105'}
         filter={`url(#${gradId}-glow)`}
       >
-        {/* C: bold open ring, opening to the right — reads as the letter C */}
+        {/* A: wide splayed legs meeting at the apex — same stance as the CATAITO wordmark's "A" */}
         <path
-          d="M 75.9 34.4 A 31 31 0 1 0 75.9 61.6"
+          d="M 14 80 L 48 18 L 82 80"
           stroke={paint}
           fill="none"
-          strokeWidth="12"
+          strokeWidth="15"
           strokeLinecap="round"
           strokeLinejoin="round"
         />
-        {/* Cat paw centered in the C's counter: lighter pad + four separated toe beans */}
-        <g fill={paint}>
-          <ellipse cx="48" cy="55.5" rx="11" ry="8" />
-          <ellipse cx="37" cy="43" rx="3.8" ry="4.7" />
-          <ellipse cx="44" cy="39" rx="3.8" ry="4.7" />
-          <ellipse cx="52" cy="39" rx="3.8" ry="4.7" />
-          <ellipse cx="59" cy="43" rx="3.8" ry="4.7" />
-        </g>
+        {/* AI node: low dot in place of the A's crossbar (mirrors the wordmark motif) */}
+        <circle cx="48" cy="73" r="8" fill={paint} />
       </g>
     </svg>
   );
