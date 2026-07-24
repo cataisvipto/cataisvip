@@ -6,6 +6,12 @@
     "featuredDesc": "跨越全部 AI 分类的编辑精选",
     "viewAll": "浏览全部工具"
   },
+  "featuredAgents": {
+    "title": "精选 AI 智能体",
+    "subtitle": "跨平台统一记忆，随时随地为你服务",
+    "viewAll": "查看全部",
+    "viewAllMobile": "查看全部智能体"
+  },
   "site": {
     "title": "Cataito - AI 生态门户",
     "description": "你的全球 AI 生态入口。发现 AI 模型、智能体、工具和资源。"
@@ -67,6 +73,8 @@
     "selectCategory": "选择分类",
     "yourEmail": "您的邮箱",
     "optional": "选填",
+    "descriptionPlaceholder": "简要描述这个资源...",
+    "emailPlaceholder": "您的邮箱（可选，方便我们回复您）",
     "submitError": "提交失败，请稍后重试。"
   },
   "footer": {
@@ -86,6 +94,8 @@
   "common": {
     "visit": "访问",
     "noResults": "未找到相关资源，试试其他关键词。",
+    "resourceCount": "{count} 个资源",
+    "resourceTotal": "共 {count} 个",
     "featured": "精选",
     "about": "关于",
     "keyFeatures": "核心功能",
@@ -193,6 +203,11 @@
     "viewOnGitHub": "在 GitHub 上查看",
     "backToList": "返回技能列表",
     "notFound": "技能未找到"
+  },
+  "category": {
+    "heading": "最佳 {category} AI 工具",
+    "count": "{count} 款工具",
+    "viewAll": "查看所有工具"
   },
   "allTools": {
     "metaTitle": "全部 AI 工具 - 浏览 {count} 款 AI 工具与资源 | Cataito",

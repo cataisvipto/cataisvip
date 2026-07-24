@@ -152,7 +152,7 @@ export default function SubmitPage() {
                   value={formData.description}
                   onChange={(e) => setFormData({ ...formData, description: e.target.value })}
                   className="w-full px-4 py-2.5 border border-[var(--card-border)] rounded-xl text-sm text-[var(--foreground)] bg-[var(--muted-bg)] focus:outline-none focus:ring-2 focus:ring-[var(--primary)] focus:border-transparent transition"
-                  placeholder={locale === 'zh' ? '简要描述这个资源...' : 'Briefly describe this resource...'}
+                  placeholder={t('descriptionPlaceholder')}
                 />
               </div>
 
@@ -185,7 +185,7 @@ export default function SubmitPage() {
                   value={formData.email}
                   onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                   className="w-full px-4 py-2.5 border border-[var(--card-border)] rounded-xl text-sm text-[var(--foreground)] bg-[var(--muted-bg)] focus:outline-none focus:ring-2 focus:ring-[var(--primary)] focus:border-transparent transition"
-                  placeholder={locale === 'zh' ? '您的邮箱（可选，方便我们回复您）' : 'Your email (optional, so we can reply to you)'}
+                  placeholder={t('emailPlaceholder')}
                 />
               </div>
 

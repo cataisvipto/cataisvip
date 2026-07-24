@@ -109,6 +109,7 @@ const CATEGORY_DESCRIPTIONS: Record<string, Record<string, string>> = {
 export default function CategoryClient({ category, slug, tools: categoryTools, locale }: CategoryClientProps) {
   const tCategories = useTranslations('categories');
   const tTags = useTranslations('tags');
+  const tCategory = useTranslations('category');
   const [searchQuery, setSearchQuery] = useState('');
 
   const categoryDescription =
@@ -133,13 +134,11 @@ export default function CategoryClient({ category, slug, tools: categoryTools, l
         {/* Category Header */}
         <div className="mb-8">
           <h1 className="text-3xl md:text-4xl font-bold text-[var(--foreground)] mb-3">
-            {locale === 'zh'
-              ? `最佳 ${tCategories(categorySlug)} AI 工具`
-              : `Best ${tCategories(categorySlug)} AI Tools`}
+            {tCategory('heading', { category: tCategories(categorySlug) })}
           </h1>
           <p className="text-lg text-[var(--muted)] mb-4">{categoryDescription}</p>
           <div className="flex items-center gap-2 text-sm text-[var(--muted)]">
-            <span>{categoryTools.length} {locale === 'zh' ? '款工具' : 'tools'}</span>
+            <span>{tCategory('count', { count: categoryTools.length })}</span>
           </div>
         </div>
 
@@ -198,7 +197,7 @@ export default function CategoryClient({ category, slug, tools: categoryTools, l
                           key={tag}
                           className={`px-2 py-0.5 rounded-full text-xs font-medium ${TAG_COLORS[tag] || 'bg-gray-100 text-gray-600 dark:bg-gray-800 dark:text-gray-400'}`}
                         >
-                          {locale === 'zh' ? tTags(tag) : tag}
+                          {tTags(tag)}
                         </span>
                       ))}
                     </div>
@@ -212,10 +211,10 @@ export default function CategoryClient({ category, slug, tools: categoryTools, l
         {/* View All Tools */}
         <div className="mt-8 text-center">
           <Link
-            href="/"
+            href="/tools"
             className="inline-flex items-center gap-2 px-6 py-3 bg-[var(--muted-bg)] text-[var(--foreground)] rounded-full hover:bg-[var(--card-border)] transition font-medium"
           >
-            {locale === 'zh' ? '查看所有工具' : 'View All Tools'}
+            {tCategory('viewAll')}
             <ExternalLink className="w-4 h-4" />
           </Link>
         </div>

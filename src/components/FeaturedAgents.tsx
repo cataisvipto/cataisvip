@@ -5,9 +5,10 @@ import { Link } from '@/i18n/navigation';
 import { ArrowRight, Bot } from 'lucide-react';
 import LogoTile from '@/components/LogoTile';
 import tools from '@/data/tools.json';
-import { Tool } from './ToolCard';
+import { Tool, getLocalizedDescription } from './ToolCard';
 
 export default function FeaturedAgents() {
+  const t = useTranslations('featuredAgents');
   const tCategories = useTranslations('categories');
   const locale = useLocale();
 
@@ -22,16 +23,6 @@ export default function FeaturedAgents() {
     return locale === 'zh' && tool.nameZh ? tool.nameZh : tool.name;
   };
 
-  const getDescription = (tool: Tool) => {
-    switch (locale) {
-      case 'zh': return tool.description;
-      case 'ja': return tool.descriptionJa || tool.descriptionEn;
-      case 'es': return tool.descriptionEs || tool.descriptionEn;
-      case 'fr': return tool.descriptionFr || tool.descriptionEn;
-      default: return tool.descriptionEn;
-    }
-  };
-
   return (
     <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       {/* Section header */}
@@ -42,10 +33,10 @@ export default function FeaturedAgents() {
           </div>
           <div>
             <h2 className="text-2xl sm:text-3xl font-bold text-[var(--foreground)]">
-              {locale === 'zh' ? '精选 AI 智能体' : 'Featured AI Agents'}
+              {t('title')}
             </h2>
             <p className="mt-1 text-[var(--muted)] text-sm">
-              {locale === 'zh' ? '跨平台统一记忆，随时随地为你服务' : 'Unified memory across platforms, always at your service'}
+              {t('subtitle')}
             </p>
           </div>
         </div>
@@ -53,7 +44,7 @@ export default function FeaturedAgents() {
           href="/category/agent"
           className="hidden sm:inline-flex items-center gap-1.5 shrink-0 text-sm font-medium text-[var(--primary)] hover:text-[var(--primary)]/80 transition"
         >
-          {locale === 'zh' ? '查看全部' : 'View All'}
+          {t('viewAll')}
           <ArrowRight className="w-4 h-4" />
         </Link>
       </div>
@@ -62,7 +53,7 @@ export default function FeaturedAgents() {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {agents.map((agent) => {
           const displayName = getDisplayName(agent);
-          const description = getDescription(agent);
+          const description = getLocalizedDescription(agent, locale);
 
           return (
             <Link
@@ -115,7 +106,7 @@ export default function FeaturedAgents() {
           href="/category/agent"
           className="inline-flex items-center gap-1.5 text-sm font-medium text-[var(--primary)] hover:text-[var(--primary)]/80 transition"
         >
-          {locale === 'zh' ? '查看全部智能体' : 'View All Agents'}
+          {t('viewAllMobile')}
           <ArrowRight className="w-4 h-4" />
         </Link>
       </div>

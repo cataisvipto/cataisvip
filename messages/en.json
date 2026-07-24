@@ -6,6 +6,12 @@
     "featuredDesc": "A curated selection spanning every AI category",
     "viewAll": "Browse All Tools"
   },
+  "featuredAgents": {
+    "title": "Featured AI Agents",
+    "subtitle": "Unified memory across platforms, always at your service",
+    "viewAll": "View All",
+    "viewAllMobile": "View All Agents"
+  },
   "site": {
     "title": "Cataito - AI Ecosystem Portal",
     "description": "Your gateway to the global AI ecosystem. Discover AI models, agents, tools, and resources."
@@ -67,6 +73,8 @@
     "selectCategory": "Select a category",
     "yourEmail": "Your Email",
     "optional": "optional",
+    "descriptionPlaceholder": "Briefly describe this resource...",
+    "emailPlaceholder": "Your email (optional, so we can reply to you)",
     "submitError": "Submission failed. Please try again later."
   },
   "footer": {
@@ -86,6 +94,8 @@
   "common": {
     "visit": "Visit",
     "noResults": "No resources found. Try a different search term.",
+    "resourceCount": "{count} resources",
+    "resourceTotal": "{count} total",
     "featured": "Featured",
     "about": "About",
     "keyFeatures": "Key Features",
@@ -193,6 +203,11 @@
     "viewOnGitHub": "View on GitHub",
     "backToList": "Back to Skills",
     "notFound": "Skill Not Found"
+  },
+  "category": {
+    "heading": "Best {category} AI Tools",
+    "count": "{count} tools",
+    "viewAll": "View All Tools"
   },
   "allTools": {
     "metaTitle": "All AI Tools - Browse {count} AI Tools & Resources | Cataito",

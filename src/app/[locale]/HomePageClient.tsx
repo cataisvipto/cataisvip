@@ -14,7 +14,7 @@ import SubmitCTA from '@/components/SubmitCTA';
 import Footer from '@/components/Footer';
 import LogoTile from '@/components/LogoTile';
 import tools from '@/data/tools.json';
-import { Tool } from '@/components/ToolCard';
+import { Tool, getLocalizedDescription } from '@/components/ToolCard';
 
 export default function HomePageClient() {
   const locale = useLocale();
@@ -83,7 +83,7 @@ export default function HomePageClient() {
                   </div>
                 </div>
                 <p className="text-xs text-[var(--muted)] leading-relaxed line-clamp-2">
-                  {locale === 'zh' ? tool.description : tool.descriptionEn}
+                  {getLocalizedDescription(tool, locale)}
                 </p>
               </Link>
             ))}

@@ -6,6 +6,12 @@
     "featuredDesc": "Una selección de todas las categorías de IA",
     "viewAll": "Ver todas las herramientas"
   },
+  "featuredAgents": {
+    "title": "Agentes de IA destacados",
+    "subtitle": "Memoria unificada entre plataformas, siempre a tu servicio",
+    "viewAll": "Ver todo",
+    "viewAllMobile": "Ver todos los agentes"
+  },
   "site": {
     "title": "Cataito - Portal del Ecosistema IA",
     "description": "Tu puerta de entrada al ecosistema global de IA. Descubre modelos, agentes, herramientas y recursos de inteligencia artificial."
@@ -67,6 +73,8 @@
     "selectCategory": "Selecciona una categoría",
     "yourEmail": "Tu Correo",
     "optional": "opcional",
+    "descriptionPlaceholder": "Describe brevemente este recurso...",
+    "emailPlaceholder": "Tu correo (opcional, para poder responderte)",
     "submitError": "Error al enviar. Por favor, inténtalo de nuevo más tarde."
   },
   "footer": {
@@ -86,6 +94,8 @@
   "common": {
     "visit": "Visitar",
     "noResults": "No se encontraron recursos. Intenta con otro término de búsqueda.",
+    "resourceCount": "{count} recursos",
+    "resourceTotal": "{count} en total",
     "featured": "Destacado",
     "about": "Acerca de",
     "keyFeatures": "Características Principales",
@@ -174,6 +184,11 @@
     "changes_text": "Nos reservamos el derecho de modificar este Aviso en cualquier momento. Los cambios serán efectivos inmediatamente.",
     "contact_title": "11. Contacto",
     "contact_text": "Si tienes preguntas sobre este Aviso Legal, contáctanos en:"
+  },
+  "category": {
+    "heading": "Mejores herramientas de IA de {category}",
+    "count": "{count} herramientas",
+    "viewAll": "Ver todas las herramientas"
   },
   "allTools": {
     "metaTitle": "Todas las herramientas de IA - Explora {count} herramientas y recursos de IA | Cataito",

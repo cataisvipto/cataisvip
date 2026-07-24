@@ -213,7 +213,7 @@ export default function ToolDetailClient({ tool, locale }: ToolDetailClientProps
                         key={tag}
                         className={`px-3 py-1 rounded-full text-sm font-medium ${TAG_COLORS[tag] || 'bg-gray-100 text-gray-600 dark:bg-gray-800 dark:text-gray-400'}`}
                       >
-                        {locale === 'zh' ? tTags(tag as any) : tag}
+                        {tTags(tag as any)}
                       </span>
                     ))}
                   </div>

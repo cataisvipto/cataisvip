@@ -6,6 +6,12 @@
     "featuredDesc": "Une sélection dans toutes les catégories d'IA",
     "viewAll": "Voir tous les outils"
   },
+  "featuredAgents": {
+    "title": "Agents IA en vedette",
+    "subtitle": "Mémoire unifiée entre plateformes, toujours à votre service",
+    "viewAll": "Voir tout",
+    "viewAllMobile": "Voir tous les agents"
+  },
   "site": {
     "title": "Cataito - Portail de l'Écosystème IA",
     "description": "Votre porte d'entrée vers l'écosystème mondial de l'IA. Découvrez des modèles, agents, outils et ressources d'intelligence artificielle."
@@ -67,6 +73,8 @@
     "selectCategory": "Sélectionnez une catégorie",
     "yourEmail": "Votre Email",
     "optional": "facultatif",
+    "descriptionPlaceholder": "Décrivez brièvement cette ressource...",
+    "emailPlaceholder": "Votre email (facultatif, pour vous répondre)",
     "submitError": "Échec de l'envoi. Veuillez réessayer plus tard."
   },
   "footer": {
@@ -86,6 +94,8 @@
   "common": {
     "visit": "Visiter",
     "noResults": "Aucune ressource trouvée. Essayez un autre terme de recherche.",
+    "resourceCount": "{count} ressources",
+    "resourceTotal": "{count} au total",
     "featured": "En Vedette",
     "about": "À Propos",
     "keyFeatures": "Fonctionnalités Clés",
@@ -174,6 +184,11 @@
     "changes_text": "Nous nous réservons le droit de modifier cet Avertissement à tout moment. Les modifications prennent effet immédiatement.",
     "contact_title": "11. Contact",
     "contact_text": "Si vous avez des questions sur cet Avertissement, veuillez nous contacter :"
+  },
+  "category": {
+    "heading": "Meilleurs outils IA de {category}",
+    "count": "{count} outils",
+    "viewAll": "Voir tous les outils"
   },
   "allTools": {
     "metaTitle": "Tous les outils IA - Parcourez {count} outils et ressources IA | Cataito",

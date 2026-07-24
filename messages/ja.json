@@ -6,6 +6,12 @@
     "featuredDesc": "すべての AI カテゴリから厳選",
     "viewAll": "すべてのツールを見る"
   },
+  "featuredAgents": {
+    "title": "注目の AI エージェント",
+    "subtitle": "プラットフォームを横断する統一メモリ、いつでもどこでもあなたに",
+    "viewAll": "すべて表示",
+    "viewAllMobile": "エージェントをすべて表示"
+  },
   "site": {
     "title": "Cataito - AIエコシステムポータル",
     "description": "グローバルAIエコシステムへの入口。AIモデル、エージェント、ツール、リソースを発見しましょう。"
@@ -67,6 +73,8 @@
     "selectCategory": "カテゴリーを選択",
     "yourEmail": "メールアドレス",
     "optional": "任意",
+    "descriptionPlaceholder": "このリソースを簡単に説明してください...",
+    "emailPlaceholder": "メールアドレス（任意・返信用）",
     "submitError": "送信に失敗しました。後でもう一度お試しください。"
   },
   "footer": {
@@ -86,6 +94,8 @@
   "common": {
     "visit": "訪問",
     "noResults": "リソースが見つかりませんでした。別のキーワードで検索してください。",
+    "resourceCount": "{count} 件のリソース",
+    "resourceTotal": "全 {count} 件",
     "featured": "おすすめ",
     "about": "概要",
     "keyFeatures": "主な機能",
@@ -193,6 +203,11 @@
     "viewOnGitHub": "GitHubで見る",
     "backToList": "スキル一覧に戻る",
     "notFound": "スキルが見つかりません"
+  },
+  "category": {
+    "heading": "最高の{category} AIツール",
+    "count": "{count} 個のツール",
+    "viewAll": "すべてのツールを見る"
   },
   "allTools": {
     "metaTitle": "すべての AI ツール - {count} 個の AI ツールとリソースを閲覧 | Cataito",

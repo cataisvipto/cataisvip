@@ -72,11 +72,9 @@ export default function ToolGrid({ tools, locale, searchQuery, totalCount, curat
       {/* Results count (full directory always; curated only while searching) */}
       {(!curated || hasSearch) && (
         <div className="mb-6 text-sm text-[var(--muted)]">
-          {displayTools.length} {locale === 'zh' ? '个资源' : 'resources'}
+          {t('resourceCount', { count: displayTools.length })}
           {totalCount && totalCount !== displayTools.length
-            ? locale === 'zh'
-              ? ` / 共 ${totalCount} 个`
-              : ` / ${totalCount} total`
+            ? ` / ${t('resourceTotal', { count: totalCount })}`
             : ''}
           {activeCategory !== 'all' && ` · ${tCategories(activeCategory as any)}`}
           {searchQuery && ` · "${searchQuery}"`}
