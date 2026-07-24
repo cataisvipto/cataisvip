@@ -19,6 +19,7 @@ export interface Tool {
   category: string;
   tags: string[];
   featured: boolean;
+  homeFeatured?: boolean;
   platforms?: string[];
   developer?: string;
   developerZh?: string;

@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
+/* 本站用 .dark class + CSS 变量切换主题（见 ThemeProvider），而 Tailwind v4 的 dark:
+   变体默认走 prefers-color-scheme（跟随系统）。这里改为基于 .dark class，
+   让全站 dark:* 工具类跟随网站主题开关，避免浅/暗色板块交叉不一致。 */
+@custom-variant dark (&:where(.dark, .dark *));
+
 /* Light mode (default) */
 :root {
   --background: #ffffff;

@@ -1,9 +1,9 @@
 'use client';
 
 import { useState } from 'react';
-import { useLocale } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 import { Link } from '@/i18n/navigation';
-import { ArrowRight, Sparkles } from 'lucide-react';
+import { ArrowRight, Sparkles, Star } from 'lucide-react';
 import Header from '@/components/Header';
 import HeroSection from '@/components/HeroSection';
 import ToolGrid from '@/components/ToolGrid';
@@ -18,22 +18,17 @@ import { Tool } from '@/components/ToolCard';
 
 export default function HomePageClient() {
   const locale = useLocale();
+  const t = useTranslations('home');
   const [searchQuery, setSearchQuery] = useState('');
   const allTools = tools as Tool[];
 
-  // Latest 4 tools (last entries in tools.json)
-  const latestTools = allTools.slice(-4).reverse();
-  // Featured tools for main grid
-  const featuredTools = allTools.filter(t => t.featured);
+  // Latest 8 tools (last entries in tools.json)
+  const latestTools = allTools.slice(-8).reverse();
+  // Curated editor's picks for the homepage showcase (balanced across categories)
+  const curatedTools = allTools.filter((tool) => tool.homeFeatured);
 
   const getDisplayName = (tool: Tool) =>
     locale === 'zh' && tool.nameZh ? tool.nameZh : tool.name;
-
-  const t = {
-    latestTitle: locale === 'zh' ? '最新收录' : locale === 'ja' ? '最新追加' : locale === 'es' ? 'Últimas incorporaciones' : locale === 'fr' ? 'Derniers ajouts' : 'Latest Additions',
-    latestDesc: locale === 'zh' ? '最新加入 Cataito 生态的 AI 工具' : 'Recently added AI tools to the Cataito ecosystem',
-    viewAll: locale === 'zh' ? '浏览全部工具' : locale === 'ja' ? 'すべてのツールを見る' : locale === 'es' ? 'Ver todas las herramientas' : locale === 'fr' ? 'Voir tous les outils' : 'Browse All Tools',
-  };
 
   return (
     <>
@@ -54,9 +49,9 @@ export default function HomePageClient() {
               </div>
               <div>
                 <h2 className="text-2xl sm:text-3xl font-bold text-[var(--foreground)]">
-                  {t.latestTitle}
+                  {t('latestTitle')}
                 </h2>
-                <p className="mt-1 text-[var(--muted)] text-sm">{t.latestDesc}</p>
+                <p className="mt-1 text-[var(--muted)] text-sm">{t('latestDesc')}</p>
               </div>
             </div>
           </div>
@@ -95,12 +90,28 @@ export default function HomePageClient() {
           </div>
         </section>
 
+        {/* Editor's Picks — curated showcase across categories */}
         <ToolGrid
-          tools={featuredTools}
+          tools={allTools}
           locale={locale}
           searchQuery={searchQuery}
           onSearchChange={setSearchQuery}
           totalCount={allTools.length}
+          curated
+          curatedTools={curatedTools}
+          header={
+            <div className="flex items-center gap-3">
+              <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-indigo-500 to-cyan-500 flex items-center justify-center">
+                <Star className="w-5 h-5 text-white" />
+              </div>
+              <div>
+                <h2 className="text-2xl sm:text-3xl font-bold text-[var(--foreground)]">
+                  {t('featuredTitle')}
+                </h2>
+                <p className="mt-1 text-[var(--muted)] text-sm">{t('featuredDesc')}</p>
+              </div>
+            </div>
+          }
         />
 
         {/* Browse All Link */}
@@ -109,7 +120,7 @@ export default function HomePageClient() {
             href="/tools"
             className="inline-flex items-center gap-2 px-6 py-3 rounded-full border border-[var(--card-border)] text-[var(--muted)] hover:text-[var(--primary)] hover:border-[var(--primary)] transition text-sm font-medium"
           >
-            {t.viewAll}
+            {t('viewAll')}
             <ArrowRight className="w-4 h-4" />
           </Link>
         </div>

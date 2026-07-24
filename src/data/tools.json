@@ -1,6 +1,7 @@
 [
   {
     "slug": "chatgpt",
+    "homeFeatured": true,
     "name": "ChatGPT",
     "nameZh": "ChatGPT",
     "description": "OpenAI 开发的 AI 对话助手，支持文本生成、代码编写、数据分析等多种任务",
@@ -20,6 +21,7 @@
   },
   {
     "slug": "claude",
+    "homeFeatured": true,
     "name": "Claude",
     "nameZh": "Claude",
     "description": "Anthropic 推出的 AI 助手，擅长长文本理解、分析和安全对话",
@@ -39,6 +41,7 @@
   },
   {
     "slug": "gemini",
+    "homeFeatured": true,
     "name": "Gemini",
     "nameZh": "Gemini",
     "description": "Google 推出的多模态 AI 模型，支持文本、图像、代码理解与生成",
@@ -214,6 +217,7 @@
   },
   {
     "slug": "midjourney",
+    "homeFeatured": true,
     "name": "Midjourney",
     "nameZh": "Midjourney",
     "description": "顶级 AI 图像生成工具，以艺术风格和质量著称",
@@ -269,6 +273,7 @@
   },
   {
     "slug": "github-copilot",
+    "homeFeatured": true,
     "name": "GitHub Copilot",
     "nameZh": "GitHub Copilot",
     "description": "AI 编程助手，集成在 VS Code 等编辑器中，实时代码补全",
@@ -288,6 +293,7 @@
   },
   {
     "slug": "cursor",
+    "homeFeatured": true,
     "name": "Cursor",
     "nameZh": "Cursor",
     "description": "AI 原生代码编辑器，内置多模型支持，重新定义编程体验",
@@ -306,6 +312,7 @@
   },
   {
     "slug": "perplexity",
+    "homeFeatured": true,
     "name": "Perplexity",
     "nameZh": "Perplexity",
     "description": "AI 搜索引擎，实时联网搜索并提供带引用来源的答案",
@@ -361,6 +368,7 @@
   },
   {
     "slug": "runway",
+    "homeFeatured": true,
     "name": "Runway",
     "nameZh": "Runway",
     "description": "AI 视频生成和编辑工具，支持文本生成视频、视频编辑等",
@@ -379,6 +387,7 @@
   },
   {
     "slug": "elevenlabs",
+    "homeFeatured": true,
     "name": "ElevenLabs",
     "nameZh": "ElevenLabs",
     "description": "领先的 AI 语音合成和克隆平台，支持多语言",
@@ -416,6 +425,7 @@
   },
   {
     "slug": "hugging-face",
+    "homeFeatured": true,
     "name": "Hugging Face",
     "nameZh": "Hugging Face",
     "description": "最大的开源 AI 模型社区，提供模型托管、训练和部署",
@@ -563,6 +573,7 @@
   },
   {
     "slug": "canva-ai",
+    "homeFeatured": true,
     "name": "Canva AI",
     "nameZh": "Canva AI",
     "description": "Canva 内置的 AI 设计助手，一键生成海报、PPT 等设计",
@@ -617,6 +628,7 @@
   },
   {
     "slug": "deepl",
+    "homeFeatured": true,
     "name": "DeepL",
     "nameZh": "DeepL",
     "description": "全球领先的 AI 翻译工具，翻译质量超越传统翻译软件",

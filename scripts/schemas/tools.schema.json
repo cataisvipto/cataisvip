@@ -25,6 +25,7 @@
       "category":            { "type": "string", "minLength": 1 },
       "tags":                { "type": "array", "items": { "type": "string", "minLength": 1 } },
       "featured":            { "type": "boolean" },
+      "homeFeatured":        { "type": "boolean" },
       "developer":           { "type": "string", "minLength": 1 },
       "developerZh":         { "type": "string" },
       "platforms":           { "type": "array", "items": { "type": "string" } }
