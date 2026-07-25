@@ -16,6 +16,7 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect -- hydration-safety: must detect client-only APIs after mount
     setMounted(true);
     // Check localStorage first, then system preference
     const stored = localStorage.getItem('theme') as Theme | null;

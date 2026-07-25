@@ -36,7 +36,6 @@ export default function ToolDetailClient({ tool, locale }: ToolDetailClientProps
   const [copiedIndex, setCopiedIndex] = useState<string | null>(null);
   const description = getLocalizedDescription(tool, locale);
   const displayName = locale === 'zh' && tool.nameZh ? tool.nameZh : tool.name;
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const details: any = (toolDetails as Record<string, Record<string, unknown>>)[tool.slug];
 
   const handleCopy = async (text: string, id: string) => {
