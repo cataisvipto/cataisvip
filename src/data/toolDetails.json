@@ -13462,85 +13462,70 @@
       }
     },
     "latestUpdate": {
-      "en": "2026: Sora improves quality & length",
-      "zh": "2026年：Sora 提升视频质量和时长",
-      "ja": "2026年：Sora は品質と長さを向上",
-      "es": "2026: Sora mejora calidad y duración",
-      "fr": "2026 : Sora améliore qualité et durée"
+      "en": "April 2026: Sora discontinued — web/app shut down, API closing September 2026",
+      "zh": "2026年4月：Sora 已停止服务——Web/App 已关闭，API 将于2026年9月关闭",
+      "ja": "2026年4月：Sora サービス終了——Web/アプリ停止、APIは2026年9月に終了",
+      "es": "Abril 2026: Sora descontinuado — web/app cerrada, API cierra septiembre 2026",
+      "fr": "Avril 2026 : Sora arrêté — web/app fermés, API ferme en septembre 2026"
     },
     "verdict": {
-      "badge": "Recommended",
+      "badge": "Consider Alternatives",
       "headline": {
-        "en": "OpenAI's text-to-video model producing cinematic-quality clips — the highest fidelity AI video generation available.",
-        "zh": "OpenAI的文本转视频模型，生成电影级画质片段——目前最高保真度的AI视频生成。",
-        "ja": "OpenAIのテキストから映画品質の映像を生成するモデル。",
-        "es": "El modelo texto-a-vídeo de OpenAI que produce clips de calidad cinematográfica.",
-        "fr": "Le modèle texte-vers-vidéo d'OpenAI produisant des clips de qualité cinématographique."
+        "en": "Sora has been discontinued — OpenAI shut down the product in April 2026. Do not start new projects on Sora.",
+        "zh": "Sora 已停止服务——OpenAI 于2026年4月关停该产品。请勿基于 Sora 开展新项目。",
+        "ja": "Soraはサービス終了済み——OpenAIは2026年4月に製品を停止しました。新規プロジェクトでの利用は避けてください。",
+        "es": "Sora ha sido descontinuado — OpenAI cerró el producto en abril 2026. No inicies nuevos proyectos con Sora.",
+        "fr": "Sora a été arrêté — OpenAI a fermé le produit en avril 2026. Ne démarrez pas de nouveaux projets sur Sora."
       },
       "body": {
-        "en": "Sora generates video from text descriptions with visual coherence and physical realism that sets a new standard. Camera movements feel intentional, lighting behaves naturally, and objects maintain consistent form across frames.\n\nFor creative professionals, Sora opens possibilities in concept visualization, storyboarding, and short-form video production.\n\nThe practical constraints are significant: generation times are not instant, output length is limited, and fine-grained control requires careful prompt engineering. Runway and Kling offer faster generation with more editing controls.",
-        "zh": "Sora从文本描述生成视频，其视觉连贯性和物理真实感树立了新标准。镜头运动有意图感，光照行为自然。\n\n对创意专业人士，Sora在概念可视化和短视频制作方面开启了可能性。\n\n实际约束显著：生成时间非即时、输出时长有限。Runway和Kling提供更快的生成和更多编辑控制。",
-        "ja": "Soraはテキストから視覚的一貫性と物理的リアリズムで新基準を設定する動画を生成します。\n\nクリエイティブプロにとって、コンセプトビジュアライゼーションに可能性を開きます。\n\n制約は大きいです：生成は即時ではなく、出力長は限られます。RunwayやKlingはより速い生成を提供します。",
-        "es": "Sora genera vídeo desde texto con coherencia visual y realismo que establece un nuevo estándar.\n\nPara profesionales creativos, abre posibilidades en visualización y producción de formato corto.\n\nLas restricciones son significativas: generación no instantánea, duración limitada. Runway y Kling ofrecen generación más rápida.",
-        "fr": "Sora génère de la vidéo avec une cohérence et un réalisme qui établissent un nouveau standard.\n\nPour les professionnels créatifs, il ouvre des possibilités en visualisation de concepts.\n\nLes contraintes sont significatives : génération non instantanée, durée limitée. Runway et Kling offrent une génération plus rapide."
+        "en": "OpenAI discontinued Sora's web and app experiences on April 26, 2026, with the API scheduled for shutdown on September 24, 2026. The video generation capabilities are being folded into ChatGPT and the broader OpenAI platform rather than maintained as a standalone product.\n\nSora set an industry benchmark for text-to-video fidelity when it launched, but OpenAI concluded the standalone product was not viable. Existing users should export their data and migrate to active alternatives.\n\nFor AI video generation needs, Runway, Kling, and Vidu are actively maintained alternatives with comparable or better editing controls and longer output support.",
+        "zh": "OpenAI于2026年4月26日关闭了Sora的Web和App体验，API计划于2026年9月24日关停。视频生成能力将被整合入ChatGPT和OpenAI大平台，不再作为独立产品维护。\n\nSora发布时在文本转视频保真度上设立了行业基准，但OpenAI认为独立产品不具可行性。现有用户应导出数据并迁移到活跃的替代方案。\n\n如需AI视频生成，Runway、Kling（可灵）和Vidu是当前活跃维护的替代方案，具有相当或更好的编辑控制和更长输出支持。",
+        "ja": "OpenAIは2026年4月26日にSoraのWeb・アプリ体験を終了し、APIは2026年9月24日に停止予定です。動画生成機能はChatGPTとOpenAIプラットフォームに統合されます。\n\nSoraはテキストから動画の忠実度で業界基準を設定しましたが、独立製品として存続しないと判断されました。既存ユーザーはデータをエクスポートし代替サービスへ移行すべきです。\n\nAI動画生成にはRunway、Kling、Viduが活発に維持されている代替サービスです。",
+        "es": "OpenAI cerró la experiencia web y app de Sora el 26 de abril de 2026, con la API programada para cierre el 24 de septiembre de 2026. Las capacidades de generación de vídeo se integran en ChatGPT.\n\nSora estableció un punto de referencia en fidelidad texto-a-vídeo, pero OpenAI concluyó que el producto independiente no era viable. Los usuarios existentes deben exportar sus datos y migrar.\n\nPara generación de vídeo IA, Runway, Kling y Vidu son alternativas activamente mantenidas.",
+        "fr": "OpenAI a fermé l'expérience web et app de Sora le 26 avril 2026, l'API devant fermer le 24 septembre 2026. Les capacités de génération vidéo sont intégrées à ChatGPT.\n\nSora a établi une référence en fidélité texte-vers-vidéo, mais OpenAI a conclu que le produit autonome n'était pas viable. Les utilisateurs doivent exporter leurs données et migrer.\n\nPour la génération vidéo IA, Runway, Kling et Vidu sont des alternatives activement maintenues."
       },
       "bestFor": {
         "en": [
-          "Concept visualization and pre-production storyboarding",
-          "High-fidelity short video clips where visual quality is paramount",
-          "Social media content without video production budgets",
-          "Creative experimentation with text-to-video"
+          "Historical reference only — Sora is no longer available for new use"
         ],
         "zh": [
-          "概念可视化和前期制作分镜",
-          "视觉质量至上的高保真短视频",
-          "无需视频制作预算的社交媒体内容",
-          "文本转视频的创意实验"
+          "仅供历史参考——Sora 已不再可用"
         ],
         "ja": [
-          "コンセプトビジュアライゼーション",
-          "視覚品質最重要な高忠実度ショートビデオ",
-          "映像制作予算なしのSNSコンテンツ",
-          "テキストからビデオのクリエイティブ実験"
+          "歴史的参考のみ——Soraは利用不可"
         ],
         "es": [
-          "Visualización de conceptos y storyboarding",
-          "Clips de alta fidelidad donde la calidad visual importa",
-          "Contenido para redes sin presupuesto de producción",
-          "Experimentación creativa texto-a-vídeo"
+          "Solo referencia histórica — Sora ya no está disponible"
         ],
         "fr": [
-          "Visualisation de concepts et storyboarding",
-          "Clips haute fidélité où la qualité est primordiale",
-          "Contenu réseaux sociaux sans budget vidéo",
-          "Expérimentation créative texte-vers-vidéo"
+          "Référence historique uniquement — Sora n'est plus disponible"
         ]
       },
       "considerAlternatives": {
         "en": [
-          "You need faster generation with more editing controls (→ Runway, Kling)",
-          "You want longer-form video with scene-level editing (→ Runway Gen-3)",
-          "You need video generation integrated with a full editing suite (→ Runway)"
+          "You need AI video generation now (→ Runway, Kling, Vidu)",
+          "You want text-to-video with fine editing controls (→ Runway Gen-3)",
+          "You need a Chinese-accessible AI video tool (→ Kling, Vidu)"
         ],
         "zh": [
-          "你需要更快的生成和更多编辑控制（→ Runway、Kling）",
-          "你需要带场景级编辑的长视频（→ Runway Gen-3）",
-          "你需要与完整编辑套件集成的视频生成（→ Runway）"
+          "你现在需要AI视频生成（→ Runway、可灵、Vidu）",
+          "你需要带精细编辑控制的文本转视频（→ Runway Gen-3）",
+          "你需要国内可访问的AI视频工具（→ 可灵、Vidu）"
         ],
         "ja": [
-          "より速い生成とより多くの編集コントロールが必要な場合（→ Runway、Kling）",
-          "シーンレベル編集付きの長尺動画が必要な場合（→ Runway Gen-3）",
-          "フル編集スイートと統合された動画生成が必要な場合（→ Runway）"
+          "AI動画生成が今必要な場合（→ Runway、Kling、Vidu）",
+          "細かい編集コントロール付きのテキスト動画が必要な場合（→ Runway Gen-3）",
+          "中国からアクセス可能なAI動画ツールが必要な場合（→ Kling、Vidu）"
         ],
         "es": [
-          "Necesitas generación más rápida con más controles (→ Runway, Kling)",
-          "Quieres vídeo largo con edición a nivel de escena (→ Runway Gen-3)",
-          "Necesitas generación integrada con suite de edición (→ Runway)"
+          "Necesitas generación de vídeo IA ahora (→ Runway, Kling, Vidu)",
+          "Quieres texto-a-vídeo con controles de edición finos (→ Runway Gen-3)",
+          "Necesitas una herramienta de vídeo IA accesible desde China (→ Kling, Vidu)"
         ],
         "fr": [
-          "Vous avez besoin d'une génération plus rapide avec plus de contrôles (→ Runway, Kling)",
-          "Vous voulez des vidéos longues avec édition par scène (→ Runway Gen-3)",
-          "Vous avez besoin de génération intégrée à une suite d'édition (→ Runway)"
+          "Vous avez besoin de génération vidéo IA maintenant (→ Runway, Kling, Vidu)",
+          "Vous voulez du texte-vers-vidéo avec des contrôles d'édition fins (→ Runway Gen-3)",
+          "Vous avez besoin d'un outil vidéo IA accessible depuis la Chine (→ Kling, Vidu)"
         ]
       }
     }

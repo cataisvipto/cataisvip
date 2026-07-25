@@ -807,18 +807,18 @@
     "slug": "sora",
     "name": "Sora",
     "nameZh": "Sora",
-    "description": "OpenAI 推出的 AI 视频生成模型，可根据文本描述生成高质量逼真视频",
-    "descriptionEn": "OpenAI's AI video generation model that creates high-quality realistic videos from text descriptions",
-    "descriptionJa": "OpenAIのAI動画生成モデル。テキスト説明から高品質でリアルな動画を生成",
-    "descriptionEs": "Modelo de generación de video IA de OpenAI que crea videos realistas de alta calidad desde descripciones de texto",
-    "descriptionFr": "Modèle de génération vidéo IA d'OpenAI qui crée des vidéos réalistes de haute qualité à partir de descriptions textuelles",
+    "description": "OpenAI 曾推出的 AI 视频生成模型，已于2026年4月停止服务",
+    "descriptionEn": "OpenAI's former AI video generation model, discontinued in April 2026",
+    "descriptionJa": "OpenAIの元AI動画生成モデル、2026年4月にサービス終了",
+    "descriptionEs": "Antiguo modelo de generación de vídeo IA de OpenAI, descontinuado en abril 2026",
+    "descriptionFr": "Ancien modèle de génération vidéo IA d'OpenAI, arrêté en avril 2026",
     "url": "https://sora.com",
     "logo": "/logos/tools/sora.png",
     "category": "Video",
     "tags": [
-      "Paid"
+      "Discontinued"
     ],
-    "featured": true,
+    "featured": false,
     "developer": "OpenAI"
   },
   {
