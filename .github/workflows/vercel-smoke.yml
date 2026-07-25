@@ -27,9 +27,6 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: npm
-
-      - run: npm ci
 
       # 确定测试 URL
       - name: 确定测试 URL
