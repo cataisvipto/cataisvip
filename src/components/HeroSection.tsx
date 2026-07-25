@@ -14,21 +14,21 @@ interface HeroSectionProps {
 
 // Proper nouns, intentionally not localized.
 const POPULAR = ['ChatGPT', 'Claude', 'Gemini', 'Midjourney', 'Cursor'];
-const ORBITS = [104, 132, 160, 188, 216, 244];
+const ORBITS = [80, 104, 135, 176, 228, 258];
 
 const PARTICLES = [
-  { radius: 132, duration: 11, delay: -4 },
-  { radius: 188, duration: 13, delay: -9 },
-  { radius: 216, duration: 15, delay: -2 },
+  { radius: 104, duration: 10, delay: -4 },
+  { radius: 176, duration: 14, delay: -9 },
+  { radius: 228, duration: 17, delay: -2 },
 ];
 
 const PLANETS = [
-  { radius: 104, duration: 20, delay: -2, className: 'catai-ai-planet-indigo', Icon: Brain },
-  { radius: 132, duration: 26, delay: -8, className: 'catai-ai-planet-blue', Icon: Boxes },
-  { radius: 160, duration: 32, delay: -16, className: 'catai-ai-planet-purple', Icon: Bot },
-  { radius: 188, duration: 38, delay: -24, className: 'catai-ai-planet-cyan', Icon: Wrench },
-  { radius: 216, duration: 44, delay: -32, className: 'catai-ai-planet-violet', Icon: Sparkles },
-  { radius: 244, duration: 50, delay: -40, className: 'catai-ai-planet-sky', Icon: Newspaper },
+  { radius: 80, duration: 18, delay: -2, className: 'catai-ai-planet-indigo', Icon: Brain },
+  { radius: 104, duration: 26, delay: -8, className: 'catai-ai-planet-blue', Icon: Boxes },
+  { radius: 135, duration: 35, delay: -16, className: 'catai-ai-planet-purple', Icon: Bot },
+  { radius: 176, duration: 46, delay: -24, className: 'catai-ai-planet-cyan', Icon: Wrench },
+  { radius: 228, duration: 58, delay: -32, className: 'catai-ai-planet-violet', Icon: Sparkles },
+  { radius: 258, duration: 72, delay: -40, className: 'catai-ai-planet-sky', Icon: Newspaper },
 ];
 
 export default function HeroSection({ searchQuery = '', onSearchChange }: HeroSectionProps) {
@@ -123,9 +123,10 @@ export default function HeroSection({ searchQuery = '', onSearchChange }: HeroSe
                     style={{
                       '--orbit-r': `${radius}px`,
                       '--ring-delay': `${index * -1.15}s`,
+                      '--ring-depth': `${radius / 300}`,
                       width: `${radius * 2}px`,
                       height: `${radius * 2}px`,
-                      top: 'calc(50% + var(--catai-dot-dy))',
+                      top: `calc(50% + ${90 + (radius - 80) * 0.26}px)`,
                     } as CSSProperties}
                   />
                 ))}
@@ -136,7 +137,7 @@ export default function HeroSection({ searchQuery = '', onSearchChange }: HeroSe
                   style={{
                     width: `${ORBITS[0] * 2}px`,
                     height: `${ORBITS[0] * 2}px`,
-                    top: 'calc(50% + var(--catai-dot-dy))',
+                    top: `calc(50% + ${90 + (ORBITS[0] - 80) * 0.26}px)`,
                   } as CSSProperties}
                 />
 
@@ -148,7 +149,7 @@ export default function HeroSection({ searchQuery = '', onSearchChange }: HeroSe
                 {/* Dynamic gradient halo on the AI-node dot */}
                 <div className="catai-dot-glow" />
 
-                <div className="absolute left-1/2 z-10 -translate-x-1/2 -translate-y-1/2 flex items-center justify-center" style={{ top: 'calc(50% + var(--catai-hub-dy))' }}>
+                <div className="absolute left-1/2 z-10 -translate-x-1/2 -translate-y-1/2 flex items-center justify-center" style={{ top: 'calc(50% + var(--catai-hub-dy))', rotate: '10deg' }}>
                   <div className="catai-logo-halo" />
                   <LogoIcon size={178} tone="vivid" static className="relative drop-shadow-2xl" />
                 </div>
@@ -172,6 +173,7 @@ export default function HeroSection({ searchQuery = '', onSearchChange }: HeroSe
                     style={{
                       '--orbit-r': `${radius}px`,
                       '--orbit-dur': `${duration}s`,
+                      '--orbit-delay': `${delay}s`,
                       animationDelay: `${delay}s`,
                     } as CSSProperties}
                   >

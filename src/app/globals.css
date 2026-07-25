@@ -128,8 +128,8 @@ html {
 }
 
 @keyframes catai-orbit {
-  from { transform: translateY(var(--catai-dot-dy)) scaleY(var(--catai-tilt)) rotate(0deg)   translateX(var(--orbit-r, 150px)) rotate(0deg); }
-  to   { transform: translateY(var(--catai-dot-dy)) scaleY(var(--catai-tilt)) rotate(360deg) translateX(var(--orbit-r, 150px)) rotate(-360deg); }
+  from { transform: translateY(calc(var(--catai-dot-dy) + (var(--orbit-r) - 80px) * var(--catai-persp))) scaleY(var(--catai-tilt)) rotate(0deg)   translateX(var(--orbit-r, 150px)) rotate(0deg); }
+  to   { transform: translateY(calc(var(--catai-dot-dy) + (var(--orbit-r) - 80px) * var(--catai-persp))) scaleY(var(--catai-tilt)) rotate(360deg) translateX(var(--orbit-r, 150px)) rotate(-360deg); }
 }
 .catai-planet {
   position: absolute;
@@ -147,34 +147,58 @@ html {
   0%  { z-index: 30; }
   50% { z-index: 0; }
 }
-/* Counter the disk squash so the planet icon stays perfectly round + upright. */
-.catai-planet-face { transform: scaleY(calc(1 / var(--catai-tilt))); }
+/* Counter the disk squash so the planet icon stays perfectly round + upright.
+   Also carries the perspective-size animation (near=bigger, far=smaller)
+   on this child so it does NOT scale the orbit translateX distance. */
+@keyframes catai-spin { to { transform: rotateY(360deg); } }
+.catai-planet-face {
+  transform: scaleY(calc(1 / var(--catai-tilt)));
+  animation: catai-planet-scale var(--orbit-dur, 28s) linear infinite;
+  animation-delay: var(--orbit-delay, 0s);
+}
+/* Perspective size: planets appear larger when near (bottom of orbit) and smaller when far (top). */
+@keyframes catai-planet-scale {
+  0%   { scale: 1; }
+  25%  { scale: 1.08; }
+  50%  { scale: 1; }
+  75%  { scale: 0.92; }
+  100% { scale: 1; }
+}
+/* Self-rotation applies only to the icon INSIDE the planet (not the face itself)
+   so the scaleY counter-squash stays axis-aligned and the planet remains circular. */
+.catai-ai-planet svg {
+  position: relative;
+  filter: drop-shadow(0 0 8px currentColor);
+  animation: catai-spin 12s linear infinite;
+  backface-visibility: visible;
+}
 
 /* Each planet's own faint orbit path, flattened into the same disk plane.
-   All rings share the same center: the AI-node dot on the A. */
+   All rings share the same center: the AI-node dot on the A.
+   Outer rings fade and blur to simulate depth-of-field via --ring-depth (0~1). */
 .catai-orbit-ring {
   position: absolute;
   left: 50%;
   transform: translate(-50%, -50%) scaleY(var(--catai-tilt));
   border-radius: 9999px;
-  border: 1px solid rgba(148, 163, 184, 0.22);
+  border: 0.5px solid rgba(148, 163, 184, 0.18);
+  box-shadow: 0 0 2px rgba(103, 232, 249, 0.08);
   z-index: 5;
+  opacity: calc(1 - var(--ring-depth, 0) * 0.4);
+  filter: blur(calc(var(--ring-depth, 0) * 0.8px));
 }
 /* Front half of innermost ring sits ABOVE the A logo (z-10) for depth layering. */
 .catai-ring-front {
   position: absolute;
   left: 50%;
   border-radius: 9999px;
-  border: 1px solid rgba(148, 163, 184, 0.30);
+  border: 0.5px solid rgba(148, 163, 184, 0.25);
   transform: translate(-50%, -50%) scaleY(var(--catai-tilt));
   z-index: 15;
   clip-path: inset(50% 0 0 0);
   pointer-events: none;
-  background:
-    radial-gradient(closest-side, transparent 97%, rgba(103, 232, 249, 0.10) 98%, transparent 100%);
   box-shadow:
-    0 0 18px rgba(59, 130, 246, 0.10),
-    inset 0 0 18px rgba(99, 102, 241, 0.08);
+    0 0 3px rgba(103, 232, 249, 0.10);
 }
 /* Back half of innermost ring — only top arc visible, sits BEHIND the A logo. */
 .catai-ring-back {
@@ -212,7 +236,10 @@ html {
 
 /* Slow cinematic camera push toward the center. */
 @keyframes catai-zoom { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.03); } }
-.catai-galaxy { animation: catai-zoom 14s ease-in-out infinite; }
+.catai-galaxy {
+  rotate: -10deg;
+  animation: catai-zoom 14s ease-in-out infinite;
+}
 
 /* Hero starfield twinkle (scattered across the whole banner). */
 @keyframes catai-twinkle { 0%, 100% { opacity: 0.45; } 50% { opacity: 0.85; } }
@@ -242,7 +269,7 @@ html {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .catai-planet, .catai-stars, .catai-wave, .catai-core, .catai-galaxy, .catai-dot-glow { animation: none; }
+  .catai-planet, .catai-stars, .catai-wave, .catai-core, .catai-galaxy, .catai-dot-glow, .catai-ai-planet svg, .catai-ai-planet::before, .catai-ai-planet::after { animation: none; }
 }
 
 /* Code block styles — dark theme for both light and dark mode */
@@ -379,31 +406,62 @@ html {
   align-items: center;
   justify-content: center;
   border-radius: 9999px;
-  border: 1px solid rgba(255, 255, 255, 0.22);
+  border: 1px solid rgba(255, 255, 255, 0.28);
   color: rgba(224, 242, 254, 0.94);
   background:
-    radial-gradient(circle at 32% 24%, rgba(255, 255, 255, 0.30), transparent 24%),
-    linear-gradient(135deg, rgba(99, 102, 241, 0.24), rgba(14, 165, 233, 0.18));
+    radial-gradient(ellipse at 50% 100%, rgba(200, 220, 255, 0.10), transparent 50%),
+    linear-gradient(160deg, rgba(99, 102, 241, 0.22), rgba(14, 165, 233, 0.16));
   box-shadow:
-    0 16px 34px rgba(2, 6, 23, 0.30),
-    0 0 22px rgba(99, 102, 241, 0.30),
-    inset 0 1px 16px rgba(255, 255, 255, 0.12);
+    0 16px 34px rgba(2, 6, 23, 0.28),
+    0 0 20px rgba(99, 102, 241, 0.25),
+    inset 0 -8px 16px rgba(0, 0, 0, 0.20);
   backdrop-filter: blur(10px);
+  perspective: 120px;
 }
 
+/* Glass sphere inner specular — rotates to always face the center dot (light source). */
 .catai-ai-planet::before {
   content: "";
   position: absolute;
-  inset: -7px;
+  inset: 2px;
   border-radius: inherit;
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  background: radial-gradient(circle, rgba(255, 255, 255, 0.12), transparent 66%);
-  opacity: 0.88;
+  background:
+    radial-gradient(circle at 50% 12%, rgba(255, 255, 255, 0.55), transparent 30%),
+    radial-gradient(circle at 50% 50%, transparent 58%, rgba(0, 0, 0, 0.15) 100%);
+  pointer-events: none;
+  animation: catai-light-track var(--orbit-dur, 28s) linear infinite;
+  animation-delay: var(--orbit-delay, 0s);
 }
 
-.catai-ai-planet svg {
-  position: relative;
-  filter: drop-shadow(0 0 8px currentColor);
+/* Dynamic light halo — rotates to track the center dot (light source).
+   Uses --orbit-dur and --orbit-delay so it stays synced with the orbital motion.
+   Keyframes are pre-computed for the elliptical orbit (scaleY 0.4) using:
+   angle = atan2(-cosθ, sinθ × tilt) to correctly follow the perspective-squashed path. */
+@keyframes catai-light-track {
+  0%      { transform: rotate(-90deg); }
+  8.33%   { transform: rotate(-77deg); }
+  16.67%  { transform: rotate(-55.3deg); }
+  25%     { transform: rotate(0deg); }
+  33.33%  { transform: rotate(55.3deg); }
+  41.67%  { transform: rotate(77deg); }
+  50%     { transform: rotate(90deg); }
+  58.33%  { transform: rotate(103deg); }
+  66.67%  { transform: rotate(124.7deg); }
+  75%     { transform: rotate(180deg); }
+  83.33%  { transform: rotate(235.3deg); }
+  91.67%  { transform: rotate(257deg); }
+  100%    { transform: rotate(270deg); }
+}
+.catai-ai-planet::after {
+  content: "";
+  position: absolute;
+  inset: -12px;
+  border-radius: inherit;
+  background: radial-gradient(circle at 50% -15%, rgba(103, 232, 249, 0.55), transparent 48%);
+  animation: catai-light-track var(--orbit-dur, 28s) linear infinite;
+  animation-delay: var(--orbit-delay, 0s);
+  pointer-events: none;
+  opacity: 0.8;
 }
 
 .catai-ai-planet-indigo { background-color: rgba(99, 102, 241, 0.28); box-shadow: 0 0 26px rgba(99, 102, 241, 0.38), inset 0 1px 16px rgba(255, 255, 255, 0.12); }
