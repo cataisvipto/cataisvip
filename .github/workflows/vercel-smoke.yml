@@ -33,10 +33,20 @@ jobs:
         id: url
         run: |
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-            echo "url=${{ inputs.preview_url }}" >> $GITHUB_OUTPUT
+            TARGET="${{ inputs.preview_url }}"
           else
-            echo "url=${{ github.event.deployment_status.target_url }}" >> $GITHUB_OUTPUT
+            TARGET="${{ github.event.deployment_status.target_url }}"
           fi
+          # 如果 target_url 为空或为自定义域名，回退到 .vercel.app 域名
+          if [ -z "$TARGET" ] || echo "$TARGET" | grep -qv 'vercel.app'; then
+            TARGET="https://cataisvip.vercel.app"
+          fi
+          echo "url=$TARGET" >> $GITHUB_OUTPUT
+          echo "测试目标: $TARGET"
+
+      # 等待部署传播到 CDN
+      - name: 等待 CDN 传播
+        run: sleep 10
 
       - name: 运行冒烟测试
         run: node scripts/smoke-test.mjs --base-url="${{ steps.url.outputs.url }}" --timeout=30000
