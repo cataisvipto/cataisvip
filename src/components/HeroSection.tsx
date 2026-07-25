@@ -22,13 +22,14 @@ const PARTICLES = [
   { radius: 228, duration: 17, delay: -2 },
 ];
 
+// Golden-angle (137.5°) initial distribution to avoid clustering
 const PLANETS = [
-  { radius: 80, duration: 18, delay: -2, className: 'catai-ai-planet-indigo', Icon: Brain },
-  { radius: 104, duration: 26, delay: -8, className: 'catai-ai-planet-blue', Icon: Boxes },
-  { radius: 135, duration: 35, delay: -16, className: 'catai-ai-planet-purple', Icon: Bot },
-  { radius: 176, duration: 46, delay: -24, className: 'catai-ai-planet-cyan', Icon: Wrench },
-  { radius: 228, duration: 58, delay: -32, className: 'catai-ai-planet-violet', Icon: Sparkles },
-  { radius: 258, duration: 72, delay: -40, className: 'catai-ai-planet-sky', Icon: Newspaper },
+  { radius: 80, duration: 18, delay: 0, className: 'catai-ai-planet-indigo', Icon: Brain },       // 0°
+  { radius: 104, duration: 26, delay: -9.9, className: 'catai-ai-planet-blue', Icon: Boxes },     // 137.5°
+  { radius: 135, duration: 35, delay: -26.7, className: 'catai-ai-planet-purple', Icon: Bot },    // 275°
+  { radius: 176, duration: 46, delay: -6.7, className: 'catai-ai-planet-cyan', Icon: Wrench },    // 52.5°
+  { radius: 228, duration: 58, delay: -30.6, className: 'catai-ai-planet-violet', Icon: Sparkles }, // 190°
+  { radius: 258, duration: 72, delay: -65.4, className: 'catai-ai-planet-sky', Icon: Newspaper },  // 327.5°
 ];
 
 export default function HeroSection({ searchQuery = '', onSearchChange }: HeroSectionProps) {
