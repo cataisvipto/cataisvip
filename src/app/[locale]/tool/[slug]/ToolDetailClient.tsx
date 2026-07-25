@@ -9,7 +9,7 @@ import { Tool, getLocalizedDescription } from '@/components/ToolCard';
 import toolDetails from '@/data/toolDetails.json';
 import tools from '@/data/tools.json';
 import blogPosts from '@/data/blogPosts.json';
-import { ExternalLink, Globe, Star, Building2, CheckCircle, XCircle, Lightbulb, DollarSign, Zap, Info, Share2, Link2, Check, Newspaper, BookOpen, Clipboard, LayoutGrid } from 'lucide-react';
+import { ExternalLink, Globe, Star, Building2, CheckCircle, XCircle, Lightbulb, DollarSign, Zap, Info, Share2, Link2, Check, Newspaper, BookOpen, Clipboard, LayoutGrid, Award } from 'lucide-react';
 import { TwitterIcon, LinkedinIcon, FacebookIcon } from '@/components/SocialIcons';
 import Newsletter from '@/components/Newsletter';
 import LogoTile from '@/components/LogoTile';
@@ -273,6 +273,107 @@ export default function ToolDetailClient({ tool, locale }: ToolDetailClientProps
           {/* Rich Details (if available) */}
           {details && (
             <>
+              {/* Our Verdict */}
+              {details.verdict && (details.verdict as any).badge && (
+                <section aria-labelledby="our-verdict-title" className="bg-[var(--card-bg)] rounded-2xl border border-[var(--card-border)] overflow-hidden shadow-sm">
+                  {/* Header with badge */}
+                  <div className="px-8 pt-8 pb-0">
+                    <div className="flex items-center gap-3 mb-4">
+                      <h2 id="our-verdict-title" className="text-lg font-semibold text-[var(--foreground)] flex items-center gap-2">
+                        <Award className="w-5 h-5 text-amber-500" />
+                        {t('ourVerdict')}
+                      </h2>
+                      <span className={`px-3 py-1 rounded-full text-xs font-semibold ${
+                        (details.verdict as any).badge === 'Highly Recommended' ? 'bg-emerald-100 text-emerald-700 dark:bg-emerald-900/30 dark:text-emerald-400' :
+                        (details.verdict as any).badge === 'Recommended' ? 'bg-blue-100 text-blue-700 dark:bg-blue-900/30 dark:text-blue-400' :
+                        (details.verdict as any).badge === 'Worth Trying' ? 'bg-amber-100 text-amber-700 dark:bg-amber-900/30 dark:text-amber-400' :
+                        (details.verdict as any).badge === 'For Specific Needs' ? 'bg-purple-100 text-purple-700 dark:bg-purple-900/30 dark:text-purple-400' :
+                        'bg-gray-100 text-gray-700 dark:bg-gray-800 dark:text-gray-400'
+                      }`}>
+                        {t(`verdict${(details.verdict as any).badge.replace(/\s+/g, '')}` as any)}
+                      </span>
+                    </div>
+                    {/* Headline */}
+                    <p className="text-base font-medium text-[var(--foreground)] mb-4 leading-relaxed">
+                      {getLocalized((details.verdict as any).headline, locale) as string}
+                    </p>
+                  </div>
+
+                  {/* Body */}
+                  <div className="px-8 pb-6">
+                    {((getLocalized((details.verdict as any).body, locale) as string) || '').split('\n\n').map((paragraph: string, i: number) => (
+                      <p key={i} className="text-[var(--muted)] leading-relaxed text-sm mb-4 last:mb-0">
+                        {paragraph}
+                      </p>
+                    ))}
+                  </div>
+
+                  {/* Best for + Consider alternatives */}
+                  {((details.verdict as any).bestFor || (details.verdict as any).considerAlternatives) && (
+                    <div className="px-8 pb-6 grid grid-cols-1 md:grid-cols-2 gap-6">
+                      {(details.verdict as any).bestFor && (
+                        <div>
+                          <h3 className="text-sm font-semibold text-[var(--foreground)] mb-3 flex items-center gap-1.5">
+                            <CheckCircle className="w-4 h-4 text-emerald-500" />
+                            {t('bestFor')}
+                          </h3>
+                          <ul className="space-y-2">
+                            {(getLocalized((details.verdict as any).bestFor, locale) as string[]).map((item: string, i: number) => (
+                              <li key={i} className="text-sm text-[var(--muted)] flex items-start gap-2">
+                                <span className="text-emerald-500 mt-1">•</span>
+                                {item}
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+                      )}
+                      {(details.verdict as any).considerAlternatives && (
+                        <div>
+                          <h3 className="text-sm font-semibold text-[var(--foreground)] mb-3 flex items-center gap-1.5">
+                            <XCircle className="w-4 h-4 text-amber-500" />
+                            {t('considerAlternativesIf')}
+                          </h3>
+                          <ul className="space-y-2">
+                            {(getLocalized((details.verdict as any).considerAlternatives, locale) as string[]).map((item: string, i: number) => (
+                              <li key={i} className="text-sm text-[var(--muted)] flex items-start gap-2">
+                                <span className="text-amber-500 mt-1">•</span>
+                                {item}
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+                      )}
+                    </div>
+                  )}
+
+                  {/* CTA */}
+                  <div className="px-8 pb-8">
+                    <a
+                      href={tool.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 px-6 py-2.5 bg-gradient-to-r from-indigo-500 to-cyan-500 text-white font-medium rounded-full hover:opacity-90 transition text-sm shadow-sm"
+                    >
+                      {t('tryTool', { tool: displayName })}
+                      <ExternalLink className="w-3.5 h-3.5" />
+                    </a>
+                  </div>
+                </section>
+              )}
+
+              {/* Fallback: simple verdict for tools with old structure */}
+              {details.verdict && !(details.verdict as any).badge && (details.verdict as any).summary && (
+                <div className="bg-[var(--card-bg)] rounded-2xl border border-[var(--card-border)] p-8 shadow-sm">
+                  <h2 className="text-lg font-semibold text-[var(--foreground)] mb-4 flex items-center gap-2">
+                    <Award className="w-5 h-5 text-amber-500" />
+                    {t('ourVerdict')}
+                  </h2>
+                  <p className="text-[var(--muted)] leading-relaxed text-base">
+                    {getLocalized((details.verdict as any).summary, locale) as string}
+                  </p>
+                </div>
+              )}
+
               {/* Features */}
               <div className="bg-[var(--card-bg)] rounded-2xl border border-[var(--card-border)] p-8 shadow-sm">
                 <h2 className="text-lg font-semibold text-[var(--foreground)] mb-4 flex items-center gap-2">

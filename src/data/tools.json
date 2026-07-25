@@ -121,20 +121,20 @@
   },
   {
     "slug": "wenxin",
-    "name": "ERNIE Bot",
-    "nameZh": "文心一言",
-    "description": "百度推出的 AI 对话助手，基于文心大模型，擅长中文理解和生成",
-    "descriptionEn": "Baidu's AI chatbot based on ERNIE LLM, excels at Chinese language understanding",
-    "descriptionJa": "BaiduのAIチャットボット。ERNIEモデル搭載、中国語の理解に特化",
-    "descriptionEs": "Chatbot de IA de Baidu basado en ERNIE LLM, destaca en comprensión del chino",
-    "descriptionFr": "Chatbot IA de Baidu basé sur ERNIE LLM, excelle dans la compréhension du chinois",
-    "url": "https://yiyan.baidu.com",
+    "name": "Baidu Wenxin",
+    "nameZh": "百度文心助手",
+    "description": "百度推出的 AI 智能助手，基于文心大模型，集对话、搜索、创作于一体",
+    "descriptionEn": "Baidu's AI assistant powered by ERNIE LLM, integrating chat, search, and creation",
+    "descriptionJa": "BaiduのAIアシスタント。ERNIEモデル搭載、対話・検索・創作を統合",
+    "descriptionEs": "Asistente de IA de Baidu basado en ERNIE LLM, integra chat, búsqueda y creación",
+    "descriptionFr": "Assistant IA de Baidu basé sur ERNIE LLM, intégrant chat, recherche et création",
+    "url": "https://wenxin.baidu.com",
     "logo": "/logos/tools/wenxin.png",
     "category": "Chat",
     "tags": [
       "Free"
     ],
-    "featured": true,
+    "featured": false,
     "developer": "Baidu",
     "developerZh": "百度"
   },
@@ -514,7 +514,7 @@
       "Free",
       "Open Source"
     ],
-    "featured": true,
+    "featured": false,
     "developer": "Significant Gravitas"
   },
   {
@@ -587,7 +587,7 @@
     "tags": [
       "Freemium"
     ],
-    "featured": true,
+    "featured": false,
     "developer": "Canva"
   },
   {
@@ -717,7 +717,7 @@
       "Free",
       "Open Source"
     ],
-    "featured": true,
+    "featured": false,
     "developer": "Meta"
   },
   {
@@ -736,7 +736,7 @@
       "Free",
       "Open Source"
     ],
-    "featured": true,
+    "featured": false,
     "platforms": [
       "telegram",
       "discord",
@@ -761,7 +761,7 @@
     "tags": [
       "Freemium"
     ],
-    "featured": true,
+    "featured": false,
     "developer": "ByteDance",
     "developerZh": "字节跳动"
   },
@@ -780,7 +780,7 @@
     "tags": [
       "Freemium"
     ],
-    "featured": true,
+    "featured": false,
     "developer": "Kuaishou",
     "developerZh": "快手"
   },
@@ -894,7 +894,7 @@
       "Freemium",
       "API"
     ],
-    "featured": true,
+    "featured": false,
     "developer": "HeyGen"
   },
   {
@@ -1005,7 +1005,7 @@
     "tags": [
       "Freemium"
     ],
-    "featured": true,
+    "featured": false,
     "developer": "Figma"
   },
   {
@@ -1024,7 +1024,7 @@
       "Free",
       "API"
     ],
-    "featured": true,
+    "featured": false,
     "developer": "iFlytek",
     "developerZh": "科大讯飞"
   },
@@ -1065,7 +1065,7 @@
       "Open Source",
       "API"
     ],
-    "featured": true,
+    "featured": false,
     "developer": "01.AI",
     "developerZh": "零一万物"
   },
@@ -1086,7 +1086,7 @@
       "Open Source",
       "API"
     ],
-    "featured": true,
+    "featured": false,
     "developer": "Baichuan AI",
     "developerZh": "百川智能"
   },
@@ -1186,7 +1186,7 @@
       "Open Source",
       "API"
     ],
-    "featured": true,
+    "featured": false,
     "developer": "Microsoft"
   },
   {
@@ -1280,7 +1280,7 @@
     "tags": [
       "API"
     ],
-    "featured": true,
+    "featured": false,
     "developer": "Google DeepMind"
   },
   {
@@ -1337,7 +1337,7 @@
     "tags": [
       "Freemium"
     ],
-    "featured": true,
+    "featured": false,
     "developer": "Udio"
   },
   {
@@ -1656,7 +1656,7 @@
     "tags": [
       "Freemium"
     ],
-    "featured": true,
+    "featured": false,
     "developer": "Moonshot AI",
     "developerZh": "月之暗面"
   },
@@ -1675,7 +1675,7 @@
     "tags": [
       "Freemium"
     ],
-    "featured": true,
+    "featured": false,
     "developer": "Moonshot AI",
     "developerZh": "月之暗面"
   },
@@ -1694,7 +1694,7 @@
     "tags": [
       "Freemium"
     ],
-    "featured": true,
+    "featured": false,
     "developer": "ByteDance",
     "developerZh": "字节跳动"
   },
@@ -1713,7 +1713,7 @@
     "tags": [
       "Free"
     ],
-    "featured": true,
+    "featured": false,
     "developer": "ByteDance",
     "developerZh": "字节跳动"
   },
@@ -1732,7 +1732,7 @@
     "tags": [
       "Freemium"
     ],
-    "featured": true,
+    "featured": false,
     "developer": "Zhipu AI",
     "developerZh": "智谱 AI"
   },
@@ -1751,7 +1751,7 @@
     "tags": [
       "Freemium"
     ],
-    "featured": true,
+    "featured": false,
     "developer": "Zhipu AI",
     "developerZh": "智谱 AI"
   },
@@ -1770,7 +1770,7 @@
     "tags": [
       "Free"
     ],
-    "featured": true,
+    "featured": false,
     "developer": "Tencent",
     "developerZh": "腾讯",
     "platforms": [
@@ -1795,7 +1795,7 @@
     "tags": [
       "Freemium"
     ],
-    "featured": true,
+    "featured": false,
     "developer": "Google",
     "developerZh": "谷歌"
   },
@@ -1815,7 +1815,7 @@
       "Free",
       "API"
     ],
-    "featured": true,
+    "featured": false,
     "developer": "SenseTime",
     "developerZh": "商汤科技"
   },
