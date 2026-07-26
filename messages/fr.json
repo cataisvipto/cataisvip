@@ -26,7 +26,8 @@
     "skills": "Skills",
     "blog": "Blog",
     "submit": "Soumettre une Ressource",
-    "searchPlaceholder": "Rechercher des ressources IA..."
+    "searchPlaceholder": "Rechercher des ressources IA...",
+    "about": "À propos"
   },
   "hero": {
     "title": "Trouvez l'IA adaptée à <hl>chaque</hl> tâche.",
@@ -304,5 +305,36 @@
     "viewOnGitHub": "Voir sur GitHub",
     "backToList": "Retour aux Skills",
     "notFound": "Skill Non Trouvée"
+  },
+  "about": {
+    "metaTitle": "À propos de Cataito — Annuaire indépendant d'outils IA",
+    "metaDescription": "Cataito est un portail indépendant et multilingue de l'écosystème IA. Découvrez qui nous sommes, comment nous sélectionnons et vérifions les outils IA, et comment nous contacter.",
+    "title": "À propos de Cataito",
+    "subtitle": "Un guide indépendant de l'écosystème IA",
+    "missionTitle": "Notre mission",
+    "missionText1": "De nouveaux outils IA sortent chaque semaine, et choisir le bon n'a jamais été aussi difficile. Cataito existe pour filtrer le bruit : nous sélectionnons, vérifions et expliquons les outils IA qui comptent vraiment, pour que vous décidiez en quelques minutes plutôt qu'en plusieurs heures.",
+    "missionText2": "Cataito est disponible en cinq langues — anglais, chinois, japonais, espagnol et français — car l'écosystème IA est mondial et la langue ne devrait jamais être un obstacle.",
+    "whatTitle": "Ce que nous proposons",
+    "whatText": "Cataito couvre actuellement {count} outils IA répartis en 11 catégories. Tout est consultable gratuitement, sans compte.",
+    "whatItems": [
+      "Un annuaire sélectif d'outils IA : chat, image, code, vidéo, audio, agents, plateformes développeurs et plus encore",
+      "Des fiches détaillées : fonctionnalités clés, tarifs, avantages et inconvénients, plateformes prises en charge et tutoriels pas à pas",
+      "Un Skill Marketplace pour les compétences d'agents IA, avec étoiles GitHub synchronisées en temps réel",
+      "Un blog couvrant l'actualité majeure de l'IA et des guides pratiques"
+    ],
+    "methodTitle": "Comment nous vérifions l'information",
+    "methodText": "L'exactitude prime sur l'exhaustivité. Voici les principes éditoriaux derrière chaque page :",
+    "methodItems": [
+      "Les faits comme les tarifs et les plateformes prises en charge sont vérifiés auprès de sources officielles : sites produits, documentation et notes de version",
+      "Si une information ne peut pas être confirmée par un canal officiel, nous la marquons comme inconnue et ne l'affichons pas, plutôt que de deviner",
+      "Les verdicts éditoriaux sont rédigés par des humains et clairement séparés des données factuelles — nous ne publions pas de notes inventées",
+      "Les produits abandonnés restent référencés avec une étiquette claire, pour ne pas perdre de temps sur des outils morts",
+      "Les fiches sont relues et mises à jour régulièrement au fil de l'évolution des produits"
+    ],
+    "independenceTitle": "Indépendance",
+    "independenceText": "Cataito est géré par une petite équipe éditoriale indépendante. Nous ne vendons pas d'emplacements et aucun éditeur ne peut payer pour influencer une fiche ou un verdict : l'inclusion est toujours une décision éditoriale.",
+    "contactTitle": "Nous contacter",
+    "contactText": "Une erreur repérée, un outil à recommander, ou simplement envie de dire bonjour ? Nous lisons chaque message.",
+    "contactSubmit": "Soumettre une ressource"
   }
 }

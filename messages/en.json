@@ -26,7 +26,8 @@
     "skills": "Skills",
     "blog": "Blog",
     "submit": "Submit Resource",
-    "searchPlaceholder": "Search AI resources..."
+    "searchPlaceholder": "Search AI resources...",
+    "about": "About"
   },
   "hero": {
     "title": "Find the right AI for <hl>every</hl> task.",
@@ -304,5 +305,36 @@
       "tutorial": "Tutorials",
       "analysis": "Analysis"
     }
+  },
+  "about": {
+    "metaTitle": "About Cataito — Independent AI Tools Directory",
+    "metaDescription": "Cataito is an independent, multilingual portal for the AI ecosystem. Learn who we are, how we curate and verify AI tools, and how to reach us.",
+    "title": "About Cataito",
+    "subtitle": "An independent guide to the AI ecosystem",
+    "missionTitle": "Our Mission",
+    "missionText1": "New AI tools launch every week, and picking the right one has never been harder. Cataito exists to cut through the noise: we curate, verify and explain the AI tools that actually matter, so you can decide in minutes instead of hours.",
+    "missionText2": "Cataito is available in five languages — English, Chinese, Japanese, Spanish and French — because the AI ecosystem is global and language should never be the barrier.",
+    "whatTitle": "What We Offer",
+    "whatText": "Cataito currently covers {count} AI tools across 11 categories. Everything is free to browse — no account required.",
+    "whatItems": [
+      "A curated AI tool directory spanning chat, image, code, video, audio, agents, developer platforms and more",
+      "In-depth tool pages with key features, pricing, pros & cons, supported platforms and step-by-step tutorials",
+      "A Skill Marketplace for AI agent skills with live GitHub star counts",
+      "A blog covering major AI industry news and hands-on guides"
+    ],
+    "methodTitle": "How We Verify Information",
+    "methodText": "Accuracy beats completeness. These are the editorial principles behind every page:",
+    "methodItems": [
+      "Facts such as pricing and platform support are checked against official sources — product websites, documentation and release notes",
+      "If something cannot be confirmed through an official channel, we mark it as unknown and hide it rather than guess",
+      "Editorial verdicts are written by humans and kept clearly separate from factual data — we do not publish made-up scores",
+      "Discontinued products stay listed with a clear label, so you never waste time on a dead tool",
+      "Listings are reviewed and updated regularly as products evolve"
+    ],
+    "independenceTitle": "Independence",
+    "independenceText": "Cataito is run by a small independent editorial team. We do not sell placements, and no vendor can pay to influence a listing or a verdict — inclusion is always an editorial decision.",
+    "contactTitle": "Get in Touch",
+    "contactText": "Found an error, want to recommend a tool, or just want to say hello? We read every message.",
+    "contactSubmit": "Submit a resource"
   }
 }

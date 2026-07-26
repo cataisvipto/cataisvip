@@ -1,6 +1,6 @@
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/navigation';
-import { Mail, Code2, Send, Newspaper } from 'lucide-react';
+import { Mail, Code2, Send, Newspaper, Info } from 'lucide-react';
 import LogoFull from './Logo/LogoFull';
 import { WORDMARK_GRADIENT_VIVID } from '@/lib/brandColors';
 
@@ -57,6 +57,12 @@ export default function Footer() {
                   {tNav('submit')}
                 </Link>
               </li>
+              <li>
+                <Link href="/about" className="flex items-center gap-2 text-sm text-[var(--muted)] hover:text-[var(--primary)] transition">
+                  <Info className="w-3.5 h-3.5" />
+                  {tNav('about')}
+                </Link>
+              </li>
             </ul>
           </div>
 
@@ -98,6 +104,9 @@ export default function Footer() {
         {/* Legal Links */}
         <div className="mt-10 pt-6 border-t border-[var(--card-border)] flex flex-col sm:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-6">
+            <Link href="/about" className="text-xs text-[var(--muted)] hover:text-[var(--primary)] transition">
+              {tNav('about')}
+            </Link>
             <Link href="/privacy" className="text-xs text-[var(--muted)] hover:text-[var(--primary)] transition">
               {t('privacy')}
             </Link>

@@ -26,7 +26,8 @@
     "skills": "技能",
     "blog": "博客",
     "submit": "提交资源",
-    "searchPlaceholder": "搜索 AI 资源..."
+    "searchPlaceholder": "搜索 AI 资源...",
+    "about": "关于我们"
   },
   "hero": {
     "title": "为<hl>每一项</hl>任务找到合适的 AI",
@@ -304,5 +305,36 @@
       "tutorial": "教程",
       "analysis": "分析"
     }
+  },
+  "about": {
+    "metaTitle": "关于 Cataito — 独立的 AI 工具导航",
+    "metaDescription": "Cataito 是一个独立的多语言 AI 生态门户。了解我们是谁、如何收录与核实 AI 工具，以及联系方式。",
+    "title": "关于 Cataito",
+    "subtitle": "独立的 AI 生态导航指南",
+    "missionTitle": "我们的使命",
+    "missionText1": "AI 工具每周都在涌现，选对工具却越来越难。Cataito 的存在就是为了帮你穿过噪音：我们收录、核实并讲清真正值得关注的 AI 工具，让你用几分钟而不是几小时做出选择。",
+    "missionText2": "Cataito 提供中、英、日、西、法五种语言——AI 生态是全球化的，语言不应成为障碍。",
+    "whatTitle": "我们提供什么",
+    "whatText": "Cataito 目前收录 {count} 款 AI 工具，覆盖 11 大分类，全部免费浏览、无需注册。",
+    "whatItems": [
+      "精选 AI 工具导航，覆盖对话、图像、代码、视频、音频、智能体、开发者平台等",
+      "深度工具详情页：核心功能、定价、优缺点、平台支持与分步教程",
+      "AI 智能体 Skill 市场，GitHub 星数实时同步",
+      "博客栏目，追踪 AI 行业重大新闻与实操指南"
+    ],
+    "methodTitle": "信息核实原则",
+    "methodText": "准确比齐全更重要。每个页面背后都遵循以下编辑原则：",
+    "methodItems": [
+      "定价、平台支持等事实信息一律对照官方来源核实——产品官网、文档与更新日志",
+      "无法通过官方渠道确认的信息，标记为未知并直接不展示，绝不猜测",
+      "编辑观点（Verdict）由人工撰写，与事实数据明确分离——我们不发布虚构评分",
+      "已停服的产品保留收录并明确标注，避免你在失效工具上浪费时间",
+      "收录内容随产品演进定期复核更新"
+    ],
+    "independenceTitle": "独立性",
+    "independenceText": "Cataito 由一支小型独立编辑团队运营。我们不出售收录位，任何厂商都无法付费影响收录或评价——是否收录始终是编辑决定。",
+    "contactTitle": "联系我们",
+    "contactText": "发现错误、想推荐工具，或只是想打个招呼？每一封来信我们都会阅读。",
+    "contactSubmit": "提交资源"
   }
 }
