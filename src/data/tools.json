@@ -39,7 +39,7 @@
     "descriptionJa": "Anthropic推出的AIアシスタント。長文理解と安全な対話に優れる",
     "descriptionEs": "Asistente de IA de Anthropic, destaca en comprensión de textos largos y conversación segura",
     "descriptionFr": "Assistant IA d'Anthropic, excelle dans la compréhension de longs contextes et la conversation sûre",
-    "url": "https://claude.ai",
+    "url": "https://claude.com",
     "logo": "/logos/tools/claude.png",
     "category": "Chat",
     "tags": [
@@ -276,7 +276,7 @@
     "descriptionJa": "Moonshot AIのアシスタント。超長文コンテキスト処理能力で注目",
     "descriptionEs": "Asistente de Moonshot AI conocido por su capacidad de procesamiento de contexto ultra-largo",
     "descriptionFr": "Assistant de Moonshot AI connu pour ses capacités de traitement de contexte ultra-long",
-    "url": "https://kimi.moonshot.cn",
+    "url": "https://www.kimi.com",
     "logo": "/logos/tools/kimi.png",
     "category": "Chat",
     "tags": [
@@ -509,7 +509,7 @@
     "descriptionJa": "Notion組み込みのAI写作アシスタント。要約、翻訳、コンテンツ生成をサポート",
     "descriptionEs": "Asistente de escritura IA integrado en Notion para resumir, traducir y generar contenido",
     "descriptionFr": "Assistant d'écriture IA intégré dans Notion pour résumer, traduire et générer du contenu",
-    "url": "https://www.notion.so/product/ai",
+    "url": "https://www.notion.com/product/ai",
     "logo": "/logos/tools/notion-ai.png",
     "category": "Writing",
     "tags": [
@@ -566,7 +566,7 @@
     "descriptionJa": "AI動画生成・編集ツール。テキストから動画生成、動画編集に対応",
     "descriptionEs": "Herramienta de generación y edición de video IA, soporta texto a video y edición de video",
     "descriptionFr": "Outil de génération et d'édition vidéo IA, supporte la génération texte-vers-vidéo et l'édition vidéo",
-    "url": "https://runwayml.com",
+    "url": "https://runway.com",
     "logo": "/logos/tools/runway.png",
     "category": "Video",
     "tags": [
@@ -711,7 +711,7 @@
     "descriptionJa": "AIフロントエンドコード生成ツール。自然言語の説明からReactコンポーネントを生成",
     "descriptionEs": "Generador de código frontend IA que crea componentes React desde lenguaje natural",
     "descriptionFr": "Générateur de code frontend IA qui crée des composants React à partir du langage naturel",
-    "url": "https://v0.dev",
+    "url": "https://v0.app",
     "logo": "/logos/tools/v0.png",
     "category": "Code",
     "tags": [
@@ -1189,14 +1189,14 @@
   },
   {
     "slug": "windsurf",
-    "name": "Windsurf",
-    "nameZh": "Windsurf",
-    "description": "Codeium 推出的新一代 AI 代码编辑器，Cascade 智能代理深度理解代码库，免费使用",
-    "descriptionEn": "Next-gen AI code editor by Codeium with Cascade agent that deeply understands your codebase, free to use",
-    "descriptionJa": "Codeiumによる次世代AIコードエディタ。Cascadeエージェントがコードベースを深く理解、無料利用可",
-    "descriptionEs": "Editor de código IA de nueva generación de Codeium con agente Cascade que comprende profundamente tu código, gratis",
-    "descriptionFr": "Éditeur de code IA nouvelle génération par Codeium avec l'agent Cascade qui comprend profondément votre code, gratuit",
-    "url": "https://windsurf.com",
+    "name": "Windsurf (Devin Desktop)",
+    "nameZh": "Windsurf（Devin Desktop）",
+    "description": "AI 代码编辑器（2026 年由 Cognition 更名为 Devin Desktop），Cascade 智能代理深度理解代码库",
+    "descriptionEn": "AI code editor (rebranded as Devin Desktop by Cognition in 2026) with Cascade agent that deeply understands your codebase",
+    "descriptionJa": "AIコードエディタ（2026年にCognitionによりDevin Desktopへ改名）。Cascadeエージェントがコードベースを深く理解",
+    "descriptionEs": "Editor de código IA (renombrado Devin Desktop por Cognition en 2026) con agente Cascade que comprende profundamente tu código",
+    "descriptionFr": "Éditeur de code IA (renommé Devin Desktop par Cognition en 2026) avec l'agent Cascade qui comprend profondément votre code",
+    "url": "https://devin.ai/desktop",
     "logo": "/logos/tools/windsurf.png",
     "category": "Code",
     "tags": [
@@ -1204,7 +1204,7 @@
       "API"
     ],
     "featured": true,
-    "developer": "Codeium",
+    "developer": "Cognition",
     "platforms": {
       "web": false,
       "windows": true,
@@ -1781,7 +1781,7 @@
     "descriptionJa": "Microsoftの小型高効率LLM。14Bパラメータでより大規模モデルに匹敵する性能、ローカルとクラウドで展開可能",
     "descriptionEs": "LLM pequeño pero potente de Microsoft, 14B parámetros con rendimiento que rivaliza con modelos mucho más grandes, desplegable localmente y en la nube",
     "descriptionFr": "LLM petit mais puissant de Microsoft, 14B paramètres avec des performances rivalisant avec des modèles beaucoup plus grands, déployable localement et dans le cloud",
-    "url": "https://azure.microsoft.com/en-us/products/phi-4",
+    "url": "https://azure.microsoft.com/en-us/products/phi",
     "logo": "/logos/tools/phi-4.png",
     "category": "Chat",
     "tags": [
@@ -1839,7 +1839,7 @@
     "descriptionJa": "XiaomiのAI LLM。MiMo端末モデルはスマートフォンで効率的に動作、AIアシスタントや様々なAIシーンをサポート",
     "descriptionEs": "LLM de IA de Xiaomi, el modelo en dispositivo MiMo funciona eficientemente en teléfonos, compatible con asistente IA y varios escenarios de IA",
     "descriptionFr": "LLM IA de Xiaomi, le modèle sur appareil MiMo fonctionne efficacement sur les smartphones, prenant en charge l'assistant IA et divers scénarios d'IA",
-    "url": "https://www.mi.com/ai",
+    "url": "https://mimo.xiaomi.com",
     "logo": "/logos/tools/xiaomi-mimo.png",
     "category": "Chat",
     "tags": [
@@ -1897,7 +1897,7 @@
     "descriptionJa": "Black Forest LabsのオープンソースAI画像生成モデル。画質が極めて高く、ローカル展開可能",
     "descriptionEs": "Modelo de generación de imágenes IA de código abierto de Black Forest Labs con calidad de imagen excepcional, compatible con despliegue local",
     "descriptionFr": "Modèle de génération d'images IA open-source de Black Forest Labs avec une qualité d'image exceptionnelle, déploiement local possible",
-    "url": "https://blackforestlabs.ai",
+    "url": "https://bfl.ai",
     "logo": "/logos/tools/flux-ai.png",
     "category": "Image",
     "tags": [
@@ -2042,7 +2042,7 @@
     "descriptionJa": "AnthropicのAIコーディングアシスタント。ターミナルで使用、コード生成、デバッグ、リファクタリングに対応",
     "descriptionEs": "Asistente de programación IA de Anthropic para terminal, compatible con generación de código, depuración y refactorización",
     "descriptionFr": "Assistant de codage IA d'Anthropic pour le terminal, prenant en charge la génération de code, le débogage et le refactoring",
-    "url": "https://claude.ai/code",
+    "url": "https://www.anthropic.com/claude-code",
     "logo": "/logos/tools/claude-code.png",
     "category": "Code",
     "tags": [
@@ -2272,7 +2272,7 @@
     "descriptionJa": "AIコーディングアシスタント。コード生成、デバッグ、プロジェクト管理をサポート",
     "descriptionEs": "Asistente de codificación IA que admite generación de código, depuración y gestión de proyectos",
     "descriptionFr": "Assistant de codage IA prenant en charge la génération de code, le débogage et la gestion de projet",
-    "url": "https://qoder.ai",
+    "url": "https://qoder.com",
     "logo": "/logos/tools/qoder.png",
     "category": "Code",
     "tags": [
