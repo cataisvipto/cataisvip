@@ -28,7 +28,25 @@
       "homeFeatured":        { "type": "boolean" },
       "developer":           { "type": "string", "minLength": 1 },
       "developerZh":         { "type": "string" },
-      "platforms":           { "type": "array", "items": { "type": "string" } }
+      "platforms": {
+        "type": "object",
+        "description": "Supported Platforms — true | false | 'unknown'（未证实，前端不显示）",
+        "required": ["web", "windows", "macos", "ios", "android", "linux", "browser_extension", "api"],
+        "additionalProperties": false,
+        "properties": {
+          "web":               { "$ref": "#/definitions/platformValue" },
+          "windows":           { "$ref": "#/definitions/platformValue" },
+          "macos":             { "$ref": "#/definitions/platformValue" },
+          "ios":               { "$ref": "#/definitions/platformValue" },
+          "android":           { "$ref": "#/definitions/platformValue" },
+          "linux":             { "$ref": "#/definitions/platformValue" },
+          "browser_extension": { "$ref": "#/definitions/platformValue" },
+          "api":               { "$ref": "#/definitions/platformValue" }
+        }
+      }
     }
+  },
+  "definitions": {
+    "platformValue": { "enum": [true, false, "unknown"] }
   }
 }

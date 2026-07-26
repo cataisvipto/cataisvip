@@ -17,7 +17,17 @@
       "API"
     ],
     "featured": true,
-    "developer": "OpenAI"
+    "developer": "OpenAI",
+    "platforms": {
+      "web": true,
+      "windows": true,
+      "macos": true,
+      "ios": true,
+      "android": true,
+      "linux": false,
+      "browser_extension": true,
+      "api": true
+    }
   },
   {
     "slug": "claude",
@@ -37,7 +47,17 @@
       "API"
     ],
     "featured": true,
-    "developer": "Anthropic"
+    "developer": "Anthropic",
+    "platforms": {
+      "web": true,
+      "windows": true,
+      "macos": true,
+      "ios": true,
+      "android": true,
+      "linux": false,
+      "browser_extension": true,
+      "api": true
+    }
   },
   {
     "slug": "gemini",
@@ -57,7 +77,17 @@
       "API"
     ],
     "featured": true,
-    "developer": "Google"
+    "developer": "Google",
+    "platforms": {
+      "web": true,
+      "windows": false,
+      "macos": true,
+      "ios": true,
+      "android": true,
+      "linux": false,
+      "browser_extension": false,
+      "api": true
+    }
   },
   {
     "slug": "grok",
@@ -76,7 +106,17 @@
       "API"
     ],
     "featured": true,
-    "developer": "xAI"
+    "developer": "xAI",
+    "platforms": {
+      "web": true,
+      "windows": "unknown",
+      "macos": true,
+      "ios": true,
+      "android": true,
+      "linux": false,
+      "browser_extension": false,
+      "api": true
+    }
   },
   {
     "slug": "deepseek",
@@ -97,7 +137,17 @@
     ],
     "featured": true,
     "developer": "DeepSeek",
-    "developerZh": "深度求索"
+    "developerZh": "深度求索",
+    "platforms": {
+      "web": true,
+      "windows": false,
+      "macos": false,
+      "ios": true,
+      "android": true,
+      "linux": false,
+      "browser_extension": false,
+      "api": true
+    }
   },
   {
     "slug": "qwen",
@@ -117,7 +167,17 @@
     ],
     "featured": true,
     "developer": "Alibaba Cloud",
-    "developerZh": "阿里云"
+    "developerZh": "阿里云",
+    "platforms": {
+      "web": true,
+      "windows": true,
+      "macos": true,
+      "ios": true,
+      "android": true,
+      "linux": false,
+      "browser_extension": "unknown",
+      "api": true
+    }
   },
   {
     "slug": "wenxin",
@@ -136,7 +196,17 @@
     ],
     "featured": false,
     "developer": "Baidu",
-    "developerZh": "百度"
+    "developerZh": "百度",
+    "platforms": {
+      "web": true,
+      "windows": true,
+      "macos": true,
+      "ios": true,
+      "android": true,
+      "linux": false,
+      "browser_extension": "unknown",
+      "api": true
+    }
   },
   {
     "slug": "doubao",
@@ -155,7 +225,17 @@
     ],
     "featured": true,
     "developer": "ByteDance",
-    "developerZh": "字节跳动"
+    "developerZh": "字节跳动",
+    "platforms": {
+      "web": true,
+      "windows": true,
+      "macos": true,
+      "ios": true,
+      "android": true,
+      "linux": false,
+      "browser_extension": true,
+      "api": true
+    }
   },
   {
     "slug": "zhipu",
@@ -175,7 +255,17 @@
     ],
     "featured": false,
     "developer": "Zhipu AI",
-    "developerZh": "智谱 AI"
+    "developerZh": "智谱 AI",
+    "platforms": {
+      "web": true,
+      "windows": true,
+      "macos": "unknown",
+      "ios": true,
+      "android": true,
+      "linux": false,
+      "browser_extension": "unknown",
+      "api": true
+    }
   },
   {
     "slug": "kimi",
@@ -194,7 +284,17 @@
     ],
     "featured": true,
     "developer": "Moonshot AI",
-    "developerZh": "月之暗面"
+    "developerZh": "月之暗面",
+    "platforms": {
+      "web": true,
+      "windows": true,
+      "macos": true,
+      "ios": true,
+      "android": true,
+      "linux": false,
+      "browser_extension": true,
+      "api": true
+    }
   },
   {
     "slug": "yuanbao",
@@ -213,7 +313,17 @@
     ],
     "featured": false,
     "developer": "Tencent",
-    "developerZh": "腾讯"
+    "developerZh": "腾讯",
+    "platforms": {
+      "web": true,
+      "windows": true,
+      "macos": true,
+      "ios": true,
+      "android": true,
+      "linux": false,
+      "browser_extension": "unknown",
+      "api": false
+    }
   },
   {
     "slug": "midjourney",
@@ -232,7 +342,17 @@
       "Paid"
     ],
     "featured": true,
-    "developer": "Midjourney"
+    "developer": "Midjourney",
+    "platforms": {
+      "web": true,
+      "windows": false,
+      "macos": false,
+      "ios": false,
+      "android": false,
+      "linux": false,
+      "browser_extension": false,
+      "api": false
+    }
   },
   {
     "slug": "dalle",
@@ -250,7 +370,17 @@
       "Freemium"
     ],
     "featured": false,
-    "developer": "OpenAI"
+    "developer": "OpenAI",
+    "platforms": {
+      "web": true,
+      "windows": true,
+      "macos": true,
+      "ios": true,
+      "android": true,
+      "linux": false,
+      "browser_extension": false,
+      "api": true
+    }
   },
   {
     "slug": "stable-diffusion",
@@ -269,7 +399,17 @@
       "Open Source"
     ],
     "featured": true,
-    "developer": "Stability AI"
+    "developer": "Stability AI",
+    "platforms": {
+      "web": true,
+      "windows": true,
+      "macos": true,
+      "ios": false,
+      "android": false,
+      "linux": true,
+      "browser_extension": false,
+      "api": true
+    }
   },
   {
     "slug": "github-copilot",
@@ -289,7 +429,17 @@
       "API"
     ],
     "featured": true,
-    "developer": "GitHub / Microsoft"
+    "developer": "GitHub / Microsoft",
+    "platforms": {
+      "web": true,
+      "windows": true,
+      "macos": true,
+      "ios": true,
+      "android": true,
+      "linux": true,
+      "browser_extension": false,
+      "api": false
+    }
   },
   {
     "slug": "cursor",
@@ -308,7 +458,17 @@
       "Freemium"
     ],
     "featured": true,
-    "developer": "Cursor"
+    "developer": "Cursor",
+    "platforms": {
+      "web": true,
+      "windows": true,
+      "macos": true,
+      "ios": false,
+      "android": false,
+      "linux": true,
+      "browser_extension": false,
+      "api": true
+    }
   },
   {
     "slug": "perplexity",
@@ -328,7 +488,17 @@
       "API"
     ],
     "featured": true,
-    "developer": "Perplexity AI"
+    "developer": "Perplexity AI",
+    "platforms": {
+      "web": true,
+      "windows": true,
+      "macos": true,
+      "ios": true,
+      "android": true,
+      "linux": false,
+      "browser_extension": true,
+      "api": true
+    }
   },
   {
     "slug": "notion-ai",
@@ -346,7 +516,17 @@
       "Paid"
     ],
     "featured": false,
-    "developer": "Notion"
+    "developer": "Notion",
+    "platforms": {
+      "web": true,
+      "windows": true,
+      "macos": true,
+      "ios": true,
+      "android": true,
+      "linux": false,
+      "browser_extension": true,
+      "api": false
+    }
   },
   {
     "slug": "jasper",
@@ -364,7 +544,17 @@
       "Paid"
     ],
     "featured": false,
-    "developer": "Jasper"
+    "developer": "Jasper",
+    "platforms": {
+      "web": true,
+      "windows": false,
+      "macos": false,
+      "ios": "unknown",
+      "android": "unknown",
+      "linux": false,
+      "browser_extension": true,
+      "api": true
+    }
   },
   {
     "slug": "runway",
@@ -383,7 +573,17 @@
       "Freemium"
     ],
     "featured": true,
-    "developer": "Runway"
+    "developer": "Runway",
+    "platforms": {
+      "web": true,
+      "windows": false,
+      "macos": false,
+      "ios": true,
+      "android": true,
+      "linux": false,
+      "browser_extension": false,
+      "api": true
+    }
   },
   {
     "slug": "elevenlabs",
@@ -403,7 +603,17 @@
       "API"
     ],
     "featured": true,
-    "developer": "ElevenLabs"
+    "developer": "ElevenLabs",
+    "platforms": {
+      "web": true,
+      "windows": false,
+      "macos": false,
+      "ios": true,
+      "android": true,
+      "linux": false,
+      "browser_extension": false,
+      "api": true
+    }
   },
   {
     "slug": "suno",
@@ -421,7 +631,17 @@
       "Freemium"
     ],
     "featured": false,
-    "developer": "Suno"
+    "developer": "Suno",
+    "platforms": {
+      "web": true,
+      "windows": false,
+      "macos": false,
+      "ios": true,
+      "android": true,
+      "linux": false,
+      "browser_extension": false,
+      "api": false
+    }
   },
   {
     "slug": "hugging-face",
@@ -441,7 +661,17 @@
       "Open Source"
     ],
     "featured": true,
-    "developer": "Hugging Face"
+    "developer": "Hugging Face",
+    "platforms": {
+      "web": true,
+      "windows": true,
+      "macos": true,
+      "ios": true,
+      "android": true,
+      "linux": true,
+      "browser_extension": false,
+      "api": true
+    }
   },
   {
     "slug": "langchain",
@@ -460,7 +690,17 @@
       "Open Source"
     ],
     "featured": true,
-    "developer": "LangChain"
+    "developer": "LangChain",
+    "platforms": {
+      "web": false,
+      "windows": true,
+      "macos": true,
+      "ios": false,
+      "android": false,
+      "linux": true,
+      "browser_extension": false,
+      "api": false
+    }
   },
   {
     "slug": "v0",
@@ -478,7 +718,17 @@
       "Freemium"
     ],
     "featured": false,
-    "developer": "Vercel"
+    "developer": "Vercel",
+    "platforms": {
+      "web": true,
+      "windows": false,
+      "macos": false,
+      "ios": true,
+      "android": false,
+      "linux": false,
+      "browser_extension": false,
+      "api": true
+    }
   },
   {
     "slug": "zapier-ai",
@@ -496,7 +746,17 @@
       "Freemium"
     ],
     "featured": false,
-    "developer": "Zapier"
+    "developer": "Zapier",
+    "platforms": {
+      "web": true,
+      "windows": false,
+      "macos": false,
+      "ios": false,
+      "android": false,
+      "linux": false,
+      "browser_extension": true,
+      "api": true
+    }
   },
   {
     "slug": "autogpt",
@@ -515,7 +775,17 @@
       "Open Source"
     ],
     "featured": false,
-    "developer": "Significant Gravitas"
+    "developer": "Significant Gravitas",
+    "platforms": {
+      "web": true,
+      "windows": false,
+      "macos": false,
+      "ios": false,
+      "android": false,
+      "linux": true,
+      "browser_extension": false,
+      "api": "unknown"
+    }
   },
   {
     "slug": "copy-ai",
@@ -533,7 +803,17 @@
       "Freemium"
     ],
     "featured": false,
-    "developer": "Copy.ai"
+    "developer": "Copy.ai",
+    "platforms": {
+      "web": true,
+      "windows": false,
+      "macos": false,
+      "ios": "unknown",
+      "android": "unknown",
+      "linux": false,
+      "browser_extension": "unknown",
+      "api": true
+    }
   },
   {
     "slug": "descript",
@@ -551,7 +831,17 @@
       "Freemium"
     ],
     "featured": false,
-    "developer": "Descript"
+    "developer": "Descript",
+    "platforms": {
+      "web": true,
+      "windows": true,
+      "macos": true,
+      "ios": "unknown",
+      "android": "unknown",
+      "linux": false,
+      "browser_extension": false,
+      "api": true
+    }
   },
   {
     "slug": "replit-ai",
@@ -569,7 +859,17 @@
       "Freemium"
     ],
     "featured": false,
-    "developer": "Replit"
+    "developer": "Replit",
+    "platforms": {
+      "web": true,
+      "windows": true,
+      "macos": true,
+      "ios": true,
+      "android": true,
+      "linux": true,
+      "browser_extension": false,
+      "api": "unknown"
+    }
   },
   {
     "slug": "canva-ai",
@@ -588,7 +888,17 @@
       "Freemium"
     ],
     "featured": false,
-    "developer": "Canva"
+    "developer": "Canva",
+    "platforms": {
+      "web": true,
+      "windows": true,
+      "macos": true,
+      "ios": true,
+      "android": true,
+      "linux": false,
+      "browser_extension": false,
+      "api": true
+    }
   },
   {
     "slug": "leonardo-ai",
@@ -606,7 +916,17 @@
       "Freemium"
     ],
     "featured": false,
-    "developer": "Leonardo AI"
+    "developer": "Leonardo AI",
+    "platforms": {
+      "web": true,
+      "windows": false,
+      "macos": false,
+      "ios": true,
+      "android": true,
+      "linux": false,
+      "browser_extension": false,
+      "api": true
+    }
   },
   {
     "slug": "pika",
@@ -624,7 +944,17 @@
       "Freemium"
     ],
     "featured": false,
-    "developer": "Pika"
+    "developer": "Pika",
+    "platforms": {
+      "web": true,
+      "windows": false,
+      "macos": false,
+      "ios": true,
+      "android": false,
+      "linux": false,
+      "browser_extension": false,
+      "api": "unknown"
+    }
   },
   {
     "slug": "deepl",
@@ -644,7 +974,17 @@
       "API"
     ],
     "featured": true,
-    "developer": "DeepL"
+    "developer": "DeepL",
+    "platforms": {
+      "web": true,
+      "windows": true,
+      "macos": true,
+      "ios": true,
+      "android": true,
+      "linux": false,
+      "browser_extension": true,
+      "api": true
+    }
   },
   {
     "slug": "tabnine",
@@ -662,7 +1002,17 @@
       "Freemium"
     ],
     "featured": false,
-    "developer": "Tabnine"
+    "developer": "Tabnine",
+    "platforms": {
+      "web": false,
+      "windows": true,
+      "macos": true,
+      "ios": false,
+      "android": false,
+      "linux": true,
+      "browser_extension": false,
+      "api": "unknown"
+    }
   },
   {
     "slug": "character-ai",
@@ -680,7 +1030,17 @@
       "Free"
     ],
     "featured": false,
-    "developer": "Character Technologies"
+    "developer": "Character Technologies",
+    "platforms": {
+      "web": true,
+      "windows": false,
+      "macos": false,
+      "ios": true,
+      "android": true,
+      "linux": false,
+      "browser_extension": false,
+      "api": false
+    }
   },
   {
     "slug": "whisper",
@@ -699,7 +1059,17 @@
       "Open Source"
     ],
     "featured": false,
-    "developer": "OpenAI"
+    "developer": "OpenAI",
+    "platforms": {
+      "web": false,
+      "windows": true,
+      "macos": true,
+      "ios": false,
+      "android": false,
+      "linux": true,
+      "browser_extension": false,
+      "api": true
+    }
   },
   {
     "slug": "llama",
@@ -718,7 +1088,17 @@
       "Open Source"
     ],
     "featured": false,
-    "developer": "Meta"
+    "developer": "Meta",
+    "platforms": {
+      "web": false,
+      "windows": true,
+      "macos": true,
+      "ios": false,
+      "android": false,
+      "linux": true,
+      "browser_extension": false,
+      "api": true
+    }
   },
   {
     "slug": "hermes-agent",
@@ -737,13 +1117,16 @@
       "Open Source"
     ],
     "featured": false,
-    "platforms": [
-      "telegram",
-      "discord",
-      "slack",
-      "whatsapp",
-      "cli"
-    ],
+    "platforms": {
+      "web": false,
+      "windows": true,
+      "macos": true,
+      "ios": false,
+      "android": false,
+      "linux": true,
+      "browser_extension": false,
+      "api": true
+    },
     "developer": "Nous Research"
   },
   {
@@ -763,7 +1146,17 @@
     ],
     "featured": false,
     "developer": "ByteDance",
-    "developerZh": "字节跳动"
+    "developerZh": "字节跳动",
+    "platforms": {
+      "web": true,
+      "windows": false,
+      "macos": false,
+      "ios": true,
+      "android": true,
+      "linux": false,
+      "browser_extension": false,
+      "api": true
+    }
   },
   {
     "slug": "kling-ai",
@@ -782,7 +1175,17 @@
     ],
     "featured": false,
     "developer": "Kuaishou",
-    "developerZh": "快手"
+    "developerZh": "快手",
+    "platforms": {
+      "web": true,
+      "windows": false,
+      "macos": false,
+      "ios": true,
+      "android": true,
+      "linux": false,
+      "browser_extension": false,
+      "api": true
+    }
   },
   {
     "slug": "windsurf",
@@ -801,7 +1204,17 @@
       "API"
     ],
     "featured": true,
-    "developer": "Codeium"
+    "developer": "Codeium",
+    "platforms": {
+      "web": false,
+      "windows": true,
+      "macos": true,
+      "ios": false,
+      "android": false,
+      "linux": true,
+      "browser_extension": false,
+      "api": false
+    }
   },
   {
     "slug": "sora",
@@ -819,7 +1232,17 @@
       "Discontinued"
     ],
     "featured": false,
-    "developer": "OpenAI"
+    "developer": "OpenAI",
+    "platforms": {
+      "web": true,
+      "windows": false,
+      "macos": false,
+      "ios": true,
+      "android": true,
+      "linux": false,
+      "browser_extension": false,
+      "api": true
+    }
   },
   {
     "slug": "mistral",
@@ -839,7 +1262,17 @@
       "API"
     ],
     "featured": true,
-    "developer": "Mistral AI"
+    "developer": "Mistral AI",
+    "platforms": {
+      "web": true,
+      "windows": "unknown",
+      "macos": false,
+      "ios": true,
+      "android": true,
+      "linux": false,
+      "browser_extension": false,
+      "api": true
+    }
   },
   {
     "slug": "ollama",
@@ -858,7 +1291,17 @@
       "Open Source"
     ],
     "featured": true,
-    "developer": "Ollama"
+    "developer": "Ollama",
+    "platforms": {
+      "web": false,
+      "windows": true,
+      "macos": true,
+      "ios": false,
+      "android": false,
+      "linux": true,
+      "browser_extension": false,
+      "api": true
+    }
   },
   {
     "slug": "bolt-new",
@@ -876,7 +1319,17 @@
       "Freemium"
     ],
     "featured": true,
-    "developer": "StackBlitz"
+    "developer": "StackBlitz",
+    "platforms": {
+      "web": true,
+      "windows": false,
+      "macos": false,
+      "ios": false,
+      "android": false,
+      "linux": false,
+      "browser_extension": false,
+      "api": "unknown"
+    }
   },
   {
     "slug": "heygen",
@@ -895,7 +1348,17 @@
       "API"
     ],
     "featured": false,
-    "developer": "HeyGen"
+    "developer": "HeyGen",
+    "platforms": {
+      "web": true,
+      "windows": false,
+      "macos": false,
+      "ios": true,
+      "android": true,
+      "linux": false,
+      "browser_extension": false,
+      "api": true
+    }
   },
   {
     "slug": "google-ai-studio",
@@ -914,7 +1377,17 @@
       "API"
     ],
     "featured": true,
-    "developer": "Google"
+    "developer": "Google",
+    "platforms": {
+      "web": true,
+      "windows": false,
+      "macos": false,
+      "ios": true,
+      "android": true,
+      "linux": false,
+      "browser_extension": false,
+      "api": true
+    }
   },
   {
     "slug": "cohere",
@@ -933,7 +1406,17 @@
       "API"
     ],
     "featured": false,
-    "developer": "Cohere"
+    "developer": "Cohere",
+    "platforms": {
+      "web": true,
+      "windows": false,
+      "macos": false,
+      "ios": false,
+      "android": false,
+      "linux": false,
+      "browser_extension": false,
+      "api": true
+    }
   },
   {
     "slug": "minimax",
@@ -952,7 +1435,17 @@
     ],
     "featured": false,
     "developer": "MiniMax",
-    "developerZh": "稀宇科技"
+    "developerZh": "稀宇科技",
+    "platforms": {
+      "web": true,
+      "windows": false,
+      "macos": false,
+      "ios": true,
+      "android": true,
+      "linux": false,
+      "browser_extension": false,
+      "api": true
+    }
   },
   {
     "slug": "ideogram",
@@ -970,7 +1463,17 @@
       "Freemium"
     ],
     "featured": false,
-    "developer": "Ideogram"
+    "developer": "Ideogram",
+    "platforms": {
+      "web": true,
+      "windows": false,
+      "macos": false,
+      "ios": true,
+      "android": false,
+      "linux": false,
+      "browser_extension": false,
+      "api": true
+    }
   },
   {
     "slug": "phind",
@@ -988,7 +1491,17 @@
       "Free"
     ],
     "featured": false,
-    "developer": "Phind"
+    "developer": "Phind",
+    "platforms": {
+      "web": true,
+      "windows": false,
+      "macos": false,
+      "ios": "unknown",
+      "android": "unknown",
+      "linux": false,
+      "browser_extension": false,
+      "api": false
+    }
   },
   {
     "slug": "figma-ai",
@@ -1006,7 +1519,17 @@
       "Freemium"
     ],
     "featured": false,
-    "developer": "Figma"
+    "developer": "Figma",
+    "platforms": {
+      "web": true,
+      "windows": true,
+      "macos": true,
+      "ios": true,
+      "android": true,
+      "linux": false,
+      "browser_extension": false,
+      "api": true
+    }
   },
   {
     "slug": "iflytek-spark",
@@ -1026,7 +1549,17 @@
     ],
     "featured": false,
     "developer": "iFlytek",
-    "developerZh": "科大讯飞"
+    "developerZh": "科大讯飞",
+    "platforms": {
+      "web": true,
+      "windows": true,
+      "macos": true,
+      "ios": true,
+      "android": true,
+      "linux": false,
+      "browser_extension": false,
+      "api": true
+    }
   },
   {
     "slug": "tiangong-ai",
@@ -1046,7 +1579,17 @@
     ],
     "featured": false,
     "developer": "Kunlun",
-    "developerZh": "昆仑万维"
+    "developerZh": "昆仑万维",
+    "platforms": {
+      "web": true,
+      "windows": "unknown",
+      "macos": "unknown",
+      "ios": true,
+      "android": true,
+      "linux": false,
+      "browser_extension": false,
+      "api": true
+    }
   },
   {
     "slug": "yi-lingyi",
@@ -1067,7 +1610,17 @@
     ],
     "featured": false,
     "developer": "01.AI",
-    "developerZh": "零一万物"
+    "developerZh": "零一万物",
+    "platforms": {
+      "web": "unknown",
+      "windows": false,
+      "macos": false,
+      "ios": "unknown",
+      "android": "unknown",
+      "linux": false,
+      "browser_extension": false,
+      "api": true
+    }
   },
   {
     "slug": "baichuan-ai",
@@ -1088,7 +1641,17 @@
     ],
     "featured": false,
     "developer": "Baichuan AI",
-    "developerZh": "百川智能"
+    "developerZh": "百川智能",
+    "platforms": {
+      "web": true,
+      "windows": false,
+      "macos": false,
+      "ios": true,
+      "android": true,
+      "linux": false,
+      "browser_extension": false,
+      "api": true
+    }
   },
   {
     "slug": "sensechat",
@@ -1108,7 +1671,17 @@
     ],
     "featured": false,
     "developer": "SenseTime",
-    "developerZh": "商汤科技"
+    "developerZh": "商汤科技",
+    "platforms": {
+      "web": true,
+      "windows": false,
+      "macos": false,
+      "ios": true,
+      "android": true,
+      "linux": false,
+      "browser_extension": false,
+      "api": true
+    }
   },
   {
     "slug": "stepfun",
@@ -1128,7 +1701,17 @@
     ],
     "featured": false,
     "developer": "StepFun",
-    "developerZh": "阶跃星辰"
+    "developerZh": "阶跃星辰",
+    "platforms": {
+      "web": true,
+      "windows": false,
+      "macos": false,
+      "ios": true,
+      "android": true,
+      "linux": false,
+      "browser_extension": "unknown",
+      "api": true
+    }
   },
   {
     "slug": "360-zhinao",
@@ -1147,7 +1730,17 @@
     ],
     "featured": false,
     "developer": "360",
-    "developerZh": "360"
+    "developerZh": "360",
+    "platforms": {
+      "web": true,
+      "windows": true,
+      "macos": "unknown",
+      "ios": true,
+      "android": true,
+      "linux": false,
+      "browser_extension": false,
+      "api": true
+    }
   },
   {
     "slug": "meta-ai",
@@ -1167,7 +1760,17 @@
       "API"
     ],
     "featured": true,
-    "developer": "Meta"
+    "developer": "Meta",
+    "platforms": {
+      "web": true,
+      "windows": false,
+      "macos": false,
+      "ios": true,
+      "android": true,
+      "linux": false,
+      "browser_extension": false,
+      "api": true
+    }
   },
   {
     "slug": "phi-4",
@@ -1187,7 +1790,17 @@
       "API"
     ],
     "featured": false,
-    "developer": "Microsoft"
+    "developer": "Microsoft",
+    "platforms": {
+      "web": true,
+      "windows": true,
+      "macos": true,
+      "ios": false,
+      "android": false,
+      "linux": true,
+      "browser_extension": false,
+      "api": true
+    }
   },
   {
     "slug": "amazon-nova",
@@ -1205,7 +1818,17 @@
       "API"
     ],
     "featured": false,
-    "developer": "Amazon Web Services"
+    "developer": "Amazon Web Services",
+    "platforms": {
+      "web": true,
+      "windows": false,
+      "macos": false,
+      "ios": false,
+      "android": false,
+      "linux": false,
+      "browser_extension": false,
+      "api": true
+    }
   },
   {
     "slug": "xiaomi-mimo",
@@ -1225,7 +1848,17 @@
     ],
     "featured": false,
     "developer": "Xiaomi",
-    "developerZh": "小米"
+    "developerZh": "小米",
+    "platforms": {
+      "web": true,
+      "windows": true,
+      "macos": true,
+      "ios": false,
+      "android": false,
+      "linux": true,
+      "browser_extension": false,
+      "api": true
+    }
   },
   {
     "slug": "adobe-firefly",
@@ -1243,7 +1876,17 @@
       "Freemium"
     ],
     "featured": true,
-    "developer": "Adobe"
+    "developer": "Adobe",
+    "platforms": {
+      "web": true,
+      "windows": false,
+      "macos": false,
+      "ios": true,
+      "android": true,
+      "linux": false,
+      "browser_extension": false,
+      "api": true
+    }
   },
   {
     "slug": "flux-ai",
@@ -1263,7 +1906,17 @@
       "API"
     ],
     "featured": true,
-    "developer": "Black Forest Labs"
+    "developer": "Black Forest Labs",
+    "platforms": {
+      "web": true,
+      "windows": true,
+      "macos": true,
+      "ios": false,
+      "android": false,
+      "linux": true,
+      "browser_extension": false,
+      "api": true
+    }
   },
   {
     "slug": "veo",
@@ -1281,7 +1934,17 @@
       "API"
     ],
     "featured": false,
-    "developer": "Google DeepMind"
+    "developer": "Google DeepMind",
+    "platforms": {
+      "web": true,
+      "windows": false,
+      "macos": false,
+      "ios": true,
+      "android": true,
+      "linux": false,
+      "browser_extension": false,
+      "api": true
+    }
   },
   {
     "slug": "luma-dream-machine",
@@ -1300,7 +1963,17 @@
       "API"
     ],
     "featured": false,
-    "developer": "Luma AI"
+    "developer": "Luma AI",
+    "platforms": {
+      "web": true,
+      "windows": false,
+      "macos": false,
+      "ios": true,
+      "android": false,
+      "linux": false,
+      "browser_extension": false,
+      "api": true
+    }
   },
   {
     "slug": "vidu",
@@ -1320,7 +1993,17 @@
     ],
     "featured": false,
     "developer": "Shengshu Technology",
-    "developerZh": "生数科技"
+    "developerZh": "生数科技",
+    "platforms": {
+      "web": true,
+      "windows": false,
+      "macos": false,
+      "ios": true,
+      "android": true,
+      "linux": false,
+      "browser_extension": false,
+      "api": true
+    }
   },
   {
     "slug": "udio",
@@ -1338,7 +2021,17 @@
       "Freemium"
     ],
     "featured": false,
-    "developer": "Udio"
+    "developer": "Udio",
+    "platforms": {
+      "web": true,
+      "windows": false,
+      "macos": false,
+      "ios": true,
+      "android": false,
+      "linux": false,
+      "browser_extension": false,
+      "api": false
+    }
   },
   {
     "slug": "claude-code",
@@ -1357,7 +2050,17 @@
       "API"
     ],
     "featured": true,
-    "developer": "Anthropic"
+    "developer": "Anthropic",
+    "platforms": {
+      "web": true,
+      "windows": true,
+      "macos": true,
+      "ios": true,
+      "android": "unknown",
+      "linux": true,
+      "browser_extension": false,
+      "api": true
+    }
   },
   {
     "slug": "lovable",
@@ -1375,7 +2078,17 @@
       "Freemium"
     ],
     "featured": true,
-    "developer": "Lovable"
+    "developer": "Lovable",
+    "platforms": {
+      "web": true,
+      "windows": false,
+      "macos": false,
+      "ios": true,
+      "android": true,
+      "linux": false,
+      "browser_extension": false,
+      "api": false
+    }
   },
   {
     "slug": "dify",
@@ -1395,7 +2108,17 @@
       "API"
     ],
     "featured": true,
-    "developer": "Dify"
+    "developer": "Dify",
+    "platforms": {
+      "web": true,
+      "windows": false,
+      "macos": false,
+      "ios": false,
+      "android": false,
+      "linux": false,
+      "browser_extension": false,
+      "api": true
+    }
   },
   {
     "slug": "coze",
@@ -1414,7 +2137,17 @@
     ],
     "featured": true,
     "developer": "ByteDance",
-    "developerZh": "字节跳动"
+    "developerZh": "字节跳动",
+    "platforms": {
+      "web": true,
+      "windows": "unknown",
+      "macos": "unknown",
+      "ios": "unknown",
+      "android": "unknown",
+      "linux": "unknown",
+      "browser_extension": "unknown",
+      "api": true
+    }
   },
   {
     "slug": "manus",
@@ -1432,7 +2165,17 @@
       "Freemium"
     ],
     "featured": true,
-    "developer": "Manus"
+    "developer": "Manus",
+    "platforms": {
+      "web": true,
+      "windows": true,
+      "macos": true,
+      "ios": true,
+      "android": true,
+      "linux": false,
+      "browser_extension": true,
+      "api": true
+    }
   },
   {
     "slug": "groq",
@@ -1451,7 +2194,17 @@
       "API"
     ],
     "featured": true,
-    "developer": "Groq"
+    "developer": "Groq",
+    "platforms": {
+      "web": true,
+      "windows": false,
+      "macos": false,
+      "ios": "unknown",
+      "android": "unknown",
+      "linux": false,
+      "browser_extension": false,
+      "api": true
+    }
   },
   {
     "slug": "openrouter",
@@ -1470,7 +2223,17 @@
       "API"
     ],
     "featured": false,
-    "developer": "OpenRouter"
+    "developer": "OpenRouter",
+    "platforms": {
+      "web": true,
+      "windows": false,
+      "macos": false,
+      "ios": false,
+      "android": false,
+      "linux": false,
+      "browser_extension": false,
+      "api": true
+    }
   },
   {
     "slug": "codex",
@@ -1488,7 +2251,17 @@
       "Paid"
     ],
     "featured": true,
-    "developer": "OpenAI"
+    "developer": "OpenAI",
+    "platforms": {
+      "web": true,
+      "windows": true,
+      "macos": true,
+      "ios": true,
+      "android": true,
+      "linux": true,
+      "browser_extension": false,
+      "api": true
+    }
   },
   {
     "slug": "qoder",
@@ -1506,7 +2279,17 @@
       "Freemium"
     ],
     "featured": true,
-    "developer": "Qoder"
+    "developer": "Qoder",
+    "platforms": {
+      "web": false,
+      "windows": true,
+      "macos": true,
+      "ios": false,
+      "android": false,
+      "linux": true,
+      "browser_extension": false,
+      "api": "unknown"
+    }
   },
   {
     "slug": "qodercn",
@@ -1524,7 +2307,17 @@
       "Freemium"
     ],
     "featured": true,
-    "developer": "Qoder"
+    "developer": "Qoder",
+    "platforms": {
+      "web": false,
+      "windows": true,
+      "macos": true,
+      "ios": false,
+      "android": false,
+      "linux": true,
+      "browser_extension": false,
+      "api": "unknown"
+    }
   },
   {
     "slug": "openclaw",
@@ -1543,7 +2336,17 @@
       "Open Source"
     ],
     "featured": false,
-    "developer": "OpenClaw Team"
+    "developer": "OpenClaw Team",
+    "platforms": {
+      "web": false,
+      "windows": true,
+      "macos": true,
+      "ios": true,
+      "android": true,
+      "linux": true,
+      "browser_extension": true,
+      "api": false
+    }
   },
   {
     "slug": "workbuddy",
@@ -1562,7 +2365,17 @@
     ],
     "featured": false,
     "developer": "Tencent Cloud",
-    "developerZh": "腾讯云"
+    "developerZh": "腾讯云",
+    "platforms": {
+      "web": false,
+      "windows": true,
+      "macos": true,
+      "ios": "unknown",
+      "android": "unknown",
+      "linux": "unknown",
+      "browser_extension": "unknown",
+      "api": "unknown"
+    }
   },
   {
     "slug": "workbuddy-cn",
@@ -1581,7 +2394,17 @@
     ],
     "featured": false,
     "developer": "腾讯云",
-    "developerZh": "腾讯云"
+    "developerZh": "腾讯云",
+    "platforms": {
+      "web": false,
+      "windows": true,
+      "macos": true,
+      "ios": "unknown",
+      "android": "unknown",
+      "linux": "unknown",
+      "browser_extension": "unknown",
+      "api": "unknown"
+    }
   },
   {
     "slug": "seedance",
@@ -1600,7 +2423,17 @@
     ],
     "featured": false,
     "developer": "ByteDance",
-    "developerZh": "字节跳动"
+    "developerZh": "字节跳动",
+    "platforms": {
+      "web": true,
+      "windows": false,
+      "macos": false,
+      "ios": false,
+      "android": false,
+      "linux": false,
+      "browser_extension": false,
+      "api": true
+    }
   },
   {
     "slug": "coze-cn",
@@ -1619,7 +2452,17 @@
     ],
     "featured": false,
     "developer": "ByteDance",
-    "developerZh": "字节跳动"
+    "developerZh": "字节跳动",
+    "platforms": {
+      "web": true,
+      "windows": true,
+      "macos": true,
+      "ios": true,
+      "android": true,
+      "linux": "unknown",
+      "browser_extension": "unknown",
+      "api": true
+    }
   },
   {
     "slug": "miora",
@@ -1639,7 +2482,17 @@
     ],
     "featured": false,
     "developer": "Tencent Design",
-    "developerZh": "腾讯设计"
+    "developerZh": "腾讯设计",
+    "platforms": {
+      "web": true,
+      "windows": "unknown",
+      "macos": "unknown",
+      "ios": "unknown",
+      "android": "unknown",
+      "linux": "unknown",
+      "browser_extension": "unknown",
+      "api": "unknown"
+    }
   },
   {
     "slug": "kimi-code",
@@ -1658,7 +2511,17 @@
     ],
     "featured": false,
     "developer": "Moonshot AI",
-    "developerZh": "月之暗面"
+    "developerZh": "月之暗面",
+    "platforms": {
+      "web": false,
+      "windows": true,
+      "macos": true,
+      "ios": false,
+      "android": false,
+      "linux": true,
+      "browser_extension": false,
+      "api": true
+    }
   },
   {
     "slug": "kimi-code-cn",
@@ -1677,7 +2540,17 @@
     ],
     "featured": false,
     "developer": "Moonshot AI",
-    "developerZh": "月之暗面"
+    "developerZh": "月之暗面",
+    "platforms": {
+      "web": false,
+      "windows": true,
+      "macos": true,
+      "ios": false,
+      "android": false,
+      "linux": true,
+      "browser_extension": false,
+      "api": true
+    }
   },
   {
     "slug": "trae",
@@ -1696,7 +2569,17 @@
     ],
     "featured": false,
     "developer": "ByteDance",
-    "developerZh": "字节跳动"
+    "developerZh": "字节跳动",
+    "platforms": {
+      "web": false,
+      "windows": true,
+      "macos": true,
+      "ios": false,
+      "android": false,
+      "linux": true,
+      "browser_extension": false,
+      "api": false
+    }
   },
   {
     "slug": "trae-cn",
@@ -1715,7 +2598,17 @@
     ],
     "featured": false,
     "developer": "ByteDance",
-    "developerZh": "字节跳动"
+    "developerZh": "字节跳动",
+    "platforms": {
+      "web": false,
+      "windows": true,
+      "macos": true,
+      "ios": false,
+      "android": false,
+      "linux": true,
+      "browser_extension": false,
+      "api": false
+    }
   },
   {
     "slug": "zcode",
@@ -1734,7 +2627,17 @@
     ],
     "featured": false,
     "developer": "Zhipu AI",
-    "developerZh": "智谱 AI"
+    "developerZh": "智谱 AI",
+    "platforms": {
+      "web": false,
+      "windows": true,
+      "macos": true,
+      "ios": false,
+      "android": false,
+      "linux": false,
+      "browser_extension": false,
+      "api": false
+    }
   },
   {
     "slug": "zcode-cn",
@@ -1753,7 +2656,17 @@
     ],
     "featured": false,
     "developer": "Zhipu AI",
-    "developerZh": "智谱 AI"
+    "developerZh": "智谱 AI",
+    "platforms": {
+      "web": false,
+      "windows": true,
+      "macos": true,
+      "ios": false,
+      "android": false,
+      "linux": false,
+      "browser_extension": false,
+      "api": false
+    }
   },
   {
     "slug": "marvis",
@@ -1773,12 +2686,16 @@
     "featured": false,
     "developer": "Tencent",
     "developerZh": "腾讯",
-    "platforms": [
-      "Windows",
-      "macOS",
-      "Android",
-      "iOS"
-    ]
+    "platforms": {
+      "web": false,
+      "windows": true,
+      "macos": true,
+      "ios": true,
+      "android": true,
+      "linux": false,
+      "browser_extension": "unknown",
+      "api": "unknown"
+    }
   },
   {
     "slug": "nano-banana",
@@ -1797,7 +2714,17 @@
     ],
     "featured": false,
     "developer": "Google",
-    "developerZh": "谷歌"
+    "developerZh": "谷歌",
+    "platforms": {
+      "web": true,
+      "windows": false,
+      "macos": false,
+      "ios": true,
+      "android": true,
+      "linux": false,
+      "browser_extension": false,
+      "api": true
+    }
   },
   {
     "slug": "sensenova",
@@ -1817,7 +2744,17 @@
     ],
     "featured": false,
     "developer": "SenseTime",
-    "developerZh": "商汤科技"
+    "developerZh": "商汤科技",
+    "platforms": {
+      "web": true,
+      "windows": false,
+      "macos": false,
+      "ios": false,
+      "android": false,
+      "linux": false,
+      "browser_extension": false,
+      "api": true
+    }
   },
   {
     "slug": "openwork",
@@ -1837,6 +2774,16 @@
     ],
     "featured": false,
     "developer": "Different AI",
-    "developerZh": "Different AI"
+    "developerZh": "Different AI",
+    "platforms": {
+      "web": false,
+      "windows": true,
+      "macos": true,
+      "ios": false,
+      "android": false,
+      "linux": true,
+      "browser_extension": "unknown",
+      "api": "unknown"
+    }
   }
 ]

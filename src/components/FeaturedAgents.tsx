@@ -5,11 +5,12 @@ import { Link } from '@/i18n/navigation';
 import { ArrowRight, Bot } from 'lucide-react';
 import LogoTile from '@/components/LogoTile';
 import tools from '@/data/tools.json';
-import { Tool, getLocalizedDescription } from './ToolCard';
+import { Tool, PLATFORM_META, getLocalizedDescription } from './ToolCard';
 
 export default function FeaturedAgents() {
   const t = useTranslations('featuredAgents');
   const tCategories = useTranslations('categories');
+  const tCommon = useTranslations('common');
   const locale = useLocale();
 
   // Filter Agent category tools that are featured
@@ -54,6 +55,10 @@ export default function FeaturedAgents() {
         {agents.map((agent) => {
           const displayName = getDisplayName(agent);
           const description = getLocalizedDescription(agent, locale);
+          // 仅展示确认支持（true）的平台；false/"unknown" 不渲染
+          const platformChips = agent.platforms
+            ? PLATFORM_META.filter((p) => agent.platforms![p.key] === true)
+            : [];
 
           return (
             <Link
@@ -83,14 +88,14 @@ export default function FeaturedAgents() {
               </p>
 
               {/* Platforms */}
-              {agent.platforms && agent.platforms.length > 0 && (
+              {platformChips.length > 0 && (
                 <div className="flex flex-wrap gap-1.5">
-                  {agent.platforms.map((platform) => (
+                  {platformChips.map((p) => (
                     <span
-                      key={platform}
+                      key={p.key}
                       className="px-2 py-0.5 rounded-md text-xs font-medium bg-slate-100 text-slate-600 dark:bg-slate-800 dark:text-slate-400"
                     >
-                      {platform}
+                      {tCommon(p.labelKey as any)}
                     </span>
                   ))}
                 </div>

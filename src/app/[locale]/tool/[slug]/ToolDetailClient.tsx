@@ -5,11 +5,11 @@ import { Link } from '@/i18n/navigation';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Breadcrumb from '@/components/Breadcrumb';
-import { Tool, getLocalizedDescription } from '@/components/ToolCard';
+import { Tool, PLATFORM_META, getLocalizedDescription } from '@/components/ToolCard';
 import toolDetails from '@/data/toolDetails.json';
 import tools from '@/data/tools.json';
 import blogPosts from '@/data/blogPosts.json';
-import { ExternalLink, Globe, Star, Building2, CheckCircle, XCircle, Lightbulb, DollarSign, Zap, Info, Share2, Link2, Check, Newspaper, BookOpen, Clipboard, LayoutGrid, Award } from 'lucide-react';
+import { ExternalLink, Globe, Star, Building2, CheckCircle, XCircle, Lightbulb, DollarSign, Zap, Info, Share2, Link2, Check, Newspaper, BookOpen, Clipboard, LayoutGrid, Award, MonitorSmartphone } from 'lucide-react';
 import { TwitterIcon, LinkedinIcon, FacebookIcon } from '@/components/SocialIcons';
 import Newsletter from '@/components/Newsletter';
 import LogoTile from '@/components/LogoTile';
@@ -37,6 +37,20 @@ export default function ToolDetailClient({ tool, locale }: ToolDetailClientProps
   const description = getLocalizedDescription(tool, locale);
   const displayName = locale === 'zh' && tool.nameZh ? tool.nameZh : tool.name;
   const details: any = (toolDetails as Record<string, Record<string, unknown>>)[tool.slug];
+
+  // Supported Platforms：停服工具（Discontinued）不展示该模块；仅展示确认支持（true），false/"unknown" 不渲染
+  const supportedPlatforms = tool.platforms && !tool.tags.includes('Discontinued')
+    ? PLATFORM_META.filter((p) => tool.platforms![p.key] === true)
+    : [];
+
+  // 本地化平台列表句式（如 "Web App, Windows, macOS and API"）
+  const platformNames = supportedPlatforms.map((p) => t(p.labelKey as any));
+  let platformsSentence = platformNames.join(', ');
+  try {
+    platformsSentence = new Intl.ListFormat(locale, { style: 'long', type: 'conjunction' }).format(platformNames);
+  } catch {
+    // 不支持的 locale 回退逗号拼接
+  }
 
   const handleCopy = async (text: string, id: string) => {
     try {
@@ -372,6 +386,31 @@ export default function ToolDetailClient({ tool, locale }: ToolDetailClientProps
                     {getLocalized((details.verdict as any).summary, locale) as string}
                   </p>
                 </div>
+              )}
+
+              {/* Supported Platforms */}
+              {supportedPlatforms.length > 0 && (
+                <section aria-labelledby="supported-platforms-title" className="bg-[var(--card-bg)] rounded-2xl border border-[var(--card-border)] p-8 shadow-sm">
+                  <h2 id="supported-platforms-title" className="text-lg font-semibold text-[var(--foreground)] mb-4 flex items-center gap-2">
+                    <MonitorSmartphone className="w-5 h-5 text-indigo-500" />
+                    {t('supportedPlatforms')}
+                  </h2>
+                  <div className="flex flex-wrap gap-2.5">
+                    {supportedPlatforms.map((p) => (
+                      <span
+                        key={p.key}
+                        className="inline-flex items-center gap-2 px-3.5 py-2 rounded-full bg-[var(--muted-bg)] border border-[var(--card-border)] text-sm font-medium text-[var(--foreground)]"
+                      >
+                        <span aria-hidden="true">{p.emoji}</span>
+                        {t(p.labelKey as any)}
+                      </span>
+                    ))}
+                  </div>
+                  {/* SEO: 自然语言平台可用性说明 */}
+                  <p className="text-sm text-[var(--muted)] mt-4 leading-relaxed">
+                    {t('platformsAvailability', { platforms: platformsSentence })}
+                  </p>
+                </section>
               )}
 
               {/* Features */}

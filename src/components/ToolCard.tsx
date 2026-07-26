@@ -5,6 +5,30 @@ import { ExternalLink, Star } from 'lucide-react';
 import { Link } from '@/i18n/navigation';
 import LogoTile from './LogoTile';
 
+// Supported Platforms — 值为 true / false / "unknown"（未证实，前端不展示）
+export interface ToolPlatforms {
+  web: boolean | string;
+  windows: boolean | string;
+  macos: boolean | string;
+  ios: boolean | string;
+  android: boolean | string;
+  linux: boolean | string;
+  browser_extension: boolean | string;
+  api: boolean | string;
+}
+
+// 平台展示元数据（emoji + i18n 键，键位于 messages.common）
+export const PLATFORM_META: { key: keyof ToolPlatforms; emoji: string; labelKey: string }[] = [
+  { key: 'web', emoji: '🌐', labelKey: 'platformWeb' },
+  { key: 'windows', emoji: '🪟', labelKey: 'platformWindows' },
+  { key: 'macos', emoji: '🍎', labelKey: 'platformMacos' },
+  { key: 'ios', emoji: '📱', labelKey: 'platformIos' },
+  { key: 'android', emoji: '🤖', labelKey: 'platformAndroid' },
+  { key: 'linux', emoji: '🐧', labelKey: 'platformLinux' },
+  { key: 'browser_extension', emoji: '🧩', labelKey: 'platformBrowserExtension' },
+  { key: 'api', emoji: '⌨️', labelKey: 'platformApi' },
+];
+
 export interface Tool {
   slug: string;
   name: string;
@@ -20,7 +44,7 @@ export interface Tool {
   tags: string[];
   featured: boolean;
   homeFeatured?: boolean;
-  platforms?: string[];
+  platforms?: ToolPlatforms;
   developer?: string;
   developerZh?: string;
 }
@@ -98,20 +122,6 @@ export default function ToolCard({ tool, locale }: ToolCardProps) {
           </span>
         ))}
       </div>
-
-      {/* Platforms (for Agent category) */}
-      {tool.platforms && tool.platforms.length > 0 && (
-        <div className="flex flex-wrap gap-1.5 mb-3">
-          {tool.platforms.map((platform) => (
-            <span
-              key={platform}
-              className="px-2 py-0.5 rounded-md text-xs font-medium bg-slate-100 text-slate-600 dark:bg-slate-800 dark:text-slate-400"
-            >
-              {platform}
-            </span>
-          ))}
-        </div>
-      )}
 
       {/* Visit Link */}
       <a

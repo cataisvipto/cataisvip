@@ -23,10 +23,25 @@
           { "$ref": "#/$defs/i18nTutorial" }
         ]
       },
-      "summary": { "$ref": "#/$defs/i18nString" }
+      "summary": { "$ref": "#/$defs/i18nString" },
+      "alternatives": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+      "verdict": { "$ref": "#/$defs/verdict" }
     }
   },
   "$defs": {
+    "verdict": {
+      "type": "object",
+      "description": "Cataito Verdict — editorial recommendation block",
+      "required": ["badge", "headline", "body", "bestFor", "considerAlternatives"],
+      "additionalProperties": false,
+      "properties": {
+        "badge": { "type": "string", "minLength": 1 },
+        "headline": { "$ref": "#/$defs/i18nString" },
+        "body": { "$ref": "#/$defs/i18nString" },
+        "bestFor": { "$ref": "#/$defs/i18nStringArray" },
+        "considerAlternatives": { "$ref": "#/$defs/i18nStringArray" }
+      }
+    },
     "i18nString": {
       "type": "object",
       "description": "Five-language string map (en, zh, ja, es, fr)",
