@@ -24,6 +24,7 @@
     "home": "Inicio",
     "categories": "Categorías",
     "skills": "Skills",
+    "ranking": "Ranking",
     "blog": "Blog",
     "submit": "Enviar Recurso",
     "searchPlaceholder": "Buscar recursos de IA...",
@@ -305,6 +306,16 @@
     "viewOnGitHub": "Ver en GitHub",
     "backToList": "Volver a Skills",
     "notFound": "Skill No Encontrada"
+  },
+  "ranking": {
+    "metaTitle": "Ranking de Proyectos de IA en GitHub — Top 50 de Código Abierto",
+    "metaDescription": "Los 50 mejores proyectos de IA de código abierto en GitHub, ordenados por el índice compuesto de Cataito (escala, crecimiento y actividad). Actualizado regularmente.",
+    "title": "Ranking de IA en GitHub",
+    "subtitle": "Top 50 de proyectos de IA de código abierto en GitHub",
+    "updatedLabel": "Actualizado el {date} · Se renueva regularmente",
+    "newLabel": "NUEVO",
+    "methodologyText": "El ranking se calcula de forma offline con el índice compuesto propietario de Cataito, que combina señales públicas de GitHub como escala, velocidad de crecimiento y actividad reciente con revisión editorial. Solo se publican las posiciones finales: las estrellas y forks mostrados son de referencia y no determinan el orden.",
+    "noResults": "Ningún proyecto coincide con tu búsqueda."
   },
   "about": {
     "metaTitle": "Acerca de Cataito — Directorio independiente de herramientas de IA",
