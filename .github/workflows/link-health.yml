@@ -1,15 +1,15 @@
-name: Link Health
+name: Internal Audit
 
 on:
   schedule:
-    # 每周一 UTC 22:23（北京时间周二早 6:23）自动审核工具官网存活；避开整点防 GitHub 静默丢弃
+    # 每周一 UTC 22:23（北京时间周二早 6:23）自动审计；避开整点防 GitHub 静默丢弃
     - cron: '23 22 * * 1'
   workflow_dispatch:
 
 jobs:
-  liveness:
+  audit:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
 
     steps:
       - uses: actions/checkout@v4
@@ -22,5 +22,19 @@ jobs:
       # 只需 undici 一个依赖，装全量 node_modules 太慢
       - run: npm i --no-save undici
 
-      - name: 工具官网存活审核
+      # 唯一会 fail 的步骤：官网 DEAD 时 exit 1
+      - name: ① 工具官网存活审核
         run: node scripts/check-tool-liveness.mjs
+
+      # 以下审计均为 warn-only（脚本恒 exit 0），报告写入 STEP_SUMMARY 周报面板
+      - name: ② 信息过期检测
+        if: always()
+        run: node scripts/audit-freshness.mjs
+
+      - name: ③ Verdict 腐化扫描
+        if: always()
+        run: node scripts/audit-verdict-tokens.mjs
+
+      - name: ④ Pricing 漂移探测
+        if: always()
+        run: node scripts/audit-pricing-drift.mjs

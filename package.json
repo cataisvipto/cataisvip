@@ -12,6 +12,10 @@
     "test:i18n": "node scripts/check-i18n.js",
     "test:css": "node scripts/check-css-vars.js",
     "test:schema": "node scripts/validate-schemas.js",
+    "audit:freshness": "node scripts/audit-freshness.mjs",
+    "audit:verdict": "node scripts/audit-verdict-tokens.mjs",
+    "audit:pricing": "node scripts/audit-pricing-drift.mjs",
+    "audit:all": "node scripts/audit-freshness.mjs && node scripts/audit-verdict-tokens.mjs && node scripts/audit-pricing-drift.mjs",
     "gsc": "node scripts/gsc-report.mjs"
   },
   "dependencies": {
