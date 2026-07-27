@@ -3481,5 +3481,119 @@
       "browser_extension": false,
       "api": true
     }
+  },
+  {
+    "slug": "cline",
+    "name": "Cline",
+    "nameZh": "Cline",
+    "description": "开源 AI 编程智能体，VS Code 扩展 + CLI，Plan/Act 双模式，支持 MCP 市场与自带任意模型密钥（BYOK），个人使用完全免费",
+    "descriptionEn": "Open-source AI coding agent for VS Code and CLI with Plan/Act modes, MCP marketplace, and bring-your-own-key model support; free for individuals",
+    "descriptionJa": "オープンソースのAIコーディングエージェント。VS Code拡張とCLIに対応、Plan/Actモード、MCPマーケットプレイス、任意のモデルAPIキー（BYOK）をサポート。個人利用は完全無料",
+    "descriptionEs": "Agente de programación IA de código abierto para VS Code y CLI con modos Plan/Act, mercado MCP y soporte de claves propias (BYOK); gratis para uso individual",
+    "descriptionFr": "Agent de codage IA open source pour VS Code et CLI avec modes Plan/Act, marketplace MCP et prise en charge de vos propres clés de modèles (BYOK) ; gratuit pour les particuliers",
+    "url": "https://cline.bot",
+    "logo": "/logos/tools/cline.png",
+    "category": "Code",
+    "tags": [
+      "Free",
+      "Open Source"
+    ],
+    "featured": false,
+    "developer": "Cline Bot Inc.",
+    "platforms": {
+      "web": false,
+      "windows": true,
+      "macos": true,
+      "ios": false,
+      "android": false,
+      "linux": true,
+      "browser_extension": false,
+      "api": false
+    }
+  },
+  {
+    "slug": "aider",
+    "name": "Aider",
+    "nameZh": "Aider",
+    "description": "终端里的 AI 结对编程工具，开源免费，模型无关，repo map 全库理解，自动 git 提交，支持 100+ 编程语言",
+    "descriptionEn": "AI pair programming in your terminal: free and open source, model-agnostic, repo-map codebase understanding, automatic git commits, 100+ languages",
+    "descriptionJa": "ターミナルで使うAIペアプログラミングツール。無料オープンソース、モデル非依存、repo mapによるコードベース理解、git自動コミット、100以上の言語に対応",
+    "descriptionEs": "Programación en pareja con IA en tu terminal: gratuito y de código abierto, agnóstico de modelos, comprensión del repositorio con repo map, commits automáticos de git, más de 100 lenguajes",
+    "descriptionFr": "Programmation en binôme avec l'IA dans votre terminal : gratuit et open source, indépendant du modèle, compréhension du dépôt via repo map, commits git automatiques, plus de 100 langages",
+    "url": "https://aider.chat",
+    "logo": "/logos/tools/aider.png",
+    "category": "Code",
+    "tags": [
+      "Free",
+      "Open Source"
+    ],
+    "featured": false,
+    "developer": "Aider AI",
+    "platforms": {
+      "web": false,
+      "windows": true,
+      "macos": true,
+      "ios": false,
+      "android": false,
+      "linux": true,
+      "browser_extension": false,
+      "api": false
+    }
+  },
+  {
+    "slug": "warp",
+    "name": "Warp",
+    "nameZh": "Warp",
+    "description": "智能体开发环境（ADE）：现代终端 + 多智能体编排 + 代码编辑四合一，可运行 Claude Code、Codex、Gemini CLI 等编码智能体",
+    "descriptionEn": "Agentic Development Environment: modern terminal, multi-agent orchestration, and code editing in one app; runs Claude Code, Codex, Gemini CLI and more",
+    "descriptionJa": "エージェント開発環境（ADE）。モダンなターミナル、マルチエージェント統括、コード編集を一体化。Claude Code、Codex、Gemini CLIなどのコーディングエージェントを実行可能",
+    "descriptionEs": "Entorno de desarrollo agéntico: terminal moderna, orquestación multiagente y edición de código en una sola app; ejecuta Claude Code, Codex, Gemini CLI y más",
+    "descriptionFr": "Environnement de développement agentique : terminal moderne, orchestration multi-agents et édition de code dans une seule app ; exécute Claude Code, Codex, Gemini CLI et plus",
+    "url": "https://www.warp.dev",
+    "logo": "/logos/tools/warp.png",
+    "category": "Code",
+    "tags": [
+      "Freemium"
+    ],
+    "featured": false,
+    "developer": "Warp",
+    "platforms": {
+      "web": false,
+      "windows": true,
+      "macos": true,
+      "ios": false,
+      "android": false,
+      "linux": true,
+      "browser_extension": false,
+      "api": false
+    }
+  },
+  {
+    "slug": "augment-code",
+    "name": "Augment Code",
+    "nameZh": "Augment Code",
+    "description": "面向大型代码库的企业级 AI 编程平台，Context Engine 结构化索引全库上下文，团队固定月费制，SOC 2 认证",
+    "descriptionEn": "Enterprise AI coding platform for large codebases with a Context Engine that structurally maps your repos; flat team pricing and SOC 2 Type II certified",
+    "descriptionJa": "大規模コードベース向けのエンタープライズAIコーディングプラットフォーム。Context Engineがリポジトリを構造的にマッピング。チーム定額制、SOC 2 Type II認証取得",
+    "descriptionEs": "Plataforma empresarial de programación IA para grandes bases de código con Context Engine que mapea estructuralmente tus repositorios; precio fijo por equipo y certificación SOC 2 Type II",
+    "descriptionFr": "Plateforme d'IA de codage pour entreprises et grandes bases de code, avec un Context Engine qui cartographie structurellement vos dépôts ; tarif fixe par équipe, certifié SOC 2 Type II",
+    "url": "https://www.augmentcode.com",
+    "logo": "/logos/tools/augment-code.svg",
+    "category": "Code",
+    "tags": [
+      "Paid"
+    ],
+    "featured": false,
+    "developer": "Augment Code",
+    "platforms": {
+      "web": "unknown",
+      "windows": true,
+      "macos": true,
+      "ios": false,
+      "android": false,
+      "linux": true,
+      "browser_extension": false,
+      "api": "unknown"
+    }
   }
 ]

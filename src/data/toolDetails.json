@@ -29170,5 +29170,921 @@
         ]
       }
     }
+  },
+  "aider": {
+    "features": {
+      "en": [
+        "AI pair programming directly in your terminal, free and open source",
+        "Repo map builds a whole-codebase mental model for the LLM",
+        "Automatic git commits with sensible messages — easy to diff and undo",
+        "Model-agnostic: Claude, GPT, DeepSeek, Gemini or fully local models",
+        "Watch mode: trigger edits from AI comments inside any IDE",
+        "Voice-to-code, image and web page context, automatic lint/test fixing"
+      ],
+      "zh": [
+        "直接在终端里进行 AI 结对编程，免费开源",
+        "repo map 为大模型构建整个代码库的心智地图",
+        "自动 git 提交并生成合理的提交信息——好 diff 好回滚",
+        "模型无关：Claude、GPT、DeepSeek、Gemini 乃至纯本地模型",
+        "watch 模式：在任意 IDE 里用 AI 注释触发编辑",
+        "语音编码、图片与网页上下文、自动 lint/测试修复"
+      ],
+      "ja": [
+        "ターミナルで直接AIペアプログラミング。無料オープンソース",
+        "repo mapがLLMにコードベース全体のメンタルモデルを構築",
+        "適切なメッセージ付きのgit自動コミット——diffもundoも簡単",
+        "モデル非依存：Claude、GPT、DeepSeek、Gemini、完全ローカルモデルも",
+        "watchモード：任意のIDE内のAIコメントから編集をトリガー",
+        "音声コーディング、画像・Webページのコンテキスト、lint/テスト自動修正"
+      ],
+      "es": [
+        "Programación en pareja con IA directamente en tu terminal, gratis y open source",
+        "El repo map construye un modelo mental de toda la base de código para el LLM",
+        "Commits automáticos de git con mensajes sensatos: fáciles de comparar y revertir",
+        "Agnóstico de modelos: Claude, GPT, DeepSeek, Gemini o modelos totalmente locales",
+        "Modo watch: activa ediciones desde comentarios IA dentro de cualquier IDE",
+        "Voz a código, contexto de imágenes y páginas web, corrección automática de lint/tests"
+      ],
+      "fr": [
+        "Programmation en binôme avec l'IA directement dans votre terminal, gratuit et open source",
+        "La repo map construit un modèle mental de toute la base de code pour le LLM",
+        "Commits git automatiques avec messages pertinents — faciles à diff et annuler",
+        "Indépendant du modèle : Claude, GPT, DeepSeek, Gemini ou modèles entièrement locaux",
+        "Mode watch : déclenchez des modifications via des commentaires IA dans n'importe quel IDE",
+        "Voix vers code, contexte images et pages web, correction automatique lint/tests"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "Completely free and open source (`pip install aider-install`) — you only pay the API costs of whichever model you connect, and local models cost nothing",
+        "zh": "完全免费开源（`pip install aider-install`）——只需支付所接模型的 API 费用，接本地模型则分文不花",
+        "ja": "完全無料のオープンソース（`pip install aider-install`）。支払うのは接続するモデルのAPI費用のみ。ローカルモデルなら費用ゼロ",
+        "es": "Totalmente gratis y de código abierto (`pip install aider-install`): solo pagas los costes de API del modelo que conectes, y los modelos locales no cuestan nada",
+        "fr": "Totalement gratuit et open source (`pip install aider-install`) — vous ne payez que les coûts d'API du modèle connecté, et les modèles locaux ne coûtent rien"
+      },
+      "paid": {
+        "en": "No paid plans at all — there is nothing to buy; model usage is billed by your chosen provider (e.g. Anthropic, OpenAI, DeepSeek) at their standard API rates",
+        "zh": "完全没有付费档——没有任何可买的东西；模型用量由你选择的供应商（如 Anthropic、OpenAI、DeepSeek）按其标准 API 费率计费",
+        "ja": "有料プランは一切なし——買うものが存在しない。モデル利用料は選んだプロバイダー（Anthropic、OpenAI、DeepSeekなど）の標準APIレートで課金",
+        "es": "No hay planes de pago: no hay nada que comprar; el uso del modelo lo factura el proveedor que elijas (Anthropic, OpenAI, DeepSeek, etc.) a sus tarifas estándar de API",
+        "fr": "Aucun plan payant — il n'y a rien à acheter ; l'usage des modèles est facturé par le fournisseur de votre choix (Anthropic, OpenAI, DeepSeek, etc.) à ses tarifs API standard"
+      }
+    },
+    "useCases": {
+      "en": [
+        "Fast, surgical edits across a large existing codebase from the terminal",
+        "Developers who live in tmux/vim and refuse to switch editors",
+        "Fully offline AI coding with local models for sensitive code",
+        "Git-disciplined workflows where every AI change is a clean commit"
+      ],
+      "zh": [
+        "从终端对大型存量代码库做快速、外科手术式的修改",
+        "常驻 tmux/vim、拒绝换编辑器的开发者",
+        "用本地模型对敏感代码做完全离线的 AI 编程",
+        "git 纪律严明、要求每次 AI 改动都是干净提交的工作流"
+      ],
+      "ja": [
+        "ターミナルから大規模な既存コードベースに素早く外科手術的な修正",
+        "tmux/vimに住み、エディタを変えたくない開発者",
+        "ローカルモデルで機密コードを完全オフラインAIコーディング",
+        "AIの変更を全てクリーンなコミットにするgit規律の高いワークフロー"
+      ],
+      "es": [
+        "Ediciones rápidas y quirúrgicas en una gran base de código existente desde la terminal",
+        "Desarrolladores que viven en tmux/vim y se niegan a cambiar de editor",
+        "Programación IA totalmente offline con modelos locales para código sensible",
+        "Flujos disciplinados de git donde cada cambio IA es un commit limpio"
+      ],
+      "fr": [
+        "Modifications rapides et chirurgicales d'une grande base de code existante depuis le terminal",
+        "Développeurs qui vivent dans tmux/vim et refusent de changer d'éditeur",
+        "Codage IA entièrement hors ligne avec des modèles locaux pour du code sensible",
+        "Flux git disciplinés où chaque changement IA est un commit propre"
+      ]
+    },
+    "pros": {
+      "en": [
+        "Zero cost beyond model API usage — no subscription, ever",
+        "Battle-tested: 44K+ GitHub stars, millions of installs, billions of tokens weekly",
+        "Repo map gives strong results on large codebases without huge contexts",
+        "Git-native design makes every change reviewable and reversible"
+      ],
+      "zh": [
+        "除模型 API 用量外零成本——永远没有订阅费",
+        "久经沙场：4.4 万+ GitHub star、数百万安装、每周数十亿 token",
+        "repo map 不靠巨型上下文也能在大代码库上表现出色",
+        "git 原生设计让每次改动都可审查、可回滚"
+      ],
+      "ja": [
+        "モデルAPI利用料以外はゼロコスト——サブスクは永遠に不要",
+        "実戦で鍛えられた実績：GitHubスター4.4万超、数百万インストール、週数十億トークン",
+        "repo mapにより巨大コンテキストなしでも大規模コードベースで高い成果",
+        "gitネイティブ設計で全変更がレビュー可能・取り消し可能"
+      ],
+      "es": [
+        "Coste cero más allá del uso de API del modelo: nunca hay suscripción",
+        "Probado en batalla: más de 44K estrellas en GitHub, millones de instalaciones, miles de millones de tokens semanales",
+        "El repo map logra buenos resultados en bases grandes sin contextos enormes",
+        "El diseño nativo de git hace cada cambio revisable y reversible"
+      ],
+      "fr": [
+        "Coût nul au-delà de l'usage API du modèle — jamais d'abonnement",
+        "Éprouvé : plus de 44K étoiles GitHub, des millions d'installations, des milliards de tokens par semaine",
+        "La repo map donne d'excellents résultats sur de grandes bases sans contextes énormes",
+        "La conception native git rend chaque changement vérifiable et réversible"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Terminal-first UX has a learning curve for GUI-oriented developers",
+        "Less autonomous than agentic tools — it edits, you drive",
+        "Python installation and model configuration can trip up beginners",
+        "No built-in team, sharing or enterprise management features"
+      ],
+      "zh": [
+        "终端优先的体验对 GUI 系开发者有学习曲线",
+        "自主性不如智能体类工具——它负责改，你负责开",
+        "Python 安装与模型配置可能绊住新手",
+        "没有内置的团队、共享或企业管理功能"
+      ],
+      "ja": [
+        "ターミナル優先のUXはGUI派の開発者には学習コストあり",
+        "エージェント型ツールほど自律的ではない——編集はAI、運転はあなた",
+        "Pythonのインストールとモデル設定は初心者がつまずきやすい",
+        "チーム・共有・エンタープライズ管理機能は内蔵されていない"
+      ],
+      "es": [
+        "La experiencia centrada en terminal tiene curva de aprendizaje para desarrolladores de GUI",
+        "Menos autónomo que las herramientas agénticas: él edita, tú conduces",
+        "La instalación de Python y la configuración de modelos pueden frenar a principiantes",
+        "Sin funciones integradas de equipo, compartición o gestión empresarial"
+      ],
+      "fr": [
+        "L'expérience orientée terminal a une courbe d'apprentissage pour les développeurs GUI",
+        "Moins autonome que les outils agentiques — il édite, vous pilotez",
+        "L'installation Python et la configuration des modèles peuvent bloquer les débutants",
+        "Pas de fonctions intégrées d'équipe, de partage ou de gestion d'entreprise"
+      ]
+    },
+    "latestUpdate": {
+      "en": "2026: Aider surpasses 44K GitHub stars and 6.8 million installs, processing over 15 billion tokens weekly; recent releases strengthen watch-mode IDE integration, local model support and automatic lint/test repair",
+      "zh": "2026 年：Aider 突破 4.4 万 GitHub star 与 680 万安装量，每周处理超 150 亿 token；近期版本强化了 watch 模式 IDE 集成、本地模型支持与自动 lint/测试修复",
+      "ja": "2026年：AiderはGitHubスター4.4万、680万インストールを突破し、週150億トークン超を処理。最近のリリースではwatchモードのIDE統合、ローカルモデル対応、lint/テスト自動修復を強化",
+      "es": "2026: Aider supera las 44K estrellas en GitHub y 6,8 millones de instalaciones, procesando más de 15 000 millones de tokens semanales; las versiones recientes refuerzan la integración IDE del modo watch, el soporte de modelos locales y la reparación automática de lint/tests",
+      "fr": "2026 : Aider dépasse 44K étoiles GitHub et 6,8 millions d'installations, traitant plus de 15 milliards de tokens par semaine ; les versions récentes renforcent l'intégration IDE du mode watch, le support des modèles locaux et la réparation automatique lint/tests"
+    },
+    "verdict": {
+      "badge": "Recommended",
+      "headline": {
+        "en": "The vim of AI coding: spartan, precise, and completely free",
+        "zh": "AI 编程界的 vim：朴素、精准、完全免费",
+        "ja": "AIコーディング界のvim：質実剛健、精密、そして完全無料",
+        "es": "El vim de la programación IA: espartano, preciso y completamente gratis",
+        "fr": "Le vim du codage IA : spartiate, précis et totalement gratuit"
+      },
+      "body": {
+        "en": "Aider predates the agent hype and still embodies a different philosophy: the AI is your pair programmer, not your replacement. Its repo map squeezes remarkable large-codebase understanding out of modest contexts, and its git-first discipline — every change lands as a clean, undoable commit — is something the flashier tools still haven't matched. It won't run for an hour unattended like an agent, and the terminal UX filters out casual users. But if you want maximum control per dollar (often zero dollars, with local models), Aider remains the sharpest free tool in the drawer.",
+        "zh": "Aider 比智能体热潮出现得更早，至今仍坚持另一种哲学：AI 是你的结对程序员，不是替代者。它的 repo map 用不大的上下文榨出惊人的大代码库理解力，git 优先的纪律——每次改动都落成干净可回滚的提交——那些花哨的工具至今没能追上。它不会像智能体那样无人值守跑一小时，终端体验也筛掉了轻度用户。但如果你追求每一块钱的掌控力最大化（用本地模型经常是零块钱），Aider 仍是抽屉里最锋利的那把免费刀。",
+        "ja": "Aiderはエージェントブーム以前から存在し、今も異なる哲学を貫く。AIはあなたのペアプログラマーであって、代わりではない。repo mapは控えめなコンテキストから驚くほどの大規模コードベース理解を絞り出し、gitファーストの規律——全変更がクリーンで取り消せるコミットになる——は派手なツール勢が未だに追いつけない。エージェントのように1時間放置で動くことはなく、ターミナルUXはライトユーザーをふるいにかける。だが1ドルあたりの制御力を最大化したいなら（ローカルモデルなら往々にして0ドル）、Aiderは今も引き出しの中で最も切れる無料の道具だ。",
+        "es": "Aider es anterior al bombo de los agentes y aún encarna otra filosofía: la IA es tu compañero de programación, no tu reemplazo. Su repo map extrae una comprensión notable de grandes bases de código con contextos modestos, y su disciplina git-first —cada cambio aterriza como un commit limpio y reversible— sigue sin ser igualada por herramientas más vistosas. No trabajará una hora sin supervisión como un agente, y la experiencia de terminal filtra a los usuarios casuales. Pero si quieres el máximo control por dólar (a menudo cero dólares, con modelos locales), Aider sigue siendo la herramienta gratuita más afilada del cajón.",
+        "fr": "Aider est antérieur à la vague des agents et incarne toujours une autre philosophie : l'IA est votre binôme de programmation, pas votre remplaçant. Sa repo map extrait une compréhension remarquable des grandes bases de code avec des contextes modestes, et sa discipline git-first — chaque changement devient un commit propre et annulable — reste inégalée par les outils plus tape-à-l'œil. Il ne tournera pas une heure sans surveillance comme un agent, et l'expérience terminal filtre les utilisateurs occasionnels. Mais si vous voulez un contrôle maximal par dollar (souvent zéro dollar, avec des modèles locaux), Aider reste l'outil gratuit le plus affûté du tiroir."
+      },
+      "bestFor": {
+        "en": [
+          "Terminal-native developers who want AI without leaving the shell",
+          "Privacy-sensitive work using fully local models at zero cost",
+          "Engineers who insist on reviewing every change as a git commit"
+        ],
+        "zh": [
+          "不想离开 shell 也要用 AI 的终端原生开发者",
+          "用纯本地模型零成本处理隐私敏感工作",
+          "坚持以 git 提交审查每一次改动的工程师"
+        ],
+        "ja": [
+          "シェルを離れずAIを使いたいターミナルネイティブな開発者",
+          "完全ローカルモデルでコストゼロのプライバシー重視作業",
+          "全変更をgitコミットとしてレビューしたいエンジニア"
+        ],
+        "es": [
+          "Desarrolladores nativos de terminal que quieren IA sin salir del shell",
+          "Trabajo sensible a la privacidad con modelos totalmente locales a coste cero",
+          "Ingenieros que insisten en revisar cada cambio como commit de git"
+        ],
+        "fr": [
+          "Développeurs natifs du terminal voulant l'IA sans quitter le shell",
+          "Travaux sensibles à la confidentialité avec modèles entièrement locaux à coût nul",
+          "Ingénieurs exigeant de relire chaque changement sous forme de commit git"
+        ]
+      },
+      "considerAlternatives": {
+        "en": [
+          "You want long autonomous coding sessions (→ Claude Code, Cline)",
+          "You prefer a graphical IDE experience (→ Cursor, Windsurf)"
+        ],
+        "zh": [
+          "想要长时间自主编码会话（→ Claude Code、Cline）",
+          "更喜欢图形化 IDE 体验（→ Cursor、Windsurf）"
+        ],
+        "ja": [
+          "長時間の自律コーディングセッションが欲しい（→ Claude Code、Cline）",
+          "グラフィカルなIDE体験が好み（→ Cursor、Windsurf）"
+        ],
+        "es": [
+          "Quieres sesiones de codificación autónomas largas (→ Claude Code, Cline)",
+          "Prefieres una experiencia de IDE gráfico (→ Cursor, Windsurf)"
+        ],
+        "fr": [
+          "Vous voulez de longues sessions de codage autonomes (→ Claude Code, Cline)",
+          "Vous préférez une expérience IDE graphique (→ Cursor, Windsurf)"
+        ]
+      }
+    }
+  },
+  "augment-code": {
+    "features": {
+      "en": [
+        "Context Engine builds a structured map of your entire codebase, not just embeddings",
+        "Claimed ~33% fewer tokens per task thanks to precise context retrieval",
+        "IDE extensions for VS Code and JetBrains plus a terminal CLI",
+        "Remote agents and the new Cosmos product for parallel autonomous work",
+        "MCP support to connect internal tools and data sources",
+        "SOC 2 Type II certified; customer code is never used for training"
+      ],
+      "zh": [
+        "Context Engine 为整个代码库构建结构化地图，而不只是向量嵌入",
+        "官方宣称精准上下文检索让每个任务省约 33% token",
+        "提供 VS Code 与 JetBrains 的 IDE 扩展及终端 CLI",
+        "远程智能体与新品 Cosmos 支持并行自主作业",
+        "支持 MCP，可接入内部工具与数据源",
+        "SOC 2 Type II 认证；客户代码绝不用于训练"
+      ],
+      "ja": [
+        "Context Engineが埋め込みだけでなくコードベース全体の構造化マップを構築",
+        "精密なコンテキスト検索によりタスクあたり約33%のトークン削減を謳う",
+        "VS CodeとJetBrainsのIDE拡張、ターミナルCLIを提供",
+        "リモートエージェントと新製品Cosmosで並列自律作業に対応",
+        "MCPサポートで社内ツールやデータソースに接続",
+        "SOC 2 Type II認証取得。顧客コードを学習に使用しない"
+      ],
+      "es": [
+        "El Context Engine construye un mapa estructurado de toda tu base de código, no solo embeddings",
+        "Afirma ~33% menos tokens por tarea gracias a la recuperación precisa de contexto",
+        "Extensiones IDE para VS Code y JetBrains más una CLI de terminal",
+        "Agentes remotos y el nuevo producto Cosmos para trabajo autónomo en paralelo",
+        "Soporte MCP para conectar herramientas internas y fuentes de datos",
+        "Certificado SOC 2 Type II; el código del cliente nunca se usa para entrenar"
+      ],
+      "fr": [
+        "Le Context Engine construit une carte structurée de toute votre base de code, pas de simples embeddings",
+        "Environ 33 % de tokens en moins par tâche grâce à une récupération de contexte précise",
+        "Extensions IDE pour VS Code et JetBrains plus une CLI de terminal",
+        "Agents distants et le nouveau produit Cosmos pour un travail autonome en parallèle",
+        "Support MCP pour connecter outils internes et sources de données",
+        "Certifié SOC 2 Type II ; le code client n'est jamais utilisé pour l'entraînement"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "No free plan — Augment Code is sold to teams and enterprises only, though trials are available on request",
+        "zh": "没有免费版——Augment Code 只面向团队与企业销售，可按需申请试用",
+        "ja": "無料プランなし。Augment Codeはチーム・エンタープライズ向け専売。トライアルはリクエストで利用可能",
+        "es": "Sin plan gratuito: Augment Code se vende solo a equipos y empresas, aunque hay pruebas disponibles bajo petición",
+        "fr": "Pas de plan gratuit — Augment Code n'est vendu qu'aux équipes et entreprises, avec des essais disponibles sur demande"
+      },
+      "paid": {
+        "en": "Business: $100/month flat per team (up to 50 seats, no per-seat fee) including a $100 usage pool shared across the team; LLM usage billed at provider list price + 40% service fee, top-ups valid 12 months. Enterprise: custom, adds SSO/OIDC/SCIM, CMEK, ISO 42001 and data residency",
+        "zh": "Business 版：100 美元/月/团队固定价（最多 50 席，无席位费），含全团队共享的 100 美元用量池；LLM 用量按供应商牌价 + 40% 服务费计，充值 12 个月内有效。企业版定制，增加 SSO/OIDC/SCIM、CMEK、ISO 42001 与数据驻留",
+        "ja": "Business版：チームあたり月額100ドル固定（最大50席、席課金なし）、チーム全体で共有する100ドル分の利用プールを含む。LLM利用はプロバイダー定価+40%のサービス料で課金、チャージは12ヶ月有効。エンタープライズ版は個別見積りで、SSO/OIDC/SCIM、CMEK、ISO 42001、データレジデンシーを追加",
+        "es": "Business: 100 $/mes fijos por equipo (hasta 50 puestos, sin cuota por asiento) con un fondo de uso de 100 $ compartido por todo el equipo; el uso de LLM se factura a precio de lista del proveedor + 40% de tarifa de servicio, las recargas valen 12 meses. Enterprise: personalizado, añade SSO/OIDC/SCIM, CMEK, ISO 42001 y residencia de datos",
+        "fr": "Business : 100 $/mois forfaitaires par équipe (jusqu'à 50 sièges, sans frais par siège) avec un pool d'usage de 100 $ partagé par toute l'équipe ; l'usage LLM est facturé au tarif catalogue du fournisseur + 40 % de frais de service, les recharges valent 12 mois. Enterprise : sur mesure, ajoute SSO/OIDC/SCIM, CMEK, ISO 42001 et résidence des données"
+      }
+    },
+    "useCases": {
+      "en": [
+        "Engineering teams navigating million-line legacy codebases",
+        "Enterprises with strict compliance needs: SOC 2, ISO 42001, CMEK",
+        "Cross-repo refactors where context precision matters more than speed",
+        "Organizations wanting predictable flat pricing instead of per-seat sprawl"
+      ],
+      "zh": [
+        "在百万行级遗留代码库里穿行的工程团队",
+        "有严格合规需求的企业：SOC 2、ISO 42001、CMEK",
+        "上下文精度比速度更重要的跨仓库重构",
+        "想要可预测固定价、拒绝按席位膨胀的组织"
+      ],
+      "ja": [
+        "数百万行のレガシーコードベースを扱うエンジニアリングチーム",
+        "SOC 2、ISO 42001、CMEKなど厳格なコンプライアンス要件を持つ企業",
+        "速度よりコンテキスト精度が重要なクロスレポジトリのリファクタリング",
+        "席数課金の膨張ではなく予測可能な定額制を求める組織"
+      ],
+      "es": [
+        "Equipos de ingeniería que navegan bases de código heredadas de millones de líneas",
+        "Empresas con necesidades estrictas de cumplimiento: SOC 2, ISO 42001, CMEK",
+        "Refactorizaciones entre repos donde la precisión del contexto importa más que la velocidad",
+        "Organizaciones que quieren precio fijo predecible en vez de expansión por asiento"
+      ],
+      "fr": [
+        "Équipes d'ingénierie naviguant dans des bases héritées de millions de lignes",
+        "Entreprises aux exigences strictes de conformité : SOC 2, ISO 42001, CMEK",
+        "Refactorisations multi-dépôts où la précision du contexte prime sur la vitesse",
+        "Organisations voulant un tarif fixe prévisible plutôt qu'une dérive par siège"
+      ]
+    },
+    "pros": {
+      "en": [
+        "Context Engine is genuinely differentiated on very large codebases",
+        "Flat $100/mo for up to 50 seats undercuts per-seat competitors at scale",
+        "Serious enterprise posture: SOC 2 Type II, ISO 42001, no training on your code",
+        "Trusted by engineering teams at Adobe, MongoDB, Snyk and Webflow"
+      ],
+      "zh": [
+        "Context Engine 在超大代码库上有真正的差异化优势",
+        "100 美元/月封顶 50 席，规模化后比按席位计费的对手便宜",
+        "认真的企业级姿态：SOC 2 Type II、ISO 42001、不用你的代码训练",
+        "Adobe、MongoDB、Snyk、Webflow 的工程团队在用"
+      ],
+      "ja": [
+        "Context Engineは超大規模コードベースで本物の差別化要素",
+        "月額100ドルで最大50席は、規模が大きいほど席課金の競合より割安",
+        "本気のエンタープライズ体制：SOC 2 Type II、ISO 42001、コードを学習に使わない",
+        "Adobe、MongoDB、Snyk、Webflowのエンジニアリングチームが採用"
+      ],
+      "es": [
+        "El Context Engine está genuinamente diferenciado en bases de código muy grandes",
+        "Los 100 $/mes fijos hasta 50 puestos baten a los competidores por asiento a escala",
+        "Postura enterprise seria: SOC 2 Type II, ISO 42001, sin entrenar con tu código",
+        "Con la confianza de equipos de Adobe, MongoDB, Snyk y Webflow"
+      ],
+      "fr": [
+        "Le Context Engine est réellement différenciant sur les très grandes bases de code",
+        "Le forfait de 100 $/mois jusqu'à 50 sièges bat les concurrents au siège à grande échelle",
+        "Posture entreprise sérieuse : SOC 2 Type II, ISO 42001, pas d'entraînement sur votre code",
+        "Adopté par les équipes d'ingénierie d'Adobe, MongoDB, Snyk et Webflow"
+      ]
+    },
+    "cons": {
+      "en": [
+        "No free or individual plan — solo developers are simply not the market",
+        "LLM usage carries a 40% service fee on top of provider list prices",
+        "The $100 pooled usage allowance depletes fast across an active team",
+        "Pricing has shifted repeatedly, making long-term budgeting harder"
+      ],
+      "zh": [
+        "没有免费版或个人版——独立开发者根本不是目标市场",
+        "LLM 用量在供应商牌价之上还要加收 40% 服务费",
+        "100 美元的共享用量池在活跃团队里消耗很快",
+        "定价多次调整，长期预算规划变难"
+      ],
+      "ja": [
+        "無料プランも個人プランもなし——ソロ開発者はそもそも対象外",
+        "LLM利用はプロバイダー定価に40%のサービス料が上乗せ",
+        "100ドルの共有利用プールはアクティブなチームではすぐ枯渇",
+        "料金体系が何度も変わり、長期の予算計画が立てにくい"
+      ],
+      "es": [
+        "Sin plan gratuito ni individual: los desarrolladores solitarios no son el mercado",
+        "El uso de LLM lleva un 40% de tarifa de servicio sobre el precio de lista del proveedor",
+        "El fondo compartido de 100 $ se agota rápido en un equipo activo",
+        "El precio ha cambiado repetidamente, dificultando el presupuesto a largo plazo"
+      ],
+      "fr": [
+        "Pas de plan gratuit ni individuel — les développeurs solo ne sont pas la cible",
+        "L'usage LLM supporte 40 % de frais de service en plus des tarifs catalogue",
+        "Le pool d'usage de 100 $ s'épuise vite dans une équipe active",
+        "La tarification a changé plusieurs fois, compliquant la budgétisation à long terme"
+      ]
+    },
+    "latestUpdate": {
+      "en": "2026: Augment Code consolidates pricing into a flat $100/month Business plan (up to 50 seats, pooled usage, LLM at list price +40%) plus custom Enterprise, launches the Cosmos parallel-agent product, and earns ISO 42001 alongside SOC 2 Type II",
+      "zh": "2026 年：Augment Code 将定价整合为 100 美元/月的 Business 固定档（最多 50 席、用量池共享、LLM 按牌价 +40% 计费）加定制企业版，推出并行智能体新品 Cosmos，并在 SOC 2 Type II 之外拿下 ISO 42001 认证",
+      "ja": "2026年：Augment Codeは料金を月額100ドルのBusiness定額プラン（最大50席、利用プール共有、LLMは定価+40%）とカスタムのエンタープライズ版に集約。並列エージェント新製品Cosmosを発表し、SOC 2 Type IIに加えISO 42001認証を取得",
+      "es": "2026: Augment Code consolida su precio en un plan Business fijo de 100 $/mes (hasta 50 puestos, uso compartido, LLM a precio de lista +40%) más Enterprise personalizado, lanza el producto de agentes paralelos Cosmos y obtiene ISO 42001 junto a SOC 2 Type II",
+      "fr": "2026 : Augment Code consolide sa tarification en un plan Business forfaitaire à 100 $/mois (jusqu'à 50 sièges, usage mutualisé, LLM au tarif catalogue +40 %) plus un Enterprise sur mesure, lance le produit d'agents parallèles Cosmos et obtient ISO 42001 en plus de SOC 2 Type II"
+    },
+    "verdict": {
+      "badge": "For Specific Needs",
+      "headline": {
+        "en": "Built for the codebases that make other AI tools give up",
+        "zh": "为那些让其他 AI 工具缴械的代码库而生",
+        "ja": "他のAIツールが白旗を上げるコードベースのために作られた",
+        "es": "Hecho para las bases de código que hacen rendirse a otras herramientas IA",
+        "fr": "Conçu pour les bases de code qui font capituler les autres outils IA"
+      },
+      "body": {
+        "en": "Augment Code refuses to compete on vibes. Its Context Engine — a structured map of your repos rather than a pile of embeddings — is the real thing, and on sprawling legacy monorepos it retrieves context that makes competitors hallucinate. The business model matches the ambition: no free tier, a flat $100/month for up to 50 seats, and a 40% service fee on model usage that funds all that infrastructure. For a 30-engineer team drowning in a million-line codebase, that math is excellent. For individuals or small startups on greenfield projects, it's simply the wrong product — and Augment would be the first to tell you so.",
+        "zh": "Augment Code 拒绝拼氛围。它的 Context Engine——是代码仓库的结构化地图而非一堆向量嵌入——是真材实料，在盘根错节的遗留 monorepo 上，它检索出的上下文能让竞品当场幻觉。商业模式与野心匹配：没有免费档，100 美元/月封顶 50 席，模型用量加收 40% 服务费来养活那套基础设施。对一个在百万行代码里挣扎的 30 人工程团队，这笔账极其划算。对个人或做全新项目的小创业公司，它压根就是错的产品——而 Augment 自己会第一个告诉你这一点。",
+        "ja": "Augment Codeは雰囲気で勝負しない。Context Engine——埋め込みの山ではなくリポジトリの構造化マップ——は本物で、入り組んだレガシーモノレポでは競合がハルシネーションを起こすようなコンテキストを正確に取り出す。ビジネスモデルも野心に見合う。無料ティアなし、月額100ドルで最大50席、モデル利用に40%のサービス料を乗せてそのインフラを賄う。百万行のコードベースに溺れる30人のエンジニアチームにとって、この計算は極めて優秀だ。個人やグリーンフィールドの小さなスタートアップには端的に間違った製品——そしてそれはAugment自身が真っ先に認めるだろう。",
+        "es": "Augment Code se niega a competir por sensaciones. Su Context Engine —un mapa estructurado de tus repos en vez de una pila de embeddings— es genuino, y en monorepos heredados enrevesados recupera contexto donde los competidores alucinan. El modelo de negocio está a la altura de la ambición: sin nivel gratuito, 100 $/mes fijos hasta 50 puestos y un 40% de tarifa de servicio sobre el uso de modelos que financia toda esa infraestructura. Para un equipo de 30 ingenieros ahogado en un millón de líneas, las cuentas salen excelentes. Para individuos o startups pequeñas en proyectos nuevos, es sencillamente el producto equivocado, y Augment sería el primero en decírtelo.",
+        "fr": "Augment Code refuse de jouer sur l'ambiance. Son Context Engine — une carte structurée de vos dépôts plutôt qu'un tas d'embeddings — est du solide, et sur les monorepos hérités tentaculaires, il récupère un contexte là où les concurrents hallucinent. Le modèle économique est à la hauteur de l'ambition : pas de gratuit, un forfait de 100 $/mois jusqu'à 50 sièges, et 40 % de frais de service sur l'usage des modèles pour financer cette infrastructure. Pour une équipe de 30 ingénieurs noyée dans un million de lignes, le calcul est excellent. Pour les particuliers ou les petites startups sur des projets neufs, c'est tout simplement le mauvais produit — et Augment serait le premier à vous le dire."
+      },
+      "bestFor": {
+        "en": [
+          "Mid-size engineering teams (10–50) on large legacy codebases",
+          "Compliance-heavy enterprises needing SOC 2, ISO 42001 and CMEK",
+          "Teams tired of per-seat pricing sprawl who prefer flat billing"
+        ],
+        "zh": [
+          "扎在大型遗留代码库上的中型工程团队（10–50 人）",
+          "需要 SOC 2、ISO 42001 与 CMEK 的重合规企业",
+          "受够按席计费膨胀、偏好固定账单的团队"
+        ],
+        "ja": [
+          "大規模レガシーコードベースを抱える中規模エンジニアリングチーム（10～50人）",
+          "SOC 2、ISO 42001、CMEKが必要なコンプライアンス重視の企業",
+          "席課金の膨張にうんざりし定額制を好むチーム"
+        ],
+        "es": [
+          "Equipos de ingeniería medianos (10–50) en grandes bases de código heredadas",
+          "Empresas con alta carga de cumplimiento que necesitan SOC 2, ISO 42001 y CMEK",
+          "Equipos hartos de la expansión por asiento que prefieren facturación fija"
+        ],
+        "fr": [
+          "Équipes d'ingénierie moyennes (10–50) sur de grandes bases héritées",
+          "Entreprises à forte conformité exigeant SOC 2, ISO 42001 et CMEK",
+          "Équipes lassées de la dérive du prix par siège et préférant un forfait"
+        ]
+      },
+      "considerAlternatives": {
+        "en": [
+          "You're a solo developer or hobbyist (→ Cline, Aider, Cursor)",
+          "Your codebase is small enough for any tool to grasp (→ GitHub Copilot)"
+        ],
+        "zh": [
+          "你是独立开发者或业余爱好者（→ Cline、Aider、Cursor）",
+          "你的代码库小到任何工具都能吃透（→ GitHub Copilot）"
+        ],
+        "ja": [
+          "ソロ開発者やホビーユーザーである（→ Cline、Aider、Cursor）",
+          "コードベースが小さくどのツールでも把握できる（→ GitHub Copilot）"
+        ],
+        "es": [
+          "Eres desarrollador solitario o aficionado (→ Cline, Aider, Cursor)",
+          "Tu base de código es tan pequeña que cualquier herramienta la abarca (→ GitHub Copilot)"
+        ],
+        "fr": [
+          "Vous êtes développeur solo ou amateur (→ Cline, Aider, Cursor)",
+          "Votre base de code est assez petite pour n'importe quel outil (→ GitHub Copilot)"
+        ]
+      }
+    }
+  },
+  "cline": {
+    "features": {
+      "en": [
+        "Open-source AI coding agent (Apache 2.0) for VS Code and CLI",
+        "Plan/Act dual modes: review the plan before the agent touches code",
+        "MCP Marketplace to extend the agent with tools and integrations",
+        "Bring your own key: Anthropic, OpenAI, Gemini, OpenRouter, Bedrock, Vertex, DeepSeek and more",
+        "Multi-root workspace support for large multi-repo projects",
+        "Enterprise edition adds JetBrains extension, SSO, RBAC and centralized billing"
+      ],
+      "zh": [
+        "开源 AI 编程智能体（Apache 2.0），支持 VS Code 与 CLI",
+        "Plan/Act 双模式：智能体动代码前先审查它的计划",
+        "MCP 市场：用工具与集成扩展智能体能力",
+        "自带密钥（BYOK）：支持 Anthropic、OpenAI、Gemini、OpenRouter、Bedrock、Vertex、DeepSeek 等",
+        "多根工作区支持，适配大型多仓库项目",
+        "企业版增加 JetBrains 扩展、SSO、RBAC 与集中计费"
+      ],
+      "ja": [
+        "オープンソースのAIコーディングエージェント（Apache 2.0）。VS CodeとCLIに対応",
+        "Plan/Actデュアルモード：エージェントがコードに触れる前に計画をレビュー",
+        "MCPマーケットプレイスでツールや統合機能を拡張",
+        "BYOK対応：Anthropic、OpenAI、Gemini、OpenRouter、Bedrock、Vertex、DeepSeekなど",
+        "マルチルートワークスペース対応で大規模マルチレポジトリにも対応",
+        "エンタープライズ版はJetBrains拡張、SSO、RBAC、集中課金を追加"
+      ],
+      "es": [
+        "Agente de programación IA de código abierto (Apache 2.0) para VS Code y CLI",
+        "Modos duales Plan/Act: revisa el plan antes de que el agente toque el código",
+        "Mercado MCP para ampliar el agente con herramientas e integraciones",
+        "Trae tu propia clave: Anthropic, OpenAI, Gemini, OpenRouter, Bedrock, Vertex, DeepSeek y más",
+        "Soporte de espacios de trabajo multirraíz para proyectos multi-repo grandes",
+        "La edición Enterprise añade extensión JetBrains, SSO, RBAC y facturación centralizada"
+      ],
+      "fr": [
+        "Agent de codage IA open source (Apache 2.0) pour VS Code et CLI",
+        "Double mode Plan/Act : validez le plan avant que l'agent ne touche au code",
+        "Marketplace MCP pour étendre l'agent avec outils et intégrations",
+        "Apportez votre clé : Anthropic, OpenAI, Gemini, OpenRouter, Bedrock, Vertex, DeepSeek et plus",
+        "Prise en charge des espaces de travail multi-racines pour les grands projets multi-dépôts",
+        "L'édition Enterprise ajoute l'extension JetBrains, SSO, RBAC et facturation centralisée"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "The open-source edition is completely free for individuals — you only pay for model inference, either with your own API keys (BYOK) or via the usage-based Cline provider",
+        "zh": "开源版对个人完全免费——只需支付模型推理费用，可自带 API 密钥（BYOK）或通过 Cline 官方按量推理通道付费",
+        "ja": "オープンソース版は個人利用完全無料。支払うのはモデル推論費のみで、自分のAPIキー（BYOK）または従量制のClineプロバイダー経由で支払う",
+        "es": "La edición de código abierto es totalmente gratuita para particulares: solo pagas la inferencia del modelo, con tus propias claves API (BYOK) o mediante el proveedor Cline de pago por uso",
+        "fr": "L'édition open source est totalement gratuite pour les particuliers — vous ne payez que l'inférence des modèles, avec vos propres clés API (BYOK) ou via le fournisseur Cline à l'usage"
+      },
+      "paid": {
+        "en": "Enterprise plan (custom pricing): JetBrains extension, SSO, RBAC, SLA, team management and centralized billing; used by teams at Samsung, Salesforce, Oracle and Amazon",
+        "zh": "企业版（定制报价）：JetBrains 扩展、SSO、RBAC、SLA、团队管理与集中计费；三星、Salesforce、甲骨文、亚马逊等公司的团队在用",
+        "ja": "エンタープライズプラン（個別見積り）：JetBrains拡張、SSO、RBAC、SLA、チーム管理、集中課金。Samsung、Salesforce、Oracle、Amazonなどのチームが利用",
+        "es": "Plan Enterprise (precio personalizado): extensión JetBrains, SSO, RBAC, SLA, gestión de equipos y facturación centralizada; usado por equipos de Samsung, Salesforce, Oracle y Amazon",
+        "fr": "Plan Enterprise (tarif sur mesure) : extension JetBrains, SSO, RBAC, SLA, gestion d'équipe et facturation centralisée ; utilisé par des équipes chez Samsung, Salesforce, Oracle et Amazon"
+      }
+    },
+    "useCases": {
+      "en": [
+        "Autonomous multi-file coding tasks inside VS Code with human approval gates",
+        "Cost-conscious developers who want frontier models at raw API prices",
+        "Extending the agent with MCP servers for databases, browsers and internal tools",
+        "Enterprises wanting an auditable open-source agent instead of a black box"
+      ],
+      "zh": [
+        "在 VS Code 里执行多文件自主编码任务，人工审批把关",
+        "想以 API 原价用上前沿模型、对成本敏感的开发者",
+        "用 MCP 服务器扩展智能体，对接数据库、浏览器与内部工具",
+        "想要可审计的开源智能体而非黑盒的企业"
+      ],
+      "ja": [
+        "VS Code内で人の承認を挟みながらマルチファイルの自律コーディング",
+        "フロンティアモデルをAPI原価で使いたいコスト意識の高い開発者",
+        "MCPサーバーでデータベース、ブラウザ、社内ツールに接続してエージェントを拡張",
+        "ブラックボックスではなく監査可能なオープンソースエージェントを求める企業"
+      ],
+      "es": [
+        "Tareas de codificación autónomas multiarchivo en VS Code con aprobación humana",
+        "Desarrolladores conscientes del coste que quieren modelos punteros a precio de API",
+        "Ampliar el agente con servidores MCP para bases de datos, navegadores y herramientas internas",
+        "Empresas que quieren un agente open source auditable en vez de una caja negra"
+      ],
+      "fr": [
+        "Tâches de codage autonomes multi-fichiers dans VS Code avec validation humaine",
+        "Développeurs soucieux des coûts voulant des modèles de pointe au prix brut de l'API",
+        "Extension de l'agent via serveurs MCP pour bases de données, navigateurs et outils internes",
+        "Entreprises préférant un agent open source auditable à une boîte noire"
+      ]
+    },
+    "pros": {
+      "en": [
+        "Truly free and open source — no subscription, no markup on BYOK inference",
+        "Plan/Act workflow keeps a human in the loop before code changes",
+        "Massive adoption: over 8 million developers and a thriving MCP ecosystem",
+        "Model-agnostic: swap providers freely as prices and quality shift"
+      ],
+      "zh": [
+        "真正免费开源——无订阅费，BYOK 推理不加价",
+        "Plan/Act 工作流让人在代码变更前始终在环",
+        "体量庞大：超 800 万开发者与繁荣的 MCP 生态",
+        "模型无关：价格与质量变化时可自由切换供应商"
+      ],
+      "ja": [
+        "真の無料オープンソース——サブスク不要、BYOK推論に上乗せなし",
+        "Plan/Actワークフローでコード変更前に必ず人が確認",
+        "800万人超の開発者と活発なMCPエコシステム",
+        "モデル非依存：価格や品質の変化に応じて自由にプロバイダーを変更"
+      ],
+      "es": [
+        "Verdaderamente gratis y open source: sin suscripción ni recargo en la inferencia BYOK",
+        "El flujo Plan/Act mantiene al humano en el circuito antes de cambiar código",
+        "Adopción masiva: más de 8 millones de desarrolladores y un ecosistema MCP pujante",
+        "Agnóstico de modelos: cambia de proveedor libremente según precio y calidad"
+      ],
+      "fr": [
+        "Vraiment gratuit et open source — pas d'abonnement, pas de marge sur l'inférence BYOK",
+        "Le flux Plan/Act garde l'humain dans la boucle avant tout changement de code",
+        "Adoption massive : plus de 8 millions de développeurs et un écosystème MCP florissant",
+        "Indépendant du modèle : changez librement de fournisseur selon prix et qualité"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Pay-per-token costs can spike on long agentic sessions with big contexts",
+        "No first-party JetBrains support outside the Enterprise plan yet",
+        "Requires more setup and model knowledge than turnkey tools like Cursor",
+        "Agent quality depends heavily on which model you plug in"
+      ],
+      "zh": [
+        "长上下文的智能体长会话下，按 token 计费的成本可能飙升",
+        "企业版之外暂无官方 JetBrains 支持",
+        "比 Cursor 这类开箱即用工具需要更多配置与模型知识",
+        "智能体表现高度依赖你接入的模型"
+      ],
+      "ja": [
+        "長いコンテキストのエージェントセッションではトークン課金コストが急増しがち",
+        "エンタープライズ版以外では公式JetBrainsサポートがまだない",
+        "Cursorのようなターンキー型ツールより設定とモデル知識が必要",
+        "エージェントの品質は接続するモデルに大きく依存"
+      ],
+      "es": [
+        "El coste por token puede dispararse en sesiones agénticas largas con contextos grandes",
+        "Aún no hay soporte oficial de JetBrains fuera del plan Enterprise",
+        "Requiere más configuración y conocimiento de modelos que herramientas llave en mano como Cursor",
+        "La calidad del agente depende mucho del modelo que conectes"
+      ],
+      "fr": [
+        "Les coûts au token peuvent flamber lors de longues sessions agentiques à grand contexte",
+        "Pas encore de support JetBrains officiel hors du plan Enterprise",
+        "Demande plus de configuration et de connaissances des modèles que des outils clés en main comme Cursor",
+        "La qualité de l'agent dépend fortement du modèle branché"
+      ]
+    },
+    "latestUpdate": {
+      "en": "2026: Cline passes 8 million developers, ships a CLI alongside the VS Code extension, expands the MCP Marketplace, and offers an Enterprise edition with a JetBrains extension, SSO, RBAC and centralized billing",
+      "zh": "2026 年：Cline 开发者突破 800 万，在 VS Code 扩展之外推出 CLI，扩充 MCP 市场，并提供含 JetBrains 扩展、SSO、RBAC 与集中计费的企业版",
+      "ja": "2026年：Clineの開発者数が800万人を突破。VS Code拡張に加えCLIをリリースし、MCPマーケットプレイスを拡充。JetBrains拡張、SSO、RBAC、集中課金を備えたエンタープライズ版も提供",
+      "es": "2026: Cline supera los 8 millones de desarrolladores, lanza una CLI junto a la extensión de VS Code, amplía el MCP Marketplace y ofrece una edición Enterprise con extensión JetBrains, SSO, RBAC y facturación centralizada",
+      "fr": "2026 : Cline dépasse les 8 millions de développeurs, lance une CLI en plus de l'extension VS Code, étoffe la marketplace MCP et propose une édition Enterprise avec extension JetBrains, SSO, RBAC et facturation centralisée"
+    },
+    "verdict": {
+      "badge": "Recommended",
+      "headline": {
+        "en": "The open-source coding agent that charges you nothing but the electricity",
+        "zh": "除了模型电费什么都不收你的开源编码智能体",
+        "ja": "モデル代以外は一銭も取らないオープンソースコーディングエージェント",
+        "es": "El agente de programación open source que solo te cobra la electricidad",
+        "fr": "L'agent de codage open source qui ne vous facture que l'électricité"
+      },
+      "body": {
+        "en": "Cline's pitch is radical transparency: an Apache-licensed agent, no subscription, and inference billed at raw provider prices with your own keys. The Plan/Act split is the best human-in-the-loop design in the category — you read the plan, then let it work. The trade-off is that you become your own model sommelier: costs, quality and speed all depend on what you plug in, and heavy agentic sessions can out-spend a $20 Cursor subscription if you're careless. For developers who want control and auditability over convenience, Cline is the reference implementation.",
+        "zh": "Cline 的卖点是极致透明：Apache 协议的智能体、零订阅费、用自己的密钥按供应商原价计费推理。Plan/Act 分离是同类里最好的人在环设计——先读计划，再放手让它干活。代价是你得当自己的模型侍酒师：成本、质量、速度全看你接什么模型，大手大脚的智能体长会话烧掉的钱可能超过 20 美元的 Cursor 订阅。对于把可控与可审计看得比省心更重的开发者，Cline 就是参考级实现。",
+        "ja": "Clineの売りは徹底した透明性だ。Apacheライセンスのエージェント、サブスク不要、自分のキーでプロバイダー原価のまま推論課金。Plan/Actの分離はこのカテゴリ最高のヒューマンインザループ設計——計画を読んでから任せる。引き換えに、あなた自身がモデルのソムリエになる必要がある。コストも品質も速度も接続するモデル次第で、荒い使い方をすれば長いエージェントセッションが20ドルのCursorサブスクを超えることも。利便性より制御と監査性を重視する開発者にとって、Clineはリファレンス実装だ。",
+        "es": "La propuesta de Cline es transparencia radical: un agente con licencia Apache, sin suscripción, e inferencia facturada a precio bruto del proveedor con tus propias claves. La separación Plan/Act es el mejor diseño human-in-the-loop de la categoría: lees el plan y luego lo dejas trabajar. La contrapartida es que te conviertes en tu propio sumiller de modelos: coste, calidad y velocidad dependen de lo que conectes, y las sesiones agénticas intensas pueden superar el gasto de una suscripción de Cursor de 20 $ si te descuidas. Para desarrolladores que priorizan control y auditabilidad sobre comodidad, Cline es la implementación de referencia.",
+        "fr": "L'argument de Cline, c'est la transparence radicale : un agent sous licence Apache, zéro abonnement, une inférence facturée au prix brut du fournisseur avec vos propres clés. La séparation Plan/Act est le meilleur design human-in-the-loop de la catégorie — vous lisez le plan, puis vous le laissez travailler. En contrepartie, vous devenez votre propre sommelier de modèles : coûts, qualité et vitesse dépendent de ce que vous branchez, et des sessions agentiques intensives peuvent dépasser un abonnement Cursor à 20 $ si vous n'y prenez garde. Pour les développeurs qui préfèrent contrôle et auditabilité au confort, Cline est l'implémentation de référence."
+      },
+      "bestFor": {
+        "en": [
+          "Developers who want frontier models at raw API cost with no markup",
+          "Teams needing an auditable, self-controllable open-source agent",
+          "Power users extending their agent through the MCP ecosystem"
+        ],
+        "zh": [
+          "想以 API 原价、零加价用前沿模型的开发者",
+          "需要可审计、可自控的开源智能体的团队",
+          "通过 MCP 生态扩展智能体的重度用户"
+        ],
+        "ja": [
+          "フロンティアモデルをAPI原価・上乗せなしで使いたい開発者",
+          "監査可能で自己管理できるオープンソースエージェントが必要なチーム",
+          "MCPエコシステムでエージェントを拡張するパワーユーザー"
+        ],
+        "es": [
+          "Desarrolladores que quieren modelos punteros a coste bruto de API sin recargo",
+          "Equipos que necesitan un agente open source auditable y controlable",
+          "Usuarios avanzados que amplían su agente vía el ecosistema MCP"
+        ],
+        "fr": [
+          "Développeurs voulant des modèles de pointe au prix brut de l'API sans marge",
+          "Équipes exigeant un agent open source auditable et contrôlable",
+          "Utilisateurs avancés étendant leur agent via l'écosystème MCP"
+        ]
+      },
+      "considerAlternatives": {
+        "en": [
+          "You want a zero-config, all-in-one paid IDE (→ Cursor, Windsurf)",
+          "You prefer a terminal-native workflow (→ Claude Code, Aider)"
+        ],
+        "zh": [
+          "想要零配置、一体化的付费 IDE（→ Cursor、Windsurf）",
+          "更喜欢终端原生工作流（→ Claude Code、Aider）"
+        ],
+        "ja": [
+          "設定不要のオールインワン有料IDEが欲しい（→ Cursor、Windsurf）",
+          "ターミナルネイティブなワークフローが好み（→ Claude Code、Aider）"
+        ],
+        "es": [
+          "Quieres un IDE de pago todo en uno sin configuración (→ Cursor, Windsurf)",
+          "Prefieres un flujo nativo de terminal (→ Claude Code, Aider)"
+        ],
+        "fr": [
+          "Vous voulez un IDE payant tout-en-un sans configuration (→ Cursor, Windsurf)",
+          "Vous préférez un flux natif en terminal (→ Claude Code, Aider)"
+        ]
+      }
+    }
+  },
+  "warp": {
+    "features": {
+      "en": [
+        "Agentic Development Environment: terminal, code editor and agent manager in one",
+        "Runs multiple coding agents in parallel — Warp's own Oz plus Claude Code, Codex, Gemini CLI",
+        "Modern terminal with blocks, IDE-like input, autocomplete and syntax highlighting",
+        "Agent orchestration across parallel worktrees with real-time control",
+        "Warp Drive stores shared workflows, prompts and environment context for teams",
+        "Cross-platform desktop app for Windows, macOS and Linux"
+      ],
+      "zh": [
+        "智能体开发环境（ADE）：终端、代码编辑器与智能体管理三合一",
+        "并行运行多个编码智能体——自家 Oz 加上 Claude Code、Codex、Gemini CLI",
+        "现代化终端：块式输出、IDE 级输入、自动补全与语法高亮",
+        "跨并行 worktree 的智能体编排，实时掌控",
+        "Warp Drive 为团队存储共享工作流、提示词与环境上下文",
+        "Windows、macOS、Linux 三平台桌面应用"
+      ],
+      "ja": [
+        "エージェント開発環境（ADE）：ターミナル、コードエディタ、エージェント管理を一体化",
+        "複数のコーディングエージェントを並列実行——自社のOzに加えClaude Code、Codex、Gemini CLI",
+        "モダンなターミナル：ブロック表示、IDE級の入力、オートコンプリート、シンタックスハイライト",
+        "並列worktree間のエージェント統括をリアルタイムで制御",
+        "Warp Driveでチームのワークフロー、プロンプト、環境コンテキストを共有",
+        "Windows、macOS、Linux対応のクロスプラットフォームデスクトップアプリ"
+      ],
+      "es": [
+        "Entorno de desarrollo agéntico: terminal, editor de código y gestor de agentes en uno",
+        "Ejecuta varios agentes de codificación en paralelo: Oz de Warp más Claude Code, Codex, Gemini CLI",
+        "Terminal moderna con bloques, entrada tipo IDE, autocompletado y resaltado de sintaxis",
+        "Orquestación de agentes en worktrees paralelos con control en tiempo real",
+        "Warp Drive almacena flujos de trabajo, prompts y contexto de entorno compartidos para equipos",
+        "App de escritorio multiplataforma para Windows, macOS y Linux"
+      ],
+      "fr": [
+        "Environnement de développement agentique : terminal, éditeur de code et gestionnaire d'agents en un",
+        "Exécute plusieurs agents de codage en parallèle — Oz de Warp plus Claude Code, Codex, Gemini CLI",
+        "Terminal moderne avec blocs, saisie type IDE, autocomplétion et coloration syntaxique",
+        "Orchestration d'agents sur des worktrees parallèles avec contrôle en temps réel",
+        "Warp Drive stocke workflows, prompts et contexte d'environnement partagés pour les équipes",
+        "Application de bureau multiplateforme pour Windows, macOS et Linux"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "Free plan at $0: the full modern terminal, bring-your-own AI subscriptions (Claude Code, Codex, Gemini CLI) and a limited allowance of cloud agent features",
+        "zh": "免费版 0 美元：完整现代终端、自带 AI 订阅（Claude Code、Codex、Gemini CLI）接入，以及有限额度的云端智能体功能",
+        "ja": "無料プラン0ドル：フル機能のモダンターミナル、手持ちのAIサブスク（Claude Code、Codex、Gemini CLI）の持ち込み、限定枠のクラウドエージェント機能",
+        "es": "Plan gratuito a 0 $: la terminal moderna completa, tus propias suscripciones de IA (Claude Code, Codex, Gemini CLI) y una asignación limitada de funciones de agentes en la nube",
+        "fr": "Plan gratuit à 0 $ : le terminal moderne complet, vos propres abonnements IA (Claude Code, Codex, Gemini CLI) et un quota limité de fonctions d'agents cloud"
+      },
+      "paid": {
+        "en": "Build $20/mo ($18 annual) with 1,500 credits ≈ $20 of API usage; Max $200/mo ($180 annual) with 18,000 credits; Business $50/user/mo ($45 annual, up to 25 seats, SAML SSO); Enterprise custom with BYO LLM and self-hosted cloud agents",
+        "zh": "Build 版 20 美元/月（年付 18 美元）含 1500 积分≈20 美元 API 用量；Max 版 200 美元/月（年付 180 美元）含 18000 积分；Business 版 50 美元/用户/月（年付 45 美元，最多 25 席，SAML SSO）；企业版定制，支持自带 LLM 与自托管云端智能体",
+        "ja": "Build版は月額20ドル（年払い18ドル）で1,500クレジット≈API利用20ドル分。Max版は月額200ドル（年払い180ドル）で18,000クレジット。Business版はユーザーあたり月額50ドル（年払い45ドル、最大25席、SAML SSO）。エンタープライズ版は個別見積りでBYO LLMとセルフホスト型クラウドエージェントに対応",
+        "es": "Build 20 $/mes (18 $ anual) con 1500 créditos ≈ 20 $ de uso de API; Max 200 $/mes (180 $ anual) con 18 000 créditos; Business 50 $/usuario/mes (45 $ anual, hasta 25 puestos, SSO SAML); Enterprise personalizado con LLM propio y agentes cloud autoalojados",
+        "fr": "Build à 20 $/mois (18 $ en annuel) avec 1500 crédits ≈ 20 $ d'usage API ; Max à 200 $/mois (180 $ en annuel) avec 18 000 crédits ; Business à 50 $/utilisateur/mois (45 $ en annuel, jusqu'à 25 sièges, SSO SAML) ; Enterprise sur mesure avec LLM maison et agents cloud auto-hébergés"
+      }
+    },
+    "useCases": {
+      "en": [
+        "Orchestrating several coding agents in parallel from one cockpit",
+        "Upgrading from a legacy terminal to a modern, AI-native one for free",
+        "Teams standardizing shared commands and workflows via Warp Drive",
+        "Running Claude Code or Codex subscriptions inside a nicer interface"
+      ],
+      "zh": [
+        "在一个驾驶舱里并行编排多个编码智能体",
+        "从老式终端免费升级到现代 AI 原生终端",
+        "团队用 Warp Drive 统一共享命令与工作流",
+        "把 Claude Code 或 Codex 订阅放进更好用的界面里跑"
+      ],
+      "ja": [
+        "1つのコックピットから複数のコーディングエージェントを並列統括",
+        "レガシーターミナルからモダンなAIネイティブターミナルへ無料アップグレード",
+        "Warp Driveでチームの共有コマンドとワークフローを標準化",
+        "Claude CodeやCodexのサブスクをより快適なインターフェースで実行"
+      ],
+      "es": [
+        "Orquestar varios agentes de codificación en paralelo desde una sola cabina",
+        "Pasar gratis de una terminal antigua a una moderna y nativa de IA",
+        "Equipos que estandarizan comandos y flujos compartidos vía Warp Drive",
+        "Ejecutar suscripciones de Claude Code o Codex en una interfaz más agradable"
+      ],
+      "fr": [
+        "Orchestrer plusieurs agents de codage en parallèle depuis un seul cockpit",
+        "Passer gratuitement d'un terminal ancien à un terminal moderne natif IA",
+        "Équipes standardisant commandes et workflows partagés via Warp Drive",
+        "Exécuter vos abonnements Claude Code ou Codex dans une interface plus soignée"
+      ]
+    },
+    "pros": {
+      "en": [
+        "Best-in-class terminal UX even before you touch any AI feature",
+        "Agent-agnostic: BYO Claude Code, Codex or Gemini CLI on the free plan",
+        "Parallel multi-agent orchestration is genuinely ahead of the pack",
+        "Windows, macOS and Linux parity — rare among AI dev environments"
+      ],
+      "zh": [
+        "还没碰 AI 功能之前，终端体验就已是同类最佳",
+        "智能体无关：免费版即可自带 Claude Code、Codex、Gemini CLI",
+        "并行多智能体编排真正走在行业前面",
+        "Windows、macOS、Linux 三端对等——AI 开发环境里少见"
+      ],
+      "ja": [
+        "AI機能に触れる前からターミナルUXがクラス最高",
+        "エージェント非依存：無料プランでもClaude Code、Codex、Gemini CLIを持ち込み可",
+        "並列マルチエージェント統括は本当に業界の先を行く",
+        "Windows、macOS、Linuxの3プラットフォーム対等対応——AI開発環境では珍しい"
+      ],
+      "es": [
+        "Experiencia de terminal líder incluso antes de tocar ninguna función de IA",
+        "Agnóstico de agentes: trae tu Claude Code, Codex o Gemini CLI en el plan gratuito",
+        "La orquestación multiagente en paralelo va genuinamente por delante del resto",
+        "Paridad en Windows, macOS y Linux, algo raro entre entornos de desarrollo IA"
+      ],
+      "fr": [
+        "Expérience terminal la meilleure de sa catégorie avant même de toucher à l'IA",
+        "Indépendant des agents : apportez Claude Code, Codex ou Gemini CLI dès le plan gratuit",
+        "L'orchestration multi-agents parallèle a une vraie longueur d'avance",
+        "Parité Windows, macOS et Linux — rare parmi les environnements de dev IA"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Credit system for Warp's own agents adds a second bill to reason about",
+        "Requires an account sign-in, which some terminal purists reject",
+        "Max at $200/mo is steep if you're not running agents all day",
+        "Telemetry and cloud features raise concerns for air-gapped environments"
+      ],
+      "zh": [
+        "自家智能体的积分制等于多了一张要算的账单",
+        "需要登录账号，部分终端原教旨主义者不接受",
+        "不整天跑智能体的话，200 美元/月的 Max 版偏贵",
+        "遥测与云功能对隔离网络环境是个顾虑"
+      ],
+      "ja": [
+        "自社エージェントのクレジット制で管理すべき請求が1つ増える",
+        "アカウントログインが必須で、一部のターミナル純粋主義者には不評",
+        "1日中エージェントを回さないなら月額200ドルのMaxは割高",
+        "テレメトリーとクラウド機能はエアギャップ環境では懸念材料"
+      ],
+      "es": [
+        "El sistema de créditos de los agentes propios de Warp añade una segunda factura que vigilar",
+        "Requiere iniciar sesión con cuenta, algo que los puristas de la terminal rechazan",
+        "Max a 200 $/mes es caro si no ejecutas agentes todo el día",
+        "La telemetría y las funciones cloud generan dudas en entornos aislados"
+      ],
+      "fr": [
+        "Le système de crédits des agents maison ajoute une seconde facture à surveiller",
+        "Exige une connexion à un compte, ce que certains puristes du terminal refusent",
+        "Max à 200 $/mois est cher si vous ne faites pas tourner des agents toute la journée",
+        "La télémétrie et les fonctions cloud posent question en environnement isolé"
+      ]
+    },
+    "latestUpdate": {
+      "en": "2026: Warp 2.0 rebrands as an Agentic Development Environment uniting Code, Agents, Terminal and Drive; it now runs third-party agents (Claude Code, Codex, Gemini CLI) alongside its own Oz, with plans from free to $200/mo Max and a 25-seat Business tier",
+      "zh": "2026 年：Warp 2.0 改版为智能体开发环境（ADE），统合 Code、Agents、Terminal 与 Drive 四大板块；现可在自家 Oz 之外运行第三方智能体（Claude Code、Codex、Gemini CLI），价格从免费到 200 美元/月的 Max 版，另有 25 席的 Business 档",
+      "ja": "2026年：Warp 2.0はCode、Agents、Terminal、Driveを統合したエージェント開発環境（ADE）へ刷新。自社のOzに加えサードパーティエージェント（Claude Code、Codex、Gemini CLI）も実行可能に。無料から月額200ドルのMaxまで、25席のBusinessティアも用意",
+      "es": "2026: Warp 2.0 se reinventa como Entorno de Desarrollo Agéntico uniendo Code, Agents, Terminal y Drive; ahora ejecuta agentes de terceros (Claude Code, Codex, Gemini CLI) junto a su propio Oz, con planes desde gratis hasta Max de 200 $/mes y un nivel Business de 25 puestos",
+      "fr": "2026 : Warp 2.0 devient un Environnement de Développement Agentique réunissant Code, Agents, Terminal et Drive ; il exécute désormais des agents tiers (Claude Code, Codex, Gemini CLI) aux côtés de son propre Oz, avec des plans du gratuit au Max à 200 $/mois et une offre Business de 25 sièges"
+    },
+    "verdict": {
+      "badge": "Recommended",
+      "headline": {
+        "en": "The cockpit for the multi-agent era — and still the best terminal, free",
+        "zh": "多智能体时代的驾驶舱——同时还是最好的免费终端",
+        "ja": "マルチエージェント時代のコックピット——そして今も最高の無料ターミナル",
+        "es": "La cabina de mando de la era multiagente, y aún la mejor terminal gratis",
+        "fr": "Le cockpit de l'ère multi-agents — et toujours le meilleur terminal, gratuit"
+      },
+      "body": {
+        "en": "Warp made a shrewd bet: instead of fighting Claude Code and Codex, it became the place you run them. The free tier is an easy yes — you get the best terminal on any platform and can plug in AI subscriptions you already pay for. The harder question is Warp's own credit-metered agents, which add a second bill on top of your model subscriptions. Casual users may never need them; agent power users will burn through Build's 1,500 credits fast and face the $200 Max cliff. Treat the terminal as the product and the agents as an option, and Warp is close to unbeatable.",
+        "zh": "Warp 下了一步精明的棋：不跟 Claude Code、Codex 硬碰，而是变成运行它们的地方。免费版闭眼入——你能得到全平台最好的终端，还能接入你已经在付费的 AI 订阅。更难的问题是 Warp 自家按积分计量的智能体，等于在模型订阅之上又添一张账单。轻度用户可能永远用不上；智能体重度用户则会飞快烧完 Build 版的 1500 积分，直面 200 美元 Max 版的悬崖。把终端当产品、把智能体当选配，Warp 几乎无可匹敌。",
+        "ja": "Warpは賢い賭けに出た。Claude CodeやCodexと戦う代わりに、それらを動かす場所になったのだ。無料ティアは迷わずイエス——全プラットフォームで最高のターミナルが手に入り、既に契約中のAIサブスクを差し込める。悩ましいのはWarp自身のクレジット計量制エージェントで、モデルのサブスクに加えて2枚目の請求書が届く。ライトユーザーには不要かもしれないが、エージェントのヘビーユーザーはBuildの1,500クレジットをあっという間に使い切り、200ドルのMaxという崖に直面する。ターミナルを本体、エージェントをオプションと捉えれば、Warpはほぼ無敵だ。",
+        "es": "Warp hizo una apuesta astuta: en vez de pelear contra Claude Code y Codex, se convirtió en el lugar donde los ejecutas. El nivel gratuito es un sí fácil: obtienes la mejor terminal en cualquier plataforma y puedes conectar las suscripciones de IA que ya pagas. La cuestión difícil son los agentes propios de Warp medidos por créditos, que añaden una segunda factura sobre tus suscripciones de modelos. Los usuarios ocasionales quizá nunca los necesiten; los usuarios intensivos quemarán rápido los 1500 créditos de Build y se toparán con el precipicio del Max de 200 $. Trata la terminal como el producto y los agentes como opción, y Warp es casi imbatible.",
+        "fr": "Warp a fait un pari malin : au lieu d'affronter Claude Code et Codex, il est devenu l'endroit où on les exécute. Le niveau gratuit est un oui facile — vous obtenez le meilleur terminal toutes plateformes confondues et pouvez brancher les abonnements IA que vous payez déjà. La vraie question, ce sont les agents maison de Warp facturés en crédits, qui ajoutent une seconde facture à vos abonnements de modèles. Les utilisateurs occasionnels n'en auront peut-être jamais besoin ; les gros utilisateurs d'agents épuiseront vite les 1500 crédits de Build et se heurteront à la falaise du Max à 200 $. Considérez le terminal comme le produit et les agents comme une option, et Warp est presque imbattable."
+      },
+      "bestFor": {
+        "en": [
+          "Developers running multiple coding agents who want one control plane",
+          "Anyone wanting a dramatically better terminal at zero cost",
+          "Teams sharing workflows and environment context via Warp Drive"
+        ],
+        "zh": [
+          "跑多个编码智能体、想要统一控制台的开发者",
+          "想零成本获得体验飞跃的终端用户",
+          "用 Warp Drive 共享工作流与环境上下文的团队"
+        ],
+        "ja": [
+          "複数のコーディングエージェントを1つのコントロールプレーンで管理したい開発者",
+          "コストゼロで劇的に良いターミナルが欲しい全ての人",
+          "Warp Driveでワークフローと環境コンテキストを共有するチーム"
+        ],
+        "es": [
+          "Desarrolladores con varios agentes de codificación que quieren un solo panel de control",
+          "Cualquiera que quiera una terminal drásticamente mejor a coste cero",
+          "Equipos que comparten flujos y contexto de entorno vía Warp Drive"
+        ],
+        "fr": [
+          "Développeurs exécutant plusieurs agents de codage et voulant un plan de contrôle unique",
+          "Quiconque veut un terminal radicalement meilleur à coût nul",
+          "Équipes partageant workflows et contexte d'environnement via Warp Drive"
+        ]
+      },
+      "considerAlternatives": {
+        "en": [
+          "You just want one agent in your existing IDE (→ Cline, GitHub Copilot)",
+          "You need a fully offline, no-account terminal workflow (→ Aider)"
+        ],
+        "zh": [
+          "只想在现有 IDE 里用一个智能体（→ Cline、GitHub Copilot）",
+          "需要完全离线、无需账号的终端工作流（→ Aider）"
+        ],
+        "ja": [
+          "既存IDEでエージェントを1つ使えれば十分（→ Cline、GitHub Copilot）",
+          "完全オフライン・アカウント不要のターミナルワークフローが必要（→ Aider）"
+        ],
+        "es": [
+          "Solo quieres un agente en tu IDE actual (→ Cline, GitHub Copilot)",
+          "Necesitas un flujo de terminal totalmente offline y sin cuenta (→ Aider)"
+        ],
+        "fr": [
+          "Vous voulez juste un agent dans votre IDE actuel (→ Cline, GitHub Copilot)",
+          "Vous avez besoin d'un flux terminal entièrement hors ligne sans compte (→ Aider)"
+        ]
+      }
+    }
   }
 }
