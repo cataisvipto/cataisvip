@@ -1,0 +1,26 @@
+name: Link Health
+
+on:
+  schedule:
+    # 每周一 UTC 22:00（北京时间周二早 6 点）自动审核工具官网存活
+    - cron: '0 22 * * 1'
+  workflow_dispatch:
+
+jobs:
+  liveness:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      # 只需 undici 一个依赖，装全量 node_modules 太慢
+      - run: npm i --no-save undici
+
+      - name: 工具官网存活审核
+        run: node scripts/check-tool-liveness.mjs
