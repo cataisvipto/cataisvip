@@ -3311,5 +3311,175 @@
       "browser_extension": false,
       "api": true
     }
+  },
+  {
+    "slug": "lindy",
+    "name": "Lindy",
+    "nameZh": "Lindy",
+    "description": "AI 行政助理与智能体平台：接管邮箱、日程、会议记录与跟进，iMessage/短信随时召唤，100+ 集成",
+    "descriptionEn": "AI executive assistant and agent platform: runs your inbox, calendar, meeting notes and follow-ups, reachable via iMessage/SMS, 100+ integrations",
+    "descriptionJa": "AI秘書＆エージェントプラットフォーム。受信箱・カレンダー・議事録・フォローアップを代行、iMessage/SMSで呼び出せる。100以上の連携に対応",
+    "descriptionEs": "Asistente ejecutivo IA y plataforma de agentes: gestiona tu bandeja de entrada, calendario, notas de reuniones y seguimientos, accesible por iMessage/SMS, con más de 100 integraciones",
+    "descriptionFr": "Assistant de direction IA et plateforme d'agents : gère votre boîte mail, agenda, comptes rendus de réunion et relances, joignable par iMessage/SMS, plus de 100 intégrations",
+    "url": "https://www.lindy.ai",
+    "logo": "/logos/tools/lindy.png",
+    "category": "Agent",
+    "tags": [
+      "Paid"
+    ],
+    "featured": false,
+    "developer": "Lindy",
+    "platforms": {
+      "web": true,
+      "windows": false,
+      "macos": false,
+      "ios": false,
+      "android": false,
+      "linux": false,
+      "browser_extension": false,
+      "api": "unknown"
+    }
+  },
+  {
+    "slug": "gumloop",
+    "name": "Gumloop",
+    "nameZh": "Gumloop",
+    "description": "多人协作的无代码 AI Agent 与工作流构建平台：任意模型任意集成、IT 统一管控，Benchmark 领投 5000 万美元 B 轮",
+    "descriptionEn": "Multiplayer no-code AI agent and workflow builder: any AI model, any integration, with IT-controlled access; raised a $50M Series B led by Benchmark",
+    "descriptionJa": "マルチプレイヤー型ノーコードAIエージェント＆ワークフロービルダー。任意のモデル・連携を利用でき、IT部門がアクセスを一元管理。Benchmark主導で5,000万ドルのシリーズB調達",
+    "descriptionEs": "Constructor colaborativo sin código de agentes IA y flujos de trabajo: cualquier modelo, cualquier integración, con control de acceso por TI; Serie B de 50 M$ liderada por Benchmark",
+    "descriptionFr": "Constructeur collaboratif no-code d'agents IA et de workflows : n'importe quel modèle, n'importe quelle intégration, accès contrôlé par la DSI ; série B de 50 M$ menée par Benchmark",
+    "url": "https://www.gumloop.com",
+    "logo": "/logos/tools/gumloop.ico",
+    "category": "Agent",
+    "tags": [
+      "Paid"
+    ],
+    "featured": false,
+    "developer": "Gumloop",
+    "platforms": {
+      "web": true,
+      "windows": false,
+      "macos": false,
+      "ios": false,
+      "android": false,
+      "linux": false,
+      "browser_extension": false,
+      "api": true
+    }
+  },
+  {
+    "slug": "skyvern",
+    "name": "Skyvern",
+    "nameZh": "Skyvern",
+    "description": "开源 AI 浏览器自动化平台（AGPL-3.0，20K+ stars）：计算机视觉 + LLM 取代脆弱选择器，原生处理登录/2FA/验证码",
+    "descriptionEn": "Open-source AI browser automation platform (AGPL-3.0, 20K+ stars): computer vision + LLMs instead of brittle selectors, handles logins/2FA/CAPTCHAs natively",
+    "descriptionJa": "オープンソースのAIブラウザ自動化プラットフォーム（AGPL-3.0、20K+スター）。コンピュータビジョン＋LLMで脆いセレクタを代替し、ログイン/2FA/CAPTCHAもネイティブに処理",
+    "descriptionEs": "Plataforma open source de automatización de navegador con IA (AGPL-3.0, más de 20K estrellas): visión por computadora + LLM en lugar de selectores frágiles, maneja logins/2FA/CAPTCHA de forma nativa",
+    "descriptionFr": "Plateforme open source d'automatisation de navigateur par IA (AGPL-3.0, 20K+ étoiles) : vision par ordinateur + LLM au lieu de sélecteurs fragiles, gère nativement connexions/2FA/CAPTCHA",
+    "url": "https://www.skyvern.com",
+    "logo": "/logos/tools/skyvern.png",
+    "category": "Agent",
+    "tags": [
+      "Freemium",
+      "Open Source",
+      "API"
+    ],
+    "featured": false,
+    "developer": "Skyvern",
+    "platforms": {
+      "web": true,
+      "windows": true,
+      "macos": true,
+      "ios": false,
+      "android": false,
+      "linux": true,
+      "browser_extension": false,
+      "api": true
+    }
+  },
+  {
+    "slug": "make-ai",
+    "name": "Make AI",
+    "nameZh": "Make AI",
+    "description": "Make 可视化自动化平台的 AI Agent 能力：透明可控的智能体编排复杂工作流，连接 3000+ 应用",
+    "descriptionEn": "AI agent capabilities of the Make visual automation platform: transparent, controllable agents orchestrating complex workflows across 3,000+ apps",
+    "descriptionJa": "ビジュアル自動化プラットフォームMakeのAIエージェント機能。透明で制御可能なエージェントが複雑なワークフローをオーケストレーションし、3,000以上のアプリと連携",
+    "descriptionEs": "Capacidades de agentes IA de la plataforma de automatización visual Make: agentes transparentes y controlables que orquestan flujos complejos entre más de 3000 aplicaciones",
+    "descriptionFr": "Capacités d'agents IA de la plateforme d'automatisation visuelle Make : des agents transparents et contrôlables orchestrant des workflows complexes sur plus de 3000 applications",
+    "url": "https://www.make.com/en/ai-agents",
+    "logo": "/logos/tools/make-ai.png",
+    "category": "Agent",
+    "tags": [
+      "Freemium"
+    ],
+    "featured": false,
+    "developer": "Make",
+    "platforms": {
+      "web": true,
+      "windows": false,
+      "macos": false,
+      "ios": "unknown",
+      "android": "unknown",
+      "linux": false,
+      "browser_extension": false,
+      "api": true
+    }
+  },
+  {
+    "slug": "agentforce",
+    "name": "Agentforce",
+    "nameZh": "Agentforce",
+    "description": "Salesforce 企业级 AI 智能体平台：构建面向客户与员工的数字劳动力，深度融合 CRM 数据与业务流程",
+    "descriptionEn": "Salesforce's enterprise AI agent platform: build a digital labor force for customers and employees, deeply integrated with CRM data and business workflows",
+    "descriptionJa": "Salesforceのエンタープライズ向けAIエージェントプラットフォーム。顧客・従業員向けのデジタル労働力を構築し、CRMデータと業務プロセスに深く統合",
+    "descriptionEs": "Plataforma empresarial de agentes IA de Salesforce: crea una fuerza laboral digital para clientes y empleados, profundamente integrada con los datos CRM y los procesos de negocio",
+    "descriptionFr": "Plateforme d'agents IA d'entreprise de Salesforce : créez une main-d'œuvre numérique pour clients et employés, profondément intégrée aux données CRM et aux processus métier",
+    "url": "https://www.salesforce.com/agentforce/",
+    "logo": "/logos/tools/agentforce.ico",
+    "category": "Agent",
+    "tags": [
+      "Paid"
+    ],
+    "featured": false,
+    "developer": "Salesforce",
+    "platforms": {
+      "web": true,
+      "windows": false,
+      "macos": false,
+      "ios": false,
+      "android": false,
+      "linux": false,
+      "browser_extension": false,
+      "api": true
+    }
+  },
+  {
+    "slug": "copilot-studio",
+    "name": "Microsoft Copilot Studio",
+    "nameZh": "微软 Copilot Studio",
+    "description": "微软低代码 AI 智能体构建平台：图形化编排 + 自然语言创建智能体，发布到 Teams/网站/M365，深度集成 Power Platform",
+    "descriptionEn": "Microsoft's low-code AI agent building platform: create agents graphically or with natural language, publish to Teams/websites/M365, deeply integrated with Power Platform",
+    "descriptionJa": "Microsoftのローコード型AIエージェント構築プラットフォーム。GUIや自然言語でエージェントを作成し、Teams/Webサイト/M365に公開。Power Platformと深く統合",
+    "descriptionEs": "Plataforma low-code de Microsoft para crear agentes IA: crea agentes de forma gráfica o con lenguaje natural, publícalos en Teams/webs/M365, con integración profunda con Power Platform",
+    "descriptionFr": "Plateforme low-code de Microsoft pour créer des agents IA : création graphique ou en langage naturel, publication sur Teams/sites web/M365, intégration poussée avec Power Platform",
+    "url": "https://copilotstudio.microsoft.com",
+    "logo": "/logos/tools/copilot-studio.ico",
+    "category": "Agent",
+    "tags": [
+      "Paid"
+    ],
+    "featured": false,
+    "developer": "Microsoft",
+    "platforms": {
+      "web": true,
+      "windows": false,
+      "macos": false,
+      "ios": false,
+      "android": false,
+      "linux": false,
+      "browser_extension": false,
+      "api": true
+    }
   }
 ]

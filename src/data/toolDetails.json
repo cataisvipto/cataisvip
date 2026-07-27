@@ -27796,5 +27796,1379 @@
         ]
       }
     }
+  },
+  "agentforce": {
+    "features": {
+      "en": [
+        "Enterprise AI agents natively grounded in Salesforce CRM data",
+        "Atlas reasoning engine plans multi-step actions with guardrails",
+        "Prebuilt agents for service, sales (SDR), commerce and marketing",
+        "Agentforce Voice brings agents to phone calls and IVR replacement",
+        "Low-code Agent Builder plus pro-code extensibility via Apex and APIs",
+        "Consumption pricing: Flex Credits tie cost to actions performed"
+      ],
+      "zh": [
+        "原生扎根 Salesforce CRM 数据的企业级 AI 智能体",
+        "Atlas 推理引擎带护栏地规划多步动作",
+        "预置客服、销售（SDR）、电商与营销智能体",
+        "Agentforce Voice 让智能体接管电话与 IVR 替代场景",
+        "低代码 Agent Builder，另可用 Apex 与 API 做专业扩展",
+        "按消耗计价：Flex Credits 让成本与实际执行的动作挂钩"
+      ],
+      "ja": [
+        "Salesforce CRMデータにネイティブに根ざしたエンタープライズAIエージェント",
+        "Atlas推論エンジンがガードレール付きでマルチステップ行動を計画",
+        "サービス、営業（SDR）、コマース、マーケ向けの事前構築エージェント",
+        "Agentforce Voiceで電話対応やIVR置き換えにもエージェントを展開",
+        "ローコードのAgent Builderに加え、ApexとAPIによるプロコード拡張",
+        "消費ベース課金：Flex Creditsで実行アクション数にコストが連動"
+      ],
+      "es": [
+        "Agentes IA empresariales anclados nativamente en los datos CRM de Salesforce",
+        "El motor de razonamiento Atlas planifica acciones multipaso con guardarraíles",
+        "Agentes preconstruidos para servicio, ventas (SDR), comercio y marketing",
+        "Agentforce Voice lleva los agentes a llamadas telefónicas y reemplazo de IVR",
+        "Agent Builder low-code más extensibilidad pro-code vía Apex y APIs",
+        "Precios por consumo: los Flex Credits ligan el coste a las acciones ejecutadas"
+      ],
+      "fr": [
+        "Agents IA d'entreprise nativement ancrés dans les données CRM Salesforce",
+        "Le moteur de raisonnement Atlas planifie des actions multi-étapes avec garde-fous",
+        "Agents préconstruits pour le service client, la vente (SDR), le commerce et le marketing",
+        "Agentforce Voice amène les agents au téléphone et en remplacement d'IVR",
+        "Agent Builder low-code plus extensibilité pro-code via Apex et les API",
+        "Tarification à la consommation : les Flex Credits lient le coût aux actions exécutées"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "No free plan; limited Agentforce capabilities are bundled into Salesforce Foundations for existing customers to trial",
+        "zh": "无免费版；Salesforce Foundations 为现有客户附带有限的 Agentforce 能力可供试用",
+        "ja": "無料プランなし。既存顧客はSalesforce Foundationsに同梱される限定的なAgentforce機能で試用可能",
+        "es": "Sin plan gratuito; Salesforce Foundations incluye capacidades limitadas de Agentforce para que los clientes existentes prueben",
+        "fr": "Pas de plan gratuit ; Salesforce Foundations inclut des capacités Agentforce limitées pour que les clients existants puissent essayer"
+      },
+      "paid": {
+        "en": "Consumption-based Flex Credits: $500 per 100,000 credits, with each agent action consuming 20 credits ($0.10/action); per-user licensing and conversation-based options also available; enterprise contracts negotiated",
+        "zh": "按消耗的 Flex Credits：500 美元/10 万积分，每个智能体动作消耗 20 积分（0.10 美元/动作）；另有按用户席位与按会话的计价选项；企业合同单独议价",
+        "ja": "消費ベースのFlex Credits：10万クレジットで500ドル、エージェントの1アクションで20クレジット消費（0.10ドル/アクション）。ユーザー単位ライセンスや会話ベースの選択肢もあり、エンタープライズ契約は個別交渉",
+        "es": "Flex Credits por consumo: 500 $ por 100 000 créditos, cada acción del agente consume 20 créditos (0,10 $/acción); también hay licencias por usuario y opciones por conversación; contratos enterprise negociados",
+        "fr": "Flex Credits à la consommation : 500 $ pour 100 000 crédits, chaque action d'agent consommant 20 crédits (0,10 $/action) ; licences par utilisateur et options par conversation également disponibles ; contrats enterprise négociés"
+      }
+    },
+    "useCases": {
+      "en": [
+        "Customer service agents resolving cases grounded in CRM history",
+        "SDR agents qualifying and nurturing inbound leads around the clock",
+        "Voice agents replacing legacy IVR trees on support lines",
+        "Employee-facing agents answering HR and IT questions from company data"
+      ],
+      "zh": [
+        "基于 CRM 历史记录解决工单的客服智能体",
+        "全天候筛选和培育入站线索的 SDR 智能体",
+        "在客服热线上替换老式 IVR 树的语音智能体",
+        "用公司数据回答 HR 与 IT 问题的员工端智能体"
+      ],
+      "ja": [
+        "CRM履歴に基づいてケースを解決するカスタマーサービスエージェント",
+        "インバウンドリードを24時間体制で選別・育成するSDRエージェント",
+        "サポート回線のレガシーIVRツリーを置き換える音声エージェント",
+        "社内データでHR・IT関連の質問に答える従業員向けエージェント"
+      ],
+      "es": [
+        "Agentes de servicio resolviendo casos basados en el historial CRM",
+        "Agentes SDR calificando y nutriendo leads entrantes las 24 horas",
+        "Agentes de voz reemplazando árboles IVR heredados en líneas de soporte",
+        "Agentes internos respondiendo dudas de RR. HH. y TI con datos corporativos"
+      ],
+      "fr": [
+        "Agents de service client résolvant les dossiers à partir de l'historique CRM",
+        "Agents SDR qualifiant et nourrissant les leads entrants 24h/24",
+        "Agents vocaux remplaçant les arborescences IVR sur les lignes de support",
+        "Agents internes répondant aux questions RH et IT à partir des données d'entreprise"
+      ]
+    },
+    "pros": {
+      "en": [
+        "Unmatched grounding in CRM data no external agent can replicate",
+        "Enterprise trust layer: guardrails, audit trails, Einstein Trust Layer",
+        "Pay-per-action pricing ties spend to measurable outcomes",
+        "Prebuilt role agents shorten time-to-value dramatically"
+      ],
+      "zh": [
+        "对 CRM 数据的原生掌握，外部智能体无法复制",
+        "企业信任层：护栏、审计留痕、Einstein Trust Layer",
+        "按动作付费，把开销和可衡量的结果绑在一起",
+        "预置角色智能体大幅缩短见效时间"
+      ],
+      "ja": [
+        "外部エージェントには真似できないCRMデータへのネイティブな根ざし",
+        "エンタープライズ信頼レイヤー：ガードレール、監査証跡、Einstein Trust Layer",
+        "アクション単位課金で支出と測定可能な成果が連動",
+        "事前構築のロール別エージェントで価値実現までの時間を大幅短縮"
+      ],
+      "es": [
+        "Anclaje inigualable en datos CRM que ningún agente externo puede replicar",
+        "Capa de confianza enterprise: guardarraíles, auditoría, Einstein Trust Layer",
+        "El pago por acción liga el gasto a resultados medibles",
+        "Los agentes de rol preconstruidos acortan drásticamente el time-to-value"
+      ],
+      "fr": [
+        "Ancrage inégalé dans les données CRM qu'aucun agent externe ne peut répliquer",
+        "Couche de confiance entreprise : garde-fous, pistes d'audit, Einstein Trust Layer",
+        "Le paiement à l'action lie la dépense à des résultats mesurables",
+        "Les agents préconstruits par rôle raccourcissent nettement le time-to-value"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Only worthwhile inside the Salesforce ecosystem — heavy lock-in",
+        "Costs escalate fast: $0.10/action compounds on chatty workflows",
+        "Pricing model has changed repeatedly, complicating budgeting",
+        "Setup and data hygiene demands are significant for good results"
+      ],
+      "zh": [
+        "只在 Salesforce 生态内才划算——锁定极重",
+        "成本攀升快：0.10 美元/动作在高频流程里会滚雪球",
+        "计价模式反复调整，预算规划不省心",
+        "要出好效果，前期配置与数据治理投入不小"
+      ],
+      "ja": [
+        "Salesforceエコシステム内でしか価値がなく、ロックインが重い",
+        "コスト上昇が速い：0.10ドル/アクションは対話の多いフローで雪だるま式に",
+        "料金モデルが何度も変わり予算立てが難しい",
+        "良い結果を出すには初期設定とデータ整備の負担が大きい"
+      ],
+      "es": [
+        "Solo compensa dentro del ecosistema Salesforce: fuerte dependencia",
+        "Los costes escalan rápido: 0,10 $/acción se acumula en flujos conversacionales",
+        "El modelo de precios ha cambiado varias veces, complicando el presupuesto",
+        "La configuración y la higiene de datos exigen bastante para lograr buenos resultados"
+      ],
+      "fr": [
+        "Ne vaut le coup qu'au sein de l'écosystème Salesforce — fort verrouillage",
+        "Les coûts grimpent vite : 0,10 $/action s'accumule sur les flux bavards",
+        "Le modèle tarifaire a changé plusieurs fois, compliquant la budgétisation",
+        "La configuration et la qualité des données exigent un investissement conséquent"
+      ]
+    },
+    "latestUpdate": {
+      "en": "2026: Salesforce standardizes Agentforce pricing on Flex Credits ($500 per 100K credits, $0.10 per action) alongside per-user options, expands Agentforce Voice, and pushes hybrid human-agent workforce tooling across Service, Sales and Marketing clouds",
+      "zh": "2026 年：Salesforce 把 Agentforce 计价统一到 Flex Credits（500 美元/10 万积分、0.10 美元/动作），并保留按用户选项；扩展 Agentforce Voice，在服务云、销售云与营销云全面推进人机混合劳动力工具",
+      "ja": "2026年：SalesforceはAgentforceの料金をFlex Credits（10万クレジット500ドル、1アクション0.10ドル）に標準化しユーザー単位オプションも併存。Agentforce Voiceを拡充し、Service・Sales・Marketingの各クラウドで人間とエージェントのハイブリッド労働力ツールを推進",
+      "es": "2026: Salesforce estandariza los precios de Agentforce en Flex Credits (500 $ por 100K créditos, 0,10 $ por acción) junto a opciones por usuario, amplía Agentforce Voice e impulsa herramientas de fuerza laboral híbrida humano-agente en Service, Sales y Marketing",
+      "fr": "2026 : Salesforce standardise la tarification d'Agentforce sur les Flex Credits (500 $ pour 100K crédits, 0,10 $ par action) avec des options par utilisateur, étend Agentforce Voice et pousse les outils de main-d'œuvre hybride humain-agent sur les clouds Service, Sales et Marketing"
+    },
+    "verdict": {
+      "badge": "For Specific Needs",
+      "headline": {
+        "en": "The strongest agent play in enterprise software — if you already live in Salesforce",
+        "zh": "企业软件里最强的智能体布局——前提是你已经住在 Salesforce 里",
+        "ja": "エンタープライズソフトで最強のエージェント戦略——ただしSalesforceに住んでいるなら",
+        "es": "La apuesta de agentes más fuerte del software empresarial, si ya vives en Salesforce",
+        "fr": "Le pari d'agents le plus solide du logiciel d'entreprise — si vous vivez déjà dans Salesforce"
+      },
+      "body": {
+        "en": "Agentforce's moat is not the model — it is the data. An agent that natively reads your cases, opportunities and customer history, inside the same trust and permission layer your admins already govern, starts miles ahead of any bolt-on alternative. Voice, prebuilt role agents and pay-per-action pricing make the pitch concrete. But be clear-eyed: this is a Salesforce amplifier, not a general platform. Costs compound quickly at $0.10 an action, the pricing model keeps shifting, and none of the value travels outside the ecosystem. Existing Salesforce shops should pilot it; everyone else should look elsewhere.",
+        "zh": "Agentforce 的护城河不在模型，而在数据。一个原生读取你的工单、商机与客户历史、且运行在管理员已经在治理的信任与权限层里的智能体，起跑线就领先任何外挂方案好几条街。语音能力、预置角色智能体和按动作付费让卖点足够具体。但要看清：它是 Salesforce 的放大器，不是通用平台。0.10 美元/动作的成本滚起来很快，计价模式还在不断变化，而且所有价值都出不了这个生态。已经用 Salesforce 的公司值得试点；其他人还是另寻他处。",
+        "ja": "Agentforceの堀はモデルではなくデータにある。ケース、商談、顧客履歴をネイティブに読み取り、管理者が既に統治している信頼・権限レイヤーの中で動くエージェントは、後付けのどんな代替品よりも数マイル先からスタートする。音声機能、事前構築のロール別エージェント、アクション単位課金が売り文句を具体化する。ただし冷静に見るべきだ。これはSalesforceの増幅器であって汎用プラットフォームではない。0.10ドル/アクションのコストは急速に膨らみ、料金モデルは変わり続け、価値はエコシステムの外に持ち出せない。Salesforce利用企業は試験導入すべきだが、それ以外は他を当たるべきだ。",
+        "es": "El foso de Agentforce no es el modelo, son los datos. Un agente que lee nativamente tus casos, oportunidades e historial de clientes, dentro de la misma capa de confianza y permisos que tus administradores ya gobiernan, arranca kilómetros por delante de cualquier alternativa acoplada. La voz, los agentes de rol preconstruidos y el pago por acción concretan la propuesta. Pero sé realista: esto es un amplificador de Salesforce, no una plataforma general. Los costes se acumulan rápido a 0,10 $ por acción, el modelo de precios sigue cambiando y nada del valor sale del ecosistema. Las empresas ya en Salesforce deberían pilotarlo; el resto, mirar a otra parte.",
+        "fr": "La douve d'Agentforce n'est pas le modèle — ce sont les données. Un agent qui lit nativement vos dossiers, opportunités et historiques clients, au sein de la même couche de confiance et de permissions que vos admins gouvernent déjà, part avec des kilomètres d'avance sur toute alternative greffée. La voix, les agents préconstruits par rôle et le paiement à l'action rendent l'argumentaire concret. Mais soyons lucides : c'est un amplificateur de Salesforce, pas une plateforme générale. Les coûts s'accumulent vite à 0,10 $ l'action, le modèle tarifaire ne cesse de bouger, et rien de la valeur ne sort de l'écosystème. Les clients Salesforce devraient le piloter ; les autres, chercher ailleurs."
+      },
+      "bestFor": {
+        "en": [
+          "Salesforce-centric enterprises automating service and sales at scale",
+          "Support orgs replacing IVR with voice agents grounded in CRM data",
+          "Teams wanting agent spend tied to measurable actions and outcomes"
+        ],
+        "zh": [
+          "以 Salesforce 为中心、要规模化自动化服务与销售的企业",
+          "想用扎根 CRM 数据的语音智能体替换 IVR 的客服组织",
+          "希望智能体开销与可衡量动作和结果挂钩的团队"
+        ],
+        "ja": [
+          "サービスと営業を大規模自動化したいSalesforce中心の企業",
+          "CRMデータに根ざした音声エージェントでIVRを置き換えたいサポート部門",
+          "エージェント支出を測定可能なアクションと成果に紐付けたいチーム"
+        ],
+        "es": [
+          "Empresas centradas en Salesforce automatizando servicio y ventas a escala",
+          "Organizaciones de soporte reemplazando IVR con agentes de voz anclados en CRM",
+          "Equipos que quieren ligar el gasto en agentes a acciones y resultados medibles"
+        ],
+        "fr": [
+          "Entreprises centrées sur Salesforce automatisant service et ventes à grande échelle",
+          "Organisations support remplaçant l'IVR par des agents vocaux ancrés dans le CRM",
+          "Équipes voulant lier la dépense d'agents à des actions et résultats mesurables"
+        ]
+      },
+      "considerAlternatives": {
+        "en": [
+          "You are not a Salesforce customer (→ Copilot Studio, Flowise)",
+          "You need agents across arbitrary apps, not one CRM (→ Make AI, Gumloop)"
+        ],
+        "zh": [
+          "你不是 Salesforce 客户（→ Copilot Studio、Flowise）",
+          "你需要横跨任意应用而非单一 CRM 的智能体（→ Make AI、Gumloop）"
+        ],
+        "ja": [
+          "Salesforceの顧客ではない（→ Copilot Studio、Flowise）",
+          "単一CRMでなく任意のアプリを跨ぐエージェントが必要（→ Make AI、Gumloop）"
+        ],
+        "es": [
+          "No eres cliente de Salesforce (→ Copilot Studio, Flowise)",
+          "Necesitas agentes en apps arbitrarias, no en un solo CRM (→ Make AI, Gumloop)"
+        ],
+        "fr": [
+          "Vous n'êtes pas client Salesforce (→ Copilot Studio, Flowise)",
+          "Vous voulez des agents sur des apps variées, pas un seul CRM (→ Make AI, Gumloop)"
+        ]
+      }
+    }
+  },
+  "copilot-studio": {
+    "features": {
+      "en": [
+        "Low-code graphical builder for AI agents using natural language",
+        "Publish agents to Teams, websites, Microsoft 365 Copilot and more",
+        "Deep Power Platform integration: 1,500+ connectors and Power Automate flows",
+        "Ground agents in SharePoint, Dataverse, websites and enterprise data",
+        "Autonomous agents that trigger on events, not just conversations",
+        "Enterprise governance via Microsoft Purview, DLP and admin controls"
+      ],
+      "zh": [
+        "用自然语言驱动的低代码图形化智能体构建器",
+        "可将智能体发布到 Teams、网站、Microsoft 365 Copilot 等渠道",
+        "深度集成 Power Platform：1500+ 连接器与 Power Automate 流程",
+        "智能体可扎根 SharePoint、Dataverse、网站与企业数据",
+        "支持事件触发的自主智能体，而不只是对话机器人",
+        "通过 Microsoft Purview、DLP 与管理中心实现企业级治理"
+      ],
+      "ja": [
+        "自然言語で操作できるローコードのグラフィカルなエージェントビルダー",
+        "エージェントをTeams、Webサイト、Microsoft 365 Copilotなどへ公開",
+        "Power Platformと深く統合：1,500以上のコネクタとPower Automateフロー",
+        "SharePoint、Dataverse、Webサイト、企業データにエージェントを接地",
+        "会話だけでなくイベントで起動する自律エージェントに対応",
+        "Microsoft Purview、DLP、管理センターによるエンタープライズガバナンス"
+      ],
+      "es": [
+        "Constructor gráfico low-code de agentes IA usando lenguaje natural",
+        "Publica agentes en Teams, sitios web, Microsoft 365 Copilot y más",
+        "Integración profunda con Power Platform: más de 1500 conectores y flujos de Power Automate",
+        "Ancla agentes en SharePoint, Dataverse, sitios web y datos corporativos",
+        "Agentes autónomos que se activan por eventos, no solo por conversaciones",
+        "Gobernanza enterprise vía Microsoft Purview, DLP y controles de administración"
+      ],
+      "fr": [
+        "Constructeur graphique low-code d'agents IA piloté en langage naturel",
+        "Publication des agents vers Teams, sites web, Microsoft 365 Copilot et plus",
+        "Intégration profonde à Power Platform : 1500+ connecteurs et flux Power Automate",
+        "Ancrage des agents dans SharePoint, Dataverse, sites web et données d'entreprise",
+        "Agents autonomes déclenchés par événements, pas seulement par conversations",
+        "Gouvernance d'entreprise via Microsoft Purview, DLP et contrôles d'administration"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "No standalone free plan; agent-building capabilities are included with Microsoft 365 Copilot ($30/user/mo) for lighter scenarios, and trials are available",
+        "zh": "无独立免费版；较轻量的智能体构建能力已包含在 Microsoft 365 Copilot（30 美元/用户/月）中，另提供试用",
+        "ja": "単体の無料プランなし。軽量なエージェント構築機能はMicrosoft 365 Copilot（月額30ドル/ユーザー）に含まれ、試用版も提供",
+        "es": "Sin plan gratuito independiente; las capacidades ligeras de creación de agentes se incluyen en Microsoft 365 Copilot (30 $/usuario/mes) y hay pruebas disponibles",
+        "fr": "Pas de plan gratuit autonome ; des capacités allégées de création d'agents sont incluses dans Microsoft 365 Copilot (30 $/utilisateur/mois), avec des essais disponibles"
+      },
+      "paid": {
+        "en": "$200/month per tenant for a 25,000 Copilot Credits pack (unused credits don't roll over), or pay-as-you-go at $0.01 per credit via an Azure subscription; different actions consume different credit amounts",
+        "zh": "200 美元/月/租户，含 25000 Copilot Credits 积分包（未用积分不结转）；或通过 Azure 订阅按量付费 0.01 美元/积分；不同动作消耗的积分数不同",
+        "ja": "テナントあたり月額200ドルで25,000 Copilot Creditsパック（未使用分は繰越不可）、またはAzureサブスクリプション経由の従量課金で1クレジット0.01ドル。アクションにより消費クレジット数は異なる",
+        "es": "200 $/mes por tenant con un paquete de 25 000 Copilot Credits (los créditos no usados no se acumulan), o pago por uso a 0,01 $ por crédito vía suscripción de Azure; cada acción consume distinta cantidad de créditos",
+        "fr": "200 $/mois par tenant pour un pack de 25 000 Copilot Credits (les crédits non utilisés ne sont pas reportés), ou paiement à l'usage à 0,01 $ le crédit via un abonnement Azure ; chaque action consomme un nombre de crédits différent"
+      }
+    },
+    "useCases": {
+      "en": [
+        "Employee helpdesk agents in Teams answering HR and IT questions",
+        "Customer-facing website chatbots grounded in your knowledge base",
+        "Autonomous agents automating approvals and record updates in Dataverse",
+        "Extending Microsoft 365 Copilot with custom company-specific agents"
+      ],
+      "zh": [
+        "Teams 里回答 HR 与 IT 问题的员工服务台智能体",
+        "扎根企业知识库、面向客户的网站聊天机器人",
+        "在 Dataverse 中自动处理审批与记录更新的自主智能体",
+        "用定制化的公司专属智能体扩展 Microsoft 365 Copilot"
+      ],
+      "ja": [
+        "TeamsでHR・ITの質問に答える社内ヘルプデスクエージェント",
+        "自社ナレッジベースに接地した顧客向けWebサイトチャットボット",
+        "Dataverseで承認やレコード更新を自動化する自律エージェント",
+        "自社専用のカスタムエージェントでMicrosoft 365 Copilotを拡張"
+      ],
+      "es": [
+        "Agentes de helpdesk en Teams respondiendo dudas de RR. HH. y TI",
+        "Chatbots web de cara al cliente anclados en tu base de conocimiento",
+        "Agentes autónomos automatizando aprobaciones y registros en Dataverse",
+        "Extender Microsoft 365 Copilot con agentes personalizados de la empresa"
+      ],
+      "fr": [
+        "Agents helpdesk dans Teams répondant aux questions RH et IT",
+        "Chatbots web orientés clients ancrés dans votre base de connaissances",
+        "Agents autonomes automatisant approbations et mises à jour dans Dataverse",
+        "Extension de Microsoft 365 Copilot avec des agents personnalisés d'entreprise"
+      ]
+    },
+    "pros": {
+      "en": [
+        "Unbeatable distribution: agents deploy straight into Teams and M365",
+        "1,500+ connectors inherited from the Power Platform ecosystem",
+        "Enterprise governance and compliance tooling out of the box",
+        "Low-code approach lets business teams ship without developers"
+      ],
+      "zh": [
+        "分发渠道无可匹敌：智能体直接部署进 Teams 与 M365",
+        "继承 Power Platform 生态的 1500+ 连接器",
+        "开箱即用的企业级治理与合规工具",
+        "低代码路线让业务团队不靠开发也能上线"
+      ],
+      "ja": [
+        "無敵の配布力：エージェントをTeamsとM365へ直接展開",
+        "Power Platformエコシステム由来の1,500以上のコネクタ",
+        "エンタープライズガバナンスとコンプライアンス機能が標準装備",
+        "ローコードで業務部門が開発者なしでリリース可能"
+      ],
+      "es": [
+        "Distribución imbatible: los agentes se despliegan directo en Teams y M365",
+        "Más de 1500 conectores heredados del ecosistema Power Platform",
+        "Gobernanza y cumplimiento enterprise listos para usar",
+        "El enfoque low-code permite a los equipos de negocio lanzar sin desarrolladores"
+      ],
+      "fr": [
+        "Distribution imbattable : les agents se déploient directement dans Teams et M365",
+        "1500+ connecteurs hérités de l'écosystème Power Platform",
+        "Gouvernance et conformité d'entreprise prêtes à l'emploi",
+        "L'approche low-code permet aux équipes métier de livrer sans développeurs"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Credit-based billing is hard to forecast — actions cost varying credits",
+        "$200/mo tenant pack with no rollover punishes uneven usage",
+        "Best value only inside the Microsoft 365 / Power Platform ecosystem",
+        "Advanced customization eventually requires Power Platform expertise"
+      ],
+      "zh": [
+        "积分制计费难以预估——不同动作消耗积分不同",
+        "200 美元/月的租户积分包不结转，用量不均会吃亏",
+        "只有在 Microsoft 365 / Power Platform 生态内才最划算",
+        "深度定制最终还是需要 Power Platform 专业技能"
+      ],
+      "ja": [
+        "クレジット制の課金は予測が難しい——アクションごとに消費量が異なる",
+        "月額200ドルのテナントパックは繰越不可で、利用量の波があると損",
+        "Microsoft 365 / Power Platformエコシステム内でこそ最大の価値",
+        "高度なカスタマイズには結局Power Platformの専門知識が必要"
+      ],
+      "es": [
+        "La facturación por créditos es difícil de prever: cada acción consume distinto",
+        "El paquete de 200 $/mes sin acumulación penaliza el uso irregular",
+        "Solo rinde al máximo dentro del ecosistema Microsoft 365 / Power Platform",
+        "La personalización avanzada acaba exigiendo experiencia en Power Platform"
+      ],
+      "fr": [
+        "La facturation par crédits est difficile à prévoir — chaque action consomme différemment",
+        "Le pack tenant à 200 $/mois sans report pénalise les usages irréguliers",
+        "Ne donne sa pleine valeur qu'au sein de l'écosystème Microsoft 365 / Power Platform",
+        "La personnalisation avancée finit par exiger une expertise Power Platform"
+      ]
+    },
+    "latestUpdate": {
+      "en": "2026: Copilot Studio unifies billing on Copilot Credits ($200/mo per tenant for 25K credits or $0.01/credit pay-as-you-go), expands autonomous event-triggered agents, and deepens publishing into Microsoft 365 Copilot and Teams",
+      "zh": "2026 年：Copilot Studio 将计费统一为 Copilot Credits（200 美元/月/租户含 2.5 万积分，或按量 0.01 美元/积分），扩展事件触发的自主智能体，并深化向 Microsoft 365 Copilot 与 Teams 的发布能力",
+      "ja": "2026年：Copilot Studioは課金をCopilot Creditsに統一（テナント月額200ドルで2.5万クレジット、または従量0.01ドル/クレジット）。イベント起動の自律エージェントを拡充し、Microsoft 365 CopilotとTeamsへの公開を強化",
+      "es": "2026: Copilot Studio unifica la facturación en Copilot Credits (200 $/mes por tenant con 25K créditos o 0,01 $/crédito por uso), amplía los agentes autónomos activados por eventos y profundiza la publicación en Microsoft 365 Copilot y Teams",
+      "fr": "2026 : Copilot Studio unifie la facturation sur les Copilot Credits (200 $/mois par tenant pour 25K crédits ou 0,01 $/crédit à l'usage), étend les agents autonomes déclenchés par événements et approfondit la publication vers Microsoft 365 Copilot et Teams"
+    },
+    "verdict": {
+      "badge": "Recommended",
+      "headline": {
+        "en": "The default choice for AI agents inside the Microsoft universe",
+        "zh": "微软宇宙里做 AI 智能体的默认选项",
+        "ja": "マイクロソフトの世界でAIエージェントを作るならデフォルトの選択肢",
+        "es": "La opción por defecto para agentes IA dentro del universo Microsoft",
+        "fr": "Le choix par défaut pour les agents IA dans l'univers Microsoft"
+      },
+      "body": {
+        "en": "Copilot Studio wins on distribution, not sophistication. If your company runs on Teams, SharePoint and Microsoft 365, no other platform lets business users build an agent in an afternoon and put it in front of every employee by evening — with IT's governance controls intact. The credit-based pricing takes effort to forecast and the platform's gravity pulls you deeper into Power Platform, but for Microsoft-centric organizations that's less a trap than a home-field advantage. Outside that ecosystem, look elsewhere.",
+        "zh": "Copilot Studio 赢在分发，而不是技术炫技。如果你的公司跑在 Teams、SharePoint 和 Microsoft 365 上，没有哪个平台能让业务人员一下午搭好智能体、傍晚就推到全员面前——还保留着 IT 部门的治理管控。积分制定价要花心思预估，平台引力也会把你越拽越深进 Power Platform，但对以微软为中心的组织来说，这与其说是陷阱，不如说是主场优势。生态之外，另请高明。",
+        "ja": "Copilot Studioの勝因は技術の洗練さではなく配布力だ。会社がTeams、SharePoint、Microsoft 365で回っているなら、業務部門が午後にエージェントを組み立て、夕方には全社員に届けられるプラットフォームは他にない——しかもIT部門のガバナンスは保たれたまま。クレジット制の料金は予測に手間がかかり、プラットフォームの引力でPower Platformの深みに引き込まれるが、マイクロソフト中心の組織にとってそれは罠というよりホームアドバンテージだ。エコシステムの外なら他を当たろう。",
+        "es": "Copilot Studio gana por distribución, no por sofisticación. Si tu empresa funciona sobre Teams, SharePoint y Microsoft 365, ninguna otra plataforma permite que usuarios de negocio construyan un agente en una tarde y lo pongan ante todos los empleados esa misma noche, con los controles de gobernanza de TI intactos. El precio por créditos cuesta de prever y la gravedad de la plataforma te arrastra hacia Power Platform, pero para organizaciones centradas en Microsoft eso es menos una trampa que ventaja de local. Fuera de ese ecosistema, busca otra opción.",
+        "fr": "Copilot Studio gagne par la distribution, pas par la sophistication. Si votre entreprise tourne sur Teams, SharePoint et Microsoft 365, aucune autre plateforme ne permet aux équipes métier de construire un agent en un après-midi et de le mettre devant chaque employé le soir même — avec les contrôles de gouvernance IT intacts. La tarification par crédits demande des efforts de prévision et la gravité de la plateforme vous attire toujours plus dans Power Platform, mais pour les organisations centrées sur Microsoft, c'est moins un piège qu'un avantage du terrain. Hors de cet écosystème, passez votre chemin."
+      },
+      "bestFor": {
+        "en": [
+          "Organizations standardized on Microsoft 365 and Teams",
+          "Business teams building internal helpdesk and process agents low-code",
+          "IT departments needing governed, compliant agent deployment"
+        ],
+        "zh": [
+          "以 Microsoft 365 与 Teams 为标准的组织",
+          "用低代码搭建内部服务台与流程智能体的业务团队",
+          "需要受治理、合规的智能体部署方案的 IT 部门"
+        ],
+        "ja": [
+          "Microsoft 365とTeamsで標準化された組織",
+          "ローコードで社内ヘルプデスクや業務エージェントを作る業務チーム",
+          "統制されコンプライアンスに沿ったエージェント展開が必要なIT部門"
+        ],
+        "es": [
+          "Organizaciones estandarizadas en Microsoft 365 y Teams",
+          "Equipos de negocio creando agentes internos de helpdesk y procesos en low-code",
+          "Departamentos de TI que necesitan despliegues de agentes gobernados y conformes"
+        ],
+        "fr": [
+          "Organisations standardisées sur Microsoft 365 et Teams",
+          "Équipes métier construisant des agents helpdesk et processus en low-code",
+          "Départements IT exigeant un déploiement d'agents gouverné et conforme"
+        ]
+      },
+      "considerAlternatives": {
+        "en": [
+          "Your company isn't on Microsoft 365 (→ Dify, Coze, Gumloop)",
+          "You need CRM-native agents in Salesforce (→ Agentforce)"
+        ],
+        "zh": [
+          "你的公司不用 Microsoft 365（→ Dify、Coze、Gumloop）",
+          "你需要 Salesforce 里的 CRM 原生智能体（→ Agentforce）"
+        ],
+        "ja": [
+          "会社がMicrosoft 365を使っていない（→ Dify、Coze、Gumloop）",
+          "SalesforceでCRMネイティブなエージェントが必要（→ Agentforce）"
+        ],
+        "es": [
+          "Tu empresa no usa Microsoft 365 (→ Dify, Coze, Gumloop)",
+          "Necesitas agentes nativos del CRM en Salesforce (→ Agentforce)"
+        ],
+        "fr": [
+          "Votre entreprise n'est pas sur Microsoft 365 (→ Dify, Coze, Gumloop)",
+          "Vous avez besoin d'agents natifs CRM dans Salesforce (→ Agentforce)"
+        ]
+      }
+    }
+  },
+  "gumloop": {
+    "features": {
+      "en": [
+        "Multiplayer no-code AI agent and workflow builder for whole companies",
+        "Any AI model with bring-your-own API keys to cut credit costs",
+        "Unlimited seats and teams on every plan — pay for usage, not people",
+        "Agents with skills, knowledge sources, evaluations and reflections",
+        "MCP server hosting, Gumloop CLI and webhooks for developers",
+        "Enterprise controls: RBAC, SCIM/SAML, audit logs, virtual private cloud"
+      ],
+      "zh": [
+        "面向全公司的多人协作无代码 AI Agent 与工作流构建平台",
+        "任意 AI 模型，可自带 API Key 降低积分消耗",
+        "所有套餐席位与团队数不限——按用量付费，不按人头",
+        "智能体支持技能、知识源、评测与反思机制",
+        "面向开发者的 MCP 服务器托管、Gumloop CLI 与 Webhook",
+        "企业级管控：RBAC、SCIM/SAML、审计日志、虚拟私有云"
+      ],
+      "ja": [
+        "全社で使えるマルチプレイヤー型ノーコードAIエージェント＆ワークフロービルダー",
+        "任意のAIモデルに対応、API持ち込みでクレジット消費を削減",
+        "全プランでシート数・チーム数無制限——人数でなく使用量に課金",
+        "スキル・知識ソース・評価・リフレクションを備えたエージェント",
+        "開発者向けのMCPサーバーホスティング、Gumloop CLI、Webhook",
+        "エンタープライズ管理：RBAC、SCIM/SAML、監査ログ、仮想プライベートクラウド"
+      ],
+      "es": [
+        "Constructor colaborativo sin código de agentes IA y flujos para toda la empresa",
+        "Cualquier modelo de IA con tus propias claves API para reducir costes de créditos",
+        "Puestos y equipos ilimitados en todos los planes: pagas por uso, no por personas",
+        "Agentes con habilidades, fuentes de conocimiento, evaluaciones y reflexiones",
+        "Alojamiento de servidores MCP, CLI de Gumloop y webhooks para desarrolladores",
+        "Controles enterprise: RBAC, SCIM/SAML, registros de auditoría, nube privada virtual"
+      ],
+      "fr": [
+        "Constructeur no-code collaboratif d'agents IA et de workflows pour toute l'entreprise",
+        "N'importe quel modèle d'IA avec vos propres clés API pour réduire les crédits",
+        "Sièges et équipes illimités sur tous les plans — on paie l'usage, pas les personnes",
+        "Agents avec compétences, sources de connaissances, évaluations et réflexions",
+        "Hébergement de serveurs MCP, CLI Gumloop et webhooks pour développeurs",
+        "Contrôles entreprise : RBAC, SCIM/SAML, journaux d'audit, cloud privé virtuel"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "14-day free trial of Pro — the pricing page no longer lists a permanent free plan",
+        "zh": "Pro 版 14 天免费试用——定价页已不再提供永久免费版",
+        "ja": "Proの14日間無料トライアルあり——料金ページに恒久無料プランの記載はなくなった",
+        "es": "Prueba gratuita de 14 días del plan Pro: la página de precios ya no lista un plan gratuito permanente",
+        "fr": "Essai gratuit de 14 jours du plan Pro — la page tarifs ne propose plus de plan gratuit permanent"
+      },
+      "paid": {
+        "en": "Pro from $37/mo (20K+ credits/mo, unlimited seats and teams, 5 concurrent runs, 1 hosted MCP server; 20% off annually); Enterprise custom (RBAC, SCIM/SAML, audit logs, VPC, org-wide guardrails)",
+        "zh": "Pro 自 37 美元/月起（每月 2 万+ 积分、席位与团队不限、5 并发运行、1 个托管 MCP 服务器；年付享 8 折）；企业版定制（RBAC、SCIM/SAML、审计日志、VPC、组织级护栏）",
+        "ja": "Pro 月額37ドルから（月2万+クレジット、シート・チーム無制限、同時実行5、ホスト型MCPサーバー1つ、年払い20%オフ）、Enterpriseはカスタム（RBAC、SCIM/SAML、監査ログ、VPC、組織全体のガードレール）",
+        "es": "Pro desde 37 $/mes (más de 20K créditos/mes, puestos y equipos ilimitados, 5 ejecuciones concurrentes, 1 servidor MCP alojado; 20% de descuento anual); Enterprise a medida (RBAC, SCIM/SAML, auditoría, VPC, guardarraíles organizativos)",
+        "fr": "Pro à partir de 37 $/mois (20K+ crédits/mois, sièges et équipes illimités, 5 exécutions simultanées, 1 serveur MCP hébergé ; -20 % en annuel) ; Enterprise sur mesure (RBAC, SCIM/SAML, journaux d'audit, VPC, garde-fous organisationnels)"
+      }
+    },
+    "useCases": {
+      "en": [
+        "Ops and marketing teams automating research, enrichment and reporting",
+        "Company-wide agent adoption with IT keeping access under control",
+        "Document processing pipelines mixing AI nodes with app integrations",
+        "Developers exposing workflows as MCP servers for other AI tools"
+      ],
+      "zh": [
+        "运营与市场团队自动化调研、数据补全与报表",
+        "全公司推广智能体，同时 IT 统一管控访问权限",
+        "混合 AI 节点与应用集成的文档处理流水线",
+        "开发者把工作流封装成 MCP 服务器供其他 AI 工具调用"
+      ],
+      "ja": [
+        "運用・マーケチームのリサーチ、データ補完、レポート自動化",
+        "IT部門が権限を管理しながら全社にエージェントを展開",
+        "AIノードとアプリ連携を組み合わせた文書処理パイプライン",
+        "開発者がワークフローをMCPサーバー化して他のAIツールに提供"
+      ],
+      "es": [
+        "Equipos de operaciones y marketing automatizando investigación, enriquecimiento e informes",
+        "Adopción de agentes en toda la empresa con acceso controlado por TI",
+        "Pipelines de procesamiento de documentos que mezclan nodos IA e integraciones",
+        "Desarrolladores exponiendo flujos como servidores MCP para otras herramientas IA"
+      ],
+      "fr": [
+        "Équipes ops et marketing automatisant recherche, enrichissement et reporting",
+        "Adoption d'agents à l'échelle de l'entreprise sous contrôle de la DSI",
+        "Pipelines de traitement documentaire mêlant nœuds IA et intégrations",
+        "Développeurs exposant leurs workflows comme serveurs MCP pour d'autres outils IA"
+      ]
+    },
+    "pros": {
+      "en": [
+        "Unlimited seats flips the pricing model — whole teams for one usage bill",
+        "Bring-your-own-keys halves credit costs on AI-heavy workflows",
+        "Benchmark-led $50M Series B signals strong momentum",
+        "Trusted by Gusto, Instacart, Shopify and Ramp"
+      ],
+      "zh": [
+        "席位不限颠覆了定价模式——整个团队只付一份用量账单",
+        "自带 API Key 可把 AI 密集型工作流的积分成本减半",
+        "Benchmark 领投 5000 万美元 B 轮，势头强劲",
+        "Gusto、Instacart、Shopify、Ramp 等团队都在用"
+      ],
+      "ja": [
+        "シート無制限が価格モデルを一変——チーム全体で使用量分だけ支払い",
+        "API持ち込みでAI集約型ワークフローのクレジットコストを半減",
+        "Benchmark主導の5,000万ドルシリーズBで勢いは十分",
+        "Gusto、Instacart、Shopify、Rampなどが採用"
+      ],
+      "es": [
+        "Los puestos ilimitados cambian el modelo: todo el equipo con una sola factura de uso",
+        "Usar tus propias claves reduce a la mitad los créditos en flujos intensivos de IA",
+        "La Serie B de 50 M$ liderada por Benchmark avala su impulso",
+        "Con la confianza de Gusto, Instacart, Shopify y Ramp"
+      ],
+      "fr": [
+        "Les sièges illimités renversent le modèle tarifaire — toute l'équipe pour une seule facture d'usage",
+        "Vos propres clés API divisent par deux le coût des workflows riches en IA",
+        "La série B de 50 M$ menée par Benchmark confirme la dynamique",
+        "Adopté par Gusto, Instacart, Shopify et Ramp"
+      ]
+    },
+    "cons": {
+      "en": [
+        "No permanent free plan anymore — trial-only entry",
+        "Credit-based billing takes effort to estimate for complex flows",
+        "5 concurrent runs on Pro can bottleneck heavy automation",
+        "Younger ecosystem than Zapier or Make for niche integrations"
+      ],
+      "zh": [
+        "不再有永久免费版——只能试用后付费",
+        "积分计费在复杂流程下不易预估",
+        "Pro 版 5 并发运行对重度自动化可能成为瓶颈",
+        "小众集成生态比 Zapier、Make 年轻"
+      ],
+      "ja": [
+        "恒久無料プランが廃止され、トライアルのみ",
+        "クレジット課金は複雑なフローだと見積もりが難しい",
+        "Proの同時実行5は重い自動化ではボトルネックになり得る",
+        "ニッチな連携ではZapierやMakeよりエコシステムが若い"
+      ],
+      "es": [
+        "Ya no hay plan gratuito permanente: solo prueba",
+        "La facturación por créditos es difícil de estimar en flujos complejos",
+        "Las 5 ejecuciones concurrentes de Pro pueden ser un cuello de botella",
+        "Ecosistema más joven que Zapier o Make en integraciones de nicho"
+      ],
+      "fr": [
+        "Plus de plan gratuit permanent — entrée par essai uniquement",
+        "La facturation aux crédits est difficile à estimer sur les flux complexes",
+        "Les 5 exécutions simultanées du Pro peuvent limiter les grosses automatisations",
+        "Écosystème plus jeune que Zapier ou Make pour les intégrations de niche"
+      ]
+    },
+    "latestUpdate": {
+      "en": "2026: Gumloop raises a $50M Series B led by Benchmark, consolidates plans around Pro (from $37/mo with unlimited seats) and Enterprise, and adds MCP server hosting, agent reflections and a CLI",
+      "zh": "2026 年：Gumloop 完成 Benchmark 领投的 5000 万美元 B 轮，套餐整合为 Pro（37 美元/月起、席位不限）与企业版，并新增 MCP 服务器托管、智能体反思与 CLI",
+      "ja": "2026年：GumloopはBenchmark主導で5,000万ドルのシリーズBを調達。プランをPro（月額37ドルから、シート無制限）とEnterpriseに集約し、MCPサーバーホスティング、エージェントリフレクション、CLIを追加",
+      "es": "2026: Gumloop cierra una Serie B de 50 M$ liderada por Benchmark, consolida sus planes en Pro (desde 37 $/mes con puestos ilimitados) y Enterprise, y añade alojamiento de servidores MCP, reflexiones de agentes y una CLI",
+      "fr": "2026 : Gumloop lève une série B de 50 M$ menée par Benchmark, regroupe ses offres en Pro (dès 37 $/mois avec sièges illimités) et Enterprise, et ajoute l'hébergement de serveurs MCP, les réflexions d'agents et une CLI"
+    },
+    "verdict": {
+      "badge": "Recommended",
+      "headline": {
+        "en": "The team-first agent builder that charges for work, not headcount",
+        "zh": "按工作量而非人头收费的团队优先智能体构建平台",
+        "ja": "人数でなく仕事量に課金する、チームファーストのエージェントビルダー",
+        "es": "El constructor de agentes para equipos que cobra por trabajo, no por personas",
+        "fr": "Le constructeur d'agents pensé équipe qui facture le travail, pas les effectifs"
+      },
+      "body": {
+        "en": "Gumloop's sharpest idea is economic: unlimited seats on every plan means the whole company can build and run agents while finance sees a single usage bill. Add bring-your-own API keys, MCP server hosting and IT-grade guardrails, and it reads like an automation platform designed after the AI wave rather than retrofitted to it. The flip side of that confidence is the disappearing free tier and credit math that takes a pilot project to predict — but for teams ready to commit, the Benchmark-backed momentum is real.",
+        "zh": "Gumloop 最锋利的创新在经济模型：所有套餐席位不限，全公司都能构建和运行智能体，而财务只看到一张用量账单。再加上自带 API Key、MCP 服务器托管和 IT 级护栏，它更像一个在 AI 浪潮之后原生设计的自动化平台，而非事后改装。这份自信的另一面是免费版的消失和需要试点项目才能算清的积分账——但对准备好投入的团队来说，Benchmark 加持的势头是真实的。",
+        "ja": "Gumloopの最も鋭いアイデアは経済モデルにある。全プランでシート無制限だから、全社でエージェントを構築・運用しても、経理が見るのは使用量の請求書一枚だけ。API持ち込み、MCPサーバーホスティング、IT級のガードレールも加わり、AI波の後にゼロから設計された自動化プラットフォームという趣だ。その自信の裏返しが無料プランの廃止と、試験導入しないと読めないクレジット計算——しかし本気で取り組むチームにとって、Benchmarkが後押しする勢いは本物だ。",
+        "es": "La idea más afilada de Gumloop es económica: puestos ilimitados en todos los planes significa que toda la empresa puede crear y ejecutar agentes mientras finanzas ve una sola factura de uso. Suma tus propias claves API, alojamiento de servidores MCP y guardarraíles de nivel TI, y parece una plataforma de automatización diseñada después de la ola de IA, no adaptada a ella. La otra cara de esa confianza es la desaparición del plan gratuito y unos créditos que exigen un piloto para predecirse; pero para equipos decididos, el impulso respaldado por Benchmark es real.",
+        "fr": "L'idée la plus tranchante de Gumloop est économique : des sièges illimités sur tous les plans, donc toute l'entreprise peut créer et exécuter des agents pendant que la finance ne voit qu'une seule facture d'usage. Ajoutez les clés API personnelles, l'hébergement de serveurs MCP et des garde-fous de niveau DSI, et on dirait une plateforme d'automatisation conçue après la vague IA plutôt qu'adaptée à celle-ci. Le revers de cette assurance : la disparition de l'offre gratuite et un calcul de crédits qui exige un projet pilote — mais pour les équipes prêtes à s'engager, la dynamique soutenue par Benchmark est bien réelle."
+      },
+      "bestFor": {
+        "en": [
+          "Companies rolling out AI agents across many departments",
+          "Ops teams that outgrew Zapier-style linear automations",
+          "Organizations wanting IT guardrails without blocking builders"
+        ],
+        "zh": [
+          "要在多个部门推广 AI 智能体的公司",
+          "已经超出 Zapier 式线性自动化需求的运营团队",
+          "想要 IT 护栏又不想阻碍业务搭建的组织"
+        ],
+        "ja": [
+          "複数部門にAIエージェントを展開する企業",
+          "Zapier型の線形自動化では物足りなくなった運用チーム",
+          "現場の構築を妨げずにITガードレールを敷きたい組織"
+        ],
+        "es": [
+          "Empresas desplegando agentes IA en varios departamentos",
+          "Equipos de operaciones que superaron las automatizaciones lineales tipo Zapier",
+          "Organizaciones que quieren guardarraíles de TI sin frenar a los creadores"
+        ],
+        "fr": [
+          "Entreprises déployant des agents IA dans plusieurs services",
+          "Équipes ops ayant dépassé les automatisations linéaires façon Zapier",
+          "Organisations voulant des garde-fous DSI sans bloquer les créateurs"
+        ]
+      },
+      "considerAlternatives": {
+        "en": [
+          "You want a free plan or open source self-hosting (→ Flowise, n8n)",
+          "You mainly need simple app-to-app automations (→ Zapier AI, Make AI)"
+        ],
+        "zh": [
+          "你想要免费版或开源自托管（→ Flowise、n8n）",
+          "你主要需要简单的应用间自动化（→ Zapier AI、Make AI）"
+        ],
+        "ja": [
+          "無料プランやオープンソースのセルフホストが欲しい（→ Flowise、n8n）",
+          "主に必要なのはシンプルなアプリ間自動化（→ Zapier AI、Make AI）"
+        ],
+        "es": [
+          "Quieres un plan gratuito o autoalojamiento open source (→ Flowise, n8n)",
+          "Principalmente necesitas automatizaciones simples entre apps (→ Zapier AI, Make AI)"
+        ],
+        "fr": [
+          "Vous voulez un plan gratuit ou de l'auto-hébergement open source (→ Flowise, n8n)",
+          "Vous cherchez surtout des automatisations simples entre apps (→ Zapier AI, Make AI)"
+        ]
+      }
+    }
+  },
+  "lindy": {
+    "features": {
+      "en": [
+        "AI executive assistant that runs your inbox, calendar and follow-ups 24/7",
+        "Reachable via iMessage/SMS — text your assistant like a real person",
+        "Meeting scheduling, note-taking, prep and follow-up automation",
+        "100+ integrations including Gmail, Outlook, Slack and Notion",
+        "Computer use on Pro plan lets the agent operate real interfaces",
+        "Custom agent builder with triggers, approvals and human-in-the-loop"
+      ],
+      "zh": [
+        "全天候接管邮箱、日程与跟进事项的 AI 行政助理",
+        "支持 iMessage/短信召唤——像给真人发消息一样使唤助理",
+        "会议排期、记录、会前准备与会后跟进全自动",
+        "100+ 集成，覆盖 Gmail、Outlook、Slack、Notion 等",
+        "Pro 版支持 Computer Use，智能体可直接操作真实界面",
+        "自定义智能体构建器，带触发器、审批与人工把关"
+      ],
+      "ja": [
+        "受信箱・カレンダー・フォローアップを24時間365日代行するAI秘書",
+        "iMessage/SMSで呼び出し可能——人にメッセージを送る感覚で指示",
+        "会議の日程調整・議事録・事前準備・フォローアップを自動化",
+        "Gmail、Outlook、Slack、Notionなど100以上の連携",
+        "ProプランのComputer Useでエージェントが実際のUIを操作",
+        "トリガー・承認・人間の確認を備えたカスタムエージェントビルダー"
+      ],
+      "es": [
+        "Asistente ejecutivo IA que gestiona tu bandeja, calendario y seguimientos 24/7",
+        "Accesible por iMessage/SMS: escribe a tu asistente como a una persona real",
+        "Automatización de agenda, notas, preparación y seguimiento de reuniones",
+        "Más de 100 integraciones: Gmail, Outlook, Slack, Notion y más",
+        "Computer Use en el plan Pro permite al agente operar interfaces reales",
+        "Constructor de agentes con disparadores, aprobaciones y supervisión humana"
+      ],
+      "fr": [
+        "Assistant de direction IA gérant boîte mail, agenda et relances 24h/24",
+        "Joignable par iMessage/SMS — écrivez à votre assistant comme à une vraie personne",
+        "Planification, comptes rendus, préparation et suivi de réunions automatisés",
+        "Plus de 100 intégrations : Gmail, Outlook, Slack, Notion et plus",
+        "Computer Use sur le plan Pro permet à l'agent d'opérer de vraies interfaces",
+        "Constructeur d'agents avec déclencheurs, validations et contrôle humain"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "7-day free trial with full Plus features (inbox management, meeting scheduling and notes, texting your assistant 24/7) — no permanent free plan",
+        "zh": "7 天免费试用，含 Plus 全部功能（邮箱管理、会议排期与记录、随时短信召唤）——无永久免费版",
+        "ja": "7日間の無料トライアルでPlusの全機能（受信箱管理、会議調整・議事録、24時間SMS呼び出し）を利用可能——恒久無料プランはなし",
+        "es": "Prueba gratuita de 7 días con todas las funciones Plus (gestión de bandeja, agenda y notas de reuniones, mensajes 24/7) — sin plan gratuito permanente",
+        "fr": "Essai gratuit de 7 jours avec toutes les fonctions Plus (gestion de boîte mail, réunions et notes, SMS 24h/24) — pas de plan gratuit permanent"
+      },
+      "paid": {
+        "en": "Plus $49.99/mo (2 inboxes, iMessage/SMS, 100+ integrations); Pro $99.99/mo (3x usage, computer use, model choice); Max $199.99/mo (7x usage, 5 inboxes); Enterprise custom (HIPAA BAA, SSO/SCIM, audit logs)",
+        "zh": "Plus 49.99 美元/月（2 个邮箱、iMessage/短信、100+ 集成）；Pro 99.99 美元/月（3 倍用量、Computer Use、可选模型）；Max 199.99 美元/月（7 倍用量、5 个邮箱）；企业版定制（HIPAA BAA、SSO/SCIM、审计日志）",
+        "ja": "Plus 月額49.99ドル（受信箱2つ、iMessage/SMS、100以上の連携）、Pro 月額99.99ドル（使用量3倍、Computer Use、モデル選択）、Max 月額199.99ドル（使用量7倍、受信箱5つ）、Enterpriseはカスタム（HIPAA BAA、SSO/SCIM、監査ログ）",
+        "es": "Plus 49,99 $/mes (2 bandejas, iMessage/SMS, 100+ integraciones); Pro 99,99 $/mes (3x uso, computer use, elección de modelo); Max 199,99 $/mes (7x uso, 5 bandejas); Enterprise a medida (HIPAA BAA, SSO/SCIM, registros de auditoría)",
+        "fr": "Plus 49,99 $/mois (2 boîtes, iMessage/SMS, 100+ intégrations) ; Pro 99,99 $/mois (3x d'usage, computer use, choix du modèle) ; Max 199,99 $/mois (7x d'usage, 5 boîtes) ; Enterprise sur mesure (HIPAA BAA, SSO/SCIM, journaux d'audit)"
+      }
+    },
+    "useCases": {
+      "en": [
+        "Founders and executives delegating inbox triage and email drafting",
+        "Automatic meeting notes, prep briefs and follow-up emails",
+        "Scheduling back-and-forth handled entirely by the assistant",
+        "Building custom agents for recruiting outreach or CRM updates"
+      ],
+      "zh": [
+        "创始人与高管把邮件分拣和草拟全权委托给助理",
+        "自动生成会议记录、会前简报与会后跟进邮件",
+        "来回拉扯的会议排期完全交给助理处理",
+        "构建招聘触达、CRM 更新等自定义智能体"
+      ],
+      "ja": [
+        "創業者や経営層がメール仕分けと下書きをアシスタントに委任",
+        "議事録・事前ブリーフ・フォローアップメールの自動生成",
+        "面倒な日程調整のやり取りをアシスタントに丸投げ",
+        "採用アウトリーチやCRM更新のカスタムエージェント構築"
+      ],
+      "es": [
+        "Fundadores y ejecutivos delegando el triaje de correos y borradores",
+        "Notas de reuniones, informes previos y correos de seguimiento automáticos",
+        "La negociación de horarios queda totalmente en manos del asistente",
+        "Creación de agentes para prospección de talento o actualización de CRM"
+      ],
+      "fr": [
+        "Fondateurs et dirigeants délégant le tri et la rédaction d'e-mails",
+        "Comptes rendus, briefs préparatoires et e-mails de suivi automatiques",
+        "Les allers-retours de planification entièrement gérés par l'assistant",
+        "Création d'agents pour la prospection RH ou la mise à jour du CRM"
+      ]
+    },
+    "pros": {
+      "en": [
+        "Polished consumer-grade experience — set up in about 60 seconds",
+        "iMessage/SMS access removes all app-switching friction",
+        "Learns your writing style and priorities over time",
+        "Approval-first design: nothing is sent without your review"
+      ],
+      "zh": [
+        "消费级打磨体验——约 60 秒即可完成设置",
+        "iMessage/短信直达，彻底省去切换应用的摩擦",
+        "会逐步学习你的写作风格与优先级",
+        "审批优先设计：未经你确认不会发出任何内容"
+      ],
+      "ja": [
+        "洗練されたコンシューマー級体験——約60秒でセットアップ完了",
+        "iMessage/SMSで直接アクセスでき、アプリ切り替えの手間ゼロ",
+        "使うほどにあなたの文体と優先順位を学習",
+        "承認ファースト設計：確認なしに送信されることはない"
+      ],
+      "es": [
+        "Experiencia pulida de nivel consumidor: configuración en unos 60 segundos",
+        "El acceso por iMessage/SMS elimina el cambio constante de apps",
+        "Aprende tu estilo de escritura y prioridades con el tiempo",
+        "Diseño con aprobación previa: nada se envía sin tu revisión"
+      ],
+      "fr": [
+        "Expérience soignée grand public — configuration en 60 secondes environ",
+        "L'accès iMessage/SMS supprime toute friction de changement d'app",
+        "Apprend votre style d'écriture et vos priorités au fil du temps",
+        "Conception validation d'abord : rien n'est envoyé sans votre accord"
+      ]
+    },
+    "cons": {
+      "en": [
+        "No permanent free plan — $49.99/mo entry is steep for casual users",
+        "Usage-based limits can be opaque until you hit them",
+        "Optimized for iMessage; Android users get plain SMS",
+        "Positioning shifted toward executive assistant — general agent building is less prominent"
+      ],
+      "zh": [
+        "没有永久免费版——49.99 美元/月的门槛对轻量用户偏高",
+        "用量限制在触顶之前不够透明",
+        "为 iMessage 优化；Android 用户只有普通短信",
+        "定位已转向行政助理——通用智能体构建不再突出"
+      ],
+      "ja": [
+        "恒久無料プランがなく、月額49.99ドルの入口はライトユーザーには高め",
+        "使用量上限は達するまで分かりにくい",
+        "iMessage最適化のため、Androidユーザーは通常のSMSのみ",
+        "ポジショニングがAI秘書寄りになり、汎用エージェント構築は影が薄く"
+      ],
+      "es": [
+        "Sin plan gratuito permanente: 49,99 $/mes es caro para uso ocasional",
+        "Los límites de uso pueden ser opacos hasta que los alcanzas",
+        "Optimizado para iMessage; en Android solo SMS estándar",
+        "El enfoque viró a asistente ejecutivo: crear agentes generales pesa menos"
+      ],
+      "fr": [
+        "Pas de plan gratuit permanent — 49,99 $/mois est élevé pour un usage léger",
+        "Les limites d'usage restent opaques jusqu'à ce qu'on les atteigne",
+        "Optimisé pour iMessage ; les utilisateurs Android n'ont que le SMS",
+        "Le positionnement a viré vers l'assistant de direction — la création d'agents généraux est moins mise en avant"
+      ]
+    },
+    "latestUpdate": {
+      "en": "2026: Lindy repositions around the AI executive assistant — inbox, meetings, calendar and follow-ups via iMessage/SMS — with computer use and model choice on Pro, and HIPAA BAA plus SSO/SCIM on Enterprise",
+      "zh": "2026 年：Lindy 重新聚焦 AI 行政助理定位——经 iMessage/短信管理邮箱、会议、日程与跟进——Pro 版新增 Computer Use 与模型选择，企业版提供 HIPAA BAA 与 SSO/SCIM",
+      "ja": "2026年：LindyはAI秘書路線に再フォーカス——iMessage/SMS経由で受信箱・会議・カレンダー・フォローアップを管理。ProにComputer Useとモデル選択、EnterpriseにHIPAA BAAとSSO/SCIMを追加",
+      "es": "2026: Lindy se reposiciona como asistente ejecutivo IA —bandeja, reuniones, calendario y seguimientos vía iMessage/SMS— con computer use y elección de modelo en Pro, y HIPAA BAA más SSO/SCIM en Enterprise",
+      "fr": "2026 : Lindy se repositionne comme assistant de direction IA — boîte mail, réunions, agenda et relances via iMessage/SMS — avec computer use et choix du modèle sur Pro, HIPAA BAA et SSO/SCIM sur Enterprise"
+    },
+    "verdict": {
+      "badge": "Recommended",
+      "headline": {
+        "en": "The most human-feeling AI assistant — if your work lives in email and meetings",
+        "zh": "最有真人感的 AI 助理——前提是你的工作围着邮件和会议转",
+        "ja": "最も人間らしいAIアシスタント——仕事がメールと会議中心なら",
+        "es": "El asistente IA que más se siente humano, si tu trabajo vive en correos y reuniones",
+        "fr": "L'assistant IA le plus humain — si votre travail tourne autour des e-mails et réunions"
+      },
+      "body": {
+        "en": "Lindy made a bold bet: instead of competing in the crowded agent-builder market, it productized one job — the executive assistant — and nailed the interface by living in your text messages. Email triage, scheduling ping-pong and meeting notes genuinely disappear from your day, and the approval-first design keeps trust high. The trade-off is focus: at $49.99/mo with no free tier, it is priced for professionals whose calendar chaos justifies it, not for tinkerers who want a general-purpose agent playground.",
+        "zh": "Lindy 下了一步大胆的棋：不在拥挤的智能体构建市场里卷，而是把「行政助理」这一件事做成产品，并靠住进你的短信里赢下交互。邮件分拣、排期拉锯、会议记录真的会从你的日程中消失，审批优先的设计也让人放心。代价是专注：49.99 美元/月且无免费版的定价，面向的是日程混乱到值回票价的职场人，而不是想要通用智能体游乐场的折腾党。",
+        "ja": "Lindyは大胆な賭けに出た。混雑するエージェントビルダー市場で戦う代わりに、「秘書」という一つの仕事を製品化し、テキストメッセージの中に住むことでインターフェースを制した。メール仕分け、日程調整の応酬、議事録が本当に日常から消え、承認ファースト設計が信頼を支える。引き換えに得たのは専門性：無料プランなしの月額49.99ドルは、カレンダーの混沌がその価値を正当化するプロフェッショナル向けであり、汎用エージェントの遊び場が欲しい人向けではない。",
+        "es": "Lindy hizo una apuesta audaz: en lugar de competir en el saturado mercado de constructores de agentes, convirtió un solo trabajo —el asistente ejecutivo— en producto y clavó la interfaz viviendo en tus mensajes de texto. El triaje de correos, el ping-pong de agendas y las notas de reuniones desaparecen de verdad de tu día, y el diseño con aprobación previa mantiene la confianza. La contrapartida es el enfoque: a 49,99 $/mes sin plan gratuito, está pensado para profesionales cuyo caos de calendario lo justifica, no para curiosos que buscan un laboratorio de agentes.",
+        "fr": "Lindy a fait un pari audacieux : plutôt que de rivaliser sur le marché saturé des constructeurs d'agents, il a transformé un seul métier — l'assistant de direction — en produit, et gagné l'interface en s'installant dans vos SMS. Tri des e-mails, ping-pong de planification et comptes rendus disparaissent réellement de votre journée, et la conception validation d'abord entretient la confiance. La contrepartie, c'est le focus : à 49,99 $/mois sans offre gratuite, il s'adresse aux professionnels dont le chaos d'agenda justifie le prix, pas aux bidouilleurs en quête d'un terrain de jeu d'agents."
+      },
+      "bestFor": {
+        "en": [
+          "Executives and founders drowning in email and scheduling",
+          "Professionals who want an assistant one text message away",
+          "Teams needing HIPAA-compliant assistant workflows (Enterprise)"
+        ],
+        "zh": [
+          "被邮件和排期淹没的高管与创始人",
+          "想要一条短信就能召唤助理的职场人",
+          "需要 HIPAA 合规助理工作流的团队（企业版）"
+        ],
+        "ja": [
+          "メールと日程調整に溺れる経営者・創業者",
+          "メッセージ一通でアシスタントを呼びたいプロフェッショナル",
+          "HIPAA準拠のアシスタントワークフローが必要なチーム（Enterprise）"
+        ],
+        "es": [
+          "Ejecutivos y fundadores ahogados en correos y agendas",
+          "Profesionales que quieren un asistente a un mensaje de distancia",
+          "Equipos que necesitan flujos conformes con HIPAA (Enterprise)"
+        ],
+        "fr": [
+          "Dirigeants et fondateurs noyés sous les e-mails et la planification",
+          "Professionnels voulant un assistant à un SMS de distance",
+          "Équipes ayant besoin de workflows conformes HIPAA (Enterprise)"
+        ]
+      },
+      "considerAlternatives": {
+        "en": [
+          "You want a free or low-cost general agent builder (→ Flowise, Gumloop)",
+          "You need deep workflow automation across apps (→ Zapier AI, Make AI)"
+        ],
+        "zh": [
+          "你想要免费或低价的通用智能体构建器（→ Flowise、Gumloop）",
+          "你需要跨应用的深度工作流自动化（→ Zapier AI、Make AI）"
+        ],
+        "ja": [
+          "無料または低価格の汎用エージェントビルダーが欲しい（→ Flowise、Gumloop）",
+          "アプリ横断の本格的なワークフロー自動化が必要（→ Zapier AI、Make AI）"
+        ],
+        "es": [
+          "Quieres un constructor de agentes general gratuito o barato (→ Flowise, Gumloop)",
+          "Necesitas automatización profunda entre aplicaciones (→ Zapier AI, Make AI)"
+        ],
+        "fr": [
+          "Vous voulez un constructeur d'agents généraliste gratuit ou abordable (→ Flowise, Gumloop)",
+          "Vous avez besoin d'automatisation poussée entre applications (→ Zapier AI, Make AI)"
+        ]
+      }
+    }
+  },
+  "make-ai": {
+    "features": {
+      "en": [
+        "Transparent AI agents built on Make's visual automation canvas",
+        "Connects 3,000+ apps so agents can act across your whole stack",
+        "Full visibility into agent decisions, connections and cost scaling",
+        "Library of ready-made agents to start from instead of a blank page",
+        "Agents combine with classic scenarios: deterministic steps + AI judgment",
+        "Team governance over which tools and data each agent can touch"
+      ],
+      "zh": [
+        "基于 Make 可视化自动化画布构建的透明 AI 智能体",
+        "连接 3000+ 应用，智能体可跨整个工具栈行动",
+        "智能体的决策过程、连接关系与成本变化全程可见",
+        "现成智能体库，不用从空白页开始",
+        "智能体可与经典场景组合：确定性步骤 + AI 判断",
+        "团队级治理，管控每个智能体可触达的工具与数据"
+      ],
+      "ja": [
+        "Makeのビジュアル自動化キャンバス上に構築される透明なAIエージェント",
+        "3,000以上のアプリと接続し、エージェントがスタック全体で行動",
+        "エージェントの意思決定・接続・コスト推移を完全に可視化",
+        "白紙から作らなくていい既製エージェントのライブラリ",
+        "エージェントと従来シナリオを組み合わせ：決定的ステップ＋AI判断",
+        "各エージェントが触れるツールとデータをチームレベルで統制"
+      ],
+      "es": [
+        "Agentes IA transparentes construidos sobre el lienzo visual de Make",
+        "Conecta más de 3000 apps para que los agentes actúen en todo tu stack",
+        "Visibilidad total de decisiones, conexiones y escalado de costes",
+        "Biblioteca de agentes listos para no empezar desde cero",
+        "Los agentes se combinan con escenarios clásicos: pasos deterministas + juicio IA",
+        "Gobernanza de equipo sobre qué herramientas y datos toca cada agente"
+      ],
+      "fr": [
+        "Agents IA transparents construits sur le canevas d'automatisation visuel de Make",
+        "Connexion à plus de 3000 apps pour agir sur toute votre pile d'outils",
+        "Visibilité complète sur les décisions, connexions et évolution des coûts",
+        "Bibliothèque d'agents prêts à l'emploi pour ne pas partir de zéro",
+        "Les agents se combinent aux scénarios classiques : étapes déterministes + jugement IA",
+        "Gouvernance d'équipe sur les outils et données accessibles à chaque agent"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "Free plan with up to 1,000 credits/month — enough to test agents and simple scenarios on 3,000+ integrations",
+        "zh": "免费版每月最多 1000 积分——足够在 3000+ 集成上测试智能体与简单场景",
+        "ja": "無料プランは月最大1,000クレジット——3,000以上の連携でエージェントや簡単なシナリオを試すには十分",
+        "es": "Plan gratuito con hasta 1000 créditos/mes: suficiente para probar agentes y escenarios simples en más de 3000 integraciones",
+        "fr": "Plan gratuit jusqu'à 1 000 crédits/mois — assez pour tester agents et scénarios simples sur 3000+ intégrations"
+      },
+      "paid": {
+        "en": "Core $12/mo, Pro $21/mo and Teams $38/mo (each with 10K credits/mo, cheaper on annual billing, more credits by tier); Enterprise custom with advanced governance",
+        "zh": "Core 12 美元/月、Pro 21 美元/月、Teams 38 美元/月（均含每月 1 万积分，年付更低，可按档位加购积分）；企业版定制，含高级治理",
+        "ja": "Core 月額12ドル、Pro 月額21ドル、Teams 月額38ドル（いずれも月1万クレジット、年払いで割安、上位ほどクレジット増量可）、Enterpriseは高度なガバナンス付きカスタム",
+        "es": "Core 12 $/mes, Pro 21 $/mes y Teams 38 $/mes (cada uno con 10K créditos/mes, más barato en facturación anual, más créditos por nivel); Enterprise a medida con gobernanza avanzada",
+        "fr": "Core 12 $/mois, Pro 21 $/mois et Teams 38 $/mois (chacun avec 10K crédits/mois, moins cher en annuel, crédits croissants par palier) ; Enterprise sur mesure avec gouvernance avancée"
+      }
+    },
+    "useCases": {
+      "en": [
+        "Customer support triage where an agent classifies and routes tickets",
+        "Lead enrichment and CRM hygiene running across sales tools",
+        "Content pipelines mixing scheduled scenarios with AI decision points",
+        "Back-office processes spanning invoicing, docs and notifications"
+      ],
+      "zh": [
+        "客服工单分诊：智能体自动分类并路由工单",
+        "跨销售工具运行的线索补全与 CRM 数据治理",
+        "定时场景与 AI 决策点混排的内容流水线",
+        "横跨发票、文档与通知的后台流程"
+      ],
+      "ja": [
+        "エージェントがチケットを分類・振り分けするカスタマーサポートのトリアージ",
+        "営業ツール横断で走るリードエンリッチとCRMデータ整備",
+        "定期実行シナリオとAI判断ポイントを組み合わせたコンテンツパイプライン",
+        "請求書・文書・通知にまたがるバックオフィス業務"
+      ],
+      "es": [
+        "Triaje de soporte donde un agente clasifica y enruta tickets",
+        "Enriquecimiento de leads e higiene del CRM entre herramientas de ventas",
+        "Pipelines de contenido que mezclan escenarios programados con decisiones IA",
+        "Procesos de back-office con facturas, documentos y notificaciones"
+      ],
+      "fr": [
+        "Triage du support client : un agent classe et route les tickets",
+        "Enrichissement de leads et hygiène CRM à travers les outils de vente",
+        "Pipelines de contenu mêlant scénarios planifiés et points de décision IA",
+        "Processus back-office couvrant factures, documents et notifications"
+      ]
+    },
+    "pros": {
+      "en": [
+        "Transparency-first: you see why the agent did what it did",
+        "3,000+ integrations dwarf most standalone agent platforms",
+        "Gentle price curve from free to $12/mo Core",
+        "Visual canvas makes agents debuggable by non-engineers"
+      ],
+      "zh": [
+        "透明优先：智能体为什么这么做，你看得一清二楚",
+        "3000+ 集成远超多数独立智能体平台",
+        "从免费到 12 美元/月 Core，价格曲线平缓",
+        "可视化画布让非工程师也能调试智能体"
+      ],
+      "ja": [
+        "透明性ファースト：エージェントの行動理由がはっきり見える",
+        "3,000以上の連携は多くの独立系エージェントプラットフォームを圧倒",
+        "無料から月額12ドルのCoreまで、なだらかな価格カーブ",
+        "ビジュアルキャンバスでエンジニア以外でもエージェントをデバッグ可能"
+      ],
+      "es": [
+        "Transparencia ante todo: ves por qué el agente hizo lo que hizo",
+        "Más de 3000 integraciones superan a la mayoría de plataformas de agentes",
+        "Curva de precios suave desde gratis hasta Core a 12 $/mes",
+        "El lienzo visual permite depurar agentes sin ser ingeniero"
+      ],
+      "fr": [
+        "Transparence d'abord : vous voyez pourquoi l'agent a agi ainsi",
+        "3000+ intégrations écrasent la plupart des plateformes d'agents autonomes",
+        "Courbe tarifaire douce, du gratuit au Core à 12 $/mois",
+        "Le canevas visuel rend les agents débogables sans être ingénieur"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Agents are bound to the Make platform — no standalone deployment",
+        "Credit consumption of AI steps takes tuning to stay predictable",
+        "Agent capabilities are newer and less battle-tested than core scenarios",
+        "Complex branching canvases can get hard to maintain at scale"
+      ],
+      "zh": [
+        "智能体绑定 Make 平台——无法独立部署",
+        "AI 步骤的积分消耗需要调优才能保持可预期",
+        "智能体能力较新，不如核心场景功能久经考验",
+        "复杂分支画布规模大了以后维护吃力"
+      ],
+      "ja": [
+        "エージェントはMakeプラットフォームに紐付き——単独デプロイ不可",
+        "AIステップのクレジット消費は予測可能に保つのに調整が要る",
+        "エージェント機能は新しく、コアのシナリオ機能ほど実戦経験がない",
+        "複雑な分岐キャンバスは規模が大きくなると保守が大変"
+      ],
+      "es": [
+        "Los agentes están atados a la plataforma Make: sin despliegue independiente",
+        "El consumo de créditos de los pasos IA requiere ajuste para ser predecible",
+        "Las capacidades de agentes son más nuevas y menos probadas que los escenarios",
+        "Los lienzos con ramificaciones complejas cuestan de mantener a escala"
+      ],
+      "fr": [
+        "Les agents sont liés à la plateforme Make — pas de déploiement autonome",
+        "La consommation de crédits des étapes IA demande du réglage pour rester prévisible",
+        "Les capacités d'agents sont plus récentes et moins éprouvées que les scénarios",
+        "Les canevas très ramifiés deviennent durs à maintenir à grande échelle"
+      ]
+    },
+    "latestUpdate": {
+      "en": "2026: Make ships its next generation of AI Agents focused on transparency — visible decision-making, connection mapping and cost scaling — plus a library of ready-made agents, and moves pricing to a unified credits model",
+      "zh": "2026 年：Make 推出主打透明的新一代 AI Agents——决策过程、连接关系与成本变化全可见——并上线现成智能体库，定价切换为统一的积分模型",
+      "ja": "2026年：Makeは透明性を核とした次世代AI Agentsを発表——意思決定・接続マッピング・コスト推移を可視化——既製エージェントのライブラリも提供し、料金を統一クレジットモデルへ移行",
+      "es": "2026: Make lanza su nueva generación de AI Agents centrada en la transparencia —decisiones visibles, mapeo de conexiones y escalado de costes—, añade una biblioteca de agentes listos y unifica los precios en un modelo de créditos",
+      "fr": "2026 : Make lance sa nouvelle génération d'AI Agents axée sur la transparence — décisions visibles, cartographie des connexions et évolution des coûts — ajoute une bibliothèque d'agents prêts à l'emploi et unifie sa tarification autour des crédits"
+    },
+    "verdict": {
+      "badge": "Recommended",
+      "headline": {
+        "en": "AI agents with receipts — automation you can actually audit",
+        "zh": "带凭据的 AI 智能体——真正能审计的自动化",
+        "ja": "証跡付きのAIエージェント——本当に監査できる自動化",
+        "es": "Agentes IA con recibos: automatización que de verdad puedes auditar",
+        "fr": "Des agents IA avec justificatifs — une automatisation réellement auditable"
+      },
+      "body": {
+        "en": "While rivals sell autonomy, Make sells accountability. Its agents inherit a decade-old visual canvas, 3,000+ integrations, and a design philosophy that every decision, connection and dollar must be inspectable — exactly what businesses burned by black-box agents now ask for. The blend of deterministic scenarios with AI judgment steps is pragmatic: use AI only where rules fail. Agents cannot leave the platform and the newest capabilities still need seasoning, but if your team already thinks in workflows, this is the least risky on-ramp to agentic automation.",
+        "zh": "当对手在卖自主性时，Make 在卖可问责性。它的智能体继承了十年打磨的可视化画布、3000+ 集成，以及「每个决策、每条连接、每一块钱都必须可检视」的设计哲学——恰是被黑盒智能体坑过的企业现在最想要的。确定性场景与 AI 判断步骤的混搭也很务实：只在规则失效处用 AI。智能体离不开平台，最新能力也还需打磨，但如果你的团队本就习惯用工作流思考，这是通往智能体自动化风险最低的坡道。",
+        "ja": "ライバルが自律性を売る中、Makeは説明責任を売る。同社のエージェントは10年磨かれたビジュアルキャンバス、3,000以上の連携、そして「あらゆる決定・接続・支出は検査可能であるべき」という設計哲学を受け継ぐ——ブラックボックス型エージェントに痛い目を見た企業が今まさに求めるものだ。決定的シナリオとAI判断ステップの併用も実利的で、ルールが通用しない所だけAIを使えばいい。エージェントはプラットフォームの外に出られず、最新機能には熟成も必要だが、チームが既にワークフロー思考なら、エージェント自動化への最もリスクの低い入り口である。",
+        "es": "Mientras los rivales venden autonomía, Make vende rendición de cuentas. Sus agentes heredan un lienzo visual con una década de madurez, más de 3000 integraciones y una filosofía de diseño donde cada decisión, conexión y dólar debe ser inspeccionable: justo lo que piden las empresas escarmentadas por agentes de caja negra. La mezcla de escenarios deterministas con pasos de juicio IA es pragmática: usa IA solo donde las reglas fallan. Los agentes no pueden salir de la plataforma y las capacidades más nuevas aún maduran, pero si tu equipo ya piensa en flujos de trabajo, esta es la rampa menos arriesgada hacia la automatización agéntica.",
+        "fr": "Quand les rivaux vendent de l'autonomie, Make vend de la responsabilité. Ses agents héritent d'un canevas visuel mûri pendant dix ans, de 3000+ intégrations et d'une philosophie où chaque décision, connexion et dollar doit être inspectable — exactement ce que réclament les entreprises échaudées par les agents boîte noire. Le mélange de scénarios déterministes et d'étapes de jugement IA est pragmatique : n'utiliser l'IA que là où les règles échouent. Les agents ne quittent pas la plateforme et les capacités les plus récentes doivent encore mûrir, mais si votre équipe pense déjà en workflows, c'est la rampe la moins risquée vers l'automatisation agentique."
+      },
+      "bestFor": {
+        "en": [
+          "Existing Make users adding AI judgment to proven scenarios",
+          "Businesses requiring auditable, explainable agent behavior",
+          "Teams wanting agents across 3,000+ apps without writing code"
+        ],
+        "zh": [
+          "想给成熟场景加上 AI 判断的 Make 老用户",
+          "要求智能体行为可审计、可解释的企业",
+          "想不写代码就让智能体横跨 3000+ 应用的团队"
+        ],
+        "ja": [
+          "実績あるシナリオにAI判断を加えたい既存Makeユーザー",
+          "監査可能で説明可能なエージェント挙動を求める企業",
+          "コードを書かずに3,000+アプリを跨ぐエージェントが欲しいチーム"
+        ],
+        "es": [
+          "Usuarios de Make añadiendo juicio IA a escenarios probados",
+          "Empresas que exigen comportamiento de agentes auditable y explicable",
+          "Equipos que quieren agentes en más de 3000 apps sin escribir código"
+        ],
+        "fr": [
+          "Utilisateurs de Make ajoutant du jugement IA à des scénarios éprouvés",
+          "Entreprises exigeant un comportement d'agent auditable et explicable",
+          "Équipes voulant des agents sur 3000+ apps sans écrire de code"
+        ]
+      },
+      "considerAlternatives": {
+        "en": [
+          "You want agents you can self-host or take off-platform (→ Flowise, LangGraph)",
+          "Your automations are simple triggers between two apps (→ Zapier AI)"
+        ],
+        "zh": [
+          "你想要可自托管、可带离平台的智能体（→ Flowise、LangGraph）",
+          "你的自动化只是两个应用间的简单触发（→ Zapier AI）"
+        ],
+        "ja": [
+          "セルフホストやプラットフォーム外で動くエージェントが欲しい（→ Flowise、LangGraph）",
+          "自動化が2つのアプリ間の単純トリガーで済む（→ Zapier AI）"
+        ],
+        "es": [
+          "Quieres agentes autoalojables o fuera de la plataforma (→ Flowise, LangGraph)",
+          "Tus automatizaciones son disparadores simples entre dos apps (→ Zapier AI)"
+        ],
+        "fr": [
+          "Vous voulez des agents auto-hébergeables ou hors plateforme (→ Flowise, LangGraph)",
+          "Vos automatisations sont de simples déclencheurs entre deux apps (→ Zapier AI)"
+        ]
+      }
+    }
+  },
+  "skyvern": {
+    "features": {
+      "en": [
+        "AI browser automation using computer vision + LLMs instead of brittle selectors",
+        "Handles CAPTCHAs, 2FA/TOTP and logins natively — no third-party solvers",
+        "Build via copilot chat, SOP upload, browser recording or visual workflow editor",
+        "Python and TypeScript SDKs that drop onto existing Playwright code",
+        "Open source (AGPL-3.0, 20K+ stars) and self-hostable via Docker",
+        "SOC2 Type II and HIPAA compliant with proxy networks and geo targeting"
+      ],
+      "zh": [
+        "用计算机视觉 + LLM 做浏览器自动化，取代脆弱的 CSS 选择器",
+        "原生处理验证码、2FA/TOTP 与登录——无需第三方打码服务",
+        "四种搭建方式：Copilot 对话、上传 SOP 文档、浏览器录制、可视化工作流编辑器",
+        "Python 与 TypeScript SDK，可直接叠加在现有 Playwright 代码上",
+        "开源（AGPL-3.0，20K+ stars），支持 Docker 自托管",
+        "SOC2 Type II 与 HIPAA 合规，支持代理网络与地理定向"
+      ],
+      "ja": [
+        "コンピュータビジョン＋LLMによるブラウザ自動化で脆いセレクタを代替",
+        "CAPTCHA、2FA/TOTP、ログインをネイティブ処理——外部ソルバー不要",
+        "Copilotチャット、SOPアップロード、ブラウザ録画、ビジュアルエディタの4通りで構築",
+        "既存のPlaywrightコードに載せられるPython/TypeScript SDK",
+        "オープンソース（AGPL-3.0、20K+スター）でDockerセルフホスト可能",
+        "SOC2 Type IIとHIPAAに準拠、プロキシネットワークと地域ターゲティング対応"
+      ],
+      "es": [
+        "Automatización de navegador con visión por computadora + LLM en vez de selectores frágiles",
+        "Maneja CAPTCHAs, 2FA/TOTP y logins de forma nativa, sin servicios externos",
+        "Construye vía chat copilot, subida de SOPs, grabación del navegador o editor visual",
+        "SDKs de Python y TypeScript que se integran con código Playwright existente",
+        "Open source (AGPL-3.0, más de 20K estrellas) y autoalojable con Docker",
+        "Conforme con SOC2 Type II y HIPAA, con redes proxy y segmentación geográfica"
+      ],
+      "fr": [
+        "Automatisation de navigateur par vision par ordinateur + LLM au lieu de sélecteurs fragiles",
+        "Gère nativement CAPTCHA, 2FA/TOTP et connexions — sans solveurs tiers",
+        "Construction via chat copilot, upload de SOP, enregistrement navigateur ou éditeur visuel",
+        "SDK Python et TypeScript qui se greffent sur du code Playwright existant",
+        "Open source (AGPL-3.0, 20K+ étoiles) et auto-hébergeable via Docker",
+        "Conforme SOC2 Type II et HIPAA, avec réseaux proxy et ciblage géographique"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "Cloud free tier with 5,000 credits every month, no credit card required; the open source AGPL-3.0 version self-hosts for free (you pay your own LLM)",
+        "zh": "云端免费层每月 5000 积分，无需信用卡；开源 AGPL-3.0 版本可免费自托管（LLM 费用自理）",
+        "ja": "クラウド無料枠は毎月5,000クレジット、クレジットカード不要。オープンソースのAGPL-3.0版は無料でセルフホスト可能（LLM費用は自己負担）",
+        "es": "Nivel gratuito en la nube con 5000 créditos al mes, sin tarjeta; la versión open source AGPL-3.0 se autoaloja gratis (pagas tu propio LLM)",
+        "fr": "Offre cloud gratuite avec 5 000 crédits par mois, sans carte bancaire ; la version open source AGPL-3.0 s'auto-héberge gratuitement (vous payez votre LLM)"
+      },
+      "paid": {
+        "en": "Cloud paid plans scale by credits and features (managed browsers, proxies, priority support); Enterprise adds 99.9% uptime SLA, self-hosted deployment on AWS/GCP/Azure, RBAC and audit logs — pricing via sales",
+        "zh": "云端付费按积分与功能阶梯计价（托管浏览器、代理、优先支持）；企业版含 99.9% 可用性 SLA、AWS/GCP/Azure 自托管部署、RBAC 与审计日志——价格联系销售",
+        "ja": "クラウド有料プランはクレジットと機能（マネージドブラウザ、プロキシ、優先サポート）に応じて段階制。Enterpriseは99.9%稼働SLA、AWS/GCP/Azureへのセルフホスト展開、RBAC、監査ログ付き——価格は営業へ",
+        "es": "Los planes de pago en la nube escalan por créditos y funciones (navegadores gestionados, proxies, soporte prioritario); Enterprise añade SLA del 99,9%, despliegue autoalojado en AWS/GCP/Azure, RBAC y auditoría — precio con ventas",
+        "fr": "Les plans cloud payants évoluent selon crédits et fonctions (navigateurs gérés, proxys, support prioritaire) ; Enterprise ajoute un SLA 99,9 %, le déploiement auto-hébergé sur AWS/GCP/Azure, RBAC et journaux d'audit — tarif via le service commercial"
+      }
+    },
+    "useCases": {
+      "en": [
+        "Accounts payable: downloading invoices from hundreds of vendor portals",
+        "Web data extraction from sites without APIs, output as JSON/CSV",
+        "Form filling at scale — applications, registrations, compliance filings",
+        "Browser testing and QA that survives UI redesigns"
+      ],
+      "zh": [
+        "应付账款自动化：从数百个供应商门户下载发票",
+        "从无 API 的网站提取结构化数据，输出 JSON/CSV",
+        "规模化表单填写——申请、注册、合规申报",
+        "能扛住 UI 改版的浏览器测试与 QA"
+      ],
+      "ja": [
+        "買掛金業務：数百のベンダーポータルからの請求書ダウンロード",
+        "APIのないサイトからのデータ抽出、JSON/CSVで出力",
+        "大規模フォーム入力——申請、登録、コンプライアンス提出",
+        "UI刷新に耐えるブラウザテストとQA"
+      ],
+      "es": [
+        "Cuentas por pagar: descarga de facturas de cientos de portales de proveedores",
+        "Extracción de datos web de sitios sin API, con salida en JSON/CSV",
+        "Rellenado de formularios a escala: solicitudes, registros, trámites",
+        "Pruebas de navegador y QA que sobreviven a rediseños de UI"
+      ],
+      "fr": [
+        "Comptabilité fournisseurs : téléchargement de factures depuis des centaines de portails",
+        "Extraction de données web de sites sans API, sortie en JSON/CSV",
+        "Remplissage de formulaires à grande échelle — candidatures, inscriptions, déclarations",
+        "Tests navigateur et QA résistant aux refontes d'interface"
+      ]
+    },
+    "pros": {
+      "en": [
+        "Workflows survive UI changes — no selector maintenance treadmill",
+        "Native CAPTCHA and 2FA handling is rare among browser agents",
+        "Generous free tier: 5,000 credits monthly plus full open source option",
+        "Enterprise-ready: SOC2, HIPAA, 10M+ workflows run, 99.9% SLA"
+      ],
+      "zh": [
+        "工作流扛得住 UI 变化——告别选择器维护跑步机",
+        "原生处理验证码与 2FA，在浏览器智能体中相当罕见",
+        "免费层慷慨：每月 5000 积分，另有完整开源选项",
+        "企业就绪：SOC2、HIPAA、累计运行 1000 万+ 工作流、99.9% SLA"
+      ],
+      "ja": [
+        "ワークフローがUI変更に耐える——セレクタ保守の無限ループから解放",
+        "CAPTCHAと2FAのネイティブ処理はブラウザエージェントでは希少",
+        "寛大な無料枠：毎月5,000クレジット＋完全なオープンソース版",
+        "エンタープライズ対応：SOC2、HIPAA、累計1,000万+ワークフロー実行、99.9% SLA"
+      ],
+      "es": [
+        "Los flujos sobreviven a cambios de UI: adiós al mantenimiento de selectores",
+        "El manejo nativo de CAPTCHA y 2FA es raro entre agentes de navegador",
+        "Nivel gratuito generoso: 5000 créditos mensuales más opción open source completa",
+        "Listo para empresas: SOC2, HIPAA, más de 10M de flujos ejecutados, SLA del 99,9%"
+      ],
+      "fr": [
+        "Les workflows survivent aux changements d'UI — fini l'entretien des sélecteurs",
+        "La gestion native des CAPTCHA et 2FA est rare parmi les agents navigateur",
+        "Offre gratuite généreuse : 5 000 crédits par mois plus une option open source complète",
+        "Prêt pour l'entreprise : SOC2, HIPAA, 10M+ de workflows exécutés, SLA 99,9 %"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Vision + LLM runs cost more per step than scripted Playwright",
+        "AGPL-3.0 license demands care when embedding in commercial products",
+        "Paid cloud pricing requires a sales conversation to pin down",
+        "Slower than hand-tuned scripts for stable, never-changing pages"
+      ],
+      "zh": [
+        "视觉 + LLM 的单步运行成本高于脚本化 Playwright",
+        "AGPL-3.0 许可证嵌入商业产品时需要谨慎",
+        "云端付费价格要跟销售聊过才能敲定",
+        "对于稳定不变的页面，比手工调优的脚本慢"
+      ],
+      "ja": [
+        "ビジョン＋LLMの実行はスクリプト型Playwrightよりステップ単価が高い",
+        "AGPL-3.0ライセンスは商用製品への組み込みに注意が必要",
+        "クラウド有料版の価格は営業との相談が必要",
+        "変化のない安定したページでは手動チューニングしたスクリプトより遅い"
+      ],
+      "es": [
+        "Los runs con visión + LLM cuestan más por paso que Playwright con scripts",
+        "La licencia AGPL-3.0 exige cuidado al integrarla en productos comerciales",
+        "El precio de pago en la nube requiere hablar con ventas",
+        "Más lento que scripts afinados a mano en páginas estables que nunca cambian"
+      ],
+      "fr": [
+        "Les exécutions vision + LLM coûtent plus cher par étape que Playwright scripté",
+        "La licence AGPL-3.0 impose de la prudence pour l'intégration commerciale",
+        "Le tarif cloud payant nécessite un échange commercial pour être fixé",
+        "Plus lent que des scripts optimisés à la main sur des pages stables"
+      ]
+    },
+    "latestUpdate": {
+      "en": "2026: Skyvern passes 20K GitHub stars and 10M workflows run, ships copilot chat, SOP-to-workflow conversion and browser recording, achieves SOC2 Type II + HIPAA, and offers 5,000 free credits monthly with MCP support",
+      "zh": "2026 年：Skyvern 突破 2 万 GitHub stars 与 1000 万次工作流运行，推出 Copilot 对话、SOP 文档转工作流与浏览器录制，通过 SOC2 Type II 与 HIPAA 认证，每月提供 5000 免费积分并支持 MCP",
+      "ja": "2026年：SkyvernはGitHub 2万スターと累計1,000万ワークフロー実行を突破。Copilotチャット、SOP→ワークフロー変換、ブラウザ録画を追加し、SOC2 Type IIとHIPAAを取得。毎月5,000無料クレジットとMCP対応も提供",
+      "es": "2026: Skyvern supera las 20K estrellas en GitHub y 10M de flujos ejecutados, lanza chat copilot, conversión de SOP a flujo y grabación de navegador, logra SOC2 Type II + HIPAA, y ofrece 5000 créditos gratis al mes con soporte MCP",
+      "fr": "2026 : Skyvern dépasse 20K étoiles GitHub et 10M de workflows exécutés, lance le chat copilot, la conversion SOP→workflow et l'enregistrement navigateur, obtient SOC2 Type II + HIPAA, et offre 5 000 crédits gratuits par mois avec support MCP"
+    },
+    "verdict": {
+      "badge": "Recommended",
+      "headline": {
+        "en": "Browser automation that finally stops breaking when websites change",
+        "zh": "终于不再因网站改版而崩坏的浏览器自动化",
+        "ja": "サイトが変わっても壊れない、ようやく現れたブラウザ自動化",
+        "es": "Automatización de navegador que por fin no se rompe cuando cambian las webs",
+        "fr": "L'automatisation navigateur qui cesse enfin de casser quand les sites changent"
+      },
+      "body": {
+        "en": "Every team that maintains Playwright or RPA scripts knows the treadmill: the site redesigns, the selectors break, an engineer rebuilds. Skyvern attacks exactly that pain by reading pages the way humans do — vision plus reasoning — and it backs the pitch with the unglamorous essentials enterprise automation actually needs: native CAPTCHA/2FA handling, SOC2 and HIPAA, proxies, audit trails. The 5,000 monthly free credits and AGPL open source core make it easy to validate before committing. Budget for higher per-run costs than raw scripts; the payback is maintenance that approaches zero.",
+        "zh": "维护过 Playwright 或 RPA 脚本的团队都懂那台跑步机：网站一改版，选择器就崩，工程师重写一遍。Skyvern 正面攻击这个痛点——像人一样用视觉加推理去读页面——并用企业自动化真正需要的朴素硬货支撑卖点：原生验证码/2FA 处理、SOC2 与 HIPAA、代理网络、审计留痕。每月 5000 免费积分和 AGPL 开源内核让你在投入前轻松验证。预算上要接受比裸脚本更高的单次运行成本；回报是趋近于零的维护量。",
+        "ja": "PlaywrightやRPAスクリプトを保守するチームなら、あの無限ループを知っている。サイトが刷新され、セレクタが壊れ、エンジニアが作り直す。Skyvernはまさにその痛点を、人間と同じように——ビジョンと推論で——ページを読むことで攻略する。しかも企業自動化に本当に必要な地味な必需品で裏打ちする：CAPTCHA/2FAのネイティブ処理、SOC2とHIPAA、プロキシ、監査証跡。毎月5,000の無料クレジットとAGPLのオープンソースコアで、本格導入前の検証も容易だ。素のスクリプトより高い実行単価は覚悟すべきだが、見返りはほぼゼロに近づく保守コストである。",
+        "es": "Todo equipo que mantiene scripts de Playwright o RPA conoce la rueda: la web se rediseña, los selectores se rompen, un ingeniero lo reconstruye. Skyvern ataca exactamente ese dolor leyendo las páginas como lo hacen los humanos —visión más razonamiento— y respalda el discurso con lo esencial y poco glamuroso que la automatización empresarial de verdad necesita: CAPTCHA/2FA nativos, SOC2 y HIPAA, proxies, trazabilidad. Los 5000 créditos gratis mensuales y el núcleo open source AGPL facilitan validar antes de comprometerse. Presupuesta costes por ejecución mayores que los scripts puros; la recompensa es un mantenimiento que tiende a cero.",
+        "fr": "Toute équipe qui maintient des scripts Playwright ou RPA connaît la roue infernale : le site est refondu, les sélecteurs cassent, un ingénieur reconstruit. Skyvern attaque précisément cette douleur en lisant les pages comme un humain — vision plus raisonnement — et étaye son discours avec l'essentiel peu glamour dont l'automatisation d'entreprise a vraiment besoin : CAPTCHA/2FA natifs, SOC2 et HIPAA, proxys, pistes d'audit. Les 5 000 crédits gratuits mensuels et le cœur open source AGPL facilitent la validation avant engagement. Prévoyez un coût par exécution supérieur aux scripts bruts ; en retour, la maintenance tend vers zéro."
+      },
+      "bestFor": {
+        "en": [
+          "Ops teams automating portals with logins, 2FA and CAPTCHAs",
+          "Companies replacing brittle RPA or Selenium maintenance burdens",
+          "Regulated industries needing SOC2/HIPAA-compliant browser automation"
+        ],
+        "zh": [
+          "要自动化带登录、2FA 和验证码门户的运营团队",
+          "想甩掉脆弱 RPA 或 Selenium 维护包袱的公司",
+          "需要 SOC2/HIPAA 合规浏览器自动化的强监管行业"
+        ],
+        "ja": [
+          "ログイン・2FA・CAPTCHA付きポータルを自動化する運用チーム",
+          "脆いRPAやSeleniumの保守負担を手放したい企業",
+          "SOC2/HIPAA準拠のブラウザ自動化が必要な規制業界"
+        ],
+        "es": [
+          "Equipos de operaciones automatizando portales con login, 2FA y CAPTCHA",
+          "Empresas reemplazando el mantenimiento frágil de RPA o Selenium",
+          "Sectores regulados que requieren automatización conforme SOC2/HIPAA"
+        ],
+        "fr": [
+          "Équipes ops automatisant des portails avec connexion, 2FA et CAPTCHA",
+          "Entreprises remplaçant la maintenance fragile de RPA ou Selenium",
+          "Secteurs réglementés exigeant une automatisation conforme SOC2/HIPAA"
+        ]
+      },
+      "considerAlternatives": {
+        "en": [
+          "You want a lightweight open source library for developers (→ Browser Use)",
+          "Your pages are stable and scripted Playwright is cheaper at scale"
+        ],
+        "zh": [
+          "你想要面向开发者的轻量开源库（→ Browser Use）",
+          "你的页面很稳定，规模化时脚本化 Playwright 更省钱"
+        ],
+        "ja": [
+          "開発者向けの軽量オープンソースライブラリが欲しい（→ Browser Use）",
+          "ページが安定していて、大規模ではスクリプト型Playwrightの方が安い"
+        ],
+        "es": [
+          "Quieres una biblioteca open source ligera para desarrolladores (→ Browser Use)",
+          "Tus páginas son estables y Playwright con scripts sale más barato a escala"
+        ],
+        "fr": [
+          "Vous voulez une bibliothèque open source légère pour développeurs (→ Browser Use)",
+          "Vos pages sont stables et Playwright scripté revient moins cher à grande échelle"
+        ]
+      }
+    }
   }
 }
