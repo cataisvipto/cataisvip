@@ -2961,5 +2961,151 @@
       "browser_extension": false,
       "api": true
     }
+  },
+  {
+    "slug": "devin",
+    "name": "Devin",
+    "nameZh": "Devin",
+    "description": "Cognition 推出的自主 AI 软件工程师，云端并行智能体独立完成编码任务，配套 Devin Desktop IDE（原 Windsurf）",
+    "descriptionEn": "Autonomous AI software engineer by Cognition; parallel cloud agents complete coding tasks end-to-end, paired with the Devin Desktop IDE (formerly Windsurf)",
+    "descriptionJa": "Cognitionが開発した自律型AIソフトウェアエンジニア。クラウド並列エージェントがコーディングタスクを完遂し、Devin Desktop IDE（旧Windsurf）と連携",
+    "descriptionEs": "Ingeniero de software IA autónomo de Cognition; agentes paralelos en la nube completan tareas de código de principio a fin, junto al IDE Devin Desktop (antes Windsurf)",
+    "descriptionFr": "Ingénieur logiciel IA autonome de Cognition ; des agents cloud parallèles réalisent les tâches de codage de bout en bout, avec l'IDE Devin Desktop (ex-Windsurf)",
+    "url": "https://devin.ai",
+    "logo": "/logos/tools/devin.png",
+    "category": "Agent",
+    "tags": [
+      "Freemium",
+      "API"
+    ],
+    "featured": false,
+    "developer": "Cognition",
+    "platforms": {
+      "web": true,
+      "windows": true,
+      "macos": true,
+      "ios": false,
+      "android": false,
+      "linux": "unknown",
+      "browser_extension": false,
+      "api": true
+    }
+  },
+  {
+    "slug": "openhands",
+    "name": "OpenHands",
+    "nameZh": "OpenHands",
+    "description": "All Hands AI 的开源云端编码智能体平台（原 OpenDevin），模型无关、可自托管，自动化真实工程任务",
+    "descriptionEn": "Open-source platform for cloud coding agents by All Hands AI (formerly OpenDevin); model-agnostic, self-hostable, automates real engineering work",
+    "descriptionJa": "All Hands AIのオープンソース・クラウドコーディングエージェントプラットフォーム（旧OpenDevin）。モデル非依存、セルフホスト可能、実際のエンジニアリング作業を自動化",
+    "descriptionEs": "Plataforma de código abierto para agentes de programación en la nube de All Hands AI (antes OpenDevin); agnóstica de modelos, autoalojable, automatiza trabajo real de ingeniería",
+    "descriptionFr": "Plateforme open source d'agents de codage cloud d'All Hands AI (ex-OpenDevin) ; indépendante du modèle, auto-hébergeable, automatise le travail d'ingénierie réel",
+    "url": "https://www.openhands.dev",
+    "logo": "/logos/tools/openhands.png",
+    "category": "Agent",
+    "tags": [
+      "Freemium",
+      "Open Source",
+      "API"
+    ],
+    "featured": false,
+    "developer": "All Hands AI",
+    "platforms": {
+      "web": true,
+      "windows": true,
+      "macos": true,
+      "ios": false,
+      "android": false,
+      "linux": true,
+      "browser_extension": false,
+      "api": true
+    }
+  },
+  {
+    "slug": "crewai",
+    "name": "CrewAI",
+    "nameZh": "CrewAI",
+    "description": "开源多智能体编排框架，角色分工的 Crew 协作与 Flows 事件流编排，企业平台 AMP 覆盖大量财富 500 强",
+    "descriptionEn": "Open-source multi-agent orchestration framework with role-based Crews and event-driven Flows; its AMP enterprise platform is used across the Fortune 500",
+    "descriptionJa": "オープンソースのマルチエージェントオーケストレーションフレームワーク。役割分担型CrewとイベントドリブンFlowsを提供、企業向けAMPはFortune 500企業に広く採用",
+    "descriptionEs": "Framework de orquestación multiagente de código abierto con Crews basados en roles y Flows orientados a eventos; su plataforma empresarial AMP se usa en la Fortune 500",
+    "descriptionFr": "Framework open source d'orchestration multi-agents avec Crews par rôles et Flows événementiels ; sa plateforme entreprise AMP est adoptée par le Fortune 500",
+    "url": "https://www.crewai.com",
+    "logo": "/logos/tools/crewai.png",
+    "category": "Agent",
+    "tags": [
+      "Freemium",
+      "Open Source"
+    ],
+    "featured": false,
+    "developer": "CrewAI",
+    "platforms": {
+      "web": true,
+      "windows": true,
+      "macos": true,
+      "ios": false,
+      "android": false,
+      "linux": true,
+      "browser_extension": false,
+      "api": true
+    }
+  },
+  {
+    "slug": "browser-use",
+    "name": "Browser Use",
+    "nameZh": "Browser Use",
+    "description": "让 AI 智能体操作浏览器的开源库与云服务：网页自动化、表单填写、数据采集，云端提供隐身浏览器与验证码处理",
+    "descriptionEn": "Open-source library and cloud service that lets AI agents control browsers: web automation, form filling, data extraction, with stealth browsers and CAPTCHA handling in the cloud",
+    "descriptionJa": "AIエージェントにブラウザを操作させるオープンソースライブラリ＆クラウドサービス。Web自動化、フォーム入力、データ収集に対応し、クラウドではステルスブラウザとCAPTCHA処理を提供",
+    "descriptionEs": "Biblioteca de código abierto y servicio en la nube que permite a agentes IA controlar navegadores: automatización web, relleno de formularios, extracción de datos, con navegadores sigilosos y gestión de CAPTCHA",
+    "descriptionFr": "Bibliothèque open source et service cloud permettant aux agents IA de contrôler des navigateurs : automatisation web, remplissage de formulaires, extraction de données, avec navigateurs furtifs et gestion des CAPTCHA",
+    "url": "https://browser-use.com",
+    "logo": "/logos/tools/browser-use.ico",
+    "category": "Agent",
+    "tags": [
+      "Freemium",
+      "Open Source",
+      "API"
+    ],
+    "featured": false,
+    "developer": "Browser Use",
+    "platforms": {
+      "web": true,
+      "windows": true,
+      "macos": true,
+      "ios": false,
+      "android": false,
+      "linux": true,
+      "browser_extension": false,
+      "api": true
+    }
+  },
+  {
+    "slug": "genspark",
+    "name": "Genspark",
+    "nameZh": "Genspark",
+    "description": "全能 AI 工作空间与超级智能体：一句话生成幻灯片、文档、表格、图像、视频，并推出 Win/Mac AI 原生浏览器",
+    "descriptionEn": "All-in-one AI workspace with a Super Agent: generate slides, docs, sheets, images and video from a prompt, plus an AI-native browser for Windows and Mac",
+    "descriptionJa": "オールインワンAIワークスペース＆スーパーエージェント。プロンプト一つでスライド、ドキュメント、表、画像、動画を生成。Windows/Mac向けAIネイティブブラウザも提供",
+    "descriptionEs": "Espacio de trabajo IA todo en uno con Super Agente: genera diapositivas, documentos, hojas, imágenes y vídeo desde un prompt, más un navegador IA nativo para Windows y Mac",
+    "descriptionFr": "Espace de travail IA tout-en-un avec Super Agent : générez diapositives, documents, tableaux, images et vidéos à partir d'un prompt, plus un navigateur IA natif pour Windows et Mac",
+    "url": "https://www.genspark.ai",
+    "logo": "/logos/tools/genspark.ico",
+    "category": "Agent",
+    "tags": [
+      "Freemium"
+    ],
+    "featured": false,
+    "developer": "Genspark",
+    "platforms": {
+      "web": true,
+      "windows": true,
+      "macos": true,
+      "ios": true,
+      "android": true,
+      "linux": false,
+      "browser_extension": false,
+      "api": "unknown"
+    }
   }
 ]

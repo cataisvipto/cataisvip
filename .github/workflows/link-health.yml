@@ -2,8 +2,8 @@ name: Link Health
 
 on:
   schedule:
-    # 每周一 UTC 22:00（北京时间周二早 6 点）自动审核工具官网存活
-    - cron: '0 22 * * 1'
+    # 每周一 UTC 22:23（北京时间周二早 6:23）自动审核工具官网存活；避开整点防 GitHub 静默丢弃
+    - cron: '23 22 * * 1'
   workflow_dispatch:
 
 jobs:

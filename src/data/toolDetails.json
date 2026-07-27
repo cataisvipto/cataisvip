@@ -25050,5 +25050,1150 @@
         ]
       }
     }
+  },
+  "devin": {
+    "features": {
+      "en": [
+        "Autonomous cloud agents that plan, write code, run tests and open pull requests",
+        "Devin Desktop IDE (formerly Windsurf) with unlimited Tab completion and inline edits",
+        "In-house SWE 1.7 frontier model free on paid plans, plus OpenAI, Claude and Gemini models",
+        "Run multiple Devin sessions in parallel for large backlogs",
+        "DeepWiki codebase understanding and Ask Devin Q&A",
+        "Integrations with Slack, Teams, Linear, Jira, GitHub, GitLab and Bitbucket"
+      ],
+      "zh": [
+        "自主云端智能体：规划、写代码、跑测试、提 PR 全流程独立完成",
+        "Devin Desktop IDE（原 Windsurf）：无限 Tab 补全与内联编辑",
+        "自研 SWE 1.7 前沿模型付费版免费用，另可调用 OpenAI、Claude、Gemini 模型",
+        "多个 Devin 会话并行执行，批量消化积压任务",
+        "DeepWiki 代码库理解与 Ask Devin 问答",
+        "集成 Slack、Teams、Linear、Jira、GitHub、GitLab、Bitbucket"
+      ],
+      "ja": [
+        "自律クラウドエージェント：計画、コーディング、テスト実行、PR作成まで完遂",
+        "Devin Desktop IDE（旧Windsurf）：無制限のTab補完とインライン編集",
+        "自社開発SWE 1.7フロンティアモデルを有料プランで無料提供、OpenAI・Claude・Geminiモデルも利用可",
+        "複数のDevinセッションを並列実行し、大量のバックログを処理",
+        "DeepWikiコードベース理解とAsk Devin Q&A",
+        "Slack、Teams、Linear、Jira、GitHub、GitLab、Bitbucketと統合"
+      ],
+      "es": [
+        "Agentes autónomos en la nube que planifican, escriben código, ejecutan pruebas y abren pull requests",
+        "IDE Devin Desktop (antes Windsurf) con autocompletado Tab ilimitado y ediciones en línea",
+        "Modelo propio SWE 1.7 gratis en planes de pago, más modelos de OpenAI, Claude y Gemini",
+        "Ejecuta múltiples sesiones de Devin en paralelo para grandes backlogs",
+        "Comprensión del código con DeepWiki y preguntas con Ask Devin",
+        "Integraciones con Slack, Teams, Linear, Jira, GitHub, GitLab y Bitbucket"
+      ],
+      "fr": [
+        "Agents cloud autonomes qui planifient, codent, testent et ouvrent des pull requests",
+        "IDE Devin Desktop (ex-Windsurf) avec complétion Tab illimitée et éditions en ligne",
+        "Modèle maison SWE 1.7 gratuit sur les offres payantes, plus les modèles OpenAI, Claude et Gemini",
+        "Exécution de plusieurs sessions Devin en parallèle pour les gros backlogs",
+        "Compréhension du code avec DeepWiki et questions via Ask Devin",
+        "Intégrations Slack, Teams, Linear, Jira, GitHub, GitLab et Bitbucket"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "Free plan: $0 with a light agent quota, limited model availability, unlimited inline edits and Tab completions in Devin Desktop",
+        "zh": "免费版：0 美元，含少量智能体额度、有限模型可选，Devin Desktop 内联编辑与 Tab 补全不限量",
+        "ja": "無料プラン：0ドル。少量のエージェント枠、限定モデル、Devin Desktopのインライン編集とTab補完は無制限",
+        "es": "Plan gratuito: 0 $ con cuota ligera de agente, modelos limitados, ediciones en línea y Tab ilimitados en Devin Desktop",
+        "fr": "Offre gratuite : 0 $ avec un petit quota agent, modèles limités, éditions en ligne et complétions Tab illimitées dans Devin Desktop"
+      },
+      "paid": {
+        "en": "Pro $20/mo (frontier models, Devin Cloud, up to 10 concurrent sessions); Max $200/mo (much higher quotas); Team $80/mo + $40/mo per full seat; Enterprise custom with VPC deployment and SSO. Extra usage billed at API pricing",
+        "zh": "Pro 20 美元/月（前沿模型、Devin Cloud、最多 10 并发）；Max 200 美元/月（大幅提高额度）；Team 80 美元/月 + 每正式席位 40 美元/月；企业版定制（VPC 部署、SSO）。超额用量按 API 价格计费",
+        "ja": "Pro 月20ドル（フロンティアモデル、Devin Cloud、最大10並列）；Max 月200ドル（大幅増量）；Team 月80ドル＋フルシート毎月40ドル；EnterpriseはVPC展開・SSO対応のカスタム。超過分はAPI価格で課金",
+        "es": "Pro 20 $/mes (modelos frontier, Devin Cloud, hasta 10 sesiones); Max 200 $/mes (cuotas mucho mayores); Team 80 $/mes + 40 $/mes por asiento; Enterprise a medida con VPC y SSO. Uso extra a precio de API",
+        "fr": "Pro 20 $/mois (modèles frontier, Devin Cloud, 10 sessions max) ; Max 200 $/mois (quotas bien supérieurs) ; Team 80 $/mois + 40 $/mois par siège ; Enterprise sur mesure avec VPC et SSO. Dépassement facturé au tarif API"
+      }
+    },
+    "useCases": {
+      "en": [
+        "Burning down bug backlogs with parallel autonomous agents",
+        "Code migrations and large-scale refactoring",
+        "Building features end-to-end from a ticket to a reviewed PR",
+        "Answering codebase questions for onboarding via DeepWiki"
+      ],
+      "zh": [
+        "用并行自主智能体批量消化 Bug 积压",
+        "代码迁移与大规模重构",
+        "从工单到已审查 PR 的端到端功能开发",
+        "借助 DeepWiki 回答代码库问题、辅助新人上手"
+      ],
+      "ja": [
+        "並列自律エージェントでバグのバックログを一掃",
+        "コード移行と大規模リファクタリング",
+        "チケットからレビュー済みPRまでエンドツーエンドの機能開発",
+        "DeepWikiでコードベースの質問に回答しオンボーディングを支援"
+      ],
+      "es": [
+        "Reducir backlogs de bugs con agentes autónomos en paralelo",
+        "Migraciones de código y refactorizaciones a gran escala",
+        "Construir funciones de extremo a extremo desde un ticket hasta un PR revisado",
+        "Responder preguntas del código para onboarding con DeepWiki"
+      ],
+      "fr": [
+        "Résorber les backlogs de bugs avec des agents autonomes parallèles",
+        "Migrations de code et refactorisations à grande échelle",
+        "Développer des fonctionnalités de bout en bout, du ticket au PR relu",
+        "Répondre aux questions sur le code via DeepWiki pour faciliter l’onboarding"
+      ]
+    },
+    "pros": {
+      "en": [
+        "True end-to-end autonomy with mature ticket/PR workflow integrations",
+        "Cloud agents plus a full desktop IDE in one subscription",
+        "In-house SWE models keep costs down on routine tasks",
+        "Accessible $20/mo entry price after the 2026 pricing overhaul"
+      ],
+      "zh": [
+        "真端到端自主执行，工单/PR 工作流集成成熟",
+        "一份订阅同时覆盖云端智能体与完整桌面 IDE",
+        "自研 SWE 模型降低常规任务成本",
+        "2026 定价改革后 20 美元/月的亲民入门价"
+      ],
+      "ja": [
+        "チケット/PRワークフロー統合が成熟した真のエンドツーエンド自律性",
+        "1つのサブスクでクラウドエージェントとデスクトップIDEの両方をカバー",
+        "自社SWEモデルでルーチンタスクのコストを削減",
+        "2026年の価格改定後、月20ドルの手頃なエントリー価格"
+      ],
+      "es": [
+        "Autonomía real de extremo a extremo con integraciones maduras de tickets/PR",
+        "Agentes en la nube más un IDE de escritorio completo en una suscripción",
+        "Los modelos SWE propios reducen costes en tareas rutinarias",
+        "Precio de entrada accesible de 20 $/mes tras la reforma de precios de 2026"
+      ],
+      "fr": [
+        "Véritable autonomie de bout en bout avec intégrations tickets/PR matures",
+        "Agents cloud et IDE de bureau complet dans un seul abonnement",
+        "Les modèles SWE maison réduisent les coûts des tâches courantes",
+        "Prix d'entrée accessible de 20 $/mois après la refonte tarifaire de 2026"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Usage-based quotas make monthly costs hard to predict on heavy workloads",
+        "Complex or ambiguous tasks still need human supervision and review",
+        "Closed-source; cloud-first design limits fully offline use",
+        "Team plan seat pricing adds up for larger organizations"
+      ],
+      "zh": [
+        "按用量计费，重度使用下月成本难以预估",
+        "复杂或模糊任务仍需人工监督与审查",
+        "闭源且云优先，无法完全离线使用",
+        "Team 版按席位叠加，大团队成本走高"
+      ],
+      "ja": [
+        "使用量ベースの割当のため、ヘビーユースでは月額コストが予測しにくい",
+        "複雑・曖昧なタスクには依然として人間の監督とレビューが必要",
+        "クローズドソースかつクラウドファーストで完全オフライン利用は不可",
+        "Teamプランはシート課金で大規模組織ではコスト増"
+      ],
+      "es": [
+        "Las cuotas por uso dificultan predecir el coste mensual con cargas intensas",
+        "Las tareas complejas o ambiguas aún requieren supervisión humana",
+        "Código cerrado; diseño cloud-first limita el uso totalmente offline",
+        "El precio por asiento del plan Team se acumula en organizaciones grandes"
+      ],
+      "fr": [
+        "Les quotas à l'usage rendent le coût mensuel difficile à prévoir en usage intensif",
+        "Les tâches complexes ou ambiguës nécessitent encore une supervision humaine",
+        "Code fermé ; conception cloud-first limitant l’usage hors ligne",
+        "La tarification par siège du plan Team pèse sur les grandes organisations"
+      ]
+    },
+    "latestUpdate": {
+      "en": "2026: SWE 1.7 model released; Windsurf completed its integration and was renamed Devin Desktop (June 2026); new usage-based pricing introduced a $20/mo Pro tier after Cognition acquired Windsurf for ~$250M",
+      "zh": "2026 年：发布 SWE 1.7 模型；Windsurf 完成整合并更名 Devin Desktop（2026 年 6 月）；Cognition 以约 2.5 亿美元收购 Windsurf 后推出按用量计费的新定价，新增 20 美元/月 Pro 档",
+      "ja": "2026年：SWE 1.7モデルをリリース。WindsurfはDevin Desktopに改称され統合完了（2026年6月）。CognitionがWindsurfを約2.5億ドルで買収後、月20ドルのProプランを含む使用量ベースの新価格を導入",
+      "es": "2026: lanzado el modelo SWE 1.7; Windsurf completó su integración y pasó a llamarse Devin Desktop (junio 2026); nueva tarificación por uso con plan Pro de 20 $/mes tras la compra de Windsurf por ~250 M$",
+      "fr": "2026 : sortie du modèle SWE 1.7 ; Windsurf a achevé son intégration et a été renommé Devin Desktop (juin 2026) ; nouvelle tarification à l’usage avec offre Pro à 20 $/mois après le rachat de Windsurf (~250 M$)"
+    },
+    "verdict": {
+      "badge": "Recommended",
+      "headline": {
+        "en": "The most complete autonomous engineering suite — cloud agents plus a real IDE",
+        "zh": "最完整的自主工程套件——云端智能体 + 真正的 IDE",
+        "ja": "クラウドエージェントと本格IDEを備えた最も完成度の高い自律エンジニアリングスイート",
+        "es": "La suite de ingeniería autónoma más completa: agentes en la nube más un IDE real",
+        "fr": "La suite d'ingénierie autonome la plus complète : agents cloud et véritable IDE"
+      },
+      "body": {
+        "en": "Devin pioneered the AI software engineer category and, after absorbing Windsurf, now pairs parallel cloud agents with a polished desktop IDE. The $20 Pro tier makes it easy to start, while quotas and API-priced overages reward disciplined prompting. For teams that live in Slack, Jira and GitHub, it slots into existing workflows better than most rivals.",
+        "zh": "Devin 开创了「AI 软件工程师」品类，吞并 Windsurf 后更形成云端并行智能体 + 成熟桌面 IDE 的组合。20 美元 Pro 档大幅降低上手门槛，但额度制与超额 API 计费要求使用者精打细算。对深度使用 Slack、Jira、GitHub 的团队而言，它与现有工作流的契合度优于多数对手。",
+        "ja": "DevinはAIソフトウェアエンジニアというカテゴリーを切り開き、Windsurf統合後はクラウド並列エージェントと洗練されたデスクトップIDEを兼ね備えた。月20ドルのProで始めやすくなったが、割当制と超過分のAPI課金には計画的な利用が必要。Slack、Jira、GitHubを常用するチームには他社製品より馴染みやすい。",
+        "es": "Devin fue pionero en la categoría de ingeniero de software IA y, tras absorber Windsurf, combina agentes paralelos en la nube con un IDE de escritorio pulido. El plan Pro de 20 $ facilita empezar, aunque las cuotas y los excedentes a precio de API exigen disciplina. Para equipos que viven en Slack, Jira y GitHub, encaja mejor que la mayoría de rivales.",
+        "fr": "Devin a créé la catégorie de l'ingénieur logiciel IA et, après avoir absorbé Windsurf, associe agents cloud parallèles et IDE de bureau abouti. L'offre Pro à 20 $ facilite les débuts, mais les quotas et dépassements au tarif API demandent de la discipline. Pour les équipes qui vivent dans Slack, Jira et GitHub, il s'intègre mieux que la plupart des concurrents."
+      },
+      "bestFor": {
+        "en": [
+          "Engineering teams burning down bug backlogs with parallel agents",
+          "Ticket-to-PR feature development inside Slack/Jira/GitHub workflows",
+          "Teams wanting cloud agents plus a desktop IDE in one subscription"
+        ],
+        "zh": [
+          "用并行智能体消化 Bug 积压的工程团队",
+          "在 Slack/Jira/GitHub 工作流内从工单直达 PR 的功能开发",
+          "希望一份订阅同时获得云端智能体与桌面 IDE 的团队"
+        ],
+        "ja": [
+          "並列エージェントでバグのバックログを一掃したいエンジニアリングチーム",
+          "Slack/Jira/GitHubワークフロー内でチケットからPRまで完結する機能開発",
+          "1つのサブスクでクラウドエージェントとデスクトップIDEを両取りしたいチーム"
+        ],
+        "es": [
+          "Equipos de ingeniería reduciendo backlogs de bugs con agentes en paralelo",
+          "Desarrollo de funciones de ticket a PR dentro de flujos Slack/Jira/GitHub",
+          "Equipos que quieren agentes en la nube más un IDE de escritorio en una suscripción"
+        ],
+        "fr": [
+          "Équipes d’ingénierie résorbant les backlogs de bugs avec des agents parallèles",
+          "Développement de fonctionnalités du ticket au PR dans les flux Slack/Jira/GitHub",
+          "Équipes voulant agents cloud et IDE de bureau dans un seul abonnement"
+        ]
+      },
+      "considerAlternatives": {
+        "en": [
+          "You need open-source self-hosting (→ OpenHands)",
+          "You just want a lightweight in-IDE assistant (→ Cursor, GitHub Copilot)"
+        ],
+        "zh": [
+          "你需要开源自托管（→ OpenHands）",
+          "你只需要轻量 IDE 内助手（→ Cursor、GitHub Copilot）"
+        ],
+        "ja": [
+          "オープンソースのセルフホストが必要（→ OpenHands）",
+          "軽量なIDE内アシスタントで十分（→ Cursor、GitHub Copilot）"
+        ],
+        "es": [
+          "Necesitas autoalojamiento open source (→ OpenHands)",
+          "Solo quieres un asistente ligero en el IDE (→ Cursor, GitHub Copilot)"
+        ],
+        "fr": [
+          "Vous avez besoin d’auto-hébergement open source (→ OpenHands)",
+          "Vous voulez juste un assistant IDE léger (→ Cursor, GitHub Copilot)"
+        ]
+      }
+    }
+  },
+  "openhands": {
+    "features": {
+      "en": [
+        "Open-source, model-agnostic platform for cloud coding agents (formerly OpenDevin)",
+        "Agents write code, run commands, browse the web and fix issues in sandboxed runtimes",
+        "Agent Canvas: self-hosted control center for an always-on agent team",
+        "Works with any LLM provider — Anthropic, OpenAI, local models and more",
+        "OpenHands Cloud with GitHub/GitLab integration and an API/SDK",
+        "One of the most-starred coding agent repos on GitHub"
+      ],
+      "zh": [
+        "开源、模型无关的云端编码智能体平台（前身 OpenDevin）",
+        "智能体在沙箱运行时中写代码、执行命令、浏览网页、修复 issue",
+        "Agent Canvas：自托管的常驻智能体团队控制中心",
+        "任意 LLM 供应商均可接入——Anthropic、OpenAI、本地模型等",
+        "OpenHands Cloud 集成 GitHub/GitLab 并提供 API/SDK",
+        "GitHub 上星数最高的编码智能体仓库之一"
+      ],
+      "ja": [
+        "オープンソースでモデル非依存のクラウドコーディングエージェントプラットフォーム（旧OpenDevin）",
+        "エージェントがサンドボックス環境でコード作成、コマンド実行、Web閲覧、Issue修正を実行",
+        "Agent Canvas：常時稼働エージェントチームのセルフホスト管制センター",
+        "Anthropic、OpenAI、ローカルモデルなど任意のLLMプロバイダーに対応",
+        "GitHub/GitLab統合とAPI/SDKを備えたOpenHands Cloud",
+        "GitHubで最もスターを集めるコーディングエージェントリポジトリの一つ"
+      ],
+      "es": [
+        "Plataforma de código abierto y agnóstica de modelos para agentes de programación en la nube (antes OpenDevin)",
+        "Los agentes escriben código, ejecutan comandos, navegan la web y corrigen issues en entornos aislados",
+        "Agent Canvas: centro de control autoalojado para un equipo de agentes siempre activo",
+        "Funciona con cualquier proveedor de LLM: Anthropic, OpenAI, modelos locales y más",
+        "OpenHands Cloud con integración GitHub/GitLab y API/SDK",
+        "Uno de los repos de agentes de código con más estrellas en GitHub"
+      ],
+      "fr": [
+        "Plateforme open source et indépendante du modèle pour agents de codage cloud (ex-OpenDevin)",
+        "Les agents codent, exécutent des commandes, naviguent sur le web et corrigent des issues dans des environnements isolés",
+        "Agent Canvas : centre de contrôle auto-hébergé pour une équipe d’agents permanente",
+        "Compatible avec tout fournisseur LLM — Anthropic, OpenAI, modèles locaux, etc.",
+        "OpenHands Cloud avec intégration GitHub/GitLab et API/SDK",
+        "L’un des dépôts d’agents de codage les plus étoilés sur GitHub"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "Open source is free forever: self-host with Docker and bring your own LLM API keys (you only pay model providers)",
+        "zh": "开源版永久免费：Docker 自托管、自带 LLM API Key（只需向模型供应商付费）",
+        "ja": "オープンソース版は永久無料：Dockerでセルフホストし、自分のLLM APIキーを使用（モデルプロバイダーへの支払いのみ）",
+        "es": "El código abierto es gratis para siempre: autoaloja con Docker y usa tus propias claves API de LLM (solo pagas a los proveedores de modelos)",
+        "fr": "L'open source est gratuit à vie : auto-hébergez avec Docker et utilisez vos propres clés API LLM (vous ne payez que les fournisseurs de modèles)"
+      },
+      "paid": {
+        "en": "OpenHands Cloud: free starter credits, then pay-as-you-go LLM usage; Team and Enterprise plans add centralized management, security controls and support (pricing on request)",
+        "zh": "OpenHands Cloud：注册送起步额度，之后按 LLM 用量付费；Team 与 Enterprise 版提供集中管理、安全管控与支持（价格需询价）",
+        "ja": "OpenHands Cloud：無料スタートクレジット後はLLM使用量に応じた従量課金。TeamとEnterpriseプランは集中管理、セキュリティ管理、サポートを追加（価格は要問い合わせ）",
+        "es": "OpenHands Cloud: créditos iniciales gratis, luego pago por uso de LLM; los planes Team y Enterprise añaden gestión centralizada, controles de seguridad y soporte (precio bajo consulta)",
+        "fr": "OpenHands Cloud : crédits de départ gratuits puis facturation à l'usage LLM ; les offres Team et Enterprise ajoutent gestion centralisée, sécurité et support (tarif sur demande)"
+      }
+    },
+    "useCases": {
+      "en": [
+        "Self-hosted autonomous coding inside security-sensitive organizations",
+        "Automating issue triage and PR fixes on GitHub/GitLab",
+        "Running an always-on agent team via Agent Canvas",
+        "Research and experimentation with swappable models and agents"
+      ],
+      "zh": [
+        "安全敏感组织内的自托管自主编码",
+        "自动化 GitHub/GitLab 的 issue 处理与 PR 修复",
+        "用 Agent Canvas 运营常驻智能体团队",
+        "可替换模型与智能体的研究实验"
+      ],
+      "ja": [
+        "セキュリティ重視の組織内でのセルフホスト自律コーディング",
+        "GitHub/GitLabのIssue処理とPR修正の自動化",
+        "Agent Canvasによる常時稼働エージェントチームの運用",
+        "モデルとエージェントを差し替えられる研究・実験"
+      ],
+      "es": [
+        "Programación autónoma autoalojada en organizaciones sensibles a la seguridad",
+        "Automatizar el triaje de issues y arreglos de PR en GitHub/GitLab",
+        "Operar un equipo de agentes siempre activo con Agent Canvas",
+        "Investigación y experimentación con modelos y agentes intercambiables"
+      ],
+      "fr": [
+        "Codage autonome auto-hébergé dans les organisations sensibles à la sécurité",
+        "Automatisation du tri des issues et des correctifs de PR sur GitHub/GitLab",
+        "Exploitation d'une équipe d'agents permanente via Agent Canvas",
+        "Recherche et expérimentation avec modèles et agents interchangeables"
+      ]
+    },
+    "pros": {
+      "en": [
+        "Fully open source with no vendor lock-in — swap models freely",
+        "Self-hosting keeps code and data inside your infrastructure",
+        "Transparent: you pay LLM providers directly with no markup",
+        "Active community and rapid release cadence"
+      ],
+      "zh": [
+        "完全开源无供应商锁定，模型自由更换",
+        "自托管让代码与数据不出自家基础设施",
+        "透明计费：直接向 LLM 供应商付费，无加价",
+        "社区活跃、版本迭代快"
+      ],
+      "ja": [
+        "完全オープンソースでベンダーロックインなし、モデルを自由に交換可能",
+        "セルフホストでコードとデータを自社インフラ内に保持",
+        "透明性：LLMプロバイダーに直接支払い、上乗せなし",
+        "活発なコミュニティと速いリリースサイクル"
+      ],
+      "es": [
+        "Totalmente open source sin dependencia de proveedor: cambia de modelo libremente",
+        "El autoalojamiento mantiene código y datos en tu infraestructura",
+        "Transparente: pagas directamente a los proveedores de LLM sin sobreprecio",
+        "Comunidad activa y ritmo rápido de versiones"
+      ],
+      "fr": [
+        "Entièrement open source sans verrouillage fournisseur — changez de modèle librement",
+        "L'auto-hébergement garde code et données dans votre infrastructure",
+        "Transparent : vous payez directement les fournisseurs LLM sans marge",
+        "Communauté active et cadence de versions rapide"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Initial setup (Docker, API keys, sandboxes) requires developer skills",
+        "Results depend heavily on which LLM you plug in",
+        "Fewer turnkey enterprise integrations than commercial rivals",
+        "Self-hosted deployments need their own monitoring and cost controls"
+      ],
+      "zh": [
+        "初始部署（Docker、API Key、沙箱）需要开发者功底",
+        "效果高度依赖所接入的 LLM",
+        "开箱即用的企业集成少于商业对手",
+        "自托管需自行做监控与成本控制"
+      ],
+      "ja": [
+        "初期セットアップ（Docker、APIキー、サンドボックス）には開発者スキルが必要",
+        "成果は接続するLLMに大きく依存",
+        "商用製品に比べターンキーの企業向け統合が少ない",
+        "セルフホスト環境は独自の監視とコスト管理が必要"
+      ],
+      "es": [
+        "La configuración inicial (Docker, claves API, sandboxes) requiere conocimientos de desarrollo",
+        "Los resultados dependen mucho del LLM que conectes",
+        "Menos integraciones empresariales llave en mano que los rivales comerciales",
+        "Los despliegues autoalojados necesitan su propia monitorización y control de costes"
+      ],
+      "fr": [
+        "La mise en place initiale (Docker, clés API, sandboxes) exige des compétences de développeur",
+        "Les résultats dépendent fortement du LLM branché",
+        "Moins d'intégrations entreprise clés en main que les rivaux commerciaux",
+        "Les déploiements auto-hébergés demandent leur propre supervision et maîtrise des coûts"
+      ]
+    },
+    "latestUpdate": {
+      "en": "2026: rebranded around openhands.dev with OpenHands Cloud and Agent Canvas, a self-hosted control center that turns coding agents into an always-on engineering team; remains one of the most-starred open-source agent projects",
+      "zh": "2026 年：围绕 openhands.dev 完成品牌升级，推出 OpenHands Cloud 与 Agent Canvas（把编码智能体变成常驻工程团队的自托管控制中心）；仍是星数最高的开源智能体项目之一",
+      "ja": "2026年：openhands.devを中心にリブランド。OpenHands Cloudと、コーディングエージェントを常時稼働のエンジニアリングチームに変えるセルフホスト管制センターAgent Canvasを発表。オープンソースエージェントとして最多クラスのスター数を維持",
+      "es": "2026: renovación de marca en torno a openhands.dev con OpenHands Cloud y Agent Canvas, un centro de control autoalojado que convierte a los agentes en un equipo de ingeniería siempre activo; sigue siendo uno de los proyectos open source con más estrellas",
+      "fr": "2026 : refonte de marque autour de openhands.dev avec OpenHands Cloud et Agent Canvas, centre de contrôle auto-hébergé transformant les agents en équipe d'ingénierie permanente ; reste l'un des projets open source les plus étoilés"
+    },
+    "verdict": {
+      "badge": "Recommended",
+      "headline": {
+        "en": "The open-source answer to Devin — full control, your models, your infrastructure",
+        "zh": "Devin 的开源答案——完全掌控，自选模型，自有基础设施",
+        "ja": "Devinへのオープンソースの回答——完全な制御、自分のモデル、自分のインフラ",
+        "es": "La respuesta open source a Devin: control total, tus modelos, tu infraestructura",
+        "fr": "La réponse open source à Devin — contrôle total, vos modèles, votre infrastructure"
+      },
+      "body": {
+        "en": "OpenHands delivers most of what commercial coding agents offer while staying fully open and model-agnostic. Teams that can handle Docker and API keys get an autonomous engineer with zero markup on model costs, and the cloud/Canvas options now soften the ops burden. It rewards technical teams; non-developers should look at hosted rivals first.",
+        "zh": "OpenHands 以完全开源、模型无关的姿态实现了商业编码智能体的大部分能力。搞得定 Docker 与 API Key 的团队能以零加价的模型成本获得一名自主工程师，云版与 Agent Canvas 也大幅减轻了运维负担。它偏爱技术型团队；非开发者建议先看托管型对手。",
+        "ja": "OpenHandsは完全オープンソースかつモデル非依存のまま、商用コーディングエージェントの大部分の能力を実現。DockerとAPIキーを扱えるチームなら、モデルコストに上乗せなしで自律エンジニアを手に入れられる。クラウド版とAgent Canvasで運用負担も軽減。技術志向のチーム向けで、非開発者はまずホスト型の競合を検討すべき。",
+        "es": "OpenHands ofrece la mayor parte de lo que dan los agentes comerciales manteniéndose totalmente abierto y agnóstico de modelos. Los equipos que dominan Docker y las claves API obtienen un ingeniero autónomo sin sobreprecio en modelos, y las opciones de nube/Canvas alivian la carga operativa. Premia a los equipos técnicos; los no desarrolladores deberían mirar antes a los rivales gestionados.",
+        "fr": "OpenHands offre l'essentiel des capacités des agents commerciaux tout en restant totalement ouvert et indépendant du modèle. Les équipes à l'aise avec Docker et les clés API obtiennent un ingénieur autonome sans marge sur les coûts de modèles, et les options cloud/Canvas allègent l'exploitation. Il récompense les équipes techniques ; les non-développeurs devraient d'abord regarder les rivaux hébergés."
+      },
+      "bestFor": {
+        "en": [
+          "Technical teams needing a self-hosted autonomous coding agent",
+          "Model-agnostic setups pairing any LLM with an agent runtime",
+          "Organizations with strict data-control or compliance requirements"
+        ],
+        "zh": [
+          "需要自托管自主编码智能体的技术团队",
+          "任意 LLM 搭配智能体运行时的模型无关方案",
+          "对数据管控或合规有严格要求的组织"
+        ],
+        "ja": [
+          "セルフホストの自律コーディングエージェントが必要な技術チーム",
+          "任意のLLMとエージェントランタイムを組み合わせるモデル非依存構成",
+          "データ管理やコンプライアンス要件が厳しい組織"
+        ],
+        "es": [
+          "Equipos técnicos que necesitan un agente de código autónomo autoalojado",
+          "Configuraciones agnósticas de modelo con cualquier LLM y un runtime de agente",
+          "Organizaciones con requisitos estrictos de control de datos o cumplimiento"
+        ],
+        "fr": [
+          "Équipes techniques ayant besoin d’un agent de code autonome auto-hébergé",
+          "Configurations agnostiques associant n’importe quel LLM à un runtime d’agent",
+          "Organisations aux exigences strictes de contrôle des données ou de conformité"
+        ]
+      },
+      "considerAlternatives": {
+        "en": [
+          "You want a managed end-to-end suite (→ Devin)",
+          "You prefer an in-IDE assistant (→ Cursor, Claude Code)"
+        ],
+        "zh": [
+          "你想要托管式端到端套件（→ Devin）",
+          "你更想要 IDE 内助手（→ Cursor、Claude Code）"
+        ],
+        "ja": [
+          "マネージドなエンドツーエンドスイートが欲しい（→ Devin）",
+          "IDE内アシスタントの方が好み（→ Cursor、Claude Code）"
+        ],
+        "es": [
+          "Quieres una suite gestionada de extremo a extremo (→ Devin)",
+          "Prefieres un asistente en el IDE (→ Cursor, Claude Code)"
+        ],
+        "fr": [
+          "Vous voulez une suite gérée de bout en bout (→ Devin)",
+          "Vous préférez un assistant dans l’IDE (→ Cursor, Claude Code)"
+        ]
+      }
+    }
+  },
+  "crewai": {
+    "features": {
+      "en": [
+        "Role-based Crews: agents with roles, goals and tools collaborate on tasks",
+        "Flows: event-driven, fine-grained orchestration for production pipelines",
+        "Lean Python framework built independently of LangChain",
+        "AMP enterprise platform: deploy crews as APIs with tracing and observability",
+        "Hundreds of tool and app integrations out of the box",
+        "Reported adoption across a majority of the Fortune 500 with 450M+ agentic workflows per month"
+      ],
+      "zh": [
+        "角色制 Crew：为智能体设定角色、目标与工具，协作完成任务",
+        "Flows：面向生产管线的事件驱动细粒度编排",
+        "独立于 LangChain 的轻量 Python 框架",
+        "AMP 企业平台：把 Crew 部署为 API，自带追踪与可观测性",
+        "开箱即用的数百种工具与应用集成",
+        "官方称覆盖多数财富 500 强，每月运行 4.5 亿+ 智能体工作流"
+      ],
+      "ja": [
+        "役割ベースのCrew：役割・目標・ツールを持つエージェントが協働でタスクを遂行",
+        "Flows：本番パイプライン向けのイベントドリブンな細粒度オーケストレーション",
+        "LangChainから独立した軽量Pythonフレームワーク",
+        "AMPエンタープライズプラットフォーム：CrewをAPIとしてデプロイし、トレースと可観測性を提供",
+        "数百種類のツール・アプリ統合を標準装備",
+        "Fortune 500の過半数が採用、月間4.5億件以上のエージェントワークフローを実行と公表"
+      ],
+      "es": [
+        "Crews basados en roles: agentes con roles, objetivos y herramientas colaboran en tareas",
+        "Flows: orquestación detallada y orientada a eventos para pipelines de producción",
+        "Framework Python ligero e independiente de LangChain",
+        "Plataforma empresarial AMP: despliega crews como APIs con trazabilidad y observabilidad",
+        "Cientos de integraciones de herramientas y apps listas para usar",
+        "Adopción declarada en la mayoría de la Fortune 500 con más de 450 M de flujos agénticos al mes"
+      ],
+      "fr": [
+        "Crews par rôles : des agents avec rôles, objectifs et outils collaborent sur les tâches",
+        "Flows : orchestration fine et événementielle pour les pipelines de production",
+        "Framework Python léger et indépendant de LangChain",
+        "Plateforme entreprise AMP : déployez des crews en API avec traçage et observabilité",
+        "Des centaines d'intégrations d'outils et d'applications prêtes à l'emploi",
+        "Adoption revendiquée dans la majorité du Fortune 500 avec plus de 450 M de workflows agentiques par mois"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "Open-source framework is free (MIT license): build and run Crews and Flows locally, paying only your LLM providers",
+        "zh": "开源框架免费（MIT 协议）：本地构建运行 Crew 与 Flows，只需向 LLM 供应商付费",
+        "ja": "オープンソースフレームワークは無料（MITライセンス）：CrewとFlowsをローカルで構築・実行し、LLMプロバイダーへの支払いのみ",
+        "es": "El framework open source es gratuito (licencia MIT): crea y ejecuta Crews y Flows localmente, pagando solo a tus proveedores de LLM",
+        "fr": "Le framework open source est gratuit (licence MIT) : créez et exécutez Crews et Flows en local, en ne payant que vos fournisseurs LLM"
+      },
+      "paid": {
+        "en": "CrewAI AMP enterprise platform (deployment, tracing, management, no-code Studio): tiered plans with a free entry tier; enterprise pricing on request",
+        "zh": "CrewAI AMP 企业平台（部署、追踪、管理、无代码 Studio）：分档订阅，含免费入门档；企业版需询价",
+        "ja": "CrewAI AMPエンタープライズプラットフォーム（デプロイ、トレース、管理、ノーコードStudio）：無料エントリー枠を含む段階制プラン。エンタープライズ価格は要問い合わせ",
+        "es": "Plataforma empresarial CrewAI AMP (despliegue, trazado, gestión, Studio sin código): planes escalonados con nivel de entrada gratuito; precio enterprise bajo consulta",
+        "fr": "Plateforme entreprise CrewAI AMP (déploiement, traçage, gestion, Studio no-code) : offres par paliers avec un niveau d'entrée gratuit ; tarif entreprise sur demande"
+      }
+    },
+    "useCases": {
+      "en": [
+        "Multi-agent research, writing and review pipelines",
+        "Lead enrichment and sales automation crews",
+        "Customer support automation replacing legacy RPA",
+        "Deploying internal agent services as APIs via AMP"
+      ],
+      "zh": [
+        "多智能体的调研、写作与审校流水线",
+        "线索补全与销售自动化 Crew",
+        "替代传统 RPA 的客服自动化",
+        "通过 AMP 把内部智能体服务部署为 API"
+      ],
+      "ja": [
+        "マルチエージェントによるリサーチ・執筆・レビューのパイプライン",
+        "リード情報の補完と営業自動化のCrew",
+        "従来型RPAを置き換えるカスタマーサポート自動化",
+        "AMP経由で社内エージェントサービスをAPIとしてデプロイ"
+      ],
+      "es": [
+        "Pipelines multiagente de investigación, redacción y revisión",
+        "Crews de enriquecimiento de leads y automatización de ventas",
+        "Automatización de soporte al cliente que reemplaza RPA heredado",
+        "Despliegue de servicios de agentes internos como APIs vía AMP"
+      ],
+      "fr": [
+        "Pipelines multi-agents de recherche, rédaction et relecture",
+        "Crews d'enrichissement de leads et d'automatisation commerciale",
+        "Automatisation du support client en remplacement du RPA hérité",
+        "Déploiement de services d'agents internes en API via AMP"
+      ]
+    },
+    "pros": {
+      "en": [
+        "Fastest path from idea to a working multi-agent prototype",
+        "Role/task mental model is intuitive for non-experts",
+        "Clear path from open-source prototype to enterprise production via AMP",
+        "Huge community, courses and templates"
+      ],
+      "zh": [
+        "从想法到可用多智能体原型的最快路径",
+        "角色/任务心智模型直观易懂",
+        "经 AMP 从开源原型到企业生产的路径清晰",
+        "社区庞大，课程与模板丰富"
+      ],
+      "ja": [
+        "アイデアから動くマルチエージェントプロトタイプまで最速",
+        "役割/タスクのメンタルモデルが直感的",
+        "AMPによりオープンソース試作から企業本番運用への道筋が明確",
+        "巨大なコミュニティ、講座やテンプレートが豊富"
+      ],
+      "es": [
+        "El camino más rápido de la idea a un prototipo multiagente funcional",
+        "El modelo mental de roles/tareas es intuitivo para no expertos",
+        "Ruta clara del prototipo open source a producción enterprise vía AMP",
+        "Gran comunidad, cursos y plantillas"
+      ],
+      "fr": [
+        "Le chemin le plus rapide de l'idée au prototype multi-agents fonctionnel",
+        "Le modèle mental rôles/tâches est intuitif pour les non-experts",
+        "Passage clair du prototype open source à la production entreprise via AMP",
+        "Immense communauté, cours et modèles"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Less fine-grained control than graph-based frameworks for complex state machines",
+        "Fast-moving API surface can break existing crews between versions",
+        "Enterprise AMP pricing is opaque without a sales call",
+        "Abstractions can hide token usage, making costs spike unnoticed"
+      ],
+      "zh": [
+        "复杂状态机场景下控制粒度不如图编排框架",
+        "API 迭代快，升级可能破坏既有 Crew",
+        "企业版 AMP 定价不透明，需联系销售",
+        "抽象层可能掩盖 token 消耗，成本容易失控"
+      ],
+      "ja": [
+        "複雑なステートマシンではグラフベースのフレームワークほど細かい制御ができない",
+        "APIの変化が速く、バージョン間で既存Crewが壊れることがある",
+        "エンタープライズAMPの価格は営業問い合わせなしでは不透明",
+        "抽象化がトークン消費を見えにくくし、コストが急増しがち"
+      ],
+      "es": [
+        "Menos control fino que los frameworks basados en grafos para máquinas de estado complejas",
+        "La API evoluciona rápido y puede romper crews existentes entre versiones",
+        "El precio enterprise de AMP es opaco sin hablar con ventas",
+        "Las abstracciones pueden ocultar el uso de tokens y disparar costes"
+      ],
+      "fr": [
+        "Contrôle moins fin que les frameworks à base de graphes pour les machines à états complexes",
+        "Une API qui évolue vite et peut casser les crews existants entre versions",
+        "Tarification enterprise AMP opaque sans contact commercial",
+        "Les abstractions peuvent masquer la consommation de tokens et faire flamber les coûts"
+      ]
+    },
+    "latestUpdate": {
+      "en": "2026: CrewAI positions itself as the open platform for enterprise agents, reporting 450M+ agentic workflows per month, 4,000+ signups weekly and adoption in 63% of the Fortune 500; AMP adds no-code Studio and deeper observability",
+      "zh": "2026 年：CrewAI 定位为企业智能体开放平台，公布每月 4.5 亿+ 智能体工作流、每周 4000+ 注册、63% 财富 500 强采用；AMP 新增无代码 Studio 与更深入的可观测性",
+      "ja": "2026年：CrewAIはエンタープライズエージェントのオープンプラットフォームを標榜し、月間4.5億件以上のワークフロー、週4,000件以上の登録、Fortune 500の63%が採用と発表。AMPにノーコードStudioとより深い可観測性を追加",
+      "es": "2026: CrewAI se posiciona como la plataforma abierta para agentes empresariales, reportando más de 450 M de flujos al mes, 4.000+ registros semanales y adopción en el 63% de la Fortune 500; AMP añade Studio sin código y mayor observabilidad",
+      "fr": "2026 : CrewAI se positionne comme la plateforme ouverte des agents d'entreprise, annonçant plus de 450 M de workflows par mois, 4 000+ inscriptions hebdomadaires et une adoption par 63 % du Fortune 500 ; AMP ajoute un Studio no-code et une observabilité renforcée"
+    },
+    "verdict": {
+      "badge": "Recommended",
+      "headline": {
+        "en": "The most approachable multi-agent framework, with a real enterprise on-ramp",
+        "zh": "最易上手的多智能体框架，且有真正的企业级进阶路径",
+        "ja": "最も取り組みやすいマルチエージェントフレームワーク、本格的なエンタープライズへの道も用意",
+        "es": "El framework multiagente más accesible, con una vía empresarial real",
+        "fr": "Le framework multi-agents le plus abordable, avec une vraie rampe d'accès entreprise"
+      },
+      "body": {
+        "en": "CrewAI turned multi-agent orchestration into something any Python developer can pick up in an afternoon: define roles, hand out tools, let the crew work. Flows added the production-grade control the original Crews lacked, and AMP closes the loop from prototype to deployed API. For intricate stateful graphs, LangGraph remains stronger — but for role-based task decomposition, CrewAI is the default choice.",
+        "zh": "CrewAI 把多智能体编排变成了任何 Python 开发者一个下午就能上手的事：定义角色、分配工具、放手让 Crew 干活。Flows 补上了早期 Crew 缺失的生产级控制，AMP 则打通了从原型到已部署 API 的闭环。若要构建复杂有状态图，LangGraph 仍更强——但对角色分工型任务拆解，CrewAI 是默认之选。",
+        "ja": "CrewAIはマルチエージェントオーケストレーションを、Python開発者なら半日で習得できるものに変えた：役割を定義し、ツールを渡し、Crewに任せる。FlowsがCrewに欠けていた本番級の制御を補い、AMPがプロトタイプからデプロイ済みAPIまでを繋ぐ。複雑なステートフルグラフにはLangGraphが依然強いが、役割ベースのタスク分解ならCrewAIが定番だ。",
+        "es": "CrewAI convirtió la orquestación multiagente en algo que cualquier desarrollador Python domina en una tarde: define roles, reparte herramientas y deja trabajar al crew. Flows añadió el control de producción que faltaba y AMP cierra el ciclo del prototipo a la API desplegada. Para grafos con estado intrincados, LangGraph sigue siendo más fuerte, pero para descomposición de tareas por roles, CrewAI es la opción por defecto.",
+        "fr": "CrewAI a rendu l'orchestration multi-agents accessible à tout développeur Python en un après-midi : définir les rôles, distribuer les outils, laisser le crew travailler. Flows a apporté le contrôle de niveau production qui manquait, et AMP boucle la boucle du prototype à l'API déployée. Pour les graphes à états complexes, LangGraph reste plus fort — mais pour la décomposition de tâches par rôles, CrewAI est le choix par défaut."
+      },
+      "bestFor": {
+        "en": [
+          "Python teams building role-based multi-agent workflows",
+          "Prototype-to-production pipelines deployed as APIs via AMP",
+          "Research, writing and sales-automation crews"
+        ],
+        "zh": [
+          "构建角色分工多智能体工作流的 Python 团队",
+          "经 AMP 从原型到生产、部署为 API 的管线",
+          "调研、写作与销售自动化 Crew"
+        ],
+        "ja": [
+          "役割ベースのマルチエージェントワークフローを構築するPythonチーム",
+          "AMP経由でAPIとしてデプロイするプロトタイプから本番までのパイプライン",
+          "リサーチ・執筆・営業自動化のCrew"
+        ],
+        "es": [
+          "Equipos Python construyendo flujos multiagente basados en roles",
+          "Pipelines de prototipo a producción desplegados como APIs vía AMP",
+          "Crews de investigación, redacción y automatización de ventas"
+        ],
+        "fr": [
+          "Équipes Python construisant des workflows multi-agents par rôles",
+          "Pipelines du prototype à la production déployés en API via AMP",
+          "Crews de recherche, rédaction et automatisation commerciale"
+        ]
+      },
+      "considerAlternatives": {
+        "en": [
+          "You need graph-level state control (→ LangGraph)",
+          "You want a visual no-code builder first (→ Dify, Coze)"
+        ],
+        "zh": [
+          "你需要图级状态控制（→ LangGraph）",
+          "你想先用可视化无代码搭建（→ Dify、Coze）"
+        ],
+        "ja": [
+          "グラフレベルの状態制御が必要（→ LangGraph）",
+          "まずはビジュアルなノーコードビルダーを使いたい（→ Dify、Coze）"
+        ],
+        "es": [
+          "Necesitas control de estado a nivel de grafo (→ LangGraph)",
+          "Quieres primero un constructor visual sin código (→ Dify, Coze)"
+        ],
+        "fr": [
+          "Vous avez besoin d’un contrôle d’état au niveau graphe (→ LangGraph)",
+          "Vous voulez d’abord un builder visuel no-code (→ Dify, Coze)"
+        ]
+      }
+    }
+  },
+  "browser-use": {
+    "features": {
+      "en": [
+        "Open-source Python library that lets any LLM-driven agent control a real browser",
+        "Cloud service with stealth browsers, CAPTCHA solving and residential proxies",
+        "Browser sessions from $0.02/hour with free tier included",
+        "Works with OpenAI, Google, Anthropic or local models via Ollama",
+        "Agent Signup: agents can authenticate and act on behalf of users",
+        "Widely used for web automation, scraping and end-to-end task execution"
+      ],
+      "zh": [
+        "开源 Python 库：让任意 LLM 驱动的智能体操控真实浏览器",
+        "云服务提供隐身浏览器、验证码破解与住宅代理",
+        "浏览器会话低至 0.02 美元/小时，并含免费额度",
+        "兼容 OpenAI、Google、Anthropic 或经 Ollama 的本地模型",
+        "Agent Signup：智能体可代用户完成注册登录",
+        "广泛用于网页自动化、数据采集与端到端任务执行"
+      ],
+      "ja": [
+        "任意のLLM駆動エージェントに実ブラウザを操作させるオープンソースPythonライブラリ",
+        "ステルスブラウザ、CAPTCHA解決、レジデンシャルプロキシを備えたクラウドサービス",
+        "ブラウザセッションは時間あたり0.02ドルから、無料枠付き",
+        "OpenAI、Google、Anthropic、またはOllama経由のローカルモデルに対応",
+        "Agent Signup：エージェントがユーザーに代わって認証・操作可能",
+        "Web自動化、スクレイピング、エンドツーエンドのタスク実行に広く利用"
+      ],
+      "es": [
+        "Biblioteca Python de código abierto que permite a cualquier agente LLM controlar un navegador real",
+        "Servicio en la nube con navegadores sigilosos, resolución de CAPTCHA y proxies residenciales",
+        "Sesiones de navegador desde 0,02 $/hora con nivel gratuito incluido",
+        "Funciona con OpenAI, Google, Anthropic o modelos locales vía Ollama",
+        "Agent Signup: los agentes pueden autenticarse y actuar en nombre de usuarios",
+        "Muy usado para automatización web, scraping y ejecución de tareas de extremo a extremo"
+      ],
+      "fr": [
+        "Bibliothèque Python open source permettant à tout agent LLM de contrôler un vrai navigateur",
+        "Service cloud avec navigateurs furtifs, résolution de CAPTCHA et proxies résidentiels",
+        "Sessions navigateur à partir de 0,02 $/heure avec offre gratuite incluse",
+        "Compatible OpenAI, Google, Anthropic ou modèles locaux via Ollama",
+        "Agent Signup : les agents peuvent s'authentifier et agir au nom des utilisateurs",
+        "Largement utilisé pour l'automatisation web, le scraping et l'exécution de tâches de bout en bout"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "Open-source library is free (you pay only your LLM provider); Browser Use Cloud free tier includes free browser sessions with 3 concurrent sessions, no credit card required",
+        "zh": "开源库免费（只需向 LLM 供应商付费）；Browser Use Cloud 免费档含免费浏览器会话、3 路并发，无需绑卡",
+        "ja": "オープンソースライブラリは無料（LLMプロバイダーへの支払いのみ）。Browser Use Cloudの無料枠は3並列セッションの無料ブラウザを含み、クレジットカード不要",
+        "es": "La biblioteca open source es gratuita (solo pagas a tu proveedor de LLM); el nivel gratuito de Browser Use Cloud incluye sesiones de navegador gratis con 3 sesiones concurrentes, sin tarjeta",
+        "fr": "La bibliothèque open source est gratuite (vous ne payez que votre fournisseur LLM) ; l'offre gratuite de Browser Use Cloud inclut des sessions navigateur gratuites avec 3 sessions simultanées, sans carte bancaire"
+      },
+      "paid": {
+        "en": "Cloud paid tiers: $29/mo (25 concurrent sessions), $299/mo (200 concurrent) and $999/mo (500 concurrent) in monthly credits; browser time from $0.02/hour",
+        "zh": "云端付费档：29 美元/月（25 并发）、299 美元/月（200 并发）、999 美元/月（500 并发），按月度额度计；浏览器时长低至 0.02 美元/小时",
+        "ja": "クラウド有料プラン：月29ドル（25並列）、月299ドル（200並列）、月999ドル（500並列）の月次クレジット制。ブラウザ時間は時間あたり0.02ドルから",
+        "es": "Niveles de pago en la nube: 29 $/mes (25 sesiones), 299 $/mes (200) y 999 $/mes (500) en créditos mensuales; tiempo de navegador desde 0,02 $/hora",
+        "fr": "Offres cloud payantes : 29 $/mois (25 sessions), 299 $/mois (200) et 999 $/mois (500) en crédits mensuels ; temps navigateur dès 0,02 $/heure"
+      }
+    },
+    "useCases": {
+      "en": [
+        "Automating form filling, signups and repetitive web workflows",
+        "Structured data extraction from sites without APIs",
+        "QA testing of web apps driven by natural-language scenarios",
+        "Giving any agent stack a reliable browsing tool"
+      ],
+      "zh": [
+        "自动化表单填写、注册与重复性网页流程",
+        "从无 API 的网站抽取结构化数据",
+        "用自然语言场景驱动的 Web 应用 QA 测试",
+        "为任意智能体栈补上可靠的浏览器操作能力"
+      ],
+      "ja": [
+        "フォーム入力、サインアップ、反復的なWebワークフローの自動化",
+        "APIのないサイトからの構造化データ抽出",
+        "自然言語シナリオで駆動するWebアプリのQAテスト",
+        "任意のエージェントスタックに信頼できるブラウジングツールを追加"
+      ],
+      "es": [
+        "Automatizar formularios, registros y flujos web repetitivos",
+        "Extracción de datos estructurados de sitios sin API",
+        "Pruebas QA de aplicaciones web guiadas por escenarios en lenguaje natural",
+        "Dar a cualquier stack de agentes una herramienta de navegación fiable"
+      ],
+      "fr": [
+        "Automatiser formulaires, inscriptions et workflows web répétitifs",
+        "Extraction de données structurées de sites sans API",
+        "Tests QA d’applications web pilotés par scénarios en langage naturel",
+        "Doter n'importe quelle stack d'agents d'un outil de navigation fiable"
+      ]
+    },
+    "pros": {
+      "en": [
+        "De-facto standard open-source browser tool for agents with a huge community",
+        "Cloud handles the hard parts: stealth, CAPTCHAs, proxies, scaling",
+        "Very low entry cost with a genuinely free tier",
+        "Model-agnostic — pair it with any LLM including local ones"
+      ],
+      "zh": [
+        "智能体浏览器操作的事实标准开源工具，社区庞大",
+        "云端搞定难点：隐身、验证码、代理、扩容",
+        "入门成本极低，免费档真实可用",
+        "模型无关——可搭配含本地模型在内的任意 LLM"
+      ],
+      "ja": [
+        "エージェント向けブラウザツールの事実上の標準オープンソース、巨大コミュニティ",
+        "ステルス、CAPTCHA、プロキシ、スケーリングなど難所はクラウドが担当",
+        "実用的な無料枠があり導入コストが非常に低い",
+        "モデル非依存——ローカルモデルを含む任意のLLMと組み合わせ可能"
+      ],
+      "es": [
+        "Herramienta open source estándar de facto para navegación de agentes con gran comunidad",
+        "La nube resuelve lo difícil: sigilo, CAPTCHAs, proxies, escalado",
+        "Coste de entrada muy bajo con nivel gratuito real",
+        "Agnóstico de modelos: combínalo con cualquier LLM, incluso locales"
+      ],
+      "fr": [
+        "Outil open source standard de facto pour la navigation des agents, immense communauté",
+        "Le cloud gère le plus dur : furtivité, CAPTCHA, proxies, montée en charge",
+        "Coût d'entrée très bas avec une offre gratuite réellement utilisable",
+        "Indépendant du modèle — associez-le à n'importe quel LLM, même local"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Long multi-step runs can still derail on complex, dynamic sites",
+        "LLM token costs stack on top of browser session costs",
+        "Anti-bot arms race means some targets stay unreliable",
+        "Automating logins/purchases raises compliance questions per site terms"
+      ],
+      "zh": [
+        "复杂动态站点上的长链路任务仍可能跑偏",
+        "LLM token 成本叠加在浏览器会话费用之上",
+        "反爬攻防持续升级，部分目标站点始终不稳定",
+        "自动登录/下单需注意目标网站条款的合规问题"
+      ],
+      "ja": [
+        "複雑で動的なサイトでは長いマルチステップ実行が脱線することがある",
+        "LLMトークンコストがブラウザセッション費用に上乗せされる",
+        "アンチボットとのいたちごっこで一部サイトは不安定なまま",
+        "ログインや購入の自動化はサイト規約上のコンプライアンス問題を伴う"
+      ],
+      "es": [
+        "Las ejecuciones largas de varios pasos aún pueden descarrilar en sitios complejos y dinámicos",
+        "Los costes de tokens LLM se suman a los de sesiones de navegador",
+        "La carrera anti-bots hace que algunos objetivos sigan siendo poco fiables",
+        "Automatizar logins/compras plantea dudas de cumplimiento según los términos de cada sitio"
+      ],
+      "fr": [
+        "Les longues exécutions multi-étapes peuvent encore dérailler sur des sites complexes et dynamiques",
+        "Les coûts de tokens LLM s’ajoutent aux coûts de sessions navigateur",
+        "La course à l'anti-bot rend certains sites durablement peu fiables",
+        "L'automatisation de connexions/achats pose des questions de conformité selon les CGU des sites"
+      ]
+    },
+    "latestUpdate": {
+      "en": "March 2026: Browser Use Cloud became free — every project gets free browser sessions with no credit card; Agent Signup lets agents authenticate autonomously; pricing tiers now $29/$299/$999 per month on top of the free tier",
+      "zh": "2026 年 3 月：Browser Use Cloud 推出免费档——每个项目均获免费浏览器会话且无需绑卡；Agent Signup 让智能体可自主完成认证；免费档之上现设 29/299/999 美元月付三档",
+      "ja": "2026年3月：Browser Use Cloudが無料化——全プロジェクトにクレジットカード不要の無料ブラウザセッションを提供。Agent Signupによりエージェントが自律的に認証可能。無料枠の上に月額29/299/999ドルの3プランを設定",
+      "es": "Marzo 2026: Browser Use Cloud pasó a ser gratuito: cada proyecto recibe sesiones de navegador gratis sin tarjeta; Agent Signup permite a los agentes autenticarse de forma autónoma; los niveles de pago son ahora 29/299/999 $ al mes sobre el nivel gratuito",
+      "fr": "Mars 2026 : Browser Use Cloud devient gratuit — chaque projet reçoit des sessions navigateur gratuites sans carte bancaire ; Agent Signup permet aux agents de s'authentifier de façon autonome ; les paliers payants sont désormais 29/299/999 $ par mois au-dessus de l'offre gratuite"
+    },
+    "verdict": {
+      "badge": "Recommended",
+      "headline": {
+        "en": "The default way to give AI agents hands on the web",
+        "zh": "让 AI 智能体「上手」操作网页的默认选择",
+        "ja": "AIエージェントにWebを操作させるデフォルトの選択肢",
+        "es": "La forma predeterminada de dar a los agentes IA manos en la web",
+        "fr": "Le moyen par défaut de donner aux agents IA des mains sur le web"
+      },
+      "body": {
+        "en": "Browser Use won the open-source race for agent browsing: a simple Python API, any model you like, and a cloud that absorbs the ugly parts of automation — stealth, CAPTCHAs, proxies. The 2026 free tier removed the last excuse not to try it. Reliability on hostile or highly dynamic sites is the remaining frontier, so keep humans in the loop for critical flows.",
+        "zh": "Browser Use 赢下了智能体浏览器操作的开源竞赛：简洁的 Python API、任选模型，云端替你消化自动化最脏的部分——隐身、验证码、代理。2026 年免费档的推出扫清了尝试它的最后一道门槛。在对抗性强或高度动态的站点上可靠性仍是短板，关键流程请保留人工兜底。",
+        "ja": "Browser Useはエージェントブラウジングのオープンソース競争を制した：シンプルなPython API、好きなモデル、そして自動化の泥臭い部分（ステルス、CAPTCHA、プロキシ）を吸収するクラウド。2026年の無料化で試さない理由はなくなった。敵対的・高度に動的なサイトでの信頼性が残る課題であり、重要フローには人間の監視を残すべきだ。",
+        "es": "Browser Use ganó la carrera open source de la navegación para agentes: una API Python sencilla, el modelo que quieras y una nube que absorbe lo feo de la automatización: sigilo, CAPTCHAs, proxies. El nivel gratuito de 2026 eliminó la última excusa para no probarlo. La fiabilidad en sitios hostiles o muy dinámicos es la frontera pendiente; mantén humanos en el circuito para flujos críticos.",
+        "fr": "Browser Use a remporté la course open source de la navigation pour agents : une API Python simple, le modèle de votre choix et un cloud qui absorbe le plus ingrat de l'automatisation — furtivité, CAPTCHA, proxies. L'offre gratuite de 2026 a levé la dernière excuse pour ne pas l'essayer. La fiabilité sur les sites hostiles ou très dynamiques reste la frontière ; gardez un humain dans la boucle pour les flux critiques."
+      },
+      "bestFor": {
+        "en": [
+          "Developers adding web browsing and form filling to any agent stack",
+          "Data extraction and web automation pipelines",
+          "Open-source projects needing a battle-tested browser agent library"
+        ],
+        "zh": [
+          "要为任意智能体栈添加网页浏览与表单填写的开发者",
+          "数据采集与网页自动化管线",
+          "需要久经考验浏览器智能体库的开源项目"
+        ],
+        "ja": [
+          "任意のエージェントスタックにWebブラウジングやフォーム入力を追加したい開発者",
+          "データ抽出とWeb自動化のパイプライン",
+          "実績あるブラウザエージェントライブラリが必要なオープンソースプロジェクト"
+        ],
+        "es": [
+          "Desarrolladores que añaden navegación web y relleno de formularios a cualquier stack de agentes",
+          "Pipelines de extracción de datos y automatización web",
+          "Proyectos open source que necesitan una librería de agente de navegador probada"
+        ],
+        "fr": [
+          "Développeurs ajoutant navigation web et remplissage de formulaires à toute stack d’agents",
+          "Pipelines d’extraction de données et d’automatisation web",
+          "Projets open source ayant besoin d’une bibliothèque d’agent navigateur éprouvée"
+        ]
+      },
+      "considerAlternatives": {
+        "en": [
+          "You want a no-code consumer agent that browses for you (→ Genspark, Manus)",
+          "You need full enterprise RPA suites for back offices"
+        ],
+        "zh": [
+          "你想要替你上网的无代码消费级智能体（→ Genspark、Manus）",
+          "你需要面向企业后台的成熟 RPA 套件"
+        ],
+        "ja": [
+          "代わりにブラウジングしてくれるノーコード消費者向けエージェントが欲しい（→ Genspark、Manus）",
+          "バックオフィス向けの本格的なエンタープライズRPAスイートが必要"
+        ],
+        "es": [
+          "Quieres un agente de consumo sin código que navegue por ti (→ Genspark, Manus)",
+          "Necesitas suites RPA empresariales completas para back office"
+        ],
+        "fr": [
+          "Vous voulez un agent grand public no-code qui navigue pour vous (→ Genspark, Manus)",
+          "Vous avez besoin de suites RPA d’entreprise complètes pour le back-office"
+        ]
+      }
+    }
+  },
+  "genspark": {
+    "features": {
+      "en": [
+        "Super Agent that plans and executes multi-step tasks from a single prompt",
+        "AI Slides, Docs, Sheets and Designer generate polished deliverables",
+        "Built-in image and video generation across top models",
+        "AI-native browser for Windows and Mac with on-device models and Autopilot mode",
+        "AI Call agent can make real phone calls for reservations and inquiries",
+        "Unlimited AI Chat and Image agents on paid plans with zero credit cost"
+      ],
+      "zh": [
+        "超级智能体：一句提示词即可规划并执行多步任务",
+        "AI 幻灯片、文档、表格、设计器直接产出成品交付物",
+        "内置调用多家顶级模型的图像与视频生成",
+        "Windows/Mac AI 原生浏览器：端侧模型 + Autopilot 自动驾驶模式",
+        "AI 电话智能体可真实拨打电话完成订位、咨询",
+        "付费版 AI 聊天与图像智能体不限量、零积分消耗"
+      ],
+      "ja": [
+        "一つのプロンプトからマルチステップタスクを計画・実行するスーパーエージェント",
+        "AIスライド、ドキュメント、シート、デザイナーが完成度の高い成果物を生成",
+        "トップモデルを横断する画像・動画生成を内蔵",
+        "オンデバイスモデルとAutopilotモードを備えたWindows/Mac向けAIネイティブブラウザ",
+        "AI通話エージェントが予約や問い合わせの実電話を代行",
+        "有料プランではAIチャットと画像エージェントがクレジット消費ゼロで使い放題"
+      ],
+      "es": [
+        "Super Agente que planifica y ejecuta tareas de varios pasos desde un solo prompt",
+        "AI Slides, Docs, Sheets y Designer generan entregables pulidos",
+        "Generación de imagen y vídeo integrada con los mejores modelos",
+        "Navegador IA nativo para Windows y Mac con modelos en el dispositivo y modo Autopilot",
+        "El agente AI Call puede hacer llamadas reales para reservas y consultas",
+        "Chat e imagen IA ilimitados en planes de pago sin coste de créditos"
+      ],
+      "fr": [
+        "Super Agent qui planifie et exécute des tâches multi-étapes depuis un seul prompt",
+        "AI Slides, Docs, Sheets et Designer produisent des livrables aboutis",
+        "Génération d'images et de vidéos intégrée via les meilleurs modèles",
+        "Navigateur IA natif pour Windows et Mac avec modèles embarqués et mode Autopilot",
+        "L'agent AI Call passe de vrais appels pour réservations et demandes",
+        "Chat et image IA illimités sur les offres payantes sans consommation de crédits"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "Free plan: daily credits to try the Super Agent, slides, image and video features; AI browser download is free",
+        "zh": "免费版：每日积分可体验超级智能体、幻灯片、图像与视频功能；AI 浏览器免费下载",
+        "ja": "無料プラン：デイリークレジットでスーパーエージェント、スライド、画像・動画機能を試用可能。AIブラウザは無料ダウンロード",
+        "es": "Plan gratuito: créditos diarios para probar el Super Agente, diapositivas, imagen y vídeo; el navegador IA es de descarga gratuita",
+        "fr": "Offre gratuite : crédits quotidiens pour essayer le Super Agent, diapositives, image et vidéo ; le navigateur IA est téléchargeable gratuitement"
+      },
+      "paid": {
+        "en": "Plus $24.99/mo with 12,000 monthly credits and unlimited AI Chat/Image agents; Pro $249.99/mo with 125,000 credits, higher concurrency and priority access",
+        "zh": "Plus 24.99 美元/月：每月 12000 积分，AI 聊天/图像智能体不限量；Pro 249.99 美元/月：125000 积分、更高并发与优先访问",
+        "ja": "Plus 月24.99ドル：月12,000クレジット、AIチャット/画像エージェント使い放題。Pro 月249.99ドル：125,000クレジット、高い並列度と優先アクセス",
+        "es": "Plus 24,99 $/mes con 12.000 créditos mensuales y chat/imagen IA ilimitados; Pro 249,99 $/mes con 125.000 créditos, mayor concurrencia y acceso prioritario",
+        "fr": "Plus 24,99 $/mois avec 12 000 crédits mensuels et chat/image IA illimités ; Pro 249,99 $/mois avec 125 000 crédits, plus de simultanéité et accès prioritaire"
+      }
+    },
+    "useCases": {
+      "en": [
+        "Turning a topic into a finished slide deck or report in minutes",
+        "Cross-format busywork: research → doc → sheet → visuals in one place",
+        "Hands-free web tasks via the AI browser Autopilot",
+        "Marketing assets: images, short videos and designs from prompts"
+      ],
+      "zh": [
+        "几分钟内把一个主题变成成品幻灯片或报告",
+        "跨格式杂活：调研 → 文档 → 表格 → 视觉物料一站完成",
+        "用 AI 浏览器 Autopilot 免手动完成网页任务",
+        "营销物料：提示词直出图像、短视频与设计"
+      ],
+      "ja": [
+        "トピックを数分で完成済みスライドやレポートに変換",
+        "リサーチ→ドキュメント→シート→ビジュアルまで一箇所で完結する横断作業",
+        "AIブラウザのAutopilotでハンズフリーのWebタスク",
+        "プロンプトから画像、ショート動画、デザインなどマーケティング素材を生成"
+      ],
+      "es": [
+        "Convertir un tema en una presentación o informe terminado en minutos",
+        "Trabajo multiformato: investigación → doc → hoja → visuales en un solo lugar",
+        "Tareas web sin manos con el Autopilot del navegador IA",
+        "Recursos de marketing: imágenes, vídeos cortos y diseños desde prompts"
+      ],
+      "fr": [
+        "Transformer un sujet en présentation ou rapport fini en quelques minutes",
+        "Travail multi-format : recherche → doc → tableau → visuels au même endroit",
+        "Tâches web mains libres via l’Autopilot du navigateur IA",
+        "Ressources marketing : images, vidéos courtes et designs à partir de prompts"
+      ]
+    },
+    "pros": {
+      "en": [
+        "True all-in-one: agent, office suite, image/video and browser under one roof",
+        "Deliverable quality of slides and docs is among the best in class",
+        "Unlimited chat/image on Plus softens the credit model",
+        "AI browser with on-device models is free and genuinely novel"
+      ],
+      "zh": [
+        "真正全家桶：智能体、办公套件、图像/视频、浏览器一站集齐",
+        "幻灯片与文档的成品质量属同类顶尖",
+        "Plus 版聊天/图像不限量，缓解积分制焦虑",
+        "带端侧模型的 AI 浏览器免费且确有新意"
+      ],
+      "ja": [
+        "エージェント、オフィススイート、画像/動画、ブラウザを一つ屋根の下に集めた真のオールインワン",
+        "スライドとドキュメントの成果物品質は同クラス最高水準",
+        "Plusのチャット/画像使い放題がクレジット制の不安を緩和",
+        "オンデバイスモデル搭載のAIブラウザは無料で真に新しい"
+      ],
+      "es": [
+        "Todo en uno real: agente, suite ofimática, imagen/vídeo y navegador bajo un mismo techo",
+        "La calidad de las diapositivas y documentos está entre las mejores",
+        "El chat/imagen ilimitado del Plus suaviza el modelo de créditos",
+        "El navegador IA con modelos en el dispositivo es gratis y realmente novedoso"
+      ],
+      "fr": [
+        "Véritable tout-en-un : agent, suite bureautique, image/vidéo et navigateur sous un même toit",
+        "La qualité des diapositives et documents est parmi les meilleures",
+        "Le chat/image illimité du Plus adoucit le modèle à crédits",
+        "Le navigateur IA avec modèles embarqués est gratuit et réellement novateur"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Credit costs for heavy tasks (long videos, big decks) add up fast",
+        "Pro tier at $249.99/mo is a steep jump from Plus",
+        "Output quality varies with the underlying model routed per task",
+        "No API offering for developers so far"
+      ],
+      "zh": [
+        "重度任务（长视频、大型幻灯片）积分消耗快",
+        "Pro 档 249.99 美元/月，与 Plus 档价差过大",
+        "产出质量随任务路由到的底层模型而波动",
+        "暂未向开发者提供 API"
+      ],
+      "ja": [
+        "重いタスク（長尺動画、大型スライド）はクレジット消費が速い",
+        "月249.99ドルのProはPlusからの価格差が大きい",
+        "タスクごとにルーティングされる基盤モデルにより出力品質が変動",
+        "現時点で開発者向けAPIの提供なし"
+      ],
+      "es": [
+        "Los créditos de tareas pesadas (vídeos largos, decks grandes) se agotan rápido",
+        "El nivel Pro de 249,99 $/mes es un salto grande desde Plus",
+        "La calidad varía según el modelo subyacente asignado a cada tarea",
+        "De momento no hay API para desarrolladores"
+      ],
+      "fr": [
+        "Les crédits des tâches lourdes (vidéos longues, grands decks) filent vite",
+        "L'offre Pro à 249,99 $/mois marque un gros écart avec Plus",
+        "La qualité varie selon le modèle sous-jacent routé par tâche",
+        "Pas d'API développeur à ce jour"
+      ]
+    },
+    "latestUpdate": {
+      "en": "2026: Genspark AI Browser launched for Windows and Mac with free on-device models, Autopilot mode and an MCP store; the workspace keeps expanding with AI Designer, Sheets and unlimited Chat/Image agents on paid plans",
+      "zh": "2026 年：Genspark AI 浏览器登陆 Windows 与 Mac，带免费端侧模型、Autopilot 模式与 MCP 商店；工作空间持续扩张，新增 AI Designer、表格，付费版聊天/图像智能体不限量",
+      "ja": "2026年：Genspark AIブラウザがWindowsとMacに登場。無料オンデバイスモデル、Autopilotモード、MCPストアを搭載。ワークスペースはAI Designer、シートを追加し、有料プランのチャット/画像エージェントは使い放題に",
+      "es": "2026: el navegador Genspark AI llegó a Windows y Mac con modelos gratuitos en el dispositivo, modo Autopilot y tienda MCP; el workspace sigue creciendo con AI Designer, Sheets y agentes de chat/imagen ilimitados en planes de pago",
+      "fr": "2026 : le navigateur Genspark AI est sorti sur Windows et Mac avec modèles embarqués gratuits, mode Autopilot et boutique MCP ; l'espace de travail s'étend avec AI Designer, Sheets et des agents chat/image illimités sur les offres payantes"
+    },
+    "verdict": {
+      "badge": "Worth Trying",
+      "headline": {
+        "en": "The most ambitious all-in-one AI workspace — mind the credit meter",
+        "zh": "最有野心的全能 AI 工作空间——但要盯紧积分表",
+        "ja": "最も野心的なオールインワンAIワークスペース——ただしクレジット残高に注意",
+        "es": "El workspace IA todo en uno más ambicioso: vigila el contador de créditos",
+        "fr": "L'espace de travail IA tout-en-un le plus ambitieux — surveillez le compteur de crédits"
+      },
+      "body": {
+        "en": "Genspark bundles a super agent, an office suite, media generation and even an AI browser into one subscription, and the finished quality of its slides and docs regularly beats single-purpose rivals. The catch is the credit economy: light users thrive on Free or Plus, while heavy video or deck generation burns credits quickly. Try the free tier and the browser first — they show the vision at zero cost.",
+        "zh": "Genspark 把超级智能体、办公套件、媒体生成乃至 AI 浏览器打包进一份订阅，其幻灯片与文档的成品质量常常胜过单一用途的对手。代价是积分经济：轻度用户在免费或 Plus 档如鱼得水，重度视频/幻灯片生成则烧分很快。建议先试免费档和 AI 浏览器——零成本即可看清它的野心。",
+        "ja": "Gensparkはスーパーエージェント、オフィススイート、メディア生成、さらにAIブラウザまでを一つのサブスクにまとめ、スライドやドキュメントの完成品質は単機能の競合をしばしば上回る。問題はクレジット経済：ライトユーザーは無料かPlusで十分だが、動画や大型スライドの多用はクレジットを急速に消費する。まず無料枠とブラウザを試すべし——コストゼロでそのビジョンが分かる。",
+        "es": "Genspark reúne un super agente, una suite ofimática, generación de medios e incluso un navegador IA en una sola suscripción, y la calidad final de sus diapositivas y documentos supera a menudo a rivales de propósito único. La pega es la economía de créditos: los usuarios ligeros van sobrados con Free o Plus, mientras que la generación intensiva de vídeo o decks quema créditos rápido. Prueba primero el nivel gratuito y el navegador: muestran la visión a coste cero.",
+        "fr": "Genspark réunit super agent, suite bureautique, génération de médias et même un navigateur IA dans un seul abonnement, et la qualité finale de ses diapositives et documents dépasse souvent les rivaux monofonctions. Le hic : l'économie de crédits. Les utilisateurs légers s'épanouissent en Free ou Plus, tandis que la génération intensive de vidéos ou de decks brûle les crédits rapidement. Essayez d'abord l'offre gratuite et le navigateur — ils montrent la vision à coût nul."
+      },
+      "bestFor": {
+        "en": [
+          "Knowledge workers turning topics into slides, docs and sheets",
+          "Marketing teams generating images, short videos and designs",
+          "Hands-free web tasks via the AI browser Autopilot"
+        ],
+        "zh": [
+          "把主题直接变成幻灯片、文档与表格的知识工作者",
+          "批量产出图像、短视频与设计的营销团队",
+          "用 AI 浏览器 Autopilot 免手动完成网页任务"
+        ],
+        "ja": [
+          "トピックをスライド・ドキュメント・シートに変換する知識労働者",
+          "画像・ショート動画・デザインを量産するマーケティングチーム",
+          "AIブラウザのAutopilotによるハンズフリーのWebタスク"
+        ],
+        "es": [
+          "Trabajadores del conocimiento que convierten temas en diapositivas, docs y hojas",
+          "Equipos de marketing que generan imágenes, vídeos cortos y diseños",
+          "Tareas web sin manos con el Autopilot del navegador IA"
+        ],
+        "fr": [
+          "Travailleurs du savoir transformant des sujets en diapositives, docs et tableaux",
+          "Équipes marketing générant images, vidéos courtes et designs",
+          "Tâches web mains libres via l’Autopilot du navigateur IA"
+        ]
+      },
+      "considerAlternatives": {
+        "en": [
+          "You need developer APIs and pipelines (→ CrewAI, Browser Use)",
+          "You want a research-first agent (→ Manus, Perplexity)"
+        ],
+        "zh": [
+          "你需要开发者 API 与管线（→ CrewAI、Browser Use）",
+          "你要研究优先的智能体（→ Manus、Perplexity）"
+        ],
+        "ja": [
+          "開発者向けAPIとパイプラインが必要（→ CrewAI、Browser Use）",
+          "リサーチ優先のエージェントが欲しい（→ Manus、Perplexity）"
+        ],
+        "es": [
+          "Necesitas APIs y pipelines para desarrolladores (→ CrewAI, Browser Use)",
+          "Quieres un agente centrado en investigación (→ Manus, Perplexity)"
+        ],
+        "fr": [
+          "Vous avez besoin d’APIs développeur et de pipelines (→ CrewAI, Browser Use)",
+          "Vous voulez un agent axé recherche (→ Manus, Perplexity)"
+        ]
+      }
+    }
   }
 }
