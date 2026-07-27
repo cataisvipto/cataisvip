@@ -2814,5 +2814,152 @@
       "browser_extension": false,
       "api": true
     }
+  },
+  {
+    "slug": "hunyuan",
+    "name": "Hunyuan",
+    "nameZh": "腾讯混元",
+    "description": "腾讯自研的全链路大模型系列，覆盖语言、生图、生视频与 3D 生成，通过腾讯云提供 API，多款模型开源",
+    "descriptionEn": "Tencent's full-stack foundation model family covering language, image, video and 3D generation, with API access via Tencent Cloud and several open-source releases",
+    "descriptionJa": "Tencent自社開発のフルスタック基盤モデルシリーズ。言語・画像・動画・3D生成をカバー、Tencent Cloud経由のAPIと複数のオープンソース版を提供",
+    "descriptionEs": "Familia de modelos fundacionales de Tencent que cubre lenguaje, imagen, vídeo y generación 3D, con API vía Tencent Cloud y varias versiones de código abierto",
+    "descriptionFr": "Famille de modèles de fondation de Tencent couvrant langage, image, vidéo et génération 3D, avec API via Tencent Cloud et plusieurs versions open source",
+    "url": "https://hunyuan.tencent.com",
+    "logo": "/logos/tools/hunyuan.png",
+    "category": "Chat",
+    "tags": [
+      "Freemium",
+      "API"
+    ],
+    "featured": false,
+    "developer": "Tencent",
+    "developerZh": "腾讯",
+    "platforms": {
+      "web": true,
+      "windows": false,
+      "macos": false,
+      "ios": false,
+      "android": false,
+      "linux": false,
+      "browser_extension": false,
+      "api": true
+    }
+  },
+  {
+    "slug": "pangu",
+    "name": "Pangu",
+    "nameZh": "华为盘古",
+    "description": "华为云面向行业的大模型系列，含 NLP、CV、多模态、预测、科学计算五大方向，通过 ModelArts Studio 提供企业级服务",
+    "descriptionEn": "Huawei Cloud's industry-focused foundation model family spanning NLP, CV, multimodal, prediction and scientific computing, served via ModelArts Studio for enterprises",
+    "descriptionJa": "Huawei Cloudの産業特化型基盤モデルシリーズ。NLP・CV・マルチモーダル・予測・科学計算の5分野をカバー、ModelArts Studio経由でエンタープライズ向けに提供",
+    "descriptionEs": "Familia de modelos fundacionales de Huawei Cloud orientada a industrias, que abarca NLP, CV, multimodal, predicción y computación científica, servida vía ModelArts Studio",
+    "descriptionFr": "Famille de modèles de fondation de Huawei Cloud orientée industries, couvrant NLP, CV, multimodal, prédiction et calcul scientifique, fournie via ModelArts Studio",
+    "url": "https://www.huaweicloud.com/product/pangu.html",
+    "logo": "/logos/tools/pangu.ico",
+    "category": "Chat",
+    "tags": [
+      "API"
+    ],
+    "featured": false,
+    "developer": "Huawei Cloud",
+    "developerZh": "华为云",
+    "platforms": {
+      "web": true,
+      "windows": false,
+      "macos": false,
+      "ios": false,
+      "android": false,
+      "linux": false,
+      "browser_extension": false,
+      "api": true
+    }
+  },
+  {
+    "slug": "nvidia-nemotron",
+    "name": "NVIDIA Nemotron",
+    "nameZh": "NVIDIA Nemotron",
+    "description": "NVIDIA 开放模型家族，权重、训练数据与配方全开放，专为智能体优化，可通过 build.nvidia.com 在线试用 NIM API",
+    "descriptionEn": "NVIDIA's open model family with open weights, training data and recipes, optimized for agentic AI, with free NIM API playground at build.nvidia.com",
+    "descriptionJa": "NVIDIAのオープンモデルファミリー。重み・学習データ・レシピを公開、エージェントAI向けに最適化、build.nvidia.comでNIM APIを無料試用可能",
+    "descriptionEs": "Familia de modelos abiertos de NVIDIA con pesos, datos de entrenamiento y recetas abiertos, optimizada para IA agéntica, con playground gratuito NIM API en build.nvidia.com",
+    "descriptionFr": "Famille de modèles ouverts de NVIDIA avec poids, données d'entraînement et recettes ouverts, optimisée pour l'IA agentique, avec playground NIM API gratuit sur build.nvidia.com",
+    "url": "https://www.nvidia.com/en-us/ai-data-science/foundation-models/nemotron/",
+    "logo": "/logos/tools/nvidia-nemotron.png",
+    "category": "Chat",
+    "tags": [
+      "Free",
+      "Open Source",
+      "API"
+    ],
+    "featured": false,
+    "developer": "NVIDIA",
+    "platforms": {
+      "web": true,
+      "windows": true,
+      "macos": true,
+      "ios": false,
+      "android": false,
+      "linux": true,
+      "browser_extension": false,
+      "api": true
+    }
+  },
+  {
+    "slug": "ibm-granite",
+    "name": "IBM Granite",
+    "nameZh": "IBM Granite",
+    "description": "IBM 面向企业的开源小型高效模型家族，Apache 2.0 协议，可在 Hugging Face、Ollama 本地运行或通过 watsonx.ai 调用",
+    "descriptionEn": "IBM's enterprise-grade open model family under Apache 2.0, efficient and trustworthy, runnable locally via Hugging Face and Ollama or served through watsonx.ai",
+    "descriptionJa": "IBMのエンタープライズ向けオープンモデルファミリー。Apache 2.0ライセンス、高効率で信頼性重視、Hugging Face・Ollamaでローカル実行、watsonx.ai経由でも利用可",
+    "descriptionEs": "Familia de modelos abiertos de IBM de nivel empresarial bajo Apache 2.0, eficiente y confiable, ejecutable localmente vía Hugging Face y Ollama o servida a través de watsonx.ai",
+    "descriptionFr": "Famille de modèles ouverts d'IBM de niveau entreprise sous Apache 2.0, efficace et fiable, exécutable localement via Hugging Face et Ollama ou servie via watsonx.ai",
+    "url": "https://www.ibm.com/granite",
+    "logo": "/logos/tools/ibm-granite.png",
+    "category": "Chat",
+    "tags": [
+      "Free",
+      "Open Source",
+      "API"
+    ],
+    "featured": false,
+    "developer": "IBM",
+    "platforms": {
+      "web": true,
+      "windows": true,
+      "macos": true,
+      "ios": false,
+      "android": false,
+      "linux": true,
+      "browser_extension": false,
+      "api": true
+    }
+  },
+  {
+    "slug": "apple-foundation-models",
+    "name": "Apple Foundation Models",
+    "nameZh": "Apple Foundation Models",
+    "description": "Apple 面向开发者的端侧大模型框架，原生 Swift API 直达 Apple Intelligence 同款设备端模型，离线推理零调用成本",
+    "descriptionEn": "Apple's on-device LLM framework for developers: a native Swift API accessing the same model powering Apple Intelligence, with offline inference at zero cost",
+    "descriptionJa": "Appleの開発者向けオンデバイスLLMフレームワーク。Apple Intelligenceと同じデバイス内モデルにネイティブSwift APIでアクセス、オフライン推論コストゼロ",
+    "descriptionEs": "Framework de LLM en dispositivo de Apple para desarrolladores: API nativa Swift que accede al mismo modelo de Apple Intelligence, con inferencia offline sin costo",
+    "descriptionFr": "Framework LLM sur appareil d'Apple pour développeurs : API Swift native accédant au même modèle qu'Apple Intelligence, avec inférence hors ligne sans coût",
+    "url": "https://developer.apple.com/documentation/foundationmodels",
+    "logo": "/logos/tools/apple-foundation-models.png",
+    "category": "Developer",
+    "tags": [
+      "Free"
+    ],
+    "featured": false,
+    "developer": "Apple",
+    "platforms": {
+      "web": false,
+      "windows": false,
+      "macos": true,
+      "ios": true,
+      "android": false,
+      "linux": false,
+      "browser_extension": false,
+      "api": true
+    }
   }
 ]

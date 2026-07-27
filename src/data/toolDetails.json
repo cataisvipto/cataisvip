@@ -23919,5 +23919,1136 @@
         ]
       }
     }
+  },
+  "hunyuan": {
+    "features": {
+      "en": [
+        "Full-stack model family: language, image, video and 3D",
+        "Open-source releases (Hunyuan3D, HunyuanVideo, etc.)",
+        "Tencent Cloud API with free token quota",
+        "Strong Chinese language understanding",
+        "Hyra research agent for deep research tasks",
+        "Powers Tencent products like Yuanbao and WeChat AI"
+      ],
+      "zh": [
+        "全链路模型家族：语言、生图、生视频、3D",
+        "多款模型开源（Hunyuan3D、HunyuanVideo 等）",
+        "腾讯云 API 提供免费 token 额度",
+        "中文理解能力突出",
+        "Hyra 研究智能体支持深度研究任务",
+        "驱动元宝、微信 AI 等腾讯系产品"
+      ],
+      "ja": [
+        "言語・画像・動画・3Dのフルスタックモデルファミリー",
+        "複数モデルをオープンソース化（Hunyuan3D、HunyuanVideoなど）",
+        "Tencent Cloud APIで無料トークン枠を提供",
+        "中国語理解能力に優れる",
+        "深層研究タスク向けHyraリサーチエージェント",
+        "元宝やWeChat AIなどTencent製品を支える"
+      ],
+      "es": [
+        "Familia de modelos full-stack: lenguaje, imagen, vídeo y 3D",
+        "Versiones de código abierto (Hunyuan3D, HunyuanVideo, etc.)",
+        "API de Tencent Cloud con cuota gratuita de tokens",
+        "Excelente comprensión del idioma chino",
+        "Agente de investigación Hyra para tareas profundas",
+        "Impulsa productos Tencent como Yuanbao y WeChat AI"
+      ],
+      "fr": [
+        "Famille de modèles full-stack : langage, image, vidéo et 3D",
+        "Versions open source (Hunyuan3D, HunyuanVideo, etc.)",
+        "API Tencent Cloud avec quota de tokens gratuit",
+        "Excellente compréhension du chinois",
+        "Agent de recherche Hyra pour les tâches approfondies",
+        "Propulse les produits Tencent comme Yuanbao et WeChat AI"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "Web experience free; open models free to download",
+        "zh": "官网免费体验；开源模型免费下载",
+        "ja": "Web体験は無料、オープンモデルは無料ダウンロード可",
+        "es": "Experiencia web gratuita; modelos abiertos descargables gratis",
+        "fr": "Expérience web gratuite ; modèles ouverts téléchargeables gratuitement"
+      },
+      "api": {
+        "en": "Pay-as-you-go via Tencent Cloud, free quota for new users",
+        "zh": "腾讯云按量计费，新用户享免费额度",
+        "ja": "Tencent Cloud経由で従量課金、新規ユーザーに無料枠あり",
+        "es": "Pago por uso vía Tencent Cloud, cuota gratuita para nuevos usuarios",
+        "fr": "Paiement à l'usage via Tencent Cloud, quota gratuit pour les nouveaux utilisateurs"
+      }
+    },
+    "useCases": {
+      "en": [
+        "Chinese content generation and understanding",
+        "Multimodal creation: image, video and 3D assets",
+        "Enterprise API integration on Tencent Cloud",
+        "Game and social scenarios in Tencent ecosystem",
+        "Research on open multimodal models"
+      ],
+      "zh": [
+        "中文内容生成与理解",
+        "多模态创作：图像、视频与 3D 资产",
+        "腾讯云企业级 API 集成",
+        "腾讯生态内游戏与社交场景",
+        "开源多模态模型研究"
+      ],
+      "ja": [
+        "中国語コンテンツの生成と理解",
+        "マルチモーダル制作：画像・動画・3Dアセット",
+        "Tencent Cloudでのエンタープライズ API 統合",
+        "Tencentエコシステム内のゲーム・ソーシャル用途",
+        "オープンマルチモーダルモデルの研究"
+      ],
+      "es": [
+        "Generación y comprensión de contenido en chino",
+        "Creación multimodal: imagen, vídeo y activos 3D",
+        "Integración API empresarial en Tencent Cloud",
+        "Escenarios de juegos y redes en el ecosistema Tencent",
+        "Investigación en modelos multimodales abiertos"
+      ],
+      "fr": [
+        "Génération et compréhension de contenu en chinois",
+        "Création multimodale : image, vidéo et actifs 3D",
+        "Intégration API d'entreprise sur Tencent Cloud",
+        "Scénarios jeux et réseaux sociaux dans l'écosystème Tencent",
+        "Recherche sur les modèles multimodaux ouverts"
+      ]
+    },
+    "pros": {
+      "en": [
+        "Full multimodal coverage in one family",
+        "Strong open-source lineup (3D and video)",
+        "Deep Tencent ecosystem integration",
+        "Free quota lowers trial barrier"
+      ],
+      "zh": [
+        "一个家族覆盖全模态",
+        "开源阵容强（3D 与视频尤佳）",
+        "腾讯生态深度整合",
+        "免费额度降低试用门槛"
+      ],
+      "ja": [
+        "1ファミリーで全モダリティをカバー",
+        "強力なオープンソース陣容（3D・動画）",
+        "Tencentエコシステムとの深い統合",
+        "無料枠で試用ハードルが低い"
+      ],
+      "es": [
+        "Cobertura multimodal completa en una familia",
+        "Sólida oferta open source (3D y vídeo)",
+        "Integración profunda con el ecosistema Tencent",
+        "La cuota gratuita reduce la barrera de prueba"
+      ],
+      "fr": [
+        "Couverture multimodale complète en une famille",
+        "Solide offre open source (3D et vidéo)",
+        "Intégration profonde à l'écosystème Tencent",
+        "Le quota gratuit abaisse la barrière d'essai"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Less international recognition than GPT/Claude",
+        "Top-tier reasoning still behind frontier models",
+        "Ecosystem primarily oriented to Chinese market"
+      ],
+      "zh": [
+        "国际知名度低于 GPT/Claude",
+        "顶级推理能力与前沿模型仍有差距",
+        "生态主要面向国内市场"
+      ],
+      "ja": [
+        "GPT/Claudeより国際的知名度が低い",
+        "最上位の推論能力はフロンティアモデルに及ばない",
+        "エコシステムは主に中国市場向け"
+      ],
+      "es": [
+        "Menos reconocimiento internacional que GPT/Claude",
+        "El razonamiento de élite aún detrás de los modelos frontera",
+        "Ecosistema orientado principalmente al mercado chino"
+      ],
+      "fr": [
+        "Moins de notoriété internationale que GPT/Claude",
+        "Raisonnement d'élite encore derrière les modèles frontière",
+        "Écosystème principalement orienté vers le marché chinois"
+      ]
+    },
+    "latestUpdate": {
+      "en": "2026: Hyra-1.0 research agent released; open-source multimodal releases continue to expand",
+      "zh": "2026年：发布 Hyra-1.0 研究智能体，开源多模态阵容持续扩充",
+      "ja": "2026年：リサーチエージェントHyra-1.0をリリース、オープンソースのマルチモーダル陣容を継続拡充",
+      "es": "2026: lanzado el agente de investigación Hyra-1.0; siguen ampliándose las versiones multimodales abiertas",
+      "fr": "2026 : lancement de l'agent de recherche Hyra-1.0 ; l'offre multimodale open source continue de s'étendre"
+    },
+    "verdict": {
+      "badge": "Recommended",
+      "headline": {
+        "en": "Tencent's full-stack model family with an unusually strong open-source multimodal lineup.",
+        "zh": "腾讯全链路模型家族，开源多模态阵容罕见地强。",
+        "ja": "Tencentのフルスタックモデルファミリー、オープンソースのマルチモーダル陣容が際立って強い。",
+        "es": "La familia de modelos full-stack de Tencent con una oferta multimodal open source inusualmente fuerte.",
+        "fr": "La famille de modèles full-stack de Tencent avec une offre multimodale open source exceptionnellement forte."
+      },
+      "body": {
+        "en": "Hunyuan stands out less for its chat model and more for breadth: language, image, video and 3D under one roof, with several of those models released as open source. Hunyuan3D and HunyuanVideo are among the strongest open options in their fields.\n\nFor developers on Tencent Cloud, the free quota and unified API make it easy to adopt. As a pure LLM it is competitive in Chinese but not a frontier-level reasoner — pair it with a top-tier model if you need the strongest general intelligence.",
+        "zh": "混元的亮点不在单一对话模型，而在广度：语言、生图、生视频、3D 一站覆盖，且多款开源。Hunyuan3D 与 HunyuanVideo 是各自领域最强的开源选择之一。\n\n对腾讯云开发者，免费额度和统一 API 让接入很轻松。作为纯 LLM 它在中文场景有竞争力，但推理上限并非前沿水平——若需要最强通用智能，建议搭配顶级模型使用。",
+        "ja": "混元の魅力は単一チャットモデルではなく幅広さにある。言語・画像・動画・3Dを一括カバーし、複数モデルをオープンソース化。Hunyuan3DとHunyuanVideoは各分野で最強クラスのオープン選択肢だ。\n\nTencent Cloud開発者には無料枠と統一APIで導入が容易。純粋なLLMとしては中国語で競争力があるが、推論の上限はフロンティア級ではない——最強の汎用知能が必要なら上位モデルとの併用を推奨。",
+        "es": "Hunyuan destaca menos por su modelo de chat y más por su amplitud: lenguaje, imagen, vídeo y 3D bajo un mismo techo, con varios modelos liberados como open source. Hunyuan3D y HunyuanVideo están entre las opciones abiertas más fuertes de sus campos.\n\nPara desarrolladores en Tencent Cloud, la cuota gratuita y la API unificada facilitan la adopción. Como LLM puro es competitivo en chino pero no un razonador de frontera.",
+        "fr": "Hunyuan se distingue moins par son modèle de chat que par son ampleur : langage, image, vidéo et 3D sous un même toit, avec plusieurs modèles publiés en open source. Hunyuan3D et HunyuanVideo comptent parmi les options ouvertes les plus solides de leurs domaines.\n\nPour les développeurs sur Tencent Cloud, le quota gratuit et l'API unifiée facilitent l'adoption. Comme pur LLM, il est compétitif en chinois mais pas un raisonneur de niveau frontière."
+      },
+      "bestFor": {
+        "en": [
+          "Chinese multimodal content generation",
+          "Developers already on Tencent Cloud",
+          "Open-source 3D and video model research"
+        ],
+        "zh": [
+          "中文多模态内容生成",
+          "已在腾讯云上的开发者",
+          "开源 3D 与视频模型研究"
+        ],
+        "ja": [
+          "中国語マルチモーダルコンテンツ生成",
+          "既にTencent Cloudを使う開発者",
+          "オープンソース3D・動画モデル研究"
+        ],
+        "es": [
+          "Generación de contenido multimodal en chino",
+          "Desarrolladores ya en Tencent Cloud",
+          "Investigación en modelos abiertos de 3D y vídeo"
+        ],
+        "fr": [
+          "Génération de contenu multimodal en chinois",
+          "Développeurs déjà sur Tencent Cloud",
+          "Recherche sur les modèles ouverts 3D et vidéo"
+        ]
+      },
+      "considerAlternatives": {
+        "en": [
+          "You need frontier-level reasoning (→ ChatGPT, Claude)",
+          "You want a global-facing ecosystem (→ Gemini, Qwen)"
+        ],
+        "zh": [
+          "需要前沿级推理能力（→ ChatGPT、Claude）",
+          "需要面向全球的生态（→ Gemini、Qwen）"
+        ],
+        "ja": [
+          "フロンティア級の推論が必要な場合（→ ChatGPT、Claude）",
+          "グローバル向けエコシステムが必要な場合（→ Gemini、Qwen）"
+        ],
+        "es": [
+          "Necesitas razonamiento de nivel frontera (→ ChatGPT, Claude)",
+          "Quieres un ecosistema global (→ Gemini, Qwen)"
+        ],
+        "fr": [
+          "Vous avez besoin d'un raisonnement de niveau frontière (→ ChatGPT, Claude)",
+          "Vous voulez un écosystème mondial (→ Gemini, Qwen)"
+        ]
+      }
+    }
+  },
+  "pangu": {
+    "features": {
+      "en": [
+        "Five model directions: NLP, CV, multimodal, prediction, scientific computing",
+        "Industry solutions: mining, meteorology, pharma, finance",
+        "ModelArts Studio for training, tuning and deployment",
+        "Private deployment via Huawei Cloud Stack",
+        "Optimized for Ascend AI hardware",
+        "Enterprise-grade security and compliance"
+      ],
+      "zh": [
+        "五大方向：NLP、CV、多模态、预测、科学计算",
+        "行业方案：矿山、气象、药物、金融",
+        "ModelArts Studio 训练调优部署一体化",
+        "支持华为云 Stack 私有化部署",
+        "昇腾 AI 硬件软硬协同优化",
+        "企业级安全与合规"
+      ],
+      "ja": [
+        "5つの方向性：NLP・CV・マルチモーダル・予測・科学計算",
+        "産業ソリューション：鉱山・気象・製薬・金融",
+        "ModelArts Studioで学習・チューニング・デプロイを一体化",
+        "Huawei Cloud Stackによるプライベート展開",
+        "Ascend AIハードウェアに最適化",
+        "エンタープライズ級のセキュリティとコンプライアンス"
+      ],
+      "es": [
+        "Cinco direcciones: NLP, CV, multimodal, predicción, computación científica",
+        "Soluciones industriales: minería, meteorología, farmacéutica, finanzas",
+        "ModelArts Studio para entrenamiento, ajuste y despliegue",
+        "Despliegue privado vía Huawei Cloud Stack",
+        "Optimizado para hardware Ascend AI",
+        "Seguridad y cumplimiento de nivel empresarial"
+      ],
+      "fr": [
+        "Cinq directions : NLP, CV, multimodal, prédiction, calcul scientifique",
+        "Solutions sectorielles : mines, météorologie, pharma, finance",
+        "ModelArts Studio pour l'entraînement, le réglage et le déploiement",
+        "Déploiement privé via Huawei Cloud Stack",
+        "Optimisé pour le matériel Ascend AI",
+        "Sécurité et conformité de niveau entreprise"
+      ]
+    },
+    "pricing": {
+      "api": {
+        "en": "Pay-as-you-go via Huawei Cloud; enterprise solutions quoted individually",
+        "zh": "华为云按需计费，企业方案单独询价",
+        "ja": "Huawei Cloud経由で従量課金、エンタープライズ案件は個別見積もり",
+        "es": "Pago por uso vía Huawei Cloud; soluciones empresariales con cotización individual",
+        "fr": "Paiement à l'usage via Huawei Cloud ; solutions entreprise sur devis"
+      }
+    },
+    "useCases": {
+      "en": [
+        "Industry digitalization: mining, meteorology, drug discovery",
+        "Private LLM deployment for government and enterprises",
+        "Time-series prediction and scientific computing",
+        "Huawei Cloud native AI integration",
+        "Compliance-sensitive AI workloads"
+      ],
+      "zh": [
+        "行业智能化：矿山、气象、药物研发",
+        "政企大模型私有化部署",
+        "时序预测与科学计算",
+        "华为云原生 AI 集成",
+        "合规敏感型 AI 工作负载"
+      ],
+      "ja": [
+        "産業のデジタル化：鉱山・気象・創薬",
+        "政府・企業向けプライベートLLM展開",
+        "時系列予測と科学計算",
+        "Huawei CloudネイティブAI統合",
+        "コンプライアンス重視のAIワークロード"
+      ],
+      "es": [
+        "Digitalización industrial: minería, meteorología, descubrimiento de fármacos",
+        "Despliegue privado de LLM para gobierno y empresas",
+        "Predicción de series temporales y computación científica",
+        "Integración de IA nativa en Huawei Cloud",
+        "Cargas de IA sensibles al cumplimiento"
+      ],
+      "fr": [
+        "Numérisation industrielle : mines, météorologie, découverte de médicaments",
+        "Déploiement privé de LLM pour gouvernements et entreprises",
+        "Prédiction de séries temporelles et calcul scientifique",
+        "Intégration IA native Huawei Cloud",
+        "Charges IA sensibles à la conformité"
+      ]
+    },
+    "pros": {
+      "en": [
+        "Deep vertical industry expertise",
+        "Strong private deployment capability",
+        "Ascend hardware-software co-optimization",
+        "Enterprise-grade reliability"
+      ],
+      "zh": [
+        "行业垂直深耕",
+        "私有化部署能力强",
+        "昇腾软硬协同",
+        "企业级可靠性"
+      ],
+      "ja": [
+        "垂直産業への深い専門性",
+        "強力なプライベート展開能力",
+        "Ascendのハード・ソフト協調最適化",
+        "エンタープライズ級の信頼性"
+      ],
+      "es": [
+        "Profunda experiencia industrial vertical",
+        "Fuerte capacidad de despliegue privado",
+        "Co-optimización hardware-software Ascend",
+        "Fiabilidad de nivel empresarial"
+      ],
+      "fr": [
+        "Expertise sectorielle verticale approfondie",
+        "Forte capacité de déploiement privé",
+        "Co-optimisation matériel-logiciel Ascend",
+        "Fiabilité de niveau entreprise"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Not aimed at individual consumers",
+        "No public chat product to try",
+        "Ecosystem locked to Huawei Cloud"
+      ],
+      "zh": [
+        "不面向个人消费者",
+        "无公开对话产品可体验",
+        "生态绑定华为云"
+      ],
+      "ja": [
+        "個人消費者向けではない",
+        "試せる公開チャット製品がない",
+        "エコシステムがHuawei Cloudに依存"
+      ],
+      "es": [
+        "No dirigido a consumidores individuales",
+        "Sin producto de chat público para probar",
+        "Ecosistema ligado a Huawei Cloud"
+      ],
+      "fr": [
+        "Non destiné aux particuliers",
+        "Pas de produit de chat public à essayer",
+        "Écosystème lié à Huawei Cloud"
+      ]
+    },
+    "latestUpdate": {
+      "en": "2026: Pangu models deepen industry scenarios; ModelArts Studio strengthens integrated training and inference",
+      "zh": "2026年：盘古持续深化行业场景，ModelArts Studio 强化训推一体化",
+      "ja": "2026年：盤古は産業シナリオを深化、ModelArts Studioが学習・推論の一体化を強化",
+      "es": "2026: los modelos Pangu profundizan escenarios industriales; ModelArts Studio refuerza el entrenamiento e inferencia integrados",
+      "fr": "2026 : les modèles Pangu approfondissent les scénarios industriels ; ModelArts Studio renforce l'entraînement et l'inférence intégrés"
+    },
+    "verdict": {
+      "badge": "For Specific Needs",
+      "headline": {
+        "en": "Huawei's industry-first foundation models — built for enterprises, not consumers.",
+        "zh": "华为行业优先的基础模型——为企业而生，不面向消费者。",
+        "ja": "Huaweiの産業第一の基盤モデル——企業向けであり、消費者向けではない。",
+        "es": "Los modelos fundacionales de Huawei orientados a la industria — para empresas, no consumidores.",
+        "fr": "Les modèles de fondation de Huawei orientés industrie — conçus pour les entreprises, pas les consommateurs."
+      },
+      "body": {
+        "en": "Pangu takes a deliberately different path from consumer chatbots: its \"AI for Industries\" strategy targets mining, meteorology, pharmaceuticals and finance with domain-tuned models and full private deployment options. Combined with Ascend hardware and ModelArts Studio, it offers Chinese enterprises a complete sovereign AI stack.\n\nThere is no public chat product, so individual users have little to try. Evaluate it if you are an enterprise buyer on Huawei Cloud; look elsewhere for general-purpose assistants or open APIs.",
+        "zh": "盘古刻意走了与消费级聊天机器人不同的路：「AI for Industries」战略以行业调优模型和完整私有化选项深入矿山、气象、制药、金融。配合昇腾硬件与 ModelArts Studio，为国内企业提供完整的自主 AI 栈。\n\n它没有公开对话产品，个人用户几乎无从体验。如果你是华为云上的企业买家，值得评估；若需要通用助手或开放 API，请看别处。",
+        "ja": "盤古は消費者向けチャットボットとは意図的に異なる道を歩む。「AI for Industries」戦略により、産業特化チューニングモデルと完全なプライベート展開オプションで鉱山・気象・製薬・金融に深く入り込む。AscendハードウェアとModelArts Studioを組み合わせ、完全な主権AIスタックを提供する。\n\n公開チャット製品はなく、個人ユーザーが試す機会はほぼない。Huawei Cloudのエンタープライズ購買者なら評価に値する。汎用アシスタントやオープンAPIが必要なら他を当たるべきだ。",
+        "es": "Pangu toma deliberadamente un camino distinto a los chatbots de consumo: su estrategia \"AI for Industries\" apunta a minería, meteorología, farmacéutica y finanzas con modelos ajustados por dominio y despliegue privado completo. Con hardware Ascend y ModelArts Studio, ofrece a las empresas un stack de IA soberano completo.\n\nNo hay producto de chat público. Evalúalo si eres comprador empresarial en Huawei Cloud; busca en otro lado asistentes generales o APIs abiertas.",
+        "fr": "Pangu suit délibérément une voie différente des chatbots grand public : sa stratégie « AI for Industries » cible les mines, la météorologie, la pharma et la finance avec des modèles adaptés au domaine et un déploiement privé complet. Avec le matériel Ascend et ModelArts Studio, il offre aux entreprises un stack IA souverain complet.\n\nIl n'y a pas de produit de chat public. Évaluez-le si vous êtes un acheteur entreprise sur Huawei Cloud ; cherchez ailleurs pour des assistants généraux ou des API ouvertes."
+      },
+      "bestFor": {
+        "en": [
+          "Industry digitalization projects",
+          "Government and enterprise private deployment",
+          "Organizations on Huawei Cloud and Ascend hardware"
+        ],
+        "zh": [
+          "行业智能化项目",
+          "政企私有化部署",
+          "使用华为云与昇腾硬件的组织"
+        ],
+        "ja": [
+          "産業デジタル化プロジェクト",
+          "政府・企業のプライベート展開",
+          "Huawei CloudとAscendハードウェアを使う組織"
+        ],
+        "es": [
+          "Proyectos de digitalización industrial",
+          "Despliegue privado gubernamental y empresarial",
+          "Organizaciones en Huawei Cloud y hardware Ascend"
+        ],
+        "fr": [
+          "Projets de numérisation industrielle",
+          "Déploiement privé gouvernemental et d'entreprise",
+          "Organisations sur Huawei Cloud et matériel Ascend"
+        ]
+      },
+      "considerAlternatives": {
+        "en": [
+          "You want a personal AI assistant (→ Doubao, Kimi)",
+          "You need open general-purpose APIs (→ DeepSeek, Qwen)"
+        ],
+        "zh": [
+          "需要个人 AI 助手（→ 豆包、Kimi）",
+          "需要开放的通用 API（→ DeepSeek、Qwen）"
+        ],
+        "ja": [
+          "個人向けAIアシスタントが欲しい場合（→ 豆包、Kimi）",
+          "オープンな汎用APIが必要な場合（→ DeepSeek、Qwen）"
+        ],
+        "es": [
+          "Quieres un asistente personal de IA (→ Doubao, Kimi)",
+          "Necesitas APIs abiertas de propósito general (→ DeepSeek, Qwen)"
+        ],
+        "fr": [
+          "Vous voulez un assistant IA personnel (→ Doubao, Kimi)",
+          "Vous avez besoin d'API généralistes ouvertes (→ DeepSeek, Qwen)"
+        ]
+      }
+    }
+  },
+  "nvidia-nemotron": {
+    "features": {
+      "en": [
+        "Open model family: Nano, Super and Ultra sizes",
+        "Reasoning toggle: switch thinking mode on or off",
+        "Optimized for agentic AI and tool calling",
+        "Open weights and training data on Hugging Face",
+        "Deploy anywhere via NIM microservices",
+        "Tuned for peak throughput on NVIDIA GPUs"
+      ],
+      "zh": [
+        "开放模型家族：Nano、Super、Ultra 三档",
+        "推理开关：可按需开启/关闭思考模式",
+        "为智能体 AI 与工具调用优化",
+        "权重与训练数据开放在 Hugging Face",
+        "通过 NIM 微服务随处部署",
+        "针对 NVIDIA GPU 极致吞吐调优"
+      ],
+      "ja": [
+        "オープンモデルファミリー：Nano・Super・Ultraの3サイズ",
+        "推論トグル：思考モードのオン/オフ切替可能",
+        "エージェントAIとツール呼び出しに最適化",
+        "重みと学習データをHugging Faceで公開",
+        "NIMマイクロサービスでどこでもデプロイ",
+        "NVIDIA GPUで最大スループットにチューニング"
+      ],
+      "es": [
+        "Familia de modelos abiertos: tamaños Nano, Super y Ultra",
+        "Interruptor de razonamiento: activa o desactiva el modo pensamiento",
+        "Optimizado para IA agéntica y llamadas a herramientas",
+        "Pesos y datos de entrenamiento abiertos en Hugging Face",
+        "Despliegue en cualquier lugar vía microservicios NIM",
+        "Ajustado para máximo rendimiento en GPUs NVIDIA"
+      ],
+      "fr": [
+        "Famille de modèles ouverts : tailles Nano, Super et Ultra",
+        "Bascule de raisonnement : mode réflexion activable à la demande",
+        "Optimisé pour l'IA agentique et l'appel d'outils",
+        "Poids et données d'entraînement ouverts sur Hugging Face",
+        "Déploiement partout via les microservices NIM",
+        "Réglé pour un débit maximal sur GPU NVIDIA"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "Open weights free to download under NVIDIA Open Model License",
+        "zh": "开放权重可在 NVIDIA 开放模型许可下免费下载",
+        "ja": "NVIDIAオープンモデルライセンスの下で重みを無料ダウンロード可能",
+        "es": "Pesos abiertos descargables gratis bajo la NVIDIA Open Model License",
+        "fr": "Poids ouverts téléchargeables gratuitement sous la NVIDIA Open Model License"
+      },
+      "api": {
+        "en": "Free trial credits on build.nvidia.com; production via NVIDIA AI Enterprise",
+        "zh": "build.nvidia.com 提供免费试用额度，生产环境走 NVIDIA AI Enterprise",
+        "ja": "build.nvidia.comで無料試用クレジット、本番はNVIDIA AI Enterprise経由",
+        "es": "Créditos de prueba gratis en build.nvidia.com; producción vía NVIDIA AI Enterprise",
+        "fr": "Crédits d'essai gratuits sur build.nvidia.com ; production via NVIDIA AI Enterprise"
+      }
+    },
+    "useCases": {
+      "en": [
+        "Building AI agents with efficient reasoning",
+        "Self-hosted LLM inference on NVIDIA hardware",
+        "RAG pipelines needing high-throughput models",
+        "Fine-tuning on open weights for vertical tasks",
+        "Cost-controlled reasoning by toggling think mode"
+      ],
+      "zh": [
+        "构建高效推理的 AI 智能体",
+        "NVIDIA 硬件上的自托管 LLM 推理",
+        "需要高吞吐模型的 RAG 流水线",
+        "基于开放权重做垂直任务微调",
+        "用思考开关控制推理成本"
+      ],
+      "ja": [
+        "効率的な推論を備えたAIエージェント構築",
+        "NVIDIAハードウェアでのセルフホストLLM推論",
+        "高スループットモデルが必要なRAGパイプライン",
+        "オープンな重みでの垂直タスク向けファインチューニング",
+        "思考モード切替による推論コスト管理"
+      ],
+      "es": [
+        "Construcción de agentes de IA con razonamiento eficiente",
+        "Inferencia LLM autoalojada en hardware NVIDIA",
+        "Pipelines RAG que requieren modelos de alto rendimiento",
+        "Ajuste fino sobre pesos abiertos para tareas verticales",
+        "Control de costes activando o no el modo pensamiento"
+      ],
+      "fr": [
+        "Construction d'agents IA au raisonnement efficace",
+        "Inférence LLM auto-hébergée sur matériel NVIDIA",
+        "Pipelines RAG nécessitant des modèles à haut débit",
+        "Fine-tuning sur poids ouverts pour des tâches verticales",
+        "Maîtrise des coûts via la bascule du mode réflexion"
+      ]
+    },
+    "pros": {
+      "en": [
+        "Truly open: weights, data and recipes published",
+        "Excellent efficiency per GPU dollar",
+        "Reasoning on/off saves inference cost",
+        "First-class NVIDIA stack integration"
+      ],
+      "zh": [
+        "真开放：权重、数据、训练配方全公开",
+        "单位 GPU 成本效率出色",
+        "推理开关节省推理成本",
+        "与 NVIDIA 全栈一等整合"
+      ],
+      "ja": [
+        "真のオープン：重み・データ・レシピを公開",
+        "GPUコストあたりの効率が優秀",
+        "推論オン/オフで推論コスト削減",
+        "NVIDIAスタックとの一級統合"
+      ],
+      "es": [
+        "Verdaderamente abierto: pesos, datos y recetas publicados",
+        "Excelente eficiencia por dólar de GPU",
+        "El razonamiento conmutable ahorra costes de inferencia",
+        "Integración de primera clase con el stack NVIDIA"
+      ],
+      "fr": [
+        "Vraiment ouvert : poids, données et recettes publiés",
+        "Excellente efficacité par dollar de GPU",
+        "Le raisonnement commutable réduit les coûts d'inférence",
+        "Intégration de premier ordre au stack NVIDIA"
+      ]
+    },
+    "cons": {
+      "en": [
+        "No consumer chat product — developer-oriented",
+        "Best performance tied to NVIDIA hardware",
+        "Smaller community than Llama or Qwen"
+      ],
+      "zh": [
+        "无消费级对话产品，面向开发者",
+        "最佳性能绑定 NVIDIA 硬件",
+        "社区规模小于 Llama、Qwen"
+      ],
+      "ja": [
+        "消費者向けチャット製品はなく開発者向け",
+        "最高性能はNVIDIAハードウェア前提",
+        "コミュニティ規模はLlamaやQwenより小さい"
+      ],
+      "es": [
+        "Sin producto de chat de consumo — orientado a desarrolladores",
+        "Mejor rendimiento ligado a hardware NVIDIA",
+        "Comunidad más pequeña que Llama o Qwen"
+      ],
+      "fr": [
+        "Pas de produit de chat grand public — orienté développeurs",
+        "Meilleures performances liées au matériel NVIDIA",
+        "Communauté plus petite que Llama ou Qwen"
+      ]
+    },
+    "latestUpdate": {
+      "en": "2026: Nemotron family expands agentic-AI focus; open datasets and NIM deployment options keep growing",
+      "zh": "2026年：Nemotron 家族深化智能体方向，开放数据集与 NIM 部署选项持续扩充",
+      "ja": "2026年：NemotronファミリーはエージェントAI路線を強化、公開データセットとNIM展開オプションが拡大",
+      "es": "2026: la familia Nemotron amplía su enfoque en IA agéntica; los datasets abiertos y opciones NIM siguen creciendo",
+      "fr": "2026 : la famille Nemotron renforce son orientation IA agentique ; les jeux de données ouverts et options NIM continuent de croître"
+    },
+    "verdict": {
+      "badge": "Recommended",
+      "headline": {
+        "en": "The most transparent open model family — built to squeeze every drop out of NVIDIA GPUs.",
+        "zh": "最透明的开放模型家族——为榨干 NVIDIA GPU 的每一分性能而生。",
+        "ja": "最も透明性の高いオープンモデルファミリー——NVIDIA GPUの性能を絞り尽くすために作られた。",
+        "es": "La familia de modelos abiertos más transparente — hecha para exprimir cada gota de las GPUs NVIDIA.",
+        "fr": "La famille de modèles ouverts la plus transparente — conçue pour tirer le maximum des GPU NVIDIA."
+      },
+      "body": {
+        "en": "Nemotron's differentiator is radical openness: NVIDIA publishes not just weights but training datasets and post-training recipes, which almost no frontier lab does. The reasoning toggle is genuinely useful — you pay thinking-token costs only when a task needs them.\n\nIt is a developer platform, not a chat app. If you run inference on NVIDIA GPUs and want an efficient, commercially friendly open model for agents or RAG, Nemotron belongs on your shortlist alongside Llama and Qwen.",
+        "zh": "Nemotron 的差异化在于彻底的开放：NVIDIA 不仅开权重，还公开训练数据集与后训练配方——前沿实验室几乎没人这么做。推理开关非常实用，只在任务需要时才付出思考 token 的成本。\n\n它是开发者平台而非聊天应用。如果你在 NVIDIA GPU 上跑推理，想要一个高效、商用友好的开放模型做智能体或 RAG，Nemotron 值得与 Llama、Qwen 一起进入候选清单。",
+        "ja": "Nemotronの差別化要因は徹底したオープン性にある。NVIDIAは重みだけでなく学習データセットとポストトレーニングのレシピまで公開しており、フロンティアラボでは他にほぼ例がない。推論トグルは実用的で、タスクが必要とするときだけ思考トークンのコストを払えばよい。\n\nこれはチャットアプリではなく開発者プラットフォームだ。NVIDIA GPUで推論を回し、エージェントやRAG向けに効率的で商用フレンドリーなオープンモデルを求めるなら、LlamaやQwenと並んで候補に入れる価値がある。",
+        "es": "El diferenciador de Nemotron es su apertura radical: NVIDIA publica no solo los pesos sino los datasets de entrenamiento y las recetas de post-entrenamiento, algo que casi ningún laboratorio de frontera hace. El interruptor de razonamiento es realmente útil: solo pagas tokens de pensamiento cuando la tarea lo requiere.\n\nEs una plataforma para desarrolladores, no una app de chat. Si ejecutas inferencia en GPUs NVIDIA y quieres un modelo abierto eficiente y comercialmente amigable para agentes o RAG, Nemotron merece estar en tu lista junto a Llama y Qwen.",
+        "fr": "Le facteur différenciant de Nemotron est son ouverture radicale : NVIDIA publie non seulement les poids mais aussi les jeux de données d'entraînement et les recettes de post-entraînement, ce que presque aucun laboratoire de frontière ne fait. La bascule de raisonnement est réellement utile — vous ne payez les tokens de réflexion que lorsque la tâche l'exige.\n\nC'est une plateforme développeur, pas une app de chat. Si vous faites de l'inférence sur GPU NVIDIA et cherchez un modèle ouvert efficace et adapté au commercial pour agents ou RAG, Nemotron mérite sa place aux côtés de Llama et Qwen."
+      },
+      "bestFor": {
+        "en": [
+          "Agent builders on NVIDIA infrastructure",
+          "Teams needing open data and training transparency",
+          "Cost-sensitive reasoning workloads"
+        ],
+        "zh": [
+          "NVIDIA 基础设施上的智能体开发者",
+          "需要开放数据与训练透明度的团队",
+          "成本敏感的推理工作负载"
+        ],
+        "ja": [
+          "NVIDIAインフラ上のエージェント開発者",
+          "オープンデータと学習透明性が必要なチーム",
+          "コスト重視の推論ワークロード"
+        ],
+        "es": [
+          "Constructores de agentes en infraestructura NVIDIA",
+          "Equipos que necesitan datos abiertos y transparencia de entrenamiento",
+          "Cargas de razonamiento sensibles al coste"
+        ],
+        "fr": [
+          "Développeurs d'agents sur infrastructure NVIDIA",
+          "Équipes exigeant données ouvertes et transparence d'entraînement",
+          "Charges de raisonnement sensibles aux coûts"
+        ]
+      },
+      "considerAlternatives": {
+        "en": [
+          "You want the largest open ecosystem (→ Llama, Qwen)",
+          "You need a hosted frontier model (→ ChatGPT, Gemini)"
+        ],
+        "zh": [
+          "需要最大的开源生态（→ Llama、Qwen）",
+          "需要托管的前沿模型（→ ChatGPT、Gemini）"
+        ],
+        "ja": [
+          "最大のオープンエコシステムが必要な場合（→ Llama、Qwen）",
+          "ホスト型フロンティアモデルが必要な場合（→ ChatGPT、Gemini）"
+        ],
+        "es": [
+          "Quieres el mayor ecosistema abierto (→ Llama, Qwen)",
+          "Necesitas un modelo frontera alojado (→ ChatGPT, Gemini)"
+        ],
+        "fr": [
+          "Vous voulez le plus grand écosystème ouvert (→ Llama, Qwen)",
+          "Vous avez besoin d'un modèle frontière hébergé (→ ChatGPT, Gemini)"
+        ]
+      }
+    }
+  },
+  "ibm-granite": {
+    "features": {
+      "en": [
+        "Small, efficient enterprise models (1B–34B class)",
+        "Apache 2.0 license for unrestricted commercial use",
+        "Hybrid Mamba-Transformer architecture (Granite 4)",
+        "Guardian models for safety and hallucination checks",
+        "Runs on watsonx, Hugging Face, Ollama and vLLM",
+        "ISO 42001 certified responsible AI development"
+      ],
+      "zh": [
+        "小而高效的企业级模型（1B–34B 级别）",
+        "Apache 2.0 许可，商用无限制",
+        "混合 Mamba-Transformer 架构（Granite 4）",
+        "Guardian 模型负责安全与幻觉检测",
+        "可跑在 watsonx、Hugging Face、Ollama、vLLM",
+        "通过 ISO 42001 负责任 AI 认证"
+      ],
+      "ja": [
+        "小型で効率的なエンタープライズモデル（1B〜34Bクラス）",
+        "Apache 2.0ライセンスで商用利用無制限",
+        "ハイブリッドMamba-Transformerアーキテクチャ（Granite 4）",
+        "安全性と幻覚チェックのGuardianモデル",
+        "watsonx・Hugging Face・Ollama・vLLMで動作",
+        "ISO 42001認証の責任あるAI開発"
+      ],
+      "es": [
+        "Modelos empresariales pequeños y eficientes (clase 1B–34B)",
+        "Licencia Apache 2.0 para uso comercial sin restricciones",
+        "Arquitectura híbrida Mamba-Transformer (Granite 4)",
+        "Modelos Guardian para seguridad y detección de alucinaciones",
+        "Funciona en watsonx, Hugging Face, Ollama y vLLM",
+        "Desarrollo de IA responsable certificado ISO 42001"
+      ],
+      "fr": [
+        "Modèles d'entreprise petits et efficaces (classe 1B–34B)",
+        "Licence Apache 2.0 pour un usage commercial sans restriction",
+        "Architecture hybride Mamba-Transformer (Granite 4)",
+        "Modèles Guardian pour la sécurité et la détection d'hallucinations",
+        "Fonctionne sur watsonx, Hugging Face, Ollama et vLLM",
+        "Développement d'IA responsable certifié ISO 42001"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "All Granite models free under Apache 2.0",
+        "zh": "全部 Granite 模型按 Apache 2.0 免费使用",
+        "ja": "全GraniteモデルがApache 2.0の下で無料",
+        "es": "Todos los modelos Granite gratis bajo Apache 2.0",
+        "fr": "Tous les modèles Granite gratuits sous Apache 2.0"
+      },
+      "api": {
+        "en": "Hosted inference on watsonx.ai, pay-as-you-go with IP indemnification",
+        "zh": "watsonx.ai 托管推理按量计费，含知识产权保障",
+        "ja": "watsonx.aiのホスト推論は従量課金、IP補償付き",
+        "es": "Inferencia alojada en watsonx.ai, pago por uso con indemnización de PI",
+        "fr": "Inférence hébergée sur watsonx.ai, paiement à l'usage avec indemnisation PI"
+      }
+    },
+    "useCases": {
+      "en": [
+        "Enterprise RAG and document AI",
+        "On-premise deployment in regulated industries",
+        "Cost-efficient fine-tuned vertical models",
+        "Local inference on modest hardware via Ollama",
+        "AI governance workflows with Guardian checks"
+      ],
+      "zh": [
+        "企业级 RAG 与文档 AI",
+        "受监管行业的本地化部署",
+        "低成本微调垂直模型",
+        "用 Ollama 在普通硬件上本地推理",
+        "配合 Guardian 检测的 AI 治理流程"
+      ],
+      "ja": [
+        "エンタープライズRAGとドキュメントAI",
+        "規制産業でのオンプレミス展開",
+        "低コストなファインチューニング垂直モデル",
+        "Ollamaによる控えめなハードウェアでのローカル推論",
+        "GuardianチェックによるAIガバナンスワークフロー"
+      ],
+      "es": [
+        "RAG empresarial e IA documental",
+        "Despliegue on-premise en industrias reguladas",
+        "Modelos verticales ajustados de forma rentable",
+        "Inferencia local en hardware modesto vía Ollama",
+        "Flujos de gobernanza de IA con verificaciones Guardian"
+      ],
+      "fr": [
+        "RAG d'entreprise et IA documentaire",
+        "Déploiement sur site dans les industries réglementées",
+        "Modèles verticaux affinés à moindre coût",
+        "Inférence locale sur matériel modeste via Ollama",
+        "Flux de gouvernance IA avec contrôles Guardian"
+      ]
+    },
+    "pros": {
+      "en": [
+        "Cleanest license in enterprise AI (Apache 2.0)",
+        "Transparent training data provenance",
+        "Very low memory footprint (Granite 4 hybrid)",
+        "IP indemnification when used via watsonx"
+      ],
+      "zh": [
+        "企业 AI 里最干净的许可（Apache 2.0）",
+        "训练数据来源透明",
+        "内存占用极低（Granite 4 混合架构）",
+        "经 watsonx 使用可获知识产权保障"
+      ],
+      "ja": [
+        "エンタープライズAIで最もクリーンなライセンス（Apache 2.0）",
+        "学習データの出所が透明",
+        "メモリ占有が非常に少ない（Granite 4ハイブリッド）",
+        "watsonx経由の利用でIP補償"
+      ],
+      "es": [
+        "La licencia más limpia en IA empresarial (Apache 2.0)",
+        "Procedencia transparente de los datos de entrenamiento",
+        "Huella de memoria muy baja (híbrido Granite 4)",
+        "Indemnización de PI al usarse vía watsonx"
+      ],
+      "fr": [
+        "La licence la plus propre de l'IA d'entreprise (Apache 2.0)",
+        "Provenance transparente des données d'entraînement",
+        "Empreinte mémoire très faible (hybride Granite 4)",
+        "Indemnisation PI en cas d'usage via watsonx"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Raw capability below frontier models",
+        "No consumer-facing product",
+        "Brand mindshare weaker than Llama in open community"
+      ],
+      "zh": [
+        "绝对能力低于前沿模型",
+        "没有面向消费者的产品",
+        "开源社区声量弱于 Llama"
+      ],
+      "ja": [
+        "素の能力はフロンティアモデルに劣る",
+        "消費者向け製品がない",
+        "オープンコミュニティでの存在感はLlamaより弱い"
+      ],
+      "es": [
+        "Capacidad bruta por debajo de los modelos frontera",
+        "Sin producto orientado al consumidor",
+        "Menor presencia de marca que Llama en la comunidad abierta"
+      ],
+      "fr": [
+        "Capacités brutes inférieures aux modèles frontière",
+        "Pas de produit grand public",
+        "Notoriété plus faible que Llama dans la communauté open source"
+      ]
+    },
+    "latestUpdate": {
+      "en": "2026: Granite 4 hybrid family matures; tiny models push on-device and edge enterprise scenarios",
+      "zh": "2026年：Granite 4 混合架构家族走向成熟，微型模型推进端侧与边缘企业场景",
+      "ja": "2026年：Granite 4ハイブリッドファミリーが成熟、超小型モデルがオンデバイスとエッジの企業シナリオを推進",
+      "es": "2026: la familia híbrida Granite 4 madura; los modelos diminutos impulsan escenarios empresariales en dispositivo y edge",
+      "fr": "2026 : la famille hybride Granite 4 arrive à maturité ; les modèles miniatures poussent les scénarios d'entreprise embarqués et en edge"
+    },
+    "verdict": {
+      "badge": "For Specific Needs",
+      "headline": {
+        "en": "The safest open model choice for enterprises that answer to lawyers and regulators.",
+        "zh": "对要向法务和监管交代的企业来说，最稳妥的开源模型选择。",
+        "ja": "法務や規制当局に説明責任を負う企業にとって、最も安全なオープンモデルの選択肢。",
+        "es": "La opción de modelo abierto más segura para empresas que responden ante abogados y reguladores.",
+        "fr": "Le choix de modèle ouvert le plus sûr pour les entreprises qui rendent des comptes aux juristes et régulateurs."
+      },
+      "body": {
+        "en": "Granite does not chase leaderboards — it chases auditability. Apache 2.0 licensing, disclosed training data, ISO 42001 certification and optional IP indemnification make it uniquely easy to get past enterprise legal review. The Granite 4 hybrid architecture also slashes memory needs, so serious workloads fit on modest GPUs.\n\nIf you need maximum intelligence, frontier models win. But for regulated industries running RAG, extraction and classification at scale, Granite's cost-safety-compliance triangle is hard to beat.",
+        "zh": "Granite 不追排行榜，追的是可审计性。Apache 2.0 许可、公开训练数据、ISO 42001 认证外加可选的知识产权保障，让它过企业法务审查的难度独一档地低。Granite 4 混合架构还大幅降低内存需求，普通 GPU 就能跑正经负载。\n\n若追求最强智能，前沿模型更好。但对于规模化跑 RAG、抽取、分类的受监管行业，Granite 的成本-安全-合规三角很难被打败。",
+        "ja": "Graniteはリーダーボードではなく監査可能性を追求している。Apache 2.0ライセンス、公開された学習データ、ISO 42001認証、そしてオプションのIP補償により、企業の法務レビューを通すのが際立って容易だ。Granite 4のハイブリッドアーキテクチャはメモリ要件も大幅に削減し、控えめなGPUで本格的なワークロードが動く。\n\n最大の知能が必要ならフロンティアモデルに軍配が上がる。しかし規制産業でRAG・抽出・分類を大規模に回すなら、Graniteのコスト・安全・コンプライアンスの三角形を打ち破るのは難しい。",
+        "es": "Granite no persigue rankings — persigue auditabilidad. La licencia Apache 2.0, los datos de entrenamiento divulgados, la certificación ISO 42001 y la indemnización de PI opcional lo hacen singularmente fácil de pasar por revisión legal empresarial. La arquitectura híbrida de Granite 4 además recorta las necesidades de memoria, permitiendo cargas serias en GPUs modestas.\n\nSi necesitas máxima inteligencia, ganan los modelos frontera. Pero para industrias reguladas ejecutando RAG, extracción y clasificación a escala, el triángulo coste-seguridad-cumplimiento de Granite es difícil de superar.",
+        "fr": "Granite ne court pas après les classements — il vise l'auditabilité. Licence Apache 2.0, données d'entraînement divulguées, certification ISO 42001 et indemnisation PI optionnelle : passer la revue juridique d'entreprise devient singulièrement facile. L'architecture hybride de Granite 4 réduit aussi fortement les besoins mémoire, permettant des charges sérieuses sur des GPU modestes.\n\nSi vous cherchez l'intelligence maximale, les modèles frontière l'emportent. Mais pour les industries réglementées exécutant RAG, extraction et classification à grande échelle, le triangle coût-sécurité-conformité de Granite est difficile à battre."
+      },
+      "bestFor": {
+        "en": [
+          "Regulated industries (finance, healthcare, government)",
+          "Enterprise RAG on limited GPU budgets",
+          "Teams needing clean licensing and data provenance"
+        ],
+        "zh": [
+          "受监管行业（金融、医疗、政务）",
+          "GPU 预算有限的企业 RAG",
+          "需要干净许可与数据溯源的团队"
+        ],
+        "ja": [
+          "規制産業（金融・医療・行政）",
+          "限られたGPU予算でのエンタープライズRAG",
+          "クリーンなライセンスとデータ出所が必要なチーム"
+        ],
+        "es": [
+          "Industrias reguladas (finanzas, salud, gobierno)",
+          "RAG empresarial con presupuestos de GPU limitados",
+          "Equipos que necesitan licencias limpias y procedencia de datos"
+        ],
+        "fr": [
+          "Industries réglementées (finance, santé, secteur public)",
+          "RAG d'entreprise avec budget GPU limité",
+          "Équipes exigeant licence propre et provenance des données"
+        ]
+      },
+      "considerAlternatives": {
+        "en": [
+          "You need maximum raw capability (→ ChatGPT, Claude)",
+          "You want the biggest open community (→ Llama, Qwen)"
+        ],
+        "zh": [
+          "需要最强绝对能力（→ ChatGPT、Claude）",
+          "需要最大的开源社区（→ Llama、Qwen）"
+        ],
+        "ja": [
+          "最大の素の能力が必要な場合（→ ChatGPT、Claude）",
+          "最大のオープンコミュニティが必要な場合（→ Llama、Qwen）"
+        ],
+        "es": [
+          "Necesitas máxima capacidad bruta (→ ChatGPT, Claude)",
+          "Quieres la mayor comunidad abierta (→ Llama, Qwen)"
+        ],
+        "fr": [
+          "Vous avez besoin de capacités brutes maximales (→ ChatGPT, Claude)",
+          "Vous voulez la plus grande communauté ouverte (→ Llama, Qwen)"
+        ]
+      }
+    }
+  },
+  "apple-foundation-models": {
+    "features": {
+      "en": [
+        "On-device ~3B model built into Apple Intelligence",
+        "Swift-native Foundation Models framework",
+        "Guided generation with type-safe @Generable output",
+        "Tool calling for app-specific actions",
+        "Private Cloud Compute for heavier requests",
+        "Works offline with zero API cost"
+      ],
+      "zh": [
+        "内置于 Apple Intelligence 的端侧约 3B 模型",
+        "Swift 原生 Foundation Models 框架",
+        "@Generable 类型安全的引导式生成",
+        "工具调用支持应用内动作",
+        "较重请求走 Private Cloud Compute",
+        "离线可用，零 API 成本"
+      ],
+      "ja": [
+        "Apple Intelligenceに内蔵された約3Bのオンデバイスモデル",
+        "SwiftネイティブのFoundation Modelsフレームワーク",
+        "@Generableによる型安全なガイド付き生成",
+        "アプリ固有アクションのツール呼び出し",
+        "重い処理はPrivate Cloud Computeへ",
+        "オフラインで動作、APIコストゼロ"
+      ],
+      "es": [
+        "Modelo en dispositivo de ~3B integrado en Apple Intelligence",
+        "Framework Foundation Models nativo de Swift",
+        "Generación guiada con salida type-safe @Generable",
+        "Llamadas a herramientas para acciones específicas de la app",
+        "Private Cloud Compute para peticiones pesadas",
+        "Funciona sin conexión con coste de API cero"
+      ],
+      "fr": [
+        "Modèle embarqué d'environ 3B intégré à Apple Intelligence",
+        "Framework Foundation Models natif Swift",
+        "Génération guidée avec sortie type-safe @Generable",
+        "Appel d'outils pour des actions propres à l'app",
+        "Private Cloud Compute pour les requêtes lourdes",
+        "Fonctionne hors ligne sans coût d'API"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "Completely free for developers — no API fees, inference runs on user devices",
+        "zh": "对开发者完全免费——无 API 费用，推理在用户设备上运行",
+        "ja": "開発者は完全無料——API料金なし、推論はユーザーのデバイス上で実行",
+        "es": "Completamente gratis para desarrolladores — sin tarifas de API, la inferencia corre en los dispositivos de los usuarios",
+        "fr": "Entièrement gratuit pour les développeurs — pas de frais d'API, l'inférence s'exécute sur les appareils des utilisateurs"
+      }
+    },
+    "useCases": {
+      "en": [
+        "Adding AI features to iOS/macOS apps at zero cost",
+        "Privacy-first summarization and extraction",
+        "Offline AI in Notes-style or journaling apps",
+        "Structured output generation in Swift apps",
+        "In-app assistants calling app tools"
+      ],
+      "zh": [
+        "零成本给 iOS/macOS 应用加 AI 功能",
+        "隐私优先的摘要与信息抽取",
+        "笔记/日记类应用的离线 AI",
+        "Swift 应用中的结构化输出生成",
+        "调用应用工具的内置助手"
+      ],
+      "ja": [
+        "iOS/macOSアプリへのゼロコストAI機能追加",
+        "プライバシー第一の要約と抽出",
+        "メモ・日記系アプリのオフラインAI",
+        "Swiftアプリでの構造化出力生成",
+        "アプリツールを呼び出すアプリ内アシスタント"
+      ],
+      "es": [
+        "Añadir funciones de IA a apps iOS/macOS sin coste",
+        "Resumen y extracción con privacidad primero",
+        "IA sin conexión en apps de notas o diarios",
+        "Generación de salida estructurada en apps Swift",
+        "Asistentes integrados que llaman a herramientas de la app"
+      ],
+      "fr": [
+        "Ajout de fonctions IA aux apps iOS/macOS sans coût",
+        "Résumé et extraction axés sur la confidentialité",
+        "IA hors ligne dans les apps de notes ou de journal",
+        "Génération de sorties structurées dans les apps Swift",
+        "Assistants intégrés appelant les outils de l'app"
+      ]
+    },
+    "pros": {
+      "en": [
+        "Zero inference cost at any scale",
+        "Best-in-class privacy story",
+        "Deep OS integration, tiny battery impact",
+        "Type-safe structured output is elegant"
+      ],
+      "zh": [
+        "任何规模下推理成本为零",
+        "隐私叙事业界最佳",
+        "深度系统集成，电量影响极小",
+        "类型安全的结构化输出很优雅"
+      ],
+      "ja": [
+        "どの規模でも推論コストゼロ",
+        "業界最高クラスのプライバシー",
+        "OSとの深い統合、バッテリー影響は僅少",
+        "型安全な構造化出力がエレガント"
+      ],
+      "es": [
+        "Coste de inferencia cero a cualquier escala",
+        "La mejor historia de privacidad de su clase",
+        "Integración profunda con el SO, impacto mínimo en batería",
+        "La salida estructurada type-safe es elegante"
+      ],
+      "fr": [
+        "Coût d'inférence nul à toute échelle",
+        "Meilleure garantie de confidentialité du marché",
+        "Intégration OS profonde, impact batterie minime",
+        "La sortie structurée type-safe est élégante"
+      ]
+    },
+    "cons": {
+      "en": [
+        "~3B model — far below frontier capability",
+        "Apple devices with Apple Intelligence only",
+        "No cross-platform or server-side story"
+      ],
+      "zh": [
+        "约 3B 模型，能力远低于前沿水平",
+        "仅限支持 Apple Intelligence 的苹果设备",
+        "无跨平台或服务端方案"
+      ],
+      "ja": [
+        "約3Bモデルでフロンティア級の能力には遠い",
+        "Apple Intelligence対応のApple端末限定",
+        "クロスプラットフォームやサーバーサイドの選択肢なし"
+      ],
+      "es": [
+        "Modelo de ~3B — muy por debajo de la capacidad frontera",
+        "Solo dispositivos Apple con Apple Intelligence",
+        "Sin opción multiplataforma ni del lado del servidor"
+      ],
+      "fr": [
+        "Modèle d'environ 3B — loin des capacités frontière",
+        "Uniquement les appareils Apple avec Apple Intelligence",
+        "Pas d'option multiplateforme ni côté serveur"
+      ]
+    },
+    "latestUpdate": {
+      "en": "2026: Foundation Models framework matures with broader language support and improved guided generation",
+      "zh": "2026年：Foundation Models 框架趋于成熟，扩大语言支持并改进引导式生成",
+      "ja": "2026年：Foundation Modelsフレームワークが成熟、言語サポート拡大とガイド付き生成の改善",
+      "es": "2026: el framework Foundation Models madura con soporte de idiomas más amplio y generación guiada mejorada",
+      "fr": "2026 : le framework Foundation Models gagne en maturité avec un support linguistique élargi et une génération guidée améliorée"
+    },
+    "verdict": {
+      "badge": "For Specific Needs",
+      "headline": {
+        "en": "Free, private, on-device AI for every Apple app — as long as you accept a small model's limits.",
+        "zh": "给每个苹果应用的免费、私密、端侧 AI——前提是接受小模型的能力上限。",
+        "ja": "すべてのAppleアプリに無料・プライベート・オンデバイスのAIを——小型モデルの限界を受け入れられるなら。",
+        "es": "IA gratuita, privada y en dispositivo para cada app de Apple — siempre que aceptes los límites de un modelo pequeño.",
+        "fr": "Une IA gratuite, privée et embarquée pour chaque app Apple — à condition d'accepter les limites d'un petit modèle."
+      },
+      "body": {
+        "en": "For iOS and macOS developers, this is the cheapest AI you will ever ship: no API keys, no per-token bills, no user data leaving the device. The Swift-native framework with @Generable structured output and tool calling is genuinely well designed, and Private Cloud Compute extends capability without compromising the privacy model.\n\nThe catch is the ~3B parameter ceiling — summarization, extraction and classification work well, but complex reasoning or long-form generation will disappoint. Use it as the default layer and escalate to a cloud LLM only where quality demands.",
+        "zh": "对 iOS/macOS 开发者，这是你能发布的最便宜的 AI：没有 API 密钥、没有按 token 计费、用户数据不出设备。Swift 原生框架配 @Generable 结构化输出和工具调用，设计得确实漂亮；Private Cloud Compute 在不破坏隐私模型的前提下扩展能力。\n\n代价是约 3B 参数的上限——摘要、抽取、分类表现不错，但复杂推理和长文生成会让人失望。建议把它当默认层，只在质量要求高的地方升级到云端 LLM。",
+        "ja": "iOS/macOS開発者にとって、これは出荷できる最も安価なAIだ。APIキーなし、トークン課金なし、ユーザーデータはデバイスの外に出ない。@Generableの構造化出力とツール呼び出しを備えたSwiftネイティブフレームワークは本当によく設計されており、Private Cloud Computeはプライバシーモデルを損なわずに能力を拡張する。\n\n難点は約3Bパラメータという上限だ。要約・抽出・分類は良好だが、複雑な推論や長文生成には期待できない。デフォルト層として使い、品質が求められる場面だけクラウドLLMに切り替えるのが賢明だ。",
+        "es": "Para desarrolladores de iOS y macOS, esta es la IA más barata que jamás lanzarás: sin claves de API, sin facturas por token, sin datos de usuario saliendo del dispositivo. El framework nativo de Swift con salida estructurada @Generable y llamadas a herramientas está genuinamente bien diseñado, y Private Cloud Compute amplía la capacidad sin comprometer el modelo de privacidad.\n\nLa pega es el techo de ~3B parámetros: resumen, extracción y clasificación funcionan bien, pero el razonamiento complejo decepcionará. Úsalo como capa por defecto y escala a un LLM en la nube solo donde la calidad lo exija.",
+        "fr": "Pour les développeurs iOS et macOS, c'est l'IA la moins chère que vous puissiez livrer : pas de clés d'API, pas de facturation au token, aucune donnée utilisateur ne quitte l'appareil. Le framework natif Swift avec sortie structurée @Generable et appel d'outils est réellement bien conçu, et Private Cloud Compute étend les capacités sans compromettre le modèle de confidentialité.\n\nLe hic : le plafond d'environ 3B paramètres — résumé, extraction et classification fonctionnent bien, mais le raisonnement complexe décevra. Utilisez-le comme couche par défaut et passez à un LLM cloud uniquement là où la qualité l'exige."
+      },
+      "bestFor": {
+        "en": [
+          "iOS/macOS developers adding AI features",
+          "Privacy-sensitive app categories",
+          "Offline-first AI experiences"
+        ],
+        "zh": [
+          "要加 AI 功能的 iOS/macOS 开发者",
+          "隐私敏感的应用品类",
+          "离线优先的 AI 体验"
+        ],
+        "ja": [
+          "AI機能を追加するiOS/macOS開発者",
+          "プライバシーに敏感なアプリカテゴリ",
+          "オフラインファーストのAI体験"
+        ],
+        "es": [
+          "Desarrolladores iOS/macOS que añaden funciones de IA",
+          "Categorías de apps sensibles a la privacidad",
+          "Experiencias de IA offline-first"
+        ],
+        "fr": [
+          "Développeurs iOS/macOS ajoutant des fonctions IA",
+          "Catégories d'apps sensibles à la confidentialité",
+          "Expériences IA hors ligne d'abord"
+        ]
+      },
+      "considerAlternatives": {
+        "en": [
+          "You need frontier-level intelligence (→ ChatGPT, Claude)",
+          "You build cross-platform apps (→ Gemini, Llama)"
+        ],
+        "zh": [
+          "需要前沿级智能（→ ChatGPT、Claude）",
+          "开发跨平台应用（→ Gemini、Llama）"
+        ],
+        "ja": [
+          "フロンティア級の知能が必要な場合（→ ChatGPT、Claude）",
+          "クロスプラットフォームアプリを作る場合（→ Gemini、Llama）"
+        ],
+        "es": [
+          "Necesitas inteligencia de nivel frontera (→ ChatGPT, Claude)",
+          "Desarrollas apps multiplataforma (→ Gemini, Llama)"
+        ],
+        "fr": [
+          "Vous avez besoin d'une intelligence de niveau frontière (→ ChatGPT, Claude)",
+          "Vous créez des apps multiplateformes (→ Gemini, Llama)"
+        ]
+      }
+    }
   }
 }
