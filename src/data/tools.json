@@ -3106,5 +3106,210 @@
       "browser_extension": false,
       "api": "unknown"
     }
+  },
+  {
+    "slug": "langgraph",
+    "name": "LangGraph",
+    "nameZh": "LangGraph",
+    "description": "LangChain 出品的有状态智能体编排框架：图结构工作流、持久化记忆与人类介入，配套 LangGraph Platform 一键部署",
+    "descriptionEn": "Stateful agent orchestration framework by LangChain: graph-based workflows, durable memory and human-in-the-loop, with the LangGraph Platform for one-click deployment",
+    "descriptionJa": "LangChainによるステートフルなエージェントオーケストレーションフレームワーク。グラフ型ワークフロー、永続メモリ、ヒューマンインザループに対応し、LangGraph Platformでワンクリックデプロイ",
+    "descriptionEs": "Framework de orquestación de agentes con estado de LangChain: flujos en grafo, memoria persistente e intervención humana, con la LangGraph Platform para desplegar en un clic",
+    "descriptionFr": "Framework d'orchestration d'agents avec état de LangChain : workflows en graphe, mémoire durable et humain dans la boucle, avec la LangGraph Platform pour un déploiement en un clic",
+    "url": "https://www.langchain.com/langgraph",
+    "logo": "/logos/tools/langgraph.png",
+    "category": "Agent",
+    "tags": [
+      "Freemium",
+      "Open Source",
+      "API"
+    ],
+    "featured": false,
+    "developer": "LangChain",
+    "platforms": {
+      "web": true,
+      "windows": true,
+      "macos": true,
+      "ios": false,
+      "android": false,
+      "linux": true,
+      "browser_extension": false,
+      "api": true
+    }
+  },
+  {
+    "slug": "microsoft-agent-framework",
+    "name": "Microsoft Agent Framework",
+    "nameZh": "微软智能体框架",
+    "description": "微软开源智能体框架，AutoGen 与 Semantic Kernel 的官方继任者：.NET/Python/Go 多智能体工作流，原生支持 MCP 与 A2A",
+    "descriptionEn": "Microsoft's open-source agent framework, the official successor to AutoGen and Semantic Kernel: multi-agent workflows in .NET/Python/Go with native MCP and A2A support",
+    "descriptionJa": "MicrosoftのオープンソースエージェントフレームワークでAutoGenとSemantic Kernelの公式後継。.NET/Python/Goのマルチエージェントワークフロー、MCPとA2Aをネイティブサポート",
+    "descriptionEs": "Framework de agentes de código abierto de Microsoft, sucesor oficial de AutoGen y Semantic Kernel: flujos multiagente en .NET/Python/Go con soporte nativo de MCP y A2A",
+    "descriptionFr": "Framework d'agents open source de Microsoft, successeur officiel d'AutoGen et Semantic Kernel : workflows multi-agents en .NET/Python/Go avec support natif de MCP et A2A",
+    "url": "https://github.com/microsoft/agent-framework",
+    "logo": "/logos/tools/microsoft-agent-framework.png",
+    "category": "Agent",
+    "tags": [
+      "Free",
+      "Open Source"
+    ],
+    "featured": false,
+    "developer": "Microsoft",
+    "platforms": {
+      "web": false,
+      "windows": true,
+      "macos": true,
+      "ios": false,
+      "android": false,
+      "linux": true,
+      "browser_extension": false,
+      "api": false
+    }
+  },
+  {
+    "slug": "pydantic-ai",
+    "name": "Pydantic AI",
+    "nameZh": "Pydantic AI",
+    "description": "Pydantic 团队的类型安全 Python 智能体框架：结构化输出校验、模型无关、深度集成 Logfire 可观测性",
+    "descriptionEn": "Type-safe Python agent framework by the Pydantic team: validated structured output, model-agnostic, deeply integrated with Logfire observability",
+    "descriptionJa": "Pydanticチームによる型安全なPythonエージェントフレームワーク。構造化出力の検証、モデル非依存、Logfire可観測性との深い統合",
+    "descriptionEs": "Framework de agentes Python con tipado seguro del equipo Pydantic: salida estructurada validada, agnóstico de modelos, integrado con la observabilidad de Logfire",
+    "descriptionFr": "Framework d'agents Python à typage sûr de l'équipe Pydantic : sorties structurées validées, indépendant du modèle, intégré à l'observabilité Logfire",
+    "url": "https://ai.pydantic.dev",
+    "logo": "/logos/tools/pydantic-ai.png",
+    "category": "Agent",
+    "tags": [
+      "Free",
+      "Open Source"
+    ],
+    "featured": false,
+    "developer": "Pydantic",
+    "platforms": {
+      "web": false,
+      "windows": true,
+      "macos": true,
+      "ios": false,
+      "android": false,
+      "linux": true,
+      "browser_extension": false,
+      "api": false
+    }
+  },
+  {
+    "slug": "mastra",
+    "name": "Mastra",
+    "nameZh": "Mastra",
+    "description": "开源 TypeScript 智能体框架：智能体、工作流、记忆、RAG 与评测一站式，内置交互式 Playground 与 Mastra Cloud 部署",
+    "descriptionEn": "Open-source TypeScript agent framework: agents, workflows, memory, RAG and evals in one stack, with an interactive playground and Mastra Cloud deployment",
+    "descriptionJa": "オープンソースのTypeScriptエージェントフレームワーク。エージェント、ワークフロー、メモリ、RAG、評価をワンストップで提供し、対話型PlaygroundとMastra Cloudデプロイを内蔵",
+    "descriptionEs": "Framework de agentes TypeScript de código abierto: agentes, flujos, memoria, RAG y evaluaciones en un solo stack, con playground interactivo y despliegue en Mastra Cloud",
+    "descriptionFr": "Framework d'agents TypeScript open source : agents, workflows, mémoire, RAG et évaluations en un seul stack, avec playground interactif et déploiement Mastra Cloud",
+    "url": "https://mastra.ai",
+    "logo": "/logos/tools/mastra.png",
+    "category": "Agent",
+    "tags": [
+      "Freemium",
+      "Open Source"
+    ],
+    "featured": false,
+    "developer": "Mastra",
+    "platforms": {
+      "web": true,
+      "windows": true,
+      "macos": true,
+      "ios": false,
+      "android": false,
+      "linux": true,
+      "browser_extension": false,
+      "api": true
+    }
+  },
+  {
+    "slug": "flowise",
+    "name": "Flowise",
+    "nameZh": "Flowise",
+    "description": "开源可视化 AI 智能体搭建平台：Assistant/Chatflow/Agentflow 三种可视化编排器，拖拽构建，支持自托管与云端",
+    "descriptionEn": "Open-source visual AI agent builder: three visual orchestrators (Assistant/Chatflow/Agentflow), drag-and-drop building, self-hosted or cloud",
+    "descriptionJa": "オープンソースのビジュアルAIエージェント構築プラットフォーム。Assistant/Chatflow/Agentflowの3種のビジュアルオーケストレーターでドラッグ＆ドロップ構築、セルフホストとクラウドに対応",
+    "descriptionEs": "Plataforma visual de código abierto para crear agentes IA: tres orquestadores visuales (Assistant/Chatflow/Agentflow), construcción con arrastrar y soltar, autoalojada o en la nube",
+    "descriptionFr": "Plateforme visuelle open source de création d'agents IA : trois orchestrateurs visuels (Assistant/Chatflow/Agentflow), construction par glisser-déposer, auto-hébergée ou cloud",
+    "url": "https://flowiseai.com",
+    "logo": "/logos/tools/flowise.png",
+    "category": "Agent",
+    "tags": [
+      "Freemium",
+      "Open Source",
+      "API"
+    ],
+    "featured": false,
+    "developer": "FlowiseAI",
+    "platforms": {
+      "web": true,
+      "windows": true,
+      "macos": true,
+      "ios": false,
+      "android": false,
+      "linux": true,
+      "browser_extension": false,
+      "api": true
+    }
+  },
+  {
+    "slug": "factory-ai",
+    "name": "Factory",
+    "nameZh": "Factory",
+    "description": "企业级软件开发智能体平台：Droids 智能体自动化编码、测试与部署，CLI 版 droid 位居 Terminal-Bench 榜首",
+    "descriptionEn": "Agent-native software development platform: Factory Droids automate coding, testing and deployment; its droid CLI tops Terminal-Bench",
+    "descriptionJa": "エージェントネイティブなソフトウェア開発プラットフォーム。Droidsエージェントがコーディング・テスト・デプロイを自動化し、CLI版droidはTerminal-Benchで首位",
+    "descriptionEs": "Plataforma de desarrollo de software nativa de agentes: los Droids de Factory automatizan codificación, pruebas y despliegue; su CLI droid lidera Terminal-Bench",
+    "descriptionFr": "Plateforme de développement logiciel native agents : les Droids de Factory automatisent codage, tests et déploiement ; son CLI droid domine Terminal-Bench",
+    "url": "https://factory.ai",
+    "logo": "/logos/tools/factory-ai.png",
+    "category": "Agent",
+    "tags": [
+      "Freemium",
+      "API"
+    ],
+    "featured": false,
+    "developer": "Factory",
+    "platforms": {
+      "web": true,
+      "windows": true,
+      "macos": true,
+      "ios": false,
+      "android": false,
+      "linux": true,
+      "browser_extension": false,
+      "api": "unknown"
+    }
+  },
+  {
+    "slug": "goose",
+    "name": "Goose",
+    "nameZh": "Goose",
+    "description": "Block 开源的本机通用 AI 智能体（现属 Linux 基金会 AAIF）：桌面端 + CLI + API，Rust 构建，基于 MCP 连接 70+ 扩展",
+    "descriptionEn": "Open-source on-machine AI agent from Block (now under the Linux Foundation's AAIF): desktop app + CLI + API, built in Rust, connects to 70+ extensions via MCP",
+    "descriptionJa": "Block発のオープンソース・オンマシンAIエージェント（現在はLinux Foundation AAIF傘下）。デスクトップ+CLI+API、Rust製、MCP経由で70以上の拡張に接続",
+    "descriptionEs": "Agente IA de código abierto que corre en tu máquina, creado por Block (ahora bajo la AAIF de la Linux Foundation): app de escritorio + CLI + API, hecho en Rust, conecta 70+ extensiones vía MCP",
+    "descriptionFr": "Agent IA open source s'exécutant sur votre machine, créé par Block (désormais sous l'AAIF de la Linux Foundation) : app de bureau + CLI + API, écrit en Rust, connecté à 70+ extensions via MCP",
+    "url": "https://goose-docs.ai",
+    "logo": "/logos/tools/goose.png",
+    "category": "Agent",
+    "tags": [
+      "Free",
+      "Open Source"
+    ],
+    "featured": false,
+    "developer": "Block / AAIF",
+    "platforms": {
+      "web": false,
+      "windows": true,
+      "macos": true,
+      "ios": false,
+      "android": false,
+      "linux": true,
+      "browser_extension": false,
+      "api": true
+    }
   }
 ]

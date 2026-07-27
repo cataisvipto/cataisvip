@@ -26200,5 +26200,1601 @@
         ]
       }
     }
+  },
+  "factory-ai": {
+    "features": {
+      "en": [
+        "Droids: autonomous AI agents that code, test, review and deploy",
+        "droid CLI tops Terminal-Bench (63.1%), the leading terminal-agent benchmark",
+        "Works everywhere: terminal, IDE, Slack, Linear and the browser",
+        "Bring your own model — Claude, GPT, Gemini or open models via BYOK",
+        "Deep codebase understanding across large enterprise monorepos",
+        "Enterprise controls: SSO, audit logs and self-hosted options"
+      ],
+      "zh": [
+        "Droids：自主编码、测试、审查与部署的 AI 智能体",
+        "droid CLI 居 Terminal-Bench 榜首（63.1%），终端智能体权威基准",
+        "多入口作业：终端、IDE、Slack、Linear 与浏览器",
+        "自带模型——经 BYOK 使用 Claude、GPT、Gemini 或开源模型",
+        "对大型企业 monorepo 的深度代码库理解",
+        "企业级管控：SSO、审计日志与自托管选项"
+      ],
+      "ja": [
+        "Droids：コーディング、テスト、レビュー、デプロイを自律実行するAIエージェント",
+        "droid CLIはターミナルエージェント指標Terminal-Benchで首位（63.1%）",
+        "ターミナル、IDE、Slack、Linear、ブラウザのどこからでも作業可能",
+        "BYOKでClaude、GPT、Gemini、オープンモデルなど任意のモデルを持ち込み",
+        "大規模エンタープライズモノレポの深いコードベース理解",
+        "エンタープライズ管理：SSO、監査ログ、セルフホストオプション"
+      ],
+      "es": [
+        "Droids: agentes IA autónomos que programan, prueban, revisan y despliegan",
+        "droid CLI lidera Terminal-Bench (63,1%), el benchmark de agentes de terminal",
+        "Funciona en todas partes: terminal, IDE, Slack, Linear y el navegador",
+        "Trae tu propio modelo: Claude, GPT, Gemini o modelos abiertos vía BYOK",
+        "Comprensión profunda del código en grandes monorepos empresariales",
+        "Controles enterprise: SSO, registros de auditoría y opciones autoalojadas"
+      ],
+      "fr": [
+        "Droids : agents IA autonomes qui codent, testent, relisent et déploient",
+        "droid CLI en tête de Terminal-Bench (63,1 %), le benchmark des agents terminal",
+        "Fonctionne partout : terminal, IDE, Slack, Linear et navigateur",
+        "Apportez votre propre modèle — Claude, GPT, Gemini ou modèles ouverts via BYOK",
+        "Compréhension profonde du code sur les grands monorepos d'entreprise",
+        "Contrôles entreprise : SSO, journaux d'audit et options auto-hébergées"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "Free tier with bring-your-own-key (BYOK): use the droid CLI with your own model API keys at no platform cost",
+        "zh": "免费档支持自带密钥（BYOK）：用自己的模型 API 密钥使用 droid CLI，平台不收费",
+        "ja": "BYOK（自前キー持ち込み）の無料枠：自分のモデルAPIキーでdroid CLIをプラットフォーム費用なしで利用可能",
+        "es": "Nivel gratuito con tu propia clave (BYOK): usa la CLI droid con tus claves API de modelos sin coste de plataforma",
+        "fr": "Offre gratuite avec vos propres clés (BYOK) : utilisez la CLI droid avec vos clés API de modèles sans frais de plateforme"
+      },
+      "paid": {
+        "en": "Pro from $20/month with bundled tokens; higher tiers run $200–2,000/month for teams, overage around $2.7 per million tokens",
+        "zh": "Pro 20 美元/月起含代币额度；团队高档为 200–2000 美元/月，超量约 2.7 美元/百万代币",
+        "ja": "Proは月額20ドルからでトークン込み。チーム向け上位プランは月額200〜2,000ドル、超過分は100万トークンあたり約2.7ドル",
+        "es": "Pro desde 20 $/mes con tokens incluidos; niveles superiores de 200–2000 $/mes para equipos, exceso a ~2,7 $ por millón de tokens",
+        "fr": "Pro dès 20 $/mois avec jetons inclus ; paliers supérieurs de 200 à 2 000 $/mois pour les équipes, dépassement à ~2,7 $ par million de jetons"
+      }
+    },
+    "useCases": {
+      "en": [
+        "Delegating well-scoped coding tasks to autonomous agents",
+        "Large-scale refactors and migrations across big codebases",
+        "Automating incident response and ticket-to-PR workflows",
+        "Enterprise teams standardizing on agent-driven development"
+      ],
+      "zh": [
+        "把边界清晰的编码任务委派给自主智能体",
+        "跨大型代码库的大规模重构与迁移",
+        "自动化事故响应与工单到 PR 的工作流",
+        "在智能体驱动开发上做标准化的企业团队"
+      ],
+      "ja": [
+        "範囲が明確なコーディングタスクの自律エージェントへの委任",
+        "大規模コードベースを横断するリファクタリングと移行",
+        "インシデント対応やチケットからPRまでのワークフロー自動化",
+        "エージェント駆動開発を標準化するエンタープライズチーム"
+      ],
+      "es": [
+        "Delegar tareas de programación bien acotadas a agentes autónomos",
+        "Refactorizaciones y migraciones a gran escala en grandes bases de código",
+        "Automatizar respuesta a incidentes y flujos de ticket a PR",
+        "Equipos enterprise estandarizando el desarrollo dirigido por agentes"
+      ],
+      "fr": [
+        "Déléguer des tâches de codage bien cadrées à des agents autonomes",
+        "Refactorisations et migrations à grande échelle sur de grandes bases de code",
+        "Automatiser la réponse aux incidents et les workflows ticket-vers-PR",
+        "Équipes entreprise standardisant le développement piloté par agents"
+      ]
+    },
+    "pros": {
+      "en": [
+        "Benchmark-leading autonomous coding: #1 on Terminal-Bench",
+        "Model-agnostic BYOK approach avoids vendor lock-in",
+        "Meets developers where they work: CLI, IDE, Slack, Linear",
+        "Built for enterprise scale, not just demos"
+      ],
+      "zh": [
+        "自主编码基准领先：Terminal-Bench 第一名",
+        "模型无关的 BYOK 路线，避免供应商锁定",
+        "在开发者工作的地方就位：CLI、IDE、Slack、Linear",
+        "面向企业规模而建，不只是演示"
+      ],
+      "ja": [
+        "ベンチマーク首位の自律コーディング：Terminal-Benchで1位",
+        "モデル非依存のBYOKアプローチでベンダーロックインを回避",
+        "CLI、IDE、Slack、Linearなど開発者の仕事場に寄り添う",
+        "デモではなくエンタープライズ規模のために構築"
+      ],
+      "es": [
+        "Codificación autónoma líder en benchmarks: n.º 1 en Terminal-Bench",
+        "El enfoque BYOK agnóstico de modelos evita el lock-in",
+        "Está donde trabajan los desarrolladores: CLI, IDE, Slack, Linear",
+        "Construido para escala enterprise, no solo demos"
+      ],
+      "fr": [
+        "Codage autonome en tête des benchmarks : n° 1 sur Terminal-Bench",
+        "L'approche BYOK indépendante du modèle évite le verrouillage fournisseur",
+        "Présent là où travaillent les développeurs : CLI, IDE, Slack, Linear",
+        "Conçu pour l'échelle entreprise, pas seulement pour les démos"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Team pricing climbs steeply — up to $2,000/month tiers",
+        "Autonomous agents still need careful review on critical code",
+        "Less mindshare than Claude Code or Cursor among individuals",
+        "Fine-tuning agent behavior takes onboarding effort"
+      ],
+      "zh": [
+        "团队定价爬升很快——最高达 2000 美元/月档位",
+        "自主智能体在关键代码上仍需仔细审查",
+        "在个人开发者中的声量不及 Claude Code 或 Cursor",
+        "调校智能体行为需要一定上手成本"
+      ],
+      "ja": [
+        "チーム向け価格は急上昇し、月額2,000ドルのプランまで存在",
+        "自律エージェントでも重要コードは慎重なレビューが必要",
+        "個人開発者の間ではClaude CodeやCursorほどの知名度はない",
+        "エージェント挙動の調整にはオンボーディングの手間がかかる"
+      ],
+      "es": [
+        "Los precios de equipo escalan mucho: hasta niveles de 2000 $/mes",
+        "Los agentes autónomos aún requieren revisión cuidadosa en código crítico",
+        "Menos popularidad que Claude Code o Cursor entre individuos",
+        "Ajustar el comportamiento del agente requiere esfuerzo de adaptación"
+      ],
+      "fr": [
+        "Les tarifs équipe grimpent vite — jusqu'à des paliers de 2 000 $/mois",
+        "Les agents autonomes exigent encore une relecture attentive du code critique",
+        "Moins de notoriété que Claude Code ou Cursor chez les particuliers",
+        "Le réglage du comportement des agents demande un effort d'adaptation"
+      ]
+    },
+    "latestUpdate": {
+      "en": "2026: Factory's droid CLI holds the #1 spot on Terminal-Bench at 63.1%, and the platform expands from terminal and IDE into Slack, Linear and browser entry points with BYOM support",
+      "zh": "2026 年：Factory 的 droid CLI 以 63.1% 稳居 Terminal-Bench 榜首，平台从终端与 IDE 扩展到 Slack、Linear 与浏览器入口，并支持自带模型（BYOM）",
+      "ja": "2026年：Factoryのdroid CLIは63.1%でTerminal-Bench首位を維持。プラットフォームはターミナルとIDEからSlack、Linear、ブラウザへ拡大し、BYOMにも対応",
+      "es": "2026: la CLI droid de Factory mantiene el n.º 1 en Terminal-Bench con 63,1%, y la plataforma se expande del terminal e IDE hacia Slack, Linear y el navegador con soporte BYOM",
+      "fr": "2026 : la CLI droid de Factory conserve la 1re place de Terminal-Bench à 63,1 %, et la plateforme s'étend du terminal et de l'IDE vers Slack, Linear et le navigateur avec support BYOM"
+    },
+    "verdict": {
+      "badge": "Worth Trying",
+      "headline": {
+        "en": "The enterprise bet on fully autonomous coding agents",
+        "zh": "企业级全自主编码智能体的一注",
+        "ja": "完全自律型コーディングエージェントへのエンタープライズの賭け",
+        "es": "La apuesta enterprise por agentes de código totalmente autónomos",
+        "fr": "Le pari entreprise des agents de codage totalement autonomes"
+      },
+      "body": {
+        "en": "While Cursor and Claude Code refine the pair-programming loop, Factory is betting on delegation: hand a Droid a ticket and get back a tested pull request. The Terminal-Bench crown (63.1%) shows the agents are genuinely capable, and the BYOK free tier makes trying it low-risk. The catch is economics and trust — team pricing escalates fast, and letting agents ship code autonomously still demands mature review practices. Ambitious teams should pilot it; individuals may find better value in Claude Code.",
+        "zh": "当 Cursor 和 Claude Code 还在打磨结对编程闭环时，Factory 押注的是委派：把工单交给 Droid，收回一个测试过的 Pull Request。Terminal-Bench 榜首（63.1%）证明其智能体确有实力，BYOK 免费档也让试用几乎零风险。问题在于经济账与信任——团队定价攀升很快，而让智能体自主交付代码仍需要成熟的审查流程。有野心的团队值得试点；个人开发者可能在 Claude Code 上找到更高性价比。",
+        "ja": "CursorやClaude Codeがペアプログラミングのループを磨く一方、Factoryは委任に賭けている。Droidにチケットを渡せば、テスト済みのプルリクエストが返ってくる。Terminal-Bench首位（63.1%）はエージェントの実力を証明し、BYOK無料枠のおかげで試すリスクも低い。課題は経済性と信頼だ。チーム向け価格は急上昇し、エージェントに自律的なコード出荷を任せるには成熟したレビュー体制が要る。野心的なチームは試験導入すべきだが、個人はClaude Codeの方が割に合うかもしれない。",
+        "es": "Mientras Cursor y Claude Code refinan el bucle de pair programming, Factory apuesta por la delegación: entrega un ticket a un Droid y recibe un pull request probado. La corona de Terminal-Bench (63,1%) demuestra que los agentes son realmente capaces, y el nivel gratuito BYOK hace que probarlo sea de bajo riesgo. El problema es la economía y la confianza: los precios de equipo escalan rápido, y dejar que los agentes publiquen código autónomamente aún exige prácticas de revisión maduras. Los equipos ambiciosos deberían pilotarlo; los individuos quizá encuentren mejor valor en Claude Code.",
+        "fr": "Pendant que Cursor et Claude Code peaufinent la boucle de pair programming, Factory parie sur la délégation : confiez un ticket à un Droid et récupérez une pull request testée. La couronne de Terminal-Bench (63,1 %) prouve que les agents sont réellement capables, et l'offre gratuite BYOK rend l'essai peu risqué. Le hic : l'économie et la confiance — les tarifs équipe grimpent vite, et laisser des agents livrer du code de façon autonome exige encore des pratiques de revue matures. Les équipes ambitieuses devraient le tester ; les particuliers trouveront peut-être un meilleur rapport qualité-prix avec Claude Code."
+      },
+      "bestFor": {
+        "en": [
+          "Engineering teams delegating scoped tasks to autonomous agents",
+          "Enterprises running large-scale refactors and migrations",
+          "Developers wanting the top Terminal-Bench agent in their CLI"
+        ],
+        "zh": [
+          "把边界清晰任务委派给自主智能体的工程团队",
+          "进行大规模重构与迁移的企业",
+          "想在 CLI 里用上 Terminal-Bench 冠军智能体的开发者"
+        ],
+        "ja": [
+          "範囲明確なタスクを自律エージェントに委任するエンジニアリングチーム",
+          "大規模リファクタリングと移行を行うエンタープライズ",
+          "CLIでTerminal-Bench首位のエージェントを使いたい開発者"
+        ],
+        "es": [
+          "Equipos de ingeniería delegando tareas acotadas a agentes autónomos",
+          "Empresas ejecutando refactorizaciones y migraciones a gran escala",
+          "Desarrolladores que quieren el mejor agente de Terminal-Bench en su CLI"
+        ],
+        "fr": [
+          "Équipes d'ingénierie déléguant des tâches cadrées à des agents autonomes",
+          "Entreprises menant des refactorisations et migrations à grande échelle",
+          "Développeurs voulant le meilleur agent Terminal-Bench dans leur CLI"
+        ]
+      },
+      "considerAlternatives": {
+        "en": [
+          "You want an interactive pair-programming CLI (→ Claude Code)",
+          "You prefer a free, open-source local agent (→ Goose, OpenHands)"
+        ],
+        "zh": [
+          "你想要交互式结对编程 CLI（→ Claude Code）",
+          "你更想要免费开源的本地智能体（→ Goose、OpenHands）"
+        ],
+        "ja": [
+          "対話的なペアプログラミングCLIが欲しい（→ Claude Code）",
+          "無料でオープンソースのローカルエージェントが好み（→ Goose、OpenHands）"
+        ],
+        "es": [
+          "Quieres una CLI interactiva de pair programming (→ Claude Code)",
+          "Prefieres un agente local gratuito y open source (→ Goose, OpenHands)"
+        ],
+        "fr": [
+          "Vous voulez une CLI interactive de pair programming (→ Claude Code)",
+          "Vous préférez un agent local gratuit et open source (→ Goose, OpenHands)"
+        ]
+      }
+    }
+  },
+  "flowise": {
+    "features": {
+      "en": [
+        "Three visual builders: Assistant, Chatflow and Agentflow for rising complexity",
+        "Drag-and-drop canvas to compose LLMs, tools, memory and RAG pipelines",
+        "Open source and self-hostable, or fully managed Flowise Cloud",
+        "Embed chatbots into any site with a script snippet, or call via API/SDK",
+        "Works with 100+ LLMs, vector stores and integrations",
+        "Human-in-the-loop review steps and multi-agent orchestration"
+      ],
+      "zh": [
+        "三种可视化编排器：Assistant、Chatflow、Agentflow，复杂度逐级递进",
+        "拖拽画布组合 LLM、工具、记忆与 RAG 流水线",
+        "开源可自托管，也提供全托管 Flowise Cloud",
+        "一段脚本即可把聊天机器人嵌入任意网站，或经 API/SDK 调用",
+        "支持 100+ LLM、向量库与集成",
+        "支持人工审核环节与多智能体编排"
+      ],
+      "ja": [
+        "3種のビジュアルビルダー：複雑度に応じたAssistant、Chatflow、Agentflow",
+        "ドラッグ＆ドロップのキャンバスでLLM、ツール、メモリ、RAGパイプラインを構成",
+        "オープンソースでセルフホスト可能、フルマネージドのFlowise Cloudも提供",
+        "スクリプト1つでチャットボットを任意のサイトに埋め込み、API/SDK呼び出しも可能",
+        "100以上のLLM、ベクトルストア、統合に対応",
+        "人間によるレビューステップとマルチエージェントオーケストレーション"
+      ],
+      "es": [
+        "Tres constructores visuales: Assistant, Chatflow y Agentflow según complejidad",
+        "Lienzo de arrastrar y soltar para componer LLMs, herramientas, memoria y pipelines RAG",
+        "Open source y autoalojable, o Flowise Cloud totalmente gestionado",
+        "Integra chatbots en cualquier sitio con un snippet, o llama vía API/SDK",
+        "Funciona con más de 100 LLMs, almacenes vectoriales e integraciones",
+        "Pasos de revisión humana y orquestación multiagente"
+      ],
+      "fr": [
+        "Trois éditeurs visuels : Assistant, Chatflow et Agentflow selon la complexité",
+        "Canevas glisser-déposer pour composer LLM, outils, mémoire et pipelines RAG",
+        "Open source et auto-hébergeable, ou Flowise Cloud entièrement géré",
+        "Intégrez des chatbots sur tout site via un snippet, ou appelez via API/SDK",
+        "Compatible avec plus de 100 LLM, bases vectorielles et intégrations",
+        "Étapes de validation humaine et orchestration multi-agents"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "Self-hosting the open-source version is free; Flowise Cloud Free tier includes 2 flows and 100 predictions/month",
+        "zh": "自托管开源版免费；Flowise Cloud 免费档含 2 个流程与每月 100 次预测",
+        "ja": "オープンソース版のセルフホストは無料。Flowise Cloud無料枠は2フローと月100予測を含む",
+        "es": "Autoalojar la versión open source es gratis; el nivel Free de Flowise Cloud incluye 2 flujos y 100 predicciones/mes",
+        "fr": "L'auto-hébergement de la version open source est gratuit ; l'offre Free de Flowise Cloud inclut 2 flux et 100 prédictions/mois"
+      },
+      "paid": {
+        "en": "Flowise Cloud Starter $35/month, Pro $65/month with more flows, predictions and storage; enterprise plans on request",
+        "zh": "Flowise Cloud Starter 35 美元/月，Pro 65 美元/月，含更多流程、预测与存储；企业方案需联系咨询",
+        "ja": "Flowise Cloud Starterは月額35ドル、Proは月額65ドルでフロー・予測・ストレージが増量。エンタープライズは要問い合わせ",
+        "es": "Flowise Cloud Starter 35 $/mes, Pro 65 $/mes con más flujos, predicciones y almacenamiento; planes enterprise bajo consulta",
+        "fr": "Flowise Cloud Starter 35 $/mois, Pro 65 $/mois avec plus de flux, prédictions et stockage ; offres entreprise sur demande"
+      }
+    },
+    "useCases": {
+      "en": [
+        "Teams prototyping agent workflows without writing orchestration code",
+        "Embedding a RAG chatbot into a website or internal portal",
+        "Agencies delivering custom AI assistants for clients",
+        "Self-hosted LLM apps where data must stay on your infrastructure"
+      ],
+      "zh": [
+        "不写编排代码即可原型验证智能体工作流的团队",
+        "把 RAG 聊天机器人嵌入网站或内部门户",
+        "为客户交付定制 AI 助手的代理公司",
+        "数据必须留在自有基础设施上的自托管 LLM 应用"
+      ],
+      "ja": [
+        "オーケストレーションコードを書かずにエージェントワークフローを試作するチーム",
+        "RAGチャットボットのWebサイトや社内ポータルへの埋め込み",
+        "クライアント向けカスタムAIアシスタントを提供する制作会社",
+        "データを自社インフラに保持すべきセルフホストLLMアプリ"
+      ],
+      "es": [
+        "Equipos prototipando flujos de agentes sin escribir código de orquestación",
+        "Integración de un chatbot RAG en un sitio web o portal interno",
+        "Agencias entregando asistentes IA personalizados a clientes",
+        "Apps LLM autoalojadas donde los datos deben quedarse en tu infraestructura"
+      ],
+      "fr": [
+        "Équipes prototypant des workflows d'agents sans écrire de code d'orchestration",
+        "Intégration d'un chatbot RAG dans un site web ou portail interne",
+        "Agences livrant des assistants IA sur mesure à leurs clients",
+        "Apps LLM auto-hébergées où les données doivent rester sur votre infrastructure"
+      ]
+    },
+    "pros": {
+      "en": [
+        "Fastest path from idea to working agent for non-coders",
+        "Genuinely open source with ~40k GitHub stars and an active community",
+        "Three-tier builder design scales from simple bots to multi-agent systems",
+        "Self-hosting keeps sensitive data fully under your control"
+      ],
+      "zh": [
+        "对不写代码的人而言，从想法到可用智能体的最快路径",
+        "真正开源，GitHub 约 4 万星标，社区活跃",
+        "三级编排器设计可从简单机器人扩展到多智能体系统",
+        "自托管让敏感数据完全掌握在自己手中"
+      ],
+      "ja": [
+        "非エンジニアにとってアイデアから動くエージェントへの最速ルート",
+        "GitHubで約4万スターの真のオープンソースで活発なコミュニティ",
+        "3層ビルダー設計でシンプルなボットからマルチエージェントシステムまで拡張",
+        "セルフホストで機密データを完全に自社管理"
+      ],
+      "es": [
+        "El camino más rápido de la idea al agente funcional para quienes no programan",
+        "Genuinamente open source con ~40k estrellas en GitHub y comunidad activa",
+        "El diseño de tres niveles escala de bots simples a sistemas multiagente",
+        "El autoalojamiento mantiene los datos sensibles bajo tu control"
+      ],
+      "fr": [
+        "Le chemin le plus rapide de l'idée à l'agent fonctionnel sans coder",
+        "Véritablement open source avec ~40k étoiles GitHub et une communauté active",
+        "La conception à trois niveaux va des bots simples aux systèmes multi-agents",
+        "L'auto-hébergement garde les données sensibles sous votre contrôle"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Visual flows get hard to maintain as complexity grows",
+        "Less fine-grained control than code-first frameworks like LangGraph",
+        "Cloud free tier is tight: 2 flows and 100 predictions/month",
+        "Version upgrades occasionally break existing flows"
+      ],
+      "zh": [
+        "复杂度上升后可视化流程会变得难以维护",
+        "精细控制不如 LangGraph 等代码优先框架",
+        "云端免费档偏紧：2 个流程、每月 100 次预测",
+        "版本升级偶尔会破坏既有流程"
+      ],
+      "ja": [
+        "複雑化するとビジュアルフローの保守が難しくなる",
+        "LangGraphなどコードファーストのフレームワークより細かい制御は苦手",
+        "クラウド無料枠は控えめ：2フロー、月100予測",
+        "バージョンアップで既存フローが壊れることが時々ある"
+      ],
+      "es": [
+        "Los flujos visuales se vuelven difíciles de mantener al crecer la complejidad",
+        "Menos control fino que frameworks code-first como LangGraph",
+        "El nivel gratuito de la nube es ajustado: 2 flujos y 100 predicciones/mes",
+        "Las actualizaciones de versión a veces rompen flujos existentes"
+      ],
+      "fr": [
+        "Les flux visuels deviennent durs à maintenir quand la complexité augmente",
+        "Contrôle moins fin que les frameworks code-first comme LangGraph",
+        "Offre gratuite cloud limitée : 2 flux et 100 prédictions/mois",
+        "Les montées de version cassent parfois les flux existants"
+      ]
+    },
+    "latestUpdate": {
+      "en": "2026: Flowise's Agentflow builder matures with human-in-the-loop steps and deeper multi-agent orchestration, cementing its place as the leading open-source visual agent platform (~40k GitHub stars)",
+      "zh": "2026 年：Flowise 的 Agentflow 编排器日趋成熟，加入人工审核环节与更深的多智能体编排，稳固其头部开源可视化智能体平台地位（GitHub 约 4 万星标）",
+      "ja": "2026年：FlowiseのAgentflowビルダーが成熟し、人間のレビューステップとより深いマルチエージェントオーケストレーションを追加。主要オープンソースビジュアルエージェントプラットフォームの地位を固める（GitHub約4万スター）",
+      "es": "2026: el constructor Agentflow de Flowise madura con pasos de revisión humana y orquestación multiagente más profunda, consolidándose como la plataforma visual open source líder (~40k estrellas GitHub)",
+      "fr": "2026 : le builder Agentflow de Flowise mûrit avec des étapes de validation humaine et une orchestration multi-agents plus poussée, confortant sa place de première plateforme visuelle open source (~40k étoiles GitHub)"
+    },
+    "verdict": {
+      "badge": "Recommended",
+      "headline": {
+        "en": "The open-source way to build agents without code",
+        "zh": "不写代码构建智能体的开源之道",
+        "ja": "コードを書かずにエージェントを作るオープンソースの道",
+        "es": "La vía open source para crear agentes sin código",
+        "fr": "La voie open source pour créer des agents sans coder"
+      },
+      "body": {
+        "en": "Flowise occupies a sweet spot: more capable than closed no-code bot builders, more approachable than code-first frameworks. The drag-and-drop canvas genuinely works for RAG chatbots and moderately complex agent flows, and the option to self-host — with roughly 40k GitHub stars behind it — means you are never locked in. Just know its limits: past a certain complexity, visual graphs become their own kind of spaghetti, and serious engineering teams will eventually want LangGraph or Mastra underneath.",
+        "zh": "Flowise 占据了一个绝佳位置：比封闭的无代码机器人搭建器更强大，比代码优先框架更易上手。拖拽画布对 RAG 聊天机器人和中等复杂度的智能体流程真正可用，而可自托管的选项——背后有约 4 万 GitHub 星标——意味着你永远不会被锁死。但要清楚它的边界：复杂度超过某个临界点后，可视化图谱会变成另一种意面代码，认真做工程的团队最终还是会想在底层用 LangGraph 或 Mastra。",
+        "ja": "Flowiseは絶妙な位置にいる。クローズドなノーコードボットビルダーより高機能で、コードファーストのフレームワークより取っつきやすい。ドラッグ＆ドロップのキャンバスはRAGチャットボットや中程度の複雑さのエージェントフローに本当に使え、セルフホストの選択肢（GitHub約4万スターの実績付き）はロックインされない安心をくれる。ただし限界も知っておくべきだ。ある複雑度を超えるとビジュアルグラフは別種のスパゲッティと化し、本格的なエンジニアリングチームは最終的にLangGraphやMastraを求めることになる。",
+        "es": "Flowise ocupa un punto dulce: más capaz que los constructores de bots no-code cerrados, más accesible que los frameworks code-first. El lienzo de arrastrar y soltar funciona de verdad para chatbots RAG y flujos de agentes de complejidad media, y la opción de autoalojarlo —con unas 40k estrellas en GitHub— significa que nunca estás atrapado. Solo conoce sus límites: pasada cierta complejidad, los grafos visuales se vuelven su propio espagueti, y los equipos serios de ingeniería acabarán queriendo LangGraph o Mastra debajo.",
+        "fr": "Flowise occupe une position idéale : plus capable que les constructeurs de bots no-code fermés, plus abordable que les frameworks code-first. Le canevas glisser-déposer fonctionne vraiment pour les chatbots RAG et les flux d'agents moyennement complexes, et l'option d'auto-hébergement — forte d'environ 40k étoiles GitHub — garantit de ne jamais être enfermé. Connaissez toutefois ses limites : au-delà d'une certaine complexité, les graphes visuels deviennent leur propre spaghetti, et les équipes d'ingénierie sérieuses finiront par vouloir LangGraph ou Mastra en dessous."
+      },
+      "bestFor": {
+        "en": [
+          "Non-developers and product teams building agent prototypes",
+          "Embedding RAG chatbots into websites quickly",
+          "Organizations needing self-hosted, data-sovereign LLM apps"
+        ],
+        "zh": [
+          "构建智能体原型的非开发者与产品团队",
+          "快速把 RAG 聊天机器人嵌入网站",
+          "需要自托管、数据主权 LLM 应用的组织"
+        ],
+        "ja": [
+          "エージェントのプロトタイプを作る非開発者・プロダクトチーム",
+          "RAGチャットボットをWebサイトへ素早く埋め込みたい場合",
+          "セルフホストでデータ主権を守るLLMアプリが必要な組織"
+        ],
+        "es": [
+          "No desarrolladores y equipos de producto creando prototipos de agentes",
+          "Integración rápida de chatbots RAG en sitios web",
+          "Organizaciones que necesitan apps LLM autoalojadas con soberanía de datos"
+        ],
+        "fr": [
+          "Non-développeurs et équipes produit créant des prototypes d'agents",
+          "Intégration rapide de chatbots RAG sur des sites web",
+          "Organisations nécessitant des apps LLM auto-hébergées et souveraines"
+        ]
+      },
+      "considerAlternatives": {
+        "en": [
+          "You need code-level control and testing (→ LangGraph, Mastra)",
+          "You want an all-in-one LLMOps platform with app hosting (→ Dify)"
+        ],
+        "zh": [
+          "你需要代码级控制与测试（→ LangGraph、Mastra）",
+          "你想要带应用托管的一体化 LLMOps 平台（→ Dify）"
+        ],
+        "ja": [
+          "コードレベルの制御とテストが必要（→ LangGraph、Mastra）",
+          "アプリホスティング込みのオールインワンLLMOpsプラットフォームが欲しい（→ Dify）"
+        ],
+        "es": [
+          "Necesitas control y pruebas a nivel de código (→ LangGraph, Mastra)",
+          "Quieres una plataforma LLMOps todo en uno con hosting de apps (→ Dify)"
+        ],
+        "fr": [
+          "Vous avez besoin de contrôle et de tests au niveau du code (→ LangGraph, Mastra)",
+          "Vous voulez une plateforme LLMOps tout-en-un avec hébergement d'apps (→ Dify)"
+        ]
+      }
+    }
+  },
+  "goose": {
+    "features": {
+      "en": [
+        "Open-source AI agent that runs locally: desktop app (macOS/Linux/Windows) plus CLI",
+        "Built in Rust for a fast, lightweight on-machine experience",
+        "15+ LLM providers, and ACP support reuses your Claude/ChatGPT/Gemini subscriptions",
+        "70+ MCP extensions to connect editors, browsers, databases and more",
+        "MCP Apps render interactive UI inside conversations",
+        "Originally built by Block, now governed by the Linux Foundation's AAIF"
+      ],
+      "zh": [
+        "本地运行的开源 AI 智能体：桌面端（macOS/Linux/Windows）加 CLI",
+        "Rust 构建，机上体验快速轻量",
+        "支持 15+ LLM 供应商，ACP 支持可复用你的 Claude/ChatGPT/Gemini 订阅",
+        "70+ MCP 扩展，连接编辑器、浏览器、数据库等",
+        "MCP Apps 可在对话中渲染交互式 UI",
+        "由 Block 打造，现归 Linux 基金会 AAIF 治理"
+      ],
+      "ja": [
+        "ローカルで動くオープンソースAIエージェント：デスクトップアプリ（macOS/Linux/Windows）とCLI",
+        "Rust製で高速・軽量なオンマシン体験",
+        "15以上のLLMプロバイダーに対応、ACPでClaude/ChatGPT/Geminiのサブスクを再利用可能",
+        "70以上のMCP拡張でエディタ、ブラウザ、データベースなどに接続",
+        "MCP Appsが会話内にインタラクティブUIを描画",
+        "Blockが開発し、現在はLinux FoundationのAAIFが管理"
+      ],
+      "es": [
+        "Agente IA open source que corre localmente: app de escritorio (macOS/Linux/Windows) más CLI",
+        "Construido en Rust para una experiencia local rápida y ligera",
+        "Más de 15 proveedores de LLM, y el soporte ACP reutiliza tus suscripciones de Claude/ChatGPT/Gemini",
+        "Más de 70 extensiones MCP para conectar editores, navegadores, bases de datos y más",
+        "MCP Apps renderiza interfaces interactivas dentro de las conversaciones",
+        "Creado por Block, ahora gobernado por la AAIF de la Linux Foundation"
+      ],
+      "fr": [
+        "Agent IA open source exécuté localement : app de bureau (macOS/Linux/Windows) plus CLI",
+        "Construit en Rust pour une expérience locale rapide et légère",
+        "Plus de 15 fournisseurs LLM, et le support ACP réutilise vos abonnements Claude/ChatGPT/Gemini",
+        "Plus de 70 extensions MCP pour connecter éditeurs, navigateurs, bases de données et plus",
+        "MCP Apps affiche des interfaces interactives dans les conversations",
+        "Créé par Block, désormais gouverné par l'AAIF de la Linux Foundation"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "Completely free and open source (Apache 2.0): you pay only your LLM provider, or run fully free with local models via Ollama; ACP support can reuse existing AI subscriptions",
+        "zh": "完全免费开源（Apache 2.0）：只需向 LLM 供应商付费，或经 Ollama 用本地模型全程免费；ACP 支持还能复用已有 AI 订阅",
+        "ja": "完全無料のオープンソース（Apache 2.0）：LLMプロバイダーへの支払いのみで、Ollama経由のローカルモデルなら完全無料。ACP対応で既存のAIサブスクも再利用可能",
+        "es": "Completamente gratuito y open source (Apache 2.0): solo pagas a tu proveedor de LLM, o corre totalmente gratis con modelos locales vía Ollama; el soporte ACP puede reutilizar suscripciones IA existentes",
+        "fr": "Entièrement gratuit et open source (Apache 2.0) : vous ne payez que votre fournisseur LLM, ou utilisez-le gratuitement avec des modèles locaux via Ollama ; le support ACP peut réutiliser vos abonnements IA existants"
+      }
+    },
+    "useCases": {
+      "en": [
+        "Local coding agent that keeps code and data on your machine",
+        "Automating engineering tasks from the desktop app or CLI",
+        "Connecting an agent to internal tools through MCP extensions",
+        "Fully offline agent workflows with Ollama local models"
+      ],
+      "zh": [
+        "把代码与数据留在本机的本地编码智能体",
+        "从桌面端或 CLI 自动化工程任务",
+        "通过 MCP 扩展把智能体接入内部工具",
+        "配合 Ollama 本地模型的完全离线智能体工作流"
+      ],
+      "ja": [
+        "コードとデータを自分のマシンに保持するローカルコーディングエージェント",
+        "デスクトップアプリやCLIからのエンジニアリングタスク自動化",
+        "MCP拡張によるエージェントと社内ツールの接続",
+        "Ollamaローカルモデルでの完全オフラインなエージェントワークフロー"
+      ],
+      "es": [
+        "Agente de código local que mantiene código y datos en tu máquina",
+        "Automatización de tareas de ingeniería desde la app de escritorio o CLI",
+        "Conexión de un agente a herramientas internas mediante extensiones MCP",
+        "Flujos de agente totalmente offline con modelos locales de Ollama"
+      ],
+      "fr": [
+        "Agent de codage local gardant code et données sur votre machine",
+        "Automatisation de tâches d'ingénierie depuis l'app de bureau ou la CLI",
+        "Connexion d'un agent aux outils internes via les extensions MCP",
+        "Workflows d'agent totalement hors ligne avec les modèles locaux Ollama"
+      ]
+    },
+    "pros": {
+      "en": [
+        "Truly free: no platform fees, no seat licenses, ever",
+        "Local-first design keeps sensitive code off third-party clouds",
+        "Vendor-neutral governance under the Linux Foundation AAIF",
+        "Desktop app makes agents accessible beyond terminal users"
+      ],
+      "zh": [
+        "真正免费：没有平台费，也没有席位授权",
+        "本地优先设计，敏感代码不上第三方云",
+        "Linux 基金会 AAIF 治理，厂商中立",
+        "桌面端让终端之外的用户也能用上智能体"
+      ],
+      "ja": [
+        "本当に無料：プラットフォーム料金もシートライセンスも一切なし",
+        "ローカルファースト設計で機密コードをサードパーティクラウドに出さない",
+        "Linux Foundation AAIFの下でベンダー中立なガバナンス",
+        "デスクトップアプリでターミナルユーザー以外にもエージェントを提供"
+      ],
+      "es": [
+        "Verdaderamente gratuito: sin cuotas de plataforma ni licencias por puesto",
+        "El diseño local-first mantiene el código sensible fuera de nubes de terceros",
+        "Gobernanza neutral bajo la AAIF de la Linux Foundation",
+        "La app de escritorio acerca los agentes a usuarios más allá del terminal"
+      ],
+      "fr": [
+        "Vraiment gratuit : aucun frais de plateforme ni licence par siège",
+        "La conception local-first garde le code sensible hors des clouds tiers",
+        "Gouvernance neutre sous l'AAIF de la Linux Foundation",
+        "L'app de bureau rend les agents accessibles au-delà du terminal"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Output quality depends entirely on the model you connect",
+        "No hosted cloud service — you manage setup and updates",
+        "Less polished than commercial rivals like Claude Code or Cursor",
+        "Governance transition from Block to AAIF is still recent"
+      ],
+      "zh": [
+        "输出质量完全取决于你接入的模型",
+        "没有托管云服务——安装与更新需自行管理",
+        "打磨程度不及 Claude Code、Cursor 等商业竞品",
+        "从 Block 到 AAIF 的治理交接仍较新"
+      ],
+      "ja": [
+        "出力品質は接続するモデルに完全に依存",
+        "ホスト型クラウドサービスはなく、セットアップと更新は自己管理",
+        "Claude CodeやCursorなど商用ライバルほどの洗練度はない",
+        "BlockからAAIFへのガバナンス移行はまだ日が浅い"
+      ],
+      "es": [
+        "La calidad de salida depende por completo del modelo que conectes",
+        "Sin servicio cloud gestionado: tú gestionas instalación y actualizaciones",
+        "Menos pulido que rivales comerciales como Claude Code o Cursor",
+        "La transición de gobernanza de Block a la AAIF aún es reciente"
+      ],
+      "fr": [
+        "La qualité de sortie dépend entièrement du modèle connecté",
+        "Pas de service cloud géré — vous gérez l'installation et les mises à jour",
+        "Moins abouti que les rivaux commerciaux comme Claude Code ou Cursor",
+        "La transition de gouvernance de Block vers l'AAIF est encore récente"
+      ]
+    },
+    "latestUpdate": {
+      "en": "2026: Goose moves from Block to the Linux Foundation's Agentic AI Foundation (AAIF) for neutral governance, adds ACP support to reuse Claude/ChatGPT/Gemini subscriptions, and ships MCP Apps interactive UI",
+      "zh": "2026 年：Goose 从 Block 移交 Linux 基金会智能体 AI 基金会（AAIF）实现中立治理，新增 ACP 支持复用 Claude/ChatGPT/Gemini 订阅，并推出 MCP Apps 交互式 UI",
+      "ja": "2026年：GooseはBlockからLinux FoundationのAgentic AI Foundation（AAIF）へ移管され中立ガバナンスに。Claude/ChatGPT/Geminiサブスクを再利用できるACP対応とMCP AppsインタラクティブUIを追加",
+      "es": "2026: Goose pasa de Block a la Agentic AI Foundation (AAIF) de la Linux Foundation para una gobernanza neutral, añade soporte ACP para reutilizar suscripciones de Claude/ChatGPT/Gemini y lanza la interfaz interactiva MCP Apps",
+      "fr": "2026 : Goose passe de Block à l'Agentic AI Foundation (AAIF) de la Linux Foundation pour une gouvernance neutre, ajoute le support ACP réutilisant les abonnements Claude/ChatGPT/Gemini et lance l'interface interactive MCP Apps"
+    },
+    "verdict": {
+      "badge": "Recommended",
+      "headline": {
+        "en": "The free, local-first agent that respects your machine and your wallet",
+        "zh": "尊重你的机器与钱包的免费本地优先智能体",
+        "ja": "あなたのマシンと財布を尊重する無料のローカルファーストエージェント",
+        "es": "El agente local-first y gratuito que respeta tu máquina y tu bolsillo",
+        "fr": "L'agent local-first et gratuit qui respecte votre machine et votre portefeuille"
+      },
+      "body": {
+        "en": "Goose answers a question many developers quietly ask: why pay a platform fee for an agent when the intelligence comes from the model anyway? It runs on your machine, connects to 15+ providers — or reuses the Claude/ChatGPT subscription you already pay for via ACP — and extends through 70+ MCP integrations. The move to Linux Foundation governance removes single-vendor risk. It demands more setup than commercial tools and its ceiling is your chosen model, but as free agents go, nothing else is this complete.",
+        "zh": "Goose 回答了许多开发者默默在想的问题：智能反正来自模型，为什么还要为智能体平台付费？它跑在你的本机上，接入 15+ 供应商——或经 ACP 复用你已付费的 Claude/ChatGPT 订阅——并通过 70+ MCP 集成扩展能力。移交 Linux 基金会治理也消除了单一厂商风险。它比商业工具需要更多配置，上限也取决于你选的模型，但就免费智能体而言，没有比它更完整的了。",
+        "ja": "Gooseは多くの開発者が密かに抱く疑問に答える。知能はどのみちモデル由来なのに、なぜエージェントのプラットフォーム料金を払うのか？自分のマシンで動き、15以上のプロバイダーに接続でき、ACP経由なら支払い済みのClaude/ChatGPTサブスクも再利用可能。70以上のMCP統合で拡張もできる。Linux Foundationへの移管で単一ベンダーリスクも解消された。商用ツールよりセットアップの手間はかかり、上限は選んだモデル次第だが、無料エージェントとしてこれほど完成されたものは他にない。",
+        "es": "Goose responde a una pregunta que muchos desarrolladores se hacen en silencio: ¿por qué pagar una cuota de plataforma por un agente si la inteligencia viene del modelo? Corre en tu máquina, se conecta a más de 15 proveedores —o reutiliza vía ACP la suscripción de Claude/ChatGPT que ya pagas— y se extiende con más de 70 integraciones MCP. El paso a la gobernanza de la Linux Foundation elimina el riesgo de proveedor único. Exige más configuración que las herramientas comerciales y su techo es el modelo que elijas, pero entre los agentes gratuitos, ninguno es tan completo.",
+        "fr": "Goose répond à une question que beaucoup de développeurs se posent en silence : pourquoi payer des frais de plateforme pour un agent alors que l'intelligence vient du modèle ? Il tourne sur votre machine, se connecte à plus de 15 fournisseurs — ou réutilise via ACP l'abonnement Claude/ChatGPT que vous payez déjà — et s'étend grâce à plus de 70 intégrations MCP. Le passage à la gouvernance de la Linux Foundation élimine le risque de fournisseur unique. Il demande plus de configuration que les outils commerciaux et son plafond dépend du modèle choisi, mais parmi les agents gratuits, aucun n'est aussi complet."
+      },
+      "bestFor": {
+        "en": [
+          "Developers wanting a capable agent with zero platform fees",
+          "Privacy-conscious teams keeping code on local machines",
+          "Tinkerers combining local Ollama models with MCP extensions"
+        ],
+        "zh": [
+          "想要零平台费强力智能体的开发者",
+          "把代码留在本地机器的隐私敏感团队",
+          "把 Ollama 本地模型与 MCP 扩展组合把玩的爱好者"
+        ],
+        "ja": [
+          "プラットフォーム料金ゼロで有能なエージェントが欲しい開発者",
+          "コードをローカルマシンに保持するプライバシー重視のチーム",
+          "OllamaローカルモデルとMCP拡張を組み合わせて遊ぶ愛好家"
+        ],
+        "es": [
+          "Desarrolladores que quieren un agente capaz sin cuotas de plataforma",
+          "Equipos conscientes de la privacidad que mantienen el código en local",
+          "Entusiastas combinando modelos locales de Ollama con extensiones MCP"
+        ],
+        "fr": [
+          "Développeurs voulant un agent capable sans frais de plateforme",
+          "Équipes soucieuses de confidentialité gardant le code en local",
+          "Bricoleurs combinant modèles locaux Ollama et extensions MCP"
+        ]
+      },
+      "considerAlternatives": {
+        "en": [
+          "You want a top-tier polished coding CLI (→ Claude Code)",
+          "You need a hosted, managed agent platform (→ Factory, Devin)"
+        ],
+        "zh": [
+          "你想要顶级打磨的编码 CLI（→ Claude Code）",
+          "你需要托管的智能体平台（→ Factory、Devin）"
+        ],
+        "ja": [
+          "最高級に磨かれたコーディングCLIが欲しい（→ Claude Code）",
+          "ホスト型のマネージドエージェントプラットフォームが必要（→ Factory、Devin）"
+        ],
+        "es": [
+          "Quieres una CLI de código pulida de primer nivel (→ Claude Code)",
+          "Necesitas una plataforma de agentes gestionada (→ Factory, Devin)"
+        ],
+        "fr": [
+          "Vous voulez une CLI de codage haut de gamme (→ Claude Code)",
+          "Vous avez besoin d'une plateforme d'agents gérée (→ Factory, Devin)"
+        ]
+      }
+    }
+  },
+  "langgraph": {
+    "features": {
+      "en": [
+        "Graph-based orchestration: model agent steps as nodes and edges with full control over state",
+        "Durable execution and checkpointing: workflows resume exactly where they failed",
+        "First-class human-in-the-loop: interrupt, inspect and resume agent runs",
+        "LangGraph Platform: one-click deployment with built-in LangSmith observability",
+        "Python and JavaScript/TypeScript SDKs with feature parity",
+        "Battle-tested in production at companies like Uber, LinkedIn and Klarna"
+      ],
+      "zh": [
+        "图编排：以节点和边建模智能体步骤，状态完全可控",
+        "持久执行与检查点：工作流可从失败处精确恢复",
+        "一等公民的人类介入：可中断、检查并恢复智能体运行",
+        "LangGraph Platform：一键部署，内置 LangSmith 可观测性",
+        "Python 与 JavaScript/TypeScript SDK 功能对齐",
+        "已在 Uber、LinkedIn、Klarna 等公司生产环境验证"
+      ],
+      "ja": [
+        "グラフベースのオーケストレーション：エージェントのステップをノードとエッジでモデル化し、状態を完全制御",
+        "永続実行とチェックポイント：ワークフローは失敗した地点から正確に再開",
+        "ヒューマンインザループを一級市民として提供：実行の中断・検査・再開が可能",
+        "LangGraph Platform：ワンクリックデプロイ、LangSmith可観測性を内蔵",
+        "PythonとJavaScript/TypeScript SDKが機能同等",
+        "Uber、LinkedIn、Klarnaなどの本番環境で実証済み"
+      ],
+      "es": [
+        "Orquestación en grafo: modela los pasos del agente como nodos y aristas con control total del estado",
+        "Ejecución durable y checkpoints: los flujos se reanudan exactamente donde fallaron",
+        "Humano en el bucle de primera clase: interrumpe, inspecciona y reanuda ejecuciones",
+        "LangGraph Platform: despliegue en un clic con observabilidad LangSmith integrada",
+        "SDKs de Python y JavaScript/TypeScript con paridad de funciones",
+        "Probado en producción en empresas como Uber, LinkedIn y Klarna"
+      ],
+      "fr": [
+        "Orchestration en graphe : modélisez les étapes de l'agent en nœuds et arêtes avec un contrôle total de l'état",
+        "Exécution durable et checkpoints : les workflows reprennent exactement là où ils ont échoué",
+        "Humain dans la boucle de premier ordre : interrompre, inspecter et reprendre les exécutions",
+        "LangGraph Platform : déploiement en un clic avec observabilité LangSmith intégrée",
+        "SDK Python et JavaScript/TypeScript à parité fonctionnelle",
+        "Éprouvé en production chez Uber, LinkedIn et Klarna"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "Open-source framework is free (MIT license): build and self-host stateful agents, paying only your LLM providers; LangSmith Developer tier is free for solo use",
+        "zh": "开源框架免费（MIT 协议）：自建自托管有状态智能体，只需向 LLM 供应商付费；LangSmith Developer 档对个人免费",
+        "ja": "オープンソースフレームワークは無料（MITライセンス）：ステートフルエージェントを構築・セルフホストし、LLMプロバイダーへの支払いのみ。LangSmith Developerプランは個人利用無料",
+        "es": "El framework open source es gratuito (licencia MIT): crea y autoaloja agentes con estado pagando solo a tus proveedores de LLM; el nivel Developer de LangSmith es gratis para uso individual",
+        "fr": "Le framework open source est gratuit (licence MIT) : créez et auto-hébergez des agents avec état en ne payant que vos fournisseurs LLM ; l'offre Developer de LangSmith est gratuite en solo"
+      },
+      "paid": {
+        "en": "LangGraph Platform deployment via LangSmith Plus at $39/seat/month plus usage-based node execution fees; Enterprise plans with custom pricing",
+        "zh": "LangGraph Platform 部署经 LangSmith Plus 订阅（$39/席/月）另加按节点执行量计费；企业版定制报价",
+        "ja": "LangGraph PlatformのデプロイはLangSmith Plus（$39/シート/月）＋ノード実行量に応じた従量課金。エンタープライズプランは個別見積もり",
+        "es": "Despliegue en LangGraph Platform vía LangSmith Plus a 39 $/asiento/mes más tarifas por ejecución de nodos; planes Enterprise con precio a medida",
+        "fr": "Déploiement LangGraph Platform via LangSmith Plus à 39 $/siège/mois plus facturation à l'exécution de nœuds ; offres Enterprise sur devis"
+      }
+    },
+    "useCases": {
+      "en": [
+        "Complex stateful agents with branching, loops and retries",
+        "Long-running workflows that must survive failures",
+        "Approval flows requiring human review mid-run",
+        "Production multi-agent systems with strict observability needs"
+      ],
+      "zh": [
+        "带分支、循环与重试的复杂有状态智能体",
+        "必须在故障后存活的长时间运行工作流",
+        "运行中需人工审核的审批流",
+        "有严格可观测性要求的生产级多智能体系统"
+      ],
+      "ja": [
+        "分岐・ループ・リトライを含む複雑なステートフルエージェント",
+        "障害を乗り越える必要のある長時間実行ワークフロー",
+        "実行途中で人間のレビューが必要な承認フロー",
+        "厳格な可観測性が求められる本番マルチエージェントシステム"
+      ],
+      "es": [
+        "Agentes con estado complejos con ramas, bucles y reintentos",
+        "Flujos de larga duración que deben sobrevivir a fallos",
+        "Flujos de aprobación con revisión humana a mitad de ejecución",
+        "Sistemas multiagente en producción con necesidades estrictas de observabilidad"
+      ],
+      "fr": [
+        "Agents à état complexes avec branches, boucles et reprises",
+        "Workflows de longue durée devant survivre aux pannes",
+        "Flux d'approbation nécessitant une revue humaine en cours d'exécution",
+        "Systèmes multi-agents en production aux exigences strictes d'observabilité"
+      ]
+    },
+    "pros": {
+      "en": [
+        "Finest-grained control of any mainstream agent framework",
+        "Durable execution and checkpointing are genuinely production-grade",
+        "Huge ecosystem via LangChain integrations and LangSmith tooling",
+        "Proven at scale by large enterprises"
+      ],
+      "zh": [
+        "主流智能体框架中控制粒度最细",
+        "持久执行与检查点是真正的生产级能力",
+        "背靠 LangChain 集成与 LangSmith 工具的庞大生态",
+        "已被大型企业规模化验证"
+      ],
+      "ja": [
+        "主要エージェントフレームワークの中で最も細かい制御が可能",
+        "永続実行とチェックポイントは本物の本番級機能",
+        "LangChain統合とLangSmithツールによる巨大エコシステム",
+        "大企業によるスケール実証済み"
+      ],
+      "es": [
+        "El control más fino entre los frameworks de agentes principales",
+        "La ejecución durable y los checkpoints son de nivel producción real",
+        "Enorme ecosistema vía integraciones LangChain y herramientas LangSmith",
+        "Probado a escala por grandes empresas"
+      ],
+      "fr": [
+        "Le contrôle le plus fin parmi les frameworks d'agents majeurs",
+        "Exécution durable et checkpoints réellement de niveau production",
+        "Vaste écosystème via les intégrations LangChain et l'outillage LangSmith",
+        "Éprouvé à grande échelle par de grandes entreprises"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Steeper learning curve than role-based frameworks like CrewAI",
+        "Graph boilerplate feels heavy for simple single-agent tasks",
+        "Usage-based platform billing can be hard to forecast",
+        "Conventions are tied to the broader LangChain ecosystem"
+      ],
+      "zh": [
+        "学习曲线比 CrewAI 等角色制框架更陡",
+        "简单单智能体任务下图结构样板代码偏重",
+        "平台按用量计费难以预估成本",
+        "约定与整个 LangChain 生态深度绑定"
+      ],
+      "ja": [
+        "CrewAIのような役割ベースのフレームワークより学習曲線が急",
+        "単純なシングルエージェントタスクにはグラフの定型コードが重い",
+        "従量課金制のプラットフォーム費用は予測しづらい",
+        "規約がLangChainエコシステム全体に紐づいている"
+      ],
+      "es": [
+        "Curva de aprendizaje más pronunciada que frameworks por roles como CrewAI",
+        "El código repetitivo del grafo pesa en tareas simples de un solo agente",
+        "La facturación por uso de la plataforma es difícil de prever",
+        "Las convenciones están ligadas al ecosistema LangChain"
+      ],
+      "fr": [
+        "Courbe d'apprentissage plus raide que les frameworks par rôles comme CrewAI",
+        "Le code générique du graphe pèse pour les tâches simples à agent unique",
+        "La facturation à l'usage de la plateforme est difficile à prévoir",
+        "Les conventions sont liées à l'écosystème LangChain"
+      ]
+    },
+    "latestUpdate": {
+      "en": "2026: after the stable 1.0 release across Python and JS, LangGraph doubles down on durable execution, node caching and the LangGraph Platform, cementing its position as the production standard for stateful agents",
+      "zh": "2026 年：Python 与 JS 双端 1.0 稳定版发布后，LangGraph 持续强化持久执行、节点缓存与 LangGraph Platform，巩固其有状态智能体生产标准的地位",
+      "ja": "2026年：PythonとJS両方での1.0安定版リリース後、LangGraphは永続実行、ノードキャッシュ、LangGraph Platformを強化し、ステートフルエージェントの本番標準としての地位を固める",
+      "es": "2026: tras la versión estable 1.0 en Python y JS, LangGraph refuerza la ejecución durable, la caché de nodos y la LangGraph Platform, consolidándose como el estándar de producción para agentes con estado",
+      "fr": "2026 : après la version stable 1.0 en Python et JS, LangGraph renforce l'exécution durable, le cache de nœuds et la LangGraph Platform, consolidant son statut de standard de production pour les agents à état"
+    },
+    "verdict": {
+      "badge": "Highly Recommended",
+      "headline": {
+        "en": "The production standard for stateful agent orchestration",
+        "zh": "有状态智能体编排的生产标准",
+        "ja": "ステートフルエージェントオーケストレーションの本番標準",
+        "es": "El estándar de producción para la orquestación de agentes con estado",
+        "fr": "Le standard de production pour l'orchestration d'agents à état"
+      },
+      "body": {
+        "en": "When agent demos need to become dependable systems, teams keep landing on LangGraph. Its graph model demands more upfront thinking than role-based frameworks, but that investment buys precise state control, durable execution and real human-in-the-loop — the three things production agents actually need. With 1.0 stability and the deployment platform, it is the safest bet for serious agent engineering today.",
+        "zh": "当智能体 Demo 需要变成可靠系统时，团队最终总会选到 LangGraph。它的图模型比角色制框架要求更多前期思考，但这份投入换来的是精确的状态控制、持久执行与真正的人类介入——正是生产级智能体需要的三样东西。有了 1.0 稳定版与部署平台，它是当下严肃智能体工程最稳妥的选择。",
+        "ja": "エージェントのデモを信頼できるシステムに変える段階で、チームは結局LangGraphにたどり着く。グラフモデルは役割ベースのフレームワークより事前の設計を要求するが、その投資は正確な状態制御、永続実行、本物のヒューマンインザループという、本番エージェントに本当に必要な3つをもたらす。1.0の安定性とデプロイプラットフォームを備えた今、本格的なエージェント開発で最も堅実な選択だ。",
+        "es": "Cuando las demos de agentes deben convertirse en sistemas fiables, los equipos acaban eligiendo LangGraph. Su modelo de grafo exige más diseño previo que los frameworks por roles, pero esa inversión compra control preciso del estado, ejecución durable y humano en el bucle real: las tres cosas que los agentes en producción necesitan. Con la estabilidad 1.0 y su plataforma de despliegue, es la apuesta más segura para ingeniería de agentes seria.",
+        "fr": "Quand les démos d'agents doivent devenir des systèmes fiables, les équipes finissent par choisir LangGraph. Son modèle en graphe exige plus de conception en amont que les frameworks par rôles, mais cet investissement offre un contrôle précis de l'état, une exécution durable et un vrai humain dans la boucle — les trois choses dont les agents en production ont réellement besoin. Avec la stabilité 1.0 et sa plateforme de déploiement, c'est le choix le plus sûr pour l'ingénierie d'agents sérieuse."
+      },
+      "bestFor": {
+        "en": [
+          "Engineering teams shipping stateful agents to production",
+          "Workflows needing checkpoints, retries and human approval",
+          "Teams already invested in the LangChain/LangSmith ecosystem"
+        ],
+        "zh": [
+          "要把有状态智能体推向生产的工程团队",
+          "需要检查点、重试与人工审批的工作流",
+          "已投入 LangChain/LangSmith 生态的团队"
+        ],
+        "ja": [
+          "ステートフルエージェントを本番投入するエンジニアリングチーム",
+          "チェックポイント・リトライ・人間承認が必要なワークフロー",
+          "すでにLangChain/LangSmithエコシステムを利用しているチーム"
+        ],
+        "es": [
+          "Equipos de ingeniería llevando agentes con estado a producción",
+          "Flujos que necesitan checkpoints, reintentos y aprobación humana",
+          "Equipos ya invertidos en el ecosistema LangChain/LangSmith"
+        ],
+        "fr": [
+          "Équipes d'ingénierie mettant des agents à état en production",
+          "Workflows nécessitant checkpoints, reprises et approbation humaine",
+          "Équipes déjà investies dans l'écosystème LangChain/LangSmith"
+        ]
+      },
+      "considerAlternatives": {
+        "en": [
+          "You want the fastest role-based prototyping (→ CrewAI)",
+          "You build in TypeScript first (→ Mastra)"
+        ],
+        "zh": [
+          "你想要最快的角色制原型开发（→ CrewAI）",
+          "你以 TypeScript 为主开发（→ Mastra）"
+        ],
+        "ja": [
+          "役割ベースで最速のプロトタイピングをしたい（→ CrewAI）",
+          "TypeScriptファーストで開発している（→ Mastra）"
+        ],
+        "es": [
+          "Quieres el prototipado por roles más rápido (→ CrewAI)",
+          "Desarrollas primero en TypeScript (→ Mastra)"
+        ],
+        "fr": [
+          "Vous voulez le prototypage par rôles le plus rapide (→ CrewAI)",
+          "Vous développez d'abord en TypeScript (→ Mastra)"
+        ]
+      }
+    }
+  },
+  "mastra": {
+    "features": {
+      "en": [
+        "Agents, workflows, memory, RAG and evals in one TypeScript stack",
+        "Suspend/resume workflows with branching and human input steps",
+        "Interactive local playground to chat with agents while developing",
+        "Model routing to 40+ providers via the AI SDK",
+        "Mastra Cloud for hosted deployment, plus deploy anywhere Node.js runs",
+        "Built by the founding team of Gatsby, with MCP support"
+      ],
+      "zh": [
+        "智能体、工作流、记忆、RAG 与评测集于一个 TypeScript 技术栈",
+        "支持挂起/恢复的工作流，含分支与人工输入步骤",
+        "交互式本地 Playground，开发时可直接与智能体对话",
+        "经 AI SDK 路由 40+ 模型供应商",
+        "Mastra Cloud 托管部署，也可部署到任何能跑 Node.js 的环境",
+        "由 Gatsby 创始团队打造，支持 MCP"
+      ],
+      "ja": [
+        "エージェント、ワークフロー、メモリ、RAG、評価を1つのTypeScriptスタックに統合",
+        "分岐や人間の入力ステップを含むサスペンド/レジューム対応ワークフロー",
+        "開発中にエージェントと対話できるインタラクティブなローカルPlayground",
+        "AI SDK経由で40以上のプロバイダーへモデルルーティング",
+        "Mastra Cloudでのホスト型デプロイに加え、Node.jsが動く環境ならどこでもデプロイ可能",
+        "Gatsby創業チームが開発、MCPサポート"
+      ],
+      "es": [
+        "Agentes, flujos, memoria, RAG y evaluaciones en un solo stack TypeScript",
+        "Flujos con suspensión/reanudación, ramas y pasos de entrada humana",
+        "Playground local interactivo para conversar con agentes mientras desarrollas",
+        "Enrutamiento a más de 40 proveedores de modelos vía AI SDK",
+        "Mastra Cloud para despliegue gestionado, además de desplegar donde corra Node.js",
+        "Creado por el equipo fundador de Gatsby, con soporte MCP"
+      ],
+      "fr": [
+        "Agents, workflows, mémoire, RAG et évaluations dans un seul stack TypeScript",
+        "Workflows suspendables/reprenables avec branches et étapes de saisie humaine",
+        "Playground local interactif pour dialoguer avec les agents pendant le développement",
+        "Routage vers plus de 40 fournisseurs de modèles via l'AI SDK",
+        "Mastra Cloud pour le déploiement géré, ou déploiement partout où Node.js tourne",
+        "Créé par l'équipe fondatrice de Gatsby, avec support MCP"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "Open-source framework is free: build and self-host agents anywhere Node.js runs, paying only your LLM providers",
+        "zh": "开源框架免费：在任何能跑 Node.js 的环境构建与自托管智能体，只需向 LLM 供应商付费",
+        "ja": "オープンソースフレームワークは無料：Node.jsが動く環境ならどこでもエージェントを構築・セルフホストでき、LLMプロバイダーへの支払いのみ",
+        "es": "El framework open source es gratuito: crea y autoaloja agentes donde corra Node.js, pagando solo a tus proveedores de LLM",
+        "fr": "Le framework open source est gratuit : créez et auto-hébergez des agents partout où Node.js tourne, en ne payant que vos fournisseurs LLM"
+      },
+      "paid": {
+        "en": "Mastra Cloud hosted deployment with tiered plans; team and enterprise pricing published on the official site",
+        "zh": "Mastra Cloud 托管部署按档订阅；团队与企业定价以官网公布为准",
+        "ja": "Mastra Cloudのホスト型デプロイは段階制プラン。チーム・エンタープライズ価格は公式サイトを参照",
+        "es": "Despliegue gestionado Mastra Cloud con planes escalonados; precios de equipo y enterprise publicados en el sitio oficial",
+        "fr": "Déploiement géré Mastra Cloud avec plans par paliers ; tarifs équipe et entreprise publiés sur le site officiel"
+      }
+    },
+    "useCases": {
+      "en": [
+        "TypeScript product teams adding agents to Next.js and Node apps",
+        "Full-stack AI features combining workflows, memory and RAG",
+        "Rapid agent prototyping with the local playground",
+        "Deploying agent services alongside existing JS infrastructure"
+      ],
+      "zh": [
+        "在 Next.js 与 Node 应用中加入智能体的 TypeScript 产品团队",
+        "组合工作流、记忆与 RAG 的全栈 AI 功能",
+        "用本地 Playground 快速原型验证智能体",
+        "与既有 JS 基础设施并肩部署智能体服务"
+      ],
+      "ja": [
+        "Next.jsやNodeアプリにエージェントを追加するTypeScriptプロダクトチーム",
+        "ワークフロー・メモリ・RAGを組み合わせたフルスタックAI機能",
+        "ローカルPlaygroundでの高速エージェントプロトタイピング",
+        "既存JSインフラと並行したエージェントサービスのデプロイ"
+      ],
+      "es": [
+        "Equipos de producto TypeScript añadiendo agentes a apps Next.js y Node",
+        "Funciones IA full-stack combinando flujos, memoria y RAG",
+        "Prototipado rápido de agentes con el playground local",
+        "Despliegue de servicios de agentes junto a infraestructura JS existente"
+      ],
+      "fr": [
+        "Équipes produit TypeScript ajoutant des agents aux apps Next.js et Node",
+        "Fonctionnalités IA full-stack combinant workflows, mémoire et RAG",
+        "Prototypage rapide d'agents avec le playground local",
+        "Déploiement de services d'agents aux côtés de l'infrastructure JS existante"
+      ]
+    },
+    "pros": {
+      "en": [
+        "Best-in-class developer experience for TypeScript AI",
+        "One coherent stack instead of stitching together five libraries",
+        "Local playground makes iteration genuinely fast",
+        "Strong momentum: YC-backed with a fast-growing community"
+      ],
+      "zh": [
+        "TypeScript AI 领域最佳的开发体验",
+        "一个连贯技术栈，无需缝合五个库",
+        "本地 Playground 让迭代真正提速",
+        "势头强劲：YC 投资，社区快速增长"
+      ],
+      "ja": [
+        "TypeScript AIで最高クラスの開発体験",
+        "5つのライブラリを繋ぎ合わせる代わりに1つの一貫したスタック",
+        "ローカルPlaygroundで本当に速いイテレーション",
+        "強い勢い：YC出資、急成長中のコミュニティ"
+      ],
+      "es": [
+        "Experiencia de desarrollo de primera clase para IA en TypeScript",
+        "Un stack coherente en vez de coser cinco bibliotecas",
+        "El playground local hace la iteración realmente rápida",
+        "Gran impulso: respaldado por YC con comunidad en rápido crecimiento"
+      ],
+      "fr": [
+        "Expérience développeur de premier ordre pour l'IA en TypeScript",
+        "Un stack cohérent au lieu d'assembler cinq bibliothèques",
+        "Le playground local rend l'itération vraiment rapide",
+        "Forte dynamique : soutenu par YC avec une communauté en croissance rapide"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Younger than Python rivals — fewer battle scars in production",
+        "TypeScript only; Python teams must look elsewhere",
+        "APIs still evolve quickly between releases",
+        "Third-party integration catalog smaller than LangChain's"
+      ],
+      "zh": [
+        "比 Python 竞品年轻，生产环境考验更少",
+        "仅支持 TypeScript，Python 团队需另寻方案",
+        "版本间 API 仍在快速演进",
+        "第三方集成目录小于 LangChain"
+      ],
+      "ja": [
+        "Python競合より若く、本番での実績はまだ少ない",
+        "TypeScriptのみでPythonチームは他を探す必要あり",
+        "リリース間でAPIがまだ速く変化する",
+        "サードパーティ統合カタログはLangChainより小規模"
+      ],
+      "es": [
+        "Más joven que los rivales Python: menos cicatrices de producción",
+        "Solo TypeScript; los equipos Python deben buscar otra opción",
+        "Las APIs aún evolucionan rápido entre versiones",
+        "Catálogo de integraciones de terceros menor que el de LangChain"
+      ],
+      "fr": [
+        "Plus jeune que les rivaux Python — moins d'expérience en production",
+        "TypeScript uniquement ; les équipes Python doivent chercher ailleurs",
+        "Les API évoluent encore vite entre les versions",
+        "Catalogue d'intégrations tierces plus petit que celui de LangChain"
+      ]
+    },
+    "latestUpdate": {
+      "en": "2026: Mastra consolidates its position as the leading TypeScript agent framework, expanding workspaces, streaming and Mastra Cloud while the JS AI ecosystem rallies around it",
+      "zh": "2026 年：Mastra 巩固其头部 TypeScript 智能体框架地位，扩展 Workspaces、流式能力与 Mastra Cloud，JS AI 生态加速向其聚拢",
+      "ja": "2026年：MastraはTypeScriptエージェントフレームワークの筆頭としての地位を固め、Workspaces、ストリーミング、Mastra Cloudを拡充。JS AIエコシステムの支持も拡大",
+      "es": "2026: Mastra consolida su posición como el framework de agentes TypeScript líder, ampliando workspaces, streaming y Mastra Cloud mientras el ecosistema JS de IA se agrupa a su alrededor",
+      "fr": "2026 : Mastra consolide sa position de framework d'agents TypeScript de référence, étendant workspaces, streaming et Mastra Cloud tandis que l'écosystème IA JS se rallie autour de lui"
+    },
+    "verdict": {
+      "badge": "Recommended",
+      "headline": {
+        "en": "The default agent stack for TypeScript teams",
+        "zh": "TypeScript 团队的默认智能体技术栈",
+        "ja": "TypeScriptチームのデフォルトエージェントスタック",
+        "es": "El stack de agentes por defecto para equipos TypeScript",
+        "fr": "Le stack d'agents par défaut pour les équipes TypeScript"
+      },
+      "body": {
+        "en": "For years, JavaScript developers building agents had to glue together ports of Python libraries. Mastra changed that: one TypeScript-native stack with agents, workflows, memory, RAG and evals that feels like it was designed — because it was — by people who understand JS tooling. It is younger than LangGraph and its APIs still move fast, but if your product lives in Next.js or Node, starting anywhere else now needs justification.",
+        "zh": "多年来，构建智能体的 JavaScript 开发者只能拼接 Python 库的移植版。Mastra 改变了这一点：一个 TypeScript 原生技术栈，集智能体、工作流、记忆、RAG 与评测于一体，出自真正懂 JS 工具链的人之手。它比 LangGraph 年轻，API 也仍在快速演进，但若你的产品生长在 Next.js 或 Node 里，如今不从 Mastra 开始反而需要理由。",
+        "ja": "長年、エージェントを作るJavaScript開発者はPythonライブラリの移植版を繋ぎ合わせるしかなかった。Mastraはそれを変えた。エージェント、ワークフロー、メモリ、RAG、評価を備えたTypeScriptネイティブの単一スタックで、JSツーリングを理解する人々によって設計されている。LangGraphより若くAPIもまだ速く動くが、プロダクトがNext.jsやNodeにあるなら、他から始める方が今や理由を要する。",
+        "es": "Durante años, los desarrolladores JavaScript que construían agentes tuvieron que pegar ports de bibliotecas Python. Mastra cambió eso: un stack nativo de TypeScript con agentes, flujos, memoria, RAG y evaluaciones diseñado por gente que entiende el tooling JS. Es más joven que LangGraph y sus APIs aún se mueven rápido, pero si tu producto vive en Next.js o Node, empezar en otro sitio ahora requiere justificación.",
+        "fr": "Pendant des années, les développeurs JavaScript construisant des agents devaient assembler des portages de bibliothèques Python. Mastra a changé la donne : un stack natif TypeScript avec agents, workflows, mémoire, RAG et évaluations, conçu par des gens qui comprennent l'outillage JS. Il est plus jeune que LangGraph et ses API bougent encore vite, mais si votre produit vit dans Next.js ou Node, commencer ailleurs demande désormais une justification."
+      },
+      "bestFor": {
+        "en": [
+          "TypeScript/JavaScript product teams building AI features",
+          "Next.js and Node.js apps needing agents plus RAG",
+          "Developers who want a playground-driven iteration loop"
+        ],
+        "zh": [
+          "构建 AI 功能的 TypeScript/JavaScript 产品团队",
+          "需要智能体加 RAG 的 Next.js 与 Node.js 应用",
+          "想要 Playground 驱动迭代闭环的开发者"
+        ],
+        "ja": [
+          "AI機能を構築するTypeScript/JavaScriptプロダクトチーム",
+          "エージェントとRAGが必要なNext.js・Node.jsアプリ",
+          "Playground駆動のイテレーションループを求める開発者"
+        ],
+        "es": [
+          "Equipos de producto TypeScript/JavaScript construyendo funciones IA",
+          "Apps Next.js y Node.js que necesitan agentes más RAG",
+          "Desarrolladores que quieren un ciclo de iteración guiado por playground"
+        ],
+        "fr": [
+          "Équipes produit TypeScript/JavaScript créant des fonctionnalités IA",
+          "Apps Next.js et Node.js nécessitant agents et RAG",
+          "Développeurs voulant une boucle d'itération pilotée par playground"
+        ]
+      },
+      "considerAlternatives": {
+        "en": [
+          "Your team is Python-first (→ LangGraph, Pydantic AI)",
+          "You prefer visual no-code building (→ Flowise, Dify)"
+        ],
+        "zh": [
+          "你的团队以 Python 为主（→ LangGraph、Pydantic AI）",
+          "你更想可视化无代码搭建（→ Flowise、Dify）"
+        ],
+        "ja": [
+          "チームがPythonファースト（→ LangGraph、Pydantic AI）",
+          "ビジュアルなノーコード構築が好み（→ Flowise、Dify）"
+        ],
+        "es": [
+          "Tu equipo es Python-first (→ LangGraph, Pydantic AI)",
+          "Prefieres construcción visual sin código (→ Flowise, Dify)"
+        ],
+        "fr": [
+          "Votre équipe est Python d'abord (→ LangGraph, Pydantic AI)",
+          "Vous préférez la construction visuelle no-code (→ Flowise, Dify)"
+        ]
+      }
+    }
+  },
+  "microsoft-agent-framework": {
+    "features": {
+      "en": [
+        "Official successor to AutoGen and Semantic Kernel, merged into one framework",
+        "Multi-agent workflows and orchestration in .NET, Python and Go",
+        "Native support for open standards: Model Context Protocol (MCP) and Agent-to-Agent (A2A)",
+        "Works with any model provider — OpenAI, Azure OpenAI, Anthropic and more",
+        "Deep Azure AI Foundry integration for hosted agents, observability and compliance",
+        "Official migration guides from Semantic Kernel and AutoGen projects"
+      ],
+      "zh": [
+        "AutoGen 与 Semantic Kernel 的官方继任者，二者合并为一个框架",
+        ".NET、Python、Go 三语言的多智能体工作流与编排",
+        "原生支持开放标准：模型上下文协议（MCP）与智能体互通协议（A2A）",
+        "兼容任意模型供应商——OpenAI、Azure OpenAI、Anthropic 等",
+        "深度集成 Azure AI Foundry：托管智能体、可观测性与合规",
+        "提供 Semantic Kernel 与 AutoGen 项目的官方迁移指南"
+      ],
+      "ja": [
+        "AutoGenとSemantic Kernelの公式後継として両者を統合した単一フレームワーク",
+        ".NET、Python、Goでのマルチエージェントワークフローとオーケストレーション",
+        "オープン標準をネイティブサポート：Model Context Protocol（MCP）とAgent-to-Agent（A2A）",
+        "OpenAI、Azure OpenAI、Anthropicなど任意のモデルプロバイダーに対応",
+        "Azure AI Foundryと深く統合：ホスト型エージェント、可観測性、コンプライアンス",
+        "Semantic KernelとAutoGenからの公式移行ガイドを提供"
+      ],
+      "es": [
+        "Sucesor oficial de AutoGen y Semantic Kernel, fusionados en un solo framework",
+        "Flujos y orquestación multiagente en .NET, Python y Go",
+        "Soporte nativo de estándares abiertos: Model Context Protocol (MCP) y Agent-to-Agent (A2A)",
+        "Funciona con cualquier proveedor de modelos: OpenAI, Azure OpenAI, Anthropic y más",
+        "Integración profunda con Azure AI Foundry: agentes alojados, observabilidad y cumplimiento",
+        "Guías oficiales de migración desde proyectos Semantic Kernel y AutoGen"
+      ],
+      "fr": [
+        "Successeur officiel d'AutoGen et Semantic Kernel, fusionnés en un seul framework",
+        "Workflows et orchestration multi-agents en .NET, Python et Go",
+        "Support natif des standards ouverts : Model Context Protocol (MCP) et Agent-to-Agent (A2A)",
+        "Compatible avec tout fournisseur de modèles — OpenAI, Azure OpenAI, Anthropic et plus",
+        "Intégration poussée avec Azure AI Foundry : agents hébergés, observabilité et conformité",
+        "Guides officiels de migration depuis les projets Semantic Kernel et AutoGen"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "Fully free and open source (MIT license): the framework costs nothing, you pay only your model provider or Azure usage",
+        "zh": "完全免费开源（MIT 协议）：框架本身零费用，只需支付模型供应商或 Azure 用量",
+        "ja": "完全無料のオープンソース（MITライセンス）：フレームワーク自体は無料で、モデルプロバイダーまたはAzureの利用料のみ",
+        "es": "Totalmente gratuito y open source (licencia MIT): el framework no cuesta nada, solo pagas tu proveedor de modelos o el uso de Azure",
+        "fr": "Entièrement gratuit et open source (licence MIT) : le framework ne coûte rien, vous ne payez que votre fournisseur de modèles ou votre consommation Azure"
+      },
+      "paid": {
+        "en": "No paid tiers for the framework itself; hosted agents and enterprise features on Azure AI Foundry are billed as standard Azure consumption",
+        "zh": "框架本身无付费档；Azure AI Foundry 上的托管智能体与企业功能按标准 Azure 用量计费",
+        "ja": "フレームワーク自体に有料プランはなし。Azure AI Foundry上のホスト型エージェントとエンタープライズ機能は標準のAzure従量課金",
+        "es": "El framework no tiene niveles de pago; los agentes alojados y las funciones enterprise en Azure AI Foundry se facturan como consumo estándar de Azure",
+        "fr": "Pas d'offre payante pour le framework lui-même ; les agents hébergés et fonctions entreprise sur Azure AI Foundry sont facturés en consommation Azure standard"
+      }
+    },
+    "useCases": {
+      "en": [
+        "Enterprise .NET shops adding production agents to existing systems",
+        "Migrating Semantic Kernel or AutoGen projects to a supported successor",
+        "Multi-agent workflows deployed and governed on Azure",
+        "Interoperable agents built on MCP and A2A open standards"
+      ],
+      "zh": [
+        "在既有系统中加入生产级智能体的企业 .NET 团队",
+        "把 Semantic Kernel 或 AutoGen 项目迁移到受支持的继任框架",
+        "在 Azure 上部署与治理的多智能体工作流",
+        "基于 MCP 与 A2A 开放标准构建可互操作的智能体"
+      ],
+      "ja": [
+        "既存システムに本番エージェントを追加するエンタープライズ.NETチーム",
+        "Semantic KernelやAutoGenプロジェクトをサポートされた後継へ移行",
+        "Azure上でデプロイ・ガバナンスするマルチエージェントワークフロー",
+        "MCPとA2Aのオープン標準に基づく相互運用可能なエージェント構築"
+      ],
+      "es": [
+        "Equipos .NET empresariales añadiendo agentes de producción a sistemas existentes",
+        "Migración de proyectos Semantic Kernel o AutoGen a un sucesor con soporte",
+        "Flujos multiagente desplegados y gobernados en Azure",
+        "Agentes interoperables construidos sobre los estándares abiertos MCP y A2A"
+      ],
+      "fr": [
+        "Équipes .NET d'entreprise ajoutant des agents de production aux systèmes existants",
+        "Migration de projets Semantic Kernel ou AutoGen vers un successeur supporté",
+        "Workflows multi-agents déployés et gouvernés sur Azure",
+        "Agents interopérables fondés sur les standards ouverts MCP et A2A"
+      ]
+    },
+    "pros": {
+      "en": [
+        "One official framework instead of two overlapping Microsoft projects",
+        "Rare multi-language parity across .NET, Python and Go",
+        "Open standards first: MCP and A2A baked in from day one",
+        "Enterprise-grade backing, security posture and Azure integration"
+      ],
+      "zh": [
+        "一个官方框架取代两个功能重叠的微软项目",
+        ".NET、Python、Go 三语言对齐，业界少见",
+        "开放标准优先：MCP 与 A2A 从第一天就内置",
+        "企业级背书、安全体系与 Azure 集成"
+      ],
+      "ja": [
+        "機能が重複する2つのMicrosoftプロジェクトを1つの公式フレームワークに統一",
+        ".NET、Python、Goの多言語同等性は業界でも稀",
+        "オープン標準ファースト：MCPとA2Aを初日から内蔵",
+        "エンタープライズ級の後ろ盾、セキュリティ体制、Azure統合"
+      ],
+      "es": [
+        "Un framework oficial en lugar de dos proyectos Microsoft solapados",
+        "Rara paridad multilenguaje entre .NET, Python y Go",
+        "Estándares abiertos primero: MCP y A2A integrados desde el día uno",
+        "Respaldo empresarial, postura de seguridad e integración con Azure"
+      ],
+      "fr": [
+        "Un framework officiel au lieu de deux projets Microsoft redondants",
+        "Rare parité multi-langage entre .NET, Python et Go",
+        "Standards ouverts d'abord : MCP et A2A intégrés dès le premier jour",
+        "Soutien de niveau entreprise, sécurité et intégration Azure"
+      ]
+    },
+    "cons": {
+      "en": [
+        "1.0 shipped in April 2026 — the ecosystem is still young",
+        "Migrating from Semantic Kernel/AutoGen requires real code changes",
+        "The best experience assumes an Azure-centric stack",
+        "Community content and third-party integrations trail LangChain's"
+      ],
+      "zh": [
+        "1.0 于 2026 年 4 月发布，生态仍然年轻",
+        "从 Semantic Kernel/AutoGen 迁移需要实打实的代码改动",
+        "最佳体验默认建立在 Azure 技术栈之上",
+        "社区内容与第三方集成落后于 LangChain"
+      ],
+      "ja": [
+        "1.0は2026年4月リリースでエコシステムはまだ若い",
+        "Semantic Kernel/AutoGenからの移行には実際のコード変更が必要",
+        "最良の体験はAzure中心のスタックが前提",
+        "コミュニティコンテンツとサードパーティ統合はLangChainに劣る"
+      ],
+      "es": [
+        "La 1.0 llegó en abril de 2026: el ecosistema aún es joven",
+        "Migrar desde Semantic Kernel/AutoGen exige cambios reales de código",
+        "La mejor experiencia asume un stack centrado en Azure",
+        "El contenido comunitario y las integraciones van por detrás de LangChain"
+      ],
+      "fr": [
+        "La 1.0 est sortie en avril 2026 — l'écosystème est encore jeune",
+        "Migrer depuis Semantic Kernel/AutoGen exige de vrais changements de code",
+        "La meilleure expérience suppose un stack centré sur Azure",
+        "Le contenu communautaire et les intégrations tierces restent derrière LangChain"
+      ]
+    },
+    "latestUpdate": {
+      "en": "April 3, 2026: version 1.0 GA officially merges Semantic Kernel and AutoGen into one production SDK; BUILD 2026 adds Agent Harness, Hosted Agents and CodeAct",
+      "zh": "2026 年 4 月 3 日：1.0 正式版将 Semantic Kernel 与 AutoGen 合并为单一生产级 SDK；BUILD 2026 大会新增 Agent Harness、托管智能体与 CodeAct",
+      "ja": "2026年4月3日：バージョン1.0 GAでSemantic KernelとAutoGenを単一の本番SDKに正式統合。BUILD 2026ではAgent Harness、Hosted Agents、CodeActを追加",
+      "es": "3 de abril de 2026: la versión 1.0 GA fusiona oficialmente Semantic Kernel y AutoGen en un solo SDK de producción; BUILD 2026 añade Agent Harness, Hosted Agents y CodeAct",
+      "fr": "3 avril 2026 : la version 1.0 GA fusionne officiellement Semantic Kernel et AutoGen en un seul SDK de production ; BUILD 2026 ajoute Agent Harness, Hosted Agents et CodeAct"
+    },
+    "verdict": {
+      "badge": "Recommended",
+      "headline": {
+        "en": "The default agent framework for Microsoft-stack enterprises",
+        "zh": "微软技术栈企业的默认智能体框架",
+        "ja": "Microsoftスタック企業のデフォルトエージェントフレームワーク",
+        "es": "El framework de agentes por defecto para empresas del stack Microsoft",
+        "fr": "Le framework d'agents par défaut pour les entreprises sous stack Microsoft"
+      },
+      "body": {
+        "en": "Microsoft did the right thing: instead of maintaining two overlapping projects, it merged AutoGen's multi-agent research DNA with Semantic Kernel's enterprise rigor into one supported framework. For .NET shops and Azure-centric organizations, this is now the obvious path — open standards, official migration guides and a long support runway. Outside the Microsoft orbit, LangGraph's ecosystem is still deeper, but nobody building on Azure should look elsewhere first.",
+        "zh": "微软做了正确的事：与其维护两个功能重叠的项目，不如把 AutoGen 的多智能体研究基因与 Semantic Kernel 的企业级严谨合并为一个受支持的框架。对 .NET 团队与 Azure 系组织，这已是显而易见的选择——开放标准、官方迁移指南、长期支持保障。在微软体系之外，LangGraph 生态仍更深厚，但在 Azure 上构建的团队没有理由先看别家。",
+        "ja": "Microsoftは正しい判断をした。機能が重複する2つのプロジェクトを維持する代わりに、AutoGenのマルチエージェント研究のDNAとSemantic Kernelのエンタープライズ品質を、サポートされた単一フレームワークに統合したのだ。.NETチームやAzure中心の組織にとって、これは今や自明の選択——オープン標準、公式移行ガイド、長期サポート。Microsoft圏外ではLangGraphのエコシステムがまだ深いが、Azureで構築するなら最初に検討すべきはこれだ。",
+        "es": "Microsoft hizo lo correcto: en lugar de mantener dos proyectos solapados, fusionó el ADN de investigación multiagente de AutoGen con el rigor empresarial de Semantic Kernel en un framework con soporte. Para equipos .NET y organizaciones centradas en Azure, este es ahora el camino obvio: estándares abiertos, guías oficiales de migración y soporte a largo plazo. Fuera de la órbita Microsoft, el ecosistema de LangGraph sigue siendo más profundo, pero nadie que construya sobre Azure debería mirar primero a otro lado.",
+        "fr": "Microsoft a fait le bon choix : plutôt que de maintenir deux projets redondants, il a fusionné l'ADN de recherche multi-agents d'AutoGen avec la rigueur entreprise de Semantic Kernel en un seul framework supporté. Pour les équipes .NET et les organisations centrées sur Azure, c'est désormais la voie évidente — standards ouverts, guides officiels de migration et support à long terme. Hors de l'orbite Microsoft, l'écosystème LangGraph reste plus profond, mais quiconque construit sur Azure devrait commencer ici."
+      },
+      "bestFor": {
+        "en": [
+          "Enterprise .NET and Azure-centric engineering teams",
+          "Teams migrating off Semantic Kernel or AutoGen",
+          "Organizations standardizing on MCP and A2A interoperability"
+        ],
+        "zh": [
+          "企业级 .NET 与 Azure 系工程团队",
+          "正在从 Semantic Kernel 或 AutoGen 迁出的团队",
+          "以 MCP 与 A2A 互操作为标准的组织"
+        ],
+        "ja": [
+          "エンタープライズ.NETとAzure中心のエンジニアリングチーム",
+          "Semantic KernelやAutoGenからの移行チーム",
+          "MCPとA2A相互運用性を標準とする組織"
+        ],
+        "es": [
+          "Equipos de ingeniería empresariales .NET y centrados en Azure",
+          "Equipos migrando desde Semantic Kernel o AutoGen",
+          "Organizaciones estandarizando la interoperabilidad MCP y A2A"
+        ],
+        "fr": [
+          "Équipes d'ingénierie entreprise .NET et centrées sur Azure",
+          "Équipes migrant depuis Semantic Kernel ou AutoGen",
+          "Organisations standardisant l'interopérabilité MCP et A2A"
+        ]
+      },
+      "considerAlternatives": {
+        "en": [
+          "You want the deepest Python ecosystem (→ LangGraph)",
+          "You need type-safe Python with minimal abstraction (→ Pydantic AI)"
+        ],
+        "zh": [
+          "你想要最深厚的 Python 生态（→ LangGraph）",
+          "你需要低抽象的类型安全 Python 框架（→ Pydantic AI）"
+        ],
+        "ja": [
+          "最も深いPythonエコシステムが欲しい（→ LangGraph）",
+          "最小限の抽象化で型安全なPythonが必要（→ Pydantic AI）"
+        ],
+        "es": [
+          "Quieres el ecosistema Python más profundo (→ LangGraph)",
+          "Necesitas Python con tipado seguro y mínima abstracción (→ Pydantic AI)"
+        ],
+        "fr": [
+          "Vous voulez l'écosystème Python le plus profond (→ LangGraph)",
+          "Vous cherchez du Python typé avec une abstraction minimale (→ Pydantic AI)"
+        ]
+      }
+    }
+  },
+  "pydantic-ai": {
+    "features": {
+      "en": [
+        "Type-safe agents: structured outputs validated by Pydantic at runtime",
+        "Model-agnostic: OpenAI, Anthropic, Gemini, Mistral, Ollama and more",
+        "FastAPI-style dependency injection for tools and context",
+        "Built-in Logfire integration for tracing and observability",
+        "Durable execution support and built-in evals",
+        "MCP support for connecting external tools"
+      ],
+      "zh": [
+        "类型安全智能体：结构化输出经 Pydantic 运行时校验",
+        "模型无关：支持 OpenAI、Anthropic、Gemini、Mistral、Ollama 等",
+        "FastAPI 风格的依赖注入管理工具与上下文",
+        "内置 Logfire 集成，提供追踪与可观测性",
+        "支持持久执行与内置评测",
+        "支持 MCP 连接外部工具"
+      ],
+      "ja": [
+        "型安全なエージェント：構造化出力をPydanticが実行時に検証",
+        "モデル非依存：OpenAI、Anthropic、Gemini、Mistral、Ollamaなどに対応",
+        "FastAPIスタイルの依存性注入でツールとコンテキストを管理",
+        "Logfire統合を内蔵し、トレースと可観測性を提供",
+        "永続実行のサポートと組み込み評価機能",
+        "外部ツール接続のためのMCPサポート"
+      ],
+      "es": [
+        "Agentes con tipado seguro: salidas estructuradas validadas por Pydantic en tiempo de ejecución",
+        "Agnóstico de modelos: OpenAI, Anthropic, Gemini, Mistral, Ollama y más",
+        "Inyección de dependencias estilo FastAPI para herramientas y contexto",
+        "Integración Logfire incorporada para trazado y observabilidad",
+        "Soporte de ejecución durable y evaluaciones integradas",
+        "Soporte MCP para conectar herramientas externas"
+      ],
+      "fr": [
+        "Agents à typage sûr : sorties structurées validées par Pydantic à l'exécution",
+        "Indépendant du modèle : OpenAI, Anthropic, Gemini, Mistral, Ollama et plus",
+        "Injection de dépendances façon FastAPI pour outils et contexte",
+        "Intégration Logfire native pour le traçage et l'observabilité",
+        "Support d'exécution durable et évaluations intégrées",
+        "Support MCP pour connecter des outils externes"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "Completely free and open source (MIT license): the framework has no paid tiers, you pay only your LLM providers",
+        "zh": "完全免费开源（MIT 协议）：框架无付费档，只需向 LLM 供应商付费",
+        "ja": "完全無料のオープンソース（MITライセンス）：フレームワークに有料プランはなく、LLMプロバイダーへの支払いのみ",
+        "es": "Completamente gratuito y open source (licencia MIT): el framework no tiene niveles de pago, solo pagas a tus proveedores de LLM",
+        "fr": "Entièrement gratuit et open source (licence MIT) : le framework n'a pas d'offre payante, vous ne payez que vos fournisseurs LLM"
+      },
+      "paid": {
+        "en": "Optional Pydantic Logfire observability platform: free tier available, paid plans scale with usage",
+        "zh": "可选的 Pydantic Logfire 可观测性平台：提供免费档，付费计划按用量扩展",
+        "ja": "オプションのPydantic Logfire可観測性プラットフォーム：無料枠あり、有料プランは使用量に応じて拡張",
+        "es": "Plataforma opcional de observabilidad Pydantic Logfire: nivel gratuito disponible, planes de pago según uso",
+        "fr": "Plateforme d'observabilité Pydantic Logfire optionnelle : offre gratuite disponible, plans payants selon l'usage"
+      }
+    },
+    "useCases": {
+      "en": [
+        "Production Python apps where LLM output must be validated",
+        "Structured data extraction agents with strict schemas",
+        "Teams already building on Pydantic and FastAPI",
+        "Type-safe tool calling with dependency-injected context"
+      ],
+      "zh": [
+        "必须校验 LLM 输出的生产级 Python 应用",
+        "带严格 schema 的结构化数据提取智能体",
+        "已基于 Pydantic 与 FastAPI 构建的团队",
+        "依赖注入上下文的类型安全工具调用"
+      ],
+      "ja": [
+        "LLM出力の検証が必須な本番Pythonアプリ",
+        "厳格なスキーマを持つ構造化データ抽出エージェント",
+        "すでにPydanticとFastAPIで構築しているチーム",
+        "依存性注入コンテキストによる型安全なツール呼び出し"
+      ],
+      "es": [
+        "Apps Python en producción donde la salida del LLM debe validarse",
+        "Agentes de extracción de datos estructurados con esquemas estrictos",
+        "Equipos que ya construyen sobre Pydantic y FastAPI",
+        "Llamadas a herramientas con tipado seguro y contexto inyectado"
+      ],
+      "fr": [
+        "Apps Python en production où la sortie LLM doit être validée",
+        "Agents d'extraction de données structurées à schémas stricts",
+        "Équipes construisant déjà sur Pydantic et FastAPI",
+        "Appels d'outils typés avec contexte injecté"
+      ]
+    },
+    "pros": {
+      "en": [
+        "Brings the FastAPI developer experience to agent building",
+        "Strict typing catches errors before they reach production",
+        "Lean core with no heavy abstraction layers",
+        "Maintained by the team behind Pydantic, the backbone of the Python LLM stack"
+      ],
+      "zh": [
+        "把 FastAPI 的开发体验带到了智能体构建",
+        "严格类型让错误在进入生产前就被捕获",
+        "核心精简，没有厚重的抽象层",
+        "由 Pydantic 团队维护——Python LLM 技术栈的基石"
+      ],
+      "ja": [
+        "FastAPIの開発体験をエージェント構築にもたらす",
+        "厳格な型付けにより本番前にエラーを捕捉",
+        "重い抽象化レイヤーのないリーンなコア",
+        "Python LLMスタックの基盤であるPydanticのチームがメンテナンス"
+      ],
+      "es": [
+        "Lleva la experiencia de desarrollo de FastAPI a la construcción de agentes",
+        "El tipado estricto captura errores antes de llegar a producción",
+        "Núcleo ligero sin capas pesadas de abstracción",
+        "Mantenido por el equipo detrás de Pydantic, columna del stack LLM de Python"
+      ],
+      "fr": [
+        "Apporte l'expérience développeur de FastAPI à la création d'agents",
+        "Le typage strict attrape les erreurs avant la production",
+        "Cœur léger sans couches d'abstraction lourdes",
+        "Maintenu par l'équipe derrière Pydantic, pilier du stack LLM Python"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Python only — no JavaScript/TypeScript story",
+        "Smaller integration ecosystem than LangChain",
+        "Complex multi-agent orchestration requires your own patterns",
+        "Fewer tutorials and community templates than older rivals"
+      ],
+      "zh": [
+        "仅支持 Python，没有 JavaScript/TypeScript 方案",
+        "集成生态比 LangChain 小",
+        "复杂多智能体编排需要自行设计模式",
+        "教程与社区模板少于更早的竞品"
+      ],
+      "ja": [
+        "PythonのみでJavaScript/TypeScript版はなし",
+        "統合エコシステムはLangChainより小規模",
+        "複雑なマルチエージェントオーケストレーションは独自パターンが必要",
+        "チュートリアルやコミュニティテンプレートが古参ライバルより少ない"
+      ],
+      "es": [
+        "Solo Python: sin versión JavaScript/TypeScript",
+        "Ecosistema de integraciones menor que LangChain",
+        "La orquestación multiagente compleja requiere patrones propios",
+        "Menos tutoriales y plantillas comunitarias que rivales más antiguos"
+      ],
+      "fr": [
+        "Python uniquement — pas de version JavaScript/TypeScript",
+        "Écosystème d'intégrations plus restreint que LangChain",
+        "L'orchestration multi-agents complexe demande vos propres patterns",
+        "Moins de tutoriels et de modèles communautaires que les rivaux plus anciens"
+      ]
+    },
+    "latestUpdate": {
+      "en": "2026: after reaching stable 1.0, Pydantic AI anchors the Pydantic end-to-end AI stack alongside Logfire observability and Evals, with durable execution and MCP support maturing rapidly",
+      "zh": "2026 年：达到 1.0 稳定版后，Pydantic AI 与 Logfire 可观测性、Evals 共同构成 Pydantic 端到端 AI 技术栈，持久执行与 MCP 支持快速成熟",
+      "ja": "2026年：安定版1.0到達後、Pydantic AIはLogfire可観測性やEvalsとともにPydanticのエンドツーエンドAIスタックの中核となり、永続実行とMCPサポートが急速に成熟",
+      "es": "2026: tras alcanzar la 1.0 estable, Pydantic AI ancla el stack de IA integral de Pydantic junto a la observabilidad Logfire y Evals, con ejecución durable y soporte MCP madurando rápidamente",
+      "fr": "2026 : après la 1.0 stable, Pydantic AI ancre le stack IA de bout en bout de Pydantic aux côtés de l'observabilité Logfire et des Evals, avec une exécution durable et un support MCP en pleine maturation"
+    },
+    "verdict": {
+      "badge": "Recommended",
+      "headline": {
+        "en": "The type-safety choice for production Python agents",
+        "zh": "生产级 Python 智能体的类型安全之选",
+        "ja": "本番Pythonエージェントの型安全という選択",
+        "es": "La opción de tipado seguro para agentes Python en producción",
+        "fr": "Le choix du typage sûr pour les agents Python en production"
+      },
+      "body": {
+        "en": "Pydantic AI bets that agents fail in production for the same reason APIs do: unvalidated data. By making every output a validated Pydantic model and borrowing FastAPI's dependency injection, it turns agent code into something that feels like normal, testable Python. It won't hand you a ready-made multi-agent topology like LangGraph or CrewAI — but for teams who value correctness over scaffolding, it is the cleanest foundation available.",
+        "zh": "Pydantic AI 的赌注是：智能体在生产中翻车的原因与 API 相同——未经校验的数据。它让每个输出都是经校验的 Pydantic 模型，并借用 FastAPI 的依赖注入，使智能体代码写起来像普通、可测试的 Python。它不会像 LangGraph 或 CrewAI 那样给你现成的多智能体拓扑——但对看重正确性胜过脚手架的团队，这是当下最干净的地基。",
+        "ja": "Pydantic AIの賭けはこうだ：エージェントが本番で失敗する理由はAPIと同じ、検証されていないデータだと。すべての出力を検証済みPydanticモデルにし、FastAPIの依存性注入を取り入れることで、エージェントのコードを普通のテスト可能なPythonのように書けるようにした。LangGraphやCrewAIのような既製のマルチエージェント構成は提供しないが、足場より正確性を重視するチームには、現状最もクリーンな基盤だ。",
+        "es": "Pydantic AI apuesta a que los agentes fallan en producción por la misma razón que las APIs: datos sin validar. Al hacer que cada salida sea un modelo Pydantic validado y tomar la inyección de dependencias de FastAPI, convierte el código de agentes en Python normal y testeable. No te dará una topología multiagente lista como LangGraph o CrewAI, pero para equipos que valoran la corrección sobre el andamiaje, es la base más limpia disponible.",
+        "fr": "Pydantic AI parie que les agents échouent en production pour la même raison que les API : des données non validées. En faisant de chaque sortie un modèle Pydantic validé et en reprenant l'injection de dépendances de FastAPI, il transforme le code d'agents en Python normal et testable. Il ne vous donnera pas une topologie multi-agents prête à l'emploi comme LangGraph ou CrewAI — mais pour les équipes qui privilégient la justesse à l'échafaudage, c'est la fondation la plus propre du moment."
+      },
+      "bestFor": {
+        "en": [
+          "Python teams shipping validated, structured LLM output",
+          "FastAPI/Pydantic shops adding agents to existing services",
+          "Data extraction pipelines with strict schemas"
+        ],
+        "zh": [
+          "需要交付经校验结构化 LLM 输出的 Python 团队",
+          "在既有服务中加入智能体的 FastAPI/Pydantic 团队",
+          "带严格 schema 的数据提取管线"
+        ],
+        "ja": [
+          "検証済み構造化LLM出力を提供するPythonチーム",
+          "既存サービスにエージェントを追加するFastAPI/Pydanticチーム",
+          "厳格なスキーマを持つデータ抽出パイプライン"
+        ],
+        "es": [
+          "Equipos Python entregando salida LLM estructurada y validada",
+          "Equipos FastAPI/Pydantic añadiendo agentes a servicios existentes",
+          "Pipelines de extracción de datos con esquemas estrictos"
+        ],
+        "fr": [
+          "Équipes Python livrant des sorties LLM structurées et validées",
+          "Équipes FastAPI/Pydantic ajoutant des agents aux services existants",
+          "Pipelines d'extraction de données à schémas stricts"
+        ]
+      },
+      "considerAlternatives": {
+        "en": [
+          "You need complex multi-agent graphs out of the box (→ LangGraph)",
+          "You want role-based crews with minimal code (→ CrewAI)"
+        ],
+        "zh": [
+          "你需要开箱即用的复杂多智能体图（→ LangGraph）",
+          "你想用最少代码实现角色分工（→ CrewAI）"
+        ],
+        "ja": [
+          "すぐ使える複雑なマルチエージェントグラフが必要（→ LangGraph）",
+          "最小限のコードで役割ベースのCrewが欲しい（→ CrewAI）"
+        ],
+        "es": [
+          "Necesitas grafos multiagente complejos listos para usar (→ LangGraph)",
+          "Quieres crews por roles con mínimo código (→ CrewAI)"
+        ],
+        "fr": [
+          "Vous avez besoin de graphes multi-agents complexes prêts à l'emploi (→ LangGraph)",
+          "Vous voulez des crews par rôles avec un minimum de code (→ CrewAI)"
+        ]
+      }
+    }
   }
 }
