@@ -2785,5 +2785,34 @@
       "browser_extension": "unknown",
       "api": "unknown"
     }
+  },
+  {
+    "slug": "grok-build",
+    "name": "Grok Build",
+    "nameZh": "Grok Build",
+    "description": "xAI 推出的官方终端 AI 编程智能体，由 Grok 4.5 驱动，支持子代理并行、Plan 模式与全屏终端 UI，256K 上下文",
+    "descriptionEn": "xAI's official terminal AI coding agent powered by Grok 4.5, with parallel sub-agents, Plan Mode, fullscreen terminal UI, and 256K context",
+    "descriptionJa": "xAIの公式ターミナルAIコーディングエージェント。Grok 4.5駆動、サブエージェント並列実行、Planモード、フルスクリーンターミナルUI、256Kコンテキスト対応",
+    "descriptionEs": "Agente de codificación IA oficial de xAI para terminal, impulsado por Grok 4.5, con subagentes paralelos, modo Plan, UI de terminal a pantalla completa y contexto de 256K",
+    "descriptionFr": "Agent de codage IA officiel de xAI pour le terminal, propulsé par Grok 4.5, avec sous-agents parallèles, mode Plan, interface terminal plein écran et contexte de 256K",
+    "url": "https://x.ai/cli",
+    "logo": "/logos/tools/grok-build.png",
+    "category": "Code",
+    "tags": [
+      "Paid",
+      "Beta"
+    ],
+    "featured": false,
+    "developer": "xAI",
+    "platforms": {
+      "web": false,
+      "windows": "unknown",
+      "macos": true,
+      "ios": false,
+      "android": false,
+      "linux": true,
+      "browser_extension": false,
+      "api": true
+    }
   }
 ]

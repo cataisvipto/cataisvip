@@ -23687,5 +23687,237 @@
         ]
       }
     }
+  },
+  "grok-build": {
+    "features": {
+      "en": [
+        "xAI official coding agent",
+        "Grok 4.5 powered",
+        "Parallel sub-agents",
+        "Plan Mode integration",
+        "Fullscreen terminal UI",
+        "256K context window"
+      ],
+      "zh": [
+        "xAI 官方编程代理",
+        "Grok 4.5 驱动",
+        "子代理并行",
+        "Plan 模式集成",
+        "全屏终端 UI",
+        "256K 上下文"
+      ],
+      "ja": [
+        "xAI 公式エージェント",
+        "Grok 4.5 駆動",
+        "サブエージェント並列",
+        "Plan モード",
+        "フルスクリーン UI",
+        "256K コンテキスト"
+      ],
+      "es": [
+        "Agente oficial xAI",
+        "Grok 4.5",
+        "Subagentes paralelos",
+        "Modo Plan",
+        "UI pantalla completa",
+        "Contexto 256K"
+      ],
+      "fr": [
+        "Agent officiel xAI",
+        "Grok 4.5",
+        "Sous-agents parallèles",
+        "Mode Plan",
+        "UI plein écran",
+        "Contexte 256K"
+      ]
+    },
+    "useCases": {
+      "en": [
+        "Agentic software dev",
+        "Multi-task parallel coding",
+        "Plan-first refactoring",
+        "Terminal-native workflows",
+        "Grok ecosystem projects"
+      ],
+      "zh": [
+        "智能体开发",
+        "多任务并行编程",
+        "先规划后重构",
+        "终端工作流",
+        "Grok 生态项目"
+      ],
+      "ja": [
+        "エージェント開発",
+        "並列コーディング",
+        "計画駆動リファクタ",
+        "ターミナル作業",
+        "Grok エコシステム"
+      ],
+      "es": [
+        "Desarrollo agéntico",
+        "Codificación paralela",
+        "Refactor con plan",
+        "Flujos en terminal",
+        "Proyectos Grok"
+      ],
+      "fr": [
+        "Développement agentique",
+        "Codage parallèle",
+        "Refactoring planifié",
+        "Workflows terminal",
+        "Projets Grok"
+      ]
+    },
+    "pros": {
+      "en": [
+        "Fast Grok 4.5 model",
+        "Sub-agents by default",
+        "Included in SuperGrok",
+        "Modern terminal UX"
+      ],
+      "zh": [
+        "Grok 4.5 速度快",
+        "默认子代理并行",
+        "SuperGrok 订阅内含",
+        "现代终端体验"
+      ],
+      "ja": [
+        "Grok 4.5 高速",
+        "サブエージェント標準",
+        "SuperGrok に含まれる",
+        "モダンな UX"
+      ],
+      "es": [
+        "Grok 4.5 rápido",
+        "Subagentes por defecto",
+        "Incluido en SuperGrok",
+        "UX moderna"
+      ],
+      "fr": [
+        "Grok 4.5 rapide",
+        "Sous-agents par défaut",
+        "Inclus dans SuperGrok",
+        "UX moderne"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Early beta stage",
+        "Subscription required",
+        "Windows needs WSL"
+      ],
+      "zh": [
+        "尚在早期 beta",
+        "需要订阅",
+        "Windows 需 WSL"
+      ],
+      "ja": [
+        "早期ベータ段階",
+        "サブスク必要",
+        "Windows は WSL"
+      ],
+      "es": [
+        "Beta temprana",
+        "Requiere suscripción",
+        "Windows vía WSL"
+      ],
+      "fr": [
+        "Bêta précoce",
+        "Abonnement requis",
+        "Windows via WSL"
+      ]
+    },
+    "pricing": {
+      "paid": {
+        "en": "Included with SuperGrok ($30/mo) or X Premium+",
+        "zh": "SuperGrok（$30/月）或 X Premium+ 订阅内含",
+        "ja": "SuperGrok（月額$30）または X Premium+ に含まれる",
+        "es": "Incluido con SuperGrok ($30/mes) o X Premium+",
+        "fr": "Inclus avec SuperGrok (30 $/mois) ou X Premium+"
+      }
+    },
+    "latestUpdate": {
+      "en": "2026: Grok Build launches in early beta, powered by Grok 4.5 with native sub-agent view",
+      "zh": "2026年：Grok Build 早期 beta 上线，Grok 4.5 驱动，原生子代理视图",
+      "ja": "2026年：Grok Build が早期ベータで登場、Grok 4.5 駆動、ネイティブサブエージェントビュー",
+      "es": "2026: Grok Build llega en beta temprana con Grok 4.5",
+      "fr": "2026 : Grok Build arrive en bêta précoce avec Grok 4.5"
+    },
+    "verdict": {
+      "badge": "Worth Trying",
+      "headline": {
+        "en": "xAI's answer to Claude Code — a fast, parallel-first terminal agent that ships sub-agents as the default, not an add-on.",
+        "zh": "xAI 对 Claude Code 的回应——快、并行优先的终端智能体，子代理是默认能力而非附加项。",
+        "ja": "xAI による Claude Code への回答——サブエージェントを標準搭載した高速・並列優先のターミナルエージェント。",
+        "es": "La respuesta de xAI a Claude Code — un agente de terminal rápido y paralelo con subagentes por defecto.",
+        "fr": "La réponse de xAI à Claude Code — un agent terminal rapide et parallèle avec sous-agents par défaut."
+      },
+      "body": {
+        "en": "Grok Build is xAI's official terminal coding agent, installed with a single curl command and powered by Grok 4.5. Its defining trait is parallelism: sub-agents are on by default with a native view for monitoring them, letting one prompt fan out into multiple concurrent workstreams. Plan Mode integration, mouse support, and a fullscreen terminal UI make it one of the more polished CLI agents at launch.\n\nThe 256K context window handles mid-to-large codebases, and the model is tuned specifically for agentic engineering workflows rather than chat. If you already pay for SuperGrok or X Premium+, the agent comes at no extra cost — a notable difference from usage-billed rivals.\n\nThe caveats are maturity and platform reach. It is early beta, so expect rough edges, and Windows users currently need WSL. Teams with established Claude Code or Codex workflows won't find a compelling reason to switch yet, but Grok subscribers get a genuinely capable agent for free.",
+        "zh": "Grok Build 是 xAI 官方终端编程智能体，一条 curl 命令安装，由 Grok 4.5 驱动。最大特色是并行：子代理默认开启并配有原生监控视图，一条指令可展开为多条并发工作流。Plan 模式集成、鼠标支持和全屏终端 UI 使它在发布之初就是完成度较高的 CLI 智能体。\n\n256K 上下文窗口可处理中大型代码库，模型专为智能体工程工作流而非聊天调优。如果你已订阅 SuperGrok 或 X Premium+，无需额外付费——这与按量计费的竞品形成鲜明对比。\n\n短板在于成熟度与平台覆盖：目前仍是早期 beta，难免有粗糙之处，Windows 用户暂需 WSL。已有 Claude Code 或 Codex 工作流的团队暂无切换理由，但 Grok 订阅用户等于免费获得一个相当能打的智能体。",
+        "ja": "Grok Build は xAI 公式のターミナルコーディングエージェントで、curl コマンド一つでインストールでき、Grok 4.5 が駆動します。最大の特徴は並列性です：サブエージェントがデフォルトで有効で、ネイティブな監視ビューを備え、1つの指示を複数の同時ワークストリームに展開できます。Plan モード統合、マウス対応、フルスクリーンターミナル UI も備えています。\n\n256K コンテキストは中大規模コードベースに対応し、モデルはチャットではなくエージェント型ワークフロー向けに調整されています。SuperGrok または X Premium+ 加入者は追加費用なしで利用できます。\n\n課題は成熟度とプラットフォーム対応です。早期ベータのため粗さは残り、Windows は現状 WSL が必要です。",
+        "es": "Grok Build es el agente de codificación oficial de xAI para terminal, instalado con un solo comando curl e impulsado por Grok 4.5. Su rasgo distintivo es el paralelismo: los subagentes vienen activados por defecto con una vista nativa para monitorearlos. La integración del modo Plan, soporte de ratón y UI de pantalla completa lo hacen muy pulido.\n\nEl contexto de 256K maneja bases de código medianas y grandes, y el modelo está ajustado para flujos agentivos. Si ya pagas SuperGrok o X Premium+, no cuesta extra.\n\nLas advertencias: es beta temprana con bordes ásperos, y Windows requiere WSL por ahora.",
+        "fr": "Grok Build est l'agent de codage officiel de xAI pour le terminal, installé avec une seule commande curl et propulsé par Grok 4.5. Son trait distinctif est le parallélisme : les sous-agents sont activés par défaut avec une vue native pour les surveiller. L'intégration du mode Plan, le support de la souris et l'interface plein écran le rendent très abouti.\n\nLe contexte de 256K gère les bases de code moyennes à grandes, et le modèle est optimisé pour les workflows agentiques. Si vous payez déjà SuperGrok ou X Premium+, il est inclus sans surcoût.\n\nLes réserves : bêta précoce avec des imperfections, et Windows nécessite WSL pour l'instant."
+      },
+      "bestFor": {
+        "en": [
+          "SuperGrok / X Premium+ subscribers wanting a coding agent at no extra cost",
+          "Parallel multi-task coding with sub-agent orchestration",
+          "Developers who like fast iteration in a polished terminal UI",
+          "Trying the Grok ecosystem for agentic engineering"
+        ],
+        "zh": [
+          "希望零额外成本获得编程智能体的 SuperGrok / X Premium+ 订阅用户",
+          "需要子代理编排的并行多任务编程",
+          "喜欢在精致终端 UI 中快速迭代的开发者",
+          "想体验 Grok 生态智能体工程的用户"
+        ],
+        "ja": [
+          "追加費用なしでエージェントを使いたい SuperGrok / X Premium+ 加入者",
+          "サブエージェントを活用した並列マルチタスク開発",
+          "洗練されたターミナル UI での高速イテレーションを好む開発者",
+          "Grok エコシステムを試したいユーザー"
+        ],
+        "es": [
+          "Suscriptores de SuperGrok / X Premium+ que quieren un agente sin costo extra",
+          "Codificación paralela multitarea con orquestación de subagentes",
+          "Desarrolladores que prefieren iteración rápida en terminal",
+          "Probar el ecosistema Grok para ingeniería agentiva"
+        ],
+        "fr": [
+          "Abonnés SuperGrok / X Premium+ voulant un agent sans surcoût",
+          "Codage parallèle multitâche avec orchestration de sous-agents",
+          "Développeurs préférant l'itération rapide en terminal",
+          "Essayer l'écosystème Grok pour l'ingénierie agentique"
+        ]
+      },
+      "considerAlternatives": {
+        "en": [
+          "You need a battle-tested agent for production workflows (→ Claude Code, Codex)",
+          "You work primarily on native Windows without WSL (→ Cursor, GitHub Copilot)",
+          "You want inline IDE suggestions rather than a terminal agent (→ Cursor, Windsurf)"
+        ],
+        "zh": [
+          "你需要经过大量验证的生产级智能体（→ Claude Code、Codex）",
+          "你主要在原生 Windows 上工作且不用 WSL（→ Cursor、GitHub Copilot）",
+          "你想要 IDE 内联建议而非终端智能体（→ Cursor、Windsurf）"
+        ],
+        "ja": [
+          "本番ワークフローで実績あるエージェントが必要な場合（→ Claude Code、Codex）",
+          "WSL なしのネイティブ Windows が主な場合（→ Cursor、GitHub Copilot）",
+          "ターミナルより IDE インライン提案が欲しい場合（→ Cursor、Windsurf）"
+        ],
+        "es": [
+          "Necesitas un agente probado para producción (→ Claude Code, Codex)",
+          "Trabajas principalmente en Windows nativo sin WSL (→ Cursor, GitHub Copilot)",
+          "Quieres sugerencias inline en IDE en vez de terminal (→ Cursor, Windsurf)"
+        ],
+        "fr": [
+          "Vous avez besoin d'un agent éprouvé pour la production (→ Claude Code, Codex)",
+          "Vous travaillez surtout sous Windows natif sans WSL (→ Cursor, GitHub Copilot)",
+          "Vous voulez des suggestions inline en IDE plutôt qu'un terminal (→ Cursor, Windsurf)"
+        ]
+      }
+    }
   }
 }
