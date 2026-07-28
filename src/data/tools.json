@@ -4148,5 +4148,208 @@
       "browser_extension": false,
       "api": true
     }
+  },
+  {
+    "slug": "cerebras",
+    "name": "Cerebras",
+    "nameZh": "Cerebras",
+    "description": "晶圆级引擎（WSE）驱动的超快推理云，常被评测为全球最快，OpenAI 兼容 API 托管 Llama、Qwen、DeepSeek 等开源模型，注册送 $5 额度按量付费",
+    "descriptionEn": "Wafer-Scale Engine inference cloud often benchmarked as the world's fastest — an OpenAI-compatible API serving open models like Llama, Qwen and DeepSeek, with $5 free credits and pay-as-you-go pricing",
+    "descriptionJa": "ウエハースケールエンジン駆動の超高速推論クラウド。世界最速とベンチマークされることも多く、OpenAI互換APIでLlama・Qwen・DeepSeekなどのオープンモデルを提供。$5の無料クレジットと従量課金",
+    "descriptionEs": "Nube de inferencia con Wafer-Scale Engine, a menudo medida como la más rápida del mundo: una API compatible con OpenAI que sirve modelos abiertos como Llama, Qwen y DeepSeek, con $5 de créditos gratis y pago por uso",
+    "descriptionFr": "Cloud d'inférence Wafer-Scale Engine souvent mesuré comme le plus rapide au monde : une API compatible OpenAI servant des modèles ouverts comme Llama, Qwen et DeepSeek, avec 5 $ de crédits gratuits et paiement à l'usage",
+    "url": "https://www.cerebras.ai",
+    "logo": "/logos/tools/cerebras.png",
+    "category": "Developer",
+    "tags": [
+      "Freemium",
+      "API"
+    ],
+    "featured": false,
+    "developer": "Cerebras",
+    "platforms": {
+      "web": true,
+      "windows": false,
+      "macos": false,
+      "ios": false,
+      "android": false,
+      "linux": false,
+      "browser_extension": false,
+      "api": true
+    }
+  },
+  {
+    "slug": "sambanova",
+    "name": "SambaNova",
+    "nameZh": "SambaNova",
+    "description": "基于自研 SN40L RDU 芯片的推理云，全 16-bit 精度不降质，OpenAI 兼容 API 托管 DeepSeek R1/V3、Llama 等，在大型推理模型上创吞吐纪录，含免费档",
+    "descriptionEn": "Inference cloud built on custom SN40L RDU chips that serves at full 16-bit precision — an OpenAI-compatible API hosting DeepSeek R1/V3, Llama and more, with record throughput on large reasoning models and a free tier",
+    "descriptionJa": "独自のSN40L RDUチップを基盤とする推論クラウド。フル16ビット精度で提供し、OpenAI互換APIでDeepSeek R1/V3やLlamaなどをホスト。大規模推論モデルで記録的スループット、無料枠あり",
+    "descriptionEs": "Nube de inferencia sobre chips SN40L RDU propios que sirve en precisión completa de 16 bits: una API compatible con OpenAI que aloja DeepSeek R1/V3, Llama y más, con rendimiento récord en grandes modelos de razonamiento y nivel gratuito",
+    "descriptionFr": "Cloud d'inférence bâti sur des puces SN40L RDU maison servant en pleine précision 16 bits : une API compatible OpenAI hébergeant DeepSeek R1/V3, Llama et plus, avec un débit record sur les grands modèles de raisonnement et un niveau gratuit",
+    "url": "https://sambanova.ai",
+    "logo": "/logos/tools/sambanova.png",
+    "category": "Developer",
+    "tags": [
+      "Freemium",
+      "API"
+    ],
+    "featured": false,
+    "developer": "SambaNova",
+    "platforms": {
+      "web": true,
+      "windows": false,
+      "macos": false,
+      "ios": false,
+      "android": false,
+      "linux": false,
+      "browser_extension": false,
+      "api": true
+    }
+  },
+  {
+    "slug": "novita",
+    "name": "Novita AI",
+    "nameZh": "Novita AI",
+    "description": "一站式模型 API + GPU 云，200+ 开源模型 OpenAI 兼容调用，另可按秒租 RTX 4090/5090、H100/H200，Spot 价省约 50%，新账号送入门额度",
+    "descriptionEn": "One-stop model API plus GPU cloud: 200+ open models via an OpenAI-compatible API, with per-second rental of RTX 4090/5090, H100 and H200 GPUs and spot pricing up to ~50% cheaper; starter credits on signup",
+    "descriptionJa": "モデルAPIとGPUクラウドのワンストップ。200以上のオープンモデルをOpenAI互換で呼び出し、RTX 4090/5090・H100/H200を秒単位でレンタル、スポット価格で最大約50%節約。新規にスタータークレジット",
+    "descriptionEs": "API de modelos y nube GPU todo en uno: más de 200 modelos abiertos vía API compatible con OpenAI, con alquiler por segundo de GPUs RTX 4090/5090, H100 y H200 y precios spot hasta ~50% más baratos; créditos iniciales al registrarse",
+    "descriptionFr": "API de modèles et cloud GPU tout-en-un : plus de 200 modèles ouverts via une API compatible OpenAI, avec location à la seconde de GPU RTX 4090/5090, H100 et H200 et des tarifs spot jusqu'à ~50 % moins chers ; crédits de départ à l'inscription",
+    "url": "https://novita.ai",
+    "logo": "/logos/tools/novita.png",
+    "category": "Developer",
+    "tags": [
+      "Freemium",
+      "API"
+    ],
+    "featured": false,
+    "developer": "Novita AI",
+    "platforms": {
+      "web": true,
+      "windows": false,
+      "macos": false,
+      "ios": false,
+      "android": false,
+      "linux": false,
+      "browser_extension": false,
+      "api": true
+    }
+  },
+  {
+    "slug": "hyperbolic",
+    "name": "Hyperbolic",
+    "nameZh": "Hyperbolic",
+    "description": "面向开发者的低成本 AI 云，OpenAI 兼容 API 调用 Llama、Qwen、DeepSeek 等开源模型价格远低于闭源，另可按需租 H100 级 GPU，费率透明前置，已服务 25 万+ 开发者",
+    "descriptionEn": "Low-cost AI cloud for developers: an OpenAI-compatible API for open models like Llama, Qwen and DeepSeek priced far below closed models, plus on-demand H100-class GPU rental with transparent up-front rates; 250k+ developers",
+    "descriptionJa": "開発者向けの低コストAIクラウド。OpenAI互換APIでLlama・Qwen・DeepSeekなどのオープンモデルをクローズドモデルよりはるかに安く、加えてH100クラスGPUをオンデマンドで、料率は透明で前払い。25万人超の開発者が利用",
+    "descriptionEs": "Nube de IA de bajo coste para desarrolladores: una API compatible con OpenAI para modelos abiertos como Llama, Qwen y DeepSeek a precios muy por debajo de los cerrados, más alquiler de GPU clase H100 bajo demanda con tarifas transparentes; más de 250 000 desarrolladores",
+    "descriptionFr": "Cloud IA à faible coût pour développeurs : une API compatible OpenAI pour des modèles ouverts comme Llama, Qwen et DeepSeek à des prix bien inférieurs aux modèles fermés, plus la location de GPU de classe H100 à la demande avec des tarifs transparents ; plus de 250 000 développeurs",
+    "url": "https://www.hyperbolic.ai",
+    "logo": "/logos/tools/hyperbolic.png",
+    "category": "Developer",
+    "tags": [
+      "Freemium",
+      "API"
+    ],
+    "featured": false,
+    "developer": "Hyperbolic",
+    "platforms": {
+      "web": true,
+      "windows": false,
+      "macos": false,
+      "ios": false,
+      "android": false,
+      "linux": false,
+      "browser_extension": false,
+      "api": true
+    }
+  },
+  {
+    "slug": "cartesia",
+    "name": "Cartesia",
+    "nameZh": "Cartesia",
+    "description": "实时语音 AI 平台，Sonic 3.5 文本转语音低延迟常年第一，配套 Ink-2 转录，主打语音智能体与 AI 电话，基于 Mamba/SSM 研究，免费档每月约 2 万信用点",
+    "descriptionEn": "Real-time voice AI platform: Sonic 3.5 text-to-speech frequently ranks #1 for low latency, paired with Ink-2 transcription — built for voice agents and AI phone calls on Mamba/SSM research, with a free tier of ~20k credits a month",
+    "descriptionJa": "リアルタイム音声AIプラットフォーム。Sonic 3.5音声合成は低レイテンシで首位に立つことが多く、Ink-2文字起こしと対をなす。Mamba/SSM研究に基づき音声エージェントやAI電話向け、無料枠は月約2万クレジット",
+    "descriptionEs": "Plataforma de voz de IA en tiempo real: el texto a voz Sonic 3.5 suele clasificar #1 en baja latencia, junto a la transcripción Ink-2, creada para agentes de voz y llamadas de IA sobre investigación Mamba/SSM, con nivel gratuito de ~20k créditos al mes",
+    "descriptionFr": "Plateforme vocale IA temps réel : la synthèse Sonic 3.5 est souvent classée n°1 pour la faible latence, associée à la transcription Ink-2 — conçue pour les agents vocaux et appels IA sur la recherche Mamba/SSM, avec un niveau gratuit d'environ 20k crédits par mois",
+    "url": "https://www.cartesia.ai",
+    "logo": "/logos/tools/cartesia.png",
+    "category": "Audio",
+    "tags": [
+      "Freemium",
+      "API"
+    ],
+    "featured": false,
+    "developer": "Cartesia",
+    "platforms": {
+      "web": true,
+      "windows": false,
+      "macos": false,
+      "ios": false,
+      "android": false,
+      "linux": false,
+      "browser_extension": false,
+      "api": true
+    }
+  },
+  {
+    "slug": "exa",
+    "name": "Exa",
+    "nameZh": "Exa",
+    "description": "为 AI 智能体与 RAG 打造的神经搜索 API，理解语义而非关键词，直接返回干净页面内容免抓取，另有 Deep Search 与结构化 Websets，前约 10 条结果内容免费、送约 $10 额度",
+    "descriptionEn": "AI-native neural search API for agents and RAG: understands meaning rather than keywords and returns clean page content directly (no scraping), plus Deep Search and structured Websets; content on the top ~10 results is free with ~$10 in starter credits",
+    "descriptionJa": "AIエージェントとRAGのためのニューラル検索API。キーワードではなく意味を理解し、クリーンなページ内容を直接返す（スクレイピング不要）。Deep Searchと構造化Websetsも。上位約10件の結果内容は無料、約$10のクレジット付き",
+    "descriptionEs": "API de búsqueda neural nativa de IA para agentes y RAG: entiende el significado en vez de palabras clave y devuelve contenido limpio de páginas directamente (sin scraping), más Deep Search y Websets estructurados; el contenido de los ~10 primeros resultados es gratis con ~$10 de créditos",
+    "descriptionFr": "API de recherche neuronale native IA pour agents et RAG : comprend le sens plutôt que les mots-clés et renvoie directement le contenu propre des pages (sans scraping), plus Deep Search et Websets structurés ; le contenu des ~10 premiers résultats est gratuit avec ~10 $ de crédits",
+    "url": "https://exa.ai",
+    "logo": "/logos/tools/exa.png",
+    "category": "Search",
+    "tags": [
+      "Freemium",
+      "API"
+    ],
+    "featured": false,
+    "developer": "Exa",
+    "platforms": {
+      "web": true,
+      "windows": false,
+      "macos": false,
+      "ios": false,
+      "android": false,
+      "linux": false,
+      "browser_extension": false,
+      "api": true
+    }
+  },
+  {
+    "slug": "stable-audio",
+    "name": "Stable Audio",
+    "nameZh": "Stable Audio",
+    "description": "Stability AI 出品的文本生成音频工具，以完全授权数据训练、商用安心，生成音乐、分轨与音效并支持音频到音频变换，免费档个人可用、Pro 约 $11.99/月起",
+    "descriptionEn": "Stability AI's text-to-audio tool trained on fully licensed data for commercial safety: generates music, stems and sound effects with audio-to-audio transformation; free tier for personal use, Pro from about $11.99/month",
+    "descriptionJa": "Stability AIによるテキストからのオーディオ生成ツール。完全ライセンス済みデータで学習し商用も安心。音楽・ステム・効果音を生成しオーディオ・トゥ・オーディオ変換に対応。無料枠は個人利用、Proは約$11.99/月から",
+    "descriptionEs": "Herramienta de texto a audio de Stability AI entrenada con datos totalmente licenciados para seguridad comercial: genera música, stems y efectos de sonido con transformación audio a audio; nivel gratuito para uso personal, Pro desde unos $11.99/mes",
+    "descriptionFr": "Outil de texte vers audio de Stability AI entraîné sur des données entièrement licenciées pour une sécurité commerciale : génère musique, stems et effets sonores avec transformation audio vers audio ; niveau gratuit pour usage personnel, Pro dès environ 11,99 $/mois",
+    "url": "https://stableaudio.com",
+    "logo": "/logos/tools/stable-audio.png",
+    "category": "Audio",
+    "tags": [
+      "Freemium",
+      "API"
+    ],
+    "featured": false,
+    "developer": "Stability AI",
+    "platforms": {
+      "web": true,
+      "windows": false,
+      "macos": false,
+      "ios": false,
+      "android": false,
+      "linux": false,
+      "browser_extension": false,
+      "api": true
+    }
   }
 ]

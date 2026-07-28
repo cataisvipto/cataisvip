@@ -49,6 +49,8 @@ const LOBE = {
   manus: 'manus', groq: 'groq', openrouter: 'openrouter-color',
   qoder: 'qoder-color', qodercn: 'qoder-color', openclaw: 'openclaw-color',
   seedance: 'bytedance-color', trae: 'trae-color', 'trae-cn': 'trae-color',
+  cerebras: 'cerebras-color', sambanova: 'sambanova-color', novita: 'novita-color',
+  hyperbolic: 'hyperbolic-color', exa: 'exa-color',
 };
 
 async function fetchBuf(url) {

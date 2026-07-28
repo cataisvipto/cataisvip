@@ -35172,5 +35172,1649 @@
       "pricingVerified": "2026-07-28",
       "pricingUrl": "https://www.together.ai/pricing"
     }
+  },
+  "cartesia": {
+    "features": {
+      "en": [
+        "Sonic 3.5 real-time text-to-speech, frequently ranked #1 for low-latency voice",
+        "Ink-2 speech-to-text (transcription) built for the same real-time voice stack",
+        "Ultra-low latency designed for live voice agents and phone-call use",
+        "Voice cloning and a large library of expressive, natural voices",
+        "Built on state-space model (SSM) research from the Mamba team",
+        "Credit-based API pricing (roughly 1 credit per character of speech)"
+      ],
+      "zh": [
+        "Sonic 3.5 实时文本转语音，低延迟语音常年排名第一",
+        "Ink-2 语音转文本（转录），为同一套实时语音栈打造",
+        "超低延迟，专为实时语音智能体与电话通话场景设计",
+        "语音克隆，以及大量富有表现力的自然音色库",
+        "构建于 Mamba 团队的状态空间模型（SSM）研究之上",
+        "基于信用点的 API 定价（约 1 信用点 = 1 个语音字符）"
+      ],
+      "ja": [
+        "Sonic 3.5 リアルタイム音声合成、低レイテンシ音声で首位にランクされることが多い",
+        "同じリアルタイム音声スタック向けに作られたInk-2音声認識（文字起こし）",
+        "ライブ音声エージェントや電話通話向けに設計された超低レイテンシ",
+        "音声クローンと、表現豊かで自然なボイスの大規模ライブラリ",
+        "MambaチームによるState-Space Model（SSM）研究を基盤に構築",
+        "クレジットベースのAPI課金（おおむね1クレジット＝音声1文字）"
+      ],
+      "es": [
+        "Sonic 3.5 texto a voz en tiempo real, con frecuencia clasificado #1 en voz de baja latencia",
+        "Ink-2 voz a texto (transcripción) creado para el mismo stack de voz en tiempo real",
+        "Latencia ultrabaja diseñada para agentes de voz en vivo y uso en llamadas telefónicas",
+        "Clonación de voz y una gran biblioteca de voces expresivas y naturales",
+        "Construido sobre la investigación de modelos de espacio de estados (SSM) del equipo Mamba",
+        "Precios de API basados en créditos (aproximadamente 1 crédito por carácter de voz)"
+      ],
+      "fr": [
+        "Sonic 3.5 synthèse vocale en temps réel, souvent classée n°1 pour la voix à faible latence",
+        "Ink-2 reconnaissance vocale (transcription) conçue pour la même pile vocale temps réel",
+        "Latence ultra-basse pensée pour les agents vocaux en direct et les appels téléphoniques",
+        "Clonage de voix et une large bibliothèque de voix expressives et naturelles",
+        "Construit sur la recherche en modèles à espace d'états (SSM) de l'équipe Mamba",
+        "Tarification API à base de crédits (environ 1 crédit par caractère de parole)"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "A Free plan costs $0 and includes about 20,000 credits per month — enough to build and test real-time voice without a card.",
+        "zh": "免费方案 $0，每月含约 20,000 信用点——无需信用卡即可开发测试实时语音。",
+        "ja": "無料プランは$0で月あたり約20,000クレジットを含む——カードなしでリアルタイム音声を開発・テストするのに十分。",
+        "es": "Un plan Free cuesta $0 e incluye unos 20 000 créditos al mes, suficiente para construir y probar voz en tiempo real sin tarjeta.",
+        "fr": "Un plan Free coûte 0 $ et inclut environ 20 000 crédits par mois — assez pour développer et tester la voix temps réel sans carte."
+      },
+      "paid": {
+        "en": "Paid tiers scale by monthly credits: Pro is about $5/month (~100,000 credits), Startup about $49/month (~1.25M credits), and Scale adds ~8M credits for higher-volume production; enterprise is quoted separately. Credits map to characters of speech generated. (Verified against the official pricing page, 2026-07-28.)",
+        "zh": "付费档按每月信用点递增：Pro 约 $5/月（约 10 万信用点），Startup 约 $49/月（约 125 万信用点），Scale 提供约 800 万信用点面向更大规模生产；企业单独报价。信用点对应生成语音的字符数。（对照官方定价页核实，2026-07-28。）",
+        "ja": "有料ティアは月間クレジットで拡張：Proは約$5/月（約10万クレジット）、Startupは約$49/月（約125万クレジット）、Scaleはより大量の本番向けに約800万クレジットを追加。エンタープライズは別途見積もり。クレジットは生成した音声の文字数に対応。（公式価格ページと照合、2026-07-28。）",
+        "es": "Los niveles de pago escalan por créditos mensuales: Pro cuesta unos $5/mes (~100 000 créditos), Startup unos $49/mes (~1,25M créditos), y Scale añade ~8M créditos para producción de mayor volumen; empresa se cotiza aparte. Los créditos equivalen a caracteres de voz generados. (Verificado con la página oficial de precios, 2026-07-28.)",
+        "fr": "Les niveaux payants évoluent selon les crédits mensuels : Pro à environ 5 $/mois (~100 000 crédits), Startup à environ 49 $/mois (~1,25M crédits), et Scale ajoute ~8M crédits pour une production à plus fort volume ; l'entreprise est devisée séparément. Les crédits correspondent aux caractères de parole générés. (Vérifié avec la page tarifaire officielle, 2026-07-28.)"
+      }
+    },
+    "useCases": {
+      "en": [
+        "Real-time voice agents and AI phone systems needing minimal latency",
+        "Adding natural text-to-speech to apps, games and assistants",
+        "Transcribing live audio with Ink-2 in the same voice pipeline",
+        "Cloning a brand or character voice for consistent product audio"
+      ],
+      "zh": [
+        "对延迟要求极低的实时语音智能体与 AI 电话系统",
+        "为应用、游戏与助手加入自然的文本转语音",
+        "用 Ink-2 在同一语音管线中转录实时音频",
+        "克隆品牌或角色声音，保持产品音频一致性"
+      ],
+      "ja": [
+        "最小限のレイテンシが必要なリアルタイム音声エージェントやAI電話システム",
+        "アプリ・ゲーム・アシスタントに自然な音声合成を追加",
+        "同じ音声パイプライン内でInk-2を使いライブ音声を文字起こし",
+        "一貫した製品音声のためにブランドやキャラクターの声をクローン"
+      ],
+      "es": [
+        "Agentes de voz en tiempo real y sistemas telefónicos de IA que necesitan latencia mínima",
+        "Añadir texto a voz natural a apps, juegos y asistentes",
+        "Transcribir audio en vivo con Ink-2 en el mismo pipeline de voz",
+        "Clonar una voz de marca o personaje para audio de producto consistente"
+      ],
+      "fr": [
+        "Agents vocaux temps réel et systèmes téléphoniques IA nécessitant une latence minimale",
+        "Ajouter une synthèse vocale naturelle aux applis, jeux et assistants",
+        "Transcrire de l'audio en direct avec Ink-2 dans la même pipeline vocale",
+        "Cloner une voix de marque ou de personnage pour un audio produit cohérent"
+      ]
+    },
+    "pros": {
+      "en": [
+        "Best-in-class low latency, frequently topping real-time voice benchmarks",
+        "TTS and transcription from one team and one API",
+        "Rooted in genuine SSM/Mamba research, not just a wrapper",
+        "Generous free tier to prototype before paying"
+      ],
+      "zh": [
+        "低延迟同类领先，常年霸榜实时语音评测",
+        "语音合成与转录出自同一团队、同一 API",
+        "扎根于真实的 SSM/Mamba 研究，而非套壳",
+        "免费档慷慨，付费前即可做原型"
+      ],
+      "ja": [
+        "クラス最高の低レイテンシで、リアルタイム音声ベンチマークで首位に立つことが多い",
+        "音声合成と文字起こしが同じチーム・同じAPIから",
+        "単なるラッパーではなく本物のSSM/Mamba研究に根ざす",
+        "支払い前に試作できる寛容な無料枠"
+      ],
+      "es": [
+        "Latencia baja líder en su clase, encabezando con frecuencia los benchmarks de voz en tiempo real",
+        "TTS y transcripción del mismo equipo y la misma API",
+        "Arraigado en investigación genuina SSM/Mamba, no solo un envoltorio",
+        "Nivel gratuito generoso para prototipar antes de pagar"
+      ],
+      "fr": [
+        "Faible latence meilleure de sa catégorie, en tête des benchmarks vocaux temps réel",
+        "TTS et transcription d'une même équipe et d'une même API",
+        "Ancré dans une vraie recherche SSM/Mamba, pas seulement un wrapper",
+        "Niveau gratuit généreux pour prototyper avant de payer"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Credit-based pricing takes some math to map onto real usage",
+        "Focused on voice — not a general-purpose AI platform",
+        "Fewer languages and voices than the largest incumbents like ElevenLabs",
+        "Younger company, so ecosystem and integrations are still growing"
+      ],
+      "zh": [
+        "基于信用点的计费，换算到真实用量需要算一算",
+        "专注语音——不是通用型 AI 平台",
+        "语言与音色数量少于 ElevenLabs 等最大在位者",
+        "公司较年轻，生态与集成仍在成长"
+      ],
+      "ja": [
+        "クレジットベースの課金は、実際の使用量への換算に少し計算が要る",
+        "音声特化——汎用AIプラットフォームではない",
+        "ElevenLabsのような最大手より言語・ボイスが少ない",
+        "若い企業のため、エコシステムや連携はまだ成長途上"
+      ],
+      "es": [
+        "El precio basado en créditos requiere algo de cálculo para mapearlo al uso real",
+        "Enfocado en voz: no es una plataforma de IA de propósito general",
+        "Menos idiomas y voces que los mayores incumbentes como ElevenLabs",
+        "Empresa más joven, así que el ecosistema y las integraciones aún crecen"
+      ],
+      "fr": [
+        "La tarification à base de crédits demande un peu de calcul pour la relier à l'usage réel",
+        "Axé sur la voix — pas une plateforme d'IA généraliste",
+        "Moins de langues et de voix que les plus grands acteurs comme ElevenLabs",
+        "Entreprise plus jeune, donc l'écosystème et les intégrations sont encore en croissance"
+      ]
+    },
+    "latestUpdate": {
+      "en": "2026: Cartesia continues to push its real-time voice stack — Sonic 3.5 for text-to-speech and Ink-2 for transcription — keeping its lead on low-latency voice benchmarks and expanding voice options for developers building live agents and phone-based AI.",
+      "zh": "2026 年：Cartesia 持续打磨其实时语音栈——用于文本转语音的 Sonic 3.5 与用于转录的 Ink-2——保持低延迟语音评测的领先，并为构建实时智能体和电话 AI 的开发者扩充音色选项。",
+      "ja": "2026年：Cartesiaはリアルタイム音声スタック——音声合成のSonic 3.5と文字起こしのInk-2——を磨き続け、低レイテンシ音声ベンチマークでのリードを維持し、ライブエージェントや電話ベースAIを作る開発者向けにボイス選択肢を拡充している。",
+      "es": "2026: Cartesia sigue impulsando su stack de voz en tiempo real —Sonic 3.5 para texto a voz e Ink-2 para transcripción—, manteniendo su liderazgo en benchmarks de voz de baja latencia y ampliando las opciones de voz para desarrolladores que construyen agentes en vivo e IA telefónica.",
+      "fr": "2026 : Cartesia continue de faire progresser sa pile vocale temps réel — Sonic 3.5 pour la synthèse et Ink-2 pour la transcription — gardant son avance sur les benchmarks de voix à faible latence et élargissant les options de voix pour les développeurs construisant des agents en direct et de l'IA téléphonique."
+    },
+    "verdict": {
+      "badge": "Recommended",
+      "headline": {
+        "en": "The go-to voice API when latency is the whole game",
+        "zh": "当延迟就是一切时，语音 API 的首选",
+        "ja": "レイテンシがすべてを決めるとき、頼りになる音声API",
+        "es": "La API de voz de referencia cuando la latencia lo es todo",
+        "fr": "L'API vocale de référence quand la latence fait tout"
+      },
+      "body": {
+        "en": "Cartesia was founded by the researchers behind state-space models — the Mamba architecture — and it shows in the one number that matters most for live voice: latency. Its Sonic 3.5 text-to-speech regularly tops real-time voice leaderboards, and the companion Ink-2 transcription model rounds out a stack purpose-built for AI phone agents and interactive assistants where any lag breaks the illusion of a conversation. For developers, the appeal is a single team and API handling both speech-out and speech-in, plus voice cloning and a generous free tier (about 20k credits a month at $0) that makes it easy to prototype before the paid Pro/Startup/Scale tiers kick in. The honest caveats: pricing is credit-based, so you'll do a little arithmetic to map credits onto characters and cost; it's a voice specialist rather than an all-in-one AI platform; and its language and voice catalog is still smaller than ElevenLabs. But when your product lives or dies on how instantly a voice responds, Cartesia is one of the strongest options on the market — and worth putting head-to-head with ElevenLabs before you commit.",
+        "zh": "Cartesia 由状态空间模型（Mamba 架构）背后的研究者创办，这一点体现在实时语音最要紧的那个指标上：延迟。它的 Sonic 3.5 文本转语音常年霸榜实时语音评测，配套的 Ink-2 转录模型补全了一整套为 AI 电话智能体、交互式助手打造的栈——在这些场景里，任何卡顿都会打破「对话」的错觉。对开发者而言，吸引力在于同一团队、同一 API 同时处理语音输出与输入，外加语音克隆和一个慷慨的免费档（$0 每月约 2 万信用点），付费的 Pro/Startup/Scale 档启用前就能轻松做原型。诚实的提醒：定价基于信用点，把信用点换算成字符和成本得算一算；它是语音专家而非一站式 AI 平台；语言与音色目录仍小于 ElevenLabs。但当你的产品成败取决于语音回应有多即时时，Cartesia 是市面上最强的选择之一——锁定前值得和 ElevenLabs 正面对比。",
+        "ja": "CartesiaはState-Space Model——Mambaアーキテクチャ——を生んだ研究者たちによって創業され、それはライブ音声で最も重要な一つの数字、すなわちレイテンシに表れている。Sonic 3.5音声合成はリアルタイム音声ランキングで常に上位に立ち、対をなすInk-2文字起こしモデルが、いかなる遅延も会話の錯覚を壊すAI電話エージェントや対話型アシスタント向けに設計されたスタックを完成させる。開発者にとっての魅力は、音声出力と入力の両方を同じチーム・同じAPIが扱うこと、加えて音声クローンと寛容な無料枠（$0で月約2万クレジット）により、有料のPro/Startup/Scaleに入る前に手軽に試作できる点だ。正直な注意点：課金はクレジットベースなので、クレジットを文字とコストに換算するのに少し計算がいる。汎用AIプラットフォームではなく音声の専門家であり、言語とボイスのカタログはElevenLabsより小さい。しかし製品の成否が声の応答の即時性で決まるなら、Cartesiaは市場で最も強力な選択肢の一つであり——コミットする前にElevenLabsと直接比較する価値がある。",
+        "es": "Cartesia fue fundada por los investigadores detrás de los modelos de espacio de estados —la arquitectura Mamba— y se nota en el número que más importa para la voz en vivo: la latencia. Su texto a voz Sonic 3.5 encabeza con regularidad los rankings de voz en tiempo real, y el modelo de transcripción complementario Ink-2 completa un stack creado a propósito para agentes telefónicos de IA y asistentes interactivos donde cualquier retraso rompe la ilusión de una conversación. Para los desarrolladores, el atractivo es un solo equipo y API que manejan tanto la salida como la entrada de voz, más clonación de voz y un nivel gratuito generoso (unos 20k créditos al mes a $0) que facilita prototipar antes de los niveles de pago Pro/Startup/Scale. Las advertencias honestas: el precio es por créditos, así que harás algo de aritmética para mapear créditos a caracteres y coste; es un especialista en voz, no una plataforma de IA todo en uno; y su catálogo de idiomas y voces sigue siendo menor que el de ElevenLabs. Pero cuando tu producto vive o muere según lo instantánea que responda una voz, Cartesia es una de las opciones más fuertes del mercado, y vale la pena enfrentarla a ElevenLabs antes de comprometerte.",
+        "fr": "Cartesia a été fondée par les chercheurs à l'origine des modèles à espace d'états — l'architecture Mamba — et cela se voit sur le chiffre qui compte le plus pour la voix en direct : la latence. Sa synthèse vocale Sonic 3.5 domine régulièrement les classements vocaux temps réel, et le modèle de transcription associé Ink-2 complète une pile conçue pour les agents téléphoniques IA et les assistants interactifs où le moindre décalage brise l'illusion d'une conversation. Pour les développeurs, l'attrait est une seule équipe et API gérant à la fois la sortie et l'entrée vocales, plus le clonage de voix et un niveau gratuit généreux (environ 20k crédits par mois à 0 $) qui facilite le prototypage avant les niveaux payants Pro/Startup/Scale. Les réserves honnêtes : la tarification est à base de crédits, il faudra donc un peu d'arithmétique pour relier crédits, caractères et coût ; c'est un spécialiste de la voix plutôt qu'une plateforme IA tout-en-un ; et son catalogue de langues et de voix reste plus petit que celui d'ElevenLabs. Mais quand votre produit vit ou meurt selon l'instantanéité de la réponse vocale, Cartesia est l'une des options les plus solides du marché — et mérite d'être comparée directement à ElevenLabs avant de vous engager."
+      },
+      "bestFor": {
+        "en": [
+          "Real-time voice agents and AI phone systems where latency is critical",
+          "Developers who want TTS and transcription from one API",
+          "Teams needing voice cloning with a generous free tier to start"
+        ],
+        "zh": [
+          "延迟至关重要的实时语音智能体与 AI 电话系统",
+          "想要同一 API 提供语音合成与转录的开发者",
+          "需要语音克隆、且希望有慷慨免费档起步的团队"
+        ],
+        "ja": [
+          "レイテンシが決定的なリアルタイム音声エージェントやAI電話システム",
+          "音声合成と文字起こしを同じAPIで欲しい開発者",
+          "音声クローンが必要で寛容な無料枠から始めたいチーム"
+        ],
+        "es": [
+          "Agentes de voz en tiempo real y sistemas telefónicos de IA donde la latencia es crítica",
+          "Desarrolladores que quieren TTS y transcripción desde una sola API",
+          "Equipos que necesitan clonación de voz con un nivel gratuito generoso para empezar"
+        ],
+        "fr": [
+          "Agents vocaux temps réel et systèmes téléphoniques IA où la latence est critique",
+          "Développeurs voulant TTS et transcription depuis une seule API",
+          "Équipes ayant besoin de clonage de voix avec un niveau gratuit généreux pour démarrer"
+        ]
+      },
+      "considerAlternatives": {
+        "en": [
+          "You want the largest voice/language catalog and richest ecosystem (→ ElevenLabs)",
+          "You need an all-in-one media suite beyond voice (→ a broader platform)"
+        ],
+        "zh": [
+          "你想要最大的音色/语言目录与最丰富的生态（→ ElevenLabs）",
+          "你需要语音之外的一站式媒体套件（→ 更综合的平台）"
+        ],
+        "ja": [
+          "最大のボイス／言語カタログと最も充実したエコシステムが欲しい（→ ElevenLabs）",
+          "音声を超えたオールインワンのメディアスイートが必要（→ より広範なプラットフォーム）"
+        ],
+        "es": [
+          "Quieres el mayor catálogo de voces/idiomas y el ecosistema más rico (→ ElevenLabs)",
+          "Necesitas una suite multimedia todo en uno más allá de la voz (→ una plataforma más amplia)"
+        ],
+        "fr": [
+          "Vous voulez le plus grand catalogue de voix/langues et l'écosystème le plus riche (→ ElevenLabs)",
+          "Vous avez besoin d'une suite média tout-en-un au-delà de la voix (→ une plateforme plus large)"
+        ]
+      }
+    },
+    "meta": {
+      "lastVerified": "2026-07-28",
+      "verdictDate": "2026-07-28",
+      "pricingVerified": "2026-07-28",
+      "pricingUrl": "https://www.cartesia.ai/pricing"
+    }
+  },
+  "cerebras": {
+    "features": {
+      "en": [
+        "Wafer-Scale Engine (WSE) inference — often benchmarked as the world's fastest, ~20x faster than GPU clouds",
+        "OpenAI-compatible API for open models: Llama, Qwen, GPT-OSS, DeepSeek and more",
+        "Self-serve Developer tier with pay-as-you-go token pricing and generous rate limits",
+        "Dedicated endpoints for production capacity when you need guaranteed throughput",
+        "Sub-second time-to-first-token that makes real-time agents and voice feel instant",
+        "$5 in free credits on signup to benchmark speed before committing"
+      ],
+      "zh": [
+        "晶圆级引擎（WSE）推理——常被评测为全球最快，约为 GPU 云的 20 倍",
+        "OpenAI 兼容 API，覆盖开源模型：Llama、Qwen、GPT-OSS、DeepSeek 等",
+        "自助 Developer 档，按量 token 计价，速率上限慷慨",
+        "生产场景可上专属端点，吞吐有保障",
+        "亚秒级首 token 延迟，让实时智能体与语音交互近乎即时",
+        "注册送 $5 免费额度，先测速再决定"
+      ],
+      "ja": [
+        "ウエハースケールエンジン（WSE）推論——世界最速とベンチマークされることが多く、GPUクラウドの約20倍",
+        "OpenAI互換API。Llama、Qwen、GPT-OSS、DeepSeekなどのオープンモデルに対応",
+        "セルフサーブのDeveloperティア。従量課金のトークン単価と寛容なレート制限",
+        "本番の処理能力が必要なときはスループット保証の専用エンドポイント",
+        "サブ秒の初回トークン応答で、リアルタイムエージェントや音声が瞬時に感じられる",
+        "登録時に$5の無料クレジット。コミット前に速度をベンチマーク可能"
+      ],
+      "es": [
+        "Inferencia con Wafer-Scale Engine (WSE): a menudo medida como la más rápida del mundo, ~20x más rápida que las nubes GPU",
+        "API compatible con OpenAI para modelos abiertos: Llama, Qwen, GPT-OSS, DeepSeek y más",
+        "Nivel Developer autoservicio con precios por token de pago por uso y límites de tasa generosos",
+        "Endpoints dedicados para capacidad de producción cuando necesitas rendimiento garantizado",
+        "Tiempo hasta el primer token por debajo de un segundo que hace que agentes en tiempo real y voz se sientan instantáneos",
+        "$5 en créditos gratis al registrarte para medir la velocidad antes de comprometerte"
+      ],
+      "fr": [
+        "Inférence Wafer-Scale Engine (WSE) — souvent mesurée comme la plus rapide au monde, ~20x plus rapide que les clouds GPU",
+        "API compatible OpenAI pour modèles ouverts : Llama, Qwen, GPT-OSS, DeepSeek et plus",
+        "Niveau Developer en libre-service avec tarification au token à l'usage et limites de débit généreuses",
+        "Endpoints dédiés pour la capacité de production quand un débit garanti est nécessaire",
+        "Temps jusqu'au premier token inférieur à la seconde, rendant les agents temps réel et la voix instantanés",
+        "5 $ de crédits gratuits à l'inscription pour mesurer la vitesse avant de s'engager"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "New accounts get $5 in free credits and access to all Cerebras-powered models with rate limits, enough to benchmark the speed before paying.",
+        "zh": "新账号获赠 $5 免费额度，可在速率限制下访问全部 Cerebras 驱动的模型，足以在付费前测速。",
+        "ja": "新規アカウントには$5の無料クレジットが付与され、レート制限付きですべてのCerebras対応モデルにアクセス可能。支払い前に速度をベンチマークするのに十分。",
+        "es": "Las cuentas nuevas reciben $5 en créditos gratis y acceso a todos los modelos con tecnología Cerebras con límites de tasa, suficiente para medir la velocidad antes de pagar.",
+        "fr": "Les nouveaux comptes reçoivent 5 $ de crédits gratuits et l'accès à tous les modèles propulsés par Cerebras avec des limites de débit, suffisant pour mesurer la vitesse avant de payer."
+      },
+      "paid": {
+        "en": "Pay-as-you-go token pricing — roughly $0.10 per million tokens for Llama 3.1 8B and about $0.60 per million input/output tokens for Llama 70B-class models; a self-serve Developer tier raises rate limits, and dedicated endpoints are quoted for production capacity. (Verified against the official pricing page, 2026-07-28.)",
+        "zh": "按量 token 计价——Llama 3.1 8B 约 $0.10/百万 token，Llama 70B 级模型约 $0.60/百万输入输出 token；自助 Developer 档提高速率上限，专属端点按产能报价。（对照官方定价页核实，2026-07-28。）",
+        "ja": "従量課金のトークン単価——Llama 3.1 8Bは約$0.10/100万トークン、Llama 70Bクラスは入出力約$0.60/100万トークン。セルフサーブのDeveloperティアでレート制限を引き上げ、専用エンドポイントは本番の処理能力に応じて見積もり。（公式価格ページと照合、2026-07-28。）",
+        "es": "Precios por token de pago por uso: aproximadamente $0.10 por millón de tokens para Llama 3.1 8B y unos $0.60 por millón de tokens de entrada/salida para modelos clase Llama 70B; un nivel Developer autoservicio eleva los límites de tasa y los endpoints dedicados se cotizan para capacidad de producción. (Verificado con la página oficial de precios, 2026-07-28.)",
+        "fr": "Tarification au token à l'usage — environ 0,10 $ par million de tokens pour Llama 3.1 8B et environ 0,60 $ par million de tokens entrée/sortie pour les modèles de classe Llama 70B ; un niveau Developer en libre-service augmente les limites de débit, et les endpoints dédiés sont devisés pour la capacité de production. (Vérifié avec la page tarifaire officielle, 2026-07-28.)"
+      }
+    },
+    "useCases": {
+      "en": [
+        "Real-time agents and voice apps where every millisecond of latency is felt",
+        "High-throughput reasoning chains that would be too slow on GPU inference",
+        "Serving open models like Llama and Qwen at the fastest available speed",
+        "Prototyping latency-sensitive features on free credits before scaling"
+      ],
+      "zh": [
+        "对延迟极度敏感的实时智能体与语音应用",
+        "在 GPU 推理上会太慢的高吞吐推理链",
+        "以业界最快速度部署 Llama、Qwen 等开源模型",
+        "用免费额度先验证延迟敏感功能，再扩容"
+      ],
+      "ja": [
+        "1ミリ秒の遅延も体感されるリアルタイムエージェントや音声アプリ",
+        "GPU推論では遅すぎる高スループットの推論チェーン",
+        "LlamaやQwenなどのオープンモデルを最速で提供",
+        "無料クレジットでレイテンシ重視の機能を試作してからスケール"
+      ],
+      "es": [
+        "Agentes en tiempo real y apps de voz donde cada milisegundo de latencia se nota",
+        "Cadenas de razonamiento de alto rendimiento que serían demasiado lentas en inferencia GPU",
+        "Servir modelos abiertos como Llama y Qwen a la mayor velocidad disponible",
+        "Prototipar funciones sensibles a la latencia con créditos gratis antes de escalar"
+      ],
+      "fr": [
+        "Agents temps réel et applis vocales où chaque milliseconde de latence se ressent",
+        "Chaînes de raisonnement à haut débit qui seraient trop lentes en inférence GPU",
+        "Servir des modèles ouverts comme Llama et Qwen à la vitesse la plus rapide disponible",
+        "Prototyper des fonctionnalités sensibles à la latence avec des crédits gratuits avant de passer à l'échelle"
+      ]
+    },
+    "pros": {
+      "en": [
+        "Genuinely category-leading inference speed backed by custom wafer-scale silicon",
+        "OpenAI-compatible API means migration is often a one-line base-URL change",
+        "Transparent per-token pricing that is competitive with GPU inference clouds",
+        "Free credits and a self-serve tier make it easy to benchmark before buying"
+      ],
+      "zh": [
+        "由自研晶圆级芯片支撑的推理速度确实是品类领先",
+        "OpenAI 兼容 API，迁移往往只需改一行 base URL",
+        "透明的按 token 计价，与 GPU 推理云相比有竞争力",
+        "免费额度加自助档，购买前很容易先测速"
+      ],
+      "ja": [
+        "独自のウエハースケールシリコンに裏打ちされた、真にカテゴリ最速の推論速度",
+        "OpenAI互換APIなので、移行はベースURLを1行変えるだけで済むことが多い",
+        "GPU推論クラウドと競争力のある透明なトークン単価",
+        "無料クレジットとセルフサーブ階層で、購入前のベンチマークが容易"
+      ],
+      "es": [
+        "Velocidad de inferencia líder en su categoría, respaldada por silicio wafer-scale propio",
+        "La API compatible con OpenAI hace que migrar sea a menudo cambiar una línea de URL base",
+        "Precios por token transparentes y competitivos frente a las nubes de inferencia GPU",
+        "Créditos gratis y un nivel autoservicio facilitan medir antes de comprar"
+      ],
+      "fr": [
+        "Vitesse d'inférence réellement leader de sa catégorie, portée par un silicium wafer-scale maison",
+        "L'API compatible OpenAI rend la migration souvent limitée à une ligne d'URL de base",
+        "Tarification au token transparente et compétitive face aux clouds d'inférence GPU",
+        "Crédits gratuits et niveau libre-service facilitent le benchmark avant l'achat"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Catalog is focused on open models — no proprietary frontier model of its own",
+        "Fewer supported models than broad aggregators like Together or OpenRouter",
+        "Peak speed advantage matters most for latency-bound apps, less for batch jobs",
+        "Dedicated production capacity requires talking to sales rather than pure self-serve"
+      ],
+      "zh": [
+        "目录聚焦开源模型——没有自家的闭源前沿模型",
+        "支持的模型数量少于 Together、OpenRouter 这类广谱聚合商",
+        "峰值速度优势对延迟受限的应用最有意义，对批处理作用较小",
+        "专属生产产能需对接销售，而非纯自助开通"
+      ],
+      "ja": [
+        "カタログはオープンモデル中心——自社のクローズドなフロンティアモデルはない",
+        "TogetherやOpenRouterのような広範なアグリゲーターより対応モデルが少ない",
+        "ピーク速度の優位はレイテンシ制約のアプリで最も効き、バッチ処理では効きにくい",
+        "専用の本番キャパシティは純粋なセルフサーブではなく営業との相談が必要"
+      ],
+      "es": [
+        "El catálogo se centra en modelos abiertos: no tiene un modelo frontera propietario propio",
+        "Menos modelos soportados que agregadores amplios como Together u OpenRouter",
+        "La ventaja de velocidad máxima importa más para apps limitadas por latencia que para lotes",
+        "La capacidad de producción dedicada requiere hablar con ventas en lugar de puro autoservicio"
+      ],
+      "fr": [
+        "Le catalogue est centré sur les modèles ouverts — pas de modèle frontière propriétaire maison",
+        "Moins de modèles pris en charge que les agrégateurs larges comme Together ou OpenRouter",
+        "L'avantage de vitesse de pointe compte surtout pour les applis limitées par la latence, moins pour le batch",
+        "La capacité de production dédiée exige de contacter le commercial plutôt qu'un pur libre-service"
+      ]
+    },
+    "latestUpdate": {
+      "en": "2026: Cerebras continues to top public inference-speed leaderboards for open models, expanding its hosted catalog (Llama, Qwen, GPT-OSS, DeepSeek) and pushing its self-serve Developer tier and dedicated endpoints for production teams that need guaranteed throughput.",
+      "zh": "2026 年：Cerebras 持续在开源模型的公开推理测速榜上领跑，扩充其托管目录（Llama、Qwen、GPT-OSS、DeepSeek），并主推自助 Developer 档与面向需要吞吐保障的生产团队的专属端点。",
+      "ja": "2026年：Cerebrasはオープンモデルの公開推論速度ランキングで首位を維持し続け、ホスト型カタログ（Llama、Qwen、GPT-OSS、DeepSeek）を拡充。スループット保証が必要な本番チーム向けに、セルフサーブのDeveloperティアと専用エンドポイントを推進している。",
+      "es": "2026: Cerebras sigue encabezando los rankings públicos de velocidad de inferencia para modelos abiertos, ampliando su catálogo alojado (Llama, Qwen, GPT-OSS, DeepSeek) e impulsando su nivel Developer autoservicio y endpoints dedicados para equipos de producción que necesitan rendimiento garantizado.",
+      "fr": "2026 : Cerebras continue de dominer les classements publics de vitesse d'inférence pour les modèles ouverts, élargissant son catalogue hébergé (Llama, Qwen, GPT-OSS, DeepSeek) et poussant son niveau Developer en libre-service ainsi que des endpoints dédiés pour les équipes de production ayant besoin d'un débit garanti."
+    },
+    "verdict": {
+      "badge": "Recommended",
+      "headline": {
+        "en": "The fastest way to run open models when latency is the product",
+        "zh": "当延迟就是产品体验时，跑开源模型最快的一条路",
+        "ja": "レイテンシこそが体験であるとき、オープンモデルを走らせる最速の道",
+        "es": "La forma más rápida de ejecutar modelos abiertos cuando la latencia es el producto",
+        "fr": "Le moyen le plus rapide d'exécuter des modèles ouverts quand la latence est le produit"
+      },
+      "body": {
+        "en": "Cerebras made a bet almost nobody else took seriously: instead of stitching together thousands of GPUs, build one chip the size of a dinner plate. That Wafer-Scale Engine is why Cerebras Inference routinely tops public speed leaderboards, generating tokens for open models like Llama and Qwen many times faster than GPU clouds. For most CRUD apps that speed is a nice-to-have, but for a whole class of products — real-time voice agents, interactive reasoning, anything where a user is watching text appear — it is the difference between magic and frustration. The API speaks OpenAI, so trying it is a one-line change, and pricing is honest pay-as-you-go with $5 of free credits to benchmark first. The honest caveats: this is a home for open models, not frontier proprietary ones, and the supported catalog is narrower than a broad aggregator's. If your workload is batch processing where throughput-per-dollar matters more than first-token latency, cheaper options exist. But if speed is a feature your users can feel, Cerebras is the one to beat — and right now it usually wins.",
+        "zh": "Cerebras 押了一个几乎没人当真的赌注：与其把上千块 GPU 拼在一起，不如造一块餐盘那么大的芯片。正是这块晶圆级引擎，让 Cerebras Inference 常年霸榜公开测速——为 Llama、Qwen 等开源模型生成 token 的速度是 GPU 云的数倍。对大多数增删改查应用，这种速度是锦上添花；但对一整类产品——实时语音智能体、交互式推理、任何用户盯着文字冒出来的场景——它是「惊艳」与「烦躁」之间的分水岭。API 说 OpenAI 方言，试用只需改一行；定价是诚实的按量付费，还有 $5 免费额度先测速。诚实的提醒：这里是开源模型的家，没有闭源前沿模型，支持的目录也比广谱聚合商窄。如果你的负载是批处理、更看重每美元吞吐而非首 token 延迟，有更便宜的选择。但只要「速度」是用户能感知的功能，Cerebras 就是那个要被超越的标杆——而眼下它通常赢。",
+        "ja": "Cerebrasは、ほぼ誰も本気にしなかった賭けに出た。数千個のGPUを繋ぎ合わせる代わりに、ディナープレートほどの大きさのチップを1枚作るという賭けだ。そのウエハースケールエンジンこそが、Cerebras Inferenceが公開速度ランキングで常に首位に立つ理由であり、LlamaやQwenなどのオープンモデルのトークン生成をGPUクラウドの何倍もの速さで行う。ほとんどのCRUDアプリではこの速度はあれば嬉しい程度だが、一群の製品——リアルタイム音声エージェント、対話型推論、ユーザーがテキストの出現を見つめるあらゆる場面——では、「魔法」と「苛立ち」の分かれ目になる。APIはOpenAI方言を話すので試用は1行の変更で済み、価格は誠実な従量課金で、まず$5の無料クレジットでベンチマークできる。正直な注意点：ここはオープンモデルの家であり、クローズドなフロンティアモデルはなく、対応カタログは広範なアグリゲーターより狭い。ワークロードがバッチ処理で、初回トークンのレイテンシより1ドルあたりのスループットが重要なら、より安い選択肢がある。しかし速度がユーザーに体感できる機能であるなら、Cerebrasは超えるべき基準であり——今のところ、たいてい勝つ。",
+        "es": "Cerebras hizo una apuesta que casi nadie se tomó en serio: en lugar de unir miles de GPUs, construir un solo chip del tamaño de un plato. Ese Wafer-Scale Engine es la razón por la que Cerebras Inference encabeza habitualmente los rankings públicos de velocidad, generando tokens para modelos abiertos como Llama y Qwen muchas veces más rápido que las nubes GPU. Para la mayoría de las apps CRUD esa velocidad es un extra, pero para toda una clase de productos —agentes de voz en tiempo real, razonamiento interactivo, cualquier cosa donde el usuario ve aparecer el texto— es la diferencia entre magia y frustración. La API habla OpenAI, así que probarla es cambiar una línea, y el precio es pago por uso honesto con $5 de créditos gratis para medir primero. Las advertencias honestas: este es un hogar para modelos abiertos, no para frontera propietaria, y el catálogo soportado es más estrecho que el de un agregador amplio. Si tu carga es procesamiento por lotes donde el rendimiento por dólar importa más que la latencia del primer token, existen opciones más baratas. Pero si la velocidad es una función que tus usuarios sienten, Cerebras es el rival a batir, y ahora mismo suele ganar.",
+        "fr": "Cerebras a fait un pari que presque personne n'a pris au sérieux : au lieu d'assembler des milliers de GPU, construire une seule puce de la taille d'une assiette. Ce Wafer-Scale Engine explique pourquoi Cerebras Inference domine régulièrement les classements publics de vitesse, générant des tokens pour des modèles ouverts comme Llama et Qwen bien plus vite que les clouds GPU. Pour la plupart des applis CRUD, cette vitesse est un plus, mais pour toute une classe de produits — agents vocaux temps réel, raisonnement interactif, tout ce où l'utilisateur regarde le texte apparaître — c'est la différence entre la magie et la frustration. L'API parle OpenAI, donc l'essayer tient en une ligne, et la tarification est un paiement à l'usage honnête avec 5 $ de crédits gratuits pour mesurer d'abord. Les réserves honnêtes : c'est un foyer pour modèles ouverts, pas pour du frontière propriétaire, et le catalogue pris en charge est plus étroit que celui d'un agrégateur large. Si votre charge est du traitement par lots où le débit par dollar compte plus que la latence du premier token, des options moins chères existent. Mais si la vitesse est une fonctionnalité que vos utilisateurs ressentent, Cerebras est la référence à battre — et pour l'instant, il gagne le plus souvent."
+      },
+      "bestFor": {
+        "en": [
+          "Teams building real-time voice or agent products on open models",
+          "Developers who need the lowest possible time-to-first-token",
+          "Anyone benchmarking inference speed before committing to a provider"
+        ],
+        "zh": [
+          "在开源模型上做实时语音或智能体产品的团队",
+          "需要尽可能低首 token 延迟的开发者",
+          "在锁定供应商前想先对比推理速度的人"
+        ],
+        "ja": [
+          "オープンモデルでリアルタイム音声やエージェント製品を作るチーム",
+          "可能な限り低い初回トークン応答時間が必要な開発者",
+          "プロバイダーを決める前に推論速度をベンチマークしたい人"
+        ],
+        "es": [
+          "Equipos que construyen productos de voz o agentes en tiempo real sobre modelos abiertos",
+          "Desarrolladores que necesitan el menor tiempo posible hasta el primer token",
+          "Cualquiera que mida la velocidad de inferencia antes de comprometerse con un proveedor"
+        ],
+        "fr": [
+          "Équipes construisant des produits vocaux ou agents temps réel sur modèles ouverts",
+          "Développeurs ayant besoin du temps jusqu'au premier token le plus bas possible",
+          "Quiconque compare la vitesse d'inférence avant de s'engager avec un fournisseur"
+        ]
+      },
+      "considerAlternatives": {
+        "en": [
+          "You need frontier proprietary models above all (→ OpenAI / Anthropic / Gemini)",
+          "You want the widest open-model catalog at the lowest batch cost (→ Together AI / OpenRouter)"
+        ],
+        "zh": [
+          "你最需要闭源前沿模型（→ OpenAI / Anthropic / Gemini）",
+          "你想要最广的开源模型目录与最低批处理成本（→ Together AI / OpenRouter）"
+        ],
+        "ja": [
+          "何よりクローズドなフロンティアモデルが必要（→ OpenAI / Anthropic / Gemini）",
+          "最も広いオープンモデルカタログと最低のバッチコストが欲しい（→ Together AI / OpenRouter）"
+        ],
+        "es": [
+          "Necesitas modelos frontera propietarios por encima de todo (→ OpenAI / Anthropic / Gemini)",
+          "Quieres el catálogo de modelos abiertos más amplio al menor coste por lotes (→ Together AI / OpenRouter)"
+        ],
+        "fr": [
+          "Vous avez avant tout besoin de modèles frontière propriétaires (→ OpenAI / Anthropic / Gemini)",
+          "Vous voulez le catalogue de modèles ouverts le plus large au coût de batch le plus bas (→ Together AI / OpenRouter)"
+        ]
+      }
+    },
+    "meta": {
+      "lastVerified": "2026-07-28",
+      "verdictDate": "2026-07-28",
+      "pricingVerified": "2026-07-28",
+      "pricingUrl": "https://www.cerebras.ai/pricing"
+    }
+  },
+  "exa": {
+    "features": {
+      "en": [
+        "AI-native search API built to feed LLMs and agents, not humans browsing",
+        "Neural/embeddings search that understands meaning, not just keywords",
+        "Returns clean page content directly, so no separate scraping step",
+        "Deep Search for multi-step research queries across the live web",
+        "Websets — curated, structured collections of entities matching a query",
+        "OpenAI-compatible tooling and SDKs for easy agent integration"
+      ],
+      "zh": [
+        "AI 原生搜索 API，为喂养 LLM 与智能体而生，而非给人浏览",
+        "神经/嵌入式搜索，理解语义而非仅匹配关键词",
+        "直接返回干净的页面内容，省去单独的抓取步骤",
+        "Deep Search 面向跨实时网络的多步研究型查询",
+        "Websets——匹配查询的实体经过整理、结构化的集合",
+        "OpenAI 兼容工具与 SDK，便于智能体集成"
+      ],
+      "ja": [
+        "人間の閲覧ではなくLLMやエージェントに供給するために作られたAIネイティブ検索API",
+        "キーワードだけでなく意味を理解するニューラル／埋め込み検索",
+        "クリーンなページ内容を直接返すため、別途スクレイピング不要",
+        "ライブウェブ全体にわたる多段階リサーチクエリ向けのDeep Search",
+        "Websets——クエリに一致するエンティティを整理・構造化したコレクション",
+        "エージェント統合を容易にするOpenAI互換ツールとSDK"
+      ],
+      "es": [
+        "API de búsqueda nativa de IA creada para alimentar LLMs y agentes, no para que humanos naveguen",
+        "Búsqueda neural/por embeddings que entiende el significado, no solo palabras clave",
+        "Devuelve contenido limpio de las páginas directamente, sin un paso de scraping aparte",
+        "Deep Search para consultas de investigación multipaso en la web en vivo",
+        "Websets: colecciones curadas y estructuradas de entidades que coinciden con una consulta",
+        "Herramientas y SDKs compatibles con OpenAI para una integración fácil de agentes"
+      ],
+      "fr": [
+        "API de recherche native IA conçue pour alimenter les LLM et agents, pas la navigation humaine",
+        "Recherche neuronale/par embeddings qui comprend le sens, pas seulement les mots-clés",
+        "Renvoie directement le contenu propre des pages, sans étape de scraping séparée",
+        "Deep Search pour des requêtes de recherche multi-étapes sur le web en direct",
+        "Websets — collections curées et structurées d'entités correspondant à une requête",
+        "Outils et SDK compatibles OpenAI pour une intégration facile des agents"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "New accounts get about $10 in free credits to try the API, and the content of the first ~10 results per search is returned at no extra charge.",
+        "zh": "新账号获约 $10 免费额度试用 API，每次搜索前约 10 条结果的内容免费返回。",
+        "ja": "新規アカウントにはAPIを試すための約$10の無料クレジットが付与され、1検索あたり最初の約10件の結果内容は追加料金なしで返される。",
+        "es": "Las cuentas nuevas reciben unos $10 en créditos gratis para probar la API, y el contenido de los primeros ~10 resultados por búsqueda se devuelve sin coste adicional.",
+        "fr": "Les nouveaux comptes reçoivent environ 10 $ de crédits gratuits pour essayer l'API, et le contenu des ~10 premiers résultats par recherche est renvoyé sans frais supplémentaires."
+      },
+      "paid": {
+        "en": "Usage-based: a Search (with content) runs about $7 per 1,000 requests and Deep Search about $12–15 per 1,000; content for the first ~10 results is free. Websets is a separate subscription from about $49/month (~8,000 credits). Exa simplified and lowered these rates in early 2026. (Verified against the official pricing page, 2026-07-28.)",
+        "zh": "按用量计费：Search（含内容）约 $7/千次，Deep Search 约 $12–15/千次；前约 10 条结果内容免费。Websets 为单独订阅，约 $49/月（约 8000 信用点）。Exa 于 2026 年初简化并下调了这些费率。（对照官方定价页核实，2026-07-28。）",
+        "ja": "従量課金：Search（コンテンツ付き）は約$7/1,000リクエスト、Deep Searchは約$12〜15/1,000。最初の約10件の結果コンテンツは無料。Websetsは別サブスクで約$49/月（約8,000クレジット）。Exaは2026年初頭にこれらの料率を簡素化・引き下げた。（公式価格ページと照合、2026-07-28。）",
+        "es": "Basado en uso: una Search (con contenido) cuesta unos $7 por 1000 solicitudes y Deep Search unos $12–15 por 1000; el contenido de los primeros ~10 resultados es gratis. Websets es una suscripción aparte desde unos $49/mes (~8000 créditos). Exa simplificó y bajó estas tarifas a comienzos de 2026. (Verificado con la página oficial de precios, 2026-07-28.)",
+        "fr": "Basé sur l'usage : une Search (avec contenu) coûte environ 7 $ pour 1 000 requêtes et Deep Search environ 12–15 $ pour 1 000 ; le contenu des ~10 premiers résultats est gratuit. Websets est un abonnement séparé à partir d'environ 49 $/mois (~8 000 crédits). Exa a simplifié et baissé ces tarifs début 2026. (Vérifié avec la page tarifaire officielle, 2026-07-28.)"
+      }
+    },
+    "useCases": {
+      "en": [
+        "Giving AI agents live, meaning-based web search as a tool",
+        "Powering RAG pipelines with clean, ready-to-use page content",
+        "Automated research that needs multi-step Deep Search over the web",
+        "Building curated entity lists (companies, people, papers) with Websets"
+      ],
+      "zh": [
+        "把基于语义的实时网络搜索作为工具赋予 AI 智能体",
+        "用干净、开箱即用的页面内容驱动 RAG 管线",
+        "需要跨网络多步 Deep Search 的自动化研究",
+        "用 Websets 构建整理好的实体清单（公司、人物、论文）"
+      ],
+      "ja": [
+        "AIエージェントに意味ベースのライブウェブ検索をツールとして提供",
+        "クリーンですぐ使えるページ内容でRAGパイプラインを駆動",
+        "ウェブ全体を多段階Deep Searchする必要のある自動リサーチ",
+        "Websetsで整理済みのエンティティリスト（企業・人物・論文）を構築"
+      ],
+      "es": [
+        "Dar a los agentes de IA búsqueda web en vivo basada en significado como herramienta",
+        "Impulsar pipelines RAG con contenido de páginas limpio y listo para usar",
+        "Investigación automatizada que necesita Deep Search multipaso en la web",
+        "Construir listas curadas de entidades (empresas, personas, artículos) con Websets"
+      ],
+      "fr": [
+        "Donner aux agents IA une recherche web en direct basée sur le sens comme outil",
+        "Alimenter des pipelines RAG avec un contenu de page propre et prêt à l'emploi",
+        "Recherche automatisée nécessitant un Deep Search multi-étapes sur le web",
+        "Construire des listes curées d'entités (entreprises, personnes, articles) avec Websets"
+      ]
+    },
+    "pros": {
+      "en": [
+        "Purpose-built for agents and RAG rather than retrofitted human search",
+        "Neural search surfaces semantically relevant pages keywords miss",
+        "Returns page content directly, removing a scraping/parsing step",
+        "Simplified, lowered pricing in 2026 with free content on top results"
+      ],
+      "zh": [
+        "为智能体与 RAG 而生，而非把人类搜索硬改而来",
+        "神经搜索能挖出关键词漏掉的语义相关页面",
+        "直接返回页面内容，省去抓取/解析步骤",
+        "2026 年简化并下调定价，头部结果内容免费"
+      ],
+      "ja": [
+        "人間向け検索の後付けではなく、エージェントとRAGのために設計",
+        "ニューラル検索がキーワードでは見逃す意味的に関連するページを掘り出す",
+        "ページ内容を直接返し、スクレイピング/パースの一手間を省く",
+        "2026年に価格を簡素化・引き下げ、上位結果のコンテンツは無料"
+      ],
+      "es": [
+        "Creado a propósito para agentes y RAG, no una búsqueda humana readaptada",
+        "La búsqueda neural muestra páginas semánticamente relevantes que las palabras clave omiten",
+        "Devuelve el contenido de la página directamente, eliminando un paso de scraping/parsing",
+        "Precios simplificados y más bajos en 2026 con contenido gratis en los primeros resultados"
+      ],
+      "fr": [
+        "Conçu pour les agents et le RAG, pas une recherche humaine réadaptée",
+        "La recherche neuronale fait remonter des pages sémantiquement pertinentes que les mots-clés manquent",
+        "Renvoie directement le contenu des pages, supprimant une étape de scraping/parsing",
+        "Tarifs simplifiés et abaissés en 2026 avec contenu gratuit sur les premiers résultats"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Usage-based billing makes costs hard to predict at scale",
+        "A developer API, not a consumer search engine you browse",
+        "Neural results can feel less precise than keywords for exact-match lookups",
+        "Websets sits behind a separate monthly subscription"
+      ],
+      "zh": [
+        "按量计费让规模化后的成本难以预测",
+        "面向开发者的 API，而非可浏览的消费级搜索引擎",
+        "精确匹配查询时，神经结果可能不如关键词精准",
+        "Websets 需另付月度订阅"
+      ],
+      "ja": [
+        "従量課金のため、規模が大きくなるとコストが予測しづらい",
+        "閲覧する消費者向け検索エンジンではなく、開発者向けAPI",
+        "完全一致の検索では、ニューラル結果がキーワードより精度が低く感じられることがある",
+        "Websetsは別途の月額サブスクの裏にある"
+      ],
+      "es": [
+        "La facturación por uso hace difícil predecir los costes a escala",
+        "Una API para desarrolladores, no un buscador de consumo que navegas",
+        "Los resultados neurales pueden parecer menos precisos que las palabras clave en búsquedas de coincidencia exacta",
+        "Websets está tras una suscripción mensual aparte"
+      ],
+      "fr": [
+        "La facturation à l'usage rend les coûts difficiles à prévoir à grande échelle",
+        "Une API pour développeurs, pas un moteur de recherche grand public à parcourir",
+        "Les résultats neuronaux peuvent sembler moins précis que les mots-clés pour les recherches à correspondance exacte",
+        "Websets est derrière un abonnement mensuel séparé"
+      ]
+    },
+    "latestUpdate": {
+      "en": "2026: Exa simplified and lowered its API pricing early in the year, keeping content for the top results free, and continued to position its neural search, Deep Search and Websets as the search layer for AI agents and RAG applications.",
+      "zh": "2026 年：Exa 于年初简化并下调 API 定价，头部结果内容保持免费，并持续把其神经搜索、Deep Search 与 Websets 定位为 AI 智能体与 RAG 应用的搜索层。",
+      "ja": "2026年：Exaは年初にAPI価格を簡素化・引き下げ、上位結果のコンテンツは無料のままとし、ニューラル検索・Deep Search・WebsetsをAIエージェントとRAGアプリケーションのための検索レイヤーとして位置づけ続けている。",
+      "es": "2026: Exa simplificó y bajó los precios de su API a comienzos de año, manteniendo gratis el contenido de los primeros resultados, y siguió posicionando su búsqueda neural, Deep Search y Websets como la capa de búsqueda para agentes de IA y aplicaciones RAG.",
+      "fr": "2026 : Exa a simplifié et abaissé les tarifs de son API en début d'année, gardant gratuit le contenu des premiers résultats, et a continué à positionner sa recherche neuronale, Deep Search et Websets comme la couche de recherche pour les agents IA et les applications RAG."
+    },
+    "verdict": {
+      "badge": "Worth Trying",
+      "headline": {
+        "en": "Web search rebuilt for AI agents instead of human eyeballs",
+        "zh": "为 AI 智能体、而非人类眼球重建的网络搜索",
+        "ja": "人間の目ではなくAIエージェントのために再構築されたウェブ検索",
+        "es": "Búsqueda web reconstruida para agentes de IA en lugar de ojos humanos",
+        "fr": "La recherche web reconstruite pour les agents IA plutôt que pour les yeux humains"
+      },
+      "body": {
+        "en": "Traditional search engines were built to hand a human ten blue links; Exa is built to hand an LLM the actual content it needs to reason. Its neural, embeddings-based search understands what you mean rather than matching keywords, and — crucially — it returns clean page content directly, so you skip the brittle scrape-and-parse step that plagues most agent pipelines. Layer on Deep Search for multi-step research and Websets for curated, structured entity lists, and Exa becomes a genuine search layer for RAG and agents rather than a chatbot bolted onto Google. Pricing is usage-based (roughly $7 per 1,000 searches, more for Deep Search), which Exa simplified and lowered in early 2026, with the content of the top ~10 results free and about $10 of credits to start. The caveats are inherent to the model: pay-as-you-go costs are hard to forecast at scale, this is a developer API rather than a site you browse, and for exact-match lookups keyword engines can still feel sharper. But if you're building agents or RAG and tired of gluing together a scraper and a search box, Exa is one of the cleanest answers going.",
+        "zh": "传统搜索引擎的设计目标是给人递上十条蓝色链接；Exa 的设计目标是把 LLM 推理所需的真实内容直接递过去。它基于嵌入的神经搜索理解你的意图而非匹配关键词，而且——关键在于——它直接返回干净的页面内容，于是你可以跳过困扰大多数智能体管线的、脆弱的「抓取再解析」步骤。再叠加面向多步研究的 Deep Search 和整理好的结构化实体清单 Websets，Exa 就成了 RAG 与智能体真正的搜索层，而不是硬套在 Google 上的聊天机器人。定价按用量计（约 $7/千次搜索，Deep Search 更高），Exa 于 2026 年初做了简化与下调，头部约 10 条结果内容免费，另送约 $10 额度起步。代价是这套模式固有的：按量成本在规模化时难以预测；它是开发者 API 而非可浏览的站点；做精确匹配查询时，关键词引擎可能仍更犀利。但如果你在构建智能体或 RAG，又厌倦了把抓取器和搜索框粘在一起，Exa 是眼下最干净的答案之一。",
+        "ja": "従来の検索エンジンは人間に10本の青いリンクを渡すために作られた。Exaは、LLMが推論に必要とする実際のコンテンツを渡すために作られている。埋め込みベースのニューラル検索はキーワードを照合するのではなく意図を理解し、そして決定的なのは、クリーンなページ内容を直接返すことで、多くのエージェントパイプラインを悩ませる脆いスクレイプ＆パースの工程を省ける点だ。多段階リサーチ向けのDeep Searchと、整理された構造化エンティティリストのWebsetsを重ねれば、ExaはGoogleに後付けしたチャットボットではなく、RAGとエージェントのための真の検索レイヤーになる。価格は従量制（検索約$7/1,000、Deep Searchはより高い）で、Exaは2026年初頭に簡素化・引き下げを行い、上位約10件の結果コンテンツは無料、約$10のクレジットで始められる。注意点はモデル固有のもの：従量コストは規模が大きくなると予測しづらい、閲覧するサイトではなく開発者向けAPIである、完全一致検索ではキーワードエンジンのほうが鋭く感じられることがある。しかしエージェントやRAGを構築していて、スクレイパーと検索窓を貼り合わせるのに疲れているなら、Exaは今ある最もクリーンな答えの一つだ。",
+        "es": "Los buscadores tradicionales se construyeron para entregar a un humano diez enlaces azules; Exa se construyó para entregar a un LLM el contenido real que necesita para razonar. Su búsqueda neural basada en embeddings entiende lo que quieres decir en vez de coincidir palabras clave y —crucialmente— devuelve contenido limpio de las páginas directamente, así te saltas el frágil paso de scraping y parsing que afecta a la mayoría de pipelines de agentes. Suma Deep Search para investigación multipaso y Websets para listas de entidades curadas y estructuradas, y Exa se convierte en una verdadera capa de búsqueda para RAG y agentes, no en un chatbot atornillado a Google. El precio es por uso (unos $7 por 1000 búsquedas, más para Deep Search), que Exa simplificó y bajó a comienzos de 2026, con el contenido de los ~10 primeros resultados gratis y unos $10 de créditos para empezar. Las advertencias son inherentes al modelo: los costes por uso son difíciles de prever a escala, es una API para desarrolladores y no un sitio que navegas, y para búsquedas de coincidencia exacta los motores de palabras clave aún pueden parecer más afilados. Pero si construyes agentes o RAG y estás cansado de pegar un scraper con una caja de búsqueda, Exa es una de las respuestas más limpias que existen.",
+        "fr": "Les moteurs de recherche traditionnels ont été conçus pour donner à un humain dix liens bleus ; Exa est conçu pour donner à un LLM le contenu réel dont il a besoin pour raisonner. Sa recherche neuronale basée sur les embeddings comprend ce que vous voulez dire au lieu d'apparier des mots-clés et — surtout — renvoie directement le contenu propre des pages, vous évitant l'étape fragile de scraping et parsing qui affecte la plupart des pipelines d'agents. Ajoutez Deep Search pour la recherche multi-étapes et Websets pour des listes d'entités curées et structurées, et Exa devient une véritable couche de recherche pour le RAG et les agents, pas un chatbot boulonné à Google. La tarification est à l'usage (environ 7 $ pour 1 000 recherches, plus pour Deep Search), qu'Exa a simplifiée et abaissée début 2026, avec le contenu des ~10 premiers résultats gratuit et environ 10 $ de crédits pour commencer. Les réserves sont inhérentes au modèle : les coûts à l'usage sont difficiles à prévoir à grande échelle, c'est une API pour développeurs et non un site que l'on parcourt, et pour les recherches à correspondance exacte les moteurs à mots-clés peuvent encore sembler plus précis. Mais si vous construisez des agents ou du RAG et en avez assez de coller un scraper à une barre de recherche, Exa est l'une des réponses les plus propres du marché."
+      },
+      "bestFor": {
+        "en": [
+          "Developers giving AI agents live web search as a tool",
+          "RAG pipelines that need clean page content without scraping",
+          "Automated research and curated entity lists via Deep Search / Websets"
+        ],
+        "zh": [
+          "为 AI 智能体提供实时网络搜索工具的开发者",
+          "需要无需抓取即得干净页面内容的 RAG 管线",
+          "通过 Deep Search / Websets 做自动化研究与整理实体清单"
+        ],
+        "ja": [
+          "AIエージェントにライブウェブ検索をツールとして提供する開発者",
+          "スクレイピングなしでクリーンなページ内容が必要なRAGパイプライン",
+          "Deep Search／Websetsによる自動リサーチと整理されたエンティティリスト"
+        ],
+        "es": [
+          "Desarrolladores que dan a agentes de IA búsqueda web en vivo como herramienta",
+          "Pipelines RAG que necesitan contenido de página limpio sin scraping",
+          "Investigación automatizada y listas de entidades curadas vía Deep Search / Websets"
+        ],
+        "fr": [
+          "Développeurs donnant aux agents IA une recherche web en direct comme outil",
+          "Pipelines RAG nécessitant un contenu de page propre sans scraping",
+          "Recherche automatisée et listes d'entités curées via Deep Search / Websets"
+        ]
+      },
+      "considerAlternatives": {
+        "en": [
+          "You want a consumer AI search product to use directly (→ Perplexity)",
+          "You need a cheap, predictable flat keyword-search API (→ a traditional search API)"
+        ],
+        "zh": [
+          "你想要可直接使用的消费级 AI 搜索产品（→ Perplexity）",
+          "你需要便宜、可预测的固定价关键词搜索 API（→ 传统搜索 API）"
+        ],
+        "ja": [
+          "直接使える消費者向けAI検索製品が欲しい（→ Perplexity）",
+          "安く予測可能な定額のキーワード検索APIが必要（→ 従来型の検索API）"
+        ],
+        "es": [
+          "Quieres un producto de búsqueda de IA de consumo para usar directamente (→ Perplexity)",
+          "Necesitas una API de búsqueda por palabras clave barata y predecible de precio fijo (→ una API de búsqueda tradicional)"
+        ],
+        "fr": [
+          "Vous voulez un produit de recherche IA grand public à utiliser directement (→ Perplexity)",
+          "Vous avez besoin d'une API de recherche par mots-clés bon marché et prévisible à prix fixe (→ une API de recherche traditionnelle)"
+        ]
+      }
+    },
+    "meta": {
+      "lastVerified": "2026-07-28",
+      "verdictDate": "2026-07-28",
+      "pricingVerified": "2026-07-28",
+      "pricingUrl": "https://exa.ai/pricing"
+    }
+  },
+  "hyperbolic": {
+    "features": {
+      "en": [
+        "OpenAI-compatible inference API for open models: Llama, Qwen, DeepSeek, image and audio models",
+        "On-demand GPU rental (H100 and more) alongside the hosted inference API",
+        "Transparent, up-front per-token and per-GPU-hour pricing",
+        "Serverless inference plus rentable compute from a single account",
+        "Base-model and instruct variants exposed for fine-grained control",
+        "Used by 250k+ developers and researchers for affordable AI compute"
+      ],
+      "zh": [
+        "OpenAI 兼容推理 API，覆盖开源模型：Llama、Qwen、DeepSeek，以及图像与音频模型",
+        "在托管推理 API 之外，另提供按需 GPU 租用（H100 等）",
+        "透明前置的每 token 与每 GPU 小时定价",
+        "Serverless 推理加可租算力，同一账号搞定",
+        "开放基座模型与 instruct 变体，便于精细控制",
+        "已服务 25 万+ 开发者与研究者的低成本 AI 算力需求"
+      ],
+      "ja": [
+        "OpenAI互換の推論API。Llama、Qwen、DeepSeek、画像・音声モデルに対応",
+        "ホスト型推論APIに加え、オンデマンドGPUレンタル（H100など）",
+        "透明で前もって示されるトークン単価とGPU時間単価",
+        "サーバーレス推論とレンタル可能なコンピュートを一つのアカウントで",
+        "ベースモデルとinstructバリアントを公開し、細かな制御が可能",
+        "25万人以上の開発者・研究者が手頃なAIコンピュートに利用"
+      ],
+      "es": [
+        "API de inferencia compatible con OpenAI para modelos abiertos: Llama, Qwen, DeepSeek, modelos de imagen y audio",
+        "Alquiler de GPU bajo demanda (H100 y más) junto a la API de inferencia alojada",
+        "Precios transparentes y por adelantado por token y por hora de GPU",
+        "Inferencia serverless más cómputo alquilable desde una sola cuenta",
+        "Variantes de modelo base e instruct expuestas para control preciso",
+        "Usado por más de 250 000 desarrolladores e investigadores para cómputo de IA asequible"
+      ],
+      "fr": [
+        "API d'inférence compatible OpenAI pour modèles ouverts : Llama, Qwen, DeepSeek, modèles image et audio",
+        "Location de GPU à la demande (H100 et plus) aux côtés de l'API d'inférence hébergée",
+        "Tarification transparente et affichée d'avance au token et à l'heure GPU",
+        "Inférence serverless plus calcul louable depuis un seul compte",
+        "Variantes base et instruct exposées pour un contrôle fin",
+        "Utilisé par plus de 250 000 développeurs et chercheurs pour du calcul IA abordable"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "New accounts get starter credits to call the inference API; there is no perpetual free compute tier, so sustained usage requires topping up.",
+        "zh": "新账号获入门额度调用推理 API；没有永久免费算力档，持续使用需充值。",
+        "ja": "新規アカウントには推論APIを呼び出すためのスタータークレジットが付与される。恒久的な無料コンピュート枠はなく、継続利用には入金が必要。",
+        "es": "Las cuentas nuevas reciben créditos iniciales para llamar a la API de inferencia; no hay un nivel de cómputo gratuito perpetuo, así que el uso sostenido requiere recargar.",
+        "fr": "Les nouveaux comptes reçoivent des crédits de départ pour appeler l'API d'inférence ; il n'y a pas de niveau de calcul gratuit perpétuel, donc un usage soutenu nécessite de recharger."
+      },
+      "paid": {
+        "en": "Pay-as-you-go: inference is billed per million tokens by model (open models are priced well below closed-model APIs), and rentable GPUs are billed per hour with H100-class instances quoted up front. All rates are listed publicly on the site rather than hidden behind sales. (Verified against official sources, 2026-07-28.)",
+        "zh": "按量付费：推理按模型每百万 token 计费（开源模型价格远低于闭源模型 API），可租 GPU 按小时计费、H100 级实例价格前置公示。所有费率在官网公开列出，而非藏在销售环节。（对照官方来源核实，2026-07-28。）",
+        "ja": "従量課金：推論はモデルごとに100万トークン単位で課金（オープンモデルはクローズドモデルAPIよりかなり安い）、レンタルGPUは時間単位でH100クラスの価格が前もって提示される。すべての料率は営業の裏ではなくサイト上で公開。（公式ソースと照合、2026-07-28。）",
+        "es": "Pago por uso: la inferencia se factura por millón de tokens según el modelo (los modelos abiertos cuestan mucho menos que las APIs de modelos cerrados), y las GPU alquilables se facturan por hora con instancias clase H100 cotizadas por adelantado. Todas las tarifas se listan públicamente en el sitio. (Verificado con fuentes oficiales, 2026-07-28.)",
+        "fr": "Paiement à l'usage : l'inférence est facturée au million de tokens selon le modèle (les modèles ouverts coûtent bien moins que les API de modèles fermés), et les GPU louables sont facturés à l'heure avec des instances de classe H100 affichées d'avance. Tous les tarifs sont publiés sur le site. (Vérifié avec des sources officielles, 2026-07-28.)"
+      }
+    },
+    "useCases": {
+      "en": [
+        "Calling open LLMs cheaply through an OpenAI-compatible endpoint",
+        "Renting H100-class GPUs on demand for training or heavy inference",
+        "Researchers who need base-model access, not just instruct variants",
+        "Builders wanting hosted inference and rentable compute in one place"
+      ],
+      "zh": [
+        "通过 OpenAI 兼容端点低成本调用开源 LLM",
+        "按需租用 H100 级 GPU 做训练或重推理",
+        "需要基座模型访问（而非仅 instruct 变体）的研究者",
+        "想要托管推理与可租算力一站搞定的开发者"
+      ],
+      "ja": [
+        "OpenAI互換エンドポイント経由でオープンLLMを安価に呼び出す",
+        "トレーニングや重い推論のためにH100クラスGPUをオンデマンドで借りる",
+        "instructバリアントだけでなくベースモデルへのアクセスが必要な研究者",
+        "ホスト型推論とレンタル可能なコンピュートを一箇所で欲しいビルダー"
+      ],
+      "es": [
+        "Llamar a LLMs abiertos de forma económica mediante un endpoint compatible con OpenAI",
+        "Alquilar GPUs clase H100 bajo demanda para entrenamiento o inferencia pesada",
+        "Investigadores que necesitan acceso a modelos base, no solo variantes instruct",
+        "Builders que quieren inferencia alojada y cómputo alquilable en un solo lugar"
+      ],
+      "fr": [
+        "Appeler des LLM ouverts à moindre coût via un endpoint compatible OpenAI",
+        "Louer des GPU de classe H100 à la demande pour l'entraînement ou l'inférence lourde",
+        "Chercheurs ayant besoin d'accès aux modèles base, pas seulement aux variantes instruct",
+        "Builders voulant inférence hébergée et calcul louable au même endroit"
+      ]
+    },
+    "pros": {
+      "en": [
+        "Open-model inference priced well below closed-model APIs",
+        "Both hosted API and on-demand GPU rental from one account",
+        "Transparent up-front rates instead of sales-gated quotes",
+        "Base-model access appeals to researchers and power users"
+      ],
+      "zh": [
+        "开源模型推理价格远低于闭源模型 API",
+        "托管 API 与按需 GPU 租用同账号打通",
+        "费率透明前置，无需走销售询价",
+        "开放基座模型访问，吸引研究者与高级用户"
+      ],
+      "ja": [
+        "オープンモデル推論がクローズドモデルAPIよりかなり安い",
+        "ホスト型APIとオンデマンドGPUレンタルを一つのアカウントで",
+        "営業を通さない透明な前払い料率",
+        "ベースモデルアクセスが研究者やパワーユーザーに魅力的"
+      ],
+      "es": [
+        "Inferencia de modelos abiertos muy por debajo de las APIs de modelos cerrados",
+        "API alojada y alquiler de GPU bajo demanda desde una sola cuenta",
+        "Tarifas transparentes por adelantado en lugar de cotizaciones vía ventas",
+        "El acceso a modelos base atrae a investigadores y usuarios avanzados"
+      ],
+      "fr": [
+        "Inférence de modèles ouverts bien moins chère que les API de modèles fermés",
+        "API hébergée et location de GPU à la demande depuis un seul compte",
+        "Tarifs transparents affichés d'avance plutôt que des devis via commercial",
+        "L'accès aux modèles base séduit chercheurs et utilisateurs avancés"
+      ]
+    },
+    "cons": {
+      "en": [
+        "No perpetual free compute tier — sustained use needs a top-up",
+        "Smaller model catalog than broad aggregators like Together or OpenRouter",
+        "Younger company with a shorter track record than hyperscalers",
+        "GPU availability can vary with demand for popular instance types"
+      ],
+      "zh": [
+        "没有永久免费算力档——持续使用需充值",
+        "模型目录比 Together、OpenRouter 等广谱聚合商小",
+        "公司较年轻，履历短于超大规模云厂商",
+        "热门实例型号的 GPU 供给会随需求波动"
+      ],
+      "ja": [
+        "恒久的な無料コンピュート枠はなく、継続利用には入金が必要",
+        "TogetherやOpenRouterのような広範なアグリゲーターよりモデルカタログが小さい",
+        "ハイパースケーラーより実績が短い若い企業",
+        "人気インスタンス種別のGPU可用性は需要により変動しうる"
+      ],
+      "es": [
+        "No hay nivel de cómputo gratuito perpetuo: el uso sostenido necesita recarga",
+        "Catálogo de modelos más pequeño que agregadores amplios como Together u OpenRouter",
+        "Empresa más joven con menos trayectoria que los hyperscalers",
+        "La disponibilidad de GPU puede variar con la demanda de tipos de instancia populares"
+      ],
+      "fr": [
+        "Pas de niveau de calcul gratuit perpétuel — un usage soutenu nécessite une recharge",
+        "Catalogue de modèles plus petit que les agrégateurs larges comme Together ou OpenRouter",
+        "Entreprise plus jeune avec un historique plus court que les hyperscalers",
+        "La disponibilité GPU peut varier selon la demande pour les types d'instances populaires"
+      ]
+    },
+    "latestUpdate": {
+      "en": "2026: Hyperbolic continues to grow its community of 250k+ developers, keeping open-model inference cheap and pairing it with on-demand H100-class GPU rental, positioning itself as an affordable, transparent alternative to both closed-model APIs and hyperscaler compute.",
+      "zh": "2026 年：Hyperbolic 持续壮大其 25 万+ 开发者社区，维持开源模型推理的低价，并搭配按需 H100 级 GPU 租用，把自己定位为闭源模型 API 与超大规模云算力之外、既便宜又透明的替代选择。",
+      "ja": "2026年：Hyperbolicは25万人超の開発者コミュニティを拡大し続け、オープンモデル推論を安く保ちつつオンデマンドのH100クラスGPUレンタルと組み合わせ、クローズドモデルAPIとハイパースケーラー計算の両方に対する手頃で透明な代替として自らを位置づけている。",
+      "es": "2026: Hyperbolic sigue haciendo crecer su comunidad de más de 250 000 desarrolladores, manteniendo barata la inferencia de modelos abiertos y combinándola con alquiler de GPU clase H100 bajo demanda, posicionándose como una alternativa asequible y transparente tanto a las APIs de modelos cerrados como al cómputo de los hyperscalers.",
+      "fr": "2026 : Hyperbolic continue de faire grandir sa communauté de plus de 250 000 développeurs, gardant l'inférence de modèles ouverts bon marché et l'associant à la location de GPU de classe H100 à la demande, se positionnant comme une alternative abordable et transparente aux API de modèles fermés comme au calcul des hyperscalers."
+    },
+    "verdict": {
+      "badge": "Worth Trying",
+      "headline": {
+        "en": "Cheap open-model inference and rentable GPUs, with prices you can actually see",
+        "zh": "便宜的开源模型推理加可租 GPU，价格明明白白摆在台面上",
+        "ja": "安いオープンモデル推論とレンタル可能なGPU、しかも価格がちゃんと見える",
+        "es": "Inferencia barata de modelos abiertos y GPUs alquilables, con precios que realmente puedes ver",
+        "fr": "Inférence de modèles ouverts bon marché et GPU louables, avec des prix réellement visibles"
+      },
+      "body": {
+        "en": "Hyperbolic sits in a crowded lane — open-model inference clouds — but earns attention two ways: its per-token prices for models like Llama and DeepSeek undercut the closed-model APIs by a wide margin, and it puts those numbers on the page instead of behind a sales call. On top of the OpenAI-compatible inference API, you can rent H100-class GPUs by the hour, so a team can prototype against the hosted endpoint and then rent raw compute for training without changing vendors. Founded by researchers and used by a 250k-strong developer community, it also exposes base-model variants that instruct-only providers hide — handy for anyone doing real experimentation. The trade-offs are the usual ones for a younger challenger: no perpetual free compute tier, a narrower catalog than mega-aggregators, and GPU availability that flexes with demand. But if you want honest, low pricing on open models and the option to rent compute in the same place, Hyperbolic is a solid pick worth benchmarking against Together, Novita and OpenRouter.",
+        "zh": "Hyperbolic 身处一条拥挤的赛道——开源模型推理云——却靠两点赢得关注：它对 Llama、DeepSeek 等模型的每 token 价格大幅低于闭源模型 API，而且把这些数字直接写在页面上，而不是藏在销售电话后面。在 OpenAI 兼容推理 API 之上，你还能按小时租 H100 级 GPU，于是团队可以先对着托管端点做原型，再租裸算力做训练，全程不换供应商。它由研究者创办，背后是 25 万人的开发者社区，还开放了 instruct-only 供应商藏起来的基座模型变体——对真正做实验的人很实用。代价是年轻挑战者的通病：没有永久免费算力档、目录比超级聚合商窄、GPU 供给随需求起伏。但如果你想要开源模型上诚实的低价，还想在同一处租算力，Hyperbolic 是个扎实的选择，值得拿来和 Together、Novita、OpenRouter 对比测评。",
+        "ja": "Hyperbolicは混雑したレーン——オープンモデル推論クラウド——に位置するが、2つの点で注目に値する。LlamaやDeepSeekなどのモデルのトークン単価がクローズドモデルAPIを大きく下回り、しかもその数字を営業電話の裏ではなくページ上に載せている点だ。OpenAI互換の推論APIに加え、H100クラスのGPUを時間単位で借りられるので、チームはホスト型エンドポイントで試作し、その後ベンダーを変えずに生の計算資源を借りてトレーニングできる。研究者によって創業され25万人規模の開発者コミュニティに使われており、instruct専用プロバイダーが隠すベースモデルのバリアントも公開している——本格的に実験する人には便利だ。トレードオフは若い挑戦者にありがちなもの：恒久無料計算枠なし、メガアグリゲーターより狭いカタログ、需要で変動するGPU可用性。しかしオープンモデルで誠実な低価格を求め、同じ場所で計算資源も借りたいなら、HyperbolicはTogether、Novita、OpenRouterと比較検証する価値のある堅実な選択だ。",
+        "es": "Hyperbolic está en un carril concurrido —nubes de inferencia de modelos abiertos— pero llama la atención de dos maneras: sus precios por token para modelos como Llama y DeepSeek están muy por debajo de las APIs de modelos cerrados, y pone esas cifras en la página en vez de detrás de una llamada de ventas. Sobre la API de inferencia compatible con OpenAI, puedes alquilar GPUs clase H100 por hora, así que un equipo puede prototipar contra el endpoint alojado y luego alquilar cómputo en bruto para entrenar sin cambiar de proveedor. Fundada por investigadores y usada por una comunidad de 250 000 desarrolladores, también expone variantes de modelo base que los proveedores solo-instruct ocultan, útil para quien experimenta de verdad. Las contrapartidas son las típicas de un retador joven: sin nivel de cómputo gratuito perpetuo, catálogo más estrecho que los megaagregadores y disponibilidad de GPU que fluctúa con la demanda. Pero si quieres precios honestos y bajos en modelos abiertos y la opción de alquilar cómputo en el mismo sitio, Hyperbolic es una elección sólida que vale la pena comparar con Together, Novita y OpenRouter.",
+        "fr": "Hyperbolic évolue dans un couloir encombré — les clouds d'inférence de modèles ouverts — mais retient l'attention de deux façons : ses prix au token pour des modèles comme Llama et DeepSeek sont nettement inférieurs aux API de modèles fermés, et il affiche ces chiffres sur la page plutôt que derrière un appel commercial. En plus de l'API d'inférence compatible OpenAI, vous pouvez louer des GPU de classe H100 à l'heure, de sorte qu'une équipe peut prototyper sur l'endpoint hébergé puis louer du calcul brut pour l'entraînement sans changer de fournisseur. Fondée par des chercheurs et utilisée par une communauté de 250 000 développeurs, elle expose aussi des variantes de modèle base que les fournisseurs instruct-only cachent — pratique pour qui expérimente vraiment. Les compromis sont ceux d'un jeune challenger : pas de niveau de calcul gratuit perpétuel, un catalogue plus étroit que les méga-agrégateurs, et une disponibilité GPU qui varie selon la demande. Mais si vous voulez des prix honnêtes et bas sur les modèles ouverts et l'option de louer du calcul au même endroit, Hyperbolic est un choix solide à comparer avec Together, Novita et OpenRouter."
+      },
+      "bestFor": {
+        "en": [
+          "Developers wanting cheap open-model inference with transparent pricing",
+          "Teams that need both a hosted API and rentable H100-class GPUs",
+          "Researchers who need base-model access, not just instruct variants"
+        ],
+        "zh": [
+          "想要透明定价、低成本开源模型推理的开发者",
+          "既要托管 API 又要可租 H100 级 GPU 的团队",
+          "需要基座模型访问（而非仅 instruct 变体）的研究者"
+        ],
+        "ja": [
+          "透明な価格で安いオープンモデル推論が欲しい開発者",
+          "ホスト型APIとレンタル可能なH100クラスGPUの両方が必要なチーム",
+          "instructバリアントだけでなくベースモデルアクセスが必要な研究者"
+        ],
+        "es": [
+          "Desarrolladores que quieren inferencia barata de modelos abiertos con precios transparentes",
+          "Equipos que necesitan tanto una API alojada como GPUs clase H100 alquilables",
+          "Investigadores que necesitan acceso a modelos base, no solo variantes instruct"
+        ],
+        "fr": [
+          "Développeurs voulant une inférence de modèles ouverts bon marché avec des prix transparents",
+          "Équipes ayant besoin à la fois d'une API hébergée et de GPU de classe H100 louables",
+          "Chercheurs ayant besoin d'accès aux modèles base, pas seulement aux variantes instruct"
+        ]
+      },
+      "considerAlternatives": {
+        "en": [
+          "You need the widest open-model catalog or frontier proprietary models (→ Together AI / OpenRouter / OpenAI)",
+          "You want the absolute fastest inference speed (→ Cerebras / Groq)"
+        ],
+        "zh": [
+          "你需要最广的开源模型目录或闭源前沿模型（→ Together AI / OpenRouter / OpenAI）",
+          "你要绝对最快的推理速度（→ Cerebras / Groq）"
+        ],
+        "ja": [
+          "最も広いオープンモデルカタログまたはクローズドなフロンティアモデルが必要（→ Together AI / OpenRouter / OpenAI）",
+          "絶対的に最速の推論速度が欲しい（→ Cerebras / Groq）"
+        ],
+        "es": [
+          "Necesitas el catálogo de modelos abiertos más amplio o modelos frontera propietarios (→ Together AI / OpenRouter / OpenAI)",
+          "Quieres la velocidad de inferencia absolutamente más rápida (→ Cerebras / Groq)"
+        ],
+        "fr": [
+          "Vous avez besoin du catalogue de modèles ouverts le plus large ou de modèles frontière propriétaires (→ Together AI / OpenRouter / OpenAI)",
+          "Vous voulez la vitesse d'inférence absolument la plus rapide (→ Cerebras / Groq)"
+        ]
+      }
+    },
+    "meta": {
+      "lastVerified": "2026-07-28",
+      "verdictDate": "2026-07-28",
+      "pricingVerified": "2026-07-28",
+      "pricingUrl": "https://www.hyperbolic.ai/inference"
+    }
+  },
+  "novita": {
+    "features": {
+      "en": [
+        "Model APIs for 200+ open models (LLMs, image, audio, video) with OpenAI-compatible endpoints",
+        "GPU cloud spanning RTX 4090/5090, L40S, H100 and H200 with per-second billing",
+        "Serverless endpoints, dedicated instances and bare metal from one dashboard",
+        "Spot pricing that can cut GPU costs by up to ~50%",
+        "Autoscaling serverless deployment for custom models",
+        "Global GPU availability aimed at builders who want capacity without long contracts"
+      ],
+      "zh": [
+        "200+ 开源模型的 Model API（LLM、图像、音频、视频），OpenAI 兼容端点",
+        "GPU 云覆盖 RTX 4090/5090、L40S、H100、H200，按秒计费",
+        "Serverless 端点、专属实例与裸金属，同一控制台管理",
+        "Spot 价可将 GPU 成本削减约 50%",
+        "自定义模型的自动扩缩 Serverless 部署",
+        "面向想要无长约拿到算力的开发者，全球 GPU 供给"
+      ],
+      "ja": [
+        "200以上のオープンモデル（LLM・画像・音声・動画）のModel API、OpenAI互換エンドポイント",
+        "RTX 4090/5090、L40S、H100、H200にまたがるGPUクラウドを秒単位課金",
+        "サーバーレスエンドポイント、専用インスタンス、ベアメタルを一つのダッシュボードで",
+        "スポット価格でGPUコストを最大約50%削減可能",
+        "カスタムモデル向けのオートスケール型サーバーレスデプロイ",
+        "長期契約なしで容量が欲しいビルダー向けのグローバルGPU供給"
+      ],
+      "es": [
+        "APIs de modelos para más de 200 modelos abiertos (LLMs, imagen, audio, video) con endpoints compatibles con OpenAI",
+        "Nube GPU que abarca RTX 4090/5090, L40S, H100 y H200 con facturación por segundo",
+        "Endpoints serverless, instancias dedicadas y bare metal desde un solo panel",
+        "Precios spot que pueden reducir el coste de GPU hasta ~50%",
+        "Despliegue serverless con autoescalado para modelos personalizados",
+        "Disponibilidad global de GPU orientada a builders que quieren capacidad sin contratos largos"
+      ],
+      "fr": [
+        "API de modèles pour plus de 200 modèles ouverts (LLM, image, audio, vidéo) avec endpoints compatibles OpenAI",
+        "Cloud GPU couvrant RTX 4090/5090, L40S, H100 et H200 avec facturation à la seconde",
+        "Endpoints serverless, instances dédiées et bare metal depuis un seul tableau de bord",
+        "Tarifs spot pouvant réduire le coût GPU jusqu'à ~50 %",
+        "Déploiement serverless avec autoscaling pour modèles personnalisés",
+        "Disponibilité GPU mondiale visant les builders qui veulent de la capacité sans contrats longs"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "New accounts get starter credits to try the Model APIs; there is no perpetual free compute tier — meaningful GPU work requires topping up.",
+        "zh": "新账号获入门额度试用 Model API；没有永久免费算力档——正经跑 GPU 需充值。",
+        "ja": "新規アカウントにはModel APIを試すためのスタータークレジットが付与される。恒久的な無料コンピュート枠はなく、本格的なGPU作業には入金が必要。",
+        "es": "Las cuentas nuevas reciben créditos iniciales para probar las Model APIs; no hay un nivel de cómputo gratuito perpetuo: el trabajo GPU serio requiere recargar saldo.",
+        "fr": "Les nouveaux comptes reçoivent des crédits de départ pour essayer les Model APIs ; il n'y a pas de niveau de calcul gratuit perpétuel — un travail GPU sérieux nécessite de recharger."
+      },
+      "paid": {
+        "en": "Pay-as-you-go: Model API calls are billed per token/per request by model, and GPUs are billed per second — RTX 4090-class from a few dozen cents per hour up to H100/H200 tiers, with spot pricing cutting costs by up to ~50%. Dedicated endpoints and bare metal are available. (Verified against the official pricing page, 2026-07-28.)",
+        "zh": "按量付费：Model API 按模型的 token/次计费，GPU 按秒计费——RTX 4090 级每小时几十美分起，直至 H100/H200 档，Spot 价最高省约 50%。另提供专属端点与裸金属。（对照官方定价页核实，2026-07-28。）",
+        "ja": "従量課金：Model APIの呼び出しはモデルごとにトークン／リクエスト単位、GPUは秒単位で課金——RTX 4090クラスは1時間あたり数十セントから、H100/H200ティアまで。スポット価格で最大約50%のコスト削減。専用エンドポイントとベアメタルも利用可能。（公式価格ページと照合、2026-07-28。）",
+        "es": "Pago por uso: las llamadas a la Model API se facturan por token/por solicitud según el modelo, y las GPU por segundo —clase RTX 4090 desde unas pocas decenas de centavos por hora hasta los niveles H100/H200, con precios spot que reducen costes hasta ~50%. Hay endpoints dedicados y bare metal disponibles. (Verificado con la página oficial de precios, 2026-07-28.)",
+        "fr": "Paiement à l'usage : les appels Model API sont facturés au token/à la requête selon le modèle, et les GPU à la seconde — classe RTX 4090 dès quelques dizaines de centimes de l'heure jusqu'aux niveaux H100/H200, avec des tarifs spot réduisant les coûts jusqu'à ~50 %. Endpoints dédiés et bare metal disponibles. (Vérifié avec la page tarifaire officielle, 2026-07-28.)"
+      }
+    },
+    "useCases": {
+      "en": [
+        "Calling open LLMs and media models through one OpenAI-compatible API",
+        "Renting affordable GPUs for training, fine-tuning or batch inference",
+        "Deploying custom models as autoscaling serverless endpoints",
+        "Cutting compute bills with spot GPU pricing for interruptible workloads"
+      ],
+      "zh": [
+        "通过一个 OpenAI 兼容 API 调用开源 LLM 与媒体模型",
+        "租用高性价比 GPU 做训练、微调或批量推理",
+        "把自定义模型部署为自动扩缩的 Serverless 端点",
+        "用 Spot GPU 价为可中断负载削减算力账单"
+      ],
+      "ja": [
+        "一つのOpenAI互換APIでオープンLLMやメディアモデルを呼び出す",
+        "トレーニング、ファインチューニング、バッチ推論のために手頃なGPUを借りる",
+        "カスタムモデルをオートスケールのサーバーレスエンドポイントとしてデプロイ",
+        "中断可能なワークロードにスポットGPU価格を使ってコスト削減"
+      ],
+      "es": [
+        "Llamar a LLMs abiertos y modelos multimedia mediante una sola API compatible con OpenAI",
+        "Alquilar GPUs asequibles para entrenamiento, fine-tuning o inferencia por lotes",
+        "Desplegar modelos personalizados como endpoints serverless con autoescalado",
+        "Reducir la factura de cómputo con precios spot de GPU para cargas interrumpibles"
+      ],
+      "fr": [
+        "Appeler des LLM ouverts et modèles multimédias via une seule API compatible OpenAI",
+        "Louer des GPU abordables pour l'entraînement, le fine-tuning ou l'inférence par lots",
+        "Déployer des modèles personnalisés en endpoints serverless avec autoscaling",
+        "Réduire la facture de calcul avec des tarifs spot GPU pour charges interruptibles"
+      ]
+    },
+    "pros": {
+      "en": [
+        "One platform covers both hosted model APIs and raw GPU rental",
+        "Broad, current GPU lineup including RTX 5090 and H200 at competitive rates",
+        "Spot pricing and per-second billing keep interruptible workloads cheap",
+        "OpenAI-compatible API makes migration low-friction"
+      ],
+      "zh": [
+        "一个平台同时覆盖托管模型 API 与裸 GPU 租用",
+        "GPU 型号广且新，含 RTX 5090、H200，价格有竞争力",
+        "Spot 价加按秒计费，让可中断负载保持低成本",
+        "OpenAI 兼容 API，迁移摩擦小"
+      ],
+      "ja": [
+        "一つのプラットフォームでホスト型モデルAPIと生のGPUレンタルの両方をカバー",
+        "RTX 5090やH200を含む幅広く新しいGPUラインナップを競争力ある価格で",
+        "スポット価格と秒単位課金で中断可能なワークロードを安く維持",
+        "OpenAI互換APIで移行の摩擦が小さい"
+      ],
+      "es": [
+        "Una plataforma cubre tanto APIs de modelos alojados como alquiler de GPU en bruto",
+        "Amplia y actual gama de GPU, incluidas RTX 5090 y H200, a tarifas competitivas",
+        "Precios spot y facturación por segundo mantienen baratas las cargas interrumpibles",
+        "La API compatible con OpenAI hace la migración de baja fricción"
+      ],
+      "fr": [
+        "Une plateforme couvre à la fois les API de modèles hébergés et la location de GPU brut",
+        "Gamme GPU large et à jour, dont RTX 5090 et H200, à des tarifs compétitifs",
+        "Tarifs spot et facturation à la seconde gardent les charges interruptibles bon marché",
+        "L'API compatible OpenAI rend la migration peu contraignante"
+      ]
+    },
+    "cons": {
+      "en": [
+        "No perpetual free compute tier — meaningful GPU work needs a top-up (a common review complaint)",
+        "Availability and pricing of spot GPUs vary by region and demand",
+        "Fewer enterprise guarantees than hyperscalers for mission-critical SLAs",
+        "Broad scope means less specialization than single-purpose inference clouds"
+      ],
+      "zh": [
+        "没有永久免费算力档——正经跑 GPU 需先充值（评测常见吐槽点）",
+        "Spot GPU 的可用性与价格随地区和需求波动",
+        "关键业务 SLA 的企业级保障不如超大规模云",
+        "覆盖面广也意味着不如单一用途推理云那样专精"
+      ],
+      "ja": [
+        "恒久的な無料コンピュート枠はなく、本格的なGPU作業には入金が必要（レビューでよくある不満）",
+        "スポットGPUの可用性と価格は地域と需要により変動",
+        "ミッションクリティカルなSLAに対する企業保証はハイパースケーラーより少ない",
+        "対応範囲が広いぶん、単一用途の推論クラウドほど専門特化していない"
+      ],
+      "es": [
+        "No hay nivel de cómputo gratuito perpetuo: el trabajo GPU serio necesita recarga (queja habitual en reseñas)",
+        "La disponibilidad y el precio de las GPU spot varían según región y demanda",
+        "Menos garantías empresariales que los hyperscalers para SLAs de misión crítica",
+        "Su amplio alcance implica menos especialización que nubes de inferencia de un solo propósito"
+      ],
+      "fr": [
+        "Pas de niveau de calcul gratuit perpétuel — un travail GPU sérieux nécessite une recharge (reproche fréquent en avis)",
+        "La disponibilité et le prix des GPU spot varient selon la région et la demande",
+        "Moins de garanties entreprise que les hyperscalers pour des SLA critiques",
+        "Sa large portée implique moins de spécialisation que les clouds d'inférence mono-usage"
+      ]
+    },
+    "latestUpdate": {
+      "en": "2026: Novita keeps expanding both sides of its offering — a growing catalog of 200+ open model APIs and a refreshed GPU fleet (RTX 5090, H200) with spot pricing — positioning itself as an affordable one-stop platform for builders who want model APIs and rentable compute in the same place.",
+      "zh": "2026 年：Novita 持续扩充其产品的两端——不断增长的 200+ 开源模型 API 目录，以及刷新的 GPU 机队（RTX 5090、H200）与 Spot 价——把自己定位为「模型 API 与可租算力一站式、价格实惠」的平台。",
+      "ja": "2026年：Novitaは提供の両面を拡張し続けている——200以上のオープンモデルAPIの拡大するカタログと、スポット価格付きの刷新されたGPUフリート（RTX 5090、H200）——モデルAPIとレンタル可能なコンピュートを同じ場所で欲しいビルダー向けの、手頃なワンストッププラットフォームとして位置づけている。",
+      "es": "2026: Novita sigue ampliando ambos lados de su oferta —un catálogo creciente de más de 200 APIs de modelos abiertos y una flota GPU renovada (RTX 5090, H200) con precios spot— posicionándose como una plataforma asequible todo-en-uno para builders que quieren APIs de modelos y cómputo alquilable en el mismo lugar.",
+      "fr": "2026 : Novita continue d'élargir les deux versants de son offre — un catalogue croissant de plus de 200 API de modèles ouverts et une flotte GPU renouvelée (RTX 5090, H200) avec tarifs spot — se positionnant comme une plateforme abordable tout-en-un pour les builders qui veulent des API de modèles et du calcul louable au même endroit."
+    },
+    "verdict": {
+      "badge": "Worth Trying",
+      "headline": {
+        "en": "An affordable one-stop shop for open model APIs and rentable GPUs",
+        "zh": "开源模型 API 与可租 GPU 的实惠一站式平台",
+        "ja": "オープンモデルAPIとレンタルGPUの手頃なワンストップショップ",
+        "es": "Una tienda todo-en-uno asequible para APIs de modelos abiertos y GPUs alquilables",
+        "fr": "Un guichet unique abordable pour API de modèles ouverts et GPU louables"
+      },
+      "body": {
+        "en": "Novita occupies a useful middle ground: it is both a hosted model-API provider (200+ open LLMs, image, audio and video models behind an OpenAI-compatible endpoint) and a GPU cloud where you can rent everything from an RTX 4090 to an H200 by the second, often with spot pricing that shaves up to half off. For a solo builder or small team, that combination is genuinely convenient — prototype against the API, then rent raw GPUs when you need to train or run something custom, all from one dashboard and one invoice. The honest caveats keep it at Worth Trying: reviewers note there is no perpetual free compute tier, so the 'get started free' framing really means starter credits before you top up, and spot availability fluctuates with demand. It also does not offer the hard SLAs of a hyperscaler or the razor focus of a single-purpose inference cloud. But priced against those trade-offs, Novita is a legitimately cheap, flexible place to build — a solid pick when your workload spans model APIs and occasional raw GPU time and you would rather not juggle two vendors.",
+        "zh": "Novita 占据了一个很实用的中间地带：它既是托管模型 API 供应商（200+ 开源 LLM、图像、音频、视频模型，藏在一个 OpenAI 兼容端点后），又是一个 GPU 云——从 RTX 4090 到 H200 都能按秒租，还常有最高打五折的 Spot 价。对个人开发者或小团队，这个组合是真方便：先对着 API 做原型，需要训练或跑自定义任务时再租裸 GPU，全在一个控制台、一张账单里。让它停在「值得一试」的诚实提醒：评测指出它没有永久免费算力档，所谓「免费开始」其实是充值前的入门额度，且 Spot 供给随需求波动。它也没有超大规模云那种硬 SLA，或单一用途推理云那种极致专注。但把这些取舍算进价格里，Novita 确实是个便宜又灵活的建站之处——当你的负载横跨模型 API 与偶尔的裸 GPU 时长、又不想在两个供应商间来回折腾时，它是个稳妥选择。",
+        "ja": "Novitaは有用な中間地帯を占めている。ホスト型モデルAPIプロバイダー（OpenAI互換エンドポイントの背後に200以上のオープンLLM・画像・音声・動画モデル）であると同時に、RTX 4090からH200まで秒単位で借りられ、しばしば最大半額のスポット価格が付くGPUクラウドでもある。個人ビルダーや小規模チームにとって、この組み合わせは本当に便利だ——APIでプロトタイプし、トレーニングやカスタム実行が必要になれば生GPUを借りる、すべて一つのダッシュボードと一枚の請求書で。「試す価値あり」に留める正直な注意点：レビューは恒久的な無料コンピュート枠がないと指摘しており、「無料で始める」という表現は実際には入金前のスタータークレジットを意味し、スポットの可用性は需要で変動する。ハイパースケーラーのような硬いSLAも、単一用途推論クラウドの鋭い集中もない。しかしそれらのトレードオフを価格に織り込めば、Novitaは正当に安く柔軟な開発の場だ——ワークロードがモデルAPIと時折の生GPU時間にまたがり、二つのベンダーを掛け持ちしたくないときの手堅い選択肢である。",
+        "es": "Novita ocupa un término medio útil: es a la vez un proveedor de API de modelos alojados (más de 200 LLMs abiertos, modelos de imagen, audio y video tras un endpoint compatible con OpenAI) y una nube GPU donde puedes alquilar desde una RTX 4090 hasta una H200 por segundo, a menudo con precios spot que recortan hasta la mitad. Para un builder en solitario o un equipo pequeño, esa combinación es genuinamente cómoda: prototipas contra la API y luego alquilas GPUs en bruto cuando necesitas entrenar o ejecutar algo personalizado, todo desde un panel y una factura. Las advertencias honestas lo mantienen en Worth Trying: los reseñadores señalan que no hay un nivel de cómputo gratuito perpetuo, así que el 'empieza gratis' significa realmente créditos iniciales antes de recargar, y la disponibilidad spot fluctúa con la demanda. Tampoco ofrece los SLAs duros de un hyperscaler ni el enfoque afilado de una nube de inferencia de un solo propósito. Pero valorado frente a esas contrapartidas, Novita es un lugar legítimamente barato y flexible para construir: una elección sólida cuando tu carga abarca APIs de modelos y tiempo ocasional de GPU en bruto y prefieres no hacer malabares con dos proveedores.",
+        "fr": "Novita occupe un entre-deux utile : il est à la fois fournisseur d'API de modèles hébergés (plus de 200 LLM ouverts, modèles image, audio et vidéo derrière un endpoint compatible OpenAI) et un cloud GPU où l'on peut louer tout, d'une RTX 4090 à une H200, à la seconde, souvent avec des tarifs spot qui réduisent jusqu'à la moitié. Pour un builder solo ou une petite équipe, cette combinaison est réellement pratique — prototyper via l'API, puis louer des GPU bruts quand il faut entraîner ou exécuter du personnalisé, le tout depuis un tableau de bord et une facture. Les réserves honnêtes le maintiennent en Worth Trying : les évaluateurs notent l'absence de niveau de calcul gratuit perpétuel, donc le « commencez gratuitement » signifie en réalité des crédits de départ avant recharge, et la disponibilité spot fluctue avec la demande. Il n'offre pas non plus les SLA stricts d'un hyperscaler ni la concentration affûtée d'un cloud d'inférence mono-usage. Mais rapporté à ces compromis, Novita est un endroit légitimement bon marché et flexible pour construire — un choix solide quand votre charge couvre des API de modèles et du temps GPU brut occasionnel et que vous préférez ne pas jongler avec deux fournisseurs."
+      },
+      "bestFor": {
+        "en": [
+          "Solo builders and small teams wanting model APIs plus rentable GPUs in one place",
+          "Cost-sensitive workloads that can use spot GPU pricing",
+          "Deploying custom models as autoscaling serverless endpoints"
+        ],
+        "zh": [
+          "想在一个地方同时用上模型 API 与可租 GPU 的个人开发者与小团队",
+          "能利用 Spot GPU 价的成本敏感型负载",
+          "把自定义模型部署为自动扩缩 Serverless 端点"
+        ],
+        "ja": [
+          "モデルAPIとレンタルGPUを一つの場所で欲しい個人ビルダーや小規模チーム",
+          "スポットGPU価格を使えるコスト重視のワークロード",
+          "カスタムモデルをオートスケールのサーバーレスエンドポイントとしてデプロイ"
+        ],
+        "es": [
+          "Builders en solitario y equipos pequeños que quieren APIs de modelos y GPUs alquilables en un solo lugar",
+          "Cargas sensibles al coste que puedan usar precios spot de GPU",
+          "Desplegar modelos personalizados como endpoints serverless con autoescalado"
+        ],
+        "fr": [
+          "Builders solo et petites équipes voulant API de modèles et GPU louables au même endroit",
+          "Charges sensibles au coût pouvant utiliser les tarifs spot GPU",
+          "Déployer des modèles personnalisés en endpoints serverless avec autoscaling"
+        ]
+      },
+      "considerAlternatives": {
+        "en": [
+          "You need hyperscaler-grade SLAs for mission-critical production (→ AWS / GCP / Azure)",
+          "You only need fast hosted inference of popular models (→ Together AI / Cerebras)"
+        ],
+        "zh": [
+          "关键业务生产需要超大规模云级 SLA（→ AWS / GCP / Azure）",
+          "你只需要热门模型的高速托管推理（→ Together AI / Cerebras）"
+        ],
+        "ja": [
+          "ミッションクリティカルな本番にハイパースケーラー級のSLAが必要（→ AWS / GCP / Azure）",
+          "人気モデルの高速ホスト型推論だけが必要（→ Together AI / Cerebras）"
+        ],
+        "es": [
+          "Necesitas SLAs de nivel hyperscaler para producción de misión crítica (→ AWS / GCP / Azure)",
+          "Solo necesitas inferencia alojada rápida de modelos populares (→ Together AI / Cerebras)"
+        ],
+        "fr": [
+          "Vous avez besoin de SLA de niveau hyperscaler pour une production critique (→ AWS / GCP / Azure)",
+          "Vous avez seulement besoin d'inférence hébergée rapide de modèles populaires (→ Together AI / Cerebras)"
+        ]
+      }
+    },
+    "meta": {
+      "lastVerified": "2026-07-28",
+      "verdictDate": "2026-07-28",
+      "pricingVerified": "2026-07-28",
+      "pricingUrl": "https://novita.ai/pricing"
+    }
+  },
+  "sambanova": {
+    "features": {
+      "en": [
+        "SN40L Reconfigurable Dataflow Unit (RDU) chips purpose-built for fast, efficient inference",
+        "Full 16-bit precision serving — accuracy is not traded away for speed",
+        "OpenAI-compatible API hosting open models: DeepSeek R1/V3, Llama family and more",
+        "Free tier with rate limits, plus a self-serve Developer tier billed per token",
+        "Record-setting throughput on large reasoning models like DeepSeek R1",
+        "Enterprise options for on-prem and dedicated deployments"
+      ],
+      "zh": [
+        "SN40L 可重构数据流单元（RDU）芯片，为高速高效推理而生",
+        "全 16-bit 精度服务——不为速度牺牲精度",
+        "OpenAI 兼容 API，托管开源模型：DeepSeek R1/V3、Llama 系列等",
+        "带速率限制的免费档，另有按 token 计费的自助 Developer 档",
+        "在 DeepSeek R1 等大型推理模型上创下吞吐纪录",
+        "面向企业的本地部署与专属部署选项"
+      ],
+      "ja": [
+        "高速かつ効率的な推論のために設計されたSN40Lリコンフィギュラブル・データフロー・ユニット（RDU）チップ",
+        "フル16ビット精度での提供——速度のために精度を犠牲にしない",
+        "OpenAI互換APIでオープンモデルをホスト：DeepSeek R1/V3、Llamaファミリーなど",
+        "レート制限付きの無料枠に加え、トークン課金のセルフサーブDeveloperティア",
+        "DeepSeek R1などの大規模推論モデルで記録的なスループット",
+        "オンプレミスや専用デプロイ向けのエンタープライズオプション"
+      ],
+      "es": [
+        "Chips SN40L Reconfigurable Dataflow Unit (RDU) diseñados para inferencia rápida y eficiente",
+        "Servicio en precisión completa de 16 bits: no se sacrifica exactitud por velocidad",
+        "API compatible con OpenAI que aloja modelos abiertos: DeepSeek R1/V3, familia Llama y más",
+        "Nivel gratuito con límites de tasa, más un nivel Developer autoservicio facturado por token",
+        "Rendimiento récord en grandes modelos de razonamiento como DeepSeek R1",
+        "Opciones empresariales para despliegues on-premise y dedicados"
+      ],
+      "fr": [
+        "Puces SN40L Reconfigurable Dataflow Unit (RDU) conçues pour une inférence rapide et efficace",
+        "Service en pleine précision 16 bits — pas de compromis exactitude contre vitesse",
+        "API compatible OpenAI hébergeant des modèles ouverts : DeepSeek R1/V3, famille Llama et plus",
+        "Niveau gratuit avec limites de débit, plus un niveau Developer en libre-service facturé au token",
+        "Débit record sur de grands modèles de raisonnement comme DeepSeek R1",
+        "Options entreprise pour déploiements on-premise et dédiés"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "A free tier gives API access to supported open models under rate limits — enough to build and test without a card.",
+        "zh": "免费档在速率限制下提供受支持开源模型的 API 访问——无需信用卡即可开发测试。",
+        "ja": "無料枠では、レート制限付きで対応オープンモデルへのAPIアクセスを提供——カードなしで開発・テスト可能。",
+        "es": "Un nivel gratuito da acceso API a los modelos abiertos soportados bajo límites de tasa, suficiente para construir y probar sin tarjeta.",
+        "fr": "Un niveau gratuit donne un accès API aux modèles ouverts pris en charge sous limites de débit — suffisant pour développer et tester sans carte."
+      },
+      "paid": {
+        "en": "A self-serve Developer tier lets you pay for token consumption to unlock higher rate limits on the most popular models; enterprise and dedicated deployments are quoted separately. Exact per-token rates are shown in the SambaNova Cloud console. (Pricing model verified against official sources, 2026-07-28.)",
+        "zh": "自助 Developer 档按 token 用量付费，解锁热门模型更高的速率上限；企业与专属部署单独报价。具体每 token 单价以 SambaNova Cloud 控制台为准。（定价模式对照官方来源核实，2026-07-28。）",
+        "ja": "セルフサーブのDeveloperティアでは、トークン消費量に応じて支払うことで人気モデルのより高いレート制限を解放できる。エンタープライズや専用デプロイは別途見積もり。正確なトークン単価はSambaNova Cloudコンソールに表示。（価格モデルを公式ソースと照合、2026-07-28。）",
+        "es": "Un nivel Developer autoservicio permite pagar por consumo de tokens para desbloquear límites de tasa más altos en los modelos más populares; los despliegues empresariales y dedicados se cotizan aparte. Las tarifas exactas por token se muestran en la consola de SambaNova Cloud. (Modelo de precios verificado con fuentes oficiales, 2026-07-28.)",
+        "fr": "Un niveau Developer en libre-service permet de payer selon la consommation de tokens pour débloquer des limites de débit plus élevées sur les modèles les plus populaires ; les déploiements entreprise et dédiés sont devisés séparément. Les tarifs exacts au token sont affichés dans la console SambaNova Cloud. (Modèle tarifaire vérifié avec des sources officielles, 2026-07-28.)"
+      }
+    },
+    "useCases": {
+      "en": [
+        "Serving large reasoning models like DeepSeek R1 at high speed and full precision",
+        "Enterprises that need on-prem or dedicated inference for data control",
+        "Replacing closed-model API calls with fast open models",
+        "Powering voice agents and assistants that need low-latency responses"
+      ],
+      "zh": [
+        "以高速与全精度部署 DeepSeek R1 等大型推理模型",
+        "需要本地或专属推理以掌控数据的企业",
+        "把闭源模型 API 调用换成高速开源模型",
+        "为需要低延迟响应的语音智能体与助手供能"
+      ],
+      "ja": [
+        "DeepSeek R1などの大規模推論モデルを高速かつフル精度で提供",
+        "データ管理のためにオンプレミスや専用推論が必要な企業",
+        "クローズドモデルのAPI呼び出しを高速なオープンモデルに置き換え",
+        "低レイテンシ応答が必要な音声エージェントやアシスタントの駆動"
+      ],
+      "es": [
+        "Servir grandes modelos de razonamiento como DeepSeek R1 a alta velocidad y precisión completa",
+        "Empresas que necesitan inferencia on-premise o dedicada para controlar los datos",
+        "Reemplazar llamadas a APIs de modelos cerrados por modelos abiertos rápidos",
+        "Impulsar agentes de voz y asistentes que necesitan respuestas de baja latencia"
+      ],
+      "fr": [
+        "Servir de grands modèles de raisonnement comme DeepSeek R1 à haute vitesse et pleine précision",
+        "Entreprises ayant besoin d'inférence on-premise ou dédiée pour le contrôle des données",
+        "Remplacer les appels d'API de modèles fermés par des modèles ouverts rapides",
+        "Alimenter des agents vocaux et assistants nécessitant des réponses à faible latence"
+      ]
+    },
+    "pros": {
+      "en": [
+        "Fast inference without dropping to lower precision, unusual among speed-focused clouds",
+        "Strong pedigree — founded by Stanford chip and ML researchers",
+        "Good fit for large open reasoning models many GPU clouds struggle to serve quickly",
+        "Real enterprise and on-prem story for regulated deployments"
+      ],
+      "zh": [
+        "在不降精度的前提下做到快推理，在主打速度的云中少见",
+        "底蕴扎实——由斯坦福芯片与机器学习研究者创办",
+        "很适合许多 GPU 云难以快速服务的大型开源推理模型",
+        "面向受监管部署，有真实的企业与本地方案"
+      ],
+      "ja": [
+        "低精度に落とさずに高速推論を実現——速度重視のクラウドでは珍しい",
+        "強い出自——スタンフォードのチップおよびML研究者が創業",
+        "多くのGPUクラウドが高速に提供しづらい大規模オープン推論モデルに好適",
+        "規制対象のデプロイ向けに、実際のエンタープライズ・オンプレミス対応"
+      ],
+      "es": [
+        "Inferencia rápida sin bajar a menor precisión, algo poco común entre nubes centradas en velocidad",
+        "Fuerte pedigrí: fundada por investigadores de chips y ML de Stanford",
+        "Buen encaje para grandes modelos abiertos de razonamiento que muchas nubes GPU sirven con dificultad",
+        "Propuesta real de empresa y on-premise para despliegues regulados"
+      ],
+      "fr": [
+        "Inférence rapide sans descendre en précision, rare parmi les clouds axés vitesse",
+        "Solide pedigree — fondée par des chercheurs en puces et ML de Stanford",
+        "Bien adapté aux grands modèles ouverts de raisonnement que beaucoup de clouds GPU peinent à servir vite",
+        "Véritable offre entreprise et on-premise pour déploiements réglementés"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Model catalog is narrower than broad aggregators like Together or OpenRouter",
+        "No proprietary frontier model of its own",
+        "Custom RDU hardware means you depend on one vendor's roadmap",
+        "Public per-token pricing is less prominent than GPU-based rivals"
+      ],
+      "zh": [
+        "模型目录比 Together、OpenRouter 等广谱聚合商窄",
+        "没有自家的闭源前沿模型",
+        "自研 RDU 硬件意味着依赖单一厂商的路线图",
+        "公开的每 token 定价不如基于 GPU 的对手醒目"
+      ],
+      "ja": [
+        "モデルカタログはTogetherやOpenRouterのような広範なアグリゲーターより狭い",
+        "自社のクローズドなフロンティアモデルはない",
+        "独自RDUハードウェアのため、単一ベンダーのロードマップに依存する",
+        "公開のトークン単価はGPUベースの競合ほど目立たない"
+      ],
+      "es": [
+        "El catálogo de modelos es más estrecho que agregadores amplios como Together u OpenRouter",
+        "No tiene un modelo frontera propietario propio",
+        "El hardware RDU propio implica depender de la hoja de ruta de un solo proveedor",
+        "El precio público por token es menos visible que en rivales basados en GPU"
+      ],
+      "fr": [
+        "Le catalogue de modèles est plus étroit que les agrégateurs larges comme Together ou OpenRouter",
+        "Pas de modèle frontière propriétaire maison",
+        "Le matériel RDU maison implique une dépendance à la feuille de route d'un seul fournisseur",
+        "La tarification publique au token est moins visible que chez les rivaux basés sur GPU"
+      ]
+    },
+    "latestUpdate": {
+      "en": "2026: SambaNova keeps pushing its SN40L-powered cloud as one of the fastest full-precision inference services, with a live self-serve Developer tier and headline throughput on large open reasoning models such as DeepSeek R1 and the Llama family.",
+      "zh": "2026 年：SambaNova 持续把 SN40L 驱动的云打造成最快的全精度推理服务之一，自助 Developer 档已上线，并在 DeepSeek R1、Llama 系列等大型开源推理模型上跑出标杆吞吐。",
+      "ja": "2026年：SambaNovaはSN40L駆動のクラウドを、最速級のフル精度推論サービスの一つとして推進し続けている。セルフサーブのDeveloperティアが稼働し、DeepSeek R1やLlamaファミリーなどの大規模オープン推論モデルで目玉となるスループットを示している。",
+      "es": "2026: SambaNova sigue impulsando su nube con tecnología SN40L como uno de los servicios de inferencia en precisión completa más rápidos, con un nivel Developer autoservicio en vivo y un rendimiento destacado en grandes modelos abiertos de razonamiento como DeepSeek R1 y la familia Llama.",
+      "fr": "2026 : SambaNova continue de positionner son cloud propulsé par SN40L comme l'un des services d'inférence pleine précision les plus rapides, avec un niveau Developer en libre-service actif et un débit remarquable sur de grands modèles ouverts de raisonnement comme DeepSeek R1 et la famille Llama."
+    },
+    "verdict": {
+      "badge": "Worth Trying",
+      "headline": {
+        "en": "Fast open-model inference at full 16-bit precision, with an enterprise backbone",
+        "zh": "全 16-bit 精度的高速开源模型推理，还带企业级底盘",
+        "ja": "フル16ビット精度での高速オープンモデル推論、エンタープライズの土台付き",
+        "es": "Inferencia rápida de modelos abiertos a precisión completa de 16 bits, con columna vertebral empresarial",
+        "fr": "Inférence rapide de modèles ouverts en pleine précision 16 bits, avec une colonne vertébrale entreprise"
+      },
+      "body": {
+        "en": "SambaNova comes from a serious place: founders drawn from Stanford's chip and machine-learning research, and a custom Reconfigurable Dataflow Unit built specifically to serve large models fast. Its differentiator in a crowded inference market is that it delivers that speed at full 16-bit precision, so you are not quietly trading accuracy for tokens-per-second the way some aggressive quantized services do — which matters for large reasoning models like DeepSeek R1 where precision shows up in output quality. The free tier lets you test, and a self-serve Developer tier scales you up per token. The reasons it lands at Worth Trying rather than a blanket Recommended are practical: the model catalog is narrower than Together or OpenRouter, there is no proprietary frontier model, and public per-token pricing is less front-and-center than GPU rivals, so you will spend a little time in the console. But if you want fast, honest-precision serving of big open models — especially with an enterprise or on-prem path in your future — SambaNova is a strong, credible option worth benchmarking against Cerebras and Groq.",
+        "zh": "SambaNova 出身不俗：创始团队来自斯坦福的芯片与机器学习研究，芯片是专为快速服务大模型打造的可重构数据流单元（RDU）。在拥挤的推理市场里，它的差异化在于——这份速度是在全 16-bit 精度下给出的，不像某些激进的量化服务那样悄悄用精度换取每秒 token 数；这对 DeepSeek R1 这类大型推理模型尤其重要，因为精度会直接体现在输出质量上。免费档可供测试，自助 Developer 档按 token 扩容。它落在「值得一试」而非直接「推荐」，理由很实际：模型目录比 Together、OpenRouter 窄，没有闭源前沿模型，公开每 token 定价也不如 GPU 对手那么显眼，你得在控制台里花点时间。但如果你想要对大型开源模型做「诚实精度」的高速服务——尤其未来还可能走企业或本地部署——SambaNova 是一个强而可信的选择，值得与 Cerebras、Groq 放在一起对比。",
+        "ja": "SambaNovaの出自は本格的だ。スタンフォードのチップおよび機械学習研究出身の創業者と、大規模モデルを高速に提供するために専用設計されたリコンフィギュラブル・データフロー・ユニット（RDU）。混み合う推論市場での差別化は、その速度をフル16ビット精度で提供する点にある。一部の攻めた量子化サービスのように、こっそり精度を秒あたりトークン数と引き換えにしない——これはDeepSeek R1のような大規模推論モデルで、精度が出力品質に直結するため重要だ。無料枠でテストでき、セルフサーブのDeveloperティアがトークン単位でスケールさせる。総合「推奨」ではなく「試す価値あり」に落ち着く理由は現実的だ。モデルカタログはTogetherやOpenRouterより狭く、クローズドなフロンティアモデルはなく、公開のトークン単価もGPU競合ほど前面に出ていないため、コンソールで少し時間を使うことになる。しかし大規模オープンモデルを「誠実な精度」で高速に提供したいなら——特に将来エンタープライズやオンプレミスの道筋があるなら——SambaNovaは強く信頼できる選択肢であり、CerebrasやGroqと並べてベンチマークする価値がある。",
+        "es": "SambaNova viene de un lugar serio: fundadores procedentes de la investigación de chips y aprendizaje automático de Stanford, y una Reconfigurable Dataflow Unit hecha a medida para servir modelos grandes rápido. Su diferenciador en un mercado de inferencia saturado es que entrega esa velocidad a precisión completa de 16 bits, así que no cambias en silencio exactitud por tokens por segundo como hacen algunos servicios cuantizados agresivos, lo que importa en grandes modelos de razonamiento como DeepSeek R1 donde la precisión se nota en la calidad. El nivel gratuito permite probar, y un nivel Developer autoservicio te escala por token. Las razones por las que queda en Worth Trying y no en un Recommended rotundo son prácticas: el catálogo es más estrecho que Together u OpenRouter, no hay modelo frontera propietario y el precio público por token es menos visible que en rivales GPU, así que pasarás algo de tiempo en la consola. Pero si quieres servicio rápido de precisión honesta para grandes modelos abiertos —sobre todo con una vía empresarial u on-premise en tu futuro— SambaNova es una opción fuerte y creíble que vale la pena comparar con Cerebras y Groq.",
+        "fr": "SambaNova vient d'un endroit sérieux : des fondateurs issus de la recherche en puces et apprentissage automatique de Stanford, et une Reconfigurable Dataflow Unit conçue spécialement pour servir vite de grands modèles. Son facteur différenciant sur un marché de l'inférence encombré est qu'il délivre cette vitesse en pleine précision 16 bits, donc vous n'échangez pas discrètement l'exactitude contre des tokens par seconde comme le font certains services quantifiés agressifs — ce qui compte pour de grands modèles de raisonnement comme DeepSeek R1 où la précision se voit dans la qualité. Le niveau gratuit permet de tester, et un niveau Developer en libre-service vous fait monter en charge au token. Les raisons pour lesquelles il atterrit en Worth Trying plutôt qu'en Recommended sans réserve sont pratiques : le catalogue est plus étroit que Together ou OpenRouter, il n'y a pas de modèle frontière propriétaire, et la tarification publique au token est moins mise en avant que chez les rivaux GPU, vous passerez donc un peu de temps dans la console. Mais si vous voulez un service rapide en précision honnête pour de grands modèles ouverts — surtout avec une voie entreprise ou on-premise dans votre avenir — SambaNova est une option solide et crédible à comparer avec Cerebras et Groq."
+      },
+      "bestFor": {
+        "en": [
+          "Teams serving large open reasoning models where precision matters",
+          "Enterprises needing an on-prem or dedicated inference path",
+          "Developers benchmarking fast inference clouds beyond the GPU incumbents"
+        ],
+        "zh": [
+          "部署大型开源推理模型、且在意精度的团队",
+          "需要本地或专属推理路径的企业",
+          "在 GPU 老牌厂商之外对比高速推理云的开发者"
+        ],
+        "ja": [
+          "精度が重要な大規模オープン推論モデルを提供するチーム",
+          "オンプレミスや専用推論の道筋が必要な企業",
+          "GPUの既存勢を超えて高速推論クラウドをベンチマークする開発者"
+        ],
+        "es": [
+          "Equipos que sirven grandes modelos abiertos de razonamiento donde importa la precisión",
+          "Empresas que necesitan una vía de inferencia on-premise o dedicada",
+          "Desarrolladores que comparan nubes de inferencia rápidas más allá de los referentes GPU"
+        ],
+        "fr": [
+          "Équipes servant de grands modèles ouverts de raisonnement où la précision compte",
+          "Entreprises nécessitant une voie d'inférence on-premise ou dédiée",
+          "Développeurs comparant des clouds d'inférence rapides au-delà des acteurs GPU établis"
+        ]
+      },
+      "considerAlternatives": {
+        "en": [
+          "You want the broadest possible open-model catalog (→ Together AI / OpenRouter)",
+          "You need proprietary frontier models (→ OpenAI / Anthropic / Gemini)"
+        ],
+        "zh": [
+          "你想要尽可能广的开源模型目录（→ Together AI / OpenRouter）",
+          "你需要闭源前沿模型（→ OpenAI / Anthropic / Gemini）"
+        ],
+        "ja": [
+          "可能な限り広いオープンモデルカタログが欲しい（→ Together AI / OpenRouter）",
+          "クローズドなフロンティアモデルが必要（→ OpenAI / Anthropic / Gemini）"
+        ],
+        "es": [
+          "Quieres el catálogo de modelos abiertos más amplio posible (→ Together AI / OpenRouter)",
+          "Necesitas modelos frontera propietarios (→ OpenAI / Anthropic / Gemini)"
+        ],
+        "fr": [
+          "Vous voulez le catalogue de modèles ouverts le plus large possible (→ Together AI / OpenRouter)",
+          "Vous avez besoin de modèles frontière propriétaires (→ OpenAI / Anthropic / Gemini)"
+        ]
+      }
+    },
+    "meta": {
+      "lastVerified": "2026-07-28",
+      "verdictDate": "2026-07-28",
+      "pricingVerified": "2026-07-28"
+    }
+  },
+  "stable-audio": {
+    "features": {
+      "en": [
+        "Text-to-audio generation for full music tracks, stems and sound effects",
+        "Stable Audio 2.5 powers the product with fast, high-quality generation",
+        "Stable Audio Open 3.0 model trained on fully licensed data",
+        "Audio-to-audio: upload a clip and transform or extend it",
+        "Structured tracks with intro, development and outro, up to minutes long",
+        "Backed by Stability AI, the team behind Stable Diffusion"
+      ],
+      "zh": [
+        "文本生成音频：完整音乐曲目、分轨与音效",
+        "产品由 Stable Audio 2.5 驱动，生成快、质量高",
+        "Stable Audio Open 3.0 模型以完全授权数据训练",
+        "音频到音频：上传片段即可变换或续写",
+        "生成有前奏、发展与尾声结构的曲目，时长可达数分钟",
+        "背靠 Stability AI——Stable Diffusion 背后的团队"
+      ],
+      "ja": [
+        "フル楽曲・ステム・効果音のテキストからのオーディオ生成",
+        "製品は高速かつ高品質な生成のStable Audio 2.5が駆動",
+        "完全にライセンスされたデータで学習したStable Audio Open 3.0モデル",
+        "オーディオ・トゥ・オーディオ：クリップをアップロードして変換や延長が可能",
+        "イントロ・展開・アウトロを持つ構造化された楽曲を数分の長さまで生成",
+        "Stable Diffusionを生んだチーム、Stability AIが支える"
+      ],
+      "es": [
+        "Generación de audio a partir de texto: pistas musicales completas, stems y efectos de sonido",
+        "Stable Audio 2.5 impulsa el producto con generación rápida y de alta calidad",
+        "Modelo Stable Audio Open 3.0 entrenado con datos totalmente licenciados",
+        "Audio a audio: sube un clip y transfórmalo o extiéndelo",
+        "Pistas estructuradas con intro, desarrollo y final, de hasta varios minutos",
+        "Respaldado por Stability AI, el equipo detrás de Stable Diffusion"
+      ],
+      "fr": [
+        "Génération audio à partir de texte : morceaux complets, stems et effets sonores",
+        "Stable Audio 2.5 propulse le produit avec une génération rapide et de haute qualité",
+        "Modèle Stable Audio Open 3.0 entraîné sur des données entièrement sous licence",
+        "Audio vers audio : téléversez un clip pour le transformer ou le prolonger",
+        "Morceaux structurés avec intro, développement et outro, jusqu'à plusieurs minutes",
+        "Soutenu par Stability AI, l'équipe derrière Stable Diffusion"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "A free tier lets you generate a limited number of tracks per month under a personal, non-commercial license — enough to test the sound before subscribing.",
+        "zh": "免费档每月可在个人非商用许可下生成有限数量的曲目——订阅前足以试听效果。",
+        "ja": "無料枠では、個人・非商用ライセンスの下で月に限られた数のトラックを生成可能——購読前に音を試すには十分。",
+        "es": "Un nivel gratuito permite generar un número limitado de pistas al mes bajo una licencia personal no comercial, suficiente para probar el sonido antes de suscribirse.",
+        "fr": "Un niveau gratuit permet de générer un nombre limité de morceaux par mois sous licence personnelle non commerciale — assez pour tester le son avant de s'abonner."
+      },
+      "paid": {
+        "en": "Subscriptions unlock commercial use and volume: Pro is about $11.99/month for ~250 tracks, Studio raises that to ~750 tracks, and Max to ~2,500 tracks per month, with longer generations and priority processing on higher tiers; an API is available for developers. (Verified against the official pricing page, 2026-07-28.)",
+        "zh": "订阅解锁商用与更大用量：Pro 约 $11.99/月约 250 首，Studio 提至约 750 首，Max 约 2500 首/月，高档位支持更长生成与优先处理；另有面向开发者的 API。（对照官方定价页核实，2026-07-28。）",
+        "ja": "サブスクで商用利用とボリュームを解放：Proは約$11.99/月で約250トラック、Studioは約750トラック、Maxは月約2,500トラックまで。上位ティアではより長い生成と優先処理に対応。開発者向けAPIも利用可能。（公式価格ページと照合、2026-07-28。）",
+        "es": "Las suscripciones desbloquean uso comercial y volumen: Pro cuesta unos $11.99/mes por ~250 pistas, Studio sube a ~750 pistas y Max a ~2500 pistas al mes, con generaciones más largas y procesamiento prioritario en los niveles superiores; hay una API disponible para desarrolladores. (Verificado con la página oficial de precios, 2026-07-28.)",
+        "fr": "Les abonnements débloquent l'usage commercial et le volume : Pro à environ 11,99 $/mois pour ~250 morceaux, Studio monte à ~750 morceaux et Max à ~2 500 morceaux par mois, avec des générations plus longues et un traitement prioritaire aux niveaux supérieurs ; une API est disponible pour les développeurs. (Vérifié avec la page tarifaire officielle, 2026-07-28.)"
+      }
+    },
+    "useCases": {
+      "en": [
+        "Generating background music for videos, podcasts and games",
+        "Producing royalty-clear sound effects for apps and media",
+        "Sketching musical ideas and stems for further production in a DAW",
+        "Creators who need commercial-safe audio trained on licensed data"
+      ],
+      "zh": [
+        "为视频、播客与游戏生成背景音乐",
+        "为应用与媒体制作无版权纠纷的音效",
+        "起草音乐灵感与分轨，再进 DAW 深加工",
+        "需要以授权数据训练、商用安心的音频的创作者"
+      ],
+      "ja": [
+        "動画・ポッドキャスト・ゲーム用のBGM生成",
+        "アプリやメディア向けの権利面でクリアな効果音制作",
+        "楽曲アイデアやステムをスケッチしてDAWでさらに制作",
+        "ライセンス済みデータで学習した商用安全なオーディオが必要なクリエイター"
+      ],
+      "es": [
+        "Generar música de fondo para videos, pódcasts y juegos",
+        "Producir efectos de sonido libres de regalías para apps y medios",
+        "Esbozar ideas musicales y stems para seguir produciendo en un DAW",
+        "Creadores que necesitan audio seguro para uso comercial entrenado con datos licenciados"
+      ],
+      "fr": [
+        "Générer de la musique de fond pour vidéos, podcasts et jeux",
+        "Produire des effets sonores libres de droits pour applis et médias",
+        "Esquisser des idées musicales et des stems à retravailler dans un DAW",
+        "Créateurs ayant besoin d'un audio sûr commercialement, entraîné sur des données licenciées"
+      ]
+    },
+    "pros": {
+      "en": [
+        "Trained on fully licensed data — a real answer to music copyright anxiety",
+        "Strong at instrumental music, stems and sound effects, not just songs",
+        "Audio-to-audio transformation sets it apart from lyric-first rivals",
+        "Clear subscription tiers with commercial rights spelled out"
+      ],
+      "zh": [
+        "以完全授权数据训练——真正回应音乐版权焦虑",
+        "擅长器乐、分轨与音效，不只做整首歌",
+        "音频到音频的变换能力，有别于以歌词为先的对手",
+        "订阅档位清晰，商用权利写得明明白白"
+      ],
+      "ja": [
+        "完全ライセンス済みデータで学習——音楽著作権の不安への本当の答え",
+        "歌だけでなくインスト音楽・ステム・効果音に強い",
+        "オーディオ・トゥ・オーディオ変換が歌詞優先のライバルとの違い",
+        "商用権が明記された分かりやすいサブスク階層"
+      ],
+      "es": [
+        "Entrenado con datos totalmente licenciados: una respuesta real a la ansiedad por los derechos musicales",
+        "Fuerte en música instrumental, stems y efectos de sonido, no solo canciones",
+        "La transformación audio a audio lo distingue de rivales centrados en letras",
+        "Niveles de suscripción claros con derechos comerciales bien definidos"
+      ],
+      "fr": [
+        "Entraîné sur des données entièrement licenciées — une vraie réponse à l'angoisse du droit d'auteur musical",
+        "Fort en musique instrumentale, stems et effets sonores, pas seulement en chansons",
+        "La transformation audio vers audio le distingue des rivaux centrés sur les paroles",
+        "Niveaux d'abonnement clairs avec droits commerciaux explicites"
+      ]
+    },
+    "cons": {
+      "en": [
+        "No vocal/lyric generation to rival Suno or Udio's full songs",
+        "Free tier is personal-use only — commercial work requires a subscription",
+        "Track quality can vary; complex prompts sometimes miss the brief",
+        "Stability AI's past financial turbulence invites questions about longevity"
+      ],
+      "zh": [
+        "没有人声/歌词生成，比不了 Suno、Udio 的完整歌曲",
+        "免费档仅限个人使用——商用需订阅",
+        "曲目质量有波动；复杂提示词偶尔跑题",
+        "Stability AI 过往的财务动荡让人担心其长期性"
+      ],
+      "ja": [
+        "SunoやUdioのフルソングに対抗するボーカル／歌詞生成はない",
+        "無料枠は個人利用のみ——商用には購読が必要",
+        "トラック品質にばらつきがあり、複雑なプロンプトは時に意図を外す",
+        "Stability AIの過去の財務混乱は存続性への疑問を招く"
+      ],
+      "es": [
+        "Sin generación vocal/de letras que rivalice con las canciones completas de Suno o Udio",
+        "El nivel gratuito es solo para uso personal: el trabajo comercial requiere suscripción",
+        "La calidad de las pistas puede variar; los prompts complejos a veces no dan en el blanco",
+        "Las turbulencias financieras pasadas de Stability AI generan dudas sobre su longevidad"
+      ],
+      "fr": [
+        "Pas de génération vocale/de paroles pour rivaliser avec les chansons complètes de Suno ou Udio",
+        "Le niveau gratuit est réservé à un usage personnel — le travail commercial nécessite un abonnement",
+        "La qualité des morceaux peut varier ; les prompts complexes manquent parfois la cible",
+        "Les turbulences financières passées de Stability AI soulèvent des questions de pérennité"
+      ]
+    },
+    "latestUpdate": {
+      "en": "2026: Stable Audio 2.5 powers the product with faster, higher-quality generation, while the openly released Stable Audio Open 3.0 — trained on fully licensed data — reinforces Stability AI's licensing-first pitch for commercial-safe music and sound effects.",
+      "zh": "2026 年：产品由 Stable Audio 2.5 驱动，生成更快、质量更高；同时公开发布的 Stable Audio Open 3.0 以完全授权数据训练，强化了 Stability AI「授权优先」的商用安心音乐与音效卖点。",
+      "ja": "2026年：製品はより高速で高品質な生成のStable Audio 2.5が駆動し、完全ライセンス済みデータで学習して公開されたStable Audio Open 3.0が、商用安全な音楽と効果音に向けたStability AIのライセンス優先の訴求を強化している。",
+      "es": "2026: Stable Audio 2.5 impulsa el producto con generación más rápida y de mayor calidad, mientras que Stable Audio Open 3.0, lanzado abiertamente y entrenado con datos totalmente licenciados, refuerza la propuesta de Stability AI centrada en licencias para música y efectos de sonido seguros comercialmente.",
+      "fr": "2026 : Stable Audio 2.5 propulse le produit avec une génération plus rapide et de meilleure qualité, tandis que Stable Audio Open 3.0, publié ouvertement et entraîné sur des données entièrement licenciées, renforce le discours licence d'abord de Stability AI pour une musique et des effets sonores sûrs commercialement."
+    },
+    "verdict": {
+      "badge": "Recommended",
+      "headline": {
+        "en": "The copyright-safe way to generate music and sound effects",
+        "zh": "生成音乐与音效的版权安全之选",
+        "ja": "音楽と効果音を生成する著作権的に安全な道",
+        "es": "La forma segura en derechos de autor de generar música y efectos de sonido",
+        "fr": "La voie sûre côté droits d'auteur pour générer musique et effets sonores"
+      },
+      "body": {
+        "en": "The AI music gold rush has a legal cloud hanging over it: most headline generators are fighting lawsuits over what they trained on. Stable Audio's quiet superpower is that it sidesteps the whole mess — its models are trained on fully licensed data, and the openly released Stable Audio Open 3.0 doubles down on that stance. In practice, the product (powered by Stable Audio 2.5) is excellent at what working creators actually need most: instrumental beds for videos and podcasts, game-ready sound effects, stems to drag into a DAW, and audio-to-audio transformations of clips you already have. What it deliberately doesn't do is sing — there's no vocal or lyric generation, so anyone chasing a radio-ready pop song will be happier with Suno or Udio and their murkier legal position. The free tier is personal-use only, but paid tiers from about $11.99/month spell out commercial rights clearly, which is exactly what professional users need. Quality can wobble on complex prompts, and Stability AI's rocky corporate history is worth a glance. Still, for commercial-safe music and SFX, this is the cleanest choice in the category.",
+        "zh": "AI 音乐的淘金热头顶悬着一朵法律乌云：多数明星生成器都在为训练数据吃官司。Stable Audio 安静的超能力在于绕开了整摊麻烦——它的模型以完全授权数据训练，公开发布的 Stable Audio Open 3.0 更是把这一立场加倍。实际用起来，这款由 Stable Audio 2.5 驱动的产品在职业创作者最需要的地方表现出色：视频与播客的器乐铺底、游戏可用的音效、可拖进 DAW 的分轨，以及对已有片段的音频到音频变换。它刻意不做的事是「唱歌」——没有人声与歌词生成，想要一首电台级流行歌的人，去找 Suno 或 Udio（以及它们更浑浊的法律处境）会更开心。免费档仅限个人使用，但约 $11.99/月起的付费档把商用权利写得清清楚楚——这正是专业用户需要的。复杂提示词下质量会波动，Stability AI 坎坷的公司史也值得瞄一眼。即便如此，论商用安心的音乐与音效，它仍是这个品类里最干净的选择。",
+        "ja": "AI音楽のゴールドラッシュには法的な暗雲が垂れ込めている。話題の生成サービスの多くは、学習データをめぐる訴訟を抱えているのだ。Stable Audioの静かな超能力は、その混乱を丸ごと回避していることにある。モデルは完全にライセンスされたデータで学習され、公開されたStable Audio Open 3.0はその姿勢をさらに強めた。実際のところ、Stable Audio 2.5が駆動するこの製品は、働くクリエイターが最も必要とするもの——動画やポッドキャスト用のインスト楽曲、ゲームで使える効果音、DAWに持ち込めるステム、手持ちクリップのオーディオ・トゥ・オーディオ変換——に優れている。意図的にやらないのは「歌うこと」だ。ボーカルや歌詞の生成はないので、ラジオで流れるようなポップソングを求める人は、SunoやUdio（とその不透明な法的立場）のほうが幸せだろう。無料枠は個人利用のみだが、約$11.99/月からの有料枠は商用権を明確に記しており、プロのユーザーにはまさに必要なものだ。複雑なプロンプトでは品質が揺れることがあり、Stability AIの波乱含みの企業史も一瞥の価値がある。それでも、商用安全な音楽と効果音という点では、このカテゴリで最もクリーンな選択だ。",
+        "es": "La fiebre del oro de la música con IA tiene una nube legal encima: la mayoría de los generadores estrella pelean demandas por sus datos de entrenamiento. El superpoder silencioso de Stable Audio es que esquiva todo ese lío: sus modelos se entrenan con datos totalmente licenciados, y el abiertamente publicado Stable Audio Open 3.0 refuerza esa postura. En la práctica, el producto (impulsado por Stable Audio 2.5) es excelente en lo que los creadores profesionales más necesitan: bases instrumentales para videos y pódcasts, efectos de sonido listos para juegos, stems para arrastrar a un DAW y transformaciones audio a audio de clips que ya tienes. Lo que deliberadamente no hace es cantar: no hay generación vocal ni de letras, así que quien busque una canción pop lista para la radio será más feliz con Suno o Udio y su posición legal más turbia. El nivel gratuito es solo para uso personal, pero los niveles de pago desde unos $11.99/mes detallan claramente los derechos comerciales, exactamente lo que los usuarios profesionales necesitan. La calidad puede tambalear con prompts complejos, y la agitada historia corporativa de Stability AI merece un vistazo. Aun así, para música y efectos seguros comercialmente, es la opción más limpia de la categoría.",
+        "fr": "La ruée vers l'or de la musique IA vit sous un nuage juridique : la plupart des générateurs vedettes se battent en justice sur leurs données d'entraînement. Le superpouvoir discret de Stable Audio est d'esquiver tout ce désordre — ses modèles sont entraînés sur des données entièrement licenciées, et Stable Audio Open 3.0, publié ouvertement, renforce cette position. En pratique, le produit (propulsé par Stable Audio 2.5) excelle dans ce dont les créateurs professionnels ont le plus besoin : des nappes instrumentales pour vidéos et podcasts, des effets sonores prêts pour le jeu vidéo, des stems à glisser dans un DAW, et des transformations audio vers audio de clips existants. Ce qu'il ne fait délibérément pas, c'est chanter — pas de génération vocale ni de paroles, donc quiconque cherche une chanson pop prête pour la radio sera plus heureux avec Suno ou Udio et leur position juridique plus trouble. Le niveau gratuit est réservé à l'usage personnel, mais les niveaux payants dès environ 11,99 $/mois précisent clairement les droits commerciaux — exactement ce dont les professionnels ont besoin. La qualité peut vaciller sur des prompts complexes, et l'histoire mouvementée de Stability AI mérite un coup d'œil. Malgré tout, pour de la musique et des SFX sûrs commercialement, c'est le choix le plus propre de la catégorie."
+      },
+      "bestFor": {
+        "en": [
+          "Creators needing commercial-safe background music and sound effects",
+          "Video, podcast and game makers who want royalty-clear audio",
+          "Producers sketching instrumental ideas and stems for a DAW"
+        ],
+        "zh": [
+          "需要商用安心背景音乐与音效的创作者",
+          "想要无版权纠纷音频的视频、播客与游戏制作者",
+          "起草器乐灵感与分轨、再进 DAW 深加工的制作人"
+        ],
+        "ja": [
+          "商用安全なBGMと効果音が必要なクリエイター",
+          "権利面でクリアなオーディオが欲しい動画・ポッドキャスト・ゲーム制作者",
+          "インストのアイデアやステムをスケッチしてDAWで仕上げるプロデューサー"
+        ],
+        "es": [
+          "Creadores que necesitan música de fondo y efectos de sonido seguros comercialmente",
+          "Creadores de video, pódcast y juegos que quieren audio libre de regalías",
+          "Productores que esbozan ideas instrumentales y stems para un DAW"
+        ],
+        "fr": [
+          "Créateurs ayant besoin de musique de fond et d'effets sonores sûrs commercialement",
+          "Créateurs de vidéos, podcasts et jeux voulant un audio libre de droits",
+          "Producteurs esquissant des idées instrumentales et des stems pour un DAW"
+        ]
+      },
+      "considerAlternatives": {
+        "en": [
+          "You want full songs with vocals and lyrics (→ Suno / Udio)",
+          "You need voice synthesis or speech, not music (→ ElevenLabs / Cartesia)"
+        ],
+        "zh": [
+          "你想要带人声与歌词的完整歌曲（→ Suno / Udio）",
+          "你需要语音合成而非音乐（→ ElevenLabs / Cartesia）"
+        ],
+        "ja": [
+          "ボーカルと歌詞入りのフルソングが欲しい（→ Suno / Udio）",
+          "音楽ではなく音声合成やスピーチが必要（→ ElevenLabs / Cartesia）"
+        ],
+        "es": [
+          "Quieres canciones completas con voces y letras (→ Suno / Udio)",
+          "Necesitas síntesis de voz o habla, no música (→ ElevenLabs / Cartesia)"
+        ],
+        "fr": [
+          "Vous voulez des chansons complètes avec voix et paroles (→ Suno / Udio)",
+          "Vous avez besoin de synthèse vocale ou de parole, pas de musique (→ ElevenLabs / Cartesia)"
+        ]
+      }
+    },
+    "meta": {
+      "lastVerified": "2026-07-28",
+      "verdictDate": "2026-07-28",
+      "pricingVerified": "2026-07-28",
+      "pricingUrl": "https://stableaudio.com/pricing"
+    }
   }
 }
