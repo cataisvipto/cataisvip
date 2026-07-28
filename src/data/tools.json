@@ -3945,5 +3945,208 @@
       "browser_extension": false,
       "api": true
     }
+  },
+  {
+    "slug": "synthesia",
+    "name": "Synthesia",
+    "nameZh": "Synthesia",
+    "description": "AI 数字人视频行业头部平台，230+ 数字人形象与 140+ 语言配音，输入文字即可生成培训、营销与产品讲解视频，财富 100 强过半在用",
+    "descriptionEn": "Leading AI avatar video platform with 230+ avatars and voiceovers in 140+ languages. Turn text into training, marketing and product videos — used by over half of the Fortune 100",
+    "descriptionJa": "AIアバター動画のリーディングプラットフォーム。230以上のアバターと140以上の言語のナレーションに対応し、テキストから研修・マーケティング・製品紹介動画を生成。フォーチュン100の過半数が利用",
+    "descriptionEs": "Plataforma líder de video con avatares IA: más de 230 avatares y locuciones en más de 140 idiomas. Convierte texto en videos de formación, marketing y producto; la usan más de la mitad del Fortune 100",
+    "descriptionFr": "Plateforme leader de vidéo avec avatars IA : plus de 230 avatars et voix off dans plus de 140 langues. Transformez du texte en vidéos de formation, marketing et produit — utilisée par plus de la moitié du Fortune 100",
+    "url": "https://www.synthesia.io",
+    "logo": "/logos/tools/synthesia.png",
+    "category": "Video",
+    "tags": [
+      "Freemium",
+      "API"
+    ],
+    "featured": false,
+    "developer": "Synthesia",
+    "platforms": {
+      "web": true,
+      "windows": false,
+      "macos": false,
+      "ios": false,
+      "android": false,
+      "linux": false,
+      "browser_extension": false,
+      "api": true
+    }
+  },
+  {
+    "slug": "d-id",
+    "name": "D-ID",
+    "nameZh": "D-ID",
+    "description": "以色列 AI 数字人先驱，照片即可生成会说话的数字人视频，V4 实时表达型视觉 Agent 支持接入任意 LLM 做面对面交互，API 生态成熟",
+    "descriptionEn": "Israeli AI avatar pioneer that turns a single photo into talking avatar videos. V4 Expressive Visual Agents connect to any LLM for real-time face-to-face interaction, backed by a mature API ecosystem",
+    "descriptionJa": "イスラエル発のAIアバターのパイオニア。写真1枚から話すアバター動画を生成。V4表現型ビジュアルエージェントは任意のLLMと接続しリアルタイムの対面型対話を実現。成熟したAPIエコシステムも魅力",
+    "descriptionEs": "Pionero israelí de avatares IA que convierte una sola foto en videos de avatares parlantes. Los Agentes Visuales Expresivos V4 se conectan a cualquier LLM para interacción cara a cara en tiempo real, con un ecosistema API maduro",
+    "descriptionFr": "Pionnier israélien des avatars IA : une seule photo suffit pour créer des vidéos d'avatars parlants. Les agents visuels expressifs V4 se connectent à n'importe quel LLM pour une interaction en face à face en temps réel, avec un écosystème API mature",
+    "url": "https://www.d-id.com",
+    "logo": "/logos/tools/d-id.png",
+    "category": "Video",
+    "tags": [
+      "Freemium",
+      "API"
+    ],
+    "featured": false,
+    "developer": "D-ID",
+    "platforms": {
+      "web": true,
+      "windows": false,
+      "macos": false,
+      "ios": true,
+      "android": true,
+      "linux": false,
+      "browser_extension": false,
+      "api": true
+    }
+  },
+  {
+    "slug": "tavus",
+    "name": "Tavus",
+    "nameZh": "Tavus",
+    "description": "实时对话视频 AI 开发者平台（CVI），Phoenix/Raven/Sparrow 模型让数字人能看、能听、能实时面对面交流，主打 API 构建视频 Agent",
+    "descriptionEn": "Developer platform for real-time conversational video AI (CVI). Its Phoenix, Raven and Sparrow models let avatars see, hear and hold face-to-face conversations — built API-first for video agents",
+    "descriptionJa": "リアルタイム対話型ビデオAI（CVI）の開発者プラットフォーム。Phoenix・Raven・Sparrowモデルによりアバターが見て、聞いて、対面で会話。API主導でビデオエージェントを構築",
+    "descriptionEs": "Plataforma para desarrolladores de video conversacional en tiempo real (CVI). Sus modelos Phoenix, Raven y Sparrow permiten a los avatares ver, oír y conversar cara a cara; API-first para agentes de video",
+    "descriptionFr": "Plateforme développeur de vidéo conversationnelle en temps réel (CVI). Ses modèles Phoenix, Raven et Sparrow permettent aux avatars de voir, entendre et converser en face à face — API-first pour les agents vidéo",
+    "url": "https://www.tavus.io",
+    "logo": "/logos/tools/tavus.png",
+    "category": "Video",
+    "tags": [
+      "Freemium",
+      "API"
+    ],
+    "featured": false,
+    "developer": "Tavus",
+    "platforms": {
+      "web": true,
+      "windows": false,
+      "macos": false,
+      "ios": false,
+      "android": false,
+      "linux": false,
+      "browser_extension": false,
+      "api": true
+    }
+  },
+  {
+    "slug": "together-ai",
+    "name": "Together AI",
+    "nameZh": "Together AI",
+    "description": "AI 原生云平台，serverless 推理覆盖 200+ 开源模型（DeepSeek、Llama、Qwen 等），支持微调与 GPU 集群，按 token 计费批量还打五折",
+    "descriptionEn": "The AI Native Cloud: serverless inference across 200+ open models (DeepSeek, Llama, Qwen and more), plus fine-tuning and GPU clusters. Pay per token with 50% off batch inference",
+    "descriptionJa": "AIネイティブクラウド。DeepSeek、Llama、Qwenなど200以上のオープンモデルのサーバーレス推論に対応し、ファインチューニングやGPUクラスタも提供。トークン課金でバッチ推論は半額",
+    "descriptionEs": "La nube nativa de IA: inferencia serverless de más de 200 modelos abiertos (DeepSeek, Llama, Qwen y más), además de fine-tuning y clústeres GPU. Pago por token con 50% de descuento en batch",
+    "descriptionFr": "Le cloud natif IA : inférence serverless sur plus de 200 modèles ouverts (DeepSeek, Llama, Qwen…), avec fine-tuning et clusters GPU. Paiement au token avec 50 % de réduction en batch",
+    "url": "https://www.together.ai",
+    "logo": "/logos/tools/together-ai.png",
+    "category": "Developer",
+    "tags": [
+      "Paid",
+      "API"
+    ],
+    "featured": false,
+    "developer": "Together AI",
+    "platforms": {
+      "web": true,
+      "windows": false,
+      "macos": false,
+      "ios": false,
+      "android": false,
+      "linux": false,
+      "browser_extension": false,
+      "api": true
+    }
+  },
+  {
+    "slug": "fireworks-ai",
+    "name": "Fireworks AI",
+    "nameZh": "Fireworks AI",
+    "description": "主打极速推理的生成式 AI 平台，serverless 按 token 计费零冷启动，兼容 OpenAI/Anthropic 接口，批量推理五折，另有专属部署与模型微调",
+    "descriptionEn": "Generative AI platform built for the fastest inference: serverless pay-per-token with zero cold starts, OpenAI/Anthropic-compatible APIs, 50% off batch inference, plus dedicated deployments and fine-tuning",
+    "descriptionJa": "最速推論を掲げる生成AIプラットフォーム。コールドスタートなしのサーバーレストークン課金、OpenAI/Anthropic互換API、バッチ推論半額に加え、専用デプロイやファインチューニングも提供",
+    "descriptionEs": "Plataforma de IA generativa centrada en la inferencia más rápida: serverless con pago por token sin arranques en frío, APIs compatibles con OpenAI/Anthropic, batch al 50%, más despliegues dedicados y fine-tuning",
+    "descriptionFr": "Plateforme d'IA générative axée sur l'inférence la plus rapide : serverless au token sans démarrage à froid, API compatibles OpenAI/Anthropic, batch à moitié prix, plus déploiements dédiés et fine-tuning",
+    "url": "https://fireworks.ai",
+    "logo": "/logos/tools/fireworks-ai.png",
+    "category": "Developer",
+    "tags": [
+      "Paid",
+      "API"
+    ],
+    "featured": false,
+    "developer": "Fireworks AI",
+    "platforms": {
+      "web": true,
+      "windows": false,
+      "macos": false,
+      "ios": false,
+      "android": false,
+      "linux": false,
+      "browser_extension": false,
+      "api": true
+    }
+  },
+  {
+    "slug": "replicate",
+    "name": "Replicate",
+    "nameZh": "Replicate",
+    "description": "开源模型托管鼻祖，一行 API 运行数千个社区与官方模型，按秒计费用多少付多少，Cog 工具还能打包部署自己的模型",
+    "descriptionEn": "The pioneer of open-source model hosting: run thousands of community and official models with one line of API, billed by the second so you only pay for what you use. Package and deploy your own models with Cog",
+    "descriptionJa": "オープンソースモデルホスティングの草分け。1行のAPIで数千のコミュニティ・公式モデルを実行、秒単位課金で使った分だけ支払い。Cogで自作モデルのパッケージ化とデプロイも可能",
+    "descriptionEs": "El pionero del hosting de modelos open source: ejecuta miles de modelos comunitarios y oficiales con una línea de API, facturación por segundo pagando solo lo que usas. Empaqueta y despliega tus propios modelos con Cog",
+    "descriptionFr": "Le pionnier de l'hébergement de modèles open source : exécutez des milliers de modèles communautaires et officiels avec une ligne d'API, facturation à la seconde — vous ne payez que ce que vous utilisez. Packagez et déployez vos propres modèles avec Cog",
+    "url": "https://replicate.com",
+    "logo": "/logos/tools/replicate.png",
+    "category": "Developer",
+    "tags": [
+      "Paid",
+      "API"
+    ],
+    "featured": false,
+    "developer": "Replicate (Cloudflare)",
+    "platforms": {
+      "web": true,
+      "windows": false,
+      "macos": false,
+      "ios": false,
+      "android": false,
+      "linux": false,
+      "browser_extension": false,
+      "api": true
+    }
+  },
+  {
+    "slug": "fal-ai",
+    "name": "Fal.ai",
+    "nameZh": "Fal.ai",
+    "description": "生成媒体专精推理平台，1000+ 图像/视频/语音模型（FLUX、Seedream、可灵等）一个 API 调用，速度极快按量付费，还有免费额度",
+    "descriptionEn": "Inference platform specialized in generative media: 1000+ image, video and voice models (FLUX, Seedream, Kling and more) behind one API. Blazing fast, pay-per-use with a free tier",
+    "descriptionJa": "生成メディア特化の推論プラットフォーム。FLUX、Seedream、Klingなど1000以上の画像・動画・音声モデルを単一APIで呼び出し。高速・従量課金で無料枠あり",
+    "descriptionEs": "Plataforma de inferencia especializada en medios generativos: más de 1000 modelos de imagen, video y voz (FLUX, Seedream, Kling y más) tras una sola API. Ultrarrápida, pago por uso y con capa gratuita",
+    "descriptionFr": "Plateforme d'inférence spécialisée dans les médias génératifs : plus de 1000 modèles d'image, vidéo et voix (FLUX, Seedream, Kling…) derrière une seule API. Ultra-rapide, paiement à l'usage avec offre gratuite",
+    "url": "https://fal.ai",
+    "logo": "/logos/tools/fal-ai.png",
+    "category": "Developer",
+    "tags": [
+      "Freemium",
+      "API"
+    ],
+    "featured": false,
+    "developer": "fal",
+    "platforms": {
+      "web": true,
+      "windows": false,
+      "macos": false,
+      "ios": false,
+      "android": false,
+      "linux": false,
+      "browser_extension": false,
+      "api": true
+    }
   }
 ]

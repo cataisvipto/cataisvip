@@ -33527,5 +33527,1650 @@
       "pricingVerified": "2026-07-28",
       "pricingUrl": "https://www.minimax.io/audio"
     }
+  },
+  "d-id": {
+    "features": {
+      "en": [
+        "Turn a single photo into a talking avatar video with natural lip-sync",
+        "V4 Expressive Visual Agents: real-time face-to-face interaction wired to any LLM",
+        "Creative Reality Studio for scripted avatar videos with 120+ language voices",
+        "Mature developer API for streaming avatars, video generation and agents",
+        "Video translation with voice cloning and lip-sync across languages",
+        "Integrations including PowerPoint add-in, Canva app and mobile apps"
+      ],
+      "zh": [
+        "一张照片即可生成口型自然的说话数字人视频",
+        "V4 表达型视觉 Agent：可接入任意 LLM 的实时面对面交互",
+        "Creative Reality Studio 制作脚本化数字人视频，支持 120+ 语言配音",
+        "面向开发者的成熟 API：流式数字人、视频生成与 Agent",
+        "跨语言视频翻译，支持声音克隆与口型同步",
+        "集成 PowerPoint 插件、Canva 应用与移动 App"
+      ],
+      "ja": [
+        "写真1枚から自然なリップシンクの話すアバター動画を生成",
+        "V4表現型ビジュアルエージェント：任意のLLMと接続するリアルタイム対面インタラクション",
+        "Creative Reality Studioで120以上の言語音声のスクリプト型アバター動画を制作",
+        "ストリーミングアバター・動画生成・エージェント向けの成熟した開発者API",
+        "音声クローンとリップシンク付きの多言語動画翻訳",
+        "PowerPointアドイン、Canvaアプリ、モバイルアプリなどの統合"
+      ],
+      "es": [
+        "Convierte una sola foto en un video de avatar parlante con sincronización labial natural",
+        "Agentes Visuales Expresivos V4: interacción cara a cara en tiempo real conectada a cualquier LLM",
+        "Creative Reality Studio para videos de avatar con guion y voces en más de 120 idiomas",
+        "API madura para desarrolladores: avatares en streaming, generación de video y agentes",
+        "Traducción de video con clonación de voz y sincronización labial entre idiomas",
+        "Integraciones como complemento de PowerPoint, app de Canva y apps móviles"
+      ],
+      "fr": [
+        "Transformez une seule photo en vidéo d'avatar parlant avec une synchronisation labiale naturelle",
+        "Agents visuels expressifs V4 : interaction en face à face en temps réel reliée à n'importe quel LLM",
+        "Creative Reality Studio pour des vidéos d'avatar scénarisées avec des voix dans plus de 120 langues",
+        "API développeur mature : avatars en streaming, génération vidéo et agents",
+        "Traduction vidéo avec clonage de voix et synchronisation labiale entre langues",
+        "Intégrations : module PowerPoint, application Canva et applis mobiles"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "14-day free trial with watermarked videos and limited credits — enough to test photo animation and the studio.",
+        "zh": "14 天免费试用，视频带水印、额度有限——足够测试照片动画与 Studio。",
+        "ja": "14日間の無料トライアル。動画はウォーターマーク付きでクレジット制限あり——写真アニメーションとStudioを試すには十分。",
+        "es": "Prueba gratuita de 14 días con videos con marca de agua y créditos limitados, suficiente para probar la animación de fotos y el estudio.",
+        "fr": "Essai gratuit de 14 jours avec vidéos filigranées et crédits limités — assez pour tester l'animation photo et le studio."
+      },
+      "paid": {
+        "en": "Studio subscriptions start around $5.9/month (Lite, annual billing), scaling through Pro and Advanced tiers by credits and features. The developer API is priced separately: Build from about $18/month ($14.4/month billed annually) and Launch at $35/month, with enterprise plans on request. (Verified against the official pricing pages, 2026-07-28.)",
+        "zh": "Studio 订阅约 $5.9/月起（Lite 档、年付），Pro 与 Advanced 档按额度与功能递增。开发者 API 单独计价：Build 约 $18/月起（年付 $14.4/月），Launch $35/月，企业方案另议。（对照官方定价页核实，2026-07-28。）",
+        "ja": "Studioのサブスクは月約$5.9から（Liteプラン・年払い）、ProとAdvancedはクレジットと機能に応じて段階的に上がる。開発者APIは別料金：Buildは月約$18から（年払いで月$14.4）、Launchは月$35、エンタープライズは応相談。（公式価格ページと照合、2026-07-28。）",
+        "es": "Las suscripciones de Studio empiezan en unos $5.9/mes (Lite, facturación anual), escalando por Pro y Advanced según créditos y funciones. La API para desarrolladores se cobra aparte: Build desde unos $18/mes ($14.4/mes anual) y Launch a $35/mes, con planes enterprise bajo consulta. (Verificado con las páginas oficiales de precios, 2026-07-28.)",
+        "fr": "Les abonnements Studio démarrent vers 5,9 $/mois (Lite, facturation annuelle), avec des paliers Pro et Advanced selon crédits et fonctionnalités. L'API développeur est tarifée à part : Build à partir d'environ 18 $/mois (14,4 $/mois en annuel) et Launch à 35 $/mois, offres enterprise sur demande. (Vérifié avec les pages tarifaires officielles, 2026-07-28.)"
+      }
+    },
+    "useCases": {
+      "en": [
+        "Animating portraits and product mascots into talking presenters",
+        "Embedding real-time conversational avatars into apps and kiosks via API",
+        "Localizing spokesperson videos with voice cloning and lip-sync",
+        "Adding narrated avatar clips to slides, e-learning and social content"
+      ],
+      "zh": [
+        "把人像或产品吉祥物动画化，变成会说话的讲解员",
+        "通过 API 把实时对话数字人嵌入应用与自助终端",
+        "用声音克隆与口型同步本地化代言人视频",
+        "为幻灯片、在线课程与社交内容添加数字人讲解片段"
+      ],
+      "ja": [
+        "ポートレートや製品マスコットをアニメ化して話すプレゼンターに",
+        "API経由でアプリやキオスクにリアルタイム対話アバターを組み込み",
+        "音声クローンとリップシンクでスポークスパーソン動画をローカライズ",
+        "スライド・eラーニング・SNSコンテンツにアバター解説クリップを追加"
+      ],
+      "es": [
+        "Animar retratos y mascotas de producto como presentadores parlantes",
+        "Integrar avatares conversacionales en tiempo real en apps y kioscos vía API",
+        "Localizar videos de portavoces con clonación de voz y sincronización labial",
+        "Añadir clips narrados por avatares a diapositivas, e-learning y contenido social"
+      ],
+      "fr": [
+        "Animer des portraits et mascottes produit en présentateurs parlants",
+        "Intégrer des avatars conversationnels en temps réel dans apps et bornes via API",
+        "Localiser des vidéos de porte-parole avec clonage de voix et synchro labiale",
+        "Ajouter des clips d'avatar narrés aux diapositives, e-learning et contenus sociaux"
+      ]
+    },
+    "pros": {
+      "en": [
+        "Lowest barrier to entry in the category — one photo is enough to start",
+        "V4 real-time agents are genuinely cutting-edge for interactive use cases",
+        "Entry pricing from $5.9/month undercuts most studio-grade rivals",
+        "Battle-tested API adopted across kiosks, apps and enterprise assistants"
+      ],
+      "zh": [
+        "同品类里门槛最低——一张照片就能开始",
+        "V4 实时 Agent 在交互场景上货真价实地前沿",
+        "$5.9/月起的入门价低于多数 Studio 级对手",
+        "API 久经考验，被广泛用于自助终端、应用与企业助手"
+      ],
+      "ja": [
+        "カテゴリ内で最も参入障壁が低い——写真1枚で始められる",
+        "V4リアルタイムエージェントはインタラクティブ用途で正真正銘の最先端",
+        "月$5.9からの入門価格は多くのスタジオ級ライバルを下回る",
+        "キオスク・アプリ・企業アシスタントで実戦検証済みのAPI"
+      ],
+      "es": [
+        "La barrera de entrada más baja de la categoría: basta una foto para empezar",
+        "Los agentes en tiempo real V4 son genuinamente punteros para casos interactivos",
+        "El precio de entrada desde $5.9/mes está por debajo de la mayoría de rivales de nivel estudio",
+        "API probada en batalla, adoptada en kioscos, apps y asistentes empresariales"
+      ],
+      "fr": [
+        "La barrière d'entrée la plus basse de la catégorie — une photo suffit pour commencer",
+        "Les agents temps réel V4 sont réellement à la pointe pour les usages interactifs",
+        "Le prix d'entrée à 5,9 $/mois est inférieur à la plupart des rivaux de niveau studio",
+        "API éprouvée, adoptée dans les bornes, apps et assistants d'entreprise"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Photo-driven avatars show head-and-shoulders motion only — no full-body presence",
+        "Credit-based plans can deplete quickly with video translation and premium voices",
+        "Studio polish and template depth trail Synthesia and HeyGen",
+        "Watermark and short trial make thorough free evaluation harder"
+      ],
+      "zh": [
+        "照片驱动的数字人只有头肩部动作——没有全身呈现",
+        "视频翻译与高级配音会快速消耗按额度计费的套餐",
+        "Studio 的精致度与模板深度落后于 Synthesia 和 HeyGen",
+        "水印与较短的试用期让充分的免费评估变得困难"
+      ],
+      "ja": [
+        "写真駆動のアバターは頭部と肩の動きのみ——全身表現はない",
+        "動画翻訳やプレミアム音声でクレジット制プランは急速に消耗する",
+        "Studioの完成度とテンプレートの充実度はSynthesiaやHeyGenに劣る",
+        "ウォーターマークと短いトライアルで無料での十分な評価がしづらい"
+      ],
+      "es": [
+        "Los avatares basados en foto solo muestran movimiento de cabeza y hombros, sin presencia de cuerpo completo",
+        "Los planes por créditos pueden agotarse rápido con traducción de video y voces premium",
+        "El acabado del Studio y la profundidad de plantillas van detrás de Synthesia y HeyGen",
+        "La marca de agua y la prueba corta dificultan una evaluación gratuita a fondo"
+      ],
+      "fr": [
+        "Les avatars issus de photos ne montrent que la tête et les épaules — pas de présence en pied",
+        "Les forfaits à crédits s'épuisent vite avec la traduction vidéo et les voix premium",
+        "Le fini du Studio et la profondeur des modèles restent derrière Synthesia et HeyGen",
+        "Le filigrane et l'essai court compliquent une évaluation gratuite approfondie"
+      ]
+    },
+    "latestUpdate": {
+      "en": "2026: D-ID shipped V4 Expressive Visual Agents — real-time avatars with richer facial expression that connect to any LLM for live, face-to-face conversation, available across all plans from $5.9/month. The API line (Build from ~$18/month, Launch $35/month) keeps powering kiosks, apps and enterprise assistants.",
+      "zh": "2026 年：D-ID 发布 V4 表达型视觉 Agent——表情更丰富的实时数字人，可接入任意 LLM 进行面对面实时对话，$5.9/月起全档位可用。API 产品线（Build 约 $18/月起、Launch $35/月）持续驱动自助终端、应用与企业助手。",
+      "ja": "2026年：D-IDはV4表現型ビジュアルエージェントをリリース——より豊かな表情のリアルタイムアバターが任意のLLMと接続し、対面のライブ会話を実現。月$5.9からの全プランで利用可能。APIライン（Buildは月約$18から、Launchは月$35）はキオスク・アプリ・企業アシスタントを支え続ける。",
+      "es": "2026: D-ID lanzó los Agentes Visuales Expresivos V4: avatares en tiempo real con expresión facial más rica que se conectan a cualquier LLM para conversación cara a cara en vivo, disponibles en todos los planes desde $5.9/mes. La línea API (Build desde ~$18/mes, Launch $35/mes) sigue impulsando kioscos, apps y asistentes empresariales.",
+      "fr": "2026 : D-ID a lancé les agents visuels expressifs V4 — des avatars en temps réel à l'expression faciale plus riche, connectés à n'importe quel LLM pour une conversation en face à face en direct, disponibles sur tous les forfaits dès 5,9 $/mois. La gamme API (Build dès ~18 $/mois, Launch 35 $/mois) continue d'alimenter bornes, apps et assistants d'entreprise."
+    },
+    "verdict": {
+      "badge": "Worth Trying",
+      "headline": {
+        "en": "The photo-to-presence pioneer, now betting everything on real-time agents",
+        "zh": "照片变真人的先驱，如今把筹码全押在实时 Agent 上",
+        "ja": "写真から存在感を生む先駆者、いまリアルタイムエージェントに全賭け",
+        "es": "El pionero de foto a presencia, ahora apostando todo a los agentes en tiempo real",
+        "fr": "Le pionnier de la photo animée, qui mise désormais tout sur les agents temps réel"
+      },
+      "body": {
+        "en": "D-ID's party trick — making any photo speak — is still the fastest route from zero to talking avatar, and at $5.9/month it is the cheapest credible entry into the category. But the more interesting story is the pivot: V4 Expressive Visual Agents turn those faces into real-time conversational front-ends for any LLM, and D-ID's API has quietly become the plumbing behind kiosks, banking assistants and customer-facing bots. That developer DNA is the company's real moat; the consumer studio, by contrast, feels a step behind Synthesia's polish and HeyGen's creator energy, and photo-driven avatars will always be head-and-shoulders performers rather than full-body presenters. Credits also burn faster than newcomers expect once video translation and premium voices enter the mix. The pragmatic read: if you need scripted corporate video at scale, Synthesia remains the safer default; if you want an interactive face on your product — a greeter, tutor or support agent that talks back in real time — D-ID is one of the most production-ready ways to build it, at a price that invites experimentation.",
+        "zh": "D-ID 的看家本领——让任何照片开口说话——依然是从零到说话数字人的最快路径，$5.9/月的入门价也是这个品类里最便宜的可信选项。但更有意思的是它的转向：V4 表达型视觉 Agent 把这些面孔变成了任意 LLM 的实时对话前端，D-ID 的 API 已悄悄成为自助终端、银行助手与客服机器人背后的管线。这种开发者基因才是公司真正的护城河；相较之下，面向消费者的 Studio 在精致度上落后 Synthesia 一步、在创作者活力上不及 HeyGen，而且照片驱动的数字人永远只是「头肩演员」，做不了全身呈现。一旦用上视频翻译与高级配音，额度的消耗也比新手预期的快。务实的结论是：如果你要的是规模化的脚本化企业视频，Synthesia 仍是更稳的默认；但如果你想给产品装上一张能实时回话的脸——迎宾员、导师或客服 Agent——D-ID 是最接近生产可用的构建方式之一，而且价格足够友好，值得一试。",
+        "ja": "D-IDの十八番——どんな写真でも喋らせる——は、ゼロから話すアバターへの最速ルートであり続けており、月$5.9という入門価格はこのカテゴリで最も安い信頼できる選択肢だ。しかしより興味深いのはその転換である。V4表現型ビジュアルエージェントはそれらの顔を任意のLLMのリアルタイム対話フロントエンドに変え、D-IDのAPIはキオスク、銀行アシスタント、顧客対応ボットの裏側の配管に静かになった。この開発者DNAこそが同社の真の堀だ。対照的にコンシューマ向けStudioはSynthesiaの完成度に一歩譲り、HeyGenのクリエイターの熱気にも及ばない。写真駆動のアバターは常に「頭と肩の演者」であり、全身プレゼンターにはなれない。動画翻訳とプレミアム音声を使い始めると、クレジットは新規ユーザーの想定より速く燃える。実務的な結論：スクリプト型の企業動画を大規模に作るならSynthesiaがなお安全な既定解。だが製品にリアルタイムで話し返す顔——受付係、チューター、サポートエージェント——を付けたいなら、D-IDは最も本番投入に近い構築手段のひとつであり、実験を誘う価格でもある。",
+        "es": "El truco estrella de D-ID —hacer hablar cualquier foto— sigue siendo la ruta más rápida de cero a avatar parlante, y a $5.9/mes es la entrada creíble más barata de la categoría. Pero la historia más interesante es el giro: los Agentes Visuales Expresivos V4 convierten esos rostros en interfaces conversacionales en tiempo real para cualquier LLM, y la API de D-ID se ha convertido en silencio en la fontanería detrás de kioscos, asistentes bancarios y bots de atención. Ese ADN de desarrollador es el verdadero foso de la empresa; el estudio de consumo, en cambio, va un paso por detrás del acabado de Synthesia y de la energía creadora de HeyGen, y los avatares basados en foto siempre serán intérpretes de cabeza y hombros, no presentadores de cuerpo entero. Los créditos también se queman más rápido de lo esperado cuando entran la traducción de video y las voces premium. La lectura pragmática: si necesitas video corporativo guionado a escala, Synthesia sigue siendo el valor seguro; si quieres una cara interactiva en tu producto —un recepcionista, tutor o agente de soporte que responda en tiempo real—, D-ID es una de las formas más listas para producción de construirla, a un precio que invita a experimentar.",
+        "fr": "Le tour de force de D-ID — faire parler n'importe quelle photo — reste le chemin le plus rapide de zéro à l'avatar parlant, et à 5,9 $/mois c'est l'entrée crédible la moins chère de la catégorie. Mais l'histoire la plus intéressante est le pivot : les agents visuels expressifs V4 transforment ces visages en interfaces conversationnelles temps réel pour n'importe quel LLM, et l'API de D-ID est discrètement devenue la tuyauterie derrière bornes, assistants bancaires et bots de relation client. Cet ADN développeur est la vraie douve de l'entreprise ; le studio grand public, lui, reste un cran derrière le fini de Synthesia et l'énergie créative de HeyGen, et les avatars issus de photos resteront toujours des interprètes en buste, jamais des présentateurs en pied. Les crédits fondent aussi plus vite que prévu dès que traduction vidéo et voix premium s'en mêlent. Lecture pragmatique : pour de la vidéo d'entreprise scénarisée à grande échelle, Synthesia reste le choix sûr ; pour donner à votre produit un visage interactif — accueil, tuteur ou agent de support qui répond en temps réel — D-ID est l'un des moyens les plus proches de la production pour le construire, à un prix qui invite à l'expérimentation."
+      },
+      "bestFor": {
+        "en": [
+          "Developers embedding real-time talking avatars into apps, kiosks and assistants",
+          "Creators animating portraits or mascots on a small budget",
+          "Teams localizing spokesperson videos with voice cloning and lip-sync"
+        ],
+        "zh": [
+          "要把实时说话数字人嵌入应用、终端与助手的开发者",
+          "预算有限、想让人像或吉祥物动起来的创作者",
+          "用声音克隆与口型同步本地化代言视频的团队"
+        ],
+        "ja": [
+          "アプリ・キオスク・アシスタントにリアルタイム対話アバターを組み込む開発者",
+          "少ない予算でポートレートやマスコットを動かしたいクリエイター",
+          "音声クローンとリップシンクでスポークスパーソン動画をローカライズするチーム"
+        ],
+        "es": [
+          "Desarrolladores que integran avatares parlantes en tiempo real en apps, kioscos y asistentes",
+          "Creadores que animan retratos o mascotas con poco presupuesto",
+          "Equipos que localizan videos de portavoces con clonación de voz y sincronización labial"
+        ],
+        "fr": [
+          "Développeurs intégrant des avatars parlants en temps réel dans apps, bornes et assistants",
+          "Créateurs animant portraits ou mascottes avec un petit budget",
+          "Équipes localisant des vidéos de porte-parole avec clonage de voix et synchro labiale"
+        ]
+      },
+      "considerAlternatives": {
+        "en": [
+          "You need polished, studio-grade corporate video at scale (→ Synthesia / HeyGen)",
+          "You want fully API-first conversational video with custom replicas (→ Tavus)"
+        ],
+        "zh": [
+          "你需要规模化、精良的 Studio 级企业视频（→ Synthesia / HeyGen）",
+          "你想要彻底 API 优先、带定制分身的对话视频（→ Tavus）"
+        ],
+        "ja": [
+          "洗練されたスタジオ級の企業動画を大規模に作りたい（→ Synthesia / HeyGen）",
+          "カスタムレプリカ付きの完全API主導な対話ビデオが欲しい（→ Tavus）"
+        ],
+        "es": [
+          "Necesitas video corporativo pulido de nivel estudio a escala (→ Synthesia / HeyGen)",
+          "Quieres video conversacional totalmente API-first con réplicas personalizadas (→ Tavus)"
+        ],
+        "fr": [
+          "Vous avez besoin de vidéo d'entreprise soignée de niveau studio à grande échelle (→ Synthesia / HeyGen)",
+          "Vous voulez de la vidéo conversationnelle entièrement API-first avec des répliques personnalisées (→ Tavus)"
+        ]
+      }
+    },
+    "meta": {
+      "lastVerified": "2026-07-28",
+      "verdictDate": "2026-07-28",
+      "pricingVerified": "2026-07-28",
+      "pricingUrl": "https://www.d-id.com/pricing/"
+    }
+  },
+  "fal-ai": {
+    "features": {
+      "en": [
+        "1000+ production-ready generative media models: FLUX, Kling, Veo, Wan and more",
+        "Custom inference engine claimed up to 10x faster for diffusion models",
+        "Realtime WebSocket API for sub-second interactive image generation",
+        "LoRA training for FLUX and other models in minutes",
+        "Serverless GPU compute (H100/H200/B200) billed by the second",
+        "Day-one access to new image and video model releases"
+      ],
+      "zh": [
+        "1000+ 生产可用的生成媒体模型：FLUX、Kling、Veo、Wan 等",
+        "自研推理引擎，号称扩散模型最高提速 10 倍",
+        "实时 WebSocket API，亚秒级交互式图像生成",
+        "FLUX 等模型的 LoRA 训练，几分钟出结果",
+        "Serverless GPU 算力（H100/H200/B200），按秒计费",
+        "新图像与视频模型发布首日即可调用"
+      ],
+      "ja": [
+        "1000以上の本番対応生成メディアモデル：FLUX、Kling、Veo、Wanなど",
+        "拡散モデルで最大10倍高速と謳う独自推論エンジン",
+        "サブ秒のインタラクティブ画像生成を可能にするリアルタイムWebSocket API",
+        "FLUXなどのLoRAトレーニングが数分で完了",
+        "秒単位課金のサーバーレスGPUコンピュート（H100/H200/B200）",
+        "新しい画像・動画モデルへの発売初日アクセス"
+      ],
+      "es": [
+        "Más de 1000 modelos de media generativa listos para producción: FLUX, Kling, Veo, Wan y más",
+        "Motor de inferencia propio que afirma ser hasta 10x más rápido para modelos de difusión",
+        "API WebSocket en tiempo real para generación interactiva de imágenes en menos de un segundo",
+        "Entrenamiento LoRA para FLUX y otros modelos en minutos",
+        "Cómputo GPU serverless (H100/H200/B200) facturado por segundo",
+        "Acceso desde el primer día a los nuevos lanzamientos de modelos de imagen y video"
+      ],
+      "fr": [
+        "Plus de 1000 modèles de média génératif prêts pour la production : FLUX, Kling, Veo, Wan et plus",
+        "Moteur d'inférence maison annoncé jusqu'à 10x plus rapide pour les modèles de diffusion",
+        "API WebSocket temps réel pour la génération d'images interactive en moins d'une seconde",
+        "Entraînement LoRA pour FLUX et d'autres modèles en quelques minutes",
+        "Calcul GPU serverless (H100/H200/B200) facturé à la seconde",
+        "Accès dès le premier jour aux nouvelles sorties de modèles image et vidéo"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "Free credits on signup let you test models in the browser playground before wiring up the API; many models expose free preview runs.",
+        "zh": "注册即送免费额度，可先在浏览器 Playground 里试模型再接 API；不少模型提供免费预览运行。",
+        "ja": "登録時の無料クレジットで、APIを繋ぐ前にブラウザのプレイグラウンドでモデルをテスト可能。多くのモデルが無料プレビュー実行を提供。",
+        "es": "Los créditos gratuitos al registrarse permiten probar modelos en el playground del navegador antes de conectar la API; muchos modelos ofrecen ejecuciones de vista previa gratuitas.",
+        "fr": "Des crédits gratuits à l'inscription permettent de tester les modèles dans le playground navigateur avant de brancher l'API ; de nombreux modèles offrent des exécutions d'aperçu gratuites."
+      },
+      "paid": {
+        "en": "Pay-per-use by model output (e.g. FLUX images from fractions of a cent per megapixel, video models per second of footage) or serverless GPU time — H100 from $1.89/hr, with H200 and B200 tiers above; volume and enterprise pricing on request. (Verified against the official pricing page, 2026-07-28.)",
+        "zh": "按模型产出计价（如 FLUX 图像按百万像素计、不足一美分起，视频模型按成片秒数计），或按 Serverless GPU 时长——H100 $1.89/小时起，H200、B200 档更高；批量与企业价格另议。（对照官方定价页核实，2026-07-28。）",
+        "ja": "モデル出力ごとの従量課金（例：FLUX画像はメガピクセルあたり1セント未満から、動画モデルは映像秒数単位）またはサーバーレスGPU時間——H100は$1.89/時から、上位にH200、B200帯。ボリュームとエンタープライズ価格は応相談。（公式価格ページと照合、2026-07-28。）",
+        "es": "Pago por uso según la salida del modelo (p. ej. imágenes FLUX desde fracciones de centavo por megapíxel, modelos de video por segundo de metraje) o tiempo de GPU serverless: H100 desde $1.89/hora, con niveles H200 y B200 por encima; precios por volumen y enterprise bajo consulta. (Verificado con la página oficial de precios, 2026-07-28.)",
+        "fr": "Paiement à l'usage selon la sortie du modèle (p. ex. images FLUX dès des fractions de centime par mégapixel, modèles vidéo à la seconde de séquence) ou temps GPU serverless — H100 dès 1,89 $/h, avec des paliers H200 et B200 au-dessus ; tarifs volume et enterprise sur demande. (Vérifié avec la page tarifaire officielle, 2026-07-28.)"
+      }
+    },
+    "useCases": {
+      "en": [
+        "Powering in-app image generation with realtime, interactive latency",
+        "Adding Kling/Veo-class video generation to products via one API",
+        "Training brand or character LoRAs and serving them at scale",
+        "Swapping between the newest media models without re-integrating"
+      ],
+      "zh": [
+        "为应用内图像生成提供实时交互级延迟",
+        "通过一个 API 给产品加上 Kling/Veo 级视频生成",
+        "训练品牌或角色 LoRA 并规模化部署",
+        "在最新媒体模型之间切换，无需重新集成"
+      ],
+      "ja": [
+        "アプリ内画像生成にリアルタイムの対話的レイテンシを提供",
+        "1つのAPIで製品にKling/Veo級の動画生成を追加",
+        "ブランドやキャラクターのLoRAをトレーニングして大規模に提供",
+        "再統合なしで最新メディアモデル間を切り替え"
+      ],
+      "es": [
+        "Impulsar la generación de imágenes en la app con latencia interactiva en tiempo real",
+        "Añadir generación de video clase Kling/Veo a productos con una sola API",
+        "Entrenar LoRAs de marca o personaje y servirlas a escala",
+        "Cambiar entre los modelos de media más nuevos sin reintegrar"
+      ],
+      "fr": [
+        "Alimenter la génération d'images in-app avec une latence interactive temps réel",
+        "Ajouter la génération vidéo de classe Kling/Veo aux produits via une seule API",
+        "Entraîner des LoRA de marque ou de personnage et les servir à grande échelle",
+        "Basculer entre les modèles média les plus récents sans réintégration"
+      ]
+    },
+    "pros": {
+      "en": [
+        "Widely benchmarked as the fastest diffusion inference on the market",
+        "Laser focus on generative media pays off in tooling and model depth",
+        "New image/video models are live on fal within hours of release",
+        "H100 at $1.89/hr is aggressive pricing for serverless GPUs"
+      ],
+      "zh": [
+        "各方基准普遍认可其扩散推理速度市场最快",
+        "死磕生成媒体这一件事，工具链与模型深度都见回报",
+        "新图像/视频模型发布几小时内就在 fal 上线",
+        "H100 $1.89/小时，在 Serverless GPU 里定价相当凶"
+      ],
+      "ja": [
+        "市場最速の拡散推論として広くベンチマークで実証",
+        "生成メディアへの一点集中がツールとモデルの深さに結実",
+        "新しい画像・動画モデルはリリース数時間以内にfalで稼働",
+        "H100が$1.89/時というのはサーバーレスGPUとして攻めた価格"
+      ],
+      "es": [
+        "Ampliamente evaluado como la inferencia de difusión más rápida del mercado",
+        "El enfoque láser en media generativa da frutos en herramientas y profundidad de modelos",
+        "Los nuevos modelos de imagen/video están en fal a horas de su lanzamiento",
+        "H100 a $1.89/hora es un precio agresivo para GPUs serverless"
+      ],
+      "fr": [
+        "Largement mesuré comme l'inférence de diffusion la plus rapide du marché",
+        "La concentration exclusive sur le média génératif paie en outillage et en profondeur de modèles",
+        "Les nouveaux modèles image/vidéo sont sur fal quelques heures après leur sortie",
+        "Le H100 à 1,89 $/h est un tarif agressif pour du GPU serverless"
+      ]
+    },
+    "cons": {
+      "en": [
+        "No LLM story — text workloads need a second provider",
+        "Per-output pricing across 1000+ models makes cost auditing tedious",
+        "Younger company with a thinner enterprise/compliance track record",
+        "Speed claims vary by model; benchmark your specific pipeline"
+      ],
+      "zh": [
+        "没有 LLM 业务——文本负载得另找一家供应商",
+        "1000+ 模型各有各的产出计价，成本审计相当繁琐",
+        "公司更年轻，企业级/合规履历相对单薄",
+        "提速幅度因模型而异，务必用自己的管线实测"
+      ],
+      "ja": [
+        "LLMは扱っていない——テキストワークロードには別のプロバイダーが必要",
+        "1000以上のモデルがそれぞれ出力単位で課金され、コスト監査は面倒",
+        "比較的若い会社でエンタープライズ/コンプライアンスの実績は薄め",
+        "高速化の度合いはモデル次第——自分のパイプラインでベンチマークを"
+      ],
+      "es": [
+        "Sin oferta de LLM: las cargas de texto necesitan un segundo proveedor",
+        "El precio por salida en más de 1000 modelos hace tediosa la auditoría de costes",
+        "Empresa más joven con un historial enterprise/de cumplimiento más delgado",
+        "Las cifras de velocidad varían según el modelo; haz benchmark de tu pipeline concreto"
+      ],
+      "fr": [
+        "Pas d'offre LLM — les charges texte exigent un second fournisseur",
+        "La tarification à la sortie sur plus de 1000 modèles rend l'audit des coûts fastidieux",
+        "Entreprise plus jeune au palmarès enterprise/conformité plus mince",
+        "Les gains de vitesse varient selon le modèle ; benchmarkez votre pipeline précis"
+      ]
+    },
+    "latestUpdate": {
+      "en": "2026: fal cemented its position as the generative media backbone — the catalog passed 1000 models spanning FLUX, Kling, Veo-class video and Wan, realtime WebSocket generation went mainstream in design tools, and B200 GPUs joined the serverless fleet while H100 pricing held at $1.89/hr.",
+      "zh": "2026 年：fal 坐实了生成媒体基础设施的位置——目录突破 1000 个模型，覆盖 FLUX、Kling、Veo 级视频与 Wan；实时 WebSocket 生成在设计工具中成为主流；B200 GPU 加入 Serverless 集群，H100 价格稳在 $1.89/小时。",
+      "ja": "2026年：falは生成メディアの基盤としての地位を固めた——カタログはFLUX、Kling、Veo級動画、Wanにまたがる1000モデルを突破。リアルタイムWebSocket生成はデザインツールで主流になり、B200 GPUがサーバーレス群に加わる一方、H100の価格は$1.89/時を維持。",
+      "es": "2026: fal consolidó su posición como columna vertebral del media generativo: el catálogo superó los 1000 modelos abarcando FLUX, Kling, video clase Veo y Wan, la generación WebSocket en tiempo real se volvió corriente en herramientas de diseño, y las GPUs B200 se unieron a la flota serverless mientras el precio del H100 se mantuvo en $1.89/hora.",
+      "fr": "2026 : fal a consolidé sa position d'épine dorsale du média génératif — le catalogue a dépassé les 1000 modèles couvrant FLUX, Kling, la vidéo de classe Veo et Wan, la génération WebSocket temps réel s'est généralisée dans les outils de design, et les GPU B200 ont rejoint la flotte serverless tandis que le H100 restait à 1,89 $/h."
+    },
+    "verdict": {
+      "badge": "Recommended",
+      "headline": {
+        "en": "If your product generates images or video, this is your inference layer",
+        "zh": "如果你的产品要生成图像或视频，这就是你的推理层",
+        "ja": "画像や動画を生成する製品なら、これがあなたの推論レイヤーだ",
+        "es": "Si tu producto genera imágenes o video, esta es tu capa de inferencia",
+        "fr": "Si votre produit génère des images ou de la vidéo, voici votre couche d'inférence"
+      },
+      "body": {
+        "en": "fal made one bet and made it hard: skip LLMs entirely and become the fastest place on the internet to run image, video and audio models. The bet paid off. Its custom diffusion engine routinely tops independent speed benchmarks, the realtime WebSocket API turned image generation from a loading bar into a live preview, and the catalog — 1000+ models with FLUX, Kling, Veo-class video and Wan onboard within hours of release — has become the de facto menu of generative media. Design tools, avatar apps and video startups increasingly run on fal without their users ever knowing. The specialization cuts both ways: there is no LLM offering, so most teams pair fal with Together or Fireworks; per-output pricing across a thousand models makes cost forecasting a spreadsheet exercise; and its enterprise paper trail is shorter than the hyperscalers'. Replicate counters with breadth and community, and it remains better for exploring the long tail. But when a media feature graduates from experiment to production traffic, teams consistently land in the same place — fal, for the simple reason that speed is the feature users feel. In generative media inference, it has earned default status.",
+        "zh": "fal 只押了一注，而且押得很重：完全跳过 LLM，专心做互联网上跑图像、视频与音频模型最快的地方。这注押对了。它的自研扩散引擎在各家独立速度基准里常年霸榜；实时 WebSocket API 把图像生成从进度条变成了实时预览；而它的目录——1000+ 模型，FLUX、Kling、Veo 级视频、Wan 都在发布几小时内上架——已成为生成媒体的事实菜单。设计工具、数字人应用、视频创业公司越来越多地跑在 fal 上，用户却毫无察觉。专精是把双刃剑：没有 LLM 产品线，多数团队得拿 fal 搭配 Together 或 Fireworks；上千个模型各自按产出计价，成本预测成了表格苦活；企业级履历也比超大云短。Replicate 用广度和社区反击，探索长尾模型仍是它更强。但当一个媒体功能从实验毕业、迎来生产流量时，各家团队总是殊途同归地落在同一个地方——fal，理由很简单：速度是用户唯一能亲身感到的功能。在生成媒体推理这条赛道上，它配得上默认选项的地位。",
+        "ja": "falは一つの賭けに全力を注いだ。LLMを完全にスキップし、画像・動画・音声モデルをインターネット上で最速で実行できる場所になることだ。その賭けは当たった。独自の拡散エンジンは独立系の速度ベンチマークで常に上位を占め、リアルタイムWebSocket APIは画像生成をローディングバーからライブプレビューに変え、カタログ——リリース数時間以内にFLUX、Kling、Veo級動画、Wanが並ぶ1000超のモデル——は生成メディアの事実上のメニューになった。デザインツール、アバターアプリ、動画スタートアップは、ユーザーに気づかれることなくfalの上で動くことが増えている。専門特化は諸刃の剣だ。LLMの提供はないので、多くのチームはfalをTogetherやFireworksと組み合わせる。千のモデルがそれぞれ出力単位で課金されるため、コスト予測は表計算の苦行になる。エンタープライズの実績もハイパースケーラーより短い。Replicateは幅とコミュニティで対抗し、ロングテールの探索では今も向こうが上だ。しかしメディア機能が実験を卒業して本番トラフィックを迎えるとき、各チームは決まって同じ場所に行き着く——falだ。理由は単純で、速度こそユーザーが体感できる機能だからだ。生成メディア推論において、falはデフォルトの地位を勝ち取った。",
+        "es": "fal hizo una sola apuesta y la hizo fuerte: saltarse los LLMs por completo y convertirse en el lugar más rápido de internet para ejecutar modelos de imagen, video y audio. La apuesta salió bien. Su motor de difusión propio encabeza rutinariamente los benchmarks independientes de velocidad, la API WebSocket en tiempo real convirtió la generación de imágenes de una barra de carga en una vista previa en vivo, y el catálogo —más de 1000 modelos con FLUX, Kling, video clase Veo y Wan disponibles a horas de su lanzamiento— se ha vuelto el menú de facto del media generativo. Herramientas de diseño, apps de avatares y startups de video corren cada vez más sobre fal sin que sus usuarios lo sepan. La especialización corta en ambos sentidos: no hay oferta de LLM, así que la mayoría de los equipos combina fal con Together o Fireworks; el precio por salida en mil modelos convierte la previsión de costes en un ejercicio de hoja de cálculo; y su historial enterprise es más corto que el de los hiperescaladores. Replicate contraataca con amplitud y comunidad, y sigue siendo mejor para explorar la cola larga. Pero cuando una función de media pasa de experimento a tráfico de producción, los equipos aterrizan consistentemente en el mismo sitio: fal, por la sencilla razón de que la velocidad es la función que los usuarios sienten. En inferencia de media generativa, se ha ganado el estatus de opción por defecto.",
+        "fr": "fal a fait un seul pari, et l'a fait à fond : ignorer totalement les LLM et devenir l'endroit le plus rapide d'internet pour exécuter des modèles d'image, de vidéo et d'audio. Le pari est gagné. Son moteur de diffusion maison domine régulièrement les benchmarks de vitesse indépendants, l'API WebSocket temps réel a transformé la génération d'images d'une barre de chargement en aperçu en direct, et le catalogue — plus de 1000 modèles avec FLUX, Kling, la vidéo de classe Veo et Wan disponibles quelques heures après leur sortie — est devenu le menu de facto du média génératif. Outils de design, apps d'avatars et startups vidéo tournent de plus en plus sur fal sans que leurs utilisateurs le sachent. La spécialisation coupe dans les deux sens : pas d'offre LLM, donc la plupart des équipes associent fal à Together ou Fireworks ; la tarification à la sortie sur mille modèles fait de la prévision des coûts un exercice de tableur ; et son dossier enterprise est plus court que celui des hyperscalers. Replicate riposte par la largeur et la communauté, et reste meilleur pour explorer la longue traîne. Mais quand une fonction média passe de l'expérimentation au trafic de production, les équipes atterrissent invariablement au même endroit — fal, pour la simple raison que la vitesse est la fonctionnalité que les utilisateurs ressentent. En inférence de média génératif, il a mérité le statut de choix par défaut."
+      },
+      "bestFor": {
+        "en": [
+          "Products with in-app image or video generation at production scale",
+          "Teams that need realtime, interactive generation latency",
+          "Developers training and serving LoRAs for brand-consistent output"
+        ],
+        "zh": [
+          "应用内图像或视频生成已达生产规模的产品",
+          "需要实时交互级生成延迟的团队",
+          "训练并部署 LoRA、追求品牌一致产出的开发者"
+        ],
+        "ja": [
+          "本番規模のアプリ内画像・動画生成を持つ製品",
+          "リアルタイムで対話的な生成レイテンシが必要なチーム",
+          "ブランド一貫性のためにLoRAをトレーニングして提供する開発者"
+        ],
+        "es": [
+          "Productos con generación de imagen o video en la app a escala de producción",
+          "Equipos que necesitan latencia de generación interactiva en tiempo real",
+          "Desarrolladores que entrenan y sirven LoRAs para salidas coherentes con la marca"
+        ],
+        "fr": [
+          "Produits avec génération d'image ou de vidéo in-app à l'échelle de production",
+          "Équipes ayant besoin d'une latence de génération interactive en temps réel",
+          "Développeurs entraînant et servant des LoRA pour une sortie cohérente avec la marque"
+        ]
+      },
+      "considerAlternatives": {
+        "en": [
+          "You want to browse and experiment across the widest model long tail (→ Replicate)",
+          "Your primary workload is LLM inference (→ Together AI / Fireworks AI)"
+        ],
+        "zh": [
+          "你想在最宽的模型长尾里逛和实验（→ Replicate）",
+          "你的主负载是 LLM 推理（→ Together AI / Fireworks AI）"
+        ],
+        "ja": [
+          "最も広いモデルのロングテールを眺めて実験したい（→ Replicate）",
+          "主なワークロードがLLM推論（→ Together AI / Fireworks AI）"
+        ],
+        "es": [
+          "Quieres explorar y experimentar en la cola larga de modelos más amplia (→ Replicate)",
+          "Tu carga principal es inferencia de LLM (→ Together AI / Fireworks AI)"
+        ],
+        "fr": [
+          "Vous voulez explorer et expérimenter la plus large longue traîne de modèles (→ Replicate)",
+          "Votre charge principale est l'inférence LLM (→ Together AI / Fireworks AI)"
+        ]
+      }
+    },
+    "meta": {
+      "lastVerified": "2026-07-28",
+      "verdictDate": "2026-07-28",
+      "pricingVerified": "2026-07-28",
+      "pricingUrl": "https://fal.ai/pricing"
+    }
+  },
+  "fireworks-ai": {
+    "features": {
+      "en": [
+        "Serverless inference for leading open models: DeepSeek, Qwen, Llama, Kimi and more",
+        "FireAttention custom inference engine tuned for low latency and high throughput",
+        "OpenAI- and Anthropic-compatible APIs for drop-in migration",
+        "Fine-tuning with LoRA, quantization-aware serving and speculative decoding",
+        "On-demand GPU deployments (H100/H200/B200) billed per second",
+        "Batch inference at 50% discount and compound AI workflows via FireFunction"
+      ],
+      "zh": [
+        "主流开源模型的 Serverless 推理：DeepSeek、Qwen、Llama、Kimi 等",
+        "自研 FireAttention 推理引擎，为低延迟高吞吐调优",
+        "OpenAI 与 Anthropic 双兼容 API，可直接平移迁入",
+        "微调支持 LoRA、量化感知部署与投机解码",
+        "按需 GPU 部署（H100/H200/B200），按秒计费",
+        "批量推理五折，另可用 FireFunction 编排复合 AI 工作流"
+      ],
+      "ja": [
+        "主要オープンモデルのサーバーレス推論：DeepSeek、Qwen、Llama、Kimiなど",
+        "低レイテンシ・高スループットに調整された独自推論エンジンFireAttention",
+        "OpenAIとAnthropic両互換のAPIでそのまま移行可能",
+        "LoRAファインチューニング、量子化対応サービング、投機的デコーディング",
+        "秒単位課金のオンデマンドGPUデプロイ（H100/H200/B200）",
+        "バッチ推論50%オフ、FireFunctionによる複合AIワークフロー"
+      ],
+      "es": [
+        "Inferencia serverless para los principales modelos abiertos: DeepSeek, Qwen, Llama, Kimi y más",
+        "Motor de inferencia propio FireAttention ajustado para baja latencia y alto rendimiento",
+        "APIs compatibles con OpenAI y Anthropic para migración directa",
+        "Fine-tuning con LoRA, serving consciente de cuantización y decodificación especulativa",
+        "Despliegues de GPU bajo demanda (H100/H200/B200) facturados por segundo",
+        "Inferencia por lotes con 50% de descuento y flujos de IA compuestos vía FireFunction"
+      ],
+      "fr": [
+        "Inférence serverless pour les principaux modèles ouverts : DeepSeek, Qwen, Llama, Kimi et plus",
+        "Moteur d'inférence maison FireAttention optimisé pour la faible latence et le haut débit",
+        "APIs compatibles OpenAI et Anthropic pour une migration directe",
+        "Fine-tuning avec LoRA, serving conscient de la quantification et décodage spéculatif",
+        "Déploiements GPU à la demande (H100/H200/B200) facturés à la seconde",
+        "Inférence par lots à 50 % de réduction et workflows d'IA composés via FireFunction"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "New accounts get $1 in free credits — enough to benchmark a few models — with no credit card required to start experimenting.",
+        "zh": "新账号赠 $1 免费额度——够跑几个模型的基准测试——上手实验无需信用卡。",
+        "ja": "新規アカウントには$1の無料クレジット付与——いくつかのモデルのベンチマークには十分——実験開始にクレジットカードは不要。",
+        "es": "Las cuentas nuevas reciben $1 en créditos gratuitos —suficiente para evaluar unos cuantos modelos— sin necesidad de tarjeta de crédito para empezar a experimentar.",
+        "fr": "Les nouveaux comptes reçoivent 1 $ de crédits gratuits — assez pour comparer quelques modèles — sans carte bancaire pour commencer à expérimenter."
+      },
+      "paid": {
+        "en": "Serverless pay-per-token pricing varies by model (small models from cents per million tokens up to several dollars for frontier-scale open models); batch requests are 50% off; on-demand GPUs bill per second (H100-class from about $5.80/hr); fine-tuning charged on tokens processed. (Verified against the official pricing page, 2026-07-28.)",
+        "zh": "Serverless 按 token 计价，随模型浮动（小模型每百万 token 几美分，前沿级开源大模型数美元）；批量请求五折；按需 GPU 按秒计费（H100 级约 $5.80/小时起）；微调按处理 token 数计费。（对照官方定价页核实，2026-07-28。）",
+        "ja": "サーバーレスのトークン従量課金はモデルにより変動（小型モデルは100万トークンあたり数セント、フロンティア級オープンモデルは数ドル）。バッチリクエストは50%オフ。オンデマンドGPUは秒単位課金（H100級で約$5.80/時から）。ファインチューニングは処理トークン数で課金。（公式価格ページと照合、2026-07-28。）",
+        "es": "Los precios serverless por token varían según el modelo (modelos pequeños desde centavos por millón de tokens hasta varios dólares para modelos abiertos de escala frontera); las solicitudes por lotes tienen 50% de descuento; las GPUs bajo demanda se facturan por segundo (clase H100 desde unos $5.80/hora); el fine-tuning se cobra por tokens procesados. (Verificado con la página oficial de precios, 2026-07-28.)",
+        "fr": "La tarification serverless au token varie selon le modèle (petits modèles à quelques centimes par million de tokens, jusqu'à plusieurs dollars pour les modèles ouverts d'échelle frontière) ; les requêtes par lots sont à moitié prix ; les GPU à la demande sont facturés à la seconde (classe H100 dès environ 5,80 $/h) ; le fine-tuning est facturé aux tokens traités. (Vérifié avec la page tarifaire officielle, 2026-07-28.)"
+      }
+    },
+    "useCases": {
+      "en": [
+        "Latency-sensitive production apps: chatbots, copilots, real-time agents",
+        "Migrating OpenAI/Anthropic workloads to cheaper open models with one URL change",
+        "Serving fine-tuned models with speculative decoding for extra speed",
+        "Burst-scaling inference on per-second GPU deployments"
+      ],
+      "zh": [
+        "延迟敏感的生产应用：聊天机器人、Copilot、实时 Agent",
+        "改一个 URL 就把 OpenAI/Anthropic 负载迁到更便宜的开源模型",
+        "用投机解码部署微调模型，再提一档速度",
+        "在按秒计费的 GPU 部署上应对突发扩容"
+      ],
+      "ja": [
+        "レイテンシ重視の本番アプリ：チャットボット、コパイロット、リアルタイムエージェント",
+        "URLひとつの変更でOpenAI/Anthropicのワークロードを安価なオープンモデルへ移行",
+        "投機的デコーディングでファインチューニング済みモデルをさらに高速に提供",
+        "秒単位課金のGPUデプロイでバーストスケーリング"
+      ],
+      "es": [
+        "Apps de producción sensibles a la latencia: chatbots, copilots, agentes en tiempo real",
+        "Migrar cargas de OpenAI/Anthropic a modelos abiertos más baratos cambiando una URL",
+        "Servir modelos fine-tuneados con decodificación especulativa para más velocidad",
+        "Escalado por ráfagas en despliegues de GPU por segundo"
+      ],
+      "fr": [
+        "Apps de production sensibles à la latence : chatbots, copilotes, agents temps réel",
+        "Migrer des charges OpenAI/Anthropic vers des modèles ouverts moins chers en changeant une URL",
+        "Servir des modèles fine-tunés avec décodage spéculatif pour plus de vitesse",
+        "Montée en charge par rafales sur des déploiements GPU à la seconde"
+      ]
+    },
+    "pros": {
+      "en": [
+        "FireAttention delivers some of the lowest latencies among open-model hosts",
+        "Dual OpenAI/Anthropic compatibility makes migration nearly frictionless",
+        "Per-second GPU billing is unusually granular for on-demand hardware",
+        "Founded by the PyTorch core team — infrastructure depth is genuine"
+      ],
+      "zh": [
+        "FireAttention 让它在开源模型托管商里延迟名列前茅",
+        "OpenAI/Anthropic 双兼容，迁移几乎零摩擦",
+        "GPU 按秒计费，粒度在按需硬件里罕见地细",
+        "由 PyTorch 核心团队创立——基础设施功力是真的"
+      ],
+      "ja": [
+        "FireAttentionによりオープンモデルホストの中でも最低水準のレイテンシを実現",
+        "OpenAI/Anthropic両互換で移行はほぼ摩擦ゼロ",
+        "GPUの秒単位課金はオンデマンドハードウェアとしては異例の細かさ",
+        "PyTorchコアチームによる創業——インフラの深みは本物"
+      ],
+      "es": [
+        "FireAttention ofrece algunas de las latencias más bajas entre los hosts de modelos abiertos",
+        "La doble compatibilidad OpenAI/Anthropic hace la migración casi sin fricción",
+        "La facturación de GPU por segundo es inusualmente granular para hardware bajo demanda",
+        "Fundada por el equipo central de PyTorch: la profundidad de infraestructura es genuina"
+      ],
+      "fr": [
+        "FireAttention offre parmi les latences les plus basses des hébergeurs de modèles ouverts",
+        "La double compatibilité OpenAI/Anthropic rend la migration presque sans friction",
+        "La facturation GPU à la seconde est d'une granularité rare pour du matériel à la demande",
+        "Fondée par l'équipe cœur de PyTorch — la profondeur d'infrastructure est réelle"
+      ]
+    },
+    "cons": {
+      "en": [
+        "$1 of trial credit is symbolic — real evaluation requires paying up front",
+        "Model catalog is curated rather than exhaustive; niche models may be missing",
+        "No proprietary frontier models, same as every open-model host",
+        "Docs and tooling assume engineers; no-code users have little to hold onto"
+      ],
+      "zh": [
+        "$1 试用额度只是象征性的——认真评估得先充值",
+        "模型目录走精选路线而非大而全，小众模型可能缺位",
+        "和所有开源模型托管商一样，没有闭源前沿模型",
+        "文档与工具默认你是工程师，无代码用户几乎无从下手"
+      ],
+      "ja": [
+        "$1のトライアルクレジットは象徴的——本格的な評価には先払いが必要",
+        "モデルカタログは網羅型ではなく厳選型で、ニッチなモデルは欠けることも",
+        "他のオープンモデルホストと同様、独自のフロンティアモデルはない",
+        "ドキュメントとツールはエンジニア前提で、ノーコードユーザーには取っ掛かりが少ない"
+      ],
+      "es": [
+        "El crédito de prueba de $1 es simbólico: una evaluación real requiere pagar por adelantado",
+        "El catálogo de modelos es curado, no exhaustivo; pueden faltar modelos de nicho",
+        "Sin modelos frontera propietarios, como todo host de modelos abiertos",
+        "La documentación y las herramientas asumen ingenieros; los usuarios no-code tienen poco a lo que agarrarse"
+      ],
+      "fr": [
+        "Le crédit d'essai de 1 $ est symbolique — une vraie évaluation demande de payer d'avance",
+        "Le catalogue de modèles est sélectif plutôt qu'exhaustif ; des modèles de niche peuvent manquer",
+        "Pas de modèles frontière propriétaires, comme tout hébergeur de modèles ouverts",
+        "Docs et outillage supposent des ingénieurs ; les utilisateurs no-code ont peu de prise"
+      ]
+    },
+    "latestUpdate": {
+      "en": "2026: Fireworks AI keeps pressing its speed advantage — FireAttention now pairs with speculative decoding and quantization-aware serving across DeepSeek, Qwen and Llama lines, Anthropic-compatible endpoints joined the OpenAI-compatible ones, and B200-class GPUs entered the per-second on-demand fleet alongside 50%-off batch inference.",
+      "zh": "2026 年：Fireworks AI 继续放大速度优势——FireAttention 在 DeepSeek、Qwen、Llama 各系上叠加投机解码与量化感知部署，OpenAI 兼容端点之外新增 Anthropic 兼容端点，B200 级 GPU 加入按秒计费的按需集群，批量推理保持五折。",
+      "ja": "2026年：Fireworks AIはスピードの優位を押し広げ続けている——FireAttentionはDeepSeek、Qwen、Llama各系で投機的デコーディングと量子化対応サービングを組み合わせ、OpenAI互換に加えてAnthropic互換エンドポイントが登場。B200級GPUが秒単位課金のオンデマンド群に加わり、バッチ推論は50%オフを維持。",
+      "es": "2026: Fireworks AI sigue explotando su ventaja de velocidad: FireAttention ahora se combina con decodificación especulativa y serving consciente de cuantización en las líneas DeepSeek, Qwen y Llama, los endpoints compatibles con Anthropic se sumaron a los compatibles con OpenAI, y las GPUs clase B200 entraron en la flota bajo demanda por segundo junto a la inferencia por lotes al 50%.",
+      "fr": "2026 : Fireworks AI continue d'appuyer son avantage de vitesse — FireAttention se combine désormais au décodage spéculatif et au serving conscient de la quantification sur les gammes DeepSeek, Qwen et Llama, des endpoints compatibles Anthropic ont rejoint ceux compatibles OpenAI, et des GPU de classe B200 ont intégré la flotte à la demande facturée à la seconde, avec l'inférence par lots à moitié prix."
+    },
+    "verdict": {
+      "badge": "Worth Trying",
+      "headline": {
+        "en": "The speed specialist of open-model inference",
+        "zh": "开源模型推理里的速度专门户",
+        "ja": "オープンモデル推論のスピードスペシャリスト",
+        "es": "El especialista en velocidad de la inferencia de modelos abiertos",
+        "fr": "Le spécialiste de la vitesse en inférence de modèles ouverts"
+      },
+      "body": {
+        "en": "Fireworks and Together are often mentioned in the same breath, but they optimize for different things. Together wins on catalog breadth; Fireworks wins on the serving layer. FireAttention, speculative decoding and quantization-aware serving are the kind of infrastructure work you only get from a team that came out of PyTorch's core, and in latency-sensitive workloads the difference is measurable, not theoretical. The dual OpenAI-and-Anthropic compatibility is a quietly brilliant move — teams can reroute either vendor's traffic to open models by changing a URL. The hesitations are practical: the $1 trial credit makes serious evaluation a paid exercise, the curated catalog means your favorite niche model may be absent, and everything about the product assumes an engineer at the keyboard. The honest guidance: benchmark it. If your product lives or dies on time-to-first-token — a voice agent, a real-time copilot, a high-traffic chatbot — Fireworks frequently comes out on top, and per-second GPU billing sweetens scaling. If you just need the widest choice of models at prototype prices, Together remains the broader default.",
+        "zh": "Fireworks 和 Together 常被相提并论，但两者的优化方向不同：Together 赢在目录广度，Fireworks 赢在服务层。FireAttention、投机解码、量化感知部署，这类基础设施功夫只有 PyTorch 核心团队出身的人做得出来；在延迟敏感的负载上，差距是可测量的，不是理论上的。OpenAI 与 Anthropic 双兼容是步安静的妙棋——两家供应商的流量，改个 URL 就能改道去开源模型。犹豫点都很实际：$1 试用额度让认真评估变成付费练习；精选式目录意味着你钟爱的小众模型可能不在；产品的一切都默认键盘前坐着工程师。诚实的建议是：跑个基准。如果你的产品生死系于首 token 时间——语音 Agent、实时 Copilot、高流量聊天机器人——Fireworks 常常胜出，按秒计费的 GPU 还能让扩容更划算。如果你只是要在原型价位上挑最多的模型，Together 仍是更宽的默认选项。",
+        "ja": "FireworksとTogetherはよく並べて語られるが、最適化の方向が違う。Togetherはカタログの広さで勝ち、Fireworksはサービング層で勝つ。FireAttention、投機的デコーディング、量子化対応サービングは、PyTorchのコア出身チームだからこそ作れるインフラ仕事であり、レイテンシ重視のワークロードではその差は理論ではなく測定可能なものだ。OpenAIとAnthropicの両互換は静かに冴えた一手——どちらのベンダーのトラフィックも、URLを変えるだけでオープンモデルへ流し替えられる。ためらいは実務的なものだ。$1のトライアルクレジットでは本格評価は有料の作業になり、厳選型カタログではお気に入りのニッチモデルが欠けているかもしれず、製品のすべてがキーボードの前のエンジニアを前提とする。正直な助言はこうだ：ベンチマークを取れ。音声エージェント、リアルタイムコパイロット、高トラフィックのチャットボットなど、最初のトークンまでの時間が生死を分ける製品なら、Fireworksはしばしば首位に立ち、秒単位のGPU課金がスケーリングを後押しする。プロトタイプ価格で最も幅広いモデルから選びたいだけなら、Togetherがより広い既定解であり続ける。",
+        "es": "Fireworks y Together suelen mencionarse juntos, pero optimizan cosas distintas. Together gana en amplitud de catálogo; Fireworks gana en la capa de serving. FireAttention, la decodificación especulativa y el serving consciente de cuantización son el tipo de trabajo de infraestructura que solo sale de un equipo nacido del núcleo de PyTorch, y en cargas sensibles a la latencia la diferencia es medible, no teórica. La doble compatibilidad OpenAI-Anthropic es una jugada discretamente brillante: los equipos pueden redirigir el tráfico de cualquiera de los dos proveedores a modelos abiertos cambiando una URL. Las dudas son prácticas: el crédito de prueba de $1 convierte la evaluación seria en un ejercicio de pago, el catálogo curado implica que tu modelo de nicho favorito puede faltar, y todo el producto asume un ingeniero al teclado. El consejo honesto: haz un benchmark. Si tu producto vive o muere por el tiempo al primer token —un agente de voz, un copilot en tiempo real, un chatbot de alto tráfico—, Fireworks sale ganando con frecuencia, y la facturación de GPU por segundo endulza el escalado. Si solo necesitas la mayor variedad de modelos a precios de prototipo, Together sigue siendo el default más amplio.",
+        "fr": "Fireworks et Together sont souvent cités ensemble, mais ils n'optimisent pas la même chose. Together gagne sur la largeur du catalogue ; Fireworks gagne sur la couche de serving. FireAttention, le décodage spéculatif et le serving conscient de la quantification sont le genre de travail d'infrastructure qu'on n'obtient que d'une équipe issue du cœur de PyTorch, et sur les charges sensibles à la latence, la différence est mesurable, pas théorique. La double compatibilité OpenAI-Anthropic est un coup discrètement brillant — on peut rediriger le trafic de l'un ou l'autre vendeur vers des modèles ouverts en changeant une URL. Les hésitations sont pratiques : le crédit d'essai de 1 $ fait de l'évaluation sérieuse un exercice payant, le catalogue sélectif signifie que votre modèle de niche préféré peut manquer, et tout le produit suppose un ingénieur au clavier. Le conseil honnête : faites un benchmark. Si votre produit vit ou meurt du temps au premier token — agent vocal, copilote temps réel, chatbot à fort trafic — Fireworks l'emporte souvent, et la facturation GPU à la seconde adoucit le passage à l'échelle. S'il vous faut simplement le plus large choix de modèles à prix de prototype, Together reste le défaut le plus large."
+      },
+      "bestFor": {
+        "en": [
+          "Latency-critical products: voice agents, copilots, real-time chat",
+          "Teams rerouting OpenAI or Anthropic traffic to open models",
+          "Engineers who benchmark providers and pick by measured speed"
+        ],
+        "zh": [
+          "延迟攸关的产品：语音 Agent、Copilot、实时聊天",
+          "要把 OpenAI 或 Anthropic 流量改道开源模型的团队",
+          "习惯跑基准、按实测速度选供应商的工程师"
+        ],
+        "ja": [
+          "レイテンシが生命線の製品：音声エージェント、コパイロット、リアルタイムチャット",
+          "OpenAIやAnthropicのトラフィックをオープンモデルへ流し替えるチーム",
+          "プロバイダーをベンチマークし実測速度で選ぶエンジニア"
+        ],
+        "es": [
+          "Productos críticos en latencia: agentes de voz, copilots, chat en tiempo real",
+          "Equipos que redirigen tráfico de OpenAI o Anthropic a modelos abiertos",
+          "Ingenieros que hacen benchmarks y eligen proveedor por velocidad medida"
+        ],
+        "fr": [
+          "Produits critiques en latence : agents vocaux, copilotes, chat temps réel",
+          "Équipes redirigeant le trafic OpenAI ou Anthropic vers des modèles ouverts",
+          "Ingénieurs qui benchmarkent les fournisseurs et choisissent à la vitesse mesurée"
+        ]
+      },
+      "considerAlternatives": {
+        "en": [
+          "You want the broadest open-model catalog and a free prototyping tier (→ Together AI)",
+          "Your workloads are image, video or audio generation (→ Fal.ai / Replicate)"
+        ],
+        "zh": [
+          "你想要最广的开源模型目录和免费原型档（→ Together AI）",
+          "你的负载是图像、视频或音频生成（→ Fal.ai / Replicate）"
+        ],
+        "ja": [
+          "最も広いオープンモデルカタログと無料プロトタイプ枠が欲しい（→ Together AI）",
+          "ワークロードが画像・動画・音声生成（→ Fal.ai / Replicate）"
+        ],
+        "es": [
+          "Quieres el catálogo de modelos abiertos más amplio y un nivel gratuito para prototipar (→ Together AI)",
+          "Tus cargas son generación de imagen, video o audio (→ Fal.ai / Replicate)"
+        ],
+        "fr": [
+          "Vous voulez le catalogue de modèles ouverts le plus large et un niveau gratuit de prototypage (→ Together AI)",
+          "Vos charges sont de la génération d'image, vidéo ou audio (→ Fal.ai / Replicate)"
+        ]
+      }
+    },
+    "meta": {
+      "lastVerified": "2026-07-28",
+      "verdictDate": "2026-07-28",
+      "pricingVerified": "2026-07-28",
+      "pricingUrl": "https://fireworks.ai/pricing"
+    }
+  },
+  "replicate": {
+    "features": {
+      "en": [
+        "Tens of thousands of community models runnable with one line of API code",
+        "Official models — FLUX, Seedream, Veo, Claude-class endpoints — priced per output",
+        "Cog: open-source tool to package and publish your own models",
+        "Per-second hardware billing, from CPU to 8x H100 clusters",
+        "Automatic scale-to-zero — you never pay for idle models",
+        "Now part of Cloudflare, integrating with Workers AI and the edge network"
+      ],
+      "zh": [
+        "数万个社区模型，一行 API 代码即可运行",
+        "官方模型——FLUX、Seedream、Veo、Claude 级端点——按产出计价",
+        "Cog：开源工具，打包并发布你自己的模型",
+        "按秒计费的硬件，从 CPU 到 8x H100 集群",
+        "自动缩容到零——闲置模型不花一分钱",
+        "现已加入 Cloudflare，正与 Workers AI 及边缘网络整合"
+      ],
+      "ja": [
+        "数万のコミュニティモデルをAPIコード1行で実行可能",
+        "公式モデル——FLUX、Seedream、Veo、Claude級エンドポイント——は出力単位の課金",
+        "Cog：自分のモデルをパッケージ化して公開するオープンソースツール",
+        "CPUから8x H100クラスターまで秒単位のハードウェア課金",
+        "自動スケールゼロ——アイドル状態のモデルには一切支払い不要",
+        "現在はCloudflareの一員として、Workers AIとエッジネットワークに統合中"
+      ],
+      "es": [
+        "Decenas de miles de modelos comunitarios ejecutables con una línea de código API",
+        "Modelos oficiales —FLUX, Seedream, Veo, endpoints clase Claude— con precio por salida",
+        "Cog: herramienta open source para empaquetar y publicar tus propios modelos",
+        "Facturación de hardware por segundo, desde CPU hasta clústeres de 8x H100",
+        "Escalado automático a cero: nunca pagas por modelos inactivos",
+        "Ahora parte de Cloudflare, integrándose con Workers AI y la red edge"
+      ],
+      "fr": [
+        "Des dizaines de milliers de modèles communautaires exécutables en une ligne d'API",
+        "Modèles officiels — FLUX, Seedream, Veo, endpoints de classe Claude — tarifés à la sortie",
+        "Cog : outil open source pour empaqueter et publier vos propres modèles",
+        "Facturation matérielle à la seconde, du CPU aux clusters 8x H100",
+        "Mise à l'échelle automatique à zéro — vous ne payez jamais un modèle inactif",
+        "Désormais chez Cloudflare, en intégration avec Workers AI et le réseau edge"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "No standing free tier, but scale-to-zero billing means trying a model costs cents — you pay only for the seconds it actually runs.",
+        "zh": "没有常设免费档，但缩容到零的计费方式让试一个模型只花几美分——只为实际运行的秒数付费。",
+        "ja": "常設の無料枠はないが、スケールゼロ課金のおかげでモデルを試すのは数セント——実際に動いた秒数分だけ支払う。",
+        "es": "No hay nivel gratuito permanente, pero la facturación con escalado a cero significa que probar un modelo cuesta centavos: solo pagas los segundos que realmente corre.",
+        "fr": "Pas de niveau gratuit permanent, mais la facturation avec mise à zéro fait que tester un modèle coûte quelques centimes — vous ne payez que les secondes réellement exécutées."
+      },
+      "paid": {
+        "en": "Community models bill hardware per second (CPU $0.36/hr, L40S $3.51/hr, H100 $5.49/hr, up to 8x H100 clusters); official models are priced per output — e.g. FLUX images from about $0.003 each or language models per token. (Verified against the official pricing page, 2026-07-28.)",
+        "zh": "社区模型按硬件秒数计费（CPU $0.36/小时、L40S $3.51/小时、H100 $5.49/小时，最高 8x H100 集群）；官方模型按产出计价——如 FLUX 图像约 $0.003/张起，语言模型按 token。（对照官方定价页核实，2026-07-28。）",
+        "ja": "コミュニティモデルはハードウェアの秒単位課金（CPU $0.36/時、L40S $3.51/時、H100 $5.49/時、最大8x H100クラスター）。公式モデルは出力単位——例：FLUX画像は1枚約$0.003から、言語モデルはトークン単位。（公式価格ページと照合、2026-07-28。）",
+        "es": "Los modelos comunitarios facturan hardware por segundo (CPU $0.36/hora, L40S $3.51/hora, H100 $5.49/hora, hasta clústeres de 8x H100); los modelos oficiales se cobran por salida, p. ej. imágenes FLUX desde unos $0.003 cada una o modelos de lenguaje por token. (Verificado con la página oficial de precios, 2026-07-28.)",
+        "fr": "Les modèles communautaires facturent le matériel à la seconde (CPU 0,36 $/h, L40S 3,51 $/h, H100 5,49 $/h, jusqu'aux clusters 8x H100) ; les modèles officiels sont tarifés à la sortie — p. ex. images FLUX dès environ 0,003 $ pièce ou modèles de langage au token. (Vérifié avec la page tarifaire officielle, 2026-07-28.)"
+      }
+    },
+    "useCases": {
+      "en": [
+        "Adding image, video or audio generation to a product in an afternoon",
+        "Prototyping across dozens of models before committing to one",
+        "Publishing research models as production APIs via Cog",
+        "Running occasional or bursty inference without paying for idle GPUs"
+      ],
+      "zh": [
+        "一个下午就给产品加上图像、视频或音频生成",
+        "在下决心选定前，横跨几十个模型快速验证",
+        "用 Cog 把研究模型发布成生产可用的 API",
+        "跑偶发或突发的推理任务，不为闲置 GPU 买单"
+      ],
+      "ja": [
+        "半日で製品に画像・動画・音声生成を追加",
+        "1つに決める前に数十のモデルを横断してプロトタイピング",
+        "Cogで研究モデルを本番APIとして公開",
+        "アイドルGPUに支払わずに散発的・バースト的な推論を実行"
+      ],
+      "es": [
+        "Añadir generación de imagen, video o audio a un producto en una tarde",
+        "Prototipar con docenas de modelos antes de comprometerse con uno",
+        "Publicar modelos de investigación como APIs de producción vía Cog",
+        "Ejecutar inferencia ocasional o por ráfagas sin pagar GPUs inactivas"
+      ],
+      "fr": [
+        "Ajouter la génération d'image, vidéo ou audio à un produit en un après-midi",
+        "Prototyper sur des dizaines de modèles avant d'en choisir un",
+        "Publier des modèles de recherche comme API de production via Cog",
+        "Exécuter de l'inférence occasionnelle ou en rafale sans payer de GPU inactif"
+      ]
+    },
+    "pros": {
+      "en": [
+        "Unmatched model variety — if it made news on GitHub, it is probably here",
+        "Scale-to-zero billing is genuinely fair for spiky workloads",
+        "Cog has become a de facto standard for packaging ML models",
+        "Cloudflare's backing removes the startup-longevity question entirely"
+      ],
+      "zh": [
+        "模型多样性无可匹敌——GitHub 上火过的模型，这里多半找得到",
+        "缩容到零的计费对波动型负载是真公平",
+        "Cog 已成为机器学习模型打包的事实标准",
+        "有 Cloudflare 背书，创业公司能活多久的疑虑彻底消除"
+      ],
+      "ja": [
+        "比類なきモデルの多様性——GitHubで話題になったモデルは大抵ここにある",
+        "スケールゼロ課金はスパイク型ワークロードに本当に公平",
+        "CogはMLモデルのパッケージングにおける事実上の標準になった",
+        "Cloudflareの後ろ盾でスタートアップの存続懸念は完全に解消"
+      ],
+      "es": [
+        "Variedad de modelos inigualable: si fue noticia en GitHub, probablemente está aquí",
+        "La facturación con escalado a cero es genuinamente justa para cargas con picos",
+        "Cog se ha vuelto un estándar de facto para empaquetar modelos de ML",
+        "El respaldo de Cloudflare elimina por completo la duda sobre la longevidad de la startup"
+      ],
+      "fr": [
+        "Variété de modèles inégalée — s'il a fait le buzz sur GitHub, il est probablement ici",
+        "La facturation avec mise à zéro est réellement équitable pour les charges en pics",
+        "Cog est devenu un standard de fait pour empaqueter les modèles de ML",
+        "Le soutien de Cloudflare élimine totalement la question de la pérennité de la startup"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Cold starts on scale-to-zero models add seconds of first-request latency",
+        "Community model quality and maintenance vary wildly",
+        "Per-second hardware pricing is harder to forecast than per-token plans",
+        "Post-acquisition roadmap may gradually favor Cloudflare's ecosystem"
+      ],
+      "zh": [
+        "缩容到零的模型有冷启动，首个请求会多几秒延迟",
+        "社区模型的质量与维护水准参差不齐",
+        "按秒计硬件的费用比按 token 套餐更难预估",
+        "被收购后的路线图可能逐渐向 Cloudflare 生态倾斜"
+      ],
+      "ja": [
+        "スケールゼロのモデルはコールドスタートがあり、最初のリクエストに数秒の遅延が加わる",
+        "コミュニティモデルの品質とメンテナンス水準はまちまち",
+        "秒単位のハードウェア課金はトークン単価プランより費用予測が難しい",
+        "買収後のロードマップは徐々にCloudflareエコシステム寄りになる可能性"
+      ],
+      "es": [
+        "Los arranques en frío de los modelos con escalado a cero añaden segundos de latencia a la primera petición",
+        "La calidad y el mantenimiento de los modelos comunitarios varían enormemente",
+        "El precio de hardware por segundo es más difícil de prever que los planes por token",
+        "La hoja de ruta posadquisición puede favorecer gradualmente el ecosistema de Cloudflare"
+      ],
+      "fr": [
+        "Les démarrages à froid des modèles à mise à zéro ajoutent quelques secondes à la première requête",
+        "La qualité et la maintenance des modèles communautaires varient énormément",
+        "La tarification matérielle à la seconde est plus dure à prévoir que les forfaits au token",
+        "La feuille de route post-acquisition pourrait favoriser progressivement l'écosystème Cloudflare"
+      ]
+    },
+    "latestUpdate": {
+      "en": "2026: Cloudflare completed its acquisition of Replicate — announced late 2025, closed in early 2026 — keeping the brand and API independent while wiring the model catalog into Workers AI. Official endpoints for FLUX, Seedream, Veo-class video and frontier language models keep expanding, with per-second billing and scale-to-zero unchanged.",
+      "zh": "2026 年：Cloudflare 完成对 Replicate 的收购——2025 年末宣布、2026 年初交割——品牌与 API 保持独立，同时把模型目录接入 Workers AI。FLUX、Seedream、Veo 级视频与前沿语言模型的官方端点持续扩充，按秒计费与缩容到零维持不变。",
+      "ja": "2026年：CloudflareはReplicateの買収を完了——2025年末に発表、2026年初頭にクローズ——ブランドとAPIの独立性を保ちつつ、モデルカタログをWorkers AIに接続。FLUX、Seedream、Veo級動画、フロンティア言語モデルの公式エンドポイントは拡充を続け、秒単位課金とスケールゼロは変わらず。",
+      "es": "2026: Cloudflare completó la adquisición de Replicate —anunciada a finales de 2025, cerrada a principios de 2026— manteniendo la marca y la API independientes mientras conecta el catálogo de modelos a Workers AI. Los endpoints oficiales para FLUX, Seedream, video clase Veo y modelos de lenguaje frontera siguen creciendo, con la facturación por segundo y el escalado a cero sin cambios.",
+      "fr": "2026 : Cloudflare a finalisé l'acquisition de Replicate — annoncée fin 2025, conclue début 2026 — en gardant la marque et l'API indépendantes tout en reliant le catalogue de modèles à Workers AI. Les endpoints officiels pour FLUX, Seedream, la vidéo de classe Veo et les modèles de langage frontière continuent de s'étendre, avec la facturation à la seconde et la mise à zéro inchangées."
+    },
+    "verdict": {
+      "badge": "Recommended",
+      "headline": {
+        "en": "The model playground that grew up — and got Cloudflare as a parent",
+        "zh": "长大成人的模型游乐场——还认了 Cloudflare 当靠山",
+        "ja": "大人になったモデルの遊び場——Cloudflareという後ろ盾を得て",
+        "es": "El patio de juegos de modelos que maduró y consiguió a Cloudflare como padre",
+        "fr": "Le terrain de jeu des modèles devenu adulte — avec Cloudflare pour parent"
+      },
+      "body": {
+        "en": "Replicate's core promise has not changed since day one: any interesting model, one line of code, pay for the seconds you use. What has changed is everything around it. The Cloudflare acquisition — announced in late 2025 and completed in early 2026 — answered the only serious objection to building on Replicate, namely whether a venture-backed startup would still exist in five years. It will, and its catalog is being wired into Workers AI and one of the largest edge networks on earth. The product itself remains the best browsing experience in AI: tens of thousands of community models to test in the browser, official endpoints for FLUX, Veo-class video and frontier LLMs, and Cog quietly standardizing how models get packaged. The rough edges are the familiar ones — cold starts sting on rarely-used models, community model quality is a lottery, and per-second billing takes discipline to forecast. For dedicated LLM serving at scale, Together and Fireworks are sharper tools. But as the place where you discover, compare and ship generative media and long-tail models, Replicate has no real equal — and for the first time, no expiration risk either.",
+        "zh": "Replicate 的核心承诺从第一天起就没变过：任何有意思的模型，一行代码，按实际运行的秒数付费。变的是它周围的一切。Cloudflare 的收购——2025 年末宣布、2026 年初完成——回应了在 Replicate 上构建的唯一严肃顾虑：一家靠融资续命的创业公司五年后还在不在？答案是在，而且它的模型目录正被接入 Workers AI 和全球最大的边缘网络之一。产品本身仍是 AI 界最好的「逛街体验」：数万个社区模型可在浏览器里直接试，FLUX、Veo 级视频与前沿 LLM 有官方端点，Cog 则悄悄统一了模型打包的行业习惯。毛边也还是熟悉的那些——冷启动对低频模型很扎手，社区模型质量像抽奖，按秒计费需要自律才能预估。要大规模专门跑 LLM，Together 和 Fireworks 是更锋利的工具。但作为发现、比较并上线生成式媒体与长尾模型的地方，Replicate 没有真正的对手——而且头一次，也没有「会不会倒闭」的风险了。",
+        "ja": "Replicateの中核の約束は初日から変わっていない。面白いモデルなら何でも、コード1行で、使った秒数分だけ支払う。変わったのはその周囲のすべてだ。Cloudflareによる買収——2025年末発表、2026年初頭完了——は、Replicateの上に構築することへの唯一の深刻な異論、つまりベンチャー資金頼みのスタートアップが5年後も存在するのかという問いに答えた。存在する。しかもそのカタログはWorkers AIと地球最大級のエッジネットワークに接続されつつある。製品自体はいまもAI界最高のブラウジング体験だ。数万のコミュニティモデルをブラウザで試せ、FLUX、Veo級動画、フロンティアLLMの公式エンドポイントがあり、Cogはモデルのパッケージ方法を静かに標準化した。粗さはお馴染みのものだ——めったに使われないモデルのコールドスタートは痛く、コミュニティモデルの品質はくじ引きで、秒単位課金の予測には規律がいる。大規模なLLM専用サービングならTogetherとFireworksの方が鋭い道具だ。しかし生成メディアとロングテールモデルを発見し、比較し、出荷する場所として、Replicateに本当の対抗馬はいない——そして初めて、消滅リスクもなくなった。",
+        "es": "La promesa central de Replicate no ha cambiado desde el primer día: cualquier modelo interesante, una línea de código, pagas los segundos que usas. Lo que ha cambiado es todo lo demás. La adquisición por Cloudflare —anunciada a finales de 2025 y completada a principios de 2026— respondió a la única objeción seria a construir sobre Replicate: si una startup financiada por capital riesgo seguiría existiendo en cinco años. Existirá, y su catálogo se está conectando a Workers AI y a una de las mayores redes edge del planeta. El producto sigue siendo la mejor experiencia de exploración en IA: decenas de miles de modelos comunitarios para probar en el navegador, endpoints oficiales para FLUX, video clase Veo y LLMs frontera, y Cog estandarizando en silencio cómo se empaquetan los modelos. Las asperezas son las de siempre: los arranques en frío duelen en modelos poco usados, la calidad comunitaria es una lotería y la facturación por segundo exige disciplina para prever. Para servir LLMs dedicados a escala, Together y Fireworks son herramientas más afiladas. Pero como el lugar donde descubres, comparas y lanzas media generativa y modelos de cola larga, Replicate no tiene igual real, y por primera vez, tampoco riesgo de caducidad.",
+        "fr": "La promesse centrale de Replicate n'a pas changé depuis le premier jour : n'importe quel modèle intéressant, une ligne de code, payez les secondes utilisées. Ce qui a changé, c'est tout le reste. L'acquisition par Cloudflare — annoncée fin 2025, finalisée début 2026 — a répondu à la seule objection sérieuse à construire sur Replicate : une startup financée par le capital-risque existerait-elle encore dans cinq ans ? Elle existera, et son catalogue est en train d'être relié à Workers AI et à l'un des plus grands réseaux edge du monde. Le produit reste la meilleure expérience de découverte en IA : des dizaines de milliers de modèles communautaires testables dans le navigateur, des endpoints officiels pour FLUX, la vidéo de classe Veo et les LLM frontière, et Cog qui standardise discrètement l'empaquetage des modèles. Les aspérités sont les mêmes qu'avant — les démarrages à froid piquent sur les modèles peu utilisés, la qualité communautaire est une loterie, et la facturation à la seconde demande de la discipline pour être prévue. Pour du serving LLM dédié à grande échelle, Together et Fireworks sont des outils plus affûtés. Mais comme lieu où découvrir, comparer et livrer du média génératif et des modèles de longue traîne, Replicate n'a pas de véritable égal — et pour la première fois, plus aucun risque de disparition."
+      },
+      "bestFor": {
+        "en": [
+          "Product teams shipping image, video or audio features without ML infrastructure",
+          "Developers exploring and comparing new models the week they trend",
+          "Researchers publishing models as APIs with Cog"
+        ],
+        "zh": [
+          "不建机器学习基础设施就要上线图像、视频或音频功能的产品团队",
+          "想在新模型爆火当周就上手比较的开发者",
+          "用 Cog 把模型发布成 API 的研究者"
+        ],
+        "ja": [
+          "MLインフラなしで画像・動画・音声機能を出荷する製品チーム",
+          "新モデルが話題になったその週に試して比較したい開発者",
+          "Cogでモデルを API として公開する研究者"
+        ],
+        "es": [
+          "Equipos de producto que lanzan funciones de imagen, video o audio sin infraestructura de ML",
+          "Desarrolladores que exploran y comparan modelos nuevos la semana que se hacen virales",
+          "Investigadores que publican modelos como APIs con Cog"
+        ],
+        "fr": [
+          "Équipes produit livrant des fonctions image, vidéo ou audio sans infrastructure ML",
+          "Développeurs explorant et comparant les nouveaux modèles la semaine où ils émergent",
+          "Chercheurs publiant des modèles comme API avec Cog"
+        ]
+      },
+      "considerAlternatives": {
+        "en": [
+          "You serve LLMs at sustained scale and latency matters (→ Together AI / Fireworks AI)",
+          "You want the fastest diffusion inference and realtime media APIs (→ Fal.ai)"
+        ],
+        "zh": [
+          "你要持续大规模跑 LLM 且延迟敏感（→ Together AI / Fireworks AI）",
+          "你想要最快的扩散推理与实时媒体 API（→ Fal.ai）"
+        ],
+        "ja": [
+          "LLMを持続的な大規模で提供しレイテンシが重要（→ Together AI / Fireworks AI）",
+          "最速の拡散推論とリアルタイムメディアAPIが欲しい（→ Fal.ai）"
+        ],
+        "es": [
+          "Sirves LLMs a escala sostenida y la latencia importa (→ Together AI / Fireworks AI)",
+          "Quieres la inferencia de difusión más rápida y APIs de media en tiempo real (→ Fal.ai)"
+        ],
+        "fr": [
+          "Vous servez des LLM à échelle soutenue et la latence compte (→ Together AI / Fireworks AI)",
+          "Vous voulez l'inférence de diffusion la plus rapide et des API média temps réel (→ Fal.ai)"
+        ]
+      }
+    },
+    "meta": {
+      "lastVerified": "2026-07-28",
+      "verdictDate": "2026-07-28",
+      "pricingVerified": "2026-07-28",
+      "pricingUrl": "https://replicate.com/pricing"
+    }
+  },
+  "synthesia": {
+    "features": {
+      "en": [
+        "230+ diverse AI avatars, plus custom avatars cloned from your own footage",
+        "Text-to-video in 140+ languages with natural AI voiceovers",
+        "Templates, screen recording, brand kits and slide-style scene editor",
+        "AI dubbing and one-click translation of existing videos",
+        "Team workspaces, commenting, versioning and SCORM export for LMS",
+        "SOC 2 / GDPR compliance and enterprise SSO"
+      ],
+      "zh": [
+        "230+ 多样化 AI 数字人，另可用自己的素材克隆定制形象",
+        "支持 140+ 语言的文字转视频，配自然的 AI 配音",
+        "模板、录屏、品牌套件与幻灯片式场景编辑器",
+        "AI 配音与一键翻译已有视频",
+        "团队协作空间、评论、版本管理与面向 LMS 的 SCORM 导出",
+        "SOC 2 / GDPR 合规与企业级 SSO"
+      ],
+      "ja": [
+        "230以上の多様なAIアバター、自分の映像から複製するカスタムアバターも可能",
+        "140以上の言語のテキスト読み上げ動画と自然なAIナレーション",
+        "テンプレート、画面録画、ブランドキット、スライド形式のシーンエディタ",
+        "AI吹き替えと既存動画のワンクリック翻訳",
+        "チームワークスペース、コメント、バージョン管理、LMS向けSCORM書き出し",
+        "SOC 2 / GDPR準拠とエンタープライズSSO"
+      ],
+      "es": [
+        "Más de 230 avatares IA diversos, además de avatares personalizados clonados de tu propio material",
+        "Texto a video en más de 140 idiomas con locuciones IA naturales",
+        "Plantillas, grabación de pantalla, kits de marca y editor de escenas tipo diapositivas",
+        "Doblaje IA y traducción con un clic de videos existentes",
+        "Espacios de equipo, comentarios, versionado y exportación SCORM para LMS",
+        "Cumplimiento SOC 2 / GDPR y SSO empresarial"
+      ],
+      "fr": [
+        "Plus de 230 avatars IA variés, plus des avatars personnalisés clonés à partir de vos propres séquences",
+        "Texte en vidéo dans plus de 140 langues avec des voix off IA naturelles",
+        "Modèles, enregistrement d'écran, kits de marque et éditeur de scènes façon diaporama",
+        "Doublage IA et traduction en un clic de vidéos existantes",
+        "Espaces d'équipe, commentaires, gestion de versions et export SCORM pour LMS",
+        "Conformité SOC 2 / RGPD et SSO entreprise"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "Free plan: 10 minutes of video per month, watermarked, with 9 stock avatars and voices in 140+ languages.",
+        "zh": "免费档：每月 10 分钟视频（带水印），含 9 个库存数字人与 140+ 语言配音。",
+        "ja": "無料プラン：月10分の動画（ウォーターマーク付き）、9体のストックアバターと140以上の言語の音声。",
+        "es": "Plan gratuito: 10 minutos de video al mes, con marca de agua, 9 avatares de stock y voces en más de 140 idiomas.",
+        "fr": "Offre gratuite : 10 minutes de vidéo par mois, avec filigrane, 9 avatars de stock et voix dans plus de 140 langues."
+      },
+      "paid": {
+        "en": "Starter around $29/month (about $18/month billed annually) removes the watermark; Creator around $89/month (about $64/month annually) adds custom avatars and more minutes; Enterprise is custom-priced with the full avatar library. (Verified against the official pricing page, 2026-07-28.)",
+        "zh": "Starter 约 $29/月（年付约 $18/月）去除水印；Creator 约 $89/月（年付约 $64/月）增加定制数字人与更多时长；Enterprise 定制报价，含完整数字人库。（对照官方定价页核实，2026-07-28。）",
+        "ja": "Starterは月約$29（年払いで月約$18）でウォーターマークを除去、Creatorは月約$89（年払いで月約$64）でカスタムアバターと時間を追加、Enterpriseはフルアバターライブラリ付きのカスタム価格。（公式価格ページと照合、2026-07-28。）",
+        "es": "Starter cuesta unos $29/mes (unos $18/mes con facturación anual) y quita la marca de agua; Creator unos $89/mes (unos $64/mes anual) añade avatares personalizados y más minutos; Enterprise tiene precio personalizado con la biblioteca completa de avatares. (Verificado con la página oficial de precios, 2026-07-28.)",
+        "fr": "Starter à environ 29 $/mois (environ 18 $/mois en annuel) retire le filigrane ; Creator à environ 89 $/mois (environ 64 $/mois en annuel) ajoute des avatars personnalisés et plus de minutes ; Enterprise est sur devis avec la bibliothèque complète d'avatars. (Vérifié avec la page tarifaire officielle, 2026-07-28.)"
+      }
+    },
+    "useCases": {
+      "en": [
+        "Corporate training, onboarding and compliance videos at scale",
+        "Localizing one video into dozens of languages without reshooting",
+        "Product explainers and how-to content for support and marketing",
+        "Turning slide decks and documents into narrated video quickly"
+      ],
+      "zh": [
+        "大规模制作企业培训、入职与合规视频",
+        "无需重拍即可把一条视频本地化成几十种语言",
+        "为支持与营销制作产品讲解与操作教程内容",
+        "把幻灯片与文档快速转成带旁白的视频"
+      ],
+      "ja": [
+        "企業研修・オンボーディング・コンプライアンス動画を大規模に制作",
+        "撮り直しなしで1本の動画を数十言語にローカライズ",
+        "サポートやマーケティング向けの製品説明・ハウツーコンテンツ",
+        "スライドや文書をナレーション付き動画へ素早く変換"
+      ],
+      "es": [
+        "Videos de formación corporativa, onboarding y cumplimiento a escala",
+        "Localizar un video a decenas de idiomas sin volver a grabar",
+        "Explicaciones de producto y contenido de instrucciones para soporte y marketing",
+        "Convertir presentaciones y documentos en video narrado rápidamente"
+      ],
+      "fr": [
+        "Vidéos de formation, d'intégration et de conformité à grande échelle",
+        "Localiser une vidéo en des dizaines de langues sans retourner",
+        "Explications produit et tutoriels pour le support et le marketing",
+        "Transformer rapidement diaporamas et documents en vidéo narrée"
+      ]
+    },
+    "pros": {
+      "en": [
+        "Best-in-class avatar and voice quality with unmatched language coverage",
+        "No cameras, studios or actors — videos ship in minutes from text",
+        "Enterprise-grade collaboration, security and LMS/SCORM support",
+        "Massive template library lowers the barrier for non-video teams"
+      ],
+      "zh": [
+        "顶级的数字人与配音质量，语言覆盖无出其右",
+        "无需摄像机、影棚或演员——文字几分钟即可成片",
+        "企业级协作、安全与 LMS/SCORM 支持",
+        "海量模板降低了非视频团队的上手门槛"
+      ],
+      "ja": [
+        "クラス最高のアバターと音声品質、比類なき言語カバレッジ",
+        "カメラもスタジオも役者も不要——テキストから数分で動画完成",
+        "エンタープライズ級のコラボ、セキュリティ、LMS/SCARM対応",
+        "膨大なテンプレートで非動画チームの参入障壁を低減"
+      ],
+      "es": [
+        "Calidad de avatar y voz de primer nivel con cobertura de idiomas incomparable",
+        "Sin cámaras, estudios ni actores: los videos salen en minutos desde texto",
+        "Colaboración, seguridad y soporte LMS/SCORM de nivel empresarial",
+        "Enorme biblioteca de plantillas que reduce la barrera para equipos sin experiencia en video"
+      ],
+      "fr": [
+        "Qualité d'avatar et de voix au meilleur niveau avec une couverture linguistique inégalée",
+        "Ni caméras, ni studios, ni acteurs — les vidéos sortent en quelques minutes à partir de texte",
+        "Collaboration, sécurité et support LMS/SCORM de niveau entreprise",
+        "Immense bibliothèque de modèles qui abaisse la barrière pour les équipes non vidéo"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Priced for businesses — hobbyists will find paid tiers steep",
+        "Avatars, while excellent, can still feel subtly static for long emotive scripts",
+        "Free tier's 10 minutes and watermark are quickly outgrown",
+        "Not built for cinematic or freeform generative video like Runway or Veo"
+      ],
+      "zh": [
+        "定价面向企业——个人爱好者会觉得付费档偏贵",
+        "数字人虽出色，长段情感化脚本下仍会略显僵硬",
+        "免费档的 10 分钟与水印很快就不够用",
+        "并非为 Runway、Veo 那类电影级或自由生成视频而设计"
+      ],
+      "ja": [
+        "企業向けの価格設定——趣味ユーザーには有料プランが高く感じる",
+        "アバターは優秀だが、長い感情表現の台本では僅かに硬く見えることがある",
+        "無料枠の10分とウォーターマークはすぐに物足りなくなる",
+        "RunwayやVeoのような映画的・自由生成の動画向けではない"
+      ],
+      "es": [
+        "Precio orientado a empresas: a los aficionados los planes de pago les parecerán caros",
+        "Los avatares, aunque excelentes, pueden sentirse algo estáticos en guiones largos y emotivos",
+        "Los 10 minutos y la marca de agua del plan gratuito se quedan cortos enseguida",
+        "No está pensado para video cinematográfico o generativo libre como Runway o Veo"
+      ],
+      "fr": [
+        "Tarifs pensés pour les entreprises — les amateurs trouveront les offres payantes élevées",
+        "Les avatars, bien qu'excellents, peuvent paraître légèrement statiques sur de longs scripts émotifs",
+        "Les 10 minutes et le filigrane de l'offre gratuite sont vite dépassés",
+        "Pas conçu pour la vidéo cinématographique ou générative libre comme Runway ou Veo"
+      ]
+    },
+    "latestUpdate": {
+      "en": "2026: Synthesia continues to lead enterprise AI video, with an expanded roster of 230+ avatars, more expressive personal avatars, 140+ language coverage, and deeper AI dubbing and translation. It remains the default choice for training and corporate communications, used by more than half of the Fortune 100.",
+      "zh": "2026 年：Synthesia 持续领跑企业级 AI 视频——数字人阵容扩充至 230+、个人数字人更具表现力、语言覆盖 140+，AI 配音与翻译更加深入。它仍是培训与企业传播的默认之选，财富 100 强过半在用。",
+      "ja": "2026年：Synthesiaはエンタープライズ向けAI動画をリードし続けている。アバターは230体超に拡充、パーソナルアバターの表現力が向上、140以上の言語をカバーし、AI吹き替えと翻訳も深化。研修と企業コミュニケーションの定番であり続け、フォーチュン100の過半数が利用する。",
+      "es": "2026: Synthesia sigue liderando el video IA empresarial, con una lista ampliada de más de 230 avatares, avatares personales más expresivos, cobertura de más de 140 idiomas y doblaje y traducción IA más profundos. Continúa siendo la opción por defecto para formación y comunicación corporativa, usada por más de la mitad del Fortune 100.",
+      "fr": "2026 : Synthesia continue de dominer la vidéo IA en entreprise, avec un catalogue élargi de plus de 230 avatars, des avatars personnels plus expressifs, une couverture de plus de 140 langues, et un doublage et une traduction IA plus poussés. Elle reste le choix par défaut pour la formation et la communication d'entreprise, utilisée par plus de la moitié du Fortune 100."
+    },
+    "verdict": {
+      "badge": "Recommended",
+      "headline": {
+        "en": "The enterprise standard for turning text into polished avatar video",
+        "zh": "把文字变成精良数字人视频的企业级标准",
+        "ja": "テキストを洗練されたアバター動画に変えるエンタープライズの標準",
+        "es": "El estándar empresarial para convertir texto en video de avatar pulido",
+        "fr": "La référence entreprise pour transformer du texte en vidéo d'avatar soignée"
+      },
+      "body": {
+        "en": "Synthesia won the enterprise AI-video category by being relentlessly practical. It does not try to generate dreamlike cinematics; it turns a script into a clean, on-brand presenter video in 140+ languages, in minutes, with no camera in sight. That focus is exactly why training teams, HR departments and product marketers adopted it in droves — more than half the Fortune 100 now run on it. The 230+ avatars and expressive custom clones are the best in the business, the collaboration and SCORM/LMS plumbing is genuinely enterprise-ready, and the one-click dubbing quietly solves a problem that used to cost thousands per localized video. The trade-offs are honest and predictable: it is priced for organizations, not hobbyists, and it is the wrong tool if you want the freeform, cinematic generation of Runway or Veo. But for the specific job of producing consistent, multilingual talking-head content at scale, nothing else is this dependable. If your videos are people explaining things, Synthesia is the safe default.",
+        "zh": "Synthesia 靠着极度务实拿下了企业 AI 视频这一品类。它不追求梦幻般的电影感，而是把一段脚本在几分钟内、用 140+ 语言变成干净、符合品牌调性的主播视频，全程不见摄像机。正是这种专注，让培训团队、HR 部门与产品市场人员纷纷采用——如今财富 100 强过半在用。230+ 数字人与富有表现力的定制克隆是业内最好的，协作与 SCORM/LMS 的底层能力真正达到企业级，一键配音则悄悄解决了过去每条本地化视频动辄花费数千美元的难题。取舍诚实且可预期：它面向组织而非个人爱好者定价；若你想要 Runway、Veo 那种自由的电影级生成，它就是错误的工具。但就「规模化产出一致、多语言的讲述型内容」这件具体的事而言，没有别的产品这么可靠。如果你的视频就是人在讲解东西，Synthesia 是稳妥的默认之选。",
+        "ja": "Synthesiaは徹底した実用主義でエンタープライズAI動画のカテゴリを制した。夢のような映像美を狙うのではなく、台本を数分で140以上の言語のクリーンでブランドに沿ったプレゼンター動画に変える——カメラは一切登場しない。まさにこの一点集中ゆえに、研修チーム、人事部門、製品マーケターが続々と採用し、いまやフォーチュン100の過半数が利用する。230体超のアバターと表現力豊かなカスタムクローンは業界随一、コラボとSCORM/LMS周りは真にエンタープライズ対応、ワンクリック吹き替えはローカライズ動画1本に数千ドルかかっていた課題を静かに解決する。トレードオフは正直で予測可能だ：趣味人ではなく組織向けの価格であり、RunwayやVeoのような自由な映画的生成が欲しいなら選ぶべきではない。しかし「一貫した多言語のトーキングヘッドコンテンツを大規模に量産する」という具体的な仕事において、これほど頼れる製品は他にない。動画が「人が何かを説明する」ものなら、Synthesiaは安全な既定解だ。",
+        "es": "Synthesia ganó la categoría de video IA empresarial siendo implacablemente práctica. No intenta generar cinematografía onírica; convierte un guion en un video de presentador limpio y fiel a la marca en más de 140 idiomas, en minutos y sin una cámara a la vista. Ese enfoque es justo la razón por la que equipos de formación, departamentos de RR. HH. y responsables de marketing la adoptaron en masa: más de la mitad del Fortune 100 la usa hoy. Los más de 230 avatares y los expresivos clones personalizados son los mejores del sector, la colaboración y la fontanería SCORM/LMS están realmente listas para empresa, y el doblaje con un clic resuelve en silencio un problema que antes costaba miles por cada video localizado. Las concesiones son honestas y previsibles: su precio es para organizaciones, no para aficionados, y es la herramienta equivocada si quieres la generación libre y cinematográfica de Runway o Veo. Pero para el trabajo concreto de producir contenido tipo presentador, multilingüe y consistente a escala, nada más es tan fiable. Si tus videos son personas explicando cosas, Synthesia es la opción segura por defecto.",
+        "fr": "Synthesia a remporté la catégorie de la vidéo IA en entreprise en étant résolument pratique. Elle ne cherche pas à générer un cinéma onirique ; elle transforme un script en une vidéo de présentateur nette et fidèle à la marque dans plus de 140 langues, en quelques minutes, sans la moindre caméra. Ce focus explique précisément pourquoi les équipes de formation, les RH et les responsables marketing l'ont adoptée en masse — plus de la moitié du Fortune 100 l'utilise aujourd'hui. Les 230+ avatars et les clones personnalisés expressifs sont les meilleurs du secteur, la collaboration et la plomberie SCORM/LMS sont réellement prêtes pour l'entreprise, et le doublage en un clic règle discrètement un problème qui coûtait autrefois des milliers par vidéo localisée. Les compromis sont honnêtes et prévisibles : le tarif vise les organisations, pas les amateurs, et c'est le mauvais outil si vous voulez la génération libre et cinématographique de Runway ou Veo. Mais pour la tâche précise de produire à grande échelle du contenu de type présentateur, multilingue et cohérent, rien d'autre n'est aussi fiable. Si vos vidéos sont des gens qui expliquent des choses, Synthesia est le choix par défaut sûr."
+      },
+      "bestFor": {
+        "en": [
+          "Enterprises producing training, onboarding and compliance video at scale",
+          "Teams that need one video localized into many languages",
+          "Non-video departments (HR, L&D, support) wanting fast, on-brand output"
+        ],
+        "zh": [
+          "规模化产出培训、入职与合规视频的企业",
+          "需要把一条视频本地化成多种语言的团队",
+          "想要快速、符合品牌产出的非视频部门（HR、培训、支持）"
+        ],
+        "ja": [
+          "研修・オンボーディング・コンプライアンス動画を大規模に作る企業",
+          "1本の動画を多言語にローカライズする必要があるチーム",
+          "迅速でブランドに沿った成果物が欲しい非動画部門（人事・研修・サポート）"
+        ],
+        "es": [
+          "Empresas que producen video de formación, onboarding y cumplimiento a escala",
+          "Equipos que necesitan un video localizado a muchos idiomas",
+          "Departamentos sin experiencia en video (RR. HH., formación, soporte) que quieren resultados rápidos y de marca"
+        ],
+        "fr": [
+          "Entreprises produisant à grande échelle de la vidéo de formation, d'intégration et de conformité",
+          "Équipes ayant besoin d'une vidéo localisée en plusieurs langues",
+          "Départements non vidéo (RH, formation, support) voulant un rendu rapide et fidèle à la marque"
+        ]
+      },
+      "considerAlternatives": {
+        "en": [
+          "You want cinematic or freeform generative video (→ Runway / Veo)",
+          "You need real-time interactive talking avatars via API (→ Tavus / D-ID)"
+        ],
+        "zh": [
+          "你想要电影级或自由生成的视频（→ Runway / Veo）",
+          "你需要通过 API 实现实时可交互的对话数字人（→ Tavus / D-ID）"
+        ],
+        "ja": [
+          "映画的または自由生成の動画が欲しい（→ Runway / Veo）",
+          "API経由でリアルタイムの対話型トーキングアバターが必要（→ Tavus / D-ID）"
+        ],
+        "es": [
+          "Quieres video cinematográfico o generativo libre (→ Runway / Veo)",
+          "Necesitas avatares parlantes interactivos en tiempo real vía API (→ Tavus / D-ID)"
+        ],
+        "fr": [
+          "Vous voulez de la vidéo cinématographique ou générative libre (→ Runway / Veo)",
+          "Vous avez besoin d'avatars parlants interactifs en temps réel via API (→ Tavus / D-ID)"
+        ]
+      }
+    },
+    "meta": {
+      "lastVerified": "2026-07-28",
+      "verdictDate": "2026-07-28",
+      "pricingVerified": "2026-07-28",
+      "pricingUrl": "https://www.synthesia.io/pricing"
+    }
+  },
+  "tavus": {
+    "features": {
+      "en": [
+        "Conversational Video Interface (CVI): real-time face-to-face AI conversations",
+        "Phoenix rendering, Raven perception and Sparrow turn-taking models built in-house",
+        "Personal replicas cloned from about two minutes of training footage",
+        "API-first platform with white-label embedding and Google Meet integration",
+        "Sub-second latency pipeline handling vision, speech and rendering together",
+        "100+ stock replicas plus multilingual speech support"
+      ],
+      "zh": [
+        "对话视频接口（CVI）：实时面对面的 AI 视频对话",
+        "自研 Phoenix 渲染、Raven 感知与 Sparrow 轮次对话模型",
+        "约两分钟训练素材即可克隆个人数字分身（replica）",
+        "API 优先平台，支持白标嵌入与 Google Meet 集成",
+        "亚秒级延迟管线，统一处理视觉、语音与渲染",
+        "100+ 库存数字分身与多语言语音支持"
+      ],
+      "ja": [
+        "会話型ビデオインターフェース（CVI）：リアルタイムの対面AI会話",
+        "自社開発のPhoenixレンダリング、Raven知覚、Sparrowターンテイキングモデル",
+        "約2分のトレーニング映像でパーソナルレプリカを複製",
+        "ホワイトラベル埋め込みとGoogle Meet統合に対応するAPIファーストのプラットフォーム",
+        "視覚・音声・レンダリングを統合処理するサブ秒レイテンシのパイプライン",
+        "100以上のストックレプリカと多言語音声サポート"
+      ],
+      "es": [
+        "Interfaz de Video Conversacional (CVI): conversaciones IA cara a cara en tiempo real",
+        "Modelos propios Phoenix (renderizado), Raven (percepción) y Sparrow (turnos de palabra)",
+        "Réplicas personales clonadas con unos dos minutos de material de entrenamiento",
+        "Plataforma API-first con integración white-label y de Google Meet",
+        "Pipeline de latencia subsegundo que maneja visión, voz y renderizado a la vez",
+        "Más de 100 réplicas de stock y soporte de voz multilingüe"
+      ],
+      "fr": [
+        "Interface Vidéo Conversationnelle (CVI) : conversations IA en face à face en temps réel",
+        "Modèles maison Phoenix (rendu), Raven (perception) et Sparrow (tours de parole)",
+        "Répliques personnelles clonées à partir d'environ deux minutes de séquences",
+        "Plateforme API-first avec intégration en marque blanche et Google Meet",
+        "Pipeline à latence sous la seconde gérant vision, parole et rendu ensemble",
+        "Plus de 100 répliques de stock et prise en charge vocale multilingue"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "Free plan lets you experience the full CVI pipeline — real-time face-to-face conversations — with limited minutes before committing.",
+        "zh": "免费档可体验完整 CVI 管线——实时面对面对话——含有限分钟数，先试再买。",
+        "ja": "無料プランでは、コミット前に限られた分数でCVIパイプライン全体——リアルタイムの対面会話——を体験できる。",
+        "es": "El plan gratuito permite experimentar todo el pipeline CVI —conversaciones cara a cara en tiempo real— con minutos limitados antes de comprometerse.",
+        "fr": "L'offre gratuite permet d'expérimenter tout le pipeline CVI — conversations en face à face en temps réel — avec des minutes limitées avant de s'engager."
+      },
+      "paid": {
+        "en": "Starter $39/month with pay-as-you-go usage and 3 personal replica slots; Growth $375/month adds volume and concurrency; higher tiers around $975/month bundle about 4,000 conversational minutes, 15 replica slots and Google Meet configurations, with enterprise plans on request. (Verified against the official pricing page, 2026-07-28.)",
+        "zh": "Starter $39/月，按量计费，含 3 个个人分身位；Growth $375/月提升用量与并发；更高档约 $975/月，打包约 4000 对话分钟、15 个分身位与 Google Meet 配置，企业方案另议。（对照官方定价页核实，2026-07-28。）",
+        "ja": "Starterは月$39で従量課金、パーソナルレプリカ枠3つ付き。Growthは月$375でボリュームと同時実行数を拡大。上位プランは月約$975で約4,000会話分、レプリカ枠15、Google Meet設定をバンドル。エンタープライズは応相談。（公式価格ページと照合、2026-07-28。）",
+        "es": "Starter $39/mes con uso de pago por consumo y 3 huecos de réplica personal; Growth $375/mes añade volumen y concurrencia; los niveles superiores, en torno a $975/mes, incluyen unos 4.000 minutos conversacionales, 15 huecos de réplica y configuraciones de Google Meet, con planes enterprise bajo consulta. (Verificado con la página oficial de precios, 2026-07-28.)",
+        "fr": "Starter à 39 $/mois avec usage à la consommation et 3 emplacements de réplique personnelle ; Growth à 375 $/mois ajoute volume et concurrence ; les paliers supérieurs vers 975 $/mois regroupent environ 4 000 minutes conversationnelles, 15 emplacements de réplique et des configurations Google Meet, offres enterprise sur demande. (Vérifié avec la page tarifaire officielle, 2026-07-28.)"
+      }
+    },
+    "useCases": {
+      "en": [
+        "AI interviewers, tutors and coaches that hold face-to-face conversations",
+        "Customer-facing video agents for onboarding, sales demos and support",
+        "Healthcare intake, screening and companionship pilots with a human face",
+        "White-label conversational video inside SaaS products via API"
+      ],
+      "zh": [
+        "能面对面交谈的 AI 面试官、导师与教练",
+        "面向客户的视频 Agent：引导、销售演示与支持",
+        "带人脸的医疗问诊、初筛与陪伴类试点",
+        "通过 API 在 SaaS 产品内嵌白标对话视频"
+      ],
+      "ja": [
+        "対面会話ができるAI面接官・チューター・コーチ",
+        "オンボーディング・営業デモ・サポート向けの顧客対応ビデオエージェント",
+        "人間の顔を持つ医療問診・スクリーニング・コンパニオンの実証",
+        "API経由でSaaS製品にホワイトラベルの会話ビデオを組み込み"
+      ],
+      "es": [
+        "Entrevistadores, tutores y coaches IA que conversan cara a cara",
+        "Agentes de video de cara al cliente para onboarding, demos de ventas y soporte",
+        "Pilotos de admisión, cribado y compañía en salud con rostro humano",
+        "Video conversacional white-label dentro de productos SaaS vía API"
+      ],
+      "fr": [
+        "Recruteurs, tuteurs et coachs IA menant des conversations en face à face",
+        "Agents vidéo orientés client pour l'onboarding, les démos commerciales et le support",
+        "Pilotes de santé (admission, dépistage, compagnie) avec un visage humain",
+        "Vidéo conversationnelle en marque blanche dans les produits SaaS via API"
+      ]
+    },
+    "pros": {
+      "en": [
+        "The most complete real-time conversational video stack available as an API",
+        "In-house perception model means avatars actually see and react to users",
+        "Two-minute replica training is remarkably fast for personal clones",
+        "Free plan offers a genuine taste of the full pipeline before paying"
+      ],
+      "zh": [
+        "以 API 形态提供的最完整实时对话视频技术栈",
+        "自研感知模型让数字人真的能看到并回应用户",
+        "两分钟素材训练个人分身，速度惊人",
+        "免费档能真切体验完整管线后再付费"
+      ],
+      "ja": [
+        "APIとして提供される最も完成度の高いリアルタイム会話ビデオスタック",
+        "自社知覚モデルによりアバターが実際にユーザーを見て反応する",
+        "2分のトレーニングでパーソナルレプリカを作れる速さは驚異的",
+        "無料プランで支払い前にパイプライン全体を本格的に体験できる"
+      ],
+      "es": [
+        "El stack de video conversacional en tiempo real más completo disponible como API",
+        "El modelo de percepción propio hace que los avatares realmente vean y reaccionen al usuario",
+        "El entrenamiento de réplicas en dos minutos es notablemente rápido",
+        "El plan gratuito ofrece una muestra genuina del pipeline completo antes de pagar"
+      ],
+      "fr": [
+        "La pile de vidéo conversationnelle temps réel la plus complète disponible en API",
+        "Le modèle de perception maison permet aux avatars de réellement voir et réagir",
+        "L'entraînement de réplique en deux minutes est remarquablement rapide",
+        "L'offre gratuite donne un vrai aperçu du pipeline complet avant de payer"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Costs climb quickly: usage-based minutes on top of $39–$375+ subscriptions",
+        "Developer-first product — non-technical teams face a real learning curve",
+        "Not designed for scripted marketing videos; content tooling is thin",
+        "Replica quality varies with training footage and can dip in long sessions"
+      ],
+      "zh": [
+        "成本爬升快：$39–$375+ 订阅之外还要叠加按分钟计费",
+        "开发者优先的产品——非技术团队有实打实的学习曲线",
+        "并非为脚本化营销视频设计，内容制作工具单薄",
+        "分身质量取决于训练素材，长会话中可能下滑"
+      ],
+      "ja": [
+        "コストの上昇が速い：$39〜$375超のサブスクに加えて分単位の従量課金",
+        "開発者ファーストの製品——非技術チームには本物の学習曲線がある",
+        "スクリプト型マーケ動画向けではなく、コンテンツ制作ツールは手薄",
+        "レプリカ品質はトレーニング素材次第で、長いセッションでは低下することも"
+      ],
+      "es": [
+        "Los costes suben rápido: minutos por uso además de suscripciones de $39–$375+",
+        "Producto developer-first: los equipos no técnicos enfrentan una curva de aprendizaje real",
+        "No está diseñado para videos de marketing con guion; las herramientas de contenido son escasas",
+        "La calidad de la réplica varía según el material de entrenamiento y puede bajar en sesiones largas"
+      ],
+      "fr": [
+        "Les coûts grimpent vite : minutes à l'usage en plus des abonnements de 39 à 375 $+",
+        "Produit developer-first — vraie courbe d'apprentissage pour les équipes non techniques",
+        "Pas conçu pour les vidéos marketing scénarisées ; l'outillage contenu est mince",
+        "La qualité des répliques dépend des séquences d'entraînement et peut baisser sur les longues sessions"
+      ]
+    },
+    "latestUpdate": {
+      "en": "2026: Tavus doubled down on its 'human computing' vision — the CVI stack now runs Phoenix-4 rendering with Raven perception and Sparrow turn-taking, powering PAL-style conversational agents with sub-second latency, Google Meet integration and 100+ stock replicas. Plans span a free tier, $39/month Starter and $375/month Growth, with high-volume tiers around $975/month.",
+      "zh": "2026 年：Tavus 深耕「人本计算」愿景——CVI 技术栈现由 Phoenix-4 渲染、Raven 感知与 Sparrow 轮次对话驱动，以亚秒级延迟支撑 PAL 式对话 Agent，集成 Google Meet 并提供 100+ 库存分身。方案涵盖免费档、$39/月 Starter 与 $375/月 Growth，高用量档约 $975/月。",
+      "ja": "2026年：Tavusは「ヒューマンコンピューティング」ビジョンを推し進めた——CVIスタックはPhoenix-4レンダリング、Raven知覚、Sparrowターンテイキングで構成され、サブ秒レイテンシのPAL型会話エージェントを実現。Google Meet統合と100以上のストックレプリカを提供。プランは無料枠、月$39のStarter、月$375のGrowth、高容量帯は月約$975。",
+      "es": "2026: Tavus redobló su visión de 'computación humana': el stack CVI ahora ejecuta renderizado Phoenix-4 con percepción Raven y turnos Sparrow, impulsando agentes conversacionales estilo PAL con latencia subsegundo, integración con Google Meet y más de 100 réplicas de stock. Los planes van del nivel gratuito al Starter de $39/mes y Growth de $375/mes, con niveles de alto volumen en torno a $975/mes.",
+      "fr": "2026 : Tavus a intensifié sa vision du « human computing » — la pile CVI tourne désormais avec le rendu Phoenix-4, la perception Raven et les tours de parole Sparrow, animant des agents conversationnels de type PAL avec une latence sous la seconde, l'intégration Google Meet et plus de 100 répliques de stock. Les offres vont du gratuit au Starter à 39 $/mois et Growth à 375 $/mois, avec des paliers haut volume vers 975 $/mois."
+    },
+    "verdict": {
+      "badge": "Worth Trying",
+      "headline": {
+        "en": "When you need an AI that looks you in the eye and talks back",
+        "zh": "当你需要一个能看着你的眼睛、实时回话的 AI",
+        "ja": "目を見て話し返すAIが必要なとき",
+        "es": "Para cuando necesitas una IA que te mire a los ojos y responda",
+        "fr": "Quand il vous faut une IA qui vous regarde dans les yeux et vous répond"
+      },
+      "body": {
+        "en": "Tavus is not competing with Synthesia, and it barely pretends to. While the rest of the avatar market renders scripted presenters, Tavus builds the machinery for live conversation: a rendering model, a perception model that watches the user through the camera, and a turn-taking model that knows when to pause and when to jump in. Wire that pipeline to an LLM and you get something the demo videos genuinely undersell — an AI interviewer or tutor that reacts to your face in under a second. Developers rate it as the most complete conversational-video API on the market, and the two-minute replica training makes personal clones almost trivially easy. The costs of that ambition are equally real: usage-based minutes stack on top of subscriptions that leap from $39 to $375 and beyond, the product assumes engineering resources, and there is no serious tooling for plain scripted content. Treat the generous free tier as the deciding vote — run one live conversation with a replica, and you will know within minutes whether this is a toy for your roadmap or the foundation of your next product.",
+        "zh": "Tavus 没有在和 Synthesia 竞争，它也几乎不装作在竞争。当数字人市场的其他玩家都在渲染照本宣科的主播时，Tavus 在造实时对话的机器：一个渲染模型、一个透过摄像头观察用户的感知模型，以及一个知道何时停顿何时接话的轮次模型。把这条管线接上 LLM，你会得到演示视频远远低估了的东西——一个能在一秒内对你的表情做出反应的 AI 面试官或导师。开发者评价它是市面上最完整的对话视频 API，两分钟的分身训练更是让个人克隆变得近乎轻而易举。这份野心的代价同样真实：按分钟计费叠在从 $39 跳到 $375 再往上的订阅之上；产品默认你有工程资源；纯脚本内容的制作工具几乎没有。把慷慨的免费档当作决定性一票——用分身跑一场实时对话，几分钟内你就会知道，它对你的路线图而言是个玩具，还是下一款产品的地基。",
+        "ja": "TavusはSynthesiaと競合していないし、そのふりすらほとんどしない。アバター市場の他社が台本通りのプレゼンターをレンダリングする中、Tavusはライブ会話のための機構を作っている。レンダリングモデル、カメラ越しにユーザーを観察する知覚モデル、そしていつ間を取りいつ話し出すかを心得たターンテイキングモデルだ。このパイプラインをLLMに繋げば、デモ動画が控えめに見えるほどのもの——1秒以内にあなたの表情に反応するAI面接官やチューター——が手に入る。開発者は市場で最も完成された会話ビデオAPIと評価し、2分のレプリカトレーニングでパーソナルクローンはほぼ簡単に作れる。その野心の代償も同様に現実だ。従量課金の分数が$39から$375以上へ跳ねるサブスクの上に積み重なり、製品はエンジニアリングリソースを前提とし、単純なスクリプト型コンテンツ向けのツールはまともにない。寛大な無料枠を決め手にしよう——レプリカと1回ライブ会話をすれば、これが自分のロードマップにとっての玩具か、次の製品の土台か、数分で分かるはずだ。",
+        "es": "Tavus no compite con Synthesia, y apenas finge hacerlo. Mientras el resto del mercado de avatares renderiza presentadores con guion, Tavus construye la maquinaria de la conversación en vivo: un modelo de renderizado, un modelo de percepción que observa al usuario por la cámara y un modelo de turnos que sabe cuándo pausar y cuándo intervenir. Conecta ese pipeline a un LLM y obtienes algo que los videos de demostración se quedan cortos en mostrar: un entrevistador o tutor IA que reacciona a tu cara en menos de un segundo. Los desarrolladores la valoran como la API de video conversacional más completa del mercado, y el entrenamiento de réplicas en dos minutos hace los clones personales casi triviales. Los costes de esa ambición son igual de reales: los minutos por uso se apilan sobre suscripciones que saltan de $39 a $375 y más, el producto presupone recursos de ingeniería y no hay herramientas serias para contenido guionado simple. Usa el generoso nivel gratuito como voto decisivo: mantén una conversación en vivo con una réplica y sabrás en minutos si esto es un juguete para tu hoja de ruta o los cimientos de tu próximo producto.",
+        "fr": "Tavus ne concurrence pas Synthesia, et ne fait guère semblant. Pendant que le reste du marché des avatars rend des présentateurs scénarisés, Tavus construit la machinerie de la conversation en direct : un modèle de rendu, un modèle de perception qui observe l'utilisateur à travers la caméra, et un modèle de tours de parole qui sait quand se taire et quand intervenir. Branchez ce pipeline sur un LLM et vous obtenez quelque chose que les vidéos de démo sous-vendent réellement — un recruteur ou tuteur IA qui réagit à votre visage en moins d'une seconde. Les développeurs la considèrent comme l'API de vidéo conversationnelle la plus complète du marché, et l'entraînement de réplique en deux minutes rend les clones personnels presque triviaux. Les coûts de cette ambition sont tout aussi réels : les minutes à l'usage s'empilent sur des abonnements qui bondissent de 39 $ à 375 $ et au-delà, le produit suppose des ressources d'ingénierie, et il n'existe pas d'outillage sérieux pour du simple contenu scénarisé. Faites de l'offre gratuite généreuse le vote décisif — menez une conversation en direct avec une réplique, et vous saurez en quelques minutes si c'est un jouet pour votre feuille de route ou la fondation de votre prochain produit."
+      },
+      "bestFor": {
+        "en": [
+          "Product teams embedding live conversational avatars via API",
+          "Startups building AI interviewers, tutors, coaches or intake agents",
+          "Enterprises piloting face-to-face customer engagement at scale"
+        ],
+        "zh": [
+          "要通过 API 嵌入实时对话数字人的产品团队",
+          "构建 AI 面试官、导师、教练或问诊 Agent 的创业公司",
+          "试点规模化面对面客户互动的企业"
+        ],
+        "ja": [
+          "API経由でライブ会話アバターを組み込む製品チーム",
+          "AI面接官・チューター・コーチ・問診エージェントを作るスタートアップ",
+          "対面型の顧客エンゲージメントを大規模に試す企業"
+        ],
+        "es": [
+          "Equipos de producto que integran avatares conversacionales en vivo vía API",
+          "Startups que construyen entrevistadores, tutores, coaches o agentes de admisión IA",
+          "Empresas que pilotan interacción cara a cara con clientes a escala"
+        ],
+        "fr": [
+          "Équipes produit intégrant des avatars conversationnels en direct via API",
+          "Startups créant des recruteurs, tuteurs, coachs ou agents d'admission IA",
+          "Entreprises pilotant l'engagement client en face à face à grande échelle"
+        ]
+      },
+      "considerAlternatives": {
+        "en": [
+          "You mainly need scripted presenter videos, not live conversation (→ Synthesia / HeyGen)",
+          "You want the cheapest way to make a photo talk (→ D-ID)"
+        ],
+        "zh": [
+          "你主要需要脚本化主播视频而非实时对话（→ Synthesia / HeyGen）",
+          "你想用最便宜的方式让照片开口说话（→ D-ID）"
+        ],
+        "ja": [
+          "必要なのはライブ会話ではなくスクリプト型プレゼンター動画（→ Synthesia / HeyGen）",
+          "写真を喋らせる最も安価な方法が欲しい（→ D-ID）"
+        ],
+        "es": [
+          "Principalmente necesitas videos de presentador con guion, no conversación en vivo (→ Synthesia / HeyGen)",
+          "Quieres la forma más barata de hacer hablar una foto (→ D-ID)"
+        ],
+        "fr": [
+          "Vous avez surtout besoin de vidéos de présentateur scénarisées, pas de conversation en direct (→ Synthesia / HeyGen)",
+          "Vous voulez le moyen le moins cher de faire parler une photo (→ D-ID)"
+        ]
+      }
+    },
+    "meta": {
+      "lastVerified": "2026-07-28",
+      "verdictDate": "2026-07-28",
+      "pricingVerified": "2026-07-28",
+      "pricingUrl": "https://www.tavus.io/pricing"
+    }
+  },
+  "together-ai": {
+    "features": {
+      "en": [
+        "Serverless inference for 200+ open-source models: Llama, DeepSeek, Qwen, Kimi and more",
+        "OpenAI-compatible API — switch providers by changing one base URL",
+        "Fine-tuning service with LoRA and full-parameter options",
+        "Dedicated endpoints with per-minute GPU billing for steady workloads",
+        "GPU clusters (H100/H200/B200) rentable from $1.49/hr for training",
+        "Batch inference at 50% discount plus a free tier of models to prototype on"
+      ],
+      "zh": [
+        "200+ 开源模型的 Serverless 推理：Llama、DeepSeek、Qwen、Kimi 等",
+        "OpenAI 兼容 API——改一个 base URL 即可切换供应商",
+        "微调服务，支持 LoRA 与全参数微调",
+        "专属端点按分钟计费 GPU，适合稳定负载",
+        "GPU 集群（H100/H200/B200）$1.49/小时起，可用于训练",
+        "批量推理五折优惠，另有免费模型档可做原型验证"
+      ],
+      "ja": [
+        "200以上のオープンソースモデルのサーバーレス推論：Llama、DeepSeek、Qwen、Kimiなど",
+        "OpenAI互換API——ベースURLを変えるだけでプロバイダーを切り替え可能",
+        "LoRAとフルパラメータに対応するファインチューニングサービス",
+        "安定したワークロード向けに分単位のGPU課金による専用エンドポイント",
+        "トレーニング用GPUクラスター（H100/H200/B200）を$1.49/時から利用可能",
+        "バッチ推論は50%割引、プロトタイプ用の無料モデル枠もあり"
+      ],
+      "es": [
+        "Inferencia serverless para más de 200 modelos open source: Llama, DeepSeek, Qwen, Kimi y más",
+        "API compatible con OpenAI: cambia de proveedor modificando una sola URL base",
+        "Servicio de fine-tuning con opciones LoRA y de parámetros completos",
+        "Endpoints dedicados con facturación de GPU por minuto para cargas estables",
+        "Clústeres de GPU (H100/H200/B200) alquilables desde $1.49/hora para entrenamiento",
+        "Inferencia por lotes con 50% de descuento y un nivel gratuito de modelos para prototipar"
+      ],
+      "fr": [
+        "Inférence serverless pour plus de 200 modèles open source : Llama, DeepSeek, Qwen, Kimi et plus",
+        "API compatible OpenAI — changez de fournisseur en modifiant une seule URL de base",
+        "Service de fine-tuning avec options LoRA et paramètres complets",
+        "Endpoints dédiés avec facturation GPU à la minute pour les charges stables",
+        "Clusters GPU (H100/H200/B200) louables dès 1,49 $/h pour l'entraînement",
+        "Inférence par lots à 50 % de réduction et un niveau gratuit de modèles pour prototyper"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "A free tier of selected models (including Llama-family endpoints) lets you build and test without a credit card; new accounts also get starter credits.",
+        "zh": "精选模型免费档（含 Llama 系端点）无需信用卡即可开发测试；新账号另有入门额度。",
+        "ja": "厳選モデルの無料枠（Llama系エンドポイントを含む）でクレジットカードなしで開発・テスト可能。新規アカウントにはスタータークレジットも付与。",
+        "es": "Un nivel gratuito de modelos seleccionados (incluidos endpoints de la familia Llama) permite construir y probar sin tarjeta de crédito; las cuentas nuevas también reciben créditos iniciales.",
+        "fr": "Un niveau gratuit de modèles sélectionnés (dont des endpoints de la famille Llama) permet de développer et tester sans carte bancaire ; les nouveaux comptes reçoivent aussi des crédits de départ."
+      },
+      "paid": {
+        "en": "Pay-as-you-go token pricing roughly from $0.03 to $4.50 per million tokens depending on model size; batch inference is 50% off; dedicated endpoints bill GPU time per minute; GPU clusters start at $1.49/hr per GPU with reserved discounts. (Verified against the official pricing page, 2026-07-28.)",
+        "zh": "按量 token 计价，依模型大小约 $0.03–$4.50/百万 token；批量推理五折；专属端点按分钟计 GPU 时长；GPU 集群每卡 $1.49/小时起，预留另有折扣。（对照官方定价页核实，2026-07-28。）",
+        "ja": "従量課金のトークン単価はモデルサイズにより約$0.03〜$4.50/100万トークン。バッチ推論は50%オフ。専用エンドポイントはGPU時間を分単位で課金。GPUクラスターは1GPUあたり$1.49/時から、リザーブ割引あり。（公式価格ページと照合、2026-07-28。）",
+        "es": "Precios por token de pago por uso desde aproximadamente $0.03 hasta $4.50 por millón de tokens según el tamaño del modelo; la inferencia por lotes tiene 50% de descuento; los endpoints dedicados facturan tiempo de GPU por minuto; los clústeres de GPU parten de $1.49/hora por GPU con descuentos por reserva. (Verificado con la página oficial de precios, 2026-07-28.)",
+        "fr": "Tarification au token à l'usage d'environ 0,03 $ à 4,50 $ par million de tokens selon la taille du modèle ; l'inférence par lots est à moitié prix ; les endpoints dédiés facturent le temps GPU à la minute ; les clusters GPU démarrent à 1,49 $/h par GPU avec remises sur réservation. (Vérifié avec la page tarifaire officielle, 2026-07-28.)"
+      }
+    },
+    "useCases": {
+      "en": [
+        "Running open-source LLMs in production without managing GPUs",
+        "Cutting inference bills by swapping GPT-class calls to open models",
+        "Fine-tuning Llama/Qwen-class models on proprietary data",
+        "Training runs on rented H100/H200 clusters without long contracts"
+      ],
+      "zh": [
+        "在生产环境跑开源 LLM，无需自管 GPU",
+        "把 GPT 级调用换成开源模型，削减推理账单",
+        "用私有数据微调 Llama/Qwen 级模型",
+        "租用 H100/H200 集群做训练，无需长约"
+      ],
+      "ja": [
+        "GPUを自前管理せずにオープンソースLLMを本番運用",
+        "GPT級の呼び出しをオープンモデルに置き換えて推論コストを削減",
+        "独自データでLlama/Qwen級モデルをファインチューニング",
+        "長期契約なしでH100/H200クラスターを借りてトレーニング"
+      ],
+      "es": [
+        "Ejecutar LLMs open source en producción sin gestionar GPUs",
+        "Reducir la factura de inferencia cambiando llamadas de clase GPT a modelos abiertos",
+        "Hacer fine-tuning de modelos clase Llama/Qwen con datos propios",
+        "Entrenamientos en clústeres H100/H200 alquilados sin contratos largos"
+      ],
+      "fr": [
+        "Exécuter des LLM open source en production sans gérer de GPU",
+        "Réduire la facture d'inférence en remplaçant les appels de classe GPT par des modèles ouverts",
+        "Fine-tuner des modèles de classe Llama/Qwen sur des données propriétaires",
+        "Entraîner sur des clusters H100/H200 loués sans contrat long"
+      ]
+    },
+    "pros": {
+      "en": [
+        "One of the broadest open-model catalogs, updated within days of releases",
+        "Serious research pedigree (FlashAttention lineage) shows in inference speed",
+        "Full ladder from free tier to serverless to dedicated GPUs to clusters",
+        "Transparent per-token pricing that routinely undercuts closed-model APIs"
+      ],
+      "zh": [
+        "开源模型目录之广数一数二，新模型发布数日内即上架",
+        "扎实的研究底蕴（FlashAttention 一脉）体现在推理速度上",
+        "从免费档、Serverless、专属 GPU 到集群的完整阶梯",
+        "透明的按 token 计价，常常低于闭源模型 API"
+      ],
+      "ja": [
+        "最も幅広いオープンモデルカタログの一つで、リリースから数日で追加",
+        "本格的な研究の系譜（FlashAttentionの流れ）が推論速度に表れている",
+        "無料枠からサーバーレス、専用GPU、クラスターまでの完全なはしご",
+        "クローズドモデルAPIをしばしば下回る透明なトークン単価"
+      ],
+      "es": [
+        "Uno de los catálogos de modelos abiertos más amplios, actualizado a días de cada lanzamiento",
+        "Un pedigrí de investigación serio (linaje FlashAttention) que se nota en la velocidad de inferencia",
+        "Escalera completa: nivel gratuito, serverless, GPUs dedicadas y clústeres",
+        "Precios por token transparentes que suelen estar por debajo de las APIs de modelos cerrados"
+      ],
+      "fr": [
+        "L'un des catalogues de modèles ouverts les plus larges, mis à jour quelques jours après chaque sortie",
+        "Un pedigree de recherche sérieux (lignée FlashAttention) visible dans la vitesse d'inférence",
+        "Échelle complète : niveau gratuit, serverless, GPU dédiés et clusters",
+        "Tarification au token transparente, souvent inférieure aux API de modèles fermés"
+      ]
+    },
+    "cons": {
+      "en": [
+        "No proprietary frontier models — you trade peak capability for cost and control",
+        "Per-model pricing spread means bills need monitoring as you switch models",
+        "Dedicated endpoints and clusters push you into infrastructure decisions",
+        "Fierce competition (Fireworks, Groq, DeepInfra) keeps feature parity shifting"
+      ],
+      "zh": [
+        "没有闭源前沿模型——用峰值能力换成本与掌控",
+        "各模型价差大，切换模型时账单需要盯紧",
+        "专属端点与集群会把你推入基础设施决策",
+        "竞争激烈（Fireworks、Groq、DeepInfra），功能差距随时在变"
+      ],
+      "ja": [
+        "独自のフロンティアモデルはない——最高性能をコストとコントロールと引き換えにする",
+        "モデルごとの価格差が大きく、モデルを切り替える際は請求を監視する必要がある",
+        "専用エンドポイントとクラスターはインフラの意思決定を迫る",
+        "激しい競争（Fireworks、Groq、DeepInfra）で機能面の優位は常に変動する"
+      ],
+      "es": [
+        "Sin modelos frontera propietarios: cambias capacidad máxima por coste y control",
+        "La dispersión de precios por modelo obliga a vigilar la factura al cambiar de modelo",
+        "Los endpoints dedicados y clústeres te empujan a decisiones de infraestructura",
+        "La competencia feroz (Fireworks, Groq, DeepInfra) mantiene la paridad de funciones en movimiento"
+      ],
+      "fr": [
+        "Pas de modèles frontière propriétaires — vous échangez la capacité maximale contre coût et contrôle",
+        "L'écart de prix entre modèles impose de surveiller la facture quand on change de modèle",
+        "Endpoints dédiés et clusters vous poussent vers des décisions d'infrastructure",
+        "La concurrence féroce (Fireworks, Groq, DeepInfra) fait bouger la parité fonctionnelle en permanence"
+      ]
+    },
+    "latestUpdate": {
+      "en": "2026: Together AI keeps racing model releases — DeepSeek, Qwen, Kimi and Llama variants appear on the platform within days — while building out the compute ladder: batch inference at half price, fine-tuning upgrades, and B200/H200 GPU clusters from $1.49/hr alongside its serverless API.",
+      "zh": "2026 年：Together AI 持续追平模型发布节奏——DeepSeek、Qwen、Kimi 与 Llama 变体数日内即上架——同时把算力阶梯做全：批量推理半价、微调升级、B200/H200 GPU 集群 $1.49/小时起，与 Serverless API 并行。",
+      "ja": "2026年：Together AIはモデルリリースへの追随を続けている——DeepSeek、Qwen、Kimi、Llamaの各バリアントが数日以内にプラットフォームに登場——同時にコンピュートのはしごを拡充：バッチ推論半額、ファインチューニングの強化、サーバーレスAPIと並ぶ$1.49/時からのB200/H200 GPUクラスター。",
+      "es": "2026: Together AI sigue el ritmo de los lanzamientos de modelos —variantes de DeepSeek, Qwen, Kimi y Llama aparecen en la plataforma en días— mientras completa la escalera de cómputo: inferencia por lotes a mitad de precio, mejoras de fine-tuning y clústeres GPU B200/H200 desde $1.49/hora junto a su API serverless.",
+      "fr": "2026 : Together AI suit le rythme des sorties de modèles — les variantes DeepSeek, Qwen, Kimi et Llama arrivent sur la plateforme en quelques jours — tout en complétant l'échelle de calcul : inférence par lots à moitié prix, fine-tuning amélioré et clusters GPU B200/H200 dès 1,49 $/h aux côtés de son API serverless."
+    },
+    "verdict": {
+      "badge": "Recommended",
+      "headline": {
+        "en": "The default on-ramp for running open-source models in production",
+        "zh": "把开源模型跑进生产环境的默认入口",
+        "ja": "オープンソースモデルを本番運用するためのデフォルトの入口",
+        "es": "La rampa de entrada por defecto para ejecutar modelos open source en producción",
+        "fr": "La rampe d'accès par défaut pour exécuter des modèles open source en production"
+      },
+      "body": {
+        "en": "Together AI has quietly become the answer to a very common question: how do we use open-source models without hiring an infrastructure team? The catalog is enormous and refreshingly current — new DeepSeek, Qwen or Llama releases show up within days — the API speaks fluent OpenAI so migration is a one-line change, and the pricing ladder is honest: free models to prototype, cheap serverless tokens to launch, dedicated endpoints when latency matters, and $1.49/hr GPU clusters when you outgrow all of it. The research pedigree behind FlashAttention shows up as real-world speed rather than marketing. The trade-offs are structural, not incidental: there are no proprietary frontier models here, so peak-capability workloads still belong elsewhere, and the per-model pricing spread rewards teams that actually watch their bills. Rivals like Fireworks and Groq win specific races on speed or niche models. But as the single vendor most likely to have the open model you want, at a fair price, behind an API you already know — Together is the safest first pick in the category.",
+        "zh": "Together AI 悄然成为一个高频问题的标准答案：不养基础设施团队，怎么用上开源模型？它的目录庞大且新鲜得令人愉快——DeepSeek、Qwen、Llama 的新版本数日内就会上架；API 说一口流利的 OpenAI 方言，迁移只需改一行；定价阶梯也很诚实：免费模型做原型、廉价 Serverless token 上线、延迟敏感时上专属端点、全都不够用了还有 $1.49/小时的 GPU 集群。FlashAttention 背后的研究底蕴，体现为真实的速度而非营销话术。它的取舍是结构性的而非偶然的：这里没有闭源前沿模型，峰值能力型任务仍得去别处；各模型价差大，会看账单的团队才占便宜。Fireworks、Groq 这些对手会在速度或小众模型的单项赛里赢它。但要论「你想要的那个开源模型它最可能有、价格公道、API 你还早就会用」，Together 是这个品类里最稳的首选。",
+        "ja": "Together AIは、とてもよくある問いへの答えに静かになった。インフラチームを雇わずにオープンソースモデルをどう使うか？カタログは膨大で気持ちよいほど新しい——DeepSeek、Qwen、Llamaの新リリースは数日で並ぶ。APIは流暢なOpenAI方言を話すので移行は1行の変更で済む。価格のはしごも誠実だ。無料モデルでプロトタイプし、安価なサーバーレストークンでローンチし、レイテンシが重要なら専用エンドポイント、それでも足りなければ$1.49/時のGPUクラスター。FlashAttentionを生んだ研究の系譜は、マーケティングではなく実際の速度として現れる。トレードオフは構造的なものだ。ここに独自のフロンティアモデルはなく、最高性能が要る仕事は他所に頼ることになる。モデル間の価格差は、請求をきちんと見るチームに報いる。FireworksやGroqは速度やニッチモデルの個別勝負で勝つこともある。しかし「欲しいオープンモデルが最も揃っていて、価格が公正で、APIは既に知っている」という一社を選ぶなら、Togetherがこのカテゴリで最も安全な第一候補だ。",
+        "es": "Together AI se ha convertido en silencio en la respuesta a una pregunta muy común: ¿cómo usamos modelos open source sin contratar un equipo de infraestructura? El catálogo es enorme y refrescantemente actual —los nuevos DeepSeek, Qwen o Llama aparecen en días—, la API habla OpenAI con fluidez así que migrar es cambiar una línea, y la escalera de precios es honesta: modelos gratis para prototipar, tokens serverless baratos para lanzar, endpoints dedicados cuando importa la latencia y clústeres GPU a $1.49/hora cuando todo lo demás se queda corto. El pedigrí de investigación tras FlashAttention se traduce en velocidad real, no en marketing. Las contrapartidas son estructurales: aquí no hay modelos frontera propietarios, así que las cargas de capacidad máxima siguen perteneciendo a otros, y la dispersión de precios por modelo premia a los equipos que vigilan su factura. Rivales como Fireworks y Groq ganan carreras concretas en velocidad o modelos de nicho. Pero como el proveedor único con más probabilidades de tener el modelo abierto que quieres, a un precio justo y tras una API que ya conoces, Together es la primera elección más segura de la categoría.",
+        "fr": "Together AI est discrètement devenu la réponse à une question très courante : comment utiliser des modèles open source sans embaucher une équipe d'infrastructure ? Le catalogue est énorme et d'une fraîcheur réjouissante — les nouveaux DeepSeek, Qwen ou Llama arrivent en quelques jours —, l'API parle couramment OpenAI donc la migration tient en une ligne, et l'échelle tarifaire est honnête : modèles gratuits pour prototyper, tokens serverless bon marché pour lancer, endpoints dédiés quand la latence compte, et clusters GPU à 1,49 $/h quand tout cela ne suffit plus. Le pedigree de recherche derrière FlashAttention se traduit en vitesse réelle plutôt qu'en marketing. Les compromis sont structurels : pas de modèles frontière propriétaires ici, donc les charges exigeant la capacité maximale restent ailleurs, et l'écart de prix entre modèles récompense les équipes qui surveillent leur facture. Des rivaux comme Fireworks et Groq gagnent des courses précises en vitesse ou sur des modèles de niche. Mais comme fournisseur unique le plus susceptible d'avoir le modèle ouvert que vous voulez, à un prix juste, derrière une API que vous connaissez déjà — Together est le premier choix le plus sûr de la catégorie."
+      },
+      "bestFor": {
+        "en": [
+          "Teams moving from closed-model APIs to open models for cost or control",
+          "Developers who want one API covering LLMs, vision and image models",
+          "Startups fine-tuning and serving custom models without owning GPUs"
+        ],
+        "zh": [
+          "为了成本或掌控从闭源 API 迁向开源模型的团队",
+          "想用一个 API 覆盖 LLM、视觉与图像模型的开发者",
+          "不买 GPU 也要微调并部署自有模型的创业公司"
+        ],
+        "ja": [
+          "コストやコントロールのためにクローズドAPIからオープンモデルへ移行するチーム",
+          "LLM・ビジョン・画像モデルを一つのAPIでカバーしたい開発者",
+          "GPUを所有せずにカスタムモデルをファインチューニングして提供するスタートアップ"
+        ],
+        "es": [
+          "Equipos que migran de APIs de modelos cerrados a modelos abiertos por coste o control",
+          "Desarrolladores que quieren una sola API para LLMs, visión y modelos de imagen",
+          "Startups que hacen fine-tuning y sirven modelos propios sin poseer GPUs"
+        ],
+        "fr": [
+          "Équipes passant des API de modèles fermés aux modèles ouverts pour le coût ou le contrôle",
+          "Développeurs voulant une seule API couvrant LLM, vision et modèles d'image",
+          "Startups qui fine-tunent et servent des modèles personnalisés sans posséder de GPU"
+        ]
+      },
+      "considerAlternatives": {
+        "en": [
+          "You need frontier-model capability above all (→ OpenAI / Anthropic / Gemini APIs)",
+          "Your workload is generative media rather than LLMs (→ Fal.ai / Replicate)"
+        ],
+        "zh": [
+          "你最需要的是前沿模型能力（→ OpenAI / Anthropic / Gemini API）",
+          "你的负载是生成式媒体而非 LLM（→ Fal.ai / Replicate）"
+        ],
+        "ja": [
+          "何よりフロンティアモデルの能力が必要（→ OpenAI / Anthropic / Gemini API）",
+          "ワークロードがLLMではなく生成メディア（→ Fal.ai / Replicate）"
+        ],
+        "es": [
+          "Necesitas capacidad de modelo frontera por encima de todo (→ APIs de OpenAI / Anthropic / Gemini)",
+          "Tu carga de trabajo es media generativa más que LLMs (→ Fal.ai / Replicate)"
+        ],
+        "fr": [
+          "Vous avez avant tout besoin de capacités de modèles frontière (→ API OpenAI / Anthropic / Gemini)",
+          "Votre charge de travail est du média génératif plutôt que des LLM (→ Fal.ai / Replicate)"
+        ]
+      }
+    },
+    "meta": {
+      "lastVerified": "2026-07-28",
+      "verdictDate": "2026-07-28",
+      "pricingVerified": "2026-07-28",
+      "pricingUrl": "https://www.together.ai/pricing"
+    }
   }
 }
