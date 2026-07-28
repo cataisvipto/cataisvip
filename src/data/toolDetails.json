@@ -32352,5 +32352,1180 @@
       "pricingVerified": "2026-07-28",
       "pricingUrl": "https://app.pixverse.ai/membership"
     }
+  },
+  "felo": {
+    "features": {
+      "en": [
+        "Multilingual AI search: ask in your language, get cited answers from global sources",
+        "Cross-language retrieval surfaces Japanese, Chinese and English sources others miss",
+        "One-click generation of presentations, mind maps and documents from search results",
+        "Topic collections and follow-up questions keep long research sessions organized",
+        "Free tier covers daily search needs; Pro unlocks advanced models and deep search",
+        "Official iOS and Android apps alongside the web version"
+      ],
+      "zh": [
+        "多语言 AI 搜索：用母语提问，获得来自全球信息源的带引用答案",
+        "跨语言检索能挖出别家漏掉的日文、中文与英文信息源",
+        "一键把搜索结果生成 PPT、思维导图与文档",
+        "话题收藏与追问功能让长时间研究保持条理",
+        "免费档足够日常搜索；Pro 解锁高级模型与深度搜索",
+        "网页版之外提供官方 iOS 与 Android App"
+      ],
+      "ja": [
+        "多言語AI検索：母語で質問し、世界中のソースから引用付き回答を取得",
+        "言語横断検索で他社が見逃す日本語・中国語・英語ソースを発掘",
+        "検索結果からプレゼン資料・マインドマップ・ドキュメントをワンクリック生成",
+        "トピックコレクションと追加質問で長時間のリサーチも整理",
+        "無料枠で日常の検索は十分。Proで上位モデルとディープサーチを解放",
+        "Web版に加え公式iOS・Androidアプリを提供"
+      ],
+      "es": [
+        "Búsqueda IA multilingüe: pregunta en tu idioma y recibe respuestas citadas de fuentes globales",
+        "La recuperación entre idiomas revela fuentes japonesas, chinas e inglesas que otros pasan por alto",
+        "Generación con un clic de presentaciones, mapas mentales y documentos desde los resultados",
+        "Las colecciones de temas y preguntas de seguimiento mantienen organizadas las sesiones largas",
+        "El plan gratuito cubre la búsqueda diaria; Pro desbloquea modelos avanzados y búsqueda profunda",
+        "Apps oficiales para iOS y Android junto a la versión web"
+      ],
+      "fr": [
+        "Recherche IA multilingue : posez la question dans votre langue, obtenez des réponses citées de sources mondiales",
+        "La recherche inter-langues révèle des sources japonaises, chinoises et anglaises que d'autres manquent",
+        "Génération en un clic de présentations, cartes mentales et documents à partir des résultats",
+        "Collections de sujets et questions de suivi pour garder les longues sessions organisées",
+        "L'offre gratuite couvre la recherche quotidienne ; Pro débloque les modèles avancés et la recherche profonde",
+        "Apps officielles iOS et Android en plus de la version web"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "The free plan fully covers everyday search with a daily quota of advanced searches, plus basic presentation and mind map generation — no credit card required.",
+        "zh": "免费档完全覆盖日常搜索，每日附带一定次数的高级搜索，还有基础的 PPT 与思维导图生成——无需信用卡。",
+        "ja": "無料プランで日常の検索は完全にカバー。1日あたり一定回数の高度検索に加え、基本的なプレゼン・マインドマップ生成も可能——クレジットカード不要。",
+        "es": "El plan gratuito cubre por completo la búsqueda diaria con una cuota de búsquedas avanzadas, más generación básica de presentaciones y mapas mentales, sin tarjeta de crédito.",
+        "fr": "L'offre gratuite couvre entièrement la recherche quotidienne avec un quota de recherches avancées, plus la génération basique de présentations et cartes mentales — sans carte bancaire."
+      },
+      "paid": {
+        "en": "Pro costs $14.99/month (¥2,099 JPY) with a discount on annual billing, including 300 professional searches per day, access to flagship models, deeper insights, AI chat/writing and presentation generation. (Verified against the official pricing page and blog, 2026-07-28.)",
+        "zh": "Pro 为 $14.99/月（¥2099 日元），年付有折扣，含每日 300 次专业搜索、旗舰模型接入、更深入的洞察、AI 聊天/写作与 PPT 生成。（对照官方定价页与博客核实，2026-07-28。）",
+        "ja": "Proは月額$14.99（2,099円）で年払い割引あり。1日300回のプロ検索、フラッグシップモデル利用、より深いインサイト、AIチャット/ライティング、プレゼン生成を含む。（公式価格ページとブログと照合、2026-07-28。）",
+        "es": "Pro cuesta $14.99/mes (¥2,099 JPY) con descuento anual, e incluye 300 búsquedas profesionales al día, acceso a modelos insignia, análisis más profundos, chat/escritura IA y generación de presentaciones. (Verificado con la página oficial de precios y el blog, 2026-07-28.)",
+        "fr": "Pro coûte 14,99 $/mois (2 099 ¥ JPY) avec une remise en facturation annuelle, incluant 300 recherches professionnelles par jour, l'accès aux modèles phares, des analyses plus poussées, le chat/rédaction IA et la génération de présentations. (Vérifié avec la page tarifaire officielle et le blog, 2026-07-28.)"
+      }
+    },
+    "useCases": {
+      "en": [
+        "Research spanning languages — e.g. digging into Japanese or Chinese sources in English",
+        "Turning a research session directly into a presentation deck or mind map",
+        "Market and competitor scans that need sources beyond the English web",
+        "Everyday cited-answer search on a genuinely usable free tier"
+      ],
+      "zh": [
+        "跨语言研究——比如用中文挖掘日文或英文信息源",
+        "把一次搜索研究直接变成 PPT 或思维导图",
+        "需要英文互联网之外信息源的市场与竞品扫描",
+        "在真正够用的免费档上做日常带引用搜索"
+      ],
+      "ja": [
+        "言語をまたぐリサーチ——日本語から中国語・英語ソースを掘るなど",
+        "リサーチセッションをそのままプレゼン資料やマインドマップに変換",
+        "英語圏の外のソースが必要な市場・競合調査",
+        "本当に使える無料枠での日常的な引用付き検索"
+      ],
+      "es": [
+        "Investigación entre idiomas, p. ej. explorar fuentes japonesas o chinas desde el español",
+        "Convertir una sesión de investigación directamente en una presentación o mapa mental",
+        "Análisis de mercado y competencia que requieren fuentes más allá de la web en inglés",
+        "Búsqueda diaria con citas en un plan gratuito realmente utilizable"
+      ],
+      "fr": [
+        "Recherche multilingue — par ex. explorer des sources japonaises ou chinoises depuis le français",
+        "Transformer une session de recherche directement en présentation ou carte mentale",
+        "Veilles marché et concurrence nécessitant des sources au-delà du web anglophone",
+        "Recherche quotidienne avec citations sur une offre gratuite vraiment utilisable"
+      ]
+    },
+    "pros": {
+      "en": [
+        "Cross-language retrieval is a genuine differentiator versus English-first rivals",
+        "One of the most generous free tiers among AI search engines",
+        "Search-to-presentation pipeline saves a whole tool switch",
+        "Clean, fast interface with mobile apps on both platforms"
+      ],
+      "zh": [
+        "跨语言检索是相对英文优先对手的真正差异点",
+        "免费档在 AI 搜索引擎里数一数二地慷慨",
+        "搜索直出 PPT 的流水线省掉一次工具切换",
+        "界面干净快速，双平台都有移动 App"
+      ],
+      "ja": [
+        "言語横断検索は英語優先のライバルに対する本物の差別化要素",
+        "AI検索エンジンの中でも屈指の充実した無料枠",
+        "検索からプレゼンへの直行パイプラインでツール切り替えが不要",
+        "クリーンで高速なUI、両プラットフォームにモバイルアプリ"
+      ],
+      "es": [
+        "La recuperación entre idiomas es un diferenciador real frente a rivales centrados en inglés",
+        "Uno de los planes gratuitos más generosos entre los buscadores IA",
+        "El flujo de búsqueda a presentación ahorra un cambio de herramienta completo",
+        "Interfaz limpia y rápida con apps móviles en ambas plataformas"
+      ],
+      "fr": [
+        "La recherche inter-langues est un vrai différenciateur face aux rivaux anglophones",
+        "L'une des offres gratuites les plus généreuses parmi les moteurs de recherche IA",
+        "Le pipeline recherche-vers-présentation évite un changement d'outil complet",
+        "Interface propre et rapide avec apps mobiles sur les deux plateformes"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Answer depth on hard English queries still trails Perplexity's best",
+        "Pro at $14.99/month is pricier than some bigger-name rivals",
+        "Generated presentations need manual polish for professional use",
+        "No public developer API, unlike several search competitors"
+      ],
+      "zh": [
+        "高难度英文问题的回答深度仍逊于 Perplexity 的最佳水平",
+        "Pro $14.99/月比一些更大牌的对手还贵",
+        "生成的 PPT 要专业使用还需手工打磨",
+        "没有公开的开发者 API，不像几家搜索竞品"
+      ],
+      "ja": [
+        "難しい英語クエリの回答の深さはPerplexityの最高水準にまだ及ばない",
+        "月$14.99のProは一部の大手ライバルより高い",
+        "生成されたプレゼンは業務利用には手動の仕上げが必要",
+        "検索系競合の一部と違い、公開の開発者APIがない"
+      ],
+      "es": [
+        "La profundidad de respuesta en consultas difíciles en inglés aún va detrás de lo mejor de Perplexity",
+        "Pro a $14.99/mes es más caro que algunos rivales de mayor nombre",
+        "Las presentaciones generadas necesitan pulido manual para uso profesional",
+        "Sin API pública para desarrolladores, a diferencia de varios competidores"
+      ],
+      "fr": [
+        "La profondeur des réponses sur les requêtes anglaises difficiles reste derrière le meilleur de Perplexity",
+        "Pro à 14,99 $/mois est plus cher que certains rivaux plus connus",
+        "Les présentations générées demandent une finition manuelle pour un usage professionnel",
+        "Pas d'API développeur publique, contrairement à plusieurs concurrents"
+      ]
+    },
+    "latestUpdate": {
+      "en": "2026: Felo has evolved from a search engine into a search-and-create platform — presentations, mind maps, documents, images and even webpages can be generated straight from research sessions. The free tier remains among the most generous in AI search, while Pro ($14.99/month) bundles 300 daily professional searches with flagship-model access.",
+      "zh": "2026 年：Felo 已从搜索引擎进化为「搜索+创作」平台——PPT、思维导图、文档、图片甚至网页都能直接从研究会话生成。免费档仍是 AI 搜索里最慷慨的之一，Pro（$14.99/月）打包每日 300 次专业搜索与旗舰模型接入。",
+      "ja": "2026年：Feloは検索エンジンから「検索＋創作」プラットフォームへ進化——プレゼン、マインドマップ、ドキュメント、画像、さらにはWebページまでリサーチセッションから直接生成できる。無料枠はAI検索で最も充実した部類のままで、Pro（月$14.99）は1日300回のプロ検索とフラッグシップモデル利用をセットにしている。",
+      "es": "2026: Felo ha evolucionado de buscador a plataforma de búsqueda y creación: presentaciones, mapas mentales, documentos, imágenes e incluso páginas web se generan directamente desde las sesiones de investigación. El plan gratuito sigue entre los más generosos de la búsqueda IA, mientras Pro ($14.99/mes) combina 300 búsquedas profesionales diarias con acceso a modelos insignia.",
+      "fr": "2026 : Felo a évolué d'un moteur de recherche vers une plateforme de recherche et création — présentations, cartes mentales, documents, images et même pages web se génèrent directement depuis les sessions de recherche. L'offre gratuite reste parmi les plus généreuses de la recherche IA, tandis que Pro (14,99 $/mois) associe 300 recherches professionnelles quotidiennes à l'accès aux modèles phares."
+    },
+    "verdict": {
+      "badge": "Worth Trying",
+      "headline": {
+        "en": "The polyglot of AI search — strongest when your answers live in another language",
+        "zh": "AI 搜索里的多语言通——答案藏在另一种语言里时最见功力",
+        "ja": "AI検索のポリグロット——答えが別の言語にあるとき最も真価を発揮",
+        "es": "El políglota de la búsqueda IA, más fuerte cuando tus respuestas viven en otro idioma",
+        "fr": "Le polyglotte de la recherche IA — au meilleur de sa forme quand vos réponses vivent dans une autre langue"
+      },
+      "body": {
+        "en": "Felo's pitch sounds simple — ask in your language, search in all of them — but in practice it fills a gap the English-first giants leave wide open. Built by Japan's Sparticle, it is unusually good at pulling Japanese and Chinese sources into answers a non-speaker can actually use, which makes it quietly indispensable for anyone researching Asian markets, tech or academia. The second act is the creation layer: search results flow directly into presentations, mind maps and documents, collapsing a research-then-slides workflow into one tab. The free tier is generous enough to live on, which is increasingly rare. The honest caveats: on hard English-language queries the answer depth still trails Perplexity's best, Pro at $14.99/month costs more than some bigger names, and the auto-generated decks need polish before a real meeting. Treat Felo as your cross-language research companion rather than a wholesale Perplexity replacement, and it earns its bookmark quickly.",
+        "zh": "Felo 的卖点听着简单——用母语提问、在所有语言里搜索——但实际上它填补了英文优先巨头留下的大片空白。这款由日本 Sparticle 打造的引擎，格外擅长把日文与中文信息源拉进非母语者也能用的答案里，对研究亚洲市场、科技或学术的人来说是悄悄不可或缺的存在。第二重能力是创作层：搜索结果直接流入 PPT、思维导图与文档，把「先研究再做片子」的流程压缩进一个标签页。免费档慷慨到可以常驻使用，这越来越稀有。诚实的注意点：高难度英文问题的回答深度仍逊于 Perplexity 的最佳水平，$14.99/月的 Pro 比一些更大牌的对手还贵，自动生成的片子上正式会议前需要打磨。把 Felo 当作你的跨语言研究伙伴而不是 Perplexity 的全面替代品，它会很快赢得一个常驻书签。",
+        "ja": "Feloの売り文句はシンプルに聞こえる——母語で質問し、すべての言語で検索する——だが実際には、英語優先の巨人たちが大きく空けたままの穴を埋めている。日本のSparticleが開発したこのエンジンは、日本語や中国語のソースを非話者でも使える回答に取り込むのが際立ってうまく、アジアの市場・技術・学術を調べる人にとって静かに不可欠な存在だ。第二の武器は創作レイヤー：検索結果がそのままプレゼン、マインドマップ、ドキュメントに流れ込み、「リサーチしてからスライド作成」のワークフローを1つのタブに圧縮する。無料枠は常用できるほど充実しており、これは年々希少になっている。正直な注意点：難しい英語クエリの回答の深さはまだPerplexityの最高水準に及ばず、月$14.99のProは一部の大手より高く、自動生成スライドは本番会議前に仕上げが要る。FeloをPerplexityの全面代替ではなく言語横断リサーチの相棒と捉えれば、すぐにブックマークの定位置を勝ち取るだろう。",
+        "es": "La propuesta de Felo suena simple —pregunta en tu idioma, busca en todos—, pero en la práctica llena un hueco que los gigantes centrados en inglés dejan abierto de par en par. Creado por la japonesa Sparticle, es inusualmente bueno trayendo fuentes japonesas y chinas a respuestas que un no hablante puede usar de verdad, lo que lo vuelve discretamente indispensable para quien investiga mercados, tecnología o academia asiáticos. El segundo acto es la capa de creación: los resultados fluyen directamente a presentaciones, mapas mentales y documentos, comprimiendo el flujo de investigar-y-luego-hacer-diapositivas en una sola pestaña. El plan gratuito es lo bastante generoso para vivir de él, algo cada vez más raro. Las salvedades honestas: en consultas difíciles en inglés la profundidad aún va detrás de lo mejor de Perplexity, Pro a $14.99/mes cuesta más que algunos nombres mayores, y las diapositivas autogeneradas necesitan pulido antes de una reunión real. Trata a Felo como tu compañero de investigación entre idiomas y no como un reemplazo total de Perplexity, y se ganará el marcador rápido.",
+        "fr": "La promesse de Felo semble simple — demandez dans votre langue, cherchez dans toutes — mais en pratique elle comble un vide que les géants anglophones laissent grand ouvert. Conçu par le japonais Sparticle, il excelle à intégrer des sources japonaises et chinoises dans des réponses réellement exploitables par un non-locuteur, ce qui le rend discrètement indispensable à quiconque étudie les marchés, la tech ou la recherche asiatiques. Le second atout est la couche de création : les résultats de recherche alimentent directement présentations, cartes mentales et documents, compressant le workflow « recherche puis slides » en un seul onglet. L'offre gratuite est assez généreuse pour un usage quotidien, ce qui devient rare. Les réserves honnêtes : sur les requêtes anglaises difficiles, la profondeur reste derrière le meilleur de Perplexity, Pro à 14,99 $/mois coûte plus cher que certains grands noms, et les slides auto-générés demandent une finition avant une vraie réunion. Considérez Felo comme votre compagnon de recherche inter-langues plutôt qu'un remplaçant intégral de Perplexity, et il gagnera vite sa place dans vos favoris."
+      },
+      "bestFor": {
+        "en": [
+          "Researchers needing Japanese, Chinese or other non-English sources",
+          "Users who want search results turned straight into slides and mind maps",
+          "Anyone wanting a genuinely usable free AI search for daily queries"
+        ],
+        "zh": [
+          "需要日文、中文或其他非英文信息源的研究者",
+          "想把搜索结果直接变成 PPT 与思维导图的用户",
+          "想要一个日常真正够用的免费 AI 搜索的人"
+        ],
+        "ja": [
+          "日本語・中国語などの非英語ソースが必要な研究者",
+          "検索結果をそのままスライドやマインドマップにしたいユーザー",
+          "日常の検索に本当に使える無料AI検索が欲しい人"
+        ],
+        "es": [
+          "Investigadores que necesitan fuentes japonesas, chinas u otras no inglesas",
+          "Usuarios que quieren convertir resultados de búsqueda directamente en diapositivas y mapas mentales",
+          "Cualquiera que busque una búsqueda IA gratuita realmente usable a diario"
+        ],
+        "fr": [
+          "Chercheurs ayant besoin de sources japonaises, chinoises ou non anglophones",
+          "Utilisateurs voulant transformer les résultats de recherche directement en slides et cartes mentales",
+          "Quiconque veut une recherche IA gratuite vraiment utilisable au quotidien"
+        ]
+      },
+      "considerAlternatives": {
+        "en": [
+          "Your queries are mostly hard English-language research (→ Perplexity)",
+          "Your work centers on Chinese academic and journal sources (→ Metaso)"
+        ],
+        "zh": [
+          "你的问题主要是高难度英文研究（→ Perplexity）",
+          "你的工作以中文学术与期刊资源为核心（→ 秘塔AI搜索）"
+        ],
+        "ja": [
+          "クエリが主に難度の高い英語リサーチ（→ Perplexity）",
+          "仕事の中心が中国語の学術・ジャーナルソース（→ 秘塔AI搜索）"
+        ],
+        "es": [
+          "Tus consultas son sobre todo investigación difícil en inglés (→ Perplexity)",
+          "Tu trabajo se centra en fuentes académicas chinas (→ Metaso)"
+        ],
+        "fr": [
+          "Vos requêtes sont surtout de la recherche pointue en anglais (→ Perplexity)",
+          "Votre travail est centré sur les sources académiques chinoises (→ Metaso)"
+        ]
+      }
+    },
+    "meta": {
+      "lastVerified": "2026-07-28",
+      "verdictDate": "2026-07-28",
+      "pricingVerified": "2026-07-28",
+      "pricingUrl": "https://felo.ai/pricing"
+    }
+  },
+  "fish-audio": {
+    "features": {
+      "en": [
+        "Voice cloning from just 10-30 seconds of reference audio, capturing timbre and style",
+        "S1/S2 model family delivers natural, emotionally expressive multilingual speech",
+        "Open-source roots: Fish Speech / OpenAudio models can be self-hosted for free",
+        "Voice Design lets paid users craft custom voices beyond simple cloning",
+        "Commercial use allowed on paid tiers, with professional voice slots",
+        "Pay-as-you-go developer API alongside the web studio"
+      ],
+      "zh": [
+        "仅需 10-30 秒参考音频即可克隆声音，还原音色与说话风格",
+        "S1/S2 模型系列输出自然、情感丰富的多语言语音",
+        "开源基因：Fish Speech / OpenAudio 模型可免费自部署",
+        "Voice Design 让付费用户在克隆之外自行设计音色",
+        "付费档允许商用，并提供专业声音位",
+        "网页工作台之外提供按量计费的开发者 API"
+      ],
+      "ja": [
+        "わずか10〜30秒の参照音声で声をクローンし、音色と話し方を再現",
+        "S1/S2モデルファミリーは自然で感情表現豊かな多言語音声を生成",
+        "オープンソースの出自：Fish Speech / OpenAudioモデルは無料でセルフホスト可能",
+        "Voice Designで有料ユーザーはクローンを超えたカスタム音声を設計可能",
+        "有料プランでは商用利用が可能、プロフェッショナル音声スロットも提供",
+        "Webスタジオに加え従量課金の開発者APIを用意"
+      ],
+      "es": [
+        "Clonación de voz con solo 10-30 segundos de audio de referencia, capturando timbre y estilo",
+        "La familia de modelos S1/S2 ofrece habla multilingüe natural y emocionalmente expresiva",
+        "Raíces de código abierto: los modelos Fish Speech / OpenAudio pueden autoalojarse gratis",
+        "Voice Design permite a los usuarios de pago crear voces personalizadas más allá del clonado",
+        "Uso comercial permitido en los niveles de pago, con huecos de voz profesional",
+        "API de desarrollador de pago por uso junto al estudio web"
+      ],
+      "fr": [
+        "Clonage vocal à partir de seulement 10-30 secondes d'audio de référence, capturant timbre et style",
+        "La famille de modèles S1/S2 offre une parole multilingue naturelle et émotionnellement expressive",
+        "Racines open source : les modèles Fish Speech / OpenAudio peuvent être auto-hébergés gratuitement",
+        "Voice Design permet aux abonnés de concevoir des voix personnalisées au-delà du simple clonage",
+        "Usage commercial autorisé sur les offres payantes, avec des emplacements de voix professionnels",
+        "API développeur à l'usage en plus du studio web"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "Free tier includes 8,000 credits monthly (about 7 minutes of generation), up to 500 characters per generation and 3 public voice slots — no credit card needed. Self-hosting the open-source models is free.",
+        "zh": "免费档每月 8000 积分（约 7 分钟生成额度），单次最多 500 字符，3 个公共声音位——无需信用卡。自部署开源模型则完全免费。",
+        "ja": "無料プランは月8,000クレジット（生成約7分ぶん）、1回あたり最大500文字、公開音声スロット3つ——クレジットカード不要。オープンソースモデルのセルフホストは無料。",
+        "es": "El nivel gratuito incluye 8,000 créditos al mes (unos 7 minutos de generación), hasta 500 caracteres por generación y 3 huecos de voz públicos, sin tarjeta. Autoalojar los modelos de código abierto es gratis.",
+        "fr": "L'offre gratuite inclut 8 000 crédits par mois (environ 7 minutes de génération), jusqu'à 500 caractères par génération et 3 emplacements de voix publics — sans carte bancaire. L'auto-hébergement des modèles open source est gratuit."
+      },
+      "paid": {
+        "en": "Plus is $15/month or $5.5/month billed annually ($66/year, 250K credits ≈ 200 minutes). Pro is $100/month or $37.5/month annually ($450/year, 2M credits ≈ 1,620 minutes, 3 team seats). Max is $999/month or $749/month annually (25M credits). Enterprise is custom, and the API bills pay-as-you-go. (Verified against the official pricing page, 2026-07-28.)",
+        "zh": "Plus 月付 $15 或年付折合 $5.5/月（$66/年，25 万积分约 200 分钟）；Pro 月付 $100 或年付折合 $37.5/月（$450/年，200 万积分约 1620 分钟，含 3 个团队席位）；Max 月付 $999 或年付折合 $749/月（2500 万积分）；Enterprise 定制，API 按量计费。（对照官方定价页核实，2026-07-28。）",
+        "ja": "Plusは月$15、年払いなら月換算$5.5（年$66、25万クレジット≈200分）。Proは月$100、年払いなら月換算$37.5（年$450、200万クレジット≈1,620分、チーム3席込み）。Maxは月$999、年払いなら月換算$749（2,500万クレジット）。Enterpriseはカスタム、APIは従量課金。（公式価格ページと照合、2026-07-28。）",
+        "es": "Plus cuesta $15/mes o $5.5/mes con pago anual ($66/año, 250K créditos ≈ 200 minutos). Pro cuesta $100/mes o $37.5/mes anual ($450/año, 2M créditos ≈ 1,620 minutos, 3 asientos de equipo). Max cuesta $999/mes o $749/mes anual (25M créditos). Enterprise es a medida y la API se factura por uso. (Verificado con la página oficial de precios, 2026-07-28.)",
+        "fr": "Plus coûte 15 $/mois ou 5,5 $/mois en facturation annuelle (66 $/an, 250 K crédits ≈ 200 minutes). Pro coûte 100 $/mois ou 37,5 $/mois en annuel (450 $/an, 2 M crédits ≈ 1 620 minutes, 3 sièges d'équipe). Max coûte 999 $/mois ou 749 $/mois en annuel (25 M crédits). Enterprise est sur mesure et l'API est facturée à l'usage. (Vérifié avec la page tarifaire officielle, 2026-07-28.)"
+      }
+    },
+    "useCases": {
+      "en": [
+        "Narrating videos, podcasts and audiobooks with a cloned or designed voice",
+        "Indie developers adding low-cost TTS to apps via API or self-hosted models",
+        "Localizing content into multiple languages with one consistent voice",
+        "Researchers and tinkerers running state-of-the-art open TTS locally"
+      ],
+      "zh": [
+        "用克隆或自设计的声音为视频、播客、有声书配音",
+        "独立开发者通过 API 或自部署模型为应用接入低成本 TTS",
+        "用同一个声音把内容本地化成多种语言",
+        "研究者与折腾党在本地跑最先进的开源 TTS"
+      ],
+      "ja": [
+        "クローンまたは設計した声で動画・ポッドキャスト・オーディオブックをナレーション",
+        "インディー開発者がAPIやセルフホストで低コストTTSをアプリに導入",
+        "1つの一貫した声でコンテンツを多言語にローカライズ",
+        "研究者やギークが最先端のオープンTTSをローカルで実行"
+      ],
+      "es": [
+        "Narrar videos, pódcasts y audiolibros con una voz clonada o diseñada",
+        "Desarrolladores indie que añaden TTS económico a sus apps vía API o modelos autoalojados",
+        "Localizar contenido a varios idiomas con una voz consistente",
+        "Investigadores y aficionados ejecutando TTS abierto de vanguardia en local"
+      ],
+      "fr": [
+        "Narration de vidéos, podcasts et livres audio avec une voix clonée ou conçue",
+        "Développeurs indés ajoutant une TTS économique à leurs apps via l'API ou les modèles auto-hébergés",
+        "Localiser du contenu en plusieurs langues avec une voix cohérente",
+        "Chercheurs et bidouilleurs exécutant une TTS open source de pointe en local"
+      ]
+    },
+    "pros": {
+      "en": [
+        "Price-per-minute among the lowest of any premium-quality TTS service",
+        "Open-source model family means zero lock-in — self-host anytime",
+        "Voice cloning quality from short samples rivals far pricier competitors",
+        "Generous annual discounts (Plus effectively $5.5/month)"
+      ],
+      "zh": [
+        "按分钟算的价格在高质量 TTS 服务里数一数二地低",
+        "开源模型系列意味着零锁定——随时可以自部署",
+        "短样本声音克隆质量可与贵得多的竞品抗衡",
+        "年付折扣大方（Plus 实际低至 $5.5/月）"
+      ],
+      "ja": [
+        "分あたり価格はプレミアム品質TTSサービスの中でも最安級",
+        "オープンソースのモデル群でロックインゼロ——いつでもセルフホスト可能",
+        "短いサンプルからの声クローン品質は、はるかに高額な競合に匹敵",
+        "年払い割引が大きい（Plusは実質月$5.5）"
+      ],
+      "es": [
+        "Precio por minuto entre los más bajos de los TTS de calidad premium",
+        "La familia de modelos de código abierto significa cero dependencia: autoaloja cuando quieras",
+        "La calidad del clonado de voz con muestras cortas rivaliza con competidores mucho más caros",
+        "Descuentos anuales generosos (Plus queda en $5.5/mes efectivos)"
+      ],
+      "fr": [
+        "Prix à la minute parmi les plus bas des services TTS de qualité premium",
+        "La famille de modèles open source signifie zéro verrouillage — auto-hébergez à tout moment",
+        "La qualité du clonage vocal à partir d'échantillons courts rivalise avec des concurrents bien plus chers",
+        "Remises annuelles généreuses (Plus revient à 5,5 $/mois)"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Free tier's ~7 minutes per month is only enough for light testing",
+        "Voice library and dubbing ecosystem is smaller than ElevenLabs'",
+        "Commercial use of cloned voices requires ownership verification and paid plans",
+        "Self-hosting the models demands a capable GPU and technical setup"
+      ],
+      "zh": [
+        "免费档每月约 7 分钟只够轻度测试",
+        "声音库与配音生态比 ElevenLabs 小",
+        "克隆声音商用需要所有权验证且必须付费档",
+        "自部署模型需要像样的 GPU 和技术功底"
+      ],
+      "ja": [
+        "無料枠の月約7分はライトなテストにしか足りない",
+        "音声ライブラリと吹き替えエコシステムはElevenLabsより小規模",
+        "クローン音声の商用利用には所有権確認と有料プランが必要",
+        "モデルのセルフホストには相応のGPUと技術的セットアップが必要"
+      ],
+      "es": [
+        "Los ~7 minutos mensuales del nivel gratuito solo alcanzan para pruebas ligeras",
+        "La biblioteca de voces y el ecosistema de doblaje son menores que los de ElevenLabs",
+        "El uso comercial de voces clonadas exige verificación de propiedad y planes de pago",
+        "Autoalojar los modelos requiere una GPU capaz y configuración técnica"
+      ],
+      "fr": [
+        "Les ~7 minutes mensuelles de l'offre gratuite ne suffisent qu'à des tests légers",
+        "La bibliothèque de voix et l'écosystème de doublage sont plus petits que ceux d'ElevenLabs",
+        "L'usage commercial des voix clonées exige une vérification de propriété et une offre payante",
+        "L'auto-hébergement des modèles demande un GPU sérieux et une installation technique"
+      ]
+    },
+    "latestUpdate": {
+      "en": "2026: The S2 generation sharpened voice cloning from 10-30 second samples while the open-source Fish Speech / OpenAudio line (including the self-hostable S1-mini) keeps topping community TTS benchmarks. Pricing now spans a free 8,000-credit tier through Plus ($15/mo), Pro ($100/mo) and Max ($999/mo), with steep annual discounts and a pay-as-you-go API.",
+      "zh": "2026 年：S2 一代把 10-30 秒样本的声音克隆又磨利了一层，开源的 Fish Speech / OpenAudio 系列（含可自部署的 S1-mini）持续霸榜社区 TTS 基准。定价从免费 8000 积分档到 Plus（$15/月）、Pro（$100/月）、Max（$999/月），年付折扣力度大，另有按量 API。",
+      "ja": "2026年：S2世代は10〜30秒サンプルからの声クローンをさらに研ぎ澄まし、オープンソースのFish Speech / OpenAudioライン（セルフホスト可能なS1-miniを含む）はコミュニティのTTSベンチマークで首位を守り続けている。価格は無料8,000クレジット枠からPlus（月$15）、Pro（月$100）、Max（月$999）まで。年払い割引が大きく、従量課金APIもある。",
+      "es": "2026: La generación S2 afinó el clonado de voz con muestras de 10-30 segundos mientras la línea de código abierto Fish Speech / OpenAudio (incluido el autoalojable S1-mini) sigue liderando los benchmarks comunitarios de TTS. Los precios van del nivel gratuito de 8,000 créditos a Plus ($15/mes), Pro ($100/mes) y Max ($999/mes), con grandes descuentos anuales y una API de pago por uso.",
+      "fr": "2026 : la génération S2 a affûté le clonage vocal à partir d'échantillons de 10-30 secondes, tandis que la gamme open source Fish Speech / OpenAudio (dont le S1-mini auto-hébergeable) continue de dominer les benchmarks TTS communautaires. Les tarifs vont de l'offre gratuite de 8 000 crédits à Plus (15 $/mois), Pro (100 $/mois) et Max (999 $/mois), avec de fortes remises annuelles et une API à l'usage."
+    },
+    "verdict": {
+      "badge": "Recommended",
+      "headline": {
+        "en": "Near-ElevenLabs quality at a fraction of the price — with an open-source escape hatch",
+        "zh": "接近 ElevenLabs 的质量、零头级的价格——还留了一扇开源逃生门",
+        "ja": "ElevenLabsに迫る品質を数分の一の価格で——オープンソースという逃げ道つき",
+        "es": "Calidad cercana a ElevenLabs por una fracción del precio, con salida de emergencia open source",
+        "fr": "Une qualité proche d'ElevenLabs pour une fraction du prix — avec une porte de sortie open source"
+      },
+      "body": {
+        "en": "Fish Audio attacks the TTS market from an angle the incumbents cannot easily copy: it open-sources its core models. The Fish Speech / OpenAudio line routinely tops community benchmarks, and the hosted platform wraps those models in a studio that clones a voice from 10-30 seconds of audio with startling fidelity. The economics are the headline — Plus at an effective $5.5/month buys around 200 minutes of generation, a fraction of what equivalent quality costs at ElevenLabs, and developers who outgrow the platform can simply self-host S1-mini for free. The trade-offs are the ecosystem, not the engine: the voice marketplace is thinner than ElevenLabs', dubbing and audio-native tooling is younger, and commercial voice cloning rightly requires ownership checks and a paid plan. The free tier's seven-ish minutes a month is a taste, not a meal. But for narrators, indie developers and anyone doing serious TTS volume on a budget, Fish Audio is currently the strongest price-performance play in AI voice — and the open-source escape hatch means you are never trapped.",
+        "zh": "Fish Audio 用一个巨头难以复制的角度进攻 TTS 市场：把核心模型开源。Fish Speech / OpenAudio 系列常年霸榜社区基准，而托管平台把这些模型包装成一个工作台——10-30 秒音频就能以惊人的还原度克隆声音。经济账是最大看点：Plus 年付实际 $5.5/月就能买到约 200 分钟生成额度，只是 ElevenLabs 同等质量的零头；平台不够用了，开发者还可以免费自部署 S1-mini。取舍在生态而非引擎：声音市场比 ElevenLabs 单薄，配音与音频原生工具链更年轻，克隆声音商用理所当然地需要所有权验证与付费档。免费档每月七分钟左右只是试吃，算不上正餐。但对旁白创作者、独立开发者以及任何要在预算内跑大量 TTS 的人来说，Fish Audio 是当前 AI 语音领域性价比最强的一手——开源逃生门还保证你永远不会被锁死。",
+        "ja": "Fish Audioは既存大手が簡単には真似できない角度からTTS市場を攻めている：コアモデルのオープンソース化だ。Fish Speech / OpenAudioラインはコミュニティベンチマークの常連首位で、ホスト版プラットフォームはそれらのモデルを、10〜30秒の音声から驚くほど忠実に声をクローンするスタジオに仕立てている。最大の見どころは経済性——年払いで実質月$5.5のPlusで約200分の生成が買え、ElevenLabsの同等品質の数分の一。プラットフォームが物足りなくなった開発者はS1-miniを無料でセルフホストすればいい。トレードオフはエンジンではなくエコシステムにある：音声マーケットプレイスはElevenLabsより薄く、吹き替えや音声ネイティブなツール群は若く、クローン音声の商用利用には当然ながら所有権確認と有料プランが要る。無料枠の月7分程度は味見であって食事ではない。しかしナレーター、インディー開発者、予算内で本格的なTTS量をこなしたい人にとって、Fish Audioは現在のAI音声で最強のコスパの一手だ——そしてオープンソースの逃げ道が、決して閉じ込められないことを保証してくれる。",
+        "es": "Fish Audio ataca el mercado TTS desde un ángulo que los incumbentes no pueden copiar fácilmente: libera sus modelos centrales como código abierto. La línea Fish Speech / OpenAudio encabeza habitualmente los benchmarks comunitarios, y la plataforma alojada envuelve esos modelos en un estudio que clona una voz con 10-30 segundos de audio con fidelidad sorprendente. La economía es el titular: Plus a $5.5/mes efectivos compra unos 200 minutos de generación, una fracción de lo que cuesta calidad equivalente en ElevenLabs, y los desarrolladores que se queden cortos pueden autoalojar S1-mini gratis. Las concesiones están en el ecosistema, no en el motor: el mercado de voces es más delgado que el de ElevenLabs, las herramientas de doblaje son más jóvenes, y el clonado comercial exige, con razón, verificación de propiedad y plan de pago. Los ~7 minutos mensuales gratis son una degustación, no una comida. Pero para narradores, desarrolladores indie y cualquiera que haga volumen serio de TTS con presupuesto, Fish Audio es hoy la mejor jugada precio-rendimiento en voz IA, y la salida open source garantiza que nunca quedes atrapado.",
+        "fr": "Fish Audio attaque le marché de la TTS sous un angle que les acteurs installés ne peuvent pas facilement copier : il publie ses modèles cœurs en open source. La gamme Fish Speech / OpenAudio truste les benchmarks communautaires, et la plateforme hébergée habille ces modèles d'un studio qui clone une voix à partir de 10-30 secondes d'audio avec une fidélité saisissante. L'économie est le grand titre — Plus à 5,5 $/mois effectifs offre environ 200 minutes de génération, une fraction du prix d'une qualité équivalente chez ElevenLabs, et les développeurs à l'étroit peuvent simplement auto-héberger S1-mini gratuitement. Les compromis tiennent à l'écosystème, pas au moteur : le marché de voix est plus mince que celui d'ElevenLabs, l'outillage de doublage est plus jeune, et le clonage commercial exige à juste titre vérification de propriété et offre payante. Les quelque sept minutes gratuites par mois sont une dégustation, pas un repas. Mais pour les narrateurs, développeurs indés et quiconque produit un volume sérieux de TTS avec un budget serré, Fish Audio est aujourd'hui le meilleur rapport qualité-prix de la voix IA — et la porte de sortie open source garantit de ne jamais être piégé."
+      },
+      "bestFor": {
+        "en": [
+          "Creators producing narration at volume on a tight budget",
+          "Developers wanting cheap TTS APIs or free self-hosted models",
+          "Open-source enthusiasts who refuse vendor lock-in"
+        ],
+        "zh": [
+          "预算紧张但配音量大的创作者",
+          "想要低价 TTS API 或免费自部署模型的开发者",
+          "拒绝供应商锁定的开源爱好者"
+        ],
+        "ja": [
+          "限られた予算で大量のナレーションを制作するクリエイター",
+          "安価なTTS APIか無料セルフホストモデルが欲しい開発者",
+          "ベンダーロックインを拒むオープンソース愛好家"
+        ],
+        "es": [
+          "Creadores que producen narración en volumen con presupuesto ajustado",
+          "Desarrolladores que quieren APIs de TTS baratas o modelos autoalojados gratis",
+          "Entusiastas del código abierto que rechazan la dependencia del proveedor"
+        ],
+        "fr": [
+          "Créateurs produisant de la narration en volume avec un budget serré",
+          "Développeurs voulant des API TTS bon marché ou des modèles auto-hébergés gratuits",
+          "Passionnés d'open source refusant le verrouillage fournisseur"
+        ]
+      },
+      "considerAlternatives": {
+        "en": [
+          "You need the biggest voice marketplace and dubbing ecosystem (→ ElevenLabs)",
+          "You want TTS bundled with a broader Chinese AI suite (→ MiniMax Audio)"
+        ],
+        "zh": [
+          "你需要最大的声音市场与配音生态（→ ElevenLabs）",
+          "你想要与更大的国产 AI 套件绑定的 TTS（→ MiniMax语音）"
+        ],
+        "ja": [
+          "最大級の音声マーケットプレイスと吹き替えエコシステムが必要（→ ElevenLabs）",
+          "より広い中国AIスイートと一体のTTSが欲しい（→ MiniMax Audio）"
+        ],
+        "es": [
+          "Necesitas el mayor mercado de voces y ecosistema de doblaje (→ ElevenLabs)",
+          "Quieres TTS integrado en una suite IA china más amplia (→ MiniMax Audio)"
+        ],
+        "fr": [
+          "Vous avez besoin du plus grand marché de voix et écosystème de doublage (→ ElevenLabs)",
+          "Vous voulez une TTS intégrée à une suite IA chinoise plus large (→ MiniMax Audio)"
+        ]
+      }
+    },
+    "meta": {
+      "lastVerified": "2026-07-28",
+      "verdictDate": "2026-07-28",
+      "pricingVerified": "2026-07-28",
+      "pricingUrl": "https://fish.audio/plan/"
+    }
+  },
+  "kagi": {
+    "features": {
+      "en": [
+        "100% user-funded search: no ads, no tracking, no attention economy",
+        "Personalized ranking — raise, lower or block any domain in your results",
+        "Lenses filter the web by scope: forums, academic, small web, programming and more",
+        "Kagi Assistant bundles flagship LLMs (Claude, GPT, Gemini) with live search grounding",
+        "Fair pricing policy: unused months are automatically credited back",
+        "Official iOS/Android apps, browser extensions and a paid Search API"
+      ],
+      "zh": [
+        "100% 用户付费驱动的搜索：没有广告、没有跟踪、没有注意力经济",
+        "个性化排序——可提升、降低或屏蔽结果中的任何域名",
+        "Lenses 透镜按范围过滤全网：论坛、学术、小众网站、编程等",
+        "Kagi Assistant 聚合旗舰大模型（Claude、GPT、Gemini）并以实时搜索作依据",
+        "公平定价政策：未使用的月份自动返还抵扣",
+        "官方 iOS/Android App、浏览器扩展与付费搜索 API"
+      ],
+      "ja": [
+        "100%ユーザー課金の検索：広告なし、トラッキングなし、注意経済なし",
+        "パーソナライズドランキング——任意のドメインを昇格・降格・ブロック可能",
+        "Lensesでウェブを範囲別にフィルタ：フォーラム、学術、スモールウェブ、プログラミングなど",
+        "Kagi AssistantはフラッグシップLLM（Claude、GPT、Gemini）をライブ検索と組み合わせて提供",
+        "フェアプライシング：未使用の月は自動でクレジット返還",
+        "公式iOS/Androidアプリ、ブラウザ拡張、有料検索API"
+      ],
+      "es": [
+        "Búsqueda 100% financiada por usuarios: sin anuncios, sin rastreo, sin economía de la atención",
+        "Clasificación personalizada: sube, baja o bloquea cualquier dominio en tus resultados",
+        "Las Lenses filtran la web por ámbito: foros, académico, web pequeña, programación y más",
+        "Kagi Assistant reúne LLM insignia (Claude, GPT, Gemini) con búsqueda en vivo como base",
+        "Política de precios justos: los meses sin uso se acreditan automáticamente",
+        "Apps oficiales iOS/Android, extensiones de navegador y una Search API de pago"
+      ],
+      "fr": [
+        "Recherche 100 % financée par les utilisateurs : pas de pub, pas de pistage, pas d'économie de l'attention",
+        "Classement personnalisé — montez, descendez ou bloquez n'importe quel domaine dans vos résultats",
+        "Les Lenses filtrent le web par périmètre : forums, académique, petit web, programmation et plus",
+        "Kagi Assistant réunit les LLM phares (Claude, GPT, Gemini) ancrés sur la recherche en direct",
+        "Politique de prix équitable : les mois non utilisés sont automatiquement crédités",
+        "Apps officielles iOS/Android, extensions navigateur et une Search API payante"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "Free trial with 100 searches and 100 Kagi Assistant interactions — enough to feel the difference, but there is no permanent free tier.",
+        "zh": "免费试用含 100 次搜索与 100 次 Kagi Assistant 交互——足够体会差异，但没有永久免费档。",
+        "ja": "無料トライアルは検索100回とKagi Assistantとのやり取り100回——違いを体感するには十分だが、恒久的な無料枠はない。",
+        "es": "Prueba gratuita con 100 búsquedas y 100 interacciones con Kagi Assistant, suficiente para notar la diferencia, pero no hay plan gratuito permanente.",
+        "fr": "Essai gratuit avec 100 recherches et 100 interactions Kagi Assistant — assez pour sentir la différence, mais il n'existe pas d'offre gratuite permanente."
+      },
+      "paid": {
+        "en": "Starter $5/month (300 searches), Professional $10/month (unlimited searches + Assistant quick mode), Ultimate $25/month (Assistant research mode with flagship models like Claude, GPT and Gemini). Annual billing takes 10% off, and unused months are credited back under fair pricing. (Verified against the official pricing page, 2026-07-28.)",
+        "zh": "Starter $5/月（300 次搜索）；Professional $10/月（无限搜索 + Assistant 快速模式）；Ultimate $25/月（Assistant 研究模式，含 Claude、GPT、Gemini 等旗舰模型）。年付九折，未使用月份按公平定价返还。（对照官方定价页核实，2026-07-28。）",
+        "ja": "Starterは月$5（検索300回）、Professionalは月$10（検索無制限＋Assistantクイックモード）、Ultimateは月$25（Claude、GPT、Geminiなどフラッグシップモデル対応のAssistantリサーチモード）。年払いで10%オフ、未使用月はフェアプライシングでクレジット返還。（公式価格ページと照合、2026-07-28。）",
+        "es": "Starter $5/mes (300 búsquedas), Professional $10/mes (búsquedas ilimitadas + modo rápido del Assistant), Ultimate $25/mes (modo investigación del Assistant con modelos insignia como Claude, GPT y Gemini). La facturación anual descuenta 10% y los meses sin uso se acreditan por la política de precios justos. (Verificado con la página oficial de precios, 2026-07-28.)",
+        "fr": "Starter à 5 $/mois (300 recherches), Professional à 10 $/mois (recherches illimitées + mode rapide de l'Assistant), Ultimate à 25 $/mois (mode recherche de l'Assistant avec les modèles phares Claude, GPT et Gemini). La facturation annuelle offre 10 % de remise, et les mois non utilisés sont crédités selon la politique de prix équitable. (Vérifié avec la page tarifaire officielle, 2026-07-28.)"
+      }
+    },
+    "useCases": {
+      "en": [
+        "Daily driver search for privacy-conscious professionals and developers",
+        "Cutting SEO spam and content farms out of technical research",
+        "One subscription covering both premium search and flagship LLM access",
+        "Personalizing the web: boosting trusted domains, banning junk ones forever"
+      ],
+      "zh": [
+        "注重隐私的专业人士与开发者的日常主力搜索",
+        "把 SEO 垃圾与内容农场从技术检索中剔除",
+        "一份订阅同时覆盖高端搜索与旗舰大模型使用",
+        "个性化互联网：永久提升信任域名、封禁垃圾站点"
+      ],
+      "ja": [
+        "プライバシー重視のプロフェッショナルと開発者の日常メイン検索",
+        "技術リサーチからSEOスパムとコンテンツファームを排除",
+        "1つのサブスクでプレミアム検索とフラッグシップLLMの両方をカバー",
+        "ウェブのパーソナライズ：信頼ドメインを昇格、ジャンクサイトを永久ブロック"
+      ],
+      "es": [
+        "Buscador principal diario para profesionales y desarrolladores conscientes de la privacidad",
+        "Eliminar el spam SEO y las granjas de contenido de la investigación técnica",
+        "Una sola suscripción que cubre búsqueda premium y acceso a LLM insignia",
+        "Personalizar la web: impulsar dominios de confianza y vetar los basura para siempre"
+      ],
+      "fr": [
+        "Moteur principal quotidien pour les professionnels et développeurs soucieux de la vie privée",
+        "Éliminer le spam SEO et les fermes de contenu de la recherche technique",
+        "Un seul abonnement couvrant la recherche premium et l'accès aux LLM phares",
+        "Personnaliser le web : booster les domaines de confiance, bannir les sites poubelles à jamais"
+      ]
+    },
+    "pros": {
+      "en": [
+        "Result quality on technical queries routinely beats ad-funded engines",
+        "Domain ranking and Lenses give users control no mainstream engine offers",
+        "Ultimate plan doubles as a multi-LLM subscription at a competitive price",
+        "Fair pricing credits unused months — genuinely user-aligned economics"
+      ],
+      "zh": [
+        "技术类查询的结果质量常常胜过广告驱动的引擎",
+        "域名排序与 Lenses 给了用户主流引擎从不提供的控制权",
+        "Ultimate 套餐兼作多模型订阅，价格有竞争力",
+        "公平定价对未使用月份返还——经济模型真正与用户对齐"
+      ],
+      "ja": [
+        "技術系クエリの結果品質は広告収益型エンジンをしばしば上回る",
+        "ドメインランキングとLensesは主流エンジンにはないコントロールを提供",
+        "UltimateプランはマルチLLMサブスクとしても競争力のある価格",
+        "フェアプライシングで未使用月をクレジット返還——真にユーザー本位の経済設計"
+      ],
+      "es": [
+        "La calidad de resultados en consultas técnicas supera habitualmente a los motores con anuncios",
+        "La clasificación de dominios y las Lenses dan un control que ningún motor mayoritario ofrece",
+        "El plan Ultimate funciona también como suscripción multi-LLM a precio competitivo",
+        "Los precios justos acreditan los meses sin uso: economía genuinamente alineada con el usuario"
+      ],
+      "fr": [
+        "La qualité des résultats sur les requêtes techniques dépasse régulièrement les moteurs financés par la pub",
+        "Le classement de domaines et les Lenses offrent un contrôle qu'aucun moteur grand public ne propose",
+        "Le forfait Ultimate fait aussi office d'abonnement multi-LLM à prix compétitif",
+        "Le prix équitable crédite les mois non utilisés — une économie réellement alignée sur l'utilisateur"
+      ]
+    },
+    "cons": {
+      "en": [
+        "No permanent free tier — the 100-search trial is all you get before paying",
+        "$10/month for unlimited search is a hard sell against free incumbents",
+        "Non-English and local/regional results can lag Google's depth",
+        "Cannot be set as the native default engine on some mobile platforms without workarounds"
+      ],
+      "zh": [
+        "没有永久免费档——付费前只有 100 次搜索试用",
+        "$10/月的无限搜索面对免费巨头是道心理关",
+        "非英文与本地/区域性结果的深度可能不及 Google",
+        "部分移动平台无法直接设为系统默认引擎，需要变通方案"
+      ],
+      "ja": [
+        "恒久的な無料枠はなし——支払い前に使えるのは100回の検索トライアルのみ",
+        "無制限検索に月$10は無料の既存勢を前にすると心理的ハードル",
+        "非英語やローカル・地域系の結果はGoogleの深さに劣ることがある",
+        "一部のモバイルプラットフォームでは回避策なしにネイティブ既定エンジンへ設定できない"
+      ],
+      "es": [
+        "Sin plan gratuito permanente: la prueba de 100 búsquedas es todo antes de pagar",
+        "$10/mes por búsqueda ilimitada cuesta de justificar frente a los gigantes gratuitos",
+        "Los resultados no ingleses y locales/regionales pueden quedar por detrás de Google",
+        "No puede fijarse como motor predeterminado nativo en algunas plataformas móviles sin rodeos"
+      ],
+      "fr": [
+        "Pas d'offre gratuite permanente — l'essai de 100 recherches est tout ce qu'on a avant de payer",
+        "10 $/mois pour la recherche illimitée reste difficile à vendre face aux géants gratuits",
+        "Les résultats non anglophones et locaux/régionaux peuvent être moins profonds que Google",
+        "Impossible d'en faire le moteur par défaut natif sur certaines plateformes mobiles sans contournement"
+      ]
+    },
+    "latestUpdate": {
+      "en": "2026: Kagi keeps doubling down on its user-funded model — the Assistant now spans the flagship model lineup (Claude, GPT, Gemini, DeepSeek and more) with a research mode on Ultimate, official mobile apps have matured on both platforms, and the fair pricing policy automatically credits unused months. Plans run $5/$10/$25 per month with 10% off annually.",
+      "zh": "2026 年：Kagi 持续加注用户付费模式——Assistant 已覆盖旗舰模型阵容（Claude、GPT、Gemini、DeepSeek 等），Ultimate 档配研究模式；双平台官方移动 App 已经成熟；公平定价政策对未使用月份自动返还。套餐 $5/$10/$25 每月，年付九折。",
+      "ja": "2026年：Kagiはユーザー課金モデルへの注力を続けている——AssistantはフラッグシップモデルGroup（Claude、GPT、Gemini、DeepSeekなど）を網羅し、Ultimateにはリサーチモードを搭載。両プラットフォームの公式モバイルアプリも成熟し、フェアプライシングは未使用月を自動でクレジット返還する。プランは月$5/$10/$25で年払い10%オフ。",
+      "es": "2026: Kagi sigue apostando por su modelo financiado por usuarios: el Assistant abarca ya la línea de modelos insignia (Claude, GPT, Gemini, DeepSeek y más) con modo investigación en Ultimate, las apps móviles oficiales han madurado en ambas plataformas y la política de precios justos acredita automáticamente los meses sin uso. Los planes cuestan $5/$10/$25 al mes con 10% de descuento anual.",
+      "fr": "2026 : Kagi persiste dans son modèle financé par les utilisateurs — l'Assistant couvre désormais la gamme des modèles phares (Claude, GPT, Gemini, DeepSeek et plus) avec un mode recherche sur Ultimate, les apps mobiles officielles ont mûri sur les deux plateformes, et la politique de prix équitable crédite automatiquement les mois non utilisés. Les forfaits vont de 5 $/10 $/25 $ par mois avec 10 % de remise annuelle."
+    },
+    "verdict": {
+      "badge": "Recommended",
+      "headline": {
+        "en": "The search engine you pay for — so nobody else pays for your attention",
+        "zh": "一款你花钱买的搜索引擎——这样就没人能买走你的注意力",
+        "ja": "あなたがお金を払う検索エンジン——だから誰もあなたの注意を買えない",
+        "es": "El buscador que pagas tú, para que nadie más pague por tu atención",
+        "fr": "Le moteur de recherche que vous payez — pour que personne d'autre n'achète votre attention"
+      },
+      "body": {
+        "en": "Kagi's premise sounds almost quaint: what if a search engine worked for the person searching, instead of the advertisers bidding on them? In practice the difference is immediate. Results on technical queries are cleaner, SEO sludge is demoted or gone, and the two signature powers — ranking domains up or down forever, and Lenses that scope searches to forums, academic sources or the small web — make the open web feel curated by you. The Ultimate tier quietly doubles as one of the better LLM deals around, wrapping Claude, GPT and Gemini into an Assistant grounded in live search. The friction is honest: there is no permanent free tier, $10/month buys what Google gives away, and non-English or hyper-local results can still trail the incumbent. That makes Kagi a deliberate purchase, not an impulse switch. But among the professionals who try it — especially developers drowning in content-farm answers — an unusually large share never go back. Few products in this directory inspire that kind of loyalty.",
+        "zh": "Kagi 的前提听上去几乎有些天真：如果搜索引擎为搜索的人服务，而不是为竞价买他们注意力的广告主服务，会怎样？实际用起来，差别立竿见影。技术类查询的结果更干净，SEO 淤泥被降权或清除；两大招牌能力——永久升降任意域名的排序，以及把搜索限定在论坛、学术或小众网站的 Lenses——让开放互联网变成由你亲自策展的样子。Ultimate 档还悄悄兼任市面上颇划算的大模型订阅之一，把 Claude、GPT、Gemini 打包进一个以实时搜索为依据的 Assistant。摩擦点也很诚实：没有永久免费档，$10/月买的是 Google 免费送的东西，非英文和本地化结果有时仍逊于巨头。所以 Kagi 是一次深思熟虑的购买，不是一时冲动的切换。但在试过它的专业人士中——尤其是被内容农场答案淹没的开发者——不再回头的比例高得反常。这个目录里很少有产品能激发那种忠诚度。",
+        "ja": "Kagiの前提はほとんど素朴に聞こえる：検索エンジンが、注意を入札する広告主ではなく、検索する本人のために働いたらどうなるか？実際に使えば違いはすぐ分かる。技術系クエリの結果はよりクリーンで、SEOの汚泥は降格または排除され、2つの看板機能——任意のドメインを永久に昇降できるランキングと、検索をフォーラム・学術・スモールウェブに絞るLenses——がオープンウェブを自分の手でキュレーションした場所に変える。Ultimateプランは、Claude、GPT、Geminiをライブ検索に基づくAssistantに束ねた、市場でも有数のお得なLLMサブスクを静かに兼ねている。摩擦も正直だ：恒久無料枠はなく、月$10で買うのはGoogleが無料で配るものであり、非英語や超ローカルな結果はまだ既存王者に劣ることがある。だからKagiは衝動的な乗り換えではなく、熟慮の上の購入だ。しかし試したプロフェッショナルの中で——特にコンテンツファームの回答に溺れる開発者の間で——戻らない人の割合は異常に高い。このディレクトリでその種の忠誠心を生む製品は少ない。",
+        "es": "La premisa de Kagi suena casi ingenua: ¿y si un buscador trabajara para quien busca, en lugar de para los anunciantes que pujan por su atención? En la práctica, la diferencia es inmediata. Los resultados en consultas técnicas son más limpios, el lodo SEO queda degradado o desaparece, y los dos poderes distintivos —subir o bajar dominios para siempre, y las Lenses que acotan la búsqueda a foros, fuentes académicas o la web pequeña— hacen que la web abierta se sienta curada por ti. El nivel Ultimate funciona además como una de las mejores ofertas de LLM del mercado, envolviendo Claude, GPT y Gemini en un Assistant anclado en búsqueda en vivo. La fricción es honesta: no hay plan gratuito permanente, $10/mes compran lo que Google regala, y los resultados no ingleses o hiperlocales aún pueden ir detrás del incumbente. Eso convierte a Kagi en una compra deliberada, no un cambio impulsivo. Pero entre los profesionales que lo prueban —sobre todo desarrolladores ahogados en respuestas de granjas de contenido— una proporción inusualmente alta no vuelve atrás. Pocos productos de este directorio inspiran esa lealtad.",
+        "fr": "Le postulat de Kagi semble presque candide : et si un moteur de recherche travaillait pour la personne qui cherche, plutôt que pour les annonceurs qui enchérissent sur son attention ? À l'usage, la différence est immédiate. Les résultats des requêtes techniques sont plus propres, la boue SEO est rétrogradée ou éliminée, et les deux pouvoirs signature — classer les domaines à la hausse ou à la baisse pour toujours, et les Lenses qui restreignent la recherche aux forums, aux sources académiques ou au petit web — donnent l'impression d'un web ouvert curaté par vous. Le forfait Ultimate fait discrètement office de l'un des meilleurs deals LLM du moment, réunissant Claude, GPT et Gemini dans un Assistant ancré sur la recherche en direct. La friction est honnête : pas d'offre gratuite permanente, 10 $/mois achètent ce que Google donne gratuitement, et les résultats non anglophones ou hyper-locaux peuvent encore être en retrait. Kagi est donc un achat réfléchi, pas un changement impulsif. Mais parmi les professionnels qui l'essaient — surtout les développeurs noyés dans les réponses de fermes de contenu — une part inhabituellement grande ne revient jamais en arrière. Peu de produits de ce répertoire inspirent une telle fidélité."
+      },
+      "bestFor": {
+        "en": [
+          "Developers and professionals who search dozens of times a day and value clean results",
+          "Privacy-focused users who want zero ads and zero tracking, and will pay for it",
+          "Power users wanting one subscription for both premium search and flagship LLMs"
+        ],
+        "zh": [
+          "每天搜索几十次、看重干净结果的开发者与专业人士",
+          "想要零广告零跟踪并愿意为此付费的隐私优先用户",
+          "想用一份订阅同时搞定高端搜索与旗舰大模型的重度用户"
+        ],
+        "ja": [
+          "1日に何十回も検索し、クリーンな結果を重視する開発者・プロフェッショナル",
+          "広告ゼロ・トラッキングゼロに対価を払う覚悟のあるプライバシー重視ユーザー",
+          "プレミアム検索とフラッグシップLLMを1つのサブスクで済ませたいパワーユーザー"
+        ],
+        "es": [
+          "Desarrolladores y profesionales que buscan decenas de veces al día y valoran resultados limpios",
+          "Usuarios centrados en la privacidad que quieren cero anuncios y cero rastreo, y pagarán por ello",
+          "Usuarios avanzados que quieren una sola suscripción para búsqueda premium y LLM insignia"
+        ],
+        "fr": [
+          "Développeurs et professionnels qui cherchent des dizaines de fois par jour et tiennent aux résultats propres",
+          "Utilisateurs attachés à la vie privée voulant zéro pub et zéro pistage, prêts à payer pour cela",
+          "Power users voulant un seul abonnement pour la recherche premium et les LLM phares"
+        ]
+      },
+      "considerAlternatives": {
+        "en": [
+          "You want conversational AI answers rather than classic ranked results (→ Perplexity)",
+          "You will not pay for search and need a free daily driver (→ Felo / Perplexity free tiers)"
+        ],
+        "zh": [
+          "你想要对话式 AI 答案而非经典的排序结果（→ Perplexity）",
+          "你不打算为搜索付费、需要免费主力工具（→ Felo / Perplexity 免费档）"
+        ],
+        "ja": [
+          "従来型のランキング結果より対話型AI回答が欲しい（→ Perplexity）",
+          "検索にお金は払わず無料のメイン検索が必要（→ Felo / Perplexityの無料枠）"
+        ],
+        "es": [
+          "Quieres respuestas conversacionales de IA en vez de resultados clasificados clásicos (→ Perplexity)",
+          "No pagarás por buscar y necesitas una opción gratuita diaria (→ niveles gratis de Felo / Perplexity)"
+        ],
+        "fr": [
+          "Vous voulez des réponses IA conversationnelles plutôt que des résultats classés classiques (→ Perplexity)",
+          "Vous ne paierez pas pour chercher et avez besoin d'un outil gratuit au quotidien (→ offres gratuites de Felo / Perplexity)"
+        ]
+      }
+    },
+    "meta": {
+      "lastVerified": "2026-07-28",
+      "verdictDate": "2026-07-28",
+      "pricingVerified": "2026-07-28",
+      "pricingUrl": "https://kagi.com/pricing"
+    }
+  },
+  "metaso": {
+    "features": {
+      "en": [
+        "Ad-free AI search that answers directly with cited sources — no link farms",
+        "Auto-generates outlines, mind maps, timelines and related people for every query",
+        "Academic search mode digs into scholarly papers and Chinese journal databases",
+        "Deep research mode produces structured long-form reports on complex topics",
+        "iOS and Android apps alongside the web version, with cloud knowledge base support",
+        "Open search API priced at ¥0.03 per query — a drop-in Bing Search API alternative"
+      ],
+      "zh": [
+        "无广告 AI 搜索，直接给出带引用来源的答案——没有链接农场",
+        "每次搜索自动生成大纲、思维导图、时间线与相关人物",
+        "学术搜索模式深入学术论文与中文期刊数据库",
+        "深入研究模式可就复杂议题产出结构化长篇报告",
+        "网页版之外提供 iOS 与 Android App，支持云端知识库",
+        "开放搜索 API，每次查询 ¥0.03——Bing Search API 下线后的替代选择"
+      ],
+      "ja": [
+        "広告なしのAI検索。引用元付きで直接回答——リンク集は表示しない",
+        "検索ごとにアウトライン、マインドマップ、タイムライン、関連人物を自動生成",
+        "学術検索モードは学術論文や中国語ジャーナルデータベースを深掘り",
+        "ディープリサーチモードで複雑なテーマの構造化された長文レポートを生成",
+        "Web版に加えiOS・Androidアプリを提供、クラウド知識ベースにも対応",
+        "検索APIを公開、1クエリ¥0.03——Bing Search APIの代替として使える"
+      ],
+      "es": [
+        "Búsqueda IA sin anuncios que responde directamente con fuentes citadas, sin granjas de enlaces",
+        "Genera automáticamente esquemas, mapas mentales, cronologías y personas relacionadas en cada consulta",
+        "El modo de búsqueda académica explora artículos científicos y bases de revistas chinas",
+        "El modo de investigación profunda produce informes largos y estructurados sobre temas complejos",
+        "Apps para iOS y Android junto a la versión web, con base de conocimiento en la nube",
+        "API de búsqueda abierta a ¥0.03 por consulta, una alternativa directa a la Bing Search API"
+      ],
+      "fr": [
+        "Recherche IA sans publicité qui répond directement avec des sources citées — pas de fermes de liens",
+        "Génère automatiquement plans, cartes mentales, chronologies et personnes liées à chaque requête",
+        "Le mode recherche académique explore les articles scientifiques et les bases de revues chinoises",
+        "Le mode recherche approfondie produit des rapports longs et structurés sur des sujets complexes",
+        "Apps iOS et Android en plus de la version web, avec base de connaissances cloud",
+        "API de recherche ouverte à 0,03 ¥ par requête — une alternative directe à la Bing Search API"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "Core AI search is free and ad-free with a daily allowance of basic searches; advanced modes and heavy research consume member credits.",
+        "zh": "核心 AI 搜索免费且无广告，每日有基础搜索额度；高级模式与重度研究会消耗会员积分。",
+        "ja": "コアのAI検索は無料かつ広告なしで、基本検索の1日あたりの利用枠がある。高度なモードや本格的なリサーチは会員クレジットを消費する。",
+        "es": "La búsqueda IA básica es gratuita y sin anuncios con una asignación diaria; los modos avanzados y la investigación intensiva consumen créditos de miembro.",
+        "fr": "La recherche IA de base est gratuite et sans publicité avec une allocation quotidienne ; les modes avancés et la recherche intensive consomment des crédits membres."
+      },
+      "paid": {
+        "en": "Membership unlocks advanced/long-thinking modes and higher quotas; on the US App Store the monthly membership lists at $5.99 and the annual at $29.99, with credit packs sold separately (mainland pricing is in RMB via the official site). The search API costs ¥0.03 per query. (Verified against the official site and App Store listing, 2026-07-28.)",
+        "zh": "会员解锁高级/长思考模式与更高额度；美区 App Store 标价月度会员 $5.99、年度会员 $29.99，另售积分包（国内以人民币计价，以官网为准）。搜索 API 每次查询 ¥0.03。（对照官网与 App Store 商品页核实，2026-07-28。）",
+        "ja": "会員になると高度モード・ロングシンキングモードとより高い利用枠が解放される。米国App Storeでは月額$5.99、年額$29.99で、クレジットパックは別売り（中国本土は公式サイトで人民元建て）。検索APIは1クエリ¥0.03。（公式サイトとApp Storeの表示と照合、2026-07-28。）",
+        "es": "La membresía desbloquea modos avanzados y cuotas mayores; en la App Store de EE. UU. la membresía mensual figura a $5.99 y la anual a $29.99, con packs de créditos aparte (en China continental se cobra en RMB vía web oficial). La API de búsqueda cuesta ¥0.03 por consulta. (Verificado con el sitio oficial y la App Store, 2026-07-28.)",
+        "fr": "L'abonnement débloque les modes avancés/réflexion longue et des quotas supérieurs ; sur l'App Store américain, l'abonnement mensuel est affiché à 5,99 $ et l'annuel à 29,99 $, avec des packs de crédits vendus séparément (tarification en RMB via le site officiel en Chine). L'API de recherche coûte 0,03 ¥ par requête. (Vérifié avec le site officiel et l'App Store, 2026-07-28.)"
+      }
+    },
+    "useCases": {
+      "en": [
+        "Chinese-language research where Baidu's ad-heavy results waste your time",
+        "Students and academics mining papers via the academic search mode",
+        "Turning a vague topic into an outline and mind map in one query",
+        "Developers needing an affordable Chinese-index search API"
+      ],
+      "zh": [
+        "中文资料检索——不想再被百度的广告结果浪费时间",
+        "学生与研究者用学术搜索模式挖掘论文",
+        "一次搜索就把模糊议题变成大纲和思维导图",
+        "需要低价中文索引搜索 API 的开发者"
+      ],
+      "ja": [
+        "広告だらけの検索結果に時間を奪われたくない中国語リサーチ",
+        "学術検索モードで論文を掘り下げる学生・研究者",
+        "曖昧なテーマを1回の検索でアウトラインとマインドマップに変換",
+        "手頃な中国語インデックス検索APIが必要な開発者"
+      ],
+      "es": [
+        "Investigación en chino cuando los resultados llenos de anuncios de Baidu hacen perder tiempo",
+        "Estudiantes y académicos explorando artículos con el modo de búsqueda académica",
+        "Convertir un tema difuso en esquema y mapa mental con una sola consulta",
+        "Desarrolladores que necesitan una API de búsqueda de índice chino asequible"
+      ],
+      "fr": [
+        "Recherche en chinois quand les résultats saturés de pub de Baidu font perdre du temps",
+        "Étudiants et universitaires exploitant les articles via le mode recherche académique",
+        "Transformer un sujet flou en plan et carte mentale en une seule requête",
+        "Développeurs ayant besoin d'une API de recherche à index chinois abordable"
+      ]
+    },
+    "pros": {
+      "en": [
+        "Genuinely ad-free with direct, citation-backed answers — a rarity in Chinese search",
+        "Outline, mind map and timeline generation turns search into structured research",
+        "Academic mode is unusually strong for Chinese scholarly sources",
+        "Search API at ¥0.03/query is one of the cheapest ways to tap a Chinese index"
+      ],
+      "zh": [
+        "真正无广告、带引用直达答案——在中文搜索里实属稀缺",
+        "大纲、思维导图与时间线生成把搜索升级成结构化研究",
+        "学术模式对中文学术资源的覆盖尤其突出",
+        "¥0.03/次的搜索 API 是接入中文索引最便宜的方式之一"
+      ],
+      "ja": [
+        "本当に広告なしで、引用付きの直接回答——中国語検索では希少",
+        "アウトライン・マインドマップ・タイムライン生成で検索が構造化リサーチに",
+        "学術モードは中国語学術ソースへの対応が特に強力",
+        "1クエリ¥0.03の検索APIは中国語インデックス活用の最安級手段"
+      ],
+      "es": [
+        "Realmente sin anuncios y con respuestas directas citadas, una rareza en la búsqueda china",
+        "La generación de esquemas, mapas mentales y cronologías convierte la búsqueda en investigación estructurada",
+        "El modo académico es inusualmente fuerte en fuentes académicas chinas",
+        "La API a ¥0.03/consulta es de las formas más baratas de acceder a un índice chino"
+      ],
+      "fr": [
+        "Véritablement sans publicité, avec des réponses directes et sourcées — une rareté dans la recherche chinoise",
+        "La génération de plans, cartes mentales et chronologies transforme la recherche en étude structurée",
+        "Le mode académique est particulièrement solide sur les sources savantes chinoises",
+        "L'API à 0,03 ¥/requête est l'un des moyens les moins chers d'exploiter un index chinois"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Strongest on Chinese-language sources; English coverage trails Perplexity",
+        "Deep research and advanced modes burn through member credits quickly",
+        "Long-thinking and premium models sit behind the membership paywall",
+        "Like all AI search, citations still need spot-checking for hallucinated claims"
+      ],
+      "zh": [
+        "强项在中文信息源，英文覆盖不及 Perplexity",
+        "深入研究与高级模式消耗会员积分较快",
+        "长思考与高级模型在会员付费墙之后",
+        "与所有 AI 搜索一样，引用仍需抽查以防幻觉"
+      ],
+      "ja": [
+        "強みは中国語ソースで、英語のカバレッジはPerplexityに及ばない",
+        "ディープリサーチや高度モードは会員クレジットの消費が速い",
+        "ロングシンキングと上位モデルは会員の有料壁の向こう側",
+        "他のAI検索と同様、引用は幻覚がないか抜き取り確認が必要"
+      ],
+      "es": [
+        "Más fuerte en fuentes en chino; la cobertura en inglés va por detrás de Perplexity",
+        "La investigación profunda y los modos avanzados consumen créditos rápidamente",
+        "El modo de pensamiento largo y los modelos premium están tras el muro de pago",
+        "Como toda búsqueda IA, las citas requieren verificación puntual contra alucinaciones"
+      ],
+      "fr": [
+        "Plus fort sur les sources en chinois ; la couverture anglaise reste derrière Perplexity",
+        "La recherche approfondie et les modes avancés consomment vite les crédits membres",
+        "La réflexion longue et les modèles premium sont derrière le paywall de l'abonnement",
+        "Comme toute recherche IA, les citations demandent des vérifications ponctuelles contre les hallucinations"
+      ]
+    },
+    "latestUpdate": {
+      "en": "2026: Metaso has expanded from pure AI search into a research workbench — deep research reports, academic search, cloud knowledge bases and report templates for business analysis. Its self-built multilingual index now powers an open search API at ¥0.03 per query, positioned as a successor to the retired Bing Search API for Chinese developers.",
+      "zh": "2026 年：秘塔从纯 AI 搜索扩展为研究工作台——深入研究报告、学术搜索、云端知识库与面向商业分析的报告模板。其自建的多语言索引库现已支撑开放搜索 API（¥0.03/次），定位为 Bing Search API 下线后中文开发者的接棒选择。",
+      "ja": "2026年：秘塔は純粋なAI検索からリサーチワークベンチへ拡張——ディープリサーチレポート、学術検索、クラウド知識ベース、ビジネス分析向けレポートテンプレートを提供。自社構築の多言語インデックスは1クエリ¥0.03のオープン検索APIを支え、Bing Search API終了後の中国開発者向け後継として位置づけられている。",
+      "es": "2026: Metaso ha pasado de la búsqueda IA pura a un banco de trabajo de investigación: informes de investigación profunda, búsqueda académica, bases de conocimiento en la nube y plantillas de informes para análisis de negocio. Su índice multilingüe propio impulsa una API de búsqueda abierta a ¥0.03 por consulta, posicionada como sucesora de la retirada Bing Search API para desarrolladores chinos.",
+      "fr": "2026 : Metaso est passé de la recherche IA pure à un atelier de recherche — rapports de recherche approfondie, recherche académique, bases de connaissances cloud et modèles de rapports pour l'analyse business. Son index multilingue maison alimente une API de recherche ouverte à 0,03 ¥ par requête, positionnée comme successeur de la Bing Search API retirée pour les développeurs chinois."
+    },
+    "verdict": {
+      "badge": "Recommended",
+      "headline": {
+        "en": "China's sharpest AI search — built for research, not link-clicking",
+        "zh": "国内最锋利的 AI 搜索——为研究而生，不是为点链接",
+        "ja": "中国で最も切れ味鋭いAI検索——リンクを踏むためではなく、リサーチのために",
+        "es": "La búsqueda IA más afilada de China, hecha para investigar, no para clicar enlaces",
+        "fr": "La recherche IA la plus affûtée de Chine — conçue pour la recherche, pas pour cliquer des liens"
+      },
+      "body": {
+        "en": "Metaso answered a question Chinese users had been asking for years: what would search look like without ads? Its results page is a small revelation — a direct, citation-backed answer flanked by an auto-generated outline, mind map and timeline, so a single query lands you halfway into structured research. The academic mode is the sleeper hit, reaching into Chinese journal databases that Western AI search barely touches, and the deep research mode turns complex topics into long-form reports. The ¥0.03-per-query API quietly became infrastructure for developers left stranded by Bing's API retirement. The honest limits: English-language coverage trails Perplexity, heavy research chews through member credits, and the best models sit behind a modest membership fee. But for anyone whose work lives even partly in Chinese sources — students, analysts, developers — Metaso is the strongest argument yet that AI search can respect both your time and your intelligence.",
+        "zh": "秘塔回答了中国用户多年来的一个疑问：没有广告的搜索长什么样？它的结果页堪称小小的启示——一条带引用的直达答案，旁边是自动生成的大纲、思维导图与时间线，一次搜索就把你送到结构化研究的半途。学术模式是隐藏王牌，深入西方 AI 搜索几乎不触及的中文期刊数据库；深入研究模式则把复杂议题变成长篇报告。¥0.03/次的 API 悄然成为 Bing API 下线后开发者的基础设施。诚实的边界：英文覆盖不及 Perplexity，重度研究消耗会员积分较快，最好的模型在不算贵的会员墙后。但只要你的工作有一部分依赖中文信息源——学生、分析师、开发者——秘塔就是「AI 搜索可以同时尊重你的时间和智商」迄今最有力的证明。",
+        "ja": "秘塔は中国のユーザーが長年抱いてきた疑問に答えた：広告のない検索とはどんなものか？その結果ページはちょっとした啓示だ——引用付きの直接回答の横に、自動生成されたアウトライン、マインドマップ、タイムラインが並び、1回の検索で構造化リサーチの半分まで到達できる。学術モードは隠れた切り札で、欧米のAI検索がほぼ触れない中国語ジャーナルデータベースまで踏み込む。ディープリサーチモードは複雑なテーマを長文レポートに変える。1クエリ¥0.03のAPIは、Bing API終了で行き場を失った開発者のインフラに静かになった。正直な限界：英語カバレッジはPerplexityに及ばず、本格的なリサーチは会員クレジットを速く消費し、最良のモデルは手頃な会員費の壁の向こうにある。しかし仕事の一部でも中国語ソースに依存するなら——学生、アナリスト、開発者——秘塔は「AI検索は時間と知性の両方を尊重できる」ことのこれまでで最も力強い証明だ。",
+        "es": "Metaso respondió una pregunta que los usuarios chinos llevaban años haciéndose: ¿cómo sería la búsqueda sin anuncios? Su página de resultados es una pequeña revelación: una respuesta directa con citas, flanqueada por un esquema, un mapa mental y una cronología autogenerados, de modo que una sola consulta te deja a medio camino de una investigación estructurada. El modo académico es la joya oculta, llegando a bases de revistas chinas que la búsqueda IA occidental apenas toca, y el modo de investigación profunda convierte temas complejos en informes extensos. La API a ¥0.03 por consulta se convirtió discretamente en infraestructura para los desarrolladores huérfanos tras el retiro de la API de Bing. Los límites honestos: la cobertura en inglés va detrás de Perplexity, la investigación intensiva consume créditos rápido y los mejores modelos están tras una cuota de membresía modesta. Pero para cualquiera cuyo trabajo dependa aunque sea en parte de fuentes chinas —estudiantes, analistas, desarrolladores—, Metaso es el argumento más sólido hasta ahora de que la búsqueda IA puede respetar tu tiempo y tu inteligencia a la vez.",
+        "fr": "Metaso a répondu à une question que les utilisateurs chinois se posaient depuis des années : à quoi ressemblerait la recherche sans publicité ? Sa page de résultats est une petite révélation — une réponse directe et sourcée, flanquée d'un plan, d'une carte mentale et d'une chronologie générés automatiquement, si bien qu'une seule requête vous amène à mi-chemin d'une recherche structurée. Le mode académique est l'atout caché, plongeant dans des bases de revues chinoises que la recherche IA occidentale effleure à peine, et le mode recherche approfondie transforme les sujets complexes en rapports longs. L'API à 0,03 ¥ la requête est discrètement devenue une infrastructure pour les développeurs orphelins de l'API Bing. Les limites honnêtes : la couverture anglophone reste derrière Perplexity, la recherche intensive consomme vite les crédits membres, et les meilleurs modèles sont derrière un abonnement modeste. Mais pour quiconque travaille même partiellement sur des sources chinoises — étudiants, analystes, développeurs — Metaso est à ce jour la plus belle preuve qu'une recherche IA peut respecter à la fois votre temps et votre intelligence."
+      },
+      "bestFor": {
+        "en": [
+          "Researchers and students working heavily with Chinese-language sources",
+          "Anyone tired of ad-cluttered search who wants direct, cited answers",
+          "Developers needing a cheap, self-built Chinese-index search API"
+        ],
+        "zh": [
+          "大量使用中文信息源的研究者与学生",
+          "受够广告搜索、想要带引用直达答案的任何人",
+          "需要低价自建中文索引搜索 API 的开发者"
+        ],
+        "ja": [
+          "中国語ソースを多用する研究者・学生",
+          "広告まみれの検索にうんざりし、引用付きの直接回答が欲しい人",
+          "安価な中国語インデックス検索APIが必要な開発者"
+        ],
+        "es": [
+          "Investigadores y estudiantes que trabajan mucho con fuentes en chino",
+          "Cualquiera harto de búsquedas llenas de anuncios que quiera respuestas directas y citadas",
+          "Desarrolladores que necesitan una API de búsqueda de índice chino barata"
+        ],
+        "fr": [
+          "Chercheurs et étudiants travaillant beaucoup avec des sources en chinois",
+          "Quiconque en a assez des recherches saturées de pub et veut des réponses directes et sourcées",
+          "Développeurs ayant besoin d'une API de recherche à index chinois bon marché"
+        ]
+      },
+      "considerAlternatives": {
+        "en": [
+          "Your research is mostly in English-language sources (→ Perplexity)",
+          "You want multilingual search plus slide/document generation (→ Felo)"
+        ],
+        "zh": [
+          "你的研究主要依赖英文信息源（→ Perplexity）",
+          "你想要多语言搜索外加 PPT/文档生成（→ Felo）"
+        ],
+        "ja": [
+          "リサーチが主に英語ソース中心（→ Perplexity）",
+          "多言語検索に加えスライド/ドキュメント生成が欲しい（→ Felo）"
+        ],
+        "es": [
+          "Tu investigación se basa sobre todo en fuentes en inglés (→ Perplexity)",
+          "Quieres búsqueda multilingüe más generación de presentaciones/documentos (→ Felo)"
+        ],
+        "fr": [
+          "Votre recherche repose surtout sur des sources anglophones (→ Perplexity)",
+          "Vous voulez une recherche multilingue plus la génération de slides/documents (→ Felo)"
+        ]
+      }
+    },
+    "meta": {
+      "lastVerified": "2026-07-28",
+      "verdictDate": "2026-07-28",
+      "pricingVerified": "2026-07-28",
+      "pricingUrl": "https://metaso.cn"
+    }
+  },
+  "minimax-audio": {
+    "features": {
+      "en": [
+        "Speech model family generates hyper-realistic TTS in 40+ languages",
+        "Voice cloning from roughly 10 seconds of reference audio",
+        "Controllable emotion, tone and sound-effect tags inside the text prompt",
+        "Long-text mode reads entire articles or chapters in one pass",
+        "Backed by the same MiniMax platform as Hailuo video and the M-series LLMs",
+        "Developer API on platform.minimax.io alongside the free web studio"
+      ],
+      "zh": [
+        "Speech 系列模型生成 40+ 语言的超拟真 TTS",
+        "约 10 秒参考音频即可克隆声音",
+        "文本提示内可控制情绪、语气与音效标签",
+        "长文本模式一次朗读整篇文章或整章内容",
+        "背靠与海螺视频、M 系列大模型相同的 MiniMax 平台",
+        "免费网页工作台之外，platform.minimax.io 提供开发者 API"
+      ],
+      "ja": [
+        "Speechモデルファミリーは40以上の言語で超リアルなTTSを生成",
+        "約10秒の参照音声から声をクローン",
+        "テキストプロンプト内で感情・トーン・効果音タグを制御可能",
+        "長文モードは記事や章をまるごと一度に読み上げ",
+        "Hailuo動画やMシリーズLLMと同じMiniMaxプラットフォームが基盤",
+        "無料のWebスタジオに加え、platform.minimax.ioで開発者APIを提供"
+      ],
+      "es": [
+        "La familia de modelos Speech genera TTS hiperrealista en más de 40 idiomas",
+        "Clonación de voz con unos 10 segundos de audio de referencia",
+        "Etiquetas controlables de emoción, tono y efectos de sonido dentro del prompt",
+        "El modo de texto largo lee artículos o capítulos enteros de una vez",
+        "Respaldado por la misma plataforma MiniMax que el video Hailuo y los LLM de la serie M",
+        "API para desarrolladores en platform.minimax.io junto al estudio web gratuito"
+      ],
+      "fr": [
+        "La famille de modèles Speech génère une TTS hyper-réaliste dans plus de 40 langues",
+        "Clonage vocal à partir d'environ 10 secondes d'audio de référence",
+        "Balises d'émotion, de ton et d'effets sonores contrôlables dans le prompt",
+        "Le mode texte long lit des articles ou chapitres entiers en une passe",
+        "Adossé à la même plateforme MiniMax que la vidéo Hailuo et les LLM de série M",
+        "API développeur sur platform.minimax.io en plus du studio web gratuit"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "Logging into the web studio grants free daily/monthly credits (reported around 4,000 daily for new users) plus a few custom voice slots — enough for prototyping and light narration.",
+        "zh": "登录网页工作台即赠免费额度（新用户据报每日约 4000 积分），外加数个自定义声音位——足够原型验证与轻度配音。",
+        "ja": "Webスタジオにログインすると無料クレジット（新規ユーザーは1日約4,000と報告）と数個のカスタム音声スロットが付与——プロトタイピングや軽いナレーションには十分。",
+        "es": "Iniciar sesión en el estudio web otorga créditos gratuitos diarios/mensuales (unos 4,000 diarios para nuevos usuarios, según reportes) más algunos huecos de voz personalizada, suficiente para prototipos y narración ligera.",
+        "fr": "La connexion au studio web offre des crédits gratuits quotidiens/mensuels (environ 4 000 par jour pour les nouveaux utilisateurs selon les retours) plus quelques emplacements de voix personnalisée — assez pour prototyper et narrer légèrement."
+      },
+      "paid": {
+        "en": "Audio subscriptions start at Starter $5/month (100K points, 10 voice slots), then Standard $30/month (300K points), Pro $99/month (1.1M points), Scale $249/month and Business $999/month, with 10% off quarterly and 20% off yearly. API usage bills separately (e.g. speech-2.8-turbo at $60 per 1M characters). (Verified against official pricing documentation, 2026-07-28.)",
+        "zh": "语音订阅从 Starter $5/月起（10 万点、10 个声音位），依次为 Standard $30/月（30 万点）、Pro $99/月（110 万点）、Scale $249/月、Business $999/月；季付九折、年付八折。API 按量另计（如 speech-2.8-turbo 每百万字符 $60）。（对照官方定价资料核实，2026-07-28。）",
+        "ja": "音声サブスクはStarter月$5（10万ポイント、音声スロット10）から始まり、Standard月$30（30万ポイント）、Pro月$99（110万ポイント）、Scale月$249、Business月$999。3ヶ月払いで10%オフ、年払いで20%オフ。API利用は別途従量課金（例：speech-2.8-turboは100万文字あたり$60）。（公式価格資料と照合、2026-07-28。）",
+        "es": "Las suscripciones de audio empiezan en Starter $5/mes (100K puntos, 10 huecos de voz), luego Standard $30/mes (300K puntos), Pro $99/mes (1.1M puntos), Scale $249/mes y Business $999/mes, con 10% de descuento trimestral y 20% anual. La API se factura aparte (p. ej., speech-2.8-turbo a $60 por millón de caracteres). (Verificado con la documentación oficial de precios, 2026-07-28.)",
+        "fr": "Les abonnements audio démarrent à Starter 5 $/mois (100 K points, 10 emplacements de voix), puis Standard 30 $/mois (300 K points), Pro 99 $/mois (1,1 M points), Scale 249 $/mois et Business 999 $/mois, avec 10 % de remise trimestrielle et 20 % annuelle. L'API est facturée à part (par ex. speech-2.8-turbo à 60 $ par million de caractères). (Vérifié avec la documentation tarifaire officielle, 2026-07-28.)"
+      }
+    },
+    "useCases": {
+      "en": [
+        "Multilingual narration for videos, courses and audiobooks with one cloned voice",
+        "Podcast-style dialogue with emotion tags and sound effects in the script",
+        "Developers wiring realistic speech into apps via the MiniMax API",
+        "Prototyping voice features free of charge before committing to a plan"
+      ],
+      "zh": [
+        "用一个克隆声音为视频、课程、有声书做多语言配音",
+        "在脚本里用情绪标签与音效做播客式对话",
+        "开发者通过 MiniMax API 为应用接入拟真语音",
+        "在订阅之前用免费额度验证语音功能原型"
+      ],
+      "ja": [
+        "1つのクローン音声で動画・講座・オーディオブックの多言語ナレーション",
+        "スクリプト内の感情タグと効果音でポッドキャスト風の対話を制作",
+        "MiniMax APIで開発者がアプリにリアルな音声を組み込み",
+        "プラン契約前に無料枠で音声機能のプロトタイプを検証"
+      ],
+      "es": [
+        "Narración multilingüe para videos, cursos y audiolibros con una voz clonada",
+        "Diálogos estilo pódcast con etiquetas de emoción y efectos de sonido en el guion",
+        "Desarrolladores integrando habla realista en apps vía la API de MiniMax",
+        "Prototipar funciones de voz gratis antes de comprometerse con un plan"
+      ],
+      "fr": [
+        "Narration multilingue pour vidéos, cours et livres audio avec une voix clonée",
+        "Dialogues façon podcast avec balises d'émotion et effets sonores dans le script",
+        "Développeurs intégrant une parole réaliste dans leurs apps via l'API MiniMax",
+        "Prototyper des fonctions vocales gratuitement avant de s'engager sur un forfait"
+      ]
+    },
+    "pros": {
+      "en": [
+        "Speech quality regularly ranks near the top of independent TTS leaderboards",
+        "Free logged-in credits make it one of the easiest premium TTS to try",
+        "Emotion and sound-effect tags give scripts director-level control",
+        "One MiniMax account spans speech, video (Hailuo), music and LLM APIs"
+      ],
+      "zh": [
+        "语音质量在独立 TTS 排行榜上常年位居前列",
+        "登录即送的免费额度让它成为最易上手的高端 TTS 之一",
+        "情绪与音效标签给脚本导演级的控制力",
+        "一个 MiniMax 账号打通语音、视频（海螺）、音乐与大模型 API"
+      ],
+      "ja": [
+        "音声品質は独立系TTSリーダーボードで常に上位",
+        "ログインで付与される無料クレジットにより最も試しやすいプレミアムTTSの一つ",
+        "感情・効果音タグで脚本にディレクター級のコントロールを付与",
+        "MiniMaxアカウント1つで音声・動画（Hailuo）・音楽・LLM APIを横断"
+      ],
+      "es": [
+        "La calidad de voz se sitúa habitualmente entre las mejores de los rankings TTS independientes",
+        "Los créditos gratuitos al iniciar sesión lo hacen de los TTS premium más fáciles de probar",
+        "Las etiquetas de emoción y efectos dan al guion control de nivel director",
+        "Una cuenta MiniMax abarca voz, video (Hailuo), música y APIs de LLM"
+      ],
+      "fr": [
+        "La qualité vocale se classe régulièrement parmi les meilleures des classements TTS indépendants",
+        "Les crédits gratuits à la connexion en font l'une des TTS premium les plus faciles à essayer",
+        "Les balises d'émotion et d'effets sonores donnent au script un contrôle de niveau réalisateur",
+        "Un seul compte MiniMax couvre la voix, la vidéo (Hailuo), la musique et les API LLM"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Overlaps with the broader MiniMax platform — it is a product line, not a standalone company",
+        "Voice marketplace and community are smaller than ElevenLabs'",
+        "Points-to-usage conversion is opaque; estimating real cost takes trial and error",
+        "No open-source model release, unlike Fish Audio"
+      ],
+      "zh": [
+        "与 MiniMax 大平台功能重叠——它是产品线而非独立公司",
+        "声音市场与社区规模不及 ElevenLabs",
+        "点数与实际用量的换算不透明，估算真实成本要试错",
+        "不像 Fish Audio，没有开源模型可用"
+      ],
+      "ja": [
+        "MiniMaxプラットフォーム全体と機能が重複——独立企業ではなく製品ライン",
+        "音声マーケットプレイスとコミュニティはElevenLabsより小規模",
+        "ポイントと実使用量の換算が不透明で、実コストの見積もりに試行錯誤が必要",
+        "Fish Audioと違いオープンソースのモデル公開はない"
+      ],
+      "es": [
+        "Se solapa con la plataforma MiniMax más amplia: es una línea de producto, no una empresa independiente",
+        "El mercado de voces y la comunidad son menores que los de ElevenLabs",
+        "La conversión de puntos a uso es opaca; estimar el coste real requiere prueba y error",
+        "Sin modelos de código abierto, a diferencia de Fish Audio"
+      ],
+      "fr": [
+        "Chevauche la plateforme MiniMax globale — c'est une ligne de produit, pas une société indépendante",
+        "Le marché de voix et la communauté sont plus petits que ceux d'ElevenLabs",
+        "La conversion points-usage est opaque ; estimer le coût réel demande des essais",
+        "Pas de modèle open source publié, contrairement à Fish Audio"
+      ]
+    },
+    "latestUpdate": {
+      "en": "2026: The speech-2.8 generation (including the turbo variant at $60 per 1M API characters) pushed MiniMax Audio near the top of independent TTS quality rankings, with 40+ languages and 10-second voice cloning. Audio subscriptions span $5 Starter to $999 Business monthly, and free logged-in credits keep the entry barrier at zero.",
+      "zh": "2026 年：speech-2.8 一代（含 API 每百万字符 $60 的 turbo 版）把 MiniMax 语音推近独立 TTS 质量榜的顶端，支持 40+ 语言与 10 秒级声音克隆。语音订阅从 $5 Starter 到 $999 Business 每月不等，登录即送的免费额度把入门门槛保持在零。",
+      "ja": "2026年：speech-2.8世代（API 100万文字$60のturbo版を含む）はMiniMax Audioを独立系TTS品質ランキングの頂点近くまで押し上げた。40以上の言語と10秒の声クローンに対応。音声サブスクは月$5のStarterから$999のBusinessまで、ログインで付与される無料クレジットが参入障壁をゼロに保っている。",
+      "es": "2026: La generación speech-2.8 (incluida la variante turbo a $60 por millón de caracteres de API) llevó a MiniMax Audio cerca de la cima de los rankings independientes de calidad TTS, con más de 40 idiomas y clonación de voz de 10 segundos. Las suscripciones van de Starter $5 a Business $999 mensuales, y los créditos gratuitos al iniciar sesión mantienen la barrera de entrada en cero.",
+      "fr": "2026 : la génération speech-2.8 (dont la variante turbo à 60 $ par million de caractères d'API) a hissé MiniMax Audio près du sommet des classements indépendants de qualité TTS, avec plus de 40 langues et un clonage vocal en 10 secondes. Les abonnements audio vont de Starter 5 $ à Business 999 $ par mois, et les crédits gratuits à la connexion maintiennent la barrière d'entrée à zéro."
+    },
+    "verdict": {
+      "badge": "Worth Trying",
+      "headline": {
+        "en": "Top-tier voices from the Hailuo family — easiest premium TTS to start for free",
+        "zh": "海螺同门的顶级音色——免费起步门槛最低的高端 TTS",
+        "ja": "Hailuoと同門のトップ級ボイス——無料で始めやすさ随一のプレミアムTTS",
+        "es": "Voces de primer nivel de la familia Hailuo, el TTS premium más fácil de empezar gratis",
+        "fr": "Des voix haut de gamme de la famille Hailuo — la TTS premium la plus facile à essayer gratuitement"
+      },
+      "body": {
+        "en": "MiniMax Audio is what happens when the lab behind Hailuo video points the same firepower at speech. The Speech model family lands near the top of independent TTS quality rankings, clones a voice from roughly ten seconds of audio, and speaks 40+ languages with emotion and sound-effect tags that give scripts an almost director-level layer of control. The smartest part of the offer is the on-ramp: logging in grants free daily credits, so you can prototype narration or app voices without spending anything, then graduate to a $5 Starter subscription or the pay-as-you-go API. The caveats are structural rather than qualitative. This is a product line inside the sprawling MiniMax platform, so the experience is more utilitarian than ElevenLabs' creator ecosystem; the points system takes trial and error to translate into real-world cost; and unlike Fish Audio there is no open-source release to fall back on. Our advice: if you already use Hailuo or the MiniMax API, adding Audio is a no-brainer — and even if you do not, the free tier makes trying it essentially risk-free.",
+        "zh": "MiniMax 语音就是海螺视频背后的实验室把同一套火力对准语音的产物。Speech 系列模型稳居独立 TTS 质量榜前列，约十秒音频即可克隆声音，支持 40+ 语言，情绪与音效标签给脚本一层近乎导演级的控制。这份产品最聪明的地方是入口：登录即送每日免费额度，你可以零成本验证配音或应用语音的原型，再升级到 $5 的 Starter 订阅或按量 API。注意点是结构性的而非质量性的：它是庞大 MiniMax 平台里的一条产品线，体验偏工具化，不如 ElevenLabs 的创作者生态；点数系统要试错才能换算出真实成本；而且不像 Fish Audio，没有开源模型可以兜底。我们的建议：如果你已在用海螺或 MiniMax API，加上语音是不用想的选择——就算没用过，免费额度也让尝试几乎零风险。",
+        "ja": "MiniMax AudioはHailuo動画を生んだラボが同じ火力を音声に向けた結果だ。Speechモデルファミリーは独立系TTS品質ランキングの上位に位置し、約10秒の音声から声をクローンし、40以上の言語を感情・効果音タグ付きで話す——脚本にほぼディレクター級の制御レイヤーを与える。この製品の最も賢い点は入口だ：ログインすれば毎日無料クレジットが付与され、ナレーションやアプリ音声のプロトタイプを一銭も使わず作れる。その後は月$5のStarterサブスクか従量課金APIに進めばいい。注意点は品質ではなく構造にある。これは巨大なMiniMaxプラットフォーム内の一製品ラインであり、体験はElevenLabsのクリエイターエコシステムより実用本位だ。ポイント制は実コストへの換算に試行錯誤が要るし、Fish Audioと違って頼れるオープンソース版もない。我々の助言：すでにHailuoやMiniMax APIを使っているならAudioの追加は考えるまでもない——使っていなくても、無料枠のおかげで試すリスクは実質ゼロだ。",
+        "es": "MiniMax Audio es lo que ocurre cuando el laboratorio detrás del video Hailuo apunta la misma potencia de fuego al habla. La familia de modelos Speech se sitúa cerca de la cima de los rankings independientes de calidad TTS, clona una voz con unos diez segundos de audio y habla más de 40 idiomas con etiquetas de emoción y efectos que dan al guion una capa de control casi de director. Lo más inteligente de la oferta es la rampa de entrada: iniciar sesión otorga créditos gratuitos diarios, así que puedes prototipar narraciones o voces de app sin gastar nada, y luego pasar a la suscripción Starter de $5 o a la API de pago por uso. Las salvedades son estructurales, no cualitativas: es una línea de producto dentro de la extensa plataforma MiniMax, con una experiencia más utilitaria que el ecosistema creador de ElevenLabs; el sistema de puntos requiere prueba y error para traducirse en coste real; y a diferencia de Fish Audio no hay versión open source de respaldo. Nuestro consejo: si ya usas Hailuo o la API de MiniMax, añadir Audio es obvio; e incluso si no, el nivel gratuito hace que probarlo sea prácticamente sin riesgo.",
+        "fr": "MiniMax Audio, c'est ce qui arrive quand le labo derrière la vidéo Hailuo braque la même puissance de feu sur la parole. La famille de modèles Speech se classe près du sommet des palmarès indépendants de qualité TTS, clone une voix à partir d'une dizaine de secondes d'audio et parle plus de 40 langues avec des balises d'émotion et d'effets sonores qui donnent au script une couche de contrôle quasi digne d'un réalisateur. Le plus malin dans l'offre, c'est la rampe d'accès : la connexion octroie des crédits gratuits quotidiens, permettant de prototyper narrations ou voix d'app sans rien dépenser, avant de passer à l'abonnement Starter à 5 $ ou à l'API à l'usage. Les réserves sont structurelles plutôt que qualitatives : c'est une ligne de produit au sein de la vaste plateforme MiniMax, à l'expérience plus utilitaire que l'écosystème créateur d'ElevenLabs ; le système de points demande des essais pour se traduire en coût réel ; et contrairement à Fish Audio, aucune version open source ne sert de filet. Notre conseil : si vous utilisez déjà Hailuo ou l'API MiniMax, ajouter Audio va de soi — et sinon, l'offre gratuite rend l'essai pratiquement sans risque."
+      },
+      "bestFor": {
+        "en": [
+          "Existing Hailuo / MiniMax users adding speech to their toolkit",
+          "Creators needing top-quality multilingual narration with a free on-ramp",
+          "Developers wanting one API platform for speech, video and LLMs"
+        ],
+        "zh": [
+          "已在用海螺 / MiniMax、想补上语音能力的用户",
+          "需要顶级多语言配音且想免费起步的创作者",
+          "想用一个 API 平台搞定语音、视频与大模型的开发者"
+        ],
+        "ja": [
+          "ツールキットに音声を加えたい既存のHailuo / MiniMaxユーザー",
+          "無料で始められるトップ品質の多言語ナレーションが必要なクリエイター",
+          "音声・動画・LLMを1つのAPIプラットフォームで済ませたい開発者"
+        ],
+        "es": [
+          "Usuarios existentes de Hailuo / MiniMax que añaden voz a su kit",
+          "Creadores que necesitan narración multilingüe de máxima calidad con inicio gratis",
+          "Desarrolladores que quieren una sola plataforma API para voz, video y LLM"
+        ],
+        "fr": [
+          "Utilisateurs existants de Hailuo / MiniMax ajoutant la parole à leur boîte à outils",
+          "Créateurs ayant besoin d'une narration multilingue haut de gamme avec un départ gratuit",
+          "Développeurs voulant une seule plateforme API pour la parole, la vidéo et les LLM"
+        ]
+      },
+      "considerAlternatives": {
+        "en": [
+          "You want the biggest voice marketplace and creator tooling (→ ElevenLabs)",
+          "You want open-source models and the lowest bulk pricing (→ Fish Audio)"
+        ],
+        "zh": [
+          "你想要最大的声音市场与创作者工具链（→ ElevenLabs）",
+          "你想要开源模型和最低的批量价格（→ Fish Audio）"
+        ],
+        "ja": [
+          "最大級の音声マーケットプレイスとクリエイターツールが欲しい（→ ElevenLabs）",
+          "オープンソースモデルと最安のバルク価格が欲しい（→ Fish Audio）"
+        ],
+        "es": [
+          "Quieres el mayor mercado de voces y herramientas de creador (→ ElevenLabs)",
+          "Quieres modelos de código abierto y el precio a granel más bajo (→ Fish Audio)"
+        ],
+        "fr": [
+          "Vous voulez le plus grand marché de voix et l'outillage créateur (→ ElevenLabs)",
+          "Vous voulez des modèles open source et le prix de gros le plus bas (→ Fish Audio)"
+        ]
+      }
+    },
+    "meta": {
+      "lastVerified": "2026-07-28",
+      "verdictDate": "2026-07-28",
+      "pricingVerified": "2026-07-28",
+      "pricingUrl": "https://www.minimax.io/audio"
+    }
   }
 }

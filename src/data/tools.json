@@ -3795,5 +3795,155 @@
       "browser_extension": false,
       "api": true
     }
+  },
+  {
+    "slug": "metaso",
+    "name": "Metaso",
+    "nameZh": "秘塔AI搜索",
+    "description": "秘塔科技出品的国产 AI 搜索引擎，没有广告直达结果，自动生成大纲、思维导图与引用来源，支持学术搜索与深入研究模式，并开放 API",
+    "descriptionEn": "A leading Chinese AI search engine by Metasota. Ad-free with direct answers, it auto-generates outlines, mind maps and cited sources, supports academic search and deep research modes, and offers an open API",
+    "descriptionJa": "秘塔科技による中国発のAI検索エンジン。広告なしで結果に直達し、アウトライン・マインドマップ・引用元を自動生成。学術検索とディープリサーチモードに対応し、APIも公開",
+    "descriptionEs": "Motor de búsqueda IA chino de Metasota. Sin anuncios y con respuestas directas, genera automáticamente esquemas, mapas mentales y fuentes citadas; admite búsqueda académica, modo de investigación profunda y API abierta",
+    "descriptionFr": "Moteur de recherche IA chinois de Metasota. Sans publicité et avec des réponses directes, il génère automatiquement plans, cartes mentales et sources citées ; prend en charge la recherche académique, le mode recherche approfondie et une API ouverte",
+    "url": "https://metaso.cn",
+    "logo": "/logos/tools/metaso.png",
+    "category": "Search",
+    "tags": [
+      "Freemium",
+      "API"
+    ],
+    "featured": false,
+    "developer": "Metasota",
+    "developerZh": "秘塔科技",
+    "platforms": {
+      "web": true,
+      "windows": false,
+      "macos": false,
+      "ios": true,
+      "android": true,
+      "linux": false,
+      "browser_extension": false,
+      "api": true
+    }
+  },
+  {
+    "slug": "felo",
+    "name": "Felo",
+    "nameZh": "Felo",
+    "description": "日本 Sparticle 出品的多语言 AI 搜索引擎，跨语言检索全球信息源并给出带引用的答案，还能生成 PPT、思维导图与文档，免费档慷慨",
+    "descriptionEn": "A multilingual AI search engine by Japan's Sparticle. It searches global sources across languages with cited answers, and also generates presentations, mind maps and documents, with a generous free tier",
+    "descriptionJa": "日本のSparticleが開発した多言語AI検索エンジン。言語の壁を越えて世界中の情報源を検索し、引用付きの回答を提供。プレゼン資料・マインドマップ・ドキュメントの生成にも対応し、無料枠も充実",
+    "descriptionEs": "Motor de búsqueda IA multilingüe de la japonesa Sparticle. Busca fuentes globales entre idiomas con respuestas citadas, y también genera presentaciones, mapas mentales y documentos, con un plan gratuito generoso",
+    "descriptionFr": "Moteur de recherche IA multilingue de la société japonaise Sparticle. Il interroge des sources mondiales à travers les langues avec des réponses citées, et génère aussi présentations, cartes mentales et documents, avec une offre gratuite généreuse",
+    "url": "https://felo.ai",
+    "logo": "/logos/tools/felo.png",
+    "category": "Search",
+    "tags": [
+      "Freemium"
+    ],
+    "featured": false,
+    "developer": "Sparticle",
+    "developerZh": "Sparticle（日本）",
+    "platforms": {
+      "web": true,
+      "windows": false,
+      "macos": false,
+      "ios": true,
+      "android": true,
+      "linux": false,
+      "browser_extension": false,
+      "api": false
+    }
+  },
+  {
+    "slug": "kagi",
+    "name": "Kagi",
+    "nameZh": "Kagi",
+    "description": "完全由用户付费驱动的高端无广告搜索引擎，零跟踪、结果可自定义排序，内置 Kagi Assistant 聚合多家旗舰大模型，欧美口碑极佳",
+    "descriptionEn": "A premium, ad-free search engine fully funded by its users. Zero tracking, customizable result ranking, and the built-in Kagi Assistant aggregates flagship LLMs; highly praised in Western tech communities",
+    "descriptionJa": "ユーザー課金のみで運営されるプレミアム広告なし検索エンジン。トラッキングゼロ、検索結果のカスタムランキングに対応。内蔵のKagi Assistantは主要フラッグシップLLMを統合し、欧米で高評価",
+    "descriptionEs": "Motor de búsqueda premium sin anuncios financiado íntegramente por sus usuarios. Cero rastreo, clasificación de resultados personalizable y el Kagi Assistant integrado agrega los LLM insignia; muy valorado en Occidente",
+    "descriptionFr": "Moteur de recherche premium sans publicité entièrement financé par ses utilisateurs. Zéro pistage, classement des résultats personnalisable, et l'assistant Kagi intégré agrège les LLM phares ; très apprécié dans les communautés tech occidentales",
+    "url": "https://kagi.com",
+    "logo": "/logos/tools/kagi.png",
+    "category": "Search",
+    "tags": [
+      "Paid",
+      "API"
+    ],
+    "featured": false,
+    "developer": "Kagi Inc.",
+    "developerZh": "Kagi",
+    "platforms": {
+      "web": true,
+      "windows": false,
+      "macos": false,
+      "ios": true,
+      "android": true,
+      "linux": false,
+      "browser_extension": true,
+      "api": true
+    }
+  },
+  {
+    "slug": "fish-audio",
+    "name": "Fish Audio",
+    "nameZh": "Fish Audio",
+    "description": "开源 TTS 明星 Fish Speech 团队的语音生成平台，10-30 秒样本即可克隆声音，S1/S2 模型音质自然情感丰富，支持商用与 API 按量付费",
+    "descriptionEn": "Voice generation platform from the team behind the open-source TTS star Fish Speech. Clone a voice from just 10-30 seconds of audio; the S1/S2 models deliver natural, expressive speech with commercial use and pay-as-you-go API",
+    "descriptionJa": "オープンソースTTSの雄Fish Speechチームによる音声生成プラットフォーム。10〜30秒のサンプルで声をクローンでき、S1/S2モデルは自然で表現豊かな音声を実現。商用利用と従量課金APIに対応",
+    "descriptionEs": "Plataforma de generación de voz del equipo tras el TTS de código abierto Fish Speech. Clona una voz con solo 10-30 segundos de audio; los modelos S1/S2 ofrecen habla natural y expresiva, con uso comercial y API de pago por uso",
+    "descriptionFr": "Plateforme de génération vocale de l'équipe derrière le TTS open source Fish Speech. Clonez une voix avec seulement 10-30 secondes d'audio ; les modèles S1/S2 offrent une parole naturelle et expressive, avec usage commercial et API à l'usage",
+    "url": "https://fish.audio",
+    "logo": "/logos/tools/fish-audio.png",
+    "category": "Audio",
+    "tags": [
+      "Freemium",
+      "Open Source",
+      "API"
+    ],
+    "featured": false,
+    "developer": "Fish Audio",
+    "developerZh": "Fish Audio",
+    "platforms": {
+      "web": true,
+      "windows": false,
+      "macos": false,
+      "ios": false,
+      "android": false,
+      "linux": false,
+      "browser_extension": false,
+      "api": true
+    }
+  },
+  {
+    "slug": "minimax-audio",
+    "name": "MiniMax Audio",
+    "nameZh": "MiniMax语音",
+    "description": "MiniMax 旗下语音生成平台，Speech 系列模型支持 40+ 语言的超拟真 TTS 与 10 秒级声音克隆，情绪与音效标签可控，网页版免费试用",
+    "descriptionEn": "MiniMax's voice generation platform. The Speech model family delivers hyper-realistic TTS in 40+ languages with 10-second voice cloning, controllable emotion and sound-effect tags, and a free web trial",
+    "descriptionJa": "MiniMax傘下の音声生成プラットフォーム。Speechシリーズモデルは40以上の言語で超リアルなTTSと約10秒のサンプルによる声のクローンに対応。感情や効果音タグの制御が可能で、Web版は無料で試用できる",
+    "descriptionEs": "Plataforma de generación de voz de MiniMax. La familia de modelos Speech ofrece TTS hiperrealista en más de 40 idiomas con clonación de voz de 10 segundos, etiquetas controlables de emoción y efectos, y prueba web gratuita",
+    "descriptionFr": "Plateforme de génération vocale de MiniMax. La famille de modèles Speech offre une TTS hyper-réaliste dans plus de 40 langues avec clonage de voix en 10 secondes, des balises d'émotion et d'effets sonores contrôlables, et un essai web gratuit",
+    "url": "https://www.minimax.io/audio",
+    "logo": "/logos/tools/minimax-audio.png",
+    "category": "Audio",
+    "tags": [
+      "Freemium",
+      "API"
+    ],
+    "featured": false,
+    "developer": "MiniMax",
+    "developerZh": "MiniMax（稀宇科技）",
+    "platforms": {
+      "web": true,
+      "windows": false,
+      "macos": false,
+      "ios": false,
+      "android": false,
+      "linux": false,
+      "browser_extension": false,
+      "api": true
+    }
   }
 ]
