@@ -30942,5 +30942,710 @@
       "pricingVerified": "2026-07-28",
       "pricingUrl": "https://pi.dev"
     }
+  },
+  "playground-ai": {
+    "features": {
+      "en": [
+        "Template-driven design for logos, T-shirts, social posts, stickers, merch and posters",
+        "Aggregates multiple top models — GPT Image 2, Nano Banana Pro and Seedream — in one place",
+        "Shared credit pool across models (Nano Banana Pro costs 4 credits, most others 1 credit)",
+        "AI text prompts plus style changes and edits without learning a heavy creative suite",
+        "Web plus native iOS app, aimed at fast, finished graphics rather than raw generations",
+        "Trusted by 13M+ creators across 120 countries"
+      ],
+      "zh": [
+        "模板驱动的设计：Logo、T 恤、社媒图、贴纸、周边与海报",
+        "在一处聚合多款顶级模型——GPT Image 2、Nano Banana Pro 与 Seedream",
+        "跨模型共享积分池（Nano Banana Pro 每次 4 积分，多数其他模型 1 积分）",
+        "AI 文字提示加风格切换与编辑，无需学习笨重的创意套件",
+        "网页加原生 iOS 应用，主打快速产出成品图而非原始生成",
+        "获全球 120 个国家、1300 万+ 创作者信赖"
+      ],
+      "ja": [
+        "テンプレート駆動のデザイン：ロゴ・Tシャツ・SNS投稿・ステッカー・グッズ・ポスター",
+        "GPT Image 2・Nano Banana Pro・Seedreamなど複数のトップモデルを一箇所に集約",
+        "モデル間で共有のクレジットプール（Nano Banana Proは1回4クレジット、多くは1クレジット）",
+        "AIテキストプロンプトとスタイル変更・編集を、重い制作スイートを学ばずに",
+        "Webとネイティブ版iOSアプリ、素の生成ではなく完成グラフィックの高速化を狙う",
+        "世界120か国の1,300万人以上のクリエイターに利用される"
+      ],
+      "es": [
+        "Diseño por plantillas para logos, camisetas, posts sociales, pegatinas, merch y pósters",
+        "Agrega varios modelos punteros — GPT Image 2, Nano Banana Pro y Seedream — en un solo lugar",
+        "Bolsa de créditos compartida entre modelos (Nano Banana Pro cuesta 4 créditos, la mayoría 1)",
+        "Prompts de texto con IA más cambios de estilo y ediciones sin aprender una suite pesada",
+        "Web más app nativa de iOS, orientada a gráficos terminados y rápidos más que a generaciones en bruto",
+        "Con la confianza de más de 13 millones de creadores en 120 países"
+      ],
+      "fr": [
+        "Design par modèles pour logos, T-shirts, posts sociaux, stickers, goodies et affiches",
+        "Agrège plusieurs modèles de pointe — GPT Image 2, Nano Banana Pro et Seedream — au même endroit",
+        "Réserve de crédits partagée entre modèles (Nano Banana Pro coûte 4 crédits, la plupart 1)",
+        "Prompts texte par IA plus changements de style et retouches sans apprendre une suite lourde",
+        "Web plus app iOS native, visant des graphiques finis et rapides plutôt que des générations brutes",
+        "Adopté par plus de 13 millions de créateurs dans 120 pays"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "Free plan at $0 for personal use, capped at roughly 10–15 image generations every 3 hours and free (non-Pro) templates, without commercial usage rights.",
+        "zh": "免费版 $0，供个人使用，约每 3 小时限 10–15 次生成，可用免费（非 Pro）模板，不含商用授权。",
+        "ja": "無料プランは$0で個人利用向け。3時間ごとに約10〜15回の生成に制限され、無料（非Pro）テンプレートが使えるが、商用利用権はなし。",
+        "es": "Plan gratuito de $0 para uso personal, limitado a unas 10–15 generaciones cada 3 horas y plantillas gratuitas (no Pro), sin derechos de uso comercial.",
+        "fr": "Plan gratuit à 0 $ pour usage personnel, plafonné à environ 10–15 générations toutes les 3 heures et modèles gratuits (non Pro), sans droits d'usage commercial."
+      },
+      "paid": {
+        "en": "Pro is $15/month (or $144/year, about $12/month) with around 75 generations per 3 hours and commercial usage rights. Pro Plus is $45/month for higher limits. Credits are shared across all models. (Verified against the official pricing page, 2026-07-28.)",
+        "zh": "Pro 版 $15/月（或 $144/年，约合 $12/月），约每 3 小时 75 次生成，含商用授权。Pro Plus 版 $45/月，额度更高。积分在所有模型间共享。（对照官方定价页核实，2026-07-28。）",
+        "ja": "Proは月$15（または年$144、約月$12）で、3時間ごとに約75回の生成と商用利用権付き。Pro Plusは月$45で上限が高い。クレジットは全モデルで共有。（公式価格ページと照合、2026-07-28。）",
+        "es": "Pro cuesta $15/mes (o $144/año, unos $12/mes) con unas 75 generaciones cada 3 horas y derechos de uso comercial. Pro Plus cuesta $45/mes para límites mayores. Los créditos se comparten entre todos los modelos. (Verificado con la página oficial, 2026-07-28.)",
+        "fr": "Pro est à 15 $/mois (ou 144 $/an, environ 12 $/mois) avec environ 75 générations toutes les 3 heures et des droits d'usage commercial. Pro Plus est à 45 $/mois pour des limites supérieures. Les crédits sont partagés entre tous les modèles. (Vérifié avec la page officielle, 2026-07-28.)"
+      }
+    },
+    "useCases": {
+      "en": [
+        "Non-designers who want finished logos, T-shirts or social graphics fast",
+        "Small businesses and creators producing merch and marketing visuals on a budget",
+        "Trying several top image models from one interface without separate subscriptions",
+        "Turning a raw AI generation into a polished, template-based deliverable"
+      ],
+      "zh": [
+        "想快速拿到成品 Logo、T 恤或社媒图的非设计师",
+        "以有限预算产出周边与营销视觉的小微企业与创作者",
+        "在一个界面里试用多款顶级图像模型，无需分别订阅",
+        "把原始 AI 生成图变成基于模板的精致成品"
+      ],
+      "ja": [
+        "完成したロゴ・Tシャツ・SNS画像をすぐ欲しい非デザイナー",
+        "限られた予算でグッズやマーケ用ビジュアルを作る小規模事業者やクリエイター",
+        "個別契約なしに複数のトップ画像モデルを一つの画面で試す",
+        "素のAI生成をテンプレートで洗練された成果物に仕上げる"
+      ],
+      "es": [
+        "Personas sin perfil de diseño que quieren logos, camisetas o gráficos sociales terminados rápido",
+        "Pequeños negocios y creadores que producen merch y visuales de marketing con presupuesto ajustado",
+        "Probar varios modelos de imagen punteros desde una sola interfaz sin suscripciones separadas",
+        "Convertir una generación de IA en bruto en un entregable pulido basado en plantillas"
+      ],
+      "fr": [
+        "Non-designers voulant des logos, T-shirts ou visuels sociaux finis rapidement",
+        "Petites entreprises et créateurs produisant goodies et visuels marketing à budget limité",
+        "Essayer plusieurs modèles d'image de pointe depuis une seule interface sans abonnements séparés",
+        "Transformer une génération d'IA brute en un livrable soigné basé sur des modèles"
+      ]
+    },
+    "pros": {
+      "en": [
+        "Template system genuinely turns raw generations into finished, usable graphics fast",
+        "Multiple top models (GPT Image 2, Nano Banana Pro, Seedream) under one shared plan",
+        "Approachable for beginners — no heavy creative-suite learning curve",
+        "Affordable Pro tier ($15/month) that unlocks commercial rights"
+      ],
+      "zh": [
+        "模板系统确实能把原始生成快速变成可用的成品图",
+        "多款顶级模型（GPT Image 2、Nano Banana Pro、Seedream）共用一份套餐",
+        "对新手友好——没有笨重创意套件的学习曲线",
+        "实惠的 Pro 档（$15/月）即可解锁商用授权"
+      ],
+      "ja": [
+        "テンプレートで素の生成を素早く使える成品に変えられる",
+        "複数のトップモデル（GPT Image 2・Nano Banana Pro・Seedream）を一つの共有プランで",
+        "初心者に優しい——重い制作スイートの学習曲線がない",
+        "手頃なProプラン（月$15）で商用権を解放"
+      ],
+      "es": [
+        "El sistema de plantillas convierte de verdad las generaciones en bruto en gráficos usables rápido",
+        "Varios modelos punteros (GPT Image 2, Nano Banana Pro, Seedream) bajo un plan compartido",
+        "Accesible para principiantes: sin la curva de una suite creativa pesada",
+        "Nivel Pro asequible ($15/mes) que desbloquea derechos comerciales"
+      ],
+      "fr": [
+        "Le système de modèles transforme vraiment les générations brutes en visuels exploitables rapidement",
+        "Plusieurs modèles de pointe (GPT Image 2, Nano Banana Pro, Seedream) sous un plan partagé",
+        "Accessible aux débutants — pas de courbe d'apprentissage d'une suite créative lourde",
+        "Offre Pro abordable (15 $/mois) qui débloque les droits commerciaux"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Free tier is heavily restricted (about 10–15 images per 3 hours, no commercial use)",
+        "Output quality varies by the underlying model you pick",
+        "Not a professional creative suite — limited fine control for advanced designers",
+        "Some users note customer support can be slow to respond"
+      ],
+      "zh": [
+        "免费档限制很重（约每 3 小时 10–15 张，不可商用）",
+        "产出质量随你选择的底层模型而波动",
+        "并非专业创意套件——对高级设计师的精细控制有限",
+        "有用户反映客服响应偏慢"
+      ],
+      "ja": [
+        "無料枠の制限が重い（3時間ごとに約10〜15枚、商用不可）",
+        "出力品質は選ぶ基盤モデルによってばらつく",
+        "プロ向け制作スイートではなく、上級デザイナー向けの精密制御は限定的",
+        "サポートの返信が遅いとの声もある"
+      ],
+      "es": [
+        "El nivel gratuito está muy restringido (unas 10–15 imágenes por 3 horas, sin uso comercial)",
+        "La calidad de salida varía según el modelo de base que elijas",
+        "No es una suite creativa profesional: control fino limitado para diseñadores avanzados",
+        "Algunos usuarios señalan que el soporte puede tardar en responder"
+      ],
+      "fr": [
+        "L'offre gratuite est très restreinte (environ 10–15 images par 3 heures, sans usage commercial)",
+        "La qualité de sortie varie selon le modèle sous-jacent choisi",
+        "Pas une suite créative professionnelle — contrôle fin limité pour les designers avancés",
+        "Certains utilisateurs notent que le support peut être lent à répondre"
+      ]
+    },
+    "latestUpdate": {
+      "en": "2026: Playground has fully pivoted from a raw image generator into a template-driven graphic design platform, aggregating GPT Image 2, Nano Banana Pro and Seedream behind a shared credit pool. Founded by Mixpanel's Suhail Doshi, it now claims 13M+ creators across 120 countries, with Free, Pro ($15/mo) and Pro Plus ($45/mo) tiers and a native iOS app.",
+      "zh": "2026 年：Playground 已从纯图像生成器彻底转型为模板驱动的图形设计平台，在共享积分池后聚合 GPT Image 2、Nano Banana Pro 与 Seedream。由 Mixpanel 创始人 Suhail Doshi 打造，现称覆盖 120 个国家、1300 万+ 创作者，提供 Free、Pro（$15/月）与 Pro Plus（$45/月）档及原生 iOS 应用。",
+      "ja": "2026年：Playgroundは素の画像生成器からテンプレート駆動のグラフィックデザイン基盤へ完全に転換し、共有クレジットプールの背後にGPT Image 2・Nano Banana Pro・Seedreamを集約。Mixpanel創業者Suhail Doshiが手掛け、いまや120か国・1,300万人以上のクリエイターを擁すると主張。Free・Pro（月$15）・Pro Plus（月$45）とネイティブiOSアプリを提供。",
+      "es": "2026: Playground ha girado por completo de un generador de imágenes en bruto a una plataforma de diseño gráfico por plantillas, agregando GPT Image 2, Nano Banana Pro y Seedream tras una bolsa de créditos compartida. Fundada por Suhail Doshi (de Mixpanel), ahora afirma tener más de 13M de creadores en 120 países, con niveles Free, Pro ($15/mes) y Pro Plus ($45/mes) y app nativa de iOS.",
+      "fr": "2026 : Playground a totalement pivoté d'un générateur d'images brut vers une plateforme de design graphique par modèles, agrégeant GPT Image 2, Nano Banana Pro et Seedream derrière une réserve de crédits partagée. Fondé par Suhail Doshi (de Mixpanel), il revendique désormais plus de 13 M de créateurs dans 120 pays, avec les offres Free, Pro (15 $/mois) et Pro Plus (45 $/mois) et une app iOS native."
+    },
+    "verdict": {
+      "badge": "Worth Trying",
+      "headline": {
+        "en": "Template-first design that turns AI generations into finished graphics",
+        "zh": "模板优先的设计工具，把 AI 生成变成成品图",
+        "ja": "テンプレート優先の設計で、AI生成を成品グラフィックに変える",
+        "es": "Diseño centrado en plantillas que convierte generaciones de IA en gráficos terminados",
+        "fr": "Un design axé modèles qui transforme les générations d'IA en visuels finis"
+      },
+      "body": {
+        "en": "Playground has quietly become a different product than the raw image generator many remember. Founded by Mixpanel's Suhail Doshi, it now positions itself as a template-driven graphic design platform: you pick a use case — logo, T-shirt, social post, sticker — and it wraps top image models (GPT Image 2, Nano Banana Pro, Seedream) into a finished, editable deliverable. That template layer is the real value; reviewers consistently note it's what turns a one-off generation into something usable, and beginners can get there without learning a heavy creative suite. Running several leading models under one shared credit pool is a genuine convenience, and at $15/month Pro (with commercial rights) it's priced for creators and small businesses. The caveats are real: the free tier is tightly capped (roughly 10–15 images per 3 hours, no commercial use), output quality depends on which model you route to, and it's not a precision tool for advanced designers who want fine control. As a fast, friendly way to go from idea to finished graphic, though, Playground is well worth trying — especially if templates and speed matter more to you than pixel-level control.",
+        "zh": "Playground 已悄然变成一款与许多人记忆中「纯图像生成器」不同的产品。它由 Mixpanel 创始人 Suhail Doshi 打造，如今定位为模板驱动的图形设计平台：你选一个用途——Logo、T 恤、社媒图、贴纸——它就把顶级图像模型（GPT Image 2、Nano Banana Pro、Seedream）包装成一份可编辑的成品交付物。这层模板才是真正的价值所在；评测者一致指出，正是它把一次性的生成变成了能用的东西，而新手无需学习笨重的创意套件就能上手。在一个共享积分池下跑多款领先模型是实打实的便利，而 $15/月的 Pro（含商用授权）定价面向创作者与小微企业。但注意事项也很真实：免费档卡得很紧（约每 3 小时 10–15 张，不可商用），产出质量取决于你路由到哪款模型，而且它不是面向想要精细控制的高级设计师的精准工具。不过，作为从创意到成品图的快速、友好的路径，Playground 很值得一试——尤其当模板与速度对你比像素级控制更重要时。",
+        "ja": "Playgroundは、多くの人が覚えている「素の画像生成器」とは別の製品へ静かに変わった。Mixpanel創業者Suhail Doshiが手掛け、いまやテンプレート駆動のグラフィックデザイン基盤を標榜する。用途——ロゴ・Tシャツ・SNS投稿・ステッカー——を選ぶと、トップ画像モデル（GPT Image 2・Nano Banana Pro・Seedream）を編集可能な完成成果物に包み込む。このテンプレート層こそ真の価値だ。レビュアーは一様に、一発の生成を使えるものに変えるのがこれだと指摘し、初心者は重い制作スイートを学ばずに到達できる。共有クレジットプールで複数の主要モデルを走らせられるのは実利的で、月$15のPro（商用権付き）はクリエイターや小規模事業者向けの価格だ。ただし注意点も本物だ。無料枠は厳しく制限され（3時間ごとに約10〜15枚、商用不可）、出力品質はどのモデルに回すかで変わり、精密な制御を求める上級デザイナー向けのツールではない。とはいえ、アイデアから成品グラフィックへ素早く親しみやすく至る手段として、Playgroundは十分試す価値がある——特にテンプレートとスピードが、ピクセル単位の制御より重要ならなおさらだ。",
+        "es": "Playground se ha convertido en silencio en un producto distinto del generador de imágenes en bruto que muchos recuerdan. Fundada por Suhail Doshi (de Mixpanel), ahora se posiciona como plataforma de diseño gráfico por plantillas: eliges un caso de uso —logo, camiseta, post social, pegatina— y envuelve modelos de imagen punteros (GPT Image 2, Nano Banana Pro, Seedream) en un entregable editable y terminado. Esa capa de plantillas es el verdadero valor; los reseñadores señalan de forma consistente que es lo que convierte una generación puntual en algo usable, y los principiantes llegan ahí sin aprender una suite pesada. Ejecutar varios modelos líderes bajo una bolsa de créditos compartida es una comodidad real, y con Pro a $15/mes (con derechos comerciales) tiene un precio pensado para creadores y pequeños negocios. Las salvedades son reales: el nivel gratuito está muy limitado (unas 10–15 imágenes por 3 horas, sin uso comercial), la calidad depende del modelo al que dirijas y no es una herramienta de precisión para diseñadores avanzados que quieran control fino. Aun así, como vía rápida y amable de pasar de la idea al gráfico terminado, Playground merece una prueba, sobre todo si las plantillas y la velocidad te importan más que el control al píxel.",
+        "fr": "Playground est devenu discrètement un produit différent du générateur d'images brut dont beaucoup se souviennent. Fondé par Suhail Doshi (de Mixpanel), il se positionne désormais comme une plateforme de design graphique par modèles : vous choisissez un cas d'usage — logo, T-shirt, post social, sticker — et il enveloppe des modèles d'image de pointe (GPT Image 2, Nano Banana Pro, Seedream) dans un livrable éditable et fini. Cette couche de modèles est la vraie valeur ; les testeurs notent régulièrement que c'est elle qui transforme une génération ponctuelle en quelque chose d'exploitable, et les débutants y parviennent sans apprendre une suite lourde. Faire tourner plusieurs modèles de premier plan sous une réserve de crédits partagée est un vrai confort, et à 15 $/mois le Pro (avec droits commerciaux) vise les créateurs et petites entreprises. Les réserves sont réelles : l'offre gratuite est étroitement plafonnée (environ 10–15 images par 3 heures, sans usage commercial), la qualité dépend du modèle vers lequel vous routez, et ce n'est pas un outil de précision pour les designers avancés voulant un contrôle fin. Mais comme moyen rapide et convivial de passer de l'idée au visuel fini, Playground vaut bien un essai — surtout si les modèles et la vitesse comptent plus pour vous que le contrôle au pixel près."
+      },
+      "bestFor": {
+        "en": [
+          "Beginners and non-designers who want finished graphics fast",
+          "Small businesses and creators making merch and social visuals on a budget",
+          "Trying several top image models from one interface"
+        ],
+        "zh": [
+          "想快速拿到成品图的新手与非设计师",
+          "以有限预算做周边与社媒视觉的小微企业与创作者",
+          "在一个界面里试用多款顶级图像模型"
+        ],
+        "ja": [
+          "完成グラフィックを素早く欲しい初心者・非デザイナー",
+          "限られた予算でグッズやSNSビジュアルを作る小規模事業者・クリエイター",
+          "一つの画面で複数のトップ画像モデルを試したい人"
+        ],
+        "es": [
+          "Principiantes y no diseñadores que quieren gráficos terminados rápido",
+          "Pequeños negocios y creadores que hacen merch y visuales sociales con presupuesto ajustado",
+          "Probar varios modelos de imagen punteros desde una interfaz"
+        ],
+        "fr": [
+          "Débutants et non-designers voulant des visuels finis rapidement",
+          "Petites entreprises et créateurs faisant goodies et visuels sociaux à budget limité",
+          "Essayer plusieurs modèles d'image de pointe depuis une seule interface"
+        ]
+      },
+      "considerAlternatives": {
+        "en": [
+          "You're a professional designer needing fine control and vector output (→ Recraft, Adobe)",
+          "You want top raw image quality and prompt fidelity above templates (→ Reve, Midjourney)"
+        ],
+        "zh": [
+          "你是需要精细控制与矢量输出的专业设计师（→ Recraft、Adobe）",
+          "比起模板，你更看重顶级的原始画质与提示词遵循（→ Reve、Midjourney）"
+        ],
+        "ja": [
+          "精密制御とベクター出力が必要なプロデザイナー（→ Recraft、Adobe）",
+          "テンプレートよりトップの素の画質とプロンプト忠実度が欲しい（→ Reve、Midjourney）"
+        ],
+        "es": [
+          "Eres diseñador profesional y necesitas control fino y salida vectorial (→ Recraft, Adobe)",
+          "Quieres máxima calidad de imagen en bruto y fidelidad al prompt por encima de plantillas (→ Reve, Midjourney)"
+        ],
+        "fr": [
+          "Vous êtes designer professionnel et avez besoin d'un contrôle fin et d'une sortie vectorielle (→ Recraft, Adobe)",
+          "Vous voulez une qualité d'image brute et une fidélité au prompt de premier ordre plutôt que des modèles (→ Reve, Midjourney)"
+        ]
+      }
+    },
+    "meta": {
+      "lastVerified": "2026-07-28",
+      "verdictDate": "2026-07-28",
+      "pricingVerified": "2026-07-28",
+      "pricingUrl": "https://playgroundai.com/design/pricing"
+    }
+  },
+  "recraft": {
+    "features": {
+      "en": [
+        "In-house Recraft V4 model, consistently top-ranked on text-to-image leaderboards for design work",
+        "Native vector (SVG) generation — the standout feature, producing editable, infinitely scalable graphics",
+        "Brand style controls: create and reuse custom styles so every asset stays on-brand",
+        "Icon sets, patterns and 3D mockups generated with clean geometry instead of warped overlays",
+        "Strong in-image text rendering and precise prompt fidelity tuned for logos, posters and marketing",
+        "Infinite canvas workspace with editing tools, upscaling and background removal in one place"
+      ],
+      "zh": [
+        "自研 Recraft V4 模型，在文生图设计榜单上长期名列前茅",
+        "原生矢量（SVG）生成——最亮眼的能力，产出可编辑、可无限缩放的图形",
+        "品牌风格控制：可创建并复用自定义风格，让每一张素材都保持品牌一致",
+        "图标套组、图案与 3D 样机以干净几何生成，而非扭曲贴图",
+        "强大的图内文字渲染与精准提示词遵循，专为 Logo、海报与营销物料调校",
+        "无限画布工作区，编辑、放大、去背景一站式完成"
+      ],
+      "ja": [
+        "自社製Recraft V4モデル、デザイン向けの文章から画像生成のランキングで常に上位",
+        "ネイティブなベクター（SVG）生成——最大の特徴で、編集可能かつ無限に拡大できるグラフィックを生成",
+        "ブランドスタイル制御：カスタムスタイルを作成・再利用し、あらゆる素材をブランドに統一",
+        "アイコンセット・パターン・3Dモックアップを歪んだ貼り付けでなく美しい幾何で生成",
+        "画像内テキストの高精度レンダリングと正確なプロンプト忠実度、ロゴ・ポスター・マーケ向けに最適化",
+        "無限キャンバスの作業空間で、編集・アップスケール・背景除去を一箇所で完結"
+      ],
+      "es": [
+        "Modelo propio Recraft V4, sistemáticamente entre los primeros en los rankings de texto a imagen para diseño",
+        "Generación vectorial (SVG) nativa: la función estrella, produce gráficos editables e infinitamente escalables",
+        "Controles de estilo de marca: crea y reutiliza estilos propios para que cada recurso mantenga la identidad",
+        "Conjuntos de iconos, patrones y mockups 3D generados con geometría limpia en vez de superposiciones deformadas",
+        "Sólido renderizado de texto en imagen y alta fidelidad al prompt, afinado para logos, pósters y marketing",
+        "Lienzo infinito con edición, escalado y eliminación de fondo en un mismo lugar"
+      ],
+      "fr": [
+        "Modèle maison Recraft V4, régulièrement en tête des classements text-to-image pour le design",
+        "Génération vectorielle (SVG) native — la fonction phare, produisant des graphiques éditables et infiniment redimensionnables",
+        "Contrôles de style de marque : créez et réutilisez des styles personnalisés pour garder chaque visuel cohérent",
+        "Jeux d'icônes, motifs et mockups 3D générés avec une géométrie propre plutôt que des placages déformés",
+        "Rendu de texte dans l'image solide et fidélité au prompt précise, calibrés pour logos, affiches et marketing",
+        "Espace de travail à canevas infini avec édition, upscaling et détourage réunis au même endroit"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "Free plan at $0 with a limited daily credit allowance (around 50 credits/day) for personal, non-commercial exploration of the core AI features.",
+        "zh": "免费版 $0，提供有限的每日额度（约 50 积分/天），供个人非商业地体验核心 AI 功能。",
+        "ja": "無料プランは$0で、1日あたりのクレジットが限定的（約50クレジット/日）。個人・非商用でコア機能を試せる。",
+        "es": "Plan gratuito de $0 con una asignación diaria limitada de créditos (unos 50/día) para explorar las funciones básicas de forma personal y no comercial.",
+        "fr": "Plan gratuit à 0 $ avec une allocation quotidienne limitée de crédits (environ 50/jour) pour explorer les fonctions de base à usage personnel et non commercial."
+      },
+      "paid": {
+        "en": "Basic starts at $12/month (1,000 credits, or $10/month billed annually). Pro scales by credit tier from $20/month (2,000 credits) up to $160/month (16,000 credits), with annual billing up to 20% cheaper. Teams plans start at $22/month. All paid plans include private generation and commercial usage rights. (Verified on the official pricing page, 2026-07-28.)",
+        "zh": "Basic 版 $12/月（1000 积分，按年付则 $10/月）。Pro 版按积分档从 $20/月（2000 积分）到 $160/月（16000 积分），按年付最多便宜 20%。Teams 版 $22/月起。所有付费版含私有生成与商用授权。（官方定价页核实，2026-07-28。）",
+        "ja": "Basicは月$12（1,000クレジット、年払いなら月$10）。Proはクレジット階層で月$20（2,000）から月$160（16,000）まで、年払いで最大20%割引。Teamsは月$22から。全有料プランに非公開生成と商用利用権を含む。（公式価格ページで確認、2026-07-28。）",
+        "es": "Basic desde $12/mes (1.000 créditos, o $10/mes con pago anual). Pro escala por niveles de crédito desde $20/mes (2.000) hasta $160/mes (16.000), con hasta 20% de descuento anual. Teams desde $22/mes. Todos los planes de pago incluyen generación privada y derechos de uso comercial. (Verificado en la página oficial, 2026-07-28.)",
+        "fr": "Basic à partir de 12 $/mois (1 000 crédits, ou 10 $/mois en facturation annuelle). Pro évolue par palier de crédits de 20 $/mois (2 000) à 160 $/mois (16 000), avec jusqu'à 20 % de remise annuelle. Teams à partir de 22 $/mois. Tous les plans payants incluent la génération privée et les droits d'usage commercial. (Vérifié sur la page officielle, 2026-07-28.)"
+      }
+    },
+    "useCases": {
+      "en": [
+        "Designers and brand teams producing on-brand logos, icons and marketing assets at scale",
+        "Creating editable vector graphics (SVG) that other AI image tools simply can't output",
+        "Generating product mockups and packaging with clean 3D geometry",
+        "Building reusable custom styles to keep a whole campaign visually consistent"
+      ],
+      "zh": [
+        "设计师与品牌团队批量产出符合品牌调性的 Logo、图标与营销素材",
+        "生成可编辑的矢量图形（SVG）——这是其他 AI 图像工具做不到的",
+        "以干净的 3D 几何生成产品样机与包装",
+        "构建可复用的自定义风格，让整场活动视觉统一"
+      ],
+      "ja": [
+        "デザイナーやブランドチームがブランド調のロゴ・アイコン・マーケ素材を大量制作",
+        "他のAI画像ツールでは出力できない編集可能なベクター（SVG）を生成",
+        "美しい3D幾何で製品モックアップやパッケージを生成",
+        "再利用可能なカスタムスタイルを構築し、キャンペーン全体の見た目を統一"
+      ],
+      "es": [
+        "Diseñadores y equipos de marca que producen logos, iconos y recursos de marketing a escala y con identidad",
+        "Crear gráficos vectoriales editables (SVG) que otras herramientas de IA no pueden generar",
+        "Generar mockups de producto y packaging con geometría 3D limpia",
+        "Construir estilos personalizados reutilizables para mantener toda una campaña visualmente coherente"
+      ],
+      "fr": [
+        "Designers et équipes de marque produisant logos, icônes et visuels marketing à grande échelle et cohérents",
+        "Créer des graphiques vectoriels éditables (SVG) que les autres outils d'IA ne savent pas générer",
+        "Générer des mockups produit et des packagings avec une géométrie 3D propre",
+        "Construire des styles personnalisés réutilisables pour garder toute une campagne cohérente"
+      ]
+    },
+    "pros": {
+      "en": [
+        "Best-in-class native vector generation — a genuinely unique capability among AI image tools",
+        "Excellent in-image text and prompt fidelity, purpose-built for real design work",
+        "Custom brand styles keep output consistent across an entire project",
+        "All-in-one platform: generate, edit, upscale, remove backgrounds and mock up in one canvas"
+      ],
+      "zh": [
+        "一流的原生矢量生成——在 AI 图像工具中确实独此一家",
+        "出色的图内文字与提示词遵循，为真实设计工作而生",
+        "自定义品牌风格让整个项目的产出保持一致",
+        "一站式平台：生成、编辑、放大、去背景、样机都在同一画布完成"
+      ],
+      "ja": [
+        "クラス最高のネイティブベクター生成——AI画像ツールの中で本当に唯一無二の能力",
+        "画像内テキストとプロンプト忠実度が優秀、実務のデザイン向けに設計",
+        "カスタムブランドスタイルでプロジェクト全体の出力を統一",
+        "オールインワン：生成・編集・アップスケール・背景除去・モックアップを一つのキャンバスで"
+      ],
+      "es": [
+        "Generación vectorial nativa de primer nivel: una capacidad realmente única entre las herramientas de IA",
+        "Excelente texto en imagen y fidelidad al prompt, pensados para trabajo de diseño real",
+        "Los estilos de marca personalizados mantienen la coherencia en todo un proyecto",
+        "Plataforma todo en uno: generar, editar, escalar, quitar fondos y hacer mockups en un lienzo"
+      ],
+      "fr": [
+        "Génération vectorielle native de premier plan — une capacité réellement unique parmi les outils d'IA",
+        "Excellent rendu de texte dans l'image et fidélité au prompt, conçus pour le vrai travail de design",
+        "Les styles de marque personnalisés gardent la cohérence sur tout un projet",
+        "Plateforme tout-en-un : générer, éditer, upscaler, détourer et faire des mockups sur un seul canevas"
+      ]
+    },
+    "cons": {
+      "en": [
+        "More design-focused and less freewheeling than general models like Midjourney for pure art",
+        "Credit-based pricing means heavy users can burn through allowances quickly",
+        "Free tier is quite limited and personal/non-commercial only",
+        "The design-first workflow has a slight learning curve for casual users"
+      ],
+      "zh": [
+        "更偏设计、比 Midjourney 等通用模型在纯艺术创作上少了些天马行空",
+        "按积分计费，重度用户可能很快用完额度",
+        "免费档相当受限，且仅限个人非商用",
+        "以设计为先的工作流，对轻度用户有一点学习成本"
+      ],
+      "ja": [
+        "デザイン寄りで、純粋なアート用途ではMidjourneyなど汎用モデルほど自由奔放ではない",
+        "クレジット課金のため、ヘビーユーザーは配分をすぐ使い切る恐れ",
+        "無料枠はかなり限定的で、個人・非商用のみ",
+        "デザイン優先のワークフローはライトユーザーに多少の学習コスト"
+      ],
+      "es": [
+        "Más orientada al diseño y menos libre que modelos generales como Midjourney para arte puro",
+        "El precio por créditos hace que los usuarios intensivos agoten las asignaciones rápido",
+        "El nivel gratuito es bastante limitado y solo para uso personal/no comercial",
+        "El flujo centrado en diseño tiene una ligera curva de aprendizaje para usuarios casuales"
+      ],
+      "fr": [
+        "Plus orientée design et moins débridée que des modèles généraux comme Midjourney pour l'art pur",
+        "La tarification au crédit fait que les gros utilisateurs épuisent vite leurs allocations",
+        "L'offre gratuite est assez limitée et réservée à un usage personnel/non commercial",
+        "Le workflow orienté design a une légère courbe d'apprentissage pour les utilisateurs occasionnels"
+      ]
+    },
+    "latestUpdate": {
+      "en": "2026: Recraft V4 keeps its place among the top-ranked models on text-to-image leaderboards, with sharpened text rendering, richer 3D mockup geometry and expanded brand-style tooling. The credit-based subscription structure spans Free, Basic, Pro and Teams tiers, and commercial rights ship with every paid plan.",
+      "zh": "2026 年：Recraft V4 稳居文生图榜单前列，文字渲染更锐利、3D 样机几何更丰富、品牌风格工具进一步扩展。按积分的订阅结构覆盖 Free、Basic、Pro 与 Teams，所有付费版均含商用授权。",
+      "ja": "2026年：Recraft V4は文章から画像生成のランキングで上位を維持し、テキスト描画の精度向上、3Dモックアップ幾何の充実、ブランドスタイル機能の拡張が進む。クレジット制のサブスクはFree・Basic・Pro・Teamsをカバーし、全有料プランに商用権が付く。",
+      "es": "2026: Recraft V4 mantiene su lugar entre los mejores modelos en los rankings de texto a imagen, con renderizado de texto más nítido, geometría de mockup 3D más rica y más herramientas de estilo de marca. La suscripción por créditos abarca Free, Basic, Pro y Teams, y los derechos comerciales vienen en todos los planes de pago.",
+      "fr": "2026 : Recraft V4 conserve sa place parmi les meilleurs modèles des classements text-to-image, avec un rendu de texte plus net, une géométrie de mockup 3D plus riche et des outils de style de marque étendus. L'abonnement au crédit couvre Free, Basic, Pro et Teams, et les droits commerciaux sont inclus dans chaque plan payant."
+    },
+    "verdict": {
+      "badge": "Recommended",
+      "headline": {
+        "en": "The AI image tool that actually thinks like a designer",
+        "zh": "真正像设计师一样思考的 AI 图像工具",
+        "ja": "本当にデザイナーのように考えるAI画像ツール",
+        "es": "La herramienta de imagen con IA que realmente piensa como diseñador",
+        "fr": "L'outil d'image par IA qui pense vraiment comme un designer"
+      },
+      "body": {
+        "en": "Most AI image generators are built to make pretty pictures; Recraft is built to make design assets. Founded by the creator of CatBoost, it pairs its top-ranked in-house V4 model with the one feature the rest of the field still can't match: native, editable vector (SVG) output. That alone makes it indispensable for anyone producing logos, icons or illustrations that need to scale cleanly. Add genuinely strong in-image text, custom brand styles that hold consistency across a whole campaign, and clean 3D mockups, and you have a platform aimed squarely at professional workflows rather than one-off art. The trade-offs are the flip side of that focus: it's less freewheeling than Midjourney for pure creative exploration, and its credit-based pricing (Free is limited and non-commercial; paid runs $12–$160/month) can add up for heavy users. But if your work is brand and design rather than gallery pieces, Recraft's vector engine and consistency tools put it in a category of its own. For designers and brand teams, it's an easy recommendation.",
+        "zh": "大多数 AI 图像生成器的目标是产出好看的图片，而 Recraft 的目标是产出设计素材。它由 CatBoost 作者创办，把长期名列前茅的自研 V4 模型，与全行业至今仍无法匹敌的一项能力结合起来：原生、可编辑的矢量（SVG）输出。仅凭这一点，它对任何需要干净缩放的 Logo、图标或插画的人来说都不可或缺。再加上确实过硬的图内文字、能贯穿整场活动保持一致的自定义品牌风格，以及干净的 3D 样机，你得到的是一个瞄准专业工作流、而非一次性艺术的平台。代价正是这种专注的另一面：在纯创意探索上它不如 Midjourney 天马行空，按积分的定价（免费档受限且非商用；付费 $12–$160/月）对重度用户会累积成本。但如果你的工作是品牌与设计、而非画廊作品，Recraft 的矢量引擎与一致性工具让它自成一档。对设计师与品牌团队而言，这是一次轻松的推荐。",
+        "ja": "多くのAI画像生成は「きれいな絵」を作るために作られているが、Recraftは「デザイン素材」を作るために作られている。CatBoostの作者が創業し、上位ランクの自社製V4モデルに、業界が今も追随できない機能——ネイティブで編集可能なベクター（SVG）出力——を組み合わせる。この一点だけで、きれいに拡大できるロゴ・アイコン・イラストを作る人には欠かせない。さらに実力ある画像内テキスト、キャンペーン全体で一貫性を保つカスタムブランドスタイル、美しい3Dモックアップが加わり、一発芸ではなくプロのワークフローを狙ったプラットフォームになっている。代償はその特化の裏返しだ。純粋な創作探索ではMidjourneyほど自由でなく、クレジット課金（無料は限定・非商用、有料は月$12〜$160）はヘビーユーザーには積み上がる。だが仕事がギャラリー作品でなくブランドとデザインなら、Recraftのベクターエンジンと一貫性ツールは独自の地位にある。デザイナーとブランドチームには、迷わず勧められる。",
+        "es": "La mayoría de generadores de imágenes con IA están hechos para crear imágenes bonitas; Recraft está hecho para crear recursos de diseño. Fundada por el creador de CatBoost, combina su modelo propio V4, de los mejor clasificados, con la única función que el resto del sector aún no iguala: salida vectorial (SVG) nativa y editable. Solo eso lo vuelve indispensable para quien produce logos, iconos o ilustraciones que deben escalar sin perder calidad. Súmale un texto en imagen realmente sólido, estilos de marca personalizados que mantienen la coherencia en toda una campaña y mockups 3D limpios, y tienes una plataforma orientada a flujos profesionales, no al arte de una sola vez. Las contrapartidas son la cara b de ese enfoque: es menos libre que Midjourney para la exploración creativa pura, y su precio por créditos (el gratis es limitado y no comercial; el de pago va de $12 a $160/mes) puede acumularse para usuarios intensivos. Pero si tu trabajo es marca y diseño más que piezas de galería, el motor vectorial y las herramientas de coherencia de Recraft lo colocan en una categoría propia. Para diseñadores y equipos de marca, es una recomendación fácil.",
+        "fr": "La plupart des générateurs d'images par IA sont faits pour produire de belles images ; Recraft est fait pour produire des visuels de design. Fondé par le créateur de CatBoost, il associe son modèle maison V4 très bien classé à la seule fonction que le reste du secteur ne parvient toujours pas à égaler : une sortie vectorielle (SVG) native et éditable. Cela seul le rend indispensable à quiconque produit des logos, icônes ou illustrations devant se redimensionner proprement. Ajoutez un texte dans l'image vraiment solide, des styles de marque personnalisés qui tiennent la cohérence sur toute une campagne et des mockups 3D propres, et vous obtenez une plateforme visant les workflows professionnels plutôt que l'art ponctuel. Les compromis sont l'envers de cette spécialisation : il est moins débridé que Midjourney pour l'exploration créative pure, et sa tarification au crédit (le gratuit est limité et non commercial ; le payant va de 12 à 160 $/mois) peut s'accumuler pour les gros utilisateurs. Mais si votre travail relève de la marque et du design plutôt que d'œuvres de galerie, le moteur vectoriel et les outils de cohérence de Recraft le placent dans une catégorie à part. Pour les designers et les équipes de marque, c'est une recommandation facile."
+      },
+      "bestFor": {
+        "en": [
+          "Designers and brand teams needing consistent, on-brand assets",
+          "Anyone who needs editable vector (SVG) output from AI",
+          "Marketing and product teams producing logos, icons and mockups"
+        ],
+        "zh": [
+          "需要一致、符合品牌调性素材的设计师与品牌团队",
+          "任何需要 AI 产出可编辑矢量（SVG）的人",
+          "产出 Logo、图标与样机的营销与产品团队"
+        ],
+        "ja": [
+          "一貫したブランド調の素材が必要なデザイナー・ブランドチーム",
+          "AIから編集可能なベクター（SVG）出力が必要な人",
+          "ロゴ・アイコン・モックアップを作るマーケ・製品チーム"
+        ],
+        "es": [
+          "Diseñadores y equipos de marca que necesitan recursos coherentes y con identidad",
+          "Cualquiera que necesite salida vectorial (SVG) editable desde IA",
+          "Equipos de marketing y producto que producen logos, iconos y mockups"
+        ],
+        "fr": [
+          "Designers et équipes de marque ayant besoin de visuels cohérents et fidèles à la marque",
+          "Quiconque a besoin d'une sortie vectorielle (SVG) éditable depuis l'IA",
+          "Équipes marketing et produit produisant logos, icônes et mockups"
+        ]
+      },
+      "considerAlternatives": {
+        "en": [
+          "You want maximum creative range for artistic images (→ Midjourney, Stable Diffusion)",
+          "You need a free, unlimited generator without credit limits (→ general free image tools)"
+        ],
+        "zh": [
+          "你想要面向艺术图像的最大创作自由度（→ Midjourney、Stable Diffusion）",
+          "你需要一个免费、无积分限制的生成器（→ 通用免费图像工具）"
+        ],
+        "ja": [
+          "アート画像で最大の創作自由度が欲しい（→ Midjourney、Stable Diffusion）",
+          "クレジット制限のない無料・無制限の生成器が必要（→ 汎用の無料画像ツール）"
+        ],
+        "es": [
+          "Quieres el máximo rango creativo para imágenes artísticas (→ Midjourney, Stable Diffusion)",
+          "Necesitas un generador gratuito e ilimitado sin límites de crédito (→ herramientas de imagen gratuitas generales)"
+        ],
+        "fr": [
+          "Vous voulez un maximum de liberté créative pour des images artistiques (→ Midjourney, Stable Diffusion)",
+          "Vous avez besoin d'un générateur gratuit et illimité sans limites de crédits (→ outils d'image gratuits généraux)"
+        ]
+      }
+    },
+    "meta": {
+      "lastVerified": "2026-07-28",
+      "verdictDate": "2026-07-28",
+      "pricingVerified": "2026-07-28",
+      "pricingUrl": "https://www.recraft.ai/pricing"
+    }
+  },
+  "reve": {
+    "features": {
+      "en": [
+        "In-house Reve models built for state-of-the-art text rendering and prompt adherence",
+        "Natural-language editing: describe a change in plain words and Reve applies it to the image",
+        "Drag-and-drop image editor combining generation, editing and remixing in one canvas",
+        "Multi-reference blending to combine styles and subjects while preserving intent",
+        "Reve 2.0 adds a 4K layout-aware model that grounds generation in spatial composition",
+        "Usage-based API for developers alongside the consumer web app"
+      ],
+      "zh": [
+        "自研 Reve 模型，主打业界领先的文字渲染与提示词遵循",
+        "自然语言编辑：用大白话描述改动，Reve 就把它应用到图像上",
+        "拖拽式图像编辑器，把生成、编辑与混剪集于一块画布",
+        "多参考图融合，在保留意图的同时组合风格与主体",
+        "Reve 2.0 新增 4K 布局感知模型，让生成扎根于空间构图",
+        "面向开发者的按量计费 API，与消费级网页应用并行"
+      ],
+      "ja": [
+        "自社製Reveモデル、最先端のテキスト描画とプロンプト忠実度を追求",
+        "自然言語編集：普通の言葉で変更を伝えると、Reveが画像に適用",
+        "生成・編集・リミックスを一つのキャンバスに集約したドラッグ&ドロップ編集器",
+        "マルチ参照ブレンドで、意図を保ちつつスタイルと被写体を組み合わせ",
+        "Reve 2.0は4Kレイアウト対応モデルを追加し、生成を空間構成に基づかせる",
+        "消費者向けWebアプリに加え、開発者向けの従量課金API"
+      ],
+      "es": [
+        "Modelos propios de Reve creados para un renderizado de texto y una fidelidad al prompt de vanguardia",
+        "Edición en lenguaje natural: describe un cambio con palabras y Reve lo aplica a la imagen",
+        "Editor de arrastrar y soltar que une generación, edición y remezcla en un mismo lienzo",
+        "Mezcla de múltiples referencias para combinar estilos y sujetos preservando la intención",
+        "Reve 2.0 añade un modelo 4K consciente del layout que ancla la generación en la composición espacial",
+        "API de uso medido para desarrolladores junto a la app web de consumo"
+      ],
+      "fr": [
+        "Modèles maison Reve conçus pour un rendu de texte et une fidélité au prompt de pointe",
+        "Édition en langage naturel : décrivez un changement en mots simples et Reve l'applique à l'image",
+        "Éditeur glisser-déposer réunissant génération, édition et remix sur un seul canevas",
+        "Fusion multi-références pour combiner styles et sujets tout en préservant l'intention",
+        "Reve 2.0 ajoute un modèle 4K sensible à la mise en page qui ancre la génération dans la composition spatiale",
+        "API à l'usage pour les développeurs, en parallèle de l'app web grand public"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "Free plan at $0 with a generous daily \"energy\" allowance for image generation and editing, chat-based editing and basic storage.",
+        "zh": "免费版 $0，提供慷慨的每日「能量」额度用于生成与编辑，含对话式编辑与基础存储。",
+        "ja": "無料プランは$0で、生成・編集に使える1日あたりの潤沢な「エナジー」枠、チャット編集、基本ストレージを含む。",
+        "es": "Plan gratuito de $0 con una generosa asignación diaria de \"energía\" para generar y editar, edición por chat y almacenamiento básico.",
+        "fr": "Plan gratuit à 0 $ avec une allocation quotidienne généreuse d'« énergie » pour générer et éditer, l'édition par chat et un stockage de base."
+      },
+      "paid": {
+        "en": "Lite is $7.99/month (roughly 5x the free allowance and storage). Pro is $19.99/month for creating without practical limits. A separate usage-based API is billed by consumption for developers. (Verified against the official pricing page, 2026-07-28.)",
+        "zh": "Lite 版 $7.99/月（额度与存储约为免费版的 5 倍）。Pro 版 $19.99/月，几乎无限制地创作。面向开发者另有按用量计费的 API。（对照官方定价页核实，2026-07-28。）",
+        "ja": "Liteは月$7.99（無料枠とストレージの約5倍）。Proは月$19.99で実質無制限に作成可能。開発者向けには従量課金の別APIがある。（公式価格ページと照合、2026-07-28。）",
+        "es": "Lite cuesta $7.99/mes (unas 5 veces la asignación y el almacenamiento gratuitos). Pro cuesta $19.99/mes para crear sin límites prácticos. Hay una API aparte de uso medido facturada por consumo para desarrolladores. (Verificado con la página oficial, 2026-07-28.)",
+        "fr": "Lite est à 7,99 $/mois (environ 5x l'allocation et le stockage gratuits). Pro est à 19,99 $/mois pour créer sans limite pratique. Une API distincte à l'usage est facturée à la consommation pour les développeurs. (Vérifié avec la page officielle, 2026-07-28.)"
+      }
+    },
+    "useCases": {
+      "en": [
+        "Generating images that need legible, accurate text — signs, labels, short logos",
+        "Iterative editing where you refine a picture through plain-language instructions",
+        "Blending several reference images into one coherent composition",
+        "Developers embedding image generation via the usage-based API"
+      ],
+      "zh": [
+        "生成需要清晰、准确文字的图像——招牌、标签、短 Logo",
+        "通过大白话指令反复打磨一张图的迭代式编辑",
+        "把多张参考图融合成一张连贯的构图",
+        "开发者通过按量计费 API 嵌入图像生成"
+      ],
+      "ja": [
+        "読みやすく正確なテキストが必要な画像の生成——看板・ラベル・短いロゴ",
+        "普通の言葉の指示で画像を磨き込む反復編集",
+        "複数の参照画像を一つの一貫した構図にブレンド",
+        "従量課金APIで画像生成を組み込む開発者"
+      ],
+      "es": [
+        "Generar imágenes que necesitan texto legible y preciso: carteles, etiquetas, logos cortos",
+        "Edición iterativa donde refinas una imagen con instrucciones en lenguaje llano",
+        "Combinar varias imágenes de referencia en una composición coherente",
+        "Desarrolladores que integran generación de imágenes vía la API de uso medido"
+      ],
+      "fr": [
+        "Générer des images nécessitant un texte lisible et exact — panneaux, étiquettes, logos courts",
+        "Édition itérative où l'on affine une image via des instructions en langage courant",
+        "Fusionner plusieurs images de référence en une composition cohérente",
+        "Développeurs intégrant la génération d'images via l'API à l'usage"
+      ]
+    },
+    "pros": {
+      "en": [
+        "Among the best in the field at rendering legible in-image text and following prompts",
+        "Natural-language editing plus a drag-and-drop canvas make iteration fast and intuitive",
+        "Reve 2.0 ranks near the top of independent text-to-image arenas",
+        "Affordable paid tiers ($7.99 / $19.99) with a genuinely usable free plan"
+      ],
+      "zh": [
+        "在图内文字清晰度与提示词遵循上位居行业前列",
+        "自然语言编辑加拖拽画布，让迭代又快又直观",
+        "Reve 2.0 在独立的文生图竞技榜上名列前茅",
+        "付费档实惠（$7.99 / $19.99），且免费版真的够用"
+      ],
+      "ja": [
+        "画像内テキストの読みやすさとプロンプト遵守で業界トップクラス",
+        "自然言語編集とドラッグ&ドロップのキャンバスで反復が速く直感的",
+        "Reve 2.0は独立系の文章から画像生成アリーナで上位にランク",
+        "有料プランが手頃（$7.99／$19.99）で、無料プランも実用的"
+      ],
+      "es": [
+        "De los mejores del sector renderizando texto legible en imagen y siguiendo prompts",
+        "La edición en lenguaje natural más un lienzo de arrastrar y soltar hacen la iteración rápida e intuitiva",
+        "Reve 2.0 se sitúa cerca de lo más alto en arenas independientes de texto a imagen",
+        "Planes de pago asequibles ($7.99 / $19.99) con un plan gratuito realmente usable"
+      ],
+      "fr": [
+        "Parmi les meilleurs du secteur pour le rendu d'un texte lisible dans l'image et le respect des prompts",
+        "L'édition en langage naturel et un canevas glisser-déposer rendent l'itération rapide et intuitive",
+        "Reve 2.0 se classe près du sommet des arènes text-to-image indépendantes",
+        "Des offres payantes abordables (7,99 $ / 19,99 $) avec un plan gratuit réellement utilisable"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Can struggle with scale and proportion, and with fidelity on complex edit prompts",
+        "Longer passages of text are less reliable than short strings",
+        "A newer, less-known name than incumbents like Midjourney or Adobe",
+        "No native vector output — it's raster generation and editing only"
+      ],
+      "zh": [
+        "在尺度与比例、以及复杂编辑指令的遵循上可能吃力",
+        "长段文字的可靠性不如短字符串",
+        "相比 Midjourney、Adobe 等老牌，是更新、知名度更低的名字",
+        "无原生矢量输出——仅限位图生成与编辑"
+      ],
+      "ja": [
+        "スケールや比率、複雑な編集プロンプトの忠実度で苦戦することがある",
+        "長い文章は短い文字列ほど安定しない",
+        "MidjourneyやAdobeなど既存勢に比べ新参で知名度が低い",
+        "ネイティブのベクター出力なし——ラスターの生成・編集のみ"
+      ],
+      "es": [
+        "Puede tener problemas con escala y proporción, y con la fidelidad en prompts de edición complejos",
+        "Los pasajes largos de texto son menos fiables que las cadenas cortas",
+        "Un nombre más nuevo y menos conocido que veteranos como Midjourney o Adobe",
+        "Sin salida vectorial nativa: solo generación y edición ráster"
+      ],
+      "fr": [
+        "Peut peiner sur l'échelle et les proportions, et sur la fidélité des prompts d'édition complexes",
+        "Les longs passages de texte sont moins fiables que les chaînes courtes",
+        "Un nom plus récent et moins connu que des acteurs établis comme Midjourney ou Adobe",
+        "Pas de sortie vectorielle native — génération et édition raster uniquement"
+      ]
+    },
+    "latestUpdate": {
+      "en": "2026: Reve 2.0 lands as a 4K, layout-aware model that grounds generation in spatial composition, pushing Reve near the top of independent text-to-image arenas as a leading indie image lab. Consumer plans stay simple (Free, Lite $7.99, Pro $19.99) alongside a usage-based developer API.",
+      "zh": "2026 年：Reve 2.0 以 4K、布局感知模型登场，让生成扎根于空间构图，把 Reve 推到独立文生图竞技榜前列，成为领先的独立图像实验室。消费级套餐保持简单（Free、Lite $7.99、Pro $19.99），并配有按量计费的开发者 API。",
+      "ja": "2026年：Reve 2.0が4K・レイアウト対応モデルとして登場し、生成を空間構成に基づかせ、独立系の文章から画像生成アリーナで上位に。有力なインディー画像ラボとしての地位を固める。消費者向けはシンプル（Free、Lite $7.99、Pro $19.99）で、従量課金の開発者APIも併設。",
+      "es": "2026: Reve 2.0 llega como un modelo 4K consciente del layout que ancla la generación en la composición espacial, situando a Reve cerca de lo más alto de las arenas independientes de texto a imagen como laboratorio indie destacado. Los planes de consumo siguen siendo simples (Free, Lite $7.99, Pro $19.99) junto a una API de uso medido para desarrolladores.",
+      "fr": "2026 : Reve 2.0 arrive comme un modèle 4K sensible à la mise en page qui ancre la génération dans la composition spatiale, propulsant Reve près du sommet des arènes text-to-image indépendantes comme labo d'images indépendant de premier plan. Les offres grand public restent simples (Free, Lite 7,99 $, Pro 19,99 $) aux côtés d'une API à l'usage pour développeurs."
+    },
+    "verdict": {
+      "badge": "Recommended",
+      "headline": {
+        "en": "The indie image lab that nails text and takes plain-English edits",
+        "zh": "把文字做对、还听得懂大白话改图的独立图像实验室",
+        "ja": "テキストを正確に描き、普通の言葉の編集も効くインディー画像ラボ",
+        "es": "El laboratorio indie que clava el texto y acepta ediciones en lenguaje llano",
+        "fr": "Le labo d'images indépendant qui réussit le texte et accepte les retouches en langage courant"
+      },
+      "body": {
+        "en": "Reve is one of the most impressive independent image labs to emerge recently, and it earned attention the hard way — by beating better-known rivals on the two things that trip most models up: rendering legible in-image text and actually following the prompt. Founded by an ex-Adobe/Stability product leader, it pairs its in-house models with a workflow that feels modern: describe an edit in plain English and it applies it, or drag things around on a canvas, or blend several reference images into one coherent scene. Reve 2.0's 4K, layout-aware model pushed it near the top of independent text-to-image arenas. Reviewers are candid about the rough edges too — it can wobble on scale and proportion, complex edit prompts don't always land, and long text passages are less reliable than short ones. It's also a newer name without native vector output. But at $7.99–$19.99/month with a genuinely usable free tier, Reve is one of the best-value ways to get top-tier text and prompt fidelity, and it's well worth a place in any image-tool shortlist.",
+        "zh": "Reve 是近来最令人印象深刻的独立图像实验室之一，而它是靠硬实力赢得关注的——在大多数模型翻车的两件事上击败了更知名的对手：把图内文字渲染清晰，以及真正照提示词来。它由前 Adobe/Stability 产品负责人创办，把自研模型与一套现代化工作流结合：用大白话描述改动它就照做，或在画布上拖拽，或把多张参考图融合成一个连贯场景。Reve 2.0 的 4K、布局感知模型把它推到独立文生图竞技榜前列。评测者对它的毛边也很坦白——尺度与比例可能不稳，复杂编辑指令不总是奏效，长段文字不如短字符串可靠。它也是个更新、且无原生矢量输出的名字。但在 $7.99–$19.99/月、还配一个真的够用的免费档下，Reve 是获得顶级文字与提示词遵循的高性价比选择之一，值得进入任何图像工具的候选名单。",
+        "ja": "Reveは近年登場した中でも屈指の独立系画像ラボで、実力で注目を勝ち取った——多くのモデルがつまずく2点、すなわち画像内テキストを読みやすく描くことと、実際にプロンプトに従うことで、より有名なライバルを上回った。元Adobe/Stabilityの製品責任者が創業し、自社モデルにモダンなワークフローを組み合わせる。普通の言葉で編集を伝えれば適用され、キャンバス上でドラッグでき、複数の参照画像を一つの一貫したシーンに融合できる。Reve 2.0の4K・レイアウト対応モデルは、独立系の文章から画像生成アリーナで上位に押し上げた。レビュアーは粗さにも率直だ——スケールや比率が揺れ、複雑な編集プロンプトが常に決まるわけではなく、長い文章は短い文字列ほど安定しない。ネイティブのベクター出力もない新参の名前でもある。だが月$7.99〜$19.99で、実用的な無料枠も付くReveは、トップクラスのテキストとプロンプト忠実度を得る最もコスパの良い方法の一つで、どんな画像ツールの最終候補にも入れる価値がある。",
+        "es": "Reve es uno de los laboratorios de imagen independientes más impresionantes surgidos recientemente, y se ganó la atención por la vía difícil: superando a rivales más conocidos en las dos cosas que hacen tropezar a la mayoría de modelos: renderizar texto legible en imagen y seguir de verdad el prompt. Fundada por un ex responsable de producto de Adobe/Stability, combina sus modelos propios con un flujo que se siente moderno: describe una edición en lenguaje llano y la aplica, arrastra elementos en un lienzo o mezcla varias referencias en una escena coherente. El modelo 4K consciente del layout de Reve 2.0 lo llevó cerca de lo más alto de las arenas independientes. Los reseñadores también son francos sobre las asperezas: puede tambalearse en escala y proporción, los prompts de edición complejos no siempre aciertan y los textos largos son menos fiables que los cortos. Además es un nombre más nuevo y sin salida vectorial nativa. Pero a $7.99–$19.99/mes con un nivel gratuito realmente usable, Reve es una de las mejores relaciones calidad-precio para lograr texto y fidelidad de prompt de primer nivel, y merece un sitio en cualquier lista corta de herramientas de imagen.",
+        "fr": "Reve est l'un des labos d'images indépendants les plus impressionnants apparus récemment, et il a gagné l'attention à la dure — en battant des rivaux plus connus sur les deux points où la plupart des modèles trébuchent : le rendu d'un texte lisible dans l'image et le respect réel du prompt. Fondé par un ex-responsable produit d'Adobe/Stability, il associe ses modèles maison à un workflow qui paraît moderne : décrivez une retouche en langage courant et il l'applique, déplacez des éléments sur un canevas, ou fusionnez plusieurs références en une scène cohérente. Le modèle 4K sensible à la mise en page de Reve 2.0 l'a hissé près du sommet des arènes text-to-image indépendantes. Les testeurs sont aussi francs sur les aspérités — l'échelle et les proportions peuvent flancher, les prompts d'édition complexes ne passent pas toujours, et les longs textes sont moins fiables que les courts. C'est aussi un nom plus récent, sans sortie vectorielle native. Mais à 7,99–19,99 $/mois avec une offre gratuite réellement utilisable, Reve est l'un des meilleurs rapports qualité-prix pour obtenir un texte et une fidélité de prompt de premier ordre, et mérite une place dans toute liste restreinte d'outils d'image."
+      },
+      "bestFor": {
+        "en": [
+          "Anyone whose images need clean, accurate in-image text",
+          "Creators who like editing through plain-language instructions",
+          "Budget-conscious users wanting top-tier quality at a low monthly price"
+        ],
+        "zh": [
+          "任何图像需要干净、准确图内文字的人",
+          "喜欢用大白话指令改图的创作者",
+          "在意预算、想以低月费获得顶级质量的用户"
+        ],
+        "ja": [
+          "画像に美しく正確なテキストが必要な人",
+          "普通の言葉の指示で編集するのが好きなクリエイター",
+          "予算重視で、低い月額でトップ品質を求めるユーザー"
+        ],
+        "es": [
+          "Cualquiera cuyas imágenes necesiten texto limpio y preciso",
+          "Creadores a quienes les gusta editar con instrucciones en lenguaje llano",
+          "Usuarios con presupuesto ajustado que quieren calidad de primer nivel a bajo precio mensual"
+        ],
+        "fr": [
+          "Quiconque dont les images nécessitent un texte propre et exact",
+          "Créateurs qui aiment éditer via des instructions en langage courant",
+          "Utilisateurs soucieux du budget voulant une qualité de premier ordre à faible coût mensuel"
+        ]
+      },
+      "considerAlternatives": {
+        "en": [
+          "You need editable vector output for logos and icons (→ Recraft)",
+          "You want the largest ecosystem and community around a model (→ Midjourney)"
+        ],
+        "zh": [
+          "你需要用于 Logo 与图标的可编辑矢量输出（→ Recraft）",
+          "你想要围绕一个模型的最大生态与社区（→ Midjourney）"
+        ],
+        "ja": [
+          "ロゴやアイコン向けの編集可能なベクター出力が必要（→ Recraft）",
+          "モデルを取り巻く最大のエコシステムとコミュニティが欲しい（→ Midjourney）"
+        ],
+        "es": [
+          "Necesitas salida vectorial editable para logos e iconos (→ Recraft)",
+          "Quieres el mayor ecosistema y comunidad en torno a un modelo (→ Midjourney)"
+        ],
+        "fr": [
+          "Vous avez besoin d'une sortie vectorielle éditable pour logos et icônes (→ Recraft)",
+          "Vous voulez le plus grand écosystème et la plus grande communauté autour d'un modèle (→ Midjourney)"
+        ]
+      }
+    },
+    "meta": {
+      "lastVerified": "2026-07-28",
+      "verdictDate": "2026-07-28",
+      "pricingVerified": "2026-07-28",
+      "pricingUrl": "https://reve.com/pricing"
+    }
   }
 }
