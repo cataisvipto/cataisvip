@@ -31647,5 +31647,710 @@
       "pricingVerified": "2026-07-28",
       "pricingUrl": "https://reve.com/pricing"
     }
+  },
+  "hailuo": {
+    "features": {
+      "en": [
+        "Hailuo 2.3 model renowned for physically realistic human motion — dance, sports and complex body dynamics",
+        "Text-to-video and image-to-video generation up to 1080p with strong prompt adherence",
+        "Subject reference keeps a consistent character across shots from a single photo",
+        "Built-in AI image generation alongside video in one creative workspace",
+        "Full-platform coverage: web, iOS and Android apps plus the MiniMax developer API",
+        "Credit-based tiers widely regarded as a global cost-performance benchmark for AI video"
+      ],
+      "zh": [
+        "Hailuo 2.3 模型以物理真实的人物动作著称——舞蹈、运动与复杂肢体动态",
+        "文生视频与图生视频，最高 1080p，提示词遵循能力强",
+        "主体参照功能：一张照片即可让角色在多镜头间保持一致",
+        "内置 AI 图像生成，与视频同在一个创作工作台",
+        "全平台覆盖：网页端、iOS、Android，外加 MiniMax 开发者 API",
+        "积分制套餐被广泛视为 AI 视频领域的全球性价比标杆"
+      ],
+      "ja": [
+        "Hailuo 2.3モデルは物理的にリアルな人物の動きで有名——ダンス、スポーツ、複雑な身体動作",
+        "テキストと画像からの動画生成、最大1080p、高いプロンプト忠実度",
+        "被写体参照機能：写真1枚でキャラクターを複数ショット間で一貫させる",
+        "動画と同じワークスペースにAI画像生成も内蔵",
+        "全プラットフォーム対応：Web、iOS、Androidアプリ、MiniMax開発者API",
+        "クレジット制プランはAI動画のコストパフォーマンス世界基準と広く評価"
+      ],
+      "es": [
+        "El modelo Hailuo 2.3 es célebre por el movimiento humano físicamente realista: danza, deporte y dinámicas corporales complejas",
+        "Generación texto-a-video e imagen-a-video hasta 1080p con gran fidelidad al prompt",
+        "La referencia de sujeto mantiene un personaje coherente entre tomas a partir de una sola foto",
+        "Generación de imágenes IA integrada junto al video en un mismo espacio creativo",
+        "Cobertura total de plataformas: web, apps iOS y Android, más la API de desarrolladores de MiniMax",
+        "Niveles por créditos considerados un referente mundial de relación calidad-precio en video IA"
+      ],
+      "fr": [
+        "Le modèle Hailuo 2.3 est réputé pour ses mouvements humains physiquement réalistes — danse, sport et dynamiques corporelles complexes",
+        "Génération texte-vidéo et image-vidéo jusqu'en 1080p avec une forte fidélité au prompt",
+        "La référence de sujet garde un personnage cohérent entre les plans à partir d'une seule photo",
+        "Génération d'images IA intégrée aux côtés de la vidéo dans un même espace créatif",
+        "Couverture complète : web, apps iOS et Android, plus l'API développeur MiniMax",
+        "Des forfaits à crédits largement considérés comme la référence mondiale du rapport qualité-prix en vidéo IA"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "Free sign-up grants a one-time batch of trial credits to test generation; there is no recurring daily free allowance, so the free tier is best treated as a trial.",
+        "zh": "免费注册赠送一次性试用积分用于体验生成；没有每日循环的免费额度，免费档更像一次试用。",
+        "ja": "無料登録で1回限りのお試しクレジットを付与。毎日更新される無料枠はなく、無料枠は実質お試し用。",
+        "es": "El registro gratuito otorga un lote único de créditos de prueba; no hay asignación diaria recurrente, así que el nivel gratuito funciona como una prueba.",
+        "fr": "L'inscription gratuite offre un lot unique de crédits d'essai ; il n'y a pas d'allocation quotidienne récurrente, le niveau gratuit s'apparente donc à un essai."
+      },
+      "paid": {
+        "en": "Standard is about $9.99/month (~1,000 credits). Pro runs $34.99–$54.99/month (~4,500 credits). Unlimited is $94.99/month (unlimited relaxed-mode generations, newest models restricted), Ultra $124.99/month and Max $199.99/month (12,000+ credits). Developers can use the pay-as-you-go MiniMax API instead. (Verified against the official pricing page, 2026-07-28.)",
+        "zh": "Standard 约 $9.99/月（约 1000 积分）；Pro $34.99–$54.99/月（约 4500 积分）；Unlimited $94.99/月（放松模式无限生成，最新模型受限）；Ultra $124.99/月；Max $199.99/月（12000+ 积分）。开发者也可改用按量计费的 MiniMax API。（对照官方定价页核实，2026-07-28。）",
+        "ja": "Standardは月約$9.99（約1,000クレジット）。Proは月$34.99〜$54.99（約4,500クレジット）。Unlimitedは月$94.99（リラックスモード無制限、最新モデルは制限あり）、Ultraは月$124.99、Maxは月$199.99（12,000+クレジット）。開発者は従量課金のMiniMax APIも利用可能。（公式価格ページと照合、2026-07-28。）",
+        "es": "Standard cuesta unos $9.99/mes (~1.000 créditos). Pro va de $34.99 a $54.99/mes (~4.500 créditos). Unlimited cuesta $94.99/mes (generación ilimitada en modo relajado, modelos más nuevos restringidos), Ultra $124.99/mes y Max $199.99/mes (12.000+ créditos). Los desarrolladores pueden usar la API de MiniMax de pago por uso. (Verificado con la página oficial, 2026-07-28.)",
+        "fr": "Standard coûte environ 9,99 $/mois (~1 000 crédits). Pro va de 34,99 $ à 54,99 $/mois (~4 500 crédits). Unlimited est à 94,99 $/mois (générations illimitées en mode détendu, derniers modèles restreints), Ultra à 124,99 $/mois et Max à 199,99 $/mois (12 000+ crédits). Les développeurs peuvent opter pour l'API MiniMax à l'usage. (Vérifié avec la page officielle, 2026-07-28.)"
+      }
+    },
+    "useCases": {
+      "en": [
+        "Short-form videos featuring dancing, sports or expressive human motion",
+        "Turning product shots or character art into moving clips via image-to-video",
+        "Keeping one character consistent across a multi-shot story with subject reference",
+        "Developers adding video generation to apps through the MiniMax API"
+      ],
+      "zh": [
+        "以舞蹈、运动或富有表现力的人物动作为主的短视频",
+        "用图生视频把产品图或角色立绘变成动态片段",
+        "借助主体参照让同一角色贯穿多镜头故事",
+        "开发者通过 MiniMax API 为应用接入视频生成"
+      ],
+      "ja": [
+        "ダンス、スポーツ、表現力豊かな人物の動きを主役にしたショート動画",
+        "画像から動画への変換で商品写真やキャラアートを動かす",
+        "被写体参照でマルチショットの物語に同一キャラクターを貫かせる",
+        "MiniMax API でアプリに動画生成を組み込む開発者"
+      ],
+      "es": [
+        "Videos cortos protagonizados por danza, deporte o movimiento humano expresivo",
+        "Convertir fotos de producto o arte de personajes en clips animados con imagen-a-video",
+        "Mantener un personaje coherente en una historia de varias tomas con referencia de sujeto",
+        "Desarrolladores que añaden generación de video a sus apps mediante la API de MiniMax"
+      ],
+      "fr": [
+        "Vidéos courtes mettant en scène danse, sport ou mouvements humains expressifs",
+        "Transformer des photos produit ou des illustrations de personnages en clips animés via image-vidéo",
+        "Garder un personnage cohérent dans une histoire multi-plans grâce à la référence de sujet",
+        "Développeurs ajoutant la génération vidéo à leurs apps via l'API MiniMax"
+      ]
+    },
+    "pros": {
+      "en": [
+        "Best-in-class physical realism for human motion — a frequent blind-test favorite",
+        "Excellent price-to-quality ratio versus Western rivals at similar fidelity",
+        "Full platform coverage: web, mobile apps and a mature developer API",
+        "Backed by MiniMax, a well-funded lab that ships model updates quickly"
+      ],
+      "zh": [
+        "人物动作物理真实感一流——盲测中常被选为最爱",
+        "对比同等质量的欧美对手，价格质量比出色",
+        "平台覆盖全面：网页、移动 App 与成熟的开发者 API",
+        "背靠资金充足的 MiniMax，模型更新节奏快"
+      ],
+      "ja": [
+        "人物の動きの物理的リアリズムはトップクラス——ブラインドテストで人気",
+        "同等品質の欧米ライバルと比べ価格対品質比が優秀",
+        "Web、モバイルアプリ、成熟した開発者APIとプラットフォームが充実",
+        "資金力のあるMiniMaxが支え、モデル更新が速い"
+      ],
+      "es": [
+        "Realismo físico del movimiento humano de primera clase, favorito frecuente en pruebas ciegas",
+        "Excelente relación precio-calidad frente a rivales occidentales de fidelidad similar",
+        "Cobertura completa de plataformas: web, apps móviles y una API de desarrollador madura",
+        "Respaldado por MiniMax, un laboratorio bien financiado que actualiza modelos con rapidez"
+      ],
+      "fr": [
+        "Réalisme physique du mouvement humain parmi les meilleurs — souvent plébiscité en test à l'aveugle",
+        "Excellent rapport prix-qualité face aux rivaux occidentaux à fidélité comparable",
+        "Couverture complète : web, apps mobiles et une API développeur mature",
+        "Soutenu par MiniMax, un labo bien financé qui livre des mises à jour de modèles rapidement"
+      ]
+    },
+    "cons": {
+      "en": [
+        "The free tier has shrunk to a one-time trial with no recurring daily credits",
+        "Top tiers get expensive, and Unlimited restricts access to the newest models",
+        "Clips remain short (seconds-long); longer narratives need stitching",
+        "Peak-time queues can be slow on lower tiers"
+      ],
+      "zh": [
+        "免费档已缩水为一次性试用，无每日循环积分",
+        "高档位价格不菲，且 Unlimited 对最新模型有限制",
+        "单段视频仍然很短（数秒级），长叙事需要拼接",
+        "低档位在高峰期排队可能较慢"
+      ],
+      "ja": [
+        "無料枠は1回限りのお試しに縮小され、毎日のクレジット付与はない",
+        "上位プランは高額で、Unlimitedは最新モデルへのアクセスに制限",
+        "1本の動画は依然短く（数秒）、長い物語はつなぎ合わせが必要",
+        "下位プランではピーク時のキューが遅くなりがち"
+      ],
+      "es": [
+        "El nivel gratuito se redujo a una prueba única sin créditos diarios recurrentes",
+        "Los niveles altos son caros y Unlimited restringe los modelos más nuevos",
+        "Los clips siguen siendo cortos (segundos); las narrativas largas requieren montaje",
+        "Las colas en horas punta pueden ser lentas en los niveles bajos"
+      ],
+      "fr": [
+        "Le niveau gratuit s'est réduit à un essai unique sans crédits quotidiens récurrents",
+        "Les forfaits supérieurs coûtent cher, et Unlimited restreint l'accès aux modèles les plus récents",
+        "Les clips restent courts (quelques secondes) ; les récits longs demandent du montage",
+        "Les files d'attente aux heures de pointe peuvent être lentes sur les petits forfaits"
+      ]
+    },
+    "latestUpdate": {
+      "en": "2026: Hailuo 2.3 headlines the platform with markedly better physical realism in human motion and stronger style consistency, while MiniMax keeps pushing the cost-per-clip down — cementing Hailuo's reputation as the value benchmark of AI video. The lineup now spans web, iOS, Android and the MiniMax API, with tiers from ~$9.99 Standard up to a $199.99 Max plan.",
+      "zh": "2026 年：Hailuo 2.3 领衔平台，人物动作的物理真实感与风格一致性显著提升，MiniMax 持续压低单条视频成本——巩固了海螺作为 AI 视频性价比标杆的口碑。产品线覆盖网页、iOS、Android 与 MiniMax API，套餐从约 $9.99 的 Standard 到 $199.99 的 Max。",
+      "ja": "2026年：Hailuo 2.3がプラットフォームの主役となり、人物動作の物理的リアリズムとスタイル一貫性が大幅に向上。MiniMaxはクリップ単価を下げ続け、AI動画のコスパ基準としての評判を固めた。Web、iOS、Android、MiniMax APIを網羅し、プランは約$9.99のStandardから$199.99のMaxまで。",
+      "es": "2026: Hailuo 2.3 encabeza la plataforma con un realismo físico notablemente mejor en el movimiento humano y mayor consistencia de estilo, mientras MiniMax sigue bajando el coste por clip, consolidando a Hailuo como el referente de valor del video IA. La oferta abarca web, iOS, Android y la API de MiniMax, con niveles desde ~$9.99 (Standard) hasta $199.99 (Max).",
+      "fr": "2026 : Hailuo 2.3 est la tête d'affiche de la plateforme, avec un réalisme physique nettement meilleur des mouvements humains et une cohérence de style renforcée, tandis que MiniMax continue de faire baisser le coût par clip — consolidant la réputation de Hailuo comme référence du rapport qualité-prix en vidéo IA. L'offre couvre web, iOS, Android et l'API MiniMax, avec des forfaits d'environ 9,99 $ (Standard) à 199,99 $ (Max)."
+    },
+    "verdict": {
+      "badge": "Recommended",
+      "headline": {
+        "en": "The value benchmark of AI video, with human motion few rivals can match",
+        "zh": "AI 视频的性价比标杆，人物动作少有对手",
+        "ja": "AI動画のコスパ基準、人物の動きは他の追随を許さない",
+        "es": "El referente de valor del video IA, con un movimiento humano difícil de igualar",
+        "fr": "La référence qualité-prix de la vidéo IA, avec des mouvements humains presque inégalés"
+      },
+      "body": {
+        "en": "Hailuo AI is MiniMax's video arm, and it has carved out a very specific reputation: when a clip involves people actually moving — dancing, fighting, playing sports — Hailuo's output tends to look more physically believable than most rivals at any price. The Hailuo 2.3 model doubled down on exactly that, and combined with credit prices that undercut Western competitors of similar quality, it has become the de facto value benchmark of AI video. The workflow is complete too: text-to-video and image-to-video on web and mobile, subject reference for character consistency, and a pay-as-you-go MiniMax API for developers. The caveats are real but manageable. The once-generous free tier has shrunk to a one-time trial, the top plans climb toward $200/month, and the Unlimited plan's fine print excludes the newest models. Clips are still seconds long, so longer stories mean stitching. But if you judge an AI video tool by what you get per dollar — especially for human motion — Hailuo is one of the first names to try.",
+        "zh": "海螺AI 是 MiniMax 的视频业务线，而它闯出了一个非常具体的名声：只要片段涉及真正的人物运动——跳舞、打斗、运动——海螺的输出在任何价位上往往都比大多数对手更符合物理规律。Hailuo 2.3 模型正是在这一点上加倍下注，再配上低于同等质量欧美竞品的积分价格，它已成为 AI 视频事实上的性价比标杆。工作流也很完整：网页与移动端的文生/图生视频、保证角色一致性的主体参照、面向开发者的按量计费 MiniMax API。缺点真实存在但可控：曾经慷慨的免费档缩水成一次性试用，顶级套餐逼近 $200/月，Unlimited 的细则还把最新模型排除在外。单段视频仍是数秒级，长故事需要拼接。但如果你用「每一美元能换到什么」来评判 AI 视频工具——尤其看重人物动作——海螺是最值得先试的名字之一。",
+        "ja": "海螺AI（Hailuo）はMiniMaxの動画部門であり、非常に明確な評判を築いてきた。ダンス、格闘、スポーツなど人が実際に動くクリップでは、Hailuoの出力はどの価格帯のライバルよりも物理的に説得力があることが多い。Hailuo 2.3モデルはまさにその強みを倍加させ、同等品質の欧米競合を下回るクレジット価格と相まって、AI動画の事実上のコスパ基準となった。ワークフローも完備：Webとモバイルでのテキスト/画像からの動画生成、キャラクター一貫性のための被写体参照、開発者向け従量課金のMiniMax API。注意点は実在するが対処可能だ。かつて寛大だった無料枠は1回限りのお試しに縮小し、上位プランは月$200近くまで上昇、Unlimitedプランの細則は最新モデルを除外している。クリップは依然数秒で、長い物語にはつなぎ合わせが必要。しかし「1ドルで何が得られるか」でAI動画ツールを評価するなら——特に人物の動き重視なら——Hailuoは最初に試すべき名前の一つだ。",
+        "es": "Hailuo AI es el brazo de video de MiniMax, y se ha labrado una reputación muy concreta: cuando un clip implica personas moviéndose de verdad —bailando, peleando, haciendo deporte—, su resultado suele verse más creíble físicamente que el de la mayoría de rivales a cualquier precio. El modelo Hailuo 2.3 redobló justo esa apuesta y, combinado con precios de créditos por debajo de competidores occidentales de calidad similar, se ha convertido en el referente de valor de facto del video IA. El flujo de trabajo también está completo: texto-a-video e imagen-a-video en web y móvil, referencia de sujeto para la coherencia de personajes y una API de MiniMax de pago por uso para desarrolladores. Las pegas son reales pero manejables: el otrora generoso nivel gratuito quedó en una prueba única, los planes altos rozan los $200/mes y la letra pequeña de Unlimited excluye los modelos más nuevos. Los clips siguen durando segundos, así que las historias largas requieren montaje. Pero si juzgas una herramienta de video IA por lo que obtienes por dólar —sobre todo en movimiento humano—, Hailuo es de los primeros nombres a probar.",
+        "fr": "Hailuo AI est la branche vidéo de MiniMax, et elle s'est taillé une réputation très précise : dès qu'un clip implique des personnes qui bougent vraiment — danse, combat, sport — le rendu de Hailuo paraît plus crédible physiquement que celui de la plupart des rivaux, à n'importe quel prix. Le modèle Hailuo 2.3 a redoublé sur ce point fort et, combiné à des prix de crédits inférieurs aux concurrents occidentaux de qualité comparable, il est devenu la référence qualité-prix de facto de la vidéo IA. Le workflow est complet : texte-vidéo et image-vidéo sur web et mobile, référence de sujet pour la cohérence des personnages, et une API MiniMax à l'usage pour les développeurs. Les réserves sont réelles mais gérables : le niveau gratuit autrefois généreux s'est réduit à un essai unique, les forfaits supérieurs frôlent les 200 $/mois, et les conditions d'Unlimited excluent les modèles les plus récents. Les clips durent encore quelques secondes, les histoires longues exigent donc du montage. Mais si vous jugez un outil de vidéo IA à ce qu'il offre par dollar — surtout pour le mouvement humain — Hailuo est l'un des premiers noms à essayer."
+      },
+      "bestFor": {
+        "en": [
+          "Creators whose clips center on realistic human motion — dance, sports, action",
+          "Budget-conscious users wanting near-top quality at lower credit prices",
+          "Developers integrating video generation via the MiniMax API"
+        ],
+        "zh": [
+          "以真实人物动作为核心的创作者——舞蹈、运动、动作戏",
+          "在意预算、想以更低积分价格获得接近顶级质量的用户",
+          "通过 MiniMax API 集成视频生成的开发者"
+        ],
+        "ja": [
+          "リアルな人物の動きが主役のクリエイター——ダンス、スポーツ、アクション",
+          "より低いクレジット価格でトップ級の品質を求める予算重視ユーザー",
+          "MiniMax APIで動画生成を組み込む開発者"
+        ],
+        "es": [
+          "Creadores cuyos clips giran en torno al movimiento humano realista: danza, deporte, acción",
+          "Usuarios con presupuesto ajustado que quieren calidad casi tope a precios de crédito más bajos",
+          "Desarrolladores que integran generación de video vía la API de MiniMax"
+        ],
+        "fr": [
+          "Créateurs dont les clips reposent sur des mouvements humains réalistes — danse, sport, action",
+          "Utilisateurs soucieux du budget voulant une qualité quasi haut de gamme à moindre coût en crédits",
+          "Développeurs intégrant la génération vidéo via l'API MiniMax"
+        ]
+      },
+      "considerAlternatives": {
+        "en": [
+          "You need a recurring free tier for daily practice (→ PixVerse)",
+          "You want the most cinematic, film-grade look regardless of price (→ Sora / Veo)"
+        ],
+        "zh": [
+          "你需要可每日循环的免费额度来日常练手（→ PixVerse）",
+          "你不计成本追求最电影级的画面质感（→ Sora / Veo）"
+        ],
+        "ja": [
+          "毎日更新される無料枠で日々練習したい（→ PixVerse）",
+          "価格を問わず最も映画的な画作りが欲しい（→ Sora / Veo）"
+        ],
+        "es": [
+          "Necesitas un nivel gratuito recurrente para practicar a diario (→ PixVerse)",
+          "Quieres el look más cinematográfico sin importar el precio (→ Sora / Veo)"
+        ],
+        "fr": [
+          "Vous avez besoin d'un niveau gratuit récurrent pour pratiquer au quotidien (→ PixVerse)",
+          "Vous voulez le rendu le plus cinématographique, quel que soit le prix (→ Sora / Veo)"
+        ]
+      }
+    },
+    "meta": {
+      "lastVerified": "2026-07-28",
+      "verdictDate": "2026-07-28",
+      "pricingVerified": "2026-07-28",
+      "pricingUrl": "https://hailuoai.video/pricing"
+    }
+  },
+  "pixverse-cn": {
+    "features": {
+      "en": [
+        "China edition of PixVerse at pai.video — no VPN required, sign in with a Chinese phone number",
+        "Same V6 model line: text-to-video and image-to-video with multi-shot storytelling and camera control",
+        "Smart lip-sync turns portraits into talking videos with synced mouths",
+        "Cinematic camera-move presets and a rich library of localized effect templates",
+        "Web and mobile apps launch in sync, with an open platform (platform.pai.video) for developers",
+        "Free daily credits to start, with RMB-priced membership plans for heavier use"
+      ],
+      "zh": [
+        "PixVerse 国内版，官网 pai.video——无需 VPN，国内手机号即可登录",
+        "同源 V6 模型线：文生视频与图生视频，支持多镜头叙事与运镜控制",
+        "智能对口型让人像照片变成口型同步的说话视频",
+        "电影级运镜预设与丰富的本土化特效模板库",
+        "网页端与 App 同步上线，另有面向开发者的开放平台（platform.pai.video）",
+        "免费每日积分起步，重度使用可选人民币计价的会员套餐"
+      ],
+      "ja": [
+        "PixVerseの中国版（pai.video）——VPN不要、中国の電話番号でログイン",
+        "同じV6モデル系列：テキスト/画像からの動画生成、マルチショット構成とカメラ制御に対応",
+        "スマートリップシンクで人物写真を口の動きが同期した話す動画に",
+        "映画級カメラワークのプリセットとローカライズされたエフェクトテンプレートが豊富",
+        "Web版とアプリ版を同時提供、開発者向けオープンプラットフォーム（platform.pai.video）も用意",
+        "無料の毎日クレジットで開始でき、ヘビーユースには人民元建ての会員プラン"
+      ],
+      "es": [
+        "Edición china de PixVerse en pai.video: sin VPN, con inicio de sesión mediante número de teléfono chino",
+        "La misma línea de modelos V6: texto-a-video e imagen-a-video con narrativa multi-toma y control de cámara",
+        "La sincronización labial inteligente convierte retratos en videos hablados",
+        "Preajustes de movimientos de cámara cinematográficos y una rica biblioteca de plantillas localizadas",
+        "Apps web y móviles lanzadas en sincronía, con una plataforma abierta (platform.pai.video) para desarrolladores",
+        "Créditos diarios gratis para empezar, con planes de membresía en RMB para uso intensivo"
+      ],
+      "fr": [
+        "Édition chinoise de PixVerse sur pai.video — sans VPN, connexion avec un numéro de téléphone chinois",
+        "La même gamme de modèles V6 : texte-vidéo et image-vidéo avec narration multi-plans et contrôle de caméra",
+        "La synchronisation labiale intelligente transforme les portraits en vidéos parlantes",
+        "Préréglages de mouvements de caméra cinématographiques et riche bibliothèque de modèles localisés",
+        "Apps web et mobiles lancées en parallèle, avec une plateforme ouverte (platform.pai.video) pour les développeurs",
+        "Des crédits quotidiens gratuits pour commencer, avec des abonnements en RMB pour un usage intensif"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "Free to start: registration grants credits and a daily free allowance for generation, with watermarked output at standard queue priority — no payment or VPN needed.",
+        "zh": "免费起步：注册即送积分并有每日免费额度可用于生成，输出带水印、普通优先级排队——无需付费也无需 VPN。",
+        "ja": "無料で開始：登録でクレジットが付与され、毎日の無料枠で生成可能。出力はウォーターマーク付き・標準優先度キュー——支払いもVPNも不要。",
+        "es": "Gratis para empezar: el registro otorga créditos y una asignación diaria gratuita para generar, con salida con marca de agua y prioridad estándar; sin pago ni VPN.",
+        "fr": "Gratuit pour commencer : l'inscription offre des crédits et une allocation quotidienne gratuite pour générer, avec sortie filigranée en priorité standard — sans paiement ni VPN."
+      },
+      "paid": {
+        "en": "Paid membership is RMB-priced and sold as monthly/yearly subscriptions inside the web app and mobile apps, unlocking more credits, watermark removal and faster queues; an open platform offers usage-based API billing for developers. Plan names and exact prices are shown after login and adjust with promotions. (Verified against the official site, 2026-07-28.)",
+        "zh": "付费会员按人民币计价，在网页端与 App 内以月度/年度订阅形式提供，解锁更多积分、去水印与加速排队；开放平台面向开发者提供按量计费 API。具体档位与价格登录后展示，且随活动调整。（对照官网核实，2026-07-28。）",
+        "ja": "有料会員は人民元建てで、Web版とアプリ内の月額/年額サブスクリプションとして提供。クレジット増量、ウォーターマーク除去、高速キューを解放。オープンプラットフォームでは開発者向けに従量課金APIを提供。プラン名と正確な価格はログイン後に表示され、キャンペーンにより変動。（公式サイトと照合、2026-07-28。）",
+        "es": "La membresía de pago tiene precio en RMB y se vende como suscripción mensual/anual dentro de la app web y las apps móviles, desbloqueando más créditos, eliminación de marca de agua y colas más rápidas; una plataforma abierta ofrece API de pago por uso para desarrolladores. Los nombres de los planes y los precios exactos se muestran tras iniciar sesión y varían con promociones. (Verificado con el sitio oficial, 2026-07-28.)",
+        "fr": "L'abonnement payant est facturé en RMB, sous forme de souscriptions mensuelles/annuelles dans l'app web et les apps mobiles, débloquant plus de crédits, la suppression du filigrane et des files plus rapides ; une plateforme ouverte propose une API à l'usage pour les développeurs. Les noms des offres et les prix exacts s'affichent après connexion et varient selon les promotions. (Vérifié avec le site officiel, 2026-07-28.)"
+      }
+    },
+    "useCases": {
+      "en": [
+        "Chinese users who want PixVerse's template magic without a VPN",
+        "Making portraits speak with lip-sync for greetings, memes and marketing clips",
+        "Short-form creators on Douyin/Xiaohongshu pumping out effect-driven videos",
+        "Domestic developers integrating video generation via the open platform API"
+      ],
+      "zh": [
+        "想不开 VPN 直接用上 PixVerse 模板魔法的国内用户",
+        "用对口型让人像开口说话，制作祝福、梗图与营销短片",
+        "抖音/小红书短视频创作者批量产出特效驱动的视频",
+        "国内开发者通过开放平台 API 接入视频生成"
+      ],
+      "ja": [
+        "VPNなしでPixVerseのテンプレート機能を使いたい中国のユーザー",
+        "リップシンクで人物写真を喋らせ、挨拶・ミーム・マーケ動画を制作",
+        "抖音/小紅書でエフェクト主導の動画を量産するショート動画クリエイター",
+        "オープンプラットフォームAPIで動画生成を組み込む中国国内の開発者"
+      ],
+      "es": [
+        "Usuarios en China que quieren la magia de plantillas de PixVerse sin VPN",
+        "Hacer hablar retratos con sincronización labial para felicitaciones, memes y clips de marketing",
+        "Creadores de video corto en Douyin/Xiaohongshu que producen videos con efectos en serie",
+        "Desarrolladores locales que integran generación de video vía la API de la plataforma abierta"
+      ],
+      "fr": [
+        "Utilisateurs en Chine voulant la magie des modèles PixVerse sans VPN",
+        "Faire parler des portraits avec la synchronisation labiale pour vœux, mèmes et clips marketing",
+        "Créateurs de vidéos courtes sur Douyin/Xiaohongshu produisant des vidéos à effets en série",
+        "Développeurs locaux intégrant la génération vidéo via l'API de la plateforme ouverte"
+      ]
+    },
+    "pros": {
+      "en": [
+        "Full PixVerse capability — V6, lip-sync, templates — with no VPN and local login",
+        "Free to start with a real daily allowance, in RMB when you do pay",
+        "Web and apps ship in sync, plus an open platform for domestic developers",
+        "Backed by AIsphere's fast model cadence shared with the international edition"
+      ],
+      "zh": [
+        "完整的 PixVerse 能力——V6、对口型、模板——免 VPN、本土登录",
+        "免费起步且有真实每日额度，付费也是人民币结算",
+        "网页与 App 同步上线，另有面向国内开发者的开放平台",
+        "共享国际版的模型迭代节奏，背靠爱诗科技快速更新"
+      ],
+      "ja": [
+        "V6、リップシンク、テンプレートなどPixVerseの全機能をVPNなし・現地ログインで",
+        "無料で始められ本物の毎日枠があり、支払いも人民元建て",
+        "Web版とアプリ版が同時展開、国内開発者向けオープンプラットフォームも",
+        "国際版と共通の速いモデル更新サイクルをAIsphereが支える"
+      ],
+      "es": [
+        "Toda la capacidad de PixVerse —V6, sincronización labial, plantillas— sin VPN y con inicio de sesión local",
+        "Gratis para empezar con una asignación diaria real, y en RMB cuando pagas",
+        "Web y apps se lanzan en sincronía, más una plataforma abierta para desarrolladores locales",
+        "Respaldada por la rápida cadencia de modelos de AIsphere compartida con la edición internacional"
+      ],
+      "fr": [
+        "Toute la puissance de PixVerse — V6, synchronisation labiale, modèles — sans VPN et avec connexion locale",
+        "Gratuit pour commencer avec une vraie allocation quotidienne, et paiement en RMB",
+        "Web et apps lancés en parallèle, plus une plateforme ouverte pour les développeurs locaux",
+        "Soutenue par la cadence rapide de modèles d'AIsphere, partagée avec l'édition internationale"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Newer than the international edition (launched mid-2025), so features can lag slightly",
+        "Pricing tiers are only visible after login and shift with promotions",
+        "Content moderation is stricter than the international edition",
+        "Same core limits as PixVerse: watermarked free output and fast credit burn at 1080p"
+      ],
+      "zh": [
+        "比国际版更年轻（2025 年中上线），功能偶有小幅滞后",
+        "价格档位需登录后才可见，且随活动变动",
+        "内容审核比国际版更严格",
+        "与 PixVerse 同样的核心限制：免费输出带水印、1080p 积分消耗快"
+      ],
+      "ja": [
+        "国際版より新しく（2025年半ばに開始）、機能がやや遅れることがある",
+        "料金プランはログイン後にのみ表示され、キャンペーンで変動する",
+        "コンテンツ審査は国際版より厳しい",
+        "PixVerseと同じ基本的制約：無料出力のウォーターマークと1080pでの速いクレジット消費"
+      ],
+      "es": [
+        "Más nueva que la edición internacional (lanzada a mediados de 2025), por lo que las funciones pueden llegar con algo de retraso",
+        "Los niveles de precios solo se ven tras iniciar sesión y cambian con promociones",
+        "La moderación de contenido es más estricta que en la edición internacional",
+        "Los mismos límites de PixVerse: salida gratuita con marca de agua y consumo rápido de créditos en 1080p"
+      ],
+      "fr": [
+        "Plus récente que l'édition internationale (lancée mi-2025), les fonctionnalités peuvent donc accuser un léger retard",
+        "Les paliers tarifaires ne sont visibles qu'après connexion et varient selon les promotions",
+        "La modération des contenus est plus stricte que sur l'édition internationale",
+        "Les mêmes limites que PixVerse : sortie gratuite filigranée et crédits vite consommés en 1080p"
+      ]
+    },
+    "latestUpdate": {
+      "en": "2026: Paiwo AI catches up to the international flagship as V6 goes live in China, bringing multi-shot storytelling, cinematic camera moves and smart lip-sync to the domestic edition. The open platform at platform.pai.video opens API access to Chinese developers, and web and mobile apps continue to ship feature updates in sync.",
+      "zh": "2026 年：随着 V6 在国内上线，拍我AI 追平国际旗舰——多镜头叙事、电影级运镜与智能对口型悉数登陆国内版。开放平台 platform.pai.video 向国内开发者开放 API，网页端与 App 持续同步更新功能。",
+      "ja": "2026年：V6が中国で稼働し、拍我AIは国際版フラッグシップに追いつく——マルチショット構成、映画級カメラワーク、スマートリップシンクが中国版に到来。オープンプラットフォームplatform.pai.videoが中国の開発者にAPIを開放し、Web版とアプリ版は機能更新を同期して提供し続ける。",
+      "es": "2026: Paiwo AI alcanza al buque insignia internacional con la llegada de V6 a China, trayendo narrativa multi-toma, movimientos de cámara cinematográficos y sincronización labial inteligente a la edición nacional. La plataforma abierta platform.pai.video abre el acceso API a los desarrolladores chinos, y las apps web y móviles siguen actualizándose en sincronía.",
+      "fr": "2026 : Paiwo AI rattrape le vaisseau amiral international avec l'arrivée de V6 en Chine, apportant la narration multi-plans, les mouvements de caméra cinématographiques et la synchronisation labiale intelligente à l'édition nationale. La plateforme ouverte platform.pai.video ouvre l'accès API aux développeurs chinois, et les apps web et mobiles continuent de recevoir les mises à jour en parallèle."
+    },
+    "verdict": {
+      "badge": "Worth Trying",
+      "headline": {
+        "en": "PixVerse's template magic, minus the VPN — the easiest AI video start in China",
+        "zh": "PixVerse 的模板魔法，免掉 VPN——国内最容易的 AI 视频起点",
+        "ja": "PixVerseのテンプレートの魔法をVPNなしで——中国で最も簡単なAI動画の始め方",
+        "es": "La magia de plantillas de PixVerse, sin VPN: el inicio más fácil en video IA dentro de China",
+        "fr": "La magie des modèles PixVerse, sans VPN — le départ le plus facile en vidéo IA en Chine"
+      },
+      "body": {
+        "en": "Paiwo AI is the answer to a simple question: what if PixVerse just worked in China? Launched in mid-2025 at pai.video, it brings the same stack that carried the international edition past 100 million users — one-photo effect templates, smart lip-sync, and now the V6 model with multi-shot storytelling and cinematic camera moves — behind a local phone-number login with no VPN required. It is free to start with a real daily allowance, payments are in RMB, and an open platform serves domestic developers with API access. The trade-offs are what you would expect from a China edition: it is younger than the flagship so features occasionally land a beat later, content moderation is stricter, and pricing tiers only reveal themselves after login and shift with promotions — which is why we mirror the international verdict but one notch more cautious. If you are in China and curious about AI video, this is the lowest-friction way to find out what the fuss is about; power users comparing exact plan value should check prices in-app before committing.",
+        "zh": "拍我AI 回答了一个朴素的问题：如果 PixVerse 在国内能直接用会怎样？它于 2025 年中在 pai.video 上线，把带着国际版冲破一亿用户的同一套能力——一张照片套用的特效模板、智能对口型、如今还有支持多镜头叙事与电影级运镜的 V6 模型——放进了国内手机号登录、无需 VPN 的门槛之后。它免费起步且有真实的每日额度，付费用人民币结算，开放平台还为国内开发者提供 API。代价也是国内版的常见配方：它比旗舰更年轻，功能偶尔慢半拍；内容审核更严格；价格档位要登录后才可见、还随活动变动——所以我们给出与国际版一致但更谨慎一档的评级。如果你在国内、对 AI 视频好奇，这是了解「大家在玩什么」阻力最小的方式；较真套餐价值的重度用户，付费前请先在应用内核对价格。",
+        "ja": "拍我AIは素朴な問いへの答えだ：PixVerseが中国でそのまま使えたらどうなるか？2025年半ばにpai.videoで開始され、国際版をユーザー1億人超へ導いたのと同じ技術——写真1枚のエフェクトテンプレート、スマートリップシンク、そして今やマルチショット構成と映画級カメラワークのV6モデル——を、中国の電話番号ログイン・VPN不要の環境で提供する。無料で始められ本物の毎日枠があり、支払いは人民元建て、オープンプラットフォームが国内開発者にAPIを提供する。トレードオフは中国版の定番だ。旗艦版より新しいため機能がやや遅れて届くことがあり、コンテンツ審査は厳しく、料金プランはログイン後にのみ表示されキャンペーンで変動する——だから評価は国際版に準じつつ一段慎重にした。中国にいてAI動画に興味があるなら、これが話題の理由を知る最も摩擦の少ない方法だ。プランの価値を厳密に比べたいヘビーユーザーは、課金前にアプリ内で価格を確認してほしい。",
+        "es": "Paiwo AI responde a una pregunta sencilla: ¿y si PixVerse simplemente funcionara en China? Lanzada a mediados de 2025 en pai.video, trae la misma tecnología que llevó a la edición internacional más allá de los 100 millones de usuarios —plantillas de efectos con una foto, sincronización labial inteligente y ahora el modelo V6 con narrativa multi-toma y movimientos de cámara cinematográficos— tras un inicio de sesión con número local y sin VPN. Es gratis para empezar con una asignación diaria real, los pagos son en RMB y una plataforma abierta ofrece API a los desarrolladores locales. Las contrapartidas son las esperables de una edición china: es más joven que el buque insignia y las funciones a veces llegan un compás después, la moderación es más estricta y los precios solo se ven tras iniciar sesión y cambian con promociones; por eso reflejamos el veredicto internacional pero un punto más cautos. Si estás en China y sientes curiosidad por el video IA, esta es la vía de menor fricción para descubrir de qué va el revuelo; los usuarios avanzados deberían comprobar los precios en la app antes de pagar.",
+        "fr": "Paiwo AI répond à une question simple : et si PixVerse fonctionnait tout simplement en Chine ? Lancée mi-2025 sur pai.video, elle apporte la même technologie qui a porté l'édition internationale au-delà des 100 millions d'utilisateurs — modèles d'effets à partir d'une photo, synchronisation labiale intelligente, et désormais le modèle V6 avec narration multi-plans et mouvements de caméra cinématographiques — derrière une connexion par numéro local, sans VPN. C'est gratuit pour commencer avec une vraie allocation quotidienne, les paiements se font en RMB, et une plateforme ouverte offre l'API aux développeurs locaux. Les contreparties sont celles qu'on attend d'une édition chinoise : plus jeune que le vaisseau amiral, elle reçoit parfois les fonctionnalités avec un temps de retard, la modération est plus stricte, et les tarifs ne s'affichent qu'après connexion et varient selon les promotions — d'où un verdict aligné sur l'international mais un cran plus prudent. Si vous êtes en Chine et curieux de la vidéo IA, c'est la voie la moins contraignante pour comprendre l'engouement ; les utilisateurs exigeants devraient vérifier les prix dans l'app avant de s'engager."
+      },
+      "bestFor": {
+        "en": [
+          "Users in China who want PixVerse without a VPN or foreign payment",
+          "Douyin/Xiaohongshu creators making effect-driven short videos",
+          "Domestic developers needing video generation via a local API platform"
+        ],
+        "zh": [
+          "想免 VPN、免外币支付直接用 PixVerse 的国内用户",
+          "制作特效驱动短视频的抖音/小红书创作者",
+          "需要通过本土 API 平台接入视频生成的国内开发者"
+        ],
+        "ja": [
+          "VPNや海外決済なしでPixVerseを使いたい中国のユーザー",
+          "エフェクト主導のショート動画を作る抖音/小紅書クリエイター",
+          "ローカルAPIプラットフォーム経由で動画生成が必要な中国国内の開発者"
+        ],
+        "es": [
+          "Usuarios en China que quieren PixVerse sin VPN ni pagos extranjeros",
+          "Creadores de Douyin/Xiaohongshu que hacen videos cortos con efectos",
+          "Desarrolladores locales que necesitan generación de video vía una plataforma API nacional"
+        ],
+        "fr": [
+          "Utilisateurs en Chine voulant PixVerse sans VPN ni paiement étranger",
+          "Créateurs Douyin/Xiaohongshu réalisant des vidéos courtes à effets",
+          "Développeurs locaux ayant besoin de génération vidéo via une plateforme API nationale"
+        ]
+      },
+      "considerAlternatives": {
+        "en": [
+          "You can use a VPN and want the earliest access to new features (→ PixVerse international)",
+          "Your clips center on physically realistic human motion (→ Hailuo AI)"
+        ],
+        "zh": [
+          "你能用 VPN 且想最早用上新功能（→ PixVerse 国际版）",
+          "你的片段以物理真实的人物动作为核心（→ 海螺AI）"
+        ],
+        "ja": [
+          "VPNが使えて新機能へ最速でアクセスしたい（→ PixVerse国際版）",
+          "物理的にリアルな人物の動きが主役のクリップ（→ Hailuo AI）"
+        ],
+        "es": [
+          "Puedes usar VPN y quieres acceso anticipado a novedades (→ PixVerse internacional)",
+          "Tus clips giran en torno al movimiento humano físicamente realista (→ Hailuo AI)"
+        ],
+        "fr": [
+          "Vous pouvez utiliser un VPN et voulez accéder au plus tôt aux nouveautés (→ PixVerse international)",
+          "Vos clips reposent sur des mouvements humains physiquement réalistes (→ Hailuo AI)"
+        ]
+      }
+    },
+    "meta": {
+      "lastVerified": "2026-07-28",
+      "verdictDate": "2026-07-28",
+      "pricingVerified": "2026-07-28",
+      "pricingUrl": "https://pai.video"
+    }
+  },
+  "pixverse": {
+    "features": {
+      "en": [
+        "V6 model (March 2026) adds multi-shot storytelling, camera-move control and native audio in one generation",
+        "Text-to-video and image-to-video from 1 to 15 seconds, 360p up to 1080p",
+        "Huge library of viral effect templates — hug, dance, transformation — that work from a single photo",
+        "Smart lip-sync turns portraits into talking videos with synced mouths",
+        "Full platform coverage: web, iOS and Android apps plus a developer API",
+        "Recurring free credits every day, unlike most rivals' one-time trials"
+      ],
+      "zh": [
+        "V6 模型（2026 年 3 月）在一次生成中支持多镜头叙事、运镜控制与原生音频",
+        "文生视频与图生视频，时长 1–15 秒，分辨率 360p 至 1080p",
+        "海量爆款特效模板——拥抱、跳舞、变身——一张照片即可套用",
+        "智能对口型让人像照片变成口型同步的说话视频",
+        "全平台覆盖：网页端、iOS、Android，外加开发者 API",
+        "每日循环发放免费积分，不同于多数对手的一次性试用"
+      ],
+      "ja": [
+        "V6モデル（2026年3月）は1回の生成でマルチショット構成、カメラワーク制御、ネイティブ音声に対応",
+        "テキストと画像からの動画生成、1〜15秒、360pから1080pまで",
+        "ハグ、ダンス、変身など、写真1枚で使えるバズ系エフェクトテンプレートが豊富",
+        "スマートリップシンクで人物写真を口の動きが同期した話す動画に",
+        "全プラットフォーム対応：Web、iOS、Androidアプリ、開発者API",
+        "多くの競合の1回限りお試しと異なり、毎日無料クレジットを付与"
+      ],
+      "es": [
+        "El modelo V6 (marzo de 2026) añade narrativa multi-toma, control de movimientos de cámara y audio nativo en una sola generación",
+        "Texto-a-video e imagen-a-video de 1 a 15 segundos, de 360p hasta 1080p",
+        "Enorme biblioteca de plantillas de efectos virales —abrazo, baile, transformación— que funcionan con una sola foto",
+        "La sincronización labial inteligente convierte retratos en videos hablados con la boca sincronizada",
+        "Cobertura total de plataformas: web, apps iOS y Android, más API para desarrolladores",
+        "Créditos gratuitos recurrentes cada día, a diferencia de las pruebas únicas de la mayoría de rivales"
+      ],
+      "fr": [
+        "Le modèle V6 (mars 2026) ajoute la narration multi-plans, le contrôle des mouvements de caméra et l'audio natif en une seule génération",
+        "Texte-vidéo et image-vidéo de 1 à 15 secondes, de 360p à 1080p",
+        "Immense bibliothèque de modèles d'effets viraux — câlin, danse, transformation — utilisables à partir d'une seule photo",
+        "La synchronisation labiale intelligente transforme les portraits en vidéos parlantes",
+        "Couverture complète : web, apps iOS et Android, plus une API développeur",
+        "Des crédits gratuits récurrents chaque jour, contrairement aux essais uniques de la plupart des rivaux"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "Free plan at $0 with 90 initial credits plus 60 credits refreshed daily — enough for regular practice, though outputs carry a watermark and queue at standard priority.",
+        "zh": "免费版 $0：注册送 90 积分，另有每日刷新 60 积分——足够日常练手，但输出带水印且按普通优先级排队。",
+        "ja": "無料プランは$0。初回90クレジットに加え毎日60クレジットが更新される——日々の練習には十分だが、出力にウォーターマークが付き、キューは標準優先度。",
+        "es": "Plan gratuito de $0 con 90 créditos iniciales más 60 créditos renovados a diario; suficiente para practicar con regularidad, aunque los resultados llevan marca de agua y cola de prioridad estándar.",
+        "fr": "Plan gratuit à 0 $ avec 90 crédits initiaux plus 60 crédits renouvelés chaque jour — assez pour pratiquer régulièrement, mais les sorties portent un filigrane et passent en priorité standard."
+      },
+      "paid": {
+        "en": "Standard is $10/month for 1,200 credits with watermark removal and faster queues. Pro is $30/month for 6,000 credits plus priority generation. Enterprise pricing is custom. As a reference, a 5-second 1080p clip on V5 costs about 120 credits. (Verified against the official pricing page, 2026-07-28.)",
+        "zh": "Standard $10/月，1200 积分，去水印并加速排队；Pro $30/月，6000 积分，外加优先生成；Enterprise 定制报价。参考：V5 生成 5 秒 1080p 约耗 120 积分。（对照官方定价页核实，2026-07-28。）",
+        "ja": "Standardは月$10で1,200クレジット、ウォーターマーク除去と高速キュー付き。Proは月$30で6,000クレジットと優先生成。Enterpriseはカスタム価格。参考：V5で5秒1080pのクリップは約120クレジット。（公式価格ページと照合、2026-07-28。）",
+        "es": "Standard cuesta $10/mes por 1.200 créditos, sin marca de agua y con colas más rápidas. Pro cuesta $30/mes por 6.000 créditos más generación prioritaria. El plan Enterprise tiene precio a medida. Como referencia, un clip de 5 segundos en 1080p con V5 cuesta unos 120 créditos. (Verificado con la página oficial, 2026-07-28.)",
+        "fr": "Standard est à 10 $/mois pour 1 200 crédits, sans filigrane et avec des files plus rapides. Pro est à 30 $/mois pour 6 000 crédits plus la génération prioritaire. L'offre Enterprise est sur devis. À titre de référence, un clip de 5 secondes en 1080p sur V5 coûte environ 120 crédits. (Vérifié avec la page officielle, 2026-07-28.)"
+      }
+    },
+    "useCases": {
+      "en": [
+        "Social creators pumping out template-driven viral clips from a single photo",
+        "Multi-shot short stories with camera moves and audio in one V6 generation",
+        "Making portraits talk with smart lip-sync for memes and greetings",
+        "Beginners learning AI video on a daily free-credit allowance"
+      ],
+      "zh": [
+        "社媒创作者用一张照片批量套模板产出爆款短片",
+        "用 V6 一次生成带运镜与音频的多镜头小故事",
+        "用智能对口型让人像开口说话，做表情包与祝福视频",
+        "新手靠每日免费积分练习 AI 视频"
+      ],
+      "ja": [
+        "写真1枚からテンプレートでバズ動画を量産するSNSクリエイター",
+        "V6の1回生成でカメラワークと音声付きのマルチショット短編を制作",
+        "スマートリップシンクで人物写真を喋らせ、ミームや挨拶動画に",
+        "毎日の無料クレジットでAI動画を学ぶ初心者"
+      ],
+      "es": [
+        "Creadores sociales que producen clips virales con plantillas a partir de una sola foto",
+        "Historias cortas multi-toma con movimientos de cámara y audio en una sola generación V6",
+        "Hacer hablar retratos con sincronización labial para memes y felicitaciones",
+        "Principiantes que aprenden video IA con la asignación diaria de créditos gratis"
+      ],
+      "fr": [
+        "Créateurs sociaux produisant des clips viraux à base de modèles depuis une seule photo",
+        "Histoires courtes multi-plans avec mouvements de caméra et audio en une seule génération V6",
+        "Faire parler des portraits avec la synchronisation labiale, pour mèmes et vœux",
+        "Débutants apprenant la vidéo IA grâce à l'allocation quotidienne de crédits gratuits"
+      ]
+    },
+    "pros": {
+      "en": [
+        "One of the few AI video tools with a genuinely recurring daily free allowance",
+        "V6's multi-shot narrative, camera control and native audio in a single pass",
+        "Template and effects library makes it the easiest on-ramp for beginners",
+        "Massive traction — over 100 million users — with fast model iteration"
+      ],
+      "zh": [
+        "少数真正提供每日循环免费额度的 AI 视频工具之一",
+        "V6 一次生成即可完成多镜头叙事、运镜控制与原生音频",
+        "模板与特效库让它成为新手最容易上手的入口",
+        "体量巨大——全球用户破一亿——模型迭代速度快"
+      ],
+      "ja": [
+        "毎日更新される無料枠を実際に提供する数少ないAI動画ツールの一つ",
+        "V6は1回の生成でマルチショット構成、カメラ制御、ネイティブ音声を実現",
+        "テンプレートとエフェクトのライブラリで初心者に最も優しい入口",
+        "ユーザー1億人超の巨大な支持基盤と速いモデル更新"
+      ],
+      "es": [
+        "Una de las pocas herramientas de video IA con asignación gratuita diaria realmente recurrente",
+        "La narrativa multi-toma, el control de cámara y el audio nativo de V6 en una sola pasada",
+        "Su biblioteca de plantillas y efectos la convierte en la rampa de entrada más fácil para principiantes",
+        "Tracción masiva —más de 100 millones de usuarios— con iteración rápida de modelos"
+      ],
+      "fr": [
+        "L'un des rares outils de vidéo IA avec une allocation gratuite quotidienne réellement récurrente",
+        "La narration multi-plans, le contrôle de caméra et l'audio natif de V6 en une seule passe",
+        "Sa bibliothèque de modèles et d'effets en fait la porte d'entrée la plus facile pour les débutants",
+        "Une traction massive — plus de 100 millions d'utilisateurs — et une itération rapide des modèles"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Peak realism still trails the very top models like Veo or Sora on complex scenes",
+        "Free outputs carry a watermark and standard-priority queues can be slow",
+        "Credit burn is fast at 1080p — heavy users outgrow Standard quickly",
+        "Template-first culture means signature effects get visually repetitive"
+      ],
+      "zh": [
+        "复杂场景的真实感峰值仍不及 Veo、Sora 等最顶级模型",
+        "免费输出带水印，普通优先级排队可能较慢",
+        "1080p 下积分消耗很快——重度用户很快就会超出 Standard",
+        "模板优先的生态让招牌特效在视觉上容易审美疲劳"
+      ],
+      "ja": [
+        "複雑なシーンのリアリズムの上限はVeoやSoraなど最上位モデルに及ばない",
+        "無料出力にはウォーターマークが付き、標準優先キューは遅いことがある",
+        "1080pではクレジット消費が速く、ヘビーユーザーはStandardをすぐ超える",
+        "テンプレート主導の文化ゆえ、看板エフェクトは見た目が単調になりがち"
+      ],
+      "es": [
+        "El realismo máximo aún queda por detrás de los mejores modelos como Veo o Sora en escenas complejas",
+        "Los resultados gratuitos llevan marca de agua y las colas de prioridad estándar pueden ser lentas",
+        "Los créditos se gastan rápido en 1080p: los usuarios intensivos superan pronto el plan Standard",
+        "La cultura de plantillas hace que los efectos estrella se vuelvan visualmente repetitivos"
+      ],
+      "fr": [
+        "Le réalisme maximal reste derrière les tout meilleurs modèles comme Veo ou Sora sur les scènes complexes",
+        "Les sorties gratuites portent un filigrane et les files en priorité standard peuvent être lentes",
+        "Les crédits filent vite en 1080p — les gros utilisateurs dépassent rapidement Standard",
+        "La culture du modèle prêt-à-l'emploi rend les effets phares visuellement répétitifs"
+      ]
+    },
+    "latestUpdate": {
+      "en": "March 2026: PixVerse V6 launches with multi-shot storytelling, camera-move control and native audio generated in a single pass, for clips of 1–15 seconds up to 1080p. The platform passes 100 million users worldwide, reports $40M+ ARR, and closed a ¥100M B+ round in late 2025 — making AIsphere one of the best-capitalized independent AI video startups.",
+      "zh": "2026 年 3 月：PixVerse V6 发布，一次生成即可完成多镜头叙事、运镜控制与原生音频，支持 1–15 秒、最高 1080p 的片段。平台全球用户破一亿，ARR 超 4000 万美元，并于 2025 年底完成 1 亿元人民币 B+ 轮融资——爱诗科技成为资本最充足的独立 AI 视频创业公司之一。",
+      "ja": "2026年3月：PixVerse V6が登場。1回の生成でマルチショット構成、カメラワーク制御、ネイティブ音声を実現し、1〜15秒・最大1080pのクリップに対応。プラットフォームは世界ユーザー1億人を突破、ARR 4,000万ドル超を報告し、2025年末に1億元のB+ラウンドを完了——AIsphereは最も資金力のある独立系AI動画スタートアップの一つに。",
+      "es": "Marzo de 2026: PixVerse V6 se lanza con narrativa multi-toma, control de movimientos de cámara y audio nativo generados en una sola pasada, para clips de 1 a 15 segundos hasta 1080p. La plataforma supera los 100 millones de usuarios en el mundo, reporta más de $40M de ARR y cerró una ronda B+ de ¥100M a finales de 2025, lo que convierte a AIsphere en una de las startups independientes de video IA mejor capitalizadas.",
+      "fr": "Mars 2026 : PixVerse V6 arrive avec la narration multi-plans, le contrôle des mouvements de caméra et l'audio natif générés en une seule passe, pour des clips de 1 à 15 secondes jusqu'en 1080p. La plateforme dépasse les 100 millions d'utilisateurs dans le monde, annonce plus de 40 M$ d'ARR et a bouclé un tour B+ de 100 M¥ fin 2025 — faisant d'AIsphere l'une des startups indépendantes de vidéo IA les mieux capitalisées."
+    },
+    "verdict": {
+      "badge": "Recommended",
+      "headline": {
+        "en": "The friendliest on-ramp to AI video, now with real filmmaking chops in V6",
+        "zh": "AI 视频最友好的入口，V6 之后还有了真正的电影感功力",
+        "ja": "AI動画への最も入りやすい入口、V6で本格的な映像制作力も獲得",
+        "es": "La rampa de entrada más amable al video IA, ahora con verdadera capacidad cinematográfica en V6",
+        "fr": "La porte d'entrée la plus accueillante vers la vidéo IA, avec de vraies compétences cinématographiques depuis V6"
+      },
+      "body": {
+        "en": "PixVerse took an unglamorous but brutally effective path to 100 million users: make AI video effortless. Its template library — hugs, dances, transformations that work from one photo — turned it into the default first AI video app for a huge audience, and a genuinely recurring free tier (60 credits daily, not a one-time trial) keeps people practicing. What changes the calculus in 2026 is V6: multi-shot storytelling, camera-move control and native audio generated in a single pass move PixVerse from toy territory toward actual filmmaking, and clips now stretch to 15 seconds at 1080p. Pricing stays simple and fair at $10/$30 per month. The honest limits: peak realism on complex scenes still trails Veo and Sora, free outputs are watermarked, credits burn quickly at 1080p, and the template-first culture means a lot of output looks alike. But as the easiest place to start AI video — and increasingly a capable place to stay — PixVerse has earned its scale. Its Chinese edition, Paiwo AI, brings the same stack to users in China.",
+        "zh": "PixVerse 走了一条不炫酷却极其有效的路通往一亿用户：把 AI 视频做到毫不费力。它的模板库——一张照片就能套用的拥抱、跳舞、变身——让它成为庞大人群的第一款 AI 视频应用，而真正每日循环的免费额度（每天 60 积分，而非一次性试用）让人们持续练手。2026 年改变格局的是 V6：一次生成即可完成多镜头叙事、运镜控制与原生音频，让 PixVerse 从玩具地带迈向真正的影像创作，片段也拉长到 15 秒、1080p。定价保持简单公道：$10/$30 每月。坦率的短板：复杂场景的真实感峰值仍逊于 Veo 和 Sora，免费输出带水印，1080p 下积分消耗快，模板优先的生态也让大量产出长得雷同。但作为 AI 视频最容易的起点——且日益成为值得留下的阵地——PixVerse 的体量名副其实。它的国内版「拍我AI」把同一套能力带给了中国用户。",
+        "ja": "PixVerseは派手さはないが極めて有効な道を通ってユーザー1億人に到達した：AI動画を徹底的に手軽にすることだ。写真1枚で使えるハグ、ダンス、変身のテンプレートライブラリは、膨大な層にとって最初のAI動画アプリとなり、毎日60クレジットという本当に更新される無料枠（1回限りのお試しではない）が継続的な利用を支える。2026年に状況を変えたのはV6だ。1回の生成でマルチショット構成、カメラワーク制御、ネイティブ音声を実現し、PixVerseをおもちゃの領域から本格的な映像制作へと押し上げ、クリップは1080pで15秒まで伸びた。料金は月$10/$30とシンプルで良心的。正直な限界もある。複雑なシーンのリアリズム上限はVeoやSoraに及ばず、無料出力にはウォーターマークが付き、1080pではクレジットがすぐ尽き、テンプレート主導ゆえ産出物は似通いがちだ。しかしAI動画を始める最も簡単な場所として——そして次第に留まる価値のある場所として——PixVerseの規模は伊達ではない。中国版「拍我AI」は同じ技術スタックを中国のユーザーに届けている。",
+        "es": "PixVerse tomó un camino poco glamuroso pero brutalmente eficaz hacia los 100 millones de usuarios: hacer el video IA sin esfuerzo. Su biblioteca de plantillas —abrazos, bailes y transformaciones que funcionan con una foto— la convirtió en la primera app de video IA por defecto para una audiencia enorme, y un nivel gratuito realmente recurrente (60 créditos diarios, no una prueba única) mantiene a la gente practicando. Lo que cambia el cálculo en 2026 es V6: la narrativa multi-toma, el control de cámara y el audio nativo generados en una sola pasada llevan a PixVerse del terreno del juguete hacia el cine real, y los clips ya alcanzan 15 segundos en 1080p. El precio sigue simple y justo: $10/$30 al mes. Los límites honestos: el realismo máximo en escenas complejas aún va detrás de Veo y Sora, los resultados gratis llevan marca de agua, los créditos vuelan en 1080p y la cultura de plantillas hace que mucho contenido se parezca. Pero como el lugar más fácil para empezar en video IA —y cada vez más capaz para quedarse—, PixVerse se ha ganado su escala. Su edición china, Paiwo AI, lleva la misma tecnología a los usuarios de China.",
+        "fr": "PixVerse a pris un chemin peu glorieux mais redoutablement efficace vers les 100 millions d'utilisateurs : rendre la vidéo IA sans effort. Sa bibliothèque de modèles — câlins, danses, transformations utilisables depuis une seule photo — en a fait la première app de vidéo IA par défaut pour un public énorme, et un niveau gratuit réellement récurrent (60 crédits par jour, pas un essai unique) entretient la pratique. Ce qui change la donne en 2026, c'est V6 : narration multi-plans, contrôle de caméra et audio natif générés en une seule passe font passer PixVerse du gadget vers la vraie réalisation, et les clips atteignent désormais 15 secondes en 1080p. Les prix restent simples et honnêtes : 10 $/30 $ par mois. Les limites, en toute franchise : le réalisme maximal sur scènes complexes reste derrière Veo et Sora, les sorties gratuites sont filigranées, les crédits filent en 1080p, et la culture du modèle prêt-à-l'emploi uniformise beaucoup de contenus. Mais comme point de départ le plus facile en vidéo IA — et de plus en plus comme un endroit où rester — PixVerse a mérité son échelle. Son édition chinoise, Paiwo AI, apporte la même technologie aux utilisateurs de Chine."
+      },
+      "bestFor": {
+        "en": [
+          "Beginners who want the gentlest, template-driven start in AI video",
+          "Social creators chasing viral effect formats from single photos",
+          "Anyone who values a real daily free allowance for continuous practice"
+        ],
+        "zh": [
+          "想以最平缓、模板化方式入门 AI 视频的新手",
+          "追逐单照片爆款特效格式的社媒创作者",
+          "看重真正每日免费额度、想持续练手的人"
+        ],
+        "ja": [
+          "テンプレート主導で最も緩やかにAI動画を始めたい初心者",
+          "写真1枚のバズ系エフェクト形式を狙うSNSクリエイター",
+          "毎日の無料枠で継続的に練習したい人"
+        ],
+        "es": [
+          "Principiantes que quieren el inicio más suave y basado en plantillas en video IA",
+          "Creadores sociales que persiguen formatos de efectos virales desde una sola foto",
+          "Quienes valoran una asignación gratuita diaria real para practicar de forma continua"
+        ],
+        "fr": [
+          "Débutants voulant le démarrage le plus doux, à base de modèles, en vidéo IA",
+          "Créateurs sociaux en quête de formats d'effets viraux à partir d'une seule photo",
+          "Quiconque apprécie une vraie allocation gratuite quotidienne pour pratiquer en continu"
+        ]
+      },
+      "considerAlternatives": {
+        "en": [
+          "You need peak cinematic realism for complex scenes (→ Veo / Sora)",
+          "Your clips center on physically realistic human motion (→ Hailuo AI)"
+        ],
+        "zh": [
+          "你需要复杂场景下的顶级电影级真实感（→ Veo / Sora）",
+          "你的片段以物理真实的人物动作为核心（→ 海螺AI）"
+        ],
+        "ja": [
+          "複雑なシーンで最高峰の映画的リアリズムが必要（→ Veo / Sora）",
+          "物理的にリアルな人物の動きが主役のクリップ（→ Hailuo AI）"
+        ],
+        "es": [
+          "Necesitas el máximo realismo cinematográfico en escenas complejas (→ Veo / Sora)",
+          "Tus clips giran en torno al movimiento humano físicamente realista (→ Hailuo AI)"
+        ],
+        "fr": [
+          "Vous avez besoin d'un réalisme cinématographique maximal sur des scènes complexes (→ Veo / Sora)",
+          "Vos clips reposent sur des mouvements humains physiquement réalistes (→ Hailuo AI)"
+        ]
+      }
+    },
+    "meta": {
+      "lastVerified": "2026-07-28",
+      "verdictDate": "2026-07-28",
+      "pricingVerified": "2026-07-28",
+      "pricingUrl": "https://app.pixverse.ai/membership"
+    }
   }
 }

@@ -3629,7 +3629,7 @@
     "slug": "recraft",
     "name": "Recraft",
     "nameZh": "Recraft",
-    "description": "面向专业设计师的 AI 图像平台，自研 V4 模型，唯一原生矢量图生成，支持品牌风格控制、图标套组与样机，CatBoost 作者创办", 
+    "description": "面向专业设计师的 AI 图像平台，自研 V4 模型，唯一原生矢量图生成，支持品牌风格控制、图标套组与样机，CatBoost 作者创办",
     "descriptionEn": "AI image platform for professional designers with in-house V4 model, native vector generation, brand style controls, icon sets and mockups; founded by the creator of CatBoost",
     "descriptionJa": "プロデザイナー向けAI画像プラットフォーム。自社開発V4モデル、ネイティブなベクター生成、ブランドスタイル制御、アイコンセットとモックアップに対応。CatBoost作者が創業",
     "descriptionEs": "Plataforma de imágenes IA para diseñadores profesionales con modelo propio V4, generación vectorial nativa, control de estilo de marca, sets de iconos y mockups; fundada por la creadora de CatBoost",
@@ -3707,6 +3707,93 @@
       "linux": false,
       "browser_extension": false,
       "api": "unknown"
+    }
+  },
+  {
+    "slug": "hailuo",
+    "name": "Hailuo AI",
+    "nameZh": "海螺AI",
+    "description": "MiniMax 旗下 AI 视频与图像生成平台，Hailuo 2.3 模型以物理真实的人物动作和全球标杆级性价比著称，支持文生视频与图生视频",
+    "descriptionEn": "MiniMax's AI video and image generation platform. The Hailuo 2.3 model is known for physically realistic human motion and industry-leading cost-effectiveness, supporting text-to-video and image-to-video",
+    "descriptionJa": "MiniMax傘下のAI動画・画像生成プラットフォーム。Hailuo 2.3モデルは物理的にリアルな人物の動きと世界トップクラスのコストパフォーマンスで知られ、テキストと画像からの動画生成に対応",
+    "descriptionEs": "Plataforma de generación de video e imagen IA de MiniMax. El modelo Hailuo 2.3 destaca por el movimiento humano físicamente realista y una relación calidad-precio líder, compatible con texto-a-video e imagen-a-video",
+    "descriptionFr": "Plateforme de génération vidéo et image IA de MiniMax. Le modèle Hailuo 2.3 est réputé pour ses mouvements humains physiquement réalistes et son rapport qualité-prix de référence, prenant en charge la génération texte-vidéo et image-vidéo",
+    "url": "https://hailuoai.video",
+    "logo": "/logos/tools/hailuo.png",
+    "category": "Video",
+    "tags": [
+      "Freemium"
+    ],
+    "featured": false,
+    "developer": "MiniMax",
+    "developerZh": "MiniMax（稀宇科技）",
+    "platforms": {
+      "web": true,
+      "windows": false,
+      "macos": false,
+      "ios": true,
+      "android": true,
+      "linux": false,
+      "browser_extension": false,
+      "api": true
+    }
+  },
+  {
+    "slug": "pixverse",
+    "name": "PixVerse",
+    "nameZh": "PixVerse",
+    "description": "爱诗科技旗下 AI 视频生成平台（国际版），V6 模型支持多镜头叙事、运镜控制与原生音频，全球用户破一亿，模板特效丰富易上手",
+    "descriptionEn": "AIsphere's AI video generation platform (International version). The V6 model supports multi-shot storytelling, camera control and native audio; over 100 million users worldwide with rich, easy-to-use templates and effects",
+    "descriptionJa": "AIsphere（愛詩科技）のAI動画生成プラットフォーム（国際版）。V6モデルはマルチショット、カメラ制御、ネイティブ音声に対応。世界ユーザー1億人超、テンプレートとエフェクトが豊富で使いやすい",
+    "descriptionEs": "Plataforma de generación de video IA de AIsphere (versión internacional). El modelo V6 admite narrativa multi-toma, control de cámara y audio nativo; más de 100 millones de usuarios en el mundo con plantillas y efectos fáciles de usar",
+    "descriptionFr": "Plateforme de génération vidéo IA d'AIsphere (version internationale). Le modèle V6 prend en charge la narration multi-plans, le contrôle de caméra et l'audio natif ; plus de 100 millions d'utilisateurs dans le monde, avec des modèles et effets riches et faciles à utiliser",
+    "url": "https://pixverse.ai",
+    "logo": "/logos/tools/pixverse.png",
+    "category": "Video",
+    "tags": [
+      "Freemium"
+    ],
+    "featured": false,
+    "developer": "AIsphere",
+    "developerZh": "爱诗科技",
+    "platforms": {
+      "web": true,
+      "windows": false,
+      "macos": false,
+      "ios": true,
+      "android": true,
+      "linux": false,
+      "browser_extension": false,
+      "api": true
+    }
+  },
+  {
+    "slug": "pixverse-cn",
+    "name": "PixVerse",
+    "nameZh": "拍我AI",
+    "description": "PixVerse 国内版「拍我AI」，免费起步且无需 VPN，V6 模型文生/图生视频，支持智能对口型、电影级运镜与特效模板，网页端与 App 同步上线",
+    "descriptionEn": "PixVerse China edition 'Paiwo AI', free to start and no VPN required. The V6 model powers text-to-video and image-to-video with smart lip-sync, cinematic camera moves and effect templates, available on web and mobile apps",
+    "descriptionJa": "PixVerse中国版「拍我AI」。無料で始められVPN不要。V6モデルによるテキスト/画像からの動画生成、スマートリップシンク、映画級カメラワーク、エフェクトテンプレートに対応。Web版とアプリ版を同時提供",
+    "descriptionEs": "PixVerse edición China 'Paiwo AI', gratis para empezar y sin VPN. El modelo V6 impulsa texto-a-video e imagen-a-video con sincronización labial inteligente, movimientos de cámara cinematográficos y plantillas de efectos, disponible en web y apps móviles",
+    "descriptionFr": "PixVerse édition Chine « Paiwo AI », gratuit pour commencer et sans VPN. Le modèle V6 alimente la génération texte-vidéo et image-vidéo avec synchronisation labiale intelligente, mouvements de caméra cinématographiques et modèles d'effets, disponible sur web et applications mobiles",
+    "url": "https://pai.video",
+    "logo": "/logos/tools/pixverse-cn.png",
+    "category": "Video",
+    "tags": [
+      "Freemium"
+    ],
+    "featured": false,
+    "developer": "AIsphere",
+    "developerZh": "爱诗科技",
+    "platforms": {
+      "web": true,
+      "windows": false,
+      "macos": false,
+      "ios": true,
+      "android": true,
+      "linux": false,
+      "browser_extension": false,
+      "api": true
     }
   }
 ]
