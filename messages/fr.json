@@ -85,6 +85,7 @@
     "categories": "Catégories",
     "privacy": "Politique de Confidentialité",
     "disclaimer": "Avertissement",
+    "editorial": "Critères de Sélection",
     "copyright": "© 2026 Cataito. Tous droits réservés.",
     "description": "Votre porte d'entrée vers l'écosystème mondial de l'IA.",
     "contact": "Contact"
@@ -249,6 +250,37 @@
     "changes_text": "Nous nous réservons le droit de modifier cet Avertissement à tout moment. Les modifications prennent effet immédiatement.",
     "contact_title": "11. Contact",
     "contact_text": "Si vous avez des questions sur cet Avertissement, veuillez nous contacter :"
+  },
+  "editorialPolicy": {
+    "title": "Critères de Sélection et Éditoriaux",
+    "intro_title": "Comment Nous Sélectionnons",
+    "intro_text": "Cataito est un annuaire indépendant et sélectionné manuellement. Chaque outil est examiné avant d'être référencé, et nous maintenons les référencements sous révision continue. Notre objectif est un catalogue digne de confiance : nous privilégions les outils d'IA réellement utiles, sûrs et promus honnêtement, et nous refusons ou retirons ceux qui mettent les utilisateurs en danger. Les critères ci-dessous décrivent exactement comment nous décidons de ce qui reste.",
+    "reject_title": "Ce Que Nous Refusons",
+    "reject_text": "Un outil se voit refuser le référencement — ou est retiré s'il est déjà référencé — lorsque l'un des cas suivants s'applique :",
+    "reject_items": [
+      "Fraude à la facturation : frais trompeurs, renouvellement automatique non divulgué, refus d'annulation ou de remboursement, ou un modèle documenté de plaintes de facturation.",
+      "Logiciel malveillant ou distribution non sécurisée : logiciel malveillant intégré, détournement du navigateur, ou installateurs / extensions non sécurisés.",
+      "Réputation effondrée : un modèle cohérent et bien documenté de préjudice aux utilisateurs à travers des sources indépendantes.",
+      "Usurpation ou contrefaçon : faux clones ou outils qui dénaturent leur identité, leur propriété ou leurs capacités.",
+      "Conçu pour la fraude : outils dont le but principal est la tromperie ou l'abus (p. ex. clonage de visage/voix à des fins d'escroquerie, images non consenties).",
+      "Boîtes noires de confidentialité : aucune politique de confidentialité identifiable, ou traitement des données des utilisateurs de manière manifestement abusive.",
+      "Produit mort : le service est abandonné, arrêté ou n'est plus accessible."
+    ],
+    "watch_title": "Ce Qui Limite la Note d'un Outil",
+    "watch_text": "Certains outils sont référencés mais plafonnés — nous limitons leur note et divulguons ouvertement la préoccupation dans les avantages et inconvénients de l'outil — lorsque nous constatons :",
+    "watch_items": [
+      "Publicité excessive ou intrusive qui dégrade l'expérience.",
+      "Une controverse passée qui a depuis été corrigée (maintenue sous observation).",
+      "Statut d'aperçu de recherche ou sur liste d'attente uniquement, avec une disponibilité publique limitée.",
+      "Un changement de propriété ou d'acquisition que nous signalons en toute transparence.",
+      "Une tarification opaque qui rend les coûts réels difficiles à déterminer à l'avance."
+    ],
+    "evidence_title": "Notre Critère de Preuve",
+    "evidence_text": "Nous n'agissons pas sur des rumeurs. Un jugement de ligne rouge exige la corroboration d'au moins deux sources indépendantes et récentes — telles que des dossiers de protection des consommateurs, des plateformes d'avis établies ou des témoignages de première main fondés — avant qu'un outil ne soit refusé ou retiré.",
+    "review_title": "Révision Continue",
+    "review_text": "Le référencement n'est pas permanent. Nous re-vérifions périodiquement le statut actif et les tarifs de manière automatique, et nous réauditons les référencements existants en matière de réputation et de sécurité au fil du temps. Lorsqu'un outil franchit une ligne rouge, nous le retirons quelle que soit la durée de son référencement.",
+    "report_title": "Signaler un Problème",
+    "report_text": "Vous avez trouvé un outil référencé qui enfreint ces critères ? Dites-le nous et nous enquêterons. Contactez-nous à :"
   },
   "category": {
     "heading": "Meilleurs outils IA de {category}",

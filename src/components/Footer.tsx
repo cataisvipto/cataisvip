@@ -113,6 +113,9 @@ export default function Footer() {
             <Link href="/disclaimer" className="text-xs text-[var(--muted)] hover:text-[var(--primary)] transition">
               {t('disclaimer')}
             </Link>
+            <Link href="/editorial-policy" className="text-xs text-[var(--muted)] hover:text-[var(--primary)] transition">
+              {t('editorial')}
+            </Link>
           </div>
           <p className="text-xs text-[var(--muted)]">{t('copyright')}</p>
         </div>

@@ -85,6 +85,7 @@
     "categories": "Categorías",
     "privacy": "Política de Privacidad",
     "disclaimer": "Aviso Legal",
+    "editorial": "Estándares de Curación",
     "copyright": "© 2026 Cataito. Todos los derechos reservados.",
     "description": "Tu puerta de entrada al ecosistema global de IA.",
     "contact": "Contacto"
@@ -249,6 +250,37 @@
     "changes_text": "Nos reservamos el derecho de modificar este Aviso en cualquier momento. Los cambios serán efectivos inmediatamente.",
     "contact_title": "11. Contacto",
     "contact_text": "Si tienes preguntas sobre este Aviso Legal, contáctanos en:"
+  },
+  "editorialPolicy": {
+    "title": "Estándares de Curación y Editoriales",
+    "intro_title": "Cómo Seleccionamos",
+    "intro_text": "Cataito es un directorio independiente y curado manualmente. Cada herramienta se revisa antes de incluirla y mantenemos las inclusiones bajo revisión continua. Nuestro objetivo es un catálogo en el que puedas confiar: priorizamos herramientas de IA genuinamente útiles, seguras y promocionadas con honestidad, y rechazamos o eliminamos aquellas que ponen en riesgo a los usuarios. Los estándares siguientes describen exactamente cómo decidimos qué permanece.",
+    "reject_title": "Qué Rechazamos",
+    "reject_text": "Se rechaza la inclusión de una herramienta — o se elimina si ya estaba incluida — cuando se cumple cualquiera de los siguientes casos:",
+    "reject_items": [
+      "Fraude de facturación: cargos engañosos, renovación automática no divulgada, negativa a cancelar o reembolsar, o un patrón documentado de quejas de facturación.",
+      "Malware o distribución insegura: malware incluido, secuestro del navegador o instaladores / extensiones inseguros.",
+      "Reputación colapsada: un patrón consistente y bien documentado de daño a los usuarios en fuentes independientes.",
+      "Suplantación o falsificación: clones falsos o herramientas que tergiversan su identidad, propiedad o capacidades.",
+      "Diseñado para el fraude: herramientas cuyo propósito principal es el engaño o el abuso (p. ej. clonación de rostro/voz con fines de estafa, imágenes no consentidas).",
+      "Cajas negras de privacidad: sin política de privacidad discernible, o manejo de datos de usuarios de forma claramente abusiva.",
+      "Producto muerto: el servicio está descontinuado, abandonado o ya no es accesible."
+    ],
+    "watch_title": "Qué Limita la Calificación de una Herramienta",
+    "watch_text": "Algunas herramientas se incluyen pero con calificación limitada — limitamos su valoración y divulgamos abiertamente la preocupación en los pros y contras de la herramienta — cuando observamos:",
+    "watch_items": [
+      "Publicidad excesiva o intrusiva que degrada la experiencia.",
+      "Una controversia pasada que ya se ha resuelto (mantenida bajo observación).",
+      "Estado de vista previa de investigación o solo por lista de espera, con disponibilidad pública limitada.",
+      "Un cambio de propiedad o adquisición que señalamos con transparencia.",
+      "Precios opacos que dificultan determinar los costos reales de antemano."
+    ],
+    "evidence_title": "Nuestro Estándar de Evidencia",
+    "evidence_text": "No actuamos por rumores. Un juicio de línea roja requiere la corroboración de al menos dos fuentes independientes y recientes — como registros de protección al consumidor, plataformas de reseñas establecidas o informes de primera mano fundamentados — antes de rechazar o eliminar una herramienta.",
+    "review_title": "Revisión Continua",
+    "review_text": "La inclusión no es permanente. Reverificamos periódicamente el estado activo y los precios de forma automática, y reauditamos las inclusiones existentes en cuanto a reputación y seguridad con el tiempo. Cuando una herramienta cruza una línea roja, la eliminamos sin importar cuánto tiempo lleve incluida.",
+    "report_title": "Reportar un Problema",
+    "report_text": "¿Encontraste una herramienta incluida que infringe estos estándares? Avísanos e investigaremos. Contáctanos en:"
   },
   "category": {
     "heading": "Mejores herramientas de IA de {category}",

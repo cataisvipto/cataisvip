@@ -10,7 +10,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const locales = routing.locales;
 
   // Static pages（/tools /skills 为列表页，权重高于普通静态页）
-  const staticPages = ['', '/tools', '/skills', '/submit', '/about', '/privacy', '/disclaimer', '/blog', '/ranking'].flatMap((path) =>
+  const staticPages = ['', '/tools', '/skills', '/submit', '/about', '/privacy', '/disclaimer', '/editorial-policy', '/blog', '/ranking'].flatMap((path) =>
     locales.map((locale) => ({
       url: `${BASE_URL}/${locale}${path}`,
       lastModified: new Date(),

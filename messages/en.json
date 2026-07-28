@@ -85,6 +85,7 @@
     "categories": "Categories",
     "privacy": "Privacy Policy",
     "disclaimer": "Disclaimer",
+    "editorial": "Editorial Standards",
     "copyright": "© 2026 Cataito. All rights reserved.",
     "description": "Your gateway to the global AI ecosystem.",
     "contact": "Contact Us"
@@ -249,6 +250,37 @@
     "changes_text": "We reserve the right to modify this Disclaimer at any time. Changes will be effective immediately upon posting on the Site. Your continued use of the Site constitutes acceptance of any modifications.",
     "contact_title": "11. Contact",
     "contact_text": "If you have any questions about this Disclaimer, please contact us at:"
+  },
+  "editorialPolicy": {
+    "title": "Editorial & Listing Standards",
+    "intro_title": "How We Curate",
+    "intro_text": "Cataito is an independent, hand-curated directory. Every tool is reviewed before it is listed, and we keep listings under ongoing review. Our goal is a catalog you can trust: we prioritize genuinely useful, safe, and honestly-marketed AI tools, and we decline or remove those that put users at risk. The standards below describe exactly how we decide what stays.",
+    "reject_title": "What We Reject",
+    "reject_text": "A tool is refused listing — or removed if already listed — when any of the following applies:",
+    "reject_items": [
+      "Billing fraud: deceptive charges, undisclosed auto-renewal, refusal to cancel or refund, or a documented pattern of billing complaints.",
+      "Malware or unsafe distribution: bundled malware, browser hijacking, or unsafe installers/extensions.",
+      "Collapsed reputation: a consistent, well-documented pattern of user harm across independent sources.",
+      "Impersonation or counterfeiting: fake clones or tools that misrepresent their identity, ownership, or capabilities.",
+      "Fraud-enabling by design: tools whose primary purpose is deception or abuse (e.g. scam-oriented face/voice cloning, non-consensual imagery).",
+      "Privacy black boxes: no discernible privacy policy, or handling of user data in clearly abusive ways.",
+      "Dead product: the service is discontinued, abandoned, or no longer reachable."
+    ],
+    "watch_title": "What Limits a Tool's Rating",
+    "watch_text": "Some tools are listed but capped — we cap their rating and disclose the concern openly in the tool's pros & cons — when we see:",
+    "watch_items": [
+      "Excessive or intrusive advertising that degrades the experience.",
+      "A past controversy that has since been addressed (kept under observation).",
+      "Research-preview or waitlist-only status with limited public availability.",
+      "An ownership or acquisition change that we note transparently.",
+      "Opaque pricing that makes real costs hard to determine upfront."
+    ],
+    "evidence_title": "Our Evidence Standard",
+    "evidence_text": "We do not act on rumor. A red-line judgment requires corroboration from at least two independent, recent sources — such as consumer-protection records, established review platforms, or substantiated first-hand reports — before a tool is rejected or removed.",
+    "review_title": "Ongoing Review",
+    "review_text": "Listing is not permanent. We periodically re-check live status and pricing automatically, and we re-audit existing listings for reputation and safety over time. When a tool crosses a red line, we remove it regardless of how long it has been listed.",
+    "report_title": "Report a Concern",
+    "report_text": "Found a listed tool that violates these standards? Tell us and we will investigate. Contact us at:"
   },
   "skills": {
     "metaTitle": "AI Agent Skills & MCP Servers",
