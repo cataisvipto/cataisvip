@@ -13,6 +13,32 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # 内部文件推送禁令：远端检测兜底（本地 .git/hooks/pre-push 阶段 2 为第一道预防，
+      # 匹配规则与其保持一致，另含 AGENTS.md push-guard 的 _internal/ 与 .env* 模式）
+      - name: 检查禁止上传的内部文件
+        run: |
+          forbidden=$(git -c core.quotepath=false ls-files | awk '
+          {
+            path = $0
+            base = path
+            sub(/.*\//, "", base)
+            isRoot = (path !~ /\//)
+            bad = 0
+            if (isRoot && path ~ /\.html$/) bad = 1
+            if (isRoot && path ~ /\.md$/ && base != "README.md") bad = 1
+            if (base ~ /-editor\.html$/) bad = 1
+            if (path ~ /^_internal\//) bad = 1
+            if (base ~ /^\.env/) bad = 1
+            if (bad) print path
+          }')
+          if [ -n "$forbidden" ]; then
+            echo "🚫 检测到禁止上传的内部/运营文件已进入仓库："
+            echo "$forbidden" | sed 's/^/   - /'
+            echo "请立即 git rm --cached 移除并排查泄露内容（本步骤是泄露后的快速发现手段，不构成预防）。"
+            exit 1
+          fi
+          echo "✅ 未发现禁止上传的内部文件"
+
       - uses: actions/setup-node@v4
         with:
           node-version: 20
@@ -21,6 +47,8 @@ jobs:
       - run: npm ci
 
       - run: npm run lint
+
+      - run: npm test
 
       - run: npx next build
 
