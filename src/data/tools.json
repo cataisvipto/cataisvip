@@ -759,11 +759,11 @@
     "slug": "autogpt",
     "name": "AutoGPT",
     "nameZh": "AutoGPT",
-    "description": "开源自主 AI Agent 框架，让 GPT 自动完成复杂任务",
-    "descriptionEn": "Open-source autonomous AI agent framework for automating complex tasks",
-    "descriptionJa": "オープンソースの自律AIエージェントフレームワーク。複雑なタスクを自動実行",
-    "descriptionEs": "Framework de agente IA autónomo de código abierto para automatizar tareas complejas",
-    "descriptionFr": "Framework d'agent IA autonome open-source pour automatiser des tâches complexes",
+    "description": "早期自主 Agent 现象级项目，现转型为低代码 AI Agent 工作流平台（AutoGPT Platform）",
+    "descriptionEn": "The early autonomous-agent phenomenon, now rebuilt as a low-code AI agent workflow platform (AutoGPT Platform)",
+    "descriptionJa": "初期の自律エージェント現象級プロジェクト。現在はローコードのAIエージェントワークフロー基盤（AutoGPT Platform）へ再構築",
+    "descriptionEs": "El fenómeno pionero de agentes autónomos, hoy reconstruido como plataforma low-code de flujos de agentes IA (AutoGPT Platform)",
+    "descriptionFr": "Le phénomène pionnier des agents autonomes, reconstruit en plateforme low-code de workflows d'agents IA (AutoGPT Platform)",
     "url": "https://agpt.co",
     "logo": "/logos/tools/autogpt.png",
     "category": "Agent",
@@ -788,11 +788,11 @@
     "slug": "copy-ai",
     "name": "Copy.ai",
     "nameZh": "Copy.ai",
-    "description": "AI 营销文案生成工具，支持广告、邮件、社交媒体等内容",
-    "descriptionEn": "AI copywriting tool for ads, emails, social media and marketing content",
-    "descriptionJa": "AIコピーライティングツール。広告、メール、SNS、マーケティングコンテンツに対応",
-    "descriptionEs": "Herramienta de copywriting IA para anuncios, correos, redes sociales y contenido de marketing",
-    "descriptionFr": "Outil de copywriting IA pour publicités, e-mails, réseaux sociaux et contenu marketing",
+    "description": "AI 文案起家、现已转型的 GTM（市场增长）AI 平台，用工作流自动化销售与营销全流程",
+    "descriptionEn": "Started as AI copywriting, now a GTM AI platform automating sales and marketing workflows end to end",
+    "descriptionJa": "AIコピーライティングから出発し、現在は営業・マーケティングのワークフローを自動化するGTM AIプラットフォームへ転換",
+    "descriptionEs": "Nació como copywriting IA y hoy es una plataforma GTM AI que automatiza flujos de ventas y marketing de extremo a extremo",
+    "descriptionFr": "Né du copywriting IA, devenu une plateforme GTM AI qui automatise les flux ventes et marketing de bout en bout",
     "url": "https://www.copy.ai",
     "logo": "/logos/tools/copy-ai.png",
     "category": "Writing",
@@ -4521,6 +4521,578 @@
       "linux": false,
       "browser_extension": false,
       "api": false
+    }
+  },
+  {
+    "slug": "grammarly",
+    "name": "Grammarly",
+    "nameZh": "Grammarly",
+    "description": "AI 写作助手行业标杆，跨 50 万+ 应用实时纠错、改写与语气调整，母公司 2025 年更名 Superhuman 并整合 Coda 文档与 Superhuman Mail 组成办公套件，免费档每月 100 次 AI 提示，Pro 年付 $12/月",
+    "descriptionEn": "The industry-standard AI writing assistant: real-time grammar, rewriting and tone fixes across 500K+ apps and sites; parent company rebranded to Superhuman in 2025, folding in Coda docs and Superhuman Mail as a productivity suite — free tier with 100 AI prompts a month, Pro from $12/month billed annually",
+    "descriptionJa": "業界標準のAIライティングアシスタント。50万超のアプリとサイトでリアルタイムに文法修正・書き換え・トーン調整。親会社は2025年にSuperhumanへ社名変更し、CodaドキュメントとSuperhuman Mailを統合した生産性スイートに。無料枠は月100回のAIプロンプト、Proは年払いで月$12",
+    "descriptionEs": "El asistente de escritura con IA estándar del sector: corrección gramatical, reescritura y ajuste de tono en tiempo real en más de 500 000 apps y sitios; la matriz se renombró Superhuman en 2025, integrando Coda y Superhuman Mail como suite de productividad — nivel gratuito con 100 prompts de IA al mes, Pro desde $12/mes con pago anual",
+    "descriptionFr": "L'assistant d'écriture IA de référence : correction grammaticale, réécriture et ajustement du ton en temps réel sur plus de 500 000 apps et sites ; la maison mère s'est renommée Superhuman en 2025, intégrant Coda et Superhuman Mail en suite de productivité — offre gratuite avec 100 prompts IA par mois, Pro dès 12 $/mois en facturation annuelle",
+    "url": "https://www.grammarly.com",
+    "logo": "/logos/tools/grammarly.png",
+    "category": "Writing",
+    "tags": [
+      "Freemium",
+      "API"
+    ],
+    "featured": false,
+    "developer": "Superhuman (formerly Grammarly)",
+    "platforms": {
+      "web": true,
+      "windows": true,
+      "macos": true,
+      "ios": true,
+      "android": true,
+      "linux": false,
+      "browser_extension": true,
+      "api": true
+    }
+  },
+  {
+    "slug": "quillbot",
+    "name": "QuillBot",
+    "nameZh": "QuillBot",
+    "description": "Learneo 旗下的 AI 改写与语法工具，Paraphraser 多模式释义、AI 检测器与 Humanizer、摘要与 40+ 语言翻译一站集成，桌面/移动/浏览器插件全平台覆盖，免费档可用，Premium 年付合 $8.33/月",
+    "descriptionEn": "Learneo's AI rewriting and grammar toolkit: a multi-mode Paraphraser, AI Detector with Humanizer, Summarizer and translation across 40+ languages in one place, with desktop, mobile and browser extensions everywhere — free tier available, Premium works out to $8.33/month billed annually",
+    "descriptionJa": "Learneo傘下のAI書き換え・文法ツール。マルチモードのParaphraser、AI検出器とHumanizer、要約、40超言語の翻訳を一箇所に統合。デスクトップ・モバイル・ブラウザ拡張で全プラットフォーム対応。無料枠あり、Premiumは年払いで月$8.33相当",
+    "descriptionEs": "Kit de reescritura y gramática con IA de Learneo: Paraphraser multimodo, Detector de IA con Humanizer, resumidor y traducción a más de 40 idiomas en un solo lugar, con apps de escritorio, móvil y extensiones de navegador — nivel gratuito disponible, Premium sale a $8.33/mes con pago anual",
+    "descriptionFr": "Boîte à outils IA de réécriture et grammaire de Learneo : Paraphraser multi-modes, détecteur d'IA avec Humanizer, résumeur et traduction en 40+ langues au même endroit, avec apps bureau, mobile et extensions navigateur — offre gratuite disponible, Premium revient à 8,33 $/mois en annuel",
+    "url": "https://quillbot.com",
+    "logo": "/logos/tools/quillbot.png",
+    "category": "Writing",
+    "tags": [
+      "Freemium"
+    ],
+    "featured": false,
+    "developer": "Learneo",
+    "platforms": {
+      "web": true,
+      "windows": true,
+      "macos": true,
+      "ios": true,
+      "android": true,
+      "linux": false,
+      "browser_extension": true,
+      "api": false
+    }
+  },
+  {
+    "slug": "rytr",
+    "name": "Rytr",
+    "nameZh": "Rytr",
+    "description": "主打极致性价比的 AI 短文案生成器，40+ 模板用例、20+ 语气与自定义文风克隆、35+ 语言，Unlimited 档年付仅 $7.50/月即无限生成，适合预算敏感的营销与电商文案场景",
+    "descriptionEn": "A budget-first AI copy generator: 40+ template use cases, 20+ tones plus custom tone cloning and 35+ languages, with the Unlimited plan at just $7.50/month billed annually for unlimited generation — built for cost-sensitive marketing and e-commerce copy",
+    "descriptionJa": "コスパ最優先のAI短文コピージェネレーター。40超のテンプレート用例、20超のトーンとカスタム文体クローン、35超の言語に対応。Unlimitedプランは年払いで月わずか$7.50で無制限生成。予算重視のマーケ・EC文案向け",
+    "descriptionEs": "Generador de copys con IA centrado en el precio: más de 40 casos de uso con plantillas, 20+ tonos con clonación de estilo propio y 35+ idiomas; el plan Unlimited cuesta solo $7.50/mes con pago anual para generación ilimitada — pensado para marketing y e-commerce con presupuesto ajustado",
+    "descriptionFr": "Générateur de textes IA axé petit budget : 40+ cas d'usage avec modèles, 20+ tons plus clonage de style personnalisé et 35+ langues ; l'offre Unlimited ne coûte que 7,50 $/mois en annuel pour une génération illimitée — pensé pour le marketing et l'e-commerce à budget serré",
+    "url": "https://rytr.me",
+    "logo": "/logos/tools/rytr.png",
+    "category": "Writing",
+    "tags": [
+      "Freemium",
+      "API"
+    ],
+    "featured": false,
+    "developer": "Rytr (Copysmith)",
+    "platforms": {
+      "web": true,
+      "windows": false,
+      "macos": false,
+      "ios": false,
+      "android": false,
+      "linux": false,
+      "browser_extension": true,
+      "api": true
+    }
+  },
+  {
+    "slug": "sudowrite",
+    "name": "Sudowrite",
+    "nameZh": "Sudowrite",
+    "description": "专为小说作者打造的 AI 写作工具，自研虚构写作专用模型 Muse 的散文质量被多家评测评为同类第一，Story Bible 从大纲、人物卡到逐章生成完整长篇工作流，生成内容版权归用户，$10/月起（年付）",
+    "descriptionEn": "An AI writing tool built for novelists: its fiction-specialized Muse model is rated best-in-class for prose by multiple reviews, and Story Bible runs a full long-form workflow from outline and character cards to chapter-by-chapter drafts — you keep the copyright, from $10/month billed annually",
+    "descriptionJa": "小説家のために作られたAI執筆ツール。フィクション特化の自社モデルMuseは複数のレビューで散文品質同類最高と評価。Story Bibleはアウトライン・キャラクターカードから章ごとの生成まで長編の完全ワークフローを提供。生成物の著作権はユーザーに帰属。年払いで月$10から",
+    "descriptionEs": "Herramienta de escritura con IA hecha para novelistas: su modelo Muse, especializado en ficción, es valorado como el mejor de su clase en prosa por varias reseñas, y Story Bible cubre el flujo completo de novela desde el esquema y fichas de personajes hasta borradores capítulo a capítulo — el copyright es tuyo, desde $10/mes con pago anual",
+    "descriptionFr": "Outil d'écriture IA conçu pour les romanciers : son modèle Muse, spécialisé fiction, est jugé meilleur de sa catégorie en prose par plusieurs tests, et Story Bible couvre tout le flux du roman, du plan et des fiches personnages aux chapitres générés un à un — le droit d'auteur vous appartient, dès 10 $/mois en annuel",
+    "url": "https://sudowrite.com",
+    "logo": "/logos/tools/sudowrite.png",
+    "category": "Writing",
+    "tags": [
+      "Paid"
+    ],
+    "featured": false,
+    "developer": "Sudowrite",
+    "platforms": {
+      "web": true,
+      "windows": false,
+      "macos": false,
+      "ios": false,
+      "android": false,
+      "linux": false,
+      "browser_extension": false,
+      "api": false
+    }
+  },
+  {
+    "slug": "prowritingaid",
+    "name": "ProWritingAid",
+    "nameZh": "ProWritingAid",
+    "description": "深度文风分析的「故事作者工具箱」，25+ 写作报告诊断风格、节奏与可读性，AI 章节点评、虚拟测试读者与全稿市场潜力分析面向小说作者，支持 Word/Scrivener/浏览器全场景，免费档可用、Premium 年付 $120 或 $399 终身买断",
+    "descriptionEn": "The deep style-analysis 'Storyteller's Toolkit': 25+ writing reports diagnose style, pacing and readability, with AI Chapter Critique, a Virtual Beta Reader and manuscript marketability analysis for novelists, integrated across Word, Scrivener and browsers — free tier available, Premium at $120/year or a $399 lifetime license",
+    "descriptionJa": "深い文体分析の「ストーリーテラーの道具箱」。25超のライティングレポートが文体・リズム・可読性を診断し、AI章講評・仮想ベータリーダー・原稿の市場性分析が小説家を支援。Word・Scrivener・ブラウザ全場面に対応。無料枠あり、Premiumは年$120または$399の買い切り",
+    "descriptionEs": "El 'kit del narrador' de análisis profundo de estilo: más de 25 informes diagnostican estilo, ritmo y legibilidad, con crítica de capítulos por IA, un lector beta virtual y análisis de potencial comercial del manuscrito para novelistas, integrado en Word, Scrivener y navegadores — nivel gratuito disponible, Premium por $120/año o licencia vitalicia de $399",
+    "descriptionFr": "La « boîte à outils du conteur » pour l'analyse stylistique poussée : 25+ rapports diagnostiquent style, rythme et lisibilité, avec critique de chapitre par IA, lecteur bêta virtuel et analyse du potentiel commercial du manuscrit pour les romanciers, intégrée à Word, Scrivener et aux navigateurs — offre gratuite disponible, Premium à 120 $/an ou licence à vie à 399 $",
+    "url": "https://prowritingaid.com",
+    "logo": "/logos/tools/prowritingaid.png",
+    "category": "Writing",
+    "tags": [
+      "Freemium",
+      "API"
+    ],
+    "featured": false,
+    "developer": "Orpheus Technology",
+    "platforms": {
+      "web": true,
+      "windows": true,
+      "macos": true,
+      "ios": false,
+      "android": false,
+      "linux": false,
+      "browser_extension": true,
+      "api": true
+    }
+  },
+  {
+    "slug": "kiro",
+    "name": "Kiro",
+    "nameZh": "Kiro",
+    "description": "AWS 出品的 spec-driven AI 编码 IDE，先写需求与设计文档再生成带验收标准的任务清单，Agent Hooks 事件自动化、CLI 与 Web 端共享一份订阅，免费档 50 credits/月、Pro $20/月起",
+    "descriptionEn": "AWS's spec-driven AI coding IDE: write requirements and design docs first, then get task lists with acceptance criteria; Agent Hooks automate on events, and one subscription covers IDE, CLI and web — free tier with 50 credits/month, Pro from $20/month",
+    "descriptionJa": "AWS製のスペック駆動AIコーディングIDE。要件と設計ドキュメントを先に書き、受け入れ基準付きのタスクリストを生成。Agent Hooksがイベントで自動化し、IDE・CLI・Webを1つのサブスクリプションでカバー。無料枠は月50クレジット、Proは月$20から",
+    "descriptionEs": "El IDE de codificación con IA spec-driven de AWS: primero escribes requisitos y documentos de diseño y luego obtienes listas de tareas con criterios de aceptación; los Agent Hooks automatizan por eventos y una sola suscripción cubre IDE, CLI y web — nivel gratuito con 50 créditos/mes, Pro desde $20/mes",
+    "descriptionFr": "L'IDE de codage IA spec-driven d'AWS : rédigez d'abord exigences et documents de conception, puis obtenez des listes de tâches avec critères d'acceptation ; les Agent Hooks automatisent sur événements et un seul abonnement couvre IDE, CLI et web — offre gratuite avec 50 crédits/mois, Pro dès 20 $/mois",
+    "url": "https://kiro.dev",
+    "logo": "/logos/tools/kiro.png",
+    "category": "Code",
+    "tags": [
+      "Freemium"
+    ],
+    "featured": false,
+    "developer": "AWS",
+    "platforms": {
+      "web": true,
+      "windows": true,
+      "macos": true,
+      "ios": false,
+      "android": false,
+      "linux": true,
+      "browser_extension": false,
+      "api": false
+    }
+  },
+  {
+    "slug": "jules",
+    "name": "Jules",
+    "nameZh": "Jules",
+    "description": "Google 的异步 AI 编码智能体，派发任务后在云端 VM 自主克隆仓库、制定计划并直接产出 GitHub PR，配套跨平台 CLI 与开放 API，免费档每天 15 个任务，付费额度捆绑 Google AI Pro/Ultra 订阅",
+    "descriptionEn": "Google's asynchronous AI coding agent: hand it a task and it clones your repo in a cloud VM, plans, executes on its own and delivers a GitHub PR, with a cross-platform CLI and open API — free tier of 15 tasks a day, higher limits bundled with Google AI Pro/Ultra subscriptions",
+    "descriptionJa": "Googleの非同期AIコーディングエージェント。タスクを渡すとクラウドVMでリポジトリをクローンし、計画を立てて自律実行、GitHubのPRとして納品。クロスプラットフォームCLIと公開APIも提供。無料枠は1日15タスク、上位額度はGoogle AI Pro/Ultraサブスクリプションに同梱",
+    "descriptionEs": "El agente de codificación asíncrono de Google: le das una tarea, clona tu repo en una VM en la nube, planifica, ejecuta por su cuenta y entrega un PR de GitHub, con CLI multiplataforma y API abierta — nivel gratuito de 15 tareas al día, límites mayores incluidos en las suscripciones Google AI Pro/Ultra",
+    "descriptionFr": "L'agent de codage asynchrone de Google : confiez-lui une tâche, il clone votre dépôt dans une VM cloud, planifie, exécute seul et livre une PR GitHub, avec CLI multiplateforme et API ouverte — offre gratuite de 15 tâches par jour, quotas supérieurs inclus dans les abonnements Google AI Pro/Ultra",
+    "url": "https://jules.google",
+    "logo": "/logos/tools/jules.png",
+    "category": "Code",
+    "tags": [
+      "Freemium",
+      "API"
+    ],
+    "featured": false,
+    "developer": "Google",
+    "platforms": {
+      "web": true,
+      "windows": true,
+      "macos": true,
+      "ios": false,
+      "android": false,
+      "linux": true,
+      "browser_extension": false,
+      "api": true
+    }
+  },
+  {
+    "slug": "jetbrains-ai",
+    "name": "JetBrains AI Assistant",
+    "nameZh": "JetBrains AI 助手",
+    "description": "JetBrains 全家桶 IDE 的官方 AI：AI Assistant 补全/聊天/重构与编码智能体 Junie 共享一份订阅，免费档无限本地模型与无限代码补全独树一帜，AI Pro $10/月、Junie 重度用户建议 Ultimate $30/月",
+    "descriptionEn": "The official AI for JetBrains IDEs: AI Assistant (completion, chat, refactoring) and the Junie coding agent share one subscription, with a standout free tier of unlimited local models and unlimited code completion — AI Pro at $10/month, AI Ultimate at $30/month recommended for heavy Junie use",
+    "descriptionJa": "JetBrains全IDE公式のAI。AI Assistant（補完・チャット・リファクタリング）とコーディングエージェントJunieが1つのサブスクリプションを共有。無制限のローカルモデルと無制限コード補完という無料枠が際立つ。AI Proは月$10、Junieヘビーユーザーには月$30のAI Ultimateを推奨",
+    "descriptionEs": "La IA oficial de los IDE de JetBrains: AI Assistant (autocompletado, chat, refactorización) y el agente de código Junie comparten una sola suscripción, con un nivel gratuito destacado de modelos locales ilimitados y autocompletado ilimitado — AI Pro a $10/mes, AI Ultimate a $30/mes recomendado para uso intensivo de Junie",
+    "descriptionFr": "L'IA officielle des IDE JetBrains : AI Assistant (complétion, chat, refactorisation) et l'agent de codage Junie partagent un seul abonnement, avec une offre gratuite remarquable — modèles locaux illimités et complétion illimitée ; AI Pro à 10 $/mois, AI Ultimate à 30 $/mois conseillé pour un usage intensif de Junie",
+    "url": "https://www.jetbrains.com/ai/",
+    "logo": "/logos/tools/jetbrains-ai.png",
+    "category": "Code",
+    "tags": [
+      "Freemium"
+    ],
+    "featured": false,
+    "developer": "JetBrains",
+    "platforms": {
+      "web": false,
+      "windows": true,
+      "macos": true,
+      "ios": false,
+      "android": false,
+      "linux": true,
+      "browser_extension": false,
+      "api": false
+    }
+  },
+  {
+    "slug": "amp",
+    "name": "Amp",
+    "nameZh": "Amp",
+    "description": "源自 Sourcegraph、2025 年底拆分独立的激进 agentic 编码工具，Orbs 云端并行代理、The Dial 四档力度旋钮与多模型调度走在最前沿，CLI+Web 形态，订阅 Megawatt $20/月起（免费档已暂停新注册）",
+    "descriptionEn": "The radically fast-moving agentic coding tool spun out of Sourcegraph in late 2025: Orbs run parallel agents on cloud machines, The Dial sets four effort levels with multi-model scheduling, all in a CLI + web form factor — subscriptions from Megawatt at $20/month (the free tier is closed to new signups for now)",
+    "descriptionJa": "Sourcegraphから2025年末に分社した先鋭的なagenticコーディングツール。Orbsがクラウド上で並列エージェントを走らせ、The Dialが4段階の力加減とマルチモデル調度を制御。CLI+Web形態。サブスクリプションはMegawatt月$20から（無料枠は現在新規受付停止中）",
+    "descriptionEs": "La herramienta de codificación agéntica radicalmente veloz escindida de Sourcegraph a finales de 2025: los Orbs ejecutan agentes en paralelo en máquinas cloud y The Dial regula cuatro niveles de esfuerzo con orquestación multimodelo, en formato CLI + web — suscripciones desde Megawatt a $20/mes (el nivel gratuito está cerrado a nuevos registros por ahora)",
+    "descriptionFr": "L'outil de codage agentique ultra-réactif issu de la scission de Sourcegraph fin 2025 : les Orbs font tourner des agents en parallèle sur des machines cloud et The Dial règle quatre niveaux d'effort avec orchestration multi-modèles, le tout en CLI + web — abonnements dès Megawatt à 20 $/mois (l'offre gratuite est fermée aux nouvelles inscriptions pour l'instant)",
+    "url": "https://ampcode.com",
+    "logo": "/logos/tools/amp.ico",
+    "category": "Code",
+    "tags": [
+      "Paid",
+      "API"
+    ],
+    "featured": false,
+    "developer": "Amp, Inc. (spun out of Sourcegraph)",
+    "platforms": {
+      "web": true,
+      "windows": true,
+      "macos": true,
+      "ios": false,
+      "android": false,
+      "linux": true,
+      "browser_extension": false,
+      "api": true
+    }
+  },
+  {
+    "slug": "microsoft-copilot",
+    "name": "Microsoft Copilot",
+    "nameZh": "微软 Copilot",
+    "description": "微软的消费级 AI 助手，免费即可用 GPT-5 系列（Smart 自动路由），Memory 长期记忆、Copilot Vision 屏幕/相机识别与 Edge 的 Copilot Mode 深度整合 Windows 生态，Copilot Pro $20/月解锁高峰优先与 Office 内使用",
+    "descriptionEn": "Microsoft's consumer AI assistant: GPT-5-family models free for everyone via Smart auto-routing, with long-term Memory, Copilot Vision for screen/camera understanding and Edge's Copilot Mode woven deep into Windows — Copilot Pro at $20/month adds peak priority and Copilot inside Office apps",
+    "descriptionJa": "Microsoftのコンシューマー向けAIアシスタント。SmartモードによりGPT-5系モデルを無料で利用でき、長期記憶Memory、画面/カメラを理解するCopilot Vision、EdgeのCopilot ModeがWindowsエコシステムに深く統合。月$20のCopilot Proでピーク時優先とOfficeアプリ内利用を解禁",
+    "descriptionEs": "El asistente de IA de consumo de Microsoft: modelos de la familia GPT-5 gratis para todos mediante enrutado automático Smart, con Memoria a largo plazo, Copilot Vision para entender pantalla/cámara y el Copilot Mode de Edge integrado a fondo en Windows — Copilot Pro a $20/mes añade prioridad en horas punta y Copilot dentro de Office",
+    "descriptionFr": "L'assistant IA grand public de Microsoft : les modèles de la famille GPT-5 gratuits pour tous via le routage automatique Smart, avec Mémoire à long terme, Copilot Vision pour comprendre écran/caméra et le Copilot Mode d'Edge profondément intégré à Windows — Copilot Pro à 20 $/mois ajoute la priorité aux heures de pointe et Copilot dans Office",
+    "url": "https://copilot.microsoft.com",
+    "logo": "/logos/tools/microsoft-copilot.png",
+    "category": "Chat",
+    "tags": [
+      "Freemium"
+    ],
+    "featured": false,
+    "developer": "Microsoft",
+    "platforms": {
+      "web": true,
+      "windows": true,
+      "macos": true,
+      "ios": true,
+      "android": true,
+      "linux": false,
+      "browser_extension": false,
+      "api": false
+    }
+  },
+  {
+    "slug": "poe",
+    "name": "Poe",
+    "nameZh": "Poe",
+    "description": "Quora 旗下的多模型聚合平台，一份订阅切换 GPT-5.5、Claude、Gemini、Grok 等上千模型与图像/视频生成，自定义 Bot 创作者变现生态成熟，另有 OpenAI 兼容 API；免费档 300 点/天，订阅 $4.99/月起、主力档 $19.99/月",
+    "descriptionEn": "Quora's multi-model aggregator: one subscription switches between a thousand-plus models — GPT-5.5, Claude, Gemini, Grok — plus image/video generation, a mature creator economy for custom bots and an OpenAI-compatible API; free tier of 300 points/day, subscriptions from $4.99/month with the mainstay at $19.99/month",
+    "descriptionJa": "Quora傘下のマルチモデル集約プラットフォーム。1つのサブスクリプションでGPT-5.5・Claude・Gemini・Grokなど千超のモデルと画像/動画生成を切り替え、カスタムBotのクリエイター収益化エコシステムも成熟、OpenAI互換APIも提供。無料枠は1日300ポイント、サブスクリプションは月$4.99から、主力は月$19.99",
+    "descriptionEs": "El agregador multimodelo de Quora: una sola suscripción alterna entre más de mil modelos — GPT-5.5, Claude, Gemini, Grok — más generación de imagen/vídeo, una economía de creadores madura para bots personalizados y una API compatible con OpenAI; nivel gratuito de 300 puntos/día, suscripciones desde $4.99/mes y el plan principal a $19.99/mes",
+    "descriptionFr": "L'agrégateur multi-modèles de Quora : un seul abonnement permet de passer entre plus de mille modèles — GPT-5.5, Claude, Gemini, Grok — plus la génération d'images/vidéos, une économie de créateurs mature pour les bots personnalisés et une API compatible OpenAI ; offre gratuite de 300 points/jour, abonnements dès 4,99 $/mois, formule principale à 19,99 $/mois",
+    "url": "https://poe.com",
+    "logo": "/logos/tools/poe.png",
+    "category": "Chat",
+    "tags": [
+      "Freemium",
+      "API"
+    ],
+    "featured": false,
+    "developer": "Quora",
+    "platforms": {
+      "web": true,
+      "windows": true,
+      "macos": true,
+      "ios": true,
+      "android": true,
+      "linux": false,
+      "browser_extension": false,
+      "api": true
+    }
+  },
+  {
+    "slug": "notebooklm",
+    "name": "NotebookLM",
+    "nameZh": "NotebookLM",
+    "description": "Google 的 AI 研究与笔记助手（2026 年 7 月更名 Gemini Notebook），上传 PDF/网页/视频等来源即可做带源内引用的问答，Audio Overviews 双人播客、Video Overviews 与 Deep Research 自动综述广受好评，免费档慷慨、高级额度捆绑 Google AI 订阅",
+    "descriptionEn": "Google's AI research and note-taking assistant (renamed Gemini Notebook in July 2026): upload PDFs, web pages and videos for grounded Q&A with inline citations, plus the much-loved Audio Overviews podcast mode, Video Overviews and Deep Research auto-reports — generous free tier, higher limits bundled with Google AI subscriptions",
+    "descriptionJa": "GoogleのAIリサーチ＆ノートアシスタント（2026年7月にGemini Notebookへ改名）。PDF・Webページ・動画などのソースをアップロードすると出典引用付きの根拠あるQ&Aができ、好評のAudio Overviews（二人組ポッドキャスト）、Video Overviews、Deep Research自動レポートも搭載。無料枠が寛大で、上位額度はGoogle AIサブスクリプションに同梱",
+    "descriptionEs": "El asistente de investigación y notas con IA de Google (renombrado Gemini Notebook en julio de 2026): sube PDF, páginas web y vídeos para preguntas con citas en línea basadas en tus fuentes, más el celebrado modo pódcast Audio Overviews, Video Overviews e informes automáticos Deep Research — nivel gratuito generoso, límites superiores incluidos en las suscripciones Google AI",
+    "descriptionFr": "L'assistant IA de recherche et de prise de notes de Google (renommé Gemini Notebook en juillet 2026) : importez PDF, pages web et vidéos pour des questions-réponses ancrées avec citations, plus le très apprécié mode podcast Audio Overviews, les Video Overviews et les rapports automatiques Deep Research — offre gratuite généreuse, quotas supérieurs inclus dans les abonnements Google AI",
+    "url": "https://notebooklm.google.com",
+    "logo": "/logos/tools/notebooklm.png",
+    "category": "Search",
+    "tags": [
+      "Freemium"
+    ],
+    "featured": false,
+    "developer": "Google",
+    "platforms": {
+      "web": true,
+      "windows": false,
+      "macos": false,
+      "ios": true,
+      "android": true,
+      "linux": false,
+      "browser_extension": false,
+      "api": false
+    }
+  },
+  {
+    "slug": "consensus",
+    "name": "Consensus",
+    "nameZh": "Consensus",
+    "description": "面向科研的 AI 学术搜索引擎，语义检索 2 亿+ 同行评审论文，Consensus Meter 可视化证据分布，Deep Search 约 2 分钟完成带引用的文献综述，250 万月活研究者、5000+ 高校在用，免费档可用、Pro $8.99/月（年付）",
+    "descriptionEn": "The AI academic search engine for researchers: semantic search over 200M+ peer-reviewed papers, a Consensus Meter that visualizes the evidence split, and Deep Search that delivers a cited literature review in about two minutes — used by 2.5M monthly researchers across 5,000+ universities, free tier available, Pro from $8.99/month billed annually",
+    "descriptionJa": "研究者向けAI学術検索エンジン。2億超の査読済み論文をセマンティック検索し、Consensus Meterがエビデンスの賛否分布を可視化、Deep Searchは約2分で引用付き文献レビューを完成。月間250万人の研究者と5000超の大学が利用。無料枠あり、Proは年払いで月$8.99から",
+    "descriptionEs": "El buscador académico con IA para investigadores: búsqueda semántica en más de 200 millones de artículos revisados por pares, un Consensus Meter que visualiza la distribución de la evidencia y Deep Search que entrega una revisión bibliográfica con citas en unos dos minutos — usado por 2,5 M de investigadores mensuales en más de 5000 universidades, nivel gratuito disponible, Pro desde $8.99/mes con pago anual",
+    "descriptionFr": "Le moteur de recherche académique IA pour chercheurs : recherche sémantique sur plus de 200 M d'articles évalués par les pairs, un Consensus Meter qui visualise la répartition des preuves et Deep Search qui livre une revue de littérature citée en deux minutes environ — utilisé par 2,5 M de chercheurs mensuels dans plus de 5 000 universités, offre gratuite disponible, Pro dès 8,99 $/mois en annuel",
+    "url": "https://consensus.app",
+    "logo": "/logos/tools/consensus.png",
+    "category": "Search",
+    "tags": [
+      "Freemium"
+    ],
+    "featured": false,
+    "developer": "Consensus",
+    "platforms": {
+      "web": true,
+      "windows": false,
+      "macos": false,
+      "ios": false,
+      "android": false,
+      "linux": false,
+      "browser_extension": false,
+      "api": false
+    }
+  },
+  {
+    "slug": "murf-ai",
+    "name": "Murf AI",
+    "nameZh": "Murf AI",
+    "description": "企业级 AI 配音与 TTS 平台，Gen2 模型提供 20+ 语言广播级拟真语音并支持语气、停顿与重音的细粒度控制，200+ 音色、语音克隆、多语言配音翻译与开发者 API 俱全，免费试用、Creator 年付 $19/月",
+    "descriptionEn": "An enterprise-grade AI voiceover and TTS platform: the Gen2 model delivers broadcast-quality voices in 20+ languages with fine-grained control over tone, pauses and emphasis, plus 200+ voices, voice cloning, multilingual dubbing and a developer API — free trial, Creator at $19/month billed annually",
+    "descriptionJa": "エンタープライズ級のAIナレーション＆TTSプラットフォーム。Gen2モデルが20超言語で放送品質のリアルな音声を提供し、トーン・ポーズ・強調を細かく制御可能。200超のボイス、音声クローン、多言語吹き替え、開発者APIも完備。無料トライアルあり、Creatorは年払いで月$19",
+    "descriptionEs": "Plataforma de locución y TTS con IA de nivel empresarial: el modelo Gen2 ofrece voces con calidad de emisión en más de 20 idiomas con control fino de tono, pausas y énfasis, además de 200+ voces, clonación de voz, doblaje multilingüe y API para desarrolladores — prueba gratuita, Creator a $19/mes con pago anual",
+    "descriptionFr": "Plateforme de voix off et TTS IA de niveau entreprise : le modèle Gen2 délivre des voix de qualité broadcast en 20+ langues avec un contrôle fin du ton, des pauses et de l'emphase, plus 200+ voix, clonage vocal, doublage multilingue et API développeur — essai gratuit, Creator à 19 $/mois en annuel",
+    "url": "https://murf.ai",
+    "logo": "/logos/tools/murf-ai.png",
+    "category": "Audio",
+    "tags": [
+      "Freemium",
+      "API"
+    ],
+    "featured": false,
+    "developer": "Murf",
+    "platforms": {
+      "web": true,
+      "windows": false,
+      "macos": false,
+      "ios": false,
+      "android": false,
+      "linux": false,
+      "browser_extension": false,
+      "api": true
+    }
+  },
+  {
+    "slug": "krisp",
+    "name": "Krisp",
+    "nameZh": "Krisp",
+    "description": "AI 降噪赛道的事实标准，双向去除通话背景噪声与回声、兼容 800+ 通讯应用，AI 会议纪要无需机器人入会，2025 年主打的实时口音转换面向呼叫中心，另有 SDK；免费档每天 60 分钟、Pro 约 $8/月（年付）",
+    "descriptionEn": "The de-facto standard in AI noise cancellation: removes background noise and echo both ways across 800+ calling apps, takes AI meeting notes without a bot joining, and its 2025 flagship real-time Accent Conversion targets call centers, with an SDK for developers — free tier of 60 minutes a day, Pro around $8/month billed annually",
+    "descriptionJa": "AIノイズキャンセリングの事実上の標準。800超の通話アプリで双方向の背景ノイズとエコーを除去し、ボットを入室させずにAI議事録を作成。2025年の目玉であるリアルタイム訛り変換はコールセンター向け。開発者向けSDKも提供。無料枠は1日60分、Proは年払いで月約$8",
+    "descriptionEs": "El estándar de facto en cancelación de ruido con IA: elimina ruido de fondo y eco en ambos sentidos en más de 800 apps de llamadas, toma notas de reunión con IA sin que entre ningún bot, y su conversión de acento en tiempo real de 2025 apunta a los call centers, con SDK para desarrolladores — nivel gratuito de 60 minutos al día, Pro alrededor de $8/mes con pago anual",
+    "descriptionFr": "Le standard de fait de la réduction de bruit par IA : supprime bruit de fond et écho dans les deux sens sur plus de 800 apps d'appel, prend des notes de réunion IA sans bot invité, et sa conversion d'accent en temps réel phare de 2025 vise les centres d'appels, avec un SDK développeur — offre gratuite de 60 minutes par jour, Pro autour de 8 $/mois en annuel",
+    "url": "https://krisp.ai",
+    "logo": "/logos/tools/krisp.png",
+    "category": "Audio",
+    "tags": [
+      "Freemium",
+      "API"
+    ],
+    "featured": false,
+    "developer": "Krisp Technologies",
+    "platforms": {
+      "web": false,
+      "windows": true,
+      "macos": true,
+      "ios": true,
+      "android": true,
+      "linux": false,
+      "browser_extension": false,
+      "api": true
+    }
+  },
+  {
+    "slug": "opusclip",
+    "name": "OpusClip",
+    "nameZh": "OpusClip",
+    "description": "长视频转短视频的头部 AI 工具，自动找爆点切片并给出「爆款分」，ClipAnything 多模态指令剪辑、Agent Opus 代理式包装与 AI B-Roll，一键分发 TikTok/Shorts/Reels，服务 1000 万+ 创作者，免费档每月 60 分钟、付费 $15/月起",
+    "descriptionEn": "The leading AI tool for turning long videos into shorts: it auto-finds highlights, scores each clip's virality, and adds ClipAnything multimodal prompt clipping, agentic Agent Opus packaging and AI B-Roll, with one-click publishing to TikTok/Shorts/Reels — 10M+ creators served, free tier of 60 minutes a month, paid from $15/month",
+    "descriptionJa": "長尺動画をショートに変える定番AIツール。ハイライトを自動抽出して各クリップに「バズりスコア」を付け、ClipAnythingのマルチモーダル指示クリッピング、エージェント型のAgent Opusパッケージング、AI B-Rollも搭載。TikTok/Shorts/Reelsへワンクリック配信。1000万超のクリエイターが利用。無料枠は月60分、有料は月$15から",
+    "descriptionEs": "La herramienta de IA líder para convertir vídeos largos en shorts: encuentra los momentos clave automáticamente, puntúa la viralidad de cada clip y añade recorte por instrucciones multimodales ClipAnything, empaquetado agéntico Agent Opus y B-Roll con IA, con publicación en un clic a TikTok/Shorts/Reels — más de 10 M de creadores, nivel gratuito de 60 minutos al mes, de pago desde $15/mes",
+    "descriptionFr": "L'outil IA de référence pour transformer les vidéos longues en shorts : il repère automatiquement les temps forts, note la viralité de chaque clip et ajoute le découpage par instructions multimodales ClipAnything, l'habillage agentique Agent Opus et le B-Roll IA, avec publication en un clic vers TikTok/Shorts/Reels — plus de 10 M de créateurs, offre gratuite de 60 minutes par mois, payant dès 15 $/mois",
+    "url": "https://www.opus.pro",
+    "logo": "/logos/tools/opusclip.png",
+    "category": "Video",
+    "tags": [
+      "Freemium",
+      "API"
+    ],
+    "featured": false,
+    "developer": "Opus Pro",
+    "platforms": {
+      "web": true,
+      "windows": false,
+      "macos": false,
+      "ios": true,
+      "android": true,
+      "linux": false,
+      "browser_extension": false,
+      "api": true
+    }
+  },
+  {
+    "slug": "capcut",
+    "name": "CapCut",
+    "nameZh": "CapCut",
+    "description": "字节跳动旗下剪映国际版，消费级视频剪辑第一梯队：多轨时间轴、AI 抠像、自动字幕、按文字删改视频，2026 年内置 Seedance 2.0 文生视频支持 4K 电影级生成；免费档可用，Pro $19.99/月（2025 年拆分 Standard/Pro 后涨价）",
+    "descriptionEn": "ByteDance's international CapCut, a first-tier consumer video editor: multi-track timeline, AI cutout, auto captions and text-based editing, with Seedance 2.0 text-to-video built in from 2026 for 4K cinematic generation — free tier available, Pro at $19.99/month (prices rose after the 2025 Standard/Pro split)",
+    "descriptionJa": "ByteDance傘下のCapCut（剪映国際版）はコンシューマー動画編集の第一梯隊。マルチトラックタイムライン、AI切り抜き、自動字幕、テキストベース編集に加え、2026年からSeedance 2.0のテキスト生成動画を内蔵し4Kシネマ級生成に対応。無料枠あり、Proは月$19.99（2025年のStandard/Pro分割後に値上げ）",
+    "descriptionEs": "CapCut internacional de ByteDance, editor de vídeo de consumo de primer nivel: línea de tiempo multipista, recorte con IA, subtítulos automáticos y edición basada en texto, con Seedance 2.0 de texto a vídeo integrado desde 2026 para generación cinematográfica en 4K — nivel gratuito disponible, Pro a $19.99/mes (los precios subieron tras la división Standard/Pro de 2025)",
+    "descriptionFr": "CapCut international de ByteDance, éditeur vidéo grand public de premier plan : timeline multipiste, détourage IA, sous-titres automatiques et montage par le texte, avec Seedance 2.0 (texte vers vidéo) intégré dès 2026 pour une génération cinématographique 4K — offre gratuite disponible, Pro à 19,99 $/mois (hausse des prix après la scission Standard/Pro de 2025)",
+    "url": "https://www.capcut.com",
+    "logo": "/logos/tools/capcut.ico",
+    "category": "Video",
+    "tags": [
+      "Freemium"
+    ],
+    "featured": false,
+    "developer": "ByteDance",
+    "platforms": {
+      "web": true,
+      "windows": true,
+      "macos": true,
+      "ios": true,
+      "android": true,
+      "linux": false,
+      "browser_extension": false,
+      "api": false
+    }
+  },
+  {
+    "slug": "veed",
+    "name": "Veed.io",
+    "nameZh": "Veed.io",
+    "description": "伦敦出品的在线 AI 视频创作平台，招牌级自动字幕与无限多语言字幕翻译，自研 Fabric 1.0 说话人视频模型（官方称比同类便宜 60 倍）、AI 头像与聚合 Veo 3.1 的文生视频，免费档可用、Lite 年付 $18/月",
+    "descriptionEn": "The London-built online AI video platform: signature auto-subtitles with unlimited multilingual translation, its own Fabric 1.0 talking-head model (60x cheaper than rivals, per Veed), AI avatars and text-to-video aggregating Veo 3.1 — free tier available, Lite from $18/month billed annually",
+    "descriptionJa": "ロンドン発のオンラインAI動画制作プラットフォーム。看板の自動字幕と無制限の多言語字幕翻訳、自社開発の話者動画モデルFabric 1.0（公式いわく同類の60分の1のコスト）、AIアバター、Veo 3.1を集約したテキスト生成動画を提供。無料枠あり、Liteは年払いで月$18",
+    "descriptionEs": "La plataforma online de vídeo con IA hecha en Londres: subtítulos automáticos insignia con traducción multilingüe ilimitada, su propio modelo de busto parlante Fabric 1.0 (60 veces más barato que rivales, según Veed), avatares de IA y texto a vídeo que agrega Veo 3.1 — nivel gratuito disponible, Lite desde $18/mes con pago anual",
+    "descriptionFr": "La plateforme vidéo IA en ligne née à Londres : sous-titres automatiques emblématiques avec traduction multilingue illimitée, son propre modèle de présentateur Fabric 1.0 (60 fois moins cher que les concurrents, selon Veed), avatars IA et texte vers vidéo agrégeant Veo 3.1 — offre gratuite disponible, Lite dès 18 $/mois en annuel",
+    "url": "https://www.veed.io",
+    "logo": "/logos/tools/veed.png",
+    "category": "Video",
+    "tags": [
+      "Freemium",
+      "API"
+    ],
+    "featured": false,
+    "developer": "VEED",
+    "platforms": {
+      "web": true,
+      "windows": false,
+      "macos": false,
+      "ios": true,
+      "android": false,
+      "linux": false,
+      "browser_extension": false,
+      "api": true
+    }
+  },
+  {
+    "slug": "photoroom",
+    "name": "Photoroom",
+    "nameZh": "Photoroom",
+    "description": "巴黎出品的 AI 抠图与商品图工具，移动端体验标杆：一键去背景、AI 场景生成、虚拟模特与幽灵模特等电商三件套（基于 gpt-image-1），批量处理数百张商品图，API 成熟；免费档可用、Pro 年付合 $7.50/月",
+    "descriptionEn": "The Paris-built AI background removal and product photo tool, the benchmark on mobile: one-tap cutouts, AI scene generation, Virtual Model and Ghost Mannequin e-commerce tools (powered by gpt-image-1), batch processing for hundreds of product shots and a mature API — free tier available, Pro works out to $7.50/month billed annually",
+    "descriptionJa": "パリ発のAI背景除去＆商品写真ツールでモバイル体験の標杆。ワンタップ切り抜き、AIシーン生成、バーチャルモデルやゴーストマネキンなどEC向けツール（gpt-image-1ベース）、数百枚の商品画像のバッチ処理、成熟したAPIを提供。無料枠あり、Proは年払いで月$7.50相当",
+    "descriptionEs": "La herramienta parisina de recorte de fondos y fotos de producto con IA, referente en móvil: recortes con un toque, generación de escenas con IA, Modelo Virtual y Maniquí Fantasma para e-commerce (con gpt-image-1), procesamiento por lotes de cientos de fotos y una API madura — nivel gratuito disponible, Pro sale a $7.50/mes con pago anual",
+    "descriptionFr": "L'outil parisien de détourage et de photos produit par IA, référence sur mobile : détourage en un geste, génération de scènes IA, Mannequin Virtuel et Mannequin Fantôme pour l'e-commerce (propulsés par gpt-image-1), traitement par lots de centaines de photos et une API mature — offre gratuite disponible, Pro revient à 7,50 $/mois en annuel",
+    "url": "https://www.photoroom.com",
+    "logo": "/logos/tools/photoroom.png",
+    "category": "Image",
+    "tags": [
+      "Freemium",
+      "API"
+    ],
+    "featured": false,
+    "developer": "Photoroom",
+    "platforms": {
+      "web": true,
+      "windows": false,
+      "macos": false,
+      "ios": true,
+      "android": true,
+      "linux": false,
+      "browser_extension": false,
+      "api": true
+    }
+  },
+  {
+    "slug": "lm-studio",
+    "name": "LM Studio",
+    "nameZh": "LM Studio",
+    "description": "本地跑大模型门槛最低的桌面工具，图形化下载运行开源模型（llama.cpp + Apple MLX 双引擎），内置 OpenAI 兼容本地 API 服务器与 MCP 客户端，2025 年起个人与商用全免费，2026 年新推代理应用 Bionic",
+    "descriptionEn": "The lowest-barrier desktop app for running LLMs locally: download and run open models with a GUI (llama.cpp + Apple MLX engines), a built-in OpenAI-compatible local API server and MCP client — free for personal and commercial use since 2025, with the new Bionic agent app launched in 2026",
+    "descriptionJa": "ローカルでLLMを動かす最も敷居の低いデスクトップツール。GUIでオープンモデルをダウンロード・実行（llama.cpp + Apple MLXの2エンジン）、OpenAI互換のローカルAPIサーバーとMCPクライアントを内蔵。2025年から個人・商用とも完全無料、2026年にはエージェントアプリBionicを新発売",
+    "descriptionEs": "La app de escritorio con menor barrera para ejecutar LLM en local: descarga y ejecuta modelos abiertos con interfaz gráfica (motores llama.cpp + Apple MLX), con servidor API local compatible con OpenAI y cliente MCP integrados — gratis para uso personal y comercial desde 2025, con la nueva app de agentes Bionic lanzada en 2026",
+    "descriptionFr": "L'app de bureau la plus accessible pour exécuter des LLM en local : téléchargez et lancez des modèles ouverts en interface graphique (moteurs llama.cpp + Apple MLX), avec serveur API local compatible OpenAI et client MCP intégrés — gratuite pour usage personnel et commercial depuis 2025, avec la nouvelle app d'agents Bionic lancée en 2026",
+    "url": "https://lmstudio.ai",
+    "logo": "/logos/tools/lm-studio.png",
+    "category": "Developer",
+    "tags": [
+      "Free",
+      "API"
+    ],
+    "featured": false,
+    "developer": "Element Labs",
+    "platforms": {
+      "web": false,
+      "windows": true,
+      "macos": true,
+      "ios": false,
+      "android": false,
+      "linux": true,
+      "browser_extension": false,
+      "api": true
     }
   }
 ]
