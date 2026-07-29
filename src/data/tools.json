@@ -2963,6 +2963,7 @@
   },
   {
     "slug": "devin",
+    "homeFeatured": true,
     "name": "Devin",
     "nameZh": "Devin",
     "description": "Cognition 推出的自主 AI 软件工程师，云端并行智能体独立完成编码任务，配套 Devin Desktop IDE（原 Windsurf）",
@@ -2977,7 +2978,7 @@
       "Freemium",
       "API"
     ],
-    "featured": false,
+    "featured": true,
     "developer": "Cognition",
     "platforms": {
       "web": true,
@@ -3081,6 +3082,7 @@
   },
   {
     "slug": "genspark",
+    "homeFeatured": true,
     "name": "Genspark",
     "nameZh": "Genspark",
     "description": "全能 AI 工作空间与超级智能体：一句话生成幻灯片、文档、表格、图像、视频，并推出 Win/Mac AI 原生浏览器",
@@ -3094,7 +3096,7 @@
     "tags": [
       "Freemium"
     ],
-    "featured": false,
+    "featured": true,
     "developer": "Genspark",
     "platforms": {
       "web": true,
