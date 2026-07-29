@@ -44,11 +44,11 @@
     },
     "pricing": {
       "free": {
-        "en": "GPT-5.5 Instant (basic access)",
-        "zh": "GPT-5.5 Instant（基础访问）",
-        "ja": "GPT-5.5 Instant（基本アクセス）",
-        "es": "GPT-5.5 Instant (acceso básico)",
-        "fr": "GPT-5.5 Instant (accès de base)"
+        "en": "GPT-5.6 Instant (basic access)",
+        "zh": "GPT-5.6 Instant（基础访问）",
+        "ja": "GPT-5.6 Instant（基本アクセス）",
+        "es": "GPT-5.6 Instant (acceso básico)",
+        "fr": "GPT-5.6 Instant (accès de base)"
       },
       "go": {
         "en": "$8/month (Go, higher limits)",
@@ -3670,6 +3670,20 @@
         "es": "20 $/mes (completado ilimitado)",
         "fr": "20 $/mois (complétion illimitée)"
       },
+      "pro-plus": {
+        "en": "$60/month (Pro+, 3x Pro usage)",
+        "zh": "$60/月（Pro+、3 倍 Pro 用量）",
+        "ja": "月額60ドル（Pro+、Pro の3倍の利用量）",
+        "es": "60 $/mes (Pro+, 3x el uso de Pro)",
+        "fr": "60 $/mois (Pro+, 3x l'usage Pro)"
+      },
+      "ultra": {
+        "en": "$200/month (Ultra, 20x Pro usage, priority access)",
+        "zh": "$200/月（Ultra、20 倍 Pro 用量、优先访问）",
+        "ja": "月額200ドル（Ultra、Pro の20倍の利用量、優先アクセス）",
+        "es": "200 $/mes (Ultra, 20x el uso de Pro, acceso prioritario)",
+        "fr": "200 $/mois (Ultra, 20x l'usage Pro, accès prioritaire)"
+      },
       "business": {
         "en": "$40/user/month (business)",
         "zh": "$40/人/月（企业版）",
@@ -3925,6 +3939,13 @@
         "ja": "月額20ドル（Pro Search、無制限）",
         "es": "20 $/mes (Pro Search, ilimitado)",
         "fr": "20 $/mois (Pro Search, illimité)"
+      },
+      "max": {
+        "en": "$200/month (Max, most advanced models, early access)",
+        "zh": "$200/月（Max、最强模型、抢先体验）",
+        "ja": "月額200ドル（Max、最先端モデル、早期アクセス）",
+        "es": "200 $/mes (Max, los modelos más avanzados, acceso anticipado)",
+        "fr": "200 $/mois (Max, modèles les plus avancés, accès anticipé)"
       }
     },
     "useCases": {
