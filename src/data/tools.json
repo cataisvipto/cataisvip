@@ -61,7 +61,6 @@
   },
   {
     "slug": "gemini",
-    "homeFeatured": true,
     "name": "Gemini",
     "nameZh": "Gemini",
     "description": "Google 推出的多模态 AI 模型，支持文本、图像、代码理解与生成",
@@ -91,6 +90,7 @@
   },
   {
     "slug": "grok",
+    "homeFeatured": true,
     "name": "Grok",
     "nameZh": "Grok",
     "description": "xAI 推出的 AI 助手，实时接入 X 平台数据，擅长推理和实时搜索",
@@ -120,6 +120,7 @@
   },
   {
     "slug": "deepseek",
+    "homeFeatured": true,
     "name": "DeepSeek",
     "nameZh": "DeepSeek 深度求索",
     "description": "深度求索推出的开源大模型，推理能力强劲，性价比极高",
@@ -151,6 +152,7 @@
   },
   {
     "slug": "qwen",
+    "homeFeatured": true,
     "name": "Qwen",
     "nameZh": "通义千问",
     "description": "阿里云推出的大语言模型，支持多语言、长文本和多模态理解",
@@ -269,6 +271,7 @@
   },
   {
     "slug": "kimi",
+    "homeFeatured": true,
     "name": "Kimi",
     "nameZh": "Kimi",
     "description": "月之暗面推出的 AI 助手，以超长上下文处理能力著称",
@@ -413,7 +416,6 @@
   },
   {
     "slug": "github-copilot",
-    "homeFeatured": true,
     "name": "GitHub Copilot",
     "nameZh": "GitHub Copilot",
     "description": "AI 编程助手，集成在 VS Code 等编辑器中，实时代码补全",
@@ -443,7 +445,6 @@
   },
   {
     "slug": "cursor",
-    "homeFeatured": true,
     "name": "Cursor",
     "nameZh": "Cursor",
     "description": "AI 原生代码编辑器，内置多模型支持，重新定义编程体验",
@@ -472,7 +473,6 @@
   },
   {
     "slug": "perplexity",
-    "homeFeatured": true,
     "name": "Perplexity",
     "nameZh": "Perplexity",
     "description": "AI 搜索引擎，实时联网搜索并提供带引用来源的答案",
@@ -558,7 +558,6 @@
   },
   {
     "slug": "runway",
-    "homeFeatured": true,
     "name": "Runway",
     "nameZh": "Runway",
     "description": "AI 视频生成和编辑工具，支持文本生成视频、视频编辑等",
@@ -587,7 +586,6 @@
   },
   {
     "slug": "elevenlabs",
-    "homeFeatured": true,
     "name": "ElevenLabs",
     "nameZh": "ElevenLabs",
     "description": "领先的 AI 语音合成和克隆平台，支持多语言",
@@ -645,7 +643,6 @@
   },
   {
     "slug": "hugging-face",
-    "homeFeatured": true,
     "name": "Hugging Face",
     "nameZh": "Hugging Face",
     "description": "最大的开源 AI 模型社区，提供模型托管、训练和部署",
@@ -873,7 +870,6 @@
   },
   {
     "slug": "canva-ai",
-    "homeFeatured": true,
     "name": "Canva AI",
     "nameZh": "Canva AI",
     "description": "Canva 内置的 AI 设计助手，一键生成海报、PPT 等设计",
@@ -958,7 +954,6 @@
   },
   {
     "slug": "deepl",
-    "homeFeatured": true,
     "name": "DeepL",
     "nameZh": "DeepL",
     "description": "全球领先的 AI 翻译工具，翻译质量超越传统翻译软件",
@@ -1102,6 +1097,7 @@
   },
   {
     "slug": "hermes-agent",
+    "homeFeatured": true,
     "name": "Hermes Agent",
     "nameZh": "Hermes Agent",
     "description": "Nous Research 开发的跨平台 AI 智能体，支持 Telegram、Discord、Slack 等多平台统一记忆",
@@ -1116,7 +1112,7 @@
       "Free",
       "Open Source"
     ],
-    "featured": false,
+    "featured": true,
     "platforms": {
       "web": false,
       "windows": true,
@@ -1131,6 +1127,7 @@
   },
   {
     "slug": "jimeng-ai",
+    "homeFeatured": true,
     "name": "Jimeng AI",
     "nameZh": "即梦AI",
     "description": "字节跳动推出的 AI 图像与视频创作平台（国内版），深度融合剪映生态，支持文字生成图像和视频，创意设计一站式完成",
@@ -1144,7 +1141,7 @@
     "tags": [
       "Freemium"
     ],
-    "featured": false,
+    "featured": true,
     "developer": "ByteDance",
     "developerZh": "字节跳动",
     "platforms": {
@@ -1160,6 +1157,7 @@
   },
   {
     "slug": "kling-ai",
+    "homeFeatured": true,
     "name": "Kling AI",
     "nameZh": "可灵AI",
     "description": "快手推出的 AI 视频与图像生成平台，支持中英文双版本",
@@ -1173,7 +1171,7 @@
     "tags": [
       "Freemium"
     ],
-    "featured": false,
+    "featured": true,
     "developer": "Kuaishou",
     "developerZh": "快手",
     "platforms": {
@@ -2034,6 +2032,7 @@
   },
   {
     "slug": "claude-code",
+    "homeFeatured": true,
     "name": "Claude Code",
     "nameZh": "Claude Code",
     "description": "Anthropic 推出的 AI 编程助手，终端命令行使用，支持代码生成、调试和重构",
@@ -2236,6 +2235,7 @@
   },
   {
     "slug": "codex",
+    "homeFeatured": true,
     "name": "Codex",
     "nameZh": "Codex",
     "description": "OpenAI 推出的 AI 编程智能体桌面客户端（macOS），支持多智能体并行协作、代码生成、PR 管理、代码审查，同时提供终端 CLI 版本",
