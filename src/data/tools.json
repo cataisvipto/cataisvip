@@ -4351,5 +4351,174 @@
       "browser_extension": false,
       "api": true
     }
+  },
+  {
+    "slug": "framer",
+    "name": "Framer",
+    "nameZh": "Framer",
+    "description": "AI 驱动的设计与建站一体化平台，在画布上直接设计并一键发布响应式站点，AI 可从提示词生成页面、本地化与 A/B 测试，内置 CMS、SEO 与全球 CDN 托管，免费档起步、Basic $10/月",
+    "descriptionEn": "AI-powered design-and-publish platform: design responsive sites on a canvas and ship them in one click, with AI that generates pages from prompts, localization and A/B testing, plus built-in CMS, SEO and global CDN hosting — free to start, Basic from $10/month",
+    "descriptionJa": "AI駆動のデザイン＆公開一体型プラットフォーム。キャンバス上で直接デザインしワンクリックでレスポンシブサイトを公開、AIがプロンプトからページ生成・多言語化・A/Bテストを行い、CMS・SEO・グローバルCDNホスティングを内蔵。無料から、Basicは月$10",
+    "descriptionEs": "Plataforma de diseño y publicación con IA: diseña sitios responsivos en un lienzo y publícalos con un clic, con IA que genera páginas desde prompts, localización y pruebas A/B, además de CMS, SEO y alojamiento en CDN global integrados; gratis para empezar, Basic desde $10/mes",
+    "descriptionFr": "Plateforme de design et publication propulsée par l'IA : concevez des sites responsives sur un canevas et publiez-les en un clic, avec une IA qui génère des pages depuis des prompts, la localisation et des tests A/B, plus CMS, SEO et hébergement CDN mondial intégrés ; gratuit pour démarrer, Basic dès 10 $/mois",
+    "url": "https://www.framer.com",
+    "logo": "/logos/tools/framer.png",
+    "category": "Design",
+    "tags": [
+      "Freemium"
+    ],
+    "featured": false,
+    "developer": "Framer",
+    "platforms": {
+      "web": true,
+      "windows": true,
+      "macos": true,
+      "ios": false,
+      "android": false,
+      "linux": false,
+      "browser_extension": false,
+      "api": false
+    }
+  },
+  {
+    "slug": "krea",
+    "name": "Krea AI",
+    "nameZh": "Krea AI",
+    "description": "面向创作者的一站式生成式设计套件，实时图像生成、文生图/视频/3D、放大增强与 LoRA 微调集于一体，可视化 Krea Nodes 工作流编排，另有 API，服务 4000 万用户，免费档每日 100 单位",
+    "descriptionEn": "All-in-one generative design suite for creators: real-time image generation, text-to-image/video/3D, upscaling and LoRA fine-tuning in one place, with a visual Krea Nodes workflow builder and an API — used by 40M users, free tier of 100 units a day",
+    "descriptionJa": "クリエイター向けのオールインワン生成デザインスイート。リアルタイム画像生成、テキストから画像/動画/3D、アップスケールとLoRAファインチューニングを一箇所に、視覚的なKrea Nodesワークフロー構築とAPIも。4000万ユーザーが利用、無料枠は1日100単位",
+    "descriptionEs": "Suite de diseño generativo todo en uno para creadores: generación de imágenes en tiempo real, texto a imagen/vídeo/3D, escalado y ajuste fino LoRA en un solo lugar, con el constructor visual de flujos Krea Nodes y una API; usada por 40M de usuarios, nivel gratuito de 100 unidades al día",
+    "descriptionFr": "Suite de design génératif tout-en-un pour créateurs : génération d'images en temps réel, texte vers image/vidéo/3D, upscaling et fine-tuning LoRA au même endroit, avec le constructeur visuel de flux Krea Nodes et une API ; utilisée par 40M d'utilisateurs, niveau gratuit de 100 unités par jour",
+    "url": "https://www.krea.ai",
+    "logo": "/logos/tools/krea.png",
+    "category": "Design",
+    "tags": [
+      "Freemium",
+      "API"
+    ],
+    "featured": false,
+    "developer": "Krea",
+    "platforms": {
+      "web": true,
+      "windows": false,
+      "macos": false,
+      "ios": false,
+      "android": false,
+      "linux": false,
+      "browser_extension": false,
+      "api": true
+    }
+  },
+  {
+    "slug": "uizard",
+    "name": "Uizard",
+    "nameZh": "Uizard",
+    "description": "Miro 旗下零门槛 UI 设计工具，Autodesigner 2.0 从提示词生成多屏项目，截图扫描器把截图转可编辑稿、手绘线框扫描器数字化草图，人人可用无学习曲线，免费档起步、Pro $12/月",
+    "descriptionEn": "No-barrier UI design tool from Miro: Autodesigner 2.0 generates multi-screen projects from a prompt, a Screenshot Scanner turns screenshots into editable mockups and a Wireframe Scanner digitizes hand-drawn sketches — usable by anyone with no learning curve, free to start, Pro $12/month",
+    "descriptionJa": "Miro傘下の学習不要なUIデザインツール。Autodesigner 2.0がプロンプトから複数画面のプロジェクトを生成、スクリーンショットスキャナーが画像を編集可能なモックに、手書きワイヤーフレームスキャナーがスケッチをデジタル化。誰でも使える。無料から、Proは月$12",
+    "descriptionEs": "Herramienta de diseño UI sin barreras de Miro: Autodesigner 2.0 genera proyectos multipantalla desde un prompt, un Escáner de Capturas convierte capturas en maquetas editables y un Escáner de Wireframes digitaliza bocetos a mano; usable por cualquiera sin curva de aprendizaje, gratis para empezar, Pro $12/mes",
+    "descriptionFr": "Outil de design UI sans barrière signé Miro : Autodesigner 2.0 génère des projets multi-écrans depuis un prompt, un Scanner de captures transforme les captures en maquettes éditables et un Scanner de wireframes numérise les croquis à main levée ; utilisable par tous sans courbe d'apprentissage, gratuit pour démarrer, Pro 12 $/mois",
+    "url": "https://uizard.io",
+    "logo": "/logos/tools/uizard.png",
+    "category": "Design",
+    "tags": [
+      "Freemium"
+    ],
+    "featured": false,
+    "developer": "Uizard (Miro)",
+    "platforms": {
+      "web": true,
+      "windows": false,
+      "macos": false,
+      "ios": false,
+      "android": false,
+      "linux": false,
+      "browser_extension": false,
+      "api": false
+    }
+  },
+  {
+    "slug": "visily",
+    "name": "Visily",
+    "nameZh": "Visily",
+    "description": "人人可用的 AI UI 设计软件，混合截图、文字与画布选区一条提示即生成可编辑线框与高保真原型，支持 Figma 双向、导出代码与 MCP 服务，免费 Starter 每月 300 AI 额度、Pro $11/人月",
+    "descriptionEn": "AI UI design software anyone can use: mix screenshots, text and canvas selections in one prompt to generate editable wireframes and hi-fi prototypes, with two-way Figma, code export and an MCP server — free Starter with 300 AI credits a month, Pro $11/editor/month",
+    "descriptionJa": "誰でも使えるAI UIデザインソフト。スクリーンショット・テキスト・キャンバス選択を1つのプロンプトに混ぜて編集可能なワイヤーフレームと高精細プロトタイプを生成、Figma双方向・コード書き出し・MCPサーバー対応。無料Starterは月300 AIクレジット、Proは編集者ごと月$11",
+    "descriptionEs": "Software de diseño UI con IA que cualquiera puede usar: mezcla capturas, texto y selecciones del lienzo en un solo prompt para generar wireframes editables y prototipos de alta fidelidad, con Figma bidireccional, exportación de código y servidor MCP; Starter gratis con 300 créditos IA al mes, Pro $11/editor/mes",
+    "descriptionFr": "Logiciel de design UI par IA accessible à tous : combinez captures, texte et sélections du canevas en un seul prompt pour générer wireframes éditables et prototypes haute fidélité, avec Figma bidirectionnel, export de code et serveur MCP ; Starter gratuit avec 300 crédits IA par mois, Pro 11 $/éditeur/mois",
+    "url": "https://www.visily.ai",
+    "logo": "/logos/tools/visily.png",
+    "category": "Design",
+    "tags": [
+      "Freemium"
+    ],
+    "featured": false,
+    "developer": "Visily",
+    "platforms": {
+      "web": true,
+      "windows": false,
+      "macos": false,
+      "ios": false,
+      "android": false,
+      "linux": false,
+      "browser_extension": false,
+      "api": false
+    }
+  },
+  {
+    "slug": "relume",
+    "name": "Relume",
+    "nameZh": "Relume",
+    "description": "面向专业设计师与开发者的 AI 建站前置工具，输入提示即生成站点地图与线框，AI 文案填充，一键导出 Figma、Webflow 与 React，配套千余组件库与 Webflow Chrome 扩展，免费档起步",
+    "descriptionEn": "AI website tool for pro designers and developers: generate a full sitemap and wireframes from a prompt with AI copywriting, then export to Figma, Webflow and React in one click — backed by a 1,000+ component library and a Webflow Chrome extension, free to start",
+    "descriptionJa": "プロのデザイナーと開発者向けAI建設前工具。プロンプトからサイトマップとワイヤーフレームを生成、AIコピー自動入力、Figma・Webflow・Reactへワンクリック書き出し。1000超のコンポーネントライブラリとWebflow Chrome拡張を備える。無料から",
+    "descriptionEs": "Herramienta web con IA para diseñadores y desarrolladores pro: genera un mapa del sitio y wireframes completos desde un prompt con redacción por IA, y exporta a Figma, Webflow y React con un clic; respaldada por una biblioteca de más de 1000 componentes y una extensión de Chrome para Webflow, gratis para empezar",
+    "descriptionFr": "Outil web par IA pour designers et développeurs pro : générez un plan de site et des wireframes complets depuis un prompt avec rédaction IA, puis exportez vers Figma, Webflow et React en un clic ; adossé à une bibliothèque de plus de 1000 composants et une extension Chrome pour Webflow, gratuit pour démarrer",
+    "url": "https://www.relume.io",
+    "logo": "/logos/tools/relume.png",
+    "category": "Design",
+    "tags": [
+      "Freemium"
+    ],
+    "featured": false,
+    "developer": "Relume",
+    "platforms": {
+      "web": true,
+      "windows": false,
+      "macos": false,
+      "ios": false,
+      "android": false,
+      "linux": false,
+      "browser_extension": true,
+      "api": false
+    }
+  },
+  {
+    "slug": "banani",
+    "name": "Banani",
+    "nameZh": "Banani",
+    "description": "text-to-UI 设计副驾，用自然语言几分钟生成可编辑的多屏交互原型，Agent 模式基于共享组件保持一致，付费档无限导出 Figma 与 HTML/CSS 代码，全档接入 MCP 连 Claude Code/Cursor，免费档不过期",
+    "descriptionEn": "Text-to-UI design copilot: describe an app in natural language and get editable multi-screen interactive prototypes in minutes, with an Agent mode that keeps designs consistent via shared components; paid tiers give unlimited Figma and HTML/CSS export, and MCP on every plan connects Claude Code/Cursor — the free plan never expires",
+    "descriptionJa": "text-to-UIデザインの副操縦士。自然言語でアプリを説明すると数分で編集可能な複数画面のインタラクティブプロトタイプを生成、Agentモードは共有コンポーネントで一貫性を維持。有料枠はFigmaとHTML/CSSの無制限書き出し、全プランのMCPがClaude Code/Cursorに接続。無料プランは無期限",
+    "descriptionEs": "Copiloto de diseño text-to-UI: describe una app en lenguaje natural y obtén prototipos interactivos multipantalla editables en minutos, con un modo Agente que mantiene la coherencia mediante componentes compartidos; los planes de pago dan exportación ilimitada a Figma y código HTML/CSS, y el MCP en todos los planes conecta Claude Code/Cursor; el plan gratuito no caduca",
+    "descriptionFr": "Copilote de design text-to-UI : décrivez une app en langage naturel et obtenez en quelques minutes des prototypes interactifs multi-écrans éditables, avec un mode Agent qui garde la cohérence via des composants partagés ; les offres payantes donnent l'export illimité vers Figma et le code HTML/CSS, et le MCP sur tous les plans connecte Claude Code/Cursor ; l'offre gratuite n'expire jamais",
+    "url": "https://www.banani.co",
+    "logo": "/logos/tools/banani.png",
+    "category": "Design",
+    "tags": [
+      "Freemium"
+    ],
+    "featured": false,
+    "developer": "Banani",
+    "platforms": {
+      "web": true,
+      "windows": false,
+      "macos": false,
+      "ios": false,
+      "android": false,
+      "linux": false,
+      "browser_extension": false,
+      "api": false
+    }
   }
 ]

@@ -36816,5 +36816,1415 @@
       "pricingVerified": "2026-07-28",
       "pricingUrl": "https://stableaudio.com/pricing"
     }
+  },
+  "banani": {
+    "features": {
+      "en": [
+        "Text-to-UI: describe an app and get editable multi-screen prototypes",
+        "Interactive prototypes generated in minutes, not hours",
+        "Agent mode keeps screens consistent via shared components",
+        "Unlimited Figma export on paid plans",
+        "HTML/CSS code export to hand off to developers",
+        "MCP on every plan to connect Claude Code, Cursor and other tools"
+      ],
+      "zh": [
+        "text-to-UI：描述一个应用即得可编辑的多屏原型",
+        "几分钟而非几小时生成可交互原型",
+        "Agent 模式基于共享组件保持各屏一致",
+        "付费档无限导出 Figma",
+        "导出 HTML/CSS 代码，便于交付开发者",
+        "全档接入 MCP，连接 Claude Code、Cursor 等工具"
+      ],
+      "ja": [
+        "text-to-UI：アプリを説明すれば編集可能な複数画面プロトタイプが得られる",
+        "数時間ではなく数分でインタラクティブなプロトタイプを生成",
+        "Agentモードが共有コンポーネントで各画面の一貫性を維持",
+        "有料プランでFigma無制限書き出し",
+        "開発者に渡すためのHTML/CSSコード書き出し",
+        "全プランのMCPでClaude Code・Cursorなどのツールに接続"
+      ],
+      "es": [
+        "Text-to-UI: describe una app y obtén prototipos multipantalla editables",
+        "Prototipos interactivos generados en minutos, no en horas",
+        "El modo Agente mantiene la coherencia de pantallas con componentes compartidos",
+        "Exportación ilimitada a Figma en planes de pago",
+        "Exportación de código HTML/CSS para entregar a desarrolladores",
+        "MCP en todos los planes para conectar Claude Code, Cursor y otras herramientas"
+      ],
+      "fr": [
+        "Text-to-UI : décrivez une app et obtenez des prototypes multi-écrans éditables",
+        "Prototypes interactifs générés en minutes, pas en heures",
+        "Le mode Agent garde les écrans cohérents via des composants partagés",
+        "Export Figma illimité sur les offres payantes",
+        "Export de code HTML/CSS pour transmettre aux développeurs",
+        "MCP sur toutes les offres pour connecter Claude Code, Cursor et d'autres outils"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "A free plan gives 12 credits a month plus 3 that refresh daily, and — unusually — those credits never expire, so you can accumulate them.",
+        "zh": "免费档每月 12 个额度，另加每日刷新的 3 个，且——少见地——这些额度不过期，可以累积。",
+        "ja": "無料プランは月12クレジットに加え毎日3つが補充され、そして珍しくこれらのクレジットは無期限なので貯められる。",
+        "es": "Un plan gratuito da 12 créditos al mes más 3 que se renuevan a diario y —algo inusual— esos créditos no caducan, así que puedes acumularlos.",
+        "fr": "Un plan gratuit offre 12 crédits par mois plus 3 qui se renouvellent chaque jour et — fait rare — ces crédits n'expirent jamais, vous pouvez donc les accumuler."
+      },
+      "paid": {
+        "en": "Plus is $12/month billed annually (or $20 monthly) and Pro is $30/month billed annually (or $50 for unlimited generations), both adding more credits, unlimited Figma export and HTML/CSS export; Enterprise is custom. (Verified against the official pricing page, 2026-07-28.)",
+        "zh": "Plus 年付 $12/月（或月付 $20），Pro 年付 $30/月（或 $50 无限生成），二者均增加额度、无限 Figma 导出与 HTML/CSS 导出；Enterprise 为定制。（对照官方定价页核实，2026-07-28。）",
+        "ja": "Plusは年払いで月$12（または月払い$20）、Proは年払いで月$30（または無制限生成で$50）で、いずれもクレジット増・Figma無制限書き出し・HTML/CSS書き出しを追加。Enterpriseは個別。（公式価格ページと照合、2026-07-28。）",
+        "es": "Plus cuesta $12/mes con facturación anual (o $20 mensual) y Pro $30/mes con facturación anual (o $50 por generaciones ilimitadas), ambos añadiendo más créditos, exportación ilimitada a Figma y exportación HTML/CSS; Enterprise a medida. (Verificado con la página oficial de precios, 2026-07-28.)",
+        "fr": "Plus coûte 12 $/mois en facturation annuelle (ou 20 $ mensuel) et Pro 30 $/mois en facturation annuelle (ou 50 $ pour des générations illimitées), tous deux ajoutant plus de crédits, l'export Figma illimité et l'export HTML/CSS ; Enterprise sur mesure. (Vérifié avec la page tarifaire officielle, 2026-07-28.)"
+      }
+    },
+    "useCases": {
+      "en": [
+        "Quickly turning an app idea into a clickable multi-screen prototype",
+        "Non-designers and PMs mocking up interfaces in natural language",
+        "Handing developers HTML/CSS or Figma exports as a head start",
+        "Driving UI generation from Claude Code or Cursor via MCP"
+      ],
+      "zh": [
+        "把一个应用点子快速变成可点击的多屏原型",
+        "非设计师与产品经理用自然语言搭建界面",
+        "把 HTML/CSS 或 Figma 导出交给开发者赢在起跑线",
+        "通过 MCP 从 Claude Code 或 Cursor 驱动 UI 生成"
+      ],
+      "ja": [
+        "アプリのアイデアを素早くクリック可能な複数画面プロトタイプに",
+        "非デザイナーやPMが自然言語でUIをモックアップ",
+        "HTML/CSSやFigma書き出しを開発者に渡して先行の利を",
+        "MCP経由でClaude CodeやCursorからUI生成を駆動"
+      ],
+      "es": [
+        "Convertir rápido una idea de app en un prototipo clicable multipantalla",
+        "No diseñadores y PMs que maquetan interfaces en lenguaje natural",
+        "Entregar a desarrolladores exportaciones HTML/CSS o Figma como ventaja",
+        "Impulsar la generación de UI desde Claude Code o Cursor vía MCP"
+      ],
+      "fr": [
+        "Transformer vite une idée d'app en prototype cliquable multi-écrans",
+        "Non-designers et PM maquettant des interfaces en langage naturel",
+        "Remettre aux développeurs des exports HTML/CSS ou Figma comme avance",
+        "Piloter la génération d'UI depuis Claude Code ou Cursor via MCP"
+      ]
+    },
+    "pros": {
+      "en": [
+        "Very fast from text to editable, interactive multi-screen prototypes",
+        "Free credits never expire — rare and genuinely generous",
+        "Agent mode and shared components keep designs consistent",
+        "MCP on every plan connects it to coding agents and IDEs"
+      ],
+      "zh": [
+        "从文字到可编辑、可交互的多屏原型非常快",
+        "免费额度不过期——少见且是真慷慨",
+        "Agent 模式与共享组件让设计保持一致",
+        "全档 MCP，连得上编码智能体与 IDE"
+      ],
+      "ja": [
+        "テキストから編集可能でインタラクティブな複数画面プロトタイプまで非常に速い",
+        "無料クレジットが無期限——珍しく本当に寛容",
+        "Agentモードと共有コンポーネントがデザインの一貫性を保つ",
+        "全プランのMCPがコーディングエージェントやIDEに接続"
+      ],
+      "es": [
+        "Muy rápido de texto a prototipos multipantalla editables e interactivos",
+        "Los créditos gratis no caducan — raro y genuinamente generoso",
+        "El modo Agente y los componentes compartidos mantienen la coherencia",
+        "MCP en todos los planes lo conecta a agentes de código e IDEs"
+      ],
+      "fr": [
+        "Très rapide du texte à des prototypes multi-écrans éditables et interactifs",
+        "Les crédits gratuits n'expirent pas — rare et vraiment généreux",
+        "Le mode Agent et les composants partagés gardent la cohérence",
+        "Le MCP sur toutes les offres le connecte aux agents de code et IDE"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Younger, smaller product than established design tools",
+        "Focused on UI prototyping, not full production design systems",
+        "Credit-based limits mean heavy use pushes you to paid tiers fast",
+        "Exported code and designs still need designer/developer polish"
+      ],
+      "zh": [
+        "相比成熟设计工具，产品更年轻、体量更小",
+        "聚焦 UI 原型，而非完整的生产级设计系统",
+        "基于额度的限制意味着重度使用会很快逼你上付费档",
+        "导出的代码与设计仍需设计师/开发者打磨"
+      ],
+      "ja": [
+        "確立された設計ツールより新しく規模も小さい製品",
+        "UIプロトタイピングに特化し、完全な本番デザインシステム向けではない",
+        "クレジット制の制限により、ヘビーユースはすぐ有料プランへ押し上げる",
+        "書き出したコードやデザインは依然デザイナー/開発者の仕上げが必要"
+      ],
+      "es": [
+        "Producto más joven y pequeño que las herramientas de diseño consolidadas",
+        "Centrado en prototipado de UI, no en sistemas de diseño de producción completos",
+        "Los límites por créditos hacen que el uso intenso empuje pronto a planes de pago",
+        "El código y los diseños exportados aún necesitan pulido de diseñador/desarrollador"
+      ],
+      "fr": [
+        "Produit plus jeune et plus petit que les outils de design établis",
+        "Axé sur le prototypage d'UI, pas sur des design systems de production complets",
+        "Les limites par crédits font que l'usage intensif pousse vite vers les offres payantes",
+        "Le code et les designs exportés nécessitent encore une finition designer/développeur"
+      ]
+    },
+    "latestUpdate": {
+      "en": "2026: Banani pushed its text-to-UI copilot forward with an Agent mode built on shared components for consistency, unlimited Figma and HTML/CSS export on paid plans, and MCP support across every tier to connect coding agents like Claude Code and Cursor.",
+      "zh": "2026 年：Banani 推进其 text-to-UI 副驾——基于共享组件、保证一致性的 Agent 模式，付费档无限 Figma 与 HTML/CSS 导出，以及覆盖全档、可连接 Claude Code 与 Cursor 等编码智能体的 MCP 支持。",
+      "ja": "2026年：Bananiはtext-to-UIの副操縦士を前進させた——一貫性のため共有コンポーネント上に構築されたAgentモード、有料プランでのFigmaとHTML/CSSの無制限書き出し、Claude CodeやCursorなどのコーディングエージェントに接続する全プランのMCP対応。",
+      "es": "2026: Banani impulsó su copiloto text-to-UI con un modo Agente construido sobre componentes compartidos para la coherencia, exportación ilimitada a Figma y HTML/CSS en planes de pago, y soporte MCP en todos los niveles para conectar agentes de código como Claude Code y Cursor.",
+      "fr": "2026 : Banani a fait avancer son copilote text-to-UI avec un mode Agent bâti sur des composants partagés pour la cohérence, l'export illimité vers Figma et HTML/CSS sur les offres payantes, et la prise en charge du MCP sur toutes les offres pour connecter des agents de code comme Claude Code et Cursor."
+    },
+    "verdict": {
+      "badge": "Worth Trying",
+      "headline": {
+        "en": "A text-to-UI copilot that talks to your coding agents",
+        "zh": "一个能与你的编码智能体对话的 text-to-UI 副驾",
+        "ja": "コーディングエージェントと対話するtext-to-UIの副操縦士",
+        "es": "Un copiloto text-to-UI que habla con tus agentes de código",
+        "fr": "Un copilote text-to-UI qui dialogue avec vos agents de code"
+      },
+      "body": {
+        "en": "Banani takes the now-familiar 'describe an app, get a UI' idea and pushes it toward the AI-coding workflow. Type what you want and it produces editable, interactive multi-screen prototypes in minutes; its Agent mode leans on shared components so screens stay consistent as the design grows, rather than drifting into a pile of one-off mockups. What sets it apart is the plumbing: MCP support on every plan — including the free one — means Banani can talk directly to coding agents and IDEs like Claude Code and Cursor, and paid tiers add unlimited Figma export plus HTML/CSS export to hand developers a real starting point. The free plan is unusually kind too, with credits that never expire so you can bank them. The caveats are those of a younger product: it's smaller and less proven than the established design suites, it's built for UI prototyping rather than full production design systems, credit limits push heavy users to paid tiers quickly, and exported code still needs polish. But for anyone building interfaces in an AI-first, agent-connected workflow, Banani is a genuinely interesting option well worth trying.",
+        "zh": "Banani 把如今已耳熟能详的「描述一个应用、得到一套 UI」思路，往 AI 编码工作流的方向再推了一步。输入你想要的，它几分钟内产出可编辑、可交互的多屏原型；其 Agent 模式依靠共享组件，让设计在扩张时各屏保持一致，而不至于沦为一堆各自为政的稿件。真正让它与众不同的是「管路」：全档——包括免费档——都支持 MCP，意味着 Banani 能直接与 Claude Code、Cursor 这类编码智能体和 IDE 对话，付费档再加上无限 Figma 导出与 HTML/CSS 导出，给开发者一个真正的起点。免费档也格外厚道，额度不过期、可以攒着。代价是年轻产品的通病：它比成熟设计套件体量更小、验证更少；它面向 UI 原型而非完整生产级设计系统；额度限制会很快把重度用户逼上付费档；导出的代码仍需打磨。但对任何在「AI 优先、智能体互联」工作流里搭建界面的人来说，Banani 是一个真正有意思、值得一试的选择。",
+        "ja": "Bananiは今やお馴染みの「アプリを説明すればUIが得られる」という発想を、AIコーディングのワークフローへさらに押し進める。欲しいものを打ち込めば数分で編集可能でインタラクティブな複数画面プロトタイプを生み出す。Agentモードは共有コンポーネントに頼り、デザインが拡大しても各画面の一貫性を保ち、使い捨てモックの山に散らばらない。際立つのは配管部分だ。全プラン——無料を含む——でMCPに対応し、BananiはClaude CodeやCursorのようなコーディングエージェントやIDEと直接対話できる。有料プランはFigma無制限書き出しとHTML/CSS書き出しを加え、開発者に本物の出発点を渡す。無料プランも異例に寛容で、クレジットが無期限なので貯められる。注意点は若い製品のもの。確立された設計スイートより小さく実績も少なく、完全な本番デザインシステムではなくUIプロトタイピング向けで、クレジット制限がヘビーユーザーをすぐ有料へ押し上げ、書き出したコードは仕上げが要る。しかし「AIファーストでエージェントに繋がった」ワークフローでUIを組む人にとって、Bananiは本当に興味深く、試す価値のある選択肢だ。",
+        "es": "Banani toma la ya familiar idea de 'describe una app, obtén una UI' y la empuja hacia el flujo de trabajo de codificación con IA. Escribe lo que quieres y produce prototipos multipantalla editables e interactivos en minutos; su modo Agente se apoya en componentes compartidos para que las pantallas se mantengan coherentes a medida que el diseño crece, en vez de derivar en un montón de maquetas sueltas. Lo que lo distingue es la fontanería: soporte MCP en todos los planes — incluido el gratuito — significa que Banani puede hablar directamente con agentes de código e IDEs como Claude Code y Cursor, y los niveles de pago añaden exportación ilimitada a Figma más exportación HTML/CSS para dar a los desarrolladores un punto de partida real. El plan gratuito también es inusualmente amable, con créditos que no caducan para que puedas acumularlos. Las advertencias son las de un producto joven: es más pequeño y menos probado que las suites de diseño consolidadas, está hecho para prototipado de UI y no para sistemas de diseño de producción completos, los límites de créditos empujan pronto a los usuarios intensos a planes de pago, y el código exportado aún necesita pulido. Pero para quien construye interfaces en un flujo AI-first conectado a agentes, Banani es una opción genuinamente interesante que bien vale la pena probar.",
+        "fr": "Banani reprend l'idée désormais familière « décrivez une app, obtenez une UI » et la pousse vers le flux de travail du codage assisté par IA. Tapez ce que vous voulez et il produit des prototypes multi-écrans éditables et interactifs en minutes ; son mode Agent s'appuie sur des composants partagés pour que les écrans restent cohérents à mesure que le design grandit, plutôt que de dériver en un tas de maquettes isolées. Ce qui le distingue, c'est la tuyauterie : la prise en charge du MCP sur toutes les offres — y compris gratuite — signifie que Banani peut dialoguer directement avec des agents de code et IDE comme Claude Code et Cursor, et les offres payantes ajoutent l'export Figma illimité plus l'export HTML/CSS pour donner aux développeurs un vrai point de départ. L'offre gratuite est aussi exceptionnellement généreuse, avec des crédits qui n'expirent pas, ce qui permet de les accumuler. Les réserves sont celles d'un produit jeune : plus petit et moins éprouvé que les suites de design établies, conçu pour le prototypage d'UI plutôt que pour des design systems de production complets, des limites de crédits qui poussent vite les gros utilisateurs vers les offres payantes, et un code exporté qui demande encore une finition. Mais pour quiconque construit des interfaces dans un flux AI-first connecté aux agents, Banani est une option vraiment intéressante qui vaut bien l'essai."
+      },
+      "bestFor": {
+        "en": [
+          "People turning app ideas into interactive prototypes fast",
+          "AI-first workflows connecting design to Claude Code or Cursor via MCP",
+          "Teams wanting Figma and HTML/CSS export from generated UI"
+        ],
+        "zh": [
+          "想把应用点子快速变成可交互原型的人",
+          "用 MCP 把设计连到 Claude Code 或 Cursor 的 AI 优先工作流",
+          "希望从生成的 UI 导出 Figma 与 HTML/CSS 的团队"
+        ],
+        "ja": [
+          "アプリのアイデアを素早くインタラクティブなプロトタイプにする人",
+          "MCPでデザインをClaude CodeやCursorに繋ぐAIファーストのワークフロー",
+          "生成したUIからFigmaとHTML/CSSを書き出したいチーム"
+        ],
+        "es": [
+          "Quienes convierten ideas de app en prototipos interactivos rápido",
+          "Flujos AI-first que conectan el diseño a Claude Code o Cursor vía MCP",
+          "Equipos que quieren exportar Figma y HTML/CSS desde la UI generada"
+        ],
+        "fr": [
+          "Ceux qui transforment vite des idées d'app en prototypes interactifs",
+          "Flux AI-first reliant le design à Claude Code ou Cursor via MCP",
+          "Équipes voulant exporter Figma et HTML/CSS depuis l'UI générée"
+        ]
+      },
+      "considerAlternatives": {
+        "en": [
+          "You need a mature, proven tool for production design systems (→ Figma)",
+          "You want an all-in-one design-and-hosting site builder (→ Framer)"
+        ],
+        "zh": [
+          "你需要成熟、经过验证、面向生产级设计系统的工具（→ Figma）",
+          "你想要设计与托管一体的建站工具（→ Framer）"
+        ],
+        "ja": [
+          "本番デザインシステム向けの成熟し実績ある工具が必要（→ Figma）",
+          "デザインとホスティング一体のサイトビルダーが欲しい（→ Framer）"
+        ],
+        "es": [
+          "Necesitas una herramienta madura y probada para sistemas de diseño de producción (→ Figma)",
+          "Quieres un creador de sitios todo en uno de diseño y alojamiento (→ Framer)"
+        ],
+        "fr": [
+          "Vous avez besoin d'un outil mature et éprouvé pour des design systems de production (→ Figma)",
+          "Vous voulez un créateur de site tout-en-un de design et hébergement (→ Framer)"
+        ]
+      }
+    },
+    "meta": {
+      "lastVerified": "2026-07-28",
+      "verdictDate": "2026-07-28",
+      "pricingVerified": "2026-07-28",
+      "pricingUrl": "https://www.banani.co/pricing"
+    }
+  },
+  "framer": {
+    "features": {
+      "en": [
+        "Design responsive websites on a freeform canvas, no code required",
+        "AI generates full pages and sections from a text prompt",
+        "One-click publish to fast, globally-hosted sites on a CDN",
+        "Built-in CMS for blogs, collections and dynamic content",
+        "AI localization and A/B testing to optimize live pages",
+        "Native desktop apps for Windows and macOS alongside the browser"
+      ],
+      "zh": [
+        "在自由画布上设计响应式网站，无需写代码",
+        "AI 根据文字提示生成整页与区块",
+        "一键发布到基于全球 CDN 托管的高速站点",
+        "内置 CMS，管理博客、集合与动态内容",
+        "AI 本地化与 A/B 测试，持续优化线上页面",
+        "除浏览器外提供 Windows 与 macOS 原生桌面应用"
+      ],
+      "ja": [
+        "自由なキャンバス上でレスポンシブなWebサイトをコードなしでデザイン",
+        "AIがテキストプロンプトからページ全体やセクションを生成",
+        "グローバルCDNでホスティングされる高速サイトへワンクリック公開",
+        "ブログ・コレクション・動的コンテンツ向けの内蔵CMS",
+        "ライブページを最適化するAIローカライズとA/Bテスト",
+        "ブラウザに加えWindowsとmacOSのネイティブデスクトップアプリ"
+      ],
+      "es": [
+        "Diseña sitios web responsivos en un lienzo libre, sin necesidad de código",
+        "La IA genera páginas y secciones completas desde un prompt de texto",
+        "Publicación con un clic en sitios rápidos alojados en una CDN global",
+        "CMS integrado para blogs, colecciones y contenido dinámico",
+        "Localización con IA y pruebas A/B para optimizar páginas en vivo",
+        "Apps de escritorio nativas para Windows y macOS junto al navegador"
+      ],
+      "fr": [
+        "Concevez des sites responsives sur un canevas libre, sans code",
+        "L'IA génère des pages et sections complètes depuis un prompt texte",
+        "Publication en un clic vers des sites rapides hébergés sur un CDN mondial",
+        "CMS intégré pour blogs, collections et contenu dynamique",
+        "Localisation par IA et tests A/B pour optimiser les pages en ligne",
+        "Applications de bureau natives Windows et macOS en plus du navigateur"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "A free plan lets you design and publish on a Framer subdomain with a small allowance of AI credits (around 500) to try the AI features.",
+        "zh": "免费档可在 Framer 子域名上设计与发布，并附少量 AI 额度（约 500 点）用于试用 AI 功能。",
+        "ja": "無料プランではFramerのサブドメイン上でデザイン・公開でき、AI機能を試すための少量のAIクレジット（約500）が付く。",
+        "es": "Un plan gratuito permite diseñar y publicar en un subdominio de Framer con una pequeña asignación de créditos de IA (unos 500) para probar las funciones de IA.",
+        "fr": "Un plan gratuit permet de concevoir et publier sur un sous-domaine Framer avec une petite dotation de crédits IA (environ 500) pour essayer les fonctions IA."
+      },
+      "paid": {
+        "en": "Paid site plans start at Basic $10/month and Pro $30/month (billed annually), adding a custom domain, more pages, CMS capacity and higher AI limits; Enterprise is custom-priced. (Verified against the official pricing page, 2026-07-28.)",
+        "zh": "付费站点方案自 Basic $10/月、Pro $30/月起（年付计价），提供自定义域名、更多页面、CMS 容量与更高 AI 额度；Enterprise 为定制报价。（对照官方定价页核实，2026-07-28。）",
+        "ja": "有料サイトプランはBasic月$10、Pro月$30から（年払い計算）で、独自ドメイン・ページ数増・CMS容量・より高いAI上限が付く。Enterpriseは個別見積もり。（公式価格ページと照合、2026-07-28。）",
+        "es": "Los planes de sitio de pago empiezan en Basic $10/mes y Pro $30/mes (facturación anual), añadiendo dominio propio, más páginas, capacidad de CMS y límites de IA más altos; Enterprise tiene precio a medida. (Verificado con la página oficial de precios, 2026-07-28.)",
+        "fr": "Les forfaits de site payants démarrent à Basic 10 $/mois et Pro 30 $/mois (facturation annuelle), ajoutant un domaine personnalisé, plus de pages, de la capacité CMS et des limites IA plus élevées ; Enterprise est sur devis. (Vérifié avec la page tarifaire officielle, 2026-07-28.)"
+      }
+    },
+    "useCases": {
+      "en": [
+        "Marketing and product landing pages shipped without a developer",
+        "Startups and creators launching a polished site fast",
+        "Designers turning a prompt or idea into a live, responsive page",
+        "Localized, A/B-tested pages optimized directly in the tool"
+      ],
+      "zh": [
+        "无需开发者即可上线的营销与产品落地页",
+        "初创团队与创作者快速上线一个精致站点",
+        "设计师把一句提示或想法变成上线的响应式页面",
+        "在工具内直接做本地化与 A/B 测试并优化的页面"
+      ],
+      "ja": [
+        "開発者なしで公開するマーケティング・製品ランディングページ",
+        "スタートアップやクリエイターが洗練されたサイトを素早く立ち上げ",
+        "デザイナーがプロンプトやアイデアを公開済みのレスポンシブページに",
+        "ツール内で直接ローカライズ・A/Bテストして最適化するページ"
+      ],
+      "es": [
+        "Landing pages de marketing y producto publicadas sin un desarrollador",
+        "Startups y creadores que lanzan un sitio pulido rápidamente",
+        "Diseñadores que convierten un prompt o idea en una página responsiva en vivo",
+        "Páginas localizadas y con pruebas A/B optimizadas directamente en la herramienta"
+      ],
+      "fr": [
+        "Pages d'atterrissage marketing et produit publiées sans développeur",
+        "Startups et créateurs qui lancent vite un site soigné",
+        "Designers transformant un prompt ou une idée en page responsive en ligne",
+        "Pages localisées et testées A/B optimisées directement dans l'outil"
+      ]
+    },
+    "pros": {
+      "en": [
+        "True design freedom on a canvas with production-grade output",
+        "AI page generation and localization speed up shipping a lot",
+        "Publishing, hosting and CDN are built in — no separate stack",
+        "Native desktop apps plus browser access on any platform"
+      ],
+      "zh": [
+        "画布上真正的设计自由，产出可直接上生产",
+        "AI 生成页面与本地化大幅加快上线速度",
+        "发布、托管与 CDN 内置一体，无需另搭一套技术栈",
+        "原生桌面应用加浏览器，任意平台皆可用"
+      ],
+      "ja": [
+        "キャンバス上の真のデザイン自由度と本番品質の出力",
+        "AIのページ生成とローカライズで公開が大幅に高速化",
+        "公開・ホスティング・CDNが内蔵、別スタック不要",
+        "ネイティブデスクトップアプリに加え、任意環境でブラウザ利用"
+      ],
+      "es": [
+        "Verdadera libertad de diseño en un lienzo con salida lista para producción",
+        "La generación de páginas y la localización con IA aceleran mucho la publicación",
+        "Publicación, alojamiento y CDN integrados — sin un stack aparte",
+        "Apps de escritorio nativas más acceso por navegador en cualquier plataforma"
+      ],
+      "fr": [
+        "Une vraie liberté de design sur un canevas avec un rendu prêt pour la production",
+        "La génération de pages et la localisation par IA accélèrent beaucoup la publication",
+        "Publication, hébergement et CDN intégrés — pas de stack séparé",
+        "Applications de bureau natives et accès navigateur sur toute plateforme"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Costs add up once you need custom domains, more pages and AI credits",
+        "Best suited to marketing sites, not complex web apps",
+        "The canvas has a learning curve for non-designers",
+        "AI credits on lower tiers run out quickly with heavy use"
+      ],
+      "zh": [
+        "一旦需要自定义域名、更多页面与 AI 额度，费用会累加",
+        "更适合营销型站点，而非复杂的 Web 应用",
+        "对非设计师而言，画布有一定学习曲线",
+        "低档位的 AI 额度在重度使用下很快耗尽"
+      ],
+      "ja": [
+        "独自ドメイン・ページ数増・AIクレジットが必要になると費用がかさむ",
+        "複雑なWebアプリより、マーケティングサイト向き",
+        "非デザイナーにとってキャンバスには学習曲線がある",
+        "下位プランのAIクレジットはヘビーユースだとすぐ尽きる"
+      ],
+      "es": [
+        "Los costes suben cuando necesitas dominios propios, más páginas y créditos de IA",
+        "Más adecuado para sitios de marketing que para apps web complejas",
+        "El lienzo tiene una curva de aprendizaje para no diseñadores",
+        "Los créditos de IA en niveles bajos se agotan rápido con uso intenso"
+      ],
+      "fr": [
+        "Les coûts grimpent dès qu'il faut des domaines personnalisés, plus de pages et des crédits IA",
+        "Mieux adapté aux sites marketing qu'aux applications web complexes",
+        "Le canevas a une courbe d'apprentissage pour les non-designers",
+        "Les crédits IA des offres basses s'épuisent vite en usage intensif"
+      ]
+    },
+    "latestUpdate": {
+      "en": "2026: Framer continued to deepen its AI features — prompt-to-page generation, AI localization and built-in A/B testing — while keeping its no-code canvas, CMS and global hosting as one integrated design-and-publish platform.",
+      "zh": "2026 年：Framer 持续深化 AI 能力——提示词生成页面、AI 本地化与内置 A/B 测试——同时将其无代码画布、CMS 与全球托管保持为一体化的「设计即发布」平台。",
+      "ja": "2026年：FramerはAI機能を深化させ続け——プロンプトからのページ生成、AIローカライズ、内蔵A/Bテスト——ノーコードキャンバス・CMS・グローバルホスティングを一体化した「デザイン＆公開」プラットフォームとして維持している。",
+      "es": "2026: Framer siguió profundizando sus funciones de IA — generación de página desde prompt, localización con IA y pruebas A/B integradas — manteniendo su lienzo sin código, CMS y alojamiento global como una plataforma integrada de diseño y publicación.",
+      "fr": "2026 : Framer a continué d'approfondir ses fonctions IA — génération de page depuis un prompt, localisation par IA et tests A/B intégrés — tout en gardant son canevas no-code, son CMS et son hébergement mondial comme une plateforme intégrée de design et publication."
+    },
+    "verdict": {
+      "badge": "Recommended",
+      "headline": {
+        "en": "The most complete way to design and ship a site without code",
+        "zh": "无需代码就能设计并上线站点的最完整方案",
+        "ja": "コードなしでサイトをデザインし公開する、最も完成度の高い方法",
+        "es": "La forma más completa de diseñar y publicar un sitio sin código",
+        "fr": "La manière la plus complète de concevoir et publier un site sans code"
+      },
+      "body": {
+        "en": "Framer sits in a rare sweet spot: it gives designers the freeform canvas they actually want, then handles publishing, hosting and a global CDN so a page goes live in one click. The AI layer is what pushes it from 'great website builder' to genuinely fast — you can describe a page and have Framer generate its structure, then use AI localization and built-in A/B testing to refine it after launch, all without leaving the tool. Add a real CMS for blogs and collections, plus native desktop apps for Windows and macOS on top of the browser, and it covers the whole path from blank canvas to shipped, optimized site. It isn't free of trade-offs: costs climb once you need custom domains, more pages and AI credits, the AI allowance on lower tiers runs down quickly, and it's built for marketing and product sites rather than complex web apps. But for the enormous number of people who just need a beautiful, fast, responsive site without hiring a developer, Framer is one of the strongest choices available — which is why it earns a clear recommendation.",
+        "zh": "Framer 处在一个难得的甜蜜点：它给设计师真正想要的自由画布，然后接管发布、托管与全球 CDN，让页面一键上线。真正把它从「优秀的建站工具」推向「确实快」的，是那层 AI——你可以描述一个页面，让 Framer 生成其结构，再用 AI 本地化与内置 A/B 测试在上线后打磨，全程不必离开工具。再加上可管理博客与集合的真正 CMS，以及浏览器之外的 Windows、macOS 原生桌面应用，它覆盖了从空白画布到上线、已优化站点的整条路径。它并非没有取舍：一旦需要自定义域名、更多页面与 AI 额度，费用会攀升；低档位的 AI 额度很快耗尽；它面向营销与产品站点，而非复杂的 Web 应用。但对数量庞大、只想不请开发者就要一个漂亮、快速、响应式站点的人来说，Framer 是眼下最强的选择之一——这正是它获得明确推荐的原因。",
+        "ja": "Framerは稀有な最適点にある。デザイナーが本当に欲しい自由なキャンバスを与え、そのうえで公開・ホスティング・グローバルCDNを引き受け、ワンクリックでページを公開する。「優れたサイトビルダー」から「本当に速い」へ押し上げるのがAI層だ——ページを説明すればFramerが構造を生成し、公開後はAIローカライズと内蔵A/Bテストで磨き込める。すべてツール内で完結する。ブログやコレクション向けの本物のCMS、ブラウザに加えWindows・macOSのネイティブアプリを備え、白紙のキャンバスから公開・最適化済みサイトまでの全経路をカバーする。トレードオフがないわけではない。独自ドメイン・ページ数・AIクレジットが必要になると費用は上がり、下位プランのAI枠はすぐ尽き、複雑なWebアプリより営業・製品サイト向けだ。しかし、開発者を雇わず美しく速いレスポンシブサイトが欲しいだけの膨大な人々にとって、Framerは今ある最強の選択肢の一つ——だからこそ明確に推奨する。",
+        "es": "Framer ocupa un punto óptimo poco común: da a los diseñadores el lienzo libre que realmente quieren y luego se encarga de la publicación, el alojamiento y una CDN global para que una página salga en vivo con un clic. La capa de IA es lo que lo lleva de 'gran creador de sitios' a genuinamente rápido — puedes describir una página y que Framer genere su estructura, y después usar localización con IA y pruebas A/B integradas para refinarla tras el lanzamiento, todo sin salir de la herramienta. Suma un CMS real para blogs y colecciones, más apps de escritorio nativas para Windows y macOS además del navegador, y cubre todo el camino del lienzo en blanco al sitio publicado y optimizado. No está libre de concesiones: los costes suben cuando necesitas dominios propios, más páginas y créditos de IA, la asignación de IA en niveles bajos se agota rápido, y está pensado para sitios de marketing y producto más que para apps web complejas. Pero para la enorme cantidad de gente que solo necesita un sitio bonito, rápido y responsivo sin contratar a un desarrollador, Framer es una de las opciones más fuertes que existen — por eso se gana una recomendación clara.",
+        "fr": "Framer occupe un point idéal rare : il offre aux designers le canevas libre qu'ils veulent vraiment, puis gère la publication, l'hébergement et un CDN mondial pour qu'une page soit en ligne en un clic. La couche IA est ce qui le fait passer de « excellent créateur de sites » à véritablement rapide — vous pouvez décrire une page et laisser Framer en générer la structure, puis utiliser la localisation par IA et les tests A/B intégrés pour l'affiner après le lancement, le tout sans quitter l'outil. Ajoutez un vrai CMS pour blogs et collections, plus des applications de bureau natives Windows et macOS en plus du navigateur, et il couvre tout le chemin du canevas vierge au site publié et optimisé. Il n'est pas sans compromis : les coûts grimpent dès qu'il faut des domaines personnalisés, plus de pages et des crédits IA, la dotation IA des offres basses s'épuise vite, et il est conçu pour les sites marketing et produit plutôt que pour des applications web complexes. Mais pour l'immense nombre de personnes qui veulent simplement un site beau, rapide et responsive sans embaucher de développeur, Framer est l'un des choix les plus solides disponibles — ce qui lui vaut une recommandation claire."
+      },
+      "bestFor": {
+        "en": [
+          "Designers and creators who want canvas freedom plus hosting",
+          "Startups shipping marketing and product landing pages fast",
+          "Teams wanting AI page generation, localization and A/B testing in one tool"
+        ],
+        "zh": [
+          "想要画布自由并自带托管的设计师与创作者",
+          "快速上线营销与产品落地页的初创团队",
+          "希望在一个工具里做 AI 生成页面、本地化与 A/B 测试的团队"
+        ],
+        "ja": [
+          "キャンバスの自由とホスティングの両方が欲しいデザイナー・クリエイター",
+          "マーケティング・製品ランディングを素早く公開するスタートアップ",
+          "AIページ生成・ローカライズ・A/Bテストを一つのツールで行いたいチーム"
+        ],
+        "es": [
+          "Diseñadores y creadores que quieren libertad de lienzo más alojamiento",
+          "Startups que publican rápido landing pages de marketing y producto",
+          "Equipos que quieren generación de páginas con IA, localización y A/B en una herramienta"
+        ],
+        "fr": [
+          "Designers et créateurs voulant la liberté du canevas plus l'hébergement",
+          "Startups publiant vite des landing pages marketing et produit",
+          "Équipes voulant génération de pages par IA, localisation et A/B dans un seul outil"
+        ]
+      },
+      "considerAlternatives": {
+        "en": [
+          "You're building a complex, data-heavy web app rather than a site (→ a full front-end framework)",
+          "You want a free, developer-first static site with no subscription (→ a static site generator on free hosting)"
+        ],
+        "zh": [
+          "你要构建的是复杂、重数据的 Web 应用而非站点（→ 完整的前端框架）",
+          "你想要免费、面向开发者、无订阅的静态站点（→ 免费托管上的静态站点生成器）"
+        ],
+        "ja": [
+          "サイトではなく複雑でデータ量の多いWebアプリを構築している（→ 本格的なフロントエンドフレームワーク）",
+          "無料で開発者向け・サブスク不要の静的サイトが欲しい（→ 無料ホスティング上の静的サイトジェネレーター）"
+        ],
+        "es": [
+          "Construyes una app web compleja y con muchos datos, no un sitio (→ un framework de front-end completo)",
+          "Quieres un sitio estático gratis, orientado a desarrolladores y sin suscripción (→ un generador de sitios estáticos en alojamiento gratuito)"
+        ],
+        "fr": [
+          "Vous construisez une application web complexe et riche en données, pas un site (→ un framework front-end complet)",
+          "Vous voulez un site statique gratuit, orienté développeur et sans abonnement (→ un générateur de site statique sur hébergement gratuit)"
+        ]
+      }
+    },
+    "meta": {
+      "lastVerified": "2026-07-28",
+      "verdictDate": "2026-07-28",
+      "pricingVerified": "2026-07-28",
+      "pricingUrl": "https://www.framer.com/pricing/"
+    }
+  },
+  "krea": {
+    "features": {
+      "en": [
+        "Real-time image generation that updates as you type or sketch",
+        "Text-to-image, text-to-video and text-to-3D in one workspace",
+        "Upscaling and enhancement to bring generations to higher resolution",
+        "LoRA fine-tuning to train and share your own custom styles",
+        "Krea Nodes — a visual, node-based workflow builder for pipelines",
+        "A developer API to build Krea's generation into your own apps"
+      ],
+      "zh": [
+        "实时图像生成，随输入或涂鸦即时更新",
+        "文生图、文生视频与文生 3D 集于一个工作区",
+        "放大与增强，把生成结果提升到更高分辨率",
+        "LoRA 微调，训练并分享你自己的自定义风格",
+        "Krea Nodes——可视化、基于节点的工作流编排器",
+        "开发者 API，把 Krea 的生成能力嵌入你自己的应用"
+      ],
+      "ja": [
+        "入力やスケッチに合わせて即時更新されるリアルタイム画像生成",
+        "テキストから画像・動画・3Dを一つのワークスペースで",
+        "生成物をより高解像度にするアップスケールと強化",
+        "独自スタイルを学習・共有できるLoRAファインチューニング",
+        "Krea Nodes——視覚的でノードベースのワークフロービルダー",
+        "Kreaの生成を自作アプリに組み込む開発者API"
+      ],
+      "es": [
+        "Generación de imágenes en tiempo real que se actualiza mientras escribes o dibujas",
+        "Texto a imagen, texto a vídeo y texto a 3D en un solo espacio de trabajo",
+        "Escalado y mejora para llevar las generaciones a mayor resolución",
+        "Ajuste fino LoRA para entrenar y compartir tus propios estilos",
+        "Krea Nodes — un constructor visual de flujos basado en nodos",
+        "Una API para desarrolladores para integrar la generación de Krea en tus apps"
+      ],
+      "fr": [
+        "Génération d'images en temps réel qui se met à jour à mesure que vous tapez ou dessinez",
+        "Texte vers image, texte vers vidéo et texte vers 3D dans un seul espace",
+        "Upscaling et amélioration pour porter les générations en plus haute résolution",
+        "Fine-tuning LoRA pour entraîner et partager vos propres styles",
+        "Krea Nodes — un constructeur visuel de flux basé sur des nœuds",
+        "Une API développeur pour intégrer la génération de Krea à vos apps"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "A free plan gives about 100 compute units a day to try image, video and 3D generation with the standard models.",
+        "zh": "免费档每日约 100 个计算单位，可试用标准模型的图像、视频与 3D 生成。",
+        "ja": "無料プランでは1日約100の計算ユニットが付与され、標準モデルで画像・動画・3D生成を試せる。",
+        "es": "Un plan gratuito ofrece unas 100 unidades de cómputo al día para probar la generación de imagen, vídeo y 3D con los modelos estándar.",
+        "fr": "Un plan gratuit offre environ 100 unités de calcul par jour pour essayer la génération d'image, vidéo et 3D avec les modèles standard."
+      },
+      "paid": {
+        "en": "Paid plans are metered by monthly compute units — roughly Basic ~5,000, Pro ~20,000 and Max ~60,000 units — with yearly billing saving about 40% and pricing in the ~$10–60/month range depending on tier and billing. The API is priced separately. (Verified against the official pricing page, 2026-07-28; exact dollar amounts are rendered dynamically, so treat figures as approximate.)",
+        "zh": "付费档按每月计算单位计费——大致 Basic 约 5,000、Pro 约 20,000、Max 约 60,000 单位——年付约省 40%，视档位与计费方式落在约 $10–60/月区间。API 单独计价。（对照官方定价页核实，2026-07-28；美元数字为动态渲染，请将金额视为约值。）",
+        "ja": "有料プランは月間計算ユニットで従量課金——おおよそBasic約5,000、Pro約20,000、Max約60,000ユニット——年払いで約40%節約でき、プランと支払い方式により月$10〜60程度。APIは別料金。（公式価格ページと照合、2026-07-28。ドル金額は動的表示のため概算として扱う。）",
+        "es": "Los planes de pago se miden por unidades de cómputo mensuales — aproximadamente Basic ~5000, Pro ~20 000 y Max ~60 000 unidades — con facturación anual que ahorra un ~40% y precios en el rango de ~$10–60/mes según nivel y facturación. La API se cobra aparte. (Verificado con la página oficial de precios, 2026-07-28; las cifras en dólares se muestran dinámicamente, trátalas como aproximadas.)",
+        "fr": "Les plans payants sont mesurés en unités de calcul mensuelles — environ Basic ~5 000, Pro ~20 000 et Max ~60 000 unités — la facturation annuelle faisant économiser ~40 %, avec des prix dans la fourchette ~10–60 $/mois selon l'offre et la facturation. L'API est facturée séparément. (Vérifié avec la page tarifaire officielle, 2026-07-28 ; les montants en dollars sont affichés dynamiquement, à considérer comme approximatifs.)"
+      }
+    },
+    "useCases": {
+      "en": [
+        "Creatives iterating on images live with real-time generation",
+        "Producing images, video and 3D assets from one subscription",
+        "Training LoRAs to lock in a brand or personal visual style",
+        "Building repeatable generation pipelines with Krea Nodes"
+      ],
+      "zh": [
+        "创作者用实时生成对图像做即时迭代",
+        "在一个订阅内产出图像、视频与 3D 素材",
+        "训练 LoRA 以固定品牌或个人视觉风格",
+        "用 Krea Nodes 搭建可复用的生成流水线"
+      ],
+      "ja": [
+        "リアルタイム生成で画像をライブに反復するクリエイター",
+        "一つのサブスクで画像・動画・3Dアセットを制作",
+        "ブランドや個人のビジュアルスタイルを固定するLoRA学習",
+        "Krea Nodesで再利用可能な生成パイプラインを構築"
+      ],
+      "es": [
+        "Creativos que iteran imágenes en vivo con generación en tiempo real",
+        "Producir imágenes, vídeo y activos 3D desde una sola suscripción",
+        "Entrenar LoRAs para fijar un estilo visual de marca o personal",
+        "Construir pipelines de generación repetibles con Krea Nodes"
+      ],
+      "fr": [
+        "Créatifs itérant sur des images en direct avec la génération temps réel",
+        "Produire images, vidéo et assets 3D depuis un seul abonnement",
+        "Entraîner des LoRA pour fixer un style visuel de marque ou personnel",
+        "Construire des pipelines de génération réutilisables avec Krea Nodes"
+      ]
+    },
+    "pros": {
+      "en": [
+        "Real-time generation makes iterating feel fast and playful",
+        "One tool for image, video and 3D instead of many subscriptions",
+        "LoRA training and Krea Nodes give real control and repeatability",
+        "Large, active user base (40M) and an API for developers"
+      ],
+      "zh": [
+        "实时生成让迭代既快又好玩",
+        "一款工具搞定图像、视频与 3D，无需多个订阅",
+        "LoRA 训练与 Krea Nodes 带来真正的可控与可复用",
+        "庞大活跃的用户群（4000 万）与面向开发者的 API"
+      ],
+      "ja": [
+        "リアルタイム生成で反復が速く楽しく感じられる",
+        "画像・動画・3Dを一つのツールで、複数サブスク不要",
+        "LoRA学習とKrea Nodesが真の制御と再現性をもたらす",
+        "大規模で活発なユーザー基盤（4000万）と開発者向けAPI"
+      ],
+      "es": [
+        "La generación en tiempo real hace que iterar sea rápido y divertido",
+        "Una herramienta para imagen, vídeo y 3D en vez de muchas suscripciones",
+        "El entrenamiento LoRA y Krea Nodes dan control real y repetibilidad",
+        "Base de usuarios amplia y activa (40M) y una API para desarrolladores"
+      ],
+      "fr": [
+        "La génération en temps réel rend l'itération rapide et ludique",
+        "Un seul outil pour image, vidéo et 3D au lieu de plusieurs abonnements",
+        "L'entraînement LoRA et Krea Nodes offrent contrôle réel et répétabilité",
+        "Base d'utilisateurs large et active (40M) et une API pour développeurs"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Compute-unit metering makes heavy use burn credits fast",
+        "So many models and modes can overwhelm beginners",
+        "Video and 3D outputs still trail dedicated best-in-class tools",
+        "Exact pricing is rendered dynamically and shifts with model costs"
+      ],
+      "zh": [
+        "按计算单位计费，重度使用会很快烧掉额度",
+        "模型与模式繁多，新手容易眼花缭乱",
+        "视频与 3D 产出仍落后于各自领域的顶尖专用工具",
+        "确切定价为动态渲染，且随模型成本变动"
+      ],
+      "ja": [
+        "計算ユニット課金のため、ヘビーユースはクレジットをすぐ消費",
+        "モデルとモードが多すぎて初心者は戸惑いやすい",
+        "動画・3Dの出力は各分野の専用トップツールにまだ及ばない",
+        "正確な価格は動的表示で、モデルコストに応じて変動する"
+      ],
+      "es": [
+        "La medición por unidades de cómputo agota créditos rápido con uso intenso",
+        "Tantos modelos y modos pueden abrumar a los principiantes",
+        "Las salidas de vídeo y 3D aún quedan por detrás de herramientas dedicadas líderes",
+        "El precio exacto se muestra dinámicamente y cambia con los costes de los modelos"
+      ],
+      "fr": [
+        "La facturation à l'unité de calcul consomme vite les crédits en usage intensif",
+        "Autant de modèles et de modes peut submerger les débutants",
+        "Les sorties vidéo et 3D restent en retrait des meilleurs outils dédiés",
+        "Le prix exact est affiché dynamiquement et évolue avec le coût des modèles"
+      ]
+    },
+    "latestUpdate": {
+      "en": "2026: Krea kept expanding its all-in-one creative suite — real-time generation, its in-house Krea models, video and 3D, LoRA training and the Krea Nodes visual workflow builder — while serving a user base it puts at around 40 million and offering a developer API.",
+      "zh": "2026 年：Krea 持续扩展其一体化创作套件——实时生成、自研 Krea 模型、视频与 3D、LoRA 训练以及 Krea Nodes 可视化工作流编排器——服务其自称约 4000 万的用户群，并提供开发者 API。",
+      "ja": "2026年：Kreaはオールインワンの創作スイートを拡張し続けた——リアルタイム生成、自社Kreaモデル、動画・3D、LoRA学習、Krea Nodesの視覚的ワークフロービルダー——約4000万とする利用者基盤にサービスを提供し、開発者APIも用意する。",
+      "es": "2026: Krea siguió ampliando su suite creativa todo en uno — generación en tiempo real, sus modelos propios Krea, vídeo y 3D, entrenamiento LoRA y el constructor visual Krea Nodes — atendiendo a una base de usuarios que cifra en unos 40 millones y ofreciendo una API para desarrolladores.",
+      "fr": "2026 : Krea a continué d'étendre sa suite créative tout-en-un — génération temps réel, ses modèles maison Krea, vidéo et 3D, entraînement LoRA et le constructeur visuel Krea Nodes — au service d'une base d'utilisateurs qu'elle évalue à environ 40 millions et proposant une API développeur."
+    },
+    "verdict": {
+      "badge": "Recommended",
+      "headline": {
+        "en": "One creative playground for image, video and 3D — in real time",
+        "zh": "图像、视频与 3D 的一站式创作游乐场——还是实时的",
+        "ja": "画像・動画・3Dの創作遊び場を一つに——しかもリアルタイム",
+        "es": "Un patio creativo para imagen, vídeo y 3D — en tiempo real",
+        "fr": "Un terrain de jeu créatif pour image, vidéo et 3D — en temps réel"
+      },
+      "body": {
+        "en": "Most generative-media tools do one thing; Krea tries to be the whole studio, and largely pulls it off. Its signature is real-time generation — images update as you type or sketch, which turns prompting from a slot-machine wait into something that feels like drawing. Around that it stacks text-to-video, text-to-3D, upscaling, LoRA fine-tuning so you can train and share your own styles, and Krea Nodes, a visual node editor for building repeatable pipelines. That breadth is the appeal: instead of juggling separate subscriptions for each medium, you work from one canvas and one credit balance, and there's an API when you want to wire Krea into your own product. The trade-offs are the usual ones for a compute-metered platform — heavy use burns units quickly, the sheer number of models and modes can overwhelm newcomers, and its video and 3D outputs still trail the best dedicated tools in each category. Pricing is also rendered dynamically and moves with model costs, so plan around units rather than a fixed price. Even so, for creatives who want to explore across media in one fast, playful place, Krea is a standout — and worth recommending.",
+        "zh": "多数生成式媒体工具只做一件事；Krea 试图做整间工作室，而且基本做成了。它的招牌是实时生成——图像随输入或涂鸦即时更新，把「提示词等待如老虎机」变成了近似作画的体验。围绕这一点，它叠加了文生视频、文生 3D、放大、可训练并分享自有风格的 LoRA 微调，以及用于搭建可复用流水线的可视化节点编辑器 Krea Nodes。这种广度正是其魅力：你不必为每种媒介分别开订阅，而是在一个画布、一份额度里工作，想把 Krea 接入自家产品时还有 API。取舍是计算计费平台的老问题——重度使用会很快烧掉单位，繁多的模型与模式会让新手不知所措，其视频与 3D 产出仍落后于各领域最好的专用工具。定价也是动态渲染、随模型成本浮动，所以请围绕「单位」而非固定价来规划。即便如此，对想在一个又快又好玩的地方跨媒介探索的创作者来说，Krea 出类拔萃——值得推荐。",
+        "ja": "多くの生成メディアツールは一つのことをやる。Kreaはスタジオ丸ごとを目指し、概ね成功している。看板はリアルタイム生成——入力やスケッチに合わせて画像が即更新され、プロンプトの「スロットマシン待ち」を描画に近い体験へ変える。その周りにテキストから動画・3D、アップスケール、独自スタイルを学習・共有できるLoRAファインチューニング、再利用可能なパイプラインを組む視覚的ノードエディタKrea Nodesを積み重ねる。この幅広さこそ魅力だ。媒体ごとに別サブスクをやりくりせず、一つのキャンバスと一つのクレジット残高で作業でき、自社製品に組み込むためのAPIもある。トレードオフは計算従量プラットフォーム共通のもの——ヘビーユースはユニットをすぐ消費し、モデルとモードの多さは初心者を圧倒し、動画・3Dの出力は各分野最良の専用ツールにまだ及ばない。価格も動的表示でモデルコストに連動するため、固定価格ではなくユニットを軸に計画したい。それでも、速く楽しい一つの場所で媒体を横断して探求したいクリエイターにとって、Kreaは傑出しており——推奨に値する。",
+        "es": "La mayoría de herramientas de medios generativos hacen una cosa; Krea intenta ser todo el estudio, y en gran medida lo consigue. Su sello es la generación en tiempo real — las imágenes se actualizan mientras escribes o dibujas, lo que convierte el prompting de una espera de tragaperras en algo que se siente como dibujar. Alrededor apila texto a vídeo, texto a 3D, escalado, ajuste fino LoRA para entrenar y compartir tus propios estilos, y Krea Nodes, un editor visual de nodos para construir pipelines repetibles. Esa amplitud es el atractivo: en vez de malabarear suscripciones separadas para cada medio, trabajas desde un lienzo y un saldo de créditos, y hay una API cuando quieras integrar Krea en tu propio producto. Las concesiones son las habituales de una plataforma medida por cómputo — el uso intenso agota unidades rápido, la enorme cantidad de modelos y modos puede abrumar a los recién llegados, y sus salidas de vídeo y 3D aún quedan por detrás de las mejores herramientas dedicadas de cada categoría. El precio también se muestra dinámicamente y se mueve con los costes de los modelos, así que planifica en torno a unidades y no a un precio fijo. Aun así, para creativos que quieren explorar entre medios en un lugar rápido y divertido, Krea destaca — y merece recomendación.",
+        "fr": "La plupart des outils de médias génératifs font une chose ; Krea tente d'être tout le studio, et y parvient largement. Sa signature est la génération en temps réel — les images se mettent à jour à mesure que vous tapez ou dessinez, transformant le prompting d'une attente de machine à sous en quelque chose qui ressemble au dessin. Autour, il empile le texte vers vidéo, le texte vers 3D, l'upscaling, le fine-tuning LoRA pour entraîner et partager vos propres styles, et Krea Nodes, un éditeur visuel de nœuds pour bâtir des pipelines réutilisables. Cette ampleur fait l'attrait : au lieu de jongler avec des abonnements séparés pour chaque média, vous travaillez depuis un canevas et un solde de crédits, et il y a une API quand vous voulez brancher Krea dans votre produit. Les compromis sont ceux habituels d'une plateforme facturée au calcul — l'usage intensif brûle vite les unités, le nombre de modèles et de modes peut submerger les nouveaux venus, et ses sorties vidéo et 3D restent en retrait des meilleurs outils dédiés de chaque catégorie. Le prix est aussi affiché dynamiquement et évolue avec le coût des modèles, alors planifiez autour des unités plutôt que d'un prix fixe. Malgré tout, pour les créatifs qui veulent explorer plusieurs médias dans un lieu rapide et ludique, Krea se démarque — et mérite d'être recommandé."
+      },
+      "bestFor": {
+        "en": [
+          "Creatives who want image, video and 3D in one place",
+          "People who value fast, real-time iteration over one-shot renders",
+          "Users training custom LoRA styles or building node workflows"
+        ],
+        "zh": [
+          "想在一处搞定图像、视频与 3D 的创作者",
+          "看重快速实时迭代、而非一次性出图的人",
+          "训练自定义 LoRA 风格或搭建节点工作流的用户"
+        ],
+        "ja": [
+          "画像・動画・3Dを一箇所で行いたいクリエイター",
+          "一発生成より速いリアルタイム反復を重視する人",
+          "カスタムLoRAスタイルの学習やノードワークフロー構築をするユーザー"
+        ],
+        "es": [
+          "Creativos que quieren imagen, vídeo y 3D en un solo lugar",
+          "Quienes valoran la iteración rápida en tiempo real sobre renders de una sola vez",
+          "Usuarios que entrenan estilos LoRA propios o construyen flujos de nodos"
+        ],
+        "fr": [
+          "Créatifs voulant image, vidéo et 3D au même endroit",
+          "Ceux qui privilégient l'itération rapide en temps réel aux rendus uniques",
+          "Utilisateurs entraînant des styles LoRA personnalisés ou construisant des flux de nœuds"
+        ]
+      },
+      "considerAlternatives": {
+        "en": [
+          "You want best-in-class video generation only (→ a dedicated video model)",
+          "You need predictable flat pricing rather than metered compute units (→ a fixed-seat design tool)"
+        ],
+        "zh": [
+          "你只想要顶尖的视频生成（→ 专门的视频模型）",
+          "你需要可预测的固定价、而非按计算单位计费（→ 固定席位的设计工具）"
+        ],
+        "ja": [
+          "最高クラスの動画生成だけが欲しい（→ 専用の動画モデル）",
+          "計算ユニット従量ではなく予測可能な定額が必要（→ 固定席の設計ツール）"
+        ],
+        "es": [
+          "Quieres solo generación de vídeo líder en su clase (→ un modelo de vídeo dedicado)",
+          "Necesitas precio fijo predecible en vez de unidades de cómputo medidas (→ una herramienta de diseño por asiento fijo)"
+        ],
+        "fr": [
+          "Vous voulez uniquement la meilleure génération vidéo (→ un modèle vidéo dédié)",
+          "Vous avez besoin d'un prix fixe prévisible plutôt que d'unités de calcul mesurées (→ un outil de design par siège fixe)"
+        ]
+      }
+    },
+    "meta": {
+      "lastVerified": "2026-07-28",
+      "verdictDate": "2026-07-28",
+      "pricingVerified": "2026-07-28",
+      "pricingUrl": "https://www.krea.ai/pricing"
+    }
+  },
+  "relume": {
+    "features": {
+      "en": [
+        "Generate a full sitemap from a prompt describing your site",
+        "Turn that sitemap into wireframes across every page automatically",
+        "AI copywriting fills the wireframes with on-topic placeholder text",
+        "One-click export to Figma, Webflow and React",
+        "A library of 1,000+ pre-built, responsive components",
+        "A Webflow Chrome extension to paste components straight into Webflow"
+      ],
+      "zh": [
+        "根据描述站点的提示生成完整站点地图",
+        "自动把站点地图转成每一页的线框",
+        "AI 文案为线框填入切题的占位文字",
+        "一键导出到 Figma、Webflow 与 React",
+        "内置 1000+ 预制响应式组件库",
+        "Webflow Chrome 扩展，可把组件直接粘进 Webflow"
+      ],
+      "ja": [
+        "サイトを説明するプロンプトから完全なサイトマップを生成",
+        "そのサイトマップを全ページのワイヤーフレームへ自動変換",
+        "AIコピーがワイヤーフレームに主題に沿ったダミーテキストを充填",
+        "Figma・Webflow・Reactへワンクリック書き出し",
+        "1000超の既製レスポンシブコンポーネントのライブラリ",
+        "コンポーネントをWebflowに直接貼れるWebflow Chrome拡張"
+      ],
+      "es": [
+        "Genera un mapa del sitio completo desde un prompt que describe tu sitio",
+        "Convierte ese mapa en wireframes de todas las páginas automáticamente",
+        "La redacción con IA rellena los wireframes con texto de relleno pertinente",
+        "Exportación con un clic a Figma, Webflow y React",
+        "Una biblioteca de más de 1000 componentes responsivos prediseñados",
+        "Una extensión de Chrome para Webflow para pegar componentes directamente"
+      ],
+      "fr": [
+        "Génère un plan de site complet depuis un prompt décrivant votre site",
+        "Transforme automatiquement ce plan en wireframes sur toutes les pages",
+        "La rédaction IA remplit les wireframes d'un texte de substitution pertinent",
+        "Export en un clic vers Figma, Webflow et React",
+        "Une bibliothèque de plus de 1000 composants responsives prêts à l'emploi",
+        "Une extension Chrome pour Webflow pour coller les composants directement"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "A Free plan lets you try the AI site builder and access the component library with limits on projects and exports.",
+        "zh": "免费档可试用 AI 建站工具并访问组件库，但项目数与导出次数受限。",
+        "ja": "無料プランではAIサイトビルダーを試し、コンポーネントライブラリにアクセスできるが、プロジェクト数と書き出しに制限がある。",
+        "es": "Un plan Free permite probar el creador de sitios con IA y acceder a la biblioteca de componentes con límites en proyectos y exportaciones.",
+        "fr": "Un plan Free permet d'essayer le créateur de site IA et d'accéder à la bibliothèque de composants avec des limites sur les projets et exports."
+      },
+      "paid": {
+        "en": "Paid tiers (Starter, Pro and Team) roughly span the ~$16–40/month range depending on plan and billing, lifting project, export and AI limits and adding collaboration; larger teams get custom pricing. (Verified against the official pricing page, 2026-07-28; exact figures are rendered dynamically, so treat amounts as approximate.)",
+        "zh": "付费档（Starter、Pro、Team）大致落在约 $16–40/月区间，视方案与计费而定，提升项目、导出与 AI 额度并增加协作；更大团队走定制报价。（对照官方定价页核实，2026-07-28；确切数字为动态渲染，请将金额视为约值。）",
+        "ja": "有料プラン（Starter・Pro・Team）はプランと支払い方式により月$16〜40程度で、プロジェクト・書き出し・AI上限を引き上げコラボを追加。より大きなチームは個別価格。（公式価格ページと照合、2026-07-28。正確な数字は動的表示のため概算として扱う。）",
+        "es": "Los niveles de pago (Starter, Pro y Team) abarcan aproximadamente el rango de ~$16–40/mes según plan y facturación, elevando los límites de proyectos, exportación e IA y añadiendo colaboración; los equipos mayores tienen precio a medida. (Verificado con la página oficial de precios, 2026-07-28; las cifras exactas se muestran dinámicamente, trátalas como aproximadas.)",
+        "fr": "Les offres payantes (Starter, Pro et Team) couvrent environ la fourchette ~16–40 $/mois selon l'offre et la facturation, relevant les limites de projets, d'export et d'IA et ajoutant la collaboration ; les grandes équipes ont un tarif sur mesure. (Vérifié avec la page tarifaire officielle, 2026-07-28 ; les chiffres exacts sont affichés dynamiquement, à considérer comme approximatifs.)"
+      }
+    },
+    "useCases": {
+      "en": [
+        "Kick-starting a website with an AI-generated sitemap and wireframes",
+        "Web designers speeding up the structure-and-layout phase",
+        "Webflow builders assembling pages from a huge component library",
+        "Handing developers a React or Figma export to build on"
+      ],
+      "zh": [
+        "用 AI 生成的站点地图与线框为一个网站开好头",
+        "网页设计师加速「结构与布局」阶段",
+        "Webflow 用户从庞大组件库拼装页面",
+        "把 React 或 Figma 导出交给开发者接着做"
+      ],
+      "ja": [
+        "AI生成のサイトマップとワイヤーフレームでWebサイトの出だしを切る",
+        "Webデザイナーが「構造とレイアウト」段階を高速化",
+        "Webflowユーザーが巨大なコンポーネントライブラリからページを組む",
+        "React・Figma書き出しを開発者に渡して続きを作らせる"
+      ],
+      "es": [
+        "Arrancar un sitio con un mapa y wireframes generados por IA",
+        "Diseñadores web que aceleran la fase de estructura y maquetación",
+        "Constructores de Webflow que ensamblan páginas desde una gran biblioteca",
+        "Entregar a desarrolladores una exportación React o Figma para construir"
+      ],
+      "fr": [
+        "Démarrer un site avec un plan et des wireframes générés par IA",
+        "Designers web accélérant la phase de structure et de mise en page",
+        "Créateurs Webflow assemblant des pages depuis une vaste bibliothèque",
+        "Remettre aux développeurs un export React ou Figma pour bâtir"
+      ]
+    },
+    "pros": {
+      "en": [
+        "Nails the hardest early step — sitemap and wireframes — in seconds",
+        "Massive, genuinely useful component library speeds real builds",
+        "Exports to Figma, Webflow and React fit pro workflows",
+        "Webflow Chrome extension makes component reuse frictionless"
+      ],
+      "zh": [
+        "秒级搞定最难的前期——站点地图与线框",
+        "海量且真正好用的组件库加速真实开发",
+        "导出 Figma、Webflow、React，契合专业工作流",
+        "Webflow Chrome 扩展让组件复用毫无摩擦"
+      ],
+      "ja": [
+        "最難関の初期工程——サイトマップとワイヤーフレーム——を数秒で",
+        "巨大で本当に役立つコンポーネントライブラリが実制作を高速化",
+        "Figma・Webflow・Reactへの書き出しがプロのワークフローに合う",
+        "Webflow Chrome拡張でコンポーネント再利用が摩擦なし"
+      ],
+      "es": [
+        "Clava el paso inicial más difícil — mapa y wireframes — en segundos",
+        "Biblioteca de componentes enorme y realmente útil que acelera builds reales",
+        "Exporta a Figma, Webflow y React, encaja en flujos profesionales",
+        "La extensión de Chrome para Webflow hace la reutilización sin fricción"
+      ],
+      "fr": [
+        "Réussit l'étape initiale la plus dure — plan et wireframes — en secondes",
+        "Bibliothèque de composants immense et vraiment utile qui accélère les builds",
+        "Exports vers Figma, Webflow et React adaptés aux flux pro",
+        "L'extension Chrome pour Webflow rend la réutilisation sans friction"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Really shines only if you work in Webflow, Figma or React",
+        "Output is structure and layout, not finished visual design",
+        "AI copy is placeholder-grade and needs rewriting",
+        "Exact pricing is rendered dynamically and can shift"
+      ],
+      "zh": [
+        "只有当你用 Webflow、Figma 或 React 时才真正发挥价值",
+        "产出的是结构与布局，而非完成的视觉设计",
+        "AI 文案属占位级别，需要重写",
+        "确切定价为动态渲染，可能变动"
+      ],
+      "ja": [
+        "Webflow・Figma・Reactで作業してこそ真価を発揮",
+        "出力は構造とレイアウトで、完成したビジュアルデザインではない",
+        "AIコピーはダミーレベルで書き直しが必要",
+        "正確な価格は動的表示で変動しうる"
+      ],
+      "es": [
+        "Brilla de verdad solo si trabajas en Webflow, Figma o React",
+        "La salida es estructura y maquetación, no diseño visual terminado",
+        "El texto de IA es de nivel relleno y necesita reescritura",
+        "El precio exacto se muestra dinámicamente y puede cambiar"
+      ],
+      "fr": [
+        "Ne brille vraiment que si vous travaillez sous Webflow, Figma ou React",
+        "Le rendu est structure et mise en page, pas un design visuel fini",
+        "Le texte IA est de niveau substitution et doit être réécrit",
+        "Le prix exact est affiché dynamiquement et peut évoluer"
+      ]
+    },
+    "latestUpdate": {
+      "en": "2026: Relume kept extending its AI site builder — prompt-to-sitemap, sitemap-to-wireframes and AI copywriting — its 1,000+ component library, and its exports to Figma, Webflow and React, staying focused on the structural front-end of professional web projects.",
+      "zh": "2026 年：Relume 持续扩展其 AI 建站工具——提示生成站点地图、站点地图转线框、AI 文案——以及 1000+ 组件库和 Figma、Webflow、React 导出，专注于专业网站项目的结构性前置环节。",
+      "ja": "2026年：RelumeはAIサイトビルダー——プロンプトからサイトマップ、サイトマップからワイヤーフレーム、AIコピー——と1000超のコンポーネントライブラリ、Figma・Webflow・Reactへの書き出しを拡張し続け、プロのWebプロジェクトの構造的な前段に注力している。",
+      "es": "2026: Relume siguió ampliando su creador de sitios con IA — prompt a mapa, mapa a wireframes y redacción con IA —, su biblioteca de más de 1000 componentes y sus exportaciones a Figma, Webflow y React, manteniéndose centrado en el front-end estructural de proyectos web profesionales.",
+      "fr": "2026 : Relume a continué d'étendre son créateur de site IA — prompt vers plan, plan vers wireframes et rédaction IA —, sa bibliothèque de plus de 1000 composants et ses exports vers Figma, Webflow et React, en restant focalisé sur le front-end structurel des projets web professionnels."
+    },
+    "verdict": {
+      "badge": "Worth Trying",
+      "headline": {
+        "en": "The fastest way to go from prompt to a site's skeleton",
+        "zh": "从提示到站点骨架的最快路径",
+        "ja": "プロンプトからサイトの骨組みへ、最速の道",
+        "es": "La forma más rápida de ir del prompt al esqueleto de un sitio",
+        "fr": "Le moyen le plus rapide de passer du prompt au squelette d'un site"
+      },
+      "body": {
+        "en": "Relume solves a very specific, very real pain: the blank-page problem at the start of a web project. Describe the site you want and it generates a full sitemap, expands that into wireframes for every page, and drops in AI-written placeholder copy so the structure reads like a real site rather than lorem ipsum. From there you export to Figma, Webflow or React and keep building — backed by a library of over a thousand responsive components and a Webflow Chrome extension that makes reusing those components almost effortless. For designers and Webflow builders, that turns the tedious structure-and-layout phase into minutes of work. The flip side is that Relume is opinionated about where it fits: it really pays off only if your pipeline runs through Webflow, Figma or React, its output is scaffolding rather than finished visual design, and the AI copy is strictly a placeholder you'll rewrite. Pricing is also rendered dynamically and can move. But if you live in that Webflow/Figma/React world and want to skip straight past the hardest, most tedious part of starting a site, Relume is well worth trying.",
+        "zh": "Relume 解决的是一个非常具体、非常真实的痛点：网站项目开头的「空白页」难题。描述你想要的站点，它就生成完整站点地图，把它展开成每一页的线框，再填入 AI 写的占位文案，让结构读起来像真实站点而非乱数假文。之后你导出到 Figma、Webflow 或 React 继续做——背后是一千余个响应式组件的库，以及一个让组件复用几乎毫不费力的 Webflow Chrome 扩展。对设计师与 Webflow 用户而言，这把枯燥的「结构与布局」阶段压缩成几分钟。另一面是 Relume 对自己的定位很有主见：只有当你的流程走 Webflow、Figma 或 React 时才真正划算；它的产出是骨架而非完成的视觉设计；AI 文案严格来说只是待你重写的占位。定价同样是动态渲染、可能变动。但若你就生活在 Webflow/Figma/React 的世界里，又想直接跳过开站最难、最枯燥的部分，Relume 很值得一试。",
+        "ja": "Relumeは非常に具体的で現実的な痛みを解く。Webプロジェクト冒頭の「空白ページ」問題だ。欲しいサイトを説明すれば完全なサイトマップを生成し、それを全ページのワイヤーフレームへ展開し、AIが書いたダミーコピーを差し込んで、構造がロレム・イプサムではなく本物のサイトのように読めるようにする。そこからFigma・Webflow・Reactへ書き出して制作を続ける——千を超えるレスポンシブコンポーネントのライブラリと、そのコンポーネント再利用をほぼ苦もなくするWebflow Chrome拡張に支えられて。デザイナーやWebflowユーザーにとって、退屈な構造・レイアウト段階が数分の作業になる。裏を返せば、Relumeは自分の居場所に一家言ある。真価を発揮するのはパイプラインがWebflow・Figma・Reactを通る場合のみで、出力は完成したビジュアルデザインではなく骨組み、AIコピーはあくまで書き直す前提のダミーだ。価格も動的表示で変わりうる。しかしWebflow/Figma/Reactの世界に住み、サイト立ち上げの最も難しく退屈な部分を丸ごと飛ばしたいなら、Relumeは試す価値が十分ある。",
+        "es": "Relume resuelve un dolor muy específico y muy real: el problema de la página en blanco al inicio de un proyecto web. Describe el sitio que quieres y genera un mapa del sitio completo, lo expande en wireframes para cada página y coloca texto de relleno escrito por IA para que la estructura se lea como un sitio real y no como lorem ipsum. Desde ahí exportas a Figma, Webflow o React y sigues construyendo — respaldado por una biblioteca de más de mil componentes responsivos y una extensión de Chrome para Webflow que hace reutilizar esos componentes casi sin esfuerzo. Para diseñadores y constructores de Webflow, eso convierte la tediosa fase de estructura y maquetación en minutos de trabajo. La contracara es que Relume tiene opinión sobre dónde encaja: solo compensa de verdad si tu pipeline pasa por Webflow, Figma o React, su salida es andamiaje más que diseño visual terminado, y el texto de IA es estrictamente un relleno que reescribirás. El precio también se muestra dinámicamente y puede moverse. Pero si vives en ese mundo de Webflow/Figma/React y quieres saltarte directamente la parte más difícil y tediosa de empezar un sitio, Relume bien vale la pena probar.",
+        "fr": "Relume résout une douleur très précise et bien réelle : le problème de la page blanche au début d'un projet web. Décrivez le site voulu et il génère un plan de site complet, le développe en wireframes pour chaque page, et y insère un texte de substitution écrit par IA pour que la structure se lise comme un vrai site plutôt que du lorem ipsum. De là, vous exportez vers Figma, Webflow ou React et continuez à bâtir — adossé à une bibliothèque de plus de mille composants responsives et une extension Chrome pour Webflow qui rend la réutilisation de ces composants quasi sans effort. Pour les designers et créateurs Webflow, cela transforme la fastidieuse phase de structure et de mise en page en quelques minutes de travail. Le revers, c'est que Relume a une opinion sur sa place : il ne paie vraiment que si votre pipeline passe par Webflow, Figma ou React, son rendu est un échafaudage plutôt qu'un design visuel fini, et le texte IA est strictement un substitut que vous réécrirez. Le prix est aussi affiché dynamiquement et peut évoluer. Mais si vous vivez dans ce monde Webflow/Figma/React et voulez sauter directement la partie la plus difficile et fastidieuse du démarrage d'un site, Relume vaut vraiment l'essai."
+      },
+      "bestFor": {
+        "en": [
+          "Web designers who want instant sitemaps and wireframes",
+          "Webflow builders assembling from a large component library",
+          "Teams exporting to Figma, Webflow or React to keep building"
+        ],
+        "zh": [
+          "想要即时站点地图与线框的网页设计师",
+          "从大型组件库拼装的 Webflow 用户",
+          "导出到 Figma、Webflow 或 React 接着做的团队"
+        ],
+        "ja": [
+          "即席のサイトマップとワイヤーフレームが欲しいWebデザイナー",
+          "大きなコンポーネントライブラリから組むWebflowユーザー",
+          "Figma・Webflow・Reactへ書き出して制作を続けるチーム"
+        ],
+        "es": [
+          "Diseñadores web que quieren mapas y wireframes instantáneos",
+          "Constructores de Webflow que ensamblan desde una gran biblioteca",
+          "Equipos que exportan a Figma, Webflow o React para seguir construyendo"
+        ],
+        "fr": [
+          "Designers web voulant des plans et wireframes instantanés",
+          "Créateurs Webflow assemblant depuis une grande bibliothèque",
+          "Équipes exportant vers Figma, Webflow ou React pour continuer"
+        ]
+      },
+      "considerAlternatives": {
+        "en": [
+          "You want to design and host a finished site in one tool (→ Framer)",
+          "You don't work in Webflow, Figma or React (→ a general website builder)"
+        ],
+        "zh": [
+          "你想在一个工具里设计并托管完成的站点（→ Framer）",
+          "你并不使用 Webflow、Figma 或 React（→ 通用建站工具）"
+        ],
+        "ja": [
+          "一つのツールで完成サイトをデザインしホスティングしたい（→ Framer）",
+          "Webflow・Figma・Reactを使わない（→ 汎用サイトビルダー）"
+        ],
+        "es": [
+          "Quieres diseñar y alojar un sitio terminado en una herramienta (→ Framer)",
+          "No trabajas en Webflow, Figma o React (→ un creador de sitios general)"
+        ],
+        "fr": [
+          "Vous voulez concevoir et héberger un site fini dans un seul outil (→ Framer)",
+          "Vous ne travaillez pas sous Webflow, Figma ou React (→ un créateur de site généraliste)"
+        ]
+      }
+    },
+    "meta": {
+      "lastVerified": "2026-07-28",
+      "verdictDate": "2026-07-28",
+      "pricingVerified": "2026-07-28",
+      "pricingUrl": "https://www.relume.io/pricing"
+    }
+  },
+  "uizard": {
+    "features": {
+      "en": [
+        "Autodesigner 2.0 generates multi-screen projects from a text prompt",
+        "Screenshot Scanner turns any screenshot into an editable mockup",
+        "Wireframe Scanner digitizes hand-drawn sketches into UI",
+        "Drag-and-drop editor with themes and reusable components",
+        "Clickable prototypes for quick, shareable user testing",
+        "Part of Miro, so designs connect to a broader collaboration suite"
+      ],
+      "zh": [
+        "Autodesigner 2.0 根据文字提示生成多屏项目",
+        "截图扫描器把任意截图转成可编辑稿",
+        "手绘线框扫描器把纸上草图数字化为 UI",
+        "拖拽式编辑器，配主题与可复用组件",
+        "可点击原型，便于快速、可分享的用户测试",
+        "隶属 Miro，设计可接入更广的协作套件"
+      ],
+      "ja": [
+        "Autodesigner 2.0がテキストプロンプトから複数画面のプロジェクトを生成",
+        "スクリーンショットスキャナーが任意の画像を編集可能なモックに変換",
+        "手書きワイヤーフレームスキャナーがスケッチをUIにデジタル化",
+        "テーマと再利用可能なコンポーネントを備えたドラッグ&ドロップエディタ",
+        "素早く共有できるユーザーテスト向けのクリック可能なプロトタイプ",
+        "Miroの一部で、デザインが広範なコラボスイートに連携"
+      ],
+      "es": [
+        "Autodesigner 2.0 genera proyectos multipantalla desde un prompt de texto",
+        "El Escáner de Capturas convierte cualquier captura en una maqueta editable",
+        "El Escáner de Wireframes digitaliza bocetos a mano en UI",
+        "Editor de arrastrar y soltar con temas y componentes reutilizables",
+        "Prototipos clicables para pruebas de usuario rápidas y compartibles",
+        "Parte de Miro, así que los diseños conectan con una suite de colaboración más amplia"
+      ],
+      "fr": [
+        "Autodesigner 2.0 génère des projets multi-écrans depuis un prompt texte",
+        "Le Scanner de captures transforme n'importe quelle capture en maquette éditable",
+        "Le Scanner de wireframes numérise les croquis à main levée en UI",
+        "Éditeur glisser-déposer avec thèmes et composants réutilisables",
+        "Prototypes cliquables pour des tests utilisateurs rapides et partageables",
+        "Partie de Miro, les designs se connectent à une suite de collaboration plus large"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "A Free plan lets you create with limited AI usage — around three AI generations per month — and a capped number of projects.",
+        "zh": "免费档可创作，但 AI 用量受限——每月约三次 AI 生成——项目数量也有上限。",
+        "ja": "無料プランでは限られたAI利用——月約3回のAI生成——と上限付きのプロジェクト数で作成できる。",
+        "es": "Un plan Free permite crear con uso de IA limitado — unas tres generaciones de IA al mes — y un número tope de proyectos.",
+        "fr": "Un plan Free permet de créer avec un usage IA limité — environ trois générations IA par mois — et un nombre plafonné de projets."
+      },
+      "paid": {
+        "en": "Pro is $12/month (billed annually) with around 500 AI generations, and Business is $39/month with about 5,000 generations and team features; larger organizations get custom Enterprise pricing. (Verified against the official pricing page, 2026-07-28.)",
+        "zh": "Pro 为 $12/月（年付计价），约 500 次 AI 生成；Business 为 $39/月，约 5,000 次生成并含团队功能；更大组织走定制 Enterprise 报价。（对照官方定价页核实，2026-07-28。）",
+        "ja": "Proは月$12（年払い計算）で約500回のAI生成、Businessは月$39で約5,000回の生成とチーム機能付き。より大きな組織は個別のEnterprise価格。（公式価格ページと照合、2026-07-28。）",
+        "es": "Pro cuesta $12/mes (facturación anual) con unas 500 generaciones de IA, y Business $39/mes con unas 5000 generaciones y funciones de equipo; las organizaciones mayores tienen precio Enterprise a medida. (Verificado con la página oficial de precios, 2026-07-28.)",
+        "fr": "Pro est à 12 $/mois (facturation annuelle) avec environ 500 générations IA, et Business à 39 $/mois avec environ 5 000 générations et des fonctions d'équipe ; les grandes organisations ont un tarif Enterprise sur mesure. (Vérifié avec la page tarifaire officielle, 2026-07-28.)"
+      }
+    },
+    "useCases": {
+      "en": [
+        "Non-designers turning an idea into a UI mockup fast",
+        "Product managers sketching app flows before handing to design",
+        "Founders validating a concept with a clickable prototype",
+        "Digitizing hand-drawn wireframes or existing app screenshots"
+      ],
+      "zh": [
+        "非设计师把想法快速变成 UI 稿",
+        "产品经理在交付设计前先勾勒应用流程",
+        "创始人用可点击原型验证一个概念",
+        "把手绘线框或现有应用截图数字化"
+      ],
+      "ja": [
+        "非デザイナーがアイデアを素早くUIモックに",
+        "プロダクトマネージャーがデザイン引き渡し前にアプリフローを描く",
+        "創業者がクリック可能なプロトタイプでコンセプトを検証",
+        "手書きワイヤーフレームや既存アプリの画像をデジタル化"
+      ],
+      "es": [
+        "No diseñadores que convierten una idea en una maqueta UI rápido",
+        "Product managers que bosquejan flujos de app antes de pasarlos a diseño",
+        "Fundadores que validan un concepto con un prototipo clicable",
+        "Digitalizar wireframes a mano o capturas de apps existentes"
+      ],
+      "fr": [
+        "Non-designers transformant vite une idée en maquette UI",
+        "Product managers esquissant des flux d'app avant de les passer au design",
+        "Fondateurs validant un concept avec un prototype cliquable",
+        "Numériser des wireframes dessinés à la main ou des captures d'apps existantes"
+      ]
+    },
+    "pros": {
+      "en": [
+        "Genuinely low barrier — usable with zero design background",
+        "Scanners turn screenshots and sketches into editable designs",
+        "Fast path from prompt to a clickable, testable prototype",
+        "Backing and integration of Miro give it staying power"
+      ],
+      "zh": [
+        "门槛真的低——零设计背景也能上手",
+        "扫描器把截图与草图变成可编辑设计",
+        "从提示到可点击、可测试原型的路径很快",
+        "Miro 的背书与整合让它更有持续力"
+      ],
+      "ja": [
+        "本当に低い敷居——デザイン経験ゼロでも使える",
+        "スキャナーが画像やスケッチを編集可能なデザインに",
+        "プロンプトからクリック可能でテスト可能なプロトタイプまで速い",
+        "Miroの後ろ盾と統合が継続性を与える"
+      ],
+      "es": [
+        "Barrera realmente baja — usable sin ninguna base de diseño",
+        "Los escáneres convierten capturas y bocetos en diseños editables",
+        "Camino rápido del prompt a un prototipo clicable y testeable",
+        "El respaldo y la integración de Miro le dan permanencia"
+      ],
+      "fr": [
+        "Barrière vraiment basse — utilisable sans aucune base en design",
+        "Les scanners transforment captures et croquis en designs éditables",
+        "Chemin rapide du prompt à un prototype cliquable et testable",
+        "Le soutien et l'intégration de Miro lui donnent de la pérennité"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Output leans toward lower-fidelity mockups than pro design tools",
+        "Free tier's ~3 generations a month is very limited",
+        "Not a replacement for Figma-grade precision and design systems",
+        "Advanced control and fine detailing are limited by design"
+      ],
+      "zh": [
+        "产出偏低保真稿，不及专业设计工具",
+        "免费档每月约 3 次生成，非常有限",
+        "无法替代 Figma 级的精度与设计系统",
+        "高级控制与精细刻画因定位而受限"
+      ],
+      "ja": [
+        "出力はプロ設計ツールより低忠実度のモック寄り",
+        "無料枠の月約3回生成は非常に限定的",
+        "Figma級の精度やデザインシステムの代替にはならない",
+        "高度な制御や細部の作り込みは設計上限られる"
+      ],
+      "es": [
+        "La salida tiende a maquetas de menor fidelidad que las herramientas pro",
+        "Las ~3 generaciones al mes del nivel gratis son muy limitadas",
+        "No sustituye la precisión y los sistemas de diseño de nivel Figma",
+        "El control avanzado y el detalle fino están limitados por diseño"
+      ],
+      "fr": [
+        "Le rendu tend vers des maquettes de plus faible fidélité que les outils pro",
+        "Les ~3 générations par mois du niveau gratuit sont très limitées",
+        "Ne remplace pas la précision et les design systems de niveau Figma",
+        "Le contrôle avancé et le détail fin sont limités par conception"
+      ]
+    },
+    "latestUpdate": {
+      "en": "2026: Now part of Miro, Uizard kept refining Autodesigner 2.0 for prompt-to-project generation alongside its Screenshot and Wireframe scanners, doubling down on being the easiest way for non-designers to go from idea to a testable UI.",
+      "zh": "2026 年：已归入 Miro 的 Uizard 持续打磨用于「提示生成项目」的 Autodesigner 2.0，以及截图与线框扫描器，进一步押注「让非设计师从想法到可测试 UI 的最简路径」。",
+      "ja": "2026年：Miro傘下となったUizardは、プロンプトからプロジェクトを生成するAutodesigner 2.0と、スクリーンショット・ワイヤーフレームのスキャナーを磨き続け、「非デザイナーがアイデアからテスト可能なUIへ至る最も簡単な方法」に一層注力している。",
+      "es": "2026: Ahora parte de Miro, Uizard siguió refinando Autodesigner 2.0 para la generación de proyecto desde prompt junto con sus escáneres de captura y wireframe, apostando por ser la forma más fácil de que los no diseñadores pasen de la idea a una UI testeable.",
+      "fr": "2026 : Désormais partie de Miro, Uizard a continué d'affiner Autodesigner 2.0 pour la génération de projet depuis un prompt ainsi que ses scanners de capture et de wireframe, misant sur le fait d'être le moyen le plus simple pour les non-designers de passer de l'idée à une UI testable."
+    },
+    "verdict": {
+      "badge": "Worth Trying",
+      "headline": {
+        "en": "The friendliest on-ramp from idea to a testable UI",
+        "zh": "从想法到可测试 UI，最友好的入口",
+        "ja": "アイデアからテスト可能なUIへ、最も親しみやすい入口",
+        "es": "La rampa más amable de la idea a una UI testeable",
+        "fr": "La rampe d'accès la plus accueillante de l'idée à une UI testable"
+      },
+      "body": {
+        "en": "Uizard's whole pitch is approachability, and it delivers: describe an app and Autodesigner 2.0 spins up a multi-screen project, point the Screenshot Scanner at any app and get an editable version, or snap a photo of a napkin wireframe and watch it become real UI. For a product manager, founder or anyone without a design background, that's a genuinely fast route from a vague idea to a clickable prototype you can put in front of users — no Figma learning curve required. Being part of Miro also means it's not a fragile side project; it plugs into a larger collaboration ecosystem. The catch is fidelity: Uizard is built for speed and low-fi mockups, not the pixel precision and mature design systems that professional teams rely on, and the free tier's roughly three AI generations a month runs out almost immediately. Think of it as the ideal starting point and validation tool rather than the place you'll finish production design. Within that lane it's excellent, and at $12/month for Pro it's easy to try — well worth a look if you value speed and accessibility over deep control.",
+        "zh": "Uizard 的整个卖点就是「好上手」，而它确实做到了：描述一个应用，Autodesigner 2.0 就生成多屏项目；把截图扫描器对准任意应用，就得到可编辑版本；给餐巾纸上的线框拍张照，看它变成真实 UI。对产品经理、创始人或任何没有设计背景的人来说，这是一条从模糊想法到可点击原型、能立刻拿去给用户看的快路——不需要 Figma 那套学习曲线。归入 Miro 也意味着它不是脆弱的副项目，而是接入了更大的协作生态。代价在于保真度：Uizard 为速度和低保真稿而生，而非专业团队依赖的像素精度与成熟设计系统，且免费档每月约三次 AI 生成几乎立刻用完。请把它当作理想的起点与验证工具，而非你完成生产级设计的地方。在这条赛道里它很出色，Pro 每月 $12 也很容易一试——若你更看重速度与易用而非深度控制，非常值得一看。",
+        "ja": "Uizardの売りは一貫して「とっつきやすさ」で、実際にそれを果たす。アプリを説明すればAutodesigner 2.0が複数画面のプロジェクトを立ち上げ、スクリーンショットスキャナーを任意のアプリに向ければ編集可能な版が得られ、ナプキンのワイヤーフレームを撮ればそれが本物のUIになる。プロダクトマネージャー、創業者、デザイン経験のない誰にとっても、曖昧なアイデアからユーザーに見せられるクリック可能なプロトタイプまでの本当に速い道だ——Figmaの学習曲線は不要。Miroの一部であることは、脆い副プロジェクトではなく、より大きなコラボ生態系に接続していることも意味する。難点は忠実度だ。Uizardは速度と低忠実度のモック向けで、プロチームが頼るピクセル精度や成熟したデザインシステム向けではなく、無料枠の月約3回のAI生成はほぼ即座に尽きる。生産設計を仕上げる場ではなく、理想的な出発点・検証ツールと考えるとよい。その領域では優秀で、Proは月$12と試しやすい——深い制御より速度と使いやすさを重視するなら一見の価値が十分ある。",
+        "es": "Todo el argumento de Uizard es la accesibilidad, y cumple: describe una app y Autodesigner 2.0 monta un proyecto multipantalla, apunta el Escáner de Capturas a cualquier app y obtén una versión editable, o fotografía el wireframe de una servilleta y míralo convertirse en UI real. Para un product manager, fundador o cualquiera sin base de diseño, es una ruta genuinamente rápida de una idea vaga a un prototipo clicable que puedes poner ante usuarios — sin la curva de aprendizaje de Figma. Ser parte de Miro también significa que no es un proyecto secundario frágil; se conecta a un ecosistema de colaboración mayor. El truco es la fidelidad: Uizard está hecho para la velocidad y las maquetas de baja fidelidad, no para la precisión de píxel y los sistemas de diseño maduros en que confían los equipos profesionales, y las tres generaciones de IA al mes del nivel gratis se agotan casi de inmediato. Piénsalo como el punto de partida y herramienta de validación ideal, no el lugar donde terminarás el diseño de producción. Dentro de ese carril es excelente, y a $12/mes por Pro es fácil de probar — bien vale un vistazo si valoras la velocidad y la accesibilidad sobre el control profundo.",
+        "fr": "Tout l'argumentaire d'Uizard est l'accessibilité, et il tient parole : décrivez une app et Autodesigner 2.0 monte un projet multi-écrans, pointez le Scanner de captures vers n'importe quelle app et obtenez une version éditable, ou photographiez le wireframe d'une serviette et regardez-le devenir une vraie UI. Pour un product manager, un fondateur ou quiconque sans base en design, c'est une route véritablement rapide d'une idée floue à un prototype cliquable que vous pouvez mettre devant des utilisateurs — sans la courbe d'apprentissage de Figma. Faire partie de Miro signifie aussi que ce n'est pas un projet secondaire fragile ; il se branche sur un écosystème de collaboration plus large. Le hic est la fidélité : Uizard est conçu pour la vitesse et les maquettes basse fidélité, pas pour la précision au pixel et les design systems matures sur lesquels s'appuient les équipes pro, et les trois générations IA par mois du niveau gratuit s'épuisent presque aussitôt. Voyez-le comme le point de départ et l'outil de validation idéal, pas l'endroit où vous finaliserez le design de production. Dans ce couloir il est excellent, et à 12 $/mois pour Pro il est facile à essayer — ça vaut le coup d'œil si vous privilégiez la vitesse et l'accessibilité au contrôle profond."
+      },
+      "bestFor": {
+        "en": [
+          "Non-designers and PMs turning ideas into UI fast",
+          "Founders validating concepts with clickable prototypes",
+          "Anyone digitizing sketches or screenshots into editable designs"
+        ],
+        "zh": [
+          "快速把想法变 UI 的非设计师与产品经理",
+          "用可点击原型验证概念的创始人",
+          "把草图或截图数字化为可编辑设计的任何人"
+        ],
+        "ja": [
+          "アイデアを素早くUIにする非デザイナーやPM",
+          "クリック可能なプロトタイプでコンセプトを検証する創業者",
+          "スケッチや画像を編集可能なデザインにデジタル化する人"
+        ],
+        "es": [
+          "No diseñadores y PMs que convierten ideas en UI rápido",
+          "Fundadores que validan conceptos con prototipos clicables",
+          "Cualquiera que digitalice bocetos o capturas en diseños editables"
+        ],
+        "fr": [
+          "Non-designers et PM transformant vite des idées en UI",
+          "Fondateurs validant des concepts avec des prototypes cliquables",
+          "Quiconque numérise croquis ou captures en designs éditables"
+        ]
+      },
+      "considerAlternatives": {
+        "en": [
+          "You need pixel-perfect, production-grade design and design systems (→ Figma)",
+          "You want to generate a live website rather than a UI mockup (→ Framer or a website builder)"
+        ],
+        "zh": [
+          "你需要像素级、可上生产的设计与设计系统（→ Figma）",
+          "你想生成上线网站、而非 UI 稿（→ Framer 或建站工具）"
+        ],
+        "ja": [
+          "ピクセル完璧で本番品質のデザインとデザインシステムが必要（→ Figma）",
+          "UIモックではなく公開できるWebサイトを生成したい（→ Framerやサイトビルダー）"
+        ],
+        "es": [
+          "Necesitas diseño de precisión de píxel, listo para producción y sistemas de diseño (→ Figma)",
+          "Quieres generar un sitio web en vivo en vez de una maqueta UI (→ Framer o un creador de sitios)"
+        ],
+        "fr": [
+          "Vous avez besoin d'un design au pixel près, prêt pour la production et de design systems (→ Figma)",
+          "Vous voulez générer un site web en ligne plutôt qu'une maquette UI (→ Framer ou un créateur de sites)"
+        ]
+      }
+    },
+    "meta": {
+      "lastVerified": "2026-07-28",
+      "verdictDate": "2026-07-28",
+      "pricingVerified": "2026-07-28",
+      "pricingUrl": "https://uizard.io/pricing/"
+    }
+  },
+  "visily": {
+    "features": {
+      "en": [
+        "Generate editable wireframes and hi-fi prototypes from one prompt",
+        "Mix screenshots, text and canvas selections as prompt inputs",
+        "Two-way Figma sync to move designs in and out",
+        "Export designs to production-ready code",
+        "An MCP server so AI agents and IDEs can drive Visily",
+        "Templates and design systems for consistent, on-brand screens"
+      ],
+      "zh": [
+        "一条提示即生成可编辑线框与高保真原型",
+        "混合截图、文字与画布选区作为提示输入",
+        "Figma 双向同步，设计可自由进出",
+        "把设计导出为可上生产的代码",
+        "提供 MCP 服务，让 AI 智能体与 IDE 驱动 Visily",
+        "模板与设计系统，保证画面一致且符合品牌"
+      ],
+      "ja": [
+        "1つのプロンプトから編集可能なワイヤーフレームと高精細プロトタイプを生成",
+        "スクリーンショット・テキスト・キャンバス選択をプロンプト入力に混在",
+        "Figma双方向同期でデザインを出し入れ",
+        "デザインを本番対応のコードに書き出し",
+        "AIエージェントやIDEがVisilyを操作できるMCPサーバー",
+        "一貫してブランドに沿った画面のためのテンプレートとデザインシステム"
+      ],
+      "es": [
+        "Genera wireframes editables y prototipos de alta fidelidad desde un prompt",
+        "Combina capturas, texto y selecciones del lienzo como entradas del prompt",
+        "Sincronización bidireccional con Figma para mover diseños de ida y vuelta",
+        "Exporta diseños a código listo para producción",
+        "Un servidor MCP para que agentes de IA e IDEs manejen Visily",
+        "Plantillas y sistemas de diseño para pantallas consistentes y de marca"
+      ],
+      "fr": [
+        "Génère wireframes éditables et prototypes haute fidélité depuis un prompt",
+        "Mélange captures, texte et sélections du canevas comme entrées de prompt",
+        "Synchronisation Figma bidirectionnelle pour faire entrer et sortir les designs",
+        "Exporte les designs en code prêt pour la production",
+        "Un serveur MCP pour que les agents IA et IDE pilotent Visily",
+        "Modèles et design systems pour des écrans cohérents et fidèles à la marque"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "A free Starter plan gives about 300 AI credits a month with core design and prototyping features.",
+        "zh": "免费 Starter 档每月约 300 个 AI 额度，含核心设计与原型功能。",
+        "ja": "無料のStarterプランは月約300のAIクレジットが付き、コアなデザインとプロトタイピング機能を利用できる。",
+        "es": "Un plan Starter gratuito da unos 300 créditos de IA al mes con funciones esenciales de diseño y prototipado.",
+        "fr": "Un plan Starter gratuit offre environ 300 crédits IA par mois avec les fonctions essentielles de design et prototypage."
+      },
+      "paid": {
+        "en": "Pro is about $11 per editor/month (billed annually) with more AI credits and advanced features, and Business is about $29 per editor/month adding team and admin controls; Enterprise is custom. (Verified against the official pricing page, 2026-07-28.)",
+        "zh": "Pro 约 $11/人·月（年付计价），含更多 AI 额度与高级功能；Business 约 $29/人·月，增加团队与管理控制；Enterprise 为定制。（对照官方定价页核实，2026-07-28。）",
+        "ja": "Proは編集者ごと月約$11（年払い計算）でAIクレジット増と高度機能、Businessは編集者ごと月約$29でチーム・管理者制御を追加。Enterpriseは個別。（公式価格ページと照合、2026-07-28。）",
+        "es": "Pro cuesta unos $11 por editor/mes (facturación anual) con más créditos de IA y funciones avanzadas, y Business unos $29 por editor/mes añadiendo controles de equipo y admin; Enterprise a medida. (Verificado con la página oficial de precios, 2026-07-28.)",
+        "fr": "Pro coûte environ 11 $ par éditeur/mois (facturation annuelle) avec plus de crédits IA et des fonctions avancées, et Business environ 29 $ par éditeur/mois ajoutant contrôles d'équipe et d'admin ; Enterprise sur mesure. (Vérifié avec la page tarifaire officielle, 2026-07-28.)"
+      }
+    },
+    "useCases": {
+      "en": [
+        "Turning a rough idea or screenshot into an editable prototype fast",
+        "Product and non-design teams designing app screens without Figma skills",
+        "Bridging design and code with two-way Figma and code export",
+        "Letting AI agents draft or edit UI through the MCP server"
+      ],
+      "zh": [
+        "把粗略想法或截图快速变成可编辑原型",
+        "产品与非设计团队无需 Figma 技能也能设计应用画面",
+        "用 Figma 双向与代码导出打通设计与代码",
+        "通过 MCP 服务让 AI 智能体起草或修改 UI"
+      ],
+      "ja": [
+        "ラフなアイデアや画像を素早く編集可能なプロトタイプに",
+        "Figmaスキルなしで製品・非デザインチームがアプリ画面を設計",
+        "Figma双方向とコード書き出しでデザインとコードを橋渡し",
+        "MCPサーバー経由でAIエージェントにUIを起草・編集させる"
+      ],
+      "es": [
+        "Convertir una idea o captura en un prototipo editable rápido",
+        "Equipos de producto y no diseño que diseñan pantallas sin saber Figma",
+        "Puentear diseño y código con Figma bidireccional y exportación de código",
+        "Dejar que agentes de IA redacten o editen UI mediante el servidor MCP"
+      ],
+      "fr": [
+        "Transformer vite une idée ou capture en prototype éditable",
+        "Équipes produit et non-design concevant des écrans sans savoir Figma",
+        "Relier design et code avec Figma bidirectionnel et export de code",
+        "Laisser des agents IA rédiger ou éditer l'UI via le serveur MCP"
+      ]
+    },
+    "pros": {
+      "en": [
+        "Flexible prompting mixes screenshots, text and canvas selections",
+        "Two-way Figma sync fits into existing design workflows",
+        "Code export and an MCP server push it beyond static mockups",
+        "Low barrier for non-designers with a generous-ish free tier"
+      ],
+      "zh": [
+        "灵活的提示方式，可混合截图、文字与画布选区",
+        "Figma 双向同步，融入既有设计工作流",
+        "代码导出与 MCP 服务让它超越静态稿",
+        "对非设计师门槛低，免费档相对慷慨"
+      ],
+      "ja": [
+        "スクリーンショット・テキスト・選択を混ぜる柔軟なプロンプト",
+        "Figma双方向同期が既存の設計ワークフローに馴染む",
+        "コード書き出しとMCPサーバーで静的モックを超える",
+        "非デザイナーに敷居が低く、無料枠もそこそこ寛容"
+      ],
+      "es": [
+        "Prompting flexible que mezcla capturas, texto y selecciones del lienzo",
+        "Sincronización Figma bidireccional que encaja en flujos existentes",
+        "Exportación de código y servidor MCP lo llevan más allá de maquetas estáticas",
+        "Baja barrera para no diseñadores con un nivel gratis bastante generoso"
+      ],
+      "fr": [
+        "Prompting flexible mêlant captures, texte et sélections du canevas",
+        "Synchronisation Figma bidirectionnelle qui s'intègre aux flux existants",
+        "L'export de code et un serveur MCP le portent au-delà des maquettes statiques",
+        "Barrière basse pour non-designers avec un niveau gratuit plutôt généreux"
+      ]
+    },
+    "cons": {
+      "en": [
+        "AI credits are consumed quickly on heavier generation",
+        "Per-editor pricing adds up for larger teams",
+        "Not as deep as Figma for complex, mature design systems",
+        "Generated code is a starting point, not final production output"
+      ],
+      "zh": [
+        "重度生成时 AI 额度消耗很快",
+        "按编辑者计价，团队一大成本就上去了",
+        "面对复杂、成熟的设计系统，深度不及 Figma",
+        "生成的代码只是起点，并非最终生产产物"
+      ],
+      "ja": [
+        "生成が重いとAIクレジットの消費が速い",
+        "編集者ごとの課金は大規模チームで費用がかさむ",
+        "複雑で成熟したデザインシステムではFigmaほど深くない",
+        "生成コードは出発点で、最終的な本番出力ではない"
+      ],
+      "es": [
+        "Los créditos de IA se consumen rápido con generación intensa",
+        "El precio por editor se acumula en equipos grandes",
+        "No tan profundo como Figma para sistemas de diseño complejos y maduros",
+        "El código generado es un punto de partida, no la salida final de producción"
+      ],
+      "fr": [
+        "Les crédits IA se consomment vite en génération intensive",
+        "Le prix par éditeur s'accumule pour les grandes équipes",
+        "Moins profond que Figma pour des design systems complexes et matures",
+        "Le code généré est un point de départ, pas la sortie finale de production"
+      ]
+    },
+    "latestUpdate": {
+      "en": "2026: Visily's v4.0 line leaned into flexible prompting (screenshots, text and canvas selections), tightened two-way Figma sync, added code export and shipped an MCP server so AI agents and IDEs can generate and edit designs directly.",
+      "zh": "2026 年：Visily 的 v4.0 线路主打灵活提示（截图、文字与画布选区），强化 Figma 双向同步，新增代码导出，并推出 MCP 服务，让 AI 智能体与 IDE 可直接生成与编辑设计。",
+      "ja": "2026年：Visilyのv4.0系は柔軟なプロンプト（スクリーンショット・テキスト・キャンバス選択）に注力し、Figma双方向同期を強化、コード書き出しを追加、AIエージェントやIDEが直接デザインを生成・編集できるMCPサーバーを投入した。",
+      "es": "2026: La línea v4.0 de Visily apostó por el prompting flexible (capturas, texto y selecciones del lienzo), estrechó la sincronización bidireccional con Figma, añadió exportación de código y lanzó un servidor MCP para que agentes de IA e IDEs generen y editen diseños directamente.",
+      "fr": "2026 : La lignée v4.0 de Visily a misé sur le prompting flexible (captures, texte et sélections du canevas), resserré la synchronisation Figma bidirectionnelle, ajouté l'export de code et lancé un serveur MCP pour que les agents IA et IDE génèrent et éditent les designs directement."
+    },
+    "verdict": {
+      "badge": "Worth Trying",
+      "headline": {
+        "en": "AI UI design that plays nicely with Figma and code",
+        "zh": "与 Figma 和代码都合得来的 AI UI 设计",
+        "ja": "Figmaともコードとも仲良くやるAI UIデザイン",
+        "es": "Diseño UI con IA que se lleva bien con Figma y el código",
+        "fr": "Du design UI par IA qui s'entend bien avec Figma et le code"
+      },
+      "body": {
+        "en": "Visily aims at the same 'anyone can design' audience as Uizard, but leans harder into flexibility and interoperability. Its most useful trick is mixed prompting: you can feed it a screenshot, some text and a hand-drawn selection on the canvas all at once, and it generates editable wireframes or hi-fi prototypes from that blend rather than a single text box. Where it really earns attention, though, is the exits it gives you — two-way Figma sync so designs move between Visily and a pro tool without lock-in, code export for handing developers a head start, and an MCP server that lets AI agents and IDEs generate and edit designs programmatically. That combination makes it a comfortable bridge between non-designers, designers and engineers. The limits are familiar: AI credits vanish quickly under heavy use, per-editor pricing climbs for bigger teams, and it still isn't a substitute for Figma's depth on complex design systems, while its exported code is a starting point rather than finished production. But as a fast, flexible, well-connected way to get from idea to a prototype others can build on, Visily is well worth trying.",
+        "zh": "Visily 瞄准的是与 Uizard 相同的「人人都能设计」人群，但更用力地押注灵活性与互操作。它最有用的招数是混合提示：你可以同时喂给它一张截图、一段文字，以及画布上手绘的一块选区，它会从这种混合、而非单个文本框里生成可编辑线框或高保真原型。不过真正让它值得关注的，是它给你的「出口」——Figma 双向同步，让设计在 Visily 与专业工具间往返而不被锁定；代码导出，让开发者赢在起跑线；以及 MCP 服务，让 AI 智能体与 IDE 以编程方式生成与编辑设计。这套组合让它成为非设计师、设计师与工程师之间舒服的桥梁。局限也是老面孔：重度使用下 AI 额度消失得快，按编辑者计价对大团队会攀升，面对复杂设计系统它仍无法替代 Figma 的深度，导出的代码也只是起点而非成品。但作为一条又快、又灵活、又连得通、能把想法变成别人可以接着做的原型的路径，Visily 很值得一试。",
+        "ja": "VisilyはUizardと同じ「誰でもデザインできる」層を狙うが、柔軟性と相互運用性により強く傾いている。最も便利な技は混合プロンプトだ。スクリーンショット、テキスト、キャンバス上の手描き選択を一度に与えると、単一のテキストボックスではなくその混合から編集可能なワイヤーフレームや高精細プロトタイプを生成する。だが本当に注目に値するのは、それが与える「出口」だ——Figma双方向同期でロックインなくVisilyとプロツールの間を行き来し、コード書き出しで開発者に先行の利を与え、MCPサーバーでAIエージェントやIDEがプログラム的にデザインを生成・編集できる。この組み合わせが、非デザイナー・デザイナー・エンジニアの間の心地よい橋渡しにする。限界はおなじみだ。ヘビーユースではAIクレジットがすぐ消え、編集者ごとの課金は大チームで上がり、複雑なデザインシステムではFigmaの深さの代替にはならず、書き出したコードは成品ではなく出発点だ。しかし、速く柔軟で接続性が高く、アイデアを他者が続けて作れるプロトタイプに変える方法として、Visilyは試す価値が十分ある。",
+        "es": "Visily apunta al mismo público de 'cualquiera puede diseñar' que Uizard, pero apuesta más fuerte por la flexibilidad y la interoperabilidad. Su truco más útil es el prompting mixto: puedes darle una captura, algo de texto y una selección dibujada a mano en el lienzo a la vez, y genera wireframes editables o prototipos de alta fidelidad de esa mezcla en lugar de una sola caja de texto. Donde realmente gana atención, sin embargo, es en las salidas que te da — sincronización bidireccional con Figma para que los diseños se muevan entre Visily y una herramienta pro sin bloqueo, exportación de código para dar ventaja a los desarrolladores, y un servidor MCP que permite a agentes de IA e IDEs generar y editar diseños programáticamente. Esa combinación lo hace un puente cómodo entre no diseñadores, diseñadores e ingenieros. Los límites son conocidos: los créditos de IA se esfuman rápido con uso intenso, el precio por editor sube en equipos grandes, y aún no sustituye la profundidad de Figma en sistemas de diseño complejos, mientras que su código exportado es un punto de partida más que producción terminada. Pero como forma rápida, flexible y bien conectada de pasar de la idea a un prototipo sobre el que otros pueden construir, Visily bien vale la pena probar.",
+        "fr": "Visily vise le même public « tout le monde peut concevoir » qu'Uizard, mais mise davantage sur la flexibilité et l'interopérabilité. Son astuce la plus utile est le prompting mixte : vous pouvez lui donner une capture, du texte et une sélection dessinée à la main sur le canevas en même temps, et il génère des wireframes éditables ou des prototypes haute fidélité à partir de ce mélange plutôt que d'une seule zone de texte. Mais là où il retient vraiment l'attention, ce sont les sorties qu'il offre — synchronisation Figma bidirectionnelle pour que les designs circulent entre Visily et un outil pro sans verrouillage, export de code pour donner une longueur d'avance aux développeurs, et un serveur MCP qui laisse les agents IA et IDE générer et éditer les designs par programmation. Cette combinaison en fait un pont confortable entre non-designers, designers et ingénieurs. Les limites sont familières : les crédits IA disparaissent vite en usage intensif, le prix par éditeur grimpe pour les grandes équipes, et il ne remplace toujours pas la profondeur de Figma sur les design systems complexes, tandis que son code exporté est un point de départ plutôt qu'une production finie. Mais comme moyen rapide, flexible et bien connecté de passer de l'idée à un prototype sur lequel d'autres peuvent bâtir, Visily vaut vraiment l'essai."
+      },
+      "bestFor": {
+        "en": [
+          "Non-designers and product teams designing app screens fast",
+          "Teams wanting two-way Figma and code export in one flow",
+          "People wiring AI agents into design via an MCP server"
+        ],
+        "zh": [
+          "快速设计应用画面的非设计师与产品团队",
+          "希望在一条流程里兼得 Figma 双向与代码导出的团队",
+          "通过 MCP 服务把 AI 智能体接入设计的人"
+        ],
+        "ja": [
+          "アプリ画面を素早く設計する非デザイナーや製品チーム",
+          "一つの流れでFigma双方向とコード書き出しを両立したいチーム",
+          "MCPサーバー経由でAIエージェントをデザインに繋ぐ人"
+        ],
+        "es": [
+          "No diseñadores y equipos de producto que diseñan pantallas rápido",
+          "Equipos que quieren Figma bidireccional y exportación de código en un flujo",
+          "Quienes conectan agentes de IA al diseño vía un servidor MCP"
+        ],
+        "fr": [
+          "Non-designers et équipes produit concevant vite des écrans",
+          "Équipes voulant Figma bidirectionnel et export de code dans un flux",
+          "Ceux qui branchent des agents IA au design via un serveur MCP"
+        ]
+      },
+      "considerAlternatives": {
+        "en": [
+          "You need Figma-grade depth for complex, mature design systems (→ Figma)",
+          "You want the absolute lowest-friction, no-frills mockup tool (→ Uizard)"
+        ],
+        "zh": [
+          "面对复杂、成熟的设计系统，你需要 Figma 级的深度（→ Figma）",
+          "你想要门槛最低、最简单直接的原型工具（→ Uizard）"
+        ],
+        "ja": [
+          "複雑で成熟したデザインシステムにFigma級の深さが必要（→ Figma）",
+          "最も摩擦の少ない飾らないモックツールが欲しい（→ Uizard）"
+        ],
+        "es": [
+          "Necesitas profundidad nivel Figma para sistemas de diseño complejos y maduros (→ Figma)",
+          "Quieres la herramienta de maquetas con menos fricción y sin adornos (→ Uizard)"
+        ],
+        "fr": [
+          "Vous avez besoin d'une profondeur niveau Figma pour des design systems complexes et matures (→ Figma)",
+          "Vous voulez l'outil de maquette le plus simple et sans friction (→ Uizard)"
+        ]
+      }
+    },
+    "meta": {
+      "lastVerified": "2026-07-28",
+      "verdictDate": "2026-07-28",
+      "pricingVerified": "2026-07-28",
+      "pricingUrl": "https://www.visily.ai/pricing/"
+    }
   }
 }
