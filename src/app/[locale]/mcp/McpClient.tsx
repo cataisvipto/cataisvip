@@ -7,7 +7,7 @@ import Footer from '@/components/Footer';
 import Breadcrumb from '@/components/Breadcrumb';
 import { Link } from '@/i18n/navigation';
 import Image from 'next/image';
-import { Star, GitFork, ExternalLink, Plug } from 'lucide-react';
+import { Star, GitFork, Plug } from 'lucide-react';
 import type { FaqItem } from '@/components/FaqSection';
 
 export interface McpServer {
@@ -173,8 +173,9 @@ export default function McpClient({ servers, locale, starsMap }: McpClientProps)
         {/* MCP Servers Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {filtered.map((entry) => (
-            <article
+            <Link
               key={entry.slug}
+              href={`/mcp/${entry.slug}`}
               className="group relative bg-[var(--card-bg)] rounded-2xl border border-[var(--card-border)] p-5 hover:shadow-lg hover:border-[var(--primary)] transition-all duration-300 flex flex-col"
             >
               {/* Featured badge */}
@@ -185,7 +186,7 @@ export default function McpClient({ servers, locale, starsMap }: McpClientProps)
               )}
 
               {/* Header */}
-              <Link href={`/mcp/${entry.slug}`} className="flex items-start gap-3 mb-3 group/header">
+              <div className="flex items-start gap-3 mb-3">
                 <div className="w-12 h-12 rounded-xl bg-[var(--logo-tile-bg)] border border-[var(--card-border)] flex items-center justify-center overflow-hidden shrink-0 shadow-sm">
                   <Image
                     src={entry.logo}
@@ -197,19 +198,17 @@ export default function McpClient({ servers, locale, starsMap }: McpClientProps)
                   />
                 </div>
                 <div className="min-w-0 flex-1">
-                  <h3 className="font-semibold text-[var(--foreground)] truncate group-hover/header:text-[var(--primary)] transition">
+                  <h3 className="font-semibold text-[var(--foreground)] truncate group-hover:text-[var(--primary)] transition">
                     {displayName(entry)}
                   </h3>
                   <span className="text-xs text-[var(--muted)]">{tMcp(`categories.${entry.category}`)}</span>
                 </div>
-              </Link>
+              </div>
 
               {/* Description */}
-              <Link href={`/mcp/${entry.slug}`}>
-                <p className="text-sm text-[var(--muted)] leading-relaxed mb-3 flex-1 line-clamp-3 hover:text-[var(--foreground)] transition cursor-pointer">
-                  {getLocalizedMcpDescription(entry, locale)}
-                </p>
-              </Link>
+              <p className="text-sm text-[var(--muted)] leading-relaxed mb-3 flex-1 line-clamp-3">
+                {getLocalizedMcpDescription(entry, locale)}
+              </p>
 
               {/* Client badges */}
               <div className="flex flex-wrap gap-1.5 mb-2">
@@ -236,7 +235,7 @@ export default function McpClient({ servers, locale, starsMap }: McpClientProps)
               </div>
 
               {/* Repo + Stars */}
-              <div className="flex items-center gap-3 text-xs text-[var(--muted)] mb-3">
+              <div className="flex items-center gap-3 text-xs text-[var(--muted)]">
                 <span className="flex items-center gap-1 truncate">
                   <GitFork className="w-3 h-3 shrink-0" />
                   {entry.repo}
@@ -246,16 +245,7 @@ export default function McpClient({ servers, locale, starsMap }: McpClientProps)
                   {(starsMap?.[entry.slug] ?? entry.stars).toLocaleString()}
                 </span>
               </div>
-
-              {/* View Details Button */}
-              <Link
-                href={`/mcp/${entry.slug}`}
-                className="flex items-center justify-center gap-1.5 w-full py-2.5 bg-[var(--muted-bg)] hover:bg-[var(--primary)]/10 text-[var(--foreground)] hover:text-[var(--primary)] rounded-xl text-sm font-medium transition border border-[var(--card-border)] hover:border-[var(--primary)]"
-              >
-                {tMcp('viewDetails')}
-                <ExternalLink className="w-3.5 h-3.5" />
-              </Link>
-            </article>
+            </Link>
           ))}
         </div>
 
