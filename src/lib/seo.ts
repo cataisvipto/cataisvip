@@ -17,17 +17,20 @@ export type Locale = (typeof LOCALES)[number];
  *        设为必填是为了让新增页面若漏传 locale 时 `next build` 直接 TypeScript 报错，防止 canonical 退化为全部指向 /en。
  */
 export function generateAlternates(path: string, currentLocale: string) {
+  // 归一化：首页 path='/' 会拼出 /en/（尾斜杠），与实际 URL /en 不一致，
+  // 导致 Lighthouse canonical 审计失败（Points to another hreflang location），统一去掉尾斜杠
+  const normalizedPath = path === '/' ? '' : path.replace(/\/+$/, '');
   const languages: Record<string, string> = {};
   for (const locale of LOCALES) {
-    languages[locale] = `${BASE_URL}/${locale}${path}`;
+    languages[locale] = `${BASE_URL}/${locale}${normalizedPath}`;
   }
   // x-default 指向英文版，供未匹配语言的用户回退
-  languages['x-default'] = `${BASE_URL}/en${path}`;
+  languages['x-default'] = `${BASE_URL}/en${normalizedPath}`;
   const canonicalLocale = (LOCALES as readonly string[]).includes(currentLocale)
     ? currentLocale
     : 'en';
   return {
-    canonical: `${BASE_URL}/${canonicalLocale}${path}`,
+    canonical: `${BASE_URL}/${canonicalLocale}${normalizedPath}`,
     languages,
   };
 }

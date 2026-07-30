@@ -6,9 +6,6 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Breadcrumb from '@/components/Breadcrumb';
 import { Tool, PLATFORM_META, getLocalizedDescription } from '@/components/ToolCard';
-import toolDetails from '@/data/toolDetails.json';
-import tools from '@/data/tools.json';
-import blogPosts from '@/data/blogPosts.json';
 import { ExternalLink, Globe, Star, Building2, CheckCircle, XCircle, Lightbulb, DollarSign, Zap, Info, Share2, Link2, Check, Newspaper, BookOpen, Clipboard, LayoutGrid, Award, MonitorSmartphone } from 'lucide-react';
 import { TwitterIcon, LinkedinIcon, FacebookIcon } from '@/components/SocialIcons';
 import Newsletter from '@/components/Newsletter';
@@ -16,9 +13,22 @@ import LogoTile from '@/components/LogoTile';
 import { categoryToSlug } from '@/lib/categories';
 import { useState } from 'react';
 
+interface RelatedPost {
+  slug: string;
+  category: string;
+  title: unknown;
+  excerpt: unknown;
+}
+
 interface ToolDetailClientProps {
   tool: Tool;
   locale: string;
+  // 以下数据均由服务端 page.tsx 按 slug 预先筛选后传入，
+  // 避免客户端 import 整个 toolDetails.json/tools.json/blogPosts.json 撞大 bundle
+  details: unknown;
+  sameMaker: Tool[];
+  relatedTools: Tool[];
+  relatedPosts: RelatedPost[];
 }
 
 const TAG_COLORS: Record<string, string> = {
@@ -29,7 +39,7 @@ const TAG_COLORS: Record<string, string> = {
   'API': 'bg-purple-100 text-purple-700 dark:bg-purple-900/30 dark:text-purple-400',
 };
 
-export default function ToolDetailClient({ tool, locale }: ToolDetailClientProps) {
+export default function ToolDetailClient({ tool, locale, details: detailsProp, sameMaker, relatedTools, relatedPosts }: ToolDetailClientProps) {
   const t = useTranslations('common');
   const tCategories = useTranslations('categories');
   const tTags = useTranslations('tags');
@@ -37,7 +47,7 @@ export default function ToolDetailClient({ tool, locale }: ToolDetailClientProps
   const [copiedIndex, setCopiedIndex] = useState<string | null>(null);
   const description = getLocalizedDescription(tool, locale);
   const displayName = locale === 'zh' && tool.nameZh ? tool.nameZh : tool.name;
-  const details: any = (toolDetails as Record<string, Record<string, unknown>>)[tool.slug];
+  const details: any = detailsProp;
 
   // Supported Platforms：停服工具（Discontinued）不展示该模块；仅展示确认支持（true），false/"unknown" 不渲染
   const supportedPlatforms = tool.platforms && !tool.tags.includes('Discontinued')
@@ -75,27 +85,6 @@ export default function ToolDetailClient({ tool, locale }: ToolDetailClientProps
 
   // Related products from the same maker / platform (auto-derived from developer)
   const makerName = locale === 'zh' && tool.developerZh ? tool.developerZh : tool.developer;
-  const sameMaker = tool.developer
-    ? tools.filter((x) => x.developer && x.developer === tool.developer && x.slug !== tool.slug).slice(0, 4)
-    : [];
-  const sameMakerSlugs = new Set(sameMaker.map((x) => x.slug));
-
-  // Find related tools in the same category (exclude current tool and same-maker items)
-  const relatedTools = tools
-    .filter((t) => t.category === tool.category && t.slug !== tool.slug && !sameMakerSlugs.has(t.slug))
-    .slice(0, 4);
-
-  // Find related blog posts (tags match tool name/slug)，发布时间倒序（最新在前）
-  const relatedPosts = blogPosts.filter((post) => {
-    const postTags = (post.tags || []).map((t) => t.toLowerCase());
-    const toolName = tool.name.toLowerCase();
-    const toolSlug = tool.slug.toLowerCase();
-    return postTags.some(
-      (tag: string) => tag === toolName || tag === toolSlug || tag.includes(toolSlug)
-    );
-  })
-    .sort((a, b) => (a.publishedAt < b.publishedAt ? 1 : -1))
-    .slice(0, 3);
 
   const getLocalized = (field: unknown, loc: string): string | string[] => {
     if (typeof field === 'string') return field;

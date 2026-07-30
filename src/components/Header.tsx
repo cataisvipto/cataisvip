@@ -201,6 +201,7 @@ export default function Header({ searchQuery, onSearchChange, locale }: HeaderPr
             {/* Submit Button */}
             <Link
               href="/submit"
+              aria-label={t('nav.submit')}
               className="flex items-center gap-1.5 px-4 py-2 bg-gradient-to-r from-indigo-500 to-cyan-500 text-white text-sm font-medium rounded-full hover:opacity-90 transition shadow-sm"
             >
               <Send className="w-3.5 h-3.5" />

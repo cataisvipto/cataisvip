@@ -9,12 +9,12 @@
 :root {
   --background: #ffffff;
   --foreground: #0f172a;
-  --primary: #6366f1;
+  --primary: #5b5eee; /* 由 #6366f1 微加深：卡片底 #f8fafc 上对比度 4.69，满足 WCAG AA 4.5 */
   --primary-dark: #4f46e5;
   --accent: #06b6d4;
   --card-bg: #f8fafc;
   --card-border: #e2e8f0;
-  --muted: #64748b;
+  --muted: #60708a; /* 由 #64748b 微加深：最浅底 #f1f5f9 上对比度 4.58，满足 WCAG AA 4.5 */
   --muted-bg: #f1f5f9;
   --tag-free: #10b981;
   --tag-paid: #f59e0b;

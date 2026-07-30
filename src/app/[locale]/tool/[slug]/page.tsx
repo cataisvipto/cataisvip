@@ -2,6 +2,8 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import tools from '@/data/tools.json';
+import toolDetails from '@/data/toolDetails.json';
+import blogPosts from '@/data/blogPosts.json';
 import { Tool } from '@/components/ToolCard';
 import ToolDetailClient from './ToolDetailClient';
 import { routing } from '@/i18n/routing';
@@ -72,5 +74,46 @@ export default async function ToolDetailPage({ params }: Props) {
     notFound();
   }
 
-  return <ToolDetailClient tool={tool as Tool} locale={locale} />;
+  // 在服务端按 slug 取单条详情与关联数据，避免客户端组件 import 整个 toolDetails.json（原始 1.8MB）
+  // 被打进客户端 bundle（Lighthouse 报 670KiB 未使用 JS 的元凶）
+  const details = (toolDetails as Record<string, unknown>)[tool.slug] ?? null;
+
+  // 同厂商其它产品 + 同分类相关工具
+  const sameMaker = tool.developer
+    ? tools.filter((x) => x.developer && x.developer === tool.developer && x.slug !== tool.slug).slice(0, 4)
+    : [];
+  const sameMakerSlugs = new Set(sameMaker.map((x) => x.slug));
+  const relatedTools = tools
+    .filter((t) => t.category === tool.category && t.slug !== tool.slug && !sameMakerSlugs.has(t.slug))
+    .slice(0, 4);
+
+  // 关联博文（tags 匹配工具名/slug），发布时间倒序，只传渲染需要的字段
+  const relatedPosts = blogPosts
+    .filter((post) => {
+      const postTags = (post.tags || []).map((t: string) => t.toLowerCase());
+      const toolName = tool.name.toLowerCase();
+      const toolSlug = tool.slug.toLowerCase();
+      return postTags.some(
+        (tag: string) => tag === toolName || tag === toolSlug || tag.includes(toolSlug)
+      );
+    })
+    .sort((a, b) => (a.publishedAt < b.publishedAt ? 1 : -1))
+    .slice(0, 3)
+    .map((post) => ({
+      slug: post.slug,
+      category: post.category,
+      title: post.title,
+      excerpt: post.excerpt,
+    }));
+
+  return (
+    <ToolDetailClient
+      tool={tool as Tool}
+      locale={locale}
+      details={details}
+      sameMaker={sameMaker as Tool[]}
+      relatedTools={relatedTools as Tool[]}
+      relatedPosts={relatedPosts}
+    />
+  );
 }
