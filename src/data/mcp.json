@@ -11,13 +11,72 @@
     "developer": "Anthropic & MCP Community",
     "developerZh": "Anthropic 与 MCP 社区",
     "repo": "modelcontextprotocol/servers",
-    "clients": ["claude", "cursor", "vscode", "codex", "generic"],
+    "clients": [
+      "claude",
+      "cursor",
+      "vscode",
+      "codex",
+      "generic"
+    ],
     "category": "Official",
-    "tags": ["Free", "Open Source"],
+    "tags": [
+      "Free",
+      "Open Source"
+    ],
     "installCommand": "npx -y @modelcontextprotocol/server-filesystem <dir>",
     "logo": "/logos/mcp/mcp-official-servers.png",
     "stars": 89046,
-    "featured": true
+    "featured": true,
+    "faqs": [
+      {
+        "question": {
+          "zh": "MCP 官方参考服务器包含哪些能力？",
+          "en": "What do the official MCP reference servers include?",
+          "ja": "MCP 公式リファレンスサーバーには何が含まれますか？",
+          "es": "¿Qué incluyen los servidores de referencia oficiales de MCP?",
+          "fr": "Que contiennent les serveurs de référence officiels MCP ?"
+        },
+        "answer": {
+          "zh": "这是 Anthropic 与 MCP 社区维护的官方服务器集合，一个仓库里打包了文件系统、Git、内存、时间、抓取等多个即用服务器，是学习和验证 MCP 协议的第一站。",
+          "en": "It is the official collection maintained by Anthropic and the MCP community. One repository bundles ready-to-use servers for filesystem, Git, memory, time, fetch and more, making it the best starting point for learning MCP.",
+          "ja": "Anthropic と MCP コミュニティが管理する公式コレクションです。ファイルシステム、Git、メモリ、時刻、フェッチなどのすぐ使えるサーバーが 1 つのリポジトリにまとまっており、MCP 学習の出発点に最適です。",
+          "es": "Es la colección oficial mantenida por Anthropic y la comunidad MCP. Un solo repositorio agrupa servidores listos para usar de sistema de archivos, Git, memoria, tiempo y fetch, ideal para empezar con MCP.",
+          "fr": "C'est la collection officielle maintenue par Anthropic et la communauté MCP. Un seul dépôt regroupe des serveurs prêts à l'emploi : système de fichiers, Git, mémoire, temps, fetch, etc. Idéal pour débuter avec MCP."
+        }
+      },
+      {
+        "question": {
+          "zh": "怎么把官方参考服务器接入 Claude Code 或 Cursor？",
+          "en": "How do I add a reference server to Claude Code or Cursor?",
+          "ja": "リファレンスサーバーを Claude Code や Cursor に追加するには？",
+          "es": "¿Cómo añado un servidor de referencia a Claude Code o Cursor?",
+          "fr": "Comment ajouter un serveur de référence à Claude Code ou Cursor ?"
+        },
+        "answer": {
+          "zh": "每个服务器都发布为独立 npm 包，用 npx 一行启动，例如 npx -y @modelcontextprotocol/server-filesystem <目录>。在 Claude Code 里用 claude mcp add 注册，在 Cursor 里粘贴到 MCP 设置即可。",
+          "en": "Each server ships as its own npm package and starts with one npx line, e.g. npx -y @modelcontextprotocol/server-filesystem <dir>. Register it with claude mcp add in Claude Code, or paste it into the MCP settings in Cursor.",
+          "ja": "各サーバーは独立した npm パッケージとして公開され、npx 一行で起動できます（例：npx -y @modelcontextprotocol/server-filesystem <dir>）。Claude Code では claude mcp add で登録、Cursor では MCP 設定に貼り付けるだけです。",
+          "es": "Cada servidor se publica como paquete npm independiente y arranca con una línea de npx, p. ej. npx -y @modelcontextprotocol/server-filesystem <dir>. Regístralo con claude mcp add en Claude Code o pégalo en los ajustes MCP de Cursor.",
+          "fr": "Chaque serveur est publié comme paquet npm indépendant et se lance en une ligne npx, p. ex. npx -y @modelcontextprotocol/server-filesystem <dir>. Enregistrez-le avec claude mcp add dans Claude Code ou collez-le dans les réglages MCP de Cursor."
+        }
+      },
+      {
+        "question": {
+          "zh": "官方参考服务器免费吗？需要 API Key 吗？",
+          "en": "Are the reference servers free? Do they need an API key?",
+          "ja": "リファレンスサーバーは無料ですか？API キーは必要ですか？",
+          "es": "¿Los servidores de referencia son gratuitos? ¿Necesitan clave API?",
+          "fr": "Les serveurs de référence sont-ils gratuits ? Faut-il une clé API ?"
+        },
+        "answer": {
+          "zh": "完全免费开源（MIT 协议），文件系统、Git、内存等核心服务器都在本地运行，不需要任何 API Key，也不会把数据发送到第三方。",
+          "en": "Completely free and open source under the MIT license. Core servers like filesystem, Git and memory run locally, need no API key, and send no data to third parties.",
+          "ja": "MIT ライセンスで完全に無料・オープンソースです。ファイルシステム、Git、メモリなどのコアサーバーはローカルで動作し、API キー不要、サードパーティへのデータ送信もありません。",
+          "es": "Totalmente gratuito y de código abierto bajo licencia MIT. Los servidores principales como filesystem, Git y memoria funcionan en local, sin clave API y sin enviar datos a terceros.",
+          "fr": "Entièrement gratuit et open source sous licence MIT. Les serveurs principaux (fichiers, Git, mémoire) fonctionnent en local, sans clé API et sans envoyer de données à des tiers."
+        }
+      }
+    ]
   },
   {
     "slug": "github-mcp-server",
@@ -31,13 +90,72 @@
     "developer": "GitHub",
     "developerZh": "GitHub",
     "repo": "github/github-mcp-server",
-    "clients": ["claude", "cursor", "vscode", "codex", "generic"],
+    "clients": [
+      "claude",
+      "cursor",
+      "vscode",
+      "codex",
+      "generic"
+    ],
     "category": "Developer",
-    "tags": ["Free", "Open Source"],
+    "tags": [
+      "Free",
+      "Open Source"
+    ],
     "installCommand": "claude mcp add --transport http github https://api.githubcopilot.com/mcp/",
     "logo": "/logos/mcp/github-mcp-server.png",
     "stars": 31844,
-    "featured": true
+    "featured": true,
+    "faqs": [
+      {
+        "question": {
+          "zh": "GitHub MCP Server 能让 AI 做什么？",
+          "en": "What can AI agents do with the GitHub MCP Server?",
+          "ja": "GitHub MCP Server で AI エージェントは何ができますか？",
+          "es": "¿Qué pueden hacer los agentes de IA con GitHub MCP Server?",
+          "fr": "Que peuvent faire les agents IA avec le GitHub MCP Server ?"
+        },
+        "answer": {
+          "zh": "它是 GitHub 官方的 MCP 服务器，让 AI 智能体直接读写仓库、管理 Issue 和 Pull Request、查看 CI 运行结果、搜索代码，把整个 GitHub 工作流搬进对话里。",
+          "en": "It is GitHub's official MCP server. AI agents can read and write repositories, manage issues and pull requests, inspect CI runs and search code — bringing the whole GitHub workflow into the conversation.",
+          "ja": "GitHub 公式の MCP サーバーです。AI エージェントがリポジトリの読み書き、Issue や Pull Request の管理、CI 実行結果の確認、コード検索を行え、GitHub ワークフロー全体を会話に持ち込めます。",
+          "es": "Es el servidor MCP oficial de GitHub. Los agentes de IA pueden leer y escribir repositorios, gestionar issues y pull requests, revisar ejecuciones de CI y buscar código, llevando todo el flujo de GitHub a la conversación.",
+          "fr": "C'est le serveur MCP officiel de GitHub. Les agents IA peuvent lire et écrire des dépôts, gérer issues et pull requests, consulter les exécutions CI et rechercher du code — tout le flux GitHub dans la conversation."
+        }
+      },
+      {
+        "question": {
+          "zh": "怎么安装 GitHub MCP Server 到 Claude Code？",
+          "en": "How do I install the GitHub MCP Server in Claude Code?",
+          "ja": "GitHub MCP Server を Claude Code にインストールするには？",
+          "es": "¿Cómo instalo GitHub MCP Server en Claude Code?",
+          "fr": "Comment installer le GitHub MCP Server dans Claude Code ?"
+        },
+        "answer": {
+          "zh": "推荐远程接入：claude mcp add --transport http github https://api.githubcopilot.com/mcp/，随后按提示完成 GitHub OAuth 授权即可，无需本地部署；也可以用 Docker 跑本地版。",
+          "en": "The recommended way is the hosted endpoint: claude mcp add --transport http github https://api.githubcopilot.com/mcp/, then complete the GitHub OAuth flow. No local deployment needed; a Docker-based local version is also available.",
+          "ja": "推奨はリモート接続です：claude mcp add --transport http github https://api.githubcopilot.com/mcp/ を実行し、GitHub OAuth 認証を完了するだけ。ローカル展開は不要で、Docker によるローカル版も利用できます。",
+          "es": "La forma recomendada es el endpoint alojado: claude mcp add --transport http github https://api.githubcopilot.com/mcp/, y completar el OAuth de GitHub. No requiere despliegue local; también hay versión local con Docker.",
+          "fr": "La méthode recommandée est l'endpoint hébergé : claude mcp add --transport http github https://api.githubcopilot.com/mcp/, puis complétez l'OAuth GitHub. Pas de déploiement local requis ; une version locale via Docker existe aussi."
+        }
+      },
+      {
+        "question": {
+          "zh": "GitHub MCP Server 免费吗？",
+          "en": "Is the GitHub MCP Server free?",
+          "ja": "GitHub MCP Server は無料ですか？",
+          "es": "¿GitHub MCP Server es gratuito?",
+          "fr": "Le GitHub MCP Server est-il gratuit ?"
+        },
+        "answer": {
+          "zh": "服务器本身免费开源（MIT），托管端点对 GitHub 账号免费开放，权限跟随你的 GitHub 授权范围；操作私有仓库时注意为它配置最小必要权限。",
+          "en": "The server itself is free and open source (MIT). The hosted endpoint is free for GitHub accounts, with permissions following your GitHub authorization scope. Grant the minimum necessary access when working with private repositories.",
+          "ja": "サーバー自体は無料のオープンソース（MIT）です。ホスト版エンドポイントは GitHub アカウントで無料利用でき、権限は GitHub の認可範囲に従います。プライベートリポジトリでは最小限の権限設定を推奨します。",
+          "es": "El servidor es gratuito y de código abierto (MIT). El endpoint alojado es gratis con cuenta de GitHub y los permisos siguen tu ámbito de autorización. Concede el acceso mínimo necesario para repositorios privados.",
+          "fr": "Le serveur est gratuit et open source (MIT). L'endpoint hébergé est gratuit avec un compte GitHub, les permissions suivant votre périmètre d'autorisation. Accordez l'accès minimal nécessaire pour les dépôts privés."
+        }
+      }
+    ]
   },
   {
     "slug": "playwright-mcp",
@@ -51,13 +169,72 @@
     "developer": "Microsoft",
     "developerZh": "微软",
     "repo": "microsoft/playwright-mcp",
-    "clients": ["claude", "cursor", "vscode", "codex", "generic"],
+    "clients": [
+      "claude",
+      "cursor",
+      "vscode",
+      "codex",
+      "generic"
+    ],
     "category": "Browser",
-    "tags": ["Free", "Open Source"],
+    "tags": [
+      "Free",
+      "Open Source"
+    ],
     "installCommand": "npx @playwright/mcp@latest",
     "logo": "/logos/mcp/playwright-mcp.png",
     "stars": 35631,
-    "featured": true
+    "featured": true,
+    "faqs": [
+      {
+        "question": {
+          "zh": "Playwright MCP 和传统浏览器自动化有什么区别？",
+          "en": "How is Playwright MCP different from traditional browser automation?",
+          "ja": "Playwright MCP は従来のブラウザ自動化と何が違いますか？",
+          "es": "¿En qué se diferencia Playwright MCP de la automatización de navegador tradicional?",
+          "fr": "En quoi Playwright MCP diffère-t-il de l'automatisation de navigateur classique ?"
+        },
+        "answer": {
+          "zh": "它不靠截图和像素坐标，而是把页面的无障碍树（accessibility tree）作为结构化快照交给 AI，让智能体像读文档一样理解页面再点击、填表、导航，稳定性远高于视觉方案。",
+          "en": "Instead of screenshots and pixel coordinates, it feeds the page accessibility tree to the AI as a structured snapshot. Agents understand the page like a document before clicking, filling forms or navigating — far more reliable than vision-based approaches.",
+          "ja": "スクリーンショットやピクセル座標に頼らず、ページのアクセシビリティツリーを構造化スナップショットとして AI に渡します。エージェントはドキュメントのようにページを理解してからクリック・入力・遷移するため、視覚ベースの手法より遥かに安定しています。",
+          "es": "En lugar de capturas y coordenadas de píxeles, entrega el árbol de accesibilidad de la página como instantánea estructurada. El agente entiende la página como un documento antes de hacer clic, rellenar formularios o navegar; mucho más fiable que los enfoques visuales.",
+          "fr": "Au lieu de captures d'écran et de coordonnées de pixels, il transmet l'arbre d'accessibilité de la page comme instantané structuré. L'agent comprend la page comme un document avant de cliquer, remplir des formulaires ou naviguer — bien plus fiable que les approches visuelles."
+        }
+      },
+      {
+        "question": {
+          "zh": "怎么在 Cursor 或 Claude Code 里使用 Playwright MCP？",
+          "en": "How do I use Playwright MCP in Cursor or Claude Code?",
+          "ja": "Cursor や Claude Code で Playwright MCP を使うには？",
+          "es": "¿Cómo uso Playwright MCP en Cursor o Claude Code?",
+          "fr": "Comment utiliser Playwright MCP dans Cursor ou Claude Code ?"
+        },
+        "answer": {
+          "zh": "一条命令即可：npx @playwright/mcp@latest。Claude Code 用 claude mcp add playwright npx @playwright/mcp@latest 注册；Cursor 在 MCP 设置里添加同样的命令，首次运行会自动下载浏览器。",
+          "en": "One command: npx @playwright/mcp@latest. In Claude Code register it with claude mcp add playwright npx @playwright/mcp@latest; in Cursor add the same command in MCP settings. The browser downloads automatically on first run.",
+          "ja": "コマンド 1 つです：npx @playwright/mcp@latest。Claude Code では claude mcp add playwright npx @playwright/mcp@latest で登録、Cursor では MCP 設定に同じコマンドを追加します。初回実行時にブラウザが自動ダウンロードされます。",
+          "es": "Un solo comando: npx @playwright/mcp@latest. En Claude Code regístralo con claude mcp add playwright npx @playwright/mcp@latest; en Cursor añade el mismo comando en los ajustes MCP. El navegador se descarga automáticamente la primera vez.",
+          "fr": "Une seule commande : npx @playwright/mcp@latest. Dans Claude Code, enregistrez-le avec claude mcp add playwright npx @playwright/mcp@latest ; dans Cursor, ajoutez la même commande dans les réglages MCP. Le navigateur se télécharge au premier lancement."
+        }
+      },
+      {
+        "question": {
+          "zh": "Playwright MCP 是免费的吗？",
+          "en": "Is Playwright MCP free?",
+          "ja": "Playwright MCP は無料ですか？",
+          "es": "¿Playwright MCP es gratuito?",
+          "fr": "Playwright MCP est-il gratuit ?"
+        },
+        "answer": {
+          "zh": "免费开源（Apache-2.0），由微软官方维护，完全在本地运行浏览器，不需要 API Key，也没有任何付费墙。",
+          "en": "Free and open source (Apache-2.0), officially maintained by Microsoft. The browser runs entirely on your machine — no API key, no paywall.",
+          "ja": "無料のオープンソース（Apache-2.0）で、Microsoft が公式にメンテナンスしています。ブラウザは完全にローカルで動作し、API キーも課金もありません。",
+          "es": "Gratuito y de código abierto (Apache-2.0), mantenido oficialmente por Microsoft. El navegador se ejecuta totalmente en tu máquina: sin clave API ni muro de pago.",
+          "fr": "Gratuit et open source (Apache-2.0), maintenu officiellement par Microsoft. Le navigateur fonctionne entièrement en local — pas de clé API ni de paywall."
+        }
+      }
+    ]
   },
   {
     "slug": "chrome-devtools-mcp",
@@ -71,13 +248,72 @@
     "developer": "Chrome DevTools Team (Google)",
     "developerZh": "Chrome DevTools 团队（Google）",
     "repo": "ChromeDevTools/chrome-devtools-mcp",
-    "clients": ["claude", "cursor", "vscode", "codex", "generic"],
+    "clients": [
+      "claude",
+      "cursor",
+      "vscode",
+      "codex",
+      "generic"
+    ],
     "category": "Browser",
-    "tags": ["Free", "Open Source"],
+    "tags": [
+      "Free",
+      "Open Source"
+    ],
     "installCommand": "npx -y chrome-devtools-mcp@latest",
     "logo": "/logos/mcp/chrome-devtools-mcp.png",
     "stars": 47884,
-    "featured": true
+    "featured": true,
+    "faqs": [
+      {
+        "question": {
+          "zh": "Chrome DevTools MCP 适合什么场景？",
+          "en": "What is Chrome DevTools MCP best suited for?",
+          "ja": "Chrome DevTools MCP はどんな用途に向いていますか？",
+          "es": "¿Para qué escenarios es ideal Chrome DevTools MCP?",
+          "fr": "À quels usages Chrome DevTools MCP est-il le mieux adapté ?"
+        },
+        "answer": {
+          "zh": "它把 Chrome 开发者工具的能力开放给 AI：性能追踪、网络请求分析、控制台日志读取、Lighthouse 审计、页面调试。排查前端 Bug 和做性能优化时特别好用。",
+          "en": "It exposes Chrome DevTools capabilities to AI: performance tracing, network request analysis, console log reading, Lighthouse audits and page debugging. Especially useful for hunting front-end bugs and optimizing performance.",
+          "ja": "Chrome DevTools の機能を AI に開放します：パフォーマンストレース、ネットワーク分析、コンソールログの読み取り、Lighthouse 監査、ページデバッグ。フロントエンドのバグ調査やパフォーマンス最適化に特に有用です。",
+          "es": "Expone las capacidades de Chrome DevTools a la IA: trazado de rendimiento, análisis de peticiones de red, lectura de logs de consola, auditorías Lighthouse y depuración de páginas. Ideal para cazar bugs de frontend y optimizar rendimiento.",
+          "fr": "Il expose les capacités de Chrome DevTools à l'IA : traçage des performances, analyse des requêtes réseau, lecture des logs console, audits Lighthouse et débogage de pages. Particulièrement utile pour traquer les bugs front-end et optimiser les performances."
+        }
+      },
+      {
+        "question": {
+          "zh": "如何安装 Chrome DevTools MCP？",
+          "en": "How do I install Chrome DevTools MCP?",
+          "ja": "Chrome DevTools MCP をインストールするには？",
+          "es": "¿Cómo instalo Chrome DevTools MCP?",
+          "fr": "Comment installer Chrome DevTools MCP ?"
+        },
+        "answer": {
+          "zh": "运行 npx -y chrome-devtools-mcp@latest 即可，需要本机装有 Chrome。Claude Code、Cursor、VS Code 等客户端把这条命令加进 MCP 配置就能用。",
+          "en": "Just run npx -y chrome-devtools-mcp@latest — Chrome must be installed on your machine. Add this command to the MCP configuration of Claude Code, Cursor, VS Code or any other client.",
+          "ja": "npx -y chrome-devtools-mcp@latest を実行するだけです（ローカルに Chrome が必要）。Claude Code、Cursor、VS Code などのクライアントの MCP 設定にこのコマンドを追加すれば使えます。",
+          "es": "Solo ejecuta npx -y chrome-devtools-mcp@latest; necesitas Chrome instalado. Añade este comando a la configuración MCP de Claude Code, Cursor, VS Code o cualquier otro cliente.",
+          "fr": "Exécutez simplement npx -y chrome-devtools-mcp@latest — Chrome doit être installé sur votre machine. Ajoutez cette commande à la configuration MCP de Claude Code, Cursor, VS Code ou tout autre client."
+        }
+      },
+      {
+        "question": {
+          "zh": "Chrome DevTools MCP 需要付费或 API Key 吗？",
+          "en": "Does Chrome DevTools MCP require payment or an API key?",
+          "ja": "Chrome DevTools MCP に料金や API キーは必要ですか？",
+          "es": "¿Chrome DevTools MCP requiere pago o clave API?",
+          "fr": "Chrome DevTools MCP nécessite-t-il un paiement ou une clé API ?"
+        },
+        "answer": {
+          "zh": "不需要。它由 Google Chrome DevTools 团队维护，Apache-2.0 开源，直接驱动本地 Chrome，零成本、零密钥。",
+          "en": "No. Maintained by the Google Chrome DevTools team and open source under Apache-2.0, it drives your local Chrome directly — zero cost, zero keys.",
+          "ja": "不要です。Google Chrome DevTools チームがメンテナンスする Apache-2.0 のオープンソースで、ローカルの Chrome を直接操作します。コストもキーもゼロです。",
+          "es": "No. Mantenido por el equipo de Chrome DevTools de Google y de código abierto bajo Apache-2.0, controla tu Chrome local directamente: coste cero, sin claves.",
+          "fr": "Non. Maintenu par l'équipe Chrome DevTools de Google et open source sous Apache-2.0, il pilote directement votre Chrome local — zéro coût, zéro clé."
+        }
+      }
+    ]
   },
   {
     "slug": "context7",
@@ -91,13 +327,72 @@
     "developer": "Upstash",
     "developerZh": "Upstash",
     "repo": "upstash/context7",
-    "clients": ["claude", "cursor", "vscode", "windsurf", "generic"],
+    "clients": [
+      "claude",
+      "cursor",
+      "vscode",
+      "windsurf",
+      "generic"
+    ],
     "category": "Developer",
-    "tags": ["Free", "Open Source"],
+    "tags": [
+      "Free",
+      "Open Source"
+    ],
     "installCommand": "npx -y @upstash/context7-mcp",
     "logo": "/logos/mcp/context7.png",
     "stars": 59997,
-    "featured": true
+    "featured": true,
+    "faqs": [
+      {
+        "question": {
+          "zh": "Context7 解决什么问题？",
+          "en": "What problem does Context7 solve?",
+          "ja": "Context7 はどんな問題を解決しますか？",
+          "es": "¿Qué problema resuelve Context7?",
+          "fr": "Quel problème Context7 résout-il ?"
+        },
+        "answer": {
+          "zh": "AI 编码时经常用过时的库 API 写出跑不起来的代码。Context7 在提示词阶段实时注入所查库的最新版本文档和代码示例，从根上消灭\"训练数据过期\"导致的幻觉。",
+          "en": "AI coding assistants often hallucinate outdated library APIs. Context7 injects up-to-date, version-specific documentation and code examples straight into the prompt, eliminating stale-training-data hallucinations at the source.",
+          "ja": "AI コーディングでは古いライブラリ API による動かないコードがよく生成されます。Context7 はプロンプト段階で対象ライブラリの最新バージョンのドキュメントとコード例をリアルタイム注入し、「学習データの陳腐化」による幻覚を根本から解消します。",
+          "es": "Los asistentes de IA suelen alucinar con APIs de librerías obsoletas. Context7 inyecta documentación actualizada y específica de versión con ejemplos de código directamente en el prompt, eliminando de raíz las alucinaciones por datos de entrenamiento caducos.",
+          "fr": "Les assistants IA hallucinent souvent des API de bibliothèques obsolètes. Context7 injecte une documentation à jour et propre à la version, avec des exemples de code, directement dans le prompt — éliminant à la source les hallucinations dues aux données d'entraînement périmées."
+        }
+      },
+      {
+        "question": {
+          "zh": "怎么在 Cursor 里安装 Context7？",
+          "en": "How do I install Context7 in Cursor?",
+          "ja": "Cursor に Context7 をインストールするには？",
+          "es": "¿Cómo instalo Context7 en Cursor?",
+          "fr": "Comment installer Context7 dans Cursor ?"
+        },
+        "answer": {
+          "zh": "在 Cursor 的 MCP 设置里添加命令 npx -y @upstash/context7-mcp 即可；Claude Code 用 claude mcp add context7 -- npx -y @upstash/context7-mcp。使用时在提示词里加一句 use context7。",
+          "en": "Add the command npx -y @upstash/context7-mcp in Cursor MCP settings; for Claude Code use claude mcp add context7 -- npx -y @upstash/context7-mcp. Then just append \"use context7\" to your prompt.",
+          "ja": "Cursor の MCP 設定に npx -y @upstash/context7-mcp を追加するだけです。Claude Code では claude mcp add context7 -- npx -y @upstash/context7-mcp を使います。利用時はプロンプトに「use context7」と一言添えてください。",
+          "es": "Añade el comando npx -y @upstash/context7-mcp en los ajustes MCP de Cursor; en Claude Code usa claude mcp add context7 -- npx -y @upstash/context7-mcp. Luego solo añade \"use context7\" a tu prompt.",
+          "fr": "Ajoutez la commande npx -y @upstash/context7-mcp dans les réglages MCP de Cursor ; pour Claude Code, utilisez claude mcp add context7 -- npx -y @upstash/context7-mcp. Ensuite, ajoutez simplement « use context7 » à votre prompt."
+        }
+      },
+      {
+        "question": {
+          "zh": "Context7 免费吗？有请求限制吗？",
+          "en": "Is Context7 free? Are there rate limits?",
+          "ja": "Context7 は無料ですか？リクエスト制限はありますか？",
+          "es": "¿Context7 es gratuito? ¿Hay límites de peticiones?",
+          "fr": "Context7 est-il gratuit ? Y a-t-il des limites de requêtes ?"
+        },
+        "answer": {
+          "zh": "开源且免费使用，无需 API Key 即可开始；匿名请求有频率限制，到 context7.com 免费注册拿 Key 后限额更高。背后由 Upstash 官方维护。",
+          "en": "Open source and free to use — you can start without an API key. Anonymous requests are rate-limited; registering for a free key at context7.com raises the limit. Officially maintained by Upstash.",
+          "ja": "オープンソースで無料です。API キーなしで使い始められます。匿名リクエストにはレート制限があり、context7.com で無料登録してキーを取得すると上限が上がります。Upstash が公式メンテナンスしています。",
+          "es": "De código abierto y gratuito: puedes empezar sin clave API. Las peticiones anónimas tienen límite de frecuencia; registrarte gratis en context7.com para obtener una clave lo aumenta. Mantenido oficialmente por Upstash.",
+          "fr": "Open source et gratuit — vous pouvez commencer sans clé API. Les requêtes anonymes sont limitées en fréquence ; une clé gratuite obtenue sur context7.com relève la limite. Maintenu officiellement par Upstash."
+        }
+      }
+    ]
   },
   {
     "slug": "cloudflare-mcp",
@@ -111,13 +406,71 @@
     "developer": "Cloudflare",
     "developerZh": "Cloudflare",
     "repo": "cloudflare/mcp-server-cloudflare",
-    "clients": ["claude", "cursor", "vscode", "generic"],
+    "clients": [
+      "claude",
+      "cursor",
+      "vscode",
+      "generic"
+    ],
     "category": "Cloud",
-    "tags": ["Free", "Open Source"],
+    "tags": [
+      "Free",
+      "Open Source"
+    ],
     "installCommand": "npx mcp-remote https://docs.mcp.cloudflare.com/sse",
     "logo": "/logos/mcp/cloudflare-mcp.png",
     "stars": 4011,
-    "featured": false
+    "featured": false,
+    "faqs": [
+      {
+        "question": {
+          "zh": "Cloudflare MCP 提供哪些服务器？",
+          "en": "What servers does Cloudflare MCP provide?",
+          "ja": "Cloudflare MCP はどんなサーバーを提供しますか？",
+          "es": "¿Qué servidores ofrece Cloudflare MCP?",
+          "fr": "Quels serveurs Cloudflare MCP propose-t-il ?"
+        },
+        "answer": {
+          "zh": "Cloudflare 官方提供了一组托管 MCP 服务器：文档搜索、Workers 绑定、可观测性日志、Radar 流量洞察、浏览器渲染等十余个，按需接入即可让 AI 管理你的 Cloudflare 资源。",
+          "en": "Cloudflare officially hosts a suite of MCP servers — documentation search, Workers bindings, observability logs, Radar traffic insights, browser rendering and a dozen more. Connect the ones you need and let AI manage your Cloudflare resources.",
+          "ja": "Cloudflare はドキュメント検索、Workers バインディング、可観測性ログ、Radar トラフィック分析、ブラウザレンダリングなど十数種のホスト型 MCP サーバー群を公式提供しています。必要なものだけ接続して AI に Cloudflare リソースを管理させられます。",
+          "es": "Cloudflare aloja oficialmente un conjunto de servidores MCP: búsqueda de documentación, bindings de Workers, logs de observabilidad, análisis de tráfico Radar, renderizado de navegador y una docena más. Conecta los que necesites.",
+          "fr": "Cloudflare héberge officiellement une suite de serveurs MCP : recherche documentaire, bindings Workers, logs d'observabilité, analyses de trafic Radar, rendu de navigateur et une douzaine d'autres. Connectez ceux dont vous avez besoin."
+        }
+      },
+      {
+        "question": {
+          "zh": "怎么接入 Cloudflare 文档 MCP 服务器？",
+          "en": "How do I connect to the Cloudflare docs MCP server?",
+          "ja": "Cloudflare ドキュメント MCP サーバーに接続するには？",
+          "es": "¿Cómo me conecto al servidor MCP de documentación de Cloudflare?",
+          "fr": "Comment se connecter au serveur MCP de documentation Cloudflare ?"
+        },
+        "answer": {
+          "zh": "文档服务器是远程托管的，运行 npx mcp-remote https://docs.mcp.cloudflare.com/sse 即可桥接到任何 MCP 客户端；需要操作账号资源的服务器会引导你完成 Cloudflare OAuth 登录。",
+          "en": "The docs server is remotely hosted: run npx mcp-remote https://docs.mcp.cloudflare.com/sse to bridge it into any MCP client. Servers that touch account resources will walk you through Cloudflare OAuth login.",
+          "ja": "ドキュメントサーバーはリモートホスト型です。npx mcp-remote https://docs.mcp.cloudflare.com/sse を実行すれば任意の MCP クライアントに接続できます。アカウントリソースを扱うサーバーでは Cloudflare OAuth ログインが求められます。",
+          "es": "El servidor de docs está alojado remotamente: ejecuta npx mcp-remote https://docs.mcp.cloudflare.com/sse para conectarlo a cualquier cliente MCP. Los servidores que tocan recursos de cuenta te guiarán por el login OAuth de Cloudflare.",
+          "fr": "Le serveur de docs est hébergé à distance : exécutez npx mcp-remote https://docs.mcp.cloudflare.com/sse pour le relier à n'importe quel client MCP. Les serveurs touchant aux ressources du compte vous guideront via le login OAuth Cloudflare."
+        }
+      },
+      {
+        "question": {
+          "zh": "使用 Cloudflare MCP 需要付费账号吗？",
+          "en": "Do I need a paid Cloudflare account to use Cloudflare MCP?",
+          "ja": "Cloudflare MCP の利用に有料アカウントは必要ですか？",
+          "es": "¿Necesito una cuenta de pago de Cloudflare para usar Cloudflare MCP?",
+          "fr": "Faut-il un compte Cloudflare payant pour utiliser Cloudflare MCP ?"
+        },
+        "answer": {
+          "zh": "不需要。MCP 服务器本身免费开源，文档搜索等服务器无需账号即可用；管理类服务器只要有 Cloudflare 免费套餐账号就能连，能力范围跟随你的账号权限。",
+          "en": "No. The MCP servers themselves are free and open source. The docs server needs no account at all; management servers work with a free-tier Cloudflare account, with capabilities following your account permissions.",
+          "ja": "不要です。MCP サーバー自体は無料のオープンソースで、ドキュメント検索サーバーはアカウントなしで使えます。管理系サーバーも Cloudflare の無料プランで接続でき、権限はアカウントに準じます。",
+          "es": "No. Los servidores MCP son gratuitos y de código abierto. El servidor de docs no requiere cuenta; los de gestión funcionan con el plan gratuito de Cloudflare, con capacidades según tus permisos.",
+          "fr": "Non. Les serveurs MCP sont gratuits et open source. Le serveur de docs ne nécessite aucun compte ; les serveurs de gestion fonctionnent avec le plan gratuit de Cloudflare, selon vos permissions."
+        }
+      }
+    ]
   },
   {
     "slug": "supabase-mcp",
@@ -131,13 +484,73 @@
     "developer": "Supabase",
     "developerZh": "Supabase",
     "repo": "supabase/mcp",
-    "clients": ["claude", "cursor", "vscode", "windsurf", "generic"],
+    "clients": [
+      "claude",
+      "cursor",
+      "vscode",
+      "windsurf",
+      "generic"
+    ],
     "category": "Cloud",
-    "tags": ["Free", "Open Source", "API"],
+    "tags": [
+      "Free",
+      "Open Source",
+      "API"
+    ],
     "installCommand": "npx -y @supabase/mcp-server-supabase@latest",
     "logo": "/logos/mcp/supabase-mcp.png",
     "stars": 2843,
-    "featured": false
+    "featured": false,
+    "faqs": [
+      {
+        "question": {
+          "zh": "Supabase MCP 能帮 AI 做什么？",
+          "en": "What can AI do with the Supabase MCP server?",
+          "ja": "Supabase MCP で AI は何ができますか？",
+          "es": "¿Qué puede hacer la IA con el servidor MCP de Supabase?",
+          "fr": "Que peut faire l'IA avec le serveur MCP Supabase ?"
+        },
+        "answer": {
+          "zh": "它把你的 Supabase 项目接给 AI：查询和设计数据库表、执行 SQL、管理项目配置、拉取日志排障、生成 TypeScript 类型，适合全程在对话里完成后端开发。",
+          "en": "It connects your Supabase project to AI: querying and designing tables, running SQL, managing project config, fetching logs for debugging and generating TypeScript types — backend development without leaving the conversation.",
+          "ja": "Supabase プロジェクトを AI に接続します。テーブルの設計と照会、SQL 実行、プロジェクト設定の管理、ログ取得によるトラブルシューティング、TypeScript 型生成など、会話の中でバックエンド開発を完結できます。",
+          "es": "Conecta tu proyecto de Supabase a la IA: consultar y diseñar tablas, ejecutar SQL, gestionar la configuración, obtener logs para depurar y generar tipos TypeScript. Desarrollo backend sin salir de la conversación.",
+          "fr": "Il connecte votre projet Supabase à l'IA : interroger et concevoir des tables, exécuter du SQL, gérer la configuration, récupérer des logs pour déboguer et générer des types TypeScript — le développement backend sans quitter la conversation."
+        }
+      },
+      {
+        "question": {
+          "zh": "怎么安装 Supabase MCP？",
+          "en": "How do I install the Supabase MCP server?",
+          "ja": "Supabase MCP をインストールするには？",
+          "es": "¿Cómo instalo el servidor MCP de Supabase?",
+          "fr": "Comment installer le serveur MCP Supabase ?"
+        },
+        "answer": {
+          "zh": "在 MCP 客户端配置 npx -y @supabase/mcp-server-supabase@latest，并提供 Supabase 个人访问令牌（PAT）。建议加 --read-only 和 --project-ref 参数限定只读与单项目范围。",
+          "en": "Configure npx -y @supabase/mcp-server-supabase@latest in your MCP client and provide a Supabase personal access token (PAT). Adding --read-only and --project-ref flags to scope it to read-only, single-project access is recommended.",
+          "ja": "MCP クライアントに npx -y @supabase/mcp-server-supabase@latest を設定し、Supabase のパーソナルアクセストークン（PAT）を渡します。--read-only と --project-ref フラグで読み取り専用・単一プロジェクトに限定するのが推奨です。",
+          "es": "Configura npx -y @supabase/mcp-server-supabase@latest en tu cliente MCP y proporciona un token de acceso personal (PAT) de Supabase. Se recomienda añadir --read-only y --project-ref para limitarlo a solo lectura y un único proyecto.",
+          "fr": "Configurez npx -y @supabase/mcp-server-supabase@latest dans votre client MCP avec un jeton d'accès personnel (PAT) Supabase. Il est recommandé d'ajouter --read-only et --project-ref pour limiter l'accès en lecture seule à un seul projet."
+        }
+      },
+      {
+        "question": {
+          "zh": "Supabase MCP 在生产数据库上安全吗？",
+          "en": "Is the Supabase MCP server safe to use on production databases?",
+          "ja": "Supabase MCP は本番データベースで安全に使えますか？",
+          "es": "¿Es seguro usar el servidor MCP de Supabase en bases de datos de producción?",
+          "fr": "Le serveur MCP Supabase est-il sûr sur des bases de production ?"
+        },
+        "answer": {
+          "zh": "服务器免费开源，但官方建议不要直连生产库：优先在开发项目上使用，开启 --read-only，并只授予必要的项目范围，防止 AI 误操作破坏数据。",
+          "en": "The server is free and open source, but Supabase officially advises against pointing it at production: prefer development projects, enable --read-only, and grant only the necessary project scope to prevent accidental data damage by the AI.",
+          "ja": "サーバーは無料のオープンソースですが、公式は本番接続を推奨していません。開発プロジェクトでの利用を優先し、--read-only を有効にして必要最小限のプロジェクト範囲のみ許可することで、AI の誤操作によるデータ破損を防げます。",
+          "es": "El servidor es gratuito y de código abierto, pero Supabase desaconseja oficialmente conectarlo a producción: usa proyectos de desarrollo, activa --read-only y concede solo el ámbito necesario para evitar daños accidentales.",
+          "fr": "Le serveur est gratuit et open source, mais Supabase déconseille officiellement de le brancher sur la production : privilégiez les projets de développement, activez --read-only et n'accordez que le périmètre nécessaire pour éviter tout dégât accidentel."
+        }
+      }
+    ]
   },
   {
     "slug": "notion-mcp-server",
@@ -151,13 +564,72 @@
     "developer": "Notion",
     "developerZh": "Notion",
     "repo": "makenotion/notion-mcp-server",
-    "clients": ["claude", "cursor", "vscode", "generic"],
+    "clients": [
+      "claude",
+      "cursor",
+      "vscode",
+      "generic"
+    ],
     "category": "Productivity",
-    "tags": ["Free", "Open Source", "API"],
+    "tags": [
+      "Free",
+      "Open Source",
+      "API"
+    ],
     "installCommand": "npx -y @notionhq/notion-mcp-server",
     "logo": "/logos/mcp/notion-mcp-server.png",
     "stars": 4561,
-    "featured": false
+    "featured": false,
+    "faqs": [
+      {
+        "question": {
+          "zh": "Notion MCP Server 有什么用？",
+          "en": "What is the Notion MCP Server for?",
+          "ja": "Notion MCP Server は何に使えますか？",
+          "es": "¿Para qué sirve Notion MCP Server?",
+          "fr": "À quoi sert le Notion MCP Server ?"
+        },
+        "answer": {
+          "zh": "它是 Notion 官方的 MCP 服务器，让 AI 直接搜索、读取、创建和更新你的 Notion 页面与数据库——整理会议记录、维护知识库、批量更新任务都能在对话里完成。",
+          "en": "It is Notion's official MCP server, letting AI search, read, create and update your Notion pages and databases — organizing meeting notes, maintaining wikis and bulk-updating tasks all from the conversation.",
+          "ja": "Notion 公式の MCP サーバーです。AI が Notion のページやデータベースを直接検索・読み取り・作成・更新でき、議事録の整理、ナレッジベースの管理、タスクの一括更新まで会話の中で完結します。",
+          "es": "Es el servidor MCP oficial de Notion. Permite a la IA buscar, leer, crear y actualizar tus páginas y bases de datos de Notion: organizar notas de reuniones, mantener wikis y actualizar tareas en masa desde la conversación.",
+          "fr": "C'est le serveur MCP officiel de Notion. L'IA peut rechercher, lire, créer et mettre à jour vos pages et bases de données Notion — organiser des comptes rendus, maintenir des wikis et mettre à jour des tâches en masse depuis la conversation."
+        }
+      },
+      {
+        "question": {
+          "zh": "怎么把 Notion 接入 Claude 或 Cursor？",
+          "en": "How do I connect Notion to Claude or Cursor?",
+          "ja": "Notion を Claude や Cursor に接続するには？",
+          "es": "¿Cómo conecto Notion a Claude o Cursor?",
+          "fr": "Comment connecter Notion à Claude ou Cursor ?"
+        },
+        "answer": {
+          "zh": "在 MCP 配置里加入 npx -y @notionhq/notion-mcp-server，环境变量提供 Notion 集成令牌（在 notion.so/profile/integrations 创建），再把要操作的页面分享给该集成即可。",
+          "en": "Add npx -y @notionhq/notion-mcp-server to your MCP config with a Notion integration token (created at notion.so/profile/integrations) as an environment variable, then share the target pages with that integration.",
+          "ja": "MCP 設定に npx -y @notionhq/notion-mcp-server を追加し、環境変数で Notion インテグレーショントークン（notion.so/profile/integrations で作成）を渡します。操作したいページをそのインテグレーションに共有すれば完了です。",
+          "es": "Añade npx -y @notionhq/notion-mcp-server a tu configuración MCP con un token de integración de Notion (creado en notion.so/profile/integrations) como variable de entorno, y comparte las páginas objetivo con esa integración.",
+          "fr": "Ajoutez npx -y @notionhq/notion-mcp-server à votre configuration MCP avec un jeton d'intégration Notion (créé sur notion.so/profile/integrations) en variable d'environnement, puis partagez les pages cibles avec cette intégration."
+        }
+      },
+      {
+        "question": {
+          "zh": "Notion MCP Server 免费吗？",
+          "en": "Is the Notion MCP Server free?",
+          "ja": "Notion MCP Server は無料ですか？",
+          "es": "¿Notion MCP Server es gratuito?",
+          "fr": "Le Notion MCP Server est-il gratuit ?"
+        },
+        "answer": {
+          "zh": "服务器免费开源（MIT），Notion 免费个人版账号即可创建集成令牌使用；AI 能访问的内容严格限于你分享给集成的页面，权限完全可控。",
+          "en": "The server is free and open source (MIT), and a free personal Notion account can create integration tokens. The AI can only access pages you explicitly share with the integration, keeping permissions fully under your control.",
+          "ja": "サーバーは無料のオープンソース（MIT）で、Notion の無料個人アカウントでもインテグレーショントークンを作成できます。AI がアクセスできるのは共有したページのみで、権限は完全にコントロールできます。",
+          "es": "El servidor es gratuito y de código abierto (MIT), y una cuenta personal gratuita de Notion puede crear tokens de integración. La IA solo accede a las páginas que compartas explícitamente, con permisos totalmente bajo tu control.",
+          "fr": "Le serveur est gratuit et open source (MIT), et un compte Notion personnel gratuit suffit pour créer un jeton d'intégration. L'IA n'accède qu'aux pages explicitement partagées — les permissions restent sous votre contrôle."
+        }
+      }
+    ]
   },
   {
     "slug": "firecrawl-mcp",
@@ -171,13 +643,73 @@
     "developer": "Firecrawl (Mendable)",
     "developerZh": "Firecrawl（Mendable）",
     "repo": "firecrawl/firecrawl-mcp-server",
-    "clients": ["claude", "cursor", "vscode", "windsurf", "generic"],
+    "clients": [
+      "claude",
+      "cursor",
+      "vscode",
+      "windsurf",
+      "generic"
+    ],
     "category": "Data",
-    "tags": ["Free", "Open Source", "API"],
+    "tags": [
+      "Free",
+      "Open Source",
+      "API"
+    ],
     "installCommand": "env FIRECRAWL_API_KEY=<key> npx -y firecrawl-mcp",
     "logo": "/logos/mcp/firecrawl-mcp.png",
     "stars": 7079,
-    "featured": false
+    "featured": false,
+    "faqs": [
+      {
+        "question": {
+          "zh": "Firecrawl MCP 和普通网页抓取有什么不同？",
+          "en": "How is Firecrawl MCP different from ordinary web scraping?",
+          "ja": "Firecrawl MCP は通常のウェブスクレイピングと何が違いますか？",
+          "es": "¿En qué se diferencia Firecrawl MCP del scraping web ordinario?",
+          "fr": "En quoi Firecrawl MCP diffère-t-il du scraping web ordinaire ?"
+        },
+        "answer": {
+          "zh": "它专为 LLM 设计：抓取后直接输出干净的 Markdown，支持 JS 渲染页面、全站爬取、搜索和结构化提取，AI 拿到的是可直接引用的内容而不是原始 HTML。",
+          "en": "It is built for LLMs: scraped pages come back as clean Markdown, with support for JS-rendered pages, full-site crawling, search and structured extraction. The AI gets citation-ready content instead of raw HTML.",
+          "ja": "LLM 専用設計です。取得したページはクリーンな Markdown で返され、JS レンダリングページ、サイト全体のクロール、検索、構造化抽出に対応。AI は生の HTML ではなくそのまま使えるコンテンツを受け取ります。",
+          "es": "Está diseñado para LLM: las páginas raspadas vuelven como Markdown limpio, con soporte para páginas renderizadas con JS, rastreo de sitios completos, búsqueda y extracción estructurada. La IA recibe contenido listo para citar, no HTML crudo.",
+          "fr": "Il est conçu pour les LLM : les pages récupérées reviennent en Markdown propre, avec prise en charge des pages rendues en JS, du crawl de sites entiers, de la recherche et de l'extraction structurée. L'IA reçoit du contenu prêt à citer, pas du HTML brut."
+        }
+      },
+      {
+        "question": {
+          "zh": "怎么安装 Firecrawl MCP？",
+          "en": "How do I install Firecrawl MCP?",
+          "ja": "Firecrawl MCP をインストールするには？",
+          "es": "¿Cómo instalo Firecrawl MCP?",
+          "fr": "Comment installer Firecrawl MCP ?"
+        },
+        "answer": {
+          "zh": "先在 firecrawl.dev 注册获取 API Key，然后在 MCP 配置中运行 env FIRECRAWL_API_KEY=<key> npx -y firecrawl-mcp。Cursor、Claude Code、Windsurf、VS Code 全都支持。",
+          "en": "Sign up at firecrawl.dev for an API key, then run env FIRECRAWL_API_KEY=<key> npx -y firecrawl-mcp in your MCP configuration. Cursor, Claude Code, Windsurf and VS Code are all supported.",
+          "ja": "まず firecrawl.dev で登録して API キーを取得し、MCP 設定で env FIRECRAWL_API_KEY=<key> npx -y firecrawl-mcp を実行します。Cursor、Claude Code、Windsurf、VS Code すべてに対応しています。",
+          "es": "Regístrate en firecrawl.dev para obtener una clave API y ejecuta env FIRECRAWL_API_KEY=<key> npx -y firecrawl-mcp en tu configuración MCP. Cursor, Claude Code, Windsurf y VS Code están soportados.",
+          "fr": "Inscrivez-vous sur firecrawl.dev pour obtenir une clé API, puis exécutez env FIRECRAWL_API_KEY=<key> npx -y firecrawl-mcp dans votre configuration MCP. Cursor, Claude Code, Windsurf et VS Code sont tous pris en charge."
+        }
+      },
+      {
+        "question": {
+          "zh": "Firecrawl 需要付费吗？",
+          "en": "Does Firecrawl cost money?",
+          "ja": "Firecrawl は有料ですか？",
+          "es": "¿Firecrawl es de pago?",
+          "fr": "Firecrawl est-il payant ?"
+        },
+        "answer": {
+          "zh": "MCP 服务器本身开源免费，但抓取走 Firecrawl 云端 API：免费套餐送一次性 500 积分额度，足够轻量使用；大量抓取需按积分付费订阅，也可以自托管开源版。",
+          "en": "The MCP server itself is open source and free, but scraping runs through the Firecrawl cloud API: the free plan includes a one-time 500-credit allowance, enough for light use. Heavy crawling requires a paid credit plan, or you can self-host the open-source version.",
+          "ja": "MCP サーバー自体はオープンソースで無料ですが、スクレイピングは Firecrawl クラウド API 経由です。無料プランには 500 クレジットの一回限りの枠があり、軽い用途には十分。大量クロールには有料プランが必要ですが、オープンソース版のセルフホストも可能です。",
+          "es": "El servidor MCP es de código abierto y gratuito, pero el scraping pasa por la API en la nube de Firecrawl: el plan gratuito incluye 500 créditos únicos, suficientes para uso ligero. El rastreo intensivo requiere plan de pago, o puedes autoalojar la versión open source.",
+          "fr": "Le serveur MCP est open source et gratuit, mais le scraping passe par l'API cloud Firecrawl : le plan gratuit inclut 500 crédits uniques, suffisants pour un usage léger. Le crawl intensif nécessite un plan payant, ou vous pouvez auto-héberger la version open source."
+        }
+      }
+    ]
   },
   {
     "slug": "serena",
@@ -191,13 +723,71 @@
     "developer": "Oraios AI",
     "developerZh": "Oraios AI",
     "repo": "oraios/serena",
-    "clients": ["claude", "codex", "cursor", "generic"],
+    "clients": [
+      "claude",
+      "codex",
+      "cursor",
+      "generic"
+    ],
     "category": "Developer",
-    "tags": ["Free", "Open Source"],
+    "tags": [
+      "Free",
+      "Open Source"
+    ],
     "installCommand": "uvx --from git+https://github.com/oraios/serena serena start-mcp-server",
     "logo": "/logos/mcp/serena.png",
     "stars": 27203,
-    "featured": true
+    "featured": true,
+    "faqs": [
+      {
+        "question": {
+          "zh": "Serena 为什么能提升 AI 编码效率？",
+          "en": "Why does Serena make AI coding more efficient?",
+          "ja": "Serena はなぜ AI コーディングを効率化できるのですか？",
+          "es": "¿Por qué Serena hace más eficiente la codificación con IA?",
+          "fr": "Pourquoi Serena rend-elle le codage par IA plus efficace ?"
+        },
+        "answer": {
+          "zh": "它给 AI 装上了 IDE 级的语义检索与编辑能力：基于语言服务器（LSP）按符号精准定位和修改代码，不用把整个文件塞进上下文，大项目里省 token 又准确。",
+          "en": "It gives AI IDE-grade semantic retrieval and editing: powered by language servers (LSP), it locates and edits code at the symbol level, so whole files never need to be stuffed into context — saving tokens and improving accuracy in large projects.",
+          "ja": "AI に IDE 級のセマンティック検索・編集能力を与えます。言語サーバー（LSP）を基盤にシンボル単位でコードを正確に特定・修正するため、ファイル全体をコンテキストに詰め込む必要がなく、大規模プロジェクトでトークンを節約しつつ精度も向上します。",
+          "es": "Da a la IA recuperación y edición semántica de nivel IDE: basada en servidores de lenguaje (LSP), localiza y edita código a nivel de símbolo, sin meter archivos enteros en el contexto. Ahorra tokens y gana precisión en proyectos grandes.",
+          "fr": "Elle donne à l'IA des capacités de recherche et d'édition sémantiques dignes d'un IDE : basée sur les serveurs de langage (LSP), elle localise et modifie le code au niveau du symbole, sans charger des fichiers entiers dans le contexte — économie de tokens et précision accrue sur les grands projets."
+        }
+      },
+      {
+        "question": {
+          "zh": "怎么安装 Serena？",
+          "en": "How do I install Serena?",
+          "ja": "Serena をインストールするには？",
+          "es": "¿Cómo instalo Serena?",
+          "fr": "Comment installer Serena ?"
+        },
+        "answer": {
+          "zh": "需要 Python 的 uv 工具：uvx --from git+https://github.com/oraios/serena serena start-mcp-server。Claude Code 里用 claude mcp add serena 注册这条命令即可，支持几十种主流语言。",
+          "en": "It needs Python's uv tool: uvx --from git+https://github.com/oraios/serena serena start-mcp-server. In Claude Code, register that command via claude mcp add serena. Dozens of mainstream languages are supported.",
+          "ja": "Python の uv ツールが必要です：uvx --from git+https://github.com/oraios/serena serena start-mcp-server。Claude Code では claude mcp add serena でこのコマンドを登録すれば完了。主要な数十言語に対応しています。",
+          "es": "Necesita la herramienta uv de Python: uvx --from git+https://github.com/oraios/serena serena start-mcp-server. En Claude Code, registra ese comando con claude mcp add serena. Soporta decenas de lenguajes principales.",
+          "fr": "Elle nécessite l'outil uv de Python : uvx --from git+https://github.com/oraios/serena serena start-mcp-server. Dans Claude Code, enregistrez cette commande via claude mcp add serena. Des dizaines de langages majeurs sont pris en charge."
+        }
+      },
+      {
+        "question": {
+          "zh": "Serena 免费吗？会上传我的代码吗？",
+          "en": "Is Serena free? Does it upload my code?",
+          "ja": "Serena は無料ですか？コードはアップロードされますか？",
+          "es": "¿Serena es gratuita? ¿Sube mi código?",
+          "fr": "Serena est-elle gratuite ? Téléverse-t-elle mon code ?"
+        },
+        "answer": {
+          "zh": "完全免费开源（MIT），由 Oraios AI 维护。所有语义分析都在本地语言服务器里完成，代码不会被上传到任何第三方服务。",
+          "en": "Completely free and open source (MIT), maintained by Oraios AI. All semantic analysis happens in local language servers — your code is never uploaded to any third-party service.",
+          "ja": "完全無料のオープンソース（MIT）で、Oraios AI がメンテナンスしています。セマンティック解析はすべてローカルの言語サーバー内で行われ、コードが第三者サービスにアップロードされることはありません。",
+          "es": "Totalmente gratuita y de código abierto (MIT), mantenida por Oraios AI. Todo el análisis semántico ocurre en servidores de lenguaje locales: tu código nunca se sube a servicios de terceros.",
+          "fr": "Entièrement gratuite et open source (MIT), maintenue par Oraios AI. Toute l'analyse sémantique se fait dans des serveurs de langage locaux — votre code n'est jamais envoyé à un service tiers."
+        }
+      }
+    ]
   },
   {
     "slug": "blender-mcp",
@@ -211,13 +801,70 @@
     "developer": "Siddharth Ahuja",
     "developerZh": "Siddharth Ahuja",
     "repo": "ahujasid/blender-mcp",
-    "clients": ["claude", "cursor", "generic"],
+    "clients": [
+      "claude",
+      "cursor",
+      "generic"
+    ],
     "category": "Design",
-    "tags": ["Free", "Open Source"],
+    "tags": [
+      "Free",
+      "Open Source"
+    ],
     "installCommand": "uvx blender-mcp",
     "logo": "/logos/mcp/blender-mcp.png",
     "stars": 25137,
-    "featured": false
+    "featured": false,
+    "faqs": [
+      {
+        "question": {
+          "zh": "Blender MCP 能做什么？",
+          "en": "What can Blender MCP do?",
+          "ja": "Blender MCP で何ができますか？",
+          "es": "¿Qué puede hacer Blender MCP?",
+          "fr": "Que peut faire Blender MCP ?"
+        },
+        "answer": {
+          "zh": "它把 Claude 等 AI 直连 Blender：用自然语言建模、打材质、布置场景、执行任意 Blender Python 脚本，还能调用 Poly Haven 免费素材库，把口头描述直接变成 3D 场景。",
+          "en": "It wires Claude and other AIs straight into Blender: model, texture and stage scenes with natural language, run arbitrary Blender Python scripts, and pull free assets from Poly Haven — turning verbal descriptions into 3D scenes.",
+          "ja": "Claude などの AI を Blender に直結します。自然言語でモデリング、マテリアル設定、シーン構築、任意の Blender Python スクリプト実行が可能で、Poly Haven の無料アセットも呼び出せます。言葉の描写がそのまま 3D シーンになります。",
+          "es": "Conecta Claude y otras IA directamente con Blender: modelar, texturizar y montar escenas con lenguaje natural, ejecutar scripts Python de Blender y usar recursos gratuitos de Poly Haven. Descripciones verbales convertidas en escenas 3D.",
+          "fr": "Il relie Claude et d'autres IA directement à Blender : modéliser, texturer et composer des scènes en langage naturel, exécuter des scripts Python Blender et puiser dans les ressources gratuites de Poly Haven — vos descriptions deviennent des scènes 3D."
+        }
+      },
+      {
+        "question": {
+          "zh": "怎么安装 Blender MCP？",
+          "en": "How do I set up Blender MCP?",
+          "ja": "Blender MCP をセットアップするには？",
+          "es": "¿Cómo configuro Blender MCP?",
+          "fr": "Comment configurer Blender MCP ?"
+        },
+        "answer": {
+          "zh": "两步：① 在 Blender 里安装配套 addon.py 插件并启动连接；② 在 MCP 客户端配置 uvx blender-mcp（需要 Python 的 uv 工具）。需要 Blender 3.0 以上版本。",
+          "en": "Two steps: 1) install the companion addon.py in Blender and start the connection; 2) configure uvx blender-mcp in your MCP client (requires the uv tool for Python). Blender 3.0+ is required.",
+          "ja": "2 ステップです。① Blender に付属の addon.py をインストールして接続を開始、② MCP クライアントに uvx blender-mcp を設定（Python の uv ツールが必要）。Blender 3.0 以上が必要です。",
+          "es": "Dos pasos: 1) instala el addon.py complementario en Blender e inicia la conexión; 2) configura uvx blender-mcp en tu cliente MCP (requiere la herramienta uv de Python). Se necesita Blender 3.0 o superior.",
+          "fr": "Deux étapes : 1) installez l'addon.py dans Blender et démarrez la connexion ; 2) configurez uvx blender-mcp dans votre client MCP (nécessite l'outil uv de Python). Blender 3.0+ est requis."
+        }
+      },
+      {
+        "question": {
+          "zh": "Blender MCP 免费吗？",
+          "en": "Is Blender MCP free?",
+          "ja": "Blender MCP は無料ですか？",
+          "es": "¿Blender MCP es gratuito?",
+          "fr": "Blender MCP est-il gratuit ?"
+        },
+        "answer": {
+          "zh": "免费开源（MIT），Blender 本身也是免费软件，全程零成本。它是社区最火的创意类 MCP 服务器之一，GitHub 星数超过两万五。",
+          "en": "Free and open source (MIT) — and Blender itself is free software, so the whole stack costs nothing. It is one of the most popular creative MCP servers, with over 25,000 GitHub stars.",
+          "ja": "無料のオープンソース（MIT）で、Blender 自体も無料ソフトウェアなので全工程ゼロコストです。GitHub スター 2.5 万超の、最も人気のあるクリエイティブ系 MCP サーバーの一つです。",
+          "es": "Gratuito y de código abierto (MIT), y Blender también es software libre: todo el conjunto cuesta cero. Es uno de los servidores MCP creativos más populares, con más de 25 000 estrellas en GitHub.",
+          "fr": "Gratuit et open source (MIT) — Blender lui-même est un logiciel libre, donc l'ensemble ne coûte rien. C'est l'un des serveurs MCP créatifs les plus populaires, avec plus de 25 000 étoiles GitHub."
+        }
+      }
+    ]
   },
   {
     "slug": "figma-context-mcp",
@@ -231,12 +878,71 @@
     "developer": "Graham Lipsman",
     "developerZh": "Graham Lipsman",
     "repo": "GLips/Figma-Context-MCP",
-    "clients": ["cursor", "claude", "windsurf", "generic"],
+    "clients": [
+      "cursor",
+      "claude",
+      "windsurf",
+      "generic"
+    ],
     "category": "Design",
-    "tags": ["Free", "Open Source", "API"],
+    "tags": [
+      "Free",
+      "Open Source",
+      "API"
+    ],
     "installCommand": "npx -y figma-developer-mcp --figma-api-key=<key> --stdio",
     "logo": "/logos/mcp/figma-context-mcp.png",
     "stars": 15543,
-    "featured": false
+    "featured": false,
+    "faqs": [
+      {
+        "question": {
+          "zh": "Figma Context MCP 怎么提升设计稿还原度？",
+          "en": "How does Figma Context MCP improve design-to-code fidelity?",
+          "ja": "Figma Context MCP はデザイン再現度をどう高めますか？",
+          "es": "¿Cómo mejora Figma Context MCP la fidelidad del diseño al código?",
+          "fr": "Comment Figma Context MCP améliore-t-il la fidélité du design au code ?"
+        },
+        "answer": {
+          "zh": "它不给 AI 截图，而是读取 Figma API 返回的布局、颜色、字体等设计元数据，压缩简化后交给模型。相比看图写码，AI 拿到的是精确数值，一次性还原设计稿的准确率显著更高。",
+          "en": "Instead of screenshots, it reads layout, color and typography metadata from the Figma API, simplifies it and hands it to the model. With exact values instead of pixel guessing, one-shot design implementation accuracy improves dramatically.",
+          "ja": "スクリーンショットではなく、Figma API から取得したレイアウト・色・タイポグラフィのメタデータを簡約化してモデルに渡します。画像からの推測ではなく正確な数値を得られるため、デザインの一発再現精度が大幅に向上します。",
+          "es": "En lugar de capturas, lee metadatos de diseño (layout, colores, tipografía) de la API de Figma, los simplifica y los entrega al modelo. Con valores exactos en vez de adivinar píxeles, la precisión de implementación en un solo intento mejora notablemente.",
+          "fr": "Au lieu de captures d'écran, il lit les métadonnées de mise en page, couleurs et typographie via l'API Figma, les simplifie et les transmet au modèle. Avec des valeurs exactes plutôt que des suppositions, la fidélité d'implémentation en une passe s'améliore nettement."
+        }
+      },
+      {
+        "question": {
+          "zh": "怎么在 Cursor 里配置 Figma Context MCP？",
+          "en": "How do I configure Figma Context MCP in Cursor?",
+          "ja": "Cursor で Figma Context MCP を設定するには？",
+          "es": "¿Cómo configuro Figma Context MCP en Cursor?",
+          "fr": "Comment configurer Figma Context MCP dans Cursor ?"
+        },
+        "answer": {
+          "zh": "在 Figma 账号设置里生成个人访问令牌，然后在 Cursor 的 MCP 配置加入 npx -y figma-developer-mcp --figma-api-key=<key> --stdio。使用时把 Figma 文件或选区链接粘给 AI 即可。",
+          "en": "Generate a personal access token in your Figma account settings, then add npx -y figma-developer-mcp --figma-api-key=<key> --stdio to Cursor MCP config. To use it, just paste a Figma file or selection link to the AI.",
+          "ja": "Figma のアカウント設定でパーソナルアクセストークンを生成し、Cursor の MCP 設定に npx -y figma-developer-mcp --figma-api-key=<key> --stdio を追加します。使うときは Figma のファイルや選択範囲のリンクを AI に貼るだけです。",
+          "es": "Genera un token de acceso personal en los ajustes de tu cuenta de Figma y añade npx -y figma-developer-mcp --figma-api-key=<key> --stdio a la configuración MCP de Cursor. Para usarlo, pega un enlace de archivo o selección de Figma a la IA.",
+          "fr": "Générez un jeton d'accès personnel dans les paramètres de votre compte Figma, puis ajoutez npx -y figma-developer-mcp --figma-api-key=<key> --stdio à la configuration MCP de Cursor. Pour l'utiliser, collez simplement un lien de fichier ou de sélection Figma à l'IA."
+        }
+      },
+      {
+        "question": {
+          "zh": "使用 Figma Context MCP 需要 Figma 付费版吗？",
+          "en": "Do I need a paid Figma plan to use Figma Context MCP?",
+          "ja": "Figma Context MCP の利用に Figma 有料プランは必要ですか？",
+          "es": "¿Necesito un plan de pago de Figma para usar Figma Context MCP?",
+          "fr": "Faut-il un plan Figma payant pour utiliser Figma Context MCP ?"
+        },
+        "answer": {
+          "zh": "不需要。服务器免费开源（MIT），Figma 免费版账号即可生成 API 令牌读取自己的文件；只要你对目标文件有查看权限，AI 就能读取其设计数据。",
+          "en": "No. The server is free and open source (MIT), and a free Figma account can generate API tokens to read its own files. As long as you can view the target file, the AI can read its design data.",
+          "ja": "不要です。サーバーは無料のオープンソース（MIT）で、Figma の無料アカウントでも API トークンを生成して自分のファイルを読み取れます。対象ファイルの閲覧権限があれば AI はそのデザインデータを取得できます。",
+          "es": "No. El servidor es gratuito y de código abierto (MIT), y una cuenta gratuita de Figma puede generar tokens API para leer sus propios archivos. Mientras puedas ver el archivo objetivo, la IA podrá leer sus datos de diseño.",
+          "fr": "Non. Le serveur est gratuit et open source (MIT), et un compte Figma gratuit peut générer des jetons API pour lire ses propres fichiers. Tant que vous pouvez voir le fichier cible, l'IA peut lire ses données de design."
+        }
+      }
+    ]
   }
 ]

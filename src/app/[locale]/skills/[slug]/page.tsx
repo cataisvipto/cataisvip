@@ -19,6 +19,17 @@ export function generateStaticParams() {
   return params;
 }
 
+/** Pick the description matching the locale (falls back to English) */
+function getLocalizedDescription(skill: (typeof skills)[number], locale: string): string {
+  switch (locale) {
+    case 'zh': return skill.description;
+    case 'ja': return skill.descriptionJa || skill.descriptionEn;
+    case 'es': return skill.descriptionEs || skill.descriptionEn;
+    case 'fr': return skill.descriptionFr || skill.descriptionEn;
+    default: return skill.descriptionEn;
+  }
+}
+
 export async function generateMetadata({ params }: Props) {
   const { locale, slug } = await params;
   const t = await getTranslations({ locale, namespace: 'skills' });
@@ -28,7 +39,7 @@ export async function generateMetadata({ params }: Props) {
   const name = locale === 'zh' && skill.nameZh ? skill.nameZh : skill.name;
   return {
     title: `${name} - ${t('title')}`,
-    description: locale === 'zh' ? skill.description : skill.descriptionEn,
+    description: getLocalizedDescription(skill, locale),
     alternates: generateAlternates(`/skills/${slug}`, locale),
   };
 }
@@ -52,7 +63,7 @@ function parseInlineMarkdown(text: string): string {
 }
 
 /** Parse the Installation section from GitHub README markdown into HTML */
-function parseInstallSection(markdown: string): string | null {
+function parseInstallSection(markdown: string, copyLabel: string): string | null {
   const installMatch = markdown.match(/^## Installation\n([\s\S]*?)(?=\n## )/m);
   if (!installMatch) return null;
 
@@ -73,7 +84,7 @@ function parseInstallSection(markdown: string): string | null {
       `<span class="font-mono">${escapeHtml(langLabel)}</span>` +
       `<button type="button" class="copy-code-btn flex items-center gap-1 opacity-0 group-hover:opacity-100 transition-opacity">` +
       `<svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"/></svg>` +
-      `Copy</button></div>` +
+      `${escapeHtml(copyLabel)}</button></div>` +
       `<pre class="code-block-body p-4 overflow-x-auto m-0"><code class="text-sm font-mono leading-relaxed">${escapedCode}</code></pre></div>\n`;
     codeContent = '';
     inCodeBlock = false;
@@ -140,7 +151,7 @@ function parseInstallSection(markdown: string): string | null {
 }
 
 /** Fetch the README from GitHub and extract Installation section as HTML */
-async function fetchReadmeInstallHtml(repo: string): Promise<string | null> {
+async function fetchReadmeInstallHtml(repo: string, copyLabel: string): Promise<string | null> {
   const branches = ['main', 'master'];
   for (const branch of branches) {
     try {
@@ -151,7 +162,7 @@ async function fetchReadmeInstallHtml(repo: string): Promise<string | null> {
       clearTimeout(timeout);
       if (res.ok) {
         const md = await res.text();
-        return parseInstallSection(md);
+        return parseInstallSection(md, copyLabel);
       }
     } catch {
       // try next branch
@@ -183,8 +194,9 @@ export default async function SkillDetailPage({ params }: Props) {
   const skill = skills.find((s) => s.slug === slug);
   if (!skill) notFound();
 
+  const t = await getTranslations({ locale, namespace: 'skills' });
   const [readmeInstallHtml, gitHubStars] = await Promise.all([
-    fetchReadmeInstallHtml(skill.repo),
+    fetchReadmeInstallHtml(skill.repo, t('copyCommand')),
     fetchGitHubStars(skill.repo),
   ]);
 

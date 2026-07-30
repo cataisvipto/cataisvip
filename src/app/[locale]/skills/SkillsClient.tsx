@@ -8,6 +8,7 @@ import Breadcrumb from '@/components/Breadcrumb';
 import { Link } from '@/i18n/navigation';
 import Image from 'next/image';
 import { Star, GitFork, ExternalLink, Code2 } from 'lucide-react';
+import type { FaqItem } from '@/components/FaqSection';
 
 export interface Skill {
   slug: string;
@@ -28,6 +29,7 @@ export interface Skill {
   logo: string;
   stars: number;
   featured: boolean;
+  faqs?: FaqItem[];
 }
 
 const getLocalizedSkillDescription = (skill: Skill, locale: string) => {
@@ -74,8 +76,10 @@ export default function SkillsClient({ skills, locale, starsMap }: SkillsClientP
 
   // Filter skills
   const filtered = skills.filter((skill) => {
-    const nameMatch = displayName(skill).toLowerCase().includes(searchQuery.toLowerCase()) ||
-      skill.descriptionEn.toLowerCase().includes(searchQuery.toLowerCase());
+    const q = searchQuery.toLowerCase();
+    const nameMatch = displayName(skill).toLowerCase().includes(q) ||
+      skill.descriptionEn.toLowerCase().includes(q) ||
+      getLocalizedSkillDescription(skill, locale).toLowerCase().includes(q);
     const agentMatch = selectedAgent === 'all' || skill.agents.includes(selectedAgent);
     const categoryMatch = selectedCategory === 'all' || skill.category === selectedCategory;
     return nameMatch && agentMatch && categoryMatch;
@@ -155,7 +159,7 @@ export default function SkillsClient({ skills, locale, starsMap }: SkillsClientP
                   : 'bg-[var(--muted-bg)] text-[var(--muted)] hover:text-[var(--primary)] border border-[var(--card-border)]'
               }`}
             >
-              {cat}
+              {tSkills(`categories.${cat}`)}
             </button>
           ))}
         </div>
@@ -195,7 +199,7 @@ export default function SkillsClient({ skills, locale, starsMap }: SkillsClientP
                   <h3 className="font-semibold text-[var(--foreground)] truncate group-hover/header:text-[var(--primary)] transition">
                     {displayName(skill)}
                   </h3>
-                  <span className="text-xs text-[var(--muted)]">{skill.category}</span>
+                  <span className="text-xs text-[var(--muted)]">{tSkills(`categories.${skill.category}`)}</span>
                 </div>
               </Link>
 

@@ -29,7 +29,57 @@
     "installCommand": "Available via Claude Code marketplace, Cursor /add-plugin, Codex plugin marketplace, and more. See README for details.",
     "logo": "/logos/skills/superpowers.png",
     "stars": 8500,
-    "featured": true
+    "featured": true,
+    "faqs": [
+      {
+        "question": {
+          "zh": "Superpowers 是什么？",
+          "en": "What is Superpowers?",
+          "ja": "Superpowers とは何ですか？",
+          "es": "¿Qué es Superpowers?",
+          "fr": "Qu'est-ce que Superpowers ?"
+        },
+        "answer": {
+          "zh": "它是一整套 AI 编码智能体的软件开发方法论技能集：头脑风暴、测试驱动开发、方案编写、子智能体调度、调试流程等可组合技能，让 AI 像资深工程师一样按流程工作，而不是想到哪写到哪。",
+          "en": "It is a complete software development methodology for AI coding agents: composable skills for brainstorming, test-driven development, plan writing, subagent dispatching and systematic debugging — making the AI work like a disciplined senior engineer instead of improvising.",
+          "ja": "AI コーディングエージェント向けの完全なソフトウェア開発方法論スキル集です。ブレインストーミング、テスト駆動開発、計画立案、サブエージェント調整、体系的デバッグなどの組み合わせ可能なスキルにより、AI が思いつきではなくベテランエンジニアのようにプロセスに沿って作業します。",
+          "es": "Es una metodología completa de desarrollo de software para agentes de codificación IA: habilidades componibles de lluvia de ideas, desarrollo guiado por pruebas, redacción de planes, despacho de subagentes y depuración sistemática, haciendo que la IA trabaje como un ingeniero senior disciplinado.",
+          "fr": "C'est une méthodologie complète de développement logiciel pour agents de codage IA : des compétences composables de brainstorming, développement piloté par les tests, rédaction de plans, coordination de sous-agents et débogage systématique — l'IA travaille comme un ingénieur senior discipliné au lieu d'improviser."
+        }
+      },
+      {
+        "question": {
+          "zh": "怎么安装 Superpowers？",
+          "en": "How do I install Superpowers?",
+          "ja": "Superpowers をインストールするには？",
+          "es": "¿Cómo instalo Superpowers?",
+          "fr": "Comment installer Superpowers ?"
+        },
+        "answer": {
+          "zh": "支持多个客户端的插件市场：Claude Code 的 marketplace、Cursor 的 /add-plugin、Codex 插件市场等都能直接安装；具体命令见 GitHub 仓库 README，装完技能会在对话中自动触发。",
+          "en": "It is available through multiple plugin marketplaces: Claude Code's marketplace, Cursor's /add-plugin, the Codex plugin marketplace and more. See the GitHub README for exact commands; once installed, skills trigger automatically in conversation.",
+          "ja": "複数クライアントのプラグインマーケットに対応しています。Claude Code のマーケットプレイス、Cursor の /add-plugin、Codex プラグインマーケットなどから直接インストール可能。詳しいコマンドは GitHub の README を参照してください。導入後、スキルは会話中に自動で発動します。",
+          "es": "Está disponible en varios marketplaces de plugins: el marketplace de Claude Code, /add-plugin de Cursor, el marketplace de Codex y más. Consulta el README de GitHub para los comandos exactos; una vez instalado, las habilidades se activan automáticamente.",
+          "fr": "Il est disponible sur plusieurs marketplaces de plugins : celui de Claude Code, /add-plugin de Cursor, le marketplace Codex, etc. Consultez le README GitHub pour les commandes exactes ; une fois installé, les compétences se déclenchent automatiquement en conversation."
+        }
+      },
+      {
+        "question": {
+          "zh": "Superpowers 免费吗？支持哪些 AI 编码工具？",
+          "en": "Is Superpowers free? Which AI coding tools does it support?",
+          "ja": "Superpowers は無料ですか？どの AI コーディングツールに対応していますか？",
+          "es": "¿Superpowers es gratuito? ¿Qué herramientas de codificación IA soporta?",
+          "fr": "Superpowers est-il gratuit ? Quels outils de codage IA prend-il en charge ?"
+        },
+        "answer": {
+          "zh": "完全免费开源，由 Jesse Vincent（Prime Radiant）维护。支持面极广：Claude Code、Cursor、Codex、GitHub Copilot、Kimi Code、OpenCode、Antigravity、Factory Droid 等主流智能体都能用。",
+          "en": "Completely free and open source, maintained by Jesse Vincent (Prime Radiant). Support is very broad: Claude Code, Cursor, Codex, GitHub Copilot, Kimi Code, OpenCode, Antigravity, Factory Droid and other mainstream agents.",
+          "ja": "完全無料のオープンソースで、Jesse Vincent（Prime Radiant）がメンテナンスしています。対応範囲は非常に広く、Claude Code、Cursor、Codex、GitHub Copilot、Kimi Code、OpenCode、Antigravity、Factory Droid など主要エージェントで利用できます。",
+          "es": "Totalmente gratuito y de código abierto, mantenido por Jesse Vincent (Prime Radiant). El soporte es muy amplio: Claude Code, Cursor, Codex, GitHub Copilot, Kimi Code, OpenCode, Antigravity, Factory Droid y otros agentes principales.",
+          "fr": "Entièrement gratuit et open source, maintenu par Jesse Vincent (Prime Radiant). La prise en charge est très large : Claude Code, Cursor, Codex, GitHub Copilot, Kimi Code, OpenCode, Antigravity, Factory Droid et d'autres agents majeurs."
+        }
+      }
+    ]
   },
   {
     "slug": "hyperdirector",
@@ -56,7 +106,57 @@
     "installCommand": "See README for installation instructions.",
     "logo": "/logos/skills/hyperdirector.png",
     "stars": 200,
-    "featured": true
+    "featured": true,
+    "faqs": [
+      {
+        "question": {
+          "zh": "HyperDirector 能做什么？",
+          "en": "What can HyperDirector do?",
+          "ja": "HyperDirector で何ができますか？",
+          "es": "¿Qué puede hacer HyperDirector?",
+          "fr": "Que peut faire HyperDirector ?"
+        },
+        "answer": {
+          "zh": "它是一套 HyperFrames 视频制作流水线技能，让 AI 智能体自动完成视频分镜设计、剪辑编排和特效处理，把一段脚本或想法变成结构化的专业级视频产出流程。",
+          "en": "It is a HyperFrames video production pipeline skill that lets AI agents automate storyboarding, editing orchestration and effects processing — turning a script or idea into a structured, professional-grade video workflow.",
+          "ja": "HyperFrames 動画制作パイプラインのスキルです。AI エージェントが絵コンテ設計、編集オーケストレーション、エフェクト処理を自動化し、脚本やアイデアを構造化されたプロ級の動画制作フローに変えます。",
+          "es": "Es una habilidad de pipeline de producción de vídeo HyperFrames que permite a los agentes de IA automatizar el storyboard, la orquestación del montaje y los efectos, convirtiendo un guion o idea en un flujo de vídeo profesional estructurado.",
+          "fr": "C'est une compétence de pipeline de production vidéo HyperFrames : les agents IA automatisent le storyboard, l'orchestration du montage et les effets — transformant un script ou une idée en flux de production vidéo professionnel et structuré."
+        }
+      },
+      {
+        "question": {
+          "zh": "怎么安装和使用 HyperDirector？",
+          "en": "How do I install and use HyperDirector?",
+          "ja": "HyperDirector のインストールと使い方は？",
+          "es": "¿Cómo instalo y uso HyperDirector?",
+          "fr": "Comment installer et utiliser HyperDirector ?"
+        },
+        "answer": {
+          "zh": "安装步骤见 GitHub 仓库 README：把技能文件放进 Claude Code 或 Cursor 的技能目录后，在对话里描述你的视频需求，技能会按流水线阶段引导 AI 逐步产出。",
+          "en": "Installation steps are in the GitHub README: place the skill files in the skills directory of Claude Code or Cursor, then describe your video requirements in conversation — the skill guides the AI through each pipeline stage.",
+          "ja": "インストール手順は GitHub の README に記載されています。スキルファイルを Claude Code や Cursor のスキルディレクトリに配置し、会話で動画の要件を伝えれば、スキルがパイプラインの各段階に沿って AI をガイドします。",
+          "es": "Los pasos de instalación están en el README de GitHub: coloca los archivos de la habilidad en el directorio de skills de Claude Code o Cursor y describe tus requisitos de vídeo en la conversación; la habilidad guía a la IA por cada etapa.",
+          "fr": "Les étapes d'installation sont dans le README GitHub : placez les fichiers de compétence dans le répertoire skills de Claude Code ou Cursor, puis décrivez vos besoins vidéo en conversation — la compétence guide l'IA à chaque étape du pipeline."
+        }
+      },
+      {
+        "question": {
+          "zh": "HyperDirector 免费吗？",
+          "en": "Is HyperDirector free?",
+          "ja": "HyperDirector は無料ですか？",
+          "es": "¿HyperDirector es gratuito?",
+          "fr": "HyperDirector est-il gratuit ?"
+        },
+        "answer": {
+          "zh": "技能本身免费开源。注意它编排的是工作流程，实际视频生成若调用第三方模型或服务（如视频生成 API），相应费用取决于你所接的服务。",
+          "en": "The skill itself is free and open source. Note that it orchestrates the workflow — if the actual video generation calls third-party models or services (e.g. video generation APIs), those costs depend on the services you connect.",
+          "ja": "スキル自体は無料のオープンソースです。ただしこれはワークフローをオーケストレーションするもので、実際の動画生成でサードパーティのモデルやサービス（動画生成 API など）を呼び出す場合、その費用は接続するサービスに依存します。",
+          "es": "La habilidad en sí es gratuita y de código abierto. Ten en cuenta que orquesta el flujo de trabajo: si la generación real de vídeo llama a modelos o servicios de terceros (APIs de generación de vídeo), esos costes dependen de los servicios que conectes.",
+          "fr": "La compétence elle-même est gratuite et open source. Notez qu'elle orchestre le flux de travail — si la génération vidéo fait appel à des modèles ou services tiers (API de génération vidéo), ces coûts dépendent des services connectés."
+        }
+      }
+    ]
   },
   {
     "slug": "remotion-best-practices",
@@ -83,7 +183,57 @@
     "installCommand": "See README for installation instructions.",
     "logo": "/logos/skills/remotion-best-practices.png",
     "stars": 150,
-    "featured": true
+    "featured": true,
+    "faqs": [
+      {
+        "question": {
+          "zh": "Remotion Best Practices 技能有什么用？",
+          "en": "What is the Remotion Best Practices skill for?",
+          "ja": "Remotion Best Practices スキルは何に役立ちますか？",
+          "es": "¿Para qué sirve la habilidad Remotion Best Practices?",
+          "fr": "À quoi sert la compétence Remotion Best Practices ?"
+        },
+        "answer": {
+          "zh": "Remotion 是用 React 写视频的框架，这个技能把 Remotion 的组件化开发、性能优化、渲染策略等最佳实践注入 AI 上下文，让 AI 写出的 Remotion 代码专业、可渲染、少踩坑。",
+          "en": "Remotion is a framework for making videos with React. This skill injects Remotion best practices — component patterns, performance optimization, rendering strategies — into the AI context, so generated Remotion code is professional, renderable and pitfall-free.",
+          "ja": "Remotion は React で動画を作るフレームワークです。このスキルはコンポーネント設計、パフォーマンス最適化、レンダリング戦略といった Remotion のベストプラクティスを AI のコンテキストに注入し、生成される Remotion コードをプロ品質かつレンダリング可能にします。",
+          "es": "Remotion es un framework para crear vídeos con React. Esta habilidad inyecta las mejores prácticas de Remotion (patrones de componentes, optimización de rendimiento, estrategias de renderizado) en el contexto de la IA, para que el código generado sea profesional y renderizable.",
+          "fr": "Remotion est un framework pour créer des vidéos avec React. Cette compétence injecte les bonnes pratiques Remotion — patterns de composants, optimisation des performances, stratégies de rendu — dans le contexte de l'IA, pour un code Remotion professionnel et exploitable."
+        }
+      },
+      {
+        "question": {
+          "zh": "怎么安装这个技能？",
+          "en": "How do I install this skill?",
+          "ja": "このスキルをインストールするには？",
+          "es": "¿Cómo instalo esta habilidad?",
+          "fr": "Comment installer cette compétence ?"
+        },
+        "answer": {
+          "zh": "按 GitHub 仓库 README 的说明，把技能文件加入 Claude Code 或 Cursor 的技能目录。之后凡是涉及 Remotion 的开发请求，AI 会自动应用其中的规则和范式。",
+          "en": "Follow the GitHub README: add the skill files to the skills directory of Claude Code or Cursor. From then on, any Remotion-related request will automatically apply its rules and patterns.",
+          "ja": "GitHub の README に従い、スキルファイルを Claude Code や Cursor のスキルディレクトリに追加します。以降、Remotion 関連の開発依頼では AI が自動的にそのルールとパターンを適用します。",
+          "es": "Sigue el README de GitHub: añade los archivos de la habilidad al directorio de skills de Claude Code o Cursor. A partir de entonces, cualquier petición relacionada con Remotion aplicará automáticamente sus reglas y patrones.",
+          "fr": "Suivez le README GitHub : ajoutez les fichiers de compétence au répertoire skills de Claude Code ou Cursor. Ensuite, toute demande liée à Remotion appliquera automatiquement ses règles et patterns."
+        }
+      },
+      {
+        "question": {
+          "zh": "需要先学会 Remotion 才能用吗？",
+          "en": "Do I need to know Remotion before using it?",
+          "ja": "使う前に Remotion を習得している必要がありますか？",
+          "es": "¿Necesito saber Remotion antes de usarla?",
+          "fr": "Faut-il connaître Remotion avant de l’utiliser ?"
+        },
+        "answer": {
+          "zh": "不需要精通。技能免费开源，本身就是把 Remotion 专家经验交给 AI；你只要会描述想要的视频效果，AI 负责写出符合最佳实践的 React 视频代码。懂 React 基础会更顺手。",
+          "en": "No mastery required. The skill is free and open source — it hands Remotion expertise to the AI. You just describe the video you want; the AI writes best-practice React video code. Basic React knowledge helps.",
+          "ja": "熟練は不要です。スキルは無料のオープンソースで、Remotion の専門知識を AI に渡す仕組みです。欲しい動画のイメージを伝えるだけで、AI がベストプラクティスに沿った React 動画コードを書きます。React の基礎があればより快適です。",
+          "es": "No se requiere dominio. La habilidad es gratuita y de código abierto: entrega la experiencia en Remotion a la IA. Solo describe el vídeo que quieres; la IA escribe código React siguiendo las mejores prácticas. Saber React básico ayuda.",
+          "fr": "Aucune maîtrise requise. La compétence est gratuite et open source — elle transmet l'expertise Remotion à l'IA. Décrivez simplement la vidéo souhaitée ; l'IA écrit du code React conforme aux bonnes pratiques. Des bases en React sont un plus."
+        }
+      }
+    ]
   },
   {
     "slug": "humanizer",
@@ -110,7 +260,57 @@
     "installCommand": "npx @anthropic-ai/claude add mcp-server-humanizer",
     "logo": "/logos/skills/humanizer.png",
     "stars": 1200,
-    "featured": true
+    "featured": true,
+    "faqs": [
+      {
+        "question": {
+          "zh": "Humanizer 是如何去除 AI 写作痕迹的？",
+          "en": "How does Humanizer remove AI writing patterns?",
+          "ja": "Humanizer はどうやって AI 文章の痕跡を除去しますか？",
+          "es": "¿Cómo elimina Humanizer los patrones de escritura de IA?",
+          "fr": "Comment Humanizer supprime-t-il les traces d'écriture IA ?"
+        },
+        "answer": {
+          "zh": "它内置了 33 种典型 AI 写作模式的检测规则——空洞的强调句、公式化过渡、堆砌的排比等——识别后引导模型重写成更自然、更有人味的表达，而不是简单同义词替换。",
+          "en": "It ships detection rules for 33 typical AI writing patterns — hollow emphasis, formulaic transitions, stacked parallelisms and more — then guides the model to rewrite them into natural, human-sounding prose rather than doing simple synonym swaps.",
+          "ja": "空虚な強調、定型的な接続表現、過剰な並列構造など、33 種類の典型的な AI 文章パターンの検出ルールを内蔵。検出後は単純な同義語置換ではなく、より自然で人間らしい表現への書き直しをモデルに促します。",
+          "es": "Incluye reglas de detección de 33 patrones típicos de escritura IA (énfasis vacío, transiciones formulaicas, paralelismos apilados, etc.) y guía al modelo para reescribirlos con un estilo natural y humano, en lugar de simples sustituciones de sinónimos.",
+          "fr": "Il embarque des règles de détection de 33 patterns typiques d'écriture IA — emphase creuse, transitions formatées, parallélismes empilés — puis guide le modèle vers une réécriture naturelle et humaine, au lieu de simples substitutions de synonymes."
+        }
+      },
+      {
+        "question": {
+          "zh": "怎么安装 Humanizer？",
+          "en": "How do I install Humanizer?",
+          "ja": "Humanizer をインストールするには？",
+          "es": "¿Cómo instalo Humanizer?",
+          "fr": "Comment installer Humanizer ?"
+        },
+        "answer": {
+          "zh": "在 Claude Code 里运行 npx @anthropic-ai/claude add mcp-server-humanizer 即可接入；Cursor 等客户端参照 GitHub README 配置。装好后直接让 AI\"humanize 这段文字\"就能触发。",
+          "en": "In Claude Code run npx @anthropic-ai/claude add mcp-server-humanizer; for Cursor and other clients follow the GitHub README. Once installed, just ask the AI to \"humanize this text\".",
+          "ja": "Claude Code で npx @anthropic-ai/claude add mcp-server-humanizer を実行すれば接続できます。Cursor などのクライアントは GitHub README を参照してください。導入後は「この文章を humanize して」と頼むだけで発動します。",
+          "es": "En Claude Code ejecuta npx @anthropic-ai/claude add mcp-server-humanizer; para Cursor y otros clientes sigue el README de GitHub. Una vez instalado, basta pedir a la IA que \"humanice este texto\".",
+          "fr": "Dans Claude Code, exécutez npx @anthropic-ai/claude add mcp-server-humanizer ; pour Cursor et autres clients, suivez le README GitHub. Une fois installé, demandez simplement à l'IA de « humaniser ce texte »."
+        }
+      },
+      {
+        "question": {
+          "zh": "Humanizer 适合哪些内容场景？",
+          "en": "What content is Humanizer best suited for?",
+          "ja": "Humanizer はどんなコンテンツに向いていますか？",
+          "es": "¿Para qué contenidos es más adecuado Humanizer?",
+          "fr": "Pour quels contenus Humanizer est-il le plus adapté ?"
+        },
+        "answer": {
+          "zh": "免费开源，适合博客文章、营销文案、社交内容、邮件等所有需要自然语感的场景。注意它的定位是提升写作质量，而非规避学术诚信检测——学术用途请遵守所在机构的规定。",
+          "en": "Free and open source, it suits blog posts, marketing copy, social content, emails — anywhere natural-sounding prose matters. Note its purpose is improving writing quality, not evading academic integrity checks; follow your institution’s rules for academic use.",
+          "ja": "無料のオープンソースで、ブログ記事、マーケティングコピー、SNS コンテンツ、メールなど自然な文体が求められるあらゆる場面に適しています。目的は文章品質の向上であり、学術不正検出の回避ではありません。学術用途では所属機関の規定に従ってください。",
+          "es": "Gratuito y de código abierto, es ideal para artículos de blog, textos de marketing, contenido social y correos: cualquier lugar donde importe una prosa natural. Su propósito es mejorar la calidad de escritura, no evadir controles de integridad académica.",
+          "fr": "Gratuit et open source, il convient aux articles de blog, textes marketing, contenus sociaux, e-mails — partout où une prose naturelle compte. Son but est d'améliorer la qualité d'écriture, pas de contourner les contrôles d'intégrité académique."
+        }
+      }
+    ]
   },
   {
     "slug": "ian-xiaohei-illustrations",
@@ -137,7 +337,57 @@
     "installCommand": "npx @anthropic-ai/claude add ian-xiaohei-illustrations",
     "logo": "/logos/skills/ian-xiaohei-illustrations.png",
     "stars": 350,
-    "featured": true
+    "featured": true,
+    "faqs": [
+      {
+        "question": {
+          "zh": "这个技能生成的配图是什么风格？",
+          "en": "What style of illustrations does this skill generate?",
+          "ja": "このスキルはどんなスタイルの挿絵を生成しますか？",
+          "es": "¿Qué estilo de ilustraciones genera esta habilidad?",
+          "fr": "Quel style d'illustrations cette compétence génère-t-elle ?"
+        },
+        "answer": {
+          "zh": "独特的\"小黑\"怪诞手绘黑白线稿风格：粗犷、诙谐、辨识度极高，特别适合中文文章正文配图、博客插画和公众号内容，让文章瞬间有了统一的视觉个性。",
+          "en": "A distinctive \"Xiaohei\" grotesque hand-drawn black-and-white line art style: rough, witty and highly recognizable. Perfect for Chinese article illustrations, blog art and WeChat content, giving posts an instantly unified visual identity.",
+          "ja": "独特な「小黒（シャオヘイ）」グロテスク手描き白黒線画スタイルです。荒削りでユーモラス、非常に識別性が高く、中国語記事の本文挿絵、ブログイラスト、WeChat コンテンツに最適。記事に統一された視覚的個性を与えます。",
+          "es": "Un estilo distintivo de dibujo a mano \"Xiaohei\", grotesco en blanco y negro: tosco, ingenioso y muy reconocible. Perfecto para ilustrar artículos en chino, blogs y contenido de WeChat, dando a los textos una identidad visual unificada.",
+          "fr": "Un style distinctif « Xiaohei » : dessin au trait noir et blanc, grotesque et fait main — brut, plein d'esprit et très reconnaissable. Parfait pour illustrer articles chinois, blogs et contenus WeChat avec une identité visuelle unifiée."
+        }
+      },
+      {
+        "question": {
+          "zh": "怎么安装和使用？",
+          "en": "How do I install and use it?",
+          "ja": "インストールと使い方は？",
+          "es": "¿Cómo la instalo y uso?",
+          "fr": "Comment l'installer et l'utiliser ?"
+        },
+        "answer": {
+          "zh": "在 Claude Code 运行 npx @anthropic-ai/claude add ian-xiaohei-illustrations 接入。使用时把文章内容给 AI，它会分析语义并为关键段落生成风格统一的配图。",
+          "en": "Run npx @anthropic-ai/claude add ian-xiaohei-illustrations in Claude Code. Then hand your article to the AI — it analyzes the content and generates style-consistent illustrations for key passages.",
+          "ja": "Claude Code で npx @anthropic-ai/claude add ian-xiaohei-illustrations を実行して接続します。記事を AI に渡すと、内容を分析して重要な段落にスタイルの揃った挿絵を生成します。",
+          "es": "Ejecuta npx @anthropic-ai/claude add ian-xiaohei-illustrations en Claude Code. Luego entrega tu artículo a la IA: analiza el contenido y genera ilustraciones de estilo coherente para los pasajes clave.",
+          "fr": "Exécutez npx @anthropic-ai/claude add ian-xiaohei-illustrations dans Claude Code. Confiez ensuite votre article à l'IA — elle analyse le contenu et génère des illustrations cohérentes pour les passages clés."
+        }
+      },
+      {
+        "question": {
+          "zh": "生成的配图可以商用吗？",
+          "en": "Can the generated illustrations be used commercially?",
+          "ja": "生成された挿絵は商用利用できますか？",
+          "es": "¿Las ilustraciones generadas se pueden usar comercialmente?",
+          "fr": "Les illustrations générées peuvent-elles être utilisées commercialement ?"
+        },
+        "answer": {
+          "zh": "技能本身免费开源。商用前建议查阅 GitHub 仓库的许可条款，并确认你所用图像生成模型的授权政策——生成内容的商用权利通常由底层模型服务的条款决定。",
+          "en": "The skill itself is free and open source. Before commercial use, check the license terms in the GitHub repository and the usage policy of the image generation model you connect — commercial rights over generated content typically follow the underlying model service terms.",
+          "ja": "スキル自体は無料のオープンソースです。商用利用の前に GitHub リポジトリのライセンス条項と、接続する画像生成モデルの利用ポリシーを確認してください。生成物の商用権は通常、基盤モデルサービスの規約に従います。",
+          "es": "La habilidad en sí es gratuita y de código abierto. Antes de un uso comercial, revisa los términos de licencia del repositorio de GitHub y la política del modelo de generación de imágenes que conectes: los derechos comerciales suelen seguir los términos del servicio del modelo.",
+          "fr": "La compétence est gratuite et open source. Avant tout usage commercial, vérifiez la licence du dépôt GitHub et la politique du modèle de génération d'images connecté — les droits commerciaux sur le contenu généré dépendent généralement des conditions du service sous-jacent."
+        }
+      }
+    ]
   },
   {
     "slug": "brand",
@@ -165,7 +415,57 @@
     "installCommand": "Available via plugin marketplace. See README for details.",
     "logo": "/logos/skills/brand.png",
     "stars": 600,
-    "featured": true
+    "featured": true,
+    "faqs": [
+      {
+        "question": {
+          "zh": "Brand 技能能帮我做什么？",
+          "en": "What can the Brand skill help me with?",
+          "ja": "Brand スキルは何を手伝ってくれますか？",
+          "es": "¿En qué puede ayudarme la habilidad Brand?",
+          "fr": "En quoi la compétence Brand peut-elle m’aider ?"
+        },
+        "answer": {
+          "zh": "它让 AI 掌握完整的品牌管理方法论：品牌色与字体规范、Logo 使用规则、品牌语调、资产管理和一致性检查。做品牌内容时 AI 会自动对照规范输出，避免视觉和语调跑偏。",
+          "en": "It gives AI a complete brand management methodology: brand colors and typography rules, logo usage guidelines, tone of voice, asset management and consistency checks. When producing branded content, the AI automatically follows the guidelines to prevent visual or tonal drift.",
+          "ja": "AI に完全なブランド管理方法論を与えます。ブランドカラーとタイポグラフィ規範、ロゴ使用ルール、ブランドトーン、アセット管理、一貫性チェックなど。ブランドコンテンツ制作時、AI が自動的に規範に沿って出力し、ビジュアルやトーンのブレを防ぎます。",
+          "es": "Da a la IA una metodología completa de gestión de marca: colores y tipografía, reglas de uso del logo, tono de voz, gestión de activos y comprobaciones de coherencia. Al producir contenido de marca, la IA sigue las directrices automáticamente.",
+          "fr": "Elle donne à l'IA une méthodologie complète de gestion de marque : couleurs et typographie, règles d'usage du logo, ton de voix, gestion des actifs et contrôles de cohérence. L'IA suit automatiquement la charte pour éviter toute dérive visuelle ou tonale."
+        }
+      },
+      {
+        "question": {
+          "zh": "怎么安装 Brand 技能？",
+          "en": "How do I install the Brand skill?",
+          "ja": "Brand スキルをインストールするには？",
+          "es": "¿Cómo instalo la habilidad Brand?",
+          "fr": "Comment installer la compétence Brand ?"
+        },
+        "answer": {
+          "zh": "通过插件市场安装：Claude Code、Cursor、Codex 的 marketplace 里搜索添加即可，具体命令见 GitHub 仓库 README。安装后在涉及品牌的任务中自动触发。",
+          "en": "Install via plugin marketplaces: search and add it in the Claude Code, Cursor or Codex marketplace — exact commands are in the GitHub README. Once installed, it triggers automatically on brand-related tasks.",
+          "ja": "プラグインマーケット経由でインストールします。Claude Code、Cursor、Codex のマーケットプレイスで検索・追加するだけです（詳細コマンドは GitHub README 参照）。導入後はブランド関連タスクで自動的に発動します。",
+          "es": "Instálala vía marketplace de plugins: búscala y añádela en el marketplace de Claude Code, Cursor o Codex; los comandos exactos están en el README de GitHub. Una vez instalada, se activa automáticamente en tareas de marca.",
+          "fr": "Installez-la via les marketplaces de plugins : recherchez-la dans celui de Claude Code, Cursor ou Codex — les commandes exactes sont dans le README GitHub. Elle se déclenche ensuite automatiquement sur les tâches liées à la marque."
+        }
+      },
+      {
+        "question": {
+          "zh": "Brand 技能免费吗？适合什么团队？",
+          "en": "Is the Brand skill free? Who is it for?",
+          "ja": "Brand スキルは無料ですか？どんなチームに向いていますか？",
+          "es": "¿La habilidad Brand es gratuita? ¿Para quién es?",
+          "fr": "La compétence Brand est-elle gratuite ? À qui s’adresse-t-elle ?"
+        },
+        "answer": {
+          "zh": "免费开源。特别适合没有专职品牌设计师的小团队和独立开发者——用它把品牌规范固化进 AI 工作流，产出的每份物料都自动保持一致。",
+          "en": "Free and open source. Especially useful for small teams and indie developers without a dedicated brand designer — bake your brand guidelines into the AI workflow and every asset stays consistent automatically.",
+          "ja": "無料のオープンソースです。専任のブランドデザイナーがいない小規模チームや個人開発者に特に有用で、ブランド規範を AI ワークフローに組み込むことで、あらゆる制作物の一貫性が自動的に保たれます。",
+          "es": "Gratuita y de código abierto. Especialmente útil para equipos pequeños y desarrolladores independientes sin diseñador de marca dedicado: integra tus directrices en el flujo de la IA y cada material se mantiene coherente automáticamente.",
+          "fr": "Gratuite et open source. Particulièrement utile pour les petites équipes et développeurs indépendants sans designer de marque dédié — intégrez votre charte dans le flux IA et chaque support reste cohérent automatiquement."
+        }
+      }
+    ]
   },
   {
     "slug": "agent-reach",
@@ -192,7 +492,57 @@
     "installCommand": "See README for installation instructions.",
     "logo": "/logos/skills/agent-reach.png",
     "stars": 250,
-    "featured": true
+    "featured": true,
+    "faqs": [
+      {
+        "question": {
+          "zh": "Agent Reach 是什么？",
+          "en": "What is Agent Reach?",
+          "ja": "Agent Reach とは何ですか？",
+          "es": "¿Qué es Agent Reach?",
+          "fr": "Qu'est-ce qu'Agent Reach ?"
+        },
+        "answer": {
+          "zh": "它是 AI 智能体的\"互联网能力路由器\"：一次接入即可连通 15 个平台，支持跨平台消息发送、内容发布和数据同步，让 AI 从只会聊天变成能真正触达互联网各处的行动者。",
+          "en": "It is an \"internet capability router\" for AI agents: one integration connects 15 platforms, supporting cross-platform messaging, content publishing and data sync — turning the AI from a chat partner into an actor that can actually reach across the internet.",
+          "ja": "AI エージェントのための「インターネット能力ルーター」です。一度の接続で 15 のプラットフォームとつながり、クロスプラットフォームのメッセージ送信、コンテンツ公開、データ同期に対応。AI をただの会話相手から、インターネット中に届くアクターへと変えます。",
+          "es": "Es un \"enrutador de capacidades de internet\" para agentes de IA: una sola integración conecta 15 plataformas, con mensajería multiplataforma, publicación de contenido y sincronización de datos. La IA pasa de conversar a actuar en internet.",
+          "fr": "C'est un « routeur de capacités internet » pour agents IA : une seule intégration connecte 15 plateformes — messagerie multiplateforme, publication de contenu et synchronisation de données. L'IA passe du bavardage à l'action réelle sur internet."
+        }
+      },
+      {
+        "question": {
+          "zh": "怎么安装 Agent Reach？",
+          "en": "How do I install Agent Reach?",
+          "ja": "Agent Reach をインストールするには？",
+          "es": "¿Cómo instalo Agent Reach?",
+          "fr": "Comment installer Agent Reach ?"
+        },
+        "answer": {
+          "zh": "安装说明见 GitHub 仓库 README：配置技能文件后，按需为各平台（消息、社交、内容渠道）提供对应的账号凭据，AI 即可按指令调度这些渠道。",
+          "en": "See the GitHub README for setup: after configuring the skill files, provide account credentials for the platforms you need (messaging, social, content channels), and the AI can orchestrate those channels on command.",
+          "ja": "セットアップは GitHub の README を参照してください。スキルファイルを設定後、必要なプラットフォーム（メッセージ、SNS、コンテンツチャネル）のアカウント認証情報を渡せば、AI が指示に従ってそれらのチャネルを操作できます。",
+          "es": "Consulta el README de GitHub: tras configurar los archivos de la habilidad, proporciona las credenciales de las plataformas que necesites (mensajería, redes, canales de contenido) y la IA podrá orquestarlas bajo demanda.",
+          "fr": "Consultez le README GitHub : après avoir configuré les fichiers de compétence, fournissez les identifiants des plateformes souhaitées (messagerie, réseaux sociaux, canaux de contenu) et l'IA pourra les orchestrer sur commande."
+        }
+      },
+      {
+        "question": {
+          "zh": "使用 Agent Reach 有什么注意事项？",
+          "en": "Any caveats when using Agent Reach?",
+          "ja": "Agent Reach 利用時の注意点は？",
+          "es": "¿Alguna precaución al usar Agent Reach?",
+          "fr": "Des précautions avec Agent Reach ?"
+        },
+        "answer": {
+          "zh": "技能免费开源，但它代表你在真实平台上发消息、发内容——建议先在测试账号上跑通流程，给 AI 明确的操作边界，并遵守各平台的自动化使用政策。",
+          "en": "The skill is free and open source, but it acts on real platforms on your behalf — test the workflow with a sandbox account first, give the AI clear operational boundaries, and respect each platform’s automation policies.",
+          "ja": "スキルは無料のオープンソースですが、実在プラットフォーム上であなたの代わりにメッセージ送信や投稿を行います。まずテストアカウントでフローを検証し、AI に明確な操作境界を与え、各プラットフォームの自動化ポリシーを守ってください。",
+          "es": "La habilidad es gratuita y de código abierto, pero actúa en plataformas reales en tu nombre: prueba primero con una cuenta de test, da límites operativos claros a la IA y respeta las políticas de automatización de cada plataforma.",
+          "fr": "La compétence est gratuite et open source, mais elle agit en votre nom sur de vraies plateformes — testez d'abord avec un compte de test, fixez des limites claires à l'IA et respectez les politiques d'automatisation de chaque plateforme."
+        }
+      }
+    ]
   },
   {
     "slug": "ui-styling",
@@ -220,7 +570,57 @@
     "installCommand": "Available via plugin marketplace. See README for details.",
     "logo": "/logos/skills/ui-styling.png",
     "stars": 600,
-    "featured": true
+    "featured": true,
+    "faqs": [
+      {
+        "question": {
+          "zh": "UI Styling 技能覆盖哪些内容？",
+          "en": "What does the UI Styling skill cover?",
+          "ja": "UI Styling スキルは何をカバーしますか？",
+          "es": "¿Qué cubre la habilidad UI Styling?",
+          "fr": "Que couvre la compétence UI Styling ?"
+        },
+        "answer": {
+          "zh": "覆盖现代前端样式的核心实践：Tailwind CSS 工具类、shadcn/ui 组件用法、响应式设计和暗色模式适配，让 AI 写出的界面代码风格统一、可维护、开箱好看。",
+          "en": "It covers the core practices of modern front-end styling: Tailwind CSS utilities, shadcn/ui component usage, responsive design and dark mode support — so AI-generated UI code is consistent, maintainable and good-looking out of the box.",
+          "ja": "モダンフロントエンドスタイリングの中核プラクティスをカバーします。Tailwind CSS ユーティリティ、shadcn/ui コンポーネントの使い方、レスポンシブデザイン、ダークモード対応など。AI が書く UI コードが統一され、保守しやすく、そのまま美しく仕上がります。",
+          "es": "Cubre las prácticas clave del estilizado frontend moderno: utilidades de Tailwind CSS, uso de componentes shadcn/ui, diseño responsive y modo oscuro, para que el código UI generado por la IA sea coherente, mantenible y atractivo desde el inicio.",
+          "fr": "Elle couvre les pratiques clés du styling front-end moderne : utilitaires Tailwind CSS, composants shadcn/ui, design responsive et mode sombre — pour un code UI généré par l'IA cohérent, maintenable et esthétique d'emblée."
+        }
+      },
+      {
+        "question": {
+          "zh": "怎么安装 UI Styling 技能？",
+          "en": "How do I install the UI Styling skill?",
+          "ja": "UI Styling スキルをインストールするには？",
+          "es": "¿Cómo instalo la habilidad UI Styling?",
+          "fr": "Comment installer la compétence UI Styling ?"
+        },
+        "answer": {
+          "zh": "通过 Claude Code、Cursor 或 Codex 的插件市场添加，具体命令见 GitHub README。安装后凡涉及界面样式的任务，AI 会自动套用其中的设计准则。",
+          "en": "Add it via the Claude Code, Cursor or Codex plugin marketplace — exact commands in the GitHub README. Once installed, any UI styling task automatically applies its design guidelines.",
+          "ja": "Claude Code、Cursor、Codex のプラグインマーケットから追加します（詳細コマンドは GitHub README 参照）。導入後は UI スタイリングに関わるタスクで自動的にデザインガイドラインが適用されます。",
+          "es": "Añádela vía el marketplace de plugins de Claude Code, Cursor o Codex; los comandos exactos están en el README de GitHub. Una vez instalada, cualquier tarea de estilizado UI aplica sus directrices automáticamente.",
+          "fr": "Ajoutez-la via le marketplace de plugins de Claude Code, Cursor ou Codex — commandes exactes dans le README GitHub. Ensuite, toute tâche de styling UI applique automatiquement ses règles de design."
+        }
+      },
+      {
+        "question": {
+          "zh": "它和直接让 AI 写 Tailwind 有什么区别？",
+          "en": "How is it different from just asking AI to write Tailwind?",
+          "ja": "AI にそのまま Tailwind を書かせるのと何が違いますか？",
+          "es": "¿En qué se diferencia de pedirle a la IA que escriba Tailwind sin más?",
+          "fr": "Quelle différence avec demander simplement à l'IA d'écrire du Tailwind ?"
+        },
+        "answer": {
+          "zh": "免费开源。裸写 Tailwind 时 AI 容易凭\"记忆\"混用任意值、硬编码颜色、忽略暗色模式；这个技能注入了一致的设计约束和组件规范，产出从\"能跑\"升级到\"专业\"。",
+          "en": "Free and open source. Without it, AI tends to mix arbitrary values, hard-code colors and forget dark mode from 'memory'. This skill injects consistent design constraints and component conventions, upgrading output from 'works' to 'professional'.",
+          "ja": "無料のオープンソースです。素の状態では AI は「記憶」に頼って任意の値を混在させたり、色をハードコードしたり、ダークモードを忘れがちです。このスキルは一貫したデザイン制約とコンポーネント規範を注入し、成果物を「動く」から「プロ品質」へ引き上げます。",
+          "es": "Gratuita y de código abierto. Sin ella, la IA tiende a mezclar valores arbitrarios, hardcodear colores y olvidar el modo oscuro. Esta habilidad inyecta restricciones de diseño coherentes y convenciones de componentes, elevando el resultado de 'funciona' a 'profesional'.",
+          "fr": "Gratuite et open source. Sans elle, l'IA mélange des valeurs arbitraires, code les couleurs en dur et oublie le mode sombre. Cette compétence injecte des contraintes de design cohérentes et des conventions de composants — le résultat passe de « ça marche » à « professionnel »."
+        }
+      }
+    ]
   },
   {
     "slug": "design-system",
@@ -248,7 +648,57 @@
     "installCommand": "Available via plugin marketplace. See README for details.",
     "logo": "/logos/skills/design-system.png",
     "stars": 600,
-    "featured": true
+    "featured": true,
+    "faqs": [
+      {
+        "question": {
+          "zh": "Design System 技能解决什么问题？",
+          "en": "What problem does the Design System skill solve?",
+          "ja": "Design System スキルはどんな問題を解決しますか？",
+          "es": "¿Qué problema resuelve la habilidad Design System?",
+          "fr": "Quel problème la compétence Design System résout-elle ?"
+        },
+        "answer": {
+          "zh": "它教会 AI 设计系统工程：三层设计 Token 架构（原始层→语义层→组件层）、CSS 变量组织、间距与字体比例体系、组件规范撰写，让项目的视觉决策从散落的魔法数字变成可维护的系统。",
+          "en": "It teaches AI design system engineering: three-layer design token architecture (primitive → semantic → component), CSS variable organization, spacing and typography scales, and component spec writing — turning scattered magic numbers into a maintainable system.",
+          "ja": "AI にデザインシステムエンジニアリングを教えます。3 層のデザイントークン構造（プリミティブ→セマンティック→コンポーネント）、CSS 変数の整理、余白とタイポグラフィのスケール体系、コンポーネント仕様の書き方。散在するマジックナンバーを保守可能なシステムに変えます。",
+          "es": "Enseña a la IA ingeniería de sistemas de diseño: arquitectura de tokens en tres capas (primitivos → semánticos → componentes), organización de variables CSS, escalas de espaciado y tipografía, y redacción de especificaciones de componentes.",
+          "fr": "Elle enseigne à l'IA l'ingénierie des design systems : architecture de tokens à trois niveaux (primitif → sémantique → composant), organisation des variables CSS, échelles d'espacement et de typographie, rédaction de specs de composants — fini les nombres magiques dispersés."
+        }
+      },
+      {
+        "question": {
+          "zh": "怎么安装 Design System 技能？",
+          "en": "How do I install the Design System skill?",
+          "ja": "Design System スキルをインストールするには？",
+          "es": "¿Cómo instalo la habilidad Design System?",
+          "fr": "Comment installer la compétence Design System ?"
+        },
+        "answer": {
+          "zh": "在 Claude Code、Cursor 或 Codex 的插件市场里添加即可，命令详见 GitHub README。适合在项目初期让 AI 先建立 Token 体系，后续所有 UI 产出都会引用统一变量。",
+          "en": "Add it via the Claude Code, Cursor or Codex plugin marketplace — see the GitHub README for commands. Best used early in a project so the AI establishes the token system first; all later UI output references the unified variables.",
+          "ja": "Claude Code、Cursor、Codex のプラグインマーケットから追加できます（コマンドは GitHub README 参照）。プロジェクト初期に AI にトークン体系を構築させるのが最適で、以降のすべての UI 生成が統一変数を参照するようになります。",
+          "es": "Añádela vía el marketplace de Claude Code, Cursor o Codex; consulta el README de GitHub. Es ideal usarla al inicio del proyecto para que la IA establezca primero el sistema de tokens; todo el UI posterior referenciará las variables unificadas.",
+          "fr": "Ajoutez-la via le marketplace de Claude Code, Cursor ou Codex — commandes dans le README GitHub. Idéale en début de projet : l'IA établit d'abord le système de tokens, et toute l'UI ultérieure référence les variables unifiées."
+        }
+      },
+      {
+        "question": {
+          "zh": "小项目也需要设计系统吗？",
+          "en": "Do small projects need a design system too?",
+          "ja": "小規模プロジェクトにもデザインシステムは必要ですか？",
+          "es": "¿Los proyectos pequeños también necesitan un sistema de diseño?",
+          "fr": "Les petits projets ont-ils aussi besoin d’un design system ?"
+        },
+        "answer": {
+          "zh": "技能免费开源，小项目同样受益：AI 协作开发中最常见的痛点就是每次生成的样式互不一致。哪怕只有十几个组件，统一的 Token 也能让暗色模式、改主题色这类需求从灾难变成一行变量的事。",
+          "en": "Free and open source — and yes, small projects benefit too. The most common pain in AI-assisted development is inconsistent styles across generations. Even with a dozen components, unified tokens turn dark mode or theme color changes from a disaster into a one-variable edit.",
+          "ja": "スキルは無料のオープンソースで、小規模プロジェクトにも有益です。AI 協働開発で最も多い悩みは、生成のたびにスタイルがバラつくこと。コンポーネントが十数個でも、統一トークンがあればダークモード対応やテーマカラー変更が「災難」から「変数 1 行の修正」になります。",
+          "es": "Gratuita y de código abierto, y sí: los proyectos pequeños también se benefician. El dolor más común del desarrollo asistido por IA son los estilos inconsistentes. Incluso con una docena de componentes, los tokens unificados convierten el modo oscuro o el cambio de tema en editar una variable.",
+          "fr": "Gratuite et open source — et oui, les petits projets en profitent aussi. Le problème le plus courant du développement assisté par IA : des styles incohérents à chaque génération. Même avec une douzaine de composants, des tokens unifiés transforment le mode sombre ou le changement de thème en une simple variable à éditer."
+        }
+      }
+    ]
   },
   {
     "slug": "slides",
@@ -276,7 +726,57 @@
     "installCommand": "Available via plugin marketplace. See README for details.",
     "logo": "/logos/skills/slides.png",
     "stars": 600,
-    "featured": true
+    "featured": true,
+    "faqs": [
+      {
+        "question": {
+          "zh": "Slides 技能做出的演示文稿是什么形式？",
+          "en": "What format are the presentations made with the Slides skill?",
+          "ja": "Slides スキルで作るプレゼンはどんな形式ですか？",
+          "es": "¿En qué formato son las presentaciones creadas con la habilidad Slides?",
+          "fr": "Sous quel format sont les présentations créées avec la compétence Slides ?"
+        },
+        "answer": {
+          "zh": "纯 HTML 幻灯片：浏览器直接打开播放，支持 Chart.js 动态图表、设计 Token 主题、响应式布局，还内置文案公式帮你把内容写得有说服力。不依赖 PowerPoint 或 Keynote。",
+          "en": "Pure HTML slides: they open and play right in the browser, with Chart.js dynamic charts, design-token theming and responsive layouts, plus built-in copywriting formulas for persuasive content. No PowerPoint or Keynote required.",
+          "ja": "純粋な HTML スライドです。ブラウザで直接開いて再生でき、Chart.js の動的グラフ、デザイントークンによるテーマ、レスポンシブレイアウトに対応。説得力ある文章を書くためのコピーライティング公式も内蔵。PowerPoint や Keynote は不要です。",
+          "es": "Diapositivas HTML puras: se abren y reproducen en el navegador, con gráficos dinámicos de Chart.js, temas con tokens de diseño y layouts responsive, además de fórmulas de copywriting integradas. Sin PowerPoint ni Keynote.",
+          "fr": "Des diapositives HTML pures : elles s'ouvrent directement dans le navigateur, avec graphiques dynamiques Chart.js, thèmes par design tokens et mises en page responsive, plus des formules de copywriting intégrées. Sans PowerPoint ni Keynote."
+        }
+      },
+      {
+        "question": {
+          "zh": "怎么安装 Slides 技能？",
+          "en": "How do I install the Slides skill?",
+          "ja": "Slides スキルをインストールするには？",
+          "es": "¿Cómo instalo la habilidad Slides?",
+          "fr": "Comment installer la compétence Slides ?"
+        },
+        "answer": {
+          "zh": "在 Claude Code、Cursor 或 Codex 的插件市场添加，命令见 GitHub README。使用时告诉 AI 演示主题和受众，它会规划叙事结构再逐页生成。",
+          "en": "Add it via the Claude Code, Cursor or Codex plugin marketplace — commands in the GitHub README. To use it, tell the AI your topic and audience; it plans the narrative structure first, then generates slide by slide.",
+          "ja": "Claude Code、Cursor、Codex のプラグインマーケットから追加します（コマンドは GitHub README 参照）。使うときはプレゼンのテーマと対象者を AI に伝えるだけ。ナラティブ構成を設計してからページごとに生成します。",
+          "es": "Añádela vía el marketplace de Claude Code, Cursor o Codex; comandos en el README de GitHub. Para usarla, dile a la IA el tema y la audiencia: planifica la estructura narrativa y genera diapositiva a diapositiva.",
+          "fr": "Ajoutez-la via le marketplace de Claude Code, Cursor ou Codex — commandes dans le README GitHub. Indiquez le sujet et l'audience à l'IA : elle planifie d'abord la structure narrative, puis génère page par page."
+        }
+      },
+      {
+        "question": {
+          "zh": "HTML 幻灯片怎么分享给别人？",
+          "en": "How do I share HTML slides with others?",
+          "ja": "HTML スライドはどうやって共有しますか？",
+          "es": "¿Cómo comparto las diapositivas HTML?",
+          "fr": "Comment partager les diapositives HTML ?"
+        },
+        "answer": {
+          "zh": "技能免费开源，产出是单个 HTML 文件——直接发文件、部署到任意静态托管（GitHub Pages、Vercel 等免费服务）分享链接，或在浏览器里用打印功能导出 PDF。",
+          "en": "The skill is free and open source, and the output is a single HTML file — send the file directly, deploy it to any static host (free services like GitHub Pages or Vercel) and share the link, or export to PDF via the browser print function.",
+          "ja": "スキルは無料のオープンソースで、成果物は単一の HTML ファイルです。ファイルをそのまま送る、静的ホスティング（GitHub Pages や Vercel などの無料サービス）にデプロイしてリンク共有する、ブラウザの印刷機能で PDF に書き出す、いずれも可能です。",
+          "es": "La habilidad es gratuita y de código abierto, y el resultado es un único archivo HTML: envíalo directamente, despliégalo en cualquier hosting estático (GitHub Pages, Vercel) y comparte el enlace, o exporta a PDF con la función de imprimir del navegador.",
+          "fr": "La compétence est gratuite et open source, et le résultat est un seul fichier HTML — envoyez-le directement, déployez-le sur un hébergement statique gratuit (GitHub Pages, Vercel) pour partager le lien, ou exportez en PDF via l'impression du navigateur."
+        }
+      }
+    ]
   },
   {
     "slug": "design",
@@ -304,7 +804,57 @@
     "installCommand": "Available via plugin marketplace. See README for details.",
     "logo": "/logos/skills/design.png",
     "stars": 600,
-    "featured": true
+    "featured": true,
+    "faqs": [
+      {
+        "question": {
+          "zh": "Design 技能和其它设计类技能是什么关系？",
+          "en": "How does the Design skill relate to the other design skills?",
+          "ja": "Design スキルは他のデザイン系スキルとどんな関係ですか？",
+          "es": "¿Cómo se relaciona la habilidad Design con las demás de diseño?",
+          "fr": "Quel est le lien entre la compétence Design et les autres compétences design ?"
+        },
+        "answer": {
+          "zh": "它是全家桶式的通用设计智能：一个技能覆盖品牌标识、设计 Token、UI 样式、Logo 生成和企业形象方案。如果只想装一个设计技能，装它；需要深耕单一领域再补装专项技能。",
+          "en": "It is the all-in-one design intelligence: one skill covering brand identity, design tokens, UI styling, logo generation and corporate identity programs. If you only install one design skill, make it this one; add specialized skills later for deeper needs.",
+          "ja": "オールインワンの汎用デザインインテリジェンスです。ブランドアイデンティティ、デザイントークン、UI スタイリング、ロゴ生成、CI プログラムを 1 つのスキルでカバー。デザイン系を 1 つだけ入れるならこれを選び、特定分野を深めたい場合に専門スキルを追加してください。",
+          "es": "Es la inteligencia de diseño todo en uno: una sola habilidad que cubre identidad de marca, tokens de diseño, estilizado UI, generación de logos y programas de identidad corporativa. Si solo instalas una habilidad de diseño, que sea esta.",
+          "fr": "C'est l'intelligence design tout-en-un : une seule compétence couvrant identité de marque, design tokens, styling UI, génération de logos et programmes d'identité visuelle. Si vous n'installez qu'une compétence design, choisissez celle-ci."
+        }
+      },
+      {
+        "question": {
+          "zh": "怎么安装 Design 技能？",
+          "en": "How do I install the Design skill?",
+          "ja": "Design スキルをインストールするには？",
+          "es": "¿Cómo instalo la habilidad Design?",
+          "fr": "Comment installer la compétence Design ?"
+        },
+        "answer": {
+          "zh": "通过 Claude Code、Cursor 或 Codex 的插件市场添加，命令见 GitHub README。安装后直接用自然语言下设计需求，例如\"给我的咖啡品牌设计一套 Logo 方案\"。",
+          "en": "Add it via the Claude Code, Cursor or Codex plugin marketplace — commands in the GitHub README. Once installed, issue design requests in plain language, e.g. \"design a logo system for my coffee brand\".",
+          "ja": "Claude Code、Cursor、Codex のプラグインマーケットから追加します（コマンドは GitHub README 参照）。導入後は「コーヒーブランドのロゴ案を作って」のように自然言語でデザイン依頼するだけです。",
+          "es": "Añádela vía el marketplace de Claude Code, Cursor o Codex; comandos en el README de GitHub. Una vez instalada, pide diseños en lenguaje natural, p. ej. \"diseña un sistema de logo para mi marca de café\".",
+          "fr": "Ajoutez-la via le marketplace de Claude Code, Cursor ou Codex — commandes dans le README GitHub. Ensuite, formulez vos demandes en langage naturel, p. ex. « conçois un système de logo pour ma marque de café »."
+        }
+      },
+      {
+        "question": {
+          "zh": "Design 技能免费吗？",
+          "en": "Is the Design skill free?",
+          "ja": "Design スキルは無料ですか？",
+          "es": "¿La habilidad Design es gratuita?",
+          "fr": "La compétence Design est-elle gratuite ?"
+        },
+        "answer": {
+          "zh": "技能本身免费开源。若工作流中调用 AI 图像生成（如 Logo 出图），图像部分的费用取决于你接入的生成模型服务；纯规范、Token 和代码类产出零成本。",
+          "en": "The skill itself is free and open source. If the workflow calls AI image generation (e.g. rendering logos), that portion depends on the image model service you connect; guideline, token and code outputs cost nothing.",
+          "ja": "スキル自体は無料のオープンソースです。ワークフロー内で AI 画像生成（ロゴの出力など）を呼び出す場合、その部分の費用は接続する生成モデルサービスに依存します。規範・トークン・コード類の成果物はゼロコストです。",
+          "es": "La habilidad en sí es gratuita y de código abierto. Si el flujo llama a generación de imágenes IA (p. ej. renderizar logos), esa parte depende del servicio de modelo que conectes; las guías, tokens y código no cuestan nada.",
+          "fr": "La compétence est gratuite et open source. Si le flux fait appel à la génération d'images IA (rendu de logos), cette partie dépend du service de modèle connecté ; les chartes, tokens et sorties de code ne coûtent rien."
+        }
+      }
+    ]
   },
   {
     "slug": "banner-design",
@@ -332,7 +882,57 @@
     "installCommand": "Available via plugin marketplace. See README for details.",
     "logo": "/logos/skills/banner-design.png",
     "stars": 600,
-    "featured": true
+    "featured": true,
+    "faqs": [
+      {
+        "question": {
+          "zh": "Banner Design 技能支持哪些平台和风格？",
+          "en": "What platforms and styles does the Banner Design skill support?",
+          "ja": "Banner Design スキルはどのプラットフォームとスタイルに対応していますか？",
+          "es": "¿Qué plataformas y estilos soporta la habilidad Banner Design?",
+          "fr": "Quelles plateformes et quels styles la compétence Banner Design prend-elle en charge ?"
+        },
+        "answer": {
+          "zh": "内置 22 种设计风格（极简、渐变、大字排版、玻璃拟态、复古、霓虹等），覆盖 Facebook、Twitter/X、LinkedIn、YouTube、Instagram 等社交平台封面、广告图、网站 Hero 图乃至印刷物的尺寸规范。",
+          "en": "It ships 22 design styles (minimalist, gradient, bold typography, glassmorphism, retro, neon and more) and covers size specs for Facebook, Twitter/X, LinkedIn, YouTube and Instagram covers, ad creatives, website heroes and even print.",
+          "ja": "22 種類のデザインスタイル（ミニマル、グラデーション、ボールドタイポグラフィ、グラスモーフィズム、レトロ、ネオンなど）を内蔵し、Facebook、Twitter/X、LinkedIn、YouTube、Instagram のカバー画像、広告、ウェブサイトのヒーロー画像、印刷物までのサイズ規格をカバーします。",
+          "es": "Incluye 22 estilos de diseño (minimalista, degradado, tipografía bold, glassmorphism, retro, neón y más) y cubre las especificaciones de tamaño para portadas de Facebook, Twitter/X, LinkedIn, YouTube e Instagram, anuncios, heros de web e impresión.",
+          "fr": "Elle embarque 22 styles de design (minimaliste, dégradé, typographie bold, glassmorphism, rétro, néon…) et couvre les formats pour Facebook, Twitter/X, LinkedIn, YouTube, Instagram, les créations publicitaires, les heros de sites web et même l'impression."
+        }
+      },
+      {
+        "question": {
+          "zh": "怎么安装 Banner Design 技能？",
+          "en": "How do I install the Banner Design skill?",
+          "ja": "Banner Design スキルをインストールするには？",
+          "es": "¿Cómo instalo la habilidad Banner Design?",
+          "fr": "Comment installer la compétence Banner Design ?"
+        },
+        "answer": {
+          "zh": "在 Claude Code、Cursor 或 Codex 插件市场添加，命令见 GitHub README。使用时说明平台、文案和期望风格，AI 会给出多个艺术方向供选择再产出成品。",
+          "en": "Add it via the Claude Code, Cursor or Codex plugin marketplace — commands in the GitHub README. Specify the platform, copy and desired style; the AI proposes several art directions before producing the final asset.",
+          "ja": "Claude Code、Cursor、Codex のプラグインマーケットから追加します（コマンドは GitHub README 参照）。プラットフォーム、コピー、希望スタイルを伝えると、AI が複数のアートディレクション案を提示してから成果物を生成します。",
+          "es": "Añádela vía el marketplace de Claude Code, Cursor o Codex; comandos en el README de GitHub. Indica la plataforma, el texto y el estilo deseado: la IA propone varias direcciones artísticas antes de producir el resultado final.",
+          "fr": "Ajoutez-la via le marketplace de Claude Code, Cursor ou Codex — commandes dans le README GitHub. Précisez la plateforme, le texte et le style souhaité ; l'IA propose plusieurs directions artistiques avant de produire l'asset final."
+        }
+      },
+      {
+        "question": {
+          "zh": "不会设计的人能用好它吗？",
+          "en": "Can non-designers get good results with it?",
+          "ja": "デザイン未経験でも使いこなせますか？",
+          "es": "¿Puede alguien sin conocimientos de diseño obtener buenos resultados?",
+          "fr": "Un non-designer peut-il obtenir de bons résultats ?"
+        },
+        "answer": {
+          "zh": "可以，这正是它的价值：免费开源，把尺寸规范、排版原则、风格体系都固化在技能里，你只需要提供文案和偏好，产出就能达到及格线以上的专业水准。",
+          "en": "Yes — that is exactly its value. Free and open source, it bakes size specs, typography principles and style systems into the skill; you only supply the copy and preferences, and the output reaches professional baseline quality.",
+          "ja": "はい、それこそがこのスキルの価値です。無料のオープンソースで、サイズ規格、タイポグラフィ原則、スタイル体系がスキルに組み込まれています。コピーと好みを伝えるだけで、プロ水準の成果物が得られます。",
+          "es": "Sí, ese es precisamente su valor. Gratuita y de código abierto, incorpora especificaciones de tamaño, principios tipográficos y sistemas de estilo; solo aportas el texto y tus preferencias, y el resultado alcanza calidad profesional.",
+          "fr": "Oui — c'est précisément sa valeur. Gratuite et open source, elle intègre formats, principes typographiques et systèmes de style ; vous fournissez seulement le texte et vos préférences, et le résultat atteint un niveau professionnel."
+        }
+      }
+    ]
   },
   {
     "slug": "awesome-selfhosted",
@@ -357,7 +957,57 @@
     "installCommand": "See README for details.",
     "logo": "/logos/skills/awesome-selfhosted.png",
     "stars": 210000,
-    "featured": true
+    "featured": true,
+    "faqs": [
+      {
+        "question": {
+          "zh": "Awesome Selfhosted 是什么？",
+          "en": "What is Awesome Selfhosted?",
+          "ja": "Awesome Selfhosted とは何ですか？",
+          "es": "¿Qué es Awesome Selfhosted?",
+          "fr": "Qu'est-ce qu'Awesome Selfhosted ?"
+        },
+        "answer": {
+          "zh": "它是 GitHub 上最权威的自托管软件精选清单，收录 400+ 可以部署在自己服务器上的开源方案，按 CMS、分析、通信、存储、自动化等类别索引，是逃离 SaaS 订阅、掌控自己数据的地图。",
+          "en": "It is the most authoritative curated list of self-hosted software on GitHub: 400+ open-source solutions you can run on your own server, indexed by category — CMS, analytics, communication, storage, automation and more. A map for escaping SaaS subscriptions and owning your data.",
+          "ja": "GitHub で最も権威あるセルフホストソフトウェアの精選リストです。自分のサーバーで運用できる 400 以上のオープンソースソリューションを、CMS、分析、コミュニケーション、ストレージ、自動化などのカテゴリ別に索引化。SaaS 課金から脱出し、データを自分で管理するための地図です。",
+          "es": "Es la lista curada más autorizada de software autoalojado en GitHub: más de 400 soluciones open source para tu propio servidor, indexadas por categoría (CMS, analítica, comunicación, almacenamiento, automatización). Un mapa para escapar de las suscripciones SaaS.",
+          "fr": "C'est la liste organisée la plus reconnue de logiciels auto-hébergés sur GitHub : plus de 400 solutions open source à déployer sur votre propre serveur, indexées par catégorie — CMS, analytique, communication, stockage, automatisation. Une carte pour échapper aux abonnements SaaS et posséder vos données."
+        }
+      },
+      {
+        "question": {
+          "zh": "作为 AI 技能它怎么用？",
+          "en": "How is it used as an AI skill?",
+          "ja": "AI スキルとしてはどう使いますか？",
+          "es": "¿Cómo se usa como habilidad de IA?",
+          "fr": "Comment l'utiliser comme compétence IA ?"
+        },
+        "answer": {
+          "zh": "把清单数据交给 AI 后，你可以直接用自然语言咨询：\"帮我选一个能替代 Notion 的自托管方案\"，AI 会基于清单比较各选项的活跃度、技术栈和部署要求给出建议。用法详见 GitHub README。",
+          "en": "With the list in the AI context, you can consult in plain language: \"find me a self-hosted alternative to Notion\" — the AI compares options by activity, tech stack and deployment requirements. See the GitHub README for usage.",
+          "ja": "リストのデータを AI に渡せば、「Notion の代わりになるセルフホスト方案を選んで」のように自然言語で相談できます。AI がリストに基づき各選択肢の活発度、技術スタック、デプロイ要件を比較して提案します。使い方は GitHub README を参照してください。",
+          "es": "Con la lista en el contexto de la IA, puedes consultar en lenguaje natural: \"búscame una alternativa autoalojada a Notion\". La IA compara opciones por actividad, stack tecnológico y requisitos de despliegue. Consulta el README de GitHub.",
+          "fr": "Avec la liste dans le contexte de l'IA, consultez en langage naturel : « trouve-moi une alternative auto-hébergée à Notion » — l'IA compare les options selon l'activité, la stack technique et les exigences de déploiement. Voir le README GitHub."
+        }
+      },
+      {
+        "question": {
+          "zh": "清单里的软件都免费吗？",
+          "en": "Is all the software on the list free?",
+          "ja": "リスト内のソフトウェアはすべて無料ですか？",
+          "es": "¿Todo el software de la lista es gratuito?",
+          "fr": "Tous les logiciels de la liste sont-ils gratuits ?"
+        },
+        "answer": {
+          "zh": "清单本身免费开源，收录的绝大多数是免费开源软件，少数为源码可见的商业产品（清单会明确标注协议）。自托管的真实成本主要是服务器和你的维护时间。",
+          "en": "The list itself is free and open source. The vast majority of entries are free open-source software, with a few source-available commercial products (licenses are clearly labeled). The real cost of self-hosting is the server and your maintenance time.",
+          "ja": "リスト自体は無料のオープンソースです。掲載ソフトの大多数は無料のオープンソースで、一部ソースコード公開型の商用製品もあります（ライセンスは明記されています）。セルフホストの実際のコストは、サーバー代とあなたのメンテナンス時間です。",
+          "es": "La lista es gratuita y de código abierto. La gran mayoría de las entradas son software libre; unas pocas son productos comerciales con código visible (las licencias están claramente etiquetadas). El coste real del autoalojamiento es el servidor y tu tiempo de mantenimiento.",
+          "fr": "La liste est gratuite et open source. La grande majorité des entrées sont des logiciels libres, quelques-unes des produits commerciaux à code visible (licences clairement indiquées). Le vrai coût de l'auto-hébergement : le serveur et votre temps de maintenance."
+        }
+      }
+    ]
   },
   {
     "slug": "media-crawler",
@@ -382,7 +1032,57 @@
     "installCommand": "See README for installation instructions.",
     "logo": "/logos/skills/media-crawler.png",
     "stars": 25000,
-    "featured": true
+    "featured": true,
+    "faqs": [
+      {
+        "question": {
+          "zh": "Media Crawler 支持哪些平台？",
+          "en": "Which platforms does Media Crawler support?",
+          "ja": "Media Crawler はどのプラットフォームに対応していますか？",
+          "es": "¿Qué plataformas soporta Media Crawler?",
+          "fr": "Quelles plateformes Media Crawler prend-il en charge ?"
+        },
+        "answer": {
+          "zh": "覆盖中国主流自媒体平台：小红书、抖音、快手、B 站、微博、知乎等，可抓取笔记、视频信息、评论等公开内容，适合内容选题研究、舆情分析和数据洞察。",
+          "en": "It covers major Chinese social media platforms: Xiaohongshu (RED), Douyin, Kuaishou, Bilibili, Weibo, Zhihu and more, scraping public content like posts, video metadata and comments — useful for content research, sentiment analysis and data insights.",
+          "ja": "中国の主要ソーシャルメディアをカバーします。小紅書（RED）、抖音、快手、Bilibili、微博、知乎などから、投稿、動画情報、コメントなどの公開コンテンツを収集可能。コンテンツ企画のリサーチ、世論分析、データ洞察に役立ちます。",
+          "es": "Cubre las principales plataformas sociales chinas: Xiaohongshu (RED), Douyin, Kuaishou, Bilibili, Weibo, Zhihu y más, extrayendo contenido público como publicaciones, metadatos de vídeo y comentarios. Útil para investigación de contenido y análisis de tendencias.",
+          "fr": "Il couvre les principales plateformes sociales chinoises : Xiaohongshu (RED), Douyin, Kuaishou, Bilibili, Weibo, Zhihu, etc., en collectant du contenu public — publications, métadonnées vidéo, commentaires. Utile pour la recherche de contenu et l'analyse de tendances."
+        }
+      },
+      {
+        "question": {
+          "zh": "怎么安装 Media Crawler？",
+          "en": "How do I install Media Crawler?",
+          "ja": "Media Crawler をインストールするには？",
+          "es": "¿Cómo instalo Media Crawler?",
+          "fr": "Comment installer Media Crawler ?"
+        },
+        "answer": {
+          "zh": "它是 Python 项目：克隆 GitHub 仓库，安装依赖后按 README 配置目标平台与登录态即可运行。配合 AI 智能体使用时，可让 AI 解读抓取结果、生成分析报告。",
+          "en": "It is a Python project: clone the GitHub repository, install dependencies, then configure target platforms and login state per the README. Paired with an AI agent, the AI can interpret scraped results and generate analysis reports.",
+          "ja": "Python プロジェクトです。GitHub リポジトリをクローンし、依存関係をインストール後、README に従って対象プラットフォームとログイン状態を設定すれば動きます。AI エージェントと組み合わせれば、収集結果の解釈や分析レポートの生成を AI に任せられます。",
+          "es": "Es un proyecto Python: clona el repositorio de GitHub, instala las dependencias y configura las plataformas objetivo y el estado de sesión según el README. Junto a un agente de IA, este puede interpretar los resultados y generar informes de análisis.",
+          "fr": "C'est un projet Python : clonez le dépôt GitHub, installez les dépendances, puis configurez les plateformes cibles et l'état de connexion selon le README. Associé à un agent IA, celui-ci peut interpréter les résultats et générer des rapports d'analyse."
+        }
+      },
+      {
+        "question": {
+          "zh": "使用 Media Crawler 合法合规吗？",
+          "en": "Is using Media Crawler legal and compliant?",
+          "ja": "Media Crawler の利用は合法・コンプライアンスに適合しますか？",
+          "es": "¿Es legal usar Media Crawler?",
+          "fr": "L'utilisation de Media Crawler est-elle légale ?"
+        },
+        "answer": {
+          "zh": "工具免费开源，仅限学习研究用途。抓取行为需遵守各平台服务条款和所在地法律法规：控制频率、只取公开数据、不用于商业售卖或侵犯隐私，风险由使用者自行承担。",
+          "en": "The tool is free and open source, intended for learning and research only. Scraping must respect each platform’s terms of service and local laws: throttle request rates, collect only public data, and never use it for commercial resale or privacy violations. Users bear the risk.",
+          "ja": "ツールは無料のオープンソースで、学習・研究用途に限定されています。スクレイピングは各プラットフォームの利用規約と現地の法令を遵守する必要があります。頻度を抑え、公開データのみを取得し、商用転売やプライバシー侵害には使わないこと。リスクは利用者負担です。",
+          "es": "La herramienta es gratuita y de código abierto, destinada solo a aprendizaje e investigación. El scraping debe respetar los términos de cada plataforma y las leyes locales: limita la frecuencia, recoge solo datos públicos y nunca lo uses para reventa comercial o violación de privacidad.",
+          "fr": "L'outil est gratuit et open source, destiné uniquement à l'apprentissage et à la recherche. Le scraping doit respecter les CGU de chaque plateforme et les lois locales : limitez la fréquence, ne collectez que des données publiques, jamais pour la revente commerciale ou l'atteinte à la vie privée."
+        }
+      }
+    ]
   },
   {
     "slug": "pyvideotrans",
@@ -407,6 +1107,56 @@
     "installCommand": "pip install pyvideotrans",
     "logo": "/logos/skills/pyvideotrans.png",
     "stars": 12400,
-    "featured": true
+    "featured": true,
+    "faqs": [
+      {
+        "question": {
+          "zh": "PyVideoTrans 能做什么？",
+          "en": "What can PyVideoTrans do?",
+          "ja": "PyVideoTrans で何ができますか？",
+          "es": "¿Qué puede hacer PyVideoTrans?",
+          "fr": "Que peut faire PyVideoTrans ?"
+        },
+        "answer": {
+          "zh": "一站式视频翻译配音：自动识别视频语音、生成并翻译字幕、合成目标语言配音，最终输出带新配音和字幕的视频。把中文视频变成英语、日语版只需几步。",
+          "en": "One-stop video translation and dubbing: it recognizes speech in the video, generates and translates subtitles, synthesizes voice-over in the target language, and outputs a video with new dubbing and subtitles. Turning a Chinese video into English or Japanese takes just a few steps.",
+          "ja": "ワンストップの動画翻訳・吹き替えツールです。動画の音声を自動認識し、字幕を生成・翻訳し、目標言語の音声を合成して、新しい吹き替えと字幕付きの動画を出力します。中国語動画を英語版や日本語版にするのも数ステップです。",
+          "es": "Traducción y doblaje de vídeo todo en uno: reconoce el habla del vídeo, genera y traduce subtítulos, sintetiza la voz en el idioma objetivo y produce un vídeo con nuevo doblaje y subtítulos. Convertir un vídeo chino al inglés o japonés lleva solo unos pasos.",
+          "fr": "Traduction et doublage vidéo tout-en-un : il reconnaît la parole, génère et traduit les sous-titres, synthétise la voix dans la langue cible et produit une vidéo avec nouveau doublage et sous-titres. Passer une vidéo chinoise en anglais ou japonais ne prend que quelques étapes."
+        }
+      },
+      {
+        "question": {
+          "zh": "怎么安装 PyVideoTrans？",
+          "en": "How do I install PyVideoTrans?",
+          "ja": "PyVideoTrans をインストールするには？",
+          "es": "¿Cómo instalo PyVideoTrans?",
+          "fr": "Comment installer PyVideoTrans ?"
+        },
+        "answer": {
+          "zh": "Python 环境下运行 pip install pyvideotrans，Windows 用户也可以从 GitHub 下载预打包版本直接使用。支持接入多种语音识别与合成引擎，详细配置见 README。",
+          "en": "Run pip install pyvideotrans in a Python environment; Windows users can also download the prepackaged build from GitHub. Multiple speech recognition and synthesis engines are supported — see the README for configuration.",
+          "ja": "Python 環境で pip install pyvideotrans を実行します。Windows ユーザーは GitHub からパッケージ済みビルドをダウンロードしてそのまま使うこともできます。複数の音声認識・合成エンジンに対応しており、詳細設定は README を参照してください。",
+          "es": "Ejecuta pip install pyvideotrans en un entorno Python; los usuarios de Windows también pueden descargar la versión empaquetada desde GitHub. Soporta varios motores de reconocimiento y síntesis de voz; consulta el README para la configuración.",
+          "fr": "Exécutez pip install pyvideotrans dans un environnement Python ; les utilisateurs Windows peuvent aussi télécharger la version préempaquetée sur GitHub. Plusieurs moteurs de reconnaissance et de synthèse vocale sont pris en charge — voir le README."
+        }
+      },
+      {
+        "question": {
+          "zh": "PyVideoTrans 免费吗？翻译质量怎么样？",
+          "en": "Is PyVideoTrans free? How good is the translation quality?",
+          "ja": "PyVideoTrans は無料ですか？翻訳品質はどうですか？",
+          "es": "¿PyVideoTrans es gratuito? ¿Qué tal la calidad de traducción?",
+          "fr": "PyVideoTrans est-il gratuit ? Quelle est la qualité de traduction ?"
+        },
+        "answer": {
+          "zh": "软件免费开源。识别、翻译、配音引擎均可自选：全用免费引擎（如本地 Whisper + 免费 TTS）零成本但质量一般；接入付费 API 可显著提升配音自然度，成本由所选服务决定。",
+          "en": "The software is free and open source. Recognition, translation and dubbing engines are pluggable: an all-free stack (local Whisper + free TTS) costs nothing with acceptable quality, while paid APIs noticeably improve voice naturalness — cost depends on the services you pick.",
+          "ja": "ソフトウェアは無料のオープンソースです。認識・翻訳・吹き替えエンジンは自由に選択可能。すべて無料エンジン（ローカル Whisper + 無料 TTS）ならゼロコストで実用的な品質、有料 API を接続すれば音声の自然さが大きく向上します。コストは選ぶサービス次第です。",
+          "es": "El software es gratuito y de código abierto. Los motores de reconocimiento, traducción y doblaje son intercambiables: una pila totalmente gratuita (Whisper local + TTS gratis) no cuesta nada con calidad aceptable; las APIs de pago mejoran notablemente la naturalidad de la voz.",
+          "fr": "Le logiciel est gratuit et open source. Les moteurs de reconnaissance, traduction et doublage sont interchangeables : une pile entièrement gratuite (Whisper local + TTS gratuit) ne coûte rien avec une qualité correcte ; les API payantes améliorent nettement le naturel de la voix."
+        }
+      }
+    ]
   }
 ]

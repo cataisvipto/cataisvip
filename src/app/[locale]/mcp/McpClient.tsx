@@ -8,6 +8,7 @@ import Breadcrumb from '@/components/Breadcrumb';
 import { Link } from '@/i18n/navigation';
 import Image from 'next/image';
 import { Star, GitFork, ExternalLink, Plug } from 'lucide-react';
+import type { FaqItem } from '@/components/FaqSection';
 
 export interface McpServer {
   slug: string;
@@ -28,6 +29,7 @@ export interface McpServer {
   logo: string;
   stars: number;
   featured: boolean;
+  faqs?: FaqItem[];
 }
 
 const getLocalizedMcpDescription = (entry: McpServer, locale: string) => {
@@ -75,8 +77,10 @@ export default function McpClient({ servers, locale, starsMap }: McpClientProps)
 
   // Filter servers
   const filtered = servers.filter((entry) => {
-    const nameMatch = displayName(entry).toLowerCase().includes(searchQuery.toLowerCase()) ||
-      entry.descriptionEn.toLowerCase().includes(searchQuery.toLowerCase());
+    const q = searchQuery.toLowerCase();
+    const nameMatch = displayName(entry).toLowerCase().includes(q) ||
+      entry.descriptionEn.toLowerCase().includes(q) ||
+      getLocalizedMcpDescription(entry, locale).toLowerCase().includes(q);
     const clientMatch = selectedClient === 'all' || entry.clients.includes(selectedClient);
     const categoryMatch = selectedCategory === 'all' || entry.category === selectedCategory;
     return nameMatch && clientMatch && categoryMatch;
@@ -156,7 +160,7 @@ export default function McpClient({ servers, locale, starsMap }: McpClientProps)
                   : 'bg-[var(--muted-bg)] text-[var(--muted)] hover:text-[var(--primary)] border border-[var(--card-border)]'
               }`}
             >
-              {cat}
+              {tMcp(`categories.${cat}`)}
             </button>
           ))}
         </div>
@@ -196,7 +200,7 @@ export default function McpClient({ servers, locale, starsMap }: McpClientProps)
                   <h3 className="font-semibold text-[var(--foreground)] truncate group-hover/header:text-[var(--primary)] transition">
                     {displayName(entry)}
                   </h3>
-                  <span className="text-xs text-[var(--muted)]">{entry.category}</span>
+                  <span className="text-xs text-[var(--muted)]">{tMcp(`categories.${entry.category}`)}</span>
                 </div>
               </Link>
 

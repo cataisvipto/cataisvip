@@ -8,6 +8,7 @@ import Footer from '@/components/Footer';
 import Breadcrumb from '@/components/Breadcrumb';
 import Image from 'next/image';
 import { Star, GitFork, ExternalLink, Plug, Copy, Check, Terminal, ArrowLeft, Building2 } from 'lucide-react';
+import FaqSection from '@/components/FaqSection';
 import type { McpServer } from '../McpClient';
 
 const getLocalizedMcpDescription = (server: McpServer, locale: string) => {
@@ -57,6 +58,7 @@ export default function McpDetailClient({ server, locale, readmeInstallHtml, git
   };
 
   // Click-to-copy for code blocks in README installation section via event delegation
+  const copiedLabel = t('copied');
   useEffect(() => {
     const container = document.querySelector('.readme-install');
     if (!container) return;
@@ -71,16 +73,37 @@ export default function McpDetailClient({ server, locale, readmeInstallHtml, git
       navigator.clipboard.writeText(code.textContent || '');
       // Brief visual feedback
       const original = btn.textContent;
-      btn.textContent = 'Copied!';
+      btn.textContent = copiedLabel;
       setTimeout(() => { btn.textContent = original; }, 1500);
     };
 
     container.addEventListener('click', handleClick);
     return () => container.removeEventListener('click', handleClick);
-  }, [readmeInstallHtml]);
+  }, [readmeInstallHtml, copiedLabel]);
+
+  // JSON-LD structured data for SEO (aligned with ToolDetailClient convention)
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'SoftwareApplication',
+    name: displayName,
+    applicationCategory: 'DeveloperApplication',
+    operatingSystem: 'Cross-platform',
+    url: `https://github.com/${server.repo}`,
+    image: server.logo,
+    description: getLocalizedMcpDescription(server, locale),
+    offers: {
+      '@type': 'Offer',
+      price: server.tags.includes('Free') ? '0' : '',
+      priceCurrency: 'USD',
+    },
+  };
 
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <Header searchQuery={searchQuery} onSearchChange={setSearchQuery} locale={locale} />
       <main className="flex-1 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <Breadcrumb
@@ -121,7 +144,7 @@ export default function McpDetailClient({ server, locale, readmeInstallHtml, git
                   </div>
                   <div className="flex items-center gap-2 text-[var(--muted)] mb-3">
                     <Plug className="w-4 h-4" />
-                    <span className="text-sm">{server.category}</span>
+                    <span className="text-sm">{tMcp(`categories.${server.category}`)}</span>
                   </div>
 
                   {/* Repo & Stars */}
@@ -139,7 +162,7 @@ export default function McpDetailClient({ server, locale, readmeInstallHtml, git
                     </span>
                     <span className="flex items-center gap-1.5">
                       <Star className="w-4 h-4" />
-                      {stars.toLocaleString()} stars
+                      {stars.toLocaleString()} {tMcp('starsLabel')}
                     </span>
                   </div>
 
@@ -197,34 +220,36 @@ export default function McpDetailClient({ server, locale, readmeInstallHtml, git
                 <Terminal className="w-5 h-5 text-indigo-500" />
                 {tMcp('install')}
               </h2>
-              {readmeInstallHtml ? (
-                <div className="bg-[var(--card-bg)] border border-[var(--card-border)] rounded-lg p-5 overflow-x-auto">
-                  <div
-                    className="readme-install text-sm leading-relaxed"
-                    dangerouslySetInnerHTML={{ __html: readmeInstallHtml }}
-                  />
+              <div className="flex items-stretch">
+                <div className="code-install-box flex-1 border border-[var(--card-border)] rounded-l-lg px-4 py-3 overflow-x-auto">
+                  <code className="code-install-text text-sm font-mono whitespace-nowrap select-all">{server.installCommand}</code>
                 </div>
-              ) : (
-                <div className="flex items-stretch">
-                  <div className="code-install-box flex-1 border border-[var(--card-border)] rounded-l-lg px-4 py-3 overflow-x-auto">
-                    <code className="code-install-text text-sm font-mono whitespace-nowrap select-all">{server.installCommand}</code>
+                <button
+                  onClick={handleCopyCommand}
+                  className="code-install-btn flex items-center gap-1.5 px-4 py-3 border border-l-0 border-[var(--card-border)] rounded-r-lg text-xs font-medium hover:text-white hover:bg-[var(--primary)]/20 transition-all"
+                >
+                  {copied ? (
+                    <>
+                      <Check className="w-4 h-4 text-emerald-400" />
+                      <span className="text-emerald-400">{t('copied')}</span>
+                    </>
+                  ) : (
+                    <>
+                      <Copy className="w-4 h-4" />
+                      <span>{tMcp('copyCommand')}</span>
+                    </>
+                  )}
+                </button>
+              </div>
+              {readmeInstallHtml && (
+                <div className="mt-5">
+                  <p className="text-sm font-medium text-[var(--muted)] mb-2">{tMcp('officialGuide')}</p>
+                  <div className="bg-[var(--card-bg)] border border-[var(--card-border)] rounded-lg p-5 overflow-x-auto">
+                    <div
+                      className="readme-install text-sm leading-relaxed"
+                      dangerouslySetInnerHTML={{ __html: readmeInstallHtml }}
+                    />
                   </div>
-                  <button
-                    onClick={handleCopyCommand}
-                    className="code-install-btn flex items-center gap-1.5 px-4 py-3 border border-l-0 border-[var(--card-border)] rounded-r-lg text-xs font-medium hover:text-white hover:bg-[var(--primary)]/20 transition-all"
-                  >
-                    {copied ? (
-                      <>
-                        <Check className="w-4 h-4 text-emerald-400" />
-                        <span className="text-emerald-400">{t('copied')}</span>
-                      </>
-                    ) : (
-                      <>
-                        <Copy className="w-4 h-4" />
-                        <span>{tMcp('copyCommand')}</span>
-                      </>
-                    )}
-                  </button>
                 </div>
               )}
             </div>
@@ -250,6 +275,9 @@ export default function McpDetailClient({ server, locale, readmeInstallHtml, git
               </Link>
             </div>
           </div>
+
+          {/* FAQ */}
+          <FaqSection faqs={server.faqs} locale={locale} title={tMcp('faqTitle')} />
         </article>
       </main>
       <Footer />
