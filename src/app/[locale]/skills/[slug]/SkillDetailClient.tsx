@@ -7,7 +7,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Breadcrumb from '@/components/Breadcrumb';
 import Image from 'next/image';
-import { Star, GitFork, ExternalLink, Code2, Copy, Check, Terminal, ArrowLeft, Building2 } from 'lucide-react';
+import { Star, GitFork, ExternalLink, Code2, Copy, Check, Terminal, ArrowLeft, Building2, ChevronDown } from 'lucide-react';
 import FaqSection from '@/components/FaqSection';
 import type { Skill } from '../SkillsClient';
 
@@ -244,15 +244,19 @@ export default function SkillDetailClient({ skill, locale, readmeInstallHtml, gi
                 </button>
               </div>
               {readmeInstallHtml && (
-                <div className="mt-5">
-                  <p className="text-sm font-medium text-[var(--muted)] mb-2">{tSkills('officialGuide')}</p>
+                /* English README guide: collapsed by default on non-English locales */
+                <details className="group mt-5" open={locale === 'en'}>
+                  <summary className="flex items-center gap-1.5 cursor-pointer list-none text-sm font-medium text-[var(--muted)] hover:text-[var(--primary)] transition mb-2 [&::-webkit-details-marker]:hidden">
+                    <span>{tSkills('officialGuide')}</span>
+                    <ChevronDown className="w-4 h-4 shrink-0 transition-transform group-open:rotate-180" />
+                  </summary>
                   <div className="bg-[var(--card-bg)] border border-[var(--card-border)] rounded-lg p-5 overflow-x-auto">
                     <div
                       className="readme-install text-sm leading-relaxed"
                       dangerouslySetInnerHTML={{ __html: readmeInstallHtml }}
                     />
                   </div>
-                </div>
+                </details>
               )}
             </div>
 
