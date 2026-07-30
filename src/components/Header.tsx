@@ -2,7 +2,7 @@
 
 import { useTranslations } from 'next-intl';
 import { Link, usePathname } from '@/i18n/navigation';
-import { Search, Globe, Send, ChevronDown, Newspaper, Code2, Menu, X, Home, LayoutGrid, Trophy } from 'lucide-react';
+import { Search, Globe, Send, ChevronDown, Newspaper, Code2, Menu, X, Home, LayoutGrid, Trophy, Plug } from 'lucide-react';
 import { useState, useRef, useEffect } from 'react';
 import ThemeToggle from './ThemeToggle';
 import LogoCompact from './Logo/LogoCompact';
@@ -40,6 +40,7 @@ export default function Header({ searchQuery, onSearchChange, locale }: HeaderPr
   const isHome = pathname === '/';
   const isCategory = pathname.startsWith('/category');
   const isSkills = pathname.startsWith('/skills');
+  const isMcp = pathname.startsWith('/mcp');
   const isRanking = pathname.startsWith('/ranking');
   const isBlog = pathname.startsWith('/blog');
 
@@ -112,6 +113,11 @@ export default function Header({ searchQuery, onSearchChange, locale }: HeaderPr
             <Link href="/skills" className={`${navBase} ${isSkills ? navActive : navIdle}`}>
               <Code2 className="w-4 h-4" />
               {t('nav.skills')}
+            </Link>
+
+            <Link href="/mcp" className={`${navBase} ${isMcp ? navActive : navIdle}`}>
+              <Plug className="w-4 h-4" />
+              {t('nav.mcp')}
             </Link>
 
             <Link href="/ranking" className={`${navBase} ${isRanking ? navActive : navIdle}`}>
@@ -235,6 +241,14 @@ export default function Header({ searchQuery, onSearchChange, locale }: HeaderPr
             >
               <Code2 className="w-4 h-4" />
               {t('nav.skills')}
+            </Link>
+            <Link
+              href="/mcp"
+              onClick={() => setMobileMenuOpen(false)}
+              className="flex items-center gap-2 px-3 py-2.5 text-sm text-[var(--foreground)] hover:text-[var(--primary)] hover:bg-[var(--primary)]/5 rounded-lg transition"
+            >
+              <Plug className="w-4 h-4" />
+              {t('nav.mcp')}
             </Link>
             <Link
               href="/ranking"

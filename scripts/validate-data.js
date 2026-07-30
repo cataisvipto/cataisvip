@@ -352,7 +352,66 @@ console.log('🔍 数据文件结构验证开始\n');
 validateTools();
 validateToolDetails();
 validateBlogPosts();
+// ─── 5. mcp.json ────────────────────────────────
+function validateMcp() {
+  console.log('\n━━━ mcp.json ━━━');
+  const data = loadJSON('mcp.json');
+  if (!data) return;
+
+  if (!Array.isArray(data)) {
+    error('期望数组，实际为 ' + typeof data);
+    return;
+  }
+  ok(`共 ${data.length} 个 MCP 服务器`);
+
+  const REQUIRED_FIELDS = ['slug', 'name', 'nameZh', 'description', 'descriptionEn', 'descriptionJa', 'descriptionEs', 'descriptionFr', 'developer', 'developerZh', 'repo', 'clients', 'category', 'tags', 'installCommand', 'logo', 'stars', 'featured'];
+  const slugs = new Set();
+
+  data.forEach((entry, i) => {
+    const prefix = `mcp[${i}]`;
+
+    // 必填字段
+    for (const field of REQUIRED_FIELDS) {
+      if (!(field in entry)) {
+        error(`${prefix} (${entry.slug || '?'}): 缺少必填字段 "${field}"`);
+      }
+    }
+
+    // slug 唯一性
+    if (entry.slug) {
+      if (slugs.has(entry.slug)) {
+        error(`${prefix}: slug "${entry.slug}" 重复`);
+      }
+      slugs.add(entry.slug);
+    }
+
+    // 五语言描述检查
+    const descFields = ['description', 'descriptionEn', 'descriptionJa', 'descriptionEs', 'descriptionFr'];
+    for (const field of descFields) {
+      if (field in entry && (typeof entry[field] !== 'string' || entry[field].trim() === '')) {
+        error(`${prefix} (${entry.slug}): ${field} 应为非空字符串`);
+      }
+    }
+
+    // clients 应为数组
+    if ('clients' in entry && !Array.isArray(entry.clients)) {
+      error(`${prefix} (${entry.slug}): clients 应为数组`);
+    }
+
+    // tags 应为数组
+    if ('tags' in entry && !Array.isArray(entry.tags)) {
+      error(`${prefix} (${entry.slug}): tags 应为数组`);
+    }
+
+    // stars 应为数字
+    if ('stars' in entry && typeof entry.stars !== 'number') {
+      error(`${prefix} (${entry.slug}): stars 应为数字`);
+    }
+  });
+}
+
 validateSkills();
+validateMcp();
 validateCrossReferences();
 
 console.log('\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');

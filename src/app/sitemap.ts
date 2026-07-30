@@ -2,6 +2,7 @@ import { MetadataRoute } from 'next';
 import tools from '@/data/tools.json';
 import blogPosts from '@/data/blogPosts.json';
 import skills from '@/data/skills.json';
+import mcpServers from '@/data/mcp.json';
 import { routing } from '@/i18n/routing';
 import { CATEGORY_SLUGS } from '@/lib/categories';
 
@@ -10,13 +11,13 @@ const BASE_URL = 'https://cataito.com';
 export default function sitemap(): MetadataRoute.Sitemap {
   const locales = routing.locales;
 
-  // Static pages（/tools /skills 为列表页，权重高于普通静态页）
-  const staticPages = ['', '/tools', '/skills', '/submit', '/about', '/privacy', '/disclaimer', '/editorial-policy', '/blog', '/ranking'].flatMap((path) =>
+  // Static pages（/tools /skills /mcp 为列表页，权重高于普通静态页）
+  const staticPages = ['', '/tools', '/skills', '/mcp', '/submit', '/about', '/privacy', '/disclaimer', '/editorial-policy', '/blog', '/ranking'].flatMap((path) =>
     locales.map((locale) => ({
       url: `${BASE_URL}/${locale}${path}`,
       lastModified: new Date(),
       changeFrequency: 'weekly' as const,
-      priority: path === '' ? 1.0 : path === '/tools' || path === '/skills' ? 0.9 : 0.5,
+      priority: path === '' ? 1.0 : path === '/tools' || path === '/skills' || path === '/mcp' ? 0.9 : 0.5,
     }))
   );
 
@@ -60,5 +61,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }))
   );
 
-  return [...staticPages, ...categoryPages, ...toolPages, ...blogPages, ...skillPages];
+  // MCP server detail pages
+  const mcpPages = mcpServers.flatMap((entry: any) =>
+    locales.map((locale) => ({
+      url: `${BASE_URL}/${locale}/mcp/${entry.slug}`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.7,
+    }))
+  );
+
+  return [...staticPages, ...categoryPages, ...toolPages, ...blogPages, ...skillPages, ...mcpPages];
 }

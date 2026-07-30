@@ -24,6 +24,7 @@
     "home": "Home",
     "categories": "Categories",
     "skills": "Skills",
+    "mcp": "MCP",
     "ranking": "Rankings",
     "blog": "Blog",
     "submit": "Submit Resource",
@@ -394,5 +395,24 @@
     "error": "Subscription failed. Please try again.",
     "invalidEmail": "Please enter a valid email address",
     "privacy": "We respect your privacy. Unsubscribe at any time."
+  },
+  "mcp": {
+    "metaTitle": "MCP Servers Directory — Model Context Protocol",
+    "metaDescription": "Discover the best Model Context Protocol (MCP) servers for AI agents. Official and community servers with install commands and live GitHub stars: GitHub, Playwright, Context7 and more.",
+    "title": "MCP Servers",
+    "subtitle": "Connect your AI agents to the world via Model Context Protocol",
+    "filterByClient": "Client",
+    "filterByCategory": "Category",
+    "allClients": "All Clients",
+    "allCategories": "All Categories",
+    "resultsCount": "{count} MCP servers found",
+    "noResults": "No MCP servers found. Try adjusting your filters.",
+    "viewDetails": "View Details",
+    "about": "About This Server",
+    "install": "Installation",
+    "copyCommand": "Copy",
+    "viewOnGitHub": "View on GitHub",
+    "backToList": "Back to MCP Servers",
+    "notFound": "MCP Server Not Found"
   }
 }

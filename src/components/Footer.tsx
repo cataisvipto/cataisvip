@@ -1,6 +1,6 @@
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/navigation';
-import { Mail, Code2, Send, Newspaper, Info } from 'lucide-react';
+import { Mail, Code2, Send, Newspaper, Info, Plug } from 'lucide-react';
 import LogoFull from './Logo/LogoFull';
 import { WORDMARK_GRADIENT_VIVID } from '@/lib/brandColors';
 import { CATEGORIES, categoryToSlug } from '@/lib/categories';
@@ -42,6 +42,12 @@ export default function Footer() {
                 <Link href="/skills" className="flex items-center gap-2 text-sm text-[var(--muted)] hover:text-[var(--primary)] transition">
                   <Code2 className="w-3.5 h-3.5" />
                   {tNav('skills')}
+                </Link>
+              </li>
+              <li>
+                <Link href="/mcp" className="flex items-center gap-2 text-sm text-[var(--muted)] hover:text-[var(--primary)] transition">
+                  <Plug className="w-3.5 h-3.5" />
+                  {tNav('mcp')}
                 </Link>
               </li>
               <li>

@@ -24,6 +24,7 @@
     "home": "ホーム",
     "categories": "カテゴリ",
     "skills": "スキル",
+    "mcp": "MCP",
     "ranking": "ランキング",
     "blog": "ブログ",
     "submit": "リソースを登録",
@@ -394,5 +395,24 @@
     "error": "購読に失敗しました。しばらくしてから再試行してください。",
     "invalidEmail": "有効なメールアドレスを入力してください",
     "privacy": "プライバシーを尊重します。いつでも購読解除できます。"
+  },
+  "mcp": {
+    "metaTitle": "MCPサーバー一覧 — Model Context Protocol",
+    "metaDescription": "AIエージェント向けの優れたMCP（Model Context Protocol）サーバーを発見。公式・コミュニティ厳選、インストールコマンドとGitHubスター数付き：GitHub、Playwright、Context7など。",
+    "title": "MCPサーバー",
+    "subtitle": "Model Context ProtocolでAIエージェントを世界につなぐ",
+    "filterByClient": "クライアント",
+    "filterByCategory": "カテゴリー",
+    "allClients": "すべてのクライアント",
+    "allCategories": "すべてのカテゴリー",
+    "resultsCount": "{count}件のMCPサーバーが見つかりました",
+    "noResults": "該当するMCPサーバーがありません。フィルターを調整してください。",
+    "viewDetails": "詳細を見る",
+    "about": "このサーバーについて",
+    "install": "インストール",
+    "copyCommand": "コピー",
+    "viewOnGitHub": "GitHubで見る",
+    "backToList": "MCP一覧に戻る",
+    "notFound": "MCPサーバーが見つかりません"
   }
 }

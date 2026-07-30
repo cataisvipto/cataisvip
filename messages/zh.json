@@ -24,6 +24,7 @@
     "home": "首页",
     "categories": "分类",
     "skills": "技能",
+    "mcp": "MCP",
     "ranking": "排行榜",
     "blog": "博客",
     "submit": "提交资源",
@@ -394,5 +395,24 @@
     "error": "订阅失败，请稍后重试。",
     "invalidEmail": "请输入有效的邮箱地址",
     "privacy": "我们尊重你的隐私，随时可以取消订阅。"
+  },
+  "mcp": {
+    "metaTitle": "MCP 服务器专区 — Model Context Protocol",
+    "metaDescription": "发现最好用的 MCP（Model Context Protocol）服务器。官方与社区精选，附安装命令与实时 GitHub 星数：GitHub、Playwright、Context7 等。",
+    "title": "MCP 服务器",
+    "subtitle": "通过 Model Context Protocol 把你的 AI 智能体连接到世界",
+    "filterByClient": "客户端",
+    "filterByCategory": "分类",
+    "allClients": "全部客户端",
+    "allCategories": "全部分类",
+    "resultsCount": "找到 {count} 个 MCP 服务器",
+    "noResults": "未找到匹配的 MCP 服务器，请调整筛选条件。",
+    "viewDetails": "查看详情",
+    "about": "关于此服务器",
+    "install": "安装方式",
+    "copyCommand": "复制",
+    "viewOnGitHub": "在 GitHub 查看",
+    "backToList": "返回 MCP 专区",
+    "notFound": "未找到该 MCP 服务器"
   }
 }

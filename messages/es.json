@@ -24,6 +24,7 @@
     "home": "Inicio",
     "categories": "Categorías",
     "skills": "Skills",
+    "mcp": "MCP",
     "ranking": "Ranking",
     "blog": "Blog",
     "submit": "Enviar Recurso",
@@ -394,5 +395,24 @@
     "error": "Error en la suscripción. Inténtalo de nuevo.",
     "invalidEmail": "Introduce una dirección de correo válida",
     "privacy": "Respetamos tu privacidad. Cancela cuando quieras."
+  },
+  "mcp": {
+    "metaTitle": "Directorio de servidores MCP — Model Context Protocol",
+    "metaDescription": "Descubre los mejores servidores MCP (Model Context Protocol) para agentes de IA. Selección oficial y comunitaria con comandos de instalación y estrellas de GitHub: GitHub, Playwright, Context7 y más.",
+    "title": "Servidores MCP",
+    "subtitle": "Conecta tus agentes de IA al mundo mediante Model Context Protocol",
+    "filterByClient": "Cliente",
+    "filterByCategory": "Categoría",
+    "allClients": "Todos los clientes",
+    "allCategories": "Todas las categorías",
+    "resultsCount": "{count} servidores MCP encontrados",
+    "noResults": "No se encontraron servidores MCP. Ajusta los filtros.",
+    "viewDetails": "Ver detalles",
+    "about": "Acerca de este servidor",
+    "install": "Instalación",
+    "copyCommand": "Copiar",
+    "viewOnGitHub": "Ver en GitHub",
+    "backToList": "Volver a servidores MCP",
+    "notFound": "Servidor MCP no encontrado"
   }
 }
