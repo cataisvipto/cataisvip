@@ -912,7 +912,7 @@
       "Freemium"
     ],
     "featured": false,
-    "developer": "Leonardo AI",
+    "developer": "Leonardo.Ai (Canva)",
     "platforms": {
       "web": true,
       "windows": false,
@@ -5086,6 +5086,64 @@
     "developer": "Element Labs",
     "platforms": {
       "web": false,
+      "windows": true,
+      "macos": true,
+      "ios": false,
+      "android": false,
+      "linux": true,
+      "browser_extension": false,
+      "api": true
+    }
+  },
+  {
+    "slug": "wordtune",
+    "name": "Wordtune",
+    "nameZh": "Wordtune",
+    "description": "AI21 Labs 旗下的 AI 英文改写助手：多候选重写、语气切换、缩写扩写、摘要与 AI 生成一体，Chrome 插件与 iOS 键盘随处可用，免费档每天 10 次重写，Unlimited 年付合 $6.99/月",
+    "descriptionEn": "AI21 Labs' AI English rewriting assistant: multiple rewrite suggestions, tone switching, shorten/expand, summaries and AI generation in one, available everywhere via Chrome extension and iOS keyboard — free tier offers 10 rewrites/day, Unlimited works out to $6.99/month billed annually",
+    "descriptionJa": "AI21 Labs傘下のAI英文リライトアシスタント。複数候補の書き換え、トーン切替、短縮・拡張、要約、AI生成を一体化。Chrome拡張とiOSキーボードでどこでも使え、無料枠は1日10回、Unlimitedは年払いで月$6.99相当",
+    "descriptionEs": "Asistente de reescritura en inglés con IA de AI21 Labs: múltiples sugerencias de reescritura, cambio de tono, acortar/expandir, resúmenes y generación con IA en uno, disponible en todas partes vía extensión de Chrome y teclado iOS — el nivel gratuito ofrece 10 reescrituras/día, Unlimited sale a $6.99/mes con pago anual",
+    "descriptionFr": "Assistant IA de réécriture en anglais d'AI21 Labs : plusieurs suggestions de réécriture, changement de ton, raccourcir/développer, résumés et génération IA en un, disponible partout via l'extension Chrome et le clavier iOS — l'offre gratuite donne 10 réécritures/jour, Unlimited revient à 6,99 $/mois en annuel",
+    "url": "https://www.wordtune.com",
+    "logo": "/logos/tools/wordtune.png",
+    "category": "Writing",
+    "tags": [
+      "Freemium"
+    ],
+    "featured": false,
+    "developer": "AI21 Labs",
+    "platforms": {
+      "web": true,
+      "windows": false,
+      "macos": false,
+      "ios": true,
+      "android": false,
+      "linux": false,
+      "browser_extension": true,
+      "api": false
+    }
+  },
+  {
+    "slug": "n8n",
+    "name": "n8n",
+    "nameZh": "n8n",
+    "description": "面向技术团队的工作流自动化平台：可视化编辑器 + JS/Python 代码节点 + AI Agent 工作流，按「执行次数」而非步骤计费，Community 版可免费自托管，GitHub 近 20 万星",
+    "descriptionEn": "Workflow automation platform for technical teams: visual editor plus JS/Python code nodes plus AI agent workflows, priced per execution instead of per step, with a free self-hosted Community Edition and nearly 200k GitHub stars",
+    "descriptionJa": "技術チーム向けワークフロー自動化プラットフォーム。ビジュアルエディタ、JS/Pythonコードノード、AIエージェントワークフローを備え、ステップ数でなく実行回数で課金。Community版は無料でセルフホスト可能、GitHubスター約20万",
+    "descriptionEs": "Plataforma de automatización de flujos de trabajo para equipos técnicos: editor visual más nodos de código JS/Python más flujos de agentes de IA, con precio por ejecución en vez de por paso, edición Community gratuita autoalojada y casi 200k estrellas en GitHub",
+    "descriptionFr": "Plateforme d'automatisation de flux de travail pour équipes techniques : éditeur visuel plus nœuds de code JS/Python plus workflows d'agents IA, tarifée à l'exécution et non à l'étape, avec une édition Community auto-hébergée gratuite et près de 200k étoiles GitHub",
+    "url": "https://n8n.io",
+    "logo": "/logos/tools/n8n.png",
+    "category": "Automation",
+    "tags": [
+      "Freemium",
+      "Open Source",
+      "API"
+    ],
+    "featured": false,
+    "developer": "n8n GmbH",
+    "platforms": {
+      "web": true,
       "windows": true,
       "macos": true,
       "ios": false,
