@@ -6,8 +6,8 @@ import { Link } from '@/i18n/navigation';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { ArrowLeft, Send, CheckCircle, Loader2, AlertCircle } from 'lucide-react';
+import { CATEGORIES } from '@/lib/categories';
 
-const CATEGORIES = ['Chat', 'Image', 'Code', 'Writing', 'Video', 'Audio', 'Search', 'Design', 'Agent', 'Developer', 'Platform'];
 const FORMSUBMIT_URL = 'https://formsubmit.co/ajax/hello@cataito.com';
 
 export default function SubmitPage() {

@@ -13,6 +13,7 @@ import { ExternalLink, Globe, Star, Building2, CheckCircle, XCircle, Lightbulb, 
 import { TwitterIcon, LinkedinIcon, FacebookIcon } from '@/components/SocialIcons';
 import Newsletter from '@/components/Newsletter';
 import LogoTile from '@/components/LogoTile';
+import { categoryToSlug } from '@/lib/categories';
 import { useState } from 'react';
 
 interface ToolDetailClientProps {
@@ -178,7 +179,7 @@ export default function ToolDetailClient({ tool, locale }: ToolDetailClientProps
         {/* Breadcrumb */}
         <Breadcrumb
           items={[
-            { name: tCategories(tool.category as any), href: `/category/${tool.category.toLowerCase()}` },
+            { name: tCategories(tool.category as any), href: `/category/${categoryToSlug(tool.category)}` },
             { name: displayName },
           ]}
           locale={locale}

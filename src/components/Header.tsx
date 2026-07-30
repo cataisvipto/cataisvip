@@ -7,14 +7,13 @@ import { useState, useRef, useEffect } from 'react';
 import ThemeToggle from './ThemeToggle';
 import LogoCompact from './Logo/LogoCompact';
 import LogoIcon from './Logo/LogoIcon';
+import { CATEGORIES, categoryToSlug } from '@/lib/categories';
 
 interface HeaderProps {
   searchQuery: string;
   onSearchChange: (query: string) => void;
   locale: string;
 }
-
-const CATEGORIES = ['Chat', 'Image', 'Code', 'Writing', 'Video', 'Audio', 'Search', 'Agent', 'Developer', 'Design', 'Platform'];
 
 export default function Header({ searchQuery, onSearchChange, locale }: HeaderProps) {
   const t = useTranslations();
@@ -98,7 +97,7 @@ export default function Header({ searchQuery, onSearchChange, locale }: HeaderPr
                     {CATEGORIES.map((cat) => (
                       <Link
                         key={cat}
-                        href={`/category/${cat.toLowerCase()}`}
+                        href={`/category/${categoryToSlug(cat)}`}
                         onClick={() => setCatOpen(false)}
                         className="px-3 py-2 text-sm text-[var(--foreground)] rounded-lg hover:bg-[var(--primary)]/10 hover:text-[var(--primary)] transition"
                       >
@@ -264,7 +263,7 @@ export default function Header({ searchQuery, onSearchChange, locale }: HeaderPr
                 {CATEGORIES.map((cat) => (
                   <Link
                     key={cat}
-                    href={`/category/${cat.toLowerCase()}`}
+                    href={`/category/${categoryToSlug(cat)}`}
                     onClick={() => setMobileMenuOpen(false)}
                     className="px-3 py-2 text-sm text-[var(--foreground)] rounded-lg hover:bg-[var(--primary)]/10 hover:text-[var(--primary)] transition"
                   >

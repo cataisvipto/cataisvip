@@ -1,8 +1,7 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-
-const CATEGORIES = ['Chat', 'Image', 'Code', 'Writing', 'Video', 'Audio', 'Search', 'Design', 'Agent', 'Developer', 'Platform'];
+import { CATEGORIES } from '@/lib/categories';
 
 interface CategoryFilterProps {
   activeCategory: string;

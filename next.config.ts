@@ -15,6 +15,21 @@ const nextConfig: NextConfig = {
       { protocol: 'http', hostname: '**' },
     ],
   },
+  // 阶段二分类扩容：Platform/Developer 两个旧分类撤销，旧 URL 永久重定向到接替分类
+  async redirects() {
+    return [
+      {
+        source: '/:locale(zh|en|ja|es|fr)/category/platform',
+        destination: '/:locale/category/open-source',
+        permanent: true,
+      },
+      {
+        source: '/:locale(zh|en|ja|es|fr)/category/developer',
+        destination: '/:locale/category/api-platform',
+        permanent: true,
+      },
+    ];
+  },
 };
 
 export default withNextIntl(nextConfig);

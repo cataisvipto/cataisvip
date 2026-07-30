@@ -22,7 +22,10 @@
       "descriptionFr":       { "type": "string", "minLength": 1 },
       "url":                 { "type": "string", "minLength": 1 },
       "logo":                { "type": "string", "minLength": 1 },
-      "category":            { "type": "string", "minLength": 1 },
+      "category":            { "enum": [
+        "Chat", "Foundation Models", "Agent", "Code", "Image", "Video", "Avatar", "Audio",
+        "Music", "Writing", "Design", "Search", "Website Builder", "Automation", "API Platform", "Open Source"
+      ] },
       "tags":                { "type": "array", "items": { "type": "string", "minLength": 1 } },
       "featured":            { "type": "boolean" },
       "homeFeatured":        { "type": "boolean" },

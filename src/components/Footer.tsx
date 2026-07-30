@@ -3,13 +3,12 @@ import { Link } from '@/i18n/navigation';
 import { Mail, Code2, Send, Newspaper, Info } from 'lucide-react';
 import LogoFull from './Logo/LogoFull';
 import { WORDMARK_GRADIENT_VIVID } from '@/lib/brandColors';
+import { CATEGORIES, categoryToSlug } from '@/lib/categories';
 
 export default function Footer() {
   const t = useTranslations('footer');
   const tNav = useTranslations('nav');
   const tCategories = useTranslations('categories');
-
-  const categories = ['Chat', 'Image', 'Code', 'Writing', 'Video', 'Audio', 'Search', 'Agent', 'Developer', 'Design', 'Platform'];
 
   return (
     <footer className="border-t border-[var(--card-border)] bg-[var(--card-bg)]">
@@ -70,10 +69,10 @@ export default function Footer() {
           <div>
             <h3 className="text-sm font-semibold text-[var(--foreground)] mb-4 uppercase tracking-wider">{t('categories')}</h3>
             <ul className="space-y-3">
-              {categories.slice(0, 6).map((cat) => (
+              {CATEGORIES.slice(0, 8).map((cat) => (
                 <li key={cat}>
                   <Link
-                    href={`/category/${cat.toLowerCase()}`}
+                    href={`/category/${categoryToSlug(cat)}`}
                     className="text-sm text-[var(--muted)] hover:text-[var(--primary)] transition"
                   >
                     {tCategories(cat as any)}
@@ -87,10 +86,10 @@ export default function Footer() {
           <div>
             <h3 className="text-sm font-semibold text-[var(--foreground)] mb-4 uppercase tracking-wider">&nbsp;</h3>
             <ul className="space-y-3">
-              {categories.slice(6).map((cat) => (
+              {CATEGORIES.slice(8).map((cat) => (
                 <li key={cat}>
                   <Link
-                    href={`/category/${cat.toLowerCase()}`}
+                    href={`/category/${categoryToSlug(cat)}`}
                     className="text-sm text-[var(--muted)] hover:text-[var(--primary)] transition"
                   >
                     {tCategories(cat as any)}

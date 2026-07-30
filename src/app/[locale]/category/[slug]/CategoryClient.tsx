@@ -9,6 +9,7 @@ import Breadcrumb from '@/components/Breadcrumb';
 import { Tool, getLocalizedDescription } from '@/components/ToolCard';
 import LogoTile from '@/components/LogoTile';
 import { ExternalLink, Star } from 'lucide-react';
+import { CATEGORIES, categoryToSlug } from '@/lib/categories';
 
 interface CategoryClientProps {
   category: string;
@@ -76,19 +77,54 @@ const CATEGORY_DESCRIPTIONS: Record<string, Record<string, string>> = {
     es: 'Motores de búsqueda impulsados por IA que proporcionan respuestas inteligentes en tiempo real con fuentes citadas',
     fr: 'Moteurs de recherche alimentés par l\'IA fournissant des réponses intelligentes en temps réel avec sources citées',
   },
-  Platform: {
-    en: 'AI platforms and model hubs for hosting, training, and deploying machine learning models',
-    zh: 'AI 平台和模型中心，用于托管、训练和部署机器学习模型',
-    ja: '機械学習モデルのホスティング、トレーニング、デプロイメントのためのAIプラットフォーム',
-    es: 'Plataformas de IA y centros de modelos para alojar, entrenar y desplegar modelos de aprendizaje automático',
-    fr: 'Plateformes IA et hubs de modèles pour l\'hébergement, l\'entraînement et le déploiement de modèles de machine learning',
+  'Foundation Models': {
+    en: 'Flagship large language models and research foundation models from leading AI labs',
+    zh: '领先 AI 实验室的旗舰大语言模型与基础模型',
+    ja: '主要AIラボによるフラッグシップ大規模言語モデルと基盤モデル',
+    es: 'Grandes modelos de lenguaje y modelos fundacionales de los principales laboratorios de IA',
+    fr: 'Grands modèles de langage et modèles de fondation des principaux laboratoires d\'IA',
   },
-  Developer: {
-    en: 'AI developer tools and frameworks for building LLM-powered applications and agents',
-    zh: 'AI 开发者工具和框架，用于构建基于大语言模型的应用和智能体',
-    ja: 'LLM搭載のアプリケーションやエージェントを構築するためのAI開発者ツールとフレームワーク',
-    es: 'Herramientas y frameworks de desarrollo IA para construir aplicaciones y agentes impulsados por LLM',
-    fr: 'Outils et frameworks de développement IA pour construire des applications et des agents alimentés par LLM',
+  Avatar: {
+    en: 'AI avatar and digital human platforms for creating lifelike presenter videos at scale',
+    zh: 'AI 数字人平台，规模化生成逼真的真人出镜视频',
+    ja: 'リアルなプレゼンター動画を大規模に生成するAIアバター・デジタルヒューマンプラットフォーム',
+    es: 'Plataformas de avatares IA y humanos digitales para crear videos de presentadores realistas a escala',
+    fr: 'Plateformes d\'avatars IA et d\'humains numériques pour créer des vidéos de présentateurs réalistes à grande échelle',
+  },
+  Music: {
+    en: 'AI music generation tools for composing songs, instrumentals, and soundtracks from text',
+    zh: 'AI 音乐生成工具，从文本创作歌曲、伴奏与配乐',
+    ja: 'テキストから楽曲、インストゥルメンタル、サウンドトラックを作曲するAI音楽生成ツール',
+    es: 'Herramientas de generación de música IA para componer canciones, instrumentales y bandas sonoras desde texto',
+    fr: 'Outils de génération de musique IA pour composer chansons, instrumentaux et bandes sonores à partir de texte',
+  },
+  'Website Builder': {
+    en: 'AI website builders that turn prompts into full web apps and landing pages',
+    zh: 'AI 建站工具，把提示词变成完整的 Web 应用和落地页',
+    ja: 'プロンプトから完全なWebアプリやランディングページを生成するAIサイト制作ツール',
+    es: 'Creadores de sitios web IA que convierten prompts en aplicaciones web y páginas de aterrizaje completas',
+    fr: 'Créateurs de sites web IA qui transforment des prompts en applications web et pages d\'atterrissage complètes',
+  },
+  Automation: {
+    en: 'AI workflow automation platforms that connect apps and run business processes autonomously',
+    zh: 'AI 工作流自动化平台，连接应用并自主运行业务流程',
+    ja: 'アプリを連携しビジネスプロセスを自律的に実行するAIワークフロー自動化プラットフォーム',
+    es: 'Plataformas de automatización de flujos de trabajo IA que conectan aplicaciones y ejecutan procesos de negocio de forma autónoma',
+    fr: 'Plateformes d\'automatisation de flux de travail IA qui connectent des applications et exécutent des processus métier de manière autonome',
+  },
+  'API Platform': {
+    en: 'AI inference and API platforms for running open and frontier models at production scale',
+    zh: 'AI 推理与 API 平台，规模化运行开源与前沿模型',
+    ja: 'オープンモデルやフロンティアモデルを本番規模で実行するAI推論・APIプラットフォーム',
+    es: 'Plataformas de inferencia y API de IA para ejecutar modelos abiertos y de frontera a escala de producción',
+    fr: 'Plateformes d\'inférence et d\'API IA pour exécuter des modèles ouverts et de pointe à l\'échelle de production',
+  },
+  'Open Source': {
+    en: 'Open source AI ecosystems for hosting, running, and building with machine learning models locally',
+    zh: '开源 AI 生态，本地托管、运行与构建机器学习模型',
+    ja: '機械学習モデルをローカルでホスト、実行、構築するオープンソースAIエコシステム',
+    es: 'Ecosistemas de IA de código abierto para alojar, ejecutar y construir con modelos de aprendizaje automático localmente',
+    fr: 'Écosystèmes d\'IA open source pour héberger, exécuter et créer avec des modèles de machine learning en local',
   },
   Agent: {
     en: 'AI agent frameworks for building autonomous systems that can complete complex tasks',
@@ -117,8 +153,6 @@ export default function CategoryClient({ category, slug, tools: categoryTools, l
     CATEGORY_DESCRIPTIONS[category]?.en ||
     '';
 
-  const categorySlug = category.charAt(0).toUpperCase() + category.slice(1).toLowerCase();
-
   return (
     <>
       <Header searchQuery={searchQuery} onSearchChange={setSearchQuery} locale={locale} />
@@ -126,7 +160,7 @@ export default function CategoryClient({ category, slug, tools: categoryTools, l
         {/* Breadcrumb */}
         <Breadcrumb
           items={[
-            { name: tCategories(categorySlug) }
+            { name: tCategories(category as any) }
           ]}
           locale={locale}
         />
@@ -134,7 +168,7 @@ export default function CategoryClient({ category, slug, tools: categoryTools, l
         {/* Category Header */}
         <div className="mb-8">
           <h1 className="text-3xl md:text-4xl font-bold text-[var(--foreground)] mb-3">
-            {tCategory('heading', { category: tCategories(categorySlug) })}
+            {tCategory('heading', { category: tCategories(category as any) })}
           </h1>
           <p className="text-lg text-[var(--muted)] mb-4">{categoryDescription}</p>
           <div className="flex items-center gap-2 text-sm text-[var(--muted)]">
@@ -144,8 +178,8 @@ export default function CategoryClient({ category, slug, tools: categoryTools, l
 
         {/* Category Navigation */}
         <div className="flex flex-wrap gap-2 mb-8">
-          {['Chat', 'Image', 'Code', 'Writing', 'Video', 'Audio', 'Search', 'Platform', 'Developer', 'Agent', 'Design'].map((catName) => {
-            const catSlug = catName.toLowerCase();
+          {CATEGORIES.map((catName) => {
+            const catSlug = categoryToSlug(catName);
             return (
               <Link
                 key={catSlug}
@@ -156,7 +190,7 @@ export default function CategoryClient({ category, slug, tools: categoryTools, l
                     : 'bg-[var(--muted-bg)] text-[var(--muted)] hover:bg-[var(--card-border)]'
                 }`}
               >
-                {tCategories(catName)}
+                {tCategories(catName as any)}
               </Link>
             );
           })}

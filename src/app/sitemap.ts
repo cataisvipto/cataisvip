@@ -3,6 +3,7 @@ import tools from '@/data/tools.json';
 import blogPosts from '@/data/blogPosts.json';
 import skills from '@/data/skills.json';
 import { routing } from '@/i18n/routing';
+import { CATEGORY_SLUGS } from '@/lib/categories';
 
 const BASE_URL = 'https://cataito.com';
 
@@ -20,8 +21,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   );
 
   // Category pages
-  const categories = ['chat', 'image', 'code', 'writing', 'video', 'audio', 'search', 'platform', 'developer', 'agent', 'design'];
-  const categoryPages = categories.flatMap((cat) =>
+  const categoryPages = CATEGORY_SLUGS.flatMap((cat) =>
     locales.map((locale) => ({
       url: `${BASE_URL}/${locale}/category/${cat}`,
       lastModified: new Date(),

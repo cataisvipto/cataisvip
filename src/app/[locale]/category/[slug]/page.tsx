@@ -5,17 +5,7 @@ import tools from '@/data/tools.json';
 import { generateAlternates, getCategorySeo, BASE_URL } from '@/lib/seo';
 import type { Tool } from '@/components/ToolCard';
 import CategoryClient from './CategoryClient';
-
-// All available categories derived from tools data
-const CATEGORIES = [
-  'Chat', 'Image', 'Code', 'Writing', 'Video',
-  'Audio', 'Search', 'Platform', 'Developer', 'Agent', 'Design',
-] as const;
-
-// Map category to URL slug
-const categoryToSlug = (cat: string) => cat.toLowerCase();
-const slugToCategory = (slug: string) =>
-  CATEGORIES.find((c) => categoryToSlug(c) === slug);
+import { CATEGORIES, categoryToSlug, slugToCategory } from '@/lib/categories';
 
 export function generateStaticParams() {
   return CATEGORIES.map((cat) => ({ slug: categoryToSlug(cat) }));
