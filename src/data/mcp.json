@@ -1880,5 +1880,551 @@
         }
       }
     ]
+  },
+  {
+    "slug": "aws-mcp",
+    "name": "AWS MCP Servers",
+    "nameZh": "AWS MCP",
+    "description": "AWS 官方开源的 MCP 服务器套件，让 AI 智能体用自然语言操作 AWS 云——查文档、管理基础设施、调用 CDK/Terraform、访问 S3/Lambda/EKS 等数十个专用服务器，核心服务器还能按需动态代理其他 AWS MCP。",
+    "descriptionEn": "AWS's official open-source suite of MCP servers lets AI agents work with the AWS cloud in natural language — read docs, manage infrastructure, drive CDK/Terraform, access S3/Lambda/EKS and dozens of purpose-built servers, with a core server that dynamically proxies other AWS MCPs on demand.",
+    "descriptionJa": "AWS 公式のオープンソース MCP サーバー群。AI エージェントが自然言語で AWS クラウドを操作でき、ドキュメント参照、インフラ管理、CDK/Terraform の実行、S3/Lambda/EKS など数十の専用サーバーへのアクセスが可能で、コアサーバーは必要に応じて他の AWS MCP を動的にプロキシします。",
+    "descriptionEs": "La suite oficial de código abierto de servidores MCP de AWS permite a los agentes de IA trabajar con la nube de AWS en lenguaje natural: leer documentación, gestionar infraestructura, usar CDK/Terraform, acceder a S3/Lambda/EKS y docenas de servidores especializados, con un servidor central que enruta dinámicamente otros MCP de AWS según se necesite.",
+    "descriptionFr": "La suite officielle open source de serveurs MCP d'AWS permet aux agents IA de travailler avec le cloud AWS en langage naturel : lire la documentation, gérer l'infrastructure, piloter CDK/Terraform, accéder à S3/Lambda/EKS et des dizaines de serveurs spécialisés, avec un serveur central qui relaie dynamiquement d'autres MCP AWS à la demande.",
+    "developer": "Amazon Web Services",
+    "developerZh": "Amazon Web Services",
+    "repo": "awslabs/mcp",
+    "clients": [
+      "claude",
+      "cursor",
+      "vscode",
+      "generic"
+    ],
+    "category": "Cloud",
+    "tags": [
+      "Free",
+      "Open Source"
+    ],
+    "installCommand": "uvx awslabs.core-mcp-server@latest",
+    "logo": "/logos/mcp/aws-mcp.png",
+    "stars": 9520,
+    "featured": false,
+    "faqs": [
+      {
+        "question": {
+          "zh": "AWS MCP 是一个服务器还是一套？",
+          "en": "Is AWS MCP one server or a suite?",
+          "ja": "AWS MCP は 1 つのサーバーですか、それともセットですか？",
+          "es": "¿AWS MCP es un servidor o una suite?",
+          "fr": "AWS MCP est-il un seul serveur ou une suite ?"
+        },
+        "answer": {
+          "zh": "是一整套。awslabs/mcp 仓库里有数十个按服务拆分的专用 MCP 服务器（文档、CDK、Terraform、S3、Lambda、EKS、成本分析等），你可以只装需要的那几个；其中 core-mcp-server 能作为动态代理，按环境变量按需加载其他 AWS MCP。",
+          "en": "A whole suite. The awslabs/mcp repo contains dozens of purpose-built MCP servers split by service (docs, CDK, Terraform, S3, Lambda, EKS, cost analysis, etc.); you install only the ones you need, and the core-mcp-server can act as a dynamic proxy that loads other AWS MCPs on demand via environment variables.",
+          "ja": "セット全体です。awslabs/mcp リポジトリにはサービス別に分かれた数十の専用 MCP サーバー（ドキュメント、CDK、Terraform、S3、Lambda、EKS、コスト分析など）があり、必要なものだけを導入できます。core-mcp-server は環境変数に応じて他の AWS MCP を動的に読み込むプロキシとして機能します。",
+          "es": "Una suite completa. El repositorio awslabs/mcp contiene decenas de servidores MCP especializados por servicio (docs, CDK, Terraform, S3, Lambda, EKS, análisis de costes, etc.); instalas solo los que necesitas, y core-mcp-server puede actuar como proxy dinámico que carga otros MCP de AWS bajo demanda mediante variables de entorno.",
+          "fr": "Une suite complète. Le dépôt awslabs/mcp contient des dizaines de serveurs MCP spécialisés par service (docs, CDK, Terraform, S3, Lambda, EKS, analyse des coûts, etc.) ; vous n'installez que ceux dont vous avez besoin, et core-mcp-server sert de proxy dynamique qui charge d'autres MCP AWS à la demande via des variables d'environnement."
+        }
+      },
+      {
+        "question": {
+          "zh": "安装 AWS MCP 需要什么前置条件？",
+          "en": "What prerequisites does AWS MCP need?",
+          "ja": "AWS MCP のインストールに必要な前提条件は？",
+          "es": "¿Qué requisitos previos necesita AWS MCP?",
+          "fr": "Quels prérequis AWS MCP nécessite-t-il ?"
+        },
+        "answer": {
+          "zh": "服务器用 Python 编写，通过 uv/uvx 运行（如 uvx awslabs.core-mcp-server@latest）；需先装好 uv 与 Python 3.10+，并配置有权限的 AWS 凭据（如 ~/.aws 或环境变量）。操作的是你自己 AWS 账户里的资源。",
+          "en": "The servers are written in Python and run via uv/uvx (e.g. uvx awslabs.core-mcp-server@latest); you need uv plus Python 3.10+ installed, and AWS credentials with appropriate permissions configured (e.g. ~/.aws or environment variables). It operates on resources in your own AWS account.",
+          "ja": "サーバーは Python 製で uv/uvx から実行します（例：uvx awslabs.core-mcp-server@latest）。uv と Python 3.10 以上、そして適切な権限を持つ AWS 認証情報（~/.aws や環境変数など）が必要です。操作対象はあなた自身の AWS アカウントのリソースです。",
+          "es": "Los servidores están escritos en Python y se ejecutan con uv/uvx (p. ej. uvx awslabs.core-mcp-server@latest); necesitas uv y Python 3.10+, además de credenciales de AWS con los permisos adecuados (p. ej. ~/.aws o variables de entorno). Opera sobre recursos de tu propia cuenta de AWS.",
+          "fr": "Les serveurs sont écrits en Python et s'exécutent via uv/uvx (par ex. uvx awslabs.core-mcp-server@latest) ; il faut uv et Python 3.10+, ainsi que des identifiants AWS avec les permissions appropriées (par ex. ~/.aws ou variables d'environnement). Il opère sur les ressources de votre propre compte AWS."
+        }
+      },
+      {
+        "question": {
+          "zh": "AWS MCP 免费吗？会产生云费用吗？",
+          "en": "Is AWS MCP free? Will it incur cloud costs?",
+          "ja": "AWS MCP は無料ですか？クラウド料金は発生しますか？",
+          "es": "¿AWS MCP es gratuito? ¿Genera costes en la nube?",
+          "fr": "AWS MCP est-il gratuit ? Génère-t-il des coûts cloud ?"
+        },
+        "answer": {
+          "zh": "MCP 服务器本身开源免费（Apache-2.0）。但它调用的是你真实的 AWS 服务，创建资源或调用付费 API 会按 AWS 正常计费——只读查询通常很便宜，涉及创建/运行资源前请留意成本。",
+          "en": "The MCP servers themselves are open source and free (Apache-2.0). But they call your real AWS services, so creating resources or invoking paid APIs is billed by AWS as usual — read-only queries are usually cheap, but watch costs before creating or running resources.",
+          "ja": "MCP サーバー自体はオープンソースで無料（Apache-2.0）です。ただし実際の AWS サービスを呼び出すため、リソースの作成や有料 API の呼び出しは AWS の通常料金で課金されます。読み取りクエリは通常安価ですが、リソースの作成・実行前にはコストに注意してください。",
+          "es": "Los servidores MCP en sí son de código abierto y gratuitos (Apache-2.0). Pero llaman a tus servicios reales de AWS, así que crear recursos o invocar APIs de pago se factura con AWS de forma habitual: las consultas de solo lectura suelen ser baratas, pero vigila los costes antes de crear o ejecutar recursos.",
+          "fr": "Les serveurs MCP eux-mêmes sont open source et gratuits (Apache-2.0). Mais ils appellent vos véritables services AWS, donc créer des ressources ou invoquer des API payantes est facturé par AWS comme d'habitude — les requêtes en lecture seule sont généralement bon marché, mais surveillez les coûts avant de créer ou d'exécuter des ressources."
+        }
+      }
+    ]
+  },
+  {
+    "slug": "azure-mcp",
+    "name": "Azure MCP Server",
+    "nameZh": "Azure MCP",
+    "description": "Microsoft 官方 MCP 服务器，让 AI 智能体用自然语言操作 Azure 云——查询与管理存储、Cosmos DB、Key Vault、AKS、Monitor 等资源，一条 npx 命令即可接入，凭据走标准 Azure 身份认证。",
+    "descriptionEn": "Microsoft's official MCP server lets AI agents work with the Azure cloud in natural language — query and manage Storage, Cosmos DB, Key Vault, AKS, Monitor and more, plugged in with a single npx command and authenticated via standard Azure identity.",
+    "descriptionJa": "Microsoft 公式の MCP サーバー。AI エージェントが自然言語で Azure クラウドを操作でき、ストレージ、Cosmos DB、Key Vault、AKS、Monitor などのリソースの照会・管理が可能で、npx コマンド 1 つで接続し、標準の Azure ID 認証で認証します。",
+    "descriptionEs": "El servidor MCP oficial de Microsoft permite a los agentes de IA trabajar con la nube de Azure en lenguaje natural: consultar y gestionar Storage, Cosmos DB, Key Vault, AKS, Monitor y más, conectándose con un solo comando npx y autenticándose mediante la identidad estándar de Azure.",
+    "descriptionFr": "Le serveur MCP officiel de Microsoft permet aux agents IA de travailler avec le cloud Azure en langage naturel : interroger et gérer Storage, Cosmos DB, Key Vault, AKS, Monitor et plus, connecté par une simple commande npx et authentifié via l'identité Azure standard.",
+    "developer": "Microsoft",
+    "developerZh": "Microsoft",
+    "repo": "microsoft/mcp",
+    "clients": [
+      "claude",
+      "cursor",
+      "vscode",
+      "generic"
+    ],
+    "category": "Cloud",
+    "tags": [
+      "Free",
+      "Open Source"
+    ],
+    "installCommand": "npx -y @azure/mcp@latest server start",
+    "logo": "/logos/mcp/azure-mcp.png",
+    "stars": 3516,
+    "featured": false,
+    "faqs": [
+      {
+        "question": {
+          "zh": "Azure MCP 能管理哪些 Azure 服务？",
+          "en": "Which Azure services can Azure MCP manage?",
+          "ja": "Azure MCP はどの Azure サービスを管理できますか？",
+          "es": "¿Qué servicios de Azure puede gestionar Azure MCP?",
+          "fr": "Quels services Azure Azure MCP peut-il gérer ?"
+        },
+        "answer": {
+          "zh": "覆盖大量核心服务：Storage、Cosmos DB、Azure SQL、Key Vault、Monitor/Log Analytics、AKS、App Config、Service Bus 等，可查询资源、跑 KQL 日志查询、读取配置与密钥引用等。服务器持续扩充中，具体以官方文档为准。",
+          "en": "It covers many core services: Storage, Cosmos DB, Azure SQL, Key Vault, Monitor/Log Analytics, AKS, App Configuration, Service Bus and more — querying resources, running KQL log queries, reading configuration and secret references, etc. The server keeps expanding; see the official docs for the current list.",
+          "ja": "多数のコアサービスに対応します：Storage、Cosmos DB、Azure SQL、Key Vault、Monitor/Log Analytics、AKS、App Configuration、Service Bus など。リソースの照会、KQL ログクエリの実行、構成やシークレット参照の読み取りなどが可能です。サーバーは拡充が続いており、最新は公式ドキュメントを参照してください。",
+          "es": "Cubre muchos servicios clave: Storage, Cosmos DB, Azure SQL, Key Vault, Monitor/Log Analytics, AKS, App Configuration, Service Bus y más — consultar recursos, ejecutar consultas de registros KQL, leer configuración y referencias de secretos, etc. El servidor sigue creciendo; consulta la documentación oficial para la lista actual.",
+          "fr": "Il couvre de nombreux services clés : Storage, Cosmos DB, Azure SQL, Key Vault, Monitor/Log Analytics, AKS, App Configuration, Service Bus et plus — interroger des ressources, exécuter des requêtes de journaux KQL, lire la configuration et les références de secrets, etc. Le serveur s'enrichit en continu ; voir la documentation officielle pour la liste à jour."
+        }
+      },
+      {
+        "question": {
+          "zh": "Azure MCP 怎么认证？",
+          "en": "How does Azure MCP authenticate?",
+          "ja": "Azure MCP はどのように認証しますか？",
+          "es": "¿Cómo se autentica Azure MCP?",
+          "fr": "Comment Azure MCP s'authentifie-t-il ?"
+        },
+        "answer": {
+          "zh": "走标准的 Azure 身份认证（DefaultAzureCredential）：优先复用你本机已登录的 Azure CLI（az login）、VS Code Azure 账户或环境变量中的服务主体，无需在配置里硬编码密钥，权限由你账户的 RBAC 决定。",
+          "en": "It uses standard Azure identity (DefaultAzureCredential): it reuses whatever you are already signed in with — Azure CLI (az login), the VS Code Azure account, or a service principal from environment variables — so you never hard-code secrets in config, and permissions follow your account's RBAC.",
+          "ja": "標準の Azure ID 認証（DefaultAzureCredential）を使います。すでにサインイン済みの Azure CLI（az login）、VS Code の Azure アカウント、または環境変数のサービスプリンシパルを再利用するため、設定にシークレットをハードコードする必要がなく、権限はアカウントの RBAC に従います。",
+          "es": "Usa la identidad estándar de Azure (DefaultAzureCredential): reutiliza aquello con lo que ya iniciaste sesión — Azure CLI (az login), la cuenta de Azure de VS Code o un principal de servicio desde variables de entorno — por lo que nunca codificas secretos en la configuración, y los permisos siguen el RBAC de tu cuenta.",
+          "fr": "Il utilise l'identité Azure standard (DefaultAzureCredential) : il réutilise ce avec quoi vous êtes déjà connecté — Azure CLI (az login), le compte Azure de VS Code, ou un principal de service via des variables d'environnement — vous n'écrivez donc jamais de secrets en dur dans la config, et les permissions suivent le RBAC de votre compte."
+        }
+      },
+      {
+        "question": {
+          "zh": "原来的 Azure/azure-mcp 仓库还在吗？",
+          "en": "Is the old Azure/azure-mcp repo still around?",
+          "ja": "以前の Azure/azure-mcp リポジトリはまだありますか？",
+          "es": "¿Sigue existiendo el antiguo repo Azure/azure-mcp?",
+          "fr": "L'ancien dépôt Azure/azure-mcp existe-t-il encore ?"
+        },
+        "answer": {
+          "zh": "Azure MCP 已并入 Microsoft 官方的 microsoft/mcp 单仓库统一维护，原 Azure/azure-mcp 仓库已归档。npm 包仍是 @azure/mcp，安装命令不变，认准官方来源即可。",
+          "en": "Azure MCP has been consolidated into Microsoft's official microsoft/mcp monorepo, and the old Azure/azure-mcp repo is archived. The npm package is still @azure/mcp and the install command is unchanged — just make sure you are using the official source.",
+          "ja": "Azure MCP は Microsoft 公式の microsoft/mcp モノレポに統合され、旧 Azure/azure-mcp リポジトリはアーカイブされました。npm パッケージは引き続き @azure/mcp で、インストールコマンドも変わりません。公式ソースであることを確認してください。",
+          "es": "Azure MCP se ha consolidado en el monorepo oficial microsoft/mcp de Microsoft, y el antiguo repo Azure/azure-mcp está archivado. El paquete npm sigue siendo @azure/mcp y el comando de instalación no cambia — solo asegúrate de usar la fuente oficial.",
+          "fr": "Azure MCP a été regroupé dans le monorepo officiel microsoft/mcp de Microsoft, et l'ancien dépôt Azure/azure-mcp est archivé. Le paquet npm reste @azure/mcp et la commande d'installation est inchangée — assurez-vous simplement d'utiliser la source officielle."
+        }
+      }
+    ]
+  },
+  {
+    "slug": "perplexity-mcp",
+    "name": "Perplexity MCP",
+    "nameZh": "Perplexity MCP",
+    "description": "Perplexity 官方 MCP 服务器，把 Perplexity 的实时联网搜索与推理能力接入 AI 智能体——用 Sonar API 做带引用的实时网络检索与研究，支持本地 stdio 与官方托管的远程端点两种接入方式。",
+    "descriptionEn": "Perplexity's official MCP server brings its real-time web search and reasoning into AI agents — real-time, cited web research powered by the Sonar API, available both as a local stdio server and as an officially hosted remote endpoint.",
+    "descriptionJa": "Perplexity 公式の MCP サーバー。Perplexity のリアルタイム Web 検索と推論能力を AI エージェントに取り込み、Sonar API による引用付きのリアルタイム Web 調査を実現します。ローカル stdio と公式ホスト型リモートエンドポイントの 2 通りで接続できます。",
+    "descriptionEs": "El servidor MCP oficial de Perplexity lleva su búsqueda web en tiempo real y su razonamiento a los agentes de IA: investigación web en tiempo real y con citas impulsada por la API Sonar, disponible como servidor stdio local y como endpoint remoto alojado oficialmente.",
+    "descriptionFr": "Le serveur MCP officiel de Perplexity apporte sa recherche web en temps réel et son raisonnement aux agents IA — recherche web en temps réel et sourcée, propulsée par l'API Sonar, disponible en serveur stdio local et en point de terminaison distant hébergé officiellement.",
+    "developer": "Perplexity",
+    "developerZh": "Perplexity",
+    "repo": "ppl-ai/modelcontextprotocol",
+    "clients": [
+      "claude",
+      "cursor",
+      "vscode",
+      "generic"
+    ],
+    "category": "Search",
+    "tags": [
+      "Free",
+      "Open Source"
+    ],
+    "installCommand": "npx -y @perplexity-ai/mcp-server",
+    "logo": "/logos/mcp/perplexity-mcp.png",
+    "stars": 2422,
+    "featured": false,
+    "faqs": [
+      {
+        "question": {
+          "zh": "Perplexity MCP 和普通网页搜索有何不同？",
+          "en": "How is Perplexity MCP different from plain web search?",
+          "ja": "Perplexity MCP は通常の Web 検索と何が違いますか？",
+          "es": "¿En qué se diferencia Perplexity MCP de una búsqueda web normal?",
+          "fr": "En quoi Perplexity MCP diffère-t-il d'une recherche web classique ?"
+        },
+        "answer": {
+          "zh": "它调用 Perplexity 的 Sonar API，返回的是\"带来源引用、经过检索增强的答案\"，而不只是链接列表。智能体可以直接拿到综合过的实时信息与出处，适合做研究、事实核查与写作取证。",
+          "en": "It calls Perplexity's Sonar API and returns retrieval-augmented, cited answers rather than just a list of links. An agent gets synthesized, up-to-date information with sources, which is ideal for research, fact-checking and sourcing while writing.",
+          "ja": "Perplexity の Sonar API を呼び出し、単なるリンク一覧ではなく「出典付きで検索拡張された回答」を返します。エージェントは統合された最新情報と出典をそのまま得られ、調査やファクトチェック、執筆時の根拠集めに適しています。",
+          "es": "Llama a la API Sonar de Perplexity y devuelve respuestas aumentadas por recuperación y con citas, en lugar de solo una lista de enlaces. Un agente obtiene información sintetizada y actualizada con fuentes, ideal para investigación, verificación de hechos y documentación al escribir.",
+          "fr": "Il appelle l'API Sonar de Perplexity et renvoie des réponses augmentées par récupération et sourcées, plutôt qu'une simple liste de liens. Un agent obtient des informations synthétisées et à jour avec leurs sources, idéal pour la recherche, la vérification des faits et le sourçage lors de la rédaction."
+        }
+      },
+      {
+        "question": {
+          "zh": "一定要装本地服务器吗？",
+          "en": "Do I have to install the local server?",
+          "ja": "ローカルサーバーを必ずインストールする必要がありますか？",
+          "es": "¿Tengo que instalar el servidor local?",
+          "fr": "Suis-je obligé d'installer le serveur local ?"
+        },
+        "answer": {
+          "zh": "不一定。最省事的是用 Perplexity 官方托管的远程 MCP 端点（走 HTTP，无需本地安装与更新）；也可以用本地 stdio 方式 npx -y @perplexity-ai/mcp-server。两种都需要 PERPLEXITY_API_KEY。",
+          "en": "Not necessarily. The easiest option is Perplexity's officially hosted remote MCP endpoint (over HTTP, nothing to install or update locally); alternatively run it locally via stdio with npx -y @perplexity-ai/mcp-server. Both require a PERPLEXITY_API_KEY.",
+          "ja": "必須ではありません。最も手軽なのは Perplexity 公式のホスト型リモート MCP エンドポイント（HTTP 経由で、ローカルのインストールや更新は不要）です。あるいは npx -y @perplexity-ai/mcp-server でローカル stdio 実行もできます。どちらも PERPLEXITY_API_KEY が必要です。",
+          "es": "No necesariamente. La opción más sencilla es el endpoint MCP remoto alojado oficialmente por Perplexity (por HTTP, sin instalar ni actualizar nada localmente); como alternativa, ejecútalo localmente por stdio con npx -y @perplexity-ai/mcp-server. Ambos requieren una PERPLEXITY_API_KEY.",
+          "fr": "Pas nécessairement. L'option la plus simple est le point de terminaison MCP distant hébergé officiellement par Perplexity (via HTTP, rien à installer ni mettre à jour localement) ; sinon, exécutez-le localement en stdio avec npx -y @perplexity-ai/mcp-server. Les deux nécessitent une PERPLEXITY_API_KEY."
+        }
+      },
+      {
+        "question": {
+          "zh": "Perplexity MCP 免费吗？",
+          "en": "Is Perplexity MCP free?",
+          "ja": "Perplexity MCP は無料ですか？",
+          "es": "¿Perplexity MCP es gratuito?",
+          "fr": "Perplexity MCP est-il gratuit ?"
+        },
+        "answer": {
+          "zh": "MCP 服务器代码开源免费（MIT）。但它背后调用的是 Perplexity Sonar API，属于按量计费的付费 API，需要在 Perplexity 账户申请 API Key 并按用量付费。",
+          "en": "The MCP server code is open source and free (MIT). However, it calls the Perplexity Sonar API behind the scenes, which is a paid, usage-based API — you need to obtain an API key from your Perplexity account and pay per usage.",
+          "ja": "MCP サーバーのコードはオープンソースで無料（MIT）です。ただし背後で呼び出す Perplexity Sonar API は従量課金の有料 API で、Perplexity アカウントで API キーを取得し、使用量に応じて支払う必要があります。",
+          "es": "El código del servidor MCP es de código abierto y gratuito (MIT). Sin embargo, por detrás llama a la API Sonar de Perplexity, que es una API de pago por uso — necesitas obtener una clave API en tu cuenta de Perplexity y pagar por consumo.",
+          "fr": "Le code du serveur MCP est open source et gratuit (MIT). Cependant, il appelle en coulisses l'API Sonar de Perplexity, une API payante à l'usage — vous devez obtenir une clé API dans votre compte Perplexity et payer selon la consommation."
+        }
+      }
+    ]
+  },
+  {
+    "slug": "tavily-mcp",
+    "name": "Tavily MCP",
+    "nameZh": "Tavily MCP",
+    "description": "Tavily 官方 MCP 服务器，为 AI 智能体提供面向 LLM 优化的实时搜索——search 联网检索、extract 提取网页正文、map 站点结构、crawl 抓取，专为 RAG 与研究场景设计，返回干净可引用的结果。",
+    "descriptionEn": "Tavily's official MCP server gives AI agents LLM-optimized real-time search — search the web, extract page content, map site structure and crawl, purpose-built for RAG and research with clean, citable results.",
+    "descriptionJa": "Tavily 公式の MCP サーバー。AI エージェントに LLM 最適化されたリアルタイム検索を提供し、search（Web 検索）、extract（ページ本文抽出）、map（サイト構造把握）、crawl（クロール）を備えます。RAG や調査用途向けに設計され、引用しやすいクリーンな結果を返します。",
+    "descriptionEs": "El servidor MCP oficial de Tavily ofrece a los agentes de IA búsqueda en tiempo real optimizada para LLM: search en la web, extract del contenido de páginas, map de la estructura del sitio y crawl, diseñado específicamente para RAG e investigación con resultados limpios y citables.",
+    "descriptionFr": "Le serveur MCP officiel de Tavily offre aux agents IA une recherche en temps réel optimisée pour les LLM — search sur le web, extract du contenu des pages, map de la structure du site et crawl, conçu pour le RAG et la recherche avec des résultats propres et sourçables.",
+    "developer": "Tavily",
+    "developerZh": "Tavily",
+    "repo": "tavily-ai/tavily-mcp",
+    "clients": [
+      "claude",
+      "cursor",
+      "vscode",
+      "generic"
+    ],
+    "category": "Search",
+    "tags": [
+      "Free",
+      "Open Source"
+    ],
+    "installCommand": "npx -y tavily-mcp@latest",
+    "logo": "/logos/mcp/tavily-mcp.png",
+    "stars": 2281,
+    "featured": false,
+    "faqs": [
+      {
+        "question": {
+          "zh": "Tavily MCP 提供哪些工具？",
+          "en": "What tools does Tavily MCP provide?",
+          "ja": "Tavily MCP はどんなツールを提供しますか？",
+          "es": "¿Qué herramientas ofrece Tavily MCP?",
+          "fr": "Quels outils Tavily MCP fournit-il ?"
+        },
+        "answer": {
+          "zh": "四个核心工具：search（面向 LLM 优化的实时联网搜索）、extract（从指定 URL 提取干净正文）、map（快速梳理网站结构）、crawl（按规则抓取多页）。组合使用可支撑智能体的研究、比价、竞品调研等任务。",
+          "en": "Four core tools: search (LLM-optimized real-time web search), extract (pull clean main content from given URLs), map (quickly outline a site's structure) and crawl (fetch multiple pages by rules). Combined, they power agent tasks like research, price comparison and competitive analysis.",
+          "ja": "4 つのコアツールです：search（LLM 最適化のリアルタイム Web 検索）、extract（指定 URL からクリーンな本文を抽出）、map（サイト構造を素早く把握）、crawl（ルールに沿って複数ページを取得）。組み合わせれば、調査・価格比較・競合分析などエージェントのタスクを支えます。",
+          "es": "Cuatro herramientas clave: search (búsqueda web en tiempo real optimizada para LLM), extract (obtener contenido principal limpio de URLs dadas), map (esbozar rápidamente la estructura de un sitio) y crawl (obtener varias páginas según reglas). Combinadas, impulsan tareas del agente como investigación, comparación de precios y análisis competitivo.",
+          "fr": "Quatre outils clés : search (recherche web en temps réel optimisée LLM), extract (extraire le contenu principal propre d'URL données), map (esquisser rapidement la structure d'un site) et crawl (récupérer plusieurs pages selon des règles). Combinés, ils alimentent des tâches d'agent comme la recherche, la comparaison de prix et l'analyse concurrentielle."
+        }
+      },
+      {
+        "question": {
+          "zh": "怎么安装 Tavily MCP？",
+          "en": "How do I install Tavily MCP?",
+          "ja": "Tavily MCP はどうインストールしますか？",
+          "es": "¿Cómo instalo Tavily MCP?",
+          "fr": "Comment installer Tavily MCP ?"
+        },
+        "answer": {
+          "zh": "本地 stdio 用 npx -y tavily-mcp@latest，并在环境变量里配置 TAVILY_API_KEY；也可以用 npx mcp-remote 接 Tavily 官方托管端点 https://mcp.tavily.com/mcp/。API Key 在 Tavily 控制台申请。",
+          "en": "For local stdio use npx -y tavily-mcp@latest and set TAVILY_API_KEY in the environment; alternatively use npx mcp-remote against Tavily's hosted endpoint https://mcp.tavily.com/mcp/. Get the API key from the Tavily dashboard.",
+          "ja": "ローカル stdio では npx -y tavily-mcp@latest を使い、環境変数に TAVILY_API_KEY を設定します。あるいは npx mcp-remote で Tavily 公式のホスト型エンドポイント https://mcp.tavily.com/mcp/ に接続できます。API キーは Tavily のダッシュボードで取得します。",
+          "es": "Para stdio local usa npx -y tavily-mcp@latest y define TAVILY_API_KEY en el entorno; como alternativa usa npx mcp-remote contra el endpoint alojado de Tavily https://mcp.tavily.com/mcp/. Obtén la clave API en el panel de Tavily.",
+          "fr": "Pour le stdio local, utilisez npx -y tavily-mcp@latest et définissez TAVILY_API_KEY dans l'environnement ; sinon, utilisez npx mcp-remote vers le point de terminaison hébergé de Tavily https://mcp.tavily.com/mcp/. Obtenez la clé API dans le tableau de bord Tavily."
+        }
+      },
+      {
+        "question": {
+          "zh": "Tavily MCP 免费吗？",
+          "en": "Is Tavily MCP free?",
+          "ja": "Tavily MCP は無料ですか？",
+          "es": "¿Tavily MCP es gratuito?",
+          "fr": "Tavily MCP est-il gratuit ?"
+        },
+        "answer": {
+          "zh": "MCP 服务器开源免费（MIT）。搜索能力来自 Tavily API，提供每月一定额度的免费套餐，超出后按用量付费；个人小规模研究通常在免费额度内即可。",
+          "en": "The MCP server is open source and free (MIT). The search capability comes from the Tavily API, which offers a monthly free tier with usage billed beyond that; small personal research usually fits within the free tier.",
+          "ja": "MCP サーバーはオープンソースで無料（MIT）です。検索機能は Tavily API 由来で、毎月一定枠の無料プランがあり、超過分は従量課金です。個人の小規模な調査は通常無料枠内に収まります。",
+          "es": "El servidor MCP es de código abierto y gratuito (MIT). La capacidad de búsqueda proviene de la API de Tavily, que ofrece un nivel gratuito mensual con uso facturado más allá; la investigación personal a pequeña escala suele caber en el nivel gratuito.",
+          "fr": "Le serveur MCP est open source et gratuit (MIT). La capacité de recherche provient de l'API Tavily, qui offre une offre gratuite mensuelle, l'usage au-delà étant facturé ; une petite recherche personnelle tient généralement dans l'offre gratuite."
+        }
+      }
+    ]
+  },
+  {
+    "slug": "slack-mcp",
+    "name": "Slack MCP Server",
+    "nameZh": "Slack MCP",
+    "description": "社区高人气的 Slack MCP 服务器，让 AI 智能体读写 Slack 工作区——收发消息、拉取频道与私信历史、检索会话，支持 stdio/SSE 传输与代理，主打\"无需管理员审批 App、免权限\"的接入方式。",
+    "descriptionEn": "A popular community Slack MCP server that lets AI agents read and write Slack workspaces — send/receive messages, pull channel and DM history, search conversations, with stdio/SSE transports and proxy support, notably able to connect without admin-approved app permissions.",
+    "descriptionJa": "コミュニティで人気の Slack MCP サーバー。AI エージェントが Slack ワークスペースを読み書きでき、メッセージの送受信、チャンネルや DM 履歴の取得、会話の検索が可能です。stdio/SSE トランスポートとプロキシに対応し、「管理者承認の App 不要・権限不要」で接続できる点が特長です。",
+    "descriptionEs": "Un popular servidor MCP de Slack de la comunidad que permite a los agentes de IA leer y escribir en espacios de Slack: enviar/recibir mensajes, obtener el historial de canales y DMs, buscar conversaciones, con transportes stdio/SSE y soporte de proxy, destacando por conectarse sin permisos de app aprobados por un administrador.",
+    "descriptionFr": "Un serveur MCP Slack communautaire populaire qui permet aux agents IA de lire et écrire dans les espaces Slack — envoyer/recevoir des messages, récupérer l'historique des canaux et DM, rechercher des conversations, avec transports stdio/SSE et prise en charge du proxy, se distinguant par une connexion sans permissions d'app approuvées par un administrateur.",
+    "developer": "korotovsky (community)",
+    "developerZh": "korotovsky（社区）",
+    "repo": "korotovsky/slack-mcp-server",
+    "clients": [
+      "claude",
+      "cursor",
+      "vscode",
+      "generic"
+    ],
+    "category": "Communication",
+    "tags": [
+      "Free",
+      "Open Source"
+    ],
+    "installCommand": "npx -y slack-mcp-server@latest",
+    "logo": "/logos/mcp/slack-mcp.png",
+    "stars": 1762,
+    "featured": false,
+    "faqs": [
+      {
+        "question": {
+          "zh": "Slack MCP 需要管理员审批 App 吗？",
+          "en": "Does Slack MCP need an admin-approved app?",
+          "ja": "Slack MCP には管理者承認の App が必要ですか？",
+          "es": "¿Slack MCP necesita una app aprobada por un administrador?",
+          "fr": "Slack MCP nécessite-t-il une app approuvée par un administrateur ?"
+        },
+        "answer": {
+          "zh": "这正是它的卖点：可以用浏览器会话令牌等方式连接，无需在工作区安装需管理员审批的 Slack App、也不必申请一堆 scope，个人使用门槛低。但请注意遵守你所在组织的 Slack 使用政策与安全规范。",
+          "en": "That is its selling point: it can connect using browser session tokens and similar, without installing an admin-approved Slack app in the workspace or requesting many scopes, keeping the barrier low for individuals. That said, follow your organization's Slack usage policy and security rules.",
+          "ja": "それがまさに特長です。ブラウザのセッショントークンなどで接続でき、管理者承認が必要な Slack App をワークスペースに入れたり、多数のスコープを申請したりせずに済むため、個人利用のハードルが低いです。ただし所属組織の Slack 利用ポリシーとセキュリティ規則には従ってください。",
+          "es": "Ese es precisamente su atractivo: puede conectarse usando tokens de sesión del navegador y similares, sin instalar una app de Slack aprobada por un administrador ni solicitar muchos scopes, manteniendo baja la barrera para individuos. Dicho esto, respeta la política de uso de Slack y las normas de seguridad de tu organización.",
+          "fr": "C'est justement son atout : il peut se connecter via des jetons de session de navigateur et similaires, sans installer d'app Slack approuvée par un administrateur ni demander de nombreux scopes, ce qui abaisse la barrière pour les particuliers. Cela dit, respectez la politique d'utilisation de Slack et les règles de sécurité de votre organisation."
+        }
+      },
+      {
+        "question": {
+          "zh": "它是官方产品吗？稳定吗？",
+          "en": "Is it an official product? Is it stable?",
+          "ja": "これは公式製品ですか？安定していますか？",
+          "es": "¿Es un producto oficial? ¿Es estable?",
+          "fr": "Est-ce un produit officiel ? Est-il stable ?"
+        },
+        "answer": {
+          "zh": "这是社区维护的开源项目（非 Slack 官方），用 Go 编写，星标与迭代都很活跃，是目前功能最全的 Slack MCP 之一。生产环境使用前建议评估权限范围与合规要求，并锁定版本。",
+          "en": "It is a community-maintained open-source project (not by Slack), written in Go, with active stars and iteration, and one of the most full-featured Slack MCPs today. For production use, evaluate the permission scope and compliance requirements and pin a version.",
+          "ja": "これはコミュニティが維持するオープンソースプロジェクト（Slack 公式ではありません）で、Go 製、スター数も更新も活発で、現在最も機能が充実した Slack MCP の一つです。本番利用の前には権限範囲とコンプライアンス要件を評価し、バージョンを固定することをおすすめします。",
+          "es": "Es un proyecto de código abierto mantenido por la comunidad (no de Slack), escrito en Go, con estrellas e iteración activas, y uno de los MCP de Slack más completos hoy. Para uso en producción, evalúa el alcance de permisos y los requisitos de cumplimiento y fija una versión.",
+          "fr": "C'est un projet open source maintenu par la communauté (pas par Slack), écrit en Go, avec des étoiles et des itérations actives, et l'un des MCP Slack les plus complets aujourd'hui. Pour un usage en production, évaluez la portée des permissions et les exigences de conformité, et figez une version."
+        }
+      },
+      {
+        "question": {
+          "zh": "Slack MCP 能做什么典型任务？",
+          "en": "What typical tasks can Slack MCP do?",
+          "ja": "Slack MCP でできる典型的なタスクは？",
+          "es": "¿Qué tareas típicas puede hacer Slack MCP?",
+          "fr": "Quelles tâches typiques Slack MCP peut-il accomplir ?"
+        },
+        "answer": {
+          "zh": "让智能体帮你总结频道未读、检索历史讨论找结论、把某段对话整理成待办、或按指令发消息/回复。配合日历、任务类工具，可搭出\"读群消息→提炼行动项→跨工具落地\"的自动化流。",
+          "en": "It lets an agent summarize unread channels, search past discussions for conclusions, turn a thread into to-dos, or send/reply messages on command. Combined with calendar and task tools, you can build a \"read chat → distill action items → act across tools\" automation.",
+          "ja": "エージェントに、未読チャンネルの要約、過去の議論の検索と結論の抽出、スレッドの ToDo 化、指示に応じたメッセージ送信・返信などを任せられます。カレンダーやタスク系ツールと組み合わせれば、「チャットを読む→アクション項目を抽出→各ツールで実行」という自動化を組めます。",
+          "es": "Permite a un agente resumir canales no leídos, buscar en discusiones pasadas para hallar conclusiones, convertir un hilo en tareas, o enviar/responder mensajes bajo demanda. Junto con herramientas de calendario y tareas, puedes crear una automatización de \"leer chat → destilar acciones → ejecutar en varias herramientas\".",
+          "fr": "Il permet à un agent de résumer les canaux non lus, de rechercher dans les discussions passées pour en tirer des conclusions, de transformer un fil en tâches, ou d'envoyer/répondre à des messages sur commande. Avec des outils d'agenda et de tâches, vous pouvez bâtir une automatisation « lire le chat → dégager les actions → exécuter sur plusieurs outils »."
+        }
+      }
+    ]
+  },
+  {
+    "slug": "kubernetes-mcp",
+    "name": "Kubernetes MCP Server",
+    "nameZh": "Kubernetes MCP",
+    "description": "社区高人气的 Kubernetes MCP 服务器，让 AI 智能体用自然语言运维集群——查看/创建/删除 Pod、Deployment、Service，读日志、执行 kubectl 与 Helm 操作，支持只读模式与非破坏性模式保护生产环境。",
+    "descriptionEn": "A popular community Kubernetes MCP server that lets AI agents operate clusters in natural language — view/create/delete Pods, Deployments and Services, read logs, run kubectl and Helm operations, with read-only and non-destructive modes to protect production.",
+    "descriptionJa": "コミュニティで人気の Kubernetes MCP サーバー。AI エージェントが自然言語でクラスターを運用でき、Pod・Deployment・Service の参照/作成/削除、ログ閲覧、kubectl や Helm 操作の実行が可能で、本番を守る読み取り専用モードや非破壊モードにも対応します。",
+    "descriptionEs": "Un popular servidor MCP de Kubernetes de la comunidad que permite a los agentes de IA operar clústeres en lenguaje natural: ver/crear/eliminar Pods, Deployments y Services, leer registros, ejecutar operaciones de kubectl y Helm, con modos de solo lectura y no destructivo para proteger producción.",
+    "descriptionFr": "Un serveur MCP Kubernetes communautaire populaire qui permet aux agents IA d'exploiter les clusters en langage naturel — voir/créer/supprimer Pods, Deployments et Services, lire les journaux, exécuter des opérations kubectl et Helm, avec des modes lecture seule et non destructif pour protéger la production.",
+    "developer": "Flux159 (community)",
+    "developerZh": "Flux159（社区）",
+    "repo": "Flux159/mcp-server-kubernetes",
+    "clients": [
+      "claude",
+      "cursor",
+      "vscode",
+      "generic"
+    ],
+    "category": "DevOps",
+    "tags": [
+      "Free",
+      "Open Source"
+    ],
+    "installCommand": "npx -y mcp-server-kubernetes",
+    "logo": "/logos/mcp/kubernetes-mcp.png",
+    "stars": 1514,
+    "featured": false,
+    "faqs": [
+      {
+        "question": {
+          "zh": "Kubernetes MCP 连的是哪个集群？",
+          "en": "Which cluster does Kubernetes MCP connect to?",
+          "ja": "Kubernetes MCP はどのクラスターに接続しますか？",
+          "es": "¿A qué clúster se conecta Kubernetes MCP?",
+          "fr": "À quel cluster Kubernetes MCP se connecte-t-il ?"
+        },
+        "answer": {
+          "zh": "它复用你本机的 kubeconfig（默认 ~/.kube/config 与当前 context），连的就是你 kubectl 当前指向的集群。切换 context 即可切集群，权限完全由该 context 的凭据决定，不会额外提权。",
+          "en": "It reuses your local kubeconfig (by default ~/.kube/config and the current context), so it connects to whatever cluster kubectl currently points to. Switch context to switch clusters; permissions are entirely determined by that context's credentials, with no extra privilege escalation.",
+          "ja": "ローカルの kubeconfig（既定では ~/.kube/config と現在の context）を再利用するため、kubectl が現在指しているクラスターに接続します。context を切り替えればクラスターを切り替えられ、権限はその context の認証情報だけで決まり、追加の権限昇格はありません。",
+          "es": "Reutiliza tu kubeconfig local (por defecto ~/.kube/config y el contexto actual), por lo que se conecta al clúster al que apunta kubectl en ese momento. Cambia de contexto para cambiar de clúster; los permisos los determinan por completo las credenciales de ese contexto, sin escalado de privilegios adicional.",
+          "fr": "Il réutilise votre kubeconfig local (par défaut ~/.kube/config et le contexte courant), il se connecte donc au cluster vers lequel kubectl pointe actuellement. Changez de contexte pour changer de cluster ; les permissions sont entièrement déterminées par les identifiants de ce contexte, sans élévation de privilèges supplémentaire."
+        }
+      },
+      {
+        "question": {
+          "zh": "会不会误删生产资源？",
+          "en": "Could it accidentally delete production resources?",
+          "ja": "本番リソースを誤って削除してしまうことはありますか？",
+          "es": "¿Podría eliminar accidentalmente recursos de producción?",
+          "fr": "Pourrait-il supprimer accidentellement des ressources de production ?"
+        },
+        "answer": {
+          "zh": "为此它提供只读模式与非破坏性模式：开启后禁用删除等危险操作，智能体只能查看和做安全变更。生产环境建议开只读或非破坏模式，并用权限受限的 context，把风险控制住。",
+          "en": "For that it offers read-only and non-destructive modes: when enabled, dangerous operations like delete are disabled and the agent can only view and make safe changes. For production, enable read-only or non-destructive mode and use a permission-limited context to keep risk contained.",
+          "ja": "そのために読み取り専用モードと非破壊モードを備えています。有効にすると削除などの危険な操作が無効になり、エージェントは参照と安全な変更しかできません。本番では読み取り専用または非破壊モードを有効にし、権限を絞った context を使ってリスクを抑えることをおすすめします。",
+          "es": "Para eso ofrece modos de solo lectura y no destructivo: al activarlos, se deshabilitan operaciones peligrosas como eliminar y el agente solo puede ver y hacer cambios seguros. En producción, activa el modo de solo lectura o no destructivo y usa un contexto con permisos limitados para contener el riesgo.",
+          "fr": "Pour cela, il propose des modes lecture seule et non destructif : une fois activés, les opérations dangereuses comme la suppression sont désactivées et l'agent ne peut que consulter et effectuer des modifications sûres. En production, activez le mode lecture seule ou non destructif et utilisez un contexte à permissions limitées pour maîtriser le risque."
+        }
+      },
+      {
+        "question": {
+          "zh": "支持 Helm 和多种资源吗？",
+          "en": "Does it support Helm and many resource types?",
+          "ja": "Helm や多様なリソースに対応していますか？",
+          "es": "¿Admite Helm y muchos tipos de recursos?",
+          "fr": "Prend-il en charge Helm et de nombreux types de ressources ?"
+        },
+        "answer": {
+          "zh": "支持。除 Pod/Deployment/Service/ConfigMap 等常见资源的增删查改外，还能执行 kubectl 通用命令、查看日志与事件、做 Helm chart 的安装与升级，覆盖日常排障与发布操作。",
+          "en": "Yes. Beyond CRUD on common resources like Pods/Deployments/Services/ConfigMaps, it can run general kubectl commands, view logs and events, and install/upgrade Helm charts, covering everyday troubleshooting and release operations.",
+          "ja": "はい。Pod/Deployment/Service/ConfigMap など一般的なリソースの作成・削除・参照・更新に加え、汎用の kubectl コマンド実行、ログやイベントの確認、Helm チャートのインストール・アップグレードにも対応し、日常のトラブルシューティングやリリース作業をカバーします。",
+          "es": "Sí. Además del CRUD sobre recursos comunes como Pods/Deployments/Services/ConfigMaps, puede ejecutar comandos generales de kubectl, ver registros y eventos, e instalar/actualizar charts de Helm, cubriendo la resolución de problemas y las operaciones de despliegue del día a día.",
+          "fr": "Oui. Au-delà du CRUD sur des ressources courantes comme Pods/Deployments/Services/ConfigMaps, il peut exécuter des commandes kubectl générales, consulter journaux et événements, et installer/mettre à niveau des charts Helm, couvrant le dépannage quotidien et les opérations de déploiement."
+        }
+      }
+    ]
+  },
+  {
+    "slug": "docker-mcp",
+    "name": "Docker MCP Gateway",
+    "nameZh": "Docker MCP 网关",
+    "description": "Docker 官方的 MCP 网关（docker mcp CLI 插件），把众多 MCP 服务器以容器方式安全地统一运行与编排——集中管理密钥、隔离运行、一键接入 Docker MCP Catalog，是本地跑多个 MCP 的安全底座。",
+    "descriptionEn": "Docker's official MCP Gateway (the docker mcp CLI plugin) runs and orchestrates many MCP servers securely as containers — centralizing secrets, isolating execution and one-click access to the Docker MCP Catalog, serving as a secure foundation for running multiple MCPs locally.",
+    "descriptionJa": "Docker 公式の MCP ゲートウェイ（docker mcp CLI プラグイン）。多数の MCP サーバーをコンテナとして安全に一元実行・オーケストレーションし、シークレットの集中管理、隔離実行、Docker MCP Catalog へのワンクリック接続を提供します。ローカルで複数の MCP を動かす安全な基盤です。",
+    "descriptionEs": "El MCP Gateway oficial de Docker (el plugin de CLI docker mcp) ejecuta y orquesta muchos servidores MCP de forma segura como contenedores: centraliza secretos, aísla la ejecución y ofrece acceso con un clic al Docker MCP Catalog, sirviendo como base segura para ejecutar varios MCP localmente.",
+    "descriptionFr": "La MCP Gateway officielle de Docker (le plugin CLI docker mcp) exécute et orchestre de nombreux serveurs MCP de façon sécurisée sous forme de conteneurs — centralisation des secrets, exécution isolée et accès en un clic au Docker MCP Catalog, servant de base sécurisée pour exécuter plusieurs MCP en local.",
+    "developer": "Docker",
+    "developerZh": "Docker",
+    "repo": "docker/mcp-gateway",
+    "clients": [
+      "claude",
+      "cursor",
+      "vscode",
+      "generic"
+    ],
+    "category": "DevOps",
+    "tags": [
+      "Free",
+      "Open Source"
+    ],
+    "installCommand": "docker mcp gateway run",
+    "logo": "/logos/mcp/docker-mcp.png",
+    "stars": 1513,
+    "featured": false,
+    "faqs": [
+      {
+        "question": {
+          "zh": "Docker MCP 网关和普通 MCP 服务器有什么区别？",
+          "en": "How is the Docker MCP Gateway different from a regular MCP server?",
+          "ja": "Docker MCP ゲートウェイは通常の MCP サーバーと何が違いますか？",
+          "es": "¿En qué se diferencia el Docker MCP Gateway de un servidor MCP normal?",
+          "fr": "En quoi la Docker MCP Gateway diffère-t-elle d'un serveur MCP classique ?"
+        },
+        "answer": {
+          "zh": "它不是某一个功能服务器，而是\"网关\"：客户端只连它一个，它在背后把多个 MCP 服务器以容器方式拉起、隔离运行并统一编排，集中管理密钥与权限。相当于给一堆 MCP 加了一层安全的容器化中枢。",
+          "en": "It is not a single feature server but a gateway: your client connects only to it, and behind the scenes it spins up multiple MCP servers as isolated containers, orchestrates them and centralizes secrets and permissions. Think of it as a secure, containerized hub in front of many MCPs.",
+          "ja": "これは単一の機能サーバーではなく「ゲートウェイ」です。クライアントはこれ一つに接続し、背後で複数の MCP サーバーをコンテナとして隔離起動・オーケストレーションし、シークレットと権限を一元管理します。多数の MCP の前段に置く、安全なコンテナ化ハブのような存在です。",
+          "es": "No es un único servidor de funciones, sino una puerta de enlace: tu cliente se conecta solo a ella y, por detrás, levanta varios servidores MCP como contenedores aislados, los orquesta y centraliza secretos y permisos. Piénsalo como un hub contenedorizado y seguro delante de muchos MCP.",
+          "fr": "Ce n'est pas un simple serveur de fonctions mais une passerelle : votre client s'y connecte uniquement, et en coulisses elle lance plusieurs serveurs MCP sous forme de conteneurs isolés, les orchestre et centralise secrets et permissions. Voyez-la comme un hub conteneurisé et sécurisé devant de nombreux MCP."
+        }
+      },
+      {
+        "question": {
+          "zh": "安装 Docker MCP 网关需要什么？",
+          "en": "What do I need to install the Docker MCP Gateway?",
+          "ja": "Docker MCP ゲートウェイのインストールに必要なものは？",
+          "es": "¿Qué necesito para instalar el Docker MCP Gateway?",
+          "fr": "De quoi ai-je besoin pour installer la Docker MCP Gateway ?"
+        },
+        "answer": {
+          "zh": "它是 docker CLI 的插件（docker mcp ...）。装了较新版 Docker Desktop 后在 MCP Toolkit 里可直接启用；纯 Docker Engine 环境可从 GitHub Releases 下载 docker-mcp 二进制并放到 CLI 插件目录，然后用 docker mcp gateway run 启动。",
+          "en": "It is a plugin for the docker CLI (docker mcp ...). With a recent Docker Desktop you can enable it directly in the MCP Toolkit; on plain Docker Engine, download the docker-mcp binary from GitHub Releases into the CLI plugins directory, then start it with docker mcp gateway run.",
+          "ja": "これは docker CLI のプラグイン（docker mcp ...）です。新しめの Docker Desktop なら MCP Toolkit から直接有効化できます。純粋な Docker Engine 環境では、GitHub Releases から docker-mcp バイナリを CLI プラグインディレクトリに配置し、docker mcp gateway run で起動します。",
+          "es": "Es un plugin de la CLI de docker (docker mcp ...). Con un Docker Desktop reciente puedes activarlo directamente en el MCP Toolkit; en Docker Engine puro, descarga el binario docker-mcp desde GitHub Releases al directorio de plugins de la CLI y arráncalo con docker mcp gateway run.",
+          "fr": "C'est un plugin de la CLI docker (docker mcp ...). Avec un Docker Desktop récent, vous pouvez l'activer directement dans le MCP Toolkit ; sur Docker Engine pur, téléchargez le binaire docker-mcp depuis les GitHub Releases dans le répertoire des plugins CLI, puis lancez-le avec docker mcp gateway run."
+        }
+      },
+      {
+        "question": {
+          "zh": "Docker MCP 网关免费开源吗？",
+          "en": "Is the Docker MCP Gateway free and open source?",
+          "ja": "Docker MCP ゲートウェイは無料でオープンソースですか？",
+          "es": "¿El Docker MCP Gateway es gratuito y de código abierto?",
+          "fr": "La Docker MCP Gateway est-elle gratuite et open source ?"
+        },
+        "answer": {
+          "zh": "是，网关本身开源免费（MIT）。它编排运行的各个 MCP 服务器则各有各的许可证与可能的付费 API，需分别留意；网关只负责安全地容器化运行与统一管理。",
+          "en": "Yes, the gateway itself is open source and free (MIT). The individual MCP servers it orchestrates each have their own licenses and possibly paid APIs, which you should check separately; the gateway only handles secure containerized execution and unified management.",
+          "ja": "はい、ゲートウェイ自体はオープンソースで無料（MIT）です。オーケストレーションされる各 MCP サーバーはそれぞれ独自のライセンスや有料 API を持つ場合があるため、個別に確認してください。ゲートウェイは安全なコンテナ実行と一元管理を担うだけです。",
+          "es": "Sí, la puerta de enlace en sí es de código abierto y gratuita (MIT). Los servidores MCP individuales que orquesta tienen cada uno su propia licencia y posiblemente APIs de pago, que debes revisar por separado; la puerta de enlace solo se encarga de la ejecución contenedorizada segura y la gestión unificada.",
+          "fr": "Oui, la passerelle elle-même est open source et gratuite (MIT). Les serveurs MCP individuels qu'elle orchestre ont chacun leur propre licence et éventuellement des API payantes, à vérifier séparément ; la passerelle ne gère que l'exécution conteneurisée sécurisée et la gestion unifiée."
+        }
+      }
+    ]
   }
 ]
