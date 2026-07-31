@@ -26,7 +26,7 @@
     "installCommand": "npx -y @modelcontextprotocol/server-filesystem <dir>",
     "logo": "/logos/mcp/mcp-official-servers.png",
     "stars": 89086,
-    "featured": true,
+    "featured": false,
     "faqs": [
       {
         "question": {
@@ -105,7 +105,7 @@
     "installCommand": "npx -y @upstash/context7-mcp",
     "logo": "/logos/mcp/context7.png",
     "stars": 60067,
-    "featured": true,
+    "featured": false,
     "faqs": [
       {
         "question": {
@@ -184,7 +184,7 @@
     "installCommand": "npx -y chrome-devtools-mcp@latest",
     "logo": "/logos/mcp/chrome-devtools-mcp.png",
     "stars": 48257,
-    "featured": true,
+    "featured": false,
     "faqs": [
       {
         "question": {
@@ -263,7 +263,7 @@
     "installCommand": "npx @playwright/mcp@latest",
     "logo": "/logos/mcp/playwright-mcp.png",
     "stars": 35676,
-    "featured": true,
+    "featured": false,
     "faqs": [
       {
         "question": {
@@ -342,7 +342,7 @@
     "installCommand": "claude mcp add --transport http github https://api.githubcopilot.com/mcp/",
     "logo": "/logos/mcp/github-mcp-server.png",
     "stars": 31867,
-    "featured": true,
+    "featured": false,
     "faqs": [
       {
         "question": {
@@ -420,7 +420,7 @@
     "installCommand": "npx -y @composio/mcp",
     "logo": "/logos/mcp/composio.png",
     "stars": 29475,
-    "featured": true,
+    "featured": false,
     "faqs": [
       {
         "question": {
@@ -498,7 +498,7 @@
     "installCommand": "uvx --from git+https://github.com/oraios/serena serena start-mcp-server",
     "logo": "/logos/mcp/serena.png",
     "stars": 27258,
-    "featured": true,
+    "featured": false,
     "faqs": [
       {
         "question": {
