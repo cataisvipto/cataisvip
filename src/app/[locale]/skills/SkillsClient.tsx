@@ -59,10 +59,9 @@ const TAG_COLORS: Record<string, string> = {
 interface SkillsClientProps {
   skills: Skill[];
   locale: string;
-  starsMap?: Record<string, number>;
 }
 
-export default function SkillsClient({ skills, locale, starsMap }: SkillsClientProps) {
+export default function SkillsClient({ skills, locale }: SkillsClientProps) {
   const tSkills = useTranslations('skills');
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedAgent, setSelectedAgent] = useState<string>('all');
@@ -241,7 +240,7 @@ export default function SkillsClient({ skills, locale, starsMap }: SkillsClientP
                 </span>
                 <span className="flex items-center gap-1">
                   <Star className="w-3 h-3" />
-                  {(starsMap?.[skill.slug] ?? skill.stars).toLocaleString()}
+                  {skill.stars.toLocaleString()}
                 </span>
               </div>
             </Link>

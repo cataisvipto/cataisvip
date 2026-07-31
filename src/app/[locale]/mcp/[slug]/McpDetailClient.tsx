@@ -40,16 +40,15 @@ interface McpDetailClientProps {
   server: McpServer;
   locale: string;
   readmeInstallHtml?: string;
-  gitHubStars?: number;
 }
 
-export default function McpDetailClient({ server, locale, readmeInstallHtml, gitHubStars }: McpDetailClientProps) {
+export default function McpDetailClient({ server, locale, readmeInstallHtml }: McpDetailClientProps) {
   const t = useTranslations('common');
   const tMcp = useTranslations('mcp');
   const [searchQuery, setSearchQuery] = useState('');
   const [copied, setCopied] = useState(false);
   const displayName = locale === 'zh' && server.nameZh ? server.nameZh : server.name;
-  const stars = gitHubStars ?? server.stars;
+  const stars = server.stars;
 
   const handleCopyCommand = () => {
     navigator.clipboard.writeText(server.installCommand);

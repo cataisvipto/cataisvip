@@ -1,0 +1,44 @@
+name: Refresh Stars
+
+# MCP / Skills 星数统一刷新：卡片与详情页共用 mcp.json / skills.json 的 stars 字段（单一数据源），
+# 由本工作流定时刷新并自动提交推送；运营控制台的「手动刷新并推送」按钮通过 workflow_dispatch 触发同一流程。
+# 脚本遍历数据文件全部条目，后续新收录自动纳入，无需改本工作流。
+on:
+  schedule:
+    # 每日 UTC 20:47（北京时间凌晨 4:47）；避开整点防 GitHub 静默丢弃
+    - cron: '47 20 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      # 零依赖脚本（Node 内置 fetch），无需 npm install
+      - name: 刷新 MCP / Skills 星数
+        run: node scripts/refresh-stars.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # 有变化才提交推送（匿名品牌身份），推送后自动触发 CI 与 Vercel 部署
+      - name: 提交并推送
+        run: |
+          if git diff --quiet -- src/data/mcp.json src/data/skills.json; then
+            echo "星数无变化，跳过提交"
+            exit 0
+          fi
+          git config user.name "CATAI"
+          git config user.email "309386950+cataisvipto@users.noreply.github.com"
+          git add src/data/mcp.json src/data/skills.json
+          git commit -m "chore(data): 自动刷新 MCP / Skills 星数"
+          git push

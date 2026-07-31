@@ -39,16 +39,15 @@ interface SkillDetailClientProps {
   skill: Skill;
   locale: string;
   readmeInstallHtml?: string;
-  gitHubStars?: number;
 }
 
-export default function SkillDetailClient({ skill, locale, readmeInstallHtml, gitHubStars }: SkillDetailClientProps) {
+export default function SkillDetailClient({ skill, locale, readmeInstallHtml }: SkillDetailClientProps) {
   const t = useTranslations('common');
   const tSkills = useTranslations('skills');
   const [searchQuery, setSearchQuery] = useState('');
   const [copied, setCopied] = useState(false);
   const displayName = locale === 'zh' && skill.nameZh ? skill.nameZh : skill.name;
-  const stars = gitHubStars ?? skill.stars;
+  const stars = skill.stars;
 
   const handleCopyCommand = () => {
     const cmd = skill.installCommand.replace('{{agent}}', skill.agents[0]);

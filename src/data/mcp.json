@@ -25,7 +25,7 @@
     ],
     "installCommand": "npx -y @modelcontextprotocol/server-filesystem <dir>",
     "logo": "/logos/mcp/mcp-official-servers.png",
-    "stars": 89046,
+    "stars": 89084,
     "featured": true,
     "faqs": [
       {
@@ -104,7 +104,7 @@
     ],
     "installCommand": "claude mcp add --transport http github https://api.githubcopilot.com/mcp/",
     "logo": "/logos/mcp/github-mcp-server.png",
-    "stars": 31844,
+    "stars": 31864,
     "featured": true,
     "faqs": [
       {
@@ -183,7 +183,7 @@
     ],
     "installCommand": "npx @playwright/mcp@latest",
     "logo": "/logos/mcp/playwright-mcp.png",
-    "stars": 35631,
+    "stars": 35674,
     "featured": true,
     "faqs": [
       {
@@ -262,7 +262,7 @@
     ],
     "installCommand": "npx -y chrome-devtools-mcp@latest",
     "logo": "/logos/mcp/chrome-devtools-mcp.png",
-    "stars": 47884,
+    "stars": 48252,
     "featured": true,
     "faqs": [
       {
@@ -341,7 +341,7 @@
     ],
     "installCommand": "npx -y @upstash/context7-mcp",
     "logo": "/logos/mcp/context7.png",
-    "stars": 59997,
+    "stars": 60062,
     "featured": true,
     "faqs": [
       {
@@ -419,7 +419,7 @@
     ],
     "installCommand": "npx mcp-remote https://docs.mcp.cloudflare.com/sse",
     "logo": "/logos/mcp/cloudflare-mcp.png",
-    "stars": 4011,
+    "stars": 4010,
     "featured": false,
     "faqs": [
       {
@@ -578,7 +578,7 @@
     ],
     "installCommand": "npx -y @notionhq/notion-mcp-server",
     "logo": "/logos/mcp/notion-mcp-server.png",
-    "stars": 4561,
+    "stars": 4560,
     "featured": false,
     "faqs": [
       {
@@ -658,7 +658,7 @@
     ],
     "installCommand": "env FIRECRAWL_API_KEY=<key> npx -y firecrawl-mcp",
     "logo": "/logos/mcp/firecrawl-mcp.png",
-    "stars": 7079,
+    "stars": 7089,
     "featured": false,
     "faqs": [
       {
@@ -736,7 +736,7 @@
     ],
     "installCommand": "uvx --from git+https://github.com/oraios/serena serena start-mcp-server",
     "logo": "/logos/mcp/serena.png",
-    "stars": 27203,
+    "stars": 27258,
     "featured": true,
     "faqs": [
       {
@@ -813,7 +813,7 @@
     ],
     "installCommand": "uvx blender-mcp",
     "logo": "/logos/mcp/blender-mcp.png",
-    "stars": 25137,
+    "stars": 25190,
     "featured": false,
     "faqs": [
       {
@@ -892,7 +892,7 @@
     ],
     "installCommand": "npx -y figma-developer-mcp --figma-api-key=<key> --stdio",
     "logo": "/logos/mcp/figma-context-mcp.png",
-    "stars": 15543,
+    "stars": 15552,
     "featured": false,
     "faqs": [
       {
@@ -970,7 +970,7 @@
     ],
     "installCommand": "npx -y @composio/mcp",
     "logo": "/logos/mcp/composio.png",
-    "stars": 29474,
+    "stars": 29475,
     "featured": true,
     "faqs": [
       {
@@ -1126,7 +1126,7 @@
     ],
     "installCommand": "npx -y @stripe/mcp",
     "logo": "/logos/mcp/stripe-mcp.png",
-    "stars": 1714,
+    "stars": 1715,
     "featured": false,
     "faqs": [
       {
@@ -1282,7 +1282,7 @@
     ],
     "installCommand": "uvx mcp-atlassian",
     "logo": "/logos/mcp/atlassian-mcp.png",
-    "stars": 5677,
+    "stars": 5679,
     "featured": false,
     "faqs": [
       {
@@ -1828,7 +1828,7 @@
     ],
     "installCommand": "npx -y @brave/brave-search-mcp-server",
     "logo": "/logos/mcp/brave-search-mcp.png",
-    "stars": 1336,
+    "stars": 1337,
     "featured": false,
     "faqs": [
       {
@@ -1906,7 +1906,7 @@
     ],
     "installCommand": "uvx awslabs.core-mcp-server@latest",
     "logo": "/logos/mcp/aws-mcp.png",
-    "stars": 9520,
+    "stars": 9521,
     "featured": false,
     "faqs": [
       {
@@ -2062,7 +2062,7 @@
     ],
     "installCommand": "npx -y @perplexity-ai/mcp-server",
     "logo": "/logos/mcp/perplexity-mcp.png",
-    "stars": 2422,
+    "stars": 2421,
     "featured": false,
     "faqs": [
       {

@@ -171,23 +171,7 @@ async function fetchReadmeInstallHtml(repo: string, copyLabel: string): Promise<
   return null;
 }
 
-/** Fetch live star count from GitHub API at build time */
-async function fetchGitHubStars(repo: string): Promise<number | null> {
-  try {
-    const controller = new AbortController();
-    const timeout = setTimeout(() => controller.abort(), 5000);
-    const res = await fetch(`https://api.github.com/repos/${repo}`, { signal: controller.signal, next: { revalidate: 3600 } });
-    clearTimeout(timeout);
-    if (res.ok) {
-      const data = await res.json();
-      return data.stargazers_count ?? null;
-    }
-  } catch {
-    // fallback to static stars
-  }
-  return null;
-}
-
+/** 星数单一数据源：直接读 skills.json 的 stars（由 refresh-stars 定时/手动刷新），与列表卡片始终一致 */
 export default async function SkillDetailPage({ params }: Props) {
   const { locale, slug } = await params;
   setRequestLocale(locale);
@@ -195,17 +179,13 @@ export default async function SkillDetailPage({ params }: Props) {
   if (!skill) notFound();
 
   const t = await getTranslations({ locale, namespace: 'skills' });
-  const [readmeInstallHtml, gitHubStars] = await Promise.all([
-    fetchReadmeInstallHtml(skill.repo, t('copyCommand')),
-    fetchGitHubStars(skill.repo),
-  ]);
+  const readmeInstallHtml = await fetchReadmeInstallHtml(skill.repo, t('copyCommand'));
 
   return (
     <SkillDetailClient
       skill={skill}
       locale={locale}
       readmeInstallHtml={readmeInstallHtml ?? undefined}
-      gitHubStars={gitHubStars ?? undefined}
     />
   );
 }

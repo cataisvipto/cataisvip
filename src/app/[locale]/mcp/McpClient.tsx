@@ -60,10 +60,9 @@ const TAG_COLORS: Record<string, string> = {
 interface McpClientProps {
   servers: McpServer[];
   locale: string;
-  starsMap?: Record<string, number>;
 }
 
-export default function McpClient({ servers, locale, starsMap }: McpClientProps) {
+export default function McpClient({ servers, locale }: McpClientProps) {
   const tMcp = useTranslations('mcp');
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedClient, setSelectedClient] = useState<string>('all');
@@ -242,7 +241,7 @@ export default function McpClient({ servers, locale, starsMap }: McpClientProps)
                 </span>
                 <span className="flex items-center gap-1">
                   <Star className="w-3 h-3" />
-                  {(starsMap?.[entry.slug] ?? entry.stars).toLocaleString()}
+                  {entry.stars.toLocaleString()}
                 </span>
               </div>
             </Link>
