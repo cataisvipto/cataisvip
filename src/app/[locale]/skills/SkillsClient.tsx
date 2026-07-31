@@ -82,7 +82,10 @@ export default function SkillsClient({ skills, locale }: SkillsClientProps) {
     const agentMatch = selectedAgent === 'all' || skill.agents.includes(selectedAgent);
     const categoryMatch = selectedCategory === 'all' || skill.category === selectedCategory;
     return nameMatch && agentMatch && categoryMatch;
-  });
+  })
+    // 卡片按星数由高到低排列（并列按 slug 升序保证确定性）；stars 为与详情页共用的单一数据源，
+    // 由 refresh-stars 定时/手动刷新，新收录条目自动纳入排序，无需逐个配置。
+    .sort((a, b) => (b.stars - a.stars) || a.slug.localeCompare(b.slug));
 
   return (
     <>

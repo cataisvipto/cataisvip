@@ -8,6 +8,8 @@
  * 行为：
  *   - 遍历 src/data/mcp.json 与 src/data/skills.json 的全部条目（后续新收录自动纳入，无需改本脚本）
  *   - 按 repo 去重后逐个调 GitHub API 取 stargazers_count，写回所有共享该 repo 的条目
+ *   - 刷新后按星数由高到低重排各数据文件条目（并列按 slug 升序），使数据源顺序与卡片展示一致；
+ *     顺序变化本身即视为改动并写回，交由 refresh-stars workflow 自动提交推送
  *   - 单个 repo 失败（网络/404/限流）→ 保留旧值并告警，不阻断其它条目
  *   - 全部请求失败 → exit 1（大概率是网络/限流问题，需要人工关注）
  *
@@ -100,10 +102,18 @@ for (const { label, file, entries } of datasets) {
       changed++;
     }
   }
-  if (changed > 0 && !DRY) {
+  // 按星数由高到低重排（并列按 slug 升序保证确定性），使数据源物理顺序与卡片展示一致；
+  // 新收录条目下次刷新时自动归位，无需逐个配置。
+  const orderBefore = entries.map((e) => e.slug).join('|');
+  entries.sort((a, b) => (b.stars - a.stars) || a.slug.localeCompare(b.slug));
+  const reordered = entries.map((e) => e.slug).join('|') !== orderBefore;
+  if ((changed > 0 || reordered) && !DRY) {
     fs.writeFileSync(file, JSON.stringify(entries, null, 2) + '\n', 'utf8');
   }
-  console.log(`${label}: ${changed} 个条目星数有变化${DRY ? '（dry-run 未写入）' : changed > 0 ? '，已写回' : ''}`);
+  const notes = [];
+  if (changed > 0) notes.push(`${changed} 个条目星数有变化`);
+  if (reordered) notes.push('顺序按星数重排');
+  console.log(`${label}: ${notes.length ? notes.join('，') : '无变化'}${DRY ? '（dry-run 未写入）' : (changed > 0 || reordered) ? '，已写回' : ''}`);
   changedTotal += changed;
 }
 
