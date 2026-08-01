@@ -29,14 +29,15 @@ interface BlogPost {
 interface BlogDetailClientProps {
   post: BlogPost;
   locale: string;
-  articleJsonLd: Record<string, unknown>;
+  articleJsonLd: any;
+  coverImage: string;
 }
 
 // Localize a multilingual field, falling back to English so the blog follows the site language
 const getLocalized = (field: Record<string, string>, locale: string) =>
   field?.[locale] || field?.en || '';
 
-export default function BlogDetailClient({ post, locale, articleJsonLd }: BlogDetailClientProps) {
+export default function BlogDetailClient({ post, locale, articleJsonLd, coverImage }: BlogDetailClientProps) {
   const t = useTranslations('blog');
   const [searchQuery, setSearchQuery] = useState('');
   const [copied, setCopied] = useState(false);
@@ -158,7 +159,7 @@ export default function BlogDetailClient({ post, locale, articleJsonLd }: BlogDe
           {/* Cover Image */}
           <div className="aspect-video rounded-2xl overflow-hidden mb-8">
             <BlogCover
-              src={post.coverImage}
+                          src={coverImage}
               alt={title}
               width={1200}
               height={630}
