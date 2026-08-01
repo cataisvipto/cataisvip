@@ -3772,5 +3772,479 @@
         }
       }
     ]
+  },
+  {
+    "slug": "unity-mcp",
+    "name": "Unity MCP",
+    "nameZh": "Unity MCP",
+    "description": "连接 AI 智能体与 Unity 编辑器的桥梁。让 AI 直接操作 Unity 场景：创建和修改游戏对象、编辑材质、运行脚本、控制编辑器状态，大幅提升游戏开发效率。",
+    "descriptionEn": "A bridge between AI assistants and the Unity Editor. Lets AI directly operate Unity scenes: create and modify game objects, edit materials, run scripts, and control editor state — dramatically boosting game development productivity.",
+    "descriptionJa": "AI アシスタントと Unity エディターを橋渡しするツール。AI が Unity シーンを直接操作可能：ゲームオブジェクトの作成・変更、マテリアルの編集、スクリプトの実行、エディター状態の制御。ゲーム開発の生産性を大幅に向上します。",
+    "descriptionEs": "Un puente entre los asistentes de IA y el Editor de Unity. Permite a la IA operar directamente escenas de Unity: crear y modificar objetos de juego, editar materiales, ejecutar scripts y controlar el estado del editor — aumentando drásticamente la productividad del desarrollo de juegos.",
+    "descriptionFr": "Un pont entre les assistants IA et l'éditeur Unity. Permet à l'IA d'opérer directement les scènes Unity : créer et modifier des objets de jeu, éditer des matériaux, exécuter des scripts et contrôler l'état de l'éditeur — augmentant considérablement la productivité du développement de jeux.",
+    "developer": "CoplayDev",
+    "developerZh": "CoplayDev",
+    "repo": "CoplayDev/unity-mcp",
+    "clients": [
+      "claude",
+      "cursor",
+      "vscode",
+      "codex",
+      "generic"
+    ],
+    "category": "Developer",
+    "tags": [
+      "Free",
+      "Open Source"
+    ],
+    "installCommand": "npx -y @coplay/unity-mcp",
+    "logo": "/logos/mcp/unity-mcp.png",
+    "stars": 13031,
+    "featured": false,
+    "faqs": [
+      {
+        "question": {
+          "zh": "Unity MCP 能做什么？",
+          "en": "What can Unity MCP do?",
+          "ja": "Unity MCP は何ができますか？",
+          "es": "¿Qué puede hacer Unity MCP?",
+          "fr": "Que peut faire Unity MCP ?"
+        },
+        "answer": {
+          "zh": "让 AI 智能体直接操作 Unity 编辑器：创建和删除游戏对象、修改 Transform 组件、编辑材质和着色器、运行和停止播放模式、执行 C# 脚本、查询场景层次结构。适用于 AI 辅助游戏开发、场景搭建和自动化测试。",
+          "en": "Lets AI agents directly operate the Unity Editor: create and delete game objects, modify Transform components, edit materials and shaders, start/stop Play mode, execute C# scripts, and query scene hierarchy. Ideal for AI-assisted game development, scene building, and automated testing.",
+          "ja": "AI エージェントが Unity エディターを直接操作できます：ゲームオブジェクトの作成・削除、Transform コンポーネントの変更、マテリアルとシェーダーの編集、再生モードの開始・停止、C# スクリプトの実行、シーン階層の照会。AI 支援によるゲーム開発、シーン構築、自動テストに最適です。",
+          "es": "Permite a los agentes de IA operar directamente el Editor de Unity: crear y eliminar objetos de juego, modificar componentes Transform, editar materiales y shaders, iniciar/detener el modo de reproducción, ejecutar scripts C# y consultar la jerarquía de escenas. Ideal para desarrollo de juegos asistido por IA, construcción de escenas y pruebas automatizadas.",
+          "fr": "Permet aux agents IA d'opérer directement l'éditeur Unity : créer et supprimer des objets de jeu, modifier les composants Transform, éditer des matériaux et shaders, démarrer/arrêter le mode Play, exécuter des scripts C# et interroger la hiérarchie des scènes. Idéal pour le développement de jeux assisté par IA, la construction de scènes et les tests automatisés."
+        }
+      },
+      {
+        "question": {
+          "zh": "Unity MCP 需要安装什么？",
+          "en": "What do I need to install for Unity MCP?",
+          "ja": "Unity MCP を使用するには何をインストールする必要がありますか？",
+          "es": "¿Qué necesito instalar para Unity MCP?",
+          "fr": "Que dois-je installer pour Unity MCP ?"
+        },
+        "answer": {
+          "zh": "需要 Unity Editor（2019.4 或更新版本）和 Node.js。MCP 服务器通过 Unity 的 Editor 脚本 API 连接，启动后会自动连接到正在运行的 Unity 实例。建议在 Unity 项目中安装配套的 Editor 包。",
+          "en": "You need Unity Editor (2019.4 or newer) and Node.js. The MCP server connects via Unity's Editor Scripting API and auto-connects to running Unity instances. It's recommended to install the companion Editor package in your Unity project.",
+          "ja": "Unity Editor（2019.4 以降）と Node.js が必要です。MCP サーバーは Unity の Editor スクリプティング API を介して接続し、起動後に実行中の Unity インスタンスに自動接続します。Unity プロジェクトに対応する Editor パッケージをインストールすることをお勧めします。",
+          "es": "Necesitas Unity Editor (2019.4 o superior) y Node.js. El servidor MCP se conecta a través de la API de scripting del Editor de Unity y se conecta automáticamente a instancias de Unity en ejecución. Se recomienda instalar el paquete Editor complementario en tu proyecto de Unity.",
+          "fr": "Vous avez besoin de Unity Editor (2019.4 ou plus récent) et de Node.js. Le serveur MCP se connecte via l'API de scripting de l'éditeur Unity et se connecte automatiquement aux instances Unity en cours d'exécution. Il est recommandé d'installer le package Editor compagnon dans votre projet Unity."
+        }
+      },
+      {
+        "question": {
+          "zh": "Unity MCP 免费吗？",
+          "en": "Is Unity MCP free?",
+          "ja": "Unity MCP は無料ですか？",
+          "es": "¿Unity MCP es gratuito?",
+          "fr": "Unity MCP est-il gratuit ?"
+        },
+        "answer": {
+          "zh": "完全免费开源（MIT 协议），无需 API Key。所有操作在本地 Unity 编辑器中执行，数据不会上传到第三方。",
+          "en": "Completely free and open source (MIT license), no API key needed. All operations execute in your local Unity Editor — data never leaves your machine.",
+          "ja": "完全無料・オープンソース（MIT ライセンス）で、API キー不要です。すべての操作はローカルの Unity エディター内で実行され、データが外部に送信されることはありません。",
+          "es": "Completamente gratuito y de código abierto (licencia MIT), sin necesidad de clave API. Todas las operaciones se ejecutan en tu Editor de Unity local — los datos nunca salen de tu máquina.",
+          "fr": "Entièrement gratuit et open source (licence MIT), sans clé API nécessaire. Toutes les opérations s'exécutent dans votre éditeur Unity local — les données ne quittent jamais votre machine."
+        }
+      }
+    ]
+  },
+  {
+    "slug": "ida-pro-mcp",
+    "name": "IDA Pro MCP",
+    "nameZh": "IDA Pro MCP",
+    "description": "AI 驱动的逆向工程助手，桥接 IDA Pro 与大语言模型。让 AI 智能体分析二进制文件、反汇编代码、识别函数和数据结构，辅助安全研究和漏洞分析。",
+    "descriptionEn": "An AI-powered reverse engineering assistant that bridges IDA Pro with large language models. Lets AI agents analyze binary files, disassemble code, identify functions and data structures — assisting security research and vulnerability analysis.",
+    "descriptionJa": "IDA Pro と大規模言語モデルを橋渡しする、AI 駆動のリバースエンジニアリングアシスタント。AI エージェントがバイナリファイルの解析、逆アセンブル、関数やデータ構造の特定を行い、セキュリティ研究や脆弱性分析を支援します。",
+    "descriptionEs": "Un asistente de ingeniería inversa impulsado por IA que conecta IDA Pro con modelos de lenguaje grandes. Permite a los agentes de IA analizar archivos binarios, desensamblar código, identificar funciones y estructuras de datos — asistiendo en investigación de seguridad y análisis de vulnerabilidades.",
+    "descriptionFr": "Un assistant de rétro-ingénierie piloté par l'IA qui fait le pont entre IDA Pro et les grands modèles de langage. Permet aux agents IA d'analyser des fichiers binaires, de désassembler du code, d'identifier des fonctions et des structures de données — assistant la recherche en sécurité et l'analyse de vulnérabilités.",
+    "developer": "mrexodia",
+    "developerZh": "mrexodia",
+    "repo": "mrexodia/ida-pro-mcp",
+    "clients": [
+      "claude",
+      "cursor",
+      "vscode",
+      "codex",
+      "generic"
+    ],
+    "category": "Developer",
+    "tags": [
+      "Free",
+      "Open Source"
+    ],
+    "installCommand": "npx -y ida-pro-mcp",
+    "logo": "/logos/mcp/ida-pro-mcp.png",
+    "stars": 10961,
+    "featured": false,
+    "faqs": [
+      {
+        "question": {
+          "zh": "IDA Pro MCP 能做什么？",
+          "en": "What can IDA Pro MCP do?",
+          "ja": "IDA Pro MCP は何ができますか？",
+          "es": "¿Qué puede hacer IDA Pro MCP?",
+          "fr": "Que peut faire IDA Pro MCP ?"
+        },
+        "answer": {
+          "zh": "让 AI 智能体分析 IDA Pro 中的二进制文件：读取反汇编代码、识别函数签名和调用约定、分析控制流图、搜索特定指令模式、获取交叉引用。极大加速逆向工程中的代码理解过程。",
+          "en": "Lets AI agents analyze binaries in IDA Pro: read disassembly code, identify function signatures and calling conventions, analyze control flow graphs, search for specific instruction patterns, and get cross-references. Dramatically accelerates code understanding in reverse engineering workflows.",
+          "ja": "AI エージェントが IDA Pro 内のバイナリを解析できます：逆アセンブルコードの読み取り、関数シグネチャと呼び出し規約の識別、制御フローグラフの分析、特定の命令パターンの検索、クロスリファレンスの取得。リバースエンジニアリングにおけるコード理解を大幅に加速します。",
+          "es": "Permite a los agentes de IA analizar binarios en IDA Pro: leer código desensamblado, identificar firmas de funciones y convenciones de llamada, analizar gráficos de flujo de control, buscar patrones de instrucciones específicos y obtener referencias cruzadas. Acelera drásticamente la comprensión del código en flujos de trabajo de ingeniería inversa.",
+          "fr": "Permet aux agents IA d'analyser des binaires dans IDA Pro : lire le code désassemblé, identifier les signatures de fonctions et les conventions d'appel, analyser les graphes de flux de contrôle, rechercher des motifs d'instructions spécifiques et obtenir des références croisées. Accélère considérablement la compréhension du code dans les workflows de rétro-ingénierie."
+        }
+      },
+      {
+        "question": {
+          "zh": "IDA Pro MCP 需要 IDA Pro 许可证吗？",
+          "en": "Does IDA Pro MCP require an IDA Pro license?",
+          "ja": "IDA Pro MCP を使用するには IDA Pro のライセンスが必要ですか？",
+          "es": "¿IDA Pro MCP necesita una licencia de IDA Pro?",
+          "fr": "IDA Pro MCP nécessite-t-il une licence IDA Pro ?"
+        },
+        "answer": {
+          "zh": "是的，需要已安装的 IDA Pro（7.0 或更新版本）和有效的许可证。MCP 服务器通过 IDA 的 Python 插件接口与 IDA 交互，因此需要完整的 IDA Pro 环境，免费版 IDA Free 可能部分功能受限。",
+          "en": "Yes, you need IDA Pro (7.0 or newer) installed with a valid license. The MCP server interacts with IDA through its Python plugin interface, so it requires the full IDA Pro environment. The free IDA Free version may have limited functionality.",
+          "ja": "はい、インストール済みの IDA Pro（7.0 以降）と有効なライセンスが必要です。MCP サーバーは IDA の Python プラグインインターフェースを介して IDA と対話するため、完全な IDA Pro 環境が必要です。無料の IDA Free 版では機能が制限される可能性があります。",
+          "es": "Sí, necesitas IDA Pro (7.0 o superior) instalado con una licencia válida. El servidor MCP interactúa con IDA a través de su interfaz de plugins de Python, por lo que requiere el entorno completo de IDA Pro. La versión gratuita IDA Free puede tener funcionalidad limitada.",
+          "fr": "Oui, vous avez besoin d'IDA Pro (7.0 ou plus récent) installé avec une licence valide. Le serveur MCP interagit avec IDA via son interface de plugins Python, donc il nécessite l'environnement IDA Pro complet. La version gratuite IDA Free peut avoir des fonctionnalités limitées."
+        }
+      },
+      {
+        "question": {
+          "zh": "IDA Pro MCP 免费吗？",
+          "en": "Is IDA Pro MCP free?",
+          "ja": "IDA Pro MCP は無料ですか？",
+          "es": "¿IDA Pro MCP es gratuito?",
+          "fr": "IDA Pro MCP est-il gratuit ?"
+        },
+        "answer": {
+          "zh": "MCP 服务器本身免费开源。但 IDA Pro 本身是商业软件，需要购买许可证。如果你已经有 IDA Pro 环境，使用这个 MCP 服务器不需要额外费用。",
+          "en": "The MCP server itself is free and open source. However, IDA Pro itself is commercial software requiring a purchased license. If you already have an IDA Pro environment, using this MCP server incurs no additional cost.",
+          "ja": "MCP サーバー自体は無料のオープンソースです。ただし、IDA Pro 自体は有料ライセンスが必要な商用ソフトウェアです。既に IDA Pro 環境をお持ちの場合は、この MCP サーバーの利用に追加費用はかかりません。",
+          "es": "El servidor MCP en sí es gratuito y de código abierto. Sin embargo, IDA Pro en sí es un software comercial que requiere una licencia comprada. Si ya tienes un entorno IDA Pro, usar este servidor MCP no incurre en costos adicionales.",
+          "fr": "Le serveur MCP lui-même est gratuit et open source. Cependant, IDA Pro lui-même est un logiciel commercial nécessitant une licence payante. Si vous avez déjà un environnement IDA Pro, l'utilisation de ce serveur MCP n'entraîne aucun coût supplémentaire."
+        }
+      }
+    ]
+  },
+  {
+    "slug": "duckduckgo-mcp",
+    "name": "DuckDuckGo MCP",
+    "nameZh": "DuckDuckGo 搜索 MCP",
+    "description": "基于 DuckDuckGo 的隐私搜索 MCP 服务器。让 AI 智能体通过 DuckDuckGo 搜索引擎获取实时网络搜索结果，无需 API Key，保护搜索隐私。",
+    "descriptionEn": "A privacy-focused search MCP server powered by DuckDuckGo. Lets AI agents get real-time web search results through DuckDuckGo's search engine — no API key needed, protecting your search privacy.",
+    "descriptionJa": "DuckDuckGo を搭載したプライバシー重視の検索 MCP サーバー。AI エージェントが DuckDuckGo の検索エンジンを介してリアルタイムのウェブ検索結果を取得できます。API キー不要で、検索プライバシーを保護します。",
+    "descriptionEs": "Un servidor MCP de búsqueda centrado en la privacidad impulsado por DuckDuckGo. Permite a los agentes de IA obtener resultados de búsqueda web en tiempo real a través del motor de búsqueda de DuckDuckGo — sin necesidad de clave API, protegiendo tu privacidad de búsqueda.",
+    "descriptionFr": "Un serveur MCP de recherche axé sur la confidentialité propulsé par DuckDuckGo. Permet aux agents IA d'obtenir des résultats de recherche web en temps réel via le moteur de recherche DuckDuckGo — sans clé API, protégeant votre confidentialité de recherche.",
+    "developer": "nickclyde",
+    "developerZh": "nickclyde",
+    "repo": "nickclyde/duckduckgo-mcp-server",
+    "clients": [
+      "claude",
+      "cursor",
+      "vscode",
+      "codex",
+      "generic"
+    ],
+    "category": "Search",
+    "tags": [
+      "Free",
+      "Open Source"
+    ],
+    "installCommand": "npx -y duckduckgo-mcp-server",
+    "logo": "/logos/mcp/duckduckgo-mcp.png",
+    "stars": 1387,
+    "featured": false,
+    "faqs": [
+      {
+        "question": {
+          "zh": "DuckDuckGo MCP 和 Brave Search MCP 有什么区别？",
+          "en": "How is DuckDuckGo MCP different from Brave Search MCP?",
+          "ja": "DuckDuckGo MCP と Brave Search MCP の違いは？",
+          "es": "¿En qué se diferencia DuckDuckGo MCP de Brave Search MCP?",
+          "fr": "En quoi DuckDuckGo MCP diffère-t-il de Brave Search MCP ?"
+        },
+        "answer": {
+          "zh": "DuckDuckGo MCP 完全免费且无需 API Key，适合零成本部署。Brave Search MCP 需要 API Key（有免费额度）。两者都是隐私优先的搜索引擎，搜索结果质量各有千秋。",
+          "en": "DuckDuckGo MCP is completely free with no API key needed — ideal for zero-cost deployment. Brave Search MCP requires an API key (with a free tier). Both are privacy-first search engines, with varying search result quality.",
+          "ja": "DuckDuckGo MCP は完全無料で API キー不要のため、ゼロコストでの導入に最適です。Brave Search MCP は API キーが必要です（無料枠あり）。どちらもプライバシー優先の検索エンジンで、検索結果の品質はそれぞれ異なります。",
+          "es": "DuckDuckGo MCP es completamente gratuito sin necesidad de clave API — ideal para despliegue de costo cero. Brave Search MCP requiere una clave API (con nivel gratuito). Ambos son motores de búsqueda priorizando la privacidad, con calidad de resultados variable.",
+          "fr": "DuckDuckGo MCP est complètement gratuit sans clé API — idéal pour un déploiement à coût zéro. Brave Search MCP nécessite une clé API (avec un niveau gratuit). Les deux sont des moteurs de recherche axés sur la confidentialité, avec une qualité de résultats variable."
+        }
+      },
+      {
+        "question": {
+          "zh": "DuckDuckGo MCP 能搜索中文内容吗？",
+          "en": "Can DuckDuckGo MCP search Chinese content?",
+          "ja": "DuckDuckGo MCP は中国語のコンテンツを検索できますか？",
+          "es": "¿Puede DuckDuckGo MCP buscar contenido en chino?",
+          "fr": "DuckDuckGo MCP peut-il rechercher du contenu en chinois ?"
+        },
+        "answer": {
+          "zh": "可以。DuckDuckGo 支持多语言搜索，包括中文。但 DuckDuckGo 在中国大陆可能无法直接访问，需要配合 VPN 使用。搜索结果以英文和中文为主，中文搜索质量不如百度等国内引擎。",
+          "en": "Yes. DuckDuckGo supports multilingual search including Chinese. However, it may not be directly accessible in mainland China without a VPN. Search results are primarily in English and Chinese, with Chinese search quality not as good as domestic engines like Baidu.",
+          "ja": "はい。DuckDuckGo は中国語を含む多言語検索に対応しています。ただし、中国本土では VPN なしでは直接アクセスできない場合があります。検索結果は主に英語と中国語で、中国語の検索品質は百度などの国内エンジンには及ばない場合があります。",
+          "es": "Sí. DuckDuckGo soporta búsqueda multilingüe incluyendo chino. Sin embargo, puede no ser accesible directamente en China continental sin una VPN. Los resultados de búsqueda son principalmente en inglés y chino, con calidad de búsqueda en chino no tan buena como motores domésticos como Baidu.",
+          "fr": "Oui. DuckDuckGo prend en charge la recherche multilingue, y compris le chinois. Cependant, il peut ne pas être accessible directement en Chine continentale sans VPN. Les résultats de recherche sont principalement en anglais et en chinois, avec une qualité de recherche en chinois moins bonne que les moteurs nationaux comme Baidu."
+        }
+      },
+      {
+        "question": {
+          "zh": "DuckDuckGo MCP 免费吗？",
+          "en": "Is DuckDuckGo MCP free?",
+          "ja": "DuckDuckGo MCP は無料ですか？",
+          "es": "¿DuckDuckGo MCP es gratuito?",
+          "fr": "DuckDuckGo MCP est-il gratuit ?"
+        },
+        "answer": {
+          "zh": "完全免费开源，无需 API Key 或注册。MCP 服务器在本地运行，通过 DuckDuckGo 的公共搜索 API 获取结果，没有使用次数限制。",
+          "en": "Completely free and open source, no API key or registration needed. The MCP server runs locally and fetches results through DuckDuckGo's public search API with no usage limits.",
+          "ja": "完全無料・オープンソースで、API キーや登録は不要です。MCP サーバーはローカルで動作し、DuckDuckGo の公開検索 API を介して結果を取得するため、使用回数の制限はありません。",
+          "es": "Completamente gratuito y de código abierto, sin necesidad de clave API ni registro. El servidor MCP se ejecuta en local y obtiene resultados a través de la API de búsqueda pública de DuckDuckGo sin límites de uso.",
+          "fr": "Entièrement gratuit et open source, sans clé API ni inscription nécessaire. Le serveur MCP s'exécute localement et récupère les résultats via l'API de recherche publique de DuckDuckGo sans limite d'utilisation."
+        }
+      }
+    ]
+  },
+  {
+    "slug": "searxng-mcp",
+    "name": "SearXNG MCP",
+    "nameZh": "SearXNG 搜索 MCP",
+    "description": "通过 SearXNG 元搜索引擎为 AI 智能体提供私密网页搜索的 MCP 服务器。支持 Claude、Cursor 等客户端，聚合多个搜索引擎结果，保护用户隐私。",
+    "descriptionEn": "An MCP server that provides private web search for AI assistants via SearXNG — a metasearch engine. Supports Claude, Cursor and more, aggregating results from multiple search engines while protecting user privacy.",
+    "descriptionJa": "SearXNG メタ検索エンジンを介して AI アシスタントにプライベートウェブ検索を提供する MCP サーバー。Claude、Cursor などをサポートし、複数の検索エンジンから結果を集約しながらユーザーのプライバシーを保護します。",
+    "descriptionEs": "Un servidor MCP que proporciona búsqueda web privada para asistentes de IA a través de SearXNG — un metabuscador. Soporta Claude, Cursor y más, agregando resultados de múltiples motores de búsqueda mientras protege la privacidad del usuario.",
+    "descriptionFr": "Un serveur MCP qui fournit une recherche web privée pour les assistants IA via SearXNG — un métamoteur de recherche. Prend en charge Claude, Cursor et plus, agrégeant les résultats de plusieurs moteurs de recherche tout en protégeant la vie privée de l'utilisateur.",
+    "developer": "ihor-sokoliuk",
+    "developerZh": "ihor-sokoliuk",
+    "repo": "ihor-sokoliuk/mcp-searxng",
+    "clients": [
+      "claude",
+      "cursor",
+      "vscode",
+      "codex",
+      "generic"
+    ],
+    "category": "Search",
+    "tags": [
+      "Free",
+      "Open Source"
+    ],
+    "installCommand": "npx -y mcp-searxng",
+    "logo": "/logos/mcp/searxng-mcp.png",
+    "stars": 1089,
+    "featured": false,
+    "faqs": [
+      {
+        "question": {
+          "zh": "SearXNG MCP 和 DuckDuckGo MCP 有什么区别？",
+          "en": "How is SearXNG MCP different from DuckDuckGo MCP?",
+          "ja": "SearXNG MCP と DuckDuckGo MCP の違いは？",
+          "es": "¿En qué se diferencia SearXNG MCP de DuckDuckGo MCP?",
+          "fr": "En quoi SearXNG MCP diffère-t-il de DuckDuckGo MCP ?"
+        },
+        "answer": {
+          "zh": "SearXNG 是元搜索引擎，聚合 Google、Bing、DuckDuckGo 等多个引擎的结果，搜索结果更全面。但需要自建 SearXNG 实例（可 Docker 部署），配置稍复杂。DuckDuckGo MCP 开箱即用，无需自建服务。",
+          "en": "SearXNG is a metasearch engine that aggregates results from Google, Bing, DuckDuckGo and more — providing more comprehensive results. However, it requires running your own SearXNG instance (Docker deployable), which adds setup complexity. DuckDuckGo MCP works out of the box with no self-hosting needed.",
+          "ja": "SearXNG はメタ検索エンジンで、Google、Bing、DuckDuckGo など複数のエンジンから結果を集約し、より包括的な検索結果を提供します。ただし、独自の SearXNG インスタンス（Docker デプロイ可能）を実行する必要があり、設定がやや複雑です。DuckDuckGo MCP は追加設定不要ですぐに使えます。",
+          "es": "SearXNG es un metabuscador que agrega resultados de Google, Bing, DuckDuckGo y más — proporcionando resultados más completos. Sin embargo, requiere ejecutar tu propia instancia de SearXNG (desplegable con Docker), lo que añade complejidad de configuración. DuckDuckGo MCP funciona directamente sin necesidad de autogestión.",
+          "fr": "SearXNG est un métamoteur qui agrège les résultats de Google, Bing, DuckDuckGo et plus — fournissant des résultats plus complets. Cependant, il nécessite l'exécution de votre propre instance SearXNG (déployable avec Docker), ce qui ajoute de la complexité. DuckDuckGo MCP fonctionne directement sans auto-hébergement."
+        }
+      },
+      {
+        "question": {
+          "zh": "SearXNG MCP 需要自建服务器吗？",
+          "en": "Does SearXNG MCP require self-hosting?",
+          "ja": "SearXNG MCP はセルフホスティングが必要ですか？",
+          "es": "¿SearXNG MCP necesita autogestión?",
+          "fr": "SearXNG MCP nécessite-t-il un auto-hébergement ?"
+        },
+        "answer": {
+          "zh": "是的，需要运行自己的 SearXNG 实例。推荐用 Docker 一键部署：docker run -d --name searxng -p 8888:8080 searxng/searxng。部署后配置实例 URL 即可使用。也可以使用公共 SearXNG 实例，但隐私性会降低。",
+          "en": "Yes, you need to run your own SearXNG instance. Docker one-liner recommended: docker run -d --name searxng -p 8888:8080 searxng/searxng. After deployment, configure the instance URL. You can also use public SearXNG instances, but that reduces privacy.",
+          "ja": "はい、独自の SearXNG インスタンスを実行する必要があります。Docker のワンライナーが推奨です：docker run -d --name searxng -p 8888:8080 searxng/searxng。デプロイ後にインスタンス URL を設定します。公開 SearXNG インスタンスも使用できますが、プライバシーは低下します。",
+          "es": "Sí, necesitas ejecutar tu propia instancia de SearXNG. Se recomienda Docker: docker run -d --name searxng -p 8888:8080 searxng/searxng. Después del despliegue, configura la URL de la instancia. También puedes usar instancias públicas de SearXNG, pero eso reduce la privacidad.",
+          "fr": "Oui, vous devez exécuter votre propre instance SearXNG. Docker recommandé : docker run -d --name searxng -p 8888:8080 searxng/searxng. Après le déploiement, configurez l'URL de l'instance. Vous pouvez aussi utiliser des instances publiques SearXNG, mais cela réduit la confidentialité."
+        }
+      },
+      {
+        "question": {
+          "zh": "SearXNG MCP 免费吗？",
+          "en": "Is SearXNG MCP free?",
+          "ja": "SearXNG MCP は無料ですか？",
+          "es": "¿SearXNG MCP es gratuito?",
+          "fr": "SearXNG MCP est-il gratuit ?"
+        },
+        "answer": {
+          "zh": "完全免费开源，SearXNG 本身也是开源项目。只需承担自建服务器的成本（如果有），MCP 服务器本身无需任何费用或 API Key。",
+          "en": "Completely free and open source — SearXNG itself is also an open source project. You only need to cover the cost of self-hosting (if any), with no fees or API keys required for the MCP server itself.",
+          "ja": "完全無料・オープンソースです。SearXNG 自体もオープンソースプロジェクトです。セルフホスティングのコスト（ある場合）のみで、MCP サーバー自体に費用や API キーは一切必要ありません。",
+          "es": "Completamente gratuito y de código abierto — SearXNG en sí también es un proyecto de código abierto. Solo necesitas cubrir el costo de la autogestión (si la hay), sin tarifas ni claves API requeridas para el servidor MCP en sí.",
+          "fr": "Entièrement gratuit et open source — SearXNG lui-même est aussi un projet open source. Vous n'avez qu'à couvrir le coût de l'auto-hébergement (le cas échéant), sans frais ni clés API requis pour le serveur MCP lui-même."
+        }
+      }
+    ]
+  },
+  {
+    "slug": "gmail-mcp",
+    "name": "Gmail MCP Server",
+    "nameZh": "Gmail MCP 服务器",
+    "description": "让 AI 智能体集成 Gmail 的 MCP 服务器。支持在 Claude Desktop 中搜索邮件、阅读收件箱、发送和回复邮件，将邮箱变成 AI 可操作的工作台。",
+    "descriptionEn": "An MCP server that integrates Gmail with AI agents. Supports searching emails, reading your inbox, sending and replying to messages directly in Claude Desktop — turning your mailbox into an AI-accessible workspace.",
+    "descriptionJa": "Gmail を AI エージェントと統合する MCP サーバー。Claude Desktop 内でメールの検索、受信トレイの読み取り、メールの送信と返信をサポートし、メールボックスを AI 操作可能なワークスペースに変えます。",
+    "descriptionEs": "Un servidor MCP que integra Gmail con agentes de IA. Soporta búsqueda de correos, lectura de la bandeja de entrada, envío y respuesta de mensajes directamente en Claude Desktop — convirtiendo tu buzón en un espacio de trabajo accesible por IA.",
+    "descriptionFr": "Un serveur MCP qui intègre Gmail avec les agents IA. Prend en charge la recherche d'e-mails, la lecture de la boîte de réception, l'envoi et la réponse aux messages directement dans Claude Desktop — transformant votre boîte aux lettres en un espace de travail accessible par l'IA.",
+    "developer": "GongRzhe",
+    "developerZh": "GongRzhe",
+    "repo": "GongRzhe/Gmail-MCP-Server",
+    "clients": [
+      "claude",
+      "cursor",
+      "vscode",
+      "codex",
+      "generic"
+    ],
+    "category": "Productivity",
+    "tags": [
+      "Free",
+      "Open Source"
+    ],
+    "installCommand": "npx -y gmail-mcp-server",
+    "logo": "/logos/mcp/gmail-mcp.png",
+    "stars": 1166,
+    "featured": false,
+    "faqs": [
+      {
+        "question": {
+          "zh": "Gmail MCP 能做什么？",
+          "en": "What can Gmail MCP do?",
+          "ja": "Gmail MCP は何ができますか？",
+          "es": "¿Qué puede hacer Gmail MCP?",
+          "fr": "Que peut faire Gmail MCP ?"
+        },
+        "answer": {
+          "zh": "让 AI 智能体操作你的 Gmail 邮箱：搜索邮件（支持关键词和日期过滤）、读取邮件内容和附件、发送新邮件、回复和转发邮件、管理收件箱标签。适合 AI 辅助邮件处理、自动回复和邮件分析。",
+          "en": "Lets AI agents operate your Gmail: search emails (with keyword and date filters), read email content and attachments, send new emails, reply and forward messages, and manage inbox labels. Ideal for AI-assisted email processing, auto-replies, and email analysis.",
+          "ja": "AI エージェントが Gmail を操作できます：メールの検索（キーワードと日付フィルター対応）、メール内容と添付ファイルの読み取り、新規メールの送信、返信と転送、受信トレイのラベル管理。AI によるメール処理支援、自動返信、メール分析に最適です。",
+          "es": "Permite a los agentes de IA operar tu Gmail: buscar correos (con filtros de palabras clave y fecha), leer contenido y adjuntos, enviar nuevos correos, responder y reenviar mensajes, y gestionar etiquetas de la bandeja de entrada. Ideal para procesamiento de correo asistido por IA, respuestas automáticas y análisis de correo.",
+          "fr": "Permet aux agents IA d'opérer votre Gmail : rechercher des e-mails (avec filtres par mot-clé et date), lire le contenu et les pièces jointes, envoyer de nouveaux e-mails, répondre et transférer des messages, et gérer les libellés de la boîte de réception. Idéal pour le traitement de courrier assisté par IA, les réponses automatiques et l'analyse de courrier."
+        }
+      },
+      {
+        "question": {
+          "zh": "Gmail MCP 需要 Google 账号授权吗？",
+          "en": "Does Gmail MCP need Google account authorization?",
+          "ja": "Gmail MCP には Google アカウントの認証が必要ですか？",
+          "es": "¿Gmail MCP necesita autorización de cuenta de Google?",
+          "fr": "Gmail MCP a-t-il besoin d'une autorisation de compte Google ?"
+        },
+        "answer": {
+          "zh": "需要。首次使用需要通过 OAuth 2.0 授权你的 Google 账号访问 Gmail。MCP 服务器会引导你完成浏览器授权流程，授权令牌存储在本地，不会上传到第三方。支持 Gmail API 的标准权限范围。",
+          "en": "Yes. First-time use requires OAuth 2.0 authorization to let the server access your Gmail. The MCP server guides you through the browser authorization flow, and the token is stored locally — never uploaded to third parties. Uses standard Gmail API permission scopes.",
+          "ja": "はい。初回使用時に OAuth 2.0 認証で Google アカウントの Gmail へのアクセスを許可する必要があります。MCP サーバーがブラウザでの認証フローを案内し、認証トークンはローカルに保存され、サードパーティにアップロードされることはありません。標準の Gmail API 権限スコープを使用します。",
+          "es": "Sí. El primer uso requiere autorización OAuth 2.0 para que el servidor acceda a tu Gmail. El servidor MCP te guía a través del flujo de autorización en el navegador, y el token se almacena en local — nunca se sube a terceros. Utiliza ámbitos de permisos estándar de la API de Gmail.",
+          "fr": "Oui. La première utilisation nécessite une autorisation OAuth 2.0 pour permettre au serveur d'accéder à votre Gmail. Le serveur MCP vous guide dans le flux d'autorisation du navigateur, et le jeton est stocké localement — jamais téléchargé vers des tiers. Utilise les portées d'autorisation standard de l'API Gmail."
+        }
+      },
+      {
+        "question": {
+          "zh": "Gmail MCP 安全吗？会泄露我的邮件吗？",
+          "en": "Is Gmail MCP safe? Will it leak my emails?",
+          "ja": "Gmail MCP は安全ですか？メールが漏洩しますか？",
+          "es": "¿Gmail MCP es seguro? ¿Filtrará mis correos?",
+          "fr": "Gmail MCP est-il sûr ? Va-t-il fuir mes e-mails ?"
+        },
+        "answer": {
+          "zh": "MCP 服务器在本地运行，OAuth 令牌存储在本地文件系统。AI 智能体只有在被明确指示时才会读取或发送邮件。建议使用前审查授权范围，并定期检查 Gmail 的已授权应用列表。",
+          "en": "The MCP server runs locally with OAuth tokens stored on your local file system. AI agents only read or send emails when explicitly instructed. Review the authorization scope before use, and periodically check Gmail's authorized apps list.",
+          "ja": "MCP サーバーはローカルで動作し、OAuth トークンはローカルファイルシステムに保存されます。AI エージェントは明示的に指示された場合のみメールの読み取りや送信を行います。使用前に認証範囲を確認し、Gmail の承認済みアプリ一覧を定期的に確認することをお勧めします。",
+          "es": "El servidor MCP se ejecuta en local con los tokens OAuth almacenados en tu sistema de archivos local. Los agentes de IA solo leen o envían correos cuando se les indica explícitamente. Revisa el alcance de la autorización antes de usar y verifica periódicamente la lista de aplicaciones autorizadas de Gmail.",
+          "fr": "Le serveur MCP s'exécute localement avec les jetons OAuth stockés sur votre système de fichiers local. Les agents IA ne lisent ou n'envoient des e-mails que sur instruction explicite. Vérifiez la portée de l'autorisation avant utilisation et vérifiez périodiquement la liste des applications autorisées de Gmail."
+        }
+      }
+    ]
+  },
+  {
+    "slug": "office-word-mcp",
+    "name": "Office Word MCP Server",
+    "nameZh": "Office Word MCP 服务器",
+    "description": "让 AI 智能体创建、读取和编辑 Microsoft Word 文档的 MCP 服务器。支持生成 .docx 文件、读写文本内容、应用样式格式，实现文档自动化处理。",
+    "descriptionEn": "An MCP server that lets AI agents create, read, and edit Microsoft Word documents. Supports generating .docx files, reading and writing text content, and applying styles — enabling automated document processing.",
+    "descriptionJa": "AI エージェントが Microsoft Word 文書を作成、読み取り、編集できる MCP サーバー。.docx ファイルの生成、テキストコンテンツの読み書き、スタイルの適用をサポートし、文書処理の自動化を実現します。",
+    "descriptionEs": "Un servidor MCP que permite a los agentes de IA crear, leer y editar documentos de Microsoft Word. Soporta la generación de archivos .docx, lectura y escritura de contenido de texto y aplicación de estilos — permitiendo el procesamiento automatizado de documentos.",
+    "descriptionFr": "Un serveur MCP qui permet aux agents IA de créer, lire et éditer des documents Microsoft Word. Prend en charge la génération de fichiers .docx, la lecture et l'écriture de contenu textuel et l'application de styles — permettant le traitement automatisé de documents.",
+    "developer": "GongRzhe",
+    "developerZh": "GongRzhe",
+    "repo": "GongRzhe/Office-Word-MCP-Server",
+    "clients": [
+      "claude",
+      "cursor",
+      "vscode",
+      "codex",
+      "generic"
+    ],
+    "category": "Productivity",
+    "tags": [
+      "Free",
+      "Open Source"
+    ],
+    "installCommand": "npx -y office-word-mcp-server",
+    "logo": "/logos/mcp/office-word-mcp.png",
+    "stars": 2118,
+    "featured": false,
+    "faqs": [
+      {
+        "question": {
+          "zh": "Office Word MCP 能做什么？",
+          "en": "What can Office Word MCP do?",
+          "ja": "Office Word MCP は何ができますか？",
+          "es": "¿Qué puede hacer Office Word MCP?",
+          "fr": "Que peut faire Office Word MCP ?"
+        },
+        "answer": {
+          "zh": "让 AI 智能体直接操作 Word 文档：创建新文档并写入内容、读取现有文档的文本和结构、应用字体/字号/颜色等格式、插入表格和列表、添加页眉页脚。适用于自动生成报告、批量处理文档、内容提取等场景。",
+          "en": "Lets AI agents directly manipulate Word documents: create new documents with content, read text and structure of existing documents, apply font/size/color formatting, insert tables and lists, and add headers and footers. Ideal for automated report generation, batch document processing, and content extraction.",
+          "ja": "AI エージェントが Word 文書を直接操作できます：新しい文書の作成とコンテンツの書き込み、既存文書のテキストと構造の読み取り、フォント/サイズ/色の書式設定、表とリストの挿入、ヘッダーとフッターの追加。レポートの自動生成、文書の一括処理、コンテンツ抽出などのシーンに最適です。",
+          "es": "Permite a los agentes de IA manipular directamente documentos de Word: crear nuevos documentos con contenido, leer texto y estructura de documentos existentes, aplicar formato de fuente/tamaño/color, insertar tablas y listas, y añadir encabezados y pies de página. Ideal para generación automatizada de informes, procesamiento por lotes de documentos y extracción de contenido.",
+          "fr": "Permet aux agents IA de manipuler directement des documents Word : créer de nouveaux documents avec du contenu, lire le texte et la structure de documents existants, appliquer un formatage de police/taille/couleur, insérer des tableaux et des listes, et ajouter des en-têtes et pieds de page. Idéal pour la génération automatisée de rapports, le traitement par lots de documents et l'extraction de contenu."
+        }
+      },
+      {
+        "question": {
+          "zh": "Office Word MCP 需要安装 Microsoft Office 吗？",
+          "en": "Does Office Word MCP require Microsoft Office?",
+          "ja": "Office Word MCP を使用するには Microsoft Office のインストールが必要ですか？",
+          "es": "¿Office Word MCP necesita tener Microsoft Office instalado?",
+          "fr": "Office Word MCP nécessite-t-il Microsoft Office ?"
+        },
+        "answer": {
+          "zh": "不需要。MCP 服务器基于 python-docx 库操作 .docx 文件格式，不依赖 Microsoft Office 软件。因此可以在 Windows、macOS、Linux 上运行，无需购买 Office 许可证。",
+          "en": "No. The MCP server is built on the python-docx library, which operates on the .docx file format directly without needing Microsoft Office. It runs on Windows, macOS, and Linux with no Office license required.",
+          "ja": "いいえ。MCP サーバーは python-docx ライブラリをベースにしており、Microsoft Office を必要とせずに .docx ファイル形式を直接操作します。そのため、Windows、macOS、Linux で動作し、Office ライセンスは不要です。",
+          "es": "No. El servidor MCP está construido sobre la librería python-docx, que opera directamente sobre el formato de archivo .docx sin necesidad de Microsoft Office. Se ejecuta en Windows, macOS y Linux sin necesidad de licencia de Office.",
+          "fr": "Non. Le serveur MCP est construit sur la bibliothèque python-docx, qui opère directement sur le format de fichier .docx sans nécessiter Microsoft Office. Il fonctionne sur Windows, macOS et Linux sans licence Office requise."
+        }
+      },
+      {
+        "question": {
+          "zh": "Office Word MCP 支持中文吗？",
+          "en": "Does Office Word MCP support Chinese?",
+          "ja": "Office Word MCP は中国語に対応していますか？",
+          "es": "¿Office Word MCP soporta chino?",
+          "fr": "Office Word MCP supporte-t-il le chinois ?"
+        },
+        "answer": {
+          "zh": "完全支持。基于 python-docx 的 Unicode 支持，可以正确处理中文、日文等双字节字符的文档读写和格式设置。",
+          "en": "Fully supported. Based on python-docx's Unicode support, it correctly handles Chinese, Japanese, and other multi-byte characters for document reading, writing, and formatting.",
+          "ja": "完全対応しています。python-docx の Unicode サポートに基づき、中国語、日本語などのマルチバイト文字の文書読み書きや書式設定を正しく処理できます。",
+          "es": "Completamente soportado. Basado en el soporte Unicode de python-docx, maneja correctamente caracteres chinos, japoneses y otros multibyte para lectura, escritura y formato de documentos.",
+          "fr": "Entièrement pris en charge. Basé sur le support Unicode de python-docx, il gère correctement les caractères chinois, japonais et autres caractères multi-octets pour la lecture, l'écriture et le formatage de documents."
+        }
+      }
+    ]
   }
 ]
