@@ -1,0 +1,42 @@
+name: Refresh GitHub Ranking
+
+# GitHub AI 项目排行榜定时刷新
+# 每周一 UTC 00:00 自动运行一次，同时支持手动触发
+
+on:
+  schedule:
+    # 每周一 UTC 00:00（北京时间 08:00）
+    - cron: '0 0 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  rank:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: 运行排行榜算法
+        run: node _internal/github-ranking/rank.js
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 提交并推送
+        run: |
+          if git diff --quiet -- src/data/githubRanking.json; then
+            echo "榜单无变化，跳过提交"
+            exit 0
+          fi
+          git config user.name "CATAI"
+          git config user.email "309386950+cataisvipto@users.noreply.github.com"
+          git add src/data/githubRanking.json
+          git commit -m "chore(data): 自动刷新 GitHub 排行榜（$(date +%Y-%m-%d)）"
+          git push
