@@ -2820,5 +2820,481 @@
         }
       }
     ]
+  },
+  {
+    "slug": "edgeone-pages-mcp",
+    "name": "EdgeOne Pages MCP",
+    "nameZh": "腾讯 EdgeOne Pages MCP",
+    "description": "腾讯 EdgeOne 出品的 MCP 服务，让 AI 智能体一键部署 HTML 内容到 EdgeOne Makers 平台并获取可公开访问的 URL。适合快速上线静态页面、落地页与小应用。",
+    "descriptionEn": "An MCP service by Tencent EdgeOne that lets AI agents deploy HTML content to the EdgeOne Makers platform with one click and obtain a publicly accessible URL. Ideal for quickly publishing static pages, landing pages, and small apps.",
+    "descriptionJa": "Tencent EdgeOne による MCP サービス。AI エージェントが HTML コンテンツを EdgeOne Makers プラットフォームにワンクリックでデプロイし、公開アクセス可能な URL を取得できます。静的なページ、ランディングページ、小規模アプリケーションの迅速な公開に最適です。",
+    "descriptionEs": "Un servicio MCP de Tencent EdgeOne que permite a los agentes de IA desplegar contenido HTML en la plataforma EdgeOne Makers con un clic y obtener una URL pública. Ideal para publicar rápidamente páginas estáticas, landing pages y pequeñas aplicaciones.",
+    "descriptionFr": "Un service MCP de Tencent EdgeOne qui permet aux agents IA de déployer du contenu HTML sur la plateforme EdgeOne Makers en un clic et d'obtenir une URL publiquement accessible. Idéal pour publier rapidement des pages statiques, des landing pages et des petites applications.",
+    "developer": "Tencent EdgeOne",
+    "developerZh": "腾讯 EdgeOne",
+    "repo": "TencentEdgeOne/edgeone-makers-mcp",
+    "clients": [
+      "claude",
+      "cursor",
+      "vscode",
+      "codex",
+      "generic"
+    ],
+    "category": "Cloud",
+    "tags": [
+      "Free",
+      "Open Source"
+    ],
+    "installCommand": "npx -y @tencent/edgeone-pages-mcp",
+    "logo": "/logos/mcp/edgeone-pages-mcp.png",
+    "stars": 431,
+    "featured": false,
+    "faqs": [
+      {
+        "question": {
+          "zh": "EdgeOne Pages MCP 能做什么？",
+          "en": "What can EdgeOne Pages MCP do?",
+          "ja": "EdgeOne Pages MCP は何ができますか？",
+          "es": "¿Qué puede hacer EdgeOne Pages MCP?",
+          "fr": "Que peut faire EdgeOne Pages MCP ?"
+        },
+        "answer": {
+          "zh": "让 AI 智能体直接把 HTML 内容部署到 EdgeOne 边缘网络，生成可公开访问的 URL。适用于快速上线静态页面、营销落地页、原型演示、小工具页面等场景，无需手动配置服务器和域名。",
+          "en": "It lets AI agents deploy HTML content directly to EdgeOne's edge network, generating a publicly accessible URL. Perfect for quickly publishing static pages, marketing landing pages, prototype demos, and utility pages — no server or domain configuration needed.",
+          "ja": "AI エージェントが HTML コンテンツを EdgeOne のエッジネットワークに直接デプロイし、公開アクセス可能な URL を生成できます。静的ページ、マーケティング用ランディングページ、プロトタイプデモ、ユーティリティページの迅速な公開に最適で、サーバーやドメインの設定は不要です。",
+          "es": "Permite a los agentes de IA desplegar contenido HTML directamente en la red perimetral de EdgeOne, generando una URL pública. Ideal para publicar rápidamente páginas estáticas, landing pages de marketing, prototipos y páginas de utilidades — sin necesidad de configurar servidores ni dominios.",
+          "fr": "Il permet aux agents IA de déployer du contenu HTML directement sur le réseau EdgeOne, générant une URL publique. Idéal pour publier rapidement des pages statiques, des landing pages marketing, des prototypes et des pages utilitaires — sans configuration de serveur ni de domaine."
+        }
+      },
+      {
+        "question": {
+          "zh": "怎么安装 EdgeOne Pages MCP？",
+          "en": "How do I install EdgeOne Pages MCP?",
+          "ja": "EdgeOne Pages MCP のインストール方法は？",
+          "es": "¿Cómo instalo EdgeOne Pages MCP?",
+          "fr": "Comment installer EdgeOne Pages MCP ?"
+        },
+        "answer": {
+          "zh": "运行 npx -y @tencent/edgeone-pages-mcp 即可启动。在 Claude Code 中用 claude mcp add edgeone -- npx -y @tencent/edgeone-pages-mcp 注册，或粘贴到 Cursor 的 MCP 设置中。首次使用需登录腾讯云账号。",
+          "en": "Run npx -y @tencent/edgeone-pages-mcp to start. Register it in Claude Code with claude mcp add edgeone -- npx -y @tencent/edgeone-pages-mcp, or paste into Cursor's MCP settings. You'll need to log in with your Tencent Cloud account on first use.",
+          "ja": "npx -y @tencent/edgeone-pages-mcp を実行して起動します。Claude Code では claude mcp add edgeone -- npx -y @tencent/edgeone-pages-mcp で登録、Cursor の MCP 設定に貼り付けても使えます。初回利用時は Tencent Cloud アカウントでのログインが必要です。",
+          "es": "Ejecuta npx -y @tencent/edgeone-pages-mcp para iniciarlo. Regístralo en Claude Code con claude mcp add edgeone -- npx -y @tencent/edgeone-pages-mcp, o pégalo en los ajustes MCP de Cursor. Necesitarás iniciar sesión con tu cuenta de Tencent Cloud al primer uso.",
+          "fr": "Exécutez npx -y @tencent/edgeone-pages-mcp pour le lancer. Enregistrez-le dans Claude Code avec claude mcp add edgeone -- npx -y @tencent/edgeone-pages-mcp, ou collez-le dans les réglages MCP de Cursor. Une connexion à votre compte Tencent Cloud sera nécessaire lors de la première utilisation."
+        }
+      },
+      {
+        "question": {
+          "zh": "EdgeOne Pages 免费吗？",
+          "en": "Is EdgeOne Pages free?",
+          "ja": "EdgeOne Pages は無料ですか？",
+          "es": "¿EdgeOne Pages es gratuito?",
+          "fr": "EdgeOne Pages est-il gratuit ?"
+        },
+        "answer": {
+          "zh": "EdgeOne 提供免费额度，适合个人和小型项目。MCP 服务器本身是开源免费的。超出免费额度后按流量和请求量计费，详情可参考腾讯云 EdgeOne 官方定价页。",
+          "en": "EdgeOne offers a free tier suitable for personal and small projects. The MCP server itself is open source and free. Beyond the free tier, usage is billed by traffic and requests — see Tencent Cloud EdgeOne pricing for details.",
+          "ja": "EdgeOne には個人や小規模プロジェクト向けの無料枠があります。MCP サーバー自体はオープンソースで無料です。無料枠を超えた分はトラフィックとリクエスト数に応じて課金されます。詳細は Tencent Cloud EdgeOne の公式料金ページをご確認ください。",
+          "es": "EdgeOne ofrece un nivel gratuito adecuado para proyectos personales y pequeños. El servidor MCP en sí es de código abierto y gratuito. Más allá del nivel gratuito, el uso se factura por tráfico y solicitudes — consulta la página de precios oficial de Tencent Cloud EdgeOne.",
+          "fr": "EdgeOne offre un niveau gratuit adapté aux projets personnels et petits. Le serveur MCP lui-même est open source et gratuit. Au-delà du niveau gratuit, l'utilisation est facturée par trafic et requêtes — consultez la page de tarification officielle de Tencent Cloud EdgeOne."
+        }
+      }
+    ]
+  },
+  {
+    "slug": "desktop-commander",
+    "name": "Desktop Commander",
+    "nameZh": "Desktop Commander",
+    "description": "为 Claude 等 AI 智能体提供终端控制、文件系统搜索编辑、以及启动进程能力的 MCP 服务器。让智能体像人类一样操作桌面环境，执行命令与文件管理。",
+    "descriptionEn": "An MCP server that gives Claude and other AI agents terminal control, file system search and editing, and process launching capabilities. Lets agents operate the desktop environment like a human — executing commands and managing files.",
+    "descriptionJa": "Claude などの AI エージェントにターミナル制御、ファイルシステムの検索・編集、プロセス起動機能を提供する MCP サーバー。エージェントが人間のようにデスクトップ環境を操作し、コマンド実行やファイル管理を行えます。",
+    "descriptionEs": "Un servidor MCP que proporciona a Claude y otros agentes de IA control de terminal, búsqueda y edición del sistema de archivos, y capacidades de lanzamiento de procesos. Permite a los agentes operar el entorno de escritorio como un humano — ejecutando comandos y gestionando archivos.",
+    "descriptionFr": "Un serveur MCP qui donne à Claude et aux autres agents IA le contrôle du terminal, la recherche et l'édition du système de fichiers, et la capacité de lancer des processus. Permet aux agents d'opérer l'environnement de bureau comme un humain — exécutant des commandes et gérant des fichiers.",
+    "developer": "wonderwhy-er",
+    "developerZh": "wonderwhy-er",
+    "repo": "wonderwhy-er/DesktopCommanderMCP",
+    "clients": [
+      "claude",
+      "cursor",
+      "vscode",
+      "windsurf",
+      "codex",
+      "generic"
+    ],
+    "category": "Developer",
+    "tags": [
+      "Free",
+      "Open Source"
+    ],
+    "installCommand": "npx -y @wonderwhy-er/desktop-commander",
+    "logo": "/logos/mcp/desktop-commander.png",
+    "stars": 9022,
+    "featured": false,
+    "faqs": [
+      {
+        "question": {
+          "zh": "Desktop Commander 能做什么？",
+          "en": "What can Desktop Commander do?",
+          "ja": "Desktop Commander は何ができますか？",
+          "es": "¿Qué puede hacer Desktop Commander?",
+          "fr": "Que peut faire Desktop Commander ?"
+        },
+        "answer": {
+          "zh": "提供三大核心能力：终端命令执行（运行 shell 命令、脚本、编译等）、文件系统操作（搜索文件、读写编辑、创建目录）、进程管理（启动/监控后台进程）。让 AI 智能体拥有完整的桌面操作能力。",
+          "en": "It provides three core capabilities: terminal command execution (run shell commands, scripts, compilations), file system operations (search files, read/write/edit, create directories), and process management (start/monitor background processes). Giving AI agents full desktop control.",
+          "ja": "3 つのコア機能を提供します：ターミナルコマンド実行（シェルコマンド、スクリプト、コンパイルなど）、ファイルシステム操作（ファイル検索、読み書き編集、ディレクトリ作成）、プロセス管理（バックグラウンドプロセスの起動・監視）。AI エージェントに完全なデスクトップ操作能力を与えます。",
+          "es": "Proporciona tres capacidades principales: ejecución de comandos de terminal (shell, scripts, compilaciones), operaciones del sistema de archivos (buscar archivos, leer/escribir/editar, crear directorios), y gestión de procesos (iniciar/monitorear procesos en segundo plano). Dando a los agentes de IA control completo del escritorio.",
+          "fr": "Il fournit trois capacités principales : exécution de commandes terminal (shell, scripts, compilations), opérations sur le système de fichiers (recherche de fichiers, lecture/écriture/édition, création de répertoires), et gestion des processus (démarrage/surveillance de processus en arrière-plan). Donnant aux agents IA un contrôle complet du bureau."
+        }
+      },
+      {
+        "question": {
+          "zh": "Desktop Commander 安全吗？",
+          "en": "Is Desktop Commander safe?",
+          "ja": "Desktop Commander は安全ですか？",
+          "es": "¿Desktop Commander es seguro?",
+          "fr": "Desktop Commander est-il sûr ?"
+        },
+        "answer": {
+          "zh": "MCP 服务器在本地运行，所有操作都在你的桌面环境中执行。AI 智能体只有在被明确指示时才会执行命令或修改文件，建议在使用时注意审查智能体的操作，尤其涉及文件删除和命令执行时保持警惕。",
+          "en": "The MCP server runs locally, with all operations executing in your desktop environment. AI agents only execute commands or modify files when explicitly instructed. Always review agent actions carefully, especially when it involves file deletion or command execution.",
+          "ja": "MCP サーバーはローカルで動作し、すべての操作はデスクトップ環境内で実行されます。AI エージェントは明示的に指示された場合のみコマンドを実行したりファイルを変更します。特にファイル削除やコマンド実行に関わる操作は、エージェントの動作を慎重に確認することをお勧めします。",
+          "es": "El servidor MCP se ejecuta en local, con todas las operaciones ejecutándose en tu entorno de escritorio. Los agentes de IA solo ejecutan comandos o modifican archivos cuando se les indica explícitamente. Revisa siempre las acciones del agente con cuidado, especialmente cuando impliquen eliminación de archivos o ejecución de comandos.",
+          "fr": "Le serveur MCP s'exécute localement, toutes les opérations étant effectuées dans votre environnement de bureau. Les agents IA n'exécutent des commandes ou ne modifient des fichiers que sur instruction explicite. Examinez toujours attentivement les actions de l'agent, surtout lorsqu'il s'agit de suppression de fichiers ou d'exécution de commandes."
+        }
+      },
+      {
+        "question": {
+          "zh": "Desktop Commander 和普通终端工具有什么区别？",
+          "en": "How is Desktop Commander different from regular terminal tools?",
+          "ja": "Desktop Commander は通常の端末ツールとどう違いますか？",
+          "es": "¿En qué se diferencia Desktop Commander de las herramientas de terminal normales?",
+          "fr": "En quoi Desktop Commander est-il différent des outils de terminal classiques ?"
+        },
+        "answer": {
+          "zh": "它是一个 MCP 服务器，让 AI 智能体（而非人类）直接操作终端和文件系统。智能体可以自主执行多步操作、根据命令输出动态调整下一步动作，实现从编码到测试的全自动化工作流，远超普通终端工具的单步执行能力。",
+          "en": "It's an MCP server that lets AI agents (not humans) directly operate the terminal and file system. Agents can autonomously execute multi-step operations, dynamically adjust next steps based on command output, and achieve fully automated coding-to-testing workflows — far beyond the single-step capability of regular terminal tools.",
+          "ja": "これは MCP サーバーであり、人間ではなく AI エージェントが直接端末やファイルシステムを操作できるようにします。エージェントはマルチステップの操作を自律的に実行し、コマンド出力に基づいて次のアクションを動的に調整でき、コーディングからテストまでの完全自動化ワークフローを実現します。",
+          "es": "Es un servidor MCP que permite a los agentes de IA (no humanos) operar directamente la terminal y el sistema de archivos. Los agentes pueden ejecutar operaciones de múltiples pasos de forma autónoma, ajustar dinámicamente los siguientes pasos basados en la salida de comandos, y lograr flujos de trabajo completamente automatizados de codificación a pruebas.",
+          "fr": "C'est un serveur MCP qui permet aux agents IA (pas aux humains) d'opérer directement le terminal et le système de fichiers. Les agents peuvent exécuter des opérations multi-étapes de façon autonome, ajuster dynamiquement les étapes suivantes en fonction de la sortie des commandes, et réaliser des workflows entièrement automatisés du codage au test."
+        }
+      }
+    ]
+  },
+  {
+    "slug": "task-master",
+    "name": "Claude Task Master",
+    "nameZh": "Claude Task Master",
+    "description": "AI 驱动的任务管理系统，可嵌入 Cursor、Lovable、Windsurf 等 IDE。让 AI 智能体分解复杂任务、跟踪进度、管理依赖，将大型项目拆解为可执行的步骤。",
+    "descriptionEn": "An AI-powered task management system that drops into Cursor, Lovable, Windsurf, and more. Lets AI agents break down complex tasks, track progress, manage dependencies, and decompose large projects into executable steps.",
+    "descriptionJa": "Cursor、Lovable、Windsurf などの IDE に組み込める AI 駆動のタスク管理システム。AI エージェントが複雑なタスクを分解し、進捗を追跡し、依存関係を管理し、大規模プロジェクトを実行可能なステップに分割できます。",
+    "descriptionEs": "Un sistema de gestión de tareas impulsado por IA que se integra en Cursor, Lovable, Windsurf y más. Permite a los agentes de IA descomponer tareas complejas, rastrear el progreso, gestionar dependencias y desglosar proyectos grandes en pasos ejecutables.",
+    "descriptionFr": "Un système de gestion de tâches piloté par l'IA qui s'intègre dans Cursor, Lovable, Windsurf et plus. Permet aux agents IA de décomposer des tâches complexes, suivre la progression, gérer les dépendances et diviser les grands projets en étapes exécutables.",
+    "developer": "eyaltoledano",
+    "developerZh": "eyaltoledano",
+    "repo": "eyaltoledano/claude-task-master",
+    "clients": [
+      "claude",
+      "cursor",
+      "vscode",
+      "windsurf",
+      "codex",
+      "generic"
+    ],
+    "category": "Productivity",
+    "tags": [
+      "Free",
+      "Open Source"
+    ],
+    "installCommand": "npx -y task-master",
+    "logo": "/logos/mcp/task-master.png",
+    "stars": 27926,
+    "featured": false,
+    "faqs": [
+      {
+        "question": {
+          "zh": "Task Master 解决什么问题？",
+          "en": "What problem does Task Master solve?",
+          "ja": "Task Master はどんな問題を解決しますか？",
+          "es": "¿Qué problema resuelve Task Master?",
+          "fr": "Quel problème Task Master résout-il ?"
+        },
+        "answer": {
+          "zh": "AI 编码时经常遇到「大任务不知道从哪下手」的问题。Task Master 让智能体自动将复杂需求分解为结构化的任务列表，跟踪每个任务的完成状态，管理任务间的依赖关系，确保大型项目有条不紊地推进。",
+          "en": "AI coding often hits the 'where do I start with this big task' problem. Task Master lets agents automatically decompose complex requirements into structured task lists, track the completion status of each task, manage dependencies between tasks, and ensure large projects progress systematically.",
+          "ja": "AI コーディングでは「大きなタスクにどこから手をつければいいか」という問題がよく起こります。Task Master はエージェントが複雑な要件を構造化されたタスクリストに自動分解し、各タスクの完了状態を追跡し、タスク間の依存関係を管理して、大規模プロジェクトを体系的に進められるようにします。",
+          "es": "La codificación con IA a menudo se topa con el problema de 'por dónde empiezo con esta gran tarea'. Task Master permite a los agentes descomponer automáticamente requisitos complejos en listas de tareas estructuradas, rastrear el estado de finalización de cada tarea, gestionar dependencias entre tareas y asegurar que los proyectos grandes progresen sistemáticamente.",
+          "fr": "Le codage IA se heurte souvent au problème « par où commencer avec cette grosse tâche ». Task Master permet aux agents de décomposer automatiquement des exigences complexes en listes de tâches structurées, de suivre l'état d'avancement de chaque tâche, de gérer les dépendances entre les tâches et de garantir que les grands projets progressent systématiquement."
+        }
+      },
+      {
+        "question": {
+          "zh": "Task Master 怎么用？",
+          "en": "How do I use Task Master?",
+          "ja": "Task Master の使い方は？",
+          "es": "¿Cómo uso Task Master?",
+          "fr": "Comment utiliser Task Master ?"
+        },
+        "answer": {
+          "zh": "在 Cursor 或 Claude Code 中安装后，只需告诉智能体你的项目需求，它就会自动调用 Task Master 来创建任务分解、分配优先级、跟踪进度。支持查看任务列表、更新状态、标记完成等交互。",
+          "en": "After installing in Cursor or Claude Code, just tell the agent your project requirements and it will automatically call Task Master to create task breakdowns, assign priorities, and track progress. Supports viewing task lists, updating status, marking complete, and more.",
+          "ja": "Cursor や Claude Code にインストールした後、エージェントにプロジェクトの要件を伝えるだけで、自動的に Task Master を呼び出してタスク分解、優先順位の割り当て、進捗追跡を行います。タスク一覧の表示、ステータス更新、完了マークなどの操作に対応しています。",
+          "es": "Después de instalarlo en Cursor o Claude Code, solo dile al agente los requisitos de tu proyecto y automáticamente llamará a Task Master para crear desgloses de tareas, asignar prioridades y rastrear el progreso. Soporta ver listas de tareas, actualizar estados, marcar como completadas y más.",
+          "fr": "Après l'installation dans Cursor ou Claude Code, dites simplement à l'agent vos exigences de projet et il appellera automatiquement Task Master pour créer des décompositions de tâches, attribuer des priorités et suivre la progression. Prend en charge l'affichage des listes de tâches, la mise à jour des statuts, le marquage comme terminé, etc."
+        }
+      },
+      {
+        "question": {
+          "zh": "Task Master 免费吗？",
+          "en": "Is Task Master free?",
+          "ja": "Task Master は無料ですか？",
+          "es": "¿Task Master es gratuito?",
+          "fr": "Task Master est-il gratuit ?"
+        },
+        "answer": {
+          "zh": "完全免费开源，无需 API Key，本地运行即可。所有任务数据存储在本地文件系统中，不会上传到第三方服务器。",
+          "en": "Completely free and open source. No API key needed — it runs entirely locally. All task data is stored in your local file system and never uploaded to third-party servers.",
+          "ja": "完全無料・オープンソースです。API キー不要でローカル実行されます。すべてのタスクデータはローカルファイルシステムに保存され、サードパーティのサーバーにアップロードされることはありません。",
+          "es": "Completamente gratuito y de código abierto. No necesita clave API — se ejecuta totalmente en local. Todos los datos de las tareas se almacenan en tu sistema de archivos local y nunca se suben a servidores de terceros.",
+          "fr": "Entièrement gratuit et open source. Aucune clé API nécessaire — il s'exécute entièrement en local. Toutes les données de tâches sont stockées dans votre système de fichiers local et ne sont jamais téléchargées vers des serveurs tiers."
+        }
+      }
+    ]
+  },
+  {
+    "slug": "elevenlabs-mcp",
+    "name": "ElevenLabs MCP",
+    "nameZh": "ElevenLabs MCP",
+    "description": "ElevenLabs 官方 MCP 服务器。让 AI 智能体直接调用 ElevenLabs 的语音合成（TTS）与声音克隆能力，将文本转换为自然流畅的语音，支持多种语言与音色。",
+    "descriptionEn": "The official ElevenLabs MCP server. Lets AI agents directly invoke ElevenLabs' text-to-speech (TTS) and voice cloning capabilities, converting text into natural, fluent speech with support for multiple languages and voices.",
+    "descriptionJa": "ElevenLabs 公式 MCP サーバー。AI エージェントが ElevenLabs の音声合成（TTS）と音声クローン機能を直接呼び出し、テキストを自然で流暢な音声に変換。複数の言語と音声をサポートします。",
+    "descriptionEs": "El servidor MCP oficial de ElevenLabs. Permite a los agentes de IA invocar directamente las capacidades de texto a voz (TTS) y clonación de voz de ElevenLabs, convirtiendo texto en voz natural y fluida con soporte para múltiples idiomas y voces.",
+    "descriptionFr": "Le serveur MCP officiel d'ElevenLabs. Permet aux agents IA d'invoquer directement les capacités de synthèse vocale (TTS) et de clonage vocal d'ElevenLabs, convertissant le texte en parole naturelle et fluide avec le support de plusieurs langues et voix.",
+    "developer": "ElevenLabs",
+    "developerZh": "ElevenLabs",
+    "repo": "elevenlabs/elevenlabs-mcp",
+    "clients": [
+      "claude",
+      "cursor",
+      "vscode",
+      "codex",
+      "generic"
+    ],
+    "category": "Media",
+    "tags": [
+      "Free",
+      "API"
+    ],
+    "installCommand": "npx -y @elevenlabs/mcp-server --api-key YOUR_API_KEY",
+    "logo": "/logos/mcp/elevenlabs-mcp.png",
+    "stars": 1498,
+    "featured": false,
+    "faqs": [
+      {
+        "question": {
+          "zh": "ElevenLabs MCP 能做什么？",
+          "en": "What can ElevenLabs MCP do?",
+          "ja": "ElevenLabs MCP は何ができますか？",
+          "es": "¿Qué puede hacer ElevenLabs MCP?",
+          "fr": "Que peut faire ElevenLabs MCP ?"
+        },
+        "answer": {
+          "zh": "让 AI 智能体直接调用 ElevenLabs 的语音能力：将文本转换为自然语音（TTS），支持多种语言和音色；克隆声音生成定制语音；管理语音库。适用于 AI 语音助手、有声内容生成、多语言配音等场景。",
+          "en": "Lets AI agents directly invoke ElevenLabs' voice capabilities: convert text to natural speech (TTS) with multiple languages and voices, clone voices for custom speech, and manage voice libraries. Ideal for AI voice assistants, audio content generation, and multilingual dubbing.",
+          "ja": "AI エージェントが ElevenLabs の音声機能を直接呼び出せます：テキストを自然な音声に変換（TTS）、複数の言語と音声に対応、音声クローンでカスタム音声を生成、音声ライブラリを管理。AI 音声アシスタント、音声コンテンツ生成、多言語吹き替えなどのシーンに最適です。",
+          "es": "Permite a los agentes de IA invocar directamente las capacidades de voz de ElevenLabs: convertir texto a voz natural (TTS) con múltiples idiomas y voces, clonar voces para generar voz personalizada, y gestionar bibliotecas de voz. Ideal para asistentes de voz IA, generación de contenido de audio y doblaje multilingüe.",
+          "fr": "Permet aux agents IA d'invoquer directement les capacités vocales d'ElevenLabs : convertir du texte en parole naturelle (TTS) avec plusieurs langues et voix, cloner des voix pour une parole personnalisée, et gérer des bibliothèques vocales. Idéal pour les assistants vocaux IA, la génération de contenu audio et le doublage multilingue."
+        }
+      },
+      {
+        "question": {
+          "zh": "ElevenLabs MCP 需要 API Key 吗？",
+          "en": "Does ElevenLabs MCP need an API key?",
+          "ja": "ElevenLabs MCP に API キーは必要ですか？",
+          "es": "¿ElevenLabs MCP necesita una clave API?",
+          "fr": "ElevenLabs MCP a-t-il besoin d'une clé API ?"
+        },
+        "answer": {
+          "zh": "需要。在 ElevenLabs 官网注册账号并获取 API Key，然后通过 --api-key 参数传入：npx -y @elevenlabs/mcp-server --api-key 你的Key。ElevenLabs 提供免费额度供开发测试，每月可生成一定量的语音。",
+          "en": "Yes. Register at elevenlabs.io, get an API key, and pass it with --api-key: npx -y @elevenlabs/mcp-server --api-key YOUR_KEY. ElevenLabs offers a free tier for development and testing with a monthly speech generation quota.",
+          "ja": "必要です。ElevenLabs の公式サイトでアカウント登録し、API キーを取得して --api-key パラメータで渡します：npx -y @elevenlabs/mcp-server --api-key YOUR_KEY。ElevenLabs は毎月一定量の音声生成が可能な無料枠を提供しています。",
+          "es": "Sí. Regístrate en elevenlabs.io, obtén una clave API y pásala con --api-key: npx -y @elevenlabs/mcp-server --api-key TU_CLAVE. ElevenLabs ofrece un nivel gratuito para desarrollo y pruebas con una cuota mensual de generación de voz.",
+          "fr": "Oui. Inscrivez-vous sur elevenlabs.io, obtenez une clé API et passez-la avec --api-key : npx -y @elevenlabs/mcp-server --api-key VOTRE_CLÉ. ElevenLabs offre un niveau gratuit pour le développement et les tests avec un quota mensuel de génération vocale."
+        }
+      },
+      {
+        "question": {
+          "zh": "ElevenLabs 的语音质量怎么样？",
+          "en": "How is ElevenLabs' voice quality?",
+          "ja": "ElevenLabs の音声品質はどうですか？",
+          "es": "¿Cómo es la calidad de voz de ElevenLabs?",
+          "fr": "Comment est la qualité vocale d'ElevenLabs ?"
+        },
+        "answer": {
+          "zh": "ElevenLabs 是业界公认的顶级 TTS 提供商之一，语音自然度极高，支持细微的情感语气调节，包括叹息、耳语等非语言表达。覆盖 30+ 种语言，中文音色也在持续优化中。",
+          "en": "ElevenLabs is widely recognized as one of the top TTS providers, with highly natural speech quality and fine-grained emotional tone control, including non-verbal expressions like sighs and whispers. Supports 30+ languages, with Chinese voice quality continuously improving.",
+          "ja": "ElevenLabs は業界でもトップクラスの TTS プロバイダーとして広く認知されており、非常に自然な音声品質と、ため息や囁きなどの非言語表現を含む細かな感情のトーン調節を実現しています。30 以上の言語に対応し、中国語の音声品質も継続的に向上しています。",
+          "es": "ElevenLabs es ampliamente reconocido como uno de los principales proveedores de TTS, con una calidad de voz extremadamente natural y un control de tono emocional detallado, incluyendo expresiones no verbales como suspiros y susurros. Soporta más de 30 idiomas, con la calidad de voz china en mejora continua.",
+          "fr": "ElevenLabs est largement reconnu comme l'un des meilleurs fournisseurs de TTS, avec une qualité vocale extrêmement naturelle et un contrôle fin du ton émotionnel, y compris les expressions non verbales comme les soupirs et les chuchotements. Prend en charge plus de 30 langues, avec la qualité de la voix chinoise en amélioration continue."
+        }
+      }
+    ]
+  },
+  {
+    "slug": "browser-mcp",
+    "name": "Browser MCP",
+    "nameZh": "Browser MCP",
+    "description": "让 AI 智能体直接控制本地浏览器的 MCP 服务器。支持页面导航、内容提取、截图、表单填写、点击操作等，让智能体像人类一样浏览网页。",
+    "descriptionEn": "An MCP server that lets AI agents directly control a local browser. Supports page navigation, content extraction, screenshots, form filling, clicking, and more — letting agents browse the web like a human.",
+    "descriptionJa": "AI エージェントがローカルブラウザを直接制御できる MCP サーバー。ページナビゲーション、コンテンツ抽出、スクリーンショット、フォーム入力、クリック操作などをサポートし、エージェントが人間のようにウェブを閲覧できます。",
+    "descriptionEs": "Un servidor MCP que permite a los agentes de IA controlar directamente un navegador local. Soporta navegación por páginas, extracción de contenido, capturas de pantalla, relleno de formularios, clics y más — permitiendo a los agentes navegar por la web como un humano.",
+    "descriptionFr": "Un serveur MCP qui permet aux agents IA de contrôler directement un navigateur local. Prend en charge la navigation, l'extraction de contenu, les captures d'écran, le remplissage de formulaires, les clics et plus — permettant aux agents de naviguer sur le web comme un humain.",
+    "developer": "BrowserMCP",
+    "developerZh": "BrowserMCP",
+    "repo": "BrowserMCP/mcp",
+    "clients": [
+      "claude",
+      "cursor",
+      "vscode",
+      "codex",
+      "generic"
+    ],
+    "category": "Browser",
+    "tags": [
+      "Free",
+      "Open Source"
+    ],
+    "installCommand": "npx -y @browsermcp/mcp",
+    "logo": "/logos/mcp/browser-mcp.png",
+    "stars": 6912,
+    "featured": false,
+    "faqs": [
+      {
+        "question": {
+          "zh": "Browser MCP 和 Playwright MCP 有什么区别？",
+          "en": "How is Browser MCP different from Playwright MCP?",
+          "ja": "Browser MCP と Playwright MCP の違いは？",
+          "es": "¿En qué se diferencia Browser MCP de Playwright MCP?",
+          "fr": "En quoi Browser MCP diffère-t-il de Playwright MCP ?"
+        },
+        "answer": {
+          "zh": "Browser MCP 控制的是你本地正在使用的真实浏览器（Chrome/Firefox 等），可以访问已登录的网站、使用已有的会话和 Cookie。而 Playwright MCP 启动的是无头浏览器，适合自动化测试和爬虫场景。两者互补。",
+          "en": "Browser MCP controls your local real browser (Chrome/Firefox, etc.) that you're already using — it can access logged-in websites, existing sessions, and cookies. Playwright MCP launches a headless browser, making it better suited for automated testing and crawling. They complement each other.",
+          "ja": "Browser MCP はあなたが既に使っているローカルの実際のブラウザ（Chrome/Firefox など）を制御します。ログイン済みのウェブサイトや既存のセッション、Cookie にアクセスできます。Playwright MCP はヘッドレスブラウザを起動するため、自動テストやクローリングに適しています。両者は補完関係にあります。",
+          "es": "Browser MCP controla tu navegador local real (Chrome/Firefox, etc.) que ya estás usando — puede acceder a sitios web con sesión iniciada, sesiones existentes y cookies. Playwright MCP lanza un navegador headless, más adecuado para pruebas automatizadas y crawling. Se complementan.",
+          "fr": "Browser MCP contrôle votre vrai navigateur local (Chrome/Firefox, etc.) que vous utilisez déjà — il peut accéder aux sites connectés, aux sessions existantes et aux cookies. Playwright MCP lance un navigateur headless, mieux adapté aux tests automatisés et au crawling. Ils sont complémentaires."
+        }
+      },
+      {
+        "question": {
+          "zh": "Browser MCP 能做什么自动化任务？",
+          "en": "What automation tasks can Browser MCP do?",
+          "ja": "Browser MCP はどんな自動化タスクができますか？",
+          "es": "¿Qué tareas de automatización puede hacer Browser MCP?",
+          "fr": "Quelles tâches d'automatisation Browser MCP peut-il effectuer ?"
+        },
+        "answer": {
+          "zh": "可以自动填写和提交表单、提取网页内容、截图、点击按钮和链接、滚动页面、管理多标签页、读取登录状态。适用于数据采集、页面监控、自动化测试、内容管理等场景。",
+          "en": "It can auto-fill and submit forms, extract web content, take screenshots, click buttons and links, scroll pages, manage multiple tabs, and read login states. Suitable for data collection, page monitoring, automated testing, and content management.",
+          "ja": "フォームの自動入力と送信、ウェブコンテンツの抽出、スクリーンショット、ボタンやリンクのクリック、ページのスクロール、複数タブの管理、ログイン状態の読み取りなどが可能です。データ収集、ページ監視、自動テスト、コンテンツ管理などのシーンに適しています。",
+          "es": "Puede rellenar y enviar formularios automáticamente, extraer contenido web, tomar capturas de pantalla, hacer clic en botones y enlaces, desplazar páginas, gestionar múltiples pestañas y leer estados de inicio de sesión. Ideal para recopilación de datos, monitoreo de páginas, pruebas automatizadas y gestión de contenido.",
+          "fr": "Il peut remplir et soumettre des formulaires automatiquement, extraire du contenu web, prendre des captures d'écran, cliquer sur des boutons et liens, faire défiler les pages, gérer plusieurs onglets et lire les états de connexion. Adapté à la collecte de données, la surveillance de pages, les tests automatisés et la gestion de contenu."
+        }
+      },
+      {
+        "question": {
+          "zh": "Browser MCP 安全吗？会泄露我的浏览数据吗？",
+          "en": "Is Browser MCP safe? Will it leak my browsing data?",
+          "ja": "Browser MCP は安全ですか？ブラウジングデータが漏洩しますか？",
+          "es": "¿Browser MCP es seguro? ¿Filtrará mis datos de navegación?",
+          "fr": "Browser MCP est-il sûr ? Va-t-il fuir mes données de navigation ?"
+        },
+        "answer": {
+          "zh": "MCP 服务器在本地运行，通过浏览器调试协议（CDP）与你的浏览器通信，所有数据在本地处理，不会上传到第三方。AI 智能体只在被明确指示时才会操作浏览器，建议使用时注意审查智能体要访问的网站。",
+          "en": "The MCP server runs locally and communicates with your browser via the Chrome DevTools Protocol (CDP). All data is processed locally and never uploaded to third parties. AI agents only operate the browser when explicitly instructed. Review the sites your agent is asked to visit.",
+          "ja": "MCP サーバーはローカルで動作し、Chrome DevTools プロトコル（CDP）を介してブラウザと通信します。すべてのデータはローカルで処理され、サードパーティにアップロードされることはありません。AI エージェントは明示的に指示された場合のみブラウザを操作します。エージェントがアクセスするサイトは確認するようにしてください。",
+          "es": "El servidor MCP se ejecuta en local y se comunica con tu navegador a través del Protocolo de Chrome DevTools (CDP). Todos los datos se procesan en local y nunca se suben a terceros. Los agentes de IA solo operan el navegador cuando se les indica explícitamente. Revisa los sitios que se le pide visitar a tu agente.",
+          "fr": "Le serveur MCP s'exécute localement et communique avec votre navigateur via le protocole Chrome DevTools (CDP). Toutes les données sont traitées localement et jamais téléchargées vers des tiers. Les agents IA n'opèrent le navigateur que sur instruction explicite. Vérifiez les sites que votre agent est invité à visiter."
+        }
+      }
+    ]
+  },
+  {
+    "slug": "excel-mcp",
+    "name": "Excel MCP Server",
+    "nameZh": "Excel MCP 服务器",
+    "description": "让 AI 智能体读写 Excel 文件的 MCP 服务器。支持创建和编辑电子表格、读写单元格数据、应用公式和格式，让智能体直接操作 .xlsx 文件。",
+    "descriptionEn": "An MCP server that lets AI agents read and write Excel files. Supports creating and editing spreadsheets, reading and writing cell data, applying formulas and formatting — letting agents directly manipulate .xlsx files.",
+    "descriptionJa": "AI エージェントが Excel ファイルを読み書きできる MCP サーバー。スプレッドシートの作成・編集、セルデータの読み書き、数式や書式の適用をサポートし、エージェントが .xlsx ファイルを直接操作できます。",
+    "descriptionEs": "Un servidor MCP que permite a los agentes de IA leer y escribir archivos de Excel. Soporta la creación y edición de hojas de cálculo, lectura y escritura de datos en celdas, aplicación de fórmulas y formato — permitiendo a los agentes manipular archivos .xlsx directamente.",
+    "descriptionFr": "Un serveur MCP qui permet aux agents IA de lire et écrire des fichiers Excel. Prend en charge la création et l'édition de feuilles de calcul, la lecture et l'écriture de données dans les cellules, l'application de formules et de formatage — permettant aux agents de manipuler directement les fichiers .xlsx.",
+    "developer": "haris-musa",
+    "developerZh": "haris-musa",
+    "repo": "haris-musa/excel-mcp-server",
+    "clients": [
+      "claude",
+      "cursor",
+      "vscode",
+      "codex",
+      "generic"
+    ],
+    "category": "Productivity",
+    "tags": [
+      "Free",
+      "Open Source"
+    ],
+    "installCommand": "npx -y excel-mcp-server",
+    "logo": "/logos/mcp/excel-mcp.png",
+    "stars": 4084,
+    "featured": false,
+    "faqs": [
+      {
+        "question": {
+          "zh": "Excel MCP 能做什么？",
+          "en": "What can Excel MCP do?",
+          "ja": "Excel MCP は何ができますか？",
+          "es": "¿Qué puede hacer Excel MCP?",
+          "fr": "Que peut faire Excel MCP ?"
+        },
+        "answer": {
+          "zh": "让 AI 智能体直接操作 Excel 文件：创建新工作簿、读写单元格数据、应用公式和函数、设置单元格格式（颜色、字体、边框）、创建图表、合并单元格、排序和筛选数据。告别手动操作 Excel 的繁琐。",
+          "en": "Lets AI agents directly manipulate Excel files: create new workbooks, read/write cell data, apply formulas and functions, set cell formatting (colors, fonts, borders), create charts, merge cells, sort and filter data. Say goodbye to manual Excel drudgery.",
+          "ja": "AI エージェントが Excel ファイルを直接操作できます：新しいワークブックの作成、セルデータの読み書き、数式や関数の適用、セルの書式設定（色、フォント、罫線）、グラフ作成、セルの結合、データの並べ替えとフィルター。面倒な手動の Excel 操作から解放されます。",
+          "es": "Permite a los agentes de IA manipular directamente archivos de Excel: crear nuevos libros, leer/escribir datos en celdas, aplicar fórmulas y funciones, establecer formato de celdas (colores, fuentes, bordes), crear gráficos, combinar celdas, ordenar y filtrar datos. Olvídate del tedioso trabajo manual con Excel.",
+          "fr": "Permet aux agents IA de manipuler directement des fichiers Excel : créer des classeurs, lire/écrire des données dans les cellules, appliquer des formules et fonctions, définir le formatage des cellules (couleurs, polices, bordures), créer des graphiques, fusionner des cellules, trier et filtrer des données. Fini la corvée manuelle d'Excel."
+        }
+      },
+      {
+        "question": {
+          "zh": "Excel MCP 怎么安装？",
+          "en": "How do I install Excel MCP?",
+          "ja": "Excel MCP のインストール方法は？",
+          "es": "¿Cómo instalo Excel MCP?",
+          "fr": "Comment installer Excel MCP ?"
+        },
+        "answer": {
+          "zh": "运行 npx -y excel-mcp-server 即可启动。在 Claude Code 中用 claude mcp add excel -- npx -y excel-mcp-server 注册，或粘贴到 Cursor 的 MCP 设置中。启动后智能体就能读写本地的 Excel 文件。",
+          "en": "Run npx -y excel-mcp-server to start. Register it in Claude Code with claude mcp add excel -- npx -y excel-mcp-server, or paste into Cursor's MCP settings. Once running, your agent can read and write local Excel files.",
+          "ja": "npx -y excel-mcp-server を実行するだけです。Claude Code では claude mcp add excel -- npx -y excel-mcp-server で登録、Cursor の MCP 設定に貼り付けます。起動後、エージェントはローカルの Excel ファイルを読み書きできるようになります。",
+          "es": "Ejecuta npx -y excel-mcp-server para iniciarlo. Regístralo en Claude Code con claude mcp add excel -- npx -y excel-mcp-server, o pégalo en los ajustes MCP de Cursor. Una vez en funcionamiento, tu agente podrá leer y escribir archivos Excel locales.",
+          "fr": "Exécutez npx -y excel-mcp-server pour le lancer. Enregistrez-le dans Claude Code avec claude mcp add excel -- npx -y excel-mcp-server, ou collez-le dans les réglages MCP de Cursor. Une fois lancé, votre agent peut lire et écrire des fichiers Excel locaux."
+        }
+      },
+      {
+        "question": {
+          "zh": "Excel MCP 支持中文吗？能处理中文表格吗？",
+          "en": "Does Excel MCP support Chinese? Can it handle Chinese spreadsheets?",
+          "ja": "Excel MCP は中国語に対応していますか？中国語のスプレッドシートを処理できますか？",
+          "es": "¿Excel MCP soporta chino? ¿Puede manejar hojas de cálculo en chino?",
+          "fr": "Excel MCP supporte-t-il le chinois ? Peut-il traiter des feuilles de calcul chinoises ?"
+        },
+        "answer": {
+          "zh": "完全支持。Excel MCP 基于 Node.js 的 ExcelJS 库，天然支持 Unicode，包括中文、日文等双字节字符。可以正确读写含中文内容的单元格、公式和图表。",
+          "en": "Fully supported. Excel MCP is built on the Node.js ExcelJS library, which natively supports Unicode including Chinese, Japanese, and other multi-byte characters. It can correctly read and write cells, formulas, and charts containing Chinese content.",
+          "ja": "完全対応しています。Excel MCP は Node.js の ExcelJS ライブラリをベースにしており、中国語、日本語などのマルチバイト文字を含む Unicode をネイティブサポートしています。中国語のコンテンツを含むセル、数式、グラフを正しく読み書きできます。",
+          "es": "Completamente soportado. Excel MCP está construido sobre la librería ExcelJS de Node.js, que soporta Unicode de forma nativa, incluyendo caracteres chinos, japoneses y otros multibyte. Puede leer y escribir correctamente celdas, fórmulas y gráficos con contenido chino.",
+          "fr": "Entièrement pris en charge. Excel MCP est construit sur la bibliothèque ExcelJS de Node.js, qui supporte nativement Unicode, y compris les caractères chinois, japonais et autres caractères multi-octets. Il peut lire et écrire correctement les cellules, formules et graphiques contenant du contenu chinois."
+        }
+      }
+    ]
   }
 ]
