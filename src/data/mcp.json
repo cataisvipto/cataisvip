@@ -3296,5 +3296,481 @@
         }
       }
     ]
+  },
+  {
+    "slug": "browser-tools",
+    "name": "Browser Tools MCP",
+    "nameZh": "Browser Tools MCP",
+    "description": "从 Cursor 等兼容 MCP 的 IDE 中直接监控浏览器日志的 MCP 服务器。实时捕获浏览器控制台日志、网络请求、页面错误，让 AI 智能体在编码时就能看到运行时的调试信息。",
+    "descriptionEn": "An MCP server that lets you monitor browser logs directly from Cursor and other MCP-compatible IDEs. Captures real-time console logs, network requests, and page errors — giving AI agents runtime debugging info while you code.",
+    "descriptionJa": "Cursor などの MCP 互換 IDE から直接ブラウザログを監視できる MCP サーバー。コンソールログ、ネットワークリクエスト、ページエラーをリアルタイムでキャプチャし、コーディング中に AI エージェントに実行時のデバッグ情報を提供します。",
+    "descriptionEs": "Un servidor MCP que permite monitorizar los registros del navegador directamente desde Cursor y otros IDEs compatibles con MCP. Captura en tiempo real registros de consola, peticiones de red y errores de página — dando a los agentes de IA información de depuración en tiempo de ejecución mientras codificas.",
+    "descriptionFr": "Un serveur MCP qui permet de surveiller les logs du navigateur directement depuis Cursor et d'autres IDE compatibles MCP. Capture en temps réel les logs de console, les requêtes réseau et les erreurs de page — donnant aux agents IA des informations de débogage d'exécution pendant que vous codez.",
+    "developer": "AgentDeskAI",
+    "developerZh": "AgentDeskAI",
+    "repo": "AgentDeskAI/browser-tools-mcp",
+    "clients": [
+      "claude",
+      "cursor",
+      "vscode",
+      "windsurf",
+      "codex",
+      "generic"
+    ],
+    "category": "Browser",
+    "tags": [
+      "Free",
+      "Open Source"
+    ],
+    "installCommand": "npx -y @agentdeskai/browser-tools-mcp",
+    "logo": "/logos/mcp/browser-tools.png",
+    "stars": 7276,
+    "featured": false,
+    "faqs": [
+      {
+        "question": {
+          "zh": "Browser Tools 和 Browser MCP 有什么区别？",
+          "en": "How is Browser Tools different from Browser MCP?",
+          "ja": "Browser Tools と Browser MCP の違いは？",
+          "es": "¿En qué se diferencia Browser Tools de Browser MCP?",
+          "fr": "En quoi Browser Tools diffère-t-il de Browser MCP ?"
+        },
+        "answer": {
+          "zh": "Browser Tools 专注「监控」而非「控制」：它不操作浏览器，而是在 IDE 中实时显示浏览器控制台日志、网络请求和页面错误，让 AI 智能体在编码时就能看到调试信息。Browser MCP 则侧重控制浏览器执行操作。两者互补。",
+          "en": "Browser Tools focuses on 'monitoring' rather than 'controlling': it doesn't manipulate the browser, but displays real-time console logs, network requests, and page errors directly in your IDE — giving AI agents debugging info while you code. Browser MCP controls the browser to perform actions. They complement each other.",
+          "ja": "Browser Tools は「制御」ではなく「監視」に特化しています：ブラウザを操作するのではなく、IDE 上でリアルタイムにブラウザのコンソールログ、ネットワークリクエスト、ページエラーを表示し、コーディング中に AI エージェントにデバッグ情報を提供します。Browser MCP はブラウザを操作してアクションを実行します。両者は補完関係にあります。",
+          "es": "Browser Tools se centra en la 'monitorización' más que en el 'control': no manipula el navegador, sino que muestra en tiempo real los registros de consola, peticiones de red y errores de página directamente en tu IDE — dando a los agentes de IA información de depuración mientras codificas. Browser MCP controla el navegador para realizar acciones. Se complementan.",
+          "fr": "Browser Tools se concentre sur la 'surveillance' plutôt que le 'contrôle' : il ne manipule pas le navigateur, mais affiche en temps réel les logs de console, les requêtes réseau et les erreurs de page directement dans votre IDE — donnant aux agents IA des informations de débogage pendant que vous codez. Browser MCP contrôle le navigateur pour effectuer des actions. Ils sont complémentaires."
+        }
+      },
+      {
+        "question": {
+          "zh": "Browser Tools 怎么安装？",
+          "en": "How do I install Browser Tools?",
+          "ja": "Browser Tools のインストール方法は？",
+          "es": "¿Cómo instalo Browser Tools?",
+          "fr": "Comment installer Browser Tools ?"
+        },
+        "answer": {
+          "zh": "运行 npx -y @agentdeskai/browser-tools-mcp 启动，然后在 Claude Code 中用 claude mcp add browser-tools -- npx -y @agentdeskai/browser-tools-mcp 注册，或粘贴到 Cursor 的 MCP 设置中。需要同时安装浏览器扩展以实现日志捕获。",
+          "en": "Run npx -y @agentdeskai/browser-tools-mcp to start. Register it in Claude Code with claude mcp add browser-tools -- npx -y @agentdeskai/browser-tools-mcp, or paste into Cursor's MCP settings. You'll also need to install the browser extension for log capture.",
+          "ja": "npx -y @agentdeskai/browser-tools-mcp を実行して起動します。Claude Code では claude mcp add browser-tools -- npx -y @agentdeskai/browser-tools-mcp で登録、Cursor の MCP 設定に貼り付けます。ログキャプチャにはブラウザ拡張機能のインストールも必要です。",
+          "es": "Ejecuta npx -y @agentdeskai/browser-tools-mcp para iniciarlo. Regístralo en Claude Code con claude mcp add browser-tools -- npx -y @agentdeskai/browser-tools-mcp, o pégalo en los ajustes MCP de Cursor. También necesitarás instalar la extensión del navegador para la captura de logs.",
+          "fr": "Exécutez npx -y @agentdeskai/browser-tools-mcp pour le lancer. Enregistrez-le dans Claude Code avec claude mcp add browser-tools -- npx -y @agentdeskai/browser-tools-mcp, ou collez-le dans les réglages MCP de Cursor. Vous devrez également installer l'extension de navigateur pour la capture des logs."
+        }
+      },
+      {
+        "question": {
+          "zh": "Browser Tools 免费吗？",
+          "en": "Is Browser Tools free?",
+          "ja": "Browser Tools は無料ですか？",
+          "es": "¿Browser Tools es gratuito?",
+          "fr": "Browser Tools est-il gratuit ?"
+        },
+        "answer": {
+          "zh": "完全免费开源，社区活跃。MCP 服务器和浏览器扩展均免费使用，无需 API Key，所有数据在本地处理。",
+          "en": "Completely free and open source with an active community. Both the MCP server and browser extension are free to use, no API key needed, and all data is processed locally.",
+          "ja": "完全無料・オープンソースで、活発なコミュニティがあります。MCP サーバーとブラウザ拡張機能の両方が無料で利用でき、API キー不要、すべてのデータはローカルで処理されます。",
+          "es": "Completamente gratuito y de código abierto con una comunidad activa. Tanto el servidor MCP como la extensión del navegador son gratuitos, no necesitan clave API y todos los datos se procesan en local.",
+          "fr": "Entièrement gratuit et open source avec une communauté active. Le serveur MCP et l'extension de navigateur sont tous deux gratuits, sans clé API nécessaire, et toutes les données sont traitées localement."
+        }
+      }
+    ]
+  },
+  {
+    "slug": "magic-mcp",
+    "name": "Magic MCP",
+    "nameZh": "Magic MCP",
+    "description": "21st-dev 出品的 Magic MCP 服务器，让 AI 智能体在编码时搜索 10,000+ 个 React/Tailwind 组件，直接生成可用的 UI 代码。就像在 IDE 里内置了 v0。",
+    "descriptionEn": "The Magic MCP server by 21st-dev. Lets AI agents search 10,000+ React/Tailwind components while coding, generating production-ready UI code directly. It's like having v0 built into your IDE.",
+    "descriptionJa": "21st-dev による Magic MCP サーバー。AI エージェントがコーディング中に 10,000 以上の React/Tailwind コンポーネントを検索し、本番で使える UI コードを直接生成できます。IDE に v0 が組み込まれているような感覚です。",
+    "descriptionEs": "El servidor Magic MCP de 21st-dev. Permite a los agentes de IA buscar más de 10,000 componentes React/Tailwind mientras codifican, generando código UI listo para producción directamente. Es como tener v0 integrado en tu IDE.",
+    "descriptionFr": "Le serveur Magic MCP de 21st-dev. Permet aux agents IA de rechercher plus de 10 000 composants React/Tailwind pendant le codage, générant directement du code UI prêt pour la production. C'est comme avoir v0 intégré dans votre IDE.",
+    "developer": "21st-dev",
+    "developerZh": "21st-dev",
+    "repo": "21st-dev/magic-mcp",
+    "clients": [
+      "claude",
+      "cursor",
+      "vscode",
+      "windsurf",
+      "codex",
+      "generic"
+    ],
+    "category": "Developer",
+    "tags": [
+      "Free",
+      "API"
+    ],
+    "installCommand": "npx -y @21st-dev/magic-mcp",
+    "logo": "/logos/mcp/magic-mcp.png",
+    "stars": 5562,
+    "featured": false,
+    "faqs": [
+      {
+        "question": {
+          "zh": "Magic MCP 能做什么？",
+          "en": "What can Magic MCP do?",
+          "ja": "Magic MCP は何ができますか？",
+          "es": "¿Qué puede hacer Magic MCP?",
+          "fr": "Que peut faire Magic MCP ?"
+        },
+        "answer": {
+          "zh": "在编码过程中，AI 智能体可以搜索 10,000+ 个高质量 React/Tailwind 组件库，直接找到适合当前需求的 UI 组件并生成代码。包含按钮、表单、导航、卡片、弹窗等常见 UI 模式，减少从零写样式的时间。",
+          "en": "While coding, AI agents can search 10,000+ high-quality React/Tailwind component libraries, finding the right UI component for your current need and generating the code directly. Includes buttons, forms, navigation, cards, modals and common UI patterns — reducing time spent writing styles from scratch.",
+          "ja": "コーディング中に、AI エージェントが 10,000 以上の高品質な React/Tailwind コンポーネントライブラリを検索し、現在のニーズに合った UI コンポーネントを見つけてコードを直接生成します。ボタン、フォーム、ナビゲーション、カード、モーダルなどの一般的な UI パターンを含み、ゼロからスタイルを書く時間を削減します。",
+          "es": "Mientras codificas, los agentes de IA pueden buscar en más de 10,000 bibliotecas de componentes React/Tailwind de alta calidad, encontrar el componente UI adecuado para tu necesidad actual y generar el código directamente. Incluye botones, formularios, navegación, tarjetas, modales y patrones UI comunes — reduciendo el tiempo dedicado a escribir estilos desde cero.",
+          "fr": "Pendant le codage, les agents IA peuvent rechercher plus de 10 000 bibliothèques de composants React/Tailwind de haute qualité, trouver le composant UI adapté à votre besoin actuel et générer le code directement. Inclut boutons, formulaires, navigation, cartes, modales et motifs UI courants — réduisant le temps passé à écrire des styles from scratch."
+        }
+      },
+      {
+        "question": {
+          "zh": "Magic MCP 需要 API Key 吗？",
+          "en": "Does Magic MCP need an API key?",
+          "ja": "Magic MCP に API キーは必要ですか？",
+          "es": "¿Magic MCP necesita una clave API?",
+          "fr": "Magic MCP a-t-il besoin d'une clé API ?"
+        },
+        "answer": {
+          "zh": "需要。在 21st.dev 注册获取 API Key，通过 --api-key 参数传入。Magic MCP 提供免费额度供开发测试，超出后按使用量计费。",
+          "en": "Yes. Register at 21st.dev to get an API key, and pass it with --api-key. Magic MCP offers a free tier for development and testing, with usage-based billing beyond that.",
+          "ja": "必要です。21st.dev でアカウント登録して API キーを取得し、--api-key パラメータで渡します。Magic MCP は開発テスト用の無料枠を提供しており、それを超えると従量課金となります。",
+          "es": "Sí. Regístrate en 21st.dev para obtener una clave API y pásala con --api-key. Magic MCP ofrece un nivel gratuito para desarrollo y pruebas, con facturación basada en uso más allá de eso.",
+          "fr": "Oui. Inscrivez-vous sur 21st.dev pour obtenir une clé API et passez-la avec --api-key. Magic MCP offre un niveau gratuit pour le développement et les tests, avec une facturation à l'usage au-delà."
+        }
+      },
+      {
+        "question": {
+          "zh": "Magic MCP 和 v0 有什么区别？",
+          "en": "How is Magic MCP different from v0?",
+          "ja": "Magic MCP と v0 の違いは？",
+          "es": "¿En qué se diferencia Magic MCP de v0?",
+          "fr": "En quoi Magic MCP diffère-t-il de v0 ?"
+        },
+        "answer": {
+          "zh": "v0 是网页端工具，需要复制粘贴结果。Magic MCP 直接嵌入你的 IDE，AI 智能体在编码过程中自动搜索并生成组件代码，无需离开编辑器。组件库也经过专门筛选，更适合在实际项目中直接使用。",
+          "en": "v0 is a web-based tool requiring copy-paste. Magic MCP embeds directly into your IDE — AI agents automatically search and generate component code during coding without leaving your editor. The component library is also curated for real-world project use.",
+          "ja": "v0 は Web ベースのツールで、結果をコピー＆ペーストする必要があります。Magic MCP は IDE に直接組み込まれ、AI エージェントがコーディング中に自動的にコンポーネントを検索・生成するため、エディタから離れる必要がありません。コンポーネントライブラリも実際のプロジェクトで使いやすいよう厳選されています。",
+          "es": "v0 es una herramienta web que requiere copiar y pegar. Magic MCP se integra directamente en tu IDE — los agentes de IA buscan y generan automáticamente código de componentes durante la codificación sin salir del editor. La biblioteca de componentes también está curada para su uso en proyectos reales.",
+          "fr": "v0 est un outil web nécessitant du copier-coller. Magic MCP s'intègre directement dans votre IDE — les agents IA recherchent et génèrent automatiquement du code de composants pendant le codage sans quitter votre éditeur. La bibliothèque de composants est également organisée pour une utilisation dans des projets réels."
+        }
+      }
+    ]
+  },
+  {
+    "slug": "xcodebuild-mcp",
+    "name": "XcodeBuild MCP",
+    "nameZh": "XcodeBuild MCP",
+    "description": "Sentry 出品的 MCP 服务器，为 AI 智能体提供 iOS/macOS 构建工具。支持 Xcode 项目构建、测试运行、模拟器管理，让编码智能体也能操作 Apple 开发环境。",
+    "descriptionEn": "An MCP server by Sentry that provides iOS/macOS build tools for AI agents. Supports Xcode project building, test running, and simulator management — letting coding agents operate the Apple development environment.",
+    "descriptionJa": "Sentry による MCP サーバーで、AI エージェントに iOS/macOS ビルドツールを提供します。Xcode プロジェクトのビルド、テスト実行、シミュレータ管理をサポートし、コーディングエージェントが Apple 開発環境を操作できるようにします。",
+    "descriptionEs": "Un servidor MCP de Sentry que proporciona herramientas de compilación de iOS/macOS para agentes de IA. Soporta compilación de proyectos Xcode, ejecución de pruebas y gestión de simuladores — permitiendo a los agentes de codificación operar el entorno de desarrollo de Apple.",
+    "descriptionFr": "Un serveur MCP par Sentry qui fournit des outils de build iOS/macOS pour les agents IA. Prend en charge la construction de projets Xcode, l'exécution de tests et la gestion de simulateurs — permettant aux agents de codage d'opérer l'environnement de développement Apple.",
+    "developer": "Sentry",
+    "developerZh": "Sentry",
+    "repo": "getsentry/XcodeBuildMCP",
+    "clients": [
+      "claude",
+      "cursor",
+      "vscode",
+      "codex",
+      "generic"
+    ],
+    "category": "Developer",
+    "tags": [
+      "Free",
+      "Open Source"
+    ],
+    "installCommand": "npx -y @getsentry/xcodebuild-mcp",
+    "logo": "/logos/mcp/xcodebuild-mcp.png",
+    "stars": 6176,
+    "featured": false,
+    "faqs": [
+      {
+        "question": {
+          "zh": "XcodeBuild MCP 能做什么？",
+          "en": "What can XcodeBuild MCP do?",
+          "ja": "XcodeBuild MCP は何ができますか？",
+          "es": "¿Qué puede hacer XcodeBuild MCP?",
+          "fr": "Que peut faire XcodeBuild MCP ?"
+        },
+        "answer": {
+          "zh": "让 AI 智能体在 macOS 上操作 Xcode 项目：构建项目并获取编译错误、运行测试套件查看结果、管理 iOS 模拟器（启动/关闭/重置）、获取设备日志。让 AI 辅助 Apple 平台开发的全流程。",
+          "en": "Lets AI agents operate Xcode projects on macOS: build projects and retrieve compilation errors, run test suites and view results, manage iOS simulators (start/stop/reset), and retrieve device logs. Enables AI-assisted end-to-end Apple platform development.",
+          "ja": "AI エージェントが macOS 上で Xcode プロジェクトを操作できます：プロジェクトのビルドとコンパイルエラーの取得、テストスイートの実行と結果確認、iOS シミュレータの管理（起動/停止/リセット）、デバイスログの取得。Apple プラットフォーム開発の全工程を AI が支援します。",
+          "es": "Permite a los agentes de IA operar proyectos Xcode en macOS: compilar proyectos y obtener errores de compilación, ejecutar suites de pruebas y ver resultados, gestionar simuladores de iOS (iniciar/parar/reiniciar), y obtener registros del dispositivo. Habilita el desarrollo de plataforma Apple asistido por IA de principio a fin.",
+          "fr": "Permet aux agents IA d'opérer des projets Xcode sur macOS : construire des projets et récupérer les erreurs de compilation, exécuter des suites de tests et voir les résultats, gérer les simulateurs iOS (démarrer/arrêter/réinitialiser), et récupérer les logs de périphérique. Permet un développement de plateforme Apple assisté par IA de bout en bout."
+        }
+      },
+      {
+        "question": {
+          "zh": "XcodeBuild MCP 需要 macOS 吗？",
+          "en": "Does XcodeBuild MCP require macOS?",
+          "ja": "XcodeBuild MCP には macOS が必要ですか？",
+          "es": "¿XcodeBuild MCP necesita macOS?",
+          "fr": "XcodeBuild MCP nécessite-t-il macOS ?"
+        },
+        "answer": {
+          "zh": "是的，必须在 macOS 上运行，且需要安装 Xcode 和 Command Line Tools。MCP 服务器通过 xcodebuild 命令行工具与 Xcode 交互，因此只能在 Apple 开发环境中使用。",
+          "en": "Yes, it must run on macOS with Xcode and Command Line Tools installed. The MCP server interacts with Xcode through the xcodebuild command-line tool, so it only works in the Apple development environment.",
+          "ja": "はい、macOS 上で動作し、Xcode と Command Line Tools のインストールが必要です。MCP サーバーは xcodebuild コマンドラインツールを介して Xcode と対話するため、Apple 開発環境でのみ動作します。",
+          "es": "Sí, debe ejecutarse en macOS con Xcode y las Command Line Tools instaladas. El servidor MCP interactúa con Xcode a través de la herramienta de línea de comandos xcodebuild, por lo que solo funciona en el entorno de desarrollo de Apple.",
+          "fr": "Oui, il doit fonctionner sur macOS avec Xcode et les outils en ligne de commande installés. Le serveur MCP interagit avec Xcode via l'outil en ligne de commande xcodebuild, donc il ne fonctionne que dans l'environnement de développement Apple."
+        }
+      },
+      {
+        "question": {
+          "zh": "XcodeBuild MCP 免费吗？",
+          "en": "Is XcodeBuild MCP free?",
+          "ja": "XcodeBuild MCP は無料ですか？",
+          "es": "¿XcodeBuild MCP es gratuito?",
+          "fr": "XcodeBuild MCP est-il gratuit ?"
+        },
+        "answer": {
+          "zh": "完全免费开源（MIT 协议），由 Sentry 官方维护。无需 API Key，在本地运行，所有构建操作在你的机器上执行。",
+          "en": "Completely free and open source (MIT license), officially maintained by Sentry. No API key needed — it runs locally with all build operations executing on your machine.",
+          "ja": "完全無料・オープンソース（MIT ライセンス）で、Sentry が公式メンテナンスしています。API キー不要でローカル実行され、すべてのビルド操作はあなたのマシン上で実行されます。",
+          "es": "Completamente gratuito y de código abierto (licencia MIT), mantenido oficialmente por Sentry. No necesita clave API — se ejecuta en local con todas las operaciones de compilación ejecutándose en tu máquina.",
+          "fr": "Entièrement gratuit et open source (licence MIT), officiellement maintenu par Sentry. Aucune clé API nécessaire — il s'exécute localement avec toutes les opérations de build s'exécutant sur votre machine."
+        }
+      }
+    ]
+  },
+  {
+    "slug": "apple-mcp",
+    "name": "Apple MCP",
+    "nameZh": "Apple MCP",
+    "description": "集合 Apple 原生工具能力的 MCP 服务器。让 AI 智能体访问 macOS 的提醒事项、日历、备忘录、联系人等系统应用，在 Apple 生态内自动化操作。",
+    "descriptionEn": "A collection of Apple-native tool capabilities via MCP. Lets AI agents access macOS system apps like Reminders, Calendar, Notes, and Contacts — enabling automation within the Apple ecosystem.",
+    "descriptionJa": "Apple ネイティブツールの機能を集めた MCP サーバー。AI エージェントが macOS のリマインダー、カレンダー、メモ、連絡先などのシステムアプリにアクセスし、Apple エコシステム内での自動化を実現します。",
+    "descriptionEs": "Una colección de capacidades de herramientas nativas de Apple a través de MCP. Permite a los agentes de IA acceder a aplicaciones del sistema macOS como Recordatorios, Calendario, Notas y Contactos — permitiendo la automatización dentro del ecosistema Apple.",
+    "descriptionFr": "Une collection de capacités d'outils natifs Apple via MCP. Permet aux agents IA d'accéder aux applications système macOS comme Rappels, Calendrier, Notes et Contacts — permettant l'automatisation au sein de l'écosystème Apple.",
+    "developer": "supermemoryai",
+    "developerZh": "supermemoryai",
+    "repo": "supermemoryai/apple-mcp",
+    "clients": [
+      "claude",
+      "cursor",
+      "vscode",
+      "codex",
+      "generic"
+    ],
+    "category": "Developer",
+    "tags": [
+      "Free",
+      "Open Source"
+    ],
+    "installCommand": "npx -y apple-mcp",
+    "logo": "/logos/mcp/apple-mcp.png",
+    "stars": 3128,
+    "featured": false,
+    "faqs": [
+      {
+        "question": {
+          "zh": "Apple MCP 能控制哪些系统应用？",
+          "en": "Which system apps can Apple MCP control?",
+          "ja": "Apple MCP はどのシステムアプリを制御できますか？",
+          "es": "¿Qué aplicaciones del sistema puede controlar Apple MCP?",
+          "fr": "Quelles applications système Apple MCP peut-il contrôler ?"
+        },
+        "answer": {
+          "zh": "支持提醒事项（创建/查询/完成）、日历（创建事件/查询日程）、备忘录（创建/读取/搜索）、联系人（搜索/读取）。覆盖 macOS 上最常用的效率工具。",
+          "en": "It supports Reminders (create/query/complete), Calendar (create events/query schedule), Notes (create/read/search), and Contacts (search/read). Covering the most commonly used productivity tools on macOS.",
+          "ja": "リマインダー（作成/照会/完了）、カレンダー（イベント作成/スケジュール照会）、メモ（作成/読取/検索）、連絡先（検索/読取）をサポートしています。macOS で最もよく使われる生産性ツールをカバーしています。",
+          "es": "Soporta Recordatorios (crear/consultar/completar), Calendario (crear eventos/consultar horario), Notas (crear/leer/buscar) y Contactos (buscar/leer). Cubriendo las herramientas de productividad más utilizadas en macOS.",
+          "fr": "Il prend en charge Rappels (créer/consulter/terminer), Calendrier (créer des événements/consulter l'agenda), Notes (créer/lire/rechercher) et Contacts (rechercher/lire). Couvrant les outils de productivité les plus utilisés sur macOS."
+        }
+      },
+      {
+        "question": {
+          "zh": "Apple MCP 需要 macOS 吗？",
+          "en": "Does Apple MCP require macOS?",
+          "ja": "Apple MCP には macOS が必要ですか？",
+          "es": "¿Apple MCP necesita macOS?",
+          "fr": "Apple MCP nécessite-t-il macOS ?"
+        },
+        "answer": {
+          "zh": "是的，必须在 macOS 上运行。它通过 AppleScript 和系统事件与 macOS 原生应用交互，因此无法在 Windows 或 Linux 上使用。",
+          "en": "Yes, it must run on macOS. It interacts with macOS native apps through AppleScript and system events, so it cannot be used on Windows or Linux.",
+          "ja": "はい、macOS 上で動作する必要があります。AppleScript とシステムイベントを介して macOS ネイティブアプリと対話するため、Windows や Linux では使用できません。",
+          "es": "Sí, debe ejecutarse en macOS. Interactúa con las aplicaciones nativas de macOS a través de AppleScript y eventos del sistema, por lo que no puede usarse en Windows o Linux.",
+          "fr": "Oui, il doit fonctionner sur macOS. Il interagit avec les applications natives macOS via AppleScript et les événements système, donc il ne peut pas être utilisé sur Windows ou Linux."
+        }
+      },
+      {
+        "question": {
+          "zh": "Apple MCP 安全吗？",
+          "en": "Is Apple MCP safe?",
+          "ja": "Apple MCP は安全ですか？",
+          "es": "¿Apple MCP es seguro?",
+          "fr": "Apple MCP est-il sûr ?"
+        },
+        "answer": {
+          "zh": "MCP 服务器在本地运行，所有操作都在你的 macOS 上执行，数据不会上传到第三方。AI 智能体只有在被明确指示时才会创建或修改日历事件、提醒事项等个人数据。建议使用时注意审查授权范围。",
+          "en": "The MCP server runs locally with all operations executing on your macOS — data never leaves your machine. AI agents only create or modify calendar events, reminders, and other personal data when explicitly instructed. Review the authorization scope when using.",
+          "ja": "MCP サーバーはローカルで動作し、すべての操作は macOS 上で実行されるため、データが外部に送信されることはありません。AI エージェントは明示的に指示された場合のみカレンダーイベントやリマインダーなどの個人データを作成・変更します。使用時は認可範囲を確認することをお勧めします。",
+          "es": "El servidor MCP se ejecuta en local con todas las operaciones ejecutándose en tu macOS — los datos nunca salen de tu máquina. Los agentes de IA solo crean o modifican eventos de calendario, recordatorios y otros datos personales cuando se les indica explícitamente. Revisa el alcance de la autorización al usarlo.",
+          "fr": "Le serveur MCP s'exécute localement avec toutes les opérations sur votre macOS — les données ne quittent jamais votre machine. Les agents IA ne créent ou modifient des événements de calendrier, rappels et autres données personnelles que sur instruction explicite. Vérifiez la portée de l'autorisation lors de l'utilisation."
+        }
+      }
+    ]
+  },
+  {
+    "slug": "terraform-mcp",
+    "name": "Terraform MCP Server",
+    "nameZh": "Terraform MCP 服务器",
+    "description": "HashiCorp 官方出品的 Terraform MCP 服务器。让 AI 智能体与 Terraform 生态无缝集成：管理状态文件、规划执行、编写基础设施即代码（IaC）。",
+    "descriptionEn": "The official Terraform MCP server by HashiCorp. Lets AI agents seamlessly integrate with the Terraform ecosystem: manage state files, plan execution, and write Infrastructure as Code (IaC).",
+    "descriptionJa": "HashiCorp 公式の Terraform MCP サーバー。AI エージェントが Terraform エコシステムとシームレスに統合：状態ファイルの管理、プラン実行、Infrastructure as Code（IaC）の記述が可能です。",
+    "descriptionEs": "El servidor oficial de Terraform MCP de HashiCorp. Permite a los agentes de IA integrarse sin problemas con el ecosistema Terraform: gestionar archivos de estado, planificar ejecuciones y escribir Infraestructura como Código (IaC).",
+    "descriptionFr": "Le serveur officiel Terraform MCP par HashiCorp. Permet aux agents IA de s'intégrer de manière transparente avec l'écosystème Terraform : gérer les fichiers d'état, planifier l'exécution et écrire de l'infrastructure en tant que code (IaC).",
+    "developer": "HashiCorp",
+    "developerZh": "HashiCorp",
+    "repo": "hashicorp/terraform-mcp-server",
+    "clients": [
+      "claude",
+      "cursor",
+      "vscode",
+      "codex",
+      "generic"
+    ],
+    "category": "DevOps",
+    "tags": [
+      "Free",
+      "Open Source"
+    ],
+    "installCommand": "npx -y @hashicorp/terraform-mcp-server",
+    "logo": "/logos/mcp/terraform-mcp.png",
+    "stars": 1492,
+    "featured": false,
+    "faqs": [
+      {
+        "question": {
+          "zh": "Terraform MCP 能做什么？",
+          "en": "What can Terraform MCP do?",
+          "ja": "Terraform MCP は何ができますか？",
+          "es": "¿Qué puede hacer Terraform MCP?",
+          "fr": "Que peut faire Terraform MCP ?"
+        },
+        "answer": {
+          "zh": "让 AI 智能体直接编写和执行 Terraform 配置：管理状态文件、查看和创建执行计划、预览资源变更、读取 Terraform 配置和输出。让基础设施管理变得更加智能和高效。",
+          "en": "Lets AI agents directly write and execute Terraform configurations: manage state files, view and create execution plans, preview resource changes, and read Terraform configurations and outputs. Making infrastructure management smarter and more efficient.",
+          "ja": "AI エージェントが Terraform 設定を直接記述・実行できます：状態ファイルの管理、実行計画の表示と作成、リソース変更のプレビュー、Terraform 設定と出力の読み取り。インフラ管理をよりスマートかつ効率的にします。",
+          "es": "Permite a los agentes de IA escribir y ejecutar configuraciones de Terraform directamente: gestionar archivos de estado, ver y crear planes de ejecución, previsualizar cambios de recursos, y leer configuraciones y salidas de Terraform. Haciendo la gestión de infraestructura más inteligente y eficiente.",
+          "fr": "Permet aux agents IA d'écrire et d'exécuter directement des configurations Terraform : gérer les fichiers d'état, visualiser et créer des plans d'exécution, prévisualiser les changements de ressources, et lire les configurations et sorties Terraform. Rendant la gestion d'infrastructure plus intelligente et efficace."
+        }
+      },
+      {
+        "question": {
+          "zh": "Terraform MCP 需要安装 Terraform 吗？",
+          "en": "Does Terraform MCP require Terraform to be installed?",
+          "ja": "Terraform MCP を使用するには Terraform のインストールが必要ですか？",
+          "es": "¿Terraform MCP necesita tener Terraform instalado?",
+          "fr": "Terraform MCP nécessite-t-il l'installation de Terraform ?"
+        },
+        "answer": {
+          "zh": "是的，需要本地安装 Terraform CLI。MCP 服务器通过调用本地 terraform 命令来执行操作，因此需要先安装 Terraform 并配置好云提供商凭据。",
+          "en": "Yes, you need Terraform CLI installed locally. The MCP server executes operations by calling the local terraform command, so you'll need Terraform installed and cloud provider credentials configured.",
+          "ja": "はい、ローカルに Terraform CLI のインストールが必要です。MCP サーバーはローカルの terraform コマンドを呼び出して操作を実行するため、Terraform のインストールとクラウドプロバイダーの認証情報の設定が必要です。",
+          "es": "Sí, necesitas tener Terraform CLI instalado localmente. El servidor MCP ejecuta operaciones llamando al comando terraform local, por lo que necesitarás Terraform instalado y credenciales de proveedor de nube configuradas.",
+          "fr": "Oui, vous devez avoir Terraform CLI installé localement. Le serveur MCP exécute les opérations en appelant la commande terraform locale, vous aurez donc besoin de Terraform installé et des identifiants du fournisseur cloud configurés."
+        }
+      },
+      {
+        "question": {
+          "zh": "Terraform MCP 免费吗？",
+          "en": "Is Terraform MCP free?",
+          "ja": "Terraform MCP は無料ですか？",
+          "es": "¿Terraform MCP es gratuito?",
+          "fr": "Terraform MCP est-il gratuit ?"
+        },
+        "answer": {
+          "zh": "完全免费开源（BUSL 协议），由 HashiCorp 官方维护。MCP 服务器本身免费，但使用 Terraform 管理云资源时，云服务商本身会按资源用量收费。",
+          "en": "Completely free and open source (BUSL license), officially maintained by HashiCorp. The MCP server itself is free, but managing cloud resources with Terraform will incur charges from your cloud provider based on resource usage.",
+          "ja": "完全無料・オープンソース（BUSL ライセンス）で、HashiCorp が公式メンテナンスしています。MCP サーバー自体は無料ですが、Terraform でクラウドリソースを管理する際、クラウドプロバイダーからリソース使用量に応じた料金が発生します。",
+          "es": "Completamente gratuito y de código abierto (licencia BUSL), mantenido oficialmente por HashiCorp. El servidor MCP en sí es gratuito, pero gestionar recursos en la nube con Terraform incurrirá en cargos de tu proveedor de nube según el uso de recursos.",
+          "fr": "Entièrement gratuit et open source (licence BUSL), officiellement maintenu par HashiCorp. Le serveur MCP lui-même est gratuit, mais la gestion des ressources cloud avec Terraform entraînera des frais de votre fournisseur cloud en fonction de l'utilisation des ressources."
+        }
+      }
+    ]
+  },
+  {
+    "slug": "qdrant-mcp",
+    "name": "Qdrant MCP Server",
+    "nameZh": "Qdrant MCP 服务器",
+    "description": "Qdrant 官方 MCP 服务器。让 AI 智能体直接操作 Qdrant 向量数据库：创建和搜索集合、插入向量数据、执行语义搜索，无需手动编写 API 请求。",
+    "descriptionEn": "The official Qdrant MCP server. Lets AI agents directly operate the Qdrant vector database: create and search collections, insert vector data, and perform semantic search — no manual API requests needed.",
+    "descriptionJa": "Qdrant 公式 MCP サーバー。AI エージェントが Qdrant ベクトルデータベースを直接操作できます：コレクションの作成と検索、ベクトルデータの挿入、セマンティック検索の実行。手動での API リクエストは不要です。",
+    "descriptionEs": "El servidor oficial de Qdrant MCP. Permite a los agentes de IA operar directamente la base de datos vectorial Qdrant: crear y buscar colecciones, insertar datos vectoriales y realizar búsqueda semántica — sin necesidad de peticiones API manuales.",
+    "descriptionFr": "Le serveur officiel Qdrant MCP. Permet aux agents IA d'opérer directement la base de données vectorielle Qdrant : créer et rechercher des collections, insérer des données vectorielles et effectuer des recherches sémantiques — sans requêtes API manuelles.",
+    "developer": "Qdrant",
+    "developerZh": "Qdrant",
+    "repo": "qdrant/mcp-server-qdrant",
+    "clients": [
+      "claude",
+      "cursor",
+      "vscode",
+      "codex",
+      "generic"
+    ],
+    "category": "Database",
+    "tags": [
+      "Free",
+      "Open Source"
+    ],
+    "installCommand": "npx -y @qdrant/mcp-server-qdrant",
+    "logo": "/logos/mcp/qdrant-mcp.png",
+    "stars": 1485,
+    "featured": false,
+    "faqs": [
+      {
+        "question": {
+          "zh": "Qdrant MCP 能做什么？",
+          "en": "What can Qdrant MCP do?",
+          "ja": "Qdrant MCP は何ができますか？",
+          "es": "¿Qué puede hacer Qdrant MCP?",
+          "fr": "Que peut faire Qdrant MCP ?"
+        },
+        "answer": {
+          "zh": "让 AI 智能体直接操作 Qdrant 向量数据库：创建和管理集合（Collection）、插入和更新向量数据、执行语义相似度搜索、管理索引和过滤器。适用于构建 RAG（检索增强生成）应用、语义搜索、推荐系统等场景。",
+          "en": "Lets AI agents directly operate the Qdrant vector database: create and manage collections, insert and update vector data, perform semantic similarity search, and manage indexes and filters. Ideal for building RAG (Retrieval-Augmented Generation) apps, semantic search, and recommendation systems.",
+          "ja": "AI エージェントが Qdrant ベクトルデータベースを直接操作できます：コレクションの作成と管理、ベクトルデータの挿入と更新、セマンティック類似度検索の実行、インデックスとフィルターの管理。RAG（検索拡張生成）アプリ、セマンティック検索、レコメンデーションシステムなどの構築に最適です。",
+          "es": "Permite a los agentes de IA operar directamente la base de datos vectorial Qdrant: crear y gestionar colecciones, insertar y actualizar datos vectoriales, realizar búsqueda de similitud semántica, y gestionar índices y filtros. Ideal para construir aplicaciones RAG (Generación Aumentada por Recuperación), búsqueda semántica y sistemas de recomendación.",
+          "fr": "Permet aux agents IA d'opérer directement la base de données vectorielle Qdrant : créer et gérer des collections, insérer et mettre à jour des données vectorielles, effectuer des recherches de similarité sémantique, et gérer les index et filtres. Idéal pour construire des applications RAG (génération augmentée par récupération), la recherche sémantique et les systèmes de recommandation."
+        }
+      },
+      {
+        "question": {
+          "zh": "Qdrant MCP 需要连接 Qdrant 实例吗？",
+          "en": "Does Qdrant MCP need a Qdrant instance?",
+          "ja": "Qdrant MCP を使用するには Qdrant インスタンスが必要ですか？",
+          "es": "¿Qdrant MCP necesita una instancia de Qdrant?",
+          "fr": "Qdrant MCP a-t-il besoin d'une instance Qdrant ?"
+        },
+        "answer": {
+          "zh": "需要连接一个正在运行的 Qdrant 实例（可以是本地 Docker 部署或 Qdrant Cloud）。MCP 服务器通过 Qdrant 客户端 API 连接，需要配置实例的 URL 和 API Key（如有）。",
+          "en": "Yes, it needs a running Qdrant instance (either local Docker deployment or Qdrant Cloud). The MCP server connects via the Qdrant client API and requires the instance URL and API key (if applicable) to be configured.",
+          "ja": "実行中の Qdrant インスタンス（ローカルの Docker デプロイまたは Qdrant Cloud）への接続が必要です。MCP サーバーは Qdrant クライアント API を介して接続し、インスタンスの URL と API キー（該当する場合）の設定が必要です。",
+          "es": "Sí, necesita una instancia de Qdrant en ejecución (ya sea despliegue local con Docker o Qdrant Cloud). El servidor MCP se conecta a través de la API cliente de Qdrant y requiere la URL de la instancia y la clave API (si aplica) configuradas.",
+          "fr": "Oui, il nécessite une instance Qdrant en cours d'exécution (soit un déploiement Docker local, soit Qdrant Cloud). Le serveur MCP se connecte via l'API client Qdrant et nécessite la configuration de l'URL de l'instance et de la clé API (le cas échéant)."
+        }
+      },
+      {
+        "question": {
+          "zh": "Qdrant MCP 免费吗？",
+          "en": "Is Qdrant MCP free?",
+          "ja": "Qdrant MCP は無料ですか？",
+          "es": "¿Qdrant MCP es gratuito?",
+          "fr": "Qdrant MCP est-il gratuit ?"
+        },
+        "answer": {
+          "zh": "MCP 服务器本身开源免费（Apache 2.0）。Qdrant 提供开源版（可自托管，免费）和 Qdrant Cloud（有免费额度，超出后按量计费）。",
+          "en": "The MCP server itself is open source and free (Apache 2.0). Qdrant offers an open source version (self-hosted, free) and Qdrant Cloud (free tier available, usage-based billing beyond).",
+          "ja": "MCP サーバー自体はオープンソースで無料です（Apache 2.0）。Qdrant はオープンソース版（セルフホスト、無料）と Qdrant Cloud（無料枠あり、超過分は従量課金）を提供しています。",
+          "es": "El servidor MCP en sí es de código abierto y gratuito (Apache 2.0). Qdrant ofrece una versión de código abierto (autoalojada, gratuita) y Qdrant Cloud (nivel gratuito disponible, facturación basada en uso más allá).",
+          "fr": "Le serveur MCP lui-même est open source et gratuit (Apache 2.0). Qdrant propose une version open source (auto-hébergée, gratuite) et Qdrant Cloud (niveau gratuit disponible, facturation à l'usage au-delà)."
+        }
+      }
+    ]
   }
 ]
