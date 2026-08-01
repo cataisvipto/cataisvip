@@ -12,6 +12,10 @@ on:
   # Vercel 部署完成后自动触发（部分 Vercel 集成会发送 deployment_status 事件）
   deployment_status:
 
+permissions:
+  contents: read
+  deployments: write
+
 jobs:
   smoke:
     # 手动触发时不限制
