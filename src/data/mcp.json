@@ -25,7 +25,7 @@
     ],
     "installCommand": "npx -y @modelcontextprotocol/server-filesystem <dir>",
     "logo": "/logos/mcp/mcp-official-servers.png",
-    "stars": 89086,
+    "stars": 89102,
     "featured": false,
     "faqs": [
       {
@@ -104,7 +104,7 @@
     ],
     "installCommand": "npx -y @upstash/context7-mcp",
     "logo": "/logos/mcp/context7.png",
-    "stars": 60067,
+    "stars": 60089,
     "featured": false,
     "faqs": [
       {
@@ -183,7 +183,7 @@
     ],
     "installCommand": "npx -y chrome-devtools-mcp@latest",
     "logo": "/logos/mcp/chrome-devtools-mcp.png",
-    "stars": 48257,
+    "stars": 48282,
     "featured": false,
     "faqs": [
       {
@@ -262,7 +262,7 @@
     ],
     "installCommand": "npx @playwright/mcp@latest",
     "logo": "/logos/mcp/playwright-mcp.png",
-    "stars": 35676,
+    "stars": 35697,
     "featured": false,
     "faqs": [
       {
@@ -341,7 +341,7 @@
     ],
     "installCommand": "claude mcp add --transport http github https://api.githubcopilot.com/mcp/",
     "logo": "/logos/mcp/github-mcp-server.png",
-    "stars": 31867,
+    "stars": 31872,
     "featured": false,
     "faqs": [
       {
@@ -497,7 +497,7 @@
     ],
     "installCommand": "uvx --from git+https://github.com/oraios/serena serena start-mcp-server",
     "logo": "/logos/mcp/serena.png",
-    "stars": 27258,
+    "stars": 27288,
     "featured": false,
     "faqs": [
       {
@@ -574,7 +574,7 @@
     ],
     "installCommand": "uvx blender-mcp",
     "logo": "/logos/mcp/blender-mcp.png",
-    "stars": 25190,
+    "stars": 25210,
     "featured": false,
     "faqs": [
       {
@@ -653,7 +653,7 @@
     ],
     "installCommand": "npx -y figma-developer-mcp --figma-api-key=<key> --stdio",
     "logo": "/logos/mcp/figma-context-mcp.png",
-    "stars": 15552,
+    "stars": 15553,
     "featured": false,
     "faqs": [
       {
@@ -731,7 +731,7 @@
     ],
     "installCommand": "uvx awslabs.core-mcp-server@latest",
     "logo": "/logos/mcp/aws-mcp.png",
-    "stars": 9521,
+    "stars": 9525,
     "featured": false,
     "faqs": [
       {
@@ -811,7 +811,7 @@
     ],
     "installCommand": "env FIRECRAWL_API_KEY=<key> npx -y firecrawl-mcp",
     "logo": "/logos/mcp/firecrawl-mcp.png",
-    "stars": 7089,
+    "stars": 7094,
     "featured": false,
     "faqs": [
       {
@@ -889,7 +889,7 @@
     ],
     "installCommand": "uvx mcp-atlassian",
     "logo": "/logos/mcp/atlassian-mcp.png",
-    "stars": 5679,
+    "stars": 5680,
     "featured": false,
     "faqs": [
       {
@@ -967,7 +967,7 @@
     ],
     "installCommand": "npx -y exa-mcp-server",
     "logo": "/logos/mcp/exa-mcp.png",
-    "stars": 4802,
+    "stars": 4805,
     "featured": false,
     "faqs": [
       {
@@ -1046,7 +1046,7 @@
     ],
     "installCommand": "npx -y @notionhq/notion-mcp-server",
     "logo": "/logos/mcp/notion-mcp-server.png",
-    "stars": 4560,
+    "stars": 4562,
     "featured": false,
     "faqs": [
       {
@@ -1124,7 +1124,7 @@
     ],
     "installCommand": "npx mcp-remote https://docs.mcp.cloudflare.com/sse",
     "logo": "/logos/mcp/cloudflare-mcp.png",
-    "stars": 4010,
+    "stars": 4011,
     "featured": false,
     "faqs": [
       {
@@ -1202,7 +1202,7 @@
     ],
     "installCommand": "npx -y @azure/mcp@latest server start",
     "logo": "/logos/mcp/azure-mcp.png",
-    "stars": 3516,
+    "stars": 3521,
     "featured": false,
     "faqs": [
       {
@@ -1360,7 +1360,7 @@
     ],
     "installCommand": "npx -y @supabase/mcp-server-supabase@latest",
     "logo": "/logos/mcp/supabase-mcp.png",
-    "stars": 2843,
+    "stars": 2845,
     "featured": false,
     "faqs": [
       {
@@ -1438,7 +1438,7 @@
     ],
     "installCommand": "npx -y @perplexity-ai/mcp-server",
     "logo": "/logos/mcp/perplexity-mcp.png",
-    "stars": 2421,
+    "stars": 2422,
     "featured": false,
     "faqs": [
       {
@@ -1594,7 +1594,7 @@
     ],
     "installCommand": "npx -y slack-mcp-server@latest",
     "logo": "/logos/mcp/slack-mcp.png",
-    "stars": 1762,
+    "stars": 1763,
     "featured": false,
     "faqs": [
       {
@@ -1750,7 +1750,7 @@
     ],
     "installCommand": "npx -y mcp-server-kubernetes",
     "logo": "/logos/mcp/kubernetes-mcp.png",
-    "stars": 1514,
+    "stars": 1515,
     "featured": false,
     "faqs": [
       {
@@ -1828,7 +1828,7 @@
     ],
     "installCommand": "docker mcp gateway run",
     "logo": "/logos/mcp/docker-mcp.png",
-    "stars": 1513,
+    "stars": 1514,
     "featured": false,
     "faqs": [
       {
@@ -1906,7 +1906,7 @@
     ],
     "installCommand": "npx -y @brave/brave-search-mcp-server",
     "logo": "/logos/mcp/brave-search-mcp.png",
-    "stars": 1337,
+    "stars": 1340,
     "featured": false,
     "faqs": [
       {
@@ -2062,7 +2062,7 @@
     ],
     "installCommand": "npx -y @smithery/cli",
     "logo": "/logos/mcp/smithery.png",
-    "stars": 813,
+    "stars": 811,
     "featured": false,
     "faqs": [
       {
