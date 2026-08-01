@@ -25,7 +25,14 @@
     "author": "Cataito Team",
     "publishedAt": "2026-07-15",
     "category": "comparison",
-    "tags": ["ChatGPT", "Claude", "Gemini", "Comparison", "GPT-5", "Claude 4.5"],
+    "tags": [
+      "ChatGPT",
+      "Claude",
+      "Gemini",
+      "Comparison",
+      "GPT-5",
+      "Claude 4.5"
+    ],
     "coverImage": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200&h=630&fit=crop",
     "readTime": 8
   },
@@ -55,7 +62,12 @@
     "author": "Cataito Team",
     "publishedAt": "2026-07-14",
     "category": "listicle",
-    "tags": ["Free Tools", "Productivity", "AI Tools", "2026"],
+    "tags": [
+      "Free Tools",
+      "Productivity",
+      "AI Tools",
+      "2026"
+    ],
     "coverImage": "https://images.unsplash.com/photo-1684369176170-463e54252f59?w=1200&h=630&fit=crop",
     "readTime": 6
   },
@@ -85,7 +97,14 @@
     "author": "Cataito Team",
     "publishedAt": "2026-07-13",
     "category": "news",
-    "tags": ["AI News", "GPT-5", "Claude 4.5", "Gemini 3.0", "DeepSeek-V4", "Industry Updates"],
+    "tags": [
+      "AI News",
+      "GPT-5",
+      "Claude 4.5",
+      "Gemini 3.0",
+      "DeepSeek-V4",
+      "Industry Updates"
+    ],
     "coverImage": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=1200&h=630&fit=crop",
     "readTime": 5
   },
@@ -115,7 +134,13 @@
     "author": "Cataito Team",
     "publishedAt": "2026-07-17",
     "category": "analysis",
-    "tags": ["Kimi", "Moonshot AI", "AI Agent", "Chinese AI", "Long Context"],
+    "tags": [
+      "Kimi",
+      "Moonshot AI",
+      "AI Agent",
+      "Chinese AI",
+      "Long Context"
+    ],
     "coverImage": "https://images.unsplash.com/photo-1535378917042-10a22c95931a?w=1200&h=630&fit=crop",
     "readTime": 6
   },
@@ -145,7 +170,14 @@
     "author": "Cataito Team",
     "publishedAt": "2026-07-23",
     "category": "news",
-    "tags": ["DeepSeek", "Liang Wenfeng", "AGI", "Open Source", "AI Industry", "China AI"],
+    "tags": [
+      "DeepSeek",
+      "Liang Wenfeng",
+      "AGI",
+      "Open Source",
+      "AI Industry",
+      "China AI"
+    ],
     "coverImage": "https://images.unsplash.com/photo-1526628953301-3e589a6a8b74?w=1200&h=630&fit=crop",
     "readTime": 9
   },
@@ -222,5 +254,43 @@
     ],
     "coverImage": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=1200&h=630&fit=crop",
     "readTime": 6
+  },
+  {
+    "slug": "best-mcp-servers-ai-agents-2026",
+    "title": {
+      "en": "Best MCP Servers for AI Agents in 2026 (55+ Servers Reviewed)",
+      "zh": "2026 年 AI 智能体最佳 MCP 服务器（55+ 款评测）",
+      "ja": "2026年 AIエージェント向けMCPサーバーベスト（55+ レビュー）",
+      "es": "Los mejores servidores MCP para agentes de IA en 2026 (55+ reseñas)",
+      "fr": "Les meilleurs serveurs MCP pour agents IA en 2026 (55+ avis)"
+    },
+    "excerpt": {
+      "en": "The Model Context Protocol (MCP) is transforming how AI agents interact with the world. We reviewed 55+ MCP servers across 14 categories to find the best ones for developers, researchers, and businesses.",
+      "zh": "Model Context Protocol（MCP）正在改变 AI 智能体与世界的交互方式。我们评测了 14 个分类的 55+ 款 MCP 服务器，为开发者、研究人员和企业找到最佳选择。",
+      "ja": "Model Context Protocol（MCP）はAIエージェントと世界のインタラクションを変革しています。14カテゴリの55以上のMCPサーバーをレビューし、開発者、研究者、企業に最適なものを見つけました。",
+      "es": "El Protocolo de Contexto de Modelo (MCP) está transformando cómo los agentes de IA interactúan con el mundo. Revisamos más de 55 servidores MCP en 14 categorías para encontrar los mejores para desarrolladores, investigadores y empresas.",
+      "fr": "Le Model Context Protocol (MCP) transforme la façon dont les agents IA interagissent avec le monde. Nous avons examiné plus de 55 serveurs MCP dans 14 catégories pour trouver les meilleurs pour les développeurs, chercheurs et entreprises."
+    },
+    "content": {
+      "en": "## What is MCP?\n\nThe Model Context Protocol (MCP) is an open standard developed by Anthropic that lets AI agents connect directly with external tools, data sources, and services. Think of it as a universal USB-C port for AI — one standard connection that works across all compatible agents.\n\n## Why MCP Matters in 2026\n\nMCP has become the standard way to extend AI capabilities. Instead of building custom integrations for every tool, developers can now use MCP servers that work across Claude, Cursor, VS Code, Codex, and more.\n\n## Top MCP Servers by Category\n\n### 🏗️ Developer Tools\n- **GitHub MCP Server** (31,867★) — Official GitHub integration for managing repos, issues, and PRs\n- **Context7** (60,067★) — Real-time library documentation for coding agents\n- **Serena** (27,258★) — LSP-powered code search and editing toolkit\n\n### 🌐 Browser Automation\n- **Chrome DevTools MCP** (48,257★) — Official Google tool for debugging live browsers\n- **Playwright MCP** (35,676★) — Microsoft's browser automation framework\n- **Browser MCP** (6,912★) — Control your local real browser\n\n### ☁️ Cloud & DevOps\n- **AWS MCP Servers** (9,521★) — Official AWS toolkit for cloud operations\n- **Cloudflare MCP** (4,010★) — Cloudflare's entire platform via MCP\n- **Terraform MCP** (1,492★) — HashiCorp's IaC integration\n\n### 🎨 Design & Media\n- **Figma Context MCP** (15,552★) — Convert Figma designs to code\n- **ElevenLabs MCP** (1,498★) — Text-to-speech and voice cloning\n- **AntV Chart MCP** (4,271★) — Generate 25+ chart types with AI\n\n### 🔍 Search & Data\n- **Firecrawl MCP** (7,089★) — Web scraping and structured data extraction\n- **Perplexity MCP** (2,421★) — Real-time web search with citations\n- **Exa MCP** (4,802★) — AI-optimized neural search engine\n\n### 📁 Productivity\n- **Obsidian MCP** (4,241★) — Connect AI to your knowledge base\n- **Notion MCP** (4,560★) — Official Notion integration\n- **Excel MCP** (4,084★) — AI-powered spreadsheet manipulation\n\n## Getting Started with MCP\n\n```bash\n# Install any MCP server in Claude Code\nclaude mcp add <name> -- npx -y <package-name>\n\n# Or paste the command into Cursor's MCP settings\n```\n\nBrowse our complete [MCP Servers Directory](/mcp) with 55+ servers, each with 5-language descriptions, install commands, and FAQ sections.",
+      "zh": "## 什么是 MCP？\n\nModel Context Protocol（MCP）是由 Anthropic 开发的开放标准，让 AI 智能体直接连接外部工具、数据源和服务。可以把它想象成 AI 的通用 USB-C 接口——一个标准连接，兼容所有主流智能体。\n\n## 为什么 2026 年 MCP 很重要\n\nMCP 已经成为扩展 AI 能力的标准方式。开发者不再需要为每个工具构建自定义集成，而是使用跨 Claude、Cursor、VS Code、Codex 等平台通用的 MCP 服务器。\n\n## 各分类最佳 MCP 服务器\n\n### 🏗️ 开发者工具\n- **GitHub MCP 服务器** (31,867★) — 官方 GitHub 集成，管理仓库、Issue 和 PR\n- **Context7** (60,067★) — 编码智能体的实时库文档\n- **Serena** (27,258★) — LSP 驱动的代码搜索和编辑工具包\n\n### 🌐 浏览器自动化\n- **Chrome DevTools MCP** (48,257★) — Google 官方实时浏览器调试工具\n- **Playwright MCP** (35,676★) — 微软的浏览器自动化框架\n- **Browser MCP** (6,912★) — 控制你的本地真实浏览器\n\n### ☁️ 云与 DevOps\n- **AWS MCP 服务器** (9,521★) — 官方 AWS 云操作工具包\n- **Cloudflare MCP** (4,010★) — 通过 MCP 访问 Cloudflare 全平台\n- **Terraform MCP** (1,492★) — HashiCorp 的 IaC 集成\n\n### 🎨 设计与媒体\n- **Figma Context MCP** (15,552★) — Figma 设计稿转代码\n- **ElevenLabs MCP** (1,498★) — 语音合成和声音克隆\n- **AntV 图表 MCP** (4,271★) — 用 AI 生成 25+ 种图表\n\n### 🔍 搜索与数据\n- **Firecrawl MCP** (7,089★) — 网页抓取和结构化数据提取\n- **Perplexity MCP** (2,421★) — 带引用的实时网络搜索\n- **Exa MCP** (4,802★) — AI 优化的神经搜索引擎\n\n### 📁 效率办公\n- **Obsidian MCP** (4,241★) — 连接 AI 到你的知识库\n- **Notion MCP** (4,560★) — 官方 Notion 集成\n- **Excel MCP** (4,084★) — AI 驱动的电子表格操作\n\n## 开始使用 MCP\n\n```bash\n# 在 Claude Code 中安装 MCP 服务器\nclaude mcp add <名称> -- npx -y <包名>\n\n# 或粘贴命令到 Cursor 的 MCP 设置中\n```\n\n浏览我们的完整 [MCP 服务器专区](/mcp)，收录 55+ 款服务器，每款配备 5 语言描述、安装命令和常见问题解答。",
+      "ja": "## MCPとは？\n\nModel Context Protocol（MCP）はAnthropicが開発したオープンスタンダードで、AIエージェントが外部ツール、データソース、サービスに直接接続できるようにします。AIの汎用USB-Cポートのようなもの——1つの標準接続で、すべての互換エージェントで動作します。\n\n## 2026年にMCPが重要な理由\n\nMCPはAI機能を拡張する標準的な方法になりました。開発者はツールごとにカスタム統合を構築する必要がなく、Claude、Cursor、VS Code、Codexなどで共通して使えるMCPサーバーを利用できます。\n\n## カテゴリ別おすすめMCPサーバー\n\n### 🏗️ 開発者ツール\n- **GitHub MCP サーバー** (31,867★) — 公式GitHub統合、リポジトリ・Issue・PR管理\n- **Context7** (60,067★) — コーディングエージェント向けリアルタイムライブラリドキュメント\n- **Serena** (27,258★) — LSP駆動のコード検索・編集ツールキット\n\n### 🌐 ブラウザ自動化\n- **Chrome DevTools MCP** (48,257★) — Google公式のリアルタイムブラウザデバッグツール\n- **Playwright MCP** (35,676★) — マイクロソフトのブラウザ自動化フレームワーク\n- **Browser MCP** (6,912★) — ローカルの実際のブラウザを制御\n\n### ☁️ クラウド＆DevOps\n- **AWS MCP サーバー** (9,521★) — 公式AWSクラウド操作ツールキット\n- **Cloudflare MCP** (4,010★) — MCP経由でCloudflare全プラットフォームにアクセス\n- **Terraform MCP** (1,492★) — HashiCorpのIaC統合\n\n### 🎨 デザイン＆メディア\n- **Figma Context MCP** (15,552★) — Figmaデザインをコードに変換\n- **ElevenLabs MCP** (1,498★) — 音声合成と音声クローン\n- **AntV チャートMCP** (4,271★) — AIで25種類以上のチャートを生成\n\n### 🔍 検索＆データ\n- **Firecrawl MCP** (7,089★) — Webスクレイピングと構造化データ抽出\n- **Perplexity MCP** (2,421★) — 引用付きリアルタイムWeb検索\n- **Exa MCP** (4,802★) — AI最適化されたニューラル検索エンジン\n\n### 📁 生産性\n- **Obsidian MCP** (4,241★) — AIをナレッジベースに接続\n- **Notion MCP** (4,560★) — 公式Notion統合\n- **Excel MCP** (4,084★) — AI駆動のスプレッドシート操作\n\n## MCPを始めよう\n\n```bash\n# Claude CodeにMCPサーバーをインストール\nclaude mcp add <名前> -- npx -y <パッケージ名>\n\n# またはCursorのMCP設定にコマンドを貼り付け\n```\n\n完全な [MCPサーバー一覧](/mcp) はこちら。55以上のサーバーを5言語の説明、インストールコマンド、FAQ付きで掲載しています。",
+      "es": "## ¿Qué es MCP?\n\nEl Protocolo de Contexto de Modelo (MCP) es un estándar abierto desarrollado por Anthropic que permite a los agentes de IA conectarse directamente con herramientas externas, fuentes de datos y servicios. Piensa en él como un puerto USB-C universal para la IA: una conexión estándar que funciona en todos los agentes compatibles.\n\n## Por qué MCP es importante en 2026\n\nMCP se ha convertido en la forma estándar de extender las capacidades de la IA. Los desarrolladores ya no necesitan construir integraciones personalizadas para cada herramienta, sino que pueden usar servidores MCP que funcionan en Claude, Cursor, VS Code, Codex y más.\n\n## Mejores servidores MCP por categoría\n\n### 🏗️ Herramientas de desarrollo\n- **GitHub MCP Server** (31,867★) — Integración oficial de GitHub para gestionar repos, issues y PRs\n- **Context7** (60,067★) — Documentación de librerías en tiempo real para agentes de codificación\n- **Serena** (27,258★) — Kit de herramientas de búsqueda y edición de código basado en LSP\n\n### 🌐 Automatización de navegador\n- **Chrome DevTools MCP** (48,257★) — Herramienta oficial de Google para depurar navegadores en vivo\n- **Playwright MCP** (35,676★) — Framework de automatización de navegadores de Microsoft\n- **Browser MCP** (6,912★) — Controla tu navegador local real\n\n### ☁️ Cloud y DevOps\n- **AWS MCP Servers** (9,521★) — Kit de herramientas oficial de AWS para operaciones en la nube\n- **Cloudflare MCP** (4,010★) — Toda la plataforma de Cloudflare vía MCP\n- **Terraform MCP** (1,492★) — Integración IaC de HashiCorp\n\n### 🎨 Diseño y medios\n- **Figma Context MCP** (15,552★) — Convierte diseños de Figma a código\n- **ElevenLabs MCP** (1,498★) — Síntesis de voz y clonación de voz\n- **AntV Chart MCP** (4,271★) — Genera más de 25 tipos de gráficos con IA\n\n### 🔍 Búsqueda y datos\n- **Firecrawl MCP** (7,089★) — Web scraping y extracción de datos estructurados\n- **Perplexity MCP** (2,421★) — Búsqueda web en tiempo real con citas\n- **Exa MCP** (4,802★) — Motor de búsqueda neuronal optimizado para IA\n\n### 📁 Productividad\n- **Obsidian MCP** (4,241★) — Conecta la IA a tu base de conocimiento\n- **Notion MCP** (4,560★) — Integración oficial de Notion\n- **Excel MCP** (4,084★) — Manipulación de hojas de cálculo impulsada por IA\n\n## Cómo empezar con MCP\n\n```bash\n# Instala cualquier servidor MCP en Claude Code\nclaude mcp add <nombre> -- npx -y <paquete>\n\n# O pega el comando en los ajustes MCP de Cursor\n```\n\nExplora nuestro [directorio de servidores MCP](/mcp) completo con más de 55 servidores, cada uno con descripciones en 5 idiomas, comandos de instalación y secciones de FAQ.",
+      "fr": "## Qu'est-ce que MCP ?\n\nLe Model Context Protocol (MCP) est une norme ouverte développée par Anthropic qui permet aux agents IA de se connecter directement à des outils externes, des sources de données et des services. Considérez-le comme un port USB-C universel pour l'IA — une connexion standard qui fonctionne sur tous les agents compatibles.\n\n## Pourquoi MCP est important en 2026\n\nMCP est devenu la manière standard d'étendre les capacités de l'IA. Les développeurs n'ont plus besoin de construire des intégrations personnalisées pour chaque outil — ils peuvent utiliser des serveurs MCP qui fonctionnent sur Claude, Cursor, VS Code, Codex et plus.\n\n## Meilleurs serveurs MCP par catégorie\n\n### 🏗️ Outils de développement\n- **GitHub MCP Server** (31,867★) — Intégration officielle GitHub pour gérer dépôts, issues et PRs\n- **Context7** (60,067★) — Documentation de bibliothèques en temps réel pour agents de codage\n- **Serena** (27,258★) — Kit d'outils de recherche et d'édition de code piloté par LSP\n\n### 🌐 Automatisation de navigateur\n- **Chrome DevTools MCP** (48,257★) — Outil officiel Google pour déboguer des navigateurs en direct\n- **Playwright MCP** (35,676★) — Framework d'automatisation de navigateur de Microsoft\n- **Browser MCP** (6,912★) — Contrôlez votre vrai navigateur local\n\n### ☁️ Cloud et DevOps\n- **AWS MCP Servers** (9,521★) — Kit d'outils officiel AWS pour les opérations cloud\n- **Cloudflare MCP** (4,010★) — Toute la plateforme Cloudflare via MCP\n- **Terraform MCP** (1,492★) — Intégration IaC de HashiCorp\n\n### 🎨 Design et médias\n- **Figma Context MCP** (15,552★) — Convertissez les designs Figma en code\n- **ElevenLabs MCP** (1,498★) — Synthèse vocale et clonage de voix\n- **AntV Chart MCP** (4,271★) — Générez plus de 25 types de graphiques avec l'IA\n\n### 🔍 Recherche et données\n- **Firecrawl MCP** (7,089★) — Web scraping et extraction de données structurées\n- **Perplexity MCP** (2,421★) — Recherche web en temps réel avec citations\n- **Exa MCP** (4,802★) — Moteur de recherche neuronal optimisé pour l'IA\n\n### 📁 Productivité\n- **Obsidian MCP** (4,241★) — Connectez l'IA à votre base de connaissances\n- **Notion MCP** (4,560★) — Intégration officielle Notion\n- **Excel MCP** (4,084★) — Manipulation de feuilles de calcul pilotée par l'IA\n\n## Premiers pas avec MCP\n\n```bash\n# Installez n'importe quel serveur MCP dans Claude Code\nclaude mcp add <nom> -- npx -y <paquet>\n\n# Ou collez la commande dans les réglages MCP de Cursor\n```\n\nConsultez notre [répertoire de serveurs MCP](/mcp) complet avec plus de 55 serveurs, chacun avec des descriptions en 5 langues, des commandes d'installation et des sections FAQ."
+    },
+    "author": "Cataito Team",
+    "publishedAt": "2026-08-01",
+    "category": "guide",
+    "tags": [
+      "MCP",
+      "Model Context Protocol",
+      "AI Agents",
+      "Claude",
+      "Cursor",
+      "Tool Integration",
+      "2026"
+    ],
+    "coverImage": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1200&h=630&fit=crop",
+    "readTime": 7
   }
 ]

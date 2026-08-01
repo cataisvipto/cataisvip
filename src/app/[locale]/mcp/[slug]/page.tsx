@@ -38,10 +38,21 @@ export async function generateMetadata({ params }: Props) {
 
   const name = locale === 'zh' && entry.nameZh ? entry.nameZh : entry.name;
   return {
-    title: `${name} - ${t('title')}`,
-    description: getLocalizedDescription(entry, locale),
-    alternates: generateAlternates(`/mcp/${slug}`, locale),
-  };
+      title: `${name} - ${t('title')}`,
+      description: getLocalizedDescription(entry, locale),
+      alternates: generateAlternates(`/mcp/${slug}`, locale),
+      openGraph: {
+        title: `${name} - Cataito MCP`,
+        description: getLocalizedDescription(entry, locale),
+        images: [entry.logo],
+      },
+      twitter: {
+        card: 'summary',
+        title: name,
+        description: getLocalizedDescription(entry, locale),
+        images: [entry.logo],
+      },
+    };
 }
 
 /** Escape HTML special characters */
