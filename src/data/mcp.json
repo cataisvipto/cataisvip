@@ -2426,5 +2426,399 @@
         }
       }
     ]
+  },
+  {
+    "slug": "antv-chart",
+    "name": "AntV Chart MCP",
+    "nameZh": "AntV 图表 MCP",
+    "description": "蚂蚁集团 AntV 团队出品的图表生成 MCP 服务器。基于 @antvis 可视化体系，支持 25+ 种图表类型，让 AI 智能体一句话生成柱状图、折线图、饼图、散点图等专业统计图表。",
+    "descriptionEn": "A chart generation MCP server by Ant Group's AntV team. Built on the @antvis visualization ecosystem, it supports 25+ chart types — bar, line, pie, scatter, and more — letting AI agents generate professional statistical charts with a single sentence.",
+    "descriptionJa": "Ant Group の AntV チームによるチャート生成 MCP サーバー。@antvis ビジュアライゼーションエコシステムを基盤に、棒グラフ、折れ線グラフ、円グラフ、散布図など 25 種類以上のチャートをサポート。AI エージェントが一言でプロフェッショナルな統計チャートを生成できます。",
+    "descriptionEs": "Un servidor MCP de generación de gráficos del equipo AntV de Ant Group. Construido sobre el ecosistema de visualización @antvis, soporta más de 25 tipos de gráficos — barras, líneas, circulares, dispersión y más — permitiendo a los agentes de IA generar gráficos estadísticos profesionales con una sola frase.",
+    "descriptionFr": "Un serveur MCP de génération de graphiques par l'équipe AntV d'Ant Group. Construit sur l'écosystème de visualisation @antvis, il supporte plus de 25 types de graphiques — barres, lignes, camembert, nuages de points et plus — permettant aux agents IA de générer des graphiques statistiques professionnels en une seule phrase.",
+    "developer": "AntV Team (Ant Group)",
+    "developerZh": "蚂蚁集团 AntV 团队",
+    "repo": "antvis/mcp-server-chart",
+    "clients": [
+      "claude",
+      "cursor",
+      "vscode",
+      "codex",
+      "generic"
+    ],
+    "category": "Design",
+    "tags": [
+      "Free",
+      "Open Source"
+    ],
+    "installCommand": "npx -y @antv/mcp-server-chart",
+    "logo": "/logos/mcp/antv-chart.png",
+    "stars": 4271,
+    "featured": false,
+    "faqs": [
+      {
+        "question": {
+          "zh": "AntV 图表 MCP 支持哪些图表类型？",
+          "en": "What chart types does AntV Chart MCP support?",
+          "ja": "AntV Chart MCP はどのようなチャートタイプをサポートしていますか？",
+          "es": "¿Qué tipos de gráficos soporta AntV Chart MCP?",
+          "fr": "Quels types de graphiques AntV Chart MCP supporte-t-il ?"
+        },
+        "answer": {
+          "zh": "支持柱状图、折线图、饼图、散点图、面积图、雷达图、热力图、箱线图、瀑布图、桑基图、关系图、树图等 25+ 种图表类型，覆盖数据分析与可视化的大部分场景。",
+          "en": "It supports 25+ chart types including bar, line, pie, scatter, area, radar, heatmap, box plot, waterfall, Sankey, relation, tree map and more — covering most data analysis and visualization scenarios.",
+          "ja": "棒グラフ、折れ線グラフ、円グラフ、散布図、面グラフ、レーダーチャート、ヒートマップ、箱ひげ図、ウォーターフォール、サンキー図、関係図、ツリーマップなど 25 種類以上のチャートをサポートし、データ分析と可視化のほとんどのシナリオをカバーします。",
+          "es": "Soporta más de 25 tipos de gráficos: barras, líneas, circulares, dispersión, área, radar, mapa de calor, diagrama de caja, cascada, Sankey, relación, mapa de árbol y más — cubriendo la mayoría de escenarios de análisis y visualización de datos.",
+          "fr": "Il supporte plus de 25 types de graphiques : barres, lignes, camembert, nuage de points, aires, radar, heatmap, boîte à moustaches, waterfall, Sankey, relation, arborescence et plus — couvrant la plupart des scénarios d'analyse et de visualisation de données."
+        }
+      },
+      {
+        "question": {
+          "zh": "怎么在 Claude Code 或 Cursor 里安装 AntV 图表 MCP？",
+          "en": "How do I install AntV Chart MCP in Claude Code or Cursor?",
+          "ja": "Claude Code や Cursor に AntV Chart MCP をインストールするには？",
+          "es": "¿Cómo instalo AntV Chart MCP en Claude Code o Cursor?",
+          "fr": "Comment installer AntV Chart MCP dans Claude Code ou Cursor ?"
+        },
+        "answer": {
+          "zh": "运行 npx -y @antv/mcp-server-chart 即可启动。在 Claude Code 中用 claude mcp add antv-chart -- npx -y @antv/mcp-server-chart 注册；在 Cursor 中粘贴到 MCP 设置界面。",
+          "en": "Run npx -y @antv/mcp-server-chart to start. Register it in Claude Code with claude mcp add antv-chart -- npx -y @antv/mcp-server-chart, or paste the command into Cursor's MCP settings.",
+          "ja": "npx -y @antv/mcp-server-chart を実行するだけです。Claude Code では claude mcp add antv-chart -- npx -y @antv/mcp-server-chart で登録、Cursor では MCP 設定にコマンドを貼り付けます。",
+          "es": "Ejecuta npx -y @antv/mcp-server-chart para iniciarlo. Regístralo en Claude Code con claude mcp add antv-chart -- npx -y @antv/mcp-server-chart, o pégalo en los ajustes MCP de Cursor.",
+          "fr": "Exécutez npx -y @antv/mcp-server-chart pour le lancer. Enregistrez-le dans Claude Code avec claude mcp add antv-chart -- npx -y @antv/mcp-server-chart, ou collez la commande dans les réglages MCP de Cursor."
+        }
+      },
+      {
+        "question": {
+          "zh": "AntV 图表 MCP 免费吗？需要 API Key 吗？",
+          "en": "Is AntV Chart MCP free? Does it need an API key?",
+          "ja": "AntV Chart MCP は無料ですか？API キーは必要ですか？",
+          "es": "¿AntV Chart MCP es gratuito? ¿Necesita clave API?",
+          "fr": "AntV Chart MCP est-il gratuit ? Faut-il une clé API ?"
+        },
+        "answer": {
+          "zh": "完全免费开源（MIT 协议），无需任何 API Key，本地运行即可，生成的图表数据不会上传到第三方。",
+          "en": "Completely free and open source (MIT license). No API key needed — it runs entirely locally, and chart data never leaves your machine.",
+          "ja": "完全無料・オープンソース（MIT ライセンス）。API キー不要でローカル実行され、チャートデータが外部に送信されることはありません。",
+          "es": "Completamente gratuito y de código abierto (licencia MIT). No necesita clave API, se ejecuta totalmente en local y los datos de los gráficos nunca salen de tu máquina.",
+          "fr": "Entièrement gratuit et open source (licence MIT). Aucune clé API nécessaire — il s'exécute entièrement en local et les données des graphiques ne quittent jamais votre machine."
+        }
+      }
+    ]
+  },
+  {
+    "slug": "cloudbase-mcp",
+    "name": "CloudBase AI Toolkit",
+    "nameZh": "腾讯云 CloudBase AI 工具包",
+    "description": "腾讯云 CloudBase 出品的 AI 编程后端工具包。为 AI 编码智能体提供数据库读写、用户认证、云函数调用、文件存储等后端能力，让智能体一键部署前后端应用。",
+    "descriptionEn": "An AI coding backend toolkit by Tencent Cloud CloudBase. Provides database read/write, user authentication, cloud function invocation, and file storage for AI coding agents — enabling one-click full-stack deployment.",
+    "descriptionJa": "Tencent Cloud の CloudBase による AI プログラミング用バックエンドツールキット。AI コーディングエージェントにデータベースの読み書き、ユーザー認証、クラウド関数の呼び出し、ファイルストレージなどのバックエンド機能を提供し、ワンクリックでフルスタックアプリをデプロイできます。",
+    "descriptionEs": "Un kit de herramientas backend de IA de Tencent Cloud CloudBase. Proporciona lectura/escritura de bases de datos, autenticación de usuarios, invocación de funciones cloud y almacenamiento de archivos para agentes de codificación de IA — permitiendo despliegue full-stack con un clic.",
+    "descriptionFr": "Une boîte à outils backend pour l'IA de Tencent Cloud CloudBase. Fournit la lecture/écriture de bases de données, l'authentification utilisateur, l'invocation de fonctions cloud et le stockage de fichiers pour les agents de codage IA — permettant un déploiement full-stack en un clic.",
+    "developer": "Tencent Cloud (CloudBase)",
+    "developerZh": "腾讯云 CloudBase",
+    "repo": "TencentCloudBase/CloudBase-AI-Toolkit",
+    "clients": [
+      "claude",
+      "cursor",
+      "vscode",
+      "codex",
+      "generic"
+    ],
+    "category": "Cloud",
+    "tags": [
+      "Free",
+      "Open Source"
+    ],
+    "installCommand": "npm install -g @cloudbase/cloudbase-mcp && cloudbase-mcp",
+    "logo": "/logos/mcp/cloudbase-mcp.png",
+    "stars": 1064,
+    "featured": false,
+    "faqs": [
+      {
+        "question": {
+          "zh": "CloudBase AI Toolkit 能做什么？",
+          "en": "What can CloudBase AI Toolkit do?",
+          "ja": "CloudBase AI Toolkit は何ができますか？",
+          "es": "¿Qué puede hacer CloudBase AI Toolkit?",
+          "fr": "Que peut faire CloudBase AI Toolkit ?"
+        },
+        "answer": {
+          "zh": "为 AI 编码智能体提供完整后端能力：创建和查询数据库集合、管理用户认证与登录、调用云函数、读写文件存储、部署静态网站，让智能体从编码到上线一条龙完成。",
+          "en": "It provides full backend capabilities for AI coding agents: create and query database collections, manage user authentication and login, invoke cloud functions, read/write file storage, and deploy static websites — from coding to production in one workflow.",
+          "ja": "AI コーディングエージェントに完全なバックエンド機能を提供します：データベースコレクションの作成・クエリ、ユーザー認証とログイン管理、クラウド関数の呼び出し、ファイルストレージの読み書き、静的サイトのデプロイまで、コーディングから本番公開までを一貫して行えます。",
+          "es": "Proporciona capacidades backend completas para agentes de codificación de IA: crear y consultar colecciones de base de datos, gestionar autenticación de usuarios, invocar funciones cloud, leer/escribir almacenamiento de archivos y desplegar sitios estáticos — del código a producción en un solo flujo.",
+          "fr": "Il fournit des capacités backend complètes pour les agents de codage IA : créer et interroger des collections de base de données, gérer l'authentification des utilisateurs, invoquer des fonctions cloud, lire/écrire du stockage de fichiers et déployer des sites statiques — du codage à la production en un seul flux."
+        }
+      },
+      {
+        "question": {
+          "zh": "怎么安装 CloudBase MCP？",
+          "en": "How do I install CloudBase MCP?",
+          "ja": "CloudBase MCP のインストール方法は？",
+          "es": "¿Cómo instalo CloudBase MCP?",
+          "fr": "Comment installer CloudBase MCP ?"
+        },
+        "answer": {
+          "zh": "全局安装 CLI：npm install -g @cloudbase/cloudbase-mcp，然后运行 cloudbase-mcp 启动。在 Claude Code 中用 claude mcp add cloudbase -- cloudbase-mcp 注册。首次使用需登录腾讯云账号。",
+          "en": "Install the CLI globally: npm install -g @cloudbase/cloudbase-mcp, then run cloudbase-mcp. Register it in Claude Code with claude mcp add cloudbase -- cloudbase-mcp. You'll need to log in with your Tencent Cloud account on first use.",
+          "ja": "CLI をグローバルインストール：npm install -g @cloudbase/cloudbase-mcp を実行し、cloudbase-mcp で起動します。Claude Code では claude mcp add cloudbase -- cloudbase-mcp で登録。初回利用時は Tencent Cloud アカウントへのログインが必要です。",
+          "es": "Instala la CLI globalmente: npm install -g @cloudbase/cloudbase-mcp, luego ejecuta cloudbase-mcp. Regístralo en Claude Code con claude mcp add cloudbase -- cloudbase-mcp. Necesitarás iniciar sesión con tu cuenta de Tencent Cloud al primer uso.",
+          "fr": "Installez la CLI globalement : npm install -g @cloudbase/cloudbase-mcp, puis exécutez cloudbase-mcp. Enregistrez-le dans Claude Code avec claude mcp add cloudbase -- cloudbase-mcp. Une connexion à votre compte Tencent Cloud sera nécessaire lors de la première utilisation."
+        }
+      },
+      {
+        "question": {
+          "zh": "CloudBase 有免费额度吗？",
+          "en": "Does CloudBase have a free tier?",
+          "ja": "CloudBase に無料枠はありますか？",
+          "es": "¿CloudBase tiene un nivel gratuito?",
+          "fr": "CloudBase a-t-il un niveau gratuit ?"
+        },
+        "answer": {
+          "zh": "CloudBase 提供免费额度，包括一定量的数据库读写次数、云函数调用次数和存储空间，适合个人开发和小型项目。超出部分按量计费。",
+          "en": "CloudBase offers a free tier including a certain amount of database reads/writes, cloud function invocations, and storage — suitable for personal development and small projects. Beyond the free tier, usage is billed per volume.",
+          "ja": "CloudBase には無料枠があり、一定量のデータベース読み書き、クラウド関数呼び出し、ストレージ容量が含まれます。個人開発や小規模プロジェクトに適しています。無料枠を超えた分は従量課金です。",
+          "es": "CloudBase ofrece un nivel gratuito que incluye una cantidad determinada de lecturas/escrituras de base de datos, invocaciones de funciones cloud y almacenamiento — adecuado para desarrollo personal y proyectos pequeños. Más allá del nivel gratuito, el uso se factura por volumen.",
+          "fr": "CloudBase offre un niveau gratuit incluant un certain nombre de lectures/écritures de base de données, d'invocations de fonctions cloud et de stockage — adapté au développement personnel et aux petits projets. Au-delà du niveau gratuit, l'utilisation est facturée au volume."
+        }
+      }
+    ]
+  },
+  {
+    "slug": "minimax-mcp",
+    "name": "MiniMax MCP",
+    "nameZh": "MiniMax MCP",
+    "description": "MiniMax 官方 MCP 服务器。连接 MiniMax 多模态大模型能力：文本生成、语音合成（TTS）、图像生成与视频理解，让 AI 智能体直接调用 MiniMax 的模型矩阵。",
+    "descriptionEn": "The official MiniMax MCP server. Connects to MiniMax's multimodal model capabilities: text generation, text-to-speech (TTS), image generation, and video understanding — letting AI agents directly invoke MiniMax's model matrix.",
+    "descriptionJa": "MiniMax 公式 MCP サーバー。MiniMax のマルチモーダルモデル機能に接続：テキスト生成、音声合成（TTS）、画像生成、動画理解。AI エージェントが MiniMax のモデルマトリックスを直接呼び出せます。",
+    "descriptionEs": "El servidor MCP oficial de MiniMax. Conecta con las capacidades multimodales de MiniMax: generación de texto, texto a voz (TTS), generación de imágenes y comprensión de video — permitiendo a los agentes de IA invocar directamente la matriz de modelos de MiniMax.",
+    "descriptionFr": "Le serveur MCP officiel de MiniMax. Se connecte aux capacités multimodales de MiniMax : génération de texte, synthèse vocale (TTS), génération d'images et compréhension vidéo — permettant aux agents IA d'invoquer directement la matrice de modèles de MiniMax.",
+    "developer": "MiniMax",
+    "developerZh": "MiniMax（稀宇科技）",
+    "repo": "MiniMax-AI/MiniMax-MCP",
+    "clients": [
+      "claude",
+      "cursor",
+      "vscode",
+      "codex",
+      "generic"
+    ],
+    "category": "Media",
+    "tags": [
+      "Free",
+      "API"
+    ],
+    "installCommand": "npx -y @minimax/mcp-server --api-key YOUR_API_KEY",
+    "logo": "/logos/mcp/minimax-mcp.png",
+    "stars": 1547,
+    "featured": false,
+    "faqs": [
+      {
+        "question": {
+          "zh": "MiniMax MCP 能调用哪些能力？",
+          "en": "What capabilities can MiniMax MCP invoke?",
+          "ja": "MiniMax MCP はどのような機能を呼び出せますか？",
+          "es": "¿Qué capacidades puede invocar MiniMax MCP?",
+          "fr": "Quelles capacités MiniMax MCP peut-il invoquer ?"
+        },
+        "answer": {
+          "zh": "MiniMax MCP 集成 MiniMax 全模型矩阵：文本生成（abab 系列）、语音合成（TTS）、图像生成、视频理解。通过一个 MCP 服务器即可获得 MiniMax 的多模态 AI 能力。",
+          "en": "MiniMax MCP integrates MiniMax's full model matrix: text generation (abab series), text-to-speech (TTS), image generation, and video understanding. Access MiniMax's multimodal AI capabilities through a single MCP server.",
+          "ja": "MiniMax MCP は MiniMax の全モデルマトリックスを統合：テキスト生成（abab シリーズ）、音声合成（TTS）、画像生成、動画理解。1つの MCP サーバーで MiniMax のマルチモーダル AI 機能にアクセスできます。",
+          "es": "MiniMax MCP integra la matriz completa de modelos de MiniMax: generación de texto (serie abab), texto a voz (TTS), generación de imágenes y comprensión de video. Accede a las capacidades multimodales de MiniMax a través de un solo servidor MCP.",
+          "fr": "MiniMax MCP intègre la matrice complète des modèles MiniMax : génération de texte (série abab), synthèse vocale (TTS), génération d'images et compréhension vidéo. Accédez aux capacités IA multimodales de MiniMax via un seul serveur MCP."
+        }
+      },
+      {
+        "question": {
+          "zh": "MiniMax MCP 需要 API Key 吗？怎么获取？",
+          "en": "Does MiniMax MCP need an API key? How do I get one?",
+          "ja": "MiniMax MCP に API キーは必要ですか？どう取得しますか？",
+          "es": "¿MiniMax MCP necesita una clave API? ¿Cómo la obtengo?",
+          "fr": "MiniMax MCP a-t-il besoin d'une clé API ? Comment l'obtenir ?"
+        },
+        "answer": {
+          "zh": "需要。在 MiniMax 官网（minimax.io）注册账号并创建 API Key，然后用 --api-key 参数传入：npx -y @minimax/mcp-server --api-key 你的Key。MiniMax 提供免费额度供开发测试。",
+          "en": "Yes. Register at minimax.io, create an API key, and pass it with --api-key: npx -y @minimax/mcp-server --api-key YOUR_KEY. MiniMax offers a free tier for development and testing.",
+          "ja": "必要です。MiniMax の公式サイト（minimax.io）でアカウント登録し、API キーを作成して --api-key パラメータで渡します：npx -y @minimax/mcp-server --api-key YOUR_KEY。MiniMax は開発テスト用の無料枠を提供しています。",
+          "es": "Sí. Regístrate en minimax.io, crea una clave API y pásala con --api-key: npx -y @minimax/mcp-server --api-key TU_CLAVE. MiniMax ofrece un nivel gratuito para desarrollo y pruebas.",
+          "fr": "Oui. Inscrivez-vous sur minimax.io, créez une clé API et passez-la avec --api-key : npx -y @minimax/mcp-server --api-key VOTRE_CLÉ. MiniMax offre un niveau gratuit pour le développement et les tests."
+        }
+      },
+      {
+        "question": {
+          "zh": "MiniMax 的 TTS 和图像生成能力强吗？",
+          "en": "Are MiniMax's TTS and image generation capabilities good?",
+          "ja": "MiniMax の TTS と画像生成能力は優れていますか？",
+          "es": "¿Son buenas las capacidades de TTS y generación de imágenes de MiniMax?",
+          "fr": "Les capacités de TTS et de génération d'images de MiniMax sont-elles bonnes ?"
+        },
+        "answer": {
+          "zh": "MiniMax 的 TTS（语音合成）在中文自然度上表现突出，支持多种音色和情感语气调节；图像生成能力在中文场景理解上也有优势，适合面向中文用户的 AI 应用。",
+          "en": "MiniMax's TTS excels in natural Chinese speech synthesis, supporting multiple voices and emotional tone modulation. Its image generation also shows strength in Chinese context understanding, making it well-suited for Chinese-facing AI applications.",
+          "ja": "MiniMax の TTS（音声合成）は中国語の自然さで優れており、複数の音声と感情表現の調節に対応。画像生成も中国語コンテキストの理解に強みがあり、中国語ユーザー向けの AI アプリケーションに最適です。",
+          "es": "El TTS de MiniMax destaca en la naturalidad del habla china, con múltiples voces y modulación de tono emocional. Su generación de imágenes también muestra fortaleza en la comprensión de contexto chino, ideal para aplicaciones de IA orientadas a usuarios chinos.",
+          "fr": "Le TTS de MiniMax excelle dans le naturel de la synthèse vocale chinoise, prenant en charge plusieurs voix et la modulation émotionnelle. Sa génération d'images montre également des forces dans la compréhension du contexte chinois, idéale pour les applications IA destinées aux utilisateurs chinois."
+        }
+      }
+    ]
+  },
+  {
+    "slug": "obsidian-mcp",
+    "name": "Obsidian MCP",
+    "nameZh": "Obsidian MCP",
+    "description": "连接 Obsidian 笔记库的 MCP 服务器。通过 Obsidian 的 REST API 社区插件，让 AI 智能体读取、搜索、创建和编辑笔记，在知识库中检索信息。",
+    "descriptionEn": "An MCP server that connects to your Obsidian vault. Leveraging the Obsidian REST API community plugin, it lets AI agents read, search, create, and edit notes — giving them access to your knowledge base.",
+    "descriptionJa": "Obsidian のノート保管庫に接続する MCP サーバー。Obsidian の REST API コミュニティプラグインを活用し、AI エージェントがノートの読み取り、検索、作成、編集を実行。ナレッジベースへのアクセスを提供します。",
+    "descriptionEs": "Un servidor MCP que se conecta a tu bóveda de Obsidian. Usando el plugin comunitario de la API REST de Obsidian, permite a los agentes de IA leer, buscar, crear y editar notas — dándoles acceso a tu base de conocimiento.",
+    "descriptionFr": "Un serveur MCP qui se connecte à votre coffre Obsidian. En utilisant le plugin communautaire de l'API REST d'Obsidian, il permet aux agents IA de lire, rechercher, créer et modifier des notes — leur donnant accès à votre base de connaissances.",
+    "developer": "Markus Pfundstein",
+    "developerZh": "Markus Pfundstein",
+    "repo": "MarkusPfundstein/mcp-obsidian",
+    "clients": [
+      "claude",
+      "cursor",
+      "vscode",
+      "codex",
+      "generic"
+    ],
+    "category": "Productivity",
+    "tags": [
+      "Free",
+      "Open Source"
+    ],
+    "installCommand": "npx -y mcp-obsidian --vault /path/to/your/vault",
+    "logo": "/logos/mcp/obsidian-mcp.png",
+    "stars": 4241,
+    "featured": false,
+    "faqs": [
+      {
+        "question": {
+          "zh": "Obsidian MCP 需要什么前提条件？",
+          "en": "What are the prerequisites for Obsidian MCP?",
+          "ja": "Obsidian MCP の前提条件は何ですか？",
+          "es": "¿Cuáles son los requisitos previos para Obsidian MCP?",
+          "fr": "Quels sont les prérequis pour Obsidian MCP ?"
+        },
+        "answer": {
+          "zh": "需要安装 Obsidian 的社区插件「Obsidian REST API」（obsidian://show-plugin?id=obsidian-rest-api），启动后插件会在本地开启一个 HTTP 接口，MCP 服务器通过该接口与你的笔记库通信。",
+          "en": "You need to install the Obsidian community plugin 'Obsidian REST API' (obsidian://show-plugin?id=obsidian-rest-api). Once enabled, the plugin opens a local HTTP endpoint that the MCP server uses to communicate with your vault.",
+          "ja": "Obsidian のコミュニティプラグイン「Obsidian REST API」（obsidian://show-plugin?id=obsidian-rest-api）のインストールが必要です。有効化すると、プラグインがローカル HTTP エンドポイントを開き、MCP サーバーがそれを介してノート保管庫と通信します。",
+          "es": "Necesitas instalar el plugin comunitario de Obsidian 'Obsidian REST API' (obsidian://show-plugin?id=obsidian-rest-api). Una vez activado, el plugin abre un endpoint HTTP local que el servidor MCP usa para comunicarse con tu bóveda.",
+          "fr": "Vous devez installer le plugin communautaire Obsidian 'Obsidian REST API' (obsidian://show-plugin?id=obsidian-rest-api). Une fois activé, le plugin ouvre un point de terminaison HTTP local que le serveur MCP utilise pour communiquer avec votre coffre."
+        }
+      },
+      {
+        "question": {
+          "zh": "Obsidian MCP 能做什么？",
+          "en": "What can Obsidian MCP do?",
+          "ja": "Obsidian MCP は何ができますか？",
+          "es": "¿Qué puede hacer Obsidian MCP?",
+          "fr": "Que peut faire Obsidian MCP ?"
+        },
+        "answer": {
+          "zh": "AI 智能体可以用它搜索笔记库、读取指定笔记内容、创建新笔记、编辑已有笔记。适用于让 AI 在写作时参考你的知识库、自动整理笔记、或基于现有笔记生成新内容。",
+          "en": "AI agents can search your vault, read specific notes, create new notes, and edit existing ones. Useful for letting AI reference your knowledge base while writing, auto-organizing notes, or generating new content based on existing notes.",
+          "ja": "AI エージェントはノート保管庫の検索、特定ノートの読み取り、新規ノートの作成、既存ノートの編集が可能です。AI にナレッジベースを参照させながらの執筆、ノートの自動整理、既存ノートに基づく新規コンテンツ生成などに役立ちます。",
+          "es": "Los agentes de IA pueden buscar en tu bóveda, leer notas específicas, crear nuevas notas y editar las existentes. Útil para que la IA consulte tu base de conocimiento mientras escribe, organice notas automáticamente o genere contenido nuevo basado en notas existentes.",
+          "fr": "Les agents IA peuvent rechercher dans votre coffre, lire des notes spécifiques, créer de nouvelles notes et modifier les existantes. Utile pour laisser l'IA consulter votre base de connaissances pendant l'écriture, organiser automatiquement des notes ou générer du contenu à partir de notes existantes."
+        }
+      },
+      {
+        "question": {
+          "zh": "Obsidian MCP 安全吗？会修改我的笔记吗？",
+          "en": "Is Obsidian MCP safe? Will it modify my notes?",
+          "ja": "Obsidian MCP は安全ですか？ノートを変更しますか？",
+          "es": "¿Obsidian MCP es seguro? ¿Modificará mis notas?",
+          "fr": "Obsidian MCP est-il sûr ? Va-t-il modifier mes notes ?"
+        },
+        "answer": {
+          "zh": "安全。MCP 服务器只在本地运行，通过 REST API 插件与你的 Obsidian 实例通信，全程无外部网络请求。AI 智能体只有在被明确指示时才会创建或修改笔记，你可以随时审查其操作。建议定期备份笔记库。",
+          "en": "Safe. The MCP server runs locally and communicates with your Obsidian instance via the REST API plugin — no external network requests. AI agents only create or modify notes when explicitly instructed, and you can review all actions. Regular vault backups are recommended.",
+          "ja": "安全です。MCP サーバーはローカルで動作し、REST API プラグインを介して Obsidian インスタンスと通信するため、外部へのネットワークリクエストはありません。AI エージェントは明示的に指示された場合のみノートを作成・変更し、全ての操作を確認できます。定期的なバックアップをお勧めします。",
+          "es": "Seguro. El servidor MCP se ejecuta en local y se comunica con tu instancia de Obsidian a través del plugin REST API — sin peticiones externas a la red. Los agentes de IA solo crean o modifican notas cuando se les indica explícitamente, y puedes revisar todas las acciones. Se recomienda hacer copias de seguridad periódicas de la bóveda.",
+          "fr": "Sûr. Le serveur MCP s'exécute localement et communique avec votre instance Obsidian via le plugin REST API — aucune requête réseau externe. Les agents IA ne créent ou modifient des notes que sur instruction explicite, et vous pouvez examiner toutes leurs actions. Une sauvegarde régulière du coffre est recommandée."
+        }
+      }
+    ]
+  },
+  {
+    "slug": "whatsapp-mcp",
+    "name": "WhatsApp MCP",
+    "nameZh": "WhatsApp MCP",
+    "description": "让 AI 智能体收发 WhatsApp 消息的 MCP 服务器。通过 WhatsApp Web 接口连接，支持发送文本消息、读取消息历史、管理联系人，实现 AI 驱动的 WhatsApp 自动化。",
+    "descriptionEn": "An MCP server that lets AI agents send and receive WhatsApp messages. Connects via WhatsApp Web, supporting text message sending, reading message history, and contact management — enabling AI-powered WhatsApp automation.",
+    "descriptionJa": "AI エージェントが WhatsApp メッセージを送受信できる MCP サーバー。WhatsApp Web インターフェースを介して接続し、テキストメッセージの送信、メッセージ履歴の読み取り、連絡先管理をサポート。AI 駆動の WhatsApp 自動化を実現します。",
+    "descriptionEs": "Un servidor MCP que permite a los agentes de IA enviar y recibir mensajes de WhatsApp. Se conecta a través de WhatsApp Web, permitiendo enviar mensajes de texto, leer el historial de mensajes y gestionar contactos — automatización de WhatsApp impulsada por IA.",
+    "descriptionFr": "Un serveur MCP qui permet aux agents IA d'envoyer et de recevoir des messages WhatsApp. Se connecte via WhatsApp Web, prenant en charge l'envoi de messages texte, la lecture de l'historique des messages et la gestion des contacts — une automatisation WhatsApp pilotée par l'IA.",
+    "developer": "Lukas Harries",
+    "developerZh": "Lukas Harries",
+    "repo": "lharries/whatsapp-mcp",
+    "clients": [
+      "claude",
+      "cursor",
+      "vscode",
+      "generic"
+    ],
+    "category": "Communication",
+    "tags": [
+      "Free",
+      "Open Source"
+    ],
+    "installCommand": "npx -y whatsapp-mcp",
+    "logo": "/logos/mcp/whatsapp-mcp.png",
+    "stars": 5969,
+    "featured": false,
+    "faqs": [
+      {
+        "question": {
+          "zh": "WhatsApp MCP 怎么工作的？安全吗？",
+          "en": "How does WhatsApp MCP work? Is it safe?",
+          "ja": "WhatsApp MCP はどのように動作しますか？安全ですか？",
+          "es": "¿Cómo funciona WhatsApp MCP? ¿Es seguro?",
+          "fr": "Comment fonctionne WhatsApp MCP ? Est-ce sûr ?"
+        },
+        "answer": {
+          "zh": "它通过 WhatsApp Web 协议连接，首次启动时需扫描二维码登录你的 WhatsApp。MCP 服务器在本地运行，消息不会通过第三方服务器中转。建议使用专用 WhatsApp 账号，避免个人账号被自动化操作影响。",
+          "en": "It connects via the WhatsApp Web protocol. On first launch, you'll need to scan a QR code to link your WhatsApp account. The MCP server runs locally and messages are not routed through third-party servers. Using a dedicated WhatsApp account is recommended to avoid affecting your personal account.",
+          "ja": "WhatsApp Web プロトコルを介して接続します。初回起動時に QR コードをスキャンして WhatsApp アカウントをリンクします。MCP サーバーはローカルで動作し、メッセージがサードパーティのサーバーを経由することはありません。個人アカウントへの影響を避けるため、専用の WhatsApp アカウントの使用をお勧めします。",
+          "es": "Se conecta mediante el protocolo WhatsApp Web. Al iniciar por primera vez, deberás escanear un código QR para vincular tu cuenta de WhatsApp. El servidor MCP se ejecuta en local y los mensajes no pasan por servidores de terceros. Se recomienda usar una cuenta de WhatsApp dedicada para evitar afectar tu cuenta personal.",
+          "fr": "Il se connecte via le protocole WhatsApp Web. Au premier lancement, vous devrez scanner un code QR pour lier votre compte WhatsApp. Le serveur MCP s'exécute localement et les messages ne transitent pas par des serveurs tiers. Il est recommandé d'utiliser un compte WhatsApp dédié pour éviter d'affecter votre compte personnel."
+        }
+      },
+      {
+        "question": {
+          "zh": "WhatsApp MCP 能批量发消息吗？",
+          "en": "Can WhatsApp MCP send bulk messages?",
+          "ja": "WhatsApp MCP は一括メッセージ送信ができますか？",
+          "es": "¿Puede WhatsApp MCP enviar mensajes masivos?",
+          "fr": "WhatsApp MCP peut-il envoyer des messages en masse ?"
+        },
+        "answer": {
+          "zh": "支持向多个联系人依次发送个性化消息，但需注意 WhatsApp 有反垃圾机制，短时间内大量发送可能导致账号被限制。建议合理控制发送频率，避免触发风控。",
+          "en": "It supports sending personalized messages to multiple contacts sequentially. However, WhatsApp has anti-spam mechanisms — sending too many messages in a short time may result in account restrictions. Control your sending frequency to avoid triggering rate limits.",
+          "ja": "複数の連絡先に個別メッセージを順次送信できます。ただし WhatsApp にはスパム対策機能があり、短時間に大量送信するとアカウント制限を受ける可能性があります。レート制限を避けるために送信頻度を適切に制御してください。",
+          "es": "Soporta el envío de mensajes personalizados a múltiples contactos de forma secuencial. Sin embargo, WhatsApp tiene mecanismos antispam — enviar demasiados mensajes en poco tiempo puede resultar en restricciones de la cuenta. Controla la frecuencia de envío para evitar límites de tasa.",
+          "fr": "Il supporte l'envoi de messages personnalisés à plusieurs contacts de manière séquentielle. Cependant, WhatsApp dispose de mécanismes anti-spam — envoyer trop de messages en peu de temps peut entraîner des restrictions de compte. Contrôlez votre fréquence d'envoi pour éviter les limitations de débit."
+        }
+      },
+      {
+        "question": {
+          "zh": "WhatsApp MCP 能读聊天记录吗？",
+          "en": "Can WhatsApp MCP read chat history?",
+          "ja": "WhatsApp MCP はチャット履歴を読めますか？",
+          "es": "¿Puede WhatsApp MCP leer el historial de chats?",
+          "fr": "WhatsApp MCP peut-il lire l'historique des conversations ?"
+        },
+        "answer": {
+          "zh": "能。它可以读取最近的聊天消息列表和指定对话的消息内容，方便 AI 智能体理解上下文后进行回复或分析。但只读取你 WhatsApp 中已有的消息，不会访问端到端加密的云端备份。",
+          "en": "Yes. It can read recent chat message lists and the content of specific conversations, allowing AI agents to understand context before replying or analyzing. It only reads messages already available in your WhatsApp — it does not access end-to-end encrypted cloud backups.",
+          "ja": "はい。最近のチャットメッセージ一覧と特定の会話のメッセージ内容を読み取れます。AI エージェントがコンテキストを理解してから返信や分析を行えます。ただし、既に WhatsApp 内にあるメッセージのみを読み取り、エンドツーエンド暗号化されたクラウドバックアップにはアクセスしません。",
+          "es": "Sí. Puede leer listas de mensajes recientes y el contenido de conversaciones específicas, permitiendo a los agentes de IA entender el contexto antes de responder o analizar. Solo lee mensajes ya disponibles en tu WhatsApp — no accede a copias de seguridad en la nube cifradas de extremo a extremo.",
+          "fr": "Oui. Il peut lire les listes de messages récents et le contenu de conversations spécifiques, permettant aux agents IA de comprendre le contexte avant de répondre ou d'analyser. Il lit uniquement les messages déjà disponibles dans votre WhatsApp — il n'accède pas aux sauvegardes cloud chiffrées de bout en bout."
+        }
+      }
+    ]
   }
 ]
