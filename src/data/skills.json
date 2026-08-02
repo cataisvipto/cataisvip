@@ -2245,5 +2245,394 @@
         }
       }
     ]
+  },
+  {
+    "slug": "huashu-design",
+    "name": "Huashu Design",
+    "nameZh": "Huashu Design",
+    "description": "生成 HTML、原型、可编辑 PPT、动画，以 HTML 为中心的创意设计",
+    "descriptionEn": "Generate HTML, prototypes, editable PPTs, animations",
+    "descriptionJa": "HTML、プロトタイプ、編集可能なPPT、アニメーションを生成",
+    "descriptionEs": "Genera HTML, prototipos, PPT editables, animaciones",
+    "descriptionFr": "G?n?rez HTML, prototypes, PPT modifiables, animations",
+    "developer": "alchaincyf",
+    "developerZh": "alchaincyf",
+    "repo": "alchaincyf/huashu-design",
+    "agents": [
+      "claude",
+      "cursor",
+      "codex",
+      "generic"
+    ],
+    "category": "Design",
+    "tags": [
+      "Free",
+      "Open Source"
+    ],
+    "installCommand": "npx @anthropic-ai/sdk add huashu-design",
+    "logo": "/logos/skills/huashu-design.png",
+    "stars": 22331,
+    "featured": false,
+    "faqs": [
+      {
+        "question": {
+          "en": "How do I install this skill?",
+          "zh": "如何安装这个技能？",
+          "ja": "このスキルをインストールするには？",
+          "es": "?C?mo instalo este skill?",
+          "fr": "Comment installer ce skill ?"
+        },
+        "answer": {
+          "en": "Run the install command in your agent terminal.",
+          "zh": "在智能体的终端中运行安装命令。",
+          "ja": "エージェントのターミナルでインストールコマンドを実行します。",
+          "es": "Ejecuta el comando de instalaci?n en la terminal de tu agente.",
+          "fr": "Exécutez la commande d'installation dans le terminal de votre agent."
+        }
+      },
+      {
+        "question": {
+          "en": "Which agents support this skill?",
+          "zh": "哪些智能体支持这个技能？",
+          "ja": "どのエージェントがこのスキルをサポートしていますか？",
+          "es": "?Qu? agentes son compatibles con este skill?",
+          "fr": "Quels agents supportent ce skill ?"
+        },
+        "answer": {
+          "en": "Claude Code, Cursor, Codex, and other MCP-compatible agents.",
+          "zh": "Claude Code銆丆ursor銆丆odex 和其他 MCP 兼容的智能体。",
+          "ja": "Claude Code銆丆ursor銆丆odex銆佷お傛ひその他のMCP互換エージェント銆?",
+          "es": "Claude Code, Cursor, Codex y otros agentes compatibles con MCP.",
+          "fr": "Claude Code, Cursor, Codex et autres agents compatibles MCP."
+        }
+      },
+      {
+        "question": {
+          "en": "Is this skill free?",
+          "zh": "这个技能免费吗？",
+          "ja": "このスキルは無料ですか？",
+          "es": "?Este skill es gratuito?",
+          "fr": "Ce skill est-il gratuit ?"
+        },
+        "answer": {
+          "en": "Yes, it is free and open source.",
+          "zh": "是的，免费且开源。",
+          "ja": "はい、無料でオープンソースです。",
+          "es": "S?, es gratuito y de c?digo abierto.",
+          "fr": "Oui, il est gratuit et open source."
+        }
+      }
+    ]
+  },
+  {
+    "slug": "auto-redbook-skills",
+    "name": "Auto Redbook Skills",
+    "nameZh": "Auto Redbook Skills",
+    "description": "自动写文案、长文章、生成配图，小红书内容创作自动化",
+    "descriptionEn": "Auto copywriting, long-form articles, image generation",
+    "descriptionJa": "自動コピーライティング、長文記事、画像生成",
+    "descriptionEs": "Redacci?n autom?tica, art?culos largos, generaci?n de im?genes",
+    "descriptionFr": "R?daction automatique, articles longs, g?n?ration d'images",
+    "developer": "comeonzhj",
+    "developerZh": "comeonzhj",
+    "repo": "comeonzhj/Auto-Redbook-Skills",
+    "agents": [
+      "claude",
+      "cursor",
+      "codex",
+      "generic"
+    ],
+    "category": "Writing",
+    "tags": [
+      "Free",
+      "Open Source"
+    ],
+    "installCommand": "npx @anthropic-ai/sdk add auto-redbook-skills",
+    "logo": "/logos/skills/auto-redbook-skills.png",
+    "stars": 2083,
+    "featured": false,
+    "faqs": [
+      {
+        "question": {
+          "en": "How do I install this skill?",
+          "zh": "如何安装这个技能？",
+          "ja": "このスキルをインストールするには？",
+          "es": "?C?mo instalo este skill?",
+          "fr": "Comment installer ce skill ?"
+        },
+        "answer": {
+          "en": "Run the install command in your agent terminal.",
+          "zh": "在智能体的终端中运行安装命令。",
+          "ja": "エージェントのターミナルでインストールコマンドを実行します。",
+          "es": "Ejecuta el comando de instalaci?n en la terminal de tu agente.",
+          "fr": "Exécutez la commande d'installation dans le terminal de votre agent."
+        }
+      },
+      {
+        "question": {
+          "en": "Which agents support this skill?",
+          "zh": "哪些智能体支持这个技能？",
+          "ja": "どのエージェントがこのスキルをサポートしていますか？",
+          "es": "?Qu? agentes son compatibles con este skill?",
+          "fr": "Quels agents supportent ce skill ?"
+        },
+        "answer": {
+          "en": "Claude Code, Cursor, Codex, and other MCP-compatible agents.",
+          "zh": "Claude Code銆丆ursor銆丆odex 和其他 MCP 兼容的智能体。",
+          "ja": "Claude Code銆丆ursor銆丆odex銆佷お傛ひその他のMCP互換エージェント銆?",
+          "es": "Claude Code, Cursor, Codex y otros agentes compatibles con MCP.",
+          "fr": "Claude Code, Cursor, Codex et autres agents compatibles MCP."
+        }
+      },
+      {
+        "question": {
+          "en": "Is this skill free?",
+          "zh": "这个技能免费吗？",
+          "ja": "このスキルは無料ですか？",
+          "es": "?Este skill es gratuito?",
+          "fr": "Ce skill est-il gratuit ?"
+        },
+        "answer": {
+          "en": "Yes, it is free and open source.",
+          "zh": "是的，免费且开源。",
+          "ja": "はい、無料でオープンソースです。",
+          "es": "S?, es gratuito y de c?digo abierto.",
+          "fr": "Oui, il est gratuit et open source."
+        }
+      }
+    ]
+  },
+  {
+    "slug": "nuwa-skill",
+    "name": "Nuwa Skill",
+    "nameZh": "Nuwa Skill",
+    "description": "固定文风，统一账号表达风格，让 AI 输出保持品牌一致性",
+    "descriptionEn": "Fix writing style, unify brand voice across accounts",
+    "descriptionJa": "文体を固定し、アカウント全体でブランドボイスを統一",
+    "descriptionEs": "Fija el estilo de escritura, unifica la voz de marca entre cuentas",
+    "descriptionFr": "Fixez le style d'?criture, unifiez la voix de marque entre les comptes",
+    "developer": "alchaincyf",
+    "developerZh": "alchaincyf",
+    "repo": "alchaincyf/nuwa-skill",
+    "agents": [
+      "claude",
+      "cursor",
+      "codex",
+      "generic"
+    ],
+    "category": "Writing",
+    "tags": [
+      "Free",
+      "Open Source"
+    ],
+    "installCommand": "npx @anthropic-ai/sdk add nuwa-skill",
+    "logo": "/logos/skills/nuwa-skill.png",
+    "stars": 29478,
+    "featured": false,
+    "faqs": [
+      {
+        "question": {
+          "en": "How do I install this skill?",
+          "zh": "如何安装这个技能？",
+          "ja": "このスキルをインストールするには？",
+          "es": "?C?mo instalo este skill?",
+          "fr": "Comment installer ce skill ?"
+        },
+        "answer": {
+          "en": "Run the install command in your agent terminal.",
+          "zh": "在智能体的终端中运行安装命令。",
+          "ja": "エージェントのターミナルでインストールコマンドを実行します。",
+          "es": "Ejecuta el comando de instalaci?n en la terminal de tu agente.",
+          "fr": "Exécutez la commande d'installation dans le terminal de votre agent."
+        }
+      },
+      {
+        "question": {
+          "en": "Which agents support this skill?",
+          "zh": "哪些智能体支持这个技能？",
+          "ja": "どのエージェントがこのスキルをサポートしていますか？",
+          "es": "?Qu? agentes son compatibles con este skill?",
+          "fr": "Quels agents supportent ce skill ?"
+        },
+        "answer": {
+          "en": "Claude Code, Cursor, Codex, and other MCP-compatible agents.",
+          "zh": "Claude Code銆丆ursor銆丆odex 和其他 MCP 兼容的智能体。",
+          "ja": "Claude Code銆丆ursor銆丆odex銆佷お傛ひその他のMCP互換エージェント銆?",
+          "es": "Claude Code, Cursor, Codex y otros agentes compatibles con MCP.",
+          "fr": "Claude Code, Cursor, Codex et autres agents compatibles MCP."
+        }
+      },
+      {
+        "question": {
+          "en": "Is this skill free?",
+          "zh": "这个技能免费吗？",
+          "ja": "このスキルは無料ですか？",
+          "es": "?Este skill es gratuito?",
+          "fr": "Ce skill est-il gratuit ?"
+        },
+        "answer": {
+          "en": "Yes, it is free and open source.",
+          "zh": "是的，免费且开源。",
+          "ja": "はい、無料でオープンソースです。",
+          "es": "S?, es gratuito y de c?digo abierto.",
+          "fr": "Oui, il est gratuit et open source."
+        }
+      }
+    ]
+  },
+  {
+    "slug": "guizang-social-card",
+    "name": "Guizang Social Card",
+    "nameZh": "Guizang Social Card",
+    "description": "生成图文卡片和封面图，支持小红书轮播图、公众号封面等",
+    "descriptionEn": "Generate social media cards and cover images",
+    "descriptionJa": "ソーシャルメディアカードとカバー画像を生成",
+    "descriptionEs": "Genera tarjetas sociales e im?genes de portada",
+    "descriptionFr": "G?n?rez des cartes sociales et des images de couverture",
+    "developer": "op7418",
+    "developerZh": "op7418",
+    "repo": "op7418/guizang-social-card-skill",
+    "agents": [
+      "claude",
+      "cursor",
+      "codex",
+      "generic"
+    ],
+    "category": "Design",
+    "tags": [
+      "Free",
+      "Open Source"
+    ],
+    "installCommand": "npx @anthropic-ai/sdk add guizang-social-card",
+    "logo": "/logos/skills/guizang-social-card.png",
+    "stars": 5794,
+    "featured": false,
+    "faqs": [
+      {
+        "question": {
+          "en": "How do I install this skill?",
+          "zh": "如何安装这个技能？",
+          "ja": "このスキルをインストールするには？",
+          "es": "?C?mo instalo este skill?",
+          "fr": "Comment installer ce skill ?"
+        },
+        "answer": {
+          "en": "Run the install command in your agent terminal.",
+          "zh": "在智能体的终端中运行安装命令。",
+          "ja": "エージェントのターミナルでインストールコマンドを実行します。",
+          "es": "Ejecuta el comando de instalaci?n en la terminal de tu agente.",
+          "fr": "Exécutez la commande d'installation dans le terminal de votre agent."
+        }
+      },
+      {
+        "question": {
+          "en": "Which agents support this skill?",
+          "zh": "哪些智能体支持这个技能？",
+          "ja": "どのエージェントがこのスキルをサポートしていますか？",
+          "es": "?Qu? agentes son compatibles con este skill?",
+          "fr": "Quels agents supportent ce skill ?"
+        },
+        "answer": {
+          "en": "Claude Code, Cursor, Codex, and other MCP-compatible agents.",
+          "zh": "Claude Code銆丆ursor銆丆odex 和其他 MCP 兼容的智能体。",
+          "ja": "Claude Code銆丆ursor銆丆odex銆佷お傛ひその他のMCP互換エージェント銆?",
+          "es": "Claude Code, Cursor, Codex y otros agentes compatibles con MCP.",
+          "fr": "Claude Code, Cursor, Codex et autres agents compatibles MCP."
+        }
+      },
+      {
+        "question": {
+          "en": "Is this skill free?",
+          "zh": "这个技能免费吗？",
+          "ja": "このスキルは無料ですか？",
+          "es": "?Este skill es gratuito?",
+          "fr": "Ce skill est-il gratuit ?"
+        },
+        "answer": {
+          "en": "Yes, it is free and open source.",
+          "zh": "是的，免费且开源。",
+          "ja": "はい、無料でオープンソースです。",
+          "es": "S?, es gratuito y de c?digo abierto.",
+          "fr": "Oui, il est gratuit et open source."
+        }
+      }
+    ]
+  },
+  {
+    "slug": "social-auto-upload",
+    "name": "Social Auto Upload",
+    "nameZh": "Social Auto Upload",
+    "description": "多平台内容自动上传，一键发布到各大社交平台",
+    "descriptionEn": "Multi-platform auto-upload, one-click publishing",
+    "descriptionJa": "マルチプラットフォーム自動アップロード、ワンクリック公開",
+    "descriptionEs": "Auto-subida multi-plataforma, publicaci?n con un clic",
+    "descriptionFr": "T?l?chargement automatique multi-plateforme, publication en un clic",
+    "developer": "Community",
+    "developerZh": "社区",
+    "repo": "skills.sh",
+    "agents": [
+      "claude",
+      "cursor",
+      "codex",
+      "generic"
+    ],
+    "category": "Platform",
+    "tags": [
+      "Free"
+    ],
+    "installCommand": "npx @anthropic-ai/sdk add social-auto-upload",
+    "logo": "/logos/skills/social-auto-upload.png",
+    "stars": 5000,
+    "featured": false,
+    "faqs": [
+      {
+        "question": {
+          "en": "How do I install this skill?",
+          "zh": "如何安装这个技能？",
+          "ja": "このスキルをインストールするには？",
+          "es": "?C?mo instalo este skill?",
+          "fr": "Comment installer ce skill ?"
+        },
+        "answer": {
+          "en": "Run the install command in your agent terminal.",
+          "zh": "在智能体的终端中运行安装命令。",
+          "ja": "エージェントのターミナルでインストールコマンドを実行します。",
+          "es": "Ejecuta el comando de instalaci?n en la terminal de tu agente.",
+          "fr": "Exécutez la commande d'installation dans le terminal de votre agent."
+        }
+      },
+      {
+        "question": {
+          "en": "Which agents support this skill?",
+          "zh": "哪些智能体支持这个技能？",
+          "ja": "どのエージェントがこのスキルをサポートしていますか？",
+          "es": "?Qu? agentes son compatibles con este skill?",
+          "fr": "Quels agents supportent ce skill ?"
+        },
+        "answer": {
+          "en": "Claude Code, Cursor, Codex, and other MCP-compatible agents.",
+          "zh": "Claude Code銆丆ursor銆丆odex 和其他 MCP 兼容的智能体。",
+          "ja": "Claude Code銆丆ursor銆丆odex銆佷お傛ひその他のMCP互換エージェント銆?",
+          "es": "Claude Code, Cursor, Codex y otros agentes compatibles con MCP.",
+          "fr": "Claude Code, Cursor, Codex et autres agents compatibles MCP."
+        }
+      },
+      {
+        "question": {
+          "en": "Is this skill free?",
+          "zh": "这个技能免费吗？",
+          "ja": "このスキルは無料ですか？",
+          "es": "?Este skill es gratuito?",
+          "fr": "Ce skill est-il gratuit ?"
+        },
+        "answer": {
+          "en": "Yes, it is free and open source.",
+          "zh": "是的，免费且开源。",
+          "ja": "はい、無料でオープンソースです。",
+          "es": "S?, es gratuito y de c?digo abierto.",
+          "fr": "Oui, il est gratuit et open source."
+        }
+      }
+    ]
   }
 ]
