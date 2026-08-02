@@ -51,6 +51,10 @@ AGENTS.md
 CLAUDE.md
 # Qoder AI 代理内部数据
 .qoder/
+# Lighthouse 报告
+*.report.html
+*.report.json
+
 # 其他内部约定：以 _internal/ 存放的任何文件、*.local.* 文件
 _internal/
 *.local.*
