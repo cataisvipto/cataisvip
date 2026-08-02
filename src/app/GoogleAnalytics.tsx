@@ -4,10 +4,10 @@ export default function GoogleAnalytics() {
   return (
     <>
       <Script
-        src={`https://www.googletagmanager.com/gtag/js?id=G-7GGBJ0HKY2`}
-        strategy="lazyOnload"
-      />
-      <Script id="google-analytics" strategy="lazyOnload">
+              src={`https://www.googletagmanager.com/gtag/js?id=G-7GGBJ0HKY2`}
+              strategy="afterInteractive"
+            />
+            <Script id="google-analytics" strategy="afterInteractive">
         {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
