@@ -362,17 +362,19 @@ export default function SkillDetailClient({ skill, locale, readmeInstallHtml, de
             </div>
 
             {/* Action Buttons */}
-            <div className="px-8 pb-8 flex flex-wrap gap-3">
-              <a
-                href={`https://github.com/${skill.repo}`}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-indigo-500 to-cyan-500 text-white font-medium rounded-full hover:opacity-90 transition shadow-md"
-              >
-                <GitFork className="w-4 h-4" />
-                {tSkills('viewOnGitHub')}
-                <ExternalLink className="w-4 h-4" />
-              </a>
+                        <div className="px-8 pb-8 flex flex-wrap gap-3">
+                          {skill.repo && skill.repo.includes('/') && (
+                          <a
+                            href={`https://github.com/${skill.repo}`}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-indigo-500 to-cyan-500 text-white font-medium rounded-full hover:opacity-90 transition shadow-md"
+                          >
+                            <GitFork className="w-4 h-4" />
+                            {tSkills('viewOnGitHub')}
+                            <ExternalLink className="w-4 h-4" />
+                          </a>
+                          )}
               <Link
                 href="/skills"
                 className="inline-flex items-center gap-2 px-6 py-3 border border-[var(--card-border)] text-[var(--foreground)] font-medium rounded-full hover:border-[var(--primary)] hover:text-[var(--primary)] transition"
