@@ -6,7 +6,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Breadcrumb from '@/components/Breadcrumb';
 import { Tool, PLATFORM_META, getLocalizedDescription } from '@/components/ToolCard';
-import { ExternalLink, Globe, Star, Building2, CheckCircle, XCircle, Lightbulb, DollarSign, Zap, Info, Share2, Link2, Check, Newspaper, BookOpen, Clipboard, LayoutGrid, Award, MonitorSmartphone } from 'lucide-react';
+import { ExternalLink, Globe, Star, Building2, CheckCircle, XCircle, Lightbulb, DollarSign, Zap, Info, Share2, Link2, Check, Newspaper, BookOpen, Clipboard, LayoutGrid, Award, MonitorSmartphone, ChevronDown } from 'lucide-react';
 import { TwitterIcon, LinkedinIcon, FacebookIcon } from '@/components/SocialIcons';
 import Newsletter from '@/components/Newsletter';
 import LogoTile from '@/components/LogoTile';
@@ -495,25 +495,25 @@ export default function ToolDetailClient({ tool, locale, details: detailsProp, s
             </>
           )}
 
-          {/* Tutorial Section - redesigned for clarity and copy-ability */}
-          {(details as Record<string, unknown>)?.tutorial && (
-            <div className="bg-[var(--card-bg)] rounded-2xl border border-[var(--card-border)] overflow-hidden shadow-sm">
-              {/* Header */}
-              <div className="px-8 py-6 border-b border-[var(--card-border)] bg-[var(--muted-bg)]">
-                <div className="flex items-center gap-3">
-                  <div className="w-10 h-10 rounded-xl bg-indigo-100 dark:bg-indigo-900/30 flex items-center justify-center">
-                    <BookOpen className="w-5 h-5 text-indigo-600 dark:text-indigo-400" />
-                  </div>
-                  <div>
-                    <h2 className="text-xl font-bold text-[var(--foreground)]">
-                      {(details.tutorial as Record<string, { title: string }>)[locale]?.title || (details.tutorial as Record<string, { title: string }>).en?.title}
-                    </h2>
-                    <p className="text-sm text-[var(--muted)]">
-                      {t('tutorialSubtitle')}
-                    </p>
-                  </div>
-                </div>
-              </div>
+          {/* Tutorial Section - redesigned for clarity and copy-ability, collapsed by default */}
+                    {(details as Record<string, unknown>)?.tutorial && (
+                      <details className="group bg-[var(--card-bg)] rounded-2xl border border-[var(--card-border)] overflow-hidden shadow-sm" open={false}>
+                        <summary className="px-8 py-6 border-b border-[var(--card-border)] bg-[var(--muted-bg)] cursor-pointer list-none hover:bg-[var(--muted-bg)]/80 transition [&::-webkit-details-marker]:hidden flex items-center justify-between">
+                          <div className="flex items-center gap-3">
+                            <div className="w-10 h-10 rounded-xl bg-indigo-100 dark:bg-indigo-900/30 flex items-center justify-center">
+                              <BookOpen className="w-5 h-5 text-indigo-600 dark:text-indigo-400" />
+                            </div>
+                            <div>
+                              <h2 className="text-xl font-bold text-[var(--foreground)]">
+                                {(details.tutorial as Record<string, { title: string }>)[locale]?.title || (details.tutorial as Record<string, { title: string }>).en?.title}
+                              </h2>
+                              <p className="text-sm text-[var(--muted)]">
+                                {t('tutorialSubtitle')}
+                              </p>
+                            </div>
+                          </div>
+                          <ChevronDown className="w-5 h-5 text-[var(--muted)] shrink-0 transition-transform group-open:rotate-180" />
+                        </summary>
 
               {/* Steps */}
               <div className="p-8">
@@ -579,11 +579,11 @@ export default function ToolDetailClient({ tool, locale, details: detailsProp, s
                     </div>
                   );
                 })}
-              </div>
-            </div>
-          )}
+                              </div>
+                            </details>
+                          )}
 
-          {/* Related Products (Same Maker / Platform) */}
+                          {/* Related Products (Same Maker / Platform) */}
           {sameMaker.length > 0 && (
             <div className="bg-[var(--card-bg)] rounded-2xl border border-[var(--card-border)] p-8 shadow-sm">
               <h2 className="text-lg font-semibold text-[var(--foreground)] mb-6 flex items-center gap-2">
