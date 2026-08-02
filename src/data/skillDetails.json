@@ -1483,5 +1483,1391 @@
         "Automatisation des tâches video avec l'assistance IA"
       ]
     }
+  },
+  "find-skills": {
+    "pros": {
+      "en": [
+        "Search and install skills from the skills.sh registry",
+        "Zero-config setup for Claude Code, Cursor, Codex",
+        "Discover trending skills by category"
+      ],
+      "zh": [
+        "从 skills.sh 注册表搜索安装技能",
+        "Claude Code、Cursor、Codex 零配置安装",
+        "按分类发现热门技能"
+      ],
+      "ja": [
+        "skills.shレジストリからスキルを検索してインストール",
+        "Claude Code、Cursor、Codexでゼロ設定",
+        "カテゴリ別に人気スキルを発見"
+      ],
+      "es": [
+        "Busca e instala skills desde el registro skills.sh",
+        "Configuración cero para Claude Code, Cursor, Codex",
+        "Descubre skills populares por categoría"
+      ],
+      "fr": [
+        "Recherchez et installez des skills depuis le registre skills.sh",
+        "Configuration zéro pour Claude Code, Cursor, Codex",
+        "Découvrez les skills populaires par catégorie"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Requires skills.sh CLI",
+        "Search results depend on network connectivity",
+        "Some skills may have compatibility issues"
+      ],
+      "zh": [
+        "需要 skills.sh CLI",
+        "搜索结果依赖网络连接",
+        "部分技能可能存在兼容性问题"
+      ],
+      "ja": [
+        "skills.sh CLIが必要",
+        "検索結果はネットワーク接続に依存",
+        "一部のスキルに互換性の問題がある可能性"
+      ],
+      "es": [
+        "Requiere CLI de skills.sh",
+        "Los resultados de búsqueda dependen de la conectividad de red",
+        "Algunos skills pueden tener problemas de compatibilidad"
+      ],
+      "fr": [
+        "Nécessite CLI skills.sh",
+        "Les résultats de recherche dépendent de la connectivité réseau",
+        "Certains skills peuvent avoir des problèmes de compatibilité"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "Free and open source",
+        "zh": "免费开源",
+        "ja": "無料オープンソース",
+        "es": "Gratuito y de código abierto",
+        "fr": "Gratuit et open source"
+      }
+    },
+    "verdict": {
+      "en": "The essential entry point for the skills.sh ecosystem. With 2.8M total installs, it is the most widely used skill in the registry.",
+      "zh": "skills.sh 生态的必备入口。拥有 280 万总安装量，是注册表中使用最广泛的技能。",
+      "ja": "skills.shエコシステムの必須エントリーポイント。280万の総インストール数を誇り、レジストリで最も広く使われているスキルです。",
+      "es": "El punto de entrada esencial para el ecosistema skills.sh. Con 2.8M de instalaciones totales, es el skill más utilizado del registro.",
+      "fr": "Le point d'entrée essentiel pour l'écosystème skills.sh. Avec 2,8M d'installations totales, c'est le skill le plus utilisé du registre."
+    },
+    "useCases": {
+      "en": [
+        "Quickly discover and install new agent skills",
+        "Browse trending skills by category",
+        "Keep your agent skill set up to date"
+      ],
+      "zh": [
+        "快速发现和安装新的智能体技能",
+        "按分类浏览热门技能",
+        "保持智能体技能集最新"
+      ],
+      "ja": [
+        "新しいエージェントスキルを素早く発見してインストール",
+        "カテゴリ別にトレンドスキルを閲覧",
+        "エージェントスキルセットを最新に保つ"
+      ],
+      "es": [
+        "Descubre e instala rápidamente nuevos skills de agente",
+        "Navega por skills populares por categoría",
+        "Mantén actualizado tu conjunto de skills de agente"
+      ],
+      "fr": [
+        "Découvrez et installez rapidement de nouveaux skills d'agent",
+        "Parcourez les skills tendances par catégorie",
+        "Gardez votre ensemble de skills d'agent à jour"
+      ]
+    }
+  },
+  "grill-me": {
+    "pros": {
+      "en": [
+        "Rigorously tests design decisions",
+        "Improves code quality before review",
+        "Catches edge cases early"
+      ],
+      "zh": [
+        "严格测试设计决策",
+        "在审查前提高代码质量",
+        "早期发现边缘情况"
+      ],
+      "ja": [
+        "設計判断を厳密にテスト",
+        "レビュー前のコード品質向上",
+        "エッジケースを早期に発見"
+      ],
+      "es": [
+        "Prueba rigurosamente las decisiones de diseño",
+        "Mejora la calidad del código antes de la revisión",
+        "Detecta casos extremos temprano"
+      ],
+      "fr": [
+        "Teste rigoureusement les décisions de conception",
+        "Améliore la qualité du code avant la révision",
+        "Détecte les cas limites tôt"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Can be time-consuming for simple changes",
+        "Requires clear context for effective questioning",
+        "May feel repetitive for experienced teams"
+      ],
+      "zh": [
+        "对于简单修改可能耗时",
+        "需要清晰的上下文才能有效提问",
+        "对有经验的团队可能感觉重复"
+      ],
+      "ja": [
+        "単純な変更には時間がかかる可能性",
+        "効果的な質問には明確なコンテキストが必要",
+        "経験豊富なチームには繰り返しに感じる可能性"
+      ],
+      "es": [
+        "Puede llevar mucho tiempo para cambios simples",
+        "Requiere contexto claro para preguntas efectivas",
+        "Puede sentirse repetitivo para equipos experimentados"
+      ],
+      "fr": [
+        "Peut prendre du temps pour des changements simples",
+        "Nécessite un contexte clair pour un questionnement efficace",
+        "Peut sembler répétitif pour les équipes expérimentées"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "Free and open source",
+        "zh": "免费开源",
+        "ja": "無料オープンソース",
+        "es": "Gratuito y de código abierto",
+        "fr": "Gratuit et open source"
+      }
+    },
+    "verdict": {
+      "en": "A must-have skill for any team that values code quality. 728K installs prove its utility in catching design flaws before they become production issues.",
+      "zh": "任何重视代码质量的团队的必备技能。72.8 万安装量证明了其在设计缺陷成为生产问题之前捕获它们的价值。",
+      "ja": "コード品質を重視するチームにとって必須のスキル。72.8万のインストール数が、設計上の欠陥を本番環境の問題になる前に発見する有用性を証明しています。",
+      "es": "Un skill imprescindible para cualquier equipo que valore la calidad del código. 728K instalaciones prueban su utilidad para detectar fallos de diseño antes de que se conviertan en problemas de producción.",
+      "fr": "Un skill incontournable pour toute équipe qui valorise la qualité du code. 728K installations prouvent son utilité pour détecter les défauts de conception avant qu'ils ne deviennent des problèmes de production."
+    },
+    "useCases": {
+      "en": [
+        "Reviewing complex architectural decisions",
+        "Validating API design choices",
+        "Pre-deployment quality assurance"
+      ],
+      "zh": [
+        "审查复杂架构决策",
+        "验证 API 设计选择",
+        "部署前质量保证"
+      ],
+      "ja": [
+        "複雑なアーキテクチャ決定のレビュー",
+        "API設計の選択を検証",
+        "デプロイ前の品質保証"
+      ],
+      "es": [
+        "Revisando decisiones arquitectónicas complejas",
+        "Validando opciones de diseño de API",
+        "Aseguramiento de calidad previo al despliegue"
+      ],
+      "fr": [
+        "Révision des décisions architecturales complexes",
+        "Validation des choix de conception d'API",
+        "Assurance qualité avant déploiement"
+      ]
+    }
+  },
+  "grill-with-docs": {
+    "pros": {
+      "en": [
+        "Combines code and documentation analysis",
+        "Ensures implementation matches design",
+        "Catches documentation drift"
+      ],
+      "zh": [
+        "结合代码和文档分析",
+        "确保实现与设计一致",
+        "捕获文档漂移"
+      ],
+      "ja": [
+        "コードとドキュメント分析を組み合わせる",
+        "実装と設計の一致を確認",
+        "ドキュメントの乖離を発見"
+      ],
+      "es": [
+        "Combina análisis de código y documentación",
+        "Asegura que la implementación coincida con el diseño",
+        "Detecta desviación en la documentación"
+      ],
+      "fr": [
+        "Combine l'analyse du code et de la documentation",
+        "Assure que l'implémentation correspond à la conception",
+        "Détecte la dérive documentaire"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Requires well-maintained documentation",
+        "Longer review cycles",
+        "Best for significant changes only"
+      ],
+      "zh": [
+        "需要维护良好的文档",
+        "审查周期较长",
+        "仅适用于重大变更"
+      ],
+      "ja": [
+        "適切にメンテナンスされたドキュメントが必要",
+        "レビューサイクルが長い",
+        "重要な変更にのみ最適"
+      ],
+      "es": [
+        "Requiere documentación bien mantenida",
+        "Ciclos de revisión más largos",
+        "Mejor solo para cambios significativos"
+      ],
+      "fr": [
+        "Nécessite une documentation bien entretenue",
+        "Cycles de révision plus longs",
+        "Idéal uniquement pour les changements significatifs"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "Free and open source",
+        "zh": "免费开源",
+        "ja": "無料オープンソース",
+        "es": "Gratuito y de código abierto",
+        "fr": "Gratuit et open source"
+      }
+    },
+    "verdict": {
+      "en": "An essential upgrade from grill-me for projects where documentation quality matters. 617K installs reflect its value in maintaining alignment between code and docs.",
+      "zh": "对于文档质量重要的项目，grill-me 的重要升级。61.7 万安装量反映了其在维护代码与文档一致性方面的价值。",
+      "ja": "ドキュメントの品質が重要なプロジェクトにおけるgrill-meの重要なアップグレード。61.7万のインストール数が、コードとドキュメントの整合性を維持する価値を反映しています。",
+      "es": "Una actualización esencial de grill-me para proyectos donde la calidad de la documentación importa. 617K instalaciones reflejan su valor para mantener la alineación entre código y documentación.",
+      "fr": "Une mise à niveau essentielle de grill-me pour les projets où la qualité de la documentation compte. 617K installations reflètent sa valeur pour maintenir l'alignement entre le code et la documentation."
+    },
+    "useCases": {
+      "en": [
+        "API documentation review",
+        "Architecture decision records",
+        "Cross-team code reviews"
+      ],
+      "zh": [
+        "API 文档审查",
+        "架构决策记录",
+        "跨团队代码审查"
+      ],
+      "ja": [
+        "APIドキュメントレビュー",
+        "アーキテクチャ決定記録",
+        "チーム間コードレビュー"
+      ],
+      "es": [
+        "Revisión de documentación de API",
+        "Registros de decisiones arquitectónicas",
+        "Revisiones de código entre equipos"
+      ],
+      "fr": [
+        "Révision de documentation d'API",
+        "Registres de décisions architecturales",
+        "Revues de code inter-équipes"
+      ]
+    }
+  },
+  "improve-codebase-architecture": {
+    "pros": {
+      "en": [
+        "Identifies architecture decay early",
+        "Provides actionable refactoring plans",
+        "Improves long-term code maintainability"
+      ],
+      "zh": [
+        "早期发现架构腐化",
+        "提供可操作的重构方案",
+        "提升长期代码可维护性"
+      ],
+      "ja": [
+        "アーキテクチャの劣化を早期に発見",
+        "実行可能なリファクタリング計画を提供",
+        "長期的なコード保守性を向上"
+      ],
+      "es": [
+        "Identifica la decadencia arquitectónica temprano",
+        "Proporciona planes de refactorización accionables",
+        "Mejora la mantenibilidad del código a largo plazo"
+      ],
+      "fr": [
+        "Identifie tôt la dégradation architecturale",
+        "Fournit des plans de refactorisation actionnables",
+        "Améliore la maintenabilité du code à long terme"
+      ]
+    },
+    "cons": {
+      "en": [
+        "May suggest changes outside current scope",
+        "Requires team buy-in for large refactors",
+        "Analysis can be time-consuming for large codebases"
+      ],
+      "zh": [
+        "可能建议超出当前范围的更改",
+        "大型重构需要团队认可",
+        "大型代码库的分析可能耗时"
+      ],
+      "ja": [
+        "現在のスコープ外の変更を提案する可能性",
+        "大規模リファクタリングにはチームの同意が必要",
+        "大規模コードベースの分析には時間がかかる可能性"
+      ],
+      "es": [
+        "Puede sugerir cambios fuera del alcance actual",
+        "Requiere aceptación del equipo para grandes refactorizaciones",
+        "El análisis puede llevar tiempo para bases de código grandes"
+      ],
+      "fr": [
+        "Peut suggérer des changements hors du périmètre actuel",
+        "Nécessite l'adhésion de l'équipe pour les grandes refactorisations",
+        "L'analyse peut prendre du temps pour les grandes bases de code"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "Free and open source",
+        "zh": "免费开源",
+        "ja": "無料オープンソース",
+        "es": "Gratuito y de código abierto",
+        "fr": "Gratuit et open source"
+      }
+    },
+    "verdict": {
+      "en": "A valuable tool for tackling technical debt. 595K installs show its effectiveness in helping teams identify and fix architecture issues before they become unmanageable.",
+      "zh": "解决技术债务的宝贵工具。59.5 万安装量显示其在帮助团队识别和修复架构问题方面的有效性。",
+      "ja": "技術的負債に取り組むための貴重なツール。59.5万のインストール数が、チームがアーキテクチャの問題を管理不能になる前に特定して修正するのに役立つ効果を示しています。",
+      "es": "Una herramienta valiosa para abordar la deuda técnica. 595K instalaciones muestran su eficacia para ayudar a los equipos a identificar y solucionar problemas de arquitectura.",
+      "fr": "Un outil précieux pour s'attaquer à la dette technique. 595K installations montrent son efficacité pour aider les équipes à identifier et résoudre les problèmes d'architecture avant qu'ils ne deviennent ingérables."
+    },
+    "useCases": {
+      "en": [
+        "Inherited codebase analysis",
+        "Pre-migration architecture review",
+        "Regular code health checkups"
+      ],
+      "zh": [
+        "继承代码库分析",
+        "迁移前架构审查",
+        "定期代码健康检查"
+      ],
+      "ja": [
+        "継承コードベースの分析",
+        "移行前アーキテクチャレビュー",
+        "定期的なコードヘルスチェック"
+      ],
+      "es": [
+        "Análisis de base de código heredada",
+        "Revisión de arquitectura previa a la migración",
+        "Revisiones periódicas de salud del código"
+      ],
+      "fr": [
+        "Analyse de codebase héritée",
+        "Revue d'architecture avant migration",
+        "Contrôles de santé du code réguliers"
+      ]
+    }
+  },
+  "ai-video-generation": {
+    "pros": {
+      "en": [
+        "Access to 40+ video generation models",
+        "Single interface for multiple providers",
+        "Rapidly growing ecosystem"
+      ],
+      "zh": [
+        "访问 40+ 视频生成模型",
+        "统一接口对接多个供应商",
+        "快速增长的生态"
+      ],
+      "ja": [
+        "40以上の動画生成モデルにアクセス",
+        "複数のプロバイダの統一インターフェース",
+        "急速に成長するエコシステム"
+      ],
+      "es": [
+        "Acceso a 40+ modelos de generación de video",
+        "Interfaz única para múltiples proveedores",
+        "Ecosistema en rápido crecimiento"
+      ],
+      "fr": [
+        "Accès à 40+ modèles de génération vidéo",
+        "Interface unique pour plusieurs fournisseurs",
+        "Écosystème en croissance rapide"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Model quality varies by provider",
+        "Requires API keys for some providers",
+        "Newer ecosystem with fewer enterprise features"
+      ],
+      "zh": [
+        "模型质量因供应商而异",
+        "部分供应商需要 API 密钥",
+        "较新的生态，企业功能较少"
+      ],
+      "ja": [
+        "モデルの品質はプロバイダによって異なる",
+        "一部のプロバイダではAPIキーが必要",
+        "新しいエコシステムでエンタープライズ機能が少ない"
+      ],
+      "es": [
+        "La calidad del modelo varía según el proveedor",
+        "Requiere claves API para algunos proveedores",
+        "Ecosistema más nuevo con menos funciones empresariales"
+      ],
+      "fr": [
+        "La qualité du modèle varie selon le fournisseur",
+        "Nécessite des clés API pour certains fournisseurs",
+        "Écosystème plus récent avec moins de fonctionnalités entreprise"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "Free and open source",
+        "zh": "免费开源",
+        "ja": "無料オープンソース",
+        "es": "Gratuito y de código abierto",
+        "fr": "Gratuit et open source"
+      }
+    },
+    "verdict": {
+      "en": "A rapidly growing skill with 534K installs, providing unified access to the AI video generation landscape. Ideal for content creators exploring video AI.",
+      "zh": "快速增长中的技能，53.4 万安装量，提供 AI 视频生成领域的统一访问。适合探索视频 AI 的内容创作者。",
+      "ja": "急速に成長しているスキルで53.4万のインストール数。AI動画生成の状況への統一アクセスを提供します。",
+      "es": "Un skill en rápido crecimiento con 534K instalaciones, que proporciona acceso unificado al panorama de generación de video IA.",
+      "fr": "Un skill en croissance rapide avec 534K installations, offrant un accès unifié au paysage de la génération vidéo IA."
+    },
+    "useCases": {
+      "en": [
+        "Creating marketing videos",
+        "Generating social media content",
+        "Prototyping video concepts"
+      ],
+      "zh": [
+        "创建营销视频",
+        "生成社交媒体内容",
+        "视频概念原型设计"
+      ],
+      "ja": [
+        "マーケティング動画の作成",
+        "ソーシャルメディアコンテンツの生成",
+        "動画コンセプトのプロトタイピング"
+      ],
+      "es": [
+        "Creando videos de marketing",
+        "Generando contenido para redes sociales",
+        "Prototipando conceptos de video"
+      ],
+      "fr": [
+        "Création de vidéos marketing",
+        "Génération de contenu pour réseaux sociaux",
+        "Prototypage de concepts vidéo"
+      ]
+    }
+  },
+  "ai-image-generation": {
+    "pros": {
+      "en": [
+        "Access to 50+ image generation models",
+        "Unified API for multiple providers",
+        "Supports editing and variation workflows"
+      ],
+      "zh": [
+        "访问 50+ 图像生成模型",
+        "统一 API 对接多个供应商",
+        "支持编辑和变体工作流"
+      ],
+      "ja": [
+        "50以上の画像生成モデルにアクセス",
+        "複数プロバイダの統一API",
+        "編集とバリエーションワークフローをサポート"
+      ],
+      "es": [
+        "Acceso a 50+ modelos de generación de imágenes",
+        "API unificada para múltiples proveedores",
+        "Compatible con flujos de trabajo de edición y variación"
+      ],
+      "fr": [
+        "Accès à 50+ modèles de génération d'images",
+        "API unifiée pour plusieurs fournisseurs",
+        "Prend en charge les workflows d'édition et de variation"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Output quality varies by model",
+        "Some models require API keys",
+        "Competitive landscape changes rapidly"
+      ],
+      "zh": [
+        "输出质量因模型而异",
+        "部分模型需要 API 密钥",
+        "竞争格局变化快"
+      ],
+      "ja": [
+        "出力品質はモデルによって異なる",
+        "一部のモデルではAPIキーが必要",
+        "競争環境が急速に変化"
+      ],
+      "es": [
+        "La calidad de salida varía según el modelo",
+        "Algunos modelos requieren claves API",
+        "El panorama competitivo cambia rápidamente"
+      ],
+      "fr": [
+        "La qualité de sortie varie selon le modèle",
+        "Certains modèles nécessitent des clés API",
+        "Le paysage concurrentiel change rapidement"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "Free and open source",
+        "zh": "免费开源",
+        "ja": "無料オープンソース",
+        "es": "Gratuito y de código abierto",
+        "fr": "Gratuit et open source"
+      }
+    },
+    "verdict": {
+      "en": "A comprehensive image generation skill with access to 50+ models. Essential for any AI agent workflow that involves visual content creation.",
+      "zh": "一个全面的图像生成技能，可访问 50+ 模型。任何涉及视觉内容创建的 AI 智能体工作流的必备工具。",
+      "ja": "50以上のモデルにアクセスできる包括的な画像生成スキル。ビジュアルコンテンツ作成を含むAIエージェントワークフローに必須です。",
+      "es": "Un skill completo de generación de imágenes con acceso a 50+ modelos. Esencial para cualquier flujo de trabajo de agente de IA que implique creación de contenido visual.",
+      "fr": "Un skill complet de génération d'images avec accès à 50+ modèles. Essentiel pour tout flux de travail d'agent IA impliquant la création de contenu visuel."
+    },
+    "useCases": {
+      "en": [
+        "Generating marketing visuals",
+        "Creating social media graphics",
+        "Prototyping UI designs"
+      ],
+      "zh": [
+        "生成营销视觉素材",
+        "创建社交媒体图形",
+        "UI 设计原型"
+      ],
+      "ja": [
+        "マーケティングビジュアルの生成",
+        "ソーシャルメディアグラフィックの作成",
+        "UIデザインのプロトタイピング"
+      ],
+      "es": [
+        "Generando visuales de marketing",
+        "Creando gráficos para redes sociales",
+        "Prototipando diseños de UI"
+      ],
+      "fr": [
+        "Génération de visuels marketing",
+        "Création de graphiques pour réseaux sociaux",
+        "Prototypage de conceptions d'interface"
+      ]
+    }
+  },
+  "last30days": {
+    "pros": {
+      "en": [
+        "Automated trend discovery across platforms",
+        "Generates structured reports",
+        "Saves hours of manual research"
+      ],
+      "zh": [
+        "跨平台自动发现趋势",
+        "生成结构化报告",
+        "节省数小时手动调研时间"
+      ],
+      "ja": [
+        "プラットフォーム横断の自動トレンド発見",
+        "構造化レポートを生成",
+        "数時間の手動調査を節約"
+      ],
+      "es": [
+        "Descubrimiento automatizado de tendencias entre plataformas",
+        "Genera informes estructurados",
+        "Ahorra horas de investigación manual"
+      ],
+      "fr": [
+        "Découverte automatisée des tendances multi-plateformes",
+        "Génère des rapports structurés",
+        "Économise des heures de recherche manuelle"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Limited to 30-day window",
+        "May miss niche topics",
+        "Requires internet access for data collection"
+      ],
+      "zh": [
+        "仅限于 30 天窗口",
+        "可能错过小众话题",
+        "需要互联网访问进行数据收集"
+      ],
+      "ja": [
+        "30日間のウィンドウに限定",
+        "ニッチなトピックを見逃す可能性",
+        "データ収集にはインターネットアクセスが必要"
+      ],
+      "es": [
+        "Limitado a ventana de 30 días",
+        "Puede pasar por alto temas nicho",
+        "Requiere acceso a internet para la recolección de datos"
+      ],
+      "fr": [
+        "Limité à une fenêtre de 30 jours",
+        "Peut manquer des sujets de niche",
+        "Nécessite un accès Internet pour la collecte de données"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "Free and open source",
+        "zh": "免费开源",
+        "ja": "無料オープンソース",
+        "es": "Gratuito y de código abierto",
+        "fr": "Gratuit et open source"
+      }
+    },
+    "verdict": {
+      "en": "A powerful trend discovery tool with 5.35K weekly stars on GitHub. Ideal for content creators and marketers who need to stay ahead of trends.",
+      "zh": "强大的趋势发现工具，GitHub 周增 5,350 星标。适合需要保持趋势领先的内容创作者和营销人员。",
+      "ja": "GitHubで週間5,350スターを獲得した強力なトレンド発見ツール。トレンドの先を行く必要があるコンテンツクリエイターやマーケターに最適です。",
+      "es": "Una poderosa herramienta de descubrimiento de tendencias con 5.35K estrellas semanales en GitHub. Ideal para creadores de contenido y marketers.",
+      "fr": "Un outil puissant de découverte de tendances avec 5,35K étoiles hebdomadaires sur GitHub. Idéal pour les créateurs de contenu et les spécialistes du marketing."
+    },
+    "useCases": {
+      "en": [
+        "Content strategy planning",
+        "Competitive analysis",
+        "Trend report generation"
+      ],
+      "zh": [
+        "内容策略规划",
+        "竞品分析",
+        "趋势报告生成"
+      ],
+      "ja": [
+        "コンテンツ戦略計画",
+        "競合分析",
+        "トレンドレポート生成"
+      ],
+      "es": [
+        "Planificación de estrategia de contenido",
+        "Análisis competitivo",
+        "Generación de informes de tendencias"
+      ],
+      "fr": [
+        "Planification stratégique de contenu",
+        "Analyse concurrentielle",
+        "Génération de rapports de tendances"
+      ]
+    }
+  },
+  "everything-claude-code": {
+    "pros": {
+      "en": [
+        "Comprehensive Claude Code workflow collection",
+        "Covers agents, skills, and commands",
+        "Regularly updated with community contributions"
+      ],
+      "zh": [
+        "全面的 Claude Code 工作流集合",
+        "涵盖智能体、技能和命令",
+        "社区贡献定期更新"
+      ],
+      "ja": [
+        "包括的なClaude Codeワークフローコレクション",
+        "エージェント、スキル、コマンドをカバー",
+        "コミュニティの貢献により定期的に更新"
+      ],
+      "es": [
+        "Colección completa de flujos de trabajo de Claude Code",
+        "Cubre agents, skills y commands",
+        "Actualizada regularmente con contribuciones de la comunidad"
+      ],
+      "fr": [
+        "Collection complète de workflows Claude Code",
+        "Couvre les agents, skills et commandes",
+        "Mise à jour régulière avec les contributions de la communauté"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Claude Code specific only",
+        "Large collection may have overlap",
+        "Quality varies across contributions"
+      ],
+      "zh": [
+        "仅限 Claude Code",
+        "大型集合可能有重叠",
+        "贡献质量参差不齐"
+      ],
+      "ja": [
+        "Claude Codeのみ",
+        "大規模コレクションには重複がある可能性",
+        "貢献の品質はさまざま"
+      ],
+      "es": [
+        "Solo específico de Claude Code",
+        "La colección grande puede tener superposición",
+        "La calidad varía según las contribuciones"
+      ],
+      "fr": [
+        "Spécifique à Claude Code uniquement",
+        "Grande collection peut avoir des chevauchements",
+        "La qualité varie selon les contributions"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "Free",
+        "zh": "免费",
+        "ja": "無料",
+        "es": "Gratuito",
+        "fr": "Gratuit"
+      }
+    },
+    "verdict": {
+      "en": "A comprehensive collection of Claude Code workflows. Essential for anyone looking to maximize their Claude Code experience.",
+      "zh": "全面的 Claude Code 工作流集合。任何希望最大化 Claude Code 体验的人的必备工具。",
+      "ja": "包括的なClaude Codeワークフローコレクション。Claude Code体験を最大化したい人にとって必須です。",
+      "es": "Una colección completa de flujos de trabajo de Claude Code. Esencial para quienes buscan maximizar su experiencia con Claude Code.",
+      "fr": "Une collection complète de workflows Claude Code. Essentiel pour quiconque cherche à maximiser son expérience Claude Code."
+    },
+    "useCases": {
+      "en": [
+        "Claude Code workflow optimization",
+        "Learning best practices",
+        "Discovering new capabilities"
+      ],
+      "zh": [
+        "Claude Code 工作流优化",
+        "学习最佳实践",
+        "发现新能力"
+      ],
+      "ja": [
+        "Claude Codeワークフロー最適化",
+        "ベストプラクティスの学習",
+        "新機能の発見"
+      ],
+      "es": [
+        "Optimización de flujo de trabajo de Claude Code",
+        "Aprendiendo mejores prácticas",
+        "Descubriendo nuevas capacidades"
+      ],
+      "fr": [
+        "Optimisation du workflow Claude Code",
+        "Apprentissage des meilleures pratiques",
+        "Découverte de nouvelles capacités"
+      ]
+    }
+  },
+  "browseract": {
+    "pros": {
+      "en": [
+        "Full browser automation capabilities",
+        "Multi-account isolation",
+        "Supports complex web tasks"
+      ],
+      "zh": [
+        "完整的浏览器自动化能力",
+        "多账号隔离",
+        "支持复杂的 Web 任务"
+      ],
+      "ja": [
+        "完全なブラウザ自動化機能",
+        "マルチアカウント分離",
+        "複雑なWebタスクをサポート"
+      ],
+      "es": [
+        "Capacidades completas de automatización del navegador",
+        "Aislamiento multi-cuenta",
+        "Compatible con tareas web complejas"
+      ],
+      "fr": [
+        "Capacités complètes d'automatisation du navigateur",
+        "Isolation multi-comptes",
+        "Prend en charge les tâches web complexes"
+      ]
+    },
+    "cons": {
+      "en": [
+        "May be blocked by some websites",
+        "Requires careful session management",
+        "Resource intensive for complex tasks"
+      ],
+      "zh": [
+        "可能被部分网站阻止",
+        "需要谨慎的会话管理",
+        "复杂任务资源消耗大"
+      ],
+      "ja": [
+        "一部のWebサイトでブロックされる可能性",
+        "注意深いセッション管理が必要",
+        "複雑なタスクにはリソースを多く消費"
+      ],
+      "es": [
+        "Puede ser bloqueado por algunos sitios web",
+        "Requiere una gestión cuidadosa de la sesión",
+        "Intensivo en recursos para tareas complejas"
+      ],
+      "fr": [
+        "Peut être bloqué par certains sites web",
+        "Nécessite une gestion minutieuse des sessions",
+        "Intensif en ressources pour les tâches complexes"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "Free and open source",
+        "zh": "免费开源",
+        "ja": "無料オープンソース",
+        "es": "Gratuito y de código abierto",
+        "fr": "Gratuit et open source"
+      }
+    },
+    "verdict": {
+      "en": "A powerful browser automation skill for AI agents. Enables complex web interactions that go beyond simple API calls.",
+      "zh": "AI 智能体的强大浏览器自动化技能。实现超越简单 API 调用的复杂 Web 交互。",
+      "ja": "AIエージェントのための強力なブラウザ自動化スキル。単純なAPI呼び出しを超えた複雑なWebインタラクションを実現します。",
+      "es": "Un potente skill de automatización del navegador para agentes de IA. Permite interacciones web complejas que van más allá de simples llamadas API.",
+      "fr": "Un puissant skill d'automatisation du navigateur pour les agents IA. Permet des interactions web complexes au-delà des simples appels API."
+    },
+    "useCases": {
+      "en": [
+        "Web data extraction",
+        "Automated form filling",
+        "Multi-account testing"
+      ],
+      "zh": [
+        "Web 数据提取",
+        "自动表单填写",
+        "多账号测试"
+      ],
+      "ja": [
+        "Webデータ抽出",
+        "自動フォーム入力",
+        "マルチアカウントテスト"
+      ],
+      "es": [
+        "Extracción de datos web",
+        "Relleno automatizado de formularios",
+        "Pruebas multi-cuenta"
+      ],
+      "fr": [
+        "Extraction de données web",
+        "Remplissage automatique de formulaires",
+        "Tests multi-comptes"
+      ]
+    }
+  },
+  "video-production": {
+    "pros": {
+      "en": [
+        "End-to-end video production pipeline",
+        "Supports script, subtitles, voiceover, and effects",
+        "Integrates with HeyGen ecosystem"
+      ],
+      "zh": [
+        "端到端视频生产管线",
+        "支持脚本、字幕、配音和特效",
+        "与 HeyGen 生态集成"
+      ],
+      "ja": [
+        "エンドツーエンドの動画制作パイプライン",
+        "脚本、字幕、ナレーション、エフェクトをサポート",
+        "HeyGenエコシステムと統合"
+      ],
+      "es": [
+        "Pipeline de producción de video de extremo a extremo",
+        "Compatible con guión, subtítulos, locución y efectos",
+        "Se integra con el ecosistema HeyGen"
+      ],
+      "fr": [
+        "Pipeline de production vidéo de bout en bout",
+        "Prend en charge script, sous-titres, voix off et effets",
+        "S'intègre avec l'écosystème HeyGen"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Best results with HeyGen account",
+        "Some features may require paid plan",
+        "Video production is resource intensive"
+      ],
+      "zh": [
+        "最佳效果需要 HeyGen 账号",
+        "部分功能可能需要付费套餐",
+        "视频生产资源消耗大"
+      ],
+      "ja": [
+        "最良の結果にはHeyGenアカウントが必要",
+        "一部の機能には有料プランが必要な場合がある",
+        "動画制作はリソースを多く消費"
+      ],
+      "es": [
+        "Mejores resultados requieren cuenta HeyGen",
+        "Algunas funciones pueden requerir plan pago",
+        "La producción de video consume muchos recursos"
+      ],
+      "fr": [
+        "Meilleurs résultats nécessitent un compte HeyGen",
+        "Certaines fonctionnalités peuvent nécessiter un forfait payant",
+        "La production vidéo est gourmande en ressources"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "Free with basic features",
+        "zh": "基础功能免费",
+        "ja": "基本機能は無料",
+        "es": "Gratuito con funciones básicas",
+        "fr": "Gratuit avec fonctions de base"
+      }
+    },
+    "verdict": {
+      "en": "A comprehensive video production skill from HeyGen. 376 GitHub stars reflect its utility for AI-powered video creation workflows.",
+      "zh": "来自 HeyGen 的全面视频生产技能。376 GitHub 星标反映了其在 AI 驱动视频创建工作流中的实用性。",
+      "ja": "HeyGenによる包括的な動画制作スキル。376のGitHubスターが、AI駆動の動画作成ワークフローにおける有用性を反映しています。",
+      "es": "Un completo skill de producción de video de HeyGen. 376 estrellas en GitHub reflejan su utilidad para flujos de trabajo de creación de video impulsados por IA.",
+      "fr": "Un skill complet de production vidéo de HeyGen. 376 étoiles GitHub reflètent son utilité pour les workflows de création vidéo pilotés par IA."
+    },
+    "useCases": {
+      "en": [
+        "Automated video creation",
+        "Content repurposing",
+        "Multi-language video production"
+      ],
+      "zh": [
+        "自动化视频创建",
+        "内容再利用",
+        "多语言视频制作"
+      ],
+      "ja": [
+        "自動動画作成",
+        "コンテンツの再利用",
+        "多言語動画制作"
+      ],
+      "es": [
+        "Creación automatizada de video",
+        "Reutilización de contenido",
+        "Producción de video multilingüe"
+      ],
+      "fr": [
+        "Création vidéo automatisée",
+        "Réutilisation de contenu",
+        "Production vidéo multilingue"
+      ]
+    }
+  },
+  "hyperskills": {
+    "pros": {
+      "en": [
+        "Modular skill set - install only what you need",
+        "Covers multiple development domains",
+        "Lightweight individual installations"
+      ],
+      "zh": [
+        "模块化技能集——只安装你需要的",
+        "覆盖多个开发领域",
+        "轻量级独立安装"
+      ],
+      "ja": [
+        "モジュール式スキルセット - 必要なものだけをインストール",
+        "複数の開発領域をカバー",
+        "軽量な個別インストール"
+      ],
+      "es": [
+        "Conjunto de skills modular - instala solo lo que necesitas",
+        "Cubre múltiples dominios de desarrollo",
+        "Instalaciones individuales ligeras"
+      ],
+      "fr": [
+        "Ensemble de skills modulaire - installez seulement ce dont vous avez besoin",
+        "Couvre plusieurs domaines de développement",
+        "Installations individuelles légères"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Requires individual installation per skill",
+        "Some modules may overlap",
+        "Documentation varies by module"
+      ],
+      "zh": [
+        "每个技能需要单独安装",
+        "部分模块可能有重叠",
+        "文档因模块而异"
+      ],
+      "ja": [
+        "スキルごとに個別インストールが必要",
+        "一部のモジュールに重複がある可能性",
+        "ドキュメントはモジュールによって異なる"
+      ],
+      "es": [
+        "Requiere instalación individual por skill",
+        "Algunos módulos pueden superponerse",
+        "La documentación varía según el módulo"
+      ],
+      "fr": [
+        "Nécessite une installation individuelle par skill",
+        "Certains modules peuvent se chevaucher",
+        "La documentation varie selon le module"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "Free and open source",
+        "zh": "免费开源",
+        "ja": "無料オープンソース",
+        "es": "Gratuito y de código abierto",
+        "fr": "Gratuit et open source"
+      }
+    },
+    "verdict": {
+      "en": "A flexible skill collection that lets you pick and choose capabilities. Ideal for developers who want a tailored agent setup.",
+      "zh": "一个灵活的技能集合，让你挑选所需能力。适合想要定制化智能体配置的开发者。",
+      "ja": "能力を選択できる柔軟なスキルコレクション。カスタマイズされたエージェント設定を希望する開発者に最適です。",
+      "es": "Una colección flexible de skills que te permite elegir capacidades. Ideal para desarrolladores que quieren una configuración de agente personalizada.",
+      "fr": "Une collection flexible de skills qui vous permet de choisir vos capacités. Idéal pour les développeurs qui souhaitent une configuration d'agent personnalisée."
+    },
+    "useCases": {
+      "en": [
+        "Custom agent setup",
+        "Specialized development tasks",
+        "Learning new skill areas"
+      ],
+      "zh": [
+        "自定义智能体配置",
+        "专项开发任务",
+        "学习新技能领域"
+      ],
+      "ja": [
+        "カスタムエージェント設定",
+        "専門的な開発タスク",
+        "新しいスキル領域の学習"
+      ],
+      "es": [
+        "Configuración de agente personalizada",
+        "Tareas de desarrollo especializadas",
+        "Aprendiendo nuevas áreas de habilidad"
+      ],
+      "fr": [
+        "Configuration d'agent personnalisée",
+        "Tâches de développement spécialisées",
+        "Apprentissage de nouveaux domaines de compétence"
+      ]
+    }
+  },
+  "claude-scientific": {
+    "pros": {
+      "en": [
+        "Specialized for scientific workflows",
+        "Covers full research lifecycle",
+        "Supports multiple data formats"
+      ],
+      "zh": [
+        "专为科研工作流设计",
+        "覆盖完整研究生命周期",
+        "支持多种数据格式"
+      ],
+      "ja": [
+        "科学ワークフローに特化",
+        "完全な研究ライフサイクルをカバー",
+        "複数のデータ形式をサポート"
+      ],
+      "es": [
+        "Especializado para flujos de trabajo científicos",
+        "Cubre el ciclo de vida completo de la investigación",
+        "Compatible con múltiples formatos de datos"
+      ],
+      "fr": [
+        "Spécialisé pour les flux de travail scientifiques",
+        "Couvre le cycle de vie complet de la recherche",
+        "Prend en charge plusieurs formats de données"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Best for academic contexts",
+        "May require domain-specific knowledge",
+        "Limited to text-based analysis"
+      ],
+      "zh": [
+        "最适合学术场景",
+        "可能需要领域特定知识",
+        "限于基于文本的分析"
+      ],
+      "ja": [
+        "学術的な文脈に最適",
+        "ドメイン固有の知識が必要な場合がある",
+        "テキストベースの分析に限定"
+      ],
+      "es": [
+        "Mejor para contextos académicos",
+        "Puede requerir conocimiento específico del dominio",
+        "Limitado a análisis basados en texto"
+      ],
+      "fr": [
+        "Idéal pour les contextes académiques",
+        "Peut nécessiter des connaissances spécifiques au domaine",
+        "Limité à l'analyse textuelle"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "Free and open source",
+        "zh": "免费开源",
+        "ja": "無料オープンソース",
+        "es": "Gratuito y de código abierto",
+        "fr": "Gratuit et open source"
+      }
+    },
+    "verdict": {
+      "en": "A valuable skill for researchers using AI agents. 132K stars on GitHub show its importance in the academic AI community.",
+      "zh": "对使用 AI 智能体的研究人员来说是一个有价值的技能。GitHub 上的 13.2 万星标显示了其在学术 AI 社区中的重要性。",
+      "ja": "AIエージェントを使用する研究者にとって貴重なスキル。GitHubでの13.2万スターは、学術AIコミュニティにおける重要性を示しています。",
+      "es": "Un skill valioso para investigadores que usan agentes de IA. 132K estrellas en GitHub muestran su importancia en la comunidad académica de IA.",
+      "fr": "Un skill précieux pour les chercheurs utilisant des agents IA. 132K étoiles sur GitHub montrent son importance dans la communauté académique de l'IA."
+    },
+    "useCases": {
+      "en": [
+        "Literature review automation",
+        "Research data analysis",
+        "Academic paper writing assistance"
+      ],
+      "zh": [
+        "文献综述自动化",
+        "研究数据分析",
+        "学术论文写作辅助"
+      ],
+      "ja": [
+        "文献レビューの自動化",
+        "研究データ分析",
+        "学術論文作成支援"
+      ],
+      "es": [
+        "Automatización de revisión de literatura",
+        "Análisis de datos de investigación",
+        "Asistencia en redacción de artículos académicos"
+      ],
+      "fr": [
+        "Automatisation de la revue de littérature",
+        "Analyse de données de recherche",
+        "Aide à la rédaction d'articles académiques"
+      ]
+    }
+  },
+  "horizon": {
+    "pros": {
+      "en": [
+        "Daily automated trend briefings",
+        "Multi-source information aggregation",
+        "Saves time on manual news checking"
+      ],
+      "zh": [
+        "每日自动趋势简报",
+        "多源信息聚合",
+        "节省手动查看新闻的时间"
+      ],
+      "ja": [
+        "毎日の自動トレンドブリーフィング",
+        "複数ソースの情報集約",
+        "手動ニュースチェックの時間を節約"
+      ],
+      "es": [
+        "Resúmenes de tendencias automatizados diarios",
+        "Agregación de información de múltiples fuentes",
+        "Ahorra tiempo en la verificación manual de noticias"
+      ],
+      "fr": [
+        "Briefings de tendances automatisés quotidiens",
+        "Agrégation d'informations multi-sources",
+        "Gagne du temps sur la vérification manuelle des actualités"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Chinese-focused content sources",
+        "May miss niche industry news",
+        "Requires internet access"
+      ],
+      "zh": [
+        "以中文内容源为主",
+        "可能错过小众行业新闻",
+        "需要互联网访问"
+      ],
+      "ja": [
+        "中国語のコンテンツソースが中心",
+        "ニッチな業界ニュースを見逃す可能性",
+        "インターネットアクセスが必要"
+      ],
+      "es": [
+        "Fuentes de contenido centradas en chino",
+        "Puede pasar por alto noticias de nicho de la industria",
+        "Requiere acceso a internet"
+      ],
+      "fr": [
+        "Sources de contenu centrées sur le chinois",
+        "Peut manquer des actualités de niche",
+        "Nécessite un accès Internet"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "Free",
+        "zh": "免费",
+        "ja": "無料",
+        "es": "Gratuito",
+        "fr": "Gratuit"
+      }
+    },
+    "verdict": {
+      "en": "A useful daily briefing tool for content creators who need to stay informed about trending topics. Essential for the content planning workflow.",
+      "zh": "对需要了解热门话题的内容创作者来说是一个有用的每日简报工具。内容策划工作流的必备工具。",
+      "ja": "トレンドトピックを常に把握する必要があるコンテンツクリエイターにとって有用な毎日のブリーフィングツール。",
+      "es": "Una herramienta de resumen diario útil para creadores de contenido que necesitan mantenerse informados sobre temas de tendencia.",
+      "fr": "Un outil de briefing quotidien utile pour les créateurs de contenu qui doivent rester informés des sujets tendance."
+    },
+    "useCases": {
+      "en": [
+        "Content planning",
+        "Trend monitoring",
+        "Competitive intelligence"
+      ],
+      "zh": [
+        "内容策划",
+        "趋势监控",
+        "竞争情报"
+      ],
+      "ja": [
+        "コンテンツ計画",
+        "トレンド監視",
+        "競合インテリジェンス"
+      ],
+      "es": [
+        "Planificación de contenido",
+        "Monitoreo de tendencias",
+        "Inteligencia competitiva"
+      ],
+      "fr": [
+        "Planification de contenu",
+        "Surveillance des tendances",
+        "Intelligence concurrentielle"
+      ]
+    }
+  },
+  "generative-media-skills": {
+    "pros": {
+      "en": [
+        "Multi-modal content generation",
+        "Single workflow for images, video, audio",
+        "Active development with 112 GitHub stars"
+      ],
+      "zh": [
+        "多模态内容生成",
+        "统一工作流处理图像、视频、音频",
+        "活跃开发，112 GitHub 星标"
+      ],
+      "ja": [
+        "マルチモーダルコンテンツ生成",
+        "画像、動画、音声の単一ワークフロー",
+        "活発な開発、112 GitHubスター"
+      ],
+      "es": [
+        "Generación de contenido multimodal",
+        "Flujo de trabajo único para imágenes, video y audio",
+        "Desarrollo activo con 112 estrellas GitHub"
+      ],
+      "fr": [
+        "Génération de contenu multimodale",
+        "Flux de travail unique pour images, vidéo et audio",
+        "Développement actif avec 112 étoiles GitHub"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Quality varies by media type",
+        "Requires API keys for some providers",
+        "Newer project with evolving features"
+      ],
+      "zh": [
+        "质量因媒体类型而异",
+        "部分供应商需要 API 密钥",
+        "较新的项目，功能在演进中"
+      ],
+      "ja": [
+        "品質はメディアタイプによって異なる",
+        "一部のプロバイダではAPIキーが必要",
+        "新しいプロジェクトで機能が進化中"
+      ],
+      "es": [
+        "La calidad varía según el tipo de medio",
+        "Requiere claves API para algunos proveedores",
+        "Proyecto más nuevo con funciones en evolución"
+      ],
+      "fr": [
+        "La qualité varie selon le type de média",
+        "Nécessite des clés API pour certains fournisseurs",
+        "Projet plus récent avec des fonctionnalités en évolution"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "Free and open source",
+        "zh": "免费开源",
+        "ja": "無料オープンソース",
+        "es": "Gratuito y de código abierto",
+        "fr": "Gratuit et open source"
+      }
+    },
+    "verdict": {
+      "en": "A practical multimodal content creation skill. Its unified workflow for images, video, and audio makes it a versatile tool for content creators.",
+      "zh": "一个实用的多模态内容创作技能。其统一的图像、视频、音频工作流使其成为内容创作者的多功能工具。",
+      "ja": "実用的なマルチモーダルコンテンツ制作スキル。画像、動画、音声の統一ワークフローにより、コンテンツクリエイターにとって多用途なツールです。",
+      "es": "Un skill práctico de creación de contenido multimodal. Su flujo de trabajo unificado para imágenes, video y audio lo convierte en una herramienta versátil para creadores de contenido.",
+      "fr": "Un skill pratique de création de contenu multimodale. Son flux de travail unifié pour les images, la vidéo et l'audio en fait un outil polyvalent pour les créateurs de contenu."
+    },
+    "useCases": {
+      "en": [
+        "Social media content creation",
+        "Multi-format asset generation",
+        "Rapid content prototyping"
+      ],
+      "zh": [
+        "社交媒体内容创作",
+        "多格式素材生成",
+        "快速内容原型设计"
+      ],
+      "ja": [
+        "ソーシャルメディアコンテンツ制作",
+        "マルチフォーマットアセット生成",
+        "迅速なコンテンツプロトタイピング"
+      ],
+      "es": [
+        "Creación de contenido para redes sociales",
+        "Generación de activos multi-formato",
+        "Prototipado rápido de contenido"
+      ],
+      "fr": [
+        "Création de contenu pour réseaux sociaux",
+        "Génération d'actifs multi-formats",
+        "Prototypage rapide de contenu"
+      ]
+    }
   }
 }
