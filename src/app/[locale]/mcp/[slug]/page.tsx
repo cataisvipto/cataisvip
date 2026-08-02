@@ -2,6 +2,7 @@ import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import McpDetailClient from './McpDetailClient';
 import mcpServers from '@/data/mcp.json';
+import mcpDetails from '@/data/mcpDetails.json';
 import { generateAlternates } from '@/lib/seo';
 import { routing } from '@/i18n/routing';
 
@@ -193,10 +194,11 @@ export default async function McpDetailPage({ params }: Props) {
   const readmeInstallHtml = await fetchReadmeInstallHtml(entry.repo, t('copyCommand'));
 
   return (
-    <McpDetailClient
-      server={entry}
-      locale={locale}
-      readmeInstallHtml={readmeInstallHtml ?? undefined}
-    />
-  );
+      <McpDetailClient
+        server={entry}
+        locale={locale}
+        details={(mcpDetails as Record<string, any>)[slug]}
+        readmeInstallHtml={readmeInstallHtml ?? undefined}
+      />
+    );
 }

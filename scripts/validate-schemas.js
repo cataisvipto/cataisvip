@@ -17,7 +17,9 @@ const TASKS = [
   { data: 'tools.json',       schema: 'tools.schema.json' },
   { data: 'toolDetails.json', schema: 'toolDetails.schema.json' },
   { data: 'skills.json',      schema: 'skills.schema.json' },
+  { data: 'skillDetails.json', schema: 'skillDetails.schema.json' },
   { data: 'mcp.json',         schema: 'mcp.schema.json' },
+  { data: 'mcpDetails.json',  schema: 'mcpDetails.schema.json' },
   { data: 'blogPosts.json',   schema: 'blogPosts.schema.json' },
 ];
 

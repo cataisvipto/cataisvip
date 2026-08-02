@@ -1,0 +1,1487 @@
+{
+  "awesome-selfhosted": {
+    "pros": {
+      "en": [
+        "Curated list of high-quality self-hosted software",
+        "Regularly updated with community contributions",
+        "Covers a wide range of categories and use cases"
+      ],
+      "zh": [
+        "精选高质量自托管软件列表",
+        "社区贡献定期更新",
+        "覆盖广泛类别和使用场景"
+      ],
+      "ja": [
+        "高品質なセルフホストソフトウェアのキュレーションリスト",
+        "コミュニティの貢献により定期的に更新",
+        "幅広いカテゴリとユースケースをカバー"
+      ],
+      "es": [
+        "Lista curada de software autohospedado de alta calidad",
+        "Actualizada regularmente con contribuciones de la comunidad",
+        "Cubre una amplia gama de categorías y casos de uso"
+      ],
+      "fr": [
+        "Liste organisée de logiciels auto-hébergés de haute qualité",
+        "Mise à jour régulière avec les contributions de la communauté",
+        "Couvre une large gamme de catégories et de cas d'utilisation"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Overwhelming number of options can be difficult to navigate",
+        "Some entries may lack maintenance or be outdated",
+        "No built-in quality scoring or user reviews"
+      ],
+      "zh": [
+        "选项过多可能难以浏览",
+        "部分条目可能缺乏维护或已过时",
+        "没有内置质量评分或用户评价"
+      ],
+      "ja": [
+        "選択肢が多すぎてナビゲートが難しい",
+        "一部のエントリはメンテナンス不足または古い可能性がある",
+        "品質スコアやユーザーレビューが組み込まれていない"
+      ],
+      "es": [
+        "La gran cantidad de opciones puede ser difícil de navegar",
+        "Algunas entradas pueden carecer de mantenimiento o estar desactualizadas",
+        "Sin puntuación de calidad ni reseñas de usuarios integradas"
+      ],
+      "fr": [
+        "Le nombre écrasant d'options peut être difficile à parcourir",
+        "Certaines entrées peuvent manquer de maintenance ou être obsolètes",
+        "Pas de notation de qualité ni d'avis d'utilisateurs intégrés"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "Free and open source",
+        "zh": "免费开源",
+        "ja": "無料オープンソース",
+        "es": "Gratuito y de código abierto",
+        "fr": "Gratuit et open source"
+      }
+    },
+    "verdict": {
+      "en": "The definitive starting point for anyone exploring self-hosted alternatives to SaaS products. Its breadth is unmatched, though the lack of curation signals means you'll need to do your own research before committing.",
+      "zh": "探索 SaaS 产品自托管替代方案的权威起点。广度无可匹敌，但缺乏质量信号，需要自己进一步调研。",
+      "ja": "SaaS製品のセルフホスト代替を探す人にとっての決定版。その幅広さは他に類を見ないが、品質シグナルがないため、導入前の調査は自分で行う必要がある。",
+      "es": "El punto de partida definitivo para cualquiera que explore alternativas autohospedadas a los productos SaaS. Su amplitud es inigualable, aunque la falta de señales de calidad significa que tendrás que investigar por tu cuenta antes de comprometerte.",
+      "fr": "Le point de départ définitif pour quiconque explore des alternatives auto-hébergées aux produits SaaS. Son ampleur est inégalée, mais l'absence de signaux de qualité signifie que vous devrez faire vos propres recherches avant de vous engager."
+    },
+    "useCases": {
+      "en": [
+        "Finding self-hosted alternatives to popular SaaS tools",
+        "Exploring open-source software options for personal or team use",
+        "Researching deployment options for specific software needs"
+      ],
+      "zh": [
+        "寻找流行 SaaS 工具的自托管替代方案",
+        "探索个人或团队使用的开源软件选项",
+        "研究特定软件需求的部署方案"
+      ],
+      "ja": [
+        "人気SaaSツールのセルフホスト代替を探す",
+        "個人やチーム向けのオープンソースソフトウェアを探す",
+        "特定のソフトウェアニーズのデプロイオプションを調査"
+      ],
+      "es": [
+        "Encontrar alternativas autohospedadas a herramientas SaaS populares",
+        "Explorar opciones de software de código abierto para uso personal o en equipo",
+        "Investigar opciones de implementación para necesidades de software específicas"
+      ],
+      "fr": [
+        "Trouver des alternatives auto-hébergées aux outils SaaS populaires",
+        "Explorer les options de logiciels open source pour un usage personnel ou en équipe",
+        "Rechercher des options de déploiement pour des besoins logiciels spécifiques"
+      ]
+    }
+  },
+  "superpowers": {
+    "pros": {
+      "en": [
+        "Superpowers integrates seamlessly into development workflows",
+        "Open source with active community support",
+        "Regular updates and feature improvements"
+      ],
+      "zh": [
+        "Superpowers 无缝集成到开发工作流",
+        "开源，社区活跃支持",
+        "定期更新和功能改进"
+      ],
+      "ja": [
+        "Superpowers は開発ワークフローにシームレスに統合",
+        "オープンソースで活発なコミュニティサポート",
+        "定期的な更新と機能改善"
+      ],
+      "es": [
+        "Superpowers se integra perfectamente en flujos de trabajo de desarrollo",
+        "Código abierto con soporte activo de la comunidad",
+        "Actualizaciones regulares y mejoras de funciones"
+      ],
+      "fr": [
+        "Superpowers s'intègre parfaitement dans les flux de travail de développement",
+        "Open source avec support actif de la communauté",
+        "Mises à jour régulières et améliorations de fonctionnalités"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Superpowers requires some learning to use effectively",
+        "Documentation could be more comprehensive",
+        "May need additional tools for full workflow"
+      ],
+      "zh": [
+        "Superpowers 需要一定学习成本",
+        "文档可以更全面",
+        "可能需要额外工具完成完整工作流"
+      ],
+      "ja": [
+        "Superpowers を効果的に使用するには学習が必要",
+        "ドキュメントはより包括的である可能性がある",
+        "完全なワークフローには追加ツールが必要な場合がある"
+      ],
+      "es": [
+        "Superpowers requiere algo de aprendizaje para usarlo efectivamente",
+        "La documentación podría ser más completa",
+        "Puede necesitar herramientas adicionales para un flujo de trabajo completo"
+      ],
+      "fr": [
+        "Superpowers nécessite un certain apprentissage pour être utilisé efficacement",
+        "La documentation pourrait être plus complète",
+        "Peut nécessiter des outils supplémentaires pour un flux de travail complet"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "Free and open source",
+        "zh": "免费开源",
+        "ja": "無料オープンソース",
+        "es": "Gratuito y de código abierto",
+        "fr": "Gratuit et open source"
+      }
+    },
+    "verdict": {
+      "en": "Superpowers is a valuable addition to any AI agent toolkit. Its open-source nature and active development make it a reliable choice for both personal and professional use.",
+      "zh": "Superpowers 是任何 AI 智能体工具包的有价值补充。其开源特性和活跃的开发使其成为个人和专业使用的可靠选择。",
+      "ja": "Superpowers はAIエージェントのツールキットへの貴重な追加です。オープンソースの性質と活発な開発により、個人用・業務用ともに信頼できる選択肢です。",
+      "es": "Superpowers es una adición valiosa al kit de herramientas de cualquier agente de IA. Su naturaleza de código abierto y desarrollo activo lo convierten en una opción confiable tanto para uso personal como profesional.",
+      "fr": "Superpowers est un ajout précieux à la boîte à outils de tout agent IA. Sa nature open source et son développement actif en font un choix fiable pour un usage personnel et professionnel."
+    },
+    "useCases": {
+      "en": [
+        "Using Superpowers with Claude, Cursor, and other AI agents",
+        "Integrating Superpowers into existing development workflows",
+        "Automating developer tasks with AI assistance"
+      ],
+      "zh": [
+        "在 Claude、Cursor 等 AI 智能体中使用 Superpowers",
+        "将 Superpowers 集成到现有开发工作流",
+        "使用 AI 辅助自动化 开发 任务"
+      ],
+      "ja": [
+        "Claude、CursorなどのAIエージェントでSuperpowersを使用",
+        "Superpowersを既存の開発ワークフローに統合",
+        "AI支援による開発タスクの自動化"
+      ],
+      "es": [
+        "Usando Superpowers con Claude, Cursor y otros agentes de IA",
+        "Integrando Superpowers en flujos de trabajo de desarrollo existentes",
+        "Automatizando tareas de developer con asistencia de IA"
+      ],
+      "fr": [
+        "Utilisation de Superpowers avec Claude, Cursor et d'autres agents IA",
+        "Intégration de Superpowers dans les flux de travail de développement existants",
+        "Automatisation des tâches developer avec l'assistance IA"
+      ]
+    }
+  },
+  "banner-design": {
+    "pros": {
+      "en": [
+        "Banner Design integrates seamlessly into development workflows",
+        "Open source with active community support",
+        "Regular updates and feature improvements"
+      ],
+      "zh": [
+        "Banner Design 无缝集成到开发工作流",
+        "开源，社区活跃支持",
+        "定期更新和功能改进"
+      ],
+      "ja": [
+        "Banner Design は開発ワークフローにシームレスに統合",
+        "オープンソースで活発なコミュニティサポート",
+        "定期的な更新と機能改善"
+      ],
+      "es": [
+        "Banner Design se integra perfectamente en flujos de trabajo de desarrollo",
+        "Código abierto con soporte activo de la comunidad",
+        "Actualizaciones regulares y mejoras de funciones"
+      ],
+      "fr": [
+        "Banner Design s'intègre parfaitement dans les flux de travail de développement",
+        "Open source avec support actif de la communauté",
+        "Mises à jour régulières et améliorations de fonctionnalités"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Banner Design requires some learning to use effectively",
+        "Documentation could be more comprehensive",
+        "May need additional tools for full workflow"
+      ],
+      "zh": [
+        "Banner Design 需要一定学习成本",
+        "文档可以更全面",
+        "可能需要额外工具完成完整工作流"
+      ],
+      "ja": [
+        "Banner Design を効果的に使用するには学習が必要",
+        "ドキュメントはより包括的である可能性がある",
+        "完全なワークフローには追加ツールが必要な場合がある"
+      ],
+      "es": [
+        "Banner Design requiere algo de aprendizaje para usarlo efectivamente",
+        "La documentación podría ser más completa",
+        "Puede necesitar herramientas adicionales para un flujo de trabajo completo"
+      ],
+      "fr": [
+        "Banner Design nécessite un certain apprentissage pour être utilisé efficacement",
+        "La documentation pourrait être plus complète",
+        "Peut nécessiter des outils supplémentaires pour un flux de travail complet"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "Free and open source",
+        "zh": "免费开源",
+        "ja": "無料オープンソース",
+        "es": "Gratuito y de código abierto",
+        "fr": "Gratuit et open source"
+      }
+    },
+    "verdict": {
+      "en": "Banner Design is a valuable addition to any AI agent toolkit. Its open-source nature and active development make it a reliable choice for both personal and professional use.",
+      "zh": "Banner Design 是任何 AI 智能体工具包的有价值补充。其开源特性和活跃的开发使其成为个人和专业使用的可靠选择。",
+      "ja": "Banner Design はAIエージェントのツールキットへの貴重な追加です。オープンソースの性質と活発な開発により、個人用・業務用ともに信頼できる選択肢です。",
+      "es": "Banner Design es una adición valiosa al kit de herramientas de cualquier agente de IA. Su naturaleza de código abierto y desarrollo activo lo convierten en una opción confiable tanto para uso personal como profesional.",
+      "fr": "Banner Design est un ajout précieux à la boîte à outils de tout agent IA. Sa nature open source et son développement actif en font un choix fiable pour un usage personnel et professionnel."
+    },
+    "useCases": {
+      "en": [
+        "Using Banner Design with Claude, Cursor, and other AI agents",
+        "Integrating Banner Design into existing development workflows",
+        "Automating design tasks with AI assistance"
+      ],
+      "zh": [
+        "在 Claude、Cursor 等 AI 智能体中使用 Banner Design",
+        "将 Banner Design 集成到现有开发工作流",
+        "使用 AI 辅助自动化 Design 任务"
+      ],
+      "ja": [
+        "Claude、CursorなどのAIエージェントでBanner Designを使用",
+        "Banner Designを既存の開発ワークフローに統合",
+        "AI支援によるDesignタスクの自動化"
+      ],
+      "es": [
+        "Usando Banner Design con Claude, Cursor y otros agentes de IA",
+        "Integrando Banner Design en flujos de trabajo de desarrollo existentes",
+        "Automatizando tareas de design con asistencia de IA"
+      ],
+      "fr": [
+        "Utilisation de Banner Design avec Claude, Cursor et d'autres agents IA",
+        "Intégration de Banner Design dans les flux de travail de développement existants",
+        "Automatisation des tâches design avec l'assistance IA"
+      ]
+    }
+  },
+  "brand": {
+    "pros": {
+      "en": [
+        "Brand integrates seamlessly into development workflows",
+        "Open source with active community support",
+        "Regular updates and feature improvements"
+      ],
+      "zh": [
+        "Brand 无缝集成到开发工作流",
+        "开源，社区活跃支持",
+        "定期更新和功能改进"
+      ],
+      "ja": [
+        "Brand は開発ワークフローにシームレスに統合",
+        "オープンソースで活発なコミュニティサポート",
+        "定期的な更新と機能改善"
+      ],
+      "es": [
+        "Brand se integra perfectamente en flujos de trabajo de desarrollo",
+        "Código abierto con soporte activo de la comunidad",
+        "Actualizaciones regulares y mejoras de funciones"
+      ],
+      "fr": [
+        "Brand s'intègre parfaitement dans les flux de travail de développement",
+        "Open source avec support actif de la communauté",
+        "Mises à jour régulières et améliorations de fonctionnalités"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Brand requires some learning to use effectively",
+        "Documentation could be more comprehensive",
+        "May need additional tools for full workflow"
+      ],
+      "zh": [
+        "Brand 需要一定学习成本",
+        "文档可以更全面",
+        "可能需要额外工具完成完整工作流"
+      ],
+      "ja": [
+        "Brand を効果的に使用するには学習が必要",
+        "ドキュメントはより包括的である可能性がある",
+        "完全なワークフローには追加ツールが必要な場合がある"
+      ],
+      "es": [
+        "Brand requiere algo de aprendizaje para usarlo efectivamente",
+        "La documentación podría ser más completa",
+        "Puede necesitar herramientas adicionales para un flujo de trabajo completo"
+      ],
+      "fr": [
+        "Brand nécessite un certain apprentissage pour être utilisé efficacement",
+        "La documentation pourrait être plus complète",
+        "Peut nécessiter des outils supplémentaires pour un flux de travail complet"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "Free and open source",
+        "zh": "免费开源",
+        "ja": "無料オープンソース",
+        "es": "Gratuito y de código abierto",
+        "fr": "Gratuit et open source"
+      }
+    },
+    "verdict": {
+      "en": "Brand is a valuable addition to any AI agent toolkit. Its open-source nature and active development make it a reliable choice for both personal and professional use.",
+      "zh": "Brand 是任何 AI 智能体工具包的有价值补充。其开源特性和活跃的开发使其成为个人和专业使用的可靠选择。",
+      "ja": "Brand はAIエージェントのツールキットへの貴重な追加です。オープンソースの性質と活発な開発により、個人用・業務用ともに信頼できる選択肢です。",
+      "es": "Brand es una adición valiosa al kit de herramientas de cualquier agente de IA. Su naturaleza de código abierto y desarrollo activo lo convierten en una opción confiable tanto para uso personal como profesional.",
+      "fr": "Brand est un ajout précieux à la boîte à outils de tout agent IA. Sa nature open source et son développement actif en font un choix fiable pour un usage personnel et professionnel."
+    },
+    "useCases": {
+      "en": [
+        "Using Brand with Claude, Cursor, and other AI agents",
+        "Integrating Brand into existing development workflows",
+        "Automating design tasks with AI assistance"
+      ],
+      "zh": [
+        "在 Claude、Cursor 等 AI 智能体中使用 Brand",
+        "将 Brand 集成到现有开发工作流",
+        "使用 AI 辅助自动化 Design 任务"
+      ],
+      "ja": [
+        "Claude、CursorなどのAIエージェントでBrandを使用",
+        "Brandを既存の開発ワークフローに統合",
+        "AI支援によるDesignタスクの自動化"
+      ],
+      "es": [
+        "Usando Brand con Claude, Cursor y otros agentes de IA",
+        "Integrando Brand en flujos de trabajo de desarrollo existentes",
+        "Automatizando tareas de design con asistencia de IA"
+      ],
+      "fr": [
+        "Utilisation de Brand avec Claude, Cursor et d'autres agents IA",
+        "Intégration de Brand dans les flux de travail de développement existants",
+        "Automatisation des tâches design avec l'assistance IA"
+      ]
+    }
+  },
+  "design": {
+    "pros": {
+      "en": [
+        "Design integrates seamlessly into development workflows",
+        "Open source with active community support",
+        "Regular updates and feature improvements"
+      ],
+      "zh": [
+        "Design 无缝集成到开发工作流",
+        "开源，社区活跃支持",
+        "定期更新和功能改进"
+      ],
+      "ja": [
+        "Design は開発ワークフローにシームレスに統合",
+        "オープンソースで活発なコミュニティサポート",
+        "定期的な更新と機能改善"
+      ],
+      "es": [
+        "Design se integra perfectamente en flujos de trabajo de desarrollo",
+        "Código abierto con soporte activo de la comunidad",
+        "Actualizaciones regulares y mejoras de funciones"
+      ],
+      "fr": [
+        "Design s'intègre parfaitement dans les flux de travail de développement",
+        "Open source avec support actif de la communauté",
+        "Mises à jour régulières et améliorations de fonctionnalités"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Design requires some learning to use effectively",
+        "Documentation could be more comprehensive",
+        "May need additional tools for full workflow"
+      ],
+      "zh": [
+        "Design 需要一定学习成本",
+        "文档可以更全面",
+        "可能需要额外工具完成完整工作流"
+      ],
+      "ja": [
+        "Design を効果的に使用するには学習が必要",
+        "ドキュメントはより包括的である可能性がある",
+        "完全なワークフローには追加ツールが必要な場合がある"
+      ],
+      "es": [
+        "Design requiere algo de aprendizaje para usarlo efectivamente",
+        "La documentación podría ser más completa",
+        "Puede necesitar herramientas adicionales para un flujo de trabajo completo"
+      ],
+      "fr": [
+        "Design nécessite un certain apprentissage pour être utilisé efficacement",
+        "La documentation pourrait être plus complète",
+        "Peut nécessiter des outils supplémentaires pour un flux de travail complet"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "Free and open source",
+        "zh": "免费开源",
+        "ja": "無料オープンソース",
+        "es": "Gratuito y de código abierto",
+        "fr": "Gratuit et open source"
+      }
+    },
+    "verdict": {
+      "en": "Design is a valuable addition to any AI agent toolkit. Its open-source nature and active development make it a reliable choice for both personal and professional use.",
+      "zh": "Design 是任何 AI 智能体工具包的有价值补充。其开源特性和活跃的开发使其成为个人和专业使用的可靠选择。",
+      "ja": "Design はAIエージェントのツールキットへの貴重な追加です。オープンソースの性質と活発な開発により、個人用・業務用ともに信頼できる選択肢です。",
+      "es": "Design es una adición valiosa al kit de herramientas de cualquier agente de IA. Su naturaleza de código abierto y desarrollo activo lo convierten en una opción confiable tanto para uso personal como profesional.",
+      "fr": "Design est un ajout précieux à la boîte à outils de tout agent IA. Sa nature open source et son développement actif en font un choix fiable pour un usage personnel et professionnel."
+    },
+    "useCases": {
+      "en": [
+        "Using Design with Claude, Cursor, and other AI agents",
+        "Integrating Design into existing development workflows",
+        "Automating design tasks with AI assistance"
+      ],
+      "zh": [
+        "在 Claude、Cursor 等 AI 智能体中使用 Design",
+        "将 Design 集成到现有开发工作流",
+        "使用 AI 辅助自动化 Design 任务"
+      ],
+      "ja": [
+        "Claude、CursorなどのAIエージェントでDesignを使用",
+        "Designを既存の開発ワークフローに統合",
+        "AI支援によるDesignタスクの自動化"
+      ],
+      "es": [
+        "Usando Design con Claude, Cursor y otros agentes de IA",
+        "Integrando Design en flujos de trabajo de desarrollo existentes",
+        "Automatizando tareas de design con asistencia de IA"
+      ],
+      "fr": [
+        "Utilisation de Design avec Claude, Cursor et d'autres agents IA",
+        "Intégration de Design dans les flux de travail de développement existants",
+        "Automatisation des tâches design avec l'assistance IA"
+      ]
+    }
+  },
+  "design-system": {
+    "pros": {
+      "en": [
+        "Design System integrates seamlessly into development workflows",
+        "Open source with active community support",
+        "Regular updates and feature improvements"
+      ],
+      "zh": [
+        "Design System 无缝集成到开发工作流",
+        "开源，社区活跃支持",
+        "定期更新和功能改进"
+      ],
+      "ja": [
+        "Design System は開発ワークフローにシームレスに統合",
+        "オープンソースで活発なコミュニティサポート",
+        "定期的な更新と機能改善"
+      ],
+      "es": [
+        "Design System se integra perfectamente en flujos de trabajo de desarrollo",
+        "Código abierto con soporte activo de la comunidad",
+        "Actualizaciones regulares y mejoras de funciones"
+      ],
+      "fr": [
+        "Design System s'intègre parfaitement dans les flux de travail de développement",
+        "Open source avec support actif de la communauté",
+        "Mises à jour régulières et améliorations de fonctionnalités"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Design System requires some learning to use effectively",
+        "Documentation could be more comprehensive",
+        "May need additional tools for full workflow"
+      ],
+      "zh": [
+        "Design System 需要一定学习成本",
+        "文档可以更全面",
+        "可能需要额外工具完成完整工作流"
+      ],
+      "ja": [
+        "Design System を効果的に使用するには学習が必要",
+        "ドキュメントはより包括的である可能性がある",
+        "完全なワークフローには追加ツールが必要な場合がある"
+      ],
+      "es": [
+        "Design System requiere algo de aprendizaje para usarlo efectivamente",
+        "La documentación podría ser más completa",
+        "Puede necesitar herramientas adicionales para un flujo de trabajo completo"
+      ],
+      "fr": [
+        "Design System nécessite un certain apprentissage pour être utilisé efficacement",
+        "La documentation pourrait être plus complète",
+        "Peut nécessiter des outils supplémentaires pour un flux de travail complet"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "Free and open source",
+        "zh": "免费开源",
+        "ja": "無料オープンソース",
+        "es": "Gratuito y de código abierto",
+        "fr": "Gratuit et open source"
+      }
+    },
+    "verdict": {
+      "en": "Design System is a valuable addition to any AI agent toolkit. Its open-source nature and active development make it a reliable choice for both personal and professional use.",
+      "zh": "Design System 是任何 AI 智能体工具包的有价值补充。其开源特性和活跃的开发使其成为个人和专业使用的可靠选择。",
+      "ja": "Design System はAIエージェントのツールキットへの貴重な追加です。オープンソースの性質と活発な開発により、個人用・業務用ともに信頼できる選択肢です。",
+      "es": "Design System es una adición valiosa al kit de herramientas de cualquier agente de IA. Su naturaleza de código abierto y desarrollo activo lo convierten en una opción confiable tanto para uso personal como profesional.",
+      "fr": "Design System est un ajout précieux à la boîte à outils de tout agent IA. Sa nature open source et son développement actif en font un choix fiable pour un usage personnel et professionnel."
+    },
+    "useCases": {
+      "en": [
+        "Using Design System with Claude, Cursor, and other AI agents",
+        "Integrating Design System into existing development workflows",
+        "Automating design tasks with AI assistance"
+      ],
+      "zh": [
+        "在 Claude、Cursor 等 AI 智能体中使用 Design System",
+        "将 Design System 集成到现有开发工作流",
+        "使用 AI 辅助自动化 Design 任务"
+      ],
+      "ja": [
+        "Claude、CursorなどのAIエージェントでDesign Systemを使用",
+        "Design Systemを既存の開発ワークフローに統合",
+        "AI支援によるDesignタスクの自動化"
+      ],
+      "es": [
+        "Usando Design System con Claude, Cursor y otros agentes de IA",
+        "Integrando Design System en flujos de trabajo de desarrollo existentes",
+        "Automatizando tareas de design con asistencia de IA"
+      ],
+      "fr": [
+        "Utilisation de Design System avec Claude, Cursor et d'autres agents IA",
+        "Intégration de Design System dans les flux de travail de développement existants",
+        "Automatisation des tâches design avec l'assistance IA"
+      ]
+    }
+  },
+  "slides": {
+    "pros": {
+      "en": [
+        "Slides integrates seamlessly into development workflows",
+        "Open source with active community support",
+        "Regular updates and feature improvements"
+      ],
+      "zh": [
+        "Slides 无缝集成到开发工作流",
+        "开源，社区活跃支持",
+        "定期更新和功能改进"
+      ],
+      "ja": [
+        "Slides は開発ワークフローにシームレスに統合",
+        "オープンソースで活発なコミュニティサポート",
+        "定期的な更新と機能改善"
+      ],
+      "es": [
+        "Slides se integra perfectamente en flujos de trabajo de desarrollo",
+        "Código abierto con soporte activo de la comunidad",
+        "Actualizaciones regulares y mejoras de funciones"
+      ],
+      "fr": [
+        "Slides s'intègre parfaitement dans les flux de travail de développement",
+        "Open source avec support actif de la communauté",
+        "Mises à jour régulières et améliorations de fonctionnalités"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Slides requires some learning to use effectively",
+        "Documentation could be more comprehensive",
+        "May need additional tools for full workflow"
+      ],
+      "zh": [
+        "Slides 需要一定学习成本",
+        "文档可以更全面",
+        "可能需要额外工具完成完整工作流"
+      ],
+      "ja": [
+        "Slides を効果的に使用するには学習が必要",
+        "ドキュメントはより包括的である可能性がある",
+        "完全なワークフローには追加ツールが必要な場合がある"
+      ],
+      "es": [
+        "Slides requiere algo de aprendizaje para usarlo efectivamente",
+        "La documentación podría ser más completa",
+        "Puede necesitar herramientas adicionales para un flujo de trabajo completo"
+      ],
+      "fr": [
+        "Slides nécessite un certain apprentissage pour être utilisé efficacement",
+        "La documentation pourrait être plus complète",
+        "Peut nécessiter des outils supplémentaires pour un flux de travail complet"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "Free and open source",
+        "zh": "免费开源",
+        "ja": "無料オープンソース",
+        "es": "Gratuito y de código abierto",
+        "fr": "Gratuit et open source"
+      }
+    },
+    "verdict": {
+      "en": "Slides is a valuable addition to any AI agent toolkit. Its open-source nature and active development make it a reliable choice for both personal and professional use.",
+      "zh": "Slides 是任何 AI 智能体工具包的有价值补充。其开源特性和活跃的开发使其成为个人和专业使用的可靠选择。",
+      "ja": "Slides はAIエージェントのツールキットへの貴重な追加です。オープンソースの性質と活発な開発により、個人用・業務用ともに信頼できる選択肢です。",
+      "es": "Slides es una adición valiosa al kit de herramientas de cualquier agente de IA. Su naturaleza de código abierto y desarrollo activo lo convierten en una opción confiable tanto para uso personal como profesional.",
+      "fr": "Slides est un ajout précieux à la boîte à outils de tout agent IA. Sa nature open source et son développement actif en font un choix fiable pour un usage personnel et professionnel."
+    },
+    "useCases": {
+      "en": [
+        "Using Slides with Claude, Cursor, and other AI agents",
+        "Integrating Slides into existing development workflows",
+        "Automating design tasks with AI assistance"
+      ],
+      "zh": [
+        "在 Claude、Cursor 等 AI 智能体中使用 Slides",
+        "将 Slides 集成到现有开发工作流",
+        "使用 AI 辅助自动化 Design 任务"
+      ],
+      "ja": [
+        "Claude、CursorなどのAIエージェントでSlidesを使用",
+        "Slidesを既存の開発ワークフローに統合",
+        "AI支援によるDesignタスクの自動化"
+      ],
+      "es": [
+        "Usando Slides con Claude, Cursor y otros agentes de IA",
+        "Integrando Slides en flujos de trabajo de desarrollo existentes",
+        "Automatizando tareas de design con asistencia de IA"
+      ],
+      "fr": [
+        "Utilisation de Slides avec Claude, Cursor et d'autres agents IA",
+        "Intégration de Slides dans les flux de travail de développement existants",
+        "Automatisation des tâches design avec l'assistance IA"
+      ]
+    }
+  },
+  "ui-styling": {
+    "pros": {
+      "en": [
+        "UI Styling integrates seamlessly into development workflows",
+        "Open source with active community support",
+        "Regular updates and feature improvements"
+      ],
+      "zh": [
+        "UI Styling 无缝集成到开发工作流",
+        "开源，社区活跃支持",
+        "定期更新和功能改进"
+      ],
+      "ja": [
+        "UI Styling は開発ワークフローにシームレスに統合",
+        "オープンソースで活発なコミュニティサポート",
+        "定期的な更新と機能改善"
+      ],
+      "es": [
+        "UI Styling se integra perfectamente en flujos de trabajo de desarrollo",
+        "Código abierto con soporte activo de la comunidad",
+        "Actualizaciones regulares y mejoras de funciones"
+      ],
+      "fr": [
+        "UI Styling s'intègre parfaitement dans les flux de travail de développement",
+        "Open source avec support actif de la communauté",
+        "Mises à jour régulières et améliorations de fonctionnalités"
+      ]
+    },
+    "cons": {
+      "en": [
+        "UI Styling requires some learning to use effectively",
+        "Documentation could be more comprehensive",
+        "May need additional tools for full workflow"
+      ],
+      "zh": [
+        "UI Styling 需要一定学习成本",
+        "文档可以更全面",
+        "可能需要额外工具完成完整工作流"
+      ],
+      "ja": [
+        "UI Styling を効果的に使用するには学習が必要",
+        "ドキュメントはより包括的である可能性がある",
+        "完全なワークフローには追加ツールが必要な場合がある"
+      ],
+      "es": [
+        "UI Styling requiere algo de aprendizaje para usarlo efectivamente",
+        "La documentación podría ser más completa",
+        "Puede necesitar herramientas adicionales para un flujo de trabajo completo"
+      ],
+      "fr": [
+        "UI Styling nécessite un certain apprentissage pour être utilisé efficacement",
+        "La documentation pourrait être plus complète",
+        "Peut nécessiter des outils supplémentaires pour un flux de travail complet"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "Free and open source",
+        "zh": "免费开源",
+        "ja": "無料オープンソース",
+        "es": "Gratuito y de código abierto",
+        "fr": "Gratuit et open source"
+      }
+    },
+    "verdict": {
+      "en": "UI Styling is a valuable addition to any AI agent toolkit. Its open-source nature and active development make it a reliable choice for both personal and professional use.",
+      "zh": "UI Styling 是任何 AI 智能体工具包的有价值补充。其开源特性和活跃的开发使其成为个人和专业使用的可靠选择。",
+      "ja": "UI Styling はAIエージェントのツールキットへの貴重な追加です。オープンソースの性質と活発な開発により、個人用・業務用ともに信頼できる選択肢です。",
+      "es": "UI Styling es una adición valiosa al kit de herramientas de cualquier agente de IA. Su naturaleza de código abierto y desarrollo activo lo convierten en una opción confiable tanto para uso personal como profesional.",
+      "fr": "UI Styling est un ajout précieux à la boîte à outils de tout agent IA. Sa nature open source et son développement actif en font un choix fiable pour un usage personnel et professionnel."
+    },
+    "useCases": {
+      "en": [
+        "Using UI Styling with Claude, Cursor, and other AI agents",
+        "Integrating UI Styling into existing development workflows",
+        "Automating design tasks with AI assistance"
+      ],
+      "zh": [
+        "在 Claude、Cursor 等 AI 智能体中使用 UI Styling",
+        "将 UI Styling 集成到现有开发工作流",
+        "使用 AI 辅助自动化 Design 任务"
+      ],
+      "ja": [
+        "Claude、CursorなどのAIエージェントでUI Stylingを使用",
+        "UI Stylingを既存の開発ワークフローに統合",
+        "AI支援によるDesignタスクの自動化"
+      ],
+      "es": [
+        "Usando UI Styling con Claude, Cursor y otros agentes de IA",
+        "Integrando UI Styling en flujos de trabajo de desarrollo existentes",
+        "Automatizando tareas de design con asistencia de IA"
+      ],
+      "fr": [
+        "Utilisation de UI Styling avec Claude, Cursor et d'autres agents IA",
+        "Intégration de UI Styling dans les flux de travail de développement existants",
+        "Automatisation des tâches design avec l'assistance IA"
+      ]
+    }
+  },
+  "agent-reach": {
+    "pros": {
+      "en": [
+        "Agent Reach integrates seamlessly into development workflows",
+        "Open source with active community support",
+        "Regular updates and feature improvements"
+      ],
+      "zh": [
+        "Agent Reach 无缝集成到开发工作流",
+        "开源，社区活跃支持",
+        "定期更新和功能改进"
+      ],
+      "ja": [
+        "Agent Reach は開発ワークフローにシームレスに統合",
+        "オープンソースで活発なコミュニティサポート",
+        "定期的な更新と機能改善"
+      ],
+      "es": [
+        "Agent Reach se integra perfectamente en flujos de trabajo de desarrollo",
+        "Código abierto con soporte activo de la comunidad",
+        "Actualizaciones regulares y mejoras de funciones"
+      ],
+      "fr": [
+        "Agent Reach s'intègre parfaitement dans les flux de travail de développement",
+        "Open source avec support actif de la communauté",
+        "Mises à jour régulières et améliorations de fonctionnalités"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Agent Reach requires some learning to use effectively",
+        "Documentation could be more comprehensive",
+        "May need additional tools for full workflow"
+      ],
+      "zh": [
+        "Agent Reach 需要一定学习成本",
+        "文档可以更全面",
+        "可能需要额外工具完成完整工作流"
+      ],
+      "ja": [
+        "Agent Reach を効果的に使用するには学習が必要",
+        "ドキュメントはより包括的である可能性がある",
+        "完全なワークフローには追加ツールが必要な場合がある"
+      ],
+      "es": [
+        "Agent Reach requiere algo de aprendizaje para usarlo efectivamente",
+        "La documentación podría ser más completa",
+        "Puede necesitar herramientas adicionales para un flujo de trabajo completo"
+      ],
+      "fr": [
+        "Agent Reach nécessite un certain apprentissage pour être utilisé efficacement",
+        "La documentation pourrait être plus complète",
+        "Peut nécessiter des outils supplémentaires pour un flux de travail complet"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "Free and open source",
+        "zh": "免费开源",
+        "ja": "無料オープンソース",
+        "es": "Gratuito y de código abierto",
+        "fr": "Gratuit et open source"
+      }
+    },
+    "verdict": {
+      "en": "Agent Reach is a valuable addition to any AI agent toolkit. Its open-source nature and active development make it a reliable choice for both personal and professional use.",
+      "zh": "Agent Reach 是任何 AI 智能体工具包的有价值补充。其开源特性和活跃的开发使其成为个人和专业使用的可靠选择。",
+      "ja": "Agent Reach はAIエージェントのツールキットへの貴重な追加です。オープンソースの性質と活発な開発により、個人用・業務用ともに信頼できる選択肢です。",
+      "es": "Agent Reach es una adición valiosa al kit de herramientas de cualquier agente de IA. Su naturaleza de código abierto y desarrollo activo lo convierten en una opción confiable tanto para uso personal como profesional.",
+      "fr": "Agent Reach est un ajout précieux à la boîte à outils de tout agent IA. Sa nature open source et son développement actif en font un choix fiable pour un usage personnel et professionnel."
+    },
+    "useCases": {
+      "en": [
+        "Using Agent Reach with Claude, Cursor, and other AI agents",
+        "Integrating Agent Reach into existing development workflows",
+        "Automating platform tasks with AI assistance"
+      ],
+      "zh": [
+        "在 Claude、Cursor 等 AI 智能体中使用 Agent Reach",
+        "将 Agent Reach 集成到现有开发工作流",
+        "使用 AI 辅助自动化 Platform 任务"
+      ],
+      "ja": [
+        "Claude、CursorなどのAIエージェントでAgent Reachを使用",
+        "Agent Reachを既存の開発ワークフローに統合",
+        "AI支援によるPlatformタスクの自動化"
+      ],
+      "es": [
+        "Usando Agent Reach con Claude, Cursor y otros agentes de IA",
+        "Integrando Agent Reach en flujos de trabajo de desarrollo existentes",
+        "Automatizando tareas de platform con asistencia de IA"
+      ],
+      "fr": [
+        "Utilisation de Agent Reach avec Claude, Cursor et d'autres agents IA",
+        "Intégration de Agent Reach dans les flux de travail de développement existants",
+        "Automatisation des tâches platform avec l'assistance IA"
+      ]
+    }
+  },
+  "media-crawler": {
+    "pros": {
+      "en": [
+        "Media Crawler integrates seamlessly into development workflows",
+        "Open source with active community support",
+        "Regular updates and feature improvements"
+      ],
+      "zh": [
+        "Media Crawler 无缝集成到开发工作流",
+        "开源，社区活跃支持",
+        "定期更新和功能改进"
+      ],
+      "ja": [
+        "Media Crawler は開発ワークフローにシームレスに統合",
+        "オープンソースで活発なコミュニティサポート",
+        "定期的な更新と機能改善"
+      ],
+      "es": [
+        "Media Crawler se integra perfectamente en flujos de trabajo de desarrollo",
+        "Código abierto con soporte activo de la comunidad",
+        "Actualizaciones regulares y mejoras de funciones"
+      ],
+      "fr": [
+        "Media Crawler s'intègre parfaitement dans les flux de travail de développement",
+        "Open source avec support actif de la communauté",
+        "Mises à jour régulières et améliorations de fonctionnalités"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Media Crawler requires some learning to use effectively",
+        "Documentation could be more comprehensive",
+        "May need additional tools for full workflow"
+      ],
+      "zh": [
+        "Media Crawler 需要一定学习成本",
+        "文档可以更全面",
+        "可能需要额外工具完成完整工作流"
+      ],
+      "ja": [
+        "Media Crawler を効果的に使用するには学習が必要",
+        "ドキュメントはより包括的である可能性がある",
+        "完全なワークフローには追加ツールが必要な場合がある"
+      ],
+      "es": [
+        "Media Crawler requiere algo de aprendizaje para usarlo efectivamente",
+        "La documentación podría ser más completa",
+        "Puede necesitar herramientas adicionales para un flujo de trabajo completo"
+      ],
+      "fr": [
+        "Media Crawler nécessite un certain apprentissage pour être utilisé efficacement",
+        "La documentation pourrait être plus complète",
+        "Peut nécessiter des outils supplémentaires pour un flux de travail complet"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "Free and open source",
+        "zh": "免费开源",
+        "ja": "無料オープンソース",
+        "es": "Gratuito y de código abierto",
+        "fr": "Gratuit et open source"
+      }
+    },
+    "verdict": {
+      "en": "Media Crawler is a valuable addition to any AI agent toolkit. Its open-source nature and active development make it a reliable choice for both personal and professional use.",
+      "zh": "Media Crawler 是任何 AI 智能体工具包的有价值补充。其开源特性和活跃的开发使其成为个人和专业使用的可靠选择。",
+      "ja": "Media Crawler はAIエージェントのツールキットへの貴重な追加です。オープンソースの性質と活発な開発により、個人用・業務用ともに信頼できる選択肢です。",
+      "es": "Media Crawler es una adición valiosa al kit de herramientas de cualquier agente de IA. Su naturaleza de código abierto y desarrollo activo lo convierten en una opción confiable tanto para uso personal como profesional.",
+      "fr": "Media Crawler est un ajout précieux à la boîte à outils de tout agent IA. Sa nature open source et son développement actif en font un choix fiable pour un usage personnel et professionnel."
+    },
+    "useCases": {
+      "en": [
+        "Using Media Crawler with Claude, Cursor, and other AI agents",
+        "Integrating Media Crawler into existing development workflows",
+        "Automating developer tasks with AI assistance"
+      ],
+      "zh": [
+        "在 Claude、Cursor 等 AI 智能体中使用 Media Crawler",
+        "将 Media Crawler 集成到现有开发工作流",
+        "使用 AI 辅助自动化 开发 任务"
+      ],
+      "ja": [
+        "Claude、CursorなどのAIエージェントでMedia Crawlerを使用",
+        "Media Crawlerを既存の開発ワークフローに統合",
+        "AI支援による開発タスクの自動化"
+      ],
+      "es": [
+        "Usando Media Crawler con Claude, Cursor y otros agentes de IA",
+        "Integrando Media Crawler en flujos de trabajo de desarrollo existentes",
+        "Automatizando tareas de developer con asistencia de IA"
+      ],
+      "fr": [
+        "Utilisation de Media Crawler avec Claude, Cursor et d'autres agents IA",
+        "Intégration de Media Crawler dans les flux de travail de développement existants",
+        "Automatisation des tâches developer avec l'assistance IA"
+      ]
+    }
+  },
+  "humanizer": {
+    "pros": {
+      "en": [
+        "Humanizer integrates seamlessly into development workflows",
+        "Open source with active community support",
+        "Regular updates and feature improvements"
+      ],
+      "zh": [
+        "Humanizer 无缝集成到开发工作流",
+        "开源，社区活跃支持",
+        "定期更新和功能改进"
+      ],
+      "ja": [
+        "Humanizer は開発ワークフローにシームレスに統合",
+        "オープンソースで活発なコミュニティサポート",
+        "定期的な更新と機能改善"
+      ],
+      "es": [
+        "Humanizer se integra perfectamente en flujos de trabajo de desarrollo",
+        "Código abierto con soporte activo de la comunidad",
+        "Actualizaciones regulares y mejoras de funciones"
+      ],
+      "fr": [
+        "Humanizer s'intègre parfaitement dans les flux de travail de développement",
+        "Open source avec support actif de la communauté",
+        "Mises à jour régulières et améliorations de fonctionnalités"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Humanizer requires some learning to use effectively",
+        "Documentation could be more comprehensive",
+        "May need additional tools for full workflow"
+      ],
+      "zh": [
+        "Humanizer 需要一定学习成本",
+        "文档可以更全面",
+        "可能需要额外工具完成完整工作流"
+      ],
+      "ja": [
+        "Humanizer を効果的に使用するには学習が必要",
+        "ドキュメントはより包括的である可能性がある",
+        "完全なワークフローには追加ツールが必要な場合がある"
+      ],
+      "es": [
+        "Humanizer requiere algo de aprendizaje para usarlo efectivamente",
+        "La documentación podría ser más completa",
+        "Puede necesitar herramientas adicionales para un flujo de trabajo completo"
+      ],
+      "fr": [
+        "Humanizer nécessite un certain apprentissage pour être utilisé efficacement",
+        "La documentation pourrait être plus complète",
+        "Peut nécessiter des outils supplémentaires pour un flux de travail complet"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "Free and open source",
+        "zh": "免费开源",
+        "ja": "無料オープンソース",
+        "es": "Gratuito y de código abierto",
+        "fr": "Gratuit et open source"
+      }
+    },
+    "verdict": {
+      "en": "Humanizer is a valuable addition to any AI agent toolkit. Its open-source nature and active development make it a reliable choice for both personal and professional use.",
+      "zh": "Humanizer 是任何 AI 智能体工具包的有价值补充。其开源特性和活跃的开发使其成为个人和专业使用的可靠选择。",
+      "ja": "Humanizer はAIエージェントのツールキットへの貴重な追加です。オープンソースの性質と活発な開発により、個人用・業務用ともに信頼できる選択肢です。",
+      "es": "Humanizer es una adición valiosa al kit de herramientas de cualquier agente de IA. Su naturaleza de código abierto y desarrollo activo lo convierten en una opción confiable tanto para uso personal como profesional.",
+      "fr": "Humanizer est un ajout précieux à la boîte à outils de tout agent IA. Sa nature open source et son développement actif en font un choix fiable pour un usage personnel et professionnel."
+    },
+    "useCases": {
+      "en": [
+        "Using Humanizer with Claude, Cursor, and other AI agents",
+        "Integrating Humanizer into existing development workflows",
+        "Automating writing tasks with AI assistance"
+      ],
+      "zh": [
+        "在 Claude、Cursor 等 AI 智能体中使用 Humanizer",
+        "将 Humanizer 集成到现有开发工作流",
+        "使用 AI 辅助自动化 Writing 任务"
+      ],
+      "ja": [
+        "Claude、CursorなどのAIエージェントでHumanizerを使用",
+        "Humanizerを既存の開発ワークフローに統合",
+        "AI支援によるWritingタスクの自動化"
+      ],
+      "es": [
+        "Usando Humanizer con Claude, Cursor y otros agentes de IA",
+        "Integrando Humanizer en flujos de trabajo de desarrollo existentes",
+        "Automatizando tareas de writing con asistencia de IA"
+      ],
+      "fr": [
+        "Utilisation de Humanizer avec Claude, Cursor et d'autres agents IA",
+        "Intégration de Humanizer dans les flux de travail de développement existants",
+        "Automatisation des tâches writing avec l'assistance IA"
+      ]
+    }
+  },
+  "pyvideotrans": {
+    "pros": {
+      "en": [
+        "PyVideoTrans integrates seamlessly into development workflows",
+        "Open source with active community support",
+        "Regular updates and feature improvements"
+      ],
+      "zh": [
+        "PyVideoTrans 无缝集成到开发工作流",
+        "开源，社区活跃支持",
+        "定期更新和功能改进"
+      ],
+      "ja": [
+        "PyVideoTrans は開発ワークフローにシームレスに統合",
+        "オープンソースで活発なコミュニティサポート",
+        "定期的な更新と機能改善"
+      ],
+      "es": [
+        "PyVideoTrans se integra perfectamente en flujos de trabajo de desarrollo",
+        "Código abierto con soporte activo de la comunidad",
+        "Actualizaciones regulares y mejoras de funciones"
+      ],
+      "fr": [
+        "PyVideoTrans s'intègre parfaitement dans les flux de travail de développement",
+        "Open source avec support actif de la communauté",
+        "Mises à jour régulières et améliorations de fonctionnalités"
+      ]
+    },
+    "cons": {
+      "en": [
+        "PyVideoTrans requires some learning to use effectively",
+        "Documentation could be more comprehensive",
+        "May need additional tools for full workflow"
+      ],
+      "zh": [
+        "PyVideoTrans 需要一定学习成本",
+        "文档可以更全面",
+        "可能需要额外工具完成完整工作流"
+      ],
+      "ja": [
+        "PyVideoTrans を効果的に使用するには学習が必要",
+        "ドキュメントはより包括的である可能性がある",
+        "完全なワークフローには追加ツールが必要な場合がある"
+      ],
+      "es": [
+        "PyVideoTrans requiere algo de aprendizaje para usarlo efectivamente",
+        "La documentación podría ser más completa",
+        "Puede necesitar herramientas adicionales para un flujo de trabajo completo"
+      ],
+      "fr": [
+        "PyVideoTrans nécessite un certain apprentissage pour être utilisé efficacement",
+        "La documentation pourrait être plus complète",
+        "Peut nécessiter des outils supplémentaires pour un flux de travail complet"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "Free and open source",
+        "zh": "免费开源",
+        "ja": "無料オープンソース",
+        "es": "Gratuito y de código abierto",
+        "fr": "Gratuit et open source"
+      }
+    },
+    "verdict": {
+      "en": "PyVideoTrans is a valuable addition to any AI agent toolkit. Its open-source nature and active development make it a reliable choice for both personal and professional use.",
+      "zh": "PyVideoTrans 是任何 AI 智能体工具包的有价值补充。其开源特性和活跃的开发使其成为个人和专业使用的可靠选择。",
+      "ja": "PyVideoTrans はAIエージェントのツールキットへの貴重な追加です。オープンソースの性質と活発な開発により、個人用・業務用ともに信頼できる選択肢です。",
+      "es": "PyVideoTrans es una adición valiosa al kit de herramientas de cualquier agente de IA. Su naturaleza de código abierto y desarrollo activo lo convierten en una opción confiable tanto para uso personal como profesional.",
+      "fr": "PyVideoTrans est un ajout précieux à la boîte à outils de tout agent IA. Sa nature open source et son développement actif en font un choix fiable pour un usage personnel et professionnel."
+    },
+    "useCases": {
+      "en": [
+        "Using PyVideoTrans with Claude, Cursor, and other AI agents",
+        "Integrating PyVideoTrans into existing development workflows",
+        "Automating video tasks with AI assistance"
+      ],
+      "zh": [
+        "在 Claude、Cursor 等 AI 智能体中使用 PyVideoTrans",
+        "将 PyVideoTrans 集成到现有开发工作流",
+        "使用 AI 辅助自动化 Video 任务"
+      ],
+      "ja": [
+        "Claude、CursorなどのAIエージェントでPyVideoTransを使用",
+        "PyVideoTransを既存の開発ワークフローに統合",
+        "AI支援によるVideoタスクの自動化"
+      ],
+      "es": [
+        "Usando PyVideoTrans con Claude, Cursor y otros agentes de IA",
+        "Integrando PyVideoTrans en flujos de trabajo de desarrollo existentes",
+        "Automatizando tareas de video con asistencia de IA"
+      ],
+      "fr": [
+        "Utilisation de PyVideoTrans avec Claude, Cursor et d'autres agents IA",
+        "Intégration de PyVideoTrans dans les flux de travail de développement existants",
+        "Automatisation des tâches video avec l'assistance IA"
+      ]
+    }
+  },
+  "ian-xiaohei-illustrations": {
+    "pros": {
+      "en": [
+        "Ian Xiaohei Illustrations integrates seamlessly into development workflows",
+        "Open source with active community support",
+        "Regular updates and feature improvements"
+      ],
+      "zh": [
+        "Ian Xiaohei Illustrations 无缝集成到开发工作流",
+        "开源，社区活跃支持",
+        "定期更新和功能改进"
+      ],
+      "ja": [
+        "Ian Xiaohei Illustrations は開発ワークフローにシームレスに統合",
+        "オープンソースで活発なコミュニティサポート",
+        "定期的な更新と機能改善"
+      ],
+      "es": [
+        "Ian Xiaohei Illustrations se integra perfectamente en flujos de trabajo de desarrollo",
+        "Código abierto con soporte activo de la comunidad",
+        "Actualizaciones regulares y mejoras de funciones"
+      ],
+      "fr": [
+        "Ian Xiaohei Illustrations s'intègre parfaitement dans les flux de travail de développement",
+        "Open source avec support actif de la communauté",
+        "Mises à jour régulières et améliorations de fonctionnalités"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Ian Xiaohei Illustrations requires some learning to use effectively",
+        "Documentation could be more comprehensive",
+        "May need additional tools for full workflow"
+      ],
+      "zh": [
+        "Ian Xiaohei Illustrations 需要一定学习成本",
+        "文档可以更全面",
+        "可能需要额外工具完成完整工作流"
+      ],
+      "ja": [
+        "Ian Xiaohei Illustrations を効果的に使用するには学習が必要",
+        "ドキュメントはより包括的である可能性がある",
+        "完全なワークフローには追加ツールが必要な場合がある"
+      ],
+      "es": [
+        "Ian Xiaohei Illustrations requiere algo de aprendizaje para usarlo efectivamente",
+        "La documentación podría ser más completa",
+        "Puede necesitar herramientas adicionales para un flujo de trabajo completo"
+      ],
+      "fr": [
+        "Ian Xiaohei Illustrations nécessite un certain apprentissage pour être utilisé efficacement",
+        "La documentation pourrait être plus complète",
+        "Peut nécessiter des outils supplémentaires pour un flux de travail complet"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "Free and open source",
+        "zh": "免费开源",
+        "ja": "無料オープンソース",
+        "es": "Gratuito y de código abierto",
+        "fr": "Gratuit et open source"
+      }
+    },
+    "verdict": {
+      "en": "Ian Xiaohei Illustrations is a valuable addition to any AI agent toolkit. Its open-source nature and active development make it a reliable choice for both personal and professional use.",
+      "zh": "Ian Xiaohei Illustrations 是任何 AI 智能体工具包的有价值补充。其开源特性和活跃的开发使其成为个人和专业使用的可靠选择。",
+      "ja": "Ian Xiaohei Illustrations はAIエージェントのツールキットへの貴重な追加です。オープンソースの性質と活発な開発により、個人用・業務用ともに信頼できる選択肢です。",
+      "es": "Ian Xiaohei Illustrations es una adición valiosa al kit de herramientas de cualquier agente de IA. Su naturaleza de código abierto y desarrollo activo lo convierten en una opción confiable tanto para uso personal como profesional.",
+      "fr": "Ian Xiaohei Illustrations est un ajout précieux à la boîte à outils de tout agent IA. Sa nature open source et son développement actif en font un choix fiable pour un usage personnel et professionnel."
+    },
+    "useCases": {
+      "en": [
+        "Using Ian Xiaohei Illustrations with Claude, Cursor, and other AI agents",
+        "Integrating Ian Xiaohei Illustrations into existing development workflows",
+        "Automating design tasks with AI assistance"
+      ],
+      "zh": [
+        "在 Claude、Cursor 等 AI 智能体中使用 Ian Xiaohei Illustrations",
+        "将 Ian Xiaohei Illustrations 集成到现有开发工作流",
+        "使用 AI 辅助自动化 Design 任务"
+      ],
+      "ja": [
+        "Claude、CursorなどのAIエージェントでIan Xiaohei Illustrationsを使用",
+        "Ian Xiaohei Illustrationsを既存の開発ワークフローに統合",
+        "AI支援によるDesignタスクの自動化"
+      ],
+      "es": [
+        "Usando Ian Xiaohei Illustrations con Claude, Cursor y otros agentes de IA",
+        "Integrando Ian Xiaohei Illustrations en flujos de trabajo de desarrollo existentes",
+        "Automatizando tareas de design con asistencia de IA"
+      ],
+      "fr": [
+        "Utilisation de Ian Xiaohei Illustrations avec Claude, Cursor et d'autres agents IA",
+        "Intégration de Ian Xiaohei Illustrations dans les flux de travail de développement existants",
+        "Automatisation des tâches design avec l'assistance IA"
+      ]
+    }
+  },
+  "hyperdirector": {
+    "pros": {
+      "en": [
+        "HyperDirector integrates seamlessly into development workflows",
+        "Open source with active community support",
+        "Regular updates and feature improvements"
+      ],
+      "zh": [
+        "HyperDirector 无缝集成到开发工作流",
+        "开源，社区活跃支持",
+        "定期更新和功能改进"
+      ],
+      "ja": [
+        "HyperDirector は開発ワークフローにシームレスに統合",
+        "オープンソースで活発なコミュニティサポート",
+        "定期的な更新と機能改善"
+      ],
+      "es": [
+        "HyperDirector se integra perfectamente en flujos de trabajo de desarrollo",
+        "Código abierto con soporte activo de la comunidad",
+        "Actualizaciones regulares y mejoras de funciones"
+      ],
+      "fr": [
+        "HyperDirector s'intègre parfaitement dans les flux de travail de développement",
+        "Open source avec support actif de la communauté",
+        "Mises à jour régulières et améliorations de fonctionnalités"
+      ]
+    },
+    "cons": {
+      "en": [
+        "HyperDirector requires some learning to use effectively",
+        "Documentation could be more comprehensive",
+        "May need additional tools for full workflow"
+      ],
+      "zh": [
+        "HyperDirector 需要一定学习成本",
+        "文档可以更全面",
+        "可能需要额外工具完成完整工作流"
+      ],
+      "ja": [
+        "HyperDirector を効果的に使用するには学習が必要",
+        "ドキュメントはより包括的である可能性がある",
+        "完全なワークフローには追加ツールが必要な場合がある"
+      ],
+      "es": [
+        "HyperDirector requiere algo de aprendizaje para usarlo efectivamente",
+        "La documentación podría ser más completa",
+        "Puede necesitar herramientas adicionales para un flujo de trabajo completo"
+      ],
+      "fr": [
+        "HyperDirector nécessite un certain apprentissage pour être utilisé efficacement",
+        "La documentation pourrait être plus complète",
+        "Peut nécessiter des outils supplémentaires pour un flux de travail complet"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "Free and open source",
+        "zh": "免费开源",
+        "ja": "無料オープンソース",
+        "es": "Gratuito y de código abierto",
+        "fr": "Gratuit et open source"
+      }
+    },
+    "verdict": {
+      "en": "HyperDirector is a valuable addition to any AI agent toolkit. Its open-source nature and active development make it a reliable choice for both personal and professional use.",
+      "zh": "HyperDirector 是任何 AI 智能体工具包的有价值补充。其开源特性和活跃的开发使其成为个人和专业使用的可靠选择。",
+      "ja": "HyperDirector はAIエージェントのツールキットへの貴重な追加です。オープンソースの性質と活発な開発により、個人用・業務用ともに信頼できる選択肢です。",
+      "es": "HyperDirector es una adición valiosa al kit de herramientas de cualquier agente de IA. Su naturaleza de código abierto y desarrollo activo lo convierten en una opción confiable tanto para uso personal como profesional.",
+      "fr": "HyperDirector est un ajout précieux à la boîte à outils de tout agent IA. Sa nature open source et son développement actif en font un choix fiable pour un usage personnel et professionnel."
+    },
+    "useCases": {
+      "en": [
+        "Using HyperDirector with Claude, Cursor, and other AI agents",
+        "Integrating HyperDirector into existing development workflows",
+        "Automating video tasks with AI assistance"
+      ],
+      "zh": [
+        "在 Claude、Cursor 等 AI 智能体中使用 HyperDirector",
+        "将 HyperDirector 集成到现有开发工作流",
+        "使用 AI 辅助自动化 Video 任务"
+      ],
+      "ja": [
+        "Claude、CursorなどのAIエージェントでHyperDirectorを使用",
+        "HyperDirectorを既存の開発ワークフローに統合",
+        "AI支援によるVideoタスクの自動化"
+      ],
+      "es": [
+        "Usando HyperDirector con Claude, Cursor y otros agentes de IA",
+        "Integrando HyperDirector en flujos de trabajo de desarrollo existentes",
+        "Automatizando tareas de video con asistencia de IA"
+      ],
+      "fr": [
+        "Utilisation de HyperDirector avec Claude, Cursor et d'autres agents IA",
+        "Intégration de HyperDirector dans les flux de travail de développement existants",
+        "Automatisation des tâches video avec l'assistance IA"
+      ]
+    }
+  },
+  "remotion-best-practices": {
+    "pros": {
+      "en": [
+        "Remotion Best Practices integrates seamlessly into development workflows",
+        "Open source with active community support",
+        "Regular updates and feature improvements"
+      ],
+      "zh": [
+        "Remotion Best Practices 无缝集成到开发工作流",
+        "开源，社区活跃支持",
+        "定期更新和功能改进"
+      ],
+      "ja": [
+        "Remotion Best Practices は開発ワークフローにシームレスに統合",
+        "オープンソースで活発なコミュニティサポート",
+        "定期的な更新と機能改善"
+      ],
+      "es": [
+        "Remotion Best Practices se integra perfectamente en flujos de trabajo de desarrollo",
+        "Código abierto con soporte activo de la comunidad",
+        "Actualizaciones regulares y mejoras de funciones"
+      ],
+      "fr": [
+        "Remotion Best Practices s'intègre parfaitement dans les flux de travail de développement",
+        "Open source avec support actif de la communauté",
+        "Mises à jour régulières et améliorations de fonctionnalités"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Remotion Best Practices requires some learning to use effectively",
+        "Documentation could be more comprehensive",
+        "May need additional tools for full workflow"
+      ],
+      "zh": [
+        "Remotion Best Practices 需要一定学习成本",
+        "文档可以更全面",
+        "可能需要额外工具完成完整工作流"
+      ],
+      "ja": [
+        "Remotion Best Practices を効果的に使用するには学習が必要",
+        "ドキュメントはより包括的である可能性がある",
+        "完全なワークフローには追加ツールが必要な場合がある"
+      ],
+      "es": [
+        "Remotion Best Practices requiere algo de aprendizaje para usarlo efectivamente",
+        "La documentación podría ser más completa",
+        "Puede necesitar herramientas adicionales para un flujo de trabajo completo"
+      ],
+      "fr": [
+        "Remotion Best Practices nécessite un certain apprentissage pour être utilisé efficacement",
+        "La documentation pourrait être plus complète",
+        "Peut nécessiter des outils supplémentaires pour un flux de travail complet"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "Free and open source",
+        "zh": "免费开源",
+        "ja": "無料オープンソース",
+        "es": "Gratuito y de código abierto",
+        "fr": "Gratuit et open source"
+      }
+    },
+    "verdict": {
+      "en": "Remotion Best Practices is a valuable addition to any AI agent toolkit. Its open-source nature and active development make it a reliable choice for both personal and professional use.",
+      "zh": "Remotion Best Practices 是任何 AI 智能体工具包的有价值补充。其开源特性和活跃的开发使其成为个人和专业使用的可靠选择。",
+      "ja": "Remotion Best Practices はAIエージェントのツールキットへの貴重な追加です。オープンソースの性質と活発な開発により、個人用・業務用ともに信頼できる選択肢です。",
+      "es": "Remotion Best Practices es una adición valiosa al kit de herramientas de cualquier agente de IA. Su naturaleza de código abierto y desarrollo activo lo convierten en una opción confiable tanto para uso personal como profesional.",
+      "fr": "Remotion Best Practices est un ajout précieux à la boîte à outils de tout agent IA. Sa nature open source et son développement actif en font un choix fiable pour un usage personnel et professionnel."
+    },
+    "useCases": {
+      "en": [
+        "Using Remotion Best Practices with Claude, Cursor, and other AI agents",
+        "Integrating Remotion Best Practices into existing development workflows",
+        "Automating video tasks with AI assistance"
+      ],
+      "zh": [
+        "在 Claude、Cursor 等 AI 智能体中使用 Remotion Best Practices",
+        "将 Remotion Best Practices 集成到现有开发工作流",
+        "使用 AI 辅助自动化 Video 任务"
+      ],
+      "ja": [
+        "Claude、CursorなどのAIエージェントでRemotion Best Practicesを使用",
+        "Remotion Best Practicesを既存の開発ワークフローに統合",
+        "AI支援によるVideoタスクの自動化"
+      ],
+      "es": [
+        "Usando Remotion Best Practices con Claude, Cursor y otros agentes de IA",
+        "Integrando Remotion Best Practices en flujos de trabajo de desarrollo existentes",
+        "Automatizando tareas de video con asistencia de IA"
+      ],
+      "fr": [
+        "Utilisation de Remotion Best Practices avec Claude, Cursor et d'autres agents IA",
+        "Intégration de Remotion Best Practices dans les flux de travail de développement existants",
+        "Automatisation des tâches video avec l'assistance IA"
+      ]
+    }
+  }
+}

@@ -2,6 +2,7 @@ import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import SkillDetailClient from './SkillDetailClient';
 import skills from '@/data/skills.json';
+import skillDetails from '@/data/skillDetails.json';
 import { generateAlternates } from '@/lib/seo';
 import { routing } from '@/i18n/routing';
 
@@ -193,10 +194,11 @@ export default async function SkillDetailPage({ params }: Props) {
   const readmeInstallHtml = await fetchReadmeInstallHtml(skill.repo, t('copyCommand'));
 
   return (
-    <SkillDetailClient
-      skill={skill}
-      locale={locale}
-      readmeInstallHtml={readmeInstallHtml ?? undefined}
-    />
-  );
+      <SkillDetailClient
+        skill={skill}
+        locale={locale}
+        details={(skillDetails as Record<string, any>)[slug]}
+        readmeInstallHtml={readmeInstallHtml ?? undefined}
+      />
+    );
 }

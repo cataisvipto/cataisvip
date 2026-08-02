@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "MCP Details",
+  "description": "Per-MCP extended details (pros, cons, pricing, verdict, etc.)",
+  "type": "object",
+  "additionalProperties": {
+    "type": "object",
+    "properties": {
+      "pros": {
+        "type": "object",
+        "properties": {
+          "en": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+          "zh": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+          "ja": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+          "es": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+          "fr": { "type": "array", "items": { "type": "string" }, "minItems": 1 }
+        },
+        "required": ["en", "zh", "ja", "es", "fr"]
+      },
+      "cons": {
+        "type": "object",
+        "properties": {
+          "en": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+          "zh": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+          "ja": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+          "es": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+          "fr": { "type": "array", "items": { "type": "string" }, "minItems": 1 }
+        },
+        "required": ["en", "zh", "ja", "es", "fr"]
+      },
+      "pricing": {
+        "type": "object",
+        "properties": {
+          "free": { "type": "object", "properties": { "en": { "type": "string" }, "zh": { "type": "string" }, "ja": { "type": "string" }, "es": { "type": "string" }, "fr": { "type": "string" } }, "required": ["en", "zh", "ja", "es", "fr"] },
+          "freemium": { "type": "object", "properties": { "en": { "type": "string" }, "zh": { "type": "string" }, "ja": { "type": "string" }, "es": { "type": "string" }, "fr": { "type": "string" } }, "required": ["en", "zh", "ja", "es", "fr"] },
+          "paid": { "type": "object", "properties": { "en": { "type": "string" }, "zh": { "type": "string" }, "ja": { "type": "string" }, "es": { "type": "string" }, "fr": { "type": "string" } }, "required": ["en", "zh", "ja", "es", "fr"] }
+        },
+        "minProperties": 1
+      },
+      "tutorials": {
+        "type": "object",
+        "properties": {
+          "en": { "type": "string", "minLength": 10 },
+          "zh": { "type": "string", "minLength": 10 },
+          "ja": { "type": "string", "minLength": 10 },
+          "es": { "type": "string", "minLength": 10 },
+          "fr": { "type": "string", "minLength": 10 }
+        }
+      },
+      "verdict": {
+        "type": "object",
+        "properties": {
+          "en": { "type": "string", "minLength": 10 },
+          "zh": { "type": "string", "minLength": 10 },
+          "ja": { "type": "string", "minLength": 10 },
+          "es": { "type": "string", "minLength": 10 },
+          "fr": { "type": "string", "minLength": 10 }
+        },
+        "required": ["en", "zh", "ja", "es", "fr"]
+      },
+      "useCases": {
+        "type": "object",
+        "properties": {
+          "en": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+          "zh": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+          "ja": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+          "es": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+          "fr": { "type": "array", "items": { "type": "string" }, "minItems": 1 }
+        },
+        "required": ["en", "zh", "ja", "es", "fr"]
+      }
+    },
+    "required": ["pros", "cons", "verdict", "useCases"]
+  }
+}

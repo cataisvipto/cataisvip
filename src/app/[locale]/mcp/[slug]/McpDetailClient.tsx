@@ -7,9 +7,23 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Breadcrumb from '@/components/Breadcrumb';
 import Image from 'next/image';
-import { Star, GitFork, ExternalLink, Plug, Copy, Check, Terminal, ArrowLeft, Building2, ChevronDown } from 'lucide-react';
+import { Star, GitFork, ExternalLink, Plug, Copy, Check, Terminal, ArrowLeft, Building2, ChevronDown, ThumbsUp, ThumbsDown, DollarSign, Target, Award } from 'lucide-react';
 import FaqSection from '@/components/FaqSection';
 import type { McpServer } from '../McpClient';
+
+interface McpDetails {
+  pros: Record<string, string[]>;
+  cons: Record<string, string[]>;
+  pricing?: Record<string, Record<string, string>>;
+  verdict: Record<string, string>;
+  useCases: Record<string, string[]>;
+  tutorials?: Record<string, string>;
+}
+
+const getLocalized = (field: Record<string, string | string[]> | undefined, locale: string): string | string[] | undefined => {
+  if (!field) return undefined;
+  return field[locale] || field.en;
+};
 
 const getLocalizedMcpDescription = (server: McpServer, locale: string) => {
   switch (locale) {
@@ -40,9 +54,10 @@ interface McpDetailClientProps {
   server: McpServer;
   locale: string;
   readmeInstallHtml?: string;
+  details?: McpDetails;
 }
 
-export default function McpDetailClient({ server, locale, readmeInstallHtml }: McpDetailClientProps) {
+export default function McpDetailClient({ server, locale, readmeInstallHtml, details }: McpDetailClientProps) {
   const t = useTranslations('common');
   const tMcp = useTranslations('mcp');
   const [searchQuery, setSearchQuery] = useState('');
@@ -56,7 +71,6 @@ export default function McpDetailClient({ server, locale, readmeInstallHtml }: M
     setTimeout(() => setCopied(false), 2000);
   };
 
-  // Click-to-copy for code blocks in README installation section via event delegation
   const copiedLabel = t('copied');
   useEffect(() => {
     const container = document.querySelector('.readme-install');
@@ -70,7 +84,6 @@ export default function McpDetailClient({ server, locale, readmeInstallHtml }: M
       const code = wrapper.querySelector('code');
       if (!code) return;
       navigator.clipboard.writeText(code.textContent || '');
-      // Brief visual feedback
       const original = btn.textContent;
       btn.textContent = copiedLabel;
       setTimeout(() => { btn.textContent = original; }, 1500);
@@ -80,7 +93,6 @@ export default function McpDetailClient({ server, locale, readmeInstallHtml }: M
     return () => container.removeEventListener('click', handleClick);
   }, [readmeInstallHtml, copiedLabel]);
 
-  // JSON-LD structured data for SEO (aligned with ToolDetailClient convention)
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'SoftwareApplication',
@@ -96,6 +108,11 @@ export default function McpDetailClient({ server, locale, readmeInstallHtml }: M
       priceCurrency: 'USD',
     },
   };
+
+  const localizedPros = details ? (getLocalized(details.pros, locale) as string[] | undefined) : undefined;
+  const localizedCons = details ? (getLocalized(details.cons, locale) as string[] | undefined) : undefined;
+  const localizedVerdict = details ? (getLocalized(details.verdict, locale) as string | undefined) : undefined;
+  const localizedUseCases = details ? (getLocalized(details.useCases, locale) as string[] | undefined) : undefined;
 
   return (
     <>
@@ -213,6 +230,92 @@ export default function McpDetailClient({ server, locale, readmeInstallHtml }: M
               </p>
             </div>
 
+            {/* Pros & Cons */}
+            {localizedPros && localizedCons && (
+              <div className="px-8 pb-8 grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div>
+                  <h2 className="text-lg font-semibold text-[var(--foreground)] mb-3 flex items-center gap-2">
+                    <ThumbsUp className="w-5 h-5 text-emerald-500" />
+                    Pros
+                  </h2>
+                  <ul className="space-y-2">
+                    {localizedPros.map((pro, i) => (
+                      <li key={i} className="flex items-start gap-2 text-[var(--muted)]">
+                        <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-emerald-500 shrink-0" />
+                        <span>{pro}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+                <div>
+                  <h2 className="text-lg font-semibold text-[var(--foreground)] mb-3 flex items-center gap-2">
+                    <ThumbsDown className="w-5 h-5 text-red-500" />
+                    Cons
+                  </h2>
+                  <ul className="space-y-2">
+                    {localizedCons.map((con, i) => (
+                      <li key={i} className="flex items-start gap-2 text-[var(--muted)]">
+                        <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-red-500 shrink-0" />
+                        <span>{con}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
+            )}
+
+            {/* Pricing */}
+            {details?.pricing && (
+              <div className="px-8 pb-8">
+                <h2 className="text-lg font-semibold text-[var(--foreground)] mb-3 flex items-center gap-2">
+                  <DollarSign className="w-5 h-5 text-amber-500" />
+                  Pricing
+                </h2>
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+                  {Object.entries(details.pricing).map(([tier, desc]) => {
+                    const label = getLocalized(desc, locale) as string;
+                    return (
+                      <div key={tier} className="bg-[var(--muted-bg)] rounded-lg px-4 py-3 border border-[var(--card-border)]">
+                        <div className="text-xs font-medium uppercase tracking-wider text-[var(--muted)] mb-1">{tier}</div>
+                        <div className="text-sm font-medium text-[var(--foreground)]">{label}</div>
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
+            )}
+
+            {/* Use Cases */}
+            {localizedUseCases && (
+              <div className="px-8 pb-8">
+                <h2 className="text-lg font-semibold text-[var(--foreground)] mb-3 flex items-center gap-2">
+                  <Target className="w-5 h-5 text-indigo-500" />
+                  Use Cases
+                </h2>
+                <ul className="space-y-2">
+                  {localizedUseCases.map((uc, i) => (
+                    <li key={i} className="flex items-start gap-2 text-[var(--muted)]">
+                      <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-indigo-500 shrink-0" />
+                      <span>{uc}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
+
+            {/* Verdict */}
+            {localizedVerdict && (
+              <div className="px-8 pb-8">
+                <h2 className="text-lg font-semibold text-[var(--foreground)] mb-3 flex items-center gap-2">
+                  <Award className="w-5 h-5 text-amber-500" />
+                  Editorial Verdict
+                </h2>
+                <div className="bg-[var(--muted-bg)] rounded-lg p-5 border border-[var(--card-border)]">
+                  <p className="text-[var(--muted)] leading-relaxed">{localizedVerdict}</p>
+                </div>
+              </div>
+            )}
+
             {/* Install Command */}
             <div className="px-8 pb-8">
               <h2 className="text-lg font-semibold text-[var(--foreground)] mb-3 flex items-center gap-2">
@@ -241,7 +344,6 @@ export default function McpDetailClient({ server, locale, readmeInstallHtml }: M
                 </button>
               </div>
               {readmeInstallHtml && (
-                /* English README guide: collapsed by default on non-English locales */
                 <details className="group mt-5" open={locale === 'en'}>
                   <summary className="flex items-center gap-1.5 cursor-pointer list-none text-sm font-medium text-[var(--muted)] hover:text-[var(--primary)] transition mb-2 [&::-webkit-details-marker]:hidden">
                     <span>{tMcp('officialGuide')}</span>
