@@ -43603,181 +43603,301 @@
     "tutorial": {
       "en": {
         "title": "Get Started in 5 Steps",
-        "subtitle": "Start animating with GSAP in minutes",
         "steps": [
           {
             "step": 1,
             "title": "Install via npm",
             "content": "Add GSAP to your project using npm or yarn.",
-            "code": "npm install gsap"
+            "commands": [
+              {
+                "label": "npm",
+                "code": "npm install gsap"
+              }
+            ]
           },
           {
             "step": 2,
             "title": "Import GSAP",
             "content": "Import GSAP into your JavaScript file.",
-            "code": "import { gsap } from \"gsap\";"
+            "commands": [
+              {
+                "label": "JavaScript",
+                "code": "import { gsap } from \"gsap\";"
+              }
+            ]
           },
           {
             "step": 3,
             "title": "Create a basic animation",
             "content": "Animate any element with a simple tween.",
-            "code": "gsap.to(\".box\", { x: 200, duration: 1, rotation: 360 });"
+            "commands": [
+              {
+                "label": "JavaScript",
+                "code": "gsap.to(\".box\", { x: 200, duration: 1, rotation: 360 });"
+              }
+            ]
           },
           {
             "step": 4,
             "title": "Add ScrollTrigger",
             "content": "Trigger animations based on scroll position.",
-            "code": "gsap.to(\".section\", { scrollTrigger: \".section\", y: -100, opacity: 1 });"
+            "commands": [
+              {
+                "label": "JavaScript",
+                "code": "gsap.to(\".section\", { scrollTrigger: \".section\", y: -100, opacity: 1 });"
+              }
+            ]
           },
           {
             "step": 5,
             "title": "Build a timeline",
             "content": "Sequence multiple animations with a timeline.",
-            "code": "const tl = gsap.timeline(); tl.to(\".a\", { x: 100 }).to(\".b\", { y: 50 });"
+            "commands": [
+              {
+                "label": "JavaScript",
+                "code": "const tl = gsap.timeline(); tl.to(\".a\", { x: 100 }).to(\".b\", { y: 50 });"
+              }
+            ]
           }
         ]
       },
       "zh": {
         "title": "5 步快速上手",
-        "subtitle": "几分钟内开始使用 GSAP 制作动画",
         "steps": [
           {
             "step": 1,
             "title": "通过 npm 安装",
             "content": "使用 npm 或 yarn 将 GSAP 添加到项目。",
-            "code": "npm install gsap"
+            "commands": [
+              {
+                "label": "npm",
+                "code": "npm install gsap"
+              }
+            ]
           },
           {
             "step": 2,
             "title": "导入 GSAP",
             "content": "在 JavaScript 文件中导入 GSAP。",
-            "code": "import { gsap } from \"gsap\";"
+            "commands": [
+              {
+                "label": "JavaScript",
+                "code": "import { gsap } from \"gsap\";"
+              }
+            ]
           },
           {
             "step": 3,
             "title": "创建基础动画",
             "content": "用简单的 tween 动画任何元素。",
-            "code": "gsap.to(\".box\", { x: 200, duration: 1, rotation: 360 });"
+            "commands": [
+              {
+                "label": "JavaScript",
+                "code": "gsap.to(\".box\", { x: 200, duration: 1, rotation: 360 });"
+              }
+            ]
           },
           {
             "step": 4,
             "title": "添加 ScrollTrigger",
             "content": "基于滚动位置触发动画。",
-            "code": "gsap.to(\".section\", { scrollTrigger: \".section\", y: -100, opacity: 1 });"
+            "commands": [
+              {
+                "label": "JavaScript",
+                "code": "gsap.to(\".section\", { scrollTrigger: \".section\", y: -100, opacity: 1 });"
+              }
+            ]
           },
           {
             "step": 5,
             "title": "构建时间线",
             "content": "用时间线编排多个动画。",
-            "code": "const tl = gsap.timeline(); tl.to(\".a\", { x: 100 }).to(\".b\", { y: 50 });"
+            "commands": [
+              {
+                "label": "JavaScript",
+                "code": "const tl = gsap.timeline(); tl.to(\".a\", { x: 100 }).to(\".b\", { y: 50 });"
+              }
+            ]
           }
         ]
       },
       "ja": {
         "title": "5ステップで始める",
-        "subtitle": "数分でGSAPアニメーションを開始",
         "steps": [
           {
             "step": 1,
             "title": "npmでインストール",
             "content": "npmまたはyarnでGSAPをプロジェクトに追加。",
-            "code": "npm install gsap"
+            "commands": [
+              {
+                "label": "npm",
+                "code": "npm install gsap"
+              }
+            ]
           },
           {
             "step": 2,
             "title": "GSAPをインポート",
             "content": "JavaScriptファイルにGSAPをインポート。",
-            "code": "import { gsap } from \"gsap\";"
+            "commands": [
+              {
+                "label": "JavaScript",
+                "code": "import { gsap } from \"gsap\";"
+              }
+            ]
           },
           {
             "step": 3,
             "title": "基本アニメーションを作成",
             "content": "シンプルなトゥイーンで要素をアニメーション。",
-            "code": "gsap.to(\".box\", { x: 200, duration: 1, rotation: 360 });"
+            "commands": [
+              {
+                "label": "JavaScript",
+                "code": "gsap.to(\".box\", { x: 200, duration: 1, rotation: 360 });"
+              }
+            ]
           },
           {
             "step": 4,
             "title": "ScrollTriggerを追加",
             "content": "スクロール位置に基づいてアニメーションをトリガー。",
-            "code": "gsap.to(\".section\", { scrollTrigger: \".section\", y: -100, opacity: 1 });"
+            "commands": [
+              {
+                "label": "JavaScript",
+                "code": "gsap.to(\".section\", { scrollTrigger: \".section\", y: -100, opacity: 1 });"
+              }
+            ]
           },
           {
             "step": 5,
             "title": "タイムラインを構築",
             "content": "タイムラインで複数のアニメーションを連続実行。",
-            "code": "const tl = gsap.timeline(); tl.to(\".a\", { x: 100 }).to(\".b\", { y: 50 });"
+            "commands": [
+              {
+                "label": "JavaScript",
+                "code": "const tl = gsap.timeline(); tl.to(\".a\", { x: 100 }).to(\".b\", { y: 50 });"
+              }
+            ]
           }
         ]
       },
       "es": {
         "title": "Comienza en 5 Pasos",
-        "subtitle": "Empieza a animar con GSAP en minutos",
         "steps": [
           {
             "step": 1,
             "title": "Instalar vía npm",
             "content": "Agrega GSAP a tu proyecto usando npm o yarn.",
-            "code": "npm install gsap"
+            "commands": [
+              {
+                "label": "npm",
+                "code": "npm install gsap"
+              }
+            ]
           },
           {
             "step": 2,
             "title": "Importar GSAP",
             "content": "Importa GSAP en tu archivo JavaScript.",
-            "code": "import { gsap } from \"gsap\";"
+            "commands": [
+              {
+                "label": "JavaScript",
+                "code": "import { gsap } from \"gsap\";"
+              }
+            ]
           },
           {
             "step": 3,
             "title": "Crear una animación básica",
             "content": "Anima cualquier elemento con un tween simple.",
-            "code": "gsap.to(\".box\", { x: 200, duration: 1, rotation: 360 });"
+            "commands": [
+              {
+                "label": "JavaScript",
+                "code": "gsap.to(\".box\", { x: 200, duration: 1, rotation: 360 });"
+              }
+            ]
           },
           {
             "step": 4,
             "title": "Agregar ScrollTrigger",
             "content": "Activa animaciones según la posición de desplazamiento.",
-            "code": "gsap.to(\".section\", { scrollTrigger: \".section\", y: -100, opacity: 1 });"
+            "commands": [
+              {
+                "label": "JavaScript",
+                "code": "gsap.to(\".section\", { scrollTrigger: \".section\", y: -100, opacity: 1 });"
+              }
+            ]
           },
           {
             "step": 5,
             "title": "Construir una línea de tiempo",
             "content": "Secuencia múltiples animaciones con una línea de tiempo.",
-            "code": "const tl = gsap.timeline(); tl.to(\".a\", { x: 100 }).to(\".b\", { y: 50 });"
+            "commands": [
+              {
+                "label": "JavaScript",
+                "code": "const tl = gsap.timeline(); tl.to(\".a\", { x: 100 }).to(\".b\", { y: 50 });"
+              }
+            ]
           }
         ]
       },
       "fr": {
         "title": "Démarrez en 5 Étapes",
-        "subtitle": "Commencez à animer avec GSAP en quelques minutes",
         "steps": [
           {
             "step": 1,
             "title": "Installer via npm",
             "content": "Ajoutez GSAP à votre projet avec npm ou yarn.",
-            "code": "npm install gsap"
+            "commands": [
+              {
+                "label": "npm",
+                "code": "npm install gsap"
+              }
+            ]
           },
           {
             "step": 2,
             "title": "Importer GSAP",
             "content": "Importez GSAP dans votre fichier JavaScript.",
-            "code": "import { gsap } from \"gsap\";"
+            "commands": [
+              {
+                "label": "JavaScript",
+                "code": "import { gsap } from \"gsap\";"
+              }
+            ]
           },
           {
             "step": 3,
             "title": "Créer une animation de base",
             "content": "Animez n'importe quel élément avec un tween simple.",
-            "code": "gsap.to(\".box\", { x: 200, duration: 1, rotation: 360 });"
+            "commands": [
+              {
+                "label": "JavaScript",
+                "code": "gsap.to(\".box\", { x: 200, duration: 1, rotation: 360 });"
+              }
+            ]
           },
           {
             "step": 4,
             "title": "Ajouter ScrollTrigger",
             "content": "Déclenchez des animations selon la position de défilement.",
-            "code": "gsap.to(\".section\", { scrollTrigger: \".section\", y: -100, opacity: 1 });"
+            "commands": [
+              {
+                "label": "JavaScript",
+                "code": "gsap.to(\".section\", { scrollTrigger: \".section\", y: -100, opacity: 1 });"
+              }
+            ]
           },
           {
             "step": 5,
             "title": "Construire une timeline",
             "content": "Séquencez plusieurs animations avec une timeline.",
-            "code": "const tl = gsap.timeline(); tl.to(\".a\", { x: 100 }).to(\".b\", { y: 50 });"
+            "commands": [
+              {
+                "label": "JavaScript",
+                "code": "const tl = gsap.timeline(); tl.to(\".a\", { x: 100 }).to(\".b\", { y: 50 });"
+              }
+            ]
           }
         ]
       }
