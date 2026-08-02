@@ -43920,5 +43920,523 @@
       "pricingVerified": "2026-08-02",
       "pricingUrl": "https://gsap.com/pricing/"
     }
+  },
+  "voicebox": {
+    "features": {
+      "en": [
+        "Voice cloning from as little as 3 seconds of audio",
+        "7 TTS engines: Qwen3-TTS, Qwen CustomVoice, LuxTTS, Chatterbox, TADA, Kokoro",
+        "Global hotkey dictation with Whisper STT (5 model sizes)",
+        "MCP integration for AI agents (Claude Code, Cursor, Cline)",
+        "REST API for full programmatic control",
+        "Stories Editor for multi-voice narratives",
+        "Audio effects pipeline: pitch, reverb, delay, chorus, compression",
+        "Personality system: rewrite and compose in character",
+        "23 languages supported across TTS engines",
+        "Unlimited generation length with auto-chunking and crossfade",
+        "Local or remote GPU inference (Metal, CUDA, ROCm, Intel Arc, DirectML)",
+        "End-to-end encrypted cloud backup (optional, $12/yr coming soon)"
+      ],
+      "zh": [
+        "从 3 秒音频即可克隆声音",
+        "7 种 TTS 引擎：Qwen3-TTS、Qwen CustomVoice、LuxTTS、Chatterbox、TADA、Kokoro",
+        "全局热键听写，基于 Whisper STT（5 种模型大小）",
+        "AI 智能体 MCP 集成（Claude Code、Cursor、Cline）",
+        "REST API 完整程序化控制",
+        "故事编辑器：多角色叙事",
+        "音频效果管线：音高、混响、延迟、合唱、压缩",
+        "角色系统：用角色风格改写和创作",
+        "支持 23 种语言",
+        "无限生成长度，自动分块和交叉淡入淡出",
+        "本地或远程 GPU 推理（Metal、CUDA、ROCm、Intel Arc、DirectML）",
+        "端到端加密云备份（可选，即将推出 $12/年）"
+      ],
+      "ja": [
+        "3秒の音声から声をクローン",
+        "7つのTTSエンジン：Qwen3-TTS、Qwen CustomVoice、LuxTTS、Chatterbox、TADA、Kokoro",
+        "グローバルホットキーディクテーション、Whisper STT（5モデルサイズ）",
+        "AIエージェントMCP統合（Claude Code、Cursor、Cline）",
+        "REST APIによる完全なプログラム制御",
+        "ストーリーエディター：マルチボイスナラティブ",
+        "オーディオエフェクト：ピッチ、リバーブ、ディレイ、コーラス、コンプレッション",
+        "パーソナリティシステム：キャラクターになりきってリライト・作成",
+        "23言語対応",
+        "無制限の生成長さ、自動チャンク分割とクロスフェード",
+        "ローカルまたはリモートGPU推論（Metal、CUDA、ROCm、Intel Arc、DirectML）",
+        "エンドツーエンド暗号化クラウドバックアップ（オプション、近日登場 $12/年）"
+      ],
+      "es": [
+        "Clonación de voz desde solo 3 segundos de audio",
+        "7 motores TTS: Qwen3-TTS, Qwen CustomVoice, LuxTTS, Chatterbox, TADA, Kokoro",
+        "Dictado con tecla de acceso global basado en Whisper STT (5 tamaños de modelo)",
+        "Integración MCP para agentes de IA (Claude Code, Cursor, Cline)",
+        "API REST para control programático completo",
+        "Editor de historias para narrativas multi-voz",
+        "Pipeline de efectos de audio: tono, reverberación, delay, chorus, compresión",
+        "Sistema de personalidad: reescribir y componer en personaje",
+        "23 idiomas compatibles",
+        "Longitud de generación ilimitada con fragmentación automática",
+        "Inferencia GPU local o remota (Metal, CUDA, ROCm, Intel Arc, DirectML)",
+        "Copia de seguridad en la nube cifrada de extremo a extremo (opcional, próximamente $12/año)"
+      ],
+      "fr": [
+        "Clonage vocal à partir de seulement 3 secondes d'audio",
+        "7 moteurs TTS : Qwen3-TTS, Qwen CustomVoice, LuxTTS, Chatterbox, TADA, Kokoro",
+        "Dictée par raccourci global avec Whisper STT (5 tailles de modèle)",
+        "Intégration MCP pour les agents IA (Claude Code, Cursor, Cline)",
+        "API REST pour un contrôle programmatique complet",
+        "Éditeur d'histoires pour récits multi-voix",
+        "Pipeline d'effets audio : hauteur, réverbération, delay, chorus, compression",
+        "Système de personnalité : réécrire et composer dans le personnage",
+        "23 langues prises en charge",
+        "Longueur de génération illimitée avec découpage automatique",
+        "Inférence GPU locale ou distante (Metal, CUDA, ROCm, Intel Arc, DirectML)",
+        "Sauvegarde cloud chiffrée de bout en bout (optionnelle, à venir 12 $/an)"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "Free (local app, open source, forever)",
+        "zh": "免费（本地应用，开源，永久免费）",
+        "ja": "無料（ローカルアプリ、オープンソース、永久無料）",
+        "es": "Gratuito (app local, código abierto, para siempre)",
+        "fr": "Gratuit (application locale, open source, pour toujours)"
+      },
+      "paid": {
+        "en": "Cloud $12/yr (E2E encrypted backup & sync, coming soon)",
+        "zh": "云备份 $12/年（端到端加密备份与同步，即将推出）",
+        "ja": "クラウド $12/年（E2E暗号化バックアップと同期、近日登場）",
+        "es": "Cloud $12/año (copia de seguridad cifrada E2E y sincronización, próximamente)",
+        "fr": "Cloud 12 $/an (sauvegarde chiffrée E2E et synchronisation, à venir)"
+      }
+    },
+    "useCases": {
+      "en": [
+        "Content creators needing voiceovers and narration",
+        "AI agent voice output for development workflows",
+        "Podcast and audiobook production with multi-voice support",
+        "Game NPC dialogue generation and localization"
+      ],
+      "zh": [
+        "需要配音和旁白的内容创作者",
+        "AI 智能体语音输出用于开发工作流",
+        "多角色播客和有声书制作",
+        "游戏 NPC 对话生成和本地化"
+      ],
+      "ja": [
+        "ナレーションやボイスオーバーが必要なコンテンツクリエイター",
+        "開発ワークフロー向けAIエージェント音声出力",
+        "マルチボイス対応のポッドキャストやオーディオブック制作",
+        "ゲームNPCのダイアログ生成とローカライゼーション"
+      ],
+      "es": [
+        "Creadores de contenido que necesitan locuciones y narraciones",
+        "Salida de voz de agentes de IA para flujos de trabajo de desarrollo",
+        "Producción de podcasts y audiolibros con soporte multi-voz",
+        "Generación y localización de diálogos para NPC de juegos"
+      ],
+      "fr": [
+        "Créateurs de contenu ayant besoin de voix off et de narration",
+        "Sortie vocale d'agents IA pour les flux de travail de développement",
+        "Production de podcasts et livres audio avec support multi-voix",
+        "Génération et localisation de dialogues PNJ pour jeux"
+      ]
+    },
+    "pros": {
+      "en": [
+        "Completely free and open source (MIT license)",
+        "Truly local-first — everything runs on your machine, no cloud dependency",
+        "Combines voice cloning, TTS, dictation, and agent voice in one app",
+        "Active development with 48k+ GitHub stars and responsive maintainer",
+        "MCP integration makes it a natural fit for AI agent workflows",
+        "7 TTS engines with 23 languages offer exceptional flexibility"
+      ],
+      "zh": [
+        "完全免费开源（MIT 许可证）",
+        "真正的本地优先——一切在本地运行，无需云端依赖",
+        "声音克隆、语音合成、听写、智能体语音四合一",
+        "活跃开发，48k+ GitHub 星标，维护者响应迅速",
+        "MCP 集成使其天然适合 AI 智能体工作流",
+        "7 种 TTS 引擎 + 23 种语言，灵活度极高"
+      ],
+      "ja": [
+        "完全無料のオープンソース（MITライセンス）",
+        "真のローカルファースト——すべてがローカルで動作、クラウド依存なし",
+        "音声クローン、TTS、ディクテーション、エージェント音声を1つのアプリに統合",
+        "活発な開発、48k+ GitHubスター、メンテナーの迅速な対応",
+        "MCP統合によりAIエージェントワークフローに最適",
+        "7つのTTSエンジンと23言語で卓越した柔軟性"
+      ],
+      "es": [
+        "Completamente gratuito y de código abierto (licencia MIT)",
+        "Verdaderamente local-first — todo se ejecuta en tu máquina, sin dependencia en la nube",
+        "Combina clonación de voz, TTS, dictado y voz de agente en una sola app",
+        "Desarrollo activo con 48k+ estrellas en GitHub y mantenedor receptivo",
+        "La integración MCP lo hace ideal para flujos de trabajo de agentes de IA",
+        "7 motores TTS con 23 idiomas ofrecen una flexibilidad excepcional"
+      ],
+      "fr": [
+        "Entièrement gratuit et open source (licence MIT)",
+        "Vraiment local-first — tout fonctionne sur votre machine, sans dépendance au cloud",
+        "Combine clonage vocal, TTS, dictée et voix d'agent dans une seule application",
+        "Développement actif avec 48k+ étoiles GitHub et mainteneur réactif",
+        "L'intégration MCP en fait un choix naturel pour les flux de travail d'agents IA",
+        "7 moteurs TTS avec 23 langues offrent une flexibilité exceptionnelle"
+      ]
+    },
+    "cons": {
+      "en": [
+        "No pre-built Linux binaries (must build from source)",
+        "Windows GPU support has issues in prebuilt binaries",
+        "572 open issues on GitHub — many feature requests but some bugs",
+        "Cloud backup and sync not yet available (coming soon)",
+        "Single maintainer-driven — bus factor risk",
+        "Requires GPU for optimal performance (CPU works but slower)"
+      ],
+      "zh": [
+        "没有预编译 Linux 二进制文件（需从源码构建）",
+        "Windows GPU 支持在预编译版本中存在问题",
+        "GitHub 上 572 个开放 Issue——多为功能请求但有部分 Bug",
+        "云备份和同步功能尚未可用（即将推出）",
+        "单一维护者驱动——存在 bus factor 风险",
+        "需要 GPU 才能获得最佳性能（CPU 可用但较慢）"
+      ],
+      "ja": [
+        "プリビルドのLinuxバイナリなし（ソースからビルドが必要）",
+        "プリビルドバイナリでWindows GPUサポートに問題あり",
+        "GitHubに572のオープンIssue——多くは機能リクエストだが一部バグあり",
+        "クラウドバックアップと同期はまだ利用不可（近日登場）",
+        "単一メンテナー主導——バスファクターリスクあり",
+        "最適なパフォーマンスにはGPUが必要（CPUでも動作するが遅い）"
+      ],
+      "es": [
+        "Sin binarios de Linux precompilados (debe compilar desde la fuente)",
+        "El soporte de GPU en Windows tiene problemas en los binarios precompilados",
+        "572 issues abiertos en GitHub — muchas solicitudes de funciones pero algunos errores",
+        "La copia de seguridad y sincronización en la nube aún no están disponibles (próximamente)",
+        "Impulsado por un solo mantenedor — riesgo de bus factor",
+        "Requiere GPU para un rendimiento óptimo (la CPU funciona pero es más lenta)"
+      ],
+      "fr": [
+        "Pas de binaires Linux préconstruits (doit compiler depuis les sources)",
+        "Le support GPU Windows a des problèmes dans les binaires préconstruits",
+        "572 issues ouvertes sur GitHub — beaucoup de demandes de fonctionnalités mais quelques bugs",
+        "La sauvegarde et la synchronisation cloud ne sont pas encore disponibles (à venir)",
+        "Piloté par un seul mainteneur — risque de bus factor",
+        "Nécessite un GPU pour des performances optimales (le CPU fonctionne mais plus lentement)"
+      ]
+    },
+    "latestUpdate": {
+      "en": "2026-08: v0.5.0 released, 48k+ GitHub stars, 1.5M+ downloads",
+      "zh": "2026年8月：v0.5.0 发布，48k+ GitHub 星标，150 万+ 下载",
+      "ja": "2026年8月：v0.5.0リリース、48k+ GitHubスター、150万+ダウンロード",
+      "es": "Agosto 2026: lanzamiento v0.5.0, 48k+ estrellas GitHub, 1.5M+ descargas",
+      "fr": "Août 2026: version v0.5.0, 48k+ étoiles GitHub, 1.5M+ téléchargements"
+    },
+    "tutorial": {
+      "en": {
+        "title": "Get Started in 4 Steps",
+        "steps": [
+          {
+            "step": 1,
+            "title": "Download Voicebox",
+            "content": "Download the latest release from GitHub for your platform (macOS, Windows, Linux).",
+            "commands": [
+              {
+                "label": "Download",
+                "code": "https://github.com/jamiepine/voicebox/releases"
+              }
+            ]
+          },
+          {
+            "step": 2,
+            "title": "Clone or select a voice",
+            "content": "Import an audio file, record from mic, or capture system audio. Voicebox clones from as little as 3 seconds.",
+            "commands": []
+          },
+          {
+            "step": 3,
+            "title": "Generate speech",
+            "content": "Type or paste text and choose a TTS engine. Voicebox supports 7 engines with different strengths.",
+            "commands": [
+              {
+                "label": "API",
+                "code": "curl -X POST http://127.0.0.1:17493/generate -H \"Content-Type: application/json\" -d '{\"text\":\"Hello world\",\"profile_id\":\"YOUR_PROFILE_ID\",\"engine\":\"qwen_custom_voice\"}' --output hello.wav"
+              }
+            ]
+          },
+          {
+            "step": 4,
+            "title": "Connect to AI agents via MCP",
+            "content": "Add Voicebox to your MCP config so AI agents can speak in your cloned voices.",
+            "commands": [
+              {
+                "label": "MCP Config",
+                "code": "{\n  \"mcpServers\": {\n    \"voicebox\": {\n      \"url\": \"http://127.0.0.1:17493/mcp\"\n    }\n  }\n}"
+              }
+            ]
+          }
+        ]
+      },
+      "zh": {
+        "title": "4 步快速上手",
+        "steps": [
+          {
+            "step": 1,
+            "title": "下载 Voicebox",
+            "content": "从 GitHub 下载最新版本（macOS、Windows、Linux）。",
+            "commands": [
+              {
+                "label": "下载",
+                "code": "https://github.com/jamiepine/voicebox/releases"
+              }
+            ]
+          },
+          {
+            "step": 2,
+            "title": "克隆或选择声音",
+            "content": "导入音频文件、从麦克风录制或捕获系统音频。Voicebox 只需 3 秒即可克隆声音。",
+            "commands": []
+          },
+          {
+            "step": 3,
+            "title": "生成语音",
+            "content": "输入文本并选择 TTS 引擎。Voicebox 支持 7 种引擎。",
+            "commands": [
+              {
+                "label": "API",
+                "code": "curl -X POST http://127.0.0.1:17493/generate -H \"Content-Type: application/json\" -d '{\"text\":\"你好\",\"profile_id\":\"YOUR_PROFILE_ID\",\"engine\":\"qwen_custom_voice\"}' --output hello.wav"
+              }
+            ]
+          },
+          {
+            "step": 4,
+            "title": "通过 MCP 连接 AI 智能体",
+            "content": "将 Voicebox 添加到 MCP 配置，让 AI 智能体用克隆的声音说话。",
+            "commands": [
+              {
+                "label": "MCP 配置",
+                "code": "{\n  \"mcpServers\": {\n    \"voicebox\": {\n      \"url\": \"http://127.0.0.1:17493/mcp\"\n    }\n  }\n}"
+              }
+            ]
+          }
+        ]
+      },
+      "ja": {
+        "title": "4ステップで始める",
+        "steps": [
+          {
+            "step": 1,
+            "title": "Voiceboxをダウンロード",
+            "content": "GitHubから最新リリースをダウンロード（macOS、Windows、Linux）。",
+            "commands": [
+              {
+                "label": "ダウンロード",
+                "code": "https://github.com/jamiepine/voicebox/releases"
+              }
+            ]
+          },
+          {
+            "step": 2,
+            "title": "声をクローンまたは選択",
+            "content": "音声ファイルをインポート、マイクから録音、またはシステム音声をキャプチャ。3秒からクローン可能。",
+            "commands": []
+          },
+          {
+            "step": 3,
+            "title": "音声を生成",
+            "content": "テキストを入力しTTSエンジンを選択。7つのエンジンをサポート。",
+            "commands": [
+              {
+                "label": "API",
+                "code": "curl -X POST http://127.0.0.1:17493/generate ..."
+              }
+            ]
+          },
+          {
+            "step": 4,
+            "title": "MCPでAIエージェントに接続",
+            "content": "MCP設定にVoiceboxを追加して、クローンした声でAIエージェントが話せるように。",
+            "commands": [
+              {
+                "label": "MCP設定",
+                "code": "{\n  \"mcpServers\": {\n    \"voicebox\": {\n      \"url\": \"http://127.0.0.1:17493/mcp\"\n    }\n  }\n}"
+              }
+            ]
+          }
+        ]
+      },
+      "es": {
+        "title": "Comienza en 4 Pasos",
+        "steps": [
+          {
+            "step": 1,
+            "title": "Descargar Voicebox",
+            "content": "Descarga la última versión desde GitHub (macOS, Windows, Linux).",
+            "commands": [
+              {
+                "label": "Descargar",
+                "code": "https://github.com/jamiepine/voicebox/releases"
+              }
+            ]
+          },
+          {
+            "step": 2,
+            "title": "Clonar o seleccionar una voz",
+            "content": "Importa un archivo de audio, graba desde el micrófono o captura audio del sistema.",
+            "commands": []
+          },
+          {
+            "step": 3,
+            "title": "Generar voz",
+            "content": "Escribe texto y elige un motor TTS. Voicebox soporta 7 motores.",
+            "commands": [
+              {
+                "label": "API",
+                "code": "curl -X POST http://127.0.0.1:17493/generate ..."
+              }
+            ]
+          },
+          {
+            "step": 4,
+            "title": "Conectar a agentes de IA vía MCP",
+            "content": "Añade Voicebox a tu configuración MCP para que los agentes AI hablen con tus voces clonadas.",
+            "commands": [
+              {
+                "label": "Config MCP",
+                "code": "{\n  \"mcpServers\": {\n    \"voicebox\": {\n      \"url\": \"http://127.0.0.1:17493/mcp\"\n    }\n  }\n}"
+              }
+            ]
+          }
+        ]
+      },
+      "fr": {
+        "title": "Démarrez en 4 Étapes",
+        "steps": [
+          {
+            "step": 1,
+            "title": "Télécharger Voicebox",
+            "content": "Téléchargez la dernière version depuis GitHub (macOS, Windows, Linux).",
+            "commands": [
+              {
+                "label": "Télécharger",
+                "code": "https://github.com/jamiepine/voicebox/releases"
+              }
+            ]
+          },
+          {
+            "step": 2,
+            "title": "Cloner ou sélectionner une voix",
+            "content": "Importez un fichier audio, enregistrez depuis le micro ou capturez l'audio système.",
+            "commands": []
+          },
+          {
+            "step": 3,
+            "title": "Générer de la parole",
+            "content": "Tapez du texte et choisissez un moteur TTS. Voicebox supporte 7 moteurs.",
+            "commands": [
+              {
+                "label": "API",
+                "code": "curl -X POST http://127.0.0.1:17493/generate ..."
+              }
+            ]
+          },
+          {
+            "step": 4,
+            "title": "Connecter aux agents IA via MCP",
+            "content": "Ajoutez Voicebox à votre config MCP pour que les agents IA parlent avec vos voix clonées.",
+            "commands": [
+              {
+                "label": "Config MCP",
+                "code": "{\n  \"mcpServers\": {\n    \"voicebox\": {\n      \"url\": \"http://127.0.0.1:17493/mcp\"\n    }\n  }\n}"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "summary": {
+      "en": "Voicebox is a local-first, open-source AI voice studio that combines voice cloning, TTS, dictation, and AI agent voice output in one application. With 7 TTS engines, 23 languages, and MCP integration, it is a compelling free alternative to ElevenLabs and WisprFlow.",
+      "zh": "Voicebox 是一款本地优先的开源 AI 语音工作室，将声音克隆、语音合成、听写和 AI 智能体语音输出整合在一个应用中。拥有 7 种 TTS 引擎、23 种语言和 MCP 集成，是 ElevenLabs 和 WisprFlow 的有力免费替代品。",
+      "ja": "Voiceboxは、音声クローン、TTS、ディクテーション、AIエージェント音声出力を1つのアプリケーションに統合した、ローカルファーストのオープンソースAI音声スタジオです。7つのTTSエンジン、23言語、MCP統合を備え、ElevenLabsとWisprFlowの有力な無料代替品です。",
+      "es": "Voicebox es un estudio de voz AI de código abierto y local-first que combina clonación de voz, TTS, dictado y salida de voz de agente AI en una sola aplicación. Con 7 motores TTS, 23 idiomas e integración MCP, es una alternativa gratuita convincente a ElevenLabs y WisprFlow.",
+      "fr": "Voicebox est un studio vocal AI open source local-first qui combine clonage vocal, TTS, dictée et sortie vocale d'agent IA dans une seule application. Avec 7 moteurs TTS, 23 langues et l'intégration MCP, c'est une alternative gratuite convaincante à ElevenLabs et WisprFlow."
+    },
+    "alternatives": [
+      "elevenlabs",
+      "wispr-flow"
+    ],
+    "verdict": {
+      "badge": "Highly Recommended",
+      "headline": {
+        "en": "A new standard for open-source voice AI",
+        "zh": "开源语音 AI 的新标杆",
+        "ja": "オープンソース音声AIの新たなスタンダード",
+        "es": "Un nuevo estándar para la voz AI de código abierto",
+        "fr": "Une nouvelle norme pour la voix AI open source"
+      },
+      "body": {
+        "en": "Voicebox has rapidly become one of the most impressive open-source AI projects of 2026, earning 48k+ GitHub stars in just 6 months. Its combination of voice cloning, 7 TTS engines, MCP agent integration, and local-first architecture is genuinely unique — no other open-source project offers the same breadth. The single-maintainer risk and some Windows GPU issues are real concerns, but the pace of development and community response are exceptional. For anyone wanting to own their voice AI stack, Voicebox is the clear choice.",
+        "zh": "Voicebox 在短短 6 个月内获得 48k+ GitHub 星标，迅速成为 2026 年最令人印象深刻的开源 AI 项目之一。其声音克隆、7 种 TTS 引擎、MCP 智能体集成和本地优先架构的组合确实独一无二——没有其他开源项目提供同样的广度。单一维护者风险和部分 Windows GPU 问题是真实存在的顾虑，但开发速度和社区响应都非常出色。对于任何想要掌控自己语音 AI 栈的人来说，Voicebox 是明确的选择。",
+        "ja": "Voiceboxは、わずか6ヶ月で48k+のGitHubスターを獲得し、2026年で最も印象的なオープンソースAIプロジェクトの1つになりました。音声クローン、7つのTTSエンジン、MCPエージェント統合、ローカルファーストアーキテクチャの組み合わせは真にユニークです。単一メンテナーリスクや一部のWindows GPU問題は実際の懸念事項ですが、開発ペースとコミュニティの対応は卓越しています。",
+        "es": "Voicebox se ha convertido rápidamente en uno de los proyectos de IA de código abierto más impresionantes de 2026, obteniendo 48k+ estrellas en GitHub en solo 6 meses. Su combinación de clonación de voz, 7 motores TTS, integración de agentes MCP y arquitectura local-first es genuinamente única. El riesgo de un solo mantenedor y algunos problemas de GPU en Windows son preocupaciones reales, pero el ritmo de desarrollo y la respuesta de la comunidad son excepcionales.",
+        "fr": "Voicebox est rapidement devenu l'un des projets IA open source les plus impressionnants de 2026, gagnant 48k+ étoiles GitHub en seulement 6 mois. Sa combinaison de clonage vocal, 7 moteurs TTS, intégration d'agents MCP et architecture local-first est véritablement unique. Le risque lié au mainteneur unique et certains problèmes GPU Windows sont des préoccupations réelles, mais le rythme de développement et la réponse de la communauté sont exceptionnels."
+      },
+      "bestFor": {
+        "en": [
+          "Content creators wanting free, local voice cloning",
+          "Developers integrating voice into AI agent workflows",
+          "Privacy-conscious users avoiding cloud TTS services"
+        ],
+        "zh": [
+          "需要免费本地声音克隆的内容创作者",
+          "将语音集成到 AI 智能体工作流的开发者",
+          "注重隐私、避免云端 TTS 服务的用户"
+        ],
+        "ja": [
+          "無料のローカル音声クローンを求めるコンテンツクリエイター",
+          "AIエージェントワークフローに音声を統合する開発者",
+          "クラウドTTSサービスを避けたいプライバシー重視のユーザー"
+        ],
+        "es": [
+          "Creadores de contenido que buscan clonación de voz local gratuita",
+          "Desarrolladores que integran voz en flujos de trabajo de agentes de IA",
+          "Usuarios preocupados por la privacidad que evitan servicios TTS en la nube"
+        ],
+        "fr": [
+          "Créateurs de contenu souhaitant un clonage vocal local gratuit",
+          "Développeurs intégrant la voix dans les flux de travail d'agents IA",
+          "Utilisateurs soucieux de leur vie privée évitant les services TTS cloud"
+        ]
+      },
+      "considerAlternatives": {
+        "en": [
+          "You need zero-setup cloud TTS (ElevenLabs)",
+          "You only need voice input, not output (WisprFlow)"
+        ],
+        "zh": [
+          "你需要零设置的云端 TTS（ElevenLabs）",
+          "你只需要语音输入而不需要输出（WisprFlow）"
+        ],
+        "ja": [
+          "ゼロセットアップのクラウドTTSが必要（ElevenLabs）",
+          "音声出力ではなく入力のみが必要（WisprFlow）"
+        ],
+        "es": [
+          "Necesitas TTS en la nube sin configuración (ElevenLabs)",
+          "Solo necesitas entrada de voz, no salida (WisprFlow)"
+        ],
+        "fr": [
+          "Vous avez besoin d'un TTS cloud sans configuration (ElevenLabs)",
+          "Vous avez seulement besoin d'entrée vocale, pas de sortie (WisprFlow)"
+        ]
+      }
+    },
+    "meta": {
+      "lastVerified": "2026-08-02",
+      "verdictDate": "2026-08-02",
+      "pricingVerified": "2026-08-02",
+      "pricingUrl": "https://voicebox.sh/pricing"
+    }
   }
 }
