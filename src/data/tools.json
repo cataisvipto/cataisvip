@@ -5243,5 +5243,36 @@
       "browser_extension": false,
       "api": true
     }
+  },
+  {
+    "slug": "reasonix",
+    "name": "Reasonix",
+    "nameZh": "Reasonix",
+    "description": "DeepSeek 原生的终端编码 AI Agent，缓存优先架构，长会话 90%+ 缓存命中率，支持 CLI/TUI/Web UI/ACP 编辑器",
+    "descriptionEn": "DeepSeek-native AI coding agent for your terminal. Cache-first architecture with 90%+ prefix cache hit rate. CLI/TUI/Desktop/Web UI/ACP editor.",
+    "descriptionJa": "DeepSeekネイティブの端末向けAIコーディングエージェント。キャッシュファーストアーキテクチャで90%以上のプレフィックスキャッシュヒット率。",
+    "descriptionEs": "Agente de codificación AI nativo de DeepSeek para tu terminal. Arquitectura cache-first con 90%+ de tasa de acierto de caché de prefijo.",
+    "descriptionFr": "Agent de codage IA natif DeepSeek pour votre terminal. Architecture cache-first avec 90%+ de taux de hit du cache de préfixe.",
+    "url": "https://reasonix.io",
+    "logo": "/logos/tools/reasonix.png",
+    "category": "Code",
+    "tags": [
+      "Free",
+      "Open Source",
+      "API"
+    ],
+    "featured": false,
+    "developer": "esengine",
+    "developerZh": "esengine",
+    "platforms": {
+      "web": false,
+      "windows": true,
+      "macos": true,
+      "ios": false,
+      "android": false,
+      "linux": true,
+      "browser_extension": false,
+      "api": true
+    }
   }
 ]
