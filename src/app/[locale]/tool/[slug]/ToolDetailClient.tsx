@@ -502,14 +502,11 @@ export default function ToolDetailClient({ tool, locale, details: detailsProp, s
                           <div className="flex items-center gap-3">
                             <div className="w-10 h-10 rounded-xl bg-indigo-100 dark:bg-indigo-900/30 flex items-center justify-center">
                               <BookOpen className="w-5 h-5 text-indigo-600 dark:text-indigo-400" />
-                            </div>
-                            <div>
-                              <h2 className="text-xl font-bold text-[var(--foreground)]">
-                                {(details.tutorial as Record<string, { title: string }>)[locale]?.title || (details.tutorial as Record<string, { title: string }>).en?.title}
-                              </h2>
-                              <p className="text-sm text-[var(--muted)]">
-                                {t('tutorialSubtitle')}
-                              </p>
+                                                          </div>
+                                                          <div>
+                                                            <h2 className="text-xl font-bold text-[var(--foreground)]">
+                                                              {(details.tutorial as Record<string, { title: string }>)[locale]?.title || (details.tutorial as Record<string, { title: string }>).en?.title}
+                                                            </h2>
                             </div>
                           </div>
                           <ChevronDown className="w-5 h-5 text-[var(--muted)] shrink-0 transition-transform group-open:rotate-180" />
