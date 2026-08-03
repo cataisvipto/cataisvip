@@ -7,6 +7,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Breadcrumb from '@/components/Breadcrumb';
 import Image from 'next/image';
+import DOMPurify from 'isomorphic-dompurify';
 import { Star, GitFork, ExternalLink, Plug, Copy, Check, Terminal, ArrowLeft, Building2, ChevronDown, ThumbsUp, ThumbsDown, DollarSign, Target, Award } from 'lucide-react';
 import FaqSection from '@/components/FaqSection';
 import type { McpServer } from '../McpClient';
@@ -352,7 +353,7 @@ export default function McpDetailClient({ server, locale, readmeInstallHtml, det
                   <div className="bg-[var(--card-bg)] border border-[var(--card-border)] rounded-lg p-5 overflow-x-auto">
                     <div
                       className="readme-install text-sm leading-relaxed"
-                      dangerouslySetInnerHTML={{ __html: readmeInstallHtml }}
+                      dangerouslySetInnerHTML={{ __html: DOMPurify.sanitize(readmeInstallHtml) }}
                     />
                   </div>
                 </details>
