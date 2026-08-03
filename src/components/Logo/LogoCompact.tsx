@@ -5,6 +5,7 @@ import { CSSProperties } from 'react';
 import LogoIcon from './LogoIcon';
 import LogoWordmark from './LogoWordmark';
 import { WORDMARK_DOTS_DEFAULT } from '@/lib/brandColors';
+import { useTheme } from '@/components/ThemeProvider';
 
 export interface LogoCompactProps {
   /** Total height of the logo. Icon is sized to height, text scales accordingly. Default 36. */
@@ -22,7 +23,7 @@ export interface LogoCompactProps {
 
 /**
  * Compact logo: [CA icon] CATAITO  — used in desktop navbar and inner-page headers.
- * Theme-aware: text color follows the current foreground CSS variable.
+ * Theme-aware: icon tone switches between gradient (light) and vivid (dark).
  */
 export default function LogoCompact({
   height = 36,
@@ -31,6 +32,7 @@ export default function LogoCompact({
   href = '/',
   showText = true,
 }: LogoCompactProps) {
+  const { theme } = useTheme();
   const iconSize = Math.round(height * 1.05);
   const wordHeight = Math.round(height * 0.6);
 
@@ -41,7 +43,7 @@ export default function LogoCompact({
       className={`group inline-flex items-center gap-2 shrink-0 ${className ?? ''}`}
       style={style}
     >
-      <LogoIcon size={iconSize} ariaLabel="Cataito" />
+      <LogoIcon size={iconSize} ariaLabel="Cataito" tone={theme === 'dark' ? 'vivid' : 'gradient'} />
       {showText && (
         <LogoWordmark
           height={wordHeight}

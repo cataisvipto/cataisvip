@@ -7,6 +7,7 @@ import { useState, useRef, useEffect } from 'react';
 import ThemeToggle from './ThemeToggle';
 import LogoCompact from './Logo/LogoCompact';
 import LogoIcon from './Logo/LogoIcon';
+import { useTheme } from './ThemeProvider';
 import { CATEGORIES, categoryToSlug } from '@/lib/categories';
 
 interface HeaderProps {
@@ -16,6 +17,7 @@ interface HeaderProps {
 }
 
 export default function Header({ searchQuery, onSearchChange, locale }: HeaderProps) {
+  const { theme } = useTheme();
   const t = useTranslations();
   const tCategories = useTranslations('categories');
   const pathname = usePathname();
@@ -70,7 +72,7 @@ export default function Header({ searchQuery, onSearchChange, locale }: HeaderPr
             </span>
             <span className="sm:hidden inline-flex">
               <Link href="/" aria-label="Cataito — Home" className="inline-flex items-center">
-                <LogoIcon size={36} ariaLabel="Cataito" />
+                <LogoIcon size={36} ariaLabel="Cataito" tone={theme === 'dark' ? 'vivid' : 'gradient'} />
               </Link>
             </span>
           </div>
