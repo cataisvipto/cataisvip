@@ -123,7 +123,18 @@ export default function HomePageClient() {
                     }
                   />
 
-                  <FeaturedAgents />
+                                    {/* Mobile view-all */}
+                                    <div className="mt-6 text-center sm:hidden">
+                                      <Link
+                                        href="/tools"
+                                        className="inline-flex items-center gap-1.5 text-sm font-medium text-[var(--primary)] hover:text-[var(--primary)]/80 transition"
+                                      >
+                                        {t('viewAll')}
+                                        <ArrowRight className="w-4 h-4" />
+                                      </Link>
+                                    </div>
+
+                                    <FeaturedAgents />
         <BlogHighlights />
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
           <Newsletter />
