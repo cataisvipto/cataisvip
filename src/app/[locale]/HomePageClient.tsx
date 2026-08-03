@@ -100,32 +100,30 @@ export default function HomePageClient() {
           curated
           curatedTools={curatedTools}
           header={
-            <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-indigo-500 to-cyan-500 flex items-center justify-center">
-                <Star className="w-5 h-5 text-white" />
-              </div>
-              <div>
-                <h2 className="text-2xl sm:text-3xl font-bold text-[var(--foreground)]">
-                  {t('featuredTitle')}
-                </h2>
-                <p className="mt-1 text-[var(--muted)] text-sm">{t('featuredDesc')}</p>
-              </div>
-            </div>
-          }
-        />
+                      <div className="flex items-end justify-between gap-4">
+                        <div className="flex items-center gap-3">
+                          <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-indigo-500 to-cyan-500 flex items-center justify-center">
+                            <Star className="w-5 h-5 text-white" />
+                          </div>
+                          <div>
+                            <h2 className="text-2xl sm:text-3xl font-bold text-[var(--foreground)]">
+                              {t('featuredTitle')}
+                            </h2>
+                            <p className="mt-1 text-[var(--muted)] text-sm">{t('featuredDesc')}</p>
+                          </div>
+                        </div>
+                        <Link
+                          href="/tools"
+                          className="hidden sm:inline-flex items-center gap-1.5 shrink-0 text-sm font-medium text-[var(--primary)] hover:text-[var(--primary)]/80 transition"
+                        >
+                          {t('viewAll')}
+                          <ArrowRight className="w-4 h-4" />
+                        </Link>
+                      </div>
+                    }
+                  />
 
-        {/* Browse All Link */}
-        <div className="text-center pb-4">
-          <Link
-            href="/tools"
-            className="inline-flex items-center gap-2 px-6 py-3 rounded-full border border-[var(--card-border)] text-[var(--muted)] hover:text-[var(--primary)] hover:border-[var(--primary)] transition text-sm font-medium"
-          >
-            {t('viewAll')}
-            <ArrowRight className="w-4 h-4" />
-          </Link>
-        </div>
-
-        <FeaturedAgents />
+                  <FeaturedAgents />
         <BlogHighlights />
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
           <Newsletter />
