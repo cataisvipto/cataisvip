@@ -1,6 +1,6 @@
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/navigation';
-import { Mail, Code2, Send, Newspaper, Info, Plug } from 'lucide-react';
+import { Mail, Code2, Send, Newspaper, Info, Plug, AtSign } from 'lucide-react';
 import LogoFull from './Logo/LogoFull';
 import { WORDMARK_GRADIENT_VIVID } from '@/lib/brandColors';
 import { CATEGORIES, categoryToSlug } from '@/lib/categories';
@@ -29,9 +29,13 @@ export default function Footer() {
               {t('description')}
             </p>
             <a href="mailto:hello@cataito.com" className="flex items-center gap-1.5 text-sm text-[var(--muted)] hover:text-[var(--primary)] transition" title={t('contact')}>
-              <Mail className="w-3.5 h-3.5" />
-              <span>hello@cataito.com</span>
-            </a>
+                          <Mail className="w-3.5 h-3.5" />
+                          <span>hello@cataito.com</span>
+                        </a>
+                        <a href="https://x.com/cataitocom" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1.5 text-sm text-[var(--muted)] hover:text-[var(--primary)] transition" title="X (Twitter)">
+                          <AtSign className="w-3.5 h-3.5" />
+                          <span>@cataitocom</span>
+                        </a>
           </div>
 
           {/* Navigation Column */}
