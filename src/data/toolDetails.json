@@ -44438,5 +44438,413 @@
       "pricingVerified": "2026-08-02",
       "pricingUrl": "https://voicebox.sh/pricing"
     }
+  },
+  "ui-ux-pro-max": {
+    "features": {
+      "en": [
+        "45+ design styles: Glassmorphism, Neumorphism, Minimalism, Brutalism, Aurora UI, and more",
+        "8 tech stacks: React, Next.js, Vue, Svelte, SwiftUI, React Native, Flutter, Tailwind",
+        "Color palettes for SaaS, E-commerce, Healthcare, Fintech, and more",
+        "50+ font pairings with Google Fonts integration",
+        "14 conversion-optimized landing page patterns",
+        "UX guidelines: animation, accessibility, z-index, loading states",
+        "Chart type recommendations with library suggestions",
+        "39 website demos across 20 categories",
+        "Quality checklist: SVG icons, hover feedback, dark mode, responsive",
+        "Free and open source under MIT license"
+      ],
+      "zh": [
+        "45+ 设计风格：Glassmorphism、Neumorphism、Minimalism、Brutalism、Aurora UI 等",
+        "8 种技术栈：React、Next.js、Vue、Svelte、SwiftUI、React Native、Flutter、Tailwind",
+        "SaaS、电商、医疗、金融科技等行业的配色方案",
+        "50+ 字体搭配，集成 Google Fonts",
+        "14 种转化优化的着陆页模式",
+        "UX 指南：动画、无障碍、z-index、加载状态",
+        "图表类型推荐及库建议",
+        "20 个类别共 39 个网站演示",
+        "质量检查清单：SVG 图标、悬停反馈、暗色模式、响应式",
+        "MIT 许可证，免费开源"
+      ],
+      "ja": [
+        "45+のデザインスタイル：Glassmorphism、Neumorphism、Minimalism、Brutalism、Aurora UIなど",
+        "8つのテクノロジースタック：React、Next.js、Vue、Svelte、SwiftUI、React Native、Flutter、Tailwind",
+        "SaaS、Eコマース、ヘルスケア、Fintechなどのカラーパレット",
+        "50+のフォントペア、Google Fonts統合",
+        "14のコンバージョン最適化ランディングページパターン",
+        "UXガイドライン：アニメーション、アクセシビリティ、z-index、ローディング状態",
+        "チャートタイプの推奨とライブラリ提案",
+        "20カテゴリにわたる39のウェブサイトデモ",
+        "品質チェックリスト：SVGアイコン、ホバーフィードバック、ダークモード、レスポンシブ",
+        "MITライセンス、無料オープンソース"
+      ],
+      "es": [
+        "45+ estilos de diseño: Glassmorphism, Neumorphism, Minimalism, Brutalism, Aurora UI y m?s",
+        "8 stacks tecnol?gicos: React, Next.js, Vue, Svelte, SwiftUI, React Native, Flutter, Tailwind",
+        "Paletas de colores para SaaS, E-commerce, Healthcare, Fintech y m?s",
+        "50+ combinaciones de fuentes con integraci?n de Google Fonts",
+        "14 patrones de p?ginas de aterrizaje optimizados para conversi?n",
+        "Gu?as UX: animaci?n, accesibilidad, z-index, estados de carga",
+        "Recomendaciones de tipos de gr?ficos con sugerencias de librer?as",
+        "39 demos de sitios web en 20 categor?as",
+        "Lista de verificaci?n de calidad: iconos SVG, feedback hover, modo oscuro, responsive",
+        "Licencia MIT, gratuito y de c?digo abierto"
+      ],
+      "fr": [
+        "45+ styles de design : Glassmorphism, Neumorphism, Minimalism, Brutalism, Aurora UI et plus",
+        "8 piles technologiques : React, Next.js, Vue, Svelte, SwiftUI, React Native, Flutter, Tailwind",
+        "Palettes de couleurs pour SaaS, E-commerce, Healthcare, Fintech et plus",
+        "50+ associations de polices avec int?gration Google Fonts",
+        "14 mod?les de pages d'atterrissage optimis?s pour la conversion",
+        "Directives UX : animation, accessibilit?, z-index, ?tats de chargement",
+        "Recommandations de types de graphiques avec suggestions de biblioth?ques",
+        "39 d?mos de sites web dans 20 cat?gories",
+        "Liste de contr?le qualit? : ic?nes SVG, feedback au survol, mode sombre, responsive",
+        "Licence MIT, gratuit et open source"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "Free and open source (MIT)",
+        "zh": "免费开源（MIT）",
+        "ja": "無料オープンソース（MIT）",
+        "es": "Gratuito y de c?digo abierto (MIT)",
+        "fr": "Gratuit et open source (MIT)"
+      }
+    },
+    "useCases": {
+      "en": [
+        "AI agent-guided UI/UX design",
+        "Rapid prototyping with design intelligence",
+        "Learning design best practices and patterns",
+        "Building production-ready interfaces with framework-specific code"
+      ],
+      "zh": [
+        "AI 智能体引导的 UI/UX 设计",
+        "利用设计智能快速原型设计",
+        "学习设计最佳实践和模式",
+        "使用框架特定代码构建生产级界面"
+      ],
+      "ja": [
+        "AIエージェントガイドによるUI/UXデザイン",
+        "デザインインテリジェンスによる迅速なプロトタイピング",
+        "デザインのベストプラクティスとパターンの学習",
+        "フレームワーク固有のコードで本番対応インターフェースを構築"
+      ],
+      "es": [
+        "Dise?o UI/UX guiado por agente IA",
+        "Prototipado r?pido con inteligencia de dise?o",
+        "Aprendizaje de mejores pr?cticas y patrones de dise?o",
+        "Construcci?n de interfaces listas para producci?n con c?digo espec?fico del framework"
+      ],
+      "fr": [
+        "Conception UI/UX guid?e par agent IA",
+        "Prototypage rapide avec intelligence de conception",
+        "Apprentissage des meilleures pratiques et mod?les de conception",
+        "Construction d'interfaces pr?tes pour la production avec du code sp?cifique au framework"
+      ]
+    },
+    "pros": {
+      "en": [
+        "112K+ GitHub stars, top-tier community trust",
+        "Comprehensive design intelligence in one skill",
+        "45+ styles, 8 tech stacks, 39 demos",
+        "Free and open source (MIT)",
+        "Active development with regular updates",
+        "Works with Claude Code, Cursor, Codex, and more"
+      ],
+      "zh": [
+        "112K+ GitHub 星标，顶级社区信任",
+        "全面的设计智能集成在一个 Skill 中",
+        "45+ 风格、8 种技术栈、39 个演示",
+        "免费开源（MIT）",
+        "活跃开发，定期更新",
+        "兼容 Claude Code、Cursor、Codex 等"
+      ],
+      "ja": [
+        "112K+ GitHubスター、トップクラスのコミュニティ信頼",
+        "1つのスキルに包括的なデザインインテリジェンス",
+        "45+スタイル、8つのテクノロジースタック、39のデモ",
+        "無料オープンソース（MIT）",
+        "活発な開発、定期的なアップデート",
+        "Claude Code、Cursor、Codexなどと互換性あり"
+      ],
+      "es": [
+        "112K+ estrellas GitHub, confianza comunitaria de primer nivel",
+        "Inteligencia de dise?o integral en un solo skill",
+        "45+ estilos, 8 stacks tecnol?gicos, 39 demos",
+        "Gratuito y de c?digo abierto (MIT)",
+        "Desarrollo activo con actualizaciones regulares",
+        "Compatible con Claude Code, Cursor, Codex y m?s"
+      ],
+      "fr": [
+        "112K+ ?toiles GitHub, confiance communautaire de premier plan",
+        "Intelligence de conception compl?te en un seul skill",
+        "45+ styles, 8 piles technologiques, 39 d?mos",
+        "Gratuit et open source (MIT)",
+        "D?veloppement actif avec des mises ? jour r?guli?res",
+        "Compatible avec Claude Code, Cursor, Codex et plus"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Requires AI agent to utilize (not standalone)",
+        "Design output quality depends on prompt quality",
+        "Primarily focused on web/mobile UI design",
+        "Some advanced features may need AI agent knowledge"
+      ],
+      "zh": [
+        "需要 AI 智能体才能使用（非独立工具）",
+        "设计输出质量取决于提示质量",
+        "主要关注 Web/移动端 UI 设计",
+        "部分高级功能可能需要 AI 智能体知识"
+      ],
+      "ja": [
+        "使用にはAIエージェントが必要（スタンドアロンではない）",
+        "デザイン出力品質はプロンプトの品質に依存",
+        "主にWeb/モバイルUIデザインに焦点",
+        "一部の高度な機能にはAIエージェントの知識が必要な場合がある"
+      ],
+      "es": [
+        "Requiere agente IA para utilizar (no independiente)",
+        "La calidad del dise?o de salida depende de la calidad del prompt",
+        "Enfocado principalmente en dise?o UI web/m?vil",
+        "Algunas funciones avanzadas pueden necesitar conocimiento de agente IA"
+      ],
+      "fr": [
+        "N?cessite un agent IA pour l'utiliser (pas autonome)",
+        "La qualit? de sortie du design d?pend de la qualit? du prompt",
+        "Principalement ax? sur le design UI web/mobile",
+        "Certaines fonctionnalit?s avanc?es peuvent n?cessiter des connaissances sur les agents IA"
+      ]
+    },
+    "latestUpdate": {
+      "en": "2026-08: 112K+ GitHub stars, 39 website demos, regular updates",
+      "zh": "2026年8月：112K+ GitHub 星标，39 个网站演示，定期更新",
+      "ja": "2026年8月：112K+ GitHubスター、39のウェブサイトデモ、定期的なアップデート",
+      "es": "Agosto 2026: 112K+ estrellas GitHub, 39 demos de sitios web, actualizaciones regulares",
+      "fr": "Ao?t 2026: 112K+ ?toiles GitHub, 39 d?mos de sites web, mises ? jour r?guli?res"
+    },
+    "tutorial": {
+      "en": {
+        "title": "Get Started in 3 Steps",
+        "steps": [
+          {
+            "step": 1,
+            "title": "Install the Skill",
+            "content": "Add the UI UX Pro Max skill to your AI agent (Claude Code, Cursor, Codex, etc.).",
+            "commands": [
+              {
+                "label": "Install",
+                "code": "npx @anthropic-ai/sdk add ui-ux-pro-max-skill"
+              }
+            ]
+          },
+          {
+            "step": 2,
+            "title": "Describe Your Design",
+            "content": "Prompt your agent with a design request. Example: \"Build a landing page for a pet grooming service. Playful and friendly style, with booking CTA.\"",
+            "commands": []
+          },
+          {
+            "step": 3,
+            "title": "Get Production-Ready Code",
+            "content": "The skill generates framework-specific code with color palettes, typography, and UX guidelines.",
+            "commands": []
+          }
+        ]
+      },
+      "zh": {
+        "title": "3 步快速上手",
+        "steps": [
+          {
+            "step": 1,
+            "title": "安装 Skill",
+            "content": "将 UI UX Pro Max 技能添加到你的 AI 智能体（Claude Code、Cursor、Codex 等）。",
+            "commands": [
+              {
+                "label": "安装",
+                "code": "npx @anthropic-ai/sdk add ui-ux-pro-max-skill"
+              }
+            ]
+          },
+          {
+            "step": 2,
+            "title": "描述你的设计",
+            "content": "向智能体提出设计需求。例如：\"为宠物美容服务创建一个着陆页，风格活泼友好，包含预约按钮。\"",
+            "commands": []
+          },
+          {
+            "step": 3,
+            "title": "获取生产级代码",
+            "content": "技能生成框架特定代码，包含配色方案、字体和 UX 指南。",
+            "commands": []
+          }
+        ]
+      },
+      "ja": {
+        "title": "3ステップで始める",
+        "steps": [
+          {
+            "step": 1,
+            "title": "スキルをインストール",
+            "content": "UI UX Pro MaxスキルをAIエージェントに追加。",
+            "commands": [
+              {
+                "label": "インストール",
+                "code": "npx @anthropic-ai/sdk add ui-ux-pro-max-skill"
+              }
+            ]
+          },
+          {
+            "step": 2,
+            "title": "デザインを説明",
+            "content": "エージェントにデザインリクエストをプロンプト。",
+            "commands": []
+          },
+          {
+            "step": 3,
+            "title": "プロダクション対応コードを取得",
+            "content": "フレームワーク固有のコード、カラーパレット、フォント、UXガイドラインを生成。",
+            "commands": []
+          }
+        ]
+      },
+      "es": {
+        "title": "Comienza en 3 Pasos",
+        "steps": [
+          {
+            "step": 1,
+            "title": "Instalar el Skill",
+            "content": "A?ade el skill UI UX Pro Max a tu agente IA.",
+            "commands": [
+              {
+                "label": "Instalar",
+                "code": "npx @anthropic-ai/sdk add ui-ux-pro-max-skill"
+              }
+            ]
+          },
+          {
+            "step": 2,
+            "title": "Describe tu dise?o",
+            "content": "Solicita a tu agente un requerimiento de dise?o.",
+            "commands": []
+          },
+          {
+            "step": 3,
+            "title": "Obt?n c?digo listo para producci?n",
+            "content": "El skill genera c?digo espec?fico del framework con paletas de colores y tipograf?a.",
+            "commands": []
+          }
+        ]
+      },
+      "fr": {
+        "title": "D?marrez en 3 ?tapes",
+        "steps": [
+          {
+            "step": 1,
+            "title": "Installer le Skill",
+            "content": "Ajoutez le skill UI UX Pro Max ? votre agent IA.",
+            "commands": [
+              {
+                "label": "Installer",
+                "code": "npx @anthropic-ai/sdk add ui-ux-pro-max-skill"
+              }
+            ]
+          },
+          {
+            "step": 2,
+            "title": "D?crivez votre design",
+            "content": "Demandez ? votre agent une requ?te de design.",
+            "commands": []
+          },
+          {
+            "step": 3,
+            "title": "Obtenez du code pr?t pour la production",
+            "content": "Le skill g?n?re du code sp?cifique au framework avec palettes de couleurs et typographie.",
+            "commands": []
+          }
+        ]
+      }
+    },
+    "summary": {
+      "en": "UI UX Pro Max is a comprehensive design intelligence skill for AI agents, offering 45+ design styles, 8 tech stacks, color palettes, typography, and UX guidelines. With 112K+ GitHub stars, it is the most popular design skill in the AI agent ecosystem.",
+      "zh": "UI UX Pro Max 是 AI 智能体的全面设计智能技能，提供 45+ 设计风格、8 种技术栈、配色方案、字体和 UX 指南。拥有 112K+ GitHub 星标，是 AI 智能体生态中最受欢迎的设计技能。",
+      "ja": "UI UX Pro Maxは、AIエージェント向けの包括的なデザインインテリジェンススキルです。112K+のGitHubスターを誇り、AIエージェントエコシステムで最も人気のあるデザインスキルです。",
+      "es": "UI UX Pro Max es un skill integral de inteligencia de dise?o para agentes de IA. Con 112K+ estrellas GitHub, es el skill de dise?o m?s popular en el ecosistema de agentes de IA.",
+      "fr": "UI UX Pro Max est un skill complet d'intelligence de conception pour les agents IA. Avec 112K+ ?toiles GitHub, c'est le skill de design le plus populaire de l'?cosyst?me des agents IA."
+    },
+    "alternatives": [],
+    "verdict": {
+      "badge": "Highly Recommended",
+      "headline": {
+        "en": "The gold standard for AI agent design intelligence",
+        "zh": "AI 智能体设计智能的黄金标准",
+        "ja": "AIエージェントデザインインテリジェンスの黄金基準",
+        "es": "El est?ndar de oro para la inteligencia de dise?o de agentes IA",
+        "fr": "La r?f?rence pour l'intelligence de conception des agents IA"
+      },
+      "body": {
+        "en": "UI UX Pro Max is the most popular design skill in the AI agent ecosystem, with 112K+ GitHub stars. Its comprehensive database of 45+ styles, 8 tech stacks, and 39 demos makes it an indispensable tool for any developer building UI with AI agents. The open-source MIT license and active development ensure it continues to evolve with the ecosystem.",
+        "zh": "UI UX Pro Max 是 AI 智能体生态中最受欢迎的设计技能，拥有 112K+ GitHub 星标。其 45+ 风格、8 种技术栈和 39 个演示的全面数据库使其成为任何使用 AI 智能体构建 UI 的开发者的不可或缺的工具。开源 MIT 许可证和活跃开发确保其与生态共同演进。",
+        "ja": "UI UX Pro Maxは、AIエージェントエコシステムで最も人気のあるデザインスキルで、112K+のGitHubスターを誇ります。45+のスタイル、8つのテクノロジースタック、39のデモの包括的なデータベースにより、AIエージェントでUIを構築する開発者にとって不可欠なツールです。",
+        "es": "UI UX Pro Max es el skill de dise?o m?s popular en el ecosistema de agentes de IA, con 112K+ estrellas GitHub. Su completa base de datos de 45+ estilos, 8 stacks tecnol?gicos y 39 demos lo convierte en una herramienta indispensable para cualquier desarrollador que construya UI con agentes de IA.",
+        "fr": "UI UX Pro Max est le skill de design le plus populaire dans l'?cosyst?me des agents IA, avec 112K+ ?toiles GitHub. Sa base de donn?es compl?te de 45+ styles, 8 piles technologiques et 39 d?mos en fait un outil indispensable pour tout d?veloppeur construisant des UI avec des agents IA."
+      },
+      "bestFor": {
+        "en": [
+          "Developers using AI agents for UI design",
+          "Teams wanting consistent design output",
+          "Rapid prototyping with design intelligence"
+        ],
+        "zh": [
+          "使用 AI 智能体进行 UI 设计的开发者",
+          "希望获得一致设计输出的团队",
+          "利用设计智能快速原型设计"
+        ],
+        "ja": [
+          "UIデザインにAIエージェントを使用する開発者",
+          "一貫したデザイン出力を求めるチーム",
+          "デザインインテリジェンスによる迅速なプロトタイピング"
+        ],
+        "es": [
+          "Desarrolladores que usan agentes IA para dise?o UI",
+          "Equipos que buscan una salida de dise?o consistente",
+          "Prototipado r?pido con inteligencia de dise?o"
+        ],
+        "fr": [
+          "D?veloppeurs utilisant des agents IA pour le design UI",
+          "?quipes souhaitant une sortie de design coh?rente",
+          "Prototypage rapide avec intelligence de conception"
+        ]
+      },
+      "considerAlternatives": {
+        "en": [
+          "You need a standalone design tool (Figma, Canva)",
+          "You prefer hand-crafted design without AI assistance"
+        ],
+        "zh": [
+          "你需要独立的设计工具（Figma、Canva）",
+          "你更喜欢无需 AI 辅助的手工设计"
+        ],
+        "ja": [
+          "スタンドアロンのデザインツールが必要（Figma、Canva）",
+          "AI支援なしの手作業デザインを好む"
+        ],
+        "es": [
+          "Necesitas una herramienta de dise?o independiente (Figma, Canva)",
+          "Prefieres dise?o artesanal sin asistencia de IA"
+        ],
+        "fr": [
+          "Vous avez besoin d'un outil de design autonome (Figma, Canva)",
+          "Vous pr?f?rez le design artisanal sans assistance IA"
+        ]
+      }
+    },
+    "meta": {
+      "lastVerified": "2026-08-02",
+      "verdictDate": "2026-08-02",
+      "pricingVerified": "2026-08-02",
+      "pricingUrl": "https://ui-ux-pro-max-skill.nextlevelbuilder.io/"
+    }
   }
 }
