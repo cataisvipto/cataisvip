@@ -78,11 +78,14 @@ export default function Header({ searchQuery, onSearchChange, locale }: HeaderPr
           </div>
 
           {/* Primary navigation, right after the logo (desktop) */}
-          <nav className="hidden lg:flex items-center gap-1.5">
-            <Link href="/" className={`${navBase} ${isHome ? navActive : navIdle}`}>
-              <Home className="w-4 h-4" />
-              {t('nav.home')}
-            </Link>
+                    <nav className="hidden lg:flex items-center gap-1.5">
+                      <Link href="/" className={`${navBase} ${isHome ? navActive : navIdle} shrink-0`}>
+                        <Home className="w-4 h-4" />
+                        {t('nav.home')}
+                      </Link>
+
+                      {/* Collapsible nav items — hide when search is active */}
+                      <div className={`flex items-center gap-1.5 transition-opacity duration-200 ${searchOpen ? 'opacity-0 pointer-events-none overflow-hidden max-w-0' : 'opacity-100 max-w-[600px]'}`}>
 
             {/* Categories Dropdown */}
             <div className="relative" ref={catRef}>
@@ -130,8 +133,9 @@ export default function Header({ searchQuery, onSearchChange, locale }: HeaderPr
             <Link href="/blog" className={`${navBase} ${isBlog ? navActive : navIdle}`}>
               <Newspaper className="w-4 h-4" />
               {t('nav.blog')}
-            </Link>
-          </nav>
+                          </Link>
+                        </div>
+                        </nav>
 
           {/* Search + utilities, pushed to the right */}
           <div className="flex items-center gap-3 ml-auto">
