@@ -25,7 +25,7 @@ export default function HomePageClient() {
   // Latest 8 tools (last entries in tools.json)
   const latestTools = allTools.slice(-8).reverse();
   // Curated editor's picks for the homepage showcase (balanced across categories)
-  const curatedTools = allTools.filter((tool) => tool.homeFeatured);
+  const curatedTools = allTools.filter((tool) => tool.homeFeatured).slice(0, 8);
 
   const getDisplayName = (tool: Tool) =>
     locale === 'zh' && tool.nameZh ? tool.nameZh : tool.name;
