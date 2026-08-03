@@ -170,7 +170,7 @@ export function generateArticleJsonLd(params: {
       name: 'Cataito',
       logo: {
         '@type': 'ImageObject',
-        url: `${BASE_URL}/logo.svg`,
+        url: `${BASE_URL}/logo.png`,
       },
     },
     datePublished: params.datePublished,

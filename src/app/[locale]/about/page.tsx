@@ -23,7 +23,7 @@ const orgJsonLd = {
   '@type': 'Organization',
   name: 'Cataito',
   url: 'https://cataito.com',
-  logo: 'https://cataito.com/logo.svg',
+  logo: 'https://cataito.com/logo.png',
   email: 'hello@cataito.com',
 };
 

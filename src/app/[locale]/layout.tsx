@@ -34,13 +34,13 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     siteName: "Cataito",
-    images: [{ url: '/logo.svg', width: 512, height: 512, alt: 'Cataito' }],
+    images: [{ url: '/logo.png', width: 512, height: 512, alt: 'Cataito' }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Cataito - AI Ecosystem Portal",
     description: "Your gateway to the global AI ecosystem.",
-    images: ['/logo.svg'],
+    images: ['/logo.png'],
   },
   robots: {
     index: true,
