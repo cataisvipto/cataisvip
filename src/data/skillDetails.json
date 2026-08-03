@@ -3067,5 +3067,119 @@
         "Coh?rence visuelle de marque"
       ]
     }
+  },
+  "book-to-skill": {
+    "pros": {
+      "en": [
+        "15K+ GitHub stars, rapidly growing community",
+        "24x-51x fewer tokens than dumping book into context",
+        "Supports PDF, EPUB, DOCX, MD, HTML, RTF, MOBI formats",
+        "Generates structured skill with frameworks, decision rules, and anti-patterns",
+        "Open source (MIT license), free to use"
+      ],
+      "zh": [
+        "15K+ GitHub 星标，快速增长社区",
+        "比将书籍放入上下文少 24-51 倍 token",
+        "支持 PDF、EPUB、DOCX、MD、HTML、RTF、MOBI 格式",
+        "生成结构化技能：框架、决策规则、反模式",
+        "开源（MIT 许可证），免费使用"
+      ],
+      "ja": [
+        "15K+ GitHubスター、急成長コミュニティ",
+        "本をコンテキストに入れるより24-51倍少ないトークン",
+        "PDF、EPUB、DOCX、MD、HTML、RTF、MOBI形式をサポート",
+        "フレームワーク、決定ルール、アンチパターンを含む構造化スキルを生成",
+        "オープンソース（MITライセンス）、無料"
+      ],
+      "es": [
+        "15K+ estrellas GitHub, comunidad en rápido crecimiento",
+        "24-51x menos tokens que volcar el libro en el contexto",
+        "Compatible con PDF, EPUB, DOCX, MD, HTML, RTF, MOBI",
+        "Genera skill estructurado con marcos, reglas de decisión y antipatrones",
+        "C?digo abierto (licencia MIT), gratuito"
+      ],
+      "fr": [
+        "15K+ ?toiles GitHub, communaut? en croissance rapide",
+        "24-51x moins de tokens que de dumper le livre dans le contexte",
+        "Prend en charge PDF, EPUB, DOCX, MD, HTML, RTF, MOBI",
+        "G?n?re un skill structur? avec frameworks, r?gles de d?cision et anti-patrons",
+        "Open source (licence MIT), gratuit"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Requires Python to run",
+        "Best results with technical books",
+        "Processing time depends on book length"
+      ],
+      "zh": [
+        "需要 Python 运行环境",
+        "技术书籍效果最佳",
+        "处理时间取决于书籍长度"
+      ],
+      "ja": [
+        "Python実行環境が必要",
+        "技術書で最良の結果",
+        "処理時間は書籍の長さに依存"
+      ],
+      "es": [
+        "Requiere Python para ejecutarse",
+        "Mejores resultados con libros t?cnicos",
+        "El tiempo de procesamiento depende de la longitud del libro"
+      ],
+      "fr": [
+        "N?cessite Python pour fonctionner",
+        "Meilleurs r?sultats avec les livres techniques",
+        "Le temps de traitement d?pend de la longueur du livre"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "Free and open source (MIT)",
+        "zh": "免费开源（MIT）",
+        "ja": "無料オープンソース（MIT）",
+        "es": "Gratuito y de c?digo abierto (MIT)",
+        "fr": "Gratuit et open source (MIT)"
+      }
+    },
+    "verdict": {
+      "en": "A game-changing tool for developers who want to turn technical books into actionable agent knowledge. 15K+ stars in just 3 months show its massive appeal. The 24x-51x token efficiency compared to raw context dumping makes it both practical and cost-effective.",
+      "zh": "对于想要将技术书籍转化为可操作的智能体知识的开发者来说，这是一个改变游戏规则的工具。3 个月内获得 15K+ 星标显示了其巨大吸引力。与原始上下文转储相比，24-51 倍的 token 效率使其既实用又经济。",
+      "ja": "技術書を実行可能なエージェント知識に変えたい開発者にとって、ゲームチェンジャー的なツール。わずか3ヶ月で15K+スターを獲得し、その大きな魅力を示しています。生のコンテキストダンプと比較して24-51倍のトークン効率は、実用的かつコスト効果的です。",
+      "es": "Una herramienta revolucionaria para desarrolladores que quieren convertir libros t?cnicos en conocimiento de agente accionable. 15K+ estrellas en solo 3 meses muestran su enorme atractivo. La eficiencia de 24-51x tokens comparada con el volcado de contexto en bruto la hace pr?ctica y rentable.",
+      "fr": "Un outil r?volutionnaire pour les d?veloppeurs qui veulent transformer des livres techniques en connaissances d'agent actionnables. 15K+ ?toiles en seulement 3 mois montrent son attrait massif. L'efficacit? de 24-51x tokens par rapport au vidage de contexte brut le rend ? la fois pratique et rentable."
+    },
+    "useCases": {
+      "en": [
+        "Study technical books interactively with your AI agent",
+        "Reference specific chapters without re-reading",
+        "Turn documentation collections into searchable skills",
+        "Create reusable knowledge bases from multiple sources"
+      ],
+      "zh": [
+        "与 AI 智能体互动学习技术书籍",
+        "引用特定章节，无需重新阅读",
+        "将文档集合转化为可搜索的技能",
+        "从多个来源创建可重复使用的知识库"
+      ],
+      "ja": [
+        "AIエージェントと対話的に技術書を学習",
+        "再読不要で特定の章を参照",
+        "ドキュメントコレクションを検索可能なスキルに変換",
+        "複数のソースから再利用可能な知識ベースを作成"
+      ],
+      "es": [
+        "Estudia libros t?cnicos interactivamente con tu agente IA",
+        "Referencia cap?tulos espec?ficos sin volver a leer",
+        "Convierte colecciones de documentaci?n en skills buscables",
+        "Crea bases de conocimiento reutilizables desde m?ltiples fuentes"
+      ],
+      "fr": [
+        "?tudiez des livres techniques de mani?re interactive avec votre agent IA",
+        "R?f?rencez des chapitres sp?cifiques sans relire",
+        "Transformez des collections de documentation en skills recherchables",
+        "Cr?ez des bases de connaissances r?utilisables ? partir de multiples sources"
+      ]
+    }
   }
 }
