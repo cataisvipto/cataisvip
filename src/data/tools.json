@@ -5303,5 +5303,67 @@
       "browser_extension": false,
       "api": true
     }
+  },
+  {
+    "slug": "remotion",
+    "name": "Remotion",
+    "nameZh": "Remotion",
+    "description": "Make videos programmatically with React. Use React to create real MP4 videos, motion graphics, and animations.",
+    "descriptionEn": "Make videos programmatically with React. Use React to create real MP4 videos, motion graphics, and animations.",
+    "descriptionJa": "Reactでプログラム的に動画を作成。Reactを使って実際のMP4動画、モーショングラフィックス、アニメーションを制作。",
+    "descriptionEs": "Crea videos programáticamente con React. Usa React para crear videos MP4 reales, gráficos en movimiento y animaciones.",
+    "descriptionFr": "Créez des vidéos par programmation avec React. Utilisez React pour créer de vraies vidéos MP4, des graphiques animés et des animations.",
+    "url": "https://remotion.dev",
+    "logo": "/logos/tools/remotion.png",
+    "category": "Video",
+    "tags": [
+      "Free",
+      "Open Source",
+      "API"
+    ],
+    "featured": false,
+    "developer": "Remotion",
+    "developerZh": "Remotion",
+    "platforms": {
+      "web": true,
+      "windows": false,
+      "macos": false,
+      "ios": false,
+      "android": false,
+      "linux": false,
+      "browser_extension": false,
+      "api": true
+    }
+  },
+  {
+    "slug": "hyperframes",
+    "name": "Hyperframes",
+    "nameZh": "Hyperframes",
+    "description": "Write HTML. Render video. Built for AI agents. An HTML-to-video rendering engine for AI agents.",
+    "descriptionEn": "Write HTML. Render video. Built for AI agents. An HTML-to-video rendering engine for AI agents.",
+    "descriptionJa": "HTMLを書いて、動画をレンダリング。AIエージェント向けに構築。AIエージェントのためのHTML-to-videoレンダリングエンジン。",
+    "descriptionEs": "Escribe HTML. Renderiza video. Construido para agentes de IA. Un motor de renderizado de HTML a video para agentes de IA.",
+    "descriptionFr": "Écrivez HTML. Rendezrez la vidéo. Construit pour les agents IA. Un moteur de rendu HTML vers vidéo pour les agents IA.",
+    "url": "https://hyperframes.dev",
+    "logo": "/logos/tools/hyperframes.png",
+    "category": "Video",
+    "tags": [
+      "Free",
+      "Open Source",
+      "API"
+    ],
+    "featured": false,
+    "developer": "HeyGen",
+    "developerZh": "HeyGen",
+    "platforms": {
+      "web": true,
+      "windows": false,
+      "macos": false,
+      "ios": false,
+      "android": false,
+      "linux": false,
+      "browser_extension": false,
+      "api": true
+    }
   }
 ]
