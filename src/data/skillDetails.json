@@ -3238,11 +3238,13 @@
       ]
     },
     "pricing": {
-      "en": "Free (MIT License)",
-      "zh": "免费（MIT 许可证）",
-      "ja": "無料（MIT ライセンス）",
-      "es": "Gratis (Licencia MIT)",
-      "fr": "Gratuit (Licence MIT)"
+      "free": {
+        "en": "Free (MIT License)",
+        "zh": "免费（MIT 许可证）",
+        "ja": "無料（MIT ライセンス）",
+        "es": "Gratis (Licencia MIT)",
+        "fr": "Gratuit (Licence MIT)"
+      }
     },
     "verdict": {
       "en": "One of the most popular frontend design skills for AI agents. 71K+ stars speaks for itself. Essential for any developer using AI coding agents to build UIs.",
