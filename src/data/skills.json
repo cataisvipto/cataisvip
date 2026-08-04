@@ -21,7 +21,7 @@
     ],
     "installCommand": "See README for details.",
     "logo": "/logos/skills/awesome-selfhosted.png",
-    "stars": 310233,
+    "stars": 310474,
     "featured": false,
     "faqs": [
       {
@@ -103,7 +103,7 @@
     ],
     "installCommand": "Available via Claude Code marketplace, Cursor /add-plugin, Codex plugin marketplace, and more. See README for details.",
     "logo": "/logos/skills/superpowers.png",
-    "stars": 265143,
+    "stars": 265715,
     "featured": false,
     "faqs": [
       {
@@ -181,7 +181,7 @@
     ],
     "installCommand": "npx @anthropic-ai/sdk add grill-me",
     "logo": "/logos/skills/grill-me.png",
-    "stars": 199878,
+    "stars": 201485,
     "featured": false,
     "faqs": [
       {
@@ -259,7 +259,7 @@
     ],
     "installCommand": "npx @anthropic-ai/sdk add grill-with-docs",
     "logo": "/logos/skills/grill-with-docs.png",
-    "stars": 199878,
+    "stars": 201485,
     "featured": false,
     "faqs": [
       {
@@ -337,7 +337,7 @@
     ],
     "installCommand": "npx @anthropic-ai/sdk add improve-codebase-architecture",
     "logo": "/logos/skills/improve-codebase-architecture.png",
-    "stars": 199878,
+    "stars": 201485,
     "featured": false,
     "faqs": [
       {
@@ -415,7 +415,7 @@
     ],
     "installCommand": "Available via plugin marketplace. See README for details.",
     "logo": "/logos/skills/banner-design.png",
-    "stars": 112699,
+    "stars": 113059,
     "featured": false,
     "faqs": [
       {
@@ -493,7 +493,7 @@
     ],
     "installCommand": "Available via plugin marketplace. See README for details.",
     "logo": "/logos/skills/brand.png",
-    "stars": 112699,
+    "stars": 113059,
     "featured": false,
     "faqs": [
       {
@@ -571,7 +571,7 @@
     ],
     "installCommand": "Available via plugin marketplace. See README for details.",
     "logo": "/logos/skills/design.png",
-    "stars": 112699,
+    "stars": 113059,
     "featured": false,
     "faqs": [
       {
@@ -649,7 +649,7 @@
     ],
     "installCommand": "Available via plugin marketplace. See README for details.",
     "logo": "/logos/skills/design-system.png",
-    "stars": 112699,
+    "stars": 113059,
     "featured": false,
     "faqs": [
       {
@@ -727,7 +727,7 @@
     ],
     "installCommand": "Available via plugin marketplace. See README for details.",
     "logo": "/logos/skills/slides.png",
-    "stars": 112699,
+    "stars": 113059,
     "featured": false,
     "faqs": [
       {
@@ -805,7 +805,7 @@
     ],
     "installCommand": "Available via plugin marketplace. See README for details.",
     "logo": "/logos/skills/ui-styling.png",
-    "stars": 112699,
+    "stars": 113059,
     "featured": false,
     "faqs": [
       {
@@ -882,7 +882,7 @@
     ],
     "installCommand": "See README for installation instructions.",
     "logo": "/logos/skills/agent-reach.png",
-    "stars": 64677,
+    "stars": 65690,
     "featured": false,
     "faqs": [
       {
@@ -957,7 +957,7 @@
     ],
     "installCommand": "See README for installation instructions.",
     "logo": "/logos/skills/media-crawler.png",
-    "stars": 59639,
+    "stars": 59731,
     "featured": false,
     "faqs": [
       {
@@ -1034,7 +1034,7 @@
     ],
     "installCommand": "npx @anthropic-ai/claude add mcp-server-humanizer",
     "logo": "/logos/skills/humanizer.png",
-    "stars": 32741,
+    "stars": 32944,
     "featured": false,
     "faqs": [
       {
@@ -1112,7 +1112,7 @@
     ],
     "installCommand": "npx @anthropic-ai/sdk add nuwa-skill",
     "logo": "/logos/skills/nuwa-skill.png",
-    "stars": 29497,
+    "stars": 29583,
     "featured": false,
     "faqs": [
       {
@@ -1191,7 +1191,7 @@
     ],
     "installCommand": "npx @anthropic-ai/sdk add find-skills",
     "logo": "/logos/skills/find-skills.png",
-    "stars": 27853,
+    "stars": 27946,
     "featured": false,
     "faqs": [
       {
@@ -1269,7 +1269,7 @@
     ],
     "installCommand": "npx @anthropic-ai/sdk add huashu-design",
     "logo": "/logos/skills/huashu-design.png",
-    "stars": 22337,
+    "stars": 22396,
     "featured": false,
     "faqs": [
       {
@@ -1344,7 +1344,7 @@
     ],
     "installCommand": "pip install pyvideotrans",
     "logo": "/logos/skills/pyvideotrans.png",
-    "stars": 18525,
+    "stars": 18541,
     "featured": false,
     "faqs": [
       {
@@ -1398,6 +1398,83 @@
     ]
   },
   {
+    "slug": "book-to-skill",
+    "name": "Book to Skill",
+    "nameZh": "Book to Skill",
+    "description": "将技术书籍、文档文件夹或源文件集合转化为统一的智能体技能，随时学习、参考和使用",
+    "descriptionEn": "Turn any technical book, document folder, or collection of sources into a unified agent skill — ready to study, reference, and use while you work",
+    "descriptionJa": "技術書、ドキュメントフォルダ、またはソースコレクションを統一されたエージェントスキルに変換",
+    "descriptionEs": "Convierte cualquier libro técnico, carpeta de documentos o colección de fuentes en un skill de agente unificado",
+    "descriptionFr": "Transformez tout livre technique, dossier de documents ou collection de sources en un skill d'agent unifié",
+    "developer": "virgiliojr94",
+    "developerZh": "virgiliojr94",
+    "repo": "virgiliojr94/book-to-skill",
+    "agents": [
+      "claude",
+      "codex",
+      "generic"
+    ],
+    "category": "Developer",
+    "tags": [
+      "Free",
+      "Open Source"
+    ],
+    "installCommand": "pip install book-to-skill",
+    "logo": "/logos/skills/book-to-skill.png",
+    "stars": 15904,
+    "featured": false,
+    "faqs": [
+      {
+        "question": {
+          "en": "How do I install this skill?",
+          "zh": "如何安装这个技能？",
+          "ja": "このスキルをインストールするには？",
+          "es": "?C?mo instalo este skill?",
+          "fr": "Comment installer ce skill ?"
+        },
+        "answer": {
+          "en": "Run the install command in your agent terminal.",
+          "zh": "在智能体的终端中运行安装命令。",
+          "ja": "エージェントのターミナルでインストールコマンドを実行します。",
+          "es": "Ejecuta el comando de instalaci?n en la terminal de tu agente.",
+          "fr": "Exécutez la commande d'installation dans le terminal de votre agent."
+        }
+      },
+      {
+        "question": {
+          "en": "Which agents support this skill?",
+          "zh": "哪些智能体支持这个技能？",
+          "ja": "どのエージェントがこのスキルをサポートしていますか？",
+          "es": "?Qu? agentes son compatibles con este skill?",
+          "fr": "Quels agents supportent ce skill ?"
+        },
+        "answer": {
+          "en": "Claude Code, GitHub Copilot CLI, Amp, and other MCP-compatible agents.",
+          "zh": "Claude Code、GitHub Copilot CLI、Amp 和其他 MCP 兼容的智能体。",
+          "ja": "Claude Code銆丆opilot CLl銆丄mp銆佷お傛ひその他のMCP互換エージェント銆?",
+          "es": "Claude Code, GitHub Copilot CLI, Amp y otros agentes compatibles con MCP.",
+          "fr": "Claude Code, GitHub Copilot CLI, Amp et autres agents compatibles MCP."
+        }
+      },
+      {
+        "question": {
+          "en": "Is this skill free?",
+          "zh": "这个技能免费吗？",
+          "ja": "このスキルは無料ですか？",
+          "es": "?Este skill es gratuito?",
+          "fr": "Ce skill est-il gratuit ?"
+        },
+        "answer": {
+          "en": "Yes, it is free and open source under MIT license.",
+          "zh": "是的，免费且开源（MIT 许可证）。",
+          "ja": "はい、無料でオープンソース（MITライセンス）です。",
+          "es": "S?, es gratuito y de c?digo abierto (licencia MIT).",
+          "fr": "Oui, il est gratuit et open source (licence MIT)."
+        }
+      }
+    ]
+  },
+  {
     "slug": "ian-xiaohei-illustrations",
     "name": "Ian Xiaohei Illustrations",
     "nameZh": "小黑怪诞插画",
@@ -1421,7 +1498,7 @@
     ],
     "installCommand": "npx @anthropic-ai/claude add ian-xiaohei-illustrations",
     "logo": "/logos/skills/ian-xiaohei-illustrations.png",
-    "stars": 8891,
+    "stars": 8949,
     "featured": false,
     "faqs": [
       {
@@ -1498,7 +1575,7 @@
     ],
     "installCommand": "npx @anthropic-ai/sdk add horizon",
     "logo": "/logos/skills/horizon.png",
-    "stars": 8598,
+    "stars": 8619,
     "featured": false,
     "faqs": [
       {
@@ -1576,7 +1653,7 @@
     ],
     "installCommand": "npx @anthropic-ai/sdk add guizang-social-card",
     "logo": "/logos/skills/guizang-social-card.png",
-    "stars": 5805,
+    "stars": 5843,
     "featured": false,
     "faqs": [
       {
@@ -1654,7 +1731,7 @@
     ],
     "installCommand": "npx @anthropic-ai/sdk add generative-media-skills",
     "logo": "/logos/skills/generative-media-skills.png",
-    "stars": 3963,
+    "stars": 3970,
     "featured": false,
     "faqs": [
       {
@@ -1732,7 +1809,7 @@
     ],
     "installCommand": "npx @anthropic-ai/sdk add auto-redbook-skills",
     "logo": "/logos/skills/auto-redbook-skills.png",
-    "stars": 2087,
+    "stars": 2092,
     "featured": false,
     "faqs": [
       {
@@ -1810,7 +1887,7 @@
     ],
     "installCommand": "npx @anthropic-ai/sdk add ai-image-generation",
     "logo": "/logos/skills/ai-image-generation.png",
-    "stars": 675,
+    "stars": 677,
     "featured": false,
     "faqs": [
       {
@@ -1888,7 +1965,7 @@
     ],
     "installCommand": "npx @anthropic-ai/sdk add ai-video-generation",
     "logo": "/logos/skills/ai-video-generation.png",
-    "stars": 675,
+    "stars": 677,
     "featured": false,
     "faqs": [
       {
@@ -1965,7 +2042,7 @@
     ],
     "installCommand": "npx @anthropic-ai/sdk add video-production",
     "logo": "/logos/skills/video-production.png",
-    "stars": 376,
+    "stars": 379,
     "featured": false,
     "faqs": [
       {
@@ -2402,83 +2479,6 @@
           "ja": "熟練は不要です。スキルは無料のオープンソースで、Remotion の専門知識を AI に渡す仕組みです。欲しい動画のイメージを伝えるだけで、AI がベストプラクティスに沿った React 動画コードを書きます。React の基礎があればより快適です。",
           "es": "No se requiere dominio. La habilidad es gratuita y de código abierto: entrega la experiencia en Remotion a la IA. Solo describe el vídeo que quieres; la IA escribe código React siguiendo las mejores prácticas. Saber React básico ayuda.",
           "fr": "Aucune maîtrise requise. La compétence est gratuite et open source — elle transmet l'expertise Remotion à l'IA. Décrivez simplement la vidéo souhaitée ; l'IA écrit du code React conforme aux bonnes pratiques. Des bases en React sont un plus."
-        }
-      }
-    ]
-  },
-  {
-    "slug": "book-to-skill",
-    "name": "Book to Skill",
-    "nameZh": "Book to Skill",
-    "description": "将技术书籍、文档文件夹或源文件集合转化为统一的智能体技能，随时学习、参考和使用",
-    "descriptionEn": "Turn any technical book, document folder, or collection of sources into a unified agent skill — ready to study, reference, and use while you work",
-    "descriptionJa": "技術書、ドキュメントフォルダ、またはソースコレクションを統一されたエージェントスキルに変換",
-    "descriptionEs": "Convierte cualquier libro técnico, carpeta de documentos o colección de fuentes en un skill de agente unificado",
-    "descriptionFr": "Transformez tout livre technique, dossier de documents ou collection de sources en un skill d'agent unifié",
-    "developer": "virgiliojr94",
-    "developerZh": "virgiliojr94",
-    "repo": "virgiliojr94/book-to-skill",
-    "agents": [
-      "claude",
-      "codex",
-      "generic"
-    ],
-    "category": "Developer",
-    "tags": [
-      "Free",
-      "Open Source"
-    ],
-    "installCommand": "pip install book-to-skill",
-    "logo": "/logos/skills/book-to-skill.png",
-    "stars": 15389,
-    "featured": false,
-    "faqs": [
-      {
-        "question": {
-          "en": "How do I install this skill?",
-          "zh": "如何安装这个技能？",
-          "ja": "このスキルをインストールするには？",
-          "es": "?C?mo instalo este skill?",
-          "fr": "Comment installer ce skill ?"
-        },
-        "answer": {
-          "en": "Run the install command in your agent terminal.",
-          "zh": "在智能体的终端中运行安装命令。",
-          "ja": "エージェントのターミナルでインストールコマンドを実行します。",
-          "es": "Ejecuta el comando de instalaci?n en la terminal de tu agente.",
-          "fr": "Exécutez la commande d'installation dans le terminal de votre agent."
-        }
-      },
-      {
-        "question": {
-          "en": "Which agents support this skill?",
-          "zh": "哪些智能体支持这个技能？",
-          "ja": "どのエージェントがこのスキルをサポートしていますか？",
-          "es": "?Qu? agentes son compatibles con este skill?",
-          "fr": "Quels agents supportent ce skill ?"
-        },
-        "answer": {
-          "en": "Claude Code, GitHub Copilot CLI, Amp, and other MCP-compatible agents.",
-          "zh": "Claude Code、GitHub Copilot CLI、Amp 和其他 MCP 兼容的智能体。",
-          "ja": "Claude Code銆丆opilot CLl銆丄mp銆佷お傛ひその他のMCP互換エージェント銆?",
-          "es": "Claude Code, GitHub Copilot CLI, Amp y otros agentes compatibles con MCP.",
-          "fr": "Claude Code, GitHub Copilot CLI, Amp et autres agents compatibles MCP."
-        }
-      },
-      {
-        "question": {
-          "en": "Is this skill free?",
-          "zh": "这个技能免费吗？",
-          "ja": "このスキルは無料ですか？",
-          "es": "?Este skill es gratuito?",
-          "fr": "Ce skill est-il gratuit ?"
-        },
-        "answer": {
-          "en": "Yes, it is free and open source under MIT license.",
-          "zh": "是的，免费且开源（MIT 许可证）。",
-          "ja": "はい、無料でオープンソース（MITライセンス）です。",
-          "es": "S?, es gratuito y de c?digo abierto (licencia MIT).",
-          "fr": "Oui, il est gratuit et open source (licence MIT)."
         }
       }
     ]
