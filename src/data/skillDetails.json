@@ -3181,5 +3181,107 @@
         "Cr?ez des bases de connaissances r?utilisables ? partir de multiples sources"
       ]
     }
+  },
+  "taste-skill": {
+    "pros": {
+      "en": [
+        "71K+ stars, extremely popular",
+        "Works with Claude Code, Codex, and other agents",
+        "MIT licensed, fully open source",
+        "Simple installation via npm"
+      ],
+      "zh": [
+        "71K+ 星标，极受欢迎",
+        "兼容 Claude Code、Codex 等智能体",
+        "MIT 开源许可证",
+        "通过 npm 简单安装"
+      ],
+      "ja": [
+        "71K+ スター、非常に人気",
+        "Claude Code、Codex などのエージェントと連携",
+        "MIT ライセンスの完全オープンソース",
+        "npm で簡単インストール"
+      ],
+      "es": [
+        "71K+ estrellas, extremadamente popular",
+        "Funciona con Claude Code, Codex y otros agentes",
+        "Licencia MIT, completamente open source",
+        "Instalación simple vía npm"
+      ],
+      "fr": [
+        "71K+ étoiles, extrêmement populaire",
+        "Fonctionne avec Claude Code, Codex et autres agents",
+        "Licence MIT, entièrement open source",
+        "Installation simple via npm"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Focuses mainly on frontend/UI design",
+        "May need tuning for specific project aesthetics"
+      ],
+      "zh": [
+        "主要关注前端/UI 设计",
+        "可能需要针对特定项目风格进行调整"
+      ],
+      "ja": [
+        "主にフロントエンド/UIデザインに焦点",
+        "特定のプロジェクトの美観に調整が必要な場合あり"
+      ],
+      "es": [
+        "Se enfoca principalmente en diseño frontend/UI",
+        "Puede necesitar ajustes para la estética específica del proyecto"
+      ],
+      "fr": [
+        "Se concentre principalement sur le design frontend/UI",
+        "Peut nécessiter un réglage pour l'esthétique spécifique du projet"
+      ]
+    },
+    "pricing": {
+      "en": "Free (MIT License)",
+      "zh": "免费（MIT 许可证）",
+      "ja": "無料（MIT ライセンス）",
+      "es": "Gratis (Licencia MIT)",
+      "fr": "Gratuit (Licence MIT)"
+    },
+    "verdict": {
+      "en": "One of the most popular frontend design skills for AI agents. 71K+ stars speaks for itself. Essential for any developer using AI coding agents to build UIs.",
+      "zh": "最受欢迎的 AI 智能体前端设计技能之一。71K+ 星标说明一切。任何使用 AI 编码智能体构建 UI 的开发者必备。",
+      "ja": "AIエージェント向けの最も人気のあるフロントエンドデザインスキルの一つ。71K+ スターが物語っています。UIを構築するAIコーディングエージェントを使用する開発者には必須です。",
+      "es": "Una de las habilidades de diseño frontend más populares para agentes de IA. 71K+ estrellas hablan por sí mismas. Esencial para cualquier desarrollador que use agentes de codificación de IA para construir UIs.",
+      "fr": "L'une des compétences de design frontend les plus populaires pour les agents IA. 71K+ étoiles parlent d'elles-mêmes. Essentiel pour tout développeur utilisant des agents de codage IA pour construire des UIs."
+    },
+    "useCases": {
+      "en": [
+        "Improve AI-generated frontend UI quality",
+        "Stop AI from producing generic, boring designs",
+        "Add design taste to AI coding workflows"
+      ],
+      "zh": [
+        "提升 AI 生成的前端 UI 质量",
+        "阻止 AI 生成通用、乏味的设计",
+        "为 AI 编码工作流添加设计品味"
+      ],
+      "ja": [
+        "AI生成のフロントエンドUI品質を向上",
+        "AIが汎用的で退屈なデザインを生成するのを防止",
+        "AIコーディングワークフローにデザインセンスを追加"
+      ],
+      "es": [
+        "Mejorar la calidad de UI frontend generada por IA",
+        "Evitar que la IA produzca diseños genéricos y aburridos",
+        "Añadir gusto de diseño a los flujos de trabajo de codificación de IA"
+      ],
+      "fr": [
+        "Améliorer la qualité des UI frontend générées par IA",
+        "Empêcher l'IA de produire des designs génériques et ennuyeux",
+        "Ajouter du goût en design aux workflows de codage IA"
+      ]
+    },
+    "meta": {
+      "lastVerified": "2026-08-03",
+      "verdictDate": "2026-08-03",
+      "pricingVerified": "2026-08-03"
+    }
   }
 }

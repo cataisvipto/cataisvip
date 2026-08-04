@@ -2482,5 +2482,158 @@
         }
       }
     ]
+  },
+  {
+    "slug": "book-to-skill",
+    "name": "Book to Skill",
+    "nameZh": "Book to Skill",
+    "description": "将技术书籍、文档文件夹或源文件集合转化为统一的智能体技能，随时学习、参考和使用",
+    "descriptionEn": "Turn any technical book, document folder, or collection of sources into a unified agent skill — ready to study, reference, and use while you work",
+    "descriptionJa": "技術書、ドキュメントフォルダ、またはソースコレクションを統一されたエージェントスキルに変換",
+    "descriptionEs": "Convierte cualquier libro técnico, carpeta de documentos o colección de fuentes en un skill de agente unificado",
+    "descriptionFr": "Transformez tout livre technique, dossier de documents ou collection de sources en un skill d'agent unifié",
+    "developer": "virgiliojr94",
+    "developerZh": "virgiliojr94",
+    "repo": "virgiliojr94/book-to-skill",
+    "agents": [
+      "claude",
+      "codex",
+      "generic"
+    ],
+    "category": "Developer",
+    "tags": [
+      "Free",
+      "Open Source"
+    ],
+    "installCommand": "pip install book-to-skill",
+    "logo": "/logos/skills/book-to-skill.png",
+    "stars": 15389,
+    "featured": false,
+    "faqs": [
+      {
+        "question": {
+          "en": "How do I install this skill?",
+          "zh": "如何安装这个技能？",
+          "ja": "このスキルをインストールするには？",
+          "es": "?C?mo instalo este skill?",
+          "fr": "Comment installer ce skill ?"
+        },
+        "answer": {
+          "en": "Run the install command in your agent terminal.",
+          "zh": "在智能体的终端中运行安装命令。",
+          "ja": "エージェントのターミナルでインストールコマンドを実行します。",
+          "es": "Ejecuta el comando de instalaci?n en la terminal de tu agente.",
+          "fr": "Exécutez la commande d'installation dans le terminal de votre agent."
+        }
+      },
+      {
+        "question": {
+          "en": "Which agents support this skill?",
+          "zh": "哪些智能体支持这个技能？",
+          "ja": "どのエージェントがこのスキルをサポートしていますか？",
+          "es": "?Qu? agentes son compatibles con este skill?",
+          "fr": "Quels agents supportent ce skill ?"
+        },
+        "answer": {
+          "en": "Claude Code, GitHub Copilot CLI, Amp, and other MCP-compatible agents.",
+          "zh": "Claude Code、GitHub Copilot CLI、Amp 和其他 MCP 兼容的智能体。",
+          "ja": "Claude Code銆丆opilot CLl銆丄mp銆佷お傛ひその他のMCP互換エージェント銆?",
+          "es": "Claude Code, GitHub Copilot CLI, Amp y otros agentes compatibles con MCP.",
+          "fr": "Claude Code, GitHub Copilot CLI, Amp et autres agents compatibles MCP."
+        }
+      },
+      {
+        "question": {
+          "en": "Is this skill free?",
+          "zh": "这个技能免费吗？",
+          "ja": "このスキルは無料ですか？",
+          "es": "?Este skill es gratuito?",
+          "fr": "Ce skill est-il gratuit ?"
+        },
+        "answer": {
+          "en": "Yes, it is free and open source under MIT license.",
+          "zh": "是的，免费且开源（MIT 许可证）。",
+          "ja": "はい、無料でオープンソース（MITライセンス）です。",
+          "es": "S?, es gratuito y de c?digo abierto (licencia MIT).",
+          "fr": "Oui, il est gratuit et open source (licence MIT)."
+        }
+      }
+    ]
+  },
+  {
+    "slug": "taste-skill",
+    "name": "Taste-Skill",
+    "nameZh": "Taste-Skill",
+    "description": "Gives your AI good taste — stops generating boring, generic slop for frontend and UI design.",
+    "descriptionEn": "Gives your AI good taste. Stops the AI from generating boring, generic slop for frontend and UI design.",
+    "descriptionJa": "AIに良いセンスを与えます。退屈で一般的なフロントエンド/UIデザインを生成するのを防ぎます。",
+    "descriptionEs": "Dale buen gusto a tu IA. Evita que genere slop aburrido y genérico para frontend y UI.",
+    "descriptionFr": "Donne du bon goût à votre IA. Empêche de générer du slop ennuyeux et générique pour le frontend et UI.",
+    "repo": "Leonxlnx/taste-skill",
+    "category": "Design",
+    "tags": [
+      "Free",
+      "Open Source"
+    ],
+    "featured": false,
+    "agents": [
+      "codex",
+      "claude-code"
+    ],
+    "stars": 71256,
+    "developer": "Leonxlnx",
+    "developerZh": "Leonxlnx",
+    "installCommand": "npm i -g taste-skill",
+    "logo": "/logos/skills/taste-skill.png",
+    "faqs": [
+      {
+        "question": {
+          "en": "What is Taste-Skill?",
+          "zh": "什么是 Taste-Skill？",
+          "ja": "Taste-Skillとは？",
+          "es": "¿Qué es Taste-Skill?",
+          "fr": "Qu'est-ce que Taste-Skill?"
+        },
+        "answer": {
+          "en": "A skill that gives your AI good taste in frontend and UI design, preventing boring and generic output.",
+          "zh": "一个让 AI 在前端和 UI 设计方面具备良好品味的技能，防止生成乏味和通用的输出。",
+          "ja": "AIにフロントエンドとUIデザインの良いセンスを与え、退屈で一般的な出力を防ぐスキル。",
+          "es": "Una habilidad que le da a tu IA buen gusto en diseño frontend y UI, evitando resultados aburridos y genéricos.",
+          "fr": "Une compétence qui donne à votre IA du bon goût en design frontend et UI, évitant les sorties ennuyeuses et génériques."
+        }
+      },
+      {
+        "question": {
+          "en": "Which agents does it work with?",
+          "zh": "兼容哪些智能体？",
+          "ja": "どのエージェントと連携できますか？",
+          "es": "¿Con qué agentes funciona?",
+          "fr": "Avec quels agents fonctionne-t-il?"
+        },
+        "answer": {
+          "en": "Works with Claude Code, Codex, and other major AI coding agents.",
+          "zh": "兼容 Claude Code、Codex 等主流 AI 编码智能体。",
+          "ja": "Claude Code、Codex、その他の主要なAIコーディングエージェントと連携します。",
+          "es": "Funciona con Claude Code, Codex y otros agentes de codificación de IA principales.",
+          "fr": "Fonctionne avec Claude Code, Codex et autres agents de codage IA majeurs."
+        }
+      },
+      {
+        "question": {
+          "en": "How to install?",
+          "zh": "如何安装？",
+          "ja": "インストール方法は？",
+          "es": "¿Cómo instalar?",
+          "fr": "Comment installer?"
+        },
+        "answer": {
+          "en": "Run: npm i -g taste-skill",
+          "zh": "运行：npm i -g taste-skill",
+          "ja": "実行：npm i -g taste-skill",
+          "es": "Ejecuta: npm i -g taste-skill",
+          "fr": "Exécutez: npm i -g taste-skill"
+        }
+      }
+    ]
   }
 ]
