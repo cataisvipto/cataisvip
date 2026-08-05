@@ -210,12 +210,13 @@ export default function CategoryClient({ category, slug, tools: categoryTools, l
               >
                 <div className="flex items-start gap-4">
                   <LogoTile
-                    logo={tool.logo}
-                    alt={displayName}
-                    className="w-12 h-12 rounded-xl"
-                    imgPx={40}
-                  />
-                  <div className="flex-1 min-w-0">
+                                      logo={tool.logo}
+                                      logoDark={tool.logoDark}
+                                      alt={displayName}
+                                      className="w-12 h-12 rounded-xl"
+                                      imgPx={40}
+                                    />
+                                    <div className="flex-1 min-w-0">
                     <div className="flex items-center gap-2 mb-1">
                       <h3 className="font-semibold text-[var(--foreground)] truncate group-hover:text-[var(--primary)] transition">
                         {displayName}

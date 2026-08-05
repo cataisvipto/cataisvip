@@ -39,8 +39,9 @@ export interface Tool {
   descriptionEs?: string;
   descriptionFr?: string;
   url: string;
-  logo: string;
-  category: string;
+    logo: string;
+    logoDark?: string;
+    category: string;
   tags: string[];
   featured: boolean;
   homeFeatured?: boolean;
@@ -92,8 +93,9 @@ export default function ToolCard({ tool, locale }: ToolCardProps) {
       {/* Header - links to detail page */}
       <Link href={`/tool/${tool.slug}`} className="flex items-start gap-3 mb-3 group/header">
         <LogoTile
-          logo={tool.logo}
-          alt={displayName}
+                  logo={tool.logo}
+                  logoDark={tool.logoDark}
+                  alt={displayName}
           className="w-12 h-12 rounded-xl"
           imgPx={40}
           fallbackClassName="text-lg"

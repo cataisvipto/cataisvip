@@ -270,12 +270,13 @@ export default function BlogDetailClient({ post, locale, articleJsonLd, coverIma
                     className="flex items-center gap-3 p-3 bg-[var(--card-bg)] rounded-xl border border-[var(--card-border)] hover:border-[var(--primary)] hover:shadow-sm transition"
                   >
                     <LogoTile
-                      logo={tool.logo}
-                      alt={tool.name}
-                      className="w-10 h-10 rounded-lg"
-                      imgPx={32}
-                      fallbackClassName="text-base"
-                    />
+                                          logo={tool.logo}
+                                          logoDark={tool.logoDark}
+                                          alt={tool.name}
+                                          className="w-10 h-10 rounded-lg"
+                                          imgPx={32}
+                                          fallbackClassName="text-base"
+                                        />
                     <div className="min-w-0">
                       <div className="font-medium text-[var(--foreground)] text-sm truncate">{tool.name}</div>
                       <div className="text-xs text-[var(--muted)] truncate">

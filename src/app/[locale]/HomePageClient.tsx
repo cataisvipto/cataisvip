@@ -65,12 +65,13 @@ export default function HomePageClient() {
               >
                 <div className="flex items-center gap-3 mb-3">
                   <LogoTile
-                    logo={tool.logo}
-                    alt={getDisplayName(tool)}
-                    className="w-10 h-10 rounded-lg"
-                    imgPx={32}
-                    fallbackClassName="text-base"
-                  />
+                                      logo={tool.logo}
+                                      logoDark={tool.logoDark}
+                                      alt={getDisplayName(tool)}
+                                      className="w-10 h-10 rounded-lg"
+                                      imgPx={32}
+                                      fallbackClassName="text-base"
+                                    />
                   <div className="min-w-0 flex-1">
                     <h3 className="font-semibold text-sm text-[var(--foreground)] truncate group-hover:text-[var(--primary)] transition">
                       {getDisplayName(tool)}

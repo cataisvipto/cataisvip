@@ -1,55 +1,162 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "Tools Schema",
-  "description": "Validation schema for src/data/tools.json — AI tool directory entries",
+  "description": "Validation schema for src/data/tools.json \u2014 AI tool directory entries",
   "type": "array",
   "items": {
     "type": "object",
     "required": [
-      "slug", "name", "nameZh",
-      "description", "descriptionEn", "descriptionJa", "descriptionEs", "descriptionFr",
-      "url", "logo", "category", "tags", "featured", "developer"
+      "slug",
+      "name",
+      "nameZh",
+      "description",
+      "descriptionEn",
+      "descriptionJa",
+      "descriptionEs",
+      "descriptionFr",
+      "url",
+      "logo",
+      "category",
+      "tags",
+      "featured",
+      "developer"
     ],
     "additionalProperties": false,
     "properties": {
-      "slug":                { "type": "string", "minLength": 1 },
-      "name":                { "type": "string", "minLength": 1 },
-      "nameZh":              { "type": "string", "minLength": 1 },
-      "description":         { "type": "string", "minLength": 1 },
-      "descriptionEn":       { "type": "string", "minLength": 1 },
-      "descriptionJa":       { "type": "string", "minLength": 1 },
-      "descriptionEs":       { "type": "string", "minLength": 1 },
-      "descriptionFr":       { "type": "string", "minLength": 1 },
-      "url":                 { "type": "string", "minLength": 1 },
-      "logo":                { "type": "string", "minLength": 1 },
-      "category":            { "enum": [
-        "Chat", "Foundation Models", "Agent", "Code", "Image", "Video", "Avatar", "Audio",
-        "Music", "Writing", "Design", "Search", "Website Builder", "Automation", "API Platform", "Open Source"
-      ] },
-      "tags":                { "type": "array", "items": { "type": "string", "minLength": 1 } },
-      "featured":            { "type": "boolean" },
-      "homeFeatured":        { "type": "boolean" },
-      "developer":           { "type": "string", "minLength": 1 },
-      "developerZh":         { "type": "string" },
+      "slug": {
+        "type": "string",
+        "minLength": 1
+      },
+      "name": {
+        "type": "string",
+        "minLength": 1
+      },
+      "nameZh": {
+        "type": "string",
+        "minLength": 1
+      },
+      "description": {
+        "type": "string",
+        "minLength": 1
+      },
+      "descriptionEn": {
+        "type": "string",
+        "minLength": 1
+      },
+      "descriptionJa": {
+        "type": "string",
+        "minLength": 1
+      },
+      "descriptionEs": {
+        "type": "string",
+        "minLength": 1
+      },
+      "descriptionFr": {
+        "type": "string",
+        "minLength": 1
+      },
+      "url": {
+        "type": "string",
+        "minLength": 1
+      },
+      "logo": {
+        "type": "string",
+        "minLength": 1
+      },
+      "category": {
+        "enum": [
+          "Chat",
+          "Foundation Models",
+          "Agent",
+          "Code",
+          "Image",
+          "Video",
+          "Avatar",
+          "Audio",
+          "Music",
+          "Writing",
+          "Design",
+          "Search",
+          "Website Builder",
+          "Automation",
+          "API Platform",
+          "Open Source"
+        ]
+      },
+      "tags": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "featured": {
+        "type": "boolean"
+      },
+      "homeFeatured": {
+        "type": "boolean"
+      },
+      "developer": {
+        "type": "string",
+        "minLength": 1
+      },
+      "developerZh": {
+        "type": "string"
+      },
       "platforms": {
         "type": "object",
-        "description": "Supported Platforms — true | false | 'unknown'（未证实，前端不显示）",
-        "required": ["web", "windows", "macos", "ios", "android", "linux", "browser_extension", "api"],
+        "description": "Supported Platforms \u2014 true | false | 'unknown'\uff08\u672a\u8bc1\u5b9e\uff0c\u524d\u7aef\u4e0d\u663e\u793a\uff09",
+        "required": [
+          "web",
+          "windows",
+          "macos",
+          "ios",
+          "android",
+          "linux",
+          "browser_extension",
+          "api"
+        ],
         "additionalProperties": false,
         "properties": {
-          "web":               { "$ref": "#/definitions/platformValue" },
-          "windows":           { "$ref": "#/definitions/platformValue" },
-          "macos":             { "$ref": "#/definitions/platformValue" },
-          "ios":               { "$ref": "#/definitions/platformValue" },
-          "android":           { "$ref": "#/definitions/platformValue" },
-          "linux":             { "$ref": "#/definitions/platformValue" },
-          "browser_extension": { "$ref": "#/definitions/platformValue" },
-          "api":               { "$ref": "#/definitions/platformValue" }
+          "web": {
+            "$ref": "#/definitions/platformValue"
+          },
+          "windows": {
+            "$ref": "#/definitions/platformValue"
+          },
+          "macos": {
+            "$ref": "#/definitions/platformValue"
+          },
+          "ios": {
+            "$ref": "#/definitions/platformValue"
+          },
+          "android": {
+            "$ref": "#/definitions/platformValue"
+          },
+          "linux": {
+            "$ref": "#/definitions/platformValue"
+          },
+          "browser_extension": {
+            "$ref": "#/definitions/platformValue"
+          },
+          "api": {
+            "$ref": "#/definitions/platformValue"
+          }
         }
+      },
+      "logoDark": {
+        "type": "string",
+        "minLength": 1
       }
     }
   },
   "definitions": {
-    "platformValue": { "enum": [true, false, "unknown"] }
+    "platformValue": {
+      "enum": [
+        true,
+        false,
+        "unknown"
+      ]
+    }
   }
 }

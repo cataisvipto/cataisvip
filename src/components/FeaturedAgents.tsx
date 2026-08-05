@@ -68,8 +68,9 @@ export default function FeaturedAgents() {
             >
               <div className="flex items-start gap-4 mb-4">
                 <LogoTile
-                  logo={agent.logo}
-                  alt={displayName}
+                                  logo={agent.logo}
+                                  logoDark={agent.logoDark}
+                                  alt={displayName}
                   className="w-14 h-14 rounded-xl"
                   imgPx={48}
                 />

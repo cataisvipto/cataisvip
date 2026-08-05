@@ -108,13 +108,14 @@ export default function ToolDetailClient({ tool, locale, details: detailsProp, s
         className="group flex items-start gap-4 p-5 rounded-xl border border-[var(--card-border)] hover:border-[var(--primary)] hover:bg-[var(--muted-bg)] hover:shadow-md transition-all duration-300"
       >
         <LogoTile
-          logo={rt.logo}
-          alt={rtName}
-          className="w-12 h-12 rounded-xl"
-          imgPx={40}
-          fallbackClassName="text-lg"
-        />
-        <div className="min-w-0 flex-1">
+                  logo={rt.logo}
+                  logoDark={rt.logoDark}
+                  alt={rtName}
+                  className="w-12 h-12 rounded-xl"
+                  imgPx={40}
+                  fallbackClassName="text-lg"
+                />
+                <div className="min-w-0 flex-1">
           <div className="font-semibold text-[var(--foreground)] text-sm truncate group-hover:text-[var(--primary)] transition">
             {rtName}
           </div>
@@ -181,12 +182,13 @@ export default function ToolDetailClient({ tool, locale, details: detailsProp, s
               <div className="flex items-start gap-6">
                 {/* Logo */}
                 <LogoTile
-                  logo={tool.logo}
-                  alt={displayName}
-                  className="w-20 h-20 rounded-2xl"
-                  imgPx={64}
-                  fallbackClassName="text-3xl"
-                />
+                                  logo={tool.logo}
+                                  logoDark={tool.logoDark}
+                                  alt={displayName}
+                                  className="w-20 h-20 rounded-2xl"
+                                  imgPx={64}
+                                  fallbackClassName="text-3xl"
+                                />
 
                 {/* Info */}
                 <div className="flex-1 min-w-0">
