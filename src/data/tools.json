@@ -5365,5 +5365,36 @@
       "browser_extension": false,
       "api": true
     }
+  },
+  {
+    "slug": "firecrawl",
+    "name": "Firecrawl",
+    "nameZh": "Firecrawl",
+    "description": "The API to search, scrape, and interact with the web at scale.",
+    "descriptionEn": "The API to search, scrape, and interact with the web at scale. Turn web content into clean Markdown or structured data for AI agents.",
+    "descriptionJa": "ウェブを検索、スクレイピング、大規模に操作するためのAPI。WebコンテンツをクリーンなMarkdownまたは構造化データに変換。",
+    "descriptionEs": "La API para buscar, extraer e interactuar con la web a escala. Convierte contenido web en Markdown limpio o datos estructurados.",
+    "descriptionFr": "L'API pour rechercher, scraper et interagir avec le web à grande échelle. Transformez le contenu web en Markdown propre ou en données structurées.",
+    "url": "https://firecrawl.dev",
+    "logo": "/logos/tools/firecrawl.png",
+    "category": "Search",
+    "tags": [
+      "Freemium",
+      "Open Source",
+      "API"
+    ],
+    "featured": false,
+    "developer": "Firecrawl",
+    "developerZh": "Firecrawl",
+    "platforms": {
+      "web": true,
+      "windows": false,
+      "macos": false,
+      "ios": false,
+      "android": false,
+      "linux": false,
+      "browser_extension": false,
+      "api": true
+    }
   }
 ]
