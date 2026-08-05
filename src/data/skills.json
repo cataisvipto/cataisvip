@@ -21,7 +21,7 @@
     ],
     "installCommand": "See README for details.",
     "logo": "/logos/skills/awesome-selfhosted.png",
-    "stars": 310474,
+    "stars": 310665,
     "featured": false,
     "faqs": [
       {
@@ -103,7 +103,7 @@
     ],
     "installCommand": "Available via Claude Code marketplace, Cursor /add-plugin, Codex plugin marketplace, and more. See README for details.",
     "logo": "/logos/skills/superpowers.png",
-    "stars": 265715,
+    "stars": 266467,
     "featured": false,
     "faqs": [
       {
@@ -181,7 +181,7 @@
     ],
     "installCommand": "npx @anthropic-ai/sdk add grill-me",
     "logo": "/logos/skills/grill-me.png",
-    "stars": 201485,
+    "stars": 203241,
     "featured": false,
     "faqs": [
       {
@@ -259,7 +259,7 @@
     ],
     "installCommand": "npx @anthropic-ai/sdk add grill-with-docs",
     "logo": "/logos/skills/grill-with-docs.png",
-    "stars": 201485,
+    "stars": 203241,
     "featured": false,
     "faqs": [
       {
@@ -337,7 +337,7 @@
     ],
     "installCommand": "npx @anthropic-ai/sdk add improve-codebase-architecture",
     "logo": "/logos/skills/improve-codebase-architecture.png",
-    "stars": 201485,
+    "stars": 203241,
     "featured": false,
     "faqs": [
       {
@@ -415,7 +415,7 @@
     ],
     "installCommand": "Available via plugin marketplace. See README for details.",
     "logo": "/logos/skills/banner-design.png",
-    "stars": 113059,
+    "stars": 113452,
     "featured": false,
     "faqs": [
       {
@@ -493,7 +493,7 @@
     ],
     "installCommand": "Available via plugin marketplace. See README for details.",
     "logo": "/logos/skills/brand.png",
-    "stars": 113059,
+    "stars": 113452,
     "featured": false,
     "faqs": [
       {
@@ -571,7 +571,7 @@
     ],
     "installCommand": "Available via plugin marketplace. See README for details.",
     "logo": "/logos/skills/design.png",
-    "stars": 113059,
+    "stars": 113452,
     "featured": false,
     "faqs": [
       {
@@ -649,7 +649,7 @@
     ],
     "installCommand": "Available via plugin marketplace. See README for details.",
     "logo": "/logos/skills/design-system.png",
-    "stars": 113059,
+    "stars": 113452,
     "featured": false,
     "faqs": [
       {
@@ -727,7 +727,7 @@
     ],
     "installCommand": "Available via plugin marketplace. See README for details.",
     "logo": "/logos/skills/slides.png",
-    "stars": 113059,
+    "stars": 113452,
     "featured": false,
     "faqs": [
       {
@@ -805,7 +805,7 @@
     ],
     "installCommand": "Available via plugin marketplace. See README for details.",
     "logo": "/logos/skills/ui-styling.png",
-    "stars": 113059,
+    "stars": 113452,
     "featured": false,
     "faqs": [
       {
@@ -859,6 +859,82 @@
     ]
   },
   {
+    "slug": "taste-skill",
+    "name": "Taste-Skill",
+    "nameZh": "Taste-Skill",
+    "description": "Gives your AI good taste — stops generating boring, generic slop for frontend and UI design.",
+    "descriptionEn": "Gives your AI good taste. Stops the AI from generating boring, generic slop for frontend and UI design.",
+    "descriptionJa": "AIに良いセンスを与えます。退屈で一般的なフロントエンド/UIデザインを生成するのを防ぎます。",
+    "descriptionEs": "Dale buen gusto a tu IA. Evita que genere slop aburrido y genérico para frontend y UI.",
+    "descriptionFr": "Donne du bon goût à votre IA. Empêche de générer du slop ennuyeux et générique pour le frontend et UI.",
+    "repo": "Leonxlnx/taste-skill",
+    "category": "Design",
+    "tags": [
+      "Free",
+      "Open Source"
+    ],
+    "featured": false,
+    "agents": [
+      "codex",
+      "claude-code"
+    ],
+    "stars": 71879,
+    "developer": "Leonxlnx",
+    "developerZh": "Leonxlnx",
+    "installCommand": "npm i -g taste-skill",
+    "logo": "/logos/skills/taste-skill.png",
+    "faqs": [
+      {
+        "question": {
+          "en": "What is Taste-Skill?",
+          "zh": "什么是 Taste-Skill？",
+          "ja": "Taste-Skillとは？",
+          "es": "¿Qué es Taste-Skill?",
+          "fr": "Qu'est-ce que Taste-Skill?"
+        },
+        "answer": {
+          "en": "A skill that gives your AI good taste in frontend and UI design, preventing boring and generic output.",
+          "zh": "一个让 AI 在前端和 UI 设计方面具备良好品味的技能，防止生成乏味和通用的输出。",
+          "ja": "AIにフロントエンドとUIデザインの良いセンスを与え、退屈で一般的な出力を防ぐスキル。",
+          "es": "Una habilidad que le da a tu IA buen gusto en diseño frontend y UI, evitando resultados aburridos y genéricos.",
+          "fr": "Une compétence qui donne à votre IA du bon goût en design frontend et UI, évitant les sorties ennuyeuses et génériques."
+        }
+      },
+      {
+        "question": {
+          "en": "Which agents does it work with?",
+          "zh": "兼容哪些智能体？",
+          "ja": "どのエージェントと連携できますか？",
+          "es": "¿Con qué agentes funciona?",
+          "fr": "Avec quels agents fonctionne-t-il?"
+        },
+        "answer": {
+          "en": "Works with Claude Code, Codex, and other major AI coding agents.",
+          "zh": "兼容 Claude Code、Codex 等主流 AI 编码智能体。",
+          "ja": "Claude Code、Codex、その他の主要なAIコーディングエージェントと連携します。",
+          "es": "Funciona con Claude Code, Codex y otros agentes de codificación de IA principales.",
+          "fr": "Fonctionne avec Claude Code, Codex et autres agents de codage IA majeurs."
+        }
+      },
+      {
+        "question": {
+          "en": "How to install?",
+          "zh": "如何安装？",
+          "ja": "インストール方法は？",
+          "es": "¿Cómo instalar?",
+          "fr": "Comment installer?"
+        },
+        "answer": {
+          "en": "Run: npm i -g taste-skill",
+          "zh": "运行：npm i -g taste-skill",
+          "ja": "実行：npm i -g taste-skill",
+          "es": "Ejecuta: npm i -g taste-skill",
+          "fr": "Exécutez: npm i -g taste-skill"
+        }
+      }
+    ]
+  },
+  {
     "slug": "agent-reach",
     "name": "Agent Reach",
     "nameZh": "Agent Reach",
@@ -882,7 +958,7 @@
     ],
     "installCommand": "See README for installation instructions.",
     "logo": "/logos/skills/agent-reach.png",
-    "stars": 65690,
+    "stars": 66481,
     "featured": false,
     "faqs": [
       {
@@ -957,7 +1033,7 @@
     ],
     "installCommand": "See README for installation instructions.",
     "logo": "/logos/skills/media-crawler.png",
-    "stars": 59731,
+    "stars": 59870,
     "featured": false,
     "faqs": [
       {
@@ -1034,7 +1110,7 @@
     ],
     "installCommand": "npx @anthropic-ai/claude add mcp-server-humanizer",
     "logo": "/logos/skills/humanizer.png",
-    "stars": 32944,
+    "stars": 33485,
     "featured": false,
     "faqs": [
       {
@@ -1112,7 +1188,7 @@
     ],
     "installCommand": "npx @anthropic-ai/sdk add nuwa-skill",
     "logo": "/logos/skills/nuwa-skill.png",
-    "stars": 29583,
+    "stars": 29690,
     "featured": false,
     "faqs": [
       {
@@ -1191,7 +1267,7 @@
     ],
     "installCommand": "npx @anthropic-ai/sdk add find-skills",
     "logo": "/logos/skills/find-skills.png",
-    "stars": 27946,
+    "stars": 28034,
     "featured": false,
     "faqs": [
       {
@@ -1269,7 +1345,7 @@
     ],
     "installCommand": "npx @anthropic-ai/sdk add huashu-design",
     "logo": "/logos/skills/huashu-design.png",
-    "stars": 22396,
+    "stars": 22462,
     "featured": false,
     "faqs": [
       {
@@ -1344,7 +1420,7 @@
     ],
     "installCommand": "pip install pyvideotrans",
     "logo": "/logos/skills/pyvideotrans.png",
-    "stars": 18541,
+    "stars": 18550,
     "featured": false,
     "faqs": [
       {
@@ -1421,7 +1497,7 @@
     ],
     "installCommand": "pip install book-to-skill",
     "logo": "/logos/skills/book-to-skill.png",
-    "stars": 15904,
+    "stars": 16393,
     "featured": false,
     "faqs": [
       {
@@ -1498,7 +1574,7 @@
     ],
     "installCommand": "npx @anthropic-ai/claude add ian-xiaohei-illustrations",
     "logo": "/logos/skills/ian-xiaohei-illustrations.png",
-    "stars": 8949,
+    "stars": 9004,
     "featured": false,
     "faqs": [
       {
@@ -1575,7 +1651,7 @@
     ],
     "installCommand": "npx @anthropic-ai/sdk add horizon",
     "logo": "/logos/skills/horizon.png",
-    "stars": 8619,
+    "stars": 8639,
     "featured": false,
     "faqs": [
       {
@@ -1653,7 +1729,7 @@
     ],
     "installCommand": "npx @anthropic-ai/sdk add guizang-social-card",
     "logo": "/logos/skills/guizang-social-card.png",
-    "stars": 5843,
+    "stars": 5889,
     "featured": false,
     "faqs": [
       {
@@ -1731,7 +1807,7 @@
     ],
     "installCommand": "npx @anthropic-ai/sdk add generative-media-skills",
     "logo": "/logos/skills/generative-media-skills.png",
-    "stars": 3970,
+    "stars": 3976,
     "featured": false,
     "faqs": [
       {
@@ -1809,7 +1885,7 @@
     ],
     "installCommand": "npx @anthropic-ai/sdk add auto-redbook-skills",
     "logo": "/logos/skills/auto-redbook-skills.png",
-    "stars": 2092,
+    "stars": 2095,
     "featured": false,
     "faqs": [
       {
@@ -1887,7 +1963,7 @@
     ],
     "installCommand": "npx @anthropic-ai/sdk add ai-image-generation",
     "logo": "/logos/skills/ai-image-generation.png",
-    "stars": 677,
+    "stars": 679,
     "featured": false,
     "faqs": [
       {
@@ -1965,7 +2041,7 @@
     ],
     "installCommand": "npx @anthropic-ai/sdk add ai-video-generation",
     "logo": "/logos/skills/ai-video-generation.png",
-    "stars": 677,
+    "stars": 679,
     "featured": false,
     "faqs": [
       {
@@ -2042,7 +2118,7 @@
     ],
     "installCommand": "npx @anthropic-ai/sdk add video-production",
     "logo": "/logos/skills/video-production.png",
-    "stars": 379,
+    "stars": 382,
     "featured": false,
     "faqs": [
       {
@@ -2479,82 +2555,6 @@
           "ja": "熟練は不要です。スキルは無料のオープンソースで、Remotion の専門知識を AI に渡す仕組みです。欲しい動画のイメージを伝えるだけで、AI がベストプラクティスに沿った React 動画コードを書きます。React の基礎があればより快適です。",
           "es": "No se requiere dominio. La habilidad es gratuita y de código abierto: entrega la experiencia en Remotion a la IA. Solo describe el vídeo que quieres; la IA escribe código React siguiendo las mejores prácticas. Saber React básico ayuda.",
           "fr": "Aucune maîtrise requise. La compétence est gratuite et open source — elle transmet l'expertise Remotion à l'IA. Décrivez simplement la vidéo souhaitée ; l'IA écrit du code React conforme aux bonnes pratiques. Des bases en React sont un plus."
-        }
-      }
-    ]
-  },
-  {
-    "slug": "taste-skill",
-    "name": "Taste-Skill",
-    "nameZh": "Taste-Skill",
-    "description": "Gives your AI good taste — stops generating boring, generic slop for frontend and UI design.",
-    "descriptionEn": "Gives your AI good taste. Stops the AI from generating boring, generic slop for frontend and UI design.",
-    "descriptionJa": "AIに良いセンスを与えます。退屈で一般的なフロントエンド/UIデザインを生成するのを防ぎます。",
-    "descriptionEs": "Dale buen gusto a tu IA. Evita que genere slop aburrido y genérico para frontend y UI.",
-    "descriptionFr": "Donne du bon goût à votre IA. Empêche de générer du slop ennuyeux et générique pour le frontend et UI.",
-    "repo": "Leonxlnx/taste-skill",
-    "category": "Design",
-    "tags": [
-      "Free",
-      "Open Source"
-    ],
-    "featured": false,
-    "agents": [
-      "codex",
-      "claude-code"
-    ],
-    "stars": 71256,
-    "developer": "Leonxlnx",
-    "developerZh": "Leonxlnx",
-    "installCommand": "npm i -g taste-skill",
-    "logo": "/logos/skills/taste-skill.png",
-    "faqs": [
-      {
-        "question": {
-          "en": "What is Taste-Skill?",
-          "zh": "什么是 Taste-Skill？",
-          "ja": "Taste-Skillとは？",
-          "es": "¿Qué es Taste-Skill?",
-          "fr": "Qu'est-ce que Taste-Skill?"
-        },
-        "answer": {
-          "en": "A skill that gives your AI good taste in frontend and UI design, preventing boring and generic output.",
-          "zh": "一个让 AI 在前端和 UI 设计方面具备良好品味的技能，防止生成乏味和通用的输出。",
-          "ja": "AIにフロントエンドとUIデザインの良いセンスを与え、退屈で一般的な出力を防ぐスキル。",
-          "es": "Una habilidad que le da a tu IA buen gusto en diseño frontend y UI, evitando resultados aburridos y genéricos.",
-          "fr": "Une compétence qui donne à votre IA du bon goût en design frontend et UI, évitant les sorties ennuyeuses et génériques."
-        }
-      },
-      {
-        "question": {
-          "en": "Which agents does it work with?",
-          "zh": "兼容哪些智能体？",
-          "ja": "どのエージェントと連携できますか？",
-          "es": "¿Con qué agentes funciona?",
-          "fr": "Avec quels agents fonctionne-t-il?"
-        },
-        "answer": {
-          "en": "Works with Claude Code, Codex, and other major AI coding agents.",
-          "zh": "兼容 Claude Code、Codex 等主流 AI 编码智能体。",
-          "ja": "Claude Code、Codex、その他の主要なAIコーディングエージェントと連携します。",
-          "es": "Funciona con Claude Code, Codex y otros agentes de codificación de IA principales.",
-          "fr": "Fonctionne avec Claude Code, Codex et autres agents de codage IA majeurs."
-        }
-      },
-      {
-        "question": {
-          "en": "How to install?",
-          "zh": "如何安装？",
-          "ja": "インストール方法は？",
-          "es": "¿Cómo instalar?",
-          "fr": "Comment installer?"
-        },
-        "answer": {
-          "en": "Run: npm i -g taste-skill",
-          "zh": "运行：npm i -g taste-skill",
-          "ja": "実行：npm i -g taste-skill",
-          "es": "Ejecuta: npm i -g taste-skill",
-          "fr": "Exécutez: npm i -g taste-skill"
         }
       }
     ]
