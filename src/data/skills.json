@@ -21,7 +21,7 @@
     ],
     "installCommand": "See README for details.",
     "logo": "/logos/skills/awesome-selfhosted.png",
-    "stars": 310665,
+    "stars": 310875,
     "featured": false,
     "faqs": [
       {
@@ -103,7 +103,7 @@
     ],
     "installCommand": "Available via Claude Code marketplace, Cursor /add-plugin, Codex plugin marketplace, and more. See README for details.",
     "logo": "/logos/skills/superpowers.png",
-    "stars": 266467,
+    "stars": 267279,
     "featured": false,
     "faqs": [
       {
@@ -181,7 +181,7 @@
     ],
     "installCommand": "npx @anthropic-ai/sdk add grill-me",
     "logo": "/logos/skills/grill-me.png",
-    "stars": 203241,
+    "stars": 204914,
     "featured": false,
     "faqs": [
       {
@@ -259,7 +259,7 @@
     ],
     "installCommand": "npx @anthropic-ai/sdk add grill-with-docs",
     "logo": "/logos/skills/grill-with-docs.png",
-    "stars": 203241,
+    "stars": 204914,
     "featured": false,
     "faqs": [
       {
@@ -337,7 +337,7 @@
     ],
     "installCommand": "npx @anthropic-ai/sdk add improve-codebase-architecture",
     "logo": "/logos/skills/improve-codebase-architecture.png",
-    "stars": 203241,
+    "stars": 204914,
     "featured": false,
     "faqs": [
       {
@@ -415,7 +415,7 @@
     ],
     "installCommand": "Available via plugin marketplace. See README for details.",
     "logo": "/logos/skills/banner-design.png",
-    "stars": 113452,
+    "stars": 113815,
     "featured": false,
     "faqs": [
       {
@@ -493,7 +493,7 @@
     ],
     "installCommand": "Available via plugin marketplace. See README for details.",
     "logo": "/logos/skills/brand.png",
-    "stars": 113452,
+    "stars": 113815,
     "featured": false,
     "faqs": [
       {
@@ -571,7 +571,7 @@
     ],
     "installCommand": "Available via plugin marketplace. See README for details.",
     "logo": "/logos/skills/design.png",
-    "stars": 113452,
+    "stars": 113815,
     "featured": false,
     "faqs": [
       {
@@ -649,7 +649,7 @@
     ],
     "installCommand": "Available via plugin marketplace. See README for details.",
     "logo": "/logos/skills/design-system.png",
-    "stars": 113452,
+    "stars": 113815,
     "featured": false,
     "faqs": [
       {
@@ -727,7 +727,7 @@
     ],
     "installCommand": "Available via plugin marketplace. See README for details.",
     "logo": "/logos/skills/slides.png",
-    "stars": 113452,
+    "stars": 113815,
     "featured": false,
     "faqs": [
       {
@@ -805,7 +805,7 @@
     ],
     "installCommand": "Available via plugin marketplace. See README for details.",
     "logo": "/logos/skills/ui-styling.png",
-    "stars": 113452,
+    "stars": 113815,
     "featured": false,
     "faqs": [
       {
@@ -878,7 +878,7 @@
       "codex",
       "claude-code"
     ],
-    "stars": 71879,
+    "stars": 72496,
     "developer": "Leonxlnx",
     "developerZh": "Leonxlnx",
     "installCommand": "npm i -g taste-skill",
@@ -958,7 +958,7 @@
     ],
     "installCommand": "See README for installation instructions.",
     "logo": "/logos/skills/agent-reach.png",
-    "stars": 66481,
+    "stars": 67022,
     "featured": false,
     "faqs": [
       {
@@ -1033,7 +1033,7 @@
     ],
     "installCommand": "See README for installation instructions.",
     "logo": "/logos/skills/media-crawler.png",
-    "stars": 59870,
+    "stars": 60065,
     "featured": false,
     "faqs": [
       {
@@ -1110,7 +1110,7 @@
     ],
     "installCommand": "npx @anthropic-ai/claude add mcp-server-humanizer",
     "logo": "/logos/skills/humanizer.png",
-    "stars": 33485,
+    "stars": 33742,
     "featured": false,
     "faqs": [
       {
@@ -1188,7 +1188,7 @@
     ],
     "installCommand": "npx @anthropic-ai/sdk add nuwa-skill",
     "logo": "/logos/skills/nuwa-skill.png",
-    "stars": 29690,
+    "stars": 29787,
     "featured": false,
     "faqs": [
       {
@@ -1267,7 +1267,7 @@
     ],
     "installCommand": "npx @anthropic-ai/sdk add find-skills",
     "logo": "/logos/skills/find-skills.png",
-    "stars": 28034,
+    "stars": 28113,
     "featured": false,
     "faqs": [
       {
@@ -1345,7 +1345,7 @@
     ],
     "installCommand": "npx @anthropic-ai/sdk add huashu-design",
     "logo": "/logos/skills/huashu-design.png",
-    "stars": 22462,
+    "stars": 22510,
     "featured": false,
     "faqs": [
       {
@@ -1420,7 +1420,7 @@
     ],
     "installCommand": "pip install pyvideotrans",
     "logo": "/logos/skills/pyvideotrans.png",
-    "stars": 18550,
+    "stars": 18574,
     "featured": false,
     "faqs": [
       {
@@ -1497,7 +1497,7 @@
     ],
     "installCommand": "pip install book-to-skill",
     "logo": "/logos/skills/book-to-skill.png",
-    "stars": 16393,
+    "stars": 16982,
     "featured": false,
     "faqs": [
       {
@@ -1551,6 +1551,81 @@
     ]
   },
   {
+    "slug": "humanizer-zh",
+    "name": "Humanizer-zh",
+    "nameZh": "Humanizer-zh",
+    "description": "AI 写作去痕工具（中文版），消除文本中 AI 生成的痕迹。",
+    "descriptionEn": "AI writing humanizer (Chinese version). Removes AI-generated traces from text.",
+    "descriptionJa": "AIライティングの人間化ツール（中国語版）。テキストからAI生成の痕跡を除去します。",
+    "descriptionEs": "Humanizador de escritura AI (versión china). Elimina las trazas de IA del texto.",
+    "descriptionFr": "Humaniseur d_écriture IA (version chinoise). Supprime les traces d_IA du texte.",
+    "repo": "op7418/Humanizer-zh",
+    "category": "Writing",
+    "tags": [
+      "Free",
+      "Open Source"
+    ],
+    "featured": false,
+    "agents": [
+      "claude-code"
+    ],
+    "installCommand": "npx skills add https://github.com/op7418/Humanizer-zh.git",
+    "logo": "/logos/skills/humanizer-zh.png",
+    "stars": 14687,
+    "developer": "op7418",
+    "developerZh": "op7418",
+    "faqs": [
+      {
+        "question": {
+          "en": "What is Humanizer-zh?",
+          "zh": "What is Humanizer-zh?",
+          "ja": "What is Humanizer-zh?",
+          "es": "What is Humanizer-zh?",
+          "fr": "What is Humanizer-zh?"
+        },
+        "answer": {
+          "en": "A Chinese version of the AI writing humanizer that removes AI traces.",
+          "zh": "A Chinese version of the AI writing humanizer.",
+          "ja": "A Chinese version of the AI writing humanizer.",
+          "es": "A Chinese version of the AI writing humanizer.",
+          "fr": "A Chinese version of the AI writing humanizer."
+        }
+      },
+      {
+        "question": {
+          "en": "How to install?",
+          "zh": "How to install?",
+          "ja": "How to install?",
+          "es": "How to install?",
+          "fr": "How to install?"
+        },
+        "answer": {
+          "en": "npx skills add https://github.com/op7418/Humanizer-zh.git",
+          "zh": "npx skills add https://github.com/op7418/Humanizer-zh.git",
+          "ja": "npx skills add https://github.com/op7418/Humanizer-zh.git",
+          "es": "npx skills add https://github.com/op7418/Humanizer-zh.git",
+          "fr": "npx skills add https://github.com/op7418/Humanizer-zh.git"
+        }
+      },
+      {
+        "question": {
+          "en": "What patterns does it detect?",
+          "zh": "What patterns?",
+          "ja": "What patterns?",
+          "es": "What patterns?",
+          "fr": "What patterns?"
+        },
+        "answer": {
+          "en": "24 AI writing patterns in 4 categories (content, grammar, style, communication).",
+          "zh": "24 AI writing patterns in 4 categories.",
+          "ja": "24 AI writing patterns in 4 categories.",
+          "es": "24 AI writing patterns in 4 categories.",
+          "fr": "24 AI writing patterns in 4 categories."
+        }
+      }
+    ]
+  },
+  {
     "slug": "ian-xiaohei-illustrations",
     "name": "Ian Xiaohei Illustrations",
     "nameZh": "小黑怪诞插画",
@@ -1574,7 +1649,7 @@
     ],
     "installCommand": "npx @anthropic-ai/claude add ian-xiaohei-illustrations",
     "logo": "/logos/skills/ian-xiaohei-illustrations.png",
-    "stars": 9004,
+    "stars": 9065,
     "featured": false,
     "faqs": [
       {
@@ -1651,7 +1726,7 @@
     ],
     "installCommand": "npx @anthropic-ai/sdk add horizon",
     "logo": "/logos/skills/horizon.png",
-    "stars": 8639,
+    "stars": 8657,
     "featured": false,
     "faqs": [
       {
@@ -1729,7 +1804,7 @@
     ],
     "installCommand": "npx @anthropic-ai/sdk add guizang-social-card",
     "logo": "/logos/skills/guizang-social-card.png",
-    "stars": 5889,
+    "stars": 5921,
     "featured": false,
     "faqs": [
       {
@@ -1807,7 +1882,7 @@
     ],
     "installCommand": "npx @anthropic-ai/sdk add generative-media-skills",
     "logo": "/logos/skills/generative-media-skills.png",
-    "stars": 3976,
+    "stars": 3982,
     "featured": false,
     "faqs": [
       {
@@ -1861,6 +1936,86 @@
     ]
   },
   {
+    "slug": "agent-skill-creator",
+    "name": "Agent Skill Creator",
+    "nameZh": "Agent Skill Creator",
+    "description": "将任何工作流转化为可在 17 个平台上安装的可重用 AI 智能体技能。",
+    "descriptionEn": "Turn any workflow into reusable AI agent skills that install on 17 platforms.",
+    "descriptionJa": "あらゆるワークフローを17のプラットフォームにインストール可能な再利用可能なAIエージェントスキルに変換します。",
+    "descriptionEs": "Convierte cualquier flujo de trabajo en habilidades de IA reutilizables en 17 plataformas.",
+    "descriptionFr": "Transformez tout workflow en compétences d_agent IA réutilisables sur 17 plateformes.",
+    "repo": "FrancyJGLisboa/agent-skill-creator",
+    "category": "Platform",
+    "tags": [
+      "Free",
+      "Open Source"
+    ],
+    "featured": false,
+    "agents": [
+      "codex",
+      "claude-code",
+      "cursor",
+      "copilot",
+      "windsurf",
+      "gemini"
+    ],
+    "installCommand": "curl -fsSL https://raw.githubusercontent.com/FrancyJGLisboa/agent-skill-creator/main/scripts/bootstrap.sh | sh",
+    "logo": "/logos/skills/agent-skill-creator.png",
+    "stars": 2147,
+    "developer": "FrancyJGLisboa",
+    "developerZh": "FrancyJGLisboa",
+    "faqs": [
+      {
+        "question": {
+          "en": "What is Agent Skill Creator?",
+          "zh": "What is ASC?",
+          "ja": "What is ASC?",
+          "es": "What is ASC?",
+          "fr": "What is ASC?"
+        },
+        "answer": {
+          "en": "A tool that turns any workflow into reusable AI agent skills on 17 platforms.",
+          "zh": "A tool that turns any workflow into reusable AI agent skills on 17 platforms.",
+          "ja": "A tool that turns any workflow into reusable AI agent skills on 17 platforms.",
+          "es": "A tool that turns any workflow into reusable AI agent skills on 17 platforms.",
+          "fr": "A tool that turns any workflow into reusable AI agent skills on 17 platforms."
+        }
+      },
+      {
+        "question": {
+          "en": "Which platforms?",
+          "zh": "Which platforms?",
+          "ja": "Which platforms?",
+          "es": "Which platforms?",
+          "fr": "Which platforms?"
+        },
+        "answer": {
+          "en": "Claude Code, Copilot, Cursor, Windsurf, Codex, Gemini, Kiro, and 11 more.",
+          "zh": "Claude Code, Copilot, Cursor, Windsurf, Codex, Gemini, Kiro, and 11 more.",
+          "ja": "Claude Code, Copilot, Cursor, Windsurf, Codex, Gemini, Kiro, and 11 more.",
+          "es": "Claude Code, Copilot, Cursor, Windsurf, Codex, Gemini, Kiro, and 11 more.",
+          "fr": "Claude Code, Copilot, Cursor, Windsurf, Codex, Gemini, Kiro, and 11 more."
+        }
+      },
+      {
+        "question": {
+          "en": "How to install?",
+          "zh": "How to install?",
+          "ja": "How to install?",
+          "es": "How to install?",
+          "fr": "How to install?"
+        },
+        "answer": {
+          "en": "Run the bootstrap script from the repo.",
+          "zh": "Run the bootstrap script from the repo.",
+          "ja": "Run the bootstrap script from the repo.",
+          "es": "Run the bootstrap script from the repo.",
+          "fr": "Run the bootstrap script from the repo."
+        }
+      }
+    ]
+  },
+  {
     "slug": "auto-redbook-skills",
     "name": "Auto Redbook Skills",
     "nameZh": "Auto Redbook Skills",
@@ -1885,7 +2040,7 @@
     ],
     "installCommand": "npx @anthropic-ai/sdk add auto-redbook-skills",
     "logo": "/logos/skills/auto-redbook-skills.png",
-    "stars": 2095,
+    "stars": 2099,
     "featured": false,
     "faqs": [
       {
@@ -1963,7 +2118,7 @@
     ],
     "installCommand": "npx @anthropic-ai/sdk add ai-image-generation",
     "logo": "/logos/skills/ai-image-generation.png",
-    "stars": 679,
+    "stars": 681,
     "featured": false,
     "faqs": [
       {
@@ -2041,7 +2196,7 @@
     ],
     "installCommand": "npx @anthropic-ai/sdk add ai-video-generation",
     "logo": "/logos/skills/ai-video-generation.png",
-    "stars": 679,
+    "stars": 681,
     "featured": false,
     "faqs": [
       {
@@ -2555,161 +2710,6 @@
           "ja": "熟練は不要です。スキルは無料のオープンソースで、Remotion の専門知識を AI に渡す仕組みです。欲しい動画のイメージを伝えるだけで、AI がベストプラクティスに沿った React 動画コードを書きます。React の基礎があればより快適です。",
           "es": "No se requiere dominio. La habilidad es gratuita y de código abierto: entrega la experiencia en Remotion a la IA. Solo describe el vídeo que quieres; la IA escribe código React siguiendo las mejores prácticas. Saber React básico ayuda.",
           "fr": "Aucune maîtrise requise. La compétence est gratuite et open source — elle transmet l'expertise Remotion à l'IA. Décrivez simplement la vidéo souhaitée ; l'IA écrit du code React conforme aux bonnes pratiques. Des bases en React sont un plus."
-        }
-      }
-    ]
-  },
-  {
-    "slug": "agent-skill-creator",
-    "name": "Agent Skill Creator",
-    "nameZh": "Agent Skill Creator",
-    "description": "将任何工作流转化为可在 17 个平台上安装的可重用 AI 智能体技能。",
-    "descriptionEn": "Turn any workflow into reusable AI agent skills that install on 17 platforms.",
-    "descriptionJa": "あらゆるワークフローを17のプラットフォームにインストール可能な再利用可能なAIエージェントスキルに変換します。",
-    "descriptionEs": "Convierte cualquier flujo de trabajo en habilidades de IA reutilizables en 17 plataformas.",
-    "descriptionFr": "Transformez tout workflow en compétences d_agent IA réutilisables sur 17 plateformes.",
-    "repo": "FrancyJGLisboa/agent-skill-creator",
-    "category": "Platform",
-    "tags": [
-      "Free",
-      "Open Source"
-    ],
-    "featured": false,
-    "agents": [
-      "codex",
-      "claude-code",
-      "cursor",
-      "copilot",
-      "windsurf",
-      "gemini"
-    ],
-    "installCommand": "curl -fsSL https://raw.githubusercontent.com/FrancyJGLisboa/agent-skill-creator/main/scripts/bootstrap.sh | sh",
-    "logo": "/logos/skills/agent-skill-creator.png",
-    "stars": 2100,
-    "developer": "FrancyJGLisboa",
-    "developerZh": "FrancyJGLisboa",
-    "faqs": [
-      {
-        "question": {
-          "en": "What is Agent Skill Creator?",
-          "zh": "What is ASC?",
-          "ja": "What is ASC?",
-          "es": "What is ASC?",
-          "fr": "What is ASC?"
-        },
-        "answer": {
-          "en": "A tool that turns any workflow into reusable AI agent skills on 17 platforms.",
-          "zh": "A tool that turns any workflow into reusable AI agent skills on 17 platforms.",
-          "ja": "A tool that turns any workflow into reusable AI agent skills on 17 platforms.",
-          "es": "A tool that turns any workflow into reusable AI agent skills on 17 platforms.",
-          "fr": "A tool that turns any workflow into reusable AI agent skills on 17 platforms."
-        }
-      },
-      {
-        "question": {
-          "en": "Which platforms?",
-          "zh": "Which platforms?",
-          "ja": "Which platforms?",
-          "es": "Which platforms?",
-          "fr": "Which platforms?"
-        },
-        "answer": {
-          "en": "Claude Code, Copilot, Cursor, Windsurf, Codex, Gemini, Kiro, and 11 more.",
-          "zh": "Claude Code, Copilot, Cursor, Windsurf, Codex, Gemini, Kiro, and 11 more.",
-          "ja": "Claude Code, Copilot, Cursor, Windsurf, Codex, Gemini, Kiro, and 11 more.",
-          "es": "Claude Code, Copilot, Cursor, Windsurf, Codex, Gemini, Kiro, and 11 more.",
-          "fr": "Claude Code, Copilot, Cursor, Windsurf, Codex, Gemini, Kiro, and 11 more."
-        }
-      },
-      {
-        "question": {
-          "en": "How to install?",
-          "zh": "How to install?",
-          "ja": "How to install?",
-          "es": "How to install?",
-          "fr": "How to install?"
-        },
-        "answer": {
-          "en": "Run the bootstrap script from the repo.",
-          "zh": "Run the bootstrap script from the repo.",
-          "ja": "Run the bootstrap script from the repo.",
-          "es": "Run the bootstrap script from the repo.",
-          "fr": "Run the bootstrap script from the repo."
-        }
-      }
-    ]
-  },
-  {
-    "slug": "humanizer-zh",
-    "name": "Humanizer-zh",
-    "nameZh": "Humanizer-zh",
-    "description": "AI 写作去痕工具（中文版），消除文本中 AI 生成的痕迹。",
-    "descriptionEn": "AI writing humanizer (Chinese version). Removes AI-generated traces from text.",
-    "descriptionJa": "AIライティングの人間化ツール（中国語版）。テキストからAI生成の痕跡を除去します。",
-    "descriptionEs": "Humanizador de escritura AI (versión china). Elimina las trazas de IA del texto.",
-    "descriptionFr": "Humaniseur d_écriture IA (version chinoise). Supprime les traces d_IA du texte.",
-    "repo": "op7418/Humanizer-zh",
-    "category": "Writing",
-    "tags": [
-      "Free",
-      "Open Source"
-    ],
-    "featured": false,
-    "agents": [
-      "claude-code"
-    ],
-    "installCommand": "npx skills add https://github.com/op7418/Humanizer-zh.git",
-    "logo": "/logos/skills/humanizer-zh.png",
-    "stars": 14600,
-    "developer": "op7418",
-    "developerZh": "op7418",
-    "faqs": [
-      {
-        "question": {
-          "en": "What is Humanizer-zh?",
-          "zh": "What is Humanizer-zh?",
-          "ja": "What is Humanizer-zh?",
-          "es": "What is Humanizer-zh?",
-          "fr": "What is Humanizer-zh?"
-        },
-        "answer": {
-          "en": "A Chinese version of the AI writing humanizer that removes AI traces.",
-          "zh": "A Chinese version of the AI writing humanizer.",
-          "ja": "A Chinese version of the AI writing humanizer.",
-          "es": "A Chinese version of the AI writing humanizer.",
-          "fr": "A Chinese version of the AI writing humanizer."
-        }
-      },
-      {
-        "question": {
-          "en": "How to install?",
-          "zh": "How to install?",
-          "ja": "How to install?",
-          "es": "How to install?",
-          "fr": "How to install?"
-        },
-        "answer": {
-          "en": "npx skills add https://github.com/op7418/Humanizer-zh.git",
-          "zh": "npx skills add https://github.com/op7418/Humanizer-zh.git",
-          "ja": "npx skills add https://github.com/op7418/Humanizer-zh.git",
-          "es": "npx skills add https://github.com/op7418/Humanizer-zh.git",
-          "fr": "npx skills add https://github.com/op7418/Humanizer-zh.git"
-        }
-      },
-      {
-        "question": {
-          "en": "What patterns does it detect?",
-          "zh": "What patterns?",
-          "ja": "What patterns?",
-          "es": "What patterns?",
-          "fr": "What patterns?"
-        },
-        "answer": {
-          "en": "24 AI writing patterns in 4 categories (content, grammar, style, communication).",
-          "zh": "24 AI writing patterns in 4 categories.",
-          "ja": "24 AI writing patterns in 4 categories.",
-          "es": "24 AI writing patterns in 4 categories.",
-          "fr": "24 AI writing patterns in 4 categories."
         }
       }
     ]
