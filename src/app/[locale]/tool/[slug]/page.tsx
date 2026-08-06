@@ -4,6 +4,7 @@ import { getTranslations, setRequestLocale } from 'next-intl/server';
 import tools from '@/data/tools.json';
 import toolDetails from '@/data/toolDetails.json';
 import blogPosts from '@/data/blogPosts.json';
+import tutorials from '@/data/tutorials.json';
 import { Tool } from '@/components/ToolCard';
 import ToolDetailClient from './ToolDetailClient';
 import { routing } from '@/i18n/routing';
@@ -106,6 +107,17 @@ export default async function ToolDetailPage({ params }: Props) {
       excerpt: post.excerpt,
     }));
 
+  // 关联教程（related.tools 显式声明），只传渲染需要的字段
+  const relatedTutorials = tutorials
+    .filter((tut: any) => (tut.related?.tools || []).includes(tool.slug))
+    .map((tut: any) => ({
+      slug: tut.slug,
+      title: tut.title,
+      excerpt: tut.excerpt,
+      difficulty: tut.difficulty,
+      readTime: tut.readTime,
+    }));
+
   return (
     <ToolDetailClient
       tool={tool as Tool}
@@ -114,6 +126,7 @@ export default async function ToolDetailPage({ params }: Props) {
       sameMaker={sameMaker as Tool[]}
       relatedTools={relatedTools as Tool[]}
       relatedPosts={relatedPosts}
+      relatedTutorials={relatedTutorials}
     />
   );
 }

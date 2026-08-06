@@ -20,6 +20,14 @@ interface RelatedPost {
   excerpt: unknown;
 }
 
+interface RelatedTutorial {
+  slug: string;
+  title: Record<string, string>;
+  excerpt: Record<string, string>;
+  difficulty: string;
+  readTime: number;
+}
+
 interface ToolDetailClientProps {
   tool: Tool;
   locale: string;
@@ -29,6 +37,7 @@ interface ToolDetailClientProps {
   sameMaker: Tool[];
   relatedTools: Tool[];
   relatedPosts: RelatedPost[];
+  relatedTutorials: RelatedTutorial[];
 }
 
 const TAG_COLORS: Record<string, string> = {
@@ -39,10 +48,11 @@ const TAG_COLORS: Record<string, string> = {
   'API': 'bg-purple-100 text-purple-700 dark:bg-purple-900/30 dark:text-purple-400',
 };
 
-export default function ToolDetailClient({ tool, locale, details: detailsProp, sameMaker, relatedTools, relatedPosts }: ToolDetailClientProps) {
+export default function ToolDetailClient({ tool, locale, details: detailsProp, sameMaker, relatedTools, relatedPosts, relatedTutorials }: ToolDetailClientProps) {
   const t = useTranslations('common');
   const tCategories = useTranslations('categories');
   const tTags = useTranslations('tags');
+  const tTutorials = useTranslations('tutorials');
   const [searchQuery, setSearchQuery] = useState('');
   const [copiedIndex, setCopiedIndex] = useState<string | null>(null);
   const description = getLocalizedDescription(tool, locale);
@@ -629,6 +639,40 @@ export default function ToolDetailClient({ tool, locale, details: detailsProp, s
                     </h3>
                     <p className="text-sm text-[var(--muted)] line-clamp-2">
                       {getLocalized(post.excerpt, locale) as string}
+                    </p>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {/* Related Tutorials */}
+          {relatedTutorials.length > 0 && (
+            <div className="bg-[var(--card-bg)] rounded-2xl shadow-[var(--card-shadow)] p-8">
+              <h2 className="text-lg font-semibold text-[var(--foreground)] mb-4 flex items-center gap-2">
+                <BookOpen className="w-5 h-5 text-indigo-500" />
+                {t('relatedTutorials')}
+              </h2>
+              <div className="space-y-4">
+                {relatedTutorials.map((tut) => (
+                  <Link
+                    key={tut.slug}
+                    href={`/tutorials/${tut.slug}`}
+                    className="block p-4 rounded-xl bg-[var(--card-bg)] shadow-[var(--card-shadow)] hover:shadow-[var(--card-shadow-hover)] hover:-translate-y-0.5 transition-all duration-300"
+                  >
+                    <div className="flex items-center gap-3 mb-1">
+                      <span className="text-xs font-medium text-[var(--primary)] capitalize">
+                        {tTutorials(`difficulties.${tut.difficulty}`)}
+                      </span>
+                      <span className="text-xs text-[var(--muted)]">
+                        {tut.readTime} {tTutorials('readTime')}
+                      </span>
+                    </div>
+                    <h3 className="font-medium text-[var(--foreground)] mb-1">
+                      {getLocalized(tut.title, locale) as string}
+                    </h3>
+                    <p className="text-sm text-[var(--muted)] line-clamp-2">
+                      {getLocalized(tut.excerpt, locale) as string}
                     </p>
                   </Link>
                 ))}

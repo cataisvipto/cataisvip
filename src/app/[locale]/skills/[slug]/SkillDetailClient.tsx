@@ -8,7 +8,7 @@ import Footer from '@/components/Footer';
 import Breadcrumb from '@/components/Breadcrumb';
 import Image from 'next/image';
 import DOMPurify from 'isomorphic-dompurify';
-import { Star, GitFork, ExternalLink, Code2, Copy, Check, Terminal, ArrowLeft, Building2, ChevronDown, ThumbsUp, ThumbsDown, DollarSign, Target, Award } from 'lucide-react';
+import { Star, GitFork, ExternalLink, Code2, Copy, Check, Terminal, ArrowLeft, Building2, ChevronDown, ThumbsUp, ThumbsDown, DollarSign, Target, Award , BookOpen} from 'lucide-react';
 import FaqSection from '@/components/FaqSection';
 import type { Skill } from '../SkillsClient';
 
@@ -55,11 +55,21 @@ interface SkillDetailClientProps {
   locale: string;
   readmeInstallHtml?: string;
   details?: SkillDetails;
+  relatedTutorials: RelatedTutorial[];
 }
 
-export default function SkillDetailClient({ skill, locale, readmeInstallHtml, details }: SkillDetailClientProps) {
+interface RelatedTutorial {
+  slug: string;
+  title: Record<string, string>;
+  excerpt: Record<string, string>;
+  difficulty: string;
+  readTime: number;
+}
+
+export default function SkillDetailClient({ skill, locale, readmeInstallHtml, details, relatedTutorials }: SkillDetailClientProps) {
   const t = useTranslations('common');
   const tSkills = useTranslations('skills');
+  const tTutorials = useTranslations('tutorials');
   const [searchQuery, setSearchQuery] = useState('');
   const [copied, setCopied] = useState(false);
   const displayName = locale === 'zh' && skill.nameZh ? skill.nameZh : skill.name;
@@ -382,6 +392,41 @@ export default function SkillDetailClient({ skill, locale, readmeInstallHtml, de
 
           {/* FAQ */}
           <FaqSection faqs={skill.faqs} locale={locale} title={tSkills('faqTitle')} />
+
+          {/* Related Tutorials */}
+          {relatedTutorials.length > 0 && (
+            <div className="bg-[var(--card-bg)] rounded-2xl shadow-[var(--card-shadow)] p-8 mt-8">
+              <h2 className="text-lg font-semibold text-[var(--foreground)] mb-4 flex items-center gap-2">
+                <BookOpen className="w-5 h-5 text-indigo-500" />
+                {t('relatedTutorials')}
+              </h2>
+              <div className="space-y-4">
+                {relatedTutorials.map((tut) => (
+                  <Link
+                    key={tut.slug}
+                    href={`/tutorials/${tut.slug}`}
+                    className="block p-4 rounded-xl bg-[var(--card-bg)] shadow-[var(--card-shadow)] hover:shadow-[var(--card-shadow-hover)] hover:-translate-y-0.5 transition-all duration-300"
+                  >
+                    <div className="flex items-center gap-3 mb-1">
+                      <span className="text-xs font-medium text-[var(--primary)] capitalize">
+                        {tTutorials(`difficulties.${tut.difficulty}`)}
+                      </span>
+                      <span className="text-xs text-[var(--muted)]">
+                        {tut.readTime} {tTutorials('readTime')}
+                      </span>
+                    </div>
+                    <h3 className="font-medium text-[var(--foreground)] mb-1">
+                      {getLocalized(tut.title, locale) as string}
+                    </h3>
+                    <p className="text-sm text-[var(--muted)] line-clamp-2">
+                      {getLocalized(tut.excerpt, locale) as string}
+                    </p>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          )}
+
         </article>
       </main>
       <Footer />

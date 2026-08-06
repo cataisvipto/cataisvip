@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import McpDetailClient from './McpDetailClient';
 import mcpServers from '@/data/mcp.json';
 import mcpDetails from '@/data/mcpDetails.json';
+import tutorials from '@/data/tutorials.json';
 import { generateAlternates } from '@/lib/seo';
 import { routing } from '@/i18n/routing';
 
@@ -193,12 +194,24 @@ export default async function McpDetailPage({ params }: Props) {
   const t = await getTranslations({ locale, namespace: 'mcp' });
   const readmeInstallHtml = await fetchReadmeInstallHtml(entry.repo, t('copyCommand'));
 
+  // 关联教程（related.mcp 显式声明），只传渲染需要的字段
+  const relatedTutorials = tutorials
+    .filter((tut: any) => (tut.related?.mcp || []).includes(slug))
+    .map((tut: any) => ({
+      slug: tut.slug,
+      title: tut.title,
+      excerpt: tut.excerpt,
+      difficulty: tut.difficulty,
+      readTime: tut.readTime,
+    }));
+
   return (
       <McpDetailClient
         server={entry}
         locale={locale}
         details={(mcpDetails as Record<string, any>)[slug]}
         readmeInstallHtml={readmeInstallHtml ?? undefined}
+        relatedTutorials={relatedTutorials}
       />
     );
 }
