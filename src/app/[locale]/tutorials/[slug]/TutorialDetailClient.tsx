@@ -9,6 +9,7 @@ import Breadcrumb from '@/components/Breadcrumb';
 import BlogCover from '@/components/BlogCover';
 import MarkdownContent from '@/components/MarkdownContent';
 import { Clock, User, Calendar, GraduationCap, ArrowLeft, ArrowRight } from 'lucide-react';
+import LogoTile from '@/components/LogoTile';
 import type { Tutorial } from '../TutorialsClient';
 import { PlatformProvider } from '@/components/PlatformContext';
 import PlatformSelector from '@/components/PlatformSelector';
@@ -75,16 +76,28 @@ export default function TutorialDetailClient({
           {/* Header */}
           <header className="mb-8">
             <div className="flex items-center gap-3 mb-4">
-              <span className="text-sm font-medium text-[var(--primary)]">
-                {t(`difficulties.${tutorial.difficulty}`)}
-              </span>
-              <span className="flex items-center gap-1 text-sm text-[var(--muted)]">
-                <Clock className="w-4 h-4" />
-                {tutorial.readTime} {t('readTime')}
-              </span>
-            </div>
+                          <span className="text-sm font-medium text-[var(--primary)]">
+                            {t(`difficulties.${tutorial.difficulty}`)}
+                          </span>
+                          <span className="flex items-center gap-1 text-sm text-[var(--muted)]">
+                            <Clock className="w-4 h-4" />
+                            {tutorial.readTime} {t('readTime')}
+                          </span>
+                        </div>
 
-            <h1 className="text-3xl md:text-4xl font-bold text-[var(--foreground)] mb-6">{title}</h1>
+                        {/* Logo + Title */}
+                        <div className="flex items-start gap-4 mb-6">
+                          {tutorial.logo && (
+                            <LogoTile
+                              logo={tutorial.logo}
+                              logoDark={tutorial.logoDark}
+                              alt={title}
+                              className="w-14 h-14 rounded-2xl shrink-0"
+                              imgPx={48}
+                            />
+                          )}
+                          <h1 className="text-3xl md:text-4xl font-bold text-[var(--foreground)]">{title}</h1>
+                        </div>
 
             <div className="flex items-center gap-4 text-sm text-[var(--muted)]">
               <span className="flex items-center gap-1.5">

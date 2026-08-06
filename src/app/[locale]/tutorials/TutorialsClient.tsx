@@ -15,6 +15,8 @@ export interface Tutorial {
   excerpt: Record<string, string>;
   content: Record<string, string>;
   coverImage: string;
+  logo?: string;
+  logoDark?: string;
   author: string;
   publishedAt: string;
   difficulty: string;
