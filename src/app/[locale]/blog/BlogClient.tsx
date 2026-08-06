@@ -6,6 +6,7 @@ import { Link } from '@/i18n/navigation';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { Clock, ArrowRight } from 'lucide-react';
+import ScrollReveal from '@/components/ScrollReveal';
 import BlogCover from '@/components/BlogCover';
 
 interface BlogPost {
@@ -70,7 +71,7 @@ export default function BlogClient({ posts }: BlogClientProps) {
                 className={`px-4 py-2 rounded-full text-sm font-medium transition ${
                   selectedCategory === cat
                     ? 'bg-indigo-600 text-white'
-                    : 'bg-[var(--muted-bg)] text-[var(--muted)] hover:bg-[var(--card-border)]'
+                    : 'bg-[var(--muted-bg)] text-[var(--muted)] hover:bg-[var(--muted-border)]'
                 }`}
               >
                 {t(`categories.${cat}`)}
@@ -79,13 +80,13 @@ export default function BlogClient({ posts }: BlogClientProps) {
           </div>
 
           {/* Blog Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {filteredPosts.map((post) => {
+          <ScrollReveal><div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+                      {filteredPosts.map((post) => {
               const title = getLocalized(post.title, locale);
               const excerpt = getLocalized(post.excerpt, locale);
 
               return (
-                <article key={post.slug} className="group bg-[var(--card-bg)] rounded-2xl border border-[var(--card-border)] overflow-hidden hover:shadow-lg transition-all duration-300">
+                <article key={post.slug} className="group bg-[var(--card-bg)] rounded-xl shadow-[var(--card-shadow)] hover:shadow-[var(--card-shadow-hover)] hover:-translate-y-0.5 transition-all duration-300 overflow-hidden">
                   {/* Cover Image */}
                   <Link href={`/blog/${post.slug}`} className="block aspect-video overflow-hidden">
                     <BlogCover
@@ -101,7 +102,7 @@ export default function BlogClient({ posts }: BlogClientProps) {
                   <div className="p-6">
                     {/* Category & Meta */}
                     <div className="flex items-center gap-3 mb-3 text-sm text-[var(--muted)]">
-                      <span className="px-2 py-1 bg-indigo-50 dark:bg-indigo-900/30 text-indigo-600 dark:text-indigo-400 rounded-md text-xs font-medium capitalize">
+                      <span className="text-xs font-medium text-[var(--primary)]">
                         {t(`categories.${post.category}`)}
                       </span>
                       <span className="flex items-center gap-1">
@@ -111,19 +112,19 @@ export default function BlogClient({ posts }: BlogClientProps) {
                     </div>
 
                     {/* Title */}
-                    <Link href={`/blog/${post.slug}`}>
-                      <h2 className="text-xl font-bold text-[var(--foreground)] mb-3 line-clamp-2 group-hover:text-[var(--primary)] transition">
-                        {title}
-                      </h2>
-                    </Link>
+                                        <Link href={`/blog/${post.slug}`} className="group/title">
+                                          <h2 className="text-xl font-bold text-[var(--foreground)] mb-3 line-clamp-2 group-hover/title:text-[var(--primary)] transition">
+                                            {title}
+                                          </h2>
+                                        </Link>
 
-                    {/* Excerpt */}
-                    <p className="text-[var(--muted)] text-sm leading-relaxed mb-4 line-clamp-3">
+                                        {/* Excerpt */}
+                                        <p className="text-[var(--muted)] text-sm leading-relaxed mb-4 line-clamp-3 hover:text-[var(--foreground)] transition">
                       {excerpt}
                     </p>
 
                     {/* Footer */}
-                    <div className="flex items-center justify-between pt-4 border-t border-[var(--card-border)]">
+                    <div className="flex items-center justify-between pt-4 border-t border-[var(--muted-border)]">
                       <span className="text-sm text-[var(--muted)]">
                         {post.publishedAt}
                       </span>
@@ -139,9 +140,9 @@ export default function BlogClient({ posts }: BlogClientProps) {
                 </article>
               );
             })}
-          </div>
+          </div></ScrollReveal>
 
-          {filteredPosts.length === 0 && (
+                    {filteredPosts.length === 0 && (
             <div className="text-center py-16 text-[var(--muted)]">
               <p className="text-lg">No articles found</p>
             </div>

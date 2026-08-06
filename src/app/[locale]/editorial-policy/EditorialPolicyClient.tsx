@@ -19,7 +19,7 @@ export default function EditorialPolicyClient() {
   return (
     <>
       <Header searchQuery={searchQuery} onSearchChange={setSearchQuery} locale={locale} />
-      <main className="flex-1 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <main className="flex-1 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <Link href="/" className="inline-flex items-center gap-1.5 text-sm text-[var(--muted)] hover:text-[var(--primary)] transition mb-8">
           <ArrowLeft className="w-4 h-4" />
           {tCommon('backToHome')}
@@ -37,7 +37,7 @@ export default function EditorialPolicyClient() {
             </section>
 
             {/* Reject — zero tolerance */}
-            <section className="rounded-xl border border-[var(--card-border)] bg-[var(--muted-bg)] p-5 border-l-4 border-l-red-500">
+            <section className="rounded-xl border border-[var(--muted-border)] bg-[var(--muted-bg)] p-5 border-l-4 border-l-red-500">
               <h2 className="flex items-center gap-2 text-xl font-semibold text-[var(--foreground)] mb-3 mt-0">
                 <ShieldX className="w-5 h-5 text-red-500" />
                 {t('reject_title')}
@@ -51,7 +51,7 @@ export default function EditorialPolicyClient() {
             </section>
 
             {/* Watch — capped rating */}
-            <section className="rounded-xl border border-[var(--card-border)] bg-[var(--muted-bg)] p-5 border-l-4 border-l-amber-500">
+            <section className="rounded-xl border border-[var(--muted-border)] bg-[var(--muted-bg)] p-5 border-l-4 border-l-amber-500">
               <h2 className="flex items-center gap-2 text-xl font-semibold text-[var(--foreground)] mb-3 mt-0">
                 <AlertTriangle className="w-5 h-5 text-amber-500" />
                 {t('watch_title')}

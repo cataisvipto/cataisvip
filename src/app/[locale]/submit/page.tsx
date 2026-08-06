@@ -78,7 +78,7 @@ export default function SubmitPage() {
           {tCommon('backToHome')}
         </Link>
 
-        <div className="bg-[var(--card-bg)] rounded-2xl border border-[var(--card-border)] p-8 shadow-sm">
+        <div className="bg-[var(--card-bg)] rounded-2xl shadow-[var(--card-shadow)] p-8">
           <div className="text-center mb-8">
             <div className="w-14 h-14 bg-gradient-to-br from-indigo-100 to-cyan-100 dark:from-indigo-900/30 dark:to-cyan-900/30 rounded-2xl flex items-center justify-center mx-auto mb-4">
               <Send className="w-7 h-7 text-indigo-600 dark:text-indigo-400" />
@@ -121,7 +121,7 @@ export default function SubmitPage() {
                   required
                   value={formData.name}
                   onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                  className="w-full px-4 py-2.5 border border-[var(--card-border)] rounded-xl text-sm text-[var(--foreground)] bg-[var(--muted-bg)] focus:outline-none focus:ring-2 focus:ring-[var(--primary)] focus:border-transparent transition"
+                  className="w-full px-4 py-2.5 border border-[var(--muted-border)] rounded-xl text-sm text-[var(--foreground)] bg-[var(--muted-bg)] focus:outline-none focus:ring-2 focus:ring-[var(--primary)] focus:border-transparent transition"
                   placeholder="e.g. ChatGPT"
                 />
               </div>
@@ -136,7 +136,7 @@ export default function SubmitPage() {
                   required
                   value={formData.url}
                   onChange={(e) => setFormData({ ...formData, url: e.target.value })}
-                  className="w-full px-4 py-2.5 border border-[var(--card-border)] rounded-xl text-sm text-[var(--foreground)] bg-[var(--muted-bg)] focus:outline-none focus:ring-2 focus:ring-[var(--primary)] focus:border-transparent transition"
+                  className="w-full px-4 py-2.5 border border-[var(--muted-border)] rounded-xl text-sm text-[var(--foreground)] bg-[var(--muted-bg)] focus:outline-none focus:ring-2 focus:ring-[var(--primary)] focus:border-transparent transition"
                   placeholder="https://..."
                 />
               </div>
@@ -151,7 +151,7 @@ export default function SubmitPage() {
                   required
                   value={formData.description}
                   onChange={(e) => setFormData({ ...formData, description: e.target.value })}
-                  className="w-full px-4 py-2.5 border border-[var(--card-border)] rounded-xl text-sm text-[var(--foreground)] bg-[var(--muted-bg)] focus:outline-none focus:ring-2 focus:ring-[var(--primary)] focus:border-transparent transition"
+                  className="w-full px-4 py-2.5 border border-[var(--muted-border)] rounded-xl text-sm text-[var(--foreground)] bg-[var(--muted-bg)] focus:outline-none focus:ring-2 focus:ring-[var(--primary)] focus:border-transparent transition"
                   placeholder={t('descriptionPlaceholder')}
                 />
               </div>
@@ -165,7 +165,7 @@ export default function SubmitPage() {
                   required
                   value={formData.category}
                   onChange={(e) => setFormData({ ...formData, category: e.target.value })}
-                  className="w-full px-4 py-2.5 border border-[var(--card-border)] rounded-xl text-sm text-[var(--foreground)] bg-[var(--muted-bg)] focus:outline-none focus:ring-2 focus:ring-[var(--primary)] focus:border-transparent transition"
+                  className="w-full px-4 py-2.5 border border-[var(--muted-border)] rounded-xl text-sm text-[var(--foreground)] bg-[var(--muted-bg)] focus:outline-none focus:ring-2 focus:ring-[var(--primary)] focus:border-transparent transition"
                 >
                   <option value="">{t('selectCategory')}</option>
                   {CATEGORIES.map((cat) => (
@@ -184,7 +184,7 @@ export default function SubmitPage() {
                   type="email"
                   value={formData.email}
                   onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                  className="w-full px-4 py-2.5 border border-[var(--card-border)] rounded-xl text-sm text-[var(--foreground)] bg-[var(--muted-bg)] focus:outline-none focus:ring-2 focus:ring-[var(--primary)] focus:border-transparent transition"
+                  className="w-full px-4 py-2.5 border border-[var(--muted-border)] rounded-xl text-sm text-[var(--foreground)] bg-[var(--muted-bg)] focus:outline-none focus:ring-2 focus:ring-[var(--primary)] focus:border-transparent transition"
                   placeholder={t('emailPlaceholder')}
                 />
               </div>

@@ -195,3 +195,36 @@ export function generateBreadcrumbJsonLd(
     })),
   };
 }
+
+/**
+ * 生成 HowTo JSON-LD（教程详情页用 — Google 教程富摘要）
+ * 从 Markdown 内容中解析 ### 步骤生成 HowToStep 数组
+ */
+export function generateHowToJsonLd(params: {
+  title: string;
+  description: string;
+  content: string;
+  readTime?: number;
+  url: string;
+}) {
+  const steps = params.content
+    .split('\n')
+    .filter((line) => line.trim().startsWith('### '))
+    .map((line, index) => ({
+      '@type': 'HowToStep',
+      position: index + 1,
+      name: line.replace(/^###\s+/, '').trim(),
+    }));
+
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'HowTo',
+    name: params.title,
+    description: params.description,
+    ...(params.readTime
+      ? { totalTime: `PT${Math.max(1, params.readTime)}M` }
+      : {}),
+    ...(steps.length > 0 ? { step: steps } : {}),
+    url: params.url,
+  };
+}

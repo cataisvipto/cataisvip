@@ -22,7 +22,6 @@ export default function Newsletter() {
     setStatus('loading');
     
     try {
-      // Web3Forms API - free form backend
       const response = await fetch('https://api.web3forms.com/submit', {
         method: 'POST',
         headers: {
@@ -55,9 +54,9 @@ export default function Newsletter() {
 
   if (status === 'success') {
     return (
-      <div className="bg-[var(--card-bg)] border border-[var(--card-border)] rounded-2xl p-8 text-center">
-        <div className="inline-flex items-center justify-center w-16 h-16 bg-green-100 dark:bg-green-900/30 rounded-full mb-4">
-          <Check className="w-8 h-8 text-green-600 dark:text-green-400" />
+      <div className="bg-[var(--card-bg)] rounded-xl shadow-[var(--card-shadow)] p-8 text-center">
+        <div className="inline-flex items-center justify-center w-14 h-14 bg-emerald-50 dark:bg-emerald-900/20 rounded-full mb-4">
+          <Check className="w-7 h-7 text-emerald-500" />
         </div>
         <h3 className="text-xl font-bold text-[var(--foreground)] mb-2">{t('success')}</h3>
         <p className="text-[var(--muted)] text-sm">{t('description')}</p>
@@ -66,12 +65,12 @@ export default function Newsletter() {
   }
 
   return (
-    <div className="bg-[var(--card-bg)] border border-[var(--card-border)] rounded-2xl p-8">
-      <div className="max-w-2xl mx-auto text-center">
-        <div className="inline-flex items-center justify-center w-12 h-12 bg-indigo-100 dark:bg-indigo-900/30 rounded-full mb-4">
-          <Mail className="w-6 h-6 text-indigo-600 dark:text-indigo-400" />
+    <div className="bg-[var(--card-bg)] rounded-xl shadow-[var(--card-shadow)] p-8 sm:p-10">
+      <div className="max-w-xl mx-auto text-center">
+        <div className="inline-flex items-center justify-center w-12 h-12 bg-[var(--muted-bg)] rounded-full mb-4">
+          <Mail className="w-6 h-6 text-[var(--primary)]" />
         </div>
-        <h3 className="text-2xl font-bold text-[var(--foreground)] mb-2">{t('title')}</h3>
+        <h3 className="text-2xl font-bold tracking-tight text-[var(--foreground)] mb-2">{t('title')}</h3>
         <p className="text-[var(--muted)] mb-6">{t('description')}</p>
         
         <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto">
@@ -83,16 +82,16 @@ export default function Newsletter() {
               if (status === 'error') setStatus('idle');
             }}
             placeholder={t('placeholder')}
-            className="flex-1 px-4 py-3 rounded-lg border border-[var(--card-border)] bg-[var(--card-bg)] text-[var(--foreground)] placeholder-[var(--muted)] focus:outline-none focus:ring-2 focus:ring-[var(--primary)] focus:border-transparent"
+            className="flex-1 px-4 py-2.5 rounded-full border border-[var(--muted-border)] bg-[var(--background)] text-[var(--foreground)] placeholder-[var(--muted)] focus:outline-none focus:ring-2 focus:ring-[var(--primary)] focus:border-transparent text-sm"
             disabled={status === 'loading'}
           />
           <button
             type="submit"
             disabled={status === 'loading'}
-            className="px-6 py-3 bg-indigo-600 text-white font-medium rounded-lg hover:bg-indigo-700 transition disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2"
+            className="px-5 py-2.5 bg-[var(--primary)] text-white font-medium rounded-full hover:bg-[var(--primary-hover)] transition disabled:opacity-50 disabled:cursor-not-allowed text-sm whitespace-nowrap"
           >
             {status === 'loading' ? (
-              <Loader2 className="w-5 h-5 animate-spin" />
+              <Loader2 className="w-4 h-4 animate-spin mx-auto" />
             ) : (
               t('button')
             )}
@@ -100,7 +99,7 @@ export default function Newsletter() {
         </form>
         
         {status === 'error' && (
-          <p className="mt-3 text-sm text-red-500 dark:text-red-400">{errorMessage}</p>
+          <p className="mt-3 text-sm text-red-500">{errorMessage}</p>
         )}
         
         <p className="mt-4 text-xs text-[var(--muted)]">

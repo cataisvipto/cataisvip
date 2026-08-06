@@ -135,11 +135,11 @@ export default function SkillDetailClient({ skill, locale, readmeInstallHtml, de
 
         <article className="space-y-6">
           {/* Header Card */}
-          <div className="bg-[var(--card-bg)] rounded-2xl border border-[var(--card-border)] overflow-hidden shadow-sm">
+          <div className="bg-[var(--card-bg)] rounded-2xl shadow-[var(--card-shadow)] overflow-hidden">
             <div className="p-8">
               <div className="flex items-start gap-6">
                 {/* Logo */}
-                <div className="w-20 h-20 rounded-2xl bg-[var(--logo-tile-bg)] border border-[var(--card-border)] flex items-center justify-center overflow-hidden shrink-0 shadow-sm">
+                <div className="w-20 h-20 rounded-2xl bg-[var(--logo-tile-bg)] flex items-center justify-center overflow-hidden shrink-0 shadow-sm">
                   <Image
                     src={skill.logo}
                     alt={displayName}
@@ -226,21 +226,69 @@ export default function SkillDetailClient({ skill, locale, readmeInstallHtml, de
             <div className="px-8 pb-6">
               <h2 className="text-lg font-semibold text-[var(--foreground)] mb-3 flex items-center gap-2">
                 <Code2 className="w-5 h-5 text-indigo-500" />
-                {tSkills('about')}
+                {t('about')}
               </h2>
               <p className="text-[var(--muted)] leading-relaxed text-lg">
                 {getLocalizedSkillDescription(skill, locale)}
               </p>
             </div>
-
+            {/* Verdict */}
+            {localizedVerdict && (
+              <div className="px-8 pb-8">
+                <h2 className="text-lg font-semibold text-[var(--foreground)] mb-3 flex items-center gap-2">
+                  <Award className="w-5 h-5 text-amber-500" />
+                  {t('ourVerdict')}
+                </h2>
+                <div className="bg-[var(--muted-bg)] rounded-lg p-5 border border-[var(--muted-border)]">
+                  <p className="text-[var(--muted)] leading-relaxed">{localizedVerdict}</p>
+                </div>
+              </div>
+            )}
+            {/* Pricing */}
+            {details?.pricing && (
+              <div className="px-8 pb-8">
+                <h2 className="text-lg font-semibold text-[var(--foreground)] mb-3 flex items-center gap-2">
+                  <DollarSign className="w-5 h-5 text-amber-500" />
+                                    {t('pricing')}
+                                  </h2>
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+                  {Object.entries(details.pricing).map(([tier, desc]) => {
+                    const label = getLocalized(desc, locale) as string;
+                    return (
+                      <div key={tier} className="bg-[var(--muted-bg)] rounded-lg px-4 py-3 border border-[var(--muted-border)]">
+                        <div className="text-xs font-medium uppercase tracking-wider text-[var(--muted)] mb-1">{tier}</div>
+                        <div className="text-sm font-medium text-[var(--foreground)]">{label}</div>
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
+            )}
+            {/* Use Cases */}
+            {localizedUseCases && (
+              <div className="px-8 pb-8">
+                <h2 className="text-lg font-semibold text-[var(--foreground)] mb-3 flex items-center gap-2">
+                  <Target className="w-5 h-5 text-indigo-500" />
+                  {t('useCases')}
+                </h2>
+                <ul className="space-y-2">
+                  {localizedUseCases.map((uc, i) => (
+                    <li key={i} className="flex items-start gap-2 text-[var(--muted)]">
+                      <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-indigo-500 shrink-0" />
+                      <span>{uc}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
             {/* Pros & Cons */}
             {localizedPros && localizedCons && (
               <div className="px-8 pb-8 grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
                   <h2 className="text-lg font-semibold text-[var(--foreground)] mb-3 flex items-center gap-2">
                     <ThumbsUp className="w-5 h-5 text-emerald-500" />
-                    Pros
-                  </h2>
+                                        {t('pros')}
+                                      </h2>
                   <ul className="space-y-2">
                     {localizedPros.map((pro, i) => (
                       <li key={i} className="flex items-start gap-2 text-[var(--muted)]">
@@ -253,8 +301,8 @@ export default function SkillDetailClient({ skill, locale, readmeInstallHtml, de
                 <div>
                   <h2 className="text-lg font-semibold text-[var(--foreground)] mb-3 flex items-center gap-2">
                     <ThumbsDown className="w-5 h-5 text-red-500" />
-                    Cons
-                  </h2>
+                                        {t('cons')}
+                                      </h2>
                   <ul className="space-y-2">
                     {localizedCons.map((con, i) => (
                       <li key={i} className="flex items-start gap-2 text-[var(--muted)]">
@@ -266,72 +314,19 @@ export default function SkillDetailClient({ skill, locale, readmeInstallHtml, de
                 </div>
               </div>
             )}
-
-            {/* Pricing */}
-            {details?.pricing && (
-              <div className="px-8 pb-8">
-                <h2 className="text-lg font-semibold text-[var(--foreground)] mb-3 flex items-center gap-2">
-                  <DollarSign className="w-5 h-5 text-amber-500" />
-                  Pricing
-                </h2>
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
-                  {Object.entries(details.pricing).map(([tier, desc]) => {
-                    const label = getLocalized(desc, locale) as string;
-                    return (
-                      <div key={tier} className="bg-[var(--muted-bg)] rounded-lg px-4 py-3 border border-[var(--card-border)]">
-                        <div className="text-xs font-medium uppercase tracking-wider text-[var(--muted)] mb-1">{tier}</div>
-                        <div className="text-sm font-medium text-[var(--foreground)]">{label}</div>
-                      </div>
-                    );
-                  })}
-                </div>
-              </div>
-            )}
-
-            {/* Use Cases */}
-            {localizedUseCases && (
-              <div className="px-8 pb-8">
-                <h2 className="text-lg font-semibold text-[var(--foreground)] mb-3 flex items-center gap-2">
-                  <Target className="w-5 h-5 text-indigo-500" />
-                  {tSkills('useCases') || 'Use Cases'}
-                </h2>
-                <ul className="space-y-2">
-                  {localizedUseCases.map((uc, i) => (
-                    <li key={i} className="flex items-start gap-2 text-[var(--muted)]">
-                      <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-indigo-500 shrink-0" />
-                      <span>{uc}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            )}
-
-            {/* Verdict */}
-            {localizedVerdict && (
-              <div className="px-8 pb-8">
-                <h2 className="text-lg font-semibold text-[var(--foreground)] mb-3 flex items-center gap-2">
-                  <Award className="w-5 h-5 text-amber-500" />
-                  {tSkills('verdict') || 'Editorial Verdict'}
-                </h2>
-                <div className="bg-[var(--muted-bg)] rounded-lg p-5 border border-[var(--card-border)]">
-                  <p className="text-[var(--muted)] leading-relaxed">{localizedVerdict}</p>
-                </div>
-              </div>
-            )}
-
             {/* Install Command */}
             <div className="px-8 pb-8">
               <h2 className="text-lg font-semibold text-[var(--foreground)] mb-3 flex items-center gap-2">
                 <Terminal className="w-5 h-5 text-indigo-500" />
-                {tSkills('install')}
+                {t('installation')}
               </h2>
               <div className="flex items-stretch">
-                <div className="code-install-box flex-1 border border-[var(--card-border)] rounded-l-lg px-4 py-3 overflow-x-auto">
+                <div className="code-install-box flex-1 border border-[var(--muted-border)] rounded-l-lg px-4 py-3 overflow-x-auto">
                   <code className="code-install-text text-sm font-mono whitespace-nowrap select-all">{installCmd}</code>
                 </div>
                 <button
                   onClick={handleCopyCommand}
-                  className="code-install-btn flex items-center gap-1.5 px-4 py-3 border border-l-0 border-[var(--card-border)] rounded-r-lg text-xs font-medium hover:text-white hover:bg-[var(--primary)]/20 transition-all"
+                  className="code-install-btn flex items-center gap-1.5 px-4 py-3 border border-l-0 border-[var(--muted-border)] rounded-r-lg text-xs font-medium hover:text-white hover:bg-[var(--primary)]/20 transition-all"
                 >
                   {copied ? (
                     <>
@@ -352,7 +347,7 @@ export default function SkillDetailClient({ skill, locale, readmeInstallHtml, de
                     <span>{tSkills('officialGuide')}</span>
                     <ChevronDown className="w-4 h-4 shrink-0 transition-transform group-open:rotate-180" />
                   </summary>
-                  <div className="bg-[var(--card-bg)] border border-[var(--card-border)] rounded-lg p-5 overflow-x-auto">
+                  <div className="bg-[var(--card-bg)] border border-[var(--muted-border)] rounded-lg p-5 overflow-x-auto">
                     <div
                       className="readme-install text-sm leading-relaxed"
                       dangerouslySetInnerHTML={{ __html: DOMPurify.sanitize(readmeInstallHtml) }}
@@ -361,7 +356,6 @@ export default function SkillDetailClient({ skill, locale, readmeInstallHtml, de
                 </details>
               )}
             </div>
-
             {/* Action Buttons */}
                         <div className="px-8 pb-8 flex flex-wrap gap-3">
                           {skill.repo && skill.repo.includes('/') && (
@@ -378,7 +372,7 @@ export default function SkillDetailClient({ skill, locale, readmeInstallHtml, de
                           )}
               <Link
                 href="/skills"
-                className="inline-flex items-center gap-2 px-6 py-3 border border-[var(--card-border)] text-[var(--foreground)] font-medium rounded-full hover:border-[var(--primary)] hover:text-[var(--primary)] transition"
+                className="inline-flex items-center gap-2 px-6 py-3 border border-[var(--muted-border)] text-[var(--foreground)] font-medium rounded-full hover:border-[var(--primary)] hover:text-[var(--primary)] transition"
               >
                 <ArrowLeft className="w-4 h-4" />
                 {tSkills('backToList')}

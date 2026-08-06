@@ -1,6 +1,7 @@
 import { MetadataRoute } from 'next';
 import tools from '@/data/tools.json';
 import blogPosts from '@/data/blogPosts.json';
+import tutorials from '@/data/tutorials.json';
 import skills from '@/data/skills.json';
 import mcpServers from '@/data/mcp.json';
 import { routing } from '@/i18n/routing';
@@ -12,7 +13,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const locales = routing.locales;
 
   // Static pages（/tools /skills /mcp 为列表页，权重高于普通静态页）
-  const staticPages = ['', '/tools', '/skills', '/mcp', '/submit', '/about', '/privacy', '/disclaimer', '/editorial-policy', '/blog', '/ranking'].flatMap((path) =>
+  const staticPages = ['', '/tools', '/skills', '/mcp', '/submit', '/about', '/privacy', '/disclaimer', '/editorial-policy', '/blog', '/tutorials', '/ranking'].flatMap((path) =>
     locales.map((locale) => ({
       url: `${BASE_URL}/${locale}${path}`,
       lastModified: new Date(),
@@ -51,6 +52,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }))
   );
 
+  // Tutorial pages
+  const tutorialPages = tutorials.flatMap((tutorial: any) =>
+    locales.map((locale) => ({
+      url: `${BASE_URL}/${locale}/tutorials/${tutorial.slug}`,
+      lastModified: tutorial.publishedAt || new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.7,
+    }))
+  );
+
   // Skill detail pages
   const skillPages = skills.flatMap((skill: any) =>
     locales.map((locale) => ({
@@ -71,5 +82,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }))
   );
 
-  return [...staticPages, ...categoryPages, ...toolPages, ...blogPages, ...skillPages, ...mcpPages];
+  return [...staticPages, ...categoryPages, ...toolPages, ...blogPages, ...tutorialPages, ...skillPages, ...mcpPages];
 }

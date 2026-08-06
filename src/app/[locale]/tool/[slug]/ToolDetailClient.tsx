@@ -105,7 +105,7 @@ export default function ToolDetailClient({ tool, locale, details: detailsProp, s
       <Link
         key={rt.slug}
         href={`/tool/${rt.slug}`}
-        className="group flex items-start gap-4 p-5 rounded-xl border border-[var(--card-border)] hover:border-[var(--primary)] hover:bg-[var(--muted-bg)] hover:shadow-md transition-all duration-300"
+        className="group flex items-start gap-4 p-5 rounded-xl bg-[var(--card-bg)] shadow-[var(--card-shadow)] hover:shadow-[var(--card-shadow-hover)] hover:-translate-y-0.5 transition-all duration-300"
       >
         <LogoTile
                   logo={rt.logo}
@@ -165,7 +165,7 @@ export default function ToolDetailClient({ tool, locale, details: detailsProp, s
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
       <Header searchQuery={searchQuery} onSearchChange={setSearchQuery} locale={locale} />
-      <main className="flex-1 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <main className="flex-1 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         {/* Breadcrumb */}
         <Breadcrumb
           items={[
@@ -177,8 +177,8 @@ export default function ToolDetailClient({ tool, locale, details: detailsProp, s
 
         <article className="space-y-8">
           {/* Header Card */}
-          <div className="bg-[var(--card-bg)] rounded-2xl border border-[var(--card-border)] overflow-hidden shadow-sm">
-            <div className="p-8 border-b border-[var(--card-border)]">
+          <div className="bg-[var(--card-bg)] rounded-2xl shadow-[var(--card-shadow)] overflow-hidden">
+                      <div className="p-8 border-b border-[var(--muted-border)]">
               <div className="flex items-start gap-6">
                 {/* Logo */}
                 <LogoTile
@@ -217,11 +217,11 @@ export default function ToolDetailClient({ tool, locale, details: detailsProp, s
                   <div className="flex flex-wrap gap-2">
                     {tool.tags.map((tag) => (
                       <span
-                        key={tag}
-                        className={`px-3 py-1 rounded-full text-sm font-medium ${TAG_COLORS[tag] || 'bg-gray-100 text-gray-600 dark:bg-gray-800 dark:text-gray-400'}`}
-                      >
-                        {tTags(tag as any)}
-                      </span>
+                                              key={tag}
+                                              className="text-sm text-[var(--muted)]"
+                                            >
+                                              {tTags(tag as any)}
+                                            </span>
                     ))}
                   </div>
                 </div>
@@ -245,7 +245,7 @@ export default function ToolDetailClient({ tool, locale, details: detailsProp, s
                 href={tool.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-8 py-3 bg-gradient-to-r from-indigo-500 to-cyan-500 text-white font-medium rounded-full hover:opacity-90 transition shadow-md"
+                className="inline-flex items-center gap-2 px-8 py-3 bg-[var(--primary)] text-white font-medium rounded-full hover:bg-[var(--primary-hover)] transition shadow-sm"
               >
                 {t('visit')}
                 <ExternalLink className="w-4 h-4" />
@@ -281,7 +281,7 @@ export default function ToolDetailClient({ tool, locale, details: detailsProp, s
             <>
               {/* Our Verdict */}
               {details.verdict && (details.verdict as any).badge && (
-                <section aria-labelledby="our-verdict-title" className="bg-[var(--card-bg)] rounded-2xl border border-[var(--card-border)] overflow-hidden shadow-sm">
+                <section aria-labelledby="our-verdict-title" className="bg-[var(--card-bg)] rounded-2xl shadow-[var(--card-shadow)] overflow-hidden">
                   {/* Header with badge */}
                   <div className="px-8 pt-8 pb-0">
                     <div className="flex items-center gap-3 mb-4">
@@ -369,7 +369,7 @@ export default function ToolDetailClient({ tool, locale, details: detailsProp, s
 
               {/* Fallback: simple verdict for tools with old structure */}
               {details.verdict && !(details.verdict as any).badge && (details.verdict as any).summary && (
-                <div className="bg-[var(--card-bg)] rounded-2xl border border-[var(--card-border)] p-8 shadow-sm">
+                <div className="bg-[var(--card-bg)] rounded-2xl shadow-[var(--card-shadow)] p-8">
                   <h2 className="text-lg font-semibold text-[var(--foreground)] mb-4 flex items-center gap-2">
                     <Award className="w-5 h-5 text-amber-500" />
                     {t('ourVerdict')}
@@ -382,21 +382,20 @@ export default function ToolDetailClient({ tool, locale, details: detailsProp, s
 
               {/* Supported Platforms */}
               {supportedPlatforms.length > 0 && (
-                <section aria-labelledby="supported-platforms-title" className="bg-[var(--card-bg)] rounded-2xl border border-[var(--card-border)] p-8 shadow-sm">
+                <section aria-labelledby="supported-platforms-title" className="bg-[var(--card-bg)] rounded-2xl shadow-[var(--card-shadow)] p-8">
                   <h2 id="supported-platforms-title" className="text-lg font-semibold text-[var(--foreground)] mb-4 flex items-center gap-2">
                     <MonitorSmartphone className="w-5 h-5 text-indigo-500" />
                     {t('supportedPlatforms')}
                   </h2>
                   <div className="flex flex-wrap gap-2.5">
                     {supportedPlatforms.map((p) => (
-                      <span
-                        key={p.key}
-                        className="inline-flex items-center gap-2 px-3.5 py-2 rounded-full bg-[var(--muted-bg)] border border-[var(--card-border)] text-sm font-medium text-[var(--foreground)]"
-                      >
-                        <span aria-hidden="true">{p.emoji}</span>
-                        {t(p.labelKey as any)}
-                      </span>
-                    ))}
+                                          <span
+                                            key={p.key}
+                                            className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-[var(--muted-bg)] text-sm text-[var(--muted)]"
+                                          >
+                                            {t(p.labelKey as any)}
+                                          </span>
+                                        ))}
                   </div>
                   {/* SEO: 自然语言平台可用性说明 */}
                   <p className="text-sm text-[var(--muted)] mt-4 leading-relaxed">
@@ -406,7 +405,7 @@ export default function ToolDetailClient({ tool, locale, details: detailsProp, s
               )}
 
               {/* Features */}
-              <div className="bg-[var(--card-bg)] rounded-2xl border border-[var(--card-border)] p-8 shadow-sm">
+              <div className="bg-[var(--card-bg)] rounded-2xl shadow-[var(--card-shadow)] p-8">
                 <h2 className="text-lg font-semibold text-[var(--foreground)] mb-4 flex items-center gap-2">
                   <Zap className="w-5 h-5 text-indigo-500" />
                   {t('keyFeatures')}
@@ -422,7 +421,7 @@ export default function ToolDetailClient({ tool, locale, details: detailsProp, s
               </div>
 
               {/* Pricing */}
-              <div className="bg-[var(--card-bg)] rounded-2xl border border-[var(--card-border)] p-8 shadow-sm">
+              <div className="bg-[var(--card-bg)] rounded-2xl shadow-[var(--card-shadow)] p-8">
                 <h2 className="text-lg font-semibold text-[var(--foreground)] mb-4 flex items-center gap-2">
                   <DollarSign className="w-5 h-5 text-indigo-500" />
                   {t('pricing')}
@@ -438,7 +437,7 @@ export default function ToolDetailClient({ tool, locale, details: detailsProp, s
               </div>
 
               {/* Use Cases */}
-              <div className="bg-[var(--card-bg)] rounded-2xl border border-[var(--card-border)] p-8 shadow-sm">
+              <div className="bg-[var(--card-bg)] rounded-2xl shadow-[var(--card-shadow)] p-8">
                 <h2 className="text-lg font-semibold text-[var(--foreground)] mb-4 flex items-center gap-2">
                   <Lightbulb className="w-5 h-5 text-indigo-500" />
                   {t('useCases')}
@@ -455,7 +454,7 @@ export default function ToolDetailClient({ tool, locale, details: detailsProp, s
 
               {/* Pros and Cons */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div className="bg-[var(--card-bg)] rounded-2xl border border-[var(--card-border)] p-8 shadow-sm">
+                <div className="bg-[var(--card-bg)] rounded-2xl shadow-[var(--card-shadow)] p-8">
                   <h2 className="text-lg font-semibold text-[var(--foreground)] mb-4 flex items-center gap-2">
                     <CheckCircle className="w-5 h-5 text-emerald-500" />
                     {t('pros')}
@@ -470,7 +469,7 @@ export default function ToolDetailClient({ tool, locale, details: detailsProp, s
                   </div>
                 </div>
 
-                <div className="bg-[var(--card-bg)] rounded-2xl border border-[var(--card-border)] p-8 shadow-sm">
+                <div className="bg-[var(--card-bg)] rounded-2xl shadow-[var(--card-shadow)] p-8">
                   <h2 className="text-lg font-semibold text-[var(--foreground)] mb-4 flex items-center gap-2">
                     <XCircle className="w-5 h-5 text-red-500" />
                     {t('cons')}
@@ -487,7 +486,7 @@ export default function ToolDetailClient({ tool, locale, details: detailsProp, s
               </div>
 
               {/* Latest Update */}
-              <div className="bg-[var(--card-bg)] rounded-2xl border border-[var(--card-border)] p-8 shadow-sm">
+              <div className="bg-[var(--card-bg)] rounded-2xl shadow-[var(--card-shadow)] p-8">
                 <h2 className="text-lg font-semibold text-[var(--foreground)] mb-3 flex items-center gap-2">
                   <Zap className="w-5 h-5 text-indigo-500" />
                   {t('latestUpdate')}
@@ -499,8 +498,8 @@ export default function ToolDetailClient({ tool, locale, details: detailsProp, s
 
           {/* Tutorial Section - redesigned for clarity and copy-ability, collapsed by default */}
                     {(details as Record<string, unknown>)?.tutorial && (
-                      <details className="group bg-[var(--card-bg)] rounded-2xl border border-[var(--card-border)] overflow-hidden shadow-sm" open={false}>
-                        <summary className="px-8 py-6 border-b border-[var(--card-border)] bg-[var(--muted-bg)] cursor-pointer list-none hover:bg-[var(--muted-bg)]/80 transition [&::-webkit-details-marker]:hidden flex items-center justify-between">
+                      <details className="group bg-[var(--card-bg)] rounded-2xl shadow-[var(--card-shadow)] overflow-hidden" open={false}>
+                        <summary className="px-8 py-6 border-b border-[var(--muted-border)] bg-[var(--muted-bg)] cursor-pointer list-none hover:bg-[var(--muted-bg)]/80 transition [&::-webkit-details-marker]:hidden flex items-center justify-between">
                           <div className="flex items-center gap-3">
                             <div className="w-10 h-10 rounded-xl bg-indigo-100 dark:bg-indigo-900/30 flex items-center justify-center">
                               <BookOpen className="w-5 h-5 text-indigo-600 dark:text-indigo-400" />
@@ -519,7 +518,7 @@ export default function ToolDetailClient({ tool, locale, details: detailsProp, s
                 {(((details.tutorial as Record<string, { steps: unknown[] }>)[locale]?.steps || (details.tutorial as Record<string, { steps: unknown[] }>).en?.steps || []) as Record<string, unknown>[]).map((step, index: number) => {
                   const commands = (step.commands as Record<string, string>[]) || [];
                   return (
-                    <div key={index} className={`flex gap-6 ${index > 0 ? 'mt-8 pt-8 border-t border-[var(--card-border)]' : ''}`}>
+                    <div key={index} className={`flex gap-6 ${index > 0 ? 'mt-8 pt-8 border-t border-[var(--muted-border)]' : ''}`}>
                       {/* Step number */}
                       <div className="flex-shrink-0">
                         <div className="w-10 h-10 rounded-full bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center shadow-sm">
@@ -547,13 +546,13 @@ export default function ToolDetailClient({ tool, locale, details: detailsProp, s
                                   )}
                                   <div className="flex items-stretch">
                                     {/* Code */}
-                                    <div className="flex-1 bg-[var(--muted-bg)] border border-[var(--card-border)] rounded-l-lg px-4 py-2.5 overflow-x-auto">
+                                    <div className="flex-1 bg-[var(--muted-bg)] border border-[var(--muted-border)] rounded-l-lg px-4 py-2.5 overflow-x-auto">
                                       <code className="text-sm text-[var(--foreground)] font-mono whitespace-nowrap select-all">{cmd.code}</code>
                                     </div>
                                     {/* Copy button */}
                                     <button
                                       onClick={() => handleCopy(cmd.code, cmdId)}
-                                      className="flex items-center gap-1.5 px-3.5 py-2.5 bg-[var(--muted-bg)] border border-l-0 border-[var(--card-border)] rounded-r-lg text-xs font-medium text-[var(--muted)] hover:text-[var(--primary)] hover:bg-[var(--primary)]/5 transition-all"
+                                      className="flex items-center gap-1.5 px-3.5 py-2.5 bg-[var(--muted-bg)] border border-l-0 border-[var(--muted-border)] rounded-r-lg text-xs font-medium text-[var(--muted)] hover:text-[var(--primary)] hover:bg-[var(--primary)]/5 transition-all"
                                       title={t('copyCommand')}
                                     >
                                       {copiedIndex === cmdId ? (
@@ -584,7 +583,7 @@ export default function ToolDetailClient({ tool, locale, details: detailsProp, s
 
                           {/* Related Products (Same Maker / Platform) */}
           {sameMaker.length > 0 && (
-            <div className="bg-[var(--card-bg)] rounded-2xl border border-[var(--card-border)] p-8 shadow-sm">
+            <div className="bg-[var(--card-bg)] rounded-2xl shadow-[var(--card-shadow)] p-8">
               <h2 className="text-lg font-semibold text-[var(--foreground)] mb-6 flex items-center gap-2">
                 <Building2 className="w-5 h-5 text-indigo-500" />
                 {t('relatedProducts', { maker: makerName as string })}
@@ -597,7 +596,7 @@ export default function ToolDetailClient({ tool, locale, details: detailsProp, s
 
           {/* Related Tools (Same Category) */}
           {relatedTools.length > 0 && (
-            <div className="bg-[var(--card-bg)] rounded-2xl border border-[var(--card-border)] p-8 shadow-sm">
+            <div className="bg-[var(--card-bg)] rounded-2xl shadow-[var(--card-shadow)] p-8">
               <h2 className="text-lg font-semibold text-[var(--foreground)] mb-6 flex items-center gap-2">
                 <LayoutGrid className="w-5 h-5 text-indigo-500" />
                 {t('relatedTools', { category: tCategories(tool.category as any) })}
@@ -610,7 +609,7 @@ export default function ToolDetailClient({ tool, locale, details: detailsProp, s
 
           {/* Related Blog Posts */}
           {relatedPosts.length > 0 && (
-            <div className="bg-[var(--card-bg)] rounded-2xl border border-[var(--card-border)] p-8 shadow-sm">
+            <div className="bg-[var(--card-bg)] rounded-2xl shadow-[var(--card-shadow)] p-8">
               <h2 className="text-lg font-semibold text-[var(--foreground)] mb-4 flex items-center gap-2">
                 <Newspaper className="w-5 h-5 text-indigo-500" />
                 {t('relatedArticles')}
@@ -620,7 +619,7 @@ export default function ToolDetailClient({ tool, locale, details: detailsProp, s
                   <Link
                     key={post.slug}
                     href={`/blog/${post.slug}`}
-                    className="block p-4 rounded-xl border border-[var(--card-border)] hover:border-[var(--primary)] hover:bg-[var(--muted-bg)] transition"
+                    className="block p-4 rounded-xl bg-[var(--card-bg)] shadow-[var(--card-shadow)] hover:shadow-[var(--card-shadow-hover)] hover:-translate-y-0.5 transition-all duration-300"
                   >
                     <div className="text-sm text-indigo-600 dark:text-indigo-400 mb-1 capitalize">
                       {post.category}

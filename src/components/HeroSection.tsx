@@ -6,13 +6,10 @@ import { Search, Bot, Brain, Boxes, Wrench, Sparkles, Newspaper } from 'lucide-r
 import LogoIcon from './Logo/LogoIcon';
 
 interface HeroSectionProps {
-  /** Current search query, lifted to the page so hero search drives the tool grid. */
   searchQuery?: string;
-  /** Setter for the search query. */
   onSearchChange?: (query: string) => void;
 }
 
-// Proper nouns, intentionally not localized.
 const POPULAR = ['ChatGPT', 'Claude', 'Gemini', 'Midjourney', 'Cursor'];
 const ORBITS = [80, 104, 135, 176, 228, 258];
 
@@ -22,14 +19,13 @@ const PARTICLES = [
   { radius: 228, duration: 17, delay: -2 },
 ];
 
-// Golden-angle (137.5°) initial distribution to avoid clustering
 const PLANETS = [
-  { radius: 80, duration: 18, delay: 0, className: 'catai-ai-planet-indigo', Icon: Brain },       // 0°
-  { radius: 104, duration: 26, delay: -9.9, className: 'catai-ai-planet-blue', Icon: Boxes },     // 137.5°
-  { radius: 135, duration: 35, delay: -26.7, className: 'catai-ai-planet-purple', Icon: Bot },    // 275°
-  { radius: 176, duration: 46, delay: -6.7, className: 'catai-ai-planet-cyan', Icon: Wrench },    // 52.5°
-  { radius: 228, duration: 58, delay: -30.6, className: 'catai-ai-planet-violet', Icon: Sparkles }, // 190°
-  { radius: 258, duration: 72, delay: -65.4, className: 'catai-ai-planet-sky', Icon: Newspaper },  // 327.5°
+  { radius: 80, duration: 18, delay: 0, className: 'catai-ai-planet-indigo', Icon: Brain },
+  { radius: 104, duration: 26, delay: -9.9, className: 'catai-ai-planet-blue', Icon: Boxes },
+  { radius: 135, duration: 35, delay: -26.7, className: 'catai-ai-planet-purple', Icon: Bot },
+  { radius: 176, duration: 46, delay: -6.7, className: 'catai-ai-planet-cyan', Icon: Wrench },
+  { radius: 228, duration: 58, delay: -30.6, className: 'catai-ai-planet-violet', Icon: Sparkles },
+  { radius: 258, duration: 72, delay: -65.4, className: 'catai-ai-planet-sky', Icon: Newspaper },
 ];
 
 export default function HeroSection({ searchQuery = '', onSearchChange }: HeroSectionProps) {
@@ -53,7 +49,7 @@ export default function HeroSection({ searchQuery = '', onSearchChange }: HeroSe
         <div className="absolute bottom-0 right-1/4 w-[28rem] h-[28rem] bg-cyan-500/15 rounded-full blur-3xl" />
       </div>
 
-      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20 lg:py-24">
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 sm:py-24 lg:py-28">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-8 items-center">
           <div className="text-center lg:text-left">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight tracking-tight">
@@ -87,7 +83,7 @@ export default function HeroSection({ searchQuery = '', onSearchChange }: HeroSe
               />
               <button
                 type="submit"
-                className="shrink-0 px-6 py-2.5 rounded-full bg-gradient-to-r from-indigo-500 to-cyan-500 text-white font-semibold text-sm hover:opacity-90 transition shadow-lg"
+                className="shrink-0 px-6 py-2.5 rounded-full bg-white/10 text-white font-medium text-sm hover:bg-white/20 transition backdrop-blur-sm border border-white/10"
               >
                 {t('searchButton')}
               </button>
@@ -132,7 +128,6 @@ export default function HeroSection({ searchQuery = '', onSearchChange }: HeroSe
                   />
                 ))}
 
-                {/* Front half of innermost orbit — renders ABOVE the A logo for depth */}
                 <div
                   className="catai-ring-front"
                   style={{
@@ -147,7 +142,6 @@ export default function HeroSection({ searchQuery = '', onSearchChange }: HeroSe
                 <div className="absolute left-1/2 -translate-x-1/2 -translate-y-1/2 w-[28rem] h-[28rem] rounded-full bg-indigo-500/15 blur-3xl" style={{ top: 'calc(50% + var(--catai-hub-dy))' }} />
                 <div className="absolute left-1/2 -translate-x-1/2 -translate-y-1/2 w-72 h-72 rounded-full bg-cyan-400/15 blur-3xl" style={{ top: 'calc(50% + var(--catai-hub-dy))' }} />
 
-                {/* Dynamic gradient halo on the AI-node dot */}
                 <div className="catai-dot-glow" />
 
                 <div className="absolute left-1/2 z-10 -translate-x-1/2 -translate-y-1/2 flex items-center justify-center" style={{ top: 'calc(50% + var(--catai-hub-dy))', rotate: '10deg' }}>

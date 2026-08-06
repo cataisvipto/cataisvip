@@ -4,7 +4,7 @@
     "latestDesc": "Herramientas de IA añadidas recientemente al ecosistema Cataito",
     "featuredTitle": "Selección del editor",
     "featuredDesc": "Una selección de todas las categorías de IA",
-    "viewAll": "Ver todas las herramientas"
+    "viewAll": "Ver todo"
   },
   "featuredAgents": {
     "title": "Agentes de IA destacados",
@@ -29,7 +29,8 @@
     "blog": "Blog",
     "submit": "Enviar Recurso",
     "searchPlaceholder": "Buscar recursos de IA...",
-    "about": "Acerca de"
+    "about": "Acerca de",
+    "tutorials": "Tutoriales"
   },
   "hero": {
     "title": "Encuentra la IA adecuada para <hl>cada</hl> tarea.",
@@ -113,6 +114,7 @@
     "useCases": "Casos de Uso",
     "pros": "Ventajas",
     "cons": "Desventajas",
+    "installation": "Instalación",
     "latestUpdate": "Última Actualización",
     "ourVerdict": "Nuestro Veredicto",
     "verdictScore": "Puntuación",
@@ -291,7 +293,7 @@
   "category": {
     "heading": "Mejores herramientas de IA de {category}",
     "count": "{count} herramientas",
-    "viewAll": "Ver todas las herramientas"
+    "viewAll": "Ver todo"
   },
   "allTools": {
     "metaTitle": "Todas las herramientas de IA - Explora {count} herramientas y recursos de IA | Cataito",
@@ -324,8 +326,8 @@
       "listicle": "Listas",
       "tutorial": "Tutoriales",
       "analysis": "Análisis",
-            "guide": "Guías"
-          }
+      "guide": "Guías"
+    }
   },
   "skills": {
     "metaTitle": "Skills y Servidores MCP para Agentes IA",
@@ -345,7 +347,7 @@
     "backToList": "Volver a Skills",
     "notFound": "Skill No Encontrada",
     "faqTitle": "Preguntas frecuentes",
-        "verdict": "Veredicto Editorial",
+    "verdict": "Veredicto Editorial",
     "useCases": "Casos de Uso",
     "officialGuide": "Guía oficial de instalación del README (en inglés)",
     "starsLabel": "estrellas",
@@ -450,5 +452,26 @@
       "Image": "Imagen"
     },
     "faqTitle": "Preguntas frecuentes"
+  },
+  "tutorials": {
+    "title": "Tutoriales de IA",
+    "subtitle": "Guías paso a paso para dominar herramientas, agentes y flujos de trabajo de IA",
+    "readTime": "min de lectura",
+    "readTutorial": "Leer tutorial",
+    "backToList": "Volver a tutoriales",
+    "relatedTutorials": "Tutoriales relacionados",
+    "emptyTitle": "Tutoriales próximamente",
+    "emptyDesc": "¡Estamos preparando tutoriales detallados con imágenes. Vuelve pronto!",
+    "difficulties": {
+      "beginner": "Principiante",
+      "intermediate": "Intermedio",
+      "advanced": "Avanzado"
+    },
+    "selectPlatform": "Tu sistema operativo",
+    "platforms": {
+      "windows": "Windows",
+      "macos": "macOS",
+      "linux": "Linux"
+    }
   }
 }

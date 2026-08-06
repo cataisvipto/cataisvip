@@ -4,12 +4,12 @@
     "latestDesc": "Cataito エコシステムに最近追加された AI ツール",
     "featuredTitle": "編集者のおすすめ",
     "featuredDesc": "すべての AI カテゴリから厳選",
-    "viewAll": "すべてのツールを見る"
+    "viewAll": "すべて見る"
   },
   "featuredAgents": {
     "title": "注目の AI エージェント",
     "subtitle": "プラットフォームを横断する統一メモリ、いつでもどこでもあなたに",
-    "viewAll": "すべて表示",
+    "viewAll": "すべて見る",
     "viewAllMobile": "エージェントをすべて表示"
   },
   "site": {
@@ -29,7 +29,8 @@
     "blog": "ブログ",
     "submit": "リソースを登録",
     "searchPlaceholder": "AIリソースを検索...",
-    "about": "サイトについて"
+    "about": "サイトについて",
+    "tutorials": "チュートリアル"
   },
   "hero": {
     "title": "<hl>あらゆる</hl>タスクに最適な AI を見つけよう",
@@ -113,6 +114,7 @@
     "useCases": "活用シーン",
     "pros": "メリット",
     "cons": "デメリット",
+    "installation": "インストール",
     "latestUpdate": "最新情報",
     "ourVerdict": "編集部評価",
     "verdictScore": "スコア",
@@ -306,7 +308,7 @@
     "backToList": "スキル一覧に戻る",
     "notFound": "スキルが見つかりません",
     "faqTitle": "よくある質問",
-        "verdict": "エディトリアルレビュー",
+    "verdict": "エディトリアルレビュー",
     "useCases": "ユースケース",
     "officialGuide": "公式 README インストールガイド（英語原文）",
     "starsLabel": "スター",
@@ -334,7 +336,7 @@
   "category": {
     "heading": "最高の{category} AIツール",
     "count": "{count} 個のツール",
-    "viewAll": "すべてのツールを見る"
+    "viewAll": "すべて見る"
   },
   "allTools": {
     "metaTitle": "すべての AI ツール - {count} 個の AI ツールとリソースを閲覧 | Cataito",
@@ -367,8 +369,8 @@
       "listicle": "リスト",
       "tutorial": "チュートリアル",
       "analysis": "分析",
-            "guide": "ガイド"
-          }
+      "guide": "ガイド"
+    }
   },
   "about": {
     "metaTitle": "Cataitoについて — 独立系AIツールディレクトリ",
@@ -450,5 +452,26 @@
       "Image": "画像"
     },
     "faqTitle": "よくある質問"
+  },
+  "tutorials": {
+    "title": "AIチュートリアル",
+    "subtitle": "AIツール・エージェント・ワークフローをステップバイステップで学ぶ",
+    "readTime": "分で読める",
+    "readTutorial": "チュートリアルを読む",
+    "backToList": "チュートリアル一覧に戻る",
+    "relatedTutorials": "関連チュートリアル",
+    "emptyTitle": "チュートリアル準備中",
+    "emptyDesc": "図解付きの深いチュートリアルを準備中です。お楽しみに！",
+    "difficulties": {
+      "beginner": "初心者",
+      "intermediate": "中級",
+      "advanced": "上級"
+    },
+    "selectPlatform": "お使いのOS",
+    "platforms": {
+      "windows": "Windows",
+      "macos": "macOS",
+      "linux": "Linux"
+    }
   }
 }

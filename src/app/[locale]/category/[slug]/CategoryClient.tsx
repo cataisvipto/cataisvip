@@ -156,7 +156,7 @@ export default function CategoryClient({ category, slug, tools: categoryTools, l
   return (
     <>
       <Header searchQuery={searchQuery} onSearchChange={setSearchQuery} locale={locale} />
-      <main className="flex-1 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <main className="flex-1 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         {/* Breadcrumb */}
         <Breadcrumb
           items={[
@@ -166,30 +166,30 @@ export default function CategoryClient({ category, slug, tools: categoryTools, l
         />
 
         {/* Category Header */}
-        <div className="mb-8">
-          <h1 className="text-3xl md:text-4xl font-bold text-[var(--foreground)] mb-3">
-            {tCategory('heading', { category: tCategories(category as any) })}
-          </h1>
-          <p className="text-lg text-[var(--muted)] mb-4">{categoryDescription}</p>
-          <div className="flex items-center gap-2 text-sm text-[var(--muted)]">
-            <span>{tCategory('count', { count: categoryTools.length })}</span>
-          </div>
-        </div>
+                <div className="mb-10">
+                  <h1 className="text-3xl md:text-4xl font-bold tracking-tight text-[var(--foreground)] mb-3">
+                    {tCategory('heading', { category: tCategories(category as any) })}
+                  </h1>
+                  <p className="text-[var(--muted)] mb-4">{categoryDescription}</p>
+                  <div className="flex items-center gap-2 text-sm text-[var(--muted)]">
+                    <span>{tCategory('count', { count: categoryTools.length })}</span>
+                  </div>
+                </div>
 
-        {/* Category Navigation */}
-        <div className="flex flex-wrap gap-2 mb-8">
+                {/* Category Navigation */}
+                <div className="flex flex-wrap gap-2 mb-10">
           {CATEGORIES.map((catName) => {
             const catSlug = categoryToSlug(catName);
             return (
               <Link
-                key={catSlug}
-                href={`/category/${catSlug}`}
-                className={`px-4 py-2 rounded-full text-sm font-medium transition ${
-                  catSlug === slug
-                    ? 'bg-indigo-600 text-white shadow-md'
-                    : 'bg-[var(--muted-bg)] text-[var(--muted)] hover:bg-[var(--card-border)]'
-                }`}
-              >
+                              key={catSlug}
+                              href={`/category/${catSlug}`}
+                              className={`px-4 py-1.5 rounded-full text-sm font-medium transition ${
+                                catSlug === slug
+                                  ? 'bg-[var(--foreground)] text-[var(--background)]'
+                                  : 'bg-[var(--muted-bg)] text-[var(--muted)] hover:bg-[var(--muted-border)] hover:text-[var(--foreground)]'
+                              }`}
+                            >
                 {tCategories(catName as any)}
               </Link>
             );
@@ -197,47 +197,44 @@ export default function CategoryClient({ category, slug, tools: categoryTools, l
         </div>
 
         {/* Tools Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
           {categoryTools.map((tool) => {
             const displayName = locale === 'zh' && tool.nameZh ? tool.nameZh : tool.name;
             const description = getLocalizedDescription(tool, locale);
 
             return (
               <Link
-                key={tool.slug}
-                href={`/tool/${tool.slug}`}
-                className="group bg-[var(--card-bg)] rounded-2xl border border-[var(--card-border)] p-5 hover:border-[var(--primary)] hover:shadow-md transition"
-              >
+                              key={tool.slug}
+                              href={`/tool/${tool.slug}`}
+                              className="group bg-[var(--card-bg)] rounded-xl shadow-[var(--card-shadow)] hover:shadow-[var(--card-shadow-hover)] hover:-translate-y-0.5 transition-all duration-300 p-5"
+                            >
                 <div className="flex items-start gap-4">
-                  <LogoTile
-                                      logo={tool.logo}
-                                      logoDark={tool.logoDark}
-                                      alt={displayName}
-                                      className="w-12 h-12 rounded-xl"
-                                      imgPx={40}
-                                    />
-                                    <div className="flex-1 min-w-0">
-                    <div className="flex items-center gap-2 mb-1">
-                      <h3 className="font-semibold text-[var(--foreground)] truncate group-hover:text-[var(--primary)] transition">
-                        {displayName}
-                      </h3>
-                      {tool.featured && (
-                        <Star className="w-4 h-4 text-amber-500 fill-current shrink-0" />
-                      )}
-                    </div>
-                    <p className="text-sm text-[var(--muted)] line-clamp-2 mb-3">{description}</p>
-                    <div className="flex flex-wrap gap-1.5">
-                      {tool.tags.map((tag) => (
-                        <span
-                          key={tag}
-                          className={`px-2 py-0.5 rounded-full text-xs font-medium ${TAG_COLORS[tag] || 'bg-gray-100 text-gray-600 dark:bg-gray-800 dark:text-gray-400'}`}
-                        >
-                          {tTags(tag)}
-                        </span>
-                      ))}
-                    </div>
-                  </div>
-                </div>
+                                                  <LogoTile
+                                                    logo={tool.logo}
+                                                    logoDark={tool.logoDark}
+                                                    alt={displayName}
+                                                    className="w-12 h-12 rounded-xl"
+                                                    imgPx={40}
+                                                  />
+                                                  <div className="flex-1 min-w-0">
+                                                    <div className="flex items-center gap-2 mb-1 group/header">
+                                                      <h3 className="font-semibold text-[var(--foreground)] truncate group-hover/header:text-[var(--primary)] transition">
+                                        {displayName}
+                                      </h3>
+                                      {tool.featured && (
+                                        <Star className="w-4 h-4 text-amber-500 fill-current shrink-0" />
+                                      )}
+                                    </div>
+                                    <p className="text-sm text-[var(--muted)] line-clamp-2 mb-3 hover:text-[var(--foreground)] transition">{description}</p>
+                                    <div className="flex flex-wrap gap-x-2 gap-y-1">
+                                      {tool.tags.map((tag) => (
+                                        <span key={tag} className="text-xs text-[var(--muted)]">
+                                          {tTags(tag)}
+                                        </span>
+                                      ))}
+                                    </div>
+                                  </div>
+                                </div>
               </Link>
             );
           })}
@@ -245,14 +242,14 @@ export default function CategoryClient({ category, slug, tools: categoryTools, l
 
         {/* View All Tools */}
         <div className="mt-8 text-center">
-          <Link
-            href="/tools"
-            className="inline-flex items-center gap-2 px-6 py-3 bg-[var(--muted-bg)] text-[var(--foreground)] rounded-full hover:bg-[var(--card-border)] transition font-medium"
-          >
-            {tCategory('viewAll')}
-            <ExternalLink className="w-4 h-4" />
-          </Link>
-        </div>
+                  <Link
+                    href="/tools"
+                    className="inline-flex items-center gap-2 px-6 py-2.5 bg-[var(--muted-bg)] text-[var(--foreground)] rounded-full hover:bg-[var(--muted-border)] transition font-medium text-sm"
+                  >
+                    {tCategory('viewAll')}
+                    <ExternalLink className="w-4 h-4" />
+                  </Link>
+                </div>
       </main>
       <Footer />
     </>

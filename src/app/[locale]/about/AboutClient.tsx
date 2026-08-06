@@ -31,7 +31,7 @@ export default function AboutClient() {
 
         <div className="space-y-6">
           {/* Mission */}
-          <section aria-labelledby="about-mission" className="bg-[var(--card-bg)] rounded-2xl border border-[var(--card-border)] p-8 shadow-sm">
+          <section aria-labelledby="about-mission" className="bg-[var(--card-bg)] rounded-2xl shadow-[var(--card-shadow)] p-8">
             <h2 id="about-mission" className="text-lg font-semibold text-[var(--foreground)] mb-4 flex items-center gap-2">
               <Target className="w-5 h-5 text-indigo-500" />
               {t('missionTitle')}
@@ -43,7 +43,7 @@ export default function AboutClient() {
           </section>
 
           {/* What we offer */}
-          <section aria-labelledby="about-what" className="bg-[var(--card-bg)] rounded-2xl border border-[var(--card-border)] p-8 shadow-sm">
+          <section aria-labelledby="about-what" className="bg-[var(--card-bg)] rounded-2xl shadow-[var(--card-shadow)] p-8">
             <h2 id="about-what" className="text-lg font-semibold text-[var(--foreground)] mb-4 flex items-center gap-2">
               <Compass className="w-5 h-5 text-indigo-500" />
               {t('whatTitle')}
@@ -60,7 +60,7 @@ export default function AboutClient() {
           </section>
 
           {/* Methodology */}
-          <section aria-labelledby="about-method" className="bg-[var(--card-bg)] rounded-2xl border border-[var(--card-border)] p-8 shadow-sm">
+          <section aria-labelledby="about-method" className="bg-[var(--card-bg)] rounded-2xl shadow-[var(--card-shadow)] p-8">
             <h2 id="about-method" className="text-lg font-semibold text-[var(--foreground)] mb-4 flex items-center gap-2">
               <ShieldCheck className="w-5 h-5 text-indigo-500" />
               {t('methodTitle')}
@@ -77,7 +77,7 @@ export default function AboutClient() {
           </section>
 
           {/* Independence */}
-          <section aria-labelledby="about-independence" className="bg-[var(--card-bg)] rounded-2xl border border-[var(--card-border)] p-8 shadow-sm">
+          <section aria-labelledby="about-independence" className="bg-[var(--card-bg)] rounded-2xl shadow-[var(--card-shadow)] p-8">
             <h2 id="about-independence" className="text-lg font-semibold text-[var(--foreground)] mb-4 flex items-center gap-2">
               <Scale className="w-5 h-5 text-indigo-500" />
               {t('independenceTitle')}
@@ -86,7 +86,7 @@ export default function AboutClient() {
           </section>
 
           {/* Contact */}
-          <section aria-labelledby="about-contact" className="bg-[var(--card-bg)] rounded-2xl border border-[var(--card-border)] p-8 shadow-sm">
+          <section aria-labelledby="about-contact" className="bg-[var(--card-bg)] rounded-2xl shadow-[var(--card-shadow)] p-8">
             <h2 id="about-contact" className="text-lg font-semibold text-[var(--foreground)] mb-4 flex items-center gap-2">
               <Mail className="w-5 h-5 text-indigo-500" />
               {t('contactTitle')}
@@ -102,7 +102,7 @@ export default function AboutClient() {
               </a>
               <Link
                 href="/submit"
-                className="inline-flex items-center gap-2 px-5 py-2.5 border border-[var(--card-border)] bg-[var(--muted-bg)] text-[var(--foreground)] text-sm font-medium rounded-full hover:border-[var(--primary)] hover:text-[var(--primary)] transition"
+                className="inline-flex items-center gap-2 px-5 py-2.5 bg-[var(--muted-bg)] text-[var(--foreground)] text-sm font-medium rounded-full hover:bg-[var(--muted-border)] hover:text-[var(--primary)] transition"
               >
                 <Send className="w-4 h-4" />
                 {t('contactSubmit')}

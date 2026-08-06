@@ -5,46 +5,59 @@
    让全站 dark:* 工具类跟随网站主题开关，避免浅/暗色板块交叉不一致。 */
 @custom-variant dark (&:where(.dark, .dark *));
 
-/* Light mode (default) */
+/* ============================================================
+   CATAITO Design System v2 — Premium AI Portal
+   Inspired by Apple, Linear, and Vercel design languages.
+   ============================================================ */
+
+/* ── Light mode ───────────────────────────────────────────── */
 :root {
-  --background: #ffffff;
-  --foreground: #0f172a;
-  --primary: #5b5eee; /* 由 #6366f1 微加深：卡片底 #f8fafc 上对比度 4.69，满足 WCAG AA 4.5 */
-  --primary-dark: #4f46e5;
+  --background: #fafafa;
+  --foreground: #1d1d1f;
+  --primary: #6366f1;
+  --primary-hover: #5558e6;
   --accent: #06b6d4;
-  --card-bg: #f8fafc;
-  --card-border: #e2e8f0;
-  --muted: #60708a; /* 由 #64748b 微加深：最浅底 #f1f5f9 上对比度 4.58，满足 WCAG AA 4.5 */
-  --muted-bg: #f1f5f9;
+  --card-bg: #ffffff;
+  --card-border: transparent;
+  --card-shadow: 0 1px 2px rgba(0,0,0,0.04), 0 1px 6px rgba(0,0,0,0.02);
+  --card-shadow-hover: 0 4px 24px rgba(0,0,0,0.08), 0 1px 4px rgba(0,0,0,0.04);
+  --muted: #6e6e73;
+  --muted-bg: #f2f2f4;
+  --muted-border: #e8e8ed;
   --tag-free: #10b981;
   --tag-paid: #f59e0b;
   --tag-api: #8b5cf6;
   --tag-opensource: #3b82f6;
-  --header-bg: rgba(255, 255, 255, 0.8);
-  --shadow: rgba(0, 0, 0, 0.1);
-  /* Logo 容器底色：唯一控制点，亮色纯白 */
+  --header-bg: rgba(250, 250, 250, 0.78);
+  --header-border: rgba(0,0,0,0.06);
+  --shadow: rgba(0, 0, 0, 0.08);
   --logo-tile-bg: #ffffff;
+  --section-spacing: 80px;
 }
 
-/* Dark mode */
+/* ── Dark mode ────────────────────────────────────────────── */
 .dark {
-  --background: #0f172a;
-  --foreground: #f1f5f9;
+  --background: #161618;
+  --foreground: #f0f0f0;
   --primary: #818cf8;
-  --primary-dark: #6366f1;
+  --primary-hover: #8b93ff;
   --accent: #22d3ee;
-  --card-bg: #1e293b;
-  --card-border: #334155;
-  --muted: #94a3b8;
-  --muted-bg: #1e293b;
+  --card-bg: #1d1d1f;
+  --card-border: transparent;
+  --card-shadow: 0 1px 2px rgba(0,0,0,0.2), 0 1px 6px rgba(0,0,0,0.1);
+  --card-shadow-hover: 0 4px 24px rgba(0,0,0,0.3), 0 1px 4px rgba(0,0,0,0.15);
+  --muted: #9e9ea4;
+  --muted-bg: #262628;
+  --muted-border: #2c2c2e;
   --tag-free: #34d399;
   --tag-paid: #fbbf24;
   --tag-api: #a78bfa;
   --tag-opensource: #60a5fa;
-  --header-bg: rgba(15, 23, 42, 0.8);
-  --shadow: rgba(0, 0, 0, 0.3);
-  /* 暗色下用柔和浅灰替代刺眼纯白，透明字形 logo 仍清晰 */
+  --header-bg: rgba(22, 22, 24, 0.78);
+  --header-border: rgba(255,255,255,0.06);
+  --shadow: rgba(0, 0, 0, 0.4);
   --logo-tile-bg: #e8edf4;
+  --section-spacing: 80px;
 }
 
 @theme inline {
@@ -54,26 +67,28 @@
   --font-mono: var(--font-geist-mono);
 }
 
+/* ── Base ─────────────────────────────────────────────────── */
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: var(--font-sans), Arial, Helvetica, sans-serif;
-  transition: background-color 0.3s ease, color 0.3s ease;
+  font-size: 15px;
+  line-height: 1.6;
+  letter-spacing: -0.01em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-/* Smooth scrolling */
 html {
   scroll-behavior: smooth;
 }
 
-/* Brand gradient — cyan→blue→purple, matches the logo icon/wordmark.
-   Single source of truth for all hero/banner regions (home, blog, 404). */
+/* ── Brand gradient ───────────────────────────────────────── */
 .brand-gradient {
   background-image: linear-gradient(135deg, #22d3ee 0%, #4f6bf6 50%, #a855f7 100%);
 }
 
-/* Footer brand spotlight: subtle blue→purple radial glow behind the logo,
-   shown only in dark mode to echo the brand mockup without affecting light mode. */
+/* ── Footer brand spotlight ───────────────────────────────── */
 .footer-glow {
   display: none;
 }
@@ -96,34 +111,19 @@ html {
   z-index: 0;
 }
 
-/* Custom scrollbar */
-::-webkit-scrollbar {
-  width: 8px;
-}
-::-webkit-scrollbar-track {
-  background: var(--muted-bg);
-}
-::-webkit-scrollbar-thumb {
-  background: var(--muted);
-  border-radius: 4px;
-}
-::-webkit-scrollbar-thumb:hover {
-  background: var(--primary);
-}
+/* ── Custom scrollbar ─────────────────────────────────────── */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--muted-border); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--muted); }
 
-/* ── Hero galaxy ───────────────────────────────────────────────────
-   Planets orbit the central "A" inside the SAME flattened disk as the black
-   hole (a circle seen at an angle). --catai-tilt is the shared vertical squash;
-   each planet un-squashes its own icon so it always renders as a true circle. */
+/* ============================================================
+   Hero galaxy animation (preserved as-is — unique visual DNA)
+   ============================================================ */
 :root {
   --catai-tilt: 0.4;
   --catai-persp: 0.26;
-  /* The gravity hub (A + core + waves) sits at the orbital-band center, not at
-     radius 0. Perspective shifts every ring's center down by orbit-r * persp,
-     so the hub is lowered by ~(mid-orbit radius * persp) to land among them. */
   --catai-hub-dy: 44px;
-  /* The AI-node dot on the A letter is the orbit center.
-     Dot Y = logo-center-offset(44px) + dot-within-logo((73/96 − 0.5)×178 ≈ 46px) = 90px */
   --catai-dot-dy: 90px;
 }
 
@@ -141,22 +141,16 @@ html {
              catai-planet-z var(--orbit-dur, 28s) step-end infinite;
   will-change: transform;
 }
-/* Depth toggle synced to the orbit: the planet renders in front of the central A on
-   the near half of the ring, and is occluded behind it on the far half (A sits at z-index 10). */
 @keyframes catai-planet-z {
   0%  { z-index: 30; }
   50% { z-index: 0; }
 }
-/* Counter the disk squash so the planet icon stays perfectly round + upright.
-   Also carries the perspective-size animation (near=bigger, far=smaller)
-   on this child so it does NOT scale the orbit translateX distance. */
 @keyframes catai-spin { to { transform: rotateY(360deg); } }
 .catai-planet-face {
   transform: scaleY(calc(1 / var(--catai-tilt)));
   animation: catai-planet-scale var(--orbit-dur, 28s) linear infinite;
   animation-delay: var(--orbit-delay, 0s);
 }
-/* Perspective size: planets appear larger when near (bottom of orbit) and smaller when far (top). */
 @keyframes catai-planet-scale {
   0%   { scale: 1; }
   25%  { scale: 1.08; }
@@ -164,18 +158,12 @@ html {
   75%  { scale: 0.92; }
   100% { scale: 1; }
 }
-/* Self-rotation applies only to the icon INSIDE the planet (not the face itself)
-   so the scaleY counter-squash stays axis-aligned and the planet remains circular. */
 .catai-ai-planet svg {
   position: relative;
   filter: drop-shadow(0 0 8px currentColor);
   animation: catai-spin 12s linear infinite;
   backface-visibility: visible;
 }
-
-/* Each planet's own faint orbit path, flattened into the same disk plane.
-   All rings share the same center: the AI-node dot on the A.
-   Outer rings fade and blur to simulate depth-of-field via --ring-depth (0~1). */
 .catai-orbit-ring {
   position: absolute;
   left: 50%;
@@ -187,7 +175,6 @@ html {
   opacity: calc(1 - var(--ring-depth, 0) * 0.4);
   filter: blur(calc(var(--ring-depth, 0) * 0.8px));
 }
-/* Front half of innermost ring sits ABOVE the A logo (z-10) for depth layering. */
 .catai-ring-front {
   position: absolute;
   left: 50%;
@@ -197,15 +184,11 @@ html {
   z-index: 15;
   clip-path: inset(50% 0 0 0);
   pointer-events: none;
-  box-shadow:
-    0 0 3px rgba(103, 232, 249, 0.10);
+  box-shadow: 0 0 3px rgba(103, 232, 249, 0.10);
 }
-/* Back half of innermost ring — only top arc visible, sits BEHIND the A logo. */
 .catai-ring-back {
   clip-path: inset(0 0 50% 0);
 }
-
-/* Energy core platform beneath the A (in the same tilted disk plane). */
 .catai-core {
   position: absolute; top: calc(50% + var(--catai-hub-dy)); left: 50%;
   width: 208px; height: 208px; border-radius: 9999px;
@@ -220,8 +203,6 @@ html {
   transform: translate(-50%, -50%) scaleY(var(--catai-tilt));
 }
 @keyframes catai-core-pulse { 0%, 100% { opacity: 0.85; } 50% { opacity: 1; } }
-
-/* Radiating energy waves rippling outward from the core, flattened into the plane. */
 @keyframes catai-wave {
   0%   { opacity: 0.5; transform: translate(-50%, -50%) scaleY(var(--catai-tilt)) scale(0.2); }
   100% { opacity: 0;   transform: translate(-50%, -50%) scaleY(var(--catai-tilt)) scale(1); }
@@ -233,15 +214,8 @@ html {
   transform: translate(-50%, -50%) scaleY(var(--catai-tilt));
   animation: catai-wave 6s ease-out infinite;
 }
-
-/* Slow cinematic camera push toward the center. */
 @keyframes catai-zoom { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.03); } }
-.catai-galaxy {
-  rotate: -10deg;
-  animation: catai-zoom 14s ease-in-out infinite;
-}
-
-/* Hero starfield twinkle (scattered across the whole banner). */
+.catai-galaxy { rotate: -10deg; animation: catai-zoom 14s ease-in-out infinite; }
 @keyframes catai-twinkle { 0%, 100% { opacity: 0.45; } 50% { opacity: 0.85; } }
 .catai-stars {
   background-image:
@@ -260,45 +234,17 @@ html {
   background-repeat: no-repeat;
   animation: catai-twinkle 6s ease-in-out infinite;
 }
-/* Faint galaxy nebula spread across the hero background. */
 .catai-nebula {
   background:
     radial-gradient(38% 30% at 68% 36%, rgba(99,102,241,0.20), transparent 70%),
     radial-gradient(34% 26% at 30% 62%, rgba(34,211,238,0.13), transparent 70%),
     radial-gradient(30% 24% at 56% 82%, rgba(168,85,247,0.14), transparent 70%);
 }
-
 @media (prefers-reduced-motion: reduce) {
   .catai-planet, .catai-stars, .catai-wave, .catai-core, .catai-galaxy, .catai-dot-glow, .catai-ai-planet svg, .catai-ai-planet::before, .catai-ai-planet::after { animation: none; }
 }
 
-/* Code block styles — dark theme for both light and dark mode */
-.code-block-header {
-  background: #0f172a;
-  color: #94a3b8;
-}
-.code-block-header .copy-code-btn {
-  color: #94a3b8;
-}
-.code-block-header .copy-code-btn:hover {
-  color: #ffffff;
-}
-.code-block-body {
-  background: #1e293b;
-  color: #e2e8f0;
-}
-.code-install-box {
-  background: #1e293b;
-}
-.code-install-text {
-  color: #e2e8f0;
-}
-.code-install-btn {
-  background: #1e293b;
-  color: #94a3b8;
-}
-
-/* Hero orbital system refinements: glassy planets, scanning rings and a brighter A core. */
+/* ── Hero orbital system refinements ──────────────────────── */
 .catai-system-aura {
   position: absolute;
   inset: 18%;
@@ -309,7 +255,6 @@ html {
     radial-gradient(circle at 50% 52%, rgba(168, 85, 247, 0.16), transparent 64%);
   filter: blur(18px);
 }
-
 .catai-orbit-ring {
   background:
     radial-gradient(closest-side, transparent 97%, rgba(103, 232, 249, 0.08) 98%, transparent 100%);
@@ -317,7 +262,6 @@ html {
     0 0 18px rgba(59, 130, 246, 0.08),
     inset 0 0 18px rgba(99, 102, 241, 0.06);
 }
-
 .catai-orbit-ring::after {
   content: "";
   position: absolute;
@@ -337,11 +281,7 @@ html {
   animation-delay: var(--ring-delay, 0s);
   mask: radial-gradient(farthest-side, transparent calc(100% - 2px), #000 calc(100% - 1px));
 }
-
-@keyframes catai-ring-scan {
-  to { transform: rotate(360deg); }
-}
-
+@keyframes catai-ring-scan { to { transform: rotate(360deg); } }
 .catai-core-grid {
   position: absolute;
   top: calc(50% + var(--catai-hub-dy));
@@ -357,7 +297,6 @@ html {
   opacity: 0.18;
   mask-image: radial-gradient(circle, #000 0%, transparent 68%);
 }
-
 .catai-logo-halo {
   position: absolute;
   width: 178px;
@@ -369,13 +308,10 @@ html {
   filter: blur(10px);
   animation: catai-logo-breathe 4.8s ease-in-out infinite;
 }
-
 @keyframes catai-logo-breathe {
   0%, 100% { opacity: 0.75; transform: scale(0.96); }
   50% { opacity: 1; transform: scale(1.08); }
 }
-
-/* Dynamic gradient halo radiating from the AI-node dot on the A letter. */
 @keyframes catai-dot-glow {
   0%   { opacity: 0.7; transform: translate(-50%, -50%) scale(0.9) rotate(0deg); }
   50%  { opacity: 1;   transform: translate(-50%, -50%) scale(1.2) rotate(180deg); }
@@ -397,7 +333,6 @@ html {
   animation: catai-dot-glow 4s ease-in-out infinite;
   pointer-events: none;
 }
-
 .catai-ai-planet {
   position: relative;
   display: flex;
@@ -418,8 +353,6 @@ html {
   backdrop-filter: blur(10px);
   perspective: 120px;
 }
-
-/* Glass sphere inner specular — rotates to always face the center dot (light source). */
 .catai-ai-planet::before {
   content: "";
   position: absolute;
@@ -432,11 +365,6 @@ html {
   animation: catai-light-track var(--orbit-dur, 28s) linear infinite;
   animation-delay: var(--orbit-delay, 0s);
 }
-
-/* Dynamic light halo — rotates to track the center dot (light source).
-   Uses --orbit-dur and --orbit-delay so it stays synced with the orbital motion.
-   Keyframes are pre-computed for the elliptical orbit (scaleY 0.4) using:
-   angle = atan2(-cosθ, sinθ × tilt) to correctly follow the perspective-squashed path. */
 @keyframes catai-light-track {
   0%      { transform: rotate(-90deg); }
   8.33%   { transform: rotate(-77deg); }
@@ -463,14 +391,12 @@ html {
   pointer-events: none;
   opacity: 0.8;
 }
-
 .catai-ai-planet-indigo { background-color: rgba(99, 102, 241, 0.28); box-shadow: 0 0 26px rgba(99, 102, 241, 0.38), inset 0 1px 16px rgba(255, 255, 255, 0.12); }
 .catai-ai-planet-blue { background-color: rgba(59, 130, 246, 0.28); box-shadow: 0 0 26px rgba(59, 130, 246, 0.38), inset 0 1px 16px rgba(255, 255, 255, 0.12); }
 .catai-ai-planet-purple { background-color: rgba(147, 51, 234, 0.30); box-shadow: 0 0 26px rgba(147, 51, 234, 0.40), inset 0 1px 16px rgba(255, 255, 255, 0.12); }
 .catai-ai-planet-cyan { background-color: rgba(6, 182, 212, 0.28); box-shadow: 0 0 26px rgba(6, 182, 212, 0.40), inset 0 1px 16px rgba(255, 255, 255, 0.12); }
 .catai-ai-planet-violet { background-color: rgba(124, 58, 237, 0.30); box-shadow: 0 0 26px rgba(124, 58, 237, 0.40), inset 0 1px 16px rgba(255, 255, 255, 0.12); }
 .catai-ai-planet-sky { background-color: rgba(14, 165, 233, 0.28); box-shadow: 0 0 26px rgba(14, 165, 233, 0.40), inset 0 1px 16px rgba(255, 255, 255, 0.12); }
-
 .catai-particle {
   width: 8px;
   height: 8px;
@@ -480,7 +406,32 @@ html {
   background: #67e8f9;
   box-shadow: 0 0 10px 3px rgba(34, 211, 238, 0.72);
 }
-
 @media (prefers-reduced-motion: reduce) {
   .catai-orbit-ring::after, .catai-logo-halo, .catai-dot-glow { animation: none; }
+}
+
+/* ── Code block styles ────────────────────────────────────── */
+.code-block-header {
+  background: #0f172a;
+  color: #94a3b8;
+}
+.code-block-header .copy-code-btn {
+  color: #94a3b8;
+}
+.code-block-header .copy-code-btn:hover {
+  color: #ffffff;
+}
+.code-block-body {
+  background: #1e293b;
+  color: #e2e8f0;
+}
+.code-install-box {
+  background: #1e293b;
+}
+.code-install-text {
+  color: #e2e8f0;
+}
+.code-install-btn {
+  background: #1e293b;
+  color: #94a3b8;
 }

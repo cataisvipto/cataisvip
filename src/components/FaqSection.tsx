@@ -37,7 +37,7 @@ export default function FaqSection({ faqs, locale, title }: FaqSectionProps) {
   };
 
   return (
-    <div className="bg-[var(--card-bg)] rounded-2xl border border-[var(--card-border)] shadow-sm p-8">
+    <div className="bg-[var(--card-bg)] rounded-2xl shadow-[var(--card-shadow)] p-8">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
@@ -50,7 +50,7 @@ export default function FaqSection({ faqs, locale, title }: FaqSectionProps) {
         {faqs.map((faq, i) => (
           <details
             key={i}
-            className="group border border-[var(--card-border)] rounded-lg overflow-hidden"
+            className="group border border-[var(--muted-border)] rounded-lg overflow-hidden"
           >
             <summary className="flex items-center justify-between gap-3 px-4 py-3 cursor-pointer list-none text-[var(--foreground)] font-medium hover:text-[var(--primary)] transition [&::-webkit-details-marker]:hidden">
               <span>{pick(faq.question, locale)}</span>

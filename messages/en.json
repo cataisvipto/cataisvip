@@ -4,12 +4,12 @@
     "latestDesc": "Recently added AI tools to the Cataito ecosystem",
     "featuredTitle": "Editor's Picks",
     "featuredDesc": "A curated selection spanning every AI category",
-    "viewAll": "Browse All Tools"
+    "viewAll": "Browse All"
   },
   "featuredAgents": {
     "title": "Featured AI Agents",
     "subtitle": "Unified memory across platforms, always at your service",
-    "viewAll": "View All",
+    "viewAll": "Browse All",
     "viewAllMobile": "View All Agents"
   },
   "site": {
@@ -29,7 +29,8 @@
     "blog": "Blog",
     "submit": "Submit Resource",
     "searchPlaceholder": "Search AI resources...",
-    "about": "About"
+    "about": "About",
+    "tutorials": "Tutorials"
   },
   "hero": {
     "title": "Find the right AI for <hl>every</hl> task.",
@@ -113,6 +114,7 @@
     "useCases": "Use Cases",
     "pros": "Pros",
     "cons": "Cons",
+    "installation": "Installation",
     "latestUpdate": "Latest Update",
     "ourVerdict": "Our Verdict",
     "verdictScore": "Score",
@@ -306,7 +308,7 @@
     "backToList": "Back to Skills",
     "notFound": "Skill Not Found",
     "faqTitle": "Frequently Asked Questions",
-        "verdict": "Editorial Verdict",
+    "verdict": "Editorial Verdict",
     "useCases": "Use Cases",
     "officialGuide": "Official README installation guide",
     "starsLabel": "stars",
@@ -334,7 +336,7 @@
   "category": {
     "heading": "Best {category} AI Tools",
     "count": "{count} tools",
-    "viewAll": "View All Tools"
+    "viewAll": "Browse All"
   },
   "allTools": {
     "metaTitle": "All AI Tools - Browse {count} AI Tools & Resources | Cataito",
@@ -347,7 +349,7 @@
     "subtitle": "Stay updated with the latest AI trends, tool reviews, and industry insights",
     "latestNews": "Latest from the Blog",
     "latestNewsSubtitle": "AI news, model comparisons, and in-depth insights",
-    "viewAll": "View all",
+    "viewAll": "Browse All",
     "readMore": "Read More",
     "readTime": "min read",
     "publishedOn": "Published on",
@@ -367,8 +369,8 @@
       "listicle": "Lists",
       "tutorial": "Tutorials",
       "analysis": "Analysis",
-            "guide": "Guides"
-          }
+      "guide": "Guides"
+    }
   },
   "about": {
     "metaTitle": "About Cataito — Independent AI Tools Directory",
@@ -450,5 +452,26 @@
       "Image": "Image"
     },
     "faqTitle": "Frequently Asked Questions"
+  },
+  "tutorials": {
+    "title": "AI Tutorials",
+    "subtitle": "Step-by-step guides to master AI tools, agents, and workflows",
+    "readTime": "min read",
+    "readTutorial": "Read Tutorial",
+    "backToList": "Back to Tutorials",
+    "relatedTutorials": "Related Tutorials",
+    "emptyTitle": "Tutorials coming soon",
+    "emptyDesc": "We are preparing in-depth, image-rich tutorials. Check back soon!",
+    "difficulties": {
+      "beginner": "Beginner",
+      "intermediate": "Intermediate",
+      "advanced": "Advanced"
+    },
+    "selectPlatform": "Your operating system",
+    "platforms": {
+      "windows": "Windows",
+      "macos": "macOS",
+      "linux": "Linux"
+    }
   }
 }

@@ -2,7 +2,6 @@
 
 import { useState } from 'react';
 import { useTranslations } from 'next-intl';
-import { LayoutGrid } from 'lucide-react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Breadcrumb from '@/components/Breadcrumb';
@@ -21,17 +20,12 @@ export default function ToolsClient({ tools, locale }: ToolsClientProps) {
   return (
     <>
       <Header searchQuery={searchQuery} onSearchChange={setSearchQuery} locale={locale} />
-      <main className="flex-1 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 w-full">
+      <main className="flex-1 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-8 w-full">
         <Breadcrumb items={[{ name: t('title') }]} locale={locale} />
 
-        <div className="flex items-center gap-3 mb-2">
-          <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-indigo-500 to-cyan-500 flex items-center justify-center">
-            <LayoutGrid className="w-5 h-5 text-white" />
-          </div>
-          <div>
-            <h1 className="text-2xl sm:text-3xl font-bold text-[var(--foreground)]">{t('title')}</h1>
-            <p className="text-sm text-[var(--muted)]">{t('subtitle')}</p>
-          </div>
+        <div className="mb-2">
+          <h1 className="text-3xl sm:text-4xl font-bold tracking-tight text-[var(--foreground)]">{t('title')}</h1>
+          <p className="mt-1.5 text-[var(--muted)] text-sm">{t('subtitle')}</p>
         </div>
       </main>
 

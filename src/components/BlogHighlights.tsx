@@ -16,7 +16,6 @@ interface BlogPost {
   readTime: number;
 }
 
-// Localize a multilingual field, falling back to English so the section follows the site language
 const getLocalized = (field: Record<string, string>, locale: string) =>
   field?.[locale] || field?.en || '';
 
@@ -24,7 +23,6 @@ export default function BlogHighlights() {
   const t = useTranslations('blog');
   const locale = useLocale();
 
-  // Show the 3 most recent posts, newest first
   const latest = [...(posts as BlogPost[])]
     .sort((a, b) => (a.publishedAt < b.publishedAt ? 1 : -1))
     .slice(0, 3);
@@ -32,12 +30,11 @@ export default function BlogHighlights() {
   if (latest.length === 0) return null;
 
   return (
-    <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-      {/* Section header */}
-      <div className="flex items-end justify-between gap-4 mb-8">
+    <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+      <div className="flex items-end justify-between gap-4 mb-10">
         <div>
-          <h2 className="text-2xl sm:text-3xl font-bold text-[var(--foreground)]">{t('latestNews')}</h2>
-          <p className="mt-2 text-[var(--muted)] text-sm sm:text-base">{t('latestNewsSubtitle')}</p>
+          <h2 className="text-2xl sm:text-3xl font-bold tracking-tight text-[var(--foreground)]">{t('latestNews')}</h2>
+          <p className="mt-1.5 text-[var(--muted)] text-sm sm:text-base">{t('latestNewsSubtitle')}</p>
         </div>
         <Link
           href="/blog"
@@ -48,8 +45,7 @@ export default function BlogHighlights() {
         </Link>
       </div>
 
-      {/* Cards */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
         {latest.map((post) => {
           const title = getLocalized(post.title, locale);
           const excerpt = getLocalized(post.excerpt, locale);
@@ -57,7 +53,7 @@ export default function BlogHighlights() {
           return (
             <article
               key={post.slug}
-              className="group bg-[var(--card-bg)] rounded-2xl border border-[var(--card-border)] overflow-hidden hover:shadow-lg transition-all duration-300"
+              className="group bg-[var(--card-bg)] rounded-xl shadow-[var(--card-shadow)] hover:shadow-[var(--card-shadow-hover)] hover:-translate-y-0.5 transition-all duration-300 overflow-hidden"
             >
               <Link href={`/blog/${post.slug}`} className="block aspect-video overflow-hidden">
                 <BlogCover
@@ -70,16 +66,16 @@ export default function BlogHighlights() {
               </Link>
               <div className="p-5">
                 <div className="flex items-center gap-3 mb-2 text-sm text-[var(--muted)]">
-                  <span className="px-2 py-1 bg-indigo-50 dark:bg-indigo-900/30 text-indigo-600 dark:text-indigo-400 rounded-md text-xs font-medium capitalize">
+                  <span className="text-xs font-medium text-[var(--primary)]">
                     {t(`categories.${post.category}` as any)}
                   </span>
-                  <span className="flex items-center gap-1">
-                    <Clock className="w-3.5 h-3.5" />
+                  <span className="flex items-center gap-1 text-xs">
+                    <Clock className="w-3 h-3" />
                     {post.readTime} {t('readTime')}
                   </span>
                 </div>
                 <Link href={`/blog/${post.slug}`}>
-                  <h3 className="text-lg font-bold text-[var(--foreground)] mb-2 line-clamp-2 group-hover:text-[var(--primary)] transition">
+                  <h3 className="text-base font-bold text-[var(--foreground)] mb-2 line-clamp-2 group-hover:text-[var(--primary)] transition">
                     {title}
                   </h3>
                 </Link>
@@ -90,7 +86,6 @@ export default function BlogHighlights() {
         })}
       </div>
 
-      {/* Mobile view-all */}
       <div className="mt-8 text-center sm:hidden">
         <Link
           href="/blog"

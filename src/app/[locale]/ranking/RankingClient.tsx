@@ -6,6 +6,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Breadcrumb from '@/components/Breadcrumb';
 import { Star, GitFork, Trophy, TrendingUp, TrendingDown, Minus, ExternalLink, Info } from 'lucide-react';
+import ScrollReveal from '@/components/ScrollReveal';
 
 export interface RankingItem {
   rank: number;
@@ -64,7 +65,7 @@ function RepoAvatar({ item }: { item: RankingItem }) {
       height={40}
       loading="lazy"
       onError={() => setFailed(true)}
-      className="w-10 h-10 rounded-lg object-cover shrink-0 bg-white dark:bg-white/90 border border-[var(--card-border)]"
+      className="w-10 h-10 rounded-lg object-cover shrink-0 bg-white dark:bg-white/90 border border-[var(--muted-border)]"
     />
   );
 }
@@ -113,38 +114,31 @@ export default function RankingClient({ items, updatedAt, locale }: RankingClien
   return (
     <>
       <Header searchQuery={searchQuery} onSearchChange={setSearchQuery} locale={locale} />
-      <main className="flex-1 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8 w-full">
-        <Breadcrumb items={[{ name: t('title') }]} locale={locale} />
+      <main className="flex-1 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-8 w-full">
+              <Breadcrumb items={[{ name: t('title') }]} locale={locale} />
 
-        {/* Page header */}
-        <div className="mb-6">
-          <div className="flex items-center gap-3 mb-2">
-            <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-indigo-500 to-cyan-500 flex items-center justify-center">
-              <Trophy className="w-5 h-5 text-white" />
-            </div>
-            <div>
-              <h1 className="text-2xl font-bold text-[var(--foreground)]">{t('title')}</h1>
-              <p className="text-sm text-[var(--muted)]">{t('subtitle')}</p>
-            </div>
-          </div>
-          <p className="text-xs text-[var(--muted)] mt-2">{t('updatedLabel', { date: updatedAt })}</p>
-        </div>
+              {/* Page header */}
+              <div className="mb-6">
+                <h1 className="text-3xl sm:text-4xl font-bold tracking-tight text-[var(--foreground)]">{t('title')}</h1>
+                <p className="mt-1.5 text-[var(--muted)] text-sm">{t('subtitle')}</p>
+                <p className="text-xs text-[var(--muted)] mt-2">{t('updatedLabel', { date: updatedAt })}</p>
+              </div>
 
         {/* Methodology note — 只说明维度类别，不暴露算法细节 */}
-        <div className="flex items-start gap-2.5 bg-[var(--muted-bg)] border border-[var(--card-border)] rounded-xl px-4 py-3 mb-8">
+        <div className="flex items-start gap-2.5 bg-[var(--muted-bg)] border border-[var(--muted-border)] rounded-xl px-4 py-3 mb-8">
           <Info className="w-4 h-4 text-[var(--primary)] shrink-0 mt-0.5" />
           <p className="text-xs text-[var(--muted)] leading-relaxed">{t('methodologyText')}</p>
         </div>
 
         {/* Ranking list */}
-        <div className="space-y-2">
-          {filtered.map((item) => (
+                <ScrollReveal><div className="space-y-3">
+                  {filtered.map((item) => (
             <a
               key={item.fullName}
               href={item.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="group flex items-center gap-3 sm:gap-4 bg-[var(--card-bg)] rounded-xl border border-[var(--card-border)] px-3 sm:px-5 py-3.5 hover:shadow-md hover:border-[var(--primary)] transition-all duration-200"
+              className="group flex items-center gap-3 sm:gap-4 bg-[var(--card-bg)] rounded-xl shadow-[var(--card-shadow)] hover:shadow-[var(--card-shadow-hover)] hover:-translate-y-0.5 px-3 sm:px-5 py-3.5 transition-all duration-200"
             >
               {/* Rank */}
               <div
@@ -159,13 +153,13 @@ export default function RankingClient({ items, updatedAt, locale }: RankingClien
 
               {/* Name + description */}
               <div className="min-w-0 flex-1">
-                <div className="flex items-center gap-2">
-                  <h2 className="font-semibold text-sm text-[var(--foreground)] truncate group-hover:text-[var(--primary)] transition">
+                <div className="flex items-center gap-2 group/header">
+                                  <h2 className="font-semibold text-sm text-[var(--foreground)] truncate group-hover/header:text-[var(--primary)] transition">
                     {item.fullName}
                   </h2>
                   <ChangeBadge change={item.change} newLabel={t('newLabel')} />
                 </div>
-                <p className="text-xs text-[var(--muted)] truncate mt-0.5">{item.description}</p>
+                <p className="text-xs text-[var(--muted)] truncate mt-0.5 hover:text-[var(--foreground)] transition">{item.description}</p>
               </div>
 
               {/* Metrics */}
@@ -189,9 +183,9 @@ export default function RankingClient({ items, updatedAt, locale }: RankingClien
               <ExternalLink className="w-3.5 h-3.5 text-[var(--muted)] opacity-0 group-hover:opacity-100 transition shrink-0" />
             </a>
           ))}
-        </div>
+        </div></ScrollReveal>
 
-        {/* Empty state */}
+                {/* Empty state */}
         {filtered.length === 0 && (
           <div className="text-center py-16">
             <Trophy className="w-12 h-12 text-[var(--muted)] mx-auto mb-4 opacity-50" />

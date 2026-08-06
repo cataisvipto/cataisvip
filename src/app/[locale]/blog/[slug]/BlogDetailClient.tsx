@@ -10,6 +10,7 @@ import { Calendar, Clock, User, Share2, Link2, Check, ExternalLink } from 'lucid
 import { TwitterIcon, LinkedinIcon, FacebookIcon } from '@/components/SocialIcons';
 import BlogCover from '@/components/BlogCover';
 import LogoTile from '@/components/LogoTile';
+import MarkdownContent from '@/components/MarkdownContent';
 import tools from '@/data/tools.json';
 import { Tool, getLocalizedDescription } from '@/components/ToolCard';
 
@@ -71,73 +72,6 @@ export default function BlogDetailClient({ post, locale, articleJsonLd, coverIma
     setTimeout(() => setCopied(false), 2000);
   };
 
-  // Simple markdown-like rendering
-  const renderContent = (text: string) => {
-    const lines = text.split('\n');
-    const elements: React.ReactNode[] = [];
-    let idx = 0;
-
-    for (let i = 0; i < lines.length; i++) {
-      const line = lines[i];
-
-      // Handle table blocks (consecutive | lines)
-      if (line.startsWith('|')) {
-        const tableLines: string[] = [];
-        while (i < lines.length && lines[i].startsWith('|')) {
-          tableLines.push(lines[i]);
-          i++;
-        }
-        i--; // for loop will increment
-
-        const headers = tableLines[0].split('|').filter(c => c.trim()).map(c => c.trim());
-        const rows = tableLines.slice(2).filter(row => row.startsWith('|'));
-
-        elements.push(
-          <div key={idx++} className="overflow-x-auto my-6 rounded-xl border border-[var(--card-border)]">
-            <table className="w-full border-collapse">
-              <thead>
-                <tr className="bg-[var(--muted-bg)]">
-                  {headers.map((h, hi) => (
-                    <th key={hi} className="px-4 py-3 text-left text-sm font-semibold text-[var(--foreground)]">{h}</th>
-                  ))}
-                </tr>
-              </thead>
-              <tbody>
-                {rows.map((row, ri) => {
-                  const cells = row.split('|').filter(c => c.trim()).map(c => c.trim());
-                  return (
-                    <tr key={ri} className={ri % 2 === 0 ? 'bg-[var(--card-bg)]' : 'bg-[var(--muted-bg)]'}>
-                      {cells.map((cell, ci) => (
-                        <td key={ci} className="px-4 py-3 text-sm text-[var(--muted)] border-t border-[var(--card-border)]">{cell}</td>
-                      ))}
-                    </tr>
-                  );
-                })}
-              </tbody>
-            </table>
-          </div>
-        );
-        continue;
-      }
-
-      if (line.startsWith('## ')) {
-        elements.push(<h2 key={idx++} className="text-2xl font-bold text-[var(--foreground)] mt-8 mb-4">{line.replace('## ', '')}</h2>);
-      } else if (line.startsWith('### ')) {
-        elements.push(<h3 key={idx++} className="text-xl font-semibold text-[var(--foreground)] mt-6 mb-3">{line.replace('### ', '')}</h3>);
-      } else if (line.startsWith('- ')) {
-        elements.push(<li key={idx++} className="ml-6 text-[var(--muted)] mb-2 list-disc">{line.replace('- ', '')}</li>);
-      } else if (line.match(/^\d+\.\s/)) {
-        elements.push(<li key={idx++} className="ml-6 text-[var(--muted)] mb-2 list-decimal">{line.replace(/^\d+\.\s/, '')}</li>);
-      } else if (line === '') {
-        elements.push(<br key={idx++} />);
-      } else {
-        elements.push(<p key={idx++} className="text-[var(--muted)] mb-4 leading-relaxed">{line}</p>);
-      }
-    }
-
-    return elements;
-  };
-
   return (
     <>
       <script
@@ -195,12 +129,12 @@ export default function BlogDetailClient({ post, locale, articleJsonLd, coverIma
           </header>
 
           {/* Content */}
-          <div className="prose prose-lg max-w-none">
-            {renderContent(content)}
+          <div className="max-w-none">
+            <MarkdownContent content={content} />
           </div>
 
           {/* Tags */}
-          <div className="flex flex-wrap gap-2 mt-8 pt-8 border-t border-[var(--card-border)]">
+          <div className="flex flex-wrap gap-2 mt-8 pt-8 border-t border-[var(--muted-border)]">
             {post.tags.map((tag) => (
               <span
                 key={tag}
@@ -247,7 +181,7 @@ export default function BlogDetailClient({ post, locale, articleJsonLd, coverIma
               </a>
               <button
                 onClick={handleCopyLink}
-                className="inline-flex items-center gap-2 px-4 py-2 bg-[var(--card-bg)] text-[var(--foreground)] rounded-lg hover:bg-[var(--card-border)] transition text-sm font-medium"
+                className="inline-flex items-center gap-2 px-4 py-2 bg-[var(--muted-bg)] text-[var(--foreground)] rounded-lg hover:bg-[var(--muted-border)] transition text-sm font-medium"
               >
                 {copied ? <Check className="w-4 h-4 text-green-600 dark:text-green-400" /> : <Link2 className="w-4 h-4" />}
                 {copied ? t('linkCopied') : t('copyLink')}
@@ -267,7 +201,7 @@ export default function BlogDetailClient({ post, locale, articleJsonLd, coverIma
                   <Link
                     key={tool.slug}
                     href={`/tool/${tool.slug}`}
-                    className="flex items-center gap-3 p-3 bg-[var(--card-bg)] rounded-xl border border-[var(--card-border)] hover:border-[var(--primary)] hover:shadow-sm transition"
+                    className="flex items-center gap-3 p-3 bg-[var(--card-bg)] rounded-xl shadow-[var(--card-shadow)] hover:shadow-[var(--card-shadow-hover)] hover:-translate-y-0.5 transition-all duration-300"
                   >
                     <LogoTile
                                           logo={tool.logo}

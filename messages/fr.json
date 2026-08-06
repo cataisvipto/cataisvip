@@ -4,7 +4,7 @@
     "latestDesc": "Outils IA récemment ajoutés à l'écosystème Cataito",
     "featuredTitle": "Sélection de la rédaction",
     "featuredDesc": "Une sélection dans toutes les catégories d'IA",
-    "viewAll": "Voir tous les outils"
+    "viewAll": "Voir tout"
   },
   "featuredAgents": {
     "title": "Agents IA en vedette",
@@ -29,7 +29,8 @@
     "blog": "Blog",
     "submit": "Soumettre une Ressource",
     "searchPlaceholder": "Rechercher des ressources IA...",
-    "about": "À propos"
+    "about": "À propos",
+    "tutorials": "Tutoriels"
   },
   "hero": {
     "title": "Trouvez l'IA adaptée à <hl>chaque</hl> tâche.",
@@ -113,6 +114,7 @@
     "useCases": "Cas d'Utilisation",
     "pros": "Avantages",
     "cons": "Inconvénients",
+    "installation": "Installation",
     "latestUpdate": "Dernière Mise à Jour",
     "ourVerdict": "Notre Verdict",
     "verdictScore": "Note",
@@ -291,7 +293,7 @@
   "category": {
     "heading": "Meilleurs outils IA de {category}",
     "count": "{count} outils",
-    "viewAll": "Voir tous les outils"
+    "viewAll": "Voir tout"
   },
   "allTools": {
     "metaTitle": "Tous les outils IA - Parcourez {count} outils et ressources IA | Cataito",
@@ -324,8 +326,8 @@
       "listicle": "Listes",
       "tutorial": "Tutoriels",
       "analysis": "Analyse",
-            "guide": "Guides"
-          }
+      "guide": "Guides"
+    }
   },
   "skills": {
     "metaTitle": "Skills et Serveurs MCP pour Agents IA",
@@ -345,7 +347,7 @@
     "backToList": "Retour aux Skills",
     "notFound": "Skill Non Trouvée",
     "faqTitle": "Questions fréquentes",
-        "verdict": "Verdict Éditorial",
+    "verdict": "Verdict Éditorial",
     "useCases": "Cas d'Utilisation",
     "officialGuide": "Guide d'installation officiel du README (en anglais)",
     "starsLabel": "étoiles",
@@ -450,5 +452,26 @@
       "Image": "Image"
     },
     "faqTitle": "Questions fréquentes"
+  },
+  "tutorials": {
+    "title": "Tutoriels IA",
+    "subtitle": "Guides pas à pas pour maîtriser les outils, agents et flux de travail IA",
+    "readTime": "min de lecture",
+    "readTutorial": "Lire le tutoriel",
+    "backToList": "Retour aux tutoriels",
+    "relatedTutorials": "Tutoriels connexes",
+    "emptyTitle": "Tutoriels à venir",
+    "emptyDesc": "Nous préparons des tutoriels détaillés et illustrés. Revenez bientôt !",
+    "difficulties": {
+      "beginner": "Débutant",
+      "intermediate": "Intermédiaire",
+      "advanced": "Avancé"
+    },
+    "selectPlatform": "Votre système d'exploitation",
+    "platforms": {
+      "windows": "Windows",
+      "macos": "macOS",
+      "linux": "Linux"
+    }
   }
 }

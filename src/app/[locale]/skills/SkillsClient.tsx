@@ -8,6 +8,7 @@ import Breadcrumb from '@/components/Breadcrumb';
 import { Link } from '@/i18n/navigation';
 import Image from 'next/image';
 import { Star, GitFork, Code2 } from 'lucide-react';
+import ScrollReveal from '@/components/ScrollReveal';
 import type { FaqItem } from '@/components/FaqSection';
 
 export interface Skill {
@@ -90,25 +91,18 @@ export default function SkillsClient({ skills, locale }: SkillsClientProps) {
   return (
     <>
       <Header searchQuery={searchQuery} onSearchChange={setSearchQuery} locale={locale} />
-      <main className="flex-1 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <Breadcrumb
-          items={[
-            { name: tSkills('title') },
-          ]}
-          locale={locale}
-        />
+      <main className="flex-1 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-8 w-full">
+              <Breadcrumb
+                items={[
+                  { name: tSkills('title') },
+                ]}
+                locale={locale}
+              />
 
-        <div className="mb-8">
-          <div className="flex items-center gap-3 mb-2">
-            <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-indigo-500 to-cyan-500 flex items-center justify-center">
-              <Code2 className="w-5 h-5 text-white" />
-            </div>
-            <div>
-              <h1 className="text-2xl font-bold text-[var(--foreground)]">{tSkills('title')}</h1>
-              <p className="text-sm text-[var(--muted)]">{tSkills('subtitle')}</p>
-            </div>
-          </div>
-        </div>
+              <div className="mb-8">
+                <h1 className="text-3xl sm:text-4xl font-bold tracking-tight text-[var(--foreground)]">{tSkills('title')}</h1>
+                <p className="mt-1.5 text-[var(--muted)] text-sm">{tSkills('subtitle')}</p>
+              </div>
 
         {/* Agent Filter */}
         <div className="flex flex-wrap items-center gap-2 mb-4">
@@ -118,7 +112,7 @@ export default function SkillsClient({ skills, locale }: SkillsClientProps) {
             className={`px-3 py-1.5 rounded-full text-xs font-medium transition ${
               selectedAgent === 'all'
                 ? 'bg-[var(--primary)] text-white'
-                : 'bg-[var(--muted-bg)] text-[var(--muted)] hover:text-[var(--primary)] border border-[var(--card-border)]'
+                : 'bg-[var(--muted-bg)] text-[var(--muted)] hover:text-[var(--primary)] border border-[var(--muted-border)]'
             }`}
           >
             {tSkills('allAgents')}
@@ -130,7 +124,7 @@ export default function SkillsClient({ skills, locale }: SkillsClientProps) {
               className={`px-3 py-1.5 rounded-full text-xs font-medium transition capitalize ${
                 selectedAgent === agent
                   ? 'bg-[var(--primary)] text-white'
-                  : `${AGENT_COLORS[agent]} border border-[var(--card-border)] hover:opacity-80`
+                  : `${AGENT_COLORS[agent]} border border-[var(--muted-border)] hover:opacity-80`
               }`}
             >
               {agent}
@@ -146,7 +140,7 @@ export default function SkillsClient({ skills, locale }: SkillsClientProps) {
             className={`px-3 py-1.5 rounded-lg text-xs font-medium transition ${
               selectedCategory === 'all'
                 ? 'bg-[var(--primary)] text-white'
-                : 'bg-[var(--muted-bg)] text-[var(--muted)] hover:text-[var(--primary)] border border-[var(--card-border)]'
+                : 'bg-[var(--muted-bg)] text-[var(--muted)] hover:text-[var(--primary)] border border-[var(--muted-border)]'
             }`}
           >
             {tSkills('allCategories')}
@@ -158,7 +152,7 @@ export default function SkillsClient({ skills, locale }: SkillsClientProps) {
               className={`px-3 py-1.5 rounded-lg text-xs font-medium transition ${
                 selectedCategory === cat
                   ? 'bg-[var(--primary)] text-white'
-                  : 'bg-[var(--muted-bg)] text-[var(--muted)] hover:text-[var(--primary)] border border-[var(--card-border)]'
+                  : 'bg-[var(--muted-bg)] text-[var(--muted)] hover:text-[var(--primary)] border border-[var(--muted-border)]'
               }`}
             >
               {tSkills(`categories.${cat}`)}
@@ -167,17 +161,17 @@ export default function SkillsClient({ skills, locale }: SkillsClientProps) {
         </div>
 
         {/* Results Count */}
-        <p className="text-sm text-[var(--muted)] mb-4">
-          {tSkills('resultsCount', { count: filtered.length })}
-        </p>
+        <p className="text-sm text-[var(--muted)] mb-8">
+                  {tSkills('resultsCount', { count: filtered.length })}
+                </p>
 
         {/* Skills Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-          {filtered.map((skill) => (
+        <ScrollReveal><div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+                  {filtered.map((skill) => (
             <Link
               key={skill.slug}
               href={`/skills/${skill.slug}`}
-              className="group relative bg-[var(--card-bg)] rounded-2xl border border-[var(--card-border)] p-5 hover:shadow-lg hover:border-[var(--primary)] transition-all duration-300 flex flex-col"
+              className="group relative bg-[var(--card-bg)] rounded-xl shadow-[var(--card-shadow)] hover:shadow-[var(--card-shadow-hover)] hover:-translate-y-0.5 transition-all duration-300 p-5 flex flex-col"
             >
               {/* Featured badge */}
               {skill.featured && (
@@ -187,19 +181,19 @@ export default function SkillsClient({ skills, locale }: SkillsClientProps) {
               )}
 
               {/* Header */}
-              <div className="flex items-start gap-3 mb-3">
-                <div className="w-12 h-12 rounded-xl bg-[var(--logo-tile-bg)] border border-[var(--card-border)] flex items-center justify-center overflow-hidden shrink-0 shadow-sm">
-                  <Image
-                    src={skill.logo}
-                    alt={displayName(skill)}
-                    width={32}
-                    height={32}
-                    className="w-8 h-8 object-contain"
-                    unoptimized
-                  />
-                </div>
-                <div className="min-w-0 flex-1">
-                  <h3 className="font-semibold text-[var(--foreground)] truncate group-hover:text-[var(--primary)] transition">
+              <div className="flex items-start gap-3 mb-3 group/header">
+                              <div className="w-12 h-12 rounded-xl bg-[var(--logo-tile-bg)] flex items-center justify-center overflow-hidden shrink-0 shadow-sm">
+                                <Image
+                                  src={skill.logo}
+                                  alt={displayName(skill)}
+                                  width={32}
+                                  height={32}
+                                  className="w-8 h-8 object-contain"
+                                  unoptimized
+                                />
+                              </div>
+                              <div className="min-w-0 flex-1">
+                                <h3 className="font-semibold text-[var(--foreground)] truncate group-hover/header:text-[var(--primary)] transition">
                     {displayName(skill)}
                   </h3>
                   <span className="text-xs text-[var(--muted)]">{tSkills(`categories.${skill.category}`)}</span>
@@ -207,7 +201,7 @@ export default function SkillsClient({ skills, locale }: SkillsClientProps) {
               </div>
 
               {/* Description */}
-              <p className="text-sm text-[var(--muted)] leading-relaxed mb-3 flex-1 line-clamp-3">
+              <p className="text-sm text-[var(--muted)] leading-relaxed mb-3 flex-1 line-clamp-3 hover:text-[var(--foreground)] transition">
                 {getLocalizedSkillDescription(skill, locale)}
               </p>
 
@@ -248,9 +242,9 @@ export default function SkillsClient({ skills, locale }: SkillsClientProps) {
               </div>
             </Link>
           ))}
-        </div>
+        </div></ScrollReveal>
 
-        {/* Empty state */}
+                {/* Empty state */}
         {filtered.length === 0 && (
           <div className="text-center py-16">
             <Code2 className="w-12 h-12 text-[var(--muted)] mx-auto mb-4 opacity-50" />

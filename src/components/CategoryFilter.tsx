@@ -15,10 +15,10 @@ export default function CategoryFilter({ activeCategory, onCategoryChange }: Cat
     <div className="flex flex-wrap gap-2 justify-center">
       <button
         onClick={() => onCategoryChange('all')}
-        className={`px-4 py-2 rounded-full text-sm font-medium transition ${
+        className={`px-4 py-1.5 rounded-full text-sm font-medium transition ${
           activeCategory === 'all'
-            ? 'bg-indigo-600 text-white shadow-md'
-            : 'bg-[var(--muted-bg)] text-[var(--muted)] hover:bg-[var(--card-border)]'
+            ? 'bg-[var(--foreground)] text-[var(--background)]'
+            : 'bg-[var(--muted-bg)] text-[var(--muted)] hover:bg-[var(--muted-border)] hover:text-[var(--foreground)]'
         }`}
       >
         {t('all')}
@@ -27,10 +27,10 @@ export default function CategoryFilter({ activeCategory, onCategoryChange }: Cat
         <button
           key={cat}
           onClick={() => onCategoryChange(cat)}
-          className={`px-4 py-2 rounded-full text-sm font-medium transition ${
+          className={`px-4 py-1.5 rounded-full text-sm font-medium transition ${
             activeCategory === cat
-              ? 'bg-indigo-600 text-white shadow-md'
-              : 'bg-[var(--muted-bg)] text-[var(--muted)] hover:bg-[var(--card-border)]'
+              ? 'bg-[var(--foreground)] text-[var(--background)]'
+              : 'bg-[var(--muted-bg)] text-[var(--muted)] hover:bg-[var(--muted-border)] hover:text-[var(--foreground)]'
           }`}
         >
           {t(cat as any)}

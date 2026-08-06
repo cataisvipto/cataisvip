@@ -55,7 +55,7 @@ export default function LogoTile({
 
   return (
     <div
-      className={`${className} bg-[var(--logo-tile-bg)] border border-[var(--card-border)] flex items-center justify-center overflow-hidden shrink-0 shadow-sm`}
+      className={`${className} bg-[var(--logo-tile-bg)] border border-[var(--muted-border)] flex items-center justify-center overflow-hidden shrink-0 shadow-sm`}
     >
       {error ? (
         <span className={`${fallbackClassName} font-bold text-[var(--primary)] select-none`}>

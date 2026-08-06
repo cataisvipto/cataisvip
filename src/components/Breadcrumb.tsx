@@ -49,7 +49,7 @@ export default function Breadcrumb({ items, locale }: BreadcrumbProps) {
           </li>
           {items.map((item, index) => (
             <li key={index} className="flex items-center gap-1.5">
-              <ChevronRight className="w-3.5 h-3.5 text-[var(--card-border)]" />
+              <ChevronRight className="w-3.5 h-3.5 text-[var(--muted-border)]" />
               {item.href ? (
                 <Link
                   href={item.href}

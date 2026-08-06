@@ -91,7 +91,7 @@ function parseInstallSection(markdown: string, copyLabel: string): string | null
   const renderCodeBlock = () => {
     const escapedCode = escapeHtml(codeContent.trimEnd());
     const langLabel = codeLang || 'text';
-    html += `<div class="code-block-wrapper group relative my-3 rounded-lg overflow-hidden border border-[var(--card-border)]">` +
+    html += `<div class="code-block-wrapper group relative my-3 rounded-lg overflow-hidden border border-[var(--muted-border)]">` +
       `<div class="code-block-header flex items-center justify-between px-4 py-1.5 text-xs border-b border-white/5">` +
       `<span class="font-mono">${escapeHtml(langLabel)}</span>` +
       `<button type="button" class="copy-code-btn flex items-center gap-1 opacity-0 group-hover:opacity-100 transition-opacity">` +
