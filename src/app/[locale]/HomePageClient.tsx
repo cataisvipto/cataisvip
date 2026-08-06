@@ -23,6 +23,7 @@ export default function HomePageClient() {
   const t = useTranslations('home');
   const tCategories = useTranslations('categories');
   const tNav = useTranslations('nav');
+  const tCommon = useTranslations('common');
   const [searchQuery, setSearchQuery] = useState('');
   const allTools = tools as Tool[];
 
@@ -131,24 +132,24 @@ export default function HomePageClient() {
 
         <FeaturedAgents />
 
-                {/* Resources navigation — 正文内链，帮助 Google 发现 Skills/MCP/分类等页面 */}
+                {/* Resources navigation — 正文内链，帮助 Google 发现 Skills/MCP/分类等页面（按内容规模+核心度排序） */}
                 <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
                   <div className="flex flex-wrap justify-center gap-2 sm:gap-4">
-                    <Link href="/skills" className="inline-flex items-center gap-1.5 px-4 py-2 rounded-full text-sm font-medium text-white bg-[var(--primary)] hover:bg-[var(--primary-hover)] transition shadow-sm">
-                                          {tNav('skills')}
-                                        </Link>
-                                        <Link href="/mcp" className="inline-flex items-center gap-1.5 px-4 py-2 rounded-full text-sm font-medium text-[var(--foreground)] bg-[var(--card-bg)] shadow-[var(--card-shadow)] hover:shadow-[var(--card-shadow-hover)] hover:-translate-y-0.5 transition-all duration-300">
-                                          MCP
-                                        </Link>
-                                        <Link href="/ranking" className="inline-flex items-center gap-1.5 px-4 py-2 rounded-full text-sm font-medium text-[var(--foreground)] bg-[var(--card-bg)] shadow-[var(--card-shadow)] hover:shadow-[var(--card-shadow-hover)] hover:-translate-y-0.5 transition-all duration-300">
-                                          {tNav('ranking')}
-                                        </Link>
-                                        <Link href="/tutorials" className="inline-flex items-center gap-1.5 px-4 py-2 rounded-full text-sm font-medium text-[var(--foreground)] bg-[var(--card-bg)] shadow-[var(--card-shadow)] hover:shadow-[var(--card-shadow-hover)] hover:-translate-y-0.5 transition-all duration-300">
-                                          {tNav('tutorials')}
-                                        </Link>
-                                        <Link href="/tools" className="inline-flex items-center gap-1.5 px-4 py-2 rounded-full text-sm font-medium text-[var(--foreground)] bg-[var(--card-bg)] shadow-[var(--card-shadow)] hover:shadow-[var(--card-shadow-hover)] hover:-translate-y-0.5 transition-all duration-300">
-                                          All Tools
-                                        </Link>
+                    <Link href="/tools" className="inline-flex items-center gap-1.5 px-4 py-2 rounded-full text-sm font-medium text-white bg-[var(--primary)] hover:bg-[var(--primary-hover)] transition shadow-sm">
+                      {tCommon('allTools')}
+                    </Link>
+                    <Link href="/mcp" className="inline-flex items-center gap-1.5 px-4 py-2 rounded-full text-sm font-medium text-[var(--foreground)] bg-[var(--card-bg)] shadow-[var(--card-shadow)] hover:shadow-[var(--card-shadow-hover)] hover:-translate-y-0.5 transition-all duration-300">
+                      {tNav('mcp')}
+                    </Link>
+                    <Link href="/skills" className="inline-flex items-center gap-1.5 px-4 py-2 rounded-full text-sm font-medium text-[var(--foreground)] bg-[var(--card-bg)] shadow-[var(--card-shadow)] hover:shadow-[var(--card-shadow-hover)] hover:-translate-y-0.5 transition-all duration-300">
+                      {tNav('skills')}
+                    </Link>
+                    <Link href="/tutorials" className="inline-flex items-center gap-1.5 px-4 py-2 rounded-full text-sm font-medium text-[var(--foreground)] bg-[var(--card-bg)] shadow-[var(--card-shadow)] hover:shadow-[var(--card-shadow-hover)] hover:-translate-y-0.5 transition-all duration-300">
+                      {tNav('tutorials')}
+                    </Link>
+                    <Link href="/ranking" className="inline-flex items-center gap-1.5 px-4 py-2 rounded-full text-sm font-medium text-[var(--foreground)] bg-[var(--card-bg)] shadow-[var(--card-shadow)] hover:shadow-[var(--card-shadow-hover)] hover:-translate-y-0.5 transition-all duration-300">
+                      {tNav('ranking')}
+                    </Link>
                   </div>
                   <div className="mt-6 flex flex-wrap justify-center gap-2">
                     {CATEGORIES.slice(0, 8).map((cat) => (
