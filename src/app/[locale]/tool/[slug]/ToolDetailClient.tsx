@@ -151,30 +151,9 @@ export default function ToolDetailClient({ tool, locale, details: detailsProp, s
     setTimeout(() => setCopiedIndex(null), 2000);
   };
 
-  // JSON-LD structured data for SEO
-  const jsonLd = {
-    '@context': 'https://schema.org',
-    '@type': 'SoftwareApplication',
-    name: displayName,
-    applicationCategory: tCategories(tool.category),
-    operatingSystem: 'Web',
-    url: tool.url,
-    image: tool.logo,
-    description: description,
-    offers: {
-      '@type': 'Offer',
-      price: tool.tags.includes('Free') ? '0' : tool.tags.includes('Paid') ? '' : '0',
-      priceCurrency: 'USD',
-    },
-  };
-
   return (
-    <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
-      <Header searchQuery={searchQuery} onSearchChange={setSearchQuery} locale={locale} />
+      <>
+        <Header searchQuery={searchQuery} onSearchChange={setSearchQuery} locale={locale} />
       <main className="flex-1 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         {/* Breadcrumb */}
         <Breadcrumb

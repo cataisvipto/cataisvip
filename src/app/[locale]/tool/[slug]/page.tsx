@@ -8,7 +8,7 @@ import tutorials from '@/data/tutorials.json';
 import { Tool } from '@/components/ToolCard';
 import ToolDetailClient from './ToolDetailClient';
 import { routing } from '@/i18n/routing';
-import { generateAlternates, getToolSeoTitle } from '@/lib/seo';
+import { generateAlternates, getToolSeoTitle, getToolMetaDescription, generateSoftwareAppJsonLd } from '@/lib/seo';
 
 interface Props {
   params: Promise<{ locale: string; slug: string }>;
@@ -47,10 +47,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const tCategories = await getTranslations({ locale, namespace: 'categories' });
   const categoryLabel = tCategories(tool.category);
   const title = getToolSeoTitle(locale, displayName, categoryLabel);
+  // 优化版 Meta Description（含 CTA，比裸用 description 更吸引点击）
+  const metaDescription = getToolMetaDescription(locale, displayName, categoryLabel, description);
 
   return {
     title,
-    description: description,
+    description: metaDescription,
     alternates: generateAlternates(`/tool/${slug}`, locale),
     openGraph: {
       title: `${displayName} - Cataito`,
@@ -118,15 +120,54 @@ export default async function ToolDetailPage({ params }: Props) {
       readTime: tut.readTime,
     }));
 
+  // 服务端 JSON-LD（Googlebot 可靠读取）
+  const displayName = locale === 'zh' && tool.nameZh ? tool.nameZh : tool.name;
+  const tCategories = await getTranslations({ locale, namespace: 'categories' });
+  const categoryLabel = tCategories(tool.category);
+  const description = (() => {
+    switch (locale) {
+      case 'zh': return tool.description;
+      case 'ja': return tool.descriptionJa || tool.descriptionEn;
+      case 'es': return tool.descriptionEs || tool.descriptionEn;
+      case 'fr': return tool.descriptionFr || tool.descriptionEn;
+      default: return tool.descriptionEn;
+    }
+  })();
+  const osList = tool.platforms
+    ? Object.entries(tool.platforms)
+        .filter(([, v]) => v === true)
+        .map(([k]) => k === 'web' ? 'Web' : k === 'mac' ? 'macOS' : k === 'win' ? 'Windows' : k === 'linux' ? 'Linux' : k === 'ios' ? 'iOS' : k === 'android' ? 'Android' : k)
+        .join(', ') || 'Web'
+    : 'Web';
+  const toolJsonLd = generateSoftwareAppJsonLd({
+    name: displayName,
+    description,
+    image: tool.logo,
+    url: tool.url,
+    developer: tool.developer || 'Cataito',
+    applicationCategory: categoryLabel,
+    operatingSystem: osList,
+    offers: {
+      price: tool.tags.includes('Free') ? '0' : tool.tags.includes('Paid') ? '' : '0',
+      priceCurrency: 'USD',
+    },
+  });
+
   return (
-    <ToolDetailClient
-      tool={tool as Tool}
-      locale={locale}
-      details={details}
-      sameMaker={sameMaker as Tool[]}
-      relatedTools={relatedTools as Tool[]}
-      relatedPosts={relatedPosts}
-      relatedTutorials={relatedTutorials}
-    />
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(toolJsonLd) }}
+      />
+      <ToolDetailClient
+        tool={tool as Tool}
+        locale={locale}
+        details={details}
+        sameMaker={sameMaker as Tool[]}
+        relatedTools={relatedTools as Tool[]}
+        relatedPosts={relatedPosts}
+        relatedTutorials={relatedTutorials}
+      />
+    </>
   );
 }

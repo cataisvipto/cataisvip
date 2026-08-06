@@ -36,7 +36,8 @@ export function generateAlternates(path: string, currentLocale: string) {
 }
 
 /**
- * 工具详情页本地化 SEO 标题（含长尾关键词：功能/价格/评测）
+ * 工具详情页本地化 SEO 标题（含长尾关键词：Best/年份/功能/价格/评测）
+ * 加 "Best" + 年份前缀，提升搜索 SERP 点击率
  */
 export function getToolSeoTitle(
   locale: string,
@@ -44,11 +45,35 @@ export function getToolSeoTitle(
   categoryLabel: string
 ): string {
   const map: Record<string, string> = {
-    en: `${name}: ${categoryLabel} AI Tool — Features, Pricing & Review | Cataito`,
-    zh: `${name}：${categoryLabel} AI 工具 — 功能、价格与评测 | Cataito`,
-    ja: `${name}：${categoryLabel} AIツール — 機能・料金・レビュー | Cataito`,
-    es: `${name}: herramienta de IA de ${categoryLabel} — funciones, precios y opiniones | Cataito`,
-    fr: `${name} : outil IA ${categoryLabel} — fonctionnalités, tarifs et avis | Cataito`,
+    en: `Best ${name} ${categoryLabel} AI Tool in 2026 — Features, Pricing & Review | Cataito`,
+    zh: `2026年最佳${name}：${categoryLabel} AI 工具 — 功能、价格与评测 | Cataito`,
+    ja: `2026年ベスト${name}：${categoryLabel} AIツール — 機能・料金・レビュー | Cataito`,
+    es: `Mejor ${name}: herramienta de IA de ${categoryLabel} en 2026 — funciones, precios y opiniones | Cataito`,
+    fr: `Meilleur ${name} : outil IA ${categoryLabel} en 2026 — fonctionnalités, tarifs et avis | Cataito`,
+  };
+  return map[locale] || map.en;
+}
+
+/**
+ * 工具详情页本地化 Meta Description（150-160 字符，含 CTA）
+ * 比裸用 description 更吸引点击
+ */
+export function getToolMetaDescription(
+  locale: string,
+  name: string,
+  categoryLabel: string,
+  rawDescription: string
+): string {
+  // 截断 rawDescription 到合适长度，避免溢出
+  const maxLen = 80;
+  const truncated = rawDescription.slice(0, maxLen).replace(/[.。!！?？…]+$/, '');
+
+  const map: Record<string, string> = {
+    en: `${name} is a ${categoryLabel} AI tool. ${truncated}. Compare features, pricing, pros/cons and use cases. Find the best AI tool for your needs.`,
+    zh: `${name} 是一款 ${categoryLabel} AI 工具。${truncated}。对比功能、价格、优缺点和使用案例，找到最适合你的 AI 工具。`,
+    ja: `${name}は${categoryLabel} AIツールです。${truncated}。機能・料金・メリット・デメリットを比較し、最適なAIツールを見つけましょう。`,
+    es: `${name} es una herramienta de IA de ${categoryLabel}. ${truncated}. Compare funciones, precios, pros/contra y casos de uso. Encuentre la mejor herramienta de IA.`,
+    fr: `${name} est un outil IA ${categoryLabel}. ${truncated}. Comparez fonctionnalités, tarifs, avantages/inconvénients et cas d'utilisation. Trouvez le meilleur outil IA.`,
   };
   return map[locale] || map.en;
 }
@@ -193,6 +218,35 @@ export function generateBreadcrumbJsonLd(
       name: item.name,
       ...(item.url ? { item: item.url } : {}),
     })),
+  };
+}
+
+/**
+ * 生成 SoftwareApplication JSON-LD（工具详情页用 — Google 商品富摘要）
+ * 含 operatingSystem、author、publisher、offers 等完整字段
+ */
+export function generateSoftwareAppJsonLd(params: {
+  name: string;
+  description: string;
+  image: string;
+  url: string;
+  developer: string;
+  applicationCategory: string;
+  operatingSystem: string;
+  offers: { price: string; priceCurrency: string };
+}) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'SoftwareApplication',
+    name: params.name,
+    description: params.description,
+    image: params.image,
+    url: params.url,
+    applicationCategory: params.applicationCategory,
+    operatingSystem: params.operatingSystem,
+    author: { '@type': 'Organization', name: params.developer || 'Cataito' },
+    publisher: { '@type': 'Organization', name: 'Cataito', url: 'https://cataito.com' },
+    offers: { '@type': 'Offer', ...params.offers, url: params.url },
   };
 }
 
