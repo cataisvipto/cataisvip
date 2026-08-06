@@ -173,10 +173,10 @@ export default function HomePageClient() {
                   </div>
                 </section>
 
-                <BlogHighlights />
-
                 {/* Tutorials content grid — 教程内容网格（最新 3 篇，无教程时自动隐藏） */}
                 <TutorialHighlights />
+
+                <BlogHighlights />
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
           <Newsletter />
         </div>
