@@ -2244,7 +2244,7 @@
     "descriptionEs": "App de escritorio de agente de codificación IA de OpenAI (macOS), con colaboración paralela multiagente, generación de código, gestión de PR, revisión de código, también disponible como CLI",
     "descriptionFr": "Application de bureau d'agent de codage IA d'OpenAI (macOS), avec collaboration multi-agent parallèle, génération de code, gestion de PR, revue de code, également disponible en CLI",
     "url": "https://chatgpt.com/codex/",
-    "logo": "/logos/tools/codex.png",
+    "logo": "/logos/tools/codex.svg",
     "category": "Code",
     "tags": [
       "Paid"
@@ -2260,7 +2260,8 @@
       "linux": true,
       "browser_extension": false,
       "api": true
-    }
+    },
+    "logoDark": "/logos/tools/codex-white.svg"
   },
   {
     "slug": "qoder",
