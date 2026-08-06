@@ -15,10 +15,13 @@ import Footer from '@/components/Footer';
 import LogoTile from '@/components/LogoTile';
 import tools from '@/data/tools.json';
 import { Tool, getLocalizedDescription } from '@/components/ToolCard';
+import { CATEGORIES, categoryToSlug } from '@/lib/categories';
 
 export default function HomePageClient() {
   const locale = useLocale();
   const t = useTranslations('home');
+  const tCategories = useTranslations('categories');
+  const tNav = useTranslations('nav');
   const [searchQuery, setSearchQuery] = useState('');
   const allTools = tools as Tool[];
 
@@ -126,7 +129,50 @@ export default function HomePageClient() {
         </div>
 
         <FeaturedAgents />
-        <BlogHighlights />
+
+                {/* Resources navigation — 正文内链，帮助 Google 发现 Skills/MCP/分类等页面 */}
+                <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+                  <div className="flex flex-wrap justify-center gap-2 sm:gap-4">
+                    <Link href="/skills" className="inline-flex items-center gap-1.5 px-4 py-2 rounded-full text-sm font-medium text-white bg-[var(--primary)] hover:bg-[var(--primary-hover)] transition shadow-sm">
+                                          {tNav('skills')}
+                                        </Link>
+                                        <Link href="/mcp" className="inline-flex items-center gap-1.5 px-4 py-2 rounded-full text-sm font-medium text-[var(--foreground)] bg-[var(--card-bg)] shadow-[var(--card-shadow)] hover:shadow-[var(--card-shadow-hover)] hover:-translate-y-0.5 transition-all duration-300">
+                                          MCP
+                                        </Link>
+                                        <Link href="/ranking" className="inline-flex items-center gap-1.5 px-4 py-2 rounded-full text-sm font-medium text-[var(--foreground)] bg-[var(--card-bg)] shadow-[var(--card-shadow)] hover:shadow-[var(--card-shadow-hover)] hover:-translate-y-0.5 transition-all duration-300">
+                                          {tNav('ranking')}
+                                        </Link>
+                                        <Link href="/tutorials" className="inline-flex items-center gap-1.5 px-4 py-2 rounded-full text-sm font-medium text-[var(--foreground)] bg-[var(--card-bg)] shadow-[var(--card-shadow)] hover:shadow-[var(--card-shadow-hover)] hover:-translate-y-0.5 transition-all duration-300">
+                                          {tNav('tutorials')}
+                                        </Link>
+                                        <Link href="/tools" className="inline-flex items-center gap-1.5 px-4 py-2 rounded-full text-sm font-medium text-[var(--foreground)] bg-[var(--card-bg)] shadow-[var(--card-shadow)] hover:shadow-[var(--card-shadow-hover)] hover:-translate-y-0.5 transition-all duration-300">
+                                          All Tools
+                                        </Link>
+                  </div>
+                  <div className="mt-6 flex flex-wrap justify-center gap-2">
+                    {CATEGORIES.slice(0, 8).map((cat) => (
+                      <Link
+                        key={cat}
+                        href={`/category/${categoryToSlug(cat)}`}
+                        className="text-xs text-[var(--muted)] hover:text-[var(--primary)] transition px-2 py-1"
+                      >
+                        {tCategories(cat as any)}
+                      </Link>
+                    ))}
+                    <span className="text-xs text-[var(--muted)] px-1">·</span>
+                    {CATEGORIES.slice(8).map((cat) => (
+                      <Link
+                        key={cat}
+                        href={`/category/${categoryToSlug(cat)}`}
+                        className="text-xs text-[var(--muted)] hover:text-[var(--primary)] transition px-2 py-1"
+                      >
+                        {tCategories(cat as any)}
+                      </Link>
+                    ))}
+                  </div>
+                </section>
+
+                <BlogHighlights />
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
           <Newsletter />
         </div>
