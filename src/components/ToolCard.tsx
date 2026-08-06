@@ -62,9 +62,10 @@ interface ToolCardProps {
   tool: Tool;
   locale: string;
   hideVisitButton?: boolean;
+  hideFeaturedBadge?: boolean;
 }
 
-export default function ToolCard({ tool, locale, hideVisitButton }: ToolCardProps) {
+export default function ToolCard({ tool, locale, hideVisitButton, hideFeaturedBadge }: ToolCardProps) {
   const t = useTranslations('common');
   const tTags = useTranslations('tags');
   const tCategories = useTranslations('categories');
@@ -74,7 +75,7 @@ export default function ToolCard({ tool, locale, hideVisitButton }: ToolCardProp
   return (
     <article className="group relative bg-[var(--card-bg)] rounded-xl shadow-[var(--card-shadow)] hover:shadow-[var(--card-shadow-hover)] hover:-translate-y-0.5 transition-all duration-300 p-5 flex flex-col">
       {/* Featured badge */}
-      {tool.featured && (
+      {tool.featured && !hideFeaturedBadge && (
         <div className="absolute -top-1.5 -right-1.5 w-6 h-6 bg-[var(--primary)] rounded-full flex items-center justify-center shadow-sm z-10">
           <Star className="w-3 h-3 text-white fill-white" />
         </div>
