@@ -198,12 +198,13 @@ export default async function SkillDetailPage({ params }: Props) {
   const relatedTutorials = tutorials
     .filter((tut: any) => (tut.related?.skills || []).includes(slug))
     .map((tut: any) => ({
-      slug: tut.slug,
-      title: tut.title,
-      excerpt: tut.excerpt,
-      difficulty: tut.difficulty,
-      readTime: tut.readTime,
-    }));
+          slug: tut.slug,
+          title: tut.title,
+          excerpt: tut.excerpt,
+          difficulty: tut.difficulty,
+          readTime: tut.readTime,
+          coverImage: tut.coverImage,
+        }));
 
   return (
       <SkillDetailClient

@@ -26,6 +26,7 @@ interface RelatedTutorial {
   excerpt: Record<string, string>;
   difficulty: string;
   readTime: number;
+  coverImage?: string;
 }
 
 interface ToolDetailClientProps {
@@ -634,27 +635,41 @@ export default function ToolDetailClient({ tool, locale, details: detailsProp, s
               </h2>
               <div className="space-y-4">
                 {relatedTutorials.map((tut) => (
-                  <Link
-                    key={tut.slug}
-                    href={`/tutorials/${tut.slug}`}
-                    className="block p-4 rounded-xl bg-[var(--card-bg)] shadow-[var(--card-shadow)] hover:shadow-[var(--card-shadow-hover)] hover:-translate-y-0.5 transition-all duration-300"
-                  >
-                    <div className="flex items-center gap-3 mb-1">
-                      <span className="text-xs font-medium text-[var(--primary)] capitalize">
-                        {tTutorials(`difficulties.${tut.difficulty}`)}
-                      </span>
-                      <span className="text-xs text-[var(--muted)]">
-                        {tut.readTime} {tTutorials('readTime')}
-                      </span>
-                    </div>
-                    <h3 className="font-medium text-[var(--foreground)] mb-1">
-                      {getLocalized(tut.title, locale) as string}
-                    </h3>
-                    <p className="text-sm text-[var(--muted)] line-clamp-2">
-                      {getLocalized(tut.excerpt, locale) as string}
-                    </p>
-                  </Link>
-                ))}
+                                  <Link
+                                    key={tut.slug}
+                                    href={`/tutorials/${tut.slug}`}
+                                    className="block p-4 rounded-xl bg-[var(--card-bg)] shadow-[var(--card-shadow)] hover:shadow-[var(--card-shadow-hover)] hover:-translate-y-0.5 transition-all duration-300"
+                                  >
+                                    <div className="flex gap-4">
+                                      {tut.coverImage && (
+                                        <div className="flex-shrink-0 w-24 h-16 rounded-lg overflow-hidden bg-[var(--card-bg)]">
+                                          <img
+                                            src={tut.coverImage}
+                                            alt=""
+                                            className="w-full h-full object-contain"
+                                            loading="lazy"
+                                          />
+                                        </div>
+                                      )}
+                                      <div className="flex-1 min-w-0">
+                                        <div className="flex items-center gap-3 mb-1">
+                                          <span className="text-xs font-medium text-[var(--primary)] capitalize">
+                                            {tTutorials(`difficulties.${tut.difficulty}`)}
+                                          </span>
+                                          <span className="text-xs text-[var(--muted)]">
+                                            {tut.readTime} {tTutorials('readTime')}
+                                          </span>
+                                        </div>
+                                        <h3 className="font-medium text-[var(--foreground)] mb-1">
+                                          {getLocalized(tut.title, locale) as string}
+                                        </h3>
+                                        <p className="text-sm text-[var(--muted)] line-clamp-2">
+                                          {getLocalized(tut.excerpt, locale) as string}
+                                        </p>
+                                      </div>
+                                    </div>
+                                  </Link>
+                                ))}
               </div>
             </div>
           )}

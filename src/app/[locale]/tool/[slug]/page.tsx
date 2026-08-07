@@ -113,12 +113,13 @@ export default async function ToolDetailPage({ params }: Props) {
   const relatedTutorials = tutorials
     .filter((tut: any) => (tut.related?.tools || []).includes(tool.slug))
     .map((tut: any) => ({
-      slug: tut.slug,
-      title: tut.title,
-      excerpt: tut.excerpt,
-      difficulty: tut.difficulty,
-      readTime: tut.readTime,
-    }));
+          slug: tut.slug,
+          title: tut.title,
+          excerpt: tut.excerpt,
+          difficulty: tut.difficulty,
+          readTime: tut.readTime,
+          coverImage: tut.coverImage,
+        }));
 
   // 服务端 JSON-LD（Googlebot 可靠读取）
   const displayName = locale === 'zh' && tool.nameZh ? tool.nameZh : tool.name;
