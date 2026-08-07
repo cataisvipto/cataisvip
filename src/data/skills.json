@@ -2713,5 +2713,93 @@
         }
       }
     ]
+  },
+  {
+    "slug": "agency-agents",
+    "name": "Agency Agents",
+    "nameZh": "Agency Agents",
+    "description": "一个「指尖上的完整 AI 机构」：230+ 个高专业性、带人设与流程的 AI 智能体人格库，可一键安装到 Claude Code、Cursor、Codex、Gemini CLI 等主流编码工具。",
+    "descriptionEn": "A complete AI agency at your fingertips: 230+ highly specialized AI agent personas with personality, processes and proven deliverables, installable into Claude Code, Cursor, Codex, Gemini CLI and more.",
+    "descriptionJa": "指先で使える完全なAIエージェンシー：専門性の高い230以上のAIエージェント・ペルソナ集。Claude Code、Cursor、Codex、Gemini CLIなど主要コーディングツールにワンクリックで導入可能。",
+    "descriptionEs": "Una agencia de IA completa al alcance de tu mano: más de 230 personas de agentes de IA altamente especializadas, instalables en Claude Code, Cursor, Codex, Gemini CLI y más.",
+    "descriptionFr": "Une agence IA complète au bout des doigts : plus de 230 personas d'agents IA hautement spécialisés, installables dans Claude Code, Cursor, Codex, Gemini CLI et plus encore.",
+    "developer": "Michael Sitarzewski",
+    "developerZh": "Michael Sitarzewski",
+    "repo": "msitarzewski/agency-agents",
+    "agents": [
+      "claude",
+      "cursor",
+      "codex",
+      "gemini-cli",
+      "opencode",
+      "openclaw",
+      "github-copilot",
+      "antigravity",
+      "aider",
+      "windsurf",
+      "qwen",
+      "kimi-code",
+      "osaurus",
+      "hermes"
+    ],
+    "category": "Developer",
+    "tags": [
+      "Free",
+      "Open Source"
+    ],
+    "installCommand": "Download the app at agencyagents.app (macOS/Linux/Windows) or run ./scripts/install.sh --tool <tool> from the repo.",
+    "logo": "/logos/skills/agency-agents.png",
+    "stars": 138999,
+    "featured": false,
+    "faqs": [
+      {
+        "question": {
+          "zh": "Agency Agents 是什么？",
+          "en": "What is Agency Agents?",
+          "ja": "Agency Agents とは何ですか？",
+          "es": "¿Qué es Agency Agents?",
+          "fr": "Qu'est-ce qu'Agency Agents ?"
+        },
+        "answer": {
+          "zh": "它是一个开源 AI 智能体人格库（The Agency），收录 230+ 个高度专业化的 agent 角色：从前端工程师、UI 设计师到 Reddit 运营、营销专家、安全审计师，每个 agent 都有独立人设、工作流程和可交付成果。配套的 Agency Agents 桌面 App（Tauri 构建，本地优先、无遥测）可浏览全量名单并一键安装到 Claude Code、Cursor、Codex、Gemini CLI、OpenCode、Copilot 等工具。",
+          "en": "It is an open-source AI agent persona library (The Agency) with 230+ highly specialized agent roles: from frontend engineers and UI designers to Reddit community managers, marketing specialists and security auditors — each with its own personality, workflows and deliverables. The companion Agency Agents desktop app (built with Tauri, local-first, no telemetry) lets you browse the full roster and install agents into Claude Code, Cursor, Codex, Gemini CLI, OpenCode, Copilot and more with one click.",
+          "ja": "オープンソースのAIエージェント・ペルソナライブラリ（The Agency）です。フロントエンドエンジニア、UIデザイナーからReddit運営、マーケティング専門家、セキュリティ監査人まで230以上の高度に専門化されたエージェントを収録。各エージェントは独自の人格、ワークフロー、成果物を持ちます。付属のAgency Agentsデスクトップアプリ（Tauri製、ローカルファースト、テレメトリなし）で全リストを閲覧し、Claude Code、Cursor、Codex、Gemini CLI、OpenCode、Copilotなどにワンクリックで導入できます。",
+          "es": "Es una biblioteca de código abierto de personas de agentes de IA (The Agency) con más de 230 roles altamente especializados: desde ingenieros frontend y diseñadores de UI hasta gestores de comunidades de Reddit, especialistas en marketing y auditores de seguridad — cada uno con personalidad, flujos de trabajo y entregables propios. La app de escritorio Agency Agents (hecha con Tauri, local-first, sin telemetría) permite explorar todo el catálogo e instalar agentes en Claude Code, Cursor, Codex, Gemini CLI, OpenCode, Copilot y más con un clic.",
+          "fr": "C'est une bibliothèque open source de personas d'agents IA (The Agency) avec plus de 230 rôles hautement spécialisés : des ingénieurs frontend et designers UI aux gestionnaires de communautés Reddit, spécialistes marketing et auditeurs sécurité — chacun avec sa propre personnalité, ses workflows et ses livrables. L'application de bureau Agency Agents (construite avec Tauri, local-first, sans télémétrie) permet de parcourir tout le catalogue et d'installer des agents dans Claude Code, Cursor, Codex, Gemini CLI, OpenCode, Copilot et plus en un clic."
+        }
+      },
+      {
+        "question": {
+          "zh": "怎么安装和使用 Agency Agents？",
+          "en": "How do I install and use Agency Agents?",
+          "ja": "Agency Agents をインストールして使うには？",
+          "es": "¿Cómo instalo y uso Agency Agents?",
+          "fr": "Comment installer et utiliser Agency Agents ?"
+        },
+        "answer": {
+          "zh": "两种方式：① 桌面 App（推荐）：去 agencyagents.app 下载 macOS/Linux/Windows 原生应用，浏览名单、选择工具和目标 agent 一键安装并自动更新；② 命令行：git clone 仓库后运行 ./scripts/install.sh --tool claude-code（或 cursor/codex/gemini-cli 等）即可安装到对应工具。装完后在对话中直接引用 agent 名字即可激活，例如「激活 Frontend Developer 模式帮我写个 React 组件」。",
+          "en": "Two ways: ① Desktop app (recommended): download the native macOS/Linux/Windows app from agencyagents.app, browse the roster, pick your tools and target agents, install with one click and keep them updated automatically; ② CLI: git clone the repo and run ./scripts/install.sh --tool claude-code (or cursor/codex/gemini-cli etc.) to install into the matching tool. Once installed, reference the agent by name in conversation, e.g. \"Activate Frontend Developer mode and help me build a React component\".",
+          "ja": "2つの方法があります：① デスクトップアプリ（推奨）：agencyagents.app から macOS/Linux/Windows ネイティブアプリをダウンロードし、リストを閲覧、ツールと対象エージェントを選んでワンクリック導入、自動更新も対応。② CLI：リポジトリを git clone して ./scripts/install.sh --tool claude-code（cursor/codex/gemini-cli など）を実行するだけ。導入後は会話でエージェント名を参照して起動します。例：「Frontend Developer モードを有効にして React コンポーネントを作って」。",
+          "es": "Dos formas: ① App de escritorio (recomendada): descarga la app nativa para macOS/Linux/Windows desde agencyagents.app, explora el catálogo, elige tus herramientas y agentes, instala con un clic y mantenlos actualizados automáticamente; ② CLI: clona el repositorio y ejecuta ./scripts/install.sh --tool claude-code (o cursor/codex/gemini-cli, etc.) para instalarlo en la herramienta correspondiente. Una vez instalado, referencia el agente por nombre en la conversación, p. ej. \"Activa el modo Frontend Developer y ayúdame a construir un componente React\".",
+          "fr": "Deux façons : ① L'application de bureau (recommandée) : téléchargez l'app native macOS/Linux/Windows depuis agencyagents.app, parcourez le catalogue, choisissez vos outils et agents cibles, installez en un clic avec mises à jour automatiques ; ② CLI : clonez le dépôt et exécutez ./scripts/install.sh --tool claude-code (ou cursor/codex/gemini-cli, etc.) pour l'installer dans l'outil correspondant. Une fois installé, référencez l'agent par son nom dans la conversation, p. ex. « Activez le mode Frontend Developer et aidez-moi à construire un composant React »."
+        }
+      },
+      {
+        "question": {
+          "zh": "Agency Agents 免费吗？有 App 吗？",
+          "en": "Is Agency Agents free? Is there an app?",
+          "ja": "Agency Agents は無料ですか？アプリはありますか？",
+          "es": "¿Agency Agents es gratuito? ¿Tiene app?",
+          "fr": "Agency Agents est-il gratuit ? Y a-t-il une application ?"
+        },
+        "answer": {
+          "zh": "完全免费开源（MIT 协议），主仓库和 App 全部开放源码。App 是 Tauri 2 构建的本地优先原生应用，支持 macOS 13+、Linux、Windows，无遥测不收集数据。官方还提供多语言社区版本（中文、日语、葡萄牙语、俄语、印尼语、阿拉伯语、韩语、越南语等）。",
+          "en": "Completely free and open source (MIT). Both the main repo and the app are fully open source. The app is a Tauri 2 native, local-first application for macOS 13+, Linux and Windows — no telemetry, no data collection. Community translations are available in Chinese, Japanese, Portuguese, Russian, Indonesian, Arabic, Korean, Vietnamese and more.",
+          "ja": "完全無料のオープンソース（MITライセンス）です。メインリポジトリもアプリも全ソース公開。アプリはTauri 2製のローカルファーストなネイティブアプリで、macOS 13+・Linux・Windowsに対応、テレメトリなし・データ収集なし。中国語、日本語、ポルトガル語、ロシア語、インドネシア語、アラビア語、韓国語、ベトナム語などのコミュニティ翻訳も提供されています。",
+          "es": "Completamente gratuito y de código abierto (MIT). Tanto el repositorio principal como la app son de código abierto. La app es una aplicación nativa local-first construida con Tauri 2 para macOS 13+, Linux y Windows — sin telemetría ni recopilación de datos. Hay traducciones comunitarias en chino, japonés, portugués, ruso, indonesio, árabe, coreano, vietnamita y más.",
+          "fr": "Entièrement gratuit et open source (licence MIT). Le dépôt principal et l'application sont tous deux open source. L'app est une application native local-first construite avec Tauri 2 pour macOS 13+, Linux et Windows — sans télémétrie ni collecte de données. Des traductions communautaires existent en chinois, japonais, portugais, russe, indonésien, arabe, coréen, vietnamien et plus."
+        }
+      }
+    ]
   }
 ]

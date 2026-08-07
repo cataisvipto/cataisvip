@@ -3478,5 +3478,124 @@
       "verdictDate": "2026-08-04",
       "pricingVerified": "2026-08-04"
     }
+  },
+  "agency-agents": {
+    "pros": {
+      "en": [
+        "230+ production-ready agent personas across 20 divisions (engineering, design, marketing, sales, security, finance and more)",
+        "Works with 14+ AI coding tools: Claude Code, Cursor, Codex, Gemini CLI, OpenCode, Copilot, Aider, Windsurf, Kimi, Qwen and more",
+        "Official native desktop app (Tauri 2) for macOS/Linux/Windows with one-click install, tracking and drift detection",
+        "MIT-licensed, local-first, no telemetry — installs and data stay on your machine",
+        "Active community with translations in 9+ languages and regular new agents"
+      ],
+      "zh": [
+        "230+ 个生产级 agent 人格，覆盖 20 个部门（工程、设计、营销、销售、安全、金融等）",
+        "兼容 14+ 款 AI 编码工具：Claude Code、Cursor、Codex、Gemini CLI、OpenCode、Copilot、Aider、Windsurf、Kimi、Qwen 等",
+        "官方原生桌面 App（Tauri 2），支持 macOS/Linux/Windows，一键安装、跟踪与漂移检测",
+        "MIT 开源、本地优先、无遥测——安装与数据都留在本机",
+        "社区活跃，提供 9+ 种语言翻译，持续新增 agent"
+      ],
+      "ja": [
+        "20部門（エンジニアリング、デザイン、マーケティング、営業、セキュリティ、ファイナンスなど）にわたる230以上の本番レベルのエージェント・ペルソナ",
+        "Claude Code、Cursor、Codex、Gemini CLI、OpenCode、Copilot、Aider、Windsurf、Kimi、Qwen など14以上のAIコーディングツールに対応",
+        "公式ネイティブデスクトップアプリ（Tauri 2）がmacOS/Linux/Windowsでワンクリック導入・追跡・ドリフト検知を実現",
+        "MITライセンス、ローカルファースト、テレメトリなし——インストールとデータはすべて手元に残る",
+        "活発なコミュニティ、9以上の言語の翻訳、新しいエージェントの継続的な追加"
+      ],
+      "es": [
+        "Más de 230 personas de agentes listas para producción en 20 divisiones (ingeniería, diseño, marketing, ventas, seguridad, finanzas y más)",
+        "Compatible con más de 14 herramientas de codificación IA: Claude Code, Cursor, Codex, Gemini CLI, OpenCode, Copilot, Aider, Windsurf, Kimi, Qwen y más",
+        "App de escritorio nativa oficial (Tauri 2) para macOS/Linux/Windows con instalación en un clic, seguimiento y detección de desviaciones",
+        "Licencia MIT, local-first, sin telemetría: las instalaciones y los datos permanecen en tu máquina",
+        "Comunidad activa con traducciones en más de 9 idiomas y agentes nuevos con regularidad"
+      ],
+      "fr": [
+        "Plus de 230 personas d'agents prêtes pour la production dans 20 divisions (ingénierie, design, marketing, ventes, sécurité, finance, etc.)",
+        "Compatible avec plus de 14 outils de codage IA : Claude Code, Cursor, Codex, Gemini CLI, OpenCode, Copilot, Aider, Windsurf, Kimi, Qwen et plus",
+        "Application de bureau native officielle (Tauri 2) pour macOS/Linux/Windows avec installation en un clic, suivi et détection de dérive",
+        "Licence MIT, local-first, sans télémétrie : les installations et les données restent sur votre machine",
+        "Communauté active avec des traductions dans plus de 9 langues et de nouveaux agents réguliers"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Quality varies by agent: community-contributed personas are not all battle-tested",
+        "Installing all 230+ agents can clutter your agent list — you need to curate which teams you actually need",
+        "Some tools require per-agent format conversion via scripts, which adds setup complexity",
+        "No built-in multi-agent orchestration: agents are personas for your coding tool, not an agent framework"
+      ],
+      "zh": [
+        "质量参差：社区贡献的 agent 并非全部经过实战检验",
+        "全量安装 230+ 个 agent 会让你的 agent 列表变得臃肿——需要自行筛选所需团队",
+        "部分工具需要先通过脚本做格式转换，增加配置复杂度",
+        "不含多 agent 编排能力：它们是编码工具的「人格」，不是 agent 框架"
+      ],
+      "ja": [
+        "品質はエージェントによりばらつき：コミュニティ寄稿のペルソナは全てが実戦検証済みとは限らない",
+        "230以上のエージェントを全部インストールするとリストが乱雑になる——必要なチームだけ選ぶ取捨選択が必要",
+        "一部のツールではスクリプトによる形式変換が必要で、セットアップが複雑になる",
+        "マルチエージェントオーケストレーションは内蔵しない：エージェントはコーディングツール用のペルソナであり、フレームワークではない"
+      ],
+      "es": [
+        "La calidad varía según el agente: las personas aportadas por la comunidad no están todas probadas en batalla",
+        "Instalar los más de 230 agentes puede saturar tu lista: debes seleccionar qué equipos necesitas realmente",
+        "Algunas herramientas requieren conversión de formato por scripts, lo que añade complejidad de configuración",
+        "No incluye orquestación multiagente: son personas para tu herramienta de codificación, no un framework de agentes"
+      ],
+      "fr": [
+        "La qualité varie selon les agents : les personas contribuées par la communauté ne sont pas toutes éprouvées",
+        "Installer les 230+ agents peut encombrer votre liste : il faut choisir les équipes dont vous avez réellement besoin",
+        "Certains outils nécessitent une conversion de format via scripts, ce qui ajoute de la complexité de configuration",
+        "Pas d'orchestration multi-agents intégrée : ce sont des personas pour votre outil de codage, pas un framework d'agents"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "Free and open source (MIT). The desktop app is also free; you can sponsor the author on GitHub.",
+        "zh": "免费开源（MIT 协议）。桌面 App 同样免费；可在 GitHub 上赞助作者。",
+        "ja": "無料のオープンソース（MITライセンス）。デスクトップアプリも無料。GitHub で作者をスポンサー可能。",
+        "es": "Gratuito y de código abierto (MIT). La app de escritorio también es gratuita; puedes patrocinar al autor en GitHub.",
+        "fr": "Gratuit et open source (licence MIT). L'application de bureau est également gratuite ; vous pouvez sponsoriser l'auteur sur GitHub."
+      }
+    },
+    "verdict": {
+      "en": "Agency Agents is the largest and most polished open-source AI agent persona library, with 230+ specialists installable into 14+ coding tools and an official local-first desktop app. It shines for developers who want ready-made expert personas for Claude Code, Cursor, Codex and similar tools. Not an agent framework — you curate personas, not orchestration. Given its enormous community and MIT license, it is the reference choice for agent personas in 2026.",
+      "zh": "Agency Agents 是目前最大、最精致的开源 AI 智能体人格库：230+ 个专家角色可安装到 14+ 款编码工具，并配有本地优先的官方桌面 App。非常适合想在 Claude Code、Cursor、Codex 等工具中获得即用专家人格的开发者。它不是 agent 框架——提供的是人格而非编排。凭借庞大的社区与 MIT 协议，它是 2026 年 agent 人格库的标杆之选。",
+      "ja": "Agency Agents は最大級で最も洗練されたオープンソースのAIエージェント・ペルソナライブラリです。230以上の専門家ペルソナを14以上のコーディングツールに導入でき、ローカルファーストの公式デスクトップアプリも付属。Claude Code、Cursor、Codexなどで即戦力の専門家人格が欲しい開発者に最適です。エージェントフレームワークではなく、人格をキュレーションするものです。巨大なコミュニティとMITライセンスにより、2026年のエージェント・ペルソナライブラリの基準となる選択肢です。",
+      "es": "Agency Agents es la biblioteca de personas de agentes IA de código abierto más grande y pulida: más de 230 especialistas instalables en más de 14 herramientas de codificación, con una app de escritorio local-first oficial. Brilla para desarrolladores que quieren personas expertas listas para Claude Code, Cursor, Codex y similares. No es un framework de agentes: curas personas, no orquestación. Gracias a su enorme comunidad y licencia MIT, es la opción de referencia para personas de agentes en 2026.",
+      "fr": "Agency Agents est la plus grande et la plus aboutie des bibliothèques open source de personas d'agents IA : plus de 230 spécialistes installables dans plus de 14 outils de codage, avec une application de bureau local-first officielle. Idéal pour les développeurs qui veulent des personas expertes prêtes à l'emploi pour Claude Code, Cursor, Codex et similaires. Ce n'est pas un framework d'agents — on y curate des personas, pas de l'orchestration. Grâce à son énorme communauté et sa licence MIT, c'est le choix de référence pour les personas d'agents en 2026."
+    },
+    "useCases": {
+      "en": [
+        "Adding expert coding personas (frontend, backend, review, security) to Claude Code or Cursor",
+        "Assembling a cross-functional \"agency team\" for content, marketing, sales and design tasks",
+        "Standardizing agent behavior across a team of developers using the same persona library",
+        "Learning how to structure professional agent prompts from 230+ proven examples"
+      ],
+      "zh": [
+        "为 Claude Code 或 Cursor 添加专家编码人格（前端、后端、审查、安全）",
+        "组建跨职能「机构团队」处理内容、营销、销售与设计任务",
+        "团队开发者使用同一人格库，统一 agent 行为标准",
+        "从 230+ 个经过验证的示例中学习专业 agent 提示词的编写结构"
+      ],
+      "ja": [
+        "Claude Code や Cursor に専門家コーディングペルソナ（フロントエンド、バックエンド、レビュー、セキュリティ）を追加",
+        "コンテンツ、マーケティング、営業、デザイン業務のための部門横断「エージェンシーチーム」を編成",
+        "開発者チームが同一のペルソナライブラリを使ってエージェントの振る舞いを標準化",
+        "230以上の実証済みサンプルからプロのエージェントプロンプトの構造を学習"
+      ],
+      "es": [
+        "Añadir personas expertas de codificación (frontend, backend, revisión, seguridad) a Claude Code o Cursor",
+        "Montar un \"equipo agencia\" multifuncional para tareas de contenido, marketing, ventas y diseño",
+        "Estandarizar el comportamiento de los agentes en un equipo usando la misma biblioteca de personas",
+        "Aprender a estructurar prompts profesionales de agentes a partir de más de 230 ejemplos probados"
+      ],
+      "fr": [
+        "Ajouter des personas expertes en codage (frontend, backend, revue, sécurité) à Claude Code ou Cursor",
+        "Constituer une « équipe agence » pluridisciplinaire pour le contenu, le marketing, les ventes et le design",
+        "Standardiser le comportement des agents au sein d'une équipe en utilisant la même bibliothèque de personas",
+        "Apprendre à structurer des prompts d'agents professionnels à partir de 230+ exemples éprouvés"
+      ]
+    }
   }
 }
