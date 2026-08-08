@@ -165,23 +165,27 @@ function parseInstallSection(markdown: string, copyLabel: string): string | null
 
 /** Fetch the README from GitHub and extract Installation section as HTML */
 async function fetchReadmeInstallHtml(repo: string, copyLabel: string): Promise<string | null> {
+  // 并行尝试 main/master 分支，任一成功即返回；3 秒超时兜底。
+  // 最坏耗时从顺序 16s（2×8s）降到并行 3s，确保低于 Vercel Hobby 10s 函数时限，避免 GSC 5xx。
   const branches = ['main', 'master'];
-  for (const branch of branches) {
+  const attempts = branches.map(async (branch) => {
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 3000);
     try {
-      const controller = new AbortController();
-      const timeout = setTimeout(() => controller.abort(), 8000);
       const url = `https://raw.githubusercontent.com/${repo}/${branch}/README.md`;
       const res = await fetch(url, { signal: controller.signal, next: { revalidate: 3600 } });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const md = await res.text();
+      return parseInstallSection(md, copyLabel);
+    } finally {
       clearTimeout(timeout);
-      if (res.ok) {
-        const md = await res.text();
-        return parseInstallSection(md, copyLabel);
-      }
-    } catch {
-      // try next branch
     }
+  });
+  try {
+    return await Promise.any(attempts);
+  } catch {
+    return null;
   }
-  return null;
 }
 
 /** 星数单一数据源：直接读 skills.json 的 stars（由 refresh-stars 定时/手动刷新），与列表卡片始终一致 */
