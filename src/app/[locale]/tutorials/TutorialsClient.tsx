@@ -1,5 +1,6 @@
 'use client';
 
+import { useState, useMemo } from 'react';
 import { useTranslations, useLocale } from 'next-intl';
 import { Link } from '@/i18n/navigation';
 import Header from '@/components/Header';
@@ -7,6 +8,7 @@ import Footer from '@/components/Footer';
 import Breadcrumb from '@/components/Breadcrumb';
 import ScrollReveal from '@/components/ScrollReveal';
 import BlogCover from '@/components/BlogCover';
+import Image from 'next/image';
 import { Clock, GraduationCap, BookOpen } from 'lucide-react';
 
 export interface Tutorial {
@@ -22,6 +24,7 @@ export interface Tutorial {
   difficulty: string;
   readTime: number;
   tags: string[];
+  product: string;
 }
 
 interface TutorialsClientProps {
@@ -31,13 +34,47 @@ interface TutorialsClientProps {
 const getLocalized = (field: Record<string, string>, locale: string) =>
   field?.[locale] || field?.en || '';
 
+// Product display config
+const PRODUCTS: Record<string, { name: string; logo: string }> = {
+  codex: { name: 'Codex', logo: '/logos/tools/codex.png' },
+  'claude-code': { name: 'Claude Code', logo: '/logos/tools/claude-code.png' },
+  'hermes-agent': { name: 'Hermes Agent', logo: '/logos/tools/hermes-agent-light.png' },
+};
+
 export default function TutorialsClient({ tutorials }: TutorialsClientProps) {
   const locale = useLocale();
   const t = useTranslations('tutorials');
+  const [activeProduct, setActiveProduct] = useState<string | null>(null);
 
-  const sorted = [...tutorials].sort((a, b) =>
-    (b.publishedAt || '').localeCompare(a.publishedAt || '')
-  );
+  // Build product list from data
+  const products = useMemo(() => {
+    const seen = new Set<string>();
+    const list: { slug: string; name: string; logo: string; count: number }[] = [];
+    for (const tut of tutorials) {
+      if (!seen.has(tut.product)) {
+        seen.add(tut.product);
+        const cfg = PRODUCTS[tut.product] || { name: tut.product, logo: tut.logo || '' };
+        list.push({
+          slug: tut.product,
+          name: cfg.name,
+          logo: cfg.logo,
+          count: 0,
+        });
+      }
+      const item = list.find((p) => p.slug === tut.product);
+      if (item) item.count++;
+    }
+    return list;
+  }, [tutorials]);
+
+  const sorted = useMemo(() => {
+    const filtered = activeProduct
+      ? tutorials.filter((t) => t.product === activeProduct)
+      : tutorials;
+    return [...filtered].sort((a, b) =>
+      (b.publishedAt || '').localeCompare(a.publishedAt || '')
+    );
+  }, [tutorials, activeProduct]);
 
   return (
     <>
@@ -46,15 +83,61 @@ export default function TutorialsClient({ tutorials }: TutorialsClientProps) {
         <Breadcrumb items={[{ name: t('title') }]} locale={locale} />
 
         {/* Page header */}
-        <div className="mb-10">
+        <div className="mb-8">
           <h1 className="text-3xl sm:text-4xl font-bold tracking-tight text-[var(--foreground)]">
             {t('title')}
           </h1>
           <p className="mt-1.5 text-[var(--muted)] text-sm">{t('subtitle')}</p>
         </div>
 
+        {/* Product filter tabs */}
+        <div className="flex flex-wrap gap-2 mb-10">
+          <button
+            onClick={() => setActiveProduct(null)}
+            className={`inline-flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium transition-all duration-200 ${
+              activeProduct === null
+                ? 'bg-[var(--primary)] text-white shadow-sm'
+                : 'bg-[var(--card-bg)] text-[var(--muted)] border border-[var(--muted-border)] hover:border-[var(--primary)] hover:text-[var(--primary)]'
+            }`}
+          >
+            <BookOpen className="w-4 h-4" />
+            {t('all')} ({tutorials.length})
+          </button>
+          {products.map((product) => (
+            <button
+              key={product.slug}
+              onClick={() => setActiveProduct(product.slug)}
+              className={`inline-flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium transition-all duration-200 ${
+                activeProduct === product.slug
+                  ? 'bg-[var(--primary)] text-white shadow-sm'
+                  : 'bg-[var(--card-bg)] text-[var(--muted)] border border-[var(--muted-border)] hover:border-[var(--primary)] hover:text-[var(--primary)]'
+              }`}
+            >
+              {product.logo && (
+                <div className="w-5 h-5 rounded overflow-hidden flex-shrink-0 bg-white/80">
+                  <Image
+                    src={product.logo}
+                    alt={product.name}
+                    width={20}
+                    height={20}
+                    className="w-full h-full object-contain"
+                  />
+                </div>
+              )}
+              <span>{product.name}</span>
+              <span className={`text-xs px-1.5 py-0.5 rounded-full ${
+                activeProduct === product.slug
+                  ? 'bg-white/20 text-white'
+                  : 'bg-[var(--muted-bg)] text-[var(--muted)]'
+              }`}>
+                {product.count}
+              </span>
+            </button>
+          ))}
+        </div>
+
         {sorted.length === 0 ? (
-          /* Empty state — 教程暂未收录 */
+          /* Empty state */
           <div className="bg-[var(--card-bg)] rounded-2xl shadow-[var(--card-shadow)] py-20 px-6 text-center">
             <div className="w-14 h-14 bg-[var(--muted-bg)] rounded-full flex items-center justify-center mx-auto mb-4">
               <BookOpen className="w-6 h-6 text-[var(--muted)]" />
@@ -96,6 +179,24 @@ export default function TutorialsClient({ tutorials }: TutorialsClientProps) {
                           {tutorial.readTime} {t('readTime')}
                         </span>
                       </div>
+
+                      {/* Product badge */}
+                      {tutorial.product && PRODUCTS[tutorial.product] && (
+                        <div className="flex items-center gap-1.5 mb-2">
+                          <div className="w-4 h-4 rounded overflow-hidden bg-white/80 flex-shrink-0">
+                            <Image
+                              src={PRODUCTS[tutorial.product].logo}
+                              alt={PRODUCTS[tutorial.product].name}
+                              width={16}
+                              height={16}
+                              className="w-full h-full object-contain"
+                            />
+                          </div>
+                          <span className="text-xs font-medium text-[var(--muted)]">
+                            {PRODUCTS[tutorial.product].name}
+                          </span>
+                        </div>
+                      )}
 
                       {/* Title */}
                       <Link href={`/tutorials/${tutorial.slug}`} className="group/title">
