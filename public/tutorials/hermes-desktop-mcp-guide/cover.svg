@@ -1,0 +1,38 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0B1326"/><stop offset="1" stop-color="#1E1B4B"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4CD7F6"/><stop offset="0.5" stop-color="#6366F1"/><stop offset="1" stop-color="#A855F7"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#6366F1" stop-opacity="0.35"/><stop offset="1" stop-color="#6366F1" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="950" cy="180" r="320" fill="url(#glow)"/>
+  <rect x="680" y="140" width="420" height="330" rx="16" fill="#161618" stroke="#2C2C2E" stroke-width="2"/>
+  <rect x="680" y="140" width="420" height="44" rx="16" fill="#1D1D1F"/>
+  <rect x="680" y="168" width="420" height="16" fill="#1D1D1F"/>
+  <circle cx="704" cy="162" r="6" fill="#FF5F57"/><circle cx="726" cy="162" r="6" fill="#FEBC2E"/><circle cx="748" cy="162" r="6" fill="#28C840"/>
+  <text x="700" y="240" font-family="monospace" font-size="18" fill="#4CD7F6">'+cmd+'</text>
+  <text x="700" y="276" font-family="monospace" font-size="16" fill="#9E9EA4">'+line2+'</text>
+  <text x="700" y="306" font-family="monospace" font-size="16" fill="#9E9EA4">'+line3+'</text>
+  <text x="700" y="342" font-family="monospace" font-size="16" fill="#7C7C82">▸ Installing server...</text>
+  <text x="700" y="372" font-family="monospace" font-size="16" fill="#6366F1">✓ Connected — tools available</text>
+  <rect x="700" y="396" width="220" height="34" rx="17" fill="#6366F1"/>
+  <text x="810" y="418" font-family="sans-serif" font-size="14" fill="#FFFFFF" text-anchor="middle" font-weight="bold">'+btn+'</text>
+  <g transform="translate(80,90) scale(3.5)">
+    <rect x="0" y="0" width="20" height="20" fill="#FFFFFF"/>
+    <image x="0" y="0" width="20" height="20" preserveAspectRatio="xMidYMid meet" href="data:image/png;base64,'+b64+'"/>
+  </g>
+  <text x="170" y="148" font-family="sans-serif" font-size="48" font-weight="bold" fill="#FFFFFF">'+title1+'</text>
+  <text x="170" y="200" font-family="sans-serif" font-size="28" fill="#F0F0F0">'+l2+'</text>
+  <text x="170" y="240" font-family="sans-serif" font-size="16" fill="#9E9EA4">'+l3+'</text>
+  <rect x="80" y="290" width="420" height="4" rx="2" fill="url(#accent)"/>
+  <text x="80" y="340" font-family="sans-serif" font-size="16" fill="#9E9EA4">Configure · Manage · Use</text>
+  <text x="80" y="372" font-family="sans-serif" font-size="16" fill="#9E9EA4">Configured via config.yaml</text>
+  <text x="80" y="570" font-family="sans-serif" font-size="22" font-weight="bold" fill="#FFFFFF">CATAITO</text>
+  <text x="80" y="596" font-family="sans-serif" font-size="14" fill="#9E9EA4">cataito.com — AI tutorials</text>
+</svg>
