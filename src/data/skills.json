@@ -21,7 +21,7 @@
     ],
     "installCommand": "See README for details.",
     "logo": "/logos/skills/awesome-selfhosted.png",
-    "stars": 311225,
+    "stars": 311412,
     "featured": false,
     "faqs": [
       {
@@ -103,7 +103,7 @@
     ],
     "installCommand": "Available via Claude Code marketplace, Cursor /add-plugin, Codex plugin marketplace, and more. See README for details.",
     "logo": "/logos/skills/superpowers.png",
-    "stars": 268707,
+    "stars": 269278,
     "featured": false,
     "faqs": [
       {
@@ -181,7 +181,7 @@
     ],
     "installCommand": "npx @anthropic-ai/sdk add grill-me",
     "logo": "/logos/skills/grill-me.png",
-    "stars": 208718,
+    "stars": 209923,
     "featured": false,
     "faqs": [
       {
@@ -259,7 +259,7 @@
     ],
     "installCommand": "npx @anthropic-ai/sdk add grill-with-docs",
     "logo": "/logos/skills/grill-with-docs.png",
-    "stars": 208718,
+    "stars": 209923,
     "featured": false,
     "faqs": [
       {
@@ -337,7 +337,7 @@
     ],
     "installCommand": "npx @anthropic-ai/sdk add improve-codebase-architecture",
     "logo": "/logos/skills/improve-codebase-architecture.png",
-    "stars": 208718,
+    "stars": 209923,
     "featured": false,
     "faqs": [
       {
@@ -425,7 +425,7 @@
     ],
     "installCommand": "Download the app at agencyagents.app (macOS/Linux/Windows) or run ./scripts/install.sh --tool <tool> from the repo.",
     "logo": "/logos/skills/agency-agents.png",
-    "stars": 139093,
+    "stars": 139597,
     "featured": false,
     "faqs": [
       {
@@ -503,7 +503,7 @@
     ],
     "installCommand": "Available via plugin marketplace. See README for details.",
     "logo": "/logos/skills/banner-design.png",
-    "stars": 114479,
+    "stars": 114721,
     "featured": false,
     "faqs": [
       {
@@ -581,7 +581,7 @@
     ],
     "installCommand": "Available via plugin marketplace. See README for details.",
     "logo": "/logos/skills/brand.png",
-    "stars": 114479,
+    "stars": 114721,
     "featured": false,
     "faqs": [
       {
@@ -659,7 +659,7 @@
     ],
     "installCommand": "Available via plugin marketplace. See README for details.",
     "logo": "/logos/skills/design.png",
-    "stars": 114479,
+    "stars": 114721,
     "featured": false,
     "faqs": [
       {
@@ -737,7 +737,7 @@
     ],
     "installCommand": "Available via plugin marketplace. See README for details.",
     "logo": "/logos/skills/design-system.png",
-    "stars": 114479,
+    "stars": 114721,
     "featured": false,
     "faqs": [
       {
@@ -815,7 +815,7 @@
     ],
     "installCommand": "Available via plugin marketplace. See README for details.",
     "logo": "/logos/skills/slides.png",
-    "stars": 114479,
+    "stars": 114721,
     "featured": false,
     "faqs": [
       {
@@ -893,7 +893,7 @@
     ],
     "installCommand": "Available via plugin marketplace. See README for details.",
     "logo": "/logos/skills/ui-styling.png",
-    "stars": 114479,
+    "stars": 114721,
     "featured": false,
     "faqs": [
       {
@@ -966,7 +966,7 @@
       "codex",
       "claude-code"
     ],
-    "stars": 73829,
+    "stars": 74255,
     "developer": "Leonxlnx",
     "developerZh": "Leonxlnx",
     "installCommand": "npm i -g taste-skill",
@@ -1046,7 +1046,7 @@
     ],
     "installCommand": "See README for installation instructions.",
     "logo": "/logos/skills/agent-reach.png",
-    "stars": 68327,
+    "stars": 68773,
     "featured": false,
     "faqs": [
       {
@@ -1121,7 +1121,7 @@
     ],
     "installCommand": "See README for installation instructions.",
     "logo": "/logos/skills/media-crawler.png",
-    "stars": 60254,
+    "stars": 60352,
     "featured": false,
     "faqs": [
       {
@@ -1198,7 +1198,7 @@
     ],
     "installCommand": "npx @anthropic-ai/claude add mcp-server-humanizer",
     "logo": "/logos/skills/humanizer.png",
-    "stars": 34223,
+    "stars": 34356,
     "featured": false,
     "faqs": [
       {
@@ -1276,7 +1276,7 @@
     ],
     "installCommand": "npx @anthropic-ai/sdk add nuwa-skill",
     "logo": "/logos/skills/nuwa-skill.png",
-    "stars": 29994,
+    "stars": 30044,
     "featured": false,
     "faqs": [
       {
@@ -1355,7 +1355,7 @@
     ],
     "installCommand": "npx @anthropic-ai/sdk add find-skills",
     "logo": "/logos/skills/find-skills.png",
-    "stars": 28280,
+    "stars": 28363,
     "featured": false,
     "faqs": [
       {
@@ -1433,7 +1433,7 @@
     ],
     "installCommand": "npx @anthropic-ai/sdk add huashu-design",
     "logo": "/logos/skills/huashu-design.png",
-    "stars": 22628,
+    "stars": 22659,
     "featured": false,
     "faqs": [
       {
@@ -1487,81 +1487,6 @@
     ]
   },
   {
-    "slug": "pyvideotrans",
-    "name": "PyVideoTrans",
-    "nameZh": "视频翻译配音",
-    "description": "视频翻译配音工具。支持视频语音识别、字幕翻译、语音合成、配音，将视频翻译为多语言版本。",
-    "descriptionEn": "Video translation and dubbing tool. Supports speech recognition, subtitle translation, voice synthesis, dubbing for multi-language video translation.",
-    "descriptionJa": "動画翻訳・吹き替えツール。音声認識、字幕翻訳、音声合成、吹き替えに対応し、動画を多言語化。",
-    "descriptionEs": "Herramienta de traducción y doblaje de video. Reconocimiento de voz, traducción de subtítulos, síntesis de voz, doblaje.",
-    "descriptionFr": "Outil de traduction et doublage vidéo. Reconnaissance vocale, traduction de sous-titres, synthèse vocale, doublage.",
-    "developer": "jianchang512",
-    "developerZh": "jianchang512",
-    "repo": "jianchang512/pyvideotrans",
-    "agents": [
-      "generic"
-    ],
-    "category": "Video",
-    "tags": [
-      "Free",
-      "Open Source"
-    ],
-    "installCommand": "pip install pyvideotrans",
-    "logo": "/logos/skills/pyvideotrans.png",
-    "stars": 18618,
-    "featured": false,
-    "faqs": [
-      {
-        "question": {
-          "zh": "PyVideoTrans 能做什么？",
-          "en": "What can PyVideoTrans do?",
-          "ja": "PyVideoTrans で何ができますか？",
-          "es": "¿Qué puede hacer PyVideoTrans?",
-          "fr": "Que peut faire PyVideoTrans ?"
-        },
-        "answer": {
-          "zh": "一站式视频翻译配音：自动识别视频语音、生成并翻译字幕、合成目标语言配音，最终输出带新配音和字幕的视频。把中文视频变成英语、日语版只需几步。",
-          "en": "One-stop video translation and dubbing: it recognizes speech in the video, generates and translates subtitles, synthesizes voice-over in the target language, and outputs a video with new dubbing and subtitles. Turning a Chinese video into English or Japanese takes just a few steps.",
-          "ja": "ワンストップの動画翻訳・吹き替えツールです。動画の音声を自動認識し、字幕を生成・翻訳し、目標言語の音声を合成して、新しい吹き替えと字幕付きの動画を出力します。中国語動画を英語版や日本語版にするのも数ステップです。",
-          "es": "Traducción y doblaje de vídeo todo en uno: reconoce el habla del vídeo, genera y traduce subtítulos, sintetiza la voz en el idioma objetivo y produce un vídeo con nuevo doblaje y subtítulos. Convertir un vídeo chino al inglés o japonés lleva solo unos pasos.",
-          "fr": "Traduction et doublage vidéo tout-en-un : il reconnaît la parole, génère et traduit les sous-titres, synthétise la voix dans la langue cible et produit une vidéo avec nouveau doublage et sous-titres. Passer une vidéo chinoise en anglais ou japonais ne prend que quelques étapes."
-        }
-      },
-      {
-        "question": {
-          "zh": "怎么安装 PyVideoTrans？",
-          "en": "How do I install PyVideoTrans?",
-          "ja": "PyVideoTrans をインストールするには？",
-          "es": "¿Cómo instalo PyVideoTrans?",
-          "fr": "Comment installer PyVideoTrans ?"
-        },
-        "answer": {
-          "zh": "Python 环境下运行 pip install pyvideotrans，Windows 用户也可以从 GitHub 下载预打包版本直接使用。支持接入多种语音识别与合成引擎，详细配置见 README。",
-          "en": "Run pip install pyvideotrans in a Python environment; Windows users can also download the prepackaged build from GitHub. Multiple speech recognition and synthesis engines are supported — see the README for configuration.",
-          "ja": "Python 環境で pip install pyvideotrans を実行します。Windows ユーザーは GitHub からパッケージ済みビルドをダウンロードしてそのまま使うこともできます。複数の音声認識・合成エンジンに対応しており、詳細設定は README を参照してください。",
-          "es": "Ejecuta pip install pyvideotrans en un entorno Python; los usuarios de Windows también pueden descargar la versión empaquetada desde GitHub. Soporta varios motores de reconocimiento y síntesis de voz; consulta el README para la configuración.",
-          "fr": "Exécutez pip install pyvideotrans dans un environnement Python ; les utilisateurs Windows peuvent aussi télécharger la version préempaquetée sur GitHub. Plusieurs moteurs de reconnaissance et de synthèse vocale sont pris en charge — voir le README."
-        }
-      },
-      {
-        "question": {
-          "zh": "PyVideoTrans 免费吗？翻译质量怎么样？",
-          "en": "Is PyVideoTrans free? How good is the translation quality?",
-          "ja": "PyVideoTrans は無料ですか？翻訳品質はどうですか？",
-          "es": "¿PyVideoTrans es gratuito? ¿Qué tal la calidad de traducción?",
-          "fr": "PyVideoTrans est-il gratuit ? Quelle est la qualité de traduction ?"
-        },
-        "answer": {
-          "zh": "软件免费开源。识别、翻译、配音引擎均可自选：全用免费引擎（如本地 Whisper + 免费 TTS）零成本但质量一般；接入付费 API 可显著提升配音自然度，成本由所选服务决定。",
-          "en": "The software is free and open source. Recognition, translation and dubbing engines are pluggable: an all-free stack (local Whisper + free TTS) costs nothing with acceptable quality, while paid APIs noticeably improve voice naturalness — cost depends on the services you pick.",
-          "ja": "ソフトウェアは無料のオープンソースです。認識・翻訳・吹き替えエンジンは自由に選択可能。すべて無料エンジン（ローカル Whisper + 無料 TTS）ならゼロコストで実用的な品質、有料 API を接続すれば音声の自然さが大きく向上します。コストは選ぶサービス次第です。",
-          "es": "El software es gratuito y de código abierto. Los motores de reconocimiento, traducción y doblaje son intercambiables: una pila totalmente gratuita (Whisper local + TTS gratis) no cuesta nada con calidad aceptable; las APIs de pago mejoran notablemente la naturalidad de la voz.",
-          "fr": "Le logiciel est gratuit et open source. Les moteurs de reconnaissance, traduction et doublage sont interchangeables : une pile entièrement gratuite (Whisper local + TTS gratuit) ne coûte rien avec une qualité correcte ; les API payantes améliorent nettement le naturel de la voix."
-        }
-      }
-    ]
-  },
-  {
     "slug": "book-to-skill",
     "name": "Book to Skill",
     "nameZh": "Book to Skill",
@@ -1585,7 +1510,7 @@
     ],
     "installCommand": "pip install book-to-skill",
     "logo": "/logos/skills/book-to-skill.png",
-    "stars": 18270,
+    "stars": 18862,
     "featured": false,
     "faqs": [
       {
@@ -1639,6 +1564,160 @@
     ]
   },
   {
+    "slug": "pyvideotrans",
+    "name": "PyVideoTrans",
+    "nameZh": "视频翻译配音",
+    "description": "视频翻译配音工具。支持视频语音识别、字幕翻译、语音合成、配音，将视频翻译为多语言版本。",
+    "descriptionEn": "Video translation and dubbing tool. Supports speech recognition, subtitle translation, voice synthesis, dubbing for multi-language video translation.",
+    "descriptionJa": "動画翻訳・吹き替えツール。音声認識、字幕翻訳、音声合成、吹き替えに対応し、動画を多言語化。",
+    "descriptionEs": "Herramienta de traducción y doblaje de video. Reconocimiento de voz, traducción de subtítulos, síntesis de voz, doblaje.",
+    "descriptionFr": "Outil de traduction et doublage vidéo. Reconnaissance vocale, traduction de sous-titres, synthèse vocale, doublage.",
+    "developer": "jianchang512",
+    "developerZh": "jianchang512",
+    "repo": "jianchang512/pyvideotrans",
+    "agents": [
+      "generic"
+    ],
+    "category": "Video",
+    "tags": [
+      "Free",
+      "Open Source"
+    ],
+    "installCommand": "pip install pyvideotrans",
+    "logo": "/logos/skills/pyvideotrans.png",
+    "stars": 18624,
+    "featured": false,
+    "faqs": [
+      {
+        "question": {
+          "zh": "PyVideoTrans 能做什么？",
+          "en": "What can PyVideoTrans do?",
+          "ja": "PyVideoTrans で何ができますか？",
+          "es": "¿Qué puede hacer PyVideoTrans?",
+          "fr": "Que peut faire PyVideoTrans ?"
+        },
+        "answer": {
+          "zh": "一站式视频翻译配音：自动识别视频语音、生成并翻译字幕、合成目标语言配音，最终输出带新配音和字幕的视频。把中文视频变成英语、日语版只需几步。",
+          "en": "One-stop video translation and dubbing: it recognizes speech in the video, generates and translates subtitles, synthesizes voice-over in the target language, and outputs a video with new dubbing and subtitles. Turning a Chinese video into English or Japanese takes just a few steps.",
+          "ja": "ワンストップの動画翻訳・吹き替えツールです。動画の音声を自動認識し、字幕を生成・翻訳し、目標言語の音声を合成して、新しい吹き替えと字幕付きの動画を出力します。中国語動画を英語版や日本語版にするのも数ステップです。",
+          "es": "Traducción y doblaje de vídeo todo en uno: reconoce el habla del vídeo, genera y traduce subtítulos, sintetiza la voz en el idioma objetivo y produce un vídeo con nuevo doblaje y subtítulos. Convertir un vídeo chino al inglés o japonés lleva solo unos pasos.",
+          "fr": "Traduction et doublage vidéo tout-en-un : il reconnaît la parole, génère et traduit les sous-titres, synthétise la voix dans la langue cible et produit une vidéo avec nouveau doublage et sous-titres. Passer une vidéo chinoise en anglais ou japonais ne prend que quelques étapes."
+        }
+      },
+      {
+        "question": {
+          "zh": "怎么安装 PyVideoTrans？",
+          "en": "How do I install PyVideoTrans?",
+          "ja": "PyVideoTrans をインストールするには？",
+          "es": "¿Cómo instalo PyVideoTrans?",
+          "fr": "Comment installer PyVideoTrans ?"
+        },
+        "answer": {
+          "zh": "Python 环境下运行 pip install pyvideotrans，Windows 用户也可以从 GitHub 下载预打包版本直接使用。支持接入多种语音识别与合成引擎，详细配置见 README。",
+          "en": "Run pip install pyvideotrans in a Python environment; Windows users can also download the prepackaged build from GitHub. Multiple speech recognition and synthesis engines are supported — see the README for configuration.",
+          "ja": "Python 環境で pip install pyvideotrans を実行します。Windows ユーザーは GitHub からパッケージ済みビルドをダウンロードしてそのまま使うこともできます。複数の音声認識・合成エンジンに対応しており、詳細設定は README を参照してください。",
+          "es": "Ejecuta pip install pyvideotrans en un entorno Python; los usuarios de Windows también pueden descargar la versión empaquetada desde GitHub. Soporta varios motores de reconocimiento y síntesis de voz; consulta el README para la configuración.",
+          "fr": "Exécutez pip install pyvideotrans dans un environnement Python ; les utilisateurs Windows peuvent aussi télécharger la version préempaquetée sur GitHub. Plusieurs moteurs de reconnaissance et de synthèse vocale sont pris en charge — voir le README."
+        }
+      },
+      {
+        "question": {
+          "zh": "PyVideoTrans 免费吗？翻译质量怎么样？",
+          "en": "Is PyVideoTrans free? How good is the translation quality?",
+          "ja": "PyVideoTrans は無料ですか？翻訳品質はどうですか？",
+          "es": "¿PyVideoTrans es gratuito? ¿Qué tal la calidad de traducción?",
+          "fr": "PyVideoTrans est-il gratuit ? Quelle est la qualité de traduction ?"
+        },
+        "answer": {
+          "zh": "软件免费开源。识别、翻译、配音引擎均可自选：全用免费引擎（如本地 Whisper + 免费 TTS）零成本但质量一般；接入付费 API 可显著提升配音自然度，成本由所选服务决定。",
+          "en": "The software is free and open source. Recognition, translation and dubbing engines are pluggable: an all-free stack (local Whisper + free TTS) costs nothing with acceptable quality, while paid APIs noticeably improve voice naturalness — cost depends on the services you pick.",
+          "ja": "ソフトウェアは無料のオープンソースです。認識・翻訳・吹き替えエンジンは自由に選択可能。すべて無料エンジン（ローカル Whisper + 無料 TTS）ならゼロコストで実用的な品質、有料 API を接続すれば音声の自然さが大きく向上します。コストは選ぶサービス次第です。",
+          "es": "El software es gratuito y de código abierto. Los motores de reconocimiento, traducción y doblaje son intercambiables: una pila totalmente gratuita (Whisper local + TTS gratis) no cuesta nada con calidad aceptable; las APIs de pago mejoran notablemente la naturalidad de la voz.",
+          "fr": "Le logiciel est gratuit et open source. Les moteurs de reconnaissance, traduction et doublage sont interchangeables : une pile entièrement gratuite (Whisper local + TTS gratuit) ne coûte rien avec une qualité correcte ; les API payantes améliorent nettement le naturel de la voix."
+        }
+      }
+    ]
+  },
+  {
+    "slug": "tencentdb-agent-memory",
+    "name": "TencentDB Agent Memory",
+    "nameZh": "腾讯云数据库 Agent Memory",
+    "description": "团队级 AI Agent 记忆中枢：把对话、文档、代码沉淀为四种可复用记忆资产（对话记忆、技能、LLM Wiki、代码图谱），支持跨 Agent 框架治理与共享。支持 OpenClaw、Hermes、Claude Code、CodeBuddy 等。",
+    "descriptionEn": "A team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks. Supports OpenClaw, Hermes, Claude Code, CodeBuddy and more.",
+    "descriptionJa": "チームレベルのAIエージェント記憶ハブ。会話・ドキュメント・コードを4つの再利用可能な記憶資産（チャット記憶、スキル、LLM Wiki、コードグラフ）に変え、エージェントやフレームワークをまたいで管理・共有できます。OpenClaw、Hermes、Claude Code、CodeBuddy などに対応。",
+    "descriptionEs": "Un centro de memoria a nivel de equipo para agentes de IA: convierte conversaciones, documentos y código en cuatro activos de memoria reutilizables (Memoria de Chat, Skill, LLM-Wiki, Code-Graph) gestionados y compartidos entre agentes y frameworks. Compatible con OpenClaw, Hermes, Claude Code, CodeBuddy y más.",
+    "descriptionFr": "Un hub de mémoire au niveau de l'équipe pour les agents IA : il transforme conversations, documents et code en quatre actifs de mémoire réutilisables (Mémoire de chat, Skill, LLM-Wiki, Code-Graph), gouvernés et partagés entre agents et frameworks. Compatible avec OpenClaw, Hermes, Claude Code, CodeBuddy et plus.",
+    "developer": "Tencent Cloud",
+    "developerZh": "腾讯云",
+    "repo": "TencentCloud/TencentDB-Agent-Memory",
+    "agents": [
+      "openclaw",
+      "hermes",
+      "claude-code",
+      "codebuddy",
+      "generic"
+    ],
+    "category": "Developer",
+    "tags": [
+      "Open Source",
+      "Free"
+    ],
+    "installCommand": "git clone https://github.com/TencentCloud/TencentDB-Agent-Memory.git && cd TencentDB-Agent-Memory/deploy/global-images && cp .env.example .env && ./start-all.sh",
+    "logo": "/logos/skills/tencentdb-agent-memory.png",
+    "stars": 18173,
+    "featured": false,
+    "faqs": [
+      {
+        "question": {
+          "zh": "TencentDB Agent Memory 是什么？",
+          "en": "What is TencentDB Agent Memory?",
+          "ja": "TencentDB Agent Memory とは何ですか？",
+          "es": "¿Qué es TencentDB Agent Memory?",
+          "fr": "Qu'est-ce que TencentDB Agent Memory ?"
+        },
+        "answer": {
+          "zh": "它是腾讯云开源的团队级 Agent 记忆中枢。核心思路：已经解释过的项目背景、读过的文档、跑通的流程，不该让每个 Agent 从零再来一遍。它把对话、文档、代码自动提炼为四种记忆资产——对话记忆（L0-L3 分层蒸馏）、技能库、LLM Wiki（文档知识图谱）、代码图谱——并通过 Memory Hub 统一管理、按权限共享给团队中的各个 Agent。",
+          "en": "It is Tencent Cloud's open-source team-level memory hub for AI Agents. The core idea: project context already explained, documents already read, and workflows already proven should not be re-discovered from scratch by every agent. It distills conversations, docs, and code into four memory assets — Chat Memory (L0-L3 layered distillation), a Skill library, LLM Wiki (document knowledge graph), and CodeGraph — managed by a Memory Hub and shared with team agents under permission control.",
+          "ja": "Tencent Cloud が公開した、チームレベルの AI エージェント記憶ハブです。考え方はシンプル：説明済みのプロジェクト背景、読み終えたドキュメント、確立したワークフローを、各エージェントがゼロから再発見する必要はない。会話・ドキュメント・コードを4つの記憶資産（L0〜L3の階層蒸留によるチャット記憶、スキルライブラリ、LLM Wiki、コードグラフ）に自動的に精製し、Memory Hub で一元管理し、権限制御のもとチームのエージェントと共有します。",
+          "es": "Es el hub de memoria a nivel de equipo de código abierto de Tencent Cloud para agentes de IA. La idea central: el contexto de un proyecto ya explicado, los documentos ya leídos y los flujos ya probados no deberían redescubrirse desde cero por cada agente. Destila conversaciones, documentos y código en cuatro activos de memoria — Memoria de Chat (destilación en capas L0-L3), biblioteca de Skills, LLM Wiki (grafo de conocimiento de documentos) y CodeGraph — gestionados por un Memory Hub y compartidos con los agentes del equipo bajo control de permisos.",
+          "fr": "C'est le hub de mémoire open source au niveau de l'équipe de Tencent Cloud pour les agents IA. L'idée centrale : le contexte d'un projet déjà expliqué, les documents déjà lus et les workflows déjà validés ne devraient pas être redécouverts depuis zéro par chaque agent. Il distille conversations, documents et code en quatre actifs de mémoire — Mémoire de chat (distillation en couches L0-L3), bibliothèque de Skills, LLM Wiki (graphe de connaissances documentaires) et CodeGraph — gérés par un Memory Hub et partagés avec les agents de l'équipe sous contrôle des permissions."
+        }
+      },
+      {
+        "question": {
+          "zh": "怎么安装和部署？",
+          "en": "How do I install and deploy it?",
+          "ja": "インストールとデプロイ方法は？",
+          "es": "¿Cómo se instala y despliega?",
+          "fr": "Comment l'installer et le déployer ?"
+        },
+        "answer": {
+          "zh": "一条命令拉起完整三件套（memory-core + memory-hub + proxy）：git clone 仓库后进入 deploy/global-images 目录，复制 .env.example 为 .env 并填入两组 LLM 参数，然后运行 ./start-all.sh。启动完成后它会打印一行可直接粘贴到 Claude Code 的配置命令，管理面板在 http://localhost:8125。完整安装文档见 INSTALL_CN.md。",
+          "en": "One command brings up the full trio (memory-core + memory-hub + proxy): clone the repo, enter deploy/global-images, copy .env.example to .env and fill in two sets of LLM parameters, then run ./start-all.sh. When finished it prints a one-liner you can paste directly into Claude Code; the management panel is at http://localhost:8125. Full docs in INSTALL.md.",
+          "ja": "1コマンドで完全な3点セット（memory-core + memory-hub + proxy）を起動できます：リポジトリをクローンし、deploy/global-images に入り、.env.example を .env にコピーして2組のLLMパラメータを入力し、./start-all.sh を実行するだけ。起動完了時に Claude Code にそのまま貼り付けられる一行コマンドが表示され、管理パネルは http://localhost:8125 です。完全なドキュメントは INSTALL.md（日本語訳は INSTALL_CN.md 相当）を参照。",
+          "es": "Un solo comando levanta el trío completo (memory-core + memory-hub + proxy): clona el repositorio, entra en deploy/global-images, copia .env.example a .env y rellena dos conjuntos de parámetros LLM, luego ejecuta ./start-all.sh. Al terminar imprime una línea que puedes pegar directamente en Claude Code; el panel de gestión está en http://localhost:8125. Documentación completa en INSTALL.md.",
+          "fr": "Une seule commande démarre le trio complet (memory-core + memory-hub + proxy) : clonez le dépôt, entrez dans deploy/global-images, copiez .env.example vers .env et remplissez deux ensembles de paramètres LLM, puis exécutez ./start-all.sh. À la fin, il affiche une ligne à coller directement dans Claude Code ; le panneau d'administration est sur http://localhost:8125. Documentation complète dans INSTALL.md."
+        }
+      },
+      {
+        "question": {
+          "zh": "免费吗？支持哪些 Agent 框架？",
+          "en": "Is it free? Which agent frameworks are supported?",
+          "ja": "無料ですか？対応エージェントフレームワークは？",
+          "es": "¿Es gratuito? ¿Qué frameworks de agentes soporta?",
+          "fr": "Est-ce gratuit ? Quels frameworks d'agents sont pris en charge ?"
+        },
+        "answer": {
+          "zh": "完全免费开源（MIT 协议）。目前官方支持 OpenClaw、Hermes、Claude Code、CodeBuddy 以及 SDK 集成，跨框架迁移在路线图中。安全性设计上：新的对话记忆和技能默认私有，共享是显式行为而非默认泄露，提供 private / team / restricted / agent 四层可见性。",
+          "en": "Completely free and open source (MIT). Officially supports OpenClaw, Hermes, Claude Code, CodeBuddy and SDK integration; broader cross-framework migration is on the roadmap. Privacy by design: new Chat Memory and Skills are private by default, sharing is an explicit action — visibility levels span private / team / restricted / agent.",
+          "ja": "完全無料のオープンソース（MITライセンス）です。現在は OpenClaw、Hermes、Claude Code、CodeBuddy、SDK統合を公式サポートし、より広いクロスフレームワーク移行はロードマップにあります。設計上のプライバシー：新しいチャット記憶とスキルはデフォルトでプライベート、共有は明示的な操作であり、private / team / restricted / agent の4段階の可視性があります。",
+          "es": "Completamente gratuito y de código abierto (MIT). Soporta oficialmente OpenClaw, Hermes, Claude Code, CodeBuddy e integración SDK; la migración entre frameworks más amplia está en el roadmap. Privacidad por diseño: las nuevas Memorias de Chat y Skills son privadas por defecto; compartir es una acción explícita — con niveles de visibilidad private / team / restricted / agent.",
+          "fr": "Entièrement gratuit et open source (licence MIT). Prend officiellement en charge OpenClaw, Hermes, Claude Code, CodeBuddy et l'intégration SDK ; une migration inter-frameworks plus large est sur la feuille de route. Confidentialité par conception : les nouvelles mémoires de chat et skills sont privées par défaut, le partage est une action explicite — avec des niveaux de visibilité private / team / restricted / agent."
+        }
+      }
+    ]
+  },
+  {
     "slug": "humanizer-zh",
     "name": "Humanizer-zh",
     "nameZh": "Humanizer-zh",
@@ -1659,7 +1738,7 @@
     ],
     "installCommand": "npx skills add https://github.com/op7418/Humanizer-zh.git",
     "logo": "/logos/skills/humanizer-zh.png",
-    "stars": 14862,
+    "stars": 14901,
     "developer": "op7418",
     "developerZh": "op7418",
     "faqs": [
@@ -1737,7 +1816,7 @@
     ],
     "installCommand": "npx @anthropic-ai/claude add ian-xiaohei-illustrations",
     "logo": "/logos/skills/ian-xiaohei-illustrations.png",
-    "stars": 9157,
+    "stars": 9186,
     "featured": false,
     "faqs": [
       {
@@ -1814,7 +1893,7 @@
     ],
     "installCommand": "npx @anthropic-ai/sdk add horizon",
     "logo": "/logos/skills/horizon.png",
-    "stars": 8691,
+    "stars": 8699,
     "featured": false,
     "faqs": [
       {
@@ -1892,7 +1971,7 @@
     ],
     "installCommand": "npx @anthropic-ai/sdk add guizang-social-card",
     "logo": "/logos/skills/guizang-social-card.png",
-    "stars": 6045,
+    "stars": 6134,
     "featured": false,
     "faqs": [
       {
@@ -1970,7 +2049,7 @@
     ],
     "installCommand": "npx @anthropic-ai/sdk add generative-media-skills",
     "logo": "/logos/skills/generative-media-skills.png",
-    "stars": 3996,
+    "stars": 4005,
     "featured": false,
     "faqs": [
       {
@@ -2049,7 +2128,7 @@
     ],
     "installCommand": "curl -fsSL https://raw.githubusercontent.com/FrancyJGLisboa/agent-skill-creator/main/scripts/bootstrap.sh | sh",
     "logo": "/logos/skills/agent-skill-creator.png",
-    "stars": 2171,
+    "stars": 2177,
     "developer": "FrancyJGLisboa",
     "developerZh": "FrancyJGLisboa",
     "faqs": [
@@ -2128,7 +2207,7 @@
     ],
     "installCommand": "npx @anthropic-ai/sdk add auto-redbook-skills",
     "logo": "/logos/skills/auto-redbook-skills.png",
-    "stars": 2106,
+    "stars": 2109,
     "featured": false,
     "faqs": [
       {
@@ -2206,7 +2285,7 @@
     ],
     "installCommand": "npx @anthropic-ai/sdk add ai-image-generation",
     "logo": "/logos/skills/ai-image-generation.png",
-    "stars": 687,
+    "stars": 688,
     "featured": false,
     "faqs": [
       {
@@ -2284,7 +2363,7 @@
     ],
     "installCommand": "npx @anthropic-ai/sdk add ai-video-generation",
     "logo": "/logos/skills/ai-video-generation.png",
-    "stars": 687,
+    "stars": 688,
     "featured": false,
     "faqs": [
       {
@@ -2798,85 +2877,6 @@
           "ja": "熟練は不要です。スキルは無料のオープンソースで、Remotion の専門知識を AI に渡す仕組みです。欲しい動画のイメージを伝えるだけで、AI がベストプラクティスに沿った React 動画コードを書きます。React の基礎があればより快適です。",
           "es": "No se requiere dominio. La habilidad es gratuita y de código abierto: entrega la experiencia en Remotion a la IA. Solo describe el vídeo que quieres; la IA escribe código React siguiendo las mejores prácticas. Saber React básico ayuda.",
           "fr": "Aucune maîtrise requise. La compétence est gratuite et open source — elle transmet l'expertise Remotion à l'IA. Décrivez simplement la vidéo souhaitée ; l'IA écrit du code React conforme aux bonnes pratiques. Des bases en React sont un plus."
-        }
-      }
-    ]
-  },
-  {
-    "slug": "tencentdb-agent-memory",
-    "name": "TencentDB Agent Memory",
-    "nameZh": "腾讯云数据库 Agent Memory",
-    "description": "团队级 AI Agent 记忆中枢：把对话、文档、代码沉淀为四种可复用记忆资产（对话记忆、技能、LLM Wiki、代码图谱），支持跨 Agent 框架治理与共享。支持 OpenClaw、Hermes、Claude Code、CodeBuddy 等。",
-    "descriptionEn": "A team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks. Supports OpenClaw, Hermes, Claude Code, CodeBuddy and more.",
-    "descriptionJa": "チームレベルのAIエージェント記憶ハブ。会話・ドキュメント・コードを4つの再利用可能な記憶資産（チャット記憶、スキル、LLM Wiki、コードグラフ）に変え、エージェントやフレームワークをまたいで管理・共有できます。OpenClaw、Hermes、Claude Code、CodeBuddy などに対応。",
-    "descriptionEs": "Un centro de memoria a nivel de equipo para agentes de IA: convierte conversaciones, documentos y código en cuatro activos de memoria reutilizables (Memoria de Chat, Skill, LLM-Wiki, Code-Graph) gestionados y compartidos entre agentes y frameworks. Compatible con OpenClaw, Hermes, Claude Code, CodeBuddy y más.",
-    "descriptionFr": "Un hub de mémoire au niveau de l'équipe pour les agents IA : il transforme conversations, documents et code en quatre actifs de mémoire réutilisables (Mémoire de chat, Skill, LLM-Wiki, Code-Graph), gouvernés et partagés entre agents et frameworks. Compatible avec OpenClaw, Hermes, Claude Code, CodeBuddy et plus.",
-    "developer": "Tencent Cloud",
-    "developerZh": "腾讯云",
-    "repo": "TencentCloud/TencentDB-Agent-Memory",
-    "agents": [
-      "openclaw",
-      "hermes",
-      "claude-code",
-      "codebuddy",
-      "generic"
-    ],
-    "category": "Developer",
-    "tags": [
-      "Open Source",
-      "Free"
-    ],
-    "installCommand": "git clone https://github.com/TencentCloud/TencentDB-Agent-Memory.git && cd TencentDB-Agent-Memory/deploy/global-images && cp .env.example .env && ./start-all.sh",
-    "logo": "/logos/skills/tencentdb-agent-memory.png",
-    "stars": 17574,
-    "featured": false,
-    "faqs": [
-      {
-        "question": {
-          "zh": "TencentDB Agent Memory 是什么？",
-          "en": "What is TencentDB Agent Memory?",
-          "ja": "TencentDB Agent Memory とは何ですか？",
-          "es": "¿Qué es TencentDB Agent Memory?",
-          "fr": "Qu'est-ce que TencentDB Agent Memory ?"
-        },
-        "answer": {
-          "zh": "它是腾讯云开源的团队级 Agent 记忆中枢。核心思路：已经解释过的项目背景、读过的文档、跑通的流程，不该让每个 Agent 从零再来一遍。它把对话、文档、代码自动提炼为四种记忆资产——对话记忆（L0-L3 分层蒸馏）、技能库、LLM Wiki（文档知识图谱）、代码图谱——并通过 Memory Hub 统一管理、按权限共享给团队中的各个 Agent。",
-          "en": "It is Tencent Cloud's open-source team-level memory hub for AI Agents. The core idea: project context already explained, documents already read, and workflows already proven should not be re-discovered from scratch by every agent. It distills conversations, docs, and code into four memory assets — Chat Memory (L0-L3 layered distillation), a Skill library, LLM Wiki (document knowledge graph), and CodeGraph — managed by a Memory Hub and shared with team agents under permission control.",
-          "ja": "Tencent Cloud が公開した、チームレベルの AI エージェント記憶ハブです。考え方はシンプル：説明済みのプロジェクト背景、読み終えたドキュメント、確立したワークフローを、各エージェントがゼロから再発見する必要はない。会話・ドキュメント・コードを4つの記憶資産（L0〜L3の階層蒸留によるチャット記憶、スキルライブラリ、LLM Wiki、コードグラフ）に自動的に精製し、Memory Hub で一元管理し、権限制御のもとチームのエージェントと共有します。",
-          "es": "Es el hub de memoria a nivel de equipo de código abierto de Tencent Cloud para agentes de IA. La idea central: el contexto de un proyecto ya explicado, los documentos ya leídos y los flujos ya probados no deberían redescubrirse desde cero por cada agente. Destila conversaciones, documentos y código en cuatro activos de memoria — Memoria de Chat (destilación en capas L0-L3), biblioteca de Skills, LLM Wiki (grafo de conocimiento de documentos) y CodeGraph — gestionados por un Memory Hub y compartidos con los agentes del equipo bajo control de permisos.",
-          "fr": "C'est le hub de mémoire open source au niveau de l'équipe de Tencent Cloud pour les agents IA. L'idée centrale : le contexte d'un projet déjà expliqué, les documents déjà lus et les workflows déjà validés ne devraient pas être redécouverts depuis zéro par chaque agent. Il distille conversations, documents et code en quatre actifs de mémoire — Mémoire de chat (distillation en couches L0-L3), bibliothèque de Skills, LLM Wiki (graphe de connaissances documentaires) et CodeGraph — gérés par un Memory Hub et partagés avec les agents de l'équipe sous contrôle des permissions."
-        }
-      },
-      {
-        "question": {
-          "zh": "怎么安装和部署？",
-          "en": "How do I install and deploy it?",
-          "ja": "インストールとデプロイ方法は？",
-          "es": "¿Cómo se instala y despliega?",
-          "fr": "Comment l'installer et le déployer ?"
-        },
-        "answer": {
-          "zh": "一条命令拉起完整三件套（memory-core + memory-hub + proxy）：git clone 仓库后进入 deploy/global-images 目录，复制 .env.example 为 .env 并填入两组 LLM 参数，然后运行 ./start-all.sh。启动完成后它会打印一行可直接粘贴到 Claude Code 的配置命令，管理面板在 http://localhost:8125。完整安装文档见 INSTALL_CN.md。",
-          "en": "One command brings up the full trio (memory-core + memory-hub + proxy): clone the repo, enter deploy/global-images, copy .env.example to .env and fill in two sets of LLM parameters, then run ./start-all.sh. When finished it prints a one-liner you can paste directly into Claude Code; the management panel is at http://localhost:8125. Full docs in INSTALL.md.",
-          "ja": "1コマンドで完全な3点セット（memory-core + memory-hub + proxy）を起動できます：リポジトリをクローンし、deploy/global-images に入り、.env.example を .env にコピーして2組のLLMパラメータを入力し、./start-all.sh を実行するだけ。起動完了時に Claude Code にそのまま貼り付けられる一行コマンドが表示され、管理パネルは http://localhost:8125 です。完全なドキュメントは INSTALL.md（日本語訳は INSTALL_CN.md 相当）を参照。",
-          "es": "Un solo comando levanta el trío completo (memory-core + memory-hub + proxy): clona el repositorio, entra en deploy/global-images, copia .env.example a .env y rellena dos conjuntos de parámetros LLM, luego ejecuta ./start-all.sh. Al terminar imprime una línea que puedes pegar directamente en Claude Code; el panel de gestión está en http://localhost:8125. Documentación completa en INSTALL.md.",
-          "fr": "Une seule commande démarre le trio complet (memory-core + memory-hub + proxy) : clonez le dépôt, entrez dans deploy/global-images, copiez .env.example vers .env et remplissez deux ensembles de paramètres LLM, puis exécutez ./start-all.sh. À la fin, il affiche une ligne à coller directement dans Claude Code ; le panneau d'administration est sur http://localhost:8125. Documentation complète dans INSTALL.md."
-        }
-      },
-      {
-        "question": {
-          "zh": "免费吗？支持哪些 Agent 框架？",
-          "en": "Is it free? Which agent frameworks are supported?",
-          "ja": "無料ですか？対応エージェントフレームワークは？",
-          "es": "¿Es gratuito? ¿Qué frameworks de agentes soporta?",
-          "fr": "Est-ce gratuit ? Quels frameworks d'agents sont pris en charge ?"
-        },
-        "answer": {
-          "zh": "完全免费开源（MIT 协议）。目前官方支持 OpenClaw、Hermes、Claude Code、CodeBuddy 以及 SDK 集成，跨框架迁移在路线图中。安全性设计上：新的对话记忆和技能默认私有，共享是显式行为而非默认泄露，提供 private / team / restricted / agent 四层可见性。",
-          "en": "Completely free and open source (MIT). Officially supports OpenClaw, Hermes, Claude Code, CodeBuddy and SDK integration; broader cross-framework migration is on the roadmap. Privacy by design: new Chat Memory and Skills are private by default, sharing is an explicit action — visibility levels span private / team / restricted / agent.",
-          "ja": "完全無料のオープンソース（MITライセンス）です。現在は OpenClaw、Hermes、Claude Code、CodeBuddy、SDK統合を公式サポートし、より広いクロスフレームワーク移行はロードマップにあります。設計上のプライバシー：新しいチャット記憶とスキルはデフォルトでプライベート、共有は明示的な操作であり、private / team / restricted / agent の4段階の可視性があります。",
-          "es": "Completamente gratuito y de código abierto (MIT). Soporta oficialmente OpenClaw, Hermes, Claude Code, CodeBuddy e integración SDK; la migración entre frameworks más amplia está en el roadmap. Privacidad por diseño: las nuevas Memorias de Chat y Skills son privadas por defecto; compartir es una acción explícita — con niveles de visibilidad private / team / restricted / agent.",
-          "fr": "Entièrement gratuit et open source (licence MIT). Prend officiellement en charge OpenClaw, Hermes, Claude Code, CodeBuddy et l'intégration SDK ; une migration inter-frameworks plus large est sur la feuille de route. Confidentialité par conception : les nouvelles mémoires de chat et skills sont privées par défaut, le partage est une action explicite — avec des niveaux de visibilité private / team / restricted / agent."
         }
       }
     ]
