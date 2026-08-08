@@ -3597,5 +3597,124 @@
         "Apprendre à structurer des prompts d'agents professionnels à partir de 230+ exemples éprouvés"
       ]
     }
+  },
+  "tencentdb-agent-memory": {
+    "pros": {
+      "en": [
+        "Converts conversations, docs, and code into four reusable memory assets automatically",
+        "L0-L3 layered memory distillation with BM25 + vector retrieval + RRF fallback",
+        "Privacy by design: private-by-default sharing with four visibility levels",
+        "Framework-agnostic — supports OpenClaw, Hermes, Claude Code, CodeBuddy and SDK",
+        "One-command deployment with a local management panel"
+      ],
+      "zh": [
+        "自动把对话、文档、代码沉淀为四种可复用记忆资产",
+        "L0-L3 分层记忆蒸馏，BM25 + 向量检索 + RRF 兜底召回",
+        "隐私优先：默认私有，四级可见性（private/team/restricted/agent）",
+        "跨框架通用：支持 OpenClaw、Hermes、Claude Code、CodeBuddy 与 SDK",
+        "一键部署，自带本地管理面板"
+      ],
+      "ja": [
+        "会話・ドキュメント・コードを4つの再利用可能な記憶資産に自動変換",
+        "L0〜L3の階層記憶蒸留、BM25 + ベクトル検索 + RRFフォールバック",
+        "プライバシー優先：デフォルト非公開、4段階の可視性（private/team/restricted/agent）",
+        "フレームワーク非依存：OpenClaw、Hermes、Claude Code、CodeBuddy、SDKに対応",
+        "ワンコマンドデプロイ、ローカル管理パネル付き"
+      ],
+      "es": [
+        "Convierte conversaciones, documentos y código en cuatro activos de memoria reutilizables automáticamente",
+        "Destilación de memoria en capas L0-L3 con BM25 + recuperación vectorial + respaldo RRF",
+        "Privacidad por diseño: privado por defecto con cuatro niveles de visibilidad",
+        "Independiente del framework — soporta OpenClaw, Hermes, Claude Code, CodeBuddy y SDK",
+        "Despliegue con un comando y panel de gestión local"
+      ],
+      "fr": [
+        "Convertit automatiquement conversations, documents et code en quatre actifs de mémoire réutilisables",
+        "Distillation de mémoire en couches L0-L3 avec BM25 + recherche vectorielle + repli RRF",
+        "Confidentialité par conception : privé par défaut avec quatre niveaux de visibilité",
+        "Indépendant du framework — compatible OpenClaw, Hermes, Claude Code, CodeBuddy et SDK",
+        "Déploiement en une commande avec panneau de gestion local"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Project is in early stages (Team Memory Beta) with 553 open issues",
+        "Requires configuring two sets of LLM parameters and running local services",
+        "Wiki and CodeGraph are built asynchronously — need processing time to become ready",
+        "CodeGraph currently prioritizes public HTTPS repos; private repo/SSH support still maturing",
+        "Fully automated memory routing is still under iteration"
+      ],
+      "zh": [
+        "项目处于早期阶段（Team Memory Beta），公开 issue 553 个",
+        "需要自行配置两组 LLM 参数并运行本地服务",
+        "Wiki 和代码图谱为异步构建，需等待处理时间才能就绪",
+        "代码图谱目前优先支持公开 HTTPS 仓库，私有仓库/SSH 支持仍在完善",
+        "全自动记忆路由仍在迭代中"
+      ],
+      "ja": [
+        "プロジェクトは初期段階（Team Memory Beta）で、公開issueが553件",
+        "2組のLLMパラメータ設定とローカルサービスの実行が必要",
+        "Wikiとコードグラフは非同期構築で、準備完了まで処理時間が必要",
+        "コードグラフは現状、公開HTTPSリポジトリを優先。プライベートリポジトリ/SSH対応は開発中",
+        "完全自動のメモリルーティングはまだ改善中"
+      ],
+      "es": [
+        "El proyecto está en fase temprana (Team Memory Beta) con 553 issues abiertos",
+        "Requiere configurar dos conjuntos de parámetros LLM y ejecutar servicios locales",
+        "Wiki y CodeGraph se construyen asincrónicamente — necesitan tiempo de procesamiento",
+        "CodeGraph prioriza repos HTTPS públicos; el soporte para repos privados/SSH aún madura",
+        "El enrutamiento de memoria totalmente automático sigue en iteración"
+      ],
+      "fr": [
+        "Projet en phase précoce (Team Memory Beta) avec 553 issues ouvertes",
+        "Nécessite de configurer deux ensembles de paramètres LLM et de lancer des services locaux",
+        "Wiki et CodeGraph sont construits de manière asynchrone — du temps de traitement est requis",
+        "CodeGraph privilégie les dépôts HTTPS publics ; le support des dépôts privés/SSH mûrit encore",
+        "Le routage mémoire entièrement automatisé est encore en itération"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "Free and open source (MIT)",
+        "zh": "免费开源（MIT 协议）",
+        "ja": "無料のオープンソース（MITライセンス）",
+        "es": "Gratuito y de código abierto (MIT)",
+        "fr": "Gratuit et open source (licence MIT)"
+      }
+    },
+    "verdict": {
+      "en": "TencentDB Agent Memory is a serious contender in the young agent-memory space: it turns the \"memory\" idea from a nice-to-have into a governed, shareable team asset with layered distillation (L0-L3), permission-aware sharing, and framework-agnostic design. The one-command deployment and local panel lower the barrier considerably. Still, it is a Beta with a notable open-issue count, asynchronous indexing, and a CodeGraph that favors public repos — early adopters should budget time for setup and iteration.",
+      "zh": "TencentDB Agent Memory 是年轻的 Agent 记忆赛道上的有力竞争者：它把「记忆」从一个锦上添花的概念变成可治理、可共享的团队资产——分层蒸馏（L0-L3）、权限感知共享、跨框架设计。一键部署和本地面板大幅降低了门槛。但它仍是 Beta 阶段，公开 issue 较多，索引异步化，代码图谱偏向公开仓库——早期采用者需要在搭建和迭代上预留时间。",
+      "ja": "TencentDB Agent Memory は、若いエージェントメモリ領域における有力候補です。「メモリ」という概念を、階層蒸留（L0〜L3）、権限対応共有、フレームワーク非依存設計を備えた、管理・共有可能なチーム資産へと昇華しています。ワンコマンドデプロイとローカルパネルでハードルは大幅に下がります。ただしBeta段階で公開issueも多く、索引は非同期、コードグラフは公開リポジトリ中心——早期導入者はセットアップと反復に時間を確保すべきです。",
+      "es": "TencentDB Agent Memory es un contendiente serio en el joven espacio de memoria para agentes: convierte la idea de \"memoria\" de un extra en un activo de equipo gobernado y compartible con destilación en capas (L0-L3), intercambio consciente de permisos y diseño independiente del framework. El despliegue con un comando y el panel local bajan la barrera considerablemente. Aun así, es una Beta con un número notable de issues abiertos, indexación asíncrona y un CodeGraph que favorece repos públicos — los primeros adoptantes deben reservar tiempo para instalación e iteración.",
+      "fr": "TencentDB Agent Memory est un sérieux concurrent dans le jeune espace de la mémoire pour agents : il transforme l'idée de « mémoire » d'un simple bonus en un actif d'équipe gouverné et partageable, avec distillation en couches (L0-L3), partage sensible aux permissions et conception indépendante du framework. Le déploiement en une commande et le panneau local abaissent considérablement la barrière. Ceci dit, c'est une Beta avec un nombre notable d'issues ouvertes, une indexation asynchrone et un CodeGraph favorisant les dépôts publics — les premiers adoptants doivent prévoir du temps pour l'installation et l'itération."
+    },
+    "useCases": {
+      "en": [
+        "Giving a team of AI agents shared long-term memory across sessions and frameworks",
+        "Turning an existing codebase and docs into searchable Wiki and CodeGraph assets",
+        "Letting new agents cold-start from accumulated team experience instead of learning from scratch"
+      ],
+      "zh": [
+        "为团队的一群 AI Agent 提供跨会话、跨框架的共享长期记忆",
+        "把存量代码库和文档变成可检索的 Wiki 与代码图谱资产",
+        "让新 Agent 从团队沉淀的经验冷启动，而不是从零学起"
+      ],
+      "ja": [
+        "チームのAIエージェント群に、セッション・フレームワークをまたぐ共有長期記憶を提供",
+        "既存のコードベースとドキュメントを検索可能なWikiとコードグラフ資産に変換",
+        "新エージェントが蓄積されたチーム経験からコールドスタートできるようにする"
+      ],
+      "es": [
+        "Dar a un equipo de agentes de IA memoria compartida a largo plazo entre sesiones y frameworks",
+        "Convertir una base de código y documentación existentes en activos Wiki y CodeGraph buscables",
+        "Permitir que nuevos agentes arranquen desde la experiencia acumulada del equipo en lugar de aprender desde cero"
+      ],
+      "fr": [
+        "Offrir à une équipe d'agents IA une mémoire partagée à long terme entre sessions et frameworks",
+        "Transformer un codebase et une documentation existants en actifs Wiki et CodeGraph interrogeables",
+        "Permettre aux nouveaux agents de démarrer à froid depuis l'expérience accumulée de l'équipe plutôt que d'apprendre de zéro"
+      ]
+    }
   }
 }
