@@ -1,12 +1,13 @@
 name: Refresh GitHub Ranking
 
 # GitHub AI 项目排行榜定时刷新
-# 每周一 UTC 00:00 自动运行一次，同时支持手动触发
+# 每日 UTC 20:47 自动运行（与 refresh-stars 同一时间，星数同步刷新）
+# 同时支持手动触发
 
 on:
   schedule:
-    # 每周一 UTC 00:00（北京时间 08:00）
-    - cron: '0 0 * * 1'
+    # 每日 UTC 20:47（北京时间凌晨 4:47）
+    - cron: '47 20 * * *'
   workflow_dispatch:
 
 permissions:
@@ -25,7 +26,7 @@ jobs:
           node-version: 20
 
       - name: 运行排行榜算法
-        run: node _internal/github-ranking/rank.js
+        run: node scripts/github-ranking/rank.js
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
