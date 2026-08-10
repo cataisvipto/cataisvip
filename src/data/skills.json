@@ -2880,5 +2880,87 @@
         }
       }
     ]
+  },
+  {
+    "slug": "caveman",
+    "name": "Caveman",
+    "nameZh": "Caveman（原始人省钱技能）",
+    "description": "让 AI 编码智能体像原始人一样说话，平均减少 65% 输出 token 的开源技能。支持 Claude Code、Codex、Gemini、Cursor 等 30+ 智能体。",
+    "descriptionEn": "Open-source skill that makes AI coding agents talk like a caveman, cutting ~65% of output tokens. Works with Claude Code, Codex, Gemini, Cursor, and 30+ agents.",
+    "descriptionJa": "AIコーディングエージェントに原始人のように話させ、出力トークンを平均65%削減するオープンソーススキル。Claude Code、Codex、Gemini、Cursor など30以上のエージェントに対応。",
+    "descriptionEs": "Skill de código abierto que hace que los agentes de codificación IA hablen como cavernícolas, reduciendo un ~65% de los tokens de salida. Compatible con Claude Code, Codex, Gemini, Cursor y más de 30 agentes.",
+    "descriptionFr": "Skill open source qui fait parler les agents de codage IA comme des hommes des cavernes, réduisant d'environ 65 % les tokens de sortie. Compatible avec Claude Code, Codex, Gemini, Cursor et 30+ agents.",
+    "developer": "Julius Brussee",
+    "developerZh": "Julius Brussee",
+    "repo": "JuliusBrussee/caveman",
+    "agents": [
+      "claude",
+      "codex",
+      "gemini-cli",
+      "cursor",
+      "windsurf",
+      "cline",
+      "copilot",
+      "generic"
+    ],
+    "category": "Developer",
+    "tags": [
+      "Open Source",
+      "Free"
+    ],
+    "installCommand": "curl -fsSL https://raw.githubusercontent.com/JuliusBrussee/caveman/main/install.sh | bash",
+    "logo": "/logos/skills/caveman.png",
+    "stars": 97212,
+    "featured": false,
+    "faqs": [
+      {
+        "question": {
+          "zh": "Caveman 是什么？",
+          "en": "What is Caveman?",
+          "ja": "Caveman とは何ですか？",
+          "es": "¿Qué es Caveman?",
+          "fr": "Qu'est-ce que Caveman ?"
+        },
+        "answer": {
+          "zh": "Caveman 是一个开源的 AI 编码智能体技能，让 Claude Code、Codex、Gemini 等智能体「像原始人一样说话」——砍掉回覆中的废话和客套话，只保留技术干货。实测平均减少 65% 的输出 token，代码、命令、错误信息一字不差。JetBrains 独立测试 86 个编码任务，输出 token 节省 8.5%，质量无统计学差异。",
+          "en": "Caveman is an open-source skill for AI coding agents that makes Claude Code, Codex, Gemini and others \"talk like a caveman\" — stripping filler and pleasantries from replies, keeping only the technical substance. Benchmarked at ~65% average output token reduction on prose, and 8.5% on long-horizon agentic coding runs (JetBrains, 86 tasks) with no statistical quality difference.",
+          "ja": "Caveman は、Claude Code、Codex、Gemini などの AI コーディングエージェントに「原始人のように話させる」オープンソーススキルです。返信から無駄な言葉を省き、技術的な内容だけを残します。プロースで平均65%の出力トークン削減、JetBrains の86タスクテストでは8.5%削減、品質に統計的差異はありません。",
+          "es": "Caveman es un skill de código abierto para agentes de codificación IA que hace que Claude Code, Codex, Gemini y otros \"hablen como cavernícolas\" — eliminando relleno y cortesías, dejando solo lo técnico. Reduce ~65% de tokens de salida en prosa, y 8.5% en tareas de codificación autónomas (JetBrains, 86 tareas) sin diferencia estadística en calidad.",
+          "fr": "Caveman est un skill open source pour les agents de codage IA qui fait parler Claude Code, Codex, Gemini et d'autres « comme des hommes des cavernes » — supprimant le remplissage et les formules de politesse, ne gardant que le contenu technique. Réduction moyenne de ~65 % des tokens de sortie en prose, et 8,5 % sur des tâches de codage autonomes (JetBrains, 86 tâches) sans différence statistique de qualité."
+        }
+      },
+      {
+        "question": {
+          "zh": "怎么安装 Caveman？",
+          "en": "How do I install Caveman?",
+          "ja": "Caveman をインストールするには？",
+          "es": "¿Cómo instalo Caveman?",
+          "fr": "Comment installer Caveman ?"
+        },
+        "answer": {
+          "zh": "一条命令即可：curl -fsSL https://raw.githubusercontent.com/JuliusBrussee/caveman/main/install.sh | bash。此命令会自动检测本机所有支持的智能体（Claude Code、Codex、Gemini CLI、Cursor、Windsurf、Cline、Copilot 等），一次性为全部安装。安装后输入 /caveman 或说 \"talk like caveman\" 激活。也支持逐个安装：claude plugin marketplace add JuliusBrussee/caveman。",
+          "en": "One command: curl -fsSL https://raw.githubusercontent.com/JuliusBrussee/caveman/main/install.sh | bash. It auto-detects every supported agent on your machine (Claude Code, Codex, Gemini CLI, Cursor, Windsurf, Cline, Copilot, etc.) and installs for all. Activate with /caveman or \"talk like caveman\". Per-agent install also available: claude plugin marketplace add JuliusBrussee/caveman.",
+          "ja": "1コマンドでインストール：curl -fsSL https://raw.githubusercontent.com/JuliusBrussee/caveman/main/install.sh | bash。対応する全エージェントを自動検出し一括インストール。アクティベートは /caveman または「talk like caveman」。個別インストールも可能：claude plugin marketplace add JuliusBrussee/caveman。",
+          "es": "Un solo comando: curl -fsSL https://raw.githubusercontent.com/JuliusBrussee/caveman/main/install.sh | bash. Detecta automáticamente todos los agentes compatibles (Claude Code, Codex, Gemini CLI, Cursor, Windsurf, Cline, Copilot, etc.) y los instala para todos. Actívalo con /caveman o \"talk like caveman\".",
+          "fr": "Une seule commande : curl -fsSL https://raw.githubusercontent.com/JuliusBrussee/caveman/main/install.sh | bash. Il détecte automatiquement tous les agents compatibles (Claude Code, Codex, Gemini CLI, Cursor, Windsurf, Cline, Copilot, etc.) et installe pour tous. Activez avec /caveman ou \"talk like caveman\"."
+        }
+      },
+      {
+        "question": {
+          "zh": "Caveman 免费吗？真的能省钱吗？",
+          "en": "Is Caveman free? Does it really save money?",
+          "ja": "Caveman は無料ですか？本当に節約になりますか？",
+          "es": "¿Es gratuito Caveman? ¿Realmente ahorra dinero?",
+          "fr": "Caveman est-il gratuit ? Permet-il vraiment d'économiser ?"
+        },
+        "answer": {
+          "zh": "完全免费开源（MIT 协议）。节省效果看场景：聊天式回复（解释、审阅、调试引导）可省 65% 输出 token；自主编码任务（JetBrains 实测 86 个任务）省 8.5%。Caveman 只压缩输出 token，输入 token 不变，技能本身每轮增加约 1-1.5k 输入 token。所以整轮对话的节省因场景而异，但代码质量不变。另外 /caveman-compress 命令可压缩 CLAUDE.md 等记忆文件，一次性节省约 46% 输入 token。",
+          "en": "Completely free and open source (MIT). Savings depend on workload: chat-style replies (explanations, reviews, debugging) save ~65% output tokens; autonomous coding runs (JetBrains, 86 tasks) save ~8.5%. Caveman only compresses output tokens — input tokens unchanged, and the skill adds ~1-1.5k input tokens per turn. Whole-session savings vary. The /caveman-compress command also shrinks memory files like CLAUDE.md by ~46%, saving input tokens forever.",
+          "ja": "完全無料のオープンソース（MITライセンス）。節約効果はワークロード次第：チャット形式の返信（説明、レビュー、デバッグ）は出力トークンを約65%削減。自律的コーディング（JetBrains 86タスク）は8.5%削減。Caveman は出力トークンのみ圧縮し、入力トークンは変わらず、スキル自体が毎ターン約1〜1.5kの入力トークンを追加します。セッション全体の節約は状況によります。",
+          "es": "Completamente gratuito y de código abierto (MIT). El ahorro depende de la carga de trabajo: respuestas tipo chat (explicaciones, revisiones, depuración) ahorran ~65% tokens de salida; tareas de codificación autónomas (JetBrains, 86 tareas) ahorran ~8.5%. Caveman solo comprime tokens de salida — los de entrada no cambian, y el skill añade ~1-1.5k tokens de entrada por turno. El ahorro total varía por sesión.",
+          "fr": "Entièrement gratuit et open source (licence MIT). Les économies dépendent de la charge de travail : les réponses de type chat (explications, révisions, débogage) économisent ~65 % des tokens de sortie ; les tâches de codage autonomes (JetBrains, 86 tâches) économisent ~8,5 %. Caveman ne comprime que les tokens de sortie — les tokens d'entrée sont inchangés, et le skill ajoute ~1 à 1,5 k tokens d'entrée par tour. Les économies globales varient selon la session."
+        }
+      }
+    ]
   }
 ]
