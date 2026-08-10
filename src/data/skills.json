@@ -21,7 +21,7 @@
     ],
     "installCommand": "See README for details.",
     "logo": "/logos/skills/awesome-selfhosted.png",
-    "stars": 311612,
+    "stars": 311833,
     "featured": false,
     "faqs": [
       {
@@ -103,7 +103,7 @@
     ],
     "installCommand": "Available via Claude Code marketplace, Cursor /add-plugin, Codex plugin marketplace, and more. See README for details.",
     "logo": "/logos/skills/superpowers.png",
-    "stars": 269691,
+    "stars": 270199,
     "featured": false,
     "faqs": [
       {
@@ -181,7 +181,7 @@
     ],
     "installCommand": "npx @anthropic-ai/sdk add grill-me",
     "logo": "/logos/skills/grill-me.png",
-    "stars": 211042,
+    "stars": 212504,
     "featured": false,
     "faqs": [
       {
@@ -259,7 +259,7 @@
     ],
     "installCommand": "npx @anthropic-ai/sdk add grill-with-docs",
     "logo": "/logos/skills/grill-with-docs.png",
-    "stars": 211042,
+    "stars": 212504,
     "featured": false,
     "faqs": [
       {
@@ -337,7 +337,7 @@
     ],
     "installCommand": "npx @anthropic-ai/sdk add improve-codebase-architecture",
     "logo": "/logos/skills/improve-codebase-architecture.png",
-    "stars": 211042,
+    "stars": 212504,
     "featured": false,
     "faqs": [
       {
@@ -425,7 +425,7 @@
     ],
     "installCommand": "Download the app at agencyagents.app (macOS/Linux/Windows) or run ./scripts/install.sh --tool <tool> from the repo.",
     "logo": "/logos/skills/agency-agents.png",
-    "stars": 140582,
+    "stars": 141752,
     "featured": false,
     "faqs": [
       {
@@ -503,7 +503,7 @@
     ],
     "installCommand": "Available via plugin marketplace. See README for details.",
     "logo": "/logos/skills/banner-design.png",
-    "stars": 114981,
+    "stars": 115315,
     "featured": false,
     "faqs": [
       {
@@ -581,7 +581,7 @@
     ],
     "installCommand": "Available via plugin marketplace. See README for details.",
     "logo": "/logos/skills/brand.png",
-    "stars": 114981,
+    "stars": 115315,
     "featured": false,
     "faqs": [
       {
@@ -659,7 +659,7 @@
     ],
     "installCommand": "Available via plugin marketplace. See README for details.",
     "logo": "/logos/skills/design.png",
-    "stars": 114981,
+    "stars": 115315,
     "featured": false,
     "faqs": [
       {
@@ -737,7 +737,7 @@
     ],
     "installCommand": "Available via plugin marketplace. See README for details.",
     "logo": "/logos/skills/design-system.png",
-    "stars": 114981,
+    "stars": 115315,
     "featured": false,
     "faqs": [
       {
@@ -815,7 +815,7 @@
     ],
     "installCommand": "Available via plugin marketplace. See README for details.",
     "logo": "/logos/skills/slides.png",
-    "stars": 114981,
+    "stars": 115315,
     "featured": false,
     "faqs": [
       {
@@ -893,7 +893,7 @@
     ],
     "installCommand": "Available via plugin marketplace. See README for details.",
     "logo": "/logos/skills/ui-styling.png",
-    "stars": 114981,
+    "stars": 115315,
     "featured": false,
     "faqs": [
       {
@@ -947,6 +947,88 @@
     ]
   },
   {
+    "slug": "caveman",
+    "name": "Caveman",
+    "nameZh": "Caveman（原始人省钱技能）",
+    "description": "让 AI 编码智能体像原始人一样说话，平均减少 65% 输出 token 的开源技能。支持 Claude Code、Codex、Gemini、Cursor 等 30+ 智能体。",
+    "descriptionEn": "Open-source skill that makes AI coding agents talk like a caveman, cutting ~65% of output tokens. Works with Claude Code, Codex, Gemini, Cursor, and 30+ agents.",
+    "descriptionJa": "AIコーディングエージェントに原始人のように話させ、出力トークンを平均65%削減するオープンソーススキル。Claude Code、Codex、Gemini、Cursor など30以上のエージェントに対応。",
+    "descriptionEs": "Skill de código abierto que hace que los agentes de codificación IA hablen como cavernícolas, reduciendo un ~65% de los tokens de salida. Compatible con Claude Code, Codex, Gemini, Cursor y más de 30 agentes.",
+    "descriptionFr": "Skill open source qui fait parler les agents de codage IA comme des hommes des cavernes, réduisant d'environ 65 % les tokens de sortie. Compatible avec Claude Code, Codex, Gemini, Cursor et 30+ agents.",
+    "developer": "Julius Brussee",
+    "developerZh": "Julius Brussee",
+    "repo": "JuliusBrussee/caveman",
+    "agents": [
+      "claude",
+      "codex",
+      "gemini-cli",
+      "cursor",
+      "windsurf",
+      "cline",
+      "copilot",
+      "generic"
+    ],
+    "category": "Developer",
+    "tags": [
+      "Open Source",
+      "Free"
+    ],
+    "installCommand": "curl -fsSL https://raw.githubusercontent.com/JuliusBrussee/caveman/main/install.sh | bash",
+    "logo": "/logos/skills/caveman.png",
+    "stars": 97290,
+    "featured": false,
+    "faqs": [
+      {
+        "question": {
+          "zh": "Caveman 是什么？",
+          "en": "What is Caveman?",
+          "ja": "Caveman とは何ですか？",
+          "es": "¿Qué es Caveman?",
+          "fr": "Qu'est-ce que Caveman ?"
+        },
+        "answer": {
+          "zh": "Caveman 是一个开源的 AI 编码智能体技能，让 Claude Code、Codex、Gemini 等智能体「像原始人一样说话」——砍掉回覆中的废话和客套话，只保留技术干货。实测平均减少 65% 的输出 token，代码、命令、错误信息一字不差。JetBrains 独立测试 86 个编码任务，输出 token 节省 8.5%，质量无统计学差异。",
+          "en": "Caveman is an open-source skill for AI coding agents that makes Claude Code, Codex, Gemini and others \"talk like a caveman\" — stripping filler and pleasantries from replies, keeping only the technical substance. Benchmarked at ~65% average output token reduction on prose, and 8.5% on long-horizon agentic coding runs (JetBrains, 86 tasks) with no statistical quality difference.",
+          "ja": "Caveman は、Claude Code、Codex、Gemini などの AI コーディングエージェントに「原始人のように話させる」オープンソーススキルです。返信から無駄な言葉を省き、技術的な内容だけを残します。プロースで平均65%の出力トークン削減、JetBrains の86タスクテストでは8.5%削減、品質に統計的差異はありません。",
+          "es": "Caveman es un skill de código abierto para agentes de codificación IA que hace que Claude Code, Codex, Gemini y otros \"hablen como cavernícolas\" — eliminando relleno y cortesías, dejando solo lo técnico. Reduce ~65% de tokens de salida en prosa, y 8.5% en tareas de codificación autónomas (JetBrains, 86 tareas) sin diferencia estadística en calidad.",
+          "fr": "Caveman est un skill open source pour les agents de codage IA qui fait parler Claude Code, Codex, Gemini et d'autres « comme des hommes des cavernes » — supprimant le remplissage et les formules de politesse, ne gardant que le contenu technique. Réduction moyenne de ~65 % des tokens de sortie en prose, et 8,5 % sur des tâches de codage autonomes (JetBrains, 86 tâches) sans différence statistique de qualité."
+        }
+      },
+      {
+        "question": {
+          "zh": "怎么安装 Caveman？",
+          "en": "How do I install Caveman?",
+          "ja": "Caveman をインストールするには？",
+          "es": "¿Cómo instalo Caveman?",
+          "fr": "Comment installer Caveman ?"
+        },
+        "answer": {
+          "zh": "一条命令即可：curl -fsSL https://raw.githubusercontent.com/JuliusBrussee/caveman/main/install.sh | bash。此命令会自动检测本机所有支持的智能体（Claude Code、Codex、Gemini CLI、Cursor、Windsurf、Cline、Copilot 等），一次性为全部安装。安装后输入 /caveman 或说 \"talk like caveman\" 激活。也支持逐个安装：claude plugin marketplace add JuliusBrussee/caveman。",
+          "en": "One command: curl -fsSL https://raw.githubusercontent.com/JuliusBrussee/caveman/main/install.sh | bash. It auto-detects every supported agent on your machine (Claude Code, Codex, Gemini CLI, Cursor, Windsurf, Cline, Copilot, etc.) and installs for all. Activate with /caveman or \"talk like caveman\". Per-agent install also available: claude plugin marketplace add JuliusBrussee/caveman.",
+          "ja": "1コマンドでインストール：curl -fsSL https://raw.githubusercontent.com/JuliusBrussee/caveman/main/install.sh | bash。対応する全エージェントを自動検出し一括インストール。アクティベートは /caveman または「talk like caveman」。個別インストールも可能：claude plugin marketplace add JuliusBrussee/caveman。",
+          "es": "Un solo comando: curl -fsSL https://raw.githubusercontent.com/JuliusBrussee/caveman/main/install.sh | bash. Detecta automáticamente todos los agentes compatibles (Claude Code, Codex, Gemini CLI, Cursor, Windsurf, Cline, Copilot, etc.) y los instala para todos. Actívalo con /caveman o \"talk like caveman\".",
+          "fr": "Une seule commande : curl -fsSL https://raw.githubusercontent.com/JuliusBrussee/caveman/main/install.sh | bash. Il détecte automatiquement tous les agents compatibles (Claude Code, Codex, Gemini CLI, Cursor, Windsurf, Cline, Copilot, etc.) et installe pour tous. Activez avec /caveman ou \"talk like caveman\"."
+        }
+      },
+      {
+        "question": {
+          "zh": "Caveman 免费吗？真的能省钱吗？",
+          "en": "Is Caveman free? Does it really save money?",
+          "ja": "Caveman は無料ですか？本当に節約になりますか？",
+          "es": "¿Es gratuito Caveman? ¿Realmente ahorra dinero?",
+          "fr": "Caveman est-il gratuit ? Permet-il vraiment d'économiser ?"
+        },
+        "answer": {
+          "zh": "完全免费开源（MIT 协议）。节省效果看场景：聊天式回复（解释、审阅、调试引导）可省 65% 输出 token；自主编码任务（JetBrains 实测 86 个任务）省 8.5%。Caveman 只压缩输出 token，输入 token 不变，技能本身每轮增加约 1-1.5k 输入 token。所以整轮对话的节省因场景而异，但代码质量不变。另外 /caveman-compress 命令可压缩 CLAUDE.md 等记忆文件，一次性节省约 46% 输入 token。",
+          "en": "Completely free and open source (MIT). Savings depend on workload: chat-style replies (explanations, reviews, debugging) save ~65% output tokens; autonomous coding runs (JetBrains, 86 tasks) save ~8.5%. Caveman only compresses output tokens — input tokens unchanged, and the skill adds ~1-1.5k input tokens per turn. Whole-session savings vary. The /caveman-compress command also shrinks memory files like CLAUDE.md by ~46%, saving input tokens forever.",
+          "ja": "完全無料のオープンソース（MITライセンス）。節約効果はワークロード次第：チャット形式の返信（説明、レビュー、デバッグ）は出力トークンを約65%削減。自律的コーディング（JetBrains 86タスク）は8.5%削減。Caveman は出力トークンのみ圧縮し、入力トークンは変わらず、スキル自体が毎ターン約1〜1.5kの入力トークンを追加します。セッション全体の節約は状況によります。",
+          "es": "Completamente gratuito y de código abierto (MIT). El ahorro depende de la carga de trabajo: respuestas tipo chat (explicaciones, revisiones, depuración) ahorran ~65% tokens de salida; tareas de codificación autónomas (JetBrains, 86 tareas) ahorran ~8.5%. Caveman solo comprime tokens de salida — los de entrada no cambian, y el skill añade ~1-1.5k tokens de entrada por turno. El ahorro total varía por sesión.",
+          "fr": "Entièrement gratuit et open source (licence MIT). Les économies dépendent de la charge de travail : les réponses de type chat (explications, révisions, débogage) économisent ~65 % des tokens de sortie ; les tâches de codage autonomes (JetBrains, 86 tâches) économisent ~8,5 %. Caveman ne comprime que les tokens de sortie — les tokens d'entrée sont inchangés, et le skill ajoute ~1 à 1,5 k tokens d'entrée par tour. Les économies globales varient selon la session."
+        }
+      }
+    ]
+  },
+  {
     "slug": "taste-skill",
     "name": "Taste-Skill",
     "nameZh": "Taste-Skill",
@@ -966,7 +1048,7 @@
       "codex",
       "claude-code"
     ],
-    "stars": 74575,
+    "stars": 75008,
     "developer": "Leonxlnx",
     "developerZh": "Leonxlnx",
     "installCommand": "npm i -g taste-skill",
@@ -1046,7 +1128,7 @@
     ],
     "installCommand": "See README for installation instructions.",
     "logo": "/logos/skills/agent-reach.png",
-    "stars": 69672,
+    "stars": 70270,
     "featured": false,
     "faqs": [
       {
@@ -1121,7 +1203,7 @@
     ],
     "installCommand": "See README for installation instructions.",
     "logo": "/logos/skills/media-crawler.png",
-    "stars": 60566,
+    "stars": 60963,
     "featured": false,
     "faqs": [
       {
@@ -1198,7 +1280,7 @@
     ],
     "installCommand": "npx @anthropic-ai/claude add mcp-server-humanizer",
     "logo": "/logos/skills/humanizer.png",
-    "stars": 34498,
+    "stars": 34716,
     "featured": false,
     "faqs": [
       {
@@ -1276,7 +1358,7 @@
     ],
     "installCommand": "npx @anthropic-ai/sdk add nuwa-skill",
     "logo": "/logos/skills/nuwa-skill.png",
-    "stars": 30122,
+    "stars": 30227,
     "featured": false,
     "faqs": [
       {
@@ -1355,7 +1437,7 @@
     ],
     "installCommand": "npx @anthropic-ai/sdk add find-skills",
     "logo": "/logos/skills/find-skills.png",
-    "stars": 28482,
+    "stars": 28584,
     "featured": false,
     "faqs": [
       {
@@ -1433,7 +1515,7 @@
     ],
     "installCommand": "npx @anthropic-ai/sdk add huashu-design",
     "logo": "/logos/skills/huashu-design.png",
-    "stars": 22699,
+    "stars": 22769,
     "featured": false,
     "faqs": [
       {
@@ -1510,7 +1592,7 @@
     ],
     "installCommand": "pip install book-to-skill",
     "logo": "/logos/skills/book-to-skill.png",
-    "stars": 19404,
+    "stars": 19973,
     "featured": false,
     "faqs": [
       {
@@ -1589,7 +1671,7 @@
     ],
     "installCommand": "git clone https://github.com/TencentCloud/TencentDB-Agent-Memory.git && cd TencentDB-Agent-Memory/deploy/global-images && cp .env.example .env && ./start-all.sh",
     "logo": "/logos/skills/tencentdb-agent-memory.png",
-    "stars": 18722,
+    "stars": 19374,
     "featured": false,
     "faqs": [
       {
@@ -1664,7 +1746,7 @@
     ],
     "installCommand": "pip install pyvideotrans",
     "logo": "/logos/skills/pyvideotrans.png",
-    "stars": 18629,
+    "stars": 18636,
     "featured": false,
     "faqs": [
       {
@@ -1738,7 +1820,7 @@
     ],
     "installCommand": "npx skills add https://github.com/op7418/Humanizer-zh.git",
     "logo": "/logos/skills/humanizer-zh.png",
-    "stars": 14949,
+    "stars": 15005,
     "developer": "op7418",
     "developerZh": "op7418",
     "faqs": [
@@ -1816,7 +1898,7 @@
     ],
     "installCommand": "npx @anthropic-ai/claude add ian-xiaohei-illustrations",
     "logo": "/logos/skills/ian-xiaohei-illustrations.png",
-    "stars": 9223,
+    "stars": 9296,
     "featured": false,
     "faqs": [
       {
@@ -1893,7 +1975,7 @@
     ],
     "installCommand": "npx @anthropic-ai/sdk add horizon",
     "logo": "/logos/skills/horizon.png",
-    "stars": 8712,
+    "stars": 8735,
     "featured": false,
     "faqs": [
       {
@@ -1971,7 +2053,7 @@
     ],
     "installCommand": "npx @anthropic-ai/sdk add guizang-social-card",
     "logo": "/logos/skills/guizang-social-card.png",
-    "stars": 6174,
+    "stars": 6202,
     "featured": false,
     "faqs": [
       {
@@ -2049,7 +2131,7 @@
     ],
     "installCommand": "npx @anthropic-ai/sdk add generative-media-skills",
     "logo": "/logos/skills/generative-media-skills.png",
-    "stars": 4017,
+    "stars": 4022,
     "featured": false,
     "faqs": [
       {
@@ -2128,7 +2210,7 @@
     ],
     "installCommand": "curl -fsSL https://raw.githubusercontent.com/FrancyJGLisboa/agent-skill-creator/main/scripts/bootstrap.sh | sh",
     "logo": "/logos/skills/agent-skill-creator.png",
-    "stars": 2184,
+    "stars": 2196,
     "developer": "FrancyJGLisboa",
     "developerZh": "FrancyJGLisboa",
     "faqs": [
@@ -2207,7 +2289,7 @@
     ],
     "installCommand": "npx @anthropic-ai/sdk add auto-redbook-skills",
     "logo": "/logos/skills/auto-redbook-skills.png",
-    "stars": 2116,
+    "stars": 2121,
     "featured": false,
     "faqs": [
       {
@@ -2285,7 +2367,7 @@
     ],
     "installCommand": "npx @anthropic-ai/sdk add ai-image-generation",
     "logo": "/logos/skills/ai-image-generation.png",
-    "stars": 689,
+    "stars": 692,
     "featured": false,
     "faqs": [
       {
@@ -2363,7 +2445,7 @@
     ],
     "installCommand": "npx @anthropic-ai/sdk add ai-video-generation",
     "logo": "/logos/skills/ai-video-generation.png",
-    "stars": 689,
+    "stars": 692,
     "featured": false,
     "faqs": [
       {
@@ -2440,7 +2522,7 @@
     ],
     "installCommand": "npx @anthropic-ai/sdk add video-production",
     "logo": "/logos/skills/video-production.png",
-    "stars": 386,
+    "stars": 388,
     "featured": false,
     "faqs": [
       {
@@ -2877,88 +2959,6 @@
           "ja": "熟練は不要です。スキルは無料のオープンソースで、Remotion の専門知識を AI に渡す仕組みです。欲しい動画のイメージを伝えるだけで、AI がベストプラクティスに沿った React 動画コードを書きます。React の基礎があればより快適です。",
           "es": "No se requiere dominio. La habilidad es gratuita y de código abierto: entrega la experiencia en Remotion a la IA. Solo describe el vídeo que quieres; la IA escribe código React siguiendo las mejores prácticas. Saber React básico ayuda.",
           "fr": "Aucune maîtrise requise. La compétence est gratuite et open source — elle transmet l'expertise Remotion à l'IA. Décrivez simplement la vidéo souhaitée ; l'IA écrit du code React conforme aux bonnes pratiques. Des bases en React sont un plus."
-        }
-      }
-    ]
-  },
-  {
-    "slug": "caveman",
-    "name": "Caveman",
-    "nameZh": "Caveman（原始人省钱技能）",
-    "description": "让 AI 编码智能体像原始人一样说话，平均减少 65% 输出 token 的开源技能。支持 Claude Code、Codex、Gemini、Cursor 等 30+ 智能体。",
-    "descriptionEn": "Open-source skill that makes AI coding agents talk like a caveman, cutting ~65% of output tokens. Works with Claude Code, Codex, Gemini, Cursor, and 30+ agents.",
-    "descriptionJa": "AIコーディングエージェントに原始人のように話させ、出力トークンを平均65%削減するオープンソーススキル。Claude Code、Codex、Gemini、Cursor など30以上のエージェントに対応。",
-    "descriptionEs": "Skill de código abierto que hace que los agentes de codificación IA hablen como cavernícolas, reduciendo un ~65% de los tokens de salida. Compatible con Claude Code, Codex, Gemini, Cursor y más de 30 agentes.",
-    "descriptionFr": "Skill open source qui fait parler les agents de codage IA comme des hommes des cavernes, réduisant d'environ 65 % les tokens de sortie. Compatible avec Claude Code, Codex, Gemini, Cursor et 30+ agents.",
-    "developer": "Julius Brussee",
-    "developerZh": "Julius Brussee",
-    "repo": "JuliusBrussee/caveman",
-    "agents": [
-      "claude",
-      "codex",
-      "gemini-cli",
-      "cursor",
-      "windsurf",
-      "cline",
-      "copilot",
-      "generic"
-    ],
-    "category": "Developer",
-    "tags": [
-      "Open Source",
-      "Free"
-    ],
-    "installCommand": "curl -fsSL https://raw.githubusercontent.com/JuliusBrussee/caveman/main/install.sh | bash",
-    "logo": "/logos/skills/caveman.png",
-    "stars": 97212,
-    "featured": false,
-    "faqs": [
-      {
-        "question": {
-          "zh": "Caveman 是什么？",
-          "en": "What is Caveman?",
-          "ja": "Caveman とは何ですか？",
-          "es": "¿Qué es Caveman?",
-          "fr": "Qu'est-ce que Caveman ?"
-        },
-        "answer": {
-          "zh": "Caveman 是一个开源的 AI 编码智能体技能，让 Claude Code、Codex、Gemini 等智能体「像原始人一样说话」——砍掉回覆中的废话和客套话，只保留技术干货。实测平均减少 65% 的输出 token，代码、命令、错误信息一字不差。JetBrains 独立测试 86 个编码任务，输出 token 节省 8.5%，质量无统计学差异。",
-          "en": "Caveman is an open-source skill for AI coding agents that makes Claude Code, Codex, Gemini and others \"talk like a caveman\" — stripping filler and pleasantries from replies, keeping only the technical substance. Benchmarked at ~65% average output token reduction on prose, and 8.5% on long-horizon agentic coding runs (JetBrains, 86 tasks) with no statistical quality difference.",
-          "ja": "Caveman は、Claude Code、Codex、Gemini などの AI コーディングエージェントに「原始人のように話させる」オープンソーススキルです。返信から無駄な言葉を省き、技術的な内容だけを残します。プロースで平均65%の出力トークン削減、JetBrains の86タスクテストでは8.5%削減、品質に統計的差異はありません。",
-          "es": "Caveman es un skill de código abierto para agentes de codificación IA que hace que Claude Code, Codex, Gemini y otros \"hablen como cavernícolas\" — eliminando relleno y cortesías, dejando solo lo técnico. Reduce ~65% de tokens de salida en prosa, y 8.5% en tareas de codificación autónomas (JetBrains, 86 tareas) sin diferencia estadística en calidad.",
-          "fr": "Caveman est un skill open source pour les agents de codage IA qui fait parler Claude Code, Codex, Gemini et d'autres « comme des hommes des cavernes » — supprimant le remplissage et les formules de politesse, ne gardant que le contenu technique. Réduction moyenne de ~65 % des tokens de sortie en prose, et 8,5 % sur des tâches de codage autonomes (JetBrains, 86 tâches) sans différence statistique de qualité."
-        }
-      },
-      {
-        "question": {
-          "zh": "怎么安装 Caveman？",
-          "en": "How do I install Caveman?",
-          "ja": "Caveman をインストールするには？",
-          "es": "¿Cómo instalo Caveman?",
-          "fr": "Comment installer Caveman ?"
-        },
-        "answer": {
-          "zh": "一条命令即可：curl -fsSL https://raw.githubusercontent.com/JuliusBrussee/caveman/main/install.sh | bash。此命令会自动检测本机所有支持的智能体（Claude Code、Codex、Gemini CLI、Cursor、Windsurf、Cline、Copilot 等），一次性为全部安装。安装后输入 /caveman 或说 \"talk like caveman\" 激活。也支持逐个安装：claude plugin marketplace add JuliusBrussee/caveman。",
-          "en": "One command: curl -fsSL https://raw.githubusercontent.com/JuliusBrussee/caveman/main/install.sh | bash. It auto-detects every supported agent on your machine (Claude Code, Codex, Gemini CLI, Cursor, Windsurf, Cline, Copilot, etc.) and installs for all. Activate with /caveman or \"talk like caveman\". Per-agent install also available: claude plugin marketplace add JuliusBrussee/caveman.",
-          "ja": "1コマンドでインストール：curl -fsSL https://raw.githubusercontent.com/JuliusBrussee/caveman/main/install.sh | bash。対応する全エージェントを自動検出し一括インストール。アクティベートは /caveman または「talk like caveman」。個別インストールも可能：claude plugin marketplace add JuliusBrussee/caveman。",
-          "es": "Un solo comando: curl -fsSL https://raw.githubusercontent.com/JuliusBrussee/caveman/main/install.sh | bash. Detecta automáticamente todos los agentes compatibles (Claude Code, Codex, Gemini CLI, Cursor, Windsurf, Cline, Copilot, etc.) y los instala para todos. Actívalo con /caveman o \"talk like caveman\".",
-          "fr": "Une seule commande : curl -fsSL https://raw.githubusercontent.com/JuliusBrussee/caveman/main/install.sh | bash. Il détecte automatiquement tous les agents compatibles (Claude Code, Codex, Gemini CLI, Cursor, Windsurf, Cline, Copilot, etc.) et installe pour tous. Activez avec /caveman ou \"talk like caveman\"."
-        }
-      },
-      {
-        "question": {
-          "zh": "Caveman 免费吗？真的能省钱吗？",
-          "en": "Is Caveman free? Does it really save money?",
-          "ja": "Caveman は無料ですか？本当に節約になりますか？",
-          "es": "¿Es gratuito Caveman? ¿Realmente ahorra dinero?",
-          "fr": "Caveman est-il gratuit ? Permet-il vraiment d'économiser ?"
-        },
-        "answer": {
-          "zh": "完全免费开源（MIT 协议）。节省效果看场景：聊天式回复（解释、审阅、调试引导）可省 65% 输出 token；自主编码任务（JetBrains 实测 86 个任务）省 8.5%。Caveman 只压缩输出 token，输入 token 不变，技能本身每轮增加约 1-1.5k 输入 token。所以整轮对话的节省因场景而异，但代码质量不变。另外 /caveman-compress 命令可压缩 CLAUDE.md 等记忆文件，一次性节省约 46% 输入 token。",
-          "en": "Completely free and open source (MIT). Savings depend on workload: chat-style replies (explanations, reviews, debugging) save ~65% output tokens; autonomous coding runs (JetBrains, 86 tasks) save ~8.5%. Caveman only compresses output tokens — input tokens unchanged, and the skill adds ~1-1.5k input tokens per turn. Whole-session savings vary. The /caveman-compress command also shrinks memory files like CLAUDE.md by ~46%, saving input tokens forever.",
-          "ja": "完全無料のオープンソース（MITライセンス）。節約効果はワークロード次第：チャット形式の返信（説明、レビュー、デバッグ）は出力トークンを約65%削減。自律的コーディング（JetBrains 86タスク）は8.5%削減。Caveman は出力トークンのみ圧縮し、入力トークンは変わらず、スキル自体が毎ターン約1〜1.5kの入力トークンを追加します。セッション全体の節約は状況によります。",
-          "es": "Completamente gratuito y de código abierto (MIT). El ahorro depende de la carga de trabajo: respuestas tipo chat (explicaciones, revisiones, depuración) ahorran ~65% tokens de salida; tareas de codificación autónomas (JetBrains, 86 tareas) ahorran ~8.5%. Caveman solo comprime tokens de salida — los de entrada no cambian, y el skill añade ~1-1.5k tokens de entrada por turno. El ahorro total varía por sesión.",
-          "fr": "Entièrement gratuit et open source (licence MIT). Les économies dépendent de la charge de travail : les réponses de type chat (explications, révisions, débogage) économisent ~65 % des tokens de sortie ; les tâches de codage autonomes (JetBrains, 86 tâches) économisent ~8,5 %. Caveman ne comprime que les tokens de sortie — les tokens d'entrée sont inchangés, et le skill ajoute ~1 à 1,5 k tokens d'entrée par tour. Les économies globales varient selon la session."
         }
       }
     ]
