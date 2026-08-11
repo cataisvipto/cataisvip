@@ -21,7 +21,7 @@
     ],
     "installCommand": "See README for details.",
     "logo": "/logos/skills/awesome-selfhosted.png",
-    "stars": 311833,
+    "stars": 312055,
     "featured": false,
     "faqs": [
       {
@@ -103,7 +103,7 @@
     ],
     "installCommand": "Available via Claude Code marketplace, Cursor /add-plugin, Codex plugin marketplace, and more. See README for details.",
     "logo": "/logos/skills/superpowers.png",
-    "stars": 270199,
+    "stars": 270735,
     "featured": false,
     "faqs": [
       {
@@ -181,7 +181,7 @@
     ],
     "installCommand": "npx @anthropic-ai/sdk add grill-me",
     "logo": "/logos/skills/grill-me.png",
-    "stars": 212504,
+    "stars": 213776,
     "featured": false,
     "faqs": [
       {
@@ -259,7 +259,7 @@
     ],
     "installCommand": "npx @anthropic-ai/sdk add grill-with-docs",
     "logo": "/logos/skills/grill-with-docs.png",
-    "stars": 212504,
+    "stars": 213776,
     "featured": false,
     "faqs": [
       {
@@ -337,7 +337,7 @@
     ],
     "installCommand": "npx @anthropic-ai/sdk add improve-codebase-architecture",
     "logo": "/logos/skills/improve-codebase-architecture.png",
-    "stars": 212504,
+    "stars": 213776,
     "featured": false,
     "faqs": [
       {
@@ -425,7 +425,7 @@
     ],
     "installCommand": "Download the app at agencyagents.app (macOS/Linux/Windows) or run ./scripts/install.sh --tool <tool> from the repo.",
     "logo": "/logos/skills/agency-agents.png",
-    "stars": 141752,
+    "stars": 143128,
     "featured": false,
     "faqs": [
       {
@@ -503,7 +503,7 @@
     ],
     "installCommand": "Available via plugin marketplace. See README for details.",
     "logo": "/logos/skills/banner-design.png",
-    "stars": 115315,
+    "stars": 115687,
     "featured": false,
     "faqs": [
       {
@@ -581,7 +581,7 @@
     ],
     "installCommand": "Available via plugin marketplace. See README for details.",
     "logo": "/logos/skills/brand.png",
-    "stars": 115315,
+    "stars": 115687,
     "featured": false,
     "faqs": [
       {
@@ -659,7 +659,7 @@
     ],
     "installCommand": "Available via plugin marketplace. See README for details.",
     "logo": "/logos/skills/design.png",
-    "stars": 115315,
+    "stars": 115687,
     "featured": false,
     "faqs": [
       {
@@ -737,7 +737,7 @@
     ],
     "installCommand": "Available via plugin marketplace. See README for details.",
     "logo": "/logos/skills/design-system.png",
-    "stars": 115315,
+    "stars": 115687,
     "featured": false,
     "faqs": [
       {
@@ -815,7 +815,7 @@
     ],
     "installCommand": "Available via plugin marketplace. See README for details.",
     "logo": "/logos/skills/slides.png",
-    "stars": 115315,
+    "stars": 115687,
     "featured": false,
     "faqs": [
       {
@@ -893,7 +893,7 @@
     ],
     "installCommand": "Available via plugin marketplace. See README for details.",
     "logo": "/logos/skills/ui-styling.png",
-    "stars": 115315,
+    "stars": 115687,
     "featured": false,
     "faqs": [
       {
@@ -975,7 +975,7 @@
     ],
     "installCommand": "curl -fsSL https://raw.githubusercontent.com/JuliusBrussee/caveman/main/install.sh | bash",
     "logo": "/logos/skills/caveman.png",
-    "stars": 97290,
+    "stars": 97509,
     "featured": false,
     "faqs": [
       {
@@ -1048,7 +1048,7 @@
       "codex",
       "claude-code"
     ],
-    "stars": 75008,
+    "stars": 75438,
     "developer": "Leonxlnx",
     "developerZh": "Leonxlnx",
     "installCommand": "npm i -g taste-skill",
@@ -1128,7 +1128,7 @@
     ],
     "installCommand": "See README for installation instructions.",
     "logo": "/logos/skills/agent-reach.png",
-    "stars": 70270,
+    "stars": 70720,
     "featured": false,
     "faqs": [
       {
@@ -1203,7 +1203,7 @@
     ],
     "installCommand": "See README for installation instructions.",
     "logo": "/logos/skills/media-crawler.png",
-    "stars": 60963,
+    "stars": 61694,
     "featured": false,
     "faqs": [
       {
@@ -1280,7 +1280,7 @@
     ],
     "installCommand": "npx @anthropic-ai/claude add mcp-server-humanizer",
     "logo": "/logos/skills/humanizer.png",
-    "stars": 34716,
+    "stars": 35032,
     "featured": false,
     "faqs": [
       {
@@ -1358,7 +1358,7 @@
     ],
     "installCommand": "npx @anthropic-ai/sdk add nuwa-skill",
     "logo": "/logos/skills/nuwa-skill.png",
-    "stars": 30227,
+    "stars": 30327,
     "featured": false,
     "faqs": [
       {
@@ -1437,7 +1437,7 @@
     ],
     "installCommand": "npx @anthropic-ai/sdk add find-skills",
     "logo": "/logos/skills/find-skills.png",
-    "stars": 28584,
+    "stars": 28677,
     "featured": false,
     "faqs": [
       {
@@ -1515,7 +1515,7 @@
     ],
     "installCommand": "npx @anthropic-ai/sdk add huashu-design",
     "logo": "/logos/skills/huashu-design.png",
-    "stars": 22769,
+    "stars": 22836,
     "featured": false,
     "faqs": [
       {
@@ -1592,7 +1592,7 @@
     ],
     "installCommand": "pip install book-to-skill",
     "logo": "/logos/skills/book-to-skill.png",
-    "stars": 19973,
+    "stars": 20492,
     "featured": false,
     "faqs": [
       {
@@ -1671,7 +1671,7 @@
     ],
     "installCommand": "git clone https://github.com/TencentCloud/TencentDB-Agent-Memory.git && cd TencentDB-Agent-Memory/deploy/global-images && cp .env.example .env && ./start-all.sh",
     "logo": "/logos/skills/tencentdb-agent-memory.png",
-    "stars": 19374,
+    "stars": 19865,
     "featured": false,
     "faqs": [
       {
@@ -1746,7 +1746,7 @@
     ],
     "installCommand": "pip install pyvideotrans",
     "logo": "/logos/skills/pyvideotrans.png",
-    "stars": 18636,
+    "stars": 18650,
     "featured": false,
     "faqs": [
       {
@@ -1820,7 +1820,7 @@
     ],
     "installCommand": "npx skills add https://github.com/op7418/Humanizer-zh.git",
     "logo": "/logos/skills/humanizer-zh.png",
-    "stars": 15005,
+    "stars": 15091,
     "developer": "op7418",
     "developerZh": "op7418",
     "faqs": [
@@ -1898,7 +1898,7 @@
     ],
     "installCommand": "npx @anthropic-ai/claude add ian-xiaohei-illustrations",
     "logo": "/logos/skills/ian-xiaohei-illustrations.png",
-    "stars": 9296,
+    "stars": 9344,
     "featured": false,
     "faqs": [
       {
@@ -1975,7 +1975,7 @@
     ],
     "installCommand": "npx @anthropic-ai/sdk add horizon",
     "logo": "/logos/skills/horizon.png",
-    "stars": 8735,
+    "stars": 8788,
     "featured": false,
     "faqs": [
       {
@@ -2053,7 +2053,7 @@
     ],
     "installCommand": "npx @anthropic-ai/sdk add guizang-social-card",
     "logo": "/logos/skills/guizang-social-card.png",
-    "stars": 6202,
+    "stars": 6239,
     "featured": false,
     "faqs": [
       {
@@ -2131,7 +2131,7 @@
     ],
     "installCommand": "npx @anthropic-ai/sdk add generative-media-skills",
     "logo": "/logos/skills/generative-media-skills.png",
-    "stars": 4022,
+    "stars": 4031,
     "featured": false,
     "faqs": [
       {
@@ -2210,7 +2210,7 @@
     ],
     "installCommand": "curl -fsSL https://raw.githubusercontent.com/FrancyJGLisboa/agent-skill-creator/main/scripts/bootstrap.sh | sh",
     "logo": "/logos/skills/agent-skill-creator.png",
-    "stars": 2196,
+    "stars": 2215,
     "developer": "FrancyJGLisboa",
     "developerZh": "FrancyJGLisboa",
     "faqs": [
@@ -2289,7 +2289,7 @@
     ],
     "installCommand": "npx @anthropic-ai/sdk add auto-redbook-skills",
     "logo": "/logos/skills/auto-redbook-skills.png",
-    "stars": 2121,
+    "stars": 2126,
     "featured": false,
     "faqs": [
       {
@@ -2370,7 +2370,7 @@
     ],
     "installCommand": "curl -fsSL https://raw.githubusercontent.com/QwenLM/Qwen-MM-Plugins/main/install.sh | bash",
     "logo": "/logos/skills/qwen-mm-plugins.png",
-    "stars": 1520,
+    "stars": 1958,
     "featured": false,
     "faqs": [
       {
