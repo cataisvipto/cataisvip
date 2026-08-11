@@ -289,7 +289,10 @@ async function main() {
     };
   });
 
-  const output = { updatedAt: new Date().toISOString().slice(0, 10), items };
+  // 使用北京时间（UTC+8）日期，避免中国用户看到"昨天"的标签
+  const now = new Date();
+  const beijingDate = new Date(now.getTime() + 8 * 3600000).toISOString().slice(0, 10);
+  const output = { updatedAt: beijingDate, items };
   fs.writeFileSync(OUTPUT, JSON.stringify(output, null, 2) + '\n', 'utf8');
   console.log(`\n✅ 已生成 ${OUTPUT}（Top ${items.length}）`);
   console.log('前 10 名：');
