@@ -3183,5 +3183,129 @@
       "verdictDate": "2026-08-11",
       "pricingVerified": "2026-08-11"
     }
+  },
+  "qwen-mm-plugins": {
+    "pros": {
+      "en": [
+        "8 independent capability modules covering multimodal I/O, cloud APIs, search, video memory, 3D modeling, CAD and more",
+        "Single guided installer supports all major harnesses (Claude Code, Codex, Qoder, OpenClaw, Qwen Code, Gemini CLI)",
+        "Each module is a skill + optional MCP server — composable, only install what you need",
+        "Apache 2.0 licensed, from the official QwenLM team",
+        "Comes with cookbooks demonstrating each capability in action"
+      ],
+      "zh": [
+        "8 个独立能力模块，覆盖多模态 I/O、云端 API、搜索、视频记忆、3D 建模、CAD 等",
+        "单一引导安装脚本，支持所有主流智能体（Claude Code、Codex、Qoder、OpenClaw、Qwen Code、Gemini CLI）",
+        "每个模块以 skill + 可选 MCP server 形式安装，按需组合，只装所需",
+        "Apache 2.0 开源协议，由官方 QwenLM 团队维护",
+        "附带使用指南 cookbook，演示每个能力的实际用法"
+      ],
+      "ja": [
+        "マルチモーダルI/O、クラウドAPI、検索、ビデオメモリ、3Dモデリング、CADなどをカバーする8つの独立モジュール",
+        "単一のインストールスクリプトで全主要ハーネス（Claude Code、Codex、Qoder、OpenClaw、Qwen Code、Gemini CLI）に対応",
+        "各モジュールはスキル＋オプションのMCPサーバーとして構成、必要なものだけインストール",
+        "Apache 2.0ライセンス、公式QwenLMチームがメンテナンス",
+        "各機能の実践的な使用方法を示すクックブック付き"
+      ],
+      "es": [
+        "8 módulos independientes que cubren I/O multimodal, APIs cloud, búsqueda, memoria de video, modelado 3D, CAD y más",
+        "Instalador único que soporta todos los harnesses principales (Claude Code, Codex, Qoder, OpenClaw, Qwen Code, Gemini CLI)",
+        "Cada módulo es un skill + servidor MCP opcional — componible, instala solo lo que necesitas",
+        "Licencia Apache 2.0, del equipo oficial QwenLM",
+        "Incluye cookbooks que demuestran cada capacidad en acción"
+      ],
+      "fr": [
+        "8 modules indépendants couvrant l'I/O multimodale, les APIs cloud, la recherche, la mémoire vidéo, la modélisation 3D, la CAO et plus",
+        "Installateur unique supportant tous les harnesses principaux (Claude Code, Codex, Qoder, OpenClaw, Qwen Code, Gemini CLI)",
+        "Chaque module est un skill + serveur MCP optionnel — composable, installez seulement ce dont vous avez besoin",
+        "Licence Apache 2.0, de l'équipe officielle QwenLM",
+        "Livré avec des cookbooks démontrant chaque capacité en action"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Project is very young (July 2026) — only 1,520 stars at verification time",
+        "Windows support requires WSL2; native Windows not yet validated",
+        "Some capabilities (API module) need third-party cloud API keys (e.g. DashScope)",
+        "Several cookbooks are marked as TBD (not yet complete)",
+        "Topics not set on GitHub repo — harder to discover organically"
+      ],
+      "zh": [
+        "项目非常年轻（2026年7月），核验时仅 1,520 星",
+        "Windows 需要 WSL2，原生 Windows 暂未验证",
+        "部分能力（如 API 模块）需要第三方云服务 API key",
+        "部分使用指南 cookbook 标记为 TBD（尚未完成）",
+        "GitHub 仓库未设置 topics，有机发现性较差"
+      ],
+      "ja": [
+        "プロジェクトは非常に新しい（2026年7月）、検証時点で1,520スター",
+        "WindowsはWSL2が必要、ネイティブWindowsは未検証",
+        "一部の機能（APIモジュールなど）はサードパーティのクラウドAPIキーが必要",
+        "一部のクックブックはTBD（未完成）",
+        "GitHubリポジトリにトピックが設定されておらず、発見性が低い"
+      ],
+      "es": [
+        "Proyecto muy joven (julio de 2026) — solo 1,520 estrellas en el momento de la verificación",
+        "Soporte para Windows requiere WSL2; Windows nativo aún no validado",
+        "Algunas capacidades (módulo API) necesitan claves API de servicios cloud de terceros",
+        "Varios cookbooks están marcados como TBD (aún no completados)",
+        "Repositorio sin topics en GitHub — más difícil de descubrir orgánicamente"
+      ],
+      "fr": [
+        "Projet très récent (juillet 2026) — seulement 1 520 étoiles au moment de la vérification",
+        "Le support Windows nécessite WSL2 ; Windows natif pas encore validé",
+        "Certaines capacités (module API) nécessitent des clés API cloud tierces",
+        "Plusieurs cookbooks sont marqués TBD (pas encore terminés)",
+        "Dépôt GitHub sans topics — plus difficile à découvrir organiquement"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "Free and open source (Apache 2.0). Some modules may require third-party cloud API keys.",
+        "zh": "免费开源（Apache 2.0）。部分模块可能需要第三方云服务 API key。",
+        "ja": "無料のオープンソース（Apache 2.0）。一部のモジュールはサードパーティのクラウドAPIキーが必要な場合があります。",
+        "es": "Gratuito y de código abierto (Apache 2.0). Algunos módulos pueden requerir claves API de servicios cloud de terceros.",
+        "fr": "Gratuit et open source (Apache 2.0). Certains modules peuvent nécessiter des clés API cloud tierces."
+      }
+    },
+    "verdict": {
+      "en": "Qwen MM-Plugins is an ambitious and well-structured multimodal plugin collection from the official QwenLM team. Its 8 modular capabilities (from local I/O to Blender 3D and FreeCAD) and single-installer approach make it a compelling choice for developers who want to add multimodal abilities to any compatible agent. The project is very young with limited stars and unfinished cookbooks, but the Apache 2.0 license, official team backing, and thoughtful architecture (skill + MCP server per module) suggest a promising trajectory. Worth trying if you work with Qwen models or need multimodal agent capabilities.",
+      "zh": "Qwen MM-Plugins 是来自官方 QwenLM 团队的雄心勃勃、结构清晰的多模态插件集。8 个模块化能力（从本地 I/O 到 Blender 3D 和 FreeCAD）和单一安装脚本使其成为想为任何兼容智能体添加多模态能力的开发者的有力选择。项目非常年轻，星数有限，cookbook 也未全部完成，但 Apache 2.0 协议、官方团队背书和精巧的架构（每个模块 skill + MCP server）预示着良好的前景。如果你使用 Qwen 模型或需要多模态智能体能力，值得一试。",
+      "ja": "Qwen MM-Plugins は、公式 QwenLM チームによる野心的でよく構造化されたマルチモーダルプラグイン集です。8つのモジュール機能（ローカルI/OからBlender 3D、FreeCADまで）と単一インストーラにより、互換性のあるエージェントにマルチモーダル機能を追加したい開発者にとって魅力的な選択肢です。プロジェクトは非常に若く、スター数も限られ、クックブックも未完成ですが、Apache 2.0ライセンス、公式チームのバックアップ、精巧なアーキテクチャは有望な軌道を示しています。",
+      "es": "Qwen MM-Plugins es una colección de plugins multimodales ambiciosa y bien estructurada del equipo oficial QwenLM. Sus 8 capacidades modulares (de I/O local a Blender 3D y FreeCAD) y su instalador único lo convierten en una opción atractiva para desarrolladores que quieran añadir capacidades multimodales a cualquier agente compatible. El proyecto es muy joven con estrellas limitadas y cookbooks incompletos, pero la licencia Apache 2.0, el respaldo del equipo oficial y la arquitectura bien pensada sugieren una trayectoria prometedora.",
+      "fr": "Qwen MM-Plugins est une collection de plugins multimodaux ambitieuse et bien structurée de l'équipe officielle QwenLM. Ses 8 capacités modulaires (de l'I/O local à Blender 3D et FreeCAD) et son installateur unique en font un choix attrayant pour les développeurs qui souhaitent ajouter des capacités multimodales à n'importe quel agent compatible. Le projet est très récent avec des étoiles limitées et des cookbooks incomplets, mais la licence Apache 2.0, le soutien de l'équipe officielle et l'architecture réfléchie suggèrent une trajectoire prometteuse."
+    },
+    "useCases": {
+      "en": [
+        "Adding multimodal file I/O (read images, video, docs) to any AI coding agent",
+        "Using cloud APIs for vision understanding, OCR, ASR, and segmentation through an agent",
+        "Driving Blender 3D modeling and FreeCAD parametric design from AI agent conversations"
+      ],
+      "zh": [
+        "为任何 AI 编码智能体添加多模态文件 I/O 能力（读取图片、视频、文档）",
+        "通过智能体使用云端 API 进行视觉理解、OCR、ASR 和分割",
+        "从 AI 智能体对话中驱动 Blender 3D 建模和 FreeCAD 参数化设计"
+      ],
+      "ja": [
+        "AIコーディングエージェントにマルチモーダルファイルI/O（画像・動画・ドキュメント読み取り）を追加",
+        "エージェント経由でクラウドAPIによる視覚理解、OCR、ASR、セグメンテーションを利用",
+        "AIエージェントの会話からBlender 3DモデリングとFreeCADパラメトリック設計を操作"
+      ],
+      "es": [
+        "Añadir capacidad de I/O multimodal (leer imágenes, video, documentos) a cualquier agente de codificación IA",
+        "Usar APIs cloud para comprensión visual, OCR, ASR y segmentación a través de un agente",
+        "Controlar modelado 3D Blender y diseño CAD paramétrico FreeCAD desde conversaciones con agentes IA"
+      ],
+      "fr": [
+        "Ajouter des capacités d'I/O multimodale (lire images, vidéo, documents) à n'importe quel agent de codage IA",
+        "Utiliser des APIs cloud pour la compréhension visuelle, l'OCR, l'ASR et la segmentation via un agent",
+        "Piloter la modélisation 3D Blender et la conception CAO paramétrique FreeCAD depuis des conversations avec des agents IA"
+      ]
+    },
+    "meta": {
+      "lastVerified": "2026-08-11",
+      "verdictDate": "2026-08-11",
+      "pricingVerified": "2026-08-11"
+    }
   }
 }
