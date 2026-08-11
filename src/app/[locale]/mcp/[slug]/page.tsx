@@ -1,5 +1,6 @@
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
+import https from 'https';
 import McpDetailClient from './McpDetailClient';
 import mcpServers from '@/data/mcp.json';
 import mcpDetails from '@/data/mcpDetails.json';
@@ -163,29 +164,46 @@ function parseInstallSection(markdown: string, copyLabel: string): string | null
   return html;
 }
 
+/** Fetch a URL using https.get with reliable timeout (Windows-incompatible AbortSignal fallback) */
+function fetchHttpsWithTimeout(url: string, timeoutMs: number): Promise<{ ok: boolean; text: () => Promise<string> }> {
+  return new Promise((resolve, reject) => {
+    const req = https.get(url, { timeout: timeoutMs }, (res) => {
+      let data = '';
+      res.on('data', (chunk) => { data += chunk; });
+      res.on('end', () => {
+              resolve({
+                ok: res.statusCode !== undefined && res.statusCode >= 200 && res.statusCode < 300,
+                text: async () => data,
+              });
+            });
+    });
+    req.on('error', (err: Error) => reject(err));
+    req.on('timeout', () => {
+      req.destroy();
+      reject(new Error('fetch timeout'));
+    });
+  });
+}
+
 /** Fetch the README from GitHub and extract Installation section as HTML */
 async function fetchReadmeInstallHtml(repo: string, copyLabel: string): Promise<string | null> {
-  // 并行尝试 main/master 分支，任一成功即返回；3 秒超时兜底。
-  // 最坏耗时从顺序 16s（2×8s）降到并行 3s，确保低于 Vercel Hobby 10s 函数时限，避免 GSC 5xx。
+  // 快速尝试 main/master 分支，1 秒超时兜底，失败即返回 null 不阻塞页面渲染。
+  // 国内网络 raw.githubusercontent.com 常不可达，需确保静态生成不因此超时失败。
   const branches = ['main', 'master'];
-  const attempts = branches.map(async (branch) => {
-    const controller = new AbortController();
-    const timeout = setTimeout(() => controller.abort(), 3000);
+  for (const branch of branches) {
     try {
       const url = `https://raw.githubusercontent.com/${repo}/${branch}/README.md`;
-      const res = await fetch(url, { signal: controller.signal, next: { revalidate: 3600 } });
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
-      const md = await res.text();
-      return parseInstallSection(md, copyLabel);
-    } finally {
-      clearTimeout(timeout);
+      const res = await fetchHttpsWithTimeout(url, 1000);
+      if (res.ok) {
+        const md = await res.text();
+        const html = parseInstallSection(md, copyLabel);
+        if (html) return html;
+      }
+    } catch {
+      // 继续下一分支
     }
-  });
-  try {
-    return await Promise.any(attempts);
-  } catch {
-    return null;
   }
+  return null;
 }
 
 /** 星数单一数据源：直接读 mcp.json 的 stars（由 refresh-stars 定时/手动刷新），与列表卡片始终一致 */

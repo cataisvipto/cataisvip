@@ -28,7 +28,7 @@ export default function TutorialHighlights() {
 
   const latest = [...(tutorials as TutorialItem[])]
     .sort((a, b) => (a.publishedAt < b.publishedAt ? 1 : -1))
-    .slice(0, 3);
+    .slice(0, 6);
 
   if (latest.length === 0) return null;
 
