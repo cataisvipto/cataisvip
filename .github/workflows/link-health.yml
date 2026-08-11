@@ -23,7 +23,7 @@ jobs:
       - run: npm i --no-save undici
 
       # 唯一会 fail 的步骤：官网 DEAD 时 exit 1
-      - name: ① 工具官网存活审核
+      - name: ① 工具/Skills/MCP 官网存活审核
         run: node scripts/check-tool-liveness.mjs
 
       # 以下审计均为 warn-only（脚本恒 exit 0），报告写入 STEP_SUMMARY 周报面板

@@ -64,18 +64,30 @@
         "required": ["en", "zh", "ja", "es", "fr"]
       },
       "useCases": {
-        "type": "object",
-        "description": "5-language use cases",
-        "properties": {
-          "en": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
-          "zh": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
-          "ja": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
-          "es": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
-          "fr": { "type": "array", "items": { "type": "string" }, "minItems": 1 }
-        },
-        "required": ["en", "zh", "ja", "es", "fr"]
+              "type": "object",
+              "description": "5-language use cases",
+              "properties": {
+                "en": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+                "zh": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+                "ja": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+                "es": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+                "fr": { "type": "array", "items": { "type": "string" }, "minItems": 1 }
+              },
+              "required": ["en", "zh", "ja", "es", "fr"]
+            },
+            "meta": {
+              "type": "object",
+              "description": "Internal AI Audit metadata — verification timestamps, not rendered in UI",
+              "required": ["lastVerified", "pricingVerified"],
+              "additionalProperties": false,
+              "properties": {
+                "lastVerified": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+                "verdictDate": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+                "pricingVerified": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+                "pricingUrl": { "type": "string", "pattern": "^https?://" }
+              }
+            }
+          },
+          "required": ["pros", "cons", "verdict", "useCases", "meta"]
+        }
       }
-    },
-    "required": ["pros", "cons", "verdict", "useCases"]
-  }
-}

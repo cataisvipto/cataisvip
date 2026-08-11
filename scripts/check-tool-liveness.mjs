@@ -1,7 +1,8 @@
-// 工具官网存活审核：检测收录工具的官网是否失效（关停 / 域名失联 / 换域）
+// 收录条目官网存活审核：检测已收录条目的官网或 GitHub 仓库是否失效
 // 用法：node scripts/check-tool-liveness.mjs
 //   - 本地若需代理：设置 HTTPS_PROXY 环境变量后运行
 //   - CI（GitHub Actions）海外节点直连，无需代理
+// 覆盖三类实体：工具（从 tools.json 读取 url）/ Skills（从 skills.json 读取 repo）/ MCP（从 mcp.json 读取 repo）
 // 分级规则（保守设计，避免误报）：
 //   DEAD        → 域名无法解析 / 404 / 410，两轮复测均失败 —— 视为已关停，进程退出码 1
 //   UNREACHABLE → 超时 / 连接被重置 / 5xx —— 可能是临时故障或地域屏蔽，仅告警不判死
@@ -13,7 +14,25 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
-const tools = JSON.parse(fs.readFileSync(path.join(ROOT, 'src/data/tools.json'), 'utf8'));
+
+// 三类实体的数据源和 URL 提取方式
+const COLLECTIONS = [
+  {
+    label: '工具',
+    file: 'src/data/tools.json',
+    getUrl: (entry) => entry.url,
+  },
+  {
+    label: 'Skills',
+    file: 'src/data/skills.json',
+    getUrl: (entry) => entry.repo ? `https://github.com/${entry.repo}` : null,
+  },
+  {
+    label: 'MCP',
+    file: 'src/data/mcp.json',
+    getUrl: (entry) => entry.repo ? `https://github.com/${entry.repo}` : null,
+  },
+];
 
 // 统一用 undici Agent 并调大响应头上限（Google 等站点 Set-Cookie 超 16KB 会触发 HEADERS_OVERFLOW）
 // 本地设置 HTTPS_PROXY 时走 ProxyAgent；CI 海外节点直连
@@ -57,9 +76,9 @@ const mainDomain = (u) => {
   }
 };
 
-function classify(r, tool) {
+function classify(r, entry) {
   if (r.status >= 200 && r.status < 400) {
-    if (r.finalUrl && mainDomain(r.finalUrl) !== mainDomain(tool.url)) return 'MOVED';
+    if (r.finalUrl && mainDomain(r.finalUrl) !== mainDomain(entry.url)) return 'MOVED';
     return 'OK';
   }
   if (r.status === 404 || r.status === 410 || r.err === 'ENOTFOUND') return 'DEAD';
@@ -82,63 +101,87 @@ async function pool(items, worker, size = 8) {
   return results;
 }
 
-console.log(`════ 工具官网存活审核（${tools.length} 个）════`);
-let results = await pool(tools, async (t) => {
-  const r = await probe(t.url);
-  return { tool: t, ...r, verdict: classify(r, t) };
-});
-
-// 首轮判死/不可达的复测一次（更长超时，串行降速），排除瞬时抖动
-const suspects = results.filter((r) => r.verdict === 'DEAD' || r.verdict === 'UNREACHABLE');
-if (suspects.length) {
-  console.log(`首轮异常 ${suspects.length} 个，复测中…`);
-  for (const s of suspects) {
-    const r2 = await probe(s.tool.url, 30000);
-    const v2 = classify(r2, s.tool);
-    if (v2 !== 'DEAD' && v2 !== 'UNREACHABLE') {
-      Object.assign(s, r2, { verdict: v2 });
-    } else {
-      // 两轮都异常：仅当两轮均为 DEAD 特征才判死，否则归为 UNREACHABLE
-      s.verdict = s.verdict === 'DEAD' && v2 === 'DEAD' ? 'DEAD' : 'UNREACHABLE';
-      Object.assign(s, { status: r2.status, err: r2.err });
-    }
-  }
-}
-
-const groups = { DEAD: [], UNREACHABLE: [], MOVED: [], PROTECTED: [], OK: [] };
-for (const r of results) groups[r.verdict].push(r);
-
 const lines = [];
 const emit = (s) => {
   console.log(s);
   lines.push(s);
 };
 
-emit(`\n结果：OK ${groups.OK.length} · PROTECTED ${groups.PROTECTED.length} · MOVED ${groups.MOVED.length} · UNREACHABLE ${groups.UNREACHABLE.length} · DEAD ${groups.DEAD.length}`);
-if (groups.DEAD.length) {
-  emit(`\n❌ 疑似已关停（需人工确认后下架或替换链接）:`);
-  groups.DEAD.forEach((r) => emit(`  - ${r.tool.slug}  ${r.tool.url}  → ${r.status || r.err}`));
-}
-if (groups.UNREACHABLE.length) {
-  emit(`\n⚠ 不可达（可能临时故障或地域屏蔽，连续多周出现需人工核查）:`);
-  groups.UNREACHABLE.forEach((r) => emit(`  - ${r.tool.slug}  ${r.tool.url}  → ${r.status || r.err}`));
-}
-if (groups.MOVED.length) {
-  emit(`\n↪ 换域跳转（官网可能迁移，建议更新收录链接）:`);
-  groups.MOVED.forEach((r) => emit(`  - ${r.tool.slug}  ${r.tool.url}  → ${r.finalUrl}`));
-}
-if (groups.PROTECTED.length) {
-  emit(`\n🛡 防爬拦截（视为存活）: ${groups.PROTECTED.map((r) => r.tool.slug).join(', ')}`);
+let hasDead = false;
+let totalChecked = 0;
+
+for (const { label, file, getUrl } of COLLECTIONS) {
+  const entries = JSON.parse(fs.readFileSync(path.join(ROOT, file), 'utf8'));
+  const items = entries
+    .map((e) => {
+      const url = getUrl(e);
+      return url ? { slug: e.slug, url, name: e.name } : null;
+    })
+    .filter(Boolean);
+
+  if (!items.length) {
+    emit(`══ ${label}：无可探测条目（无 url/repo）══\n`);
+    continue;
+  }
+
+  emit(`══ ${label}官网存活审核（${items.length} 个）══`);
+  let results = await pool(items, async (item) => {
+    const r = await probe(item.url);
+    return { item, ...r, verdict: classify(r, item) };
+  });
+
+  // 首轮判死/不可达的复测一次（更长超时，串行降速），排除瞬时抖动
+  const suspects = results.filter((r) => r.verdict === 'DEAD' || r.verdict === 'UNREACHABLE');
+  if (suspects.length) {
+    emit(`首轮异常 ${suspects.length} 个，复测中…`);
+    for (const s of suspects) {
+      const r2 = await probe(s.item.url, 30000);
+      const v2 = classify(r2, s.item);
+      if (v2 !== 'DEAD' && v2 !== 'UNREACHABLE') {
+        Object.assign(s, r2, { verdict: v2 });
+      } else {
+        // 两轮都异常：仅当两轮均为 DEAD 特征才判死，否则归为 UNREACHABLE
+        s.verdict = s.verdict === 'DEAD' && v2 === 'DEAD' ? 'DEAD' : 'UNREACHABLE';
+        Object.assign(s, { status: r2.status, err: r2.err });
+      }
+    }
+  }
+
+  const groups = { DEAD: [], UNREACHABLE: [], MOVED: [], PROTECTED: [], OK: [] };
+  for (const r of results) groups[r.verdict].push(r);
+
+  emit(`\n结果：OK ${groups.OK.length} · PROTECTED ${groups.PROTECTED.length} · MOVED ${groups.MOVED.length} · UNREACHABLE ${groups.UNREACHABLE.length} · DEAD ${groups.DEAD.length}`);
+  if (groups.DEAD.length) {
+    hasDead = true;
+    emit(`\n❌ 疑似已关停（需人工确认后下架或替换链接）:`);
+    groups.DEAD.forEach((r) => emit(`  - ${r.item.slug}  ${r.item.url}  → ${r.status || r.err}`));
+  }
+  if (groups.UNREACHABLE.length) {
+    emit(`\n⚠ 不可达（可能临时故障或地域屏蔽，连续多周出现需人工核查）:`);
+    groups.UNREACHABLE.forEach((r) => emit(`  - ${r.item.slug}  ${r.item.url}  → ${r.status || r.err}`));
+  }
+  if (groups.MOVED.length) {
+    emit(`\n↪ 换域跳转（官网可能迁移，建议更新收录链接）:`);
+    groups.MOVED.forEach((r) => emit(`  - ${r.item.slug}  ${r.item.url}  → ${r.finalUrl}`));
+  }
+  if (groups.PROTECTED.length) {
+    emit(`\n🛡 防爬拦截（视为存活）: ${groups.PROTECTED.map((r) => r.item.slug).join(', ')}`);
+  }
+  emit('');
+
+  totalChecked += items.length;
 }
 
-// GitHub Actions 汇总面板
-if (process.env.GITHUB_STEP_SUMMARY) {
-  const md = ['## 工具官网存活审核', '', '```', ...lines, '```', ''].join('\n');
-  fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY, md);
-}
-
-if (groups.DEAD.length) {
-  console.log('\n════ 审核未通过：存在疑似关停的工具 ════');
+emit(`═ 总计审核 ${totalChecked} 个条目 ═`);
+if (hasDead) {
+  console.log('\n════ 审核未通过：存在疑似关停的条目 ════');
   process.exit(1);
 }
 console.log('\n════ 审核通过 ════');
+
+// GitHub Actions 汇总面板
+if (process.env.GITHUB_STEP_SUMMARY) {
+  // 只输出最后的总计行（前面已通过 console.log 一条条输出，actions 会捕获 stdout）
+  const md = ['## 条目存活审核', '', '```', ...lines, '```', ''].join('\n');
+  fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY, md);
+}
