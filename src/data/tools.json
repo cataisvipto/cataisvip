@@ -5429,5 +5429,67 @@
       "browser_extension": false,
       "api": false
     }
+  },
+  {
+    "slug": "markitdown",
+    "name": "MarkItDown",
+    "nameZh": "MarkItDown",
+    "description": "微软开源的轻量文件转 Markdown 工具：把 PDF、PPT、Word、Excel、图片、音频、HTML、YouTube 等转换为结构化 Markdown，专门为 LLM 设计。",
+    "descriptionEn": "Microsoft's lightweight Python utility that converts files to Markdown for LLM use — supports PDF, PowerPoint, Word, Excel, images (EXIF+OCR), audio (transcription), HTML, YouTube URLs, EPUBs and more.",
+    "descriptionJa": "Microsoft 製の軽量ファイル→Markdown変換ツール。PDF、PowerPoint、Word、Excel、画像（EXIF+OCR）、音声（文字起こし）、HTML、YouTube URL、EPUBなどをLLM向けに構造化Markdownへ変換。",
+    "descriptionEs": "Utilidad ligera de Microsoft que convierte archivos a Markdown para LLM — soporta PDF, PowerPoint, Word, Excel, imágenes (EXIF+OCR), audio (transcripción), HTML, URLs de YouTube, EPUBs y más.",
+    "descriptionFr": "Utilitaire léger de Microsoft qui convertit des fichiers en Markdown pour les LLM — prend en charge PDF, PowerPoint, Word, Excel, images (EXIF+OCR), audio (transcription), HTML, URLs YouTube, EPUB et plus.",
+    "url": "https://github.com/microsoft/markitdown",
+    "logo": "/logos/tools/markitdown.png",
+    "category": "Code",
+    "tags": [
+      "Open Source",
+      "Free"
+    ],
+    "featured": false,
+    "homeFeatured": false,
+    "developer": "Microsoft",
+    "developerZh": "微软",
+    "platforms": {
+      "web": false,
+      "windows": true,
+      "macos": true,
+      "linux": true,
+      "ios": false,
+      "android": false,
+      "browser_extension": false,
+      "api": true
+    }
+  },
+  {
+    "slug": "aitoearn",
+    "name": "AiToEarn",
+    "nameZh": "AiToEarn",
+    "description": "一人公司（OPC）的 AI 内容营销智能体：自动生成、发布并变现内容，支持抖音、小红书、快手、B站、TikTok、YouTube、Instagram、X 等 13 个平台。",
+    "descriptionEn": "AI content marketing agent for one-person companies (OPC): automatically creates, publishes and monetizes content across 13 platforms including Douyin, Xiaohongshu, Kuaishou, Bilibili, TikTok, YouTube, Instagram and X.",
+    "descriptionJa": "一人会社（OPC）向けのAIコンテンツマーケティングエージェント。抖音、小紅書、快手、Bilibili、TikTok、YouTube、Instagram、Xなど13プラットフォームでコンテンツを自動生成・公開・収益化。",
+    "descriptionEs": "Agente de marketing de contenido IA para one-person companies (OPC): crea, publica y monetiza contenido automáticamente en 13 plataformas incluyendo Douyin, Xiaohongshu, Kuaishou, Bilibili, TikTok, YouTube, Instagram y X.",
+    "descriptionFr": "Agent de marketing de contenu IA pour les one-person companies (OPC) : crée, publie et monétise automatiquement du contenu sur 13 plateformes dont Douyin, Xiaohongshu, Kuaishou, Bilibili, TikTok, YouTube, Instagram et X.",
+    "url": "https://aitoearn.ai",
+    "logo": "/logos/tools/aitoearn.png",
+    "category": "Automation",
+    "tags": [
+      "Free",
+      "Open Source"
+    ],
+    "featured": false,
+    "homeFeatured": false,
+    "developer": "yikart",
+    "developerZh": "yikart",
+    "platforms": {
+      "web": true,
+      "windows": true,
+      "macos": true,
+      "linux": true,
+      "ios": false,
+      "android": false,
+      "browser_extension": false,
+      "api": true
+    }
   }
 ]

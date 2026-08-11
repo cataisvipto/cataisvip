@@ -46379,5 +46379,460 @@
       "pricingVerified": "2026-08-09",
       "pricingUrl": "https://www.dreamskin.cc"
     }
+  },
+  "markitdown": {
+    "features": {
+      "en": [
+        "Converts PDF, PowerPoint, Word, Excel, HTML, CSV, JSON, XML, EPUB and more to Markdown",
+        "Image support with EXIF metadata extraction and OCR",
+        "Audio support with speech transcription",
+        "YouTube URL support (extracts video metadata)",
+        "ZIP file iteration over contents",
+        "CLI with stdin/stdout piping and -o output flag",
+        "Python library with convert_* granular functions (convert_stream, convert_local)",
+        "Built by the Microsoft AutoGen team"
+      ],
+      "zh": [
+        "支持 PDF、PPT、Word、Excel、HTML、CSV、JSON、XML、EPUB 等转换 Markdown",
+        "图片支持 EXIF 元数据提取与 OCR",
+        "音频支持语音转写",
+        "支持 YouTube URL（提取视频元数据）",
+        "ZIP 文件自动遍历内容",
+        "CLI 支持 stdin/stdout 管道与 -o 输出参数",
+        "Python 库提供 convert_* 细粒度函数（convert_stream、convert_local）",
+        "微软 AutoGen 团队构建"
+      ],
+      "ja": [
+        "PDF、PowerPoint、Word、Excel、HTML、CSV、JSON、XML、EPUBなどをMarkdownに変換",
+        "画像のEXIFメタデータ抽出とOCRに対応",
+        "音声の文字起こしに対応",
+        "YouTube URLをサポート（動画メタデータ取得）",
+        "ZIPファイルの内容を自動的に反復処理",
+        "CLIはstdin/stdoutパイプと-o出力フラグをサポート",
+        "convert_* 粒度の細かい関数（convert_stream、convert_local）を提供",
+        "Microsoft AutoGenチームが開発"
+      ],
+      "es": [
+        "Convierte PDF, PowerPoint, Word, Excel, HTML, CSV, JSON, XML, EPUB y más a Markdown",
+        "Soporte de imágenes con extracción de metadatos EXIF y OCR",
+        "Soporte de audio con transcripción de voz",
+        "Soporte de URLs de YouTube (extrae metadatos del video)",
+        "Iteración de contenidos de archivos ZIP",
+        "CLI con pipes stdin/stdout y flag de salida -o",
+        "Biblioteca Python con funciones granulares convert_* (convert_stream, convert_local)",
+        "Construido por el equipo AutoGen de Microsoft"
+      ],
+      "fr": [
+        "Convertit PDF, PowerPoint, Word, Excel, HTML, CSV, JSON, XML, EPUB et plus en Markdown",
+        "Support d'images avec extraction des métadonnées EXIF et OCR",
+        "Support audio avec transcription vocale",
+        "Support des URLs YouTube (extrait les métadonnées vidéo)",
+        "Itération sur le contenu des fichiers ZIP",
+        "CLI avec pipes stdin/stdout et option de sortie -o",
+        "Bibliothèque Python avec fonctions granulaires convert_* (convert_stream, convert_local)",
+        "Construit par l'équipe Microsoft AutoGen"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "Free and open source (MIT)",
+        "zh": "免费开源（MIT 协议）",
+        "ja": "無料のオープンソース（MITライセンス）",
+        "es": "Gratuito y de código abierto (MIT)",
+        "fr": "Gratuit et open source (licence MIT)"
+      }
+    },
+    "useCases": {
+      "en": [
+        "Preparing documents (PDF, PPT, Word) as Markdown for LLM context ingestion",
+        "Building RAG pipelines that need clean structured text extraction",
+        "Converting web pages and YouTube videos into LLM-friendly content"
+      ],
+      "zh": [
+        "把 PDF、PPT、Word 等文档转成 Markdown 供 LLM 上下文摄入",
+        "构建需要干净结构化文本提取的 RAG 流水线",
+        "把网页和 YouTube 视频转换成 LLM 友好的内容"
+      ],
+      "ja": [
+        "PDF、PPT、WordなどのドキュメントをLLMのコンテキスト取込用にMarkdownへ変換",
+        "クリーンな構造化テキスト抽出が必要なRAGパイプラインを構築",
+        "WebページとYouTube動画をLLM対応コンテンツに変換"
+      ],
+      "es": [
+        "Preparar documentos (PDF, PPT, Word) como Markdown para ingestión en contexto LLM",
+        "Construir pipelines RAG que necesitan extracción limpia de texto estructurado",
+        "Convertir páginas web y videos de YouTube en contenido amigable para LLM"
+      ],
+      "fr": [
+        "Préparer des documents (PDF, PPT, Word) en Markdown pour l'ingestion de contexte LLM",
+        "Construire des pipelines RAG nécessitant une extraction propre de texte structuré",
+        "Convertir des pages web et vidéos YouTube en contenu compatible LLM"
+      ]
+    },
+    "pros": {
+      "en": [
+        "173K+ stars — one of the most popular document conversion tools in the AI ecosystem",
+        "Wide format coverage with a single unified Markdown output",
+        "Simple CLI and Python API, easy to integrate into any pipeline",
+        "Built by Microsoft AutoGen team, MIT licensed",
+        "Actively maintained with regular releases"
+      ],
+      "zh": [
+        "17 万+ 星——AI 生态中最流行的文档转换工具之一",
+        "格式覆盖广，统一输出 Markdown",
+        "CLI 和 Python API 都简单易用，方便集成到任何流水线",
+        "微软 AutoGen 团队维护，MIT 协议",
+        "积极维护，定期发布"
+      ],
+      "ja": [
+        "17万以上のスター——AIエコシステムで最も人気のあるドキュメント変換ツールの一つ",
+        "広いフォーマット対応、統一されたMarkdown出力",
+        "シンプルなCLIとPython API、あらゆるパイプラインに統合しやすい",
+        "Microsoft AutoGenチームが開発、MITライセンス",
+        "積極的にメンテナンスされ、定期的にリリース"
+      ],
+      "es": [
+        "Más de 173K estrellas — una de las herramientas de conversión de documentos más populares del ecosistema IA",
+        "Amplia cobertura de formatos con una salida Markdown unificada",
+        "CLI y API Python simples, fáciles de integrar en cualquier pipeline",
+        "Construido por el equipo AutoGen de Microsoft, licencia MIT",
+        "Mantenido activamente con lanzamientos regulares"
+      ],
+      "fr": [
+        "Plus de 173K étoiles — l'un des outils de conversion de documents les plus populaires de l'écosystème IA",
+        "Large couverture de formats avec une sortie Markdown unifiée",
+        "CLI et API Python simples, faciles à intégrer dans n'importe quel pipeline",
+        "Construit par l'équipe Microsoft AutoGen, licence MIT",
+        "Maintenu activement avec des versions régulières"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Output fidelity is not always perfect for human consumption — optimized for LLM ingestion",
+        "OCR quality depends on the underlying engine",
+        "848 open issues at verification time (large project, busy issue tracker)"
+      ],
+      "zh": [
+        "输出保真度并非总是适合人类阅读——面向 LLM 摄入优化",
+        "OCR 质量依赖底层引擎",
+        "核验时 848 个未关闭 issue（大项目，issue 追踪繁忙）"
+      ],
+      "ja": [
+        "出力の忠実度は必ずしも人間向きとは限らない——LLM取込向けに最適化",
+        "OCR品質は基盤エンジンに依存",
+        "検証時点で848件の未解決issue（大規模プロジェクト、issue追跡が活発）"
+      ],
+      "es": [
+        "La fidelidad de salida no siempre es perfecta para consumo humano — optimizado para ingestión LLM",
+        "La calidad del OCR depende del motor subyacente",
+        "848 issues abiertos en la verificación (proyecto grande, tracker ocupado)"
+      ],
+      "fr": [
+        "La fidélité de sortie n'est pas toujours parfaite pour une lecture humaine — optimisée pour l'ingestion LLM",
+        "La qualité de l'OCR dépend du moteur sous-jacent",
+        "848 issues ouvertes au moment de la vérification (grand projet, tracker chargé)"
+      ]
+    },
+    "latestUpdate": {
+      "en": "July 2026: MarkItDown continues active development by the Microsoft AutoGen team with 173K+ stars, expanding format support and improving OCR/document structure preservation.",
+      "zh": "2026年7月：MarkItDown 由微软 AutoGen 团队持续积极开发，17万+ 星，不断扩展格式支持并改进 OCR 与文档结构保留。",
+      "ja": "2026年7月：MarkItDownはMicrosoft AutoGenチームにより活発に開発が継続され、17万以上のスターを獲得。フォーマット対応を拡大し、OCRとドキュメント構造の保持を改善。",
+      "es": "Julio 2026: MarkItDown continúa su desarrollo activo por el equipo AutoGen de Microsoft con más de 173K estrellas, ampliando el soporte de formatos y mejorando OCR y preservación de estructura.",
+      "fr": "Juillet 2026 : MarkItDown poursuit son développement actif par l'équipe Microsoft AutoGen avec plus de 173K étoiles, élargissant le support des formats et améliorant l'OCR et la préservation de la structure."
+    },
+    "summary": {
+      "en": "MarkItDown is Microsoft's lightweight Python utility that converts any file to Markdown for LLM consumption. With 173K+ stars, wide format coverage (PDF, PPT, Word, Excel, images, audio, HTML, YouTube) and a simple CLI/API, it has become the de-facto standard for preparing documents as LLM-ready Markdown.",
+      "zh": "MarkItDown 是微软出品的轻量 Python 工具，把任意文件转换为 LLM 可消费的 Markdown。17 万+ 星、格式覆盖广（PDF、PPT、Word、Excel、图片、音频、HTML、YouTube）、CLI/API 简单，已成为把文档制备成 LLM 就绪 Markdown 的事实标准。",
+      "ja": "MarkItDownは、あらゆるファイルをLLM向けMarkdownに変換するMicrosoft製の軽量Pythonユーティリティです。17万以上のスター、広範なフォーマット対応（PDF、PPT、Word、Excel、画像、音声、HTML、YouTube）、シンプルなCLI/APIを備え、LLM対応Markdownへの文書変換の事実上の標準となっています。",
+      "es": "MarkItDown es la utilidad ligera de Python de Microsoft que convierte cualquier archivo a Markdown para consumo LLM. Con más de 173K estrellas, amplia cobertura de formatos (PDF, PPT, Word, Excel, imágenes, audio, HTML, YouTube) y CLI/API simples, se ha convertido en el estándar de facto para preparar documentos como Markdown listo para LLM.",
+      "fr": "MarkItDown est l'utilitaire Python léger de Microsoft qui convertit n'importe quel fichier en Markdown pour consommation LLM. Avec plus de 173K étoiles, une large couverture de formats (PDF, PPT, Word, Excel, images, audio, HTML, YouTube) et une CLI/API simple, il est devenu le standard de facto pour préparer des documents en Markdown prêt pour LLM."
+    },
+    "verdict": {
+      "badge": "Recommended",
+      "headline": {
+        "en": "The de-facto standard for converting files to LLM-ready Markdown.",
+        "zh": "把文件转换为 LLM 就绪 Markdown 的事实标准。",
+        "ja": "ファイルをLLM対応Markdownに変換する事実上の標準。",
+        "es": "El estándar de facto para convertir archivos a Markdown listo para LLM.",
+        "fr": "Le standard de facto pour convertir des fichiers en Markdown prêt pour LLM."
+      },
+      "body": {
+        "en": "MarkItDown solves a fundamental problem for the AI ecosystem: preparing real-world documents for LLM ingestion. Its broad format coverage (PDF, PPT, Word, Excel, images, audio, HTML, YouTube), simple one-command CLI, and Python library make it extraordinarily easy to integrate.\\n\\nBuilt by the Microsoft AutoGen team and MIT-licensed, it is arguably the most trusted option in this space with 173K+ stars. For RAG pipelines, document Q&A, or any workflow that needs clean text from messy files, MarkItDown is the reference choice. Output is optimized for LLM consumption rather than human reading, which is exactly what most AI workflows need.",
+        "zh": "MarkItDown 解决了 AI 生态的一个根本问题：为 LLM 摄入制备真实世界文档。格式覆盖广（PDF、PPT、Word、Excel、图片、音频、HTML、YouTube）、单命令 CLI、Python 库，集成极其简单。\\n\\n由微软 AutoGen 团队构建、MIT 协议，以 17 万+ 星成为该领域最受信任的选择。RAG 流水线、文档问答或任何需要从杂乱文件中提取干净文本的工作流，MarkItDown 都是参考之选。输出针对 LLM 消费而非人类阅读优化，这正是大多数 AI 工作流所需。",
+        "ja": "MarkItDownは、AIエコシステムの根本的な問題を解決します：LLM取込用に現実世界のドキュメントを準備すること。広範なフォーマット対応（PDF、PPT、Word、Excel、画像、音声、HTML、YouTube）、単一コマンドのCLI、Pythonライブラリにより、統合は非常に簡単です。\\n\\nMicrosoft AutoGenチームが開発し、MITライセンスで、17万以上のスターを持つこの分野で最も信頼される選択肢です。RAGパイプライン、ドキュメントQA、または雑多なファイルからクリーンなテキストを抽出するあらゆるワークフローで、MarkItDownが標準です。出力は人間向けではなくLLM消費向けに最適化されており、これは多くのAIワークフローが求めるものです。",
+        "es": "MarkItDown resuelve un problema fundamental del ecosistema IA: preparar documentos del mundo real para la ingesta LLM. Su amplia cobertura de formatos (PDF, PPT, Word, Excel, imágenes, audio, HTML, YouTube), CLI de un comando y biblioteca Python hacen que sea extraordinariamente fácil de integrar.\\n\\nConstruido por el equipo AutoGen de Microsoft y con licencia MIT, es probablemente la opción más confiable en este espacio con más de 173K estrellas. Para pipelines RAG, Q&A de documentos o cualquier flujo que necesite texto limpio de archivos desordenados, MarkItDown es la elección de referencia. La salida está optimizada para consumo LLM en lugar de lectura humana, que es exactamente lo que la mayoría de los flujos de IA necesitan.",
+        "fr": "MarkItDown résout un problème fondamental de l'écosystème IA : préparer des documents du monde réel pour l'ingestion LLM. Sa large couverture de formats (PDF, PPT, Word, Excel, images, audio, HTML, YouTube), sa CLI en une commande et sa bibliothèque Python le rendent extraordinairement facile à intégrer.\\n\\nConstruit par l'équipe Microsoft AutoGen et sous licence MIT, c'est probablement l'option la plus fiable de cet espace avec plus de 173K étoiles. Pour les pipelines RAG, le Q&A documentaire ou tout workflow nécessitant du texte propre depuis des fichiers désordonnés, MarkItDown est le choix de référence. La sortie est optimisée pour la consommation LLM plutôt que la lecture humaine, ce qui correspond exactement aux besoins de la plupart des workflows IA."
+      },
+      "bestFor": {
+        "en": [
+          "Developers and teams building RAG pipelines, document Q&A systems, or any AI workflow that needs clean Markdown extraction from PDF, Office, image, audio or web content."
+        ],
+        "zh": [
+          "构建 RAG 流水线、文档问答系统，或任何需要从 PDF、Office、图片、音频、网页内容中提取干净 Markdown 的 AI 工作流的开发者与团队。"
+        ],
+        "ja": [
+          "RAGパイプライン、ドキュメントQAシステム、またはPDF、Office、画像、音声、WebコンテンツからクリーンなMarkdown抽出を必要とするAIワークフローを構築する開発者とチーム。"
+        ],
+        "es": [
+          "Desarrolladores y equipos que construyen pipelines RAG, sistemas de Q&A documental o cualquier flujo IA que necesite extracción limpia de Markdown desde PDF, Office, imágenes, audio o contenido web."
+        ],
+        "fr": [
+          "Développeurs et équipes construisant des pipelines RAG, des systèmes de Q&A documentaire, ou tout workflow IA nécessitant une extraction propre de Markdown depuis PDF, Office, images, audio ou contenu web."
+        ]
+      },
+      "considerAlternatives": {
+        "en": [
+          "If you need high-fidelity human-readable conversions, consider native document tools instead of LLM-optimized ones (e.g. dedicated PDF/Office converters)."
+        ],
+        "zh": [
+          "如果需要高保真的人类可读转换，考虑使用原生文档工具（如专业的 PDF/Office 转换器）而非面向 LLM 优化的方案。"
+        ],
+        "ja": [
+          "人間が読むための高忠実度変換が必要な場合は、LLM向けに最適化されたものではなく、ネイティブのドキュメントツール（専用のPDF/Office変換ツールなど）を検討してください。"
+        ],
+        "es": [
+          "Si necesitas conversiones de alta fidelidad para lectura humana, considera herramientas de documentos nativas (como conversores dedicados de PDF/Office) en lugar de opciones optimizadas para LLM."
+        ],
+        "fr": [
+          "Si vous avez besoin de conversions haute fidélité lisibles par l'humain, privilégiez les outils documentaires natifs (convertisseurs PDF/Office dédiés) plutôt que les options optimisées pour LLM."
+        ]
+      }
+    },
+    "meta": {
+      "lastVerified": "2026-08-11",
+      "verdictDate": "2026-08-11",
+      "pricingVerified": "2026-08-11",
+      "pricingUrl": "https://github.com/microsoft/markitdown"
+    }
+  },
+  "aitoearn": {
+    "features": {
+      "en": [
+        "AI agent automation for content creation, publishing and monetization",
+        "Supports 13 platforms: Douyin, Xiaohongshu, Kuaishou, Bilibili, Video Account, TikTok, YouTube, Facebook, Instagram, Threads, X, Pinterest, LinkedIn",
+        "Web app (no deployment needed) + Docker self-hosting + source development options",
+        "MCP protocol support — usable from Claude, Cursor and any MCP-capable agent",
+        "OpenClaw integration for executing content monetization tasks",
+        "Content trading marketplace (v2.1)",
+        "Offline merchant promotion solutions for restaurants, retail, homestays, gyms",
+        "Built-in AI agents for automatic content generation and publishing"
+      ],
+      "zh": [
+        "AI 智能体自动化：内容创建、发布与变现一站式",
+        "支持 13 个平台：抖音、小红书、快手、哔哩哔哩、视频号、TikTok、YouTube、Facebook、Instagram、Threads、X、Pinterest、LinkedIn",
+        "网页版（免部署）+ Docker 私有化部署 + 源码开发三种方式",
+        "MCP 协议支持，可从 Claude、Cursor 等任何支持 MCP 的智能体使用",
+        "支持 OpenClaw（龙虾）集成，直接执行内容变现任务",
+        "内容交易市场（v2.1 上线）",
+        "线下商户推广解决方案（餐厅、零售、民宿、健身房等）",
+        "内置超级 AI 智能体，自动内容生成与发布"
+      ],
+      "ja": [
+        "AIエージェント自動化：コンテンツ作成・公開・収益化をワンストップで",
+        "13のプラットフォームに対応：抖音、小紅書、快手、Bilibili、動画アカウント、TikTok、YouTube、Facebook、Instagram、Threads、X、Pinterest、LinkedIn",
+        "Webアプリ（デプロイ不要）+ Dockerセルフホスティング + ソース開発の3方式",
+        "MCPプロトコル対応、Claude、CursorなどのMCP対応エージェントから利用可能",
+        "OpenClaw統合でコンテンツ収益化タスクを直接実行",
+        "コンテンツ取引マーケットプレイス（v2.1）",
+        "飲食店、小売、民泊、ジムなど向けオフライン店舗プロモーションソリューション",
+        "コンテンツ自動生成・公開を行うスーパーAIエージェント内蔵"
+      ],
+      "es": [
+        "Automatización con agentes IA: creación, publicación y monetización de contenido todo en uno",
+        "Soporta 13 plataformas: Douyin, Xiaohongshu, Kuaishou, Bilibili, Video Account, TikTok, YouTube, Facebook, Instagram, Threads, X, Pinterest, LinkedIn",
+        "Web app (sin despliegue) + Docker self-hosting + desarrollo desde código",
+        "Soporte de protocolo MCP — usable desde Claude, Cursor y cualquier agente MCP",
+        "Integración con OpenClaw para ejecutar tareas de monetización",
+        "Marketplace de comercio de contenido (v2.1)",
+        "Soluciones de promoción para comercios offline (restaurantes, retail, homestays, gimnasios)",
+        "Agentes IA integrados para generación y publicación automática"
+      ],
+      "fr": [
+        "Automatisation par agents IA : création, publication et monétisation de contenu en un seul endroit",
+        "13 plateformes : Douyin, Xiaohongshu, Kuaishou, Bilibili, Video Account, TikTok, YouTube, Facebook, Instagram, Threads, X, Pinterest, LinkedIn",
+        "Web app (sans déploiement) + Docker self-hosting + développement depuis les sources",
+        "Support du protocole MCP — utilisable depuis Claude, Cursor et tout agent compatible MCP",
+        "Intégration OpenClaw pour exécuter des tâches de monétisation",
+        "Marketplace de contenu (v2.1)",
+        "Solutions de promotion pour commerces hors ligne (restaurants, retail, homestays, salles de sport)",
+        "Agents IA intégrés pour la génération et publication automatique"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "Open source (MIT) with a cloud SaaS at aitoearn.ai (API keys required for platform publishing).",
+        "zh": "开源（MIT 协议）+ 云端 SaaS（aitoearn.ai），平台发布需 API Key。",
+        "ja": "オープンソース（MITライセンス）+ クラウドSaaS（aitoearn.ai）。プラットフォーム公開にはAPIキーが必要。",
+        "es": "Código abierto (MIT) con SaaS en nube en aitoearn.ai (se requieren claves API para publicar en plataformas).",
+        "fr": "Open source (MIT) avec SaaS cloud sur aitoearn.ai (clés API requises pour la publication sur les plateformes)."
+      }
+    },
+    "useCases": {
+      "en": [
+        "One-person companies (OPC) automating multi-platform content marketing",
+        "Creators and brands distributing content across Chinese and global platforms",
+        "Local businesses (restaurants, retail, homestays, gyms) running offline-to-online promotion campaigns"
+      ],
+      "zh": [
+        "一人公司（OPC）自动化多平台内容营销",
+        "创作者与品牌在国内外平台分发内容",
+        "本地商家（餐厅、零售、民宿、健身房）运行线上线下联动的推广活动"
+      ],
+      "ja": [
+        "一人会社（OPC）によるマルチプラットフォームコンテンツマーケティングの自動化",
+        "クリエイターとブランドが国内外プラットフォームでコンテンツを配信",
+        "地域ビジネス（飲食店、小売、民泊、ジム）がオンライン×オフライン連動プロモーションを実行"
+      ],
+      "es": [
+        "One-person companies (OPC) que automatizan marketing de contenido multiplataforma",
+        "Creadores y marcas que distribuyen contenido en plataformas chinas y globales",
+        "Negocios locales (restaurantes, retail, homestays, gimnasios) con campañas de promoción offline-a-online"
+      ],
+      "fr": [
+        "One-person companies (OPC) automatisant le marketing de contenu multiplateforme",
+        "Créateurs et marques distribuant du contenu sur les plateformes chinoises et mondiales",
+        "Commerces locaux (restaurants, retail, homestays, salles de sport) menant des campagnes offline-vers-online"
+      ]
+    },
+    "pros": {
+      "en": [
+        "Broad platform coverage (13 platforms) — rare in one tool",
+        "Multiple usage modes: web app, Docker self-host, MCP integration, OpenClaw",
+        "Active development with frequent releases (v2.5 as of June 2026)",
+        "MIT licensed with a global user base",
+        "MCP protocol support makes it usable from any modern AI agent"
+      ],
+      "zh": [
+        "平台覆盖广（13 个平台）——同类工具罕见",
+        "多种使用方式：网页版、Docker 私有化、MCP 集成、OpenClaw",
+        "开发活跃，发布频繁（截至 2026 年 6 月 v2.5）",
+        "MIT 协议，全球用户基础",
+        "支持 MCP 协议，可从任何现代 AI 智能体使用"
+      ],
+      "ja": [
+        "プラットフォーム対応が広い（13プラットフォーム）——同種ツールでは珍しい",
+        "複数の利用方法：Webアプリ、Dockerセルフホスト、MCP統合、OpenClaw",
+        "開発が活発で頻繁にリリース（2026年6月時点でv2.5）",
+        "MITライセンス、グローバルなユーザーベース",
+        "MCPプロトコル対応で、あらゆる最新AIエージェントから利用可能"
+      ],
+      "es": [
+        "Amplia cobertura de plataformas (13) — raro en una sola herramienta",
+        "Múltiples modos de uso: web app, Docker self-host, integración MCP, OpenClaw",
+        "Desarrollo activo con lanzamientos frecuentes (v2.5 a junio de 2026)",
+        "Licencia MIT con base de usuarios global",
+        "Soporte de protocolo MCP para usarlo desde cualquier agente IA moderno"
+      ],
+      "fr": [
+        "Large couverture de plateformes (13) — rare en un seul outil",
+        "Plusieurs modes : web app, Docker self-host, intégration MCP, OpenClaw",
+        "Développement actif avec versions fréquentes (v2.5 depuis juin 2026)",
+        "Licence MIT avec base d'utilisateurs mondiale",
+        "Support du protocole MCP pour l'utiliser depuis n'importe quel agent IA moderne"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Platform publishing requires API keys — not a fully zero-config experience",
+        "Lacks a SECURITY.md (verified 2026-08-11) — vulnerability disclosure channel unclear",
+        "Documentation is primarily Chinese-first with some English/Japanese translation",
+        "Content monetization features tied to specific platform policies that change frequently"
+      ],
+      "zh": [
+        "平台发布需要 API Key，并非完全零配置",
+        "缺少 SECURITY.md（2026-08-11 核验）——漏洞披露渠道不明确",
+        "文档以中文为主，部分英日翻译",
+        "内容变现功能依赖具体平台政策，政策变动频繁"
+      ],
+      "ja": [
+        "プラットフォーム公開にはAPIキーが必要で、完全なゼロコンフィグではない",
+        "SECURITY.mdがない（2026-08-11確認）——脆弱性開示チャネルが不明確",
+        "ドキュメントは主に中国語で、一部英日翻訳あり",
+        "コンテンツ収益化機能は頻繁に変わる各プラットフォームのポリシーに依存"
+      ],
+      "es": [
+        "La publicación en plataformas requiere claves API — no es una experiencia totalmente zero-config",
+        "Carece de SECURITY.md (verificado 2026-08-11) — canal de divulgación de vulnerabilidades poco claro",
+        "Documentación principalmente en chino con algo de traducción al inglés/japonés",
+        "Las funciones de monetización dependen de políticas de plataforma que cambian con frecuencia"
+      ],
+      "fr": [
+        "La publication sur les plateformes nécessite des clés API — pas une expérience totalement zero-config",
+        "Pas de SECURITY.md (vérifié le 2026-08-11) — canal de divulgation des vulnérabilités peu clair",
+        "Documentation principalement en chinois avec un peu de traduction anglais/japonais",
+        "La monétisation dépend de politiques de plateformes qui changent fréquemment"
+      ]
+    },
+    "latestUpdate": {
+      "en": "June 2026 (v2.5): Relay configuration moved to the config console with Server Relay / AI Relay split; open platform launched. May 2026 (v2.4): draft generation adds HappyHorse 1.0 and Seedance 2.0, batch generation, multi-model selection.",
+      "zh": "2026年6月（v2.5）：Relay 配置改到配置管理界面，拆分为 Server Relay 与 AI Relay，开放平台上线。2026年5月（v2.4）：草稿生成新增 HappyHorse 1.0 和 Seedance 2.0，支持批量生成、多模型选择。",
+      "ja": "2026年6月（v2.5）：Relay設定を設定管理画面に移行し、Server RelayとAI Relayに分割、オープンプラットフォームを公開。2026年5月（v2.4）：ドラフト生成にHappyHorse 1.0とSeedance 2.0を追加、バッチ生成・複数モデル選択に対応。",
+      "es": "Junio 2026 (v2.5): configuración de Relay movida a la consola con división Server Relay / AI Relay; plataforma abierta lanzada. Mayo 2026 (v2.4): generación de borradores añade HappyHorse 1.0 y Seedance 2.0, generación por lotes, selección multi-modelo.",
+      "fr": "Juin 2026 (v2.5) : configuration Relay déplacée vers la console avec division Server Relay / AI Relay ; plateforme ouverte lancée. Mai 2026 (v2.4) : génération de brouillons avec HappyHorse 1.0 et Seedance 2.0, génération par lots, sélection multi-modèles."
+    },
+    "summary": {
+      "en": "AiToEarn is an AI content marketing agent for one-person companies (OPC) that creates, publishes and monetizes content across 13 platforms. It offers web, Docker self-host, MCP and OpenClaw integration modes, making it flexible for creators, brands and local businesses. SEO note: primarily Chinese-first documentation.",
+      "zh": "AiToEarn 是面向一人公司（OPC）的 AI 内容营销智能体：在 13 个平台自动创建、发布并变现内容。提供网页版、Docker 私有化、MCP 与 OpenClaw 集成模式，适合创作者、品牌与本地商家。",
+      "ja": "AiToEarnは、一人会社（OPC）向けのAIコンテンツマーケティングエージェントです。13のプラットフォームでコンテンツを自動作成・公開・収益化。Web、Dockerセルフホスト、MCP、OpenClaw統合モードを提供し、クリエイター、ブランド、地域ビジネスに適しています。",
+      "es": "AiToEarn es un agente de marketing de contenido IA para one-person companies (OPC) que crea, publica y monetiza contenido en 13 plataformas. Ofrece modos web, Docker self-host, integración MCP y OpenClaw, flexible para creadores, marcas y negocios locales.",
+      "fr": "AiToEarn est un agent de marketing de contenu IA pour les one-person companies (OPC) qui crée, publie et monétise du contenu sur 13 plateformes. Il offre des modes web, Docker self-host, intégration MCP et OpenClaw, flexible pour les créateurs, marques et commerces locaux."
+    },
+    "verdict": {
+      "badge": "Worth Trying",
+      "headline": {
+        "en": "A rare 13-platform AI content marketing agent with MCP support — powerful for one-person companies, but platform APIs and policies add friction.",
+        "zh": "罕见的 13 平台 AI 内容营销智能体，支持 MCP——对一人公司很强大，但平台 API 与政策带来摩擦。",
+        "ja": "珍しい13プラットフォーム対応のAIコンテンツマーケティングエージェントで、MCPもサポート。一人会社には強力だが、プラットフォームAPIとポリシーが摩擦を生む。",
+        "es": "Un raro agente de marketing de contenido IA de 13 plataformas con soporte MCP — potente para one-person companies, pero las APIs y políticas de plataforma añaden fricción.",
+        "fr": "Un rare agent de marketing de contenu IA couvrant 13 plateformes avec support MCP — puissant pour les one-person companies, mais les APIs et politiques de plateforme ajoutent de la friction."
+      },
+      "body": {
+        "en": "AiToEarn is an ambitious all-in-one content marketing platform for one-person companies: it covers 13 platforms (Douyin to YouTube to LinkedIn), offers multiple integration modes (web, Docker, MCP, OpenClaw), and ships built-in AI agents for content generation and publishing. The MCP protocol support is a differentiator — any modern AI agent can drive it.\\n\\nThe friction is real: platform publishing requires API keys per platform, content monetization depends on frequently changing platform policies, and documentation is Chinese-first. It lacks a SECURITY.md. For Chinese and global creators wanting to automate multi-platform distribution, it's worth trying, with the caveat that setup is not zero-config.",
+        "zh": "AiToEarn 是面向一人公司的雄心勃勃的一站式内容营销平台：覆盖 13 个平台（抖音到 YouTube 到 LinkedIn），提供多种集成方式（网页、Docker、MCP、OpenClaw），并内置内容生成与发布的 AI 智能体。MCP 协议支持是差异化优势——任何现代 AI 智能体都可以驱动它。\\n\\n摩擦也确实存在：平台发布需要各平台 API Key，内容变现依赖频繁变动的平台政策，文档以中文优先。缺少 SECURITY.md。对想自动化多平台分发的中外创作者而言值得一试，但需注意配置并非零成本。",
+        "ja": "AiToEarnは、一人会社向けの野心的なオールインワンコンテンツマーケティングプラットフォームです。13のプラットフォーム（抖音からYouTube、LinkedInまで）をカバーし、複数の統合モード（Web、Docker、MCP、OpenClaw）を提供し、コンテンツ生成・公開用のAIエージェントを内蔵しています。MCPプロトコルサポートは差別化ポイントで、あらゆる最新AIエージェントから操作できます。\\n\\n摩擦も現実的です：プラットフォーム公開には各プラットフォームのAPIキーが必要で、コンテンツ収益化は頻繁に変わるプラットフォームポリシーに依存し、ドキュメントは中国語中心です。SECURITY.mdもありません。多プラットフォーム配信を自動化したい国内外のクリエイターには試す価値がありますが、セットアップはゼロコンフィグではない点に注意が必要です。",
+        "es": "AiToEarn es una ambiciosa plataforma todo-en-uno de marketing de contenido para one-person companies: cubre 13 plataformas (de Douyin a YouTube y LinkedIn), ofrece múltiples modos de integración (web, Docker, MCP, OpenClaw) e incluye agentes IA para generación y publicación. El soporte MCP es un diferenciador — cualquier agente IA moderno puede manejarlo.\\n\\nLa fricción es real: publicar requiere claves API por plataforma, la monetización depende de políticas que cambian con frecuencia, y la documentación es principalmente en chino. Tampoco tiene SECURITY.md. Para creadores chinos y globales que quieran automatizar la distribución multiplataforma, vale la pena probarlo, con la salvedad de que la configuración no es zero-config.",
+        "fr": "AiToEarn est une ambitieuse plateforme tout-en-un de marketing de contenu pour les one-person companies : elle couvre 13 plateformes (de Douyin à YouTube et LinkedIn), propose plusieurs modes d'intégration (web, Docker, MCP, OpenClaw) et embarque des agents IA pour la génération et la publication de contenu. Le support du protocole MCP est un différenciateur — n'importe quel agent IA moderne peut la piloter.\n\nLa friction est réelle : publier nécessite des clés API par plateforme, la monétisation dépend de politiques de plateforme qui changent fréquemment, et la documentation est d'abord en chinois. Elle n'a pas non plus de SECURITY.md. Pour les créateurs chinois et internationaux qui veulent automatiser la distribution multiplateforme, cela vaut la peine d'essayer, avec la réserve que la configuration n'est pas zero-config."
+      },
+      "bestFor": {
+        "en": [
+          "One-person companies, creators and brands — especially those in China or targeting Chinese platforms — who want to automate multi-platform content distribution with AI agents."
+        ],
+        "zh": [
+          "一人公司、创作者与品牌——尤其在中国或面向中国平台运营的——希望用 AI 智能体自动化多平台内容分发。"
+        ],
+        "ja": [
+          "一人会社、クリエイター、ブランド——特に中国国内や中国プラットフォームをターゲットにする人——がAIエージェントで多プラットフォーム配信を自動化したい場合。"
+        ],
+        "es": [
+          "One-person companies, creadores y marcas — especialmente en China o que apuntan a plataformas chinas — que quieran automatizar la distribución multiplataforma con agentes IA."
+        ],
+        "fr": [
+          "One-person companies, créateurs et marques — surtout en Chine ou ciblant les plateformes chinoises — qui veulent automatiser la distribution multiplateforme avec des agents IA."
+        ]
+      },
+      "considerAlternatives": {
+        "en": [
+          "If you need deeper publishing integrations or are outside China, compare with platform-native schedulers (Buffer, Later) or single-platform publishing tools."
+        ],
+        "zh": [
+          "如果需要更深的发布集成或不在中国，比较平台原生的排期工具（Buffer、Later）或单平台发布工具。"
+        ],
+        "ja": [
+          "より深い公開統合が必要な場合や中国国外の場合は、プラットフォームネイティブのスケジューラ（Buffer、Later）や単一プラットフォーム向け公開ツールと比較してください。"
+        ],
+        "es": [
+          "Si necesitas integraciones de publicación más profundas o estás fuera de China, compara con schedulers nativos (Buffer, Later) o herramientas de publicación de plataforma única."
+        ],
+        "fr": [
+          "Si vous avez besoin d'intégrations de publication plus profondes ou êtes hors de Chine, comparez avec les schedulers natifs (Buffer, Later) ou les outils de publication mono-plateforme."
+        ]
+      }
+    },
+    "meta": {
+      "lastVerified": "2026-08-11",
+      "verdictDate": "2026-08-11",
+      "pricingVerified": "2026-08-11",
+      "pricingUrl": "https://aitoearn.ai"
+    }
   }
 }
