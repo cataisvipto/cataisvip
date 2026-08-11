@@ -5491,5 +5491,36 @@
       "browser_extension": false,
       "api": true
     }
+  },
+  {
+    "slug": "wigolo",
+    "name": "wigolo",
+    "nameZh": "wigolo",
+    "description": "本地优先的 AI 智能体网络情报引擎：搜索、抓取、爬取、提取、缓存、找相似、研究、自主采集，无需 API Key、无按量计费，以 MCP/REST/SDK 形式让任何智能体获得网络能力。",
+    "descriptionEn": "Local-first web intelligence for AI agents: search, fetch, crawl, extract, cache, find-similar, research, and autonomous gather loops — no API keys, no metered bill. Serves agents via MCP, REST, and SDKs.",
+    "descriptionJa": "AIエージェント向けローカルファーストのWebインテリジェンス：検索、フェッチ、クロール、抽出、キャッシュ、類似検索、リサーチ、自律収集ループ。APIキー不要、従量課金なし。MCP/REST/SDKでエージェントに提供。",
+    "descriptionEs": "Inteligencia web local-first para agentes de IA: búsqueda, fetch, crawl, extracción, caché, similares, investigación y bucles autónomos de recolección — sin claves API, sin facturación por uso. Sirve a agentes vía MCP, REST y SDKs.",
+    "descriptionFr": "Intelligence web local-first pour les agents IA : recherche, fetch, crawl, extraction, cache, similarité, recherche documentaire et boucles autonomes de collecte — sans clés API, sans facturation à l'usage. Sert les agents via MCP, REST et SDK.",
+    "url": "https://github.com/KnockOutEZ/wigolo",
+    "logo": "/logos/tools/wigolo.png",
+    "category": "Search",
+    "tags": [
+      "Open Source",
+      "Free"
+    ],
+    "featured": false,
+    "homeFeatured": false,
+    "developer": "KnockOutEZ (yourtowhid)",
+    "developerZh": "KnockOutEZ（yourtowhid）",
+    "platforms": {
+      "web": false,
+      "windows": true,
+      "macos": true,
+      "linux": true,
+      "ios": false,
+      "android": false,
+      "browser_extension": false,
+      "api": true
+    }
   }
 ]

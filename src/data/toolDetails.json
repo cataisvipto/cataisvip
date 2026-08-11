@@ -46834,5 +46834,250 @@
       "pricingVerified": "2026-08-11",
       "pricingUrl": "https://aitoearn.ai"
     }
+  },
+  "wigolo": {
+    "features": {
+      "en": [
+        "Multi-engine web search (18 direct adapters) with rank fusion, ML reranking, and explainable per-result scores",
+        "Tiered fetch: auto-escalates from plain HTTP to a headless browser engine on anti-bot challenges or SPA shells",
+        "Multi-page crawl with BFS/DFS/sitemap modes, per-domain rate limits and robots.txt respect",
+        "Structured extraction: tables, JSON-LD, brand identity, named schemas, or custom JSON Schema",
+        "Persistent local cache with keyword/hybrid semantic query and change detection",
+        "find_similar via 3-way fusion of keyword + semantic + live web",
+        "research tool: decompose question → fan out sub-queries → synthesize cited report",
+        "autonomous agent gather loop with step log, time budget and output schema",
+        "diff + watch tools for page change detection with webhook delivery",
+        "Runs as MCP server, REST API (wigolo serve), CLI, interactive shell, and TypeScript/Python SDKs"
+      ],
+      "zh": [
+        "多引擎网络搜索（18 个直连适配器），带排名融合、ML 重排与可解释的单结果评分",
+        "分层抓取：遇到反爬挑战或 SPA 壳自动从纯 HTTP 升级到无头浏览器引擎",
+        "多页爬取，支持 BFS/DFS/sitemap 模式、按域限速与 robots.txt 尊重",
+        "结构化提取：表格、JSON-LD、品牌识别、命名 schema 或自定义 JSON Schema",
+        "持久化本地缓存，支持关键词/混合语义查询与变更检测",
+        "find_similar：关键词 + 语义 + 实时网络三方融合",
+        "research 工具：问题分解 → 子查询扇出 → 合成带引用的报告",
+        "自主 agent 采集循环，带步骤日志、时间预算与输出 schema",
+        "diff + watch 工具：页面变更检测，支持 webhook 投递",
+        "以 MCP 服务器、REST API（wigolo serve）、CLI、交互式 shell 与 TypeScript/Python SDK 形式运行"
+      ],
+      "ja": [
+        "マルチエンジンWeb検索（18の直接アダプター）、ランク融合、ML再ランキング、説明可能な結果別スコア",
+        "階層フェッチ：アンチボットチャレンジやSPAシェルでプレーンHTTPからヘッドレスブラウザエンジンへ自動エスカレーション",
+        "BFS/DFS/sitemapモードのマルチページクロール、ドメイン別レート制限、robots.txt尊重",
+        "構造化抽出：テーブル、JSON-LD、ブランド識別、命名スキーマ、カスタムJSONスキーマ",
+        "永続ローカルキャッシュ、キーワード/ハイブリッドセマンティッククエリと変更検出",
+        "find_similar：キーワード+セマンティック+ライブWebの3方向融合",
+        "researchツール：質問分解→サブクエリ扇出→引用付きレポート合成",
+        "自律エージェント収集ループ、ステップログ、時間予算、出力スキーマ付き",
+        "diff+watchツール：ページ変更検出、webhook配信対応",
+        "MCPサーバー、REST API（wigolo serve）、CLI、対話シェル、TypeScript/Python SDKとして動作"
+      ],
+      "es": [
+        "Búsqueda web multi-motor (18 adaptadores directos) con fusión de rankings, re-ranking ML y puntuaciones explicables por resultado",
+        "Fetch por niveles: escalado automático de HTTP plano a navegador headless ante retos anti-bot o shells SPA",
+        "Crawl multipágina con modos BFS/DFS/sitemap, límites de tasa por dominio y respeto a robots.txt",
+        "Extracción estructurada: tablas, JSON-LD, identidad de marca, esquemas nombrados o JSON Schema personalizado",
+        "Caché local persistente con consulta semántica por palabras clave/híbrida y detección de cambios",
+        "find_similar con fusión triple de palabras clave + semántica + web en vivo",
+        "Herramienta research: descompone la pregunta → subconsultas → sintetiza informe citado",
+        "Bucle autónomo de recolección de agente con log de pasos, presupuesto de tiempo y esquema de salida",
+        "diff + watch para detección de cambios en páginas con entrega por webhook",
+        "Funciona como servidor MCP, API REST (wigolo serve), CLI, shell interactivo y SDKs de TypeScript/Python"
+      ],
+      "fr": [
+        "Recherche web multi-moteurs (18 adaptateurs directs) avec fusion de rangs, re-ranking ML et scores explicables par résultat",
+        "Fetch par niveaux : escalade automatique du HTTP simple vers un navigateur headless face aux défis anti-bot ou shells SPA",
+        "Crawl multipage avec modes BFS/DFS/sitemap, limites de taux par domaine et respect de robots.txt",
+        "Extraction structurée : tableaux, JSON-LD, identité de marque, schémas nommés ou JSON Schema personnalisé",
+        "Cache local persistant avec requête sémantique par mots-clés/hybride et détection de changements",
+        "find_similar via fusion triple mots-clés + sémantique + web en direct",
+        "Outil research : décompose la question → sous-requêtes → synthétise un rapport cité",
+        "Boucle de collecte autonome d'agent avec journal d'étapes, budget de temps et schéma de sortie",
+        "diff + watch pour la détection de changements de page avec livraison webhook",
+        "Fonctionne comme serveur MCP, API REST (wigolo serve), CLI, shell interactif et SDKs TypeScript/Python"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "Free and open source (AGPL-3.0). Core tools are fully keyless; optional LLM synthesis can use a free Gemini key or local Ollama.",
+        "zh": "免费开源（AGPL-3.0）。核心工具完全无需 API Key；可选 LLM 合成可用免费 Gemini Key 或本地 Ollama。",
+        "ja": "無料のオープンソース（AGPL-3.0）。コアツールは完全にキーレス。オプションのLLM合成は無料のGeminiキーまたはローカルOllamaを使用可能。",
+        "es": "Gratuito y de código abierto (AGPL-3.0). Las herramientas core no requieren claves; la síntesis LLM opcional puede usar una clave Gemini gratuita u Ollama local.",
+        "fr": "Gratuit et open source (AGPL-3.0). Les outils de base sont entièrement sans clé ; la synthèse LLM optionnelle peut utiliser une clé Gemini gratuite ou Ollama local."
+      }
+    },
+    "useCases": {
+      "en": [
+        "Giving coding agents (Claude Code, Cursor, Codex) a local-first web search and fetch layer without API keys",
+        "Building RAG pipelines with fresh web data, cached locally with change detection",
+        "Self-hosted agents, n8n workflows and any MCP client getting structured web extraction"
+      ],
+      "zh": [
+        "为编码智能体（Claude Code、Cursor、Codex）提供无需 API Key 的本地优先网络搜索与抓取层",
+        "构建带最新网络数据的 RAG 流水线，本地缓存并支持变更检测",
+        "自托管智能体、n8n 工作流及任何 MCP 客户端获得结构化网络提取"
+      ],
+      "ja": [
+        "コーディングエージェント（Claude Code、Cursor、Codex）にAPIキー不要のローカルファーストWeb検索・フェッチ層を提供",
+        "最新のWebデータをローカルキャッシュし変更検出付きでRAGパイプラインを構築",
+        "セルフホストエージェント、n8nワークフロー、あらゆるMCPクライアントが構造化Web抽出を利用"
+      ],
+      "es": [
+        "Dar a los agentes de codificación (Claude Code, Cursor, Codex) una capa de búsqueda web local-first sin claves API",
+        "Construir pipelines RAG con datos web frescos, cacheados localmente con detección de cambios",
+        "Agentes self-hosted, flujos n8n y cualquier cliente MCP obtienen extracción web estructurada"
+      ],
+      "fr": [
+        "Donner aux agents de codage (Claude Code, Cursor, Codex) une couche de recherche web local-first sans clés API",
+        "Construire des pipelines RAG avec des données web fraîches, mises en cache localement avec détection de changements",
+        "Agents auto-hébergés, workflows n8n et tout client MCP obtiennent une extraction web structurée"
+      ]
+    },
+    "pros": {
+      "en": [
+        "Truly keyless: 18 search engine adapters with on-device reranking and embeddings — $0 per query",
+        "Honest output: surfaces stale cache, failed fetches, blocked_by_challenge failures instead of hiding them",
+        "Privacy by default: everything lives under ~/.wigolo/, nothing leaves the machine unless you opt in",
+        "Broad surface: MCP, REST, CLI, shell, TypeScript and Python SDKs",
+        "Local persistent cache makes re-queries instant and offline-capable"
+      ],
+      "zh": [
+        "真正免 Key：18 个搜索适配器 + 本机重排与嵌入——每次查询 0 成本",
+        "诚实的输出：暴露过期缓存、抓取失败、blocked_by_challenge 失败而非隐藏",
+        "默认隐私：一切数据在 ~/.wigolo/ 下，不主动选择不会离开本机",
+        "覆盖面广：MCP、REST、CLI、shell、TypeScript 与 Python SDK",
+        "本地持久缓存让重复查询即时响应且可离线"
+      ],
+      "ja": [
+        "真のキーレス：18の検索アダプター+オンデバイス再ランキングと埋め込み——クエリあたり$0",
+        "誠実な出力：古いキャッシュ、失敗したフェッチ、blocked_by_challengeの失敗を隠さず公開",
+        "デフォルトでプライバシー：すべてが~/.wigolo/の下にあり、オプトインしない限りマシンの外に出ない",
+        "広いサーフェス：MCP、REST、CLI、シェル、TypeScriptとPython SDK",
+        "ローカル永続キャッシュにより再クエリが即時かつオフライン対応"
+      ],
+      "es": [
+        "Verdaderamente sin claves: 18 adaptadores de búsqueda con re-ranking y embeddings en el dispositivo — $0 por consulta",
+        "Salida honesta: expone caché obsoleto, fetches fallidos, fallos blocked_by_challenge en lugar de ocultarlos",
+        "Privacidad por defecto: todo vive en ~/.wigolo/, nada sale de la máquina salvo que lo optes",
+        "Superficie amplia: MCP, REST, CLI, shell, SDKs de TypeScript y Python",
+        "Caché local persistente hace las reconsultas instantáneas y offline"
+      ],
+      "fr": [
+        "Vraiment sans clé : 18 adaptateurs de recherche avec re-ranking et embeddings sur l'appareil — 0 $ par requête",
+        "Sortie honnête : expose le cache obsolète, les fetchs échoués, les échecs blocked_by_challenge au lieu de les cacher",
+        "Confidentialité par défaut : tout vit dans ~/.wigolo/, rien ne quitte la machine sauf si vous optez",
+        "Large surface : MCP, REST, CLI, shell, SDKs TypeScript et Python",
+        "Le cache local persistant rend les re-requêtes instantanées et hors ligne"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Requires ~1.5 GB local disk for browser engine and on-device models",
+        "AGPL-3.0 license — restrictive for commercial embedding in proprietary products",
+        "Public beta status; project is young (created April 2026)",
+        "Solo maintainer (personal account) — bus factor consideration",
+        "Search quality depends on public engines accessible from your network"
+      ],
+      "zh": [
+        "需要约 1.5 GB 本地磁盘存放浏览器引擎与本地模型",
+        "AGPL-3.0 协议——对专有产品商业嵌入限制严格",
+        "公开 Beta 状态；项目年轻（2026 年 4 月创建）",
+        "单人维护（个人账号）——存在独角戏风险",
+        "搜索质量取决于你网络可访问的公共引擎"
+      ],
+      "ja": [
+        "ブラウザエンジンとオンデバイスモデルに約1.5GBのローカルディスクが必要",
+        "AGPL-3.0ライセンス——プロプライエタリ製品への商用組み込みには制限が厳しい",
+        "パブリックベータ版；プロジェクトは若い（2026年4月作成）",
+        "個人アカウントによる単独メンテナンス——バスファクターの懸念",
+        "検索品質はネットワークからアクセス可能な公開エンジンに依存"
+      ],
+      "es": [
+        "Requiere ~1.5 GB de disco local para el motor del navegador y los modelos on-device",
+        "Licencia AGPL-3.0 — restrictiva para incrustación comercial en productos propietarios",
+        "Estado beta pública; proyecto joven (creado en abril de 2026)",
+        "Mantenido por una sola persona (cuenta personal) — riesgo de factor bus",
+        "La calidad de búsqueda depende de los motores públicos accesibles desde tu red"
+      ],
+      "fr": [
+        "Nécessite ~1,5 Go de disque local pour le moteur navigateur et les modèles on-device",
+        "Licence AGPL-3.0 — restrictive pour l'intégration commerciale dans des produits propriétaires",
+        "Statut bêta publique ; projet récent (créé en avril 2026)",
+        "Mainteneur unique (compte personnel) — risque de bus factor",
+        "La qualité de recherche dépend des moteurs publics accessibles depuis votre réseau"
+      ]
+    },
+    "latestUpdate": {
+      "en": "August 2026: wigolo continues steady development with 10 tools (search, fetch, crawl, extract, cache, find_similar, research, agent, diff, watch), multi-agent wiring (claude-code, cursor, codex, gemini-cli, opencode, vs-code, windsurf, zed, antigravity), REST API, and TypeScript/Python SDKs.",
+      "zh": "2026年8月：wigolo 持续稳定开发，提供 10 个工具（搜索、抓取、爬取、提取、缓存、找相似、研究、agent、diff、watch），支持多智能体接入（claude-code、cursor、codex、gemini-cli、opencode、vs-code、windsurf、zed、antigravity），含 REST API 与 TypeScript/Python SDK。",
+      "ja": "2026年8月：wigoloは10ツール（検索、フェッチ、クロール、抽出、キャッシュ、類似検索、リサーチ、エージェント、diff、watch）で安定した開発を継続。マルチエージェント対応（claude-code、cursor、codex、gemini-cli、opencode、vs-code、windsurf、zed、antigravity）、REST API、TypeScript/Python SDKを提供。",
+      "es": "Agosto 2026: wigolo continúa su desarrollo constante con 10 herramientas (search, fetch, crawl, extract, cache, find_similar, research, agent, diff, watch), configuración multi-agente (claude-code, cursor, codex, gemini-cli, opencode, vs-code, windsurf, zed, antigravity), API REST y SDKs TypeScript/Python.",
+      "fr": "Août 2026 : wigolo poursuit son développement régulier avec 10 outils (search, fetch, crawl, extract, cache, find_similar, research, agent, diff, watch), configuration multi-agents (claude-code, cursor, codex, gemini-cli, opencode, vs-code, windsurf, zed, antigravity), API REST et SDKs TypeScript/Python."
+    },
+    "summary": {
+      "en": "wigolo is a local-first web intelligence engine for AI agents: search, fetch, crawl, extract, cache, find-similar, research, and autonomous gather loops — with no API keys and no metered billing. It serves agents via MCP, REST, CLI, and SDKs, positioning itself as a free, private alternative to Firecrawl, Exa, and Tavily.",
+      "zh": "wigolo 是面向 AI 智能体的本地优先网络情报引擎：搜索、抓取、爬取、提取、缓存、找相似、研究、自主采集循环——无需 API Key、无按量计费。通过 MCP、REST、CLI 与 SDK 服务智能体，定位为 Firecrawl、Exa、Tavily 的免费私有替代。",
+      "ja": "wigoloはAIエージェント向けローカルファーストのWebインテリジェンスエンジンです：検索、フェッチ、クロール、抽出、キャッシュ、類似検索、リサーチ、自律収集ループ——APIキー不要、従量課金なし。MCP、REST、CLI、SDKでエージェントに提供し、Firecrawl、Exa、Tavilyの無料・プライベートな代替として位置づけています。",
+      "es": "wigolo es un motor de inteligencia web local-first para agentes de IA: búsqueda, fetch, crawl, extracción, caché, similares, investigación y bucles autónomos — sin claves API ni facturación por uso. Sirve a agentes vía MCP, REST, CLI y SDKs, posicionándose como alternativa gratuita y privada a Firecrawl, Exa y Tavily.",
+      "fr": "wigolo est un moteur d'intelligence web local-first pour les agents IA : recherche, fetch, crawl, extraction, cache, similarité, recherche documentaire et boucles autonomes — sans clés API ni facturation à l'usage. Il sert les agents via MCP, REST, CLI et SDK, se positionnant comme une alternative gratuite et privée à Firecrawl, Exa et Tavily."
+    },
+    "verdict": {
+      "badge": "Worth Trying",
+      "headline": {
+        "en": "A genuinely free, local-first web layer for agents — keyless search with honest output, still young and AGPL.",
+        "zh": "面向智能体的真正免费本地优先网络层——免 Key 搜索与诚实输出，但项目年轻且为 AGPL 协议。",
+        "ja": "エージェント向けの真に無料なローカルファーストWebレイヤー——キーレス検索と誠実な出力。ただし若いプロジェクトでAGPL。",
+        "es": "Una capa web local-first genuinamente gratuita para agentes — búsqueda sin claves con salida honesta, aún joven y AGPL.",
+        "fr": "Une couche web local-first vraiment gratuite pour les agents — recherche sans clé avec sortie honnête, encore jeune et AGPL."
+      },
+      "body": {
+        "en": "wigolo aims to be the local-first answer to Firecrawl, Exa, and Tavily: 18 search engine adapters with on-device reranking, tiered fetch with headless-browser escalation, structured extraction, and a persistent local cache — all keyless and $0 per query. The honest-output philosophy (surfacing blocked_by_challenge failures and stale cache instead of hiding them) is a genuinely refreshing design choice.\\n\\nConsiderations: it needs ~1.5 GB local disk, the AGPL-3.0 license restricts commercial embedding, and it is maintained by a single person in public beta. For developers and self-hosters who want a private, zero-cost web layer for their agents, wigolo is worth trying.",
+        "zh": "wigolo 旨在成为 Firecrawl、Exa、Tavily 的本地优先答案：18 个搜索适配器 + 本机重排、带无头浏览器升级的分层抓取、结构化提取、持久本地缓存——全部免 Key，每次查询 0 成本。「诚实输出」理念（暴露 blocked_by_challenge 失败和过期缓存而非隐藏）是真正令人耳目一新的设计选择。\\n\\n注意事项：需要约 1.5 GB 本地磁盘，AGPL-3.0 协议限制商业嵌入，且处于公开 Beta、单人维护。对想要为智能体提供私有无成本网络层的开发者与自托管者，wigolo 值得一试。",
+        "ja": "wigoloはFirecrawl、Exa、Tavilyに対するローカルファーストの答えを目指しています：18の検索アダプター+オンデバイス再ランキング、ヘッドレスブラウザへのエスカレーション付き階層フェッチ、構造化抽出、永続ローカルキャッシュ——すべてキーレスでクエリあたり$0。「誠実な出力」の哲学（blocked_by_challengeの失敗や古いキャッシュを隠さず公開）は、本当に新鮮な設計選択です。\\n\\n考慮点：約1.5GBのローカルディスクが必要で、AGPL-3.0ライセンスは商用組み込みを制限し、パブリックベータで個人がメンテナンスしています。エージェント向けのプライベートな無コストWebレイヤーを求める開発者やセルフホスターには、wigoloは試す価値があります。",
+        "es": "wigolo pretende ser la respuesta local-first a Firecrawl, Exa y Tavily: 18 adaptadores de búsqueda con re-ranking en el dispositivo, fetch por niveles con escalada a navegador headless, extracción estructurada y caché local persistente — todo sin claves y $0 por consulta. La filosofía de salida honesta (exponer fallos blocked_by_challenge y caché obsoleto en lugar de ocultarlos) es una elección de diseño genuinamente refrescante.\\n\\nConsideraciones: necesita ~1.5 GB de disco local, la licencia AGPL-3.0 restringe la incrustación comercial, y está mantenido por una sola persona en beta pública. Para desarrolladores y self-hosters que quieran una capa web privada y sin coste para sus agentes, wigolo vale la pena.",
+        "fr": "wigolo vise à être la réponse local-first à Firecrawl, Exa et Tavily : 18 adaptateurs de recherche avec re-ranking sur l'appareil, fetch par niveaux avec escalade vers un navigateur headless, extraction structurée et cache local persistant — tout sans clé et 0 $ par requête. La philosophie de sortie honnête (exposer les échecs blocked_by_challenge et le cache obsolète au lieu de les cacher) est un choix de conception vraiment rafraîchissant.\\n\\nConsidérations : il faut ~1,5 Go de disque local, la licence AGPL-3.0 restreint l'intégration commerciale, et il est maintenu par une seule personne en bêta publique. Pour les développeurs et self-hosters qui veulent une couche web privée et gratuite pour leurs agents, wigolo vaut la peine d'être essayé."
+      },
+      "bestFor": {
+        "en": [
+          "Developers and self-hosters who want a private, zero-cost web search/extraction layer for their AI agents, and value honest surfaced failures over opaque cloud APIs."
+        ],
+        "zh": [
+          "想要为 AI 智能体提供私有无成本网络搜索/提取层，且看重诚实暴露失败而非不透明云 API 的开发者与自托管者。"
+        ],
+        "ja": [
+          "AIエージェント向けのプライベートで無コストなWeb検索・抽出レイヤーを求め、不透明なクラウドAPIよりも誠実に失敗を公開することを重視する開発者とセルフホスター。"
+        ],
+        "es": [
+          "Desarrolladores y self-hosters que quieran una capa de búsqueda/extracción web privada y sin coste para sus agentes IA, y valoren fallos expuestos honestamente sobre APIs cloud opacas."
+        ],
+        "fr": [
+          "Développeurs et self-hosters qui veulent une couche de recherche/extraction web privée et gratuite pour leurs agents IA, et privilégient les échecs exposés honnêtement aux APIs cloud opaques."
+        ]
+      },
+      "considerAlternatives": {
+        "en": [
+          "If you need a managed cloud API with an SLA, or a permissive license for commercial embedding, compare with Firecrawl (open source core) or the metered Exa/Tavily APIs."
+        ],
+        "zh": [
+          "如果需要带 SLA 的托管云 API，或需要宽松协议用于商业嵌入，可比较 Firecrawl（开源核心）或按量计费的 Exa/Tavily API。"
+        ],
+        "ja": [
+          "SLA付きのマネージドクラウドAPIが必要な場合、または商用組み込みに寛容なライセンスが必要な場合は、Firecrawl（オープンソースコア）や従量課金のExa/Tavily APIと比較してください。"
+        ],
+        "es": [
+          "Si necesitas una API cloud gestionada con SLA, o una licencia permisiva para incrustación comercial, compara con Firecrawl (core open source) o las APIs Exa/Tavily por uso."
+        ],
+        "fr": [
+          "Si vous avez besoin d'une API cloud gérée avec SLA, ou d'une licence permissive pour l'intégration commerciale, comparez avec Firecrawl (cœur open source) ou les APIs Exa/Tavily à l'usage."
+        ]
+      }
+    },
+    "meta": {
+      "lastVerified": "2026-08-11",
+      "verdictDate": "2026-08-11",
+      "pricingVerified": "2026-08-11",
+      "pricingUrl": "https://github.com/KnockOutEZ/wigolo"
+    }
   }
 }
