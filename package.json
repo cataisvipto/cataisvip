@@ -25,6 +25,7 @@
     "gsc": "node scripts/gsc-report.mjs"
   },
   "dependencies": {
+    "@vercel/analytics": "^2.0.1",
     "isomorphic-dompurify": "^3.21.0",
     "lucide-react": "^1.24.0",
     "next": "16.2.12",
