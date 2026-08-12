@@ -11,6 +11,7 @@ import DOMPurify from 'isomorphic-dompurify';
 import { Star, GitFork, ExternalLink, Code2, Copy, Check, Terminal, ArrowLeft, Building2, ChevronDown, ThumbsUp, ThumbsDown, DollarSign, Target, Award , BookOpen, Camera } from 'lucide-react';
 import FaqSection from '@/components/FaqSection';
 import type { Skill } from '../SkillsClient';
+import { fetchReadmeInstallHtml } from '@/lib/readme-parser';
 
 interface SkillDetails {
   pros: Record<string, string[]>;
@@ -54,7 +55,6 @@ const TAG_COLORS: Record<string, string> = {
 interface SkillDetailClientProps {
   skill: Skill;
   locale: string;
-  readmeInstallHtml?: string;
   details?: SkillDetails;
   relatedTutorials: RelatedTutorial[];
 }
@@ -68,14 +68,25 @@ interface RelatedTutorial {
   coverImage?: string;
 }
 
-export default function SkillDetailClient({ skill, locale, readmeInstallHtml, details, relatedTutorials }: SkillDetailClientProps) {
+export default function SkillDetailClient({ skill, locale, details, relatedTutorials }: SkillDetailClientProps) {
   const t = useTranslations('common');
   const tSkills = useTranslations('skills');
   const tTutorials = useTranslations('tutorials');
   const [searchQuery, setSearchQuery] = useState('');
   const [copied, setCopied] = useState(false);
+  const [readmeInstallHtml, setReadmeInstallHtml] = useState<string | undefined>(undefined);
   const displayName = locale === 'zh' && skill.nameZh ? skill.nameZh : skill.name;
   const stars = skill.stars;
+
+  // 客户端懒加载 GitHub README 安装区块
+  useEffect(() => {
+    if (!skill.repo) return;
+    let cancelled = false;
+    fetchReadmeInstallHtml(skill.repo, tSkills('copyCommand')).then((html) => {
+      if (!cancelled) setReadmeInstallHtml(html ?? undefined);
+    });
+    return () => { cancelled = true; };
+  }, [skill.repo, tSkills]);
 
   const handleCopyCommand = () => {
     const cmd = skill.installCommand.replace('{{agent}}', skill.agents[0]);

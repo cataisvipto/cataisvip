@@ -11,6 +11,7 @@ import DOMPurify from 'isomorphic-dompurify';
 import { Star, GitFork, ExternalLink, Plug, Copy, Check, Terminal, ArrowLeft, Building2, ChevronDown, ThumbsUp, ThumbsDown, DollarSign, Target, Award , BookOpen} from 'lucide-react';
 import FaqSection from '@/components/FaqSection';
 import type { McpServer } from '../McpClient';
+import { fetchReadmeInstallHtml } from '@/lib/readme-parser';
 
 interface McpDetails {
   pros: Record<string, string[]>;
@@ -54,7 +55,6 @@ const TAG_COLORS: Record<string, string> = {
 interface McpDetailClientProps {
   server: McpServer;
   locale: string;
-  readmeInstallHtml?: string;
   details?: McpDetails;
   relatedTutorials: RelatedTutorial[];
 }
@@ -68,14 +68,25 @@ interface RelatedTutorial {
   coverImage?: string;
 }
 
-export default function McpDetailClient({ server, locale, readmeInstallHtml, details, relatedTutorials }: McpDetailClientProps) {
+export default function McpDetailClient({ server, locale, details, relatedTutorials }: McpDetailClientProps) {
   const t = useTranslations('common');
   const tMcp = useTranslations('mcp');
   const tTutorials = useTranslations('tutorials');
   const [searchQuery, setSearchQuery] = useState('');
   const [copied, setCopied] = useState(false);
+  const [readmeInstallHtml, setReadmeInstallHtml] = useState<string | undefined>(undefined);
   const displayName = locale === 'zh' && server.nameZh ? server.nameZh : server.name;
   const stars = server.stars;
+
+  // 客户端懒加载 GitHub README 安装区块
+  useEffect(() => {
+    if (!server.repo) return;
+    let cancelled = false;
+    fetchReadmeInstallHtml(server.repo, tMcp('copyCommand')).then((html) => {
+      if (!cancelled) setReadmeInstallHtml(html ?? undefined);
+    });
+    return () => { cancelled = true; };
+  }, [server.repo, tMcp]);
 
   const handleCopyCommand = () => {
     navigator.clipboard.writeText(server.installCommand);
