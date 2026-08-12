@@ -179,7 +179,7 @@
       "Free",
       "Open Source"
     ],
-    "installCommand": "npx @anthropic-ai/sdk add grill-me",
+    "installCommand": "git clone https://github.com/mattpocock/skills.git ~/.codex/skills/mattpocock-skills",
     "logo": "/logos/skills/grill-me.png",
     "stars": 213776,
     "featured": false,
@@ -257,7 +257,7 @@
       "Free",
       "Open Source"
     ],
-    "installCommand": "npx @anthropic-ai/sdk add grill-with-docs",
+    "installCommand": "git clone https://github.com/mattpocock/skills.git ~/.codex/skills/mattpocock-skills",
     "logo": "/logos/skills/grill-with-docs.png",
     "stars": 213776,
     "featured": false,
@@ -335,7 +335,7 @@
       "Free",
       "Open Source"
     ],
-    "installCommand": "npx @anthropic-ai/sdk add improve-codebase-architecture",
+    "installCommand": "git clone https://github.com/mattpocock/skills.git ~/.codex/skills/mattpocock-skills",
     "logo": "/logos/skills/improve-codebase-architecture.png",
     "stars": 213776,
     "featured": false,
@@ -1278,7 +1278,7 @@
       "Free",
       "Open Source"
     ],
-    "installCommand": "npx @anthropic-ai/claude add mcp-server-humanizer",
+    "installCommand": "npx skills add blader/humanizer",
     "logo": "/logos/skills/humanizer.png",
     "stars": 35032,
     "featured": false,
@@ -1356,7 +1356,7 @@
       "Free",
       "Open Source"
     ],
-    "installCommand": "npx @anthropic-ai/sdk add nuwa-skill",
+    "installCommand": "npx skills add alchaincyf/nuwa-skill",
     "logo": "/logos/skills/nuwa-skill.png",
     "stars": 30327,
     "featured": false,
@@ -1435,7 +1435,7 @@
       "Free",
       "Open Source"
     ],
-    "installCommand": "npx @anthropic-ai/sdk add find-skills",
+    "installCommand": "git clone https://github.com/vercel-labs/skills.git ~/.codex/skills/vercel-labs-skills",
     "logo": "/logos/skills/find-skills.png",
     "stars": 28677,
     "featured": false,
@@ -1513,7 +1513,7 @@
       "Free",
       "Open Source"
     ],
-    "installCommand": "npx @anthropic-ai/sdk add huashu-design",
+    "installCommand": "npx skills add alchaincyf/huashu-design",
     "logo": "/logos/skills/huashu-design.png",
     "stars": 22836,
     "featured": false,
@@ -1818,7 +1818,7 @@
     "agents": [
       "claude-code"
     ],
-    "installCommand": "npx skills add https://github.com/op7418/Humanizer-zh.git",
+    "installCommand": "npx skills add op7418/Humanizer-zh",
     "logo": "/logos/skills/humanizer-zh.png",
     "stars": 15091,
     "developer": "op7418",
@@ -1896,7 +1896,7 @@
       "Free",
       "Open Source"
     ],
-    "installCommand": "npx @anthropic-ai/claude add ian-xiaohei-illustrations",
+    "installCommand": "git clone https://github.com/helloianneo/ian-xiaohei-illustrations.git ~/.codex/skills/ian-xiaohei-illustrations",
     "logo": "/logos/skills/ian-xiaohei-illustrations.png",
     "stars": 9344,
     "featured": false,
@@ -1973,7 +1973,7 @@
     "tags": [
       "Free"
     ],
-    "installCommand": "npx @anthropic-ai/sdk add horizon",
+    "installCommand": "git clone https://github.com/Thysrael/Horizon.git && cd Horizon",
     "logo": "/logos/skills/horizon.png",
     "stars": 8788,
     "featured": false,
@@ -2051,7 +2051,7 @@
       "Free",
       "Open Source"
     ],
-    "installCommand": "npx @anthropic-ai/sdk add guizang-social-card",
+    "installCommand": "npx skills add op7418/guizang-social-card-skill",
     "logo": "/logos/skills/guizang-social-card.png",
     "stars": 6239,
     "featured": false,
@@ -2129,7 +2129,7 @@
       "Free",
       "Open Source"
     ],
-    "installCommand": "npx @anthropic-ai/sdk add generative-media-skills",
+    "installCommand": "git clone https://github.com/SamurAIGPT/Generative-Media-Skills.git && cd Generative-Media-Skills",
     "logo": "/logos/skills/generative-media-skills.png",
     "stars": 4031,
     "featured": false,
@@ -2287,7 +2287,7 @@
       "Free",
       "Open Source"
     ],
-    "installCommand": "npx @anthropic-ai/sdk add auto-redbook-skills",
+    "installCommand": "git clone https://github.com/comeonzhj/Auto-Redbook-Skills.git && cd Auto-Redbook-Skills",
     "logo": "/logos/skills/auto-redbook-skills.png",
     "stars": 2126,
     "featured": false,
@@ -2598,7 +2598,7 @@
     "tags": [
       "Free"
     ],
-    "installCommand": "git clone https://github.com/Evianis/travel-photo-abstraction",
+    "installCommand": "git clone https://github.com/Evianis/travel-photo-abstraction ~/.codex/skills/travel-photo-abstraction",
     "logo": "/logos/skills/travel-photo-abstraction.png",
     "stars": 507,
     "featured": false,
@@ -2672,7 +2672,7 @@
     "tags": [
       "Free"
     ],
-    "installCommand": "git clone https://github.com/ZzzLc0405/photo-abstract-editorial",
+    "installCommand": "git clone https://github.com/ZzzLc0405/photo-abstract-editorial ~/.codex/skills/photo-abstract-editorial",
     "logo": "/logos/skills/photo-abstract-editorial.png",
     "stars": 2799,
     "featured": false,
@@ -2746,7 +2746,7 @@
     "tags": [
       "Free"
     ],
-    "installCommand": "git clone https://github.com/Zeejay0/gathered-scenes-zine-skill",
+    "installCommand": "git clone https://github.com/Zeejay0/gathered-scenes-zine-skill ~/.codex/skills/gathered-scenes-zine-skill",
     "logo": "/logos/skills/gathered-scenes-zine-skill.png",
     "stars": 2885,
     "featured": false,
@@ -2822,7 +2822,7 @@
       "Free",
       "Open Source"
     ],
-    "installCommand": "git clone https://github.com/Dlcccc71913/skill-make-photo-stamp-archive",
+    "installCommand": "git clone https://github.com/Dlcccc71913/skill-make-photo-stamp-archive ~/.codex/skills/photo-stamp-archive",
     "logo": "/logos/skills/photo-stamp-archive.png",
     "stars": 193,
     "featured": false,
