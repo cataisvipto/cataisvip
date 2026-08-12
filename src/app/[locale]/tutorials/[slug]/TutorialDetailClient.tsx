@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useMemo } from 'react';
 import { useTranslations, useLocale } from 'next-intl';
 import { Link } from '@/i18n/navigation';
 import Header from '@/components/Header';
@@ -37,11 +37,17 @@ export default function TutorialDetailClient({
   const excerpt = getLocalized(tutorial.excerpt, locale);
   const content = getLocalized(tutorial.content, locale);
 
-  // 相关教程（同标签，排除自身）
-  const related = allTutorials
-    .filter((item) => item.slug !== tutorial.slug)
-    .filter((item) => (item.tags || []).some((tag) => (tutorial.tags || []).includes(tag)))
-    .slice(0, 3);
+  // 相关教程：同产品优先 → 同标签次之 → 任意补齐，保证至少 6 个交叉链接
+    // （SEO：每篇教程页链接到 6 篇其他教程，形成网状内链，Google 可从已索引页发现全部教程）
+    const related = useMemo(() => {
+      const others = allTutorials.filter((item) => item.slug !== tutorial.slug);
+      const sameProduct = others.filter((item) => item.product === tutorial.product);
+      const sameTag = others.filter(
+        (item) => !sameProduct.includes(item) && (item.tags || []).some((tag) => (tutorial.tags || []).includes(tag))
+      );
+      const rest = others.filter((item) => !sameProduct.includes(item) && !sameTag.includes(item));
+      return [...sameProduct, ...sameTag, ...rest].slice(0, 6);
+    }, [allTutorials, tutorial]);
 
   return (
     <PlatformProvider>
