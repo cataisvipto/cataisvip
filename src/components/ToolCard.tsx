@@ -1,7 +1,7 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-import { ExternalLink, Star } from 'lucide-react';
+import { Star } from 'lucide-react';
 import { Link } from '@/i18n/navigation';
 import LogoTile from './LogoTile';
 
@@ -61,12 +61,10 @@ export const getLocalizedDescription = (tool: Tool, locale: string) => {
 interface ToolCardProps {
   tool: Tool;
   locale: string;
-  hideVisitButton?: boolean;
   hideFeaturedBadge?: boolean;
 }
 
-export default function ToolCard({ tool, locale, hideVisitButton, hideFeaturedBadge }: ToolCardProps) {
-  const t = useTranslations('common');
+export default function ToolCard({ tool, locale, hideFeaturedBadge }: ToolCardProps) {
   const tTags = useTranslations('tags');
   const tCategories = useTranslations('categories');
   const description = getLocalizedDescription(tool, locale);
@@ -115,18 +113,7 @@ export default function ToolCard({ tool, locale, hideVisitButton, hideFeaturedBa
         ))}
       </div>
 
-      {/* Visit Link */}
-            {!hideVisitButton && (
-            <a
-              href={tool.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center justify-center gap-1.5 w-full py-2.5 bg-[var(--muted-bg)] hover:bg-[var(--primary)]/10 text-[var(--foreground)] hover:text-[var(--primary)] rounded-xl text-sm font-medium transition"
-            >
-              {t('visit')}
-              <ExternalLink className="w-3.5 h-3.5" />
-            </a>
-            )}
-    </article>
+      {/* Visit Link — 已移除：网格卡片本身可点击跳转详情页，外部访问按钮冗余 */}
+          </article>
   );
 }

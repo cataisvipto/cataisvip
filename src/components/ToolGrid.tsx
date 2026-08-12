@@ -76,7 +76,7 @@ export default function ToolGrid({ tools, locale, searchQuery, totalCount, curat
       {displayTools.length > 0 ? (
               <ScrollReveal><div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
                 {displayTools.map((tool) => (
-                  <ToolCard key={tool.slug} tool={tool} locale={locale} hideVisitButton={curated && !hasSearch} hideFeaturedBadge={curated && !hasSearch} />
+                  <ToolCard key={tool.slug} tool={tool} locale={locale} hideFeaturedBadge={curated && !hasSearch} />
                 ))}
               </div></ScrollReveal>
       ) : (

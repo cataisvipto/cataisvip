@@ -161,7 +161,6 @@ export default function HomePageClient() {
                         {tCategories(cat as any)}
                       </Link>
                     ))}
-                    <span className="text-xs text-[var(--muted)] px-1">·</span>
                     {CATEGORIES.slice(8).map((cat) => (
                       <Link
                         key={cat}
