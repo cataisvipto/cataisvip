@@ -75,6 +75,14 @@
               },
               "required": ["en", "zh", "ja", "es", "fr"]
             },
+      "portfolio": {
+              "type": "array",
+              "description": "Author portfolio images showing real skill output examples (optional)",
+              "items": {
+                "type": "string"
+              },
+              "minItems": 0
+            },
             "meta": {
               "type": "object",
               "description": "Internal AI Audit metadata — verification timestamps, not rendered in UI",

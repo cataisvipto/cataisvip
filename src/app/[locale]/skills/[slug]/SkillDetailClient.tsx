@@ -8,7 +8,7 @@ import Footer from '@/components/Footer';
 import Breadcrumb from '@/components/Breadcrumb';
 import Image from 'next/image';
 import DOMPurify from 'isomorphic-dompurify';
-import { Star, GitFork, ExternalLink, Code2, Copy, Check, Terminal, ArrowLeft, Building2, ChevronDown, ThumbsUp, ThumbsDown, DollarSign, Target, Award , BookOpen} from 'lucide-react';
+import { Star, GitFork, ExternalLink, Code2, Copy, Check, Terminal, ArrowLeft, Building2, ChevronDown, ThumbsUp, ThumbsDown, DollarSign, Target, Award , BookOpen, Camera } from 'lucide-react';
 import FaqSection from '@/components/FaqSection';
 import type { Skill } from '../SkillsClient';
 
@@ -18,6 +18,7 @@ interface SkillDetails {
   pricing?: Record<string, Record<string, string>>;
   verdict: Record<string, string>;
   useCases: Record<string, string[]>;
+  portfolio?: string[];
   tutorials?: Record<string, string>;
 }
 
@@ -290,6 +291,37 @@ export default function SkillDetailClient({ skill, locale, readmeInstallHtml, de
                     </li>
                   ))}
                 </ul>
+              </div>
+            )}
+            {/* Portfolio — 原作者作品展示 */}
+            {details?.portfolio && details.portfolio.length > 0 && (
+              <div className="px-8 pb-8">
+                <h2 className="text-lg font-semibold text-[var(--foreground)] mb-3 flex items-center gap-2">
+                  <Camera className="w-5 h-5 text-amber-500 shrink-0" />
+                  <span>{locale === 'zh' ? '原作者作品' : locale === 'ja' ? '作者の作品' : locale === 'es' ? 'Obras del autor' : locale === 'fr' ? 'Travaux de l\'auteur' : 'Author\'s Works'}</span>
+                </h2>
+                <p className="text-sm text-[var(--muted)] mb-3">
+                  {locale === 'zh' ? '以下为原作者在公开仓库中提供的作品示例，展示该 Skill 的真实输出能力。' : locale === 'ja' ? '以下は原作者が公開リポジトリで提供した作品例で、この Skill の実際の出力能力を示します。' : locale === 'es' ? 'A continuación, ejemplos de obras proporcionadas por el autor en el repositorio público, mostrando la verdadera capacidad de salida del Skill.' : locale === 'fr' ? 'Ci-dessous, exemples d\'œuvres fournies par l\'auteur dans le dépôt public, montrant la véritable capacité de sortie du Skill.' : 'The following are example works provided by the author in the public repo, demonstrating the real output capability of this Skill.'}
+                </p>
+                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
+                  {details.portfolio.map((src, i) => (
+                    <a
+                      key={i}
+                      href={src}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="group relative aspect-square rounded-xl overflow-hidden bg-[var(--muted-bg)] shadow-[var(--card-shadow)] hover:shadow-[var(--card-shadow-hover)] hover:-translate-y-0.5 transition-all duration-300"
+                    >
+                      <img
+                        src={src}
+                        alt={`author-work-${i+1}`}
+                        className="w-full h-full object-cover"
+                        loading="lazy"
+                      />
+                      <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors" />
+                    </a>
+                  ))}
+                </div>
               </div>
             )}
             {/* Pros & Cons */}
