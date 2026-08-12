@@ -5522,5 +5522,36 @@
       "browser_extension": false,
       "api": true
     }
+  },
+  {
+    "slug": "voxcpm",
+    "name": "VoxCPM",
+    "nameZh": "VoxCPM（语音合成）",
+    "description": "OpenBMB 的免 Tokenizer TTS 系统：直接生成连续语音表征，2B 参数、30 种语言、语音设计、可控语音克隆、48kHz 录音室级音频输出。",
+    "descriptionEn": "OpenBMB's tokenizer-free Text-to-Speech system: directly generates continuous speech representations via diffusion autoregressive architecture. 2B parameter model, 30 languages, Voice Design, controllable voice cloning, 48kHz studio-quality audio.",
+    "descriptionJa": "OpenBMBのトークナイザーフリーTTSシステム。拡散自己回帰アーキテクチャにより連続音声表現を直接生成。2Bパラメータモデル、30言語、音声デザイン、制御可能な音声クローン、48kHzスタジオ品質オーディオ。",
+    "descriptionEs": "Sistema TTS sin tokenizador de OpenBMB: genera directamente representaciones continuas de voz mediante arquitectura autoregresiva de difusión. Modelo de 2B parámetros, 30 idiomas, Diseño de Voz, clonación de voz controlable, audio 48kHz de calidad de estudio.",
+    "descriptionFr": "Système TTS sans tokenizer d'OpenBMB : génère directement des représentations vocales continues via une architecture autorégressive de diffusion. Modèle de 2B paramètres, 30 langues, Conception Vocale, clonage vocal contrôlable, audio 48kHz qualité studio.",
+    "url": "https://voxcpm.com",
+    "logo": "/logos/tools/voxcpm.png",
+    "category": "Audio",
+    "tags": [
+      "Open Source",
+      "Free"
+    ],
+    "featured": false,
+    "homeFeatured": false,
+    "developer": "OpenBMB (Tsinghua University)",
+    "developerZh": "OpenBMB（清华大学）",
+    "platforms": {
+      "web": true,
+      "windows": true,
+      "macos": true,
+      "linux": true,
+      "ios": false,
+      "android": false,
+      "browser_extension": false,
+      "api": true
+    }
   }
 ]
