@@ -1,6 +1,6 @@
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import RankingClient from './RankingClient';
-import ranking from '@/data/githubRanking.json';
+import ranking from '@/data/ranking.json';
 import { generateAlternates } from '@/lib/seo';
 
 interface Props {
@@ -23,8 +23,8 @@ export default async function RankingPage({ params }: Props) {
 
   return (
     <RankingClient
-      items={ranking.items}
-      updatedAt={ranking.updatedAt}
+          items={ranking.boards.all.items}
+          updatedAt={ranking.updatedAt}
       locale={locale}
     />
   );

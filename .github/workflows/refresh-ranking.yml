@@ -1,17 +1,19 @@
-name: Refresh GitHub Ranking
+name: Update Ranking
 
-# GitHub AI 项目排行榜定时刷新
-# 每日 UTC 20:47 自动运行（与 refresh-stars 同一时间，星数同步刷新）
+# 每日自动刷新 GitHub AI 项目排行榜 + 快照
+# 双 cron 兜底：GitHub 对低活跃仓库的 schedule 是"尽力而为"，高峰期会被静默丢弃。
+# 两个错峰时刻各跑一次，任一被丢由另一顶上；都跑到也无害（当日快照覆盖写、无变化不提交）。
 # 同时支持手动触发
 
 on:
   schedule:
-    # 每日 UTC 20:47（北京时间凌晨 4:47）
-    - cron: '47 20 * * *'
+    - cron: '37 0 * * *' # 主跑：每日 UTC 00:37（北京 08:37）。勿用整点：UTC 00:00 是 GitHub cron 高峰
+    - cron: '53 2 * * *' # 备份：每日 UTC 02:53（北京 10:53）
   workflow_dispatch:
 
 permissions:
   contents: write
+  issues: write
 
 jobs:
   rank:
@@ -19,27 +21,27 @@ jobs:
     timeout-minutes: 15
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v5
         with:
-          node-version: 20
+          node-version: 24
 
       - name: 运行排行榜算法
-        run: node scripts/github-ranking/rank.js
+        run: node scripts/github-ranking/rank.mjs
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: 提交并推送
+      - name: 提交并推送（含快照）
         run: |
-          if git diff --quiet -- src/data/githubRanking.json; then
-            echo "榜单无变化，跳过提交"
+          git add src/data/ranking.json snapshots
+          if git diff --cached --quiet; then
+            echo "No changes, skip commit."
             exit 0
           fi
-          git config user.name "CATAI"
-          git config user.email "309386950+cataisvipto@users.noreply.github.com"
-          git add src/data/githubRanking.json
-          git commit -m "chore(data): 自动刷新 GitHub 排行榜（$(TZ='Asia/Shanghai' date +%Y-%m-%d)）"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore(data): 自动刷新排行榜及快照（$(TZ='Asia/Shanghai' date +%Y-%m-%d)）"
           # 重试策略：远程有更新时 pull --rebase 再推（最多 3 次）
           for i in 1 2 3; do
             if git push 2>&1; then
@@ -52,3 +54,15 @@ jobs:
           done
           echo "重试耗尽，推送失败"
           exit 1
+
+      # 失败告警：自动开 issue（醒目、可追溯），避免定时任务静默失败导致快照断档
+      - name: Open issue on failure
+        if: failure()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue create \
+            --repo "${{ github.repository }}" \
+            --title "🚨 排行榜更新失败 $(TZ='Asia/Shanghai' date +%Y-%m-%d)" \
+            --body "定时任务运行失败（可能是数据熔断触发或 API 异常）。快照断档无法回补，请尽快排查并手动重跑。日志：${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" \
+            || true
