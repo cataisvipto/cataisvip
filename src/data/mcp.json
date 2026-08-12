@@ -2623,7 +2623,7 @@
       "Free",
       "Open Source"
     ],
-    "installCommand": "npx -y office-word-mcp-server",
+    "installCommand": "pip install -r https://raw.githubusercontent.com/GongRzhe/Office-Word-MCP-Server/main/requirements.txt",
     "logo": "/logos/mcp/office-word-mcp.png",
     "stars": 2117,
     "featured": false,
@@ -2702,7 +2702,7 @@
       "Free",
       "Open Source"
     ],
-    "installCommand": "npx -y office-powerpoint-mcp-server",
+    "installCommand": "pip install -r https://raw.githubusercontent.com/GongRzhe/Office-PowerPoint-MCP-Server/main/requirements.txt",
     "logo": "/logos/mcp/office-ppt-mcp.png",
     "stars": 1851,
     "featured": false,
@@ -2937,7 +2937,7 @@
       "Free",
       "API"
     ],
-    "installCommand": "npx -y @minimax/mcp-server --api-key YOUR_API_KEY",
+    "installCommand": "uvx --from git+https://github.com/MiniMax-AI/MiniMax-MCP -- MiniMax-MCP --api-key YOUR_API_KEY",
     "logo": "/logos/mcp/minimax-mcp.png",
     "stars": 1556,
     "featured": false,
@@ -3172,7 +3172,7 @@
       "Free",
       "API"
     ],
-    "installCommand": "npx -y @elevenlabs/mcp-server --api-key YOUR_API_KEY",
+    "installCommand": "uvx elevenlabs-mcp --api-key YOUR_API_KEY",
     "logo": "/logos/mcp/elevenlabs-mcp.png",
     "stars": 1517,
     "featured": false,
@@ -3251,7 +3251,7 @@
       "Free",
       "Open Source"
     ],
-    "installCommand": "npx -y @hashicorp/terraform-mcp-server",
+    "installCommand": "docker run -i --rm hashicorp/terraform-mcp-server",
     "logo": "/logos/mcp/terraform-mcp.png",
     "stars": 1501,
     "featured": false,
@@ -3330,7 +3330,7 @@
       "Free",
       "Open Source"
     ],
-    "installCommand": "npx -y @qdrant/mcp-server-qdrant",
+    "installCommand": "uvx mcp-server-qdrant",
     "logo": "/logos/mcp/qdrant-mcp.png",
     "stars": 1495,
     "featured": false,
@@ -4271,7 +4271,7 @@
       "Free",
       "Open Source"
     ],
-    "installCommand": "npx -y @tencent/edgeone-pages-mcp",
+    "installCommand": "npx -y edgeone-pages-mcp",
     "logo": "/logos/mcp/edgeone-pages-mcp.png",
     "stars": 431,
     "featured": false,
