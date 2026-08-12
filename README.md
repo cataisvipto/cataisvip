@@ -12,7 +12,7 @@
 - **国际化**: next-intl 4.x（5 种语言: en/zh/ja/es/fr）
 - **图标**: Lucide React
 - **部署**: Vercel（自动构建，连接 GitHub）
-- **DNS**: Cloudflare（catai.cc.cd）
+- **DNS**: Cloudflare（cataito.com）
 
 ## 🚀 快速开始
 
