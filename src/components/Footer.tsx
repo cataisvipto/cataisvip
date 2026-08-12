@@ -50,7 +50,8 @@ export default function Footer() {
               <li><Link href="/blog" className="text-sm text-[var(--muted)] hover:text-[var(--primary)] transition">{tNav('blog')}</Link></li>
               <li><Link href="/tutorials" className="text-sm text-[var(--muted)] hover:text-[var(--primary)] transition">{tNav('tutorials')}</Link></li>
               <li><Link href="/submit" className="text-sm text-[var(--muted)] hover:text-[var(--primary)] transition">{tNav('submit')}</Link></li>
-              <li><Link href="/about" className="text-sm text-[var(--muted)] hover:text-[var(--primary)] transition">{tNav('about')}</Link></li>
+                            <li><Link href="/about" className="text-sm text-[var(--muted)] hover:text-[var(--primary)] transition">{tNav('about')}</Link></li>
+                            <li><Link href="/badge" className="text-sm text-[var(--muted)] hover:text-[var(--primary)] transition">Add Badge</Link></li>
             </ul>
           </div>
 
