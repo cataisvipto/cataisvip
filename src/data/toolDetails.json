@@ -47319,5 +47319,670 @@
       "pricingVerified": "2026-08-11",
       "pricingUrl": "https://voxcpm.com"
     }
+  },
+  "llamaindex": {
+    "features": {
+      "en": [
+        "Connect 160+ data sources (APIs, databases, file formats, SaaS) to LLMs",
+        "Index documents with advanced chunking, embedding, and metadata extraction",
+        "Query engine with retrieval-augmented generation (RAG)",
+        "Agent orchestration with tool use, planning, and multi-step reasoning",
+        "Structured data extraction from unstructured documents",
+        "Built-in evaluation framework for RAG pipeline quality",
+        "LlamaCloud managed service for production deployments",
+        "Strong community with 51K+ stars and extensive documentation"
+      ],
+      "zh": [
+        "连接 160+ 数据源（API、数据库、文件格式、SaaS）到大模型",
+        "文档索引：高级分块、嵌入和元数据提取",
+        "带检索增强生成（RAG）的查询引擎",
+        "智能体编排：工具使用、规划、多步推理",
+        "从非结构化文档中提取结构化数据",
+        "内置 RAG 流水线质量评估框架",
+        "LlamaCloud 托管服务用于生产部署",
+        "51K+ 星、文档丰富的强大社区"
+      ],
+      "ja": [
+        "160以上のデータソース（API、データベース、ファイル形式、SaaS）をLLMに接続",
+        "高度なチャンキング、埋め込み、メタデータ抽出によるドキュメントインデックス",
+        "検索拡張生成（RAG）を備えたクエリエンジン",
+        "ツール使用、計画、多段階推論を備えたエージェントオーケストレーション",
+        "非構造化ドキュメントからの構造化データ抽出",
+        "RAGパイプライン品質のための組み込み評価フレームワーク",
+        "本番デプロイ用のマネージドサービスLlamaCloud",
+        "51K+スターと豊富なドキュメントを持つ強力なコミュニティ"
+      ],
+      "es": [
+        "Conecta 160+ fuentes de datos (APIs, bases de datos, formatos de archivo, SaaS) a LLMs",
+        "Indexa documentos con chunking avanzado, embeddings y extracción de metadatos",
+        "Motor de consulta con generación aumentada por recuperación (RAG)",
+        "Orquestación de agentes con uso de herramientas, planificación y razonamiento multi-paso",
+        "Extracción de datos estructurados de documentos no estructurados",
+        "Framework de evaluación integrado para la calidad del pipeline RAG",
+        "Servicio gestionado LlamaCloud para despliegues de producción",
+        "Comunidad fuerte con 51K+ estrellas y documentación extensa"
+      ],
+      "fr": [
+        "Connecte 160+ sources de données (APIs, bases de données, formats de fichiers, SaaS) aux LLMs",
+        "Indexe les documents avec chunking avancé, embeddings et extraction de métadonnées",
+        "Moteur de requêtes avec génération augmentée par récupération (RAG)",
+        "Orchestration d'agents avec utilisation d'outils, planification et raisonnement multi-étapes",
+        "Extraction de données structurées à partir de documents non structurés",
+        "Framework d'évaluation intégré pour la qualité des pipelines RAG",
+        "Service géré LlamaCloud pour les déploiements de production",
+        "Communauté solide avec 51K+ étoiles et documentation extensive"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "Free and open source (MIT). LlamaCloud managed service has paid tiers.",
+        "zh": "免费开源（MIT）。LlamaCloud 托管服务有付费层级。",
+        "ja": "無料のオープンソース（MIT）。LlamaCloudマネージドサービスには有料プランあり。",
+        "es": "Gratuito y de código abierto (MIT). El servicio gestionado LlamaCloud tiene niveles de pago.",
+        "fr": "Gratuit et open source (MIT). Le service géré LlamaCloud a des niveaux payants."
+      }
+    },
+    "useCases": {
+      "en": [
+        "Building RAG pipelines for document Q&A, customer support, and knowledge bases",
+        "Creating data agents that can query databases, APIs, and files on demand",
+        "Developing LLM-powered applications with structured data extraction"
+      ],
+      "zh": [
+        "构建文档问答、客户支持和知识库的 RAG 流水线",
+        "创建可查询数据库、API 和文件的数据智能体",
+        "开发带结构化数据提取的 LLM 驱动应用"
+      ],
+      "ja": [
+        "ドキュメントQA、カスタマーサポート、ナレッジベースのためのRAGパイプライン構築",
+        "データベース、API、ファイルをオンデマンドで照会できるデータエージェントを作成",
+        "構造化データ抽出を備えたLLM搭載アプリケーションの開発"
+      ],
+      "es": [
+        "Construir pipelines RAG para Q&A de documentos, soporte al cliente y bases de conocimiento",
+        "Crear agentes de datos que consultan bases de datos, APIs y archivos bajo demanda",
+        "Desarrollar aplicaciones potenciadas por LLM con extracción de datos estructurados"
+      ],
+      "fr": [
+        "Construire des pipelines RAG pour le Q&A documentaire, le support client et les bases de connaissances",
+        "Créer des agents de données qui interrogent bases de données, APIs et fichiers à la demande",
+        "Développer des applications propulsées par LLM avec extraction de données structurées"
+      ]
+    },
+    "pros": {
+      "en": [
+        "160+ data source connectors — most comprehensive in the ecosystem",
+        "Very active community (51K+ stars) and extensive documentation",
+        "Supports both simple RAG and complex multi-agent orchestration",
+        "MIT licensed, production-proven",
+        "Regular releases with new features and improvements"
+      ],
+      "zh": [
+        "160+ 数据源连接器——生态中最全面的",
+        "社区非常活跃（51K+ 星），文档丰富",
+        "同时支持简单 RAG 和复杂多智能体编排",
+        "MIT 协议，生产验证",
+        "定期发布新功能和改进"
+      ],
+      "ja": [
+        "160以上のデータソースコネクタ——エコシステムで最も包括的",
+        "非常に活発なコミュニティ（51K+スター）と豊富なドキュメント",
+        "シンプルなRAGから複雑なマルチエージェントオーケストレーションまで対応",
+        "MITライセンス、本番実績",
+        "新機能と改善を伴う定期的なリリース"
+      ],
+      "es": [
+        "160+ conectores de datos — el más completo del ecosistema",
+        "Comunidad muy activa (51K+ estrellas) y documentación extensa",
+        "Soporta tanto RAG simple como orquestación multi-agente compleja",
+        "Licencia MIT, probado en producción",
+        "Lanzamientos regulares con nuevas funciones y mejoras"
+      ],
+      "fr": [
+        "160+ connecteurs de données — le plus complet de l'écosystème",
+        "Communauté très active (51K+ étoiles) et documentation extensive",
+        "Prend en charge à la fois le RAG simple et l'orchestration multi-agents complexe",
+        "Licence MIT, éprouvé en production",
+        "Versions régulières avec nouvelles fonctionnalités et améliorations"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Steep learning curve for advanced features (agent orchestration, custom retrievers)",
+        "Documentation can be overwhelming due to breadth",
+        "Performance tuning requires understanding of chunking, embedding, and retrieval strategies"
+      ],
+      "zh": [
+        "高级功能（智能体编排、自定义检索器）学习曲线陡峭",
+        "文档因广度可能令人不知所措",
+        "性能调优需要理解分块、嵌入和检索策略"
+      ],
+      "ja": [
+        "高度な機能（エージェントオーケストレーション、カスタムリトリーバー）の学習曲線が急",
+        "ドキュメントは広範すぎて圧倒される可能性",
+        "パフォーマンス調整にはチャンキング、埋め込み、検索戦略の理解が必要"
+      ],
+      "es": [
+        "Curva de aprendizaje empinada para funciones avanzadas (orquestación de agentes, retrievers personalizados)",
+        "La documentación puede ser abrumadora por su amplitud",
+        "El ajuste de rendimiento requiere entender chunking, embeddings y estrategias de recuperación"
+      ],
+      "fr": [
+        "Courbe d'apprentissage abrupte pour les fonctions avancées (orchestration d'agents, retrieveurs personnalisés)",
+        "La documentation peut être écrasante par son étendue",
+        "L'optimisation des performances nécessite de comprendre le chunking, les embeddings et les stratégies de récupération"
+      ]
+    },
+    "latestUpdate": {
+      "en": "August 2026: LlamaIndex continues active development with expanded data source connectors, improved agent orchestration, and LlamaCloud managed service enhancements.",
+      "zh": "2026年8月：LlamaIndex 持续活跃开发，扩展数据源连接器，改进智能体编排，增强 LlamaCloud 托管服务。",
+      "ja": "2026年8月：LlamaIndexはデータソースコネクタの拡張、エージェントオーケストレーションの改善、LlamaCloudマネージドサービスの強化を継続。",
+      "es": "Agosto 2026: LlamaIndex continúa su desarrollo activo con conectores expandidos, mejor orquestación de agentes y mejoras en LlamaCloud.",
+      "fr": "Août 2026 : LlamaIndex poursuit son développement actif avec des connecteurs étendus, une meilleure orchestration d'agents et des améliorations de LlamaCloud."
+    },
+    "summary": {
+      "en": "LlamaIndex is the leading data framework for LLM applications, connecting 160+ data sources to LLMs with indexing, RAG, agent orchestration, and structured extraction. 51K+ stars, MIT licensed.",
+      "zh": "LlamaIndex 是领先的 LLM 应用数据框架，连接 160+ 数据源到大模型，提供索引、RAG、智能体编排和结构化提取。51K+ 星，MIT 协议。",
+      "ja": "LlamaIndexはLLMアプリケーションの主要なデータフレームワークであり、160以上のデータソースを索引、RAG、エージェントオーケストレーション、構造化抽出でLLMに接続します。51K+スター、MITライセンス。",
+      "es": "LlamaIndex es el framework de datos líder para aplicaciones LLM, conectando 160+ fuentes de datos con indexación, RAG, orquestación de agentes y extracción estructurada. 51K+ estrellas, licencia MIT.",
+      "fr": "LlamaIndex est le framework de données leader pour les applications LLM, connectant 160+ sources de données avec indexation, RAG, orchestration d'agents et extraction structurée. 51K+ étoiles, licence MIT."
+    },
+    "verdict": {
+      "badge": "Recommended",
+      "headline": {
+        "en": "The most comprehensive data framework for LLM applications — 160+ connectors, RAG, and agent orchestration.",
+        "zh": "最全面的 LLM 应用数据框架——160+ 连接器、RAG 和智能体编排。",
+        "ja": "LLMアプリケーションのための最も包括的なデータフレームワーク——160以上のコネクタ、RAG、エージェントオーケストレーション。",
+        "es": "El framework de datos más completo para aplicaciones LLM — 160+ conectores, RAG y orquestación de agentes.",
+        "fr": "Le framework de données le plus complet pour applications LLM — 160+ connecteurs, RAG et orchestration d'agents."
+      },
+      "body": {
+        "en": "LlamaIndex is the de-facto standard for connecting real-world data to LLMs. Its 160+ connectors, flexible RAG pipeline, and increasingly capable agent orchestration make it the go-to choice for production LLM applications. The learning curve is real, but the ecosystem is mature.",
+        "zh": "LlamaIndex 是将真实世界数据连接到 LLM 的事实标准。160+ 连接器、灵活的 RAG 流水线和日益强大的智能体编排使其成为生产型 LLM 应用的首选。学习曲线存在，但生态成熟。",
+        "ja": "LlamaIndexは、実世界のデータをLLMに接続する事実上の標準です。160以上のコネクタ、柔軟なRAGパイプライン、ますます高性能なエージェントオーケストレーションにより、本番LLMアプリケーションの第一選択となっています。学習曲線はありますが、エコシステムは成熟しています。",
+        "es": "LlamaIndex es el estándar de facto para conectar datos del mundo real a LLMs. Sus 160+ conectores, pipeline RAG flexible y orquestación de agentes cada vez más capaz lo convierten en la opción preferida para aplicaciones LLM de producción. La curva de aprendizaje es real, pero el ecosistema es maduro.",
+        "fr": "LlamaIndex est le standard de facto pour connecter des données réelles aux LLMs. Ses 160+ connecteurs, son pipeline RAG flexible et son orchestration d'agents de plus en plus performante en font le choix privilégié pour les applications LLM de production. La courbe d'apprentissage est réelle, mais l'écosystème est mature."
+      },
+      "bestFor": {
+        "en": [
+          "Developers and teams building production RAG pipelines, data agents, or LLM-powered applications with diverse data sources."
+        ],
+        "ja": [
+          "多様なデータソースを持つ本番RAGパイプライン、データエージェント、LLM搭載アプリケーションを構築する開発者とチーム。"
+        ],
+        "es": [
+          "Desarrolladores y equipos que construyen pipelines RAG de producción, agentes de datos o aplicaciones LLM con diversas fuentes de datos."
+        ],
+        "fr": [
+          "Développeurs et équipes construisant des pipelines RAG de production, des agents de données ou des applications LLM avec des sources de données variées."
+        ],
+        "zh": [
+          "构建生产 RAG 流水线、数据智能体或 LLM 驱动应用的开发者与团队，需要处理多样化的数据源。"
+        ]
+      },
+      "considerAlternatives": {
+        "en": [
+          "If you need a simpler, more opinionated framework, consider LangChain; if you need a fully managed solution, consider LlamaCloud or commercial RAG platforms."
+        ],
+        "ja": [
+          "よりシンプルでopinionatedなフレームワークが必要ならLangChainを、完全マネージドソリューションが必要ならLlamaCloudや商用RAGプラットフォームを検討してください。"
+        ],
+        "es": [
+          "Si necesitas un framework más simple y con opiniones, considera LangChain; si necesitas una solución totalmente gestionada, considera LlamaCloud o plataformas RAG comerciales."
+        ],
+        "fr": [
+          "Si vous avez besoin d'un framework plus simple et plus opinionated, envisagez LangChain ; pour une solution entièrement gérée, envisagez LlamaCloud ou des plateformes RAG commerciales."
+        ],
+        "zh": [
+          "如果需要更简单、更有意见的框架，考虑 LangChain；如果需要完全托管方案，考虑 LlamaCloud 或商业 RAG 平台。"
+        ]
+      }
+    },
+    "meta": {
+      "lastVerified": "2026-08-12",
+      "verdictDate": "2026-08-12",
+      "pricingVerified": "2026-08-12",
+      "pricingUrl": "https://www.llamaindex.ai"
+    }
+  },
+  "qm": {
+    "features": {
+      "en": [
+        "Each team member gets their own isolated agent workspace",
+        "Slack and Web dual interface with same identity and config",
+        "Per-scope memory: personal, shared channels, and projects",
+        "Admin control: org-level config, security posture, harness/model selection",
+        "Built-in cron jobs, keychain, file management, and sandbox",
+        "Custom web app deployment from agent conversations",
+        "Shared skills with granular access control and org-wide promotion",
+        "Multi-harness: works with Pi, OpenCode, Codex, and Claude Code"
+      ],
+      "zh": [
+        "每个成员拥有独立智能体工作区",
+        "Slack 和 Web 双界面，同一身份和配置",
+        "按作用域的记忆：个人、共享频道、项目",
+        "管理员控制：组织级配置、安全策略、智能体/模型选择",
+        "内置定时任务、密钥链、文件管理和沙箱",
+        "从智能体对话中部署自定义 Web 应用",
+        "共享技能，细粒度访问控制和组织级推广",
+        "多智能体：支持 Pi、OpenCode、Codex 和 Claude Code"
+      ],
+      "ja": [
+        "各メンバーが独立したエージェントワークスペースを持つ",
+        "同一のIDと設定を持つSlackとWebのデュアルインターフェース",
+        "スコープ別メモリ：個人、共有チャンネル、プロジェクト",
+        "管理者コントロール：組織レベル設定、セキュリティポリシー、ハーネス/モデル選択",
+        "組み込みcronジョブ、キーチェーン、ファイル管理、サンドボックス",
+        "エージェントの会話からカスタムWebアプリをデプロイ",
+        "細粒度のアクセス制御と組織全体へのプロモーション付き共有スキル",
+        "マルチハーネス：Pi、OpenCode、Codex、Claude Codeに対応"
+      ],
+      "es": [
+        "Cada miembro del equipo tiene su propio espacio de trabajo de agente aislado",
+        "Interfaz dual Slack y Web con la misma identidad y configuración",
+        "Memoria por ámbito: personal, canales compartidos y proyectos",
+        "Control de administrador: config de org, postura de seguridad, selección de harness/modelo",
+        "Cron jobs integrados, keychain, gestión de archivos y sandbox",
+        "Despliegue de apps web personalizadas desde conversaciones con agentes",
+        "Skills compartidos con control de acceso granular y promoción a nivel de org",
+        "Multi-harness: funciona con Pi, OpenCode, Codex y Claude Code"
+      ],
+      "fr": [
+        "Chaque membre de l'équipe dispose de son propre espace de travail d'agent isolé",
+        "Interface double Slack et Web avec la même identité et configuration",
+        "Mémoire par portée : personnel, canaux partagés et projets",
+        "Contrôle admin : config d'organisation, posture de sécurité, sélection harness/modèle",
+        "Cron jobs intégrés, keychain, gestion de fichiers et sandbox",
+        "Déploiement d'apps web personnalisées depuis les conversations d'agents",
+        "Skills partagés avec contrôle d'accès granulaire et promotion au niveau de l'org",
+        "Multi-harness : fonctionne avec Pi, OpenCode, Codex et Claude Code"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "Open source (MIT). Cloud-hosted version at qm.software.",
+        "zh": "开源（MIT）。云端托管版在 qm.software。",
+        "ja": "オープンソース（MIT）。クラウドホスト版はqm.software。",
+        "es": "Código abierto (MIT). Versión cloud en qm.software.",
+        "fr": "Open source (MIT). Version hébergée sur qm.software."
+      }
+    },
+    "useCases": {
+      "en": [
+        "Startup teams needing a shared AI agent workspace with Slack integration",
+        "Building internal tools and web apps via agent conversations",
+        "Multi-agent collaboration with personal and shared memory scopes"
+      ],
+      "zh": [
+        "需要带 Slack 集成的共享 AI 智能体工作区的创业团队",
+        "通过智能体对话构建内部工具和 Web 应用",
+        "带个人和共享记忆作用域的多智能体协作"
+      ],
+      "ja": [
+        "Slack統合付きの共有AIエージェントワークスペースを必要とするスタートアップチーム",
+        "エージェントの会話による内部ツールとWebアプリの構築",
+        "個人と共有のメモリスコープを持つマルチエージェントコラボレーション"
+      ],
+      "es": [
+        "Equipos startup que necesitan un espacio de trabajo de agente IA compartido con integración Slack",
+        "Construir herramientas internas y apps web mediante conversaciones con agentes",
+        "Colaboración multi-agente con ámbitos de memoria personales y compartidos"
+      ],
+      "fr": [
+        "Équipes startup ayant besoin d'un espace de travail d'agent IA partagé avec intégration Slack",
+        "Construire des outils internes et apps web via des conversations d'agents",
+        "Collaboration multi-agents avec portées de mémoire personnelles et partagées"
+      ]
+    },
+    "pros": {
+      "en": [
+        "Unique multi-agent workspace design with personal/shared scopes",
+        "Slack + Web dual interface",
+        "Multi-harness architecture (not vendor-locked)",
+        "MIT licensed, active development",
+        "Built-in cron, keychain, sandbox, and web app deployment"
+      ],
+      "zh": [
+        "独特的个人/共享作用域多智能体工作区设计",
+        "Slack + Web 双界面",
+        "多智能体架构（不绑定供应商）",
+        "MIT 协议，开发活跃",
+        "内置定时任务、密钥链、沙箱和 Web 应用部署"
+      ],
+      "ja": [
+        "個人/共有スコープを持つユニークなマルチエージェントワークスペース設計",
+        "Slack + Webデュアルインターフェース",
+        "マルチハーネスアーキテクチャ（ベンダーロックなし）",
+        "MITライセンス、活発な開発",
+        "組み込みcron、キーチェーン、サンドボックス、Webアプリデプロイ"
+      ],
+      "es": [
+        "Diseño único de espacio de trabajo multi-agente con ámbitos personales/compartidos",
+        "Interfaz dual Slack + Web",
+        "Arquitectura multi-harness (sin lock-in de proveedor)",
+        "Licencia MIT, desarrollo activo",
+        "Cron, keychain, sandbox y despliegue de apps web integrados"
+      ],
+      "fr": [
+        "Conception unique d'espace de travail multi-agents avec portées personnelles/partagées",
+        "Interface double Slack + Web",
+        "Architecture multi-harness (sans verrouillage fournisseur)",
+        "Licence MIT, développement actif",
+        "Cron, keychain, sandbox et déploiement d'apps web intégrés"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Young project — ecosystem and community still developing",
+        "No topics set on GitHub repo (lower discoverability)",
+        "Documentation depth may vary"
+      ],
+      "zh": [
+        "项目年轻——生态和社区仍在发展中",
+        "GitHub 未设置 topics（发现性较低）",
+        "文档深度可能参差不齐"
+      ],
+      "ja": [
+        "若いプロジェクト——エコシステムとコミュニティは発展途上",
+        "GitHubリポジトリにトピック未設定（発見性が低い）",
+        "ドキュメントの深さはまちまち"
+      ],
+      "es": [
+        "Proyecto joven — el ecosistema y la comunidad aún se desarrollan",
+        "Sin topics en el repo de GitHub (menor descubribilidad)",
+        "La profundidad de la documentación puede variar"
+      ],
+      "fr": [
+        "Projet jeune — l'écosystème et la communauté se développent encore",
+        "Pas de topics sur le dépôt GitHub (découvrabilité réduite)",
+        "La profondeur de la documentation peut varier"
+      ]
+    },
+    "latestUpdate": {
+      "en": "August 2026: QM continues active development with Slack and web interfaces, multi-harness support, and scoped memory/workspaces.",
+      "zh": "2026年8月：QM 持续活跃开发，Slack 和 Web 界面、多智能体支持、作用域记忆/工作区。",
+      "ja": "2026年8月：QMはSlack/Webインターフェース、マルチハーネスサポート、スコープ別メモリ/ワークスペースで活発に開発を継続。",
+      "es": "Agosto 2026: QM continúa su desarrollo activo con interfaces Slack/Web, soporte multi-harness y memoria/espacios por ámbito.",
+      "fr": "Août 2026 : QM poursuit son développement actif avec interfaces Slack/Web, support multi-harness et mémoire/espaces par portée."
+    },
+    "summary": {
+      "en": "QM is a multiplayer agent harness for startups — each team member gets their own isolated agent workspace with Slack and Web collaboration, shared memory, skills, and web app deployment. MIT licensed, multi-harness architecture.",
+      "zh": "QM 是面向初创公司的多智能体工作平台——每个成员拥有独立智能体工作区，支持 Slack 和 Web 协作、共享记忆、技能和 Web 应用部署。MIT 协议，多智能体架构。",
+      "ja": "QMはスタートアップ向けのマルチプレイヤーエージェントハーネスです——各メンバーが独立したエージェントワークスペースを持ち、SlackとWebでコラボレーション、共有メモリ、スキル、Webアプリデプロイを実現。MITライセンス、マルチハーネスアーキテクチャ。",
+      "es": "QM es un arnés de agente multijugador para startups — cada miembro tiene su propio espacio aislado con colaboración Slack/Web, memoria compartida, skills y despliegue de apps web. MIT, arquitectura multi-harness.",
+      "fr": "QM est un harnais d'agent multijoueur pour startups — chaque membre a son propre espace isolé avec collaboration Slack/Web, mémoire partagée, skills et déploiement d'apps web. MIT, architecture multi-harness."
+    },
+    "verdict": {
+      "badge": "Worth Trying",
+      "headline": {
+        "en": "A promising multi-agent workspace for startups — personal agents with shared collaboration.",
+        "zh": "面向初创公司的有前景的多智能体工作区——个人智能体+共享协作。",
+        "ja": "有望なスタートアップ向けマルチエージェントワークスペース——個人エージェントと共有コラボレーション。",
+        "es": "Un prometedor espacio de trabajo multi-agente para startups — agentes personales con colaboración compartida.",
+        "fr": "Un espace de travail multi-agents prometteur pour startups — agents personnels avec collaboration partagée."
+      },
+      "body": {
+        "en": "QM tackles a real problem: how to give each team member their own AI agent while enabling shared collaboration. The Slack + Web dual interface and multi-harness architecture are thoughtful design choices. Still young, but worth trying for startup teams.",
+        "zh": "QM 解决了一个真实问题：如何给每个团队成员自己的 AI 智能体同时支持共享协作。Slack + Web 双界面和多智能体架构是深思熟虑的设计选择。仍在早期，但初创团队值得一试。",
+        "ja": "QMは現実の問題を解決します：各チームメンバーに自分のAIエージェントを与えながら共有コラボレーションを可能にする方法。Slack+Webデュアルインターフェースとマルチハーネスアーキテクチャは思慮深い設計選択です。まだ若いですが、スタートアップチームには試す価値があります。",
+        "es": "QM aborda un problema real: cómo dar a cada miembro del equipo su propio agente IA mientras se permite la colaboración compartida. La interfaz dual Slack + Web y la arquitectura multi-harness son elecciones de diseño reflexivas. Aún joven, pero vale la pena probarlo para equipos startup.",
+        "fr": "QM aborde un vrai problème : comment donner à chaque membre de l'équipe son propre agent IA tout en permettant la collaboration partagée. L'interface double Slack + Web et l'architecture multi-harness sont des choix de conception réfléchis. Encore jeune, mais à essayer pour les équipes startup."
+      },
+      "bestFor": {
+        "en": [
+          "Startup teams wanting a shared, multi-agent workspace with Slack integration and personal agent isolation."
+        ],
+        "ja": [
+          "Slack統合付きの共有マルチエージェントワークスペースと個人エージェント分離を望むスタートアップチーム。"
+        ],
+        "es": [
+          "Equipos startup que quieran un espacio de trabajo multi-agente compartido con integración Slack y aislamiento de agentes personales."
+        ],
+        "fr": [
+          "Équipes startup souhaitant un espace de travail multi-agents partagé avec intégration Slack et isolation des agents personnels."
+        ],
+        "zh": [
+          "需要带 Slack 集成的共享多智能体工作区和个人智能体隔离的初创团队。"
+        ]
+      },
+      "considerAlternatives": {
+        "en": [
+          "If you need a single-agent solution, consider Pi or Claude Code directly; for enterprise multi-agent orchestration, consider CrewAI or AutoGen."
+        ],
+        "ja": [
+          "シングルエージェントソリューションが必要ならPiやClaude Codeを直接検討、エンタープライズ向けマルチエージェントオーケストレーションにはCrewAIやAutoGenを検討してください。"
+        ],
+        "es": [
+          "Si necesitas una solución de un solo agente, considera Pi o Claude Code directamente; para orquestación multi-agente empresarial, considera CrewAI o AutoGen."
+        ],
+        "fr": [
+          "Si vous avez besoin d'une solution mono-agent, envisagez Pi ou Claude Code directement ; pour l'orchestration multi-agents entreprise, envisagez CrewAI ou AutoGen."
+        ],
+        "zh": [
+          "如果需要单智能体方案，直接考虑 Pi 或 Claude Code；对于企业级多智能体编排，考虑 CrewAI 或 AutoGen。"
+        ]
+      }
+    },
+    "meta": {
+      "lastVerified": "2026-08-12",
+      "verdictDate": "2026-08-12",
+      "pricingVerified": "2026-08-12",
+      "pricingUrl": "https://qm.software"
+    }
+  },
+  "polar": {
+    "features": {
+      "en": [
+        "Subscription management for open-source projects",
+        "Payment processing and donation collection",
+        "License management and commercial licensing",
+        "Public API for integration with existing tools",
+        "Developer-friendly monetization without leaving the open-source ecosystem",
+        "Product Hunt integration for launch visibility"
+      ],
+      "zh": [
+        "开源项目订阅管理",
+        "支付处理和捐赠收集",
+        "许可证管理和商业许可",
+        "公共 API 用于与现有工具集成",
+        "开发者友好的变现方式，不离开开源生态",
+        "Product Hunt 集成用于发布曝光"
+      ],
+      "ja": [
+        "オープンソースプロジェクト向けサブスクリプション管理",
+        "決済処理と寄付収集",
+        "ライセンス管理と商用ライセンス",
+        "既存ツールとの統合のための公開API",
+        "オープンソースエコシステムを離れない開発者向け収益化",
+        "公開時の可視性のためのProduct Hunt統合"
+      ],
+      "es": [
+        "Gestión de suscripciones para proyectos open source",
+        "Procesamiento de pagos y recolección de donaciones",
+        "Gestión de licencias y licencias comerciales",
+        "API pública para integración con herramientas existentes",
+        "Monetización amigable para desarrolladores sin salir del ecosistema open source",
+        "Integración con Product Hunt para visibilidad de lanzamiento"
+      ],
+      "fr": [
+        "Gestion des abonnements pour projets open source",
+        "Traitement des paiements et collecte de dons",
+        "Gestion des licences et licences commerciales",
+        "API publique pour l'intégration avec les outils existants",
+        "Monétisation conviviale pour développeurs sans quitter l'écosystème open source",
+        "Intégration Product Hunt pour la visibilité au lancement"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "Open source (Apache 2.0) with a hosted platform at polar.sh.",
+        "zh": "开源（Apache 2.0），托管平台在 polar.sh。",
+        "ja": "オープンソース（Apache 2.0）、ホスト型プラットフォームはpolar.sh。",
+        "es": "Código abierto (Apache 2.0) con plataforma alojada en polar.sh.",
+        "fr": "Open source (Apache 2.0) avec plateforme hébergée sur polar.sh."
+      }
+    },
+    "useCases": {
+      "en": [
+        "Monetizing open-source projects with subscriptions and donations",
+        "Managing commercial licenses for open-source software",
+        "Setting up a developer-friendly payment infrastructure"
+      ],
+      "zh": [
+        "通过订阅和捐赠变现开源项目",
+        "管理开源软件的商业许可证",
+        "搭建开发者友好的支付基础设施"
+      ],
+      "ja": [
+        "サブスクリプションと寄付でオープンソースプロジェクトを収益化",
+        "オープンソースソフトウェアの商用ライセンス管理",
+        "開発者向けの支払いインフラ構築"
+      ],
+      "es": [
+        "Monetizar proyectos open source con suscripciones y donaciones",
+        "Gestionar licencias comerciales para software open source",
+        "Configurar una infraestructura de pagos amigable para desarrolladores"
+      ],
+      "fr": [
+        "Monétiser des projets open source avec abonnements et dons",
+        "Gérer les licences commerciales des logiciels open source",
+        "Mettre en place une infrastructure de paiement conviviale pour développeurs"
+      ]
+    },
+    "pros": {
+      "en": [
+        "Purpose-built for open-source monetization",
+        "Apache 2.0 licensed, full transparency",
+        "Clean API and developer experience",
+        "Active development with Product Hunt traction",
+        "Supports GitHub sponsorship-style workflows"
+      ],
+      "zh": [
+        "专门为开源变现设计",
+        "Apache 2.0 协议，完全透明",
+        "干净的 API 和开发者体验",
+        "开发活跃，Product Hunt 热度",
+        "支持 GitHub 赞助风格工作流"
+      ],
+      "ja": [
+        "オープンソース収益化に特化",
+        "Apache 2.0ライセンス、完全な透明性",
+        "クリーンなAPIと開発者体験",
+        "Product Huntでの勢いのある活発な開発",
+        "GitHubスポンサー風のワークフローをサポート"
+      ],
+      "es": [
+        "Hecho a medida para la monetización open source",
+        "Licencia Apache 2.0, transparencia total",
+        "API limpia y experiencia de desarrollador",
+        "Desarrollo activo con tracción en Product Hunt",
+        "Soporta flujos estilo GitHub Sponsors"
+      ],
+      "fr": [
+        "Conçu pour la monétisation open source",
+        "Licence Apache 2.0, transparence totale",
+        "API propre et expérience développeur",
+        "Développement actif avec traction Product Hunt",
+        "Supporte les workflows type GitHub Sponsors"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Requires developers to adopt a new platform",
+        "Payment processing fees apply",
+        "Competitive space (GitHub Sponsors, Open Collective, etc.)"
+      ],
+      "zh": [
+        "需要开发者采用新平台",
+        "支付处理费用存在",
+        "竞争激烈（GitHub Sponsors、Open Collective 等）"
+      ],
+      "ja": [
+        "開発者に新しいプラットフォームの採用が必要",
+        "決済処理手数料が発生",
+        "競争の激しい領域（GitHub Sponsors、Open Collectiveなど）"
+      ],
+      "es": [
+        "Requiere que los desarrolladores adopten una nueva plataforma",
+        "Se aplican tarifas de procesamiento de pagos",
+        "Espacio competitivo (GitHub Sponsors, Open Collective, etc.)"
+      ],
+      "fr": [
+        "Nécessite l'adoption d'une nouvelle plateforme par les développeurs",
+        "Des frais de traitement des paiements s'appliquent",
+        "Espace concurrentiel (GitHub Sponsors, Open Collective, etc.)"
+      ]
+    },
+    "latestUpdate": {
+      "en": "August 2026: Polar continues development with subscription management, payment processing, and license management for open-source projects.",
+      "zh": "2026年8月：Polar 持续开发，为开源项目提供订阅管理、支付处理和许可证管理。",
+      "ja": "2026年8月：Polarはオープンソースプロジェクト向けのサブスクリプション管理、決済処理、ライセンス管理を継続的に開発。",
+      "es": "Agosto 2026: Polar continúa desarrollando gestión de suscripciones, procesamiento de pagos y gestión de licencias para proyectos open source.",
+      "fr": "Août 2026 : Polar poursuit le développement de la gestion des abonnements, du traitement des paiements et de la gestion des licences pour projets open source."
+    },
+    "summary": {
+      "en": "Polar is an open-source monetization platform for developers — subscriptions, payments, donations, and license management for open-source projects. Apache 2.0 licensed.",
+      "zh": "Polar 是面向开发者的开源变现平台——为开源项目提供订阅、支付、捐赠和许可证管理。Apache 2.0 协议。",
+      "ja": "Polarは開発者向けのオープンソース収益化プラットフォームです——オープンソースプロジェクトにサブスクリプション、支払い、寄付、ライセンス管理を提供。Apache 2.0ライセンス。",
+      "es": "Polar es una plataforma de monetización open source para desarrolladores — suscripciones, pagos, donaciones y gestión de licencias para proyectos open source. Licencia Apache 2.0.",
+      "fr": "Polar est une plateforme de monétisation open source pour développeurs — abonnements, paiements, dons et gestion de licences pour projets open source. Licence Apache 2.0."
+    },
+    "verdict": {
+      "badge": "Worth Trying",
+      "headline": {
+        "en": "A promising open-source monetization platform — clean API, developer-first, but still building adoption.",
+        "zh": "有前景的开源变现平台——干净的 API，开发者优先，但仍在建立采用。",
+        "ja": "有望なオープンソース収益化プラットフォーム——クリーンなAPI、開発者ファースト、しかし採用はまだ途上。",
+        "es": "Una prometedora plataforma de monetización open source — API limpia, primero el desarrollador, pero aún construyendo adopción.",
+        "fr": "Une plateforme de monétisation open source prometteuse — API propre, développeur d'abord, mais adoption encore en construction."
+      },
+      "body": {
+        "en": "Polar aims to solve the open-source monetization problem with a clean, developer-friendly platform. Its Apache 2.0 license, public API, and Product Hunt traction are promising. Adoption is the key challenge.",
+        "zh": "Polar 旨在用干净、开发者友好的平台解决开源变现问题。Apache 2.0 协议、公共 API 和 Product Hunt 热度令人期待。采用是关键挑战。",
+        "ja": "Polarは、クリーンで開発者向けのプラットフォームでオープンソース収益化の問題を解決しようとしています。Apache 2.0ライセンス、公開API、Product Huntでの勢いは有望です。採用が最大の課題です。",
+        "es": "Polar busca resolver el problema de la monetización open source con una plataforma limpia y amigable para desarrolladores. Su licencia Apache 2.0, API pública y tracción en Product Hunt son prometedoras. La adopción es el desafío clave.",
+        "fr": "Polar vise à résoudre le problème de la monétisation open source avec une plateforme propre et conviviale pour développeurs. Sa licence Apache 2.0, son API publique et sa traction Product Hunt sont prometteuses. L'adoption est le défi clé."
+      },
+      "bestFor": {
+        "en": [
+          "Open-source maintainers looking for a developer-friendly monetization platform with subscriptions, donations, and license management."
+        ],
+        "ja": [
+          "サブスクリプション、寄付、ライセンス管理を備えた開発者向け収益化プラットフォームを探しているオープンソースメンテナー。"
+        ],
+        "es": [
+          "Mantenedores open source que buscan una plataforma de monetización amigable para desarrolladores con suscripciones, donaciones y gestión de licencias."
+        ],
+        "fr": [
+          "Mainteneurs open source cherchant une plateforme de monétisation conviviale avec abonnements, dons et gestion de licences."
+        ],
+        "zh": [
+          "寻找开发友好型变现平台（订阅、捐赠、许可证管理）的开源项目维护者。"
+        ]
+      },
+      "considerAlternatives": {
+        "en": [
+          "Compare with GitHub Sponsors (built-in, zero friction), Open Collective (community-focused), or Stripe (custom payment infrastructure)."
+        ],
+        "ja": [
+          "GitHub Sponsors（組み込み、摩擦ゼロ）、Open Collective（コミュニティ重視）、Stripe（カスタム決済インフラ）と比較してください。"
+        ],
+        "es": [
+          "Compara con GitHub Sponsors (integrado, cero fricción), Open Collective (centrado en comunidad) o Stripe (infraestructura de pagos personalizada)."
+        ],
+        "fr": [
+          "Comparez avec GitHub Sponsors (intégré, zéro friction), Open Collective (axé communauté) ou Stripe (infrastructure de paiement personnalisée)."
+        ],
+        "zh": [
+          "与 GitHub Sponsors（内置、零摩擦）、Open Collective（社区聚焦）或 Stripe（自定义支付基础设施）比较。"
+        ]
+      }
+    },
+    "meta": {
+      "lastVerified": "2026-08-12",
+      "verdictDate": "2026-08-12",
+      "pricingVerified": "2026-08-12",
+      "pricingUrl": "https://polar.sh"
+    }
   }
 }

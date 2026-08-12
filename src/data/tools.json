@@ -5553,5 +5553,98 @@
       "browser_extension": false,
       "api": true
     }
+  },
+  {
+    "slug": "llamaindex",
+    "name": "LlamaIndex",
+    "nameZh": "LlamaIndex",
+    "description": "为 LLM 应用构建的数据框架（RAG）：连接数据源（API、数据库、PDF、文档等）到大模型，提供索引、查询、检索和代理编排能力。",
+    "descriptionEn": "A data framework for LLM-based applications (RAG): connect data sources (APIs, databases, PDFs, docs) to LLMs with indexing, querying, retrieval, and agent orchestration.",
+    "descriptionJa": "LLMベースアプリケーションのためのデータフレームワーク（RAG）。API、データベース、PDF、ドキュメントなどのデータソースをLLMに接続し、インデックス作成、クエリ、検索、エージェントオーケストレーションを提供。",
+    "descriptionEs": "Un framework de datos para aplicaciones basadas en LLM (RAG): conecta fuentes de datos (APIs, bases de datos, PDFs, documentos) a LLMs con indexación, consulta, recuperación y orquestación de agentes.",
+    "descriptionFr": "Un framework de données pour les applications basées sur LLM (RAG) : connectez des sources de données (APIs, bases de données, PDFs, documents) aux LLMs avec indexation, interrogation, récupération et orchestration d'agents.",
+    "url": "https://www.llamaindex.ai",
+    "logo": "/logos/tools/llamaindex.png",
+    "category": "Code",
+    "tags": [
+      "Open Source",
+      "Free"
+    ],
+    "featured": false,
+    "homeFeatured": false,
+    "developer": "LlamaIndex (run-llama)",
+    "developerZh": "LlamaIndex（run-llama）",
+    "platforms": {
+      "web": false,
+      "windows": true,
+      "macos": true,
+      "linux": true,
+      "ios": false,
+      "android": false,
+      "browser_extension": false,
+      "api": true
+    }
+  },
+  {
+    "slug": "qm",
+    "name": "QM",
+    "nameZh": "QM",
+    "description": "面向团队的多智能体工作平台：每个成员拥有独立智能体工作区，支持 Slack 和 Web 协作、共享记忆、文件、技能、定时任务、Web 应用部署。",
+    "descriptionEn": "A multiplayer agent harness for work: each team member gets their own isolated agent workspace with Slack and Web collaboration, shared memory, files, skills, cron jobs, and web app deployment.",
+    "descriptionJa": "チーム向けマルチプレイヤーエージェントハーネス。各メンバーが独立したエージェントワークスペースを持ち、SlackとWebでのコラボレーション、共有メモリ、ファイル、スキル、cronジョブ、Webアプリデプロイをサポート。",
+    "descriptionEs": "Un arnés de agente multijugador para el trabajo: cada miembro del equipo tiene su propio espacio de trabajo de agente aislado con colaboración en Slack y Web, memoria compartida, archivos, habilidades, cron jobs y despliegue de apps web.",
+    "descriptionFr": "Un harnais d'agent multijoueur pour le travail : chaque membre de l'équipe dispose de son propre espace de travail d'agent isolé avec collaboration Slack et Web, mémoire partagée, fichiers, compétences, tâches cron et déploiement d'apps web.",
+    "url": "https://qm.software",
+    "logo": "/logos/tools/qm.png",
+    "category": "Agent",
+    "tags": [
+      "Open Source",
+      "Free"
+    ],
+    "featured": false,
+    "homeFeatured": false,
+    "developer": "yc-software",
+    "developerZh": "yc-software",
+    "platforms": {
+      "web": true,
+      "windows": true,
+      "macos": true,
+      "linux": true,
+      "ios": false,
+      "android": false,
+      "browser_extension": false,
+      "api": true
+    }
+  },
+  {
+    "slug": "polar",
+    "name": "Polar",
+    "nameZh": "Polar",
+    "description": "面向开发者的开源变现平台：为开源项目提供订阅、付费、捐赠、许可管理等一站式商业化工具。",
+    "descriptionEn": "An open-source monetization platform for developers: subscriptions, payments, donations, and license management for open-source projects — an all-in-one commercialization toolkit.",
+    "descriptionJa": "開発者向けのオープンソース収益化プラットフォーム。オープンソースプロジェクトにサブスクリプション、支払い、寄付、ライセンス管理など、オールインワンの商用化ツールキットを提供。",
+    "descriptionEs": "Una plataforma de monetización de código abierto para desarrolladores: suscripciones, pagos, donaciones y gestión de licencias para proyectos open source — un kit de herramientas de comercialización todo-en-uno.",
+    "descriptionFr": "Une plateforme de monétisation open source pour les développeurs : abonnements, paiements, dons et gestion de licences pour les projets open source — une boîte à outils de commercialisation tout-en-un.",
+    "url": "https://polar.sh",
+    "logo": "/logos/tools/polar.png",
+    "category": "Open Source",
+    "tags": [
+      "Open Source",
+      "Free"
+    ],
+    "featured": false,
+    "homeFeatured": false,
+    "developer": "polarsource",
+    "developerZh": "polarsource",
+    "platforms": {
+      "web": true,
+      "windows": false,
+      "macos": false,
+      "linux": false,
+      "ios": false,
+      "android": false,
+      "browser_extension": false,
+      "api": true
+    }
   }
 ]
