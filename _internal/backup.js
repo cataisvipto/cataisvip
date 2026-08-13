@@ -1,4 +1,4 @@
-// CATAI 一键灾备脚本：把项目完整备份到 GitHub 私有仓库 cataisvip-internal
+// CATAI 一键灾备脚本：把项目完整备份到 GitHub 私有仓库 cataito-internal
 // 用法：开 VPN 后运行  node _internal/backup.js
 //
 // 备份架构（一个私有仓库、两条分支）：
@@ -64,7 +64,7 @@ function runSnap(cmd) {
 }
 
 console.log('════════════════════════════════════════');
-console.log(' CATAI 灾备 → cataisvip-internal（私有）');
+console.log(' CATAI 灾备 → cataito-internal（私有）');
 console.log('════════════════════════════════════════\n');
 
 // ── 1/3 推送主仓库历史（含本地未上线提交）到私有仓库 main 分支 ──
