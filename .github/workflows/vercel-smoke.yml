@@ -43,7 +43,7 @@ jobs:
           fi
           # 如果 target_url 为空或为自定义域名，回退到 .vercel.app 域名
           if [ -z "$TARGET" ] || echo "$TARGET" | grep -qv 'vercel.app'; then
-            TARGET="https://cataisvip.vercel.app"
+            TARGET="https://cataito.vercel.app"
           fi
           echo "url=$TARGET" >> $GITHUB_OUTPUT
           echo "测试目标: $TARGET"

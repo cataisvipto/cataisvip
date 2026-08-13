@@ -1,0 +1,224 @@
+{
+  "_note": "CATAI 运营控制台任务注册表。新增自动化/手动任务只需在此追加一条，前端会自动渲染，无需改代码。字段见 server.js 顶部说明。",
+  "_version": "1.0",
+  "paths": {
+    "catai": "c:/Users/83510/Desktop/QderCN/catai",
+    "ranking": "c:/Users/83510/Desktop/QderCN/ai-ranking"
+  },
+  "github": {
+    "rankingRepo": "cataito-lab/cataito-ranking",
+    "cataiRepo": "cataito-lab/cataito"
+  },
+  "tasks": [
+    {
+      "id": "ranking-daily-snapshot",
+      "name": "每日榜单快照",
+      "category": "auto",
+      "criticality": "critical",
+      "schedule": "每日 UTC 00:37（北京 08:37）+ 02:53 兜底",
+      "description": "catai-ranking 每天生成星数快照，周榜/月榜靠逐日快照算增量。GitHub API 查不到历史星数——断一天则该日快照永久无法回补。这是全站唯一断了就永久丢数据的自动化。",
+      "detector": {
+        "type": "snapshot-daily",
+        "repo": "ranking",
+        "githubRepo": "rankingRepo",
+        "dir": "snapshots"
+      },
+      "actions": [
+        {
+          "id": "trigger",
+          "label": "触发今日榜单",
+          "type": "github-dispatch",
+          "repo": "rankingRepo",
+          "workflow": "update-ranking.yml",
+          "needToken": true,
+          "confirm": "确认在 catai-ranking 手动触发一次榜单更新？"
+        },
+        {
+          "id": "runs",
+          "label": "查最近运行",
+          "type": "github-runs",
+          "repo": "rankingRepo",
+          "workflow": "update-ranking.yml",
+          "needToken": true
+        },
+        {
+          "id": "archive",
+          "label": "同步快照到本地归档",
+          "type": "local-command",
+          "command": "node",
+          "args": ["_internal/console/snapshot-backup.js"],
+          "cwd": "catai"
+        }
+      ]
+    },
+    {
+      "id": "internal-audit-weekly",
+      "name": "Internal Audit 周报",
+      "category": "auto",
+      "criticality": "normal",
+      "schedule": "每周一 UTC 22:23（北京周二 06:23）",
+      "description": "工具信息过期 / verdict 过期 / pricing 漂移三项审计，无状态、可随时补跑，断了不丢数据。",
+      "detector": {
+        "type": "github-last-run",
+        "repo": "cataiRepo",
+        "workflow": "link-health.yml",
+        "needToken": true
+      },
+      "actions": [
+        {
+          "id": "trigger",
+          "label": "手动触发审计",
+          "type": "github-dispatch",
+          "repo": "cataiRepo",
+          "workflow": "link-health.yml",
+          "needToken": true,
+          "confirm": "确认在 catai 主站手动触发一次 Internal Audit？"
+        },
+        {
+          "id": "local",
+          "label": "本地跑审计",
+          "type": "local-command",
+          "command": "npm",
+          "args": ["run", "audit:all"],
+          "cwd": "catai"
+        }
+      ]
+    },
+    {
+      "id": "stars-refresh",
+      "name": "MCP/Skills 星数统一刷新",
+      "category": "auto",
+      "criticality": "low",
+      "schedule": "每日 UTC 20:47（北京 04:47），可手动触发",
+      "description": "卡片与详情页星数共用 mcp.json / skills.json 的 stars 字段（单一数据源，永远一致）。refresh-stars.yml 每日自动拉 GitHub API 刷新并提交推送，推送后 Vercel 自动部署生效。脚本遍历数据文件全部条目，后续新收录自动纳入。失败保留旧值、自愈不丢数据。",
+      "detector": {
+        "type": "github-last-run",
+        "repo": "cataiRepo",
+        "workflow": "refresh-stars.yml",
+        "needToken": true
+      },
+      "actions": [
+        {
+          "id": "trigger",
+          "label": "手动刷新并推送（云端）",
+          "type": "github-dispatch",
+          "repo": "cataiRepo",
+          "workflow": "refresh-stars.yml",
+          "needToken": true,
+          "confirm": "确认在云端触发一次星数刷新？有变化会自动提交推送并触发 Vercel 部署。"
+        },
+        {
+          "id": "runs",
+          "label": "查最近运行",
+          "type": "github-runs",
+          "repo": "cataiRepo",
+          "workflow": "refresh-stars.yml",
+          "needToken": true
+        },
+        {
+          "id": "local-dry",
+          "label": "本地预检差异（不写入）",
+          "type": "local-command",
+          "command": "node",
+          "args": ["scripts/refresh-stars.mjs", "--dry"],
+          "cwd": "catai"
+        }
+      ]
+    },
+    {
+      "id": "ci-checks",
+      "name": "CI 四件套",
+      "category": "auto",
+      "criticality": "low",
+      "schedule": "每次 push / PR 到 main",
+      "description": "schemas / data / i18n / css-vars 四项校验，事件触发、自愈。",
+      "detector": {
+        "type": "github-last-run",
+        "repo": "cataiRepo",
+        "workflow": "ci.yml",
+        "needToken": true
+      },
+      "actions": [
+        {
+          "id": "local",
+          "label": "本地跑全部校验",
+          "type": "local-command",
+          "command": "npm",
+          "args": ["test"],
+          "cwd": "catai"
+        }
+      ]
+    },
+    {
+      "id": "backup-disaster",
+      "name": "灾备（私有仓库）",
+      "category": "manual",
+      "criticality": "normal",
+      "schedule": "每次改版后手动（需 VPN）",
+      "description": "把主仓库历史 + 工作区全量快照（含内部文件）推到私有仓库 cataisvip-internal。换电脑/硬盘坏不丢。",
+      "detector": {
+        "type": "none"
+      },
+      "actions": [
+        {
+          "id": "run",
+          "label": "运行灾备",
+          "type": "local-command",
+          "command": "node",
+          "args": ["_internal/backup.js"],
+          "cwd": "catai",
+          "confirm": "确认运行灾备到私有仓库？需先开 VPN。"
+        }
+      ]
+    },
+    {
+      "id": "gsc-report",
+      "name": "GSC 搜索报告",
+      "category": "manual",
+      "criticality": "low",
+      "schedule": "手动（建议每周一次）",
+      "description": "拉取 Google Search Console 数据生成报告。凭据在本地、禁止上传，无法放 Actions，保持手动。",
+      "detector": {
+        "type": "file-mtime-glob",
+        "repo": "catai",
+        "dir": "_internal/gsc-data",
+        "pattern": "gsc-report-"
+      },
+      "actions": [
+        {
+          "id": "run",
+          "label": "生成报告",
+          "type": "local-command",
+          "command": "npm",
+          "args": ["run", "gsc"],
+          "cwd": "catai",
+          "confirm": "确认拉取 GSC 报告？需先开 VPN。"
+        }
+      ]
+    },
+    {
+      "id": "data-reflow",
+      "name": "主站榜单数据",
+      "category": "manual",
+      "criticality": "low",
+      "schedule": "手动（主站 /ranking 用本地 rank.js 生成）",
+      "description": "主站 /ranking 页数据由 catai 本地 rank.js 计算写入 githubRanking.json，与 catai-ranking 独立站分属两套。",
+      "detector": {
+        "type": "file-mtime",
+        "repo": "catai",
+        "file": "src/data/githubRanking.json"
+      },
+      "actions": [
+        {
+          "id": "run",
+          "label": "重算主站榜单",
+          "type": "local-command",
+          "command": "node",
+          "args": ["_internal/github-ranking/rank.js"],
+          "cwd": "catai",
+          "confirm": "确认重算主站 /ranking 榜单数据？"
+        }
+      ]
+    }
+  ]
+}
