@@ -25,7 +25,7 @@
     ],
     "installCommand": "npx -y @modelcontextprotocol/server-filesystem <dir>",
     "logo": "/logos/mcp/mcp-official-servers.png",
-    "stars": 89542,
+    "stars": 89562,
     "featured": false,
     "faqs": [
       {
@@ -104,7 +104,7 @@
     ],
     "installCommand": "npx -y @upstash/context7-mcp",
     "logo": "/logos/mcp/context7.png",
-    "stars": 60693,
+    "stars": 60746,
     "featured": false,
     "faqs": [
       {
@@ -183,7 +183,7 @@
     ],
     "installCommand": "npx -y chrome-devtools-mcp@latest",
     "logo": "/logos/mcp/chrome-devtools-mcp.png",
-    "stars": 49106,
+    "stars": 49173,
     "featured": false,
     "faqs": [
       {
@@ -262,7 +262,7 @@
     ],
     "installCommand": "npx @playwright/mcp@latest",
     "logo": "/logos/mcp/playwright-mcp.png",
-    "stars": 36095,
+    "stars": 36128,
     "featured": false,
     "faqs": [
       {
@@ -341,7 +341,7 @@
     ],
     "installCommand": "claude mcp add --transport http github https://api.githubcopilot.com/mcp/",
     "logo": "/logos/mcp/github-mcp-server.png",
-    "stars": 32225,
+    "stars": 32248,
     "featured": false,
     "faqs": [
       {
@@ -419,7 +419,7 @@
     ],
     "installCommand": "npx -y @composio/mcp",
     "logo": "/logos/mcp/composio.png",
-    "stars": 29677,
+    "stars": 29690,
     "featured": false,
     "faqs": [
       {
@@ -473,86 +473,6 @@
     ]
   },
   {
-    "slug": "task-master",
-    "name": "Claude Task Master",
-    "nameZh": "Claude Task Master",
-    "description": "AI 驱动的任务管理系统，可嵌入 Cursor、Lovable、Windsurf 等 IDE。让 AI 智能体分解复杂任务、跟踪进度、管理依赖，将大型项目拆解为可执行的步骤。",
-    "descriptionEn": "An AI-powered task management system that drops into Cursor, Lovable, Windsurf, and more. Lets AI agents break down complex tasks, track progress, manage dependencies, and decompose large projects into executable steps.",
-    "descriptionJa": "Cursor、Lovable、Windsurf などの IDE に組み込める AI 駆動のタスク管理システム。AI エージェントが複雑なタスクを分解し、進捗を追跡し、依存関係を管理し、大規模プロジェクトを実行可能なステップに分割できます。",
-    "descriptionEs": "Un sistema de gestión de tareas impulsado por IA que se integra en Cursor, Lovable, Windsurf y más. Permite a los agentes de IA descomponer tareas complejas, rastrear el progreso, gestionar dependencias y desglosar proyectos grandes en pasos ejecutables.",
-    "descriptionFr": "Un système de gestion de tâches piloté par l'IA qui s'intègre dans Cursor, Lovable, Windsurf et plus. Permet aux agents IA de décomposer des tâches complexes, suivre la progression, gérer les dépendances et diviser les grands projets en étapes exécutables.",
-    "developer": "eyaltoledano",
-    "developerZh": "eyaltoledano",
-    "repo": "eyaltoledano/claude-task-master",
-    "clients": [
-      "claude",
-      "cursor",
-      "vscode",
-      "windsurf",
-      "codex",
-      "generic"
-    ],
-    "category": "Productivity",
-    "tags": [
-      "Free",
-      "Open Source"
-    ],
-    "installCommand": "npx -y task-master",
-    "logo": "/logos/mcp/task-master.png",
-    "stars": 27993,
-    "featured": false,
-    "faqs": [
-      {
-        "question": {
-          "zh": "Task Master 解决什么问题？",
-          "en": "What problem does Task Master solve?",
-          "ja": "Task Master はどんな問題を解決しますか？",
-          "es": "¿Qué problema resuelve Task Master?",
-          "fr": "Quel problème Task Master résout-il ?"
-        },
-        "answer": {
-          "zh": "AI 编码时经常遇到「大任务不知道从哪下手」的问题。Task Master 让智能体自动将复杂需求分解为结构化的任务列表，跟踪每个任务的完成状态，管理任务间的依赖关系，确保大型项目有条不紊地推进。",
-          "en": "AI coding often hits the 'where do I start with this big task' problem. Task Master lets agents automatically decompose complex requirements into structured task lists, track the completion status of each task, manage dependencies between tasks, and ensure large projects progress systematically.",
-          "ja": "AI コーディングでは「大きなタスクにどこから手をつければいいか」という問題がよく起こります。Task Master はエージェントが複雑な要件を構造化されたタスクリストに自動分解し、各タスクの完了状態を追跡し、タスク間の依存関係を管理して、大規模プロジェクトを体系的に進められるようにします。",
-          "es": "La codificación con IA a menudo se topa con el problema de 'por dónde empiezo con esta gran tarea'. Task Master permite a los agentes descomponer automáticamente requisitos complejos en listas de tareas estructuradas, rastrear el estado de finalización de cada tarea, gestionar dependencias entre tareas y asegurar que los proyectos grandes progresen sistemáticamente.",
-          "fr": "Le codage IA se heurte souvent au problème « par où commencer avec cette grosse tâche ». Task Master permet aux agents de décomposer automatiquement des exigences complexes en listes de tâches structurées, de suivre l'état d'avancement de chaque tâche, de gérer les dépendances entre les tâches et de garantir que les grands projets progressent systématiquement."
-        }
-      },
-      {
-        "question": {
-          "zh": "Task Master 怎么用？",
-          "en": "How do I use Task Master?",
-          "ja": "Task Master の使い方は？",
-          "es": "¿Cómo uso Task Master?",
-          "fr": "Comment utiliser Task Master ?"
-        },
-        "answer": {
-          "zh": "在 Cursor 或 Claude Code 中安装后，只需告诉智能体你的项目需求，它就会自动调用 Task Master 来创建任务分解、分配优先级、跟踪进度。支持查看任务列表、更新状态、标记完成等交互。",
-          "en": "After installing in Cursor or Claude Code, just tell the agent your project requirements and it will automatically call Task Master to create task breakdowns, assign priorities, and track progress. Supports viewing task lists, updating status, marking complete, and more.",
-          "ja": "Cursor や Claude Code にインストールした後、エージェントにプロジェクトの要件を伝えるだけで、自動的に Task Master を呼び出してタスク分解、優先順位の割り当て、進捗追跡を行います。タスク一覧の表示、ステータス更新、完了マークなどの操作に対応しています。",
-          "es": "Después de instalarlo en Cursor o Claude Code, solo dile al agente los requisitos de tu proyecto y automáticamente llamará a Task Master para crear desgloses de tareas, asignar prioridades y rastrear el progreso. Soporta ver listas de tareas, actualizar estados, marcar como completadas y más.",
-          "fr": "Après l'installation dans Cursor ou Claude Code, dites simplement à l'agent vos exigences de projet et il appellera automatiquement Task Master pour créer des décompositions de tâches, attribuer des priorités et suivre la progression. Prend en charge l'affichage des listes de tâches, la mise à jour des statuts, le marquage comme terminé, etc."
-        }
-      },
-      {
-        "question": {
-          "zh": "Task Master 免费吗？",
-          "en": "Is Task Master free?",
-          "ja": "Task Master は無料ですか？",
-          "es": "¿Task Master es gratuito?",
-          "fr": "Task Master est-il gratuit ?"
-        },
-        "answer": {
-          "zh": "完全免费开源，无需 API Key，本地运行即可。所有任务数据存储在本地文件系统中，不会上传到第三方服务器。",
-          "en": "Completely free and open source. No API key needed — it runs entirely locally. All task data is stored in your local file system and never uploaded to third-party servers.",
-          "ja": "完全無料・オープンソースです。API キー不要でローカル実行されます。すべてのタスクデータはローカルファイルシステムに保存され、サードパーティのサーバーにアップロードされることはありません。",
-          "es": "Completamente gratuito y de código abierto. No necesita clave API — se ejecuta totalmente en local. Todos los datos de las tareas se almacenan en tu sistema de archivos local y nunca se suben a servidores de terceros.",
-          "fr": "Entièrement gratuit et open source. Aucune clé API nécessaire — il s'exécute entièrement en local. Toutes les données de tâches sont stockées dans votre système de fichiers local et ne sont jamais téléchargées vers des serveurs tiers."
-        }
-      }
-    ]
-  },
-  {
     "slug": "serena",
     "name": "Serena",
     "nameZh": "Serena 代码工具箱",
@@ -577,7 +497,7 @@
     ],
     "installCommand": "uvx --from git+https://github.com/oraios/serena serena start-mcp-server",
     "logo": "/logos/mcp/serena.png",
-    "stars": 27970,
+    "stars": 28024,
     "featured": false,
     "faqs": [
       {
@@ -631,6 +551,86 @@
     ]
   },
   {
+    "slug": "task-master",
+    "name": "Claude Task Master",
+    "nameZh": "Claude Task Master",
+    "description": "AI 驱动的任务管理系统，可嵌入 Cursor、Lovable、Windsurf 等 IDE。让 AI 智能体分解复杂任务、跟踪进度、管理依赖，将大型项目拆解为可执行的步骤。",
+    "descriptionEn": "An AI-powered task management system that drops into Cursor, Lovable, Windsurf, and more. Lets AI agents break down complex tasks, track progress, manage dependencies, and decompose large projects into executable steps.",
+    "descriptionJa": "Cursor、Lovable、Windsurf などの IDE に組み込める AI 駆動のタスク管理システム。AI エージェントが複雑なタスクを分解し、進捗を追跡し、依存関係を管理し、大規模プロジェクトを実行可能なステップに分割できます。",
+    "descriptionEs": "Un sistema de gestión de tareas impulsado por IA que se integra en Cursor, Lovable, Windsurf y más. Permite a los agentes de IA descomponer tareas complejas, rastrear el progreso, gestionar dependencias y desglosar proyectos grandes en pasos ejecutables.",
+    "descriptionFr": "Un système de gestion de tâches piloté par l'IA qui s'intègre dans Cursor, Lovable, Windsurf et plus. Permet aux agents IA de décomposer des tâches complexes, suivre la progression, gérer les dépendances et diviser les grands projets en étapes exécutables.",
+    "developer": "eyaltoledano",
+    "developerZh": "eyaltoledano",
+    "repo": "eyaltoledano/claude-task-master",
+    "clients": [
+      "claude",
+      "cursor",
+      "vscode",
+      "windsurf",
+      "codex",
+      "generic"
+    ],
+    "category": "Productivity",
+    "tags": [
+      "Free",
+      "Open Source"
+    ],
+    "installCommand": "npx -y task-master",
+    "logo": "/logos/mcp/task-master.png",
+    "stars": 27992,
+    "featured": false,
+    "faqs": [
+      {
+        "question": {
+          "zh": "Task Master 解决什么问题？",
+          "en": "What problem does Task Master solve?",
+          "ja": "Task Master はどんな問題を解決しますか？",
+          "es": "¿Qué problema resuelve Task Master?",
+          "fr": "Quel problème Task Master résout-il ?"
+        },
+        "answer": {
+          "zh": "AI 编码时经常遇到「大任务不知道从哪下手」的问题。Task Master 让智能体自动将复杂需求分解为结构化的任务列表，跟踪每个任务的完成状态，管理任务间的依赖关系，确保大型项目有条不紊地推进。",
+          "en": "AI coding often hits the 'where do I start with this big task' problem. Task Master lets agents automatically decompose complex requirements into structured task lists, track the completion status of each task, manage dependencies between tasks, and ensure large projects progress systematically.",
+          "ja": "AI コーディングでは「大きなタスクにどこから手をつければいいか」という問題がよく起こります。Task Master はエージェントが複雑な要件を構造化されたタスクリストに自動分解し、各タスクの完了状態を追跡し、タスク間の依存関係を管理して、大規模プロジェクトを体系的に進められるようにします。",
+          "es": "La codificación con IA a menudo se topa con el problema de 'por dónde empiezo con esta gran tarea'. Task Master permite a los agentes descomponer automáticamente requisitos complejos en listas de tareas estructuradas, rastrear el estado de finalización de cada tarea, gestionar dependencias entre tareas y asegurar que los proyectos grandes progresen sistemáticamente.",
+          "fr": "Le codage IA se heurte souvent au problème « par où commencer avec cette grosse tâche ». Task Master permet aux agents de décomposer automatiquement des exigences complexes en listes de tâches structurées, de suivre l'état d'avancement de chaque tâche, de gérer les dépendances entre les tâches et de garantir que les grands projets progressent systématiquement."
+        }
+      },
+      {
+        "question": {
+          "zh": "Task Master 怎么用？",
+          "en": "How do I use Task Master?",
+          "ja": "Task Master の使い方は？",
+          "es": "¿Cómo uso Task Master?",
+          "fr": "Comment utiliser Task Master ?"
+        },
+        "answer": {
+          "zh": "在 Cursor 或 Claude Code 中安装后，只需告诉智能体你的项目需求，它就会自动调用 Task Master 来创建任务分解、分配优先级、跟踪进度。支持查看任务列表、更新状态、标记完成等交互。",
+          "en": "After installing in Cursor or Claude Code, just tell the agent your project requirements and it will automatically call Task Master to create task breakdowns, assign priorities, and track progress. Supports viewing task lists, updating status, marking complete, and more.",
+          "ja": "Cursor や Claude Code にインストールした後、エージェントにプロジェクトの要件を伝えるだけで、自動的に Task Master を呼び出してタスク分解、優先順位の割り当て、進捗追跡を行います。タスク一覧の表示、ステータス更新、完了マークなどの操作に対応しています。",
+          "es": "Después de instalarlo en Cursor o Claude Code, solo dile al agente los requisitos de tu proyecto y automáticamente llamará a Task Master para crear desgloses de tareas, asignar prioridades y rastrear el progreso. Soporta ver listas de tareas, actualizar estados, marcar como completadas y más.",
+          "fr": "Après l'installation dans Cursor ou Claude Code, dites simplement à l'agent vos exigences de projet et il appellera automatiquement Task Master pour créer des décompositions de tâches, attribuer des priorités et suivre la progression. Prend en charge l'affichage des listes de tâches, la mise à jour des statuts, le marquage comme terminé, etc."
+        }
+      },
+      {
+        "question": {
+          "zh": "Task Master 免费吗？",
+          "en": "Is Task Master free?",
+          "ja": "Task Master は無料ですか？",
+          "es": "¿Task Master es gratuito?",
+          "fr": "Task Master est-il gratuit ?"
+        },
+        "answer": {
+          "zh": "完全免费开源，无需 API Key，本地运行即可。所有任务数据存储在本地文件系统中，不会上传到第三方服务器。",
+          "en": "Completely free and open source. No API key needed — it runs entirely locally. All task data is stored in your local file system and never uploaded to third-party servers.",
+          "ja": "完全無料・オープンソースです。API キー不要でローカル実行されます。すべてのタスクデータはローカルファイルシステムに保存され、サードパーティのサーバーにアップロードされることはありません。",
+          "es": "Completamente gratuito y de código abierto. No necesita clave API — se ejecuta totalmente en local. Todos los datos de las tareas se almacenan en tu sistema de archivos local y nunca se suben a servidores de terceros.",
+          "fr": "Entièrement gratuit et open source. Aucune clé API nécessaire — il s'exécute entièrement en local. Toutes les données de tâches sont stockées dans votre système de fichiers local et ne sont jamais téléchargées vers des serveurs tiers."
+        }
+      }
+    ]
+  },
+  {
     "slug": "blender-mcp",
     "name": "Blender MCP",
     "nameZh": "Blender 3D 建模",
@@ -654,7 +654,7 @@
     ],
     "installCommand": "uvx blender-mcp",
     "logo": "/logos/mcp/blender-mcp.png",
-    "stars": 25806,
+    "stars": 25848,
     "featured": false,
     "faqs": [
       {
@@ -733,7 +733,7 @@
     ],
     "installCommand": "npx -y figma-developer-mcp --figma-api-key=<key> --stdio",
     "logo": "/logos/mcp/figma-context-mcp.png",
-    "stars": 15649,
+    "stars": 15658,
     "featured": false,
     "faqs": [
       {
@@ -812,7 +812,7 @@
     ],
     "installCommand": "npx -y @coplay/unity-mcp",
     "logo": "/logos/mcp/unity-mcp.png",
-    "stars": 13374,
+    "stars": 13396,
     "featured": false,
     "faqs": [
       {
@@ -891,7 +891,7 @@
     ],
     "installCommand": "npx -y ida-pro-mcp",
     "logo": "/logos/mcp/ida-pro-mcp.png",
-    "stars": 11333,
+    "stars": 11349,
     "featured": false,
     "faqs": [
       {
@@ -969,7 +969,7 @@
     ],
     "installCommand": "uvx awslabs.core-mcp-server@latest",
     "logo": "/logos/mcp/aws-mcp.png",
-    "stars": 9593,
+    "stars": 9598,
     "featured": false,
     "faqs": [
       {
@@ -1049,7 +1049,7 @@
     ],
     "installCommand": "npx -y @wonderwhy-er/desktop-commander",
     "logo": "/logos/mcp/desktop-commander.png",
-    "stars": 9320,
+    "stars": 9327,
     "featured": false,
     "faqs": [
       {
@@ -1129,7 +1129,7 @@
     ],
     "installCommand": "npx -y @agentdeskai/browser-tools-mcp",
     "logo": "/logos/mcp/browser-tools.png",
-    "stars": 7291,
+    "stars": 7292,
     "featured": false,
     "faqs": [
       {
@@ -1209,7 +1209,7 @@
     ],
     "installCommand": "env FIRECRAWL_API_KEY=<key> npx -y firecrawl-mcp",
     "logo": "/logos/mcp/firecrawl-mcp.png",
-    "stars": 7227,
+    "stars": 7235,
     "featured": false,
     "faqs": [
       {
@@ -1288,7 +1288,7 @@
     ],
     "installCommand": "npx -y @browsermcp/mcp",
     "logo": "/logos/mcp/browser-mcp.png",
-    "stars": 6962,
+    "stars": 6965,
     "featured": false,
     "faqs": [
       {
@@ -1367,7 +1367,7 @@
     ],
     "installCommand": "npx -y @getsentry/xcodebuild-mcp",
     "logo": "/logos/mcp/xcodebuild-mcp.png",
-    "stars": 6231,
+    "stars": 6239,
     "featured": false,
     "faqs": [
       {
@@ -1445,7 +1445,7 @@
     ],
     "installCommand": "npx -y whatsapp-mcp",
     "logo": "/logos/mcp/whatsapp-mcp.png",
-    "stars": 6146,
+    "stars": 6149,
     "featured": false,
     "faqs": [
       {
@@ -1523,7 +1523,7 @@
     ],
     "installCommand": "uvx mcp-atlassian",
     "logo": "/logos/mcp/atlassian-mcp.png",
-    "stars": 5738,
+    "stars": 5743,
     "featured": false,
     "faqs": [
       {
@@ -1603,7 +1603,7 @@
     ],
     "installCommand": "npx -y @21st-dev/magic-mcp",
     "logo": "/logos/mcp/magic-mcp.png",
-    "stars": 5657,
+    "stars": 5660,
     "featured": false,
     "faqs": [
       {
@@ -1681,7 +1681,7 @@
     ],
     "installCommand": "npx -y exa-mcp-server",
     "logo": "/logos/mcp/exa-mcp.png",
-    "stars": 4866,
+    "stars": 4867,
     "featured": false,
     "faqs": [
       {
@@ -1760,7 +1760,7 @@
     ],
     "installCommand": "npx -y @notionhq/notion-mcp-server",
     "logo": "/logos/mcp/notion-mcp-server.png",
-    "stars": 4588,
+    "stars": 4595,
     "featured": false,
     "faqs": [
       {
@@ -1839,7 +1839,7 @@
     ],
     "installCommand": "npx -y @antv/mcp-server-chart",
     "logo": "/logos/mcp/antv-chart.png",
-    "stars": 4310,
+    "stars": 4312,
     "featured": false,
     "faqs": [
       {
@@ -1918,7 +1918,7 @@
     ],
     "installCommand": "npx -y mcp-obsidian --vault /path/to/your/vault",
     "logo": "/logos/mcp/obsidian-mcp.png",
-    "stars": 4295,
+    "stars": 4301,
     "featured": false,
     "faqs": [
       {
@@ -1997,7 +1997,7 @@
     ],
     "installCommand": "npx -y excel-mcp-server",
     "logo": "/logos/mcp/excel-mcp.png",
-    "stars": 4107,
+    "stars": 4108,
     "featured": false,
     "faqs": [
       {
@@ -2075,7 +2075,7 @@
     ],
     "installCommand": "npx mcp-remote https://docs.mcp.cloudflare.com/sse",
     "logo": "/logos/mcp/cloudflare-mcp.png",
-    "stars": 4072,
+    "stars": 4074,
     "featured": false,
     "faqs": [
       {
@@ -2153,7 +2153,7 @@
     ],
     "installCommand": "npx -y @azure/mcp@latest server start",
     "logo": "/logos/mcp/azure-mcp.png",
-    "stars": 3563,
+    "stars": 3568,
     "featured": false,
     "faqs": [
       {
@@ -2231,7 +2231,7 @@
     ],
     "installCommand": "uvx mcp-grafana",
     "logo": "/logos/mcp/grafana-mcp.png",
-    "stars": 3351,
+    "stars": 3356,
     "featured": false,
     "faqs": [
       {
@@ -2390,7 +2390,7 @@
     ],
     "installCommand": "npx -y @supabase/mcp-server-supabase@latest",
     "logo": "/logos/mcp/supabase-mcp.png",
-    "stars": 2862,
+    "stars": 2863,
     "featured": false,
     "faqs": [
       {
@@ -2546,7 +2546,7 @@
     ],
     "installCommand": "npx -y tavily-mcp@latest",
     "logo": "/logos/mcp/tavily-mcp.png",
-    "stars": 2320,
+    "stars": 2322,
     "featured": false,
     "faqs": [
       {
@@ -2625,7 +2625,7 @@
     ],
     "installCommand": "pip install -r https://raw.githubusercontent.com/GongRzhe/Office-Word-MCP-Server/main/requirements.txt",
     "logo": "/logos/mcp/office-word-mcp.png",
-    "stars": 2117,
+    "stars": 2114,
     "featured": false,
     "faqs": [
       {
@@ -2704,7 +2704,7 @@
     ],
     "installCommand": "pip install -r https://raw.githubusercontent.com/GongRzhe/Office-PowerPoint-MCP-Server/main/requirements.txt",
     "logo": "/logos/mcp/office-ppt-mcp.png",
-    "stars": 1851,
+    "stars": 1852,
     "featured": false,
     "faqs": [
       {
@@ -2782,7 +2782,7 @@
     ],
     "installCommand": "npx -y slack-mcp-server@latest",
     "logo": "/logos/mcp/slack-mcp.png",
-    "stars": 1782,
+    "stars": 1783,
     "featured": false,
     "faqs": [
       {
@@ -2860,7 +2860,7 @@
     ],
     "installCommand": "npx -y @stripe/mcp",
     "logo": "/logos/mcp/stripe-mcp.png",
-    "stars": 1740,
+    "stars": 1744,
     "featured": false,
     "faqs": [
       {
@@ -2939,7 +2939,7 @@
     ],
     "installCommand": "uvx --from git+https://github.com/MiniMax-AI/MiniMax-MCP -- MiniMax-MCP --api-key YOUR_API_KEY",
     "logo": "/logos/mcp/minimax-mcp.png",
-    "stars": 1557,
+    "stars": 1559,
     "featured": false,
     "faqs": [
       {
@@ -3017,7 +3017,7 @@
     ],
     "installCommand": "docker mcp gateway run",
     "logo": "/logos/mcp/docker-mcp.png",
-    "stars": 1526,
+    "stars": 1529,
     "featured": false,
     "faqs": [
       {
@@ -3174,7 +3174,7 @@
     ],
     "installCommand": "uvx elevenlabs-mcp --api-key YOUR_API_KEY",
     "logo": "/logos/mcp/elevenlabs-mcp.png",
-    "stars": 1519,
+    "stars": 1522,
     "featured": false,
     "faqs": [
       {
@@ -3253,7 +3253,7 @@
     ],
     "installCommand": "docker run -i --rm hashicorp/terraform-mcp-server",
     "logo": "/logos/mcp/terraform-mcp.png",
-    "stars": 1501,
+    "stars": 1503,
     "featured": false,
     "faqs": [
       {
@@ -3332,7 +3332,7 @@
     ],
     "installCommand": "uvx mcp-server-qdrant",
     "logo": "/logos/mcp/qdrant-mcp.png",
-    "stars": 1499,
+    "stars": 1501,
     "featured": false,
     "faqs": [
       {
@@ -3411,7 +3411,7 @@
     ],
     "installCommand": "npx -y duckduckgo-mcp-server",
     "logo": "/logos/mcp/duckduckgo-mcp.png",
-    "stars": 1411,
+    "stars": 1413,
     "featured": false,
     "faqs": [
       {
@@ -3489,7 +3489,7 @@
     ],
     "installCommand": "npx -y @brave/brave-search-mcp-server",
     "logo": "/logos/mcp/brave-search-mcp.png",
-    "stars": 1374,
+    "stars": 1377,
     "featured": false,
     "faqs": [
       {
@@ -3647,7 +3647,7 @@
     ],
     "installCommand": "npx -y mcp-searxng",
     "logo": "/logos/mcp/searxng-mcp.png",
-    "stars": 1123,
+    "stars": 1128,
     "featured": false,
     "faqs": [
       {
@@ -3725,7 +3725,7 @@
     ],
     "installCommand": "npx -y mongodb-mcp-server",
     "logo": "/logos/mcp/mongodb-mcp.png",
-    "stars": 1097,
+    "stars": 1098,
     "featured": false,
     "faqs": [
       {
@@ -3804,7 +3804,7 @@
     ],
     "installCommand": "npm install -g @cloudbase/cloudbase-mcp && cloudbase-mcp",
     "logo": "/logos/mcp/cloudbase-mcp.png",
-    "stars": 1068,
+    "stars": 1069,
     "featured": false,
     "faqs": [
       {
@@ -3858,84 +3858,6 @@
     ]
   },
   {
-    "slug": "smithery",
-    "name": "Smithery",
-    "nameZh": "Smithery",
-    "description": "Smithery 是 MCP 服务器市场与命令行安装管理器，收录数千个 MCP 服务器，一行命令即可从市场安装、列出与管理连接，为智能体快速扩展能力。",
-    "descriptionEn": "Smithery is an MCP server marketplace and command-line installer/manager cataloging thousands of MCP servers, letting you install, list and manage connections from the marketplace with a single command.",
-    "descriptionJa": "Smithery は MCP サーバーのマーケットプレイスであり、コマンドラインのインストーラー／マネージャーです。数千の MCP サーバーを収録し、1 つのコマンドでマーケットからインストール・一覧表示・接続管理ができます。",
-    "descriptionEs": "Smithery es un mercado de servidores MCP y un instalador/gestor de línea de comandos que cataloga miles de servidores MCP, permitiéndote instalar, listar y gestionar conexiones desde el mercado con un solo comando.",
-    "descriptionFr": "Smithery est une place de marché de serveurs MCP et un installateur/gestionnaire en ligne de commande répertoriant des milliers de serveurs MCP, vous permettant d'installer, lister et gérer les connexions depuis la place de marché avec une seule commande.",
-    "developer": "Smithery",
-    "developerZh": "Smithery",
-    "repo": "smithery-ai/cli",
-    "clients": [
-      "claude",
-      "cursor",
-      "vscode",
-      "generic"
-    ],
-    "category": "Registry",
-    "tags": [
-      "Free",
-      "Open Source"
-    ],
-    "installCommand": "npx -y @smithery/cli",
-    "logo": "/logos/mcp/smithery.png",
-    "stars": 817,
-    "featured": false,
-    "faqs": [
-      {
-        "question": {
-          "zh": "Smithery 是用来做什么的？",
-          "en": "What is Smithery used for?",
-          "ja": "Smithery は何に使いますか？",
-          "es": "¿Para qué se usa Smithery?",
-          "fr": "À quoi sert Smithery ?"
-        },
-        "answer": {
-          "zh": "Smithery 是 MCP 生态的\"应用商店 + 包管理器\"：在 smithery.ai 浏览数千个 MCP 服务器，再用 CLI 一行命令把选中的服务器安装进 Claude、Cursor 等客户端，免去手动改配置文件。",
-          "en": "Smithery is the \"app store + package manager\" for the MCP ecosystem: browse thousands of MCP servers on smithery.ai, then install any of them into Claude, Cursor and other clients with a single CLI command instead of hand-editing config files.",
-          "ja": "Smithery は MCP エコシステムの「アプリストア + パッケージマネージャー」です。smithery.ai で数千の MCP サーバーを閲覧し、CLI の 1 コマンドで Claude や Cursor などのクライアントにインストールでき、設定ファイルを手動編集する必要がありません。",
-          "es": "Smithery es la \"tienda de apps + gestor de paquetes\" del ecosistema MCP: explora miles de servidores MCP en smithery.ai y luego instala cualquiera en Claude, Cursor y otros clientes con un solo comando de CLI en vez de editar archivos de configuración a mano.",
-          "fr": "Smithery est « l'app store + gestionnaire de paquets » de l'écosystème MCP : parcourez des milliers de serveurs MCP sur smithery.ai, puis installez-en n'importe lequel dans Claude, Cursor et d'autres clients avec une seule commande CLI au lieu de modifier les fichiers de configuration à la main."
-        }
-      },
-      {
-        "question": {
-          "zh": "怎么用 Smithery 安装一个 MCP 服务器？",
-          "en": "How do I install an MCP server with Smithery?",
-          "ja": "Smithery で MCP サーバーをインストールするには？",
-          "es": "¿Cómo instalo un servidor MCP con Smithery?",
-          "fr": "Comment installer un serveur MCP avec Smithery ?"
-        },
-        "answer": {
-          "zh": "运行 npx -y @smithery/cli，用 smithery mcp add <url> 添加连接、smithery mcp list 查看已装、smithery mcp remove <id> 卸载。市场里每个服务器页面都会给出对应的一键命令。",
-          "en": "Run npx -y @smithery/cli, then smithery mcp add <url> to add a connection, smithery mcp list to see installed ones, and smithery mcp remove <id> to uninstall. Each server page in the marketplace shows its ready-made command.",
-          "ja": "npx -y @smithery/cli を実行し、smithery mcp add <url> で接続を追加、smithery mcp list でインストール済みを確認、smithery mcp remove <id> で削除します。マーケットの各サーバーページに対応するコマンドが表示されます。",
-          "es": "Ejecuta npx -y @smithery/cli y luego smithery mcp add <url> para añadir una conexión, smithery mcp list para ver las instaladas y smithery mcp remove <id> para desinstalar. Cada página de servidor del mercado muestra su comando listo para usar.",
-          "fr": "Lancez npx -y @smithery/cli, puis smithery mcp add <url> pour ajouter une connexion, smithery mcp list pour voir celles installées et smithery mcp remove <id> pour désinstaller. Chaque page de serveur du marché affiche sa commande prête à l'emploi."
-        }
-      },
-      {
-        "question": {
-          "zh": "Smithery 免费吗？",
-          "en": "Is Smithery free?",
-          "ja": "Smithery は無料ですか？",
-          "es": "¿Smithery es gratuito?",
-          "fr": "Smithery est-il gratuit ?"
-        },
-        "answer": {
-          "zh": "CLI 开源免费，浏览与安装市场里的 MCP 服务器不收费；部分服务器自身可能需要各自的 API Key 或订阅，托管运行的高级功能另计。",
-          "en": "The CLI is open source and free, and browsing/installing MCP servers from the marketplace costs nothing; individual servers may still require their own API keys or subscriptions, and hosted-run advanced features are separate.",
-          "ja": "CLI はオープンソースで無料、マーケットの MCP サーバーの閲覧・インストールも無料です。ただし各サーバー自体が固有の API キーやサブスクリプションを必要とする場合があり、ホスト実行の高度な機能は別料金です。",
-          "es": "La CLI es de código abierto y gratuita, y explorar/instalar servidores MCP del mercado no cuesta nada; algunos servidores pueden requerir sus propias claves API o suscripciones, y las funciones avanzadas de ejecución alojada son aparte.",
-          "fr": "La CLI est open source et gratuite, et parcourir/installer les serveurs MCP du marché ne coûte rien ; certains serveurs peuvent nécessiter leurs propres clés API ou abonnements, et les fonctionnalités avancées d'exécution hébergée sont facturées séparément."
-        }
-      }
-    ]
-  },
-  {
     "slug": "sentry-mcp",
     "name": "Sentry MCP",
     "nameZh": "Sentry MCP",
@@ -3960,7 +3882,7 @@
     ],
     "installCommand": "npx -y @sentry/mcp-server",
     "logo": "/logos/mcp/sentry-mcp.png",
-    "stars": 815,
+    "stars": 818,
     "featured": false,
     "faqs": [
       {
@@ -4009,6 +3931,84 @@
           "ja": "MCP サーバー自体はオープンソースで無料で、あなた自身の Sentry プロジェクトのデータを読み取ります。Sentry には無料枠があり、超過分は通常どおり課金されます。一部の AI 検索ツールは自前の LLM プロバイダーキーが必要です。",
           "es": "El servidor MCP en sí es de código abierto y gratuito, y lee datos de tus propios proyectos de Sentry; Sentry tiene un nivel gratuito y cobra por encima de él como de costumbre. Algunas herramientas de búsqueda con IA requieren tu propia clave de proveedor LLM.",
           "fr": "Le serveur MCP lui-même est open source et gratuit, lisant les données de vos propres projets Sentry ; Sentry a une offre gratuite et facture au-delà comme d'habitude. Certains outils de recherche IA nécessitent votre propre clé de fournisseur LLM."
+        }
+      }
+    ]
+  },
+  {
+    "slug": "smithery",
+    "name": "Smithery",
+    "nameZh": "Smithery",
+    "description": "Smithery 是 MCP 服务器市场与命令行安装管理器，收录数千个 MCP 服务器，一行命令即可从市场安装、列出与管理连接，为智能体快速扩展能力。",
+    "descriptionEn": "Smithery is an MCP server marketplace and command-line installer/manager cataloging thousands of MCP servers, letting you install, list and manage connections from the marketplace with a single command.",
+    "descriptionJa": "Smithery は MCP サーバーのマーケットプレイスであり、コマンドラインのインストーラー／マネージャーです。数千の MCP サーバーを収録し、1 つのコマンドでマーケットからインストール・一覧表示・接続管理ができます。",
+    "descriptionEs": "Smithery es un mercado de servidores MCP y un instalador/gestor de línea de comandos que cataloga miles de servidores MCP, permitiéndote instalar, listar y gestionar conexiones desde el mercado con un solo comando.",
+    "descriptionFr": "Smithery est une place de marché de serveurs MCP et un installateur/gestionnaire en ligne de commande répertoriant des milliers de serveurs MCP, vous permettant d'installer, lister et gérer les connexions depuis la place de marché avec une seule commande.",
+    "developer": "Smithery",
+    "developerZh": "Smithery",
+    "repo": "smithery-ai/cli",
+    "clients": [
+      "claude",
+      "cursor",
+      "vscode",
+      "generic"
+    ],
+    "category": "Registry",
+    "tags": [
+      "Free",
+      "Open Source"
+    ],
+    "installCommand": "npx -y @smithery/cli",
+    "logo": "/logos/mcp/smithery.png",
+    "stars": 818,
+    "featured": false,
+    "faqs": [
+      {
+        "question": {
+          "zh": "Smithery 是用来做什么的？",
+          "en": "What is Smithery used for?",
+          "ja": "Smithery は何に使いますか？",
+          "es": "¿Para qué se usa Smithery?",
+          "fr": "À quoi sert Smithery ?"
+        },
+        "answer": {
+          "zh": "Smithery 是 MCP 生态的\"应用商店 + 包管理器\"：在 smithery.ai 浏览数千个 MCP 服务器，再用 CLI 一行命令把选中的服务器安装进 Claude、Cursor 等客户端，免去手动改配置文件。",
+          "en": "Smithery is the \"app store + package manager\" for the MCP ecosystem: browse thousands of MCP servers on smithery.ai, then install any of them into Claude, Cursor and other clients with a single CLI command instead of hand-editing config files.",
+          "ja": "Smithery は MCP エコシステムの「アプリストア + パッケージマネージャー」です。smithery.ai で数千の MCP サーバーを閲覧し、CLI の 1 コマンドで Claude や Cursor などのクライアントにインストールでき、設定ファイルを手動編集する必要がありません。",
+          "es": "Smithery es la \"tienda de apps + gestor de paquetes\" del ecosistema MCP: explora miles de servidores MCP en smithery.ai y luego instala cualquiera en Claude, Cursor y otros clientes con un solo comando de CLI en vez de editar archivos de configuración a mano.",
+          "fr": "Smithery est « l'app store + gestionnaire de paquets » de l'écosystème MCP : parcourez des milliers de serveurs MCP sur smithery.ai, puis installez-en n'importe lequel dans Claude, Cursor et d'autres clients avec une seule commande CLI au lieu de modifier les fichiers de configuration à la main."
+        }
+      },
+      {
+        "question": {
+          "zh": "怎么用 Smithery 安装一个 MCP 服务器？",
+          "en": "How do I install an MCP server with Smithery?",
+          "ja": "Smithery で MCP サーバーをインストールするには？",
+          "es": "¿Cómo instalo un servidor MCP con Smithery?",
+          "fr": "Comment installer un serveur MCP avec Smithery ?"
+        },
+        "answer": {
+          "zh": "运行 npx -y @smithery/cli，用 smithery mcp add <url> 添加连接、smithery mcp list 查看已装、smithery mcp remove <id> 卸载。市场里每个服务器页面都会给出对应的一键命令。",
+          "en": "Run npx -y @smithery/cli, then smithery mcp add <url> to add a connection, smithery mcp list to see installed ones, and smithery mcp remove <id> to uninstall. Each server page in the marketplace shows its ready-made command.",
+          "ja": "npx -y @smithery/cli を実行し、smithery mcp add <url> で接続を追加、smithery mcp list でインストール済みを確認、smithery mcp remove <id> で削除します。マーケットの各サーバーページに対応するコマンドが表示されます。",
+          "es": "Ejecuta npx -y @smithery/cli y luego smithery mcp add <url> para añadir una conexión, smithery mcp list para ver las instaladas y smithery mcp remove <id> para desinstalar. Cada página de servidor del mercado muestra su comando listo para usar.",
+          "fr": "Lancez npx -y @smithery/cli, puis smithery mcp add <url> pour ajouter une connexion, smithery mcp list pour voir celles installées et smithery mcp remove <id> pour désinstaller. Chaque page de serveur du marché affiche sa commande prête à l'emploi."
+        }
+      },
+      {
+        "question": {
+          "zh": "Smithery 免费吗？",
+          "en": "Is Smithery free?",
+          "ja": "Smithery は無料ですか？",
+          "es": "¿Smithery es gratuito?",
+          "fr": "Smithery est-il gratuit ?"
+        },
+        "answer": {
+          "zh": "CLI 开源免费，浏览与安装市场里的 MCP 服务器不收费；部分服务器自身可能需要各自的 API Key 或订阅，托管运行的高级功能另计。",
+          "en": "The CLI is open source and free, and browsing/installing MCP servers from the marketplace costs nothing; individual servers may still require their own API keys or subscriptions, and hosted-run advanced features are separate.",
+          "ja": "CLI はオープンソースで無料、マーケットの MCP サーバーの閲覧・インストールも無料です。ただし各サーバー自体が固有の API キーやサブスクリプションを必要とする場合があり、ホスト実行の高度な機能は別料金です。",
+          "es": "La CLI es de código abierto y gratuita, y explorar/instalar servidores MCP del mercado no cuesta nada; algunos servidores pueden requerir sus propias claves API o suscripciones, y las funciones avanzadas de ejecución alojada son aparte.",
+          "fr": "La CLI est open source et gratuite, et parcourir/installer les serveurs MCP du marché ne coûte rien ; certains serveurs peuvent nécessiter leurs propres clés API ou abonnements, et les fonctionnalités avancées d'exécution hébergée sont facturées séparément."
         }
       }
     ]
@@ -4116,7 +4116,7 @@
     ],
     "installCommand": "npx -y @neondatabase/mcp-server-neon",
     "logo": "/logos/mcp/neon-mcp.png",
-    "stars": 623,
+    "stars": 624,
     "featured": false,
     "faqs": [
       {
@@ -4194,7 +4194,7 @@
     ],
     "installCommand": "uvx --from git+https://github.com/redis/mcp-redis.git redis-mcp-server",
     "logo": "/logos/mcp/redis-mcp.png",
-    "stars": 566,
+    "stars": 568,
     "featured": false,
     "faqs": [
       {
@@ -4273,7 +4273,7 @@
     ],
     "installCommand": "npx -y edgeone-pages-mcp",
     "logo": "/logos/mcp/edgeone-pages-mcp.png",
-    "stars": 431,
+    "stars": 432,
     "featured": false,
     "faqs": [
       {

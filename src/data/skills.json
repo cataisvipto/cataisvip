@@ -21,7 +21,7 @@
     ],
     "installCommand": "See README for details.",
     "logo": "/logos/skills/awesome-selfhosted.png",
-    "stars": 312455,
+    "stars": 312677,
     "featured": false,
     "faqs": [
       {
@@ -103,7 +103,7 @@
     ],
     "installCommand": "Available via Claude Code marketplace, Cursor /add-plugin, Codex plugin marketplace, and more. See README for details.",
     "logo": "/logos/skills/superpowers.png",
-    "stars": 271730,
+    "stars": 272159,
     "featured": false,
     "faqs": [
       {
@@ -181,7 +181,7 @@
     ],
     "installCommand": "git clone https://github.com/mattpocock/skills.git ~/.codex/skills/mattpocock-skills",
     "logo": "/logos/skills/grill-me.png",
-    "stars": 216355,
+    "stars": 217510,
     "featured": false,
     "faqs": [
       {
@@ -259,7 +259,7 @@
     ],
     "installCommand": "git clone https://github.com/mattpocock/skills.git ~/.codex/skills/mattpocock-skills",
     "logo": "/logos/skills/grill-with-docs.png",
-    "stars": 216355,
+    "stars": 217510,
     "featured": false,
     "faqs": [
       {
@@ -337,7 +337,7 @@
     ],
     "installCommand": "git clone https://github.com/mattpocock/skills.git ~/.codex/skills/mattpocock-skills",
     "logo": "/logos/skills/improve-codebase-architecture.png",
-    "stars": 216355,
+    "stars": 217510,
     "featured": false,
     "faqs": [
       {
@@ -425,7 +425,7 @@
     ],
     "installCommand": "Download the app at agencyagents.app (macOS/Linux/Windows) or run ./scripts/install.sh --tool <tool> from the repo.",
     "logo": "/logos/skills/agency-agents.png",
-    "stars": 145168,
+    "stars": 145479,
     "featured": false,
     "faqs": [
       {
@@ -503,7 +503,7 @@
     ],
     "installCommand": "Available via plugin marketplace. See README for details.",
     "logo": "/logos/skills/banner-design.png",
-    "stars": 116448,
+    "stars": 116733,
     "featured": false,
     "faqs": [
       {
@@ -581,7 +581,7 @@
     ],
     "installCommand": "Available via plugin marketplace. See README for details.",
     "logo": "/logos/skills/brand.png",
-    "stars": 116448,
+    "stars": 116733,
     "featured": false,
     "faqs": [
       {
@@ -659,7 +659,7 @@
     ],
     "installCommand": "Available via plugin marketplace. See README for details.",
     "logo": "/logos/skills/design.png",
-    "stars": 116448,
+    "stars": 116733,
     "featured": false,
     "faqs": [
       {
@@ -737,7 +737,7 @@
     ],
     "installCommand": "Available via plugin marketplace. See README for details.",
     "logo": "/logos/skills/design-system.png",
-    "stars": 116448,
+    "stars": 116733,
     "featured": false,
     "faqs": [
       {
@@ -815,7 +815,7 @@
     ],
     "installCommand": "Available via plugin marketplace. See README for details.",
     "logo": "/logos/skills/slides.png",
-    "stars": 116448,
+    "stars": 116733,
     "featured": false,
     "faqs": [
       {
@@ -893,7 +893,7 @@
     ],
     "installCommand": "Available via plugin marketplace. See README for details.",
     "logo": "/logos/skills/ui-styling.png",
-    "stars": 116448,
+    "stars": 116733,
     "featured": false,
     "faqs": [
       {
@@ -975,7 +975,7 @@
     ],
     "installCommand": "curl -fsSL https://raw.githubusercontent.com/JuliusBrussee/caveman/main/install.sh | bash",
     "logo": "/logos/skills/caveman.png",
-    "stars": 98021,
+    "stars": 98235,
     "featured": false,
     "faqs": [
       {
@@ -1048,7 +1048,7 @@
       "codex",
       "claude-code"
     ],
-    "stars": 76255,
+    "stars": 76562,
     "developer": "Leonxlnx",
     "developerZh": "Leonxlnx",
     "installCommand": "npm i -g taste-skill",
@@ -1128,7 +1128,7 @@
     ],
     "installCommand": "See README for installation instructions.",
     "logo": "/logos/skills/agent-reach.png",
-    "stars": 71447,
+    "stars": 71721,
     "featured": false,
     "faqs": [
       {
@@ -1203,7 +1203,7 @@
     ],
     "installCommand": "See README for installation instructions.",
     "logo": "/logos/skills/media-crawler.png",
-    "stars": 62318,
+    "stars": 62411,
     "featured": false,
     "faqs": [
       {
@@ -1280,7 +1280,7 @@
     ],
     "installCommand": "npx skills add blader/humanizer",
     "logo": "/logos/skills/humanizer.png",
-    "stars": 35511,
+    "stars": 35695,
     "featured": false,
     "faqs": [
       {
@@ -1358,7 +1358,7 @@
     ],
     "installCommand": "npx skills add alchaincyf/nuwa-skill",
     "logo": "/logos/skills/nuwa-skill.png",
-    "stars": 30529,
+    "stars": 30604,
     "featured": false,
     "faqs": [
       {
@@ -1437,7 +1437,7 @@
     ],
     "installCommand": "git clone https://github.com/vercel-labs/skills.git ~/.codex/skills/vercel-labs-skills",
     "logo": "/logos/skills/find-skills.png",
-    "stars": 28823,
+    "stars": 28900,
     "featured": false,
     "faqs": [
       {
@@ -1515,7 +1515,7 @@
     ],
     "installCommand": "npx skills add alchaincyf/huashu-design",
     "logo": "/logos/skills/huashu-design.png",
-    "stars": 22972,
+    "stars": 23027,
     "featured": false,
     "faqs": [
       {
@@ -1569,83 +1569,6 @@
     ]
   },
   {
-    "slug": "book-to-skill",
-    "name": "Book to Skill",
-    "nameZh": "Book to Skill",
-    "description": "将技术书籍、文档文件夹或源文件集合转化为统一的智能体技能，随时学习、参考和使用",
-    "descriptionEn": "Turn any technical book, document folder, or collection of sources into a unified agent skill — ready to study, reference, and use while you work",
-    "descriptionJa": "技術書、ドキュメントフォルダ、またはソースコレクションを統一されたエージェントスキルに変換",
-    "descriptionEs": "Convierte cualquier libro técnico, carpeta de documentos o colección de fuentes en un skill de agente unificado",
-    "descriptionFr": "Transformez tout livre technique, dossier de documents ou collection de sources en un skill d'agent unifié",
-    "developer": "virgiliojr94",
-    "developerZh": "virgiliojr94",
-    "repo": "virgiliojr94/book-to-skill",
-    "agents": [
-      "claude",
-      "codex",
-      "generic"
-    ],
-    "category": "Developer",
-    "tags": [
-      "Free",
-      "Open Source"
-    ],
-    "installCommand": "pip install book-to-skill",
-    "logo": "/logos/skills/book-to-skill.png",
-    "stars": 21194,
-    "featured": false,
-    "faqs": [
-      {
-        "question": {
-          "en": "How do I install this skill?",
-          "zh": "如何安装这个技能？",
-          "ja": "このスキルをインストールするには？",
-          "es": "?C?mo instalo este skill?",
-          "fr": "Comment installer ce skill ?"
-        },
-        "answer": {
-          "en": "Run the install command in your agent terminal.",
-          "zh": "在智能体的终端中运行安装命令。",
-          "ja": "エージェントのターミナルでインストールコマンドを実行します。",
-          "es": "Ejecuta el comando de instalaci?n en la terminal de tu agente.",
-          "fr": "Exécutez la commande d'installation dans le terminal de votre agent."
-        }
-      },
-      {
-        "question": {
-          "en": "Which agents support this skill?",
-          "zh": "哪些智能体支持这个技能？",
-          "ja": "どのエージェントがこのスキルをサポートしていますか？",
-          "es": "?Qu? agentes son compatibles con este skill?",
-          "fr": "Quels agents supportent ce skill ?"
-        },
-        "answer": {
-          "en": "Claude Code, GitHub Copilot CLI, Amp, and other MCP-compatible agents.",
-          "zh": "Claude Code、GitHub Copilot CLI、Amp 和其他 MCP 兼容的智能体。",
-          "ja": "Claude Code銆丆opilot CLl銆丄mp銆佷お傛ひその他のMCP互換エージェント銆?",
-          "es": "Claude Code, GitHub Copilot CLI, Amp y otros agentes compatibles con MCP.",
-          "fr": "Claude Code, GitHub Copilot CLI, Amp et autres agents compatibles MCP."
-        }
-      },
-      {
-        "question": {
-          "en": "Is this skill free?",
-          "zh": "这个技能免费吗？",
-          "ja": "このスキルは無料ですか？",
-          "es": "?Este skill es gratuito?",
-          "fr": "Ce skill est-il gratuit ?"
-        },
-        "answer": {
-          "en": "Yes, it is free and open source under MIT license.",
-          "zh": "是的，免费且开源（MIT 许可证）。",
-          "ja": "はい、無料でオープンソース（MITライセンス）です。",
-          "es": "S?, es gratuito y de c?digo abierto (licencia MIT).",
-          "fr": "Oui, il est gratuit et open source (licence MIT)."
-        }
-      }
-    ]
-  },
-  {
     "slug": "tencentdb-agent-memory",
     "name": "TencentDB Agent Memory",
     "nameZh": "腾讯云数据库 Agent Memory",
@@ -1671,7 +1594,7 @@
     ],
     "installCommand": "git clone https://github.com/TencentCloud/TencentDB-Agent-Memory.git && cd TencentDB-Agent-Memory/deploy/global-images && cp .env.example .env && ./start-all.sh",
     "logo": "/logos/skills/tencentdb-agent-memory.png",
-    "stars": 21187,
+    "stars": 21685,
     "featured": false,
     "faqs": [
       {
@@ -1725,6 +1648,83 @@
     ]
   },
   {
+    "slug": "book-to-skill",
+    "name": "Book to Skill",
+    "nameZh": "Book to Skill",
+    "description": "将技术书籍、文档文件夹或源文件集合转化为统一的智能体技能，随时学习、参考和使用",
+    "descriptionEn": "Turn any technical book, document folder, or collection of sources into a unified agent skill — ready to study, reference, and use while you work",
+    "descriptionJa": "技術書、ドキュメントフォルダ、またはソースコレクションを統一されたエージェントスキルに変換",
+    "descriptionEs": "Convierte cualquier libro técnico, carpeta de documentos o colección de fuentes en un skill de agente unificado",
+    "descriptionFr": "Transformez tout livre technique, dossier de documents ou collection de sources en un skill d'agent unifié",
+    "developer": "virgiliojr94",
+    "developerZh": "virgiliojr94",
+    "repo": "virgiliojr94/book-to-skill",
+    "agents": [
+      "claude",
+      "codex",
+      "generic"
+    ],
+    "category": "Developer",
+    "tags": [
+      "Free",
+      "Open Source"
+    ],
+    "installCommand": "pip install book-to-skill",
+    "logo": "/logos/skills/book-to-skill.png",
+    "stars": 21533,
+    "featured": false,
+    "faqs": [
+      {
+        "question": {
+          "en": "How do I install this skill?",
+          "zh": "如何安装这个技能？",
+          "ja": "このスキルをインストールするには？",
+          "es": "?C?mo instalo este skill?",
+          "fr": "Comment installer ce skill ?"
+        },
+        "answer": {
+          "en": "Run the install command in your agent terminal.",
+          "zh": "在智能体的终端中运行安装命令。",
+          "ja": "エージェントのターミナルでインストールコマンドを実行します。",
+          "es": "Ejecuta el comando de instalaci?n en la terminal de tu agente.",
+          "fr": "Exécutez la commande d'installation dans le terminal de votre agent."
+        }
+      },
+      {
+        "question": {
+          "en": "Which agents support this skill?",
+          "zh": "哪些智能体支持这个技能？",
+          "ja": "どのエージェントがこのスキルをサポートしていますか？",
+          "es": "?Qu? agentes son compatibles con este skill?",
+          "fr": "Quels agents supportent ce skill ?"
+        },
+        "answer": {
+          "en": "Claude Code, GitHub Copilot CLI, Amp, and other MCP-compatible agents.",
+          "zh": "Claude Code、GitHub Copilot CLI、Amp 和其他 MCP 兼容的智能体。",
+          "ja": "Claude Code銆丆opilot CLl銆丄mp銆佷お傛ひその他のMCP互換エージェント銆?",
+          "es": "Claude Code, GitHub Copilot CLI, Amp y otros agentes compatibles con MCP.",
+          "fr": "Claude Code, GitHub Copilot CLI, Amp et autres agents compatibles MCP."
+        }
+      },
+      {
+        "question": {
+          "en": "Is this skill free?",
+          "zh": "这个技能免费吗？",
+          "ja": "このスキルは無料ですか？",
+          "es": "?Este skill es gratuito?",
+          "fr": "Ce skill est-il gratuit ?"
+        },
+        "answer": {
+          "en": "Yes, it is free and open source under MIT license.",
+          "zh": "是的，免费且开源（MIT 许可证）。",
+          "ja": "はい、無料でオープンソース（MITライセンス）です。",
+          "es": "S?, es gratuito y de c?digo abierto (licencia MIT).",
+          "fr": "Oui, il est gratuit et open source (licence MIT)."
+        }
+      }
+    ]
+  },
+  {
     "slug": "pyvideotrans",
     "name": "PyVideoTrans",
     "nameZh": "视频翻译配音",
@@ -1746,7 +1746,7 @@
     ],
     "installCommand": "pip install pyvideotrans",
     "logo": "/logos/skills/pyvideotrans.png",
-    "stars": 18676,
+    "stars": 18683,
     "featured": false,
     "faqs": [
       {
@@ -1820,7 +1820,7 @@
     ],
     "installCommand": "npx skills add op7418/Humanizer-zh",
     "logo": "/logos/skills/humanizer-zh.png",
-    "stars": 15238,
+    "stars": 15324,
     "developer": "op7418",
     "developerZh": "op7418",
     "faqs": [
@@ -1898,7 +1898,7 @@
     ],
     "installCommand": "git clone https://github.com/helloianneo/ian-xiaohei-illustrations.git ~/.codex/skills/ian-xiaohei-illustrations",
     "logo": "/logos/skills/ian-xiaohei-illustrations.png",
-    "stars": 9401,
+    "stars": 9443,
     "featured": false,
     "faqs": [
       {
@@ -1975,7 +1975,7 @@
     ],
     "installCommand": "git clone https://github.com/Thysrael/Horizon.git && cd Horizon",
     "logo": "/logos/skills/horizon.png",
-    "stars": 8821,
+    "stars": 8862,
     "featured": false,
     "faqs": [
       {
@@ -2053,7 +2053,7 @@
     ],
     "installCommand": "npx skills add op7418/guizang-social-card-skill",
     "logo": "/logos/skills/guizang-social-card.png",
-    "stars": 6305,
+    "stars": 6335,
     "featured": false,
     "faqs": [
       {
@@ -2131,7 +2131,7 @@
     ],
     "installCommand": "Add to your Codex skill directory or use the Codex plugin marketplace. See README for details.",
     "logo": "/logos/skills/gc-minimal-zine-poster.png",
-    "stars": 5868,
+    "stars": 6081,
     "featured": false,
     "faqs": [
       {
@@ -2209,7 +2209,7 @@
     ],
     "installCommand": "git clone https://github.com/SamurAIGPT/Generative-Media-Skills.git && cd Generative-Media-Skills",
     "logo": "/logos/skills/generative-media-skills.png",
-    "stars": 4047,
+    "stars": 4053,
     "featured": false,
     "faqs": [
       {
@@ -2283,7 +2283,7 @@
     ],
     "installCommand": "git clone https://github.com/ZzzLc0405/photo-abstract-editorial ~/.codex/skills/photo-abstract-editorial",
     "logo": "/logos/skills/photo-abstract-editorial.png",
-    "stars": 3460,
+    "stars": 3708,
     "featured": false,
     "faqs": [
       {
@@ -2357,7 +2357,7 @@
     ],
     "installCommand": "git clone https://github.com/Zeejay0/gathered-scenes-zine-skill ~/.codex/skills/gathered-scenes-zine-skill",
     "logo": "/logos/skills/gathered-scenes-zine-skill.png",
-    "stars": 3374,
+    "stars": 3536,
     "featured": false,
     "faqs": [
       {
@@ -2438,7 +2438,7 @@
     ],
     "installCommand": "curl -fsSL https://raw.githubusercontent.com/QwenLM/Qwen-MM-Plugins/main/install.sh | bash",
     "logo": "/logos/skills/qwen-mm-plugins.png",
-    "stars": 2429,
+    "stars": 2506,
     "featured": false,
     "faqs": [
       {
@@ -2517,7 +2517,7 @@
     ],
     "installCommand": "curl -fsSL https://raw.githubusercontent.com/FrancyJGLisboa/agent-skill-creator/main/scripts/bootstrap.sh | sh",
     "logo": "/logos/skills/agent-skill-creator.png",
-    "stars": 2240,
+    "stars": 2249,
     "developer": "FrancyJGLisboa",
     "developerZh": "FrancyJGLisboa",
     "faqs": [
@@ -2596,7 +2596,7 @@
     ],
     "installCommand": "git clone https://github.com/comeonzhj/Auto-Redbook-Skills.git && cd Auto-Redbook-Skills",
     "logo": "/logos/skills/auto-redbook-skills.png",
-    "stars": 2138,
+    "stars": 2140,
     "featured": false,
     "faqs": [
       {
@@ -2748,7 +2748,7 @@
     ],
     "installCommand": "git clone https://github.com/Evianis/travel-photo-abstraction ~/.codex/skills/travel-photo-abstraction",
     "logo": "/logos/skills/travel-photo-abstraction.png",
-    "stars": 533,
+    "stars": 546,
     "featured": false,
     "faqs": [
       {
@@ -2824,7 +2824,7 @@
     ],
     "installCommand": "git clone https://github.com/Dlcccc71913/skill-make-photo-stamp-archive ~/.codex/skills/photo-stamp-archive",
     "logo": "/logos/skills/photo-stamp-archive.png",
-    "stars": 215,
+    "stars": 224,
     "featured": false,
     "faqs": [
       {
