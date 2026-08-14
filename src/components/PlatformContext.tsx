@@ -1,6 +1,6 @@
 'use client';
 
-import { createContext, useContext, useEffect, useState, type ReactNode } from 'react';
+import { createContext, useContext, useState, type ReactNode } from 'react';
 
 export type Platform = 'windows' | 'macos' | 'linux';
 
@@ -26,17 +26,12 @@ function detectPlatform(): Platform {
 const STORAGE_KEY = 'cataito-tutorial-platform';
 
 export function PlatformProvider({ children }: { children: ReactNode }) {
-  const [platform, setPlatformState] = useState<Platform>('windows');
-
-  useEffect(() => {
-    // 优先 localStorage 记忆，其次自动检测
+  // 从 localStorage 读取初始状态（同步初始化，避免 effect 内 setState 造成级联渲染）
+  const [platform, setPlatformState] = useState<Platform>(() => {
     const saved = localStorage.getItem(STORAGE_KEY) as Platform | null;
-    if (saved && ['windows', 'macos', 'linux'].includes(saved)) {
-      setPlatformState(saved);
-    } else {
-      setPlatformState(detectPlatform());
-    }
-  }, []);
+    if (saved && ['windows', 'macos', 'linux'].includes(saved)) return saved;
+    return detectPlatform();
+  });
 
   const setPlatform = (p: Platform) => {
     setPlatformState(p);
