@@ -41,7 +41,10 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: 20
+          # 与本地开发（Node 22.22.x）和 npm 依赖（jsdom 30、@asamuzakjp/css-color、undici 8）一致。
+          # GitHub Actions 已弃用 Node 20，jsdom 要求 ^22.22.2 || ^24.15.0 || >=26.0.0，
+          # 旧版 Node 20 会因 webidl 不兼容在 build 阶段崩溃。
+          node-version: 22
           cache: npm
 
       - run: npm ci
