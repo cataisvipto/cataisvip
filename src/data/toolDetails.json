@@ -48261,6 +48261,368 @@
       "verdictDate": "2026-08-15",
       "pricingVerified": "2026-08-15",
       "pricingUrl": "https://github.com/deepseek-ai/deepseek-harness"
+    },
+    "tutorial": {
+      "en": {
+        "title": "Get Started with DeepSeek Harness in 5 Steps",
+        "steps": [
+          {
+            "step": 1,
+            "title": "Install and start the Web UI",
+            "content": "Install Node.js, then run `npx @deepseek-ai/dsh web` to start the Web UI, served at http://127.0.0.1:3080 by default. The dsh process uses its invoking directory as the default filesystem location. To run from source, clone the repository, run pnpm install, pnpm run build, and pnpm dsh web.",
+            "commands": [
+              {
+                "label": "Start Web UI",
+                "code": "npx @deepseek-ai/dsh web"
+              },
+              {
+                "label": "Run from source",
+                "code": "git clone https://github.com/deepseek-ai/deepseek-harness.git && cd deepseek-harness && pnpm install && pnpm run build && pnpm dsh web"
+              }
+            ]
+          },
+          {
+            "step": 2,
+            "title": "Configure a model",
+            "content": "Open Settings → Models, enter a DeepSeek API key, and save it. The model route becomes usable immediately without restarting the server. To add other providers, choose Add provider and select one from the installed catalog (Anthropic, OpenAI, etc.), or choose Add a custom provider for a company gateway or self-hosted OpenAI-compatible endpoint — supply a lowercase Provider ID, base URL, API protocol, credential, and at least one model. You can also fetch available models from the endpoint before saving.",
+            "commands": [
+              {
+                "label": "Custom provider YAML (vision model)",
+                "code": "llm-pi-ai:\n  providers:\n    my-gateway:\n      apiKeyEnv: GATEWAY_API_KEY\n      api: openai-completions\n      baseURL: https://gateway.example/v1\n      models:\n        - id: vision-preview\n          input: [text, image]"
+              }
+            ]
+          },
+          {
+            "step": 3,
+            "title": "Choose a workspace",
+            "content": "Click Choose workspace, add the project directory where you started dsh, and select it. A fresh Web UI has no selected workspace until you add one — the session composer remains unavailable until a workspace is selected.",
+            "commands": [
+              {
+                "label": "Note",
+                "code": "A fresh Web UI requires selecting a workspace before the session composer is available."
+              }
+            ]
+          },
+          {
+            "step": 4,
+            "title": "Run a task in a session",
+            "content": "Start a session and send a prompt, for example: \"Summarize this repository and identify its main packages.\" The agent can read and edit workspace files, run commands, delegate work, and maintain a plan. The Web UI asks before operations that require approval under the active permission policy.",
+            "commands": [
+              {
+                "label": "Example prompt",
+                "code": "Summarize this repository and identify its main packages."
+              }
+            ]
+          },
+          {
+            "step": 5,
+            "title": "Go further: CLI modes and the Python SDK",
+            "content": "Beyond the Web UI, dsh offers CLI entry modes — run a single headless session with `dsh --profile headless \"job\"` for a one-shot persisted session. For programmatic use, install the Python SDK (`python -m pip install deepseek-harness-sdk`, Python 3.10+, Linux/macOS), set DEEPSEEK_API_KEY, and drive the harness from your own program.",
+            "commands": [
+              {
+                "label": "Headless CLI",
+                "code": "dsh --profile headless \"Inspect the repository and fix the failing tests.\""
+              },
+              {
+                "label": "Install Python SDK",
+                "code": "python -m venv .venv && . .venv/bin/activate && python -m pip install deepseek-harness-sdk && export DEEPSEEK_API_KEY=sk-..."
+              },
+              {
+                "label": "SDK usage",
+                "code": "from deepseek_harness import DeepSeekHarness\n\nwith DeepSeekHarness(\n    provider=\"deepseek-official\",\n    model=\"deepseek-v4-flash\",\n    max_tokens=49152,\n    cwd=\"/path/to/workspace\",\n    session_root=\"/path/to/sessions\",\n    cordis=\"examples/jsonrpc-agent/minimal.cordis.yml\",\n) as harness:\n    result = harness.run(\n        \"Inspect the repository and fix the failing tests.\",\n        session_id=\"example-001\",\n    )\n\nprint(result.final_response)"
+              }
+            ]
+          }
+        ]
+      },
+      "zh": {
+        "title": "5 步上手 DeepSeek Harness",
+        "steps": [
+          {
+            "step": 1,
+            "title": "安装并启动 Web UI",
+            "content": "安装 Node.js 后，运行 `npx @deepseek-ai/dsh web` 启动 Web UI，默认服务地址为 http://127.0.0.1:3080。dsh 进程会把调用目录作为默认文件系统位置。也可以从源码运行：克隆仓库后依次执行 pnpm install、pnpm run build、pnpm dsh web。",
+            "commands": [
+              {
+                "label": "启动 Web UI",
+                "code": "npx @deepseek-ai/dsh web"
+              },
+              {
+                "label": "从源码运行",
+                "code": "git clone https://github.com/deepseek-ai/deepseek-harness.git && cd deepseek-harness && pnpm install && pnpm run build && pnpm dsh web"
+              }
+            ]
+          },
+          {
+            "step": 2,
+            "title": "配置模型",
+            "content": "打开「设置 → 模型」，输入 DeepSeek API 密钥并保存，模型路由会立即可用，无需重启服务器。要接入其他提供方，选择「添加提供方」并从已安装目录中选取（Anthropic、OpenAI 等）；对于公司网关或自建 OpenAI 兼容端点，选择「添加自定义提供方」——提供小写 Provider ID、基础 URL、API 协议、凭据和至少一个模型。保存前还可以从端点「获取可用模型」。",
+            "commands": [
+              {
+                "label": "自定义提供方 YAML（视觉模型示例）",
+                "code": "llm-pi-ai:\n  providers:\n    my-gateway:\n      apiKeyEnv: GATEWAY_API_KEY\n      api: openai-completions\n      baseURL: https://gateway.example/v1\n      models:\n        - id: vision-preview\n          input: [text, image]"
+              }
+            ]
+          },
+          {
+            "step": 3,
+            "title": "选择工作区",
+            "content": "点击「选择工作区」，添加启动 dsh 时所在的项目目录并选中。新的 Web UI 在添加工作区前不会选中任何工作区——选中工作区前，会话输入框不可用。",
+            "commands": [
+              {
+                "label": "提示",
+                "code": "新的 Web UI 必须选择工作区后，会话输入框才可用。"
+              }
+            ]
+          },
+          {
+            "step": 4,
+            "title": "在会话中运行任务",
+            "content": "启动一个会话并发送提示，例如：「Summarize this repository and identify its main packages.」。Agent 可以读取和编辑工作区文件、运行命令、委派工作并维护计划。当操作在当前权限策略下需要审批时，Web UI 会先询问你。",
+            "commands": [
+              {
+                "label": "示例提示词",
+                "code": "Summarize this repository and identify its main packages."
+              }
+            ]
+          },
+          {
+            "step": 5,
+            "title": "进阶：CLI 模式与 Python SDK",
+            "content": "除了 Web UI，dsh 还提供 CLI 入口模式——使用 `dsh --profile headless \"job\"` 运行一次性持久会话并退出。需要编程调用时，可安装 Python SDK（`python -m pip install deepseek-harness-sdk`，要求 Python 3.10+、Linux/macOS），设置 DEEPSEEK_API_KEY 后即可在自己的程序中驱动 Harness。",
+            "commands": [
+              {
+                "label": "headless CLI",
+                "code": "dsh --profile headless \"Inspect the repository and fix the failing tests.\""
+              },
+              {
+                "label": "安装 Python SDK",
+                "code": "python -m venv .venv && . .venv/bin/activate && python -m pip install deepseek-harness-sdk && export DEEPSEEK_API_KEY=sk-..."
+              },
+              {
+                "label": "SDK 用法",
+                "code": "from deepseek_harness import DeepSeekHarness\n\nwith DeepSeekHarness(\n    provider=\"deepseek-official\",\n    model=\"deepseek-v4-flash\",\n    max_tokens=49152,\n    cwd=\"/path/to/workspace\",\n    session_root=\"/path/to/sessions\",\n    cordis=\"examples/jsonrpc-agent/minimal.cordis.yml\",\n) as harness:\n    result = harness.run(\n        \"Inspect the repository and fix the failing tests.\",\n        session_id=\"example-001\",\n    )\n\nprint(result.final_response)"
+              }
+            ]
+          }
+        ]
+      },
+      "ja": {
+        "title": "DeepSeek Harness を5ステップで始める",
+        "steps": [
+          {
+            "step": 1,
+            "title": "Web UI のインストールと起動",
+            "content": "Node.js をインストールし、`npx @deepseek-ai/dsh web` を実行して Web UI を起動します。デフォルトでは http://127.0.0.1:3080 で提供されます。dsh プロセスは呼び出し元ディレクトリをデフォルトのファイルシステム位置として使用します。ソースから実行するには、リポジトリをクローンし、pnpm install、pnpm run build、pnpm dsh web を実行します。",
+            "commands": [
+              {
+                "label": "Web UI を起動",
+                "code": "npx @deepseek-ai/dsh web"
+              },
+              {
+                "label": "ソースから実行",
+                "code": "git clone https://github.com/deepseek-ai/deepseek-harness.git && cd deepseek-harness && pnpm install && pnpm run build && pnpm dsh web"
+              }
+            ]
+          },
+          {
+            "step": 2,
+            "title": "モデルを設定する",
+            "content": "「設定 → モデル」を開き、DeepSeek API キーを入力して保存します。モデルルートはサーバー再起動なしで即座に利用可能になります。他のプロバイダーを追加するには「プロバイダーを追加」を選択してカタログから選ぶか（Anthropic、OpenAI など）、企業ゲートウェイやセルフホストの OpenAI 互換エンドポイントには「カスタムプロバイダーを追加」を選択します——小文字の Provider ID、ベース URL、API プロトコル、資格情報、少なくとも1つのモデルを指定します。保存前にエンドポイントから利用可能なモデルを取得することもできます。",
+            "commands": [
+              {
+                "label": "カスタムプロバイダー YAML（ビジョンモデル）",
+                "code": "llm-pi-ai:\n  providers:\n    my-gateway:\n      apiKeyEnv: GATEWAY_API_KEY\n      api: openai-completions\n      baseURL: https://gateway.example/v1\n      models:\n        - id: vision-preview\n          input: [text, image]"
+              }
+            ]
+          },
+          {
+            "step": 3,
+            "title": "ワークスペースを選択する",
+            "content": "「ワークスペースを選択」をクリックし、dsh を起動したプロジェクトディレクトリを追加して選択します。新しい Web UI ではワークスペースを追加するまで何も選択されていません——ワークスペースが選択されるまでセッションコンポーザーは利用できません。",
+            "commands": [
+              {
+                "label": "注意",
+                "code": "新しい Web UI ではワークスペース選択後にセッションコンポーザーが利用可能になります。"
+              }
+            ]
+          },
+          {
+            "step": 4,
+            "title": "セッションでタスクを実行する",
+            "content": "セッションを開始し、プロンプトを送信します。例：「Summarize this repository and identify its main packages.」。エージェントはワークスペース内のファイルの読み書き、コマンド実行、作業委任、プラン管理ができます。現在の権限ポリシーで承認が必要な操作は、Web UI が事前に確認します。",
+            "commands": [
+              {
+                "label": "プロンプト例",
+                "code": "Summarize this repository and identify its main packages."
+              }
+            ]
+          },
+          {
+            "step": 5,
+            "title": "さらに進む：CLI モードと Python SDK",
+            "content": "Web UI に加えて、dsh は CLI エントリモードを提供します——`dsh --profile headless \"job\"` で一度きりの永続セッションを実行して終了できます。プログラムから利用するには Python SDK（`python -m pip install deepseek-harness-sdk`、Python 3.10+、Linux/macOS が必要）をインストールし、DEEPSEEK_API_KEY を設定して自分のプログラムから Harness を駆動します。",
+            "commands": [
+              {
+                "label": "headless CLI",
+                "code": "dsh --profile headless \"Inspect the repository and fix the failing tests.\""
+              },
+              {
+                "label": "Python SDK をインストール",
+                "code": "python -m venv .venv && . .venv/bin/activate && python -m pip install deepseek-harness-sdk && export DEEPSEEK_API_KEY=sk-..."
+              },
+              {
+                "label": "SDK の使い方",
+                "code": "from deepseek_harness import DeepSeekHarness\n\nwith DeepSeekHarness(\n    provider=\"deepseek-official\",\n    model=\"deepseek-v4-flash\",\n    max_tokens=49152,\n    cwd=\"/path/to/workspace\",\n    session_root=\"/path/to/sessions\",\n    cordis=\"examples/jsonrpc-agent/minimal.cordis.yml\",\n) as harness:\n    result = harness.run(\n        \"Inspect the repository and fix the failing tests.\",\n        session_id=\"example-001\",\n    )\n\nprint(result.final_response)"
+              }
+            ]
+          }
+        ]
+      },
+      "es": {
+        "title": "Empieza con DeepSeek Harness en 5 Pasos",
+        "steps": [
+          {
+            "step": 1,
+            "title": "Instala y lanza la interfaz web",
+            "content": "Instala Node.js y ejecuta `npx @deepseek-ai/dsh web` para iniciar la interfaz web, servida en http://127.0.0.1:3080 por defecto. El proceso dsh usa su directorio de invocación como ubicación predeterminada del sistema de archivos. Para ejecutar desde el código fuente, clona el repositorio y ejecuta pnpm install, pnpm run build y pnpm dsh web.",
+            "commands": [
+              {
+                "label": "Iniciar interfaz web",
+                "code": "npx @deepseek-ai/dsh web"
+              },
+              {
+                "label": "Ejecutar desde el código fuente",
+                "code": "git clone https://github.com/deepseek-ai/deepseek-harness.git && cd deepseek-harness && pnpm install && pnpm run build && pnpm dsh web"
+              }
+            ]
+          },
+          {
+            "step": 2,
+            "title": "Configura un modelo",
+            "content": "Abre Configuración → Modelos, introduce una clave de API de DeepSeek y guárdala. La ruta del modelo queda disponible de inmediato sin reiniciar el servidor. Para añadir otros proveedores, elige \"Añadir proveedor\" y selecciona uno del catálogo instalado (Anthropic, OpenAI, etc.), o elige \"Añadir un proveedor personalizado\" para una pasarela corporativa o un endpoint compatible con OpenAI autohospedado — proporciona un Provider ID en minúsculas, URL base, protocolo de API, credencial y al menos un modelo. También puedes obtener los modelos disponibles del endpoint antes de guardar.",
+            "commands": [
+              {
+                "label": "YAML de proveedor personalizado (modelo de visión)",
+                "code": "llm-pi-ai:\n  providers:\n    my-gateway:\n      apiKeyEnv: GATEWAY_API_KEY\n      api: openai-completions\n      baseURL: https://gateway.example/v1\n      models:\n        - id: vision-preview\n          input: [text, image]"
+              }
+            ]
+          },
+          {
+            "step": 3,
+            "title": "Elige un espacio de trabajo",
+            "content": "Haz clic en \"Elegir espacio de trabajo\", añade el directorio del proyecto donde iniciaste dsh y selecciónalo. Una interfaz web nueva no tiene ningún espacio de trabajo seleccionado hasta que añadas uno — el compositor de sesiones permanece no disponible hasta que se selecciona un espacio de trabajo.",
+            "commands": [
+              {
+                "label": "Nota",
+                "code": "Una interfaz web nueva requiere seleccionar un espacio de trabajo antes de que el compositor de sesiones esté disponible."
+              }
+            ]
+          },
+          {
+            "step": 4,
+            "title": "Ejecuta una tarea en una sesión",
+            "content": "Inicia una sesión y envía un prompt, por ejemplo: \"Summarize this repository and identify its main packages.\" El agente puede leer y editar archivos del espacio de trabajo, ejecutar comandos, delegar trabajo y mantener un plan. La interfaz web pregunta antes de operaciones que requieren aprobación según la política de permisos activa.",
+            "commands": [
+              {
+                "label": "Prompt de ejemplo",
+                "code": "Summarize this repository and identify its main packages."
+              }
+            ]
+          },
+          {
+            "step": 5,
+            "title": "Ve más lejos: modos CLI y el SDK de Python",
+            "content": "Además de la interfaz web, dsh ofrece modos de entrada CLI — ejecuta una sesión persistente única con `dsh --profile headless \"job\"` para una sesión de un solo uso que imprime la respuesta y termina. Para uso programático, instala el SDK de Python (`python -m pip install deepseek-harness-sdk`, Python 3.10+, Linux/macOS), configura DEEPSEEK_API_KEY y controla el harness desde tu propio programa.",
+            "commands": [
+              {
+                "label": "CLI headless",
+                "code": "dsh --profile headless \"Inspect the repository and fix the failing tests.\""
+              },
+              {
+                "label": "Instalar SDK de Python",
+                "code": "python -m venv .venv && . .venv/bin/activate && python -m pip install deepseek-harness-sdk && export DEEPSEEK_API_KEY=sk-..."
+              },
+              {
+                "label": "Uso del SDK",
+                "code": "from deepseek_harness import DeepSeekHarness\n\nwith DeepSeekHarness(\n    provider=\"deepseek-official\",\n    model=\"deepseek-v4-flash\",\n    max_tokens=49152,\n    cwd=\"/path/to/workspace\",\n    session_root=\"/path/to/sessions\",\n    cordis=\"examples/jsonrpc-agent/minimal.cordis.yml\",\n) as harness:\n    result = harness.run(\n        \"Inspect the repository and fix the failing tests.\",\n        session_id=\"example-001\",\n    )\n\nprint(result.final_response)"
+              }
+            ]
+          }
+        ]
+      },
+      "fr": {
+        "title": "Démarrez avec DeepSeek Harness en 5 étapes",
+        "steps": [
+          {
+            "step": 1,
+            "title": "Installez et lancez l'interface web",
+            "content": "Installez Node.js, puis exécutez `npx @deepseek-ai/dsh web` pour démarrer l'interface web, servie sur http://127.0.0.1:3080 par défaut. Le processus dsh utilise son répertoire d'invocation comme emplacement système de fichiers par défaut. Pour exécuter depuis les sources, clonez le dépôt, puis exécutez pnpm install, pnpm run build et pnpm dsh web.",
+            "commands": [
+              {
+                "label": "Démarrer l'interface web",
+                "code": "npx @deepseek-ai/dsh web"
+              },
+              {
+                "label": "Exécuter depuis les sources",
+                "code": "git clone https://github.com/deepseek-ai/deepseek-harness.git && cd deepseek-harness && pnpm install && pnpm run build && pnpm dsh web"
+              }
+            ]
+          },
+          {
+            "step": 2,
+            "title": "Configurez un modèle",
+            "content": "Ouvrez Paramètres → Modèles, saisissez une clé API DeepSeek et enregistrez-la. La route du modèle devient utilisable immédiatement sans redémarrer le serveur. Pour ajouter d'autres fournisseurs, choisissez « Ajouter un fournisseur » et sélectionnez-en un dans le catalogue installé (Anthropic, OpenAI, etc.), ou choisissez « Ajouter un fournisseur personnalisé » pour une passerelle d'entreprise ou un endpoint compatible OpenAI auto-hébergé — fournissez un Provider ID en minuscules, une URL de base, un protocole API, une information d'identification et au moins un modèle. Vous pouvez aussi récupérer les modèles disponibles de l'endpoint avant d'enregistrer.",
+            "commands": [
+              {
+                "label": "YAML de fournisseur personnalisé (modèle de vision)",
+                "code": "llm-pi-ai:\n  providers:\n    my-gateway:\n      apiKeyEnv: GATEWAY_API_KEY\n      api: openai-completions\n      baseURL: https://gateway.example/v1\n      models:\n        - id: vision-preview\n          input: [text, image]"
+              }
+            ]
+          },
+          {
+            "step": 3,
+            "title": "Choisissez un espace de travail",
+            "content": "Cliquez sur « Choisir l'espace de travail », ajoutez le répertoire du projet où vous avez lancé dsh et sélectionnez-le. Une interface web fraîche n'a aucun espace de travail sélectionné tant que vous n'en ajoutez pas un — le composeur de session reste indisponible jusqu'à la sélection d'un espace de travail.",
+            "commands": [
+              {
+                "label": "Remarque",
+                "code": "Une interface web fraîche exige de sélectionner un espace de travail avant que le composeur de session soit disponible."
+              }
+            ]
+          },
+          {
+            "step": 4,
+            "title": "Exécutez une tâche dans une session",
+            "content": "Démarrez une session et envoyez un prompt, par exemple : « Summarize this repository and identify its main packages. » L'agent peut lire et modifier les fichiers de l'espace de travail, exécuter des commandes, déléguer du travail et maintenir un plan. L'interface web demande confirmation avant les opérations qui exigent une approbation selon la politique de permissions active.",
+            "commands": [
+              {
+                "label": "Exemple de prompt",
+                "code": "Summarize this repository and identify its main packages."
+              }
+            ]
+          },
+          {
+            "step": 5,
+            "title": "Allez plus loin : modes CLI et SDK Python",
+            "content": "Outre l'interface web, dsh propose des modes d'entrée CLI — exécutez une session persistante unique avec `dsh --profile headless \"job\"` pour une session à usage unique qui imprime la réponse finale puis se termine. Pour une utilisation programmatique, installez le SDK Python (`python -m pip install deepseek-harness-sdk`, Python 3.10+, Linux/macOS), définissez DEEPSEEK_API_KEY, puis pilotez le harness depuis votre propre programme.",
+            "commands": [
+              {
+                "label": "CLI headless",
+                "code": "dsh --profile headless \"Inspect the repository and fix the failing tests.\""
+              },
+              {
+                "label": "Installer le SDK Python",
+                "code": "python -m venv .venv && . .venv/bin/activate && python -m pip install deepseek-harness-sdk && export DEEPSEEK_API_KEY=sk-..."
+              },
+              {
+                "label": "Utilisation du SDK",
+                "code": "from deepseek_harness import DeepSeekHarness\n\nwith DeepSeekHarness(\n    provider=\"deepseek-official\",\n    model=\"deepseek-v4-flash\",\n    max_tokens=49152,\n    cwd=\"/path/to/workspace\",\n    session_root=\"/path/to/sessions\",\n    cordis=\"examples/jsonrpc-agent/minimal.cordis.yml\",\n) as harness:\n    result = harness.run(\n        \"Inspect the repository and fix the failing tests.\",\n        session_id=\"example-001\",\n    )\n\nprint(result.final_response)"
+              }
+            ]
+          }
+        ]
+      }
     }
   }
 }
