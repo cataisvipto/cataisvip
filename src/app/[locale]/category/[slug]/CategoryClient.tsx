@@ -219,12 +219,9 @@ export default function CategoryClient({ category, slug, tools: categoryTools, l
                                                   <div className="flex-1 min-w-0">
                                                     <div className="flex items-center gap-2 mb-1 group/header">
                                                       <h3 className="font-semibold text-[var(--foreground)] truncate group-hover/header:text-[var(--primary)] transition">
-                                        {displayName}
-                                      </h3>
-                                      {tool.featured && (
-                                        <Star className="w-4 h-4 text-amber-500 fill-current shrink-0" />
-                                      )}
-                                    </div>
+                                                                                              {displayName}
+                                                                                            </h3>
+                                                                                          </div>
                                     <p className="text-sm text-[var(--muted)] line-clamp-2 mb-3 hover:text-[var(--foreground)] transition">{description}</p>
                                     <div className="flex flex-wrap gap-x-2 gap-y-1">
                                       {tool.tags.map((tag) => (

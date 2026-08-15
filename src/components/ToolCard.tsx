@@ -61,10 +61,9 @@ export const getLocalizedDescription = (tool: Tool, locale: string) => {
 interface ToolCardProps {
   tool: Tool;
   locale: string;
-  hideFeaturedBadge?: boolean;
 }
 
-export default function ToolCard({ tool, locale, hideFeaturedBadge }: ToolCardProps) {
+export default function ToolCard({ tool, locale }: ToolCardProps) {
   const tTags = useTranslations('tags');
   const tCategories = useTranslations('categories');
   const description = getLocalizedDescription(tool, locale);
@@ -72,15 +71,8 @@ export default function ToolCard({ tool, locale, hideFeaturedBadge }: ToolCardPr
 
   return (
     <article className="group relative bg-[var(--card-bg)] rounded-xl shadow-[var(--card-shadow)] hover:shadow-[var(--card-shadow-hover)] hover:-translate-y-0.5 transition-all duration-300 p-5 flex flex-col">
-      {/* Featured badge */}
-      {tool.featured && !hideFeaturedBadge && (
-        <div className="absolute -top-1.5 -right-1.5 w-6 h-6 bg-[var(--primary)] rounded-full flex items-center justify-center shadow-sm z-10">
-          <Star className="w-3 h-3 text-white fill-white" />
-        </div>
-      )}
-
       {/* Header */}
-      <Link href={`/tool/${tool.slug}`} className="flex items-start gap-3 mb-3 group/header">
+            <Link href={`/tool/${tool.slug}`} className="flex items-start gap-3 mb-3 group/header">
         <LogoTile
           logo={tool.logo}
           logoDark={tool.logoDark}

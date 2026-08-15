@@ -177,13 +177,7 @@ export default function SkillDetailClient({ skill, locale, details, relatedTutor
                 <div className="flex-1 min-w-0">
                   <div className="flex items-center gap-3 mb-2">
                     <h1 className="text-3xl font-bold text-[var(--foreground)]">{displayName}</h1>
-                    {skill.featured && (
-                      <div className="flex items-center gap-1 px-2 py-0.5 bg-amber-50 dark:bg-amber-900/30 text-amber-600 dark:text-amber-400 rounded-full text-xs font-medium">
-                        <Star className="w-3 h-3 fill-current" />
-                        {t('featured')}
-                      </div>
-                    )}
-                  </div>
+                                      </div>
                   <div className="flex items-center gap-2 text-[var(--muted)] mb-3">
                     <Code2 className="w-4 h-4" />
                     <span className="text-sm">{tSkills(`categories.${skill.category}`)}</span>

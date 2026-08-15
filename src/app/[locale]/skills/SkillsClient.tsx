@@ -173,13 +173,6 @@ export default function SkillsClient({ skills, locale }: SkillsClientProps) {
               href={`/skills/${skill.slug}`}
               className="group relative bg-[var(--card-bg)] rounded-xl shadow-[var(--card-shadow)] hover:shadow-[var(--card-shadow-hover)] hover:-translate-y-0.5 transition-all duration-300 p-5 flex flex-col"
             >
-              {/* Featured badge */}
-              {skill.featured && (
-                <div className="absolute -top-2 -right-2 w-7 h-7 bg-gradient-to-br from-amber-400 to-orange-500 rounded-full flex items-center justify-center shadow-sm">
-                  <Star className="w-3.5 h-3.5 text-white fill-white" />
-                </div>
-              )}
-
               {/* Header */}
               <div className="flex items-start gap-3 mb-3 group/header">
                               <div className="w-12 h-12 rounded-xl bg-[var(--logo-tile-bg)] flex items-center justify-center overflow-hidden shrink-0 shadow-sm">
