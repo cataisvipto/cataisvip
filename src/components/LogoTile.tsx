@@ -16,6 +16,8 @@ interface LogoTileProps {
   imgPx?: number;
   /** 兜底首字母的字号类 */
   fallbackClassName?: string;
+  /** 当 logo 是带透明背景的图时，去掉容器白底（对鲸鱼等透明 logo 可用） */
+  transparent?: boolean;
 }
 
 /**
@@ -31,6 +33,7 @@ export default function LogoTile({
   className = 'w-12 h-12 rounded-xl',
   imgPx = 40,
   fallbackClassName = 'text-lg',
+  transparent,
 }: LogoTileProps) {
   const [error, setError] = useState(false);
   const [mounted, setMounted] = useState(false);
@@ -55,7 +58,7 @@ export default function LogoTile({
 
   return (
     <div
-      className={`${className} bg-[var(--logo-tile-bg)] border border-[var(--muted-border)] flex items-center justify-center overflow-hidden shrink-0 shadow-sm`}
+      className={`${className} ${transparent ? '' : 'bg-[var(--logo-tile-bg)] border border-[var(--muted-border)]'} flex items-center justify-center overflow-hidden shrink-0 shadow-sm`}
     >
       {error ? (
         <span className={`${fallbackClassName} font-bold text-[var(--primary)] select-none`}>

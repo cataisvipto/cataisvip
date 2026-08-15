@@ -100,6 +100,7 @@ export default function TutorialDetailClient({
                               alt={title}
                               className="w-14 h-14 rounded-2xl shrink-0"
                               imgPx={48}
+                              transparent={tutorial.slug === 'deepseek-harness-getting-started'}
                             />
                           )}
                           <h1 className="text-3xl md:text-4xl font-bold text-[var(--foreground)]">{title}</h1>
