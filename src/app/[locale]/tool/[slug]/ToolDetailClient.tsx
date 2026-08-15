@@ -284,7 +284,8 @@ export default function ToolDetailClient({ tool, locale, details: detailsProp, s
                         (details.verdict as any).badge === 'Recommended' ? 'bg-blue-100 text-blue-700 dark:bg-blue-900/30 dark:text-blue-400' :
                         (details.verdict as any).badge === 'Worth Trying' ? 'bg-amber-100 text-amber-700 dark:bg-amber-900/30 dark:text-amber-400' :
                         (details.verdict as any).badge === 'For Specific Needs' ? 'bg-purple-100 text-purple-700 dark:bg-purple-900/30 dark:text-purple-400' :
-                        'bg-gray-100 text-gray-700 dark:bg-gray-800 dark:text-gray-400'
+                                                (details.verdict as any).badge === 'Game-Changing' ? 'bg-rose-100 text-rose-700 dark:bg-rose-900/30 dark:text-rose-400' :
+                                                'bg-gray-100 text-gray-700 dark:bg-gray-800 dark:text-gray-400'
                       }`}>
                         {t(`verdict${(details.verdict as any).badge.replace(/\s+/g, '')}` as any)}
                       </span>

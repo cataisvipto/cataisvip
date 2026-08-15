@@ -5646,5 +5646,36 @@
       "browser_extension": false,
       "api": true
     }
+  },
+  {
+    "slug": "deepseek-harness",
+    "homeFeatured": false,
+    "name": "DeepSeek Harness",
+    "nameZh": "DeepSeek Harness",
+    "description": "深度求索推出的开源 Agent 开发平台，基于 Cordis 插件系统构建，一切皆插件——模型、工具、技能、会话、沙箱、存储、调度、UI 均可自由替换与组合",
+    "descriptionEn": "Open-source agent harness by DeepSeek built on the Cordis plugin system. Everything is a plugin — models, tools, skills, sessions, sandboxes, storage, scheduling, and UI are all composable and replaceable",
+    "descriptionJa": "DeepSeek が開発したオープンソースのエージェントハーネス。Cordis プラグインシステムを基盤とし、モデル、ツール、スキル、セッション、サンドボックス、ストレージ、スケジューリング、UI のすべてがプラグインとして構成・交換可能",
+    "descriptionEs": "Harness de agente de código abierto desarrollado por DeepSeek basado en el sistema de plugins Cordis. Todo es un plugin: modelos, herramientas, habilidades, sesiones, sandboxes, almacenamiento, programación y UI son todos componibles y reemplazables",
+    "descriptionFr": "Harness d'agent open-source développé par DeepSeek basé sur le système de plugins Cordis. Tout est un plugin — modèles, outils, compétences, sessions, sandboxes, stockage, ordonnancement et UI sont tous composables et remplaçables",
+    "url": "https://deepseek.com/harness",
+    "logo": "/logos/tools/deepseek-harness.png",
+    "category": "Agent",
+    "tags": [
+      "Free",
+      "Open Source"
+    ],
+    "featured": false,
+    "developer": "DeepSeek",
+    "developerZh": "深度求索",
+    "platforms": {
+      "web": true,
+      "windows": true,
+      "macos": true,
+      "linux": true,
+      "ios": false,
+      "android": false,
+      "browser_extension": false,
+      "api": false
+    }
   }
 ]

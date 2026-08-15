@@ -47984,5 +47984,283 @@
       "pricingVerified": "2026-08-12",
       "pricingUrl": "https://polar.sh"
     }
+  },
+  "deepseek-harness": {
+    "features": {
+      "en": [
+        "Cordis plugin architecture — everything is a plugin",
+        "Multiple agent modes: Standard, PTC (Code), Minimal, Creative",
+        "Trajectory view for full session replay and debugging",
+        "Plugin ecosystem with model, tool, skill, sandbox, storage, scheduling, and UI plugins",
+        "Web UI served at localhost:3080 by default",
+        "Session logging with append-only event stream for recovery, forking, and replay",
+        "Open source under MIT license"
+      ],
+      "zh": [
+        "Cordis 插件架构——一切皆插件",
+        "多种 Agent 模式：标准模式、PTC（代码）模式、极简模式、创造模式",
+        "Trajectory 视图，完整回放和调试运行过程",
+        "插件生态覆盖模型、工具、技能、沙箱、存储、调度、UI 等全部能力",
+        "Web UI 默认运行在 localhost:3080",
+        "仅追加的会话日志，支持恢复、分叉、检索与回放",
+        "MIT 开源许可证"
+      ],
+      "ja": [
+        "Cordis プラグインアーキテクチャ — すべてがプラグイン",
+        "複数のエージェントモード：標準、PTC（コード）、ミニマル、クリエイティブ",
+        "Trajectory ビューによる完全なセッションリプレイとデバッグ",
+        "モデル、ツール、スキル、サンドボックス、ストレージ、スケジューリング、UI をカバーするプラグインエコシステム",
+        "デフォルトで localhost:3080 で提供される Web UI",
+        "追記専用のイベントストリームによるセッションログ、復元、フォーク、リプレイに対応",
+        "MIT ライセンスのオープンソース"
+      ],
+      "es": [
+        "Arquitectura de plugins Cordis — todo es un plugin",
+        "Múltiples modos de agente: Estándar, PTC (Código), Mínimo, Creativo",
+        "Vista Trajectory para reproducción y depuración completa de sesiones",
+        "Ecosistema de plugins que cubre modelos, herramientas, habilidades, sandboxes, almacenamiento, programación y UI",
+        "Interfaz web servida en localhost:3080 por defecto",
+        "Registro de sesiones con flujo de eventos de solo añadido para recuperación, bifurcación y reproducción",
+        "Código abierto bajo licencia MIT"
+      ],
+      "fr": [
+        "Architecture de plugins Cordis — tout est un plugin",
+        "Plusieurs modes d'agent : Standard, PTC (Code), Minimal, Créatif",
+        "Vue Trajectory pour la relecture et le débogage complets des sessions",
+        "Écosystème de plugins couvrant modèles, outils, compétences, sandboxes, stockage, ordonnancement et UI",
+        "Interface web servie sur localhost:3080 par défaut",
+        "Journalisation des sessions avec flux d'événements append-only pour la récupération, le fork et la relecture",
+        "Open source sous licence MIT"
+      ]
+    },
+    "pricing": {
+      "free": {
+        "en": "Free and open source (MIT)",
+        "zh": "免费开源（MIT）",
+        "ja": "無料でオープンソース（MIT）",
+        "es": "Gratuito y de código abierto (MIT)",
+        "fr": "Gratuit et open source (MIT)"
+      },
+      "paid": {
+        "en": "N/A — fully open source",
+        "zh": "不适用——完全开源",
+        "ja": "該当なし — 完全にオープンソース",
+        "es": "N/A — completamente open source",
+        "fr": "N/A — entièrement open source"
+      },
+      "freemium": {
+        "en": "N/A",
+        "zh": "不适用",
+        "ja": "該当なし",
+        "es": "N/A",
+        "fr": "N/A"
+      }
+    },
+    "useCases": {
+      "en": [
+        "Building and deploying custom AI agents with a modular plugin architecture",
+        "Developing and testing new agent capabilities as Cordis plugins",
+        "Running coding agents in multiple modes (Standard, PTC, Minimal, Creative)",
+        "Debugging agent behavior through Trajectory session replay",
+        "Creating custom agent presets and configurations"
+      ],
+      "zh": [
+        "使用模块化插件架构构建和部署自定义 AI Agent",
+        "以 Cordis 插件形式开发和测试新的 Agent 能力",
+        "在多种模式（标准、PTC、极简、创造）下运行编码 Agent",
+        "通过 Trajectory 会话回放调试 Agent 行为",
+        "创建自定义 Agent 预设和配置"
+      ],
+      "ja": [
+        "モジュラープラグインアーキテクチャを使用したカスタム AI エージェントの構築とデプロイ",
+        "Cordis プラグインとしての新しいエージェント機能の開発とテスト",
+        "複数モード（標準、PTC、ミニマル、クリエイティブ）でのコーディングエージェントの実行",
+        "Trajectory セッションリプレイによるエージェント動作のデバッグ",
+        "カスタムエージェントプリセットと設定の作成"
+      ],
+      "es": [
+        "Construir y desplegar agentes de IA personalizados con una arquitectura modular de plugins",
+        "Desarrollar y probar nuevas capacidades de agente como plugins de Cordis",
+        "Ejecutar agentes de codificación en múltiples modos (Estándar, PTC, Mínimo, Creativo)",
+        "Depurar el comportamiento del agente mediante la reproducción de sesiones Trajectory",
+        "Crear presets y configuraciones de agente personalizados"
+      ],
+      "fr": [
+        "Construire et déployer des agents IA personnalisés avec une architecture modulaire de plugins",
+        "Développer et tester de nouvelles capacités d'agent en tant que plugins Cordis",
+        "Exécuter des agents de codage dans plusieurs modes (Standard, PTC, Minimal, Créatif)",
+        "Déboguer le comportement des agents via la relecture de sessions Trajectory",
+        "Créer des presets et configurations d'agent personnalisés"
+      ]
+    },
+    "pros": {
+      "en": [
+        "Truly modular architecture — every capability is a plugin, enabling unlimited customization",
+        "Built on Cordis, a well-designed plugin system with academic foundations",
+        "Multiple agent modes cater to different use cases from full-featured to minimal",
+        "Trajectory view provides excellent debugging and observability",
+        "MIT licensed — fully open source with no restrictions",
+        "Backed by DeepSeek, a leading AI research company"
+      ],
+      "zh": [
+        "真正的模块化架构——每个能力都是插件，支持无限定制",
+        "基于 Cordis 构建，具有学术论文支撑的插件系统设计",
+        "多种 Agent 模式满足从全功能到极简的不同使用场景",
+        "Trajectory 视图提供出色的调试和可观测性",
+        "MIT 许可证——完全开源，无任何限制",
+        "由领先的 AI 研究公司深度求索背书"
+      ],
+      "ja": [
+        "真のモジュラーアーキテクチャ — すべての機能がプラグインで、無限のカスタマイズが可能",
+        "学術的な基盤を持つ Cordis プラグインシステム上に構築",
+        "複数のエージェントモードがフル機能からミニマルまで様々なユースケースに対応",
+        "Trajectory ビューが優れたデバッグと可観測性を提供",
+        "MIT ライセンス — 完全にオープンソースで制限なし",
+        "大手 AI 研究企業である DeepSeek がバックアップ"
+      ],
+      "es": [
+        "Arquitectura verdaderamente modular — cada capacidad es un plugin, permitiendo personalización ilimitada",
+        "Construido sobre Cordis, un sistema de plugins bien diseñado con fundamentos académicos",
+        "Múltiples modos de agente que se adaptan a diferentes casos de uso, desde completos hasta mínimos",
+        "La vista Trajectory proporciona excelente depuración y observabilidad",
+        "Con licencia MIT — completamente open source sin restricciones",
+        "Respaldado por DeepSeek, una empresa líder en investigación de IA"
+      ],
+      "fr": [
+        "Architecture véritablement modulaire — chaque capacité est un plugin, permettant une personnalisation illimitée",
+        "Construit sur Cordis, un système de plugins bien conçu avec des fondements académiques",
+        "Plusieurs modes d'agent répondant à différents cas d'utilisation, du complet au minimal",
+        "La vue Trajectory offre un excellent débogage et une observabilité",
+        "Sous licence MIT — entièrement open source sans restrictions",
+        "Soutenu par DeepSeek, une entreprise leader en recherche IA"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Developer preview — rapid iteration with breaking changes expected",
+        "Very new project (August 2026) — ecosystem and documentation are still maturing",
+        "Requires Node.js runtime — not a standalone binary",
+        "Web UI is local-only by default, no built-in cloud deployment",
+        "Plugin ecosystem is nascent — limited third-party plugins available"
+      ],
+      "zh": [
+        "开发者预览版——快速迭代中，存在破坏性变更",
+        "项目非常新（2026年8月）——生态和文档仍在完善中",
+        "需要 Node.js 运行环境——非独立二进制程序",
+        "Web UI 默认为本地运行，无内置云部署方案",
+        "插件生态尚处早期——第三方插件有限"
+      ],
+      "ja": [
+        "開発者プレビュー — 急速なイテレーション中で互換性を破壊する変更あり",
+        "非常に新しいプロジェクト（2026年8月）— エコシステムとドキュメントは発展途上",
+        "Node.js ランタイムが必要 — スタンドアロンバイナリではない",
+        "Web UI はデフォルトでローカルのみ、組み込みのクラウドデプロイメントはなし",
+        "プラグインエコシステムは初期段階 — サードパーティプラグインは限定的"
+      ],
+      "es": [
+        "Vista previa para desarrolladores — iteración rápida con cambios que rompen la compatibilidad",
+        "Proyecto muy nuevo (agosto 2026) — el ecosistema y la documentación aún están madurando",
+        "Requiere Node.js — no es un binario independiente",
+        "La interfaz web es solo local por defecto, sin implementación en la nube integrada",
+        "El ecosistema de plugins es incipiente — pocos plugins de terceros disponibles"
+      ],
+      "fr": [
+        "Aperçu développeur — itération rapide avec des changements de rupture attendus",
+        "Projet très récent (août 2026) — l'écosystème et la documentation sont encore en maturation",
+        "Nécessite l'environnement d'exécution Node.js — pas un binaire autonome",
+        "L'interface web est locale seulement par défaut, sans déploiement cloud intégré",
+        "L'écosystème de plugins est naissant — plugins tiers limités"
+      ]
+    },
+    "latestUpdate": {
+      "en": "2026-08-13 (Developer Preview)",
+      "zh": "2026-08-13（开发者预览版）",
+      "ja": "2026-08-13（開発者プレビュー）",
+      "es": "2026-08-13 (Vista previa para desarrolladores)",
+      "fr": "2026-08-13 (Aperçu développeur)"
+    },
+    "summary": {
+      "en": "DeepSeek Harness is an open-source agent platform built on the Cordis plugin system. Its \"everything is a plugin\" architecture allows developers to compose, replace, and extend every aspect of an AI agent — models, tools, skills, sessions, sandboxes, storage, scheduling, and UI — through configuration rather than code changes.",
+      "zh": "DeepSeek Harness 是一个基于 Cordis 插件系统的开源 Agent 平台。其\"一切皆插件\"架构让开发者可以通过配置而非代码修改，自由组合、替换和扩展 AI Agent 的每一个方面——模型、工具、技能、会话、沙箱、存储、调度和 UI。",
+      "ja": "DeepSeek Harness は、Cordis プラグインシステム上に構築されたオープンソースのエージェントプラットフォームです。「すべてがプラグイン」というアーキテクチャにより、開発者はコード変更ではなく設定を通じて、モデル、ツール、スキル、セッション、サンドボックス、ストレージ、スケジューリング、UI など AI エージェントのあらゆる側面を構成、置換、拡張できます。",
+      "es": "DeepSeek Harness es una plataforma de agentes de código abierto construida sobre el sistema de plugins Cordis. Su arquitectura de \"todo es un plugin\" permite a los desarrolladores componer, reemplazar y extender cada aspecto de un agente de IA — modelos, herramientas, habilidades, sesiones, sandboxes, almacenamiento, programación y UI — a través de la configuración en lugar de cambios de código.",
+      "fr": "DeepSeek Harness est une plateforme d'agent open-source construite sur le système de plugins Cordis. Son architecture « tout est un plugin » permet aux développeurs de composer, remplacer et étendre chaque aspect d'un agent IA — modèles, outils, compétences, sessions, sandboxes, stockage, ordonnancement et UI — via la configuration plutôt que des modifications de code."
+    },
+    "alternatives": [
+      "autogpt",
+      "dify"
+    ],
+    "verdict": {
+      "badge": "Game-Changing",
+      "headline": {
+        "en": "Redefining agent architecture with a truly modular plugin system",
+        "zh": "以真正模块化的插件系统重新定义 Agent 架构",
+        "ja": "真にモジュール化されたプラグインシステムでエージェントアーキテクチャを再定義",
+        "es": "Redefiniendo la arquitectura de agentes con un sistema de plugins verdaderamente modular",
+        "fr": "Redéfinir l'architecture des agents avec un système de plugins véritablement modulaire"
+      },
+      "body": {
+        "en": "DeepSeek Harness brings a paradigm shift to agent development by building everything on Cordis's plugin architecture. Every capability — from the model backend to the UI — is a swappable plugin, making it the most modular agent platform available. While still in developer preview with a nascent plugin ecosystem, its architectural elegance and backing by DeepSeek position it as a potential game-changer in the agent development space. The trajectory view, multiple agent modes, and session replay capabilities already provide a solid foundation for both development and production use.",
+        "zh": "DeepSeek Harness 将一切建立在 Cordis 插件架构之上，带来了 Agent 开发的范式转变。从模型后端到 UI，每一个能力都是可替换的插件，使其成为目前最模块化的 Agent 平台。虽然仍处于开发者预览版阶段，插件生态尚在早期，但其架构优雅性和深度求索的背书使其有潜力成为 Agent 开发领域的变革者。Trajectory 视图、多种 Agent 模式和会话回放能力已经为开发和生产使用提供了坚实基础。",
+        "ja": "DeepSeek Harness は、Cordis のプラグインアーキテクチャ上にすべてを構築することで、エージェント開発にパラダイムシフトをもたらします。モデルバックエンドから UI まですべての機能が交換可能なプラグインであり、現在最もモジュール化されたエージェントプラットフォームです。開発者プレビュー段階でプラグインエコシステムは初期段階ですが、そのアーキテクチャの優雅さと DeepSeek のバックアップにより、エージェント開発分野でゲームチェンジャーとなる可能性を秘めています。Trajectory ビュー、複数のエージェントモード、セッションリプレイ機能は、すでに開発と本番利用の両方に強固な基盤を提供しています。",
+        "es": "DeepSeek Harness trae un cambio de paradigma al desarrollo de agentes al construir todo sobre la arquitectura de plugins de Cordis. Cada capacidad — desde el backend del modelo hasta la UI — es un plugin intercambiable, lo que lo convierte en la plataforma de agentes más modular disponible. Aunque todavía está en vista previa para desarrolladores con un ecosistema de plugins incipiente, su elegancia arquitectónica y el respaldo de DeepSeek lo posicionan como un posible cambio de juego en el espacio de desarrollo de agentes. La vista Trajectory, los múltiples modos de agente y las capacidades de reproducción de sesiones ya proporcionan una base sólida tanto para el desarrollo como para el uso en producción.",
+        "fr": "DeepSeek Harness apporte un changement de paradigme au développement d'agents en construisant tout sur l'architecture de plugins de Cordis. Chaque capacité — du backend du modèle à l'interface utilisateur — est un plugin interchangeable, ce qui en fait la plateforme d'agents la plus modulaire disponible. Bien qu'encore en aperçu développeur avec un écosystème de plugins naissant, son élégance architecturale et le soutien de DeepSeek la positionnent comme un potentiel changeur de jeu dans le domaine du développement d'agents. La vue Trajectory, les multiples modes d'agent et les capacités de relecture de sessions fournissent déjà une base solide pour le développement et l'utilisation en production."
+      },
+      "bestFor": {
+        "en": [
+          "Developers building custom AI agents",
+          "Researchers exploring agent architectures",
+          "Teams wanting full control over agent stack"
+        ],
+        "zh": [
+          "构建自定义 AI Agent 的开发者",
+          "研究 Agent 架构的研究人员",
+          "希望完全控制 Agent 技术栈的团队"
+        ],
+        "ja": [
+          "カスタム AI エージェントを構築する開発者",
+          "エージェントアーキテクチャを探求する研究者",
+          "エージェントスタックを完全に制御したいチーム"
+        ],
+        "es": [
+          "Desarrolladores que construyen agentes de IA personalizados",
+          "Investigadores que exploran arquitecturas de agentes",
+          "Equipos que quieren control total sobre la pila de agentes"
+        ],
+        "fr": [
+          "Développeurs construisant des agents IA personnalisés",
+          "Chercheurs explorant les architectures d'agents",
+          "Équipes voulant un contrôle total sur la pile d'agents"
+        ]
+      },
+      "considerAlternatives": {
+        "en": [
+          "AutoGPT (mature agent framework with broader ecosystem)",
+          "Dify (visual agent builder with more GUI tools)"
+        ],
+        "zh": [
+          "AutoGPT（成熟的 Agent 框架，生态更广泛）",
+          "Dify（可视化 Agent 构建器，GUI 工具更丰富）"
+        ],
+        "ja": [
+          "AutoGPT（成熟したエージェントフレームワーク、より広範なエコシステム）",
+          "Dify（より多くの GUI ツールを備えたビジュアルエージェントビルダー）"
+        ],
+        "es": [
+          "AutoGPT (marco de agente maduro con ecosistema más amplio)",
+          "Dify (constructor visual de agentes con más herramientas GUI)"
+        ],
+        "fr": [
+          "AutoGPT (framework d'agent mature avec un écosystème plus large)",
+          "Dify (constructeur visuel d'agents avec plus d'outils GUI)"
+        ]
+      }
+    },
+    "meta": {
+      "lastVerified": "2026-08-15",
+      "verdictDate": "2026-08-15",
+      "pricingVerified": "2026-08-15",
+      "pricingUrl": "https://github.com/deepseek-ai/deepseek-harness"
+    }
   }
 }
