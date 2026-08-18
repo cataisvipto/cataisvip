@@ -21,7 +21,7 @@
     ],
     "installCommand": "See README for details.",
     "logo": "/logos/skills/awesome-selfhosted.png",
-    "stars": 313283,
+    "stars": 313517,
     "featured": false,
     "faqs": [
       {
@@ -103,7 +103,7 @@
     ],
     "installCommand": "Available via Claude Code marketplace, Cursor /add-plugin, Codex plugin marketplace, and more. See README for details.",
     "logo": "/logos/skills/superpowers.png",
-    "stars": 273189,
+    "stars": 273644,
     "featured": false,
     "faqs": [
       {
@@ -181,7 +181,7 @@
     ],
     "installCommand": "git clone https://github.com/mattpocock/skills.git ~/.codex/skills/mattpocock-skills",
     "logo": "/logos/skills/grill-me.png",
-    "stars": 220262,
+    "stars": 221419,
     "featured": false,
     "faqs": [
       {
@@ -259,7 +259,7 @@
     ],
     "installCommand": "git clone https://github.com/mattpocock/skills.git ~/.codex/skills/mattpocock-skills",
     "logo": "/logos/skills/grill-with-docs.png",
-    "stars": 220262,
+    "stars": 221419,
     "featured": false,
     "faqs": [
       {
@@ -337,7 +337,7 @@
     ],
     "installCommand": "git clone https://github.com/mattpocock/skills.git ~/.codex/skills/mattpocock-skills",
     "logo": "/logos/skills/improve-codebase-architecture.png",
-    "stars": 220262,
+    "stars": 221419,
     "featured": false,
     "faqs": [
       {
@@ -425,7 +425,7 @@
     ],
     "installCommand": "Download the app at agencyagents.app (macOS/Linux/Windows) or run ./scripts/install.sh --tool <tool> from the repo.",
     "logo": "/logos/skills/agency-agents.png",
-    "stars": 145981,
+    "stars": 146106,
     "featured": false,
     "faqs": [
       {
@@ -503,7 +503,7 @@
     ],
     "installCommand": "Available via plugin marketplace. See README for details.",
     "logo": "/logos/skills/banner-design.png",
-    "stars": 117607,
+    "stars": 117913,
     "featured": false,
     "faqs": [
       {
@@ -581,7 +581,7 @@
     ],
     "installCommand": "Available via plugin marketplace. See README for details.",
     "logo": "/logos/skills/brand.png",
-    "stars": 117607,
+    "stars": 117913,
     "featured": false,
     "faqs": [
       {
@@ -659,7 +659,7 @@
     ],
     "installCommand": "Available via plugin marketplace. See README for details.",
     "logo": "/logos/skills/design.png",
-    "stars": 117607,
+    "stars": 117913,
     "featured": false,
     "faqs": [
       {
@@ -737,7 +737,7 @@
     ],
     "installCommand": "Available via plugin marketplace. See README for details.",
     "logo": "/logos/skills/design-system.png",
-    "stars": 117607,
+    "stars": 117913,
     "featured": false,
     "faqs": [
       {
@@ -815,7 +815,7 @@
     ],
     "installCommand": "Available via plugin marketplace. See README for details.",
     "logo": "/logos/skills/slides.png",
-    "stars": 117607,
+    "stars": 117913,
     "featured": false,
     "faqs": [
       {
@@ -893,7 +893,7 @@
     ],
     "installCommand": "Available via plugin marketplace. See README for details.",
     "logo": "/logos/skills/ui-styling.png",
-    "stars": 117607,
+    "stars": 117913,
     "featured": false,
     "faqs": [
       {
@@ -975,7 +975,7 @@
     ],
     "installCommand": "curl -fsSL https://raw.githubusercontent.com/JuliusBrussee/caveman/main/install.sh | bash",
     "logo": "/logos/skills/caveman.png",
-    "stars": 98727,
+    "stars": 98979,
     "featured": false,
     "faqs": [
       {
@@ -1048,7 +1048,7 @@
       "codex",
       "claude-code"
     ],
-    "stars": 77381,
+    "stars": 77729,
     "developer": "Leonxlnx",
     "developerZh": "Leonxlnx",
     "installCommand": "npm i -g taste-skill",
@@ -1128,7 +1128,7 @@
     ],
     "installCommand": "See README for installation instructions.",
     "logo": "/logos/skills/agent-reach.png",
-    "stars": 72522,
+    "stars": 72794,
     "featured": false,
     "faqs": [
       {
@@ -1203,7 +1203,7 @@
     ],
     "installCommand": "See README for installation instructions.",
     "logo": "/logos/skills/media-crawler.png",
-    "stars": 62637,
+    "stars": 62852,
     "featured": false,
     "faqs": [
       {
@@ -1280,7 +1280,7 @@
     ],
     "installCommand": "npx skills add blader/humanizer",
     "logo": "/logos/skills/humanizer.png",
-    "stars": 36158,
+    "stars": 36380,
     "featured": false,
     "faqs": [
       {
@@ -1358,7 +1358,7 @@
     ],
     "installCommand": "npx skills add alchaincyf/nuwa-skill",
     "logo": "/logos/skills/nuwa-skill.png",
-    "stars": 30815,
+    "stars": 30888,
     "featured": false,
     "faqs": [
       {
@@ -1437,7 +1437,7 @@
     ],
     "installCommand": "git clone https://github.com/vercel-labs/skills.git ~/.codex/skills/vercel-labs-skills",
     "logo": "/logos/skills/find-skills.png",
-    "stars": 29101,
+    "stars": 29178,
     "featured": false,
     "faqs": [
       {
@@ -1515,7 +1515,7 @@
     ],
     "installCommand": "npx skills add alchaincyf/huashu-design",
     "logo": "/logos/skills/huashu-design.png",
-    "stars": 23199,
+    "stars": 23259,
     "featured": false,
     "faqs": [
       {
@@ -1594,7 +1594,7 @@
     ],
     "installCommand": "git clone https://github.com/TencentCloud/TencentDB-Agent-Memory.git && cd TencentDB-Agent-Memory/deploy/global-images && cp .env.example .env && ./start-all.sh",
     "logo": "/logos/skills/tencentdb-agent-memory.png",
-    "stars": 22594,
+    "stars": 22958,
     "featured": false,
     "faqs": [
       {
@@ -1671,7 +1671,7 @@
     ],
     "installCommand": "pip install book-to-skill",
     "logo": "/logos/skills/book-to-skill.png",
-    "stars": 22524,
+    "stars": 22838,
     "featured": false,
     "faqs": [
       {
@@ -1746,7 +1746,7 @@
     ],
     "installCommand": "pip install pyvideotrans",
     "logo": "/logos/skills/pyvideotrans.png",
-    "stars": 18708,
+    "stars": 18724,
     "featured": false,
     "faqs": [
       {
@@ -1820,7 +1820,7 @@
     ],
     "installCommand": "npx skills add op7418/Humanizer-zh",
     "logo": "/logos/skills/humanizer-zh.png",
-    "stars": 15485,
+    "stars": 15568,
     "developer": "op7418",
     "developerZh": "op7418",
     "faqs": [
@@ -1898,7 +1898,7 @@
     ],
     "installCommand": "git clone https://github.com/helloianneo/ian-xiaohei-illustrations.git ~/.codex/skills/ian-xiaohei-illustrations",
     "logo": "/logos/skills/ian-xiaohei-illustrations.png",
-    "stars": 9537,
+    "stars": 9567,
     "featured": false,
     "faqs": [
       {
@@ -1975,7 +1975,7 @@
     ],
     "installCommand": "git clone https://github.com/Thysrael/Horizon.git && cd Horizon",
     "logo": "/logos/skills/horizon.png",
-    "stars": 8916,
+    "stars": 8944,
     "featured": false,
     "faqs": [
       {
@@ -2053,7 +2053,7 @@
     ],
     "installCommand": "npx skills add op7418/guizang-social-card-skill",
     "logo": "/logos/skills/guizang-social-card.png",
-    "stars": 6395,
+    "stars": 6421,
     "featured": false,
     "faqs": [
       {
@@ -2131,7 +2131,7 @@
     ],
     "installCommand": "Add to your Codex skill directory or use the Codex plugin marketplace. See README for details.",
     "logo": "/logos/skills/gc-minimal-zine-poster.png",
-    "stars": 6290,
+    "stars": 6364,
     "featured": false,
     "faqs": [
       {
@@ -2185,84 +2185,6 @@
     ]
   },
   {
-    "slug": "generative-media-skills",
-    "name": "Generative Media Skills",
-    "nameZh": "Generative Media Skills",
-    "description": "图片、视频、音频生成工作流，一站式多模态内容创作",
-    "descriptionEn": "Image, video, and audio generation workflow - all-in-one multimodal content creation",
-    "descriptionJa": "画像、動画、音声生成ワークフロー - オールインワンのマルチモーダルコンテンツ制作",
-    "descriptionEs": "Flujo de trabajo de generación de imágenes, video y audio - creación de contenido multimodal todo-en-uno",
-    "descriptionFr": "Flux de travail de génération d'images, vidéo et audio - création de contenu multimodale tout-en-un",
-    "developer": "Community",
-    "developerZh": "社区",
-    "repo": "SamurAIGPT/Generative-Media-Skills",
-    "agents": [
-      "claude",
-      "cursor",
-      "codex",
-      "generic"
-    ],
-    "category": "Design",
-    "tags": [
-      "Free",
-      "Open Source"
-    ],
-    "installCommand": "git clone https://github.com/SamurAIGPT/Generative-Media-Skills.git && cd Generative-Media-Skills",
-    "logo": "/logos/skills/generative-media-skills.png",
-    "stars": 4081,
-    "featured": false,
-    "faqs": [
-      {
-        "question": {
-          "en": "How do I install this skill?",
-          "zh": "如何安装这个技能？",
-          "ja": "このスキルをインストールするには？",
-          "es": "¿Cómo instalo este skill?",
-          "fr": "Comment installer ce skill ?"
-        },
-        "answer": {
-          "en": "Run the install command in your agent terminal.",
-          "zh": "在智能体的终端中运行安装命令。",
-          "ja": "エージェントのターミナルでインストールコマンドを実行します。",
-          "es": "Ejecuta el comando de instalación en la terminal de tu agente.",
-          "fr": "Exécutez la commande d'installation dans le terminal de votre agent."
-        }
-      },
-      {
-        "question": {
-          "en": "Which agents support this skill?",
-          "zh": "哪些智能体支持这个技能？",
-          "ja": "どのエージェントがこのスキルをサポートしていますか？",
-          "es": "¿Qué agentes son compatibles con este skill?",
-          "fr": "Quels agents supportent ce skill ?"
-        },
-        "answer": {
-          "en": "Claude Code, Cursor, Codex, and other MCP-compatible agents.",
-          "zh": "Claude Code、Cursor、Codex 和其他 MCP 兼容的智能体。",
-          "ja": "Claude Code、Cursor、Codex、およびその他のMCP互換エージェント。",
-          "es": "Claude Code, Cursor, Codex y otros agentes compatibles con MCP.",
-          "fr": "Claude Code, Cursor, Codex et autres agents compatibles MCP."
-        }
-      },
-      {
-        "question": {
-          "en": "Is this skill free?",
-          "zh": "这个技能免费吗？",
-          "ja": "このスキルは無料ですか？",
-          "es": "¿Este skill es gratuito?",
-          "fr": "Ce skill est-il gratuit ?"
-        },
-        "answer": {
-          "en": "Yes, it is free and open source.",
-          "zh": "是的，免费且开源。",
-          "ja": "はい、無料でオープンソースです。",
-          "es": "Sí, es gratuito y de código abierto.",
-          "fr": "Oui, il est gratuit et open source."
-        }
-      }
-    ]
-  },
-  {
     "slug": "photo-abstract-editorial",
     "name": "Photo Abstract Editorial",
     "nameZh": "Photo Abstract Editorial",
@@ -2283,7 +2205,7 @@
     ],
     "installCommand": "git clone https://github.com/ZzzLc0405/photo-abstract-editorial ~/.codex/skills/photo-abstract-editorial",
     "logo": "/logos/skills/photo-abstract-editorial.png",
-    "stars": 4035,
+    "stars": 4174,
     "featured": false,
     "faqs": [
       {
@@ -2337,6 +2259,84 @@
     ]
   },
   {
+    "slug": "generative-media-skills",
+    "name": "Generative Media Skills",
+    "nameZh": "Generative Media Skills",
+    "description": "图片、视频、音频生成工作流，一站式多模态内容创作",
+    "descriptionEn": "Image, video, and audio generation workflow - all-in-one multimodal content creation",
+    "descriptionJa": "画像、動画、音声生成ワークフロー - オールインワンのマルチモーダルコンテンツ制作",
+    "descriptionEs": "Flujo de trabajo de generación de imágenes, video y audio - creación de contenido multimodal todo-en-uno",
+    "descriptionFr": "Flux de travail de génération d'images, vidéo et audio - création de contenu multimodale tout-en-un",
+    "developer": "Community",
+    "developerZh": "社区",
+    "repo": "SamurAIGPT/Generative-Media-Skills",
+    "agents": [
+      "claude",
+      "cursor",
+      "codex",
+      "generic"
+    ],
+    "category": "Design",
+    "tags": [
+      "Free",
+      "Open Source"
+    ],
+    "installCommand": "git clone https://github.com/SamurAIGPT/Generative-Media-Skills.git && cd Generative-Media-Skills",
+    "logo": "/logos/skills/generative-media-skills.png",
+    "stars": 4088,
+    "featured": false,
+    "faqs": [
+      {
+        "question": {
+          "en": "How do I install this skill?",
+          "zh": "如何安装这个技能？",
+          "ja": "このスキルをインストールするには？",
+          "es": "¿Cómo instalo este skill?",
+          "fr": "Comment installer ce skill ?"
+        },
+        "answer": {
+          "en": "Run the install command in your agent terminal.",
+          "zh": "在智能体的终端中运行安装命令。",
+          "ja": "エージェントのターミナルでインストールコマンドを実行します。",
+          "es": "Ejecuta el comando de instalación en la terminal de tu agente.",
+          "fr": "Exécutez la commande d'installation dans le terminal de votre agent."
+        }
+      },
+      {
+        "question": {
+          "en": "Which agents support this skill?",
+          "zh": "哪些智能体支持这个技能？",
+          "ja": "どのエージェントがこのスキルをサポートしていますか？",
+          "es": "¿Qué agentes son compatibles con este skill?",
+          "fr": "Quels agents supportent ce skill ?"
+        },
+        "answer": {
+          "en": "Claude Code, Cursor, Codex, and other MCP-compatible agents.",
+          "zh": "Claude Code、Cursor、Codex 和其他 MCP 兼容的智能体。",
+          "ja": "Claude Code、Cursor、Codex、およびその他のMCP互換エージェント。",
+          "es": "Claude Code, Cursor, Codex y otros agentes compatibles con MCP.",
+          "fr": "Claude Code, Cursor, Codex et autres agents compatibles MCP."
+        }
+      },
+      {
+        "question": {
+          "en": "Is this skill free?",
+          "zh": "这个技能免费吗？",
+          "ja": "このスキルは無料ですか？",
+          "es": "¿Este skill es gratuito?",
+          "fr": "Ce skill est-il gratuit ?"
+        },
+        "answer": {
+          "en": "Yes, it is free and open source.",
+          "zh": "是的，免费且开源。",
+          "ja": "はい、無料でオープンソースです。",
+          "es": "Sí, es gratuito y de código abierto.",
+          "fr": "Oui, il est gratuit et open source."
+        }
+      }
+    ]
+  },
+  {
     "slug": "gathered-scenes-zine-skill",
     "name": "Gathered Scenes Zine",
     "nameZh": "拾景 Zine",
@@ -2357,7 +2357,7 @@
     ],
     "installCommand": "git clone https://github.com/Zeejay0/gathered-scenes-zine-skill ~/.codex/skills/gathered-scenes-zine-skill",
     "logo": "/logos/skills/gathered-scenes-zine-skill.png",
-    "stars": 3889,
+    "stars": 3996,
     "featured": false,
     "faqs": [
       {
@@ -2438,7 +2438,7 @@
     ],
     "installCommand": "curl -fsSL https://raw.githubusercontent.com/QwenLM/Qwen-MM-Plugins/main/install.sh | bash",
     "logo": "/logos/skills/qwen-mm-plugins.png",
-    "stars": 2674,
+    "stars": 2703,
     "featured": false,
     "faqs": [
       {
@@ -2517,7 +2517,7 @@
     ],
     "installCommand": "curl -fsSL https://raw.githubusercontent.com/FrancyJGLisboa/agent-skill-creator/main/scripts/bootstrap.sh | sh",
     "logo": "/logos/skills/agent-skill-creator.png",
-    "stars": 2261,
+    "stars": 2268,
     "developer": "FrancyJGLisboa",
     "developerZh": "FrancyJGLisboa",
     "faqs": [
@@ -2596,7 +2596,7 @@
     ],
     "installCommand": "git clone https://github.com/comeonzhj/Auto-Redbook-Skills.git && cd Auto-Redbook-Skills",
     "logo": "/logos/skills/auto-redbook-skills.png",
-    "stars": 2151,
+    "stars": 2161,
     "featured": false,
     "faqs": [
       {
@@ -2674,7 +2674,7 @@
     ],
     "installCommand": "Add the Skill file to your AI coding assistant's context. Compatible with Claude Code, Codex, and OpenClaw.",
     "logo": "/logos/skills/global-stock-data.png",
-    "stars": 1476,
+    "stars": 1478,
     "featured": false,
     "faqs": [
       {
@@ -2748,7 +2748,7 @@
     ],
     "installCommand": "git clone https://github.com/Evianis/travel-photo-abstraction ~/.codex/skills/travel-photo-abstraction",
     "logo": "/logos/skills/travel-photo-abstraction.png",
-    "stars": 638,
+    "stars": 649,
     "featured": false,
     "faqs": [
       {
@@ -2824,7 +2824,7 @@
     ],
     "installCommand": "git clone https://github.com/Dlcccc71913/skill-make-photo-stamp-archive ~/.codex/skills/photo-stamp-archive",
     "logo": "/logos/skills/photo-stamp-archive.png",
-    "stars": 245,
+    "stars": 249,
     "featured": false,
     "faqs": [
       {
