@@ -21,7 +21,7 @@
     ],
     "installCommand": "See README for details.",
     "logo": "/logos/skills/awesome-selfhosted.png",
-    "stars": 313749,
+    "stars": 313948,
     "featured": false,
     "faqs": [
       {
@@ -103,7 +103,7 @@
     ],
     "installCommand": "Available via Claude Code marketplace, Cursor /add-plugin, Codex plugin marketplace, and more. See README for details.",
     "logo": "/logos/skills/superpowers.png",
-    "stars": 274217,
+    "stars": 274892,
     "featured": false,
     "faqs": [
       {
@@ -181,7 +181,7 @@
     ],
     "installCommand": "git clone https://github.com/mattpocock/skills.git ~/.codex/skills/mattpocock-skills",
     "logo": "/logos/skills/grill-me.png",
-    "stars": 223638,
+    "stars": 226237,
     "featured": false,
     "faqs": [
       {
@@ -259,7 +259,7 @@
     ],
     "installCommand": "git clone https://github.com/mattpocock/skills.git ~/.codex/skills/mattpocock-skills",
     "logo": "/logos/skills/grill-with-docs.png",
-    "stars": 223638,
+    "stars": 226237,
     "featured": false,
     "faqs": [
       {
@@ -337,7 +337,7 @@
     ],
     "installCommand": "git clone https://github.com/mattpocock/skills.git ~/.codex/skills/mattpocock-skills",
     "logo": "/logos/skills/improve-codebase-architecture.png",
-    "stars": 223638,
+    "stars": 226237,
     "featured": false,
     "faqs": [
       {
@@ -425,7 +425,7 @@
     ],
     "installCommand": "Download the app at agencyagents.app (macOS/Linux/Windows) or run ./scripts/install.sh --tool <tool> from the repo.",
     "logo": "/logos/skills/agency-agents.png",
-    "stars": 146290,
+    "stars": 146761,
     "featured": false,
     "faqs": [
       {
@@ -503,7 +503,7 @@
     ],
     "installCommand": "Available via plugin marketplace. See README for details.",
     "logo": "/logos/skills/banner-design.png",
-    "stars": 118229,
+    "stars": 118745,
     "featured": false,
     "faqs": [
       {
@@ -581,7 +581,7 @@
     ],
     "installCommand": "Available via plugin marketplace. See README for details.",
     "logo": "/logos/skills/brand.png",
-    "stars": 118229,
+    "stars": 118745,
     "featured": false,
     "faqs": [
       {
@@ -659,7 +659,7 @@
     ],
     "installCommand": "Available via plugin marketplace. See README for details.",
     "logo": "/logos/skills/design.png",
-    "stars": 118229,
+    "stars": 118745,
     "featured": false,
     "faqs": [
       {
@@ -737,7 +737,7 @@
     ],
     "installCommand": "Available via plugin marketplace. See README for details.",
     "logo": "/logos/skills/design-system.png",
-    "stars": 118229,
+    "stars": 118745,
     "featured": false,
     "faqs": [
       {
@@ -815,7 +815,7 @@
     ],
     "installCommand": "Available via plugin marketplace. See README for details.",
     "logo": "/logos/skills/slides.png",
-    "stars": 118229,
+    "stars": 118745,
     "featured": false,
     "faqs": [
       {
@@ -893,7 +893,7 @@
     ],
     "installCommand": "Available via plugin marketplace. See README for details.",
     "logo": "/logos/skills/ui-styling.png",
-    "stars": 118229,
+    "stars": 118745,
     "featured": false,
     "faqs": [
       {
@@ -975,7 +975,7 @@
     ],
     "installCommand": "curl -fsSL https://raw.githubusercontent.com/JuliusBrussee/caveman/main/install.sh | bash",
     "logo": "/logos/skills/caveman.png",
-    "stars": 99228,
+    "stars": 99574,
     "featured": false,
     "faqs": [
       {
@@ -1048,7 +1048,7 @@
       "codex",
       "claude-code"
     ],
-    "stars": 78180,
+    "stars": 78591,
     "developer": "Leonxlnx",
     "developerZh": "Leonxlnx",
     "installCommand": "npm i -g taste-skill",
@@ -1128,7 +1128,7 @@
     ],
     "installCommand": "See README for installation instructions.",
     "logo": "/logos/skills/agent-reach.png",
-    "stars": 73069,
+    "stars": 73357,
     "featured": false,
     "faqs": [
       {
@@ -1203,7 +1203,7 @@
     ],
     "installCommand": "See README for installation instructions.",
     "logo": "/logos/skills/media-crawler.png",
-    "stars": 63061,
+    "stars": 63235,
     "featured": false,
     "faqs": [
       {
@@ -1280,7 +1280,7 @@
     ],
     "installCommand": "npx skills add blader/humanizer",
     "logo": "/logos/skills/humanizer.png",
-    "stars": 36593,
+    "stars": 36841,
     "featured": false,
     "faqs": [
       {
@@ -1358,7 +1358,7 @@
     ],
     "installCommand": "npx skills add alchaincyf/nuwa-skill",
     "logo": "/logos/skills/nuwa-skill.png",
-    "stars": 30954,
+    "stars": 31032,
     "featured": false,
     "faqs": [
       {
@@ -1437,7 +1437,7 @@
     ],
     "installCommand": "git clone https://github.com/vercel-labs/skills.git ~/.codex/skills/vercel-labs-skills",
     "logo": "/logos/skills/find-skills.png",
-    "stars": 29257,
+    "stars": 29330,
     "featured": false,
     "faqs": [
       {
@@ -1491,84 +1491,6 @@
     ]
   },
   {
-    "slug": "huashu-design",
-    "name": "Huashu Design",
-    "nameZh": "Huashu Design",
-    "description": "生成 HTML、原型、可编辑 PPT、动画，以 HTML 为中心的创意设计",
-    "descriptionEn": "Generate HTML, prototypes, editable PPTs, animations",
-    "descriptionJa": "HTML、プロトタイプ、編集可能なPPT、アニメーションを生成",
-    "descriptionEs": "Genera HTML, prototipos, PPT editables, animaciones",
-    "descriptionFr": "G?n?rez HTML, prototypes, PPT modifiables, animations",
-    "developer": "alchaincyf",
-    "developerZh": "alchaincyf",
-    "repo": "alchaincyf/huashu-design",
-    "agents": [
-      "claude",
-      "cursor",
-      "codex",
-      "generic"
-    ],
-    "category": "Design",
-    "tags": [
-      "Free",
-      "Open Source"
-    ],
-    "installCommand": "npx skills add alchaincyf/huashu-design",
-    "logo": "/logos/skills/huashu-design.png",
-    "stars": 23304,
-    "featured": false,
-    "faqs": [
-      {
-        "question": {
-          "en": "How do I install this skill?",
-          "zh": "如何安装这个技能？",
-          "ja": "このスキルをインストールするには？",
-          "es": "?C?mo instalo este skill?",
-          "fr": "Comment installer ce skill ?"
-        },
-        "answer": {
-          "en": "Run the install command in your agent terminal.",
-          "zh": "在智能体的终端中运行安装命令。",
-          "ja": "エージェントのターミナルでインストールコマンドを実行します。",
-          "es": "Ejecuta el comando de instalaci?n en la terminal de tu agente.",
-          "fr": "Exécutez la commande d'installation dans le terminal de votre agent."
-        }
-      },
-      {
-        "question": {
-          "en": "Which agents support this skill?",
-          "zh": "哪些智能体支持这个技能？",
-          "ja": "どのエージェントがこのスキルをサポートしていますか？",
-          "es": "?Qu? agentes son compatibles con este skill?",
-          "fr": "Quels agents supportent ce skill ?"
-        },
-        "answer": {
-          "en": "Claude Code, Cursor, Codex, and other MCP-compatible agents.",
-          "zh": "Claude Code銆丆ursor銆丆odex 和其他 MCP 兼容的智能体。",
-          "ja": "Claude Code銆丆ursor銆丆odex銆佷お傛ひその他のMCP互換エージェント銆?",
-          "es": "Claude Code, Cursor, Codex y otros agentes compatibles con MCP.",
-          "fr": "Claude Code, Cursor, Codex et autres agents compatibles MCP."
-        }
-      },
-      {
-        "question": {
-          "en": "Is this skill free?",
-          "zh": "这个技能免费吗？",
-          "ja": "このスキルは無料ですか？",
-          "es": "?Este skill es gratuito?",
-          "fr": "Ce skill est-il gratuit ?"
-        },
-        "answer": {
-          "en": "Yes, it is free and open source.",
-          "zh": "是的，免费且开源。",
-          "ja": "はい、無料でオープンソースです。",
-          "es": "S?, es gratuito y de c?digo abierto.",
-          "fr": "Oui, il est gratuit et open source."
-        }
-      }
-    ]
-  },
-  {
     "slug": "tencentdb-agent-memory",
     "name": "TencentDB Agent Memory",
     "nameZh": "腾讯云数据库 Agent Memory",
@@ -1594,7 +1516,7 @@
     ],
     "installCommand": "git clone https://github.com/TencentCloud/TencentDB-Agent-Memory.git && cd TencentDB-Agent-Memory/deploy/global-images && cp .env.example .env && ./start-all.sh",
     "logo": "/logos/skills/tencentdb-agent-memory.png",
-    "stars": 23212,
+    "stars": 23468,
     "featured": false,
     "faqs": [
       {
@@ -1671,7 +1593,7 @@
     ],
     "installCommand": "pip install book-to-skill",
     "logo": "/logos/skills/book-to-skill.png",
-    "stars": 23097,
+    "stars": 23399,
     "featured": false,
     "faqs": [
       {
@@ -1725,6 +1647,84 @@
     ]
   },
   {
+    "slug": "huashu-design",
+    "name": "Huashu Design",
+    "nameZh": "Huashu Design",
+    "description": "生成 HTML、原型、可编辑 PPT、动画，以 HTML 为中心的创意设计",
+    "descriptionEn": "Generate HTML, prototypes, editable PPTs, animations",
+    "descriptionJa": "HTML、プロトタイプ、編集可能なPPT、アニメーションを生成",
+    "descriptionEs": "Genera HTML, prototipos, PPT editables, animaciones",
+    "descriptionFr": "G?n?rez HTML, prototypes, PPT modifiables, animations",
+    "developer": "alchaincyf",
+    "developerZh": "alchaincyf",
+    "repo": "alchaincyf/huashu-design",
+    "agents": [
+      "claude",
+      "cursor",
+      "codex",
+      "generic"
+    ],
+    "category": "Design",
+    "tags": [
+      "Free",
+      "Open Source"
+    ],
+    "installCommand": "npx skills add alchaincyf/huashu-design",
+    "logo": "/logos/skills/huashu-design.png",
+    "stars": 23342,
+    "featured": false,
+    "faqs": [
+      {
+        "question": {
+          "en": "How do I install this skill?",
+          "zh": "如何安装这个技能？",
+          "ja": "このスキルをインストールするには？",
+          "es": "?C?mo instalo este skill?",
+          "fr": "Comment installer ce skill ?"
+        },
+        "answer": {
+          "en": "Run the install command in your agent terminal.",
+          "zh": "在智能体的终端中运行安装命令。",
+          "ja": "エージェントのターミナルでインストールコマンドを実行します。",
+          "es": "Ejecuta el comando de instalaci?n en la terminal de tu agente.",
+          "fr": "Exécutez la commande d'installation dans le terminal de votre agent."
+        }
+      },
+      {
+        "question": {
+          "en": "Which agents support this skill?",
+          "zh": "哪些智能体支持这个技能？",
+          "ja": "どのエージェントがこのスキルをサポートしていますか？",
+          "es": "?Qu? agentes son compatibles con este skill?",
+          "fr": "Quels agents supportent ce skill ?"
+        },
+        "answer": {
+          "en": "Claude Code, Cursor, Codex, and other MCP-compatible agents.",
+          "zh": "Claude Code銆丆ursor銆丆odex 和其他 MCP 兼容的智能体。",
+          "ja": "Claude Code銆丆ursor銆丆odex銆佷お傛ひその他のMCP互換エージェント銆?",
+          "es": "Claude Code, Cursor, Codex y otros agentes compatibles con MCP.",
+          "fr": "Claude Code, Cursor, Codex et autres agents compatibles MCP."
+        }
+      },
+      {
+        "question": {
+          "en": "Is this skill free?",
+          "zh": "这个技能免费吗？",
+          "ja": "このスキルは無料ですか？",
+          "es": "?Este skill es gratuito?",
+          "fr": "Ce skill est-il gratuit ?"
+        },
+        "answer": {
+          "en": "Yes, it is free and open source.",
+          "zh": "是的，免费且开源。",
+          "ja": "はい、無料でオープンソースです。",
+          "es": "S?, es gratuito y de c?digo abierto.",
+          "fr": "Oui, il est gratuit et open source."
+        }
+      }
+    ]
+  },
+  {
     "slug": "pyvideotrans",
     "name": "PyVideoTrans",
     "nameZh": "视频翻译配音",
@@ -1746,7 +1746,7 @@
     ],
     "installCommand": "pip install pyvideotrans",
     "logo": "/logos/skills/pyvideotrans.png",
-    "stars": 18740,
+    "stars": 18755,
     "featured": false,
     "faqs": [
       {
@@ -1820,7 +1820,7 @@
     ],
     "installCommand": "npx skills add op7418/Humanizer-zh",
     "logo": "/logos/skills/humanizer-zh.png",
-    "stars": 15660,
+    "stars": 15752,
     "developer": "op7418",
     "developerZh": "op7418",
     "faqs": [
@@ -1898,7 +1898,7 @@
     ],
     "installCommand": "git clone https://github.com/helloianneo/ian-xiaohei-illustrations.git ~/.codex/skills/ian-xiaohei-illustrations",
     "logo": "/logos/skills/ian-xiaohei-illustrations.png",
-    "stars": 9613,
+    "stars": 9902,
     "featured": false,
     "faqs": [
       {
@@ -1975,7 +1975,7 @@
     ],
     "installCommand": "git clone https://github.com/Thysrael/Horizon.git && cd Horizon",
     "logo": "/logos/skills/horizon.png",
-    "stars": 8954,
+    "stars": 8971,
     "featured": false,
     "faqs": [
       {
@@ -2029,84 +2029,6 @@
     ]
   },
   {
-    "slug": "guizang-social-card",
-    "name": "Guizang Social Card",
-    "nameZh": "Guizang Social Card",
-    "description": "生成图文卡片和封面图，支持小红书轮播图、公众号封面等",
-    "descriptionEn": "Generate social media cards and cover images",
-    "descriptionJa": "ソーシャルメディアカードとカバー画像を生成",
-    "descriptionEs": "Genera tarjetas sociales e im?genes de portada",
-    "descriptionFr": "G?n?rez des cartes sociales et des images de couverture",
-    "developer": "op7418",
-    "developerZh": "op7418",
-    "repo": "op7418/guizang-social-card-skill",
-    "agents": [
-      "claude",
-      "cursor",
-      "codex",
-      "generic"
-    ],
-    "category": "Design",
-    "tags": [
-      "Free",
-      "Open Source"
-    ],
-    "installCommand": "npx skills add op7418/guizang-social-card-skill",
-    "logo": "/logos/skills/guizang-social-card.png",
-    "stars": 6450,
-    "featured": false,
-    "faqs": [
-      {
-        "question": {
-          "en": "How do I install this skill?",
-          "zh": "如何安装这个技能？",
-          "ja": "このスキルをインストールするには？",
-          "es": "?C?mo instalo este skill?",
-          "fr": "Comment installer ce skill ?"
-        },
-        "answer": {
-          "en": "Run the install command in your agent terminal.",
-          "zh": "在智能体的终端中运行安装命令。",
-          "ja": "エージェントのターミナルでインストールコマンドを実行します。",
-          "es": "Ejecuta el comando de instalaci?n en la terminal de tu agente.",
-          "fr": "Exécutez la commande d'installation dans le terminal de votre agent."
-        }
-      },
-      {
-        "question": {
-          "en": "Which agents support this skill?",
-          "zh": "哪些智能体支持这个技能？",
-          "ja": "どのエージェントがこのスキルをサポートしていますか？",
-          "es": "?Qu? agentes son compatibles con este skill?",
-          "fr": "Quels agents supportent ce skill ?"
-        },
-        "answer": {
-          "en": "Claude Code, Cursor, Codex, and other MCP-compatible agents.",
-          "zh": "Claude Code銆丆ursor銆丆odex 和其他 MCP 兼容的智能体。",
-          "ja": "Claude Code銆丆ursor銆丆odex銆佷お傛ひその他のMCP互換エージェント銆?",
-          "es": "Claude Code, Cursor, Codex y otros agentes compatibles con MCP.",
-          "fr": "Claude Code, Cursor, Codex et autres agents compatibles MCP."
-        }
-      },
-      {
-        "question": {
-          "en": "Is this skill free?",
-          "zh": "这个技能免费吗？",
-          "ja": "このスキルは無料ですか？",
-          "es": "?Este skill es gratuito?",
-          "fr": "Ce skill est-il gratuit ?"
-        },
-        "answer": {
-          "en": "Yes, it is free and open source.",
-          "zh": "是的，免费且开源。",
-          "ja": "はい、無料でオープンソースです。",
-          "es": "S?, es gratuito y de c?digo abierto.",
-          "fr": "Oui, il est gratuit et open source."
-        }
-      }
-    ]
-  },
-  {
     "slug": "gc-minimal-zine-poster",
     "name": "GC Minimal Zine Poster",
     "nameZh": "GC 极简杂志海报",
@@ -2131,7 +2053,7 @@
     ],
     "installCommand": "Add to your Codex skill directory or use the Codex plugin marketplace. See README for details.",
     "logo": "/logos/skills/gc-minimal-zine-poster.png",
-    "stars": 6433,
+    "stars": 6484,
     "featured": false,
     "faqs": [
       {
@@ -2185,6 +2107,84 @@
     ]
   },
   {
+    "slug": "guizang-social-card",
+    "name": "Guizang Social Card",
+    "nameZh": "Guizang Social Card",
+    "description": "生成图文卡片和封面图，支持小红书轮播图、公众号封面等",
+    "descriptionEn": "Generate social media cards and cover images",
+    "descriptionJa": "ソーシャルメディアカードとカバー画像を生成",
+    "descriptionEs": "Genera tarjetas sociales e im?genes de portada",
+    "descriptionFr": "G?n?rez des cartes sociales et des images de couverture",
+    "developer": "op7418",
+    "developerZh": "op7418",
+    "repo": "op7418/guizang-social-card-skill",
+    "agents": [
+      "claude",
+      "cursor",
+      "codex",
+      "generic"
+    ],
+    "category": "Design",
+    "tags": [
+      "Free",
+      "Open Source"
+    ],
+    "installCommand": "npx skills add op7418/guizang-social-card-skill",
+    "logo": "/logos/skills/guizang-social-card.png",
+    "stars": 6480,
+    "featured": false,
+    "faqs": [
+      {
+        "question": {
+          "en": "How do I install this skill?",
+          "zh": "如何安装这个技能？",
+          "ja": "このスキルをインストールするには？",
+          "es": "?C?mo instalo este skill?",
+          "fr": "Comment installer ce skill ?"
+        },
+        "answer": {
+          "en": "Run the install command in your agent terminal.",
+          "zh": "在智能体的终端中运行安装命令。",
+          "ja": "エージェントのターミナルでインストールコマンドを実行します。",
+          "es": "Ejecuta el comando de instalaci?n en la terminal de tu agente.",
+          "fr": "Exécutez la commande d'installation dans le terminal de votre agent."
+        }
+      },
+      {
+        "question": {
+          "en": "Which agents support this skill?",
+          "zh": "哪些智能体支持这个技能？",
+          "ja": "どのエージェントがこのスキルをサポートしていますか？",
+          "es": "?Qu? agentes son compatibles con este skill?",
+          "fr": "Quels agents supportent ce skill ?"
+        },
+        "answer": {
+          "en": "Claude Code, Cursor, Codex, and other MCP-compatible agents.",
+          "zh": "Claude Code銆丆ursor銆丆odex 和其他 MCP 兼容的智能体。",
+          "ja": "Claude Code銆丆ursor銆丆odex銆佷お傛ひその他のMCP互換エージェント銆?",
+          "es": "Claude Code, Cursor, Codex y otros agentes compatibles con MCP.",
+          "fr": "Claude Code, Cursor, Codex et autres agents compatibles MCP."
+        }
+      },
+      {
+        "question": {
+          "en": "Is this skill free?",
+          "zh": "这个技能免费吗？",
+          "ja": "このスキルは無料ですか？",
+          "es": "?Este skill es gratuito?",
+          "fr": "Ce skill est-il gratuit ?"
+        },
+        "answer": {
+          "en": "Yes, it is free and open source.",
+          "zh": "是的，免费且开源。",
+          "ja": "はい、無料でオープンソースです。",
+          "es": "S?, es gratuito y de c?digo abierto.",
+          "fr": "Oui, il est gratuit et open source."
+        }
+      }
+    ]
+  },
+  {
     "slug": "photo-abstract-editorial",
     "name": "Photo Abstract Editorial",
     "nameZh": "Photo Abstract Editorial",
@@ -2205,7 +2205,7 @@
     ],
     "installCommand": "git clone https://github.com/ZzzLc0405/photo-abstract-editorial ~/.codex/skills/photo-abstract-editorial",
     "logo": "/logos/skills/photo-abstract-editorial.png",
-    "stars": 4381,
+    "stars": 4482,
     "featured": false,
     "faqs": [
       {
@@ -2222,6 +2222,80 @@
           "ja": "個人/教育/非商用無料、商用使用前に要許諾。@AM へのクレジット推奨。",
           "es": "Gratuito para uso personal/educativo/no comercial. Uso comercial requiere autorización previa. Crédito a @AM.",
           "fr": "Gratuit pour usage personnel/éducatif/non commercial. Usage commercial nécessite autorisation préalable. Créditer @AM."
+        }
+      },
+      {
+        "question": {
+          "zh": "怎么使用？",
+          "en": "How to use?",
+          "ja": "使い方？",
+          "es": "¿Cómo usar?",
+          "fr": "Comment utiliser ?"
+        },
+        "answer": {
+          "zh": "克隆仓库到你的 Codex 技能目录。",
+          "en": "Clone the repo to your Codex skill directory.",
+          "ja": "Codexスキルディレクトリにクローン。",
+          "es": "Clona el repositorio en tu directorio de skills de Codex.",
+          "fr": "Clonez le dépôt dans votre répertoire de skills Codex."
+        }
+      },
+      {
+        "question": {
+          "zh": "支持哪些智能体？",
+          "en": "Which agents?",
+          "ja": "どんなエージェント対応？",
+          "es": "¿Qué agentes?",
+          "fr": "Quels agents ?"
+        },
+        "answer": {
+          "zh": "兼容 Codex、Claude Code、Cursor 等主流编码智能体。",
+          "en": "Compatible with Codex, Claude Code, Cursor and other main coding agents.",
+          "ja": "Codex、Claude Code、Cursor 等の主要コーディングエージェントと互換。",
+          "es": "Compatible con Codex, Claude Code, Cursor y otros agentes de codificación.",
+          "fr": "Compatible avec Codex, Claude Code, Cursor et autres agents de codage principaux."
+        }
+      }
+    ]
+  },
+  {
+    "slug": "gathered-scenes-zine-skill",
+    "name": "Gathered Scenes Zine",
+    "nameZh": "拾景 Zine",
+    "description": "把普通画面变成值得停留的一页：先阅读场景，再选择保留真实现场或蒸馏为新的纸上作品。",
+    "descriptionEn": "Turn ordinary scenes into pages worth stopping for: read the scene first, then choose to preserve the real scene or distill it into a new paper work.",
+    "descriptionJa": "平凡な光景を、一ページ価値のあるものに変える：まず場を読み、真の現場を保持するか、新しい紙上の作品に蒸留するかを選択。",
+    "descriptionEs": "Convierte escenas ordinarias en páginas que valen la pena: lee la escena primero, luego elige preservar la escena real o distilarla en una nueva obra de papel.",
+    "descriptionFr": "Transformez des scènes ordinaires en pages qui méritent qu'on s'y arrête : lisez la scène d'abord, puis choisissez de préserver la scène réelle ou de la distiller en une nouvelle œuvre sur papier.",
+    "developer": "Zeejay0",
+    "developerZh": "Zeejay0（拾景 zine）",
+    "repo": "Zeejay0/gathered-scenes-zine-skill",
+    "agents": [
+      "codex"
+    ],
+    "category": "Design",
+    "tags": [
+      "Free"
+    ],
+    "installCommand": "git clone https://github.com/Zeejay0/gathered-scenes-zine-skill ~/.codex/skills/gathered-scenes-zine-skill",
+    "logo": "/logos/skills/gathered-scenes-zine-skill.png",
+    "stars": 4156,
+    "featured": false,
+    "faqs": [
+      {
+        "question": {
+          "zh": "作者官网？",
+          "en": "Author website?",
+          "ja": "作者サイト？",
+          "es": "¿Web del autor?",
+          "fr": "Site de l'auteur?"
+        },
+        "answer": {
+          "zh": "作者已上线官网 https://zeejayzine.com/（接入 GPT5.6+image2，国内可用）。",
+          "en": "Author's official site https://zeejayzine.com/ (integrated with GPT5.6+image2, usable in domestic China environment).",
+          "ja": "作者公式サイト https://zeejayzine.com/（GPT5.6+image2 対応、国内環境でも利用可能）。",
+          "es": "Sitio oficial https://zeejayzine.com/ (integrado con GPT5.6+image2, usable en China).",
+          "fr": "Site officiel https://zeejayzine.com/ (intégré GPT5.6+image2, utilisable en Chine)."
         }
       },
       {
@@ -2283,7 +2357,7 @@
     ],
     "installCommand": "git clone https://github.com/SamurAIGPT/Generative-Media-Skills.git && cd Generative-Media-Skills",
     "logo": "/logos/skills/generative-media-skills.png",
-    "stars": 4094,
+    "stars": 4099,
     "featured": false,
     "faqs": [
       {
@@ -2337,80 +2411,6 @@
     ]
   },
   {
-    "slug": "gathered-scenes-zine-skill",
-    "name": "Gathered Scenes Zine",
-    "nameZh": "拾景 Zine",
-    "description": "把普通画面变成值得停留的一页：先阅读场景，再选择保留真实现场或蒸馏为新的纸上作品。",
-    "descriptionEn": "Turn ordinary scenes into pages worth stopping for: read the scene first, then choose to preserve the real scene or distill it into a new paper work.",
-    "descriptionJa": "平凡な光景を、一ページ価値のあるものに変える：まず場を読み、真の現場を保持するか、新しい紙上の作品に蒸留するかを選択。",
-    "descriptionEs": "Convierte escenas ordinarias en páginas que valen la pena: lee la escena primero, luego elige preservar la escena real o distilarla en una nueva obra de papel.",
-    "descriptionFr": "Transformez des scènes ordinaires en pages qui méritent qu'on s'y arrête : lisez la scène d'abord, puis choisissez de préserver la scène réelle ou de la distiller en une nouvelle œuvre sur papier.",
-    "developer": "Zeejay0",
-    "developerZh": "Zeejay0（拾景 zine）",
-    "repo": "Zeejay0/gathered-scenes-zine-skill",
-    "agents": [
-      "codex"
-    ],
-    "category": "Design",
-    "tags": [
-      "Free"
-    ],
-    "installCommand": "git clone https://github.com/Zeejay0/gathered-scenes-zine-skill ~/.codex/skills/gathered-scenes-zine-skill",
-    "logo": "/logos/skills/gathered-scenes-zine-skill.png",
-    "stars": 4073,
-    "featured": false,
-    "faqs": [
-      {
-        "question": {
-          "zh": "作者官网？",
-          "en": "Author website?",
-          "ja": "作者サイト？",
-          "es": "¿Web del autor?",
-          "fr": "Site de l'auteur?"
-        },
-        "answer": {
-          "zh": "作者已上线官网 https://zeejayzine.com/（接入 GPT5.6+image2，国内可用）。",
-          "en": "Author's official site https://zeejayzine.com/ (integrated with GPT5.6+image2, usable in domestic China environment).",
-          "ja": "作者公式サイト https://zeejayzine.com/（GPT5.6+image2 対応、国内環境でも利用可能）。",
-          "es": "Sitio oficial https://zeejayzine.com/ (integrado con GPT5.6+image2, usable en China).",
-          "fr": "Site officiel https://zeejayzine.com/ (intégré GPT5.6+image2, utilisable en Chine)."
-        }
-      },
-      {
-        "question": {
-          "zh": "怎么使用？",
-          "en": "How to use?",
-          "ja": "使い方？",
-          "es": "¿Cómo usar?",
-          "fr": "Comment utiliser ?"
-        },
-        "answer": {
-          "zh": "克隆仓库到你的 Codex 技能目录。",
-          "en": "Clone the repo to your Codex skill directory.",
-          "ja": "Codexスキルディレクトリにクローン。",
-          "es": "Clona el repositorio en tu directorio de skills de Codex.",
-          "fr": "Clonez le dépôt dans votre répertoire de skills Codex."
-        }
-      },
-      {
-        "question": {
-          "zh": "支持哪些智能体？",
-          "en": "Which agents?",
-          "ja": "どんなエージェント対応？",
-          "es": "¿Qué agentes?",
-          "fr": "Quels agents ?"
-        },
-        "answer": {
-          "zh": "兼容 Codex、Claude Code、Cursor 等主流编码智能体。",
-          "en": "Compatible with Codex, Claude Code, Cursor and other main coding agents.",
-          "ja": "Codex、Claude Code、Cursor 等の主要コーディングエージェントと互換。",
-          "es": "Compatible con Codex, Claude Code, Cursor y otros agentes de codificación.",
-          "fr": "Compatible avec Codex, Claude Code, Cursor et autres agents de codage principaux."
-        }
-      }
-    ]
-  },
-  {
     "slug": "qwen-mm-plugins",
     "name": "Qwen MM-Plugins",
     "nameZh": "Qwen 多模态插件集",
@@ -2438,7 +2438,7 @@
     ],
     "installCommand": "curl -fsSL https://raw.githubusercontent.com/QwenLM/Qwen-MM-Plugins/main/install.sh | bash",
     "logo": "/logos/skills/qwen-mm-plugins.png",
-    "stars": 2726,
+    "stars": 2740,
     "featured": false,
     "faqs": [
       {
@@ -2517,7 +2517,7 @@
     ],
     "installCommand": "curl -fsSL https://raw.githubusercontent.com/FrancyJGLisboa/agent-skill-creator/main/scripts/bootstrap.sh | sh",
     "logo": "/logos/skills/agent-skill-creator.png",
-    "stars": 2275,
+    "stars": 2286,
     "developer": "FrancyJGLisboa",
     "developerZh": "FrancyJGLisboa",
     "faqs": [
@@ -2596,7 +2596,7 @@
     ],
     "installCommand": "git clone https://github.com/comeonzhj/Auto-Redbook-Skills.git && cd Auto-Redbook-Skills",
     "logo": "/logos/skills/auto-redbook-skills.png",
-    "stars": 2178,
+    "stars": 2190,
     "featured": false,
     "faqs": [
       {
@@ -2674,7 +2674,7 @@
     ],
     "installCommand": "Add the Skill file to your AI coding assistant's context. Compatible with Claude Code, Codex, and OpenClaw.",
     "logo": "/logos/skills/global-stock-data.png",
-    "stars": 1480,
+    "stars": 1482,
     "featured": false,
     "faqs": [
       {
@@ -2748,7 +2748,7 @@
     ],
     "installCommand": "git clone https://github.com/Evianis/travel-photo-abstraction ~/.codex/skills/travel-photo-abstraction",
     "logo": "/logos/skills/travel-photo-abstraction.png",
-    "stars": 654,
+    "stars": 668,
     "featured": false,
     "faqs": [
       {
@@ -2824,7 +2824,7 @@
     ],
     "installCommand": "git clone https://github.com/Dlcccc71913/skill-make-photo-stamp-archive ~/.codex/skills/photo-stamp-archive",
     "logo": "/logos/skills/photo-stamp-archive.png",
-    "stars": 259,
+    "stars": 266,
     "featured": false,
     "faqs": [
       {
