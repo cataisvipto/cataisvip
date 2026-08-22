@@ -30,7 +30,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   const title = (post.title as Record<string, string>)[locale] || post.title.en;
   const excerpt = (post.excerpt as Record<string, string>)[locale] || post.excerpt.en;
-  const localeCover = `/blog/covers/${slug}-${locale}.svg`;
+  const localeCover = `/blog/covers/${slug}-${locale}.png` || `/blog/covers/${slug}-${locale}.svg`;
 
   return {
     title: `${title} - Cataito Blog`,
@@ -71,7 +71,7 @@ export default async function BlogDetailPage({ params }: Props) {
     url: `${BASE_URL}/${locale}/blog/${slug}`,
   });
 
-  const localeCover = `/blog/covers/${slug}-${locale}.svg`;
+  const localeCover = `/blog/covers/${slug}-${locale}.png` || `/blog/covers/${slug}-${locale}.svg`;
 
   return <BlogDetailClient post={post} locale={locale} articleJsonLd={articleJsonLd} coverImage={localeCover} />;
 }
