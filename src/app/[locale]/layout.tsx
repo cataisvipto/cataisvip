@@ -20,9 +20,9 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://cataito.com'),
-  title: "Cataito - AI Ecosystem Portal | Your Gateway to AI",
-  description: "Your gateway to the global AI ecosystem. Discover AI models, agents, tools, and resources from around the world.",
-  keywords: "AI portal, AI ecosystem, AI tools, AI models, AI agents, ChatGPT, Claude, Gemini, DeepSeek, AI resources, artificial intelligence",
+  title: "Cataito - Best AI Tools, Models & Agents Directory | Free Reviews",
+  description: "Discover 180+ free and paid AI tools. Compare features, pricing and reviews — from ChatGPT, DeepSeek, Kling AI to Grok. Your AI toolkit starts here.",
+  keywords: "AI portal, AI tools directory, AI models, AI agents, ChatGPT, DeepSeek, Kling AI, Grok, Gemini, Claude, AI reviews, free AI tools, artificial intelligence",
   authors: [{ name: "Cataito" }],
   icons: {
     icon: '/favicon.svg',

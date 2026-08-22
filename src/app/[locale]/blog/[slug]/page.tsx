@@ -30,22 +30,27 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   const title = (post.title as Record<string, string>)[locale] || post.title.en;
   const excerpt = (post.excerpt as Record<string, string>)[locale] || post.excerpt.en;
-  const localeCover = `/blog/covers/${slug}-${locale}.png` || `/blog/covers/${slug}-${locale}.svg`;
+  const localeCover = `/blog/covers/${slug}.png` || `/blog/covers/${slug}-${locale}.svg`;
+
+  // 自定义 SEO（优先），回退到默认标题 + excerpt
+  const seo = post.seo as { title?: Record<string, string>; description?: Record<string, string> } | undefined;
+  const seoTitle = seo?.title?.[locale] || seo?.title?.en || `${title} - Cataito Blog`;
+  const seoDesc = seo?.description?.[locale] || seo?.description?.en || excerpt;
 
   return {
-    title: `${title} - Cataito Blog`,
-    description: excerpt,
+    title: seoTitle,
+    description: seoDesc,
     alternates: generateAlternates(`/blog/${slug}`, locale),
     openGraph: {
       title: `${title} - Cataito`,
-      description: excerpt,
+      description: seoDesc,
       images: [localeCover],
       type: 'article',
     },
     twitter: {
       card: 'summary_large_image',
       title: title,
-      description: excerpt,
+      description: seoDesc,
       images: [localeCover],
     },
   };
@@ -71,7 +76,7 @@ export default async function BlogDetailPage({ params }: Props) {
     url: `${BASE_URL}/${locale}/blog/${slug}`,
   });
 
-  const localeCover = `/blog/covers/${slug}-${locale}.png` || `/blog/covers/${slug}-${locale}.svg`;
+  const localeCover = `/blog/covers/${slug}.png` || `/blog/covers/${slug}-${locale}.svg`;
 
   return <BlogDetailClient post={post} locale={locale} articleJsonLd={articleJsonLd} coverImage={localeCover} />;
 }

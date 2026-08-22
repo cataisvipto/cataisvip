@@ -36,8 +36,8 @@ export function generateAlternates(path: string, currentLocale: string) {
 }
 
 /**
- * 工具详情页本地化 SEO 标题（含长尾关键词：Best/年份/功能/价格/评测）
- * 加 "Best" + 年份前缀，提升搜索 SERP 点击率
+ * 工具详情页本地化 SEO 标题
+ * 品牌前置 + 长尾关键词 + 年份，控制在 60 字符内避免 Google SERP 截断
  */
 export function getToolSeoTitle(
   locale: string,
@@ -45,35 +45,34 @@ export function getToolSeoTitle(
   categoryLabel: string
 ): string {
   const map: Record<string, string> = {
-    en: `Best ${name} ${categoryLabel} AI Tool in 2026 — Features, Pricing & Review | Cataito`,
-    zh: `2026年最佳${name}：${categoryLabel} AI 工具 — 功能、价格与评测 | Cataito`,
-    ja: `2026年ベスト${name}：${categoryLabel} AIツール — 機能・料金・レビュー | Cataito`,
-    es: `Mejor ${name}: herramienta de IA de ${categoryLabel} en 2026 — funciones, precios y opiniones | Cataito`,
-    fr: `Meilleur ${name} : outil IA ${categoryLabel} en 2026 — fonctionnalités, tarifs et avis | Cataito`,
+    en: `${name} — Best ${categoryLabel} AI Tool in 2026 | Cataito`,
+    zh: `${name} — 2026年最佳${categoryLabel} AI 工具 | Cataito`,
+    ja: `${name} — 2026年ベスト${categoryLabel} AIツール | Cataito`,
+    es: `${name} — Mejor herramienta IA de ${categoryLabel} 2026 | Cataito`,
+    fr: `${name} — Meilleur outil IA ${categoryLabel} 2026 | Cataito`,
   };
   return map[locale] || map.en;
 }
 
 /**
- * 工具详情页本地化 Meta Description（150-160 字符，含 CTA）
- * 比裸用 description 更吸引点击
+ * 工具详情页本地化 Meta Description（≤160 字符，含 CTA + 价格信号）
  */
 export function getToolMetaDescription(
   locale: string,
   name: string,
   categoryLabel: string,
-  rawDescription: string
+  rawDescription: string,
+  tags?: string[]
 ): string {
-  // 截断 rawDescription 到合适长度，避免溢出
-  const maxLen = 80;
-  const truncated = rawDescription.slice(0, maxLen).replace(/[.。!！?？…]+$/, '');
+  const freeTag = tags?.includes('Free') ? ' Free' : '';
+  const truncated = rawDescription.slice(0, 65).replace(/[.。!！?？…]+$/, '');
 
   const map: Record<string, string> = {
-    en: `${name} is a ${categoryLabel} AI tool. ${truncated}. Compare features, pricing, pros/cons and use cases. Find the best AI tool for your needs.`,
-    zh: `${name} 是一款 ${categoryLabel} AI 工具。${truncated}。对比功能、价格、优缺点和使用案例，找到最适合你的 AI 工具。`,
-    ja: `${name}は${categoryLabel} AIツールです。${truncated}。機能・料金・メリット・デメリットを比較し、最適なAIツールを見つけましょう。`,
-    es: `${name} es una herramienta de IA de ${categoryLabel}. ${truncated}. Compare funciones, precios, pros/contra y casos de uso. Encuentre la mejor herramienta de IA.`,
-    fr: `${name} est un outil IA ${categoryLabel}. ${truncated}. Comparez fonctionnalités, tarifs, avantages/inconvénients et cas d'utilisation. Trouvez le meilleur outil IA.`,
+    en: `${name} is a${freeTag} ${categoryLabel} AI tool. ${truncated}. Compare features, pricing, pros/cons — find your ideal AI tool.`,
+    zh: `${name} 是一款${freeTag ? '免费' : ''}${categoryLabel} AI 工具。${truncated}。对比功能、价格、优缺点，找到最合适的 AI 工具。`,
+    ja: `${name}は${freeTag ? '無料の' : ''}${categoryLabel} AIツールです。${truncated}。機能・料金・メリット・デメリットを比較。`,
+    es: `${name} es una herramienta${freeTag ? ' gratuita' : ''} de IA de ${categoryLabel}. ${truncated}. Compare funciones, precios y opiniones.`,
+    fr: `${name} est un outil${freeTag ? ' gratuit' : ''} IA ${categoryLabel}. ${truncated}. Comparez fonctionnalités, tarifs et avis.`,
   };
   return map[locale] || map.en;
 }
@@ -121,33 +120,33 @@ export function getHomeSeo(locale: string): {
 } {
   const map: Record<string, { title: string; description: string }> = {
     en: {
-      title: 'Cataito - AI Ecosystem Portal | Your Gateway to AI',
+      title: 'Cataito - Best AI Tools, Models & Agents Directory | Free Reviews',
       description:
-        'Your gateway to the global AI ecosystem. Discover AI models, agents, tools, and resources from around the world.',
+        'Discover 180+ free and paid AI tools. Compare features, pricing and reviews — from ChatGPT, DeepSeek, Kling AI to Grok. Your AI toolkit starts here.',
     },
     zh: {
-      title: 'Cataito - AI 生态门户 | 探索全球 AI 工具与模型',
+      title: 'Cataito — AI 工具/模型/智能体精选目录 | 免费评测',
       description:
-        '通往全球 AI 生态的门户。发现来自世界各地的 AI 模型、智能体、工具与资源。',
+        '180+ 免费与付费 AI 工具精选目录。对比功能、价格与评测 — ChatGPT、DeepSeek、Kling AI、Grok 一网打尽。',
     },
     ja: {
-      title: 'Cataito - AIエコシステムポータル | AIへの入口',
+      title: 'Cataito — AIツール・モデル・エージェント総合ディレクトリ',
       description:
-        '世界のAIエコシステムへの入口。世界中のAIモデル、エージェント、ツール、リソースを発見しましょう。',
+        '180以上の無料・有料AIツールを網羅。ChatGPT、DeepSeek、Kling AI、Grokなど、機能・料金・レビューを比較。',
     },
     es: {
-      title: 'Cataito - Portal del Ecosistema de IA | Tu puerta a la IA',
+      title: 'Cataito - Mejor Directorio de Herramientas, Modelos y Agentes de IA',
       description:
-        'Tu puerta al ecosistema global de IA. Descubre modelos, agentes, herramientas y recursos de IA de todo el mundo.',
+        'Descubre más de 180 herramientas de IA. Compara funciones y precios de ChatGPT, DeepSeek, Kling AI, Grok y más.',
     },
     fr: {
-      title: "Cataito - Portail de l'Écosystème IA | Votre porte vers l'IA",
+      title: "Cataito - Meilleur Répertoire d'Outils, Modèles et Agents IA",
       description:
-        "Votre porte vers l'écosystème mondial de l'IA. Découvrez modèles, agents, outils et ressources d'IA du monde entier.",
+        "Découvrez 180+ outils IA gratuits et payants. Comparez fonctionnalités et tarifs de ChatGPT, DeepSeek, Kling AI et Grok.",
     },
   };
   const keywords =
-    'AI portal, AI ecosystem, AI tools, AI models, AI agents, ChatGPT, Claude, Gemini, DeepSeek, Grok, AI resources, artificial intelligence';
+    'AI portal, AI tools directory, AI models, AI agents, ChatGPT, DeepSeek, Kling AI, Grok, Gemini, Claude, AI reviews, free AI tools, artificial intelligence';
   return { ...(map[locale] || map.en), keywords };
 }
 

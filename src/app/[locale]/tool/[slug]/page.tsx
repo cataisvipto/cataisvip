@@ -47,8 +47,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const tCategories = await getTranslations({ locale, namespace: 'categories' });
   const categoryLabel = tCategories(tool.category);
   const title = getToolSeoTitle(locale, displayName, categoryLabel);
-  // 优化版 Meta Description（含 CTA，比裸用 description 更吸引点击）
-  const metaDescription = getToolMetaDescription(locale, displayName, categoryLabel, description);
+  // 优化版 Meta Description（含 CTA + 免费标签信号，比裸用 description 更吸引点击）
+  const metaDescription = getToolMetaDescription(locale, displayName, categoryLabel, description, tool.tags);
 
   return {
     title,
