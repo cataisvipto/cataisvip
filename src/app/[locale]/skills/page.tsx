@@ -3,6 +3,8 @@ import SkillsClient from './SkillsClient';
 import skills from '@/data/skills.json';
 import { generateAlternates } from '@/lib/seo';
 
+export const revalidate = 3600;
+
 interface Props {
   params: Promise<{ locale: string }>;
 }

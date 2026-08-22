@@ -7,6 +7,8 @@ import tutorials from '@/data/tutorials.json';
 import { generateAlternates } from '@/lib/seo';
 import { routing } from '@/i18n/routing';
 
+export const revalidate = 3600;
+
 interface Props {
   params: Promise<{ locale: string; slug: string }>;
 }

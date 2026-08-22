@@ -6,6 +6,8 @@ import { routing } from '@/i18n/routing';
 import { generateAlternates, generateArticleJsonLd, BASE_URL } from '@/lib/seo';
 import BlogDetailClient from './BlogDetailClient';
 
+export const revalidate = 3600;
+
 interface Props {
   params: Promise<{ locale: string; slug: string }>;
 }

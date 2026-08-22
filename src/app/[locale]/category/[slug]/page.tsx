@@ -7,6 +7,8 @@ import type { Tool } from '@/components/ToolCard';
 import CategoryClient from './CategoryClient';
 import { CATEGORIES, categoryToSlug, slugToCategory } from '@/lib/categories';
 
+export const revalidate = 3600;
+
 export function generateStaticParams() {
   return CATEGORIES.map((cat) => ({ slug: categoryToSlug(cat) }));
 }

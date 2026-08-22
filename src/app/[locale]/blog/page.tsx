@@ -4,6 +4,8 @@ import blogPosts from '@/data/blogPosts.json';
 import BlogClient from './BlogClient';
 import { generateAlternates } from '@/lib/seo';
 
+export const revalidate = 3600;
+
 interface Props {
   params: Promise<{ locale: string }>;
 }

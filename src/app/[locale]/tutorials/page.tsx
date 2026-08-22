@@ -4,6 +4,8 @@ import tutorials from '@/data/tutorials.json';
 import TutorialsClient from './TutorialsClient';
 import { generateAlternates } from '@/lib/seo';
 
+export const revalidate = 3600;
+
 interface Props {
   params: Promise<{ locale: string }>;
 }

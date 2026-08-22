@@ -10,6 +10,8 @@ import ToolDetailClient from './ToolDetailClient';
 import { routing } from '@/i18n/routing';
 import { generateAlternates, getToolSeoTitle, getToolMetaDescription, generateSoftwareAppJsonLd } from '@/lib/seo';
 
+export const revalidate = 3600;
+
 interface Props {
   params: Promise<{ locale: string; slug: string }>;
 }

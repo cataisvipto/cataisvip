@@ -7,6 +7,8 @@ import { generateAlternates, generateHowToJsonLd, BASE_URL } from '@/lib/seo';
 import TutorialDetailClient from './TutorialDetailClient';
 import type { Tutorial } from '../TutorialsClient';
 
+export const revalidate = 3600;
+
 const tutorials = tutorialsData as Tutorial[];
 
 interface Props {

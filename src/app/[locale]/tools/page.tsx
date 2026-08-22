@@ -5,6 +5,8 @@ import { generateAlternates, BASE_URL } from '@/lib/seo';
 import type { Tool } from '@/components/ToolCard';
 import ToolsClient from './ToolsClient';
 
+export const revalidate = 3600;
+
 interface PageProps {
   params: Promise<{ locale: string }>;
 }

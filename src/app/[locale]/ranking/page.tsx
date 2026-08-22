@@ -3,6 +3,8 @@ import RankingClient from './RankingClient';
 import ranking from '@/data/ranking.json';
 import { generateAlternates } from '@/lib/seo';
 
+export const revalidate = 3600;
+
 interface Props {
   params: Promise<{ locale: string }>;
 }
