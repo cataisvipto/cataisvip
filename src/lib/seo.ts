@@ -202,7 +202,7 @@ export function generateOrganizationJsonLd(): Record<string, unknown> {
     sameAs: [
       'https://github.com/cataito-lab',
       'https://cataito.com',
-      'https://x.com/catai_ai',
+      'https://x.com/cataitocom',
     ],
   };
 }
