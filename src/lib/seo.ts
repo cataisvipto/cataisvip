@@ -201,6 +201,8 @@ export function generateOrganizationJsonLd(): Record<string, unknown> {
     description: 'Independent directory and review platform for AI tools, models, agents, MCP servers, and developer skills — founded in 2025.',
     sameAs: [
       'https://github.com/cataito-lab',
+      'https://cataito.com',
+      'https://x.com/catai_ai',
     ],
   };
 }
@@ -270,8 +272,10 @@ export function generateSoftwareAppJsonLd(params: {
   applicationCategory: string;
   operatingSystem: string;
   offers: { price: string; priceCurrency: string };
+  datePublished?: string;
+  dateModified?: string;
 }) {
-  return {
+  const out: Record<string, unknown> = {
     '@context': 'https://schema.org',
     '@type': 'SoftwareApplication',
     name: params.name,
@@ -284,6 +288,9 @@ export function generateSoftwareAppJsonLd(params: {
     publisher: { '@type': 'Organization', name: 'Cataito', url: 'https://cataito.com' },
     offers: { '@type': 'Offer', ...params.offers, url: params.url },
   };
+  if (params.datePublished) out.datePublished = params.datePublished;
+  if (params.dateModified) out.dateModified = params.dateModified;
+  return out;
 }
 
 /**

@@ -128,6 +128,7 @@ export default async function ToolDetailPage({ params }: Props) {
   // SoftwareApplication.url 必须指向本站页面 URL（而非 tool.url 产品外链），
   // 否则 Google 会将该 schema 视作推荐外链而非本页描述
   const pageUrl = `https://cataito.com/${locale}/tool/${slug}`;
+  const detailMeta = ((details as { meta?: Record<string, unknown> })?.meta as { lastVerified?: string; verdictDate?: string }) || {};
   const tCategories = await getTranslations({ locale, namespace: 'categories' });
   const categoryLabel = tCategories(tool.category);
   const description = (() => {
@@ -157,6 +158,8 @@ export default async function ToolDetailPage({ params }: Props) {
       price: tool.tags.includes('Free') ? '0' : tool.tags.includes('Paid') ? '' : '0',
       priceCurrency: 'USD',
     },
+    datePublished: detailMeta.verdictDate,
+    dateModified: detailMeta.lastVerified,
   });
 
   return (
