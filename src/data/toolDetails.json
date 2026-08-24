@@ -43916,9 +43916,95 @@
     ],
     "meta": {
       "lastVerified": "2026-08-02",
-      "verdictDate": "2026-08-02",
+      "verdictDate": "2026-08-24",
       "pricingVerified": "2026-08-02",
       "pricingUrl": "https://gsap.com/pricing/"
+    },
+    "verdict": {
+      "badge": "Highly Recommended",
+      "headline": {
+        "en": "The animation workhorse behind 11M+ websites — unmatched in performance, compatibility, and ecosystem.",
+        "zh": "1100 万+ 网站都在用的动画基石——性能、兼容性、生态无人能及。",
+        "ja": "1100万サイト以上のアニメーションを支える中核エンジン——パフォーマンス、互換性、エコシステムで敵なし。",
+        "es": "El motor de animación detrás de más de 11M de sitios web — sin igual en rendimiento, compatibilidad y ecosistema.",
+        "fr": "Le moteur d'animation derrière plus de 11M de sites web — inégalé en performance, compatibilité et écosystème."
+      },
+      "body": {
+        "en": "GSAP (GreenSock Animation Platform) has ruled JavaScript animation for over 15 years and remains the most trusted frontend animation library in the world. Its core strength is performance — it consistently holds 60fps even on low-end mobile devices, while maintaining compatibility with legacy browsers like IE11. ScrollTrigger makes scroll-driven animations intuitive and is the industry standard for parallax, reveal, and timeline effects. Premium plugins like MorphSVG, MotionPath, and DrawSVG cover the full spectrum of SVG animation. The one soft spot is its commercial licensing threshold: projects crossing certain user-count thresholds must purchase a commercial license, which can be a cost consideration for solo indie developers. But for enterprise-grade projects and cross-browser scenarios, GSAP has no real alternative.",
+        "zh": "GSAP（GreenSock Animation Platform）已经统治 JavaScript 动画领域超过 15 年，是全球最被信任的前端动画库。它的核心优势在于极致性能——即使在低端移动设备上也能稳定保持 60fps，且兼容 IE11 这样的古老浏览器。ScrollTrigger 让滚动驱动动画变得简单直观，是 Parallax、reveal、timeline 效果的行业标准。MorphSVG、MotionPath、DrawSVG 等高级插件覆盖了 SVG 动画的全部场景。唯一的软肋是商业授权收费门槛：当网站用户量达到一定规模时需购买商业许可，对创业型独立开发者有一定成本。但对企业级项目和需要跨浏览器兼容的场景来说，GSAP 几乎没有替代品。",
+        "ja": "GSAP（GreenSock Animation Platform）は15年以上JavaScriptアニメーションを牽引し、世界中で最も信頼されるフロントエンドアニメーションライブラリです。中核はパフォーマンス——低スペックモバイルでも安定60fps、IE11のようなレガシーブラウザにも対応。ScrollTriggerはスクロール駆動アニメーションを直感的にし、パララックス・リビル・タイムライン効果の業界標準。MorphSVG、MotionPath、DrawSVGなどのプレミアムプラグインでSVGアニメーションを完全にカバー。唯一の弱点は商用ライセンスの課金基準で、ユーザー数を超えたプロジェクトは商用ライセンス購入が必要。ソロ開発者にはコスト面の考慮点ですが、エンタープライズ級プロジェクトとクロスブラウザ対応が必要な場合、GSAPに真の代替はありません。",
+        "es": "GSAP (GreenSock Animation Platform) ha dominado la animación en JavaScript durante más de 15 años y sigue siendo la biblioteca de animación frontend más confiable del mundo. Su fortaleza principal es el rendimiento: mantiene consistentemente 60fps incluso en dispositivos móviles de gama baja, mientras mantiene compatibilidad con navegadores antiguos como IE11. ScrollTrigger hace que las animaciones activadas por desplazamiento sean intuitivas y es el estándar de la industria para efectos parallax, revelado y de línea temporal. Plugins premium como MorphSVG, MotionPath y DrawSVG cubren todo el espectro de animación SVG. El único punto débil es su umbral de licencia comercial: proyectos que superan ciertos umbrales de usuarios deben comprar una licencia comercial, lo cual puede ser una consideración de costo para desarrolladores independientes. Pero para proyectos de nivel empresarial y escenarios de navegador cruzado, GSAP no tiene alternativa real.",
+        "fr": "GSAP (GreenSock Animation Platform) domine l'animation JavaScript depuis plus de 15 ans et reste la bibliothèque d'animation frontend la plus fiable au monde. Sa force principale réside dans ses performances : elle maintient constamment 60fps même sur des appareils mobiles d'entrée de gamme, tout en conservant la compatibilité avec des navigateurs legacy comme IE11. ScrollTrigger rend les animations pilotées par le défilement intuitives et est la norme industrielle pour les effets parallax, reveal et timeline. Les plugins premium comme MorphSVG, MotionPath et DrawSVG couvrent tout le spectre de l'animation SVG. Le seul point faible est son seuil de licence commerciale : les projets dépassant certains seuils d'utilisateurs doivent acheter une licence commerciale, ce qui peut être une considération de coût pour les développeurs indépendants. Mais pour les projets de niveau entreprise et les scénarios multi-navigateurs, GSAP n'a pas d'alternative réelle."
+      },
+      "bestFor": {
+        "en": [
+          "Production-grade website animations requiring stable 60fps",
+          "Scroll-driven animations with ScrollTrigger and parallax effects",
+          "SVG motion graphics (MorphSVG, MotionPath)",
+          "Enterprise projects requiring IE11 or legacy browser support",
+          "Complex multi-step timeline animation orchestration"
+        ],
+        "zh": [
+          "需要 60fps 稳定性能的生产级网站动画",
+          "ScrollTrigger 滚动驱动动画与视差效果",
+          "SVG 运动图形（MorphSVG、MotionPath）",
+          "需要兼容 IE11 或老旧浏览器的企业项目",
+          "复杂多步时间线动画编排"
+        ],
+        "ja": [
+          "60fps 安定パフォーマンスが必要な本番級サイトアニメーション",
+          "ScrollTrigger によるスクロール駆動アニメーションとパララックス",
+          "SVGモーショングラフィックス（MorphSVG、MotionPath）",
+          "IE11 やレガシーブラウザ対応が必要なエンタープライズ案件",
+          "複雑な複数ステップのタイムライン編成"
+        ],
+        "es": [
+          "Animaciones de sitio web de nivel producción que requieren 60fps estables",
+          "Animaciones activadas por desplazamiento con ScrollTrigger y efectos parallax",
+          "Motion graphics SVG (MorphSVG, MotionPath)",
+          "Proyectos empresariales que requieren IE11 o soporte de navegadores antiguos",
+          "Orquestación de líneas temporales complejas con múltiples pasos"
+        ],
+        "fr": [
+          "Animations de site web de niveau production nécessitant 60fps stables",
+          "Animations pilotées par le défilement avec ScrollTrigger et effets parallax",
+          "Motion graphics SVG (MorphSVG, MotionPath)",
+          "Projets d'entreprise nécessitant IE11 ou la prise en charge de navigateurs legacy",
+          "Orchestration de timelines complexes multi-étapes"
+        ]
+      },
+      "considerAlternatives": {
+        "en": [
+          "You only need simple page transitions or entrance animations (→ CSS Transitions, Framer Motion)",
+          "You prefer declarative animations in the React ecosystem (→ Framer Motion, React Spring)",
+          "You're on a tight budget with low website traffic (→ anime.js, Motion One)",
+          "You need only 3D animation (→ Three.js, Spline)"
+        ],
+        "zh": [
+          "你只需要简单的页面过渡或入场动画（→ CSS Transitions、Framer Motion）",
+          "你在 React 生态里更倾向声明式动画（→ Framer Motion、React Spring）",
+          "你的预算很紧且网站流量较小（→ anime.js、Motion One）",
+          "你只需要 3D 动画（→ Three.js、Spline）"
+        ],
+        "ja": [
+          "簡単なページ遷移や入りアニメーションだけが必要（→ CSS Transitions、Framer Motion）",
+          "React エコシステムで宣言型アニメーションを好む（→ Framer Motion、React Spring）",
+          "予算が厳しくサイトトラフィックが少ない（→ anime.js、Motion One）",
+          "3D アニメーションのみが必要（→ Three.js、Spline）"
+        ],
+        "es": [
+          "Solo necesitas transiciones de página simples o animaciones de entrada (→ CSS Transitions, Framer Motion)",
+          "Prefieres animaciones declarativas en el ecosistema React (→ Framer Motion, React Spring)",
+          "Tienes un presupuesto ajustado con poco tráfico web (→ anime.js, Motion One)",
+          "Solo necesitas animación 3D (→ Three.js, Spline)"
+        ],
+        "fr": [
+          "Vous avez seulement besoin de transitions de page simples ou d'animations d'entrée (→ CSS Transitions, Framer Motion)",
+          "Vous préférez les animations déclaratives dans l'écosystème React (→ Framer Motion, React Spring)",
+          "Vous avez un budget serré avec peu de trafic web (→ anime.js, Motion One)",
+          "Vous avez seulement besoin d'animation 3D (→ Three.js, Spline)"
+        ]
+      }
     }
   },
   "voicebox": {
