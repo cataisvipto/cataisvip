@@ -153,8 +153,17 @@ export function getHomeSeo(locale: string): {
 /**
  * 生成 WebSite JSON-LD（首页用）
  */
-export function generateWebSiteJsonLd() {
-  return {
+/**
+ * 生成 WebSite JSON-LD（首页用，含同页的 Organization 实体，用 @graph 组合）
+ * @param locale 当前语言，用于动态化 SearchAction.target（避免全站搜索按钮指向 /en）
+ * @param org 可选 Organization 实体；传入时与 WebSite 一起包装在 @graph 数组中，
+ *        Google 会把站点品牌与搜索能力关联起来，对 AI 引用和品牌 SERP 展示有帮助
+ */
+export function generateWebSiteJsonLd(params: {
+  locale?: string;
+  org?: ReturnType<typeof generateOrganizationJsonLd>;
+} = {}): unknown {
+  const site = {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
     name: 'Cataito',
@@ -162,9 +171,37 @@ export function generateWebSiteJsonLd() {
     description: 'Your gateway to the global AI ecosystem. Discover AI models, agents, tools, and resources from around the world.',
     potentialAction: {
       '@type': 'SearchAction',
-      target: `${BASE_URL}/en?search={search_term_string}`,
+      // SearchAction.target 按当前 locale 动态化：此前硬编码 /en 导致多语言站点
+      // 的站内搜索链接都指向英文页，Google 结构化数据检查可能报 "SearchAction.target
+      // should be templated with appropriate locale"。
+      target: `${BASE_URL}/${params.locale || 'en'}?search={search_term_string}`,
       'query-input': 'required name=search_term_string',
     },
+  };
+  if (params.org) {
+    return {
+      '@context': 'https://schema.org',
+      '@graph': [site, params.org],
+    };
+  }
+  return site;
+}
+
+/**
+ * 生成 Organization JSON-LD（首页用，Google 品牌实体识别）
+ * 帮助 Google 在 AI Overviews / Knowledge Panel / AI Mode 中把
+ * cataito.com 与品牌 "Cataito" 关联，避免被视作无名聚合站。
+ */
+export function generateOrganizationJsonLd(): Record<string, unknown> {
+  return {
+    '@type': 'Organization',
+    name: 'Cataito',
+    url: BASE_URL,
+    logo: `${BASE_URL}/logo.png`,
+    description: 'Independent directory and review platform for AI tools, models, agents, MCP servers, and developer skills — founded in 2025.',
+    sameAs: [
+      'https://github.com/cataito-lab',
+    ],
   };
 }
 

@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { generateAlternates, generateWebSiteJsonLd, getHomeSeo } from '@/lib/seo';
+import { generateAlternates, generateWebSiteJsonLd, generateOrganizationJsonLd, getHomeSeo } from '@/lib/seo';
 import HomePageClient from './HomePageClient';
 
 // Cloudflare Cache Everything 已设 1h；这里再设 1h 作为第二层缓存兜底
@@ -31,8 +31,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
-export default function HomePage() {
-  const webSiteJsonLd = generateWebSiteJsonLd();
+export default async function HomePage(props: Props) {
+  const { locale } = await props.params;
+  const webSiteJsonLd = generateWebSiteJsonLd({
+    locale, // SearchAction target 按当前语种动态化（/en 或 /zh）
+    org: generateOrganizationJsonLd(),
+  });
 
   return (
     <>
