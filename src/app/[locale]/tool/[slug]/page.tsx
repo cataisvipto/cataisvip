@@ -125,6 +125,9 @@ export default async function ToolDetailPage({ params }: Props) {
 
   // 服务端 JSON-LD（Googlebot 可靠读取）
   const displayName = locale === 'zh' && tool.nameZh ? tool.nameZh : tool.name;
+  // SoftwareApplication.url 必须指向本站页面 URL（而非 tool.url 产品外链），
+  // 否则 Google 会将该 schema 视作推荐外链而非本页描述
+  const pageUrl = `https://cataito.com/${locale}/tool/${slug}`;
   const tCategories = await getTranslations({ locale, namespace: 'categories' });
   const categoryLabel = tCategories(tool.category);
   const description = (() => {
@@ -146,7 +149,7 @@ export default async function ToolDetailPage({ params }: Props) {
     name: displayName,
     description,
     image: tool.logo,
-    url: tool.url,
+    url: pageUrl,
     developer: tool.developer || 'Cataito',
     applicationCategory: categoryLabel,
     operatingSystem: osList,

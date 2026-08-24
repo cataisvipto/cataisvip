@@ -18,39 +18,54 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
-  metadataBase: new URL('https://cataito.com'),
-  title: "Cataito - Best AI Tools, Models & Agents Directory | Free Reviews",
-  description: "Discover 180+ free and paid AI tools. Compare features, pricing and reviews — from ChatGPT, DeepSeek, Kling AI to Grok. Your AI toolkit starts here.",
-  keywords: "AI portal, AI tools directory, AI models, AI agents, ChatGPT, DeepSeek, Kling AI, Grok, Gemini, Claude, AI reviews, free AI tools, artificial intelligence",
-  authors: [{ name: "Cataito" }],
-  icons: {
-    icon: '/favicon.svg',
-    apple: '/favicon.svg',
-  },
-  openGraph: {
-    title: "Cataito - AI Ecosystem Portal",
-    description: "Discover AI models, agents, tools, and resources from around the world.",
-    type: "website",
-    locale: "en_US",
-    siteName: "Cataito",
-    images: [{ url: '/logo.png', width: 512, height: 512, alt: 'Cataito' }],
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Cataito - AI Ecosystem Portal",
-    description: "Your gateway to the global AI ecosystem.",
-    images: ['/logo.png'],
-  },
-  robots: {
-    index: true,
-    follow: true,
-    googleBot: {
-      index: true,
-      follow: true,
+// 临时 noindex 语种列表：2026-03 spam update 强化 Scaled Content Abuse 打击，
+// 实测 195/195 工具的 ja/es/fr description 与英文完全相同（无本地化），
+// 在本地化完成前先对这些语种全站 noindex，隔离风险。
+// TODO: 完成本地化翻译后从此数组移除对应语种，恢复 index。
+const TEMP_NOINDEX_LOCALES = new Set(['ja', 'es', 'fr']);
+
+interface LayoutMetadataProps {
+  params: Promise<{ locale: string }>;
+}
+
+export async function generateMetadata({ params }: LayoutMetadataProps): Promise<Metadata> {
+  const { locale } = await params;
+  const noindex = TEMP_NOINDEX_LOCALES.has(locale);
+
+  return {
+    metadataBase: new URL('https://cataito.com'),
+    title: "Cataito - Best AI Tools, Models & Agents Directory | Free Reviews",
+    description: "Discover 180+ free and paid AI tools. Compare features, pricing and reviews — from ChatGPT, DeepSeek, Kling AI to Grok. Your AI toolkit starts here.",
+    keywords: "AI portal, AI tools directory, AI models, AI agents, ChatGPT, DeepSeek, Kling AI, Grok, Gemini, Claude, AI reviews, free AI tools, artificial intelligence",
+    authors: [{ name: "Cataito" }],
+    icons: {
+      icon: '/favicon.svg',
+      apple: '/favicon.svg',
     },
-  },
-};
+    openGraph: {
+      title: "Cataito - AI Ecosystem Portal",
+      description: "Discover AI models, agents, tools, and resources from around the world.",
+      type: "website",
+      locale: locale === 'zh' ? 'zh_CN' : locale === 'ja' ? 'ja_JP' : locale === 'es' ? 'es_ES' : locale === 'fr' ? 'fr_FR' : 'en_US',
+      siteName: "Cataito",
+      images: [{ url: '/logo.png', width: 512, height: 512, alt: 'Cataito' }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: "Cataito - AI Ecosystem Portal",
+      description: "Your gateway to the global AI ecosystem.",
+      images: ['/logo.png'],
+    },
+    robots: {
+      index: !noindex,
+      follow: !noindex,
+      googleBot: {
+        index: !noindex,
+        follow: !noindex,
+      },
+    },
+  };
+}
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));

@@ -10,7 +10,11 @@ import { CATEGORY_SLUGS } from '@/lib/categories';
 const BASE_URL = 'https://cataito.com';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const locales = routing.locales;
+  // 与 [locale]/layout.tsx 的 TEMP_NOINDEX_LOCALES 同步：
+  // 对 ja/es/fr 站点全站 noindex（195/195 工具描述未本地化），
+  // sitemap 一并剔除，避免 Google 收到矛盾信号。
+  const INDEXED_LOCALES = routing.locales.filter((l) => !['ja', 'es', 'fr'].includes(l));
+  const locales = INDEXED_LOCALES;
 
   // Static pages（/tools /skills /mcp 为列表页，权重高于普通静态页）
   const staticPages = ['', '/tools', '/skills', '/mcp', '/submit', '/about', '/privacy', '/disclaimer', '/editorial-policy', '/blog', '/tutorials', '/ranking'].flatMap((path) =>
