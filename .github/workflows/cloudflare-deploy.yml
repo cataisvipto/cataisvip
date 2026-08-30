@@ -11,6 +11,9 @@ on:
         default: false
         type: boolean
 
+env:
+  CF_ACCOUNT_ID: 8f9029f4b262cd970bccf8e07200942e
+
 permissions:
   contents: read
   deployments: write
@@ -34,13 +37,28 @@ jobs:
       - name: Build
         run: npm run pages:build
 
-      - name: Deploy to Cloudflare
-        uses: cloudflare/wrangler-action@v3
-        with:
-          apiToken: ${{ secrets.CF_API_TOKEN }}
-          command: deploy .open-next --minify
+      - name: Verify build output
+        run: |
+          ls -la .open-next/worker.js
+          du -sh .open-next/
+          find .open-next/assets -type f | wc -l
 
-      - name: Smoke test
+      # Use direct npx wrangler instead of cloudflare/wrangler-action@v3 which
+      # silently failed (exit code 1 without useful logs). Pass --config
+      # explicitly because the config is named wrangler.jsonc.
+      - name: Deploy Worker
+        env:
+          CLOUDFLARE_API_TOKEN: "${{ secrets.CF_API_TOKEN }}"
+          CLOUDFLARE_ACCOUNT_ID: ${{ env.CF_ACCOUNT_ID }}
+        run: npx wrangler deploy --config wrangler.jsonc --minify
+
+      - name: Print next steps
+        run: |
+          echo "Worker deployed. Check https://cataito.zhyoyx.workers.dev/en"
+          echo "Manual domain binding: dash.cloudflare.com -> Workers & Pages -> cataito"
+          echo "  -> Settings -> Domains & Routes -> Add -> Custom domain -> cataito.com"
+
+      - name: Smoke test (only if smoke_test=true)
         if: ${{ github.event_name == 'workflow_dispatch' && inputs.smoke_test == true }}
         run: |
           sleep 15
