@@ -1,0 +1,108 @@
+# Cloudflare Pages _redirects
+# 替代 src/middleware.ts 的 301 重定向逻辑
+# 格式：/from/to/from/to/from [status]
+# 参考：https://developers.cloudflare.com/pages/platform/redirects/
+
+# 根路径 → 英文默认
+/ /en 301
+
+# 无语言前缀的列表页 → 加 /en 前缀
+/tools /en/tools 301
+/skills /en/skills 301
+/mcp /en/mcp 301
+/blog /en/blog 301
+/tutorials /en/tutorials 301
+/ranking /en/ranking 301
+/submit /en/submit 301
+/about /en/about 301
+/privacy /en/privacy 301
+/disclaimer /en/disclaimer 301
+/editorial-policy /en/editorial-policy 301
+
+# 无语言前缀的详情页 → 加 /en 前缀
+# CF Pages _redirects 支持 glob，但 :slug 语法不支持。
+# 用 * 通配符捕获 slug 部分。
+/tool/* /en/tool/* 301
+/skills/* /en/skills/* 301
+/mcp/* /en/mcp/* 301
+/tutorials/* /en/tutorials/* 301
+/blog/* /en/blog/* 301
+/category/* /en/category/* 301
+
+# 尾斜杠修复（带语言前缀的页面）
+/en/ /en 301
+/zh/ /zh 301
+/ja/ /ja 301
+/es/ /es 301
+/fr/ /fr 301
+
+# 已知带尾斜杠的 Google 收录页面（重定向循环）
+# Next.js redirects() 原本用 wildcard，这里逐个列出
+/en/tools/ /en/tools 301
+/en/skills/ /en/skills 301
+/en/mcp/ /en/mcp 301
+/en/blog/ /en/blog 301
+/en/tutorials/ /en/tutorials 301
+/en/ranking/ /en/ranking 301
+/en/submit/ /en/submit 301
+/en/about/ /en/about 301
+/en/privacy/ /en/privacy 301
+/en/disclaimer/ /en/disclaimer 301
+/en/editorial-policy/ /en/editorial-policy 301
+/zh/tools/ /zh/tools 301
+/zh/skills/ /zh/skills 301
+/zh/mcp/ /zh/mcp 301
+/zh/blog/ /zh/blog 301
+/zh/tutorials/ /zh/tutorials 301
+/zh/ranking/ /zh/ranking 301
+/zh/submit/ /zh/submit 301
+/zh/about/ /zh/about 301
+/zh/privacy/ /zh/privacy 301
+/zh/disclaimer/ /zh/disclaimer 301
+/zh/editorial-policy/ /zh/editorial-policy 301
+/ja/tools/ /ja/tools 301
+/ja/skills/ /ja/skills 301
+/ja/mcp/ /ja/mcp 301
+/ja/blog/ /ja/blog 301
+/ja/tutorials/ /ja/tutorials 301
+/ja/ranking/ /ja/ranking 301
+/ja/submit/ /ja/submit 301
+/ja/about/ /ja/about 301
+/ja/privacy/ /ja/privacy 301
+/ja/disclaimer/ /ja/disclaimer 301
+/ja/editorial-policy/ /ja/editorial-policy 301
+/es/tools/ /es/tools 301
+/es/skills/ /es/skills 301
+/es/mcp/ /es/mcp 301
+/es/blog/ /es/blog 301
+/es/tutorials/ /es/tutorials 301
+/es/ranking/ /es/ranking 301
+/es/submit/ /es/submit 301
+/es/about/ /es/about 301
+/es/privacy/ /es/privacy 301
+/es/disclaimer/ /es/disclaimer 301
+/es/editorial-policy/ /es/editorial-policy 301
+/fr/tools/ /fr/tools 301
+/fr/skills/ /fr/skills 301
+/fr/mcp/ /fr/mcp 301
+/fr/blog/ /fr/blog 301
+/fr/tutorials/ /fr/tutorials 301
+/fr/ranking/ /fr/ranking 301
+/fr/submit/ /fr/submit 301
+/fr/about/ /fr/about 301
+/fr/privacy/ /fr/privacy 301
+/fr/disclaimer/ /fr/disclaimer 301
+/fr/editorial-policy/ /fr/editorial-policy 301
+
+# 分类扩容重定向（阶段二）
+# 5 语言 × 2 类 = 10 条
+/en/category/platform /en/category/open-source 301
+/zh/category/platform /zh/category/open-source 301
+/ja/category/platform /ja/category/open-source 301
+/es/category/platform /es/category/open-source 301
+/fr/category/platform /fr/category/open-source 301
+/en/category/developer /en/category/api-platform 301
+/zh/category/developer /zh/category/api-platform 301
+/ja/category/developer /ja/category/api-platform 301
+/es/category/developer /es/category/api-platform 301
+/fr/category/developer /fr/category/api-platform 301

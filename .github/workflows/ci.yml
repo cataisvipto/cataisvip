@@ -47,8 +47,7 @@ jobs:
           node-version: 22
           cache: npm
 
-      # --legacy-peer-deps: 防御性配置。OpenNext CF 的 peer 范围（next >=15.5.24 <16 || >=16.3.3）
-      # 曾经把 Next 16.2.x 卡在中间，即使升到 16.3.3 也保留此 flag 应对未来版本间隙。
+      # --legacy-peer-deps: 防御性配置，应对未来版本间隙。
       - run: npm install --legacy-peer-deps
 
       - run: npm run lint
@@ -57,10 +56,10 @@ jobs:
 
       - run: npx next build
 
-      # 启动生产服务器进行冒烟测试
+      # 启动静态文件服务器（output: 'export' 后无 next start，用 serve 托管 out/）
       - name: 启动本地服务器
         run: |
-          npx next start &
+          npx serve out -l 3000 &
           echo "PID=$!"
           # 等待服务器就绪（最多尝试 30 次，每次 2 秒）
           for i in $(seq 1 30); do
