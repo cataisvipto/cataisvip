@@ -10,6 +10,9 @@
     "build:quick": "next build --no-lint",
     "start": "next start",
     "lint": "eslint",
+    "preview": "npx wrangler dev --port 8787",
+    "pages:build": "npx @opennextjs/cloudflare build",
+    "pages:deploy": "npx @opennextjs/cloudflare deploy",
     "test": "node scripts/validate-schemas.js && node scripts/validate-data.js && node scripts/check-i18n.js && node scripts/check-css-vars.js && node scripts/check-component-behavior.js",
     "test:component": "node scripts/check-component-behavior.js",
     "test:data": "node scripts/validate-data.js",
@@ -33,6 +36,7 @@
     "react-dom": "19.2.4"
   },
   "devDependencies": {
+    "@opennextjs/cloudflare": "^1.20.4",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
@@ -43,7 +47,8 @@
     "eslint-config-next": "16.2.12",
     "google-auth-library": "^10.9.1",
     "tailwindcss": "^4",
-    "typescript": "^5"
+    "typescript": "^5",
+    "wrangler": "^4.127.1"
   },
   "overrides": {
     "postcss": ">=8.5.18",

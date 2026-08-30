@@ -16,6 +16,14 @@
 # next.js
 /.next/
 /out/
+/.open-next/
+
+# cloudflare
+.wrangler/
+.dev.vars
+
+# sandbox (work-in-progress, not for commit)
+sandbox-*/
 
 # production
 /build

@@ -9,12 +9,9 @@ const nextConfig: NextConfig = {
   turbopack: {
     root: __dirname,
   },
-  images: {
-    remotePatterns: [
-      { protocol: 'https', hostname: '**' },
-      { protocol: 'http', hostname: '**' },
-    ],
-  },
+  // images 配置已删除：所有 logo 素材都在 public/logos/ 本地目录（314 个），
+  // 不需要 next/image 的 remotePatterns 通配符；
+  // Cloudflare 部署下走 Cloudflare Images（免费、CDN 边缘）
   // 安全头
   async headers() {
     return [
