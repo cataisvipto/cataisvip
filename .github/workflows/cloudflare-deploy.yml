@@ -41,7 +41,7 @@ jobs:
           command: deploy .open-next --minify
 
       - name: Smoke test
-        if: always()
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.smoke_test == true }}
         run: |
           sleep 15
           curl -sSI https://cataito.com/en | grep -E "^(HTTP|content-type|server)" | head -5
