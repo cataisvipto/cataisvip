@@ -47,7 +47,9 @@ jobs:
           node-version: 22
           cache: npm
 
-      - run: npm ci
+      # --legacy-peer-deps: 防御性配置。OpenNext CF 的 peer 范围（next >=15.5.24 <16 || >=16.3.3）
+      # 曾经把 Next 16.2.x 卡在中间，即使升到 16.3.3 也保留此 flag 应对未来版本间隙。
+      - run: npm install --legacy-peer-deps
 
       - run: npm run lint
 
