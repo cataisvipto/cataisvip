@@ -55,7 +55,8 @@ export function getToolSeoTitle(
 }
 
 /**
- * 工具详情页本地化 Meta Description（≤160 字符，含 CTA + 价格信号）
+ * 工具详情页本地化 Meta Description（150-160 字符目标，含 CTA + 价格信号）
+ * Bing 建议 150-160 字符，之前截到 65 太短。现在截到 90-100 字符 + CTA 补全。
  */
 export function getToolMetaDescription(
   locale: string,
@@ -65,7 +66,8 @@ export function getToolMetaDescription(
   tags?: string[]
 ): string {
   const freeTag = tags?.includes('Free') ? ' Free' : '';
-  const truncated = rawDescription.slice(0, 65).replace(/[.。!！?？…]+$/, '');
+  // 保留 90-100 字符（中英日韩西法各自截断），去掉末尾标点
+  const truncated = rawDescription.slice(0, 100).replace(/[.。!！?？…]+$/, '');
 
   const map: Record<string, string> = {
     en: `${name} is a${freeTag} ${categoryLabel} AI tool. ${truncated}. Compare features, pricing, pros/cons — find your ideal AI tool.`,
@@ -73,6 +75,46 @@ export function getToolMetaDescription(
     ja: `${name}は${freeTag ? '無料の' : ''}${categoryLabel} AIツールです。${truncated}。機能・料金・メリット・デメリットを比較。`,
     es: `${name} es una herramienta${freeTag ? ' gratuita' : ''} de IA de ${categoryLabel}. ${truncated}. Compare funciones, precios y opiniones.`,
     fr: `${name} est un outil${freeTag ? ' gratuit' : ''} IA ${categoryLabel}. ${truncated}. Comparez fonctionnalités, tarifs et avis.`,
+  };
+  return map[locale] || map.en;
+}
+
+/**
+ * MCP 详情页本地化 Meta Description（150-160 字符目标）
+ * 数据里的 description 通常 50-90 字符，需要加品牌前缀 + CTA 补全。
+ */
+export function getMcpMetaDescription(
+  locale: string,
+  name: string,
+  rawDescription: string
+): string {
+  const truncated = rawDescription.slice(0, 110).replace(/[.。!！?？…]+$/, '');
+  const map: Record<string, string> = {
+    en: `${name} — an official MCP server. ${truncated}. Connect your AI agents to ${name} capabilities. Compare features and setup guides.`,
+    zh: `${name} 官方 MCP 服务器。${truncated}。让 AI 智能体连接 ${name} 能力，查看功能对比与设置指南。`,
+    ja: `${name} 公式 MCP サーバー。${truncated}。AI エージェントを ${name} に接続し、機能比較とセットアップガイドを確認。`,
+    es: `${name} servidor MCP oficial. ${truncated}. Conecta tus agentes de IA a ${name}. Compara funciones y guías de configuración.`,
+    fr: `${name} serveur MCP officiel. ${truncated}. Connectez vos agents IA à ${name}. Comparez fonctionnalités et guides de configuration.`,
+  };
+  return map[locale] || map.en;
+}
+
+/**
+ * Skills 详情页本地化 Meta Description（150-160 字符目标）
+ * 数据里的 description 通常 30-60 字符，需要加品牌前缀 + CTA 补全。
+ */
+export function getSkillMetaDescription(
+  locale: string,
+  name: string,
+  rawDescription: string
+): string {
+  const truncated = rawDescription.slice(0, 90).replace(/[.。!！?？…]+$/, '');
+  const map: Record<string, string> = {
+    en: `${name} — a developer skill for AI agents. ${truncated}. Install from Cataito and extend your agent capabilities with proven workflows.`,
+    zh: `${name} 是一款 AI 智能体开发技能。${truncated}。从 Cataito 目录安装，一键扩展智能体能力，覆盖编程、文档处理、数据检索等成熟工作流场景。`,
+    ja: `${name} は AI エージェント用開発スキルです。${truncated}。Cataito からインストールして、エージェント能力を拡張。`,
+    es: `${name} es una habilidad de desarrollador para agentes de IA. ${truncated}. Instala desde Cataito y amplía capacidades con flujos probados.`,
+    fr: `${name} est une compétence développeur pour agents IA. ${truncated}. Installez depuis Cataito et étendez les capacités avec des flux éprouvés.`,
   };
   return map[locale] || map.en;
 }
@@ -127,7 +169,7 @@ export function getHomeSeo(locale: string): {
     zh: {
       title: 'Cataito — AI 工具/模型/智能体精选目录 | 免费评测',
       description:
-        '180+ 免费与付费 AI 工具精选目录。对比功能、价格与评测 — ChatGPT、DeepSeek、Kling AI、Grok 一网打尽。',
+        '180+ 免费与付费 AI 工具精选目录。对比 ChatGPT、DeepSeek、Kling AI、Grok 的功能、价格与评测，找到最适合你的 AI 工具、模型和智能体。',
     },
     ja: {
       title: 'Cataito — AIツール・モデル・エージェント総合ディレクトリ',

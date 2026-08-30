@@ -4,7 +4,7 @@ import McpDetailClient from './McpDetailClient';
 import mcpServers from '@/data/mcp.json';
 import mcpDetails from '@/data/mcpDetails.json';
 import tutorials from '@/data/tutorials.json';
-import { generateAlternates } from '@/lib/seo';
+import { generateAlternates, getMcpMetaDescription } from '@/lib/seo';
 import { routing } from '@/i18n/routing';
 
 export const revalidate = 3600;
@@ -41,19 +41,22 @@ export async function generateMetadata({ params }: Props) {
   if (!entry) return { title: t('notFound') };
 
   const name = locale === 'zh' && entry.nameZh ? entry.nameZh : entry.name;
+  const rawDesc = getLocalizedDescription(entry, locale);
+  // Bing SEO 建议 150-160 字符：用 getMcpMetaDescription 包装原始 description
+  const metaDesc = getMcpMetaDescription(locale, name, rawDesc);
   return {
       title: `${name} - ${t('title')}`,
-      description: getLocalizedDescription(entry, locale),
+      description: metaDesc,
       alternates: generateAlternates(`/mcp/${slug}`, locale),
       openGraph: {
         title: `${name} - Cataito MCP`,
-        description: getLocalizedDescription(entry, locale),
+        description: metaDesc,
         images: [entry.logo],
       },
       twitter: {
         card: 'summary',
         title: name,
-        description: getLocalizedDescription(entry, locale),
+        description: metaDesc,
         images: [entry.logo],
       },
     };

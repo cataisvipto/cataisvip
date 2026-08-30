@@ -4,7 +4,7 @@ import SkillDetailClient from './SkillDetailClient';
 import skills from '@/data/skills.json';
 import skillDetails from '@/data/skillDetails.json';
 import tutorials from '@/data/tutorials.json';
-import { generateAlternates } from '@/lib/seo';
+import { generateAlternates, getSkillMetaDescription } from '@/lib/seo';
 import { routing } from '@/i18n/routing';
 
 export const revalidate = 3600;
@@ -41,19 +41,22 @@ export async function generateMetadata({ params }: Props) {
   if (!skill) return { title: t('notFound') };
 
   const name = locale === 'zh' && skill.nameZh ? skill.nameZh : skill.name;
+  const rawDesc = getLocalizedDescription(skill, locale);
+  // Bing SEO 建议 150-160 字符：用 getSkillMetaDescription 包装原始 description
+  const metaDesc = getSkillMetaDescription(locale, name, rawDesc);
   return {
       title: `${name} - ${t('title')}`,
-      description: getLocalizedDescription(skill, locale),
+      description: metaDesc,
       alternates: generateAlternates(`/skills/${slug}`, locale),
       openGraph: {
         title: `${name} - Cataito Skills`,
-        description: getLocalizedDescription(skill, locale),
+        description: metaDesc,
         images: [skill.logo],
       },
       twitter: {
         card: 'summary',
         title: name,
-        description: getLocalizedDescription(skill, locale),
+        description: metaDesc,
         images: [skill.logo],
       },
     };
