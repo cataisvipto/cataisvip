@@ -4,7 +4,11 @@
 # 参考：https://developers.cloudflare.com/pages/platform/redirects/
 
 # 根路径 → 英文默认
+# 已删除 src/app/page.tsx：Next.js 的 redirect() 在 output:'export' 下
+# 会生成 __next_error__ HTML（NEXT_REDIRECT marker 静态化后不执行），
+# 导致浏览器访问 / 白屏。改为完全依赖 _redirects 的 301 处理。
 / /en 301
+/index.html /en/index.html 302
 
 # 无语言前缀的列表页 → 加 /en 前缀
 /tools /en/tools 301
