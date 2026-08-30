@@ -20,14 +20,14 @@
 /editorial-policy /en/editorial-policy 301
 
 # 无语言前缀的详情页 → 加 /en 前缀
-# CF Pages _redirects 支持 glob，但 :slug 语法不支持。
-# 用 * 通配符捕获 slug 部分。
-/tool/* /en/tool/* 301
-/skills/* /en/skills/* 301
-/mcp/* /en/mcp/* 301
-/tutorials/* /en/tutorials/* 301
-/blog/* /en/blog/* 301
-/category/* /en/category/* 301
+# CF Pages _redirects 用 :splat 命名捕获（不是 *，* 是字面量）。
+# 参考：https://developers.cloudflare.com/pages/platform/redirects/#rewrites
+/tool/:splat /en/tool/:splat 301
+/skills/:splat /en/skills/:splat 301
+/mcp/:splat /en/mcp/:splat 301
+/tutorials/:splat /en/tutorials/:splat 301
+/blog/:splat /en/blog/:splat 301
+/category/:splat /en/category/:splat 301
 
 # 尾斜杠修复（带语言前缀的页面）
 /en/ /en 301
