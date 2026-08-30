@@ -1,5 +1,9 @@
 import { MetadataRoute } from 'next';
 
+// output: 'export' 要求路由显式声明为纯静态，否则构建会报错。
+// 详见 https://nextjs.org/docs/advanced-features/static-html-export
+export const dynamic = 'force-static';
+
 export default function robots(): MetadataRoute.Robots {
   return {
     rules: {

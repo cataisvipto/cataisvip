@@ -7,6 +7,9 @@ import mcpServers from '@/data/mcp.json';
 import { routing } from '@/i18n/routing';
 import { CATEGORY_SLUGS } from '@/lib/categories';
 
+// output: 'export' 要求路由显式声明为纯静态。
+export const dynamic = 'force-static';
+
 const BASE_URL = 'https://cataito.com';
 
 export default function sitemap(): MetadataRoute.Sitemap {
