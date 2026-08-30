@@ -4,6 +4,12 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+    inputs:
+      smoke_test:
+        description: 'Run smoke test against https://cataito.com/en after deploy'
+        required: false
+        default: false
+        type: boolean
 
 permissions:
   contents: read
