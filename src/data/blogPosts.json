@@ -72,7 +72,16 @@
       "Claude 4.5"
     ],
     "coverImage": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200&h=630&fit=crop",
-    "readTime": 8
+    "readTime": 8,
+    "seo": {
+      "description": {
+        "zh": "我们在编程、写作、数据分析等 10 个真实场景中对比 GPT-5、Claude 4.5、Gemini 3.0 Pro，给出 2026 年选择建议。",
+        "en": "We benchmark GPT-5, Claude 4.5, and Gemini 3.0 Pro across 10 real scenarios including coding, writing, and data analysis. Here's how to pick in 2026.",
+        "ja": "GPT-5、Claude 4.5、Gemini 3.0 Pro をコーディング、ライティング、データ分析など 10 の実シーンで比較し、2026 年の選択方法を提示します。",
+        "es": "Comparamos GPT-5, Claude 4.5 y Gemini 3.0 Pro en 10 escenarios reales: programación, escritura y análisis de datos. ¿Cómo elegir en 2026?",
+        "fr": "Nous comparons GPT-5, Claude 4.5 et Gemini 3.0 Pro sur 10 scénarios réels : codage, rédaction et analyse de données. Comment choisir en 2026 ?"
+      }
+    }
   },
   {
     "slug": "best-free-ai-tools-2026",
@@ -270,7 +279,16 @@
       "Chinese AI"
     ],
     "coverImage": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=1200&h=630&fit=crop",
-    "readTime": 7
+    "readTime": 7,
+    "seo": {
+      "description": {
+        "zh": "月之暗面一次性开源 Kimi K3 权重、完整技术报告与关键 Infra 基础设施。我们梳理了全部放出内容和值得关注的细节。",
+        "en": "Moonshot AI opens up Kimi K3 weights, full tech report, and key infra in one release. We break down everything that shipped and why it matters.",
+        "ja": "月之暗面が Kimi K3 の重み・完全な技術レポート・主要なインフラを同時に公開。公開された全部内容と注目すべきポイントを整理します。",
+        "es": "Moonshot AI libera los pesos de Kimi K3, el informe técnico completo y la infraestructura clave. Analizamos todo lo publicado y por qué importa.",
+        "fr": "Moonshot AI publie les poids de Kimi K3, le rapport technique complet et l'infrastructure clé. Décryptage de tout ce qui a été livré."
+      }
+    }
   },
   {
     "slug": "deepseek-v4-flash-codex-2026",
@@ -345,6 +363,15 @@
       "2026"
     ],
     "coverImage": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1200&h=630&fit=crop",
-    "readTime": 7
+    "readTime": 7,
+    "seo": {
+      "description": {
+        "zh": "我们评测 14 个分类 55+ 款 MCP 服务器，覆盖开发者、研究人员和企业场景，帮你找到最合适的模型上下文协议服务器。",
+        "en": "We evaluated 55+ MCP servers across 14 categories for developers, researchers, and enterprises. Find the best Model Context Protocol server for your workflow.",
+        "ja": "開発者・研究者・企業向けの MCP サーバーを 14 カテゴリ 55 以上をレビュー。あなたのワークフローに最適な Model Context Protocol サーバーを選びます。",
+        "es": "Evaluamos más de 55 servidores MCP en 14 categorías para desarrolladores, investigadores y empresas. Encuentra el mejor para tu flujo de trabajo.",
+        "fr": "Évaluation de plus de 55 serveurs MCP dans 14 catégories pour développeurs, chercheurs et entreprises. Trouvez le meilleur serveur Model Context Protocol."
+      }
+    }
   }
 ]
