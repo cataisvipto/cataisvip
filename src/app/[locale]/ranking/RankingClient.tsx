@@ -17,7 +17,7 @@ import ranking from '@/data/ranking.json';
  */
 const RANK_LIVE_URL =
   typeof window !== 'undefined'
-    ? `https://cataito-lab.github.io/ranking.json`
+    ? `https://cataito-lab.github.io/cataito/ranking.json`
     : '';
 
 export interface RankingItem {
