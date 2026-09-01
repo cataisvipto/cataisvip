@@ -64,14 +64,6 @@ jobs:
           echo "changed=false" >> "$GITHUB_OUTPUT"
           exit 1
 
-      - name: 上传活数据 artifact
-        if: false
-        uses: actions/upload-artifact@v4
-        with:
-          name: ranking-live
-          path: src/data/ranking.json
-          if-no-files-found: error
-
       - name: Open issue on failure
         if: failure()
         env:
