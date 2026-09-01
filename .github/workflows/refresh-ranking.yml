@@ -113,7 +113,7 @@ jobs:
           git rm -rf --ignore-unmatch . 2>/dev/null || true
 
           # GitHub Pages 只发布分支根目录的文件，放根目录才能被访问
-          cp live/ranking.json ranking.json
+          cp live/src/data/ranking.json ranking.json
           git add ranking.json
           git commit -m "chore(data): ranking live $(DATE)"
           git push --force origin HEAD:pages-data 2>&1
