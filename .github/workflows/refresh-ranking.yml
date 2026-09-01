@@ -65,6 +65,7 @@ jobs:
           exit 1
 
       - name: 上传活数据 artifact
+        if: false
         uses: actions/upload-artifact@v4
         with:
           name: ranking-live
@@ -90,11 +91,6 @@ jobs:
     timeout-minutes: 5
 
     steps:
-      - uses: actions/download-artifact@v4
-        with:
-          name: ranking-live
-          path: live
-
       - uses: actions/checkout@v5
         with:
           fetch-depth: 0
@@ -108,12 +104,12 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          # 始终保持 pages-data 为干净单文件分支：根目录只有 ranking.json
+          # pages-data 保持为干净单文件分支：根目录只有 ranking.json
           git checkout --orphan pages-data
           git rm -rf --ignore-unmatch . 2>/dev/null || true
 
-          # GitHub Pages 只发布分支根目录的文件，放根目录才能被访问
-          cp live/src/data/ranking.json ranking.json
+          # 直接从 main 读数据，放根目录（Pages 只发布根目录文件）
+          cp src/data/ranking.json ranking.json
           git add ranking.json
           git commit -m "chore(data): ranking live $(DATE)"
           git push --force origin HEAD:pages-data 2>&1
