@@ -1,10 +1,14 @@
 name: Update Ranking
 
-# 每日自动刷新 GitHub AI 项目排行榜 + 快照
+# 每日自动刷新 GitHub AI 项目排行榜 + 快照。
 # 双 cron 兜底：GitHub 对低活跃仓库的 schedule 是"尽力而为"，高峰期会被静默丢弃。
 # 两个错峰时刻各跑一次，任一被丢由另一顶上；都跑到也无害（当日快照覆盖写、无变化不提交）。
-# 同时支持手动触发
-
+# 同时支持手动触发。
+#
+# 数据双通道发布（不再依赖主站重新部署）：
+#   ① main 分支：保留 ranking.json 快照 + 每日 star 快照（git 历史可回溯）
+#   ② pages-data 分支：发布到 GitHub Pages（https://cataito-lab.github.io/ranking.json），
+#      排名页客户端实时拉取——数据一更新，页面立即可见，无需整站重发版。
 on:
   schedule:
     - cron: '37 0 * * *' # 主跑：每日 UTC 00:37（北京 08:37）。勿用整点：UTC 00:00 是 GitHub cron 高峰
@@ -22,6 +26,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
 
       - uses: actions/setup-node@v5
         with:
@@ -32,30 +38,39 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: 提交并推送（含快照）
+      - name: 提交并推送快照（main 分支）
+        id: main-push
         run: |
           git add src/data/ranking.json snapshots
           if git diff --cached --quiet; then
             echo "No changes, skip commit."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git commit -m "chore(data): 自动刷新排行榜及快照（$(TZ='Asia/Shanghai' date +%Y-%m-%d)）"
-          # 重试策略：远程有更新时 pull --rebase 再推（最多 3 次）
           for i in 1 2 3; do
             if git push 2>&1; then
-              echo "推送成功"
+              echo "推送成功（main）"
+              echo "changed=true" >> "$GITHUB_OUTPUT"
               exit 0
             fi
             echo "推送失败，第 $i 次重试（pull --rebase）..."
             git pull --rebase --no-edit 2>/dev/null || true
             sleep 2
           done
-          echo "重试耗尽，推送失败"
+          echo "重试耗尽，推送失败（main）"
+          echo "changed=false" >> "$GITHUB_OUTPUT"
           exit 1
 
-      # 失败告警：自动开 issue（醒目、可追溯），避免定时任务静默失败导致快照断档
+      - name: 上传活数据 artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ranking-live
+          path: src/data/ranking.json
+          if-no-files-found: error
+
       - name: Open issue on failure
         if: failure()
         env:
@@ -66,3 +81,44 @@ jobs:
             --title "🚨 排行榜更新失败 $(TZ='Asia/Shanghai' date +%Y-%m-%d)" \
             --body "定时任务运行失败（可能是数据熔断触发或 API 异常）。快照断档无法回补，请尽快排查并手动重跑。日志：${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" \
             || true
+
+  publish-pages:
+    name: 发布活数据到 GitHub Pages
+    needs: rank
+    if: needs.rank.result == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: ranking-live
+          path: live
+
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+          ref: main
+
+      - name: 提交并推送到 pages-data 分支
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          DATE=$(TZ='Asia/Shanghai' date +%Y-%m-%d)
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          if git ls-remote --exit-code --heads origin pages-data; then
+            git checkout --detach "$(git rev-parse HEAD)"
+            git checkout -B pages-data
+          else
+            git checkout --orphan pages-data
+            git rm -rf --ignore-unmatch . 2>/dev/null || true
+          fi
+
+          rm -f src/data/ranking.json
+          cp live/ranking.json src/data/ranking.json
+          git add src/data/ranking.json
+          git commit -m "chore(data): ranking live $(DATE)"
+          git push --force origin HEAD:pages-data 2>&1
+          echo "已发布到 https://cataito-lab.github.io/ranking.json"

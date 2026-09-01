@@ -1,12 +1,24 @@
 'use client';
 
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useTranslations } from 'next-intl';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Breadcrumb from '@/components/Breadcrumb';
 import { Star, GitFork, Trophy, TrendingUp, TrendingDown, Minus, ExternalLink, Info } from 'lucide-react';
 import ScrollReveal from '@/components/ScrollReveal';
+import ranking from '@/data/ranking.json';
+
+/** 排行榜"活"数据源：GitHub Pages 托管的 ranking.json。
+ * ① 排名数据由 refresh-ranking CI 每日刷新并提交到 pages-data 分支；
+ * ② 该分支由 GitHub Pages 自动发布，commit 即生效，不依赖主站重新部署；
+ * ③ 本组件客户端水合后拉取它，比静态壳（build 时烘焙）更新就整体替换渲染。
+ *    因此页面数据 = max(上次 build 快照, 当前远端快照)，永远不早于数据源。
+ */
+const RANK_LIVE_URL =
+  typeof window !== 'undefined'
+    ? `https://cataito-lab.github.io/ranking.json`
+    : '';
 
 export interface RankingItem {
   rank: number;
@@ -20,6 +32,16 @@ export interface RankingItem {
   topics: string[];
   avatar: string | null;
   change: number | null;
+}
+
+interface RankingBoard {
+  name: string;
+  items: RankingItem[];
+}
+
+interface RankingData {
+  updatedAt: string;
+  boards: { all: RankingBoard };
 }
 
 /** GitHub 语言标识色（装饰性小圆点，非内容卡片配色） */
@@ -48,7 +70,6 @@ const MEDAL_STYLES: Record<number, string> = {
 
 function RepoAvatar({ item }: { item: RankingItem }) {
   const [failed, setFailed] = useState(false);
-  // 外链头像加载失败兜底：品牌渐变 + 首字母占位
   if (!item.avatar || failed) {
     return (
       <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-indigo-500 to-cyan-500 flex items-center justify-center shrink-0">
@@ -57,7 +78,6 @@ function RepoAvatar({ item }: { item: RankingItem }) {
     );
   }
   return (
-    // eslint-disable-next-line @next/next/no-img-element
     <img
       src={item.avatar}
       alt={item.fullName}
@@ -101,11 +121,72 @@ interface RankingClientProps {
   locale: string;
 }
 
-export default function RankingClient({ items, updatedAt, locale }: RankingClientProps) {
+export default function RankingClient({ items, updatedAt: serverUpdatedAt, locale }: RankingClientProps) {
   const t = useTranslations('ranking');
   const [searchQuery, setSearchQuery] = useState('');
+  // liveItems: 客户端拉到的"活"数据；未加载 / 拉取失败 / 不如壳新时回退到服务端快照（SEO 兜底）
+  const [liveItems, setLiveItems] = useState<RankingItem[] | null>(null);
+  const [displayDate, setDisplayDate] = useState(serverUpdatedAt);
 
-  const filtered = items.filter(
+  useEffect(() => {
+    if (!RANK_LIVE_URL) return;
+
+    const controller = new AbortController();
+    let settled = false;
+    const fetchLive = async () => {
+      try {
+        const r = await fetch(RANK_LIVE_URL, {
+          signal: controller.signal,
+          cache: 'force-cache',
+          headers: { 'Cache-Control': 'max-age=60' },
+        });
+        if (!r.ok) {
+          if (!settled) {
+            setLiveItems(null);
+            setDisplayDate(serverUpdatedAt);
+          }
+          return;
+        }
+        const d: unknown = await r.json();
+        if (
+          !d ||
+          typeof d !== 'object' ||
+          !Object.prototype.hasOwnProperty.call(d, 'boards') ||
+          !Object.prototype.hasOwnProperty.call(d, 'updatedAt')
+        ) {
+          if (!settled) {
+            setLiveItems(null);
+            setDisplayDate(serverUpdatedAt);
+          }
+          return;
+        }
+        const parsed = d as RankingData;
+        const rows = parsed.boards?.all?.items;
+        if (!Array.isArray(rows)) {
+          if (!settled) {
+            setLiveItems(null);
+            setDisplayDate(serverUpdatedAt);
+          }
+          return;
+        }
+        if (!settled && parsed.updatedAt >= serverUpdatedAt) {
+          settled = true;
+          setLiveItems(rows);
+          setDisplayDate(parsed.updatedAt);
+        }
+      } catch {
+        // aborted / 网络失败：保持服务端快照，不报错（SEO 兜底）
+      }
+    };
+    fetchLive();
+    return () => {
+      controller.abort();
+    };
+  }, [serverUpdatedAt, RANK_LIVE_URL]);
+
+  const displayedItems = liveItems !== null ? liveItems : items;
+
+  const filtered = displayedItems.filter(
     (item) =>
       item.fullName.toLowerCase().includes(searchQuery.toLowerCase()) ||
       item.description.toLowerCase().includes(searchQuery.toLowerCase())
@@ -115,24 +196,21 @@ export default function RankingClient({ items, updatedAt, locale }: RankingClien
     <>
       <Header searchQuery={searchQuery} onSearchChange={setSearchQuery} locale={locale} />
       <main className="flex-1 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-8 w-full">
-              <Breadcrumb items={[{ name: t('title') }]} locale={locale} />
+        <Breadcrumb items={[{ name: t('title') }]} locale={locale} />
 
-              {/* Page header */}
-              <div className="mb-6">
-                <h1 className="text-3xl sm:text-4xl font-bold tracking-tight text-[var(--foreground)]">{t('title')}</h1>
-                <p className="mt-1.5 text-[var(--muted)] text-sm">{t('subtitle')}</p>
-                <p className="text-xs text-[var(--muted)] mt-2">{t('updatedLabel', { date: updatedAt })}</p>
-              </div>
+        <div className="mb-6">
+          <h1 className="text-3xl sm:text-4xl font-bold tracking-tight text-[var(--foreground)]">{t('title')}</h1>
+          <p className="mt-1.5 text-[var(--muted)] text-sm">{t('subtitle')}</p>
+          <p className="text-xs text-[var(--muted)] mt-2">{t('updatedLabel', { date: displayDate })}</p>
+        </div>
 
-        {/* Methodology note — 只说明维度类别，不暴露算法细节 */}
         <div className="flex items-start gap-2.5 bg-[var(--muted-bg)] border border-[var(--muted-border)] rounded-xl px-4 py-3 mb-8">
           <Info className="w-4 h-4 text-[var(--primary)] shrink-0 mt-0.5" />
           <p className="text-xs text-[var(--muted)] leading-relaxed">{t('methodologyText')}</p>
         </div>
 
-        {/* Ranking list */}
-                <ScrollReveal><div className="space-y-3">
-                  {filtered.map((item) => (
+        <ScrollReveal><div className="space-y-3">
+          {filtered.map((item) => (
             <a
               key={item.fullName}
               href={item.url}
@@ -140,7 +218,6 @@ export default function RankingClient({ items, updatedAt, locale }: RankingClien
               rel="noopener noreferrer"
               className="group flex items-center gap-3 sm:gap-4 bg-[var(--card-bg)] rounded-xl shadow-[var(--card-shadow)] hover:shadow-[var(--card-shadow-hover)] hover:-translate-y-0.5 px-3 sm:px-5 py-3.5 transition-all duration-200"
             >
-              {/* Rank */}
               <div
                 className={`w-9 h-9 rounded-lg flex items-center justify-center shrink-0 text-sm font-bold ${
                   MEDAL_STYLES[item.rank] || 'bg-[var(--muted-bg)] text-[var(--muted)]'
@@ -151,10 +228,9 @@ export default function RankingClient({ items, updatedAt, locale }: RankingClien
 
               <RepoAvatar item={item} />
 
-              {/* Name + description */}
               <div className="min-w-0 flex-1">
                 <div className="flex items-center gap-2 group/header">
-                                  <h2 className="font-semibold text-sm text-[var(--foreground)] truncate group-hover/header:text-[var(--primary)] transition">
+                  <h2 className="font-semibold text-sm text-[var(--foreground)] truncate group-hover/header:text-[var(--primary)] transition">
                     {item.fullName}
                   </h2>
                   <ChangeBadge change={item.change} newLabel={t('newLabel')} />
@@ -162,7 +238,6 @@ export default function RankingClient({ items, updatedAt, locale }: RankingClien
                 <p className="text-xs text-[var(--muted)] truncate mt-0.5 hover:text-[var(--foreground)] transition">{item.description}</p>
               </div>
 
-              {/* Metrics */}
               <div className="hidden sm:flex items-center gap-4 shrink-0 text-xs text-[var(--muted)]">
                 {item.language && (
                   <span className="hidden md:flex items-center gap-1.5">
@@ -185,7 +260,6 @@ export default function RankingClient({ items, updatedAt, locale }: RankingClien
           ))}
         </div></ScrollReveal>
 
-                {/* Empty state */}
         {filtered.length === 0 && (
           <div className="text-center py-16">
             <Trophy className="w-12 h-12 text-[var(--muted)] mx-auto mb-4 opacity-50" />
