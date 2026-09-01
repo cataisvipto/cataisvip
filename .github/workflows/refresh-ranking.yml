@@ -100,7 +100,7 @@ jobs:
           fetch-depth: 0
           ref: main
 
-      - name: 提交并推送到 pages-data 分支
+      - name: 提交并推送到 pages-data 分支（仅放 ranking.json 到根目录）
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -108,17 +108,13 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          if git ls-remote --exit-code --heads origin pages-data; then
-            git checkout --detach "$(git rev-parse HEAD)"
-            git checkout -B pages-data
-          else
-            git checkout --orphan pages-data
-            git rm -rf --ignore-unmatch . 2>/dev/null || true
-          fi
+          # 始终保持 pages-data 为干净单文件分支：根目录只有 ranking.json
+          git checkout --orphan pages-data
+          git rm -rf --ignore-unmatch . 2>/dev/null || true
 
-          rm -f src/data/ranking.json
-          cp live/ranking.json src/data/ranking.json
-          git add src/data/ranking.json
+          # GitHub Pages 只发布分支根目录的文件，放根目录才能被访问
+          cp live/ranking.json ranking.json
+          git add ranking.json
           git commit -m "chore(data): ranking live $(DATE)"
           git push --force origin HEAD:pages-data 2>&1
           echo "已发布到 https://cataito-lab.github.io/ranking.json"
