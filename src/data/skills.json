@@ -21,7 +21,7 @@
     ],
     "installCommand": "See README for details.",
     "logo": "/logos/skills/awesome-selfhosted.png",
-    "stars": 316381,
+    "stars": 316557,
     "featured": false,
     "faqs": [
       {
@@ -103,7 +103,7 @@
     ],
     "installCommand": "Available via Claude Code marketplace, Cursor /add-plugin, Codex plugin marketplace, and more. See README for details.",
     "logo": "/logos/skills/superpowers.png",
-    "stars": 280067,
+    "stars": 280423,
     "featured": false,
     "faqs": [
       {
@@ -181,7 +181,7 @@
     ],
     "installCommand": "git clone https://github.com/mattpocock/skills.git ~/.codex/skills/mattpocock-skills",
     "logo": "/logos/skills/grill-me.png",
-    "stars": 242876,
+    "stars": 243914,
     "featured": false,
     "faqs": [
       {
@@ -259,7 +259,7 @@
     ],
     "installCommand": "git clone https://github.com/mattpocock/skills.git ~/.codex/skills/mattpocock-skills",
     "logo": "/logos/skills/grill-with-docs.png",
-    "stars": 242876,
+    "stars": 243914,
     "featured": false,
     "faqs": [
       {
@@ -337,7 +337,7 @@
     ],
     "installCommand": "git clone https://github.com/mattpocock/skills.git ~/.codex/skills/mattpocock-skills",
     "logo": "/logos/skills/improve-codebase-architecture.png",
-    "stars": 242876,
+    "stars": 243914,
     "featured": false,
     "faqs": [
       {
@@ -425,7 +425,7 @@
     ],
     "installCommand": "Download the app at agencyagents.app (macOS/Linux/Windows) or run ./scripts/install.sh --tool <tool> from the repo.",
     "logo": "/logos/skills/agency-agents.png",
-    "stars": 149291,
+    "stars": 149507,
     "featured": false,
     "faqs": [
       {
@@ -503,7 +503,7 @@
     ],
     "installCommand": "Available via plugin marketplace. See README for details.",
     "logo": "/logos/skills/banner-design.png",
-    "stars": 123535,
+    "stars": 123866,
     "featured": false,
     "faqs": [
       {
@@ -581,7 +581,7 @@
     ],
     "installCommand": "Available via plugin marketplace. See README for details.",
     "logo": "/logos/skills/brand.png",
-    "stars": 123535,
+    "stars": 123866,
     "featured": false,
     "faqs": [
       {
@@ -659,7 +659,7 @@
     ],
     "installCommand": "Available via plugin marketplace. See README for details.",
     "logo": "/logos/skills/design.png",
-    "stars": 123535,
+    "stars": 123866,
     "featured": false,
     "faqs": [
       {
@@ -737,7 +737,7 @@
     ],
     "installCommand": "Available via plugin marketplace. See README for details.",
     "logo": "/logos/skills/design-system.png",
-    "stars": 123535,
+    "stars": 123866,
     "featured": false,
     "faqs": [
       {
@@ -815,7 +815,7 @@
     ],
     "installCommand": "Available via plugin marketplace. See README for details.",
     "logo": "/logos/skills/slides.png",
-    "stars": 123535,
+    "stars": 123866,
     "featured": false,
     "faqs": [
       {
@@ -893,7 +893,7 @@
     ],
     "installCommand": "Available via plugin marketplace. See README for details.",
     "logo": "/logos/skills/ui-styling.png",
-    "stars": 123535,
+    "stars": 123866,
     "featured": false,
     "faqs": [
       {
@@ -975,7 +975,7 @@
     ],
     "installCommand": "curl -fsSL https://raw.githubusercontent.com/JuliusBrussee/caveman/main/install.sh | bash",
     "logo": "/logos/skills/caveman.png",
-    "stars": 102046,
+    "stars": 102261,
     "featured": false,
     "faqs": [
       {
@@ -1048,7 +1048,7 @@
       "codex",
       "claude-code"
     ],
-    "stars": 82891,
+    "stars": 83307,
     "developer": "Leonxlnx",
     "developerZh": "Leonxlnx",
     "installCommand": "npm i -g taste-skill",
@@ -1128,7 +1128,7 @@
     ],
     "installCommand": "See README for installation instructions.",
     "logo": "/logos/skills/agent-reach.png",
-    "stars": 77108,
+    "stars": 77368,
     "featured": false,
     "faqs": [
       {
@@ -1203,7 +1203,7 @@
     ],
     "installCommand": "See README for installation instructions.",
     "logo": "/logos/skills/media-crawler.png",
-    "stars": 64197,
+    "stars": 64277,
     "featured": false,
     "faqs": [
       {
@@ -1280,7 +1280,7 @@
     ],
     "installCommand": "npx skills add blader/humanizer",
     "logo": "/logos/skills/humanizer.png",
-    "stars": 39266,
+    "stars": 39616,
     "featured": false,
     "faqs": [
       {
@@ -1358,7 +1358,7 @@
     ],
     "installCommand": "npx skills add alchaincyf/nuwa-skill",
     "logo": "/logos/skills/nuwa-skill.png",
-    "stars": 31793,
+    "stars": 31872,
     "featured": false,
     "faqs": [
       {
@@ -1437,7 +1437,7 @@
     ],
     "installCommand": "git clone https://github.com/vercel-labs/skills.git ~/.codex/skills/vercel-labs-skills",
     "logo": "/logos/skills/find-skills.png",
-    "stars": 30120,
+    "stars": 30192,
     "featured": false,
     "faqs": [
       {
@@ -1514,7 +1514,7 @@
     ],
     "installCommand": "pip install book-to-skill",
     "logo": "/logos/skills/book-to-skill.png",
-    "stars": 27572,
+    "stars": 27805,
     "featured": false,
     "faqs": [
       {
@@ -1593,7 +1593,7 @@
     ],
     "installCommand": "git clone https://github.com/TencentCloud/TencentDB-Agent-Memory.git && cd TencentDB-Agent-Memory/deploy/global-images && cp .env.example .env && ./start-all.sh",
     "logo": "/logos/skills/tencentdb-agent-memory.png",
-    "stars": 25420,
+    "stars": 25576,
     "featured": false,
     "faqs": [
       {
@@ -1671,7 +1671,7 @@
     ],
     "installCommand": "npx skills add alchaincyf/huashu-design",
     "logo": "/logos/skills/huashu-design.png",
-    "stars": 23749,
+    "stars": 23789,
     "featured": false,
     "faqs": [
       {
@@ -1746,7 +1746,7 @@
     ],
     "installCommand": "pip install pyvideotrans",
     "logo": "/logos/skills/pyvideotrans.png",
-    "stars": 18853,
+    "stars": 18860,
     "featured": false,
     "faqs": [
       {
@@ -1820,7 +1820,7 @@
     ],
     "installCommand": "npx skills add op7418/Humanizer-zh",
     "logo": "/logos/skills/humanizer-zh.png",
-    "stars": 16384,
+    "stars": 16439,
     "developer": "op7418",
     "developerZh": "op7418",
     "faqs": [
@@ -1898,7 +1898,7 @@
     ],
     "installCommand": "git clone https://github.com/helloianneo/ian-xiaohei-illustrations.git ~/.codex/skills/ian-xiaohei-illustrations",
     "logo": "/logos/skills/ian-xiaohei-illustrations.png",
-    "stars": 10755,
+    "stars": 10831,
     "featured": false,
     "faqs": [
       {
@@ -1975,7 +1975,7 @@
     ],
     "installCommand": "git clone https://github.com/Thysrael/Horizon.git && cd Horizon",
     "logo": "/logos/skills/horizon.png",
-    "stars": 9133,
+    "stars": 9138,
     "featured": false,
     "faqs": [
       {
@@ -2053,7 +2053,7 @@
     ],
     "installCommand": "Add to your Codex skill directory or use the Codex plugin marketplace. See README for details.",
     "logo": "/logos/skills/gc-minimal-zine-poster.png",
-    "stars": 6797,
+    "stars": 6832,
     "featured": false,
     "faqs": [
       {
@@ -2131,7 +2131,7 @@
     ],
     "installCommand": "npx skills add op7418/guizang-social-card-skill",
     "logo": "/logos/skills/guizang-social-card.png",
-    "stars": 6741,
+    "stars": 6767,
     "featured": false,
     "faqs": [
       {
@@ -2205,7 +2205,7 @@
     ],
     "installCommand": "git clone https://github.com/ZzzLc0405/photo-abstract-editorial ~/.codex/skills/photo-abstract-editorial",
     "logo": "/logos/skills/photo-abstract-editorial.png",
-    "stars": 5168,
+    "stars": 5222,
     "featured": false,
     "faqs": [
       {
@@ -2279,7 +2279,7 @@
     ],
     "installCommand": "git clone https://github.com/Zeejay0/gathered-scenes-zine-skill ~/.codex/skills/gathered-scenes-zine-skill",
     "logo": "/logos/skills/gathered-scenes-zine-skill.png",
-    "stars": 4650,
+    "stars": 4683,
     "featured": false,
     "faqs": [
       {
@@ -2357,7 +2357,7 @@
     ],
     "installCommand": "git clone https://github.com/SamurAIGPT/Generative-Media-Skills.git && cd Generative-Media-Skills",
     "logo": "/logos/skills/generative-media-skills.png",
-    "stars": 4195,
+    "stars": 4201,
     "featured": false,
     "faqs": [
       {
@@ -2438,7 +2438,7 @@
     ],
     "installCommand": "curl -fsSL https://raw.githubusercontent.com/QwenLM/Qwen-MM-Plugins/main/install.sh | bash",
     "logo": "/logos/skills/qwen-mm-plugins.png",
-    "stars": 2791,
+    "stars": 2795,
     "featured": false,
     "faqs": [
       {
@@ -2517,7 +2517,7 @@
     ],
     "installCommand": "curl -fsSL https://raw.githubusercontent.com/FrancyJGLisboa/agent-skill-creator/main/scripts/bootstrap.sh | sh",
     "logo": "/logos/skills/agent-skill-creator.png",
-    "stars": 2362,
+    "stars": 2366,
     "developer": "FrancyJGLisboa",
     "developerZh": "FrancyJGLisboa",
     "faqs": [
@@ -2596,7 +2596,7 @@
     ],
     "installCommand": "git clone https://github.com/comeonzhj/Auto-Redbook-Skills.git && cd Auto-Redbook-Skills",
     "logo": "/logos/skills/auto-redbook-skills.png",
-    "stars": 2236,
+    "stars": 2239,
     "featured": false,
     "faqs": [
       {
@@ -2748,7 +2748,7 @@
     ],
     "installCommand": "git clone https://github.com/Evianis/travel-photo-abstraction ~/.codex/skills/travel-photo-abstraction",
     "logo": "/logos/skills/travel-photo-abstraction.png",
-    "stars": 717,
+    "stars": 722,
     "featured": false,
     "faqs": [
       {
@@ -2824,7 +2824,7 @@
     ],
     "installCommand": "git clone https://github.com/Dlcccc71913/skill-make-photo-stamp-archive ~/.codex/skills/photo-stamp-archive",
     "logo": "/logos/skills/photo-stamp-archive.png",
-    "stars": 317,
+    "stars": 320,
     "featured": false,
     "faqs": [
       {
