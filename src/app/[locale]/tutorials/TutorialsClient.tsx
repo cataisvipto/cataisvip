@@ -8,7 +8,6 @@ import Footer from '@/components/Footer';
 import Breadcrumb from '@/components/Breadcrumb';
 import ScrollReveal from '@/components/ScrollReveal';
 import BlogCover from '@/components/BlogCover';
-import Image from 'next/image';
 import { Clock, GraduationCap, BookOpen } from 'lucide-react';
 
 export interface Tutorial {
@@ -34,30 +33,38 @@ interface TutorialsClientProps {
 const getLocalized = (field: Record<string, string>, locale: string) =>
   field?.[locale] || field?.en || '';
 
-// Product display config
-const PRODUCTS: Record<string, { name: string; logo: string }> = {
-  codex: { name: 'Codex', logo: '/logos/tools/codex.png' },
+// Product display config (public logos; plain <img> — next/image breaks under
+// output:'export' on Cloudflare Pages because the /_next/image endpoint 404s).
+const PRODUCTS: Record<string, { name: string; logo?: string; logoDark?: string }> = {
+  codex: { name: 'Codex', logo: '/logos/tools/codex.svg', logoDark: '/logos/tools/codex-white.svg' },
   'claude-code': { name: 'Claude Code', logo: '/logos/tools/claude-code.png' },
   'hermes-agent': { name: 'Hermes Agent', logo: '/logos/tools/hermes-agent-light.png' },
+  'deepseek-harness': { name: 'DeepSeek Harness', logo: '/logos/tools/deepseek-harness.png' },
 };
+
+// Resolve a real logo path for a product: per-tutorial field first, then config.
+function getProductLogo(product: string, tut: Tutorial): string | undefined {
+  if (tut.logo) return tut.logo;
+  return PRODUCTS[product]?.logo;
+}
 
 export default function TutorialsClient({ tutorials }: TutorialsClientProps) {
   const locale = useLocale();
   const t = useTranslations('tutorials');
   const [activeProduct, setActiveProduct] = useState<string | null>(null);
 
-  // Build product list from data
+  // Build product list from data, collecting a real logo per product.
   const products = useMemo(() => {
     const seen = new Set<string>();
-    const list: { slug: string; name: string; logo: string; count: number }[] = [];
+    const list: { slug: string; name: string; logo?: string; count: number }[] = [];
     for (const tut of tutorials) {
       if (!seen.has(tut.product)) {
         seen.add(tut.product);
-        const cfg = PRODUCTS[tut.product] || { name: tut.product, logo: tut.logo || '' };
+        const cfg = PRODUCTS[tut.product] || { name: tut.product };
         list.push({
           slug: tut.product,
           name: cfg.name,
-          logo: cfg.logo,
+          logo: getProductLogo(tut.product, tut),
           count: 0,
         });
       }
@@ -114,13 +121,12 @@ export default function TutorialsClient({ tutorials }: TutorialsClientProps) {
               }`}
             >
               {product.logo && (
-                <div className="w-5 h-5 rounded overflow-hidden flex-shrink-0 bg-white/80">
-                  <Image
+                <div className="w-5 h-5 rounded overflow-hidden flex-shrink-0 bg-white/80 flex items-center justify-center">
+                  <img
                     src={product.logo}
                     alt={product.name}
-                    width={20}
-                    height={20}
                     className="w-full h-full object-contain"
+                    loading="lazy"
                   />
                 </div>
               )}
@@ -181,19 +187,18 @@ export default function TutorialsClient({ tutorials }: TutorialsClientProps) {
                       </div>
 
                       {/* Product badge */}
-                      {tutorial.product && PRODUCTS[tutorial.product] && (
+                      {tutorial.product && (
                         <div className="flex items-center gap-1.5 mb-2">
-                          <div className="w-4 h-4 rounded overflow-hidden bg-white/80 flex-shrink-0">
-                            <Image
-                              src={PRODUCTS[tutorial.product].logo}
-                              alt={PRODUCTS[tutorial.product].name}
-                              width={16}
-                              height={16}
+                          <div className="w-4 h-4 rounded overflow-hidden bg-white/80 flex-shrink-0 flex items-center justify-center">
+                            <img
+                              src={getProductLogo(tutorial.product, tutorial) || PRODUCTS[tutorial.product]?.logo || ''}
+                              alt={PRODUCTS[tutorial.product]?.name || tutorial.product}
                               className="w-full h-full object-contain"
+                              loading="lazy"
                             />
                           </div>
                           <span className="text-xs font-medium text-[var(--muted)]">
-                            {PRODUCTS[tutorial.product].name}
+                            {PRODUCTS[tutorial.product]?.name || tutorial.product}
                           </span>
                         </div>
                       )}
