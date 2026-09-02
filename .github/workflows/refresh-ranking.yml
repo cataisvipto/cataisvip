@@ -89,20 +89,70 @@ jobs:
           ref: main
 
       - name: 提交并推送到 pages-data 分支（仅放 ranking.json 到根目录）
+        # 核心原则：新 commit 以远端 pages-data 当前 HEAD 为父 → 普通 push，避开 ruleset 拦截
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          set -euo pipefail
           DATE=$(TZ='Asia/Shanghai' date +%Y-%m-%d)
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          # pages-data 保持为干净单文件分支：根目录只有 ranking.json
-          git checkout --orphan pages-data
-          git rm -rf --ignore-unmatch . 2>/dev/null || true
+          # ① 确保本地 main 是最新的
+          git fetch origin main --prune
 
-          # 直接从 main 读数据，放根目录（Pages 只发布根目录文件）
-          cp src/data/ranking.json ranking.json
+          # ② 拉远端 pages-data 最新状态（没有的话后续会建）
+          git fetch origin pages-data 2>/dev/null || true
+
+          # ③ 把 main 最新的 ranking.json 存到临时位置
+          mkdir -p .tmp-rank
+          cp src/data/ranking.json .tmp-rank/ranking.json
+
+          # ④ 在 pages-data 的树（只有根目录 ranking.json 这一份内容）之上，
+          #    用 main 的新数据生成一个新 commit。这样新 commit 的父节点是远端
+          #    pages-data 的 HEAD，push 就是普通 push、非强推，ruleset 不会拦。
+          #    用 plumbing 命令拼树，避免 checkout 整个 main 工作树（609 文件全上）。
+          if git rev-parse -q --verify origin/pages-data^{commit} >/dev/null; then
+            BASE=origin/pages-data
+          else
+            # 远端 pages-data 还不存在：先建一个空的根提交
+            EMPTY=$(git hash-object -t tree /dev/null)
+            BASE=$(git commit-tree -m "chore: init ranking live" "$EMPTY")
+          fi
+
+          # 从 BASE 的树（只含 ranking.json）复制出来，把 ranking.json 换成新数据，再打 commit
+          BASE_TREE=$(git rev-parse "$BASE^{tree}")
+          git read-tree "$BASE_TREE"
+          rm -f ranking.json
+          cp .tmp-rank/ranking.json ranking.json
+
+          # 内容完全一致则跳过（不刷 commit）
           git add ranking.json
-          git commit -m "chore(data): ranking live $(DATE)"
-          git push --force origin HEAD:pages-data 2>&1
-          echo "已发布到 https://cataito-lab.github.io/ranking.json"
+          if git diff --cached --quiet; then
+            echo "ranking.json 与上次相同，跳过推送"
+            exit 0
+          fi
+
+          # 新 commit 的父 = BASE（远端 pages-data 的 HEAD），普通 push 安全
+          NEW_TREE=$(git write-tree)
+          NEW_COMMIT=$(git commit-tree -p "$BASE" -m "chore(data): ranking live $DATE" "$NEW_TREE")
+
+          # ⑤ 常规 push（非 --force）：新 commit 有远端 HEAD 为父，属正常前进
+          for i in 1 2 3; do
+            if git push origin "$NEW_COMMIT:pages-data" 2>&1; then
+              echo "推送成功（pages-data）"
+              break
+            fi
+            echo "推送失败，第 $i 次重试（重新 fetch pages-data）..."
+            git fetch origin pages-data 2>/dev/null || true
+            BASE=$(git rev-parse origin/pages-data^{commit})
+            BASE_TREE=$(git rev-parse "$BASE^{tree}")
+            git read-tree "$BASE_TREE"
+            rm -f ranking.json && cp .tmp-rank/ranking.json ranking.json
+            git add ranking.json
+            NEW_TREE=$(git write-tree)
+            NEW_COMMIT=$(git commit-tree -p "$BASE" -m "chore(data): ranking live $DATE" "$NEW_TREE")
+            sleep 2
+          done
+
+          echo "已发布到 https://cataito-lab.github.io/cataito/ranking.json"
