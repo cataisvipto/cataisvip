@@ -7,10 +7,11 @@
 | 项 | 说明 |
 |---|---|
 | 数据源 | GitHub Search API（公开数据，版本头 `2026-03-10`） |
-| 核心脚本 | `scripts/rank.mjs`（私有算法，勿泄露权重与查询配置） |
+| 核心脚本 | `scripts/github-ranking/rank.mjs`（私有算法，勿泄露权重与查询配置） |
 | 算法版本 | 脚本顶部 `ALGO_VERSION`，演进史见 `docs/ALGO-CHANGELOG.md` |
-| 定时任务 | `.github/workflows/update-ranking.yml`，双 cron 兜底：UTC 00:37 主跑 + 02:53 备份（北京 08:37 / 10:53） |
-| 榜单输出 | `src/data/ranking.json`（构建时静态导入，不含任何得分） |
+| 定时任务 | `.github/workflows/refresh-ranking.yml`（workflow 名 `Update Ranking`），双 cron 兜底：UTC 00:37 主跑 + 02:53 备份（北京 08:37 / 10:53），每次生成数据 + 当日快照 + 推送 `pages-data` 活数据源 |
+| 榜单输出 | `src/data/ranking.json`（静态壳快照，客户端水合后会被活数据覆盖） |
+| 活数据源 | `pages-data` 分支 → GitHub Pages → `https://cataito-lab.github.io/cataito/ranking.json`；前端 `RankingClient.tsx` 客户端拉取覆盖渲染（见第 8 章） |
 | 快照数据 | `snapshots/YYYY-MM-DD.json`，滚动 18 个月（548 天）；**每月 1 号永久保留**（冷归档） |
 | 熔断机制 | 候选池骤降 >40% 或任一榜单缺额 → 脚本报错退出，不写任何文件 |
 | 失败告警 | Actions 失败自动开 issue + GitHub 邮件通知 |
@@ -107,3 +108,13 @@ GitHub → Settings → Developer settings → Personal access tokens → **立�
 - **原因**：单一 cron 时刻对低活跃私有仓库仍不够可靠——GitHub 的 schedule 本就是"尽力而为"，高负载时优先牺牲此类仓库，换个错峰时刻只是降低概率、并不能根治。
 - **修复**：改为**双 cron 兜底**（00:37 主跑 + 02:53 备份），两次都被丢的概率远低于单次；当日补跑快照覆盖写、无变化不提交，重复运行无副作用。
 - **断档补救**：仍同上——发现当天没跑立即 `workflow_dispatch` 补跑，当日落盘不算断档。
+
+### 2026-09-02：活数据源 publish-pages 连续失败，排名前端停在旧日
+- **现象**：Aaron 发现 cataito.com 排名页今天没更新。查链路：`rank` job 一直成功、`src/data/ranking.json` 快照每日正常推送 main；但活数据源 `cataito-lab.github.io/cataito/ranking.json` 停在 `updatedAt: 2026-09-01`。CF Pages 上最近 3 个 `chore(data): 自动刷新排行榜` 提交均显示 "No deployment available"。
+- **定位**：`refresh-ranking.yml` 拆两 job——`rank`（生成数据 + push main）与 `publish-pages`（发活数据到 `pages-data` 分支）。#51/#50 两次 schedule + #48/#49 两次手动重跑，**`rank` 全绿、只有 `publish-pages` 失败**，annotation 指向 `git push --force origin HEAD:pages-data`，exit code 1。`pages-data` 分支上只有 Aaron 昨天 1 个 commit、无任何 `github-actions[bot]` 提交，直接证实 bot 的 push 从未成功。
+- **根因**：GitHub **branch ruleset / branch protection 禁止 `GITHUB_TOKEN`（github-actions[bot]）对 `pages-data` 做 force push**。即使 workflow 已声明 `permissions: contents: write`，ruleset 拦的是"rewrite history"这个动作本身，`permissions` 不生效。`git push --force` 在无共同祖先时必然触发 force 语义，被拦。
+- **为何 #47 成功**：那是 Aaron **用个人账号在 `pages-data` 分支上手动 `workflow_dispatch`**（触发分支 `pages-data`），凭据是 Aaron 而非 `GITHUB_TOKEN`，绕开了对 bot 的限制。
+- **修复（4447e758）**：把 `publish-pages` 从 `--orphan + --force` 改成 **`git plumbing` 普通 push**——`git fetch origin main --prune` 取最新快照 → `git fetch origin pages-data` 取远端 HEAD → `git read-tree` 把远端树复制出来、替换 `ranking.json` → **`git commit-tree -p <远端HEAD>` 建新 commit**（父节点 = 远端 `pages-data` 的 HEAD）→ `git push origin <新commit>:pages-data` 做**普通前进 push**（非 force）。ruleset 不拦。数据相同则 `git diff --cached --quiet` 跳过，不刷 commit。首次无 `pages-data` 时用空树 + 空根提交作起点。
+- **关键教训**：①ruleset 对 force push 的限制不受 `permissions` 影响，别指望加权限绕过；②想让 bot 的 push 不被拦，就要让 commit 有远端 HEAD 为父（普通前进），不能新建独立历史再强推；③拼单文件分支用 `git plumbing`（`commit-tree` / `read-tree` / `write-tree`），**别 checkout 整个 main 工作树**（609 文件全带上，脏且慢）；④GitHub Pages 只发布分支根目录文件，`pages-data` 根目录必须放 `ranking.json`，且非主页仓库带仓库名子目录（URL 是 `.../cataito/ranking.json`，不是 `.../ranking.json`）。
+- **验证**：本地 bare repo 复现 fetch → read-tree → 换文件 → `commit-tree -p <远端HEAD>` → `git push origin <新commit>:pages-data`，结果为普通前进 `de26523..b759847`，`rc=0`，无 force 提示。上线后 #52（手动触发）publish-pages 成功，`pages-data` 新增 `a68a3d60 chore(data): ranking live 2026-09-02`，活数据源 `updatedAt` 变为 `2026-09-02`，8 board 共 340 items。详见 skill `solutions.md` #13。
+- **断档补救**：发现当天活数据没更新，立即去 Actions 页搜 `Update Ranking` → 手动 `Run workflow`（分支 main）补跑一次即可，当天活数据覆盖写、无变化不提交，补跑无副作用。
