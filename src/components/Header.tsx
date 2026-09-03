@@ -2,12 +2,13 @@
 
 import { useTranslations } from 'next-intl';
 import { Link, usePathname } from '@/i18n/navigation';
-import { Search, Globe, ChevronDown, Menu, X } from 'lucide-react';
+import { Search, Globe, ChevronDown, Menu, X, ExternalLink } from 'lucide-react';
 import { useState, useRef, useEffect } from 'react';
 import ThemeToggle from './ThemeToggle';
 import LogoCompact from './Logo/LogoCompact';
 import { useTheme } from './ThemeProvider';
 import { CATEGORIES, categoryToSlug } from '@/lib/categories';
+import { SITES } from '@/lib/sites';
 
 interface HeaderProps {
   searchQuery: string;
@@ -19,12 +20,15 @@ export default function Header({ searchQuery, onSearchChange, locale }: HeaderPr
   const { theme } = useTheme();
   const t = useTranslations();
   const tCategories = useTranslations('categories');
+  const tSites = useTranslations('sites');
   const pathname = usePathname();
   const [langOpen, setLangOpen] = useState(false);
   const [catOpen, setCatOpen] = useState(false);
+  const [siteOpen, setSiteOpen] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const langRef = useRef<HTMLDivElement>(null);
   const catRef = useRef<HTMLDivElement>(null);
+  const siteRef = useRef<HTMLDivElement>(null);
 
   const locales: { code: string; label: string; short: string }[] = [
     { code: 'en', label: 'English', short: 'EN' },
@@ -50,6 +54,7 @@ export default function Header({ searchQuery, onSearchChange, locale }: HeaderPr
     const handleClickOutside = (e: MouseEvent) => {
       if (langRef.current && !langRef.current.contains(e.target as Node)) setLangOpen(false);
       if (catRef.current && !catRef.current.contains(e.target as Node)) setCatOpen(false);
+      if (siteRef.current && !siteRef.current.contains(e.target as Node)) setSiteOpen(false);
     };
     document.addEventListener('mousedown', handleClickOutside);
     return () => document.removeEventListener('mousedown', handleClickOutside);
@@ -100,6 +105,47 @@ export default function Header({ searchQuery, onSearchChange, locale }: HeaderPr
             <Link href="/ranking" className={isRanking ? navActive : navIdle}>{t('nav.ranking')}</Link>
             <Link href="/blog" className={isBlog ? navActive : navIdle}>{t('nav.blog')}</Link>
             <Link href="/tutorials" className={isTutorials ? navActive : navIdle}>{t('nav.tutorials')}</Link>
+
+            {/* Ecosystem dropdown: subsites (tools.cataito.com etc.) */}
+            <div className="relative" ref={siteRef}>
+              <button
+                onClick={() => setSiteOpen(!siteOpen)}
+                className={`${navIdle} flex items-center gap-1`}
+              >
+                {t('nav.ecosystem')}
+                <ChevronDown className={`w-3 h-3 transition-transform ${siteOpen ? 'rotate-180' : ''}`} />
+              </button>
+              {siteOpen && (
+                <div className="absolute left-0 top-full mt-2 w-[min(90vw,20rem)] bg-[var(--card-bg)] border border-[var(--muted-border)] rounded-xl shadow-lg p-2 z-50">
+                  {SITES.map((site) => {
+                    const Icon = site.icon;
+                    return (
+                      <a
+                        key={site.id}
+                        href={site.url}
+                        target="_blank"
+                        rel="noopener"
+                        className="flex items-start gap-3 px-3 py-2.5 rounded-lg hover:bg-[var(--primary)]/10 transition group"
+                      >
+                        <span className="flex items-center justify-center w-8 h-8 rounded-lg bg-[var(--primary)]/10 text-[var(--primary)] shrink-0">
+                          <Icon className="w-4 h-4" aria-hidden="true" />
+                        </span>
+                        <span className="min-w-0">
+                          <span className="flex items-center gap-1 text-sm font-medium text-[var(--foreground)] group-hover:text-[var(--primary)] transition">
+                            {tSites(`${site.id}.name` as any)}
+                            <ExternalLink className="w-3 h-3 opacity-50" aria-hidden="true" />
+                          </span>
+                          <span className="block text-xs text-[var(--muted)] mt-0.5">
+                            {tSites(`${site.id}.desc` as any)}
+                          </span>
+                        </span>
+                      </a>
+                    );
+                  })}
+                  <p className="px-3 py-2 text-xs text-[var(--muted)] opacity-70">{tSites('more')}</p>
+                </div>
+              )}
+            </div>
           </nav>
 
           {/* Right side */}
@@ -198,6 +244,39 @@ export default function Header({ searchQuery, onSearchChange, locale }: HeaderPr
             <Link href="/tutorials" onClick={() => setMobileMenuOpen(false)} className="flex items-center gap-2 px-3 py-2.5 text-sm text-[var(--foreground)] hover:text-[var(--primary)] hover:bg-[var(--primary)]/5 rounded-lg transition">
               {t('nav.tutorials')}
             </Link>
+            {/* Mobile ecosystem: subsites */}
+            <div className="px-3 pt-3">
+              <p className="text-xs font-semibold text-[var(--muted)] uppercase tracking-wider mb-2">{t('nav.ecosystem')}</p>
+              <div className="space-y-1">
+                {SITES.map((site) => {
+                  const Icon = site.icon;
+                  return (
+                    <a
+                      key={site.id}
+                      href={site.url}
+                      target="_blank"
+                      rel="noopener"
+                      onClick={() => setMobileMenuOpen(false)}
+                      className="flex items-start gap-3 px-3 py-2.5 rounded-lg hover:bg-[var(--primary)]/10 transition"
+                    >
+                      <span className="flex items-center justify-center w-8 h-8 rounded-lg bg-[var(--primary)]/10 text-[var(--primary)] shrink-0">
+                        <Icon className="w-4 h-4" aria-hidden="true" />
+                      </span>
+                      <span className="min-w-0">
+                        <span className="flex items-center gap-1 text-sm text-[var(--foreground)]">
+                          {tSites(`${site.id}.name` as any)}
+                          <ExternalLink className="w-3 h-3 opacity-50" aria-hidden="true" />
+                        </span>
+                        <span className="block text-xs text-[var(--muted)] mt-0.5">
+                          {tSites(`${site.id}.desc` as any)}
+                        </span>
+                      </span>
+                    </a>
+                  );
+                })}
+                <p className="px-3 py-1.5 text-xs text-[var(--muted)] opacity-70">{tSites('more')}</p>
+              </div>
+            </div>
 
             {/* Mobile categories */}
             <div className="px-3 pt-3">

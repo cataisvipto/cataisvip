@@ -3,10 +3,12 @@ import { Link } from '@/i18n/navigation';
 import LogoFull from './Logo/LogoFull';
 import { WORDMARK_GRADIENT_VIVID } from '@/lib/brandColors';
 import { CATEGORIES, categoryToSlug } from '@/lib/categories';
+import { SITES } from '@/lib/sites';
 
 export default function Footer() {
   const t = useTranslations('footer');
   const tNav = useTranslations('nav');
+  const tSites = useTranslations('sites');
   const tCategories = useTranslations('categories');
 
   return (
@@ -41,6 +43,42 @@ export default function Footer() {
             </div>
           </div>
 
+          {/* Ecosystem: subsites */}
+          <div>
+            <h3 className="text-xs font-semibold text-[var(--foreground)] mb-4 uppercase tracking-wider">{tNav('ecosystem')}</h3>
+            <ul className="space-y-3">
+              {SITES.map((site) => {
+                const Icon = site.icon;
+                return (
+                  <li key={site.id}>
+                    <a
+                      href={site.url}
+                      target="_blank"
+                      rel="noopener"
+                      className="group inline-flex items-start gap-2 text-sm text-[var(--muted)] hover:text-[var(--primary)] transition"
+                    >
+                      <Icon className="w-4 h-4 mt-0.5 shrink-0 opacity-70 group-hover:opacity-100 group-hover:text-[var(--primary)] transition" aria-hidden="true" />
+                      <span>
+                        <span className="inline-flex items-center gap-1">
+                          {tSites(`${site.id}.name` as any)}
+                          <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" className="opacity-60">
+                            <path d="M15 3h6v6"/>
+                            <path d="M10 14 21 3"/>
+                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                          </svg>
+                        </span>
+                        <span className="block text-xs text-[var(--muted)] opacity-70 mt-0.5">
+                          {tSites(`${site.id}.desc` as any)}
+                        </span>
+                      </span>
+                    </a>
+                  </li>
+                );
+              })}
+            </ul>
+            <p className="text-xs text-[var(--muted)] opacity-60 mt-4">{tSites('more')}</p>
+          </div>
+
           {/* Navigation */}
           <div>
             <h3 className="text-xs font-semibold text-[var(--foreground)] mb-4 uppercase tracking-wider">{t('navigation')}</h3>
@@ -55,25 +93,11 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Categories 1 */}
+          {/* Categories (merged, 2-col inner grid) */}
           <div>
             <h3 className="text-xs font-semibold text-[var(--foreground)] mb-4 uppercase tracking-wider">{t('categories')}</h3>
-            <ul className="space-y-2.5">
-              {CATEGORIES.slice(0, 8).map((cat) => (
-                <li key={cat}>
-                  <Link href={`/category/${categoryToSlug(cat)}`} className="text-sm text-[var(--muted)] hover:text-[var(--primary)] transition">
-                    {tCategories(cat as any)}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          {/* Categories 2 */}
-          <div>
-            <h3 className="text-xs font-semibold text-[var(--foreground)] mb-4 uppercase tracking-wider">&nbsp;</h3>
-            <ul className="space-y-2.5">
-              {CATEGORIES.slice(8).map((cat) => (
+            <ul className="grid grid-cols-2 gap-x-6 gap-y-2.5">
+              {CATEGORIES.map((cat) => (
                 <li key={cat}>
                   <Link href={`/category/${categoryToSlug(cat)}`} className="text-sm text-[var(--muted)] hover:text-[var(--primary)] transition">
                     {tCategories(cat as any)}
