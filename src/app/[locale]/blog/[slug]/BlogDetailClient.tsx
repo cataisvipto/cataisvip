@@ -134,11 +134,8 @@ export default function BlogDetailClient({ post, locale, articleJsonLd, coverIma
             <MarkdownContent content={content} />
           </div>
 
-          {/* AdSense — 正文之后、标签之前（长内容页才插，审核通过前为 no-op） */}
-          <AdUnit
-            unit={process.env.NEXT_PUBLIC_ADSENSE_UNIT || ''}
-            label={t('adLabel')}
-          />
+          {/* AdSense — 正文之后、标签之前（仅长内容页插入） */}
+          <AdUnit label={t('adLabel')} />
 
           {/* Tags */}
           <div className="flex flex-wrap gap-2 mt-8 pt-8 border-t border-[var(--muted-border)]">

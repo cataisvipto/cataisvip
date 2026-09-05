@@ -406,11 +406,8 @@ export default function ToolDetailClient({ tool, locale, details: detailsProp, s
                 </div>
               </div>
 
-              {/* AdSense — Features 之后、Pricing 之前（长内容页；审核通过前为 no-op） */}
-              <AdUnit
-                unit={process.env.NEXT_PUBLIC_ADSENSE_UNIT || ''}
-                label={t('adLabel')}
-              />
+              {/* AdSense — Features 之后、Pricing 之前（仅长内容页插入） */}
+              <AdUnit label={t('adLabel')} />
 
               {/* Pricing */}
               <div className="bg-[var(--card-bg)] rounded-2xl shadow-[var(--card-shadow)] p-8">
