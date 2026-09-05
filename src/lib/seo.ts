@@ -2,7 +2,7 @@
  * SEO 工具函数 — 统一生成 hreflang + canonical 元数据
  */
 
-import { locales } from '@/i18n/routing';
+import { locales, TEMP_NOINDEX_LOCALES } from '@/i18n/routing';
 
 export const BASE_URL = 'https://cataito.com';
 // 语言列表统一来自 routing.ts（单一 source of truth），新增语言只改那里
@@ -22,10 +22,15 @@ export function generateAlternates(path: string, currentLocale: string) {
   const normalizedPath = path === '/' ? '' : path.replace(/\/+$/, '');
   const languages: Record<string, string> = {};
   for (const locale of LOCALES) {
+    // 与 noindex 策略联动（单一 source of truth：routing.ts）——
+    // noindex 的语言不进 hreflang，避免「hreflang 互指 + noindex」的自相矛盾信号
+    if (TEMP_NOINDEX_LOCALES.has(locale)) continue;
     languages[locale] = `${BASE_URL}/${locale}${normalizedPath}`;
   }
   // x-default 指向英文版，供未匹配语言的用户回退
   languages['x-default'] = `${BASE_URL}/en${normalizedPath}`;
+  // canonical 同理：noindex 语言的页面 canonical 仍指向自身（自引用 canonical 不受 noindex 影响，
+  // 且解除 noindex 后无需改动即可恢复正确指向）
   const canonicalLocale = (LOCALES as readonly string[]).includes(currentLocale)
     ? currentLocale
     : 'en';

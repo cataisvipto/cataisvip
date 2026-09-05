@@ -6,7 +6,7 @@ import { notFound } from 'next/navigation';
 import GoogleAnalytics from '../GoogleAnalytics';
 import AdSense from '../AdSense';
 import { ThemeProvider } from '@/components/ThemeProvider';
-import { routing } from '@/i18n/routing';
+import { routing, TEMP_NOINDEX_LOCALES } from '@/i18n/routing';
 import "../globals.css";
 
 const geistSans = Geist({
@@ -19,11 +19,7 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-// 临时 noindex 语种列表：2026-03 spam update 强化 Scaled Content Abuse 打击，
-// 实测 195/195 工具的 ja/es/fr description 与英文完全相同（无本地化），
-// 在本地化完成前先对这些语种全站 noindex，隔离风险。
-// TODO: 完成本地化翻译后从此数组移除对应语种，恢复 index。
-const TEMP_NOINDEX_LOCALES = new Set(['ja', 'es', 'fr']);
+// TEMP_NOINDEX_LOCALES 已上移至 src/i18n/routing.ts（单一 source of truth，seo.ts 的 hreflang 过滤共用）
 
 interface LayoutMetadataProps {
   params: Promise<{ locale: string }>;

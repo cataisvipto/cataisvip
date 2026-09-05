@@ -18,6 +18,14 @@ import { defineRouting } from 'next-intl/routing';
 export const locales = ['en', 'zh', 'ja', 'es', 'fr'] as const;
 export const defaultLocale = 'en';
 
+// 临时 noindex 语种列表：2026-03 spam update 强化 Scaled Content Abuse 打击，
+// 实测 195/195 工具的 ja/es/fr description 与英文完全相同（无本地化），
+// 在本地化完成前先对这些语种全站 noindex，隔离风险。
+// TODO: 完成本地化翻译后从此数组移除对应语种，恢复 index。
+// 单一 source of truth：[locale]/layout.tsx（robots noindex）与 src/lib/seo.ts
+// （hreflang 过滤，避免给 noindex 页面发 hreflang 信号）都从这里取值。
+export const TEMP_NOINDEX_LOCALES: ReadonlySet<string> = new Set(['ja', 'es', 'fr']);
+
 export const routing = defineRouting({
   locales,
   defaultLocale,
