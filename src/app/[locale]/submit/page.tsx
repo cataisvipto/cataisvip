@@ -7,6 +7,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { ArrowLeft, Send, CheckCircle, Loader2, AlertCircle } from 'lucide-react';
 import { CATEGORIES } from '@/lib/categories';
+import { useTimeTrap, useTurnstile } from '@/lib/form-guard';
 
 const FORMSUBMIT_URL = 'https://formsubmit.co/ajax/hello@cataito.com';
 
@@ -26,11 +27,21 @@ export default function SubmitPage() {
     category: '',
     email: '',
   });
+  const timeOk = useTimeTrap();
+  const turnstile = useTurnstile();
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setSubmitting(true);
     setError('');
+
+    // 防滥用：提交过快 = 机器人。静默丢弃，假装成功（不给修复线索）；
+    // FormSubmit 侧另有 _honey 蜜罐服务端兜底（上方隐藏字段）
+    if (!timeOk()) {
+      setSubmitted(true);
+      setSubmitting(false);
+      return;
+    }
 
     try {
       const res = await fetch(FORMSUBMIT_URL, {
@@ -46,6 +57,8 @@ export default function SubmitPage() {
           'Submitter Email': formData.email || 'Not provided',
           'Submitted From': window.location.href,
           'Locale': locale,
+          // Turnstile token（未配置时无此字段）
+          ...(turnstile.token ? { 'cf-turnstile-response': turnstile.token } : {}),
         }),
       });
 
@@ -190,6 +203,7 @@ export default function SubmitPage() {
               </div>
 
               {/* Submit */}
+              {turnstile.widget && <div className="flex justify-center">{turnstile.widget}</div>}
               <button
                 type="submit"
                 disabled={submitting}

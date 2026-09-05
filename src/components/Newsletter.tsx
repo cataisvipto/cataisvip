@@ -3,24 +3,40 @@
 import { useState } from 'react';
 import { useTranslations } from 'next-intl';
 import { Mail, Check, Loader2 } from 'lucide-react';
+import { useTimeTrap, useHoneypot, useTurnstile, HONEYPOT_FIELD } from '@/lib/form-guard';
 
 export default function Newsletter() {
   const t = useTranslations('newsletter');
   const [email, setEmail] = useState('');
   const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle');
   const [errorMessage, setErrorMessage] = useState('');
+  const timeOk = useTimeTrap();
+  const honeypot = useHoneypot();
+  const turnstile = useTurnstile();
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    
+
     if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
       setStatus('error');
       setErrorMessage(t('invalidEmail'));
       return;
     }
 
+    // 防滥用：蜜罐命中或提交过快 = 机器人，静默丢弃（假装成功，不给修复线索）
+    if (honeypot.triggered || !timeOk()) {
+      setStatus('success');
+      return;
+    }
+    // Turnstile 已配置但用户未完成验证：明确提示
+    if (turnstile.widget && !turnstile.token) {
+      setStatus('error');
+      setErrorMessage(t('error'));
+      return;
+    }
+
     setStatus('loading');
-    
+
     try {
       const response = await fetch('https://api.web3forms.com/submit', {
         method: 'POST',
@@ -34,6 +50,8 @@ export default function Newsletter() {
           from_name: 'Cataito Newsletter',
           subject: 'New Newsletter Subscription - Cataito',
           message: `New subscription from: ${email}`,
+          // Turnstile token：需在 Web3Forms 后台配置对应 secret key 才会服务端校验
+          ...(turnstile.token ? { 'cf-turnstile-response': turnstile.token } : {}),
         }),
       });
 
@@ -74,6 +92,16 @@ export default function Newsletter() {
         <p className="text-[var(--muted)] mb-6">{t('description')}</p>
         
         <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto">
+          {/* 蜜罐：视觉隐藏，机器人会填 */}
+          <input
+            type="text"
+            name={HONEYPOT_FIELD}
+            value={honeypot.value}
+            onChange={(e) => honeypot.setValue(e.target.value)}
+            style={{ display: 'none' }}
+            tabIndex={-1}
+            autoComplete="off"
+          />
           <input
             type="email"
             value={email}
@@ -97,6 +125,7 @@ export default function Newsletter() {
             )}
           </button>
         </form>
+        {turnstile.widget && <div className="mt-4 flex justify-center">{turnstile.widget}</div>}
         
         {status === 'error' && (
           <p className="mt-3 text-sm text-red-500">{errorMessage}</p>
