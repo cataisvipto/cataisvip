@@ -4,6 +4,7 @@ import { NextIntlClientProvider } from 'next-intl';
 import { getMessages, setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import GoogleAnalytics from '../GoogleAnalytics';
+import AdSense from '../AdSense';
 import { ThemeProvider } from '@/components/ThemeProvider';
 import { routing } from '@/i18n/routing';
 import "../globals.css";
@@ -93,6 +94,7 @@ export default async function LocaleLayout({
     <html lang={locale} className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`} suppressHydrationWarning>
       <body className="min-h-full flex flex-col bg-[var(--background)] text-[var(--foreground)]">
         <GoogleAnalytics />
+        <AdSense />
         <ThemeProvider>
           <NextIntlClientProvider messages={messages}>
             {children}

@@ -11,6 +11,7 @@ import { TwitterIcon, LinkedinIcon, FacebookIcon } from '@/components/SocialIcon
 import BlogCover from '@/components/BlogCover';
 import LogoTile from '@/components/LogoTile';
 import MarkdownContent from '@/components/MarkdownContent';
+import AdUnit from '@/components/AdUnit';
 import tools from '@/data/tools.json';
 import { Tool, getLocalizedDescription } from '@/components/ToolCard';
 
@@ -132,6 +133,12 @@ export default function BlogDetailClient({ post, locale, articleJsonLd, coverIma
           <div className="max-w-none">
             <MarkdownContent content={content} />
           </div>
+
+          {/* AdSense — 正文之后、标签之前（长内容页才插，审核通过前为 no-op） */}
+          <AdUnit
+            unit={process.env.NEXT_PUBLIC_ADSENSE_UNIT || ''}
+            label={t('adLabel')}
+          />
 
           {/* Tags */}
           <div className="flex flex-wrap gap-2 mt-8 pt-8 border-t border-[var(--muted-border)]">

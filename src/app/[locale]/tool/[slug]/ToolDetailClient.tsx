@@ -9,6 +9,7 @@ import { Tool, PLATFORM_META, getLocalizedDescription } from '@/components/ToolC
 import { ExternalLink, Globe, Star, Building2, CheckCircle, XCircle, Lightbulb, DollarSign, Zap, Info, Share2, Link2, Check, Newspaper, BookOpen, Clipboard, LayoutGrid, Award, MonitorSmartphone, ChevronDown } from 'lucide-react';
 import { TwitterIcon, LinkedinIcon, FacebookIcon } from '@/components/SocialIcons';
 import Newsletter from '@/components/Newsletter';
+import AdUnit from '@/components/AdUnit';
 import LogoTile from '@/components/LogoTile';
 import { categoryToSlug } from '@/lib/categories';
 import { useState } from 'react';
@@ -404,6 +405,12 @@ export default function ToolDetailClient({ tool, locale, details: detailsProp, s
                   ))}
                 </div>
               </div>
+
+              {/* AdSense — Features 之后、Pricing 之前（长内容页；审核通过前为 no-op） */}
+              <AdUnit
+                unit={process.env.NEXT_PUBLIC_ADSENSE_UNIT || ''}
+                label={t('adLabel')}
+              />
 
               {/* Pricing */}
               <div className="bg-[var(--card-bg)] rounded-2xl shadow-[var(--card-shadow)] p-8">
