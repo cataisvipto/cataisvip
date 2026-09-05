@@ -6,6 +6,7 @@ import { notFound } from 'next/navigation';
 import GoogleAnalytics from '../GoogleAnalytics';
 import AdSense from '../AdSense';
 import { ThemeProvider } from '@/components/ThemeProvider';
+import ConsentBanner from '@/components/ConsentBanner';
 import { routing, TEMP_NOINDEX_LOCALES } from '@/i18n/routing';
 import "../globals.css";
 
