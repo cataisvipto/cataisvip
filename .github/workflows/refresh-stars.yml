@@ -22,7 +22,7 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
 
       # 零依赖脚本（Node 内置 fetch），无需 npm install
       - name: 刷新 MCP / Skills 星数
