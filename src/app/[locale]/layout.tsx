@@ -98,6 +98,7 @@ export default async function LocaleLayout({
         <ThemeProvider>
           <NextIntlClientProvider messages={messages}>
             {children}
+            <ConsentBanner />
           </NextIntlClientProvider>
         </ThemeProvider>
       </body>
