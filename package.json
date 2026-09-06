@@ -24,7 +24,8 @@
     "audit:verdict": "node scripts/audit-verdict-tokens.mjs",
     "audit:pricing": "node scripts/audit-pricing-drift.mjs",
     "audit:all": "node scripts/audit-freshness.mjs && node scripts/audit-verdict-tokens.mjs && node scripts/audit-pricing-drift.mjs",
-    "gsc": "node scripts/gsc-report.mjs"
+    "gsc": "node scripts/gsc-report.mjs",
+    "docs:html": "node _internal/md2html.js"
   },
   "dependencies": {
     "isomorphic-dompurify": "^3.21.0",
@@ -45,6 +46,7 @@
     "eslint-config-next": "16.2.12",
     "google-auth-library": "^10.9.1",
     "jsdom": "^30.0.1",
+    "markdown-it": "^15.0.1",
     "serve": "^14.2.4",
     "tailwindcss": "^4",
     "typescript": "^5",
