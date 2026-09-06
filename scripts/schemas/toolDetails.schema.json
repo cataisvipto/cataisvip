@@ -13,6 +13,17 @@
         "type": "object",
         "additionalProperties": { "$ref": "#/$defs/i18nString" }
       },
+      "pricingInfo": {
+        "type": "object",
+        "description": "P4 结构化定价（可选）：由 tags/定价文案推导，供列表筛选与 UI 渲染；详细档位文案仍在 pricing",
+        "additionalProperties": false,
+        "required": ["model"],
+        "properties": {
+          "model": { "enum": ["free", "freemium", "paid", "open-source", "unknown"] },
+          "fromPrice": { "type": "string", "pattern": "^\\$\\d" },
+          "url": { "type": "string", "pattern": "^https?://" }
+        }
+      },
       "useCases": { "$ref": "#/$defs/i18nStringArray" },
       "pros": { "$ref": "#/$defs/i18nStringArray" },
       "cons": { "$ref": "#/$defs/i18nStringArray" },

@@ -51,6 +51,7 @@ interface TldrData {
   developer: string;
   officialUrl: string;
   pricingTiers: string[];
+  fromPrice: string | null;
   pricingUrl: string | null;
   verdict: string | null;
   verified: string | null;

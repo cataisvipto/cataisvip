@@ -14,6 +14,7 @@ interface TldrData {
   developer: string;
   officialUrl: string;
   pricingTiers: string[];
+  fromPrice: string | null;
   pricingUrl: string | null;
   verdict: string | null;
   verified: string | null;
@@ -44,6 +45,7 @@ export default function ToolTldr({ tldr }: { tldr: TldrData }) {
             {t('pricingTiers')}
             {': '}
             {tldr.pricingTiers.join(' / ')}
+            {tldr.fromPrice && ` (${t('tldrFromPrice')} ${tldr.fromPrice})`}
             {' · '}
             <a
               href={tldr.pricingUrl ?? tldr.officialUrl}

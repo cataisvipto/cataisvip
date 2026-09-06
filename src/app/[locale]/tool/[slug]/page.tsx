@@ -175,6 +175,7 @@ export default async function ToolDetailPage({ params }: Props) {
     developer: tool.developer || '',
     officialUrl: tool.url,
     pricingTiers: d.pricing ? Object.keys(d.pricing) : [],
+    fromPrice: (d as { pricingInfo?: { fromPrice?: string } }).pricingInfo?.fromPrice ?? null,
     pricingUrl: d.meta?.pricingUrl || null,
     verdict: d.verdict?.headline
       ? d.verdict.headline[locale] ?? d.verdict.headline.en ?? null
