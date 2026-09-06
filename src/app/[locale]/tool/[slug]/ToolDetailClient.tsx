@@ -5,6 +5,7 @@ import { Link } from '@/i18n/navigation';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Breadcrumb from '@/components/Breadcrumb';
+import ToolTldr from '@/components/ToolTldr';
 import { Tool, PLATFORM_META, getLocalizedDescription } from '@/components/ToolCard';
 import { ExternalLink, Globe, Star, Building2, CheckCircle, XCircle, Lightbulb, DollarSign, Zap, Info, Share2, Link2, Check, Newspaper, BookOpen, Clipboard, LayoutGrid, Award, MonitorSmartphone, ChevronDown } from 'lucide-react';
 import { TwitterIcon, LinkedinIcon, FacebookIcon } from '@/components/SocialIcons';
@@ -40,6 +41,18 @@ interface ToolDetailClientProps {
   relatedTools: Tool[];
   relatedPosts: RelatedPost[];
   relatedTutorials: RelatedTutorial[];
+  tldr: TldrData;
+}
+
+interface TldrData {
+  displayName: string;
+  category: string;
+  developer: string;
+  officialUrl: string;
+  pricingTiers: string[];
+  pricingUrl: string | null;
+  verdict: string | null;
+  verified: string | null;
 }
 
 const TAG_COLORS: Record<string, string> = {
@@ -50,7 +63,7 @@ const TAG_COLORS: Record<string, string> = {
   'API': 'bg-purple-100 text-purple-700 dark:bg-purple-900/30 dark:text-purple-400',
 };
 
-export default function ToolDetailClient({ tool, locale, details: detailsProp, sameMaker, relatedTools, relatedPosts, relatedTutorials }: ToolDetailClientProps) {
+export default function ToolDetailClient({ tool, locale, details: detailsProp, sameMaker, relatedTools, relatedPosts, relatedTutorials, tldr }: ToolDetailClientProps) {
   const t = useTranslations('common');
   const tCategories = useTranslations('categories');
   const tTags = useTranslations('tags');
@@ -165,6 +178,9 @@ export default function ToolDetailClient({ tool, locale, details: detailsProp, s
           ]}
           locale={locale}
         />
+
+        {/* P3.4 可引用 TL;DR 块 */}
+        <ToolTldr tldr={tldr} />
 
         <article className="space-y-8">
           {/* Header Card */}

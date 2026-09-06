@@ -37,6 +37,15 @@ export function generateAlternates(path: string, currentLocale: string) {
   return {
     canonical: `${BASE_URL}/${canonicalLocale}${normalizedPath}`,
     languages,
+    // RSS feeds（P3.3）：放在 generateAlternates 里而非 layout，因为页面级
+    // alternates 会整体覆盖 layout 级，这里才能保证每个页面都带 feed 声明
+    types: {
+      'application/rss+xml': [
+        { url: '/rss/blog.xml', title: 'Cataito Blog' },
+        { url: '/rss/tutorials.xml', title: 'Cataito Tutorials' },
+        { url: '/rss/ranking.xml', title: 'Cataito GitHub AI Rankings' },
+      ],
+    },
   };
 }
 

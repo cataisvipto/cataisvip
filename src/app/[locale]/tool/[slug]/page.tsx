@@ -162,6 +162,25 @@ export default async function ToolDetailPage({ params }: Props) {
     dateModified: detailMeta.lastVerified,
   });
 
+  // P3.4 可引用 TL;DR 块：40 字级事实清单（AI 检索器/富摘要友好），服务端算好传客户端
+  const d = (details ?? {}) as {
+    pricing?: Record<string, unknown>;
+    verdict?: { headline?: Record<string, string> };
+    meta?: { pricingUrl?: string };
+  };
+  const tldr = {
+    displayName,
+    category: categoryLabel,
+    developer: tool.developer || '',
+    officialUrl: tool.url,
+    pricingTiers: d.pricing ? Object.keys(d.pricing) : [],
+    pricingUrl: d.meta?.pricingUrl || null,
+    verdict: d.verdict?.headline
+      ? d.verdict.headline[locale] ?? d.verdict.headline.en ?? null
+      : null,
+    verified: detailMeta.lastVerified ?? null,
+  };
+
   return (
     <>
       <script
@@ -172,6 +191,7 @@ export default async function ToolDetailPage({ params }: Props) {
         tool={tool as Tool}
         locale={locale}
         details={details}
+        tldr={tldr}
         sameMaker={sameMaker as Tool[]}
         relatedTools={relatedTools as Tool[]}
         relatedPosts={relatedPosts}
