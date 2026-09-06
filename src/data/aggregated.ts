@@ -37,7 +37,7 @@ const mcpDetailMods = import.meta.glob('./mcp-details/*.json', { eager: true }) 
   JsonModule
 >;
 
-/** 按顺序锚装配数组；多文件/缺文件都是数据事故，构建期直接失败 */
+/** 按顺序锚装配数组；order 里缺文件 = 数据事故构建期报错；目录多出的文件 = 警告并追加到末尾（兼容 CMS 新建条目，未登记顺序时先落末尾，由 refresh-stars/下次整理归位） */
 function assembleArray(
   mods: Record<string, JsonModule>,
   order: string[],
@@ -45,15 +45,17 @@ function assembleArray(
 ): unknown[] {
   const expected = order.map((slug) => `./${label}/${slug}.json`);
   const missing = expected.filter((p) => !(p in mods));
+  if (missing.length) {
+    throw new Error(`数据不一致（${label}）：canonical-order.json 登记但缺文件：${missing.join(', ')}`);
+  }
   const extra = Object.keys(mods).filter((p) => !expected.includes(p));
-  if (missing.length || extra.length) {
-    throw new Error(
-      `数据不一致（${label}）：` +
-        (missing.length ? `canonical-order.json 登记但缺文件：${missing.join(', ')}` : '') +
-        (extra.length ? `目录有文件但未登记顺序：${extra.join(', ')}（应更新 canonical-order.json）` : ''),
+  if (extra.length) {
+    console.warn(
+      `[data] ${label}：目录有 ${extra.length} 个文件未登记 canonical-order.json，已追加到末尾：${extra.join(', ')}`,
     );
   }
-  return expected.map((p) => {
+  const paths = [...expected, ...extra];
+  return paths.map((p) => {
     // Turbopack 对 JSON 的 glob 模块可能是 { default } 包裹，也可能直接是对象本身——归一化兼容
     const m = mods[p] as { default?: unknown };
     return (m.default ?? m) as unknown;

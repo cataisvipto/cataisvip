@@ -26,15 +26,19 @@ function collectDir(dir, order, label) {
   const files = fs.readdirSync(full).filter((f) => f.endsWith('.json')).sort();
   const expected = order.map((s) => `${s}.json`);
   const missing = expected.filter((f) => !files.includes(f));
-  const extra = files.filter((f) => !expected.includes(f));
-  if (missing.length || extra.length) {
+  if (missing.length) {
     throw new Error(
-      `数据不一致（${label}）：` +
-        (missing.length ? `canonical-order.json 登记但缺文件：${missing.join(', ')}` : '') +
-        (extra.length ? `目录有文件但未登记顺序：${extra.join(', ')}（应更新 canonical-order.json）` : ''),
+      `数据不一致（${label}）：canonical-order.json 登记但缺文件：${missing.join(', ')}`,
     );
   }
-  return expected.map((f) => loadJson(path.join(full, f)));
+  // 多出的文件：警告并追加到末尾（兼容 CMS 新建条目，未登记顺序时先落末尾）
+  const extra = files.filter((f) => !expected.includes(f));
+  if (extra.length) {
+    console.warn(
+      `[data] ${label}：目录有 ${extra.length} 个文件未登记 canonical-order.json，已追加到末尾：${extra.join(', ')}`,
+    );
+  }
+  return [...expected, ...extra].map((f) => loadJson(path.join(full, f)));
 }
 
 function loadCollection(dir, orderKey) {
