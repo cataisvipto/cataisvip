@@ -22,7 +22,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const locales = INDEXED_LOCALES;
 
   // Static pages（/tools /skills /mcp 为列表页，权重高于普通静态页）
-  const staticPages = ['', '/tools', '/skills', '/mcp', '/submit', '/about', '/privacy', '/disclaimer', '/editorial-policy', '/blog', '/tutorials', '/ranking'].flatMap((path) =>
+  const staticPages = ['', '/tools', '/skills', '/mcp', '/submit', '/about', '/privacy', '/disclaimer', '/editorial-policy', '/blog', '/tutorials', '/ranking', '/report'].flatMap((path) =>
     locales.map((locale) => ({
       url: `${BASE_URL}/${locale}${path}`,
       lastModified: new Date(),

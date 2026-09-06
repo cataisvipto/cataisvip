@@ -500,5 +500,20 @@
       "desc": "Free online image, icon & color tools"
     },
     "more": "More coming soon"
+  },
+  "report": {
+    "metaTitle": "Monthly AI Ecosystem Report — Open Source Growth | Cataito",
+    "metaDescription": "Monthly report on the fastest-growing open-source AI projects, computed from Cataito's daily GitHub star snapshots.",
+    "notReady": "The monthly report needs at least two month-start snapshots. Check back soon.",
+    "dataRange": "Data range: {prev} → {cur}",
+    "title": "AI Ecosystem Report — {month}",
+    "tldr": "Across Cataito's tracked open-source AI projects, stars grew by {growth} this month to a combined {total}. {projects} projects are under daily tracking, with {newcomers} new entrants captured in the snapshot pool.",
+    "totalStars": "Total stars",
+    "starGrowth": "Monthly growth",
+    "projectsTracked": "Projects tracked",
+    "newEntrants": "New entrants",
+    "topGainersTitle": "Top gainers of the month (curated)",
+    "newcomersTitle": "Notable newcomers ({count} curated)",
+    "methodology": "Methodology: computed from Cataito's daily GitHub star snapshots by comparing month-start archives. Only curated projects (already listed on Cataito with 2,000+ stars) are ranked, which filters out star-farming noise; the raw newcomer count covers the full snapshot pool. Figures are frozen at month-start archives and reproducible from public data."
   }
 }

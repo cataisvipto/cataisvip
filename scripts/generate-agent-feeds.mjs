@@ -71,6 +71,9 @@ ${mcpLines}
 ## GitHub AI Project Rankings
 - [Daily AI Project Rankings](${BASE}/en/ranking): leaderboard of the fastest-growing open-source AI projects by category (LLM, agents, image, audio, devtools, RAG, video), updated daily at 08:37 Beijing time with 18 months of star-history snapshots.
 
+## Monthly Ecosystem Report
+- [AI Ecosystem Report](${BASE}/en/report): month-over-month open-source AI growth computed from daily star snapshots — total ecosystem size, top gainers and notable newcomers.
+
 ## Blog
 ${blogLines}
 

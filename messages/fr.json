@@ -500,5 +500,20 @@
       "desc": "Outils en ligne gratuits : images, icônes et couleurs"
     },
     "more": "Bientôt disponible"
+  },
+  "report": {
+    "metaTitle": "Rapport Mensuel de l'Écosystème IA | Cataito",
+    "metaDescription": "Rapport mensuel sur les projets IA open source à la plus forte croissance, calculé à partir des instantanés quotidiens GitHub de Cataito.",
+    "notReady": "Le rapport mensuel nécessite au moins deux instantanés de début de mois. Revenez bientôt.",
+    "dataRange": "Période : {prev} → {cur}",
+    "title": "Rapport de l'écosystème IA ({month})",
+    "tldr": "Ce mois-ci, les étoiles des projets IA open source suivis par Cataito ont augmenté de {growth}, pour un total de {total}. {projects} projets suivis, {newcomers} nouveaux.",
+    "totalStars": "Étoiles totales",
+    "starGrowth": "Croissance mensuelle",
+    "projectsTracked": "Projets suivis",
+    "newEntrants": "Nouvelles entrées",
+    "topGainersTitle": "Plus fortes hausses du mois (curatées)",
+    "newcomersTitle": "Nouveaux notables ({count} curés)",
+    "methodology": "Méthodologie : calculé en comparant les archives de début de mois des instantanés quotidiens GitHub. Seuls les projets curatés de 2 000+ étoiles sont classés, filtrant le bruit des fermes d'étoiles."
   }
 }

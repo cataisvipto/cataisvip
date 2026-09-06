@@ -500,5 +500,20 @@
       "desc": "免费在线图像、图标与配色工具"
     },
     "more": "更多子站建设中"
+  },
+  "report": {
+    "metaTitle": "AI 开源生态月报 — 增长数据 | Cataito",
+    "metaDescription": "基于 Cataito 每日 GitHub star 快照的月度报告：最快增长的开源 AI 项目、生态总量与新面孔。",
+    "notReady": "月报需要至少两个月初快照才能生成，敬请期待。",
+    "dataRange": "数据区间：{prev} → {cur}",
+    "title": "AI 开源生态月报（{month}）",
+    "tldr": "本月 Cataito 追踪的开源 AI 项目 star 总量净增 {growth}，累计达 {total}；日常追踪项目 {projects} 个，快照池新收录 {newcomers} 个。",
+    "totalStars": "Star 总量",
+    "starGrowth": "本月净增",
+    "projectsTracked": "追踪项目数",
+    "newEntrants": "快照池新面孔",
+    "topGainersTitle": "本月增长最快（策展榜）",
+    "newcomersTitle": "值得关注的新面孔（{count} 个已收录）",
+    "methodology": "方法论：对比每月 1 号的永久归档快照计算得出。榜单只统计已收录且 star ≥ 2,000 的策展项目，以过滤刷量噪音；新面孔数为快照池全量口径。数据冻结于月初归档，可用公开数据复现。"
   }
 }

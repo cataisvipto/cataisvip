@@ -500,5 +500,20 @@
       "desc": "無料のオンライン画像・アイコン・カラーツール"
     },
     "more": "近日公開予定"
+  },
+  "report": {
+    "metaTitle": "月次 AI エコシステムレポート | Cataito",
+    "metaDescription": "Cataito の毎日 GitHub スタースナップショットに基づく月次レポート：最速成長のオープンソース AI プロジェクト。",
+    "notReady": "月次レポートには 2 か月分の月初スナップショットが必要です。今しばらくお待ちください。",
+    "dataRange": "データ期間：{prev} → {cur}",
+    "title": "AI エコシステム月次レポート（{month}）",
+    "tldr": "今月、Cataito が追跡するオープンソース AI プロジェクトのスターは {growth} 増加し、合計 {total} に達しました。追跡プロジェクトは {projects} 件、新規 {newcomers} 件。",
+    "totalStars": "スター総数",
+    "starGrowth": "月間増加",
+    "projectsTracked": "追跡プロジェクト",
+    "newEntrants": "新規エントリー",
+    "topGainersTitle": "今月のトップゲイナー（キュレーション）",
+    "newcomersTitle": "注目の新顔（{count} 件収録）",
+    "methodology": "手法：毎月 1 日のアーカイブスナップショットを比較して算出。スター 2,000 以上の収録プロジェクトのみ順位付けし、水増しノイズを除外します。"
   }
 }
