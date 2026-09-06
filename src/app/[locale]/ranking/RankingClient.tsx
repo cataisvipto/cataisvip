@@ -213,9 +213,7 @@ export default function RankingClient({ items, updatedAt: serverUpdatedAt, local
           {filtered.map((item) => (
             <a
               key={item.fullName}
-              href={item.url}
-              target="_blank"
-              rel="noopener noreferrer"
+              href={`/project/${item.fullName}`}
               className="group flex items-center gap-3 sm:gap-4 bg-[var(--card-bg)] rounded-xl shadow-[var(--card-shadow)] hover:shadow-[var(--card-shadow-hover)] hover:-translate-y-0.5 px-3 sm:px-5 py-3.5 transition-all duration-200"
             >
               <div

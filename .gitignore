@@ -92,6 +92,11 @@ public/window.svg
 .vercel
 .env*
 
+# 构建期生成产物（generate-agent-feeds.mjs 每次 build 重新生成，不入库）
+public/llms.txt
+public/llms-full.txt
+public/rss/
+
 # preview / temp chrome profiles
 _preview_shots/
 _cfp_*/

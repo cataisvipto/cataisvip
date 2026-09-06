@@ -5,6 +5,7 @@ import tutorials from '@/data/tutorials.json';
 import { skills } from '@/data/aggregated';
 import { mcp as mcpServers } from '@/data/aggregated';
 import { routing, TEMP_NOINDEX_LOCALES } from '@/i18n/routing';
+import { allProjects } from '@/lib/ranking-history';
 import { CATEGORY_SLUGS } from '@/lib/categories';
 
 // output: 'export' 要求路由显式声明为纯静态。
@@ -90,5 +91,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }))
   );
 
-  return [...staticPages, ...categoryPages, ...toolPages, ...blogPages, ...tutorialPages, ...skillPages, ...mcpPages];
+  // P4.1 排行项目详情页（en-only 数据页，每日刷新的独家数据）
+  const projectPages = [...allProjects().keys()].map((fullName) => ({
+    url: `${BASE_URL}/project/${fullName}`,
+    lastModified: new Date(),
+    changeFrequency: 'daily' as const,
+    priority: 0.8,
+  }));
+
+  return [...staticPages, ...categoryPages, ...toolPages, ...blogPages, ...tutorialPages, ...skillPages, ...mcpPages, ...projectPages];
 }
