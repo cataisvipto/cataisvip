@@ -12,11 +12,15 @@ import { useEffect, useRef, useState, type ReactNode } from 'react';
 export const MIN_SUBMIT_MS = 2500;
 
 export function useTimeTrap() {
-  const mountedAt = useRef<number>(Date.now());
+  // react-hooks/purity：渲染期禁用 Date.now()，挂载后惰性记录
+  const mountedAt = useRef<number | null>(null);
   useEffect(() => {
     mountedAt.current = Date.now();
   }, []);
-  return () => Date.now() - mountedAt.current >= MIN_SUBMIT_MS;
+  return () => {
+    if (mountedAt.current === null) return true;
+    return Date.now() - mountedAt.current >= MIN_SUBMIT_MS;
+  };
 }
 
 // 渲染进表单的隐藏蜜罐字段（name 取邮箱类诱饵，诱导机器人填写）

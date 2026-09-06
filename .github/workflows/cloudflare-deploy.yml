@@ -42,9 +42,10 @@ jobs:
 
       # IndexNow 即时推送（P3.1）：部署成功后把 sitemap 全部 URL 推给 Bing/Yandex
       # （ChatGPT 搜索的底层数据源是 Bing）。key 为公开标识文件 public/<key>.txt，非机密。
-      # 提交失败不阻塞部署（仅告警）。
+      # 提交失败不阻塞部署（仅告警）——continue-on-error 确保部署本身保持绿色。
       - name: Submit URLs to IndexNow
         if: success()
+        continue-on-error: true
         run: node scripts/indexnow-submit.mjs
 
       - name: Smoke test (opt-in via workflow_dispatch)

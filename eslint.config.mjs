@@ -20,6 +20,14 @@ const eslintConfig = defineConfig([
     "next-env.d.ts",
     // Standalone Node.js scripts (CommonJS, not part of Next.js app)
     "scripts/**",
+    // 本地内部目录（gitignore，不存在于 CI；2026-09-06 加入避免本地 lint 噪音淹没）
+    "sandbox-*/**",
+    ".qoder/**",
+    "_internal/**",
+    "_cfp_*/**",
+    "_preview_shots/**",
+    ".agents/**",
+    ".zcode/**",
   ]),
 ]);
 

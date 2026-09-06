@@ -9,8 +9,10 @@ on:
         required: true
         type: string
 
-  # Vercel 部署完成后自动触发（部分 Vercel 集成会发送 deployment_status 事件）
-  deployment_status:
+  # ⚠️ 2026-09-06 停用 deployment_status 自动触发：Vercel 通道已弃用（DECISIONS 2026-09-03），
+  # cataito.vercel.app 已不可达——CF Pages 部署事件触发本 workflow 必挂（对着死域名冒烟），
+  # 是「每次 push CI 红叉」的根因之一。如需恢复 Vercel 预览验证再启用下行。
+  # deployment_status:
 
 permissions:
   contents: read

@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import {
   allProjects,
@@ -201,7 +202,7 @@ export default async function ProjectPage({ params }: Props) {
         <h2 className="text-lg font-bold mb-3">Ranking placement</h2>
         <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
           {info.boards.map((b) => (
-            <a
+            <Link
               key={b.key}
               href="/en/ranking"
               className="rounded-xl bg-[var(--card-bg)] border border-[var(--card-border)] p-4 hover:shadow-[var(--card-shadow-hover)] hover:-translate-y-0.5 transition-all"
@@ -213,7 +214,7 @@ export default async function ProjectPage({ params }: Props) {
                   {b.change > 0 ? `▲ +${b.change}` : `▼ ${b.change}`} vs last period
                 </div>
               )}
-            </a>
+            </Link>
           ))}
         </div>
       </section>
@@ -249,7 +250,7 @@ export default async function ProjectPage({ params }: Props) {
           <div>
             <p className="text-xs text-[var(--muted)] mb-1">HTML</p>
             <pre className="text-xs bg-[var(--code-bg)] rounded-lg p-3 overflow-x-auto whitespace-pre-wrap break-all">
-{`<a href="https://cataito.com/project/${fullName}"><img src="https://cataito.com/embed/project/${fullName}.svg" alt="${info.name} ranking on Cataito" width="260" height="84"></a>`}
+{`<a href="https://cataito.com/project/${fullName}"><img src="https://cataito.com/embed/project/${fullName}.svg" alt="${info.name} ranking on Cataito" width="260" height="84"></Link>`}
             </pre>
           </div>
           <div>

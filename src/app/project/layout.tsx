@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Link from 'next/link';
 import '../globals.css';
 
 // P4.1：排行项目详情页使用独立布局（en-only 数据页，不经 [locale] 段）。
@@ -17,19 +18,19 @@ export default function ProjectLayout({ children }: { children: React.ReactNode 
       <body className="min-h-full flex flex-col bg-[var(--background)] text-[var(--foreground)]">
         <header className="border-b border-[var(--card-border)] bg-[var(--header-bg)]">
           <div className="max-w-5xl mx-auto px-4 sm:px-6 py-4 flex items-center justify-between">
-            <a href="/en" className="font-bold text-lg tracking-tight text-[var(--foreground)]">
+            <Link href="/en" className="font-bold text-lg tracking-tight text-[var(--foreground)]">
               Cataito
-            </a>
+            </Link>
             <nav className="flex items-center gap-5 text-sm">
-              <a href="/en/ranking" className="text-[var(--primary)] font-medium hover:underline">
+              <Link href="/en/ranking" className="text-[var(--primary)] font-medium hover:underline">
                 AI Rankings
-              </a>
-              <a href="/en/tools" className="text-[var(--muted)] hover:text-[var(--foreground)]">
+              </Link>
+              <Link href="/en/tools" className="text-[var(--muted)] hover:text-[var(--foreground)]">
                 Tools
-              </a>
-              <a href="/en/blog" className="text-[var(--muted)] hover:text-[var(--foreground)]">
+              </Link>
+              <Link href="/en/blog" className="text-[var(--muted)] hover:text-[var(--foreground)]">
                 Blog
-              </a>
+              </Link>
             </nav>
           </div>
         </header>
@@ -39,9 +40,9 @@ export default function ProjectLayout({ children }: { children: React.ReactNode 
             <span>© {new Date().getFullYear()} Cataito — AI Ecosystem Portal</span>
             <span>
               Star data from daily GitHub snapshots ·{' '}
-              <a href="/en/ranking" className="text-[var(--primary)] hover:underline">
+              <Link href="/en/ranking" className="text-[var(--primary)] hover:underline">
                 Full rankings
-              </a>
+              </Link>
             </span>
           </div>
         </footer>

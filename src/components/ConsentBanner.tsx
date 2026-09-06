@@ -32,17 +32,21 @@ export default function ConsentBanner() {
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {
-    try {
-      const stored = localStorage.getItem(STORAGE_KEY);
-      if (stored === 'granted' || stored === 'denied') {
-        // 已有选择：应用到本页（Consent Mode 信号跨页持续）
-        pushConsentUpdate(stored);
-      } else {
+    // react-hooks/set-state-in-effect：同步 setState 会级联渲染，延迟到宏任务
+    const t = setTimeout(() => {
+      try {
+        const stored = localStorage.getItem(STORAGE_KEY);
+        if (stored === 'granted' || stored === 'denied') {
+          // 已有选择：应用到本页（Consent Mode 信号跨页持续）
+          pushConsentUpdate(stored);
+        } else {
+          setVisible(true);
+        }
+      } catch {
         setVisible(true);
       }
-    } catch {
-      setVisible(true);
-    }
+    }, 0);
+    return () => clearTimeout(t);
   }, []);
 
   const choose = (state: ConsentState) => {
