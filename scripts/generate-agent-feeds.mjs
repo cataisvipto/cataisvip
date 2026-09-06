@@ -179,6 +179,44 @@ fs.writeFileSync(
   }),
 );
 
+// ── P4.6 项目排名徽章（可嵌入 README 的 SVG，反向链接引擎）──────
+// 每个上榜项目一枚：public/embed/project/<org>/<repo>.svg
+// 嵌入码展示在项目详情页（<img> 标签 + Markdown 两种）。
+const badgeInfo = new Map();
+for (const [key, board] of Object.entries(ranking.boards)) {
+  for (const it of board.items) {
+    const e = badgeInfo.get(it.fullName);
+    if (!e) badgeInfo.set(it.fullName, { ...it, bestRank: it.rank, bestBoard: key });
+    else if (it.rank < e.bestRank) {
+      e.bestRank = it.rank;
+      e.bestBoard = key;
+    }
+  }
+}
+const BOARD_EN = {
+  all: 'Overall', llm: 'LLM', agents: 'AI Agents', image: 'Image', audio: 'Audio',
+  devtools: 'DevTools', rag: 'RAG', video: 'Video', vision: 'Vision',
+};
+const badgeEsc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+for (const [fullName, it] of badgeInfo) {
+  const [org, repo] = fullName.split('/');
+  const dir = path.join(ROOT, 'public', 'embed', 'project', badgeEsc(org));
+  fs.mkdirSync(dir, { recursive: true });
+  const starsK = it.stars >= 1000 ? (it.stars / 1000).toFixed(1) + 'k' : String(it.stars);
+  const boardLabel = (BOARD_EN[it.bestBoard] ?? it.bestBoard).toUpperCase();
+  const svg = `<svg width="260" height="84" viewBox="0 0 260 84" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="${badgeEsc(fullName)} ranked #${it.bestRank} on Cataito">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#22D3EE"/><stop offset="50%" stop-color="#3B82F6"/><stop offset="100%" stop-color="#8B5CF6"/></linearGradient></defs>
+  <rect width="260" height="84" rx="10" fill="#0A1230"/>
+  <rect width="260" height="4" rx="2" fill="url(#g)"/>
+  <text x="16" y="34" font-size="24" font-weight="800" fill="#FFFFFF" font-family="Arial, sans-serif">#${it.bestRank}</text>
+  <text x="16" y="52" font-size="11" fill="#8FA3C8" font-family="Arial, sans-serif">${badgeEsc(boardLabel)} · ${badgeEsc(fullName)}</text>
+  <text x="244" y="34" font-size="16" font-weight="700" fill="#39D0D8" text-anchor="end" font-family="Arial, sans-serif">★ ${starsK}</text>
+  <text x="16" y="72" font-size="10" fill="#5B6B8C" font-family="Arial, sans-serif">Ranked by cataito.com/ranking</text>
+</svg>
+`;
+  fs.writeFileSync(path.join(dir, repo + '.svg'), svg);
+}
+
 console.log(
-  `✔ agent feeds 已生成：llms.txt(${(llmsTxt.length / 1024).toFixed(0)}KB) llms-full.txt rss/{blog,tutorials,ranking}.xml`,
+  `✔ agent feeds 已生成：llms.txt(${(llmsTxt.length / 1024).toFixed(0)}KB) llms-full.txt rss/{blog,tutorials,ranking}.xml 项目徽章 SVG ×${badgeInfo.size}`,
 );

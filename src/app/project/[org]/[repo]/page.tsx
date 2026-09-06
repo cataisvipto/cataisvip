@@ -231,6 +231,36 @@ export default async function ProjectPage({ params }: Props) {
         </div>
       </section>
 
+      {/* P4.6 嵌入徽章：反向链接引擎 */}
+      <section>
+        <h2 className="text-lg font-bold mb-3">Embed this ranking badge</h2>
+        <p className="text-sm text-[var(--muted)] mb-3">
+          Put a live ranking badge in your README or docs — it shows your current Cataito rank and
+          stars, regenerated with every daily build.
+        </p>
+        <div className="bg-[var(--card-bg)] rounded-2xl border border-[var(--card-border)] p-6 space-y-4">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src={`https://cataito.com/embed/project/${fullName}.svg`}
+            alt={`${info.name} ranking badge on Cataito`}
+            width={260}
+            height={84}
+          />
+          <div>
+            <p className="text-xs text-[var(--muted)] mb-1">HTML</p>
+            <pre className="text-xs bg-[var(--code-bg)] rounded-lg p-3 overflow-x-auto whitespace-pre-wrap break-all">
+{`<a href="https://cataito.com/project/${fullName}"><img src="https://cataito.com/embed/project/${fullName}.svg" alt="${info.name} ranking on Cataito" width="260" height="84"></a>`}
+            </pre>
+          </div>
+          <div>
+            <p className="text-xs text-[var(--muted)] mb-1">Markdown</p>
+            <pre className="text-xs bg-[var(--code-bg)] rounded-lg p-3 overflow-x-auto whitespace-pre-wrap break-all">
+{`[![${info.name} ranking on Cataito](https://cataito.com/embed/project/${fullName}.svg)](https://cataito.com/project/${fullName})`}
+            </pre>
+          </div>
+        </div>
+      </section>
+
       {/* Methodology note */}
       <p className="text-xs text-[var(--muted)] leading-relaxed">
         Rankings and star history are computed daily from the public GitHub API by Cataito&apos;s
