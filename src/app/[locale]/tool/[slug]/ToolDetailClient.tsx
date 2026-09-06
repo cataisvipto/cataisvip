@@ -42,6 +42,7 @@ interface ToolDetailClientProps {
   relatedPosts: RelatedPost[];
   relatedTutorials: RelatedTutorial[];
   tldr: TldrData;
+  healthStatus: string | null;
 }
 
 interface TldrData {
@@ -63,7 +64,7 @@ const TAG_COLORS: Record<string, string> = {
   'API': 'bg-purple-100 text-purple-700 dark:bg-purple-900/30 dark:text-purple-400',
 };
 
-export default function ToolDetailClient({ tool, locale, details: detailsProp, sameMaker, relatedTools, relatedPosts, relatedTutorials, tldr }: ToolDetailClientProps) {
+export default function ToolDetailClient({ tool, locale, details: detailsProp, sameMaker, relatedTools, relatedPosts, relatedTutorials, tldr, healthStatus }: ToolDetailClientProps) {
   const t = useTranslations('common');
   const tCategories = useTranslations('categories');
   const tTags = useTranslations('tags');
@@ -178,6 +179,17 @@ export default function ToolDetailClient({ tool, locale, details: detailsProp, s
           ]}
           locale={locale}
         />
+
+        {/* P4.3 内容保鲜横幅：每日存活探测连续失败时提示 */}
+        {healthStatus && (
+          <div
+            role="alert"
+            className="flex items-start gap-2.5 rounded-xl border border-amber-300 bg-amber-50 px-4 py-3 text-sm text-amber-800 dark:border-amber-900/40 dark:bg-amber-900/20 dark:text-amber-300"
+          >
+            <span className="mt-0.5">⚠️</span>
+            <span>{healthStatus === 'dead' ? t('healthDead') : t('healthUnreachable')}</span>
+          </div>
+        )}
 
         {/* P3.4 可引用 TL;DR 块 */}
         <ToolTldr tldr={tldr} />

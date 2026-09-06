@@ -5,6 +5,7 @@ import { tools } from '@/data/aggregated';
 import { toolDetails } from '@/data/aggregated';
 import blogPosts from '@/data/blogPosts.json';
 import tutorials from '@/data/tutorials.json';
+import toolHealth from '@/data/tool-health.json';
 import { Tool } from '@/components/ToolCard';
 import ToolDetailClient from './ToolDetailClient';
 import { routing } from '@/i18n/routing';
@@ -181,6 +182,15 @@ export default async function ToolDetailPage({ params }: Props) {
     verified: detailMeta.lastVerified ?? null,
   };
 
+  // P4.3 内容保鲜：每日存活探测结果驱动的横幅（dead/unreachable 显示，suspect 不显示）
+  const healthEntry = (toolHealth as { tools?: Record<string, { status?: string }> }).tools?.[
+    tool.slug
+  ];
+  const healthStatus =
+    healthEntry?.status === 'dead' || healthEntry?.status === 'unreachable'
+      ? healthEntry.status
+      : null;
+
   return (
     <>
       <script
@@ -192,6 +202,7 @@ export default async function ToolDetailPage({ params }: Props) {
         locale={locale}
         details={details}
         tldr={tldr}
+        healthStatus={healthStatus}
         sameMaker={sameMaker as Tool[]}
         relatedTools={relatedTools as Tool[]}
         relatedPosts={relatedPosts}

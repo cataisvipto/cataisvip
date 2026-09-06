@@ -1,0 +1,6 @@
+{
+  "updatedAt": "",
+  "summary": { "total": 288, "ok": 0, "dead": 0, "unreachable": 0 },
+  "tools": {},
+  "_note": "由 scripts/refresh-tool-health.mjs 在 CI（海外节点）每日刷新；本地国内网络探测会误判，勿在本地跑 --dry 以外模式。状态语义见脚本头注释。"
+}
