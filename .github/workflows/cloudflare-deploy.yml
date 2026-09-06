@@ -40,6 +40,13 @@ jobs:
           CLOUDFLARE_ACCOUNT_ID: ${{ env.CF_ACCOUNT_ID }}
         run: npx wrangler pages deploy out --project-name=${{ env.CF_PROJECT_NAME }} --branch=main --commit-hash=${{ github.sha }}
 
+      # IndexNow 即时推送（P3.1）：部署成功后把 sitemap 全部 URL 推给 Bing/Yandex
+      # （ChatGPT 搜索的底层数据源是 Bing）。key 为公开标识文件 public/<key>.txt，非机密。
+      # 提交失败不阻塞部署（仅告警）。
+      - name: Submit URLs to IndexNow
+        if: success()
+        run: node scripts/indexnow-submit.mjs
+
       - name: Smoke test (opt-in via workflow_dispatch)
         if: ${{ github.event_name == 'workflow_dispatch' && inputs.smoke_test == true }}
         run: |
