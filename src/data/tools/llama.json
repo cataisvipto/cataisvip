@@ -1,0 +1,29 @@
+{
+  "slug": "llama",
+  "name": "Llama",
+  "nameZh": "Llama",
+  "description": "Meta 开源的大语言模型系列，可本地部署，商用免费",
+  "descriptionEn": "Meta's open-source LLM series, deployable locally with commercial use allowed",
+  "descriptionJa": "MetaのオープンソースLLMシリーズ。ローカルデプロイ可能、商用利用可",
+  "descriptionEs": "Serie LLM de código abierto de Meta, desplegable localmente con uso comercial permitido",
+  "descriptionFr": "Série LLM open-source de Meta, déployable localement avec utilisation commerciale autorisée",
+  "url": "https://llama.meta.com",
+  "logo": "/logos/tools/llama.png",
+  "category": "Foundation Models",
+  "tags": [
+    "Free",
+    "Open Source"
+  ],
+  "featured": false,
+  "developer": "Meta",
+  "platforms": {
+    "web": false,
+    "windows": true,
+    "macos": true,
+    "ios": false,
+    "android": false,
+    "linux": true,
+    "browser_extension": false,
+    "api": true
+  }
+}

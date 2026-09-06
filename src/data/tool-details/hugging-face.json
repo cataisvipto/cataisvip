@@ -1,0 +1,268 @@
+{
+  "features": {
+    "en": [
+      "2M+ open models and datasets",
+      "Spaces app hosting",
+      "Inference Endpoints and Providers",
+      "Transformers and Diffusers libraries",
+      "Model training and fine-tuning",
+      "Enterprise Hub for teams"
+    ],
+    "zh": [
+      "200 万+ 开源模型与数据集",
+      "Spaces 应用托管",
+      "推理端点与推理供应商",
+      "Transformers 与 Diffusers 库",
+      "模型训练与微调",
+      "面向团队的企业版 Hub"
+    ],
+    "ja": [
+      "200万以上のオープンモデルとデータセット",
+      "Spaces アプリのホスティング",
+      "Inference Endpoints とプロバイダー",
+      "Transformers と Diffusers ライブラリ",
+      "モデルの学習とファインチューニング",
+      "チーム向けの Enterprise Hub"
+    ],
+    "es": [
+      "Más de 2M de modelos y datasets abiertos",
+      "Alojamiento de apps con Spaces",
+      "Inference Endpoints y proveedores",
+      "Bibliotecas Transformers y Diffusers",
+      "Entrenamiento y ajuste fino de modelos",
+      "Enterprise Hub para equipos"
+    ],
+    "fr": [
+      "Plus de 2M de modèles et jeux de données ouverts",
+      "Hébergement d'applis Spaces",
+      "Inference Endpoints et fournisseurs",
+      "Bibliothèques Transformers et Diffusers",
+      "Entraînement et fine-tuning de modèles",
+      "Enterprise Hub pour les équipes"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Free for public repos and community",
+      "zh": "公开仓库与社区免费",
+      "ja": "公開リポジトリとコミュニティは無料",
+      "es": "Gratis para repos públicos y comunidad",
+      "fr": "Gratuit pour les dépôts publics et la communauté"
+    },
+    "pro": {
+      "en": "$9/month (PRO features)",
+      "zh": "$9/月（PRO 功能）",
+      "ja": "月額9ドル（PRO 機能）",
+      "es": "9 $/mes (funciones PRO)",
+      "fr": "9 $/mois (fonctions PRO)"
+    },
+    "spaces": {
+      "en": "$0.40-$23.50/hr (compute)",
+      "zh": "$0.40-$23.50/小时（算力）",
+      "ja": "1時間あたり $0.40〜$23.50（コンピュート）",
+      "es": "0,40-23,50 $/h (cómputo)",
+      "fr": "0,40-23,50 $/h (calcul)"
+    },
+    "enterprise": {
+      "en": "Enterprise Hub custom pricing",
+      "zh": "企业版 Hub 定制价格",
+      "ja": "Enterprise Hub はカスタム料金",
+      "es": "Precio personalizado de Enterprise Hub",
+      "fr": "Tarif personnalisé Enterprise Hub"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Discovering and hosting models",
+      "Deploying ML demos with Spaces",
+      "Fine-tuning open models",
+      "Dataset sharing and versioning",
+      "Production inference",
+      "AI research collaboration"
+    ],
+    "zh": [
+      "发现与托管模型",
+      "用 Spaces 部署 ML 演示",
+      "微调开源模型",
+      "数据集共享与版本管理",
+      "生产环境推理",
+      "AI 研究协作"
+    ],
+    "ja": [
+      "モデルの発見とホスティング",
+      "Spaces での ML デモ公開",
+      "オープンモデルのファインチューニング",
+      "データセットの共有とバージョン管理",
+      "本番環境での推論",
+      "AI 研究のコラボレーション"
+    ],
+    "es": [
+      "Descubrir y alojar modelos",
+      "Desplegar demos de ML con Spaces",
+      "Ajuste fino de modelos abiertos",
+      "Compartir y versionar datasets",
+      "Inferencia en producción",
+      "Colaboración en investigación de IA"
+    ],
+    "fr": [
+      "Découverte et hébergement de modèles",
+      "Déploiement de démos ML avec Spaces",
+      "Fine-tuning de modèles ouverts",
+      "Partage et versionnage de jeux de données",
+      "Inférence en production",
+      "Collaboration en recherche IA"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Largest open ML community",
+      "Huge model and dataset library",
+      "Easy deployment tools",
+      "Strong open-source ecosystem"
+    ],
+    "zh": [
+      "最大的开源 ML 社区",
+      "海量模型与数据集",
+      "部署工具易用",
+      "开源生态强大"
+    ],
+    "ja": [
+      "最大級のオープン ML コミュニティ",
+      "膨大なモデルとデータセット",
+      "使いやすいデプロイツール",
+      "強力なオープンソースエコシステム"
+    ],
+    "es": [
+      "La mayor comunidad abierta de ML",
+      "Enorme biblioteca de modelos y datasets",
+      "Herramientas de despliegue sencillas",
+      "Sólido ecosistema de código abierto"
+    ],
+    "fr": [
+      "La plus grande communauté ML ouverte",
+      "Immense bibliothèque de modèles et de datasets",
+      "Outils de déploiement simples",
+      "Solide écosystème open source"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Compute costs add up",
+      "Learning curve for beginners",
+      "Quality varies across models",
+      "July 2026 security incident: an AI agent breached infrastructure via a malicious dataset, exposing internal data and credentials (officially disclosed and remediated)"
+    ],
+    "zh": [
+      "算力成本会累加",
+      "新手有学习曲线",
+      "模型质量参差不齐",
+      "2026 年 7 月安全事件：AI 智能体经恶意数据集入侵基础设施，波及内部数据与凭据（官方已披露并修复）"
+    ],
+    "ja": [
+      "コンピュートコストが積み重なる",
+      "初心者には学習曲線がある",
+      "モデルによって品質にばらつき",
+      "2026年7月のセキュリティ事件：AIエージェントが悪意あるデータセット経由でインフラに侵入し、内部データと認証情報に影響（公式に開示・修復済み）"
+    ],
+    "es": [
+      "Los costes de cómputo se acumulan",
+      "Curva de aprendizaje para principiantes",
+      "La calidad varía entre modelos",
+      "Incidente de seguridad de julio de 2026: un agente IA vulneró la infraestructura vía un dataset malicioso, exponiendo datos internos y credenciales (divulgado y remediado oficialmente)"
+    ],
+    "fr": [
+      "Les coûts de calcul s'accumulent",
+      "Courbe d'apprentissage pour les débutants",
+      "La qualité varie selon les modèles",
+      "Incident de sécurité de juillet 2026 : un agent IA a compromis l'infrastructure via un dataset malveillant, exposant données internes et identifiants (divulgué et corrigé officiellement)"
+    ]
+  },
+  "latestUpdate": {
+    "en": "July 2026: disclosed a security incident in which an autonomous AI agent breached production via a malicious dataset; credentials rotated and code-execution paths hardened. Platform exceeds 2M models.",
+    "zh": "2026 年 7 月：披露一起自主 AI 智能体经恶意数据集入侵生产环境的安全事件，已轮换凭据并加固代码执行路径。平台模型数超 200 万。",
+    "ja": "2026年7月：自律AIエージェントが悪意あるデータセット経由で本番環境に侵入した事件を開示。認証情報のローテーションとコード実行経路の強化を実施。モデル数は200万超。",
+    "es": "Julio de 2026: divulgó un incidente en que un agente IA autónomo vulneró producción vía un dataset malicioso; credenciales rotadas y rutas de ejecución endurecidas. La plataforma supera los 2M de modelos.",
+    "fr": "Juillet 2026 : divulgation d'un incident où un agent IA autonome a compromis la production via un dataset malveillant ; identifiants renouvelés et chemins d'exécution durcis. La plateforme dépasse 2 M de modèles."
+  },
+  "verdict": {
+    "badge": "Recommended",
+    "headline": {
+      "en": "The GitHub of machine learning — not a single tool, but the infrastructure layer where the open AI community lives and shares.",
+      "zh": "机器学习的 GitHub——不是单一工具，而是开源 AI 社区赖以生存和分享的基础设施层。",
+      "ja": "機械学習のGitHub——単一のツールではなく、オープンAIコミュニティが生活し共有するインフラ層。",
+      "es": "El GitHub del machine learning — no es una herramienta única, sino la capa de infraestructura donde vive y comparte la comunidad IA abierta.",
+      "fr": "Le GitHub du machine learning — pas un outil unique, mais la couche d'infrastructure où la communauté IA ouverte vit et partage."
+    },
+    "body": {
+      "en": "Hugging Face occupies a unique position: it's simultaneously a model registry, a dataset library, a demo hosting platform (Spaces), and a Python library (Transformers) that has become the standard interface for working with ML models. If you're a developer or researcher in AI, you almost certainly interact with Hugging Face infrastructure whether you realize it or not.\n\nThe Hub hosts hundreds of thousands of models with standardized model cards, making it trivial to find, compare, and deploy models for any task—text generation, image classification, audio transcription, and everything in between. Spaces let you prototype and share demos without managing infrastructure. The Inference API provides instant access to popular models without any setup.\n\nHugging Face is not an end-user product in the way ChatGPT or Midjourney are. If you're looking for a polished chat interface or a simple \"generate image\" button, this isn't it. It's a platform for builders—ML engineers, researchers, and developers who want to work with models directly. The learning curve is real, the documentation assumes technical familiarity, and the value scales with your technical depth.",
+      "zh": "Hugging Face 占据着独特位置：它同时是模型注册中心、数据集库、演示托管平台（Spaces）和已成为 ML 模型标准接口的 Python 库（Transformers）。如果你是 AI 领域的开发者或研究者，你几乎肯定在与 Hugging Face 基础设施交互，无论你是否意识到。\n\nHub 托管数十万个模型，配有标准化模型卡片，使得查找、比较和部署任何任务的模型变得极其简单——文本生成、图像分类、音频转录等等。Spaces 让你无需管理基础设施即可原型化和分享演示。Inference API 提供即时访问热门模型而无需任何设置。\n\nHugging Face 不是 ChatGPT 或 Midjourney 那样的终端用户产品。如果你在找精致的聊天界面或简单的「生成图像」按钮，它不是。它是为构建者——ML 工程师、研究者和想直接使用模型的开发者——准备的平台。学习曲线是真实的，文档假设你有技术背景，价值随技术深度而增长。",
+      "ja": "Hugging Faceはユニークなポジションを占めています：モデルレジストリ、データセットライブラリ、デモホスティングプラットフォーム（Spaces）、そしてMLモデルの標準インターフェースとなったPythonライブラリ（Transformers）を兼ねています。AI分野の開発者や研究者なら、気づいているかどうかに関わらず、ほぼ確実にHugging Faceインフラと関わっています。\n\nHubは数十万のモデルを標準化されたモデルカードと共にホストし、あらゆるタスクのモデルを見つけ、比較し、デプロイすることを容易にします。SpacesはインフラストラクチャCを管理せずにデモのプロトタイプと共有を可能にします。\n\nHugging FaceはChatGPTやMidjourneyのようなエンドユーザー製品ではありません。洗練されたチャットインターフェースや単純な「画像生成」ボタンを探しているなら、これではありません。ビルダー向けのプラットフォームであり、学習曲線があり、価値は技術的深さに比例します。",
+      "es": "Hugging Face ocupa una posición única: es simultáneamente un registro de modelos, una biblioteca de datasets, una plataforma de hosting de demos (Spaces) y una librería Python (Transformers) que se ha convertido en la interfaz estándar para trabajar con modelos ML. Si eres desarrollador o investigador en IA, casi seguro interactúas con la infraestructura de Hugging Face lo sepas o no.\n\nEl Hub hospeda cientos de miles de modelos con tarjetas estandarizadas, haciendo trivial encontrar, comparar y desplegar modelos para cualquier tarea. Spaces permite prototipar y compartir demos sin gestionar infraestructura.\n\nHugging Face no es un producto para usuario final como ChatGPT o Midjourney. Si buscas una interfaz de chat pulida o un simple botón de \"generar imagen\", no es esto. Es una plataforma para constructores—ingenieros ML, investigadores y desarrolladores que quieren trabajar con modelos directamente.",
+      "fr": "Hugging Face occupe une position unique : c'est simultanément un registre de modèles, une bibliothèque de datasets, une plateforme d'hébergement de démos (Spaces) et une bibliothèque Python (Transformers) devenue l'interface standard pour travailler avec les modèles ML. Si vous êtes développeur ou chercheur en IA, vous interagissez presque certainement avec l'infrastructure Hugging Face, que vous le réalisiez ou non.\n\nLe Hub héberge des centaines de milliers de modèles avec des fiches standardisées, rendant trivial de trouver, comparer et déployer des modèles pour toute tâche. Spaces permet de prototyper et partager des démos sans gérer d'infrastructure.\n\nHugging Face n'est pas un produit utilisateur final comme ChatGPT ou Midjourney. Si vous cherchez une interface de chat soignée ou un simple bouton « générer une image », ce n'est pas ça. C'est une plateforme pour les constructeurs, et la valeur croît avec votre profondeur technique."
+    },
+    "bestFor": {
+      "en": [
+        "ML engineers and researchers needing model access and comparison",
+        "Developers integrating open-source models into applications",
+        "Teams wanting to host and share ML demos without infrastructure management",
+        "Anyone building on top of the open-source AI ecosystem"
+      ],
+      "zh": [
+        "需要模型访问和比较的 ML 工程师和研究者",
+        "将开源模型集成到应用中的开发者",
+        "想托管和分享 ML 演示但不管理基础设施的团队",
+        "基于开源 AI 生态构建项目的人"
+      ],
+      "ja": [
+        "モデルアクセスと比較が必要なMLエンジニアと研究者",
+        "オープンソースモデルをアプリケーションに統合する開発者",
+        "インフラ管理なしでMLデモをホスト・共有したいチーム",
+        "オープンソースAIエコシステム上に構築する人"
+      ],
+      "es": [
+        "Ingenieros ML e investigadores que necesitan acceso y comparación de modelos",
+        "Desarrolladores integrando modelos open-source en aplicaciones",
+        "Equipos que quieren hospedar y compartir demos ML sin gestión de infraestructura",
+        "Cualquiera construyendo sobre el ecosistema IA open-source"
+      ],
+      "fr": [
+        "Ingénieurs ML et chercheurs nécessitant accès et comparaison de modèles",
+        "Développeurs intégrant des modèles open-source dans des applications",
+        "Équipes voulant héberger et partager des démos ML sans gestion d'infrastructure",
+        "Quiconque construit sur l'écosystème IA open-source"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You want a ready-to-use AI assistant without any technical setup (→ ChatGPT, Claude)",
+        "You need a managed inference service with SLA guarantees (→ OpenAI API, AWS Bedrock)",
+        "You're looking for a simple image or text generation tool as an end user (→ Midjourney, ChatGPT)"
+      ],
+      "zh": [
+        "你想要一个无需技术设置的即用 AI 助手（→ ChatGPT、Claude）",
+        "你需要有 SLA 保证的托管推理服务（→ OpenAI API、AWS Bedrock）",
+        "你作为终端用户寻找简单的图像或文本生成工具（→ Midjourney、ChatGPT）"
+      ],
+      "ja": [
+        "技術的なセットアップなしで使えるAIアシスタントが欲しい場合（→ ChatGPT、Claude）",
+        "SLA保証のあるマネージド推論サービスが必要な場合（→ OpenAI API、AWS Bedrock）",
+        "エンドユーザーとしてシンプルな画像・テキスト生成ツールを探している場合（→ Midjourney、ChatGPT）"
+      ],
+      "es": [
+        "Quieres un asistente IA listo para usar sin configuración técnica (→ ChatGPT, Claude)",
+        "Necesitas un servicio de inferencia gestionado con garantías SLA (→ OpenAI API, AWS Bedrock)",
+        "Buscas una herramienta simple de generación como usuario final (→ Midjourney, ChatGPT)"
+      ],
+      "fr": [
+        "Vous voulez un assistant IA prêt à l'emploi sans configuration technique (→ ChatGPT, Claude)",
+        "Vous avez besoin d'un service d'inférence géré avec garanties SLA (→ OpenAI API, AWS Bedrock)",
+        "Vous cherchez un outil simple de génération en tant qu'utilisateur final (→ Midjourney, ChatGPT)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-29",
+    "verdictDate": "2026-07-27",
+    "pricingVerified": "2026-07-27"
+  }
+}

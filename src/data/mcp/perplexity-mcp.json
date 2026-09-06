@@ -1,0 +1,78 @@
+{
+  "slug": "perplexity-mcp",
+  "name": "Perplexity MCP",
+  "nameZh": "Perplexity MCP",
+  "description": "Perplexity 官方 MCP 服务器，把 Perplexity 的实时联网搜索与推理能力接入 AI 智能体——用 Sonar API 做带引用的实时网络检索与研究，支持本地 stdio 与官方托管的远程端点两种接入方式。",
+  "descriptionEn": "Perplexity's official MCP server brings its real-time web search and reasoning into AI agents — real-time, cited web research powered by the Sonar API, available both as a local stdio server and as an officially hosted remote endpoint.",
+  "descriptionJa": "Perplexity 公式の MCP サーバー。Perplexity のリアルタイム Web 検索と推論能力を AI エージェントに取り込み、Sonar API による引用付きのリアルタイム Web 調査を実現します。ローカル stdio と公式ホスト型リモートエンドポイントの 2 通りで接続できます。",
+  "descriptionEs": "El servidor MCP oficial de Perplexity lleva su búsqueda web en tiempo real y su razonamiento a los agentes de IA: investigación web en tiempo real y con citas impulsada por la API Sonar, disponible como servidor stdio local y como endpoint remoto alojado oficialmente.",
+  "descriptionFr": "Le serveur MCP officiel de Perplexity apporte sa recherche web en temps réel et son raisonnement aux agents IA — recherche web en temps réel et sourcée, propulsée par l'API Sonar, disponible en serveur stdio local et en point de terminaison distant hébergé officiellement.",
+  "developer": "Perplexity",
+  "developerZh": "Perplexity",
+  "repo": "ppl-ai/modelcontextprotocol",
+  "clients": [
+    "claude",
+    "cursor",
+    "vscode",
+    "generic"
+  ],
+  "category": "Search",
+  "tags": [
+    "Free",
+    "Open Source"
+  ],
+  "installCommand": "npx -y @perplexity-ai/mcp-server",
+  "logo": "/logos/mcp/perplexity-mcp.png",
+  "stars": 2507,
+  "featured": false,
+  "faqs": [
+    {
+      "question": {
+        "zh": "Perplexity MCP 和普通网页搜索有何不同？",
+        "en": "How is Perplexity MCP different from plain web search?",
+        "ja": "Perplexity MCP は通常の Web 検索と何が違いますか？",
+        "es": "¿En qué se diferencia Perplexity MCP de una búsqueda web normal?",
+        "fr": "En quoi Perplexity MCP diffère-t-il d'une recherche web classique ?"
+      },
+      "answer": {
+        "zh": "它调用 Perplexity 的 Sonar API，返回的是\"带来源引用、经过检索增强的答案\"，而不只是链接列表。智能体可以直接拿到综合过的实时信息与出处，适合做研究、事实核查与写作取证。",
+        "en": "It calls Perplexity's Sonar API and returns retrieval-augmented, cited answers rather than just a list of links. An agent gets synthesized, up-to-date information with sources, which is ideal for research, fact-checking and sourcing while writing.",
+        "ja": "Perplexity の Sonar API を呼び出し、単なるリンク一覧ではなく「出典付きで検索拡張された回答」を返します。エージェントは統合された最新情報と出典をそのまま得られ、調査やファクトチェック、執筆時の根拠集めに適しています。",
+        "es": "Llama a la API Sonar de Perplexity y devuelve respuestas aumentadas por recuperación y con citas, en lugar de solo una lista de enlaces. Un agente obtiene información sintetizada y actualizada con fuentes, ideal para investigación, verificación de hechos y documentación al escribir.",
+        "fr": "Il appelle l'API Sonar de Perplexity et renvoie des réponses augmentées par récupération et sourcées, plutôt qu'une simple liste de liens. Un agent obtient des informations synthétisées et à jour avec leurs sources, idéal pour la recherche, la vérification des faits et le sourçage lors de la rédaction."
+      }
+    },
+    {
+      "question": {
+        "zh": "一定要装本地服务器吗？",
+        "en": "Do I have to install the local server?",
+        "ja": "ローカルサーバーを必ずインストールする必要がありますか？",
+        "es": "¿Tengo que instalar el servidor local?",
+        "fr": "Suis-je obligé d'installer le serveur local ?"
+      },
+      "answer": {
+        "zh": "不一定。最省事的是用 Perplexity 官方托管的远程 MCP 端点（走 HTTP，无需本地安装与更新）；也可以用本地 stdio 方式 npx -y @perplexity-ai/mcp-server。两种都需要 PERPLEXITY_API_KEY。",
+        "en": "Not necessarily. The easiest option is Perplexity's officially hosted remote MCP endpoint (over HTTP, nothing to install or update locally); alternatively run it locally via stdio with npx -y @perplexity-ai/mcp-server. Both require a PERPLEXITY_API_KEY.",
+        "ja": "必須ではありません。最も手軽なのは Perplexity 公式のホスト型リモート MCP エンドポイント（HTTP 経由で、ローカルのインストールや更新は不要）です。あるいは npx -y @perplexity-ai/mcp-server でローカル stdio 実行もできます。どちらも PERPLEXITY_API_KEY が必要です。",
+        "es": "No necesariamente. La opción más sencilla es el endpoint MCP remoto alojado oficialmente por Perplexity (por HTTP, sin instalar ni actualizar nada localmente); como alternativa, ejecútalo localmente por stdio con npx -y @perplexity-ai/mcp-server. Ambos requieren una PERPLEXITY_API_KEY.",
+        "fr": "Pas nécessairement. L'option la plus simple est le point de terminaison MCP distant hébergé officiellement par Perplexity (via HTTP, rien à installer ni mettre à jour localement) ; sinon, exécutez-le localement en stdio avec npx -y @perplexity-ai/mcp-server. Les deux nécessitent une PERPLEXITY_API_KEY."
+      }
+    },
+    {
+      "question": {
+        "zh": "Perplexity MCP 免费吗？",
+        "en": "Is Perplexity MCP free?",
+        "ja": "Perplexity MCP は無料ですか？",
+        "es": "¿Perplexity MCP es gratuito?",
+        "fr": "Perplexity MCP est-il gratuit ?"
+      },
+      "answer": {
+        "zh": "MCP 服务器代码开源免费（MIT）。但它背后调用的是 Perplexity Sonar API，属于按量计费的付费 API，需要在 Perplexity 账户申请 API Key 并按用量付费。",
+        "en": "The MCP server code is open source and free (MIT). However, it calls the Perplexity Sonar API behind the scenes, which is a paid, usage-based API — you need to obtain an API key from your Perplexity account and pay per usage.",
+        "ja": "MCP サーバーのコードはオープンソースで無料（MIT）です。ただし背後で呼び出す Perplexity Sonar API は従量課金の有料 API で、Perplexity アカウントで API キーを取得し、使用量に応じて支払う必要があります。",
+        "es": "El código del servidor MCP es de código abierto y gratuito (MIT). Sin embargo, por detrás llama a la API Sonar de Perplexity, que es una API de pago por uso — necesitas obtener una clave API en tu cuenta de Perplexity y pagar por consumo.",
+        "fr": "Le code du serveur MCP est open source et gratuit (MIT). Cependant, il appelle en coulisses l'API Sonar de Perplexity, une API payante à l'usage — vous devez obtenir une clé API dans votre compte Perplexity et payer selon la consommation."
+      }
+    }
+  ]
+}

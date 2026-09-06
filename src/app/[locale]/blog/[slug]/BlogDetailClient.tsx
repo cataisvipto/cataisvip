@@ -12,7 +12,7 @@ import BlogCover from '@/components/BlogCover';
 import LogoTile from '@/components/LogoTile';
 import MarkdownContent from '@/components/MarkdownContent';
 import AdUnit from '@/components/AdUnit';
-import tools from '@/data/tools.json';
+import { tools } from '@/data/aggregated';
 import { Tool, getLocalizedDescription } from '@/components/ToolCard';
 
 interface BlogPost {

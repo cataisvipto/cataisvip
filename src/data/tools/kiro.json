@@ -1,0 +1,28 @@
+{
+  "slug": "kiro",
+  "name": "Kiro",
+  "nameZh": "Kiro",
+  "description": "AWS 出品的 spec-driven AI 编码 IDE，先写需求与设计文档再生成带验收标准的任务清单，Agent Hooks 事件自动化、CLI 与 Web 端共享一份订阅，免费档 50 credits/月、Pro $20/月起",
+  "descriptionEn": "AWS's spec-driven AI coding IDE: write requirements and design docs first, then get task lists with acceptance criteria; Agent Hooks automate on events, and one subscription covers IDE, CLI and web — free tier with 50 credits/month, Pro from $20/month",
+  "descriptionJa": "AWS製のスペック駆動AIコーディングIDE。要件と設計ドキュメントを先に書き、受け入れ基準付きのタスクリストを生成。Agent Hooksがイベントで自動化し、IDE・CLI・Webを1つのサブスクリプションでカバー。無料枠は月50クレジット、Proは月$20から",
+  "descriptionEs": "El IDE de codificación con IA spec-driven de AWS: primero escribes requisitos y documentos de diseño y luego obtienes listas de tareas con criterios de aceptación; los Agent Hooks automatizan por eventos y una sola suscripción cubre IDE, CLI y web — nivel gratuito con 50 créditos/mes, Pro desde $20/mes",
+  "descriptionFr": "L'IDE de codage IA spec-driven d'AWS : rédigez d'abord exigences et documents de conception, puis obtenez des listes de tâches avec critères d'acceptation ; les Agent Hooks automatisent sur événements et un seul abonnement couvre IDE, CLI et web — offre gratuite avec 50 crédits/mois, Pro dès 20 $/mois",
+  "url": "https://kiro.dev",
+  "logo": "/logos/tools/kiro.png",
+  "category": "Code",
+  "tags": [
+    "Freemium"
+  ],
+  "featured": false,
+  "developer": "AWS",
+  "platforms": {
+    "web": true,
+    "windows": true,
+    "macos": true,
+    "ios": false,
+    "android": false,
+    "linux": true,
+    "browser_extension": false,
+    "api": false
+  }
+}

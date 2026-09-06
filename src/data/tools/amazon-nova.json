@@ -1,0 +1,28 @@
+{
+  "slug": "amazon-nova",
+  "name": "Amazon Nova",
+  "nameZh": "Amazon Nova",
+  "description": "AWS 推出的大语言模型系列，涵盖 Micro、Lite、Pro 等规格，深度集成 AWS 生态，企业级应用首选",
+  "descriptionEn": "AWS's LLM series covering Micro, Lite, Pro tiers, deeply integrated with AWS ecosystem, ideal for enterprise applications",
+  "descriptionJa": "AWSのLLMシリーズ。Micro、Lite、Proの各グレードを提供、AWSエコシステムに深く統合、エンタープライズ向け",
+  "descriptionEs": "Serie LLM de AWS que cubre niveles Micro, Lite, Pro, profundamente integrada con el ecosistema AWS, ideal para aplicaciones empresariales",
+  "descriptionFr": "Série LLM d'AWS couvrant les niveaux Micro, Lite, Pro, profondément intégrée à l'écosystème AWS, idéale pour les applications d'entreprise",
+  "url": "https://aws.amazon.com/ai/generative-ai/nova",
+  "logo": "/logos/tools/amazon-nova.png",
+  "category": "Foundation Models",
+  "tags": [
+    "API"
+  ],
+  "featured": false,
+  "developer": "Amazon Web Services",
+  "platforms": {
+    "web": true,
+    "windows": false,
+    "macos": false,
+    "ios": false,
+    "android": false,
+    "linux": false,
+    "browser_extension": false,
+    "api": true
+  }
+}

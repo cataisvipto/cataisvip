@@ -1,0 +1,78 @@
+{
+  "slug": "slides",
+  "name": "Slides",
+  "nameZh": "幻灯片设计",
+  "description": "HTML 幻灯片设计制作技能。支持 Chart.js 图表、设计 Token、响应式布局、文案公式化生成。",
+  "descriptionEn": "HTML slide design and creation skill. Supports Chart.js charts, design tokens, responsive layouts, copywriting formula generation.",
+  "descriptionJa": "HTMLスライドデザイン作成スキル。Chart.jsチャート、デザイントークン、レスポンシブレイアウト、コピーライティング生成。",
+  "descriptionEs": "Diseño y creación de diapositivas HTML. Gráficos Chart.js, tokens de diseño, layouts responsive, generación de copywriting.",
+  "descriptionFr": "Conception et création de diapositives HTML. Graphiques Chart.js, tokens de design, mises en page responsives, génération de copywriting.",
+  "developer": "nextlevelbuilder",
+  "developerZh": "nextlevelbuilder",
+  "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
+  "agents": [
+    "claude",
+    "cursor",
+    "codex",
+    "generic"
+  ],
+  "category": "Design",
+  "tags": [
+    "Free",
+    "Open Source"
+  ],
+  "installCommand": "Available via plugin marketplace. See README for details.",
+  "logo": "/logos/skills/slides.png",
+  "stars": 125024,
+  "featured": false,
+  "faqs": [
+    {
+      "question": {
+        "zh": "Slides 技能做出的演示文稿是什么形式？",
+        "en": "What format are the presentations made with the Slides skill?",
+        "ja": "Slides スキルで作るプレゼンはどんな形式ですか？",
+        "es": "¿En qué formato son las presentaciones creadas con la habilidad Slides?",
+        "fr": "Sous quel format sont les présentations créées avec la compétence Slides ?"
+      },
+      "answer": {
+        "zh": "纯 HTML 幻灯片：浏览器直接打开播放，支持 Chart.js 动态图表、设计 Token 主题、响应式布局，还内置文案公式帮你把内容写得有说服力。不依赖 PowerPoint 或 Keynote。",
+        "en": "Pure HTML slides: they open and play right in the browser, with Chart.js dynamic charts, design-token theming and responsive layouts, plus built-in copywriting formulas for persuasive content. No PowerPoint or Keynote required.",
+        "ja": "純粋な HTML スライドです。ブラウザで直接開いて再生でき、Chart.js の動的グラフ、デザイントークンによるテーマ、レスポンシブレイアウトに対応。説得力ある文章を書くためのコピーライティング公式も内蔵。PowerPoint や Keynote は不要です。",
+        "es": "Diapositivas HTML puras: se abren y reproducen en el navegador, con gráficos dinámicos de Chart.js, temas con tokens de diseño y layouts responsive, además de fórmulas de copywriting integradas. Sin PowerPoint ni Keynote.",
+        "fr": "Des diapositives HTML pures : elles s'ouvrent directement dans le navigateur, avec graphiques dynamiques Chart.js, thèmes par design tokens et mises en page responsive, plus des formules de copywriting intégrées. Sans PowerPoint ni Keynote."
+      }
+    },
+    {
+      "question": {
+        "zh": "怎么安装 Slides 技能？",
+        "en": "How do I install the Slides skill?",
+        "ja": "Slides スキルをインストールするには？",
+        "es": "¿Cómo instalo la habilidad Slides?",
+        "fr": "Comment installer la compétence Slides ?"
+      },
+      "answer": {
+        "zh": "在 Claude Code、Cursor 或 Codex 的插件市场添加，命令见 GitHub README。使用时告诉 AI 演示主题和受众，它会规划叙事结构再逐页生成。",
+        "en": "Add it via the Claude Code, Cursor or Codex plugin marketplace — commands in the GitHub README. To use it, tell the AI your topic and audience; it plans the narrative structure first, then generates slide by slide.",
+        "ja": "Claude Code、Cursor、Codex のプラグインマーケットから追加します（コマンドは GitHub README 参照）。使うときはプレゼンのテーマと対象者を AI に伝えるだけ。ナラティブ構成を設計してからページごとに生成します。",
+        "es": "Añádela vía el marketplace de Claude Code, Cursor o Codex; comandos en el README de GitHub. Para usarla, dile a la IA el tema y la audiencia: planifica la estructura narrativa y genera diapositiva a diapositiva.",
+        "fr": "Ajoutez-la via le marketplace de Claude Code, Cursor ou Codex — commandes dans le README GitHub. Indiquez le sujet et l'audience à l'IA : elle planifie d'abord la structure narrative, puis génère page par page."
+      }
+    },
+    {
+      "question": {
+        "zh": "HTML 幻灯片怎么分享给别人？",
+        "en": "How do I share HTML slides with others?",
+        "ja": "HTML スライドはどうやって共有しますか？",
+        "es": "¿Cómo comparto las diapositivas HTML?",
+        "fr": "Comment partager les diapositives HTML ?"
+      },
+      "answer": {
+        "zh": "技能免费开源，产出是单个 HTML 文件——直接发文件、部署到任意静态托管（GitHub Pages、Vercel 等免费服务）分享链接，或在浏览器里用打印功能导出 PDF。",
+        "en": "The skill is free and open source, and the output is a single HTML file — send the file directly, deploy it to any static host (free services like GitHub Pages or Vercel) and share the link, or export to PDF via the browser print function.",
+        "ja": "スキルは無料のオープンソースで、成果物は単一の HTML ファイルです。ファイルをそのまま送る、静的ホスティング（GitHub Pages や Vercel などの無料サービス）にデプロイしてリンク共有する、ブラウザの印刷機能で PDF に書き出す、いずれも可能です。",
+        "es": "La habilidad es gratuita y de código abierto, y el resultado es un único archivo HTML: envíalo directamente, despliégalo en cualquier hosting estático (GitHub Pages, Vercel) y comparte el enlace, o exporta a PDF con la función de imprimir del navegador.",
+        "fr": "La compétence est gratuite et open source, et le résultat est un seul fichier HTML — envoyez-le directement, déployez-le sur un hébergement statique gratuit (GitHub Pages, Vercel) pour partager le lien, ou exportez en PDF via l'impression du navigateur."
+      }
+    }
+  ]
+}

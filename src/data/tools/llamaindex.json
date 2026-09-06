@@ -1,0 +1,31 @@
+{
+  "slug": "llamaindex",
+  "name": "LlamaIndex",
+  "nameZh": "LlamaIndex",
+  "description": "为 LLM 应用构建的数据框架（RAG）：连接数据源（API、数据库、PDF、文档等）到大模型，提供索引、查询、检索和代理编排能力。",
+  "descriptionEn": "A data framework for LLM-based applications (RAG): connect data sources (APIs, databases, PDFs, docs) to LLMs with indexing, querying, retrieval, and agent orchestration.",
+  "descriptionJa": "LLMベースアプリケーションのためのデータフレームワーク（RAG）。API、データベース、PDF、ドキュメントなどのデータソースをLLMに接続し、インデックス作成、クエリ、検索、エージェントオーケストレーションを提供。",
+  "descriptionEs": "Un framework de datos para aplicaciones basadas en LLM (RAG): conecta fuentes de datos (APIs, bases de datos, PDFs, documentos) a LLMs con indexación, consulta, recuperación y orquestación de agentes.",
+  "descriptionFr": "Un framework de données pour les applications basées sur LLM (RAG) : connectez des sources de données (APIs, bases de données, PDFs, documents) aux LLMs avec indexation, interrogation, récupération et orchestration d'agents.",
+  "url": "https://www.llamaindex.ai",
+  "logo": "/logos/tools/llamaindex.png",
+  "category": "Code",
+  "tags": [
+    "Open Source",
+    "Free"
+  ],
+  "featured": false,
+  "homeFeatured": false,
+  "developer": "LlamaIndex (run-llama)",
+  "developerZh": "LlamaIndex（run-llama）",
+  "platforms": {
+    "web": false,
+    "windows": true,
+    "macos": true,
+    "linux": true,
+    "ios": false,
+    "android": false,
+    "browser_extension": false,
+    "api": true
+  }
+}

@@ -1,0 +1,235 @@
+{
+  "features": {
+    "en": [
+      "Gen2 voice model with natural prosody across 20+ languages",
+      "200+ studio-quality voices spanning ages, accents and styles",
+      "Voice cloning for building a custom brand voice",
+      "AI dubbing that translates videos while keeping voice character",
+      "Synced audio-video editor for timing narration to visuals",
+      "Murf API and Voice Agent platform for programmatic speech"
+    ],
+    "zh": [
+      "Gen2 语音模型，20+ 语言下韵律自然",
+      "200+ 录音棚级音色，覆盖不同年龄、口音与风格",
+      "语音克隆，打造专属品牌声音",
+      "AI 配音翻译视频且保留声音特质",
+      "音视频同步编辑器，让解说与画面精准对位",
+      "Murf API 与 Voice Agent 平台，程序化生成语音"
+    ],
+    "ja": [
+      "20以上の言語で自然な韻律を持つGen2音声モデル",
+      "年齢・アクセント・スタイルを網羅する200以上のスタジオ品質ボイス",
+      "カスタムブランドボイスを作る音声クローン",
+      "声の個性を保ったまま動画を翻訳するAI吹き替え",
+      "ナレーションと映像のタイミングを合わせる音声・動画同期エディタ",
+      "プログラムから音声を生成するMurf APIとVoice Agentプラットフォーム"
+    ],
+    "es": [
+      "Modelo de voz Gen2 con prosodia natural en más de 20 idiomas",
+      "Más de 200 voces de calidad de estudio en edades, acentos y estilos",
+      "Clonación de voz para crear una voz de marca propia",
+      "Doblaje IA que traduce vídeos conservando el carácter de la voz",
+      "Editor audio-vídeo sincronizado para cuadrar narración e imagen",
+      "API de Murf y plataforma Voice Agent para voz programática"
+    ],
+    "fr": [
+      "Modèle vocal Gen2 avec prosodie naturelle dans plus de 20 langues",
+      "Plus de 200 voix de qualité studio couvrant âges, accents et styles",
+      "Clonage vocal pour créer une voix de marque sur mesure",
+      "Doublage IA qui traduit les vidéos en gardant le caractère de la voix",
+      "Éditeur audio-vidéo synchronisé pour caler la narration sur l'image",
+      "API Murf et plateforme Voice Agent pour la voix programmatique"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "The free trial grants only about 10 minutes of voice generation and downloads are locked — enough to judge quality, not to produce anything.",
+      "zh": "免费试用仅约 10 分钟语音生成且不能下载——够判断音质，不够做任何成品。",
+      "ja": "無料トライアルは約10分の音声生成のみでダウンロード不可——品質判断には足りるが制作には足りない。",
+      "es": "La prueba gratuita da solo unos 10 minutos de generación de voz y las descargas están bloqueadas — suficiente para juzgar la calidad, no para producir nada.",
+      "fr": "L'essai gratuit n'accorde qu'environ 10 minutes de génération vocale et les téléchargements sont verrouillés — assez pour juger la qualité, pas pour produire."
+    },
+    "paid": {
+      "en": "Creator is $29/month ($19/month billed yearly), Business $99/month ($66/month yearly) with more voices, users and dubbing; the API and Voice Agent platform are billed separately by usage. (Verified against the official pricing page, 2026-07-29.)",
+      "zh": "Creator $29/月（年付折合 $19/月），Business $99/月（年付折合 $66/月）含更多音色、席位与配音；API 与 Voice Agent 平台按用量单独计费。（对照官方定价页核实，2026-07-29。）",
+      "ja": "Creatorは月$29（年払いで月$19）、Businessは月$99（年払いで月$66）でボイス・ユーザー数・吹き替えが増量。APIとVoice Agentプラットフォームは使用量に応じて別課金。（公式価格ページと照合、2026-07-29。）",
+      "es": "Creator cuesta $29/mes ($19/mes con pago anual), Business $99/mes ($66/mes anual) con más voces, usuarios y doblaje; la API y la plataforma Voice Agent se facturan aparte por uso. (Verificado con la página oficial de precios, 2026-07-29.)",
+      "fr": "Creator coûte 29 $/mois (19 $/mois en annuel), Business 99 $/mois (66 $/mois en annuel) avec plus de voix, d'utilisateurs et de doublage ; l'API et la plateforme Voice Agent sont facturées séparément à l'usage. (Vérifié avec la page tarifaire officielle, 2026-07-29.)"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Narrating e-learning courses and corporate training at scale",
+      "Voice-overs for product demos, explainers and YouTube videos",
+      "Dubbing marketing content into 20+ languages",
+      "Building voice agents and IVR flows via the API"
+    ],
+    "zh": [
+      "规模化为在线课程与企业培训配解说",
+      "产品演示、讲解视频与 YouTube 的画外音",
+      "把营销内容配音翻译成 20+ 语言",
+      "通过 API 搭建语音智能体与 IVR 流程"
+    ],
+    "ja": [
+      "eラーニング講座や企業研修のナレーションを大規模制作",
+      "製品デモ・解説動画・YouTubeのボイスオーバー",
+      "マーケティングコンテンツを20以上の言語に吹き替え",
+      "APIで音声エージェントやIVRフローを構築"
+    ],
+    "es": [
+      "Narrar cursos de e-learning y formación corporativa a escala",
+      "Voces en off para demos de producto, explicativos y YouTube",
+      "Doblar contenido de marketing a más de 20 idiomas",
+      "Construir agentes de voz y flujos IVR vía la API"
+    ],
+    "fr": [
+      "Narrer des cours e-learning et des formations d'entreprise à grande échelle",
+      "Voix off pour démos produit, vidéos explicatives et YouTube",
+      "Doubler du contenu marketing dans plus de 20 langues",
+      "Créer des agents vocaux et des parcours IVR via l'API"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Gen2 voices sit comfortably in the top tier for narration quality",
+      "The synced audio-video editor removes a whole round-trip to a video tool",
+      "Enterprise-friendly: teams, brand voices, SOC 2 and API in one vendor",
+      "Dubbing keeps pacing and character better than most competitors"
+    ],
+    "zh": [
+      "Gen2 音色的解说质量稳居第一梯队",
+      "音视频同步编辑器省去了与视频工具间的整轮折返",
+      "对企业友好：团队协作、品牌声音、SOC 2 与 API 一站式",
+      "配音在节奏与声音特质保持上优于多数对手"
+    ],
+    "ja": [
+      "Gen2ボイスのナレーション品質は最上位層に定着",
+      "音声・動画同期エディタが動画ツールとの往復を丸ごと削減",
+      "エンタープライズ向き：チーム・ブランドボイス・SOC 2・APIを1ベンダーで",
+      "吹き替えのペースと声の個性の保持は多くの競合より上"
+    ],
+    "es": [
+      "Las voces Gen2 están cómodamente en el nivel superior de narración",
+      "El editor sincronizado elimina todo un viaje de ida y vuelta a una herramienta de vídeo",
+      "Apto para empresas: equipos, voces de marca, SOC 2 y API en un solo proveedor",
+      "El doblaje conserva ritmo y carácter mejor que la mayoría de competidores"
+    ],
+    "fr": [
+      "Les voix Gen2 se placent confortablement dans le haut du panier pour la narration",
+      "L'éditeur synchronisé supprime tout un aller-retour vers un outil vidéo",
+      "Adapté aux entreprises : équipes, voix de marque, SOC 2 et API chez un seul fournisseur",
+      "Le doublage conserve rythme et caractère mieux que la plupart des concurrents"
+    ]
+  },
+  "cons": {
+    "en": [
+      "The ~10-minute, no-download free trial is among the stingiest in the category",
+      "Creator at $29/month costs more than most rivals' entry tiers",
+      "Voice cloning and advanced dubbing sit behind higher tiers",
+      "Emotional range still trails the most expressive competitors on dramatic reads"
+    ],
+    "zh": [
+      "约 10 分钟且不可下载的免费试用在同类中最抠门之列",
+      "Creator $29/月，比多数对手的入门档更贵",
+      "语音克隆与高级配音被锁在更高档位",
+      "戏剧化朗读的情感幅度仍逊于最具表现力的竞品"
+    ],
+    "ja": [
+      "約10分・ダウンロード不可の無料トライアルは同カテゴリで最も渋い部類",
+      "Creator月$29は多くの競合のエントリープランより高い",
+      "音声クローンと高度な吹き替えは上位プランの向こう側",
+      "ドラマチックな朗読の感情表現はまだ最上位の競合に及ばず"
+    ],
+    "es": [
+      "La prueba gratis de ~10 minutos sin descargas está entre las más tacañas de la categoría",
+      "Creator a $29/mes cuesta más que los niveles de entrada de la mayoría de rivales",
+      "La clonación de voz y el doblaje avanzado quedan tras niveles superiores",
+      "El rango emocional aún va detrás de los competidores más expresivos en lecturas dramáticas"
+    ],
+    "fr": [
+      "L'essai gratuit d'environ 10 minutes sans téléchargement est parmi les plus chiches de la catégorie",
+      "Creator à 29 $/mois coûte plus que l'entrée de gamme de la plupart des rivaux",
+      "Le clonage vocal et le doublage avancé sont réservés aux paliers supérieurs",
+      "L'amplitude émotionnelle reste derrière les concurrents les plus expressifs sur les lectures dramatiques"
+    ]
+  },
+  "latestUpdate": {
+    "en": "2026: the Gen2 model now anchors the whole platform — voices, cloning and dubbing across 20+ languages — while Murf pushed hard into developer territory with its API and a Voice Agent platform for building conversational voice apps.",
+    "zh": "2026 年：Gen2 模型已成为整个平台的底座——20+ 语言的音色、克隆与配音全部基于它——同时 Murf 借 API 与 Voice Agent 平台大举进军开发者领域，支持构建对话式语音应用。",
+    "ja": "2026年：Gen2モデルがプラットフォーム全体の土台に——20以上の言語のボイス・クローン・吹き替えすべてを支える——同時にMurfはAPIと対話型音声アプリを作るVoice Agentプラットフォームで開発者領域へ強く進出。",
+    "es": "2026: el modelo Gen2 ancla ahora toda la plataforma — voces, clonación y doblaje en más de 20 idiomas — mientras Murf empujó fuerte hacia el terreno de desarrolladores con su API y una plataforma Voice Agent para apps de voz conversacionales.",
+    "fr": "2026 : le modèle Gen2 ancre désormais toute la plateforme — voix, clonage et doublage dans plus de 20 langues — tandis que Murf pousse fort côté développeurs avec son API et une plateforme Voice Agent pour créer des applications vocales conversationnelles."
+  },
+  "verdict": {
+    "badge": "Recommended",
+    "headline": {
+      "en": "The professional's voice-over studio, priced like one",
+      "zh": "专业人士的配音棚，价格也像配音棚",
+      "ja": "プロのボイスオーバースタジオ——価格もスタジオ級",
+      "es": "El estudio de locución del profesional, con precio de estudio",
+      "fr": "Le studio de voix off du professionnel, au prix d'un studio"
+    },
+    "body": {
+      "en": "Murf AI has settled into a clear identity: the text-to-speech platform for people who produce narration for a living. The Gen2 voices are reliably natural across 20+ languages, and the product decisions around them betray a deep understanding of real workflows — the synced audio-video editor lets you time narration against slides or screen recordings without bouncing files to a separate editor, brand voices keep teams consistent, and the dubbing pipeline preserves pacing and character surprisingly well. The API and new Voice Agent platform extend the same voices into IVR systems and conversational apps, making Murf one of the few vendors that spans content production and voice infrastructure. The honest catch is cost structure. The free trial — roughly ten minutes, no downloads — is effectively a demo, and Creator at $29/month ($19 annual) starts above most rivals, with cloning and serious dubbing gated higher still. For dramatic, emotionally-charged reads, the most expressive competitors still hold an edge; Murf's sweet spot is the clean, consistent professionalism of e-learning, product videos and corporate training. If that's your daily output, the pricing buys real productivity and it earns its recommendation; casual users should sample cheaper tools first.",
+      "zh": "Murf AI 已经确立了清晰的定位：给靠制作解说吃饭的人用的文本转语音平台。Gen2 音色在 20+ 语言下稳定自然，而围绕它的产品决策透露出对真实工作流的深刻理解——音视频同步编辑器让你不用把文件倒腾进别的剪辑软件就能对着幻灯或录屏对时间轴，品牌声音让团队保持一致，配音管线对节奏与声音特质的保留也出人意料地好。API 与新的 Voice Agent 平台把同一批音色延伸到 IVR 系统与对话应用，让 Murf 成为少数横跨内容生产与语音基础设施的厂商。诚实的代价在成本结构：免费试用——约十分钟、不可下载——实际上只是个演示；Creator $29/月（年付 $19）的起步价高于多数对手，克隆与正经配音还锁在更高档。至于戏剧化、情绪浓烈的朗读，最具表现力的竞品仍占上风；Murf 的甜蜜点是在线课程、产品视频与企业培训那种干净、稳定的专业感。如果那正是你的日常产出，这份定价买到的是实打实的生产力，推荐名副其实；轻度用户则应先试试更便宜的工具。",
+      "ja": "Murf AIは明確なアイデンティティに落ち着いた：ナレーション制作を生業とする人のためのテキスト読み上げプラットフォームだ。Gen2ボイスは20以上の言語で安定して自然であり、その周りの製品判断には実際のワークフローへの深い理解が滲む——音声・動画同期エディタはファイルを別の編集ソフトに往復させることなくスライドや画面録画にナレーションを合わせられ、ブランドボイスはチームの一貫性を保ち、吹き替えパイプラインはペースと声の個性を驚くほどよく保持する。APIと新しいVoice Agentプラットフォームは同じボイスをIVRシステムや対話アプリへ広げ、Murfをコンテンツ制作と音声インフラの両方にまたがる数少ないベンダーにした。正直な難点はコスト構造だ。無料トライアル——約10分・ダウンロード不可——は実質デモであり、Creator月$29（年払い$19）のスタートは多くの競合より高く、クローンと本格的な吹き替えはさらに上のプランに閉じている。ドラマチックで感情豊かな朗読では最も表現力のある競合がまだ優位だ。Murfの甘い場所はeラーニング・製品動画・企業研修の、クリーンで安定したプロフェッショナリズムにある。それが日々のアウトプットなら、この価格は本物の生産性を買うものであり、推薦に値する。ライトユーザーはまず安いツールを試すべきだ。",
+      "es": "Murf AI ha asentado una identidad clara: la plataforma de texto a voz para quienes producen narración profesionalmente. Las voces Gen2 son fiablemente naturales en más de 20 idiomas, y las decisiones de producto a su alrededor delatan un entendimiento profundo de los flujos reales — el editor sincronizado permite cuadrar la narración con diapositivas o grabaciones de pantalla sin rebotar archivos a otro editor, las voces de marca mantienen la coherencia del equipo, y el doblaje conserva ritmo y carácter sorprendentemente bien. La API y la nueva plataforma Voice Agent extienden las mismas voces a sistemas IVR y apps conversacionales, haciendo de Murf uno de los pocos proveedores que abarca producción de contenido e infraestructura de voz. La pega honesta es la estructura de costes. La prueba gratis — unos diez minutos, sin descargas — es en la práctica una demo, y Creator a $29/mes ($19 anual) arranca por encima de la mayoría, con clonación y doblaje serio aún más arriba. En lecturas dramáticas y cargadas de emoción, los competidores más expresivos aún llevan ventaja; el punto dulce de Murf es el profesionalismo limpio y consistente del e-learning, los vídeos de producto y la formación corporativa. Si esa es tu producción diaria, el precio compra productividad real y la recomendación está ganada; los usuarios ocasionales deberían probar antes herramientas más baratas.",
+      "fr": "Murf AI s'est installé dans une identité claire : la plateforme de synthèse vocale pour ceux qui produisent de la narration professionnellement. Les voix Gen2 sont d'un naturel fiable dans plus de 20 langues, et les décisions produit qui les entourent trahissent une compréhension profonde des vrais flux de travail — l'éditeur audio-vidéo synchronisé permet de caler la narration sur des diapositives ou des captures d'écran sans faire transiter les fichiers par un autre éditeur, les voix de marque gardent les équipes cohérentes, et le pipeline de doublage préserve rythme et caractère étonnamment bien. L'API et la nouvelle plateforme Voice Agent étendent les mêmes voix aux systèmes IVR et aux applications conversationnelles, faisant de Murf l'un des rares fournisseurs à couvrir production de contenu et infrastructure vocale. Le hic honnête, c'est la structure de coûts. L'essai gratuit — une dizaine de minutes, sans téléchargement — est en pratique une démo, et Creator à 29 $/mois (19 $ en annuel) démarre au-dessus de la plupart des rivaux, clonage et doublage sérieux étant réservés plus haut encore. Pour les lectures dramatiques et chargées d'émotion, les concurrents les plus expressifs gardent l'avantage ; le point fort de Murf est le professionnalisme propre et constant de l'e-learning, des vidéos produit et de la formation d'entreprise. Si c'est votre production quotidienne, le prix achète une vraie productivité et la recommandation est méritée ; les utilisateurs occasionnels devraient d'abord essayer moins cher."
+    },
+    "bestFor": {
+      "en": [
+        "E-learning and corporate training narration at scale",
+        "Marketing teams dubbing content into many languages",
+        "Developers adding professional voices via API"
+      ],
+      "zh": [
+        "规模化的在线课程与企业培训解说",
+        "把内容配音成多语言的营销团队",
+        "通过 API 接入专业音色的开发者"
+      ],
+      "ja": [
+        "大規模なeラーニング・企業研修ナレーション",
+        "コンテンツを多言語に吹き替えるマーケティングチーム",
+        "APIでプロ品質ボイスを組み込む開発者"
+      ],
+      "es": [
+        "Narración de e-learning y formación corporativa a escala",
+        "Equipos de marketing doblando contenido a muchos idiomas",
+        "Desarrolladores añadiendo voces profesionales vía API"
+      ],
+      "fr": [
+        "Narration e-learning et formation d'entreprise à grande échelle",
+        "Équipes marketing doublant du contenu en plusieurs langues",
+        "Développeurs ajoutant des voix professionnelles via API"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You want the most expressive, emotionally rich voices available (→ ElevenLabs)",
+        "You need voice inside a full video-editing workflow (→ Descript)"
+      ],
+      "zh": [
+        "你想要市面上表现力与情感最丰富的声音（→ ElevenLabs）",
+        "你需要在完整视频剪辑工作流里用语音（→ Descript）"
+      ],
+      "ja": [
+        "市場で最も表現力豊かで感情豊かな声が欲しい（→ ElevenLabs）",
+        "完全な動画編集ワークフローの中で音声を使いたい（→ Descript）"
+      ],
+      "es": [
+        "Quieres las voces más expresivas y emocionalmente ricas disponibles (→ ElevenLabs)",
+        "Necesitas voz dentro de un flujo completo de edición de vídeo (→ Descript)"
+      ],
+      "fr": [
+        "Vous voulez les voix les plus expressives et émotionnellement riches du marché (→ ElevenLabs)",
+        "Vous avez besoin de voix dans un flux complet de montage vidéo (→ Descript)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-29",
+    "verdictDate": "2026-07-29",
+    "pricingVerified": "2026-07-29",
+    "pricingUrl": "https://murf.ai/pricing"
+  }
+}

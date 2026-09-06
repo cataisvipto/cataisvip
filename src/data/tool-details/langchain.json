@@ -1,0 +1,256 @@
+{
+  "features": {
+    "en": [
+      "LangChain 1.0 agent framework",
+      "LangGraph stateful orchestration",
+      "Middleware for agent control",
+      "Standardized model integrations",
+      "LangSmith observability",
+      "Prebuilt agent patterns"
+    ],
+    "zh": [
+      "LangChain 1.0 智能体框架",
+      "LangGraph 有状态编排",
+      "用于智能体控制的中间件",
+      "标准化模型集成",
+      "LangSmith 可观测性",
+      "预置智能体模式"
+    ],
+    "ja": [
+      "LangChain 1.0 エージェントフレームワーク",
+      "LangGraph ステートフルなオーケストレーション",
+      "エージェント制御用のミドルウェア",
+      "標準化されたモデル統合",
+      "LangSmith による可観測性",
+      "事前構築されたエージェントパターン"
+    ],
+    "es": [
+      "Framework de agentes LangChain 1.0",
+      "Orquestación con estado LangGraph",
+      "Middleware para control de agentes",
+      "Integraciones de modelos estandarizadas",
+      "Observabilidad con LangSmith",
+      "Patrones de agente predefinidos"
+    ],
+    "fr": [
+      "Framework d'agents LangChain 1.0",
+      "Orchestration avec état LangGraph",
+      "Middleware pour le contrôle des agents",
+      "Intégrations de modèles standardisées",
+      "Observabilité avec LangSmith",
+      "Modèles d'agents préconçus"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Open-source framework free",
+      "zh": "开源框架免费",
+      "ja": "オープンソースフレームワークは無料",
+      "es": "Framework de código abierto gratuito",
+      "fr": "Framework open source gratuit"
+    },
+    "langsmith": {
+      "en": "LangSmith free tier + paid plans",
+      "zh": "LangSmith 免费版 + 付费方案",
+      "ja": "LangSmith 無料枠＋有料プラン",
+      "es": "LangSmith con plan gratuito + planes de pago",
+      "fr": "LangSmith avec offre gratuite + offres payantes"
+    },
+    "enterprise": {
+      "en": "LangGraph Platform custom pricing",
+      "zh": "LangGraph Platform 定制价格",
+      "ja": "LangGraph Platform はカスタム料金",
+      "es": "Precio personalizado de LangGraph Platform",
+      "fr": "Tarif personnalisé LangGraph Platform"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Building LLM-powered agents",
+      "RAG applications",
+      "Multi-step task automation",
+      "Conversational assistants",
+      "Tool-using agents",
+      "Production agent deployment"
+    ],
+    "zh": [
+      "构建 LLM 智能体",
+      "RAG 检索增强应用",
+      "多步任务自动化",
+      "对话式助手",
+      "工具调用型智能体",
+      "生产环境智能体部署"
+    ],
+    "ja": [
+      "LLM を活用したエージェント構築",
+      "RAG アプリケーション",
+      "多段階タスクの自動化",
+      "対話型アシスタント",
+      "ツールを使うエージェント",
+      "本番環境へのエージェント展開"
+    ],
+    "es": [
+      "Creación de agentes con LLM",
+      "Aplicaciones RAG",
+      "Automatización de tareas de varios pasos",
+      "Asistentes conversacionales",
+      "Agentes que usan herramientas",
+      "Despliegue de agentes en producción"
+    ],
+    "fr": [
+      "Création d'agents basés sur des LLM",
+      "Applications RAG",
+      "Automatisation de tâches en plusieurs étapes",
+      "Assistants conversationnels",
+      "Agents utilisant des outils",
+      "Déploiement d'agents en production"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Rich ecosystem and integrations",
+      "Flexible agent orchestration",
+      "Strong observability tooling",
+      "Large community"
+    ],
+    "zh": [
+      "生态与集成丰富",
+      "智能体编排灵活",
+      "可观测性工具强",
+      "社区庞大"
+    ],
+    "ja": [
+      "豊富なエコシステムと連携",
+      "柔軟なエージェントのオーケストレーション",
+      "強力な可観測性ツール",
+      "大規模なコミュニティ"
+    ],
+    "es": [
+      "Rico ecosistema e integraciones",
+      "Orquestación de agentes flexible",
+      "Sólidas herramientas de observabilidad",
+      "Gran comunidad"
+    ],
+    "fr": [
+      "Riche écosystème et intégrations",
+      "Orchestration d'agents flexible",
+      "Outils d'observabilité solides",
+      "Grande communauté"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Abstraction can add complexity",
+      "Frequent API changes historically",
+      "Requires coding skills"
+    ],
+    "zh": [
+      "抽象层可能增加复杂度",
+      "历史上 API 变动频繁",
+      "需要编程能力"
+    ],
+    "ja": [
+      "抽象化が複雑さを増すことがある",
+      "従来は API 変更が頻繁",
+      "プログラミングスキルが必要"
+    ],
+    "es": [
+      "La abstracción puede añadir complejidad",
+      "Cambios frecuentes de API en el pasado",
+      "Requiere conocimientos de programación"
+    ],
+    "fr": [
+      "L'abstraction peut ajouter de la complexité",
+      "Historiquement, des changements d'API fréquents",
+      "Nécessite des compétences en programmation"
+    ]
+  },
+  "latestUpdate": {
+    "en": "July 2026: LangChain and LangGraph reach 1.0 with a refined core agent loop and middleware architecture",
+    "zh": "2026年7月：LangChain 与 LangGraph 发布 1.0，精炼核心智能体循环并引入中间件架构",
+    "ja": "2026年7月：LangChain と LangGraph が 1.0 に到達。コアなエージェントループを洗練し、ミドルウェアアーキテクチャを導入",
+    "es": "Julio de 2026: LangChain y LangGraph alcanzan la 1.0 con un bucle de agente central refinado y una arquitectura de middleware",
+    "fr": "Juillet 2026 : LangChain et LangGraph atteignent la 1.0 avec une boucle d'agent centrale affinée et une architecture middleware"
+  },
+  "verdict": {
+    "badge": "Recommended",
+    "headline": {
+      "en": "The most widely adopted framework for building AI applications — from simple chains to complex multi-agent systems.",
+      "zh": "构建AI应用最广泛采用的框架——从简单链到复杂多智能体系统。",
+      "ja": "AIアプリケーション構築で最も広く採用されているフレームワーク。",
+      "es": "El framework más adoptado para construir aplicaciones IA.",
+      "fr": "Le framework le plus adopté pour construire des applications IA."
+    },
+    "body": {
+      "en": "LangChain provides the scaffolding for building AI-powered applications that go beyond simple API calls. Its value is in the abstractions: RAG pipelines, tool-using agents, conversational memory, and orchestration of multi-step workflows.\n\nThe ecosystem includes LangSmith for observability, LangGraph for stateful agent workflows, and hundreds of community integrations.\n\nThe criticism is real: LangChain's abstractions can feel over-engineered for simple use cases. But for complex applications that coordinate multiple models, tools, and data sources, its maturity is hard to replicate.",
+      "zh": "LangChain为构建超越简单API调用的AI应用提供了脚手架。其价值在于抽象层：RAG管道、工具使用智能体、对话记忆和多步工作流编排。\n\n生态系统包括LangSmith、LangGraph和数百个社区集成。\n\n批评是真实的：对简单用例LangChain可能过度设计。但对于需要协调多个模型和数据源的复杂应用，其成熟度难以替代。",
+      "ja": "LangChainは単純なAPI呼び出しを超えるAIアプリケーション構築の足場を提供します。RAGパイプライン、エージェント、会話メモリ、マルチステップワークフローのオーケストレーション。\n\nエコシステムにはLangSmith、LangGraph、数百のコミュニティ統合が含まれます。\n\n批判は正当です：シンプルなユースケースには過剰設計に感じられます。しかし複雑なアプリケーションでは成熟度が不可欠です。",
+      "es": "LangChain proporciona el andamiaje para construir aplicaciones IA que van más allá de simples llamadas API: pipelines RAG, agentes, memoria conversacional.\n\nEl ecosistema incluye LangSmith, LangGraph y cientos de integraciones.\n\nLa crítica es real: puede sentirse sobre-diseñado para casos simples. Pero para aplicaciones complejas su madurez es difícil de replicar.",
+      "fr": "LangChain fournit l'échafaudage pour construire des applications IA allant au-delà de simples appels API : pipelines RAG, agents, mémoire conversationnelle.\n\nL'écosystème inclut LangSmith, LangGraph et des centaines d'intégrations.\n\nLa critique est justifiée : sur-conçu pour les cas simples. Mais pour les applications complexes, sa maturité est irremplaçable."
+    },
+    "bestFor": {
+      "en": [
+        "Building RAG applications with multiple data sources",
+        "Complex AI agent systems requiring tool use and memory",
+        "Teams needing observability for AI workflows",
+        "Production applications requiring model-provider flexibility"
+      ],
+      "zh": [
+        "构建接入多数据源的RAG应用",
+        "需要工具使用和记忆的复杂AI智能体系统",
+        "需要AI工作流可观测性的团队",
+        "需要模型提供商灵活性的生产应用"
+      ],
+      "ja": [
+        "複数データソースを持つRAGアプリの構築",
+        "ツール使用とメモリが必要な複雑なAIエージェント",
+        "AIワークフローの可観測性が必要なチーム",
+        "モデルプロバイダーの柔軟性が必要なプロダクションアプリ"
+      ],
+      "es": [
+        "Construir aplicaciones RAG con múltiples fuentes de datos",
+        "Sistemas complejos de agentes IA",
+        "Equipos que necesitan observabilidad de flujos IA",
+        "Aplicaciones en producción que requieren flexibilidad de proveedor"
+      ],
+      "fr": [
+        "Construction d'applications RAG avec multiples sources de données",
+        "Systèmes d'agents IA complexes",
+        "Équipes nécessitant observabilité des workflows IA",
+        "Applications en production nécessitant flexibilité de fournisseur"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "Your use case is a simple chatbot or single API integration (→ direct API calls, Vercel AI SDK)",
+        "You want a visual no-code AI workflow builder (→ Dify, Coze)",
+        "You prefer a lighter framework (→ LlamaIndex for RAG, CrewAI for agents)"
+      ],
+      "zh": [
+        "你的用例是简单聊天机器人或单一API集成（→ 直接API调用、Vercel AI SDK）",
+        "你想要可视化无代码AI工作流构建器（→ Dify、Coze）",
+        "你偏好更轻量的框架（→ LlamaIndex、CrewAI）"
+      ],
+      "ja": [
+        "シンプルなチャットボットや単一API統合の場合（→ 直接API呼び出し、Vercel AI SDK）",
+        "ビジュアルなノーコードビルダーが欲しい場合（→ Dify、Coze）",
+        "より軽量なフレームワークを好む場合（→ LlamaIndex、CrewAI）"
+      ],
+      "es": [
+        "Tu caso es un chatbot simple (→ llamadas API directas, Vercel AI SDK)",
+        "Quieres un constructor visual sin código (→ Dify, Coze)",
+        "Prefieres un framework más ligero (→ LlamaIndex, CrewAI)"
+      ],
+      "fr": [
+        "Votre cas est un chatbot simple (→ appels API directs, Vercel AI SDK)",
+        "Vous voulez un constructeur visuel no-code (→ Dify, Coze)",
+        "Vous préférez un framework plus léger (→ LlamaIndex, CrewAI)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-27",
+    "verdictDate": "2026-07-27",
+    "pricingVerified": "2026-07-27"
+  }
+}

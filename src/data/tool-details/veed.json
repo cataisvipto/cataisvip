@@ -1,0 +1,235 @@
+{
+  "features": {
+    "en": [
+      "Auto subtitles with translation into unlimited languages",
+      "Fabric 1.0 talking-avatar model — far cheaper than rivals, with an open API",
+      "AI avatars plus aggregated video generation including Veo 3.1",
+      "Magic Cut removes silences and filler words automatically",
+      "AI dubbing that translates speech while keeping the voice",
+      "Screen recording, background removal and a full browser editor"
+    ],
+    "zh": [
+      "自动字幕，可翻译成无限语言",
+      "Fabric 1.0 说话人模型——比对手便宜得多，且开放 API",
+      "AI 数字人，并聚合 Veo 3.1 等视频生成模型",
+      "Magic Cut 自动剪掉静音与口头禅",
+      "AI 配音翻译语音同时保留原声特质",
+      "录屏、背景移除与完整的浏览器内剪辑器"
+    ],
+    "ja": [
+      "無制限の言語に翻訳できる自動字幕",
+      "話者アバターモデルFabric 1.0——競合よりはるかに安く、公開APIも提供",
+      "AIアバターに加えVeo 3.1を含む動画生成を集約",
+      "Magic Cutが無音とつなぎ言葉を自動除去",
+      "声を保ったまま音声を翻訳するAI吹き替え",
+      "画面録画・背景除去・完全なブラウザ内エディタ"
+    ],
+    "es": [
+      "Subtítulos automáticos con traducción a idiomas ilimitados",
+      "Modelo de avatar parlante Fabric 1.0 — mucho más barato que rivales, con API abierta",
+      "Avatares IA más generación de vídeo agregada incluyendo Veo 3.1",
+      "Magic Cut elimina silencios y muletillas automáticamente",
+      "Doblaje IA que traduce el habla conservando la voz",
+      "Grabación de pantalla, eliminación de fondo y un editor completo en el navegador"
+    ],
+    "fr": [
+      "Sous-titres automatiques avec traduction en langues illimitées",
+      "Modèle d'avatar parlant Fabric 1.0 — bien moins cher que les rivaux, avec API ouverte",
+      "Avatars IA plus génération vidéo agrégée incluant Veo 3.1",
+      "Magic Cut supprime silences et mots de remplissage automatiquement",
+      "Doublage IA qui traduit la parole en gardant la voix",
+      "Enregistrement d'écran, suppression d'arrière-plan et éditeur complet dans le navigateur"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Free exports at 720p with a watermark and caps project length — usable for testing, not for publishing.",
+      "zh": "免费档 720p 导出带水印且限制项目时长——够测试，不够发布。",
+      "ja": "無料版は透かし付き720p書き出しでプロジェクト長にも上限——テスト用であり公開用ではない。",
+      "es": "El plan gratis exporta a 720p con marca de agua y limita la duración del proyecto — sirve para probar, no para publicar.",
+      "fr": "Le gratuit exporte en 720p avec filigrane et plafonne la durée des projets — utilisable pour tester, pas pour publier."
+    },
+    "paid": {
+      "en": "Lite is $24/month ($18/month billed yearly), Pro $35/month ($30/month yearly) adding 4K, dubbing and avatars, Business $59/month ($40/month yearly); third-party listings corroborate these rates. (Verified against the official pricing page, 2026-07-29.)",
+      "zh": "Lite $24/月（年付折合 $18/月），Pro $35/月（年付折合 $30/月）增加 4K、配音与数字人，Business $59/月（年付折合 $40/月）；第三方页面与上述价格交叉印证。（对照官方定价页核实，2026-07-29。）",
+      "ja": "Liteは月$24（年払いで月$18）、Proは月$35（年払いで月$30）で4K・吹き替え・アバターを追加、Businessは月$59（年払いで月$40）。第三者の掲載価格とも一致。（公式価格ページと照合、2026-07-29。）",
+      "es": "Lite cuesta $24/mes ($18/mes con pago anual), Pro $35/mes ($30/mes anual) añadiendo 4K, doblaje y avatares, Business $59/mes ($40/mes anual); listados de terceros corroboran estas tarifas. (Verificado con la página oficial de precios, 2026-07-29.)",
+      "fr": "Lite coûte 24 $/mois (18 $/mois en annuel), Pro 35 $/mois (30 $/mois en annuel) ajoutant 4K, doublage et avatars, Business 59 $/mois (40 $/mois en annuel) ; des listings tiers corroborent ces tarifs. (Vérifié avec la page tarifaire officielle, 2026-07-29.)"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Subtitling and translating social videos for global reach",
+      "Producing avatar-led training and marketing videos at scale",
+      "Podcasters cleaning filler words with Magic Cut",
+      "Teams recording, editing and sharing screen demos in the browser"
+    ],
+    "zh": [
+      "为社媒视频加字幕并翻译，触达全球",
+      "规模化生产数字人主讲的培训与营销视频",
+      "播客主用 Magic Cut 清理口头禅",
+      "团队在浏览器里录屏、剪辑并分享产品演示"
+    ],
+    "ja": [
+      "SNS動画に字幕と翻訳を付けてグローバルにリーチ",
+      "アバター主演の研修・マーケティング動画を大量生産",
+      "Magic Cutでつなぎ言葉を掃除するポッドキャスター",
+      "ブラウザで画面デモを録画・編集・共有するチーム"
+    ],
+    "es": [
+      "Subtitular y traducir vídeos sociales para alcance global",
+      "Producir vídeos de formación y marketing con avatares a escala",
+      "Podcasters limpiando muletillas con Magic Cut",
+      "Equipos grabando, editando y compartiendo demos de pantalla en el navegador"
+    ],
+    "fr": [
+      "Sous-titrer et traduire des vidéos sociales pour une portée mondiale",
+      "Produire à grande échelle des vidéos de formation et marketing menées par avatar",
+      "Podcasteurs nettoyant les mots de remplissage avec Magic Cut",
+      "Équipes enregistrant, montant et partageant des démos d'écran dans le navigateur"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Subtitle accuracy and styling remain best-in-browser",
+      "Fabric 1.0 undercuts avatar rivals dramatically on price",
+      "Aggregating Veo and other generators saves juggling subscriptions",
+      "Zero-install collaboration: everything runs in a shared browser workspace"
+    ],
+    "zh": [
+      "字幕准确度与样式设计仍是浏览器端最佳",
+      "Fabric 1.0 在价格上大幅击穿数字人竞品",
+      "聚合 Veo 等生成模型，省去多头订阅",
+      "零安装协作：一切都在共享的浏览器工作区运行"
+    ],
+    "ja": [
+      "字幕の精度とスタイリングは今もブラウザ最高峰",
+      "Fabric 1.0は価格でアバター競合を劇的に下回る",
+      "Veoなどの生成モデルを集約しサブスクリプションの掛け持ちを解消",
+      "インストール不要のコラボ：すべて共有ブラウザワークスペースで動作"
+    ],
+    "es": [
+      "La precisión y el estilo de los subtítulos siguen siendo los mejores en navegador",
+      "Fabric 1.0 rebaja drásticamente el precio frente a rivales de avatares",
+      "Agregar Veo y otros generadores evita hacer malabares con suscripciones",
+      "Colaboración sin instalación: todo corre en un espacio compartido del navegador"
+    ],
+    "fr": [
+      "La précision et le style des sous-titres restent les meilleurs sur navigateur",
+      "Fabric 1.0 casse radicalement les prix face aux rivaux de l'avatar",
+      "L'agrégation de Veo et d'autres générateurs évite de jongler entre abonnements",
+      "Collaboration sans installation : tout tourne dans un espace navigateur partagé"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Refund policy is harsh: downloading any export voids the 14-day money-back guarantee — test thoroughly on free before paying",
+      "Pricing climbs fast; 4K, dubbing and avatars all sit at Pro or above",
+      "Browser-based rendering struggles with long or heavy projects",
+      "Watermarked 720p free tier is among the most restrictive here"
+    ],
+    "zh": [
+      "退款政策苛刻：只要下载过导出文件即丧失 14 天退款资格——付费前务必用免费档充分测试",
+      "价格爬升快；4K、配音与数字人全在 Pro 及以上",
+      "浏览器端渲染在长项目或重项目上吃力",
+      "带水印的 720p 免费档在同类中数一数二地严苛"
+    ],
+    "ja": [
+      "返金ポリシーが苛烈：書き出しファイルを一度でもダウンロードすると14日間返金保証が無効に——支払い前に無料版で徹底的にテストを",
+      "価格の上昇が速い。4K・吹き替え・アバターは全てPro以上",
+      "ブラウザベースのレンダリングは長尺・重量級プロジェクトで苦戦",
+      "透かし付き720pの無料版は同カテゴリで最も制限的な部類"
+    ],
+    "es": [
+      "La política de reembolso es dura: descargar cualquier exportación anula la garantía de 14 días — prueba a fondo en el plan gratis antes de pagar",
+      "Los precios suben rápido; 4K, doblaje y avatares están en Pro o superior",
+      "El renderizado en navegador sufre con proyectos largos o pesados",
+      "El nivel gratis de 720p con marca de agua es de los más restrictivos"
+    ],
+    "fr": [
+      "La politique de remboursement est sévère : télécharger un export annule la garantie de 14 jours — testez à fond en gratuit avant de payer",
+      "Les prix grimpent vite ; 4K, doublage et avatars sont tous en Pro ou au-dessus",
+      "Le rendu dans le navigateur peine sur les projets longs ou lourds",
+      "Le niveau gratuit 720p filigrané est parmi les plus restrictifs de la catégorie"
+    ]
+  },
+  "latestUpdate": {
+    "en": "2026: VEED shipped Fabric 1.0, its own talking-avatar model priced dramatically below incumbents and exposed via API, and aggregated third-party generators including Veo 3.1 — repositioning from subtitle editor to full AI video platform.",
+    "zh": "2026 年：VEED 发布自研说话人模型 Fabric 1.0，定价大幅低于在位者并开放 API，同时聚合了 Veo 3.1 等第三方生成模型——从字幕编辑器重新定位为完整的 AI 视频平台。",
+    "ja": "2026年：VEEDは自社の話者アバターモデルFabric 1.0を既存勢よりはるかに安い価格で出荷しAPIも公開、Veo 3.1などサードパーティ生成モデルも集約——字幕エディタからフルAI動画プラットフォームへ再定位した。",
+    "es": "2026: VEED lanzó Fabric 1.0, su propio modelo de avatar parlante con precio muy por debajo de los establecidos y expuesto vía API, y agregó generadores de terceros incluido Veo 3.1 — reposicionándose de editor de subtítulos a plataforma completa de vídeo IA.",
+    "fr": "2026 : VEED a lancé Fabric 1.0, son propre modèle d'avatar parlant tarifé bien en dessous des acteurs établis et exposé via API, et a agrégé des générateurs tiers dont Veo 3.1 — se repositionnant d'éditeur de sous-titres en plateforme vidéo IA complète."
+  },
+  "verdict": {
+    "badge": "Worth Trying",
+    "headline": {
+      "en": "Browser video editing at its best — mind the exit terms",
+      "zh": "浏览器视频剪辑的最佳形态——但留意退出条款",
+      "ja": "ブラウザ動画編集の最高形——ただし出口条項に注意",
+      "es": "La edición de vídeo en navegador en su mejor forma — ojo a las condiciones de salida",
+      "fr": "Le montage vidéo dans le navigateur à son meilleur — attention aux conditions de sortie"
+    },
+    "body": {
+      "en": "VEED built its reputation on doing the unglamorous parts of video brilliantly in a browser: its auto subtitles are still the most accurate and best-styled in their class, translation reaches effectively unlimited languages, and Magic Cut quietly deletes the silences and 'ums' that eat editing hours. The 2026 Fabric 1.0 launch changed its ambitions — an in-house talking-avatar model priced dramatically below incumbent avatar platforms, opened via API, alongside aggregated access to generators like Veo 3.1. For teams making training content, localized marketing or screen demos without wanting installed software, the all-in-browser workflow with shared workspaces is genuinely productive. The reservations are concrete. VEED's refund policy voids the 14-day guarantee the moment you download an export — a term harsh enough that we flag it explicitly: exhaust the free tier before paying. Costs also stack up quickly, since 4K, dubbing and avatars all require Pro or higher, and browser rendering still chokes on long, layered projects that desktop editors shrug off. The watermarked 720p free tier exists mainly as a demo. VEED is a strong, fairly-priced-if-annual choice for subtitle-and-avatar-centric workflows; go in with eyes open on the billing terms and it will serve you well.",
+      "zh": "VEED 的声誉建立在用浏览器把视频里最不起眼的活干得漂亮：它的自动字幕在同类中仍是准确度与样式的双料最佳，翻译语言实际不设上限，Magic Cut 默默删掉吃掉剪辑时间的静音与「嗯啊」。2026 年 Fabric 1.0 的发布改变了它的野心——自研说话人模型定价大幅低于在位数字人平台、并开放 API，同时聚合了 Veo 3.1 等生成模型。对制作培训内容、本地化营销或屏幕演示、又不想装软件的团队来说，全浏览器工作流加共享工作区是实打实的生产力。保留意见也很具体：VEED 的退款政策规定，只要下载过导出文件，14 天退款保证即刻失效——这条苛刻到我们必须明确标记：付费前请把免费档用透。成本也涨得快，4K、配音与数字人全都要 Pro 及以上；浏览器渲染在桌面剪辑器不当回事的长项目、多图层项目上仍会卡壳；带水印的 720p 免费档基本只算演示。对以字幕与数字人为核心的工作流，VEED 是实力派、年付尚算公道的选择；睁大眼睛看清计费条款再进场，它会好好为你干活。",
+      "ja": "VEEDの評判は、動画の地味な部分をブラウザで見事にこなすことの上に築かれた：自動字幕は今もクラス最高の精度とスタイルを誇り、翻訳は実質無制限の言語に届き、Magic Cutは編集時間を食う無音と「えー」を静かに消してくれる。2026年のFabric 1.0投入は野心を変えた——既存アバタープラットフォームよりはるかに安い自社製話者モデルをAPI付きで公開し、Veo 3.1などの生成モデルへの集約アクセスも並べた。ソフトをインストールせずに研修コンテンツ・ローカライズされたマーケティング・画面デモを作るチームにとって、共有ワークスペース付きの完全ブラウザワークフローは本物の生産性だ。留保も具体的だ。VEEDの返金ポリシーは、書き出しをダウンロードした瞬間に14日間保証が無効になる——あまりに苛烈なので明示的に旗を立てる：支払う前に無料版を使い尽くすこと。4K・吹き替え・アバターは全てPro以上でコストの積み上がりも速く、デスクトップ編集ソフトなら平然とこなす長尺・多レイヤープロジェクトでブラウザレンダリングは今も詰まる。透かし付き720pの無料版は実質デモに過ぎない。字幕とアバター中心のワークフローには、VEEDは実力派で年払いならまずまず公正な選択だ。課金条項を見開いた目で確認してから入れば、しっかり働いてくれる。",
+      "es": "VEED se labró su reputación haciendo brillantemente en el navegador las partes menos glamurosas del vídeo: sus subtítulos automáticos siguen siendo los más precisos y mejor diseñados de su clase, la traducción llega a idiomas prácticamente ilimitados, y Magic Cut borra en silencio las pausas y los «ehh» que devoran horas de edición. El lanzamiento de Fabric 1.0 en 2026 cambió sus ambiciones — un modelo propio de avatar parlante con precio muy por debajo de las plataformas establecidas, abierto vía API, junto a acceso agregado a generadores como Veo 3.1. Para equipos que hacen formación, marketing localizado o demos de pantalla sin querer software instalado, el flujo íntegro en navegador con espacios compartidos es productividad genuina. Las reservas son concretas. La política de reembolso de VEED anula la garantía de 14 días en cuanto descargas una exportación — un término tan duro que lo señalamos explícitamente: agota el plan gratis antes de pagar. Los costes también escalan rápido, pues 4K, doblaje y avatares exigen Pro o superior, y el renderizado en navegador aún se atraganta con proyectos largos y con capas que los editores de escritorio despachan sin pestañear. El nivel gratis de 720p con marca de agua existe sobre todo como demo. VEED es una opción sólida y razonable en anual para flujos centrados en subtítulos y avatares; entra con los ojos abiertos ante los términos de facturación y te servirá bien.",
+      "fr": "VEED a bâti sa réputation en réussissant brillamment dans le navigateur les parties ingrates de la vidéo : ses sous-titres automatiques restent les plus précis et les mieux stylés de leur catégorie, la traduction atteint un nombre de langues quasi illimité, et Magic Cut supprime discrètement les silences et les « euh » qui dévorent les heures de montage. Le lancement de Fabric 1.0 en 2026 a changé ses ambitions — un modèle maison d'avatar parlant tarifé bien en dessous des plateformes établies, ouvert via API, aux côtés d'un accès agrégé à des générateurs comme Veo 3.1. Pour les équipes produisant formation, marketing localisé ou démos d'écran sans logiciel installé, le flux entièrement navigateur avec espaces partagés est réellement productif. Les réserves sont concrètes. La politique de remboursement de VEED annule la garantie de 14 jours dès que vous téléchargez un export — une clause assez sévère pour qu'on la signale explicitement : épuisez le gratuit avant de payer. Les coûts s'empilent vite aussi, 4K, doublage et avatars exigeant Pro ou plus, et le rendu navigateur cale encore sur les projets longs et chargés que les éditeurs de bureau avalent sans broncher. Le niveau gratuit 720p filigrané tient surtout de la démo. VEED est un choix solide, correctement tarifé en annuel, pour les flux centrés sur sous-titres et avatars ; entrez en connaissant les conditions de facturation et il vous servira bien."
+    },
+    "bestFor": {
+      "en": [
+        "Teams subtitling and localizing social video at scale",
+        "Avatar-led training and marketing content on a budget",
+        "Browser-first workflows with no software installs"
+      ],
+      "zh": [
+        "规模化做社媒视频字幕与本地化的团队",
+        "预算有限的数字人培训与营销内容",
+        "不装软件、浏览器优先的工作流"
+      ],
+      "ja": [
+        "SNS動画の字幕とローカライズを大規模に行うチーム",
+        "予算内でのアバター主演の研修・マーケティングコンテンツ",
+        "ソフトのインストール不要なブラウザファーストのワークフロー"
+      ],
+      "es": [
+        "Equipos subtitulando y localizando vídeo social a escala",
+        "Contenido de formación y marketing con avatares ajustado a presupuesto",
+        "Flujos centrados en el navegador sin instalar software"
+      ],
+      "fr": [
+        "Équipes sous-titrant et localisant la vidéo sociale à grande échelle",
+        "Contenu de formation et marketing par avatar à budget maîtrisé",
+        "Flux de travail navigateur d'abord, sans installation"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You edit by transcript and value podcast workflows (→ Descript)",
+        "You mainly clip long videos into shorts automatically (→ OpusClip)"
+      ],
+      "zh": [
+        "你按文稿剪辑、看重播客工作流（→ Descript）",
+        "你主要需要把长视频自动切成短片（→ OpusClip）"
+      ],
+      "ja": [
+        "トランスクリプトで編集し、ポッドキャストワークフローを重視（→ Descript）",
+        "主に長尺動画を自動でショートに切り出したい（→ OpusClip）"
+      ],
+      "es": [
+        "Editas por transcripción y valoras flujos de pódcast (→ Descript)",
+        "Sobre todo recortas vídeos largos en shorts automáticamente (→ OpusClip)"
+      ],
+      "fr": [
+        "Vous montez par transcription et tenez aux flux podcast (→ Descript)",
+        "Vous découpez surtout de longues vidéos en shorts automatiquement (→ OpusClip)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-29",
+    "verdictDate": "2026-07-29",
+    "pricingVerified": "2026-07-29",
+    "pricingUrl": "https://www.veed.io/pricing"
+  }
+}

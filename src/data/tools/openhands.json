@@ -1,0 +1,30 @@
+{
+  "slug": "openhands",
+  "name": "OpenHands",
+  "nameZh": "OpenHands",
+  "description": "All Hands AI 的开源云端编码智能体平台（原 OpenDevin），模型无关、可自托管，自动化真实工程任务",
+  "descriptionEn": "Open-source platform for cloud coding agents by All Hands AI (formerly OpenDevin); model-agnostic, self-hostable, automates real engineering work",
+  "descriptionJa": "All Hands AIのオープンソース・クラウドコーディングエージェントプラットフォーム（旧OpenDevin）。モデル非依存、セルフホスト可能、実際のエンジニアリング作業を自動化",
+  "descriptionEs": "Plataforma de código abierto para agentes de programación en la nube de All Hands AI (antes OpenDevin); agnóstica de modelos, autoalojable, automatiza trabajo real de ingeniería",
+  "descriptionFr": "Plateforme open source d'agents de codage cloud d'All Hands AI (ex-OpenDevin) ; indépendante du modèle, auto-hébergeable, automatise le travail d'ingénierie réel",
+  "url": "https://www.openhands.dev",
+  "logo": "/logos/tools/openhands.png",
+  "category": "Agent",
+  "tags": [
+    "Freemium",
+    "Open Source",
+    "API"
+  ],
+  "featured": false,
+  "developer": "All Hands AI",
+  "platforms": {
+    "web": true,
+    "windows": true,
+    "macos": true,
+    "ios": false,
+    "android": false,
+    "linux": true,
+    "browser_extension": false,
+    "api": true
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "slug": "office-word-mcp",
+  "name": "Office Word MCP Server",
+  "nameZh": "Office Word MCP 服务器",
+  "description": "让 AI 智能体创建、读取和编辑 Microsoft Word 文档的 MCP 服务器。支持生成 .docx 文件、读写文本内容、应用样式格式，实现文档自动化处理。",
+  "descriptionEn": "An MCP server that lets AI agents create, read, and edit Microsoft Word documents. Supports generating .docx files, reading and writing text content, and applying styles — enabling automated document processing.",
+  "descriptionJa": "AI エージェントが Microsoft Word 文書を作成、読み取り、編集できる MCP サーバー。.docx ファイルの生成、テキストコンテンツの読み書き、スタイルの適用をサポートし、文書処理の自動化を実現します。",
+  "descriptionEs": "Un servidor MCP que permite a los agentes de IA crear, leer y editar documentos de Microsoft Word. Soporta la generación de archivos .docx, lectura y escritura de contenido de texto y aplicación de estilos — permitiendo el procesamiento automatizado de documentos.",
+  "descriptionFr": "Un serveur MCP qui permet aux agents IA de créer, lire et éditer des documents Microsoft Word. Prend en charge la génération de fichiers .docx, la lecture et l'écriture de contenu textuel et l'application de styles — permettant le traitement automatisé de documents.",
+  "developer": "GongRzhe",
+  "developerZh": "GongRzhe",
+  "repo": "GongRzhe/Office-Word-MCP-Server",
+  "clients": [
+    "claude",
+    "cursor",
+    "vscode",
+    "codex",
+    "generic"
+  ],
+  "category": "Productivity",
+  "tags": [
+    "Free",
+    "Open Source"
+  ],
+  "installCommand": "pip install -r https://raw.githubusercontent.com/GongRzhe/Office-Word-MCP-Server/main/requirements.txt",
+  "logo": "/logos/mcp/office-word-mcp.png",
+  "stars": 2105,
+  "featured": false,
+  "faqs": [
+    {
+      "question": {
+        "zh": "Office Word MCP 能做什么？",
+        "en": "What can Office Word MCP do?",
+        "ja": "Office Word MCP は何ができますか？",
+        "es": "¿Qué puede hacer Office Word MCP?",
+        "fr": "Que peut faire Office Word MCP ?"
+      },
+      "answer": {
+        "zh": "让 AI 智能体直接操作 Word 文档：创建新文档并写入内容、读取现有文档的文本和结构、应用字体/字号/颜色等格式、插入表格和列表、添加页眉页脚。适用于自动生成报告、批量处理文档、内容提取等场景。",
+        "en": "Lets AI agents directly manipulate Word documents: create new documents with content, read text and structure of existing documents, apply font/size/color formatting, insert tables and lists, and add headers and footers. Ideal for automated report generation, batch document processing, and content extraction.",
+        "ja": "AI エージェントが Word 文書を直接操作できます：新しい文書の作成とコンテンツの書き込み、既存文書のテキストと構造の読み取り、フォント/サイズ/色の書式設定、表とリストの挿入、ヘッダーとフッターの追加。レポートの自動生成、文書の一括処理、コンテンツ抽出などのシーンに最適です。",
+        "es": "Permite a los agentes de IA manipular directamente documentos de Word: crear nuevos documentos con contenido, leer texto y estructura de documentos existentes, aplicar formato de fuente/tamaño/color, insertar tablas y listas, y añadir encabezados y pies de página. Ideal para generación automatizada de informes, procesamiento por lotes de documentos y extracción de contenido.",
+        "fr": "Permet aux agents IA de manipuler directement des documents Word : créer de nouveaux documents avec du contenu, lire le texte et la structure de documents existants, appliquer un formatage de police/taille/couleur, insérer des tableaux et des listes, et ajouter des en-têtes et pieds de page. Idéal pour la génération automatisée de rapports, le traitement par lots de documents et l'extraction de contenu."
+      }
+    },
+    {
+      "question": {
+        "zh": "Office Word MCP 需要安装 Microsoft Office 吗？",
+        "en": "Does Office Word MCP require Microsoft Office?",
+        "ja": "Office Word MCP を使用するには Microsoft Office のインストールが必要ですか？",
+        "es": "¿Office Word MCP necesita tener Microsoft Office instalado?",
+        "fr": "Office Word MCP nécessite-t-il Microsoft Office ?"
+      },
+      "answer": {
+        "zh": "不需要。MCP 服务器基于 python-docx 库操作 .docx 文件格式，不依赖 Microsoft Office 软件。因此可以在 Windows、macOS、Linux 上运行，无需购买 Office 许可证。",
+        "en": "No. The MCP server is built on the python-docx library, which operates on the .docx file format directly without needing Microsoft Office. It runs on Windows, macOS, and Linux with no Office license required.",
+        "ja": "いいえ。MCP サーバーは python-docx ライブラリをベースにしており、Microsoft Office を必要とせずに .docx ファイル形式を直接操作します。そのため、Windows、macOS、Linux で動作し、Office ライセンスは不要です。",
+        "es": "No. El servidor MCP está construido sobre la librería python-docx, que opera directamente sobre el formato de archivo .docx sin necesidad de Microsoft Office. Se ejecuta en Windows, macOS y Linux sin necesidad de licencia de Office.",
+        "fr": "Non. Le serveur MCP est construit sur la bibliothèque python-docx, qui opère directement sur le format de fichier .docx sans nécessiter Microsoft Office. Il fonctionne sur Windows, macOS et Linux sans licence Office requise."
+      }
+    },
+    {
+      "question": {
+        "zh": "Office Word MCP 支持中文吗？",
+        "en": "Does Office Word MCP support Chinese?",
+        "ja": "Office Word MCP は中国語に対応していますか？",
+        "es": "¿Office Word MCP soporta chino?",
+        "fr": "Office Word MCP supporte-t-il le chinois ?"
+      },
+      "answer": {
+        "zh": "完全支持。基于 python-docx 的 Unicode 支持，可以正确处理中文、日文等双字节字符的文档读写和格式设置。",
+        "en": "Fully supported. Based on python-docx's Unicode support, it correctly handles Chinese, Japanese, and other multi-byte characters for document reading, writing, and formatting.",
+        "ja": "完全対応しています。python-docx の Unicode サポートに基づき、中国語、日本語などのマルチバイト文字の文書読み書きや書式設定を正しく処理できます。",
+        "es": "Completamente soportado. Basado en el soporte Unicode de python-docx, maneja correctamente caracteres chinos, japoneses y otros multibyte para lectura, escritura y formato de documentos.",
+        "fr": "Entièrement pris en charge. Basé sur le support Unicode de python-docx, il gère correctement les caractères chinois, japonais et autres caractères multi-octets pour la lecture, l'écriture et le formatage de documents."
+      }
+    }
+  ]
+}

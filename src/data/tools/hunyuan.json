@@ -1,0 +1,30 @@
+{
+  "slug": "hunyuan",
+  "name": "Hunyuan",
+  "nameZh": "腾讯混元",
+  "description": "腾讯自研的全链路大模型系列，覆盖语言、生图、生视频与 3D 生成，通过腾讯云提供 API，多款模型开源",
+  "descriptionEn": "Tencent's full-stack foundation model family covering language, image, video and 3D generation, with API access via Tencent Cloud and several open-source releases",
+  "descriptionJa": "Tencent自社開発のフルスタック基盤モデルシリーズ。言語・画像・動画・3D生成をカバー、Tencent Cloud経由のAPIと複数のオープンソース版を提供",
+  "descriptionEs": "Familia de modelos fundacionales de Tencent que cubre lenguaje, imagen, vídeo y generación 3D, con API vía Tencent Cloud y varias versiones de código abierto",
+  "descriptionFr": "Famille de modèles de fondation de Tencent couvrant langage, image, vidéo et génération 3D, avec API via Tencent Cloud et plusieurs versions open source",
+  "url": "https://hunyuan.tencent.com",
+  "logo": "/logos/tools/hunyuan.png",
+  "category": "Foundation Models",
+  "tags": [
+    "Freemium",
+    "API"
+  ],
+  "featured": false,
+  "developer": "Tencent",
+  "developerZh": "腾讯",
+  "platforms": {
+    "web": true,
+    "windows": false,
+    "macos": false,
+    "ios": false,
+    "android": false,
+    "linux": false,
+    "browser_extension": false,
+    "api": true
+  }
+}

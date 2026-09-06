@@ -1,0 +1,28 @@
+{
+  "slug": "adobe-firefly",
+  "name": "Adobe Firefly",
+  "nameZh": "Adobe Firefly",
+  "description": "Adobe 推出的 AI 图像生成工具，深度集成 Photoshop 等创意套件，支持商用",
+  "descriptionEn": "Adobe's AI image generator deeply integrated with Creative Cloud, commercially safe",
+  "descriptionJa": "AdobeのAI画像生成ツール。Photoshopなどと深く統合、商用利用可能",
+  "descriptionEs": "Generador de imágenes IA de Adobe profundamente integrado con Creative Cloud, seguro para uso comercial",
+  "descriptionFr": "Générateur d'images IA d'Adobe profondément intégré à Creative Cloud, utilisable commercialement",
+  "url": "https://www.adobe.com/products/firefly",
+  "logo": "/logos/tools/adobe-firefly.png",
+  "category": "Image",
+  "tags": [
+    "Freemium"
+  ],
+  "featured": true,
+  "developer": "Adobe",
+  "platforms": {
+    "web": true,
+    "windows": false,
+    "macos": false,
+    "ios": true,
+    "android": true,
+    "linux": false,
+    "browser_extension": false,
+    "api": true
+  }
+}

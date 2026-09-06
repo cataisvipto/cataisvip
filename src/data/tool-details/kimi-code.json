@@ -1,0 +1,224 @@
+{
+  "features": {
+    "en": [
+      "AI coding agent with CLI",
+      "VS Code extension",
+      "Powered by Kimi K3",
+      "Up to 1M-token context",
+      "Read, edit files and run commands",
+      "Web search and subagents"
+    ],
+    "zh": [
+      "AI 编程 Agent（CLI）",
+      "VS Code 扩展插件",
+      "搭载 Kimi K3 模型",
+      "最高 100 万 token 上下文",
+      "代码阅读、文件编辑与命令执行",
+      "联网搜索与子 Agent"
+    ],
+    "ja": [
+      "CLI 付き AI コーディング Agent",
+      "VS Code 拡張",
+      "Kimi K3 を搭載",
+      "最大 100 万トークンのコンテキスト",
+      "ファイルの読み書きとコマンド実行",
+      "Web 検索とサブ Agent"
+    ],
+    "es": [
+      "Agente de codificación con CLI",
+      "Extensión de VS Code",
+      "Impulsado por Kimi K3",
+      "Contexto de hasta 1M de tokens",
+      "Lee, edita archivos y ejecuta comandos",
+      "Búsqueda web y subagentes"
+    ],
+    "fr": [
+      "Agent de codage avec CLI",
+      "Extension VS Code",
+      "Propulsé par Kimi K3",
+      "Contexte jusqu'à 1M de tokens",
+      "Lecture, édition de fichiers et exécution de commandes",
+      "Recherche web et sous-agents"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Free tier with basic quota",
+      "zh": "免费额度（基础用量）",
+      "ja": "基本枠の無料プラン",
+      "es": "Nivel gratuito con cuota básica",
+      "fr": "Offre gratuite avec quota de base"
+    },
+    "pro": {
+      "en": "Kimi Code Plan (Moderato and above unlock K3)",
+      "zh": "Kimi Code 套餐（Moderato 及以上解锁 K3）",
+      "ja": "Kimi Code プラン（Moderato 以上で K3 解放）",
+      "es": "Plan Kimi Code (Moderato o superior desbloquea K3)",
+      "fr": "Plan Kimi Code (Moderato et plus débloque K3)"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Code generation",
+      "Refactoring",
+      "Debugging",
+      "Cross-file project analysis"
+    ],
+    "zh": [
+      "代码生成",
+      "代码重构",
+      "调试排错",
+      "跨文件项目分析"
+    ],
+    "ja": [
+      "コード生成",
+      "リファクタリング",
+      "デバッグ",
+      "ファイル横断のプロジェクト分析"
+    ],
+    "es": [
+      "Generación de código",
+      "Refactorización",
+      "Depuración",
+      "Análisis de proyectos entre archivos"
+    ],
+    "fr": [
+      "Génération de code",
+      "Refactorisation",
+      "Débogage",
+      "Analyse de projet multi-fichiers"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Ultra-long context",
+      "Both CLI and IDE",
+      "Fast responses",
+      "Compatible with mainstream workflows"
+    ],
+    "zh": [
+      "超长上下文",
+      "CLI 与 IDE 双端",
+      "响应快速",
+      "兼容主流开发流程"
+    ],
+    "ja": [
+      "超長コンテキスト",
+      "CLI と IDE の両対応",
+      "高速なレスポンス",
+      "主流の開発フローと互換"
+    ],
+    "es": [
+      "Contexto ultralargo",
+      "CLI e IDE",
+      "Respuestas rápidas",
+      "Compatible con flujos habituales"
+    ],
+    "fr": [
+      "Contexte ultra-long",
+      "CLI et IDE",
+      "Réponses rapides",
+      "Compatible avec les flux courants"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Top model requires a paid plan",
+      "Relatively new ecosystem"
+    ],
+    "zh": [
+      "顶级模型需付费套餐",
+      "生态相对较新"
+    ],
+    "ja": [
+      "最上位モデルは有料プランが必要",
+      "エコシステムが比較的新しい"
+    ],
+    "es": [
+      "El mejor modelo requiere plan de pago",
+      "Ecosistema relativamente nuevo"
+    ],
+    "fr": [
+      "Le meilleur modèle nécessite un plan payant",
+      "Écosystème relativement récent"
+    ]
+  },
+  "latestUpdate": {
+    "en": "2026: Kimi K3 launched, up to 1M context, strong at coding and agentic tasks",
+    "zh": "2026年：Kimi K3 上线，最高 100 万上下文，擅长编程与智能体任务",
+    "ja": "2026年：Kimi K3 が登場、最大 100 万コンテキストで、コーディングとエージェント作業に強い",
+    "es": "2026: se lanza Kimi K3, hasta 1M de contexto, sólido en programación y tareas de agente",
+    "fr": "2026 : lancement de Kimi K3, jusqu'à 1M de contexte, performant en codage et tâches agentiques"
+  },
+  "verdict": {
+    "badge": "Worth Trying",
+    "headline": {
+      "en": "Moonshot AI's coding assistant leveraging Kimi's long-context strength for code understanding.",
+      "zh": "月之暗面的编程助手，利用Kimi的超长上下文优势理解代码。",
+      "ja": "Kimiの長コンテキスト強みを活かしたMoonshot AIのコーディングアシスタント。",
+      "es": "El asistente de código de Moonshot AI aprovechando la fortaleza de contexto largo de Kimi.",
+      "fr": "L'assistant de code de Moonshot AI exploitant la force de contexte long de Kimi."
+    },
+    "body": {
+      "en": "Kimi Code brings Moonshot AI's long-context capabilities to coding, letting you work with large codebases in a single session. It can analyze entire repositories and understand cross-file dependencies that shorter-context tools miss.\n\nStill maturing compared to Cursor or GitHub Copilot in terms of IDE integration depth. Best for developers who need to understand or refactor large codebases and value context length over fine-grained editor features.",
+      "zh": "Kimi Code 将月之暗面的长上下文能力引入编程，让你在单次会话中处理大型代码库。它能分析整个仓库并理解短上下文工具遗漏的跨文件依赖。\n\n在IDE集成深度方面相比 Cursor 或 GitHub Copilot 仍在成熟中。适合需要理解或重构大型代码库、重视上下文长度胜过精细编辑器功能的开发者。",
+      "ja": "Kimi CodeはMoonshot AIの長コンテキスト能力をコーディングに持ち込み、大規模コードベースを1セッションで扱えます。リポジトリ全体を分析し、短コンテキストツールが見逃すクロスファイル依存関係を理解できます。\n\nIDE統合の深さではCursorやGitHub Copilotに比べまだ成熟中です。大規模コードベースの理解やリファクタリングが必要で、コンテキスト長を重視する開発者に最適です。",
+      "es": "Kimi Code trae las capacidades de contexto largo de Moonshot AI a la codificación, permitiendo trabajar con bases de código grandes en una sesión. Puede analizar repositorios enteros y entender dependencias entre archivos.\n\nAún madurando comparado con Cursor o GitHub Copilot en profundidad de integración IDE. Ideal para desarrolladores que necesitan entender bases de código grandes y valoran el contexto largo.",
+      "fr": "Kimi Code apporte les capacités de contexte long de Moonshot AI au codage, permettant de travailler avec de grandes bases de code en une session. Il peut analyser des dépôts entiers et comprendre les dépendances inter-fichiers.\n\nEncore en maturation par rapport à Cursor ou GitHub Copilot en profondeur d'intégration IDE. Idéal pour les développeurs qui ont besoin de comprendre de grandes bases de code."
+    },
+    "bestFor": {
+      "en": [
+        "Understanding large codebases in context",
+        "Cross-file code analysis and refactoring",
+        "Developers who value context window size"
+      ],
+      "zh": [
+        "在上下文中理解大型代码库",
+        "跨文件代码分析与重构",
+        "重视上下文窗口大小的开发者"
+      ],
+      "ja": [
+        "コンテキスト内での大規模コードベース理解",
+        "クロスファイルコード分析とリファクタリング",
+        "コンテキストウィンドウサイズを重視する開発者"
+      ],
+      "es": [
+        "Entender bases de código grandes en contexto",
+        "Análisis y refactorización de código entre archivos",
+        "Desarrolladores que valoran el tamaño de ventana de contexto"
+      ],
+      "fr": [
+        "Comprendre de grandes bases de code en contexte",
+        "Analyse et refactoring de code inter-fichiers",
+        "Développeurs qui valorisent la taille de contexte"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You need deep IDE integration (→ Cursor, Qoder)",
+        "You want the most established coding AI (→ GitHub Copilot)"
+      ],
+      "zh": [
+        "需要深度IDE集成（→ Cursor、Qoder）",
+        "需要最成熟的编程AI（→ GitHub Copilot）"
+      ],
+      "ja": [
+        "深いIDE統合が必要な場合（→ Cursor、Qoder）",
+        "最も確立されたコーディングAIが必要な場合（→ GitHub Copilot）"
+      ],
+      "es": [
+        "Necesitas integración IDE profunda (→ Cursor, Qoder)",
+        "Quieres el IA de código más establecido (→ GitHub Copilot)"
+      ],
+      "fr": [
+        "Vous avez besoin d'une intégration IDE profonde (→ Cursor, Qoder)",
+        "Vous voulez l'IA de code la plus établie (→ GitHub Copilot)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-27",
+    "verdictDate": "2026-07-27",
+    "pricingVerified": "2026-07-27"
+  }
+}

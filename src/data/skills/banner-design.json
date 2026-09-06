@@ -1,0 +1,78 @@
+{
+  "slug": "banner-design",
+  "name": "Banner Design",
+  "nameZh": "Banner 设计",
+  "description": "Banner 广告与社交媒体封面设计技能。22 种设计风格，支持 Facebook、Twitter、LinkedIn、YouTube 等多平台。",
+  "descriptionEn": "Banner ad and social media cover design skill. 22 design styles supporting Facebook, Twitter, LinkedIn, YouTube and more.",
+  "descriptionJa": "バナー広告とソーシャルメディアカバーデザインスキル。22のデザインスタイル、Facebook、Twitter、LinkedInなどに対応。",
+  "descriptionEs": "Diseño de banners publicitarios y portadas de redes sociales. 22 estilos, compatible con Facebook, Twitter, LinkedIn, YouTube.",
+  "descriptionFr": "Conception de bannières publicitaires et de couvertures de médias sociaux. 22 styles, compatible Facebook, Twitter, LinkedIn, YouTube.",
+  "developer": "nextlevelbuilder",
+  "developerZh": "nextlevelbuilder",
+  "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
+  "agents": [
+    "claude",
+    "cursor",
+    "codex",
+    "generic"
+  ],
+  "category": "Design",
+  "tags": [
+    "Free",
+    "Open Source"
+  ],
+  "installCommand": "Available via plugin marketplace. See README for details.",
+  "logo": "/logos/skills/banner-design.png",
+  "stars": 125024,
+  "featured": false,
+  "faqs": [
+    {
+      "question": {
+        "zh": "Banner Design 技能支持哪些平台和风格？",
+        "en": "What platforms and styles does the Banner Design skill support?",
+        "ja": "Banner Design スキルはどのプラットフォームとスタイルに対応していますか？",
+        "es": "¿Qué plataformas y estilos soporta la habilidad Banner Design?",
+        "fr": "Quelles plateformes et quels styles la compétence Banner Design prend-elle en charge ?"
+      },
+      "answer": {
+        "zh": "内置 22 种设计风格（极简、渐变、大字排版、玻璃拟态、复古、霓虹等），覆盖 Facebook、Twitter/X、LinkedIn、YouTube、Instagram 等社交平台封面、广告图、网站 Hero 图乃至印刷物的尺寸规范。",
+        "en": "It ships 22 design styles (minimalist, gradient, bold typography, glassmorphism, retro, neon and more) and covers size specs for Facebook, Twitter/X, LinkedIn, YouTube and Instagram covers, ad creatives, website heroes and even print.",
+        "ja": "22 種類のデザインスタイル（ミニマル、グラデーション、ボールドタイポグラフィ、グラスモーフィズム、レトロ、ネオンなど）を内蔵し、Facebook、Twitter/X、LinkedIn、YouTube、Instagram のカバー画像、広告、ウェブサイトのヒーロー画像、印刷物までのサイズ規格をカバーします。",
+        "es": "Incluye 22 estilos de diseño (minimalista, degradado, tipografía bold, glassmorphism, retro, neón y más) y cubre las especificaciones de tamaño para portadas de Facebook, Twitter/X, LinkedIn, YouTube e Instagram, anuncios, heros de web e impresión.",
+        "fr": "Elle embarque 22 styles de design (minimaliste, dégradé, typographie bold, glassmorphism, rétro, néon…) et couvre les formats pour Facebook, Twitter/X, LinkedIn, YouTube, Instagram, les créations publicitaires, les heros de sites web et même l'impression."
+      }
+    },
+    {
+      "question": {
+        "zh": "怎么安装 Banner Design 技能？",
+        "en": "How do I install the Banner Design skill?",
+        "ja": "Banner Design スキルをインストールするには？",
+        "es": "¿Cómo instalo la habilidad Banner Design?",
+        "fr": "Comment installer la compétence Banner Design ?"
+      },
+      "answer": {
+        "zh": "在 Claude Code、Cursor 或 Codex 插件市场添加，命令见 GitHub README。使用时说明平台、文案和期望风格，AI 会给出多个艺术方向供选择再产出成品。",
+        "en": "Add it via the Claude Code, Cursor or Codex plugin marketplace — commands in the GitHub README. Specify the platform, copy and desired style; the AI proposes several art directions before producing the final asset.",
+        "ja": "Claude Code、Cursor、Codex のプラグインマーケットから追加します（コマンドは GitHub README 参照）。プラットフォーム、コピー、希望スタイルを伝えると、AI が複数のアートディレクション案を提示してから成果物を生成します。",
+        "es": "Añádela vía el marketplace de Claude Code, Cursor o Codex; comandos en el README de GitHub. Indica la plataforma, el texto y el estilo deseado: la IA propone varias direcciones artísticas antes de producir el resultado final.",
+        "fr": "Ajoutez-la via le marketplace de Claude Code, Cursor ou Codex — commandes dans le README GitHub. Précisez la plateforme, le texte et le style souhaité ; l'IA propose plusieurs directions artistiques avant de produire l'asset final."
+      }
+    },
+    {
+      "question": {
+        "zh": "不会设计的人能用好它吗？",
+        "en": "Can non-designers get good results with it?",
+        "ja": "デザイン未経験でも使いこなせますか？",
+        "es": "¿Puede alguien sin conocimientos de diseño obtener buenos resultados?",
+        "fr": "Un non-designer peut-il obtenir de bons résultats ?"
+      },
+      "answer": {
+        "zh": "可以，这正是它的价值：免费开源，把尺寸规范、排版原则、风格体系都固化在技能里，你只需要提供文案和偏好，产出就能达到及格线以上的专业水准。",
+        "en": "Yes — that is exactly its value. Free and open source, it bakes size specs, typography principles and style systems into the skill; you only supply the copy and preferences, and the output reaches professional baseline quality.",
+        "ja": "はい、それこそがこのスキルの価値です。無料のオープンソースで、サイズ規格、タイポグラフィ原則、スタイル体系がスキルに組み込まれています。コピーと好みを伝えるだけで、プロ水準の成果物が得られます。",
+        "es": "Sí, ese es precisamente su valor. Gratuita y de código abierto, incorpora especificaciones de tamaño, principios tipográficos y sistemas de estilo; solo aportas el texto y tus preferencias, y el resultado alcanza calidad profesional.",
+        "fr": "Oui — c'est précisément sa valeur. Gratuite et open source, elle intègre formats, principes typographiques et systèmes de style ; vous fournissez seulement le texte et vos préférences, et le résultat atteint un niveau professionnel."
+      }
+    }
+  ]
+}

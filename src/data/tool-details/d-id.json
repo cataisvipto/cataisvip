@@ -1,0 +1,235 @@
+{
+  "features": {
+    "en": [
+      "Turn a single photo into a talking avatar video with natural lip-sync",
+      "V4 Expressive Visual Agents: real-time face-to-face interaction wired to any LLM",
+      "Creative Reality Studio for scripted avatar videos with 120+ language voices",
+      "Mature developer API for streaming avatars, video generation and agents",
+      "Video translation with voice cloning and lip-sync across languages",
+      "Integrations including PowerPoint add-in, Canva app and mobile apps"
+    ],
+    "zh": [
+      "一张照片即可生成口型自然的说话数字人视频",
+      "V4 表达型视觉 Agent：可接入任意 LLM 的实时面对面交互",
+      "Creative Reality Studio 制作脚本化数字人视频，支持 120+ 语言配音",
+      "面向开发者的成熟 API：流式数字人、视频生成与 Agent",
+      "跨语言视频翻译，支持声音克隆与口型同步",
+      "集成 PowerPoint 插件、Canva 应用与移动 App"
+    ],
+    "ja": [
+      "写真1枚から自然なリップシンクの話すアバター動画を生成",
+      "V4表現型ビジュアルエージェント：任意のLLMと接続するリアルタイム対面インタラクション",
+      "Creative Reality Studioで120以上の言語音声のスクリプト型アバター動画を制作",
+      "ストリーミングアバター・動画生成・エージェント向けの成熟した開発者API",
+      "音声クローンとリップシンク付きの多言語動画翻訳",
+      "PowerPointアドイン、Canvaアプリ、モバイルアプリなどの統合"
+    ],
+    "es": [
+      "Convierte una sola foto en un video de avatar parlante con sincronización labial natural",
+      "Agentes Visuales Expresivos V4: interacción cara a cara en tiempo real conectada a cualquier LLM",
+      "Creative Reality Studio para videos de avatar con guion y voces en más de 120 idiomas",
+      "API madura para desarrolladores: avatares en streaming, generación de video y agentes",
+      "Traducción de video con clonación de voz y sincronización labial entre idiomas",
+      "Integraciones como complemento de PowerPoint, app de Canva y apps móviles"
+    ],
+    "fr": [
+      "Transformez une seule photo en vidéo d'avatar parlant avec une synchronisation labiale naturelle",
+      "Agents visuels expressifs V4 : interaction en face à face en temps réel reliée à n'importe quel LLM",
+      "Creative Reality Studio pour des vidéos d'avatar scénarisées avec des voix dans plus de 120 langues",
+      "API développeur mature : avatars en streaming, génération vidéo et agents",
+      "Traduction vidéo avec clonage de voix et synchronisation labiale entre langues",
+      "Intégrations : module PowerPoint, application Canva et applis mobiles"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "14-day free trial with watermarked videos and limited credits — enough to test photo animation and the studio.",
+      "zh": "14 天免费试用，视频带水印、额度有限——足够测试照片动画与 Studio。",
+      "ja": "14日間の無料トライアル。動画はウォーターマーク付きでクレジット制限あり——写真アニメーションとStudioを試すには十分。",
+      "es": "Prueba gratuita de 14 días con videos con marca de agua y créditos limitados, suficiente para probar la animación de fotos y el estudio.",
+      "fr": "Essai gratuit de 14 jours avec vidéos filigranées et crédits limités — assez pour tester l'animation photo et le studio."
+    },
+    "paid": {
+      "en": "Studio subscriptions start around $5.9/month (Lite, annual billing), scaling through Pro and Advanced tiers by credits and features. The developer API is priced separately: Build from about $18/month ($14.4/month billed annually) and Launch at $35/month, with enterprise plans on request. (Verified against the official pricing pages, 2026-07-28.)",
+      "zh": "Studio 订阅约 $5.9/月起（Lite 档、年付），Pro 与 Advanced 档按额度与功能递增。开发者 API 单独计价：Build 约 $18/月起（年付 $14.4/月），Launch $35/月，企业方案另议。（对照官方定价页核实，2026-07-28。）",
+      "ja": "Studioのサブスクは月約$5.9から（Liteプラン・年払い）、ProとAdvancedはクレジットと機能に応じて段階的に上がる。開発者APIは別料金：Buildは月約$18から（年払いで月$14.4）、Launchは月$35、エンタープライズは応相談。（公式価格ページと照合、2026-07-28。）",
+      "es": "Las suscripciones de Studio empiezan en unos $5.9/mes (Lite, facturación anual), escalando por Pro y Advanced según créditos y funciones. La API para desarrolladores se cobra aparte: Build desde unos $18/mes ($14.4/mes anual) y Launch a $35/mes, con planes enterprise bajo consulta. (Verificado con las páginas oficiales de precios, 2026-07-28.)",
+      "fr": "Les abonnements Studio démarrent vers 5,9 $/mois (Lite, facturation annuelle), avec des paliers Pro et Advanced selon crédits et fonctionnalités. L'API développeur est tarifée à part : Build à partir d'environ 18 $/mois (14,4 $/mois en annuel) et Launch à 35 $/mois, offres enterprise sur demande. (Vérifié avec les pages tarifaires officielles, 2026-07-28.)"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Animating portraits and product mascots into talking presenters",
+      "Embedding real-time conversational avatars into apps and kiosks via API",
+      "Localizing spokesperson videos with voice cloning and lip-sync",
+      "Adding narrated avatar clips to slides, e-learning and social content"
+    ],
+    "zh": [
+      "把人像或产品吉祥物动画化，变成会说话的讲解员",
+      "通过 API 把实时对话数字人嵌入应用与自助终端",
+      "用声音克隆与口型同步本地化代言人视频",
+      "为幻灯片、在线课程与社交内容添加数字人讲解片段"
+    ],
+    "ja": [
+      "ポートレートや製品マスコットをアニメ化して話すプレゼンターに",
+      "API経由でアプリやキオスクにリアルタイム対話アバターを組み込み",
+      "音声クローンとリップシンクでスポークスパーソン動画をローカライズ",
+      "スライド・eラーニング・SNSコンテンツにアバター解説クリップを追加"
+    ],
+    "es": [
+      "Animar retratos y mascotas de producto como presentadores parlantes",
+      "Integrar avatares conversacionales en tiempo real en apps y kioscos vía API",
+      "Localizar videos de portavoces con clonación de voz y sincronización labial",
+      "Añadir clips narrados por avatares a diapositivas, e-learning y contenido social"
+    ],
+    "fr": [
+      "Animer des portraits et mascottes produit en présentateurs parlants",
+      "Intégrer des avatars conversationnels en temps réel dans apps et bornes via API",
+      "Localiser des vidéos de porte-parole avec clonage de voix et synchro labiale",
+      "Ajouter des clips d'avatar narrés aux diapositives, e-learning et contenus sociaux"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Lowest barrier to entry in the category — one photo is enough to start",
+      "V4 real-time agents are genuinely cutting-edge for interactive use cases",
+      "Entry pricing from $5.9/month undercuts most studio-grade rivals",
+      "Battle-tested API adopted across kiosks, apps and enterprise assistants"
+    ],
+    "zh": [
+      "同品类里门槛最低——一张照片就能开始",
+      "V4 实时 Agent 在交互场景上货真价实地前沿",
+      "$5.9/月起的入门价低于多数 Studio 级对手",
+      "API 久经考验，被广泛用于自助终端、应用与企业助手"
+    ],
+    "ja": [
+      "カテゴリ内で最も参入障壁が低い——写真1枚で始められる",
+      "V4リアルタイムエージェントはインタラクティブ用途で正真正銘の最先端",
+      "月$5.9からの入門価格は多くのスタジオ級ライバルを下回る",
+      "キオスク・アプリ・企業アシスタントで実戦検証済みのAPI"
+    ],
+    "es": [
+      "La barrera de entrada más baja de la categoría: basta una foto para empezar",
+      "Los agentes en tiempo real V4 son genuinamente punteros para casos interactivos",
+      "El precio de entrada desde $5.9/mes está por debajo de la mayoría de rivales de nivel estudio",
+      "API probada en batalla, adoptada en kioscos, apps y asistentes empresariales"
+    ],
+    "fr": [
+      "La barrière d'entrée la plus basse de la catégorie — une photo suffit pour commencer",
+      "Les agents temps réel V4 sont réellement à la pointe pour les usages interactifs",
+      "Le prix d'entrée à 5,9 $/mois est inférieur à la plupart des rivaux de niveau studio",
+      "API éprouvée, adoptée dans les bornes, apps et assistants d'entreprise"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Photo-driven avatars show head-and-shoulders motion only — no full-body presence",
+      "Credit-based plans can deplete quickly with video translation and premium voices",
+      "Studio polish and template depth trail Synthesia and HeyGen",
+      "Watermark and short trial make thorough free evaluation harder"
+    ],
+    "zh": [
+      "照片驱动的数字人只有头肩部动作——没有全身呈现",
+      "视频翻译与高级配音会快速消耗按额度计费的套餐",
+      "Studio 的精致度与模板深度落后于 Synthesia 和 HeyGen",
+      "水印与较短的试用期让充分的免费评估变得困难"
+    ],
+    "ja": [
+      "写真駆動のアバターは頭部と肩の動きのみ——全身表現はない",
+      "動画翻訳やプレミアム音声でクレジット制プランは急速に消耗する",
+      "Studioの完成度とテンプレートの充実度はSynthesiaやHeyGenに劣る",
+      "ウォーターマークと短いトライアルで無料での十分な評価がしづらい"
+    ],
+    "es": [
+      "Los avatares basados en foto solo muestran movimiento de cabeza y hombros, sin presencia de cuerpo completo",
+      "Los planes por créditos pueden agotarse rápido con traducción de video y voces premium",
+      "El acabado del Studio y la profundidad de plantillas van detrás de Synthesia y HeyGen",
+      "La marca de agua y la prueba corta dificultan una evaluación gratuita a fondo"
+    ],
+    "fr": [
+      "Les avatars issus de photos ne montrent que la tête et les épaules — pas de présence en pied",
+      "Les forfaits à crédits s'épuisent vite avec la traduction vidéo et les voix premium",
+      "Le fini du Studio et la profondeur des modèles restent derrière Synthesia et HeyGen",
+      "Le filigrane et l'essai court compliquent une évaluation gratuite approfondie"
+    ]
+  },
+  "latestUpdate": {
+    "en": "2026: D-ID shipped V4 Expressive Visual Agents — real-time avatars with richer facial expression that connect to any LLM for live, face-to-face conversation, available across all plans from $5.9/month. The API line (Build from ~$18/month, Launch $35/month) keeps powering kiosks, apps and enterprise assistants.",
+    "zh": "2026 年：D-ID 发布 V4 表达型视觉 Agent——表情更丰富的实时数字人，可接入任意 LLM 进行面对面实时对话，$5.9/月起全档位可用。API 产品线（Build 约 $18/月起、Launch $35/月）持续驱动自助终端、应用与企业助手。",
+    "ja": "2026年：D-IDはV4表現型ビジュアルエージェントをリリース——より豊かな表情のリアルタイムアバターが任意のLLMと接続し、対面のライブ会話を実現。月$5.9からの全プランで利用可能。APIライン（Buildは月約$18から、Launchは月$35）はキオスク・アプリ・企業アシスタントを支え続ける。",
+    "es": "2026: D-ID lanzó los Agentes Visuales Expresivos V4: avatares en tiempo real con expresión facial más rica que se conectan a cualquier LLM para conversación cara a cara en vivo, disponibles en todos los planes desde $5.9/mes. La línea API (Build desde ~$18/mes, Launch $35/mes) sigue impulsando kioscos, apps y asistentes empresariales.",
+    "fr": "2026 : D-ID a lancé les agents visuels expressifs V4 — des avatars en temps réel à l'expression faciale plus riche, connectés à n'importe quel LLM pour une conversation en face à face en direct, disponibles sur tous les forfaits dès 5,9 $/mois. La gamme API (Build dès ~18 $/mois, Launch 35 $/mois) continue d'alimenter bornes, apps et assistants d'entreprise."
+  },
+  "verdict": {
+    "badge": "Worth Trying",
+    "headline": {
+      "en": "The photo-to-presence pioneer, now betting everything on real-time agents",
+      "zh": "照片变真人的先驱，如今把筹码全押在实时 Agent 上",
+      "ja": "写真から存在感を生む先駆者、いまリアルタイムエージェントに全賭け",
+      "es": "El pionero de foto a presencia, ahora apostando todo a los agentes en tiempo real",
+      "fr": "Le pionnier de la photo animée, qui mise désormais tout sur les agents temps réel"
+    },
+    "body": {
+      "en": "D-ID's party trick — making any photo speak — is still the fastest route from zero to talking avatar, and at $5.9/month it is the cheapest credible entry into the category. But the more interesting story is the pivot: V4 Expressive Visual Agents turn those faces into real-time conversational front-ends for any LLM, and D-ID's API has quietly become the plumbing behind kiosks, banking assistants and customer-facing bots. That developer DNA is the company's real moat; the consumer studio, by contrast, feels a step behind Synthesia's polish and HeyGen's creator energy, and photo-driven avatars will always be head-and-shoulders performers rather than full-body presenters. Credits also burn faster than newcomers expect once video translation and premium voices enter the mix. The pragmatic read: if you need scripted corporate video at scale, Synthesia remains the safer default; if you want an interactive face on your product — a greeter, tutor or support agent that talks back in real time — D-ID is one of the most production-ready ways to build it, at a price that invites experimentation.",
+      "zh": "D-ID 的看家本领——让任何照片开口说话——依然是从零到说话数字人的最快路径，$5.9/月的入门价也是这个品类里最便宜的可信选项。但更有意思的是它的转向：V4 表达型视觉 Agent 把这些面孔变成了任意 LLM 的实时对话前端，D-ID 的 API 已悄悄成为自助终端、银行助手与客服机器人背后的管线。这种开发者基因才是公司真正的护城河；相较之下，面向消费者的 Studio 在精致度上落后 Synthesia 一步、在创作者活力上不及 HeyGen，而且照片驱动的数字人永远只是「头肩演员」，做不了全身呈现。一旦用上视频翻译与高级配音，额度的消耗也比新手预期的快。务实的结论是：如果你要的是规模化的脚本化企业视频，Synthesia 仍是更稳的默认；但如果你想给产品装上一张能实时回话的脸——迎宾员、导师或客服 Agent——D-ID 是最接近生产可用的构建方式之一，而且价格足够友好，值得一试。",
+      "ja": "D-IDの十八番——どんな写真でも喋らせる——は、ゼロから話すアバターへの最速ルートであり続けており、月$5.9という入門価格はこのカテゴリで最も安い信頼できる選択肢だ。しかしより興味深いのはその転換である。V4表現型ビジュアルエージェントはそれらの顔を任意のLLMのリアルタイム対話フロントエンドに変え、D-IDのAPIはキオスク、銀行アシスタント、顧客対応ボットの裏側の配管に静かになった。この開発者DNAこそが同社の真の堀だ。対照的にコンシューマ向けStudioはSynthesiaの完成度に一歩譲り、HeyGenのクリエイターの熱気にも及ばない。写真駆動のアバターは常に「頭と肩の演者」であり、全身プレゼンターにはなれない。動画翻訳とプレミアム音声を使い始めると、クレジットは新規ユーザーの想定より速く燃える。実務的な結論：スクリプト型の企業動画を大規模に作るならSynthesiaがなお安全な既定解。だが製品にリアルタイムで話し返す顔——受付係、チューター、サポートエージェント——を付けたいなら、D-IDは最も本番投入に近い構築手段のひとつであり、実験を誘う価格でもある。",
+      "es": "El truco estrella de D-ID —hacer hablar cualquier foto— sigue siendo la ruta más rápida de cero a avatar parlante, y a $5.9/mes es la entrada creíble más barata de la categoría. Pero la historia más interesante es el giro: los Agentes Visuales Expresivos V4 convierten esos rostros en interfaces conversacionales en tiempo real para cualquier LLM, y la API de D-ID se ha convertido en silencio en la fontanería detrás de kioscos, asistentes bancarios y bots de atención. Ese ADN de desarrollador es el verdadero foso de la empresa; el estudio de consumo, en cambio, va un paso por detrás del acabado de Synthesia y de la energía creadora de HeyGen, y los avatares basados en foto siempre serán intérpretes de cabeza y hombros, no presentadores de cuerpo entero. Los créditos también se queman más rápido de lo esperado cuando entran la traducción de video y las voces premium. La lectura pragmática: si necesitas video corporativo guionado a escala, Synthesia sigue siendo el valor seguro; si quieres una cara interactiva en tu producto —un recepcionista, tutor o agente de soporte que responda en tiempo real—, D-ID es una de las formas más listas para producción de construirla, a un precio que invita a experimentar.",
+      "fr": "Le tour de force de D-ID — faire parler n'importe quelle photo — reste le chemin le plus rapide de zéro à l'avatar parlant, et à 5,9 $/mois c'est l'entrée crédible la moins chère de la catégorie. Mais l'histoire la plus intéressante est le pivot : les agents visuels expressifs V4 transforment ces visages en interfaces conversationnelles temps réel pour n'importe quel LLM, et l'API de D-ID est discrètement devenue la tuyauterie derrière bornes, assistants bancaires et bots de relation client. Cet ADN développeur est la vraie douve de l'entreprise ; le studio grand public, lui, reste un cran derrière le fini de Synthesia et l'énergie créative de HeyGen, et les avatars issus de photos resteront toujours des interprètes en buste, jamais des présentateurs en pied. Les crédits fondent aussi plus vite que prévu dès que traduction vidéo et voix premium s'en mêlent. Lecture pragmatique : pour de la vidéo d'entreprise scénarisée à grande échelle, Synthesia reste le choix sûr ; pour donner à votre produit un visage interactif — accueil, tuteur ou agent de support qui répond en temps réel — D-ID est l'un des moyens les plus proches de la production pour le construire, à un prix qui invite à l'expérimentation."
+    },
+    "bestFor": {
+      "en": [
+        "Developers embedding real-time talking avatars into apps, kiosks and assistants",
+        "Creators animating portraits or mascots on a small budget",
+        "Teams localizing spokesperson videos with voice cloning and lip-sync"
+      ],
+      "zh": [
+        "要把实时说话数字人嵌入应用、终端与助手的开发者",
+        "预算有限、想让人像或吉祥物动起来的创作者",
+        "用声音克隆与口型同步本地化代言视频的团队"
+      ],
+      "ja": [
+        "アプリ・キオスク・アシスタントにリアルタイム対話アバターを組み込む開発者",
+        "少ない予算でポートレートやマスコットを動かしたいクリエイター",
+        "音声クローンとリップシンクでスポークスパーソン動画をローカライズするチーム"
+      ],
+      "es": [
+        "Desarrolladores que integran avatares parlantes en tiempo real en apps, kioscos y asistentes",
+        "Creadores que animan retratos o mascotas con poco presupuesto",
+        "Equipos que localizan videos de portavoces con clonación de voz y sincronización labial"
+      ],
+      "fr": [
+        "Développeurs intégrant des avatars parlants en temps réel dans apps, bornes et assistants",
+        "Créateurs animant portraits ou mascottes avec un petit budget",
+        "Équipes localisant des vidéos de porte-parole avec clonage de voix et synchro labiale"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You need polished, studio-grade corporate video at scale (→ Synthesia / HeyGen)",
+        "You want fully API-first conversational video with custom replicas (→ Tavus)"
+      ],
+      "zh": [
+        "你需要规模化、精良的 Studio 级企业视频（→ Synthesia / HeyGen）",
+        "你想要彻底 API 优先、带定制分身的对话视频（→ Tavus）"
+      ],
+      "ja": [
+        "洗練されたスタジオ級の企業動画を大規模に作りたい（→ Synthesia / HeyGen）",
+        "カスタムレプリカ付きの完全API主導な対話ビデオが欲しい（→ Tavus）"
+      ],
+      "es": [
+        "Necesitas video corporativo pulido de nivel estudio a escala (→ Synthesia / HeyGen)",
+        "Quieres video conversacional totalmente API-first con réplicas personalizadas (→ Tavus)"
+      ],
+      "fr": [
+        "Vous avez besoin de vidéo d'entreprise soignée de niveau studio à grande échelle (→ Synthesia / HeyGen)",
+        "Vous voulez de la vidéo conversationnelle entièrement API-first avec des répliques personnalisées (→ Tavus)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-28",
+    "verdictDate": "2026-07-28",
+    "pricingVerified": "2026-07-28",
+    "pricingUrl": "https://www.d-id.com/pricing/"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "grammarly",
+  "name": "Grammarly",
+  "nameZh": "Grammarly",
+  "description": "AI 写作助手行业标杆，跨 50 万+ 应用实时纠错、改写与语气调整，母公司 2025 年更名 Superhuman 并整合 Coda 文档与 Superhuman Mail 组成办公套件，免费档每月 100 次 AI 提示，Pro 年付 $12/月",
+  "descriptionEn": "The industry-standard AI writing assistant: real-time grammar, rewriting and tone fixes across 500K+ apps and sites; parent company rebranded to Superhuman in 2025, folding in Coda docs and Superhuman Mail as a productivity suite — free tier with 100 AI prompts a month, Pro from $12/month billed annually",
+  "descriptionJa": "業界標準のAIライティングアシスタント。50万超のアプリとサイトでリアルタイムに文法修正・書き換え・トーン調整。親会社は2025年にSuperhumanへ社名変更し、CodaドキュメントとSuperhuman Mailを統合した生産性スイートに。無料枠は月100回のAIプロンプト、Proは年払いで月$12",
+  "descriptionEs": "El asistente de escritura con IA estándar del sector: corrección gramatical, reescritura y ajuste de tono en tiempo real en más de 500 000 apps y sitios; la matriz se renombró Superhuman en 2025, integrando Coda y Superhuman Mail como suite de productividad — nivel gratuito con 100 prompts de IA al mes, Pro desde $12/mes con pago anual",
+  "descriptionFr": "L'assistant d'écriture IA de référence : correction grammaticale, réécriture et ajustement du ton en temps réel sur plus de 500 000 apps et sites ; la maison mère s'est renommée Superhuman en 2025, intégrant Coda et Superhuman Mail en suite de productivité — offre gratuite avec 100 prompts IA par mois, Pro dès 12 $/mois en facturation annuelle",
+  "url": "https://www.grammarly.com",
+  "logo": "/logos/tools/grammarly.png",
+  "category": "Writing",
+  "tags": [
+    "Freemium",
+    "API"
+  ],
+  "featured": false,
+  "developer": "Superhuman (formerly Grammarly)",
+  "platforms": {
+    "web": true,
+    "windows": true,
+    "macos": true,
+    "ios": true,
+    "android": true,
+    "linux": false,
+    "browser_extension": true,
+    "api": true
+  }
+}

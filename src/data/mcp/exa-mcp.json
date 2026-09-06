@@ -1,0 +1,78 @@
+{
+  "slug": "exa-mcp",
+  "name": "Exa MCP",
+  "nameZh": "Exa MCP",
+  "description": "Exa 官方 MCP 服务器，为 AI 智能体提供实时 Web 搜索、网页内容抓取、公司研究与论文检索等能力，基于专为 AI 优化的神经搜索引擎，返回适合大模型消费的干净结果。",
+  "descriptionEn": "Exa's official MCP server gives AI agents real-time web search, page content crawling, company research and paper lookup, powered by an AI-optimized neural search engine that returns clean, LLM-ready results.",
+  "descriptionJa": "Exa 公式の MCP サーバー。AI 向けに最適化されたニューラル検索エンジンを基盤に、AI エージェントへリアルタイム Web 検索、ページ内容の取得、企業リサーチ、論文検索などを提供し、LLM が扱いやすいクリーンな結果を返します。",
+  "descriptionEs": "El servidor MCP oficial de Exa da a los agentes de IA búsqueda web en tiempo real, rastreo de contenido de páginas, investigación de empresas y búsqueda de artículos, impulsado por un motor de búsqueda neuronal optimizado para IA que devuelve resultados limpios y listos para LLM.",
+  "descriptionFr": "Le serveur MCP officiel d'Exa offre aux agents IA la recherche web en temps réel, l'extraction de contenu de pages, la recherche d'entreprises et d'articles, propulsé par un moteur de recherche neuronal optimisé pour l'IA qui renvoie des résultats propres et prêts pour les LLM.",
+  "developer": "Exa",
+  "developerZh": "Exa",
+  "repo": "exa-labs/exa-mcp-server",
+  "clients": [
+    "claude",
+    "cursor",
+    "vscode",
+    "generic"
+  ],
+  "category": "Search",
+  "tags": [
+    "Free",
+    "Open Source"
+  ],
+  "installCommand": "npx -y exa-mcp-server",
+  "logo": "/logos/mcp/exa-mcp.png",
+  "stars": 4967,
+  "featured": false,
+  "faqs": [
+    {
+      "question": {
+        "zh": "Exa MCP 和普通搜索引擎有什么不同？",
+        "en": "How is Exa MCP different from a regular search engine?",
+        "ja": "Exa MCP は普通の検索エンジンとどう違いますか？",
+        "es": "¿En qué se diferencia Exa MCP de un buscador normal?",
+        "fr": "En quoi Exa MCP diffère-t-il d'un moteur de recherche classique ?"
+      },
+      "answer": {
+        "zh": "Exa 是为 AI 优化的神经搜索引擎，返回结构化、去噪后的正文内容而非一堆蓝色链接，便于大模型直接消费；MCP 让智能体实时搜网、抓取网页、做公司与论文研究，弥补训练数据的时效盲区。",
+        "en": "Exa is an AI-optimized neural search engine that returns structured, de-noised page content instead of a list of blue links, so LLMs can consume it directly; the MCP lets agents search the live web, crawl pages and do company/paper research, filling the time gap in training data.",
+        "ja": "Exa は AI 向けに最適化されたニューラル検索エンジンで、青いリンクの羅列ではなく構造化・ノイズ除去された本文を返すため、LLM が直接利用できます。MCP によりエージェントはリアルタイム検索、ページ取得、企業・論文リサーチが可能になり、学習データの時間的な空白を補います。",
+        "es": "Exa es un motor de búsqueda neuronal optimizado para IA que devuelve contenido de páginas estructurado y sin ruido en vez de una lista de enlaces, para que los LLM lo consuman directamente; el MCP permite a los agentes buscar en la web en vivo, rastrear páginas e investigar empresas/artículos, cubriendo el desfase temporal de los datos de entrenamiento.",
+        "fr": "Exa est un moteur de recherche neuronal optimisé pour l'IA qui renvoie un contenu de page structuré et débruité au lieu d'une liste de liens, exploitable directement par les LLM ; le MCP permet aux agents de rechercher sur le web en direct, d'extraire des pages et de faire des recherches d'entreprises/articles, comblant le décalage temporel des données d'entraînement."
+      }
+    },
+    {
+      "question": {
+        "zh": "怎么安装 Exa MCP？需要 API Key 吗？",
+        "en": "How do I install Exa MCP? Do I need an API key?",
+        "ja": "Exa MCP のインストール方法は？API キーは必要ですか？",
+        "es": "¿Cómo instalo Exa MCP? ¿Necesito una clave API?",
+        "fr": "Comment installer Exa MCP ? Faut-il une clé API ?"
+      },
+      "answer": {
+        "zh": "用 npx -y exa-mcp-server 运行，并在环境变量里配置从 exa.ai 获取的 EXA_API_KEY。也可用 Exa 提供的远程 MCP 端点接入，注册即可拿到带免费额度的 Key。",
+        "en": "Run npx -y exa-mcp-server and set the EXA_API_KEY (from exa.ai) as an environment variable. You can also connect via Exa's hosted remote MCP endpoint; signing up gives you a key with a free allowance.",
+        "ja": "npx -y exa-mcp-server で実行し、環境変数に exa.ai で取得した EXA_API_KEY を設定します。Exa が提供するリモート MCP エンドポイント経由でも接続でき、登録すると無料枠付きのキーが得られます。",
+        "es": "Ejecuta npx -y exa-mcp-server y define EXA_API_KEY (de exa.ai) como variable de entorno. También puedes conectarte por el endpoint MCP remoto alojado de Exa; al registrarte obtienes una clave con margen gratuito.",
+        "fr": "Lancez npx -y exa-mcp-server et définissez EXA_API_KEY (obtenue sur exa.ai) comme variable d'environnement. Vous pouvez aussi vous connecter via le point de terminaison MCP distant hébergé d'Exa ; l'inscription fournit une clé avec un quota gratuit."
+      }
+    },
+    {
+      "question": {
+        "zh": "Exa MCP 免费吗？",
+        "en": "Is Exa MCP free?",
+        "ja": "Exa MCP は無料ですか？",
+        "es": "¿Exa MCP es gratuito?",
+        "fr": "Exa MCP est-il gratuit ?"
+      },
+      "answer": {
+        "zh": "MCP 服务器开源免费，搜索能力由 Exa API 提供：注册即送免费额度，超出后按用量计费。个人试用与轻量集成通常在免费额度内即可满足。",
+        "en": "The MCP server is open source and free; the search itself is powered by the Exa API, which grants a free allowance on signup and bills by usage beyond it. Personal trials and light integrations usually stay within the free tier.",
+        "ja": "MCP サーバーはオープンソースで無料です。検索機能は Exa API が提供し、登録で無料枠が付与され、超過分は従量課金です。個人の試用や軽量な統合は通常無料枠内で収まります。",
+        "es": "El servidor MCP es de código abierto y gratuito; la búsqueda la impulsa la API de Exa, que otorga un margen gratuito al registrarte y cobra por uso más allá. Las pruebas personales e integraciones ligeras suelen caber en el nivel gratuito.",
+        "fr": "Le serveur MCP est open source et gratuit ; la recherche est propulsée par l'API Exa, qui accorde un quota gratuit à l'inscription et facture à l'usage au-delà. Les essais personnels et intégrations légères tiennent généralement dans l'offre gratuite."
+      }
+    }
+  ]
+}

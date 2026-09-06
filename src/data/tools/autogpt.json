@@ -1,0 +1,29 @@
+{
+  "slug": "autogpt",
+  "name": "AutoGPT",
+  "nameZh": "AutoGPT",
+  "description": "早期自主 Agent 现象级项目，现转型为低代码 AI Agent 工作流平台（AutoGPT Platform）",
+  "descriptionEn": "The early autonomous-agent phenomenon, now rebuilt as a low-code AI agent workflow platform (AutoGPT Platform)",
+  "descriptionJa": "初期の自律エージェント現象級プロジェクト。現在はローコードのAIエージェントワークフロー基盤（AutoGPT Platform）へ再構築",
+  "descriptionEs": "El fenómeno pionero de agentes autónomos, hoy reconstruido como plataforma low-code de flujos de agentes IA (AutoGPT Platform)",
+  "descriptionFr": "Le phénomène pionnier des agents autonomes, reconstruit en plateforme low-code de workflows d'agents IA (AutoGPT Platform)",
+  "url": "https://agpt.co",
+  "logo": "/logos/tools/autogpt.png",
+  "category": "Agent",
+  "tags": [
+    "Free",
+    "Open Source"
+  ],
+  "featured": false,
+  "developer": "Significant Gravitas",
+  "platforms": {
+    "web": true,
+    "windows": false,
+    "macos": false,
+    "ios": false,
+    "android": false,
+    "linux": true,
+    "browser_extension": false,
+    "api": "unknown"
+  }
+}

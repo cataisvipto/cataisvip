@@ -1,0 +1,30 @@
+{
+  "slug": "nvidia-nemotron",
+  "name": "NVIDIA Nemotron",
+  "nameZh": "NVIDIA Nemotron",
+  "description": "NVIDIA 开放模型家族，权重、训练数据与配方全开放，专为智能体优化，可通过 build.nvidia.com 在线试用 NIM API",
+  "descriptionEn": "NVIDIA's open model family with open weights, training data and recipes, optimized for agentic AI, with free NIM API playground at build.nvidia.com",
+  "descriptionJa": "NVIDIAのオープンモデルファミリー。重み・学習データ・レシピを公開、エージェントAI向けに最適化、build.nvidia.comでNIM APIを無料試用可能",
+  "descriptionEs": "Familia de modelos abiertos de NVIDIA con pesos, datos de entrenamiento y recetas abiertos, optimizada para IA agéntica, con playground gratuito NIM API en build.nvidia.com",
+  "descriptionFr": "Famille de modèles ouverts de NVIDIA avec poids, données d'entraînement et recettes ouverts, optimisée pour l'IA agentique, avec playground NIM API gratuit sur build.nvidia.com",
+  "url": "https://www.nvidia.com/en-us/ai-data-science/foundation-models/nemotron/",
+  "logo": "/logos/tools/nvidia-nemotron.png",
+  "category": "Foundation Models",
+  "tags": [
+    "Free",
+    "Open Source",
+    "API"
+  ],
+  "featured": false,
+  "developer": "NVIDIA",
+  "platforms": {
+    "web": true,
+    "windows": true,
+    "macos": true,
+    "ios": false,
+    "android": false,
+    "linux": true,
+    "browser_extension": false,
+    "api": true
+  }
+}

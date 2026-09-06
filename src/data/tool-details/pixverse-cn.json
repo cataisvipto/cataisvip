@@ -1,0 +1,235 @@
+{
+  "features": {
+    "en": [
+      "China edition of PixVerse at pai.video — no VPN required, sign in with a Chinese phone number",
+      "Same V6 model line: text-to-video and image-to-video with multi-shot storytelling and camera control",
+      "Smart lip-sync turns portraits into talking videos with synced mouths",
+      "Cinematic camera-move presets and a rich library of localized effect templates",
+      "Web and mobile apps launch in sync, with an open platform (platform.pai.video) for developers",
+      "Free daily credits to start, with RMB-priced membership plans for heavier use"
+    ],
+    "zh": [
+      "PixVerse 国内版，官网 pai.video——无需 VPN，国内手机号即可登录",
+      "同源 V6 模型线：文生视频与图生视频，支持多镜头叙事与运镜控制",
+      "智能对口型让人像照片变成口型同步的说话视频",
+      "电影级运镜预设与丰富的本土化特效模板库",
+      "网页端与 App 同步上线，另有面向开发者的开放平台（platform.pai.video）",
+      "免费每日积分起步，重度使用可选人民币计价的会员套餐"
+    ],
+    "ja": [
+      "PixVerseの中国版（pai.video）——VPN不要、中国の電話番号でログイン",
+      "同じV6モデル系列：テキスト/画像からの動画生成、マルチショット構成とカメラ制御に対応",
+      "スマートリップシンクで人物写真を口の動きが同期した話す動画に",
+      "映画級カメラワークのプリセットとローカライズされたエフェクトテンプレートが豊富",
+      "Web版とアプリ版を同時提供、開発者向けオープンプラットフォーム（platform.pai.video）も用意",
+      "無料の毎日クレジットで開始でき、ヘビーユースには人民元建ての会員プラン"
+    ],
+    "es": [
+      "Edición china de PixVerse en pai.video: sin VPN, con inicio de sesión mediante número de teléfono chino",
+      "La misma línea de modelos V6: texto-a-video e imagen-a-video con narrativa multi-toma y control de cámara",
+      "La sincronización labial inteligente convierte retratos en videos hablados",
+      "Preajustes de movimientos de cámara cinematográficos y una rica biblioteca de plantillas localizadas",
+      "Apps web y móviles lanzadas en sincronía, con una plataforma abierta (platform.pai.video) para desarrolladores",
+      "Créditos diarios gratis para empezar, con planes de membresía en RMB para uso intensivo"
+    ],
+    "fr": [
+      "Édition chinoise de PixVerse sur pai.video — sans VPN, connexion avec un numéro de téléphone chinois",
+      "La même gamme de modèles V6 : texte-vidéo et image-vidéo avec narration multi-plans et contrôle de caméra",
+      "La synchronisation labiale intelligente transforme les portraits en vidéos parlantes",
+      "Préréglages de mouvements de caméra cinématographiques et riche bibliothèque de modèles localisés",
+      "Apps web et mobiles lancées en parallèle, avec une plateforme ouverte (platform.pai.video) pour les développeurs",
+      "Des crédits quotidiens gratuits pour commencer, avec des abonnements en RMB pour un usage intensif"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Free to start: registration grants credits and a daily free allowance for generation, with watermarked output at standard queue priority — no payment or VPN needed.",
+      "zh": "免费起步：注册即送积分并有每日免费额度可用于生成，输出带水印、普通优先级排队——无需付费也无需 VPN。",
+      "ja": "無料で開始：登録でクレジットが付与され、毎日の無料枠で生成可能。出力はウォーターマーク付き・標準優先度キュー——支払いもVPNも不要。",
+      "es": "Gratis para empezar: el registro otorga créditos y una asignación diaria gratuita para generar, con salida con marca de agua y prioridad estándar; sin pago ni VPN.",
+      "fr": "Gratuit pour commencer : l'inscription offre des crédits et une allocation quotidienne gratuite pour générer, avec sortie filigranée en priorité standard — sans paiement ni VPN."
+    },
+    "paid": {
+      "en": "Paid membership is RMB-priced and sold as monthly/yearly subscriptions inside the web app and mobile apps, unlocking more credits, watermark removal and faster queues; an open platform offers usage-based API billing for developers. Plan names and exact prices are shown after login and adjust with promotions. (Verified against the official site, 2026-07-28.)",
+      "zh": "付费会员按人民币计价，在网页端与 App 内以月度/年度订阅形式提供，解锁更多积分、去水印与加速排队；开放平台面向开发者提供按量计费 API。具体档位与价格登录后展示，且随活动调整。（对照官网核实，2026-07-28。）",
+      "ja": "有料会員は人民元建てで、Web版とアプリ内の月額/年額サブスクリプションとして提供。クレジット増量、ウォーターマーク除去、高速キューを解放。オープンプラットフォームでは開発者向けに従量課金APIを提供。プラン名と正確な価格はログイン後に表示され、キャンペーンにより変動。（公式サイトと照合、2026-07-28。）",
+      "es": "La membresía de pago tiene precio en RMB y se vende como suscripción mensual/anual dentro de la app web y las apps móviles, desbloqueando más créditos, eliminación de marca de agua y colas más rápidas; una plataforma abierta ofrece API de pago por uso para desarrolladores. Los nombres de los planes y los precios exactos se muestran tras iniciar sesión y varían con promociones. (Verificado con el sitio oficial, 2026-07-28.)",
+      "fr": "L'abonnement payant est facturé en RMB, sous forme de souscriptions mensuelles/annuelles dans l'app web et les apps mobiles, débloquant plus de crédits, la suppression du filigrane et des files plus rapides ; une plateforme ouverte propose une API à l'usage pour les développeurs. Les noms des offres et les prix exacts s'affichent après connexion et varient selon les promotions. (Vérifié avec le site officiel, 2026-07-28.)"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Chinese users who want PixVerse's template magic without a VPN",
+      "Making portraits speak with lip-sync for greetings, memes and marketing clips",
+      "Short-form creators on Douyin/Xiaohongshu pumping out effect-driven videos",
+      "Domestic developers integrating video generation via the open platform API"
+    ],
+    "zh": [
+      "想不开 VPN 直接用上 PixVerse 模板魔法的国内用户",
+      "用对口型让人像开口说话，制作祝福、梗图与营销短片",
+      "抖音/小红书短视频创作者批量产出特效驱动的视频",
+      "国内开发者通过开放平台 API 接入视频生成"
+    ],
+    "ja": [
+      "VPNなしでPixVerseのテンプレート機能を使いたい中国のユーザー",
+      "リップシンクで人物写真を喋らせ、挨拶・ミーム・マーケ動画を制作",
+      "抖音/小紅書でエフェクト主導の動画を量産するショート動画クリエイター",
+      "オープンプラットフォームAPIで動画生成を組み込む中国国内の開発者"
+    ],
+    "es": [
+      "Usuarios en China que quieren la magia de plantillas de PixVerse sin VPN",
+      "Hacer hablar retratos con sincronización labial para felicitaciones, memes y clips de marketing",
+      "Creadores de video corto en Douyin/Xiaohongshu que producen videos con efectos en serie",
+      "Desarrolladores locales que integran generación de video vía la API de la plataforma abierta"
+    ],
+    "fr": [
+      "Utilisateurs en Chine voulant la magie des modèles PixVerse sans VPN",
+      "Faire parler des portraits avec la synchronisation labiale pour vœux, mèmes et clips marketing",
+      "Créateurs de vidéos courtes sur Douyin/Xiaohongshu produisant des vidéos à effets en série",
+      "Développeurs locaux intégrant la génération vidéo via l'API de la plateforme ouverte"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Full PixVerse capability — V6, lip-sync, templates — with no VPN and local login",
+      "Free to start with a real daily allowance, in RMB when you do pay",
+      "Web and apps ship in sync, plus an open platform for domestic developers",
+      "Backed by AIsphere's fast model cadence shared with the international edition"
+    ],
+    "zh": [
+      "完整的 PixVerse 能力——V6、对口型、模板——免 VPN、本土登录",
+      "免费起步且有真实每日额度，付费也是人民币结算",
+      "网页与 App 同步上线，另有面向国内开发者的开放平台",
+      "共享国际版的模型迭代节奏，背靠爱诗科技快速更新"
+    ],
+    "ja": [
+      "V6、リップシンク、テンプレートなどPixVerseの全機能をVPNなし・現地ログインで",
+      "無料で始められ本物の毎日枠があり、支払いも人民元建て",
+      "Web版とアプリ版が同時展開、国内開発者向けオープンプラットフォームも",
+      "国際版と共通の速いモデル更新サイクルをAIsphereが支える"
+    ],
+    "es": [
+      "Toda la capacidad de PixVerse —V6, sincronización labial, plantillas— sin VPN y con inicio de sesión local",
+      "Gratis para empezar con una asignación diaria real, y en RMB cuando pagas",
+      "Web y apps se lanzan en sincronía, más una plataforma abierta para desarrolladores locales",
+      "Respaldada por la rápida cadencia de modelos de AIsphere compartida con la edición internacional"
+    ],
+    "fr": [
+      "Toute la puissance de PixVerse — V6, synchronisation labiale, modèles — sans VPN et avec connexion locale",
+      "Gratuit pour commencer avec une vraie allocation quotidienne, et paiement en RMB",
+      "Web et apps lancés en parallèle, plus une plateforme ouverte pour les développeurs locaux",
+      "Soutenue par la cadence rapide de modèles d'AIsphere, partagée avec l'édition internationale"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Newer than the international edition (launched mid-2025), so features can lag slightly",
+      "Pricing tiers are only visible after login and shift with promotions",
+      "Content moderation is stricter than the international edition",
+      "Same core limits as PixVerse: watermarked free output and fast credit burn at 1080p"
+    ],
+    "zh": [
+      "比国际版更年轻（2025 年中上线），功能偶有小幅滞后",
+      "价格档位需登录后才可见，且随活动变动",
+      "内容审核比国际版更严格",
+      "与 PixVerse 同样的核心限制：免费输出带水印、1080p 积分消耗快"
+    ],
+    "ja": [
+      "国際版より新しく（2025年半ばに開始）、機能がやや遅れることがある",
+      "料金プランはログイン後にのみ表示され、キャンペーンで変動する",
+      "コンテンツ審査は国際版より厳しい",
+      "PixVerseと同じ基本的制約：無料出力のウォーターマークと1080pでの速いクレジット消費"
+    ],
+    "es": [
+      "Más nueva que la edición internacional (lanzada a mediados de 2025), por lo que las funciones pueden llegar con algo de retraso",
+      "Los niveles de precios solo se ven tras iniciar sesión y cambian con promociones",
+      "La moderación de contenido es más estricta que en la edición internacional",
+      "Los mismos límites de PixVerse: salida gratuita con marca de agua y consumo rápido de créditos en 1080p"
+    ],
+    "fr": [
+      "Plus récente que l'édition internationale (lancée mi-2025), les fonctionnalités peuvent donc accuser un léger retard",
+      "Les paliers tarifaires ne sont visibles qu'après connexion et varient selon les promotions",
+      "La modération des contenus est plus stricte que sur l'édition internationale",
+      "Les mêmes limites que PixVerse : sortie gratuite filigranée et crédits vite consommés en 1080p"
+    ]
+  },
+  "latestUpdate": {
+    "en": "2026: Paiwo AI catches up to the international flagship as V6 goes live in China, bringing multi-shot storytelling, cinematic camera moves and smart lip-sync to the domestic edition. The open platform at platform.pai.video opens API access to Chinese developers, and web and mobile apps continue to ship feature updates in sync.",
+    "zh": "2026 年：随着 V6 在国内上线，拍我AI 追平国际旗舰——多镜头叙事、电影级运镜与智能对口型悉数登陆国内版。开放平台 platform.pai.video 向国内开发者开放 API，网页端与 App 持续同步更新功能。",
+    "ja": "2026年：V6が中国で稼働し、拍我AIは国際版フラッグシップに追いつく——マルチショット構成、映画級カメラワーク、スマートリップシンクが中国版に到来。オープンプラットフォームplatform.pai.videoが中国の開発者にAPIを開放し、Web版とアプリ版は機能更新を同期して提供し続ける。",
+    "es": "2026: Paiwo AI alcanza al buque insignia internacional con la llegada de V6 a China, trayendo narrativa multi-toma, movimientos de cámara cinematográficos y sincronización labial inteligente a la edición nacional. La plataforma abierta platform.pai.video abre el acceso API a los desarrolladores chinos, y las apps web y móviles siguen actualizándose en sincronía.",
+    "fr": "2026 : Paiwo AI rattrape le vaisseau amiral international avec l'arrivée de V6 en Chine, apportant la narration multi-plans, les mouvements de caméra cinématographiques et la synchronisation labiale intelligente à l'édition nationale. La plateforme ouverte platform.pai.video ouvre l'accès API aux développeurs chinois, et les apps web et mobiles continuent de recevoir les mises à jour en parallèle."
+  },
+  "verdict": {
+    "badge": "Worth Trying",
+    "headline": {
+      "en": "PixVerse's template magic, minus the VPN — the easiest AI video start in China",
+      "zh": "PixVerse 的模板魔法，免掉 VPN——国内最容易的 AI 视频起点",
+      "ja": "PixVerseのテンプレートの魔法をVPNなしで——中国で最も簡単なAI動画の始め方",
+      "es": "La magia de plantillas de PixVerse, sin VPN: el inicio más fácil en video IA dentro de China",
+      "fr": "La magie des modèles PixVerse, sans VPN — le départ le plus facile en vidéo IA en Chine"
+    },
+    "body": {
+      "en": "Paiwo AI is the answer to a simple question: what if PixVerse just worked in China? Launched in mid-2025 at pai.video, it brings the same stack that carried the international edition past 100 million users — one-photo effect templates, smart lip-sync, and now the V6 model with multi-shot storytelling and cinematic camera moves — behind a local phone-number login with no VPN required. It is free to start with a real daily allowance, payments are in RMB, and an open platform serves domestic developers with API access. The trade-offs are what you would expect from a China edition: it is younger than the flagship so features occasionally land a beat later, content moderation is stricter, and pricing tiers only reveal themselves after login and shift with promotions — which is why we mirror the international verdict but one notch more cautious. If you are in China and curious about AI video, this is the lowest-friction way to find out what the fuss is about; power users comparing exact plan value should check prices in-app before committing.",
+      "zh": "拍我AI 回答了一个朴素的问题：如果 PixVerse 在国内能直接用会怎样？它于 2025 年中在 pai.video 上线，把带着国际版冲破一亿用户的同一套能力——一张照片套用的特效模板、智能对口型、如今还有支持多镜头叙事与电影级运镜的 V6 模型——放进了国内手机号登录、无需 VPN 的门槛之后。它免费起步且有真实的每日额度，付费用人民币结算，开放平台还为国内开发者提供 API。代价也是国内版的常见配方：它比旗舰更年轻，功能偶尔慢半拍；内容审核更严格；价格档位要登录后才可见、还随活动变动——所以我们给出与国际版一致但更谨慎一档的评级。如果你在国内、对 AI 视频好奇，这是了解「大家在玩什么」阻力最小的方式；较真套餐价值的重度用户，付费前请先在应用内核对价格。",
+      "ja": "拍我AIは素朴な問いへの答えだ：PixVerseが中国でそのまま使えたらどうなるか？2025年半ばにpai.videoで開始され、国際版をユーザー1億人超へ導いたのと同じ技術——写真1枚のエフェクトテンプレート、スマートリップシンク、そして今やマルチショット構成と映画級カメラワークのV6モデル——を、中国の電話番号ログイン・VPN不要の環境で提供する。無料で始められ本物の毎日枠があり、支払いは人民元建て、オープンプラットフォームが国内開発者にAPIを提供する。トレードオフは中国版の定番だ。旗艦版より新しいため機能がやや遅れて届くことがあり、コンテンツ審査は厳しく、料金プランはログイン後にのみ表示されキャンペーンで変動する——だから評価は国際版に準じつつ一段慎重にした。中国にいてAI動画に興味があるなら、これが話題の理由を知る最も摩擦の少ない方法だ。プランの価値を厳密に比べたいヘビーユーザーは、課金前にアプリ内で価格を確認してほしい。",
+      "es": "Paiwo AI responde a una pregunta sencilla: ¿y si PixVerse simplemente funcionara en China? Lanzada a mediados de 2025 en pai.video, trae la misma tecnología que llevó a la edición internacional más allá de los 100 millones de usuarios —plantillas de efectos con una foto, sincronización labial inteligente y ahora el modelo V6 con narrativa multi-toma y movimientos de cámara cinematográficos— tras un inicio de sesión con número local y sin VPN. Es gratis para empezar con una asignación diaria real, los pagos son en RMB y una plataforma abierta ofrece API a los desarrolladores locales. Las contrapartidas son las esperables de una edición china: es más joven que el buque insignia y las funciones a veces llegan un compás después, la moderación es más estricta y los precios solo se ven tras iniciar sesión y cambian con promociones; por eso reflejamos el veredicto internacional pero un punto más cautos. Si estás en China y sientes curiosidad por el video IA, esta es la vía de menor fricción para descubrir de qué va el revuelo; los usuarios avanzados deberían comprobar los precios en la app antes de pagar.",
+      "fr": "Paiwo AI répond à une question simple : et si PixVerse fonctionnait tout simplement en Chine ? Lancée mi-2025 sur pai.video, elle apporte la même technologie qui a porté l'édition internationale au-delà des 100 millions d'utilisateurs — modèles d'effets à partir d'une photo, synchronisation labiale intelligente, et désormais le modèle V6 avec narration multi-plans et mouvements de caméra cinématographiques — derrière une connexion par numéro local, sans VPN. C'est gratuit pour commencer avec une vraie allocation quotidienne, les paiements se font en RMB, et une plateforme ouverte offre l'API aux développeurs locaux. Les contreparties sont celles qu'on attend d'une édition chinoise : plus jeune que le vaisseau amiral, elle reçoit parfois les fonctionnalités avec un temps de retard, la modération est plus stricte, et les tarifs ne s'affichent qu'après connexion et varient selon les promotions — d'où un verdict aligné sur l'international mais un cran plus prudent. Si vous êtes en Chine et curieux de la vidéo IA, c'est la voie la moins contraignante pour comprendre l'engouement ; les utilisateurs exigeants devraient vérifier les prix dans l'app avant de s'engager."
+    },
+    "bestFor": {
+      "en": [
+        "Users in China who want PixVerse without a VPN or foreign payment",
+        "Douyin/Xiaohongshu creators making effect-driven short videos",
+        "Domestic developers needing video generation via a local API platform"
+      ],
+      "zh": [
+        "想免 VPN、免外币支付直接用 PixVerse 的国内用户",
+        "制作特效驱动短视频的抖音/小红书创作者",
+        "需要通过本土 API 平台接入视频生成的国内开发者"
+      ],
+      "ja": [
+        "VPNや海外決済なしでPixVerseを使いたい中国のユーザー",
+        "エフェクト主導のショート動画を作る抖音/小紅書クリエイター",
+        "ローカルAPIプラットフォーム経由で動画生成が必要な中国国内の開発者"
+      ],
+      "es": [
+        "Usuarios en China que quieren PixVerse sin VPN ni pagos extranjeros",
+        "Creadores de Douyin/Xiaohongshu que hacen videos cortos con efectos",
+        "Desarrolladores locales que necesitan generación de video vía una plataforma API nacional"
+      ],
+      "fr": [
+        "Utilisateurs en Chine voulant PixVerse sans VPN ni paiement étranger",
+        "Créateurs Douyin/Xiaohongshu réalisant des vidéos courtes à effets",
+        "Développeurs locaux ayant besoin de génération vidéo via une plateforme API nationale"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You can use a VPN and want the earliest access to new features (→ PixVerse international)",
+        "Your clips center on physically realistic human motion (→ Hailuo AI)"
+      ],
+      "zh": [
+        "你能用 VPN 且想最早用上新功能（→ PixVerse 国际版）",
+        "你的片段以物理真实的人物动作为核心（→ 海螺AI）"
+      ],
+      "ja": [
+        "VPNが使えて新機能へ最速でアクセスしたい（→ PixVerse国際版）",
+        "物理的にリアルな人物の動きが主役のクリップ（→ Hailuo AI）"
+      ],
+      "es": [
+        "Puedes usar VPN y quieres acceso anticipado a novedades (→ PixVerse internacional)",
+        "Tus clips giran en torno al movimiento humano físicamente realista (→ Hailuo AI)"
+      ],
+      "fr": [
+        "Vous pouvez utiliser un VPN et voulez accéder au plus tôt aux nouveautés (→ PixVerse international)",
+        "Vos clips reposent sur des mouvements humains physiquement réalistes (→ Hailuo AI)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-28",
+    "verdictDate": "2026-07-28",
+    "pricingVerified": "2026-07-28",
+    "pricingUrl": "https://pai.video"
+  }
+}

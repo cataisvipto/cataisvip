@@ -4,7 +4,7 @@ import { useTranslations, useLocale } from 'next-intl';
 import { Link } from '@/i18n/navigation';
 import { ArrowRight, Bot } from 'lucide-react';
 import LogoTile from '@/components/LogoTile';
-import tools from '@/data/tools.json';
+import { tools } from '@/data/aggregated';
 import { Tool, PLATFORM_META, getLocalizedDescription } from './ToolCard';
 
 export default function FeaturedAgents() {

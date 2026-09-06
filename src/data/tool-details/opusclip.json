@@ -1,0 +1,235 @@
+{
+  "features": {
+    "en": [
+      "AI clipping finds highlight moments and scores their viral potential",
+      "ClipAnything works on any genre — vlogs, sports, podcasts, gaming",
+      "Animated captions and AI Reframe keep speakers centered in 9:16",
+      "Agent Opus generates AI B-roll to enrich talking-head clips",
+      "OpusSearch mines your back catalog for repostable moments",
+      "Multi-platform scheduling plus an API for automation"
+    ],
+    "zh": [
+      "AI 切片找出高光时刻并给出爆款潜力分",
+      "ClipAnything 通吃所有题材——vlog、体育、播客、游戏",
+      "动态字幕与 AI Reframe 让人物在 9:16 里始终居中",
+      "Agent Opus 生成 AI B-roll 丰富口播切片",
+      "OpusSearch 从历史内容库挖出可重发的片段",
+      "多平台排程发布，另有 API 可自动化"
+    ],
+    "ja": [
+      "AIクリッピングがハイライトを発見しバズる可能性をスコア化",
+      "ClipAnythingはあらゆるジャンルに対応——vlog・スポーツ・ポッドキャスト・ゲーム",
+      "アニメーション字幕とAI Reframeが9:16で話者を常に中央に",
+      "Agent OpusがAI B-rollを生成しトーキングヘッド動画を強化",
+      "OpusSearchが過去のカタログから再投稿できる瞬間を発掘",
+      "マルチプラットフォーム予約投稿と自動化用API"
+    ],
+    "es": [
+      "El recorte con IA encuentra momentos destacados y puntúa su potencial viral",
+      "ClipAnything funciona con cualquier género — vlogs, deportes, pódcasts, gaming",
+      "Subtítulos animados y AI Reframe mantienen al hablante centrado en 9:16",
+      "Agent Opus genera B-roll con IA para enriquecer clips de busto parlante",
+      "OpusSearch explora tu catálogo antiguo en busca de momentos republicables",
+      "Programación multiplataforma más una API para automatizar"
+    ],
+    "fr": [
+      "Le découpage IA repère les temps forts et note leur potentiel viral",
+      "ClipAnything fonctionne sur tous les genres — vlogs, sport, podcasts, gaming",
+      "Sous-titres animés et AI Reframe gardent l'orateur centré en 9:16",
+      "Agent Opus génère du B-roll IA pour enrichir les clips face caméra",
+      "OpusSearch fouille votre catalogue pour trouver des moments à reposter",
+      "Programmation multiplateforme plus une API pour l'automatisation"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Free processes 60 minutes of video per month with watermarked exports — fine for evaluating the clip quality.",
+      "zh": "免费档每月处理 60 分钟视频，导出带水印——评估切片质量足矣。",
+      "ja": "無料版は月60分の動画を処理、書き出しは透かし付き——クリップ品質の評価には十分。",
+      "es": "El plan gratis procesa 60 minutos de vídeo al mes con exportaciones con marca de agua — suficiente para evaluar la calidad de los clips.",
+      "fr": "Le gratuit traite 60 minutes de vidéo par mois avec exports filigranés — suffisant pour évaluer la qualité des clips."
+    },
+    "paid": {
+      "en": "Starter is $15/month for 150 upload minutes; Pro at $29/month (roughly $14.5-19/month billed yearly) covers 3,600 minutes, scheduling and Agent Opus features. (Verified against the official pricing page, 2026-07-29.)",
+      "zh": "Starter $15/月含 150 分钟上传；Pro $29/月（年付约合 $14.5-19/月）含 3600 分钟、排程与 Agent Opus 功能。（对照官方定价页核实，2026-07-29。）",
+      "ja": "Starterは月$15でアップロード150分。Proは月$29（年払いで月約$14.5-19）で3,600分・予約投稿・Agent Opus機能をカバー。（公式価格ページと照合、2026-07-29。）",
+      "es": "Starter cuesta $15/mes con 150 minutos de subida; Pro a $29/mes (unos $14.5-19/mes con pago anual) cubre 3.600 minutos, programación y las funciones de Agent Opus. (Verificado con la página oficial de precios, 2026-07-29.)",
+      "fr": "Starter coûte 15 $/mois pour 150 minutes d'upload ; Pro à 29 $/mois (environ 14,5-19 $/mois en annuel) couvre 3 600 minutes, la programmation et les fonctions Agent Opus. (Vérifié avec la page tarifaire officielle, 2026-07-29.)"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Podcasters turning hour-long episodes into daily short clips",
+      "Streamers repurposing VODs for TikTok and Shorts",
+      "Marketing teams industrializing webinar-to-social pipelines",
+      "Agencies batch-producing clips for multiple client channels"
+    ],
+    "zh": [
+      "播客主把小时级节目变成每日短切片",
+      "主播把录播二创成 TikTok 与 Shorts",
+      "营销团队把「研讨会→社媒」流水线工业化",
+      "代运营机构为多个客户频道批量产出切片"
+    ],
+    "ja": [
+      "1時間のエピソードを毎日のショートクリップに変えるポッドキャスター",
+      "VODをTikTokやShorts向けに再利用するストリーマー",
+      "ウェビナー→SNSのパイプラインを工業化するマーケティングチーム",
+      "複数クライアントのチャンネル向けにクリップを量産する代理店"
+    ],
+    "es": [
+      "Podcasters convirtiendo episodios de una hora en clips cortos diarios",
+      "Streamers reutilizando VODs para TikTok y Shorts",
+      "Equipos de marketing industrializando el pipeline de webinar a redes",
+      "Agencias produciendo clips en lote para múltiples canales de clientes"
+    ],
+    "fr": [
+      "Podcasteurs transformant des épisodes d'une heure en clips courts quotidiens",
+      "Streamers recyclant leurs VOD pour TikTok et Shorts",
+      "Équipes marketing industrialisant le pipeline webinaire vers réseaux sociaux",
+      "Agences produisant des clips en série pour plusieurs chaînes clientes"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Best-in-class highlight detection — the viral score is genuinely predictive",
+      "ClipAnything extended it beyond talking heads to any footage",
+      "Scheduling plus OpusSearch make it a full repurposing pipeline",
+      "10M+ creators and SoftBank backing signal staying power"
+    ],
+    "zh": [
+      "高光检测同类最佳——爆款分确实有预测力",
+      "ClipAnything 让它从口播扩展到任意素材",
+      "排程加 OpusSearch 使其成为完整的内容二创管线",
+      "1000 万+ 创作者与软银投资，说明后劲十足"
+    ],
+    "ja": [
+      "ハイライト検出はクラス最高——バイラルスコアは本当に予測力がある",
+      "ClipAnythingでトーキングヘッド以外のあらゆる映像に拡張",
+      "予約投稿とOpusSearchで完全な再利用パイプラインに",
+      "1,000万超のクリエイターとソフトバンクの出資が持続力の証"
+    ],
+    "es": [
+      "Detección de momentos destacados líder — la puntuación viral es realmente predictiva",
+      "ClipAnything lo extendió más allá de bustos parlantes a cualquier metraje",
+      "Programación más OpusSearch lo convierten en pipeline completo de reutilización",
+      "Más de 10M de creadores y el respaldo de SoftBank señalan permanencia"
+    ],
+    "fr": [
+      "Détection de temps forts de premier ordre — le score viral est réellement prédictif",
+      "ClipAnything l'a étendu au-delà des faces caméra à toute séquence",
+      "Programmation plus OpusSearch en font un pipeline complet de recyclage",
+      "Plus de 10 M de créateurs et le soutien de SoftBank gagent de sa pérennité"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Recurring billing complaints: users report unwanted renewals and friction canceling — set a reminder and cancel well before renewal dates",
+      "Credits expire monthly with no rollover on most plans",
+      "Auto-clips still need human review; hooks can be cut mid-thought",
+      "Processing minutes count uploads, not exports — long sources burn quota fast"
+    ],
+    "zh": [
+      "计费投诉反复出现：有用户反映非预期续费与取消流程费劲——建议设好提醒并在续费日前尽早取消",
+      "多数套餐的额度按月清零、不可结转",
+      "自动切片仍需人工把关；钩子有时会被拦腰截断",
+      "处理分钟数按上传而非导出计——长素材烧额度极快"
+    ],
+    "ja": [
+      "課金への苦情が繰り返し報告：意図しない更新や解約時の摩擦の声——リマインダーを設定し更新日よりかなり前に解約を",
+      "ほとんどのプランでクレジットは月次失効・繰越なし",
+      "自動クリップは依然人間のレビューが必要。フックが途中で切られることも",
+      "処理分数はエクスポートでなくアップロードで計算——長尺ソースは額度を急速に消費"
+    ],
+    "es": [
+      "Quejas recurrentes de facturación: usuarios reportan renovaciones no deseadas y fricción al cancelar — pon un recordatorio y cancela con antelación",
+      "Los créditos caducan cada mes sin acumularse en la mayoría de planes",
+      "Los clips automáticos aún necesitan revisión humana; los ganchos pueden cortarse a media idea",
+      "Los minutos de procesamiento cuentan subidas, no exportaciones — las fuentes largas queman cuota rápido"
+    ],
+    "fr": [
+      "Plaintes récurrentes de facturation : des utilisateurs signalent des renouvellements non désirés et des frictions à l'annulation — mettez un rappel et résiliez bien avant l'échéance",
+      "Les crédits expirent chaque mois sans report sur la plupart des forfaits",
+      "Les clips automatiques exigent encore une relecture humaine ; les accroches peuvent être coupées en pleine idée",
+      "Les minutes de traitement comptent les uploads, pas les exports — les sources longues brûlent le quota vite"
+    ]
+  },
+  "latestUpdate": {
+    "en": "2026: backed by SoftBank's $20M round and past 10 million creators, OpusClip layered on Agent Opus — AI B-roll generation — plus OpusSearch for mining back catalogs, turning a clipping tool into an end-to-end short-form content engine.",
+    "zh": "2026 年：携软银 2000 万美元投资、创作者突破 1000 万之势，OpusClip 叠加了 Agent Opus——AI B-roll 生成——以及挖掘历史内容库的 OpusSearch，把切片工具进化为端到端短视频内容引擎。",
+    "ja": "2026年：ソフトバンクの2,000万ドル調達と1,000万クリエイター突破を背に、OpusClipはAgent Opus——AI B-roll生成——と過去カタログを発掘するOpusSearchを重ね、クリッピングツールをエンドツーエンドのショート動画エンジンへ進化させた。",
+    "es": "2026: respaldado por la ronda de $20M de SoftBank y superados los 10 millones de creadores, OpusClip sumó Agent Opus — generación de B-roll con IA — más OpusSearch para explotar catálogos antiguos, convirtiendo una herramienta de recorte en un motor integral de contenido corto.",
+    "fr": "2026 : fort du tour de 20 M$ de SoftBank et de plus de 10 millions de créateurs, OpusClip a ajouté Agent Opus — génération de B-roll par IA — plus OpusSearch pour exploiter les anciens catalogues, transformant un outil de découpage en moteur complet de contenu court."
+  },
+  "verdict": {
+    "badge": "Recommended",
+    "headline": {
+      "en": "The clip factory that earns its keep — watch the billing settings",
+      "zh": "物有所值的切片工厂——但盯紧计费设置",
+      "ja": "元の取れるクリップ工場——ただし課金設定に注意",
+      "es": "La fábrica de clips que se gana el sueldo — vigila la facturación",
+      "fr": "L'usine à clips qui mérite son salaire — surveillez la facturation"
+    },
+    "body": {
+      "en": "OpusClip is the category leader in AI clipping for a simple reason: its highlight detection actually works. Feed it an hour of podcast, webinar or stream footage and it returns a ranked set of clips whose viral scores correlate surprisingly well with real performance, each with animated captions and AI Reframe keeping faces centered for vertical feeds. ClipAnything broke the talking-head ceiling — sports, vlogs and gaming footage now clip nearly as well — while 2026's Agent Opus adds AI-generated B-roll and OpusSearch resurfaces repostable gold from your archive. With scheduling and an API on top, one tool now runs the entire long-to-short pipeline, which is why 10 million creators and SoftBank's money are here. Two flags before you subscribe. First, billing: complaints about unwanted renewals and cancellation friction recur across review sites — cancel well ahead of renewal dates and screenshot confirmations. Second, quota math: processing minutes count what you upload, not what you export, and credits die monthly without rollover, so long-form uploaders should size plans carefully. Treat the auto-clips as strong drafts needing a human pass rather than finished posts, manage the subscription attentively, and OpusClip repays its price faster than nearly anything in a creator's stack.",
+      "zh": "OpusClip 稳坐 AI 切片品类头把交椅，原因很简单：它的高光检测真的管用。丢给它一小时播客、研讨会或直播素材，它返回一组按爆款分排好序的切片——这个分数与实际表现的相关性出人意料地高——每条都配好动态字幕，AI Reframe 让人脸在竖屏里始终居中。ClipAnything 打破了口播天花板——体育、vlog 与游戏素材如今切得几乎一样好——2026 年的 Agent Opus 又添上 AI 生成 B-roll，OpusSearch 则从你的存档里翻出可以重发的金子。再叠加排程与 API，一个工具跑通了「长变短」的完整管线，这也是 1000 万创作者与软银资金聚集于此的原因。订阅前有两面旗要看清。其一是计费：关于非预期续费与取消费劲的投诉在各评价站反复出现——请在续费日前尽早取消并截图留证。其二是额度算法：处理分钟数按上传而非导出计，且额度按月清零不结转，长视频上传者要仔细掂量套餐。把自动切片当作需要人工过一遍的强力草稿而非成品，把订阅管理上心，OpusClip 回本的速度几乎比创作者工具箱里任何东西都快。",
+      "ja": "OpusClipがAIクリッピングのカテゴリリーダーである理由は単純だ：ハイライト検出が本当に機能する。ポッドキャスト・ウェビナー・配信の1時間素材を投げれば、バイラルスコア順に並んだクリップ一式が返ってくる——このスコアと実際の成績の相関は驚くほど高い——各クリップにはアニメーション字幕が付き、AI Reframeが縦型フィード用に顔を中央に保つ。ClipAnythingはトーキングヘッドの天井を破り——スポーツ・vlog・ゲーム映像も今やほぼ同等に切れる——2026年のAgent OpusはAI生成B-rollを加え、OpusSearchはアーカイブから再投稿できる金脈を掘り起こす。予約投稿とAPIも載せ、1つのツールが「長尺→短尺」パイプライン全体を回す。1,000万クリエイターとソフトバンクの資金がここに集まる理由だ。契約前に2つの旗を確認してほしい。第一に課金：意図しない更新と解約の摩擦への苦情がレビューサイトで繰り返し上がっている——更新日よりかなり前に解約し、確認画面を保存しておくこと。第二に額度計算：処理分数はエクスポートでなくアップロードで数えられ、クレジットは繰越なしで月次失効するため、長尺派はプラン選びを慎重に。自動クリップは完成品でなく人のチェックを要する強力な下書きとして扱い、サブスクリプションを注意深く管理すれば、OpusClipはクリエイターの道具箱の中でほぼ最速で元を取る。",
+      "es": "OpusClip lidera la categoría de recorte con IA por una razón simple: su detección de momentos destacados funciona de verdad. Dale una hora de pódcast, webinar o directo y devuelve un conjunto de clips ordenados cuyas puntuaciones virales correlacionan sorprendentemente bien con el rendimiento real, cada uno con subtítulos animados y AI Reframe manteniendo las caras centradas para el formato vertical. ClipAnything rompió el techo del busto parlante — deportes, vlogs y gaming ahora se recortan casi igual de bien — mientras el Agent Opus de 2026 añade B-roll generado por IA y OpusSearch rescata oro republicable de tu archivo. Con programación y API encima, una sola herramienta ejecuta todo el pipeline de largo a corto: por eso hay 10 millones de creadores y dinero de SoftBank aquí. Dos banderas antes de suscribirte. Primera, la facturación: las quejas por renovaciones no deseadas y fricción al cancelar se repiten en los sitios de reseñas — cancela con mucha antelación y guarda capturas de las confirmaciones. Segunda, las cuentas de cuota: los minutos cuentan lo que subes, no lo que exportas, y los créditos mueren cada mes sin acumularse, así que quien suba contenido largo debe dimensionar bien el plan. Trata los clips automáticos como buenos borradores que necesitan un repaso humano, gestiona la suscripción con atención, y OpusClip devuelve su precio más rápido que casi nada en el arsenal de un creador.",
+      "fr": "OpusClip domine la catégorie du découpage IA pour une raison simple : sa détection des temps forts fonctionne vraiment. Donnez-lui une heure de podcast, de webinaire ou de stream et il rend un jeu de clips classés dont les scores viraux corrèlent étonnamment bien avec les performances réelles, chacun avec sous-titres animés et AI Reframe gardant les visages centrés pour les flux verticaux. ClipAnything a brisé le plafond du face caméra — sport, vlogs et gaming se découpent désormais presque aussi bien — tandis qu'Agent Opus (2026) ajoute du B-roll généré par IA et qu'OpusSearch exhume l'or à reposter de vos archives. Avec la programmation et une API par-dessus, un seul outil fait tourner tout le pipeline du long au court : voilà pourquoi 10 millions de créateurs et l'argent de SoftBank sont là. Deux drapeaux avant de vous abonner. D'abord, la facturation : les plaintes de renouvellements non désirés et de frictions à l'annulation reviennent sur les sites d'avis — résiliez bien avant l'échéance et conservez des captures des confirmations. Ensuite, le calcul des quotas : les minutes comptent ce que vous téléversez, pas ce que vous exportez, et les crédits meurent chaque mois sans report ; les créateurs de formats longs doivent dimensionner leur forfait avec soin. Traitez les clips automatiques comme de solides brouillons à relire plutôt que des posts finis, gérez l'abonnement attentivement, et OpusClip rembourse son prix plus vite que presque tout dans la panoplie d'un créateur."
+    },
+    "bestFor": {
+      "en": [
+        "Podcasters and streamers repurposing long content daily",
+        "Marketing teams running webinar-to-social pipelines",
+        "Agencies producing short-form clips at volume"
+      ],
+      "zh": [
+        "每天二创长内容的播客主与主播",
+        "跑「研讨会→社媒」管线的营销团队",
+        "批量产出短视频切片的代运营机构"
+      ],
+      "ja": [
+        "長尺コンテンツを毎日再利用するポッドキャスターと配信者",
+        "ウェビナー→SNSパイプラインを回すマーケティングチーム",
+        "ショートクリップを量産する代理店"
+      ],
+      "es": [
+        "Podcasters y streamers reutilizando contenido largo a diario",
+        "Equipos de marketing con pipelines de webinar a redes",
+        "Agencias produciendo clips cortos en volumen"
+      ],
+      "fr": [
+        "Podcasteurs et streamers recyclant du contenu long quotidiennement",
+        "Équipes marketing avec des pipelines webinaire vers réseaux sociaux",
+        "Agences produisant des clips courts en volume"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You want full manual editing control alongside AI assists (→ CapCut)",
+        "You need captions and translation across a broader video workflow (→ Veed.io)"
+      ],
+      "zh": [
+        "你想在 AI 辅助之外保留完整手动剪辑控制（→ CapCut）",
+        "你需要更宽视频工作流里的字幕与翻译（→ Veed.io）"
+      ],
+      "ja": [
+        "AI支援に加えて完全な手動編集コントロールが欲しい（→ CapCut）",
+        "より広い動画ワークフローで字幕と翻訳が必要（→ Veed.io）"
+      ],
+      "es": [
+        "Quieres control de edición manual completo junto a la IA (→ CapCut)",
+        "Necesitas subtítulos y traducción en un flujo de vídeo más amplio (→ Veed.io)"
+      ],
+      "fr": [
+        "Vous voulez un contrôle d'édition manuel complet en plus de l'IA (→ CapCut)",
+        "Vous avez besoin de sous-titres et de traduction dans un flux vidéo plus large (→ Veed.io)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-29",
+    "verdictDate": "2026-07-29",
+    "pricingVerified": "2026-07-29",
+    "pricingUrl": "https://www.opus.pro/pricing"
+  }
+}

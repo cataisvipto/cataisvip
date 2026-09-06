@@ -1,0 +1,79 @@
+{
+  "slug": "playwright-mcp",
+  "name": "Playwright MCP",
+  "nameZh": "Playwright 浏览器自动化",
+  "description": "微软官方 Playwright MCP 服务器。基于无障碍树而非截图驱动浏览器自动化，无需视觉模型即可让智能体浏览网页、填表、截图与测试。",
+  "descriptionEn": "Microsoft's official Playwright MCP server. Drives browser automation via the accessibility tree instead of screenshots, letting agents browse pages, fill forms, capture screenshots and run tests without a vision model.",
+  "descriptionJa": "Microsoft公式のPlaywright MCPサーバー。スクリーンショットではなくアクセシビリティツリーでブラウザを自動操作し、視覚モデルなしでWeb閲覧、フォーム入力、テストが可能。",
+  "descriptionEs": "El servidor MCP oficial de Playwright de Microsoft. Automatiza el navegador mediante el árbol de accesibilidad en lugar de capturas, permitiendo navegar, rellenar formularios y ejecutar pruebas sin modelo de visión.",
+  "descriptionFr": "Le serveur MCP officiel Playwright de Microsoft. Automatise le navigateur via l'arbre d'accessibilité plutôt que par captures d'écran : navigation, formulaires, captures et tests sans modèle de vision.",
+  "developer": "Microsoft",
+  "developerZh": "微软",
+  "repo": "microsoft/playwright-mcp",
+  "clients": [
+    "claude",
+    "cursor",
+    "vscode",
+    "codex",
+    "generic"
+  ],
+  "category": "Browser",
+  "tags": [
+    "Free",
+    "Open Source"
+  ],
+  "installCommand": "npx @playwright/mcp@latest",
+  "logo": "/logos/mcp/playwright-mcp.png",
+  "stars": 36803,
+  "featured": false,
+  "faqs": [
+    {
+      "question": {
+        "zh": "Playwright MCP 和传统浏览器自动化有什么区别？",
+        "en": "How is Playwright MCP different from traditional browser automation?",
+        "ja": "Playwright MCP は従来のブラウザ自動化と何が違いますか？",
+        "es": "¿En qué se diferencia Playwright MCP de la automatización de navegador tradicional?",
+        "fr": "En quoi Playwright MCP diffère-t-il de l'automatisation de navigateur classique ?"
+      },
+      "answer": {
+        "zh": "它不靠截图和像素坐标，而是把页面的无障碍树（accessibility tree）作为结构化快照交给 AI，让智能体像读文档一样理解页面再点击、填表、导航，稳定性远高于视觉方案。",
+        "en": "Instead of screenshots and pixel coordinates, it feeds the page accessibility tree to the AI as a structured snapshot. Agents understand the page like a document before clicking, filling forms or navigating — far more reliable than vision-based approaches.",
+        "ja": "スクリーンショットやピクセル座標に頼らず、ページのアクセシビリティツリーを構造化スナップショットとして AI に渡します。エージェントはドキュメントのようにページを理解してからクリック・入力・遷移するため、視覚ベースの手法より遥かに安定しています。",
+        "es": "En lugar de capturas y coordenadas de píxeles, entrega el árbol de accesibilidad de la página como instantánea estructurada. El agente entiende la página como un documento antes de hacer clic, rellenar formularios o navegar; mucho más fiable que los enfoques visuales.",
+        "fr": "Au lieu de captures d'écran et de coordonnées de pixels, il transmet l'arbre d'accessibilité de la page comme instantané structuré. L'agent comprend la page comme un document avant de cliquer, remplir des formulaires ou naviguer — bien plus fiable que les approches visuelles."
+      }
+    },
+    {
+      "question": {
+        "zh": "怎么在 Cursor 或 Claude Code 里使用 Playwright MCP？",
+        "en": "How do I use Playwright MCP in Cursor or Claude Code?",
+        "ja": "Cursor や Claude Code で Playwright MCP を使うには？",
+        "es": "¿Cómo uso Playwright MCP en Cursor o Claude Code?",
+        "fr": "Comment utiliser Playwright MCP dans Cursor ou Claude Code ?"
+      },
+      "answer": {
+        "zh": "一条命令即可：npx @playwright/mcp@latest。Claude Code 用 claude mcp add playwright npx @playwright/mcp@latest 注册；Cursor 在 MCP 设置里添加同样的命令，首次运行会自动下载浏览器。",
+        "en": "One command: npx @playwright/mcp@latest. In Claude Code register it with claude mcp add playwright npx @playwright/mcp@latest; in Cursor add the same command in MCP settings. The browser downloads automatically on first run.",
+        "ja": "コマンド 1 つです：npx @playwright/mcp@latest。Claude Code では claude mcp add playwright npx @playwright/mcp@latest で登録、Cursor では MCP 設定に同じコマンドを追加します。初回実行時にブラウザが自動ダウンロードされます。",
+        "es": "Un solo comando: npx @playwright/mcp@latest. En Claude Code regístralo con claude mcp add playwright npx @playwright/mcp@latest; en Cursor añade el mismo comando en los ajustes MCP. El navegador se descarga automáticamente la primera vez.",
+        "fr": "Une seule commande : npx @playwright/mcp@latest. Dans Claude Code, enregistrez-le avec claude mcp add playwright npx @playwright/mcp@latest ; dans Cursor, ajoutez la même commande dans les réglages MCP. Le navigateur se télécharge au premier lancement."
+      }
+    },
+    {
+      "question": {
+        "zh": "Playwright MCP 是免费的吗？",
+        "en": "Is Playwright MCP free?",
+        "ja": "Playwright MCP は無料ですか？",
+        "es": "¿Playwright MCP es gratuito?",
+        "fr": "Playwright MCP est-il gratuit ?"
+      },
+      "answer": {
+        "zh": "免费开源（Apache-2.0），由微软官方维护，完全在本地运行浏览器，不需要 API Key，也没有任何付费墙。",
+        "en": "Free and open source (Apache-2.0), officially maintained by Microsoft. The browser runs entirely on your machine — no API key, no paywall.",
+        "ja": "無料のオープンソース（Apache-2.0）で、Microsoft が公式にメンテナンスしています。ブラウザは完全にローカルで動作し、API キーも課金もありません。",
+        "es": "Gratuito y de código abierto (Apache-2.0), mantenido oficialmente por Microsoft. El navegador se ejecuta totalmente en tu máquina: sin clave API ni muro de pago.",
+        "fr": "Gratuit et open source (Apache-2.0), maintenu officiellement par Microsoft. Le navigateur fonctionne entièrement en local — pas de clé API ni de paywall."
+      }
+    }
+  ]
+}

@@ -1,0 +1,246 @@
+{
+  "features": {
+    "en": [
+      "GPT Image high-fidelity text-to-image",
+      "Native ChatGPT integration",
+      "Accurate text rendering in images",
+      "Conversational image editing and inpainting",
+      "Multiple aspect ratios and styles",
+      "API access for developers"
+    ],
+    "zh": [
+      "GPT Image 高保真文生图",
+      "原生集成于 ChatGPT",
+      "图像内文字渲染精准",
+      "对话式图像编辑与局部重绘",
+      "多种宽高比与风格",
+      "开发者 API 接入"
+    ],
+    "ja": [
+      "GPT Image 高忠実度のテキストから画像生成",
+      "ChatGPT へのネイティブ統合",
+      "画像内テキストの正確なレンダリング",
+      "対話型の画像編集とインペインティング",
+      "多様なアスペクト比とスタイル",
+      "開発者向け API アクセス"
+    ],
+    "es": [
+      "Texto a imagen de alta fidelidad con GPT Image",
+      "Integración nativa con ChatGPT",
+      "Renderizado preciso de texto en imágenes",
+      "Edición conversacional de imágenes e inpainting",
+      "Múltiples proporciones y estilos",
+      "Acceso a API para desarrolladores"
+    ],
+    "fr": [
+      "Texte-image haute fidélité avec GPT Image",
+      "Intégration native à ChatGPT",
+      "Rendu précis du texte dans les images",
+      "Édition d'images conversationnelle et inpainting",
+      "Plusieurs formats et styles",
+      "Accès API pour les développeurs"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Limited generations in ChatGPT free",
+      "zh": "ChatGPT 免费版有限次生成",
+      "ja": "ChatGPT 無料版で生成回数に制限",
+      "es": "Generaciones limitadas en ChatGPT gratis",
+      "fr": "Générations limitées dans ChatGPT gratuit"
+    },
+    "plus": {
+      "en": "Included in ChatGPT Plus ($20/month)",
+      "zh": "含于 ChatGPT Plus（$20/月）",
+      "ja": "ChatGPT Plus に含まれる（月額20ドル）",
+      "es": "Incluido en ChatGPT Plus (20 $/mes)",
+      "fr": "Inclus dans ChatGPT Plus (20 $/mois)"
+    },
+    "api": {
+      "en": "From ~$0.01/image (GPT Image API)",
+      "zh": "约 $0.01/张起（GPT Image API）",
+      "ja": "1枚あたり約 $0.01〜（GPT Image API）",
+      "es": "Desde ~0,01 $/imagen (GPT Image API)",
+      "fr": "À partir d'environ 0,01 $/image (GPT Image API)"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Marketing and social visuals",
+      "Concept art and ideation",
+      "Blog and article illustrations",
+      "Product mockups",
+      "Presentation graphics",
+      "Educational diagrams"
+    ],
+    "zh": [
+      "营销与社交媒体配图",
+      "概念艺术与创意构思",
+      "博客与文章插图",
+      "产品效果图",
+      "演示文稿图形",
+      "教学示意图"
+    ],
+    "ja": [
+      "マーケティング・SNS 用ビジュアル",
+      "コンセプトアートとアイデア出し",
+      "ブログや記事の挿絵",
+      "製品モックアップ",
+      "プレゼン資料のグラフィック",
+      "教育用の図解"
+    ],
+    "es": [
+      "Visuales de marketing y redes sociales",
+      "Arte conceptual e ideación",
+      "Ilustraciones para blogs y artículos",
+      "Maquetas de productos",
+      "Gráficos para presentaciones",
+      "Diagramas educativos"
+    ],
+    "fr": [
+      "Visuels marketing et réseaux sociaux",
+      "Art conceptuel et idéation",
+      "Illustrations de blogs et d'articles",
+      "Maquettes de produits",
+      "Graphiques de présentation",
+      "Schémas pédagogiques"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Seamless ChatGPT workflow",
+      "Excellent prompt understanding",
+      "Reliable in-image text",
+      "Easy iterative editing"
+    ],
+    "zh": [
+      "与 ChatGPT 工作流无缝衔接",
+      "提示词理解出色",
+      "图内文字渲染可靠",
+      "迭代编辑便捷"
+    ],
+    "ja": [
+      "ChatGPT とのシームレスなワークフロー",
+      "優れたプロンプト理解",
+      "画像内テキストが安定",
+      "手軽な反復編集"
+    ],
+    "es": [
+      "Flujo de trabajo fluido con ChatGPT",
+      "Excelente comprensión de prompts",
+      "Texto en imagen fiable",
+      "Edición iterativa sencilla"
+    ],
+    "fr": [
+      "Flux de travail fluide avec ChatGPT",
+      "Excellente compréhension des prompts",
+      "Texte dans l'image fiable",
+      "Édition itérative facile"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Less stylized than Midjourney",
+      "Content policy restrictions",
+      "Requires paid plan for volume"
+    ],
+    "zh": [
+      "艺术风格化不及 Midjourney",
+      "内容政策限制较多",
+      "批量使用需付费"
+    ],
+    "ja": [
+      "Midjourney ほど作風が強くない",
+      "コンテンツポリシーの制限",
+      "大量利用には有料プランが必要"
+    ],
+    "es": [
+      "Menos estilizado que Midjourney",
+      "Restricciones de la política de contenido",
+      "Requiere plan de pago para gran volumen"
+    ],
+    "fr": [
+      "Moins stylisé que Midjourney",
+      "Restrictions de la politique de contenu",
+      "Nécessite un forfait payant pour le volume"
+    ]
+  },
+  "latestUpdate": {
+    "en": "July 2026: OpenAI's image stack unified under GPT Image with sharper detail, better text rendering, and faster generation",
+    "zh": "2026年7月：OpenAI 图像能力统一至 GPT Image，细节更锐利、文字渲染更佳、生成更快",
+    "ja": "2026年7月：OpenAI の画像機能が GPT Image に統一され、ディテールがより鮮明に、テキストレンダリングが向上し、生成も高速化",
+    "es": "Julio de 2026: la pila de imágenes de OpenAI se unifica bajo GPT Image, con más detalle, mejor renderizado de texto y generación más rápida",
+    "fr": "Juillet 2026 : la pile d'images d'OpenAI est unifiée sous GPT Image, avec des détails plus nets, un meilleur rendu du texte et une génération plus rapide"
+  },
+  "verdict": {
+    "badge": "Recommended",
+    "headline": {
+      "en": "The most accessible AI image generator — built into ChatGPT with reliable prompt-following.",
+      "zh": "最易获取的AI图像生成器——内置于ChatGPT，指令遵循可靠。",
+      "ja": "最もアクセスしやすいAI画像生成ツール——ChatGPT内蔵でプロンプト追従が確実。",
+      "es": "El generador de imágenes IA más accesible — integrado en ChatGPT con seguimiento fiable de prompts.",
+      "fr": "Le générateur d'images IA le plus accessible — intégré à ChatGPT avec un suivi fiable des prompts."
+    },
+    "body": {
+      "en": "DALL-E 3's biggest advantage is accessibility: it's available directly inside ChatGPT, meaning millions of users can generate images without learning a new tool or signing up for another service. Prompt interpretation is excellent—it understands complex descriptions and produces relevant results consistently.\n\nIt won't match Midjourney for artistic refinement or Stable Diffusion for creative control. But for quick illustrations, concept visualization, and everyday creative needs, the combination of ease-of-use and quality makes it hard to beat.",
+      "zh": "DALL-E 3 最大的优势是易获取性：直接内置在 ChatGPT 中，数百万用户无需学习新工具或注册新服务即可生成图像。提示词理解能力出色，能稳定地将复杂描述转化为相关结果。\n\n它在艺术精细度上不及 Midjourney，在创意控制力上不及 Stable Diffusion。但对于快速插图、概念可视化和日常创意需求，易用性与质量的结合使其难以被超越。",
+      "ja": "DALL-E 3の最大の利点はアクセスのしやすさです。ChatGPT内で直接利用でき、新しいツールを学んだり別サービスに登録する必要がありません。プロンプト解釈が優れ、複雑な説明を安定して関連性の高い結果に変換します。\n\n芸術的な洗練さではMidjourneyに、クリエイティブな制御ではStable Diffusionに及びません。しかし素早いイラスト、コンセプトの視覚化、日常のクリエイティブ用途では使いやすさと品質のバランスが際立っています。",
+      "es": "La mayor ventaja de DALL-E 3 es la accesibilidad: está disponible directamente dentro de ChatGPT, permitiendo a millones generar imágenes sin aprender una herramienta nueva. La interpretación de prompts es excelente y produce resultados relevantes de forma consistente.\n\nNo igualará a Midjourney en refinamiento artístico ni a Stable Diffusion en control creativo. Pero para ilustraciones rápidas, visualización de conceptos y necesidades creativas cotidianas, la combinación de facilidad y calidad es difícil de superar.",
+      "fr": "Le plus grand atout de DALL-E 3 est l'accessibilité : disponible directement dans ChatGPT, des millions d'utilisateurs peuvent générer des images sans apprendre un nouvel outil. L'interprétation des prompts est excellente et produit des résultats pertinents de manière constante.\n\nIl n'égalera pas Midjourney en raffinement artistique ni Stable Diffusion en contrôle créatif. Mais pour les illustrations rapides et les besoins créatifs quotidiens, la combinaison facilité-qualité est difficile à battre."
+    },
+    "bestFor": {
+      "en": [
+        "Quick image generation within ChatGPT",
+        "Users who want one tool for text and images",
+        "Concept art and visual brainstorming"
+      ],
+      "zh": [
+        "在ChatGPT内快速生成图像",
+        "希望一个工具搞定文字和图像的用户",
+        "概念图和视觉头脑风暴"
+      ],
+      "ja": [
+        "ChatGPT内での素早い画像生成",
+        "テキストと画像を一つのツールで済ませたいユーザー",
+        "コンセプトアートとビジュアルブレスト"
+      ],
+      "es": [
+        "Generación rápida de imágenes dentro de ChatGPT",
+        "Usuarios que quieren una herramienta para texto e imágenes",
+        "Arte conceptual y lluvia de ideas visual"
+      ],
+      "fr": [
+        "Génération rapide d'images dans ChatGPT",
+        "Utilisateurs voulant un outil unique pour texte et images",
+        "Art conceptuel et brainstorming visuel"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You need maximum artistic quality and style control (→ Midjourney)",
+        "You want open-source freedom and fine-tuning (→ Stable Diffusion, Flux)"
+      ],
+      "zh": [
+        "需要最高的艺术品质和风格控制（→ Midjourney）",
+        "需要开源自由度和微调能力（→ Stable Diffusion、Flux）"
+      ],
+      "ja": [
+        "最高の芸術品質とスタイル制御が必要な場合（→ Midjourney）",
+        "オープンソースの自由度とファインチューニングが必要な場合（→ Stable Diffusion、Flux）"
+      ],
+      "es": [
+        "Necesitas máxima calidad artística y control de estilo (→ Midjourney)",
+        "Quieres libertad open-source y ajuste fino (→ Stable Diffusion, Flux)"
+      ],
+      "fr": [
+        "Vous avez besoin d'une qualité artistique maximale et d'un contrôle de style (→ Midjourney)",
+        "Vous voulez la liberté open-source et le fine-tuning (→ Stable Diffusion, Flux)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-27",
+    "verdictDate": "2026-07-27",
+    "pricingVerified": "2026-07-27"
+  }
+}

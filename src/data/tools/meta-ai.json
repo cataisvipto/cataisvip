@@ -1,0 +1,30 @@
+{
+  "slug": "meta-ai",
+  "name": "Meta AI",
+  "nameZh": "Meta AI",
+  "description": "Meta 推出的 AI 对话产品，基于 Llama 4 大模型，支持文本、图像理解和生成，开源免费",
+  "descriptionEn": "Meta's AI chat product powered by Llama 4 LLM, supporting text and image understanding and generation, open-source and free",
+  "descriptionJa": "MetaのAI対話製品。Llama 4モデル搭載、テキストと画像の理解・生成に対応、オープンソース無料",
+  "descriptionEs": "Producto de chat IA de Meta impulsado por Llama 4, compatible con comprensión y generación de texto e imagen, open-source y gratuito",
+  "descriptionFr": "Produit de chat IA de Meta propulsé par Llama 4, prenant en charge la compréhension et la génération de texte et d'image, open-source et gratuit",
+  "url": "https://www.meta.ai",
+  "logo": "/logos/tools/meta-ai.png",
+  "category": "Chat",
+  "tags": [
+    "Free",
+    "Open Source",
+    "API"
+  ],
+  "featured": true,
+  "developer": "Meta",
+  "platforms": {
+    "web": true,
+    "windows": false,
+    "macos": false,
+    "ios": true,
+    "android": true,
+    "linux": false,
+    "browser_extension": false,
+    "api": true
+  }
+}

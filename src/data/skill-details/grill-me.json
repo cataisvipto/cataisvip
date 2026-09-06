@@ -1,0 +1,104 @@
+{
+  "pros": {
+    "en": [
+      "Rigorously tests design decisions",
+      "Improves code quality before review",
+      "Catches edge cases early"
+    ],
+    "zh": [
+      "严格测试设计决策",
+      "在审查前提高代码质量",
+      "早期发现边缘情况"
+    ],
+    "ja": [
+      "設計判断を厳密にテスト",
+      "レビュー前のコード品質向上",
+      "エッジケースを早期に発見"
+    ],
+    "es": [
+      "Prueba rigurosamente las decisiones de diseño",
+      "Mejora la calidad del código antes de la revisión",
+      "Detecta casos extremos temprano"
+    ],
+    "fr": [
+      "Teste rigoureusement les décisions de conception",
+      "Améliore la qualité du code avant la révision",
+      "Détecte les cas limites tôt"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Can be time-consuming for simple changes",
+      "Requires clear context for effective questioning",
+      "May feel repetitive for experienced teams"
+    ],
+    "zh": [
+      "对于简单修改可能耗时",
+      "需要清晰的上下文才能有效提问",
+      "对有经验的团队可能感觉重复"
+    ],
+    "ja": [
+      "単純な変更には時間がかかる可能性",
+      "効果的な質問には明確なコンテキストが必要",
+      "経験豊富なチームには繰り返しに感じる可能性"
+    ],
+    "es": [
+      "Puede llevar mucho tiempo para cambios simples",
+      "Requiere contexto claro para preguntas efectivas",
+      "Puede sentirse repetitivo para equipos experimentados"
+    ],
+    "fr": [
+      "Peut prendre du temps pour des changements simples",
+      "Nécessite un contexte clair pour un questionnement efficace",
+      "Peut sembler répétitif pour les équipes expérimentées"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Free and open source",
+      "zh": "免费开源",
+      "ja": "無料オープンソース",
+      "es": "Gratuito y de código abierto",
+      "fr": "Gratuit et open source"
+    }
+  },
+  "verdict": {
+    "en": "A must-have skill for any team that values code quality. 728K installs prove its utility in catching design flaws before they become production issues.",
+    "zh": "任何重视代码质量的团队的必备技能。72.8 万安装量证明了其在设计缺陷成为生产问题之前捕获它们的价值。",
+    "ja": "コード品質を重視するチームにとって必須のスキル。72.8万のインストール数が、設計上の欠陥を本番環境の問題になる前に発見する有用性を証明しています。",
+    "es": "Un skill imprescindible para cualquier equipo que valore la calidad del código. 728K instalaciones prueban su utilidad para detectar fallos de diseño antes de que se conviertan en problemas de producción.",
+    "fr": "Un skill incontournable pour toute équipe qui valorise la qualité du code. 728K installations prouvent son utilité pour détecter les défauts de conception avant qu'ils ne deviennent des problèmes de production."
+  },
+  "useCases": {
+    "en": [
+      "Reviewing complex architectural decisions",
+      "Validating API design choices",
+      "Pre-deployment quality assurance"
+    ],
+    "zh": [
+      "审查复杂架构决策",
+      "验证 API 设计选择",
+      "部署前质量保证"
+    ],
+    "ja": [
+      "複雑なアーキテクチャ決定のレビュー",
+      "API設計の選択を検証",
+      "デプロイ前の品質保証"
+    ],
+    "es": [
+      "Revisando decisiones arquitectónicas complejas",
+      "Validando opciones de diseño de API",
+      "Aseguramiento de calidad previo al despliegue"
+    ],
+    "fr": [
+      "Révision des décisions architecturales complexes",
+      "Validation des choix de conception d'API",
+      "Assurance qualité avant déploiement"
+    ]
+  },
+  "meta": {
+    "lastVerified": "2026-08-11",
+    "verdictDate": "2026-08-11",
+    "pricingVerified": "2026-08-11"
+  }
+}

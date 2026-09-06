@@ -1,0 +1,217 @@
+{
+  "features": {
+    "en": [
+      "On-device LLMs (local mode)",
+      "Local file & image AI search",
+      "Remote PC control from your phone",
+      "One-sentence system settings",
+      "Deep file understanding & generation",
+      "Cross-platform: Windows/Mac/Android/iOS"
+    ],
+    "zh": [
+      "端侧本地大模型（本地模式）",
+      "本地文件与图片智能搜索",
+      "手机远程操控电脑",
+      "一句话修改系统设置",
+      "文件深度理解与生成",
+      "全平台：Windows/Mac/安卓/iOS"
+    ],
+    "ja": [
+      "オンデバイス大規模モデル（ローカルモード）",
+      "ローカルファイル・画像の AI 検索",
+      "スマホから PC を遠隔操作",
+      "一言でシステム設定を変更",
+      "ファイルの深い理解と生成",
+      "全プラットフォーム対応：Windows/Mac/Android/iOS"
+    ],
+    "es": [
+      "LLM en el dispositivo (modo local)",
+      "Búsqueda IA de archivos e imágenes locales",
+      "Control remoto del PC desde el móvil",
+      "Ajustes del sistema con una frase",
+      "Comprensión y generación profunda de archivos",
+      "Multiplataforma: Windows/Mac/Android/iOS"
+    ],
+    "fr": [
+      "LLM sur l'appareil (mode local)",
+      "Recherche IA de fichiers et images locaux",
+      "Contrôle du PC à distance depuis le mobile",
+      "Réglages système en une phrase",
+      "Compréhension et génération approfondies de fichiers",
+      "Multiplateforme : Windows/Mac/Android/iOS"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Free to download and use",
+      "zh": "免费下载使用",
+      "ja": "無料でダウンロード・利用可能",
+      "es": "Descarga y uso gratuitos",
+      "fr": "Téléchargement et utilisation gratuits"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Personal knowledge base",
+      "File organization & search",
+      "Automating PC tasks",
+      "Privacy-first offline AI"
+    ],
+    "zh": [
+      "个人知识库",
+      "文件整理与搜索",
+      "自动化电脑任务",
+      "隐私优先的离线 AI"
+    ],
+    "ja": [
+      "個人ナレッジベース",
+      "ファイル整理と検索",
+      "PC 作業の自動化",
+      "プライバシー重視のオフライン AI"
+    ],
+    "es": [
+      "Base de conocimiento personal",
+      "Organización y búsqueda de archivos",
+      "Automatización de tareas del PC",
+      "IA sin conexión con privacidad ante todo"
+    ],
+    "fr": [
+      "Base de connaissances personnelle",
+      "Organisation et recherche de fichiers",
+      "Automatisation des tâches PC",
+      "IA hors ligne axée sur la confidentialité"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Runs locally, strong privacy",
+      "Deep OS-level integration",
+      "Cross-device control",
+      "Free"
+    ],
+    "zh": [
+      "本地运行，隐私性强",
+      "深度系统级集成",
+      "跨设备操控",
+      "免费"
+    ],
+    "ja": [
+      "ローカル実行でプライバシーが高い",
+      "OS レベルの深い統合",
+      "デバイス横断の操作",
+      "無料"
+    ],
+    "es": [
+      "Se ejecuta localmente, gran privacidad",
+      "Integración profunda a nivel de SO",
+      "Control entre dispositivos",
+      "Gratis"
+    ],
+    "fr": [
+      "Fonctionne localement, forte confidentialité",
+      "Intégration profonde au niveau du SE",
+      "Contrôle multi-appareils",
+      "Gratuit"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Requires a capable PC (6-core, 16GB+)",
+      "China-focused, mainly Chinese UI"
+    ],
+    "zh": [
+      "对电脑配置有要求（6核、16GB 以上）",
+      "以中国市场为主，界面以中文为主"
+    ],
+    "ja": [
+      "高めの PC スペックが必要（6コア・16GB 以上）",
+      "中国市場中心で UI は主に中国語"
+    ],
+    "es": [
+      "Requiere un PC potente (6 núcleos, 16GB+)",
+      "Enfocado en China, interfaz principalmente en chino"
+    ],
+    "fr": [
+      "Nécessite un PC performant (6 cœurs, 16 Go+)",
+      "Axé sur la Chine, interface principalement en chinois"
+    ]
+  },
+  "latestUpdate": {
+    "en": "May 2026: Tencent launched Marvis across Windows, macOS and mobile with on-device models",
+    "zh": "2026年5月：腾讯正式推出 Marvis，全面覆盖 Windows、macOS 与移动端，内置端侧模型",
+    "ja": "2026年5月：テンセントが Marvis を Windows・macOS・モバイルで正式リリース、オンデバイスモデルを搭載",
+    "es": "Mayo de 2026: Tencent lanzó Marvis en Windows, macOS y móvil con modelos en el dispositivo",
+    "fr": "Mai 2026 : Tencent a lancé Marvis sur Windows, macOS et mobile avec des modèles sur l'appareil"
+  },
+  "verdict": {
+    "badge": "For Specific Needs",
+    "headline": {
+      "en": "AI assistant targeting specific productivity workflows and task management.",
+      "zh": "面向特定生产力工作流和任务管理的AI助手。",
+      "ja": "特定の生産性ワークフローとタスク管理をターゲットにするAIアシスタント。",
+      "es": "Asistente IA dirigido a flujos de productividad específicos y gestión de tareas.",
+      "fr": "Assistant IA ciblant des workflows de productivité spécifiques et la gestion de tâches."
+    },
+    "body": {
+      "en": "Marvis positions itself as an AI assistant for structured productivity workflows—task management, planning, and organized output generation. It focuses on helping users maintain order in their work rather than open-ended conversation.\n\nAs a specialized tool, it appeals to users who want AI structured around their workflow rather than general chat. However, the limited scope means most users will find a general-purpose assistant more versatile for daily needs.",
+      "zh": "Marvis 定位为结构化生产力工作流的AI助手——任务管理、规划和有组织的输出生成。它专注于帮助用户在工作中保持秩序而非开放式对话。\n\n作为专业化工具，它吸引想要围绕工作流结构化AI的用户。但有限的范围意味着大多数用户会发现通用助手对日常需求更灵活。",
+      "ja": "Marvisは構造化された生産性ワークフロー向けAIアシスタントです。タスク管理、計画、整理された出力生成に焦点を当て、オープンエンドの会話よりも作業の秩序維持を支援します。\n\n専門ツールとしてワークフロー構造化AIを求めるユーザーに訴求しますが、限られた範囲は大半のユーザーにとって汎用アシスタントの方が日常に柔軟であることを意味します。",
+      "es": "Marvis se posiciona como asistente IA para workflows de productividad estructurados—gestión de tareas, planificación y generación organizada. Se enfoca en ayudar a mantener orden en el trabajo.\n\nComo herramienta especializada, atrae a usuarios que quieren IA estructurada. Pero el alcance limitado significa que la mayoría encontrará un asistente general más versátil.",
+      "fr": "Marvis se positionne comme assistant IA pour des workflows de productivité structurés—gestion de tâches, planification et génération organisée. Il se concentre sur l'ordre dans le travail.\n\nEn tant qu'outil spécialisé, il attire les utilisateurs voulant une IA structurée. Mais la portée limitée signifie que la plupart trouveront un assistant général plus polyvalent."
+    },
+    "bestFor": {
+      "en": [
+        "Structured task management with AI",
+        "Organized workflow planning",
+        "Users preferring structured over conversational AI"
+      ],
+      "zh": [
+        "AI辅助的结构化任务管理",
+        "有组织的工作流规划",
+        "偏好结构化而非对话式AI的用户"
+      ],
+      "ja": [
+        "AI支援の構造化タスク管理",
+        "組織的なワークフロー計画",
+        "会話型より構造化AIを好むユーザー"
+      ],
+      "es": [
+        "Gestión de tareas estructurada con IA",
+        "Planificación de flujos organizada",
+        "Usuarios que prefieren IA estructurada"
+      ],
+      "fr": [
+        "Gestion de tâches structurée avec IA",
+        "Planification de workflows organisée",
+        "Utilisateurs préférant l'IA structurée"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You want a versatile general AI assistant (→ ChatGPT, Claude)",
+        "You need proven project management tools (→ Notion AI, Linear)"
+      ],
+      "zh": [
+        "需要多功能通用AI助手（→ ChatGPT、Claude）",
+        "需要成熟的项目管理工具（→ Notion AI、Linear）"
+      ],
+      "ja": [
+        "多機能な汎用AIアシスタントが必要な場合（→ ChatGPT、Claude）",
+        "実績のあるプロジェクト管理ツールが必要な場合（→ Notion AI、Linear）"
+      ],
+      "es": [
+        "Quieres un asistente IA versátil (→ ChatGPT, Claude)",
+        "Necesitas herramientas de gestión probadas (→ Notion AI, Linear)"
+      ],
+      "fr": [
+        "Vous voulez un assistant IA polyvalent (→ ChatGPT, Claude)",
+        "Vous avez besoin d'outils de gestion éprouvés (→ Notion AI, Linear)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-27",
+    "verdictDate": "2026-07-27",
+    "pricingVerified": "2026-07-27"
+  }
+}

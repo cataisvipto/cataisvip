@@ -1,0 +1,29 @@
+{
+  "slug": "zcode-cn",
+  "name": "ZCode",
+  "nameZh": "ZCode",
+  "description": "智谱 ZCode 中文版，官方适配 GLM 系列模型，简单迅捷，兼容现有工具链完成规划、编码、评审与上线",
+  "descriptionEn": "ZCode China edition by Zhipu AI, officially tuned for GLM models, simple and fast, working with existing toolchains for planning, coding, review and shipping",
+  "descriptionJa": "Zhipu AI の ZCode 中国版。GLM モデルに公式対応し、シンプルかつ高速で、既存のツールチェーンと連携して計画・コーディング・レビュー・リリースを実現",
+  "descriptionEs": "ZCode edición China de Zhipu AI, adaptado oficialmente a los modelos GLM, simple y rápido, compatible con cadenas de herramientas existentes para planificar, codificar, revisar y desplegar",
+  "descriptionFr": "ZCode édition Chine de Zhipu AI, optimisé officiellement pour les modèles GLM, simple et rapide, compatible avec les chaînes d'outils existantes pour planifier, coder, réviser et déployer",
+  "url": "https://zcode.z.ai/cn",
+  "logo": "/logos/tools/zcode-cn.png",
+  "category": "Code",
+  "tags": [
+    "Freemium"
+  ],
+  "featured": false,
+  "developer": "Zhipu AI",
+  "developerZh": "智谱 AI",
+  "platforms": {
+    "web": false,
+    "windows": true,
+    "macos": true,
+    "ios": false,
+    "android": false,
+    "linux": false,
+    "browser_extension": false,
+    "api": false
+  }
+}

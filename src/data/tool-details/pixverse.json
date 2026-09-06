@@ -1,0 +1,235 @@
+{
+  "features": {
+    "en": [
+      "V6 model (March 2026) adds multi-shot storytelling, camera-move control and native audio in one generation",
+      "Text-to-video and image-to-video from 1 to 15 seconds, 360p up to 1080p",
+      "Huge library of viral effect templates — hug, dance, transformation — that work from a single photo",
+      "Smart lip-sync turns portraits into talking videos with synced mouths",
+      "Full platform coverage: web, iOS and Android apps plus a developer API",
+      "Recurring free credits every day, unlike most rivals' one-time trials"
+    ],
+    "zh": [
+      "V6 模型（2026 年 3 月）在一次生成中支持多镜头叙事、运镜控制与原生音频",
+      "文生视频与图生视频，时长 1–15 秒，分辨率 360p 至 1080p",
+      "海量爆款特效模板——拥抱、跳舞、变身——一张照片即可套用",
+      "智能对口型让人像照片变成口型同步的说话视频",
+      "全平台覆盖：网页端、iOS、Android，外加开发者 API",
+      "每日循环发放免费积分，不同于多数对手的一次性试用"
+    ],
+    "ja": [
+      "V6モデル（2026年3月）は1回の生成でマルチショット構成、カメラワーク制御、ネイティブ音声に対応",
+      "テキストと画像からの動画生成、1〜15秒、360pから1080pまで",
+      "ハグ、ダンス、変身など、写真1枚で使えるバズ系エフェクトテンプレートが豊富",
+      "スマートリップシンクで人物写真を口の動きが同期した話す動画に",
+      "全プラットフォーム対応：Web、iOS、Androidアプリ、開発者API",
+      "多くの競合の1回限りお試しと異なり、毎日無料クレジットを付与"
+    ],
+    "es": [
+      "El modelo V6 (marzo de 2026) añade narrativa multi-toma, control de movimientos de cámara y audio nativo en una sola generación",
+      "Texto-a-video e imagen-a-video de 1 a 15 segundos, de 360p hasta 1080p",
+      "Enorme biblioteca de plantillas de efectos virales —abrazo, baile, transformación— que funcionan con una sola foto",
+      "La sincronización labial inteligente convierte retratos en videos hablados con la boca sincronizada",
+      "Cobertura total de plataformas: web, apps iOS y Android, más API para desarrolladores",
+      "Créditos gratuitos recurrentes cada día, a diferencia de las pruebas únicas de la mayoría de rivales"
+    ],
+    "fr": [
+      "Le modèle V6 (mars 2026) ajoute la narration multi-plans, le contrôle des mouvements de caméra et l'audio natif en une seule génération",
+      "Texte-vidéo et image-vidéo de 1 à 15 secondes, de 360p à 1080p",
+      "Immense bibliothèque de modèles d'effets viraux — câlin, danse, transformation — utilisables à partir d'une seule photo",
+      "La synchronisation labiale intelligente transforme les portraits en vidéos parlantes",
+      "Couverture complète : web, apps iOS et Android, plus une API développeur",
+      "Des crédits gratuits récurrents chaque jour, contrairement aux essais uniques de la plupart des rivaux"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Free plan at $0 with 90 initial credits plus 60 credits refreshed daily — enough for regular practice, though outputs carry a watermark and queue at standard priority.",
+      "zh": "免费版 $0：注册送 90 积分，另有每日刷新 60 积分——足够日常练手，但输出带水印且按普通优先级排队。",
+      "ja": "無料プランは$0。初回90クレジットに加え毎日60クレジットが更新される——日々の練習には十分だが、出力にウォーターマークが付き、キューは標準優先度。",
+      "es": "Plan gratuito de $0 con 90 créditos iniciales más 60 créditos renovados a diario; suficiente para practicar con regularidad, aunque los resultados llevan marca de agua y cola de prioridad estándar.",
+      "fr": "Plan gratuit à 0 $ avec 90 crédits initiaux plus 60 crédits renouvelés chaque jour — assez pour pratiquer régulièrement, mais les sorties portent un filigrane et passent en priorité standard."
+    },
+    "paid": {
+      "en": "Standard is $10/month for 1,200 credits with watermark removal and faster queues. Pro is $30/month for 6,000 credits plus priority generation. Enterprise pricing is custom. As a reference, a 5-second 1080p clip on V5 costs about 120 credits. (Verified against the official pricing page, 2026-07-28.)",
+      "zh": "Standard $10/月，1200 积分，去水印并加速排队；Pro $30/月，6000 积分，外加优先生成；Enterprise 定制报价。参考：V5 生成 5 秒 1080p 约耗 120 积分。（对照官方定价页核实，2026-07-28。）",
+      "ja": "Standardは月$10で1,200クレジット、ウォーターマーク除去と高速キュー付き。Proは月$30で6,000クレジットと優先生成。Enterpriseはカスタム価格。参考：V5で5秒1080pのクリップは約120クレジット。（公式価格ページと照合、2026-07-28。）",
+      "es": "Standard cuesta $10/mes por 1.200 créditos, sin marca de agua y con colas más rápidas. Pro cuesta $30/mes por 6.000 créditos más generación prioritaria. El plan Enterprise tiene precio a medida. Como referencia, un clip de 5 segundos en 1080p con V5 cuesta unos 120 créditos. (Verificado con la página oficial, 2026-07-28.)",
+      "fr": "Standard est à 10 $/mois pour 1 200 crédits, sans filigrane et avec des files plus rapides. Pro est à 30 $/mois pour 6 000 crédits plus la génération prioritaire. L'offre Enterprise est sur devis. À titre de référence, un clip de 5 secondes en 1080p sur V5 coûte environ 120 crédits. (Vérifié avec la page officielle, 2026-07-28.)"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Social creators pumping out template-driven viral clips from a single photo",
+      "Multi-shot short stories with camera moves and audio in one V6 generation",
+      "Making portraits talk with smart lip-sync for memes and greetings",
+      "Beginners learning AI video on a daily free-credit allowance"
+    ],
+    "zh": [
+      "社媒创作者用一张照片批量套模板产出爆款短片",
+      "用 V6 一次生成带运镜与音频的多镜头小故事",
+      "用智能对口型让人像开口说话，做表情包与祝福视频",
+      "新手靠每日免费积分练习 AI 视频"
+    ],
+    "ja": [
+      "写真1枚からテンプレートでバズ動画を量産するSNSクリエイター",
+      "V6の1回生成でカメラワークと音声付きのマルチショット短編を制作",
+      "スマートリップシンクで人物写真を喋らせ、ミームや挨拶動画に",
+      "毎日の無料クレジットでAI動画を学ぶ初心者"
+    ],
+    "es": [
+      "Creadores sociales que producen clips virales con plantillas a partir de una sola foto",
+      "Historias cortas multi-toma con movimientos de cámara y audio en una sola generación V6",
+      "Hacer hablar retratos con sincronización labial para memes y felicitaciones",
+      "Principiantes que aprenden video IA con la asignación diaria de créditos gratis"
+    ],
+    "fr": [
+      "Créateurs sociaux produisant des clips viraux à base de modèles depuis une seule photo",
+      "Histoires courtes multi-plans avec mouvements de caméra et audio en une seule génération V6",
+      "Faire parler des portraits avec la synchronisation labiale, pour mèmes et vœux",
+      "Débutants apprenant la vidéo IA grâce à l'allocation quotidienne de crédits gratuits"
+    ]
+  },
+  "pros": {
+    "en": [
+      "One of the few AI video tools with a genuinely recurring daily free allowance",
+      "V6's multi-shot narrative, camera control and native audio in a single pass",
+      "Template and effects library makes it the easiest on-ramp for beginners",
+      "Massive traction — over 100 million users — with fast model iteration"
+    ],
+    "zh": [
+      "少数真正提供每日循环免费额度的 AI 视频工具之一",
+      "V6 一次生成即可完成多镜头叙事、运镜控制与原生音频",
+      "模板与特效库让它成为新手最容易上手的入口",
+      "体量巨大——全球用户破一亿——模型迭代速度快"
+    ],
+    "ja": [
+      "毎日更新される無料枠を実際に提供する数少ないAI動画ツールの一つ",
+      "V6は1回の生成でマルチショット構成、カメラ制御、ネイティブ音声を実現",
+      "テンプレートとエフェクトのライブラリで初心者に最も優しい入口",
+      "ユーザー1億人超の巨大な支持基盤と速いモデル更新"
+    ],
+    "es": [
+      "Una de las pocas herramientas de video IA con asignación gratuita diaria realmente recurrente",
+      "La narrativa multi-toma, el control de cámara y el audio nativo de V6 en una sola pasada",
+      "Su biblioteca de plantillas y efectos la convierte en la rampa de entrada más fácil para principiantes",
+      "Tracción masiva —más de 100 millones de usuarios— con iteración rápida de modelos"
+    ],
+    "fr": [
+      "L'un des rares outils de vidéo IA avec une allocation gratuite quotidienne réellement récurrente",
+      "La narration multi-plans, le contrôle de caméra et l'audio natif de V6 en une seule passe",
+      "Sa bibliothèque de modèles et d'effets en fait la porte d'entrée la plus facile pour les débutants",
+      "Une traction massive — plus de 100 millions d'utilisateurs — et une itération rapide des modèles"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Peak realism still trails the very top models like Veo or Sora on complex scenes",
+      "Free outputs carry a watermark and standard-priority queues can be slow",
+      "Credit burn is fast at 1080p — heavy users outgrow Standard quickly",
+      "Template-first culture means signature effects get visually repetitive"
+    ],
+    "zh": [
+      "复杂场景的真实感峰值仍不及 Veo、Sora 等最顶级模型",
+      "免费输出带水印，普通优先级排队可能较慢",
+      "1080p 下积分消耗很快——重度用户很快就会超出 Standard",
+      "模板优先的生态让招牌特效在视觉上容易审美疲劳"
+    ],
+    "ja": [
+      "複雑なシーンのリアリズムの上限はVeoやSoraなど最上位モデルに及ばない",
+      "無料出力にはウォーターマークが付き、標準優先キューは遅いことがある",
+      "1080pではクレジット消費が速く、ヘビーユーザーはStandardをすぐ超える",
+      "テンプレート主導の文化ゆえ、看板エフェクトは見た目が単調になりがち"
+    ],
+    "es": [
+      "El realismo máximo aún queda por detrás de los mejores modelos como Veo o Sora en escenas complejas",
+      "Los resultados gratuitos llevan marca de agua y las colas de prioridad estándar pueden ser lentas",
+      "Los créditos se gastan rápido en 1080p: los usuarios intensivos superan pronto el plan Standard",
+      "La cultura de plantillas hace que los efectos estrella se vuelvan visualmente repetitivos"
+    ],
+    "fr": [
+      "Le réalisme maximal reste derrière les tout meilleurs modèles comme Veo ou Sora sur les scènes complexes",
+      "Les sorties gratuites portent un filigrane et les files en priorité standard peuvent être lentes",
+      "Les crédits filent vite en 1080p — les gros utilisateurs dépassent rapidement Standard",
+      "La culture du modèle prêt-à-l'emploi rend les effets phares visuellement répétitifs"
+    ]
+  },
+  "latestUpdate": {
+    "en": "March 2026: PixVerse V6 launches with multi-shot storytelling, camera-move control and native audio generated in a single pass, for clips of 1–15 seconds up to 1080p. The platform passes 100 million users worldwide, reports $40M+ ARR, and closed a ¥100M B+ round in late 2025 — making AIsphere one of the best-capitalized independent AI video startups.",
+    "zh": "2026 年 3 月：PixVerse V6 发布，一次生成即可完成多镜头叙事、运镜控制与原生音频，支持 1–15 秒、最高 1080p 的片段。平台全球用户破一亿，ARR 超 4000 万美元，并于 2025 年底完成 1 亿元人民币 B+ 轮融资——爱诗科技成为资本最充足的独立 AI 视频创业公司之一。",
+    "ja": "2026年3月：PixVerse V6が登場。1回の生成でマルチショット構成、カメラワーク制御、ネイティブ音声を実現し、1〜15秒・最大1080pのクリップに対応。プラットフォームは世界ユーザー1億人を突破、ARR 4,000万ドル超を報告し、2025年末に1億元のB+ラウンドを完了——AIsphereは最も資金力のある独立系AI動画スタートアップの一つに。",
+    "es": "Marzo de 2026: PixVerse V6 se lanza con narrativa multi-toma, control de movimientos de cámara y audio nativo generados en una sola pasada, para clips de 1 a 15 segundos hasta 1080p. La plataforma supera los 100 millones de usuarios en el mundo, reporta más de $40M de ARR y cerró una ronda B+ de ¥100M a finales de 2025, lo que convierte a AIsphere en una de las startups independientes de video IA mejor capitalizadas.",
+    "fr": "Mars 2026 : PixVerse V6 arrive avec la narration multi-plans, le contrôle des mouvements de caméra et l'audio natif générés en une seule passe, pour des clips de 1 à 15 secondes jusqu'en 1080p. La plateforme dépasse les 100 millions d'utilisateurs dans le monde, annonce plus de 40 M$ d'ARR et a bouclé un tour B+ de 100 M¥ fin 2025 — faisant d'AIsphere l'une des startups indépendantes de vidéo IA les mieux capitalisées."
+  },
+  "verdict": {
+    "badge": "Recommended",
+    "headline": {
+      "en": "The friendliest on-ramp to AI video, now with real filmmaking chops in V6",
+      "zh": "AI 视频最友好的入口，V6 之后还有了真正的电影感功力",
+      "ja": "AI動画への最も入りやすい入口、V6で本格的な映像制作力も獲得",
+      "es": "La rampa de entrada más amable al video IA, ahora con verdadera capacidad cinematográfica en V6",
+      "fr": "La porte d'entrée la plus accueillante vers la vidéo IA, avec de vraies compétences cinématographiques depuis V6"
+    },
+    "body": {
+      "en": "PixVerse took an unglamorous but brutally effective path to 100 million users: make AI video effortless. Its template library — hugs, dances, transformations that work from one photo — turned it into the default first AI video app for a huge audience, and a genuinely recurring free tier (60 credits daily, not a one-time trial) keeps people practicing. What changes the calculus in 2026 is V6: multi-shot storytelling, camera-move control and native audio generated in a single pass move PixVerse from toy territory toward actual filmmaking, and clips now stretch to 15 seconds at 1080p. Pricing stays simple and fair at $10/$30 per month. The honest limits: peak realism on complex scenes still trails Veo and Sora, free outputs are watermarked, credits burn quickly at 1080p, and the template-first culture means a lot of output looks alike. But as the easiest place to start AI video — and increasingly a capable place to stay — PixVerse has earned its scale. Its Chinese edition, Paiwo AI, brings the same stack to users in China.",
+      "zh": "PixVerse 走了一条不炫酷却极其有效的路通往一亿用户：把 AI 视频做到毫不费力。它的模板库——一张照片就能套用的拥抱、跳舞、变身——让它成为庞大人群的第一款 AI 视频应用，而真正每日循环的免费额度（每天 60 积分，而非一次性试用）让人们持续练手。2026 年改变格局的是 V6：一次生成即可完成多镜头叙事、运镜控制与原生音频，让 PixVerse 从玩具地带迈向真正的影像创作，片段也拉长到 15 秒、1080p。定价保持简单公道：$10/$30 每月。坦率的短板：复杂场景的真实感峰值仍逊于 Veo 和 Sora，免费输出带水印，1080p 下积分消耗快，模板优先的生态也让大量产出长得雷同。但作为 AI 视频最容易的起点——且日益成为值得留下的阵地——PixVerse 的体量名副其实。它的国内版「拍我AI」把同一套能力带给了中国用户。",
+      "ja": "PixVerseは派手さはないが極めて有効な道を通ってユーザー1億人に到達した：AI動画を徹底的に手軽にすることだ。写真1枚で使えるハグ、ダンス、変身のテンプレートライブラリは、膨大な層にとって最初のAI動画アプリとなり、毎日60クレジットという本当に更新される無料枠（1回限りのお試しではない）が継続的な利用を支える。2026年に状況を変えたのはV6だ。1回の生成でマルチショット構成、カメラワーク制御、ネイティブ音声を実現し、PixVerseをおもちゃの領域から本格的な映像制作へと押し上げ、クリップは1080pで15秒まで伸びた。料金は月$10/$30とシンプルで良心的。正直な限界もある。複雑なシーンのリアリズム上限はVeoやSoraに及ばず、無料出力にはウォーターマークが付き、1080pではクレジットがすぐ尽き、テンプレート主導ゆえ産出物は似通いがちだ。しかしAI動画を始める最も簡単な場所として——そして次第に留まる価値のある場所として——PixVerseの規模は伊達ではない。中国版「拍我AI」は同じ技術スタックを中国のユーザーに届けている。",
+      "es": "PixVerse tomó un camino poco glamuroso pero brutalmente eficaz hacia los 100 millones de usuarios: hacer el video IA sin esfuerzo. Su biblioteca de plantillas —abrazos, bailes y transformaciones que funcionan con una foto— la convirtió en la primera app de video IA por defecto para una audiencia enorme, y un nivel gratuito realmente recurrente (60 créditos diarios, no una prueba única) mantiene a la gente practicando. Lo que cambia el cálculo en 2026 es V6: la narrativa multi-toma, el control de cámara y el audio nativo generados en una sola pasada llevan a PixVerse del terreno del juguete hacia el cine real, y los clips ya alcanzan 15 segundos en 1080p. El precio sigue simple y justo: $10/$30 al mes. Los límites honestos: el realismo máximo en escenas complejas aún va detrás de Veo y Sora, los resultados gratis llevan marca de agua, los créditos vuelan en 1080p y la cultura de plantillas hace que mucho contenido se parezca. Pero como el lugar más fácil para empezar en video IA —y cada vez más capaz para quedarse—, PixVerse se ha ganado su escala. Su edición china, Paiwo AI, lleva la misma tecnología a los usuarios de China.",
+      "fr": "PixVerse a pris un chemin peu glorieux mais redoutablement efficace vers les 100 millions d'utilisateurs : rendre la vidéo IA sans effort. Sa bibliothèque de modèles — câlins, danses, transformations utilisables depuis une seule photo — en a fait la première app de vidéo IA par défaut pour un public énorme, et un niveau gratuit réellement récurrent (60 crédits par jour, pas un essai unique) entretient la pratique. Ce qui change la donne en 2026, c'est V6 : narration multi-plans, contrôle de caméra et audio natif générés en une seule passe font passer PixVerse du gadget vers la vraie réalisation, et les clips atteignent désormais 15 secondes en 1080p. Les prix restent simples et honnêtes : 10 $/30 $ par mois. Les limites, en toute franchise : le réalisme maximal sur scènes complexes reste derrière Veo et Sora, les sorties gratuites sont filigranées, les crédits filent en 1080p, et la culture du modèle prêt-à-l'emploi uniformise beaucoup de contenus. Mais comme point de départ le plus facile en vidéo IA — et de plus en plus comme un endroit où rester — PixVerse a mérité son échelle. Son édition chinoise, Paiwo AI, apporte la même technologie aux utilisateurs de Chine."
+    },
+    "bestFor": {
+      "en": [
+        "Beginners who want the gentlest, template-driven start in AI video",
+        "Social creators chasing viral effect formats from single photos",
+        "Anyone who values a real daily free allowance for continuous practice"
+      ],
+      "zh": [
+        "想以最平缓、模板化方式入门 AI 视频的新手",
+        "追逐单照片爆款特效格式的社媒创作者",
+        "看重真正每日免费额度、想持续练手的人"
+      ],
+      "ja": [
+        "テンプレート主導で最も緩やかにAI動画を始めたい初心者",
+        "写真1枚のバズ系エフェクト形式を狙うSNSクリエイター",
+        "毎日の無料枠で継続的に練習したい人"
+      ],
+      "es": [
+        "Principiantes que quieren el inicio más suave y basado en plantillas en video IA",
+        "Creadores sociales que persiguen formatos de efectos virales desde una sola foto",
+        "Quienes valoran una asignación gratuita diaria real para practicar de forma continua"
+      ],
+      "fr": [
+        "Débutants voulant le démarrage le plus doux, à base de modèles, en vidéo IA",
+        "Créateurs sociaux en quête de formats d'effets viraux à partir d'une seule photo",
+        "Quiconque apprécie une vraie allocation gratuite quotidienne pour pratiquer en continu"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You need peak cinematic realism for complex scenes (→ Veo / Sora)",
+        "Your clips center on physically realistic human motion (→ Hailuo AI)"
+      ],
+      "zh": [
+        "你需要复杂场景下的顶级电影级真实感（→ Veo / Sora）",
+        "你的片段以物理真实的人物动作为核心（→ 海螺AI）"
+      ],
+      "ja": [
+        "複雑なシーンで最高峰の映画的リアリズムが必要（→ Veo / Sora）",
+        "物理的にリアルな人物の動きが主役のクリップ（→ Hailuo AI）"
+      ],
+      "es": [
+        "Necesitas el máximo realismo cinematográfico en escenas complejas (→ Veo / Sora)",
+        "Tus clips giran en torno al movimiento humano físicamente realista (→ Hailuo AI)"
+      ],
+      "fr": [
+        "Vous avez besoin d'un réalisme cinématographique maximal sur des scènes complexes (→ Veo / Sora)",
+        "Vos clips reposent sur des mouvements humains physiquement réalistes (→ Hailuo AI)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-28",
+    "verdictDate": "2026-07-28",
+    "pricingVerified": "2026-07-28",
+    "pricingUrl": "https://app.pixverse.ai/membership"
+  }
+}

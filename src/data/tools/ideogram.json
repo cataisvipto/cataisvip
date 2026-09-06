@@ -1,0 +1,28 @@
+{
+  "slug": "ideogram",
+  "name": "Ideogram",
+  "nameZh": "Ideogram",
+  "description": "AI 图像生成工具，以精准的文字渲染能力著称，擅长含文字的海报和 Logo 设计",
+  "descriptionEn": "AI image generation tool known for precise text rendering, excels at posters and logo design with text",
+  "descriptionJa": "正確なテキストレンダリングで有名なAI画像生成ツール。文字入りポスターやロゴデザインに優れる",
+  "descriptionEs": "Herramienta de generación de imágenes IA conocida por su renderizado preciso de texto, destaca en pósters y diseño de logos",
+  "descriptionFr": "Outil de génération d'images IA connu pour son rendu textuel précis, excelle dans les affiches et la conception de logos",
+  "url": "https://ideogram.ai",
+  "logo": "/logos/tools/ideogram.png",
+  "category": "Image",
+  "tags": [
+    "Freemium"
+  ],
+  "featured": false,
+  "developer": "Ideogram",
+  "platforms": {
+    "web": true,
+    "windows": false,
+    "macos": false,
+    "ios": true,
+    "android": false,
+    "linux": false,
+    "browser_extension": false,
+    "api": true
+  }
+}

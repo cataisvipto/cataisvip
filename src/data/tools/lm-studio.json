@@ -1,0 +1,29 @@
+{
+  "slug": "lm-studio",
+  "name": "LM Studio",
+  "nameZh": "LM Studio",
+  "description": "本地跑大模型门槛最低的桌面工具，图形化下载运行开源模型（llama.cpp + Apple MLX 双引擎），内置 OpenAI 兼容本地 API 服务器与 MCP 客户端，2025 年起个人与商用全免费，2026 年新推代理应用 Bionic",
+  "descriptionEn": "The lowest-barrier desktop app for running LLMs locally: download and run open models with a GUI (llama.cpp + Apple MLX engines), a built-in OpenAI-compatible local API server and MCP client — free for personal and commercial use since 2025, with the new Bionic agent app launched in 2026",
+  "descriptionJa": "ローカルでLLMを動かす最も敷居の低いデスクトップツール。GUIでオープンモデルをダウンロード・実行（llama.cpp + Apple MLXの2エンジン）、OpenAI互換のローカルAPIサーバーとMCPクライアントを内蔵。2025年から個人・商用とも完全無料、2026年にはエージェントアプリBionicを新発売",
+  "descriptionEs": "La app de escritorio con menor barrera para ejecutar LLM en local: descarga y ejecuta modelos abiertos con interfaz gráfica (motores llama.cpp + Apple MLX), con servidor API local compatible con OpenAI y cliente MCP integrados — gratis para uso personal y comercial desde 2025, con la nueva app de agentes Bionic lanzada en 2026",
+  "descriptionFr": "L'app de bureau la plus accessible pour exécuter des LLM en local : téléchargez et lancez des modèles ouverts en interface graphique (moteurs llama.cpp + Apple MLX), avec serveur API local compatible OpenAI et client MCP intégrés — gratuite pour usage personnel et commercial depuis 2025, avec la nouvelle app d'agents Bionic lancée en 2026",
+  "url": "https://lmstudio.ai",
+  "logo": "/logos/tools/lm-studio.png",
+  "category": "Open Source",
+  "tags": [
+    "Free",
+    "API"
+  ],
+  "featured": false,
+  "developer": "Element Labs",
+  "platforms": {
+    "web": false,
+    "windows": true,
+    "macos": true,
+    "ios": false,
+    "android": false,
+    "linux": true,
+    "browser_extension": false,
+    "api": true
+  }
+}

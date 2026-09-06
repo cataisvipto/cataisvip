@@ -1,0 +1,75 @@
+{
+  "slug": "media-crawler",
+  "name": "Media Crawler",
+  "nameZh": "自媒体数据采集",
+  "description": "自媒体平台数据采集爬虫。支持小红书、抖音、快手、B 站、微博、知乎等平台的内容抓取。",
+  "descriptionEn": "Social media data crawler. Supports content scraping from Xiaohongshu, Douyin, Kuaishou, Bilibili, Weibo, Zhihu and more.",
+  "descriptionJa": "ソーシャルメディアデータクローラー。小红书、抖音、快手、B站、微博、知乎などのコンテンツスクレイピングに対応。",
+  "descriptionEs": "Crawler de datos de redes sociales. Soporta scraping de Xiaohongshu, Douyin, Kuaishou, Bilibili, Weibo, Zhihu y más.",
+  "descriptionFr": "Crawler de données de médias sociaux. Supporte le scraping de Xiaohongshu, Douyin, Kuaishou, Bilibili, Weibo, Zhihu et plus.",
+  "developer": "NanmiCoder",
+  "developerZh": "NanmiCoder",
+  "repo": "NanmiCoder/MediaCrawler",
+  "agents": [
+    "generic"
+  ],
+  "category": "Developer",
+  "tags": [
+    "Free",
+    "Open Source"
+  ],
+  "installCommand": "See README for installation instructions.",
+  "logo": "/logos/skills/media-crawler.png",
+  "stars": 64433,
+  "featured": false,
+  "faqs": [
+    {
+      "question": {
+        "zh": "Media Crawler 支持哪些平台？",
+        "en": "Which platforms does Media Crawler support?",
+        "ja": "Media Crawler はどのプラットフォームに対応していますか？",
+        "es": "¿Qué plataformas soporta Media Crawler?",
+        "fr": "Quelles plateformes Media Crawler prend-il en charge ?"
+      },
+      "answer": {
+        "zh": "覆盖中国主流自媒体平台：小红书、抖音、快手、B 站、微博、知乎等，可抓取笔记、视频信息、评论等公开内容，适合内容选题研究、舆情分析和数据洞察。",
+        "en": "It covers major Chinese social media platforms: Xiaohongshu (RED), Douyin, Kuaishou, Bilibili, Weibo, Zhihu and more, scraping public content like posts, video metadata and comments — useful for content research, sentiment analysis and data insights.",
+        "ja": "中国の主要ソーシャルメディアをカバーします。小紅書（RED）、抖音、快手、Bilibili、微博、知乎などから、投稿、動画情報、コメントなどの公開コンテンツを収集可能。コンテンツ企画のリサーチ、世論分析、データ洞察に役立ちます。",
+        "es": "Cubre las principales plataformas sociales chinas: Xiaohongshu (RED), Douyin, Kuaishou, Bilibili, Weibo, Zhihu y más, extrayendo contenido público como publicaciones, metadatos de vídeo y comentarios. Útil para investigación de contenido y análisis de tendencias.",
+        "fr": "Il couvre les principales plateformes sociales chinoises : Xiaohongshu (RED), Douyin, Kuaishou, Bilibili, Weibo, Zhihu, etc., en collectant du contenu public — publications, métadonnées vidéo, commentaires. Utile pour la recherche de contenu et l'analyse de tendances."
+      }
+    },
+    {
+      "question": {
+        "zh": "怎么安装 Media Crawler？",
+        "en": "How do I install Media Crawler?",
+        "ja": "Media Crawler をインストールするには？",
+        "es": "¿Cómo instalo Media Crawler?",
+        "fr": "Comment installer Media Crawler ?"
+      },
+      "answer": {
+        "zh": "它是 Python 项目：克隆 GitHub 仓库，安装依赖后按 README 配置目标平台与登录态即可运行。配合 AI 智能体使用时，可让 AI 解读抓取结果、生成分析报告。",
+        "en": "It is a Python project: clone the GitHub repository, install dependencies, then configure target platforms and login state per the README. Paired with an AI agent, the AI can interpret scraped results and generate analysis reports.",
+        "ja": "Python プロジェクトです。GitHub リポジトリをクローンし、依存関係をインストール後、README に従って対象プラットフォームとログイン状態を設定すれば動きます。AI エージェントと組み合わせれば、収集結果の解釈や分析レポートの生成を AI に任せられます。",
+        "es": "Es un proyecto Python: clona el repositorio de GitHub, instala las dependencias y configura las plataformas objetivo y el estado de sesión según el README. Junto a un agente de IA, este puede interpretar los resultados y generar informes de análisis.",
+        "fr": "C'est un projet Python : clonez le dépôt GitHub, installez les dépendances, puis configurez les plateformes cibles et l'état de connexion selon le README. Associé à un agent IA, celui-ci peut interpréter les résultats et générer des rapports d'analyse."
+      }
+    },
+    {
+      "question": {
+        "zh": "使用 Media Crawler 合法合规吗？",
+        "en": "Is using Media Crawler legal and compliant?",
+        "ja": "Media Crawler の利用は合法・コンプライアンスに適合しますか？",
+        "es": "¿Es legal usar Media Crawler?",
+        "fr": "L'utilisation de Media Crawler est-elle légale ?"
+      },
+      "answer": {
+        "zh": "工具免费开源，仅限学习研究用途。抓取行为需遵守各平台服务条款和所在地法律法规：控制频率、只取公开数据、不用于商业售卖或侵犯隐私，风险由使用者自行承担。",
+        "en": "The tool is free and open source, intended for learning and research only. Scraping must respect each platform’s terms of service and local laws: throttle request rates, collect only public data, and never use it for commercial resale or privacy violations. Users bear the risk.",
+        "ja": "ツールは無料のオープンソースで、学習・研究用途に限定されています。スクレイピングは各プラットフォームの利用規約と現地の法令を遵守する必要があります。頻度を抑え、公開データのみを取得し、商用転売やプライバシー侵害には使わないこと。リスクは利用者負担です。",
+        "es": "La herramienta es gratuita y de código abierto, destinada solo a aprendizaje e investigación. El scraping debe respetar los términos de cada plataforma y las leyes locales: limita la frecuencia, recoge solo datos públicos y nunca lo uses para reventa comercial o violación de privacidad.",
+        "fr": "L'outil est gratuit et open source, destiné uniquement à l'apprentissage et à la recherche. Le scraping doit respecter les CGU de chaque plateforme et les lois locales : limitez la fréquence, ne collectez que des données publiques, jamais pour la revente commerciale ou l'atteinte à la vie privée."
+      }
+    }
+  ]
+}

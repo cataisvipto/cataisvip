@@ -1,0 +1,79 @@
+{
+  "slug": "duckduckgo-mcp",
+  "name": "DuckDuckGo MCP",
+  "nameZh": "DuckDuckGo 搜索 MCP",
+  "description": "基于 DuckDuckGo 的隐私搜索 MCP 服务器。让 AI 智能体通过 DuckDuckGo 搜索引擎获取实时网络搜索结果，无需 API Key，保护搜索隐私。",
+  "descriptionEn": "A privacy-focused search MCP server powered by DuckDuckGo. Lets AI agents get real-time web search results through DuckDuckGo's search engine — no API key needed, protecting your search privacy.",
+  "descriptionJa": "DuckDuckGo を搭載したプライバシー重視の検索 MCP サーバー。AI エージェントが DuckDuckGo の検索エンジンを介してリアルタイムのウェブ検索結果を取得できます。API キー不要で、検索プライバシーを保護します。",
+  "descriptionEs": "Un servidor MCP de búsqueda centrado en la privacidad impulsado por DuckDuckGo. Permite a los agentes de IA obtener resultados de búsqueda web en tiempo real a través del motor de búsqueda de DuckDuckGo — sin necesidad de clave API, protegiendo tu privacidad de búsqueda.",
+  "descriptionFr": "Un serveur MCP de recherche axé sur la confidentialité propulsé par DuckDuckGo. Permet aux agents IA d'obtenir des résultats de recherche web en temps réel via le moteur de recherche DuckDuckGo — sans clé API, protégeant votre confidentialité de recherche.",
+  "developer": "nickclyde",
+  "developerZh": "nickclyde",
+  "repo": "nickclyde/duckduckgo-mcp-server",
+  "clients": [
+    "claude",
+    "cursor",
+    "vscode",
+    "codex",
+    "generic"
+  ],
+  "category": "Search",
+  "tags": [
+    "Free",
+    "Open Source"
+  ],
+  "installCommand": "npx -y duckduckgo-mcp-server",
+  "logo": "/logos/mcp/duckduckgo-mcp.png",
+  "stars": 1454,
+  "featured": false,
+  "faqs": [
+    {
+      "question": {
+        "zh": "DuckDuckGo MCP 和 Brave Search MCP 有什么区别？",
+        "en": "How is DuckDuckGo MCP different from Brave Search MCP?",
+        "ja": "DuckDuckGo MCP と Brave Search MCP の違いは？",
+        "es": "¿En qué se diferencia DuckDuckGo MCP de Brave Search MCP?",
+        "fr": "En quoi DuckDuckGo MCP diffère-t-il de Brave Search MCP ?"
+      },
+      "answer": {
+        "zh": "DuckDuckGo MCP 完全免费且无需 API Key，适合零成本部署。Brave Search MCP 需要 API Key（有免费额度）。两者都是隐私优先的搜索引擎，搜索结果质量各有千秋。",
+        "en": "DuckDuckGo MCP is completely free with no API key needed — ideal for zero-cost deployment. Brave Search MCP requires an API key (with a free tier). Both are privacy-first search engines, with varying search result quality.",
+        "ja": "DuckDuckGo MCP は完全無料で API キー不要のため、ゼロコストでの導入に最適です。Brave Search MCP は API キーが必要です（無料枠あり）。どちらもプライバシー優先の検索エンジンで、検索結果の品質はそれぞれ異なります。",
+        "es": "DuckDuckGo MCP es completamente gratuito sin necesidad de clave API — ideal para despliegue de costo cero. Brave Search MCP requiere una clave API (con nivel gratuito). Ambos son motores de búsqueda priorizando la privacidad, con calidad de resultados variable.",
+        "fr": "DuckDuckGo MCP est complètement gratuit sans clé API — idéal pour un déploiement à coût zéro. Brave Search MCP nécessite une clé API (avec un niveau gratuit). Les deux sont des moteurs de recherche axés sur la confidentialité, avec une qualité de résultats variable."
+      }
+    },
+    {
+      "question": {
+        "zh": "DuckDuckGo MCP 能搜索中文内容吗？",
+        "en": "Can DuckDuckGo MCP search Chinese content?",
+        "ja": "DuckDuckGo MCP は中国語のコンテンツを検索できますか？",
+        "es": "¿Puede DuckDuckGo MCP buscar contenido en chino?",
+        "fr": "DuckDuckGo MCP peut-il rechercher du contenu en chinois ?"
+      },
+      "answer": {
+        "zh": "可以。DuckDuckGo 支持多语言搜索，包括中文。但 DuckDuckGo 在中国大陆可能无法直接访问，需要配合 VPN 使用。搜索结果以英文和中文为主，中文搜索质量不如百度等国内引擎。",
+        "en": "Yes. DuckDuckGo supports multilingual search including Chinese. However, it may not be directly accessible in mainland China without a VPN. Search results are primarily in English and Chinese, with Chinese search quality not as good as domestic engines like Baidu.",
+        "ja": "はい。DuckDuckGo は中国語を含む多言語検索に対応しています。ただし、中国本土では VPN なしでは直接アクセスできない場合があります。検索結果は主に英語と中国語で、中国語の検索品質は百度などの国内エンジンには及ばない場合があります。",
+        "es": "Sí. DuckDuckGo soporta búsqueda multilingüe incluyendo chino. Sin embargo, puede no ser accesible directamente en China continental sin una VPN. Los resultados de búsqueda son principalmente en inglés y chino, con calidad de búsqueda en chino no tan buena como motores domésticos como Baidu.",
+        "fr": "Oui. DuckDuckGo prend en charge la recherche multilingue, y compris le chinois. Cependant, il peut ne pas être accessible directement en Chine continentale sans VPN. Les résultats de recherche sont principalement en anglais et en chinois, avec une qualité de recherche en chinois moins bonne que les moteurs nationaux comme Baidu."
+      }
+    },
+    {
+      "question": {
+        "zh": "DuckDuckGo MCP 免费吗？",
+        "en": "Is DuckDuckGo MCP free?",
+        "ja": "DuckDuckGo MCP は無料ですか？",
+        "es": "¿DuckDuckGo MCP es gratuito?",
+        "fr": "DuckDuckGo MCP est-il gratuit ?"
+      },
+      "answer": {
+        "zh": "完全免费开源，无需 API Key 或注册。MCP 服务器在本地运行，通过 DuckDuckGo 的公共搜索 API 获取结果，没有使用次数限制。",
+        "en": "Completely free and open source, no API key or registration needed. The MCP server runs locally and fetches results through DuckDuckGo's public search API with no usage limits.",
+        "ja": "完全無料・オープンソースで、API キーや登録は不要です。MCP サーバーはローカルで動作し、DuckDuckGo の公開検索 API を介して結果を取得するため、使用回数の制限はありません。",
+        "es": "Completamente gratuito y de código abierto, sin necesidad de clave API ni registro. El servidor MCP se ejecuta en local y obtiene resultados a través de la API de búsqueda pública de DuckDuckGo sin límites de uso.",
+        "fr": "Entièrement gratuit et open source, sans clé API ni inscription nécessaire. Le serveur MCP s'exécute localement et récupère les résultats via l'API de recherche publique de DuckDuckGo sans limite d'utilisation."
+      }
+    }
+  ]
+}

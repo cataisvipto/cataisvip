@@ -1,0 +1,227 @@
+{
+  "features": {
+    "en": [
+      "On-device ~3B model built into Apple Intelligence",
+      "Swift-native Foundation Models framework",
+      "Guided generation with type-safe @Generable output",
+      "Tool calling for app-specific actions",
+      "Private Cloud Compute for heavier requests",
+      "Works offline with zero API cost"
+    ],
+    "zh": [
+      "内置于 Apple Intelligence 的端侧约 3B 模型",
+      "Swift 原生 Foundation Models 框架",
+      "@Generable 类型安全的引导式生成",
+      "工具调用支持应用内动作",
+      "较重请求走 Private Cloud Compute",
+      "离线可用，零 API 成本"
+    ],
+    "ja": [
+      "Apple Intelligenceに内蔵された約3Bのオンデバイスモデル",
+      "SwiftネイティブのFoundation Modelsフレームワーク",
+      "@Generableによる型安全なガイド付き生成",
+      "アプリ固有アクションのツール呼び出し",
+      "重い処理はPrivate Cloud Computeへ",
+      "オフラインで動作、APIコストゼロ"
+    ],
+    "es": [
+      "Modelo en dispositivo de ~3B integrado en Apple Intelligence",
+      "Framework Foundation Models nativo de Swift",
+      "Generación guiada con salida type-safe @Generable",
+      "Llamadas a herramientas para acciones específicas de la app",
+      "Private Cloud Compute para peticiones pesadas",
+      "Funciona sin conexión con coste de API cero"
+    ],
+    "fr": [
+      "Modèle embarqué d'environ 3B intégré à Apple Intelligence",
+      "Framework Foundation Models natif Swift",
+      "Génération guidée avec sortie type-safe @Generable",
+      "Appel d'outils pour des actions propres à l'app",
+      "Private Cloud Compute pour les requêtes lourdes",
+      "Fonctionne hors ligne sans coût d'API"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Completely free for developers — no API fees, inference runs on user devices",
+      "zh": "对开发者完全免费——无 API 费用，推理在用户设备上运行",
+      "ja": "開発者は完全無料——API料金なし、推論はユーザーのデバイス上で実行",
+      "es": "Completamente gratis para desarrolladores — sin tarifas de API, la inferencia corre en los dispositivos de los usuarios",
+      "fr": "Entièrement gratuit pour les développeurs — pas de frais d'API, l'inférence s'exécute sur les appareils des utilisateurs"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Adding AI features to iOS/macOS apps at zero cost",
+      "Privacy-first summarization and extraction",
+      "Offline AI in Notes-style or journaling apps",
+      "Structured output generation in Swift apps",
+      "In-app assistants calling app tools"
+    ],
+    "zh": [
+      "零成本给 iOS/macOS 应用加 AI 功能",
+      "隐私优先的摘要与信息抽取",
+      "笔记/日记类应用的离线 AI",
+      "Swift 应用中的结构化输出生成",
+      "调用应用工具的内置助手"
+    ],
+    "ja": [
+      "iOS/macOSアプリへのゼロコストAI機能追加",
+      "プライバシー第一の要約と抽出",
+      "メモ・日記系アプリのオフラインAI",
+      "Swiftアプリでの構造化出力生成",
+      "アプリツールを呼び出すアプリ内アシスタント"
+    ],
+    "es": [
+      "Añadir funciones de IA a apps iOS/macOS sin coste",
+      "Resumen y extracción con privacidad primero",
+      "IA sin conexión en apps de notas o diarios",
+      "Generación de salida estructurada en apps Swift",
+      "Asistentes integrados que llaman a herramientas de la app"
+    ],
+    "fr": [
+      "Ajout de fonctions IA aux apps iOS/macOS sans coût",
+      "Résumé et extraction axés sur la confidentialité",
+      "IA hors ligne dans les apps de notes ou de journal",
+      "Génération de sorties structurées dans les apps Swift",
+      "Assistants intégrés appelant les outils de l'app"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Zero inference cost at any scale",
+      "Best-in-class privacy story",
+      "Deep OS integration, tiny battery impact",
+      "Type-safe structured output is elegant"
+    ],
+    "zh": [
+      "任何规模下推理成本为零",
+      "隐私叙事业界最佳",
+      "深度系统集成，电量影响极小",
+      "类型安全的结构化输出很优雅"
+    ],
+    "ja": [
+      "どの規模でも推論コストゼロ",
+      "業界最高クラスのプライバシー",
+      "OSとの深い統合、バッテリー影響は僅少",
+      "型安全な構造化出力がエレガント"
+    ],
+    "es": [
+      "Coste de inferencia cero a cualquier escala",
+      "La mejor historia de privacidad de su clase",
+      "Integración profunda con el SO, impacto mínimo en batería",
+      "La salida estructurada type-safe es elegante"
+    ],
+    "fr": [
+      "Coût d'inférence nul à toute échelle",
+      "Meilleure garantie de confidentialité du marché",
+      "Intégration OS profonde, impact batterie minime",
+      "La sortie structurée type-safe est élégante"
+    ]
+  },
+  "cons": {
+    "en": [
+      "~3B model — far below frontier capability",
+      "Apple devices with Apple Intelligence only",
+      "No cross-platform or server-side story"
+    ],
+    "zh": [
+      "约 3B 模型，能力远低于前沿水平",
+      "仅限支持 Apple Intelligence 的苹果设备",
+      "无跨平台或服务端方案"
+    ],
+    "ja": [
+      "約3Bモデルでフロンティア級の能力には遠い",
+      "Apple Intelligence対応のApple端末限定",
+      "クロスプラットフォームやサーバーサイドの選択肢なし"
+    ],
+    "es": [
+      "Modelo de ~3B — muy por debajo de la capacidad frontera",
+      "Solo dispositivos Apple con Apple Intelligence",
+      "Sin opción multiplataforma ni del lado del servidor"
+    ],
+    "fr": [
+      "Modèle d'environ 3B — loin des capacités frontière",
+      "Uniquement les appareils Apple avec Apple Intelligence",
+      "Pas d'option multiplateforme ni côté serveur"
+    ]
+  },
+  "latestUpdate": {
+    "en": "2026: Foundation Models framework matures with broader language support and improved guided generation",
+    "zh": "2026年：Foundation Models 框架趋于成熟，扩大语言支持并改进引导式生成",
+    "ja": "2026年：Foundation Modelsフレームワークが成熟、言語サポート拡大とガイド付き生成の改善",
+    "es": "2026: el framework Foundation Models madura con soporte de idiomas más amplio y generación guiada mejorada",
+    "fr": "2026 : le framework Foundation Models gagne en maturité avec un support linguistique élargi et une génération guidée améliorée"
+  },
+  "verdict": {
+    "badge": "For Specific Needs",
+    "headline": {
+      "en": "Free, private, on-device AI for every Apple app — as long as you accept a small model's limits.",
+      "zh": "给每个苹果应用的免费、私密、端侧 AI——前提是接受小模型的能力上限。",
+      "ja": "すべてのAppleアプリに無料・プライベート・オンデバイスのAIを——小型モデルの限界を受け入れられるなら。",
+      "es": "IA gratuita, privada y en dispositivo para cada app de Apple — siempre que aceptes los límites de un modelo pequeño.",
+      "fr": "Une IA gratuite, privée et embarquée pour chaque app Apple — à condition d'accepter les limites d'un petit modèle."
+    },
+    "body": {
+      "en": "For iOS and macOS developers, this is the cheapest AI you will ever ship: no API keys, no per-token bills, no user data leaving the device. The Swift-native framework with @Generable structured output and tool calling is genuinely well designed, and Private Cloud Compute extends capability without compromising the privacy model.\n\nThe catch is the ~3B parameter ceiling — summarization, extraction and classification work well, but complex reasoning or long-form generation will disappoint. Use it as the default layer and escalate to a cloud LLM only where quality demands.",
+      "zh": "对 iOS/macOS 开发者，这是你能发布的最便宜的 AI：没有 API 密钥、没有按 token 计费、用户数据不出设备。Swift 原生框架配 @Generable 结构化输出和工具调用，设计得确实漂亮；Private Cloud Compute 在不破坏隐私模型的前提下扩展能力。\n\n代价是约 3B 参数的上限——摘要、抽取、分类表现不错，但复杂推理和长文生成会让人失望。建议把它当默认层，只在质量要求高的地方升级到云端 LLM。",
+      "ja": "iOS/macOS開発者にとって、これは出荷できる最も安価なAIだ。APIキーなし、トークン課金なし、ユーザーデータはデバイスの外に出ない。@Generableの構造化出力とツール呼び出しを備えたSwiftネイティブフレームワークは本当によく設計されており、Private Cloud Computeはプライバシーモデルを損なわずに能力を拡張する。\n\n難点は約3Bパラメータという上限だ。要約・抽出・分類は良好だが、複雑な推論や長文生成には期待できない。デフォルト層として使い、品質が求められる場面だけクラウドLLMに切り替えるのが賢明だ。",
+      "es": "Para desarrolladores de iOS y macOS, esta es la IA más barata que jamás lanzarás: sin claves de API, sin facturas por token, sin datos de usuario saliendo del dispositivo. El framework nativo de Swift con salida estructurada @Generable y llamadas a herramientas está genuinamente bien diseñado, y Private Cloud Compute amplía la capacidad sin comprometer el modelo de privacidad.\n\nLa pega es el techo de ~3B parámetros: resumen, extracción y clasificación funcionan bien, pero el razonamiento complejo decepcionará. Úsalo como capa por defecto y escala a un LLM en la nube solo donde la calidad lo exija.",
+      "fr": "Pour les développeurs iOS et macOS, c'est l'IA la moins chère que vous puissiez livrer : pas de clés d'API, pas de facturation au token, aucune donnée utilisateur ne quitte l'appareil. Le framework natif Swift avec sortie structurée @Generable et appel d'outils est réellement bien conçu, et Private Cloud Compute étend les capacités sans compromettre le modèle de confidentialité.\n\nLe hic : le plafond d'environ 3B paramètres — résumé, extraction et classification fonctionnent bien, mais le raisonnement complexe décevra. Utilisez-le comme couche par défaut et passez à un LLM cloud uniquement là où la qualité l'exige."
+    },
+    "bestFor": {
+      "en": [
+        "iOS/macOS developers adding AI features",
+        "Privacy-sensitive app categories",
+        "Offline-first AI experiences"
+      ],
+      "zh": [
+        "要加 AI 功能的 iOS/macOS 开发者",
+        "隐私敏感的应用品类",
+        "离线优先的 AI 体验"
+      ],
+      "ja": [
+        "AI機能を追加するiOS/macOS開発者",
+        "プライバシーに敏感なアプリカテゴリ",
+        "オフラインファーストのAI体験"
+      ],
+      "es": [
+        "Desarrolladores iOS/macOS que añaden funciones de IA",
+        "Categorías de apps sensibles a la privacidad",
+        "Experiencias de IA offline-first"
+      ],
+      "fr": [
+        "Développeurs iOS/macOS ajoutant des fonctions IA",
+        "Catégories d'apps sensibles à la confidentialité",
+        "Expériences IA hors ligne d'abord"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You need frontier-level intelligence (→ ChatGPT, Claude)",
+        "You build cross-platform apps (→ Gemini, Llama)"
+      ],
+      "zh": [
+        "需要前沿级智能（→ ChatGPT、Claude）",
+        "开发跨平台应用（→ Gemini、Llama）"
+      ],
+      "ja": [
+        "フロンティア級の知能が必要な場合（→ ChatGPT、Claude）",
+        "クロスプラットフォームアプリを作る場合（→ Gemini、Llama）"
+      ],
+      "es": [
+        "Necesitas inteligencia de nivel frontera (→ ChatGPT, Claude)",
+        "Desarrollas apps multiplataforma (→ Gemini, Llama)"
+      ],
+      "fr": [
+        "Vous avez besoin d'une intelligence de niveau frontière (→ ChatGPT, Claude)",
+        "Vous créez des apps multiplateformes (→ Gemini, Llama)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-27",
+    "verdictDate": "2026-07-27",
+    "pricingVerified": "2026-07-27"
+  }
+}

@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
-import tools from '@/data/tools.json';
-import toolDetails from '@/data/toolDetails.json';
+import { tools } from '@/data/aggregated';
+import { toolDetails } from '@/data/aggregated';
 import blogPosts from '@/data/blogPosts.json';
 import tutorials from '@/data/tutorials.json';
 import { Tool } from '@/components/ToolCard';
@@ -79,7 +79,7 @@ export default async function ToolDetailPage({ params }: Props) {
     notFound();
   }
 
-  // 在服务端按 slug 取单条详情与关联数据，避免客户端组件 import 整个 toolDetails.json（原始 1.8MB）
+  // 在服务端按 slug 取单条详情与关联数据，避免客户端组件把整包数据打进 bundle
   // 被打进客户端 bundle（Lighthouse 报 670KiB 未使用 JS 的元凶）
   const details = (toolDetails as Record<string, unknown>)[tool.slug] ?? null;
 

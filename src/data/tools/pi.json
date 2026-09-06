@@ -1,0 +1,29 @@
+{
+  "slug": "pi",
+  "name": "Pi",
+  "nameZh": "Pi",
+  "description": "极简开源终端编码智能体，只有 4 个工具、系统提示一页纸，靠 TypeScript 扩展自我改造成你的专属工作流；模型无关，可直接复用 Claude/ChatGPT/Copilot 订阅",
+  "descriptionEn": "Minimal open-source terminal coding agent with just 4 tools and a one-page prompt, reshaped into your own workflow via TypeScript extensions; model-agnostic and reuses your Claude/ChatGPT/Copilot subscriptions",
+  "descriptionJa": "ツールわずか4つ・システムプロンプト1ページのミニマルなオープンソース端末コーディングエージェント。TypeScript拡張で自分専用のワークフローに作り替えられる。モデル非依存でClaude/ChatGPT/Copilotのサブスクをそのまま利用可能",
+  "descriptionEs": "Agente de codificación de terminal minimalista y de código abierto con solo 4 herramientas y un prompt de una página, moldeable a tu flujo de trabajo con extensiones TypeScript; agnóstico de modelos y reutiliza tus suscripciones de Claude/ChatGPT/Copilot",
+  "descriptionFr": "Agent de codage en terminal minimaliste et open source avec seulement 4 outils et un prompt d'une page, remodelable selon votre workflow via des extensions TypeScript ; indépendant du modèle et réutilise vos abonnements Claude/ChatGPT/Copilot",
+  "url": "https://pi.dev",
+  "logo": "/logos/tools/pi.svg",
+  "category": "Code",
+  "tags": [
+    "Free",
+    "Open Source"
+  ],
+  "featured": false,
+  "developer": "Mario Zechner (earendil-works)",
+  "platforms": {
+    "web": false,
+    "windows": true,
+    "macos": true,
+    "ios": false,
+    "android": false,
+    "linux": true,
+    "browser_extension": false,
+    "api": false
+  }
+}

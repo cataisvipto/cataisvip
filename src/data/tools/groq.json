@@ -1,0 +1,29 @@
+{
+  "slug": "groq",
+  "name": "Groq",
+  "nameZh": "Groq",
+  "description": "超高速 AI 推理平台，LPU 架构实现毫秒级响应，支持 Llama、Mixtral 等开源模型",
+  "descriptionEn": "Ultra-fast AI inference platform with LPU architecture for millisecond responses, supporting Llama, Mixtral and other open models",
+  "descriptionJa": "超高速AI推論プラットフォーム。LPUアーキテクチャでミリ秒応答、Llama、Mixtralなどのオープンモデルに対応",
+  "descriptionEs": "Plataforma de inferencia IA ultrarrápida con arquitectura LPU para respuestas en milisegundos, compatible con Llama, Mixtral y otros modelos abiertos",
+  "descriptionFr": "Plateforme d'inférence IA ultra-rapide avec architecture LPU pour des réponses en millisecondes, prenant en charge Llama, Mixtral et d'autres modèles ouverts",
+  "url": "https://groq.com",
+  "logo": "/logos/tools/groq.png",
+  "category": "API Platform",
+  "tags": [
+    "Free",
+    "API"
+  ],
+  "featured": true,
+  "developer": "Groq",
+  "platforms": {
+    "web": true,
+    "windows": false,
+    "macos": false,
+    "ios": "unknown",
+    "android": "unknown",
+    "linux": false,
+    "browser_extension": false,
+    "api": true
+  }
+}

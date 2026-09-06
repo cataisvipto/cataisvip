@@ -1,0 +1,74 @@
+{
+  "slug": "travel-photo-abstraction",
+  "name": "Travel Photo Abstraction",
+  "nameZh": "旅行照片抽象化",
+  "description": "把旅行/日常照片蒸馏为极简编辑式抽象：提取照片中独特的形状、比例、色彩和空间节奏。",
+  "descriptionEn": "Codex skill that distills travel or everyday photos into sparse editorial abstractions — mapping shapes, colors and spatial rhythm to minimal abstract marks.",
+  "descriptionJa": "Codexスキル。旅行や日常の写真をミニマルなエディトリアル抽象に変換。形状、色彩、空間リズムを最小限の抽象記号にマッピング。",
+  "descriptionEs": "Un skill de Codex que distila fotografías de viaje en abstracciones editoriales dispersas — mapea formas, colores y ritmo espacial en marcas abstractas mínimas.",
+  "descriptionFr": "Un skill Codex qui distille des photos de voyage en abstractions éditoriales — mappe formes, couleurs et rythme spatial sur des marques abstraites minimales.",
+  "developer": "Evianis",
+  "developerZh": "Evianis",
+  "repo": "Evianis/travel-photo-abstraction",
+  "agents": [
+    "codex"
+  ],
+  "category": "Design",
+  "tags": [
+    "Free"
+  ],
+  "installCommand": "git clone https://github.com/Evianis/travel-photo-abstraction ~/.codex/skills/travel-photo-abstraction",
+  "logo": "/logos/skills/travel-photo-abstraction.png",
+  "stars": 732,
+  "featured": false,
+  "faqs": [
+    {
+      "question": {
+        "zh": "授权？",
+        "en": "License?",
+        "ja": "ライセンスは？",
+        "es": "¿Licencia?",
+        "fr": "Licence ?"
+      },
+      "answer": {
+        "zh": "仓库无 LICENSE 文件（NOASSERTION），使用前请确认授权。",
+        "en": "No LICENSE file (NOASSERTION). Confirm licensing terms before use.",
+        "ja": "LICENSEファイルなし（NOASSERTION）。使用前にライセンス確認。",
+        "es": "Sin archivo LICENSE (NOASSERTION). Confirma antes de usar.",
+        "fr": "Aucun fichier LICENSE (NOASSERTION). Confirmer avant utilisation."
+      }
+    },
+    {
+      "question": {
+        "zh": "怎么使用？",
+        "en": "How to use?",
+        "ja": "使い方？",
+        "es": "¿Cómo usar?",
+        "fr": "Comment utiliser ?"
+      },
+      "answer": {
+        "zh": "克隆仓库到你的 Codex 技能目录。",
+        "en": "Clone the repo to your Codex skill directory.",
+        "ja": "Codexスキルディレクトリにクローン。",
+        "es": "Clona el repositorio en tu directorio de skills de Codex.",
+        "fr": "Clonez le dépôt dans votre répertoire de skills Codex."
+      }
+    },
+    {
+      "question": {
+        "zh": "支持哪些智能体？",
+        "en": "Which agents?",
+        "ja": "どんなエージェント対応？",
+        "es": "¿Qué agentes?",
+        "fr": "Quels agents ?"
+      },
+      "answer": {
+        "zh": "兼容 Codex、Claude Code、Cursor 等主流编码智能体。",
+        "en": "Compatible with Codex, Claude Code, Cursor and other main coding agents.",
+        "ja": "Codex、Claude Code、Cursor 等の主要コーディングエージェントと互換。",
+        "es": "Compatible con Codex, Claude Code, Cursor y otros agentes de codificación.",
+        "fr": "Compatible avec Codex, Claude Code, Cursor et autres agents de codage principaux."
+      }
+    }
+  ]
+}

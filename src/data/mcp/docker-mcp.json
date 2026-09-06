@@ -1,0 +1,78 @@
+{
+  "slug": "docker-mcp",
+  "name": "Docker MCP Gateway",
+  "nameZh": "Docker MCP 网关",
+  "description": "Docker 官方的 MCP 网关（docker mcp CLI 插件），把众多 MCP 服务器以容器方式安全地统一运行与编排——集中管理密钥、隔离运行、一键接入 Docker MCP Catalog，是本地跑多个 MCP 的安全底座。",
+  "descriptionEn": "Docker's official MCP Gateway (the docker mcp CLI plugin) runs and orchestrates many MCP servers securely as containers — centralizing secrets, isolating execution and one-click access to the Docker MCP Catalog, serving as a secure foundation for running multiple MCPs locally.",
+  "descriptionJa": "Docker 公式の MCP ゲートウェイ（docker mcp CLI プラグイン）。多数の MCP サーバーをコンテナとして安全に一元実行・オーケストレーションし、シークレットの集中管理、隔離実行、Docker MCP Catalog へのワンクリック接続を提供します。ローカルで複数の MCP を動かす安全な基盤です。",
+  "descriptionEs": "El MCP Gateway oficial de Docker (el plugin de CLI docker mcp) ejecuta y orquesta muchos servidores MCP de forma segura como contenedores: centraliza secretos, aísla la ejecución y ofrece acceso con un clic al Docker MCP Catalog, sirviendo como base segura para ejecutar varios MCP localmente.",
+  "descriptionFr": "La MCP Gateway officielle de Docker (le plugin CLI docker mcp) exécute et orchestre de nombreux serveurs MCP de façon sécurisée sous forme de conteneurs — centralisation des secrets, exécution isolée et accès en un clic au Docker MCP Catalog, servant de base sécurisée pour exécuter plusieurs MCP en local.",
+  "developer": "Docker",
+  "developerZh": "Docker",
+  "repo": "docker/mcp-gateway",
+  "clients": [
+    "claude",
+    "cursor",
+    "vscode",
+    "generic"
+  ],
+  "category": "DevOps",
+  "tags": [
+    "Free",
+    "Open Source"
+  ],
+  "installCommand": "docker mcp gateway run",
+  "logo": "/logos/mcp/docker-mcp.png",
+  "stars": 1552,
+  "featured": false,
+  "faqs": [
+    {
+      "question": {
+        "zh": "Docker MCP 网关和普通 MCP 服务器有什么区别？",
+        "en": "How is the Docker MCP Gateway different from a regular MCP server?",
+        "ja": "Docker MCP ゲートウェイは通常の MCP サーバーと何が違いますか？",
+        "es": "¿En qué se diferencia el Docker MCP Gateway de un servidor MCP normal?",
+        "fr": "En quoi la Docker MCP Gateway diffère-t-elle d'un serveur MCP classique ?"
+      },
+      "answer": {
+        "zh": "它不是某一个功能服务器，而是\"网关\"：客户端只连它一个，它在背后把多个 MCP 服务器以容器方式拉起、隔离运行并统一编排，集中管理密钥与权限。相当于给一堆 MCP 加了一层安全的容器化中枢。",
+        "en": "It is not a single feature server but a gateway: your client connects only to it, and behind the scenes it spins up multiple MCP servers as isolated containers, orchestrates them and centralizes secrets and permissions. Think of it as a secure, containerized hub in front of many MCPs.",
+        "ja": "これは単一の機能サーバーではなく「ゲートウェイ」です。クライアントはこれ一つに接続し、背後で複数の MCP サーバーをコンテナとして隔離起動・オーケストレーションし、シークレットと権限を一元管理します。多数の MCP の前段に置く、安全なコンテナ化ハブのような存在です。",
+        "es": "No es un único servidor de funciones, sino una puerta de enlace: tu cliente se conecta solo a ella y, por detrás, levanta varios servidores MCP como contenedores aislados, los orquesta y centraliza secretos y permisos. Piénsalo como un hub contenedorizado y seguro delante de muchos MCP.",
+        "fr": "Ce n'est pas un simple serveur de fonctions mais une passerelle : votre client s'y connecte uniquement, et en coulisses elle lance plusieurs serveurs MCP sous forme de conteneurs isolés, les orchestre et centralise secrets et permissions. Voyez-la comme un hub conteneurisé et sécurisé devant de nombreux MCP."
+      }
+    },
+    {
+      "question": {
+        "zh": "安装 Docker MCP 网关需要什么？",
+        "en": "What do I need to install the Docker MCP Gateway?",
+        "ja": "Docker MCP ゲートウェイのインストールに必要なものは？",
+        "es": "¿Qué necesito para instalar el Docker MCP Gateway?",
+        "fr": "De quoi ai-je besoin pour installer la Docker MCP Gateway ?"
+      },
+      "answer": {
+        "zh": "它是 docker CLI 的插件（docker mcp ...）。装了较新版 Docker Desktop 后在 MCP Toolkit 里可直接启用；纯 Docker Engine 环境可从 GitHub Releases 下载 docker-mcp 二进制并放到 CLI 插件目录，然后用 docker mcp gateway run 启动。",
+        "en": "It is a plugin for the docker CLI (docker mcp ...). With a recent Docker Desktop you can enable it directly in the MCP Toolkit; on plain Docker Engine, download the docker-mcp binary from GitHub Releases into the CLI plugins directory, then start it with docker mcp gateway run.",
+        "ja": "これは docker CLI のプラグイン（docker mcp ...）です。新しめの Docker Desktop なら MCP Toolkit から直接有効化できます。純粋な Docker Engine 環境では、GitHub Releases から docker-mcp バイナリを CLI プラグインディレクトリに配置し、docker mcp gateway run で起動します。",
+        "es": "Es un plugin de la CLI de docker (docker mcp ...). Con un Docker Desktop reciente puedes activarlo directamente en el MCP Toolkit; en Docker Engine puro, descarga el binario docker-mcp desde GitHub Releases al directorio de plugins de la CLI y arráncalo con docker mcp gateway run.",
+        "fr": "C'est un plugin de la CLI docker (docker mcp ...). Avec un Docker Desktop récent, vous pouvez l'activer directement dans le MCP Toolkit ; sur Docker Engine pur, téléchargez le binaire docker-mcp depuis les GitHub Releases dans le répertoire des plugins CLI, puis lancez-le avec docker mcp gateway run."
+      }
+    },
+    {
+      "question": {
+        "zh": "Docker MCP 网关免费开源吗？",
+        "en": "Is the Docker MCP Gateway free and open source?",
+        "ja": "Docker MCP ゲートウェイは無料でオープンソースですか？",
+        "es": "¿El Docker MCP Gateway es gratuito y de código abierto?",
+        "fr": "La Docker MCP Gateway est-elle gratuite et open source ?"
+      },
+      "answer": {
+        "zh": "是，网关本身开源免费（MIT）。它编排运行的各个 MCP 服务器则各有各的许可证与可能的付费 API，需分别留意；网关只负责安全地容器化运行与统一管理。",
+        "en": "Yes, the gateway itself is open source and free (MIT). The individual MCP servers it orchestrates each have their own licenses and possibly paid APIs, which you should check separately; the gateway only handles secure containerized execution and unified management.",
+        "ja": "はい、ゲートウェイ自体はオープンソースで無料（MIT）です。オーケストレーションされる各 MCP サーバーはそれぞれ独自のライセンスや有料 API を持つ場合があるため、個別に確認してください。ゲートウェイは安全なコンテナ実行と一元管理を担うだけです。",
+        "es": "Sí, la puerta de enlace en sí es de código abierto y gratuita (MIT). Los servidores MCP individuales que orquesta tienen cada uno su propia licencia y posiblemente APIs de pago, que debes revisar por separado; la puerta de enlace solo se encarga de la ejecución contenedorizada segura y la gestión unificada.",
+        "fr": "Oui, la passerelle elle-même est open source et gratuite (MIT). Les serveurs MCP individuels qu'elle orchestre ont chacun leur propre licence et éventuellement des API payantes, à vérifier séparément ; la passerelle ne gère que l'exécution conteneurisée sécurisée et la gestion unifiée."
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "slug": "chrome-devtools-mcp",
+  "name": "Chrome DevTools MCP",
+  "nameZh": "Chrome 开发者工具 MCP",
+  "description": "Chrome DevTools 团队官方 MCP 服务器。让智能体调试真实 Chrome 浏览器：性能追踪、网络请求分析、控制台调试与页面自动化一体化。",
+  "descriptionEn": "The official MCP server from the Chrome DevTools team. Lets agents debug a live Chrome browser: performance tracing, network request analysis, console debugging and page automation in one.",
+  "descriptionJa": "Chrome DevToolsチーム公式のMCPサーバー。実際のChromeブラウザをデバッグ可能：パフォーマンストレース、ネットワーク分析、コンソールデバッグ、ページ自動化を統合。",
+  "descriptionEs": "El servidor MCP oficial del equipo de Chrome DevTools. Permite a los agentes depurar un navegador Chrome real: trazas de rendimiento, análisis de red, depuración de consola y automatización de páginas.",
+  "descriptionFr": "Le serveur MCP officiel de l'équipe Chrome DevTools. Permet aux agents de déboguer un vrai navigateur Chrome : traces de performance, analyse réseau, débogage console et automatisation de pages.",
+  "developer": "Chrome DevTools Team (Google)",
+  "developerZh": "Chrome DevTools 团队（Google）",
+  "repo": "ChromeDevTools/chrome-devtools-mcp",
+  "clients": [
+    "claude",
+    "cursor",
+    "vscode",
+    "codex",
+    "generic"
+  ],
+  "category": "Browser",
+  "tags": [
+    "Free",
+    "Open Source"
+  ],
+  "installCommand": "npx -y chrome-devtools-mcp@latest",
+  "logo": "/logos/mcp/chrome-devtools-mcp.png",
+  "stars": 50928,
+  "featured": false,
+  "faqs": [
+    {
+      "question": {
+        "zh": "Chrome DevTools MCP 适合什么场景？",
+        "en": "What is Chrome DevTools MCP best suited for?",
+        "ja": "Chrome DevTools MCP はどんな用途に向いていますか？",
+        "es": "¿Para qué escenarios es ideal Chrome DevTools MCP?",
+        "fr": "À quels usages Chrome DevTools MCP est-il le mieux adapté ?"
+      },
+      "answer": {
+        "zh": "它把 Chrome 开发者工具的能力开放给 AI：性能追踪、网络请求分析、控制台日志读取、Lighthouse 审计、页面调试。排查前端 Bug 和做性能优化时特别好用。",
+        "en": "It exposes Chrome DevTools capabilities to AI: performance tracing, network request analysis, console log reading, Lighthouse audits and page debugging. Especially useful for hunting front-end bugs and optimizing performance.",
+        "ja": "Chrome DevTools の機能を AI に開放します：パフォーマンストレース、ネットワーク分析、コンソールログの読み取り、Lighthouse 監査、ページデバッグ。フロントエンドのバグ調査やパフォーマンス最適化に特に有用です。",
+        "es": "Expone las capacidades de Chrome DevTools a la IA: trazado de rendimiento, análisis de peticiones de red, lectura de logs de consola, auditorías Lighthouse y depuración de páginas. Ideal para cazar bugs de frontend y optimizar rendimiento.",
+        "fr": "Il expose les capacités de Chrome DevTools à l'IA : traçage des performances, analyse des requêtes réseau, lecture des logs console, audits Lighthouse et débogage de pages. Particulièrement utile pour traquer les bugs front-end et optimiser les performances."
+      }
+    },
+    {
+      "question": {
+        "zh": "如何安装 Chrome DevTools MCP？",
+        "en": "How do I install Chrome DevTools MCP?",
+        "ja": "Chrome DevTools MCP をインストールするには？",
+        "es": "¿Cómo instalo Chrome DevTools MCP?",
+        "fr": "Comment installer Chrome DevTools MCP ?"
+      },
+      "answer": {
+        "zh": "运行 npx -y chrome-devtools-mcp@latest 即可，需要本机装有 Chrome。Claude Code、Cursor、VS Code 等客户端把这条命令加进 MCP 配置就能用。",
+        "en": "Just run npx -y chrome-devtools-mcp@latest — Chrome must be installed on your machine. Add this command to the MCP configuration of Claude Code, Cursor, VS Code or any other client.",
+        "ja": "npx -y chrome-devtools-mcp@latest を実行するだけです（ローカルに Chrome が必要）。Claude Code、Cursor、VS Code などのクライアントの MCP 設定にこのコマンドを追加すれば使えます。",
+        "es": "Solo ejecuta npx -y chrome-devtools-mcp@latest; necesitas Chrome instalado. Añade este comando a la configuración MCP de Claude Code, Cursor, VS Code o cualquier otro cliente.",
+        "fr": "Exécutez simplement npx -y chrome-devtools-mcp@latest — Chrome doit être installé sur votre machine. Ajoutez cette commande à la configuration MCP de Claude Code, Cursor, VS Code ou tout autre client."
+      }
+    },
+    {
+      "question": {
+        "zh": "Chrome DevTools MCP 需要付费或 API Key 吗？",
+        "en": "Does Chrome DevTools MCP require payment or an API key?",
+        "ja": "Chrome DevTools MCP に料金や API キーは必要ですか？",
+        "es": "¿Chrome DevTools MCP requiere pago o clave API?",
+        "fr": "Chrome DevTools MCP nécessite-t-il un paiement ou une clé API ?"
+      },
+      "answer": {
+        "zh": "不需要。它由 Google Chrome DevTools 团队维护，Apache-2.0 开源，直接驱动本地 Chrome，零成本、零密钥。",
+        "en": "No. Maintained by the Google Chrome DevTools team and open source under Apache-2.0, it drives your local Chrome directly — zero cost, zero keys.",
+        "ja": "不要です。Google Chrome DevTools チームがメンテナンスする Apache-2.0 のオープンソースで、ローカルの Chrome を直接操作します。コストもキーもゼロです。",
+        "es": "No. Mantenido por el equipo de Chrome DevTools de Google y de código abierto bajo Apache-2.0, controla tu Chrome local directamente: coste cero, sin claves.",
+        "fr": "Non. Maintenu par l'équipe Chrome DevTools de Google et open source sous Apache-2.0, il pilote directement votre Chrome local — zéro coût, zéro clé."
+      }
+    }
+  ]
+}

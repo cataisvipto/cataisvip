@@ -1,0 +1,28 @@
+{
+  "slug": "apple-foundation-models",
+  "name": "Apple Foundation Models",
+  "nameZh": "Apple Foundation Models",
+  "description": "Apple 面向开发者的端侧大模型框架，原生 Swift API 直达 Apple Intelligence 同款设备端模型，离线推理零调用成本",
+  "descriptionEn": "Apple's on-device LLM framework for developers: a native Swift API accessing the same model powering Apple Intelligence, with offline inference at zero cost",
+  "descriptionJa": "Appleの開発者向けオンデバイスLLMフレームワーク。Apple Intelligenceと同じデバイス内モデルにネイティブSwift APIでアクセス、オフライン推論コストゼロ",
+  "descriptionEs": "Framework de LLM en dispositivo de Apple para desarrolladores: API nativa Swift que accede al mismo modelo de Apple Intelligence, con inferencia offline sin costo",
+  "descriptionFr": "Framework LLM sur appareil d'Apple pour développeurs : API Swift native accédant au même modèle qu'Apple Intelligence, avec inférence hors ligne sans coût",
+  "url": "https://developer.apple.com/documentation/foundationmodels",
+  "logo": "/logos/tools/apple-foundation-models.png",
+  "category": "Foundation Models",
+  "tags": [
+    "Free"
+  ],
+  "featured": false,
+  "developer": "Apple",
+  "platforms": {
+    "web": false,
+    "windows": false,
+    "macos": true,
+    "ios": true,
+    "android": false,
+    "linux": false,
+    "browser_extension": false,
+    "api": true
+  }
+}

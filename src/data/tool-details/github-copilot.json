@@ -1,0 +1,263 @@
+{
+  "features": {
+    "en": [
+      "AI code completion and generation",
+      "VS Code deep integration",
+      "Multi-language support",
+      "Code review suggestions",
+      "Pull Request summaries",
+      "CLI terminal assistance"
+    ],
+    "zh": [
+      "AI 代码补全与生成",
+      "VS Code 深度集成",
+      "多语言支持",
+      "代码审查建议",
+      "Pull Request 摘要",
+      "CLI 终端辅助"
+    ],
+    "ja": [
+      "AI コード補完と生成",
+      "VS Code との深い統合",
+      "多言語対応",
+      "コードレビューの提案",
+      "Pull Request の要約",
+      "CLI ターミナル支援"
+    ],
+    "es": [
+      "Completado y generación de código con IA",
+      "Integración profunda con VS Code",
+      "Compatibilidad con varios lenguajes",
+      "Sugerencias de revisión de código",
+      "Resúmenes de Pull Request",
+      "Asistencia en terminal CLI"
+    ],
+    "fr": [
+      "Complétion et génération de code par IA",
+      "Intégration poussée à VS Code",
+      "Prise en charge multilangage",
+      "Suggestions de revue de code",
+      "Résumés de Pull Request",
+      "Assistance en terminal CLI"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Personal free version",
+      "zh": "个人免费版",
+      "ja": "個人向け無料版",
+      "es": "Versión gratuita personal",
+      "fr": "Version gratuite personnelle"
+    },
+    "pro": {
+      "en": "$10/month (personal pro)",
+      "zh": "$10/月（个人专业版）",
+      "ja": "月額10ドル（個人 Pro）",
+      "es": "10 $/mes (pro personal)",
+      "fr": "10 $/mois (pro personnel)"
+    },
+    "business": {
+      "en": "$19/user/month (business)",
+      "zh": "$19/人/月（企业版）",
+      "ja": "1ユーザー月額19ドル（ビジネス）",
+      "es": "19 $/usuario/mes (empresas)",
+      "fr": "19 $/utilisateur/mois (entreprise)"
+    },
+    "enterprise": {
+      "en": "$39/user/month (enterprise)",
+      "zh": "$39/人/月（企业高级版）",
+      "ja": "1ユーザー月額39ドル（エンタープライズ）",
+      "es": "39 $/usuario/mes (corporativo)",
+      "fr": "39 $/utilisateur/mois (entreprise avancée)"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Daily coding",
+      "Code refactoring",
+      "Bug fixing",
+      "Documentation generation",
+      "Test case writing",
+      "Learning new languages"
+    ],
+    "zh": [
+      "日常代码编写",
+      "代码重构与优化",
+      "Bug 修复",
+      "文档生成",
+      "测试用例编写",
+      "学习新语言"
+    ],
+    "ja": [
+      "日々のコーディング",
+      "コードのリファクタリング",
+      "バグ修正",
+      "ドキュメント生成",
+      "テストケースの作成",
+      "新しい言語の学習"
+    ],
+    "es": [
+      "Programación diaria",
+      "Refactorización de código",
+      "Corrección de errores",
+      "Generación de documentación",
+      "Escritura de casos de prueba",
+      "Aprendizaje de nuevos lenguajes"
+    ],
+    "fr": [
+      "Codage quotidien",
+      "Refactorisation de code",
+      "Correction de bugs",
+      "Génération de documentation",
+      "Écriture de cas de test",
+      "Apprentissage de nouveaux langages"
+    ]
+  },
+  "pros": {
+    "en": [
+      "VS Code native integration",
+      "Accurate code completion",
+      "Wide language support",
+      "GitHub ecosystem"
+    ],
+    "zh": [
+      "VS Code 原生集成",
+      "代码补全准确",
+      "多语言支持广泛",
+      "GitHub 生态整合"
+    ],
+    "ja": [
+      "VS Code へのネイティブ統合",
+      "正確なコード補完",
+      "幅広い言語対応",
+      "GitHub エコシステム"
+    ],
+    "es": [
+      "Integración nativa con VS Code",
+      "Completado de código preciso",
+      "Amplio soporte de lenguajes",
+      "Ecosistema de GitHub"
+    ],
+    "fr": [
+      "Intégration native à VS Code",
+      "Complétion de code précise",
+      "Large prise en charge de langages",
+      "Écosystème GitHub"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Limited free version",
+      "Occasional incorrect suggestions",
+      "Handle code privacy carefully"
+    ],
+    "zh": [
+      "免费版功能受限",
+      "偶有错误建议",
+      "隐私代码需谨慎"
+    ],
+    "ja": [
+      "無料版は機能制限あり",
+      "誤った提案が出ることがある",
+      "コードのプライバシーに注意が必要"
+    ],
+    "es": [
+      "Versión gratuita limitada",
+      "Sugerencias incorrectas ocasionales",
+      "Manejar con cuidado la privacidad del código"
+    ],
+    "fr": [
+      "Version gratuite limitée",
+      "Suggestions parfois incorrectes",
+      "Gérer la confidentialité du code avec soin"
+    ]
+  },
+  "latestUpdate": {
+    "en": "2026: GitHub Copilot upgraded with GPT-5.6 and Claude Opus 4.6, plus more IDE support",
+    "zh": "2026年：GitHub Copilot 升级，支持 GPT-5.6、Claude Opus 4.6 和更多 IDE",
+    "ja": "2026年：GitHub Copilot が GPT-5.6 と Claude Opus 4.6 に対応し、さらに多くの IDE をサポート",
+    "es": "2026: GitHub Copilot se actualiza con GPT-5.6 y Claude Opus 4.6, además de compatibilidad con más IDE",
+    "fr": "2026 : GitHub Copilot est mis à jour avec GPT-5.6 et Claude Opus 4.6, et prend en charge davantage d'IDE"
+  },
+  "verdict": {
+    "badge": "Highly Recommended",
+    "headline": {
+      "en": "The safest bet for AI-assisted coding in professional teams — mature, well-integrated, and trusted by enterprise.",
+      "zh": "专业团队 AI 辅助编程的最稳妥选择——成熟、集成深入、企业信赖。",
+      "ja": "プロフェッショナルチームのAIコーディングにおける最も安全な選択——成熟、統合が深く、企業に信頼されている。",
+      "es": "La apuesta más segura para codificación asistida por IA en equipos profesionales — maduro, bien integrado y confiable para empresas.",
+      "fr": "Le choix le plus sûr pour le codage assisté par IA en équipes professionnelles — mature, bien intégré et approuvé par l'entreprise."
+    },
+    "body": {
+      "en": "GitHub Copilot's greatest strength isn't any single feature—it's the combination of deep IDE integration, enterprise compliance, and the sheer scale of its training. It works inside VS Code, JetBrains, Neovim, and Xcode with minimal friction. For large organizations, the business tier offers IP indemnification, policy controls, and audit logs that no competitor matches at this maturity level.\n\nThe inline completion experience is smooth and context-aware, drawing from your open files, repository structure, and coding patterns. Copilot Chat adds natural-language interaction for explaining code, generating tests, and debugging. The recent addition of multi-file editing in Copilot Workspace shows GitHub's push toward agentic coding workflows.\n\nThe main reason to look elsewhere: Cursor offers a more aggressive AI-native editing experience with better whole-file refactoring. If you're an individual developer optimizing for raw AI capability rather than enterprise safety, Cursor or Claude Code may feel more capable. Copilot is the Toyota Camry of AI coding tools—reliable, widely supported, and rarely the wrong choice, but not always the most exciting.",
+      "zh": "GitHub Copilot 最大的优势不是单一功能——而是深度 IDE 集成、企业合规和庞大训练规模的组合。它在 VS Code、JetBrains、Neovim 和 Xcode 中几乎无摩擦运行。对于大型组织，商业版提供知识产权赔偿、策略控制和审计日志，这方面的成熟度无人能比。\n\n行内补全体验流畅且上下文感知，能从打开的文件、仓库结构和编码模式中获取信息。Copilot Chat 增加了自然语言交互用于解释代码、生成测试和调试。Copilot Workspace 中新增的多文件编辑功能显示了 GitHub 向智能体式编码工作流的推进。\n\n考虑其他选择的主要原因：Cursor 提供更激进的 AI 原生编辑体验和更好的整文件重构。如果你是个人开发者追求原始 AI 能力而非企业安全性，Cursor 或 Claude Code 可能感觉更强大。Copilot 是 AI 编码工具中的丰田凯美瑞——可靠、支持广泛、很少是错误选择，但不总是最令人兴奋的。",
+      "ja": "GitHub Copilotの最大の強みは単一の機能ではありません。深いIDE統合、企業コンプライアンス、トレーニングの規模の組み合わせです。VS Code、JetBrains、Neovim、Xcodeで最小限の摩擦で動作します。大規模組織向けのビジネスティアは、IP補償、ポリシー制御、監査ログを提供し、この成熟度レベルで匹敵する競合はありません。\n\nインライン補完は滑らかでコンテキストアウェア、開いているファイル、リポジトリ構造、コーディングパターンから情報を引き出します。Copilot Chatはコード説明、テスト生成、デバッグのための自然言語インタラクションを追加します。Copilot Workspaceでのマルチファイル編集はエージェント的コーディングワークフローへの推進を示しています。\n\n他を検討する理由：Cursorはより積極的なAIネイティブ編集体験と優れたファイル全体リファクタリングを提供します。企業の安全性より生のAI能力を最適化する個人開発者なら、CursorやClaude Codeがより有能に感じるかもしれません。",
+      "es": "La mayor fortaleza de GitHub Copilot no es una función única—es la combinación de integración profunda con IDEs, cumplimiento empresarial y la escala de su entrenamiento. Funciona en VS Code, JetBrains, Neovim y Xcode con fricción mínima. Para grandes organizaciones, el tier empresarial ofrece indemnización de IP, controles de políticas y registros de auditoría que ningún competidor iguala.\n\nLa experiencia de completado inline es fluida y consciente del contexto, extrayendo de archivos abiertos, estructura del repositorio y patrones de código. Copilot Chat añade interacción en lenguaje natural para explicar código, generar tests y depurar.\n\nLa razón principal para buscar alternativas: Cursor ofrece una experiencia de edición AI-nativa más agresiva con mejor refactorización de archivos completos. Si eres un desarrollador individual optimizando la capacidad IA sobre la seguridad empresarial, Cursor o Claude Code pueden sentirse más capaces.",
+      "fr": "La plus grande force de GitHub Copilot n'est pas une fonctionnalité unique—c'est la combinaison d'une intégration IDE profonde, de la conformité entreprise et de l'échelle de son entraînement. Il fonctionne dans VS Code, JetBrains, Neovim et Xcode avec une friction minimale. Pour les grandes organisations, le tier business offre une indemnisation IP, des contrôles de politique et des journaux d'audit qu'aucun concurrent n'égale.\n\nL'expérience de complétion inline est fluide et contextuelle, puisant dans vos fichiers ouverts, la structure du dépôt et vos patterns de code. Copilot Chat ajoute l'interaction en langage naturel pour expliquer le code, générer des tests et déboguer.\n\nLa raison principale de chercher ailleurs : Cursor offre une expérience d'édition AI-native plus agressive avec un meilleur refactoring de fichiers entiers. Si vous êtes un développeur individuel optimisant la capacité IA brute plutôt que la sécurité entreprise, Cursor ou Claude Code peuvent sembler plus capables."
+    },
+    "bestFor": {
+      "en": [
+        "Enterprise development teams needing compliance and IP protection",
+        "Developers working across multiple IDEs (VS Code, JetBrains, Neovim)",
+        "Teams that want AI coding assistance without changing their existing workflow",
+        "Organizations requiring audit trails and policy controls"
+      ],
+      "zh": [
+        "需要合规和 IP 保护的企业开发团队",
+        "跨多个 IDE 工作的开发者（VS Code、JetBrains、Neovim）",
+        "想要 AI 编码辅助但不改变现有工作流的团队",
+        "需要审计追踪和策略控制的组织"
+      ],
+      "ja": [
+        "コンプライアンスとIP保護が必要な企業開発チーム",
+        "複数IDE（VS Code、JetBrains、Neovim）で作業する開発者",
+        "既存ワークフローを変えずにAIコーディング支援が欲しいチーム",
+        "監査証跡とポリシー制御が必要な組織"
+      ],
+      "es": [
+        "Equipos de desarrollo empresarial que necesitan cumplimiento y protección IP",
+        "Desarrolladores que trabajan en múltiples IDEs (VS Code, JetBrains, Neovim)",
+        "Equipos que quieren asistencia IA sin cambiar su flujo existente",
+        "Organizaciones que requieren registros de auditoría y controles de políticas"
+      ],
+      "fr": [
+        "Équipes de développement entreprise nécessitant conformité et protection IP",
+        "Développeurs travaillant sur plusieurs IDEs (VS Code, JetBrains, Neovim)",
+        "Équipes voulant une assistance IA sans changer leur workflow existant",
+        "Organisations nécessitant des pistes d'audit et contrôles de politique"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You want the most aggressive AI-native editing experience (→ Cursor)",
+        "You prefer terminal-based agentic coding for large refactors (→ Claude Code)",
+        "You want a free, open-source option (→ Codeium, Continue)"
+      ],
+      "zh": [
+        "你想要最激进的 AI 原生编辑体验（→ Cursor）",
+        "你偏好基于终端的智能体编码来做大型重构（→ Claude Code）",
+        "你想要免费的开源选项（→ Codeium、Continue）"
+      ],
+      "ja": [
+        "最も積極的なAIネイティブ編集体験が欲しい場合（→ Cursor）",
+        "大規模リファクタリング用のターミナルベースエージェントコーディングを好む場合（→ Claude Code）",
+        "無料のオープンソースオプションが欲しい場合（→ Codeium、Continue）"
+      ],
+      "es": [
+        "Quieres la experiencia de edición AI-nativa más agresiva (→ Cursor)",
+        "Prefieres codificación agéntica basada en terminal para grandes refactorizaciones (→ Claude Code)",
+        "Quieres una opción gratuita y open-source (→ Codeium, Continue)"
+      ],
+      "fr": [
+        "Vous voulez l'expérience d'édition AI-native la plus agressive (→ Cursor)",
+        "Vous préférez le codage agentique en terminal pour les gros refactorings (→ Claude Code)",
+        "Vous voulez une option gratuite et open-source (→ Codeium, Continue)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-27",
+    "verdictDate": "2026-07-27",
+    "pricingVerified": "2026-07-27"
+  }
+}

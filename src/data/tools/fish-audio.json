@@ -1,0 +1,31 @@
+{
+  "slug": "fish-audio",
+  "name": "Fish Audio",
+  "nameZh": "Fish Audio",
+  "description": "开源 TTS 明星 Fish Speech 团队的语音生成平台，10-30 秒样本即可克隆声音，S1/S2 模型音质自然情感丰富，支持商用与 API 按量付费",
+  "descriptionEn": "Voice generation platform from the team behind the open-source TTS star Fish Speech. Clone a voice from just 10-30 seconds of audio; the S1/S2 models deliver natural, expressive speech with commercial use and pay-as-you-go API",
+  "descriptionJa": "オープンソースTTSの雄Fish Speechチームによる音声生成プラットフォーム。10〜30秒のサンプルで声をクローンでき、S1/S2モデルは自然で表現豊かな音声を実現。商用利用と従量課金APIに対応",
+  "descriptionEs": "Plataforma de generación de voz del equipo tras el TTS de código abierto Fish Speech. Clona una voz con solo 10-30 segundos de audio; los modelos S1/S2 ofrecen habla natural y expresiva, con uso comercial y API de pago por uso",
+  "descriptionFr": "Plateforme de génération vocale de l'équipe derrière le TTS open source Fish Speech. Clonez une voix avec seulement 10-30 secondes d'audio ; les modèles S1/S2 offrent une parole naturelle et expressive, avec usage commercial et API à l'usage",
+  "url": "https://fish.audio",
+  "logo": "/logos/tools/fish-audio.png",
+  "category": "Audio",
+  "tags": [
+    "Freemium",
+    "Open Source",
+    "API"
+  ],
+  "featured": false,
+  "developer": "Fish Audio",
+  "developerZh": "Fish Audio",
+  "platforms": {
+    "web": true,
+    "windows": false,
+    "macos": false,
+    "ios": false,
+    "android": false,
+    "linux": false,
+    "browser_extension": false,
+    "api": true
+  }
+}

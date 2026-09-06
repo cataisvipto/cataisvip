@@ -1,0 +1,30 @@
+{
+  "slug": "claude-code",
+  "homeFeatured": true,
+  "name": "Claude Code",
+  "nameZh": "Claude Code",
+  "description": "Anthropic 推出的 AI 编程助手，终端命令行使用，支持代码生成、调试和重构",
+  "descriptionEn": "Anthropic's AI coding assistant for terminal, supporting code generation, debugging, and refactoring",
+  "descriptionJa": "AnthropicのAIコーディングアシスタント。ターミナルで使用、コード生成、デバッグ、リファクタリングに対応",
+  "descriptionEs": "Asistente de programación IA de Anthropic para terminal, compatible con generación de código, depuración y refactorización",
+  "descriptionFr": "Assistant de codage IA d'Anthropic pour le terminal, prenant en charge la génération de code, le débogage et le refactoring",
+  "url": "https://claude.com/product/claude-code",
+  "logo": "/logos/tools/claude-code.png",
+  "category": "Code",
+  "tags": [
+    "Paid",
+    "API"
+  ],
+  "featured": true,
+  "developer": "Anthropic",
+  "platforms": {
+    "web": true,
+    "windows": true,
+    "macos": true,
+    "ios": true,
+    "android": "unknown",
+    "linux": true,
+    "browser_extension": false,
+    "api": true
+  }
+}

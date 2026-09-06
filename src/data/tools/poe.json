@@ -1,0 +1,29 @@
+{
+  "slug": "poe",
+  "name": "Poe",
+  "nameZh": "Poe",
+  "description": "Quora 旗下的多模型聚合平台，一份订阅切换 GPT-5.5、Claude、Gemini、Grok 等上千模型与图像/视频生成，自定义 Bot 创作者变现生态成熟，另有 OpenAI 兼容 API；免费档 300 点/天，订阅 $4.99/月起、主力档 $19.99/月",
+  "descriptionEn": "Quora's multi-model aggregator: one subscription switches between a thousand-plus models — GPT-5.5, Claude, Gemini, Grok — plus image/video generation, a mature creator economy for custom bots and an OpenAI-compatible API; free tier of 300 points/day, subscriptions from $4.99/month with the mainstay at $19.99/month",
+  "descriptionJa": "Quora傘下のマルチモデル集約プラットフォーム。1つのサブスクリプションでGPT-5.5・Claude・Gemini・Grokなど千超のモデルと画像/動画生成を切り替え、カスタムBotのクリエイター収益化エコシステムも成熟、OpenAI互換APIも提供。無料枠は1日300ポイント、サブスクリプションは月$4.99から、主力は月$19.99",
+  "descriptionEs": "El agregador multimodelo de Quora: una sola suscripción alterna entre más de mil modelos — GPT-5.5, Claude, Gemini, Grok — más generación de imagen/vídeo, una economía de creadores madura para bots personalizados y una API compatible con OpenAI; nivel gratuito de 300 puntos/día, suscripciones desde $4.99/mes y el plan principal a $19.99/mes",
+  "descriptionFr": "L'agrégateur multi-modèles de Quora : un seul abonnement permet de passer entre plus de mille modèles — GPT-5.5, Claude, Gemini, Grok — plus la génération d'images/vidéos, une économie de créateurs mature pour les bots personnalisés et une API compatible OpenAI ; offre gratuite de 300 points/jour, abonnements dès 4,99 $/mois, formule principale à 19,99 $/mois",
+  "url": "https://poe.com",
+  "logo": "/logos/tools/poe.png",
+  "category": "Chat",
+  "tags": [
+    "Freemium",
+    "API"
+  ],
+  "featured": false,
+  "developer": "Quora",
+  "platforms": {
+    "web": true,
+    "windows": true,
+    "macos": true,
+    "ios": true,
+    "android": true,
+    "linux": false,
+    "browser_extension": false,
+    "api": true
+  }
+}

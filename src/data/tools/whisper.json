@@ -1,0 +1,29 @@
+{
+  "slug": "whisper",
+  "name": "Whisper",
+  "nameZh": "Whisper",
+  "description": "OpenAI 开源的语音识别模型，支持多语言语音转文字",
+  "descriptionEn": "OpenAI's open-source speech recognition model for multi-language speech-to-text",
+  "descriptionJa": "OpenAIのオープンソース音声認識モデル。多言語の音声テキスト変換をサポート",
+  "descriptionEs": "Modelo de reconocimiento de voz de código abierto de OpenAI para conversión de voz a texto multilingüe",
+  "descriptionFr": "Modèle de reconnaissance vocale open-source d'OpenAI pour la transcription multilingue",
+  "url": "https://github.com/openai/whisper",
+  "logo": "/logos/tools/whisper.png",
+  "category": "Audio",
+  "tags": [
+    "Free",
+    "Open Source"
+  ],
+  "featured": false,
+  "developer": "OpenAI",
+  "platforms": {
+    "web": false,
+    "windows": true,
+    "macos": true,
+    "ios": false,
+    "android": false,
+    "linux": true,
+    "browser_extension": false,
+    "api": true
+  }
+}

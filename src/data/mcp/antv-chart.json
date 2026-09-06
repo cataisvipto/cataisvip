@@ -1,0 +1,79 @@
+{
+  "slug": "antv-chart",
+  "name": "AntV Chart MCP",
+  "nameZh": "AntV 图表 MCP",
+  "description": "蚂蚁集团 AntV 团队出品的图表生成 MCP 服务器。基于 @antvis 可视化体系，支持 25+ 种图表类型，让 AI 智能体一句话生成柱状图、折线图、饼图、散点图等专业统计图表。",
+  "descriptionEn": "A chart generation MCP server by Ant Group's AntV team. Built on the @antvis visualization ecosystem, it supports 25+ chart types — bar, line, pie, scatter, and more — letting AI agents generate professional statistical charts with a single sentence.",
+  "descriptionJa": "Ant Group の AntV チームによるチャート生成 MCP サーバー。@antvis ビジュアライゼーションエコシステムを基盤に、棒グラフ、折れ線グラフ、円グラフ、散布図など 25 種類以上のチャートをサポート。AI エージェントが一言でプロフェッショナルな統計チャートを生成できます。",
+  "descriptionEs": "Un servidor MCP de generación de gráficos del equipo AntV de Ant Group. Construido sobre el ecosistema de visualización @antvis, soporta más de 25 tipos de gráficos — barras, líneas, circulares, dispersión y más — permitiendo a los agentes de IA generar gráficos estadísticos profesionales con una sola frase.",
+  "descriptionFr": "Un serveur MCP de génération de graphiques par l'équipe AntV d'Ant Group. Construit sur l'écosystème de visualisation @antvis, il supporte plus de 25 types de graphiques — barres, lignes, camembert, nuages de points et plus — permettant aux agents IA de générer des graphiques statistiques professionnels en une seule phrase.",
+  "developer": "AntV Team (Ant Group)",
+  "developerZh": "蚂蚁集团 AntV 团队",
+  "repo": "antvis/mcp-server-chart",
+  "clients": [
+    "claude",
+    "cursor",
+    "vscode",
+    "codex",
+    "generic"
+  ],
+  "category": "Design",
+  "tags": [
+    "Free",
+    "Open Source"
+  ],
+  "installCommand": "npx -y @antv/mcp-server-chart",
+  "logo": "/logos/mcp/antv-chart.png",
+  "stars": 4352,
+  "featured": false,
+  "faqs": [
+    {
+      "question": {
+        "zh": "AntV 图表 MCP 支持哪些图表类型？",
+        "en": "What chart types does AntV Chart MCP support?",
+        "ja": "AntV Chart MCP はどのようなチャートタイプをサポートしていますか？",
+        "es": "¿Qué tipos de gráficos soporta AntV Chart MCP?",
+        "fr": "Quels types de graphiques AntV Chart MCP supporte-t-il ?"
+      },
+      "answer": {
+        "zh": "支持柱状图、折线图、饼图、散点图、面积图、雷达图、热力图、箱线图、瀑布图、桑基图、关系图、树图等 25+ 种图表类型，覆盖数据分析与可视化的大部分场景。",
+        "en": "It supports 25+ chart types including bar, line, pie, scatter, area, radar, heatmap, box plot, waterfall, Sankey, relation, tree map and more — covering most data analysis and visualization scenarios.",
+        "ja": "棒グラフ、折れ線グラフ、円グラフ、散布図、面グラフ、レーダーチャート、ヒートマップ、箱ひげ図、ウォーターフォール、サンキー図、関係図、ツリーマップなど 25 種類以上のチャートをサポートし、データ分析と可視化のほとんどのシナリオをカバーします。",
+        "es": "Soporta más de 25 tipos de gráficos: barras, líneas, circulares, dispersión, área, radar, mapa de calor, diagrama de caja, cascada, Sankey, relación, mapa de árbol y más — cubriendo la mayoría de escenarios de análisis y visualización de datos.",
+        "fr": "Il supporte plus de 25 types de graphiques : barres, lignes, camembert, nuage de points, aires, radar, heatmap, boîte à moustaches, waterfall, Sankey, relation, arborescence et plus — couvrant la plupart des scénarios d'analyse et de visualisation de données."
+      }
+    },
+    {
+      "question": {
+        "zh": "怎么在 Claude Code 或 Cursor 里安装 AntV 图表 MCP？",
+        "en": "How do I install AntV Chart MCP in Claude Code or Cursor?",
+        "ja": "Claude Code や Cursor に AntV Chart MCP をインストールするには？",
+        "es": "¿Cómo instalo AntV Chart MCP en Claude Code o Cursor?",
+        "fr": "Comment installer AntV Chart MCP dans Claude Code ou Cursor ?"
+      },
+      "answer": {
+        "zh": "运行 npx -y @antv/mcp-server-chart 即可启动。在 Claude Code 中用 claude mcp add antv-chart -- npx -y @antv/mcp-server-chart 注册；在 Cursor 中粘贴到 MCP 设置界面。",
+        "en": "Run npx -y @antv/mcp-server-chart to start. Register it in Claude Code with claude mcp add antv-chart -- npx -y @antv/mcp-server-chart, or paste the command into Cursor's MCP settings.",
+        "ja": "npx -y @antv/mcp-server-chart を実行するだけです。Claude Code では claude mcp add antv-chart -- npx -y @antv/mcp-server-chart で登録、Cursor では MCP 設定にコマンドを貼り付けます。",
+        "es": "Ejecuta npx -y @antv/mcp-server-chart para iniciarlo. Regístralo en Claude Code con claude mcp add antv-chart -- npx -y @antv/mcp-server-chart, o pégalo en los ajustes MCP de Cursor.",
+        "fr": "Exécutez npx -y @antv/mcp-server-chart pour le lancer. Enregistrez-le dans Claude Code avec claude mcp add antv-chart -- npx -y @antv/mcp-server-chart, ou collez la commande dans les réglages MCP de Cursor."
+      }
+    },
+    {
+      "question": {
+        "zh": "AntV 图表 MCP 免费吗？需要 API Key 吗？",
+        "en": "Is AntV Chart MCP free? Does it need an API key?",
+        "ja": "AntV Chart MCP は無料ですか？API キーは必要ですか？",
+        "es": "¿AntV Chart MCP es gratuito? ¿Necesita clave API?",
+        "fr": "AntV Chart MCP est-il gratuit ? Faut-il une clé API ?"
+      },
+      "answer": {
+        "zh": "完全免费开源（MIT 协议），无需任何 API Key，本地运行即可，生成的图表数据不会上传到第三方。",
+        "en": "Completely free and open source (MIT license). No API key needed — it runs entirely locally, and chart data never leaves your machine.",
+        "ja": "完全無料・オープンソース（MIT ライセンス）。API キー不要でローカル実行され、チャートデータが外部に送信されることはありません。",
+        "es": "Completamente gratuito y de código abierto (licencia MIT). No necesita clave API, se ejecuta totalmente en local y los datos de los gráficos nunca salen de tu máquina.",
+        "fr": "Entièrement gratuit et open source (licence MIT). Aucune clé API nécessaire — il s'exécute entièrement en local et les données des graphiques ne quittent jamais votre machine."
+      }
+    }
+  ]
+}

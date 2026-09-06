@@ -1,0 +1,224 @@
+{
+  "features": {
+    "en": [
+      "AI coding agent",
+      "Officially tuned for GLM models",
+      "Plan, code, review and ship",
+      "Works with existing toolchains",
+      "Terminal-based agentic tasks",
+      "Vibe coding experience"
+    ],
+    "zh": [
+      "AI 编程 Agent",
+      "官方适配 GLM 系列模型",
+      "规划、编码、评审与上线",
+      "兼容现有工具链",
+      "基于终端的智能体任务",
+      "氛围编程体验"
+    ],
+    "ja": [
+      "AI コーディング Agent",
+      "GLM モデルに公式対応",
+      "計画・コーディング・レビュー・リリース",
+      "既存ツールチェーンと連携",
+      "ターミナルベースのエージェント作業",
+      "Vibe コーディング体験"
+    ],
+    "es": [
+      "Agente de codificación IA",
+      "Adaptado oficialmente a modelos GLM",
+      "Planificar, codificar, revisar y desplegar",
+      "Compatible con cadenas de herramientas existentes",
+      "Tareas de agente en terminal",
+      "Experiencia de vibe coding"
+    ],
+    "fr": [
+      "Agent de codage IA",
+      "Optimisé officiellement pour les modèles GLM",
+      "Planifier, coder, réviser et déployer",
+      "Compatible avec les chaînes d'outils existantes",
+      "Tâches agentiques en terminal",
+      "Expérience de vibe coding"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Free trial quota",
+      "zh": "免费试用额度",
+      "ja": "無料トライアル枠",
+      "es": "Cuota de prueba gratuita",
+      "fr": "Quota d'essai gratuit"
+    },
+    "pro": {
+      "en": "GLM Coding Plan subscription",
+      "zh": "GLM Coding Plan 订阅",
+      "ja": "GLM Coding Plan サブスク",
+      "es": "Suscripción GLM Coding Plan",
+      "fr": "Abonnement GLM Coding Plan"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Agentic coding",
+      "Refactoring",
+      "Code review",
+      "Terminal task automation"
+    ],
+    "zh": [
+      "智能体编程",
+      "代码重构",
+      "代码评审",
+      "终端任务自动化"
+    ],
+    "ja": [
+      "エージェント型コーディング",
+      "リファクタリング",
+      "コードレビュー",
+      "ターミナル作業の自動化"
+    ],
+    "es": [
+      "Codificación con agentes",
+      "Refactorización",
+      "Revisión de código",
+      "Automatización de tareas en terminal"
+    ],
+    "fr": [
+      "Codage agentique",
+      "Refactorisation",
+      "Revue de code",
+      "Automatisation de tâches en terminal"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Strong GLM coding performance",
+      "Good value pricing",
+      "Fits existing workflows",
+      "Fast and simple"
+    ],
+    "zh": [
+      "GLM 编程性能强",
+      "性价比高",
+      "契合现有流程",
+      "简单迅捷"
+    ],
+    "ja": [
+      "GLM のコーディング性能が高い",
+      "コスパが良い",
+      "既存フローに適合",
+      "シンプルで高速"
+    ],
+    "es": [
+      "Buen rendimiento de codificación GLM",
+      "Buena relación calidad-precio",
+      "Se adapta a flujos existentes",
+      "Rápido y sencillo"
+    ],
+    "fr": [
+      "Bonnes performances de codage GLM",
+      "Bon rapport qualité-prix",
+      "S'intègre aux flux existants",
+      "Rapide et simple"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Best experience tied to GLM models",
+      "Newer product"
+    ],
+    "zh": [
+      "最佳体验依赖 GLM 模型",
+      "产品较新"
+    ],
+    "ja": [
+      "最良の体験は GLM モデルに依存",
+      "比較的新しい製品"
+    ],
+    "es": [
+      "La mejor experiencia depende de modelos GLM",
+      "Producto más reciente"
+    ],
+    "fr": [
+      "La meilleure expérience dépend des modèles GLM",
+      "Produit plus récent"
+    ]
+  },
+  "latestUpdate": {
+    "en": "2026: ZCode officially adapts to GLM-5.2 with stronger agentic coding",
+    "zh": "2026年：ZCode 官方适配 GLM-5.2，智能体编程能力更强",
+    "ja": "2026年：ZCode が GLM-5.2 に公式対応し、エージェント型コーディングを強化",
+    "es": "2026: ZCode se adapta oficialmente a GLM-5.2 con codificación agéntica más potente",
+    "fr": "2026 : ZCode s'adapte officiellement à GLM-5.2 avec un codage agentique renforcé"
+  },
+  "verdict": {
+    "badge": "For Specific Needs",
+    "headline": {
+      "en": "AI coding tool focused on automated code generation for common patterns.",
+      "zh": "专注于常见模式自动代码生成的AI编程工具。",
+      "ja": "一般的なパターンの自動コード生成に焦点を当てたAIコーディングツール。",
+      "es": "Herramienta de código IA enfocada en generación automática de patrones comunes.",
+      "fr": "Outil de code IA axé sur la génération automatique de patterns courants."
+    },
+    "body": {
+      "en": "ZCode offers AI-assisted code generation targeting repetitive coding patterns and boilerplate. It aims to speed up routine development tasks by recognizing common structures and generating them quickly.\n\nThe tool serves a narrow use case well but lacks the broader intelligence and IDE integration depth of leading coding assistants. Useful as a supplementary tool for developers handling repetitive code generation tasks.",
+      "zh": "ZCode 提供针对重复编码模式和样板代码的AI辅助代码生成。它旨在通过识别常见结构并快速生成来加速日常开发任务。\n\n该工具服务于狭窄用例但缺乏领先编码助手的广泛智能和IDE集成深度。作为处理重复代码生成任务的开发者的补充工具很有用。",
+      "ja": "ZCodeは反復的なコーディングパターンとボイラープレートを対象としたAI支援コード生成を提供します。一般的な構造を認識し素早く生成することで日常的な開発タスクを高速化します。\n\n狭いユースケースには有用ですが、主要コーディングアシスタントの幅広い知能とIDE統合の深さには欠けます。反復的コード生成タスクの補助ツールとして有用です。",
+      "es": "ZCode ofrece generación de código asistida por IA dirigida a patrones repetitivos. Acelera tareas rutinarias reconociendo estructuras comunes y generándolas rápidamente.\n\nSirve bien un caso de uso estrecho pero carece de la inteligencia amplia de asistentes líderes. Útil como herramienta complementaria para generación de código repetitivo.",
+      "fr": "ZCode offre la génération de code assistée par IA ciblant les patterns répétitifs. Il accélère les tâches routinières en reconnaissant les structures communes.\n\nL'outil sert bien un cas d'usage étroit mais manque de l'intelligence large des assistants leaders. Utile comme outil complémentaire pour la génération de code répétitif."
+    },
+    "bestFor": {
+      "en": [
+        "Repetitive code pattern generation",
+        "Boilerplate automation",
+        "Supplementary coding assistance"
+      ],
+      "zh": [
+        "重复代码模式生成",
+        "样板代码自动化",
+        "补充性编码辅助"
+      ],
+      "ja": [
+        "反復的コードパターン生成",
+        "ボイラープレート自動化",
+        "補助的コーディング支援"
+      ],
+      "es": [
+        "Generación de patrones de código repetitivos",
+        "Automatización de boilerplate",
+        "Asistencia de código complementaria"
+      ],
+      "fr": [
+        "Génération de patterns de code répétitifs",
+        "Automatisation du boilerplate",
+        "Assistance de code complémentaire"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You need full-featured coding AI (→ Cursor, GitHub Copilot)",
+        "You want intelligent code understanding (→ Qoder, Claude)"
+      ],
+      "zh": [
+        "需要功能完整的编程AI（→ Cursor、GitHub Copilot）",
+        "需要智能代码理解（→ Qoder、Claude）"
+      ],
+      "ja": [
+        "フル機能のコーディングAIが必要な場合（→ Cursor、GitHub Copilot）",
+        "知的コード理解が必要な場合（→ Qoder、Claude）"
+      ],
+      "es": [
+        "Necesitas IA de código completa (→ Cursor, GitHub Copilot)",
+        "Quieres comprensión inteligente del código (→ Qoder, Claude)"
+      ],
+      "fr": [
+        "Vous avez besoin d'une IA de code complète (→ Cursor, GitHub Copilot)",
+        "Vous voulez une compréhension intelligente du code (→ Qoder, Claude)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-27",
+    "verdictDate": "2026-07-27",
+    "pricingVerified": "2026-07-27"
+  }
+}

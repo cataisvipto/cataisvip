@@ -1,0 +1,235 @@
+{
+  "features": {
+    "en": [
+      "100% user-funded search: no ads, no tracking, no attention economy",
+      "Personalized ranking — raise, lower or block any domain in your results",
+      "Lenses filter the web by scope: forums, academic, small web, programming and more",
+      "Kagi Assistant bundles flagship LLMs (Claude, GPT, Gemini) with live search grounding",
+      "Fair pricing policy: unused months are automatically credited back",
+      "Official iOS/Android apps, browser extensions and a paid Search API"
+    ],
+    "zh": [
+      "100% 用户付费驱动的搜索：没有广告、没有跟踪、没有注意力经济",
+      "个性化排序——可提升、降低或屏蔽结果中的任何域名",
+      "Lenses 透镜按范围过滤全网：论坛、学术、小众网站、编程等",
+      "Kagi Assistant 聚合旗舰大模型（Claude、GPT、Gemini）并以实时搜索作依据",
+      "公平定价政策：未使用的月份自动返还抵扣",
+      "官方 iOS/Android App、浏览器扩展与付费搜索 API"
+    ],
+    "ja": [
+      "100%ユーザー課金の検索：広告なし、トラッキングなし、注意経済なし",
+      "パーソナライズドランキング——任意のドメインを昇格・降格・ブロック可能",
+      "Lensesでウェブを範囲別にフィルタ：フォーラム、学術、スモールウェブ、プログラミングなど",
+      "Kagi AssistantはフラッグシップLLM（Claude、GPT、Gemini）をライブ検索と組み合わせて提供",
+      "フェアプライシング：未使用の月は自動でクレジット返還",
+      "公式iOS/Androidアプリ、ブラウザ拡張、有料検索API"
+    ],
+    "es": [
+      "Búsqueda 100% financiada por usuarios: sin anuncios, sin rastreo, sin economía de la atención",
+      "Clasificación personalizada: sube, baja o bloquea cualquier dominio en tus resultados",
+      "Las Lenses filtran la web por ámbito: foros, académico, web pequeña, programación y más",
+      "Kagi Assistant reúne LLM insignia (Claude, GPT, Gemini) con búsqueda en vivo como base",
+      "Política de precios justos: los meses sin uso se acreditan automáticamente",
+      "Apps oficiales iOS/Android, extensiones de navegador y una Search API de pago"
+    ],
+    "fr": [
+      "Recherche 100 % financée par les utilisateurs : pas de pub, pas de pistage, pas d'économie de l'attention",
+      "Classement personnalisé — montez, descendez ou bloquez n'importe quel domaine dans vos résultats",
+      "Les Lenses filtrent le web par périmètre : forums, académique, petit web, programmation et plus",
+      "Kagi Assistant réunit les LLM phares (Claude, GPT, Gemini) ancrés sur la recherche en direct",
+      "Politique de prix équitable : les mois non utilisés sont automatiquement crédités",
+      "Apps officielles iOS/Android, extensions navigateur et une Search API payante"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Free trial with 100 searches and 100 Kagi Assistant interactions — enough to feel the difference, but there is no permanent free tier.",
+      "zh": "免费试用含 100 次搜索与 100 次 Kagi Assistant 交互——足够体会差异，但没有永久免费档。",
+      "ja": "無料トライアルは検索100回とKagi Assistantとのやり取り100回——違いを体感するには十分だが、恒久的な無料枠はない。",
+      "es": "Prueba gratuita con 100 búsquedas y 100 interacciones con Kagi Assistant, suficiente para notar la diferencia, pero no hay plan gratuito permanente.",
+      "fr": "Essai gratuit avec 100 recherches et 100 interactions Kagi Assistant — assez pour sentir la différence, mais il n'existe pas d'offre gratuite permanente."
+    },
+    "paid": {
+      "en": "Starter $5/month (300 searches), Professional $10/month (unlimited searches + Assistant quick mode), Ultimate $25/month (Assistant research mode with flagship models like Claude, GPT and Gemini). Annual billing takes 10% off, and unused months are credited back under fair pricing. (Verified against the official pricing page, 2026-07-28.)",
+      "zh": "Starter $5/月（300 次搜索）；Professional $10/月（无限搜索 + Assistant 快速模式）；Ultimate $25/月（Assistant 研究模式，含 Claude、GPT、Gemini 等旗舰模型）。年付九折，未使用月份按公平定价返还。（对照官方定价页核实，2026-07-28。）",
+      "ja": "Starterは月$5（検索300回）、Professionalは月$10（検索無制限＋Assistantクイックモード）、Ultimateは月$25（Claude、GPT、Geminiなどフラッグシップモデル対応のAssistantリサーチモード）。年払いで10%オフ、未使用月はフェアプライシングでクレジット返還。（公式価格ページと照合、2026-07-28。）",
+      "es": "Starter $5/mes (300 búsquedas), Professional $10/mes (búsquedas ilimitadas + modo rápido del Assistant), Ultimate $25/mes (modo investigación del Assistant con modelos insignia como Claude, GPT y Gemini). La facturación anual descuenta 10% y los meses sin uso se acreditan por la política de precios justos. (Verificado con la página oficial de precios, 2026-07-28.)",
+      "fr": "Starter à 5 $/mois (300 recherches), Professional à 10 $/mois (recherches illimitées + mode rapide de l'Assistant), Ultimate à 25 $/mois (mode recherche de l'Assistant avec les modèles phares Claude, GPT et Gemini). La facturation annuelle offre 10 % de remise, et les mois non utilisés sont crédités selon la politique de prix équitable. (Vérifié avec la page tarifaire officielle, 2026-07-28.)"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Daily driver search for privacy-conscious professionals and developers",
+      "Cutting SEO spam and content farms out of technical research",
+      "One subscription covering both premium search and flagship LLM access",
+      "Personalizing the web: boosting trusted domains, banning junk ones forever"
+    ],
+    "zh": [
+      "注重隐私的专业人士与开发者的日常主力搜索",
+      "把 SEO 垃圾与内容农场从技术检索中剔除",
+      "一份订阅同时覆盖高端搜索与旗舰大模型使用",
+      "个性化互联网：永久提升信任域名、封禁垃圾站点"
+    ],
+    "ja": [
+      "プライバシー重視のプロフェッショナルと開発者の日常メイン検索",
+      "技術リサーチからSEOスパムとコンテンツファームを排除",
+      "1つのサブスクでプレミアム検索とフラッグシップLLMの両方をカバー",
+      "ウェブのパーソナライズ：信頼ドメインを昇格、ジャンクサイトを永久ブロック"
+    ],
+    "es": [
+      "Buscador principal diario para profesionales y desarrolladores conscientes de la privacidad",
+      "Eliminar el spam SEO y las granjas de contenido de la investigación técnica",
+      "Una sola suscripción que cubre búsqueda premium y acceso a LLM insignia",
+      "Personalizar la web: impulsar dominios de confianza y vetar los basura para siempre"
+    ],
+    "fr": [
+      "Moteur principal quotidien pour les professionnels et développeurs soucieux de la vie privée",
+      "Éliminer le spam SEO et les fermes de contenu de la recherche technique",
+      "Un seul abonnement couvrant la recherche premium et l'accès aux LLM phares",
+      "Personnaliser le web : booster les domaines de confiance, bannir les sites poubelles à jamais"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Result quality on technical queries routinely beats ad-funded engines",
+      "Domain ranking and Lenses give users control no mainstream engine offers",
+      "Ultimate plan doubles as a multi-LLM subscription at a competitive price",
+      "Fair pricing credits unused months — genuinely user-aligned economics"
+    ],
+    "zh": [
+      "技术类查询的结果质量常常胜过广告驱动的引擎",
+      "域名排序与 Lenses 给了用户主流引擎从不提供的控制权",
+      "Ultimate 套餐兼作多模型订阅，价格有竞争力",
+      "公平定价对未使用月份返还——经济模型真正与用户对齐"
+    ],
+    "ja": [
+      "技術系クエリの結果品質は広告収益型エンジンをしばしば上回る",
+      "ドメインランキングとLensesは主流エンジンにはないコントロールを提供",
+      "UltimateプランはマルチLLMサブスクとしても競争力のある価格",
+      "フェアプライシングで未使用月をクレジット返還——真にユーザー本位の経済設計"
+    ],
+    "es": [
+      "La calidad de resultados en consultas técnicas supera habitualmente a los motores con anuncios",
+      "La clasificación de dominios y las Lenses dan un control que ningún motor mayoritario ofrece",
+      "El plan Ultimate funciona también como suscripción multi-LLM a precio competitivo",
+      "Los precios justos acreditan los meses sin uso: economía genuinamente alineada con el usuario"
+    ],
+    "fr": [
+      "La qualité des résultats sur les requêtes techniques dépasse régulièrement les moteurs financés par la pub",
+      "Le classement de domaines et les Lenses offrent un contrôle qu'aucun moteur grand public ne propose",
+      "Le forfait Ultimate fait aussi office d'abonnement multi-LLM à prix compétitif",
+      "Le prix équitable crédite les mois non utilisés — une économie réellement alignée sur l'utilisateur"
+    ]
+  },
+  "cons": {
+    "en": [
+      "No permanent free tier — the 100-search trial is all you get before paying",
+      "$10/month for unlimited search is a hard sell against free incumbents",
+      "Non-English and local/regional results can lag Google's depth",
+      "Cannot be set as the native default engine on some mobile platforms without workarounds"
+    ],
+    "zh": [
+      "没有永久免费档——付费前只有 100 次搜索试用",
+      "$10/月的无限搜索面对免费巨头是道心理关",
+      "非英文与本地/区域性结果的深度可能不及 Google",
+      "部分移动平台无法直接设为系统默认引擎，需要变通方案"
+    ],
+    "ja": [
+      "恒久的な無料枠はなし——支払い前に使えるのは100回の検索トライアルのみ",
+      "無制限検索に月$10は無料の既存勢を前にすると心理的ハードル",
+      "非英語やローカル・地域系の結果はGoogleの深さに劣ることがある",
+      "一部のモバイルプラットフォームでは回避策なしにネイティブ既定エンジンへ設定できない"
+    ],
+    "es": [
+      "Sin plan gratuito permanente: la prueba de 100 búsquedas es todo antes de pagar",
+      "$10/mes por búsqueda ilimitada cuesta de justificar frente a los gigantes gratuitos",
+      "Los resultados no ingleses y locales/regionales pueden quedar por detrás de Google",
+      "No puede fijarse como motor predeterminado nativo en algunas plataformas móviles sin rodeos"
+    ],
+    "fr": [
+      "Pas d'offre gratuite permanente — l'essai de 100 recherches est tout ce qu'on a avant de payer",
+      "10 $/mois pour la recherche illimitée reste difficile à vendre face aux géants gratuits",
+      "Les résultats non anglophones et locaux/régionaux peuvent être moins profonds que Google",
+      "Impossible d'en faire le moteur par défaut natif sur certaines plateformes mobiles sans contournement"
+    ]
+  },
+  "latestUpdate": {
+    "en": "2026: Kagi keeps doubling down on its user-funded model — the Assistant now spans the flagship model lineup (Claude, GPT, Gemini, DeepSeek and more) with a research mode on Ultimate, official mobile apps have matured on both platforms, and the fair pricing policy automatically credits unused months. Plans run $5/$10/$25 per month with 10% off annually.",
+    "zh": "2026 年：Kagi 持续加注用户付费模式——Assistant 已覆盖旗舰模型阵容（Claude、GPT、Gemini、DeepSeek 等），Ultimate 档配研究模式；双平台官方移动 App 已经成熟；公平定价政策对未使用月份自动返还。套餐 $5/$10/$25 每月，年付九折。",
+    "ja": "2026年：Kagiはユーザー課金モデルへの注力を続けている——AssistantはフラッグシップモデルGroup（Claude、GPT、Gemini、DeepSeekなど）を網羅し、Ultimateにはリサーチモードを搭載。両プラットフォームの公式モバイルアプリも成熟し、フェアプライシングは未使用月を自動でクレジット返還する。プランは月$5/$10/$25で年払い10%オフ。",
+    "es": "2026: Kagi sigue apostando por su modelo financiado por usuarios: el Assistant abarca ya la línea de modelos insignia (Claude, GPT, Gemini, DeepSeek y más) con modo investigación en Ultimate, las apps móviles oficiales han madurado en ambas plataformas y la política de precios justos acredita automáticamente los meses sin uso. Los planes cuestan $5/$10/$25 al mes con 10% de descuento anual.",
+    "fr": "2026 : Kagi persiste dans son modèle financé par les utilisateurs — l'Assistant couvre désormais la gamme des modèles phares (Claude, GPT, Gemini, DeepSeek et plus) avec un mode recherche sur Ultimate, les apps mobiles officielles ont mûri sur les deux plateformes, et la politique de prix équitable crédite automatiquement les mois non utilisés. Les forfaits vont de 5 $/10 $/25 $ par mois avec 10 % de remise annuelle."
+  },
+  "verdict": {
+    "badge": "Recommended",
+    "headline": {
+      "en": "The search engine you pay for — so nobody else pays for your attention",
+      "zh": "一款你花钱买的搜索引擎——这样就没人能买走你的注意力",
+      "ja": "あなたがお金を払う検索エンジン——だから誰もあなたの注意を買えない",
+      "es": "El buscador que pagas tú, para que nadie más pague por tu atención",
+      "fr": "Le moteur de recherche que vous payez — pour que personne d'autre n'achète votre attention"
+    },
+    "body": {
+      "en": "Kagi's premise sounds almost quaint: what if a search engine worked for the person searching, instead of the advertisers bidding on them? In practice the difference is immediate. Results on technical queries are cleaner, SEO sludge is demoted or gone, and the two signature powers — ranking domains up or down forever, and Lenses that scope searches to forums, academic sources or the small web — make the open web feel curated by you. The Ultimate tier quietly doubles as one of the better LLM deals around, wrapping Claude, GPT and Gemini into an Assistant grounded in live search. The friction is honest: there is no permanent free tier, $10/month buys what Google gives away, and non-English or hyper-local results can still trail the incumbent. That makes Kagi a deliberate purchase, not an impulse switch. But among the professionals who try it — especially developers drowning in content-farm answers — an unusually large share never go back. Few products in this directory inspire that kind of loyalty.",
+      "zh": "Kagi 的前提听上去几乎有些天真：如果搜索引擎为搜索的人服务，而不是为竞价买他们注意力的广告主服务，会怎样？实际用起来，差别立竿见影。技术类查询的结果更干净，SEO 淤泥被降权或清除；两大招牌能力——永久升降任意域名的排序，以及把搜索限定在论坛、学术或小众网站的 Lenses——让开放互联网变成由你亲自策展的样子。Ultimate 档还悄悄兼任市面上颇划算的大模型订阅之一，把 Claude、GPT、Gemini 打包进一个以实时搜索为依据的 Assistant。摩擦点也很诚实：没有永久免费档，$10/月买的是 Google 免费送的东西，非英文和本地化结果有时仍逊于巨头。所以 Kagi 是一次深思熟虑的购买，不是一时冲动的切换。但在试过它的专业人士中——尤其是被内容农场答案淹没的开发者——不再回头的比例高得反常。这个目录里很少有产品能激发那种忠诚度。",
+      "ja": "Kagiの前提はほとんど素朴に聞こえる：検索エンジンが、注意を入札する広告主ではなく、検索する本人のために働いたらどうなるか？実際に使えば違いはすぐ分かる。技術系クエリの結果はよりクリーンで、SEOの汚泥は降格または排除され、2つの看板機能——任意のドメインを永久に昇降できるランキングと、検索をフォーラム・学術・スモールウェブに絞るLenses——がオープンウェブを自分の手でキュレーションした場所に変える。Ultimateプランは、Claude、GPT、Geminiをライブ検索に基づくAssistantに束ねた、市場でも有数のお得なLLMサブスクを静かに兼ねている。摩擦も正直だ：恒久無料枠はなく、月$10で買うのはGoogleが無料で配るものであり、非英語や超ローカルな結果はまだ既存王者に劣ることがある。だからKagiは衝動的な乗り換えではなく、熟慮の上の購入だ。しかし試したプロフェッショナルの中で——特にコンテンツファームの回答に溺れる開発者の間で——戻らない人の割合は異常に高い。このディレクトリでその種の忠誠心を生む製品は少ない。",
+      "es": "La premisa de Kagi suena casi ingenua: ¿y si un buscador trabajara para quien busca, en lugar de para los anunciantes que pujan por su atención? En la práctica, la diferencia es inmediata. Los resultados en consultas técnicas son más limpios, el lodo SEO queda degradado o desaparece, y los dos poderes distintivos —subir o bajar dominios para siempre, y las Lenses que acotan la búsqueda a foros, fuentes académicas o la web pequeña— hacen que la web abierta se sienta curada por ti. El nivel Ultimate funciona además como una de las mejores ofertas de LLM del mercado, envolviendo Claude, GPT y Gemini en un Assistant anclado en búsqueda en vivo. La fricción es honesta: no hay plan gratuito permanente, $10/mes compran lo que Google regala, y los resultados no ingleses o hiperlocales aún pueden ir detrás del incumbente. Eso convierte a Kagi en una compra deliberada, no un cambio impulsivo. Pero entre los profesionales que lo prueban —sobre todo desarrolladores ahogados en respuestas de granjas de contenido— una proporción inusualmente alta no vuelve atrás. Pocos productos de este directorio inspiran esa lealtad.",
+      "fr": "Le postulat de Kagi semble presque candide : et si un moteur de recherche travaillait pour la personne qui cherche, plutôt que pour les annonceurs qui enchérissent sur son attention ? À l'usage, la différence est immédiate. Les résultats des requêtes techniques sont plus propres, la boue SEO est rétrogradée ou éliminée, et les deux pouvoirs signature — classer les domaines à la hausse ou à la baisse pour toujours, et les Lenses qui restreignent la recherche aux forums, aux sources académiques ou au petit web — donnent l'impression d'un web ouvert curaté par vous. Le forfait Ultimate fait discrètement office de l'un des meilleurs deals LLM du moment, réunissant Claude, GPT et Gemini dans un Assistant ancré sur la recherche en direct. La friction est honnête : pas d'offre gratuite permanente, 10 $/mois achètent ce que Google donne gratuitement, et les résultats non anglophones ou hyper-locaux peuvent encore être en retrait. Kagi est donc un achat réfléchi, pas un changement impulsif. Mais parmi les professionnels qui l'essaient — surtout les développeurs noyés dans les réponses de fermes de contenu — une part inhabituellement grande ne revient jamais en arrière. Peu de produits de ce répertoire inspirent une telle fidélité."
+    },
+    "bestFor": {
+      "en": [
+        "Developers and professionals who search dozens of times a day and value clean results",
+        "Privacy-focused users who want zero ads and zero tracking, and will pay for it",
+        "Power users wanting one subscription for both premium search and flagship LLMs"
+      ],
+      "zh": [
+        "每天搜索几十次、看重干净结果的开发者与专业人士",
+        "想要零广告零跟踪并愿意为此付费的隐私优先用户",
+        "想用一份订阅同时搞定高端搜索与旗舰大模型的重度用户"
+      ],
+      "ja": [
+        "1日に何十回も検索し、クリーンな結果を重視する開発者・プロフェッショナル",
+        "広告ゼロ・トラッキングゼロに対価を払う覚悟のあるプライバシー重視ユーザー",
+        "プレミアム検索とフラッグシップLLMを1つのサブスクで済ませたいパワーユーザー"
+      ],
+      "es": [
+        "Desarrolladores y profesionales que buscan decenas de veces al día y valoran resultados limpios",
+        "Usuarios centrados en la privacidad que quieren cero anuncios y cero rastreo, y pagarán por ello",
+        "Usuarios avanzados que quieren una sola suscripción para búsqueda premium y LLM insignia"
+      ],
+      "fr": [
+        "Développeurs et professionnels qui cherchent des dizaines de fois par jour et tiennent aux résultats propres",
+        "Utilisateurs attachés à la vie privée voulant zéro pub et zéro pistage, prêts à payer pour cela",
+        "Power users voulant un seul abonnement pour la recherche premium et les LLM phares"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You want conversational AI answers rather than classic ranked results (→ Perplexity)",
+        "You will not pay for search and need a free daily driver (→ Felo / Perplexity free tiers)"
+      ],
+      "zh": [
+        "你想要对话式 AI 答案而非经典的排序结果（→ Perplexity）",
+        "你不打算为搜索付费、需要免费主力工具（→ Felo / Perplexity 免费档）"
+      ],
+      "ja": [
+        "従来型のランキング結果より対話型AI回答が欲しい（→ Perplexity）",
+        "検索にお金は払わず無料のメイン検索が必要（→ Felo / Perplexityの無料枠）"
+      ],
+      "es": [
+        "Quieres respuestas conversacionales de IA en vez de resultados clasificados clásicos (→ Perplexity)",
+        "No pagarás por buscar y necesitas una opción gratuita diaria (→ niveles gratis de Felo / Perplexity)"
+      ],
+      "fr": [
+        "Vous voulez des réponses IA conversationnelles plutôt que des résultats classés classiques (→ Perplexity)",
+        "Vous ne paierez pas pour chercher et avez besoin d'un outil gratuit au quotidien (→ offres gratuites de Felo / Perplexity)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-28",
+    "verdictDate": "2026-07-28",
+    "pricingVerified": "2026-07-28",
+    "pricingUrl": "https://kagi.com/pricing"
+  }
+}

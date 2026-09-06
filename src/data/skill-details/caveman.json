@@ -1,0 +1,129 @@
+{
+  "pros": {
+    "en": [
+      "Reduces output tokens by ~65% on prose, 8.5% on agentic coding runs (JetBrains verified)",
+      "Works with 30+ agents: Claude Code, Codex, Gemini, Cursor, Windsurf, Cline, Copilot and more",
+      "Six compression levels (lite/full/ultra/wenyan) switchable mid-session",
+      "Includes /caveman-compress for memory files (~46% input token savings forever)",
+      "Free and open source with MIT license",
+      "No quality degradation — independently verified by JetBrains on 86 auto-graded tasks"
+    ],
+    "zh": [
+      "输出 token 减少约 65%（聊天式回复），编码任务 8.5%（JetBrains 验证）",
+      "支持 30+ 智能体：Claude Code、Codex、Gemini、Cursor、Windsurf、Cline、Copilot 等",
+      "六档压缩等级（lite/full/ultra/wenyan），会话中可随时切换",
+      "附带 /caveman-compress 压缩记忆文件（永久节省约 46% 输入 token）",
+      "免费开源（MIT 协议）",
+      "质量无退化——JetBrains 86 个自动评分任务独立验证"
+    ],
+    "ja": [
+      "出力トークンをプロースで約65%、コーディングで8.5%削減（JetBrains検証済み）",
+      "30以上のエージェントに対応：Claude Code、Codex、Gemini、Cursor、Windsurf、Cline、Copilotなど",
+      "6段階の圧縮レベル（lite/full/ultra/wenyan）、セッション中に切替可能",
+      "/caveman-compress で記憶ファイルを圧縮（入力トークンを約46%永久削減）",
+      "無料のオープンソース（MITライセンス）",
+      "品質低下なし — JetBrains が86タスクで独立検証"
+    ],
+    "es": [
+      "Reduce tokens de salida ~65% en prosa, 8.5% en tareas de codificación (verificado por JetBrains)",
+      "Funciona con 30+ agentes: Claude Code, Codex, Gemini, Cursor, Windsurf, Cline, Copilot y más",
+      "Seis niveles de compresión (lite/full/ultra/wenyan) intercambiables durante la sesión",
+      "Incluye /caveman-compress para archivos de memoria (~46% ahorro de tokens de entrada)",
+      "Gratuito y de código abierto con licencia MIT",
+      "Sin degradación de calidad — verificado independientemente por JetBrains en 86 tareas"
+    ],
+    "fr": [
+      "Réduit les tokens de sortie d'environ 65 % en prose, 8,5 % en codage autonome (vérifié par JetBrains)",
+      "Fonctionne avec 30+ agents : Claude Code, Codex, Gemini, Cursor, Windsurf, Cline, Copilot et plus",
+      "Six niveaux de compression (lite/full/ultra/wenyan) interchangeables en session",
+      "Inclut /caveman-compress pour les fichiers mémoire (~46 % d'économies de tokens d'entrée)",
+      "Gratuit et open source sous licence MIT",
+      "Aucune dégradation de qualité — vérifié indépendamment par JetBrains sur 86 tâches"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Only compresses output tokens — input tokens unchanged, and the skill adds ~1-1.5k input tokens per turn",
+      "Whole-session savings vary significantly by workload; on already-terse code runs savings can be minimal",
+      "Install command (curl | bash) is a security concern for some users",
+      "Project is young (April 2026) with 470 open issues",
+      "Need Node ≥18 installed on the machine"
+    ],
+    "zh": [
+      "只压缩输出 token，输入 token 不变，技能本身每轮增加约 1-1.5k 输入 token",
+      "整轮对话的节省因场景差异很大，已经简洁的编码任务节省可能较少",
+      "安装命令（curl | bash）对部分用户存在安全担忧",
+      "项目较新（2026 年 4 月），有 470 个未关闭 issue",
+      "需要本机安装 Node ≥18"
+    ],
+    "ja": [
+      "出力トークンのみ圧縮、入力トークンは変わらず、スキル自体が毎ターン約1〜1.5kの入力トークンを追加",
+      "セッション全体の節約はワークロードにより大きく変動、既に簡潔なコード作業では節約が少ない可能性",
+      "インストールコマンド（curl | bash）は一部ユーザーにとってセキュリティ上の懸念",
+      "プロジェクトは新しい（2026年4月）、470件の未解決issue",
+      "Node ≥18 が必要"
+    ],
+    "es": [
+      "Solo comprime tokens de salida — los de entrada no cambian, y el skill añade ~1-1.5k tokens de entrada por turno",
+      "El ahorro total varía significativamente por carga de trabajo; en tareas ya concisas el ahorro puede ser mínimo",
+      "El comando de instalación (curl | bash) es una preocupación de seguridad para algunos usuarios",
+      "Proyecto joven (abril 2026) con 470 issues abiertos",
+      "Requiere Node ≥18 instalado en la máquina"
+    ],
+    "fr": [
+      "Ne comprime que les tokens de sortie — les tokens d'entrée sont inchangés, et le skill ajoute ~1 à 1,5 k tokens d'entrée par tour",
+      "Les économies globales varient considérablement selon la charge de travail ; sur des tâches déjà concises, les économies peuvent être minimes",
+      "La commande d'installation (curl | bash) est une préoccupation de sécurité pour certains utilisateurs",
+      "Projet récent (avril 2026) avec 470 issues ouvertes",
+      "Nécessite Node ≥18 installé sur la machine"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Free and open source (MIT)",
+      "zh": "免费开源（MIT 协议）",
+      "ja": "無料のオープンソース（MITライセンス）",
+      "es": "Gratuito y de código abierto (MIT)",
+      "fr": "Gratuit et open source (licence MIT)"
+    }
+  },
+  "verdict": {
+    "en": "Caveman is a genuinely useful token-saving skill for AI coding agents — it compresses output without sacrificing accuracy, backed by independent benchmarks from JetBrains. The 65% reduction on chat-style replies is real, though the 8.5% on agentic coding runs is more modest. The /caveman-compress feature for memory files is a clever addition that saves input tokens permanently. Best for developers who use Claude Code, Codex or similar agents heavily and want to cut costs without changing providers.",
+    "zh": "Caveman 是一个真正有用的 AI 编码智能体 token 节省技能——压缩输出而不牺牲准确性，有 JetBrains 独立基准测试背书。聊天式回复的 65% 节省是真实的，虽然编码任务的 8.5% 更为温和。/caveman-compress 记忆文件压缩功能是个巧妙的补充，永久节省输入 token。最适合重度使用 Claude Code、Codex 等智能体且想在不更换服务商的前提下降低成本的开发者。",
+    "ja": "Caveman は、AI コーディングエージェント向けの真に有用なトークン節約スキルです。正確性を犠牲にせず出力を圧縮し、JetBrains の独立したベンチマークで裏付けられています。チャット形式の返信で65%削減は現実的ですが、コーディング作業では8.5%とより控えめです。記憶ファイルの /caveman-compress 機能は入力トークンを恒久的に節約する巧妙な工夫です。",
+    "es": "Caveman es un skill genuinamente útil de ahorro de tokens para agentes de codificación IA — comprime la salida sin sacrificar precisión, respaldado por benchmarks independientes de JetBrains. La reducción del 65% en respuestas tipo chat es real, aunque el 8.5% en tareas de codificación es más modesto. La función /caveman-compress para archivos de memoria es un añadido ingenioso que ahorra tokens de entrada permanentemente.",
+    "fr": "Caveman est un skill de réduction de tokens vraiment utile pour les agents de codage IA — il compresse la sortie sans sacrifier la précision, soutenu par des benchmarks indépendants de JetBrains. La réduction de 65 % sur les réponses de type chat est réelle, bien que les 8,5 % sur les tâches de codage soient plus modestes. La fonction /caveman-compress pour les fichiers mémoire est un ajout astucieux qui économise les tokens d'entrée en permanence."
+  },
+  "useCases": {
+    "en": [
+      "Reducing API costs when using Claude Code, Codex or other paid AI coding agents",
+      "Speeding up code review by getting concise, one-line PR comments",
+      "Compressing CLAUDE.md and other memory files to save input tokens every session"
+    ],
+    "zh": [
+      "使用 Claude Code、Codex 等付费 AI 编码智能体时降低 API 费用",
+      "通过简洁的一行 PR 评论加速代码审查",
+      "压缩 CLAUDE.md 等记忆文件，每次会话节省输入 token"
+    ],
+    "ja": [
+      "Claude Code、Codex などの有料AIコーディングエージェント使用時のAPIコスト削減",
+      "簡潔な一行PRコメントによるコードレビューの高速化",
+      "CLAUDE.mdなどの記憶ファイルを圧縮して毎セッションの入力トークンを節約"
+    ],
+    "es": [
+      "Reducir costos de API al usar Claude Code, Codex u otros agentes de codificación IA de pago",
+      "Acelerar revisiones de código con comentarios de PR concisos de una línea",
+      "Comprimir archivos de memoria como CLAUDE.md para ahorrar tokens de entrada cada sesión"
+    ],
+    "fr": [
+      "Réduire les coûts d'API lors de l'utilisation de Claude Code, Codex ou d'autres agents de codage IA payants",
+      "Accélérer les revues de code avec des commentaires de PR concis d'une ligne",
+      "Compresser les fichiers mémoire comme CLAUDE.md pour économiser des tokens d'entrée à chaque session"
+    ]
+  },
+  "meta": {
+    "lastVerified": "2026-08-11",
+    "verdictDate": "2026-08-11",
+    "pricingVerified": "2026-08-11"
+  }
+}

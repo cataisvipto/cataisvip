@@ -1,0 +1,30 @@
+{
+  "slug": "xiaomi-mimo",
+  "name": "MiMo",
+  "nameZh": "小米大模型",
+  "description": "小米推出的 AI 大模型，MiMo 端侧模型在手机端高效运行，支持智能助手和多种 AI 场景",
+  "descriptionEn": "Xiaomi's AI LLM, MiMo on-device model runs efficiently on smartphones, supporting AI assistant and various AI scenarios",
+  "descriptionJa": "XiaomiのAI LLM。MiMo端末モデルはスマートフォンで効率的に動作、AIアシスタントや様々なAIシーンをサポート",
+  "descriptionEs": "LLM de IA de Xiaomi, el modelo en dispositivo MiMo funciona eficientemente en teléfonos, compatible con asistente IA y varios escenarios de IA",
+  "descriptionFr": "LLM IA de Xiaomi, le modèle sur appareil MiMo fonctionne efficacement sur les smartphones, prenant en charge l'assistant IA et divers scénarios d'IA",
+  "url": "https://mimo.xiaomi.com",
+  "logo": "/logos/tools/xiaomi-mimo.png",
+  "category": "Foundation Models",
+  "tags": [
+    "Free",
+    "API"
+  ],
+  "featured": false,
+  "developer": "Xiaomi",
+  "developerZh": "小米",
+  "platforms": {
+    "web": true,
+    "windows": true,
+    "macos": true,
+    "ios": false,
+    "android": false,
+    "linux": true,
+    "browser_extension": false,
+    "api": true
+  }
+}

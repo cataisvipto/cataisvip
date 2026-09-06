@@ -1,0 +1,212 @@
+{
+  "features": {
+    "en": [
+      "OpenAI text-to-video",
+      "High-quality 1080p output",
+      "Realistic physics simulation",
+      "Complex scene understanding",
+      "Multiple style support",
+      "Extended video generation"
+    ],
+    "zh": [
+      "OpenAI 文本转视频",
+      "高质量 1080p 输出",
+      "真实物理模拟",
+      "复杂场景理解",
+      "多种风格支持",
+      "延长视频"
+    ],
+    "ja": [
+      "OpenAI テキスト動画生成",
+      "高品質 1080p",
+      "リアルな物理",
+      "複雑なシーン理解",
+      "複数スタイル",
+      "動画延長"
+    ],
+    "es": [
+      "Texto a vídeo OpenAI",
+      "Salida 1080p",
+      "Simulación física realista",
+      "Escenas complejas",
+      "Múltiples estilos",
+      "Vídeo extendido"
+    ],
+    "fr": [
+      "Texte vers vidéo OpenAI",
+      "Sortie 1080p",
+      "Simulation physique réaliste",
+      "Scènes complexes",
+      "Plusieurs styles",
+      "Vidéo étendue"
+    ]
+  },
+  "useCases": {
+    "en": [
+      "Creative video production",
+      "Concept visualization",
+      "Marketing content",
+      "Film pre-visualization"
+    ],
+    "zh": [
+      "创意视频制作",
+      "概念可视化",
+      "营销内容",
+      "电影预可视化"
+    ],
+    "ja": [
+      "動画制作",
+      "概念可視化",
+      "マーケティング",
+      "プリビジュアライゼーション"
+    ],
+    "es": [
+      "Producción creativa",
+      "Visualización de conceptos",
+      "Marketing",
+      "Previsualización"
+    ],
+    "fr": [
+      "Production créative",
+      "Visualisation",
+      "Marketing",
+      "Prévisualisation"
+    ]
+  },
+  "pros": {
+    "en": [
+      "State-of-the-art video",
+      "OpenAI ecosystem",
+      "Realistic physics"
+    ],
+    "zh": [
+      "顶级视频质量",
+      "OpenAI 生态",
+      "真实物理"
+    ],
+    "ja": [
+      "最高水準の画質",
+      "OpenAI 統合",
+      "リアルな物理"
+    ],
+    "es": [
+      "Vídeo de vanguardia",
+      "Ecosistema OpenAI",
+      "Física realista"
+    ],
+    "fr": [
+      "Vidéo de pointe",
+      "Écosystème OpenAI",
+      "Physique réaliste"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Expensive subscription",
+      "Limited availability",
+      "Generation time long"
+    ],
+    "zh": [
+      "需高价订阅",
+      "可用性有限",
+      "生成时间长"
+    ],
+    "ja": [
+      "高額",
+      "利用制限",
+      "生成に時間"
+    ],
+    "es": [
+      "Suscripción cara",
+      "Disponibilidad limitada",
+      "Generación lenta"
+    ],
+    "fr": [
+      "Abonnement coûteux",
+      "Disponibilité limitée",
+      "Génération lente"
+    ]
+  },
+  "pricing": {
+    "pro": {
+      "en": "Included with ChatGPT Pro ($200/month)",
+      "zh": "含于 ChatGPT Pro ($200/月)",
+      "ja": "ChatGPT Pro に含む",
+      "es": "Incluido en ChatGPT Pro",
+      "fr": "Inclus avec ChatGPT Pro"
+    }
+  },
+  "latestUpdate": {
+    "en": "April 2026: Sora discontinued — web/app shut down, API closing September 2026",
+    "zh": "2026年4月：Sora 已停止服务——Web/App 已关闭，API 将于2026年9月关闭",
+    "ja": "2026年4月：Sora サービス終了——Web/アプリ停止、APIは2026年9月に終了",
+    "es": "Abril 2026: Sora descontinuado — web/app cerrada, API cierra septiembre 2026",
+    "fr": "Avril 2026 : Sora arrêté — web/app fermés, API ferme en septembre 2026"
+  },
+  "verdict": {
+    "badge": "Consider Alternatives",
+    "headline": {
+      "en": "Sora has been discontinued — OpenAI shut down the product in April 2026. Do not start new projects on Sora.",
+      "zh": "Sora 已停止服务——OpenAI 于2026年4月关停该产品。请勿基于 Sora 开展新项目。",
+      "ja": "Soraはサービス終了済み——OpenAIは2026年4月に製品を停止しました。新規プロジェクトでの利用は避けてください。",
+      "es": "Sora ha sido descontinuado — OpenAI cerró el producto en abril 2026. No inicies nuevos proyectos con Sora.",
+      "fr": "Sora a été arrêté — OpenAI a fermé le produit en avril 2026. Ne démarrez pas de nouveaux projets sur Sora."
+    },
+    "body": {
+      "en": "OpenAI discontinued Sora's web and app experiences on April 26, 2026, with the API scheduled for shutdown on September 24, 2026. The video generation capabilities are being folded into ChatGPT and the broader OpenAI platform rather than maintained as a standalone product.\n\nSora set an industry benchmark for text-to-video fidelity when it launched, but OpenAI concluded the standalone product was not viable. Existing users should export their data and migrate to active alternatives.\n\nFor AI video generation needs, Runway, Kling, and Vidu are actively maintained alternatives with comparable or better editing controls and longer output support.",
+      "zh": "OpenAI于2026年4月26日关闭了Sora的Web和App体验，API计划于2026年9月24日关停。视频生成能力将被整合入ChatGPT和OpenAI大平台，不再作为独立产品维护。\n\nSora发布时在文本转视频保真度上设立了行业基准，但OpenAI认为独立产品不具可行性。现有用户应导出数据并迁移到活跃的替代方案。\n\n如需AI视频生成，Runway、Kling（可灵）和Vidu是当前活跃维护的替代方案，具有相当或更好的编辑控制和更长输出支持。",
+      "ja": "OpenAIは2026年4月26日にSoraのWeb・アプリ体験を終了し、APIは2026年9月24日に停止予定です。動画生成機能はChatGPTとOpenAIプラットフォームに統合されます。\n\nSoraはテキストから動画の忠実度で業界基準を設定しましたが、独立製品として存続しないと判断されました。既存ユーザーはデータをエクスポートし代替サービスへ移行すべきです。\n\nAI動画生成にはRunway、Kling、Viduが活発に維持されている代替サービスです。",
+      "es": "OpenAI cerró la experiencia web y app de Sora el 26 de abril de 2026, con la API programada para cierre el 24 de septiembre de 2026. Las capacidades de generación de vídeo se integran en ChatGPT.\n\nSora estableció un punto de referencia en fidelidad texto-a-vídeo, pero OpenAI concluyó que el producto independiente no era viable. Los usuarios existentes deben exportar sus datos y migrar.\n\nPara generación de vídeo IA, Runway, Kling y Vidu son alternativas activamente mantenidas.",
+      "fr": "OpenAI a fermé l'expérience web et app de Sora le 26 avril 2026, l'API devant fermer le 24 septembre 2026. Les capacités de génération vidéo sont intégrées à ChatGPT.\n\nSora a établi une référence en fidélité texte-vers-vidéo, mais OpenAI a conclu que le produit autonome n'était pas viable. Les utilisateurs doivent exporter leurs données et migrer.\n\nPour la génération vidéo IA, Runway, Kling et Vidu sont des alternatives activement maintenues."
+    },
+    "bestFor": {
+      "en": [
+        "Historical reference only — Sora is no longer available for new use"
+      ],
+      "zh": [
+        "仅供历史参考——Sora 已不再可用"
+      ],
+      "ja": [
+        "歴史的参考のみ——Soraは利用不可"
+      ],
+      "es": [
+        "Solo referencia histórica — Sora ya no está disponible"
+      ],
+      "fr": [
+        "Référence historique uniquement — Sora n'est plus disponible"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You need AI video generation now (→ Runway, Kling, Vidu)",
+        "You want text-to-video with fine editing controls (→ Runway Gen-3)",
+        "You need a Chinese-accessible AI video tool (→ Kling, Vidu)"
+      ],
+      "zh": [
+        "你现在需要AI视频生成（→ Runway、可灵、Vidu）",
+        "你需要带精细编辑控制的文本转视频（→ Runway Gen-3）",
+        "你需要国内可访问的AI视频工具（→ 可灵、Vidu）"
+      ],
+      "ja": [
+        "AI動画生成が今必要な場合（→ Runway、Kling、Vidu）",
+        "細かい編集コントロール付きのテキスト動画が必要な場合（→ Runway Gen-3）",
+        "中国からアクセス可能なAI動画ツールが必要な場合（→ Kling、Vidu）"
+      ],
+      "es": [
+        "Necesitas generación de vídeo IA ahora (→ Runway, Kling, Vidu)",
+        "Quieres texto-a-vídeo con controles de edición finos (→ Runway Gen-3)",
+        "Necesitas una herramienta de vídeo IA accesible desde China (→ Kling, Vidu)"
+      ],
+      "fr": [
+        "Vous avez besoin de génération vidéo IA maintenant (→ Runway, Kling, Vidu)",
+        "Vous voulez du texte-vers-vidéo avec des contrôles d'édition fins (→ Runway Gen-3)",
+        "Vous avez besoin d'un outil vidéo IA accessible depuis la Chine (→ Kling, Vidu)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-30",
+    "verdictDate": "2026-07-27",
+    "pricingVerified": "2026-07-27"
+  }
+}

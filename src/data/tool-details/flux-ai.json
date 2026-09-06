@@ -1,0 +1,244 @@
+{
+  "features": {
+    "en": [
+      "State-of-the-art open-source image",
+      "Black Forest Labs",
+      "Fast generation",
+      "Excellent text rendering",
+      "Pro, Dev, Schnell variants",
+      "Local deployment"
+    ],
+    "zh": [
+      "顶级开源图像模型",
+      "Black Forest Labs 开发",
+      "快速生成",
+      "文字渲染出色",
+      "Pro/Dev/Schnell 版本",
+      "本地部署"
+    ],
+    "ja": [
+      "最先端オープンソース画像",
+      "Black Forest Labs 製",
+      "高速生成",
+      "テキスト優秀",
+      "複数バリアント",
+      "ローカル展開"
+    ],
+    "es": [
+      "Imágenes open-source",
+      "Black Forest Labs",
+      "Rápido",
+      "Texto excelente",
+      "Variantes",
+      "Local"
+    ],
+    "fr": [
+      "Images open-source",
+      "Black Forest Labs",
+      "Rapide",
+      "Texte excellent",
+      "Variantes",
+      "Local"
+    ]
+  },
+  "useCases": {
+    "en": [
+      "Open-source image gen",
+      "Local deployment",
+      "Commercial (Pro)",
+      "Rapid prototyping",
+      "Research"
+    ],
+    "zh": [
+      "开源图像生成",
+      "本地部署",
+      "商业使用(Pro)",
+      "快速原型",
+      "研究"
+    ],
+    "ja": [
+      "オープンソース",
+      "ローカル",
+      "商用(Pro)",
+      "プロトタイプ",
+      "研究"
+    ],
+    "es": [
+      "Imágenes open-source",
+      "Local",
+      "Comercial (Pro)",
+      "Prototipo",
+      "Investigación"
+    ],
+    "fr": [
+      "Images open-source",
+      "Local",
+      "Commercial (Pro)",
+      "Prototypage",
+      "Recherche"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Open-source & free",
+      "State-of-the-art",
+      "Fast generation",
+      "Local deployment"
+    ],
+    "zh": [
+      "开源免费",
+      "顶级质量",
+      "快速生成",
+      "本地部署"
+    ],
+    "ja": [
+      "無料・オープン",
+      "最先端",
+      "高速",
+      "ローカル"
+    ],
+    "es": [
+      "Open-source gratis",
+      "Vanguardia",
+      "Rápido",
+      "Local"
+    ],
+    "fr": [
+      "Open-source gratuit",
+      "De pointe",
+      "Rapide",
+      "Local"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Needs GPU for local",
+      "Pro version paid",
+      "Growing ecosystem"
+    ],
+    "zh": [
+      "本地需 GPU",
+      "Pro 付费",
+      "生态发展中"
+    ],
+    "ja": [
+      "GPU 必要",
+      "Pro 有料",
+      "エコシステム発展中"
+    ],
+    "es": [
+      "GPU local necesario",
+      "Pro de pago",
+      "Ecosistema creciendo"
+    ],
+    "fr": [
+      "GPU local nécessaire",
+      "Pro payant",
+      "Écosystème en croissance"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Open-source, free self-host",
+      "zh": "开源免费自托管",
+      "ja": "無料セルフホスト",
+      "es": "Open-source gratuito",
+      "fr": "Open-source gratuit"
+    },
+    "api": {
+      "en": "API via Fal/Replicate",
+      "zh": "通过 Fal/Replicate API",
+      "ja": "Fal/Replicate API",
+      "es": "API via Fal/Replicate",
+      "fr": "API via Fal/Replicate"
+    }
+  },
+  "latestUpdate": {
+    "en": "2026: Flux leads open-source image models",
+    "zh": "2026年：Flux 领先开源图像模型",
+    "ja": "2026年：Flux がオープンソース画像モデルをリード",
+    "es": "2026: Flux lidera modelos imagen open-source",
+    "fr": "2026 : Flux domine les modèles d'image open-source"
+  },
+  "verdict": {
+    "badge": "Recommended",
+    "headline": {
+      "en": "Open-source image generation that rivals closed models — high fidelity, fast iteration, and full community control.",
+      "zh": "媲美闭源模型的开源图像生成——高保真、快速迭代、完全社区控制。",
+      "ja": "クローズドモデルに匹敵するオープンソース画像生成。",
+      "es": "Generación de imágenes de código abierto que rivaliza con modelos cerrados.",
+      "fr": "Génération d'images open-source rivale des modèles fermés."
+    },
+    "body": {
+      "en": "Flux, from Black Forest Labs, represents the current state of the art in open-source image generation. Its models produce images with detail and coherence that compete with Midjourney and DALL-E—without subscription fees or usage restrictions.\n\nThe practical advantage is flexibility. You can run Flux locally, fine-tune it on your own datasets, or use it through hosted APIs. No vendor lock-in and predictable costs at scale.\n\nThe trade-off versus Midjourney is primarily in artistic direction. Midjourney has a curated aesthetic; Flux gives more raw capability but requires more prompt engineering.",
+      "zh": "Flux来自Black Forest Labs，代表了开源图像生成的当前最高水准。其模型能与Midjourney和DALL-E竞争——无需订阅费或使用限制。\n\n实际优势在于灵活性。你可以本地运行、微调或通过API使用。无厂商锁定。\n\n与Midjourney相比的代价主要在艺术方向。Midjourney有策划的美学；Flux提供更多原始能力但需要更多提示词工程。",
+      "ja": "FluxはBlack Forest Labsによる、オープンソース画像生成の最先端です。MidjourneyやDALL-Eと競合するクオリティ。\n\n利点は柔軟性です。ローカル実行、ファインチューン、APIを通じた利用が可能。ベンダーロックインなし。\n\nMidjourneyとのトレードオフは主にアーティスティックディレクションです。",
+      "es": "Flux representa el estado del arte en generación de imágenes de código abierto. Compite con Midjourney y DALL-E sin suscripciones.\n\nLa ventaja es la flexibilidad. Puedes ejecutar localmente, afinar o usar via APIs.\n\nLa contrapartida es la dirección artística. Midjourney tiene una estética curada; Flux da más capacidad bruta.",
+      "fr": "Flux représente l'état de l'art en génération d'images open-source. Rivalise avec Midjourney et DALL-E sans abonnements.\n\nL'avantage est la flexibilité. Exécution locale, fine-tuning, ou APIs. Pas de vendor lock-in.\n\nLe compromis est la direction artistique. Midjourney a une esthétique curatée ; Flux offre plus de capacité brute."
+    },
+    "bestFor": {
+      "en": [
+        "Developers integrating image generation into products",
+        "Fine-tuning models on custom datasets",
+        "Self-hosted image generation with full privacy",
+        "High-volume generation where per-image costs add up"
+      ],
+      "zh": [
+        "将图像生成集成到产品中的开发者",
+        "在自定义数据集上微调模型",
+        "完全隐私的自托管图像生成",
+        "单张成本累积的高量生成"
+      ],
+      "ja": [
+        "製品に画像生成を統合する開発者",
+        "カスタムデータセットでのファインチューン",
+        "完全プライバシーのセルフホスト画像生成",
+        "画像単価が重要な大量生成"
+      ],
+      "es": [
+        "Desarrolladores integrando generación de imágenes en productos",
+        "Ajuste fino en datasets propios",
+        "Generación auto-alojada con privacidad total",
+        "Generación de alto volumen"
+      ],
+      "fr": [
+        "Développeurs intégrant la génération d'images dans des produits",
+        "Fine-tuning sur datasets personnalisés",
+        "Génération auto-hébergée avec confidentialité totale",
+        "Génération à haut volume"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You want curated artistic output with minimal effort (→ Midjourney)",
+        "You need commercially licensed images with legal guarantees (→ Adobe Firefly)",
+        "You prefer a simple web UI without technical setup (→ Midjourney, DALL-E)"
+      ],
+      "zh": [
+        "你想以最少工作获得策划好的艺术输出（→ Midjourney）",
+        "你需要有法律保障的商业授权图像（→ Adobe Firefly）",
+        "你偏好无技术设置的简单Web UI（→ Midjourney、DALL-E）"
+      ],
+      "ja": [
+        "最小限の作業でキュレートされた出力が欲しい場合（→ Midjourney）",
+        "法的保証のある商用画像が必要な場合（→ Adobe Firefly）",
+        "シンプルなWeb UIを好む場合（→ Midjourney、DALL-E）"
+      ],
+      "es": [
+        "Quieres salida artística curada con mínimo esfuerzo (→ Midjourney)",
+        "Necesitas imágenes con licencia comercial (→ Adobe Firefly)",
+        "Prefieres una UI web simple (→ Midjourney, DALL-E)"
+      ],
+      "fr": [
+        "Vous voulez une sortie curatée avec effort minimal (→ Midjourney)",
+        "Vous avez besoin d'images sous licence commerciale (→ Adobe Firefly)",
+        "Vous préférez une UI web simple (→ Midjourney, DALL-E)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-27",
+    "verdictDate": "2026-07-27",
+    "pricingVerified": "2026-07-27"
+  }
+}

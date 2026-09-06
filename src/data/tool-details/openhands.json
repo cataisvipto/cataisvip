@@ -1,0 +1,234 @@
+{
+  "features": {
+    "en": [
+      "Open-source, model-agnostic platform for cloud coding agents (formerly OpenDevin)",
+      "Agents write code, run commands, browse the web and fix issues in sandboxed runtimes",
+      "Agent Canvas: self-hosted control center for an always-on agent team",
+      "Works with any LLM provider — Anthropic, OpenAI, local models and more",
+      "OpenHands Cloud with GitHub/GitLab integration and an API/SDK",
+      "One of the most-starred coding agent repos on GitHub"
+    ],
+    "zh": [
+      "开源、模型无关的云端编码智能体平台（前身 OpenDevin）",
+      "智能体在沙箱运行时中写代码、执行命令、浏览网页、修复 issue",
+      "Agent Canvas：自托管的常驻智能体团队控制中心",
+      "任意 LLM 供应商均可接入——Anthropic、OpenAI、本地模型等",
+      "OpenHands Cloud 集成 GitHub/GitLab 并提供 API/SDK",
+      "GitHub 上星数最高的编码智能体仓库之一"
+    ],
+    "ja": [
+      "オープンソースでモデル非依存のクラウドコーディングエージェントプラットフォーム（旧OpenDevin）",
+      "エージェントがサンドボックス環境でコード作成、コマンド実行、Web閲覧、Issue修正を実行",
+      "Agent Canvas：常時稼働エージェントチームのセルフホスト管制センター",
+      "Anthropic、OpenAI、ローカルモデルなど任意のLLMプロバイダーに対応",
+      "GitHub/GitLab統合とAPI/SDKを備えたOpenHands Cloud",
+      "GitHubで最もスターを集めるコーディングエージェントリポジトリの一つ"
+    ],
+    "es": [
+      "Plataforma de código abierto y agnóstica de modelos para agentes de programación en la nube (antes OpenDevin)",
+      "Los agentes escriben código, ejecutan comandos, navegan la web y corrigen issues en entornos aislados",
+      "Agent Canvas: centro de control autoalojado para un equipo de agentes siempre activo",
+      "Funciona con cualquier proveedor de LLM: Anthropic, OpenAI, modelos locales y más",
+      "OpenHands Cloud con integración GitHub/GitLab y API/SDK",
+      "Uno de los repos de agentes de código con más estrellas en GitHub"
+    ],
+    "fr": [
+      "Plateforme open source et indépendante du modèle pour agents de codage cloud (ex-OpenDevin)",
+      "Les agents codent, exécutent des commandes, naviguent sur le web et corrigent des issues dans des environnements isolés",
+      "Agent Canvas : centre de contrôle auto-hébergé pour une équipe d’agents permanente",
+      "Compatible avec tout fournisseur LLM — Anthropic, OpenAI, modèles locaux, etc.",
+      "OpenHands Cloud avec intégration GitHub/GitLab et API/SDK",
+      "L’un des dépôts d’agents de codage les plus étoilés sur GitHub"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Open source is free forever: self-host with Docker and bring your own LLM API keys (you only pay model providers)",
+      "zh": "开源版永久免费：Docker 自托管、自带 LLM API Key（只需向模型供应商付费）",
+      "ja": "オープンソース版は永久無料：Dockerでセルフホストし、自分のLLM APIキーを使用（モデルプロバイダーへの支払いのみ）",
+      "es": "El código abierto es gratis para siempre: autoaloja con Docker y usa tus propias claves API de LLM (solo pagas a los proveedores de modelos)",
+      "fr": "L'open source est gratuit à vie : auto-hébergez avec Docker et utilisez vos propres clés API LLM (vous ne payez que les fournisseurs de modèles)"
+    },
+    "paid": {
+      "en": "OpenHands Cloud: free starter credits, then pay-as-you-go LLM usage; Team and Enterprise plans add centralized management, security controls and support (pricing on request)",
+      "zh": "OpenHands Cloud：注册送起步额度，之后按 LLM 用量付费；Team 与 Enterprise 版提供集中管理、安全管控与支持（价格需询价）",
+      "ja": "OpenHands Cloud：無料スタートクレジット後はLLM使用量に応じた従量課金。TeamとEnterpriseプランは集中管理、セキュリティ管理、サポートを追加（価格は要問い合わせ）",
+      "es": "OpenHands Cloud: créditos iniciales gratis, luego pago por uso de LLM; los planes Team y Enterprise añaden gestión centralizada, controles de seguridad y soporte (precio bajo consulta)",
+      "fr": "OpenHands Cloud : crédits de départ gratuits puis facturation à l'usage LLM ; les offres Team et Enterprise ajoutent gestion centralisée, sécurité et support (tarif sur demande)"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Self-hosted autonomous coding inside security-sensitive organizations",
+      "Automating issue triage and PR fixes on GitHub/GitLab",
+      "Running an always-on agent team via Agent Canvas",
+      "Research and experimentation with swappable models and agents"
+    ],
+    "zh": [
+      "安全敏感组织内的自托管自主编码",
+      "自动化 GitHub/GitLab 的 issue 处理与 PR 修复",
+      "用 Agent Canvas 运营常驻智能体团队",
+      "可替换模型与智能体的研究实验"
+    ],
+    "ja": [
+      "セキュリティ重視の組織内でのセルフホスト自律コーディング",
+      "GitHub/GitLabのIssue処理とPR修正の自動化",
+      "Agent Canvasによる常時稼働エージェントチームの運用",
+      "モデルとエージェントを差し替えられる研究・実験"
+    ],
+    "es": [
+      "Programación autónoma autoalojada en organizaciones sensibles a la seguridad",
+      "Automatizar el triaje de issues y arreglos de PR en GitHub/GitLab",
+      "Operar un equipo de agentes siempre activo con Agent Canvas",
+      "Investigación y experimentación con modelos y agentes intercambiables"
+    ],
+    "fr": [
+      "Codage autonome auto-hébergé dans les organisations sensibles à la sécurité",
+      "Automatisation du tri des issues et des correctifs de PR sur GitHub/GitLab",
+      "Exploitation d'une équipe d'agents permanente via Agent Canvas",
+      "Recherche et expérimentation avec modèles et agents interchangeables"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Fully open source with no vendor lock-in — swap models freely",
+      "Self-hosting keeps code and data inside your infrastructure",
+      "Transparent: you pay LLM providers directly with no markup",
+      "Active community and rapid release cadence"
+    ],
+    "zh": [
+      "完全开源无供应商锁定，模型自由更换",
+      "自托管让代码与数据不出自家基础设施",
+      "透明计费：直接向 LLM 供应商付费，无加价",
+      "社区活跃、版本迭代快"
+    ],
+    "ja": [
+      "完全オープンソースでベンダーロックインなし、モデルを自由に交換可能",
+      "セルフホストでコードとデータを自社インフラ内に保持",
+      "透明性：LLMプロバイダーに直接支払い、上乗せなし",
+      "活発なコミュニティと速いリリースサイクル"
+    ],
+    "es": [
+      "Totalmente open source sin dependencia de proveedor: cambia de modelo libremente",
+      "El autoalojamiento mantiene código y datos en tu infraestructura",
+      "Transparente: pagas directamente a los proveedores de LLM sin sobreprecio",
+      "Comunidad activa y ritmo rápido de versiones"
+    ],
+    "fr": [
+      "Entièrement open source sans verrouillage fournisseur — changez de modèle librement",
+      "L'auto-hébergement garde code et données dans votre infrastructure",
+      "Transparent : vous payez directement les fournisseurs LLM sans marge",
+      "Communauté active et cadence de versions rapide"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Initial setup (Docker, API keys, sandboxes) requires developer skills",
+      "Results depend heavily on which LLM you plug in",
+      "Fewer turnkey enterprise integrations than commercial rivals",
+      "Self-hosted deployments need their own monitoring and cost controls"
+    ],
+    "zh": [
+      "初始部署（Docker、API Key、沙箱）需要开发者功底",
+      "效果高度依赖所接入的 LLM",
+      "开箱即用的企业集成少于商业对手",
+      "自托管需自行做监控与成本控制"
+    ],
+    "ja": [
+      "初期セットアップ（Docker、APIキー、サンドボックス）には開発者スキルが必要",
+      "成果は接続するLLMに大きく依存",
+      "商用製品に比べターンキーの企業向け統合が少ない",
+      "セルフホスト環境は独自の監視とコスト管理が必要"
+    ],
+    "es": [
+      "La configuración inicial (Docker, claves API, sandboxes) requiere conocimientos de desarrollo",
+      "Los resultados dependen mucho del LLM que conectes",
+      "Menos integraciones empresariales llave en mano que los rivales comerciales",
+      "Los despliegues autoalojados necesitan su propia monitorización y control de costes"
+    ],
+    "fr": [
+      "La mise en place initiale (Docker, clés API, sandboxes) exige des compétences de développeur",
+      "Les résultats dépendent fortement du LLM branché",
+      "Moins d'intégrations entreprise clés en main que les rivaux commerciaux",
+      "Les déploiements auto-hébergés demandent leur propre supervision et maîtrise des coûts"
+    ]
+  },
+  "latestUpdate": {
+    "en": "2026: rebranded around openhands.dev with OpenHands Cloud and Agent Canvas, a self-hosted control center that turns coding agents into an always-on engineering team; remains one of the most-starred open-source agent projects",
+    "zh": "2026 年：围绕 openhands.dev 完成品牌升级，推出 OpenHands Cloud 与 Agent Canvas（把编码智能体变成常驻工程团队的自托管控制中心）；仍是星数最高的开源智能体项目之一",
+    "ja": "2026年：openhands.devを中心にリブランド。OpenHands Cloudと、コーディングエージェントを常時稼働のエンジニアリングチームに変えるセルフホスト管制センターAgent Canvasを発表。オープンソースエージェントとして最多クラスのスター数を維持",
+    "es": "2026: renovación de marca en torno a openhands.dev con OpenHands Cloud y Agent Canvas, un centro de control autoalojado que convierte a los agentes en un equipo de ingeniería siempre activo; sigue siendo uno de los proyectos open source con más estrellas",
+    "fr": "2026 : refonte de marque autour de openhands.dev avec OpenHands Cloud et Agent Canvas, centre de contrôle auto-hébergé transformant les agents en équipe d'ingénierie permanente ; reste l'un des projets open source les plus étoilés"
+  },
+  "verdict": {
+    "badge": "Recommended",
+    "headline": {
+      "en": "The open-source answer to Devin — full control, your models, your infrastructure",
+      "zh": "Devin 的开源答案——完全掌控，自选模型，自有基础设施",
+      "ja": "Devinへのオープンソースの回答——完全な制御、自分のモデル、自分のインフラ",
+      "es": "La respuesta open source a Devin: control total, tus modelos, tu infraestructura",
+      "fr": "La réponse open source à Devin — contrôle total, vos modèles, votre infrastructure"
+    },
+    "body": {
+      "en": "OpenHands delivers most of what commercial coding agents offer while staying fully open and model-agnostic. Teams that can handle Docker and API keys get an autonomous engineer with zero markup on model costs, and the cloud/Canvas options now soften the ops burden. It rewards technical teams; non-developers should look at hosted rivals first.",
+      "zh": "OpenHands 以完全开源、模型无关的姿态实现了商业编码智能体的大部分能力。搞得定 Docker 与 API Key 的团队能以零加价的模型成本获得一名自主工程师，云版与 Agent Canvas 也大幅减轻了运维负担。它偏爱技术型团队；非开发者建议先看托管型对手。",
+      "ja": "OpenHandsは完全オープンソースかつモデル非依存のまま、商用コーディングエージェントの大部分の能力を実現。DockerとAPIキーを扱えるチームなら、モデルコストに上乗せなしで自律エンジニアを手に入れられる。クラウド版とAgent Canvasで運用負担も軽減。技術志向のチーム向けで、非開発者はまずホスト型の競合を検討すべき。",
+      "es": "OpenHands ofrece la mayor parte de lo que dan los agentes comerciales manteniéndose totalmente abierto y agnóstico de modelos. Los equipos que dominan Docker y las claves API obtienen un ingeniero autónomo sin sobreprecio en modelos, y las opciones de nube/Canvas alivian la carga operativa. Premia a los equipos técnicos; los no desarrolladores deberían mirar antes a los rivales gestionados.",
+      "fr": "OpenHands offre l'essentiel des capacités des agents commerciaux tout en restant totalement ouvert et indépendant du modèle. Les équipes à l'aise avec Docker et les clés API obtiennent un ingénieur autonome sans marge sur les coûts de modèles, et les options cloud/Canvas allègent l'exploitation. Il récompense les équipes techniques ; les non-développeurs devraient d'abord regarder les rivaux hébergés."
+    },
+    "bestFor": {
+      "en": [
+        "Technical teams needing a self-hosted autonomous coding agent",
+        "Model-agnostic setups pairing any LLM with an agent runtime",
+        "Organizations with strict data-control or compliance requirements"
+      ],
+      "zh": [
+        "需要自托管自主编码智能体的技术团队",
+        "任意 LLM 搭配智能体运行时的模型无关方案",
+        "对数据管控或合规有严格要求的组织"
+      ],
+      "ja": [
+        "セルフホストの自律コーディングエージェントが必要な技術チーム",
+        "任意のLLMとエージェントランタイムを組み合わせるモデル非依存構成",
+        "データ管理やコンプライアンス要件が厳しい組織"
+      ],
+      "es": [
+        "Equipos técnicos que necesitan un agente de código autónomo autoalojado",
+        "Configuraciones agnósticas de modelo con cualquier LLM y un runtime de agente",
+        "Organizaciones con requisitos estrictos de control de datos o cumplimiento"
+      ],
+      "fr": [
+        "Équipes techniques ayant besoin d’un agent de code autonome auto-hébergé",
+        "Configurations agnostiques associant n’importe quel LLM à un runtime d’agent",
+        "Organisations aux exigences strictes de contrôle des données ou de conformité"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You want a managed end-to-end suite (→ Devin)",
+        "You prefer an in-IDE assistant (→ Cursor, Claude Code)"
+      ],
+      "zh": [
+        "你想要托管式端到端套件（→ Devin）",
+        "你更想要 IDE 内助手（→ Cursor、Claude Code）"
+      ],
+      "ja": [
+        "マネージドなエンドツーエンドスイートが欲しい（→ Devin）",
+        "IDE内アシスタントの方が好み（→ Cursor、Claude Code）"
+      ],
+      "es": [
+        "Quieres una suite gestionada de extremo a extremo (→ Devin)",
+        "Prefieres un asistente en el IDE (→ Cursor, Claude Code)"
+      ],
+      "fr": [
+        "Vous voulez une suite gérée de bout en bout (→ Devin)",
+        "Vous préférez un assistant dans l’IDE (→ Cursor, Claude Code)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-27",
+    "verdictDate": "2026-07-27",
+    "pricingVerified": "2026-07-27"
+  }
+}

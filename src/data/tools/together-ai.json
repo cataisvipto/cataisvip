@@ -1,0 +1,29 @@
+{
+  "slug": "together-ai",
+  "name": "Together AI",
+  "nameZh": "Together AI",
+  "description": "AI 原生云平台，serverless 推理覆盖 200+ 开源模型（DeepSeek、Llama、Qwen 等），支持微调与 GPU 集群，按 token 计费批量还打五折",
+  "descriptionEn": "The AI Native Cloud: serverless inference across 200+ open models (DeepSeek, Llama, Qwen and more), plus fine-tuning and GPU clusters. Pay per token with 50% off batch inference",
+  "descriptionJa": "AIネイティブクラウド。DeepSeek、Llama、Qwenなど200以上のオープンモデルのサーバーレス推論に対応し、ファインチューニングやGPUクラスタも提供。トークン課金でバッチ推論は半額",
+  "descriptionEs": "La nube nativa de IA: inferencia serverless de más de 200 modelos abiertos (DeepSeek, Llama, Qwen y más), además de fine-tuning y clústeres GPU. Pago por token con 50% de descuento en batch",
+  "descriptionFr": "Le cloud natif IA : inférence serverless sur plus de 200 modèles ouverts (DeepSeek, Llama, Qwen…), avec fine-tuning et clusters GPU. Paiement au token avec 50 % de réduction en batch",
+  "url": "https://www.together.ai",
+  "logo": "/logos/tools/together-ai.png",
+  "category": "API Platform",
+  "tags": [
+    "Paid",
+    "API"
+  ],
+  "featured": false,
+  "developer": "Together AI",
+  "platforms": {
+    "web": true,
+    "windows": false,
+    "macos": false,
+    "ios": false,
+    "android": false,
+    "linux": false,
+    "browser_extension": false,
+    "api": true
+  }
+}

@@ -1,0 +1,234 @@
+{
+  "features": {
+    "en": [
+      "Open-source AI coding agent (Apache 2.0) for VS Code and CLI",
+      "Plan/Act dual modes: review the plan before the agent touches code",
+      "MCP Marketplace to extend the agent with tools and integrations",
+      "Bring your own key: Anthropic, OpenAI, Gemini, OpenRouter, Bedrock, Vertex, DeepSeek and more",
+      "Multi-root workspace support for large multi-repo projects",
+      "Enterprise edition adds JetBrains extension, SSO, RBAC and centralized billing"
+    ],
+    "zh": [
+      "开源 AI 编程智能体（Apache 2.0），支持 VS Code 与 CLI",
+      "Plan/Act 双模式：智能体动代码前先审查它的计划",
+      "MCP 市场：用工具与集成扩展智能体能力",
+      "自带密钥（BYOK）：支持 Anthropic、OpenAI、Gemini、OpenRouter、Bedrock、Vertex、DeepSeek 等",
+      "多根工作区支持，适配大型多仓库项目",
+      "企业版增加 JetBrains 扩展、SSO、RBAC 与集中计费"
+    ],
+    "ja": [
+      "オープンソースのAIコーディングエージェント（Apache 2.0）。VS CodeとCLIに対応",
+      "Plan/Actデュアルモード：エージェントがコードに触れる前に計画をレビュー",
+      "MCPマーケットプレイスでツールや統合機能を拡張",
+      "BYOK対応：Anthropic、OpenAI、Gemini、OpenRouter、Bedrock、Vertex、DeepSeekなど",
+      "マルチルートワークスペース対応で大規模マルチレポジトリにも対応",
+      "エンタープライズ版はJetBrains拡張、SSO、RBAC、集中課金を追加"
+    ],
+    "es": [
+      "Agente de programación IA de código abierto (Apache 2.0) para VS Code y CLI",
+      "Modos duales Plan/Act: revisa el plan antes de que el agente toque el código",
+      "Mercado MCP para ampliar el agente con herramientas e integraciones",
+      "Trae tu propia clave: Anthropic, OpenAI, Gemini, OpenRouter, Bedrock, Vertex, DeepSeek y más",
+      "Soporte de espacios de trabajo multirraíz para proyectos multi-repo grandes",
+      "La edición Enterprise añade extensión JetBrains, SSO, RBAC y facturación centralizada"
+    ],
+    "fr": [
+      "Agent de codage IA open source (Apache 2.0) pour VS Code et CLI",
+      "Double mode Plan/Act : validez le plan avant que l'agent ne touche au code",
+      "Marketplace MCP pour étendre l'agent avec outils et intégrations",
+      "Apportez votre clé : Anthropic, OpenAI, Gemini, OpenRouter, Bedrock, Vertex, DeepSeek et plus",
+      "Prise en charge des espaces de travail multi-racines pour les grands projets multi-dépôts",
+      "L'édition Enterprise ajoute l'extension JetBrains, SSO, RBAC et facturation centralisée"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "The open-source edition is completely free for individuals — you only pay for model inference, either with your own API keys (BYOK) or via the usage-based Cline provider",
+      "zh": "开源版对个人完全免费——只需支付模型推理费用，可自带 API 密钥（BYOK）或通过 Cline 官方按量推理通道付费",
+      "ja": "オープンソース版は個人利用完全無料。支払うのはモデル推論費のみで、自分のAPIキー（BYOK）または従量制のClineプロバイダー経由で支払う",
+      "es": "La edición de código abierto es totalmente gratuita para particulares: solo pagas la inferencia del modelo, con tus propias claves API (BYOK) o mediante el proveedor Cline de pago por uso",
+      "fr": "L'édition open source est totalement gratuite pour les particuliers — vous ne payez que l'inférence des modèles, avec vos propres clés API (BYOK) ou via le fournisseur Cline à l'usage"
+    },
+    "paid": {
+      "en": "Enterprise plan (custom pricing): JetBrains extension, SSO, RBAC, SLA, team management and centralized billing; used by teams at Samsung, Salesforce, Oracle and Amazon",
+      "zh": "企业版（定制报价）：JetBrains 扩展、SSO、RBAC、SLA、团队管理与集中计费；三星、Salesforce、甲骨文、亚马逊等公司的团队在用",
+      "ja": "エンタープライズプラン（個別見積り）：JetBrains拡張、SSO、RBAC、SLA、チーム管理、集中課金。Samsung、Salesforce、Oracle、Amazonなどのチームが利用",
+      "es": "Plan Enterprise (precio personalizado): extensión JetBrains, SSO, RBAC, SLA, gestión de equipos y facturación centralizada; usado por equipos de Samsung, Salesforce, Oracle y Amazon",
+      "fr": "Plan Enterprise (tarif sur mesure) : extension JetBrains, SSO, RBAC, SLA, gestion d'équipe et facturation centralisée ; utilisé par des équipes chez Samsung, Salesforce, Oracle et Amazon"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Autonomous multi-file coding tasks inside VS Code with human approval gates",
+      "Cost-conscious developers who want frontier models at raw API prices",
+      "Extending the agent with MCP servers for databases, browsers and internal tools",
+      "Enterprises wanting an auditable open-source agent instead of a black box"
+    ],
+    "zh": [
+      "在 VS Code 里执行多文件自主编码任务，人工审批把关",
+      "想以 API 原价用上前沿模型、对成本敏感的开发者",
+      "用 MCP 服务器扩展智能体，对接数据库、浏览器与内部工具",
+      "想要可审计的开源智能体而非黑盒的企业"
+    ],
+    "ja": [
+      "VS Code内で人の承認を挟みながらマルチファイルの自律コーディング",
+      "フロンティアモデルをAPI原価で使いたいコスト意識の高い開発者",
+      "MCPサーバーでデータベース、ブラウザ、社内ツールに接続してエージェントを拡張",
+      "ブラックボックスではなく監査可能なオープンソースエージェントを求める企業"
+    ],
+    "es": [
+      "Tareas de codificación autónomas multiarchivo en VS Code con aprobación humana",
+      "Desarrolladores conscientes del coste que quieren modelos punteros a precio de API",
+      "Ampliar el agente con servidores MCP para bases de datos, navegadores y herramientas internas",
+      "Empresas que quieren un agente open source auditable en vez de una caja negra"
+    ],
+    "fr": [
+      "Tâches de codage autonomes multi-fichiers dans VS Code avec validation humaine",
+      "Développeurs soucieux des coûts voulant des modèles de pointe au prix brut de l'API",
+      "Extension de l'agent via serveurs MCP pour bases de données, navigateurs et outils internes",
+      "Entreprises préférant un agent open source auditable à une boîte noire"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Truly free and open source — no subscription, no markup on BYOK inference",
+      "Plan/Act workflow keeps a human in the loop before code changes",
+      "Massive adoption: over 8 million developers and a thriving MCP ecosystem",
+      "Model-agnostic: swap providers freely as prices and quality shift"
+    ],
+    "zh": [
+      "真正免费开源——无订阅费，BYOK 推理不加价",
+      "Plan/Act 工作流让人在代码变更前始终在环",
+      "体量庞大：超 800 万开发者与繁荣的 MCP 生态",
+      "模型无关：价格与质量变化时可自由切换供应商"
+    ],
+    "ja": [
+      "真の無料オープンソース——サブスク不要、BYOK推論に上乗せなし",
+      "Plan/Actワークフローでコード変更前に必ず人が確認",
+      "800万人超の開発者と活発なMCPエコシステム",
+      "モデル非依存：価格や品質の変化に応じて自由にプロバイダーを変更"
+    ],
+    "es": [
+      "Verdaderamente gratis y open source: sin suscripción ni recargo en la inferencia BYOK",
+      "El flujo Plan/Act mantiene al humano en el circuito antes de cambiar código",
+      "Adopción masiva: más de 8 millones de desarrolladores y un ecosistema MCP pujante",
+      "Agnóstico de modelos: cambia de proveedor libremente según precio y calidad"
+    ],
+    "fr": [
+      "Vraiment gratuit et open source — pas d'abonnement, pas de marge sur l'inférence BYOK",
+      "Le flux Plan/Act garde l'humain dans la boucle avant tout changement de code",
+      "Adoption massive : plus de 8 millions de développeurs et un écosystème MCP florissant",
+      "Indépendant du modèle : changez librement de fournisseur selon prix et qualité"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Pay-per-token costs can spike on long agentic sessions with big contexts",
+      "No first-party JetBrains support outside the Enterprise plan yet",
+      "Requires more setup and model knowledge than turnkey tools like Cursor",
+      "Agent quality depends heavily on which model you plug in"
+    ],
+    "zh": [
+      "长上下文的智能体长会话下，按 token 计费的成本可能飙升",
+      "企业版之外暂无官方 JetBrains 支持",
+      "比 Cursor 这类开箱即用工具需要更多配置与模型知识",
+      "智能体表现高度依赖你接入的模型"
+    ],
+    "ja": [
+      "長いコンテキストのエージェントセッションではトークン課金コストが急増しがち",
+      "エンタープライズ版以外では公式JetBrainsサポートがまだない",
+      "Cursorのようなターンキー型ツールより設定とモデル知識が必要",
+      "エージェントの品質は接続するモデルに大きく依存"
+    ],
+    "es": [
+      "El coste por token puede dispararse en sesiones agénticas largas con contextos grandes",
+      "Aún no hay soporte oficial de JetBrains fuera del plan Enterprise",
+      "Requiere más configuración y conocimiento de modelos que herramientas llave en mano como Cursor",
+      "La calidad del agente depende mucho del modelo que conectes"
+    ],
+    "fr": [
+      "Les coûts au token peuvent flamber lors de longues sessions agentiques à grand contexte",
+      "Pas encore de support JetBrains officiel hors du plan Enterprise",
+      "Demande plus de configuration et de connaissances des modèles que des outils clés en main comme Cursor",
+      "La qualité de l'agent dépend fortement du modèle branché"
+    ]
+  },
+  "latestUpdate": {
+    "en": "2026: Cline passes 8 million developers, ships a CLI alongside the VS Code extension, expands the MCP Marketplace, and offers an Enterprise edition with a JetBrains extension, SSO, RBAC and centralized billing",
+    "zh": "2026 年：Cline 开发者突破 800 万，在 VS Code 扩展之外推出 CLI，扩充 MCP 市场，并提供含 JetBrains 扩展、SSO、RBAC 与集中计费的企业版",
+    "ja": "2026年：Clineの開発者数が800万人を突破。VS Code拡張に加えCLIをリリースし、MCPマーケットプレイスを拡充。JetBrains拡張、SSO、RBAC、集中課金を備えたエンタープライズ版も提供",
+    "es": "2026: Cline supera los 8 millones de desarrolladores, lanza una CLI junto a la extensión de VS Code, amplía el MCP Marketplace y ofrece una edición Enterprise con extensión JetBrains, SSO, RBAC y facturación centralizada",
+    "fr": "2026 : Cline dépasse les 8 millions de développeurs, lance une CLI en plus de l'extension VS Code, étoffe la marketplace MCP et propose une édition Enterprise avec extension JetBrains, SSO, RBAC et facturation centralisée"
+  },
+  "verdict": {
+    "badge": "Recommended",
+    "headline": {
+      "en": "The open-source coding agent that charges you nothing but the electricity",
+      "zh": "除了模型电费什么都不收你的开源编码智能体",
+      "ja": "モデル代以外は一銭も取らないオープンソースコーディングエージェント",
+      "es": "El agente de programación open source que solo te cobra la electricidad",
+      "fr": "L'agent de codage open source qui ne vous facture que l'électricité"
+    },
+    "body": {
+      "en": "Cline's pitch is radical transparency: an Apache-licensed agent, no subscription, and inference billed at raw provider prices with your own keys. The Plan/Act split is the best human-in-the-loop design in the category — you read the plan, then let it work. The trade-off is that you become your own model sommelier: costs, quality and speed all depend on what you plug in, and heavy agentic sessions can out-spend a $20 Cursor subscription if you're careless. For developers who want control and auditability over convenience, Cline is the reference implementation.",
+      "zh": "Cline 的卖点是极致透明：Apache 协议的智能体、零订阅费、用自己的密钥按供应商原价计费推理。Plan/Act 分离是同类里最好的人在环设计——先读计划，再放手让它干活。代价是你得当自己的模型侍酒师：成本、质量、速度全看你接什么模型，大手大脚的智能体长会话烧掉的钱可能超过 20 美元的 Cursor 订阅。对于把可控与可审计看得比省心更重的开发者，Cline 就是参考级实现。",
+      "ja": "Clineの売りは徹底した透明性だ。Apacheライセンスのエージェント、サブスク不要、自分のキーでプロバイダー原価のまま推論課金。Plan/Actの分離はこのカテゴリ最高のヒューマンインザループ設計——計画を読んでから任せる。引き換えに、あなた自身がモデルのソムリエになる必要がある。コストも品質も速度も接続するモデル次第で、荒い使い方をすれば長いエージェントセッションが20ドルのCursorサブスクを超えることも。利便性より制御と監査性を重視する開発者にとって、Clineはリファレンス実装だ。",
+      "es": "La propuesta de Cline es transparencia radical: un agente con licencia Apache, sin suscripción, e inferencia facturada a precio bruto del proveedor con tus propias claves. La separación Plan/Act es el mejor diseño human-in-the-loop de la categoría: lees el plan y luego lo dejas trabajar. La contrapartida es que te conviertes en tu propio sumiller de modelos: coste, calidad y velocidad dependen de lo que conectes, y las sesiones agénticas intensas pueden superar el gasto de una suscripción de Cursor de 20 $ si te descuidas. Para desarrolladores que priorizan control y auditabilidad sobre comodidad, Cline es la implementación de referencia.",
+      "fr": "L'argument de Cline, c'est la transparence radicale : un agent sous licence Apache, zéro abonnement, une inférence facturée au prix brut du fournisseur avec vos propres clés. La séparation Plan/Act est le meilleur design human-in-the-loop de la catégorie — vous lisez le plan, puis vous le laissez travailler. En contrepartie, vous devenez votre propre sommelier de modèles : coûts, qualité et vitesse dépendent de ce que vous branchez, et des sessions agentiques intensives peuvent dépasser un abonnement Cursor à 20 $ si vous n'y prenez garde. Pour les développeurs qui préfèrent contrôle et auditabilité au confort, Cline est l'implémentation de référence."
+    },
+    "bestFor": {
+      "en": [
+        "Developers who want frontier models at raw API cost with no markup",
+        "Teams needing an auditable, self-controllable open-source agent",
+        "Power users extending their agent through the MCP ecosystem"
+      ],
+      "zh": [
+        "想以 API 原价、零加价用前沿模型的开发者",
+        "需要可审计、可自控的开源智能体的团队",
+        "通过 MCP 生态扩展智能体的重度用户"
+      ],
+      "ja": [
+        "フロンティアモデルをAPI原価・上乗せなしで使いたい開発者",
+        "監査可能で自己管理できるオープンソースエージェントが必要なチーム",
+        "MCPエコシステムでエージェントを拡張するパワーユーザー"
+      ],
+      "es": [
+        "Desarrolladores que quieren modelos punteros a coste bruto de API sin recargo",
+        "Equipos que necesitan un agente open source auditable y controlable",
+        "Usuarios avanzados que amplían su agente vía el ecosistema MCP"
+      ],
+      "fr": [
+        "Développeurs voulant des modèles de pointe au prix brut de l'API sans marge",
+        "Équipes exigeant un agent open source auditable et contrôlable",
+        "Utilisateurs avancés étendant leur agent via l'écosystème MCP"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You want a zero-config, all-in-one paid IDE (→ Cursor, Windsurf)",
+        "You prefer a terminal-native workflow (→ Claude Code, Aider)"
+      ],
+      "zh": [
+        "想要零配置、一体化的付费 IDE（→ Cursor、Windsurf）",
+        "更喜欢终端原生工作流（→ Claude Code、Aider）"
+      ],
+      "ja": [
+        "設定不要のオールインワン有料IDEが欲しい（→ Cursor、Windsurf）",
+        "ターミナルネイティブなワークフローが好み（→ Claude Code、Aider）"
+      ],
+      "es": [
+        "Quieres un IDE de pago todo en uno sin configuración (→ Cursor, Windsurf)",
+        "Prefieres un flujo nativo de terminal (→ Claude Code, Aider)"
+      ],
+      "fr": [
+        "Vous voulez un IDE payant tout-en-un sans configuration (→ Cursor, Windsurf)",
+        "Vous préférez un flux natif en terminal (→ Claude Code, Aider)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-27",
+    "verdictDate": "2026-07-27",
+    "pricingVerified": "2026-07-27"
+  }
+}

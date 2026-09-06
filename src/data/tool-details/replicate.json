@@ -1,0 +1,235 @@
+{
+  "features": {
+    "en": [
+      "Tens of thousands of community models runnable with one line of API code",
+      "Official models — FLUX, Seedream, Veo, Claude-class endpoints — priced per output",
+      "Cog: open-source tool to package and publish your own models",
+      "Per-second hardware billing, from CPU to 8x H100 clusters",
+      "Automatic scale-to-zero — you never pay for idle models",
+      "Now part of Cloudflare, integrating with Workers AI and the edge network"
+    ],
+    "zh": [
+      "数万个社区模型，一行 API 代码即可运行",
+      "官方模型——FLUX、Seedream、Veo、Claude 级端点——按产出计价",
+      "Cog：开源工具，打包并发布你自己的模型",
+      "按秒计费的硬件，从 CPU 到 8x H100 集群",
+      "自动缩容到零——闲置模型不花一分钱",
+      "现已加入 Cloudflare，正与 Workers AI 及边缘网络整合"
+    ],
+    "ja": [
+      "数万のコミュニティモデルをAPIコード1行で実行可能",
+      "公式モデル——FLUX、Seedream、Veo、Claude級エンドポイント——は出力単位の課金",
+      "Cog：自分のモデルをパッケージ化して公開するオープンソースツール",
+      "CPUから8x H100クラスターまで秒単位のハードウェア課金",
+      "自動スケールゼロ——アイドル状態のモデルには一切支払い不要",
+      "現在はCloudflareの一員として、Workers AIとエッジネットワークに統合中"
+    ],
+    "es": [
+      "Decenas de miles de modelos comunitarios ejecutables con una línea de código API",
+      "Modelos oficiales —FLUX, Seedream, Veo, endpoints clase Claude— con precio por salida",
+      "Cog: herramienta open source para empaquetar y publicar tus propios modelos",
+      "Facturación de hardware por segundo, desde CPU hasta clústeres de 8x H100",
+      "Escalado automático a cero: nunca pagas por modelos inactivos",
+      "Ahora parte de Cloudflare, integrándose con Workers AI y la red edge"
+    ],
+    "fr": [
+      "Des dizaines de milliers de modèles communautaires exécutables en une ligne d'API",
+      "Modèles officiels — FLUX, Seedream, Veo, endpoints de classe Claude — tarifés à la sortie",
+      "Cog : outil open source pour empaqueter et publier vos propres modèles",
+      "Facturation matérielle à la seconde, du CPU aux clusters 8x H100",
+      "Mise à l'échelle automatique à zéro — vous ne payez jamais un modèle inactif",
+      "Désormais chez Cloudflare, en intégration avec Workers AI et le réseau edge"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "No standing free tier, but scale-to-zero billing means trying a model costs cents — you pay only for the seconds it actually runs.",
+      "zh": "没有常设免费档，但缩容到零的计费方式让试一个模型只花几美分——只为实际运行的秒数付费。",
+      "ja": "常設の無料枠はないが、スケールゼロ課金のおかげでモデルを試すのは数セント——実際に動いた秒数分だけ支払う。",
+      "es": "No hay nivel gratuito permanente, pero la facturación con escalado a cero significa que probar un modelo cuesta centavos: solo pagas los segundos que realmente corre.",
+      "fr": "Pas de niveau gratuit permanent, mais la facturation avec mise à zéro fait que tester un modèle coûte quelques centimes — vous ne payez que les secondes réellement exécutées."
+    },
+    "paid": {
+      "en": "Community models bill hardware per second (CPU $0.36/hr, L40S $3.51/hr, H100 $5.49/hr, up to 8x H100 clusters); official models are priced per output — e.g. FLUX images from about $0.003 each or language models per token. (Verified against the official pricing page, 2026-07-28.)",
+      "zh": "社区模型按硬件秒数计费（CPU $0.36/小时、L40S $3.51/小时、H100 $5.49/小时，最高 8x H100 集群）；官方模型按产出计价——如 FLUX 图像约 $0.003/张起，语言模型按 token。（对照官方定价页核实，2026-07-28。）",
+      "ja": "コミュニティモデルはハードウェアの秒単位課金（CPU $0.36/時、L40S $3.51/時、H100 $5.49/時、最大8x H100クラスター）。公式モデルは出力単位——例：FLUX画像は1枚約$0.003から、言語モデルはトークン単位。（公式価格ページと照合、2026-07-28。）",
+      "es": "Los modelos comunitarios facturan hardware por segundo (CPU $0.36/hora, L40S $3.51/hora, H100 $5.49/hora, hasta clústeres de 8x H100); los modelos oficiales se cobran por salida, p. ej. imágenes FLUX desde unos $0.003 cada una o modelos de lenguaje por token. (Verificado con la página oficial de precios, 2026-07-28.)",
+      "fr": "Les modèles communautaires facturent le matériel à la seconde (CPU 0,36 $/h, L40S 3,51 $/h, H100 5,49 $/h, jusqu'aux clusters 8x H100) ; les modèles officiels sont tarifés à la sortie — p. ex. images FLUX dès environ 0,003 $ pièce ou modèles de langage au token. (Vérifié avec la page tarifaire officielle, 2026-07-28.)"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Adding image, video or audio generation to a product in an afternoon",
+      "Prototyping across dozens of models before committing to one",
+      "Publishing research models as production APIs via Cog",
+      "Running occasional or bursty inference without paying for idle GPUs"
+    ],
+    "zh": [
+      "一个下午就给产品加上图像、视频或音频生成",
+      "在下决心选定前，横跨几十个模型快速验证",
+      "用 Cog 把研究模型发布成生产可用的 API",
+      "跑偶发或突发的推理任务，不为闲置 GPU 买单"
+    ],
+    "ja": [
+      "半日で製品に画像・動画・音声生成を追加",
+      "1つに決める前に数十のモデルを横断してプロトタイピング",
+      "Cogで研究モデルを本番APIとして公開",
+      "アイドルGPUに支払わずに散発的・バースト的な推論を実行"
+    ],
+    "es": [
+      "Añadir generación de imagen, video o audio a un producto en una tarde",
+      "Prototipar con docenas de modelos antes de comprometerse con uno",
+      "Publicar modelos de investigación como APIs de producción vía Cog",
+      "Ejecutar inferencia ocasional o por ráfagas sin pagar GPUs inactivas"
+    ],
+    "fr": [
+      "Ajouter la génération d'image, vidéo ou audio à un produit en un après-midi",
+      "Prototyper sur des dizaines de modèles avant d'en choisir un",
+      "Publier des modèles de recherche comme API de production via Cog",
+      "Exécuter de l'inférence occasionnelle ou en rafale sans payer de GPU inactif"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Unmatched model variety — if it made news on GitHub, it is probably here",
+      "Scale-to-zero billing is genuinely fair for spiky workloads",
+      "Cog has become a de facto standard for packaging ML models",
+      "Cloudflare's backing removes the startup-longevity question entirely"
+    ],
+    "zh": [
+      "模型多样性无可匹敌——GitHub 上火过的模型，这里多半找得到",
+      "缩容到零的计费对波动型负载是真公平",
+      "Cog 已成为机器学习模型打包的事实标准",
+      "有 Cloudflare 背书，创业公司能活多久的疑虑彻底消除"
+    ],
+    "ja": [
+      "比類なきモデルの多様性——GitHubで話題になったモデルは大抵ここにある",
+      "スケールゼロ課金はスパイク型ワークロードに本当に公平",
+      "CogはMLモデルのパッケージングにおける事実上の標準になった",
+      "Cloudflareの後ろ盾でスタートアップの存続懸念は完全に解消"
+    ],
+    "es": [
+      "Variedad de modelos inigualable: si fue noticia en GitHub, probablemente está aquí",
+      "La facturación con escalado a cero es genuinamente justa para cargas con picos",
+      "Cog se ha vuelto un estándar de facto para empaquetar modelos de ML",
+      "El respaldo de Cloudflare elimina por completo la duda sobre la longevidad de la startup"
+    ],
+    "fr": [
+      "Variété de modèles inégalée — s'il a fait le buzz sur GitHub, il est probablement ici",
+      "La facturation avec mise à zéro est réellement équitable pour les charges en pics",
+      "Cog est devenu un standard de fait pour empaqueter les modèles de ML",
+      "Le soutien de Cloudflare élimine totalement la question de la pérennité de la startup"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Cold starts on scale-to-zero models add seconds of first-request latency",
+      "Community model quality and maintenance vary wildly",
+      "Per-second hardware pricing is harder to forecast than per-token plans",
+      "Post-acquisition roadmap may gradually favor Cloudflare's ecosystem"
+    ],
+    "zh": [
+      "缩容到零的模型有冷启动，首个请求会多几秒延迟",
+      "社区模型的质量与维护水准参差不齐",
+      "按秒计硬件的费用比按 token 套餐更难预估",
+      "被收购后的路线图可能逐渐向 Cloudflare 生态倾斜"
+    ],
+    "ja": [
+      "スケールゼロのモデルはコールドスタートがあり、最初のリクエストに数秒の遅延が加わる",
+      "コミュニティモデルの品質とメンテナンス水準はまちまち",
+      "秒単位のハードウェア課金はトークン単価プランより費用予測が難しい",
+      "買収後のロードマップは徐々にCloudflareエコシステム寄りになる可能性"
+    ],
+    "es": [
+      "Los arranques en frío de los modelos con escalado a cero añaden segundos de latencia a la primera petición",
+      "La calidad y el mantenimiento de los modelos comunitarios varían enormemente",
+      "El precio de hardware por segundo es más difícil de prever que los planes por token",
+      "La hoja de ruta posadquisición puede favorecer gradualmente el ecosistema de Cloudflare"
+    ],
+    "fr": [
+      "Les démarrages à froid des modèles à mise à zéro ajoutent quelques secondes à la première requête",
+      "La qualité et la maintenance des modèles communautaires varient énormément",
+      "La tarification matérielle à la seconde est plus dure à prévoir que les forfaits au token",
+      "La feuille de route post-acquisition pourrait favoriser progressivement l'écosystème Cloudflare"
+    ]
+  },
+  "latestUpdate": {
+    "en": "2026: Cloudflare completed its acquisition of Replicate — announced late 2025, closed in early 2026 — keeping the brand and API independent while wiring the model catalog into Workers AI. Official endpoints for FLUX, Seedream, Veo-class video and frontier language models keep expanding, with per-second billing and scale-to-zero unchanged.",
+    "zh": "2026 年：Cloudflare 完成对 Replicate 的收购——2025 年末宣布、2026 年初交割——品牌与 API 保持独立，同时把模型目录接入 Workers AI。FLUX、Seedream、Veo 级视频与前沿语言模型的官方端点持续扩充，按秒计费与缩容到零维持不变。",
+    "ja": "2026年：CloudflareはReplicateの買収を完了——2025年末に発表、2026年初頭にクローズ——ブランドとAPIの独立性を保ちつつ、モデルカタログをWorkers AIに接続。FLUX、Seedream、Veo級動画、フロンティア言語モデルの公式エンドポイントは拡充を続け、秒単位課金とスケールゼロは変わらず。",
+    "es": "2026: Cloudflare completó la adquisición de Replicate —anunciada a finales de 2025, cerrada a principios de 2026— manteniendo la marca y la API independientes mientras conecta el catálogo de modelos a Workers AI. Los endpoints oficiales para FLUX, Seedream, video clase Veo y modelos de lenguaje frontera siguen creciendo, con la facturación por segundo y el escalado a cero sin cambios.",
+    "fr": "2026 : Cloudflare a finalisé l'acquisition de Replicate — annoncée fin 2025, conclue début 2026 — en gardant la marque et l'API indépendantes tout en reliant le catalogue de modèles à Workers AI. Les endpoints officiels pour FLUX, Seedream, la vidéo de classe Veo et les modèles de langage frontière continuent de s'étendre, avec la facturation à la seconde et la mise à zéro inchangées."
+  },
+  "verdict": {
+    "badge": "Recommended",
+    "headline": {
+      "en": "The model playground that grew up — and got Cloudflare as a parent",
+      "zh": "长大成人的模型游乐场——还认了 Cloudflare 当靠山",
+      "ja": "大人になったモデルの遊び場——Cloudflareという後ろ盾を得て",
+      "es": "El patio de juegos de modelos que maduró y consiguió a Cloudflare como padre",
+      "fr": "Le terrain de jeu des modèles devenu adulte — avec Cloudflare pour parent"
+    },
+    "body": {
+      "en": "Replicate's core promise has not changed since day one: any interesting model, one line of code, pay for the seconds you use. What has changed is everything around it. The Cloudflare acquisition — announced in late 2025 and completed in early 2026 — answered the only serious objection to building on Replicate, namely whether a venture-backed startup would still exist in five years. It will, and its catalog is being wired into Workers AI and one of the largest edge networks on earth. The product itself remains the best browsing experience in AI: tens of thousands of community models to test in the browser, official endpoints for FLUX, Veo-class video and frontier LLMs, and Cog quietly standardizing how models get packaged. The rough edges are the familiar ones — cold starts sting on rarely-used models, community model quality is a lottery, and per-second billing takes discipline to forecast. For dedicated LLM serving at scale, Together and Fireworks are sharper tools. But as the place where you discover, compare and ship generative media and long-tail models, Replicate has no real equal — and for the first time, no expiration risk either.",
+      "zh": "Replicate 的核心承诺从第一天起就没变过：任何有意思的模型，一行代码，按实际运行的秒数付费。变的是它周围的一切。Cloudflare 的收购——2025 年末宣布、2026 年初完成——回应了在 Replicate 上构建的唯一严肃顾虑：一家靠融资续命的创业公司五年后还在不在？答案是在，而且它的模型目录正被接入 Workers AI 和全球最大的边缘网络之一。产品本身仍是 AI 界最好的「逛街体验」：数万个社区模型可在浏览器里直接试，FLUX、Veo 级视频与前沿 LLM 有官方端点，Cog 则悄悄统一了模型打包的行业习惯。毛边也还是熟悉的那些——冷启动对低频模型很扎手，社区模型质量像抽奖，按秒计费需要自律才能预估。要大规模专门跑 LLM，Together 和 Fireworks 是更锋利的工具。但作为发现、比较并上线生成式媒体与长尾模型的地方，Replicate 没有真正的对手——而且头一次，也没有「会不会倒闭」的风险了。",
+      "ja": "Replicateの中核の約束は初日から変わっていない。面白いモデルなら何でも、コード1行で、使った秒数分だけ支払う。変わったのはその周囲のすべてだ。Cloudflareによる買収——2025年末発表、2026年初頭完了——は、Replicateの上に構築することへの唯一の深刻な異論、つまりベンチャー資金頼みのスタートアップが5年後も存在するのかという問いに答えた。存在する。しかもそのカタログはWorkers AIと地球最大級のエッジネットワークに接続されつつある。製品自体はいまもAI界最高のブラウジング体験だ。数万のコミュニティモデルをブラウザで試せ、FLUX、Veo級動画、フロンティアLLMの公式エンドポイントがあり、Cogはモデルのパッケージ方法を静かに標準化した。粗さはお馴染みのものだ——めったに使われないモデルのコールドスタートは痛く、コミュニティモデルの品質はくじ引きで、秒単位課金の予測には規律がいる。大規模なLLM専用サービングならTogetherとFireworksの方が鋭い道具だ。しかし生成メディアとロングテールモデルを発見し、比較し、出荷する場所として、Replicateに本当の対抗馬はいない——そして初めて、消滅リスクもなくなった。",
+      "es": "La promesa central de Replicate no ha cambiado desde el primer día: cualquier modelo interesante, una línea de código, pagas los segundos que usas. Lo que ha cambiado es todo lo demás. La adquisición por Cloudflare —anunciada a finales de 2025 y completada a principios de 2026— respondió a la única objeción seria a construir sobre Replicate: si una startup financiada por capital riesgo seguiría existiendo en cinco años. Existirá, y su catálogo se está conectando a Workers AI y a una de las mayores redes edge del planeta. El producto sigue siendo la mejor experiencia de exploración en IA: decenas de miles de modelos comunitarios para probar en el navegador, endpoints oficiales para FLUX, video clase Veo y LLMs frontera, y Cog estandarizando en silencio cómo se empaquetan los modelos. Las asperezas son las de siempre: los arranques en frío duelen en modelos poco usados, la calidad comunitaria es una lotería y la facturación por segundo exige disciplina para prever. Para servir LLMs dedicados a escala, Together y Fireworks son herramientas más afiladas. Pero como el lugar donde descubres, comparas y lanzas media generativa y modelos de cola larga, Replicate no tiene igual real, y por primera vez, tampoco riesgo de caducidad.",
+      "fr": "La promesse centrale de Replicate n'a pas changé depuis le premier jour : n'importe quel modèle intéressant, une ligne de code, payez les secondes utilisées. Ce qui a changé, c'est tout le reste. L'acquisition par Cloudflare — annoncée fin 2025, finalisée début 2026 — a répondu à la seule objection sérieuse à construire sur Replicate : une startup financée par le capital-risque existerait-elle encore dans cinq ans ? Elle existera, et son catalogue est en train d'être relié à Workers AI et à l'un des plus grands réseaux edge du monde. Le produit reste la meilleure expérience de découverte en IA : des dizaines de milliers de modèles communautaires testables dans le navigateur, des endpoints officiels pour FLUX, la vidéo de classe Veo et les LLM frontière, et Cog qui standardise discrètement l'empaquetage des modèles. Les aspérités sont les mêmes qu'avant — les démarrages à froid piquent sur les modèles peu utilisés, la qualité communautaire est une loterie, et la facturation à la seconde demande de la discipline pour être prévue. Pour du serving LLM dédié à grande échelle, Together et Fireworks sont des outils plus affûtés. Mais comme lieu où découvrir, comparer et livrer du média génératif et des modèles de longue traîne, Replicate n'a pas de véritable égal — et pour la première fois, plus aucun risque de disparition."
+    },
+    "bestFor": {
+      "en": [
+        "Product teams shipping image, video or audio features without ML infrastructure",
+        "Developers exploring and comparing new models the week they trend",
+        "Researchers publishing models as APIs with Cog"
+      ],
+      "zh": [
+        "不建机器学习基础设施就要上线图像、视频或音频功能的产品团队",
+        "想在新模型爆火当周就上手比较的开发者",
+        "用 Cog 把模型发布成 API 的研究者"
+      ],
+      "ja": [
+        "MLインフラなしで画像・動画・音声機能を出荷する製品チーム",
+        "新モデルが話題になったその週に試して比較したい開発者",
+        "Cogでモデルを API として公開する研究者"
+      ],
+      "es": [
+        "Equipos de producto que lanzan funciones de imagen, video o audio sin infraestructura de ML",
+        "Desarrolladores que exploran y comparan modelos nuevos la semana que se hacen virales",
+        "Investigadores que publican modelos como APIs con Cog"
+      ],
+      "fr": [
+        "Équipes produit livrant des fonctions image, vidéo ou audio sans infrastructure ML",
+        "Développeurs explorant et comparant les nouveaux modèles la semaine où ils émergent",
+        "Chercheurs publiant des modèles comme API avec Cog"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You serve LLMs at sustained scale and latency matters (→ Together AI / Fireworks AI)",
+        "You want the fastest diffusion inference and realtime media APIs (→ Fal.ai)"
+      ],
+      "zh": [
+        "你要持续大规模跑 LLM 且延迟敏感（→ Together AI / Fireworks AI）",
+        "你想要最快的扩散推理与实时媒体 API（→ Fal.ai）"
+      ],
+      "ja": [
+        "LLMを持続的な大規模で提供しレイテンシが重要（→ Together AI / Fireworks AI）",
+        "最速の拡散推論とリアルタイムメディアAPIが欲しい（→ Fal.ai）"
+      ],
+      "es": [
+        "Sirves LLMs a escala sostenida y la latencia importa (→ Together AI / Fireworks AI)",
+        "Quieres la inferencia de difusión más rápida y APIs de media en tiempo real (→ Fal.ai)"
+      ],
+      "fr": [
+        "Vous servez des LLM à échelle soutenue et la latence compte (→ Together AI / Fireworks AI)",
+        "Vous voulez l'inférence de diffusion la plus rapide et des API média temps réel (→ Fal.ai)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-28",
+    "verdictDate": "2026-07-28",
+    "pricingVerified": "2026-07-28",
+    "pricingUrl": "https://replicate.com/pricing"
+  }
+}

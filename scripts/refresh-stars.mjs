@@ -3,12 +3,12 @@
  * MCP / Skills 星数统一刷新脚本（单一数据源）
  * ============================================
  * 背景：卡片（列表页）与详情页的星数必须始终一致。页面不再各自调 GitHub API，
- * 一律读取 mcp.json / skills.json 的 stars 字段；本脚本是唯一的星数写入口。
+ * 一律读取 mcp/skills 数据的 stars 字段；本脚本是唯一的星数写入口。
  *
  * 行为：
- *   - 遍历 src/data/mcp.json 与 src/data/skills.json 的全部条目（后续新收录自动纳入，无需改本脚本）
+ *   - 遍历 src/data/mcp/ 与 src/data/skills/ 的全部条目（后续新收录自动纳入，无需改本脚本）
  *   - 按 repo 去重后逐个调 GitHub API 取 stargazers_count，写回所有共享该 repo 的条目
- *   - 刷新后按星数由高到低重排各数据文件条目（并列按 slug 升序），使数据源顺序与卡片展示一致；
+ *   - 刷新后按星数由高到低重排各条目（并列按 slug 升序），同步更新 canonical-order.json；
  *     顺序变化本身即视为改动并写回，交由 refresh-stars workflow 自动提交推送
  *   - 单个 repo 失败（网络/404/限流）→ 保留旧值并告警，不阻断其它条目
  *   - 全部请求失败 → exit 1（大概率是网络/限流问题，需要人工关注）
@@ -24,14 +24,19 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { createRequire } from 'node:module';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const DRY = process.argv.includes('--dry');
 const TOKEN = process.env.GITHUB_TOKEN || process.env.GH_TOKEN || '';
 
-const DATA_FILES = [
-  { label: 'MCP', file: path.join(ROOT, 'src', 'data', 'mcp.json') },
-  { label: 'Skills', file: path.join(ROOT, 'src', 'data', 'skills.json') },
+// 2.1 数据拆分后：读写走 load-data 装配器（每条一文件 + canonical-order.json）
+const require = createRequire(import.meta.url);
+const { loadMcp, loadSkills, saveCollection, saveOrder } = require('./lib/load-data.cjs');
+
+const DATASETS = [
+  { label: 'MCP', dir: 'mcp', orderKey: 'mcp', load: loadMcp },
+  { label: 'Skills', dir: 'skills', orderKey: 'skills', load: loadSkills },
 ];
 
 /** 拉取单个 repo 的星数；失败返回 null（调用方保留旧值） */
@@ -63,10 +68,11 @@ async function fetchStars(repo) {
 }
 
 // ---- 主流程 ----
-const datasets = DATA_FILES.map(({ label, file }) => ({
+const datasets = DATASETS.map(({ label, dir, orderKey, load }) => ({
   label,
-  file,
-  entries: JSON.parse(fs.readFileSync(file, 'utf8')),
+  dir,
+  orderKey,
+  entries: load(),
 }));
 
 // 按 repo 去重（skills 中多个技能可共享同一仓库），一个 repo 只请求一次
@@ -108,7 +114,8 @@ for (const { label, file, entries } of datasets) {
   entries.sort((a, b) => (b.stars - a.stars) || a.slug.localeCompare(b.slug));
   const reordered = entries.map((e) => e.slug).join('|') !== orderBefore;
   if ((changed > 0 || reordered) && !DRY) {
-    fs.writeFileSync(file, JSON.stringify(entries, null, 2) + '\n', 'utf8');
+    const slugs = saveCollection(dir, entries);
+    saveOrder(orderKey, slugs);
   }
   const notes = [];
   if (changed > 0) notes.push(`${changed} 个条目星数有变化`);

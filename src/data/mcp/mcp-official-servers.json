@@ -1,0 +1,79 @@
+{
+  "slug": "mcp-official-servers",
+  "name": "MCP Reference Servers",
+  "nameZh": "MCP 官方参考服务器",
+  "description": "Model Context Protocol 官方参考服务器集合，由 Anthropic 与社区维护。包含 Filesystem、Git、Memory、Fetch 等核心实现，是学习与构建 MCP 服务器的权威起点。",
+  "descriptionEn": "The official collection of Model Context Protocol reference servers, maintained by Anthropic and the community. Includes Filesystem, Git, Memory, Fetch and more — the canonical starting point for learning and building MCP servers.",
+  "descriptionJa": "AnthropicとコミュニティがメンテナンスするModel Context Protocol公式リファレンスサーバー集。Filesystem、Git、Memory、Fetchなどのコア実装を含み、MCPサーバー構築の出発点となる。",
+  "descriptionEs": "La colección oficial de servidores de referencia del Model Context Protocol, mantenida por Anthropic y la comunidad. Incluye Filesystem, Git, Memory, Fetch y más — el punto de partida canónico para construir servidores MCP.",
+  "descriptionFr": "La collection officielle de serveurs de référence du Model Context Protocol, maintenue par Anthropic et la communauté. Comprend Filesystem, Git, Memory, Fetch et plus — le point de départ canonique pour construire des serveurs MCP.",
+  "developer": "Anthropic & MCP Community",
+  "developerZh": "Anthropic 与 MCP 社区",
+  "repo": "modelcontextprotocol/servers",
+  "clients": [
+    "claude",
+    "cursor",
+    "vscode",
+    "codex",
+    "generic"
+  ],
+  "category": "Official",
+  "tags": [
+    "Free",
+    "Open Source"
+  ],
+  "installCommand": "npx -y @modelcontextprotocol/server-filesystem <dir>",
+  "logo": "/logos/mcp/mcp-official-servers.png",
+  "stars": 90080,
+  "featured": false,
+  "faqs": [
+    {
+      "question": {
+        "zh": "MCP 官方参考服务器包含哪些能力？",
+        "en": "What do the official MCP reference servers include?",
+        "ja": "MCP 公式リファレンスサーバーには何が含まれますか？",
+        "es": "¿Qué incluyen los servidores de referencia oficiales de MCP?",
+        "fr": "Que contiennent les serveurs de référence officiels MCP ?"
+      },
+      "answer": {
+        "zh": "这是 Anthropic 与 MCP 社区维护的官方服务器集合，一个仓库里打包了文件系统、Git、内存、时间、抓取等多个即用服务器，是学习和验证 MCP 协议的第一站。",
+        "en": "It is the official collection maintained by Anthropic and the MCP community. One repository bundles ready-to-use servers for filesystem, Git, memory, time, fetch and more, making it the best starting point for learning MCP.",
+        "ja": "Anthropic と MCP コミュニティが管理する公式コレクションです。ファイルシステム、Git、メモリ、時刻、フェッチなどのすぐ使えるサーバーが 1 つのリポジトリにまとまっており、MCP 学習の出発点に最適です。",
+        "es": "Es la colección oficial mantenida por Anthropic y la comunidad MCP. Un solo repositorio agrupa servidores listos para usar de sistema de archivos, Git, memoria, tiempo y fetch, ideal para empezar con MCP.",
+        "fr": "C'est la collection officielle maintenue par Anthropic et la communauté MCP. Un seul dépôt regroupe des serveurs prêts à l'emploi : système de fichiers, Git, mémoire, temps, fetch, etc. Idéal pour débuter avec MCP."
+      }
+    },
+    {
+      "question": {
+        "zh": "怎么把官方参考服务器接入 Claude Code 或 Cursor？",
+        "en": "How do I add a reference server to Claude Code or Cursor?",
+        "ja": "リファレンスサーバーを Claude Code や Cursor に追加するには？",
+        "es": "¿Cómo añado un servidor de referencia a Claude Code o Cursor?",
+        "fr": "Comment ajouter un serveur de référence à Claude Code ou Cursor ?"
+      },
+      "answer": {
+        "zh": "每个服务器都发布为独立 npm 包，用 npx 一行启动，例如 npx -y @modelcontextprotocol/server-filesystem <目录>。在 Claude Code 里用 claude mcp add 注册，在 Cursor 里粘贴到 MCP 设置即可。",
+        "en": "Each server ships as its own npm package and starts with one npx line, e.g. npx -y @modelcontextprotocol/server-filesystem <dir>. Register it with claude mcp add in Claude Code, or paste it into the MCP settings in Cursor.",
+        "ja": "各サーバーは独立した npm パッケージとして公開され、npx 一行で起動できます（例：npx -y @modelcontextprotocol/server-filesystem <dir>）。Claude Code では claude mcp add で登録、Cursor では MCP 設定に貼り付けるだけです。",
+        "es": "Cada servidor se publica como paquete npm independiente y arranca con una línea de npx, p. ej. npx -y @modelcontextprotocol/server-filesystem <dir>. Regístralo con claude mcp add en Claude Code o pégalo en los ajustes MCP de Cursor.",
+        "fr": "Chaque serveur est publié comme paquet npm indépendant et se lance en une ligne npx, p. ex. npx -y @modelcontextprotocol/server-filesystem <dir>. Enregistrez-le avec claude mcp add dans Claude Code ou collez-le dans les réglages MCP de Cursor."
+      }
+    },
+    {
+      "question": {
+        "zh": "官方参考服务器免费吗？需要 API Key 吗？",
+        "en": "Are the reference servers free? Do they need an API key?",
+        "ja": "リファレンスサーバーは無料ですか？API キーは必要ですか？",
+        "es": "¿Los servidores de referencia son gratuitos? ¿Necesitan clave API?",
+        "fr": "Les serveurs de référence sont-ils gratuits ? Faut-il une clé API ?"
+      },
+      "answer": {
+        "zh": "完全免费开源（MIT 协议），文件系统、Git、内存等核心服务器都在本地运行，不需要任何 API Key，也不会把数据发送到第三方。",
+        "en": "Completely free and open source under the MIT license. Core servers like filesystem, Git and memory run locally, need no API key, and send no data to third parties.",
+        "ja": "MIT ライセンスで完全に無料・オープンソースです。ファイルシステム、Git、メモリなどのコアサーバーはローカルで動作し、API キー不要、サードパーティへのデータ送信もありません。",
+        "es": "Totalmente gratuito y de código abierto bajo licencia MIT. Los servidores principales como filesystem, Git y memoria funcionan en local, sin clave API y sin enviar datos a terceros.",
+        "fr": "Entièrement gratuit et open source sous licence MIT. Les serveurs principaux (fichiers, Git, mémoire) fonctionnent en local, sans clé API et sans envoyer de données à des tiers."
+      }
+    }
+  ]
+}

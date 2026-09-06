@@ -1,0 +1,29 @@
+{
+  "slug": "openclaw",
+  "name": "OpenClaw",
+  "nameZh": "OpenClaw",
+  "description": "开源个人 AI 助手，自托管运行，支持 WhatsApp、Telegram、Discord 等 12+ 平台的 AI 自动化和任务执行",
+  "descriptionEn": "Open-source personal AI assistant that runs on your own devices. Supports AI automation and task execution across WhatsApp, Telegram, Discord, and 12+ platforms",
+  "descriptionJa": "オープンソースのパーソナルAIアシスタント。自身のデバイスで実行可能。WhatsApp、Telegram、Discordなど12以上のプラットフォームでAI自動化とタスク実行をサポート",
+  "descriptionEs": "Asistente personal de IA de código abierto que se ejecuta en sus propios dispositivos. Admite automatización de IA y ejecución de tareas en WhatsApp, Telegram, Discord y más de 12 plataformas",
+  "descriptionFr": "Assistant personnel IA open-source qui s'exécute sur vos propres appareils. Prend en charge l'automatisation IA et l'exécution de tâches sur WhatsApp, Telegram, Discord et plus de 12 plateformes",
+  "url": "https://openclaw.ai/",
+  "logo": "/logos/tools/openclaw.png",
+  "category": "Agent",
+  "tags": [
+    "Free",
+    "Open Source"
+  ],
+  "featured": false,
+  "developer": "OpenClaw Team",
+  "platforms": {
+    "web": false,
+    "windows": true,
+    "macos": true,
+    "ios": true,
+    "android": true,
+    "linux": true,
+    "browser_extension": true,
+    "api": false
+  }
+}

@@ -1,0 +1,234 @@
+{
+  "features": {
+    "en": [
+      "AI executive assistant that runs your inbox, calendar and follow-ups 24/7",
+      "Reachable via iMessage/SMS — text your assistant like a real person",
+      "Meeting scheduling, note-taking, prep and follow-up automation",
+      "100+ integrations including Gmail, Outlook, Slack and Notion",
+      "Computer use on Pro plan lets the agent operate real interfaces",
+      "Custom agent builder with triggers, approvals and human-in-the-loop"
+    ],
+    "zh": [
+      "全天候接管邮箱、日程与跟进事项的 AI 行政助理",
+      "支持 iMessage/短信召唤——像给真人发消息一样使唤助理",
+      "会议排期、记录、会前准备与会后跟进全自动",
+      "100+ 集成，覆盖 Gmail、Outlook、Slack、Notion 等",
+      "Pro 版支持 Computer Use，智能体可直接操作真实界面",
+      "自定义智能体构建器，带触发器、审批与人工把关"
+    ],
+    "ja": [
+      "受信箱・カレンダー・フォローアップを24時間365日代行するAI秘書",
+      "iMessage/SMSで呼び出し可能——人にメッセージを送る感覚で指示",
+      "会議の日程調整・議事録・事前準備・フォローアップを自動化",
+      "Gmail、Outlook、Slack、Notionなど100以上の連携",
+      "ProプランのComputer Useでエージェントが実際のUIを操作",
+      "トリガー・承認・人間の確認を備えたカスタムエージェントビルダー"
+    ],
+    "es": [
+      "Asistente ejecutivo IA que gestiona tu bandeja, calendario y seguimientos 24/7",
+      "Accesible por iMessage/SMS: escribe a tu asistente como a una persona real",
+      "Automatización de agenda, notas, preparación y seguimiento de reuniones",
+      "Más de 100 integraciones: Gmail, Outlook, Slack, Notion y más",
+      "Computer Use en el plan Pro permite al agente operar interfaces reales",
+      "Constructor de agentes con disparadores, aprobaciones y supervisión humana"
+    ],
+    "fr": [
+      "Assistant de direction IA gérant boîte mail, agenda et relances 24h/24",
+      "Joignable par iMessage/SMS — écrivez à votre assistant comme à une vraie personne",
+      "Planification, comptes rendus, préparation et suivi de réunions automatisés",
+      "Plus de 100 intégrations : Gmail, Outlook, Slack, Notion et plus",
+      "Computer Use sur le plan Pro permet à l'agent d'opérer de vraies interfaces",
+      "Constructeur d'agents avec déclencheurs, validations et contrôle humain"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "7-day free trial with full Plus features (inbox management, meeting scheduling and notes, texting your assistant 24/7) — no permanent free plan",
+      "zh": "7 天免费试用，含 Plus 全部功能（邮箱管理、会议排期与记录、随时短信召唤）——无永久免费版",
+      "ja": "7日間の無料トライアルでPlusの全機能（受信箱管理、会議調整・議事録、24時間SMS呼び出し）を利用可能——恒久無料プランはなし",
+      "es": "Prueba gratuita de 7 días con todas las funciones Plus (gestión de bandeja, agenda y notas de reuniones, mensajes 24/7) — sin plan gratuito permanente",
+      "fr": "Essai gratuit de 7 jours avec toutes les fonctions Plus (gestion de boîte mail, réunions et notes, SMS 24h/24) — pas de plan gratuit permanent"
+    },
+    "paid": {
+      "en": "Plus $49.99/mo (2 inboxes, iMessage/SMS, 100+ integrations); Pro $99.99/mo (3x usage, computer use, model choice); Max $199.99/mo (7x usage, 5 inboxes); Enterprise custom (HIPAA BAA, SSO/SCIM, audit logs)",
+      "zh": "Plus 49.99 美元/月（2 个邮箱、iMessage/短信、100+ 集成）；Pro 99.99 美元/月（3 倍用量、Computer Use、可选模型）；Max 199.99 美元/月（7 倍用量、5 个邮箱）；企业版定制（HIPAA BAA、SSO/SCIM、审计日志）",
+      "ja": "Plus 月額49.99ドル（受信箱2つ、iMessage/SMS、100以上の連携）、Pro 月額99.99ドル（使用量3倍、Computer Use、モデル選択）、Max 月額199.99ドル（使用量7倍、受信箱5つ）、Enterpriseはカスタム（HIPAA BAA、SSO/SCIM、監査ログ）",
+      "es": "Plus 49,99 $/mes (2 bandejas, iMessage/SMS, 100+ integraciones); Pro 99,99 $/mes (3x uso, computer use, elección de modelo); Max 199,99 $/mes (7x uso, 5 bandejas); Enterprise a medida (HIPAA BAA, SSO/SCIM, registros de auditoría)",
+      "fr": "Plus 49,99 $/mois (2 boîtes, iMessage/SMS, 100+ intégrations) ; Pro 99,99 $/mois (3x d'usage, computer use, choix du modèle) ; Max 199,99 $/mois (7x d'usage, 5 boîtes) ; Enterprise sur mesure (HIPAA BAA, SSO/SCIM, journaux d'audit)"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Founders and executives delegating inbox triage and email drafting",
+      "Automatic meeting notes, prep briefs and follow-up emails",
+      "Scheduling back-and-forth handled entirely by the assistant",
+      "Building custom agents for recruiting outreach or CRM updates"
+    ],
+    "zh": [
+      "创始人与高管把邮件分拣和草拟全权委托给助理",
+      "自动生成会议记录、会前简报与会后跟进邮件",
+      "来回拉扯的会议排期完全交给助理处理",
+      "构建招聘触达、CRM 更新等自定义智能体"
+    ],
+    "ja": [
+      "創業者や経営層がメール仕分けと下書きをアシスタントに委任",
+      "議事録・事前ブリーフ・フォローアップメールの自動生成",
+      "面倒な日程調整のやり取りをアシスタントに丸投げ",
+      "採用アウトリーチやCRM更新のカスタムエージェント構築"
+    ],
+    "es": [
+      "Fundadores y ejecutivos delegando el triaje de correos y borradores",
+      "Notas de reuniones, informes previos y correos de seguimiento automáticos",
+      "La negociación de horarios queda totalmente en manos del asistente",
+      "Creación de agentes para prospección de talento o actualización de CRM"
+    ],
+    "fr": [
+      "Fondateurs et dirigeants délégant le tri et la rédaction d'e-mails",
+      "Comptes rendus, briefs préparatoires et e-mails de suivi automatiques",
+      "Les allers-retours de planification entièrement gérés par l'assistant",
+      "Création d'agents pour la prospection RH ou la mise à jour du CRM"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Polished consumer-grade experience — set up in about 60 seconds",
+      "iMessage/SMS access removes all app-switching friction",
+      "Learns your writing style and priorities over time",
+      "Approval-first design: nothing is sent without your review"
+    ],
+    "zh": [
+      "消费级打磨体验——约 60 秒即可完成设置",
+      "iMessage/短信直达，彻底省去切换应用的摩擦",
+      "会逐步学习你的写作风格与优先级",
+      "审批优先设计：未经你确认不会发出任何内容"
+    ],
+    "ja": [
+      "洗練されたコンシューマー級体験——約60秒でセットアップ完了",
+      "iMessage/SMSで直接アクセスでき、アプリ切り替えの手間ゼロ",
+      "使うほどにあなたの文体と優先順位を学習",
+      "承認ファースト設計：確認なしに送信されることはない"
+    ],
+    "es": [
+      "Experiencia pulida de nivel consumidor: configuración en unos 60 segundos",
+      "El acceso por iMessage/SMS elimina el cambio constante de apps",
+      "Aprende tu estilo de escritura y prioridades con el tiempo",
+      "Diseño con aprobación previa: nada se envía sin tu revisión"
+    ],
+    "fr": [
+      "Expérience soignée grand public — configuration en 60 secondes environ",
+      "L'accès iMessage/SMS supprime toute friction de changement d'app",
+      "Apprend votre style d'écriture et vos priorités au fil du temps",
+      "Conception validation d'abord : rien n'est envoyé sans votre accord"
+    ]
+  },
+  "cons": {
+    "en": [
+      "No permanent free plan — $49.99/mo entry is steep for casual users",
+      "Usage-based limits can be opaque until you hit them",
+      "Optimized for iMessage; Android users get plain SMS",
+      "Positioning shifted toward executive assistant — general agent building is less prominent"
+    ],
+    "zh": [
+      "没有永久免费版——49.99 美元/月的门槛对轻量用户偏高",
+      "用量限制在触顶之前不够透明",
+      "为 iMessage 优化；Android 用户只有普通短信",
+      "定位已转向行政助理——通用智能体构建不再突出"
+    ],
+    "ja": [
+      "恒久無料プランがなく、月額49.99ドルの入口はライトユーザーには高め",
+      "使用量上限は達するまで分かりにくい",
+      "iMessage最適化のため、Androidユーザーは通常のSMSのみ",
+      "ポジショニングがAI秘書寄りになり、汎用エージェント構築は影が薄く"
+    ],
+    "es": [
+      "Sin plan gratuito permanente: 49,99 $/mes es caro para uso ocasional",
+      "Los límites de uso pueden ser opacos hasta que los alcanzas",
+      "Optimizado para iMessage; en Android solo SMS estándar",
+      "El enfoque viró a asistente ejecutivo: crear agentes generales pesa menos"
+    ],
+    "fr": [
+      "Pas de plan gratuit permanent — 49,99 $/mois est élevé pour un usage léger",
+      "Les limites d'usage restent opaques jusqu'à ce qu'on les atteigne",
+      "Optimisé pour iMessage ; les utilisateurs Android n'ont que le SMS",
+      "Le positionnement a viré vers l'assistant de direction — la création d'agents généraux est moins mise en avant"
+    ]
+  },
+  "latestUpdate": {
+    "en": "2026: Lindy repositions around the AI executive assistant — inbox, meetings, calendar and follow-ups via iMessage/SMS — with computer use and model choice on Pro, and HIPAA BAA plus SSO/SCIM on Enterprise",
+    "zh": "2026 年：Lindy 重新聚焦 AI 行政助理定位——经 iMessage/短信管理邮箱、会议、日程与跟进——Pro 版新增 Computer Use 与模型选择，企业版提供 HIPAA BAA 与 SSO/SCIM",
+    "ja": "2026年：LindyはAI秘書路線に再フォーカス——iMessage/SMS経由で受信箱・会議・カレンダー・フォローアップを管理。ProにComputer Useとモデル選択、EnterpriseにHIPAA BAAとSSO/SCIMを追加",
+    "es": "2026: Lindy se reposiciona como asistente ejecutivo IA —bandeja, reuniones, calendario y seguimientos vía iMessage/SMS— con computer use y elección de modelo en Pro, y HIPAA BAA más SSO/SCIM en Enterprise",
+    "fr": "2026 : Lindy se repositionne comme assistant de direction IA — boîte mail, réunions, agenda et relances via iMessage/SMS — avec computer use et choix du modèle sur Pro, HIPAA BAA et SSO/SCIM sur Enterprise"
+  },
+  "verdict": {
+    "badge": "Recommended",
+    "headline": {
+      "en": "The most human-feeling AI assistant — if your work lives in email and meetings",
+      "zh": "最有真人感的 AI 助理——前提是你的工作围着邮件和会议转",
+      "ja": "最も人間らしいAIアシスタント——仕事がメールと会議中心なら",
+      "es": "El asistente IA que más se siente humano, si tu trabajo vive en correos y reuniones",
+      "fr": "L'assistant IA le plus humain — si votre travail tourne autour des e-mails et réunions"
+    },
+    "body": {
+      "en": "Lindy made a bold bet: instead of competing in the crowded agent-builder market, it productized one job — the executive assistant — and nailed the interface by living in your text messages. Email triage, scheduling ping-pong and meeting notes genuinely disappear from your day, and the approval-first design keeps trust high. The trade-off is focus: at $49.99/mo with no free tier, it is priced for professionals whose calendar chaos justifies it, not for tinkerers who want a general-purpose agent playground.",
+      "zh": "Lindy 下了一步大胆的棋：不在拥挤的智能体构建市场里卷，而是把「行政助理」这一件事做成产品，并靠住进你的短信里赢下交互。邮件分拣、排期拉锯、会议记录真的会从你的日程中消失，审批优先的设计也让人放心。代价是专注：49.99 美元/月且无免费版的定价，面向的是日程混乱到值回票价的职场人，而不是想要通用智能体游乐场的折腾党。",
+      "ja": "Lindyは大胆な賭けに出た。混雑するエージェントビルダー市場で戦う代わりに、「秘書」という一つの仕事を製品化し、テキストメッセージの中に住むことでインターフェースを制した。メール仕分け、日程調整の応酬、議事録が本当に日常から消え、承認ファースト設計が信頼を支える。引き換えに得たのは専門性：無料プランなしの月額49.99ドルは、カレンダーの混沌がその価値を正当化するプロフェッショナル向けであり、汎用エージェントの遊び場が欲しい人向けではない。",
+      "es": "Lindy hizo una apuesta audaz: en lugar de competir en el saturado mercado de constructores de agentes, convirtió un solo trabajo —el asistente ejecutivo— en producto y clavó la interfaz viviendo en tus mensajes de texto. El triaje de correos, el ping-pong de agendas y las notas de reuniones desaparecen de verdad de tu día, y el diseño con aprobación previa mantiene la confianza. La contrapartida es el enfoque: a 49,99 $/mes sin plan gratuito, está pensado para profesionales cuyo caos de calendario lo justifica, no para curiosos que buscan un laboratorio de agentes.",
+      "fr": "Lindy a fait un pari audacieux : plutôt que de rivaliser sur le marché saturé des constructeurs d'agents, il a transformé un seul métier — l'assistant de direction — en produit, et gagné l'interface en s'installant dans vos SMS. Tri des e-mails, ping-pong de planification et comptes rendus disparaissent réellement de votre journée, et la conception validation d'abord entretient la confiance. La contrepartie, c'est le focus : à 49,99 $/mois sans offre gratuite, il s'adresse aux professionnels dont le chaos d'agenda justifie le prix, pas aux bidouilleurs en quête d'un terrain de jeu d'agents."
+    },
+    "bestFor": {
+      "en": [
+        "Executives and founders drowning in email and scheduling",
+        "Professionals who want an assistant one text message away",
+        "Teams needing HIPAA-compliant assistant workflows (Enterprise)"
+      ],
+      "zh": [
+        "被邮件和排期淹没的高管与创始人",
+        "想要一条短信就能召唤助理的职场人",
+        "需要 HIPAA 合规助理工作流的团队（企业版）"
+      ],
+      "ja": [
+        "メールと日程調整に溺れる経営者・創業者",
+        "メッセージ一通でアシスタントを呼びたいプロフェッショナル",
+        "HIPAA準拠のアシスタントワークフローが必要なチーム（Enterprise）"
+      ],
+      "es": [
+        "Ejecutivos y fundadores ahogados en correos y agendas",
+        "Profesionales que quieren un asistente a un mensaje de distancia",
+        "Equipos que necesitan flujos conformes con HIPAA (Enterprise)"
+      ],
+      "fr": [
+        "Dirigeants et fondateurs noyés sous les e-mails et la planification",
+        "Professionnels voulant un assistant à un SMS de distance",
+        "Équipes ayant besoin de workflows conformes HIPAA (Enterprise)"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You want a free or low-cost general agent builder (→ Flowise, Gumloop)",
+        "You need deep workflow automation across apps (→ Zapier AI, Make AI)"
+      ],
+      "zh": [
+        "你想要免费或低价的通用智能体构建器（→ Flowise、Gumloop）",
+        "你需要跨应用的深度工作流自动化（→ Zapier AI、Make AI）"
+      ],
+      "ja": [
+        "無料または低価格の汎用エージェントビルダーが欲しい（→ Flowise、Gumloop）",
+        "アプリ横断の本格的なワークフロー自動化が必要（→ Zapier AI、Make AI）"
+      ],
+      "es": [
+        "Quieres un constructor de agentes general gratuito o barato (→ Flowise, Gumloop)",
+        "Necesitas automatización profunda entre aplicaciones (→ Zapier AI, Make AI)"
+      ],
+      "fr": [
+        "Vous voulez un constructeur d'agents généraliste gratuit ou abordable (→ Flowise, Gumloop)",
+        "Vous avez besoin d'automatisation poussée entre applications (→ Zapier AI, Make AI)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-27",
+    "verdictDate": "2026-07-27",
+    "pricingVerified": "2026-07-27"
+  }
+}

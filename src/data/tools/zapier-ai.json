@@ -1,0 +1,28 @@
+{
+  "slug": "zapier-ai",
+  "name": "Zapier AI",
+  "nameZh": "Zapier AI",
+  "description": "AI 驱动的工作流自动化平台，连接 5000+ 应用",
+  "descriptionEn": "AI-powered workflow automation platform connecting 5000+ apps",
+  "descriptionJa": "AI駆動のワークフロー自動化プラットフォーム。5000以上のアプリと連携",
+  "descriptionEs": "Plataforma de automatización de flujos de trabajo impulsada por IA que conecta más de 5000 aplicaciones",
+  "descriptionFr": "Plateforme d'automatisation de flux de travail IA connectant plus de 5000 applications",
+  "url": "https://zapier.com/ai",
+  "logo": "/logos/tools/zapier-ai.png",
+  "category": "Automation",
+  "tags": [
+    "Freemium"
+  ],
+  "featured": false,
+  "developer": "Zapier",
+  "platforms": {
+    "web": true,
+    "windows": false,
+    "macos": false,
+    "ios": false,
+    "android": false,
+    "linux": false,
+    "browser_extension": true,
+    "api": true
+  }
+}

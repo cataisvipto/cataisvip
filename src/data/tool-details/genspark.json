@@ -1,0 +1,234 @@
+{
+  "features": {
+    "en": [
+      "Super Agent that plans and executes multi-step tasks from a single prompt",
+      "AI Slides, Docs, Sheets and Designer generate polished deliverables",
+      "Built-in image and video generation across top models",
+      "AI-native browser for Windows and Mac with on-device models and Autopilot mode",
+      "AI Call agent can make real phone calls for reservations and inquiries",
+      "Unlimited AI Chat and Image agents on paid plans with zero credit cost"
+    ],
+    "zh": [
+      "超级智能体：一句提示词即可规划并执行多步任务",
+      "AI 幻灯片、文档、表格、设计器直接产出成品交付物",
+      "内置调用多家顶级模型的图像与视频生成",
+      "Windows/Mac AI 原生浏览器：端侧模型 + Autopilot 自动驾驶模式",
+      "AI 电话智能体可真实拨打电话完成订位、咨询",
+      "付费版 AI 聊天与图像智能体不限量、零积分消耗"
+    ],
+    "ja": [
+      "一つのプロンプトからマルチステップタスクを計画・実行するスーパーエージェント",
+      "AIスライド、ドキュメント、シート、デザイナーが完成度の高い成果物を生成",
+      "トップモデルを横断する画像・動画生成を内蔵",
+      "オンデバイスモデルとAutopilotモードを備えたWindows/Mac向けAIネイティブブラウザ",
+      "AI通話エージェントが予約や問い合わせの実電話を代行",
+      "有料プランではAIチャットと画像エージェントがクレジット消費ゼロで使い放題"
+    ],
+    "es": [
+      "Super Agente que planifica y ejecuta tareas de varios pasos desde un solo prompt",
+      "AI Slides, Docs, Sheets y Designer generan entregables pulidos",
+      "Generación de imagen y vídeo integrada con los mejores modelos",
+      "Navegador IA nativo para Windows y Mac con modelos en el dispositivo y modo Autopilot",
+      "El agente AI Call puede hacer llamadas reales para reservas y consultas",
+      "Chat e imagen IA ilimitados en planes de pago sin coste de créditos"
+    ],
+    "fr": [
+      "Super Agent qui planifie et exécute des tâches multi-étapes depuis un seul prompt",
+      "AI Slides, Docs, Sheets et Designer produisent des livrables aboutis",
+      "Génération d'images et de vidéos intégrée via les meilleurs modèles",
+      "Navigateur IA natif pour Windows et Mac avec modèles embarqués et mode Autopilot",
+      "L'agent AI Call passe de vrais appels pour réservations et demandes",
+      "Chat et image IA illimités sur les offres payantes sans consommation de crédits"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Free plan: daily credits to try the Super Agent, slides, image and video features; AI browser download is free",
+      "zh": "免费版：每日积分可体验超级智能体、幻灯片、图像与视频功能；AI 浏览器免费下载",
+      "ja": "無料プラン：デイリークレジットでスーパーエージェント、スライド、画像・動画機能を試用可能。AIブラウザは無料ダウンロード",
+      "es": "Plan gratuito: créditos diarios para probar el Super Agente, diapositivas, imagen y vídeo; el navegador IA es de descarga gratuita",
+      "fr": "Offre gratuite : crédits quotidiens pour essayer le Super Agent, diapositives, image et vidéo ; le navigateur IA est téléchargeable gratuitement"
+    },
+    "paid": {
+      "en": "Plus $24.99/mo with 12,000 monthly credits and unlimited AI Chat/Image agents; Pro $249.99/mo with 125,000 credits, higher concurrency and priority access",
+      "zh": "Plus 24.99 美元/月：每月 12000 积分，AI 聊天/图像智能体不限量；Pro 249.99 美元/月：125000 积分、更高并发与优先访问",
+      "ja": "Plus 月24.99ドル：月12,000クレジット、AIチャット/画像エージェント使い放題。Pro 月249.99ドル：125,000クレジット、高い並列度と優先アクセス",
+      "es": "Plus 24,99 $/mes con 12.000 créditos mensuales y chat/imagen IA ilimitados; Pro 249,99 $/mes con 125.000 créditos, mayor concurrencia y acceso prioritario",
+      "fr": "Plus 24,99 $/mois avec 12 000 crédits mensuels et chat/image IA illimités ; Pro 249,99 $/mois avec 125 000 crédits, plus de simultanéité et accès prioritaire"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Turning a topic into a finished slide deck or report in minutes",
+      "Cross-format busywork: research → doc → sheet → visuals in one place",
+      "Hands-free web tasks via the AI browser Autopilot",
+      "Marketing assets: images, short videos and designs from prompts"
+    ],
+    "zh": [
+      "几分钟内把一个主题变成成品幻灯片或报告",
+      "跨格式杂活：调研 → 文档 → 表格 → 视觉物料一站完成",
+      "用 AI 浏览器 Autopilot 免手动完成网页任务",
+      "营销物料：提示词直出图像、短视频与设计"
+    ],
+    "ja": [
+      "トピックを数分で完成済みスライドやレポートに変換",
+      "リサーチ→ドキュメント→シート→ビジュアルまで一箇所で完結する横断作業",
+      "AIブラウザのAutopilotでハンズフリーのWebタスク",
+      "プロンプトから画像、ショート動画、デザインなどマーケティング素材を生成"
+    ],
+    "es": [
+      "Convertir un tema en una presentación o informe terminado en minutos",
+      "Trabajo multiformato: investigación → doc → hoja → visuales en un solo lugar",
+      "Tareas web sin manos con el Autopilot del navegador IA",
+      "Recursos de marketing: imágenes, vídeos cortos y diseños desde prompts"
+    ],
+    "fr": [
+      "Transformer un sujet en présentation ou rapport fini en quelques minutes",
+      "Travail multi-format : recherche → doc → tableau → visuels au même endroit",
+      "Tâches web mains libres via l’Autopilot du navigateur IA",
+      "Ressources marketing : images, vidéos courtes et designs à partir de prompts"
+    ]
+  },
+  "pros": {
+    "en": [
+      "True all-in-one: agent, office suite, image/video and browser under one roof",
+      "Deliverable quality of slides and docs is among the best in class",
+      "Unlimited chat/image on Plus softens the credit model",
+      "AI browser with on-device models is free and genuinely novel"
+    ],
+    "zh": [
+      "真正全家桶：智能体、办公套件、图像/视频、浏览器一站集齐",
+      "幻灯片与文档的成品质量属同类顶尖",
+      "Plus 版聊天/图像不限量，缓解积分制焦虑",
+      "带端侧模型的 AI 浏览器免费且确有新意"
+    ],
+    "ja": [
+      "エージェント、オフィススイート、画像/動画、ブラウザを一つ屋根の下に集めた真のオールインワン",
+      "スライドとドキュメントの成果物品質は同クラス最高水準",
+      "Plusのチャット/画像使い放題がクレジット制の不安を緩和",
+      "オンデバイスモデル搭載のAIブラウザは無料で真に新しい"
+    ],
+    "es": [
+      "Todo en uno real: agente, suite ofimática, imagen/vídeo y navegador bajo un mismo techo",
+      "La calidad de las diapositivas y documentos está entre las mejores",
+      "El chat/imagen ilimitado del Plus suaviza el modelo de créditos",
+      "El navegador IA con modelos en el dispositivo es gratis y realmente novedoso"
+    ],
+    "fr": [
+      "Véritable tout-en-un : agent, suite bureautique, image/vidéo et navigateur sous un même toit",
+      "La qualité des diapositives et documents est parmi les meilleures",
+      "Le chat/image illimité du Plus adoucit le modèle à crédits",
+      "Le navigateur IA avec modèles embarqués est gratuit et réellement novateur"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Credit costs for heavy tasks (long videos, big decks) add up fast",
+      "Pro tier at $249.99/mo is a steep jump from Plus",
+      "Output quality varies with the underlying model routed per task",
+      "No API offering for developers so far"
+    ],
+    "zh": [
+      "重度任务（长视频、大型幻灯片）积分消耗快",
+      "Pro 档 249.99 美元/月，与 Plus 档价差过大",
+      "产出质量随任务路由到的底层模型而波动",
+      "暂未向开发者提供 API"
+    ],
+    "ja": [
+      "重いタスク（長尺動画、大型スライド）はクレジット消費が速い",
+      "月249.99ドルのProはPlusからの価格差が大きい",
+      "タスクごとにルーティングされる基盤モデルにより出力品質が変動",
+      "現時点で開発者向けAPIの提供なし"
+    ],
+    "es": [
+      "Los créditos de tareas pesadas (vídeos largos, decks grandes) se agotan rápido",
+      "El nivel Pro de 249,99 $/mes es un salto grande desde Plus",
+      "La calidad varía según el modelo subyacente asignado a cada tarea",
+      "De momento no hay API para desarrolladores"
+    ],
+    "fr": [
+      "Les crédits des tâches lourdes (vidéos longues, grands decks) filent vite",
+      "L'offre Pro à 249,99 $/mois marque un gros écart avec Plus",
+      "La qualité varie selon le modèle sous-jacent routé par tâche",
+      "Pas d'API développeur à ce jour"
+    ]
+  },
+  "latestUpdate": {
+    "en": "2026: Genspark AI Browser launched for Windows and Mac with free on-device models, Autopilot mode and an MCP store; the workspace keeps expanding with AI Designer, Sheets and unlimited Chat/Image agents on paid plans",
+    "zh": "2026 年：Genspark AI 浏览器登陆 Windows 与 Mac，带免费端侧模型、Autopilot 模式与 MCP 商店；工作空间持续扩张，新增 AI Designer、表格，付费版聊天/图像智能体不限量",
+    "ja": "2026年：Genspark AIブラウザがWindowsとMacに登場。無料オンデバイスモデル、Autopilotモード、MCPストアを搭載。ワークスペースはAI Designer、シートを追加し、有料プランのチャット/画像エージェントは使い放題に",
+    "es": "2026: el navegador Genspark AI llegó a Windows y Mac con modelos gratuitos en el dispositivo, modo Autopilot y tienda MCP; el workspace sigue creciendo con AI Designer, Sheets y agentes de chat/imagen ilimitados en planes de pago",
+    "fr": "2026 : le navigateur Genspark AI est sorti sur Windows et Mac avec modèles embarqués gratuits, mode Autopilot et boutique MCP ; l'espace de travail s'étend avec AI Designer, Sheets et des agents chat/image illimités sur les offres payantes"
+  },
+  "verdict": {
+    "badge": "Worth Trying",
+    "headline": {
+      "en": "The most ambitious all-in-one AI workspace — mind the credit meter",
+      "zh": "最有野心的全能 AI 工作空间——但要盯紧积分表",
+      "ja": "最も野心的なオールインワンAIワークスペース——ただしクレジット残高に注意",
+      "es": "El workspace IA todo en uno más ambicioso: vigila el contador de créditos",
+      "fr": "L'espace de travail IA tout-en-un le plus ambitieux — surveillez le compteur de crédits"
+    },
+    "body": {
+      "en": "Genspark bundles a super agent, an office suite, media generation and even an AI browser into one subscription, and the finished quality of its slides and docs regularly beats single-purpose rivals. The catch is the credit economy: light users thrive on Free or Plus, while heavy video or deck generation burns credits quickly. Try the free tier and the browser first — they show the vision at zero cost.",
+      "zh": "Genspark 把超级智能体、办公套件、媒体生成乃至 AI 浏览器打包进一份订阅，其幻灯片与文档的成品质量常常胜过单一用途的对手。代价是积分经济：轻度用户在免费或 Plus 档如鱼得水，重度视频/幻灯片生成则烧分很快。建议先试免费档和 AI 浏览器——零成本即可看清它的野心。",
+      "ja": "Gensparkはスーパーエージェント、オフィススイート、メディア生成、さらにAIブラウザまでを一つのサブスクにまとめ、スライドやドキュメントの完成品質は単機能の競合をしばしば上回る。問題はクレジット経済：ライトユーザーは無料かPlusで十分だが、動画や大型スライドの多用はクレジットを急速に消費する。まず無料枠とブラウザを試すべし——コストゼロでそのビジョンが分かる。",
+      "es": "Genspark reúne un super agente, una suite ofimática, generación de medios e incluso un navegador IA en una sola suscripción, y la calidad final de sus diapositivas y documentos supera a menudo a rivales de propósito único. La pega es la economía de créditos: los usuarios ligeros van sobrados con Free o Plus, mientras que la generación intensiva de vídeo o decks quema créditos rápido. Prueba primero el nivel gratuito y el navegador: muestran la visión a coste cero.",
+      "fr": "Genspark réunit super agent, suite bureautique, génération de médias et même un navigateur IA dans un seul abonnement, et la qualité finale de ses diapositives et documents dépasse souvent les rivaux monofonctions. Le hic : l'économie de crédits. Les utilisateurs légers s'épanouissent en Free ou Plus, tandis que la génération intensive de vidéos ou de decks brûle les crédits rapidement. Essayez d'abord l'offre gratuite et le navigateur — ils montrent la vision à coût nul."
+    },
+    "bestFor": {
+      "en": [
+        "Knowledge workers turning topics into slides, docs and sheets",
+        "Marketing teams generating images, short videos and designs",
+        "Hands-free web tasks via the AI browser Autopilot"
+      ],
+      "zh": [
+        "把主题直接变成幻灯片、文档与表格的知识工作者",
+        "批量产出图像、短视频与设计的营销团队",
+        "用 AI 浏览器 Autopilot 免手动完成网页任务"
+      ],
+      "ja": [
+        "トピックをスライド・ドキュメント・シートに変換する知識労働者",
+        "画像・ショート動画・デザインを量産するマーケティングチーム",
+        "AIブラウザのAutopilotによるハンズフリーのWebタスク"
+      ],
+      "es": [
+        "Trabajadores del conocimiento que convierten temas en diapositivas, docs y hojas",
+        "Equipos de marketing que generan imágenes, vídeos cortos y diseños",
+        "Tareas web sin manos con el Autopilot del navegador IA"
+      ],
+      "fr": [
+        "Travailleurs du savoir transformant des sujets en diapositives, docs et tableaux",
+        "Équipes marketing générant images, vidéos courtes et designs",
+        "Tâches web mains libres via l’Autopilot du navigateur IA"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You need developer APIs and pipelines (→ CrewAI, Browser Use)",
+        "You want a research-first agent (→ Manus, Perplexity)"
+      ],
+      "zh": [
+        "你需要开发者 API 与管线（→ CrewAI、Browser Use）",
+        "你要研究优先的智能体（→ Manus、Perplexity）"
+      ],
+      "ja": [
+        "開発者向けAPIとパイプラインが必要（→ CrewAI、Browser Use）",
+        "リサーチ優先のエージェントが欲しい（→ Manus、Perplexity）"
+      ],
+      "es": [
+        "Necesitas APIs y pipelines para desarrolladores (→ CrewAI, Browser Use)",
+        "Quieres un agente centrado en investigación (→ Manus, Perplexity)"
+      ],
+      "fr": [
+        "Vous avez besoin d’APIs développeur et de pipelines (→ CrewAI, Browser Use)",
+        "Vous voulez un agent axé recherche (→ Manus, Perplexity)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-27",
+    "verdictDate": "2026-07-27",
+    "pricingVerified": "2026-07-27"
+  }
+}

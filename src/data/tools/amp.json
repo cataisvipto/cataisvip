@@ -1,0 +1,29 @@
+{
+  "slug": "amp",
+  "name": "Amp",
+  "nameZh": "Amp",
+  "description": "源自 Sourcegraph、2025 年底拆分独立的激进 agentic 编码工具，Orbs 云端并行代理、The Dial 四档力度旋钮与多模型调度走在最前沿，CLI+Web 形态，订阅 Megawatt $20/月起（免费档已暂停新注册）",
+  "descriptionEn": "The radically fast-moving agentic coding tool spun out of Sourcegraph in late 2025: Orbs run parallel agents on cloud machines, The Dial sets four effort levels with multi-model scheduling, all in a CLI + web form factor — subscriptions from Megawatt at $20/month (the free tier is closed to new signups for now)",
+  "descriptionJa": "Sourcegraphから2025年末に分社した先鋭的なagenticコーディングツール。Orbsがクラウド上で並列エージェントを走らせ、The Dialが4段階の力加減とマルチモデル調度を制御。CLI+Web形態。サブスクリプションはMegawatt月$20から（無料枠は現在新規受付停止中）",
+  "descriptionEs": "La herramienta de codificación agéntica radicalmente veloz escindida de Sourcegraph a finales de 2025: los Orbs ejecutan agentes en paralelo en máquinas cloud y The Dial regula cuatro niveles de esfuerzo con orquestación multimodelo, en formato CLI + web — suscripciones desde Megawatt a $20/mes (el nivel gratuito está cerrado a nuevos registros por ahora)",
+  "descriptionFr": "L'outil de codage agentique ultra-réactif issu de la scission de Sourcegraph fin 2025 : les Orbs font tourner des agents en parallèle sur des machines cloud et The Dial règle quatre niveaux d'effort avec orchestration multi-modèles, le tout en CLI + web — abonnements dès Megawatt à 20 $/mois (l'offre gratuite est fermée aux nouvelles inscriptions pour l'instant)",
+  "url": "https://ampcode.com",
+  "logo": "/logos/tools/amp.ico",
+  "category": "Code",
+  "tags": [
+    "Paid",
+    "API"
+  ],
+  "featured": false,
+  "developer": "Amp, Inc. (spun out of Sourcegraph)",
+  "platforms": {
+    "web": true,
+    "windows": true,
+    "macos": true,
+    "ios": false,
+    "android": false,
+    "linux": true,
+    "browser_extension": false,
+    "api": true
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "slug": "excel-mcp",
+  "name": "Excel MCP Server",
+  "nameZh": "Excel MCP 服务器",
+  "description": "让 AI 智能体读写 Excel 文件的 MCP 服务器。支持创建和编辑电子表格、读写单元格数据、应用公式和格式，让智能体直接操作 .xlsx 文件。",
+  "descriptionEn": "An MCP server that lets AI agents read and write Excel files. Supports creating and editing spreadsheets, reading and writing cell data, applying formulas and formatting — letting agents directly manipulate .xlsx files.",
+  "descriptionJa": "AI エージェントが Excel ファイルを読み書きできる MCP サーバー。スプレッドシートの作成・編集、セルデータの読み書き、数式や書式の適用をサポートし、エージェントが .xlsx ファイルを直接操作できます。",
+  "descriptionEs": "Un servidor MCP que permite a los agentes de IA leer y escribir archivos de Excel. Soporta la creación y edición de hojas de cálculo, lectura y escritura de datos en celdas, aplicación de fórmulas y formato — permitiendo a los agentes manipular archivos .xlsx directamente.",
+  "descriptionFr": "Un serveur MCP qui permet aux agents IA de lire et écrire des fichiers Excel. Prend en charge la création et l'édition de feuilles de calcul, la lecture et l'écriture de données dans les cellules, l'application de formules et de formatage — permettant aux agents de manipuler directement les fichiers .xlsx.",
+  "developer": "haris-musa",
+  "developerZh": "haris-musa",
+  "repo": "haris-musa/excel-mcp-server",
+  "clients": [
+    "claude",
+    "cursor",
+    "vscode",
+    "codex",
+    "generic"
+  ],
+  "category": "Productivity",
+  "tags": [
+    "Free",
+    "Open Source"
+  ],
+  "installCommand": "npx -y excel-mcp-server",
+  "logo": "/logos/mcp/excel-mcp.png",
+  "stars": 4156,
+  "featured": false,
+  "faqs": [
+    {
+      "question": {
+        "zh": "Excel MCP 能做什么？",
+        "en": "What can Excel MCP do?",
+        "ja": "Excel MCP は何ができますか？",
+        "es": "¿Qué puede hacer Excel MCP?",
+        "fr": "Que peut faire Excel MCP ?"
+      },
+      "answer": {
+        "zh": "让 AI 智能体直接操作 Excel 文件：创建新工作簿、读写单元格数据、应用公式和函数、设置单元格格式（颜色、字体、边框）、创建图表、合并单元格、排序和筛选数据。告别手动操作 Excel 的繁琐。",
+        "en": "Lets AI agents directly manipulate Excel files: create new workbooks, read/write cell data, apply formulas and functions, set cell formatting (colors, fonts, borders), create charts, merge cells, sort and filter data. Say goodbye to manual Excel drudgery.",
+        "ja": "AI エージェントが Excel ファイルを直接操作できます：新しいワークブックの作成、セルデータの読み書き、数式や関数の適用、セルの書式設定（色、フォント、罫線）、グラフ作成、セルの結合、データの並べ替えとフィルター。面倒な手動の Excel 操作から解放されます。",
+        "es": "Permite a los agentes de IA manipular directamente archivos de Excel: crear nuevos libros, leer/escribir datos en celdas, aplicar fórmulas y funciones, establecer formato de celdas (colores, fuentes, bordes), crear gráficos, combinar celdas, ordenar y filtrar datos. Olvídate del tedioso trabajo manual con Excel.",
+        "fr": "Permet aux agents IA de manipuler directement des fichiers Excel : créer des classeurs, lire/écrire des données dans les cellules, appliquer des formules et fonctions, définir le formatage des cellules (couleurs, polices, bordures), créer des graphiques, fusionner des cellules, trier et filtrer des données. Fini la corvée manuelle d'Excel."
+      }
+    },
+    {
+      "question": {
+        "zh": "Excel MCP 怎么安装？",
+        "en": "How do I install Excel MCP?",
+        "ja": "Excel MCP のインストール方法は？",
+        "es": "¿Cómo instalo Excel MCP?",
+        "fr": "Comment installer Excel MCP ?"
+      },
+      "answer": {
+        "zh": "运行 npx -y excel-mcp-server 即可启动。在 Claude Code 中用 claude mcp add excel -- npx -y excel-mcp-server 注册，或粘贴到 Cursor 的 MCP 设置中。启动后智能体就能读写本地的 Excel 文件。",
+        "en": "Run npx -y excel-mcp-server to start. Register it in Claude Code with claude mcp add excel -- npx -y excel-mcp-server, or paste into Cursor's MCP settings. Once running, your agent can read and write local Excel files.",
+        "ja": "npx -y excel-mcp-server を実行するだけです。Claude Code では claude mcp add excel -- npx -y excel-mcp-server で登録、Cursor の MCP 設定に貼り付けます。起動後、エージェントはローカルの Excel ファイルを読み書きできるようになります。",
+        "es": "Ejecuta npx -y excel-mcp-server para iniciarlo. Regístralo en Claude Code con claude mcp add excel -- npx -y excel-mcp-server, o pégalo en los ajustes MCP de Cursor. Una vez en funcionamiento, tu agente podrá leer y escribir archivos Excel locales.",
+        "fr": "Exécutez npx -y excel-mcp-server pour le lancer. Enregistrez-le dans Claude Code avec claude mcp add excel -- npx -y excel-mcp-server, ou collez-le dans les réglages MCP de Cursor. Une fois lancé, votre agent peut lire et écrire des fichiers Excel locaux."
+      }
+    },
+    {
+      "question": {
+        "zh": "Excel MCP 支持中文吗？能处理中文表格吗？",
+        "en": "Does Excel MCP support Chinese? Can it handle Chinese spreadsheets?",
+        "ja": "Excel MCP は中国語に対応していますか？中国語のスプレッドシートを処理できますか？",
+        "es": "¿Excel MCP soporta chino? ¿Puede manejar hojas de cálculo en chino?",
+        "fr": "Excel MCP supporte-t-il le chinois ? Peut-il traiter des feuilles de calcul chinoises ?"
+      },
+      "answer": {
+        "zh": "完全支持。Excel MCP 基于 Node.js 的 ExcelJS 库，天然支持 Unicode，包括中文、日文等双字节字符。可以正确读写含中文内容的单元格、公式和图表。",
+        "en": "Fully supported. Excel MCP is built on the Node.js ExcelJS library, which natively supports Unicode including Chinese, Japanese, and other multi-byte characters. It can correctly read and write cells, formulas, and charts containing Chinese content.",
+        "ja": "完全対応しています。Excel MCP は Node.js の ExcelJS ライブラリをベースにしており、中国語、日本語などのマルチバイト文字を含む Unicode をネイティブサポートしています。中国語のコンテンツを含むセル、数式、グラフを正しく読み書きできます。",
+        "es": "Completamente soportado. Excel MCP está construido sobre la librería ExcelJS de Node.js, que soporta Unicode de forma nativa, incluyendo caracteres chinos, japoneses y otros multibyte. Puede leer y escribir correctamente celdas, fórmulas y gráficos con contenido chino.",
+        "fr": "Entièrement pris en charge. Excel MCP est construit sur la bibliothèque ExcelJS de Node.js, qui supporte nativement Unicode, y compris les caractères chinois, japonais et autres caractères multi-octets. Il peut lire et écrire correctement les cellules, formules et graphiques contenant du contenu chinois."
+      }
+    }
+  ]
+}

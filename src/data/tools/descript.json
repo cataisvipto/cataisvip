@@ -1,0 +1,28 @@
+{
+  "slug": "descript",
+  "name": "Descript",
+  "nameZh": "Descript",
+  "description": "AI 视频和播客编辑工具，像编辑文档一样编辑视频",
+  "descriptionEn": "AI video and podcast editor that edits video like a document",
+  "descriptionJa": "AI動画・ポッドキャスト編集ツール。ドキュメントのように動画を編集",
+  "descriptionEs": "Editor de video y podcast IA que edita video como un documento",
+  "descriptionFr": "Éditeur vidéo et podcast IA qui modifie la vidéo comme un document",
+  "url": "https://www.descript.com",
+  "logo": "/logos/tools/descript.png",
+  "category": "Video",
+  "tags": [
+    "Freemium"
+  ],
+  "featured": false,
+  "developer": "Descript",
+  "platforms": {
+    "web": true,
+    "windows": true,
+    "macos": true,
+    "ios": "unknown",
+    "android": "unknown",
+    "linux": false,
+    "browser_extension": false,
+    "api": true
+  }
+}

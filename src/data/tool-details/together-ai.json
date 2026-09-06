@@ -1,0 +1,235 @@
+{
+  "features": {
+    "en": [
+      "Serverless inference for 200+ open-source models: Llama, DeepSeek, Qwen, Kimi and more",
+      "OpenAI-compatible API — switch providers by changing one base URL",
+      "Fine-tuning service with LoRA and full-parameter options",
+      "Dedicated endpoints with per-minute GPU billing for steady workloads",
+      "GPU clusters (H100/H200/B200) rentable from $1.49/hr for training",
+      "Batch inference at 50% discount plus a free tier of models to prototype on"
+    ],
+    "zh": [
+      "200+ 开源模型的 Serverless 推理：Llama、DeepSeek、Qwen、Kimi 等",
+      "OpenAI 兼容 API——改一个 base URL 即可切换供应商",
+      "微调服务，支持 LoRA 与全参数微调",
+      "专属端点按分钟计费 GPU，适合稳定负载",
+      "GPU 集群（H100/H200/B200）$1.49/小时起，可用于训练",
+      "批量推理五折优惠，另有免费模型档可做原型验证"
+    ],
+    "ja": [
+      "200以上のオープンソースモデルのサーバーレス推論：Llama、DeepSeek、Qwen、Kimiなど",
+      "OpenAI互換API——ベースURLを変えるだけでプロバイダーを切り替え可能",
+      "LoRAとフルパラメータに対応するファインチューニングサービス",
+      "安定したワークロード向けに分単位のGPU課金による専用エンドポイント",
+      "トレーニング用GPUクラスター（H100/H200/B200）を$1.49/時から利用可能",
+      "バッチ推論は50%割引、プロトタイプ用の無料モデル枠もあり"
+    ],
+    "es": [
+      "Inferencia serverless para más de 200 modelos open source: Llama, DeepSeek, Qwen, Kimi y más",
+      "API compatible con OpenAI: cambia de proveedor modificando una sola URL base",
+      "Servicio de fine-tuning con opciones LoRA y de parámetros completos",
+      "Endpoints dedicados con facturación de GPU por minuto para cargas estables",
+      "Clústeres de GPU (H100/H200/B200) alquilables desde $1.49/hora para entrenamiento",
+      "Inferencia por lotes con 50% de descuento y un nivel gratuito de modelos para prototipar"
+    ],
+    "fr": [
+      "Inférence serverless pour plus de 200 modèles open source : Llama, DeepSeek, Qwen, Kimi et plus",
+      "API compatible OpenAI — changez de fournisseur en modifiant une seule URL de base",
+      "Service de fine-tuning avec options LoRA et paramètres complets",
+      "Endpoints dédiés avec facturation GPU à la minute pour les charges stables",
+      "Clusters GPU (H100/H200/B200) louables dès 1,49 $/h pour l'entraînement",
+      "Inférence par lots à 50 % de réduction et un niveau gratuit de modèles pour prototyper"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "A free tier of selected models (including Llama-family endpoints) lets you build and test without a credit card; new accounts also get starter credits.",
+      "zh": "精选模型免费档（含 Llama 系端点）无需信用卡即可开发测试；新账号另有入门额度。",
+      "ja": "厳選モデルの無料枠（Llama系エンドポイントを含む）でクレジットカードなしで開発・テスト可能。新規アカウントにはスタータークレジットも付与。",
+      "es": "Un nivel gratuito de modelos seleccionados (incluidos endpoints de la familia Llama) permite construir y probar sin tarjeta de crédito; las cuentas nuevas también reciben créditos iniciales.",
+      "fr": "Un niveau gratuit de modèles sélectionnés (dont des endpoints de la famille Llama) permet de développer et tester sans carte bancaire ; les nouveaux comptes reçoivent aussi des crédits de départ."
+    },
+    "paid": {
+      "en": "Pay-as-you-go token pricing roughly from $0.03 to $4.50 per million tokens depending on model size; batch inference is 50% off; dedicated endpoints bill GPU time per minute; GPU clusters start at $1.49/hr per GPU with reserved discounts. (Verified against the official pricing page, 2026-07-28.)",
+      "zh": "按量 token 计价，依模型大小约 $0.03–$4.50/百万 token；批量推理五折；专属端点按分钟计 GPU 时长；GPU 集群每卡 $1.49/小时起，预留另有折扣。（对照官方定价页核实，2026-07-28。）",
+      "ja": "従量課金のトークン単価はモデルサイズにより約$0.03〜$4.50/100万トークン。バッチ推論は50%オフ。専用エンドポイントはGPU時間を分単位で課金。GPUクラスターは1GPUあたり$1.49/時から、リザーブ割引あり。（公式価格ページと照合、2026-07-28。）",
+      "es": "Precios por token de pago por uso desde aproximadamente $0.03 hasta $4.50 por millón de tokens según el tamaño del modelo; la inferencia por lotes tiene 50% de descuento; los endpoints dedicados facturan tiempo de GPU por minuto; los clústeres de GPU parten de $1.49/hora por GPU con descuentos por reserva. (Verificado con la página oficial de precios, 2026-07-28.)",
+      "fr": "Tarification au token à l'usage d'environ 0,03 $ à 4,50 $ par million de tokens selon la taille du modèle ; l'inférence par lots est à moitié prix ; les endpoints dédiés facturent le temps GPU à la minute ; les clusters GPU démarrent à 1,49 $/h par GPU avec remises sur réservation. (Vérifié avec la page tarifaire officielle, 2026-07-28.)"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Running open-source LLMs in production without managing GPUs",
+      "Cutting inference bills by swapping GPT-class calls to open models",
+      "Fine-tuning Llama/Qwen-class models on proprietary data",
+      "Training runs on rented H100/H200 clusters without long contracts"
+    ],
+    "zh": [
+      "在生产环境跑开源 LLM，无需自管 GPU",
+      "把 GPT 级调用换成开源模型，削减推理账单",
+      "用私有数据微调 Llama/Qwen 级模型",
+      "租用 H100/H200 集群做训练，无需长约"
+    ],
+    "ja": [
+      "GPUを自前管理せずにオープンソースLLMを本番運用",
+      "GPT級の呼び出しをオープンモデルに置き換えて推論コストを削減",
+      "独自データでLlama/Qwen級モデルをファインチューニング",
+      "長期契約なしでH100/H200クラスターを借りてトレーニング"
+    ],
+    "es": [
+      "Ejecutar LLMs open source en producción sin gestionar GPUs",
+      "Reducir la factura de inferencia cambiando llamadas de clase GPT a modelos abiertos",
+      "Hacer fine-tuning de modelos clase Llama/Qwen con datos propios",
+      "Entrenamientos en clústeres H100/H200 alquilados sin contratos largos"
+    ],
+    "fr": [
+      "Exécuter des LLM open source en production sans gérer de GPU",
+      "Réduire la facture d'inférence en remplaçant les appels de classe GPT par des modèles ouverts",
+      "Fine-tuner des modèles de classe Llama/Qwen sur des données propriétaires",
+      "Entraîner sur des clusters H100/H200 loués sans contrat long"
+    ]
+  },
+  "pros": {
+    "en": [
+      "One of the broadest open-model catalogs, updated within days of releases",
+      "Serious research pedigree (FlashAttention lineage) shows in inference speed",
+      "Full ladder from free tier to serverless to dedicated GPUs to clusters",
+      "Transparent per-token pricing that routinely undercuts closed-model APIs"
+    ],
+    "zh": [
+      "开源模型目录之广数一数二，新模型发布数日内即上架",
+      "扎实的研究底蕴（FlashAttention 一脉）体现在推理速度上",
+      "从免费档、Serverless、专属 GPU 到集群的完整阶梯",
+      "透明的按 token 计价，常常低于闭源模型 API"
+    ],
+    "ja": [
+      "最も幅広いオープンモデルカタログの一つで、リリースから数日で追加",
+      "本格的な研究の系譜（FlashAttentionの流れ）が推論速度に表れている",
+      "無料枠からサーバーレス、専用GPU、クラスターまでの完全なはしご",
+      "クローズドモデルAPIをしばしば下回る透明なトークン単価"
+    ],
+    "es": [
+      "Uno de los catálogos de modelos abiertos más amplios, actualizado a días de cada lanzamiento",
+      "Un pedigrí de investigación serio (linaje FlashAttention) que se nota en la velocidad de inferencia",
+      "Escalera completa: nivel gratuito, serverless, GPUs dedicadas y clústeres",
+      "Precios por token transparentes que suelen estar por debajo de las APIs de modelos cerrados"
+    ],
+    "fr": [
+      "L'un des catalogues de modèles ouverts les plus larges, mis à jour quelques jours après chaque sortie",
+      "Un pedigree de recherche sérieux (lignée FlashAttention) visible dans la vitesse d'inférence",
+      "Échelle complète : niveau gratuit, serverless, GPU dédiés et clusters",
+      "Tarification au token transparente, souvent inférieure aux API de modèles fermés"
+    ]
+  },
+  "cons": {
+    "en": [
+      "No proprietary frontier models — you trade peak capability for cost and control",
+      "Per-model pricing spread means bills need monitoring as you switch models",
+      "Dedicated endpoints and clusters push you into infrastructure decisions",
+      "Fierce competition (Fireworks, Groq, DeepInfra) keeps feature parity shifting"
+    ],
+    "zh": [
+      "没有闭源前沿模型——用峰值能力换成本与掌控",
+      "各模型价差大，切换模型时账单需要盯紧",
+      "专属端点与集群会把你推入基础设施决策",
+      "竞争激烈（Fireworks、Groq、DeepInfra），功能差距随时在变"
+    ],
+    "ja": [
+      "独自のフロンティアモデルはない——最高性能をコストとコントロールと引き換えにする",
+      "モデルごとの価格差が大きく、モデルを切り替える際は請求を監視する必要がある",
+      "専用エンドポイントとクラスターはインフラの意思決定を迫る",
+      "激しい競争（Fireworks、Groq、DeepInfra）で機能面の優位は常に変動する"
+    ],
+    "es": [
+      "Sin modelos frontera propietarios: cambias capacidad máxima por coste y control",
+      "La dispersión de precios por modelo obliga a vigilar la factura al cambiar de modelo",
+      "Los endpoints dedicados y clústeres te empujan a decisiones de infraestructura",
+      "La competencia feroz (Fireworks, Groq, DeepInfra) mantiene la paridad de funciones en movimiento"
+    ],
+    "fr": [
+      "Pas de modèles frontière propriétaires — vous échangez la capacité maximale contre coût et contrôle",
+      "L'écart de prix entre modèles impose de surveiller la facture quand on change de modèle",
+      "Endpoints dédiés et clusters vous poussent vers des décisions d'infrastructure",
+      "La concurrence féroce (Fireworks, Groq, DeepInfra) fait bouger la parité fonctionnelle en permanence"
+    ]
+  },
+  "latestUpdate": {
+    "en": "2026: Together AI keeps racing model releases — DeepSeek, Qwen, Kimi and Llama variants appear on the platform within days — while building out the compute ladder: batch inference at half price, fine-tuning upgrades, and B200/H200 GPU clusters from $1.49/hr alongside its serverless API.",
+    "zh": "2026 年：Together AI 持续追平模型发布节奏——DeepSeek、Qwen、Kimi 与 Llama 变体数日内即上架——同时把算力阶梯做全：批量推理半价、微调升级、B200/H200 GPU 集群 $1.49/小时起，与 Serverless API 并行。",
+    "ja": "2026年：Together AIはモデルリリースへの追随を続けている——DeepSeek、Qwen、Kimi、Llamaの各バリアントが数日以内にプラットフォームに登場——同時にコンピュートのはしごを拡充：バッチ推論半額、ファインチューニングの強化、サーバーレスAPIと並ぶ$1.49/時からのB200/H200 GPUクラスター。",
+    "es": "2026: Together AI sigue el ritmo de los lanzamientos de modelos —variantes de DeepSeek, Qwen, Kimi y Llama aparecen en la plataforma en días— mientras completa la escalera de cómputo: inferencia por lotes a mitad de precio, mejoras de fine-tuning y clústeres GPU B200/H200 desde $1.49/hora junto a su API serverless.",
+    "fr": "2026 : Together AI suit le rythme des sorties de modèles — les variantes DeepSeek, Qwen, Kimi et Llama arrivent sur la plateforme en quelques jours — tout en complétant l'échelle de calcul : inférence par lots à moitié prix, fine-tuning amélioré et clusters GPU B200/H200 dès 1,49 $/h aux côtés de son API serverless."
+  },
+  "verdict": {
+    "badge": "Recommended",
+    "headline": {
+      "en": "The default on-ramp for running open-source models in production",
+      "zh": "把开源模型跑进生产环境的默认入口",
+      "ja": "オープンソースモデルを本番運用するためのデフォルトの入口",
+      "es": "La rampa de entrada por defecto para ejecutar modelos open source en producción",
+      "fr": "La rampe d'accès par défaut pour exécuter des modèles open source en production"
+    },
+    "body": {
+      "en": "Together AI has quietly become the answer to a very common question: how do we use open-source models without hiring an infrastructure team? The catalog is enormous and refreshingly current — new DeepSeek, Qwen or Llama releases show up within days — the API speaks fluent OpenAI so migration is a one-line change, and the pricing ladder is honest: free models to prototype, cheap serverless tokens to launch, dedicated endpoints when latency matters, and $1.49/hr GPU clusters when you outgrow all of it. The research pedigree behind FlashAttention shows up as real-world speed rather than marketing. The trade-offs are structural, not incidental: there are no proprietary frontier models here, so peak-capability workloads still belong elsewhere, and the per-model pricing spread rewards teams that actually watch their bills. Rivals like Fireworks and Groq win specific races on speed or niche models. But as the single vendor most likely to have the open model you want, at a fair price, behind an API you already know — Together is the safest first pick in the category.",
+      "zh": "Together AI 悄然成为一个高频问题的标准答案：不养基础设施团队，怎么用上开源模型？它的目录庞大且新鲜得令人愉快——DeepSeek、Qwen、Llama 的新版本数日内就会上架；API 说一口流利的 OpenAI 方言，迁移只需改一行；定价阶梯也很诚实：免费模型做原型、廉价 Serverless token 上线、延迟敏感时上专属端点、全都不够用了还有 $1.49/小时的 GPU 集群。FlashAttention 背后的研究底蕴，体现为真实的速度而非营销话术。它的取舍是结构性的而非偶然的：这里没有闭源前沿模型，峰值能力型任务仍得去别处；各模型价差大，会看账单的团队才占便宜。Fireworks、Groq 这些对手会在速度或小众模型的单项赛里赢它。但要论「你想要的那个开源模型它最可能有、价格公道、API 你还早就会用」，Together 是这个品类里最稳的首选。",
+      "ja": "Together AIは、とてもよくある問いへの答えに静かになった。インフラチームを雇わずにオープンソースモデルをどう使うか？カタログは膨大で気持ちよいほど新しい——DeepSeek、Qwen、Llamaの新リリースは数日で並ぶ。APIは流暢なOpenAI方言を話すので移行は1行の変更で済む。価格のはしごも誠実だ。無料モデルでプロトタイプし、安価なサーバーレストークンでローンチし、レイテンシが重要なら専用エンドポイント、それでも足りなければ$1.49/時のGPUクラスター。FlashAttentionを生んだ研究の系譜は、マーケティングではなく実際の速度として現れる。トレードオフは構造的なものだ。ここに独自のフロンティアモデルはなく、最高性能が要る仕事は他所に頼ることになる。モデル間の価格差は、請求をきちんと見るチームに報いる。FireworksやGroqは速度やニッチモデルの個別勝負で勝つこともある。しかし「欲しいオープンモデルが最も揃っていて、価格が公正で、APIは既に知っている」という一社を選ぶなら、Togetherがこのカテゴリで最も安全な第一候補だ。",
+      "es": "Together AI se ha convertido en silencio en la respuesta a una pregunta muy común: ¿cómo usamos modelos open source sin contratar un equipo de infraestructura? El catálogo es enorme y refrescantemente actual —los nuevos DeepSeek, Qwen o Llama aparecen en días—, la API habla OpenAI con fluidez así que migrar es cambiar una línea, y la escalera de precios es honesta: modelos gratis para prototipar, tokens serverless baratos para lanzar, endpoints dedicados cuando importa la latencia y clústeres GPU a $1.49/hora cuando todo lo demás se queda corto. El pedigrí de investigación tras FlashAttention se traduce en velocidad real, no en marketing. Las contrapartidas son estructurales: aquí no hay modelos frontera propietarios, así que las cargas de capacidad máxima siguen perteneciendo a otros, y la dispersión de precios por modelo premia a los equipos que vigilan su factura. Rivales como Fireworks y Groq ganan carreras concretas en velocidad o modelos de nicho. Pero como el proveedor único con más probabilidades de tener el modelo abierto que quieres, a un precio justo y tras una API que ya conoces, Together es la primera elección más segura de la categoría.",
+      "fr": "Together AI est discrètement devenu la réponse à une question très courante : comment utiliser des modèles open source sans embaucher une équipe d'infrastructure ? Le catalogue est énorme et d'une fraîcheur réjouissante — les nouveaux DeepSeek, Qwen ou Llama arrivent en quelques jours —, l'API parle couramment OpenAI donc la migration tient en une ligne, et l'échelle tarifaire est honnête : modèles gratuits pour prototyper, tokens serverless bon marché pour lancer, endpoints dédiés quand la latence compte, et clusters GPU à 1,49 $/h quand tout cela ne suffit plus. Le pedigree de recherche derrière FlashAttention se traduit en vitesse réelle plutôt qu'en marketing. Les compromis sont structurels : pas de modèles frontière propriétaires ici, donc les charges exigeant la capacité maximale restent ailleurs, et l'écart de prix entre modèles récompense les équipes qui surveillent leur facture. Des rivaux comme Fireworks et Groq gagnent des courses précises en vitesse ou sur des modèles de niche. Mais comme fournisseur unique le plus susceptible d'avoir le modèle ouvert que vous voulez, à un prix juste, derrière une API que vous connaissez déjà — Together est le premier choix le plus sûr de la catégorie."
+    },
+    "bestFor": {
+      "en": [
+        "Teams moving from closed-model APIs to open models for cost or control",
+        "Developers who want one API covering LLMs, vision and image models",
+        "Startups fine-tuning and serving custom models without owning GPUs"
+      ],
+      "zh": [
+        "为了成本或掌控从闭源 API 迁向开源模型的团队",
+        "想用一个 API 覆盖 LLM、视觉与图像模型的开发者",
+        "不买 GPU 也要微调并部署自有模型的创业公司"
+      ],
+      "ja": [
+        "コストやコントロールのためにクローズドAPIからオープンモデルへ移行するチーム",
+        "LLM・ビジョン・画像モデルを一つのAPIでカバーしたい開発者",
+        "GPUを所有せずにカスタムモデルをファインチューニングして提供するスタートアップ"
+      ],
+      "es": [
+        "Equipos que migran de APIs de modelos cerrados a modelos abiertos por coste o control",
+        "Desarrolladores que quieren una sola API para LLMs, visión y modelos de imagen",
+        "Startups que hacen fine-tuning y sirven modelos propios sin poseer GPUs"
+      ],
+      "fr": [
+        "Équipes passant des API de modèles fermés aux modèles ouverts pour le coût ou le contrôle",
+        "Développeurs voulant une seule API couvrant LLM, vision et modèles d'image",
+        "Startups qui fine-tunent et servent des modèles personnalisés sans posséder de GPU"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You need frontier-model capability above all (→ OpenAI / Anthropic / Gemini APIs)",
+        "Your workload is generative media rather than LLMs (→ Fal.ai / Replicate)"
+      ],
+      "zh": [
+        "你最需要的是前沿模型能力（→ OpenAI / Anthropic / Gemini API）",
+        "你的负载是生成式媒体而非 LLM（→ Fal.ai / Replicate）"
+      ],
+      "ja": [
+        "何よりフロンティアモデルの能力が必要（→ OpenAI / Anthropic / Gemini API）",
+        "ワークロードがLLMではなく生成メディア（→ Fal.ai / Replicate）"
+      ],
+      "es": [
+        "Necesitas capacidad de modelo frontera por encima de todo (→ APIs de OpenAI / Anthropic / Gemini)",
+        "Tu carga de trabajo es media generativa más que LLMs (→ Fal.ai / Replicate)"
+      ],
+      "fr": [
+        "Vous avez avant tout besoin de capacités de modèles frontière (→ API OpenAI / Anthropic / Gemini)",
+        "Votre charge de travail est du média génératif plutôt que des LLM (→ Fal.ai / Replicate)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-28",
+    "verdictDate": "2026-07-28",
+    "pricingVerified": "2026-07-28",
+    "pricingUrl": "https://www.together.ai/pricing"
+  }
+}

@@ -1,0 +1,234 @@
+{
+  "features": {
+    "en": [
+      "Small, efficient enterprise models (1B–34B class)",
+      "Apache 2.0 license for unrestricted commercial use",
+      "Hybrid Mamba-Transformer architecture (Granite 4)",
+      "Guardian models for safety and hallucination checks",
+      "Runs on watsonx, Hugging Face, Ollama and vLLM",
+      "ISO 42001 certified responsible AI development"
+    ],
+    "zh": [
+      "小而高效的企业级模型（1B–34B 级别）",
+      "Apache 2.0 许可，商用无限制",
+      "混合 Mamba-Transformer 架构（Granite 4）",
+      "Guardian 模型负责安全与幻觉检测",
+      "可跑在 watsonx、Hugging Face、Ollama、vLLM",
+      "通过 ISO 42001 负责任 AI 认证"
+    ],
+    "ja": [
+      "小型で効率的なエンタープライズモデル（1B〜34Bクラス）",
+      "Apache 2.0ライセンスで商用利用無制限",
+      "ハイブリッドMamba-Transformerアーキテクチャ（Granite 4）",
+      "安全性と幻覚チェックのGuardianモデル",
+      "watsonx・Hugging Face・Ollama・vLLMで動作",
+      "ISO 42001認証の責任あるAI開発"
+    ],
+    "es": [
+      "Modelos empresariales pequeños y eficientes (clase 1B–34B)",
+      "Licencia Apache 2.0 para uso comercial sin restricciones",
+      "Arquitectura híbrida Mamba-Transformer (Granite 4)",
+      "Modelos Guardian para seguridad y detección de alucinaciones",
+      "Funciona en watsonx, Hugging Face, Ollama y vLLM",
+      "Desarrollo de IA responsable certificado ISO 42001"
+    ],
+    "fr": [
+      "Modèles d'entreprise petits et efficaces (classe 1B–34B)",
+      "Licence Apache 2.0 pour un usage commercial sans restriction",
+      "Architecture hybride Mamba-Transformer (Granite 4)",
+      "Modèles Guardian pour la sécurité et la détection d'hallucinations",
+      "Fonctionne sur watsonx, Hugging Face, Ollama et vLLM",
+      "Développement d'IA responsable certifié ISO 42001"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "All Granite models free under Apache 2.0",
+      "zh": "全部 Granite 模型按 Apache 2.0 免费使用",
+      "ja": "全GraniteモデルがApache 2.0の下で無料",
+      "es": "Todos los modelos Granite gratis bajo Apache 2.0",
+      "fr": "Tous les modèles Granite gratuits sous Apache 2.0"
+    },
+    "api": {
+      "en": "Hosted inference on watsonx.ai, pay-as-you-go with IP indemnification",
+      "zh": "watsonx.ai 托管推理按量计费，含知识产权保障",
+      "ja": "watsonx.aiのホスト推論は従量課金、IP補償付き",
+      "es": "Inferencia alojada en watsonx.ai, pago por uso con indemnización de PI",
+      "fr": "Inférence hébergée sur watsonx.ai, paiement à l'usage avec indemnisation PI"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Enterprise RAG and document AI",
+      "On-premise deployment in regulated industries",
+      "Cost-efficient fine-tuned vertical models",
+      "Local inference on modest hardware via Ollama",
+      "AI governance workflows with Guardian checks"
+    ],
+    "zh": [
+      "企业级 RAG 与文档 AI",
+      "受监管行业的本地化部署",
+      "低成本微调垂直模型",
+      "用 Ollama 在普通硬件上本地推理",
+      "配合 Guardian 检测的 AI 治理流程"
+    ],
+    "ja": [
+      "エンタープライズRAGとドキュメントAI",
+      "規制産業でのオンプレミス展開",
+      "低コストなファインチューニング垂直モデル",
+      "Ollamaによる控えめなハードウェアでのローカル推論",
+      "GuardianチェックによるAIガバナンスワークフロー"
+    ],
+    "es": [
+      "RAG empresarial e IA documental",
+      "Despliegue on-premise en industrias reguladas",
+      "Modelos verticales ajustados de forma rentable",
+      "Inferencia local en hardware modesto vía Ollama",
+      "Flujos de gobernanza de IA con verificaciones Guardian"
+    ],
+    "fr": [
+      "RAG d'entreprise et IA documentaire",
+      "Déploiement sur site dans les industries réglementées",
+      "Modèles verticaux affinés à moindre coût",
+      "Inférence locale sur matériel modeste via Ollama",
+      "Flux de gouvernance IA avec contrôles Guardian"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Cleanest license in enterprise AI (Apache 2.0)",
+      "Transparent training data provenance",
+      "Very low memory footprint (Granite 4 hybrid)",
+      "IP indemnification when used via watsonx"
+    ],
+    "zh": [
+      "企业 AI 里最干净的许可（Apache 2.0）",
+      "训练数据来源透明",
+      "内存占用极低（Granite 4 混合架构）",
+      "经 watsonx 使用可获知识产权保障"
+    ],
+    "ja": [
+      "エンタープライズAIで最もクリーンなライセンス（Apache 2.0）",
+      "学習データの出所が透明",
+      "メモリ占有が非常に少ない（Granite 4ハイブリッド）",
+      "watsonx経由の利用でIP補償"
+    ],
+    "es": [
+      "La licencia más limpia en IA empresarial (Apache 2.0)",
+      "Procedencia transparente de los datos de entrenamiento",
+      "Huella de memoria muy baja (híbrido Granite 4)",
+      "Indemnización de PI al usarse vía watsonx"
+    ],
+    "fr": [
+      "La licence la plus propre de l'IA d'entreprise (Apache 2.0)",
+      "Provenance transparente des données d'entraînement",
+      "Empreinte mémoire très faible (hybride Granite 4)",
+      "Indemnisation PI en cas d'usage via watsonx"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Raw capability below frontier models",
+      "No consumer-facing product",
+      "Brand mindshare weaker than Llama in open community"
+    ],
+    "zh": [
+      "绝对能力低于前沿模型",
+      "没有面向消费者的产品",
+      "开源社区声量弱于 Llama"
+    ],
+    "ja": [
+      "素の能力はフロンティアモデルに劣る",
+      "消費者向け製品がない",
+      "オープンコミュニティでの存在感はLlamaより弱い"
+    ],
+    "es": [
+      "Capacidad bruta por debajo de los modelos frontera",
+      "Sin producto orientado al consumidor",
+      "Menor presencia de marca que Llama en la comunidad abierta"
+    ],
+    "fr": [
+      "Capacités brutes inférieures aux modèles frontière",
+      "Pas de produit grand public",
+      "Notoriété plus faible que Llama dans la communauté open source"
+    ]
+  },
+  "latestUpdate": {
+    "en": "2026: Granite 4 hybrid family matures; tiny models push on-device and edge enterprise scenarios",
+    "zh": "2026年：Granite 4 混合架构家族走向成熟，微型模型推进端侧与边缘企业场景",
+    "ja": "2026年：Granite 4ハイブリッドファミリーが成熟、超小型モデルがオンデバイスとエッジの企業シナリオを推進",
+    "es": "2026: la familia híbrida Granite 4 madura; los modelos diminutos impulsan escenarios empresariales en dispositivo y edge",
+    "fr": "2026 : la famille hybride Granite 4 arrive à maturité ; les modèles miniatures poussent les scénarios d'entreprise embarqués et en edge"
+  },
+  "verdict": {
+    "badge": "For Specific Needs",
+    "headline": {
+      "en": "The safest open model choice for enterprises that answer to lawyers and regulators.",
+      "zh": "对要向法务和监管交代的企业来说，最稳妥的开源模型选择。",
+      "ja": "法務や規制当局に説明責任を負う企業にとって、最も安全なオープンモデルの選択肢。",
+      "es": "La opción de modelo abierto más segura para empresas que responden ante abogados y reguladores.",
+      "fr": "Le choix de modèle ouvert le plus sûr pour les entreprises qui rendent des comptes aux juristes et régulateurs."
+    },
+    "body": {
+      "en": "Granite does not chase leaderboards — it chases auditability. Apache 2.0 licensing, disclosed training data, ISO 42001 certification and optional IP indemnification make it uniquely easy to get past enterprise legal review. The Granite 4 hybrid architecture also slashes memory needs, so serious workloads fit on modest GPUs.\n\nIf you need maximum intelligence, frontier models win. But for regulated industries running RAG, extraction and classification at scale, Granite's cost-safety-compliance triangle is hard to beat.",
+      "zh": "Granite 不追排行榜，追的是可审计性。Apache 2.0 许可、公开训练数据、ISO 42001 认证外加可选的知识产权保障，让它过企业法务审查的难度独一档地低。Granite 4 混合架构还大幅降低内存需求，普通 GPU 就能跑正经负载。\n\n若追求最强智能，前沿模型更好。但对于规模化跑 RAG、抽取、分类的受监管行业，Granite 的成本-安全-合规三角很难被打败。",
+      "ja": "Graniteはリーダーボードではなく監査可能性を追求している。Apache 2.0ライセンス、公開された学習データ、ISO 42001認証、そしてオプションのIP補償により、企業の法務レビューを通すのが際立って容易だ。Granite 4のハイブリッドアーキテクチャはメモリ要件も大幅に削減し、控えめなGPUで本格的なワークロードが動く。\n\n最大の知能が必要ならフロンティアモデルに軍配が上がる。しかし規制産業でRAG・抽出・分類を大規模に回すなら、Graniteのコスト・安全・コンプライアンスの三角形を打ち破るのは難しい。",
+      "es": "Granite no persigue rankings — persigue auditabilidad. La licencia Apache 2.0, los datos de entrenamiento divulgados, la certificación ISO 42001 y la indemnización de PI opcional lo hacen singularmente fácil de pasar por revisión legal empresarial. La arquitectura híbrida de Granite 4 además recorta las necesidades de memoria, permitiendo cargas serias en GPUs modestas.\n\nSi necesitas máxima inteligencia, ganan los modelos frontera. Pero para industrias reguladas ejecutando RAG, extracción y clasificación a escala, el triángulo coste-seguridad-cumplimiento de Granite es difícil de superar.",
+      "fr": "Granite ne court pas après les classements — il vise l'auditabilité. Licence Apache 2.0, données d'entraînement divulguées, certification ISO 42001 et indemnisation PI optionnelle : passer la revue juridique d'entreprise devient singulièrement facile. L'architecture hybride de Granite 4 réduit aussi fortement les besoins mémoire, permettant des charges sérieuses sur des GPU modestes.\n\nSi vous cherchez l'intelligence maximale, les modèles frontière l'emportent. Mais pour les industries réglementées exécutant RAG, extraction et classification à grande échelle, le triangle coût-sécurité-conformité de Granite est difficile à battre."
+    },
+    "bestFor": {
+      "en": [
+        "Regulated industries (finance, healthcare, government)",
+        "Enterprise RAG on limited GPU budgets",
+        "Teams needing clean licensing and data provenance"
+      ],
+      "zh": [
+        "受监管行业（金融、医疗、政务）",
+        "GPU 预算有限的企业 RAG",
+        "需要干净许可与数据溯源的团队"
+      ],
+      "ja": [
+        "規制産業（金融・医療・行政）",
+        "限られたGPU予算でのエンタープライズRAG",
+        "クリーンなライセンスとデータ出所が必要なチーム"
+      ],
+      "es": [
+        "Industrias reguladas (finanzas, salud, gobierno)",
+        "RAG empresarial con presupuestos de GPU limitados",
+        "Equipos que necesitan licencias limpias y procedencia de datos"
+      ],
+      "fr": [
+        "Industries réglementées (finance, santé, secteur public)",
+        "RAG d'entreprise avec budget GPU limité",
+        "Équipes exigeant licence propre et provenance des données"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You need maximum raw capability (→ ChatGPT, Claude)",
+        "You want the biggest open community (→ Llama, Qwen)"
+      ],
+      "zh": [
+        "需要最强绝对能力（→ ChatGPT、Claude）",
+        "需要最大的开源社区（→ Llama、Qwen）"
+      ],
+      "ja": [
+        "最大の素の能力が必要な場合（→ ChatGPT、Claude）",
+        "最大のオープンコミュニティが必要な場合（→ Llama、Qwen）"
+      ],
+      "es": [
+        "Necesitas máxima capacidad bruta (→ ChatGPT, Claude)",
+        "Quieres la mayor comunidad abierta (→ Llama, Qwen)"
+      ],
+      "fr": [
+        "Vous avez besoin de capacités brutes maximales (→ ChatGPT, Claude)",
+        "Vous voulez la plus grande communauté ouverte (→ Llama, Qwen)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-27",
+    "verdictDate": "2026-07-27",
+    "pricingVerified": "2026-07-27"
+  }
+}

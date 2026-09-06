@@ -1,0 +1,78 @@
+{
+  "slug": "grafana-mcp",
+  "name": "Grafana MCP",
+  "nameZh": "Grafana MCP",
+  "description": "Grafana 官方 MCP 服务器，让智能体用自然语言访问可观测性栈——查询 Prometheus/Loki 指标与日志、检索仪表盘、查看与静默告警、调查事件，把监控数据接进 AI 排障流。",
+  "descriptionEn": "Grafana's official MCP server lets agents reach your observability stack in natural language — query Prometheus/Loki metrics and logs, search dashboards, view and silence alerts, investigate incidents, bringing monitoring data into AI troubleshooting.",
+  "descriptionJa": "Grafana 公式の MCP サーバー。エージェントが自然言語でオブザーバビリティスタックにアクセスでき、Prometheus/Loki のメトリクスやログの照会、ダッシュボード検索、アラートの確認・サイレンス、インシデント調査が可能で、監視データを AI のトラブルシューティングに取り込めます。",
+  "descriptionEs": "El servidor MCP oficial de Grafana permite a los agentes acceder a tu stack de observabilidad en lenguaje natural: consultar métricas y logs de Prometheus/Loki, buscar dashboards, ver y silenciar alertas, investigar incidentes, llevando los datos de monitorización al diagnóstico con IA.",
+  "descriptionFr": "Le serveur MCP officiel de Grafana permet aux agents d'atteindre votre stack d'observabilité en langage naturel : interroger métriques et logs Prometheus/Loki, chercher des tableaux de bord, voir et mettre en sourdine des alertes, enquêter sur des incidents, amenant les données de supervision dans le dépannage IA.",
+  "developer": "Grafana Labs",
+  "developerZh": "Grafana Labs",
+  "repo": "grafana/mcp-grafana",
+  "clients": [
+    "claude",
+    "cursor",
+    "vscode",
+    "generic"
+  ],
+  "category": "Monitoring",
+  "tags": [
+    "Free",
+    "Open Source"
+  ],
+  "installCommand": "uvx mcp-grafana",
+  "logo": "/logos/mcp/grafana-mcp.png",
+  "stars": 3413,
+  "featured": false,
+  "faqs": [
+    {
+      "question": {
+        "zh": "Grafana MCP 能帮我做什么？",
+        "en": "What can Grafana MCP help me do?",
+        "ja": "Grafana MCP は何を手伝ってくれますか？",
+        "es": "¿En qué me puede ayudar Grafana MCP?",
+        "fr": "En quoi Grafana MCP peut-il m'aider ?"
+      },
+      "answer": {
+        "zh": "把 Grafana 的可观测性能力接进 AI 助手：用自然语言查 Prometheus 指标、搜 Loki 日志、找仪表盘和面板、查看/静默告警、调查 Incident。排障时不用在多个页面间切换，直接问助手\"最近 CPU 飙高是哪台机器\"即可。",
+        "en": "It brings Grafana observability into your AI assistant: query Prometheus metrics, search Loki logs, find dashboards and panels, view/silence alerts and investigate incidents in natural language. Instead of jumping across pages while troubleshooting, just ask \"which host had the recent CPU spike\".",
+        "ja": "Grafana のオブザーバビリティを AI アシスタントに取り込みます。自然言語で Prometheus メトリクスの照会、Loki ログの検索、ダッシュボードやパネルの検索、アラートの確認・サイレンス、インシデント調査ができます。トラブル対応で複数ページを行き来せず、「最近 CPU が急上昇したのはどのホスト？」と尋ねるだけです。",
+        "es": "Lleva la observabilidad de Grafana a tu asistente de IA: consulta métricas de Prometheus, busca logs de Loki, encuentra dashboards y paneles, ve/silencia alertas e investiga incidentes en lenguaje natural. En vez de saltar entre páginas al diagnosticar, solo pregunta \"qué host tuvo el pico reciente de CPU\".",
+        "fr": "Il amène l'observabilité de Grafana dans votre assistant IA : interrogez les métriques Prometheus, cherchez les logs Loki, trouvez tableaux de bord et panneaux, consultez/mettez en sourdine les alertes et enquêtez sur les incidents en langage naturel. Au lieu de naviguer entre les pages lors du dépannage, demandez simplement « quel hôte a eu le pic CPU récent »."
+      }
+    },
+    {
+      "question": {
+        "zh": "Grafana MCP 怎么安装？需要什么令牌？",
+        "en": "How do I install Grafana MCP and what token is needed?",
+        "ja": "Grafana MCP のインストール方法と必要なトークンは？",
+        "es": "¿Cómo instalo Grafana MCP y qué token necesita?",
+        "fr": "Comment installer Grafana MCP et quel jeton faut-il ?"
+      },
+      "answer": {
+        "zh": "推荐用 uvx mcp-grafana 免安装运行（也提供 Docker 镜像与预编译二进制）。需在环境变量里配置 GRAFANA_URL 和一个 Service Account Token（在 Grafana 后台创建），按需授予查看指标、日志、告警等只读权限即可。",
+        "en": "The recommended path is a zero-install uvx mcp-grafana run (a Docker image and prebuilt binaries are also provided). Set GRAFANA_URL and a Service Account Token (created in Grafana) via environment variables, granting read-only scopes for metrics, logs and alerts as needed.",
+        "ja": "推奨はインストール不要の uvx mcp-grafana 実行です（Docker イメージやビルド済みバイナリも提供）。環境変数に GRAFANA_URL と（Grafana で作成する）Service Account Token を設定し、メトリクス・ログ・アラートなどの読み取り権限を必要に応じて付与します。",
+        "es": "La vía recomendada es una ejecución sin instalación uvx mcp-grafana (también hay imagen Docker y binarios precompilados). Define GRAFANA_URL y un Service Account Token (creado en Grafana) por variables de entorno, otorgando permisos de solo lectura para métricas, logs y alertas según necesites.",
+        "fr": "La méthode recommandée est une exécution sans installation uvx mcp-grafana (une image Docker et des binaires précompilés sont aussi fournis). Définissez GRAFANA_URL et un Service Account Token (créé dans Grafana) via des variables d'environnement, en accordant des portées lecture seule pour métriques, logs et alertes selon les besoins."
+      }
+    },
+    {
+      "question": {
+        "zh": "Grafana MCP 免费吗？",
+        "en": "Is Grafana MCP free?",
+        "ja": "Grafana MCP は無料ですか？",
+        "es": "¿Grafana MCP es gratuito?",
+        "fr": "Grafana MCP est-il gratuit ?"
+      },
+      "answer": {
+        "zh": "MCP 服务器由 Grafana Labs 官方开源、免费（Apache-2.0）；访问的是你自己的 Grafana 实例。自建 Grafana OSS 零成本，Grafana Cloud 有免费层，超出按其套餐计费。",
+        "en": "The MCP server is officially open-sourced by Grafana Labs and free (Apache-2.0); it accesses your own Grafana instance. Self-hosted Grafana OSS costs nothing, and Grafana Cloud has a free tier with usage billed per its plans beyond that.",
+        "ja": "MCP サーバーは Grafana Labs 公式がオープンソース化した無料（Apache-2.0）のものです。アクセス先はあなた自身の Grafana インスタンスです。自己ホストの Grafana OSS は無料で、Grafana Cloud には無料層があり、超過分はプランに応じて課金されます。",
+        "es": "El servidor MCP es de código abierto oficial de Grafana Labs y gratuito (Apache-2.0); accede a tu propia instancia de Grafana. Grafana OSS autoalojado no cuesta nada, y Grafana Cloud tiene un nivel gratuito con uso facturado según sus planes más allá.",
+        "fr": "Le serveur MCP est officiellement open source par Grafana Labs et gratuit (Apache-2.0) ; il accède à votre propre instance Grafana. Grafana OSS auto-hébergé ne coûte rien, et Grafana Cloud a une offre gratuite, l'usage au-delà étant facturé selon ses forfaits."
+      }
+    }
+  ]
+}

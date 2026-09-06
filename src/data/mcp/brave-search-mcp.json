@@ -1,0 +1,78 @@
+{
+  "slug": "brave-search-mcp",
+  "name": "Brave Search MCP",
+  "nameZh": "Brave Search MCP",
+  "description": "Brave 官方 MCP 服务器，基于 Brave Search API 为智能体提供注重隐私的实时 Web 搜索——网页、新闻、图片、视频与本地商户检索，用独立索引避开大厂搜索的追踪。",
+  "descriptionEn": "Brave's official MCP server uses the Brave Search API to give agents privacy-focused real-time web search — web, news, image, video and local business results from an independent index that avoids Big Tech tracking.",
+  "descriptionJa": "Brave 公式の MCP サーバー。Brave Search API を用いて、エージェントにプライバシー重視のリアルタイム Web 検索を提供します。独自インデックスによるウェブ・ニュース・画像・動画・ローカル店舗の検索で、大手検索のトラッキングを回避します。",
+  "descriptionEs": "El servidor MCP oficial de Brave usa la API de Brave Search para dar a los agentes búsqueda web en tiempo real centrada en la privacidad: resultados web, noticias, imágenes, vídeos y negocios locales desde un índice independiente que evita el rastreo de las grandes tecnológicas.",
+  "descriptionFr": "Le serveur MCP officiel de Brave utilise l'API Brave Search pour offrir aux agents une recherche web en temps réel axée sur la confidentialité : résultats web, actualités, images, vidéos et commerces locaux depuis un index indépendant qui évite le pistage des géants du web.",
+  "developer": "Brave",
+  "developerZh": "Brave",
+  "repo": "brave/brave-search-mcp-server",
+  "clients": [
+    "claude",
+    "cursor",
+    "vscode",
+    "generic"
+  ],
+  "category": "Search",
+  "tags": [
+    "Free",
+    "Open Source"
+  ],
+  "installCommand": "npx -y @brave/brave-search-mcp-server",
+  "logo": "/logos/mcp/brave-search-mcp.png",
+  "stars": 1420,
+  "featured": false,
+  "faqs": [
+    {
+      "question": {
+        "zh": "Brave Search MCP 和 Exa MCP 有什么区别？",
+        "en": "How is Brave Search MCP different from Exa MCP?",
+        "ja": "Brave Search MCP と Exa MCP はどう違いますか？",
+        "es": "¿En qué se diferencia Brave Search MCP de Exa MCP?",
+        "fr": "En quoi Brave Search MCP diffère-t-il d'Exa MCP ?"
+      },
+      "answer": {
+        "zh": "Brave 提供的是注重隐私的通用搜索（网页、新闻、图片、视频、本地商户），基于自建独立索引、不追踪用户；Exa 偏向为 AI 优化的神经搜索、返回适合大模型的正文内容。要通用检索与隐私选 Brave，要结构化研究结果选 Exa，二者可互补。",
+        "en": "Brave offers privacy-focused general search (web, news, images, video, local businesses) from its own independent index without tracking users; Exa leans toward AI-optimized neural search that returns LLM-ready page content. Pick Brave for general search and privacy, Exa for structured research results — they complement each other.",
+        "ja": "Brave はプライバシー重視の汎用検索（ウェブ・ニュース・画像・動画・ローカル店舗）を独自の独立インデックスから提供し、ユーザーを追跡しません。Exa は AI 向けに最適化されたニューラル検索で、LLM 向けの本文を返します。汎用検索とプライバシーなら Brave、構造化された調査結果なら Exa と、両者は補完的です。",
+        "es": "Brave ofrece búsqueda general centrada en la privacidad (web, noticias, imágenes, vídeo, negocios locales) desde su propio índice independiente sin rastrear a los usuarios; Exa se inclina por búsqueda neuronal optimizada para IA que devuelve contenido listo para LLM. Elige Brave para búsqueda general y privacidad, Exa para resultados de investigación estructurados; se complementan.",
+        "fr": "Brave propose une recherche générale axée sur la confidentialité (web, actualités, images, vidéo, commerces locaux) depuis son propre index indépendant sans pister les utilisateurs ; Exa penche vers une recherche neuronale optimisée pour l'IA renvoyant du contenu prêt pour les LLM. Choisissez Brave pour la recherche générale et la confidentialité, Exa pour des résultats de recherche structurés — ils se complètent."
+      }
+    },
+    {
+      "question": {
+        "zh": "怎么安装 Brave Search MCP？需要 API Key 吗？",
+        "en": "How do I install Brave Search MCP? Do I need an API key?",
+        "ja": "Brave Search MCP のインストール方法は？API キーは必要ですか？",
+        "es": "¿Cómo instalo Brave Search MCP? ¿Necesito una clave API?",
+        "fr": "Comment installer Brave Search MCP ? Faut-il une clé API ?"
+      },
+      "answer": {
+        "zh": "用 npx -y @brave/brave-search-mcp-server 运行，并在环境变量里配置 BRAVE_API_KEY。API Key 在 Brave Search API 官网注册获取，免费层每月有一定额度，足够个人与轻量集成使用。",
+        "en": "Run npx -y @brave/brave-search-mcp-server and set BRAVE_API_KEY as an environment variable. Get the key by signing up on the Brave Search API site; the free tier includes a monthly allowance sufficient for personal and light integrations.",
+        "ja": "npx -y @brave/brave-search-mcp-server を実行し、環境変数に BRAVE_API_KEY を設定します。キーは Brave Search API の公式サイトで登録して取得します。無料層には毎月の枠があり、個人や軽量な統合には十分です。",
+        "es": "Ejecuta npx -y @brave/brave-search-mcp-server y define BRAVE_API_KEY como variable de entorno. Obtén la clave registrándote en el sitio de la API de Brave Search; el nivel gratuito incluye un margen mensual suficiente para uso personal e integraciones ligeras.",
+        "fr": "Lancez npx -y @brave/brave-search-mcp-server et définissez BRAVE_API_KEY comme variable d'environnement. Obtenez la clé en vous inscrivant sur le site de l'API Brave Search ; l'offre gratuite inclut un quota mensuel suffisant pour un usage personnel et des intégrations légères."
+      }
+    },
+    {
+      "question": {
+        "zh": "Brave Search MCP 免费吗？",
+        "en": "Is Brave Search MCP free?",
+        "ja": "Brave Search MCP は無料ですか？",
+        "es": "¿Brave Search MCP es gratuito?",
+        "fr": "Brave Search MCP est-il gratuit ?"
+      },
+      "answer": {
+        "zh": "MCP 服务器开源免费（MIT）；搜索能力由 Brave Search API 提供，有免费层（含每月免费额度），超出后按用量付费。个人与小规模集成通常在免费额度内即可。",
+        "en": "The MCP server is open source and free (MIT); the search is powered by the Brave Search API, which has a free tier (monthly allowance included) and pay-as-you-go beyond it. Personal and small-scale integrations usually stay within the free tier.",
+        "ja": "MCP サーバーはオープンソースで無料（MIT）です。検索機能は Brave Search API が提供し、無料層（毎月の無料枠付き）があり、超過分は従量課金です。個人や小規模の統合は通常無料枠内に収まります。",
+        "es": "El servidor MCP es de código abierto y gratuito (MIT); la búsqueda la impulsa la API de Brave Search, que tiene un nivel gratuito (con margen mensual) y pago por uso más allá. Las integraciones personales y a pequeña escala suelen caber en el nivel gratuito.",
+        "fr": "Le serveur MCP est open source et gratuit (MIT) ; la recherche est propulsée par l'API Brave Search, qui a une offre gratuite (quota mensuel inclus) et un paiement à l'usage au-delà. Les intégrations personnelles et à petite échelle tiennent généralement dans l'offre gratuite."
+      }
+    }
+  ]
+}

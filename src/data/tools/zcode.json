@@ -1,0 +1,29 @@
+{
+  "slug": "zcode",
+  "name": "ZCode",
+  "nameZh": "ZCode",
+  "description": "智谱 AI（Z.ai）推出的 AI 编程 Agent 工具（国际版），官方适配 GLM 系列模型，将 AI Agent 融入规划、编码、评审与上线流程",
+  "descriptionEn": "AI coding agent by Zhipu AI (Z.ai, international), officially tuned for GLM models, embedding AI agents into planning, coding, review and shipping",
+  "descriptionJa": "Zhipu AI（Z.ai）が提供する AI コーディング Agent ツール（国際版）。GLM モデルに公式対応し、計画・コーディング・レビュー・リリースに AI Agent を組み込む",
+  "descriptionEs": "Agente de codificación IA de Zhipu AI (Z.ai, internacional), adaptado oficialmente a los modelos GLM, integrando agentes de IA en planificación, codificación, revisión y despliegue",
+  "descriptionFr": "Agent de codage IA de Zhipu AI (Z.ai, international), optimisé officiellement pour les modèles GLM, intégrant des agents IA dans la planification, le codage, la revue et la mise en production",
+  "url": "https://zcode.z.ai",
+  "logo": "/logos/tools/zcode.png",
+  "category": "Code",
+  "tags": [
+    "Freemium"
+  ],
+  "featured": false,
+  "developer": "Zhipu AI",
+  "developerZh": "智谱 AI",
+  "platforms": {
+    "web": false,
+    "windows": true,
+    "macos": true,
+    "ios": false,
+    "android": false,
+    "linux": false,
+    "browser_extension": false,
+    "api": false
+  }
+}

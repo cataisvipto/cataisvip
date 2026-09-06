@@ -1,0 +1,28 @@
+{
+  "slug": "character-ai",
+  "name": "Character.AI",
+  "nameZh": "Character.AI",
+  "description": "创建和与 AI 角色对话的平台，支持自定义角色性格",
+  "descriptionEn": "Platform for creating and chatting with AI characters with custom personalities",
+  "descriptionJa": "AIキャラクターを作成し、対話できるプラットフォーム。キャラクターの性格をカスタマイズ可能",
+  "descriptionEs": "Plataforma para crear y chatear con personajes IA con personalidades personalizadas",
+  "descriptionFr": "Plateforme pour créer et discuter avec des personnages IA avec des personnalités personnalisées",
+  "url": "https://character.ai",
+  "logo": "/logos/tools/character-ai.png",
+  "category": "Chat",
+  "tags": [
+    "Free"
+  ],
+  "featured": false,
+  "developer": "Character Technologies",
+  "platforms": {
+    "web": true,
+    "windows": false,
+    "macos": false,
+    "ios": true,
+    "android": true,
+    "linux": false,
+    "browser_extension": false,
+    "api": false
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "windsurf",
+  "name": "Windsurf (Devin Desktop)",
+  "nameZh": "Windsurf（Devin Desktop）",
+  "description": "AI 代码编辑器（2026 年由 Cognition 更名为 Devin Desktop），Cascade 智能代理深度理解代码库",
+  "descriptionEn": "AI code editor (rebranded as Devin Desktop by Cognition in 2026) with Cascade agent that deeply understands your codebase",
+  "descriptionJa": "AIコードエディタ（2026年にCognitionによりDevin Desktopへ改名）。Cascadeエージェントがコードベースを深く理解",
+  "descriptionEs": "Editor de código IA (renombrado Devin Desktop por Cognition en 2026) con agente Cascade que comprende profundamente tu código",
+  "descriptionFr": "Éditeur de code IA (renommé Devin Desktop par Cognition en 2026) avec l'agent Cascade qui comprend profondément votre code",
+  "url": "https://devin.ai/desktop",
+  "logo": "/logos/tools/windsurf.png",
+  "category": "Code",
+  "tags": [
+    "Free"
+  ],
+  "featured": true,
+  "developer": "Cognition",
+  "platforms": {
+    "web": false,
+    "windows": true,
+    "macos": true,
+    "ios": false,
+    "android": false,
+    "linux": true,
+    "browser_extension": false,
+    "api": false
+  }
+}

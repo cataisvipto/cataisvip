@@ -1,0 +1,234 @@
+{
+  "features": {
+    "en": [
+      "Three visual builders: Assistant, Chatflow and Agentflow for rising complexity",
+      "Drag-and-drop canvas to compose LLMs, tools, memory and RAG pipelines",
+      "Open source and self-hostable, or fully managed Flowise Cloud",
+      "Embed chatbots into any site with a script snippet, or call via API/SDK",
+      "Works with 100+ LLMs, vector stores and integrations",
+      "Human-in-the-loop review steps and multi-agent orchestration"
+    ],
+    "zh": [
+      "三种可视化编排器：Assistant、Chatflow、Agentflow，复杂度逐级递进",
+      "拖拽画布组合 LLM、工具、记忆与 RAG 流水线",
+      "开源可自托管，也提供全托管 Flowise Cloud",
+      "一段脚本即可把聊天机器人嵌入任意网站，或经 API/SDK 调用",
+      "支持 100+ LLM、向量库与集成",
+      "支持人工审核环节与多智能体编排"
+    ],
+    "ja": [
+      "3種のビジュアルビルダー：複雑度に応じたAssistant、Chatflow、Agentflow",
+      "ドラッグ＆ドロップのキャンバスでLLM、ツール、メモリ、RAGパイプラインを構成",
+      "オープンソースでセルフホスト可能、フルマネージドのFlowise Cloudも提供",
+      "スクリプト1つでチャットボットを任意のサイトに埋め込み、API/SDK呼び出しも可能",
+      "100以上のLLM、ベクトルストア、統合に対応",
+      "人間によるレビューステップとマルチエージェントオーケストレーション"
+    ],
+    "es": [
+      "Tres constructores visuales: Assistant, Chatflow y Agentflow según complejidad",
+      "Lienzo de arrastrar y soltar para componer LLMs, herramientas, memoria y pipelines RAG",
+      "Open source y autoalojable, o Flowise Cloud totalmente gestionado",
+      "Integra chatbots en cualquier sitio con un snippet, o llama vía API/SDK",
+      "Funciona con más de 100 LLMs, almacenes vectoriales e integraciones",
+      "Pasos de revisión humana y orquestación multiagente"
+    ],
+    "fr": [
+      "Trois éditeurs visuels : Assistant, Chatflow et Agentflow selon la complexité",
+      "Canevas glisser-déposer pour composer LLM, outils, mémoire et pipelines RAG",
+      "Open source et auto-hébergeable, ou Flowise Cloud entièrement géré",
+      "Intégrez des chatbots sur tout site via un snippet, ou appelez via API/SDK",
+      "Compatible avec plus de 100 LLM, bases vectorielles et intégrations",
+      "Étapes de validation humaine et orchestration multi-agents"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Self-hosting the open-source version is free; Flowise Cloud Free tier includes 2 flows and 100 predictions/month",
+      "zh": "自托管开源版免费；Flowise Cloud 免费档含 2 个流程与每月 100 次预测",
+      "ja": "オープンソース版のセルフホストは無料。Flowise Cloud無料枠は2フローと月100予測を含む",
+      "es": "Autoalojar la versión open source es gratis; el nivel Free de Flowise Cloud incluye 2 flujos y 100 predicciones/mes",
+      "fr": "L'auto-hébergement de la version open source est gratuit ; l'offre Free de Flowise Cloud inclut 2 flux et 100 prédictions/mois"
+    },
+    "paid": {
+      "en": "Flowise Cloud Starter $35/month, Pro $65/month with more flows, predictions and storage; enterprise plans on request",
+      "zh": "Flowise Cloud Starter 35 美元/月，Pro 65 美元/月，含更多流程、预测与存储；企业方案需联系咨询",
+      "ja": "Flowise Cloud Starterは月額35ドル、Proは月額65ドルでフロー・予測・ストレージが増量。エンタープライズは要問い合わせ",
+      "es": "Flowise Cloud Starter 35 $/mes, Pro 65 $/mes con más flujos, predicciones y almacenamiento; planes enterprise bajo consulta",
+      "fr": "Flowise Cloud Starter 35 $/mois, Pro 65 $/mois avec plus de flux, prédictions et stockage ; offres entreprise sur demande"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Teams prototyping agent workflows without writing orchestration code",
+      "Embedding a RAG chatbot into a website or internal portal",
+      "Agencies delivering custom AI assistants for clients",
+      "Self-hosted LLM apps where data must stay on your infrastructure"
+    ],
+    "zh": [
+      "不写编排代码即可原型验证智能体工作流的团队",
+      "把 RAG 聊天机器人嵌入网站或内部门户",
+      "为客户交付定制 AI 助手的代理公司",
+      "数据必须留在自有基础设施上的自托管 LLM 应用"
+    ],
+    "ja": [
+      "オーケストレーションコードを書かずにエージェントワークフローを試作するチーム",
+      "RAGチャットボットのWebサイトや社内ポータルへの埋め込み",
+      "クライアント向けカスタムAIアシスタントを提供する制作会社",
+      "データを自社インフラに保持すべきセルフホストLLMアプリ"
+    ],
+    "es": [
+      "Equipos prototipando flujos de agentes sin escribir código de orquestación",
+      "Integración de un chatbot RAG en un sitio web o portal interno",
+      "Agencias entregando asistentes IA personalizados a clientes",
+      "Apps LLM autoalojadas donde los datos deben quedarse en tu infraestructura"
+    ],
+    "fr": [
+      "Équipes prototypant des workflows d'agents sans écrire de code d'orchestration",
+      "Intégration d'un chatbot RAG dans un site web ou portail interne",
+      "Agences livrant des assistants IA sur mesure à leurs clients",
+      "Apps LLM auto-hébergées où les données doivent rester sur votre infrastructure"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Fastest path from idea to working agent for non-coders",
+      "Genuinely open source with ~40k GitHub stars and an active community",
+      "Three-tier builder design scales from simple bots to multi-agent systems",
+      "Self-hosting keeps sensitive data fully under your control"
+    ],
+    "zh": [
+      "对不写代码的人而言，从想法到可用智能体的最快路径",
+      "真正开源，GitHub 约 4 万星标，社区活跃",
+      "三级编排器设计可从简单机器人扩展到多智能体系统",
+      "自托管让敏感数据完全掌握在自己手中"
+    ],
+    "ja": [
+      "非エンジニアにとってアイデアから動くエージェントへの最速ルート",
+      "GitHubで約4万スターの真のオープンソースで活発なコミュニティ",
+      "3層ビルダー設計でシンプルなボットからマルチエージェントシステムまで拡張",
+      "セルフホストで機密データを完全に自社管理"
+    ],
+    "es": [
+      "El camino más rápido de la idea al agente funcional para quienes no programan",
+      "Genuinamente open source con ~40k estrellas en GitHub y comunidad activa",
+      "El diseño de tres niveles escala de bots simples a sistemas multiagente",
+      "El autoalojamiento mantiene los datos sensibles bajo tu control"
+    ],
+    "fr": [
+      "Le chemin le plus rapide de l'idée à l'agent fonctionnel sans coder",
+      "Véritablement open source avec ~40k étoiles GitHub et une communauté active",
+      "La conception à trois niveaux va des bots simples aux systèmes multi-agents",
+      "L'auto-hébergement garde les données sensibles sous votre contrôle"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Visual flows get hard to maintain as complexity grows",
+      "Less fine-grained control than code-first frameworks like LangGraph",
+      "Cloud free tier is tight: 2 flows and 100 predictions/month",
+      "Version upgrades occasionally break existing flows"
+    ],
+    "zh": [
+      "复杂度上升后可视化流程会变得难以维护",
+      "精细控制不如 LangGraph 等代码优先框架",
+      "云端免费档偏紧：2 个流程、每月 100 次预测",
+      "版本升级偶尔会破坏既有流程"
+    ],
+    "ja": [
+      "複雑化するとビジュアルフローの保守が難しくなる",
+      "LangGraphなどコードファーストのフレームワークより細かい制御は苦手",
+      "クラウド無料枠は控えめ：2フロー、月100予測",
+      "バージョンアップで既存フローが壊れることが時々ある"
+    ],
+    "es": [
+      "Los flujos visuales se vuelven difíciles de mantener al crecer la complejidad",
+      "Menos control fino que frameworks code-first como LangGraph",
+      "El nivel gratuito de la nube es ajustado: 2 flujos y 100 predicciones/mes",
+      "Las actualizaciones de versión a veces rompen flujos existentes"
+    ],
+    "fr": [
+      "Les flux visuels deviennent durs à maintenir quand la complexité augmente",
+      "Contrôle moins fin que les frameworks code-first comme LangGraph",
+      "Offre gratuite cloud limitée : 2 flux et 100 prédictions/mois",
+      "Les montées de version cassent parfois les flux existants"
+    ]
+  },
+  "latestUpdate": {
+    "en": "2026: Flowise's Agentflow builder matures with human-in-the-loop steps and deeper multi-agent orchestration, cementing its place as the leading open-source visual agent platform (~40k GitHub stars)",
+    "zh": "2026 年：Flowise 的 Agentflow 编排器日趋成熟，加入人工审核环节与更深的多智能体编排，稳固其头部开源可视化智能体平台地位（GitHub 约 4 万星标）",
+    "ja": "2026年：FlowiseのAgentflowビルダーが成熟し、人間のレビューステップとより深いマルチエージェントオーケストレーションを追加。主要オープンソースビジュアルエージェントプラットフォームの地位を固める（GitHub約4万スター）",
+    "es": "2026: el constructor Agentflow de Flowise madura con pasos de revisión humana y orquestación multiagente más profunda, consolidándose como la plataforma visual open source líder (~40k estrellas GitHub)",
+    "fr": "2026 : le builder Agentflow de Flowise mûrit avec des étapes de validation humaine et une orchestration multi-agents plus poussée, confortant sa place de première plateforme visuelle open source (~40k étoiles GitHub)"
+  },
+  "verdict": {
+    "badge": "Recommended",
+    "headline": {
+      "en": "The open-source way to build agents without code",
+      "zh": "不写代码构建智能体的开源之道",
+      "ja": "コードを書かずにエージェントを作るオープンソースの道",
+      "es": "La vía open source para crear agentes sin código",
+      "fr": "La voie open source pour créer des agents sans coder"
+    },
+    "body": {
+      "en": "Flowise occupies a sweet spot: more capable than closed no-code bot builders, more approachable than code-first frameworks. The drag-and-drop canvas genuinely works for RAG chatbots and moderately complex agent flows, and the option to self-host — with roughly 40k GitHub stars behind it — means you are never locked in. Just know its limits: past a certain complexity, visual graphs become their own kind of spaghetti, and serious engineering teams will eventually want LangGraph or Mastra underneath.",
+      "zh": "Flowise 占据了一个绝佳位置：比封闭的无代码机器人搭建器更强大，比代码优先框架更易上手。拖拽画布对 RAG 聊天机器人和中等复杂度的智能体流程真正可用，而可自托管的选项——背后有约 4 万 GitHub 星标——意味着你永远不会被锁死。但要清楚它的边界：复杂度超过某个临界点后，可视化图谱会变成另一种意面代码，认真做工程的团队最终还是会想在底层用 LangGraph 或 Mastra。",
+      "ja": "Flowiseは絶妙な位置にいる。クローズドなノーコードボットビルダーより高機能で、コードファーストのフレームワークより取っつきやすい。ドラッグ＆ドロップのキャンバスはRAGチャットボットや中程度の複雑さのエージェントフローに本当に使え、セルフホストの選択肢（GitHub約4万スターの実績付き）はロックインされない安心をくれる。ただし限界も知っておくべきだ。ある複雑度を超えるとビジュアルグラフは別種のスパゲッティと化し、本格的なエンジニアリングチームは最終的にLangGraphやMastraを求めることになる。",
+      "es": "Flowise ocupa un punto dulce: más capaz que los constructores de bots no-code cerrados, más accesible que los frameworks code-first. El lienzo de arrastrar y soltar funciona de verdad para chatbots RAG y flujos de agentes de complejidad media, y la opción de autoalojarlo —con unas 40k estrellas en GitHub— significa que nunca estás atrapado. Solo conoce sus límites: pasada cierta complejidad, los grafos visuales se vuelven su propio espagueti, y los equipos serios de ingeniería acabarán queriendo LangGraph o Mastra debajo.",
+      "fr": "Flowise occupe une position idéale : plus capable que les constructeurs de bots no-code fermés, plus abordable que les frameworks code-first. Le canevas glisser-déposer fonctionne vraiment pour les chatbots RAG et les flux d'agents moyennement complexes, et l'option d'auto-hébergement — forte d'environ 40k étoiles GitHub — garantit de ne jamais être enfermé. Connaissez toutefois ses limites : au-delà d'une certaine complexité, les graphes visuels deviennent leur propre spaghetti, et les équipes d'ingénierie sérieuses finiront par vouloir LangGraph ou Mastra en dessous."
+    },
+    "bestFor": {
+      "en": [
+        "Non-developers and product teams building agent prototypes",
+        "Embedding RAG chatbots into websites quickly",
+        "Organizations needing self-hosted, data-sovereign LLM apps"
+      ],
+      "zh": [
+        "构建智能体原型的非开发者与产品团队",
+        "快速把 RAG 聊天机器人嵌入网站",
+        "需要自托管、数据主权 LLM 应用的组织"
+      ],
+      "ja": [
+        "エージェントのプロトタイプを作る非開発者・プロダクトチーム",
+        "RAGチャットボットをWebサイトへ素早く埋め込みたい場合",
+        "セルフホストでデータ主権を守るLLMアプリが必要な組織"
+      ],
+      "es": [
+        "No desarrolladores y equipos de producto creando prototipos de agentes",
+        "Integración rápida de chatbots RAG en sitios web",
+        "Organizaciones que necesitan apps LLM autoalojadas con soberanía de datos"
+      ],
+      "fr": [
+        "Non-développeurs et équipes produit créant des prototypes d'agents",
+        "Intégration rapide de chatbots RAG sur des sites web",
+        "Organisations nécessitant des apps LLM auto-hébergées et souveraines"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You need code-level control and testing (→ LangGraph, Mastra)",
+        "You want an all-in-one LLMOps platform with app hosting (→ Dify)"
+      ],
+      "zh": [
+        "你需要代码级控制与测试（→ LangGraph、Mastra）",
+        "你想要带应用托管的一体化 LLMOps 平台（→ Dify）"
+      ],
+      "ja": [
+        "コードレベルの制御とテストが必要（→ LangGraph、Mastra）",
+        "アプリホスティング込みのオールインワンLLMOpsプラットフォームが欲しい（→ Dify）"
+      ],
+      "es": [
+        "Necesitas control y pruebas a nivel de código (→ LangGraph, Mastra)",
+        "Quieres una plataforma LLMOps todo en uno con hosting de apps (→ Dify)"
+      ],
+      "fr": [
+        "Vous avez besoin de contrôle et de tests au niveau du code (→ LangGraph, Mastra)",
+        "Vous voulez une plateforme LLMOps tout-en-un avec hébergement d'apps (→ Dify)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-27",
+    "verdictDate": "2026-07-27",
+    "pricingVerified": "2026-07-27"
+  }
+}

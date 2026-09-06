@@ -1,0 +1,30 @@
+{
+  "slug": "metaso",
+  "name": "Metaso",
+  "nameZh": "秘塔AI搜索",
+  "description": "秘塔科技出品的国产 AI 搜索引擎，没有广告直达结果，自动生成大纲、思维导图与引用来源，支持学术搜索与深入研究模式，并开放 API",
+  "descriptionEn": "A leading Chinese AI search engine by Metasota. Ad-free with direct answers, it auto-generates outlines, mind maps and cited sources, supports academic search and deep research modes, and offers an open API",
+  "descriptionJa": "秘塔科技による中国発のAI検索エンジン。広告なしで結果に直達し、アウトライン・マインドマップ・引用元を自動生成。学術検索とディープリサーチモードに対応し、APIも公開",
+  "descriptionEs": "Motor de búsqueda IA chino de Metasota. Sin anuncios y con respuestas directas, genera automáticamente esquemas, mapas mentales y fuentes citadas; admite búsqueda académica, modo de investigación profunda y API abierta",
+  "descriptionFr": "Moteur de recherche IA chinois de Metasota. Sans publicité et avec des réponses directes, il génère automatiquement plans, cartes mentales et sources citées ; prend en charge la recherche académique, le mode recherche approfondie et une API ouverte",
+  "url": "https://metaso.cn",
+  "logo": "/logos/tools/metaso.png",
+  "category": "Search",
+  "tags": [
+    "Freemium",
+    "API"
+  ],
+  "featured": false,
+  "developer": "Metasota",
+  "developerZh": "秘塔科技",
+  "platforms": {
+    "web": true,
+    "windows": false,
+    "macos": false,
+    "ios": true,
+    "android": true,
+    "linux": false,
+    "browser_extension": false,
+    "api": true
+  }
+}

@@ -1,0 +1,270 @@
+{
+  "features": {
+    "en": [
+      "AI-native code editor",
+      "Multi-model support (GPT-5.6, Claude Opus 4.6)",
+      "Code generation and editing",
+      "Smart refactoring",
+      "Project-level understanding",
+      "Terminal integration"
+    ],
+    "zh": [
+      "AI 原生代码编辑器",
+      "多模型支持（GPT-5.6、Claude Opus 4.6）",
+      "代码生成与编辑",
+      "智能重构",
+      "项目级理解",
+      "终端集成"
+    ],
+    "ja": [
+      "AI ネイティブなコードエディタ",
+      "マルチモデル対応（GPT-5.6、Claude Opus 4.6）",
+      "コード生成と編集",
+      "スマートなリファクタリング",
+      "プロジェクトレベルの理解",
+      "ターミナル統合"
+    ],
+    "es": [
+      "Editor de código nativo de IA",
+      "Compatibilidad multimodelo (GPT-5.6, Claude Opus 4.6)",
+      "Generación y edición de código",
+      "Refactorización inteligente",
+      "Comprensión a nivel de proyecto",
+      "Integración con la terminal"
+    ],
+    "fr": [
+      "Éditeur de code natif IA",
+      "Prise en charge multi-modèles (GPT-5.6, Claude Opus 4.6)",
+      "Génération et édition de code",
+      "Refactorisation intelligente",
+      "Compréhension au niveau du projet",
+      "Intégration du terminal"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Basic features free",
+      "zh": "基础功能免费",
+      "ja": "基本機能は無料",
+      "es": "Funciones básicas gratuitas",
+      "fr": "Fonctions de base gratuites"
+    },
+    "pro": {
+      "en": "$20/month (unlimited completion)",
+      "zh": "$20/月（无限补全）",
+      "ja": "月額20ドル（補完無制限）",
+      "es": "20 $/mes (completado ilimitado)",
+      "fr": "20 $/mois (complétion illimitée)"
+    },
+    "pro-plus": {
+      "en": "$60/month (Pro+, 3x Pro usage)",
+      "zh": "$60/月（Pro+、3 倍 Pro 用量）",
+      "ja": "月額60ドル（Pro+、Pro の3倍の利用量）",
+      "es": "60 $/mes (Pro+, 3x el uso de Pro)",
+      "fr": "60 $/mois (Pro+, 3x l'usage Pro)"
+    },
+    "ultra": {
+      "en": "$200/month (Ultra, 20x Pro usage, priority access)",
+      "zh": "$200/月（Ultra、20 倍 Pro 用量、优先访问）",
+      "ja": "月額200ドル（Ultra、Pro の20倍の利用量、優先アクセス）",
+      "es": "200 $/mes (Ultra, 20x el uso de Pro, acceso prioritario)",
+      "fr": "200 $/mois (Ultra, 20x l'usage Pro, accès prioritaire)"
+    },
+    "business": {
+      "en": "$40/user/month (business)",
+      "zh": "$40/人/月（企业版）",
+      "ja": "1ユーザー月額40ドル（ビジネス）",
+      "es": "40 $/usuario/mes (empresas)",
+      "fr": "40 $/utilisateur/mois (entreprise)"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Full-stack development",
+      "Rapid prototyping",
+      "Code refactoring",
+      "Learning programming",
+      "Team collaboration",
+      "Open-source contribution"
+    ],
+    "zh": [
+      "全栈开发",
+      "快速原型开发",
+      "代码重构",
+      "学习编程",
+      "团队协作",
+      "开源项目贡献"
+    ],
+    "ja": [
+      "フルスタック開発",
+      "迅速なプロトタイピング",
+      "コードのリファクタリング",
+      "プログラミング学習",
+      "チームコラボレーション",
+      "オープンソースへの貢献"
+    ],
+    "es": [
+      "Desarrollo full-stack",
+      "Prototipado rápido",
+      "Refactorización de código",
+      "Aprender a programar",
+      "Colaboración en equipo",
+      "Contribución a código abierto"
+    ],
+    "fr": [
+      "Développement full-stack",
+      "Prototypage rapide",
+      "Refactorisation de code",
+      "Apprentissage de la programmation",
+      "Collaboration d'équipe",
+      "Contribution open source"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Smooth AI-native experience",
+      "Flexible multi-model choice",
+      "Strong project understanding",
+      "Powerful refactoring"
+    ],
+    "zh": [
+      "AI 原生体验流畅",
+      "多模型选择灵活",
+      "项目理解能力强",
+      "重构功能强大"
+    ],
+    "ja": [
+      "スムーズな AI ネイティブ体験",
+      "柔軟なマルチモデル選択",
+      "強力なプロジェクト理解",
+      "強力なリファクタリング"
+    ],
+    "es": [
+      "Experiencia nativa de IA fluida",
+      "Elección multimodelo flexible",
+      "Sólida comprensión del proyecto",
+      "Refactorización potente"
+    ],
+    "fr": [
+      "Expérience native IA fluide",
+      "Choix multi-modèles flexible",
+      "Bonne compréhension du projet",
+      "Refactorisation puissante"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Limited free version",
+      "Learning cost exists",
+      "Ecosystem not as mature as VS Code"
+    ],
+    "zh": [
+      "免费版限制较多",
+      "学习成本存在",
+      "生态不如 VS Code"
+    ],
+    "ja": [
+      "無料版は制限が多い",
+      "習得にコストがかかる",
+      "エコシステムは VS Code ほど成熟していない"
+    ],
+    "es": [
+      "Versión gratuita limitada",
+      "Existe un coste de aprendizaje",
+      "Ecosistema menos maduro que VS Code"
+    ],
+    "fr": [
+      "Version gratuite limitée",
+      "Coût d'apprentissage existant",
+      "Écosystème moins mature que VS Code"
+    ]
+  },
+  "latestUpdate": {
+    "en": "2026: Cursor upgraded with GPT-5.6, Claude Opus 4.6 and smarter code understanding",
+    "zh": "2026年：Cursor 升级，支持 GPT-5.6、Claude Opus 4.6 和更智能的代码理解",
+    "ja": "2026年：Cursor が GPT-5.6、Claude Opus 4.6 に対応し、より賢いコード理解を実現",
+    "es": "2026: Cursor se actualiza con GPT-5.6, Claude Opus 4.6 y una comprensión de código más inteligente",
+    "fr": "2026 : Cursor est mis à jour avec GPT-5.6, Claude Opus 4.6 et une compréhension du code plus intelligente"
+  },
+  "verdict": {
+    "badge": "Highly Recommended",
+    "headline": {
+      "en": "The editor built around AI from day one — if you want AI to be a first-class citizen in your coding workflow, this is it.",
+      "zh": "从第一天起就围绕 AI 构建的编辑器——如果你希望 AI 成为编码工作流的一等公民，选它就对了。",
+      "ja": "初日からAIを中心に構築されたエディタ——コーディングワークフローでAIを第一級市民にしたいなら、これが正解。",
+      "es": "El editor construido alrededor de la IA desde el día uno — si quieres que la IA sea ciudadana de primera clase en tu flujo de codificación, es este.",
+      "fr": "L'éditeur construit autour de l'IA dès le premier jour — si vous voulez que l'IA soit un citoyen de première classe dans votre workflow de codage, c'est celui-ci."
+    },
+    "body": {
+      "en": "Cursor took VS Code's familiar interface and rebuilt the AI interaction layer from scratch. The result is an editor where AI isn't bolted on—it's woven into every action. Tab completion predicts multi-line changes based on your intent, Cmd+K rewrites selected code in place, and the composer mode orchestrates changes across multiple files simultaneously. These aren't gimmicks; they meaningfully reduce the friction between thinking and implementation.\n\nThe model flexibility is a practical advantage: you can use Claude, GPT-4, or other models depending on the task, switching between them mid-conversation. The codebase indexing means the AI understands your project structure, not just the current file. For solo developers and small teams doing rapid prototyping or complex refactoring, Cursor currently offers the tightest human-AI collaboration loop.\n\nThe trade-offs: it's subscription-based with usage limits on premium models, the enterprise compliance story is less mature than GitHub Copilot, and it's macOS/Windows/Linux only (no web IDE). If your team is heavily invested in JetBrains IDEs, switching to Cursor means leaving that ecosystem entirely.",
+      "zh": "Cursor 拿了 VS Code 熟悉的界面，从零重建了 AI 交互层。结果是一个 AI 不是外挂而是融入每个操作的编辑器。Tab 补全基于你的意图预测多行变更，Cmd+K 原地重写选中代码，composer 模式同时编排多文件修改。这些不是噱头，它们切实减少了思考与实现之间的摩擦。\n\n模型灵活性是实际优势：你可以根据任务使用 Claude、GPT-4 或其他模型，在对话中途切换。代码库索引意味着 AI 理解你的项目结构，而不仅仅是当前文件。对于做快速原型或复杂重构的独立开发者和小团队，Cursor 目前提供最紧密的人机协作循环。\n\n权衡：基于订阅且高级模型有用量限制，企业合规不如 GitHub Copilot 成熟，仅支持桌面端（无 Web IDE）。如果你的团队深度依赖 JetBrains IDE，切换到 Cursor 意味着完全离开那个生态。",
+      "ja": "CursorはVS Codeの馴染みあるインターフェースを取り、AIインタラクション層をゼロから再構築しました。結果はAIがボルトオンではなく、あらゆるアクションに織り込まれたエディタです。Tabコンプリートは意図に基づいて複数行の変更を予測し、Cmd+Kは選択したコードをその場で書き換え、コンポーザーモードは複数ファイルにまたがる変更を同時にオーケストレートします。\n\nモデルの柔軟性は実用的な利点です：タスクに応じてClaude、GPT-4、その他のモデルを使い分け、会話の途中で切り替えられます。コードベースインデックスはAIが現在のファイルだけでなくプロジェクト構造を理解することを意味します。\n\nトレードオフ：プレミアムモデルに使用制限があるサブスクリプション制、企業コンプライアンスはGitHub Copilotより未成熟、デスクトップのみ（Web IDEなし）。JetBrains IDEに深く投資しているチームは、Cursorへの切り替えはそのエコシステムを完全に離れることを意味します。",
+      "es": "Cursor tomó la interfaz familiar de VS Code y reconstruyó la capa de interacción IA desde cero. El resultado es un editor donde la IA no está atornillada—está tejida en cada acción. Tab completion predice cambios multilínea basados en tu intención, Cmd+K reescribe código seleccionado in situ, y el modo composer orquesta cambios en múltiples archivos simultáneamente.\n\nLa flexibilidad de modelos es una ventaja práctica: puedes usar Claude, GPT-4 u otros modelos según la tarea, cambiando entre ellos a mitad de conversación. El indexado del código base significa que la IA entiende la estructura de tu proyecto, no solo el archivo actual.\n\nLas concesiones: es basado en suscripción con límites de uso en modelos premium, la historia de cumplimiento empresarial es menos madura que GitHub Copilot, y es solo escritorio (sin IDE web). Si tu equipo está invertido en JetBrains, cambiar a Cursor significa dejar ese ecosistema.",
+      "fr": "Cursor a pris l'interface familière de VS Code et reconstruit la couche d'interaction IA de zéro. Le résultat est un éditeur où l'IA n'est pas boulonnée—elle est tissée dans chaque action. La complétion Tab prédit des changements multi-lignes basés sur votre intention, Cmd+K réécrit le code sélectionné sur place, et le mode composer orchestre des changements sur plusieurs fichiers simultanément.\n\nLa flexibilité des modèles est un avantage pratique : vous pouvez utiliser Claude, GPT-4 ou d'autres modèles selon la tâche, basculant entre eux en cours de conversation. L'indexation de la base de code signifie que l'IA comprend la structure de votre projet, pas seulement le fichier courant.\n\nLes compromis : abonnement avec limites d'utilisation sur les modèles premium, conformité entreprise moins mature que GitHub Copilot, et desktop uniquement (pas d'IDE web). Si votre équipe est investie dans JetBrains, passer à Cursor signifie quitter cet écosystème."
+    },
+    "bestFor": {
+      "en": [
+        "Solo developers and small teams doing rapid prototyping",
+        "Complex multi-file refactoring with AI guidance",
+        "Developers who want to use multiple AI models flexibly",
+        "Anyone whose workflow is already VS Code-based"
+      ],
+      "zh": [
+        "做快速原型的独立开发者和小团队",
+        "AI 引导的复杂多文件重构",
+        "想灵活使用多种 AI 模型的开发者",
+        "工作流已基于 VS Code 的人"
+      ],
+      "ja": [
+        "ラピッドプロトタイピングを行うソロ開発者や小規模チーム",
+        "AIガイダンスによる複雑なマルチファイルリファクタリング",
+        "複数のAIモデルを柔軟に使いたい開発者",
+        "ワークフローが既にVS Codeベースの人"
+      ],
+      "es": [
+        "Desarrolladores individuales y equipos pequeños haciendo prototipado rápido",
+        "Refactorización compleja multi-archivo con guía IA",
+        "Desarrolladores que quieren usar múltiples modelos IA flexiblemente",
+        "Cualquiera cuyo flujo ya esté basado en VS Code"
+      ],
+      "fr": [
+        "Développeurs solo et petites équipes faisant du prototypage rapide",
+        "Refactoring complexe multi-fichiers avec guidage IA",
+        "Développeurs voulant utiliser plusieurs modèles IA de façon flexible",
+        "Quiconque dont le workflow est déjà basé sur VS Code"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "Your team requires enterprise compliance, IP indemnification, and audit logs (→ GitHub Copilot)",
+        "You work primarily in JetBrains IDEs and don't want to switch (→ GitHub Copilot, JetBrains AI)",
+        "You prefer terminal-based agentic workflows over editor-based ones (→ Claude Code)"
+      ],
+      "zh": [
+        "你的团队需要企业合规、IP 赔偿和审计日志（→ GitHub Copilot）",
+        "你主要在 JetBrains IDE 中工作且不想切换（→ GitHub Copilot、JetBrains AI）",
+        "你偏好基于终端的智能体工作流而非编辑器（→ Claude Code）"
+      ],
+      "ja": [
+        "チームが企業コンプライアンス、IP補償、監査ログを必要とする場合（→ GitHub Copilot）",
+        "主にJetBrains IDEで作業し切り替えたくない場合（→ GitHub Copilot、JetBrains AI）",
+        "エディタベースよりターミナルベースのエージェントワークフローを好む場合（→ Claude Code）"
+      ],
+      "es": [
+        "Tu equipo requiere cumplimiento empresarial, indemnización IP y registros de auditoría (→ GitHub Copilot)",
+        "Trabajas principalmente en IDEs JetBrains y no quieres cambiar (→ GitHub Copilot, JetBrains AI)",
+        "Prefieres flujos agénticos basados en terminal sobre editor (→ Claude Code)"
+      ],
+      "fr": [
+        "Votre équipe nécessite la conformité entreprise, l'indemnisation IP et les journaux d'audit (→ GitHub Copilot)",
+        "Vous travaillez principalement dans les IDEs JetBrains et ne voulez pas changer (→ GitHub Copilot, JetBrains AI)",
+        "Vous préférez les workflows agentiques en terminal plutôt qu'en éditeur (→ Claude Code)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-27",
+    "verdictDate": "2026-07-27",
+    "pricingVerified": "2026-07-27"
+  }
+}

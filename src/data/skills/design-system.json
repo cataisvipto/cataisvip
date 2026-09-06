@@ -1,0 +1,78 @@
+{
+  "slug": "design-system",
+  "name": "Design System",
+  "nameZh": "设计系统",
+  "description": "设计系统与 Token 管理技能。覆盖设计 Token 架构、组件规范、CSS 变量、间距/字体比例尺。",
+  "descriptionEn": "Design system and token management skill. Covers design token architecture, component specs, CSS variables, spacing/typography scales.",
+  "descriptionJa": "デザインシステムとトークン管理スキル。デザイントークンアーキテクチャ、コンポーネント仕様、CSS変数、スペーシング/タイポグラフィスケール。",
+  "descriptionEs": "Sistema de diseño y gestión de tokens. Arquitectura de tokens de diseño, especificaciones de componentes, variables CSS.",
+  "descriptionFr": "Système de design et gestion des tokens. Architecture des tokens de design, spécifications de composants, variables CSS.",
+  "developer": "nextlevelbuilder",
+  "developerZh": "nextlevelbuilder",
+  "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
+  "agents": [
+    "claude",
+    "cursor",
+    "codex",
+    "generic"
+  ],
+  "category": "Design",
+  "tags": [
+    "Free",
+    "Open Source"
+  ],
+  "installCommand": "Available via plugin marketplace. See README for details.",
+  "logo": "/logos/skills/design-system.png",
+  "stars": 125024,
+  "featured": false,
+  "faqs": [
+    {
+      "question": {
+        "zh": "Design System 技能解决什么问题？",
+        "en": "What problem does the Design System skill solve?",
+        "ja": "Design System スキルはどんな問題を解決しますか？",
+        "es": "¿Qué problema resuelve la habilidad Design System?",
+        "fr": "Quel problème la compétence Design System résout-elle ?"
+      },
+      "answer": {
+        "zh": "它教会 AI 设计系统工程：三层设计 Token 架构（原始层→语义层→组件层）、CSS 变量组织、间距与字体比例体系、组件规范撰写，让项目的视觉决策从散落的魔法数字变成可维护的系统。",
+        "en": "It teaches AI design system engineering: three-layer design token architecture (primitive → semantic → component), CSS variable organization, spacing and typography scales, and component spec writing — turning scattered magic numbers into a maintainable system.",
+        "ja": "AI にデザインシステムエンジニアリングを教えます。3 層のデザイントークン構造（プリミティブ→セマンティック→コンポーネント）、CSS 変数の整理、余白とタイポグラフィのスケール体系、コンポーネント仕様の書き方。散在するマジックナンバーを保守可能なシステムに変えます。",
+        "es": "Enseña a la IA ingeniería de sistemas de diseño: arquitectura de tokens en tres capas (primitivos → semánticos → componentes), organización de variables CSS, escalas de espaciado y tipografía, y redacción de especificaciones de componentes.",
+        "fr": "Elle enseigne à l'IA l'ingénierie des design systems : architecture de tokens à trois niveaux (primitif → sémantique → composant), organisation des variables CSS, échelles d'espacement et de typographie, rédaction de specs de composants — fini les nombres magiques dispersés."
+      }
+    },
+    {
+      "question": {
+        "zh": "怎么安装 Design System 技能？",
+        "en": "How do I install the Design System skill?",
+        "ja": "Design System スキルをインストールするには？",
+        "es": "¿Cómo instalo la habilidad Design System?",
+        "fr": "Comment installer la compétence Design System ?"
+      },
+      "answer": {
+        "zh": "在 Claude Code、Cursor 或 Codex 的插件市场里添加即可，命令详见 GitHub README。适合在项目初期让 AI 先建立 Token 体系，后续所有 UI 产出都会引用统一变量。",
+        "en": "Add it via the Claude Code, Cursor or Codex plugin marketplace — see the GitHub README for commands. Best used early in a project so the AI establishes the token system first; all later UI output references the unified variables.",
+        "ja": "Claude Code、Cursor、Codex のプラグインマーケットから追加できます（コマンドは GitHub README 参照）。プロジェクト初期に AI にトークン体系を構築させるのが最適で、以降のすべての UI 生成が統一変数を参照するようになります。",
+        "es": "Añádela vía el marketplace de Claude Code, Cursor o Codex; consulta el README de GitHub. Es ideal usarla al inicio del proyecto para que la IA establezca primero el sistema de tokens; todo el UI posterior referenciará las variables unificadas.",
+        "fr": "Ajoutez-la via le marketplace de Claude Code, Cursor ou Codex — commandes dans le README GitHub. Idéale en début de projet : l'IA établit d'abord le système de tokens, et toute l'UI ultérieure référence les variables unifiées."
+      }
+    },
+    {
+      "question": {
+        "zh": "小项目也需要设计系统吗？",
+        "en": "Do small projects need a design system too?",
+        "ja": "小規模プロジェクトにもデザインシステムは必要ですか？",
+        "es": "¿Los proyectos pequeños también necesitan un sistema de diseño?",
+        "fr": "Les petits projets ont-ils aussi besoin d’un design system ?"
+      },
+      "answer": {
+        "zh": "技能免费开源，小项目同样受益：AI 协作开发中最常见的痛点就是每次生成的样式互不一致。哪怕只有十几个组件，统一的 Token 也能让暗色模式、改主题色这类需求从灾难变成一行变量的事。",
+        "en": "Free and open source — and yes, small projects benefit too. The most common pain in AI-assisted development is inconsistent styles across generations. Even with a dozen components, unified tokens turn dark mode or theme color changes from a disaster into a one-variable edit.",
+        "ja": "スキルは無料のオープンソースで、小規模プロジェクトにも有益です。AI 協働開発で最も多い悩みは、生成のたびにスタイルがバラつくこと。コンポーネントが十数個でも、統一トークンがあればダークモード対応やテーマカラー変更が「災難」から「変数 1 行の修正」になります。",
+        "es": "Gratuita y de código abierto, y sí: los proyectos pequeños también se benefician. El dolor más común del desarrollo asistido por IA son los estilos inconsistentes. Incluso con una docena de componentes, los tokens unificados convierten el modo oscuro o el cambio de tema en editar una variable.",
+        "fr": "Gratuite et open source — et oui, les petits projets en profitent aussi. Le problème le plus courant du développement assisté par IA : des styles incohérents à chaque génération. Même avec une douzaine de composants, des tokens unifiés transforment le mode sombre ou le changement de thème en une simple variable à éditer."
+      }
+    }
+  ]
+}

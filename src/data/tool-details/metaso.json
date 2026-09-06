@@ -1,0 +1,235 @@
+{
+  "features": {
+    "en": [
+      "Ad-free AI search that answers directly with cited sources — no link farms",
+      "Auto-generates outlines, mind maps, timelines and related people for every query",
+      "Academic search mode digs into scholarly papers and Chinese journal databases",
+      "Deep research mode produces structured long-form reports on complex topics",
+      "iOS and Android apps alongside the web version, with cloud knowledge base support",
+      "Open search API priced at ¥0.03 per query — a drop-in Bing Search API alternative"
+    ],
+    "zh": [
+      "无广告 AI 搜索，直接给出带引用来源的答案——没有链接农场",
+      "每次搜索自动生成大纲、思维导图、时间线与相关人物",
+      "学术搜索模式深入学术论文与中文期刊数据库",
+      "深入研究模式可就复杂议题产出结构化长篇报告",
+      "网页版之外提供 iOS 与 Android App，支持云端知识库",
+      "开放搜索 API，每次查询 ¥0.03——Bing Search API 下线后的替代选择"
+    ],
+    "ja": [
+      "広告なしのAI検索。引用元付きで直接回答——リンク集は表示しない",
+      "検索ごとにアウトライン、マインドマップ、タイムライン、関連人物を自動生成",
+      "学術検索モードは学術論文や中国語ジャーナルデータベースを深掘り",
+      "ディープリサーチモードで複雑なテーマの構造化された長文レポートを生成",
+      "Web版に加えiOS・Androidアプリを提供、クラウド知識ベースにも対応",
+      "検索APIを公開、1クエリ¥0.03——Bing Search APIの代替として使える"
+    ],
+    "es": [
+      "Búsqueda IA sin anuncios que responde directamente con fuentes citadas, sin granjas de enlaces",
+      "Genera automáticamente esquemas, mapas mentales, cronologías y personas relacionadas en cada consulta",
+      "El modo de búsqueda académica explora artículos científicos y bases de revistas chinas",
+      "El modo de investigación profunda produce informes largos y estructurados sobre temas complejos",
+      "Apps para iOS y Android junto a la versión web, con base de conocimiento en la nube",
+      "API de búsqueda abierta a ¥0.03 por consulta, una alternativa directa a la Bing Search API"
+    ],
+    "fr": [
+      "Recherche IA sans publicité qui répond directement avec des sources citées — pas de fermes de liens",
+      "Génère automatiquement plans, cartes mentales, chronologies et personnes liées à chaque requête",
+      "Le mode recherche académique explore les articles scientifiques et les bases de revues chinoises",
+      "Le mode recherche approfondie produit des rapports longs et structurés sur des sujets complexes",
+      "Apps iOS et Android en plus de la version web, avec base de connaissances cloud",
+      "API de recherche ouverte à 0,03 ¥ par requête — une alternative directe à la Bing Search API"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Core AI search is free and ad-free with a daily allowance of basic searches; advanced modes and heavy research consume member credits.",
+      "zh": "核心 AI 搜索免费且无广告，每日有基础搜索额度；高级模式与重度研究会消耗会员积分。",
+      "ja": "コアのAI検索は無料かつ広告なしで、基本検索の1日あたりの利用枠がある。高度なモードや本格的なリサーチは会員クレジットを消費する。",
+      "es": "La búsqueda IA básica es gratuita y sin anuncios con una asignación diaria; los modos avanzados y la investigación intensiva consumen créditos de miembro.",
+      "fr": "La recherche IA de base est gratuite et sans publicité avec une allocation quotidienne ; les modes avancés et la recherche intensive consomment des crédits membres."
+    },
+    "paid": {
+      "en": "Membership unlocks advanced/long-thinking modes and higher quotas; on the US App Store the monthly membership lists at $5.99 and the annual at $29.99, with credit packs sold separately (mainland pricing is in RMB via the official site). The search API costs ¥0.03 per query. (Verified against the official site and App Store listing, 2026-07-28.)",
+      "zh": "会员解锁高级/长思考模式与更高额度；美区 App Store 标价月度会员 $5.99、年度会员 $29.99，另售积分包（国内以人民币计价，以官网为准）。搜索 API 每次查询 ¥0.03。（对照官网与 App Store 商品页核实，2026-07-28。）",
+      "ja": "会員になると高度モード・ロングシンキングモードとより高い利用枠が解放される。米国App Storeでは月額$5.99、年額$29.99で、クレジットパックは別売り（中国本土は公式サイトで人民元建て）。検索APIは1クエリ¥0.03。（公式サイトとApp Storeの表示と照合、2026-07-28。）",
+      "es": "La membresía desbloquea modos avanzados y cuotas mayores; en la App Store de EE. UU. la membresía mensual figura a $5.99 y la anual a $29.99, con packs de créditos aparte (en China continental se cobra en RMB vía web oficial). La API de búsqueda cuesta ¥0.03 por consulta. (Verificado con el sitio oficial y la App Store, 2026-07-28.)",
+      "fr": "L'abonnement débloque les modes avancés/réflexion longue et des quotas supérieurs ; sur l'App Store américain, l'abonnement mensuel est affiché à 5,99 $ et l'annuel à 29,99 $, avec des packs de crédits vendus séparément (tarification en RMB via le site officiel en Chine). L'API de recherche coûte 0,03 ¥ par requête. (Vérifié avec le site officiel et l'App Store, 2026-07-28.)"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Chinese-language research where Baidu's ad-heavy results waste your time",
+      "Students and academics mining papers via the academic search mode",
+      "Turning a vague topic into an outline and mind map in one query",
+      "Developers needing an affordable Chinese-index search API"
+    ],
+    "zh": [
+      "中文资料检索——不想再被百度的广告结果浪费时间",
+      "学生与研究者用学术搜索模式挖掘论文",
+      "一次搜索就把模糊议题变成大纲和思维导图",
+      "需要低价中文索引搜索 API 的开发者"
+    ],
+    "ja": [
+      "広告だらけの検索結果に時間を奪われたくない中国語リサーチ",
+      "学術検索モードで論文を掘り下げる学生・研究者",
+      "曖昧なテーマを1回の検索でアウトラインとマインドマップに変換",
+      "手頃な中国語インデックス検索APIが必要な開発者"
+    ],
+    "es": [
+      "Investigación en chino cuando los resultados llenos de anuncios de Baidu hacen perder tiempo",
+      "Estudiantes y académicos explorando artículos con el modo de búsqueda académica",
+      "Convertir un tema difuso en esquema y mapa mental con una sola consulta",
+      "Desarrolladores que necesitan una API de búsqueda de índice chino asequible"
+    ],
+    "fr": [
+      "Recherche en chinois quand les résultats saturés de pub de Baidu font perdre du temps",
+      "Étudiants et universitaires exploitant les articles via le mode recherche académique",
+      "Transformer un sujet flou en plan et carte mentale en une seule requête",
+      "Développeurs ayant besoin d'une API de recherche à index chinois abordable"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Genuinely ad-free with direct, citation-backed answers — a rarity in Chinese search",
+      "Outline, mind map and timeline generation turns search into structured research",
+      "Academic mode is unusually strong for Chinese scholarly sources",
+      "Search API at ¥0.03/query is one of the cheapest ways to tap a Chinese index"
+    ],
+    "zh": [
+      "真正无广告、带引用直达答案——在中文搜索里实属稀缺",
+      "大纲、思维导图与时间线生成把搜索升级成结构化研究",
+      "学术模式对中文学术资源的覆盖尤其突出",
+      "¥0.03/次的搜索 API 是接入中文索引最便宜的方式之一"
+    ],
+    "ja": [
+      "本当に広告なしで、引用付きの直接回答——中国語検索では希少",
+      "アウトライン・マインドマップ・タイムライン生成で検索が構造化リサーチに",
+      "学術モードは中国語学術ソースへの対応が特に強力",
+      "1クエリ¥0.03の検索APIは中国語インデックス活用の最安級手段"
+    ],
+    "es": [
+      "Realmente sin anuncios y con respuestas directas citadas, una rareza en la búsqueda china",
+      "La generación de esquemas, mapas mentales y cronologías convierte la búsqueda en investigación estructurada",
+      "El modo académico es inusualmente fuerte en fuentes académicas chinas",
+      "La API a ¥0.03/consulta es de las formas más baratas de acceder a un índice chino"
+    ],
+    "fr": [
+      "Véritablement sans publicité, avec des réponses directes et sourcées — une rareté dans la recherche chinoise",
+      "La génération de plans, cartes mentales et chronologies transforme la recherche en étude structurée",
+      "Le mode académique est particulièrement solide sur les sources savantes chinoises",
+      "L'API à 0,03 ¥/requête est l'un des moyens les moins chers d'exploiter un index chinois"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Strongest on Chinese-language sources; English coverage trails Perplexity",
+      "Deep research and advanced modes burn through member credits quickly",
+      "Long-thinking and premium models sit behind the membership paywall",
+      "Like all AI search, citations still need spot-checking for hallucinated claims"
+    ],
+    "zh": [
+      "强项在中文信息源，英文覆盖不及 Perplexity",
+      "深入研究与高级模式消耗会员积分较快",
+      "长思考与高级模型在会员付费墙之后",
+      "与所有 AI 搜索一样，引用仍需抽查以防幻觉"
+    ],
+    "ja": [
+      "強みは中国語ソースで、英語のカバレッジはPerplexityに及ばない",
+      "ディープリサーチや高度モードは会員クレジットの消費が速い",
+      "ロングシンキングと上位モデルは会員の有料壁の向こう側",
+      "他のAI検索と同様、引用は幻覚がないか抜き取り確認が必要"
+    ],
+    "es": [
+      "Más fuerte en fuentes en chino; la cobertura en inglés va por detrás de Perplexity",
+      "La investigación profunda y los modos avanzados consumen créditos rápidamente",
+      "El modo de pensamiento largo y los modelos premium están tras el muro de pago",
+      "Como toda búsqueda IA, las citas requieren verificación puntual contra alucinaciones"
+    ],
+    "fr": [
+      "Plus fort sur les sources en chinois ; la couverture anglaise reste derrière Perplexity",
+      "La recherche approfondie et les modes avancés consomment vite les crédits membres",
+      "La réflexion longue et les modèles premium sont derrière le paywall de l'abonnement",
+      "Comme toute recherche IA, les citations demandent des vérifications ponctuelles contre les hallucinations"
+    ]
+  },
+  "latestUpdate": {
+    "en": "2026: Metaso has expanded from pure AI search into a research workbench — deep research reports, academic search, cloud knowledge bases and report templates for business analysis. Its self-built multilingual index now powers an open search API at ¥0.03 per query, positioned as a successor to the retired Bing Search API for Chinese developers.",
+    "zh": "2026 年：秘塔从纯 AI 搜索扩展为研究工作台——深入研究报告、学术搜索、云端知识库与面向商业分析的报告模板。其自建的多语言索引库现已支撑开放搜索 API（¥0.03/次），定位为 Bing Search API 下线后中文开发者的接棒选择。",
+    "ja": "2026年：秘塔は純粋なAI検索からリサーチワークベンチへ拡張——ディープリサーチレポート、学術検索、クラウド知識ベース、ビジネス分析向けレポートテンプレートを提供。自社構築の多言語インデックスは1クエリ¥0.03のオープン検索APIを支え、Bing Search API終了後の中国開発者向け後継として位置づけられている。",
+    "es": "2026: Metaso ha pasado de la búsqueda IA pura a un banco de trabajo de investigación: informes de investigación profunda, búsqueda académica, bases de conocimiento en la nube y plantillas de informes para análisis de negocio. Su índice multilingüe propio impulsa una API de búsqueda abierta a ¥0.03 por consulta, posicionada como sucesora de la retirada Bing Search API para desarrolladores chinos.",
+    "fr": "2026 : Metaso est passé de la recherche IA pure à un atelier de recherche — rapports de recherche approfondie, recherche académique, bases de connaissances cloud et modèles de rapports pour l'analyse business. Son index multilingue maison alimente une API de recherche ouverte à 0,03 ¥ par requête, positionnée comme successeur de la Bing Search API retirée pour les développeurs chinois."
+  },
+  "verdict": {
+    "badge": "Recommended",
+    "headline": {
+      "en": "China's sharpest AI search — built for research, not link-clicking",
+      "zh": "国内最锋利的 AI 搜索——为研究而生，不是为点链接",
+      "ja": "中国で最も切れ味鋭いAI検索——リンクを踏むためではなく、リサーチのために",
+      "es": "La búsqueda IA más afilada de China, hecha para investigar, no para clicar enlaces",
+      "fr": "La recherche IA la plus affûtée de Chine — conçue pour la recherche, pas pour cliquer des liens"
+    },
+    "body": {
+      "en": "Metaso answered a question Chinese users had been asking for years: what would search look like without ads? Its results page is a small revelation — a direct, citation-backed answer flanked by an auto-generated outline, mind map and timeline, so a single query lands you halfway into structured research. The academic mode is the sleeper hit, reaching into Chinese journal databases that Western AI search barely touches, and the deep research mode turns complex topics into long-form reports. The ¥0.03-per-query API quietly became infrastructure for developers left stranded by Bing's API retirement. The honest limits: English-language coverage trails Perplexity, heavy research chews through member credits, and the best models sit behind a modest membership fee. But for anyone whose work lives even partly in Chinese sources — students, analysts, developers — Metaso is the strongest argument yet that AI search can respect both your time and your intelligence.",
+      "zh": "秘塔回答了中国用户多年来的一个疑问：没有广告的搜索长什么样？它的结果页堪称小小的启示——一条带引用的直达答案，旁边是自动生成的大纲、思维导图与时间线，一次搜索就把你送到结构化研究的半途。学术模式是隐藏王牌，深入西方 AI 搜索几乎不触及的中文期刊数据库；深入研究模式则把复杂议题变成长篇报告。¥0.03/次的 API 悄然成为 Bing API 下线后开发者的基础设施。诚实的边界：英文覆盖不及 Perplexity，重度研究消耗会员积分较快，最好的模型在不算贵的会员墙后。但只要你的工作有一部分依赖中文信息源——学生、分析师、开发者——秘塔就是「AI 搜索可以同时尊重你的时间和智商」迄今最有力的证明。",
+      "ja": "秘塔は中国のユーザーが長年抱いてきた疑問に答えた：広告のない検索とはどんなものか？その結果ページはちょっとした啓示だ——引用付きの直接回答の横に、自動生成されたアウトライン、マインドマップ、タイムラインが並び、1回の検索で構造化リサーチの半分まで到達できる。学術モードは隠れた切り札で、欧米のAI検索がほぼ触れない中国語ジャーナルデータベースまで踏み込む。ディープリサーチモードは複雑なテーマを長文レポートに変える。1クエリ¥0.03のAPIは、Bing API終了で行き場を失った開発者のインフラに静かになった。正直な限界：英語カバレッジはPerplexityに及ばず、本格的なリサーチは会員クレジットを速く消費し、最良のモデルは手頃な会員費の壁の向こうにある。しかし仕事の一部でも中国語ソースに依存するなら——学生、アナリスト、開発者——秘塔は「AI検索は時間と知性の両方を尊重できる」ことのこれまでで最も力強い証明だ。",
+      "es": "Metaso respondió una pregunta que los usuarios chinos llevaban años haciéndose: ¿cómo sería la búsqueda sin anuncios? Su página de resultados es una pequeña revelación: una respuesta directa con citas, flanqueada por un esquema, un mapa mental y una cronología autogenerados, de modo que una sola consulta te deja a medio camino de una investigación estructurada. El modo académico es la joya oculta, llegando a bases de revistas chinas que la búsqueda IA occidental apenas toca, y el modo de investigación profunda convierte temas complejos en informes extensos. La API a ¥0.03 por consulta se convirtió discretamente en infraestructura para los desarrolladores huérfanos tras el retiro de la API de Bing. Los límites honestos: la cobertura en inglés va detrás de Perplexity, la investigación intensiva consume créditos rápido y los mejores modelos están tras una cuota de membresía modesta. Pero para cualquiera cuyo trabajo dependa aunque sea en parte de fuentes chinas —estudiantes, analistas, desarrolladores—, Metaso es el argumento más sólido hasta ahora de que la búsqueda IA puede respetar tu tiempo y tu inteligencia a la vez.",
+      "fr": "Metaso a répondu à une question que les utilisateurs chinois se posaient depuis des années : à quoi ressemblerait la recherche sans publicité ? Sa page de résultats est une petite révélation — une réponse directe et sourcée, flanquée d'un plan, d'une carte mentale et d'une chronologie générés automatiquement, si bien qu'une seule requête vous amène à mi-chemin d'une recherche structurée. Le mode académique est l'atout caché, plongeant dans des bases de revues chinoises que la recherche IA occidentale effleure à peine, et le mode recherche approfondie transforme les sujets complexes en rapports longs. L'API à 0,03 ¥ la requête est discrètement devenue une infrastructure pour les développeurs orphelins de l'API Bing. Les limites honnêtes : la couverture anglophone reste derrière Perplexity, la recherche intensive consomme vite les crédits membres, et les meilleurs modèles sont derrière un abonnement modeste. Mais pour quiconque travaille même partiellement sur des sources chinoises — étudiants, analystes, développeurs — Metaso est à ce jour la plus belle preuve qu'une recherche IA peut respecter à la fois votre temps et votre intelligence."
+    },
+    "bestFor": {
+      "en": [
+        "Researchers and students working heavily with Chinese-language sources",
+        "Anyone tired of ad-cluttered search who wants direct, cited answers",
+        "Developers needing a cheap, self-built Chinese-index search API"
+      ],
+      "zh": [
+        "大量使用中文信息源的研究者与学生",
+        "受够广告搜索、想要带引用直达答案的任何人",
+        "需要低价自建中文索引搜索 API 的开发者"
+      ],
+      "ja": [
+        "中国語ソースを多用する研究者・学生",
+        "広告まみれの検索にうんざりし、引用付きの直接回答が欲しい人",
+        "安価な中国語インデックス検索APIが必要な開発者"
+      ],
+      "es": [
+        "Investigadores y estudiantes que trabajan mucho con fuentes en chino",
+        "Cualquiera harto de búsquedas llenas de anuncios que quiera respuestas directas y citadas",
+        "Desarrolladores que necesitan una API de búsqueda de índice chino barata"
+      ],
+      "fr": [
+        "Chercheurs et étudiants travaillant beaucoup avec des sources en chinois",
+        "Quiconque en a assez des recherches saturées de pub et veut des réponses directes et sourcées",
+        "Développeurs ayant besoin d'une API de recherche à index chinois bon marché"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "Your research is mostly in English-language sources (→ Perplexity)",
+        "You want multilingual search plus slide/document generation (→ Felo)"
+      ],
+      "zh": [
+        "你的研究主要依赖英文信息源（→ Perplexity）",
+        "你想要多语言搜索外加 PPT/文档生成（→ Felo）"
+      ],
+      "ja": [
+        "リサーチが主に英語ソース中心（→ Perplexity）",
+        "多言語検索に加えスライド/ドキュメント生成が欲しい（→ Felo）"
+      ],
+      "es": [
+        "Tu investigación se basa sobre todo en fuentes en inglés (→ Perplexity)",
+        "Quieres búsqueda multilingüe más generación de presentaciones/documentos (→ Felo)"
+      ],
+      "fr": [
+        "Votre recherche repose surtout sur des sources anglophones (→ Perplexity)",
+        "Vous voulez une recherche multilingue plus la génération de slides/documents (→ Felo)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-28",
+    "verdictDate": "2026-07-28",
+    "pricingVerified": "2026-07-28",
+    "pricingUrl": "https://metaso.cn"
+  }
+}

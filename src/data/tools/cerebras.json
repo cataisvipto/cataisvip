@@ -1,0 +1,29 @@
+{
+  "slug": "cerebras",
+  "name": "Cerebras",
+  "nameZh": "Cerebras",
+  "description": "晶圆级引擎（WSE）驱动的超快推理云，常被评测为全球最快，OpenAI 兼容 API 托管 Llama、Qwen、DeepSeek 等开源模型，注册送 $5 额度按量付费",
+  "descriptionEn": "Wafer-Scale Engine inference cloud often benchmarked as the world's fastest — an OpenAI-compatible API serving open models like Llama, Qwen and DeepSeek, with $5 free credits and pay-as-you-go pricing",
+  "descriptionJa": "ウエハースケールエンジン駆動の超高速推論クラウド。世界最速とベンチマークされることも多く、OpenAI互換APIでLlama・Qwen・DeepSeekなどのオープンモデルを提供。$5の無料クレジットと従量課金",
+  "descriptionEs": "Nube de inferencia con Wafer-Scale Engine, a menudo medida como la más rápida del mundo: una API compatible con OpenAI que sirve modelos abiertos como Llama, Qwen y DeepSeek, con $5 de créditos gratis y pago por uso",
+  "descriptionFr": "Cloud d'inférence Wafer-Scale Engine souvent mesuré comme le plus rapide au monde : une API compatible OpenAI servant des modèles ouverts comme Llama, Qwen et DeepSeek, avec 5 $ de crédits gratuits et paiement à l'usage",
+  "url": "https://www.cerebras.ai",
+  "logo": "/logos/tools/cerebras.png",
+  "category": "API Platform",
+  "tags": [
+    "Freemium",
+    "API"
+  ],
+  "featured": false,
+  "developer": "Cerebras",
+  "platforms": {
+    "web": true,
+    "windows": false,
+    "macos": false,
+    "ios": false,
+    "android": false,
+    "linux": false,
+    "browser_extension": false,
+    "api": true
+  }
+}

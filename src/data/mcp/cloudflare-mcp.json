@@ -1,0 +1,78 @@
+{
+  "slug": "cloudflare-mcp",
+  "name": "Cloudflare MCP",
+  "nameZh": "Cloudflare 官方 MCP",
+  "description": "Cloudflare 官方远程 MCP 服务器套件。覆盖文档检索、Workers 构建、可观测性、浏览器渲染等十余个服务器，直连 Cloudflare 全家桶能力。",
+  "descriptionEn": "Cloudflare's official suite of remote MCP servers. Covers docs search, Workers builds, observability, browser rendering and a dozen more servers connecting agents to the Cloudflare platform.",
+  "descriptionJa": "Cloudflare公式のリモートMCPサーバースイート。ドキュメント検索、Workersビルド、可観測性、ブラウザレンダリングなど十数種のサーバーでCloudflareプラットフォームに直結。",
+  "descriptionEs": "La suite oficial de servidores MCP remotos de Cloudflare. Cubre búsqueda de docs, builds de Workers, observabilidad, renderizado de navegador y una docena más de servidores de la plataforma Cloudflare.",
+  "descriptionFr": "La suite officielle de serveurs MCP distants de Cloudflare. Couvre la recherche de docs, les builds Workers, l'observabilité, le rendu navigateur et une douzaine d'autres serveurs de la plateforme Cloudflare.",
+  "developer": "Cloudflare",
+  "developerZh": "Cloudflare",
+  "repo": "cloudflare/mcp-server-cloudflare",
+  "clients": [
+    "claude",
+    "cursor",
+    "vscode",
+    "generic"
+  ],
+  "category": "Cloud",
+  "tags": [
+    "Free",
+    "Open Source"
+  ],
+  "installCommand": "npx mcp-remote https://docs.mcp.cloudflare.com/sse",
+  "logo": "/logos/mcp/cloudflare-mcp.png",
+  "stars": 4145,
+  "featured": false,
+  "faqs": [
+    {
+      "question": {
+        "zh": "Cloudflare MCP 提供哪些服务器？",
+        "en": "What servers does Cloudflare MCP provide?",
+        "ja": "Cloudflare MCP はどんなサーバーを提供しますか？",
+        "es": "¿Qué servidores ofrece Cloudflare MCP?",
+        "fr": "Quels serveurs Cloudflare MCP propose-t-il ?"
+      },
+      "answer": {
+        "zh": "Cloudflare 官方提供了一组托管 MCP 服务器：文档搜索、Workers 绑定、可观测性日志、Radar 流量洞察、浏览器渲染等十余个，按需接入即可让 AI 管理你的 Cloudflare 资源。",
+        "en": "Cloudflare officially hosts a suite of MCP servers — documentation search, Workers bindings, observability logs, Radar traffic insights, browser rendering and a dozen more. Connect the ones you need and let AI manage your Cloudflare resources.",
+        "ja": "Cloudflare はドキュメント検索、Workers バインディング、可観測性ログ、Radar トラフィック分析、ブラウザレンダリングなど十数種のホスト型 MCP サーバー群を公式提供しています。必要なものだけ接続して AI に Cloudflare リソースを管理させられます。",
+        "es": "Cloudflare aloja oficialmente un conjunto de servidores MCP: búsqueda de documentación, bindings de Workers, logs de observabilidad, análisis de tráfico Radar, renderizado de navegador y una docena más. Conecta los que necesites.",
+        "fr": "Cloudflare héberge officiellement une suite de serveurs MCP : recherche documentaire, bindings Workers, logs d'observabilité, analyses de trafic Radar, rendu de navigateur et une douzaine d'autres. Connectez ceux dont vous avez besoin."
+      }
+    },
+    {
+      "question": {
+        "zh": "怎么接入 Cloudflare 文档 MCP 服务器？",
+        "en": "How do I connect to the Cloudflare docs MCP server?",
+        "ja": "Cloudflare ドキュメント MCP サーバーに接続するには？",
+        "es": "¿Cómo me conecto al servidor MCP de documentación de Cloudflare?",
+        "fr": "Comment se connecter au serveur MCP de documentation Cloudflare ?"
+      },
+      "answer": {
+        "zh": "文档服务器是远程托管的，运行 npx mcp-remote https://docs.mcp.cloudflare.com/sse 即可桥接到任何 MCP 客户端；需要操作账号资源的服务器会引导你完成 Cloudflare OAuth 登录。",
+        "en": "The docs server is remotely hosted: run npx mcp-remote https://docs.mcp.cloudflare.com/sse to bridge it into any MCP client. Servers that touch account resources will walk you through Cloudflare OAuth login.",
+        "ja": "ドキュメントサーバーはリモートホスト型です。npx mcp-remote https://docs.mcp.cloudflare.com/sse を実行すれば任意の MCP クライアントに接続できます。アカウントリソースを扱うサーバーでは Cloudflare OAuth ログインが求められます。",
+        "es": "El servidor de docs está alojado remotamente: ejecuta npx mcp-remote https://docs.mcp.cloudflare.com/sse para conectarlo a cualquier cliente MCP. Los servidores que tocan recursos de cuenta te guiarán por el login OAuth de Cloudflare.",
+        "fr": "Le serveur de docs est hébergé à distance : exécutez npx mcp-remote https://docs.mcp.cloudflare.com/sse pour le relier à n'importe quel client MCP. Les serveurs touchant aux ressources du compte vous guideront via le login OAuth Cloudflare."
+      }
+    },
+    {
+      "question": {
+        "zh": "使用 Cloudflare MCP 需要付费账号吗？",
+        "en": "Do I need a paid Cloudflare account to use Cloudflare MCP?",
+        "ja": "Cloudflare MCP の利用に有料アカウントは必要ですか？",
+        "es": "¿Necesito una cuenta de pago de Cloudflare para usar Cloudflare MCP?",
+        "fr": "Faut-il un compte Cloudflare payant pour utiliser Cloudflare MCP ?"
+      },
+      "answer": {
+        "zh": "不需要。MCP 服务器本身免费开源，文档搜索等服务器无需账号即可用；管理类服务器只要有 Cloudflare 免费套餐账号就能连，能力范围跟随你的账号权限。",
+        "en": "No. The MCP servers themselves are free and open source. The docs server needs no account at all; management servers work with a free-tier Cloudflare account, with capabilities following your account permissions.",
+        "ja": "不要です。MCP サーバー自体は無料のオープンソースで、ドキュメント検索サーバーはアカウントなしで使えます。管理系サーバーも Cloudflare の無料プランで接続でき、権限はアカウントに準じます。",
+        "es": "No. Los servidores MCP son gratuitos y de código abierto. El servidor de docs no requiere cuenta; los de gestión funcionan con el plan gratuito de Cloudflare, con capacidades según tus permisos.",
+        "fr": "Non. Les serveurs MCP sont gratuits et open source. Le serveur de docs ne nécessite aucun compte ; les serveurs de gestion fonctionnent avec le plan gratuit de Cloudflare, selon vos permissions."
+      }
+    }
+  ]
+}

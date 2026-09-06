@@ -1,8 +1,8 @@
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import McpDetailClient from './McpDetailClient';
-import mcpServers from '@/data/mcp.json';
-import mcpDetails from '@/data/mcpDetails.json';
+import { mcp as mcpServers } from '@/data/aggregated';
+import { mcpDetails } from '@/data/aggregated';
 import tutorials from '@/data/tutorials.json';
 import { generateAlternates, getMcpMetaDescription } from '@/lib/seo';
 import { routing } from '@/i18n/routing';

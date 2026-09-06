@@ -1,0 +1,225 @@
+{
+  "features": {
+    "en": [
+      "Each team member gets their own isolated agent workspace",
+      "Slack and Web dual interface with same identity and config",
+      "Per-scope memory: personal, shared channels, and projects",
+      "Admin control: org-level config, security posture, harness/model selection",
+      "Built-in cron jobs, keychain, file management, and sandbox",
+      "Custom web app deployment from agent conversations",
+      "Shared skills with granular access control and org-wide promotion",
+      "Multi-harness: works with Pi, OpenCode, Codex, and Claude Code"
+    ],
+    "zh": [
+      "每个成员拥有独立智能体工作区",
+      "Slack 和 Web 双界面，同一身份和配置",
+      "按作用域的记忆：个人、共享频道、项目",
+      "管理员控制：组织级配置、安全策略、智能体/模型选择",
+      "内置定时任务、密钥链、文件管理和沙箱",
+      "从智能体对话中部署自定义 Web 应用",
+      "共享技能，细粒度访问控制和组织级推广",
+      "多智能体：支持 Pi、OpenCode、Codex 和 Claude Code"
+    ],
+    "ja": [
+      "各メンバーが独立したエージェントワークスペースを持つ",
+      "同一のIDと設定を持つSlackとWebのデュアルインターフェース",
+      "スコープ別メモリ：個人、共有チャンネル、プロジェクト",
+      "管理者コントロール：組織レベル設定、セキュリティポリシー、ハーネス/モデル選択",
+      "組み込みcronジョブ、キーチェーン、ファイル管理、サンドボックス",
+      "エージェントの会話からカスタムWebアプリをデプロイ",
+      "細粒度のアクセス制御と組織全体へのプロモーション付き共有スキル",
+      "マルチハーネス：Pi、OpenCode、Codex、Claude Codeに対応"
+    ],
+    "es": [
+      "Cada miembro del equipo tiene su propio espacio de trabajo de agente aislado",
+      "Interfaz dual Slack y Web con la misma identidad y configuración",
+      "Memoria por ámbito: personal, canales compartidos y proyectos",
+      "Control de administrador: config de org, postura de seguridad, selección de harness/modelo",
+      "Cron jobs integrados, keychain, gestión de archivos y sandbox",
+      "Despliegue de apps web personalizadas desde conversaciones con agentes",
+      "Skills compartidos con control de acceso granular y promoción a nivel de org",
+      "Multi-harness: funciona con Pi, OpenCode, Codex y Claude Code"
+    ],
+    "fr": [
+      "Chaque membre de l'équipe dispose de son propre espace de travail d'agent isolé",
+      "Interface double Slack et Web avec la même identité et configuration",
+      "Mémoire par portée : personnel, canaux partagés et projets",
+      "Contrôle admin : config d'organisation, posture de sécurité, sélection harness/modèle",
+      "Cron jobs intégrés, keychain, gestion de fichiers et sandbox",
+      "Déploiement d'apps web personnalisées depuis les conversations d'agents",
+      "Skills partagés avec contrôle d'accès granulaire et promotion au niveau de l'org",
+      "Multi-harness : fonctionne avec Pi, OpenCode, Codex et Claude Code"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Open source (MIT). Cloud-hosted version at qm.software.",
+      "zh": "开源（MIT）。云端托管版在 qm.software。",
+      "ja": "オープンソース（MIT）。クラウドホスト版はqm.software。",
+      "es": "Código abierto (MIT). Versión cloud en qm.software.",
+      "fr": "Open source (MIT). Version hébergée sur qm.software."
+    }
+  },
+  "useCases": {
+    "en": [
+      "Startup teams needing a shared AI agent workspace with Slack integration",
+      "Building internal tools and web apps via agent conversations",
+      "Multi-agent collaboration with personal and shared memory scopes"
+    ],
+    "zh": [
+      "需要带 Slack 集成的共享 AI 智能体工作区的创业团队",
+      "通过智能体对话构建内部工具和 Web 应用",
+      "带个人和共享记忆作用域的多智能体协作"
+    ],
+    "ja": [
+      "Slack統合付きの共有AIエージェントワークスペースを必要とするスタートアップチーム",
+      "エージェントの会話による内部ツールとWebアプリの構築",
+      "個人と共有のメモリスコープを持つマルチエージェントコラボレーション"
+    ],
+    "es": [
+      "Equipos startup que necesitan un espacio de trabajo de agente IA compartido con integración Slack",
+      "Construir herramientas internas y apps web mediante conversaciones con agentes",
+      "Colaboración multi-agente con ámbitos de memoria personales y compartidos"
+    ],
+    "fr": [
+      "Équipes startup ayant besoin d'un espace de travail d'agent IA partagé avec intégration Slack",
+      "Construire des outils internes et apps web via des conversations d'agents",
+      "Collaboration multi-agents avec portées de mémoire personnelles et partagées"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Unique multi-agent workspace design with personal/shared scopes",
+      "Slack + Web dual interface",
+      "Multi-harness architecture (not vendor-locked)",
+      "MIT licensed, active development",
+      "Built-in cron, keychain, sandbox, and web app deployment"
+    ],
+    "zh": [
+      "独特的个人/共享作用域多智能体工作区设计",
+      "Slack + Web 双界面",
+      "多智能体架构（不绑定供应商）",
+      "MIT 协议，开发活跃",
+      "内置定时任务、密钥链、沙箱和 Web 应用部署"
+    ],
+    "ja": [
+      "個人/共有スコープを持つユニークなマルチエージェントワークスペース設計",
+      "Slack + Webデュアルインターフェース",
+      "マルチハーネスアーキテクチャ（ベンダーロックなし）",
+      "MITライセンス、活発な開発",
+      "組み込みcron、キーチェーン、サンドボックス、Webアプリデプロイ"
+    ],
+    "es": [
+      "Diseño único de espacio de trabajo multi-agente con ámbitos personales/compartidos",
+      "Interfaz dual Slack + Web",
+      "Arquitectura multi-harness (sin lock-in de proveedor)",
+      "Licencia MIT, desarrollo activo",
+      "Cron, keychain, sandbox y despliegue de apps web integrados"
+    ],
+    "fr": [
+      "Conception unique d'espace de travail multi-agents avec portées personnelles/partagées",
+      "Interface double Slack + Web",
+      "Architecture multi-harness (sans verrouillage fournisseur)",
+      "Licence MIT, développement actif",
+      "Cron, keychain, sandbox et déploiement d'apps web intégrés"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Young project — ecosystem and community still developing",
+      "No topics set on GitHub repo (lower discoverability)",
+      "Documentation depth may vary"
+    ],
+    "zh": [
+      "项目年轻——生态和社区仍在发展中",
+      "GitHub 未设置 topics（发现性较低）",
+      "文档深度可能参差不齐"
+    ],
+    "ja": [
+      "若いプロジェクト——エコシステムとコミュニティは発展途上",
+      "GitHubリポジトリにトピック未設定（発見性が低い）",
+      "ドキュメントの深さはまちまち"
+    ],
+    "es": [
+      "Proyecto joven — el ecosistema y la comunidad aún se desarrollan",
+      "Sin topics en el repo de GitHub (menor descubribilidad)",
+      "La profundidad de la documentación puede variar"
+    ],
+    "fr": [
+      "Projet jeune — l'écosystème et la communauté se développent encore",
+      "Pas de topics sur le dépôt GitHub (découvrabilité réduite)",
+      "La profondeur de la documentation peut varier"
+    ]
+  },
+  "latestUpdate": {
+    "en": "August 2026: QM continues active development with Slack and web interfaces, multi-harness support, and scoped memory/workspaces.",
+    "zh": "2026年8月：QM 持续活跃开发，Slack 和 Web 界面、多智能体支持、作用域记忆/工作区。",
+    "ja": "2026年8月：QMはSlack/Webインターフェース、マルチハーネスサポート、スコープ別メモリ/ワークスペースで活発に開発を継続。",
+    "es": "Agosto 2026: QM continúa su desarrollo activo con interfaces Slack/Web, soporte multi-harness y memoria/espacios por ámbito.",
+    "fr": "Août 2026 : QM poursuit son développement actif avec interfaces Slack/Web, support multi-harness et mémoire/espaces par portée."
+  },
+  "summary": {
+    "en": "QM is a multiplayer agent harness for startups — each team member gets their own isolated agent workspace with Slack and Web collaboration, shared memory, skills, and web app deployment. MIT licensed, multi-harness architecture.",
+    "zh": "QM 是面向初创公司的多智能体工作平台——每个成员拥有独立智能体工作区，支持 Slack 和 Web 协作、共享记忆、技能和 Web 应用部署。MIT 协议，多智能体架构。",
+    "ja": "QMはスタートアップ向けのマルチプレイヤーエージェントハーネスです——各メンバーが独立したエージェントワークスペースを持ち、SlackとWebでコラボレーション、共有メモリ、スキル、Webアプリデプロイを実現。MITライセンス、マルチハーネスアーキテクチャ。",
+    "es": "QM es un arnés de agente multijugador para startups — cada miembro tiene su propio espacio aislado con colaboración Slack/Web, memoria compartida, skills y despliegue de apps web. MIT, arquitectura multi-harness.",
+    "fr": "QM est un harnais d'agent multijoueur pour startups — chaque membre a son propre espace isolé avec collaboration Slack/Web, mémoire partagée, skills et déploiement d'apps web. MIT, architecture multi-harness."
+  },
+  "verdict": {
+    "badge": "Worth Trying",
+    "headline": {
+      "en": "A promising multi-agent workspace for startups — personal agents with shared collaboration.",
+      "zh": "面向初创公司的有前景的多智能体工作区——个人智能体+共享协作。",
+      "ja": "有望なスタートアップ向けマルチエージェントワークスペース——個人エージェントと共有コラボレーション。",
+      "es": "Un prometedor espacio de trabajo multi-agente para startups — agentes personales con colaboración compartida.",
+      "fr": "Un espace de travail multi-agents prometteur pour startups — agents personnels avec collaboration partagée."
+    },
+    "body": {
+      "en": "QM tackles a real problem: how to give each team member their own AI agent while enabling shared collaboration. The Slack + Web dual interface and multi-harness architecture are thoughtful design choices. Still young, but worth trying for startup teams.",
+      "zh": "QM 解决了一个真实问题：如何给每个团队成员自己的 AI 智能体同时支持共享协作。Slack + Web 双界面和多智能体架构是深思熟虑的设计选择。仍在早期，但初创团队值得一试。",
+      "ja": "QMは現実の問題を解決します：各チームメンバーに自分のAIエージェントを与えながら共有コラボレーションを可能にする方法。Slack+Webデュアルインターフェースとマルチハーネスアーキテクチャは思慮深い設計選択です。まだ若いですが、スタートアップチームには試す価値があります。",
+      "es": "QM aborda un problema real: cómo dar a cada miembro del equipo su propio agente IA mientras se permite la colaboración compartida. La interfaz dual Slack + Web y la arquitectura multi-harness son elecciones de diseño reflexivas. Aún joven, pero vale la pena probarlo para equipos startup.",
+      "fr": "QM aborde un vrai problème : comment donner à chaque membre de l'équipe son propre agent IA tout en permettant la collaboration partagée. L'interface double Slack + Web et l'architecture multi-harness sont des choix de conception réfléchis. Encore jeune, mais à essayer pour les équipes startup."
+    },
+    "bestFor": {
+      "en": [
+        "Startup teams wanting a shared, multi-agent workspace with Slack integration and personal agent isolation."
+      ],
+      "ja": [
+        "Slack統合付きの共有マルチエージェントワークスペースと個人エージェント分離を望むスタートアップチーム。"
+      ],
+      "es": [
+        "Equipos startup que quieran un espacio de trabajo multi-agente compartido con integración Slack y aislamiento de agentes personales."
+      ],
+      "fr": [
+        "Équipes startup souhaitant un espace de travail multi-agents partagé avec intégration Slack et isolation des agents personnels."
+      ],
+      "zh": [
+        "需要带 Slack 集成的共享多智能体工作区和个人智能体隔离的初创团队。"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "If you need a single-agent solution, consider Pi or Claude Code directly; for enterprise multi-agent orchestration, consider CrewAI or AutoGen."
+      ],
+      "ja": [
+        "シングルエージェントソリューションが必要ならPiやClaude Codeを直接検討、エンタープライズ向けマルチエージェントオーケストレーションにはCrewAIやAutoGenを検討してください。"
+      ],
+      "es": [
+        "Si necesitas una solución de un solo agente, considera Pi o Claude Code directamente; para orquestación multi-agente empresarial, considera CrewAI o AutoGen."
+      ],
+      "fr": [
+        "Si vous avez besoin d'une solution mono-agent, envisagez Pi ou Claude Code directement ; pour l'orchestration multi-agents entreprise, envisagez CrewAI ou AutoGen."
+      ],
+      "zh": [
+        "如果需要单智能体方案，直接考虑 Pi 或 Claude Code；对于企业级多智能体编排，考虑 CrewAI 或 AutoGen。"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-08-12",
+    "verdictDate": "2026-08-12",
+    "pricingVerified": "2026-08-12",
+    "pricingUrl": "https://qm.software"
+  }
+}

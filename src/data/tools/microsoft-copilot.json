@@ -1,0 +1,28 @@
+{
+  "slug": "microsoft-copilot",
+  "name": "Microsoft Copilot",
+  "nameZh": "微软 Copilot",
+  "description": "微软的消费级 AI 助手，免费即可用 GPT-5 系列（Smart 自动路由），Memory 长期记忆、Copilot Vision 屏幕/相机识别与 Edge 的 Copilot Mode 深度整合 Windows 生态，Copilot Pro $20/月解锁高峰优先与 Office 内使用",
+  "descriptionEn": "Microsoft's consumer AI assistant: GPT-5-family models free for everyone via Smart auto-routing, with long-term Memory, Copilot Vision for screen/camera understanding and Edge's Copilot Mode woven deep into Windows — Copilot Pro at $20/month adds peak priority and Copilot inside Office apps",
+  "descriptionJa": "Microsoftのコンシューマー向けAIアシスタント。SmartモードによりGPT-5系モデルを無料で利用でき、長期記憶Memory、画面/カメラを理解するCopilot Vision、EdgeのCopilot ModeがWindowsエコシステムに深く統合。月$20のCopilot Proでピーク時優先とOfficeアプリ内利用を解禁",
+  "descriptionEs": "El asistente de IA de consumo de Microsoft: modelos de la familia GPT-5 gratis para todos mediante enrutado automático Smart, con Memoria a largo plazo, Copilot Vision para entender pantalla/cámara y el Copilot Mode de Edge integrado a fondo en Windows — Copilot Pro a $20/mes añade prioridad en horas punta y Copilot dentro de Office",
+  "descriptionFr": "L'assistant IA grand public de Microsoft : les modèles de la famille GPT-5 gratuits pour tous via le routage automatique Smart, avec Mémoire à long terme, Copilot Vision pour comprendre écran/caméra et le Copilot Mode d'Edge profondément intégré à Windows — Copilot Pro à 20 $/mois ajoute la priorité aux heures de pointe et Copilot dans Office",
+  "url": "https://copilot.microsoft.com",
+  "logo": "/logos/tools/microsoft-copilot.png",
+  "category": "Chat",
+  "tags": [
+    "Freemium"
+  ],
+  "featured": false,
+  "developer": "Microsoft",
+  "platforms": {
+    "web": true,
+    "windows": true,
+    "macos": true,
+    "ios": true,
+    "android": true,
+    "linux": false,
+    "browser_extension": false,
+    "api": false
+  }
+}

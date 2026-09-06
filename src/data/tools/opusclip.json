@@ -1,0 +1,29 @@
+{
+  "slug": "opusclip",
+  "name": "OpusClip",
+  "nameZh": "OpusClip",
+  "description": "长视频转短视频的头部 AI 工具，自动找爆点切片并给出「爆款分」，ClipAnything 多模态指令剪辑、Agent Opus 代理式包装与 AI B-Roll，一键分发 TikTok/Shorts/Reels，服务 1000 万+ 创作者，免费档每月 60 分钟、付费 $15/月起",
+  "descriptionEn": "The leading AI tool for turning long videos into shorts: it auto-finds highlights, scores each clip's virality, and adds ClipAnything multimodal prompt clipping, agentic Agent Opus packaging and AI B-Roll, with one-click publishing to TikTok/Shorts/Reels — 10M+ creators served, free tier of 60 minutes a month, paid from $15/month",
+  "descriptionJa": "長尺動画をショートに変える定番AIツール。ハイライトを自動抽出して各クリップに「バズりスコア」を付け、ClipAnythingのマルチモーダル指示クリッピング、エージェント型のAgent Opusパッケージング、AI B-Rollも搭載。TikTok/Shorts/Reelsへワンクリック配信。1000万超のクリエイターが利用。無料枠は月60分、有料は月$15から",
+  "descriptionEs": "La herramienta de IA líder para convertir vídeos largos en shorts: encuentra los momentos clave automáticamente, puntúa la viralidad de cada clip y añade recorte por instrucciones multimodales ClipAnything, empaquetado agéntico Agent Opus y B-Roll con IA, con publicación en un clic a TikTok/Shorts/Reels — más de 10 M de creadores, nivel gratuito de 60 minutos al mes, de pago desde $15/mes",
+  "descriptionFr": "L'outil IA de référence pour transformer les vidéos longues en shorts : il repère automatiquement les temps forts, note la viralité de chaque clip et ajoute le découpage par instructions multimodales ClipAnything, l'habillage agentique Agent Opus et le B-Roll IA, avec publication en un clic vers TikTok/Shorts/Reels — plus de 10 M de créateurs, offre gratuite de 60 minutes par mois, payant dès 15 $/mois",
+  "url": "https://www.opus.pro",
+  "logo": "/logos/tools/opusclip.png",
+  "category": "Video",
+  "tags": [
+    "Freemium",
+    "API"
+  ],
+  "featured": false,
+  "developer": "Opus Pro",
+  "platforms": {
+    "web": true,
+    "windows": false,
+    "macos": false,
+    "ios": true,
+    "android": true,
+    "linux": false,
+    "browser_extension": false,
+    "api": true
+  }
+}

@@ -1,0 +1,235 @@
+{
+  "features": {
+    "en": [
+      "Asynchronous agent: clones your repo in a cloud VM and works unattended",
+      "Delivers results as GitHub pull requests you review and merge",
+      "Plan approval step lets you vet the approach before execution",
+      "Jules Tools CLI (cross-platform) plus an open API",
+      "Parallel tasks with environment snapshots for faster setups",
+      "Memory learns your repo's conventions across tasks"
+    ],
+    "zh": [
+      "异步智能体：在云端 VM 克隆你的仓库并无人值守地工作",
+      "以 GitHub Pull Request 交付结果，由你评审合并",
+      "计划审批环节让你在执行前把关方案",
+      "Jules Tools CLI（跨平台）加开放 API",
+      "并行任务与环境快照，加速环境搭建",
+      "Memory 跨任务学习你仓库的约定"
+    ],
+    "ja": [
+      "非同期エージェント：クラウドVMでリポジトリをクローンし無人で作業",
+      "結果はGitHubプルリクエストとして納品、レビューしてマージ",
+      "計画承認ステップで実行前にアプローチを確認",
+      "クロスプラットフォームのJules Tools CLIと公開API",
+      "環境スナップショット付き並列タスクでセットアップを高速化",
+      "Memoryがタスクをまたいでリポジトリの慣習を学習"
+    ],
+    "es": [
+      "Agente asíncrono: clona tu repo en una VM en la nube y trabaja sin supervisión",
+      "Entrega resultados como pull requests de GitHub que revisas y fusionas",
+      "El paso de aprobación del plan te deja validar el enfoque antes de ejecutar",
+      "CLI Jules Tools (multiplataforma) más una API abierta",
+      "Tareas en paralelo con instantáneas de entorno para arranques más rápidos",
+      "Memory aprende las convenciones de tu repo entre tareas"
+    ],
+    "fr": [
+      "Agent asynchrone : clone votre dépôt dans une VM cloud et travaille sans surveillance",
+      "Livre les résultats en pull requests GitHub que vous révisez et fusionnez",
+      "L'étape d'approbation du plan permet de valider l'approche avant exécution",
+      "CLI Jules Tools (multiplateforme) plus une API ouverte",
+      "Tâches parallèles avec instantanés d'environnement pour des mises en route plus rapides",
+      "Memory apprend les conventions de votre dépôt au fil des tâches"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "The free tier allows 15 tasks a day with 3 running concurrently — generous for an autonomous coding agent.",
+      "zh": "免费档每天 15 个任务、3 个并发——对自主编码智能体而言相当慷慨。",
+      "ja": "無料枠は1日15タスク・同時3実行——自律コーディングエージェントとしては寛大。",
+      "es": "El nivel gratuito permite 15 tareas al día con 3 concurrentes — generoso para un agente de codificación autónomo.",
+      "fr": "L'offre gratuite permet 15 tâches par jour dont 3 simultanées — généreux pour un agent de codage autonome."
+    },
+    "paid": {
+      "en": "There is no standalone subscription: higher limits come bundled with Google AI Pro ($19.99/month, roughly 100 tasks/day) and Google AI Ultra (about 20x free limits). (Verified against official documentation, 2026-07-29.)",
+      "zh": "没有独立订阅：更高额度捆绑在 Google AI Pro（$19.99/月，约每天 100 任务）与 Google AI Ultra（约免费档 20 倍）中。（对照官方文档核实，2026-07-29。）",
+      "ja": "単体サブスクリプションはなし。上位額度はGoogle AI Pro（月$19.99、1日約100タスク）とGoogle AI Ultra（無料枠の約20倍）に同梱。（公式ドキュメントと照合、2026-07-29。）",
+      "es": "No hay suscripción independiente: los límites superiores vienen con Google AI Pro ($19.99/mes, unas 100 tareas/día) y Google AI Ultra (unas 20 veces los límites gratis). (Verificado con la documentación oficial, 2026-07-29.)",
+      "fr": "Pas d'abonnement autonome : les quotas supérieurs sont inclus dans Google AI Pro (19,99 $/mois, environ 100 tâches/jour) et Google AI Ultra (environ 20x les limites gratuites). (Vérifié avec la documentation officielle, 2026-07-29.)"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Offloading bug fixes and dependency bumps to run in the background",
+      "Parallelizing routine maintenance across many repositories",
+      "Writing tests and documentation while you do feature work",
+      "Scripting agent runs into CI/CD via the API and CLI"
+    ],
+    "zh": [
+      "把修 bug 与依赖升级甩给后台异步执行",
+      "在多个仓库间并行处理例行维护",
+      "你写功能时，让它补测试与文档",
+      "通过 API 与 CLI 把智能体跑进 CI/CD"
+    ],
+    "ja": [
+      "バグ修正や依存関係の更新をバックグラウンドに委任",
+      "多数のリポジトリで定型メンテナンスを並列化",
+      "自分が機能開発する間にテストとドキュメントを執筆",
+      "APIとCLIでエージェント実行をCI/CDに組み込み"
+    ],
+    "es": [
+      "Delegar arreglos de bugs y actualizaciones de dependencias en segundo plano",
+      "Paralelizar mantenimiento rutinario en muchos repositorios",
+      "Escribir tests y documentación mientras tú desarrollas funciones",
+      "Integrar ejecuciones del agente en CI/CD vía API y CLI"
+    ],
+    "fr": [
+      "Déléguer corrections de bugs et mises à jour de dépendances en arrière-plan",
+      "Paralléliser la maintenance de routine sur de nombreux dépôts",
+      "Écrire tests et documentation pendant que vous développez",
+      "Intégrer les exécutions de l'agent au CI/CD via l'API et la CLI"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Truly asynchronous: assign work and come back to a finished PR",
+      "Free tier of 15 tasks/day is the most generous among coding agents",
+      "Plan approval keeps you in control of the approach",
+      "CLI and API make it scriptable beyond the web UI"
+    ],
+    "zh": [
+      "真正异步：派完活儿，回来就是一个完成的 PR",
+      "每天 15 任务的免费档在编码智能体中最慷慨",
+      "计划审批让你始终掌控方案",
+      "CLI 与 API 让它可脚本化，不限于 Web 界面"
+    ],
+    "ja": [
+      "真の非同期：仕事を割り当てて戻れば完成したPRがある",
+      "1日15タスクの無料枠はコーディングエージェント中最も寛大",
+      "計画承認でアプローチの主導権を維持",
+      "CLIとAPIによりWeb UIを超えてスクリプト化可能"
+    ],
+    "es": [
+      "Verdaderamente asíncrono: asignas trabajo y vuelves a un PR terminado",
+      "El nivel gratuito de 15 tareas/día es el más generoso entre agentes de código",
+      "La aprobación del plan te mantiene al mando del enfoque",
+      "CLI y API lo hacen automatizable más allá de la interfaz web"
+    ],
+    "fr": [
+      "Vraiment asynchrone : assignez le travail et revenez à une PR terminée",
+      "L'offre gratuite de 15 tâches/jour est la plus généreuse des agents de codage",
+      "L'approbation du plan vous garde maître de l'approche",
+      "CLI et API le rendent scriptable au-delà de l'interface web"
+    ]
+  },
+  "cons": {
+    "en": [
+      "GitHub-centric: other forges and local-only workflows fit poorly",
+      "No standalone paid tier — scaling up means a Google AI subscription",
+      "Async loop is slower than interactive tools for exploratory work",
+      "Complex tasks still produce PRs that need substantial review"
+    ],
+    "zh": [
+      "以 GitHub 为中心：其他代码托管与纯本地工作流适配差",
+      "没有独立付费档——想扩容就得订 Google AI",
+      "异步闭环对探索性工作比交互式工具慢",
+      "复杂任务产出的 PR 仍需大量评审"
+    ],
+    "ja": [
+      "GitHub中心：他のフォージやローカル専用ワークフローには不向き",
+      "単体有料プランなし——拡張にはGoogle AIサブスクリプションが必要",
+      "非同期ループは探索的作業ではインタラクティブなツールより遅い",
+      "複雑なタスクのPRは依然かなりのレビューが必要"
+    ],
+    "es": [
+      "Centrado en GitHub: otras forjas y flujos solo locales encajan mal",
+      "Sin nivel de pago independiente — escalar implica una suscripción Google AI",
+      "El bucle asíncrono es más lento que las herramientas interactivas para explorar",
+      "Las tareas complejas aún producen PRs que requieren bastante revisión"
+    ],
+    "fr": [
+      "Centré sur GitHub : les autres forges et les flux purement locaux s'y prêtent mal",
+      "Pas d'offre payante autonome — monter en charge exige un abonnement Google AI",
+      "La boucle asynchrone est plus lente que les outils interactifs pour l'exploratoire",
+      "Les tâches complexes produisent encore des PRs demandant une vraie révision"
+    ]
+  },
+  "latestUpdate": {
+    "en": "2026: Jules now runs on Gemini 3.1 Pro, having left beta in August 2025 — the toolkit grew with the cross-platform Jules Tools CLI, an open API, parallel tasks with environment snapshots, and Memory that retains repo conventions.",
+    "zh": "2026 年：Jules 已运行在 Gemini 3.1 Pro 上（2025 年 8 月脱离 beta）——工具箱新增跨平台 Jules Tools CLI、开放 API、带环境快照的并行任务，以及记住仓库约定的 Memory。",
+    "ja": "2026年：Julesは2025年8月にベータを卒業し、現在Gemini 3.1 Proで稼働——クロスプラットフォームのJules Tools CLI、公開API、環境スナップショット付き並列タスク、リポジトリの慣習を保持するMemoryがツールキットに加わった。",
+    "es": "2026: Jules corre ahora sobre Gemini 3.1 Pro tras salir de beta en agosto de 2025 — el kit creció con la CLI multiplataforma Jules Tools, una API abierta, tareas paralelas con instantáneas de entorno y Memory que retiene las convenciones del repo.",
+    "fr": "2026 : Jules tourne désormais sur Gemini 3.1 Pro, sorti de bêta en août 2025 — la boîte à outils s'est enrichie de la CLI multiplateforme Jules Tools, d'une API ouverte, de tâches parallèles avec instantanés d'environnement et de Memory qui retient les conventions du dépôt."
+  },
+  "verdict": {
+    "badge": "Recommended",
+    "headline": {
+      "en": "Delegate the boring PRs and keep coding",
+      "zh": "把无聊的 PR 派出去，你继续写代码",
+      "ja": "退屈なPRは委任して、あなたはコードを書き続ける",
+      "es": "Delega los PRs aburridos y sigue programando",
+      "fr": "Déléguez les PRs ennuyeuses et continuez à coder"
+    },
+    "body": {
+      "en": "Jules occupies a different slot than Cursor or Claude Code: it's not a pair programmer, it's a contractor. You hand it a task — fix this bug, bump these dependencies, add tests for that module — and it spins up a cloud VM, clones your repo, drafts a plan for your approval, executes unattended and comes back with a GitHub pull request. That async loop is precisely wrong for exploratory hacking and precisely right for the long tail of maintenance work every team defers. Since leaving beta it has matured fast: Gemini 3.1 Pro under the hood, a cross-platform CLI and open API for scripting it into CI, parallel tasks with environment snapshots, and Memory that retains your repo's conventions between runs. The free tier — 15 tasks a day, 3 concurrent — is the most generous in the category and makes trying it a no-brainer. Constraints to know: it's GitHub-centric, so other forges fit awkwardly; there's no standalone paid tier, so scaling means a $19.99 Google AI Pro subscription; and complex PRs still demand real review before merge. Used for what it's built for — routine, well-scoped, parallelizable work — Jules is the most practical async agent you can adopt today, and the price of entry is zero.",
+      "zh": "Jules 占据的生态位与 Cursor、Claude Code 不同：它不是结对程序员，而是外包承包商。你派一个任务——修这个 bug、升这些依赖、给那个模块补测试——它启动云端 VM，克隆你的仓库，先起草计划供你审批，然后无人值守地执行，最后带着一个 GitHub Pull Request 回来。这个异步闭环用于探索性折腾恰恰不合适，用于每个团队都在拖延的维护长尾恰恰合适。脱离 beta 后它成熟得很快：引擎换上 Gemini 3.1 Pro，跨平台 CLI 与开放 API 可把它脚本化进 CI，并行任务配环境快照，Memory 在多次运行间记住你仓库的约定。免费档——每天 15 任务、3 并发——是品类里最慷慨的，试用毫无门槛。需要知道的约束：它以 GitHub 为中心，其他托管平台适配别扭；没有独立付费档，扩容意味着 $19.99 的 Google AI Pro 订阅；复杂 PR 在合并前仍需认真评审。用在它擅长的地方——例行、边界清晰、可并行的工作——Jules 是今天你能采用的最实用的异步智能体，而且入场价为零。",
+      "ja": "JulesはCursorやClaude Codeとは違う枠を占める。ペアプログラマーではなく請負業者だ。タスクを渡す——このバグを直せ、依存関係を上げろ、あのモジュールにテストを書け——と、クラウドVMを起動し、リポジトリをクローンし、承認用の計画を起草し、無人で実行し、GitHubプルリクエストを携えて戻ってくる。この非同期ループは探索的なハッキングにはまさに不向きで、どのチームも先送りするメンテナンス作業のロングテールにはまさに適している。ベータ卒業後の成熟は速かった。中身はGemini 3.1 Pro、CIに組み込めるクロスプラットフォームCLIと公開API、環境スナップショット付き並列タスク、実行をまたいでリポジトリの慣習を保持するMemory。無料枠——1日15タスク・3並列——はカテゴリー最大級の寛大さで、試さない理由がない。知っておくべき制約：GitHub中心で他のフォージには不向き。単体有料プランがなく、拡張には$19.99のGoogle AI Proが要る。複雑なPRはマージ前に本気のレビューが必要だ。得意分野——定型で範囲が明確で並列化できる作業——に使えば、Julesは今日採用できる最も実用的な非同期エージェントであり、入場料はゼロだ。",
+      "es": "Jules ocupa un lugar distinto al de Cursor o Claude Code: no es un programador de pareja, es un contratista. Le das una tarea — arregla este bug, actualiza estas dependencias, añade tests a ese módulo — y levanta una VM en la nube, clona tu repo, redacta un plan para tu aprobación, ejecuta sin supervisión y vuelve con un pull request de GitHub. Ese bucle asíncrono es exactamente erróneo para el hackeo exploratorio y exactamente correcto para la larga cola de mantenimiento que todo equipo pospone. Desde que salió de beta ha madurado rápido: Gemini 3.1 Pro por dentro, CLI multiplataforma y API abierta para meterlo en CI, tareas paralelas con instantáneas de entorno y Memory que retiene las convenciones de tu repo entre ejecuciones. El nivel gratuito — 15 tareas al día, 3 concurrentes — es el más generoso de la categoría y hace que probarlo sea obvio. Restricciones a saber: es GitHub-céntrico, otras forjas encajan mal; no hay nivel de pago independiente, escalar implica la suscripción Google AI Pro de $19.99; y los PRs complejos aún exigen revisión real antes de fusionar. Usado para lo que fue hecho — trabajo rutinario, bien acotado y paralelizable — Jules es el agente asíncrono más práctico que puedes adoptar hoy, y la entrada cuesta cero.",
+      "fr": "Jules occupe un créneau différent de Cursor ou Claude Code : ce n'est pas un binôme, c'est un sous-traitant. Vous lui confiez une tâche — corriger ce bug, mettre à jour ces dépendances, ajouter des tests à ce module — et il lance une VM cloud, clone votre dépôt, rédige un plan pour votre approbation, exécute sans surveillance et revient avec une pull request GitHub. Cette boucle asynchrone est précisément inadaptée au hacking exploratoire et précisément adaptée à la longue traîne de maintenance que toute équipe repousse. Depuis sa sortie de bêta, il a mûri vite : Gemini 3.1 Pro sous le capot, une CLI multiplateforme et une API ouverte pour l'intégrer au CI, des tâches parallèles avec instantanés d'environnement, et Memory qui retient les conventions de votre dépôt entre les exécutions. L'offre gratuite — 15 tâches par jour, 3 simultanées — est la plus généreuse de la catégorie et rend l'essai évident. Contraintes à connaître : centré GitHub, les autres forges s'y prêtent mal ; pas d'offre payante autonome, monter en charge exige l'abonnement Google AI Pro à 19,99 $ ; et les PRs complexes exigent encore une vraie révision avant fusion. Utilisé pour ce pour quoi il est fait — du travail routinier, bien délimité et parallélisable — Jules est l'agent asynchrone le plus pratique à adopter aujourd'hui, et le ticket d'entrée est gratuit."
+    },
+    "bestFor": {
+      "en": [
+        "Developers offloading maintenance work to run in the background",
+        "Teams already living in GitHub pull-request workflows",
+        "Anyone wanting a capable coding agent without paying upfront"
+      ],
+      "zh": [
+        "把维护工作甩到后台执行的开发者",
+        "已经以 GitHub PR 工作流为日常的团队",
+        "想零成本先用上能干编码智能体的人"
+      ],
+      "ja": [
+        "メンテナンス作業をバックグラウンドに委任する開発者",
+        "GitHubのPRワークフローが日常のチーム",
+        "先払いなしで有能なコーディングエージェントを使いたい人"
+      ],
+      "es": [
+        "Desarrolladores delegando mantenimiento en segundo plano",
+        "Equipos que ya viven en flujos de pull requests de GitHub",
+        "Quien quiera un agente de código capaz sin pagar por adelantado"
+      ],
+      "fr": [
+        "Développeurs déléguant la maintenance en arrière-plan",
+        "Équipes vivant déjà dans les flux de pull requests GitHub",
+        "Quiconque veut un agent de codage capable sans payer d'avance"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You want real-time interactive pairing in your editor (→ Cursor)",
+        "You need an agent that runs locally in your terminal (→ Claude Code)"
+      ],
+      "zh": [
+        "你想要编辑器里的实时交互结对（→ Cursor）",
+        "你需要在本地终端运行的智能体（→ Claude Code）"
+      ],
+      "ja": [
+        "エディタ内でのリアルタイム対話ペアリングが欲しい（→ Cursor）",
+        "ローカルのターミナルで動くエージェントが必要（→ Claude Code）"
+      ],
+      "es": [
+        "Quieres emparejamiento interactivo en tiempo real en tu editor (→ Cursor)",
+        "Necesitas un agente que corra localmente en tu terminal (→ Claude Code)"
+      ],
+      "fr": [
+        "Vous voulez un binôme interactif en temps réel dans votre éditeur (→ Cursor)",
+        "Vous avez besoin d'un agent local dans votre terminal (→ Claude Code)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-29",
+    "verdictDate": "2026-07-29",
+    "pricingVerified": "2026-07-29",
+    "pricingUrl": "https://jules.google"
+  }
+}

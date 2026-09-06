@@ -1,0 +1,78 @@
+{
+  "slug": "tavily-mcp",
+  "name": "Tavily MCP",
+  "nameZh": "Tavily MCP",
+  "description": "Tavily 官方 MCP 服务器，为 AI 智能体提供面向 LLM 优化的实时搜索——search 联网检索、extract 提取网页正文、map 站点结构、crawl 抓取，专为 RAG 与研究场景设计，返回干净可引用的结果。",
+  "descriptionEn": "Tavily's official MCP server gives AI agents LLM-optimized real-time search — search the web, extract page content, map site structure and crawl, purpose-built for RAG and research with clean, citable results.",
+  "descriptionJa": "Tavily 公式の MCP サーバー。AI エージェントに LLM 最適化されたリアルタイム検索を提供し、search（Web 検索）、extract（ページ本文抽出）、map（サイト構造把握）、crawl（クロール）を備えます。RAG や調査用途向けに設計され、引用しやすいクリーンな結果を返します。",
+  "descriptionEs": "El servidor MCP oficial de Tavily ofrece a los agentes de IA búsqueda en tiempo real optimizada para LLM: search en la web, extract del contenido de páginas, map de la estructura del sitio y crawl, diseñado específicamente para RAG e investigación con resultados limpios y citables.",
+  "descriptionFr": "Le serveur MCP officiel de Tavily offre aux agents IA une recherche en temps réel optimisée pour les LLM — search sur le web, extract du contenu des pages, map de la structure du site et crawl, conçu pour le RAG et la recherche avec des résultats propres et sourçables.",
+  "developer": "Tavily",
+  "developerZh": "Tavily",
+  "repo": "tavily-ai/tavily-mcp",
+  "clients": [
+    "claude",
+    "cursor",
+    "vscode",
+    "generic"
+  ],
+  "category": "Search",
+  "tags": [
+    "Free",
+    "Open Source"
+  ],
+  "installCommand": "npx -y tavily-mcp@latest",
+  "logo": "/logos/mcp/tavily-mcp.png",
+  "stars": 2370,
+  "featured": false,
+  "faqs": [
+    {
+      "question": {
+        "zh": "Tavily MCP 提供哪些工具？",
+        "en": "What tools does Tavily MCP provide?",
+        "ja": "Tavily MCP はどんなツールを提供しますか？",
+        "es": "¿Qué herramientas ofrece Tavily MCP?",
+        "fr": "Quels outils Tavily MCP fournit-il ?"
+      },
+      "answer": {
+        "zh": "四个核心工具：search（面向 LLM 优化的实时联网搜索）、extract（从指定 URL 提取干净正文）、map（快速梳理网站结构）、crawl（按规则抓取多页）。组合使用可支撑智能体的研究、比价、竞品调研等任务。",
+        "en": "Four core tools: search (LLM-optimized real-time web search), extract (pull clean main content from given URLs), map (quickly outline a site's structure) and crawl (fetch multiple pages by rules). Combined, they power agent tasks like research, price comparison and competitive analysis.",
+        "ja": "4 つのコアツールです：search（LLM 最適化のリアルタイム Web 検索）、extract（指定 URL からクリーンな本文を抽出）、map（サイト構造を素早く把握）、crawl（ルールに沿って複数ページを取得）。組み合わせれば、調査・価格比較・競合分析などエージェントのタスクを支えます。",
+        "es": "Cuatro herramientas clave: search (búsqueda web en tiempo real optimizada para LLM), extract (obtener contenido principal limpio de URLs dadas), map (esbozar rápidamente la estructura de un sitio) y crawl (obtener varias páginas según reglas). Combinadas, impulsan tareas del agente como investigación, comparación de precios y análisis competitivo.",
+        "fr": "Quatre outils clés : search (recherche web en temps réel optimisée LLM), extract (extraire le contenu principal propre d'URL données), map (esquisser rapidement la structure d'un site) et crawl (récupérer plusieurs pages selon des règles). Combinés, ils alimentent des tâches d'agent comme la recherche, la comparaison de prix et l'analyse concurrentielle."
+      }
+    },
+    {
+      "question": {
+        "zh": "怎么安装 Tavily MCP？",
+        "en": "How do I install Tavily MCP?",
+        "ja": "Tavily MCP はどうインストールしますか？",
+        "es": "¿Cómo instalo Tavily MCP?",
+        "fr": "Comment installer Tavily MCP ?"
+      },
+      "answer": {
+        "zh": "本地 stdio 用 npx -y tavily-mcp@latest，并在环境变量里配置 TAVILY_API_KEY；也可以用 npx mcp-remote 接 Tavily 官方托管端点 https://mcp.tavily.com/mcp/。API Key 在 Tavily 控制台申请。",
+        "en": "For local stdio use npx -y tavily-mcp@latest and set TAVILY_API_KEY in the environment; alternatively use npx mcp-remote against Tavily's hosted endpoint https://mcp.tavily.com/mcp/. Get the API key from the Tavily dashboard.",
+        "ja": "ローカル stdio では npx -y tavily-mcp@latest を使い、環境変数に TAVILY_API_KEY を設定します。あるいは npx mcp-remote で Tavily 公式のホスト型エンドポイント https://mcp.tavily.com/mcp/ に接続できます。API キーは Tavily のダッシュボードで取得します。",
+        "es": "Para stdio local usa npx -y tavily-mcp@latest y define TAVILY_API_KEY en el entorno; como alternativa usa npx mcp-remote contra el endpoint alojado de Tavily https://mcp.tavily.com/mcp/. Obtén la clave API en el panel de Tavily.",
+        "fr": "Pour le stdio local, utilisez npx -y tavily-mcp@latest et définissez TAVILY_API_KEY dans l'environnement ; sinon, utilisez npx mcp-remote vers le point de terminaison hébergé de Tavily https://mcp.tavily.com/mcp/. Obtenez la clé API dans le tableau de bord Tavily."
+      }
+    },
+    {
+      "question": {
+        "zh": "Tavily MCP 免费吗？",
+        "en": "Is Tavily MCP free?",
+        "ja": "Tavily MCP は無料ですか？",
+        "es": "¿Tavily MCP es gratuito?",
+        "fr": "Tavily MCP est-il gratuit ?"
+      },
+      "answer": {
+        "zh": "MCP 服务器开源免费（MIT）。搜索能力来自 Tavily API，提供每月一定额度的免费套餐，超出后按用量付费；个人小规模研究通常在免费额度内即可。",
+        "en": "The MCP server is open source and free (MIT). The search capability comes from the Tavily API, which offers a monthly free tier with usage billed beyond that; small personal research usually fits within the free tier.",
+        "ja": "MCP サーバーはオープンソースで無料（MIT）です。検索機能は Tavily API 由来で、毎月一定枠の無料プランがあり、超過分は従量課金です。個人の小規模な調査は通常無料枠内に収まります。",
+        "es": "El servidor MCP es de código abierto y gratuito (MIT). La capacidad de búsqueda proviene de la API de Tavily, que ofrece un nivel gratuito mensual con uso facturado más allá; la investigación personal a pequeña escala suele caber en el nivel gratuito.",
+        "fr": "Le serveur MCP est open source et gratuit (MIT). La capacité de recherche provient de l'API Tavily, qui offre une offre gratuite mensuelle, l'usage au-delà étant facturé ; une petite recherche personnelle tient généralement dans l'offre gratuite."
+      }
+    }
+  ]
+}

@@ -1,0 +1,258 @@
+{
+  "features": {
+    "en": [
+      "Replit Agent builds apps from prompts",
+      "Cloud IDE with instant deploy",
+      "AI code generation and debugging",
+      "Effort-based Agent pricing",
+      "Databases and hosting built-in",
+      "Collaboration and mobile app"
+    ],
+    "zh": [
+      "Replit Agent 由提示词构建应用",
+      "云端 IDE 即时部署",
+      "AI 代码生成与调试",
+      "按工作量计费的 Agent",
+      "内置数据库与托管",
+      "协作与移动端应用"
+    ],
+    "ja": [
+      "Replit Agent がプロンプトからアプリを構築",
+      "即時デプロイ可能なクラウド IDE",
+      "AI コード生成とデバッグ",
+      "作業量ベースの Agent 課金",
+      "データベースとホスティング内蔵",
+      "コラボレーションとモバイルアプリ"
+    ],
+    "es": [
+      "Replit Agent crea apps desde prompts",
+      "IDE en la nube con despliegue instantáneo",
+      "Generación y depuración de código con IA",
+      "Precio del Agent según el esfuerzo",
+      "Bases de datos y hosting integrados",
+      "Colaboración y app móvil"
+    ],
+    "fr": [
+      "Replit Agent crée des applis à partir de prompts",
+      "IDE cloud avec déploiement instantané",
+      "Génération et débogage de code par IA",
+      "Tarification de l'Agent selon l'effort",
+      "Bases de données et hébergement intégrés",
+      "Collaboration et appli mobile"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Starter free (limited)",
+      "zh": "Starter 免费（受限）",
+      "ja": "Starter は無料（制限あり）",
+      "es": "Starter gratis (limitado)",
+      "fr": "Starter gratuit (limité)"
+    },
+    "core": {
+      "en": "$20/month annual ($25 monthly), effort-based Agent billing",
+      "zh": "$20/月（年付，月付 $25），Agent 按任务复杂度计费",
+      "ja": "年払い月額20ドル（月払い25ドル）、Agentは作業量ベース課金",
+      "es": "20 $/mes anual (25 $ mensual), Agent con cobro por esfuerzo",
+      "fr": "20 $/mois annuel (25 $ mensuel), Agent facturé à l’effort"
+    },
+    "pro": {
+      "en": "$95/month annual ($100 monthly)",
+      "zh": "$95/月（年付），月付 $100",
+      "ja": "年払い月額95ドル（月払い100ドル）",
+      "es": "95 $/mes anual (100 $ mensual)",
+      "fr": "95 $/mois annuel (100 $ mensuel)"
+    },
+    "teams": {
+      "en": "Team plans available",
+      "zh": "提供团队方案",
+      "ja": "チームプランあり",
+      "es": "Planes de equipo disponibles",
+      "fr": "Offres d'équipe disponibles"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Building apps without local setup",
+      "Rapid prototyping",
+      "Learning to code",
+      "Full-stack app deployment",
+      "Automations and internal tools",
+      "Hackathons"
+    ],
+    "zh": [
+      "无需本地环境即可开发",
+      "快速原型",
+      "学习编程",
+      "全栈应用部署",
+      "自动化与内部工具",
+      "黑客松"
+    ],
+    "ja": [
+      "ローカル環境なしでのアプリ開発",
+      "高速プロトタイピング",
+      "プログラミング学習",
+      "フルスタックアプリのデプロイ",
+      "自動化と社内ツール",
+      "ハッカソン"
+    ],
+    "es": [
+      "Crear apps sin configuración local",
+      "Prototipado rápido",
+      "Aprender a programar",
+      "Despliegue de apps full-stack",
+      "Automatizaciones y herramientas internas",
+      "Hackatones"
+    ],
+    "fr": [
+      "Créer des applis sans installation locale",
+      "Prototypage rapide",
+      "Apprendre à coder",
+      "Déploiement d'applis full-stack",
+      "Automatisations et outils internes",
+      "Hackathons"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Agent builds full apps fast",
+      "No local setup needed",
+      "Integrated deploy and hosting",
+      "Great for beginners"
+    ],
+    "zh": [
+      "Agent 快速构建完整应用",
+      "无需本地环境",
+      "部署与托管一体",
+      "适合新手"
+    ],
+    "ja": [
+      "Agent が完成アプリを高速構築",
+      "ローカル設定が不要",
+      "デプロイとホスティングが一体",
+      "初心者に最適"
+    ],
+    "es": [
+      "El Agent crea apps completas rápido",
+      "No requiere configuración local",
+      "Despliegue y hosting integrados",
+      "Ideal para principiantes"
+    ],
+    "fr": [
+      "L'Agent crée des applis complètes rapidement",
+      "Aucune installation locale requise",
+      "Déploiement et hébergement intégrés",
+      "Idéal pour les débutants"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Effort-based costs unpredictable",
+      "Heavy Agent use gets expensive",
+      "Performance limits on free tier",
+      "July 2025 incident: Replit Agent deleted a production database during a code freeze — safeguards were added since, but keep backups and environment separation"
+    ],
+    "zh": [
+      "按工作量计费不易预估",
+      "重度使用 Agent 成本高",
+      "免费版性能受限",
+      "2025 年 7 月事件：Replit Agent 曾在代码冻结期删除生产数据库——此后已加防护，但请自行做好备份与环境隔离"
+    ],
+    "ja": [
+      "作業量ベースの費用は予測しにくい",
+      "Agent の多用はコスト増",
+      "無料プランは性能制限あり",
+      "2025年7月の事件：Replit Agentがコードフリーズ中に本番データベースを削除——以後保護策が追加されたが、バックアップと環境分離は自衛すべき"
+    ],
+    "es": [
+      "Costes por esfuerzo impredecibles",
+      "El uso intensivo del Agent sale caro",
+      "Límites de rendimiento en el plan gratuito",
+      "Incidente de julio de 2025: Replit Agent borró una base de datos de producción durante un code freeze — se añadieron salvaguardas, pero mantén copias y separación de entornos"
+    ],
+    "fr": [
+      "Coûts basés sur l'effort imprévisibles",
+      "L'usage intensif de l'Agent coûte cher",
+      "Limites de performance sur l'offre gratuite",
+      "Incident de juillet 2025 : Replit Agent a supprimé une base de production pendant un gel de code — des garde-fous ont été ajoutés, mais gardez sauvegardes et séparation d'environnements"
+    ]
+  },
+  "latestUpdate": {
+    "en": "July 2026: Replit became Agent-first, centering the platform on Replit Agent with effort-based pricing",
+    "zh": "2026年7月：Replit 转向 Agent 优先，平台以 Replit Agent 为核心并采用按工作量计费",
+    "ja": "2026年7月：Replit は Agent 優先へ移行し、作業量ベースの課金とともに Replit Agent を中心に据えたプラットフォームへ",
+    "es": "Julio de 2026: Replit adoptó un enfoque Agent-first, centrando la plataforma en Replit Agent con precios según el esfuerzo",
+    "fr": "Juillet 2026 : Replit est passé au « Agent-first », centrant la plateforme sur Replit Agent avec une tarification à l'effort"
+  },
+  "verdict": {
+    "badge": "Worth Trying",
+    "headline": {
+      "en": "Browser-based IDE with AI coding that lets you build and deploy without local setup.",
+      "zh": "基于浏览器的AI编程IDE，无需本地配置即可构建和部署。",
+      "ja": "ローカル環境不要でビルドとデプロイが可能なAIコーディング付きブラウザIDE。",
+      "es": "IDE en navegador con codificación IA que permite construir y desplegar sin configuración local.",
+      "fr": "IDE navigateur avec codage IA permettant de construire et déployer sans configuration locale."
+    },
+    "body": {
+      "en": "Replit AI combines a cloud IDE with AI assistance, letting you write, run, and deploy code entirely in the browser. It's particularly appealing for learners, quick prototypes, and situations where you can't install local development tools.\n\nFor serious development, local IDEs like Cursor or VS Code with Copilot offer better performance and richer tooling. Replit's strength is the zero-setup experience and instant deployment—ideal for education, hackathons, and small projects.",
+      "zh": "Replit AI 将云端 IDE 与 AI 辅助结合，让你完全在浏览器中编写、运行和部署代码。对学习者、快速原型和无法安装本地开发工具的场景特别有吸引力。\n\n对于严肃开发，Cursor 或装有 Copilot 的 VS Code 等本地 IDE 提供更好的性能和更丰富的工具链。Replit 的优势是零配置体验和即时部署——适合教学、黑客马拉松和小型项目。",
+      "ja": "Replit AIはクラウドIDEとAI支援を組み合わせ、ブラウザ内で完全にコードの作成、実行、デプロイを可能にします。学習者、クイックプロトタイプ、ローカル開発ツールをインストールできない状況に特に魅力的です。\n\n本格的な開発では、CursorやCopilot付きVS Codeなどのローカルが性能とツールで優ります。Replitの強みはゼロセットアップ体験と即時デプロイ——教育、ハッカソン、小規模プロジェクトに最適です。",
+      "es": "Replit AI combina un IDE en la nube con asistencia IA, permitiendo escribir, ejecutar y desplegar código completamente en el navegador. Es particularmente atractivo para aprendices, prototipos rápidos y situaciones sin herramientas de desarrollo local.\n\nPara desarrollo serio, IDEs locales como Cursor o VS Code con Copilot ofrecen mejor rendimiento. La fortaleza de Replit es la experiencia sin configuración y despliegue instantáneo—ideal para educación, hackathons y proyectos pequeños.",
+      "fr": "Replit AI combine un IDE cloud avec assistance IA, permettant d'écrire, exécuter et déployer du code entièrement dans le navigateur. Particulièrement attractif pour les apprenants, prototypes rapides et situations sans outils de développement locaux.\n\nPour le développement sérieux, les IDE locaux comme Cursor ou VS Code avec Copilot offrent de meilleures performances. La force de Replit est l'expérience zéro-configuration et le déploiement instantané—idéal pour l'éducation et les hackathons."
+    },
+    "bestFor": {
+      "en": [
+        "Learning to code with AI assistance",
+        "Quick prototypes without local setup",
+        "Browser-based collaborative coding"
+      ],
+      "zh": [
+        "在AI辅助下学习编程",
+        "无需本地配置的快速原型",
+        "基于浏览器的协作编程"
+      ],
+      "ja": [
+        "AIアシスタント付きのプログラミング学習",
+        "ローカル設定不要のクイックプロトタイプ",
+        "ブラウザベースの協作コーディング"
+      ],
+      "es": [
+        "Aprender a programar con asistencia IA",
+        "Prototipos rápidos sin configuración local",
+        "Codificación colaborativa en navegador"
+      ],
+      "fr": [
+        "Apprendre à coder avec assistance IA",
+        "Prototypes rapides sans configuration locale",
+        "Codage collaboratif en navigateur"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You need a full-featured local IDE (→ Cursor, Qoder)",
+        "You want maximum AI coding depth (→ GitHub Copilot, Claude Code)"
+      ],
+      "zh": [
+        "需要全功能本地IDE（→ Cursor、Qoder）",
+        "需要最深度的AI编程能力（→ GitHub Copilot、Claude Code）"
+      ],
+      "ja": [
+        "フル機能のローカルIDEが必要な場合（→ Cursor、Qoder）",
+        "最大限のAIコーディング深度が必要な場合（→ GitHub Copilot、Claude Code）"
+      ],
+      "es": [
+        "Necesitas un IDE local con todas las funciones (→ Cursor, Qoder)",
+        "Quieres máxima profundidad de codificación IA (→ GitHub Copilot, Claude Code)"
+      ],
+      "fr": [
+        "Vous avez besoin d'un IDE local complet (→ Cursor, Qoder)",
+        "Vous voulez une profondeur maximale de codage IA (→ GitHub Copilot, Claude Code)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-29",
+    "verdictDate": "2026-07-27",
+    "pricingVerified": "2026-07-29"
+  }
+}

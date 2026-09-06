@@ -1,0 +1,235 @@
+{
+  "features": {
+    "en": [
+      "Sonic 3.5 real-time text-to-speech, frequently ranked #1 for low-latency voice",
+      "Ink-2 speech-to-text (transcription) built for the same real-time voice stack",
+      "Ultra-low latency designed for live voice agents and phone-call use",
+      "Voice cloning and a large library of expressive, natural voices",
+      "Built on state-space model (SSM) research from the Mamba team",
+      "Credit-based API pricing (roughly 1 credit per character of speech)"
+    ],
+    "zh": [
+      "Sonic 3.5 实时文本转语音，低延迟语音常年排名第一",
+      "Ink-2 语音转文本（转录），为同一套实时语音栈打造",
+      "超低延迟，专为实时语音智能体与电话通话场景设计",
+      "语音克隆，以及大量富有表现力的自然音色库",
+      "构建于 Mamba 团队的状态空间模型（SSM）研究之上",
+      "基于信用点的 API 定价（约 1 信用点 = 1 个语音字符）"
+    ],
+    "ja": [
+      "Sonic 3.5 リアルタイム音声合成、低レイテンシ音声で首位にランクされることが多い",
+      "同じリアルタイム音声スタック向けに作られたInk-2音声認識（文字起こし）",
+      "ライブ音声エージェントや電話通話向けに設計された超低レイテンシ",
+      "音声クローンと、表現豊かで自然なボイスの大規模ライブラリ",
+      "MambaチームによるState-Space Model（SSM）研究を基盤に構築",
+      "クレジットベースのAPI課金（おおむね1クレジット＝音声1文字）"
+    ],
+    "es": [
+      "Sonic 3.5 texto a voz en tiempo real, con frecuencia clasificado #1 en voz de baja latencia",
+      "Ink-2 voz a texto (transcripción) creado para el mismo stack de voz en tiempo real",
+      "Latencia ultrabaja diseñada para agentes de voz en vivo y uso en llamadas telefónicas",
+      "Clonación de voz y una gran biblioteca de voces expresivas y naturales",
+      "Construido sobre la investigación de modelos de espacio de estados (SSM) del equipo Mamba",
+      "Precios de API basados en créditos (aproximadamente 1 crédito por carácter de voz)"
+    ],
+    "fr": [
+      "Sonic 3.5 synthèse vocale en temps réel, souvent classée n°1 pour la voix à faible latence",
+      "Ink-2 reconnaissance vocale (transcription) conçue pour la même pile vocale temps réel",
+      "Latence ultra-basse pensée pour les agents vocaux en direct et les appels téléphoniques",
+      "Clonage de voix et une large bibliothèque de voix expressives et naturelles",
+      "Construit sur la recherche en modèles à espace d'états (SSM) de l'équipe Mamba",
+      "Tarification API à base de crédits (environ 1 crédit par caractère de parole)"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "A Free plan costs $0 and includes about 20,000 credits per month — enough to build and test real-time voice without a card.",
+      "zh": "免费方案 $0，每月含约 20,000 信用点——无需信用卡即可开发测试实时语音。",
+      "ja": "無料プランは$0で月あたり約20,000クレジットを含む——カードなしでリアルタイム音声を開発・テストするのに十分。",
+      "es": "Un plan Free cuesta $0 e incluye unos 20 000 créditos al mes, suficiente para construir y probar voz en tiempo real sin tarjeta.",
+      "fr": "Un plan Free coûte 0 $ et inclut environ 20 000 crédits par mois — assez pour développer et tester la voix temps réel sans carte."
+    },
+    "paid": {
+      "en": "Paid tiers scale by monthly credits: Pro is about $5/month (~100,000 credits), Startup about $49/month (~1.25M credits), and Scale adds ~8M credits for higher-volume production; enterprise is quoted separately. Credits map to characters of speech generated. (Verified against the official pricing page, 2026-07-28.)",
+      "zh": "付费档按每月信用点递增：Pro 约 $5/月（约 10 万信用点），Startup 约 $49/月（约 125 万信用点），Scale 提供约 800 万信用点面向更大规模生产；企业单独报价。信用点对应生成语音的字符数。（对照官方定价页核实，2026-07-28。）",
+      "ja": "有料ティアは月間クレジットで拡張：Proは約$5/月（約10万クレジット）、Startupは約$49/月（約125万クレジット）、Scaleはより大量の本番向けに約800万クレジットを追加。エンタープライズは別途見積もり。クレジットは生成した音声の文字数に対応。（公式価格ページと照合、2026-07-28。）",
+      "es": "Los niveles de pago escalan por créditos mensuales: Pro cuesta unos $5/mes (~100 000 créditos), Startup unos $49/mes (~1,25M créditos), y Scale añade ~8M créditos para producción de mayor volumen; empresa se cotiza aparte. Los créditos equivalen a caracteres de voz generados. (Verificado con la página oficial de precios, 2026-07-28.)",
+      "fr": "Les niveaux payants évoluent selon les crédits mensuels : Pro à environ 5 $/mois (~100 000 crédits), Startup à environ 49 $/mois (~1,25M crédits), et Scale ajoute ~8M crédits pour une production à plus fort volume ; l'entreprise est devisée séparément. Les crédits correspondent aux caractères de parole générés. (Vérifié avec la page tarifaire officielle, 2026-07-28.)"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Real-time voice agents and AI phone systems needing minimal latency",
+      "Adding natural text-to-speech to apps, games and assistants",
+      "Transcribing live audio with Ink-2 in the same voice pipeline",
+      "Cloning a brand or character voice for consistent product audio"
+    ],
+    "zh": [
+      "对延迟要求极低的实时语音智能体与 AI 电话系统",
+      "为应用、游戏与助手加入自然的文本转语音",
+      "用 Ink-2 在同一语音管线中转录实时音频",
+      "克隆品牌或角色声音，保持产品音频一致性"
+    ],
+    "ja": [
+      "最小限のレイテンシが必要なリアルタイム音声エージェントやAI電話システム",
+      "アプリ・ゲーム・アシスタントに自然な音声合成を追加",
+      "同じ音声パイプライン内でInk-2を使いライブ音声を文字起こし",
+      "一貫した製品音声のためにブランドやキャラクターの声をクローン"
+    ],
+    "es": [
+      "Agentes de voz en tiempo real y sistemas telefónicos de IA que necesitan latencia mínima",
+      "Añadir texto a voz natural a apps, juegos y asistentes",
+      "Transcribir audio en vivo con Ink-2 en el mismo pipeline de voz",
+      "Clonar una voz de marca o personaje para audio de producto consistente"
+    ],
+    "fr": [
+      "Agents vocaux temps réel et systèmes téléphoniques IA nécessitant une latence minimale",
+      "Ajouter une synthèse vocale naturelle aux applis, jeux et assistants",
+      "Transcrire de l'audio en direct avec Ink-2 dans la même pipeline vocale",
+      "Cloner une voix de marque ou de personnage pour un audio produit cohérent"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Best-in-class low latency, frequently topping real-time voice benchmarks",
+      "TTS and transcription from one team and one API",
+      "Rooted in genuine SSM/Mamba research, not just a wrapper",
+      "Generous free tier to prototype before paying"
+    ],
+    "zh": [
+      "低延迟同类领先，常年霸榜实时语音评测",
+      "语音合成与转录出自同一团队、同一 API",
+      "扎根于真实的 SSM/Mamba 研究，而非套壳",
+      "免费档慷慨，付费前即可做原型"
+    ],
+    "ja": [
+      "クラス最高の低レイテンシで、リアルタイム音声ベンチマークで首位に立つことが多い",
+      "音声合成と文字起こしが同じチーム・同じAPIから",
+      "単なるラッパーではなく本物のSSM/Mamba研究に根ざす",
+      "支払い前に試作できる寛容な無料枠"
+    ],
+    "es": [
+      "Latencia baja líder en su clase, encabezando con frecuencia los benchmarks de voz en tiempo real",
+      "TTS y transcripción del mismo equipo y la misma API",
+      "Arraigado en investigación genuina SSM/Mamba, no solo un envoltorio",
+      "Nivel gratuito generoso para prototipar antes de pagar"
+    ],
+    "fr": [
+      "Faible latence meilleure de sa catégorie, en tête des benchmarks vocaux temps réel",
+      "TTS et transcription d'une même équipe et d'une même API",
+      "Ancré dans une vraie recherche SSM/Mamba, pas seulement un wrapper",
+      "Niveau gratuit généreux pour prototyper avant de payer"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Credit-based pricing takes some math to map onto real usage",
+      "Focused on voice — not a general-purpose AI platform",
+      "Fewer languages and voices than the largest incumbents like ElevenLabs",
+      "Younger company, so ecosystem and integrations are still growing"
+    ],
+    "zh": [
+      "基于信用点的计费，换算到真实用量需要算一算",
+      "专注语音——不是通用型 AI 平台",
+      "语言与音色数量少于 ElevenLabs 等最大在位者",
+      "公司较年轻，生态与集成仍在成长"
+    ],
+    "ja": [
+      "クレジットベースの課金は、実際の使用量への換算に少し計算が要る",
+      "音声特化——汎用AIプラットフォームではない",
+      "ElevenLabsのような最大手より言語・ボイスが少ない",
+      "若い企業のため、エコシステムや連携はまだ成長途上"
+    ],
+    "es": [
+      "El precio basado en créditos requiere algo de cálculo para mapearlo al uso real",
+      "Enfocado en voz: no es una plataforma de IA de propósito general",
+      "Menos idiomas y voces que los mayores incumbentes como ElevenLabs",
+      "Empresa más joven, así que el ecosistema y las integraciones aún crecen"
+    ],
+    "fr": [
+      "La tarification à base de crédits demande un peu de calcul pour la relier à l'usage réel",
+      "Axé sur la voix — pas une plateforme d'IA généraliste",
+      "Moins de langues et de voix que les plus grands acteurs comme ElevenLabs",
+      "Entreprise plus jeune, donc l'écosystème et les intégrations sont encore en croissance"
+    ]
+  },
+  "latestUpdate": {
+    "en": "2026: Cartesia continues to push its real-time voice stack — Sonic 3.5 for text-to-speech and Ink-2 for transcription — keeping its lead on low-latency voice benchmarks and expanding voice options for developers building live agents and phone-based AI.",
+    "zh": "2026 年：Cartesia 持续打磨其实时语音栈——用于文本转语音的 Sonic 3.5 与用于转录的 Ink-2——保持低延迟语音评测的领先，并为构建实时智能体和电话 AI 的开发者扩充音色选项。",
+    "ja": "2026年：Cartesiaはリアルタイム音声スタック——音声合成のSonic 3.5と文字起こしのInk-2——を磨き続け、低レイテンシ音声ベンチマークでのリードを維持し、ライブエージェントや電話ベースAIを作る開発者向けにボイス選択肢を拡充している。",
+    "es": "2026: Cartesia sigue impulsando su stack de voz en tiempo real —Sonic 3.5 para texto a voz e Ink-2 para transcripción—, manteniendo su liderazgo en benchmarks de voz de baja latencia y ampliando las opciones de voz para desarrolladores que construyen agentes en vivo e IA telefónica.",
+    "fr": "2026 : Cartesia continue de faire progresser sa pile vocale temps réel — Sonic 3.5 pour la synthèse et Ink-2 pour la transcription — gardant son avance sur les benchmarks de voix à faible latence et élargissant les options de voix pour les développeurs construisant des agents en direct et de l'IA téléphonique."
+  },
+  "verdict": {
+    "badge": "Recommended",
+    "headline": {
+      "en": "The go-to voice API when latency is the whole game",
+      "zh": "当延迟就是一切时，语音 API 的首选",
+      "ja": "レイテンシがすべてを決めるとき、頼りになる音声API",
+      "es": "La API de voz de referencia cuando la latencia lo es todo",
+      "fr": "L'API vocale de référence quand la latence fait tout"
+    },
+    "body": {
+      "en": "Cartesia was founded by the researchers behind state-space models — the Mamba architecture — and it shows in the one number that matters most for live voice: latency. Its Sonic 3.5 text-to-speech regularly tops real-time voice leaderboards, and the companion Ink-2 transcription model rounds out a stack purpose-built for AI phone agents and interactive assistants where any lag breaks the illusion of a conversation. For developers, the appeal is a single team and API handling both speech-out and speech-in, plus voice cloning and a generous free tier (about 20k credits a month at $0) that makes it easy to prototype before the paid Pro/Startup/Scale tiers kick in. The honest caveats: pricing is credit-based, so you'll do a little arithmetic to map credits onto characters and cost; it's a voice specialist rather than an all-in-one AI platform; and its language and voice catalog is still smaller than ElevenLabs. But when your product lives or dies on how instantly a voice responds, Cartesia is one of the strongest options on the market — and worth putting head-to-head with ElevenLabs before you commit.",
+      "zh": "Cartesia 由状态空间模型（Mamba 架构）背后的研究者创办，这一点体现在实时语音最要紧的那个指标上：延迟。它的 Sonic 3.5 文本转语音常年霸榜实时语音评测，配套的 Ink-2 转录模型补全了一整套为 AI 电话智能体、交互式助手打造的栈——在这些场景里，任何卡顿都会打破「对话」的错觉。对开发者而言，吸引力在于同一团队、同一 API 同时处理语音输出与输入，外加语音克隆和一个慷慨的免费档（$0 每月约 2 万信用点），付费的 Pro/Startup/Scale 档启用前就能轻松做原型。诚实的提醒：定价基于信用点，把信用点换算成字符和成本得算一算；它是语音专家而非一站式 AI 平台；语言与音色目录仍小于 ElevenLabs。但当你的产品成败取决于语音回应有多即时时，Cartesia 是市面上最强的选择之一——锁定前值得和 ElevenLabs 正面对比。",
+      "ja": "CartesiaはState-Space Model——Mambaアーキテクチャ——を生んだ研究者たちによって創業され、それはライブ音声で最も重要な一つの数字、すなわちレイテンシに表れている。Sonic 3.5音声合成はリアルタイム音声ランキングで常に上位に立ち、対をなすInk-2文字起こしモデルが、いかなる遅延も会話の錯覚を壊すAI電話エージェントや対話型アシスタント向けに設計されたスタックを完成させる。開発者にとっての魅力は、音声出力と入力の両方を同じチーム・同じAPIが扱うこと、加えて音声クローンと寛容な無料枠（$0で月約2万クレジット）により、有料のPro/Startup/Scaleに入る前に手軽に試作できる点だ。正直な注意点：課金はクレジットベースなので、クレジットを文字とコストに換算するのに少し計算がいる。汎用AIプラットフォームではなく音声の専門家であり、言語とボイスのカタログはElevenLabsより小さい。しかし製品の成否が声の応答の即時性で決まるなら、Cartesiaは市場で最も強力な選択肢の一つであり——コミットする前にElevenLabsと直接比較する価値がある。",
+      "es": "Cartesia fue fundada por los investigadores detrás de los modelos de espacio de estados —la arquitectura Mamba— y se nota en el número que más importa para la voz en vivo: la latencia. Su texto a voz Sonic 3.5 encabeza con regularidad los rankings de voz en tiempo real, y el modelo de transcripción complementario Ink-2 completa un stack creado a propósito para agentes telefónicos de IA y asistentes interactivos donde cualquier retraso rompe la ilusión de una conversación. Para los desarrolladores, el atractivo es un solo equipo y API que manejan tanto la salida como la entrada de voz, más clonación de voz y un nivel gratuito generoso (unos 20k créditos al mes a $0) que facilita prototipar antes de los niveles de pago Pro/Startup/Scale. Las advertencias honestas: el precio es por créditos, así que harás algo de aritmética para mapear créditos a caracteres y coste; es un especialista en voz, no una plataforma de IA todo en uno; y su catálogo de idiomas y voces sigue siendo menor que el de ElevenLabs. Pero cuando tu producto vive o muere según lo instantánea que responda una voz, Cartesia es una de las opciones más fuertes del mercado, y vale la pena enfrentarla a ElevenLabs antes de comprometerte.",
+      "fr": "Cartesia a été fondée par les chercheurs à l'origine des modèles à espace d'états — l'architecture Mamba — et cela se voit sur le chiffre qui compte le plus pour la voix en direct : la latence. Sa synthèse vocale Sonic 3.5 domine régulièrement les classements vocaux temps réel, et le modèle de transcription associé Ink-2 complète une pile conçue pour les agents téléphoniques IA et les assistants interactifs où le moindre décalage brise l'illusion d'une conversation. Pour les développeurs, l'attrait est une seule équipe et API gérant à la fois la sortie et l'entrée vocales, plus le clonage de voix et un niveau gratuit généreux (environ 20k crédits par mois à 0 $) qui facilite le prototypage avant les niveaux payants Pro/Startup/Scale. Les réserves honnêtes : la tarification est à base de crédits, il faudra donc un peu d'arithmétique pour relier crédits, caractères et coût ; c'est un spécialiste de la voix plutôt qu'une plateforme IA tout-en-un ; et son catalogue de langues et de voix reste plus petit que celui d'ElevenLabs. Mais quand votre produit vit ou meurt selon l'instantanéité de la réponse vocale, Cartesia est l'une des options les plus solides du marché — et mérite d'être comparée directement à ElevenLabs avant de vous engager."
+    },
+    "bestFor": {
+      "en": [
+        "Real-time voice agents and AI phone systems where latency is critical",
+        "Developers who want TTS and transcription from one API",
+        "Teams needing voice cloning with a generous free tier to start"
+      ],
+      "zh": [
+        "延迟至关重要的实时语音智能体与 AI 电话系统",
+        "想要同一 API 提供语音合成与转录的开发者",
+        "需要语音克隆、且希望有慷慨免费档起步的团队"
+      ],
+      "ja": [
+        "レイテンシが決定的なリアルタイム音声エージェントやAI電話システム",
+        "音声合成と文字起こしを同じAPIで欲しい開発者",
+        "音声クローンが必要で寛容な無料枠から始めたいチーム"
+      ],
+      "es": [
+        "Agentes de voz en tiempo real y sistemas telefónicos de IA donde la latencia es crítica",
+        "Desarrolladores que quieren TTS y transcripción desde una sola API",
+        "Equipos que necesitan clonación de voz con un nivel gratuito generoso para empezar"
+      ],
+      "fr": [
+        "Agents vocaux temps réel et systèmes téléphoniques IA où la latence est critique",
+        "Développeurs voulant TTS et transcription depuis une seule API",
+        "Équipes ayant besoin de clonage de voix avec un niveau gratuit généreux pour démarrer"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You want the largest voice/language catalog and richest ecosystem (→ ElevenLabs)",
+        "You need an all-in-one media suite beyond voice (→ a broader platform)"
+      ],
+      "zh": [
+        "你想要最大的音色/语言目录与最丰富的生态（→ ElevenLabs）",
+        "你需要语音之外的一站式媒体套件（→ 更综合的平台）"
+      ],
+      "ja": [
+        "最大のボイス／言語カタログと最も充実したエコシステムが欲しい（→ ElevenLabs）",
+        "音声を超えたオールインワンのメディアスイートが必要（→ より広範なプラットフォーム）"
+      ],
+      "es": [
+        "Quieres el mayor catálogo de voces/idiomas y el ecosistema más rico (→ ElevenLabs)",
+        "Necesitas una suite multimedia todo en uno más allá de la voz (→ una plataforma más amplia)"
+      ],
+      "fr": [
+        "Vous voulez le plus grand catalogue de voix/langues et l'écosystème le plus riche (→ ElevenLabs)",
+        "Vous avez besoin d'une suite média tout-en-un au-delà de la voix (→ une plateforme plus large)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-28",
+    "verdictDate": "2026-07-28",
+    "pricingVerified": "2026-07-28",
+    "pricingUrl": "https://www.cartesia.ai/pricing"
+  }
+}

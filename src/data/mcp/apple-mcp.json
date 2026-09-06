@@ -1,0 +1,79 @@
+{
+  "slug": "apple-mcp",
+  "name": "Apple MCP",
+  "nameZh": "Apple MCP",
+  "description": "集合 Apple 原生工具能力的 MCP 服务器。让 AI 智能体访问 macOS 的提醒事项、日历、备忘录、联系人等系统应用，在 Apple 生态内自动化操作。",
+  "descriptionEn": "A collection of Apple-native tool capabilities via MCP. Lets AI agents access macOS system apps like Reminders, Calendar, Notes, and Contacts — enabling automation within the Apple ecosystem.",
+  "descriptionJa": "Apple ネイティブツールの機能を集めた MCP サーバー。AI エージェントが macOS のリマインダー、カレンダー、メモ、連絡先などのシステムアプリにアクセスし、Apple エコシステム内での自動化を実現します。",
+  "descriptionEs": "Una colección de capacidades de herramientas nativas de Apple a través de MCP. Permite a los agentes de IA acceder a aplicaciones del sistema macOS como Recordatorios, Calendario, Notas y Contactos — permitiendo la automatización dentro del ecosistema Apple.",
+  "descriptionFr": "Une collection de capacités d'outils natifs Apple via MCP. Permet aux agents IA d'accéder aux applications système macOS comme Rappels, Calendrier, Notes et Contacts — permettant l'automatisation au sein de l'écosystème Apple.",
+  "developer": "supermemoryai",
+  "developerZh": "supermemoryai",
+  "repo": "supermemoryai/apple-mcp",
+  "clients": [
+    "claude",
+    "cursor",
+    "vscode",
+    "codex",
+    "generic"
+  ],
+  "category": "Developer",
+  "tags": [
+    "Free",
+    "Open Source"
+  ],
+  "installCommand": "npx -y apple-mcp",
+  "logo": "/logos/mcp/apple-mcp.png",
+  "stars": 3130,
+  "featured": false,
+  "faqs": [
+    {
+      "question": {
+        "zh": "Apple MCP 能控制哪些系统应用？",
+        "en": "Which system apps can Apple MCP control?",
+        "ja": "Apple MCP はどのシステムアプリを制御できますか？",
+        "es": "¿Qué aplicaciones del sistema puede controlar Apple MCP?",
+        "fr": "Quelles applications système Apple MCP peut-il contrôler ?"
+      },
+      "answer": {
+        "zh": "支持提醒事项（创建/查询/完成）、日历（创建事件/查询日程）、备忘录（创建/读取/搜索）、联系人（搜索/读取）。覆盖 macOS 上最常用的效率工具。",
+        "en": "It supports Reminders (create/query/complete), Calendar (create events/query schedule), Notes (create/read/search), and Contacts (search/read). Covering the most commonly used productivity tools on macOS.",
+        "ja": "リマインダー（作成/照会/完了）、カレンダー（イベント作成/スケジュール照会）、メモ（作成/読取/検索）、連絡先（検索/読取）をサポートしています。macOS で最もよく使われる生産性ツールをカバーしています。",
+        "es": "Soporta Recordatorios (crear/consultar/completar), Calendario (crear eventos/consultar horario), Notas (crear/leer/buscar) y Contactos (buscar/leer). Cubriendo las herramientas de productividad más utilizadas en macOS.",
+        "fr": "Il prend en charge Rappels (créer/consulter/terminer), Calendrier (créer des événements/consulter l'agenda), Notes (créer/lire/rechercher) et Contacts (rechercher/lire). Couvrant les outils de productivité les plus utilisés sur macOS."
+      }
+    },
+    {
+      "question": {
+        "zh": "Apple MCP 需要 macOS 吗？",
+        "en": "Does Apple MCP require macOS?",
+        "ja": "Apple MCP には macOS が必要ですか？",
+        "es": "¿Apple MCP necesita macOS?",
+        "fr": "Apple MCP nécessite-t-il macOS ?"
+      },
+      "answer": {
+        "zh": "是的，必须在 macOS 上运行。它通过 AppleScript 和系统事件与 macOS 原生应用交互，因此无法在 Windows 或 Linux 上使用。",
+        "en": "Yes, it must run on macOS. It interacts with macOS native apps through AppleScript and system events, so it cannot be used on Windows or Linux.",
+        "ja": "はい、macOS 上で動作する必要があります。AppleScript とシステムイベントを介して macOS ネイティブアプリと対話するため、Windows や Linux では使用できません。",
+        "es": "Sí, debe ejecutarse en macOS. Interactúa con las aplicaciones nativas de macOS a través de AppleScript y eventos del sistema, por lo que no puede usarse en Windows o Linux.",
+        "fr": "Oui, il doit fonctionner sur macOS. Il interagit avec les applications natives macOS via AppleScript et les événements système, donc il ne peut pas être utilisé sur Windows ou Linux."
+      }
+    },
+    {
+      "question": {
+        "zh": "Apple MCP 安全吗？",
+        "en": "Is Apple MCP safe?",
+        "ja": "Apple MCP は安全ですか？",
+        "es": "¿Apple MCP es seguro?",
+        "fr": "Apple MCP est-il sûr ?"
+      },
+      "answer": {
+        "zh": "MCP 服务器在本地运行，所有操作都在你的 macOS 上执行，数据不会上传到第三方。AI 智能体只有在被明确指示时才会创建或修改日历事件、提醒事项等个人数据。建议使用时注意审查授权范围。",
+        "en": "The MCP server runs locally with all operations executing on your macOS — data never leaves your machine. AI agents only create or modify calendar events, reminders, and other personal data when explicitly instructed. Review the authorization scope when using.",
+        "ja": "MCP サーバーはローカルで動作し、すべての操作は macOS 上で実行されるため、データが外部に送信されることはありません。AI エージェントは明示的に指示された場合のみカレンダーイベントやリマインダーなどの個人データを作成・変更します。使用時は認可範囲を確認することをお勧めします。",
+        "es": "El servidor MCP se ejecuta en local con todas las operaciones ejecutándose en tu macOS — los datos nunca salen de tu máquina. Los agentes de IA solo crean o modifican eventos de calendario, recordatorios y otros datos personales cuando se les indica explícitamente. Revisa el alcance de la autorización al usarlo.",
+        "fr": "Le serveur MCP s'exécute localement avec toutes les opérations sur votre macOS — les données ne quittent jamais votre machine. Les agents IA ne créent ou modifient des événements de calendrier, rappels et autres données personnelles que sur instruction explicite. Vérifiez la portée de l'autorisation lors de l'utilisation."
+      }
+    }
+  ]
+}

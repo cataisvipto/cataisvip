@@ -1,0 +1,244 @@
+{
+  "features": {
+    "en": [
+      "Free Gemini models",
+      "1M+ token context",
+      "Multimodal (text, image, audio, video)",
+      "Code execution sandbox",
+      "Prompt gallery & tuning",
+      "API key generation"
+    ],
+    "zh": [
+      "免费 Gemini 模型",
+      "1M+ token 上下文",
+      "多模态",
+      "代码执行沙箱",
+      "提示词库",
+      "API 密钥"
+    ],
+    "ja": [
+      "無料 Gemini",
+      "1M+ トークン",
+      "マルチモーダル",
+      "コード実行",
+      "プロンプトギャラリー",
+      "API キー"
+    ],
+    "es": [
+      "Gemini gratis",
+      "Contexto 1M+",
+      "Multimodal",
+      "Sandbox código",
+      "Galería prompts",
+      "Clave API"
+    ],
+    "fr": [
+      "Gemini gratuit",
+      "Contexte 1M+",
+      "Multimodal",
+      "Sandbox code",
+      "Galerie prompts",
+      "Clé API"
+    ]
+  },
+  "useCases": {
+    "en": [
+      "AI prototyping & testing",
+      "Gemini experimentation",
+      "Multimodal app dev",
+      "Content generation",
+      "API integration"
+    ],
+    "zh": [
+      "AI 原型开发",
+      "Gemini 实验",
+      "多模态应用",
+      "内容生成",
+      "API 集成"
+    ],
+    "ja": [
+      "AI プロトタイプ",
+      "Gemini 実験",
+      "マルチモーダル",
+      "コンテンツ生成",
+      "API 統合"
+    ],
+    "es": [
+      "Prototipado IA",
+      "Experimentación Gemini",
+      "App multimodal",
+      "Generación contenido",
+      "Integración API"
+    ],
+    "fr": [
+      "Prototypage IA",
+      "Expérimentation Gemini",
+      "App multimodale",
+      "Génération contenu",
+      "Intégration API"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Free generous tier",
+      "1M+ token context",
+      "Multimodal",
+      "Active Google development"
+    ],
+    "zh": [
+      "免费额度慷慨",
+      "超长上下文",
+      "多模态",
+      "Google 持续开发"
+    ],
+    "ja": [
+      "無料枠充実",
+      "長いコンテキスト",
+      "マルチモーダル",
+      "Google 開発"
+    ],
+    "es": [
+      "Plan gratuito generoso",
+      "Contexto largo",
+      "Multimodal",
+      "Desarrollo Google"
+    ],
+    "fr": [
+      "Forfait généreux",
+      "Contexte long",
+      "Multimodal",
+      "Développement Google"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Google account needed",
+      "Region-locked features",
+      "Less private than local"
+    ],
+    "zh": [
+      "需 Google 账号",
+      "区域限制",
+      "隐私不如本地"
+    ],
+    "ja": [
+      "Google アカウント",
+      "地域制限",
+      "プライバシー"
+    ],
+    "es": [
+      "Cuenta Google",
+      "Restricciones región",
+      "Menos privacidad"
+    ],
+    "fr": [
+      "Compte Google",
+      "Limitations régionales",
+      "Moins privé"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Generous free tier",
+      "zh": "慷慨免费版",
+      "ja": "無料枠充実",
+      "es": "Plan gratuito generoso",
+      "fr": "Forfait gratuit généreux"
+    },
+    "api": {
+      "en": "Pay-as-you-go beyond free",
+      "zh": "超额按量计费",
+      "ja": "超過後は従量課金",
+      "es": "Pago por uso",
+      "fr": "À la consommation"
+    }
+  },
+  "latestUpdate": {
+    "en": "2026: AI Studio adds Gemini 2.5 models",
+    "zh": "2026年：AI Studio 新增 Gemini 2.5 模型",
+    "ja": "2026年：AI Studio が Gemini 2.5 に対応",
+    "es": "2026: AI Studio añade Gemini 2.5",
+    "fr": "2026 : AI Studio ajoute les modèles Gemini 2.5"
+  },
+  "verdict": {
+    "badge": "Recommended",
+    "headline": {
+      "en": "Free access to Gemini models with a developer-friendly interface — the fastest way to prototype with Google's AI.",
+      "zh": "免费访问Gemini模型的开发者友好界面——使用Google AI进行原型开发的最快方式。",
+      "ja": "開発者フレンドリーなインターフェースでGeminiモデルに無料アクセス。",
+      "es": "Acceso gratuito a modelos Gemini con interfaz amigable para desarrolladores.",
+      "fr": "Accès gratuit aux modèles Gemini avec interface conviviale pour développeurs."
+    },
+    "body": {
+      "en": "Google AI Studio is the free front door to Gemini's API. It provides a web-based playground where you can test prompts, compare model outputs, tune parameters, and generate API keys—all without setting up billing.\n\nThe free tier is generous: sufficient rate limits for prototyping, access to both Flash and Pro model variants, and multimodal support including image and video understanding.\n\nThe limitation is that AI Studio is a development tool, not a production platform. For production you'll graduate to Vertex AI.",
+      "zh": "Google AI Studio本质上是Gemini API的免费入口。提供基于网页的实验场，可以测试提示词、比较输出、调整参数和生成API密钥——无需设置计费。\n\n免费层确实慷慨：足够原型的速率限制、Flash和Pro模型访问、多模态支持。\n\n限制在于AI Studio是开发工具而非生产平台。生产需要迁移到Vertex AI。",
+      "ja": "Google AI StudioはGemini APIへの無料フロントドアです。ウェブベースでプロンプトテスト、出力比較、パラメータ調整、APIキー生成が可能。\n\n無料枠は寛大です。\n\n制限はAI Studioが開発ツールであること。本番にはVertex AIが必要です。",
+      "es": "Google AI Studio es la puerta gratuita a la API de Gemini. Un playground web para probar prompts y generar claves API.\n\nEl nivel gratuito es generoso.\n\nLa limitación es que es una herramienta de desarrollo, no plataforma de producción.",
+      "fr": "Google AI Studio est la porte d'entrée gratuite vers l'API Gemini. Un playground web pour tester des prompts et générer des clés API.\n\nLe tier gratuit est généreux.\n\nLa limite est que c'est un outil de développement, pas une plateforme de production."
+    },
+    "bestFor": {
+      "en": [
+        "Developers evaluating Gemini models before committing",
+        "Free prototyping of AI features with generous limits",
+        "Testing multimodal capabilities",
+        "Students and researchers needing free access to capable models"
+      ],
+      "zh": [
+        "在选定API前评估Gemini模型的开发者",
+        "慷慨限额下的AI功能免费原型",
+        "测试多模态能力",
+        "需要免费访问高能力模型的学生和研究者"
+      ],
+      "ja": [
+        "Geminiモデルを評価する開発者",
+        "寛大な制限での無料AIプロトタイピング",
+        "マルチモーダル機能のテスト",
+        "無料で高能力モデルを使いたい学生・研究者"
+      ],
+      "es": [
+        "Desarrolladores evaluando modelos Gemini",
+        "Prototipado gratuito con límites generosos",
+        "Probar capacidades multimodales",
+        "Estudiantes que necesitan acceso gratuito"
+      ],
+      "fr": [
+        "Développeurs évaluant les modèles Gemini",
+        "Prototypage gratuit avec limites généreuses",
+        "Test de capacités multimodales",
+        "Étudiants nécessitant un accès gratuit"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You need production infrastructure with SLAs (→ Vertex AI, Azure OpenAI)",
+        "You want the best reasoning quality available (→ Claude API, OpenAI API)",
+        "You need a consumer chat interface, not a dev tool (→ Gemini app, ChatGPT)"
+      ],
+      "zh": [
+        "你需要带SLA的生产基础设施（→ Vertex AI、Azure OpenAI）",
+        "你需要当前最佳推理质量（→ Claude API、OpenAI API）",
+        "你需要消费者聊天界面而非开发工具（→ Gemini应用、ChatGPT）"
+      ],
+      "ja": [
+        "SLA付き本番インフラが必要な場合（→ Vertex AI、Azure OpenAI）",
+        "最高の推論品質が必要な場合（→ Claude API、OpenAI API）",
+        "開発ツールでなく消費者向けチャットが必要な場合（→ Geminiアプリ、ChatGPT）"
+      ],
+      "es": [
+        "Necesitas infraestructura con SLAs (→ Vertex AI, Azure OpenAI)",
+        "Quieres la mejor calidad de razonamiento (→ Claude API, OpenAI API)",
+        "Necesitas una interfaz de chat, no herramienta dev (→ Gemini app, ChatGPT)"
+      ],
+      "fr": [
+        "Vous avez besoin d'infrastructure avec SLAs (→ Vertex AI, Azure OpenAI)",
+        "Vous voulez la meilleure qualité de raisonnement (→ Claude API, OpenAI API)",
+        "Vous avez besoin d'une interface chat, pas d'un outil dev (→ app Gemini, ChatGPT)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-27",
+    "verdictDate": "2026-07-27",
+    "pricingVerified": "2026-07-27"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "slug": "elevenlabs-mcp",
+  "name": "ElevenLabs MCP",
+  "nameZh": "ElevenLabs MCP",
+  "description": "ElevenLabs 官方 MCP 服务器。让 AI 智能体直接调用 ElevenLabs 的语音合成（TTS）与声音克隆能力，将文本转换为自然流畅的语音，支持多种语言与音色。",
+  "descriptionEn": "The official ElevenLabs MCP server. Lets AI agents directly invoke ElevenLabs' text-to-speech (TTS) and voice cloning capabilities, converting text into natural, fluent speech with support for multiple languages and voices.",
+  "descriptionJa": "ElevenLabs 公式 MCP サーバー。AI エージェントが ElevenLabs の音声合成（TTS）と音声クローン機能を直接呼び出し、テキストを自然で流暢な音声に変換。複数の言語と音声をサポートします。",
+  "descriptionEs": "El servidor MCP oficial de ElevenLabs. Permite a los agentes de IA invocar directamente las capacidades de texto a voz (TTS) y clonación de voz de ElevenLabs, convirtiendo texto en voz natural y fluida con soporte para múltiples idiomas y voces.",
+  "descriptionFr": "Le serveur MCP officiel d'ElevenLabs. Permet aux agents IA d'invoquer directement les capacités de synthèse vocale (TTS) et de clonage vocal d'ElevenLabs, convertissant le texte en parole naturelle et fluide avec le support de plusieurs langues et voix.",
+  "developer": "ElevenLabs",
+  "developerZh": "ElevenLabs",
+  "repo": "elevenlabs/elevenlabs-mcp",
+  "clients": [
+    "claude",
+    "cursor",
+    "vscode",
+    "codex",
+    "generic"
+  ],
+  "category": "Media",
+  "tags": [
+    "Free",
+    "API"
+  ],
+  "installCommand": "uvx elevenlabs-mcp --api-key YOUR_API_KEY",
+  "logo": "/logos/mcp/elevenlabs-mcp.png",
+  "stars": 1536,
+  "featured": false,
+  "faqs": [
+    {
+      "question": {
+        "zh": "ElevenLabs MCP 能做什么？",
+        "en": "What can ElevenLabs MCP do?",
+        "ja": "ElevenLabs MCP は何ができますか？",
+        "es": "¿Qué puede hacer ElevenLabs MCP?",
+        "fr": "Que peut faire ElevenLabs MCP ?"
+      },
+      "answer": {
+        "zh": "让 AI 智能体直接调用 ElevenLabs 的语音能力：将文本转换为自然语音（TTS），支持多种语言和音色；克隆声音生成定制语音；管理语音库。适用于 AI 语音助手、有声内容生成、多语言配音等场景。",
+        "en": "Lets AI agents directly invoke ElevenLabs' voice capabilities: convert text to natural speech (TTS) with multiple languages and voices, clone voices for custom speech, and manage voice libraries. Ideal for AI voice assistants, audio content generation, and multilingual dubbing.",
+        "ja": "AI エージェントが ElevenLabs の音声機能を直接呼び出せます：テキストを自然な音声に変換（TTS）、複数の言語と音声に対応、音声クローンでカスタム音声を生成、音声ライブラリを管理。AI 音声アシスタント、音声コンテンツ生成、多言語吹き替えなどのシーンに最適です。",
+        "es": "Permite a los agentes de IA invocar directamente las capacidades de voz de ElevenLabs: convertir texto a voz natural (TTS) con múltiples idiomas y voces, clonar voces para generar voz personalizada, y gestionar bibliotecas de voz. Ideal para asistentes de voz IA, generación de contenido de audio y doblaje multilingüe.",
+        "fr": "Permet aux agents IA d'invoquer directement les capacités vocales d'ElevenLabs : convertir du texte en parole naturelle (TTS) avec plusieurs langues et voix, cloner des voix pour une parole personnalisée, et gérer des bibliothèques vocales. Idéal pour les assistants vocaux IA, la génération de contenu audio et le doublage multilingue."
+      }
+    },
+    {
+      "question": {
+        "zh": "ElevenLabs MCP 需要 API Key 吗？",
+        "en": "Does ElevenLabs MCP need an API key?",
+        "ja": "ElevenLabs MCP に API キーは必要ですか？",
+        "es": "¿ElevenLabs MCP necesita una clave API?",
+        "fr": "ElevenLabs MCP a-t-il besoin d'une clé API ?"
+      },
+      "answer": {
+        "zh": "需要。在 ElevenLabs 官网注册账号并获取 API Key，然后通过 --api-key 参数传入：npx -y @elevenlabs/mcp-server --api-key 你的Key。ElevenLabs 提供免费额度供开发测试，每月可生成一定量的语音。",
+        "en": "Yes. Register at elevenlabs.io, get an API key, and pass it with --api-key: npx -y @elevenlabs/mcp-server --api-key YOUR_KEY. ElevenLabs offers a free tier for development and testing with a monthly speech generation quota.",
+        "ja": "必要です。ElevenLabs の公式サイトでアカウント登録し、API キーを取得して --api-key パラメータで渡します：npx -y @elevenlabs/mcp-server --api-key YOUR_KEY。ElevenLabs は毎月一定量の音声生成が可能な無料枠を提供しています。",
+        "es": "Sí. Regístrate en elevenlabs.io, obtén una clave API y pásala con --api-key: npx -y @elevenlabs/mcp-server --api-key TU_CLAVE. ElevenLabs ofrece un nivel gratuito para desarrollo y pruebas con una cuota mensual de generación de voz.",
+        "fr": "Oui. Inscrivez-vous sur elevenlabs.io, obtenez une clé API et passez-la avec --api-key : npx -y @elevenlabs/mcp-server --api-key VOTRE_CLÉ. ElevenLabs offre un niveau gratuit pour le développement et les tests avec un quota mensuel de génération vocale."
+      }
+    },
+    {
+      "question": {
+        "zh": "ElevenLabs 的语音质量怎么样？",
+        "en": "How is ElevenLabs' voice quality?",
+        "ja": "ElevenLabs の音声品質はどうですか？",
+        "es": "¿Cómo es la calidad de voz de ElevenLabs?",
+        "fr": "Comment est la qualité vocale d'ElevenLabs ?"
+      },
+      "answer": {
+        "zh": "ElevenLabs 是业界公认的顶级 TTS 提供商之一，语音自然度极高，支持细微的情感语气调节，包括叹息、耳语等非语言表达。覆盖 30+ 种语言，中文音色也在持续优化中。",
+        "en": "ElevenLabs is widely recognized as one of the top TTS providers, with highly natural speech quality and fine-grained emotional tone control, including non-verbal expressions like sighs and whispers. Supports 30+ languages, with Chinese voice quality continuously improving.",
+        "ja": "ElevenLabs は業界でもトップクラスの TTS プロバイダーとして広く認知されており、非常に自然な音声品質と、ため息や囁きなどの非言語表現を含む細かな感情のトーン調節を実現しています。30 以上の言語に対応し、中国語の音声品質も継続的に向上しています。",
+        "es": "ElevenLabs es ampliamente reconocido como uno de los principales proveedores de TTS, con una calidad de voz extremadamente natural y un control de tono emocional detallado, incluyendo expresiones no verbales como suspiros y susurros. Soporta más de 30 idiomas, con la calidad de voz china en mejora continua.",
+        "fr": "ElevenLabs est largement reconnu comme l'un des meilleurs fournisseurs de TTS, avec une qualité vocale extrêmement naturelle et un contrôle fin du ton émotionnel, y compris les expressions non verbales comme les soupirs et les chuchotements. Prend en charge plus de 30 langues, avec la qualité de la voix chinoise en amélioration continue."
+      }
+    }
+  ]
+}

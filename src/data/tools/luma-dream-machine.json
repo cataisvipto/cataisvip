@@ -1,0 +1,29 @@
+{
+  "slug": "luma-dream-machine",
+  "name": "Luma Dream Machine",
+  "nameZh": "Luma Dream Machine",
+  "description": "Luma AI 推出的视频生成工具，从文本和图像生成高质量视频，物理效果真实",
+  "descriptionEn": "Luma AI's video generation tool creating high-quality videos from text and images with realistic physics",
+  "descriptionJa": "Luma AIの動画生成ツール。テキストと画像から高品質動画を生成、リアルな物理効果",
+  "descriptionEs": "Herramienta de generación de video de Luma AI que crea videos de alta calidad a partir de texto e imágenes con física realista",
+  "descriptionFr": "Outil de génération vidéo de Luma AI créant des vidéos de haute qualité à partir de texte et d'images avec une physique réaliste",
+  "url": "https://lumalabs.ai/dream-machine",
+  "logo": "/logos/tools/luma-dream-machine.png",
+  "category": "Video",
+  "tags": [
+    "Freemium",
+    "API"
+  ],
+  "featured": false,
+  "developer": "Luma AI",
+  "platforms": {
+    "web": true,
+    "windows": false,
+    "macos": false,
+    "ios": true,
+    "android": false,
+    "linux": false,
+    "browser_extension": false,
+    "api": true
+  }
+}

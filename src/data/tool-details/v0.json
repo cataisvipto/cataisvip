@@ -1,0 +1,253 @@
+{
+  "features": {
+    "en": [
+      "Full-stack app generation from prompts",
+      "Production-ready React/Next.js code",
+      "GitHub sync and push",
+      "One-click deploy to Vercel",
+      "Design-to-code and image input",
+      "Team collaboration and agents"
+    ],
+    "zh": [
+      "由提示词生成全栈应用",
+      "生产可用的 React/Next.js 代码",
+      "GitHub 同步与推送",
+      "一键部署到 Vercel",
+      "设计稿转代码与图片输入",
+      "团队协作与智能体"
+    ],
+    "ja": [
+      "プロンプトからフルスタックアプリを生成",
+      "本番対応の React/Next.js コード",
+      "GitHub 同期とプッシュ",
+      "Vercel へワンクリックデプロイ",
+      "デザインからコード変換と画像入力",
+      "チームコラボレーションとエージェント"
+    ],
+    "es": [
+      "Generación de apps full-stack a partir de prompts",
+      "Código React/Next.js listo para producción",
+      "Sincronización y push con GitHub",
+      "Despliegue en Vercel con un clic",
+      "Diseño a código y entrada de imágenes",
+      "Colaboración en equipo y agentes"
+    ],
+    "fr": [
+      "Génération d'applis full-stack à partir de prompts",
+      "Code React/Next.js prêt pour la production",
+      "Synchronisation et push GitHub",
+      "Déploiement en un clic sur Vercel",
+      "Design-to-code et entrée d'images",
+      "Collaboration d'équipe et agents"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "$0 ($2 daily free credits)",
+      "zh": "$0（每日 $2 免费额度）",
+      "ja": "0ドル（毎日2ドルの無料クレジット）",
+      "es": "0 $ (2 $ de créditos gratis diarios)",
+      "fr": "0 $ (2 $ de crédits gratuits par jour)"
+    },
+    "plus": {
+      "en": "Premium $20/month ($20 credits)",
+      "zh": "Premium $20/月（含 $20 额度）",
+      "ja": "Premium 月額20ドル（20ドル分クレジット）",
+      "es": "Premium 20 $/mes (20 $ en créditos)",
+      "fr": "Premium 20 $/mois (20 $ de crédits)"
+    },
+    "team": {
+      "en": "Team $30/user/month ($30 credits each)",
+      "zh": "Team $30/人/月（每人 $30 额度）",
+      "ja": "Team 1ユーザー月額30ドル（各30ドル分クレジット）",
+      "es": "Team 30 $/usuario/mes (30 $ en créditos cada uno)",
+      "fr": "Team 30 $/utilisateur/mois (30 $ de crédits chacun)"
+    },
+    "enterprise": {
+      "en": "Custom pricing",
+      "zh": "定制价格",
+      "ja": "カスタム料金",
+      "es": "Precio personalizado",
+      "fr": "Tarif personnalisé"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Rapid UI prototyping",
+      "Full-stack MVP building",
+      "Landing pages and dashboards",
+      "Design-to-code handoff",
+      "Component generation",
+      "Founder and marketer builds"
+    ],
+    "zh": [
+      "快速 UI 原型",
+      "全栈 MVP 搭建",
+      "落地页与仪表盘",
+      "设计稿到代码交付",
+      "组件生成",
+      "创业者与市场人员搭建"
+    ],
+    "ja": [
+      "迅速な UI プロトタイピング",
+      "フルスタック MVP の構築",
+      "ランディングページとダッシュボード",
+      "デザインからコードへの受け渡し",
+      "コンポーネント生成",
+      "創業者・マーケター向けの制作"
+    ],
+    "es": [
+      "Prototipado rápido de UI",
+      "Creación de MVP full-stack",
+      "Landing pages y paneles",
+      "Entrega de diseño a código",
+      "Generación de componentes",
+      "Creaciones para fundadores y marketers"
+    ],
+    "fr": [
+      "Prototypage rapide d'UI",
+      "Création de MVP full-stack",
+      "Landing pages et tableaux de bord",
+      "Passage du design au code",
+      "Génération de composants",
+      "Réalisations pour fondateurs et marketeurs"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Instant deployable apps",
+      "Native Vercel/Next.js integration",
+      "Great for prototyping",
+      "Accessible to non-developers"
+    ],
+    "zh": [
+      "即时可部署应用",
+      "原生集成 Vercel/Next.js",
+      "适合快速原型",
+      "非开发者也可上手"
+    ],
+    "ja": [
+      "即座にデプロイ可能なアプリ",
+      "Vercel/Next.js とのネイティブ統合",
+      "プロトタイピングに最適",
+      "非開発者でも利用可能"
+    ],
+    "es": [
+      "Apps desplegables al instante",
+      "Integración nativa con Vercel/Next.js",
+      "Ideal para prototipado",
+      "Accesible para no desarrolladores"
+    ],
+    "fr": [
+      "Applis déployables instantanément",
+      "Intégration native Vercel/Next.js",
+      "Idéal pour le prototypage",
+      "Accessible aux non-développeurs"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Credit-based usage costs",
+      "Best fit for Vercel stack",
+      "Complex apps need refinement"
+    ],
+    "zh": [
+      "按额度计费",
+      "最适配 Vercel 技术栈",
+      "复杂应用需再打磨"
+    ],
+    "ja": [
+      "クレジットベースの利用料",
+      "Vercel スタックに最適化",
+      "複雑なアプリは調整が必要"
+    ],
+    "es": [
+      "Costes de uso basados en créditos",
+      "Se adapta mejor al stack de Vercel",
+      "Las apps complejas necesitan ajustes"
+    ],
+    "fr": [
+      "Coûts d'usage basés sur des crédits",
+      "Convient surtout à la stack Vercel",
+      "Les applis complexes nécessitent des ajustements"
+    ]
+  },
+  "latestUpdate": {
+    "en": "July 2026: v0.dev became v0.app, expanding from UI generation to full-stack apps with agents and git workflows",
+    "zh": "2026年7月：v0.dev 升级为 v0.app，从 UI 生成扩展到全栈应用，支持智能体与 git 工作流",
+    "ja": "2026年7月：v0.dev が v0.app に進化し、UI 生成からエージェントと git ワークフローを備えたフルスタックアプリへ拡張",
+    "es": "Julio de 2026: v0.dev pasó a ser v0.app, ampliándose de la generación de UI a apps full-stack con agentes y flujos de git",
+    "fr": "Juillet 2026 : v0.dev est devenu v0.app, passant de la génération d'UI aux applis full-stack avec agents et workflows git"
+  },
+  "verdict": {
+    "badge": "Recommended",
+    "headline": {
+      "en": "Vercel's AI that generates production-ready React UI components from natural language descriptions.",
+      "zh": "Vercel的AI，从自然语言描述生成可用于生产的React UI组件。",
+      "ja": "自然言語の説明からプロダクション対応のReact UIコンポーネントを生成するVercelのAI。",
+      "es": "La IA de Vercel que genera componentes React UI listos para producción desde descripciones en lenguaje natural.",
+      "fr": "L'IA de Vercel qui génère des composants React UI prêts pour la production à partir de descriptions en langage naturel."
+    },
+    "body": {
+      "en": "v0 fills a specific niche extremely well: turning UI descriptions into functional React/Next.js components with Tailwind CSS and shadcn/ui. For frontend developers and designers who need to quickly prototype interfaces, it dramatically reduces the time from idea to working code.\n\nIts scope is deliberately narrow—it's a UI generation tool, not a general coding assistant. You won't use it for backend logic, debugging, or non-React projects. But within its domain, the output quality and Vercel ecosystem integration make it a genuine time-saver.",
+      "zh": "v0 精确填补了一个利基：将UI描述转化为使用 Tailwind CSS 和 shadcn/ui 的功能性 React/Next.js 组件。对于需要快速原型化界面的前端开发者和设计师，它大幅缩短了从想法到可运行代码的时间。\n\n其范围刻意收窄——是UI生成工具，而非通用编程助手。不适用于后端逻辑、调试或非React项目。但在其领域内，输出质量和Vercel生态集成使它成为真正的效率工具。",
+      "ja": "v0は特定のニッチを非常にうまく埋めています：UIの説明をTailwind CSSとshadcn/uiを使った機能的なReact/Next.jsコンポーネントに変換します。インターフェースを素早くプロトタイプ化したいフロントエンド開発者やデザイナーにとって、アイデアから動作コードまでの時間を劇的に短縮します。\n\nスコープは意図的に狭く——UI生成ツールであり、汎用コーディングアシスタントではありません。バックエンドロジック、デバッグ、非Reactプロジェクトには不向きです。しかしその領域内では出力品質とVercelエコシステム統合が本物の時短をもたらします。",
+      "es": "v0 llena un nicho específico extremadamente bien: convertir descripciones de UI en componentes React/Next.js funcionales con Tailwind CSS y shadcn/ui. Para desarrolladores frontend que necesitan prototipar interfaces rápidamente, reduce dramáticamente el tiempo de idea a código funcional.\n\nSu alcance es deliberadamente estrecho—es una herramienta de generación UI, no un asistente de código general. No lo usarás para lógica backend o proyectos no-React. Pero dentro de su dominio, la calidad y la integración con Vercel lo hacen un ahorro de tiempo genuino.",
+      "fr": "v0 remplit un créneau spécifique très efficacement : transformer des descriptions d'UI en composants React/Next.js fonctionnels avec Tailwind CSS et shadcn/ui. Pour les développeurs frontend qui doivent prototyper rapidement des interfaces, il réduit considérablement le temps entre l'idée et le code fonctionnel.\n\nSon périmètre est délibérément étroit—c'est un outil de génération UI, pas un assistant de code général. Mais dans son domaine, la qualité de sortie et l'intégration Vercel en font un véritable gain de temps."
+    },
+    "bestFor": {
+      "en": [
+        "Rapid React/Next.js UI prototyping",
+        "Frontend developers using Tailwind and shadcn/ui",
+        "Converting design mockups to working components"
+      ],
+      "zh": [
+        "快速React/Next.js UI原型化",
+        "使用Tailwind和shadcn/ui的前端开发者",
+        "将设计稿转化为可运行组件"
+      ],
+      "ja": [
+        "React/Next.js UIの高速プロトタイピング",
+        "TailwindとshadcnUIを使うフロントエンド開発者",
+        "デザインモックから動作コンポーネントへの変換"
+      ],
+      "es": [
+        "Prototipado rápido de UI React/Next.js",
+        "Desarrolladores frontend usando Tailwind y shadcn/ui",
+        "Convertir mockups de diseño en componentes funcionales"
+      ],
+      "fr": [
+        "Prototypage rapide d'UI React/Next.js",
+        "Développeurs frontend utilisant Tailwind et shadcn/ui",
+        "Conversion de maquettes en composants fonctionnels"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You need full-stack coding assistance (→ Cursor, Qoder)",
+        "You work outside the React/Next.js ecosystem (→ Bolt, Lovable)"
+      ],
+      "zh": [
+        "需要全栈编程辅助（→ Cursor、Qoder）",
+        "在React/Next.js生态之外工作（→ Bolt、Lovable）"
+      ],
+      "ja": [
+        "フルスタックのコーディング支援が必要な場合（→ Cursor、Qoder）",
+        "React/Next.jsエコシステム外で作業する場合（→ Bolt、Lovable）"
+      ],
+      "es": [
+        "Necesitas asistencia de código full-stack (→ Cursor, Qoder)",
+        "Trabajas fuera del ecosistema React/Next.js (→ Bolt, Lovable)"
+      ],
+      "fr": [
+        "Vous avez besoin d'une assistance code full-stack (→ Cursor, Qoder)",
+        "Vous travaillez hors de l'écosystème React/Next.js (→ Bolt, Lovable)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-29",
+    "verdictDate": "2026-07-27",
+    "pricingVerified": "2026-07-29"
+  }
+}

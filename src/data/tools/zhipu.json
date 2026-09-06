@@ -1,0 +1,30 @@
+{
+  "slug": "zhipu",
+  "name": "ChatGLM",
+  "nameZh": "智谱清言",
+  "description": "智谱 AI 推出的对话助手，基于 GLM 大模型，支持中英双语和代码生成",
+  "descriptionEn": "Zhipu AI's chatbot based on GLM model, supporting bilingual Chinese-English and code generation",
+  "descriptionJa": "Zhipu AIのチャットボット。GLMモデル搭載、中英バイリンガルとコード生成に対応",
+  "descriptionEs": "Chatbot de Zhipu AI basado en el modelo GLM, soporta bilingüe chino-inglés y generación de código",
+  "descriptionFr": "Chatbot de Zhipu AI basé sur le modèle GLM, supportant le bilinguisme chinois-anglais et la génération de code",
+  "url": "https://chatglm.cn",
+  "logo": "/logos/tools/zhipu.png",
+  "category": "Chat",
+  "tags": [
+    "Free",
+    "API"
+  ],
+  "featured": false,
+  "developer": "Zhipu AI",
+  "developerZh": "智谱 AI",
+  "platforms": {
+    "web": true,
+    "windows": true,
+    "macos": "unknown",
+    "ios": true,
+    "android": true,
+    "linux": false,
+    "browser_extension": "unknown",
+    "api": true
+  }
+}

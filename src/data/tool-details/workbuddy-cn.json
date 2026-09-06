@@ -1,0 +1,283 @@
+{
+  "summary": {
+    "en": "WorkBuddy by Tencent Cloud is an all-scenario AI office workbench (China version), featuring multi-Agent parallel workflows, deep integration with the Tencent ecosystem (WeCom, QQ, Feishu, DingTalk), and support for domestic AI models including Hunyuan, GLM-5, Kimi and MiniMax.",
+    "zh": "WorkBuddy（中国版）是腾讯云推出的全场景 AI 办公工作台，多 Agent 并行工作。深度整合腾讯生态（企业微信、QQ、飞书、钉钉），支持混元、GLM-5、Kimi、MiniMax 等国产大模型，一句话指令完成复杂办公任务。",
+    "ja": "WorkBuddy（中国版）は、Tencent CloudのオールシーンAIオフィスワークベンチです。マルチエージェント並列処理、Tencentエコシステム（WeCom、QQ、Feishu、DingTalk）との深い統合、および国産AIモデル（混元、GLM-5、Kimi、MiniMax）をサポートします。",
+    "es": "WorkBuddy (versión China) es un banco de trabajo AI para oficina de Tencent Cloud con flujos de trabajo multi-agente en paralelo, integración profunda con el ecosistema Tencent y soporte para modelos de IA domésticos como Hunyuan, GLM-5, Kimi y MiniMax.",
+    "fr": "WorkBuddy (version Chine) est un poste de travail IA multi-scénarios de Tencent Cloud avec des flux de travail multi-agent en parallèle, une intégration profonde avec l'écosystème Tencent et la prise en charge des modèles d'IA nationaux."
+  },
+  "features": {
+    "en": [
+      "Multi-Agent parallel architecture for complex tasks",
+      "Direct local file operation (Excel, PDF, Word, PPT)",
+      "Deep integration with Tencent ecosystem (WeCom, QQ, Feishu, DingTalk)",
+      "Support for Hunyuan, GLM-5, Kimi, MiniMax models",
+      "100+ Skills expert roles compatible with OpenClaw skills",
+      "Cron scheduled tasks for automated office workflows",
+      "Sandbox isolation with high-risk command interception",
+      "Rule templates for reusable command presets"
+    ],
+    "zh": [
+      "多 Agent 并行架构，自动拆解复杂任务",
+      "直接操作本地文件（Excel、PDF、Word、PPT）",
+      "深度整合腾讯生态（企业微信、QQ、飞书、钉钉）",
+      "支持混元、GLM-5、Kimi、MiniMax 等国产模型",
+      "100+ Skills 专家角色，兼容 OpenClaw 技能",
+      "Cron 定时任务实现办公自动化",
+      "沙盒隔离 + 高危指令拦截",
+      "Rule 指令模板，@ 符号快速复用"
+    ],
+    "ja": [
+      "マルチエージェント並列アーキテクチャ",
+      "ローカルファイル直接操作",
+      "Tencentエコシステムとの深い統合",
+      "国産モデル（混元、GLM-5、Kimi、MiniMax）対応",
+      "100+ Skills、OpenClawスキルと互換",
+      "Cronスケジュールによる自動化",
+      "サンドボックス隔離 + 高リスクコマンド防止",
+      "ルールテンプレートで再利用可能"
+    ],
+    "es": [
+      "Arquitectura multi-agente paralela",
+      "Operación directa de archivos locales",
+      "Integración con ecosistema Tencent",
+      "Soporte para modelos Hunyuan, GLM-5, Kimi, MiniMax",
+      "100+ Skills compatible con OpenClaw",
+      "Tareas programadas Cron",
+      "Aislamiento sandbox + interceptación de comandos",
+      "Plantillas de reglas reutilizables"
+    ],
+    "fr": [
+      "Architecture multi-agent parallèle",
+      "Opération directe des fichiers locaux",
+      "Intégration avec l'écosystème Tencent",
+      "Support des modèles Hunyuan, GLM-5, Kimi, MiniMax",
+      "100+ Skills compatible OpenClaw",
+      "Tâches planifiées Cron",
+      "Isolement sandbox + interception de commandes",
+      "Modèles de règles réutilisables"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Free trial with basic features",
+      "zh": "体验版限时免费",
+      "ja": "体験版は期間限定無料",
+      "es": "Prueba gratuita con funciones básicas",
+      "fr": "Essai gratuit avec fonctions de base"
+    },
+    "pro": {
+      "en": "¥70/mo (Standard) / ¥140/mo (Premium)",
+      "zh": "¥70/月（标准版）/ ¥140/月（高级版）",
+      "ja": "¥70/月（スタンダード）/ ¥140/月（プレミアム）",
+      "es": "¥70/mes (Estándar) / ¥140/mes (Premium)",
+      "fr": "¥70/mois (Standard) / ¥140/mois (Premium)"
+    },
+    "enterprise": {
+      "en": "¥198/user/mo (SaaS) / ¥316/user/mo (Private Cloud)",
+      "zh": "¥198/人/月（SaaS 企业版）/ ¥316/人/月（专有云版）",
+      "ja": "¥198/ユーザー/月（SaaS）/ ¥316/ユーザー/月（専有クラウド）",
+      "es": "¥198/usuario/mes (SaaS) / ¥316/usuario/mes (Nube privada)",
+      "fr": "¥198/utilisateur/mois (SaaS) / ¥316/utilisateur/mois (Cloud privé)"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Document research and analysis reporting",
+      "Data cleaning and spreadsheet visualization",
+      "Market research and competitive analysis",
+      "PPT generation from single command",
+      "Automated daily/weekly report generation",
+      "Intelligent customer service and knowledge base"
+    ],
+    "zh": [
+      "文档研究与分析报告生成",
+      "数据清洗与表格可视化",
+      "市场调研与竞品分析",
+      "一句话生成演示文稿",
+      "日报/周报自动生成",
+      "智能客服与知识库构建"
+    ],
+    "ja": [
+      "ドキュメント調査と分析レポート生成",
+      "データクリーニングと可視化",
+      "市場調査と競合分析",
+      "ワンコマンドでPPT生成",
+      "日報/週報の自動生成",
+      "スマートカスタマーサービスとナレッジベース"
+    ],
+    "es": [
+      "Investigación documental y generación de informes",
+      "Limpieza de datos y visualización de tablas",
+      "Investigación de mercado y análisis competitivo",
+      "Generación de PPT con un solo comando",
+      "Informes diarios/semanales automatizados",
+      "Servicio al cliente inteligente y base de conocimientos"
+    ],
+    "fr": [
+      "Recherche documentaire et génération de rapports",
+      "Nettoyage de données et visualisation de tableaux",
+      "Étude de marché et analyse concurrentielle",
+      "Génération de PPT en une commande",
+      "Rapports quotidiens/hebdomadaires automatisés",
+      "Service client intelligent et base de connaissances"
+    ]
+  },
+  "pros": {
+    "en": [
+      "True multi-Agent parallel execution",
+      "Deep Tencent ecosystem integration",
+      "Very low entry barrier (3-minute setup)",
+      "Domestic AI model flexibility",
+      "Active community and corporate support",
+      "Cron task automation"
+    ],
+    "zh": [
+      "真正的多 Agent 并行执行",
+      "深度整合腾讯生态",
+      "入门门槛极低（3分钟安装）",
+      "国产模型灵活切换",
+      "社区活跃 + 企业级支持",
+      "定时任务自动化"
+    ],
+    "ja": [
+      "真のマルチエージェント並列実行",
+      "Tencentエコシステムとの深い統合",
+      "非常に低い導入障壁",
+      "国産モデルの柔軟な切替",
+      "活発なコミュニティと企業サポート",
+      "Cronタスク自動化"
+    ],
+    "es": [
+      "Verdadera ejecución multi-agente",
+      "Integración profunda con ecosistema Tencent",
+      "Barrera de entrada muy baja",
+      "Flexibilidad de modelos domésticos",
+      "Comunidad activa y soporte empresarial",
+      "Automatización de tareas Cron"
+    ],
+    "fr": [
+      "Véritable exécution multi-agent",
+      "Intégration profonde avec l'écosystème Tencent",
+      "Barrière d'entrée très basse",
+      "Flexibilité des modèles d'IA nationaux",
+      "Communauté active et support entreprise",
+      "Automatisation des tâches Cron"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Free trial has limited credits (500/mo)",
+      "No GPT/Claude support (domestic models only)",
+      "Enterprise price increased significantly",
+      "Output requires human review",
+      "Long text needs splitting"
+    ],
+    "zh": [
+      "免费版额度有限（500 积分/月）",
+      "不支持 GPT、Claude 等国外模型",
+      "企业版涨价幅度较大",
+      "输出结果需要人工复核",
+      "长文本需拆分处理"
+    ],
+    "ja": [
+      "無料版のクレジットが限定的（500/月）",
+      "GPT/Claude非対応（国産モデルのみ）",
+      "エンタープライズ価格が大幅に上昇",
+      "出力の確認が必要",
+      "長文は分割が必要"
+    ],
+    "es": [
+      "Créditos limitados en prueba gratuita",
+      "Sin soporte GPT/Claude (solo modelos domésticos)",
+      "Precio empresarial aumentó significativamente",
+      "La salida requiere revisión humana",
+      "Textos largos requieren división"
+    ],
+    "fr": [
+      "Crédits limités dans l'essai gratuit",
+      "Pas de support GPT/Claude (modèles nationaux uniquement)",
+      "Prix entreprise considérablement augmenté",
+      "La sortie nécessite une révision humaine",
+      "Les textes longs nécessitent une division"
+    ]
+  },
+  "latestUpdate": {
+    "en": "2026.07: Mobile app launched, monthly visits exceed 20M, GLM-5.2 integration, WAIC 2026 partnership announcement, enterprise price adjustment in May 2026",
+    "zh": "2026年7月：移动端 App 上线，月访问量突破 2000 万，内置 GLM-5.2 模型，WAIC 2026 宣布合作，2026年5月企业版价格调整",
+    "ja": "2026年7月：モバイルアプリ公開、月間2000万訪問突破、GLM-5.2統合、WAIC 2026提携発表、2026年5月にエンタープライズ価格改定",
+    "es": "Julio 2026: App móvil lanzada, 20M+ visitas mensuales, integración GLM-5.2, anuncio de asociación WAIC 2026, ajuste de precio empresarial en mayo 2026",
+    "fr": "Juillet 2026 : application mobile lancée, plus de 20M de visites mensuelles, intégration GLM-5.2, annonce de partenariat WAIC 2026, ajustement des prix entreprise en mai 2026"
+  },
+  "verdict": {
+    "badge": "Worth Trying",
+    "headline": {
+      "en": "Chinese version of WorkBuddy, localized for domestic workplace workflows.",
+      "zh": "WorkBuddy中国版，针对国内职场工作流本地化。",
+      "ja": "WorkBuddyの中国版、国内の職場ワークフローにローカライズ。",
+      "es": "Versión china de WorkBuddy, localizada para flujos de trabajo domésticos.",
+      "fr": "Version chinoise de WorkBuddy, localisée pour les workflows de travail domestiques."
+    },
+    "body": {
+      "en": "WorkBuddy CN is the localized Chinese edition, adapted for domestic workplace tools and communication platforms like DingTalk, WeCom, and Feishu. It offers the same workplace AI features with appropriate Chinese-market integrations.\n\nFor teams operating in China's business environment, the local integrations provide smoother workflows than international alternatives. The trade-off is limited utility outside the Chinese enterprise context.",
+      "zh": "WorkBuddy CN 是本地化的中国版，适配钉钉、企业微信、飞书等国内办公工具和通讯平台。提供相同的职场AI功能，配有适当的国内市场集成。\n\n对于在中国商业环境中运营的团队，本地集成比国际替代方案提供更顺畅的工作流。代价是在国内企业环境之外效用有限。",
+      "ja": "WorkBuddy CNはローカライズされた中国版で、DingTalk、WeCom、Feishuなどの国内職場ツールとコミュニケーションプラットフォームに適応しています。\n\n中国のビジネス環境で運営するチームにとって、ローカル統合は国際的な代替品よりスムーズなワークフローを提供します。中国企業コンテキスト外では効用が限られます。",
+      "es": "WorkBuddy CN es la edición china localizada, adaptada para herramientas de trabajo como DingTalk, WeCom y Feishu. Ofrece las mismas funciones IA con integraciones apropiadas para el mercado chino.\n\nPara equipos en el entorno empresarial chino, las integraciones locales proporcionan flujos más fluidos. La contrapartida es utilidad limitada fuera del contexto empresarial chino.",
+      "fr": "WorkBuddy CN est l'édition chinoise localisée, adaptée aux outils de travail comme DingTalk, WeCom et Feishu. Mêmes fonctions IA avec intégrations appropriées pour le marché chinois.\n\nPour les équipes opérant en Chine, les intégrations locales offrent des workflows plus fluides. Le compromis est une utilité limitée hors contexte entreprise chinois."
+    },
+    "bestFor": {
+      "en": [
+        "Chinese enterprise teams using DingTalk/WeCom/Feishu",
+        "Domestic workplace productivity automation",
+        "Chinese-language meeting and email assistance"
+      ],
+      "zh": [
+        "使用钉钉/企微/飞书的国内企业团队",
+        "国内职场生产力自动化",
+        "中文会议和邮件辅助"
+      ],
+      "ja": [
+        "DingTalk/WeCom/Feishuを使う中国企業チーム",
+        "国内職場生産性自動化",
+        "中国語会議・メール支援"
+      ],
+      "es": [
+        "Equipos empresariales chinos usando DingTalk/WeCom/Feishu",
+        "Automatización de productividad laboral doméstica",
+        "Asistencia de reuniones y emails en chino"
+      ],
+      "fr": [
+        "Équipes entreprise chinoises utilisant DingTalk/WeCom/Feishu",
+        "Automatisation de productivité de travail domestique",
+        "Assistance réunions et emails en chinois"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You work with international teams (→ WorkBuddy, Notion AI)",
+        "You need broader AI capabilities (→ Doubao, Kimi)"
+      ],
+      "zh": [
+        "与国际团队合作（→ WorkBuddy、Notion AI）",
+        "需要更广泛的AI能力（→ 豆包、Kimi）"
+      ],
+      "ja": [
+        "国際チームと作業する場合（→ WorkBuddy、Notion AI）",
+        "より広いAI機能が必要な場合（→ Doubao、Kimi）"
+      ],
+      "es": [
+        "Trabajas con equipos internacionales (→ WorkBuddy, Notion AI)",
+        "Necesitas capacidades IA más amplias (→ Doubao, Kimi)"
+      ],
+      "fr": [
+        "Vous travaillez avec des équipes internationales (→ WorkBuddy, Notion AI)",
+        "Vous avez besoin de capacités IA plus larges (→ Doubao, Kimi)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-27",
+    "verdictDate": "2026-07-27",
+    "pricingVerified": "2026-07-27"
+  }
+}

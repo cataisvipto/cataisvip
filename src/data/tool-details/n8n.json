@@ -1,0 +1,235 @@
+{
+  "features": {
+    "en": [
+      "Visual workflow editor with hundreds of integration nodes plus HTTP/GraphQL for anything else",
+      "Code steps in JavaScript and Python when clicks aren't enough",
+      "AI agent workflows: LLM nodes, memory, tools and RAG patterns built in",
+      "Execution-based pricing — one workflow run counts once, regardless of steps or data volume",
+      "Free self-hosted Community Edition (fair-code, source available on GitHub with ~200k stars)",
+      "Webhooks, queues, error workflows, version control with Git and multi-environment support"
+    ],
+    "zh": [
+      "可视化工作流编辑器，数百个集成节点，其余场景可用 HTTP/GraphQL 节点兜底",
+      "点选不够用时可写 JavaScript 与 Python 代码步骤",
+      "AI Agent 工作流：LLM 节点、记忆、工具与 RAG 模式内置",
+      "按执行次数计费——一次工作流运行只算一次，与步骤数、数据量无关",
+      "Community 版免费自托管（fair-code 协议，源码在 GitHub 公开，约 20 万星）",
+      "Webhook、队列、错误工作流、Git 版本控制与多环境支持"
+    ],
+    "ja": [
+      "数百の統合ノードを備えたビジュアルワークフローエディタ、その他はHTTP/GraphQLノードで対応",
+      "クリック操作で足りないときはJavaScriptとPythonのコードステップ",
+      "AIエージェントワークフロー：LLMノード、メモリ、ツール、RAGパターンを内蔵",
+      "実行回数ベースの課金——ステップ数やデータ量に関係なく1回の実行は1回",
+      "Community版は無料でセルフホスト可能（fair-code、GitHubでソース公開、スター約20万）",
+      "Webhook、キュー、エラーワークフロー、Gitバージョン管理、マルチ環境対応"
+    ],
+    "es": [
+      "Editor visual de flujos con cientos de nodos de integración más HTTP/GraphQL para todo lo demás",
+      "Pasos de código en JavaScript y Python cuando los clics no bastan",
+      "Flujos de agentes de IA: nodos LLM, memoria, herramientas y patrones RAG integrados",
+      "Precio por ejecución — una corrida del flujo cuenta una vez, sin importar pasos ni volumen de datos",
+      "Edición Community autoalojada gratuita (fair-code, código en GitHub con ~200k estrellas)",
+      "Webhooks, colas, flujos de error, control de versiones con Git y soporte multi-entorno"
+    ],
+    "fr": [
+      "Éditeur visuel de workflows avec des centaines de nœuds d'intégration plus HTTP/GraphQL pour le reste",
+      "Étapes de code en JavaScript et Python quand les clics ne suffisent pas",
+      "Workflows d'agents IA : nœuds LLM, mémoire, outils et patterns RAG intégrés",
+      "Tarification à l'exécution — une exécution de workflow compte une fois, quel que soit le nombre d'étapes ou le volume de données",
+      "Édition Community auto-hébergée gratuite (fair-code, source sur GitHub avec ~200k étoiles)",
+      "Webhooks, files d'attente, workflows d'erreur, versionnage Git et support multi-environnements"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "The self-hosted Community Edition is free with unlimited workflows and executions — you provide the server. Cloud plans offer a free trial with Pro features, no credit card required.",
+      "zh": "自托管的 Community 版免费，工作流与执行次数不限——服务器自备。云端套餐提供含 Pro 功能的免费试用，无需信用卡。",
+      "ja": "セルフホストのCommunity版は無料で、ワークフローと実行回数は無制限——サーバーは自前で用意。クラウドプランはPro機能付きの無料トライアルあり、クレジットカード不要。",
+      "es": "La edición Community autoalojada es gratuita con flujos y ejecuciones ilimitados — tú pones el servidor. Los planes cloud ofrecen prueba gratuita con funciones Pro, sin tarjeta de crédito.",
+      "fr": "L'édition Community auto-hébergée est gratuite avec workflows et exécutions illimités — vous fournissez le serveur. Les offres cloud proposent un essai gratuit avec les fonctions Pro, sans carte bancaire."
+    },
+    "paid": {
+      "en": "n8n Cloud starts at €20/month billed annually (Starter, 2.5k executions), Pro is €50/month (10k executions), Business is €667/month (self-hosted, 40k executions, SSO and Git), Enterprise is custom. (Verified against the official pricing page, 2026-07-30.)",
+      "zh": "n8n Cloud 年付起步 €20/月（Starter，2500 次执行），Pro €50/月（1 万次执行），Business €667/月（自托管、4 万次执行、SSO 与 Git），Enterprise 定制。（对照官方定价页核实，2026-07-30。）",
+      "ja": "n8n Cloudは年払いで月€20から（Starter、実行2,500回）、Proは月€50（実行1万回）、Businessは月€667（セルフホスト、実行4万回、SSOとGit）、Enterpriseはカスタム。（公式料金ページと照合、2026-07-30。）",
+      "es": "n8n Cloud empieza en 20 €/mes con pago anual (Starter, 2.500 ejecuciones), Pro cuesta 50 €/mes (10k ejecuciones), Business 667 €/mes (autoalojado, 40k ejecuciones, SSO y Git), Enterprise es a medida. (Verificado con la página oficial de precios, 2026-07-30.)",
+      "fr": "n8n Cloud démarre à 20 €/mois en annuel (Starter, 2 500 exécutions), Pro à 50 €/mois (10k exécutions), Business à 667 €/mois (auto-hébergé, 40k exécutions, SSO et Git), Enterprise sur mesure. (Vérifié avec la page officielle des tarifs, 2026-07-30.)"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Technical teams automating internal ops without paying per task like on Zapier",
+      "Building AI agents that combine LLMs with real business systems and data",
+      "Self-hosting automation for data-sensitive workflows that can't leave your infrastructure",
+      "Replacing brittle cron-and-script glue with maintainable visual workflows"
+    ],
+    "zh": [
+      "技术团队自动化内部运营，摆脱 Zapier 式按任务计费",
+      "构建把 LLM 与真实业务系统、数据串起来的 AI Agent",
+      "对数据敏感、不能离开自有基础设施的工作流做自托管自动化",
+      "用可维护的可视化工作流取代脆弱的 cron 加脚本胶水"
+    ],
+    "ja": [
+      "技術チームがZapierのようなタスク単位課金なしで社内業務を自動化",
+      "LLMを実際の業務システムやデータとつなぐAIエージェントの構築",
+      "自社インフラから出せないデータ機密ワークフローのセルフホスト自動化",
+      "壊れやすいcronとスクリプトの寄せ集めを保守可能なビジュアルワークフローに置き換え"
+    ],
+    "es": [
+      "Equipos técnicos automatizando operaciones internas sin pagar por tarea como en Zapier",
+      "Construir agentes de IA que combinan LLM con sistemas y datos de negocio reales",
+      "Autoalojar la automatización de flujos sensibles que no pueden salir de tu infraestructura",
+      "Reemplazar el pegamento frágil de cron y scripts por flujos visuales mantenibles"
+    ],
+    "fr": [
+      "Équipes techniques automatisant les opérations internes sans payer à la tâche comme sur Zapier",
+      "Construire des agents IA combinant LLM et systèmes métier réels",
+      "Auto-héberger l'automatisation de workflows sensibles qui ne peuvent quitter votre infrastructure",
+      "Remplacer la glu fragile cron-et-scripts par des workflows visuels maintenables"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Free unlimited self-hosting is unmatched among major automation platforms",
+      "Execution-based pricing gets dramatically cheaper than per-task rivals at scale",
+      "Code steps and custom nodes remove the ceiling that no-code tools hit",
+      "Massive community: ~200k GitHub stars, thousands of workflow templates"
+    ],
+    "zh": [
+      "免费不限量的自托管在主流自动化平台中独一份",
+      "按执行计费在规模上去后比按任务计费的对手便宜得多",
+      "代码步骤与自定义节点消除了纯无代码工具的天花板",
+      "社区庞大：GitHub 约 20 万星、数千个工作流模板"
+    ],
+    "ja": [
+      "無料・無制限のセルフホストは主要自動化プラットフォームで唯一無二",
+      "実行ベース課金は規模が大きくなるとタスク単位課金の競合より劇的に安い",
+      "コードステップとカスタムノードがノーコードツールの天井を取り払う",
+      "巨大なコミュニティ：GitHubスター約20万、数千のワークフローテンプレート"
+    ],
+    "es": [
+      "El autoalojamiento gratuito e ilimitado no tiene rival entre las grandes plataformas de automatización",
+      "El precio por ejecución sale muchísimo más barato que los rivales por tarea a escala",
+      "Los pasos de código y nodos personalizados eliminan el techo de las herramientas no-code",
+      "Comunidad enorme: ~200k estrellas en GitHub, miles de plantillas de flujos"
+    ],
+    "fr": [
+      "L'auto-hébergement gratuit et illimité est inégalé parmi les grandes plateformes d'automatisation",
+      "La tarification à l'exécution devient bien moins chère que les rivaux à la tâche à grande échelle",
+      "Les étapes de code et nœuds personnalisés suppriment le plafond des outils no-code",
+      "Communauté massive : ~200k étoiles GitHub, des milliers de modèles de workflows"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Steeper learning curve than Zapier or Make — it assumes technical comfort",
+      "Fair-code license is source-available, not OSI open source; some commercial uses need a paid license",
+      "Cloud plans jump steeply from Pro (€50) to Business (€667) with little in between",
+      "Self-hosting shifts maintenance, scaling and security work onto your team"
+    ],
+    "zh": [
+      "学习曲线比 Zapier、Make 陡——它默认你有技术底子",
+      "fair-code 协议是源码可见而非 OSI 开源；部分商业用途需要付费许可",
+      "云端套餐从 Pro（€50）到 Business（€667）跳档巨大，中间几乎没有过渡",
+      "自托管意味着维护、扩容与安全工作都压到自己团队身上"
+    ],
+    "ja": [
+      "ZapierやMakeより学習曲線が急——技術的な素養が前提",
+      "fair-codeはソース公開ライセンスでありOSI認定オープンソースではない。一部の商用利用には有料ライセンスが必要",
+      "クラウドプランはPro（€50）からBusiness（€667）へ急激にジャンプし、中間の選択肢がほぼない",
+      "セルフホストは保守・スケーリング・セキュリティの作業を自チームが背負うことを意味する"
+    ],
+    "es": [
+      "Curva de aprendizaje más empinada que Zapier o Make — presupone soltura técnica",
+      "La licencia fair-code es de código visible, no open source OSI; algunos usos comerciales requieren licencia de pago",
+      "Los planes cloud saltan bruscamente de Pro (50 €) a Business (667 €) sin apenas término medio",
+      "Autoalojar traslada el mantenimiento, escalado y seguridad a tu equipo"
+    ],
+    "fr": [
+      "Courbe d'apprentissage plus raide que Zapier ou Make — une aisance technique est présumée",
+      "La licence fair-code est à source visible, pas open source OSI ; certains usages commerciaux exigent une licence payante",
+      "Les offres cloud sautent brutalement de Pro (50 €) à Business (667 €) sans intermédiaire",
+      "L'auto-hébergement reporte la maintenance, la montée en charge et la sécurité sur votre équipe"
+    ]
+  },
+  "latestUpdate": {
+    "en": "2026: n8n cemented itself as the default automation layer of the AI-agent wave — near 200k GitHub stars, deeper LLM/agent nodes, AI Assistant credits on Cloud plans, insights dashboards, Git-based environments, and adoption logos from Microsoft to NVIDIA on its site.",
+    "zh": "2026 年：n8n 坐稳了 AI Agent 浪潮的默认自动化底座——GitHub 逼近 20 万星、LLM/Agent 节点持续加深、云端套餐配 AI Assistant 额度、洞察仪表盘、基于 Git 的多环境，官网客户墙从微软排到英伟达。",
+    "ja": "2026年：n8nはAIエージェント波の既定自動化レイヤーとしての地位を固めた——GitHubスターは20万目前、LLM/エージェントノードの深化、クラウドプランのAI Assistantクレジット、インサイトダッシュボード、Gitベースの環境管理、公式サイトにはMicrosoftからNVIDIAまでの採用ロゴが並ぶ。",
+    "es": "2026: n8n se consolidó como la capa de automatización por defecto de la ola de agentes de IA — cerca de 200k estrellas en GitHub, nodos LLM/agente más profundos, créditos de AI Assistant en planes Cloud, paneles de insights, entornos basados en Git y logos de adopción de Microsoft a NVIDIA en su web.",
+    "fr": "2026 : n8n s'est imposé comme la couche d'automatisation par défaut de la vague des agents IA — près de 200k étoiles GitHub, nœuds LLM/agents approfondis, crédits AI Assistant sur les offres Cloud, tableaux de bord insights, environnements basés sur Git et logos d'adoption de Microsoft à NVIDIA sur son site."
+  },
+  "verdict": {
+    "badge": "Recommended",
+    "headline": {
+      "en": "The technical team's automation platform — and the AI-agent era's workhorse",
+      "zh": "技术团队的自动化平台——也是 AI Agent 时代的主力干将",
+      "ja": "技術チームのための自動化プラットフォーム——AIエージェント時代の主力機",
+      "es": "La plataforma de automatización del equipo técnico — y el caballo de batalla de la era de agentes de IA",
+      "fr": "La plateforme d'automatisation des équipes techniques — et la bête de somme de l'ère des agents IA"
+    },
+    "body": {
+      "en": "n8n won its ~200k GitHub stars the honest way: by being the automation tool that doesn't fight you when requirements get real. Where per-task platforms nickel-and-dime every step, n8n charges per workflow execution — run a 50-step pipeline processing thousands of records and it counts once. Where no-code tools hit a wall, you drop into JavaScript or Python, call any API over HTTP, or write a custom node. And its early, deep bet on AI-agent workflows — LLM nodes, memory, tools, RAG — is exactly why it became the default canvas for the current agent-building wave. The free self-hosted Community Edition is the deal of the category: unlimited workflows on your own server, with your data never leaving your infrastructure. Be clear-eyed about the trade-offs. This is a tool that assumes technical comfort; non-technical teams will onboard faster on Zapier or Make. The fair-code license is source-available rather than OSI open source, which matters if you plan to embed or resell it. And the Cloud pricing ladder has a canyon between Pro (€50) and Business (€667). But if your team can run a Docker container, n8n delivers more automation per euro than anything else in the category.",
+      "zh": "n8n 的约 20 万 GitHub 星是靠真本事挣来的：当需求变得复杂时，它是那个不跟你对着干的自动化工具。按任务计费的平台对每一步都要抠钱，而 n8n 按工作流执行计费——跑一条处理数千条记录的 50 步流水线也只算一次。无代码工具撞墙的地方，你可以直接写 JavaScript 或 Python、用 HTTP 调任意 API、或者自写节点。它对 AI Agent 工作流又早又深的押注——LLM 节点、记忆、工具、RAG——正是它成为这波 Agent 搭建浪潮默认画布的原因。免费自托管的 Community 版是这个品类里最划算的交易：自己服务器上工作流不限量，数据永不离开自有基础设施。也要看清代价。这是个默认你有技术底子的工具，非技术团队用 Zapier 或 Make 上手更快。fair-code 协议是源码可见而非 OSI 开源，打算内嵌或转售时这点很关键。云端定价从 Pro（€50）到 Business（€667）之间还有一道峡谷。但只要你的团队能跑起一个 Docker 容器，n8n 就是这个品类里每一欧元换到自动化最多的选择。",
+      "ja": "n8nの約20万GitHubスターは正攻法で勝ち取ったものだ。要件が本格化したとき、逆らってこない自動化ツールだからである。タスク単位課金のプラットフォームが一歩ごとに課金する一方、n8nはワークフロー実行単位——数千レコードを処理する50ステップのパイプラインを回しても1回は1回だ。ノーコードツールが壁に当たる場面では、JavaScriptやPythonを書き、HTTPで任意のAPIを叩き、カスタムノードを自作できる。そしてAIエージェントワークフロー——LLMノード、メモリ、ツール、RAG——への早くて深い賭けこそ、今のエージェント構築の波で既定のキャンバスになった理由だ。無料セルフホストのCommunity版はこのカテゴリー随一のお買い得で、自前サーバーでワークフロー無制限、データはインフラから一歩も出ない。トレードオフも直視しよう。技術的素養が前提のツールであり、非技術チームはZapierやMakeの方が早く立ち上がる。fair-codeはOSIオープンソースではなくソース公開ライセンスで、組み込みや再販を考えるなら重要だ。クラウド料金はPro（€50）とBusiness（€667）の間に峡谷がある。だがチームがDockerコンテナを動かせるなら、n8nはこのカテゴリーで1ユーロあたり最も多くの自動化を届けてくれる。",
+      "es": "n8n ganó sus ~200k estrellas de GitHub por la vía honesta: siendo la herramienta de automatización que no te pelea cuando los requisitos se ponen serios. Donde las plataformas por tarea cobran cada paso, n8n cobra por ejecución de flujo — corre un pipeline de 50 pasos procesando miles de registros y cuenta una vez. Donde las herramientas no-code chocan contra un muro, tú bajas a JavaScript o Python, llamas a cualquier API por HTTP o escribes un nodo propio. Y su apuesta temprana y profunda por los flujos de agentes de IA — nodos LLM, memoria, herramientas, RAG — es exactamente la razón de que se volviera el lienzo por defecto de la ola actual de construcción de agentes. La edición Community autoalojada gratuita es el chollo de la categoría: flujos ilimitados en tu propio servidor, con tus datos sin salir jamás de tu infraestructura. Sé realista con las contrapartidas. Es una herramienta que presupone soltura técnica; los equipos no técnicos arrancan más rápido en Zapier o Make. La licencia fair-code es de código visible, no open source OSI, lo que importa si planeas incrustarla o revenderla. Y la escalera de precios Cloud tiene un cañón entre Pro (50 €) y Business (667 €). Pero si tu equipo sabe levantar un contenedor Docker, n8n entrega más automatización por euro que cualquier otra cosa de la categoría.",
+      "fr": "n8n a gagné ses ~200k étoiles GitHub à la loyale : en étant l'outil d'automatisation qui ne vous résiste pas quand les besoins deviennent sérieux. Là où les plateformes à la tâche facturent chaque étape, n8n facture à l'exécution de workflow — lancez un pipeline de 50 étapes traitant des milliers d'enregistrements, cela compte une fois. Là où les outils no-code butent sur un mur, vous passez en JavaScript ou Python, appelez n'importe quelle API en HTTP, ou écrivez un nœud personnalisé. Et son pari précoce et profond sur les workflows d'agents IA — nœuds LLM, mémoire, outils, RAG — est exactement la raison pour laquelle il est devenu la toile par défaut de la vague actuelle de construction d'agents. L'édition Community auto-hébergée gratuite est l'affaire de la catégorie : workflows illimités sur votre propre serveur, vos données ne quittant jamais votre infrastructure. Restez lucide sur les contreparties. C'est un outil qui présume une aisance technique ; les équipes non techniques démarreront plus vite sur Zapier ou Make. La licence fair-code est à source visible, pas open source OSI — important si vous comptez l'intégrer ou la revendre. Et l'échelle tarifaire Cloud a un canyon entre Pro (50 €) et Business (667 €). Mais si votre équipe sait lancer un conteneur Docker, n8n offre plus d'automatisation par euro que tout le reste de la catégorie."
+    },
+    "bestFor": {
+      "en": [
+        "Technical teams who want automation without per-task pricing anxiety",
+        "Builders wiring LLMs and agents into real business processes",
+        "Data-sensitive orgs that need workflows to stay on their own servers"
+      ],
+      "zh": [
+        "想要自动化又不想为按任务计费提心吊胆的技术团队",
+        "把 LLM 与 Agent 接进真实业务流程的开发者",
+        "要求工作流留在自有服务器上的数据敏感型组织"
+      ],
+      "ja": [
+        "タスク単位課金の不安なしに自動化したい技術チーム",
+        "LLMとエージェントを実際の業務プロセスに組み込むビルダー",
+        "ワークフローを自社サーバーに留める必要があるデータ機密性の高い組織"
+      ],
+      "es": [
+        "Equipos técnicos que quieren automatización sin la ansiedad del precio por tarea",
+        "Constructores que conectan LLM y agentes a procesos de negocio reales",
+        "Organizaciones sensibles a los datos que necesitan flujos en sus propios servidores"
+      ],
+      "fr": [
+        "Équipes techniques voulant automatiser sans l'angoisse du prix à la tâche",
+        "Développeurs branchant LLM et agents sur de vrais processus métier",
+        "Organisations sensibles aux données exigeant des workflows sur leurs propres serveurs"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "Your team is non-technical and wants the fastest no-code onboarding (→ Zapier AI)",
+        "You want visual automation with a gentler price ramp between tiers (→ Make AI)"
+      ],
+      "zh": [
+        "团队没有技术背景、想要最快的无代码上手（→ Zapier AI）",
+        "想要档位之间价格过渡更平缓的可视化自动化（→ Make AI）"
+      ],
+      "ja": [
+        "チームが非技術系で最速のノーコード立ち上げが欲しい（→ Zapier AI）",
+        "プラン間の価格勾配が緩やかなビジュアル自動化が欲しい（→ Make AI）"
+      ],
+      "es": [
+        "Tu equipo no es técnico y quiere el onboarding no-code más rápido (→ Zapier AI)",
+        "Quieres automatización visual con una rampa de precios más suave entre niveles (→ Make AI)"
+      ],
+      "fr": [
+        "Votre équipe n'est pas technique et veut l'onboarding no-code le plus rapide (→ Zapier AI)",
+        "Vous voulez une automatisation visuelle avec une progression tarifaire plus douce (→ Make AI)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-30",
+    "verdictDate": "2026-07-30",
+    "pricingVerified": "2026-07-30",
+    "pricingUrl": "https://n8n.io/pricing/"
+  }
+}

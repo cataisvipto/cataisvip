@@ -1,0 +1,235 @@
+{
+  "features": {
+    "en": [
+      "Dual inference engines: GGUF via llama.cpp plus Apple MLX, in one polished desktop GUI",
+      "MCP client for connecting tools and agents, with OAuth support since April 2026",
+      "OpenAI-compatible local server, lms CLI and SDKs for Python/TypeScript",
+      "Local RAG: chat with your own documents entirely offline",
+      "Speculative decoding for noticeably faster generation on supported models",
+      "Bionic companion app (July 2026) with optional zero-data-retention cloud inference"
+    ],
+    "zh": [
+      "双推理引擎：llama.cpp 的 GGUF 加 Apple MLX，集成在一个精致的桌面 GUI 里",
+      "MCP 客户端可接入工具与智能体，2026 年 4 月起支持 OAuth",
+      "OpenAI 兼容的本地服务器，配 lms CLI 与 Python/TypeScript SDK",
+      "本地 RAG：完全离线地与自己的文档对话",
+      "推测解码让受支持的模型生成速度明显提升",
+      "Bionic 伴侣应用（2026 年 7 月）附可选的零数据保留云端推理"
+    ],
+    "ja": [
+      "デュアル推論エンジン：llama.cppのGGUFとApple MLXを洗練されたデスクトップGUIに統合",
+      "ツールとエージェントを接続するMCPクライアント、2026年4月からOAuth対応",
+      "OpenAI互換のローカルサーバー、lms CLIとPython/TypeScript SDK",
+      "ローカルRAG：完全オフラインで自分のドキュメントと対話",
+      "投機的デコーディングで対応モデルの生成速度が大幅向上",
+      "Bionicコンパニオンアプリ（2026年7月）はゼロデータ保持のクラウド推論をオプション提供"
+    ],
+    "es": [
+      "Motores duales de inferencia: GGUF vía llama.cpp más Apple MLX, en una GUI de escritorio pulida",
+      "Cliente MCP para conectar herramientas y agentes, con soporte OAuth desde abril de 2026",
+      "Servidor local compatible con OpenAI, CLI lms y SDKs para Python/TypeScript",
+      "RAG local: chatea con tus propios documentos totalmente sin conexión",
+      "Decodificación especulativa para una generación notablemente más rápida",
+      "App complementaria Bionic (julio 2026) con inferencia cloud opcional de retención cero de datos"
+    ],
+    "fr": [
+      "Moteurs d'inférence doubles : GGUF via llama.cpp plus Apple MLX, dans une GUI de bureau soignée",
+      "Client MCP pour connecter outils et agents, avec support OAuth depuis avril 2026",
+      "Serveur local compatible OpenAI, CLI lms et SDK Python/TypeScript",
+      "RAG local : discutez avec vos propres documents entièrement hors ligne",
+      "Décodage spéculatif pour une génération nettement plus rapide",
+      "App compagnon Bionic (juillet 2026) avec inférence cloud optionnelle à rétention zéro"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Completely free — since July 2025 that includes commercial use at work, with no license fees, tiers or feature gates in the desktop app.",
+      "zh": "完全免费——2025 年 7 月起连商用也免费，桌面应用没有授权费、没有分档、没有功能墙。",
+      "ja": "完全無料——2025年7月から商用利用も無料化され、デスクトップアプリにライセンス料・プラン分け・機能制限は一切ない。",
+      "es": "Completamente gratis — desde julio de 2025 eso incluye el uso comercial en el trabajo, sin licencias, niveles ni funciones bloqueadas en la app de escritorio.",
+      "fr": "Entièrement gratuit — depuis juillet 2025, cela inclut l'usage commercial au travail, sans licence, paliers ni fonctions verrouillées dans l'app de bureau."
+    },
+    "paid": {
+      "en": "No paid plans for the app itself; the optional Bionic cloud inference is pay-as-you-go with zero data retention, billed per usage. (Verified against the official documentation, 2026-07-29.)",
+      "zh": "应用本身没有付费档；可选的 Bionic 云端推理按量付费、零数据保留，按用量计费。（对照官方文档核实，2026-07-29。）",
+      "ja": "アプリ自体に有料プランはない。オプションのBionicクラウド推論は従量課金・ゼロデータ保持で、使用量に応じて課金される。（公式ドキュメントと照合、2026-07-29。）",
+      "es": "No hay planes de pago para la app en sí; la inferencia cloud opcional de Bionic es de pago por uso con retención cero de datos, facturada por consumo. (Verificado con la documentación oficial, 2026-07-29.)",
+      "fr": "Pas de forfait payant pour l'app elle-même ; l'inférence cloud optionnelle de Bionic est à l'usage, avec rétention zéro des données, facturée à la consommation. (Vérifié avec la documentation officielle, 2026-07-29.)"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Privacy-conscious developers running LLMs fully offline",
+      "Prototyping against an OpenAI-compatible API without cloud bills",
+      "Chatting with sensitive documents via local RAG",
+      "Squeezing open-weights models out of a Mac with the MLX engine"
+    ],
+    "zh": [
+      "注重隐私的开发者完全离线跑大模型",
+      "对着 OpenAI 兼容 API 做原型开发而不产生云账单",
+      "用本地 RAG 与敏感文档对话",
+      "用 MLX 引擎榨干 Mac 上的开源权重模型"
+    ],
+    "ja": [
+      "プライバシー重視の開発者が完全オフラインでLLMを実行",
+      "クラウド課金なしでOpenAI互換APIに対してプロトタイピング",
+      "ローカルRAGで機密ドキュメントと対話",
+      "MLXエンジンでMacからオープンウェイトモデルの性能を絞り出す"
+    ],
+    "es": [
+      "Desarrolladores preocupados por la privacidad ejecutando LLMs totalmente offline",
+      "Prototipar contra una API compatible con OpenAI sin facturas de cloud",
+      "Chatear con documentos sensibles mediante RAG local",
+      "Exprimir modelos de pesos abiertos en un Mac con el motor MLX"
+    ],
+    "fr": [
+      "Développeurs soucieux de confidentialité exécutant des LLM entièrement hors ligne",
+      "Prototyper contre une API compatible OpenAI sans facture cloud",
+      "Discuter avec des documents sensibles via le RAG local",
+      "Tirer le maximum des modèles open-weights sur Mac avec le moteur MLX"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Genuinely free, commercial use included since July 2025",
+      "The easiest GUI on-ramp to local LLMs, with polished model discovery",
+      "Dual llama.cpp + MLX engines get the best out of each platform",
+      "Fast development pace: MCP with OAuth, speculative decoding, Bionic"
+    ],
+    "zh": [
+      "真免费，2025 年 7 月起商用也包含在内",
+      "本地大模型最易上手的 GUI 入口，模型发现体验精致",
+      "llama.cpp 加 MLX 双引擎，各平台都能发挥最佳",
+      "开发节奏快：带 OAuth 的 MCP、推测解码、Bionic"
+    ],
+    "ja": [
+      "正真正銘の無料、2025年7月から商用利用も込み",
+      "ローカルLLMへの最も簡単なGUI入口、モデル発見体験も洗練",
+      "llama.cpp + MLXのデュアルエンジンで各プラットフォームの性能を最大化",
+      "開発ペースが速い：OAuth付きMCP、投機的デコーディング、Bionic"
+    ],
+    "es": [
+      "Genuinamente gratis, uso comercial incluido desde julio de 2025",
+      "La rampa GUI más fácil hacia los LLM locales, con descubrimiento de modelos pulido",
+      "Los motores duales llama.cpp + MLX sacan lo mejor de cada plataforma",
+      "Ritmo de desarrollo rápido: MCP con OAuth, decodificación especulativa, Bionic"
+    ],
+    "fr": [
+      "Réellement gratuit, usage commercial inclus depuis juillet 2025",
+      "La porte d'entrée GUI la plus simple vers les LLM locaux, avec une découverte de modèles soignée",
+      "Les moteurs doubles llama.cpp + MLX tirent le meilleur de chaque plateforme",
+      "Rythme de développement soutenu : MCP avec OAuth, décodage spéculatif, Bionic"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Local inference is bounded by your hardware — big models demand serious VRAM",
+      "The desktop GUI is closed-source, which parts of the local-AI community dislike",
+      "No enterprise support or SLA — it's a free tool, not a vendor contract",
+      "Bionic's cloud inference, however optional, reintroduces a cloud dependency"
+    ],
+    "zh": [
+      "本地推理受硬件天花板限制——大模型对显存要求不低",
+      "桌面 GUI 闭源，本地 AI 社区里有一部分人对此介意",
+      "没有企业级支持或 SLA——它是免费工具，不是供应商合同",
+      "Bionic 的云端推理虽是可选项，但终究重新引入了云依赖"
+    ],
+    "ja": [
+      "ローカル推論はハードウェアに制約される——大型モデルは相応のVRAMを要求",
+      "デスクトップGUIはクローズドソースで、ローカルAIコミュニティの一部は気にする",
+      "エンタープライズサポートやSLAはない——無料ツールでありベンダー契約ではない",
+      "Bionicのクラウド推論はオプションとはいえクラウド依存を再導入する"
+    ],
+    "es": [
+      "La inferencia local está limitada por tu hardware — los modelos grandes exigen mucha VRAM",
+      "La GUI de escritorio es de código cerrado, algo que parte de la comunidad de IA local rechaza",
+      "Sin soporte empresarial ni SLA — es una herramienta gratis, no un contrato de proveedor",
+      "La inferencia cloud de Bionic, aunque opcional, reintroduce una dependencia de la nube"
+    ],
+    "fr": [
+      "L'inférence locale est bornée par votre matériel — les gros modèles exigent beaucoup de VRAM",
+      "La GUI de bureau est propriétaire, ce qu'une partie de la communauté IA locale n'apprécie pas",
+      "Pas de support entreprise ni de SLA — c'est un outil gratuit, pas un contrat fournisseur",
+      "L'inférence cloud de Bionic, bien qu'optionnelle, réintroduit une dépendance au cloud"
+    ]
+  },
+  "latestUpdate": {
+    "en": "2026: the MCP client gained OAuth support in April, and July brought Bionic — a companion app with optional zero-data-retention cloud inference — on top of speculative decoding and the dual llama.cpp/MLX engines; the app itself has been free for commercial use since July 2025.",
+    "zh": "2026 年：MCP 客户端 4 月起支持 OAuth，7 月推出 Bionic——附可选零数据保留云端推理的伴侣应用——叠加推测解码与 llama.cpp/MLX 双引擎；应用本身自 2025 年 7 月起商用免费。",
+    "ja": "2026年：MCPクライアントが4月にOAuth対応し、7月にはBionic——ゼロデータ保持のクラウド推論をオプション搭載したコンパニオンアプリ——が登場。投機的デコーディングとllama.cpp/MLXデュアルエンジンに加わった。アプリ自体は2025年7月から商用無料。",
+    "es": "2026: el cliente MCP ganó soporte OAuth en abril, y julio trajo Bionic — una app complementaria con inferencia cloud opcional de retención cero — sumándose a la decodificación especulativa y los motores duales llama.cpp/MLX; la app en sí es gratis para uso comercial desde julio de 2025.",
+    "fr": "2026 : le client MCP a gagné le support OAuth en avril, et juillet a apporté Bionic — une app compagnon avec inférence cloud optionnelle à rétention zéro — en plus du décodage spéculatif et des moteurs doubles llama.cpp/MLX ; l'app elle-même est gratuite pour usage commercial depuis juillet 2025."
+  },
+  "verdict": {
+    "badge": "Recommended",
+    "headline": {
+      "en": "The friendliest door into local AI — and it genuinely costs nothing",
+      "zh": "通往本地 AI 最友好的那扇门——而且真的一分钱不花",
+      "ja": "ローカルAIへの最もフレンドリーな入口——しかも本当に一円もかからない",
+      "es": "La puerta más amable hacia la IA local — y de verdad no cuesta nada",
+      "fr": "La porte la plus accueillante vers l'IA locale — et elle ne coûte vraiment rien"
+    },
+    "body": {
+      "en": "LM Studio solved the problem that kept local AI a hobbyist niche: making it approachable. Where the llama.cpp ecosystem assumes you enjoy compiling flags, LM Studio wraps model discovery, download, quantization choices and chat into a desktop app your non-terminal colleagues can actually use — then goes deeper than most GUIs dare, with an OpenAI-compatible local server, the lms CLI, SDKs, local RAG over your own documents, and an MCP client that gained OAuth in April 2026. The dual-engine design is quietly its best trick: GGUF via llama.cpp on PCs, Apple MLX on Macs, so an M-series MacBook performs like the first-class citizen it should be. Since July 2025 the whole thing is free even for commercial use, which removed the last awkward asterisk. The honest limits are physics and philosophy. Physics: local inference lives and dies by your VRAM — a 70B model on a thin laptop is a slideshow, and no software fixes that. Philosophy: the GUI is closed-source, which rubs part of the local-AI crowd the wrong way, and the new Bionic companion app — helpful as its zero-data-retention cloud inference may be — reintroduces exactly the cloud dependency many users came here to escape. Treat those as footnotes, not dealbreakers. If you want a terminal-native, scriptable runner, Ollama remains the purist's pick; for everyone else who wants private, capable AI running on their own metal by this afternoon, LM Studio is the recommendation we give first.",
+      "zh": "LM Studio 解决了让本地 AI 一直困在极客小圈子的那个问题：易上手。llama.cpp 生态默认你享受编译参数的乐趣，而 LM Studio 把模型发现、下载、量化选择和聊天包进一个不碰终端的同事也真能用起来的桌面应用——然后比多数 GUI 走得更深：OpenAI 兼容的本地服务器、lms CLI、SDK、针对自己文档的本地 RAG，还有 2026 年 4 月起支持 OAuth 的 MCP 客户端。双引擎设计是它低调的绝活：PC 上走 llama.cpp 的 GGUF，Mac 上走 Apple MLX，让 M 系列 MacBook 享受它应得的一等公民待遇。2025 年 7 月起整个应用连商用都免费，去掉了最后一个别扭的星号。它诚实的边界在于物理与理念。物理：本地推理成败全看显存——薄本上跑 70B 模型就是幻灯片，任何软件都救不了。理念：GUI 闭源让一部分本地 AI 玩家不舒服；新的 Bionic 伴侣应用——其零数据保留云端推理再有用——终究重新引入了许多用户当初就是为了逃离的云依赖。把这些当脚注而非否决票。如果你要的是终端原生、可脚本化的运行器，Ollama 仍是纯粹主义者之选；对其余所有想在今天下午之前让私有、能干的 AI 跑在自己机器上的人，LM Studio 是我们第一个给出的推荐。",
+      "ja": "LM Studioは、ローカルAIを趣味人の隙間に閉じ込めていた問題——とっつきにくさ——を解決した。llama.cppエコシステムがコンパイルフラグを楽しめる人を前提とするのに対し、LM Studioはモデルの発見・ダウンロード・量子化の選択・チャットを、ターミナルに触らない同僚でも本当に使えるデスクトップアプリに包み込む——そして多くのGUIが踏み込まない深さまで行く。OpenAI互換のローカルサーバー、lms CLI、SDK、自分のドキュメントに対するローカルRAG、2026年4月にOAuth対応したMCPクライアント。デュアルエンジン設計は地味ながら最高の切り札だ：PCではllama.cppのGGUF、MacではApple MLXが走り、MシリーズMacBookが本来受けるべき一等市民の扱いを受ける。2025年7月からは商用利用まで無料になり、最後の気まずい注釈が消えた。正直な限界は物理と思想にある。物理：ローカル推論はVRAMがすべて——薄型ノートで70Bモデルを回せば紙芝居であり、どんなソフトウェアも救えない。思想：GUIのクローズドソースはローカルAI界隈の一部の癇に障るし、新しいBionicコンパニオンアプリは——ゼロデータ保持のクラウド推論がいかに便利でも——多くのユーザーがまさに逃れたかったクラウド依存を再導入する。これらは脚注であって決定打ではない。ターミナルネイティブでスクリプト可能なランナーが欲しいならOllamaが純粋主義者の選択であり続けるが、今日の午後までに自分のマシンでプライベートで有能なAIを動かしたいその他全員にとって、LM Studioは我々が最初に挙げる推薦だ。",
+      "es": "LM Studio resolvió el problema que mantenía la IA local como nicho de aficionados: hacerla accesible. Donde el ecosistema llama.cpp asume que disfrutas compilando flags, LM Studio envuelve el descubrimiento de modelos, la descarga, las opciones de cuantización y el chat en una app de escritorio que tus colegas alérgicos al terminal pueden usar de verdad — y luego profundiza más de lo que la mayoría de GUIs se atreve, con un servidor local compatible con OpenAI, el CLI lms, SDKs, RAG local sobre tus propios documentos y un cliente MCP que ganó OAuth en abril de 2026. El diseño de doble motor es su mejor truco silencioso: GGUF vía llama.cpp en PC, Apple MLX en Mac, así que un MacBook de la serie M rinde como el ciudadano de primera que debería ser. Desde julio de 2025 todo es gratis incluso para uso comercial, lo que eliminó el último asterisco incómodo. Sus límites honestos son la física y la filosofía. Física: la inferencia local vive y muere por tu VRAM — un modelo 70B en un portátil fino es una presentación de diapositivas, y ningún software lo arregla. Filosofía: la GUI es de código cerrado, algo que molesta a parte de la comunidad, y la nueva app Bionic — por útil que sea su inferencia cloud de retención cero — reintroduce justo la dependencia de la nube de la que muchos usuarios venían huyendo. Trátalos como notas al pie, no como vetos. Si quieres un ejecutor nativo de terminal y programable, Ollama sigue siendo la elección purista; para todos los demás que quieran IA privada y capaz corriendo en su propio hierro esta misma tarde, LM Studio es la recomendación que damos primero.",
+      "fr": "LM Studio a résolu le problème qui confinait l'IA locale à une niche de bidouilleurs : la rendre abordable. Là où l'écosystème llama.cpp suppose que vous aimez compiler des flags, LM Studio emballe la découverte de modèles, le téléchargement, les choix de quantization et le chat dans une app de bureau que vos collègues allergiques au terminal peuvent vraiment utiliser — puis va plus loin que la plupart des GUI n'osent, avec un serveur local compatible OpenAI, le CLI lms, des SDK, du RAG local sur vos propres documents et un client MCP passé à OAuth en avril 2026. La conception à double moteur est son meilleur atout discret : GGUF via llama.cpp sur PC, Apple MLX sur Mac, si bien qu'un MacBook série M est traité en citoyen de première classe comme il le mérite. Depuis juillet 2025, l'ensemble est gratuit même pour usage commercial, ce qui a effacé le dernier astérisque gênant. Ses limites honnêtes tiennent à la physique et à la philosophie. Physique : l'inférence locale vit et meurt par votre VRAM — un modèle 70B sur un ultraportable est un diaporama, et aucun logiciel n'y peut rien. Philosophie : la GUI est propriétaire, ce qui agace une partie de la communauté, et la nouvelle app Bionic — aussi utile que soit son inférence cloud à rétention zéro — réintroduit précisément la dépendance au cloud que beaucoup venaient fuir. Considérez cela comme des notes de bas de page, pas des rédhibitoires. Si vous voulez un exécuteur natif du terminal et scriptable, Ollama reste le choix des puristes ; pour tous les autres qui veulent une IA privée et capable tournant sur leur propre machine dès cet après-midi, LM Studio est la recommandation que nous donnons en premier."
+    },
+    "bestFor": {
+      "en": [
+        "Developers who want a local OpenAI-compatible API in minutes",
+        "Privacy-first users chatting with documents fully offline",
+        "Mac owners leveraging MLX for first-class Apple Silicon performance"
+      ],
+      "zh": [
+        "想几分钟内拥有本地 OpenAI 兼容 API 的开发者",
+        "完全离线与文档对话的隐私优先用户",
+        "用 MLX 发挥 Apple Silicon 一等性能的 Mac 用户"
+      ],
+      "ja": [
+        "数分でローカルのOpenAI互換APIが欲しい開発者",
+        "完全オフラインでドキュメントと対話するプライバシー重視ユーザー",
+        "MLXでApple Siliconの一級性能を引き出すMacユーザー"
+      ],
+      "es": [
+        "Desarrolladores que quieren una API local compatible con OpenAI en minutos",
+        "Usuarios privacidad-primero chateando con documentos totalmente offline",
+        "Dueños de Mac aprovechando MLX para un rendimiento de primera en Apple Silicon"
+      ],
+      "fr": [
+        "Développeurs voulant une API locale compatible OpenAI en quelques minutes",
+        "Utilisateurs privacy-first discutant avec leurs documents hors ligne",
+        "Propriétaires de Mac exploitant MLX pour des performances Apple Silicon de premier ordre"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You prefer a terminal-native, open-source, scriptable model runner (→ Ollama)",
+        "You mainly want to browse, host and fine-tune models in the cloud (→ Hugging Face)"
+      ],
+      "zh": [
+        "你偏好终端原生、开源、可脚本化的模型运行器（→ Ollama）",
+        "你主要想在云端浏览、托管与微调模型（→ Hugging Face）"
+      ],
+      "ja": [
+        "ターミナルネイティブでオープンソース、スクリプト可能なモデルランナーが好み（→ Ollama）",
+        "主にクラウドでモデルの閲覧・ホスティング・微調整をしたい（→ Hugging Face）"
+      ],
+      "es": [
+        "Prefieres un ejecutor de modelos nativo de terminal, open source y programable (→ Ollama)",
+        "Principalmente quieres explorar, alojar y ajustar modelos en la nube (→ Hugging Face)"
+      ],
+      "fr": [
+        "Vous préférez un exécuteur de modèles natif du terminal, open source et scriptable (→ Ollama)",
+        "Vous voulez surtout explorer, héberger et affiner des modèles dans le cloud (→ Hugging Face)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-29",
+    "verdictDate": "2026-07-29",
+    "pricingVerified": "2026-07-29",
+    "pricingUrl": "https://lmstudio.ai"
+  }
+}

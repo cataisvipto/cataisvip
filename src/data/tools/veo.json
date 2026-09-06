@@ -1,0 +1,28 @@
+{
+  "slug": "veo",
+  "name": "Veo 2",
+  "nameZh": "Veo 2",
+  "description": "Google DeepMind 推出的 AI 视频生成模型，支持高保真文本到视频，物理模拟逼真",
+  "descriptionEn": "Google DeepMind's AI video generation model with high-fidelity text-to-video and realistic physics simulation",
+  "descriptionJa": "Google DeepMindのAI動画生成モデル。高忠実度のテキストから動画生成、リアルな物理シミュレーション",
+  "descriptionEs": "Modelo de generación de video IA de Google DeepMind con conversión de texto a video de alta fidelidad y simulación física realista",
+  "descriptionFr": "Modèle de génération vidéo IA de Google DeepMind avec conversion texte-vidéo haute fidélité et simulation physique réaliste",
+  "url": "https://deepmind.google/technologies/veo",
+  "logo": "/logos/tools/veo.png",
+  "category": "Video",
+  "tags": [
+    "API"
+  ],
+  "featured": false,
+  "developer": "Google DeepMind",
+  "platforms": {
+    "web": true,
+    "windows": false,
+    "macos": false,
+    "ios": true,
+    "android": true,
+    "linux": false,
+    "browser_extension": false,
+    "api": true
+  }
+}

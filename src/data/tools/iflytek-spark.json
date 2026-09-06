@@ -1,0 +1,30 @@
+{
+  "slug": "iflytek-spark",
+  "name": "iFlytek Spark",
+  "nameZh": "讯飞星火",
+  "description": "科大讯飞推出的 AI 对话助手，基于星火大模型 X2，支持 130+ 多语言和全国产算力部署",
+  "descriptionEn": "AI assistant by iFlytek powered by Spark X2 LLM, supporting 130+ languages with fully domestic computing power",
+  "descriptionJa": "iFlytekのAIアシスタント。星火X2モデル搭載、130以上の多言語対応、完全国内演算基盤",
+  "descriptionEs": "Asistente de IA de iFlytek impulsado por Spark X2, compatible con más de 130 idiomas, potencia informática totalmente nacional",
+  "descriptionFr": "Assistant IA d'iFlytek propulsé par Spark X2, supportant plus de 130 langues, puissance de calcul entièrement nationale",
+  "url": "https://xinghuo.xfyun.cn",
+  "logo": "/logos/tools/iflytek-spark.png",
+  "category": "Chat",
+  "tags": [
+    "Free",
+    "API"
+  ],
+  "featured": false,
+  "developer": "iFlytek",
+  "developerZh": "科大讯飞",
+  "platforms": {
+    "web": true,
+    "windows": true,
+    "macos": true,
+    "ios": true,
+    "android": true,
+    "linux": false,
+    "browser_extension": false,
+    "api": true
+  }
+}

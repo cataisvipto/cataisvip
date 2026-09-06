@@ -1,0 +1,78 @@
+{
+  "slug": "sentry-mcp",
+  "name": "Sentry MCP",
+  "nameZh": "Sentry MCP",
+  "description": "Sentry 官方 MCP 服务器，让编码助手用自然语言查询错误、issue、trace 与性能数据，专为开发者调试工作流优化；基于 Cloudflare 的远程 MCP 方案，亦支持本地 stdio。",
+  "descriptionEn": "Sentry's official MCP server lets coding assistants query errors, issues, traces and performance data in natural language, optimized for developer debugging workflows; built on Cloudflare's remote MCP approach with local stdio support too.",
+  "descriptionJa": "Sentry 公式の MCP サーバー。コーディングアシスタントが自然言語でエラー・issue・トレース・パフォーマンスデータを照会でき、開発者のデバッグワークフロー向けに最適化されています。Cloudflare のリモート MCP 方式に基づき、ローカル stdio にも対応します。",
+  "descriptionEs": "El servidor MCP oficial de Sentry permite que los asistentes de código consulten errores, issues, trazas y datos de rendimiento en lenguaje natural, optimizado para flujos de depuración de desarrolladores; basado en el enfoque de MCP remoto de Cloudflare, con soporte también para stdio local.",
+  "descriptionFr": "Le serveur MCP officiel de Sentry permet aux assistants de code d'interroger erreurs, issues, traces et données de performance en langage naturel, optimisé pour les workflows de débogage des développeurs ; fondé sur l'approche MCP distant de Cloudflare, avec prise en charge du stdio local.",
+  "developer": "Sentry",
+  "developerZh": "Sentry",
+  "repo": "getsentry/sentry-mcp",
+  "clients": [
+    "claude",
+    "cursor",
+    "vscode",
+    "generic"
+  ],
+  "category": "Monitoring",
+  "tags": [
+    "Free",
+    "Open Source"
+  ],
+  "installCommand": "npx -y @sentry/mcp-server",
+  "logo": "/logos/mcp/sentry-mcp.png",
+  "stars": 840,
+  "featured": false,
+  "faqs": [
+    {
+      "question": {
+        "zh": "Sentry MCP 主要解决什么场景？",
+        "en": "What is Sentry MCP mainly for?",
+        "ja": "Sentry MCP は主にどんな場面で使いますか？",
+        "es": "¿Para qué sirve principalmente Sentry MCP?",
+        "fr": "À quoi sert principalement Sentry MCP ?"
+      },
+      "answer": {
+        "zh": "把 Sentry 的错误监控接进编码助手：直接在 Cursor / Claude Code 里问\"这个 issue 是什么原因\"\"最近的报错 trace\"，助手就能拉取 Sentry 数据帮你定位并修复 bug，省去来回切后台。",
+        "en": "It brings Sentry error monitoring into your coding assistant: ask \"what caused this issue\" or \"show the latest error trace\" right inside Cursor / Claude Code, and the assistant pulls Sentry data to help you locate and fix bugs without switching to the dashboard.",
+        "ja": "Sentry のエラー監視をコーディングアシスタントに取り込みます。Cursor や Claude Code の中で「この issue の原因は？」「最近のエラーのトレースは？」と尋ねると、アシスタントが Sentry のデータを取得してバグの特定と修正を支援し、管理画面を行き来する手間を省けます。",
+        "es": "Lleva la monitorización de errores de Sentry a tu asistente de código: pregunta \"qué causó este issue\" o \"muéstrame la traza del último error\" dentro de Cursor / Claude Code y el asistente extrae datos de Sentry para ayudarte a localizar y corregir bugs sin cambiar al panel.",
+        "fr": "Il intègre la surveillance d'erreurs de Sentry à votre assistant de code : demandez « quelle est la cause de cet issue » ou « montre la trace de la dernière erreur » directement dans Cursor / Claude Code, et l'assistant récupère les données Sentry pour vous aider à localiser et corriger les bugs sans passer par le tableau de bord."
+      }
+    },
+    {
+      "question": {
+        "zh": "怎么安装 Sentry MCP？需要什么权限？",
+        "en": "How do I install Sentry MCP and what scopes are needed?",
+        "ja": "Sentry MCP のインストール方法と必要な権限は？",
+        "es": "¿Cómo instalo Sentry MCP y qué permisos necesita?",
+        "fr": "Comment installer Sentry MCP et quelles portées sont nécessaires ?"
+      },
+      "answer": {
+        "zh": "推荐访问 mcp.sentry.dev 走 OAuth 一键接入；本地 stdio 用 npx -y @sentry/mcp-server，需在 Sentry 创建含 org:read、project:read/write、team:read 等 scope 的 User Auth Token。",
+        "en": "The easy path is mcp.sentry.dev via OAuth; for local stdio use npx -y @sentry/mcp-server, which needs a Sentry User Auth Token with scopes like org:read, project:read/write and team:read.",
+        "ja": "簡単なのは mcp.sentry.dev の OAuth 接続です。ローカル stdio は npx -y @sentry/mcp-server を使い、Sentry で org:read、project:read/write、team:read などの scope を持つ User Auth Token を作成する必要があります。",
+        "es": "La vía fácil es mcp.sentry.dev mediante OAuth; para stdio local usa npx -y @sentry/mcp-server, que requiere un User Auth Token de Sentry con scopes como org:read, project:read/write y team:read.",
+        "fr": "Le plus simple est mcp.sentry.dev via OAuth ; pour le stdio local, utilisez npx -y @sentry/mcp-server, qui nécessite un User Auth Token Sentry avec des portées comme org:read, project:read/write et team:read."
+      }
+    },
+    {
+      "question": {
+        "zh": "Sentry MCP 免费吗？",
+        "en": "Is Sentry MCP free?",
+        "ja": "Sentry MCP は無料ですか？",
+        "es": "¿Sentry MCP es gratuito?",
+        "fr": "Sentry MCP est-il gratuit ?"
+      },
+      "answer": {
+        "zh": "MCP 服务器本身开源免费，读取的是你自己 Sentry 项目的数据；Sentry 平台有免费额度，超出后按其常规计费。部分 AI 搜索工具需自备 LLM 供应商密钥。",
+        "en": "The MCP server itself is open source and free, reading data from your own Sentry projects; Sentry has a free tier and charges beyond it as usual. Some AI-search tools require your own LLM provider key.",
+        "ja": "MCP サーバー自体はオープンソースで無料で、あなた自身の Sentry プロジェクトのデータを読み取ります。Sentry には無料枠があり、超過分は通常どおり課金されます。一部の AI 検索ツールは自前の LLM プロバイダーキーが必要です。",
+        "es": "El servidor MCP en sí es de código abierto y gratuito, y lee datos de tus propios proyectos de Sentry; Sentry tiene un nivel gratuito y cobra por encima de él como de costumbre. Algunas herramientas de búsqueda con IA requieren tu propia clave de proveedor LLM.",
+        "fr": "Le serveur MCP lui-même est open source et gratuit, lisant les données de vos propres projets Sentry ; Sentry a une offre gratuite et facture au-delà comme d'habitude. Certains outils de recherche IA nécessitent votre propre clé de fournisseur LLM."
+      }
+    }
+  ]
+}

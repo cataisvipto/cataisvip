@@ -1,0 +1,235 @@
+{
+  "features": {
+    "en": [
+      "AI Assistant and the Junie coding agent under one subscription",
+      "Junie executes multi-step tasks agentically inside the IDE",
+      "Free tier: unlimited local models (Ollama/LM Studio) and unlimited code completion",
+      "Multi-model backend including JetBrains' own Mellum plus cloud LLMs",
+      "Native IDE context: symbols, indexes and refactorings, not just text",
+      "Supports the Agent Client Protocol (ACP) for external agents"
+    ],
+    "zh": [
+      "AI Assistant 与编码智能体 Junie 共用一份订阅",
+      "Junie 在 IDE 内代理式执行多步骤任务",
+      "免费档：无限本地模型（Ollama/LM Studio）与无限代码补全",
+      "多模型后端，含 JetBrains 自研 Mellum 与各家云端 LLM",
+      "原生 IDE 上下文：符号、索引与重构，而不只是文本",
+      "支持 Agent Client Protocol（ACP）接入外部智能体"
+    ],
+    "ja": [
+      "AI AssistantとコーディングエージェントJunieが1つのサブスクリプションに",
+      "JunieがIDE内でマルチステップタスクをエージェント的に実行",
+      "無料枠：無制限のローカルモデル（Ollama/LM Studio）と無制限コード補完",
+      "JetBrains自社のMellumと各社クラウドLLMを含むマルチモデルバックエンド",
+      "ネイティブIDEコンテキスト：テキストだけでなくシンボル・インデックス・リファクタリング",
+      "外部エージェント接続用のAgent Client Protocol（ACP）対応"
+    ],
+    "es": [
+      "AI Assistant y el agente de código Junie bajo una sola suscripción",
+      "Junie ejecuta tareas multipaso de forma agéntica dentro del IDE",
+      "Nivel gratuito: modelos locales ilimitados (Ollama/LM Studio) y autocompletado ilimitado",
+      "Backend multimodelo con el Mellum propio de JetBrains más LLMs en la nube",
+      "Contexto nativo del IDE: símbolos, índices y refactorizaciones, no solo texto",
+      "Soporta el Agent Client Protocol (ACP) para agentes externos"
+    ],
+    "fr": [
+      "AI Assistant et l'agent de codage Junie sous un seul abonnement",
+      "Junie exécute des tâches multi-étapes de façon agentique dans l'IDE",
+      "Offre gratuite : modèles locaux illimités (Ollama/LM Studio) et complétion illimitée",
+      "Backend multi-modèles avec le Mellum maison de JetBrains plus des LLM cloud",
+      "Contexte IDE natif : symboles, index et refactorisations, pas seulement du texte",
+      "Prend en charge l'Agent Client Protocol (ACP) pour les agents externes"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "AI Free ships with every JetBrains IDE: unlimited code completion, unlimited local-model usage and a small cloud credit allowance.",
+      "zh": "AI Free 随每个 JetBrains IDE 附带：无限代码补全、无限本地模型使用，外加少量云端额度。",
+      "ja": "AI Freeは全JetBrains IDEに同梱：無制限コード補完、無制限ローカルモデル利用、少量のクラウドクレジット付き。",
+      "es": "AI Free viene con cada IDE de JetBrains: autocompletado ilimitado, uso ilimitado de modelos locales y una pequeña asignación de créditos en la nube.",
+      "fr": "AI Free est fourni avec chaque IDE JetBrains : complétion illimitée, usage illimité de modèles locaux et une petite dotation de crédits cloud."
+    },
+    "paid": {
+      "en": "AI Pro is $10/month with 10 monthly credits, AI Ultimate $30/month with 35 credits plus priority access; both cover AI Assistant and Junie across all JetBrains IDEs. (Verified against the official purchase page, 2026-07-29.)",
+      "zh": "AI Pro $10/月含 10 credits，AI Ultimate $30/月含 35 credits 并有优先访问；二者均覆盖全部 JetBrains IDE 的 AI Assistant 与 Junie。（对照官方购买页核实，2026-07-29。）",
+      "ja": "AI Proは月$10で月10クレジット、AI Ultimateは月$30で35クレジットと優先アクセス。いずれも全JetBrains IDEのAI AssistantとJunieをカバー。（公式購入ページと照合、2026-07-29。）",
+      "es": "AI Pro cuesta $10/mes con 10 créditos mensuales, AI Ultimate $30/mes con 35 créditos y acceso prioritario; ambos cubren AI Assistant y Junie en todos los IDE de JetBrains. (Verificado con la página oficial de compra, 2026-07-29.)",
+      "fr": "AI Pro coûte 10 $/mois avec 10 crédits mensuels, AI Ultimate 30 $/mois avec 35 crédits et un accès prioritaire ; les deux couvrent AI Assistant et Junie dans tous les IDE JetBrains. (Vérifié avec la page d'achat officielle, 2026-07-29.)"
+    }
+  },
+  "useCases": {
+    "en": [
+      "IntelliJ/PyCharm/GoLand users adding AI without leaving their IDE",
+      "Privacy-conscious teams running unlimited local models for free",
+      "Delegating multi-file refactors to Junie inside familiar tooling",
+      "Enterprises standardizing AI across an existing JetBrains fleet"
+    ],
+    "zh": [
+      "IntelliJ/PyCharm/GoLand 用户不换 IDE 就用上 AI",
+      "注重隐私、免费跑无限本地模型的团队",
+      "在熟悉的工具里把多文件重构交给 Junie",
+      "在既有 JetBrains 全家桶上统一 AI 的企业"
+    ],
+    "ja": [
+      "IDEを離れずAIを加えたいIntelliJ/PyCharm/GoLandユーザー",
+      "無料で無制限ローカルモデルを走らせるプライバシー重視チーム",
+      "慣れたツール内で複数ファイルのリファクタリングをJunieに委任",
+      "既存のJetBrains群にAIを標準化する企業"
+    ],
+    "es": [
+      "Usuarios de IntelliJ/PyCharm/GoLand añadiendo IA sin dejar su IDE",
+      "Equipos preocupados por la privacidad ejecutando modelos locales ilimitados gratis",
+      "Delegar refactorizaciones multiarchivo a Junie en herramientas familiares",
+      "Empresas estandarizando IA sobre su flota JetBrains existente"
+    ],
+    "fr": [
+      "Utilisateurs d'IntelliJ/PyCharm/GoLand ajoutant l'IA sans quitter leur IDE",
+      "Équipes soucieuses de confidentialité exécutant des modèles locaux illimités gratuitement",
+      "Déléguer des refactorisations multi-fichiers à Junie dans un outillage familier",
+      "Entreprises standardisant l'IA sur leur parc JetBrains existant"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Free unlimited local models and completion — unique among major vendors",
+      "Junie leverages real IDE intelligence: indexes, symbols, safe refactorings",
+      "One subscription spans every JetBrains IDE",
+      "$10 entry price is among the lowest for an assistant-plus-agent combo"
+    ],
+    "zh": [
+      "免费无限本地模型与补全——主流大厂中独一份",
+      "Junie 用上真正的 IDE 智能：索引、符号、安全重构",
+      "一份订阅横跨所有 JetBrains IDE",
+      "$10 的入门价在「助手+智能体」组合里属最低档"
+    ],
+    "ja": [
+      "無料の無制限ローカルモデルと補完——大手で唯一",
+      "Junieは本物のIDEインテリジェンスを活用：インデックス・シンボル・安全なリファクタリング",
+      "1つのサブスクリプションが全JetBrains IDEに適用",
+      "$10のエントリー価格はアシスタント+エージェントの組み合わせで最安級"
+    ],
+    "es": [
+      "Modelos locales y autocompletado ilimitados gratis — único entre los grandes",
+      "Junie aprovecha inteligencia real del IDE: índices, símbolos, refactorizaciones seguras",
+      "Una suscripción abarca todos los IDE de JetBrains",
+      "El precio de entrada de $10 es de los más bajos para asistente + agente"
+    ],
+    "fr": [
+      "Modèles locaux et complétion illimités gratuits — unique parmi les grands éditeurs",
+      "Junie exploite la vraie intelligence de l'IDE : index, symboles, refactorisations sûres",
+      "Un abonnement couvre tous les IDE JetBrains",
+      "Le prix d'entrée de 10 $ est parmi les plus bas pour un combo assistant + agent"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Credit allowances (10 on Pro) are low and consumption is opaque — heavy Junie use drains them fast, a common complaint",
+      "Cloud-model quality depends on credits; the free tier leans on local models",
+      "Locked to JetBrains IDEs — no VS Code or editor-agnostic option",
+      "Junie's heavyweight runs can feel slower than lighter in-editor agents"
+    ],
+    "zh": [
+      "credit 额度偏低（Pro 仅 10）且消耗不透明——Junie 重度使用很快耗尽，是常见抱怨",
+      "云端模型体验取决于 credits；免费档主要靠本地模型",
+      "锁定 JetBrains IDE——没有 VS Code 或编辑器无关的选项",
+      "Junie 的重型执行可能比轻量编辑器内智能体感觉更慢"
+    ],
+    "ja": [
+      "クレジット額度が低く（Proで10）消費も不透明——Junieのヘビーユースですぐ枯渇、というのがよくある苦情",
+      "クラウドモデルの品質はクレジット次第。無料枠はローカルモデル頼み",
+      "JetBrains IDE限定——VS Codeやエディタ非依存の選択肢なし",
+      "Junieの重量級実行は軽量なエディタ内エージェントより遅く感じることがある"
+    ],
+    "es": [
+      "Las asignaciones de créditos (10 en Pro) son bajas y el consumo es opaco — el uso intenso de Junie las agota rápido, una queja común",
+      "La calidad del modelo en la nube depende de créditos; el nivel gratis se apoya en modelos locales",
+      "Atado a los IDE de JetBrains — sin opción para VS Code ni agnóstica",
+      "Las ejecuciones pesadas de Junie pueden sentirse más lentas que agentes ligeros"
+    ],
+    "fr": [
+      "Les dotations de crédits (10 sur Pro) sont faibles et la consommation opaque — l'usage intensif de Junie les épuise vite, plainte fréquente",
+      "La qualité des modèles cloud dépend des crédits ; l'offre gratuite repose sur les modèles locaux",
+      "Verrouillé aux IDE JetBrains — pas d'option VS Code ni agnostique",
+      "Les exécutions lourdes de Junie peuvent sembler plus lentes que les agents légers"
+    ]
+  },
+  "latestUpdate": {
+    "en": "2026: Junie left beta in June 2026 and now shares one subscription with AI Assistant across all JetBrains IDEs — the free tier's unlimited local models (Ollama, LM Studio) and unlimited completion remain unmatched, with ACP support opening the door to external agents.",
+    "zh": "2026 年：Junie 于 2026 年 6 月脱离 beta，现与 AI Assistant 在全部 JetBrains IDE 共享一份订阅——免费档的无限本地模型（Ollama、LM Studio）与无限补全仍无人能敌，ACP 支持则为外部智能体敞开大门。",
+    "ja": "2026年：Junieは2026年6月にベータを卒業し、全JetBrains IDEでAI Assistantと1つのサブスクリプションを共有——無料枠の無制限ローカルモデル（Ollama・LM Studio）と無制限補完は依然他になく、ACP対応が外部エージェントへの扉を開いた。",
+    "es": "2026: Junie salió de beta en junio de 2026 y ahora comparte una suscripción con AI Assistant en todos los IDE de JetBrains — los modelos locales ilimitados del nivel gratis (Ollama, LM Studio) y el autocompletado ilimitado siguen sin rival, y el soporte ACP abre la puerta a agentes externos.",
+    "fr": "2026 : Junie est sorti de bêta en juin 2026 et partage désormais un abonnement avec AI Assistant sur tous les IDE JetBrains — les modèles locaux illimités de l'offre gratuite (Ollama, LM Studio) et la complétion illimitée restent inégalés, et la prise en charge d'ACP ouvre la porte aux agents externes."
+  },
+  "verdict": {
+    "badge": "For Specific Needs",
+    "headline": {
+      "en": "The obvious AI choice if you already live in a JetBrains IDE",
+      "zh": "如果你本来就住在 JetBrains IDE 里，这是显而易见的 AI 选择",
+      "ja": "すでにJetBrains IDEに住んでいるなら自明のAIの選択",
+      "es": "La elección de IA obvia si ya vives en un IDE de JetBrains",
+      "fr": "Le choix d'IA évident si vous vivez déjà dans un IDE JetBrains"
+    },
+    "body": {
+      "en": "JetBrains AI answers a specific question: how do millions of IntelliJ, PyCharm and GoLand users get modern AI without abandoning the IDEs their muscle memory is built on? The answer is now coherent — AI Assistant for completion, chat and refactoring, plus the Junie agent for multi-step tasks, both under one subscription across every JetBrains IDE. Two things genuinely stand out. First, the free tier is unique among major vendors: unlimited local models via Ollama or LM Studio and unlimited code completion cost nothing, making it the best zero-dollar setup for privacy-sensitive developers, full stop. Second, Junie's edge is context — it operates on the IDE's indexes, symbols and refactoring engine rather than raw text, which shows in how safely it navigates large codebases. The pain point is equally clear: credits. AI Pro's 10 monthly credits vanish quickly under serious Junie usage, consumption reporting is opaque, and the community's frustration on this is loud and consistent — heavy users should budget for the $30 Ultimate tier. And of course, none of this matters if you code in VS Code: there is no version for you. For JetBrains loyalists it's the natural pick; for everyone else, it isn't an option at all — the definition of For Specific Needs.",
+      "zh": "JetBrains AI 回答的是一个具体问题：数百万 IntelliJ、PyCharm、GoLand 用户如何不抛弃肌肉记忆所系的 IDE 就用上现代 AI？答案如今已经完整——AI Assistant 负责补全、聊天与重构，Junie 智能体处理多步骤任务，两者在所有 JetBrains IDE 中共用一份订阅。有两点确实出众。其一，免费档在主流厂商中独一无二：经 Ollama 或 LM Studio 的无限本地模型加无限代码补全分文不取，对隐私敏感的开发者而言是最好的零元配置，没有之一。其二，Junie 的优势在上下文——它操作的是 IDE 的索引、符号与重构引擎而非纯文本，在大型代码库里的安全导航能力可见一斑。痛点同样明确：credits。AI Pro 每月 10 个 credits 在认真使用 Junie 时转瞬即逝，消耗报告不透明，社区在这点上的不满响亮且一致——重度用户应直接预算 $30 的 Ultimate 档。当然，如果你用 VS Code 写代码，这一切都与你无关：没有为你准备的版本。对 JetBrains 忠实用户，它是自然之选；对其他所有人，它根本不是选项——这正是「For Specific Needs」的定义。",
+      "ja": "JetBrains AIが答えるのは具体的な問いだ。何百万のIntelliJ・PyCharm・GoLandユーザーが、筋肉の記憶が染み付いたIDEを捨てずに現代のAIを使うには？答えはいまや一貫している——補完・チャット・リファクタリングのAI Assistantと、マルチステップタスクのJunieエージェントが、全JetBrains IDEで1つのサブスクリプションにまとまった。本当に際立つ点は2つ。第一に、無料枠は大手で唯一無二だ。OllamaやLM Studio経由の無制限ローカルモデルと無制限コード補完が無料で、プライバシー重視の開発者にとって最高のゼロ円構成であることに議論の余地はない。第二に、Junieの強みはコンテキストにある。生のテキストではなくIDEのインデックス・シンボル・リファクタリングエンジンの上で動き、大規模コードベースを安全に渡り歩く様にそれが表れる。痛点も同じくらい明確だ。クレジットである。AI Proの月10クレジットはJunieを本気で使えばすぐ消え、消費の内訳は不透明で、この点へのコミュニティの不満は大きく一貫している——ヘビーユーザーは$30のUltimateを予算に入れるべきだ。そしてもちろん、VS Codeでコードを書くなら、これらすべてが無関係だ。あなた向けのバージョンは存在しない。JetBrainsの忠実なユーザーには自然な選択。それ以外の全員には、そもそも選択肢ではない——これぞ「For Specific Needs」の定義だ。",
+      "es": "JetBrains AI responde una pregunta concreta: ¿cómo consiguen millones de usuarios de IntelliJ, PyCharm y GoLand una IA moderna sin abandonar los IDE sobre los que está construida su memoria muscular? La respuesta ya es coherente — AI Assistant para autocompletado, chat y refactorización, más el agente Junie para tareas multipaso, ambos bajo una suscripción en todos los IDE de JetBrains. Dos cosas destacan de verdad. Primera, el nivel gratuito es único entre los grandes: modelos locales ilimitados vía Ollama o LM Studio y autocompletado ilimitado no cuestan nada, la mejor configuración a coste cero para desarrolladores sensibles a la privacidad, punto. Segunda, la ventaja de Junie es el contexto — opera sobre los índices, símbolos y motor de refactorización del IDE en vez de texto plano, y se nota en lo seguro que navega bases de código grandes. El punto doloroso es igual de claro: los créditos. Los 10 mensuales del AI Pro se esfuman con uso serio de Junie, el reporte de consumo es opaco y la frustración de la comunidad al respecto es sonora y consistente — los usuarios intensivos deberían presupuestar el Ultimate de $30. Y por supuesto, nada de esto importa si programas en VS Code: no hay versión para ti. Para los leales a JetBrains es la elección natural; para el resto, ni siquiera es una opción — la definición de For Specific Needs.",
+      "fr": "JetBrains AI répond à une question précise : comment des millions d'utilisateurs d'IntelliJ, PyCharm et GoLand obtiennent-ils une IA moderne sans abandonner les IDE sur lesquels leur mémoire musculaire est bâtie ? La réponse est désormais cohérente — AI Assistant pour la complétion, le chat et la refactorisation, plus l'agent Junie pour les tâches multi-étapes, les deux sous un abonnement couvrant tous les IDE JetBrains. Deux choses ressortent vraiment. D'abord, l'offre gratuite est unique parmi les grands éditeurs : modèles locaux illimités via Ollama ou LM Studio et complétion illimitée ne coûtent rien — la meilleure configuration à zéro euro pour les développeurs soucieux de confidentialité, point. Ensuite, l'avantage de Junie est le contexte — il opère sur les index, symboles et le moteur de refactorisation de l'IDE plutôt que sur du texte brut, ce qui se voit dans sa manière sûre de naviguer les grandes bases de code. Le point douloureux est tout aussi clair : les crédits. Les 10 crédits mensuels d'AI Pro fondent vite sous un usage sérieux de Junie, le suivi de consommation est opaque, et la frustration de la communauté à ce sujet est forte et constante — les gros utilisateurs devraient prévoir l'Ultimate à 30 $. Et bien sûr, rien de tout cela ne compte si vous codez dans VS Code : il n'existe pas de version pour vous. Pour les fidèles de JetBrains, c'est le choix naturel ; pour tous les autres, ce n'est tout simplement pas une option — la définition même de For Specific Needs."
+    },
+    "bestFor": {
+      "en": [
+        "Developers committed to IntelliJ, PyCharm, GoLand and other JetBrains IDEs",
+        "Privacy-focused coders wanting free unlimited local models",
+        "Teams standardizing assistant + agent on existing JetBrains licenses"
+      ],
+      "zh": [
+        "深耕 IntelliJ、PyCharm、GoLand 等 JetBrains IDE 的开发者",
+        "想免费用无限本地模型的隐私优先开发者",
+        "在既有 JetBrains 许可上统一「助手+智能体」的团队"
+      ],
+      "ja": [
+        "IntelliJ・PyCharm・GoLandなどJetBrains IDEに根を張る開発者",
+        "無料の無制限ローカルモデルが欲しいプライバシー重視のコーダー",
+        "既存JetBrainsライセンスにアシスタント+エージェントを標準化するチーム"
+      ],
+      "es": [
+        "Desarrolladores comprometidos con IntelliJ, PyCharm, GoLand y demás IDE JetBrains",
+        "Programadores centrados en privacidad que quieren modelos locales ilimitados gratis",
+        "Equipos estandarizando asistente + agente sobre licencias JetBrains existentes"
+      ],
+      "fr": [
+        "Développeurs attachés à IntelliJ, PyCharm, GoLand et autres IDE JetBrains",
+        "Codeurs axés confidentialité voulant des modèles locaux illimités gratuits",
+        "Équipes standardisant assistant + agent sur leurs licences JetBrains existantes"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You code in VS Code or want an editor built around AI (→ Cursor)",
+        "You want a terminal agent independent of any IDE (→ Claude Code)"
+      ],
+      "zh": [
+        "你用 VS Code 或想要为 AI 而生的编辑器（→ Cursor）",
+        "你想要不依赖任何 IDE 的终端智能体（→ Claude Code）"
+      ],
+      "ja": [
+        "VS Codeを使う、またはAI前提のエディタが欲しい（→ Cursor）",
+        "IDEに依存しないターミナルエージェントが欲しい（→ Claude Code）"
+      ],
+      "es": [
+        "Programas en VS Code o quieres un editor construido en torno a la IA (→ Cursor)",
+        "Quieres un agente de terminal independiente de cualquier IDE (→ Claude Code)"
+      ],
+      "fr": [
+        "Vous codez dans VS Code ou voulez un éditeur pensé pour l'IA (→ Cursor)",
+        "Vous voulez un agent terminal indépendant de tout IDE (→ Claude Code)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-29",
+    "verdictDate": "2026-07-29",
+    "pricingVerified": "2026-07-29",
+    "pricingUrl": "https://www.jetbrains.com/ai-ides/buy/"
+  }
+}

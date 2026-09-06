@@ -1,0 +1,79 @@
+{
+  "slug": "obsidian-mcp",
+  "name": "Obsidian MCP",
+  "nameZh": "Obsidian MCP",
+  "description": "连接 Obsidian 笔记库的 MCP 服务器。通过 Obsidian 的 REST API 社区插件，让 AI 智能体读取、搜索、创建和编辑笔记，在知识库中检索信息。",
+  "descriptionEn": "An MCP server that connects to your Obsidian vault. Leveraging the Obsidian REST API community plugin, it lets AI agents read, search, create, and edit notes — giving them access to your knowledge base.",
+  "descriptionJa": "Obsidian のノート保管庫に接続する MCP サーバー。Obsidian の REST API コミュニティプラグインを活用し、AI エージェントがノートの読み取り、検索、作成、編集を実行。ナレッジベースへのアクセスを提供します。",
+  "descriptionEs": "Un servidor MCP que se conecta a tu bóveda de Obsidian. Usando el plugin comunitario de la API REST de Obsidian, permite a los agentes de IA leer, buscar, crear y editar notas — dándoles acceso a tu base de conocimiento.",
+  "descriptionFr": "Un serveur MCP qui se connecte à votre coffre Obsidian. En utilisant le plugin communautaire de l'API REST d'Obsidian, il permet aux agents IA de lire, rechercher, créer et modifier des notes — leur donnant accès à votre base de connaissances.",
+  "developer": "Markus Pfundstein",
+  "developerZh": "Markus Pfundstein",
+  "repo": "MarkusPfundstein/mcp-obsidian",
+  "clients": [
+    "claude",
+    "cursor",
+    "vscode",
+    "codex",
+    "generic"
+  ],
+  "category": "Productivity",
+  "tags": [
+    "Free",
+    "Open Source"
+  ],
+  "installCommand": "npx -y mcp-obsidian --vault /path/to/your/vault",
+  "logo": "/logos/mcp/obsidian-mcp.png",
+  "stars": 4367,
+  "featured": false,
+  "faqs": [
+    {
+      "question": {
+        "zh": "Obsidian MCP 需要什么前提条件？",
+        "en": "What are the prerequisites for Obsidian MCP?",
+        "ja": "Obsidian MCP の前提条件は何ですか？",
+        "es": "¿Cuáles son los requisitos previos para Obsidian MCP?",
+        "fr": "Quels sont les prérequis pour Obsidian MCP ?"
+      },
+      "answer": {
+        "zh": "需要安装 Obsidian 的社区插件「Obsidian REST API」（obsidian://show-plugin?id=obsidian-rest-api），启动后插件会在本地开启一个 HTTP 接口，MCP 服务器通过该接口与你的笔记库通信。",
+        "en": "You need to install the Obsidian community plugin 'Obsidian REST API' (obsidian://show-plugin?id=obsidian-rest-api). Once enabled, the plugin opens a local HTTP endpoint that the MCP server uses to communicate with your vault.",
+        "ja": "Obsidian のコミュニティプラグイン「Obsidian REST API」（obsidian://show-plugin?id=obsidian-rest-api）のインストールが必要です。有効化すると、プラグインがローカル HTTP エンドポイントを開き、MCP サーバーがそれを介してノート保管庫と通信します。",
+        "es": "Necesitas instalar el plugin comunitario de Obsidian 'Obsidian REST API' (obsidian://show-plugin?id=obsidian-rest-api). Una vez activado, el plugin abre un endpoint HTTP local que el servidor MCP usa para comunicarse con tu bóveda.",
+        "fr": "Vous devez installer le plugin communautaire Obsidian 'Obsidian REST API' (obsidian://show-plugin?id=obsidian-rest-api). Une fois activé, le plugin ouvre un point de terminaison HTTP local que le serveur MCP utilise pour communiquer avec votre coffre."
+      }
+    },
+    {
+      "question": {
+        "zh": "Obsidian MCP 能做什么？",
+        "en": "What can Obsidian MCP do?",
+        "ja": "Obsidian MCP は何ができますか？",
+        "es": "¿Qué puede hacer Obsidian MCP?",
+        "fr": "Que peut faire Obsidian MCP ?"
+      },
+      "answer": {
+        "zh": "AI 智能体可以用它搜索笔记库、读取指定笔记内容、创建新笔记、编辑已有笔记。适用于让 AI 在写作时参考你的知识库、自动整理笔记、或基于现有笔记生成新内容。",
+        "en": "AI agents can search your vault, read specific notes, create new notes, and edit existing ones. Useful for letting AI reference your knowledge base while writing, auto-organizing notes, or generating new content based on existing notes.",
+        "ja": "AI エージェントはノート保管庫の検索、特定ノートの読み取り、新規ノートの作成、既存ノートの編集が可能です。AI にナレッジベースを参照させながらの執筆、ノートの自動整理、既存ノートに基づく新規コンテンツ生成などに役立ちます。",
+        "es": "Los agentes de IA pueden buscar en tu bóveda, leer notas específicas, crear nuevas notas y editar las existentes. Útil para que la IA consulte tu base de conocimiento mientras escribe, organice notas automáticamente o genere contenido nuevo basado en notas existentes.",
+        "fr": "Les agents IA peuvent rechercher dans votre coffre, lire des notes spécifiques, créer de nouvelles notes et modifier les existantes. Utile pour laisser l'IA consulter votre base de connaissances pendant l'écriture, organiser automatiquement des notes ou générer du contenu à partir de notes existantes."
+      }
+    },
+    {
+      "question": {
+        "zh": "Obsidian MCP 安全吗？会修改我的笔记吗？",
+        "en": "Is Obsidian MCP safe? Will it modify my notes?",
+        "ja": "Obsidian MCP は安全ですか？ノートを変更しますか？",
+        "es": "¿Obsidian MCP es seguro? ¿Modificará mis notas?",
+        "fr": "Obsidian MCP est-il sûr ? Va-t-il modifier mes notes ?"
+      },
+      "answer": {
+        "zh": "安全。MCP 服务器只在本地运行，通过 REST API 插件与你的 Obsidian 实例通信，全程无外部网络请求。AI 智能体只有在被明确指示时才会创建或修改笔记，你可以随时审查其操作。建议定期备份笔记库。",
+        "en": "Safe. The MCP server runs locally and communicates with your Obsidian instance via the REST API plugin — no external network requests. AI agents only create or modify notes when explicitly instructed, and you can review all actions. Regular vault backups are recommended.",
+        "ja": "安全です。MCP サーバーはローカルで動作し、REST API プラグインを介して Obsidian インスタンスと通信するため、外部へのネットワークリクエストはありません。AI エージェントは明示的に指示された場合のみノートを作成・変更し、全ての操作を確認できます。定期的なバックアップをお勧めします。",
+        "es": "Seguro. El servidor MCP se ejecuta en local y se comunica con tu instancia de Obsidian a través del plugin REST API — sin peticiones externas a la red. Los agentes de IA solo crean o modifican notas cuando se les indica explícitamente, y puedes revisar todas las acciones. Se recomienda hacer copias de seguridad periódicas de la bóveda.",
+        "fr": "Sûr. Le serveur MCP s'exécute localement et communique avec votre instance Obsidian via le plugin REST API — aucune requête réseau externe. Les agents IA ne créent ou modifient des notes que sur instruction explicite, et vous pouvez examiner toutes leurs actions. Une sauvegarde régulière du coffre est recommandée."
+      }
+    }
+  ]
+}

@@ -1,0 +1,234 @@
+{
+  "features": {
+    "en": [
+      "Agentic Development Environment: terminal, code editor and agent manager in one",
+      "Runs multiple coding agents in parallel — Warp's own Oz plus Claude Code, Codex, Gemini CLI",
+      "Modern terminal with blocks, IDE-like input, autocomplete and syntax highlighting",
+      "Agent orchestration across parallel worktrees with real-time control",
+      "Warp Drive stores shared workflows, prompts and environment context for teams",
+      "Cross-platform desktop app for Windows, macOS and Linux"
+    ],
+    "zh": [
+      "智能体开发环境（ADE）：终端、代码编辑器与智能体管理三合一",
+      "并行运行多个编码智能体——自家 Oz 加上 Claude Code、Codex、Gemini CLI",
+      "现代化终端：块式输出、IDE 级输入、自动补全与语法高亮",
+      "跨并行 worktree 的智能体编排，实时掌控",
+      "Warp Drive 为团队存储共享工作流、提示词与环境上下文",
+      "Windows、macOS、Linux 三平台桌面应用"
+    ],
+    "ja": [
+      "エージェント開発環境（ADE）：ターミナル、コードエディタ、エージェント管理を一体化",
+      "複数のコーディングエージェントを並列実行——自社のOzに加えClaude Code、Codex、Gemini CLI",
+      "モダンなターミナル：ブロック表示、IDE級の入力、オートコンプリート、シンタックスハイライト",
+      "並列worktree間のエージェント統括をリアルタイムで制御",
+      "Warp Driveでチームのワークフロー、プロンプト、環境コンテキストを共有",
+      "Windows、macOS、Linux対応のクロスプラットフォームデスクトップアプリ"
+    ],
+    "es": [
+      "Entorno de desarrollo agéntico: terminal, editor de código y gestor de agentes en uno",
+      "Ejecuta varios agentes de codificación en paralelo: Oz de Warp más Claude Code, Codex, Gemini CLI",
+      "Terminal moderna con bloques, entrada tipo IDE, autocompletado y resaltado de sintaxis",
+      "Orquestación de agentes en worktrees paralelos con control en tiempo real",
+      "Warp Drive almacena flujos de trabajo, prompts y contexto de entorno compartidos para equipos",
+      "App de escritorio multiplataforma para Windows, macOS y Linux"
+    ],
+    "fr": [
+      "Environnement de développement agentique : terminal, éditeur de code et gestionnaire d'agents en un",
+      "Exécute plusieurs agents de codage en parallèle — Oz de Warp plus Claude Code, Codex, Gemini CLI",
+      "Terminal moderne avec blocs, saisie type IDE, autocomplétion et coloration syntaxique",
+      "Orchestration d'agents sur des worktrees parallèles avec contrôle en temps réel",
+      "Warp Drive stocke workflows, prompts et contexte d'environnement partagés pour les équipes",
+      "Application de bureau multiplateforme pour Windows, macOS et Linux"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Free plan at $0: the full modern terminal, bring-your-own AI subscriptions (Claude Code, Codex, Gemini CLI) and a limited allowance of cloud agent features",
+      "zh": "免费版 0 美元：完整现代终端、自带 AI 订阅（Claude Code、Codex、Gemini CLI）接入，以及有限额度的云端智能体功能",
+      "ja": "無料プラン0ドル：フル機能のモダンターミナル、手持ちのAIサブスク（Claude Code、Codex、Gemini CLI）の持ち込み、限定枠のクラウドエージェント機能",
+      "es": "Plan gratuito a 0 $: la terminal moderna completa, tus propias suscripciones de IA (Claude Code, Codex, Gemini CLI) y una asignación limitada de funciones de agentes en la nube",
+      "fr": "Plan gratuit à 0 $ : le terminal moderne complet, vos propres abonnements IA (Claude Code, Codex, Gemini CLI) et un quota limité de fonctions d'agents cloud"
+    },
+    "paid": {
+      "en": "Build $20/mo ($18 annual) with 1,500 credits ≈ $20 of API usage; Max $200/mo ($180 annual) with 18,000 credits; Business $50/user/mo ($45 annual, up to 25 seats, SAML SSO); Enterprise custom with BYO LLM and self-hosted cloud agents",
+      "zh": "Build 版 20 美元/月（年付 18 美元）含 1500 积分≈20 美元 API 用量；Max 版 200 美元/月（年付 180 美元）含 18000 积分；Business 版 50 美元/用户/月（年付 45 美元，最多 25 席，SAML SSO）；企业版定制，支持自带 LLM 与自托管云端智能体",
+      "ja": "Build版は月額20ドル（年払い18ドル）で1,500クレジット≈API利用20ドル分。Max版は月額200ドル（年払い180ドル）で18,000クレジット。Business版はユーザーあたり月額50ドル（年払い45ドル、最大25席、SAML SSO）。エンタープライズ版は個別見積りでBYO LLMとセルフホスト型クラウドエージェントに対応",
+      "es": "Build 20 $/mes (18 $ anual) con 1500 créditos ≈ 20 $ de uso de API; Max 200 $/mes (180 $ anual) con 18 000 créditos; Business 50 $/usuario/mes (45 $ anual, hasta 25 puestos, SSO SAML); Enterprise personalizado con LLM propio y agentes cloud autoalojados",
+      "fr": "Build à 20 $/mois (18 $ en annuel) avec 1500 crédits ≈ 20 $ d'usage API ; Max à 200 $/mois (180 $ en annuel) avec 18 000 crédits ; Business à 50 $/utilisateur/mois (45 $ en annuel, jusqu'à 25 sièges, SSO SAML) ; Enterprise sur mesure avec LLM maison et agents cloud auto-hébergés"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Orchestrating several coding agents in parallel from one cockpit",
+      "Upgrading from a legacy terminal to a modern, AI-native one for free",
+      "Teams standardizing shared commands and workflows via Warp Drive",
+      "Running Claude Code or Codex subscriptions inside a nicer interface"
+    ],
+    "zh": [
+      "在一个驾驶舱里并行编排多个编码智能体",
+      "从老式终端免费升级到现代 AI 原生终端",
+      "团队用 Warp Drive 统一共享命令与工作流",
+      "把 Claude Code 或 Codex 订阅放进更好用的界面里跑"
+    ],
+    "ja": [
+      "1つのコックピットから複数のコーディングエージェントを並列統括",
+      "レガシーターミナルからモダンなAIネイティブターミナルへ無料アップグレード",
+      "Warp Driveでチームの共有コマンドとワークフローを標準化",
+      "Claude CodeやCodexのサブスクをより快適なインターフェースで実行"
+    ],
+    "es": [
+      "Orquestar varios agentes de codificación en paralelo desde una sola cabina",
+      "Pasar gratis de una terminal antigua a una moderna y nativa de IA",
+      "Equipos que estandarizan comandos y flujos compartidos vía Warp Drive",
+      "Ejecutar suscripciones de Claude Code o Codex en una interfaz más agradable"
+    ],
+    "fr": [
+      "Orchestrer plusieurs agents de codage en parallèle depuis un seul cockpit",
+      "Passer gratuitement d'un terminal ancien à un terminal moderne natif IA",
+      "Équipes standardisant commandes et workflows partagés via Warp Drive",
+      "Exécuter vos abonnements Claude Code ou Codex dans une interface plus soignée"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Best-in-class terminal UX even before you touch any AI feature",
+      "Agent-agnostic: BYO Claude Code, Codex or Gemini CLI on the free plan",
+      "Parallel multi-agent orchestration is genuinely ahead of the pack",
+      "Windows, macOS and Linux parity — rare among AI dev environments"
+    ],
+    "zh": [
+      "还没碰 AI 功能之前，终端体验就已是同类最佳",
+      "智能体无关：免费版即可自带 Claude Code、Codex、Gemini CLI",
+      "并行多智能体编排真正走在行业前面",
+      "Windows、macOS、Linux 三端对等——AI 开发环境里少见"
+    ],
+    "ja": [
+      "AI機能に触れる前からターミナルUXがクラス最高",
+      "エージェント非依存：無料プランでもClaude Code、Codex、Gemini CLIを持ち込み可",
+      "並列マルチエージェント統括は本当に業界の先を行く",
+      "Windows、macOS、Linuxの3プラットフォーム対等対応——AI開発環境では珍しい"
+    ],
+    "es": [
+      "Experiencia de terminal líder incluso antes de tocar ninguna función de IA",
+      "Agnóstico de agentes: trae tu Claude Code, Codex o Gemini CLI en el plan gratuito",
+      "La orquestación multiagente en paralelo va genuinamente por delante del resto",
+      "Paridad en Windows, macOS y Linux, algo raro entre entornos de desarrollo IA"
+    ],
+    "fr": [
+      "Expérience terminal la meilleure de sa catégorie avant même de toucher à l'IA",
+      "Indépendant des agents : apportez Claude Code, Codex ou Gemini CLI dès le plan gratuit",
+      "L'orchestration multi-agents parallèle a une vraie longueur d'avance",
+      "Parité Windows, macOS et Linux — rare parmi les environnements de dev IA"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Credit system for Warp's own agents adds a second bill to reason about",
+      "Requires an account sign-in, which some terminal purists reject",
+      "Max at $200/mo is steep if you're not running agents all day",
+      "Telemetry and cloud features raise concerns for air-gapped environments"
+    ],
+    "zh": [
+      "自家智能体的积分制等于多了一张要算的账单",
+      "需要登录账号，部分终端原教旨主义者不接受",
+      "不整天跑智能体的话，200 美元/月的 Max 版偏贵",
+      "遥测与云功能对隔离网络环境是个顾虑"
+    ],
+    "ja": [
+      "自社エージェントのクレジット制で管理すべき請求が1つ増える",
+      "アカウントログインが必須で、一部のターミナル純粋主義者には不評",
+      "1日中エージェントを回さないなら月額200ドルのMaxは割高",
+      "テレメトリーとクラウド機能はエアギャップ環境では懸念材料"
+    ],
+    "es": [
+      "El sistema de créditos de los agentes propios de Warp añade una segunda factura que vigilar",
+      "Requiere iniciar sesión con cuenta, algo que los puristas de la terminal rechazan",
+      "Max a 200 $/mes es caro si no ejecutas agentes todo el día",
+      "La telemetría y las funciones cloud generan dudas en entornos aislados"
+    ],
+    "fr": [
+      "Le système de crédits des agents maison ajoute une seconde facture à surveiller",
+      "Exige une connexion à un compte, ce que certains puristes du terminal refusent",
+      "Max à 200 $/mois est cher si vous ne faites pas tourner des agents toute la journée",
+      "La télémétrie et les fonctions cloud posent question en environnement isolé"
+    ]
+  },
+  "latestUpdate": {
+    "en": "2026: Warp 2.0 rebrands as an Agentic Development Environment uniting Code, Agents, Terminal and Drive; it now runs third-party agents (Claude Code, Codex, Gemini CLI) alongside its own Oz, with plans from free to $200/mo Max and a 25-seat Business tier",
+    "zh": "2026 年：Warp 2.0 改版为智能体开发环境（ADE），统合 Code、Agents、Terminal 与 Drive 四大板块；现可在自家 Oz 之外运行第三方智能体（Claude Code、Codex、Gemini CLI），价格从免费到 200 美元/月的 Max 版，另有 25 席的 Business 档",
+    "ja": "2026年：Warp 2.0はCode、Agents、Terminal、Driveを統合したエージェント開発環境（ADE）へ刷新。自社のOzに加えサードパーティエージェント（Claude Code、Codex、Gemini CLI）も実行可能に。無料から月額200ドルのMaxまで、25席のBusinessティアも用意",
+    "es": "2026: Warp 2.0 se reinventa como Entorno de Desarrollo Agéntico uniendo Code, Agents, Terminal y Drive; ahora ejecuta agentes de terceros (Claude Code, Codex, Gemini CLI) junto a su propio Oz, con planes desde gratis hasta Max de 200 $/mes y un nivel Business de 25 puestos",
+    "fr": "2026 : Warp 2.0 devient un Environnement de Développement Agentique réunissant Code, Agents, Terminal et Drive ; il exécute désormais des agents tiers (Claude Code, Codex, Gemini CLI) aux côtés de son propre Oz, avec des plans du gratuit au Max à 200 $/mois et une offre Business de 25 sièges"
+  },
+  "verdict": {
+    "badge": "Recommended",
+    "headline": {
+      "en": "The cockpit for the multi-agent era — and still the best terminal, free",
+      "zh": "多智能体时代的驾驶舱——同时还是最好的免费终端",
+      "ja": "マルチエージェント時代のコックピット——そして今も最高の無料ターミナル",
+      "es": "La cabina de mando de la era multiagente, y aún la mejor terminal gratis",
+      "fr": "Le cockpit de l'ère multi-agents — et toujours le meilleur terminal, gratuit"
+    },
+    "body": {
+      "en": "Warp made a shrewd bet: instead of fighting Claude Code and Codex, it became the place you run them. The free tier is an easy yes — you get the best terminal on any platform and can plug in AI subscriptions you already pay for. The harder question is Warp's own credit-metered agents, which add a second bill on top of your model subscriptions. Casual users may never need them; agent power users will burn through Build's 1,500 credits fast and face the $200 Max cliff. Treat the terminal as the product and the agents as an option, and Warp is close to unbeatable.",
+      "zh": "Warp 下了一步精明的棋：不跟 Claude Code、Codex 硬碰，而是变成运行它们的地方。免费版闭眼入——你能得到全平台最好的终端，还能接入你已经在付费的 AI 订阅。更难的问题是 Warp 自家按积分计量的智能体，等于在模型订阅之上又添一张账单。轻度用户可能永远用不上；智能体重度用户则会飞快烧完 Build 版的 1500 积分，直面 200 美元 Max 版的悬崖。把终端当产品、把智能体当选配，Warp 几乎无可匹敌。",
+      "ja": "Warpは賢い賭けに出た。Claude CodeやCodexと戦う代わりに、それらを動かす場所になったのだ。無料ティアは迷わずイエス——全プラットフォームで最高のターミナルが手に入り、既に契約中のAIサブスクを差し込める。悩ましいのはWarp自身のクレジット計量制エージェントで、モデルのサブスクに加えて2枚目の請求書が届く。ライトユーザーには不要かもしれないが、エージェントのヘビーユーザーはBuildの1,500クレジットをあっという間に使い切り、200ドルのMaxという崖に直面する。ターミナルを本体、エージェントをオプションと捉えれば、Warpはほぼ無敵だ。",
+      "es": "Warp hizo una apuesta astuta: en vez de pelear contra Claude Code y Codex, se convirtió en el lugar donde los ejecutas. El nivel gratuito es un sí fácil: obtienes la mejor terminal en cualquier plataforma y puedes conectar las suscripciones de IA que ya pagas. La cuestión difícil son los agentes propios de Warp medidos por créditos, que añaden una segunda factura sobre tus suscripciones de modelos. Los usuarios ocasionales quizá nunca los necesiten; los usuarios intensivos quemarán rápido los 1500 créditos de Build y se toparán con el precipicio del Max de 200 $. Trata la terminal como el producto y los agentes como opción, y Warp es casi imbatible.",
+      "fr": "Warp a fait un pari malin : au lieu d'affronter Claude Code et Codex, il est devenu l'endroit où on les exécute. Le niveau gratuit est un oui facile — vous obtenez le meilleur terminal toutes plateformes confondues et pouvez brancher les abonnements IA que vous payez déjà. La vraie question, ce sont les agents maison de Warp facturés en crédits, qui ajoutent une seconde facture à vos abonnements de modèles. Les utilisateurs occasionnels n'en auront peut-être jamais besoin ; les gros utilisateurs d'agents épuiseront vite les 1500 crédits de Build et se heurteront à la falaise du Max à 200 $. Considérez le terminal comme le produit et les agents comme une option, et Warp est presque imbattable."
+    },
+    "bestFor": {
+      "en": [
+        "Developers running multiple coding agents who want one control plane",
+        "Anyone wanting a dramatically better terminal at zero cost",
+        "Teams sharing workflows and environment context via Warp Drive"
+      ],
+      "zh": [
+        "跑多个编码智能体、想要统一控制台的开发者",
+        "想零成本获得体验飞跃的终端用户",
+        "用 Warp Drive 共享工作流与环境上下文的团队"
+      ],
+      "ja": [
+        "複数のコーディングエージェントを1つのコントロールプレーンで管理したい開発者",
+        "コストゼロで劇的に良いターミナルが欲しい全ての人",
+        "Warp Driveでワークフローと環境コンテキストを共有するチーム"
+      ],
+      "es": [
+        "Desarrolladores con varios agentes de codificación que quieren un solo panel de control",
+        "Cualquiera que quiera una terminal drásticamente mejor a coste cero",
+        "Equipos que comparten flujos y contexto de entorno vía Warp Drive"
+      ],
+      "fr": [
+        "Développeurs exécutant plusieurs agents de codage et voulant un plan de contrôle unique",
+        "Quiconque veut un terminal radicalement meilleur à coût nul",
+        "Équipes partageant workflows et contexte d'environnement via Warp Drive"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You just want one agent in your existing IDE (→ Cline, GitHub Copilot)",
+        "You need a fully offline, no-account terminal workflow (→ Aider)"
+      ],
+      "zh": [
+        "只想在现有 IDE 里用一个智能体（→ Cline、GitHub Copilot）",
+        "需要完全离线、无需账号的终端工作流（→ Aider）"
+      ],
+      "ja": [
+        "既存IDEでエージェントを1つ使えれば十分（→ Cline、GitHub Copilot）",
+        "完全オフライン・アカウント不要のターミナルワークフローが必要（→ Aider）"
+      ],
+      "es": [
+        "Solo quieres un agente en tu IDE actual (→ Cline, GitHub Copilot)",
+        "Necesitas un flujo de terminal totalmente offline y sin cuenta (→ Aider)"
+      ],
+      "fr": [
+        "Vous voulez juste un agent dans votre IDE actuel (→ Cline, GitHub Copilot)",
+        "Vous avez besoin d'un flux terminal entièrement hors ligne sans compte (→ Aider)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-27",
+    "verdictDate": "2026-07-27",
+    "pricingVerified": "2026-07-27"
+  }
+}

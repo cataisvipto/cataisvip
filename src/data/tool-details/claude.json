@@ -1,0 +1,270 @@
+{
+  "features": {
+    "en": [
+      "Claude Opus 4.6 flagship (1M context)",
+      "Computer Use desktop automation",
+      "Artifacts real-time code preview",
+      "Projects knowledge management",
+      "Multimodal understanding (text, image, video)",
+      "API integration and custom apps"
+    ],
+    "zh": [
+      "Claude Opus 4.6 旗舰模型（1M 上下文）",
+      "Computer Use 桌面自动化",
+      "Artifacts 实时代码预览",
+      "Projects 项目级知识管理",
+      "多模态理解（文本、图像、视频）",
+      "API 集成与自定义应用"
+    ],
+    "ja": [
+      "Claude Opus 4.6 フラッグシップ（1M コンテキスト）",
+      "Computer Use デスクトップ自動化",
+      "Artifacts リアルタイムコードプレビュー",
+      "Projects ナレッジ管理",
+      "マルチモーダル理解（テキスト・画像・動画）",
+      "API 統合とカスタムアプリ"
+    ],
+    "es": [
+      "Buque insignia Claude Opus 4.6 (contexto de 1M)",
+      "Automatización de escritorio Computer Use",
+      "Vista previa de código en tiempo real con Artifacts",
+      "Gestión del conocimiento con Projects",
+      "Comprensión multimodal (texto, imagen, vídeo)",
+      "Integración de API y apps personalizadas"
+    ],
+    "fr": [
+      "Modèle phare Claude Opus 4.6 (contexte 1M)",
+      "Automatisation du bureau Computer Use",
+      "Aperçu de code en temps réel Artifacts",
+      "Gestion des connaissances Projects",
+      "Compréhension multimodale (texte, image, vidéo)",
+      "Intégration API et applis personnalisées"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Basic conversation",
+      "zh": "基础对话功能",
+      "ja": "基本的な会話機能",
+      "es": "Conversación básica",
+      "fr": "Conversation de base"
+    },
+    "pro": {
+      "en": "$20/month (Claude Opus 4.6, advanced)",
+      "zh": "$20/月（Claude Opus 4.6、高级功能）",
+      "ja": "月額20ドル（Claude Opus 4.6、高度な機能）",
+      "es": "20 $/mes (Claude Opus 4.6, avanzado)",
+      "fr": "20 $/mois (Claude Opus 4.6, avancé)"
+    },
+    "max": {
+      "en": "$100–200/month (Max, higher usage)",
+      "zh": "$100–200/月（Max、更高用量）",
+      "ja": "月額100〜200ドル（Max、高い利用量）",
+      "es": "100–200 $/mes (Max, mayor uso)",
+      "fr": "100–200 $/mois (Max, usage supérieur)"
+    },
+    "team": {
+      "en": "$25/user/month (team)",
+      "zh": "$25/人/月（团队协作）",
+      "ja": "1ユーザー月額25ドル（チーム）",
+      "es": "25 $/usuario/mes (equipo)",
+      "fr": "25 $/utilisateur/mois (équipe)"
+    },
+    "enterprise": {
+      "en": "Custom pricing (enterprise)",
+      "zh": "定制价格（企业级）",
+      "ja": "カスタム料金（エンタープライズ）",
+      "es": "Precio personalizado (empresa)",
+      "fr": "Tarif personnalisé (entreprise)"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Long document analysis",
+      "Code development and review",
+      "Creative writing",
+      "Data analysis and reports",
+      "Research and academic writing",
+      "Automated task processing"
+    ],
+    "zh": [
+      "长文档分析与总结",
+      "代码开发与审查",
+      "创意写作与内容生成",
+      "数据分析与报告",
+      "研究与学术写作",
+      "自动化任务处理"
+    ],
+    "ja": [
+      "長文ドキュメント分析",
+      "コード開発とレビュー",
+      "クリエイティブライティング",
+      "データ分析とレポート",
+      "研究・学術論文の執筆",
+      "タスクの自動処理"
+    ],
+    "es": [
+      "Análisis de documentos largos",
+      "Desarrollo y revisión de código",
+      "Escritura creativa",
+      "Análisis de datos e informes",
+      "Investigación y redacción académica",
+      "Procesamiento automatizado de tareas"
+    ],
+    "fr": [
+      "Analyse de documents longs",
+      "Développement et revue de code",
+      "Écriture créative",
+      "Analyse de données et rapports",
+      "Recherche et rédaction académique",
+      "Traitement automatisé des tâches"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Ultra-long context processing",
+      "High-quality code generation",
+      "Strong security and compliance",
+      "Computer Use automation"
+    ],
+    "zh": [
+      "超长上下文处理能力",
+      "代码生成质量高",
+      "安全性与合规性强",
+      "Computer Use 自动化能力"
+    ],
+    "ja": [
+      "超長文コンテキストの処理",
+      "高品質なコード生成",
+      "強固なセキュリティとコンプライアンス",
+      "Computer Use による自動化"
+    ],
+    "es": [
+      "Procesamiento de contexto ultralargo",
+      "Generación de código de alta calidad",
+      "Sólida seguridad y cumplimiento",
+      "Automatización con Computer Use"
+    ],
+    "fr": [
+      "Traitement de contexte ultra-long",
+      "Génération de code de haute qualité",
+      "Sécurité et conformité solides",
+      "Automatisation Computer Use"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Limited free version",
+      "Weaker image generation",
+      "Some features Pro-only"
+    ],
+    "zh": [
+      "免费版限制较多",
+      "图像生成能力较弱",
+      "部分功能仅限 Pro"
+    ],
+    "ja": [
+      "無料版は制限が多い",
+      "画像生成は比較的弱い",
+      "一部機能は Pro 限定"
+    ],
+    "es": [
+      "Versión gratuita limitada",
+      "Generación de imágenes más débil",
+      "Algunas funciones solo en Pro"
+    ],
+    "fr": [
+      "Version gratuite limitée",
+      "Génération d'images plus faible",
+      "Certaines fonctions réservées à Pro"
+    ]
+  },
+  "latestUpdate": {
+    "en": "2026: Claude Opus 4.6 and Sonnet 5 released — 1M context, Computer Use 2.0, and state-of-the-art coding (Sonnet 5 launch pricing $2/$10 per MTok)",
+    "zh": "2026年：Claude Opus 4.6 与 Sonnet 5 发布——支持 1M 上下文、Computer Use 2.0 和顶级编码能力（Sonnet 5 首发价 $2/$10 每百万 tokens）",
+    "ja": "2026年：Claude Opus 4.6 と Sonnet 5 を発表——1M コンテキスト、Computer Use 2.0、最先端のコーディング能力（Sonnet 5 の初期価格は 100万トークンあたり $2/$10）",
+    "es": "2026: se lanzan Claude Opus 4.6 y Sonnet 5: contexto de 1M, Computer Use 2.0 y codificación de vanguardia (precio de lanzamiento de Sonnet 5: 2/10 $ por MTok)",
+    "fr": "2026 : lancement de Claude Opus 4.6 et Sonnet 5 — contexte 1M, Computer Use 2.0 et codage de pointe (tarif de lancement de Sonnet 5 : 2/10 $ par MTok)"
+  },
+  "verdict": {
+    "badge": "Highly Recommended",
+    "headline": {
+      "en": "The strongest choice when reasoning depth, safety, and long-context accuracy matter most.",
+      "zh": "当推理深度、安全性和长文本准确性最重要时的最强选择。",
+      "ja": "推論の深さ、安全性、長文脈の正確さが最も重要な場合の最強の選択肢。",
+      "es": "La mejor opción cuando la profundidad de razonamiento, seguridad y precisión en contexto largo importan más.",
+      "fr": "Le meilleur choix quand la profondeur de raisonnement, la sécurité et la précision en long contexte comptent le plus."
+    },
+    "body": {
+      "en": "Claude distinguishes itself through careful, nuanced reasoning and an unusually strong ability to handle very long documents without losing coherence. It tends to produce more structured, well-organized responses than most competitors, making it particularly effective for complex analysis, research synthesis, and code architecture decisions.\n\nThe 1M token context window is genuinely useful—not just a marketing number. You can feed entire codebases, long legal documents, or research paper collections and get meaningful synthesis. The Artifacts feature also provides a smooth workflow for iterating on code and documents in real-time.\n\nThe main trade-off is ecosystem breadth. Claude lacks the plugin marketplace, image generation, and deep third-party integrations that ChatGPT offers. If you need an all-in-one Swiss army knife, ChatGPT still covers more ground. Claude is best when quality of thought matters more than quantity of features.",
+      "zh": "Claude 的核心差异化在于审慎、细致的推理能力，以及处理超长文档时不丢失连贯性的出色表现。它的回答通常比竞品更有结构、更有条理，在复杂分析、研究综合和代码架构决策方面尤为有效。\n\n1M token 的上下文窗口不只是营销数字——你可以输入整个代码库、长篇法律文档或研究论文集，获得有意义的综合分析。Artifacts 功能也提供了流畅的实时代码和文档迭代工作流。\n\n主要权衡在于生态广度。Claude 缺乏 ChatGPT 的插件市场、图像生成和深度第三方集成。如果你需要一把万能瑞士军刀，ChatGPT 覆盖面更广。Claude 最适合思考质量比功能数量更重要的场景。",
+      "ja": "Claudeの核心的な差別化は、慎重で繊細な推論能力と、非常に長い文書を扱っても一貫性を失わない優れた能力にあります。競合より構造化された回答を生成する傾向があり、複雑な分析、研究の統合、コードアーキテクチャの決定に特に効果的です。\n\n1Mトークンのコンテキストウィンドウは単なるマーケティング数字ではありません。コードベース全体、長い法的文書、研究論文コレクションを入力して、意味のある統合を得ることができます。Artifacts機能はコードとドキュメントのリアルタイム反復のためのスムーズなワークフローも提供します。\n\n主なトレードオフはエコシステムの幅です。ClaudeにはChatGPTが提供するプラグインマーケットプレイス、画像生成、深いサードパーティ統合がありません。万能ツールが必要なら、ChatGPTの方がカバー範囲が広いです。Claudeは機能の数より思考の質が重要な場合に最適です。",
+      "es": "Claude se distingue por su razonamiento cuidadoso y matizado, y una capacidad inusualmente fuerte para manejar documentos muy largos sin perder coherencia. Tiende a producir respuestas más estructuradas que la competencia, siendo particularmente efectivo para análisis complejos, síntesis de investigación y decisiones de arquitectura de código.\n\nLa ventana de contexto de 1M tokens es genuinamente útil. Puedes alimentar bases de código completas, documentos legales extensos o colecciones de papers y obtener síntesis significativas. La función Artifacts también proporciona un flujo de trabajo fluido para iterar en código y documentos en tiempo real.\n\nLa principal concesión es la amplitud del ecosistema. Claude carece del marketplace de plugins, generación de imágenes e integraciones profundas de terceros que ofrece ChatGPT. Si necesitas una navaja suiza todo-en-uno, ChatGPT cubre más terreno. Claude es mejor cuando la calidad del pensamiento importa más que la cantidad de funciones.",
+      "fr": "Claude se distingue par un raisonnement soigné et nuancé, et une capacité remarquable à traiter de très longs documents sans perdre en cohérence. Il tend à produire des réponses plus structurées que ses concurrents, le rendant particulièrement efficace pour l'analyse complexe, la synthèse de recherche et les décisions d'architecture de code.\n\nLa fenêtre de contexte de 1M tokens est réellement utile. Vous pouvez soumettre des bases de code entières, de longs documents juridiques ou des collections de papiers de recherche et obtenir une synthèse pertinente. La fonction Artifacts offre également un workflow fluide pour itérer sur le code et les documents en temps réel.\n\nLe principal compromis est l'étendue de l'écosystème. Claude ne dispose pas du marketplace de plugins, de la génération d'images et des intégrations tierces profondes qu'offre ChatGPT. Si vous avez besoin d'un couteau suisse tout-en-un, ChatGPT couvre plus de terrain. Claude excelle quand la qualité de réflexion importe plus que la quantité de fonctionnalités."
+    },
+    "bestFor": {
+      "en": [
+        "Complex reasoning and analytical tasks",
+        "Processing very long documents (legal, research, code)",
+        "Code architecture and refactoring decisions",
+        "Users who value structured, well-sourced responses"
+      ],
+      "zh": [
+        "复杂推理与分析任务",
+        "处理超长文档（法律、研究、代码）",
+        "代码架构与重构决策",
+        "重视结构化、有据可查回答的用户"
+      ],
+      "ja": [
+        "複雑な推論と分析タスク",
+        "超長文書の処理（法律、研究、コード）",
+        "コードアーキテクチャとリファクタリングの決定",
+        "構造化された根拠ある回答を重視するユーザー"
+      ],
+      "es": [
+        "Tareas complejas de razonamiento y análisis",
+        "Procesamiento de documentos muy largos (legal, investigación, código)",
+        "Decisiones de arquitectura y refactorización de código",
+        "Usuarios que valoran respuestas estructuradas y bien fundamentadas"
+      ],
+      "fr": [
+        "Tâches complexes de raisonnement et d'analyse",
+        "Traitement de très longs documents (juridique, recherche, code)",
+        "Décisions d'architecture et de refactoring de code",
+        "Utilisateurs qui valorisent des réponses structurées et sourcées"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You need image generation, plugins, or broad third-party integrations (→ ChatGPT)",
+        "You want a free-tier AI for casual daily use (→ ChatGPT, Gemini)",
+        "You need real-time web search built into every response (→ Perplexity)"
+      ],
+      "zh": [
+        "你需要图像生成、插件或广泛的第三方集成（→ ChatGPT）",
+        "你需要免费的日常轻度使用（→ ChatGPT、Gemini）",
+        "你需要每个回答都内置实时网络搜索（→ Perplexity）"
+      ],
+      "ja": [
+        "画像生成、プラグイン、広範なサードパーティ統合が必要な場合（→ ChatGPT）",
+        "日常的なカジュアル利用で無料枠が必要な場合（→ ChatGPT、Gemini）",
+        "全回答にリアルタイムWeb検索が必要な場合（→ Perplexity）"
+      ],
+      "es": [
+        "Necesitas generación de imágenes, plugins o integraciones amplias (→ ChatGPT)",
+        "Quieres una IA gratuita para uso diario casual (→ ChatGPT, Gemini)",
+        "Necesitas búsqueda web en tiempo real en cada respuesta (→ Perplexity)"
+      ],
+      "fr": [
+        "Vous avez besoin de génération d'images, de plugins ou d'intégrations larges (→ ChatGPT)",
+        "Vous voulez une IA gratuite pour un usage quotidien léger (→ ChatGPT, Gemini)",
+        "Vous avez besoin de recherche web en temps réel dans chaque réponse (→ Perplexity)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-27",
+    "verdictDate": "2026-07-27",
+    "pricingVerified": "2026-07-27"
+  }
+}

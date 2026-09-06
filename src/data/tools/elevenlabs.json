@@ -1,0 +1,29 @@
+{
+  "slug": "elevenlabs",
+  "name": "ElevenLabs",
+  "nameZh": "ElevenLabs",
+  "description": "领先的 AI 语音合成和克隆平台，支持多语言",
+  "descriptionEn": "Leading AI voice synthesis and cloning platform with multi-language support",
+  "descriptionJa": "リーディングなAI音声合成・クローンプラットフォーム。多言語対応",
+  "descriptionEs": "Plataforma líder de síntesis y clonación de voz IA con soporte multilingüe",
+  "descriptionFr": "Plateforme leader de synthèse et de clonage vocal IA avec support multilingue",
+  "url": "https://elevenlabs.io",
+  "logo": "/logos/tools/elevenlabs.png",
+  "category": "Audio",
+  "tags": [
+    "Freemium",
+    "API"
+  ],
+  "featured": true,
+  "developer": "ElevenLabs",
+  "platforms": {
+    "web": true,
+    "windows": false,
+    "macos": false,
+    "ios": true,
+    "android": true,
+    "linux": false,
+    "browser_extension": false,
+    "api": true
+  }
+}

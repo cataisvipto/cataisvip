@@ -1,0 +1,29 @@
+{
+  "slug": "fal-ai",
+  "name": "Fal.ai",
+  "nameZh": "Fal.ai",
+  "description": "生成媒体专精推理平台，1000+ 图像/视频/语音模型（FLUX、Seedream、可灵等）一个 API 调用，速度极快按量付费，还有免费额度",
+  "descriptionEn": "Inference platform specialized in generative media: 1000+ image, video and voice models (FLUX, Seedream, Kling and more) behind one API. Blazing fast, pay-per-use with a free tier",
+  "descriptionJa": "生成メディア特化の推論プラットフォーム。FLUX、Seedream、Klingなど1000以上の画像・動画・音声モデルを単一APIで呼び出し。高速・従量課金で無料枠あり",
+  "descriptionEs": "Plataforma de inferencia especializada en medios generativos: más de 1000 modelos de imagen, video y voz (FLUX, Seedream, Kling y más) tras una sola API. Ultrarrápida, pago por uso y con capa gratuita",
+  "descriptionFr": "Plateforme d'inférence spécialisée dans les médias génératifs : plus de 1000 modèles d'image, vidéo et voix (FLUX, Seedream, Kling…) derrière une seule API. Ultra-rapide, paiement à l'usage avec offre gratuite",
+  "url": "https://fal.ai",
+  "logo": "/logos/tools/fal-ai.png",
+  "category": "API Platform",
+  "tags": [
+    "Freemium",
+    "API"
+  ],
+  "featured": false,
+  "developer": "fal",
+  "platforms": {
+    "web": true,
+    "windows": false,
+    "macos": false,
+    "ios": false,
+    "android": false,
+    "linux": false,
+    "browser_extension": false,
+    "api": true
+  }
+}

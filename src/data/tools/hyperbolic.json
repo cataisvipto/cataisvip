@@ -1,0 +1,29 @@
+{
+  "slug": "hyperbolic",
+  "name": "Hyperbolic",
+  "nameZh": "Hyperbolic",
+  "description": "面向开发者的低成本 AI 云，OpenAI 兼容 API 调用 Llama、Qwen、DeepSeek 等开源模型价格远低于闭源，另可按需租 H100 级 GPU，费率透明前置，已服务 25 万+ 开发者",
+  "descriptionEn": "Low-cost AI cloud for developers: an OpenAI-compatible API for open models like Llama, Qwen and DeepSeek priced far below closed models, plus on-demand H100-class GPU rental with transparent up-front rates; 250k+ developers",
+  "descriptionJa": "開発者向けの低コストAIクラウド。OpenAI互換APIでLlama・Qwen・DeepSeekなどのオープンモデルをクローズドモデルよりはるかに安く、加えてH100クラスGPUをオンデマンドで、料率は透明で前払い。25万人超の開発者が利用",
+  "descriptionEs": "Nube de IA de bajo coste para desarrolladores: una API compatible con OpenAI para modelos abiertos como Llama, Qwen y DeepSeek a precios muy por debajo de los cerrados, más alquiler de GPU clase H100 bajo demanda con tarifas transparentes; más de 250 000 desarrolladores",
+  "descriptionFr": "Cloud IA à faible coût pour développeurs : une API compatible OpenAI pour des modèles ouverts comme Llama, Qwen et DeepSeek à des prix bien inférieurs aux modèles fermés, plus la location de GPU de classe H100 à la demande avec des tarifs transparents ; plus de 250 000 développeurs",
+  "url": "https://www.hyperbolic.ai",
+  "logo": "/logos/tools/hyperbolic.png",
+  "category": "API Platform",
+  "tags": [
+    "Freemium",
+    "API"
+  ],
+  "featured": false,
+  "developer": "Hyperbolic",
+  "platforms": {
+    "web": true,
+    "windows": false,
+    "macos": false,
+    "ios": false,
+    "android": false,
+    "linux": false,
+    "browser_extension": false,
+    "api": true
+  }
+}

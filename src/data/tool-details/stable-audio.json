@@ -1,0 +1,235 @@
+{
+  "features": {
+    "en": [
+      "Text-to-audio generation for full music tracks, stems and sound effects",
+      "Stable Audio 2.5 powers the product with fast, high-quality generation",
+      "Stable Audio Open 3.0 model trained on fully licensed data",
+      "Audio-to-audio: upload a clip and transform or extend it",
+      "Structured tracks with intro, development and outro, up to minutes long",
+      "Backed by Stability AI, the team behind Stable Diffusion"
+    ],
+    "zh": [
+      "文本生成音频：完整音乐曲目、分轨与音效",
+      "产品由 Stable Audio 2.5 驱动，生成快、质量高",
+      "Stable Audio Open 3.0 模型以完全授权数据训练",
+      "音频到音频：上传片段即可变换或续写",
+      "生成有前奏、发展与尾声结构的曲目，时长可达数分钟",
+      "背靠 Stability AI——Stable Diffusion 背后的团队"
+    ],
+    "ja": [
+      "フル楽曲・ステム・効果音のテキストからのオーディオ生成",
+      "製品は高速かつ高品質な生成のStable Audio 2.5が駆動",
+      "完全にライセンスされたデータで学習したStable Audio Open 3.0モデル",
+      "オーディオ・トゥ・オーディオ：クリップをアップロードして変換や延長が可能",
+      "イントロ・展開・アウトロを持つ構造化された楽曲を数分の長さまで生成",
+      "Stable Diffusionを生んだチーム、Stability AIが支える"
+    ],
+    "es": [
+      "Generación de audio a partir de texto: pistas musicales completas, stems y efectos de sonido",
+      "Stable Audio 2.5 impulsa el producto con generación rápida y de alta calidad",
+      "Modelo Stable Audio Open 3.0 entrenado con datos totalmente licenciados",
+      "Audio a audio: sube un clip y transfórmalo o extiéndelo",
+      "Pistas estructuradas con intro, desarrollo y final, de hasta varios minutos",
+      "Respaldado por Stability AI, el equipo detrás de Stable Diffusion"
+    ],
+    "fr": [
+      "Génération audio à partir de texte : morceaux complets, stems et effets sonores",
+      "Stable Audio 2.5 propulse le produit avec une génération rapide et de haute qualité",
+      "Modèle Stable Audio Open 3.0 entraîné sur des données entièrement sous licence",
+      "Audio vers audio : téléversez un clip pour le transformer ou le prolonger",
+      "Morceaux structurés avec intro, développement et outro, jusqu'à plusieurs minutes",
+      "Soutenu par Stability AI, l'équipe derrière Stable Diffusion"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "A free tier lets you generate a limited number of tracks per month under a personal, non-commercial license — enough to test the sound before subscribing.",
+      "zh": "免费档每月可在个人非商用许可下生成有限数量的曲目——订阅前足以试听效果。",
+      "ja": "無料枠では、個人・非商用ライセンスの下で月に限られた数のトラックを生成可能——購読前に音を試すには十分。",
+      "es": "Un nivel gratuito permite generar un número limitado de pistas al mes bajo una licencia personal no comercial, suficiente para probar el sonido antes de suscribirse.",
+      "fr": "Un niveau gratuit permet de générer un nombre limité de morceaux par mois sous licence personnelle non commerciale — assez pour tester le son avant de s'abonner."
+    },
+    "paid": {
+      "en": "Subscriptions unlock commercial use and volume: Pro is about $11.99/month for ~250 tracks, Studio raises that to ~750 tracks, and Max to ~2,500 tracks per month, with longer generations and priority processing on higher tiers; an API is available for developers. (Verified against the official pricing page, 2026-07-28.)",
+      "zh": "订阅解锁商用与更大用量：Pro 约 $11.99/月约 250 首，Studio 提至约 750 首，Max 约 2500 首/月，高档位支持更长生成与优先处理；另有面向开发者的 API。（对照官方定价页核实，2026-07-28。）",
+      "ja": "サブスクで商用利用とボリュームを解放：Proは約$11.99/月で約250トラック、Studioは約750トラック、Maxは月約2,500トラックまで。上位ティアではより長い生成と優先処理に対応。開発者向けAPIも利用可能。（公式価格ページと照合、2026-07-28。）",
+      "es": "Las suscripciones desbloquean uso comercial y volumen: Pro cuesta unos $11.99/mes por ~250 pistas, Studio sube a ~750 pistas y Max a ~2500 pistas al mes, con generaciones más largas y procesamiento prioritario en los niveles superiores; hay una API disponible para desarrolladores. (Verificado con la página oficial de precios, 2026-07-28.)",
+      "fr": "Les abonnements débloquent l'usage commercial et le volume : Pro à environ 11,99 $/mois pour ~250 morceaux, Studio monte à ~750 morceaux et Max à ~2 500 morceaux par mois, avec des générations plus longues et un traitement prioritaire aux niveaux supérieurs ; une API est disponible pour les développeurs. (Vérifié avec la page tarifaire officielle, 2026-07-28.)"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Generating background music for videos, podcasts and games",
+      "Producing royalty-clear sound effects for apps and media",
+      "Sketching musical ideas and stems for further production in a DAW",
+      "Creators who need commercial-safe audio trained on licensed data"
+    ],
+    "zh": [
+      "为视频、播客与游戏生成背景音乐",
+      "为应用与媒体制作无版权纠纷的音效",
+      "起草音乐灵感与分轨，再进 DAW 深加工",
+      "需要以授权数据训练、商用安心的音频的创作者"
+    ],
+    "ja": [
+      "動画・ポッドキャスト・ゲーム用のBGM生成",
+      "アプリやメディア向けの権利面でクリアな効果音制作",
+      "楽曲アイデアやステムをスケッチしてDAWでさらに制作",
+      "ライセンス済みデータで学習した商用安全なオーディオが必要なクリエイター"
+    ],
+    "es": [
+      "Generar música de fondo para videos, pódcasts y juegos",
+      "Producir efectos de sonido libres de regalías para apps y medios",
+      "Esbozar ideas musicales y stems para seguir produciendo en un DAW",
+      "Creadores que necesitan audio seguro para uso comercial entrenado con datos licenciados"
+    ],
+    "fr": [
+      "Générer de la musique de fond pour vidéos, podcasts et jeux",
+      "Produire des effets sonores libres de droits pour applis et médias",
+      "Esquisser des idées musicales et des stems à retravailler dans un DAW",
+      "Créateurs ayant besoin d'un audio sûr commercialement, entraîné sur des données licenciées"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Trained on fully licensed data — a real answer to music copyright anxiety",
+      "Strong at instrumental music, stems and sound effects, not just songs",
+      "Audio-to-audio transformation sets it apart from lyric-first rivals",
+      "Clear subscription tiers with commercial rights spelled out"
+    ],
+    "zh": [
+      "以完全授权数据训练——真正回应音乐版权焦虑",
+      "擅长器乐、分轨与音效，不只做整首歌",
+      "音频到音频的变换能力，有别于以歌词为先的对手",
+      "订阅档位清晰，商用权利写得明明白白"
+    ],
+    "ja": [
+      "完全ライセンス済みデータで学習——音楽著作権の不安への本当の答え",
+      "歌だけでなくインスト音楽・ステム・効果音に強い",
+      "オーディオ・トゥ・オーディオ変換が歌詞優先のライバルとの違い",
+      "商用権が明記された分かりやすいサブスク階層"
+    ],
+    "es": [
+      "Entrenado con datos totalmente licenciados: una respuesta real a la ansiedad por los derechos musicales",
+      "Fuerte en música instrumental, stems y efectos de sonido, no solo canciones",
+      "La transformación audio a audio lo distingue de rivales centrados en letras",
+      "Niveles de suscripción claros con derechos comerciales bien definidos"
+    ],
+    "fr": [
+      "Entraîné sur des données entièrement licenciées — une vraie réponse à l'angoisse du droit d'auteur musical",
+      "Fort en musique instrumentale, stems et effets sonores, pas seulement en chansons",
+      "La transformation audio vers audio le distingue des rivaux centrés sur les paroles",
+      "Niveaux d'abonnement clairs avec droits commerciaux explicites"
+    ]
+  },
+  "cons": {
+    "en": [
+      "No vocal/lyric generation to rival Suno or Udio's full songs",
+      "Free tier is personal-use only — commercial work requires a subscription",
+      "Track quality can vary; complex prompts sometimes miss the brief",
+      "Stability AI's past financial turbulence invites questions about longevity"
+    ],
+    "zh": [
+      "没有人声/歌词生成，比不了 Suno、Udio 的完整歌曲",
+      "免费档仅限个人使用——商用需订阅",
+      "曲目质量有波动；复杂提示词偶尔跑题",
+      "Stability AI 过往的财务动荡让人担心其长期性"
+    ],
+    "ja": [
+      "SunoやUdioのフルソングに対抗するボーカル／歌詞生成はない",
+      "無料枠は個人利用のみ——商用には購読が必要",
+      "トラック品質にばらつきがあり、複雑なプロンプトは時に意図を外す",
+      "Stability AIの過去の財務混乱は存続性への疑問を招く"
+    ],
+    "es": [
+      "Sin generación vocal/de letras que rivalice con las canciones completas de Suno o Udio",
+      "El nivel gratuito es solo para uso personal: el trabajo comercial requiere suscripción",
+      "La calidad de las pistas puede variar; los prompts complejos a veces no dan en el blanco",
+      "Las turbulencias financieras pasadas de Stability AI generan dudas sobre su longevidad"
+    ],
+    "fr": [
+      "Pas de génération vocale/de paroles pour rivaliser avec les chansons complètes de Suno ou Udio",
+      "Le niveau gratuit est réservé à un usage personnel — le travail commercial nécessite un abonnement",
+      "La qualité des morceaux peut varier ; les prompts complexes manquent parfois la cible",
+      "Les turbulences financières passées de Stability AI soulèvent des questions de pérennité"
+    ]
+  },
+  "latestUpdate": {
+    "en": "2026: Stable Audio 2.5 powers the product with faster, higher-quality generation, while the openly released Stable Audio Open 3.0 — trained on fully licensed data — reinforces Stability AI's licensing-first pitch for commercial-safe music and sound effects.",
+    "zh": "2026 年：产品由 Stable Audio 2.5 驱动，生成更快、质量更高；同时公开发布的 Stable Audio Open 3.0 以完全授权数据训练，强化了 Stability AI「授权优先」的商用安心音乐与音效卖点。",
+    "ja": "2026年：製品はより高速で高品質な生成のStable Audio 2.5が駆動し、完全ライセンス済みデータで学習して公開されたStable Audio Open 3.0が、商用安全な音楽と効果音に向けたStability AIのライセンス優先の訴求を強化している。",
+    "es": "2026: Stable Audio 2.5 impulsa el producto con generación más rápida y de mayor calidad, mientras que Stable Audio Open 3.0, lanzado abiertamente y entrenado con datos totalmente licenciados, refuerza la propuesta de Stability AI centrada en licencias para música y efectos de sonido seguros comercialmente.",
+    "fr": "2026 : Stable Audio 2.5 propulse le produit avec une génération plus rapide et de meilleure qualité, tandis que Stable Audio Open 3.0, publié ouvertement et entraîné sur des données entièrement licenciées, renforce le discours licence d'abord de Stability AI pour une musique et des effets sonores sûrs commercialement."
+  },
+  "verdict": {
+    "badge": "Recommended",
+    "headline": {
+      "en": "The copyright-safe way to generate music and sound effects",
+      "zh": "生成音乐与音效的版权安全之选",
+      "ja": "音楽と効果音を生成する著作権的に安全な道",
+      "es": "La forma segura en derechos de autor de generar música y efectos de sonido",
+      "fr": "La voie sûre côté droits d'auteur pour générer musique et effets sonores"
+    },
+    "body": {
+      "en": "The AI music gold rush has a legal cloud hanging over it: most headline generators are fighting lawsuits over what they trained on. Stable Audio's quiet superpower is that it sidesteps the whole mess — its models are trained on fully licensed data, and the openly released Stable Audio Open 3.0 doubles down on that stance. In practice, the product (powered by Stable Audio 2.5) is excellent at what working creators actually need most: instrumental beds for videos and podcasts, game-ready sound effects, stems to drag into a DAW, and audio-to-audio transformations of clips you already have. What it deliberately doesn't do is sing — there's no vocal or lyric generation, so anyone chasing a radio-ready pop song will be happier with Suno or Udio and their murkier legal position. The free tier is personal-use only, but paid tiers from about $11.99/month spell out commercial rights clearly, which is exactly what professional users need. Quality can wobble on complex prompts, and Stability AI's rocky corporate history is worth a glance. Still, for commercial-safe music and SFX, this is the cleanest choice in the category.",
+      "zh": "AI 音乐的淘金热头顶悬着一朵法律乌云：多数明星生成器都在为训练数据吃官司。Stable Audio 安静的超能力在于绕开了整摊麻烦——它的模型以完全授权数据训练，公开发布的 Stable Audio Open 3.0 更是把这一立场加倍。实际用起来，这款由 Stable Audio 2.5 驱动的产品在职业创作者最需要的地方表现出色：视频与播客的器乐铺底、游戏可用的音效、可拖进 DAW 的分轨，以及对已有片段的音频到音频变换。它刻意不做的事是「唱歌」——没有人声与歌词生成，想要一首电台级流行歌的人，去找 Suno 或 Udio（以及它们更浑浊的法律处境）会更开心。免费档仅限个人使用，但约 $11.99/月起的付费档把商用权利写得清清楚楚——这正是专业用户需要的。复杂提示词下质量会波动，Stability AI 坎坷的公司史也值得瞄一眼。即便如此，论商用安心的音乐与音效，它仍是这个品类里最干净的选择。",
+      "ja": "AI音楽のゴールドラッシュには法的な暗雲が垂れ込めている。話題の生成サービスの多くは、学習データをめぐる訴訟を抱えているのだ。Stable Audioの静かな超能力は、その混乱を丸ごと回避していることにある。モデルは完全にライセンスされたデータで学習され、公開されたStable Audio Open 3.0はその姿勢をさらに強めた。実際のところ、Stable Audio 2.5が駆動するこの製品は、働くクリエイターが最も必要とするもの——動画やポッドキャスト用のインスト楽曲、ゲームで使える効果音、DAWに持ち込めるステム、手持ちクリップのオーディオ・トゥ・オーディオ変換——に優れている。意図的にやらないのは「歌うこと」だ。ボーカルや歌詞の生成はないので、ラジオで流れるようなポップソングを求める人は、SunoやUdio（とその不透明な法的立場）のほうが幸せだろう。無料枠は個人利用のみだが、約$11.99/月からの有料枠は商用権を明確に記しており、プロのユーザーにはまさに必要なものだ。複雑なプロンプトでは品質が揺れることがあり、Stability AIの波乱含みの企業史も一瞥の価値がある。それでも、商用安全な音楽と効果音という点では、このカテゴリで最もクリーンな選択だ。",
+      "es": "La fiebre del oro de la música con IA tiene una nube legal encima: la mayoría de los generadores estrella pelean demandas por sus datos de entrenamiento. El superpoder silencioso de Stable Audio es que esquiva todo ese lío: sus modelos se entrenan con datos totalmente licenciados, y el abiertamente publicado Stable Audio Open 3.0 refuerza esa postura. En la práctica, el producto (impulsado por Stable Audio 2.5) es excelente en lo que los creadores profesionales más necesitan: bases instrumentales para videos y pódcasts, efectos de sonido listos para juegos, stems para arrastrar a un DAW y transformaciones audio a audio de clips que ya tienes. Lo que deliberadamente no hace es cantar: no hay generación vocal ni de letras, así que quien busque una canción pop lista para la radio será más feliz con Suno o Udio y su posición legal más turbia. El nivel gratuito es solo para uso personal, pero los niveles de pago desde unos $11.99/mes detallan claramente los derechos comerciales, exactamente lo que los usuarios profesionales necesitan. La calidad puede tambalear con prompts complejos, y la agitada historia corporativa de Stability AI merece un vistazo. Aun así, para música y efectos seguros comercialmente, es la opción más limpia de la categoría.",
+      "fr": "La ruée vers l'or de la musique IA vit sous un nuage juridique : la plupart des générateurs vedettes se battent en justice sur leurs données d'entraînement. Le superpouvoir discret de Stable Audio est d'esquiver tout ce désordre — ses modèles sont entraînés sur des données entièrement licenciées, et Stable Audio Open 3.0, publié ouvertement, renforce cette position. En pratique, le produit (propulsé par Stable Audio 2.5) excelle dans ce dont les créateurs professionnels ont le plus besoin : des nappes instrumentales pour vidéos et podcasts, des effets sonores prêts pour le jeu vidéo, des stems à glisser dans un DAW, et des transformations audio vers audio de clips existants. Ce qu'il ne fait délibérément pas, c'est chanter — pas de génération vocale ni de paroles, donc quiconque cherche une chanson pop prête pour la radio sera plus heureux avec Suno ou Udio et leur position juridique plus trouble. Le niveau gratuit est réservé à l'usage personnel, mais les niveaux payants dès environ 11,99 $/mois précisent clairement les droits commerciaux — exactement ce dont les professionnels ont besoin. La qualité peut vaciller sur des prompts complexes, et l'histoire mouvementée de Stability AI mérite un coup d'œil. Malgré tout, pour de la musique et des SFX sûrs commercialement, c'est le choix le plus propre de la catégorie."
+    },
+    "bestFor": {
+      "en": [
+        "Creators needing commercial-safe background music and sound effects",
+        "Video, podcast and game makers who want royalty-clear audio",
+        "Producers sketching instrumental ideas and stems for a DAW"
+      ],
+      "zh": [
+        "需要商用安心背景音乐与音效的创作者",
+        "想要无版权纠纷音频的视频、播客与游戏制作者",
+        "起草器乐灵感与分轨、再进 DAW 深加工的制作人"
+      ],
+      "ja": [
+        "商用安全なBGMと効果音が必要なクリエイター",
+        "権利面でクリアなオーディオが欲しい動画・ポッドキャスト・ゲーム制作者",
+        "インストのアイデアやステムをスケッチしてDAWで仕上げるプロデューサー"
+      ],
+      "es": [
+        "Creadores que necesitan música de fondo y efectos de sonido seguros comercialmente",
+        "Creadores de video, pódcast y juegos que quieren audio libre de regalías",
+        "Productores que esbozan ideas instrumentales y stems para un DAW"
+      ],
+      "fr": [
+        "Créateurs ayant besoin de musique de fond et d'effets sonores sûrs commercialement",
+        "Créateurs de vidéos, podcasts et jeux voulant un audio libre de droits",
+        "Producteurs esquissant des idées instrumentales et des stems pour un DAW"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You want full songs with vocals and lyrics (→ Suno / Udio)",
+        "You need voice synthesis or speech, not music (→ ElevenLabs / Cartesia)"
+      ],
+      "zh": [
+        "你想要带人声与歌词的完整歌曲（→ Suno / Udio）",
+        "你需要语音合成而非音乐（→ ElevenLabs / Cartesia）"
+      ],
+      "ja": [
+        "ボーカルと歌詞入りのフルソングが欲しい（→ Suno / Udio）",
+        "音楽ではなく音声合成やスピーチが必要（→ ElevenLabs / Cartesia）"
+      ],
+      "es": [
+        "Quieres canciones completas con voces y letras (→ Suno / Udio)",
+        "Necesitas síntesis de voz o habla, no música (→ ElevenLabs / Cartesia)"
+      ],
+      "fr": [
+        "Vous voulez des chansons complètes avec voix et paroles (→ Suno / Udio)",
+        "Vous avez besoin de synthèse vocale ou de parole, pas de musique (→ ElevenLabs / Cartesia)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-28",
+    "verdictDate": "2026-07-28",
+    "pricingVerified": "2026-07-28",
+    "pricingUrl": "https://stableaudio.com/pricing"
+  }
+}

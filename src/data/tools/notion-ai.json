@@ -1,0 +1,28 @@
+{
+  "slug": "notion-ai",
+  "name": "Notion AI",
+  "nameZh": "Notion AI",
+  "description": "Notion 内置的 AI 写作助手，帮助总结、翻译、生成内容",
+  "descriptionEn": "Built-in AI writing assistant in Notion for summarizing, translating, and generating content",
+  "descriptionJa": "Notion組み込みのAI写作アシスタント。要約、翻訳、コンテンツ生成をサポート",
+  "descriptionEs": "Asistente de escritura IA integrado en Notion para resumir, traducir y generar contenido",
+  "descriptionFr": "Assistant d'écriture IA intégré dans Notion pour résumer, traduire et générer du contenu",
+  "url": "https://www.notion.com/product/ai",
+  "logo": "/logos/tools/notion-ai.png",
+  "category": "Writing",
+  "tags": [
+    "Paid"
+  ],
+  "featured": false,
+  "developer": "Notion",
+  "platforms": {
+    "web": true,
+    "windows": true,
+    "macos": true,
+    "ios": true,
+    "android": true,
+    "linux": false,
+    "browser_extension": true,
+    "api": false
+  }
+}

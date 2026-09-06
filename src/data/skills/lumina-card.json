@@ -1,0 +1,74 @@
+{
+  "slug": "lumina-card",
+  "name": "Lumina Card",
+  "nameZh": "浮光卡片",
+  "description": "把任意照片，经六道工序，变成有设计感、可直接印刷或分享的明信片。内置 classic（暖白细金边）、silhouette（双色剪影）、minimal、vintage 四种模板。",
+  "descriptionEn": "Turn any photo into a beautifully designed, printable postcard through a 6-step pipeline. Built-in templates: classic, silhouette, minimal, vintage.",
+  "descriptionJa": "任意の写真を、6つの工程を経てデザイン性の高い印刷可能なポストカードに変換します。テンプレート：classic、silhouette、minimal、vintage。",
+  "descriptionEs": "Convierte cualquier foto en una tarjeta postal diseñada e imprimible a través de un proceso de 6 pasos. Plantillas: classic, silhouette, minimal, vintage.",
+  "descriptionFr": "Transformez n'importe quelle photo en une carte postale imprimable et élégante grâce à un pipeline en 6 étapes. Modèles : classic, silhouette, minimal, vintage.",
+  "developer": "catex-lab",
+  "developerZh": "catex-lab",
+  "repo": "catex-lab/lumina-card",
+  "agents": [
+    "generic"
+  ],
+  "category": "Design",
+  "tags": [
+    "Free"
+  ],
+  "installCommand": "git clone https://github.com/catex-lab/lumina-card.git ~/.workbuddy/skills/lumina-card",
+  "logo": "/logos/skills/lumina-card.png",
+  "stars": 1,
+  "featured": false,
+  "faqs": [
+    {
+      "question": {
+        "zh": "支持哪些智能体？",
+        "en": "Which agents?",
+        "ja": "どんなエージェントに対応？",
+        "es": "¿Qué agentes?",
+        "fr": "Quels agents ?"
+      },
+      "answer": {
+        "zh": "兼容 WorkBuddy 及支持 git clone 安装方式的 Agent 环境。",
+        "en": "Compatible with WorkBuddy and any agent environment that supports git clone installation.",
+        "ja": "WorkBuddy および git clone インストールに対応する Agent 環境と互換。",
+        "es": "Compatible con WorkBuddy y cualquier entorno de agente que admita instalación por git clone.",
+        "fr": "Compatible avec WorkBuddy et tout environnement d'agent prenant en charge l'installation par git clone."
+      }
+    },
+    {
+      "question": {
+        "zh": "授权？",
+        "en": "License?",
+        "ja": "ライセンスは？",
+        "es": "¿Licencia?",
+        "fr": "Licence ?"
+      },
+      "answer": {
+        "zh": "MIT 开源许可，可自由使用和修改。",
+        "en": "MIT license — free to use and modify.",
+        "ja": "MIT ライセンス — 自由に使用・改変可能。",
+        "es": "Licencia MIT — libre de usar y modificar.",
+        "fr": "Licence MIT — libre d'utilisation et de modification."
+      }
+    },
+    {
+      "question": {
+        "zh": "怎么使用？",
+        "en": "How to use?",
+        "ja": "使い方？",
+        "es": "¿Cómo usar?",
+        "fr": "Comment utiliser ?"
+      },
+      "answer": {
+        "zh": "安装后上传照片，输入「做成明信片 / 生成贺卡 / postcard」即可自动完成六道工序。",
+        "en": "After installation, upload a photo and say \"make a postcard\" — the 6-step pipeline runs automatically.",
+        "ja": "インストール後、写真をアップロードして「postcard を作って」と言うと、6つの工程が自動実行されます。",
+        "es": "Tras instalar, sube una foto y di \"haz una postal\" — el proceso de 6 pasos se ejecuta automáticamente.",
+        "fr": "Après installation, téléchargez une photo et dites \"fais une carte postale\" — le pipeline de 6 étapes s'exécute automatiquement."
+      }
+    }
+  ]
+}

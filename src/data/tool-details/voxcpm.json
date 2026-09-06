@@ -1,0 +1,240 @@
+{
+  "features": {
+    "en": [
+      "Tokenizer-free architecture: directly generates continuous speech representations via diffusion autoregressive model",
+      "2 billion parameter model (VoxCPM2) trained on 2M+ hours of multilingual speech data",
+      "30 languages supported — no language tag needed, auto-detects from input text",
+      "Voice Design: create a brand-new voice from natural-language description (gender, age, tone, emotion, pace)",
+      "Controllable Voice Cloning: clone any voice from a short reference clip with style guidance",
+      "Ultimate Cloning: reproduce every vocal nuance from reference audio + transcript",
+      "48kHz studio-quality audio output via AudioVAE V2 with built-in super-resolution",
+      "Real-time streaming: RTF as low as ~0.3 on RTX 4090, ~0.13 with Nano-vLLM acceleration",
+      "Context-aware synthesis: automatically infers prosody and expressiveness from text content",
+      "Built on MiniCPM-4 backbone from OpenBMB"
+    ],
+    "zh": [
+      "免 Tokenizer 架构：通过扩散自回归模型直接生成连续语音表征",
+      "20 亿参数模型（VoxCPM2），基于 200 万+ 小时多语言语音数据训练",
+      "支持 30 种语言——无需语言标签，自动从输入文本识别",
+      "语音设计：仅凭自然语言描述（性别、年龄、语气、情感、语速）创建全新声音",
+      "可控语音克隆：从短参考片段克隆任意声音，支持风格引导",
+      "终极克隆：从参考音频+文本复制每一个声音细节",
+      "48kHz 录音室级音频输出，AudioVAE V2 内置超分辨率",
+      "实时流式输出：RTX 4090 上 RTF 低至 ~0.3，Nano-vLLM 加速 ~0.13",
+      "上下文感知合成：自动从文本内容推断合适的韵律与表现力",
+      "基于 OpenBMB MiniCPM-4 骨干网络"
+    ],
+    "ja": [
+      "トークナイザーフリーアーキテクチャ：拡散自己回帰モデルで連続音声表現を直接生成",
+      "20億パラメータモデル（VoxCPM2）、200万時間以上の多言語音声データで学習",
+      "30言語対応——言語タグ不要、入力テキストから自動検出",
+      "音声デザイン：自然言語の説明だけで全新の声を作成（性別、年齢、トーン、感情、ペース）",
+      "制御可能な音声クローン：短い参照クリップから任意の声をクローン、スタイルガイダンス対応",
+      "究極のクローン：参照音声＋テキストからすべての声のニュアンスを再現",
+      "AudioVAE V2による48kHzスタジオ品質オーディオ出力、内蔵超解像",
+      "リアルタイムストリーミング：RTX 4090でRTF ~0.3、Nano-vLLM加速で~0.13",
+      "文脈認識合成：テキスト内容から自動的に韻律と表現力を推論",
+      "OpenBMB MiniCPM-4 バックボーンをベース"
+    ],
+    "es": [
+      "Arquitectura sin tokenizador: genera directamente representaciones continuas de voz mediante modelo autoregresivo de difusión",
+      "Modelo de 2 mil millones de parámetros (VoxCPM2) entrenado con 2M+ horas de datos multilingües",
+      "30 idiomas compatibles — sin necesidad de etiqueta de idioma, detección automática",
+      "Diseño de Voz: crea una voz nueva desde una descripción en lenguaje natural (género, edad, tono, emoción, ritmo)",
+      "Clonación de Voz Controlable: clona cualquier voz con una muestra corta y guía de estilo",
+      "Clonación Definitiva: reproduce cada matiz vocal desde audio de referencia + transcripción",
+      "Audio 48kHz de calidad de estudio mediante AudioVAE V2 con superresolución integrada",
+      "Streaming en tiempo real: RTF tan bajo como ~0.3 en RTX 4090, ~0.13 con aceleración Nano-vLLM",
+      "Síntesis consciente del contexto: infiere automáticamente prosodia y expresividad del texto",
+      "Construido sobre la columna vertebral MiniCPM-4 de OpenBMB"
+    ],
+    "fr": [
+      "Architecture sans tokenizer : génère directement des représentations vocales continues via un modèle autorégressif de diffusion",
+      "Modèle de 2 milliards de paramètres (VoxCPM2) entraîné sur 2M+ heures de données multilingues",
+      "30 langues prises en charge — sans étiquette de langue, détection automatique",
+      "Conception Vocale : crée une voix entièrement nouvelle à partir d'une description en langage naturel",
+      "Clonage Vocal Contrôlable : clonez n'importe quelle voix à partir d'un court extrait avec guidage de style",
+      "Clonage Ultime : reproduit chaque nuance vocale à partir de l'audio de référence + transcription",
+      "Audio 48kHz qualité studio via AudioVAE V2 avec super-résolution intégrée",
+      "Streaming en temps réel : RTF aussi bas que ~0,3 sur RTX 4090, ~0,13 avec accélération Nano-vLLM",
+      "Synthèse contextuelle : infère automatiquement la prosodie et l'expressivité du texte",
+      "Construit sur le backbone MiniCPM-4 d'OpenBMB"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Free and open source (Apache 2.0). Model weights available on Hugging Face and ModelScope.",
+      "zh": "免费开源（Apache 2.0）。模型权重在 Hugging Face 和 ModelScope 上可用。",
+      "ja": "無料のオープンソース（Apache 2.0）。モデルウェイトはHugging FaceとModelScopeで入手可能。",
+      "es": "Gratuito y de código abierto (Apache 2.0). Pesos del modelo disponibles en Hugging Face y ModelScope.",
+      "fr": "Gratuit et open source (Apache 2.0). Les poids du modèle sont disponibles sur Hugging Face et ModelScope."
+    }
+  },
+  "useCases": {
+    "en": [
+      "Multilingual TTS for content creation, dubbing, and accessibility",
+      "Voice design for virtual assistants, gaming characters, and brand voices",
+      "High-fidelity voice cloning for personalized speech applications"
+    ],
+    "zh": [
+      "多语言语音合成用于内容创作、配音与无障碍",
+      "虚拟助手、游戏角色和品牌声音的语音设计",
+      "高保真语音克隆用于个性化语音应用"
+    ],
+    "ja": [
+      "コンテンツ制作、吹き替え、アクセシビリティのための多言語TTS",
+      "バーチャルアシスタント、ゲームキャラクター、ブランドボイスの音声デザイン",
+      "パーソナライズされた音声アプリケーションのための高忠実度音声クローン"
+    ],
+    "es": [
+      "TTS multilingüe para creación de contenido, doblaje y accesibilidad",
+      "Diseño de voz para asistentes virtuales, personajes de juegos y voces de marca",
+      "Clonación de voz de alta fidelidad para aplicaciones de voz personalizadas"
+    ],
+    "fr": [
+      "TTS multilingue pour la création de contenu, le doublage et l'accessibilité",
+      "Conception vocale pour assistants virtuels, personnages de jeux et voix de marque",
+      "Clonage vocal haute fidélité pour des applications vocales personnalisées"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Tokenizer-free architecture produces more natural, expressive speech than discrete-token TTS",
+      "30 languages in one model with automatic language detection",
+      "Voice Design from natural language description — no reference audio needed",
+      "48kHz studio-quality output with built-in super-resolution",
+      "Apache 2.0 licensed, from the reputable OpenBMB team (Tsinghua University)"
+    ],
+    "zh": [
+      "免 Tokenizer 架构比离散 token TTS 产生更自然、更具表现力的语音",
+      "单一模型支持 30 种语言，自动语言检测",
+      "自然语言描述即可设计语音——无需参考音频",
+      "48kHz 录音室级输出，内置超分辨率",
+      "Apache 2.0 协议，来自声誉良好的 OpenBMB 团队（清华大学）"
+    ],
+    "ja": [
+      "トークナイザーフリーアーキテクチャにより、離散トークンTTSよりも自然で表現力豊かな音声を生成",
+      "1モデルで30言語対応、自動言語検出",
+      "自然言語の説明から音声デザイン——参照音声不要",
+      "48kHzスタジオ品質出力、内蔵超解像",
+      "Apache 2.0ライセンス、評価の高いOpenBMBチーム（清華大学）"
+    ],
+    "es": [
+      "Arquitectura sin tokenizador produce voz más natural y expresiva que TTS de tokens discretos",
+      "30 idiomas en un solo modelo con detección automática de idioma",
+      "Diseño de Voz desde descripción en lenguaje natural — sin audio de referencia",
+      "Salida 48kHz de calidad de estudio con superresolución integrada",
+      "Licencia Apache 2.0, del reputado equipo OpenBMB (Universidad de Tsinghua)"
+    ],
+    "fr": [
+      "L'architecture sans tokenizer produit une voix plus naturelle et expressive que le TTS à tokens discrets",
+      "30 langues dans un seul modèle avec détection automatique de la langue",
+      "Conception Vocale à partir d'une description en langage naturel — aucun audio de référence requis",
+      "Sortie 48kHz qualité studio avec super-résolution intégrée",
+      "Licence Apache 2.0, de la réputée équipe OpenBMB (Université Tsinghua)"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Requires significant GPU resources (RTX 4090 recommended) for real-time inference",
+      "101 open issues at verification time",
+      "Documentation is scattered across GitHub, ReadTheDocs, and Hugging Face",
+      "Last push was 35 days ago — moderate activity level"
+    ],
+    "zh": [
+      "需要较强 GPU 资源（推荐 RTX 4090）才能实时推理",
+      "核验时 101 个未关闭 issue",
+      "文档分散在 GitHub、ReadTheDocs 和 Hugging Face 多个平台",
+      "上次推送 35 天前——活跃度中等"
+    ],
+    "ja": [
+      "リアルタイム推論には強力なGPU（RTX 4090推奨）が必要",
+      "検証時点で101件の未解決issue",
+      "ドキュメントがGitHub、ReadTheDocs、HuggingFaceに分散",
+      "最終プッシュから35日——中程度の活動レベル"
+    ],
+    "es": [
+      "Requiere recursos GPU significativos (RTX 4090 recomendada) para inferencia en tiempo real",
+      "101 issues abiertos en el momento de la verificación",
+      "Documentación dispersa entre GitHub, ReadTheDocs y Hugging Face",
+      "Último push hace 35 días — nivel de actividad moderado"
+    ],
+    "fr": [
+      "Nécessite des ressources GPU importantes (RTX 4090 recommandée) pour l'inférence en temps réel",
+      "101 issues ouvertes au moment de la vérification",
+      "Documentation dispersée entre GitHub, ReadTheDocs et Hugging Face",
+      "Dernier push il y a 35 jours — niveau d'activité modéré"
+    ]
+  },
+  "latestUpdate": {
+    "en": "July 2026: VoxCPM2 released with 2B parameters, 30 languages, Voice Design, controllable cloning, 48kHz output, and real-time streaming.",
+    "zh": "2026年7月：VoxCPM2 发布，2B 参数、30 语言、语音设计、可控克隆、48kHz 输出与实时流式。",
+    "ja": "2026年7月：VoxCPM2リリース。2Bパラメータ、30言語、音声デザイン、制御可能クローン、48kHz出力、リアルタイムストリーミング。",
+    "es": "Julio 2026: VoxCPM2 lanzado con 2B parámetros, 30 idiomas, Diseño de Voz, clonación controlable, salida 48kHz y streaming en tiempo real.",
+    "fr": "Juillet 2026 : VoxCPM2 publié avec 2B paramètres, 30 langues, Conception Vocale, clonage contrôlable, sortie 48kHz et streaming en temps réel."
+  },
+  "summary": {
+    "en": "VoxCPM is OpenBMB's tokenizer-free TTS system that generates continuous speech via diffusion autoregressive architecture. VoxCPM2 (2B params, 30 languages, 2M+ hours training data) offers Voice Design from text descriptions, controllable voice cloning, Ultimate Cloning, and 48kHz studio-quality audio — all Apache 2.0 licensed.",
+    "zh": "VoxCPM 是 OpenBMB 的免 Tokenizer TTS 系统，通过扩散自回归架构生成连续语音。VoxCPM2（2B 参数、30 语言、200 万+ 小时训练数据）提供文本描述语音设计、可控语音克隆、终极克隆与 48kHz 录音室级音频——全部 Apache 2.0 开源。",
+    "ja": "VoxCPMはOpenBMBのトークナイザーフリーTTSシステム。拡散自己回帰アーキテクチャで連続音声を生成。VoxCPM2（2Bパラメータ、30言語、200万時間以上の学習データ）はテキストからの音声デザイン、制御可能な音声クローン、究極のクローン、48kHzスタジオ品質オーディオを提供。すべてApache 2.0ライセンス。",
+    "es": "VoxCPM es el sistema TTS sin tokenizador de OpenBMB que genera voz continua mediante arquitectura autoregresiva de difusión. VoxCPM2 (2B parámetros, 30 idiomas, 2M+ horas de entrenamiento) ofrece Diseño de Voz desde texto, clonación controlable, Clonación Definitiva y audio 48kHz de calidad de estudio — todo bajo licencia Apache 2.0.",
+    "fr": "VoxCPM est le système TTS sans tokenizer d'OpenBMB qui génère une voix continue via une architecture autorégressive de diffusion. VoxCPM2 (2B paramètres, 30 langues, 2M+ heures d'entraînement) offre la Conception Vocale depuis le texte, le clonage contrôlable, le Clonage Ultime et l'audio 48kHz qualité studio — le tout sous licence Apache 2.0."
+  },
+  "verdict": {
+    "badge": "Worth Trying",
+    "headline": {
+      "en": "A tokenizer-free TTS breakthrough from OpenBMB — 30 languages, voice design, and 48kHz output, but GPU-heavy.",
+      "zh": "OpenBMB 的免 Tokenizer TTS 突破——30 语言、语音设计、48kHz 输出，但需要较强 GPU。",
+      "ja": "OpenBMBによるトークナイザーフリーTTSのブレイクスルー——30言語、音声デザイン、48kHz出力。ただしGPU負荷が高い。",
+      "es": "Un avance TTS sin tokenizador de OpenBMB — 30 idiomas, diseño de voz y salida 48kHz, pero requiere GPU potente.",
+      "fr": "Une percée TTS sans tokenizer d'OpenBMB — 30 langues, conception vocale et sortie 48kHz, mais nécessite un GPU puissant."
+    },
+    "body": {
+      "en": "VoxCPM2 represents a significant advance in open-source TTS: its tokenizer-free diffusion autoregressive architecture produces more natural speech than discrete-token alternatives, and the single model covering 30 languages with automatic detection is impressive. The Voice Design feature (create a voice from a text description) and Ultimate Cloning (reproduce every nuance from reference audio + transcript) are genuinely useful capabilities. The caveats: real-time inference needs an RTX 4090-class GPU, documentation is scattered, and the 101 open issues suggest ongoing development. For researchers, content creators, and developers who need high-quality multilingual TTS with voice design capabilities, VoxCPM2 is a compelling open-source option.",
+      "zh": "VoxCPM2 代表了开源 TTS 的重大进步：其免 Tokenizer 扩散自回归架构比离散 token 方案产生更自然的语音，单一模型覆盖 30 种语言且自动检测令人印象深刻。语音设计功能（从文本描述创建声音）和终极克隆（从参考音频+文本复制每一个细节）是真正有用的能力。 注意事项：实时推理需要 RTX 4090 级别 GPU，文档分散，101 个未关闭 issue 表明仍在持续开发中。对需要高质量多语言 TTS 且带语音设计能力的研究人员、内容创作者和开发者来说，VoxCPM2 是一个引人注目的开源选择。",
+      "ja": "VoxCPM2は、オープンソースTTSにおける重要な進歩を表しています：トークナイザーフリーの拡散自己回帰アーキテクチャは、離散トークン方式よりも自然な音声を生成し、30言語をカバーする単一モデルと自動検出は印象的です。音声デザイン機能（テキスト説明から声を作成）と究極のクローン（参照音声＋テキストからすべてのニュアンスを再現）は真に有用な機能です。 注意点：リアルタイム推論にはRTX 4090クラスのGPUが必要で、ドキュメントは分散しており、101件の未解決issueは開発が継続中であることを示しています。高品質な多言語TTSと音声デザイン機能を必要とする研究者、コンテンツ制作者、開発者にとって、VoxCPM2は魅力的なオープンソースの選択肢です。",
+      "es": "VoxCPM2 representa un avance significativo en TTS de código abierto: su arquitectura autorregresiva de difusión sin tokenizador produce voz más natural que las alternativas de tokens discretos, y el modelo único que cubre 30 idiomas con detección automática es impresionante. La función de Diseño de Voz (crear una voz desde una descripción de texto) y la Clonación Definitiva (reproducir cada matiz del audio de referencia + transcripción) son capacidades genuinamente útiles. Advertencias: la inferencia en tiempo real necesita una GPU clase RTX 4090, la documentación está dispersa y los 101 issues abiertos sugieren desarrollo continuo. Para investigadores, creadores de contenido y desarrolladores que necesitan TTS multilingüe de alta calidad con capacidades de diseño de voz, VoxCPM2 es una opción convincente de código abierto.",
+      "fr": "VoxCPM2 représente une avancée significative dans le TTS open source : son architecture autorégressive de diffusion sans tokenizer produit une voix plus naturelle que les alternatives à tokens discrets, et le modèle unique couvrant 30 langues avec détection automatique est impressionnant. La fonction de Conception Vocale (créer une voix à partir d'une description textuelle) et le Clonage Ultime (reproduire chaque nuance de l'audio de référence + transcription) sont des capacités véritablement utiles. Mises en garde : l'inférence en temps réel nécessite un GPU de classe RTX 4090, la documentation est dispersée et les 101 issues ouvertes suggèrent un développement continu. Pour les chercheurs, créateurs de contenu et développeurs qui ont besoin d'un TTS multilingue de haute qualité avec des capacités de conception vocale, VoxCPM2 est une option open source convaincante."
+    },
+    "bestFor": {
+      "en": [
+        "Researchers, content creators, and developers needing high-quality multilingual TTS with voice design and cloning, who have access to a powerful GPU (RTX 4090 or better)."
+      ],
+      "zh": [
+        "需要高质量多语言 TTS 且带语音设计与克隆能力、且有较强 GPU（RTX 4090 或以上）的研究人员、内容创作者与开发者。"
+      ],
+      "ja": [
+        "高品質な多言語TTSと音声デザイン・クローン機能を必要とし、強力なGPU（RTX 4090以上）を利用できる研究者、コンテンツ制作者、開発者。"
+      ],
+      "es": [
+        "Investigadores, creadores de contenido y desarrolladores que necesiten TTS multilingüe de alta calidad con diseño y clonación de voz, y tengan acceso a una GPU potente (RTX 4090 o superior)."
+      ],
+      "fr": [
+        "Chercheurs, créateurs de contenu et développeurs ayant besoin d'un TTS multilingue de haute qualité avec conception et clonage vocal, et disposant d'un GPU puissant (RTX 4090 ou supérieur)."
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "If you lack a powerful GPU, consider cloud-based TTS APIs (ElevenLabs, OpenAI TTS) or lighter open-source models that run on CPU."
+      ],
+      "zh": [
+        "如果没有较强 GPU，考虑云端 TTS API（ElevenLabs、OpenAI TTS）或在 CPU 上运行的轻量开源模型。"
+      ],
+      "ja": [
+        "強力なGPUがない場合は、クラウドベースのTTS API（ElevenLabs、OpenAI TTS）やCPUで動作する軽量オープンソースモデルを検討してください。"
+      ],
+      "es": [
+        "Si no tienes una GPU potente, considera APIs TTS en la nube (ElevenLabs, OpenAI TTS) o modelos open source ligeros que funcionen en CPU."
+      ],
+      "fr": [
+        "Si vous n'avez pas de GPU puissant, envisagez des API TTS cloud (ElevenLabs, OpenAI TTS) ou des modèles open source plus légers fonctionnant sur CPU."
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-08-11",
+    "verdictDate": "2026-08-11",
+    "pricingVerified": "2026-08-11",
+    "pricingUrl": "https://voxcpm.com"
+  }
+}

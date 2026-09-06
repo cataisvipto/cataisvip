@@ -1,0 +1,28 @@
+{
+  "slug": "pika",
+  "name": "Pika",
+  "nameZh": "Pika",
+  "description": "AI 视频生成工具，支持文本/图片转视频，操作简单",
+  "descriptionEn": "AI video generation tool supporting text/image to video with simple operation",
+  "descriptionJa": "AI動画生成ツール。テキスト/画像から動画を生成、シンプルな操作",
+  "descriptionEs": "Herramienta de generación de video IA que soporta texto/imagen a video con operación simple",
+  "descriptionFr": "Outil de génération vidéo IA supportant la conversion texte/image en vidéo avec une opération simple",
+  "url": "https://pika.art",
+  "logo": "/logos/tools/pika.png",
+  "category": "Video",
+  "tags": [
+    "Freemium"
+  ],
+  "featured": false,
+  "developer": "Pika",
+  "platforms": {
+    "web": true,
+    "windows": false,
+    "macos": false,
+    "ios": true,
+    "android": false,
+    "linux": false,
+    "browser_extension": false,
+    "api": "unknown"
+  }
+}

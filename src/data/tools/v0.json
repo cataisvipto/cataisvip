@@ -1,0 +1,28 @@
+{
+  "slug": "v0",
+  "name": "Vercel v0",
+  "nameZh": "Vercel v0",
+  "description": "AI 前端代码生成工具，用自然语言描述即可生成 React 组件",
+  "descriptionEn": "AI frontend code generator that creates React components from natural language",
+  "descriptionJa": "AIフロントエンドコード生成ツール。自然言語の説明からReactコンポーネントを生成",
+  "descriptionEs": "Generador de código frontend IA que crea componentes React desde lenguaje natural",
+  "descriptionFr": "Générateur de code frontend IA qui crée des composants React à partir du langage naturel",
+  "url": "https://v0.app",
+  "logo": "/logos/tools/v0.png",
+  "category": "Website Builder",
+  "tags": [
+    "Freemium"
+  ],
+  "featured": false,
+  "developer": "Vercel",
+  "platforms": {
+    "web": true,
+    "windows": false,
+    "macos": false,
+    "ios": true,
+    "android": false,
+    "linux": false,
+    "browser_extension": false,
+    "api": true
+  }
+}

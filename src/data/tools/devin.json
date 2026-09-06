@@ -1,0 +1,30 @@
+{
+  "slug": "devin",
+  "homeFeatured": true,
+  "name": "Devin",
+  "nameZh": "Devin",
+  "description": "Cognition 推出的自主 AI 软件工程师，云端并行智能体独立完成编码任务，配套 Devin Desktop IDE（原 Windsurf）",
+  "descriptionEn": "Autonomous AI software engineer by Cognition; parallel cloud agents complete coding tasks end-to-end, paired with the Devin Desktop IDE (formerly Windsurf)",
+  "descriptionJa": "Cognitionが開発した自律型AIソフトウェアエンジニア。クラウド並列エージェントがコーディングタスクを完遂し、Devin Desktop IDE（旧Windsurf）と連携",
+  "descriptionEs": "Ingeniero de software IA autónomo de Cognition; agentes paralelos en la nube completan tareas de código de principio a fin, junto al IDE Devin Desktop (antes Windsurf)",
+  "descriptionFr": "Ingénieur logiciel IA autonome de Cognition ; des agents cloud parallèles réalisent les tâches de codage de bout en bout, avec l'IDE Devin Desktop (ex-Windsurf)",
+  "url": "https://devin.ai",
+  "logo": "/logos/tools/devin.png",
+  "category": "Agent",
+  "tags": [
+    "Freemium",
+    "API"
+  ],
+  "featured": true,
+  "developer": "Cognition",
+  "platforms": {
+    "web": true,
+    "windows": true,
+    "macos": true,
+    "ios": false,
+    "android": false,
+    "linux": "unknown",
+    "browser_extension": false,
+    "api": true
+  }
+}

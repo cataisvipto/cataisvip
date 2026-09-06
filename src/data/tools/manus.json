@@ -1,0 +1,28 @@
+{
+  "slug": "manus",
+  "name": "Manus",
+  "nameZh": "Manus",
+  "description": "通用 AI 智能体平台，可自主完成复杂任务如数据分析、简历筛选、旅行规划等",
+  "descriptionEn": "General-purpose AI agent platform that autonomously completes complex tasks like data analysis, resume screening, travel planning",
+  "descriptionJa": "汎用AIエージェントプラットフォーム。データ分析、履歴書選考、旅行計画などの複雑なタスクを自律的に完了",
+  "descriptionEs": "Plataforma de agente IA de propósito general que completa tareas complejas de forma autónoma como análisis de datos, selección de currículums, planificación de viajes",
+  "descriptionFr": "Plateforme d'agent IA polyvalent qui accomplit de manière autonome des tâches complexes comme l'analyse de données, le tri de CV, la planification de voyages",
+  "url": "https://manus.im",
+  "logo": "/logos/tools/manus.png",
+  "category": "Agent",
+  "tags": [
+    "Freemium"
+  ],
+  "featured": true,
+  "developer": "Manus",
+  "platforms": {
+    "web": true,
+    "windows": true,
+    "macos": true,
+    "ios": true,
+    "android": true,
+    "linux": false,
+    "browser_extension": true,
+    "api": true
+  }
+}

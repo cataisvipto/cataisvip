@@ -1,0 +1,29 @@
+{
+  "slug": "krea",
+  "name": "Krea AI",
+  "nameZh": "Krea AI",
+  "description": "面向创作者的一站式生成式设计套件，实时图像生成、文生图/视频/3D、放大增强与 LoRA 微调集于一体，可视化 Krea Nodes 工作流编排，另有 API，服务 4000 万用户，免费档每日 100 单位",
+  "descriptionEn": "All-in-one generative design suite for creators: real-time image generation, text-to-image/video/3D, upscaling and LoRA fine-tuning in one place, with a visual Krea Nodes workflow builder and an API — used by 40M users, free tier of 100 units a day",
+  "descriptionJa": "クリエイター向けのオールインワン生成デザインスイート。リアルタイム画像生成、テキストから画像/動画/3D、アップスケールとLoRAファインチューニングを一箇所に、視覚的なKrea Nodesワークフロー構築とAPIも。4000万ユーザーが利用、無料枠は1日100単位",
+  "descriptionEs": "Suite de diseño generativo todo en uno para creadores: generación de imágenes en tiempo real, texto a imagen/vídeo/3D, escalado y ajuste fino LoRA en un solo lugar, con el constructor visual de flujos Krea Nodes y una API; usada por 40M de usuarios, nivel gratuito de 100 unidades al día",
+  "descriptionFr": "Suite de design génératif tout-en-un pour créateurs : génération d'images en temps réel, texte vers image/vidéo/3D, upscaling et fine-tuning LoRA au même endroit, avec le constructeur visuel de flux Krea Nodes et une API ; utilisée par 40M d'utilisateurs, niveau gratuit de 100 unités par jour",
+  "url": "https://www.krea.ai",
+  "logo": "/logos/tools/krea.png",
+  "category": "Design",
+  "tags": [
+    "Freemium",
+    "API"
+  ],
+  "featured": false,
+  "developer": "Krea",
+  "platforms": {
+    "web": true,
+    "windows": false,
+    "macos": false,
+    "ios": false,
+    "android": false,
+    "linux": false,
+    "browser_extension": false,
+    "api": true
+  }
+}

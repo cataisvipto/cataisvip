@@ -1,0 +1,29 @@
+{
+  "slug": "jules",
+  "name": "Jules",
+  "nameZh": "Jules",
+  "description": "Google 的异步 AI 编码智能体，派发任务后在云端 VM 自主克隆仓库、制定计划并直接产出 GitHub PR，配套跨平台 CLI 与开放 API，免费档每天 15 个任务，付费额度捆绑 Google AI Pro/Ultra 订阅",
+  "descriptionEn": "Google's asynchronous AI coding agent: hand it a task and it clones your repo in a cloud VM, plans, executes on its own and delivers a GitHub PR, with a cross-platform CLI and open API — free tier of 15 tasks a day, higher limits bundled with Google AI Pro/Ultra subscriptions",
+  "descriptionJa": "Googleの非同期AIコーディングエージェント。タスクを渡すとクラウドVMでリポジトリをクローンし、計画を立てて自律実行、GitHubのPRとして納品。クロスプラットフォームCLIと公開APIも提供。無料枠は1日15タスク、上位額度はGoogle AI Pro/Ultraサブスクリプションに同梱",
+  "descriptionEs": "El agente de codificación asíncrono de Google: le das una tarea, clona tu repo en una VM en la nube, planifica, ejecuta por su cuenta y entrega un PR de GitHub, con CLI multiplataforma y API abierta — nivel gratuito de 15 tareas al día, límites mayores incluidos en las suscripciones Google AI Pro/Ultra",
+  "descriptionFr": "L'agent de codage asynchrone de Google : confiez-lui une tâche, il clone votre dépôt dans une VM cloud, planifie, exécute seul et livre une PR GitHub, avec CLI multiplateforme et API ouverte — offre gratuite de 15 tâches par jour, quotas supérieurs inclus dans les abonnements Google AI Pro/Ultra",
+  "url": "https://jules.google",
+  "logo": "/logos/tools/jules.png",
+  "category": "Code",
+  "tags": [
+    "Freemium",
+    "API"
+  ],
+  "featured": false,
+  "developer": "Google",
+  "platforms": {
+    "web": true,
+    "windows": true,
+    "macos": true,
+    "ios": false,
+    "android": false,
+    "linux": true,
+    "browser_extension": false,
+    "api": true
+  }
+}

@@ -1,0 +1,298 @@
+{
+  "features": {
+    "en": [
+      "Autonomous AI coding agent powered by GPT-5-Codex",
+      "Multi-file code editing and generation across entire repository",
+      "Isolated sandbox environment for safe code execution and testing",
+      "Open-source Codex CLI for terminal-native workflow",
+      "Automated pull request generation with test validation",
+      "Parallel task execution — run multiple agents simultaneously",
+      "VS Code and JetBrains IDE integration",
+      "70%+ on SWE-bench Verified benchmark"
+    ],
+    "zh": [
+      "基于 GPT-5-Codex 的自主 AI 编程智能体",
+      "跨整个仓库的多文件代码编辑与生成",
+      "隔离沙箱环境，安全执行代码和测试",
+      "开源的 Codex CLI，支持终端原生工作流",
+      "自动生成 PR，附带测试验证",
+      "并行任务执行——同时运行多个智能体",
+      "VS Code 和 JetBrains IDE 集成",
+      "SWE-bench Verified 基准测试 70%+"
+    ],
+    "ja": [
+      "GPT-5-Codex 搭載の自律型 AI コーディングエージェント",
+      "リポジトリ全体のマルチファイル編集と生成",
+      "分離されたサンドボックス環境で安全な実行",
+      "ターミナルネイティブの Codex CLI（オープンソース）",
+      "自動 PR 生成とテスト検証",
+      "複数エージェントの並列実行",
+      "VS Code および JetBrains IDE 対応",
+      "SWE-bench Verified で 70% 以上"
+    ],
+    "es": [
+      "Agente de codificación autónomo impulsado por GPT-5-Codex",
+      "Edición y generación de múltiples archivos en todo el repositorio",
+      "Entorno sandbox aislado para ejecución segura de código",
+      "Codex CLI de código abierto para flujo nativo en terminal",
+      "Generación automática de PR con validación de pruebas",
+      "Ejecución paralela de múltiples agentes",
+      "Integración con VS Code y JetBrains IDE",
+      "70%+ en SWE-bench Verified"
+    ],
+    "fr": [
+      "Agent de codage IA autonome propulsé par GPT-5-Codex",
+      "Édition et génération multi-fichiers sur l'ensemble du dépôt",
+      "Environnement sandbox isolé pour exécution sécurisée",
+      "Codex CLI open source pour flux terminal natif",
+      "Génération automatique de PR avec validation de tests",
+      "Exécution parallèle de plusieurs agents",
+      "Intégration VS Code et JetBrains IDE",
+      "70%+ sur SWE-bench Verified"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Limited Codex access via ChatGPT Free",
+      "zh": "ChatGPT 免费版提供有限的 Codex 访问",
+      "ja": "ChatGPT 無料版で制限付き Codex アクセス",
+      "es": "Acceso limitado a Codex mediante ChatGPT Gratis",
+      "fr": "Accès limité à Codex via ChatGPT Gratuit"
+    },
+    "plus": {
+      "en": "$20/month via ChatGPT Plus",
+      "zh": "$20/月（ChatGPT Plus）",
+      "ja": "月額20ドル（ChatGPT Plus）",
+      "es": "20 $/mes (ChatGPT Plus)",
+      "fr": "20 $/mois (ChatGPT Plus)"
+    },
+    "pro": {
+      "en": "$200/month via ChatGPT Pro (max tasks)",
+      "zh": "$200/月（ChatGPT Pro，最大任务量）",
+      "ja": "月額200ドル（ChatGPT Pro，最大タスク）",
+      "es": "200 $/mes (ChatGPT Pro, máximo de tareas)",
+      "fr": "200 $/mois (ChatGPT Pro, tâches illimitées)"
+    },
+    "team": {
+      "en": "$25/user/month via ChatGPT Team",
+      "zh": "$25/人/月（ChatGPT Team）",
+      "ja": "1ユーザー月額25ドル（ChatGPT Team）",
+      "es": "25 $/usuario/mes (ChatGPT Team)",
+      "fr": "25 $/utilisateur/mois (ChatGPT Team)"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Bug fixing with failing test verification",
+      "Feature development from specification",
+      "Code migration and dependency upgrades",
+      "Test coverage writing",
+      "Code review and refactoring",
+      "Technical debt reduction"
+    ],
+    "zh": [
+      "带回滚测试验证的 Bug 修复",
+      "根据需求文档开发新功能",
+      "代码迁移和依赖升级",
+      "编写测试覆盖率",
+      "代码审查和重构",
+      "技术债务削减"
+    ],
+    "ja": [
+      "テスト検証付きバグ修正",
+      "仕様書に基づく機能開発",
+      "コード移行と依存関係アップグレード",
+      "テストカバレッジ作成",
+      "コードレビューとリファクタリング",
+      "技術的負債の削減"
+    ],
+    "es": [
+      "Corrección de errores con verificación de pruebas",
+      "Desarrollo de funciones a partir de especificaciones",
+      "Migración de código y actualización de dependencias",
+      "Redacción de cobertura de pruebas",
+      "Revisión y refactorización de código",
+      "Reducción de deuda técnica"
+    ],
+    "fr": [
+      "Correction de bugs avec vérification par tests",
+      "Développement de fonctionnalités à partir de spécifications",
+      "Migration de code et mise à niveau des dépendances",
+      "Rédaction de couverture de tests",
+      "Révision et refactorisation de code",
+      "Réduction de la dette technique"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Truly autonomous — delegates end-to-end tasks",
+      "Parallel execution: run multiple agents at once",
+      "Sandboxed execution with test validation built-in",
+      "Works across ChatGPT, CLI, and IDEs",
+      "Open-source CLI for custom workflows",
+      "Seamless integration with ChatGPT ecosystem"
+    ],
+    "zh": [
+      "真正自主——可委派端到端任务",
+      "并行执行：一次运行多个智能体",
+      "沙箱执行，内置测试验证",
+      "支持 ChatGPT、CLI 和 IDE 多端使用",
+      "开源 CLI，支持自定义工作流",
+      "与 ChatGPT 生态无缝集成"
+    ],
+    "ja": [
+      "真の自律性——エンドツーエンドのタスク委任",
+      "並列実行：複数エージェントを同時実行",
+      "サンドボックス実行とテスト検証",
+      "ChatGPT/CLI/IDE のマルチ環境対応",
+      "カスタムワークフロー対応の CLI（OSS）",
+      "ChatGPT エコシステムとのシームレス連携"
+    ],
+    "es": [
+      "Verdaderamente autónomo — delega tareas completas",
+      "Ejecución paralela de múltiples agentes",
+      "Ejecución en sandbox con validación de pruebas",
+      "Funciona en ChatGPT, CLI e IDE",
+      "CLI de código abierto para flujos personalizados",
+      "Integración perfecta con el ecosistema ChatGPT"
+    ],
+    "fr": [
+      "Vraiment autonome — délègue des tâches de bout en bout",
+      "Exécution parallèle de plusieurs agents",
+      "Exécution sandboxée avec validation de tests intégrée",
+      "Fonctionne sur ChatGPT, CLI et IDE",
+      "CLI open source pour flux personnalisés",
+      "Intégration transparente avec l'écosystème ChatGPT"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Expensive at Pro tier ($200/month) for heavy users",
+      "Requires clear specifications and good test coverage",
+      "~1 in 5 PRs needs meaningful human correction",
+      "Not ideal for exploratory or ambiguous tasks",
+      "No free standalone tier (requires ChatGPT subscription)",
+      "Limited to coding tasks only"
+    ],
+    "zh": [
+      "重度用户 Pro 版价格较高（$200/月）",
+      "需要清晰的需求描述和良好的测试覆盖",
+      "约 1/5 的 PR 需要人工修正",
+      "不适合探索性或不明确的任务",
+      "无独立免费版（需 ChatGPT 订阅）",
+      "仅限编程任务"
+    ],
+    "ja": [
+      "Pro プランは高額（月額200ドル）",
+      "明確な仕様とテストカバレッジが必要",
+      "約5件に1件の PR に人手による修正が必要",
+      "探索的・曖昧なタスクには不向き",
+      "スタンドアロン無料版なし",
+      "コーディングタスクのみ対応"
+    ],
+    "es": [
+      "Caro en el nivel Pro (200 $/mes) para usuarios intensivos",
+      "Requiere especificaciones claras y buena cobertura de pruebas",
+      "~1 de cada 5 PR necesita corrección humana significativa",
+      "No es ideal para tareas exploratorias o ambiguas",
+      "No hay nivel gratuito independiente",
+      "Limitado solo a tareas de codificación"
+    ],
+    "fr": [
+      "Cher au niveau Pro (200 $/mois) pour les gros utilisateurs",
+      "Nécessite des spécifications claires et une bonne couverture de tests",
+      "~1 PR sur 5 nécessite une correction humaine significative",
+      "Pas idéal pour les tâches exploratoires",
+      "Pas de niveau gratuit autonome",
+      "Limité aux tâches de codage uniquement"
+    ]
+  },
+  "latestUpdate": {
+    "en": "2026.07: OpenAI Codex runs on GPT-5-Codex model, scores 70%+ on SWE-bench Verified. Available across ChatGPT Plus ($20/mo), Pro ($200/mo), Team, and Enterprise tiers. Codex CLI is open source for terminal-native workflows. Parallel agent execution supports multiple simultaneous coding tasks.",
+    "zh": "2026年7月：OpenAI Codex 基于 GPT-5-Codex 模型，SWE-bench Verified 得分 70%+。支持 ChatGPT Plus（$20/月）、Pro（$200/月）、Team 和 Enterprise 多个订阅层级。Codex CLI 已开源，支持终端原生工作流和并行多任务执行。",
+    "ja": "2026年7月：OpenAI Codex が GPT-5-Codex モデルを搭載、SWE-bench Verified で 70% 以上を達成。ChatGPT Plus（月額20ドル）、Pro（月額200ドル）、Team、Enterprise で利用可能。Codex CLI は OSS 化。",
+    "es": "Julio 2026: OpenAI Codex funciona con el modelo GPT-5-Codex, 70%+ en SWE-bench Verified. Disponible en ChatGPT Plus (20$/mes), Pro (200$/mes), Team y Enterprise. Codex CLI es de código abierto.",
+    "fr": "Juillet 2026 : OpenAI Codex fonctionne sur le modèle GPT-5-Codex, 70%+ sur SWE-bench Verified. Disponible sur ChatGPT Plus (20$/mois), Pro (200$/mois), Team et Enterprise. Codex CLI est open source."
+  },
+  "verdict": {
+    "badge": "Recommended",
+    "headline": {
+      "en": "OpenAI's autonomous coding agent that executes tasks in a sandboxed environment — set it up and let it work.",
+      "zh": "OpenAI的自主编码智能体，在沙盒环境中执行任务——设置后让它自行工作。",
+      "ja": "OpenAIの自律型コーディングエージェント、サンドボックス環境でタスクを実行。",
+      "es": "El agente de código autónomo de OpenAI que ejecuta tareas en un entorno aislado.",
+      "fr": "L'agent de code autonome d'OpenAI qui exécute des tâches dans un environnement sandboxé."
+    },
+    "body": {
+      "en": "Codex is OpenAI's approach to autonomous coding—a CLI-based agent that can read your repository, write code, run tests, and submit pull requests with minimal human intervention. It operates in a sandboxed cloud environment, safely installing dependencies and iterating on errors.\n\nThe workflow is task-oriented: you describe what needs to happen, and Codex plans and executes the implementation. It works well for well-scoped tasks where the requirements are clear and testable.\n\nThe limitation is that it's less interactive than IDE-based tools. You don't see real-time edits—you get a finished result. For exploratory coding, tools like Cursor or Claude Code give you more control.",
+      "zh": "Codex是OpenAI的自主编码方案——基于CLI的智能体，能读取仓库、编写代码、运行测试并以最少人工干预提交PR。它在沙盒云环境中运行，可以安全地安装依赖和迭代修复错误。\n\n工作流以任务为导向：描述需要完成的事情，Codex规划并执行实现。适合需求明确且可测试的任务。\n\n限制在于交互性不如IDE工具。你看不到实时编辑过程——而是得到完成的结果。",
+      "ja": "CodexはOpenAIの自律コーディングへのアプローチです——リポジトリの読み取り、コード作成、テスト実行、PR送信を最小限の人間介入で行うCLIベースのエージェントです。\n\nワークフローはタスク指向です：必要なことを説明すれば、Codexが計画し実行します。要件が明確でテスト可能なタスクに適しています。\n\n制限はIDEベースのツールより対話性が低い点です。",
+      "es": "Codex es el enfoque de OpenAI para la codificación autónoma — un agente CLI que puede leer tu repositorio, escribir código, ejecutar tests y enviar PRs.\n\nEl flujo es orientado a tareas: describes lo que necesita hacerse y Codex ejecuta la implementación.\n\nLa limitación es que es menos interactivo que herramientas IDE.",
+      "fr": "Codex est l'approche d'OpenAI pour le codage autonome — un agent CLI qui peut lire votre dépôt, écrire du code, exécuter des tests et soumettre des PRs.\n\nLe workflow est orienté tâches : vous décrivez ce qui doit être fait, et Codex exécute.\n\nLa limite est qu'il est moins interactif que les outils IDE."
+    },
+    "bestFor": {
+      "en": [
+        "Well-defined coding tasks you want to fully delegate",
+        "Implementing features from clear specifications",
+        "Automated test writing and bug fixing",
+        "Developers who prefer reviewing finished code over live editing"
+      ],
+      "zh": [
+        "想完全委托的明确编码任务",
+        "根据清晰规格实现功能",
+        "自动化测试编写和Bug修复",
+        "偏好审查完成代码而非实时编辑的开发者"
+      ],
+      "ja": [
+        "完全に委任したい明確なコーディングタスク",
+        "明確な仕様からの機能実装",
+        "自動テスト作成とバグ修正",
+        "完成コードのレビューを好む開発者"
+      ],
+      "es": [
+        "Tareas de código bien definidas que quieres delegar",
+        "Implementar funciones desde especificaciones claras",
+        "Escritura automatizada de tests y corrección de bugs",
+        "Desarrolladores que prefieren revisar código terminado"
+      ],
+      "fr": [
+        "Tâches de code bien définies à déléguer entièrement",
+        "Implémentation de fonctionnalités à partir de spécifications claires",
+        "Écriture automatisée de tests et correction de bugs",
+        "Développeurs préférant revoir du code fini"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You want real-time interactive coding assistance in your editor (→ Cursor, GitHub Copilot)",
+        "You need project-wide understanding with live iteration (→ Claude Code)",
+        "You prefer a visual IDE experience over CLI workflows (→ Windsurf, Cursor)"
+      ],
+      "zh": [
+        "你需要编辑器中的实时交互式编码辅助（→ Cursor、GitHub Copilot）",
+        "你需要带实时迭代的项目级理解（→ Claude Code）",
+        "你偏好可视化IDE体验而非CLI工作流（→ Windsurf、Cursor）"
+      ],
+      "ja": [
+        "エディタでのリアルタイムコーディング支援が欲しい場合（→ Cursor、GitHub Copilot）",
+        "ライブ反復付きのプロジェクト全体理解が必要な場合（→ Claude Code）",
+        "ビジュアルIDE体験を好む場合（→ Windsurf、Cursor）"
+      ],
+      "es": [
+        "Quieres asistencia de código interactiva en tiempo real (→ Cursor, GitHub Copilot)",
+        "Necesitas comprensión del proyecto con iteración en vivo (→ Claude Code)",
+        "Prefieres una experiencia IDE visual (→ Windsurf, Cursor)"
+      ],
+      "fr": [
+        "Vous voulez une aide au code interactive en temps réel (→ Cursor, GitHub Copilot)",
+        "Vous avez besoin d'une compréhension projet avec itération en direct (→ Claude Code)",
+        "Vous préférez une expérience IDE visuelle (→ Windsurf, Cursor)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-27",
+    "verdictDate": "2026-07-27",
+    "pricingVerified": "2026-07-27"
+  }
+}

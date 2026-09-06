@@ -1,0 +1,31 @@
+{
+  "slug": "baichuan-ai",
+  "name": "Baichuan AI",
+  "nameZh": "百川智能",
+  "description": "王小川创办的百川智能推出的大语言模型，在医疗、金融等垂直领域表现优异，支持开源",
+  "descriptionEn": "LLM by Baichuan AI (founded by Wang Xiaochuan), excelling in vertical domains like healthcare and finance, open-source available",
+  "descriptionJa": "王小川が創設したBaichuan AIのLLM。医療、金融などの垂直領域で優れ、オープンソース対応",
+  "descriptionEs": "LLM de Baichuan AI (fundada por Wang Xiaochuan), destaca en dominios verticales como salud y finanzas, versión open-source disponible",
+  "descriptionFr": "LLM de Baichuan AI (fondée par Wang Xiaochuan), excellant dans les domaines verticaux comme la santé et la finance, version open-source disponible",
+  "url": "https://www.baichuan-ai.com",
+  "logo": "/logos/tools/baichuan-ai.png",
+  "category": "Foundation Models",
+  "tags": [
+    "Free",
+    "Open Source",
+    "API"
+  ],
+  "featured": false,
+  "developer": "Baichuan AI",
+  "developerZh": "百川智能",
+  "platforms": {
+    "web": true,
+    "windows": false,
+    "macos": false,
+    "ios": true,
+    "android": true,
+    "linux": false,
+    "browser_extension": false,
+    "api": true
+  }
+}

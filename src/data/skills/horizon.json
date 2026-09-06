@@ -1,0 +1,77 @@
+{
+  "slug": "horizon",
+  "name": "Horizon",
+  "nameZh": "Horizon",
+  "description": "每天热点和趋势简报，资讯雷达，掌握最新动态",
+  "descriptionEn": "Daily hot topics and trend briefings - your information radar to stay on top of the latest",
+  "descriptionJa": "毎日のホットトピックとトレンドブリーフィング - 最新情報を把握する情報レーダー",
+  "descriptionEs": "Temas candentes y resúmenes de tendencias diarios - tu radar de información para estar al día",
+  "descriptionFr": "Sujets chauds et briefings de tendances quotidiens - votre radar d'information pour rester à jour",
+  "developer": "Community",
+  "developerZh": "社区",
+  "repo": "Thysrael/Horizon",
+  "agents": [
+    "claude",
+    "cursor",
+    "codex",
+    "generic"
+  ],
+  "category": "Search",
+  "tags": [
+    "Free"
+  ],
+  "installCommand": "git clone https://github.com/Thysrael/Horizon.git && cd Horizon",
+  "logo": "/logos/skills/horizon.png",
+  "stars": 9251,
+  "featured": false,
+  "faqs": [
+    {
+      "question": {
+        "en": "How do I install this skill?",
+        "zh": "如何安装这个技能？",
+        "ja": "このスキルをインストールするには？",
+        "es": "¿Cómo instalo este skill?",
+        "fr": "Comment installer ce skill ?"
+      },
+      "answer": {
+        "en": "Run the install command in your agent terminal.",
+        "zh": "在智能体的终端中运行安装命令。",
+        "ja": "エージェントのターミナルでインストールコマンドを実行します。",
+        "es": "Ejecuta el comando de instalación en la terminal de tu agente.",
+        "fr": "Exécutez la commande d'installation dans le terminal de votre agent."
+      }
+    },
+    {
+      "question": {
+        "en": "Which agents support this skill?",
+        "zh": "哪些智能体支持这个技能？",
+        "ja": "どのエージェントがこのスキルをサポートしていますか？",
+        "es": "¿Qué agentes son compatibles con este skill?",
+        "fr": "Quels agents supportent ce skill ?"
+      },
+      "answer": {
+        "en": "Claude Code, Cursor, Codex, and other MCP-compatible agents.",
+        "zh": "Claude Code、Cursor、Codex 和其他 MCP 兼容的智能体。",
+        "ja": "Claude Code、Cursor、Codex、およびその他のMCP互換エージェント。",
+        "es": "Claude Code, Cursor, Codex y otros agentes compatibles con MCP.",
+        "fr": "Claude Code, Cursor, Codex et autres agents compatibles MCP."
+      }
+    },
+    {
+      "question": {
+        "en": "Is this skill free?",
+        "zh": "这个技能免费吗？",
+        "ja": "このスキルは無料ですか？",
+        "es": "¿Este skill es gratuito?",
+        "fr": "Ce skill est-il gratuit ?"
+      },
+      "answer": {
+        "en": "Yes, it is free and open source.",
+        "zh": "是的，免费且开源。",
+        "ja": "はい、無料でオープンソースです。",
+        "es": "Sí, es gratuito y de código abierto.",
+        "fr": "Oui, il est gratuit et open source."
+      }
+    }
+  ]
+}

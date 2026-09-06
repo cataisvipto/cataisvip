@@ -1,0 +1,235 @@
+{
+  "features": {
+    "en": [
+      "OpenAI-compatible inference API for open models: Llama, Qwen, DeepSeek, image and audio models",
+      "On-demand GPU rental (H100 and more) alongside the hosted inference API",
+      "Transparent, up-front per-token and per-GPU-hour pricing",
+      "Serverless inference plus rentable compute from a single account",
+      "Base-model and instruct variants exposed for fine-grained control",
+      "Used by 250k+ developers and researchers for affordable AI compute"
+    ],
+    "zh": [
+      "OpenAI 兼容推理 API，覆盖开源模型：Llama、Qwen、DeepSeek，以及图像与音频模型",
+      "在托管推理 API 之外，另提供按需 GPU 租用（H100 等）",
+      "透明前置的每 token 与每 GPU 小时定价",
+      "Serverless 推理加可租算力，同一账号搞定",
+      "开放基座模型与 instruct 变体，便于精细控制",
+      "已服务 25 万+ 开发者与研究者的低成本 AI 算力需求"
+    ],
+    "ja": [
+      "OpenAI互換の推論API。Llama、Qwen、DeepSeek、画像・音声モデルに対応",
+      "ホスト型推論APIに加え、オンデマンドGPUレンタル（H100など）",
+      "透明で前もって示されるトークン単価とGPU時間単価",
+      "サーバーレス推論とレンタル可能なコンピュートを一つのアカウントで",
+      "ベースモデルとinstructバリアントを公開し、細かな制御が可能",
+      "25万人以上の開発者・研究者が手頃なAIコンピュートに利用"
+    ],
+    "es": [
+      "API de inferencia compatible con OpenAI para modelos abiertos: Llama, Qwen, DeepSeek, modelos de imagen y audio",
+      "Alquiler de GPU bajo demanda (H100 y más) junto a la API de inferencia alojada",
+      "Precios transparentes y por adelantado por token y por hora de GPU",
+      "Inferencia serverless más cómputo alquilable desde una sola cuenta",
+      "Variantes de modelo base e instruct expuestas para control preciso",
+      "Usado por más de 250 000 desarrolladores e investigadores para cómputo de IA asequible"
+    ],
+    "fr": [
+      "API d'inférence compatible OpenAI pour modèles ouverts : Llama, Qwen, DeepSeek, modèles image et audio",
+      "Location de GPU à la demande (H100 et plus) aux côtés de l'API d'inférence hébergée",
+      "Tarification transparente et affichée d'avance au token et à l'heure GPU",
+      "Inférence serverless plus calcul louable depuis un seul compte",
+      "Variantes base et instruct exposées pour un contrôle fin",
+      "Utilisé par plus de 250 000 développeurs et chercheurs pour du calcul IA abordable"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "New accounts get starter credits to call the inference API; there is no perpetual free compute tier, so sustained usage requires topping up.",
+      "zh": "新账号获入门额度调用推理 API；没有永久免费算力档，持续使用需充值。",
+      "ja": "新規アカウントには推論APIを呼び出すためのスタータークレジットが付与される。恒久的な無料コンピュート枠はなく、継続利用には入金が必要。",
+      "es": "Las cuentas nuevas reciben créditos iniciales para llamar a la API de inferencia; no hay un nivel de cómputo gratuito perpetuo, así que el uso sostenido requiere recargar.",
+      "fr": "Les nouveaux comptes reçoivent des crédits de départ pour appeler l'API d'inférence ; il n'y a pas de niveau de calcul gratuit perpétuel, donc un usage soutenu nécessite de recharger."
+    },
+    "paid": {
+      "en": "Pay-as-you-go: inference is billed per million tokens by model (open models are priced well below closed-model APIs), and rentable GPUs are billed per hour with H100-class instances quoted up front. All rates are listed publicly on the site rather than hidden behind sales. (Verified against official sources, 2026-07-28.)",
+      "zh": "按量付费：推理按模型每百万 token 计费（开源模型价格远低于闭源模型 API），可租 GPU 按小时计费、H100 级实例价格前置公示。所有费率在官网公开列出，而非藏在销售环节。（对照官方来源核实，2026-07-28。）",
+      "ja": "従量課金：推論はモデルごとに100万トークン単位で課金（オープンモデルはクローズドモデルAPIよりかなり安い）、レンタルGPUは時間単位でH100クラスの価格が前もって提示される。すべての料率は営業の裏ではなくサイト上で公開。（公式ソースと照合、2026-07-28。）",
+      "es": "Pago por uso: la inferencia se factura por millón de tokens según el modelo (los modelos abiertos cuestan mucho menos que las APIs de modelos cerrados), y las GPU alquilables se facturan por hora con instancias clase H100 cotizadas por adelantado. Todas las tarifas se listan públicamente en el sitio. (Verificado con fuentes oficiales, 2026-07-28.)",
+      "fr": "Paiement à l'usage : l'inférence est facturée au million de tokens selon le modèle (les modèles ouverts coûtent bien moins que les API de modèles fermés), et les GPU louables sont facturés à l'heure avec des instances de classe H100 affichées d'avance. Tous les tarifs sont publiés sur le site. (Vérifié avec des sources officielles, 2026-07-28.)"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Calling open LLMs cheaply through an OpenAI-compatible endpoint",
+      "Renting H100-class GPUs on demand for training or heavy inference",
+      "Researchers who need base-model access, not just instruct variants",
+      "Builders wanting hosted inference and rentable compute in one place"
+    ],
+    "zh": [
+      "通过 OpenAI 兼容端点低成本调用开源 LLM",
+      "按需租用 H100 级 GPU 做训练或重推理",
+      "需要基座模型访问（而非仅 instruct 变体）的研究者",
+      "想要托管推理与可租算力一站搞定的开发者"
+    ],
+    "ja": [
+      "OpenAI互換エンドポイント経由でオープンLLMを安価に呼び出す",
+      "トレーニングや重い推論のためにH100クラスGPUをオンデマンドで借りる",
+      "instructバリアントだけでなくベースモデルへのアクセスが必要な研究者",
+      "ホスト型推論とレンタル可能なコンピュートを一箇所で欲しいビルダー"
+    ],
+    "es": [
+      "Llamar a LLMs abiertos de forma económica mediante un endpoint compatible con OpenAI",
+      "Alquilar GPUs clase H100 bajo demanda para entrenamiento o inferencia pesada",
+      "Investigadores que necesitan acceso a modelos base, no solo variantes instruct",
+      "Builders que quieren inferencia alojada y cómputo alquilable en un solo lugar"
+    ],
+    "fr": [
+      "Appeler des LLM ouverts à moindre coût via un endpoint compatible OpenAI",
+      "Louer des GPU de classe H100 à la demande pour l'entraînement ou l'inférence lourde",
+      "Chercheurs ayant besoin d'accès aux modèles base, pas seulement aux variantes instruct",
+      "Builders voulant inférence hébergée et calcul louable au même endroit"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Open-model inference priced well below closed-model APIs",
+      "Both hosted API and on-demand GPU rental from one account",
+      "Transparent up-front rates instead of sales-gated quotes",
+      "Base-model access appeals to researchers and power users"
+    ],
+    "zh": [
+      "开源模型推理价格远低于闭源模型 API",
+      "托管 API 与按需 GPU 租用同账号打通",
+      "费率透明前置，无需走销售询价",
+      "开放基座模型访问，吸引研究者与高级用户"
+    ],
+    "ja": [
+      "オープンモデル推論がクローズドモデルAPIよりかなり安い",
+      "ホスト型APIとオンデマンドGPUレンタルを一つのアカウントで",
+      "営業を通さない透明な前払い料率",
+      "ベースモデルアクセスが研究者やパワーユーザーに魅力的"
+    ],
+    "es": [
+      "Inferencia de modelos abiertos muy por debajo de las APIs de modelos cerrados",
+      "API alojada y alquiler de GPU bajo demanda desde una sola cuenta",
+      "Tarifas transparentes por adelantado en lugar de cotizaciones vía ventas",
+      "El acceso a modelos base atrae a investigadores y usuarios avanzados"
+    ],
+    "fr": [
+      "Inférence de modèles ouverts bien moins chère que les API de modèles fermés",
+      "API hébergée et location de GPU à la demande depuis un seul compte",
+      "Tarifs transparents affichés d'avance plutôt que des devis via commercial",
+      "L'accès aux modèles base séduit chercheurs et utilisateurs avancés"
+    ]
+  },
+  "cons": {
+    "en": [
+      "No perpetual free compute tier — sustained use needs a top-up",
+      "Smaller model catalog than broad aggregators like Together or OpenRouter",
+      "Younger company with a shorter track record than hyperscalers",
+      "GPU availability can vary with demand for popular instance types"
+    ],
+    "zh": [
+      "没有永久免费算力档——持续使用需充值",
+      "模型目录比 Together、OpenRouter 等广谱聚合商小",
+      "公司较年轻，履历短于超大规模云厂商",
+      "热门实例型号的 GPU 供给会随需求波动"
+    ],
+    "ja": [
+      "恒久的な無料コンピュート枠はなく、継続利用には入金が必要",
+      "TogetherやOpenRouterのような広範なアグリゲーターよりモデルカタログが小さい",
+      "ハイパースケーラーより実績が短い若い企業",
+      "人気インスタンス種別のGPU可用性は需要により変動しうる"
+    ],
+    "es": [
+      "No hay nivel de cómputo gratuito perpetuo: el uso sostenido necesita recarga",
+      "Catálogo de modelos más pequeño que agregadores amplios como Together u OpenRouter",
+      "Empresa más joven con menos trayectoria que los hyperscalers",
+      "La disponibilidad de GPU puede variar con la demanda de tipos de instancia populares"
+    ],
+    "fr": [
+      "Pas de niveau de calcul gratuit perpétuel — un usage soutenu nécessite une recharge",
+      "Catalogue de modèles plus petit que les agrégateurs larges comme Together ou OpenRouter",
+      "Entreprise plus jeune avec un historique plus court que les hyperscalers",
+      "La disponibilité GPU peut varier selon la demande pour les types d'instances populaires"
+    ]
+  },
+  "latestUpdate": {
+    "en": "2026: Hyperbolic continues to grow its community of 250k+ developers, keeping open-model inference cheap and pairing it with on-demand H100-class GPU rental, positioning itself as an affordable, transparent alternative to both closed-model APIs and hyperscaler compute.",
+    "zh": "2026 年：Hyperbolic 持续壮大其 25 万+ 开发者社区，维持开源模型推理的低价，并搭配按需 H100 级 GPU 租用，把自己定位为闭源模型 API 与超大规模云算力之外、既便宜又透明的替代选择。",
+    "ja": "2026年：Hyperbolicは25万人超の開発者コミュニティを拡大し続け、オープンモデル推論を安く保ちつつオンデマンドのH100クラスGPUレンタルと組み合わせ、クローズドモデルAPIとハイパースケーラー計算の両方に対する手頃で透明な代替として自らを位置づけている。",
+    "es": "2026: Hyperbolic sigue haciendo crecer su comunidad de más de 250 000 desarrolladores, manteniendo barata la inferencia de modelos abiertos y combinándola con alquiler de GPU clase H100 bajo demanda, posicionándose como una alternativa asequible y transparente tanto a las APIs de modelos cerrados como al cómputo de los hyperscalers.",
+    "fr": "2026 : Hyperbolic continue de faire grandir sa communauté de plus de 250 000 développeurs, gardant l'inférence de modèles ouverts bon marché et l'associant à la location de GPU de classe H100 à la demande, se positionnant comme une alternative abordable et transparente aux API de modèles fermés comme au calcul des hyperscalers."
+  },
+  "verdict": {
+    "badge": "Worth Trying",
+    "headline": {
+      "en": "Cheap open-model inference and rentable GPUs, with prices you can actually see",
+      "zh": "便宜的开源模型推理加可租 GPU，价格明明白白摆在台面上",
+      "ja": "安いオープンモデル推論とレンタル可能なGPU、しかも価格がちゃんと見える",
+      "es": "Inferencia barata de modelos abiertos y GPUs alquilables, con precios que realmente puedes ver",
+      "fr": "Inférence de modèles ouverts bon marché et GPU louables, avec des prix réellement visibles"
+    },
+    "body": {
+      "en": "Hyperbolic sits in a crowded lane — open-model inference clouds — but earns attention two ways: its per-token prices for models like Llama and DeepSeek undercut the closed-model APIs by a wide margin, and it puts those numbers on the page instead of behind a sales call. On top of the OpenAI-compatible inference API, you can rent H100-class GPUs by the hour, so a team can prototype against the hosted endpoint and then rent raw compute for training without changing vendors. Founded by researchers and used by a 250k-strong developer community, it also exposes base-model variants that instruct-only providers hide — handy for anyone doing real experimentation. The trade-offs are the usual ones for a younger challenger: no perpetual free compute tier, a narrower catalog than mega-aggregators, and GPU availability that flexes with demand. But if you want honest, low pricing on open models and the option to rent compute in the same place, Hyperbolic is a solid pick worth benchmarking against Together, Novita and OpenRouter.",
+      "zh": "Hyperbolic 身处一条拥挤的赛道——开源模型推理云——却靠两点赢得关注：它对 Llama、DeepSeek 等模型的每 token 价格大幅低于闭源模型 API，而且把这些数字直接写在页面上，而不是藏在销售电话后面。在 OpenAI 兼容推理 API 之上，你还能按小时租 H100 级 GPU，于是团队可以先对着托管端点做原型，再租裸算力做训练，全程不换供应商。它由研究者创办，背后是 25 万人的开发者社区，还开放了 instruct-only 供应商藏起来的基座模型变体——对真正做实验的人很实用。代价是年轻挑战者的通病：没有永久免费算力档、目录比超级聚合商窄、GPU 供给随需求起伏。但如果你想要开源模型上诚实的低价，还想在同一处租算力，Hyperbolic 是个扎实的选择，值得拿来和 Together、Novita、OpenRouter 对比测评。",
+      "ja": "Hyperbolicは混雑したレーン——オープンモデル推論クラウド——に位置するが、2つの点で注目に値する。LlamaやDeepSeekなどのモデルのトークン単価がクローズドモデルAPIを大きく下回り、しかもその数字を営業電話の裏ではなくページ上に載せている点だ。OpenAI互換の推論APIに加え、H100クラスのGPUを時間単位で借りられるので、チームはホスト型エンドポイントで試作し、その後ベンダーを変えずに生の計算資源を借りてトレーニングできる。研究者によって創業され25万人規模の開発者コミュニティに使われており、instruct専用プロバイダーが隠すベースモデルのバリアントも公開している——本格的に実験する人には便利だ。トレードオフは若い挑戦者にありがちなもの：恒久無料計算枠なし、メガアグリゲーターより狭いカタログ、需要で変動するGPU可用性。しかしオープンモデルで誠実な低価格を求め、同じ場所で計算資源も借りたいなら、HyperbolicはTogether、Novita、OpenRouterと比較検証する価値のある堅実な選択だ。",
+      "es": "Hyperbolic está en un carril concurrido —nubes de inferencia de modelos abiertos— pero llama la atención de dos maneras: sus precios por token para modelos como Llama y DeepSeek están muy por debajo de las APIs de modelos cerrados, y pone esas cifras en la página en vez de detrás de una llamada de ventas. Sobre la API de inferencia compatible con OpenAI, puedes alquilar GPUs clase H100 por hora, así que un equipo puede prototipar contra el endpoint alojado y luego alquilar cómputo en bruto para entrenar sin cambiar de proveedor. Fundada por investigadores y usada por una comunidad de 250 000 desarrolladores, también expone variantes de modelo base que los proveedores solo-instruct ocultan, útil para quien experimenta de verdad. Las contrapartidas son las típicas de un retador joven: sin nivel de cómputo gratuito perpetuo, catálogo más estrecho que los megaagregadores y disponibilidad de GPU que fluctúa con la demanda. Pero si quieres precios honestos y bajos en modelos abiertos y la opción de alquilar cómputo en el mismo sitio, Hyperbolic es una elección sólida que vale la pena comparar con Together, Novita y OpenRouter.",
+      "fr": "Hyperbolic évolue dans un couloir encombré — les clouds d'inférence de modèles ouverts — mais retient l'attention de deux façons : ses prix au token pour des modèles comme Llama et DeepSeek sont nettement inférieurs aux API de modèles fermés, et il affiche ces chiffres sur la page plutôt que derrière un appel commercial. En plus de l'API d'inférence compatible OpenAI, vous pouvez louer des GPU de classe H100 à l'heure, de sorte qu'une équipe peut prototyper sur l'endpoint hébergé puis louer du calcul brut pour l'entraînement sans changer de fournisseur. Fondée par des chercheurs et utilisée par une communauté de 250 000 développeurs, elle expose aussi des variantes de modèle base que les fournisseurs instruct-only cachent — pratique pour qui expérimente vraiment. Les compromis sont ceux d'un jeune challenger : pas de niveau de calcul gratuit perpétuel, un catalogue plus étroit que les méga-agrégateurs, et une disponibilité GPU qui varie selon la demande. Mais si vous voulez des prix honnêtes et bas sur les modèles ouverts et l'option de louer du calcul au même endroit, Hyperbolic est un choix solide à comparer avec Together, Novita et OpenRouter."
+    },
+    "bestFor": {
+      "en": [
+        "Developers wanting cheap open-model inference with transparent pricing",
+        "Teams that need both a hosted API and rentable H100-class GPUs",
+        "Researchers who need base-model access, not just instruct variants"
+      ],
+      "zh": [
+        "想要透明定价、低成本开源模型推理的开发者",
+        "既要托管 API 又要可租 H100 级 GPU 的团队",
+        "需要基座模型访问（而非仅 instruct 变体）的研究者"
+      ],
+      "ja": [
+        "透明な価格で安いオープンモデル推論が欲しい開発者",
+        "ホスト型APIとレンタル可能なH100クラスGPUの両方が必要なチーム",
+        "instructバリアントだけでなくベースモデルアクセスが必要な研究者"
+      ],
+      "es": [
+        "Desarrolladores que quieren inferencia barata de modelos abiertos con precios transparentes",
+        "Equipos que necesitan tanto una API alojada como GPUs clase H100 alquilables",
+        "Investigadores que necesitan acceso a modelos base, no solo variantes instruct"
+      ],
+      "fr": [
+        "Développeurs voulant une inférence de modèles ouverts bon marché avec des prix transparents",
+        "Équipes ayant besoin à la fois d'une API hébergée et de GPU de classe H100 louables",
+        "Chercheurs ayant besoin d'accès aux modèles base, pas seulement aux variantes instruct"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You need the widest open-model catalog or frontier proprietary models (→ Together AI / OpenRouter / OpenAI)",
+        "You want the absolute fastest inference speed (→ Cerebras / Groq)"
+      ],
+      "zh": [
+        "你需要最广的开源模型目录或闭源前沿模型（→ Together AI / OpenRouter / OpenAI）",
+        "你要绝对最快的推理速度（→ Cerebras / Groq）"
+      ],
+      "ja": [
+        "最も広いオープンモデルカタログまたはクローズドなフロンティアモデルが必要（→ Together AI / OpenRouter / OpenAI）",
+        "絶対的に最速の推論速度が欲しい（→ Cerebras / Groq）"
+      ],
+      "es": [
+        "Necesitas el catálogo de modelos abiertos más amplio o modelos frontera propietarios (→ Together AI / OpenRouter / OpenAI)",
+        "Quieres la velocidad de inferencia absolutamente más rápida (→ Cerebras / Groq)"
+      ],
+      "fr": [
+        "Vous avez besoin du catalogue de modèles ouverts le plus large ou de modèles frontière propriétaires (→ Together AI / OpenRouter / OpenAI)",
+        "Vous voulez la vitesse d'inférence absolument la plus rapide (→ Cerebras / Groq)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-28",
+    "verdictDate": "2026-07-28",
+    "pricingVerified": "2026-07-28",
+    "pricingUrl": "https://www.hyperbolic.ai/inference"
+  }
+}

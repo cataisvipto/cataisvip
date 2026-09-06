@@ -1,0 +1,29 @@
+{
+  "slug": "trae",
+  "name": "Trae",
+  "nameZh": "Trae",
+  "description": "字节跳动推出的 AI 原生 IDE（国际版），基于 VS Code，集成 Claude、GPT 等国际顶级模型，支持自然语言一键生成代码",
+  "descriptionEn": "AI-native IDE by ByteDance (international), built on VS Code, integrating top models like Claude and GPT, generating code from natural language",
+  "descriptionJa": "ByteDance が提供する AI ネイティブ IDE（国際版）。VS Code ベースで、Claude や GPT などの一流モデルを統合し、自然言語からコードを生成",
+  "descriptionEs": "IDE nativo de IA de ByteDance (internacional), basado en VS Code, que integra modelos de primer nivel como Claude y GPT y genera código a partir de lenguaje natural",
+  "descriptionFr": "IDE natif IA de ByteDance (international), basé sur VS Code, intégrant des modèles de premier plan comme Claude et GPT et générant du code à partir du langage naturel",
+  "url": "https://www.trae.ai",
+  "logo": "/logos/tools/trae.png",
+  "category": "Code",
+  "tags": [
+    "Freemium"
+  ],
+  "featured": false,
+  "developer": "ByteDance",
+  "developerZh": "字节跳动",
+  "platforms": {
+    "web": false,
+    "windows": true,
+    "macos": true,
+    "ios": false,
+    "android": false,
+    "linux": true,
+    "browser_extension": false,
+    "api": false
+  }
+}

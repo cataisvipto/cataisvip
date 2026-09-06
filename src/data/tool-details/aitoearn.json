@@ -1,0 +1,230 @@
+{
+  "features": {
+    "en": [
+      "AI agent automation for content creation, publishing and monetization",
+      "Supports 13 platforms: Douyin, Xiaohongshu, Kuaishou, Bilibili, Video Account, TikTok, YouTube, Facebook, Instagram, Threads, X, Pinterest, LinkedIn",
+      "Web app (no deployment needed) + Docker self-hosting + source development options",
+      "MCP protocol support — usable from Claude, Cursor and any MCP-capable agent",
+      "OpenClaw integration for executing content monetization tasks",
+      "Content trading marketplace (v2.1)",
+      "Offline merchant promotion solutions for restaurants, retail, homestays, gyms",
+      "Built-in AI agents for automatic content generation and publishing"
+    ],
+    "zh": [
+      "AI 智能体自动化：内容创建、发布与变现一站式",
+      "支持 13 个平台：抖音、小红书、快手、哔哩哔哩、视频号、TikTok、YouTube、Facebook、Instagram、Threads、X、Pinterest、LinkedIn",
+      "网页版（免部署）+ Docker 私有化部署 + 源码开发三种方式",
+      "MCP 协议支持，可从 Claude、Cursor 等任何支持 MCP 的智能体使用",
+      "支持 OpenClaw（龙虾）集成，直接执行内容变现任务",
+      "内容交易市场（v2.1 上线）",
+      "线下商户推广解决方案（餐厅、零售、民宿、健身房等）",
+      "内置超级 AI 智能体，自动内容生成与发布"
+    ],
+    "ja": [
+      "AIエージェント自動化：コンテンツ作成・公開・収益化をワンストップで",
+      "13のプラットフォームに対応：抖音、小紅書、快手、Bilibili、動画アカウント、TikTok、YouTube、Facebook、Instagram、Threads、X、Pinterest、LinkedIn",
+      "Webアプリ（デプロイ不要）+ Dockerセルフホスティング + ソース開発の3方式",
+      "MCPプロトコル対応、Claude、CursorなどのMCP対応エージェントから利用可能",
+      "OpenClaw統合でコンテンツ収益化タスクを直接実行",
+      "コンテンツ取引マーケットプレイス（v2.1）",
+      "飲食店、小売、民泊、ジムなど向けオフライン店舗プロモーションソリューション",
+      "コンテンツ自動生成・公開を行うスーパーAIエージェント内蔵"
+    ],
+    "es": [
+      "Automatización con agentes IA: creación, publicación y monetización de contenido todo en uno",
+      "Soporta 13 plataformas: Douyin, Xiaohongshu, Kuaishou, Bilibili, Video Account, TikTok, YouTube, Facebook, Instagram, Threads, X, Pinterest, LinkedIn",
+      "Web app (sin despliegue) + Docker self-hosting + desarrollo desde código",
+      "Soporte de protocolo MCP — usable desde Claude, Cursor y cualquier agente MCP",
+      "Integración con OpenClaw para ejecutar tareas de monetización",
+      "Marketplace de comercio de contenido (v2.1)",
+      "Soluciones de promoción para comercios offline (restaurantes, retail, homestays, gimnasios)",
+      "Agentes IA integrados para generación y publicación automática"
+    ],
+    "fr": [
+      "Automatisation par agents IA : création, publication et monétisation de contenu en un seul endroit",
+      "13 plateformes : Douyin, Xiaohongshu, Kuaishou, Bilibili, Video Account, TikTok, YouTube, Facebook, Instagram, Threads, X, Pinterest, LinkedIn",
+      "Web app (sans déploiement) + Docker self-hosting + développement depuis les sources",
+      "Support du protocole MCP — utilisable depuis Claude, Cursor et tout agent compatible MCP",
+      "Intégration OpenClaw pour exécuter des tâches de monétisation",
+      "Marketplace de contenu (v2.1)",
+      "Solutions de promotion pour commerces hors ligne (restaurants, retail, homestays, salles de sport)",
+      "Agents IA intégrés pour la génération et publication automatique"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Open source (MIT) with a cloud SaaS at aitoearn.ai (API keys required for platform publishing).",
+      "zh": "开源（MIT 协议）+ 云端 SaaS（aitoearn.ai），平台发布需 API Key。",
+      "ja": "オープンソース（MITライセンス）+ クラウドSaaS（aitoearn.ai）。プラットフォーム公開にはAPIキーが必要。",
+      "es": "Código abierto (MIT) con SaaS en nube en aitoearn.ai (se requieren claves API para publicar en plataformas).",
+      "fr": "Open source (MIT) avec SaaS cloud sur aitoearn.ai (clés API requises pour la publication sur les plateformes)."
+    }
+  },
+  "useCases": {
+    "en": [
+      "One-person companies (OPC) automating multi-platform content marketing",
+      "Creators and brands distributing content across Chinese and global platforms",
+      "Local businesses (restaurants, retail, homestays, gyms) running offline-to-online promotion campaigns"
+    ],
+    "zh": [
+      "一人公司（OPC）自动化多平台内容营销",
+      "创作者与品牌在国内外平台分发内容",
+      "本地商家（餐厅、零售、民宿、健身房）运行线上线下联动的推广活动"
+    ],
+    "ja": [
+      "一人会社（OPC）によるマルチプラットフォームコンテンツマーケティングの自動化",
+      "クリエイターとブランドが国内外プラットフォームでコンテンツを配信",
+      "地域ビジネス（飲食店、小売、民泊、ジム）がオンライン×オフライン連動プロモーションを実行"
+    ],
+    "es": [
+      "One-person companies (OPC) que automatizan marketing de contenido multiplataforma",
+      "Creadores y marcas que distribuyen contenido en plataformas chinas y globales",
+      "Negocios locales (restaurantes, retail, homestays, gimnasios) con campañas de promoción offline-a-online"
+    ],
+    "fr": [
+      "One-person companies (OPC) automatisant le marketing de contenu multiplateforme",
+      "Créateurs et marques distribuant du contenu sur les plateformes chinoises et mondiales",
+      "Commerces locaux (restaurants, retail, homestays, salles de sport) menant des campagnes offline-vers-online"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Broad platform coverage (13 platforms) — rare in one tool",
+      "Multiple usage modes: web app, Docker self-host, MCP integration, OpenClaw",
+      "Active development with frequent releases (v2.5 as of June 2026)",
+      "MIT licensed with a global user base",
+      "MCP protocol support makes it usable from any modern AI agent"
+    ],
+    "zh": [
+      "平台覆盖广（13 个平台）——同类工具罕见",
+      "多种使用方式：网页版、Docker 私有化、MCP 集成、OpenClaw",
+      "开发活跃，发布频繁（截至 2026 年 6 月 v2.5）",
+      "MIT 协议，全球用户基础",
+      "支持 MCP 协议，可从任何现代 AI 智能体使用"
+    ],
+    "ja": [
+      "プラットフォーム対応が広い（13プラットフォーム）——同種ツールでは珍しい",
+      "複数の利用方法：Webアプリ、Dockerセルフホスト、MCP統合、OpenClaw",
+      "開発が活発で頻繁にリリース（2026年6月時点でv2.5）",
+      "MITライセンス、グローバルなユーザーベース",
+      "MCPプロトコル対応で、あらゆる最新AIエージェントから利用可能"
+    ],
+    "es": [
+      "Amplia cobertura de plataformas (13) — raro en una sola herramienta",
+      "Múltiples modos de uso: web app, Docker self-host, integración MCP, OpenClaw",
+      "Desarrollo activo con lanzamientos frecuentes (v2.5 a junio de 2026)",
+      "Licencia MIT con base de usuarios global",
+      "Soporte de protocolo MCP para usarlo desde cualquier agente IA moderno"
+    ],
+    "fr": [
+      "Large couverture de plateformes (13) — rare en un seul outil",
+      "Plusieurs modes : web app, Docker self-host, intégration MCP, OpenClaw",
+      "Développement actif avec versions fréquentes (v2.5 depuis juin 2026)",
+      "Licence MIT avec base d'utilisateurs mondiale",
+      "Support du protocole MCP pour l'utiliser depuis n'importe quel agent IA moderne"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Platform publishing requires API keys — not a fully zero-config experience",
+      "Lacks a SECURITY.md (verified 2026-08-11) — vulnerability disclosure channel unclear",
+      "Documentation is primarily Chinese-first with some English/Japanese translation",
+      "Content monetization features tied to specific platform policies that change frequently"
+    ],
+    "zh": [
+      "平台发布需要 API Key，并非完全零配置",
+      "缺少 SECURITY.md（2026-08-11 核验）——漏洞披露渠道不明确",
+      "文档以中文为主，部分英日翻译",
+      "内容变现功能依赖具体平台政策，政策变动频繁"
+    ],
+    "ja": [
+      "プラットフォーム公開にはAPIキーが必要で、完全なゼロコンフィグではない",
+      "SECURITY.mdがない（2026-08-11確認）——脆弱性開示チャネルが不明確",
+      "ドキュメントは主に中国語で、一部英日翻訳あり",
+      "コンテンツ収益化機能は頻繁に変わる各プラットフォームのポリシーに依存"
+    ],
+    "es": [
+      "La publicación en plataformas requiere claves API — no es una experiencia totalmente zero-config",
+      "Carece de SECURITY.md (verificado 2026-08-11) — canal de divulgación de vulnerabilidades poco claro",
+      "Documentación principalmente en chino con algo de traducción al inglés/japonés",
+      "Las funciones de monetización dependen de políticas de plataforma que cambian con frecuencia"
+    ],
+    "fr": [
+      "La publication sur les plateformes nécessite des clés API — pas une expérience totalement zero-config",
+      "Pas de SECURITY.md (vérifié le 2026-08-11) — canal de divulgation des vulnérabilités peu clair",
+      "Documentation principalement en chinois avec un peu de traduction anglais/japonais",
+      "La monétisation dépend de politiques de plateformes qui changent fréquemment"
+    ]
+  },
+  "latestUpdate": {
+    "en": "June 2026 (v2.5): Relay configuration moved to the config console with Server Relay / AI Relay split; open platform launched. May 2026 (v2.4): draft generation adds HappyHorse 1.0 and Seedance 2.0, batch generation, multi-model selection.",
+    "zh": "2026年6月（v2.5）：Relay 配置改到配置管理界面，拆分为 Server Relay 与 AI Relay，开放平台上线。2026年5月（v2.4）：草稿生成新增 HappyHorse 1.0 和 Seedance 2.0，支持批量生成、多模型选择。",
+    "ja": "2026年6月（v2.5）：Relay設定を設定管理画面に移行し、Server RelayとAI Relayに分割、オープンプラットフォームを公開。2026年5月（v2.4）：ドラフト生成にHappyHorse 1.0とSeedance 2.0を追加、バッチ生成・複数モデル選択に対応。",
+    "es": "Junio 2026 (v2.5): configuración de Relay movida a la consola con división Server Relay / AI Relay; plataforma abierta lanzada. Mayo 2026 (v2.4): generación de borradores añade HappyHorse 1.0 y Seedance 2.0, generación por lotes, selección multi-modelo.",
+    "fr": "Juin 2026 (v2.5) : configuration Relay déplacée vers la console avec division Server Relay / AI Relay ; plateforme ouverte lancée. Mai 2026 (v2.4) : génération de brouillons avec HappyHorse 1.0 et Seedance 2.0, génération par lots, sélection multi-modèles."
+  },
+  "summary": {
+    "en": "AiToEarn is an AI content marketing agent for one-person companies (OPC) that creates, publishes and monetizes content across 13 platforms. It offers web, Docker self-host, MCP and OpenClaw integration modes, making it flexible for creators, brands and local businesses. SEO note: primarily Chinese-first documentation.",
+    "zh": "AiToEarn 是面向一人公司（OPC）的 AI 内容营销智能体：在 13 个平台自动创建、发布并变现内容。提供网页版、Docker 私有化、MCP 与 OpenClaw 集成模式，适合创作者、品牌与本地商家。",
+    "ja": "AiToEarnは、一人会社（OPC）向けのAIコンテンツマーケティングエージェントです。13のプラットフォームでコンテンツを自動作成・公開・収益化。Web、Dockerセルフホスト、MCP、OpenClaw統合モードを提供し、クリエイター、ブランド、地域ビジネスに適しています。",
+    "es": "AiToEarn es un agente de marketing de contenido IA para one-person companies (OPC) que crea, publica y monetiza contenido en 13 plataformas. Ofrece modos web, Docker self-host, integración MCP y OpenClaw, flexible para creadores, marcas y negocios locales.",
+    "fr": "AiToEarn est un agent de marketing de contenu IA pour les one-person companies (OPC) qui crée, publie et monétise du contenu sur 13 plateformes. Il offre des modes web, Docker self-host, intégration MCP et OpenClaw, flexible pour les créateurs, marques et commerces locaux."
+  },
+  "verdict": {
+    "badge": "Worth Trying",
+    "headline": {
+      "en": "A rare 13-platform AI content marketing agent with MCP support — powerful for one-person companies, but platform APIs and policies add friction.",
+      "zh": "罕见的 13 平台 AI 内容营销智能体，支持 MCP——对一人公司很强大，但平台 API 与政策带来摩擦。",
+      "ja": "珍しい13プラットフォーム対応のAIコンテンツマーケティングエージェントで、MCPもサポート。一人会社には強力だが、プラットフォームAPIとポリシーが摩擦を生む。",
+      "es": "Un raro agente de marketing de contenido IA de 13 plataformas con soporte MCP — potente para one-person companies, pero las APIs y políticas de plataforma añaden fricción.",
+      "fr": "Un rare agent de marketing de contenu IA couvrant 13 plateformes avec support MCP — puissant pour les one-person companies, mais les APIs et politiques de plateforme ajoutent de la friction."
+    },
+    "body": {
+      "en": "AiToEarn is an ambitious all-in-one content marketing platform for one-person companies: it covers 13 platforms (Douyin to YouTube to LinkedIn), offers multiple integration modes (web, Docker, MCP, OpenClaw), and ships built-in AI agents for content generation and publishing. The MCP protocol support is a differentiator — any modern AI agent can drive it.\\n\\nThe friction is real: platform publishing requires API keys per platform, content monetization depends on frequently changing platform policies, and documentation is Chinese-first. It lacks a SECURITY.md. For Chinese and global creators wanting to automate multi-platform distribution, it's worth trying, with the caveat that setup is not zero-config.",
+      "zh": "AiToEarn 是面向一人公司的雄心勃勃的一站式内容营销平台：覆盖 13 个平台（抖音到 YouTube 到 LinkedIn），提供多种集成方式（网页、Docker、MCP、OpenClaw），并内置内容生成与发布的 AI 智能体。MCP 协议支持是差异化优势——任何现代 AI 智能体都可以驱动它。\\n\\n摩擦也确实存在：平台发布需要各平台 API Key，内容变现依赖频繁变动的平台政策，文档以中文优先。缺少 SECURITY.md。对想自动化多平台分发的中外创作者而言值得一试，但需注意配置并非零成本。",
+      "ja": "AiToEarnは、一人会社向けの野心的なオールインワンコンテンツマーケティングプラットフォームです。13のプラットフォーム（抖音からYouTube、LinkedInまで）をカバーし、複数の統合モード（Web、Docker、MCP、OpenClaw）を提供し、コンテンツ生成・公開用のAIエージェントを内蔵しています。MCPプロトコルサポートは差別化ポイントで、あらゆる最新AIエージェントから操作できます。\\n\\n摩擦も現実的です：プラットフォーム公開には各プラットフォームのAPIキーが必要で、コンテンツ収益化は頻繁に変わるプラットフォームポリシーに依存し、ドキュメントは中国語中心です。SECURITY.mdもありません。多プラットフォーム配信を自動化したい国内外のクリエイターには試す価値がありますが、セットアップはゼロコンフィグではない点に注意が必要です。",
+      "es": "AiToEarn es una ambiciosa plataforma todo-en-uno de marketing de contenido para one-person companies: cubre 13 plataformas (de Douyin a YouTube y LinkedIn), ofrece múltiples modos de integración (web, Docker, MCP, OpenClaw) e incluye agentes IA para generación y publicación. El soporte MCP es un diferenciador — cualquier agente IA moderno puede manejarlo.\\n\\nLa fricción es real: publicar requiere claves API por plataforma, la monetización depende de políticas que cambian con frecuencia, y la documentación es principalmente en chino. Tampoco tiene SECURITY.md. Para creadores chinos y globales que quieran automatizar la distribución multiplataforma, vale la pena probarlo, con la salvedad de que la configuración no es zero-config.",
+      "fr": "AiToEarn est une ambitieuse plateforme tout-en-un de marketing de contenu pour les one-person companies : elle couvre 13 plateformes (de Douyin à YouTube et LinkedIn), propose plusieurs modes d'intégration (web, Docker, MCP, OpenClaw) et embarque des agents IA pour la génération et la publication de contenu. Le support du protocole MCP est un différenciateur — n'importe quel agent IA moderne peut la piloter.\n\nLa friction est réelle : publier nécessite des clés API par plateforme, la monétisation dépend de politiques de plateforme qui changent fréquemment, et la documentation est d'abord en chinois. Elle n'a pas non plus de SECURITY.md. Pour les créateurs chinois et internationaux qui veulent automatiser la distribution multiplateforme, cela vaut la peine d'essayer, avec la réserve que la configuration n'est pas zero-config."
+    },
+    "bestFor": {
+      "en": [
+        "One-person companies, creators and brands — especially those in China or targeting Chinese platforms — who want to automate multi-platform content distribution with AI agents."
+      ],
+      "zh": [
+        "一人公司、创作者与品牌——尤其在中国或面向中国平台运营的——希望用 AI 智能体自动化多平台内容分发。"
+      ],
+      "ja": [
+        "一人会社、クリエイター、ブランド——特に中国国内や中国プラットフォームをターゲットにする人——がAIエージェントで多プラットフォーム配信を自動化したい場合。"
+      ],
+      "es": [
+        "One-person companies, creadores y marcas — especialmente en China o que apuntan a plataformas chinas — que quieran automatizar la distribución multiplataforma con agentes IA."
+      ],
+      "fr": [
+        "One-person companies, créateurs et marques — surtout en Chine ou ciblant les plateformes chinoises — qui veulent automatiser la distribution multiplateforme avec des agents IA."
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "If you need deeper publishing integrations or are outside China, compare with platform-native schedulers (Buffer, Later) or single-platform publishing tools."
+      ],
+      "zh": [
+        "如果需要更深的发布集成或不在中国，比较平台原生的排期工具（Buffer、Later）或单平台发布工具。"
+      ],
+      "ja": [
+        "より深い公開統合が必要な場合や中国国外の場合は、プラットフォームネイティブのスケジューラ（Buffer、Later）や単一プラットフォーム向け公開ツールと比較してください。"
+      ],
+      "es": [
+        "Si necesitas integraciones de publicación más profundas o estás fuera de China, compara con schedulers nativos (Buffer, Later) o herramientas de publicación de plataforma única."
+      ],
+      "fr": [
+        "Si vous avez besoin d'intégrations de publication plus profondes ou êtes hors de Chine, comparez avec les schedulers natifs (Buffer, Later) ou les outils de publication mono-plateforme."
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-08-11",
+    "verdictDate": "2026-08-11",
+    "pricingVerified": "2026-08-11",
+    "pricingUrl": "https://aitoearn.ai"
+  }
+}

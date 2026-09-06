@@ -1,0 +1,235 @@
+{
+  "features": {
+    "en": [
+      "Generate a full sitemap from a prompt describing your site",
+      "Turn that sitemap into wireframes across every page automatically",
+      "AI copywriting fills the wireframes with on-topic placeholder text",
+      "One-click export to Figma, Webflow and React",
+      "A library of 1,000+ pre-built, responsive components",
+      "A Webflow Chrome extension to paste components straight into Webflow"
+    ],
+    "zh": [
+      "根据描述站点的提示生成完整站点地图",
+      "自动把站点地图转成每一页的线框",
+      "AI 文案为线框填入切题的占位文字",
+      "一键导出到 Figma、Webflow 与 React",
+      "内置 1000+ 预制响应式组件库",
+      "Webflow Chrome 扩展，可把组件直接粘进 Webflow"
+    ],
+    "ja": [
+      "サイトを説明するプロンプトから完全なサイトマップを生成",
+      "そのサイトマップを全ページのワイヤーフレームへ自動変換",
+      "AIコピーがワイヤーフレームに主題に沿ったダミーテキストを充填",
+      "Figma・Webflow・Reactへワンクリック書き出し",
+      "1000超の既製レスポンシブコンポーネントのライブラリ",
+      "コンポーネントをWebflowに直接貼れるWebflow Chrome拡張"
+    ],
+    "es": [
+      "Genera un mapa del sitio completo desde un prompt que describe tu sitio",
+      "Convierte ese mapa en wireframes de todas las páginas automáticamente",
+      "La redacción con IA rellena los wireframes con texto de relleno pertinente",
+      "Exportación con un clic a Figma, Webflow y React",
+      "Una biblioteca de más de 1000 componentes responsivos prediseñados",
+      "Una extensión de Chrome para Webflow para pegar componentes directamente"
+    ],
+    "fr": [
+      "Génère un plan de site complet depuis un prompt décrivant votre site",
+      "Transforme automatiquement ce plan en wireframes sur toutes les pages",
+      "La rédaction IA remplit les wireframes d'un texte de substitution pertinent",
+      "Export en un clic vers Figma, Webflow et React",
+      "Une bibliothèque de plus de 1000 composants responsives prêts à l'emploi",
+      "Une extension Chrome pour Webflow pour coller les composants directement"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "A Free plan lets you try the AI site builder and access the component library with limits on projects and exports.",
+      "zh": "免费档可试用 AI 建站工具并访问组件库，但项目数与导出次数受限。",
+      "ja": "無料プランではAIサイトビルダーを試し、コンポーネントライブラリにアクセスできるが、プロジェクト数と書き出しに制限がある。",
+      "es": "Un plan Free permite probar el creador de sitios con IA y acceder a la biblioteca de componentes con límites en proyectos y exportaciones.",
+      "fr": "Un plan Free permet d'essayer le créateur de site IA et d'accéder à la bibliothèque de composants avec des limites sur les projets et exports."
+    },
+    "paid": {
+      "en": "Paid tiers (Starter, Pro and Team) roughly span the ~$16–40/month range depending on plan and billing, lifting project, export and AI limits and adding collaboration; larger teams get custom pricing. (Verified against the official pricing page, 2026-07-28; exact figures are rendered dynamically, so treat amounts as approximate.)",
+      "zh": "付费档（Starter、Pro、Team）大致落在约 $16–40/月区间，视方案与计费而定，提升项目、导出与 AI 额度并增加协作；更大团队走定制报价。（对照官方定价页核实，2026-07-28；确切数字为动态渲染，请将金额视为约值。）",
+      "ja": "有料プラン（Starter・Pro・Team）はプランと支払い方式により月$16〜40程度で、プロジェクト・書き出し・AI上限を引き上げコラボを追加。より大きなチームは個別価格。（公式価格ページと照合、2026-07-28。正確な数字は動的表示のため概算として扱う。）",
+      "es": "Los niveles de pago (Starter, Pro y Team) abarcan aproximadamente el rango de ~$16–40/mes según plan y facturación, elevando los límites de proyectos, exportación e IA y añadiendo colaboración; los equipos mayores tienen precio a medida. (Verificado con la página oficial de precios, 2026-07-28; las cifras exactas se muestran dinámicamente, trátalas como aproximadas.)",
+      "fr": "Les offres payantes (Starter, Pro et Team) couvrent environ la fourchette ~16–40 $/mois selon l'offre et la facturation, relevant les limites de projets, d'export et d'IA et ajoutant la collaboration ; les grandes équipes ont un tarif sur mesure. (Vérifié avec la page tarifaire officielle, 2026-07-28 ; les chiffres exacts sont affichés dynamiquement, à considérer comme approximatifs.)"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Kick-starting a website with an AI-generated sitemap and wireframes",
+      "Web designers speeding up the structure-and-layout phase",
+      "Webflow builders assembling pages from a huge component library",
+      "Handing developers a React or Figma export to build on"
+    ],
+    "zh": [
+      "用 AI 生成的站点地图与线框为一个网站开好头",
+      "网页设计师加速「结构与布局」阶段",
+      "Webflow 用户从庞大组件库拼装页面",
+      "把 React 或 Figma 导出交给开发者接着做"
+    ],
+    "ja": [
+      "AI生成のサイトマップとワイヤーフレームでWebサイトの出だしを切る",
+      "Webデザイナーが「構造とレイアウト」段階を高速化",
+      "Webflowユーザーが巨大なコンポーネントライブラリからページを組む",
+      "React・Figma書き出しを開発者に渡して続きを作らせる"
+    ],
+    "es": [
+      "Arrancar un sitio con un mapa y wireframes generados por IA",
+      "Diseñadores web que aceleran la fase de estructura y maquetación",
+      "Constructores de Webflow que ensamblan páginas desde una gran biblioteca",
+      "Entregar a desarrolladores una exportación React o Figma para construir"
+    ],
+    "fr": [
+      "Démarrer un site avec un plan et des wireframes générés par IA",
+      "Designers web accélérant la phase de structure et de mise en page",
+      "Créateurs Webflow assemblant des pages depuis une vaste bibliothèque",
+      "Remettre aux développeurs un export React ou Figma pour bâtir"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Nails the hardest early step — sitemap and wireframes — in seconds",
+      "Massive, genuinely useful component library speeds real builds",
+      "Exports to Figma, Webflow and React fit pro workflows",
+      "Webflow Chrome extension makes component reuse frictionless"
+    ],
+    "zh": [
+      "秒级搞定最难的前期——站点地图与线框",
+      "海量且真正好用的组件库加速真实开发",
+      "导出 Figma、Webflow、React，契合专业工作流",
+      "Webflow Chrome 扩展让组件复用毫无摩擦"
+    ],
+    "ja": [
+      "最難関の初期工程——サイトマップとワイヤーフレーム——を数秒で",
+      "巨大で本当に役立つコンポーネントライブラリが実制作を高速化",
+      "Figma・Webflow・Reactへの書き出しがプロのワークフローに合う",
+      "Webflow Chrome拡張でコンポーネント再利用が摩擦なし"
+    ],
+    "es": [
+      "Clava el paso inicial más difícil — mapa y wireframes — en segundos",
+      "Biblioteca de componentes enorme y realmente útil que acelera builds reales",
+      "Exporta a Figma, Webflow y React, encaja en flujos profesionales",
+      "La extensión de Chrome para Webflow hace la reutilización sin fricción"
+    ],
+    "fr": [
+      "Réussit l'étape initiale la plus dure — plan et wireframes — en secondes",
+      "Bibliothèque de composants immense et vraiment utile qui accélère les builds",
+      "Exports vers Figma, Webflow et React adaptés aux flux pro",
+      "L'extension Chrome pour Webflow rend la réutilisation sans friction"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Really shines only if you work in Webflow, Figma or React",
+      "Output is structure and layout, not finished visual design",
+      "AI copy is placeholder-grade and needs rewriting",
+      "Exact pricing is rendered dynamically and can shift"
+    ],
+    "zh": [
+      "只有当你用 Webflow、Figma 或 React 时才真正发挥价值",
+      "产出的是结构与布局，而非完成的视觉设计",
+      "AI 文案属占位级别，需要重写",
+      "确切定价为动态渲染，可能变动"
+    ],
+    "ja": [
+      "Webflow・Figma・Reactで作業してこそ真価を発揮",
+      "出力は構造とレイアウトで、完成したビジュアルデザインではない",
+      "AIコピーはダミーレベルで書き直しが必要",
+      "正確な価格は動的表示で変動しうる"
+    ],
+    "es": [
+      "Brilla de verdad solo si trabajas en Webflow, Figma o React",
+      "La salida es estructura y maquetación, no diseño visual terminado",
+      "El texto de IA es de nivel relleno y necesita reescritura",
+      "El precio exacto se muestra dinámicamente y puede cambiar"
+    ],
+    "fr": [
+      "Ne brille vraiment que si vous travaillez sous Webflow, Figma ou React",
+      "Le rendu est structure et mise en page, pas un design visuel fini",
+      "Le texte IA est de niveau substitution et doit être réécrit",
+      "Le prix exact est affiché dynamiquement et peut évoluer"
+    ]
+  },
+  "latestUpdate": {
+    "en": "2026: Relume kept extending its AI site builder — prompt-to-sitemap, sitemap-to-wireframes and AI copywriting — its 1,000+ component library, and its exports to Figma, Webflow and React, staying focused on the structural front-end of professional web projects.",
+    "zh": "2026 年：Relume 持续扩展其 AI 建站工具——提示生成站点地图、站点地图转线框、AI 文案——以及 1000+ 组件库和 Figma、Webflow、React 导出，专注于专业网站项目的结构性前置环节。",
+    "ja": "2026年：RelumeはAIサイトビルダー——プロンプトからサイトマップ、サイトマップからワイヤーフレーム、AIコピー——と1000超のコンポーネントライブラリ、Figma・Webflow・Reactへの書き出しを拡張し続け、プロのWebプロジェクトの構造的な前段に注力している。",
+    "es": "2026: Relume siguió ampliando su creador de sitios con IA — prompt a mapa, mapa a wireframes y redacción con IA —, su biblioteca de más de 1000 componentes y sus exportaciones a Figma, Webflow y React, manteniéndose centrado en el front-end estructural de proyectos web profesionales.",
+    "fr": "2026 : Relume a continué d'étendre son créateur de site IA — prompt vers plan, plan vers wireframes et rédaction IA —, sa bibliothèque de plus de 1000 composants et ses exports vers Figma, Webflow et React, en restant focalisé sur le front-end structurel des projets web professionnels."
+  },
+  "verdict": {
+    "badge": "Worth Trying",
+    "headline": {
+      "en": "The fastest way to go from prompt to a site's skeleton",
+      "zh": "从提示到站点骨架的最快路径",
+      "ja": "プロンプトからサイトの骨組みへ、最速の道",
+      "es": "La forma más rápida de ir del prompt al esqueleto de un sitio",
+      "fr": "Le moyen le plus rapide de passer du prompt au squelette d'un site"
+    },
+    "body": {
+      "en": "Relume solves a very specific, very real pain: the blank-page problem at the start of a web project. Describe the site you want and it generates a full sitemap, expands that into wireframes for every page, and drops in AI-written placeholder copy so the structure reads like a real site rather than lorem ipsum. From there you export to Figma, Webflow or React and keep building — backed by a library of over a thousand responsive components and a Webflow Chrome extension that makes reusing those components almost effortless. For designers and Webflow builders, that turns the tedious structure-and-layout phase into minutes of work. The flip side is that Relume is opinionated about where it fits: it really pays off only if your pipeline runs through Webflow, Figma or React, its output is scaffolding rather than finished visual design, and the AI copy is strictly a placeholder you'll rewrite. Pricing is also rendered dynamically and can move. But if you live in that Webflow/Figma/React world and want to skip straight past the hardest, most tedious part of starting a site, Relume is well worth trying.",
+      "zh": "Relume 解决的是一个非常具体、非常真实的痛点：网站项目开头的「空白页」难题。描述你想要的站点，它就生成完整站点地图，把它展开成每一页的线框，再填入 AI 写的占位文案，让结构读起来像真实站点而非乱数假文。之后你导出到 Figma、Webflow 或 React 继续做——背后是一千余个响应式组件的库，以及一个让组件复用几乎毫不费力的 Webflow Chrome 扩展。对设计师与 Webflow 用户而言，这把枯燥的「结构与布局」阶段压缩成几分钟。另一面是 Relume 对自己的定位很有主见：只有当你的流程走 Webflow、Figma 或 React 时才真正划算；它的产出是骨架而非完成的视觉设计；AI 文案严格来说只是待你重写的占位。定价同样是动态渲染、可能变动。但若你就生活在 Webflow/Figma/React 的世界里，又想直接跳过开站最难、最枯燥的部分，Relume 很值得一试。",
+      "ja": "Relumeは非常に具体的で現実的な痛みを解く。Webプロジェクト冒頭の「空白ページ」問題だ。欲しいサイトを説明すれば完全なサイトマップを生成し、それを全ページのワイヤーフレームへ展開し、AIが書いたダミーコピーを差し込んで、構造がロレム・イプサムではなく本物のサイトのように読めるようにする。そこからFigma・Webflow・Reactへ書き出して制作を続ける——千を超えるレスポンシブコンポーネントのライブラリと、そのコンポーネント再利用をほぼ苦もなくするWebflow Chrome拡張に支えられて。デザイナーやWebflowユーザーにとって、退屈な構造・レイアウト段階が数分の作業になる。裏を返せば、Relumeは自分の居場所に一家言ある。真価を発揮するのはパイプラインがWebflow・Figma・Reactを通る場合のみで、出力は完成したビジュアルデザインではなく骨組み、AIコピーはあくまで書き直す前提のダミーだ。価格も動的表示で変わりうる。しかしWebflow/Figma/Reactの世界に住み、サイト立ち上げの最も難しく退屈な部分を丸ごと飛ばしたいなら、Relumeは試す価値が十分ある。",
+      "es": "Relume resuelve un dolor muy específico y muy real: el problema de la página en blanco al inicio de un proyecto web. Describe el sitio que quieres y genera un mapa del sitio completo, lo expande en wireframes para cada página y coloca texto de relleno escrito por IA para que la estructura se lea como un sitio real y no como lorem ipsum. Desde ahí exportas a Figma, Webflow o React y sigues construyendo — respaldado por una biblioteca de más de mil componentes responsivos y una extensión de Chrome para Webflow que hace reutilizar esos componentes casi sin esfuerzo. Para diseñadores y constructores de Webflow, eso convierte la tediosa fase de estructura y maquetación en minutos de trabajo. La contracara es que Relume tiene opinión sobre dónde encaja: solo compensa de verdad si tu pipeline pasa por Webflow, Figma o React, su salida es andamiaje más que diseño visual terminado, y el texto de IA es estrictamente un relleno que reescribirás. El precio también se muestra dinámicamente y puede moverse. Pero si vives en ese mundo de Webflow/Figma/React y quieres saltarte directamente la parte más difícil y tediosa de empezar un sitio, Relume bien vale la pena probar.",
+      "fr": "Relume résout une douleur très précise et bien réelle : le problème de la page blanche au début d'un projet web. Décrivez le site voulu et il génère un plan de site complet, le développe en wireframes pour chaque page, et y insère un texte de substitution écrit par IA pour que la structure se lise comme un vrai site plutôt que du lorem ipsum. De là, vous exportez vers Figma, Webflow ou React et continuez à bâtir — adossé à une bibliothèque de plus de mille composants responsives et une extension Chrome pour Webflow qui rend la réutilisation de ces composants quasi sans effort. Pour les designers et créateurs Webflow, cela transforme la fastidieuse phase de structure et de mise en page en quelques minutes de travail. Le revers, c'est que Relume a une opinion sur sa place : il ne paie vraiment que si votre pipeline passe par Webflow, Figma ou React, son rendu est un échafaudage plutôt qu'un design visuel fini, et le texte IA est strictement un substitut que vous réécrirez. Le prix est aussi affiché dynamiquement et peut évoluer. Mais si vous vivez dans ce monde Webflow/Figma/React et voulez sauter directement la partie la plus difficile et fastidieuse du démarrage d'un site, Relume vaut vraiment l'essai."
+    },
+    "bestFor": {
+      "en": [
+        "Web designers who want instant sitemaps and wireframes",
+        "Webflow builders assembling from a large component library",
+        "Teams exporting to Figma, Webflow or React to keep building"
+      ],
+      "zh": [
+        "想要即时站点地图与线框的网页设计师",
+        "从大型组件库拼装的 Webflow 用户",
+        "导出到 Figma、Webflow 或 React 接着做的团队"
+      ],
+      "ja": [
+        "即席のサイトマップとワイヤーフレームが欲しいWebデザイナー",
+        "大きなコンポーネントライブラリから組むWebflowユーザー",
+        "Figma・Webflow・Reactへ書き出して制作を続けるチーム"
+      ],
+      "es": [
+        "Diseñadores web que quieren mapas y wireframes instantáneos",
+        "Constructores de Webflow que ensamblan desde una gran biblioteca",
+        "Equipos que exportan a Figma, Webflow o React para seguir construyendo"
+      ],
+      "fr": [
+        "Designers web voulant des plans et wireframes instantanés",
+        "Créateurs Webflow assemblant depuis une grande bibliothèque",
+        "Équipes exportant vers Figma, Webflow ou React pour continuer"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You want to design and host a finished site in one tool (→ Framer)",
+        "You don't work in Webflow, Figma or React (→ a general website builder)"
+      ],
+      "zh": [
+        "你想在一个工具里设计并托管完成的站点（→ Framer）",
+        "你并不使用 Webflow、Figma 或 React（→ 通用建站工具）"
+      ],
+      "ja": [
+        "一つのツールで完成サイトをデザインしホスティングしたい（→ Framer）",
+        "Webflow・Figma・Reactを使わない（→ 汎用サイトビルダー）"
+      ],
+      "es": [
+        "Quieres diseñar y alojar un sitio terminado en una herramienta (→ Framer)",
+        "No trabajas en Webflow, Figma o React (→ un creador de sitios general)"
+      ],
+      "fr": [
+        "Vous voulez concevoir et héberger un site fini dans un seul outil (→ Framer)",
+        "Vous ne travaillez pas sous Webflow, Figma ou React (→ un créateur de site généraliste)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-28",
+    "verdictDate": "2026-07-28",
+    "pricingVerified": "2026-07-28",
+    "pricingUrl": "https://www.relume.io/pricing"
+  }
+}

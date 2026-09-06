@@ -1,0 +1,227 @@
+{
+  "features": {
+    "en": [
+      "Open-source AI agent that runs locally: desktop app (macOS/Linux/Windows) plus CLI",
+      "Built in Rust for a fast, lightweight on-machine experience",
+      "15+ LLM providers, and ACP support reuses your Claude/ChatGPT/Gemini subscriptions",
+      "70+ MCP extensions to connect editors, browsers, databases and more",
+      "MCP Apps render interactive UI inside conversations",
+      "Originally built by Block, now governed by the Linux Foundation's AAIF"
+    ],
+    "zh": [
+      "本地运行的开源 AI 智能体：桌面端（macOS/Linux/Windows）加 CLI",
+      "Rust 构建，机上体验快速轻量",
+      "支持 15+ LLM 供应商，ACP 支持可复用你的 Claude/ChatGPT/Gemini 订阅",
+      "70+ MCP 扩展，连接编辑器、浏览器、数据库等",
+      "MCP Apps 可在对话中渲染交互式 UI",
+      "由 Block 打造，现归 Linux 基金会 AAIF 治理"
+    ],
+    "ja": [
+      "ローカルで動くオープンソースAIエージェント：デスクトップアプリ（macOS/Linux/Windows）とCLI",
+      "Rust製で高速・軽量なオンマシン体験",
+      "15以上のLLMプロバイダーに対応、ACPでClaude/ChatGPT/Geminiのサブスクを再利用可能",
+      "70以上のMCP拡張でエディタ、ブラウザ、データベースなどに接続",
+      "MCP Appsが会話内にインタラクティブUIを描画",
+      "Blockが開発し、現在はLinux FoundationのAAIFが管理"
+    ],
+    "es": [
+      "Agente IA open source que corre localmente: app de escritorio (macOS/Linux/Windows) más CLI",
+      "Construido en Rust para una experiencia local rápida y ligera",
+      "Más de 15 proveedores de LLM, y el soporte ACP reutiliza tus suscripciones de Claude/ChatGPT/Gemini",
+      "Más de 70 extensiones MCP para conectar editores, navegadores, bases de datos y más",
+      "MCP Apps renderiza interfaces interactivas dentro de las conversaciones",
+      "Creado por Block, ahora gobernado por la AAIF de la Linux Foundation"
+    ],
+    "fr": [
+      "Agent IA open source exécuté localement : app de bureau (macOS/Linux/Windows) plus CLI",
+      "Construit en Rust pour une expérience locale rapide et légère",
+      "Plus de 15 fournisseurs LLM, et le support ACP réutilise vos abonnements Claude/ChatGPT/Gemini",
+      "Plus de 70 extensions MCP pour connecter éditeurs, navigateurs, bases de données et plus",
+      "MCP Apps affiche des interfaces interactives dans les conversations",
+      "Créé par Block, désormais gouverné par l'AAIF de la Linux Foundation"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Completely free and open source (Apache 2.0): you pay only your LLM provider, or run fully free with local models via Ollama; ACP support can reuse existing AI subscriptions",
+      "zh": "完全免费开源（Apache 2.0）：只需向 LLM 供应商付费，或经 Ollama 用本地模型全程免费；ACP 支持还能复用已有 AI 订阅",
+      "ja": "完全無料のオープンソース（Apache 2.0）：LLMプロバイダーへの支払いのみで、Ollama経由のローカルモデルなら完全無料。ACP対応で既存のAIサブスクも再利用可能",
+      "es": "Completamente gratuito y open source (Apache 2.0): solo pagas a tu proveedor de LLM, o corre totalmente gratis con modelos locales vía Ollama; el soporte ACP puede reutilizar suscripciones IA existentes",
+      "fr": "Entièrement gratuit et open source (Apache 2.0) : vous ne payez que votre fournisseur LLM, ou utilisez-le gratuitement avec des modèles locaux via Ollama ; le support ACP peut réutiliser vos abonnements IA existants"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Local coding agent that keeps code and data on your machine",
+      "Automating engineering tasks from the desktop app or CLI",
+      "Connecting an agent to internal tools through MCP extensions",
+      "Fully offline agent workflows with Ollama local models"
+    ],
+    "zh": [
+      "把代码与数据留在本机的本地编码智能体",
+      "从桌面端或 CLI 自动化工程任务",
+      "通过 MCP 扩展把智能体接入内部工具",
+      "配合 Ollama 本地模型的完全离线智能体工作流"
+    ],
+    "ja": [
+      "コードとデータを自分のマシンに保持するローカルコーディングエージェント",
+      "デスクトップアプリやCLIからのエンジニアリングタスク自動化",
+      "MCP拡張によるエージェントと社内ツールの接続",
+      "Ollamaローカルモデルでの完全オフラインなエージェントワークフロー"
+    ],
+    "es": [
+      "Agente de código local que mantiene código y datos en tu máquina",
+      "Automatización de tareas de ingeniería desde la app de escritorio o CLI",
+      "Conexión de un agente a herramientas internas mediante extensiones MCP",
+      "Flujos de agente totalmente offline con modelos locales de Ollama"
+    ],
+    "fr": [
+      "Agent de codage local gardant code et données sur votre machine",
+      "Automatisation de tâches d'ingénierie depuis l'app de bureau ou la CLI",
+      "Connexion d'un agent aux outils internes via les extensions MCP",
+      "Workflows d'agent totalement hors ligne avec les modèles locaux Ollama"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Truly free: no platform fees, no seat licenses, ever",
+      "Local-first design keeps sensitive code off third-party clouds",
+      "Vendor-neutral governance under the Linux Foundation AAIF",
+      "Desktop app makes agents accessible beyond terminal users"
+    ],
+    "zh": [
+      "真正免费：没有平台费，也没有席位授权",
+      "本地优先设计，敏感代码不上第三方云",
+      "Linux 基金会 AAIF 治理，厂商中立",
+      "桌面端让终端之外的用户也能用上智能体"
+    ],
+    "ja": [
+      "本当に無料：プラットフォーム料金もシートライセンスも一切なし",
+      "ローカルファースト設計で機密コードをサードパーティクラウドに出さない",
+      "Linux Foundation AAIFの下でベンダー中立なガバナンス",
+      "デスクトップアプリでターミナルユーザー以外にもエージェントを提供"
+    ],
+    "es": [
+      "Verdaderamente gratuito: sin cuotas de plataforma ni licencias por puesto",
+      "El diseño local-first mantiene el código sensible fuera de nubes de terceros",
+      "Gobernanza neutral bajo la AAIF de la Linux Foundation",
+      "La app de escritorio acerca los agentes a usuarios más allá del terminal"
+    ],
+    "fr": [
+      "Vraiment gratuit : aucun frais de plateforme ni licence par siège",
+      "La conception local-first garde le code sensible hors des clouds tiers",
+      "Gouvernance neutre sous l'AAIF de la Linux Foundation",
+      "L'app de bureau rend les agents accessibles au-delà du terminal"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Output quality depends entirely on the model you connect",
+      "No hosted cloud service — you manage setup and updates",
+      "Less polished than commercial rivals like Claude Code or Cursor",
+      "Governance transition from Block to AAIF is still recent"
+    ],
+    "zh": [
+      "输出质量完全取决于你接入的模型",
+      "没有托管云服务——安装与更新需自行管理",
+      "打磨程度不及 Claude Code、Cursor 等商业竞品",
+      "从 Block 到 AAIF 的治理交接仍较新"
+    ],
+    "ja": [
+      "出力品質は接続するモデルに完全に依存",
+      "ホスト型クラウドサービスはなく、セットアップと更新は自己管理",
+      "Claude CodeやCursorなど商用ライバルほどの洗練度はない",
+      "BlockからAAIFへのガバナンス移行はまだ日が浅い"
+    ],
+    "es": [
+      "La calidad de salida depende por completo del modelo que conectes",
+      "Sin servicio cloud gestionado: tú gestionas instalación y actualizaciones",
+      "Menos pulido que rivales comerciales como Claude Code o Cursor",
+      "La transición de gobernanza de Block a la AAIF aún es reciente"
+    ],
+    "fr": [
+      "La qualité de sortie dépend entièrement du modèle connecté",
+      "Pas de service cloud géré — vous gérez l'installation et les mises à jour",
+      "Moins abouti que les rivaux commerciaux comme Claude Code ou Cursor",
+      "La transition de gouvernance de Block vers l'AAIF est encore récente"
+    ]
+  },
+  "latestUpdate": {
+    "en": "2026: Goose moves from Block to the Linux Foundation's Agentic AI Foundation (AAIF) for neutral governance, adds ACP support to reuse Claude/ChatGPT/Gemini subscriptions, and ships MCP Apps interactive UI",
+    "zh": "2026 年：Goose 从 Block 移交 Linux 基金会智能体 AI 基金会（AAIF）实现中立治理，新增 ACP 支持复用 Claude/ChatGPT/Gemini 订阅，并推出 MCP Apps 交互式 UI",
+    "ja": "2026年：GooseはBlockからLinux FoundationのAgentic AI Foundation（AAIF）へ移管され中立ガバナンスに。Claude/ChatGPT/Geminiサブスクを再利用できるACP対応とMCP AppsインタラクティブUIを追加",
+    "es": "2026: Goose pasa de Block a la Agentic AI Foundation (AAIF) de la Linux Foundation para una gobernanza neutral, añade soporte ACP para reutilizar suscripciones de Claude/ChatGPT/Gemini y lanza la interfaz interactiva MCP Apps",
+    "fr": "2026 : Goose passe de Block à l'Agentic AI Foundation (AAIF) de la Linux Foundation pour une gouvernance neutre, ajoute le support ACP réutilisant les abonnements Claude/ChatGPT/Gemini et lance l'interface interactive MCP Apps"
+  },
+  "verdict": {
+    "badge": "Recommended",
+    "headline": {
+      "en": "The free, local-first agent that respects your machine and your wallet",
+      "zh": "尊重你的机器与钱包的免费本地优先智能体",
+      "ja": "あなたのマシンと財布を尊重する無料のローカルファーストエージェント",
+      "es": "El agente local-first y gratuito que respeta tu máquina y tu bolsillo",
+      "fr": "L'agent local-first et gratuit qui respecte votre machine et votre portefeuille"
+    },
+    "body": {
+      "en": "Goose answers a question many developers quietly ask: why pay a platform fee for an agent when the intelligence comes from the model anyway? It runs on your machine, connects to 15+ providers — or reuses the Claude/ChatGPT subscription you already pay for via ACP — and extends through 70+ MCP integrations. The move to Linux Foundation governance removes single-vendor risk. It demands more setup than commercial tools and its ceiling is your chosen model, but as free agents go, nothing else is this complete.",
+      "zh": "Goose 回答了许多开发者默默在想的问题：智能反正来自模型，为什么还要为智能体平台付费？它跑在你的本机上，接入 15+ 供应商——或经 ACP 复用你已付费的 Claude/ChatGPT 订阅——并通过 70+ MCP 集成扩展能力。移交 Linux 基金会治理也消除了单一厂商风险。它比商业工具需要更多配置，上限也取决于你选的模型，但就免费智能体而言，没有比它更完整的了。",
+      "ja": "Gooseは多くの開発者が密かに抱く疑問に答える。知能はどのみちモデル由来なのに、なぜエージェントのプラットフォーム料金を払うのか？自分のマシンで動き、15以上のプロバイダーに接続でき、ACP経由なら支払い済みのClaude/ChatGPTサブスクも再利用可能。70以上のMCP統合で拡張もできる。Linux Foundationへの移管で単一ベンダーリスクも解消された。商用ツールよりセットアップの手間はかかり、上限は選んだモデル次第だが、無料エージェントとしてこれほど完成されたものは他にない。",
+      "es": "Goose responde a una pregunta que muchos desarrolladores se hacen en silencio: ¿por qué pagar una cuota de plataforma por un agente si la inteligencia viene del modelo? Corre en tu máquina, se conecta a más de 15 proveedores —o reutiliza vía ACP la suscripción de Claude/ChatGPT que ya pagas— y se extiende con más de 70 integraciones MCP. El paso a la gobernanza de la Linux Foundation elimina el riesgo de proveedor único. Exige más configuración que las herramientas comerciales y su techo es el modelo que elijas, pero entre los agentes gratuitos, ninguno es tan completo.",
+      "fr": "Goose répond à une question que beaucoup de développeurs se posent en silence : pourquoi payer des frais de plateforme pour un agent alors que l'intelligence vient du modèle ? Il tourne sur votre machine, se connecte à plus de 15 fournisseurs — ou réutilise via ACP l'abonnement Claude/ChatGPT que vous payez déjà — et s'étend grâce à plus de 70 intégrations MCP. Le passage à la gouvernance de la Linux Foundation élimine le risque de fournisseur unique. Il demande plus de configuration que les outils commerciaux et son plafond dépend du modèle choisi, mais parmi les agents gratuits, aucun n'est aussi complet."
+    },
+    "bestFor": {
+      "en": [
+        "Developers wanting a capable agent with zero platform fees",
+        "Privacy-conscious teams keeping code on local machines",
+        "Tinkerers combining local Ollama models with MCP extensions"
+      ],
+      "zh": [
+        "想要零平台费强力智能体的开发者",
+        "把代码留在本地机器的隐私敏感团队",
+        "把 Ollama 本地模型与 MCP 扩展组合把玩的爱好者"
+      ],
+      "ja": [
+        "プラットフォーム料金ゼロで有能なエージェントが欲しい開発者",
+        "コードをローカルマシンに保持するプライバシー重視のチーム",
+        "OllamaローカルモデルとMCP拡張を組み合わせて遊ぶ愛好家"
+      ],
+      "es": [
+        "Desarrolladores que quieren un agente capaz sin cuotas de plataforma",
+        "Equipos conscientes de la privacidad que mantienen el código en local",
+        "Entusiastas combinando modelos locales de Ollama con extensiones MCP"
+      ],
+      "fr": [
+        "Développeurs voulant un agent capable sans frais de plateforme",
+        "Équipes soucieuses de confidentialité gardant le code en local",
+        "Bricoleurs combinant modèles locaux Ollama et extensions MCP"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You want a top-tier polished coding CLI (→ Claude Code)",
+        "You need a hosted, managed agent platform (→ Factory, Devin)"
+      ],
+      "zh": [
+        "你想要顶级打磨的编码 CLI（→ Claude Code）",
+        "你需要托管的智能体平台（→ Factory、Devin）"
+      ],
+      "ja": [
+        "最高級に磨かれたコーディングCLIが欲しい（→ Claude Code）",
+        "ホスト型のマネージドエージェントプラットフォームが必要（→ Factory、Devin）"
+      ],
+      "es": [
+        "Quieres una CLI de código pulida de primer nivel (→ Claude Code)",
+        "Necesitas una plataforma de agentes gestionada (→ Factory, Devin)"
+      ],
+      "fr": [
+        "Vous voulez une CLI de codage haut de gamme (→ Claude Code)",
+        "Vous avez besoin d'une plateforme d'agents gérée (→ Factory, Devin)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-27",
+    "verdictDate": "2026-07-27",
+    "pricingVerified": "2026-07-27"
+  }
+}

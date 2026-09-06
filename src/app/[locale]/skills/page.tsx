@@ -1,6 +1,6 @@
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import SkillsClient from './SkillsClient';
-import skills from '@/data/skills.json';
+import { skills } from '@/data/aggregated';
 import { generateAlternates } from '@/lib/seo';
 
 export const revalidate = 3600;

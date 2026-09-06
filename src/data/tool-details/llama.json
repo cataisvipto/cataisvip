@@ -1,0 +1,246 @@
+{
+  "features": {
+    "en": [
+      "Llama 4 natively multimodal models",
+      "Scout, Maverick and Behemoth variants",
+      "Up to 10M token context (Scout)",
+      "MoE architecture, 200-language pretraining",
+      "Open weights, commercial use",
+      "Local and cloud deployment"
+    ],
+    "zh": [
+      "Llama 4 原生多模态模型",
+      "Scout、Maverick、Behemoth 变体",
+      "最高 10M token 上下文（Scout）",
+      "MoE 架构，200 种语言预训练",
+      "开放权重，可商用",
+      "支持本地与云部署"
+    ],
+    "ja": [
+      "Llama 4 のネイティブマルチモーダルモデル",
+      "Scout・Maverick・Behemoth の各バリアント",
+      "最大10M トークンのコンテキスト（Scout）",
+      "MoE アーキテクチャ、200言語での事前学習",
+      "オープンウェイト、商用利用可",
+      "ローカル・クラウド展開"
+    ],
+    "es": [
+      "Modelos Llama 4 multimodales de forma nativa",
+      "Variantes Scout, Maverick y Behemoth",
+      "Contexto de hasta 10M tokens (Scout)",
+      "Arquitectura MoE, preentrenamiento en 200 idiomas",
+      "Pesos abiertos, uso comercial",
+      "Despliegue local y en la nube"
+    ],
+    "fr": [
+      "Modèles Llama 4 nativement multimodaux",
+      "Variantes Scout, Maverick et Behemoth",
+      "Contexte jusqu'à 10M tokens (Scout)",
+      "Architecture MoE, pré-entraînement en 200 langues",
+      "Poids ouverts, usage commercial",
+      "Déploiement local et cloud"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Open weights, free to use",
+      "zh": "开放权重，免费使用",
+      "ja": "オープンウェイト、無料で利用可",
+      "es": "Pesos abiertos, uso gratuito",
+      "fr": "Poids ouverts, utilisation gratuite"
+    },
+    "cloud": {
+      "en": "Hosted API via providers (pay-as-you-go)",
+      "zh": "经供应商托管 API（按量计费）",
+      "ja": "プロバイダー経由のホスト API（従量課金）",
+      "es": "API alojada por proveedores (pago por uso)",
+      "fr": "API hébergée via des fournisseurs (à la consommation)"
+    },
+    "hardware": {
+      "en": "Local deployment needs GPU",
+      "zh": "本地部署需 GPU",
+      "ja": "ローカル展開には GPU が必要",
+      "es": "El despliegue local requiere GPU",
+      "fr": "Le déploiement local nécessite un GPU"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Building custom AI applications",
+      "Local and private LLM deployment",
+      "Fine-tuning for domains",
+      "Multilingual assistants",
+      "Research and experimentation",
+      "Cost-efficient inference"
+    ],
+    "zh": [
+      "构建自定义 AI 应用",
+      "本地与私有化 LLM 部署",
+      "领域微调",
+      "多语言助手",
+      "研究与实验",
+      "高性价比推理"
+    ],
+    "ja": [
+      "カスタム AI アプリの構築",
+      "ローカル・プライベートな LLM 展開",
+      "ドメイン向けファインチューニング",
+      "多言語アシスタント",
+      "研究と実験",
+      "コスト効率の高い推論"
+    ],
+    "es": [
+      "Creación de apps de IA personalizadas",
+      "Despliegue de LLM local y privado",
+      "Ajuste fino por dominios",
+      "Asistentes multilingües",
+      "Investigación y experimentación",
+      "Inferencia rentable"
+    ],
+    "fr": [
+      "Création d'applications IA personnalisées",
+      "Déploiement de LLM local et privé",
+      "Fine-tuning par domaine",
+      "Assistants multilingues",
+      "Recherche et expérimentation",
+      "Inférence économique"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Open weights, commercial use",
+      "Strong multilingual performance",
+      "Very long context (Scout)",
+      "Large ecosystem support"
+    ],
+    "zh": [
+      "开放权重，可商用",
+      "多语言表现强",
+      "超长上下文（Scout）",
+      "生态支持广泛"
+    ],
+    "ja": [
+      "オープンウェイトで商用利用可",
+      "多言語で高い性能",
+      "非常に長いコンテキスト（Scout）",
+      "広範なエコシステムの支援"
+    ],
+    "es": [
+      "Pesos abiertos, uso comercial",
+      "Sólido rendimiento multilingüe",
+      "Contexto muy largo (Scout)",
+      "Amplio soporte del ecosistema"
+    ],
+    "fr": [
+      "Poids ouverts, usage commercial",
+      "Solides performances multilingues",
+      "Contexte très long (Scout)",
+      "Large soutien de l'écosystème"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Large models need heavy hardware",
+      "License has some usage limits",
+      "Setup requires expertise"
+    ],
+    "zh": [
+      "大模型需强算力硬件",
+      "许可存在部分使用限制",
+      "部署需专业知识"
+    ],
+    "ja": [
+      "大規模モデルには強力なハードが必要",
+      "ライセンスに一部の利用制限あり",
+      "導入には専門知識が必要"
+    ],
+    "es": [
+      "Los modelos grandes requieren hardware potente",
+      "La licencia tiene algunos límites de uso",
+      "La configuración requiere experiencia"
+    ],
+    "fr": [
+      "Les grands modèles exigent un matériel puissant",
+      "La licence comporte des limites d'usage",
+      "L'installation demande de l'expertise"
+    ]
+  },
+  "latestUpdate": {
+    "en": "July 2026: Meta's Llama 4 herd (Scout, Maverick, Behemoth) brought native multimodality and up to 10M token context",
+    "zh": "2026年7月：Meta Llama 4 系列（Scout、Maverick、Behemoth）带来原生多模态与最高 10M token 上下文",
+    "ja": "2026年7月：Meta の Llama 4 シリーズ（Scout・Maverick・Behemoth）がネイティブなマルチモーダル対応と最大10M トークンのコンテキストを実現",
+    "es": "Julio de 2026: la familia Llama 4 de Meta (Scout, Maverick, Behemoth) trajo multimodalidad nativa y contexto de hasta 10M tokens",
+    "fr": "Juillet 2026 : la famille Llama 4 de Meta (Scout, Maverick, Behemoth) a apporté une multimodalité native et un contexte allant jusqu'à 10M tokens"
+  },
+  "verdict": {
+    "badge": "Recommended",
+    "headline": {
+      "en": "Meta's open-source LLM family that democratized access to high-quality language models.",
+      "zh": "Meta的开源LLM系列，让高质量语言模型的获取民主化。",
+      "ja": "高品質な言語モデルへのアクセスを民主化したMetaのオープンソースLLMファミリー。",
+      "es": "La familia de LLMs open-source de Meta que democratizó el acceso a modelos de lenguaje de alta calidad.",
+      "fr": "La famille LLM open-source de Meta qui a démocratisé l'accès aux modèles de langage de qualité."
+    },
+    "body": {
+      "en": "Llama models changed the AI landscape by proving that open-weight models can approach proprietary model quality. The ecosystem built around Llama—fine-tunes, quantizations, deployment tools—means developers have genuine alternatives to API-only services.\n\nYou won't interact with Llama directly like ChatGPT; it's a model family that powers countless applications and services. Its value is in the freedom it provides: run locally, fine-tune for your domain, deploy without per-token costs, and maintain full data control.",
+      "zh": "Llama 模型改变了AI格局，证明开放权重模型可以接近专有模型的质量。围绕 Llama 构建的生态——微调、量化、部署工具——意味着开发者有了真正的替代 API-only 服务的选择。\n\n你不会像 ChatGPT 那样直接与 Llama 交互；它是驱动无数应用和服务的模型系列。其价值在于提供的自由：本地运行、针对你的领域微调、无按token计费部署、保持完全数据控制。",
+      "ja": "Llamaモデルはオープンウェイトモデルがプロプライエタリモデルの品質に近づけることを証明し、AI景観を変えました。Llamaを中心に構築されたエコシステム——ファインチューン、量子化、デプロイツール——は開発者にAPIのみのサービスの真の代替を提供します。\n\nChatGPTのように直接対話するものではなく、無数のアプリケーションを支えるモデルファミリーです。その価値は提供する自由にあります：ローカル実行、ドメイン特化のファインチューニング、トークン課金なしのデプロイ、完全なデータ制御。",
+      "es": "Los modelos Llama cambiaron el panorama IA probando que modelos de pesos abiertos pueden acercarse a la calidad propietaria. El ecosistema construido alrededor—fine-tunes, cuantizaciones, herramientas de despliegue—da a los desarrolladores alternativas genuinas.\n\nNo interactúas con Llama directamente como ChatGPT; es una familia de modelos que impulsa innumerables aplicaciones. Su valor está en la libertad: ejecutar localmente, fine-tune para tu dominio, desplegar sin costos por token.",
+      "fr": "Les modèles Llama ont changé le paysage IA en prouvant que les modèles open-weight peuvent approcher la qualité propriétaire. L'écosystème construit autour—fine-tunes, quantifications, outils de déploiement—donne aux développeurs de vraies alternatives.\n\nVous n'interagissez pas directement avec Llama comme ChatGPT; c'est une famille de modèles qui alimente d'innombrables applications. Sa valeur est dans la liberté : exécution locale, fine-tuning, déploiement sans coûts par token."
+    },
+    "bestFor": {
+      "en": [
+        "Self-hosted AI deployment with full control",
+        "Fine-tuning for domain-specific applications",
+        "Cost-effective inference at scale"
+      ],
+      "zh": [
+        "完全掌控的自托管AI部署",
+        "针对特定领域的微调应用",
+        "大规模高性价比推理"
+      ],
+      "ja": [
+        "完全制御のセルフホストAIデプロイ",
+        "ドメイン特化アプリケーション向けファインチューニング",
+        "大規模コスパ推論"
+      ],
+      "es": [
+        "Despliegue IA auto-hospedado con control total",
+        "Fine-tuning para aplicaciones de dominio específico",
+        "Inferencia rentable a escala"
+      ],
+      "fr": [
+        "Déploiement IA auto-hébergé avec contrôle total",
+        "Fine-tuning pour applications de domaine spécifique",
+        "Inférence rentable à grande échelle"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You want a ready-to-use chat product (→ ChatGPT, Claude)",
+        "You prefer Chinese-optimized open models (→ Qwen, DeepSeek)"
+      ],
+      "zh": [
+        "需要开箱即用的聊天产品（→ ChatGPT、Claude）",
+        "偏好中文优化的开源模型（→ Qwen、DeepSeek）"
+      ],
+      "ja": [
+        "すぐに使えるチャット製品が必要な場合（→ ChatGPT、Claude）",
+        "中国語最適化のオープンモデルを好む場合（→ Qwen、DeepSeek）"
+      ],
+      "es": [
+        "Quieres un producto de chat listo para usar (→ ChatGPT, Claude)",
+        "Prefieres modelos abiertos optimizados para chino (→ Qwen, DeepSeek)"
+      ],
+      "fr": [
+        "Vous voulez un produit chat prêt à l'emploi (→ ChatGPT, Claude)",
+        "Vous préférez des modèles ouverts optimisés pour le chinois (→ Qwen, DeepSeek)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-30",
+    "verdictDate": "2026-07-27",
+    "pricingVerified": "2026-07-27"
+  }
+}

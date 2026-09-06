@@ -1,0 +1,79 @@
+{
+  "slug": "ida-pro-mcp",
+  "name": "IDA Pro MCP",
+  "nameZh": "IDA Pro MCP",
+  "description": "AI 驱动的逆向工程助手，桥接 IDA Pro 与大语言模型。让 AI 智能体分析二进制文件、反汇编代码、识别函数和数据结构，辅助安全研究和漏洞分析。",
+  "descriptionEn": "An AI-powered reverse engineering assistant that bridges IDA Pro with large language models. Lets AI agents analyze binary files, disassemble code, identify functions and data structures — assisting security research and vulnerability analysis.",
+  "descriptionJa": "IDA Pro と大規模言語モデルを橋渡しする、AI 駆動のリバースエンジニアリングアシスタント。AI エージェントがバイナリファイルの解析、逆アセンブル、関数やデータ構造の特定を行い、セキュリティ研究や脆弱性分析を支援します。",
+  "descriptionEs": "Un asistente de ingeniería inversa impulsado por IA que conecta IDA Pro con modelos de lenguaje grandes. Permite a los agentes de IA analizar archivos binarios, desensamblar código, identificar funciones y estructuras de datos — asistiendo en investigación de seguridad y análisis de vulnerabilidades.",
+  "descriptionFr": "Un assistant de rétro-ingénierie piloté par l'IA qui fait le pont entre IDA Pro et les grands modèles de langage. Permet aux agents IA d'analyser des fichiers binaires, de désassembler du code, d'identifier des fonctions et des structures de données — assistant la recherche en sécurité et l'analyse de vulnérabilités.",
+  "developer": "mrexodia",
+  "developerZh": "mrexodia",
+  "repo": "mrexodia/ida-pro-mcp",
+  "clients": [
+    "claude",
+    "cursor",
+    "vscode",
+    "codex",
+    "generic"
+  ],
+  "category": "Developer",
+  "tags": [
+    "Free",
+    "Open Source"
+  ],
+  "installCommand": "npx -y ida-pro-mcp",
+  "logo": "/logos/mcp/ida-pro-mcp.png",
+  "stars": 11827,
+  "featured": false,
+  "faqs": [
+    {
+      "question": {
+        "zh": "IDA Pro MCP 能做什么？",
+        "en": "What can IDA Pro MCP do?",
+        "ja": "IDA Pro MCP は何ができますか？",
+        "es": "¿Qué puede hacer IDA Pro MCP?",
+        "fr": "Que peut faire IDA Pro MCP ?"
+      },
+      "answer": {
+        "zh": "让 AI 智能体分析 IDA Pro 中的二进制文件：读取反汇编代码、识别函数签名和调用约定、分析控制流图、搜索特定指令模式、获取交叉引用。极大加速逆向工程中的代码理解过程。",
+        "en": "Lets AI agents analyze binaries in IDA Pro: read disassembly code, identify function signatures and calling conventions, analyze control flow graphs, search for specific instruction patterns, and get cross-references. Dramatically accelerates code understanding in reverse engineering workflows.",
+        "ja": "AI エージェントが IDA Pro 内のバイナリを解析できます：逆アセンブルコードの読み取り、関数シグネチャと呼び出し規約の識別、制御フローグラフの分析、特定の命令パターンの検索、クロスリファレンスの取得。リバースエンジニアリングにおけるコード理解を大幅に加速します。",
+        "es": "Permite a los agentes de IA analizar binarios en IDA Pro: leer código desensamblado, identificar firmas de funciones y convenciones de llamada, analizar gráficos de flujo de control, buscar patrones de instrucciones específicos y obtener referencias cruzadas. Acelera drásticamente la comprensión del código en flujos de trabajo de ingeniería inversa.",
+        "fr": "Permet aux agents IA d'analyser des binaires dans IDA Pro : lire le code désassemblé, identifier les signatures de fonctions et les conventions d'appel, analyser les graphes de flux de contrôle, rechercher des motifs d'instructions spécifiques et obtenir des références croisées. Accélère considérablement la compréhension du code dans les workflows de rétro-ingénierie."
+      }
+    },
+    {
+      "question": {
+        "zh": "IDA Pro MCP 需要 IDA Pro 许可证吗？",
+        "en": "Does IDA Pro MCP require an IDA Pro license?",
+        "ja": "IDA Pro MCP を使用するには IDA Pro のライセンスが必要ですか？",
+        "es": "¿IDA Pro MCP necesita una licencia de IDA Pro?",
+        "fr": "IDA Pro MCP nécessite-t-il une licence IDA Pro ?"
+      },
+      "answer": {
+        "zh": "是的，需要已安装的 IDA Pro（7.0 或更新版本）和有效的许可证。MCP 服务器通过 IDA 的 Python 插件接口与 IDA 交互，因此需要完整的 IDA Pro 环境，免费版 IDA Free 可能部分功能受限。",
+        "en": "Yes, you need IDA Pro (7.0 or newer) installed with a valid license. The MCP server interacts with IDA through its Python plugin interface, so it requires the full IDA Pro environment. The free IDA Free version may have limited functionality.",
+        "ja": "はい、インストール済みの IDA Pro（7.0 以降）と有効なライセンスが必要です。MCP サーバーは IDA の Python プラグインインターフェースを介して IDA と対話するため、完全な IDA Pro 環境が必要です。無料の IDA Free 版では機能が制限される可能性があります。",
+        "es": "Sí, necesitas IDA Pro (7.0 o superior) instalado con una licencia válida. El servidor MCP interactúa con IDA a través de su interfaz de plugins de Python, por lo que requiere el entorno completo de IDA Pro. La versión gratuita IDA Free puede tener funcionalidad limitada.",
+        "fr": "Oui, vous avez besoin d'IDA Pro (7.0 ou plus récent) installé avec une licence valide. Le serveur MCP interagit avec IDA via son interface de plugins Python, donc il nécessite l'environnement IDA Pro complet. La version gratuite IDA Free peut avoir des fonctionnalités limitées."
+      }
+    },
+    {
+      "question": {
+        "zh": "IDA Pro MCP 免费吗？",
+        "en": "Is IDA Pro MCP free?",
+        "ja": "IDA Pro MCP は無料ですか？",
+        "es": "¿IDA Pro MCP es gratuito?",
+        "fr": "IDA Pro MCP est-il gratuit ?"
+      },
+      "answer": {
+        "zh": "MCP 服务器本身免费开源。但 IDA Pro 本身是商业软件，需要购买许可证。如果你已经有 IDA Pro 环境，使用这个 MCP 服务器不需要额外费用。",
+        "en": "The MCP server itself is free and open source. However, IDA Pro itself is commercial software requiring a purchased license. If you already have an IDA Pro environment, using this MCP server incurs no additional cost.",
+        "ja": "MCP サーバー自体は無料のオープンソースです。ただし、IDA Pro 自体は有料ライセンスが必要な商用ソフトウェアです。既に IDA Pro 環境をお持ちの場合は、この MCP サーバーの利用に追加費用はかかりません。",
+        "es": "El servidor MCP en sí es gratuito y de código abierto. Sin embargo, IDA Pro en sí es un software comercial que requiere una licencia comprada. Si ya tienes un entorno IDA Pro, usar este servidor MCP no incurre en costos adicionales.",
+        "fr": "Le serveur MCP lui-même est gratuit et open source. Cependant, IDA Pro lui-même est un logiciel commercial nécessitant une licence payante. Si vous avez déjà un environnement IDA Pro, l'utilisation de ce serveur MCP n'entraîne aucun coût supplémentaire."
+      }
+    }
+  ]
+}

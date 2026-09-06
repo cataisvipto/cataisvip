@@ -1,0 +1,244 @@
+{
+  "features": {
+    "en": [
+      "Open-source LLM platform",
+      "Visual workflow builder",
+      "RAG pipeline",
+      "Agent with tools",
+      "Model provider hub",
+      "API & web deploy"
+    ],
+    "zh": [
+      "开源 LLM 平台",
+      "可视化工作流",
+      "RAG 管道",
+      "智能体+工具",
+      "模型中心",
+      "API & Web 部署"
+    ],
+    "ja": [
+      "オープンソース LLM",
+      "ビジュアルワークフロー",
+      "RAG",
+      "エージェント",
+      "モデル統合",
+      "API・Web"
+    ],
+    "es": [
+      "LLM open-source",
+      "Workflow visual",
+      "RAG",
+      "Agente",
+      "Centro modelos",
+      "API y web"
+    ],
+    "fr": [
+      "LLM open-source",
+      "Workflow visuel",
+      "RAG",
+      "Agent",
+      "Hub modèles",
+      "API et web"
+    ]
+  },
+  "useCases": {
+    "en": [
+      "Custom chatbot",
+      "Knowledge base Q&A",
+      "AI workflow automation",
+      "Enterprise LLM",
+      "Customer support"
+    ],
+    "zh": [
+      "自定义聊天机器人",
+      "知识库问答",
+      "AI 工作流",
+      "企业 LLM",
+      "客服"
+    ],
+    "ja": [
+      "チャットボット",
+      "知識ベース",
+      "ワークフロー",
+      "エンタープライズ",
+      "サポート"
+    ],
+    "es": [
+      "Chatbot",
+      "Base conocimiento",
+      "Workflow IA",
+      "LLM empresa",
+      "Soporte"
+    ],
+    "fr": [
+      "Chatbot",
+      "Base connaissances",
+      "Workflow IA",
+      "LLM entreprise",
+      "Support"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Open-source free",
+      "Visual workflow",
+      "Multi-model support",
+      "Active community"
+    ],
+    "zh": [
+      "开源免费",
+      "可视化工作流",
+      "多模型",
+      "社区活跃"
+    ],
+    "ja": [
+      "無料",
+      "ビジュアル",
+      "複数モデル",
+      "コミュニティ"
+    ],
+    "es": [
+      "Open-source gratis",
+      "Workflow visual",
+      "Multi-modelo",
+      "Comunidad"
+    ],
+    "fr": [
+      "Open-source gratuit",
+      "Workflow visuel",
+      "Multi-modèle",
+      "Communauté"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Technical setup needed",
+      "Self-host needs resources",
+      "Features maturing"
+    ],
+    "zh": [
+      "需技术部署",
+      "自托管需资源",
+      "功能成熟中"
+    ],
+    "ja": [
+      "技術的設定",
+      "リソース必要",
+      "発展途上"
+    ],
+    "es": [
+      "Configuración técnica",
+      "Requiere recursos",
+      "Madurando"
+    ],
+    "fr": [
+      "Configuration technique",
+      "Ressources nécessaires",
+      "En maturation"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Open-source free self-host",
+      "zh": "开源免费自托管",
+      "ja": "無料セルフホスト",
+      "es": "Open-source gratis",
+      "fr": "Open-source gratuit"
+    },
+    "cloud": {
+      "en": "Cloud tiered plans",
+      "zh": "云版本级计划",
+      "ja": "クラウド階層別",
+      "es": "Planes cloud",
+      "fr": "Forfaits cloud"
+    }
+  },
+  "latestUpdate": {
+    "en": "2026: Dify leads open-source LLM platform",
+    "zh": "2026年：Dify 领先开源 LLM 平台",
+    "ja": "2026年：Dify がオープンソース LLM をリード",
+    "es": "2026: Dify lidera LLM open-source",
+    "fr": "2026 : Dify domine les plateformes LLM open-source"
+  },
+  "verdict": {
+    "badge": "Recommended",
+    "headline": {
+      "en": "An open-source platform for building AI applications visually — drag-and-drop workflows without writing orchestration code.",
+      "zh": "开源AI应用可视化搭建平台——拖拽式工作流，无需编写编排代码。",
+      "ja": "AIアプリケーションを視覚的に構築するオープンソースプラットフォーム。",
+      "es": "Plataforma de código abierto para construir aplicaciones IA visualmente.",
+      "fr": "Plateforme open-source pour construire des applications IA visuellement."
+    },
+    "body": {
+      "en": "Dify occupies a useful middle ground between no-code AI builders and full framework development. Its visual workflow editor lets you chain together LLM calls, retrieval steps, and tool integrations into production-ready applications.\n\nThe platform supports RAG pipelines, multiple model providers, and pre-built components. Being open-source means you can self-host it for full data control.\n\nWhere Dify falls short is in flexibility at the extremes. Very complex agent behaviors may hit the limits of the visual editor.",
+      "zh": "Dify占据了无代码AI构建器与完整框架开发之间的实用中间地带。可视化工作流编辑器让你将LLM调用、检索步骤和工具集成串联成生产就绪的应用。\n\n平台支持RAG管道、多种模型提供商和预构建组件。开源意味着可以自托管。\n\n短板在于极端情况下的灵活性。非常复杂的智能体行为可能触及可视化编辑器的极限。",
+      "ja": "Difyはノーコードビルダーとフルフレームワーク開発の間の実用的な中間地点です。ビジュアルワークフローエディタでLLM呼び出し、検索ステップ、ツール統合を連結できます。\n\nRAGパイプライン、複数モデルプロバイダー、プリビルトコンポーネントをサポート。オープンソースなのでセルフホスト可能です。\n\n短所は極端なケースでの柔軟性です。",
+      "es": "Dify ocupa un terreno intermedio útil. Su editor visual permite encadenar llamadas LLM, pasos de recuperación e integraciones.\n\nSoporta pipelines RAG, múltiples proveedores y componentes preconstruidos. Al ser de código abierto, puedes auto-alojarlo.\n\nDonde queda corto es en flexibilidad en los extremos.",
+      "fr": "Dify occupe un terrain intermédiaire utile. Son éditeur visuel permet d'enchaîner appels LLM, étapes de retrieval et intégrations.\n\nSupporte les pipelines RAG, multiples fournisseurs et composants pré-construits. Étant open-source, vous pouvez l'auto-héberger.\n\nSa limite est la flexibilité aux extrêmes."
+    },
+    "bestFor": {
+      "en": [
+        "Building internal AI tools without heavy framework knowledge",
+        "Teams wanting visual AI workflow design with self-hosting",
+        "RAG-based document Q&A systems for enterprises",
+        "Rapid prototyping of AI applications"
+      ],
+      "zh": [
+        "无需深厚框架知识构建内部AI工具",
+        "想要可视化AI工作流设计且支持自托管的团队",
+        "企业级RAG文档问答系统",
+        "AI应用快速原型"
+      ],
+      "ja": [
+        "フレームワーク知識なしで社内AIツールを構築",
+        "セルフホスティング可能なビジュアルAIワークフロー設計",
+        "企業向けRAG文書Q&Aシステム",
+        "AIアプリの高速プロトタイピング"
+      ],
+      "es": [
+        "Construir herramientas IA internas sin conocimiento de frameworks",
+        "Equipos que quieren diseño visual con auto-alojamiento",
+        "Sistemas Q&A basados en RAG para empresas",
+        "Prototipado rápido de aplicaciones IA"
+      ],
+      "fr": [
+        "Construire des outils IA internes sans expertise framework",
+        "Équipes voulant un design visuel avec auto-hébergement",
+        "Systèmes Q&A documentaires RAG pour entreprises",
+        "Prototypage rapide d'applications IA"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You need maximum flexibility with custom code (→ LangChain, LlamaIndex)",
+        "You want a consumer-friendly bot builder with broader reach (→ Coze)",
+        "You prefer a fully managed service without self-hosting (→ Google AI Studio)"
+      ],
+      "zh": [
+        "你需要自定义代码的最大灵活性（→ LangChain、LlamaIndex）",
+        "你想要面向消费者且覆盖更广的Bot构建器（→ Coze）",
+        "你偏好无需自托管的完全托管服务（→ Google AI Studio）"
+      ],
+      "ja": [
+        "カスタムコードの最大限の柔軟性が必要な場合（→ LangChain、LlamaIndex）",
+        "より広いリーチの消費者向けBot構築ツールが欲しい場合（→ Coze）",
+        "セルフホスティング不要のマネージドサービスを好む場合（→ Google AI Studio）"
+      ],
+      "es": [
+        "Necesitas máxima flexibilidad con código personalizado (→ LangChain, LlamaIndex)",
+        "Quieres un constructor de bots con mayor alcance (→ Coze)",
+        "Prefieres un servicio gestionado (→ Google AI Studio)"
+      ],
+      "fr": [
+        "Vous avez besoin de flexibilité maximale avec code custom (→ LangChain, LlamaIndex)",
+        "Vous voulez un constructeur de bots grand public (→ Coze)",
+        "Vous préférez un service entièrement géré (→ Google AI Studio)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-27",
+    "verdictDate": "2026-07-27",
+    "pricingVerified": "2026-07-27"
+  }
+}

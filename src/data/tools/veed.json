@@ -1,0 +1,29 @@
+{
+  "slug": "veed",
+  "name": "Veed.io",
+  "nameZh": "Veed.io",
+  "description": "伦敦出品的在线 AI 视频创作平台，招牌级自动字幕与无限多语言字幕翻译，自研 Fabric 1.0 说话人视频模型（官方称比同类便宜 60 倍）、AI 头像与聚合 Veo 3.1 的文生视频，免费档可用、Lite 年付 $18/月",
+  "descriptionEn": "The London-built online AI video platform: signature auto-subtitles with unlimited multilingual translation, its own Fabric 1.0 talking-head model (60x cheaper than rivals, per Veed), AI avatars and text-to-video aggregating Veo 3.1 — free tier available, Lite from $18/month billed annually",
+  "descriptionJa": "ロンドン発のオンラインAI動画制作プラットフォーム。看板の自動字幕と無制限の多言語字幕翻訳、自社開発の話者動画モデルFabric 1.0（公式いわく同類の60分の1のコスト）、AIアバター、Veo 3.1を集約したテキスト生成動画を提供。無料枠あり、Liteは年払いで月$18",
+  "descriptionEs": "La plataforma online de vídeo con IA hecha en Londres: subtítulos automáticos insignia con traducción multilingüe ilimitada, su propio modelo de busto parlante Fabric 1.0 (60 veces más barato que rivales, según Veed), avatares de IA y texto a vídeo que agrega Veo 3.1 — nivel gratuito disponible, Lite desde $18/mes con pago anual",
+  "descriptionFr": "La plateforme vidéo IA en ligne née à Londres : sous-titres automatiques emblématiques avec traduction multilingue illimitée, son propre modèle de présentateur Fabric 1.0 (60 fois moins cher que les concurrents, selon Veed), avatars IA et texte vers vidéo agrégeant Veo 3.1 — offre gratuite disponible, Lite dès 18 $/mois en annuel",
+  "url": "https://www.veed.io",
+  "logo": "/logos/tools/veed.png",
+  "category": "Video",
+  "tags": [
+    "Freemium",
+    "API"
+  ],
+  "featured": false,
+  "developer": "VEED",
+  "platforms": {
+    "web": true,
+    "windows": false,
+    "macos": false,
+    "ios": true,
+    "android": false,
+    "linux": false,
+    "browser_extension": false,
+    "api": true
+  }
+}

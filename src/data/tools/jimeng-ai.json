@@ -1,0 +1,30 @@
+{
+  "slug": "jimeng-ai",
+  "homeFeatured": true,
+  "name": "Jimeng AI",
+  "nameZh": "即梦AI",
+  "description": "字节跳动推出的 AI 图像与视频创作平台（国内版），深度融合剪映生态，支持文字生成图像和视频，创意设计一站式完成",
+  "descriptionEn": "ByteDance's AI image and video creation platform (China version), deeply integrated with Jianying ecosystem for text-to-image and text-to-video creation",
+  "descriptionJa": "ByteDanceのAI画像・動画創作プラットフォーム（中国版）。剪映エコシステムと深く統合、テキストから画像・動画生成をワンストップで実現",
+  "descriptionEs": "Plataforma de creación de imágenes y vídeos con IA de ByteDance (versión China), profundamente integrada con el ecosistema Jianying para creación de texto a imagen y vídeo",
+  "descriptionFr": "Plateforme de création d'images et de vidéos IA de ByteDance (version Chine), profondément intégrée à l'écosystème Jianying pour la création texte-image et texte-vidéo",
+  "url": "https://jimeng.jianying.com",
+  "logo": "/logos/tools/jimeng-ai.png",
+  "category": "Image",
+  "tags": [
+    "Freemium"
+  ],
+  "featured": true,
+  "developer": "ByteDance",
+  "developerZh": "字节跳动",
+  "platforms": {
+    "web": true,
+    "windows": false,
+    "macos": false,
+    "ios": true,
+    "android": true,
+    "linux": false,
+    "browser_extension": false,
+    "api": true
+  }
+}

@@ -1,0 +1,234 @@
+{
+  "features": {
+    "en": [
+      "AI pair programming directly in your terminal, free and open source",
+      "Repo map builds a whole-codebase mental model for the LLM",
+      "Automatic git commits with sensible messages — easy to diff and undo",
+      "Model-agnostic: Claude, GPT, DeepSeek, Gemini or fully local models",
+      "Watch mode: trigger edits from AI comments inside any IDE",
+      "Voice-to-code, image and web page context, automatic lint/test fixing"
+    ],
+    "zh": [
+      "直接在终端里进行 AI 结对编程，免费开源",
+      "repo map 为大模型构建整个代码库的心智地图",
+      "自动 git 提交并生成合理的提交信息——好 diff 好回滚",
+      "模型无关：Claude、GPT、DeepSeek、Gemini 乃至纯本地模型",
+      "watch 模式：在任意 IDE 里用 AI 注释触发编辑",
+      "语音编码、图片与网页上下文、自动 lint/测试修复"
+    ],
+    "ja": [
+      "ターミナルで直接AIペアプログラミング。無料オープンソース",
+      "repo mapがLLMにコードベース全体のメンタルモデルを構築",
+      "適切なメッセージ付きのgit自動コミット——diffもundoも簡単",
+      "モデル非依存：Claude、GPT、DeepSeek、Gemini、完全ローカルモデルも",
+      "watchモード：任意のIDE内のAIコメントから編集をトリガー",
+      "音声コーディング、画像・Webページのコンテキスト、lint/テスト自動修正"
+    ],
+    "es": [
+      "Programación en pareja con IA directamente en tu terminal, gratis y open source",
+      "El repo map construye un modelo mental de toda la base de código para el LLM",
+      "Commits automáticos de git con mensajes sensatos: fáciles de comparar y revertir",
+      "Agnóstico de modelos: Claude, GPT, DeepSeek, Gemini o modelos totalmente locales",
+      "Modo watch: activa ediciones desde comentarios IA dentro de cualquier IDE",
+      "Voz a código, contexto de imágenes y páginas web, corrección automática de lint/tests"
+    ],
+    "fr": [
+      "Programmation en binôme avec l'IA directement dans votre terminal, gratuit et open source",
+      "La repo map construit un modèle mental de toute la base de code pour le LLM",
+      "Commits git automatiques avec messages pertinents — faciles à diff et annuler",
+      "Indépendant du modèle : Claude, GPT, DeepSeek, Gemini ou modèles entièrement locaux",
+      "Mode watch : déclenchez des modifications via des commentaires IA dans n'importe quel IDE",
+      "Voix vers code, contexte images et pages web, correction automatique lint/tests"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Completely free and open source (`pip install aider-install`) — you only pay the API costs of whichever model you connect, and local models cost nothing",
+      "zh": "完全免费开源（`pip install aider-install`）——只需支付所接模型的 API 费用，接本地模型则分文不花",
+      "ja": "完全無料のオープンソース（`pip install aider-install`）。支払うのは接続するモデルのAPI費用のみ。ローカルモデルなら費用ゼロ",
+      "es": "Totalmente gratis y de código abierto (`pip install aider-install`): solo pagas los costes de API del modelo que conectes, y los modelos locales no cuestan nada",
+      "fr": "Totalement gratuit et open source (`pip install aider-install`) — vous ne payez que les coûts d'API du modèle connecté, et les modèles locaux ne coûtent rien"
+    },
+    "paid": {
+      "en": "No paid plans at all — there is nothing to buy; model usage is billed by your chosen provider (e.g. Anthropic, OpenAI, DeepSeek) at their standard API rates",
+      "zh": "完全没有付费档——没有任何可买的东西；模型用量由你选择的供应商（如 Anthropic、OpenAI、DeepSeek）按其标准 API 费率计费",
+      "ja": "有料プランは一切なし——買うものが存在しない。モデル利用料は選んだプロバイダー（Anthropic、OpenAI、DeepSeekなど）の標準APIレートで課金",
+      "es": "No hay planes de pago: no hay nada que comprar; el uso del modelo lo factura el proveedor que elijas (Anthropic, OpenAI, DeepSeek, etc.) a sus tarifas estándar de API",
+      "fr": "Aucun plan payant — il n'y a rien à acheter ; l'usage des modèles est facturé par le fournisseur de votre choix (Anthropic, OpenAI, DeepSeek, etc.) à ses tarifs API standard"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Fast, surgical edits across a large existing codebase from the terminal",
+      "Developers who live in tmux/vim and refuse to switch editors",
+      "Fully offline AI coding with local models for sensitive code",
+      "Git-disciplined workflows where every AI change is a clean commit"
+    ],
+    "zh": [
+      "从终端对大型存量代码库做快速、外科手术式的修改",
+      "常驻 tmux/vim、拒绝换编辑器的开发者",
+      "用本地模型对敏感代码做完全离线的 AI 编程",
+      "git 纪律严明、要求每次 AI 改动都是干净提交的工作流"
+    ],
+    "ja": [
+      "ターミナルから大規模な既存コードベースに素早く外科手術的な修正",
+      "tmux/vimに住み、エディタを変えたくない開発者",
+      "ローカルモデルで機密コードを完全オフラインAIコーディング",
+      "AIの変更を全てクリーンなコミットにするgit規律の高いワークフロー"
+    ],
+    "es": [
+      "Ediciones rápidas y quirúrgicas en una gran base de código existente desde la terminal",
+      "Desarrolladores que viven en tmux/vim y se niegan a cambiar de editor",
+      "Programación IA totalmente offline con modelos locales para código sensible",
+      "Flujos disciplinados de git donde cada cambio IA es un commit limpio"
+    ],
+    "fr": [
+      "Modifications rapides et chirurgicales d'une grande base de code existante depuis le terminal",
+      "Développeurs qui vivent dans tmux/vim et refusent de changer d'éditeur",
+      "Codage IA entièrement hors ligne avec des modèles locaux pour du code sensible",
+      "Flux git disciplinés où chaque changement IA est un commit propre"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Zero cost beyond model API usage — no subscription, ever",
+      "Battle-tested: 44K+ GitHub stars, millions of installs, billions of tokens weekly",
+      "Repo map gives strong results on large codebases without huge contexts",
+      "Git-native design makes every change reviewable and reversible"
+    ],
+    "zh": [
+      "除模型 API 用量外零成本——永远没有订阅费",
+      "久经沙场：4.4 万+ GitHub star、数百万安装、每周数十亿 token",
+      "repo map 不靠巨型上下文也能在大代码库上表现出色",
+      "git 原生设计让每次改动都可审查、可回滚"
+    ],
+    "ja": [
+      "モデルAPI利用料以外はゼロコスト——サブスクは永遠に不要",
+      "実戦で鍛えられた実績：GitHubスター4.4万超、数百万インストール、週数十億トークン",
+      "repo mapにより巨大コンテキストなしでも大規模コードベースで高い成果",
+      "gitネイティブ設計で全変更がレビュー可能・取り消し可能"
+    ],
+    "es": [
+      "Coste cero más allá del uso de API del modelo: nunca hay suscripción",
+      "Probado en batalla: más de 44K estrellas en GitHub, millones de instalaciones, miles de millones de tokens semanales",
+      "El repo map logra buenos resultados en bases grandes sin contextos enormes",
+      "El diseño nativo de git hace cada cambio revisable y reversible"
+    ],
+    "fr": [
+      "Coût nul au-delà de l'usage API du modèle — jamais d'abonnement",
+      "Éprouvé : plus de 44K étoiles GitHub, des millions d'installations, des milliards de tokens par semaine",
+      "La repo map donne d'excellents résultats sur de grandes bases sans contextes énormes",
+      "La conception native git rend chaque changement vérifiable et réversible"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Terminal-first UX has a learning curve for GUI-oriented developers",
+      "Less autonomous than agentic tools — it edits, you drive",
+      "Python installation and model configuration can trip up beginners",
+      "No built-in team, sharing or enterprise management features"
+    ],
+    "zh": [
+      "终端优先的体验对 GUI 系开发者有学习曲线",
+      "自主性不如智能体类工具——它负责改，你负责开",
+      "Python 安装与模型配置可能绊住新手",
+      "没有内置的团队、共享或企业管理功能"
+    ],
+    "ja": [
+      "ターミナル優先のUXはGUI派の開発者には学習コストあり",
+      "エージェント型ツールほど自律的ではない——編集はAI、運転はあなた",
+      "Pythonのインストールとモデル設定は初心者がつまずきやすい",
+      "チーム・共有・エンタープライズ管理機能は内蔵されていない"
+    ],
+    "es": [
+      "La experiencia centrada en terminal tiene curva de aprendizaje para desarrolladores de GUI",
+      "Menos autónomo que las herramientas agénticas: él edita, tú conduces",
+      "La instalación de Python y la configuración de modelos pueden frenar a principiantes",
+      "Sin funciones integradas de equipo, compartición o gestión empresarial"
+    ],
+    "fr": [
+      "L'expérience orientée terminal a une courbe d'apprentissage pour les développeurs GUI",
+      "Moins autonome que les outils agentiques — il édite, vous pilotez",
+      "L'installation Python et la configuration des modèles peuvent bloquer les débutants",
+      "Pas de fonctions intégrées d'équipe, de partage ou de gestion d'entreprise"
+    ]
+  },
+  "latestUpdate": {
+    "en": "2026: Aider surpasses 44K GitHub stars and 6.8 million installs, processing over 15 billion tokens weekly; recent releases strengthen watch-mode IDE integration, local model support and automatic lint/test repair",
+    "zh": "2026 年：Aider 突破 4.4 万 GitHub star 与 680 万安装量，每周处理超 150 亿 token；近期版本强化了 watch 模式 IDE 集成、本地模型支持与自动 lint/测试修复",
+    "ja": "2026年：AiderはGitHubスター4.4万、680万インストールを突破し、週150億トークン超を処理。最近のリリースではwatchモードのIDE統合、ローカルモデル対応、lint/テスト自動修復を強化",
+    "es": "2026: Aider supera las 44K estrellas en GitHub y 6,8 millones de instalaciones, procesando más de 15 000 millones de tokens semanales; las versiones recientes refuerzan la integración IDE del modo watch, el soporte de modelos locales y la reparación automática de lint/tests",
+    "fr": "2026 : Aider dépasse 44K étoiles GitHub et 6,8 millions d'installations, traitant plus de 15 milliards de tokens par semaine ; les versions récentes renforcent l'intégration IDE du mode watch, le support des modèles locaux et la réparation automatique lint/tests"
+  },
+  "verdict": {
+    "badge": "Recommended",
+    "headline": {
+      "en": "The vim of AI coding: spartan, precise, and completely free",
+      "zh": "AI 编程界的 vim：朴素、精准、完全免费",
+      "ja": "AIコーディング界のvim：質実剛健、精密、そして完全無料",
+      "es": "El vim de la programación IA: espartano, preciso y completamente gratis",
+      "fr": "Le vim du codage IA : spartiate, précis et totalement gratuit"
+    },
+    "body": {
+      "en": "Aider predates the agent hype and still embodies a different philosophy: the AI is your pair programmer, not your replacement. Its repo map squeezes remarkable large-codebase understanding out of modest contexts, and its git-first discipline — every change lands as a clean, undoable commit — is something the flashier tools still haven't matched. It won't run for an hour unattended like an agent, and the terminal UX filters out casual users. But if you want maximum control per dollar (often zero dollars, with local models), Aider remains the sharpest free tool in the drawer.",
+      "zh": "Aider 比智能体热潮出现得更早，至今仍坚持另一种哲学：AI 是你的结对程序员，不是替代者。它的 repo map 用不大的上下文榨出惊人的大代码库理解力，git 优先的纪律——每次改动都落成干净可回滚的提交——那些花哨的工具至今没能追上。它不会像智能体那样无人值守跑一小时，终端体验也筛掉了轻度用户。但如果你追求每一块钱的掌控力最大化（用本地模型经常是零块钱），Aider 仍是抽屉里最锋利的那把免费刀。",
+      "ja": "Aiderはエージェントブーム以前から存在し、今も異なる哲学を貫く。AIはあなたのペアプログラマーであって、代わりではない。repo mapは控えめなコンテキストから驚くほどの大規模コードベース理解を絞り出し、gitファーストの規律——全変更がクリーンで取り消せるコミットになる——は派手なツール勢が未だに追いつけない。エージェントのように1時間放置で動くことはなく、ターミナルUXはライトユーザーをふるいにかける。だが1ドルあたりの制御力を最大化したいなら（ローカルモデルなら往々にして0ドル）、Aiderは今も引き出しの中で最も切れる無料の道具だ。",
+      "es": "Aider es anterior al bombo de los agentes y aún encarna otra filosofía: la IA es tu compañero de programación, no tu reemplazo. Su repo map extrae una comprensión notable de grandes bases de código con contextos modestos, y su disciplina git-first —cada cambio aterriza como un commit limpio y reversible— sigue sin ser igualada por herramientas más vistosas. No trabajará una hora sin supervisión como un agente, y la experiencia de terminal filtra a los usuarios casuales. Pero si quieres el máximo control por dólar (a menudo cero dólares, con modelos locales), Aider sigue siendo la herramienta gratuita más afilada del cajón.",
+      "fr": "Aider est antérieur à la vague des agents et incarne toujours une autre philosophie : l'IA est votre binôme de programmation, pas votre remplaçant. Sa repo map extrait une compréhension remarquable des grandes bases de code avec des contextes modestes, et sa discipline git-first — chaque changement devient un commit propre et annulable — reste inégalée par les outils plus tape-à-l'œil. Il ne tournera pas une heure sans surveillance comme un agent, et l'expérience terminal filtre les utilisateurs occasionnels. Mais si vous voulez un contrôle maximal par dollar (souvent zéro dollar, avec des modèles locaux), Aider reste l'outil gratuit le plus affûté du tiroir."
+    },
+    "bestFor": {
+      "en": [
+        "Terminal-native developers who want AI without leaving the shell",
+        "Privacy-sensitive work using fully local models at zero cost",
+        "Engineers who insist on reviewing every change as a git commit"
+      ],
+      "zh": [
+        "不想离开 shell 也要用 AI 的终端原生开发者",
+        "用纯本地模型零成本处理隐私敏感工作",
+        "坚持以 git 提交审查每一次改动的工程师"
+      ],
+      "ja": [
+        "シェルを離れずAIを使いたいターミナルネイティブな開発者",
+        "完全ローカルモデルでコストゼロのプライバシー重視作業",
+        "全変更をgitコミットとしてレビューしたいエンジニア"
+      ],
+      "es": [
+        "Desarrolladores nativos de terminal que quieren IA sin salir del shell",
+        "Trabajo sensible a la privacidad con modelos totalmente locales a coste cero",
+        "Ingenieros que insisten en revisar cada cambio como commit de git"
+      ],
+      "fr": [
+        "Développeurs natifs du terminal voulant l'IA sans quitter le shell",
+        "Travaux sensibles à la confidentialité avec modèles entièrement locaux à coût nul",
+        "Ingénieurs exigeant de relire chaque changement sous forme de commit git"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You want long autonomous coding sessions (→ Claude Code, Cline)",
+        "You prefer a graphical IDE experience (→ Cursor, Windsurf)"
+      ],
+      "zh": [
+        "想要长时间自主编码会话（→ Claude Code、Cline）",
+        "更喜欢图形化 IDE 体验（→ Cursor、Windsurf）"
+      ],
+      "ja": [
+        "長時間の自律コーディングセッションが欲しい（→ Claude Code、Cline）",
+        "グラフィカルなIDE体験が好み（→ Cursor、Windsurf）"
+      ],
+      "es": [
+        "Quieres sesiones de codificación autónomas largas (→ Claude Code, Cline)",
+        "Prefieres una experiencia de IDE gráfico (→ Cursor, Windsurf)"
+      ],
+      "fr": [
+        "Vous voulez de longues sessions de codage autonomes (→ Claude Code, Cline)",
+        "Vous préférez une expérience IDE graphique (→ Cursor, Windsurf)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-27",
+    "verdictDate": "2026-07-27",
+    "pricingVerified": "2026-07-27"
+  }
+}

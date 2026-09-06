@@ -6,13 +6,16 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { createRequire } from 'node:module';
+const _require = createRequire(import.meta.url);
+const { loadToolDetails, loadSkillDetails, loadMcpDetails } = _require('./lib/load-data.cjs');
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 
 const COLLECTIONS = [
-  { file: 'src/data/toolDetails.json', label: '工具', hasVerdict: true },
-  { file: 'src/data/skillDetails.json', label: 'Skills', hasVerdict: true },
-  { file: 'src/data/mcpDetails.json', label: 'MCP', hasVerdict: true },
+  { load: loadToolDetails, label: '工具', hasVerdict: true },
+  { load: loadSkillDetails, label: 'Skills', hasVerdict: true },
+  { load: loadMcpDetails, label: 'MCP', hasVerdict: true },
 ];
 
 const VERDICT_STALE_DAYS = 180;
@@ -46,8 +49,8 @@ const emit = (s) => {
 let grandTotal = 0;
 let grandHighRisk = 0;
 
-for (const { file, label } of COLLECTIONS) {
-  const details = JSON.parse(fs.readFileSync(path.join(ROOT, file), 'utf8'));
+for (const { load, label } of COLLECTIONS) {
+  const details = load();
   const slugs = Object.keys(details);
 
   const highRisk = []; // 超期且命中 token

@@ -1,0 +1,235 @@
+{
+  "features": {
+    "en": [
+      "Text-to-UI: describe an app and get editable multi-screen prototypes",
+      "Interactive prototypes generated in minutes, not hours",
+      "Agent mode keeps screens consistent via shared components",
+      "Unlimited Figma export on paid plans",
+      "HTML/CSS code export to hand off to developers",
+      "MCP on every plan to connect Claude Code, Cursor and other tools"
+    ],
+    "zh": [
+      "text-to-UI：描述一个应用即得可编辑的多屏原型",
+      "几分钟而非几小时生成可交互原型",
+      "Agent 模式基于共享组件保持各屏一致",
+      "付费档无限导出 Figma",
+      "导出 HTML/CSS 代码，便于交付开发者",
+      "全档接入 MCP，连接 Claude Code、Cursor 等工具"
+    ],
+    "ja": [
+      "text-to-UI：アプリを説明すれば編集可能な複数画面プロトタイプが得られる",
+      "数時間ではなく数分でインタラクティブなプロトタイプを生成",
+      "Agentモードが共有コンポーネントで各画面の一貫性を維持",
+      "有料プランでFigma無制限書き出し",
+      "開発者に渡すためのHTML/CSSコード書き出し",
+      "全プランのMCPでClaude Code・Cursorなどのツールに接続"
+    ],
+    "es": [
+      "Text-to-UI: describe una app y obtén prototipos multipantalla editables",
+      "Prototipos interactivos generados en minutos, no en horas",
+      "El modo Agente mantiene la coherencia de pantallas con componentes compartidos",
+      "Exportación ilimitada a Figma en planes de pago",
+      "Exportación de código HTML/CSS para entregar a desarrolladores",
+      "MCP en todos los planes para conectar Claude Code, Cursor y otras herramientas"
+    ],
+    "fr": [
+      "Text-to-UI : décrivez une app et obtenez des prototypes multi-écrans éditables",
+      "Prototypes interactifs générés en minutes, pas en heures",
+      "Le mode Agent garde les écrans cohérents via des composants partagés",
+      "Export Figma illimité sur les offres payantes",
+      "Export de code HTML/CSS pour transmettre aux développeurs",
+      "MCP sur toutes les offres pour connecter Claude Code, Cursor et d'autres outils"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "A free plan gives 12 credits a month plus 3 that refresh daily, and — unusually — those credits never expire, so you can accumulate them.",
+      "zh": "免费档每月 12 个额度，另加每日刷新的 3 个，且——少见地——这些额度不过期，可以累积。",
+      "ja": "無料プランは月12クレジットに加え毎日3つが補充され、そして珍しくこれらのクレジットは無期限なので貯められる。",
+      "es": "Un plan gratuito da 12 créditos al mes más 3 que se renuevan a diario y —algo inusual— esos créditos no caducan, así que puedes acumularlos.",
+      "fr": "Un plan gratuit offre 12 crédits par mois plus 3 qui se renouvellent chaque jour et — fait rare — ces crédits n'expirent jamais, vous pouvez donc les accumuler."
+    },
+    "paid": {
+      "en": "Plus is $12/month billed annually (or $20 monthly) and Pro is $30/month billed annually (or $50 for unlimited generations), both adding more credits, unlimited Figma export and HTML/CSS export; Enterprise is custom. (Verified against the official pricing page, 2026-07-28.)",
+      "zh": "Plus 年付 $12/月（或月付 $20），Pro 年付 $30/月（或 $50 无限生成），二者均增加额度、无限 Figma 导出与 HTML/CSS 导出；Enterprise 为定制。（对照官方定价页核实，2026-07-28。）",
+      "ja": "Plusは年払いで月$12（または月払い$20）、Proは年払いで月$30（または無制限生成で$50）で、いずれもクレジット増・Figma無制限書き出し・HTML/CSS書き出しを追加。Enterpriseは個別。（公式価格ページと照合、2026-07-28。）",
+      "es": "Plus cuesta $12/mes con facturación anual (o $20 mensual) y Pro $30/mes con facturación anual (o $50 por generaciones ilimitadas), ambos añadiendo más créditos, exportación ilimitada a Figma y exportación HTML/CSS; Enterprise a medida. (Verificado con la página oficial de precios, 2026-07-28.)",
+      "fr": "Plus coûte 12 $/mois en facturation annuelle (ou 20 $ mensuel) et Pro 30 $/mois en facturation annuelle (ou 50 $ pour des générations illimitées), tous deux ajoutant plus de crédits, l'export Figma illimité et l'export HTML/CSS ; Enterprise sur mesure. (Vérifié avec la page tarifaire officielle, 2026-07-28.)"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Quickly turning an app idea into a clickable multi-screen prototype",
+      "Non-designers and PMs mocking up interfaces in natural language",
+      "Handing developers HTML/CSS or Figma exports as a head start",
+      "Driving UI generation from Claude Code or Cursor via MCP"
+    ],
+    "zh": [
+      "把一个应用点子快速变成可点击的多屏原型",
+      "非设计师与产品经理用自然语言搭建界面",
+      "把 HTML/CSS 或 Figma 导出交给开发者赢在起跑线",
+      "通过 MCP 从 Claude Code 或 Cursor 驱动 UI 生成"
+    ],
+    "ja": [
+      "アプリのアイデアを素早くクリック可能な複数画面プロトタイプに",
+      "非デザイナーやPMが自然言語でUIをモックアップ",
+      "HTML/CSSやFigma書き出しを開発者に渡して先行の利を",
+      "MCP経由でClaude CodeやCursorからUI生成を駆動"
+    ],
+    "es": [
+      "Convertir rápido una idea de app en un prototipo clicable multipantalla",
+      "No diseñadores y PMs que maquetan interfaces en lenguaje natural",
+      "Entregar a desarrolladores exportaciones HTML/CSS o Figma como ventaja",
+      "Impulsar la generación de UI desde Claude Code o Cursor vía MCP"
+    ],
+    "fr": [
+      "Transformer vite une idée d'app en prototype cliquable multi-écrans",
+      "Non-designers et PM maquettant des interfaces en langage naturel",
+      "Remettre aux développeurs des exports HTML/CSS ou Figma comme avance",
+      "Piloter la génération d'UI depuis Claude Code ou Cursor via MCP"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Very fast from text to editable, interactive multi-screen prototypes",
+      "Free credits never expire — rare and genuinely generous",
+      "Agent mode and shared components keep designs consistent",
+      "MCP on every plan connects it to coding agents and IDEs"
+    ],
+    "zh": [
+      "从文字到可编辑、可交互的多屏原型非常快",
+      "免费额度不过期——少见且是真慷慨",
+      "Agent 模式与共享组件让设计保持一致",
+      "全档 MCP，连得上编码智能体与 IDE"
+    ],
+    "ja": [
+      "テキストから編集可能でインタラクティブな複数画面プロトタイプまで非常に速い",
+      "無料クレジットが無期限——珍しく本当に寛容",
+      "Agentモードと共有コンポーネントがデザインの一貫性を保つ",
+      "全プランのMCPがコーディングエージェントやIDEに接続"
+    ],
+    "es": [
+      "Muy rápido de texto a prototipos multipantalla editables e interactivos",
+      "Los créditos gratis no caducan — raro y genuinamente generoso",
+      "El modo Agente y los componentes compartidos mantienen la coherencia",
+      "MCP en todos los planes lo conecta a agentes de código e IDEs"
+    ],
+    "fr": [
+      "Très rapide du texte à des prototypes multi-écrans éditables et interactifs",
+      "Les crédits gratuits n'expirent pas — rare et vraiment généreux",
+      "Le mode Agent et les composants partagés gardent la cohérence",
+      "Le MCP sur toutes les offres le connecte aux agents de code et IDE"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Younger, smaller product than established design tools",
+      "Focused on UI prototyping, not full production design systems",
+      "Credit-based limits mean heavy use pushes you to paid tiers fast",
+      "Exported code and designs still need designer/developer polish"
+    ],
+    "zh": [
+      "相比成熟设计工具，产品更年轻、体量更小",
+      "聚焦 UI 原型，而非完整的生产级设计系统",
+      "基于额度的限制意味着重度使用会很快逼你上付费档",
+      "导出的代码与设计仍需设计师/开发者打磨"
+    ],
+    "ja": [
+      "確立された設計ツールより新しく規模も小さい製品",
+      "UIプロトタイピングに特化し、完全な本番デザインシステム向けではない",
+      "クレジット制の制限により、ヘビーユースはすぐ有料プランへ押し上げる",
+      "書き出したコードやデザインは依然デザイナー/開発者の仕上げが必要"
+    ],
+    "es": [
+      "Producto más joven y pequeño que las herramientas de diseño consolidadas",
+      "Centrado en prototipado de UI, no en sistemas de diseño de producción completos",
+      "Los límites por créditos hacen que el uso intenso empuje pronto a planes de pago",
+      "El código y los diseños exportados aún necesitan pulido de diseñador/desarrollador"
+    ],
+    "fr": [
+      "Produit plus jeune et plus petit que les outils de design établis",
+      "Axé sur le prototypage d'UI, pas sur des design systems de production complets",
+      "Les limites par crédits font que l'usage intensif pousse vite vers les offres payantes",
+      "Le code et les designs exportés nécessitent encore une finition designer/développeur"
+    ]
+  },
+  "latestUpdate": {
+    "en": "2026: Banani pushed its text-to-UI copilot forward with an Agent mode built on shared components for consistency, unlimited Figma and HTML/CSS export on paid plans, and MCP support across every tier to connect coding agents like Claude Code and Cursor.",
+    "zh": "2026 年：Banani 推进其 text-to-UI 副驾——基于共享组件、保证一致性的 Agent 模式，付费档无限 Figma 与 HTML/CSS 导出，以及覆盖全档、可连接 Claude Code 与 Cursor 等编码智能体的 MCP 支持。",
+    "ja": "2026年：Bananiはtext-to-UIの副操縦士を前進させた——一貫性のため共有コンポーネント上に構築されたAgentモード、有料プランでのFigmaとHTML/CSSの無制限書き出し、Claude CodeやCursorなどのコーディングエージェントに接続する全プランのMCP対応。",
+    "es": "2026: Banani impulsó su copiloto text-to-UI con un modo Agente construido sobre componentes compartidos para la coherencia, exportación ilimitada a Figma y HTML/CSS en planes de pago, y soporte MCP en todos los niveles para conectar agentes de código como Claude Code y Cursor.",
+    "fr": "2026 : Banani a fait avancer son copilote text-to-UI avec un mode Agent bâti sur des composants partagés pour la cohérence, l'export illimité vers Figma et HTML/CSS sur les offres payantes, et la prise en charge du MCP sur toutes les offres pour connecter des agents de code comme Claude Code et Cursor."
+  },
+  "verdict": {
+    "badge": "Worth Trying",
+    "headline": {
+      "en": "A text-to-UI copilot that talks to your coding agents",
+      "zh": "一个能与你的编码智能体对话的 text-to-UI 副驾",
+      "ja": "コーディングエージェントと対話するtext-to-UIの副操縦士",
+      "es": "Un copiloto text-to-UI que habla con tus agentes de código",
+      "fr": "Un copilote text-to-UI qui dialogue avec vos agents de code"
+    },
+    "body": {
+      "en": "Banani takes the now-familiar 'describe an app, get a UI' idea and pushes it toward the AI-coding workflow. Type what you want and it produces editable, interactive multi-screen prototypes in minutes; its Agent mode leans on shared components so screens stay consistent as the design grows, rather than drifting into a pile of one-off mockups. What sets it apart is the plumbing: MCP support on every plan — including the free one — means Banani can talk directly to coding agents and IDEs like Claude Code and Cursor, and paid tiers add unlimited Figma export plus HTML/CSS export to hand developers a real starting point. The free plan is unusually kind too, with credits that never expire so you can bank them. The caveats are those of a younger product: it's smaller and less proven than the established design suites, it's built for UI prototyping rather than full production design systems, credit limits push heavy users to paid tiers quickly, and exported code still needs polish. But for anyone building interfaces in an AI-first, agent-connected workflow, Banani is a genuinely interesting option well worth trying.",
+      "zh": "Banani 把如今已耳熟能详的「描述一个应用、得到一套 UI」思路，往 AI 编码工作流的方向再推了一步。输入你想要的，它几分钟内产出可编辑、可交互的多屏原型；其 Agent 模式依靠共享组件，让设计在扩张时各屏保持一致，而不至于沦为一堆各自为政的稿件。真正让它与众不同的是「管路」：全档——包括免费档——都支持 MCP，意味着 Banani 能直接与 Claude Code、Cursor 这类编码智能体和 IDE 对话，付费档再加上无限 Figma 导出与 HTML/CSS 导出，给开发者一个真正的起点。免费档也格外厚道，额度不过期、可以攒着。代价是年轻产品的通病：它比成熟设计套件体量更小、验证更少；它面向 UI 原型而非完整生产级设计系统；额度限制会很快把重度用户逼上付费档；导出的代码仍需打磨。但对任何在「AI 优先、智能体互联」工作流里搭建界面的人来说，Banani 是一个真正有意思、值得一试的选择。",
+      "ja": "Bananiは今やお馴染みの「アプリを説明すればUIが得られる」という発想を、AIコーディングのワークフローへさらに押し進める。欲しいものを打ち込めば数分で編集可能でインタラクティブな複数画面プロトタイプを生み出す。Agentモードは共有コンポーネントに頼り、デザインが拡大しても各画面の一貫性を保ち、使い捨てモックの山に散らばらない。際立つのは配管部分だ。全プラン——無料を含む——でMCPに対応し、BananiはClaude CodeやCursorのようなコーディングエージェントやIDEと直接対話できる。有料プランはFigma無制限書き出しとHTML/CSS書き出しを加え、開発者に本物の出発点を渡す。無料プランも異例に寛容で、クレジットが無期限なので貯められる。注意点は若い製品のもの。確立された設計スイートより小さく実績も少なく、完全な本番デザインシステムではなくUIプロトタイピング向けで、クレジット制限がヘビーユーザーをすぐ有料へ押し上げ、書き出したコードは仕上げが要る。しかし「AIファーストでエージェントに繋がった」ワークフローでUIを組む人にとって、Bananiは本当に興味深く、試す価値のある選択肢だ。",
+      "es": "Banani toma la ya familiar idea de 'describe una app, obtén una UI' y la empuja hacia el flujo de trabajo de codificación con IA. Escribe lo que quieres y produce prototipos multipantalla editables e interactivos en minutos; su modo Agente se apoya en componentes compartidos para que las pantallas se mantengan coherentes a medida que el diseño crece, en vez de derivar en un montón de maquetas sueltas. Lo que lo distingue es la fontanería: soporte MCP en todos los planes — incluido el gratuito — significa que Banani puede hablar directamente con agentes de código e IDEs como Claude Code y Cursor, y los niveles de pago añaden exportación ilimitada a Figma más exportación HTML/CSS para dar a los desarrolladores un punto de partida real. El plan gratuito también es inusualmente amable, con créditos que no caducan para que puedas acumularlos. Las advertencias son las de un producto joven: es más pequeño y menos probado que las suites de diseño consolidadas, está hecho para prototipado de UI y no para sistemas de diseño de producción completos, los límites de créditos empujan pronto a los usuarios intensos a planes de pago, y el código exportado aún necesita pulido. Pero para quien construye interfaces en un flujo AI-first conectado a agentes, Banani es una opción genuinamente interesante que bien vale la pena probar.",
+      "fr": "Banani reprend l'idée désormais familière « décrivez une app, obtenez une UI » et la pousse vers le flux de travail du codage assisté par IA. Tapez ce que vous voulez et il produit des prototypes multi-écrans éditables et interactifs en minutes ; son mode Agent s'appuie sur des composants partagés pour que les écrans restent cohérents à mesure que le design grandit, plutôt que de dériver en un tas de maquettes isolées. Ce qui le distingue, c'est la tuyauterie : la prise en charge du MCP sur toutes les offres — y compris gratuite — signifie que Banani peut dialoguer directement avec des agents de code et IDE comme Claude Code et Cursor, et les offres payantes ajoutent l'export Figma illimité plus l'export HTML/CSS pour donner aux développeurs un vrai point de départ. L'offre gratuite est aussi exceptionnellement généreuse, avec des crédits qui n'expirent pas, ce qui permet de les accumuler. Les réserves sont celles d'un produit jeune : plus petit et moins éprouvé que les suites de design établies, conçu pour le prototypage d'UI plutôt que pour des design systems de production complets, des limites de crédits qui poussent vite les gros utilisateurs vers les offres payantes, et un code exporté qui demande encore une finition. Mais pour quiconque construit des interfaces dans un flux AI-first connecté aux agents, Banani est une option vraiment intéressante qui vaut bien l'essai."
+    },
+    "bestFor": {
+      "en": [
+        "People turning app ideas into interactive prototypes fast",
+        "AI-first workflows connecting design to Claude Code or Cursor via MCP",
+        "Teams wanting Figma and HTML/CSS export from generated UI"
+      ],
+      "zh": [
+        "想把应用点子快速变成可交互原型的人",
+        "用 MCP 把设计连到 Claude Code 或 Cursor 的 AI 优先工作流",
+        "希望从生成的 UI 导出 Figma 与 HTML/CSS 的团队"
+      ],
+      "ja": [
+        "アプリのアイデアを素早くインタラクティブなプロトタイプにする人",
+        "MCPでデザインをClaude CodeやCursorに繋ぐAIファーストのワークフロー",
+        "生成したUIからFigmaとHTML/CSSを書き出したいチーム"
+      ],
+      "es": [
+        "Quienes convierten ideas de app en prototipos interactivos rápido",
+        "Flujos AI-first que conectan el diseño a Claude Code o Cursor vía MCP",
+        "Equipos que quieren exportar Figma y HTML/CSS desde la UI generada"
+      ],
+      "fr": [
+        "Ceux qui transforment vite des idées d'app en prototypes interactifs",
+        "Flux AI-first reliant le design à Claude Code ou Cursor via MCP",
+        "Équipes voulant exporter Figma et HTML/CSS depuis l'UI générée"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You need a mature, proven tool for production design systems (→ Figma)",
+        "You want an all-in-one design-and-hosting site builder (→ Framer)"
+      ],
+      "zh": [
+        "你需要成熟、经过验证、面向生产级设计系统的工具（→ Figma）",
+        "你想要设计与托管一体的建站工具（→ Framer）"
+      ],
+      "ja": [
+        "本番デザインシステム向けの成熟し実績ある工具が必要（→ Figma）",
+        "デザインとホスティング一体のサイトビルダーが欲しい（→ Framer）"
+      ],
+      "es": [
+        "Necesitas una herramienta madura y probada para sistemas de diseño de producción (→ Figma)",
+        "Quieres un creador de sitios todo en uno de diseño y alojamiento (→ Framer)"
+      ],
+      "fr": [
+        "Vous avez besoin d'un outil mature et éprouvé pour des design systems de production (→ Figma)",
+        "Vous voulez un créateur de site tout-en-un de design et hébergement (→ Framer)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-28",
+    "verdictDate": "2026-07-28",
+    "pricingVerified": "2026-07-28",
+    "pricingUrl": "https://www.banani.co/pricing"
+  }
+}

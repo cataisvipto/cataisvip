@@ -1,0 +1,104 @@
+{
+  "pros": {
+    "en": [
+      "MCP Reference Servers provides standardized MCP protocol access",
+      "Open source with 89,102 GitHub stars",
+      "Active development and community support"
+    ],
+    "zh": [
+      "MCP Reference Servers 提供标准化的 MCP 协议接入",
+      "开源，GitHub 89,102 星标",
+      "活跃开发和社区支持"
+    ],
+    "ja": [
+      "MCP Reference Servers は標準化されたMCPプロトコルアクセスを提供",
+      "オープンソース、GitHub 89,102 スター",
+      "活発な開発とコミュニティサポート"
+    ],
+    "es": [
+      "MCP Reference Servers proporciona acceso estandarizado al protocolo MCP",
+      "Código abierto con 89,102 estrellas en GitHub",
+      "Desarrollo activo y soporte comunitario"
+    ],
+    "fr": [
+      "MCP Reference Servers fournit un accès standardisé au protocole MCP",
+      "Open source avec 89,102 étoiles GitHub",
+      "Développement actif et soutien communautaire"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Requires MCP-compatible client (Claude, Cursor, etc.)",
+      "Setup complexity varies by client",
+      "Some features may depend on client capabilities"
+    ],
+    "zh": [
+      "需要 MCP 兼容客户端（Claude、Cursor 等）",
+      "设置复杂度因客户端而异",
+      "部分功能可能依赖于客户端能力"
+    ],
+    "ja": [
+      "MCP互換クライアント（Claude、Cursorなど）が必要",
+      "セットアップの複雑さはクライアントによって異なる",
+      "一部の機能はクライアントの機能に依存する場合がある"
+    ],
+    "es": [
+      "Requiere un cliente compatible con MCP (Claude, Cursor, etc.)",
+      "La complejidad de configuración varía según el cliente",
+      "Algunas funciones pueden depender de las capacidades del cliente"
+    ],
+    "fr": [
+      "Nécessite un client compatible MCP (Claude, Cursor, etc.)",
+      "La complexité de configuration varie selon le client",
+      "Certaines fonctionnalités peuvent dépendre des capacités du client"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Free and open source",
+      "zh": "免费开源",
+      "ja": "無料オープンソース",
+      "es": "Gratuito y de código abierto",
+      "fr": "Gratuit et open source"
+    }
+  },
+  "verdict": {
+    "en": "MCP Reference Servers brings official capabilities to the MCP ecosystem. Its GitHub popularity reflects community trust, and the standardized protocol ensures broad compatibility across AI clients.",
+    "zh": "MCP Reference Servers 将 Official 能力带入 MCP 生态。其 GitHub 受欢迎程度反映了社区信任，标准化的协议确保了跨 AI 客户端的广泛兼容性。",
+    "ja": "MCP Reference Servers はOfficial機能をMCPエコシステムにもたらします。GitHubでの人気はコミュニティの信頼を反映しており、標準化されたプロトコルによりAIクライアント間の広範な互換性を確保しています。",
+    "es": "MCP Reference Servers aporta capacidades de official al ecosistema MCP. Su popularidad en GitHub refleja la confianza de la comunidad, y el protocolo estandarizado garantiza una amplia compatibilidad entre clientes de IA.",
+    "fr": "MCP Reference Servers apporte des capacités official à l'écosystème MCP. Sa popularité GitHub reflète la confiance de la communauté, et le protocole standardisé garantit une large compatibilité entre les clients IA."
+  },
+  "useCases": {
+    "en": [
+      "Integrating official capabilities into AI agent workflows",
+      "Building custom AI-powered tools with MCP Reference Servers",
+      "Enhancing AI agent functionality with standardized MCP access"
+    ],
+    "zh": [
+      "将 Official 能力集成到 AI 智能体工作流",
+      "使用 MCP Reference Servers 构建自定义 AI 驱动工具",
+      "通过标准化 MCP 接入增强 AI 智能体功能"
+    ],
+    "ja": [
+      "Official機能をAIエージェントワークフローに統合",
+      "MCP Reference Serversを使用したカスタムAI駆動ツールの構築",
+      "標準化されたMCPアクセスによるAIエージェント機能の強化"
+    ],
+    "es": [
+      "Integrando capacidades de official en flujos de trabajo de agentes de IA",
+      "Construyendo herramientas personalizadas impulsadas por IA con MCP Reference Servers",
+      "Mejorando la funcionalidad de agentes de IA con acceso MCP estandarizado"
+    ],
+    "fr": [
+      "Intégration des capacités official dans les flux de travail des agents IA",
+      "Construction d'outils personnalisés pilotés par l'IA avec MCP Reference Servers",
+      "Amélioration des fonctionnalités des agents IA avec un accès MCP standardisé"
+    ]
+  },
+  "meta": {
+    "lastVerified": "2026-08-11",
+    "verdictDate": "2026-08-11",
+    "pricingVerified": "2026-08-11"
+  }
+}

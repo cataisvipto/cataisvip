@@ -1,0 +1,246 @@
+{
+  "features": {
+    "en": [
+      "GLM 5.2 LLM",
+      "ChatGLM assistant",
+      "CogView image generation",
+      "CodeGeeX code assistant",
+      "Open-source local deployment",
+      "Comprehensive API"
+    ],
+    "zh": [
+      "GLM 5.2 大语言模型",
+      "ChatGLM 对话助手",
+      "CogView 图像生成",
+      "CodeGeeX 代码助手",
+      "开源模型可本地部署",
+      "API 服务完善"
+    ],
+    "ja": [
+      "GLM 5.2 大規模言語モデル",
+      "ChatGLM アシスタント",
+      "CogView 画像生成",
+      "CodeGeeX コードアシスタント",
+      "オープンソースのローカル展開",
+      "充実した API"
+    ],
+    "es": [
+      "LLM GLM 5.2",
+      "Asistente ChatGLM",
+      "Generación de imágenes CogView",
+      "Asistente de código CodeGeeX",
+      "Despliegue local de código abierto",
+      "API completa"
+    ],
+    "fr": [
+      "LLM GLM 5.2",
+      "Assistant ChatGLM",
+      "Génération d'images CogView",
+      "Assistant de code CodeGeeX",
+      "Déploiement local open source",
+      "API complète"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Free web version",
+      "zh": "网页版免费使用",
+      "ja": "Web 版は無料",
+      "es": "Versión web gratuita",
+      "fr": "Version web gratuite"
+    },
+    "api": {
+      "en": "Pay-as-you-go, from ¥0.005/1K tokens",
+      "zh": "按量计费，低至 ¥0.005/千 tokens",
+      "ja": "従量課金、1,000トークンあたり ¥0.005〜",
+      "es": "Pago por uso, desde ¥0,005/1K tokens",
+      "fr": "Paiement à l'usage, à partir de ¥0,005/1K tokens"
+    },
+    "enterprise": {
+      "en": "Zhipu enterprise",
+      "zh": "智谱企业方案",
+      "ja": "Zhipu エンタープライズ版",
+      "es": "Empresarial de Zhipu",
+      "fr": "Offre entreprise Zhipu"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Smart Q&A",
+      "Code development",
+      "Image generation",
+      "Content creation",
+      "Academic research",
+      "Enterprise apps"
+    ],
+    "zh": [
+      "智能对话与问答",
+      "代码开发与调试",
+      "图像生成与编辑",
+      "内容创作",
+      "学术研究",
+      "企业应用"
+    ],
+    "ja": [
+      "スマートな Q&A",
+      "コード開発",
+      "画像生成",
+      "コンテンツ制作",
+      "学術研究",
+      "企業向けアプリ"
+    ],
+    "es": [
+      "Preguntas y respuestas inteligentes",
+      "Desarrollo de código",
+      "Generación de imágenes",
+      "Creación de contenido",
+      "Investigación académica",
+      "Aplicaciones empresariales"
+    ],
+    "fr": [
+      "Questions-réponses intelligentes",
+      "Développement de code",
+      "Génération d'images",
+      "Création de contenu",
+      "Recherche académique",
+      "Applications d'entreprise"
+    ]
+  },
+  "pros": {
+    "en": [
+      "High-quality open-source models",
+      "Strong code generation",
+      "Excellent Chinese understanding",
+      "Reasonable API pricing"
+    ],
+    "zh": [
+      "开源模型质量高",
+      "代码生成能力强",
+      "中文理解优秀",
+      "API 价格合理"
+    ],
+    "ja": [
+      "高品質なオープンソースモデル",
+      "強力なコード生成",
+      "優れた中国語理解",
+      "妥当な API 価格"
+    ],
+    "es": [
+      "Modelos de código abierto de alta calidad",
+      "Sólida generación de código",
+      "Excelente comprensión del chino",
+      "Precios de API razonables"
+    ],
+    "fr": [
+      "Modèles open source de haute qualité",
+      "Génération de code solide",
+      "Excellente compréhension du chinois",
+      "Tarifs d'API raisonnables"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Limited multimodal capabilities",
+      "Ecosystem scale developing",
+      "International recognition growing"
+    ],
+    "zh": [
+      "多模态能力有限",
+      "生态规模待扩大",
+      "国际知名度待提升"
+    ],
+    "ja": [
+      "マルチモーダル能力は限定的",
+      "エコシステムの規模は拡大途上",
+      "国際的な認知度は成長途上"
+    ],
+    "es": [
+      "Capacidades multimodales limitadas",
+      "Escala del ecosistema en desarrollo",
+      "Reconocimiento internacional en crecimiento"
+    ],
+    "fr": [
+      "Capacités multimodales limitées",
+      "Échelle de l'écosystème en développement",
+      "Notoriété internationale en croissance"
+    ]
+  },
+  "latestUpdate": {
+    "en": "2026: GLM 5.2 released, pushing open-source intelligence-per-dollar with strong reasoning and coding",
+    "zh": "2026年：GLM 5.2 发布，以极高性价比推动开源模型，推理与编码能力强劲",
+    "ja": "2026年：GLM 5.2 を発表。強力な推論とコーディング能力で、オープンソースのコスト効率を追求",
+    "es": "2026: se lanza GLM 5.2, impulsando la inteligencia por dólar del código abierto con sólido razonamiento y codificación",
+    "fr": "2026 : lancement de GLM 5.2, repoussant le rapport intelligence/prix de l'open source avec un raisonnement et un codage solides"
+  },
+  "verdict": {
+    "badge": "Worth Trying",
+    "headline": {
+      "en": "A research-driven Chinese LLM with strong open-source contributions and solid general-purpose performance.",
+      "zh": "以研究为驱动的国产大模型，开源贡献突出，通用性能稳健。",
+      "ja": "研究主導の中国LLM、オープンソース貢献が顕著で汎用性能が安定。",
+      "es": "Un LLM chino orientado a la investigación con contribuciones sólidas al código abierto.",
+      "fr": "Un LLM chinois orienté recherche avec de solides contributions open-source."
+    },
+    "body": {
+      "en": "Zhipu's GLM series occupies a meaningful position in the Chinese AI landscape, balancing academic rigor with practical deployment. The models perform well on Chinese-language tasks and offer competitive pricing for API users, especially those building Chinese-market applications.\n\nThe trade-off is limited international presence and smaller English-language community support compared to Qwen or DeepSeek. Best suited for developers and enterprises that need a reliable Chinese LLM with transparent research backing.",
+      "zh": "智谱的 GLM 系列在中国 AI 领域占据重要位置，兼顾学术严谨与实际部署。模型在中文任务上表现良好，API 定价对构建国内市场应用的开发者颇具竞争力。\n\n不足之处在于国际影响力有限，英文社区支持不如 Qwen 或 DeepSeek。适合需要有透明学术背景支撑的可靠国产大模型的开发者和企业。",
+      "ja": "ZhipuのGLMシリーズは中国AI分野で重要な位置を占め、学術的厳密さと実用性を両立しています。中国語タスクで良好な性能を発揮し、API価格も中国市場向けアプリ開発者にとって競争力があります。\n\n国際的な知名度が限られ、英語コミュニティのサポートはQwenやDeepSeekに劣ります。透明な研究基盤を持つ信頼できる中国LLMが必要な開発者や企業に適しています。",
+      "es": "La serie GLM de Zhipu ocupa una posición relevante en el panorama chino de IA, equilibrando rigor académico con despliegue práctico. Los modelos rinden bien en tareas en chino y ofrecen precios competitivos para usuarios de API.\n\nLa desventaja es su presencia internacional limitada y menor soporte de comunidad en inglés comparado con Qwen o DeepSeek. Ideal para desarrolladores que necesitan un LLM chino fiable con respaldo investigador.",
+      "fr": "La série GLM de Zhipu occupe une position importante dans le paysage IA chinois, équilibrant rigueur académique et déploiement pratique. Les modèles performent bien sur les tâches en chinois avec des prix API compétitifs.\n\nLa contrepartie est une présence internationale limitée et un support communautaire anglophone moindre comparé à Qwen ou DeepSeek. Idéal pour les développeurs nécessitant un LLM chinois fiable avec un soutien académique transparent."
+    },
+    "bestFor": {
+      "en": [
+        "Chinese NLP research and deployment",
+        "Cost-effective API access for Chinese apps",
+        "Academic and enterprise applications"
+      ],
+      "zh": [
+        "中文NLP研究与部署",
+        "面向国内应用的高性价比API",
+        "学术和企业级应用"
+      ],
+      "ja": [
+        "中国語NLP研究とデプロイ",
+        "中国向けアプリのコスパの良いAPI",
+        "学術・企業向けアプリケーション"
+      ],
+      "es": [
+        "Investigación y despliegue de NLP en chino",
+        "Acceso API rentable para apps chinas",
+        "Aplicaciones académicas y empresariales"
+      ],
+      "fr": [
+        "Recherche et déploiement NLP en chinois",
+        "Accès API rentable pour apps chinoises",
+        "Applications académiques et entreprise"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You need strong English performance (→ DeepSeek, Qwen)",
+        "You want maximum open-source community support (→ Llama, Qwen)"
+      ],
+      "zh": [
+        "需要优秀的英文表现（→ DeepSeek、Qwen）",
+        "需要最大规模的开源社区支持（→ Llama、Qwen）"
+      ],
+      "ja": [
+        "英語性能を重視する場合（→ DeepSeek、Qwen）",
+        "最大規模のOSSコミュニティが必要な場合（→ Llama、Qwen）"
+      ],
+      "es": [
+        "Necesitas buen rendimiento en inglés (→ DeepSeek, Qwen)",
+        "Quieres máximo soporte de comunidad open-source (→ Llama, Qwen)"
+      ],
+      "fr": [
+        "Vous avez besoin de bonnes performances en anglais (→ DeepSeek, Qwen)",
+        "Vous voulez un maximum de support communautaire open-source (→ Llama, Qwen)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-27",
+    "verdictDate": "2026-07-27",
+    "pricingVerified": "2026-07-27"
+  }
+}

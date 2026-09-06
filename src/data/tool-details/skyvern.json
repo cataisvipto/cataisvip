@@ -1,0 +1,234 @@
+{
+  "features": {
+    "en": [
+      "AI browser automation using computer vision + LLMs instead of brittle selectors",
+      "Handles CAPTCHAs, 2FA/TOTP and logins natively — no third-party solvers",
+      "Build via copilot chat, SOP upload, browser recording or visual workflow editor",
+      "Python and TypeScript SDKs that drop onto existing Playwright code",
+      "Open source (AGPL-3.0, 20K+ stars) and self-hostable via Docker",
+      "SOC2 Type II and HIPAA compliant with proxy networks and geo targeting"
+    ],
+    "zh": [
+      "用计算机视觉 + LLM 做浏览器自动化，取代脆弱的 CSS 选择器",
+      "原生处理验证码、2FA/TOTP 与登录——无需第三方打码服务",
+      "四种搭建方式：Copilot 对话、上传 SOP 文档、浏览器录制、可视化工作流编辑器",
+      "Python 与 TypeScript SDK，可直接叠加在现有 Playwright 代码上",
+      "开源（AGPL-3.0，20K+ stars），支持 Docker 自托管",
+      "SOC2 Type II 与 HIPAA 合规，支持代理网络与地理定向"
+    ],
+    "ja": [
+      "コンピュータビジョン＋LLMによるブラウザ自動化で脆いセレクタを代替",
+      "CAPTCHA、2FA/TOTP、ログインをネイティブ処理——外部ソルバー不要",
+      "Copilotチャット、SOPアップロード、ブラウザ録画、ビジュアルエディタの4通りで構築",
+      "既存のPlaywrightコードに載せられるPython/TypeScript SDK",
+      "オープンソース（AGPL-3.0、20K+スター）でDockerセルフホスト可能",
+      "SOC2 Type IIとHIPAAに準拠、プロキシネットワークと地域ターゲティング対応"
+    ],
+    "es": [
+      "Automatización de navegador con visión por computadora + LLM en vez de selectores frágiles",
+      "Maneja CAPTCHAs, 2FA/TOTP y logins de forma nativa, sin servicios externos",
+      "Construye vía chat copilot, subida de SOPs, grabación del navegador o editor visual",
+      "SDKs de Python y TypeScript que se integran con código Playwright existente",
+      "Open source (AGPL-3.0, más de 20K estrellas) y autoalojable con Docker",
+      "Conforme con SOC2 Type II y HIPAA, con redes proxy y segmentación geográfica"
+    ],
+    "fr": [
+      "Automatisation de navigateur par vision par ordinateur + LLM au lieu de sélecteurs fragiles",
+      "Gère nativement CAPTCHA, 2FA/TOTP et connexions — sans solveurs tiers",
+      "Construction via chat copilot, upload de SOP, enregistrement navigateur ou éditeur visuel",
+      "SDK Python et TypeScript qui se greffent sur du code Playwright existant",
+      "Open source (AGPL-3.0, 20K+ étoiles) et auto-hébergeable via Docker",
+      "Conforme SOC2 Type II et HIPAA, avec réseaux proxy et ciblage géographique"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Cloud free tier with 5,000 credits every month, no credit card required; the open source AGPL-3.0 version self-hosts for free (you pay your own LLM)",
+      "zh": "云端免费层每月 5000 积分，无需信用卡；开源 AGPL-3.0 版本可免费自托管（LLM 费用自理）",
+      "ja": "クラウド無料枠は毎月5,000クレジット、クレジットカード不要。オープンソースのAGPL-3.0版は無料でセルフホスト可能（LLM費用は自己負担）",
+      "es": "Nivel gratuito en la nube con 5000 créditos al mes, sin tarjeta; la versión open source AGPL-3.0 se autoaloja gratis (pagas tu propio LLM)",
+      "fr": "Offre cloud gratuite avec 5 000 crédits par mois, sans carte bancaire ; la version open source AGPL-3.0 s'auto-héberge gratuitement (vous payez votre LLM)"
+    },
+    "paid": {
+      "en": "Cloud paid plans scale by credits and features (managed browsers, proxies, priority support); Enterprise adds 99.9% uptime SLA, self-hosted deployment on AWS/GCP/Azure, RBAC and audit logs — pricing via sales",
+      "zh": "云端付费按积分与功能阶梯计价（托管浏览器、代理、优先支持）；企业版含 99.9% 可用性 SLA、AWS/GCP/Azure 自托管部署、RBAC 与审计日志——价格联系销售",
+      "ja": "クラウド有料プランはクレジットと機能（マネージドブラウザ、プロキシ、優先サポート）に応じて段階制。Enterpriseは99.9%稼働SLA、AWS/GCP/Azureへのセルフホスト展開、RBAC、監査ログ付き——価格は営業へ",
+      "es": "Los planes de pago en la nube escalan por créditos y funciones (navegadores gestionados, proxies, soporte prioritario); Enterprise añade SLA del 99,9%, despliegue autoalojado en AWS/GCP/Azure, RBAC y auditoría — precio con ventas",
+      "fr": "Les plans cloud payants évoluent selon crédits et fonctions (navigateurs gérés, proxys, support prioritaire) ; Enterprise ajoute un SLA 99,9 %, le déploiement auto-hébergé sur AWS/GCP/Azure, RBAC et journaux d'audit — tarif via le service commercial"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Accounts payable: downloading invoices from hundreds of vendor portals",
+      "Web data extraction from sites without APIs, output as JSON/CSV",
+      "Form filling at scale — applications, registrations, compliance filings",
+      "Browser testing and QA that survives UI redesigns"
+    ],
+    "zh": [
+      "应付账款自动化：从数百个供应商门户下载发票",
+      "从无 API 的网站提取结构化数据，输出 JSON/CSV",
+      "规模化表单填写——申请、注册、合规申报",
+      "能扛住 UI 改版的浏览器测试与 QA"
+    ],
+    "ja": [
+      "買掛金業務：数百のベンダーポータルからの請求書ダウンロード",
+      "APIのないサイトからのデータ抽出、JSON/CSVで出力",
+      "大規模フォーム入力——申請、登録、コンプライアンス提出",
+      "UI刷新に耐えるブラウザテストとQA"
+    ],
+    "es": [
+      "Cuentas por pagar: descarga de facturas de cientos de portales de proveedores",
+      "Extracción de datos web de sitios sin API, con salida en JSON/CSV",
+      "Rellenado de formularios a escala: solicitudes, registros, trámites",
+      "Pruebas de navegador y QA que sobreviven a rediseños de UI"
+    ],
+    "fr": [
+      "Comptabilité fournisseurs : téléchargement de factures depuis des centaines de portails",
+      "Extraction de données web de sites sans API, sortie en JSON/CSV",
+      "Remplissage de formulaires à grande échelle — candidatures, inscriptions, déclarations",
+      "Tests navigateur et QA résistant aux refontes d'interface"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Workflows survive UI changes — no selector maintenance treadmill",
+      "Native CAPTCHA and 2FA handling is rare among browser agents",
+      "Generous free tier: 5,000 credits monthly plus full open source option",
+      "Enterprise-ready: SOC2, HIPAA, 10M+ workflows run, 99.9% SLA"
+    ],
+    "zh": [
+      "工作流扛得住 UI 变化——告别选择器维护跑步机",
+      "原生处理验证码与 2FA，在浏览器智能体中相当罕见",
+      "免费层慷慨：每月 5000 积分，另有完整开源选项",
+      "企业就绪：SOC2、HIPAA、累计运行 1000 万+ 工作流、99.9% SLA"
+    ],
+    "ja": [
+      "ワークフローがUI変更に耐える——セレクタ保守の無限ループから解放",
+      "CAPTCHAと2FAのネイティブ処理はブラウザエージェントでは希少",
+      "寛大な無料枠：毎月5,000クレジット＋完全なオープンソース版",
+      "エンタープライズ対応：SOC2、HIPAA、累計1,000万+ワークフロー実行、99.9% SLA"
+    ],
+    "es": [
+      "Los flujos sobreviven a cambios de UI: adiós al mantenimiento de selectores",
+      "El manejo nativo de CAPTCHA y 2FA es raro entre agentes de navegador",
+      "Nivel gratuito generoso: 5000 créditos mensuales más opción open source completa",
+      "Listo para empresas: SOC2, HIPAA, más de 10M de flujos ejecutados, SLA del 99,9%"
+    ],
+    "fr": [
+      "Les workflows survivent aux changements d'UI — fini l'entretien des sélecteurs",
+      "La gestion native des CAPTCHA et 2FA est rare parmi les agents navigateur",
+      "Offre gratuite généreuse : 5 000 crédits par mois plus une option open source complète",
+      "Prêt pour l'entreprise : SOC2, HIPAA, 10M+ de workflows exécutés, SLA 99,9 %"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Vision + LLM runs cost more per step than scripted Playwright",
+      "AGPL-3.0 license demands care when embedding in commercial products",
+      "Paid cloud pricing requires a sales conversation to pin down",
+      "Slower than hand-tuned scripts for stable, never-changing pages"
+    ],
+    "zh": [
+      "视觉 + LLM 的单步运行成本高于脚本化 Playwright",
+      "AGPL-3.0 许可证嵌入商业产品时需要谨慎",
+      "云端付费价格要跟销售聊过才能敲定",
+      "对于稳定不变的页面，比手工调优的脚本慢"
+    ],
+    "ja": [
+      "ビジョン＋LLMの実行はスクリプト型Playwrightよりステップ単価が高い",
+      "AGPL-3.0ライセンスは商用製品への組み込みに注意が必要",
+      "クラウド有料版の価格は営業との相談が必要",
+      "変化のない安定したページでは手動チューニングしたスクリプトより遅い"
+    ],
+    "es": [
+      "Los runs con visión + LLM cuestan más por paso que Playwright con scripts",
+      "La licencia AGPL-3.0 exige cuidado al integrarla en productos comerciales",
+      "El precio de pago en la nube requiere hablar con ventas",
+      "Más lento que scripts afinados a mano en páginas estables que nunca cambian"
+    ],
+    "fr": [
+      "Les exécutions vision + LLM coûtent plus cher par étape que Playwright scripté",
+      "La licence AGPL-3.0 impose de la prudence pour l'intégration commerciale",
+      "Le tarif cloud payant nécessite un échange commercial pour être fixé",
+      "Plus lent que des scripts optimisés à la main sur des pages stables"
+    ]
+  },
+  "latestUpdate": {
+    "en": "2026: Skyvern passes 20K GitHub stars and 10M workflows run, ships copilot chat, SOP-to-workflow conversion and browser recording, achieves SOC2 Type II + HIPAA, and offers 5,000 free credits monthly with MCP support",
+    "zh": "2026 年：Skyvern 突破 2 万 GitHub stars 与 1000 万次工作流运行，推出 Copilot 对话、SOP 文档转工作流与浏览器录制，通过 SOC2 Type II 与 HIPAA 认证，每月提供 5000 免费积分并支持 MCP",
+    "ja": "2026年：SkyvernはGitHub 2万スターと累計1,000万ワークフロー実行を突破。Copilotチャット、SOP→ワークフロー変換、ブラウザ録画を追加し、SOC2 Type IIとHIPAAを取得。毎月5,000無料クレジットとMCP対応も提供",
+    "es": "2026: Skyvern supera las 20K estrellas en GitHub y 10M de flujos ejecutados, lanza chat copilot, conversión de SOP a flujo y grabación de navegador, logra SOC2 Type II + HIPAA, y ofrece 5000 créditos gratis al mes con soporte MCP",
+    "fr": "2026 : Skyvern dépasse 20K étoiles GitHub et 10M de workflows exécutés, lance le chat copilot, la conversion SOP→workflow et l'enregistrement navigateur, obtient SOC2 Type II + HIPAA, et offre 5 000 crédits gratuits par mois avec support MCP"
+  },
+  "verdict": {
+    "badge": "Recommended",
+    "headline": {
+      "en": "Browser automation that finally stops breaking when websites change",
+      "zh": "终于不再因网站改版而崩坏的浏览器自动化",
+      "ja": "サイトが変わっても壊れない、ようやく現れたブラウザ自動化",
+      "es": "Automatización de navegador que por fin no se rompe cuando cambian las webs",
+      "fr": "L'automatisation navigateur qui cesse enfin de casser quand les sites changent"
+    },
+    "body": {
+      "en": "Every team that maintains Playwright or RPA scripts knows the treadmill: the site redesigns, the selectors break, an engineer rebuilds. Skyvern attacks exactly that pain by reading pages the way humans do — vision plus reasoning — and it backs the pitch with the unglamorous essentials enterprise automation actually needs: native CAPTCHA/2FA handling, SOC2 and HIPAA, proxies, audit trails. The 5,000 monthly free credits and AGPL open source core make it easy to validate before committing. Budget for higher per-run costs than raw scripts; the payback is maintenance that approaches zero.",
+      "zh": "维护过 Playwright 或 RPA 脚本的团队都懂那台跑步机：网站一改版，选择器就崩，工程师重写一遍。Skyvern 正面攻击这个痛点——像人一样用视觉加推理去读页面——并用企业自动化真正需要的朴素硬货支撑卖点：原生验证码/2FA 处理、SOC2 与 HIPAA、代理网络、审计留痕。每月 5000 免费积分和 AGPL 开源内核让你在投入前轻松验证。预算上要接受比裸脚本更高的单次运行成本；回报是趋近于零的维护量。",
+      "ja": "PlaywrightやRPAスクリプトを保守するチームなら、あの無限ループを知っている。サイトが刷新され、セレクタが壊れ、エンジニアが作り直す。Skyvernはまさにその痛点を、人間と同じように——ビジョンと推論で——ページを読むことで攻略する。しかも企業自動化に本当に必要な地味な必需品で裏打ちする：CAPTCHA/2FAのネイティブ処理、SOC2とHIPAA、プロキシ、監査証跡。毎月5,000の無料クレジットとAGPLのオープンソースコアで、本格導入前の検証も容易だ。素のスクリプトより高い実行単価は覚悟すべきだが、見返りはほぼゼロに近づく保守コストである。",
+      "es": "Todo equipo que mantiene scripts de Playwright o RPA conoce la rueda: la web se rediseña, los selectores se rompen, un ingeniero lo reconstruye. Skyvern ataca exactamente ese dolor leyendo las páginas como lo hacen los humanos —visión más razonamiento— y respalda el discurso con lo esencial y poco glamuroso que la automatización empresarial de verdad necesita: CAPTCHA/2FA nativos, SOC2 y HIPAA, proxies, trazabilidad. Los 5000 créditos gratis mensuales y el núcleo open source AGPL facilitan validar antes de comprometerse. Presupuesta costes por ejecución mayores que los scripts puros; la recompensa es un mantenimiento que tiende a cero.",
+      "fr": "Toute équipe qui maintient des scripts Playwright ou RPA connaît la roue infernale : le site est refondu, les sélecteurs cassent, un ingénieur reconstruit. Skyvern attaque précisément cette douleur en lisant les pages comme un humain — vision plus raisonnement — et étaye son discours avec l'essentiel peu glamour dont l'automatisation d'entreprise a vraiment besoin : CAPTCHA/2FA natifs, SOC2 et HIPAA, proxys, pistes d'audit. Les 5 000 crédits gratuits mensuels et le cœur open source AGPL facilitent la validation avant engagement. Prévoyez un coût par exécution supérieur aux scripts bruts ; en retour, la maintenance tend vers zéro."
+    },
+    "bestFor": {
+      "en": [
+        "Ops teams automating portals with logins, 2FA and CAPTCHAs",
+        "Companies replacing brittle RPA or Selenium maintenance burdens",
+        "Regulated industries needing SOC2/HIPAA-compliant browser automation"
+      ],
+      "zh": [
+        "要自动化带登录、2FA 和验证码门户的运营团队",
+        "想甩掉脆弱 RPA 或 Selenium 维护包袱的公司",
+        "需要 SOC2/HIPAA 合规浏览器自动化的强监管行业"
+      ],
+      "ja": [
+        "ログイン・2FA・CAPTCHA付きポータルを自動化する運用チーム",
+        "脆いRPAやSeleniumの保守負担を手放したい企業",
+        "SOC2/HIPAA準拠のブラウザ自動化が必要な規制業界"
+      ],
+      "es": [
+        "Equipos de operaciones automatizando portales con login, 2FA y CAPTCHA",
+        "Empresas reemplazando el mantenimiento frágil de RPA o Selenium",
+        "Sectores regulados que requieren automatización conforme SOC2/HIPAA"
+      ],
+      "fr": [
+        "Équipes ops automatisant des portails avec connexion, 2FA et CAPTCHA",
+        "Entreprises remplaçant la maintenance fragile de RPA ou Selenium",
+        "Secteurs réglementés exigeant une automatisation conforme SOC2/HIPAA"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You want a lightweight open source library for developers (→ Browser Use)",
+        "Your pages are stable and scripted Playwright is cheaper at scale"
+      ],
+      "zh": [
+        "你想要面向开发者的轻量开源库（→ Browser Use）",
+        "你的页面很稳定，规模化时脚本化 Playwright 更省钱"
+      ],
+      "ja": [
+        "開発者向けの軽量オープンソースライブラリが欲しい（→ Browser Use）",
+        "ページが安定していて、大規模ではスクリプト型Playwrightの方が安い"
+      ],
+      "es": [
+        "Quieres una biblioteca open source ligera para desarrolladores (→ Browser Use)",
+        "Tus páginas son estables y Playwright con scripts sale más barato a escala"
+      ],
+      "fr": [
+        "Vous voulez une bibliothèque open source légère pour développeurs (→ Browser Use)",
+        "Vos pages sont stables et Playwright scripté revient moins cher à grande échelle"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-27",
+    "verdictDate": "2026-07-27",
+    "pricingVerified": "2026-07-27"
+  }
+}

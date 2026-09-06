@@ -1,0 +1,234 @@
+{
+  "features": {
+    "en": [
+      "Open-source Python library that lets any LLM-driven agent control a real browser",
+      "Cloud service with stealth browsers, CAPTCHA solving and residential proxies",
+      "Browser sessions from $0.02/hour with free tier included",
+      "Works with OpenAI, Google, Anthropic or local models via Ollama",
+      "Agent Signup: agents can authenticate and act on behalf of users",
+      "Widely used for web automation, scraping and end-to-end task execution"
+    ],
+    "zh": [
+      "开源 Python 库：让任意 LLM 驱动的智能体操控真实浏览器",
+      "云服务提供隐身浏览器、验证码破解与住宅代理",
+      "浏览器会话低至 0.02 美元/小时，并含免费额度",
+      "兼容 OpenAI、Google、Anthropic 或经 Ollama 的本地模型",
+      "Agent Signup：智能体可代用户完成注册登录",
+      "广泛用于网页自动化、数据采集与端到端任务执行"
+    ],
+    "ja": [
+      "任意のLLM駆動エージェントに実ブラウザを操作させるオープンソースPythonライブラリ",
+      "ステルスブラウザ、CAPTCHA解決、レジデンシャルプロキシを備えたクラウドサービス",
+      "ブラウザセッションは時間あたり0.02ドルから、無料枠付き",
+      "OpenAI、Google、Anthropic、またはOllama経由のローカルモデルに対応",
+      "Agent Signup：エージェントがユーザーに代わって認証・操作可能",
+      "Web自動化、スクレイピング、エンドツーエンドのタスク実行に広く利用"
+    ],
+    "es": [
+      "Biblioteca Python de código abierto que permite a cualquier agente LLM controlar un navegador real",
+      "Servicio en la nube con navegadores sigilosos, resolución de CAPTCHA y proxies residenciales",
+      "Sesiones de navegador desde 0,02 $/hora con nivel gratuito incluido",
+      "Funciona con OpenAI, Google, Anthropic o modelos locales vía Ollama",
+      "Agent Signup: los agentes pueden autenticarse y actuar en nombre de usuarios",
+      "Muy usado para automatización web, scraping y ejecución de tareas de extremo a extremo"
+    ],
+    "fr": [
+      "Bibliothèque Python open source permettant à tout agent LLM de contrôler un vrai navigateur",
+      "Service cloud avec navigateurs furtifs, résolution de CAPTCHA et proxies résidentiels",
+      "Sessions navigateur à partir de 0,02 $/heure avec offre gratuite incluse",
+      "Compatible OpenAI, Google, Anthropic ou modèles locaux via Ollama",
+      "Agent Signup : les agents peuvent s'authentifier et agir au nom des utilisateurs",
+      "Largement utilisé pour l'automatisation web, le scraping et l'exécution de tâches de bout en bout"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Open-source library is free (you pay only your LLM provider); Browser Use Cloud free tier includes free browser sessions with 3 concurrent sessions, no credit card required",
+      "zh": "开源库免费（只需向 LLM 供应商付费）；Browser Use Cloud 免费档含免费浏览器会话、3 路并发，无需绑卡",
+      "ja": "オープンソースライブラリは無料（LLMプロバイダーへの支払いのみ）。Browser Use Cloudの無料枠は3並列セッションの無料ブラウザを含み、クレジットカード不要",
+      "es": "La biblioteca open source es gratuita (solo pagas a tu proveedor de LLM); el nivel gratuito de Browser Use Cloud incluye sesiones de navegador gratis con 3 sesiones concurrentes, sin tarjeta",
+      "fr": "La bibliothèque open source est gratuite (vous ne payez que votre fournisseur LLM) ; l'offre gratuite de Browser Use Cloud inclut des sessions navigateur gratuites avec 3 sessions simultanées, sans carte bancaire"
+    },
+    "paid": {
+      "en": "Cloud paid tiers: $29/mo (25 concurrent sessions), $299/mo (200 concurrent) and $999/mo (500 concurrent) in monthly credits; browser time from $0.02/hour",
+      "zh": "云端付费档：29 美元/月（25 并发）、299 美元/月（200 并发）、999 美元/月（500 并发），按月度额度计；浏览器时长低至 0.02 美元/小时",
+      "ja": "クラウド有料プラン：月29ドル（25並列）、月299ドル（200並列）、月999ドル（500並列）の月次クレジット制。ブラウザ時間は時間あたり0.02ドルから",
+      "es": "Niveles de pago en la nube: 29 $/mes (25 sesiones), 299 $/mes (200) y 999 $/mes (500) en créditos mensuales; tiempo de navegador desde 0,02 $/hora",
+      "fr": "Offres cloud payantes : 29 $/mois (25 sessions), 299 $/mois (200) et 999 $/mois (500) en crédits mensuels ; temps navigateur dès 0,02 $/heure"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Automating form filling, signups and repetitive web workflows",
+      "Structured data extraction from sites without APIs",
+      "QA testing of web apps driven by natural-language scenarios",
+      "Giving any agent stack a reliable browsing tool"
+    ],
+    "zh": [
+      "自动化表单填写、注册与重复性网页流程",
+      "从无 API 的网站抽取结构化数据",
+      "用自然语言场景驱动的 Web 应用 QA 测试",
+      "为任意智能体栈补上可靠的浏览器操作能力"
+    ],
+    "ja": [
+      "フォーム入力、サインアップ、反復的なWebワークフローの自動化",
+      "APIのないサイトからの構造化データ抽出",
+      "自然言語シナリオで駆動するWebアプリのQAテスト",
+      "任意のエージェントスタックに信頼できるブラウジングツールを追加"
+    ],
+    "es": [
+      "Automatizar formularios, registros y flujos web repetitivos",
+      "Extracción de datos estructurados de sitios sin API",
+      "Pruebas QA de aplicaciones web guiadas por escenarios en lenguaje natural",
+      "Dar a cualquier stack de agentes una herramienta de navegación fiable"
+    ],
+    "fr": [
+      "Automatiser formulaires, inscriptions et workflows web répétitifs",
+      "Extraction de données structurées de sites sans API",
+      "Tests QA d’applications web pilotés par scénarios en langage naturel",
+      "Doter n'importe quelle stack d'agents d'un outil de navigation fiable"
+    ]
+  },
+  "pros": {
+    "en": [
+      "De-facto standard open-source browser tool for agents with a huge community",
+      "Cloud handles the hard parts: stealth, CAPTCHAs, proxies, scaling",
+      "Very low entry cost with a genuinely free tier",
+      "Model-agnostic — pair it with any LLM including local ones"
+    ],
+    "zh": [
+      "智能体浏览器操作的事实标准开源工具，社区庞大",
+      "云端搞定难点：隐身、验证码、代理、扩容",
+      "入门成本极低，免费档真实可用",
+      "模型无关——可搭配含本地模型在内的任意 LLM"
+    ],
+    "ja": [
+      "エージェント向けブラウザツールの事実上の標準オープンソース、巨大コミュニティ",
+      "ステルス、CAPTCHA、プロキシ、スケーリングなど難所はクラウドが担当",
+      "実用的な無料枠があり導入コストが非常に低い",
+      "モデル非依存——ローカルモデルを含む任意のLLMと組み合わせ可能"
+    ],
+    "es": [
+      "Herramienta open source estándar de facto para navegación de agentes con gran comunidad",
+      "La nube resuelve lo difícil: sigilo, CAPTCHAs, proxies, escalado",
+      "Coste de entrada muy bajo con nivel gratuito real",
+      "Agnóstico de modelos: combínalo con cualquier LLM, incluso locales"
+    ],
+    "fr": [
+      "Outil open source standard de facto pour la navigation des agents, immense communauté",
+      "Le cloud gère le plus dur : furtivité, CAPTCHA, proxies, montée en charge",
+      "Coût d'entrée très bas avec une offre gratuite réellement utilisable",
+      "Indépendant du modèle — associez-le à n'importe quel LLM, même local"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Long multi-step runs can still derail on complex, dynamic sites",
+      "LLM token costs stack on top of browser session costs",
+      "Anti-bot arms race means some targets stay unreliable",
+      "Automating logins/purchases raises compliance questions per site terms"
+    ],
+    "zh": [
+      "复杂动态站点上的长链路任务仍可能跑偏",
+      "LLM token 成本叠加在浏览器会话费用之上",
+      "反爬攻防持续升级，部分目标站点始终不稳定",
+      "自动登录/下单需注意目标网站条款的合规问题"
+    ],
+    "ja": [
+      "複雑で動的なサイトでは長いマルチステップ実行が脱線することがある",
+      "LLMトークンコストがブラウザセッション費用に上乗せされる",
+      "アンチボットとのいたちごっこで一部サイトは不安定なまま",
+      "ログインや購入の自動化はサイト規約上のコンプライアンス問題を伴う"
+    ],
+    "es": [
+      "Las ejecuciones largas de varios pasos aún pueden descarrilar en sitios complejos y dinámicos",
+      "Los costes de tokens LLM se suman a los de sesiones de navegador",
+      "La carrera anti-bots hace que algunos objetivos sigan siendo poco fiables",
+      "Automatizar logins/compras plantea dudas de cumplimiento según los términos de cada sitio"
+    ],
+    "fr": [
+      "Les longues exécutions multi-étapes peuvent encore dérailler sur des sites complexes et dynamiques",
+      "Les coûts de tokens LLM s’ajoutent aux coûts de sessions navigateur",
+      "La course à l'anti-bot rend certains sites durablement peu fiables",
+      "L'automatisation de connexions/achats pose des questions de conformité selon les CGU des sites"
+    ]
+  },
+  "latestUpdate": {
+    "en": "March 2026: Browser Use Cloud became free — every project gets free browser sessions with no credit card; Agent Signup lets agents authenticate autonomously; pricing tiers now $29/$299/$999 per month on top of the free tier",
+    "zh": "2026 年 3 月：Browser Use Cloud 推出免费档——每个项目均获免费浏览器会话且无需绑卡；Agent Signup 让智能体可自主完成认证；免费档之上现设 29/299/999 美元月付三档",
+    "ja": "2026年3月：Browser Use Cloudが無料化——全プロジェクトにクレジットカード不要の無料ブラウザセッションを提供。Agent Signupによりエージェントが自律的に認証可能。無料枠の上に月額29/299/999ドルの3プランを設定",
+    "es": "Marzo 2026: Browser Use Cloud pasó a ser gratuito: cada proyecto recibe sesiones de navegador gratis sin tarjeta; Agent Signup permite a los agentes autenticarse de forma autónoma; los niveles de pago son ahora 29/299/999 $ al mes sobre el nivel gratuito",
+    "fr": "Mars 2026 : Browser Use Cloud devient gratuit — chaque projet reçoit des sessions navigateur gratuites sans carte bancaire ; Agent Signup permet aux agents de s'authentifier de façon autonome ; les paliers payants sont désormais 29/299/999 $ par mois au-dessus de l'offre gratuite"
+  },
+  "verdict": {
+    "badge": "Recommended",
+    "headline": {
+      "en": "The default way to give AI agents hands on the web",
+      "zh": "让 AI 智能体「上手」操作网页的默认选择",
+      "ja": "AIエージェントにWebを操作させるデフォルトの選択肢",
+      "es": "La forma predeterminada de dar a los agentes IA manos en la web",
+      "fr": "Le moyen par défaut de donner aux agents IA des mains sur le web"
+    },
+    "body": {
+      "en": "Browser Use won the open-source race for agent browsing: a simple Python API, any model you like, and a cloud that absorbs the ugly parts of automation — stealth, CAPTCHAs, proxies. The 2026 free tier removed the last excuse not to try it. Reliability on hostile or highly dynamic sites is the remaining frontier, so keep humans in the loop for critical flows.",
+      "zh": "Browser Use 赢下了智能体浏览器操作的开源竞赛：简洁的 Python API、任选模型，云端替你消化自动化最脏的部分——隐身、验证码、代理。2026 年免费档的推出扫清了尝试它的最后一道门槛。在对抗性强或高度动态的站点上可靠性仍是短板，关键流程请保留人工兜底。",
+      "ja": "Browser Useはエージェントブラウジングのオープンソース競争を制した：シンプルなPython API、好きなモデル、そして自動化の泥臭い部分（ステルス、CAPTCHA、プロキシ）を吸収するクラウド。2026年の無料化で試さない理由はなくなった。敵対的・高度に動的なサイトでの信頼性が残る課題であり、重要フローには人間の監視を残すべきだ。",
+      "es": "Browser Use ganó la carrera open source de la navegación para agentes: una API Python sencilla, el modelo que quieras y una nube que absorbe lo feo de la automatización: sigilo, CAPTCHAs, proxies. El nivel gratuito de 2026 eliminó la última excusa para no probarlo. La fiabilidad en sitios hostiles o muy dinámicos es la frontera pendiente; mantén humanos en el circuito para flujos críticos.",
+      "fr": "Browser Use a remporté la course open source de la navigation pour agents : une API Python simple, le modèle de votre choix et un cloud qui absorbe le plus ingrat de l'automatisation — furtivité, CAPTCHA, proxies. L'offre gratuite de 2026 a levé la dernière excuse pour ne pas l'essayer. La fiabilité sur les sites hostiles ou très dynamiques reste la frontière ; gardez un humain dans la boucle pour les flux critiques."
+    },
+    "bestFor": {
+      "en": [
+        "Developers adding web browsing and form filling to any agent stack",
+        "Data extraction and web automation pipelines",
+        "Open-source projects needing a battle-tested browser agent library"
+      ],
+      "zh": [
+        "要为任意智能体栈添加网页浏览与表单填写的开发者",
+        "数据采集与网页自动化管线",
+        "需要久经考验浏览器智能体库的开源项目"
+      ],
+      "ja": [
+        "任意のエージェントスタックにWebブラウジングやフォーム入力を追加したい開発者",
+        "データ抽出とWeb自動化のパイプライン",
+        "実績あるブラウザエージェントライブラリが必要なオープンソースプロジェクト"
+      ],
+      "es": [
+        "Desarrolladores que añaden navegación web y relleno de formularios a cualquier stack de agentes",
+        "Pipelines de extracción de datos y automatización web",
+        "Proyectos open source que necesitan una librería de agente de navegador probada"
+      ],
+      "fr": [
+        "Développeurs ajoutant navigation web et remplissage de formulaires à toute stack d’agents",
+        "Pipelines d’extraction de données et d’automatisation web",
+        "Projets open source ayant besoin d’une bibliothèque d’agent navigateur éprouvée"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You want a no-code consumer agent that browses for you (→ Genspark, Manus)",
+        "You need full enterprise RPA suites for back offices"
+      ],
+      "zh": [
+        "你想要替你上网的无代码消费级智能体（→ Genspark、Manus）",
+        "你需要面向企业后台的成熟 RPA 套件"
+      ],
+      "ja": [
+        "代わりにブラウジングしてくれるノーコード消費者向けエージェントが欲しい（→ Genspark、Manus）",
+        "バックオフィス向けの本格的なエンタープライズRPAスイートが必要"
+      ],
+      "es": [
+        "Quieres un agente de consumo sin código que navegue por ti (→ Genspark, Manus)",
+        "Necesitas suites RPA empresariales completas para back office"
+      ],
+      "fr": [
+        "Vous voulez un agent grand public no-code qui navigue pour vous (→ Genspark, Manus)",
+        "Vous avez besoin de suites RPA d’entreprise complètes pour le back-office"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-27",
+    "verdictDate": "2026-07-27",
+    "pricingVerified": "2026-07-27"
+  }
+}

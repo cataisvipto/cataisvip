@@ -1,0 +1,29 @@
+{
+  "slug": "replicate",
+  "name": "Replicate",
+  "nameZh": "Replicate",
+  "description": "开源模型托管鼻祖，一行 API 运行数千个社区与官方模型，按秒计费用多少付多少，Cog 工具还能打包部署自己的模型",
+  "descriptionEn": "The pioneer of open-source model hosting: run thousands of community and official models with one line of API, billed by the second so you only pay for what you use. Package and deploy your own models with Cog",
+  "descriptionJa": "オープンソースモデルホスティングの草分け。1行のAPIで数千のコミュニティ・公式モデルを実行、秒単位課金で使った分だけ支払い。Cogで自作モデルのパッケージ化とデプロイも可能",
+  "descriptionEs": "El pionero del hosting de modelos open source: ejecuta miles de modelos comunitarios y oficiales con una línea de API, facturación por segundo pagando solo lo que usas. Empaqueta y despliega tus propios modelos con Cog",
+  "descriptionFr": "Le pionnier de l'hébergement de modèles open source : exécutez des milliers de modèles communautaires et officiels avec une ligne d'API, facturation à la seconde — vous ne payez que ce que vous utilisez. Packagez et déployez vos propres modèles avec Cog",
+  "url": "https://replicate.com",
+  "logo": "/logos/tools/replicate.png",
+  "category": "API Platform",
+  "tags": [
+    "Paid",
+    "API"
+  ],
+  "featured": false,
+  "developer": "Replicate (Cloudflare)",
+  "platforms": {
+    "web": true,
+    "windows": false,
+    "macos": false,
+    "ios": false,
+    "android": false,
+    "linux": false,
+    "browser_extension": false,
+    "api": true
+  }
+}

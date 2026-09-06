@@ -1,0 +1,246 @@
+{
+  "features": {
+    "en": [
+      "Privacy-first AI code completion",
+      "AI coding agents and chat",
+      "Broad IDE coverage",
+      "Zero code retention option",
+      "On-prem and air-gapped deployment",
+      "Team model personalization"
+    ],
+    "zh": [
+      "隐私优先的 AI 代码补全",
+      "AI 编码智能体与对话",
+      "广泛的 IDE 支持",
+      "零代码留存选项",
+      "私有化与离线部署",
+      "团队模型个性化"
+    ],
+    "ja": [
+      "プライバシー優先の AI コード補完",
+      "AI コーディングエージェントとチャット",
+      "幅広い IDE 対応",
+      "コード非保持オプション",
+      "オンプレミス・エアギャップ展開",
+      "チームモデルのパーソナライズ"
+    ],
+    "es": [
+      "Autocompletado de código con IA y foco en privacidad",
+      "Agentes de código con IA y chat",
+      "Amplia cobertura de IDE",
+      "Opción de cero retención de código",
+      "Despliegue on-premise y aislado",
+      "Personalización de modelos por equipo"
+    ],
+    "fr": [
+      "Complétion de code IA axée sur la confidentialité",
+      "Agents de code IA et chat",
+      "Large couverture d'IDE",
+      "Option zéro rétention de code",
+      "Déploiement on-premise et air-gapped",
+      "Personnalisation du modèle par équipe"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "$0 (basic completion)",
+      "zh": "$0（基础补全）",
+      "ja": "$0（基本補完）",
+      "es": "$0 (autocompletado básico)",
+      "fr": "0 $ (complétion de base)"
+    },
+    "dev": {
+      "en": "$9/user/month",
+      "zh": "$9/人/月",
+      "ja": "1ユーザー月額9ドル",
+      "es": "9 $/usuario/mes",
+      "fr": "9 $/utilisateur/mois"
+    },
+    "enterprise": {
+      "en": "Custom pricing (on-prem)",
+      "zh": "定制价格（私有化）",
+      "ja": "カスタム料金（オンプレミス）",
+      "es": "Precio personalizado (on-premise)",
+      "fr": "Tarif personnalisé (on-premise)"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Privacy-sensitive development",
+      "Enterprise and regulated teams",
+      "Daily code completion",
+      "On-prem AI coding",
+      "Code chat and explanation",
+      "Multi-IDE workflows"
+    ],
+    "zh": [
+      "隐私敏感的开发",
+      "企业与合规团队",
+      "日常代码补全",
+      "私有化 AI 编码",
+      "代码对话与解释",
+      "多 IDE 工作流"
+    ],
+    "ja": [
+      "プライバシー重視の開発",
+      "企業・規制業界のチーム",
+      "日常のコード補完",
+      "オンプレミス AI コーディング",
+      "コードのチャットと解説",
+      "マルチ IDE ワークフロー"
+    ],
+    "es": [
+      "Desarrollo sensible a la privacidad",
+      "Equipos empresariales y regulados",
+      "Autocompletado de código diario",
+      "Programación con IA on-premise",
+      "Chat y explicación de código",
+      "Flujos multi-IDE"
+    ],
+    "fr": [
+      "Développement sensible à la confidentialité",
+      "Équipes d'entreprise et réglementées",
+      "Complétion de code au quotidien",
+      "Codage IA on-premise",
+      "Chat et explication de code",
+      "Workflows multi-IDE"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Strong privacy and compliance",
+      "On-prem and air-gapped options",
+      "Broad IDE support",
+      "Zero code retention"
+    ],
+    "zh": [
+      "隐私与合规能力强",
+      "支持私有化与离线",
+      "IDE 支持广泛",
+      "零代码留存"
+    ],
+    "ja": [
+      "強力なプライバシーとコンプライアンス",
+      "オンプレミス・エアギャップ対応",
+      "幅広い IDE サポート",
+      "コード非保持"
+    ],
+    "es": [
+      "Sólida privacidad y cumplimiento",
+      "Opciones on-premise y aisladas",
+      "Amplio soporte de IDE",
+      "Cero retención de código"
+    ],
+    "fr": [
+      "Forte confidentialité et conformité",
+      "Options on-premise et air-gapped",
+      "Large prise en charge des IDE",
+      "Zéro rétention de code"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Completion less flashy than rivals",
+      "Best value for enterprises",
+      "Fewer consumer features"
+    ],
+    "zh": [
+      "补全体验不及部分对手亮眼",
+      "更适合企业",
+      "面向个人功能较少"
+    ],
+    "ja": [
+      "補完体験は競合ほど派手でない",
+      "企業利用で価値を発揮",
+      "個人向け機能は少なめ"
+    ],
+    "es": [
+      "Autocompletado menos vistoso que rivales",
+      "Mejor valor para empresas",
+      "Menos funciones para consumidores"
+    ],
+    "fr": [
+      "Complétion moins spectaculaire que les concurrents",
+      "Meilleur rapport qualité-prix pour les entreprises",
+      "Moins de fonctions grand public"
+    ]
+  },
+  "latestUpdate": {
+    "en": "July 2026: Tabnine added AI coding agents while keeping its privacy-first, zero-retention enterprise focus",
+    "zh": "2026年7月：Tabnine 新增 AI 编码智能体，同时保持隐私优先、零留存的企业定位",
+    "ja": "2026年7月：Tabnine は AI コーディングエージェントを追加しつつ、プライバシー優先・非保持のエンタープライズ路線を維持",
+    "es": "Julio de 2026: Tabnine añadió agentes de código con IA manteniendo su enfoque empresarial de privacidad y cero retención",
+    "fr": "Juillet 2026 : Tabnine a ajouté des agents de code IA tout en conservant son orientation entreprise axée confidentialité et zéro rétention"
+  },
+  "verdict": {
+    "badge": "For Specific Needs",
+    "headline": {
+      "en": "Privacy-first AI code completion that can run entirely on your own infrastructure.",
+      "zh": "隐私优先的AI代码补全，可完全在自有基础设施上运行。",
+      "ja": "自社インフラで完全に動作可能なプライバシーファーストのAIコード補完。",
+      "es": "Completado de código IA con privacidad primero que puede funcionar en tu propia infraestructura.",
+      "fr": "Complétion de code IA axée sur la confidentialité pouvant fonctionner sur votre propre infrastructure."
+    },
+    "body": {
+      "en": "Tabnine's primary differentiator is deployment flexibility: it can run on-premise, ensuring code never leaves your network. For enterprises in regulated industries—healthcare, finance, defense—this is often a requirement rather than a preference.\n\nIn terms of raw completion quality, it trails behind GitHub Copilot and Cursor. But for organizations where data sovereignty is non-negotiable, Tabnine provides AI coding assistance without the compliance risks of cloud-based alternatives.",
+      "zh": "Tabnine 的核心差异化是部署灵活性：可在本地运行，确保代码永远不离开你的网络。对于受监管行业的企业——医疗、金融、国防——这通常是硬性要求而非偏好。\n\n在原始补全质量方面，它落后于 GitHub Copilot 和 Cursor。但对于数据主权不可协商的组织，Tabnine 提供了没有云端合规风险的AI编程辅助。",
+      "ja": "Tabnineの主な差別化要因はデプロイの柔軟性です。オンプレミスで実行可能で、コードがネットワークを離れることがありません。規制産業の企業——医療、金融、防衛——にとって、これは好みではなく要件です。\n\n補完品質ではGitHub CopilotやCursorに後れを取ります。しかしデータ主権が譲れない組織にとって、TabnineはクラウドのコンプライアンスリスクなしにAIコーディング支援を提供します。",
+      "es": "El diferenciador principal de Tabnine es la flexibilidad de despliegue: puede funcionar on-premise, asegurando que el código nunca salga de tu red. Para empresas en industrias reguladas—salud, finanzas, defensa—esto es un requisito más que una preferencia.\n\nEn calidad de completado pura, va por detrás de GitHub Copilot y Cursor. Pero para organizaciones donde la soberanía de datos es innegociable, Tabnine ofrece asistencia IA sin los riesgos de compliance del cloud.",
+      "fr": "Le principal différenciateur de Tabnine est la flexibilité de déploiement : il peut fonctionner on-premise, garantissant que le code ne quitte jamais votre réseau. Pour les entreprises réglementées—santé, finance, défense—c'est souvent une exigence.\n\nEn qualité de complétion pure, il est derrière GitHub Copilot et Cursor. Mais pour les organisations où la souveraineté des données est non-négociable, Tabnine offre une assistance IA sans les risques de conformité du cloud."
+    },
+    "bestFor": {
+      "en": [
+        "Enterprises requiring on-premise AI coding tools",
+        "Regulated industries with strict data policies",
+        "Organizations needing code privacy guarantees"
+      ],
+      "zh": [
+        "需要本地部署AI编程工具的企业",
+        "有严格数据政策的受监管行业",
+        "需要代码隐私保障的组织"
+      ],
+      "ja": [
+        "オンプレミスAIコーディングツールが必要な企業",
+        "厳格なデータポリシーを持つ規制産業",
+        "コードプライバシー保証が必要な組織"
+      ],
+      "es": [
+        "Empresas que requieren herramientas IA de código on-premise",
+        "Industrias reguladas con políticas de datos estrictas",
+        "Organizaciones que necesitan garantías de privacidad de código"
+      ],
+      "fr": [
+        "Entreprises nécessitant des outils de code IA on-premise",
+        "Industries réglementées avec politiques de données strictes",
+        "Organisations nécessitant des garanties de confidentialité du code"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You prioritize completion quality over privacy (→ GitHub Copilot, Cursor)",
+        "You want a full AI-native IDE experience (→ Qoder, Cursor)"
+      ],
+      "zh": [
+        "更看重补全质量而非隐私（→ GitHub Copilot、Cursor）",
+        "需要完整的AI原生IDE体验（→ Qoder、Cursor）"
+      ],
+      "ja": [
+        "プライバシーより補完品質を重視する場合（→ GitHub Copilot、Cursor）",
+        "完全なAIネイティブIDE体験が必要な場合（→ Qoder、Cursor）"
+      ],
+      "es": [
+        "Priorizas calidad de completado sobre privacidad (→ GitHub Copilot, Cursor)",
+        "Quieres una experiencia IDE nativa IA completa (→ Qoder, Cursor)"
+      ],
+      "fr": [
+        "Vous privilégiez la qualité de complétion sur la confidentialité (→ GitHub Copilot, Cursor)",
+        "Vous voulez une expérience IDE native IA complète (→ Qoder, Cursor)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-30",
+    "verdictDate": "2026-07-27",
+    "pricingVerified": "2026-07-27"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "360-zhinao",
+  "name": "360 GPT",
+  "nameZh": "360 智脑",
+  "description": "360 推出的 AI 对话助手，结合 360 安全能力和大模型技术，支持多轮对话和长文本处理",
+  "descriptionEn": "AI chatbot by 360, combining security capabilities with LLM technology, supporting multi-turn conversation and long-context processing",
+  "descriptionJa": "360のAIチャットボット。セキュリティ機能とLLM技術を融合、多ターン対話と長文処理に対応",
+  "descriptionEs": "Chatbot de IA de 360, que combina capacidades de seguridad con tecnología LLM, admite conversaciones multiturno y procesamiento de contexto largo",
+  "descriptionFr": "Chatbot IA de 360, combinant des capacités de sécurité avec la technologie LLM, prenant en charge les conversations multi-tours et le traitement de long contexte",
+  "url": "https://ai.360.cn",
+  "logo": "/logos/tools/360-zhinao.png",
+  "category": "Chat",
+  "tags": [
+    "Free"
+  ],
+  "featured": false,
+  "developer": "360",
+  "developerZh": "360",
+  "platforms": {
+    "web": true,
+    "windows": true,
+    "macos": "unknown",
+    "ios": true,
+    "android": true,
+    "linux": false,
+    "browser_extension": false,
+    "api": true
+  }
+}

@@ -34,7 +34,7 @@ interface ToolDetailClientProps {
   tool: Tool;
   locale: string;
   // 以下数据均由服务端 page.tsx 按 slug 预先筛选后传入，
-  // 避免客户端 import 整个 toolDetails.json/tools.json/blogPosts.json 撞大 bundle
+  // 避免客户端把整包数据打进 bundle
   details: unknown;
   sameMaker: Tool[];
   relatedTools: Tool[];

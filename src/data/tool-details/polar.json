@@ -1,0 +1,215 @@
+{
+  "features": {
+    "en": [
+      "Subscription management for open-source projects",
+      "Payment processing and donation collection",
+      "License management and commercial licensing",
+      "Public API for integration with existing tools",
+      "Developer-friendly monetization without leaving the open-source ecosystem",
+      "Product Hunt integration for launch visibility"
+    ],
+    "zh": [
+      "开源项目订阅管理",
+      "支付处理和捐赠收集",
+      "许可证管理和商业许可",
+      "公共 API 用于与现有工具集成",
+      "开发者友好的变现方式，不离开开源生态",
+      "Product Hunt 集成用于发布曝光"
+    ],
+    "ja": [
+      "オープンソースプロジェクト向けサブスクリプション管理",
+      "決済処理と寄付収集",
+      "ライセンス管理と商用ライセンス",
+      "既存ツールとの統合のための公開API",
+      "オープンソースエコシステムを離れない開発者向け収益化",
+      "公開時の可視性のためのProduct Hunt統合"
+    ],
+    "es": [
+      "Gestión de suscripciones para proyectos open source",
+      "Procesamiento de pagos y recolección de donaciones",
+      "Gestión de licencias y licencias comerciales",
+      "API pública para integración con herramientas existentes",
+      "Monetización amigable para desarrolladores sin salir del ecosistema open source",
+      "Integración con Product Hunt para visibilidad de lanzamiento"
+    ],
+    "fr": [
+      "Gestion des abonnements pour projets open source",
+      "Traitement des paiements et collecte de dons",
+      "Gestion des licences et licences commerciales",
+      "API publique pour l'intégration avec les outils existants",
+      "Monétisation conviviale pour développeurs sans quitter l'écosystème open source",
+      "Intégration Product Hunt pour la visibilité au lancement"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Open source (Apache 2.0) with a hosted platform at polar.sh.",
+      "zh": "开源（Apache 2.0），托管平台在 polar.sh。",
+      "ja": "オープンソース（Apache 2.0）、ホスト型プラットフォームはpolar.sh。",
+      "es": "Código abierto (Apache 2.0) con plataforma alojada en polar.sh.",
+      "fr": "Open source (Apache 2.0) avec plateforme hébergée sur polar.sh."
+    }
+  },
+  "useCases": {
+    "en": [
+      "Monetizing open-source projects with subscriptions and donations",
+      "Managing commercial licenses for open-source software",
+      "Setting up a developer-friendly payment infrastructure"
+    ],
+    "zh": [
+      "通过订阅和捐赠变现开源项目",
+      "管理开源软件的商业许可证",
+      "搭建开发者友好的支付基础设施"
+    ],
+    "ja": [
+      "サブスクリプションと寄付でオープンソースプロジェクトを収益化",
+      "オープンソースソフトウェアの商用ライセンス管理",
+      "開発者向けの支払いインフラ構築"
+    ],
+    "es": [
+      "Monetizar proyectos open source con suscripciones y donaciones",
+      "Gestionar licencias comerciales para software open source",
+      "Configurar una infraestructura de pagos amigable para desarrolladores"
+    ],
+    "fr": [
+      "Monétiser des projets open source avec abonnements et dons",
+      "Gérer les licences commerciales des logiciels open source",
+      "Mettre en place une infrastructure de paiement conviviale pour développeurs"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Purpose-built for open-source monetization",
+      "Apache 2.0 licensed, full transparency",
+      "Clean API and developer experience",
+      "Active development with Product Hunt traction",
+      "Supports GitHub sponsorship-style workflows"
+    ],
+    "zh": [
+      "专门为开源变现设计",
+      "Apache 2.0 协议，完全透明",
+      "干净的 API 和开发者体验",
+      "开发活跃，Product Hunt 热度",
+      "支持 GitHub 赞助风格工作流"
+    ],
+    "ja": [
+      "オープンソース収益化に特化",
+      "Apache 2.0ライセンス、完全な透明性",
+      "クリーンなAPIと開発者体験",
+      "Product Huntでの勢いのある活発な開発",
+      "GitHubスポンサー風のワークフローをサポート"
+    ],
+    "es": [
+      "Hecho a medida para la monetización open source",
+      "Licencia Apache 2.0, transparencia total",
+      "API limpia y experiencia de desarrollador",
+      "Desarrollo activo con tracción en Product Hunt",
+      "Soporta flujos estilo GitHub Sponsors"
+    ],
+    "fr": [
+      "Conçu pour la monétisation open source",
+      "Licence Apache 2.0, transparence totale",
+      "API propre et expérience développeur",
+      "Développement actif avec traction Product Hunt",
+      "Supporte les workflows type GitHub Sponsors"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Requires developers to adopt a new platform",
+      "Payment processing fees apply",
+      "Competitive space (GitHub Sponsors, Open Collective, etc.)"
+    ],
+    "zh": [
+      "需要开发者采用新平台",
+      "支付处理费用存在",
+      "竞争激烈（GitHub Sponsors、Open Collective 等）"
+    ],
+    "ja": [
+      "開発者に新しいプラットフォームの採用が必要",
+      "決済処理手数料が発生",
+      "競争の激しい領域（GitHub Sponsors、Open Collectiveなど）"
+    ],
+    "es": [
+      "Requiere que los desarrolladores adopten una nueva plataforma",
+      "Se aplican tarifas de procesamiento de pagos",
+      "Espacio competitivo (GitHub Sponsors, Open Collective, etc.)"
+    ],
+    "fr": [
+      "Nécessite l'adoption d'une nouvelle plateforme par les développeurs",
+      "Des frais de traitement des paiements s'appliquent",
+      "Espace concurrentiel (GitHub Sponsors, Open Collective, etc.)"
+    ]
+  },
+  "latestUpdate": {
+    "en": "August 2026: Polar continues development with subscription management, payment processing, and license management for open-source projects.",
+    "zh": "2026年8月：Polar 持续开发，为开源项目提供订阅管理、支付处理和许可证管理。",
+    "ja": "2026年8月：Polarはオープンソースプロジェクト向けのサブスクリプション管理、決済処理、ライセンス管理を継続的に開発。",
+    "es": "Agosto 2026: Polar continúa desarrollando gestión de suscripciones, procesamiento de pagos y gestión de licencias para proyectos open source.",
+    "fr": "Août 2026 : Polar poursuit le développement de la gestion des abonnements, du traitement des paiements et de la gestion des licences pour projets open source."
+  },
+  "summary": {
+    "en": "Polar is an open-source monetization platform for developers — subscriptions, payments, donations, and license management for open-source projects. Apache 2.0 licensed.",
+    "zh": "Polar 是面向开发者的开源变现平台——为开源项目提供订阅、支付、捐赠和许可证管理。Apache 2.0 协议。",
+    "ja": "Polarは開発者向けのオープンソース収益化プラットフォームです——オープンソースプロジェクトにサブスクリプション、支払い、寄付、ライセンス管理を提供。Apache 2.0ライセンス。",
+    "es": "Polar es una plataforma de monetización open source para desarrolladores — suscripciones, pagos, donaciones y gestión de licencias para proyectos open source. Licencia Apache 2.0.",
+    "fr": "Polar est une plateforme de monétisation open source pour développeurs — abonnements, paiements, dons et gestion de licences pour projets open source. Licence Apache 2.0."
+  },
+  "verdict": {
+    "badge": "Worth Trying",
+    "headline": {
+      "en": "A promising open-source monetization platform — clean API, developer-first, but still building adoption.",
+      "zh": "有前景的开源变现平台——干净的 API，开发者优先，但仍在建立采用。",
+      "ja": "有望なオープンソース収益化プラットフォーム——クリーンなAPI、開発者ファースト、しかし採用はまだ途上。",
+      "es": "Una prometedora plataforma de monetización open source — API limpia, primero el desarrollador, pero aún construyendo adopción.",
+      "fr": "Une plateforme de monétisation open source prometteuse — API propre, développeur d'abord, mais adoption encore en construction."
+    },
+    "body": {
+      "en": "Polar aims to solve the open-source monetization problem with a clean, developer-friendly platform. Its Apache 2.0 license, public API, and Product Hunt traction are promising. Adoption is the key challenge.",
+      "zh": "Polar 旨在用干净、开发者友好的平台解决开源变现问题。Apache 2.0 协议、公共 API 和 Product Hunt 热度令人期待。采用是关键挑战。",
+      "ja": "Polarは、クリーンで開発者向けのプラットフォームでオープンソース収益化の問題を解決しようとしています。Apache 2.0ライセンス、公開API、Product Huntでの勢いは有望です。採用が最大の課題です。",
+      "es": "Polar busca resolver el problema de la monetización open source con una plataforma limpia y amigable para desarrolladores. Su licencia Apache 2.0, API pública y tracción en Product Hunt son prometedoras. La adopción es el desafío clave.",
+      "fr": "Polar vise à résoudre le problème de la monétisation open source avec une plateforme propre et conviviale pour développeurs. Sa licence Apache 2.0, son API publique et sa traction Product Hunt sont prometteuses. L'adoption est le défi clé."
+    },
+    "bestFor": {
+      "en": [
+        "Open-source maintainers looking for a developer-friendly monetization platform with subscriptions, donations, and license management."
+      ],
+      "ja": [
+        "サブスクリプション、寄付、ライセンス管理を備えた開発者向け収益化プラットフォームを探しているオープンソースメンテナー。"
+      ],
+      "es": [
+        "Mantenedores open source que buscan una plataforma de monetización amigable para desarrolladores con suscripciones, donaciones y gestión de licencias."
+      ],
+      "fr": [
+        "Mainteneurs open source cherchant une plateforme de monétisation conviviale avec abonnements, dons et gestion de licences."
+      ],
+      "zh": [
+        "寻找开发友好型变现平台（订阅、捐赠、许可证管理）的开源项目维护者。"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "Compare with GitHub Sponsors (built-in, zero friction), Open Collective (community-focused), or Stripe (custom payment infrastructure)."
+      ],
+      "ja": [
+        "GitHub Sponsors（組み込み、摩擦ゼロ）、Open Collective（コミュニティ重視）、Stripe（カスタム決済インフラ）と比較してください。"
+      ],
+      "es": [
+        "Compara con GitHub Sponsors (integrado, cero fricción), Open Collective (centrado en comunidad) o Stripe (infraestructura de pagos personalizada)."
+      ],
+      "fr": [
+        "Comparez avec GitHub Sponsors (intégré, zéro friction), Open Collective (axé communauté) ou Stripe (infrastructure de paiement personnalisée)."
+      ],
+      "zh": [
+        "与 GitHub Sponsors（内置、零摩擦）、Open Collective（社区聚焦）或 Stripe（自定义支付基础设施）比较。"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-08-12",
+    "verdictDate": "2026-08-12",
+    "pricingVerified": "2026-08-12",
+    "pricingUrl": "https://polar.sh"
+  }
+}

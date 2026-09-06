@@ -1,0 +1,29 @@
+{
+  "slug": "deepl",
+  "name": "DeepL",
+  "nameZh": "DeepL",
+  "description": "全球领先的 AI 翻译工具，翻译质量超越传统翻译软件",
+  "descriptionEn": "World-leading AI translation tool with superior translation quality",
+  "descriptionJa": "世界をリードするAI翻訳ツール。翻訳品質は従来の翻訳ソフトを凌駕",
+  "descriptionEs": "Herramienta de traducción IA líder mundial con calidad de traducción superior",
+  "descriptionFr": "Outil de traduction IA leader mondial avec une qualité de traduction supérieure",
+  "url": "https://www.deepl.com",
+  "logo": "/logos/tools/deepl.png",
+  "category": "Writing",
+  "tags": [
+    "Freemium",
+    "API"
+  ],
+  "featured": true,
+  "developer": "DeepL",
+  "platforms": {
+    "web": true,
+    "windows": true,
+    "macos": true,
+    "ios": true,
+    "android": true,
+    "linux": false,
+    "browser_extension": true,
+    "api": true
+  }
+}

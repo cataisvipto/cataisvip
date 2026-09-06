@@ -1,0 +1,234 @@
+{
+  "features": {
+    "en": [
+      "Autonomous cloud agents that plan, write code, run tests and open pull requests",
+      "Devin Desktop IDE (formerly Windsurf) with unlimited Tab completion and inline edits",
+      "In-house SWE 1.7 frontier model free on paid plans, plus OpenAI, Claude and Gemini models",
+      "Run multiple Devin sessions in parallel for large backlogs",
+      "DeepWiki codebase understanding and Ask Devin Q&A",
+      "Integrations with Slack, Teams, Linear, Jira, GitHub, GitLab and Bitbucket"
+    ],
+    "zh": [
+      "自主云端智能体：规划、写代码、跑测试、提 PR 全流程独立完成",
+      "Devin Desktop IDE（原 Windsurf）：无限 Tab 补全与内联编辑",
+      "自研 SWE 1.7 前沿模型付费版免费用，另可调用 OpenAI、Claude、Gemini 模型",
+      "多个 Devin 会话并行执行，批量消化积压任务",
+      "DeepWiki 代码库理解与 Ask Devin 问答",
+      "集成 Slack、Teams、Linear、Jira、GitHub、GitLab、Bitbucket"
+    ],
+    "ja": [
+      "自律クラウドエージェント：計画、コーディング、テスト実行、PR作成まで完遂",
+      "Devin Desktop IDE（旧Windsurf）：無制限のTab補完とインライン編集",
+      "自社開発SWE 1.7フロンティアモデルを有料プランで無料提供、OpenAI・Claude・Geminiモデルも利用可",
+      "複数のDevinセッションを並列実行し、大量のバックログを処理",
+      "DeepWikiコードベース理解とAsk Devin Q&A",
+      "Slack、Teams、Linear、Jira、GitHub、GitLab、Bitbucketと統合"
+    ],
+    "es": [
+      "Agentes autónomos en la nube que planifican, escriben código, ejecutan pruebas y abren pull requests",
+      "IDE Devin Desktop (antes Windsurf) con autocompletado Tab ilimitado y ediciones en línea",
+      "Modelo propio SWE 1.7 gratis en planes de pago, más modelos de OpenAI, Claude y Gemini",
+      "Ejecuta múltiples sesiones de Devin en paralelo para grandes backlogs",
+      "Comprensión del código con DeepWiki y preguntas con Ask Devin",
+      "Integraciones con Slack, Teams, Linear, Jira, GitHub, GitLab y Bitbucket"
+    ],
+    "fr": [
+      "Agents cloud autonomes qui planifient, codent, testent et ouvrent des pull requests",
+      "IDE Devin Desktop (ex-Windsurf) avec complétion Tab illimitée et éditions en ligne",
+      "Modèle maison SWE 1.7 gratuit sur les offres payantes, plus les modèles OpenAI, Claude et Gemini",
+      "Exécution de plusieurs sessions Devin en parallèle pour les gros backlogs",
+      "Compréhension du code avec DeepWiki et questions via Ask Devin",
+      "Intégrations Slack, Teams, Linear, Jira, GitHub, GitLab et Bitbucket"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Free plan: $0 with a light agent quota, limited model availability, unlimited inline edits and Tab completions in Devin Desktop",
+      "zh": "免费版：0 美元，含少量智能体额度、有限模型可选，Devin Desktop 内联编辑与 Tab 补全不限量",
+      "ja": "無料プラン：0ドル。少量のエージェント枠、限定モデル、Devin Desktopのインライン編集とTab補完は無制限",
+      "es": "Plan gratuito: 0 $ con cuota ligera de agente, modelos limitados, ediciones en línea y Tab ilimitados en Devin Desktop",
+      "fr": "Offre gratuite : 0 $ avec un petit quota agent, modèles limités, éditions en ligne et complétions Tab illimitées dans Devin Desktop"
+    },
+    "paid": {
+      "en": "Pro $20/mo (frontier models, Devin Cloud, up to 10 concurrent sessions); Max $200/mo (much higher quotas); Team $80/mo + $40/mo per full seat; Enterprise custom with VPC deployment and SSO. Extra usage billed at API pricing",
+      "zh": "Pro 20 美元/月（前沿模型、Devin Cloud、最多 10 并发）；Max 200 美元/月（大幅提高额度）；Team 80 美元/月 + 每正式席位 40 美元/月；企业版定制（VPC 部署、SSO）。超额用量按 API 价格计费",
+      "ja": "Pro 月20ドル（フロンティアモデル、Devin Cloud、最大10並列）；Max 月200ドル（大幅増量）；Team 月80ドル＋フルシート毎月40ドル；EnterpriseはVPC展開・SSO対応のカスタム。超過分はAPI価格で課金",
+      "es": "Pro 20 $/mes (modelos frontier, Devin Cloud, hasta 10 sesiones); Max 200 $/mes (cuotas mucho mayores); Team 80 $/mes + 40 $/mes por asiento; Enterprise a medida con VPC y SSO. Uso extra a precio de API",
+      "fr": "Pro 20 $/mois (modèles frontier, Devin Cloud, 10 sessions max) ; Max 200 $/mois (quotas bien supérieurs) ; Team 80 $/mois + 40 $/mois par siège ; Enterprise sur mesure avec VPC et SSO. Dépassement facturé au tarif API"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Burning down bug backlogs with parallel autonomous agents",
+      "Code migrations and large-scale refactoring",
+      "Building features end-to-end from a ticket to a reviewed PR",
+      "Answering codebase questions for onboarding via DeepWiki"
+    ],
+    "zh": [
+      "用并行自主智能体批量消化 Bug 积压",
+      "代码迁移与大规模重构",
+      "从工单到已审查 PR 的端到端功能开发",
+      "借助 DeepWiki 回答代码库问题、辅助新人上手"
+    ],
+    "ja": [
+      "並列自律エージェントでバグのバックログを一掃",
+      "コード移行と大規模リファクタリング",
+      "チケットからレビュー済みPRまでエンドツーエンドの機能開発",
+      "DeepWikiでコードベースの質問に回答しオンボーディングを支援"
+    ],
+    "es": [
+      "Reducir backlogs de bugs con agentes autónomos en paralelo",
+      "Migraciones de código y refactorizaciones a gran escala",
+      "Construir funciones de extremo a extremo desde un ticket hasta un PR revisado",
+      "Responder preguntas del código para onboarding con DeepWiki"
+    ],
+    "fr": [
+      "Résorber les backlogs de bugs avec des agents autonomes parallèles",
+      "Migrations de code et refactorisations à grande échelle",
+      "Développer des fonctionnalités de bout en bout, du ticket au PR relu",
+      "Répondre aux questions sur le code via DeepWiki pour faciliter l’onboarding"
+    ]
+  },
+  "pros": {
+    "en": [
+      "True end-to-end autonomy with mature ticket/PR workflow integrations",
+      "Cloud agents plus a full desktop IDE in one subscription",
+      "In-house SWE models keep costs down on routine tasks",
+      "Accessible $20/mo entry price after the 2026 pricing overhaul"
+    ],
+    "zh": [
+      "真端到端自主执行，工单/PR 工作流集成成熟",
+      "一份订阅同时覆盖云端智能体与完整桌面 IDE",
+      "自研 SWE 模型降低常规任务成本",
+      "2026 定价改革后 20 美元/月的亲民入门价"
+    ],
+    "ja": [
+      "チケット/PRワークフロー統合が成熟した真のエンドツーエンド自律性",
+      "1つのサブスクでクラウドエージェントとデスクトップIDEの両方をカバー",
+      "自社SWEモデルでルーチンタスクのコストを削減",
+      "2026年の価格改定後、月20ドルの手頃なエントリー価格"
+    ],
+    "es": [
+      "Autonomía real de extremo a extremo con integraciones maduras de tickets/PR",
+      "Agentes en la nube más un IDE de escritorio completo en una suscripción",
+      "Los modelos SWE propios reducen costes en tareas rutinarias",
+      "Precio de entrada accesible de 20 $/mes tras la reforma de precios de 2026"
+    ],
+    "fr": [
+      "Véritable autonomie de bout en bout avec intégrations tickets/PR matures",
+      "Agents cloud et IDE de bureau complet dans un seul abonnement",
+      "Les modèles SWE maison réduisent les coûts des tâches courantes",
+      "Prix d'entrée accessible de 20 $/mois après la refonte tarifaire de 2026"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Usage-based quotas make monthly costs hard to predict on heavy workloads",
+      "Complex or ambiguous tasks still need human supervision and review",
+      "Closed-source; cloud-first design limits fully offline use",
+      "Team plan seat pricing adds up for larger organizations"
+    ],
+    "zh": [
+      "按用量计费，重度使用下月成本难以预估",
+      "复杂或模糊任务仍需人工监督与审查",
+      "闭源且云优先，无法完全离线使用",
+      "Team 版按席位叠加，大团队成本走高"
+    ],
+    "ja": [
+      "使用量ベースの割当のため、ヘビーユースでは月額コストが予測しにくい",
+      "複雑・曖昧なタスクには依然として人間の監督とレビューが必要",
+      "クローズドソースかつクラウドファーストで完全オフライン利用は不可",
+      "Teamプランはシート課金で大規模組織ではコスト増"
+    ],
+    "es": [
+      "Las cuotas por uso dificultan predecir el coste mensual con cargas intensas",
+      "Las tareas complejas o ambiguas aún requieren supervisión humana",
+      "Código cerrado; diseño cloud-first limita el uso totalmente offline",
+      "El precio por asiento del plan Team se acumula en organizaciones grandes"
+    ],
+    "fr": [
+      "Les quotas à l'usage rendent le coût mensuel difficile à prévoir en usage intensif",
+      "Les tâches complexes ou ambiguës nécessitent encore une supervision humaine",
+      "Code fermé ; conception cloud-first limitant l’usage hors ligne",
+      "La tarification par siège du plan Team pèse sur les grandes organisations"
+    ]
+  },
+  "latestUpdate": {
+    "en": "2026: SWE 1.7 model released; Windsurf completed its integration and was renamed Devin Desktop (June 2026); new usage-based pricing introduced a $20/mo Pro tier after Cognition acquired Windsurf for ~$250M",
+    "zh": "2026 年：发布 SWE 1.7 模型；Windsurf 完成整合并更名 Devin Desktop（2026 年 6 月）；Cognition 以约 2.5 亿美元收购 Windsurf 后推出按用量计费的新定价，新增 20 美元/月 Pro 档",
+    "ja": "2026年：SWE 1.7モデルをリリース。WindsurfはDevin Desktopに改称され統合完了（2026年6月）。CognitionがWindsurfを約2.5億ドルで買収後、月20ドルのProプランを含む使用量ベースの新価格を導入",
+    "es": "2026: lanzado el modelo SWE 1.7; Windsurf completó su integración y pasó a llamarse Devin Desktop (junio 2026); nueva tarificación por uso con plan Pro de 20 $/mes tras la compra de Windsurf por ~250 M$",
+    "fr": "2026 : sortie du modèle SWE 1.7 ; Windsurf a achevé son intégration et a été renommé Devin Desktop (juin 2026) ; nouvelle tarification à l’usage avec offre Pro à 20 $/mois après le rachat de Windsurf (~250 M$)"
+  },
+  "verdict": {
+    "badge": "Recommended",
+    "headline": {
+      "en": "The most complete autonomous engineering suite — cloud agents plus a real IDE",
+      "zh": "最完整的自主工程套件——云端智能体 + 真正的 IDE",
+      "ja": "クラウドエージェントと本格IDEを備えた最も完成度の高い自律エンジニアリングスイート",
+      "es": "La suite de ingeniería autónoma más completa: agentes en la nube más un IDE real",
+      "fr": "La suite d'ingénierie autonome la plus complète : agents cloud et véritable IDE"
+    },
+    "body": {
+      "en": "Devin pioneered the AI software engineer category and, after absorbing Windsurf, now pairs parallel cloud agents with a polished desktop IDE. The $20 Pro tier makes it easy to start, while quotas and API-priced overages reward disciplined prompting. For teams that live in Slack, Jira and GitHub, it slots into existing workflows better than most rivals.",
+      "zh": "Devin 开创了「AI 软件工程师」品类，吞并 Windsurf 后更形成云端并行智能体 + 成熟桌面 IDE 的组合。20 美元 Pro 档大幅降低上手门槛，但额度制与超额 API 计费要求使用者精打细算。对深度使用 Slack、Jira、GitHub 的团队而言，它与现有工作流的契合度优于多数对手。",
+      "ja": "DevinはAIソフトウェアエンジニアというカテゴリーを切り開き、Windsurf統合後はクラウド並列エージェントと洗練されたデスクトップIDEを兼ね備えた。月20ドルのProで始めやすくなったが、割当制と超過分のAPI課金には計画的な利用が必要。Slack、Jira、GitHubを常用するチームには他社製品より馴染みやすい。",
+      "es": "Devin fue pionero en la categoría de ingeniero de software IA y, tras absorber Windsurf, combina agentes paralelos en la nube con un IDE de escritorio pulido. El plan Pro de 20 $ facilita empezar, aunque las cuotas y los excedentes a precio de API exigen disciplina. Para equipos que viven en Slack, Jira y GitHub, encaja mejor que la mayoría de rivales.",
+      "fr": "Devin a créé la catégorie de l'ingénieur logiciel IA et, après avoir absorbé Windsurf, associe agents cloud parallèles et IDE de bureau abouti. L'offre Pro à 20 $ facilite les débuts, mais les quotas et dépassements au tarif API demandent de la discipline. Pour les équipes qui vivent dans Slack, Jira et GitHub, il s'intègre mieux que la plupart des concurrents."
+    },
+    "bestFor": {
+      "en": [
+        "Engineering teams burning down bug backlogs with parallel agents",
+        "Ticket-to-PR feature development inside Slack/Jira/GitHub workflows",
+        "Teams wanting cloud agents plus a desktop IDE in one subscription"
+      ],
+      "zh": [
+        "用并行智能体消化 Bug 积压的工程团队",
+        "在 Slack/Jira/GitHub 工作流内从工单直达 PR 的功能开发",
+        "希望一份订阅同时获得云端智能体与桌面 IDE 的团队"
+      ],
+      "ja": [
+        "並列エージェントでバグのバックログを一掃したいエンジニアリングチーム",
+        "Slack/Jira/GitHubワークフロー内でチケットからPRまで完結する機能開発",
+        "1つのサブスクでクラウドエージェントとデスクトップIDEを両取りしたいチーム"
+      ],
+      "es": [
+        "Equipos de ingeniería reduciendo backlogs de bugs con agentes en paralelo",
+        "Desarrollo de funciones de ticket a PR dentro de flujos Slack/Jira/GitHub",
+        "Equipos que quieren agentes en la nube más un IDE de escritorio en una suscripción"
+      ],
+      "fr": [
+        "Équipes d’ingénierie résorbant les backlogs de bugs avec des agents parallèles",
+        "Développement de fonctionnalités du ticket au PR dans les flux Slack/Jira/GitHub",
+        "Équipes voulant agents cloud et IDE de bureau dans un seul abonnement"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You need open-source self-hosting (→ OpenHands)",
+        "You just want a lightweight in-IDE assistant (→ Cursor, GitHub Copilot)"
+      ],
+      "zh": [
+        "你需要开源自托管（→ OpenHands）",
+        "你只需要轻量 IDE 内助手（→ Cursor、GitHub Copilot）"
+      ],
+      "ja": [
+        "オープンソースのセルフホストが必要（→ OpenHands）",
+        "軽量なIDE内アシスタントで十分（→ Cursor、GitHub Copilot）"
+      ],
+      "es": [
+        "Necesitas autoalojamiento open source (→ OpenHands)",
+        "Solo quieres un asistente ligero en el IDE (→ Cursor, GitHub Copilot)"
+      ],
+      "fr": [
+        "Vous avez besoin d’auto-hébergement open source (→ OpenHands)",
+        "Vous voulez juste un assistant IDE léger (→ Cursor, GitHub Copilot)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-27",
+    "verdictDate": "2026-07-27",
+    "pricingVerified": "2026-07-27"
+  }
+}

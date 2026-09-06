@@ -1,0 +1,77 @@
+{
+  "slug": "agent-reach",
+  "name": "Agent Reach",
+  "nameZh": "Agent Reach",
+  "description": "互联网能力路由器，连接 15 个平台的 AI 智能体。支持跨平台消息发送、内容发布、数据同步。",
+  "descriptionEn": "Internet capability router for AI agents connecting 15 platforms. Supports cross-platform messaging, content publishing, and data sync.",
+  "descriptionJa": "15プラットフォームを接続するAIエージェント用インターネット機能ルーター。クロスプラットフォームメッセージ送信、コンテンツ公開、データ同期。",
+  "descriptionEs": "Router de capacidad de Internet para agentes IA que conecta 15 plataformas. Mensajería multiplataforma, publicación de contenido, sincronización.",
+  "descriptionFr": "Routeur de capacité Internet pour agents IA connectant 15 plateformes. Messagerie multiplateforme, publication de contenu, synchronisation.",
+  "developer": "Panniantong",
+  "developerZh": "Panniantong",
+  "repo": "Panniantong/Agent-Reach",
+  "agents": [
+    "claude",
+    "cursor",
+    "generic"
+  ],
+  "category": "Platform",
+  "tags": [
+    "Free",
+    "Open Source"
+  ],
+  "installCommand": "See README for installation instructions.",
+  "logo": "/logos/skills/agent-reach.png",
+  "stars": 78019,
+  "featured": false,
+  "faqs": [
+    {
+      "question": {
+        "zh": "Agent Reach 是什么？",
+        "en": "What is Agent Reach?",
+        "ja": "Agent Reach とは何ですか？",
+        "es": "¿Qué es Agent Reach?",
+        "fr": "Qu'est-ce qu'Agent Reach ?"
+      },
+      "answer": {
+        "zh": "它是 AI 智能体的\"互联网能力路由器\"：一次接入即可连通 15 个平台，支持跨平台消息发送、内容发布和数据同步，让 AI 从只会聊天变成能真正触达互联网各处的行动者。",
+        "en": "It is an \"internet capability router\" for AI agents: one integration connects 15 platforms, supporting cross-platform messaging, content publishing and data sync — turning the AI from a chat partner into an actor that can actually reach across the internet.",
+        "ja": "AI エージェントのための「インターネット能力ルーター」です。一度の接続で 15 のプラットフォームとつながり、クロスプラットフォームのメッセージ送信、コンテンツ公開、データ同期に対応。AI をただの会話相手から、インターネット中に届くアクターへと変えます。",
+        "es": "Es un \"enrutador de capacidades de internet\" para agentes de IA: una sola integración conecta 15 plataformas, con mensajería multiplataforma, publicación de contenido y sincronización de datos. La IA pasa de conversar a actuar en internet.",
+        "fr": "C'est un « routeur de capacités internet » pour agents IA : une seule intégration connecte 15 plateformes — messagerie multiplateforme, publication de contenu et synchronisation de données. L'IA passe du bavardage à l'action réelle sur internet."
+      }
+    },
+    {
+      "question": {
+        "zh": "怎么安装 Agent Reach？",
+        "en": "How do I install Agent Reach?",
+        "ja": "Agent Reach をインストールするには？",
+        "es": "¿Cómo instalo Agent Reach?",
+        "fr": "Comment installer Agent Reach ?"
+      },
+      "answer": {
+        "zh": "安装说明见 GitHub 仓库 README：配置技能文件后，按需为各平台（消息、社交、内容渠道）提供对应的账号凭据，AI 即可按指令调度这些渠道。",
+        "en": "See the GitHub README for setup: after configuring the skill files, provide account credentials for the platforms you need (messaging, social, content channels), and the AI can orchestrate those channels on command.",
+        "ja": "セットアップは GitHub の README を参照してください。スキルファイルを設定後、必要なプラットフォーム（メッセージ、SNS、コンテンツチャネル）のアカウント認証情報を渡せば、AI が指示に従ってそれらのチャネルを操作できます。",
+        "es": "Consulta el README de GitHub: tras configurar los archivos de la habilidad, proporciona las credenciales de las plataformas que necesites (mensajería, redes, canales de contenido) y la IA podrá orquestarlas bajo demanda.",
+        "fr": "Consultez le README GitHub : après avoir configuré les fichiers de compétence, fournissez les identifiants des plateformes souhaitées (messagerie, réseaux sociaux, canaux de contenu) et l'IA pourra les orchestrer sur commande."
+      }
+    },
+    {
+      "question": {
+        "zh": "使用 Agent Reach 有什么注意事项？",
+        "en": "Any caveats when using Agent Reach?",
+        "ja": "Agent Reach 利用時の注意点は？",
+        "es": "¿Alguna precaución al usar Agent Reach?",
+        "fr": "Des précautions avec Agent Reach ?"
+      },
+      "answer": {
+        "zh": "技能免费开源，但它代表你在真实平台上发消息、发内容——建议先在测试账号上跑通流程，给 AI 明确的操作边界，并遵守各平台的自动化使用政策。",
+        "en": "The skill is free and open source, but it acts on real platforms on your behalf — test the workflow with a sandbox account first, give the AI clear operational boundaries, and respect each platform’s automation policies.",
+        "ja": "スキルは無料のオープンソースですが、実在プラットフォーム上であなたの代わりにメッセージ送信や投稿を行います。まずテストアカウントでフローを検証し、AI に明確な操作境界を与え、各プラットフォームの自動化ポリシーを守ってください。",
+        "es": "La habilidad es gratuita y de código abierto, pero actúa en plataformas reales en tu nombre: prueba primero con una cuenta de test, da límites operativos claros a la IA y respeta las políticas de automatización de cada plataforma.",
+        "fr": "La compétence est gratuite et open source, mais elle agit en votre nom sur de vraies plateformes — testez d'abord avec un compte de test, fixez des limites claires à l'IA et respectez les politiques d'automatisation de chaque plateforme."
+      }
+    }
+  ]
+}

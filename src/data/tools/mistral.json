@@ -1,0 +1,30 @@
+{
+  "slug": "mistral",
+  "name": "Mistral AI",
+  "nameZh": "Mistral AI",
+  "description": "欧洲领先的开源大模型公司，Le Chat 对话产品，Mistral Large 3 多语言能力卓越",
+  "descriptionEn": "Europe's leading open-source LLM company, Le Chat product, Mistral Large 3 excels in multilingual tasks",
+  "descriptionJa": "欧州をリードするオープンソースLLM企業。Le Chat製品、Mistral Large 3は多言語能力に優れる",
+  "descriptionEs": "Empresa líder europea de LLM de código abierto, producto Le Chat, Mistral Large 3 destaca en tareas multilingües",
+  "descriptionFr": "Leader européen des LLM open-source, produit Le Chat, Mistral Large 3 excelle dans les tâches multilingues",
+  "url": "https://chat.mistral.ai",
+  "logo": "/logos/tools/mistral.png",
+  "category": "Foundation Models",
+  "tags": [
+    "Free",
+    "Open Source",
+    "API"
+  ],
+  "featured": true,
+  "developer": "Mistral AI",
+  "platforms": {
+    "web": true,
+    "windows": "unknown",
+    "macos": false,
+    "ios": true,
+    "android": true,
+    "linux": false,
+    "browser_extension": false,
+    "api": true
+  }
+}

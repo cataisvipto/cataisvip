@@ -1,0 +1,283 @@
+{
+  "summary": {
+    "en": "Seedance by ByteDance is a cutting-edge AI video generation platform (international version of Jimeng AI) that creates high-fidelity videos from text and images. With Seedance 2.5, it supports 30-second native video generation, 4K rendering, and advanced physics simulation.",
+    "zh": "Seedance 是字节跳动推出的顶尖 AI 视频生成平台（即梦 AI 的国际版），支持文本和图像生成高保真视频。Seedance 2.5 支持 30 秒原生视频生成、4K 渲染和真实物理模拟，在视频生成质量上处于业界领先水平。",
+    "ja": "Seedanceは、ByteDanceが開発した最先端AI動画生成プラットフォーム（Jimeng AIの国際版）です。テキストや画像から高忠実度の動画を生成します。Seedance 2.5では30秒のネイティブ動画生成、4Kレンダリング、高度な物理シミュレーションをサポートしています。",
+    "es": "Seedance de ByteDance es una plataforma de vanguardia de generación de video IA (versión internacional de Jimeng AI) que crea videos de alta fidelidad a partir de texto e imágenes. Seedance 2.5 admite generación de video nativo de 30 segundos, renderizado 4K y simulación física avanzada.",
+    "fr": "Seedance de ByteDance est une plateforme de pointe de génération vidéo IA (version internationale de Jimeng AI) qui crée des vidéos haute fidélité à partir de texte et d'images. Seedance 2.5 prend en charge la génération vidéo native de 30 secondes, le rendu 4K et la simulation physique avancée."
+  },
+  "features": {
+    "en": [
+      "Text-to-video and image-to-video generation",
+      "Native audio generation with lip sync",
+      "Multi-shot coherent scene generation",
+      "Dynamic camera movement control",
+      "Advanced physics simulation (weight, gravity, realistic motion)",
+      "30-second native video generation (Seedance 2.5)",
+      "Native 4K rendering with 10-bit color depth (Seedance 2.5)",
+      "Up to 50 multimodal reference inputs (Seedance 2.5)"
+    ],
+    "zh": [
+      "文生视频和图生视频",
+      "原生音频生成 + 口型同步",
+      "多镜头连贯场景生成",
+      "动态运镜控制",
+      "高级物理模拟（重量感、重力感、真实运动）",
+      "30 秒原生视频生成（Seedance 2.5）",
+      "原生 4K 渲染 + 10-bit 色深（Seedance 2.5）",
+      "最多 50 个多模态参考输入（Seedance 2.5）"
+    ],
+    "ja": [
+      "テキスト・画像からの動画生成",
+      "ネイティブ音声生成 + リップシンク",
+      "マルチショットの一貫したシーン生成",
+      "ダイナミックなカメラ制御",
+      "高度な物理シミュレーション",
+      "30秒ネイティブ動画生成（Seedance 2.5）",
+      "ネイティブ4Kレンダリング+10bit色深度（Seedance 2.5）",
+      "最大50のマルチモーダル参照入力（Seedance 2.5）"
+    ],
+    "es": [
+      "Generación de video de texto a video y de imagen a video",
+      "Generación de audio nativa con sincronización de labios",
+      "Generación de escenas coherentes multi-toma",
+      "Control dinámico de movimiento de cámara",
+      "Simulación física avanzada",
+      "Generación de video nativo de 30 segundos (Seedance 2.5)",
+      "Renderizado 4K nativo con profundidad de color de 10 bits (Seedance 2.5)",
+      "Hasta 50 entradas de referencia multimodales (Seedance 2.5)"
+    ],
+    "fr": [
+      "Génération vidéo texte-vers-vidéo et image-vers-vidéo",
+      "Génération audio native avec synchronisation labiale",
+      "Génération de scènes cohérentes multi-plans",
+      "Contrôle dynamique des mouvements de caméra",
+      "Simulation physique avancée",
+      "Génération vidéo native de 30 secondes (Seedance 2.5)",
+      "Rendu 4K natif avec profondeur de couleur 10 bits (Seedance 2.5)",
+      "Jusqu'à 50 entrées de référence multimodales (Seedance 2.5)"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Free tier with limited daily credits",
+      "zh": "免费版每天有限量积分",
+      "ja": "無料版は1日あたりのクレジット制限あり",
+      "es": "Plan gratuito con créditos diarios limitados",
+      "fr": "Forfait gratuit avec crédits quotidiens limités"
+    },
+    "pro": {
+      "en": "~$15/mo (1,575 credits, ~63 videos)",
+      "zh": "约 $15/月（1575 积分，约 63 个视频）",
+      "ja": "~$15/月（1,575クレジット、約63動画）",
+      "es": "~$15/mes (1,575 créditos, ~63 videos)",
+      "fr": "~$15/mois (1 575 crédits, ~63 vidéos)"
+    },
+    "enterprise": {
+      "en": "~$70/mo (8,645 credits) or API pricing via Volcano Engine",
+      "zh": "约 $70/月（8645 积分）或通过火山引擎 API 按量计费",
+      "ja": "~$70/月（8,645クレジット）または火山Engine API",
+      "es": "~$70/mes (8,645 créditos) o API via Volcano Engine",
+      "fr": "~$70/mois (8 645 crédits) ou API via Volcano Engine"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Social media short video creation",
+      "Advertising and marketing content production",
+      "Film pre-visualization and storyboarding",
+      "E-commerce product demonstration",
+      "Creative concept rapid prototyping",
+      "Short film and micro-movie production"
+    ],
+    "zh": [
+      "社交媒体短视频创作",
+      "广告与营销内容制作",
+      "影视预可视化与故事板",
+      "电商产品展示",
+      "创意构思快速原型",
+      "短片与微电影制作"
+    ],
+    "ja": [
+      "SNSショート動画作成",
+      "広告・マーケティングコンテンツ制作",
+      "映像プリビジュアライゼーション",
+      "EC商品展示",
+      "クリエイティブのラピッドプロトタイピング",
+      "短編映画制作"
+    ],
+    "es": [
+      "Creación de videos cortos para redes sociales",
+      "Producción de contenido publicitario y de marketing",
+      "Previsualización cinematográfica y storyboard",
+      "Demostración de productos de comercio electrónico",
+      "Prototipado rápido de ideas creativas",
+      "Producción de cortometrajes"
+    ],
+    "fr": [
+      "Création de vidéos courtes pour les réseaux sociaux",
+      "Production de contenu publicitaire et marketing",
+      "Prévisualisation de films et storyboarding",
+      "Démonstration de produits e-commerce",
+      "Prototypage rapide d'idées créatives",
+      "Production de courts métrages"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Industry-leading physics simulation",
+      "Native audio+video joint generation",
+      "Multi-shot narrative capability",
+      "Fast generation speed (5-10s clip in ~2 min)",
+      "Competitive pricing vs Sora/Veo",
+      "Excellent prompt adherence"
+    ],
+    "zh": [
+      "业界领先的物理模拟效果",
+      "原生音视频联合生成",
+      "多镜头叙事能力",
+      "生成速度快（5-10秒片段约2分钟）",
+      "性价比高于 Sora/Veo",
+      "提示词遵循度优秀"
+    ],
+    "ja": [
+      "業界をリードする物理シミュレーション",
+      "ネイティブ音声+動画同時生成",
+      "マルチショットナラティブ能力",
+      "高速生成（5-10秒のクリップが約2分）",
+      "Sora/Veoより競争力のある価格",
+      "優れたプロンプト追従性"
+    ],
+    "es": [
+      "Simulación física líder en la industria",
+      "Generación conjunta nativa de audio+video",
+      "Capacidad narrativa multi-toma",
+      "Velocidad de generación rápida",
+      "Precios competitivos vs Sora/Veo",
+      "Excelente adherencia a indicaciones"
+    ],
+    "fr": [
+      "Simulation physique leader du secteur",
+      "Génération conjointe native audio+vidéo",
+      "Capacité narrative multi-plan",
+      "Vitesse de génération rapide",
+      "Tarifs compétitifs vs Sora/Veo",
+      "Excellente adhérence aux instructions"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Detail blur and face distortion at close zoom",
+      "Weak micro-expression rendering",
+      "Background detail deficiency",
+      "Regional restrictions for international users",
+      "Legal/copyright concerns for training data"
+    ],
+    "zh": [
+      "放大后边缘模糊、脸部变形",
+      "微表情表现较弱",
+      "背景细节缺失",
+      "国际用户访问受限",
+      "训练数据的法律/版权问题"
+    ],
+    "ja": [
+      "拡大時のぼやけや顔の歪み",
+      "微表情の表現が弱い",
+      "背景の詳細が不十分",
+      "国際ユーザーのアクセス制限",
+      "学習データの法的・著作権問題"
+    ],
+    "es": [
+      "Desenfoque de detalles y distorsión facial al ampliar",
+      "Representación débil de microexpresiones",
+      "Falta de detalles en el fondo",
+      "Restricciones regionales para usuarios internacionales",
+      "Problemas legales/de derechos de autor"
+    ],
+    "fr": [
+      "Flou des détails et distorsion faciale au zoom",
+      "Rendu faible des micro-expressions",
+      "Manque de détails d'arrière-plan",
+      "Restrictions régionales pour les utilisateurs internationaux",
+      "Problèmes juridiques/de droits d'auteur"
+    ]
+  },
+  "latestUpdate": {
+    "en": "2026.07: Seedance 2.5 launched with 30s native video, 4K rendering, 10-bit color, 50 multimodal references, and 3D white-box preview. Available on Dreamina/Jimeng and Volcano Engine API",
+    "zh": "2026年7月：Seedance 2.5 正式上线，支持 30 秒原生视频、4K 渲染、10-bit 色深、50 个多模态参考和 3D 白盒预览，登陆即梦和火山引擎 API",
+    "ja": "2026年7月：Seedance 2.5リリース。30秒ネイティブ動画、4Kレンダリング、10bit色深度、50マルチモーダル参照、3Dホワイトボックスプレビューに対応",
+    "es": "Julio 2026: Seedance 2.5 lanzado con video nativo de 30s, renderizado 4K, color de 10 bits, 50 referencias multimodales y vista previa 3D. Disponible en Dreamina/Jimeng y API Volcano Engine",
+    "fr": "Juillet 2026 : Seedance 2.5 lancé avec vidéo native 30s, rendu 4K, couleur 10 bits, 50 références multimodales et prévisualisation 3D. Disponible sur Dreamina/Jimeng et API Volcano Engine"
+  },
+  "verdict": {
+    "badge": "For Specific Needs",
+    "headline": {
+      "en": "ByteDance's video generation model focused on dance and human motion synthesis.",
+      "zh": "字节跳动视频生成模型，专注于舞蹈和人体动作合成。",
+      "ja": "ダンスと人体モーション合成に焦点を当てたByteDanceの動画生成モデル。",
+      "es": "El modelo de generación de video de ByteDance enfocado en síntesis de danza y movimiento humano.",
+      "fr": "Le modèle de génération vidéo de ByteDance axé sur la synthèse de danse et de mouvement humain."
+    },
+    "body": {
+      "en": "Seedance specializes in generating realistic human motion, particularly dance sequences. Built by ByteDance, it targets content creators who need human movement in their AI-generated videos—a specific challenge that general video models handle less convincingly.\n\nIts narrow focus means it's not a general video generation tool. For broader video needs, Runway or Kling AI are more versatile. Seedance is for the specific use case of human motion and dance content creation.",
+      "zh": "Seedance 专注于生成逼真的人体动作，尤其是舞蹈序列。由字节跳动构建，面向在AI视频中需要人体动作的内容创作者——这是通用视频模型处理不够令人信服的特定挑战。\n\n其狭窄的聚焦意味着它不是通用视频生成工具。更广泛的视频需求应选择 Runway 或可灵AI。Seedance 适用于人体动作和舞蹈内容创作的特定用例。",
+      "ja": "Seedanceはリアルな人体モーション、特にダンスシーケンスの生成に特化しています。ByteDanceが開発し、AI動画に人の動きが必要なクリエイターをターゲットにしています。\n\n狭いフォーカスのため汎用動画生成ツールではありません。幅広い動画ニーズにはRunwayやKling AIがより汎用的です。Seedanceは人体モーションとダンスコンテンツ制作の特定ユースケース向けです。",
+      "es": "Seedance se especializa en generar movimiento humano realista, particularmente secuencias de baile. Construido por ByteDance, apunta a creadores que necesitan movimiento humano en videos generados por IA.\n\nSu enfoque estrecho significa que no es una herramienta de video general. Para necesidades más amplias, Runway o Kling AI son más versátiles. Seedance es para el caso específico de creación de contenido de movimiento humano.",
+      "fr": "Seedance se spécialise dans la génération de mouvement humain réaliste, particulièrement les séquences de danse. Construit par ByteDance, il cible les créateurs nécessitant du mouvement humain dans leurs vidéos IA.\n\nSon focus étroit signifie que ce n'est pas un outil vidéo général. Pour des besoins plus larges, Runway ou Kling AI sont plus polyvalents. Seedance est pour le cas spécifique de la création de contenu de mouvement humain."
+    },
+    "bestFor": {
+      "en": [
+        "Dance and human motion video generation",
+        "Social media dance content creation",
+        "Realistic body movement synthesis"
+      ],
+      "zh": [
+        "舞蹈和人体动作视频生成",
+        "社交媒体舞蹈内容创作",
+        "逼真的人体运动合成"
+      ],
+      "ja": [
+        "ダンスと人体モーション動画生成",
+        "SNSダンスコンテンツ制作",
+        "リアルな身体運動合成"
+      ],
+      "es": [
+        "Generación de video de danza y movimiento humano",
+        "Creación de contenido de baile para redes sociales",
+        "Síntesis de movimiento corporal realista"
+      ],
+      "fr": [
+        "Génération vidéo de danse et mouvement humain",
+        "Création de contenu de danse pour réseaux sociaux",
+        "Synthèse réaliste de mouvement corporel"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You need general-purpose video generation (→ Runway, Kling AI)",
+        "You want AI video with more creative control (→ Sora, Luma)"
+      ],
+      "zh": [
+        "需要通用视频生成（→ Runway、可灵AI）",
+        "需要更多创意控制的AI视频（→ Sora、Luma）"
+      ],
+      "ja": [
+        "汎用動画生成が必要な場合（→ Runway、Kling AI）",
+        "より多くのクリエイティブ制御が必要な場合（→ Sora、Luma）"
+      ],
+      "es": [
+        "Necesitas generación de video general (→ Runway, Kling AI)",
+        "Quieres video IA con más control creativo (→ Sora, Luma)"
+      ],
+      "fr": [
+        "Vous avez besoin de génération vidéo générale (→ Runway, Kling AI)",
+        "Vous voulez de la vidéo IA avec plus de contrôle créatif (→ Sora, Luma)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-27",
+    "verdictDate": "2026-07-27",
+    "pricingVerified": "2026-07-27"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "sambanova",
+  "name": "SambaNova",
+  "nameZh": "SambaNova",
+  "description": "基于自研 SN40L RDU 芯片的推理云，全 16-bit 精度不降质，OpenAI 兼容 API 托管 DeepSeek R1/V3、Llama 等，在大型推理模型上创吞吐纪录，含免费档",
+  "descriptionEn": "Inference cloud built on custom SN40L RDU chips that serves at full 16-bit precision — an OpenAI-compatible API hosting DeepSeek R1/V3, Llama and more, with record throughput on large reasoning models and a free tier",
+  "descriptionJa": "独自のSN40L RDUチップを基盤とする推論クラウド。フル16ビット精度で提供し、OpenAI互換APIでDeepSeek R1/V3やLlamaなどをホスト。大規模推論モデルで記録的スループット、無料枠あり",
+  "descriptionEs": "Nube de inferencia sobre chips SN40L RDU propios que sirve en precisión completa de 16 bits: una API compatible con OpenAI que aloja DeepSeek R1/V3, Llama y más, con rendimiento récord en grandes modelos de razonamiento y nivel gratuito",
+  "descriptionFr": "Cloud d'inférence bâti sur des puces SN40L RDU maison servant en pleine précision 16 bits : une API compatible OpenAI hébergeant DeepSeek R1/V3, Llama et plus, avec un débit record sur les grands modèles de raisonnement et un niveau gratuit",
+  "url": "https://sambanova.ai",
+  "logo": "/logos/tools/sambanova.png",
+  "category": "API Platform",
+  "tags": [
+    "Freemium",
+    "API"
+  ],
+  "featured": false,
+  "developer": "SambaNova",
+  "platforms": {
+    "web": true,
+    "windows": false,
+    "macos": false,
+    "ios": false,
+    "android": false,
+    "linux": false,
+    "browser_extension": false,
+    "api": true
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "wenxin",
+  "name": "Baidu Wenxin",
+  "nameZh": "百度文心助手",
+  "description": "百度推出的 AI 智能助手，基于文心大模型，集对话、搜索、创作于一体",
+  "descriptionEn": "Baidu's AI assistant powered by ERNIE LLM, integrating chat, search, and creation",
+  "descriptionJa": "BaiduのAIアシスタント。ERNIEモデル搭載、対話・検索・創作を統合",
+  "descriptionEs": "Asistente de IA de Baidu basado en ERNIE LLM, integra chat, búsqueda y creación",
+  "descriptionFr": "Assistant IA de Baidu basé sur ERNIE LLM, intégrant chat, recherche et création",
+  "url": "https://wenxin.baidu.com",
+  "logo": "/logos/tools/wenxin.png",
+  "category": "Chat",
+  "tags": [
+    "Free"
+  ],
+  "featured": false,
+  "developer": "Baidu",
+  "developerZh": "百度",
+  "platforms": {
+    "web": true,
+    "windows": true,
+    "macos": true,
+    "ios": true,
+    "android": true,
+    "linux": false,
+    "browser_extension": "unknown",
+    "api": true
+  }
+}

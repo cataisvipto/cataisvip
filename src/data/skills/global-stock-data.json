@@ -1,0 +1,78 @@
+{
+  "slug": "global-stock-data",
+  "name": "Global Stock Data",
+  "nameZh": "Global Stock Data（美股数据）",
+  "description": "为 AI 编码智能体提供的美股全栈数据工具包：期权 Greeks、0DTE 流、SEC 文件、空头量、基本面、筛选器——13 层架构、30+ 端点、零认证。",
+  "descriptionEn": "A full-stack US market data toolkit for AI coding assistants: Options Greeks, 0DTE flow, SEC EDGAR filings, short volume, fundamentals, screener — 13 layers, 30+ endpoints, zero-auth.",
+  "descriptionJa": "AIコーディングエージェント向けの米国株フルスタックデータツールキット。オプションGreeks、0DTEフロー、SEC提出書類、空売り量、ファンダメンタルズ、スクリーナー——13レイヤー、30以上のエンドポイント、認証不要。",
+  "descriptionEs": "Un kit de herramientas de datos de mercado de EE.UU. full-stack para asistentes de codificación IA: Opciones Greeks, flujo 0DTE, presentaciones SEC, volumen corto, fundamentos, screener — 13 capas, 30+ endpoints, zero-auth.",
+  "descriptionFr": "Un kit d'outils de données de marché US full-stack pour les assistants de codage IA : Options Greeks, flux 0DTE, dépôts SEC, volume court, fondamentaux, screener — 13 couches, 30+ endpoints, zéro authentification.",
+  "developer": "simonlin1212",
+  "developerZh": "simonlin1212",
+  "repo": "simonlin1212/global-stock-data",
+  "agents": [
+    "claude-code",
+    "codex",
+    "openclaw",
+    "generic"
+  ],
+  "category": "Developer",
+  "tags": [
+    "Free",
+    "Open Source"
+  ],
+  "installCommand": "Add the Skill file to your AI coding assistant's context. Compatible with Claude Code, Codex, and OpenClaw.",
+  "logo": "/logos/skills/global-stock-data.png",
+  "stars": 1536,
+  "featured": false,
+  "faqs": [
+    {
+      "question": {
+        "zh": "Global Stock Data 是什么？",
+        "en": "What is Global Stock Data?",
+        "ja": "Global Stock Data とは？",
+        "es": "¿Qué es Global Stock Data?",
+        "fr": "Qu'est-ce que Global Stock Data ?"
+      },
+      "answer": {
+        "zh": "它是一个自包含的 AI 智能体 Skill 文件，把分散在多个来源的美股数据整合成一个 AI 编码助手可直接调用的工具包。13 层架构覆盖实时行情、K 线、技术指标、期权 Greeks（含 0DTE）、SEC 文件、空头量、基本面、筛选器——全部零认证，只需 requests 库。",
+        "en": "It's a self-contained AI coding assistant Skill file that turns raw US stock data scattered across many sources into a toolkit an AI coding assistant can call directly. 13-layer architecture covers real-time quotes, K-lines, technical indicators, Options Greeks (including 0DTE), SEC filings, short volume, fundamentals, screener — all zero-auth, only requests library needed.",
+        "ja": "自己完結型のAIコーディングエージェントスキルファイルで、複数のソースに分散する米国株データをAIコーディングアシスタントが直接呼び出せるツールキットに変換します。13レイヤーアーキテクチャがリアルタイム相場、K線、テクニカル指標、オプションGreeks（0DTE含む）、SEC提出書類、空売り量、ファンダメンタルズ、スクリーナーをカバー——すべて認証不要、ライブラリはrequestsのみ。",
+        "es": "Es un archivo Skill autónomo para asistentes de codificación IA que convierte datos de acciones de EE.UU. dispersos en múltiples fuentes en un kit de herramientas que un asistente de codificación IA puede llamar directamente. 13 capas cubren cotizaciones en tiempo real, velas, indicadores técnicos, Opciones Greeks (incluyendo 0DTE), presentaciones SEC, volumen corto, fundamentos, screener — todo zero-auth, solo necesita la biblioteca requests.",
+        "fr": "C'est un fichier Skill autonome pour assistant de codage IA qui transforme les données boursières US dispersées sur de nombreuses sources en une boîte à outils qu'un assistant de codage IA peut appeler directement. 13 couches couvrent les cotations en temps réel, les bougies, les indicateurs techniques, les Options Greeks (y compris 0DTE), les dépôts SEC, le volume court, les fondamentaux, le screener — tout zéro authentification, seulement la bibliothèque requests."
+      }
+    },
+    {
+      "question": {
+        "zh": "怎么安装使用？",
+        "en": "How to install?",
+        "ja": "インストール方法は？",
+        "es": "¿Cómo instalar?",
+        "fr": "Comment installer ?"
+      },
+      "answer": {
+        "zh": "把 Skill 文件（global-stock-data.md）添加到你的 AI 编码助手的上下文中。支持 Claude Code、Codex 和 OpenClaw。需要 Python 3.9+ 和 requests 库。克隆仓库后，AI 助手可以直接通过函数调用访问 30+ 个数据端点。",
+        "en": "Add the Skill file (global-stock-data.md) to your AI coding assistant's context. Supports Claude Code, Codex, and OpenClaw. Requires Python 3.9+ and the requests library. After cloning the repo, the AI assistant can access 30+ data endpoints via function calls.",
+        "ja": "スキルファイル（global-stock-data.md）をAIコーディングアシスタントのコンテキストに追加。Claude Code、Codex、OpenClawに対応。Python 3.9+とrequestsライブラリが必要。リポジトリをクローン後、AIアシスタントは30以上のデータエンドポイントにアクセス可能。",
+        "es": "Añade el archivo Skill (global-stock-data.md) al contexto de tu asistente de codificación IA. Compatible con Claude Code, Codex y OpenClaw. Requiere Python 3.9+ y la biblioteca requests. Después de clonar el repositorio, el asistente IA puede acceder a 30+ endpoints de datos.",
+        "fr": "Ajoutez le fichier Skill (global-stock-data.md) au contexte de votre assistant de codage IA. Compatible avec Claude Code, Codex et OpenClaw. Nécessite Python 3.9+ et la bibliothèque requests. Après avoir cloné le dépôt, l'assistant IA peut accéder à 30+ endpoints de données."
+      }
+    },
+    {
+      "question": {
+        "zh": "免费吗？数据来源可靠吗？",
+        "en": "Is it free? Are the data sources reliable?",
+        "ja": "無料ですか？データソースは信頼できますか？",
+        "es": "¿Es gratuito? ¿Las fuentes de datos son fiables?",
+        "fr": "Est-ce gratuit ? Les sources de données sont-elles fiables ?"
+      },
+      "answer": {
+        "zh": "免费开源（Apache 2.0）。项目本身不提供数据，而是从 11 个官方/公开来源获取数据（CBOE、FINRA、SEC EDGAR、新浪、腾讯等），每个来源标注了合规等级。用户需自行遵守各数据源的使用条款。",
+        "en": "Free and open source (Apache 2.0). The project itself distributes code, not data — it fetches from 11 official/public sources (CBOE, FINRA, SEC EDGAR, Sina, Tencent, etc.), each labeled with compliance tiers. Users must comply with each source's terms.",
+        "ja": "無料のオープンソース（Apache 2.0）。プロジェクト自体はデータではなくコードを配布します——11の公式/公開ソース（CBOE、FINRA、SEC EDGAR、Sina、Tencentなど）から取得し、各ソースにコンプライアンスレベルを表示。ユーザーは各ソースの利用規約に従う必要があります。",
+        "es": "Gratuito y de código abierto (Apache 2.0). El proyecto distribuye código, no datos — obtiene de 11 fuentes oficiales/públicas (CBOE, FINRA, SEC EDGAR, Sina, Tencent, etc.), cada una etiquetada con niveles de cumplimiento. Los usuarios deben cumplir con los términos de cada fuente.",
+        "fr": "Gratuit et open source (Apache 2.0). Le projet distribue du code, pas des données — il récupère depuis 11 sources officielles/publiques (CBOE, FINRA, SEC EDGAR, Sina, Tencent, etc.), chacune étiquetée avec des niveaux de conformité. Les utilisateurs doivent respecter les conditions de chaque source."
+      }
+    }
+  ]
+}

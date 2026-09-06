@@ -1,0 +1,265 @@
+{
+  "features": {
+    "en": [
+      "Grok 4.5 flagship reasoning model",
+      "Real-time X (Twitter) data integration",
+      "Live web search & DeepSearch",
+      "Native tool use & code execution",
+      "Image understanding & generation (Aurora)",
+      "Voice mode conversation"
+    ],
+    "zh": [
+      "Grok 4.5 旗舰推理模型",
+      "实时接入 X（推特）数据",
+      "实时联网搜索与 DeepSearch",
+      "原生工具调用与代码执行",
+      "图像理解与生成（Aurora）",
+      "语音对话模式"
+    ],
+    "ja": [
+      "Grok 4.5 フラッグシップ推論モデル",
+      "X（Twitter）データのリアルタイム統合",
+      "ライブ Web 検索と DeepSearch",
+      "ネイティブなツール利用とコード実行",
+      "画像の理解と生成（Aurora）",
+      "音声モードでの会話"
+    ],
+    "es": [
+      "Modelo de razonamiento insignia Grok 4.5",
+      "Integración de datos de X (Twitter) en tiempo real",
+      "Búsqueda web en vivo y DeepSearch",
+      "Uso nativo de herramientas y ejecución de código",
+      "Comprensión y generación de imágenes (Aurora)",
+      "Conversación en modo voz"
+    ],
+    "fr": [
+      "Modèle de raisonnement phare Grok 4.5",
+      "Intégration des données X (Twitter) en temps réel",
+      "Recherche web en direct et DeepSearch",
+      "Utilisation native d'outils et exécution de code",
+      "Compréhension et génération d'images (Aurora)",
+      "Conversation en mode vocal"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Free tier (limited Grok access)",
+      "zh": "免费档（有限 Grok 访问）",
+      "ja": "無料プラン（Grok の利用制限あり）",
+      "es": "Plan gratuito (acceso limitado a Grok)",
+      "fr": "Offre gratuite (accès limité à Grok)"
+    },
+    "supergrok": {
+      "en": "$30/month (SuperGrok, higher limits)",
+      "zh": "$30/月（SuperGrok、更高额度）",
+      "ja": "月額30ドル（SuperGrok、上限アップ）",
+      "es": "30 $/mes (SuperGrok, límites más altos)",
+      "fr": "30 $/mois (SuperGrok, limites plus élevées)"
+    },
+    "premium-plus": {
+      "en": "Bundled with X Premium+",
+      "zh": "随 X Premium+ 套餐捆绑",
+      "ja": "X Premium+ にバンドル",
+      "es": "Incluido con X Premium+",
+      "fr": "Inclus avec X Premium+"
+    },
+    "api": {
+      "en": "From $1.25/M input tokens (Grok 4.5)",
+      "zh": "API 低至 $1.25/百万输入 tokens（Grok 4.5）",
+      "ja": "100万入力トークンあたり $1.25〜（Grok 4.5）",
+      "es": "Desde 1,25 $/M tokens de entrada (Grok 4.5)",
+      "fr": "À partir de 1,25 $/M tokens en entrée (Grok 4.5)"
+    },
+    "enterprise": {
+      "en": "Custom enterprise pricing",
+      "zh": "企业定制价格",
+      "ja": "エンタープライズ向けカスタム料金",
+      "es": "Precio empresarial personalizado",
+      "fr": "Tarif entreprise personnalisé"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Real-time news & trend analysis",
+      "Social media insights",
+      "Coding and debugging",
+      "Reasoning & research tasks",
+      "Content creation",
+      "Data analysis"
+    ],
+    "zh": [
+      "实时新闻与趋势分析",
+      "社交媒体洞察",
+      "代码编写与调试",
+      "推理与研究任务",
+      "内容创作",
+      "数据分析"
+    ],
+    "ja": [
+      "リアルタイムのニュース・トレンド分析",
+      "ソーシャルメディア分析",
+      "コーディングとデバッグ",
+      "推論・調査タスク",
+      "コンテンツ制作",
+      "データ分析"
+    ],
+    "es": [
+      "Análisis de noticias y tendencias en tiempo real",
+      "Insights de redes sociales",
+      "Programación y depuración",
+      "Tareas de razonamiento e investigación",
+      "Creación de contenido",
+      "Análisis de datos"
+    ],
+    "fr": [
+      "Analyse d'actualités et de tendances en temps réel",
+      "Insights des réseaux sociaux",
+      "Codage et débogage",
+      "Tâches de raisonnement et de recherche",
+      "Création de contenu",
+      "Analyse de données"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Real-time X data & live search",
+      "Strong reasoning benchmarks",
+      "Large 1M+ context window",
+      "Fast native tool use"
+    ],
+    "zh": [
+      "实时 X 数据与联网搜索",
+      "推理基准表现强劲",
+      "1M+ 超长上下文",
+      "原生工具调用快速"
+    ],
+    "ja": [
+      "リアルタイムの X データとライブ検索",
+      "推論ベンチマークで高性能",
+      "1M+ の大規模コンテキストウィンドウ",
+      "高速なネイティブツール利用"
+    ],
+    "es": [
+      "Datos de X en tiempo real y búsqueda en vivo",
+      "Sólidos resultados en benchmarks de razonamiento",
+      "Amplia ventana de contexto de 1M+",
+      "Uso nativo de herramientas rápido"
+    ],
+    "fr": [
+      "Données X en temps réel et recherche en direct",
+      "Excellents scores en benchmarks de raisonnement",
+      "Grande fenêtre de contexte de 1M+",
+      "Utilisation native d'outils rapide"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Best features need paid tier",
+      "Tied to the X ecosystem",
+      "Content style can be edgy"
+    ],
+    "zh": [
+      "最佳功能需付费档",
+      "与 X 生态绑定",
+      "内容风格偏犀利"
+    ],
+    "ja": [
+      "最良の機能は有料プランが必要",
+      "X エコシステムに依存",
+      "コンテンツの表現が過激になりがち"
+    ],
+    "es": [
+      "Las mejores funciones requieren plan de pago",
+      "Vinculado al ecosistema de X",
+      "El estilo de contenido puede ser provocador"
+    ],
+    "fr": [
+      "Les meilleures fonctions nécessitent une offre payante",
+      "Lié à l'écosystème X",
+      "Le style de contenu peut être provocateur"
+    ]
+  },
+  "latestUpdate": {
+    "en": "2026: Grok 4.5 released as xAI's flagship with a 1M+ context window, native tool use, and improved real-time search",
+    "zh": "2026年：Grok 4.5 发布，作为 xAI 旗舰模型，支持 1M+ 上下文、原生工具调用和增强的实时搜索",
+    "ja": "2026年：Grok 4.5 が xAI のフラッグシップとして登場。1M+ のコンテキストウィンドウ、ネイティブなツール利用、強化されたリアルタイム検索を搭載",
+    "es": "2026: se lanza Grok 4.5 como el buque insignia de xAI, con ventana de contexto de 1M+, uso nativo de herramientas y búsqueda en tiempo real mejorada",
+    "fr": "2026 : Grok 4.5 sort comme le modèle phare de xAI, avec une fenêtre de contexte de 1M+, l'utilisation native d'outils et une recherche en temps réel améliorée"
+  },
+  "verdict": {
+    "badge": "Recommended",
+    "headline": {
+      "en": "The AI that lives inside X — useful when you need real-time social context, less compelling outside that niche.",
+      "zh": "生活在 X 平台里的 AI——当你需要实时社交语境时很有用，离开这个场景则吸引力有限。",
+      "ja": "Xプラットフォームに住むAI——リアルタイムのソーシャルコンテキストが必要な時に有用、それ以外では魅力が限定的。",
+      "es": "La IA que vive dentro de X — útil cuando necesitas contexto social en tiempo real, menos atractiva fuera de ese nicho.",
+      "fr": "L'IA qui vit dans X — utile quand vous avez besoin de contexte social en temps réel, moins convaincante en dehors de cette niche."
+    },
+    "body": {
+      "en": "Grok's defining advantage is its direct access to the X (formerly Twitter) firehose. If you regularly need to understand what's trending, analyze public sentiment, or summarize ongoing conversations on X, no other AI tool offers this level of native integration. The unfiltered personality also means it will attempt answers that other models refuse, though this cuts both ways.\n\nThe model itself is competent for general chat, creative writing, and basic analysis. xAI has been rapidly improving Grok's reasoning capabilities, and the image understanding features add practical utility. For X Premium subscribers, it's effectively a free bonus bundled with the subscription.\n\nOutside the X ecosystem, Grok doesn't yet match ChatGPT or Claude on raw reasoning depth, lacks a plugin system, and has limited third-party integrations. If you don't use X heavily, you're paying for context you won't leverage. The web interface outside X is functional but sparse compared to competitors.",
+      "zh": "Grok 的核心优势在于直接访问 X（原 Twitter）的信息流。如果你经常需要了解热门趋势、分析公众情绪或总结 X 上的讨论，没有其他 AI 工具能提供如此原生的集成。不设滤镜的性格意味着它会尝试回答其他模型拒绝的问题，但这是一把双刃剑。\n\n模型本身在通用对话、创意写作和基础分析方面表现合格。xAI 一直在快速提升 Grok 的推理能力，图像理解功能也增加了实用性。对于 X Premium 订阅者来说，它实际上是订阅中附带的免费福利。\n\n在 X 生态之外，Grok 在原始推理深度上尚未追上 ChatGPT 或 Claude，缺乏插件系统，第三方集成有限。如果你不常用 X，你是在为无法利用的上下文付费。X 之外的网页界面功能可用但相比竞品较为简陋。",
+      "ja": "Grokの決定的な優位性は、X（旧Twitter）のファイアホースへの直接アクセスです。トレンドの把握、世論分析、X上の議論の要約が日常的に必要なら、このレベルのネイティブ統合を提供するAIツールは他にありません。フィルターなしの性格は他のモデルが拒否する回答も試みることを意味しますが、これは諸刃の剣です。\n\nモデル自体は一般的なチャット、クリエイティブライティング、基本的な分析で十分な性能です。xAIはGrokの推論能力を急速に改善しており、画像理解機能も実用性を高めています。X Premiumの加入者にとっては、サブスクリプションに付属する無料ボーナスです。\n\nXエコシステム外では、Grokは推論の深さでChatGPTやClaudeにまだ及ばず、プラグインシステムがなく、サードパーティ統合も限定的です。Xを頻繁に使わないなら、活用できないコンテキストに費用を払うことになります。",
+      "es": "La ventaja definitoria de Grok es su acceso directo al flujo de X (antes Twitter). Si regularmente necesitas entender tendencias, analizar sentimiento público o resumir conversaciones en X, ninguna otra herramienta IA ofrece este nivel de integración nativa. La personalidad sin filtros significa que intentará respuestas que otros modelos rechazan, aunque esto corta en ambas direcciones.\n\nEl modelo es competente para chat general, escritura creativa y análisis básico. xAI ha mejorado rápidamente las capacidades de razonamiento de Grok, y las funciones de comprensión de imágenes añaden utilidad práctica. Para suscriptores de X Premium, es efectivamente un bonus gratuito.\n\nFuera del ecosistema X, Grok no iguala a ChatGPT o Claude en profundidad de razonamiento, carece de sistema de plugins y tiene integraciones limitadas. Si no usas X intensivamente, estás pagando por contexto que no aprovecharás.",
+      "fr": "L'avantage déterminant de Grok est son accès direct au flux de X (anciennement Twitter). Si vous avez régulièrement besoin de comprendre les tendances, d'analyser le sentiment public ou de résumer les conversations sur X, aucun autre outil IA n'offre ce niveau d'intégration native. La personnalité sans filtre signifie qu'il tentera des réponses que d'autres modèles refusent, bien que cela coupe dans les deux sens.\n\nLe modèle est compétent pour le chat général, l'écriture créative et l'analyse basique. xAI améliore rapidement les capacités de raisonnement de Grok, et les fonctions de compréhension d'images ajoutent une utilité pratique. Pour les abonnés X Premium, c'est effectivement un bonus gratuit.\n\nEn dehors de l'écosystème X, Grok n'égale pas encore ChatGPT ou Claude en profondeur de raisonnement, manque de système de plugins et a des intégrations tierces limitées. Si vous n'utilisez pas X intensivement, vous payez pour un contexte que vous n'exploiterez pas."
+    },
+    "bestFor": {
+      "en": [
+        "Analyzing trends and conversations on X/Twitter",
+        "Users who want an AI with fewer content restrictions",
+        "X Premium subscribers looking for a bundled AI assistant"
+      ],
+      "zh": [
+        "分析 X/Twitter 上的趋势和对话",
+        "希望 AI 内容限制更少的用户",
+        "X Premium 订阅者寻找附带的 AI 助手"
+      ],
+      "ja": [
+        "X/Twitter上のトレンドや会話の分析",
+        "コンテンツ制限が少ないAIを求めるユーザー",
+        "X Premiumの付属AIアシスタントを求める加入者"
+      ],
+      "es": [
+        "Analizar tendencias y conversaciones en X/Twitter",
+        "Usuarios que quieren una IA con menos restricciones de contenido",
+        "Suscriptores de X Premium buscando un asistente IA incluido"
+      ],
+      "fr": [
+        "Analyser les tendances et conversations sur X/Twitter",
+        "Utilisateurs souhaitant une IA avec moins de restrictions de contenu",
+        "Abonnés X Premium cherchant un assistant IA inclus"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You need deep reasoning or complex analysis (→ ChatGPT, Claude)",
+        "You want real-time web search with citations (→ Perplexity)",
+        "You don't use X/Twitter regularly (→ ChatGPT, Gemini)"
+      ],
+      "zh": [
+        "你需要深度推理或复杂分析（→ ChatGPT、Claude）",
+        "你需要带引用的实时网络搜索（→ Perplexity）",
+        "你不经常使用 X/Twitter（→ ChatGPT、Gemini）"
+      ],
+      "ja": [
+        "深い推論や複雑な分析が必要な場合（→ ChatGPT、Claude）",
+        "引用付きのリアルタイムWeb検索が必要な場合（→ Perplexity）",
+        "X/Twitterを定期的に使用しない場合（→ ChatGPT、Gemini）"
+      ],
+      "es": [
+        "Necesitas razonamiento profundo o análisis complejo (→ ChatGPT, Claude)",
+        "Quieres búsqueda web en tiempo real con citas (→ Perplexity)",
+        "No usas X/Twitter regularmente (→ ChatGPT, Gemini)"
+      ],
+      "fr": [
+        "Vous avez besoin de raisonnement profond ou d'analyse complexe (→ ChatGPT, Claude)",
+        "Vous voulez une recherche web en temps réel avec citations (→ Perplexity)",
+        "Vous n'utilisez pas X/Twitter régulièrement (→ ChatGPT, Gemini)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-27",
+    "verdictDate": "2026-07-27",
+    "pricingVerified": "2026-07-27"
+  }
+}

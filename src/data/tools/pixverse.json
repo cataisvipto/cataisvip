@@ -1,0 +1,29 @@
+{
+  "slug": "pixverse",
+  "name": "PixVerse",
+  "nameZh": "PixVerse",
+  "description": "爱诗科技旗下 AI 视频生成平台（国际版），V6 模型支持多镜头叙事、运镜控制与原生音频，全球用户破一亿，模板特效丰富易上手",
+  "descriptionEn": "AIsphere's AI video generation platform (International version). The V6 model supports multi-shot storytelling, camera control and native audio; over 100 million users worldwide with rich, easy-to-use templates and effects",
+  "descriptionJa": "AIsphere（愛詩科技）のAI動画生成プラットフォーム（国際版）。V6モデルはマルチショット、カメラ制御、ネイティブ音声に対応。世界ユーザー1億人超、テンプレートとエフェクトが豊富で使いやすい",
+  "descriptionEs": "Plataforma de generación de video IA de AIsphere (versión internacional). El modelo V6 admite narrativa multi-toma, control de cámara y audio nativo; más de 100 millones de usuarios en el mundo con plantillas y efectos fáciles de usar",
+  "descriptionFr": "Plateforme de génération vidéo IA d'AIsphere (version internationale). Le modèle V6 prend en charge la narration multi-plans, le contrôle de caméra et l'audio natif ; plus de 100 millions d'utilisateurs dans le monde, avec des modèles et effets riches et faciles à utiliser",
+  "url": "https://pixverse.ai",
+  "logo": "/logos/tools/pixverse.png",
+  "category": "Video",
+  "tags": [
+    "Freemium"
+  ],
+  "featured": false,
+  "developer": "AIsphere",
+  "developerZh": "爱诗科技",
+  "platforms": {
+    "web": true,
+    "windows": false,
+    "macos": false,
+    "ios": true,
+    "android": true,
+    "linux": false,
+    "browser_extension": false,
+    "api": true
+  }
+}

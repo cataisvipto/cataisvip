@@ -1,0 +1,235 @@
+{
+  "features": {
+    "en": [
+      "Model APIs for 200+ open models (LLMs, image, audio, video) with OpenAI-compatible endpoints",
+      "GPU cloud spanning RTX 4090/5090, L40S, H100 and H200 with per-second billing",
+      "Serverless endpoints, dedicated instances and bare metal from one dashboard",
+      "Spot pricing that can cut GPU costs by up to ~50%",
+      "Autoscaling serverless deployment for custom models",
+      "Global GPU availability aimed at builders who want capacity without long contracts"
+    ],
+    "zh": [
+      "200+ 开源模型的 Model API（LLM、图像、音频、视频），OpenAI 兼容端点",
+      "GPU 云覆盖 RTX 4090/5090、L40S、H100、H200，按秒计费",
+      "Serverless 端点、专属实例与裸金属，同一控制台管理",
+      "Spot 价可将 GPU 成本削减约 50%",
+      "自定义模型的自动扩缩 Serverless 部署",
+      "面向想要无长约拿到算力的开发者，全球 GPU 供给"
+    ],
+    "ja": [
+      "200以上のオープンモデル（LLM・画像・音声・動画）のModel API、OpenAI互換エンドポイント",
+      "RTX 4090/5090、L40S、H100、H200にまたがるGPUクラウドを秒単位課金",
+      "サーバーレスエンドポイント、専用インスタンス、ベアメタルを一つのダッシュボードで",
+      "スポット価格でGPUコストを最大約50%削減可能",
+      "カスタムモデル向けのオートスケール型サーバーレスデプロイ",
+      "長期契約なしで容量が欲しいビルダー向けのグローバルGPU供給"
+    ],
+    "es": [
+      "APIs de modelos para más de 200 modelos abiertos (LLMs, imagen, audio, video) con endpoints compatibles con OpenAI",
+      "Nube GPU que abarca RTX 4090/5090, L40S, H100 y H200 con facturación por segundo",
+      "Endpoints serverless, instancias dedicadas y bare metal desde un solo panel",
+      "Precios spot que pueden reducir el coste de GPU hasta ~50%",
+      "Despliegue serverless con autoescalado para modelos personalizados",
+      "Disponibilidad global de GPU orientada a builders que quieren capacidad sin contratos largos"
+    ],
+    "fr": [
+      "API de modèles pour plus de 200 modèles ouverts (LLM, image, audio, vidéo) avec endpoints compatibles OpenAI",
+      "Cloud GPU couvrant RTX 4090/5090, L40S, H100 et H200 avec facturation à la seconde",
+      "Endpoints serverless, instances dédiées et bare metal depuis un seul tableau de bord",
+      "Tarifs spot pouvant réduire le coût GPU jusqu'à ~50 %",
+      "Déploiement serverless avec autoscaling pour modèles personnalisés",
+      "Disponibilité GPU mondiale visant les builders qui veulent de la capacité sans contrats longs"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "New accounts get starter credits to try the Model APIs; there is no perpetual free compute tier — meaningful GPU work requires topping up.",
+      "zh": "新账号获入门额度试用 Model API；没有永久免费算力档——正经跑 GPU 需充值。",
+      "ja": "新規アカウントにはModel APIを試すためのスタータークレジットが付与される。恒久的な無料コンピュート枠はなく、本格的なGPU作業には入金が必要。",
+      "es": "Las cuentas nuevas reciben créditos iniciales para probar las Model APIs; no hay un nivel de cómputo gratuito perpetuo: el trabajo GPU serio requiere recargar saldo.",
+      "fr": "Les nouveaux comptes reçoivent des crédits de départ pour essayer les Model APIs ; il n'y a pas de niveau de calcul gratuit perpétuel — un travail GPU sérieux nécessite de recharger."
+    },
+    "paid": {
+      "en": "Pay-as-you-go: Model API calls are billed per token/per request by model, and GPUs are billed per second — RTX 4090-class from a few dozen cents per hour up to H100/H200 tiers, with spot pricing cutting costs by up to ~50%. Dedicated endpoints and bare metal are available. (Verified against the official pricing page, 2026-07-28.)",
+      "zh": "按量付费：Model API 按模型的 token/次计费，GPU 按秒计费——RTX 4090 级每小时几十美分起，直至 H100/H200 档，Spot 价最高省约 50%。另提供专属端点与裸金属。（对照官方定价页核实，2026-07-28。）",
+      "ja": "従量課金：Model APIの呼び出しはモデルごとにトークン／リクエスト単位、GPUは秒単位で課金——RTX 4090クラスは1時間あたり数十セントから、H100/H200ティアまで。スポット価格で最大約50%のコスト削減。専用エンドポイントとベアメタルも利用可能。（公式価格ページと照合、2026-07-28。）",
+      "es": "Pago por uso: las llamadas a la Model API se facturan por token/por solicitud según el modelo, y las GPU por segundo —clase RTX 4090 desde unas pocas decenas de centavos por hora hasta los niveles H100/H200, con precios spot que reducen costes hasta ~50%. Hay endpoints dedicados y bare metal disponibles. (Verificado con la página oficial de precios, 2026-07-28.)",
+      "fr": "Paiement à l'usage : les appels Model API sont facturés au token/à la requête selon le modèle, et les GPU à la seconde — classe RTX 4090 dès quelques dizaines de centimes de l'heure jusqu'aux niveaux H100/H200, avec des tarifs spot réduisant les coûts jusqu'à ~50 %. Endpoints dédiés et bare metal disponibles. (Vérifié avec la page tarifaire officielle, 2026-07-28.)"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Calling open LLMs and media models through one OpenAI-compatible API",
+      "Renting affordable GPUs for training, fine-tuning or batch inference",
+      "Deploying custom models as autoscaling serverless endpoints",
+      "Cutting compute bills with spot GPU pricing for interruptible workloads"
+    ],
+    "zh": [
+      "通过一个 OpenAI 兼容 API 调用开源 LLM 与媒体模型",
+      "租用高性价比 GPU 做训练、微调或批量推理",
+      "把自定义模型部署为自动扩缩的 Serverless 端点",
+      "用 Spot GPU 价为可中断负载削减算力账单"
+    ],
+    "ja": [
+      "一つのOpenAI互換APIでオープンLLMやメディアモデルを呼び出す",
+      "トレーニング、ファインチューニング、バッチ推論のために手頃なGPUを借りる",
+      "カスタムモデルをオートスケールのサーバーレスエンドポイントとしてデプロイ",
+      "中断可能なワークロードにスポットGPU価格を使ってコスト削減"
+    ],
+    "es": [
+      "Llamar a LLMs abiertos y modelos multimedia mediante una sola API compatible con OpenAI",
+      "Alquilar GPUs asequibles para entrenamiento, fine-tuning o inferencia por lotes",
+      "Desplegar modelos personalizados como endpoints serverless con autoescalado",
+      "Reducir la factura de cómputo con precios spot de GPU para cargas interrumpibles"
+    ],
+    "fr": [
+      "Appeler des LLM ouverts et modèles multimédias via une seule API compatible OpenAI",
+      "Louer des GPU abordables pour l'entraînement, le fine-tuning ou l'inférence par lots",
+      "Déployer des modèles personnalisés en endpoints serverless avec autoscaling",
+      "Réduire la facture de calcul avec des tarifs spot GPU pour charges interruptibles"
+    ]
+  },
+  "pros": {
+    "en": [
+      "One platform covers both hosted model APIs and raw GPU rental",
+      "Broad, current GPU lineup including RTX 5090 and H200 at competitive rates",
+      "Spot pricing and per-second billing keep interruptible workloads cheap",
+      "OpenAI-compatible API makes migration low-friction"
+    ],
+    "zh": [
+      "一个平台同时覆盖托管模型 API 与裸 GPU 租用",
+      "GPU 型号广且新，含 RTX 5090、H200，价格有竞争力",
+      "Spot 价加按秒计费，让可中断负载保持低成本",
+      "OpenAI 兼容 API，迁移摩擦小"
+    ],
+    "ja": [
+      "一つのプラットフォームでホスト型モデルAPIと生のGPUレンタルの両方をカバー",
+      "RTX 5090やH200を含む幅広く新しいGPUラインナップを競争力ある価格で",
+      "スポット価格と秒単位課金で中断可能なワークロードを安く維持",
+      "OpenAI互換APIで移行の摩擦が小さい"
+    ],
+    "es": [
+      "Una plataforma cubre tanto APIs de modelos alojados como alquiler de GPU en bruto",
+      "Amplia y actual gama de GPU, incluidas RTX 5090 y H200, a tarifas competitivas",
+      "Precios spot y facturación por segundo mantienen baratas las cargas interrumpibles",
+      "La API compatible con OpenAI hace la migración de baja fricción"
+    ],
+    "fr": [
+      "Une plateforme couvre à la fois les API de modèles hébergés et la location de GPU brut",
+      "Gamme GPU large et à jour, dont RTX 5090 et H200, à des tarifs compétitifs",
+      "Tarifs spot et facturation à la seconde gardent les charges interruptibles bon marché",
+      "L'API compatible OpenAI rend la migration peu contraignante"
+    ]
+  },
+  "cons": {
+    "en": [
+      "No perpetual free compute tier — meaningful GPU work needs a top-up (a common review complaint)",
+      "Availability and pricing of spot GPUs vary by region and demand",
+      "Fewer enterprise guarantees than hyperscalers for mission-critical SLAs",
+      "Broad scope means less specialization than single-purpose inference clouds"
+    ],
+    "zh": [
+      "没有永久免费算力档——正经跑 GPU 需先充值（评测常见吐槽点）",
+      "Spot GPU 的可用性与价格随地区和需求波动",
+      "关键业务 SLA 的企业级保障不如超大规模云",
+      "覆盖面广也意味着不如单一用途推理云那样专精"
+    ],
+    "ja": [
+      "恒久的な無料コンピュート枠はなく、本格的なGPU作業には入金が必要（レビューでよくある不満）",
+      "スポットGPUの可用性と価格は地域と需要により変動",
+      "ミッションクリティカルなSLAに対する企業保証はハイパースケーラーより少ない",
+      "対応範囲が広いぶん、単一用途の推論クラウドほど専門特化していない"
+    ],
+    "es": [
+      "No hay nivel de cómputo gratuito perpetuo: el trabajo GPU serio necesita recarga (queja habitual en reseñas)",
+      "La disponibilidad y el precio de las GPU spot varían según región y demanda",
+      "Menos garantías empresariales que los hyperscalers para SLAs de misión crítica",
+      "Su amplio alcance implica menos especialización que nubes de inferencia de un solo propósito"
+    ],
+    "fr": [
+      "Pas de niveau de calcul gratuit perpétuel — un travail GPU sérieux nécessite une recharge (reproche fréquent en avis)",
+      "La disponibilité et le prix des GPU spot varient selon la région et la demande",
+      "Moins de garanties entreprise que les hyperscalers pour des SLA critiques",
+      "Sa large portée implique moins de spécialisation que les clouds d'inférence mono-usage"
+    ]
+  },
+  "latestUpdate": {
+    "en": "2026: Novita keeps expanding both sides of its offering — a growing catalog of 200+ open model APIs and a refreshed GPU fleet (RTX 5090, H200) with spot pricing — positioning itself as an affordable one-stop platform for builders who want model APIs and rentable compute in the same place.",
+    "zh": "2026 年：Novita 持续扩充其产品的两端——不断增长的 200+ 开源模型 API 目录，以及刷新的 GPU 机队（RTX 5090、H200）与 Spot 价——把自己定位为「模型 API 与可租算力一站式、价格实惠」的平台。",
+    "ja": "2026年：Novitaは提供の両面を拡張し続けている——200以上のオープンモデルAPIの拡大するカタログと、スポット価格付きの刷新されたGPUフリート（RTX 5090、H200）——モデルAPIとレンタル可能なコンピュートを同じ場所で欲しいビルダー向けの、手頃なワンストッププラットフォームとして位置づけている。",
+    "es": "2026: Novita sigue ampliando ambos lados de su oferta —un catálogo creciente de más de 200 APIs de modelos abiertos y una flota GPU renovada (RTX 5090, H200) con precios spot— posicionándose como una plataforma asequible todo-en-uno para builders que quieren APIs de modelos y cómputo alquilable en el mismo lugar.",
+    "fr": "2026 : Novita continue d'élargir les deux versants de son offre — un catalogue croissant de plus de 200 API de modèles ouverts et une flotte GPU renouvelée (RTX 5090, H200) avec tarifs spot — se positionnant comme une plateforme abordable tout-en-un pour les builders qui veulent des API de modèles et du calcul louable au même endroit."
+  },
+  "verdict": {
+    "badge": "Worth Trying",
+    "headline": {
+      "en": "An affordable one-stop shop for open model APIs and rentable GPUs",
+      "zh": "开源模型 API 与可租 GPU 的实惠一站式平台",
+      "ja": "オープンモデルAPIとレンタルGPUの手頃なワンストップショップ",
+      "es": "Una tienda todo-en-uno asequible para APIs de modelos abiertos y GPUs alquilables",
+      "fr": "Un guichet unique abordable pour API de modèles ouverts et GPU louables"
+    },
+    "body": {
+      "en": "Novita occupies a useful middle ground: it is both a hosted model-API provider (200+ open LLMs, image, audio and video models behind an OpenAI-compatible endpoint) and a GPU cloud where you can rent everything from an RTX 4090 to an H200 by the second, often with spot pricing that shaves up to half off. For a solo builder or small team, that combination is genuinely convenient — prototype against the API, then rent raw GPUs when you need to train or run something custom, all from one dashboard and one invoice. The honest caveats keep it at Worth Trying: reviewers note there is no perpetual free compute tier, so the 'get started free' framing really means starter credits before you top up, and spot availability fluctuates with demand. It also does not offer the hard SLAs of a hyperscaler or the razor focus of a single-purpose inference cloud. But priced against those trade-offs, Novita is a legitimately cheap, flexible place to build — a solid pick when your workload spans model APIs and occasional raw GPU time and you would rather not juggle two vendors.",
+      "zh": "Novita 占据了一个很实用的中间地带：它既是托管模型 API 供应商（200+ 开源 LLM、图像、音频、视频模型，藏在一个 OpenAI 兼容端点后），又是一个 GPU 云——从 RTX 4090 到 H200 都能按秒租，还常有最高打五折的 Spot 价。对个人开发者或小团队，这个组合是真方便：先对着 API 做原型，需要训练或跑自定义任务时再租裸 GPU，全在一个控制台、一张账单里。让它停在「值得一试」的诚实提醒：评测指出它没有永久免费算力档，所谓「免费开始」其实是充值前的入门额度，且 Spot 供给随需求波动。它也没有超大规模云那种硬 SLA，或单一用途推理云那种极致专注。但把这些取舍算进价格里，Novita 确实是个便宜又灵活的建站之处——当你的负载横跨模型 API 与偶尔的裸 GPU 时长、又不想在两个供应商间来回折腾时，它是个稳妥选择。",
+      "ja": "Novitaは有用な中間地帯を占めている。ホスト型モデルAPIプロバイダー（OpenAI互換エンドポイントの背後に200以上のオープンLLM・画像・音声・動画モデル）であると同時に、RTX 4090からH200まで秒単位で借りられ、しばしば最大半額のスポット価格が付くGPUクラウドでもある。個人ビルダーや小規模チームにとって、この組み合わせは本当に便利だ——APIでプロトタイプし、トレーニングやカスタム実行が必要になれば生GPUを借りる、すべて一つのダッシュボードと一枚の請求書で。「試す価値あり」に留める正直な注意点：レビューは恒久的な無料コンピュート枠がないと指摘しており、「無料で始める」という表現は実際には入金前のスタータークレジットを意味し、スポットの可用性は需要で変動する。ハイパースケーラーのような硬いSLAも、単一用途推論クラウドの鋭い集中もない。しかしそれらのトレードオフを価格に織り込めば、Novitaは正当に安く柔軟な開発の場だ——ワークロードがモデルAPIと時折の生GPU時間にまたがり、二つのベンダーを掛け持ちしたくないときの手堅い選択肢である。",
+      "es": "Novita ocupa un término medio útil: es a la vez un proveedor de API de modelos alojados (más de 200 LLMs abiertos, modelos de imagen, audio y video tras un endpoint compatible con OpenAI) y una nube GPU donde puedes alquilar desde una RTX 4090 hasta una H200 por segundo, a menudo con precios spot que recortan hasta la mitad. Para un builder en solitario o un equipo pequeño, esa combinación es genuinamente cómoda: prototipas contra la API y luego alquilas GPUs en bruto cuando necesitas entrenar o ejecutar algo personalizado, todo desde un panel y una factura. Las advertencias honestas lo mantienen en Worth Trying: los reseñadores señalan que no hay un nivel de cómputo gratuito perpetuo, así que el 'empieza gratis' significa realmente créditos iniciales antes de recargar, y la disponibilidad spot fluctúa con la demanda. Tampoco ofrece los SLAs duros de un hyperscaler ni el enfoque afilado de una nube de inferencia de un solo propósito. Pero valorado frente a esas contrapartidas, Novita es un lugar legítimamente barato y flexible para construir: una elección sólida cuando tu carga abarca APIs de modelos y tiempo ocasional de GPU en bruto y prefieres no hacer malabares con dos proveedores.",
+      "fr": "Novita occupe un entre-deux utile : il est à la fois fournisseur d'API de modèles hébergés (plus de 200 LLM ouverts, modèles image, audio et vidéo derrière un endpoint compatible OpenAI) et un cloud GPU où l'on peut louer tout, d'une RTX 4090 à une H200, à la seconde, souvent avec des tarifs spot qui réduisent jusqu'à la moitié. Pour un builder solo ou une petite équipe, cette combinaison est réellement pratique — prototyper via l'API, puis louer des GPU bruts quand il faut entraîner ou exécuter du personnalisé, le tout depuis un tableau de bord et une facture. Les réserves honnêtes le maintiennent en Worth Trying : les évaluateurs notent l'absence de niveau de calcul gratuit perpétuel, donc le « commencez gratuitement » signifie en réalité des crédits de départ avant recharge, et la disponibilité spot fluctue avec la demande. Il n'offre pas non plus les SLA stricts d'un hyperscaler ni la concentration affûtée d'un cloud d'inférence mono-usage. Mais rapporté à ces compromis, Novita est un endroit légitimement bon marché et flexible pour construire — un choix solide quand votre charge couvre des API de modèles et du temps GPU brut occasionnel et que vous préférez ne pas jongler avec deux fournisseurs."
+    },
+    "bestFor": {
+      "en": [
+        "Solo builders and small teams wanting model APIs plus rentable GPUs in one place",
+        "Cost-sensitive workloads that can use spot GPU pricing",
+        "Deploying custom models as autoscaling serverless endpoints"
+      ],
+      "zh": [
+        "想在一个地方同时用上模型 API 与可租 GPU 的个人开发者与小团队",
+        "能利用 Spot GPU 价的成本敏感型负载",
+        "把自定义模型部署为自动扩缩 Serverless 端点"
+      ],
+      "ja": [
+        "モデルAPIとレンタルGPUを一つの場所で欲しい個人ビルダーや小規模チーム",
+        "スポットGPU価格を使えるコスト重視のワークロード",
+        "カスタムモデルをオートスケールのサーバーレスエンドポイントとしてデプロイ"
+      ],
+      "es": [
+        "Builders en solitario y equipos pequeños que quieren APIs de modelos y GPUs alquilables en un solo lugar",
+        "Cargas sensibles al coste que puedan usar precios spot de GPU",
+        "Desplegar modelos personalizados como endpoints serverless con autoescalado"
+      ],
+      "fr": [
+        "Builders solo et petites équipes voulant API de modèles et GPU louables au même endroit",
+        "Charges sensibles au coût pouvant utiliser les tarifs spot GPU",
+        "Déployer des modèles personnalisés en endpoints serverless avec autoscaling"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You need hyperscaler-grade SLAs for mission-critical production (→ AWS / GCP / Azure)",
+        "You only need fast hosted inference of popular models (→ Together AI / Cerebras)"
+      ],
+      "zh": [
+        "关键业务生产需要超大规模云级 SLA（→ AWS / GCP / Azure）",
+        "你只需要热门模型的高速托管推理（→ Together AI / Cerebras）"
+      ],
+      "ja": [
+        "ミッションクリティカルな本番にハイパースケーラー級のSLAが必要（→ AWS / GCP / Azure）",
+        "人気モデルの高速ホスト型推論だけが必要（→ Together AI / Cerebras）"
+      ],
+      "es": [
+        "Necesitas SLAs de nivel hyperscaler para producción de misión crítica (→ AWS / GCP / Azure)",
+        "Solo necesitas inferencia alojada rápida de modelos populares (→ Together AI / Cerebras)"
+      ],
+      "fr": [
+        "Vous avez besoin de SLA de niveau hyperscaler pour une production critique (→ AWS / GCP / Azure)",
+        "Vous avez seulement besoin d'inférence hébergée rapide de modèles populaires (→ Together AI / Cerebras)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-28",
+    "verdictDate": "2026-07-28",
+    "pricingVerified": "2026-07-28",
+    "pricingUrl": "https://novita.ai/pricing"
+  }
+}

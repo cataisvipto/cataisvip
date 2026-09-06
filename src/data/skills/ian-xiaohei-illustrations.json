@@ -1,0 +1,77 @@
+{
+  "slug": "ian-xiaohei-illustrations",
+  "name": "Ian Xiaohei Illustrations",
+  "nameZh": "小黑怪诞插画",
+  "description": "为中文文章生成小黑怪诞手绘风格正文配图的 MCP 服务。独特的黑白线稿风格，适合文章插图、博客配图。",
+  "descriptionEn": "An MCP server that generates quirky hand-drawn Xiaohei-style illustrations for Chinese articles. Unique black-and-white line art style, perfect for article and blog illustrations.",
+  "descriptionJa": "中文記事向けの小黑風イラストを生成するMCPサーバー。独特な白黒線画スタイルで、記事やブログの挿絵に最適。",
+  "descriptionEs": "Un servidor MCP que genera ilustraciones Xiaohei para artículos en chino. Estilo único de dibujo lineal en blanco y negro.",
+  "descriptionFr": "Un serveur MCP qui génère des illustrations Xiaohei pour les articles chinois. Style unique de dessin au trait noir et blanc.",
+  "developer": "helloianneo",
+  "developerZh": "helloianneo",
+  "repo": "helloianneo/ian-xiaohei-illustrations",
+  "agents": [
+    "claude",
+    "cursor",
+    "generic"
+  ],
+  "category": "Design",
+  "tags": [
+    "Free",
+    "Open Source"
+  ],
+  "installCommand": "git clone https://github.com/helloianneo/ian-xiaohei-illustrations.git ~/.codex/skills/ian-xiaohei-illustrations",
+  "logo": "/logos/skills/ian-xiaohei-illustrations.png",
+  "stars": 11032,
+  "featured": false,
+  "faqs": [
+    {
+      "question": {
+        "zh": "这个技能生成的配图是什么风格？",
+        "en": "What style of illustrations does this skill generate?",
+        "ja": "このスキルはどんなスタイルの挿絵を生成しますか？",
+        "es": "¿Qué estilo de ilustraciones genera esta habilidad?",
+        "fr": "Quel style d'illustrations cette compétence génère-t-elle ?"
+      },
+      "answer": {
+        "zh": "独特的\"小黑\"怪诞手绘黑白线稿风格：粗犷、诙谐、辨识度极高，特别适合中文文章正文配图、博客插画和公众号内容，让文章瞬间有了统一的视觉个性。",
+        "en": "A distinctive \"Xiaohei\" grotesque hand-drawn black-and-white line art style: rough, witty and highly recognizable. Perfect for Chinese article illustrations, blog art and WeChat content, giving posts an instantly unified visual identity.",
+        "ja": "独特な「小黒（シャオヘイ）」グロテスク手描き白黒線画スタイルです。荒削りでユーモラス、非常に識別性が高く、中国語記事の本文挿絵、ブログイラスト、WeChat コンテンツに最適。記事に統一された視覚的個性を与えます。",
+        "es": "Un estilo distintivo de dibujo a mano \"Xiaohei\", grotesco en blanco y negro: tosco, ingenioso y muy reconocible. Perfecto para ilustrar artículos en chino, blogs y contenido de WeChat, dando a los textos una identidad visual unificada.",
+        "fr": "Un style distinctif « Xiaohei » : dessin au trait noir et blanc, grotesque et fait main — brut, plein d'esprit et très reconnaissable. Parfait pour illustrer articles chinois, blogs et contenus WeChat avec une identité visuelle unifiée."
+      }
+    },
+    {
+      "question": {
+        "zh": "怎么安装和使用？",
+        "en": "How do I install and use it?",
+        "ja": "インストールと使い方は？",
+        "es": "¿Cómo la instalo y uso?",
+        "fr": "Comment l'installer et l'utiliser ?"
+      },
+      "answer": {
+        "zh": "在 Claude Code 运行 npx @anthropic-ai/claude add ian-xiaohei-illustrations 接入。使用时把文章内容给 AI，它会分析语义并为关键段落生成风格统一的配图。",
+        "en": "Run npx @anthropic-ai/claude add ian-xiaohei-illustrations in Claude Code. Then hand your article to the AI — it analyzes the content and generates style-consistent illustrations for key passages.",
+        "ja": "Claude Code で npx @anthropic-ai/claude add ian-xiaohei-illustrations を実行して接続します。記事を AI に渡すと、内容を分析して重要な段落にスタイルの揃った挿絵を生成します。",
+        "es": "Ejecuta npx @anthropic-ai/claude add ian-xiaohei-illustrations en Claude Code. Luego entrega tu artículo a la IA: analiza el contenido y genera ilustraciones de estilo coherente para los pasajes clave.",
+        "fr": "Exécutez npx @anthropic-ai/claude add ian-xiaohei-illustrations dans Claude Code. Confiez ensuite votre article à l'IA — elle analyse le contenu et génère des illustrations cohérentes pour les passages clés."
+      }
+    },
+    {
+      "question": {
+        "zh": "生成的配图可以商用吗？",
+        "en": "Can the generated illustrations be used commercially?",
+        "ja": "生成された挿絵は商用利用できますか？",
+        "es": "¿Las ilustraciones generadas se pueden usar comercialmente?",
+        "fr": "Les illustrations générées peuvent-elles être utilisées commercialement ?"
+      },
+      "answer": {
+        "zh": "技能本身免费开源。商用前建议查阅 GitHub 仓库的许可条款，并确认你所用图像生成模型的授权政策——生成内容的商用权利通常由底层模型服务的条款决定。",
+        "en": "The skill itself is free and open source. Before commercial use, check the license terms in the GitHub repository and the usage policy of the image generation model you connect — commercial rights over generated content typically follow the underlying model service terms.",
+        "ja": "スキル自体は無料のオープンソースです。商用利用の前に GitHub リポジトリのライセンス条項と、接続する画像生成モデルの利用ポリシーを確認してください。生成物の商用権は通常、基盤モデルサービスの規約に従います。",
+        "es": "La habilidad en sí es gratuita y de código abierto. Antes de un uso comercial, revisa los términos de licencia del repositorio de GitHub y la política del modelo de generación de imágenes que conectes: los derechos comerciales suelen seguir los términos del servicio del modelo.",
+        "fr": "La compétence est gratuite et open source. Avant tout usage commercial, vérifiez la licence du dépôt GitHub et la politique du modèle de génération d'images connecté — les droits commerciaux sur le contenu généré dépendent généralement des conditions du service sous-jacent."
+      }
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "chatgpt",
+  "homeFeatured": true,
+  "name": "ChatGPT",
+  "nameZh": "ChatGPT",
+  "description": "OpenAI 开发的 AI 对话助手，支持文本生成、代码编写、数据分析等多种任务",
+  "descriptionEn": "AI assistant by OpenAI for text generation, coding, data analysis and more",
+  "descriptionJa": "OpenAIが開発したAIアシスタント。テキスト生成、コーディング、データ分析など多様なタスクに対応",
+  "descriptionEs": "Asistente de IA de OpenAI para generación de texto, programación, análisis de datos y más",
+  "descriptionFr": "Assistant IA d'OpenAI pour la génération de texte, le codage, l'analyse de données et plus encore",
+  "url": "https://chatgpt.com",
+  "logo": "/logos/tools/chatgpt.png",
+  "category": "Chat",
+  "tags": [
+    "Freemium",
+    "API"
+  ],
+  "featured": true,
+  "developer": "OpenAI",
+  "platforms": {
+    "web": true,
+    "windows": true,
+    "macos": true,
+    "ios": true,
+    "android": true,
+    "linux": false,
+    "browser_extension": true,
+    "api": true
+  }
+}

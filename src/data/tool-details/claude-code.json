@@ -1,0 +1,237 @@
+{
+  "features": {
+    "en": [
+      "Anthropic coding agent",
+      "Terminal-based AI",
+      "Deep code understanding",
+      "Multi-file editing",
+      "Git-aware context",
+      "Claude Opus powered"
+    ],
+    "zh": [
+      "Anthropic 编程代理",
+      "终端 AI 助手",
+      "深度代码理解",
+      "多文件编辑",
+      "Git 感知上下文",
+      "Claude Opus 驱动"
+    ],
+    "ja": [
+      "Anthropic コーディング",
+      "ターミナル AI",
+      "コード深く理解",
+      "複数ファイル",
+      "Git 認識",
+      "Claude Opus 対応"
+    ],
+    "es": [
+      "Agente codificación",
+      "Terminal AI",
+      "Comprensión código",
+      "Multiarchivo",
+      "Contexto Git",
+      "Claude Opus"
+    ],
+    "fr": [
+      "Agent codage",
+      "Terminal IA",
+      "Compréhension code",
+      "Multi-fichiers",
+      "Contexte Git",
+      "Claude Opus"
+    ]
+  },
+  "useCases": {
+    "en": [
+      "AI software dev",
+      "Code refactoring",
+      "Complex debugging",
+      "Automated review",
+      "Large codebase nav"
+    ],
+    "zh": [
+      "AI 开发",
+      "代码重构",
+      "复杂调试",
+      "自动审查",
+      "大型代码库"
+    ],
+    "ja": [
+      "AI 開発",
+      "リファクタリング",
+      "デバッグ",
+      "自動レビュー",
+      "大規模コード"
+    ],
+    "es": [
+      "Desarrollo AI",
+      "Refactorización",
+      "Depuración",
+      "Revisión",
+      "Navegación"
+    ],
+    "fr": [
+      "Développement IA",
+      "Refactoring",
+      "Débogage",
+      "Révision",
+      "Navigation"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Claude reasoning",
+      "Terminal-native",
+      "Git integration",
+      "Powerful complex tasks"
+    ],
+    "zh": [
+      "Claude 推理",
+      "终端原生",
+      "Git 集成",
+      "复杂任务强"
+    ],
+    "ja": [
+      "Claude 推論",
+      "ターミナル",
+      "Git 統合",
+      "複雑タスク"
+    ],
+    "es": [
+      "Razonamiento Claude",
+      "Terminal nativo",
+      "Git",
+      "Tareas complejas"
+    ],
+    "fr": [
+      "Raisonnement Claude",
+      "Terminal natif",
+      "Git",
+      "Tâches complexes"
+    ]
+  },
+  "cons": {
+    "en": [
+      "API key needed",
+      "Terminal only",
+      "Costly heavy use"
+    ],
+    "zh": [
+      "需 API 密钥",
+      "仅终端",
+      "大量使用贵"
+    ],
+    "ja": [
+      "API キー",
+      "ターミナル",
+      "大量使用高額"
+    ],
+    "es": [
+      "API necesaria",
+      "Solo terminal",
+      "Caro"
+    ],
+    "fr": [
+      "Clé API",
+      "Terminal seulement",
+      "Coûteux"
+    ]
+  },
+  "pricing": {
+    "paid": {
+      "en": "Usage-based via Console",
+      "zh": "Console 按量计费",
+      "ja": "Console 従量課金",
+      "es": "Por uso vía Console",
+      "fr": "À l'utilisation via Console"
+    }
+  },
+  "latestUpdate": {
+    "en": "2026: Claude Code evolves coding agent capabilities",
+    "zh": "2026年：Claude Code 进化编程代理能力",
+    "ja": "2026年：Claude Code がコーディング能力進化",
+    "es": "2026: Claude Code evoluciona agente",
+    "fr": "2026 : Claude Code fait évoluer ses capacités"
+  },
+  "verdict": {
+    "badge": "Highly Recommended",
+    "headline": {
+      "en": "A terminal-native coding agent that understands entire codebases — not just files, but architecture.",
+      "zh": "原生终端编码智能体，理解的不只是文件，而是整个代码库架构。",
+      "ja": "ターミナルネイティブのコーディングエージェント——ファイルだけでなくアーキテクチャ全体を理解する。",
+      "es": "Un agente de código nativo de terminal que entiende bases de código completas — no solo archivos, sino arquitectura.",
+      "fr": "Un agent de code natif terminal qui comprend des bases de code entières — pas seulement les fichiers, mais l'architecture."
+    },
+    "body": {
+      "en": "Claude Code operates directly in your terminal, reading and modifying files across your project with an understanding of how components relate to each other. Unlike IDE-based copilots that see one file at a time, Claude Code maps your entire repository structure, understands dependency relationships, and can execute multi-file refactors that maintain consistency.\n\nIts best use case is complex project work: large-scale refactoring, implementing features that touch multiple modules, debugging issues that span several layers of abstraction, or onboarding to an unfamiliar codebase. The agent can run tests, read error outputs, and iterate on fixes autonomously.\n\nThe trade-off is workflow style. If you prefer visual inline suggestions while typing, Cursor or GitHub Copilot will feel more natural. Claude Code is for developers who think in terms of project-level tasks rather than line-level completions.",
+      "zh": "Claude Code直接在终端中运行，读取和修改项目中的文件，并理解组件之间的关系。不像基于IDE的Copilot一次只看一个文件，Claude Code能映射整个仓库结构，理解依赖关系，执行保持一致性的多文件重构。\n\n最佳用例是复杂项目工作：大规模重构、实现涉及多个模块的功能、调试跨越多个抽象层的问题，或快速熟悉陌生代码库。智能体可以运行测试、读取错误输出并自主迭代修复。\n\n代价是工作流风格。如果你偏好打字时的可视化内联建议，Cursor或GitHub Copilot会更自然。Claude Code适合以项目级任务而非行级补全为思维单位的开发者。",
+      "ja": "Claude Codeはターミナルで直接動作し、プロジェクト内のファイルを読み書きしながら、コンポーネント間の関係を理解します。一度に1ファイルしか見ないIDEベースのCopilotとは異なり、リポジトリ全体の構造をマッピングし、一貫性を保つマルチファイルリファクタリングを実行できます。\n\n最適なユースケースは複雑なプロジェクト作業です：大規模リファクタリング、複数モジュールにまたがる機能実装、抽象化の複数レイヤーに跨るデバッグ。エージェントはテスト実行、エラー出力の読み取り、自律的な修正の反復が可能です。\n\nトレードオフはワークフローのスタイルです。入力中のビジュアルなインライン提案を好むなら、CursorやGitHub Copilotの方が自然でしょう。",
+      "es": "Claude Code opera directamente en tu terminal, leyendo y modificando archivos con comprensión de cómo los componentes se relacionan. A diferencia de los copilots IDE que ven un archivo a la vez, Claude Code mapea la estructura completa del repositorio y ejecuta refactorizaciones multi-archivo consistentes.\n\nSu mejor caso de uso es trabajo de proyecto complejo: refactorización a gran escala, implementación de funciones multi-módulo, depuración de problemas multi-capa. El agente puede ejecutar tests e iterar en correcciones autónomamente.\n\nLa contrapartida es el estilo de flujo de trabajo. Si prefieres sugerencias inline visuales, Cursor o GitHub Copilot se sentirán más naturales.",
+      "fr": "Claude Code opère directement dans votre terminal, lisant et modifiant les fichiers avec une compréhension des relations entre composants. Contrairement aux copilotes IDE qui voient un fichier à la fois, Claude Code cartographie toute la structure du dépôt et exécute des refactorisations multi-fichiers cohérentes.\n\nSon meilleur cas d'usage est le travail de projet complexe : refactorisation à grande échelle, implémentation multi-modules, débogage multi-couches. L'agent peut exécuter des tests et itérer de manière autonome.\n\nLe compromis est le style de workflow. Si vous préférez les suggestions inline visuelles, Cursor ou GitHub Copilot seront plus naturels."
+    },
+    "bestFor": {
+      "en": [
+        "Multi-file refactoring across large codebases",
+        "Implementing features that span multiple modules",
+        "Debugging complex issues involving several system layers",
+        "Developers who prefer terminal-based workflows"
+      ],
+      "zh": [
+        "跨大型代码库的多文件重构",
+        "实现涉及多个模块的功能",
+        "调试涉及多个系统层的复杂问题",
+        "偏好终端工作流的开发者"
+      ],
+      "ja": [
+        "大規模コードベース全体のマルチファイルリファクタリング",
+        "複数モジュールにまたがる機能実装",
+        "複数システムレイヤーに関わる複雑な問題のデバッグ",
+        "ターミナルベースのワークフローを好む開発者"
+      ],
+      "es": [
+        "Refactorización multi-archivo en bases de código grandes",
+        "Implementar funciones que abarcan múltiples módulos",
+        "Depuración de problemas complejos multi-capa",
+        "Desarrolladores que prefieren flujos de trabajo en terminal"
+      ],
+      "fr": [
+        "Refactorisation multi-fichiers sur de grandes bases de code",
+        "Implémentation de fonctionnalités touchant plusieurs modules",
+        "Débogage de problèmes complexes multi-couches",
+        "Développeurs préférant les workflows terminal"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You want inline code suggestions while typing in an IDE (→ Cursor, GitHub Copilot)",
+        "You prefer a visual editor experience with AI built in (→ Windsurf, Cursor)",
+        "Your tasks are mostly single-file edits or quick completions (→ GitHub Copilot)"
+      ],
+      "zh": [
+        "你希望在IDE中打字时获得内联代码建议（→ Cursor、GitHub Copilot）",
+        "你偏好内置AI的可视化编辑器体验（→ Windsurf、Cursor）",
+        "你的任务多为单文件编辑或快速补全（→ GitHub Copilot）"
+      ],
+      "ja": [
+        "IDEで入力中にインラインコード提案が欲しい場合（→ Cursor、GitHub Copilot）",
+        "AIが組み込まれたビジュアルエディタ体験を好む場合（→ Windsurf、Cursor）",
+        "タスクが主に単一ファイル編集やクイック補完の場合（→ GitHub Copilot）"
+      ],
+      "es": [
+        "Quieres sugerencias de código inline mientras escribes en un IDE (→ Cursor, GitHub Copilot)",
+        "Prefieres una experiencia de editor visual con IA integrada (→ Windsurf, Cursor)",
+        "Tus tareas son mayormente ediciones de un solo archivo (→ GitHub Copilot)"
+      ],
+      "fr": [
+        "Vous voulez des suggestions de code inline en tapant dans un IDE (→ Cursor, GitHub Copilot)",
+        "Vous préférez une expérience d'éditeur visuel avec IA intégrée (→ Windsurf, Cursor)",
+        "Vos tâches sont principalement des éditions mono-fichier (→ GitHub Copilot)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-27",
+    "verdictDate": "2026-07-27",
+    "pricingVerified": "2026-07-27"
+  }
+}

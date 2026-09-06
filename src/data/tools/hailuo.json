@@ -1,0 +1,29 @@
+{
+  "slug": "hailuo",
+  "name": "Hailuo AI",
+  "nameZh": "海螺AI",
+  "description": "MiniMax 旗下 AI 视频与图像生成平台，Hailuo 2.3 模型以物理真实的人物动作和全球标杆级性价比著称，支持文生视频与图生视频",
+  "descriptionEn": "MiniMax's AI video and image generation platform. The Hailuo 2.3 model is known for physically realistic human motion and industry-leading cost-effectiveness, supporting text-to-video and image-to-video",
+  "descriptionJa": "MiniMax傘下のAI動画・画像生成プラットフォーム。Hailuo 2.3モデルは物理的にリアルな人物の動きと世界トップクラスのコストパフォーマンスで知られ、テキストと画像からの動画生成に対応",
+  "descriptionEs": "Plataforma de generación de video e imagen IA de MiniMax. El modelo Hailuo 2.3 destaca por el movimiento humano físicamente realista y una relación calidad-precio líder, compatible con texto-a-video e imagen-a-video",
+  "descriptionFr": "Plateforme de génération vidéo et image IA de MiniMax. Le modèle Hailuo 2.3 est réputé pour ses mouvements humains physiquement réalistes et son rapport qualité-prix de référence, prenant en charge la génération texte-vidéo et image-vidéo",
+  "url": "https://hailuoai.video",
+  "logo": "/logos/tools/hailuo.png",
+  "category": "Video",
+  "tags": [
+    "Freemium"
+  ],
+  "featured": false,
+  "developer": "MiniMax",
+  "developerZh": "MiniMax（稀宇科技）",
+  "platforms": {
+    "web": true,
+    "windows": false,
+    "macos": false,
+    "ios": true,
+    "android": true,
+    "linux": false,
+    "browser_extension": false,
+    "api": true
+  }
+}

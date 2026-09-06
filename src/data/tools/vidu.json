@@ -1,0 +1,30 @@
+{
+  "slug": "vidu",
+  "name": "Vidu",
+  "nameZh": "Vidu",
+  "description": "生数科技推出的 AI 视频生成工具，支持文生视频和图生视频，中国原创视频大模型",
+  "descriptionEn": "AI video generation tool by Shengshu Technology, supporting text-to-video and image-to-video, China's original video LLM",
+  "descriptionJa": "生数科技（Shengshu Technology）のAI動画生成ツール。テキスト・画像から動画生成、中国発の動画大モデル",
+  "descriptionEs": "Herramienta de generación de video IA de Shengshu Technology, compatible con texto a video e imagen a video, LLM de video original chino",
+  "descriptionFr": "Outil de génération vidéo IA de Shengshu Technology, supportant la conversion texte-vidéo et image-vidéo, LLM vidéo original chinois",
+  "url": "https://www.vidu.cn",
+  "logo": "/logos/tools/vidu.png",
+  "category": "Video",
+  "tags": [
+    "Freemium",
+    "API"
+  ],
+  "featured": false,
+  "developer": "Shengshu Technology",
+  "developerZh": "生数科技",
+  "platforms": {
+    "web": true,
+    "windows": false,
+    "macos": false,
+    "ios": true,
+    "android": true,
+    "linux": false,
+    "browser_extension": false,
+    "api": true
+  }
+}

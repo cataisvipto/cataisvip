@@ -1,0 +1,234 @@
+{
+  "features": {
+    "en": [
+      "Command R/R+ enterprise LLMs",
+      "Embeddings & retrieval",
+      "RAG (Retrieval-Augmented Generation)",
+      "100+ languages",
+      "Classification & reranking APIs",
+      "Enterprise security"
+    ],
+    "zh": [
+      "Command R/R+ 企业 LLM",
+      "嵌入和检索",
+      "RAG 检索增强生成",
+      "100+ 语言",
+      "分类和重排序 API",
+      "企业级安全"
+    ],
+    "ja": [
+      "Command R/R+ エンタープライズ LLM",
+      "埋め込み・検索",
+      "RAG",
+      "100+ 言語",
+      "分類・再ランキング API",
+      "エンタープライズセキュリティ"
+    ],
+    "es": [
+      "LLM Command R/R+",
+      "Embeddings",
+      "RAG",
+      "100+ idiomas",
+      "Clasificación",
+      "Seguridad empresa"
+    ],
+    "fr": [
+      "LLM Command R/R+",
+      "Embeddings",
+      "RAG",
+      "100+ langues",
+      "Classification",
+      "Sécurité entreprise"
+    ]
+  },
+  "useCases": {
+    "en": [
+      "Enterprise search & RAG",
+      "Document classification",
+      "Multilingual NLP",
+      "Content moderation",
+      "Customer support"
+    ],
+    "zh": [
+      "企业搜索 RAG",
+      "文档分类",
+      "多语言 NLP",
+      "内容审核",
+      "客服"
+    ],
+    "ja": [
+      "エンタープライズ検索",
+      "文書分類",
+      "多言語 NLP",
+      "コンテンツモデレーション",
+      "カスタマーサポート"
+    ],
+    "es": [
+      "Búsqueda empresa",
+      "Clasificación",
+      "PLN multilingüe",
+      "Moderación",
+      "Soporte"
+    ],
+    "fr": [
+      "Recherche entreprise",
+      "Classification",
+      "TAL multilingue",
+      "Modération",
+      "Support"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Excellent for RAG",
+      "Strong multilingual",
+      "Enterprise security",
+      "Dev-friendly APIs"
+    ],
+    "zh": [
+      "RAG 表现优秀",
+      "多语言强",
+      "企业级安全",
+      "开发者友好"
+    ],
+    "ja": [
+      "RAG に優れる",
+      "多言語が強い",
+      "セキュリティ",
+      "開発者向け"
+    ],
+    "es": [
+      "Excelente RAG",
+      "Multilingüe",
+      "Seguridad empresa",
+      "API amigables"
+    ],
+    "fr": [
+      "Excellent RAG",
+      "Multilingue",
+      "Sécurité entreprise",
+      "API conviviales"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Not general chat AI",
+      "Higher pricing at scale",
+      "Less known than OpenAI"
+    ],
+    "zh": [
+      "非通用对话 AI",
+      "大规模价格高",
+      "知名度不如 OpenAI"
+    ],
+    "ja": [
+      "汎用チャット不可",
+      "大規模コスト高",
+      "OpenAI ほど認知されず"
+    ],
+    "es": [
+      "No es chat general",
+      "Coste escalado",
+      "Menos conocido"
+    ],
+    "fr": [
+      "Pas chat généraliste",
+      "Coût à grande échelle",
+      "Moins connu"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Free trial",
+      "zh": "免费试用",
+      "ja": "無料トライアル",
+      "es": "Prueba gratis",
+      "fr": "Essai gratuit"
+    },
+    "api": {
+      "en": "Pay-as-you-go",
+      "zh": "按量计费",
+      "ja": "従量課金",
+      "es": "Pago por uso",
+      "fr": "À la consommation"
+    }
+  },
+  "latestUpdate": {
+    "en": "2026: Cohere Command R+ leads enterprise RAG",
+    "zh": "2026年：Cohere Command R+ 领先企业 RAG",
+    "ja": "2026年：Cohere R+ がエンタープライズ RAG をリード",
+    "es": "2026: Cohere R+ lidera RAG empresarial",
+    "fr": "2026 : Cohere R+ domine le RAG d'entreprise"
+  },
+  "verdict": {
+    "badge": "Worth Trying",
+    "headline": {
+      "en": "Enterprise-focused NLP platform specializing in RAG, search, and text classification at scale.",
+      "zh": "面向企业的NLP平台，专注于大规模RAG、搜索和文本分类。",
+      "ja": "RAG、検索、テキスト分類を大規模に行う企業向けNLPプラットフォーム。",
+      "es": "Plataforma NLP empresarial especializada en RAG, búsqueda y clasificación de texto a escala.",
+      "fr": "Plateforme NLP entreprise spécialisée dans le RAG, la recherche et la classification de texte à grande échelle."
+    },
+    "body": {
+      "en": "Cohere is built for enterprise NLP workloads rather than consumer chat. Its strengths are in retrieval-augmented generation (RAG), semantic search, and text embeddings—the building blocks for enterprise knowledge systems. The deployment options include cloud, on-premise, and VPC configurations.\n\nFor general-purpose AI assistance, ChatGPT or Claude are better choices. Cohere makes sense when you're building production NLP systems that need reliable embeddings, reranking, or classification—particularly when deployment flexibility is a requirement.",
+      "zh": "Cohere 专为企业 NLP 工作负载而非消费级聊天而建。其优势在于检索增强生成（RAG）、语义搜索和文本嵌入——企业知识系统的构建模块。部署选项包括云端、本地和VPC配置。\n\n通用AI辅助方面，ChatGPT 或 Claude 是更好的选择。Cohere 适用于构建需要可靠嵌入、重排序或分类的生产级NLP系统——特别是对部署灵活性有要求的场景。",
+      "ja": "Cohereはコンシューマーチャットではなく企業NLPワークロード向けに構築されています。強みはRAG、セマンティック検索、テキスト埋め込み——企業ナレッジシステムの構成要素です。デプロイオプションにはクラウド、オンプレミス、VPC構成が含まれます。\n\n汎用AIアシスタントとしてはChatGPTやClaudeが良い選択です。Cohereは信頼性の高い埋め込み、リランキング、分類が必要な本番NLPシステムを構築する場合——特にデプロイの柔軟性が要件の場合に適しています。",
+      "es": "Cohere está diseñado para cargas NLP empresariales, no chat de consumidores. Sus fortalezas son RAG, búsqueda semántica y embeddings de texto—los bloques para sistemas de conocimiento empresarial. Las opciones de despliegue incluyen cloud, on-premise y VPC.\n\nPara asistencia IA de propósito general, ChatGPT o Claude son mejores opciones. Cohere tiene sentido cuando construyes sistemas NLP de producción que necesitan embeddings fiables, reranking o clasificación.",
+      "fr": "Cohere est conçu pour les charges NLP entreprise plutôt que le chat grand public. Ses forces sont le RAG, la recherche sémantique et les embeddings de texte—les briques des systèmes de connaissances d'entreprise. Les options de déploiement incluent cloud, on-premise et VPC.\n\nPour l'assistance IA généraliste, ChatGPT ou Claude sont de meilleurs choix. Cohere a du sens pour construire des systèmes NLP de production nécessitant des embeddings fiables, du reranking ou de la classification."
+    },
+    "bestFor": {
+      "en": [
+        "Enterprise RAG and semantic search systems",
+        "Production text embeddings and classification",
+        "On-premise NLP deployment requirements"
+      ],
+      "zh": [
+        "企业RAG和语义搜索系统",
+        "生产级文本嵌入和分类",
+        "本地NLP部署需求"
+      ],
+      "ja": [
+        "企業RAGとセマンティック検索システム",
+        "本番テキスト埋め込みと分類",
+        "オンプレミスNLPデプロイ要件"
+      ],
+      "es": [
+        "Sistemas empresariales de RAG y búsqueda semántica",
+        "Embeddings y clasificación de texto en producción",
+        "Requisitos de despliegue NLP on-premise"
+      ],
+      "fr": [
+        "Systèmes RAG et recherche sémantique d'entreprise",
+        "Embeddings et classification de texte en production",
+        "Exigences de déploiement NLP on-premise"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You need a general-purpose AI assistant (→ ChatGPT, Claude)",
+        "You want open-source embeddings (→ Hugging Face, sentence-transformers)"
+      ],
+      "zh": [
+        "需要通用AI助手（→ ChatGPT、Claude）",
+        "需要开源嵌入模型（→ Hugging Face、sentence-transformers）"
+      ],
+      "ja": [
+        "汎用AIアシスタントが必要な場合（→ ChatGPT、Claude）",
+        "オープンソースの埋め込みが必要な場合（→ Hugging Face、sentence-transformers）"
+      ],
+      "es": [
+        "Necesitas un asistente IA de propósito general (→ ChatGPT, Claude)",
+        "Quieres embeddings de código abierto (→ Hugging Face, sentence-transformers)"
+      ],
+      "fr": [
+        "Vous avez besoin d'un assistant IA généraliste (→ ChatGPT, Claude)",
+        "Vous voulez des embeddings open-source (→ Hugging Face, sentence-transformers)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-27",
+    "verdictDate": "2026-07-27",
+    "pricingVerified": "2026-07-27"
+  }
+}

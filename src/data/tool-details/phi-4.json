@@ -1,0 +1,234 @@
+{
+  "features": {
+    "en": [
+      "14B parameters, small yet powerful",
+      "Performance rivals much larger models",
+      "Local deployment feasible",
+      "Strong reasoning and mathematics",
+      "Multilingual support",
+      "Open-source with MIT license"
+    ],
+    "zh": [
+      "14B 参数，小而强大",
+      "性能媲美更大规模模型",
+      "可本地部署",
+      "推理与数学能力出色",
+      "多语言支持",
+      "MIT 开源许可证"
+    ],
+    "ja": [
+      "14B パラメータ、小型ながら高性能",
+      "より大規模モデルに匹敵する性能",
+      "ローカル展開可能",
+      "推論と数学に優れる",
+      "多言語対応",
+      "MIT オープンソースライセンス"
+    ],
+    "es": [
+      "14B parámetros, pequeño pero potente",
+      "Rendimiento comparable a modelos mucho más grandes",
+      "Despliegue local factible",
+      "Fuerte razonamiento y matemáticas",
+      "Soporte multilingüe",
+      "Licencia MIT open-source"
+    ],
+    "fr": [
+      "14B paramètres, petit mais puissant",
+      "Performances rivalisant avec des modèles beaucoup plus grands",
+      "Déploiement local possible",
+      "Bon raisonnement et mathématiques",
+      "Support multilingue",
+      "Licence open-source MIT"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Open-source MIT, free to use",
+      "zh": "MIT 开源，免费使用",
+      "ja": "MIT オープンソース、無料利用可",
+      "es": "MIT open-source, uso gratuito",
+      "fr": "MIT open-source, gratuit"
+    },
+    "cloud": {
+      "en": "Azure AI / Hugging Face hosted",
+      "zh": "Azure AI / Hugging Face 托管",
+      "ja": "Azure AI / Hugging Face でホスト",
+      "es": "Alojado en Azure AI / Hugging Face",
+      "fr": "Hébergé sur Azure AI / Hugging Face"
+    }
+  },
+  "useCases": {
+    "en": [
+      "On-device AI applications",
+      "Cost-efficient inference",
+      "Privacy-focused deployments",
+      "STEM education and research",
+      "Edge computing scenarios"
+    ],
+    "zh": [
+      "端侧 AI 应用",
+      "高性价比推理",
+      "隐私优先的部署方案",
+      "STEM 教育与科研",
+      "边缘计算场景"
+    ],
+    "ja": [
+      "オンデバイス AI アプリ",
+      "コスト効率の高い推論",
+      "プライバシー重視の展開",
+      "STEM 教育と研究",
+      "エッジコンピューティング"
+    ],
+    "es": [
+      "Aplicaciones de IA en dispositivo",
+      "Inferencia rentable",
+      "Despliegues centrados en privacidad",
+      "Educación e investigación STEM",
+      "Escenarios de computación en el borde"
+    ],
+    "fr": [
+      "Applications IA sur appareil",
+      "Inférence économique",
+      "Déploiements axés sur la confidentialité",
+      "Éducation et recherche STEM",
+      "Scénarios d'edge computing"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Small size, big performance",
+      "MIT license, fully open",
+      "Runs on consumer hardware",
+      "Strong math and reasoning"
+    ],
+    "zh": [
+      "小参数，高性能",
+      "MIT 完全开源",
+      "可在消费级硬件运行",
+      "数学与推理能力强"
+    ],
+    "ja": [
+      "小型で高性能",
+      "MIT ライセンスで完全オープン",
+      "一般消費者向けハードウェアで動作",
+      "数学と推論に強い"
+    ],
+    "es": [
+      "Tamaño pequeño, gran rendimiento",
+      "Licencia MIT, totalmente abierto",
+      "Funciona en hardware de consumo",
+      "Matemáticas y razonamiento sólidos"
+    ],
+    "fr": [
+      "Petite taille, grandes performances",
+      "Licence MIT, entièrement ouvert",
+      "Fonctionne sur du matériel grand public",
+      "Mathématiques et raisonnement solides"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Not multimodal (text only)",
+      "Smaller knowledge base",
+      "Ecosystem smaller than larger models"
+    ],
+    "zh": [
+      "非多模态（纯文本）",
+      "知识库相对较小",
+      "生态不如大模型丰富"
+    ],
+    "ja": [
+      "マルチモーダル非対応（テキストのみ）",
+      "ナレッジベースが比較的小さい",
+      "エコシステムが大規模モデルに劣る"
+    ],
+    "es": [
+      "No multimodal (solo texto)",
+      "Base de conocimiento más pequeña",
+      "Ecosistema menor que modelos grandes"
+    ],
+    "fr": [
+      "Non multimodal (texte uniquement)",
+      "Base de connaissances plus petite",
+      "Écosystème plus petit que les grands modèles"
+    ]
+  },
+  "latestUpdate": {
+    "en": "2026: Phi-4 remains Microsoft's leading small language model, widely used for on-device and edge AI scenarios",
+    "zh": "2026年：Phi-4 仍是微软领先的小语言模型，广泛用于端侧和边缘 AI 场景",
+    "ja": "2026年：Phi-4 は Microsoft の主力小型言語モデルとして、端末およびエッジAIで広く活用",
+    "es": "2026: Phi-4 sigue siendo el pequeño modelo lingüístico líder de Microsoft, ampliamente utilizado en dispositivos y escenarios de IA perimetral",
+    "fr": "2026 : Phi-4 reste le petit modèle de langage leader de Microsoft, largement utilisé pour les scénarios d'IA sur appareil et en périphérie"
+  },
+  "verdict": {
+    "badge": "For Specific Needs",
+    "headline": {
+      "en": "Microsoft's compact language model delivering strong reasoning in a small parameter footprint.",
+      "zh": "微软的紧凑语言模型，在小参数量下提供强大推理能力。",
+      "ja": "Microsoftのコンパクト言語モデル。小さなパラメータで強力な推論を実現。",
+      "es": "El modelo compacto de Microsoft que ofrece razonamiento fuerte con pocos parámetros.",
+      "fr": "Le modèle compact de Microsoft offrant un raisonnement fort avec peu de paramètres."
+    },
+    "body": {
+      "en": "Phi-4 demonstrates that smaller models can punch above their weight class. Microsoft's research into data quality and training efficiency produces a model that performs surprisingly well on reasoning tasks relative to its size, making it ideal for edge deployment and resource-constrained environments.\n\nIt won't match GPT-4 or Claude on complex tasks, but for local inference, on-device AI, and cost-sensitive deployments where you need decent reasoning without massive compute, Phi-4 fills an important gap.",
+      "zh": "Phi-4 证明了小模型可以超越其参数量级别的表现。微软在数据质量和训练效率上的研究产生了一个相对其体量在推理任务上表现出色的模型，非常适合边缘部署和资源受限环境。\n\n它不会在复杂任务上匹敌GPT-4或Claude，但对于本地推理、设备端AI和成本敏感的部署，Phi-4填补了重要空白。",
+      "ja": "Phi-4は小型モデルがそのパラメータクラス以上の性能を発揮できることを証明しています。エッジデプロイやリソース制約環境に理想的です。\n\n複雑なタスクでGPT-4やClaudeには及びませんが、ローカル推論、オンデバイスAI、コスト敏感なデプロイで重要なギャップを埋めます。",
+      "es": "Phi-4 demuestra que modelos pequeños pueden superar su clase de parámetros. Ideal para despliegue en edge y entornos con recursos limitados.\n\nNo igualará a GPT-4 en tareas complejas, pero para inferencia local y despliegues sensibles al costo, Phi-4 llena un vacío importante.",
+      "fr": "Phi-4 démontre que les petits modèles peuvent dépasser leur catégorie. Idéal pour le déploiement edge et les environnements à ressources limitées.\n\nIl n'égalera pas GPT-4 sur les tâches complexes, mais pour l'inférence locale et les déploiements sensibles aux coûts, Phi-4 comble un vide important."
+    },
+    "bestFor": {
+      "en": [
+        "Edge and on-device AI deployment",
+        "Cost-sensitive inference workloads",
+        "Research into efficient small models"
+      ],
+      "zh": [
+        "边缘和设备端AI部署",
+        "成本敏感的推理工作负载",
+        "高效小模型研究"
+      ],
+      "ja": [
+        "エッジとオンデバイスAIデプロイ",
+        "コスト敏感な推論ワークロード",
+        "効率的な小型モデルの研究"
+      ],
+      "es": [
+        "Despliegue IA en edge y dispositivos",
+        "Cargas de inferencia sensibles al costo",
+        "Investigación en modelos pequeños eficientes"
+      ],
+      "fr": [
+        "Déploiement IA edge et sur appareil",
+        "Charges d'inférence sensibles aux coûts",
+        "Recherche sur les petits modèles efficaces"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You need maximum reasoning capability (→ GPT-4, Claude)",
+        "You want a full open-source ecosystem (→ Llama, Qwen)"
+      ],
+      "zh": [
+        "需要最强推理能力（→ GPT-4、Claude）",
+        "需要完整开源生态（→ Llama、Qwen）"
+      ],
+      "ja": [
+        "最大の推論能力が必要な場合（→ GPT-4、Claude）",
+        "完全なオープンソースエコシステムが必要な場合（→ Llama、Qwen）"
+      ],
+      "es": [
+        "Necesitas máxima capacidad de razonamiento (→ GPT-4, Claude)",
+        "Quieres un ecosistema open-source completo (→ Llama, Qwen)"
+      ],
+      "fr": [
+        "Vous avez besoin de capacité de raisonnement maximale (→ GPT-4, Claude)",
+        "Vous voulez un écosystème open-source complet (→ Llama, Qwen)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-27",
+    "verdictDate": "2026-07-27",
+    "pricingVerified": "2026-07-27"
+  }
+}

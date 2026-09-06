@@ -1,0 +1,234 @@
+{
+  "features": {
+    "en": [
+      "Multiplayer no-code AI agent and workflow builder for whole companies",
+      "Any AI model with bring-your-own API keys to cut credit costs",
+      "Unlimited seats and teams on every plan — pay for usage, not people",
+      "Agents with skills, knowledge sources, evaluations and reflections",
+      "MCP server hosting, Gumloop CLI and webhooks for developers",
+      "Enterprise controls: RBAC, SCIM/SAML, audit logs, virtual private cloud"
+    ],
+    "zh": [
+      "面向全公司的多人协作无代码 AI Agent 与工作流构建平台",
+      "任意 AI 模型，可自带 API Key 降低积分消耗",
+      "所有套餐席位与团队数不限——按用量付费，不按人头",
+      "智能体支持技能、知识源、评测与反思机制",
+      "面向开发者的 MCP 服务器托管、Gumloop CLI 与 Webhook",
+      "企业级管控：RBAC、SCIM/SAML、审计日志、虚拟私有云"
+    ],
+    "ja": [
+      "全社で使えるマルチプレイヤー型ノーコードAIエージェント＆ワークフロービルダー",
+      "任意のAIモデルに対応、API持ち込みでクレジット消費を削減",
+      "全プランでシート数・チーム数無制限——人数でなく使用量に課金",
+      "スキル・知識ソース・評価・リフレクションを備えたエージェント",
+      "開発者向けのMCPサーバーホスティング、Gumloop CLI、Webhook",
+      "エンタープライズ管理：RBAC、SCIM/SAML、監査ログ、仮想プライベートクラウド"
+    ],
+    "es": [
+      "Constructor colaborativo sin código de agentes IA y flujos para toda la empresa",
+      "Cualquier modelo de IA con tus propias claves API para reducir costes de créditos",
+      "Puestos y equipos ilimitados en todos los planes: pagas por uso, no por personas",
+      "Agentes con habilidades, fuentes de conocimiento, evaluaciones y reflexiones",
+      "Alojamiento de servidores MCP, CLI de Gumloop y webhooks para desarrolladores",
+      "Controles enterprise: RBAC, SCIM/SAML, registros de auditoría, nube privada virtual"
+    ],
+    "fr": [
+      "Constructeur no-code collaboratif d'agents IA et de workflows pour toute l'entreprise",
+      "N'importe quel modèle d'IA avec vos propres clés API pour réduire les crédits",
+      "Sièges et équipes illimités sur tous les plans — on paie l'usage, pas les personnes",
+      "Agents avec compétences, sources de connaissances, évaluations et réflexions",
+      "Hébergement de serveurs MCP, CLI Gumloop et webhooks pour développeurs",
+      "Contrôles entreprise : RBAC, SCIM/SAML, journaux d'audit, cloud privé virtuel"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "14-day free trial of Pro — the pricing page no longer lists a permanent free plan",
+      "zh": "Pro 版 14 天免费试用——定价页已不再提供永久免费版",
+      "ja": "Proの14日間無料トライアルあり——料金ページに恒久無料プランの記載はなくなった",
+      "es": "Prueba gratuita de 14 días del plan Pro: la página de precios ya no lista un plan gratuito permanente",
+      "fr": "Essai gratuit de 14 jours du plan Pro — la page tarifs ne propose plus de plan gratuit permanent"
+    },
+    "paid": {
+      "en": "Pro from $37/mo (20K+ credits/mo, unlimited seats and teams, 5 concurrent runs, 1 hosted MCP server; 20% off annually); Enterprise custom (RBAC, SCIM/SAML, audit logs, VPC, org-wide guardrails)",
+      "zh": "Pro 自 37 美元/月起（每月 2 万+ 积分、席位与团队不限、5 并发运行、1 个托管 MCP 服务器；年付享 8 折）；企业版定制（RBAC、SCIM/SAML、审计日志、VPC、组织级护栏）",
+      "ja": "Pro 月額37ドルから（月2万+クレジット、シート・チーム無制限、同時実行5、ホスト型MCPサーバー1つ、年払い20%オフ）、Enterpriseはカスタム（RBAC、SCIM/SAML、監査ログ、VPC、組織全体のガードレール）",
+      "es": "Pro desde 37 $/mes (más de 20K créditos/mes, puestos y equipos ilimitados, 5 ejecuciones concurrentes, 1 servidor MCP alojado; 20% de descuento anual); Enterprise a medida (RBAC, SCIM/SAML, auditoría, VPC, guardarraíles organizativos)",
+      "fr": "Pro à partir de 37 $/mois (20K+ crédits/mois, sièges et équipes illimités, 5 exécutions simultanées, 1 serveur MCP hébergé ; -20 % en annuel) ; Enterprise sur mesure (RBAC, SCIM/SAML, journaux d'audit, VPC, garde-fous organisationnels)"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Ops and marketing teams automating research, enrichment and reporting",
+      "Company-wide agent adoption with IT keeping access under control",
+      "Document processing pipelines mixing AI nodes with app integrations",
+      "Developers exposing workflows as MCP servers for other AI tools"
+    ],
+    "zh": [
+      "运营与市场团队自动化调研、数据补全与报表",
+      "全公司推广智能体，同时 IT 统一管控访问权限",
+      "混合 AI 节点与应用集成的文档处理流水线",
+      "开发者把工作流封装成 MCP 服务器供其他 AI 工具调用"
+    ],
+    "ja": [
+      "運用・マーケチームのリサーチ、データ補完、レポート自動化",
+      "IT部門が権限を管理しながら全社にエージェントを展開",
+      "AIノードとアプリ連携を組み合わせた文書処理パイプライン",
+      "開発者がワークフローをMCPサーバー化して他のAIツールに提供"
+    ],
+    "es": [
+      "Equipos de operaciones y marketing automatizando investigación, enriquecimiento e informes",
+      "Adopción de agentes en toda la empresa con acceso controlado por TI",
+      "Pipelines de procesamiento de documentos que mezclan nodos IA e integraciones",
+      "Desarrolladores exponiendo flujos como servidores MCP para otras herramientas IA"
+    ],
+    "fr": [
+      "Équipes ops et marketing automatisant recherche, enrichissement et reporting",
+      "Adoption d'agents à l'échelle de l'entreprise sous contrôle de la DSI",
+      "Pipelines de traitement documentaire mêlant nœuds IA et intégrations",
+      "Développeurs exposant leurs workflows comme serveurs MCP pour d'autres outils IA"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Unlimited seats flips the pricing model — whole teams for one usage bill",
+      "Bring-your-own-keys halves credit costs on AI-heavy workflows",
+      "Benchmark-led $50M Series B signals strong momentum",
+      "Trusted by Gusto, Instacart, Shopify and Ramp"
+    ],
+    "zh": [
+      "席位不限颠覆了定价模式——整个团队只付一份用量账单",
+      "自带 API Key 可把 AI 密集型工作流的积分成本减半",
+      "Benchmark 领投 5000 万美元 B 轮，势头强劲",
+      "Gusto、Instacart、Shopify、Ramp 等团队都在用"
+    ],
+    "ja": [
+      "シート無制限が価格モデルを一変——チーム全体で使用量分だけ支払い",
+      "API持ち込みでAI集約型ワークフローのクレジットコストを半減",
+      "Benchmark主導の5,000万ドルシリーズBで勢いは十分",
+      "Gusto、Instacart、Shopify、Rampなどが採用"
+    ],
+    "es": [
+      "Los puestos ilimitados cambian el modelo: todo el equipo con una sola factura de uso",
+      "Usar tus propias claves reduce a la mitad los créditos en flujos intensivos de IA",
+      "La Serie B de 50 M$ liderada por Benchmark avala su impulso",
+      "Con la confianza de Gusto, Instacart, Shopify y Ramp"
+    ],
+    "fr": [
+      "Les sièges illimités renversent le modèle tarifaire — toute l'équipe pour une seule facture d'usage",
+      "Vos propres clés API divisent par deux le coût des workflows riches en IA",
+      "La série B de 50 M$ menée par Benchmark confirme la dynamique",
+      "Adopté par Gusto, Instacart, Shopify et Ramp"
+    ]
+  },
+  "cons": {
+    "en": [
+      "No permanent free plan anymore — trial-only entry",
+      "Credit-based billing takes effort to estimate for complex flows",
+      "5 concurrent runs on Pro can bottleneck heavy automation",
+      "Younger ecosystem than Zapier or Make for niche integrations"
+    ],
+    "zh": [
+      "不再有永久免费版——只能试用后付费",
+      "积分计费在复杂流程下不易预估",
+      "Pro 版 5 并发运行对重度自动化可能成为瓶颈",
+      "小众集成生态比 Zapier、Make 年轻"
+    ],
+    "ja": [
+      "恒久無料プランが廃止され、トライアルのみ",
+      "クレジット課金は複雑なフローだと見積もりが難しい",
+      "Proの同時実行5は重い自動化ではボトルネックになり得る",
+      "ニッチな連携ではZapierやMakeよりエコシステムが若い"
+    ],
+    "es": [
+      "Ya no hay plan gratuito permanente: solo prueba",
+      "La facturación por créditos es difícil de estimar en flujos complejos",
+      "Las 5 ejecuciones concurrentes de Pro pueden ser un cuello de botella",
+      "Ecosistema más joven que Zapier o Make en integraciones de nicho"
+    ],
+    "fr": [
+      "Plus de plan gratuit permanent — entrée par essai uniquement",
+      "La facturation aux crédits est difficile à estimer sur les flux complexes",
+      "Les 5 exécutions simultanées du Pro peuvent limiter les grosses automatisations",
+      "Écosystème plus jeune que Zapier ou Make pour les intégrations de niche"
+    ]
+  },
+  "latestUpdate": {
+    "en": "2026: Gumloop raises a $50M Series B led by Benchmark, consolidates plans around Pro (from $37/mo with unlimited seats) and Enterprise, and adds MCP server hosting, agent reflections and a CLI",
+    "zh": "2026 年：Gumloop 完成 Benchmark 领投的 5000 万美元 B 轮，套餐整合为 Pro（37 美元/月起、席位不限）与企业版，并新增 MCP 服务器托管、智能体反思与 CLI",
+    "ja": "2026年：GumloopはBenchmark主導で5,000万ドルのシリーズBを調達。プランをPro（月額37ドルから、シート無制限）とEnterpriseに集約し、MCPサーバーホスティング、エージェントリフレクション、CLIを追加",
+    "es": "2026: Gumloop cierra una Serie B de 50 M$ liderada por Benchmark, consolida sus planes en Pro (desde 37 $/mes con puestos ilimitados) y Enterprise, y añade alojamiento de servidores MCP, reflexiones de agentes y una CLI",
+    "fr": "2026 : Gumloop lève une série B de 50 M$ menée par Benchmark, regroupe ses offres en Pro (dès 37 $/mois avec sièges illimités) et Enterprise, et ajoute l'hébergement de serveurs MCP, les réflexions d'agents et une CLI"
+  },
+  "verdict": {
+    "badge": "Recommended",
+    "headline": {
+      "en": "The team-first agent builder that charges for work, not headcount",
+      "zh": "按工作量而非人头收费的团队优先智能体构建平台",
+      "ja": "人数でなく仕事量に課金する、チームファーストのエージェントビルダー",
+      "es": "El constructor de agentes para equipos que cobra por trabajo, no por personas",
+      "fr": "Le constructeur d'agents pensé équipe qui facture le travail, pas les effectifs"
+    },
+    "body": {
+      "en": "Gumloop's sharpest idea is economic: unlimited seats on every plan means the whole company can build and run agents while finance sees a single usage bill. Add bring-your-own API keys, MCP server hosting and IT-grade guardrails, and it reads like an automation platform designed after the AI wave rather than retrofitted to it. The flip side of that confidence is the disappearing free tier and credit math that takes a pilot project to predict — but for teams ready to commit, the Benchmark-backed momentum is real.",
+      "zh": "Gumloop 最锋利的创新在经济模型：所有套餐席位不限，全公司都能构建和运行智能体，而财务只看到一张用量账单。再加上自带 API Key、MCP 服务器托管和 IT 级护栏，它更像一个在 AI 浪潮之后原生设计的自动化平台，而非事后改装。这份自信的另一面是免费版的消失和需要试点项目才能算清的积分账——但对准备好投入的团队来说，Benchmark 加持的势头是真实的。",
+      "ja": "Gumloopの最も鋭いアイデアは経済モデルにある。全プランでシート無制限だから、全社でエージェントを構築・運用しても、経理が見るのは使用量の請求書一枚だけ。API持ち込み、MCPサーバーホスティング、IT級のガードレールも加わり、AI波の後にゼロから設計された自動化プラットフォームという趣だ。その自信の裏返しが無料プランの廃止と、試験導入しないと読めないクレジット計算——しかし本気で取り組むチームにとって、Benchmarkが後押しする勢いは本物だ。",
+      "es": "La idea más afilada de Gumloop es económica: puestos ilimitados en todos los planes significa que toda la empresa puede crear y ejecutar agentes mientras finanzas ve una sola factura de uso. Suma tus propias claves API, alojamiento de servidores MCP y guardarraíles de nivel TI, y parece una plataforma de automatización diseñada después de la ola de IA, no adaptada a ella. La otra cara de esa confianza es la desaparición del plan gratuito y unos créditos que exigen un piloto para predecirse; pero para equipos decididos, el impulso respaldado por Benchmark es real.",
+      "fr": "L'idée la plus tranchante de Gumloop est économique : des sièges illimités sur tous les plans, donc toute l'entreprise peut créer et exécuter des agents pendant que la finance ne voit qu'une seule facture d'usage. Ajoutez les clés API personnelles, l'hébergement de serveurs MCP et des garde-fous de niveau DSI, et on dirait une plateforme d'automatisation conçue après la vague IA plutôt qu'adaptée à celle-ci. Le revers de cette assurance : la disparition de l'offre gratuite et un calcul de crédits qui exige un projet pilote — mais pour les équipes prêtes à s'engager, la dynamique soutenue par Benchmark est bien réelle."
+    },
+    "bestFor": {
+      "en": [
+        "Companies rolling out AI agents across many departments",
+        "Ops teams that outgrew Zapier-style linear automations",
+        "Organizations wanting IT guardrails without blocking builders"
+      ],
+      "zh": [
+        "要在多个部门推广 AI 智能体的公司",
+        "已经超出 Zapier 式线性自动化需求的运营团队",
+        "想要 IT 护栏又不想阻碍业务搭建的组织"
+      ],
+      "ja": [
+        "複数部門にAIエージェントを展開する企業",
+        "Zapier型の線形自動化では物足りなくなった運用チーム",
+        "現場の構築を妨げずにITガードレールを敷きたい組織"
+      ],
+      "es": [
+        "Empresas desplegando agentes IA en varios departamentos",
+        "Equipos de operaciones que superaron las automatizaciones lineales tipo Zapier",
+        "Organizaciones que quieren guardarraíles de TI sin frenar a los creadores"
+      ],
+      "fr": [
+        "Entreprises déployant des agents IA dans plusieurs services",
+        "Équipes ops ayant dépassé les automatisations linéaires façon Zapier",
+        "Organisations voulant des garde-fous DSI sans bloquer les créateurs"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You want a free plan or open source self-hosting (→ Flowise, n8n)",
+        "You mainly need simple app-to-app automations (→ Zapier AI, Make AI)"
+      ],
+      "zh": [
+        "你想要免费版或开源自托管（→ Flowise、n8n）",
+        "你主要需要简单的应用间自动化（→ Zapier AI、Make AI）"
+      ],
+      "ja": [
+        "無料プランやオープンソースのセルフホストが欲しい（→ Flowise、n8n）",
+        "主に必要なのはシンプルなアプリ間自動化（→ Zapier AI、Make AI）"
+      ],
+      "es": [
+        "Quieres un plan gratuito o autoalojamiento open source (→ Flowise, n8n)",
+        "Principalmente necesitas automatizaciones simples entre apps (→ Zapier AI, Make AI)"
+      ],
+      "fr": [
+        "Vous voulez un plan gratuit ou de l'auto-hébergement open source (→ Flowise, n8n)",
+        "Vous cherchez surtout des automatisations simples entre apps (→ Zapier AI, Make AI)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-27",
+    "verdictDate": "2026-07-27",
+    "pricingVerified": "2026-07-27"
+  }
+}

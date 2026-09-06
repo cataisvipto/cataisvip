@@ -1,0 +1,234 @@
+{
+  "features": {
+    "en": [
+      "AI-native IDE, now the desktop editor of the Devin suite",
+      "Autocomplete, chat, agent modes",
+      "Deep codebase understanding",
+      "Multi-file editing with AI",
+      "Built-in terminal and debugger",
+      "Cross-platform desktop app"
+    ],
+    "zh": [
+      "AI 原生 IDE，现为 Devin 套件的桌面编辑器",
+      "自动补全、聊天和代理模式",
+      "深度代码库理解",
+      "AI 多文件编辑",
+      "内置终端和调试器",
+      "跨平台桌面应用"
+    ],
+    "ja": [
+      "AIネイティブIDE、現在はDevinスイートのデスクトップエディタ",
+      "オートコンプリート、チャット、エージェントモード",
+      "コードベースの深い理解",
+      "AI による複数ファイル編集",
+      "内蔵ターミナルとデバッガー",
+      "クロスプラットフォーム"
+    ],
+    "es": [
+      "IDE nativa de IA, ahora el editor de escritorio de la suite Devin",
+      "Autocompletado, chat y modos agente",
+      "Comprensión profunda del código",
+      "Edición multiarchivo con IA",
+      "Terminal y depurador integrados",
+      "Escritorio multiplataforma"
+    ],
+    "fr": [
+      "IDE natif IA, désormais l'éditeur de bureau de la suite Devin",
+      "Autocomplétion, chat et modes agent",
+      "Compréhension approfondie du code",
+      "Édition multi-fichiers avec IA",
+      "Terminal et débogueur intégrés",
+      "Multiplateforme"
+    ]
+  },
+  "useCases": {
+    "en": [
+      "AI-assisted coding",
+      "Code review",
+      "Rapid prototyping",
+      "Learning new codebases"
+    ],
+    "zh": [
+      "AI 辅助编码",
+      "代码审查",
+      "快速原型",
+      "学习新代码库"
+    ],
+    "ja": [
+      "AI 支援コーディング",
+      "コードレビュー",
+      "迅速なプロトタイピング",
+      "新しいコードベースの学習"
+    ],
+    "es": [
+      "Codificación asistida por IA",
+      "Revisión de código",
+      "Prototipado rápido",
+      "Aprendizaje de codebases"
+    ],
+    "fr": [
+      "Codage assisté par IA",
+      "Révision de code",
+      "Prototypage rapide",
+      "Apprentissage de codebases"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Powerful AI code understanding",
+      "Fast and responsive",
+      "Free tier"
+    ],
+    "zh": [
+      "强大的 AI 代码理解",
+      "快速响应",
+      "免费版"
+    ],
+    "ja": [
+      "強力な AI コード理解",
+      "高速レスポンス",
+      "無料版"
+    ],
+    "es": [
+      "Comprensión de código IA",
+      "Rápido",
+      "Plan gratuito"
+    ],
+    "fr": [
+      "Compréhension de code IA",
+      "Rapide",
+      "Forfait gratuit"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Less mature than Cursor",
+      "Limited plugin ecosystem",
+      "No longer a standalone product — bundled into Devin plans"
+    ],
+    "zh": [
+      "不如 Cursor 成熟",
+      "插件生态有限",
+      "不再是独立产品——已并入 Devin 订阅体系"
+    ],
+    "ja": [
+      "Cursor ほど成熟していない",
+      "プラグインが限定的",
+      "独立製品ではなくなり、Devinプランに統合"
+    ],
+    "es": [
+      "Menos maduro que Cursor",
+      "Plugins limitados",
+      "Ya no es un producto independiente: integrado en los planes de Devin"
+    ],
+    "fr": [
+      "Moins mature que Cursor",
+      "Plugins limités",
+      "N'est plus un produit autonome — intégré aux offres Devin"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Devin Free plan: $0 with unlimited Tab completions and inline edits in Devin Desktop",
+      "zh": "Devin 免费版：0 美元，Devin Desktop 内 Tab 补全与内联编辑不限量",
+      "ja": "Devin無料プラン：0ドル。Devin DesktopのTab補完とインライン編集は無制限",
+      "es": "Plan gratuito de Devin: 0 $ con autocompletado Tab y ediciones en línea ilimitados en Devin Desktop",
+      "fr": "Offre gratuite Devin : 0 $ avec complétions Tab et éditions en ligne illimitées dans Devin Desktop"
+    },
+    "pro": {
+      "en": "Included with Devin subscriptions: Pro $20/mo, Max $200/mo, Team $80/mo + $40 per full seat",
+      "zh": "随 Devin 订阅提供：Pro 20 美元/月、Max 200 美元/月、Team 80 美元/月 + 每正式席位 40 美元/月",
+      "ja": "Devinサブスクリプションに含まれる：Pro 月20ドル、Max 月200ドル、Team 月80ドル＋フルシート毎月40ドル",
+      "es": "Incluido en las suscripciones de Devin: Pro 20 $/mes, Max 200 $/mes, Team 80 $/mes + 40 $ por asiento",
+      "fr": "Inclus dans les abonnements Devin : Pro 20 $/mois, Max 200 $/mois, Team 80 $/mois + 40 $ par siège"
+    }
+  },
+  "latestUpdate": {
+    "en": "2026: Acquired by Cognition (~$250M) and renamed Devin Desktop in June 2026; now ships as the desktop IDE of the Devin subscription with unlimited Tab completion and the in-house SWE 1.7 model",
+    "zh": "2026 年：被 Cognition 以约 2.5 亿美元收购，2026 年 6 月更名 Devin Desktop；现作为 Devin 订阅的桌面 IDE 交付，含无限 Tab 补全与自研 SWE 1.7 模型",
+    "ja": "2026年：Cognitionに約2.5億ドルで買収され、2026年6月にDevin Desktopへ改名。現在はDevinサブスクリプションのデスクトップIDEとして提供され、無制限のTab補完と自社製SWE 1.7モデルを搭載",
+    "es": "2026: adquirido por Cognition (~250 M$) y renombrado Devin Desktop en junio de 2026; ahora es el IDE de escritorio de la suscripción Devin con Tab ilimitado y el modelo propio SWE 1.7",
+    "fr": "2026 : racheté par Cognition (~250 M$) et renommé Devin Desktop en juin 2026 ; c'est désormais l'IDE de bureau de l'abonnement Devin avec complétion Tab illimitée et le modèle maison SWE 1.7"
+  },
+  "verdict": {
+    "badge": "Recommended",
+    "headline": {
+      "en": "An AI-native code editor that pairs real-time suggestions with deep codebase awareness.",
+      "zh": "AI原生代码编辑器，将实时建议与深度代码库感知结合。",
+      "ja": "リアルタイム提案とコードベースの深い理解を組み合わせたAIネイティブコードエディタ。",
+      "es": "Un editor de código nativo IA que combina sugerencias en tiempo real con comprensión profunda del código.",
+      "fr": "Un éditeur de code natif IA combinant suggestions en temps réel et compréhension profonde de la base de code."
+    },
+    "body": {
+      "en": "Note: Windsurf was acquired by Cognition and renamed Devin Desktop in June 2026 — it now ships as part of the Devin subscription. The editor experience reviewed below continues under the new name.\n\nWindsurf (formerly Codeium) is a VS Code-based editor rebuilt around AI collaboration. Its Cascade feature acts as a persistent coding agent that tracks your recent changes, understands your project context, and proactively suggests next steps—going beyond simple autocomplete into something closer to pair programming.\n\nThe experience feels fluid for everyday coding: inline completions, chat-based refactoring, and multi-file edits that respect your project's patterns. It supports multiple model backends and offers a generous free tier.\n\nCompared to Cursor, Windsurf is slightly less aggressive in its AI interventions—which some developers prefer. Against GitHub Copilot, Windsurf offers deeper contextual awareness but less mature enterprise features.",
+      "zh": "注：Windsurf 已被 Cognition 收购，并于 2026 年 6 月更名 Devin Desktop——现作为 Devin 订阅的一部分交付。下文点评的编辑器体验在新名称下延续。\n\nWindsurf（前身为Codeium）是基于VS Code重构的AI协作编辑器。其Cascade功能作为持久编码智能体，跟踪你最近的改动，理解项目上下文，主动建议下一步。\n\n日常编码体验流畅：内联补全、基于对话的重构、尊重项目模式的多文件编辑。支持多种模型后端并提供慷慨的免费层。\n\n与Cursor相比，Windsurf的AI干预稍微温和。对比GitHub Copilot，Windsurf提供更深的上下文感知但企业功能不够成熟。",
+      "ja": "注：WindsurfはCognitionに買収され、2026年6月にDevin Desktopへ改名——現在はDevinサブスクリプションの一部として提供されています。以下でレビューするエディタ体験は新名称の下で継続しています。\n\nWindsurf（旧Codeium）はAIコラボレーションを中心に再構築されたVS Codeベースのエディタです。Cascade機能は永続的なコーディングエージェントとして、最近の変更を追跡し、プロジェクトのコンテキストを理解します。\n\n日常のコーディング体験は流動的です：インライン補完、チャットベースのリファクタリング、マルチファイル編集。複数のモデルバックエンドをサポートし、寛大な無料枠を提供しています。\n\nCursorと比較すると、WindsurfのAI介入はやや控えめです。",
+      "es": "Nota: Windsurf fue adquirido por Cognition y renombrado Devin Desktop en junio de 2026; ahora forma parte de la suscripción Devin. La experiencia de editor reseñada abajo continúa bajo el nuevo nombre.\n\nWindsurf (anteriormente Codeium) es un editor basado en VS Code reconstruido alrededor de la colaboración con IA. Su función Cascade actúa como un agente de código persistente.\n\nLa experiencia es fluida para la codificación diaria. Soporta múltiples backends de modelos y ofrece un nivel gratuito generoso.\n\nComparado con Cursor, Windsurf es ligeramente menos agresivo en sus intervenciones IA.",
+      "fr": "Note : Windsurf a été racheté par Cognition et renommé Devin Desktop en juin 2026 — il fait désormais partie de l'abonnement Devin. L'expérience d'éditeur passée en revue ci-dessous se poursuit sous le nouveau nom.\n\nWindsurf (anciennement Codeium) est un éditeur basé sur VS Code reconstruit autour de la collaboration IA. Sa fonction Cascade agit comme un agent de code persistant.\n\nL'expérience est fluide au quotidien. Il supporte plusieurs backends de modèles et offre un tier gratuit généreux.\n\nComparé à Cursor, Windsurf est légèrement moins agressif dans ses interventions IA."
+    },
+    "bestFor": {
+      "en": [
+        "Developers wanting a free AI-enhanced coding experience",
+        "Teams preferring less aggressive AI suggestions over Cursor",
+        "Projects where multi-file context awareness matters",
+        "VS Code users looking for an AI-native upgrade"
+      ],
+      "zh": [
+        "希望获得免费AI增强编码体验的开发者",
+        "偏好比Cursor更温和AI建议的团队",
+        "多文件上下文感知重要的项目",
+        "寻找AI原生升级的VS Code用户"
+      ],
+      "ja": [
+        "無料のAI強化コーディング体験を求める開発者",
+        "CursorよりAI提案を控えめにしたいチーム",
+        "マルチファイルのコンテキスト認識が重要なプロジェクト",
+        "AIネイティブなアップグレードを求めるVS Codeユーザー"
+      ],
+      "es": [
+        "Desarrolladores que buscan una experiencia de código con IA gratuita",
+        "Equipos que prefieren sugerencias IA menos agresivas que Cursor",
+        "Proyectos donde importa la conciencia de contexto multi-archivo",
+        "Usuarios de VS Code buscando una mejora nativa de IA"
+      ],
+      "fr": [
+        "Développeurs souhaitant une expérience de code avec IA gratuite",
+        "Équipes préférant des suggestions IA moins agressives que Cursor",
+        "Projets où la conscience de contexte multi-fichiers compte",
+        "Utilisateurs VS Code cherchant une mise à niveau native IA"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You want the most aggressive AI-driven code editing available (→ Cursor)",
+        "You need enterprise-grade security and compliance features (→ GitHub Copilot)",
+        "You prefer terminal-based workflows for large refactors (→ Claude Code)"
+      ],
+      "zh": [
+        "你想要最激进的AI驱动代码编辑（→ Cursor）",
+        "你需要企业级安全和合规功能（→ GitHub Copilot）",
+        "你偏好终端工作流进行大规模重构（→ Claude Code）"
+      ],
+      "ja": [
+        "最も積極的なAI駆動コード編集が欲しい場合（→ Cursor）",
+        "エンタープライズグレードのセキュリティが必要な場合（→ GitHub Copilot）",
+        "大規模リファクタリングにターミナルを好む場合（→ Claude Code）"
+      ],
+      "es": [
+        "Quieres la edición de código más agresiva con IA (→ Cursor)",
+        "Necesitas funciones de seguridad empresarial (→ GitHub Copilot)",
+        "Prefieres flujos de trabajo en terminal para refactorizaciones grandes (→ Claude Code)"
+      ],
+      "fr": [
+        "Vous voulez l'édition de code la plus agressive par IA (→ Cursor)",
+        "Vous avez besoin de fonctionnalités de sécurité enterprise (→ GitHub Copilot)",
+        "Vous préférez les workflows terminal pour les grands refactorings (→ Claude Code)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-30",
+    "verdictDate": "2026-07-27",
+    "pricingVerified": "2026-07-27"
+  }
+}

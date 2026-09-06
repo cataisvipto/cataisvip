@@ -1,0 +1,235 @@
+{
+  "features": {
+    "en": [
+      "1000+ production-ready generative media models: FLUX, Kling, Veo, Wan and more",
+      "Custom inference engine claimed up to 10x faster for diffusion models",
+      "Realtime WebSocket API for sub-second interactive image generation",
+      "LoRA training for FLUX and other models in minutes",
+      "Serverless GPU compute (H100/H200/B200) billed by the second",
+      "Day-one access to new image and video model releases"
+    ],
+    "zh": [
+      "1000+ 生产可用的生成媒体模型：FLUX、Kling、Veo、Wan 等",
+      "自研推理引擎，号称扩散模型最高提速 10 倍",
+      "实时 WebSocket API，亚秒级交互式图像生成",
+      "FLUX 等模型的 LoRA 训练，几分钟出结果",
+      "Serverless GPU 算力（H100/H200/B200），按秒计费",
+      "新图像与视频模型发布首日即可调用"
+    ],
+    "ja": [
+      "1000以上の本番対応生成メディアモデル：FLUX、Kling、Veo、Wanなど",
+      "拡散モデルで最大10倍高速と謳う独自推論エンジン",
+      "サブ秒のインタラクティブ画像生成を可能にするリアルタイムWebSocket API",
+      "FLUXなどのLoRAトレーニングが数分で完了",
+      "秒単位課金のサーバーレスGPUコンピュート（H100/H200/B200）",
+      "新しい画像・動画モデルへの発売初日アクセス"
+    ],
+    "es": [
+      "Más de 1000 modelos de media generativa listos para producción: FLUX, Kling, Veo, Wan y más",
+      "Motor de inferencia propio que afirma ser hasta 10x más rápido para modelos de difusión",
+      "API WebSocket en tiempo real para generación interactiva de imágenes en menos de un segundo",
+      "Entrenamiento LoRA para FLUX y otros modelos en minutos",
+      "Cómputo GPU serverless (H100/H200/B200) facturado por segundo",
+      "Acceso desde el primer día a los nuevos lanzamientos de modelos de imagen y video"
+    ],
+    "fr": [
+      "Plus de 1000 modèles de média génératif prêts pour la production : FLUX, Kling, Veo, Wan et plus",
+      "Moteur d'inférence maison annoncé jusqu'à 10x plus rapide pour les modèles de diffusion",
+      "API WebSocket temps réel pour la génération d'images interactive en moins d'une seconde",
+      "Entraînement LoRA pour FLUX et d'autres modèles en quelques minutes",
+      "Calcul GPU serverless (H100/H200/B200) facturé à la seconde",
+      "Accès dès le premier jour aux nouvelles sorties de modèles image et vidéo"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Free credits on signup let you test models in the browser playground before wiring up the API; many models expose free preview runs.",
+      "zh": "注册即送免费额度，可先在浏览器 Playground 里试模型再接 API；不少模型提供免费预览运行。",
+      "ja": "登録時の無料クレジットで、APIを繋ぐ前にブラウザのプレイグラウンドでモデルをテスト可能。多くのモデルが無料プレビュー実行を提供。",
+      "es": "Los créditos gratuitos al registrarse permiten probar modelos en el playground del navegador antes de conectar la API; muchos modelos ofrecen ejecuciones de vista previa gratuitas.",
+      "fr": "Des crédits gratuits à l'inscription permettent de tester les modèles dans le playground navigateur avant de brancher l'API ; de nombreux modèles offrent des exécutions d'aperçu gratuites."
+    },
+    "paid": {
+      "en": "Pay-per-use by model output (e.g. FLUX images from fractions of a cent per megapixel, video models per second of footage) or serverless GPU time — H100 from $1.89/hr, with H200 and B200 tiers above; volume and enterprise pricing on request. (Verified against the official pricing page, 2026-07-28.)",
+      "zh": "按模型产出计价（如 FLUX 图像按百万像素计、不足一美分起，视频模型按成片秒数计），或按 Serverless GPU 时长——H100 $1.89/小时起，H200、B200 档更高；批量与企业价格另议。（对照官方定价页核实，2026-07-28。）",
+      "ja": "モデル出力ごとの従量課金（例：FLUX画像はメガピクセルあたり1セント未満から、動画モデルは映像秒数単位）またはサーバーレスGPU時間——H100は$1.89/時から、上位にH200、B200帯。ボリュームとエンタープライズ価格は応相談。（公式価格ページと照合、2026-07-28。）",
+      "es": "Pago por uso según la salida del modelo (p. ej. imágenes FLUX desde fracciones de centavo por megapíxel, modelos de video por segundo de metraje) o tiempo de GPU serverless: H100 desde $1.89/hora, con niveles H200 y B200 por encima; precios por volumen y enterprise bajo consulta. (Verificado con la página oficial de precios, 2026-07-28.)",
+      "fr": "Paiement à l'usage selon la sortie du modèle (p. ex. images FLUX dès des fractions de centime par mégapixel, modèles vidéo à la seconde de séquence) ou temps GPU serverless — H100 dès 1,89 $/h, avec des paliers H200 et B200 au-dessus ; tarifs volume et enterprise sur demande. (Vérifié avec la page tarifaire officielle, 2026-07-28.)"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Powering in-app image generation with realtime, interactive latency",
+      "Adding Kling/Veo-class video generation to products via one API",
+      "Training brand or character LoRAs and serving them at scale",
+      "Swapping between the newest media models without re-integrating"
+    ],
+    "zh": [
+      "为应用内图像生成提供实时交互级延迟",
+      "通过一个 API 给产品加上 Kling/Veo 级视频生成",
+      "训练品牌或角色 LoRA 并规模化部署",
+      "在最新媒体模型之间切换，无需重新集成"
+    ],
+    "ja": [
+      "アプリ内画像生成にリアルタイムの対話的レイテンシを提供",
+      "1つのAPIで製品にKling/Veo級の動画生成を追加",
+      "ブランドやキャラクターのLoRAをトレーニングして大規模に提供",
+      "再統合なしで最新メディアモデル間を切り替え"
+    ],
+    "es": [
+      "Impulsar la generación de imágenes en la app con latencia interactiva en tiempo real",
+      "Añadir generación de video clase Kling/Veo a productos con una sola API",
+      "Entrenar LoRAs de marca o personaje y servirlas a escala",
+      "Cambiar entre los modelos de media más nuevos sin reintegrar"
+    ],
+    "fr": [
+      "Alimenter la génération d'images in-app avec une latence interactive temps réel",
+      "Ajouter la génération vidéo de classe Kling/Veo aux produits via une seule API",
+      "Entraîner des LoRA de marque ou de personnage et les servir à grande échelle",
+      "Basculer entre les modèles média les plus récents sans réintégration"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Widely benchmarked as the fastest diffusion inference on the market",
+      "Laser focus on generative media pays off in tooling and model depth",
+      "New image/video models are live on fal within hours of release",
+      "H100 at $1.89/hr is aggressive pricing for serverless GPUs"
+    ],
+    "zh": [
+      "各方基准普遍认可其扩散推理速度市场最快",
+      "死磕生成媒体这一件事，工具链与模型深度都见回报",
+      "新图像/视频模型发布几小时内就在 fal 上线",
+      "H100 $1.89/小时，在 Serverless GPU 里定价相当凶"
+    ],
+    "ja": [
+      "市場最速の拡散推論として広くベンチマークで実証",
+      "生成メディアへの一点集中がツールとモデルの深さに結実",
+      "新しい画像・動画モデルはリリース数時間以内にfalで稼働",
+      "H100が$1.89/時というのはサーバーレスGPUとして攻めた価格"
+    ],
+    "es": [
+      "Ampliamente evaluado como la inferencia de difusión más rápida del mercado",
+      "El enfoque láser en media generativa da frutos en herramientas y profundidad de modelos",
+      "Los nuevos modelos de imagen/video están en fal a horas de su lanzamiento",
+      "H100 a $1.89/hora es un precio agresivo para GPUs serverless"
+    ],
+    "fr": [
+      "Largement mesuré comme l'inférence de diffusion la plus rapide du marché",
+      "La concentration exclusive sur le média génératif paie en outillage et en profondeur de modèles",
+      "Les nouveaux modèles image/vidéo sont sur fal quelques heures après leur sortie",
+      "Le H100 à 1,89 $/h est un tarif agressif pour du GPU serverless"
+    ]
+  },
+  "cons": {
+    "en": [
+      "No LLM story — text workloads need a second provider",
+      "Per-output pricing across 1000+ models makes cost auditing tedious",
+      "Younger company with a thinner enterprise/compliance track record",
+      "Speed claims vary by model; benchmark your specific pipeline"
+    ],
+    "zh": [
+      "没有 LLM 业务——文本负载得另找一家供应商",
+      "1000+ 模型各有各的产出计价，成本审计相当繁琐",
+      "公司更年轻，企业级/合规履历相对单薄",
+      "提速幅度因模型而异，务必用自己的管线实测"
+    ],
+    "ja": [
+      "LLMは扱っていない——テキストワークロードには別のプロバイダーが必要",
+      "1000以上のモデルがそれぞれ出力単位で課金され、コスト監査は面倒",
+      "比較的若い会社でエンタープライズ/コンプライアンスの実績は薄め",
+      "高速化の度合いはモデル次第——自分のパイプラインでベンチマークを"
+    ],
+    "es": [
+      "Sin oferta de LLM: las cargas de texto necesitan un segundo proveedor",
+      "El precio por salida en más de 1000 modelos hace tediosa la auditoría de costes",
+      "Empresa más joven con un historial enterprise/de cumplimiento más delgado",
+      "Las cifras de velocidad varían según el modelo; haz benchmark de tu pipeline concreto"
+    ],
+    "fr": [
+      "Pas d'offre LLM — les charges texte exigent un second fournisseur",
+      "La tarification à la sortie sur plus de 1000 modèles rend l'audit des coûts fastidieux",
+      "Entreprise plus jeune au palmarès enterprise/conformité plus mince",
+      "Les gains de vitesse varient selon le modèle ; benchmarkez votre pipeline précis"
+    ]
+  },
+  "latestUpdate": {
+    "en": "2026: fal cemented its position as the generative media backbone — the catalog passed 1000 models spanning FLUX, Kling, Veo-class video and Wan, realtime WebSocket generation went mainstream in design tools, and B200 GPUs joined the serverless fleet while H100 pricing held at $1.89/hr.",
+    "zh": "2026 年：fal 坐实了生成媒体基础设施的位置——目录突破 1000 个模型，覆盖 FLUX、Kling、Veo 级视频与 Wan；实时 WebSocket 生成在设计工具中成为主流；B200 GPU 加入 Serverless 集群，H100 价格稳在 $1.89/小时。",
+    "ja": "2026年：falは生成メディアの基盤としての地位を固めた——カタログはFLUX、Kling、Veo級動画、Wanにまたがる1000モデルを突破。リアルタイムWebSocket生成はデザインツールで主流になり、B200 GPUがサーバーレス群に加わる一方、H100の価格は$1.89/時を維持。",
+    "es": "2026: fal consolidó su posición como columna vertebral del media generativo: el catálogo superó los 1000 modelos abarcando FLUX, Kling, video clase Veo y Wan, la generación WebSocket en tiempo real se volvió corriente en herramientas de diseño, y las GPUs B200 se unieron a la flota serverless mientras el precio del H100 se mantuvo en $1.89/hora.",
+    "fr": "2026 : fal a consolidé sa position d'épine dorsale du média génératif — le catalogue a dépassé les 1000 modèles couvrant FLUX, Kling, la vidéo de classe Veo et Wan, la génération WebSocket temps réel s'est généralisée dans les outils de design, et les GPU B200 ont rejoint la flotte serverless tandis que le H100 restait à 1,89 $/h."
+  },
+  "verdict": {
+    "badge": "Recommended",
+    "headline": {
+      "en": "If your product generates images or video, this is your inference layer",
+      "zh": "如果你的产品要生成图像或视频，这就是你的推理层",
+      "ja": "画像や動画を生成する製品なら、これがあなたの推論レイヤーだ",
+      "es": "Si tu producto genera imágenes o video, esta es tu capa de inferencia",
+      "fr": "Si votre produit génère des images ou de la vidéo, voici votre couche d'inférence"
+    },
+    "body": {
+      "en": "fal made one bet and made it hard: skip LLMs entirely and become the fastest place on the internet to run image, video and audio models. The bet paid off. Its custom diffusion engine routinely tops independent speed benchmarks, the realtime WebSocket API turned image generation from a loading bar into a live preview, and the catalog — 1000+ models with FLUX, Kling, Veo-class video and Wan onboard within hours of release — has become the de facto menu of generative media. Design tools, avatar apps and video startups increasingly run on fal without their users ever knowing. The specialization cuts both ways: there is no LLM offering, so most teams pair fal with Together or Fireworks; per-output pricing across a thousand models makes cost forecasting a spreadsheet exercise; and its enterprise paper trail is shorter than the hyperscalers'. Replicate counters with breadth and community, and it remains better for exploring the long tail. But when a media feature graduates from experiment to production traffic, teams consistently land in the same place — fal, for the simple reason that speed is the feature users feel. In generative media inference, it has earned default status.",
+      "zh": "fal 只押了一注，而且押得很重：完全跳过 LLM，专心做互联网上跑图像、视频与音频模型最快的地方。这注押对了。它的自研扩散引擎在各家独立速度基准里常年霸榜；实时 WebSocket API 把图像生成从进度条变成了实时预览；而它的目录——1000+ 模型，FLUX、Kling、Veo 级视频、Wan 都在发布几小时内上架——已成为生成媒体的事实菜单。设计工具、数字人应用、视频创业公司越来越多地跑在 fal 上，用户却毫无察觉。专精是把双刃剑：没有 LLM 产品线，多数团队得拿 fal 搭配 Together 或 Fireworks；上千个模型各自按产出计价，成本预测成了表格苦活；企业级履历也比超大云短。Replicate 用广度和社区反击，探索长尾模型仍是它更强。但当一个媒体功能从实验毕业、迎来生产流量时，各家团队总是殊途同归地落在同一个地方——fal，理由很简单：速度是用户唯一能亲身感到的功能。在生成媒体推理这条赛道上，它配得上默认选项的地位。",
+      "ja": "falは一つの賭けに全力を注いだ。LLMを完全にスキップし、画像・動画・音声モデルをインターネット上で最速で実行できる場所になることだ。その賭けは当たった。独自の拡散エンジンは独立系の速度ベンチマークで常に上位を占め、リアルタイムWebSocket APIは画像生成をローディングバーからライブプレビューに変え、カタログ——リリース数時間以内にFLUX、Kling、Veo級動画、Wanが並ぶ1000超のモデル——は生成メディアの事実上のメニューになった。デザインツール、アバターアプリ、動画スタートアップは、ユーザーに気づかれることなくfalの上で動くことが増えている。専門特化は諸刃の剣だ。LLMの提供はないので、多くのチームはfalをTogetherやFireworksと組み合わせる。千のモデルがそれぞれ出力単位で課金されるため、コスト予測は表計算の苦行になる。エンタープライズの実績もハイパースケーラーより短い。Replicateは幅とコミュニティで対抗し、ロングテールの探索では今も向こうが上だ。しかしメディア機能が実験を卒業して本番トラフィックを迎えるとき、各チームは決まって同じ場所に行き着く——falだ。理由は単純で、速度こそユーザーが体感できる機能だからだ。生成メディア推論において、falはデフォルトの地位を勝ち取った。",
+      "es": "fal hizo una sola apuesta y la hizo fuerte: saltarse los LLMs por completo y convertirse en el lugar más rápido de internet para ejecutar modelos de imagen, video y audio. La apuesta salió bien. Su motor de difusión propio encabeza rutinariamente los benchmarks independientes de velocidad, la API WebSocket en tiempo real convirtió la generación de imágenes de una barra de carga en una vista previa en vivo, y el catálogo —más de 1000 modelos con FLUX, Kling, video clase Veo y Wan disponibles a horas de su lanzamiento— se ha vuelto el menú de facto del media generativo. Herramientas de diseño, apps de avatares y startups de video corren cada vez más sobre fal sin que sus usuarios lo sepan. La especialización corta en ambos sentidos: no hay oferta de LLM, así que la mayoría de los equipos combina fal con Together o Fireworks; el precio por salida en mil modelos convierte la previsión de costes en un ejercicio de hoja de cálculo; y su historial enterprise es más corto que el de los hiperescaladores. Replicate contraataca con amplitud y comunidad, y sigue siendo mejor para explorar la cola larga. Pero cuando una función de media pasa de experimento a tráfico de producción, los equipos aterrizan consistentemente en el mismo sitio: fal, por la sencilla razón de que la velocidad es la función que los usuarios sienten. En inferencia de media generativa, se ha ganado el estatus de opción por defecto.",
+      "fr": "fal a fait un seul pari, et l'a fait à fond : ignorer totalement les LLM et devenir l'endroit le plus rapide d'internet pour exécuter des modèles d'image, de vidéo et d'audio. Le pari est gagné. Son moteur de diffusion maison domine régulièrement les benchmarks de vitesse indépendants, l'API WebSocket temps réel a transformé la génération d'images d'une barre de chargement en aperçu en direct, et le catalogue — plus de 1000 modèles avec FLUX, Kling, la vidéo de classe Veo et Wan disponibles quelques heures après leur sortie — est devenu le menu de facto du média génératif. Outils de design, apps d'avatars et startups vidéo tournent de plus en plus sur fal sans que leurs utilisateurs le sachent. La spécialisation coupe dans les deux sens : pas d'offre LLM, donc la plupart des équipes associent fal à Together ou Fireworks ; la tarification à la sortie sur mille modèles fait de la prévision des coûts un exercice de tableur ; et son dossier enterprise est plus court que celui des hyperscalers. Replicate riposte par la largeur et la communauté, et reste meilleur pour explorer la longue traîne. Mais quand une fonction média passe de l'expérimentation au trafic de production, les équipes atterrissent invariablement au même endroit — fal, pour la simple raison que la vitesse est la fonctionnalité que les utilisateurs ressentent. En inférence de média génératif, il a mérité le statut de choix par défaut."
+    },
+    "bestFor": {
+      "en": [
+        "Products with in-app image or video generation at production scale",
+        "Teams that need realtime, interactive generation latency",
+        "Developers training and serving LoRAs for brand-consistent output"
+      ],
+      "zh": [
+        "应用内图像或视频生成已达生产规模的产品",
+        "需要实时交互级生成延迟的团队",
+        "训练并部署 LoRA、追求品牌一致产出的开发者"
+      ],
+      "ja": [
+        "本番規模のアプリ内画像・動画生成を持つ製品",
+        "リアルタイムで対話的な生成レイテンシが必要なチーム",
+        "ブランド一貫性のためにLoRAをトレーニングして提供する開発者"
+      ],
+      "es": [
+        "Productos con generación de imagen o video en la app a escala de producción",
+        "Equipos que necesitan latencia de generación interactiva en tiempo real",
+        "Desarrolladores que entrenan y sirven LoRAs para salidas coherentes con la marca"
+      ],
+      "fr": [
+        "Produits avec génération d'image ou de vidéo in-app à l'échelle de production",
+        "Équipes ayant besoin d'une latence de génération interactive en temps réel",
+        "Développeurs entraînant et servant des LoRA pour une sortie cohérente avec la marque"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You want to browse and experiment across the widest model long tail (→ Replicate)",
+        "Your primary workload is LLM inference (→ Together AI / Fireworks AI)"
+      ],
+      "zh": [
+        "你想在最宽的模型长尾里逛和实验（→ Replicate）",
+        "你的主负载是 LLM 推理（→ Together AI / Fireworks AI）"
+      ],
+      "ja": [
+        "最も広いモデルのロングテールを眺めて実験したい（→ Replicate）",
+        "主なワークロードがLLM推論（→ Together AI / Fireworks AI）"
+      ],
+      "es": [
+        "Quieres explorar y experimentar en la cola larga de modelos más amplia (→ Replicate)",
+        "Tu carga principal es inferencia de LLM (→ Together AI / Fireworks AI)"
+      ],
+      "fr": [
+        "Vous voulez explorer et expérimenter la plus large longue traîne de modèles (→ Replicate)",
+        "Votre charge principale est l'inférence LLM (→ Together AI / Fireworks AI)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-28",
+    "verdictDate": "2026-07-28",
+    "pricingVerified": "2026-07-28",
+    "pricingUrl": "https://fal.ai/pricing"
+  }
+}

@@ -1,0 +1,235 @@
+{
+  "features": {
+    "en": [
+      "Speech model family generates hyper-realistic TTS in 40+ languages",
+      "Voice cloning from roughly 10 seconds of reference audio",
+      "Controllable emotion, tone and sound-effect tags inside the text prompt",
+      "Long-text mode reads entire articles or chapters in one pass",
+      "Backed by the same MiniMax platform as Hailuo video and the M-series LLMs",
+      "Developer API on platform.minimax.io alongside the free web studio"
+    ],
+    "zh": [
+      "Speech 系列模型生成 40+ 语言的超拟真 TTS",
+      "约 10 秒参考音频即可克隆声音",
+      "文本提示内可控制情绪、语气与音效标签",
+      "长文本模式一次朗读整篇文章或整章内容",
+      "背靠与海螺视频、M 系列大模型相同的 MiniMax 平台",
+      "免费网页工作台之外，platform.minimax.io 提供开发者 API"
+    ],
+    "ja": [
+      "Speechモデルファミリーは40以上の言語で超リアルなTTSを生成",
+      "約10秒の参照音声から声をクローン",
+      "テキストプロンプト内で感情・トーン・効果音タグを制御可能",
+      "長文モードは記事や章をまるごと一度に読み上げ",
+      "Hailuo動画やMシリーズLLMと同じMiniMaxプラットフォームが基盤",
+      "無料のWebスタジオに加え、platform.minimax.ioで開発者APIを提供"
+    ],
+    "es": [
+      "La familia de modelos Speech genera TTS hiperrealista en más de 40 idiomas",
+      "Clonación de voz con unos 10 segundos de audio de referencia",
+      "Etiquetas controlables de emoción, tono y efectos de sonido dentro del prompt",
+      "El modo de texto largo lee artículos o capítulos enteros de una vez",
+      "Respaldado por la misma plataforma MiniMax que el video Hailuo y los LLM de la serie M",
+      "API para desarrolladores en platform.minimax.io junto al estudio web gratuito"
+    ],
+    "fr": [
+      "La famille de modèles Speech génère une TTS hyper-réaliste dans plus de 40 langues",
+      "Clonage vocal à partir d'environ 10 secondes d'audio de référence",
+      "Balises d'émotion, de ton et d'effets sonores contrôlables dans le prompt",
+      "Le mode texte long lit des articles ou chapitres entiers en une passe",
+      "Adossé à la même plateforme MiniMax que la vidéo Hailuo et les LLM de série M",
+      "API développeur sur platform.minimax.io en plus du studio web gratuit"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Logging into the web studio grants free daily/monthly credits (reported around 4,000 daily for new users) plus a few custom voice slots — enough for prototyping and light narration.",
+      "zh": "登录网页工作台即赠免费额度（新用户据报每日约 4000 积分），外加数个自定义声音位——足够原型验证与轻度配音。",
+      "ja": "Webスタジオにログインすると無料クレジット（新規ユーザーは1日約4,000と報告）と数個のカスタム音声スロットが付与——プロトタイピングや軽いナレーションには十分。",
+      "es": "Iniciar sesión en el estudio web otorga créditos gratuitos diarios/mensuales (unos 4,000 diarios para nuevos usuarios, según reportes) más algunos huecos de voz personalizada, suficiente para prototipos y narración ligera.",
+      "fr": "La connexion au studio web offre des crédits gratuits quotidiens/mensuels (environ 4 000 par jour pour les nouveaux utilisateurs selon les retours) plus quelques emplacements de voix personnalisée — assez pour prototyper et narrer légèrement."
+    },
+    "paid": {
+      "en": "Audio subscriptions start at Starter $5/month (100K points, 10 voice slots), then Standard $30/month (300K points), Pro $99/month (1.1M points), Scale $249/month and Business $999/month, with 10% off quarterly and 20% off yearly. API usage bills separately (e.g. speech-2.8-turbo at $60 per 1M characters). (Verified against official pricing documentation, 2026-07-28.)",
+      "zh": "语音订阅从 Starter $5/月起（10 万点、10 个声音位），依次为 Standard $30/月（30 万点）、Pro $99/月（110 万点）、Scale $249/月、Business $999/月；季付九折、年付八折。API 按量另计（如 speech-2.8-turbo 每百万字符 $60）。（对照官方定价资料核实，2026-07-28。）",
+      "ja": "音声サブスクはStarter月$5（10万ポイント、音声スロット10）から始まり、Standard月$30（30万ポイント）、Pro月$99（110万ポイント）、Scale月$249、Business月$999。3ヶ月払いで10%オフ、年払いで20%オフ。API利用は別途従量課金（例：speech-2.8-turboは100万文字あたり$60）。（公式価格資料と照合、2026-07-28。）",
+      "es": "Las suscripciones de audio empiezan en Starter $5/mes (100K puntos, 10 huecos de voz), luego Standard $30/mes (300K puntos), Pro $99/mes (1.1M puntos), Scale $249/mes y Business $999/mes, con 10% de descuento trimestral y 20% anual. La API se factura aparte (p. ej., speech-2.8-turbo a $60 por millón de caracteres). (Verificado con la documentación oficial de precios, 2026-07-28.)",
+      "fr": "Les abonnements audio démarrent à Starter 5 $/mois (100 K points, 10 emplacements de voix), puis Standard 30 $/mois (300 K points), Pro 99 $/mois (1,1 M points), Scale 249 $/mois et Business 999 $/mois, avec 10 % de remise trimestrielle et 20 % annuelle. L'API est facturée à part (par ex. speech-2.8-turbo à 60 $ par million de caractères). (Vérifié avec la documentation tarifaire officielle, 2026-07-28.)"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Multilingual narration for videos, courses and audiobooks with one cloned voice",
+      "Podcast-style dialogue with emotion tags and sound effects in the script",
+      "Developers wiring realistic speech into apps via the MiniMax API",
+      "Prototyping voice features free of charge before committing to a plan"
+    ],
+    "zh": [
+      "用一个克隆声音为视频、课程、有声书做多语言配音",
+      "在脚本里用情绪标签与音效做播客式对话",
+      "开发者通过 MiniMax API 为应用接入拟真语音",
+      "在订阅之前用免费额度验证语音功能原型"
+    ],
+    "ja": [
+      "1つのクローン音声で動画・講座・オーディオブックの多言語ナレーション",
+      "スクリプト内の感情タグと効果音でポッドキャスト風の対話を制作",
+      "MiniMax APIで開発者がアプリにリアルな音声を組み込み",
+      "プラン契約前に無料枠で音声機能のプロトタイプを検証"
+    ],
+    "es": [
+      "Narración multilingüe para videos, cursos y audiolibros con una voz clonada",
+      "Diálogos estilo pódcast con etiquetas de emoción y efectos de sonido en el guion",
+      "Desarrolladores integrando habla realista en apps vía la API de MiniMax",
+      "Prototipar funciones de voz gratis antes de comprometerse con un plan"
+    ],
+    "fr": [
+      "Narration multilingue pour vidéos, cours et livres audio avec une voix clonée",
+      "Dialogues façon podcast avec balises d'émotion et effets sonores dans le script",
+      "Développeurs intégrant une parole réaliste dans leurs apps via l'API MiniMax",
+      "Prototyper des fonctions vocales gratuitement avant de s'engager sur un forfait"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Speech quality regularly ranks near the top of independent TTS leaderboards",
+      "Free logged-in credits make it one of the easiest premium TTS to try",
+      "Emotion and sound-effect tags give scripts director-level control",
+      "One MiniMax account spans speech, video (Hailuo), music and LLM APIs"
+    ],
+    "zh": [
+      "语音质量在独立 TTS 排行榜上常年位居前列",
+      "登录即送的免费额度让它成为最易上手的高端 TTS 之一",
+      "情绪与音效标签给脚本导演级的控制力",
+      "一个 MiniMax 账号打通语音、视频（海螺）、音乐与大模型 API"
+    ],
+    "ja": [
+      "音声品質は独立系TTSリーダーボードで常に上位",
+      "ログインで付与される無料クレジットにより最も試しやすいプレミアムTTSの一つ",
+      "感情・効果音タグで脚本にディレクター級のコントロールを付与",
+      "MiniMaxアカウント1つで音声・動画（Hailuo）・音楽・LLM APIを横断"
+    ],
+    "es": [
+      "La calidad de voz se sitúa habitualmente entre las mejores de los rankings TTS independientes",
+      "Los créditos gratuitos al iniciar sesión lo hacen de los TTS premium más fáciles de probar",
+      "Las etiquetas de emoción y efectos dan al guion control de nivel director",
+      "Una cuenta MiniMax abarca voz, video (Hailuo), música y APIs de LLM"
+    ],
+    "fr": [
+      "La qualité vocale se classe régulièrement parmi les meilleures des classements TTS indépendants",
+      "Les crédits gratuits à la connexion en font l'une des TTS premium les plus faciles à essayer",
+      "Les balises d'émotion et d'effets sonores donnent au script un contrôle de niveau réalisateur",
+      "Un seul compte MiniMax couvre la voix, la vidéo (Hailuo), la musique et les API LLM"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Overlaps with the broader MiniMax platform — it is a product line, not a standalone company",
+      "Voice marketplace and community are smaller than ElevenLabs'",
+      "Points-to-usage conversion is opaque; estimating real cost takes trial and error",
+      "No open-source model release, unlike Fish Audio"
+    ],
+    "zh": [
+      "与 MiniMax 大平台功能重叠——它是产品线而非独立公司",
+      "声音市场与社区规模不及 ElevenLabs",
+      "点数与实际用量的换算不透明，估算真实成本要试错",
+      "不像 Fish Audio，没有开源模型可用"
+    ],
+    "ja": [
+      "MiniMaxプラットフォーム全体と機能が重複——独立企業ではなく製品ライン",
+      "音声マーケットプレイスとコミュニティはElevenLabsより小規模",
+      "ポイントと実使用量の換算が不透明で、実コストの見積もりに試行錯誤が必要",
+      "Fish Audioと違いオープンソースのモデル公開はない"
+    ],
+    "es": [
+      "Se solapa con la plataforma MiniMax más amplia: es una línea de producto, no una empresa independiente",
+      "El mercado de voces y la comunidad son menores que los de ElevenLabs",
+      "La conversión de puntos a uso es opaca; estimar el coste real requiere prueba y error",
+      "Sin modelos de código abierto, a diferencia de Fish Audio"
+    ],
+    "fr": [
+      "Chevauche la plateforme MiniMax globale — c'est une ligne de produit, pas une société indépendante",
+      "Le marché de voix et la communauté sont plus petits que ceux d'ElevenLabs",
+      "La conversion points-usage est opaque ; estimer le coût réel demande des essais",
+      "Pas de modèle open source publié, contrairement à Fish Audio"
+    ]
+  },
+  "latestUpdate": {
+    "en": "2026: The speech-2.8 generation (including the turbo variant at $60 per 1M API characters) pushed MiniMax Audio near the top of independent TTS quality rankings, with 40+ languages and 10-second voice cloning. Audio subscriptions span $5 Starter to $999 Business monthly, and free logged-in credits keep the entry barrier at zero.",
+    "zh": "2026 年：speech-2.8 一代（含 API 每百万字符 $60 的 turbo 版）把 MiniMax 语音推近独立 TTS 质量榜的顶端，支持 40+ 语言与 10 秒级声音克隆。语音订阅从 $5 Starter 到 $999 Business 每月不等，登录即送的免费额度把入门门槛保持在零。",
+    "ja": "2026年：speech-2.8世代（API 100万文字$60のturbo版を含む）はMiniMax Audioを独立系TTS品質ランキングの頂点近くまで押し上げた。40以上の言語と10秒の声クローンに対応。音声サブスクは月$5のStarterから$999のBusinessまで、ログインで付与される無料クレジットが参入障壁をゼロに保っている。",
+    "es": "2026: La generación speech-2.8 (incluida la variante turbo a $60 por millón de caracteres de API) llevó a MiniMax Audio cerca de la cima de los rankings independientes de calidad TTS, con más de 40 idiomas y clonación de voz de 10 segundos. Las suscripciones van de Starter $5 a Business $999 mensuales, y los créditos gratuitos al iniciar sesión mantienen la barrera de entrada en cero.",
+    "fr": "2026 : la génération speech-2.8 (dont la variante turbo à 60 $ par million de caractères d'API) a hissé MiniMax Audio près du sommet des classements indépendants de qualité TTS, avec plus de 40 langues et un clonage vocal en 10 secondes. Les abonnements audio vont de Starter 5 $ à Business 999 $ par mois, et les crédits gratuits à la connexion maintiennent la barrière d'entrée à zéro."
+  },
+  "verdict": {
+    "badge": "Worth Trying",
+    "headline": {
+      "en": "Top-tier voices from the Hailuo family — easiest premium TTS to start for free",
+      "zh": "海螺同门的顶级音色——免费起步门槛最低的高端 TTS",
+      "ja": "Hailuoと同門のトップ級ボイス——無料で始めやすさ随一のプレミアムTTS",
+      "es": "Voces de primer nivel de la familia Hailuo, el TTS premium más fácil de empezar gratis",
+      "fr": "Des voix haut de gamme de la famille Hailuo — la TTS premium la plus facile à essayer gratuitement"
+    },
+    "body": {
+      "en": "MiniMax Audio is what happens when the lab behind Hailuo video points the same firepower at speech. The Speech model family lands near the top of independent TTS quality rankings, clones a voice from roughly ten seconds of audio, and speaks 40+ languages with emotion and sound-effect tags that give scripts an almost director-level layer of control. The smartest part of the offer is the on-ramp: logging in grants free daily credits, so you can prototype narration or app voices without spending anything, then graduate to a $5 Starter subscription or the pay-as-you-go API. The caveats are structural rather than qualitative. This is a product line inside the sprawling MiniMax platform, so the experience is more utilitarian than ElevenLabs' creator ecosystem; the points system takes trial and error to translate into real-world cost; and unlike Fish Audio there is no open-source release to fall back on. Our advice: if you already use Hailuo or the MiniMax API, adding Audio is a no-brainer — and even if you do not, the free tier makes trying it essentially risk-free.",
+      "zh": "MiniMax 语音就是海螺视频背后的实验室把同一套火力对准语音的产物。Speech 系列模型稳居独立 TTS 质量榜前列，约十秒音频即可克隆声音，支持 40+ 语言，情绪与音效标签给脚本一层近乎导演级的控制。这份产品最聪明的地方是入口：登录即送每日免费额度，你可以零成本验证配音或应用语音的原型，再升级到 $5 的 Starter 订阅或按量 API。注意点是结构性的而非质量性的：它是庞大 MiniMax 平台里的一条产品线，体验偏工具化，不如 ElevenLabs 的创作者生态；点数系统要试错才能换算出真实成本；而且不像 Fish Audio，没有开源模型可以兜底。我们的建议：如果你已在用海螺或 MiniMax API，加上语音是不用想的选择——就算没用过，免费额度也让尝试几乎零风险。",
+      "ja": "MiniMax AudioはHailuo動画を生んだラボが同じ火力を音声に向けた結果だ。Speechモデルファミリーは独立系TTS品質ランキングの上位に位置し、約10秒の音声から声をクローンし、40以上の言語を感情・効果音タグ付きで話す——脚本にほぼディレクター級の制御レイヤーを与える。この製品の最も賢い点は入口だ：ログインすれば毎日無料クレジットが付与され、ナレーションやアプリ音声のプロトタイプを一銭も使わず作れる。その後は月$5のStarterサブスクか従量課金APIに進めばいい。注意点は品質ではなく構造にある。これは巨大なMiniMaxプラットフォーム内の一製品ラインであり、体験はElevenLabsのクリエイターエコシステムより実用本位だ。ポイント制は実コストへの換算に試行錯誤が要るし、Fish Audioと違って頼れるオープンソース版もない。我々の助言：すでにHailuoやMiniMax APIを使っているならAudioの追加は考えるまでもない——使っていなくても、無料枠のおかげで試すリスクは実質ゼロだ。",
+      "es": "MiniMax Audio es lo que ocurre cuando el laboratorio detrás del video Hailuo apunta la misma potencia de fuego al habla. La familia de modelos Speech se sitúa cerca de la cima de los rankings independientes de calidad TTS, clona una voz con unos diez segundos de audio y habla más de 40 idiomas con etiquetas de emoción y efectos que dan al guion una capa de control casi de director. Lo más inteligente de la oferta es la rampa de entrada: iniciar sesión otorga créditos gratuitos diarios, así que puedes prototipar narraciones o voces de app sin gastar nada, y luego pasar a la suscripción Starter de $5 o a la API de pago por uso. Las salvedades son estructurales, no cualitativas: es una línea de producto dentro de la extensa plataforma MiniMax, con una experiencia más utilitaria que el ecosistema creador de ElevenLabs; el sistema de puntos requiere prueba y error para traducirse en coste real; y a diferencia de Fish Audio no hay versión open source de respaldo. Nuestro consejo: si ya usas Hailuo o la API de MiniMax, añadir Audio es obvio; e incluso si no, el nivel gratuito hace que probarlo sea prácticamente sin riesgo.",
+      "fr": "MiniMax Audio, c'est ce qui arrive quand le labo derrière la vidéo Hailuo braque la même puissance de feu sur la parole. La famille de modèles Speech se classe près du sommet des palmarès indépendants de qualité TTS, clone une voix à partir d'une dizaine de secondes d'audio et parle plus de 40 langues avec des balises d'émotion et d'effets sonores qui donnent au script une couche de contrôle quasi digne d'un réalisateur. Le plus malin dans l'offre, c'est la rampe d'accès : la connexion octroie des crédits gratuits quotidiens, permettant de prototyper narrations ou voix d'app sans rien dépenser, avant de passer à l'abonnement Starter à 5 $ ou à l'API à l'usage. Les réserves sont structurelles plutôt que qualitatives : c'est une ligne de produit au sein de la vaste plateforme MiniMax, à l'expérience plus utilitaire que l'écosystème créateur d'ElevenLabs ; le système de points demande des essais pour se traduire en coût réel ; et contrairement à Fish Audio, aucune version open source ne sert de filet. Notre conseil : si vous utilisez déjà Hailuo ou l'API MiniMax, ajouter Audio va de soi — et sinon, l'offre gratuite rend l'essai pratiquement sans risque."
+    },
+    "bestFor": {
+      "en": [
+        "Existing Hailuo / MiniMax users adding speech to their toolkit",
+        "Creators needing top-quality multilingual narration with a free on-ramp",
+        "Developers wanting one API platform for speech, video and LLMs"
+      ],
+      "zh": [
+        "已在用海螺 / MiniMax、想补上语音能力的用户",
+        "需要顶级多语言配音且想免费起步的创作者",
+        "想用一个 API 平台搞定语音、视频与大模型的开发者"
+      ],
+      "ja": [
+        "ツールキットに音声を加えたい既存のHailuo / MiniMaxユーザー",
+        "無料で始められるトップ品質の多言語ナレーションが必要なクリエイター",
+        "音声・動画・LLMを1つのAPIプラットフォームで済ませたい開発者"
+      ],
+      "es": [
+        "Usuarios existentes de Hailuo / MiniMax que añaden voz a su kit",
+        "Creadores que necesitan narración multilingüe de máxima calidad con inicio gratis",
+        "Desarrolladores que quieren una sola plataforma API para voz, video y LLM"
+      ],
+      "fr": [
+        "Utilisateurs existants de Hailuo / MiniMax ajoutant la parole à leur boîte à outils",
+        "Créateurs ayant besoin d'une narration multilingue haut de gamme avec un départ gratuit",
+        "Développeurs voulant une seule plateforme API pour la parole, la vidéo et les LLM"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You want the biggest voice marketplace and creator tooling (→ ElevenLabs)",
+        "You want open-source models and the lowest bulk pricing (→ Fish Audio)"
+      ],
+      "zh": [
+        "你想要最大的声音市场与创作者工具链（→ ElevenLabs）",
+        "你想要开源模型和最低的批量价格（→ Fish Audio）"
+      ],
+      "ja": [
+        "最大級の音声マーケットプレイスとクリエイターツールが欲しい（→ ElevenLabs）",
+        "オープンソースモデルと最安のバルク価格が欲しい（→ Fish Audio）"
+      ],
+      "es": [
+        "Quieres el mayor mercado de voces y herramientas de creador (→ ElevenLabs)",
+        "Quieres modelos de código abierto y el precio a granel más bajo (→ Fish Audio)"
+      ],
+      "fr": [
+        "Vous voulez le plus grand marché de voix et l'outillage créateur (→ ElevenLabs)",
+        "Vous voulez des modèles open source et le prix de gros le plus bas (→ Fish Audio)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-28",
+    "verdictDate": "2026-07-28",
+    "pricingVerified": "2026-07-28",
+    "pricingUrl": "https://www.minimax.io/audio"
+  }
+}

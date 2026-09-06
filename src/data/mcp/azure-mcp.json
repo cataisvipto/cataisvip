@@ -1,0 +1,78 @@
+{
+  "slug": "azure-mcp",
+  "name": "Azure MCP Server",
+  "nameZh": "Azure MCP",
+  "description": "Microsoft 官方 MCP 服务器，让 AI 智能体用自然语言操作 Azure 云——查询与管理存储、Cosmos DB、Key Vault、AKS、Monitor 等资源，一条 npx 命令即可接入，凭据走标准 Azure 身份认证。",
+  "descriptionEn": "Microsoft's official MCP server lets AI agents work with the Azure cloud in natural language — query and manage Storage, Cosmos DB, Key Vault, AKS, Monitor and more, plugged in with a single npx command and authenticated via standard Azure identity.",
+  "descriptionJa": "Microsoft 公式の MCP サーバー。AI エージェントが自然言語で Azure クラウドを操作でき、ストレージ、Cosmos DB、Key Vault、AKS、Monitor などのリソースの照会・管理が可能で、npx コマンド 1 つで接続し、標準の Azure ID 認証で認証します。",
+  "descriptionEs": "El servidor MCP oficial de Microsoft permite a los agentes de IA trabajar con la nube de Azure en lenguaje natural: consultar y gestionar Storage, Cosmos DB, Key Vault, AKS, Monitor y más, conectándose con un solo comando npx y autenticándose mediante la identidad estándar de Azure.",
+  "descriptionFr": "Le serveur MCP officiel de Microsoft permet aux agents IA de travailler avec le cloud Azure en langage naturel : interroger et gérer Storage, Cosmos DB, Key Vault, AKS, Monitor et plus, connecté par une simple commande npx et authentifié via l'identité Azure standard.",
+  "developer": "Microsoft",
+  "developerZh": "Microsoft",
+  "repo": "microsoft/mcp",
+  "clients": [
+    "claude",
+    "cursor",
+    "vscode",
+    "generic"
+  ],
+  "category": "Cloud",
+  "tags": [
+    "Free",
+    "Open Source"
+  ],
+  "installCommand": "npx -y @azure/mcp@latest server start",
+  "logo": "/logos/mcp/azure-mcp.png",
+  "stars": 3643,
+  "featured": false,
+  "faqs": [
+    {
+      "question": {
+        "zh": "Azure MCP 能管理哪些 Azure 服务？",
+        "en": "Which Azure services can Azure MCP manage?",
+        "ja": "Azure MCP はどの Azure サービスを管理できますか？",
+        "es": "¿Qué servicios de Azure puede gestionar Azure MCP?",
+        "fr": "Quels services Azure Azure MCP peut-il gérer ?"
+      },
+      "answer": {
+        "zh": "覆盖大量核心服务：Storage、Cosmos DB、Azure SQL、Key Vault、Monitor/Log Analytics、AKS、App Config、Service Bus 等，可查询资源、跑 KQL 日志查询、读取配置与密钥引用等。服务器持续扩充中，具体以官方文档为准。",
+        "en": "It covers many core services: Storage, Cosmos DB, Azure SQL, Key Vault, Monitor/Log Analytics, AKS, App Configuration, Service Bus and more — querying resources, running KQL log queries, reading configuration and secret references, etc. The server keeps expanding; see the official docs for the current list.",
+        "ja": "多数のコアサービスに対応します：Storage、Cosmos DB、Azure SQL、Key Vault、Monitor/Log Analytics、AKS、App Configuration、Service Bus など。リソースの照会、KQL ログクエリの実行、構成やシークレット参照の読み取りなどが可能です。サーバーは拡充が続いており、最新は公式ドキュメントを参照してください。",
+        "es": "Cubre muchos servicios clave: Storage, Cosmos DB, Azure SQL, Key Vault, Monitor/Log Analytics, AKS, App Configuration, Service Bus y más — consultar recursos, ejecutar consultas de registros KQL, leer configuración y referencias de secretos, etc. El servidor sigue creciendo; consulta la documentación oficial para la lista actual.",
+        "fr": "Il couvre de nombreux services clés : Storage, Cosmos DB, Azure SQL, Key Vault, Monitor/Log Analytics, AKS, App Configuration, Service Bus et plus — interroger des ressources, exécuter des requêtes de journaux KQL, lire la configuration et les références de secrets, etc. Le serveur s'enrichit en continu ; voir la documentation officielle pour la liste à jour."
+      }
+    },
+    {
+      "question": {
+        "zh": "Azure MCP 怎么认证？",
+        "en": "How does Azure MCP authenticate?",
+        "ja": "Azure MCP はどのように認証しますか？",
+        "es": "¿Cómo se autentica Azure MCP?",
+        "fr": "Comment Azure MCP s'authentifie-t-il ?"
+      },
+      "answer": {
+        "zh": "走标准的 Azure 身份认证（DefaultAzureCredential）：优先复用你本机已登录的 Azure CLI（az login）、VS Code Azure 账户或环境变量中的服务主体，无需在配置里硬编码密钥，权限由你账户的 RBAC 决定。",
+        "en": "It uses standard Azure identity (DefaultAzureCredential): it reuses whatever you are already signed in with — Azure CLI (az login), the VS Code Azure account, or a service principal from environment variables — so you never hard-code secrets in config, and permissions follow your account's RBAC.",
+        "ja": "標準の Azure ID 認証（DefaultAzureCredential）を使います。すでにサインイン済みの Azure CLI（az login）、VS Code の Azure アカウント、または環境変数のサービスプリンシパルを再利用するため、設定にシークレットをハードコードする必要がなく、権限はアカウントの RBAC に従います。",
+        "es": "Usa la identidad estándar de Azure (DefaultAzureCredential): reutiliza aquello con lo que ya iniciaste sesión — Azure CLI (az login), la cuenta de Azure de VS Code o un principal de servicio desde variables de entorno — por lo que nunca codificas secretos en la configuración, y los permisos siguen el RBAC de tu cuenta.",
+        "fr": "Il utilise l'identité Azure standard (DefaultAzureCredential) : il réutilise ce avec quoi vous êtes déjà connecté — Azure CLI (az login), le compte Azure de VS Code, ou un principal de service via des variables d'environnement — vous n'écrivez donc jamais de secrets en dur dans la config, et les permissions suivent le RBAC de votre compte."
+      }
+    },
+    {
+      "question": {
+        "zh": "原来的 Azure/azure-mcp 仓库还在吗？",
+        "en": "Is the old Azure/azure-mcp repo still around?",
+        "ja": "以前の Azure/azure-mcp リポジトリはまだありますか？",
+        "es": "¿Sigue existiendo el antiguo repo Azure/azure-mcp?",
+        "fr": "L'ancien dépôt Azure/azure-mcp existe-t-il encore ?"
+      },
+      "answer": {
+        "zh": "Azure MCP 已并入 Microsoft 官方的 microsoft/mcp 单仓库统一维护，原 Azure/azure-mcp 仓库已归档。npm 包仍是 @azure/mcp，安装命令不变，认准官方来源即可。",
+        "en": "Azure MCP has been consolidated into Microsoft's official microsoft/mcp monorepo, and the old Azure/azure-mcp repo is archived. The npm package is still @azure/mcp and the install command is unchanged — just make sure you are using the official source.",
+        "ja": "Azure MCP は Microsoft 公式の microsoft/mcp モノレポに統合され、旧 Azure/azure-mcp リポジトリはアーカイブされました。npm パッケージは引き続き @azure/mcp で、インストールコマンドも変わりません。公式ソースであることを確認してください。",
+        "es": "Azure MCP se ha consolidado en el monorepo oficial microsoft/mcp de Microsoft, y el antiguo repo Azure/azure-mcp está archivado. El paquete npm sigue siendo @azure/mcp y el comando de instalación no cambia — solo asegúrate de usar la fuente oficial.",
+        "fr": "Azure MCP a été regroupé dans le monorepo officiel microsoft/mcp de Microsoft, et l'ancien dépôt Azure/azure-mcp est archivé. Le paquet npm reste @azure/mcp et la commande d'installation est inchangée — assurez-vous simplement d'utiliser la source officielle."
+      }
+    }
+  ]
+}

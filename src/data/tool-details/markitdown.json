@@ -1,0 +1,225 @@
+{
+  "features": {
+    "en": [
+      "Converts PDF, PowerPoint, Word, Excel, HTML, CSV, JSON, XML, EPUB and more to Markdown",
+      "Image support with EXIF metadata extraction and OCR",
+      "Audio support with speech transcription",
+      "YouTube URL support (extracts video metadata)",
+      "ZIP file iteration over contents",
+      "CLI with stdin/stdout piping and -o output flag",
+      "Python library with convert_* granular functions (convert_stream, convert_local)",
+      "Built by the Microsoft AutoGen team"
+    ],
+    "zh": [
+      "支持 PDF、PPT、Word、Excel、HTML、CSV、JSON、XML、EPUB 等转换 Markdown",
+      "图片支持 EXIF 元数据提取与 OCR",
+      "音频支持语音转写",
+      "支持 YouTube URL（提取视频元数据）",
+      "ZIP 文件自动遍历内容",
+      "CLI 支持 stdin/stdout 管道与 -o 输出参数",
+      "Python 库提供 convert_* 细粒度函数（convert_stream、convert_local）",
+      "微软 AutoGen 团队构建"
+    ],
+    "ja": [
+      "PDF、PowerPoint、Word、Excel、HTML、CSV、JSON、XML、EPUBなどをMarkdownに変換",
+      "画像のEXIFメタデータ抽出とOCRに対応",
+      "音声の文字起こしに対応",
+      "YouTube URLをサポート（動画メタデータ取得）",
+      "ZIPファイルの内容を自動的に反復処理",
+      "CLIはstdin/stdoutパイプと-o出力フラグをサポート",
+      "convert_* 粒度の細かい関数（convert_stream、convert_local）を提供",
+      "Microsoft AutoGenチームが開発"
+    ],
+    "es": [
+      "Convierte PDF, PowerPoint, Word, Excel, HTML, CSV, JSON, XML, EPUB y más a Markdown",
+      "Soporte de imágenes con extracción de metadatos EXIF y OCR",
+      "Soporte de audio con transcripción de voz",
+      "Soporte de URLs de YouTube (extrae metadatos del video)",
+      "Iteración de contenidos de archivos ZIP",
+      "CLI con pipes stdin/stdout y flag de salida -o",
+      "Biblioteca Python con funciones granulares convert_* (convert_stream, convert_local)",
+      "Construido por el equipo AutoGen de Microsoft"
+    ],
+    "fr": [
+      "Convertit PDF, PowerPoint, Word, Excel, HTML, CSV, JSON, XML, EPUB et plus en Markdown",
+      "Support d'images avec extraction des métadonnées EXIF et OCR",
+      "Support audio avec transcription vocale",
+      "Support des URLs YouTube (extrait les métadonnées vidéo)",
+      "Itération sur le contenu des fichiers ZIP",
+      "CLI avec pipes stdin/stdout et option de sortie -o",
+      "Bibliothèque Python avec fonctions granulaires convert_* (convert_stream, convert_local)",
+      "Construit par l'équipe Microsoft AutoGen"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Free and open source (MIT)",
+      "zh": "免费开源（MIT 协议）",
+      "ja": "無料のオープンソース（MITライセンス）",
+      "es": "Gratuito y de código abierto (MIT)",
+      "fr": "Gratuit et open source (licence MIT)"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Preparing documents (PDF, PPT, Word) as Markdown for LLM context ingestion",
+      "Building RAG pipelines that need clean structured text extraction",
+      "Converting web pages and YouTube videos into LLM-friendly content"
+    ],
+    "zh": [
+      "把 PDF、PPT、Word 等文档转成 Markdown 供 LLM 上下文摄入",
+      "构建需要干净结构化文本提取的 RAG 流水线",
+      "把网页和 YouTube 视频转换成 LLM 友好的内容"
+    ],
+    "ja": [
+      "PDF、PPT、WordなどのドキュメントをLLMのコンテキスト取込用にMarkdownへ変換",
+      "クリーンな構造化テキスト抽出が必要なRAGパイプラインを構築",
+      "WebページとYouTube動画をLLM対応コンテンツに変換"
+    ],
+    "es": [
+      "Preparar documentos (PDF, PPT, Word) como Markdown para ingestión en contexto LLM",
+      "Construir pipelines RAG que necesitan extracción limpia de texto estructurado",
+      "Convertir páginas web y videos de YouTube en contenido amigable para LLM"
+    ],
+    "fr": [
+      "Préparer des documents (PDF, PPT, Word) en Markdown pour l'ingestion de contexte LLM",
+      "Construire des pipelines RAG nécessitant une extraction propre de texte structuré",
+      "Convertir des pages web et vidéos YouTube en contenu compatible LLM"
+    ]
+  },
+  "pros": {
+    "en": [
+      "173K+ stars — one of the most popular document conversion tools in the AI ecosystem",
+      "Wide format coverage with a single unified Markdown output",
+      "Simple CLI and Python API, easy to integrate into any pipeline",
+      "Built by Microsoft AutoGen team, MIT licensed",
+      "Actively maintained with regular releases"
+    ],
+    "zh": [
+      "17 万+ 星——AI 生态中最流行的文档转换工具之一",
+      "格式覆盖广，统一输出 Markdown",
+      "CLI 和 Python API 都简单易用，方便集成到任何流水线",
+      "微软 AutoGen 团队维护，MIT 协议",
+      "积极维护，定期发布"
+    ],
+    "ja": [
+      "17万以上のスター——AIエコシステムで最も人気のあるドキュメント変換ツールの一つ",
+      "広いフォーマット対応、統一されたMarkdown出力",
+      "シンプルなCLIとPython API、あらゆるパイプラインに統合しやすい",
+      "Microsoft AutoGenチームが開発、MITライセンス",
+      "積極的にメンテナンスされ、定期的にリリース"
+    ],
+    "es": [
+      "Más de 173K estrellas — una de las herramientas de conversión de documentos más populares del ecosistema IA",
+      "Amplia cobertura de formatos con una salida Markdown unificada",
+      "CLI y API Python simples, fáciles de integrar en cualquier pipeline",
+      "Construido por el equipo AutoGen de Microsoft, licencia MIT",
+      "Mantenido activamente con lanzamientos regulares"
+    ],
+    "fr": [
+      "Plus de 173K étoiles — l'un des outils de conversion de documents les plus populaires de l'écosystème IA",
+      "Large couverture de formats avec une sortie Markdown unifiée",
+      "CLI et API Python simples, faciles à intégrer dans n'importe quel pipeline",
+      "Construit par l'équipe Microsoft AutoGen, licence MIT",
+      "Maintenu activement avec des versions régulières"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Output fidelity is not always perfect for human consumption — optimized for LLM ingestion",
+      "OCR quality depends on the underlying engine",
+      "848 open issues at verification time (large project, busy issue tracker)"
+    ],
+    "zh": [
+      "输出保真度并非总是适合人类阅读——面向 LLM 摄入优化",
+      "OCR 质量依赖底层引擎",
+      "核验时 848 个未关闭 issue（大项目，issue 追踪繁忙）"
+    ],
+    "ja": [
+      "出力の忠実度は必ずしも人間向きとは限らない——LLM取込向けに最適化",
+      "OCR品質は基盤エンジンに依存",
+      "検証時点で848件の未解決issue（大規模プロジェクト、issue追跡が活発）"
+    ],
+    "es": [
+      "La fidelidad de salida no siempre es perfecta para consumo humano — optimizado para ingestión LLM",
+      "La calidad del OCR depende del motor subyacente",
+      "848 issues abiertos en la verificación (proyecto grande, tracker ocupado)"
+    ],
+    "fr": [
+      "La fidélité de sortie n'est pas toujours parfaite pour une lecture humaine — optimisée pour l'ingestion LLM",
+      "La qualité de l'OCR dépend du moteur sous-jacent",
+      "848 issues ouvertes au moment de la vérification (grand projet, tracker chargé)"
+    ]
+  },
+  "latestUpdate": {
+    "en": "July 2026: MarkItDown continues active development by the Microsoft AutoGen team with 173K+ stars, expanding format support and improving OCR/document structure preservation.",
+    "zh": "2026年7月：MarkItDown 由微软 AutoGen 团队持续积极开发，17万+ 星，不断扩展格式支持并改进 OCR 与文档结构保留。",
+    "ja": "2026年7月：MarkItDownはMicrosoft AutoGenチームにより活発に開発が継続され、17万以上のスターを獲得。フォーマット対応を拡大し、OCRとドキュメント構造の保持を改善。",
+    "es": "Julio 2026: MarkItDown continúa su desarrollo activo por el equipo AutoGen de Microsoft con más de 173K estrellas, ampliando el soporte de formatos y mejorando OCR y preservación de estructura.",
+    "fr": "Juillet 2026 : MarkItDown poursuit son développement actif par l'équipe Microsoft AutoGen avec plus de 173K étoiles, élargissant le support des formats et améliorant l'OCR et la préservation de la structure."
+  },
+  "summary": {
+    "en": "MarkItDown is Microsoft's lightweight Python utility that converts any file to Markdown for LLM consumption. With 173K+ stars, wide format coverage (PDF, PPT, Word, Excel, images, audio, HTML, YouTube) and a simple CLI/API, it has become the de-facto standard for preparing documents as LLM-ready Markdown.",
+    "zh": "MarkItDown 是微软出品的轻量 Python 工具，把任意文件转换为 LLM 可消费的 Markdown。17 万+ 星、格式覆盖广（PDF、PPT、Word、Excel、图片、音频、HTML、YouTube）、CLI/API 简单，已成为把文档制备成 LLM 就绪 Markdown 的事实标准。",
+    "ja": "MarkItDownは、あらゆるファイルをLLM向けMarkdownに変換するMicrosoft製の軽量Pythonユーティリティです。17万以上のスター、広範なフォーマット対応（PDF、PPT、Word、Excel、画像、音声、HTML、YouTube）、シンプルなCLI/APIを備え、LLM対応Markdownへの文書変換の事実上の標準となっています。",
+    "es": "MarkItDown es la utilidad ligera de Python de Microsoft que convierte cualquier archivo a Markdown para consumo LLM. Con más de 173K estrellas, amplia cobertura de formatos (PDF, PPT, Word, Excel, imágenes, audio, HTML, YouTube) y CLI/API simples, se ha convertido en el estándar de facto para preparar documentos como Markdown listo para LLM.",
+    "fr": "MarkItDown est l'utilitaire Python léger de Microsoft qui convertit n'importe quel fichier en Markdown pour consommation LLM. Avec plus de 173K étoiles, une large couverture de formats (PDF, PPT, Word, Excel, images, audio, HTML, YouTube) et une CLI/API simple, il est devenu le standard de facto pour préparer des documents en Markdown prêt pour LLM."
+  },
+  "verdict": {
+    "badge": "Recommended",
+    "headline": {
+      "en": "The de-facto standard for converting files to LLM-ready Markdown.",
+      "zh": "把文件转换为 LLM 就绪 Markdown 的事实标准。",
+      "ja": "ファイルをLLM対応Markdownに変換する事実上の標準。",
+      "es": "El estándar de facto para convertir archivos a Markdown listo para LLM.",
+      "fr": "Le standard de facto pour convertir des fichiers en Markdown prêt pour LLM."
+    },
+    "body": {
+      "en": "MarkItDown solves a fundamental problem for the AI ecosystem: preparing real-world documents for LLM ingestion. Its broad format coverage (PDF, PPT, Word, Excel, images, audio, HTML, YouTube), simple one-command CLI, and Python library make it extraordinarily easy to integrate.\\n\\nBuilt by the Microsoft AutoGen team and MIT-licensed, it is arguably the most trusted option in this space with 173K+ stars. For RAG pipelines, document Q&A, or any workflow that needs clean text from messy files, MarkItDown is the reference choice. Output is optimized for LLM consumption rather than human reading, which is exactly what most AI workflows need.",
+      "zh": "MarkItDown 解决了 AI 生态的一个根本问题：为 LLM 摄入制备真实世界文档。格式覆盖广（PDF、PPT、Word、Excel、图片、音频、HTML、YouTube）、单命令 CLI、Python 库，集成极其简单。\\n\\n由微软 AutoGen 团队构建、MIT 协议，以 17 万+ 星成为该领域最受信任的选择。RAG 流水线、文档问答或任何需要从杂乱文件中提取干净文本的工作流，MarkItDown 都是参考之选。输出针对 LLM 消费而非人类阅读优化，这正是大多数 AI 工作流所需。",
+      "ja": "MarkItDownは、AIエコシステムの根本的な問題を解決します：LLM取込用に現実世界のドキュメントを準備すること。広範なフォーマット対応（PDF、PPT、Word、Excel、画像、音声、HTML、YouTube）、単一コマンドのCLI、Pythonライブラリにより、統合は非常に簡単です。\\n\\nMicrosoft AutoGenチームが開発し、MITライセンスで、17万以上のスターを持つこの分野で最も信頼される選択肢です。RAGパイプライン、ドキュメントQA、または雑多なファイルからクリーンなテキストを抽出するあらゆるワークフローで、MarkItDownが標準です。出力は人間向けではなくLLM消費向けに最適化されており、これは多くのAIワークフローが求めるものです。",
+      "es": "MarkItDown resuelve un problema fundamental del ecosistema IA: preparar documentos del mundo real para la ingesta LLM. Su amplia cobertura de formatos (PDF, PPT, Word, Excel, imágenes, audio, HTML, YouTube), CLI de un comando y biblioteca Python hacen que sea extraordinariamente fácil de integrar.\\n\\nConstruido por el equipo AutoGen de Microsoft y con licencia MIT, es probablemente la opción más confiable en este espacio con más de 173K estrellas. Para pipelines RAG, Q&A de documentos o cualquier flujo que necesite texto limpio de archivos desordenados, MarkItDown es la elección de referencia. La salida está optimizada para consumo LLM en lugar de lectura humana, que es exactamente lo que la mayoría de los flujos de IA necesitan.",
+      "fr": "MarkItDown résout un problème fondamental de l'écosystème IA : préparer des documents du monde réel pour l'ingestion LLM. Sa large couverture de formats (PDF, PPT, Word, Excel, images, audio, HTML, YouTube), sa CLI en une commande et sa bibliothèque Python le rendent extraordinairement facile à intégrer.\\n\\nConstruit par l'équipe Microsoft AutoGen et sous licence MIT, c'est probablement l'option la plus fiable de cet espace avec plus de 173K étoiles. Pour les pipelines RAG, le Q&A documentaire ou tout workflow nécessitant du texte propre depuis des fichiers désordonnés, MarkItDown est le choix de référence. La sortie est optimisée pour la consommation LLM plutôt que la lecture humaine, ce qui correspond exactement aux besoins de la plupart des workflows IA."
+    },
+    "bestFor": {
+      "en": [
+        "Developers and teams building RAG pipelines, document Q&A systems, or any AI workflow that needs clean Markdown extraction from PDF, Office, image, audio or web content."
+      ],
+      "zh": [
+        "构建 RAG 流水线、文档问答系统，或任何需要从 PDF、Office、图片、音频、网页内容中提取干净 Markdown 的 AI 工作流的开发者与团队。"
+      ],
+      "ja": [
+        "RAGパイプライン、ドキュメントQAシステム、またはPDF、Office、画像、音声、WebコンテンツからクリーンなMarkdown抽出を必要とするAIワークフローを構築する開発者とチーム。"
+      ],
+      "es": [
+        "Desarrolladores y equipos que construyen pipelines RAG, sistemas de Q&A documental o cualquier flujo IA que necesite extracción limpia de Markdown desde PDF, Office, imágenes, audio o contenido web."
+      ],
+      "fr": [
+        "Développeurs et équipes construisant des pipelines RAG, des systèmes de Q&A documentaire, ou tout workflow IA nécessitant une extraction propre de Markdown depuis PDF, Office, images, audio ou contenu web."
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "If you need high-fidelity human-readable conversions, consider native document tools instead of LLM-optimized ones (e.g. dedicated PDF/Office converters)."
+      ],
+      "zh": [
+        "如果需要高保真的人类可读转换，考虑使用原生文档工具（如专业的 PDF/Office 转换器）而非面向 LLM 优化的方案。"
+      ],
+      "ja": [
+        "人間が読むための高忠実度変換が必要な場合は、LLM向けに最適化されたものではなく、ネイティブのドキュメントツール（専用のPDF/Office変換ツールなど）を検討してください。"
+      ],
+      "es": [
+        "Si necesitas conversiones de alta fidelidad para lectura humana, considera herramientas de documentos nativas (como conversores dedicados de PDF/Office) en lugar de opciones optimizadas para LLM."
+      ],
+      "fr": [
+        "Si vous avez besoin de conversions haute fidélité lisibles par l'humain, privilégiez les outils documentaires natifs (convertisseurs PDF/Office dédiés) plutôt que les options optimisées pour LLM."
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-08-11",
+    "verdictDate": "2026-08-11",
+    "pricingVerified": "2026-08-11",
+    "pricingUrl": "https://github.com/microsoft/markitdown"
+  }
+}

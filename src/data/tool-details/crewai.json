@@ -1,0 +1,234 @@
+{
+  "features": {
+    "en": [
+      "Role-based Crews: agents with roles, goals and tools collaborate on tasks",
+      "Flows: event-driven, fine-grained orchestration for production pipelines",
+      "Lean Python framework built independently of LangChain",
+      "AMP enterprise platform: deploy crews as APIs with tracing and observability",
+      "Hundreds of tool and app integrations out of the box",
+      "Reported adoption across a majority of the Fortune 500 with 450M+ agentic workflows per month"
+    ],
+    "zh": [
+      "角色制 Crew：为智能体设定角色、目标与工具，协作完成任务",
+      "Flows：面向生产管线的事件驱动细粒度编排",
+      "独立于 LangChain 的轻量 Python 框架",
+      "AMP 企业平台：把 Crew 部署为 API，自带追踪与可观测性",
+      "开箱即用的数百种工具与应用集成",
+      "官方称覆盖多数财富 500 强，每月运行 4.5 亿+ 智能体工作流"
+    ],
+    "ja": [
+      "役割ベースのCrew：役割・目標・ツールを持つエージェントが協働でタスクを遂行",
+      "Flows：本番パイプライン向けのイベントドリブンな細粒度オーケストレーション",
+      "LangChainから独立した軽量Pythonフレームワーク",
+      "AMPエンタープライズプラットフォーム：CrewをAPIとしてデプロイし、トレースと可観測性を提供",
+      "数百種類のツール・アプリ統合を標準装備",
+      "Fortune 500の過半数が採用、月間4.5億件以上のエージェントワークフローを実行と公表"
+    ],
+    "es": [
+      "Crews basados en roles: agentes con roles, objetivos y herramientas colaboran en tareas",
+      "Flows: orquestación detallada y orientada a eventos para pipelines de producción",
+      "Framework Python ligero e independiente de LangChain",
+      "Plataforma empresarial AMP: despliega crews como APIs con trazabilidad y observabilidad",
+      "Cientos de integraciones de herramientas y apps listas para usar",
+      "Adopción declarada en la mayoría de la Fortune 500 con más de 450 M de flujos agénticos al mes"
+    ],
+    "fr": [
+      "Crews par rôles : des agents avec rôles, objectifs et outils collaborent sur les tâches",
+      "Flows : orchestration fine et événementielle pour les pipelines de production",
+      "Framework Python léger et indépendant de LangChain",
+      "Plateforme entreprise AMP : déployez des crews en API avec traçage et observabilité",
+      "Des centaines d'intégrations d'outils et d'applications prêtes à l'emploi",
+      "Adoption revendiquée dans la majorité du Fortune 500 avec plus de 450 M de workflows agentiques par mois"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Open-source framework is free (MIT license): build and run Crews and Flows locally, paying only your LLM providers",
+      "zh": "开源框架免费（MIT 协议）：本地构建运行 Crew 与 Flows，只需向 LLM 供应商付费",
+      "ja": "オープンソースフレームワークは無料（MITライセンス）：CrewとFlowsをローカルで構築・実行し、LLMプロバイダーへの支払いのみ",
+      "es": "El framework open source es gratuito (licencia MIT): crea y ejecuta Crews y Flows localmente, pagando solo a tus proveedores de LLM",
+      "fr": "Le framework open source est gratuit (licence MIT) : créez et exécutez Crews et Flows en local, en ne payant que vos fournisseurs LLM"
+    },
+    "paid": {
+      "en": "CrewAI AMP enterprise platform (deployment, tracing, management, no-code Studio): tiered plans with a free entry tier; enterprise pricing on request",
+      "zh": "CrewAI AMP 企业平台（部署、追踪、管理、无代码 Studio）：分档订阅，含免费入门档；企业版需询价",
+      "ja": "CrewAI AMPエンタープライズプラットフォーム（デプロイ、トレース、管理、ノーコードStudio）：無料エントリー枠を含む段階制プラン。エンタープライズ価格は要問い合わせ",
+      "es": "Plataforma empresarial CrewAI AMP (despliegue, trazado, gestión, Studio sin código): planes escalonados con nivel de entrada gratuito; precio enterprise bajo consulta",
+      "fr": "Plateforme entreprise CrewAI AMP (déploiement, traçage, gestion, Studio no-code) : offres par paliers avec un niveau d'entrée gratuit ; tarif entreprise sur demande"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Multi-agent research, writing and review pipelines",
+      "Lead enrichment and sales automation crews",
+      "Customer support automation replacing legacy RPA",
+      "Deploying internal agent services as APIs via AMP"
+    ],
+    "zh": [
+      "多智能体的调研、写作与审校流水线",
+      "线索补全与销售自动化 Crew",
+      "替代传统 RPA 的客服自动化",
+      "通过 AMP 把内部智能体服务部署为 API"
+    ],
+    "ja": [
+      "マルチエージェントによるリサーチ・執筆・レビューのパイプライン",
+      "リード情報の補完と営業自動化のCrew",
+      "従来型RPAを置き換えるカスタマーサポート自動化",
+      "AMP経由で社内エージェントサービスをAPIとしてデプロイ"
+    ],
+    "es": [
+      "Pipelines multiagente de investigación, redacción y revisión",
+      "Crews de enriquecimiento de leads y automatización de ventas",
+      "Automatización de soporte al cliente que reemplaza RPA heredado",
+      "Despliegue de servicios de agentes internos como APIs vía AMP"
+    ],
+    "fr": [
+      "Pipelines multi-agents de recherche, rédaction et relecture",
+      "Crews d'enrichissement de leads et d'automatisation commerciale",
+      "Automatisation du support client en remplacement du RPA hérité",
+      "Déploiement de services d'agents internes en API via AMP"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Fastest path from idea to a working multi-agent prototype",
+      "Role/task mental model is intuitive for non-experts",
+      "Clear path from open-source prototype to enterprise production via AMP",
+      "Huge community, courses and templates"
+    ],
+    "zh": [
+      "从想法到可用多智能体原型的最快路径",
+      "角色/任务心智模型直观易懂",
+      "经 AMP 从开源原型到企业生产的路径清晰",
+      "社区庞大，课程与模板丰富"
+    ],
+    "ja": [
+      "アイデアから動くマルチエージェントプロトタイプまで最速",
+      "役割/タスクのメンタルモデルが直感的",
+      "AMPによりオープンソース試作から企業本番運用への道筋が明確",
+      "巨大なコミュニティ、講座やテンプレートが豊富"
+    ],
+    "es": [
+      "El camino más rápido de la idea a un prototipo multiagente funcional",
+      "El modelo mental de roles/tareas es intuitivo para no expertos",
+      "Ruta clara del prototipo open source a producción enterprise vía AMP",
+      "Gran comunidad, cursos y plantillas"
+    ],
+    "fr": [
+      "Le chemin le plus rapide de l'idée au prototype multi-agents fonctionnel",
+      "Le modèle mental rôles/tâches est intuitif pour les non-experts",
+      "Passage clair du prototype open source à la production entreprise via AMP",
+      "Immense communauté, cours et modèles"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Less fine-grained control than graph-based frameworks for complex state machines",
+      "Fast-moving API surface can break existing crews between versions",
+      "Enterprise AMP pricing is opaque without a sales call",
+      "Abstractions can hide token usage, making costs spike unnoticed"
+    ],
+    "zh": [
+      "复杂状态机场景下控制粒度不如图编排框架",
+      "API 迭代快，升级可能破坏既有 Crew",
+      "企业版 AMP 定价不透明，需联系销售",
+      "抽象层可能掩盖 token 消耗，成本容易失控"
+    ],
+    "ja": [
+      "複雑なステートマシンではグラフベースのフレームワークほど細かい制御ができない",
+      "APIの変化が速く、バージョン間で既存Crewが壊れることがある",
+      "エンタープライズAMPの価格は営業問い合わせなしでは不透明",
+      "抽象化がトークン消費を見えにくくし、コストが急増しがち"
+    ],
+    "es": [
+      "Menos control fino que los frameworks basados en grafos para máquinas de estado complejas",
+      "La API evoluciona rápido y puede romper crews existentes entre versiones",
+      "El precio enterprise de AMP es opaco sin hablar con ventas",
+      "Las abstracciones pueden ocultar el uso de tokens y disparar costes"
+    ],
+    "fr": [
+      "Contrôle moins fin que les frameworks à base de graphes pour les machines à états complexes",
+      "Une API qui évolue vite et peut casser les crews existants entre versions",
+      "Tarification enterprise AMP opaque sans contact commercial",
+      "Les abstractions peuvent masquer la consommation de tokens et faire flamber les coûts"
+    ]
+  },
+  "latestUpdate": {
+    "en": "2026: CrewAI positions itself as the open platform for enterprise agents, reporting 450M+ agentic workflows per month, 4,000+ signups weekly and adoption in 63% of the Fortune 500; AMP adds no-code Studio and deeper observability",
+    "zh": "2026 年：CrewAI 定位为企业智能体开放平台，公布每月 4.5 亿+ 智能体工作流、每周 4000+ 注册、63% 财富 500 强采用；AMP 新增无代码 Studio 与更深入的可观测性",
+    "ja": "2026年：CrewAIはエンタープライズエージェントのオープンプラットフォームを標榜し、月間4.5億件以上のワークフロー、週4,000件以上の登録、Fortune 500の63%が採用と発表。AMPにノーコードStudioとより深い可観測性を追加",
+    "es": "2026: CrewAI se posiciona como la plataforma abierta para agentes empresariales, reportando más de 450 M de flujos al mes, 4.000+ registros semanales y adopción en el 63% de la Fortune 500; AMP añade Studio sin código y mayor observabilidad",
+    "fr": "2026 : CrewAI se positionne comme la plateforme ouverte des agents d'entreprise, annonçant plus de 450 M de workflows par mois, 4 000+ inscriptions hebdomadaires et une adoption par 63 % du Fortune 500 ; AMP ajoute un Studio no-code et une observabilité renforcée"
+  },
+  "verdict": {
+    "badge": "Recommended",
+    "headline": {
+      "en": "The most approachable multi-agent framework, with a real enterprise on-ramp",
+      "zh": "最易上手的多智能体框架，且有真正的企业级进阶路径",
+      "ja": "最も取り組みやすいマルチエージェントフレームワーク、本格的なエンタープライズへの道も用意",
+      "es": "El framework multiagente más accesible, con una vía empresarial real",
+      "fr": "Le framework multi-agents le plus abordable, avec une vraie rampe d'accès entreprise"
+    },
+    "body": {
+      "en": "CrewAI turned multi-agent orchestration into something any Python developer can pick up in an afternoon: define roles, hand out tools, let the crew work. Flows added the production-grade control the original Crews lacked, and AMP closes the loop from prototype to deployed API. For intricate stateful graphs, LangGraph remains stronger — but for role-based task decomposition, CrewAI is the default choice.",
+      "zh": "CrewAI 把多智能体编排变成了任何 Python 开发者一个下午就能上手的事：定义角色、分配工具、放手让 Crew 干活。Flows 补上了早期 Crew 缺失的生产级控制，AMP 则打通了从原型到已部署 API 的闭环。若要构建复杂有状态图，LangGraph 仍更强——但对角色分工型任务拆解，CrewAI 是默认之选。",
+      "ja": "CrewAIはマルチエージェントオーケストレーションを、Python開発者なら半日で習得できるものに変えた：役割を定義し、ツールを渡し、Crewに任せる。FlowsがCrewに欠けていた本番級の制御を補い、AMPがプロトタイプからデプロイ済みAPIまでを繋ぐ。複雑なステートフルグラフにはLangGraphが依然強いが、役割ベースのタスク分解ならCrewAIが定番だ。",
+      "es": "CrewAI convirtió la orquestación multiagente en algo que cualquier desarrollador Python domina en una tarde: define roles, reparte herramientas y deja trabajar al crew. Flows añadió el control de producción que faltaba y AMP cierra el ciclo del prototipo a la API desplegada. Para grafos con estado intrincados, LangGraph sigue siendo más fuerte, pero para descomposición de tareas por roles, CrewAI es la opción por defecto.",
+      "fr": "CrewAI a rendu l'orchestration multi-agents accessible à tout développeur Python en un après-midi : définir les rôles, distribuer les outils, laisser le crew travailler. Flows a apporté le contrôle de niveau production qui manquait, et AMP boucle la boucle du prototype à l'API déployée. Pour les graphes à états complexes, LangGraph reste plus fort — mais pour la décomposition de tâches par rôles, CrewAI est le choix par défaut."
+    },
+    "bestFor": {
+      "en": [
+        "Python teams building role-based multi-agent workflows",
+        "Prototype-to-production pipelines deployed as APIs via AMP",
+        "Research, writing and sales-automation crews"
+      ],
+      "zh": [
+        "构建角色分工多智能体工作流的 Python 团队",
+        "经 AMP 从原型到生产、部署为 API 的管线",
+        "调研、写作与销售自动化 Crew"
+      ],
+      "ja": [
+        "役割ベースのマルチエージェントワークフローを構築するPythonチーム",
+        "AMP経由でAPIとしてデプロイするプロトタイプから本番までのパイプライン",
+        "リサーチ・執筆・営業自動化のCrew"
+      ],
+      "es": [
+        "Equipos Python construyendo flujos multiagente basados en roles",
+        "Pipelines de prototipo a producción desplegados como APIs vía AMP",
+        "Crews de investigación, redacción y automatización de ventas"
+      ],
+      "fr": [
+        "Équipes Python construisant des workflows multi-agents par rôles",
+        "Pipelines du prototype à la production déployés en API via AMP",
+        "Crews de recherche, rédaction et automatisation commerciale"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You need graph-level state control (→ LangGraph)",
+        "You want a visual no-code builder first (→ Dify, Coze)"
+      ],
+      "zh": [
+        "你需要图级状态控制（→ LangGraph）",
+        "你想先用可视化无代码搭建（→ Dify、Coze）"
+      ],
+      "ja": [
+        "グラフレベルの状態制御が必要（→ LangGraph）",
+        "まずはビジュアルなノーコードビルダーを使いたい（→ Dify、Coze）"
+      ],
+      "es": [
+        "Necesitas control de estado a nivel de grafo (→ LangGraph)",
+        "Quieres primero un constructor visual sin código (→ Dify, Coze)"
+      ],
+      "fr": [
+        "Vous avez besoin d’un contrôle d’état au niveau graphe (→ LangGraph)",
+        "Vous voulez d’abord un builder visuel no-code (→ Dify, Coze)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-27",
+    "verdictDate": "2026-07-27",
+    "pricingVerified": "2026-07-27"
+  }
+}

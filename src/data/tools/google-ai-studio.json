@@ -1,0 +1,29 @@
+{
+  "slug": "google-ai-studio",
+  "name": "Google AI Studio",
+  "nameZh": "Google AI Studio",
+  "description": "Google 免费 AI 开发平台，可直接体验和调用 Gemini 等最新模型，支持 API 集成",
+  "descriptionEn": "Google's free AI development platform to explore and call Gemini and other latest models with API integration",
+  "descriptionJa": "Googleの無料AI開発プラットフォーム。Geminiなどの最新モデルを直接体験・API呼び出し可能",
+  "descriptionEs": "Plataforma de desarrollo IA gratuita de Google para explorar y usar Gemini y otros modelos recientes con integración API",
+  "descriptionFr": "Plateforme de développement IA gratuite de Google pour explorer et appeler Gemini et d'autres modèles récents avec intégration API",
+  "url": "https://aistudio.google.com",
+  "logo": "/logos/tools/google-ai-studio.png",
+  "category": "API Platform",
+  "tags": [
+    "Free",
+    "API"
+  ],
+  "featured": true,
+  "developer": "Google",
+  "platforms": {
+    "web": true,
+    "windows": false,
+    "macos": false,
+    "ios": true,
+    "android": true,
+    "linux": false,
+    "browser_extension": false,
+    "api": true
+  }
+}

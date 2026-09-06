@@ -12,6 +12,9 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { createRequire } from 'node:module';
+const _require = createRequire(import.meta.url);
+const { loadTools, loadSkills, loadMcp } = _require('./lib/load-data.cjs');
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 
@@ -19,17 +22,17 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const COLLECTIONS = [
   {
     label: '工具',
-    file: 'src/data/tools.json',
+    load: loadTools,
     getUrl: (entry) => entry.url,
   },
   {
     label: 'Skills',
-    file: 'src/data/skills.json',
+    load: loadSkills,
     getUrl: (entry) => entry.repo ? `https://github.com/${entry.repo}` : null,
   },
   {
     label: 'MCP',
-    file: 'src/data/mcp.json',
+    load: loadMcp,
     getUrl: (entry) => entry.repo ? `https://github.com/${entry.repo}` : null,
   },
 ];
@@ -110,8 +113,8 @@ const emit = (s) => {
 let hasDead = false;
 let totalChecked = 0;
 
-for (const { label, file, getUrl } of COLLECTIONS) {
-  const entries = JSON.parse(fs.readFileSync(path.join(ROOT, file), 'utf8'));
+for (const { label, load, getUrl } of COLLECTIONS) {
+  const entries = load();
   const items = entries
     .map((e) => {
       const url = getUrl(e);

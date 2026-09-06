@@ -1,0 +1,235 @@
+{
+  "features": {
+    "en": [
+      "Bi-directional noise cancellation working across 800+ apps",
+      "AI Note Taker joins no meeting — it transcribes locally, botless",
+      "Real-time Accent Conversion for clearer cross-border calls",
+      "Transcription and meeting notes in 19+ languages",
+      "Mobile apps bring the same cancellation to phone calls",
+      "Call Center SDK embeds Krisp tech into enterprise stacks"
+    ],
+    "zh": [
+      "双向降噪，横跨 800+ 应用生效",
+      "AI Note Taker 无 bot 入会——本地转写、不进会议",
+      "实时口音转换，让跨国通话更易懂",
+      "19+ 语言的转写与会议纪要",
+      "移动 App 把同款降噪带进手机通话",
+      "Call Center SDK 把 Krisp 技术嵌入企业系统"
+    ],
+    "ja": [
+      "800以上のアプリで機能する双方向ノイズキャンセリング",
+      "AI Note Takerは会議に参加しない——ボットなしでローカル文字起こし",
+      "国際通話を明瞭にするリアルタイムアクセント変換",
+      "19以上の言語での文字起こしと議事録",
+      "モバイルアプリで同じノイズ除去を電話にも",
+      "Call Center SDKでKrisp技術を企業スタックに組み込み"
+    ],
+    "es": [
+      "Cancelación de ruido bidireccional que funciona en más de 800 apps",
+      "El AI Note Taker no entra a la reunión — transcribe localmente, sin bot",
+      "Conversión de acento en tiempo real para llamadas internacionales más claras",
+      "Transcripción y notas de reunión en más de 19 idiomas",
+      "Las apps móviles llevan la misma cancelación a las llamadas telefónicas",
+      "El SDK de Call Center integra la tecnología Krisp en stacks empresariales"
+    ],
+    "fr": [
+      "Suppression de bruit bidirectionnelle fonctionnant sur plus de 800 apps",
+      "L'AI Note Taker ne rejoint aucune réunion — il transcrit localement, sans bot",
+      "Conversion d'accent en temps réel pour des appels internationaux plus clairs",
+      "Transcription et notes de réunion dans plus de 19 langues",
+      "Les apps mobiles apportent la même suppression aux appels téléphoniques",
+      "Le SDK Call Center intègre la technologie Krisp aux systèmes d'entreprise"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Free grants 60 minutes of noise cancellation daily plus unlimited transcription with daily AI-summary limits — enough for light meeting days.",
+      "zh": "免费档每天 60 分钟降噪，外加无限转写（AI 摘要有每日上限）——轻度会议日够用。",
+      "ja": "無料版は1日60分のノイズキャンセリングに加え、無制限の文字起こし（AI要約は1日上限あり）——会議が少ない日には十分。",
+      "es": "El plan gratis da 60 minutos diarios de cancelación de ruido más transcripción ilimitada con límites diarios de resúmenes IA — suficiente para días de pocas reuniones.",
+      "fr": "Le gratuit accorde 60 minutes de suppression de bruit par jour plus une transcription illimitée avec des limites quotidiennes de résumés IA — assez pour les journées légères."
+    },
+    "paid": {
+      "en": "Pro is about $8/month billed yearly for unlimited cancellation and notes; Business around $15/month adds centralized admin and SSO. (Verified against the official pricing page, 2026-07-29.)",
+      "zh": "Pro 年付约 $8/月，解锁无限降噪与纪要；Business 约 $15/月，增加集中管理与 SSO。（对照官方定价页核实，2026-07-29。）",
+      "ja": "Proは年払いで月約$8、無制限のノイズ除去とノートを解放。Businessは月約$15で集中管理とSSOを追加。（公式価格ページと照合、2026-07-29。）",
+      "es": "Pro cuesta unos $8/mes con pago anual para cancelación y notas ilimitadas; Business, unos $15/mes, añade administración centralizada y SSO. (Verificado con la página oficial de precios, 2026-07-29.)",
+      "fr": "Pro coûte environ 8 $/mois en facturation annuelle pour une suppression et des notes illimitées ; Business, environ 15 $/mois, ajoute l'administration centralisée et le SSO. (Vérifié avec la page tarifaire officielle, 2026-07-29.)"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Taking calls from cafés, homes with kids, or open offices",
+      "Meeting notes without a creepy bot joining the call",
+      "Support and sales teams standardizing call clarity",
+      "Cross-border teams smoothing accents in real time"
+    ],
+    "zh": [
+      "在咖啡馆、有娃的家里或开放办公室接电话",
+      "不让诡异 bot 入会也能拿到会议纪要",
+      "客服与销售团队统一通话清晰度",
+      "跨国团队实时柔化口音差异"
+    ],
+    "ja": [
+      "カフェ・子どものいる家・オープンオフィスからの通話",
+      "不気味なボットを入れずに議事録を取得",
+      "通話品質を標準化するサポート・営業チーム",
+      "リアルタイムでアクセントを滑らかにする国際チーム"
+    ],
+    "es": [
+      "Atender llamadas desde cafés, casas con niños u oficinas abiertas",
+      "Notas de reunión sin que un bot inquietante entre a la llamada",
+      "Equipos de soporte y ventas estandarizando la claridad de llamadas",
+      "Equipos internacionales suavizando acentos en tiempo real"
+    ],
+    "fr": [
+      "Prendre des appels depuis un café, une maison avec enfants ou un open space",
+      "Des notes de réunion sans bot intrusif dans l'appel",
+      "Équipes support et ventes standardisant la clarté des appels",
+      "Équipes internationales lissant les accents en temps réel"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Noise cancellation quality remains the category benchmark",
+      "Botless note-taking is a genuine privacy and etiquette win",
+      "Works below the app layer — one setup covers everything",
+      "Pro at ~$8/month undercuts most standalone note-takers"
+    ],
+    "zh": [
+      "降噪质量仍是品类标杆",
+      "无 bot 纪要在隐私与会议礼仪上是实打实的优势",
+      "工作在应用层之下——配置一次全端生效",
+      "Pro 约 $8/月，比多数独立纪要工具便宜"
+    ],
+    "ja": [
+      "ノイズキャンセリング品質は今もカテゴリの基準",
+      "ボットレスの議事録はプライバシーと会議マナーの真の勝利",
+      "アプリ層の下で動作——一度の設定で全てをカバー",
+      "月約$8のProは多くの単体ノートツールより安い"
+    ],
+    "es": [
+      "La calidad de cancelación de ruido sigue siendo la referencia de la categoría",
+      "Tomar notas sin bot es una victoria real de privacidad y etiqueta",
+      "Funciona bajo la capa de apps — una configuración lo cubre todo",
+      "Pro a ~$8/mes cuesta menos que la mayoría de anotadores independientes"
+    ],
+    "fr": [
+      "La qualité de suppression du bruit reste la référence de la catégorie",
+      "La prise de notes sans bot est un vrai gain de confidentialité et d'étiquette",
+      "Fonctionne sous la couche applicative — une configuration couvre tout",
+      "Pro à ~8 $/mois est moins cher que la plupart des preneurs de notes autonomes"
+    ]
+  },
+  "cons": {
+    "en": [
+      "The 60-minute daily free cap runs out mid-meeting on busy days",
+      "Accent Conversion is impressive but can feel uncanny to some listeners",
+      "Runs as an always-on audio driver — a nonstarter on locked-down machines",
+      "Note quality trails dedicated meeting assistants on speaker attribution"
+    ],
+    "zh": [
+      "免费每天 60 分钟，会议多的日子开到一半就见底",
+      "口音转换很惊艳，但部分听者会觉得不自然",
+      "以常驻音频驱动运行——在管控严格的电脑上行不通",
+      "纪要质量在说话人归属上不及专职会议助手"
+    ],
+    "ja": [
+      "無料の1日60分上限は忙しい日には会議の途中で尽きる",
+      "アクセント変換は見事だが一部の聞き手には不気味に感じられる",
+      "常駐音声ドライバとして動作——管理の厳しいマシンでは論外",
+      "ノート品質は話者識別で専用会議アシスタントに後れ"
+    ],
+    "es": [
+      "El tope gratis de 60 minutos diarios se agota a media reunión en días ocupados",
+      "La conversión de acento impresiona pero puede sonar extraña a algunos oyentes",
+      "Corre como controlador de audio siempre activo — inviable en máquinas restringidas",
+      "La calidad de notas va detrás de asistentes dedicados en atribución de hablantes"
+    ],
+    "fr": [
+      "Le plafond gratuit de 60 minutes par jour s'épuise en pleine réunion les jours chargés",
+      "La conversion d'accent impressionne mais peut sembler étrange à certains auditeurs",
+      "Fonctionne comme pilote audio permanent — rédhibitoire sur les machines verrouillées",
+      "La qualité des notes reste derrière les assistants dédiés pour l'attribution des locuteurs"
+    ]
+  },
+  "latestUpdate": {
+    "en": "2026: Krisp broadened from desktop utility to platform — Accent Conversion reached general availability, mobile apps brought cancellation to phone calls, transcription expanded past 19 languages, and the Call Center SDK pushed the tech into enterprise infrastructure.",
+    "zh": "2026 年：Krisp 从桌面工具扩展为平台——口音转换正式商用，移动 App 把降噪带进手机通话，转写扩展到 19+ 语言，Call Center SDK 则把这项技术推入企业基础设施。",
+    "ja": "2026年：Krispはデスクトップユーティリティからプラットフォームへ拡大——アクセント変換が一般提供に到達し、モバイルアプリが電話にノイズ除去をもたらし、文字起こしは19言語超に拡大、Call Center SDKが技術を企業インフラへ押し広げた。",
+    "es": "2026: Krisp pasó de utilidad de escritorio a plataforma — la Conversión de Acento llegó a disponibilidad general, las apps móviles llevaron la cancelación a las llamadas, la transcripción superó los 19 idiomas y el SDK de Call Center llevó la tecnología a la infraestructura empresarial.",
+    "fr": "2026 : Krisp est passé d'utilitaire de bureau à plateforme — la conversion d'accent est arrivée en disponibilité générale, les apps mobiles ont apporté la suppression aux appels téléphoniques, la transcription a dépassé 19 langues et le SDK Call Center a poussé la technologie dans l'infrastructure d'entreprise."
+  },
+  "verdict": {
+    "badge": "Recommended",
+    "headline": {
+      "en": "The quiet workhorse every remote worker should install",
+      "zh": "每个远程工作者都该装的静音老黄牛",
+      "ja": "全リモートワーカーが入れるべき静かな働き者",
+      "es": "El caballo de batalla silencioso que todo teletrabajador debería instalar",
+      "fr": "Le cheval de trait silencieux que tout télétravailleur devrait installer"
+    },
+    "body": {
+      "en": "Krisp solves an unglamorous problem so well that it disappears into your setup: it sits beneath Zoom, Meet, Teams and 800+ other apps as a virtual audio driver, scrubbing barking dogs, keyboard clatter and café chatter from both directions of every call. Years in, its cancellation quality is still the benchmark, and the strategy of working below the app layer means one installation covers every tool you'll ever use. The 2026 expansion is thoughtful rather than bolted-on: the AI Note Taker transcribes locally without sending a bot into your meeting — a real privacy and etiquette advantage over the parade of 'notetaker joined the call' widgets — while Accent Conversion smooths cross-border conversations in real time, and mobile apps extend everything to phone calls. Quibbles exist: the free tier's 60-minute daily cap dies mid-afternoon on meeting-heavy days, essentially forcing the (fairly priced, ~$8/month) Pro tier for professionals; the always-on audio driver won't fly on locked-down corporate machines without IT blessing; and dedicated meeting assistants still write richer, better-attributed notes. But as a foundation layer for remote work — one that makes every other tool sound better — Krisp is about as easy a recommendation as this category offers.",
+      "zh": "Krisp 把一个毫不起眼的问题解决得太好，以至于它消失在你的配置里：它作为虚拟音频驱动躺在 Zoom、Meet、Teams 与 800+ 应用之下，把狗叫、键盘声与咖啡馆嘈杂从每通电话的收发两端同时擦掉。多年过去，它的降噪质量仍是标杆，而「工作在应用层之下」的策略意味着装一次就覆盖你会用到的所有工具。2026 年的扩张是深思熟虑而非硬凑的：AI Note Taker 本地转写、不往会议里塞 bot——相比满屏「纪要机器人已入会」的尴尬，这是隐私与礼仪的双重优势；口音转换实时柔化跨国对话；移动 App 又把这一切延伸到手机通话。小毛病也有：免费档每天 60 分钟，会议密集的日子下午就见底，专业用户实际上被推向（定价还算公道、约 $8/月的）Pro 档；常驻音频驱动在 IT 管控严格的公司电脑上没戏；专职会议助手的纪要在丰富度与说话人归属上也仍更强。但作为远程办公的地基层——一个让其他所有工具听起来都更好的东西——Krisp 是这个品类里最容易给出的推荐之一。",
+      "ja": "Krispは地味な問題をあまりに見事に解決するため、セットアップの中に消えてしまう：仮想音声ドライバとしてZoom・Meet・Teamsほか800以上のアプリの下に座り、犬の鳴き声・キーボード音・カフェの喧騒を通話の送受信両方向から拭い去る。何年経ってもそのノイズ除去品質は基準であり続け、アプリ層の下で働く戦略のおかげで一度のインストールが今後使う全ツールをカバーする。2026年の拡張は後付けではなく考え抜かれたものだ：AI Note Takerは会議にボットを送り込まずローカルで文字起こしする——「ノートテイカーが参加しました」ウィジェットの行列に対する、プライバシーとマナーの真の優位——一方でアクセント変換は国際会話をリアルタイムに滑らかにし、モバイルアプリがすべてを電話に広げる。難点もある：無料枠の1日60分は会議の多い日には午後半ばで尽き、プロフェッショナルは実質（月約$8と良心的な）Proへ誘導される。常駐音声ドライバはITが管理する会社のマシンでは許可なしに動かせない。専用会議アシスタントのノートは依然として豊かで話者識別も上手い。だがリモートワークの土台層として——他のあらゆるツールの音を良くする存在として——Krispはこのカテゴリで最も推薦しやすい一本だ。",
+      "es": "Krisp resuelve un problema poco glamuroso tan bien que desaparece en tu configuración: se asienta bajo Zoom, Meet, Teams y más de 800 apps como controlador de audio virtual, borrando ladridos, tecleo y bullicio de café en ambas direcciones de cada llamada. Años después, su calidad de cancelación sigue siendo la referencia, y la estrategia de operar bajo la capa de aplicaciones significa que una instalación cubre todas las herramientas que uses. La expansión de 2026 es meditada y no un añadido: el AI Note Taker transcribe localmente sin enviar un bot a tu reunión — una ventaja real de privacidad y etiqueta frente al desfile de avisos de «el anotador se unió a la llamada» — mientras la Conversión de Acento suaviza conversaciones internacionales en tiempo real y las apps móviles lo extienden todo a las llamadas. Hay peros: el tope gratis de 60 minutos diarios muere a media tarde en días cargados, empujando en la práctica al plan Pro (bien tarifado, ~$8/mes); el controlador de audio siempre activo no pasará en máquinas corporativas bloqueadas sin permiso de TI; y los asistentes de reunión dedicados siguen escribiendo notas más ricas y mejor atribuidas. Pero como capa base del trabajo remoto — una que hace sonar mejor a todas las demás herramientas — Krisp es de las recomendaciones más fáciles de esta categoría.",
+      "fr": "Krisp résout un problème sans gloire si bien qu'il disparaît dans votre installation : il se loge sous Zoom, Meet, Teams et plus de 800 apps comme pilote audio virtuel, effaçant aboiements, cliquetis de clavier et brouhaha de café dans les deux sens de chaque appel. Des années après, sa qualité de suppression reste la référence, et la stratégie d'opérer sous la couche applicative signifie qu'une seule installation couvre tous vos outils. L'expansion 2026 est réfléchie plutôt que plaquée : l'AI Note Taker transcrit localement sans envoyer de bot dans votre réunion — un vrai avantage de confidentialité et d'étiquette face au défilé des « le preneur de notes a rejoint l'appel » — tandis que la conversion d'accent lisse les conversations internationales en temps réel et que les apps mobiles étendent tout aux appels téléphoniques. Des bémols existent : le plafond gratuit de 60 minutes par jour meurt en milieu d'après-midi les jours chargés, poussant de fait les professionnels vers le plan Pro (honnêtement tarifé, ~8 $/mois) ; le pilote audio permanent ne passera pas sur les machines d'entreprise verrouillées sans l'aval de la DSI ; et les assistants de réunion dédiés écrivent encore des notes plus riches et mieux attribuées. Mais comme couche de fondation du travail à distance — qui améliore le son de tous vos autres outils — Krisp est l'une des recommandations les plus faciles de cette catégorie."
+    },
+    "bestFor": {
+      "en": [
+        "Remote workers in noisy home or café environments",
+        "Privacy-minded teams wanting notes without meeting bots",
+        "Support and sales teams standardizing call quality"
+      ],
+      "zh": [
+        "身处嘈杂居家或咖啡馆环境的远程工作者",
+        "想要纪要但不想要会议 bot 的隐私敏感团队",
+        "统一通话质量的客服与销售团队"
+      ],
+      "ja": [
+        "騒がしい自宅やカフェで働くリモートワーカー",
+        "会議ボットなしでノートが欲しいプライバシー重視チーム",
+        "通話品質を標準化するサポート・営業チーム"
+      ],
+      "es": [
+        "Teletrabajadores en entornos ruidosos de casa o café",
+        "Equipos con conciencia de privacidad que quieren notas sin bots",
+        "Equipos de soporte y ventas estandarizando la calidad de llamadas"
+      ],
+      "fr": [
+        "Télétravailleurs dans des environnements bruyants, maison ou café",
+        "Équipes soucieuses de confidentialité voulant des notes sans bots",
+        "Équipes support et ventes standardisant la qualité des appels"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You want the deepest meeting summaries and action-item tracking (→ Fireflies.ai)",
+        "You mainly need transcription-driven audio and video editing (→ Descript)"
+      ],
+      "zh": [
+        "你想要最深度的会议摘要与行动项跟踪（→ Fireflies.ai）",
+        "你主要需要转写驱动的音视频剪辑（→ Descript）"
+      ],
+      "ja": [
+        "最も深い会議サマリーとアクションアイテム管理が欲しい（→ Fireflies.ai）",
+        "主に文字起こし駆動の音声・動画編集が必要（→ Descript）"
+      ],
+      "es": [
+        "Quieres los resúmenes de reunión y seguimiento de tareas más profundos (→ Fireflies.ai)",
+        "Necesitas sobre todo edición de audio y vídeo basada en transcripción (→ Descript)"
+      ],
+      "fr": [
+        "Vous voulez les résumés de réunion et le suivi d'actions les plus poussés (→ Fireflies.ai)",
+        "Vous avez surtout besoin de montage audio/vidéo piloté par la transcription (→ Descript)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-29",
+    "verdictDate": "2026-07-29",
+    "pricingVerified": "2026-07-29",
+    "pricingUrl": "https://krisp.ai/pricing"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "fireworks-ai",
+  "name": "Fireworks AI",
+  "nameZh": "Fireworks AI",
+  "description": "主打极速推理的生成式 AI 平台，serverless 按 token 计费零冷启动，兼容 OpenAI/Anthropic 接口，批量推理五折，另有专属部署与模型微调",
+  "descriptionEn": "Generative AI platform built for the fastest inference: serverless pay-per-token with zero cold starts, OpenAI/Anthropic-compatible APIs, 50% off batch inference, plus dedicated deployments and fine-tuning",
+  "descriptionJa": "最速推論を掲げる生成AIプラットフォーム。コールドスタートなしのサーバーレストークン課金、OpenAI/Anthropic互換API、バッチ推論半額に加え、専用デプロイやファインチューニングも提供",
+  "descriptionEs": "Plataforma de IA generativa centrada en la inferencia más rápida: serverless con pago por token sin arranques en frío, APIs compatibles con OpenAI/Anthropic, batch al 50%, más despliegues dedicados y fine-tuning",
+  "descriptionFr": "Plateforme d'IA générative axée sur l'inférence la plus rapide : serverless au token sans démarrage à froid, API compatibles OpenAI/Anthropic, batch à moitié prix, plus déploiements dédiés et fine-tuning",
+  "url": "https://fireworks.ai",
+  "logo": "/logos/tools/fireworks-ai.png",
+  "category": "API Platform",
+  "tags": [
+    "Paid",
+    "API"
+  ],
+  "featured": false,
+  "developer": "Fireworks AI",
+  "platforms": {
+    "web": true,
+    "windows": false,
+    "macos": false,
+    "ios": false,
+    "android": false,
+    "linux": false,
+    "browser_extension": false,
+    "api": true
+  }
+}

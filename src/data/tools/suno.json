@@ -1,0 +1,28 @@
+{
+  "slug": "suno",
+  "name": "Suno",
+  "nameZh": "Suno",
+  "description": "AI 音乐生成工具，输入文字描述即可生成完整歌曲",
+  "descriptionEn": "AI music generation tool that creates complete songs from text descriptions",
+  "descriptionJa": "AI音楽生成ツール。テキスト説明から完全な曲を生成",
+  "descriptionEs": "Herramienta de generación de música IA que crea canciones completas desde descripciones de texto",
+  "descriptionFr": "Outil de génération musicale IA qui crée des chansons complètes à partir de descriptions textuelles",
+  "url": "https://suno.com",
+  "logo": "/logos/tools/suno.png",
+  "category": "Music",
+  "tags": [
+    "Freemium"
+  ],
+  "featured": false,
+  "developer": "Suno",
+  "platforms": {
+    "web": true,
+    "windows": false,
+    "macos": false,
+    "ios": true,
+    "android": true,
+    "linux": false,
+    "browser_extension": false,
+    "api": false
+  }
+}

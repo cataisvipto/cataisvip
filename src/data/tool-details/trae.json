@@ -1,0 +1,224 @@
+{
+  "features": {
+    "en": [
+      "AI-native IDE built on VS Code",
+      "Builder and chat modes",
+      "Integrates Claude and GPT models",
+      "Natural-language code generation",
+      "Real-time preview",
+      "Autonomous multi-step agent"
+    ],
+    "zh": [
+      "基于 VS Code 的 AI 原生 IDE",
+      "Builder 与对话双模式",
+      "集成 Claude、GPT 等模型",
+      "自然语言生成代码",
+      "实时预览",
+      "自主多步 Agent"
+    ],
+    "ja": [
+      "VS Code ベースの AI ネイティブ IDE",
+      "Builder とチャットの両モード",
+      "Claude や GPT モデルを統合",
+      "自然言語からコード生成",
+      "リアルタイムプレビュー",
+      "自律的なマルチステップ Agent"
+    ],
+    "es": [
+      "IDE nativo de IA sobre VS Code",
+      "Modos Builder y chat",
+      "Integra modelos Claude y GPT",
+      "Generación de código por lenguaje natural",
+      "Vista previa en tiempo real",
+      "Agente autónomo de varios pasos"
+    ],
+    "fr": [
+      "IDE natif IA basé sur VS Code",
+      "Modes Builder et chat",
+      "Intègre les modèles Claude et GPT",
+      "Génération de code en langage naturel",
+      "Aperçu en temps réel",
+      "Agent autonome multi-étapes"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Free plan with basic usage",
+      "zh": "免费版（基础用量）",
+      "ja": "基本利用の無料プラン",
+      "es": "Plan gratuito con uso básico",
+      "fr": "Offre gratuite avec usage de base"
+    },
+    "pro": {
+      "en": "Pro subscription for premium model quota",
+      "zh": "Pro 订阅（高级模型额度）",
+      "ja": "Pro サブスク（上位モデル枠）",
+      "es": "Suscripción Pro para cuota de modelos premium",
+      "fr": "Abonnement Pro pour quota de modèles premium"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Full app prototyping",
+      "Frontend development",
+      "Feature implementation",
+      "Learning to code"
+    ],
+    "zh": [
+      "完整应用原型",
+      "前端开发",
+      "功能实现",
+      "学习编程"
+    ],
+    "ja": [
+      "アプリのプロトタイピング",
+      "フロントエンド開発",
+      "機能実装",
+      "プログラミング学習"
+    ],
+    "es": [
+      "Prototipado de apps",
+      "Desarrollo frontend",
+      "Implementación de funciones",
+      "Aprender a programar"
+    ],
+    "fr": [
+      "Prototypage d'applications",
+      "Développement frontend",
+      "Implémentation de fonctionnalités",
+      "Apprentissage du code"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Access to top international models",
+      "Familiar VS Code experience",
+      "Strong agent capabilities",
+      "Polished UI"
+    ],
+    "zh": [
+      "可用国际顶级模型",
+      "熟悉的 VS Code 体验",
+      "Agent 能力强",
+      "界面精致"
+    ],
+    "ja": [
+      "一流の国際モデルを利用可能",
+      "馴染みのある VS Code 体験",
+      "強力な Agent 機能",
+      "洗練された UI"
+    ],
+    "es": [
+      "Acceso a modelos internacionales de primer nivel",
+      "Experiencia VS Code familiar",
+      "Fuertes capacidades de agente",
+      "Interfaz pulida"
+    ],
+    "fr": [
+      "Accès aux meilleurs modèles internationaux",
+      "Expérience VS Code familière",
+      "Fortes capacités d'agent",
+      "Interface soignée"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Premium models require payment",
+      "May need network access outside China"
+    ],
+    "zh": [
+      "高级模型需付费",
+      "可能需境外网络环境"
+    ],
+    "ja": [
+      "上位モデルは有料",
+      "中国国外のネットワークが必要な場合あり"
+    ],
+    "es": [
+      "Los modelos premium son de pago",
+      "Puede requerir red fuera de China"
+    ],
+    "fr": [
+      "Les modèles premium sont payants",
+      "Peut nécessiter un réseau hors de Chine"
+    ]
+  },
+  "latestUpdate": {
+    "en": "2026: Trae expanded model options and improved its autonomous agent",
+    "zh": "2026年：Trae 扩充模型选择并增强自主 Agent 能力",
+    "ja": "2026年：Trae がモデル選択を拡充し、自律 Agent を強化",
+    "es": "2026: Trae amplió opciones de modelos y mejoró su agente autónomo",
+    "fr": "2026 : Trae a élargi ses options de modèles et amélioré son agent autonome"
+  },
+  "verdict": {
+    "badge": "Worth Trying",
+    "headline": {
+      "en": "ByteDance's AI-powered IDE offering integrated coding assistance with competitive models.",
+      "zh": "字节跳动的AI驱动IDE，提供集成编程辅助和有竞争力的模型。",
+      "ja": "競争力のあるモデルによる統合コーディング支援を提供するByteDanceのAI搭載IDE。",
+      "es": "El IDE con IA de ByteDance ofreciendo asistencia de código integrada con modelos competitivos.",
+      "fr": "L'IDE alimenté par l'IA de ByteDance offrant une assistance de code intégrée avec des modèles compétitifs."
+    },
+    "body": {
+      "en": "Trae is ByteDance's entry into the AI IDE market, offering code completion, chat, and agent capabilities within a VS Code-based editor. It provides free access to multiple models and a familiar editing experience with AI built in.\n\nAs a newer entrant, it's building features rapidly but hasn't yet matched the maturity of Cursor or the ecosystem depth of GitHub Copilot. Worth trying for developers curious about alternatives, especially those who appreciate free model access.",
+      "zh": "Trae 是字节跳动进入AI IDE市场的产品，在VS Code基础编辑器内提供代码补全、聊天和智能体功能。免费提供多种模型访问和熟悉的编辑体验。\n\n作为较新的入局者，它在快速构建功能但尚未达到 Cursor 的成熟度或 GitHub Copilot 的生态深度。值得对替代方案好奇的开发者尝试，尤其是看重免费模型访问的人。",
+      "ja": "TraeはByteDanceのAI IDEマーケット参入製品で、VS Codeベースのエディタ内にコード補完、チャット、エージェント機能を提供します。複数モデルへの無料アクセスと馴染みのある編集体験を備えています。\n\n新しい参入者として機能を急速に構築中ですが、Cursorの成熟度やGitHub Copilotのエコシステムの深さにはまだ達していません。代替に興味のある開発者、特に無料モデルアクセスを重視する方にお試しの価値があります。",
+      "es": "Trae es la entrada de ByteDance al mercado de IDEs IA, ofreciendo completado de código, chat y capacidades de agente dentro de un editor basado en VS Code. Proporciona acceso gratuito a múltiples modelos.\n\nComo entrante más nuevo, construye funciones rápidamente pero no ha igualado la madurez de Cursor. Vale la pena probar para desarrolladores curiosos, especialmente los que aprecian el acceso gratuito a modelos.",
+      "fr": "Trae est l'entrée de ByteDance sur le marché des IDE IA, offrant complétion de code, chat et capacités d'agent dans un éditeur basé sur VS Code. Accès gratuit à plusieurs modèles et expérience d'édition familière.\n\nEn tant que nouvel entrant, il construit rapidement des fonctionnalités mais n'a pas encore égalé la maturité de Cursor. Vaut la peine d'essayer pour les développeurs curieux, surtout ceux qui apprécient l'accès gratuit aux modèles."
+    },
+    "bestFor": {
+      "en": [
+        "Developers wanting a free AI IDE alternative",
+        "ByteDance model access for coding",
+        "Users comfortable with VS Code-style editors"
+      ],
+      "zh": [
+        "想要免费AI IDE替代的开发者",
+        "字节模型的编程访问",
+        "习惯VS Code风格编辑器的用户"
+      ],
+      "ja": [
+        "無料のAI IDE代替を求める開発者",
+        "ByteDanceモデルのコーディングアクセス",
+        "VS Codeスタイルのエディタに慣れたユーザー"
+      ],
+      "es": [
+        "Desarrolladores que quieren una alternativa IDE IA gratuita",
+        "Acceso a modelos ByteDance para código",
+        "Usuarios cómodos con editores estilo VS Code"
+      ],
+      "fr": [
+        "Développeurs voulant une alternative IDE IA gratuite",
+        "Accès aux modèles ByteDance pour le code",
+        "Utilisateurs à l'aise avec les éditeurs style VS Code"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You want the most mature AI IDE (→ Cursor)",
+        "You need enterprise-grade support (→ GitHub Copilot)"
+      ],
+      "zh": [
+        "需要最成熟的AI IDE（→ Cursor）",
+        "需要企业级支持（→ GitHub Copilot）"
+      ],
+      "ja": [
+        "最も成熟したAI IDEが必要な場合（→ Cursor）",
+        "エンタープライズグレードのサポートが必要な場合（→ GitHub Copilot）"
+      ],
+      "es": [
+        "Quieres el IDE IA más maduro (→ Cursor)",
+        "Necesitas soporte enterprise (→ GitHub Copilot)"
+      ],
+      "fr": [
+        "Vous voulez l'IDE IA le plus mature (→ Cursor)",
+        "Vous avez besoin de support entreprise (→ GitHub Copilot)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-27",
+    "verdictDate": "2026-07-27",
+    "pricingVerified": "2026-07-27"
+  }
+}

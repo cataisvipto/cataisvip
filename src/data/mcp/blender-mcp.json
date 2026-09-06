@@ -1,0 +1,77 @@
+{
+  "slug": "blender-mcp",
+  "name": "Blender MCP",
+  "nameZh": "Blender 3D 建模",
+  "description": "把 Blender 接入 AI 智能体的 MCP 服务器。用自然语言驱动 3D 建模：创建场景、编辑材质、执行 Blender Python 脚本，人气爆棚的社区项目。",
+  "descriptionEn": "An MCP server connecting Blender to AI agents. Drive 3D modeling with natural language: create scenes, edit materials and run Blender Python scripts. A wildly popular community project.",
+  "descriptionJa": "BlenderをAIエージェントに接続するMCPサーバー。自然言語で3Dモデリング：シーン作成、マテリアル編集、Blender Pythonスクリプト実行。大人気のコミュニティプロジェクト。",
+  "descriptionEs": "Un servidor MCP que conecta Blender con agentes de IA. Modelado 3D con lenguaje natural: crear escenas, editar materiales y ejecutar scripts Python de Blender.",
+  "descriptionFr": "Un serveur MCP connectant Blender aux agents IA. Modélisation 3D en langage naturel : création de scènes, édition de matériaux et exécution de scripts Python Blender.",
+  "developer": "Siddharth Ahuja",
+  "developerZh": "Siddharth Ahuja",
+  "repo": "ahujasid/blender-mcp",
+  "clients": [
+    "claude",
+    "cursor",
+    "generic"
+  ],
+  "category": "Design",
+  "tags": [
+    "Free",
+    "Open Source"
+  ],
+  "installCommand": "uvx blender-mcp",
+  "logo": "/logos/mcp/blender-mcp.png",
+  "stars": 26843,
+  "featured": false,
+  "faqs": [
+    {
+      "question": {
+        "zh": "Blender MCP 能做什么？",
+        "en": "What can Blender MCP do?",
+        "ja": "Blender MCP で何ができますか？",
+        "es": "¿Qué puede hacer Blender MCP?",
+        "fr": "Que peut faire Blender MCP ?"
+      },
+      "answer": {
+        "zh": "它把 Claude 等 AI 直连 Blender：用自然语言建模、打材质、布置场景、执行任意 Blender Python 脚本，还能调用 Poly Haven 免费素材库，把口头描述直接变成 3D 场景。",
+        "en": "It wires Claude and other AIs straight into Blender: model, texture and stage scenes with natural language, run arbitrary Blender Python scripts, and pull free assets from Poly Haven — turning verbal descriptions into 3D scenes.",
+        "ja": "Claude などの AI を Blender に直結します。自然言語でモデリング、マテリアル設定、シーン構築、任意の Blender Python スクリプト実行が可能で、Poly Haven の無料アセットも呼び出せます。言葉の描写がそのまま 3D シーンになります。",
+        "es": "Conecta Claude y otras IA directamente con Blender: modelar, texturizar y montar escenas con lenguaje natural, ejecutar scripts Python de Blender y usar recursos gratuitos de Poly Haven. Descripciones verbales convertidas en escenas 3D.",
+        "fr": "Il relie Claude et d'autres IA directement à Blender : modéliser, texturer et composer des scènes en langage naturel, exécuter des scripts Python Blender et puiser dans les ressources gratuites de Poly Haven — vos descriptions deviennent des scènes 3D."
+      }
+    },
+    {
+      "question": {
+        "zh": "怎么安装 Blender MCP？",
+        "en": "How do I set up Blender MCP?",
+        "ja": "Blender MCP をセットアップするには？",
+        "es": "¿Cómo configuro Blender MCP?",
+        "fr": "Comment configurer Blender MCP ?"
+      },
+      "answer": {
+        "zh": "两步：① 在 Blender 里安装配套 addon.py 插件并启动连接；② 在 MCP 客户端配置 uvx blender-mcp（需要 Python 的 uv 工具）。需要 Blender 3.0 以上版本。",
+        "en": "Two steps: 1) install the companion addon.py in Blender and start the connection; 2) configure uvx blender-mcp in your MCP client (requires the uv tool for Python). Blender 3.0+ is required.",
+        "ja": "2 ステップです。① Blender に付属の addon.py をインストールして接続を開始、② MCP クライアントに uvx blender-mcp を設定（Python の uv ツールが必要）。Blender 3.0 以上が必要です。",
+        "es": "Dos pasos: 1) instala el addon.py complementario en Blender e inicia la conexión; 2) configura uvx blender-mcp en tu cliente MCP (requiere la herramienta uv de Python). Se necesita Blender 3.0 o superior.",
+        "fr": "Deux étapes : 1) installez l'addon.py dans Blender et démarrez la connexion ; 2) configurez uvx blender-mcp dans votre client MCP (nécessite l'outil uv de Python). Blender 3.0+ est requis."
+      }
+    },
+    {
+      "question": {
+        "zh": "Blender MCP 免费吗？",
+        "en": "Is Blender MCP free?",
+        "ja": "Blender MCP は無料ですか？",
+        "es": "¿Blender MCP es gratuito?",
+        "fr": "Blender MCP est-il gratuit ?"
+      },
+      "answer": {
+        "zh": "免费开源（MIT），Blender 本身也是免费软件，全程零成本。它是社区最火的创意类 MCP 服务器之一，GitHub 星数超过两万五。",
+        "en": "Free and open source (MIT) — and Blender itself is free software, so the whole stack costs nothing. It is one of the most popular creative MCP servers, with over 25,000 GitHub stars.",
+        "ja": "無料のオープンソース（MIT）で、Blender 自体も無料ソフトウェアなので全工程ゼロコストです。GitHub スター 2.5 万超の、最も人気のあるクリエイティブ系 MCP サーバーの一つです。",
+        "es": "Gratuito y de código abierto (MIT), y Blender también es software libre: todo el conjunto cuesta cero. Es uno de los servidores MCP creativos más populares, con más de 25 000 estrellas en GitHub.",
+        "fr": "Gratuit et open source (MIT) — Blender lui-même est un logiciel libre, donc l'ensemble ne coûte rien. C'est l'un des serveurs MCP créatifs les plus populaires, avec plus de 25 000 étoiles GitHub."
+      }
+    }
+  ]
+}

@@ -1,0 +1,225 @@
+{
+  "features": {
+    "en": [
+      "Real interactive theming — sidebar, suggestion cards, project picker and input box are native controls, not fake screenshots",
+      "True background layer — a 16:9 wallpaper fills the whole window, standing out on the home page while reducing distraction on task pages",
+      "One-click skinning from DreamSkin.cc with origin, checksum and SHA-256 verification before applying",
+      "Import theme ZIPs with Safe CSS validation and manifest integrity checks",
+      "Save and switch local themes from the macOS menu bar or Windows system tray",
+      "One-click restore to official appearance",
+      "Local loopback CDP injection — does not modify official binaries or signatures"
+    ],
+    "zh": [
+      "真·可交互换肤：侧栏、建议卡、项目选择、输入框都是原生控件，不是整窗假截图",
+      "真背景层：一张 16:9 纯壁纸连续铺满整窗，首页突出氛围，任务页自动降低干扰",
+      "DreamSkin.cc 一键换肤：应用前核对来源、兼容标记、版本号、包大小、字节数与 SHA-256",
+      "支持导入主题 ZIP，附带 Safe CSS 校验与清单完整性检查",
+      "macOS 菜单栏与 Windows 系统托盘都能保存/切换本地主题",
+      "一键还原官方外观",
+      "本机回环 CDP 注入，不改官方二进制与签名"
+    ],
+    "ja": [
+      "真のインタラクティブスキン：サイドバー、提案カード、プロジェクト選択、入力ボックスはすべてネイティブコントロール",
+      "本物の背景レイヤー：16:9 の壁紙がウィンドウ全体に広がり、ホームページで雰囲気を強調、タスクページでは自動的に干渉を軽減",
+      "DreamSkin.cc からのワンクリックスキン変更：適用前に出所、互換性、SHA-256 を検証",
+      "テーマZIPのインポートに対応、Safe CSS検証とマニフェスト整合性チェック付き",
+      "macOSメニューバーとWindowsシステムトレイからローカルテーマを保存・切替可能",
+      "ワンクリックで公式外観に復元",
+      "ローカルのループバックCDP注入 — 公式バイナリと署名は変更しない"
+    ],
+    "es": [
+      "Tematización realmente interactiva: sidebar, tarjetas de sugerencias, selector de proyectos y caja de entrada son controles nativos, no capturas falsas",
+      "Capa de fondo real: un wallpaper 16:9 llena toda la ventana, destacando en la página de inicio y reduciendo distracciones en páginas de tareas",
+      "Cambio de skin con un clic desde DreamSkin.cc con verificación de origen, checksum y SHA-256",
+      "Importa ZIPs de temas con validación Safe CSS y comprobación de integridad del manifiesto",
+      "Guarda y cambia temas locales desde la barra de menú de macOS o la bandeja del sistema de Windows",
+      "Restauración de la apariencia oficial con un clic",
+      "Inyección CDP de loopback local — no modifica binarios ni firmas oficiales"
+    ],
+    "fr": [
+      "Habillage réellement interactif : barre latérale, cartes de suggestions, sélecteur de projets et champ de saisie sont des contrôles natifs, pas de fausses captures",
+      "Vraie couche de fond : un wallpaper 16:9 remplit toute la fenêtre, mettant en valeur la page d'accueil et réduisant les distractions sur les pages de tâches",
+      "Changement de skin en un clic depuis DreamSkin.cc avec vérification de l'origine, du checksum et du SHA-256",
+      "Import de ZIPs de thèmes avec validation Safe CSS et vérification d'intégrité du manifeste",
+      "Enregistrement et changement de thèmes locaux depuis la barre de menus macOS ou la zone de notification Windows",
+      "Restauration de l'apparence officielle en un clic",
+      "Injection CDP en boucle locale — ne modifie ni les binaires officiels ni les signatures"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Free and open source (MIT). The official theme gallery DreamSkin.cc is free to browse and use.",
+      "zh": "免费开源（MIT 协议）。官方主题库 DreamSkin.cc 免费浏览和使用。",
+      "ja": "無料のオープンソース（MITライセンス）。公式テーマライブラリ DreamSkin.cc は無料で閲覧・利用可能。",
+      "es": "Gratuito y de código abierto (MIT). La galería oficial de temas DreamSkin.cc es gratuita de explorar y usar.",
+      "fr": "Gratuit et open source (licence MIT). La galerie officielle de thèmes DreamSkin.cc est gratuite à parcourir et à utiliser."
+    }
+  },
+  "useCases": {
+    "en": [
+      "Customizing the Codex desktop app appearance with community themes",
+      "Creating and sharing your own themes on DreamSkin.cc",
+      "Switching between saved themes from the menu bar or system tray"
+    ],
+    "zh": [
+      "用社区主题美化 Codex 桌面端外观",
+      "在 DreamSkin.cc 创作并分享自己的主题",
+      "从菜单栏或系统托盘快速切换已保存的主题"
+    ],
+    "ja": [
+      "コミュニティテーマで Codex デスクトップの外観をカスタマイズ",
+      "DreamSkin.cc で自分だけのテーマを制作・共有",
+      "メニューバーやシステムトレイから保存済みテーマを素早く切り替え"
+    ],
+    "es": [
+      "Personalizar la apariencia de la app de escritorio de Codex con temas de la comunidad",
+      "Crear y compartir tus propios temas en DreamSkin.cc",
+      "Cambiar entre temas guardados desde la barra de menú o la bandeja del sistema"
+    ],
+    "fr": [
+      "Personnaliser l'apparence de l'application de bureau Codex avec des thèmes communautaires",
+      "Créer et partager vos propres thèmes sur DreamSkin.cc",
+      "Basculer entre les thèmes enregistrés depuis la barre de menus ou la zone de notification"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Real interactive theming — native controls, not static screenshots",
+      "Strong safety boundaries: no installer modification, SHA-256 verification, Safe CSS validation",
+      "One-click skinning from the official theme gallery",
+      "Active community with preset themes and creator rankings",
+      "Free and open source with MIT license"
+    ],
+    "zh": [
+      "真·可交互换肤，原生控件而非静态截图",
+      "安全边界清晰：不改安装包、SHA-256 校验、Safe CSS 验证",
+      "官方主题库一键换肤，来源与校验双重核对",
+      "社区活跃，自带精选预设主题与创作者榜单",
+      "免费开源（MIT 协议）"
+    ],
+    "ja": [
+      "真のインタラクティブスキン — ネイティブコントロール、静的スクリーンショットではない",
+      "明確な安全境界：インストーラを変更せず、SHA-256検証、Safe CSS検証",
+      "公式テーマライブラリからのワンクリックスキン変更",
+      "活発なコミュニティ、プリセットテーマとクリエイターランキング",
+      "無料のオープンソース（MITライセンス）"
+    ],
+    "es": [
+      "Tematización realmente interactiva — controles nativos, no capturas estáticas",
+      "Límites de seguridad sólidos: sin modificar el instalador, verificación SHA-256, validación Safe CSS",
+      "Cambio de skin con un clic desde la galería oficial de temas",
+      "Comunidad activa con temas preestablecidos y rankings de creadores",
+      "Gratuito y de código abierto con licencia MIT"
+    ],
+    "fr": [
+      "Habillage réellement interactif — contrôles natifs, pas de captures statiques",
+      "Limites de sécurité solides : aucune modification de l'installeur, vérification SHA-256, validation Safe CSS",
+      "Changement de skin en un clic depuis la galerie officielle de thèmes",
+      "Communauté active avec thèmes prédéfinis et classements de créateurs",
+      "Gratuit et open source sous licence MIT"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Project is very young (created July 2026) — had 37 open issues at verification time",
+      "CDP binds only to 127.0.0.1 without authentication; other processes on the same machine could connect",
+      "Requires Codex desktop app to be installed first",
+      "Theme packages with people/IP content need individual rights verification"
+    ],
+    "zh": [
+      "项目非常年轻（2026 年 7 月创建），核验时仍有 37 个未关闭 issue",
+      "CDP 仅绑定 127.0.0.1 且无身份认证，同机其他进程可能连接",
+      "需要先安装 Codex 桌面端才能使用",
+      "含人物/IP 素材的主题包需自行确认肖像与版权"
+    ],
+    "ja": [
+      "プロジェクトは非常に新しい（2026年7月作成）、検証時点で未解決issueが37件",
+      "CDPは127.0.0.1のみにバインドされ認証がないため、同一マシンの他プロセスが接続できる可能性",
+      "先に Codex デスクトップアプリのインストールが必要",
+      "人物/IP素材を含むテーマパックは権利確認が別途必要"
+    ],
+    "es": [
+      "El proyecto es muy joven (creado en julio de 2026) — tenía 37 issues abiertos en el momento de la verificación",
+      "CDP se vincula solo a 127.0.0.1 sin autenticación; otros procesos de la misma máquina podrían conectarse",
+      "Requiere que la app de escritorio de Codex esté instalada primero",
+      "Los paquetes de temas con contenido de personas/IP requieren verificación de derechos individual"
+    ],
+    "fr": [
+      "Projet très récent (créé en juillet 2026) — 37 issues ouvertes au moment de la vérification",
+      "CDP ne se lie qu'à 127.0.0.1 sans authentification ; d'autres processus de la même machine pourraient se connecter",
+      "Nécessite d'abord l'installation de l'application de bureau Codex",
+      "Les packs de thèmes contenant des personnes/propriété intellectuelle nécessitent une vérification individuelle des droits"
+    ]
+  },
+  "latestUpdate": {
+    "en": "August 2026: One-click skinning launches (requires client v1.5.0+), theme import with Safe CSS validation, local theme save/switch from menu bar and system tray, and the DreamSkin.cc gallery with online Studio.",
+    "zh": "2026年8月：上线一键换肤（需客户端 v1.5.0+）、支持主题 ZIP 导入（Safe CSS 校验）、菜单栏/系统托盘本地主题保存切换，DreamSkin.cc 主题库与在线 Studio 同步推出。",
+    "ja": "2026年8月：ワンクリックスキン変更（クライアントv1.5.0+必要）をリリース、テーマZIPインポート（Safe CSS検証）、メニューバー/システムトレイでのローカルテーマ保存・切替、DreamSkin.ccギャラリーとオンラインStudioを公開。",
+    "es": "Agosto de 2026: cambio de skin con un clic (requiere cliente v1.5.0+), importación de ZIPs de temas (validación Safe CSS), guardado/cambio de temas locales desde barra de menú y bandeja del sistema, y galería DreamSkin.cc con Studio en línea.",
+    "fr": "Août 2026 : changement de skin en un clic (nécessite le client v1.5.0+), import de ZIPs de thèmes (validation Safe CSS), enregistrement/changement de thèmes locaux depuis la barre de menus et la zone de notification, et galerie DreamSkin.cc avec Studio en ligne."
+  },
+  "summary": {
+    "en": "Codex Dream Skin is a young open-source theming tool for the Codex desktop app. It stands out for its real interactive theming (native controls, not screenshots), strong safety boundaries (no installer modification, SHA-256 verification, Safe CSS validation), and a built-in official theme gallery with one-click skinning. Best for developers who want to personalize their Codex workspace.",
+    "zh": "Codex Dream Skin 是年轻的 Codex 桌面端开源换肤工具。亮点在于真·可交互换肤（原生控件而非截图）、清晰的安全边界（不改安装包、SHA-256 校验、Safe CSS 验证）以及内置官方主题库一键换肤。适合想个性化 Codex 工作区的开发者。",
+    "ja": "Codex Dream Skin は、Codex デスクトップ向けの新しいオープンソーススキンツールです。真のインタラクティブスキン（スクリーンショットではなくネイティブコントロール）、明確な安全境界（インストーラを変更しない、SHA-256検証、Safe CSS検証）、公式テーマライブラリのワンクリックスキン変更が特徴。Codex ワークスペースを個性化したい開発者に最適です。",
+    "es": "Codex Dream Skin es una joven herramienta de temas de código abierto para la app de escritorio de Codex. Destaca por su tematización real interactiva (controles nativos, no capturas), fuertes límites de seguridad (sin modificar el instalador, verificación SHA-256, validación Safe CSS) y una galería oficial integrada con cambio de skin en un clic. Ideal para desarrolladores que quieren personalizar su espacio de trabajo Codex.",
+    "fr": "Codex Dream Skin est un jeune outil de thèmes open source pour l'application de bureau Codex. Il se distingue par son habillage réellement interactif (contrôles natifs, pas de captures), de solides limites de sécurité (aucune modification de l'installeur, vérification SHA-256, validation Safe CSS) et une galerie officielle intégrée avec changement de skin en un clic. Idéal pour les développeurs qui veulent personnaliser leur espace de travail Codex."
+  },
+  "verdict": {
+    "badge": "Worth Trying",
+    "headline": {
+      "en": "A polished, safety-conscious theming tool that makes Codex desktop feel yours — young but off to a strong start.",
+      "zh": "精致且注重安全的 Codex 桌面换肤工具，让 Codex 真正属于你的风格——项目虽年轻但起点很高。",
+      "ja": "洗練されていて安全に配慮した Codex デスクトップ向けスキンツール。Codex を自分らしくできる。プロジェクトは若いが素晴らしいスタートを切っている。",
+      "es": "Una herramienta de temas pulida y consciente de la seguridad que hace que Codex de escritorio se sienta tuyo — joven pero con un gran comienzo.",
+      "fr": "Un outil de thèmes soigné et soucieux de la sécurité qui rend Codex bureau vraiment à vous — jeune mais avec un excellent départ."
+    },
+    "body": {
+      "en": "Codex Dream Skin solves a real niche: giving the Codex desktop app personality. Its approach is refreshingly safe — local CDP injection without touching official binaries, SHA-256 verification on one-click installs, and Safe CSS validation on imported themes. The real-interactive theming (native controls, not static screenshots) sets it apart from crude overlay tools. The project is very young (July 2026) with a notable open-issue count, and the CDP debug port carries inherent local-host trust implications. For developers wanting to personalize their Codex workspace, it is worth trying — especially with the official DreamSkin.cc gallery growing.",
+      "zh": "Codex Dream Skin 解决了一个真实需求：让 Codex 桌面端拥有个性。它的实现方式令人安心——本机 CDP 注入、不改官方二进制、一键安装带 SHA-256 校验、导入主题走 Safe CSS 验证。真·可交互换肤（原生控件而非静态截图）让它区别于粗糙的覆盖工具。 项目非常年轻（2026 年 7 月）且未关闭 issue 较多，CDP 调试端口也意味着本地主机信任边界。想个性化 Codex 工作区的开发者值得一试——尤其是官方主题库 DreamSkin.cc 正在快速成长。",
+      "ja": "Codex Dream Skin は、Codex デスクトップに個性を与えるという実在のニッチを解決します。そのアプローチは驚くほど安全——公式バイナリに触れないローカルCDP注入、ワンクリックインストール時のSHA-256検証、インポートテーマのSafe CSS検証。真のインタラクティブスキン（静的スクリーンショットではなくネイティブコントロール）は、粗いオーバーレイツールとは一線を画します。 プロジェクトは非常に若く（2026年7月）、未解決issueも多く、CDPデバッグポートはローカルホストの信頼境界を伴います。Codex ワークスペースを個性化したい開発者には試す価値があります——特に公式テーマライブラリ DreamSkin.cc の成長とともに。",
+      "es": "Codex Dream Skin resuelve un nicho real: dar personalidad a la app de escritorio de Codex. Su enfoque es refrescantemente seguro — inyección CDP local sin tocar binarios oficiales, verificación SHA-256 en instalaciones con un clic y validación Safe CSS en temas importados. La tematización real interactiva (controles nativos, no capturas estáticas) lo distingue de las herramientas de superposición toscas. El proyecto es muy joven (julio de 2026) con un número notable de issues abiertos, y el puerto de depuración CDP conlleva implicaciones de confianza local. Para desarrolladores que quieren personalizar su espacio Codex, vale la pena probarlo — especialmente con la galería oficial DreamSkin.cc creciendo.",
+      "fr": "Codex Dream Skin résout un vrai créneau : donner de la personnalité à l'application de bureau Codex. Son approche est rafraîchissamment sûre — injection CDP locale sans toucher aux binaires officiels, vérification SHA-256 sur les installations en un clic et validation Safe CSS sur les thèmes importés. L'habillage réellement interactif (contrôles natifs, pas de captures statiques) le distingue des outils d'overlay grossiers. Le projet est très récent (juillet 2026) avec un nombre notable d'issues ouvertes, et le port de débogage CDP implique une confiance locale inhérente. Pour les développeurs qui veulent personnaliser leur espace de travail Codex, cela vaut la peine d'essayer — d'autant que la galerie officielle DreamSkin.cc grandit."
+    },
+    "bestFor": {
+      "en": [
+        "Developers using Codex desktop who want to personalize their workspace with community or custom themes."
+      ],
+      "zh": [
+        "使用 Codex 桌面端、想用社区或自创主题个性化工作区的开发者。"
+      ],
+      "ja": [
+        "Codex デスクトップを使い、コミュニティや自作テーマでワークスペースを個性化したい開発者。"
+      ],
+      "es": [
+        "Desarrolladores que usan Codex de escritorio y quieren personalizar su espacio de trabajo con temas de la comunidad o propios."
+      ],
+      "fr": [
+        "Les développeurs utilisant Codex bureau qui souhaitent personnaliser leur espace de travail avec des thèmes communautaires ou personnalisés."
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "If you prefer not to run a local CDP injection tool, stick with the official appearance or consider native VS Code theming for your broader IDE."
+      ],
+      "zh": [
+        "如果不希望运行本机 CDP 注入工具，可保持官方外观，或在更广泛的 IDE 层面使用 VS Code 原生主题。"
+      ],
+      "ja": [
+        "ローカルCDP注入ツールの実行を避けたい場合は、公式の外観を維持するか、より広いIDEレイヤーでVS Codeネイティブテーマを検討してください。"
+      ],
+      "es": [
+        "Si prefieres no ejecutar una herramienta de inyección CDP local, mantén la apariencia oficial o considera el tematizado nativo de VS Code para tu IDE."
+      ],
+      "fr": [
+        "Si vous préférez ne pas exécuter un outil d'injection CDP local, conservez l'apparence officielle ou envisagez le theming natif de VS Code pour votre IDE."
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-08-09",
+    "verdictDate": "2026-08-09",
+    "pricingVerified": "2026-08-09",
+    "pricingUrl": "https://www.dreamskin.cc"
+  }
+}

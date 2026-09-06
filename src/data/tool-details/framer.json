@@ -1,0 +1,235 @@
+{
+  "features": {
+    "en": [
+      "Design responsive websites on a freeform canvas, no code required",
+      "AI generates full pages and sections from a text prompt",
+      "One-click publish to fast, globally-hosted sites on a CDN",
+      "Built-in CMS for blogs, collections and dynamic content",
+      "AI localization and A/B testing to optimize live pages",
+      "Native desktop apps for Windows and macOS alongside the browser"
+    ],
+    "zh": [
+      "在自由画布上设计响应式网站，无需写代码",
+      "AI 根据文字提示生成整页与区块",
+      "一键发布到基于全球 CDN 托管的高速站点",
+      "内置 CMS，管理博客、集合与动态内容",
+      "AI 本地化与 A/B 测试，持续优化线上页面",
+      "除浏览器外提供 Windows 与 macOS 原生桌面应用"
+    ],
+    "ja": [
+      "自由なキャンバス上でレスポンシブなWebサイトをコードなしでデザイン",
+      "AIがテキストプロンプトからページ全体やセクションを生成",
+      "グローバルCDNでホスティングされる高速サイトへワンクリック公開",
+      "ブログ・コレクション・動的コンテンツ向けの内蔵CMS",
+      "ライブページを最適化するAIローカライズとA/Bテスト",
+      "ブラウザに加えWindowsとmacOSのネイティブデスクトップアプリ"
+    ],
+    "es": [
+      "Diseña sitios web responsivos en un lienzo libre, sin necesidad de código",
+      "La IA genera páginas y secciones completas desde un prompt de texto",
+      "Publicación con un clic en sitios rápidos alojados en una CDN global",
+      "CMS integrado para blogs, colecciones y contenido dinámico",
+      "Localización con IA y pruebas A/B para optimizar páginas en vivo",
+      "Apps de escritorio nativas para Windows y macOS junto al navegador"
+    ],
+    "fr": [
+      "Concevez des sites responsives sur un canevas libre, sans code",
+      "L'IA génère des pages et sections complètes depuis un prompt texte",
+      "Publication en un clic vers des sites rapides hébergés sur un CDN mondial",
+      "CMS intégré pour blogs, collections et contenu dynamique",
+      "Localisation par IA et tests A/B pour optimiser les pages en ligne",
+      "Applications de bureau natives Windows et macOS en plus du navigateur"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "A free plan lets you design and publish on a Framer subdomain with a small allowance of AI credits (around 500) to try the AI features.",
+      "zh": "免费档可在 Framer 子域名上设计与发布，并附少量 AI 额度（约 500 点）用于试用 AI 功能。",
+      "ja": "無料プランではFramerのサブドメイン上でデザイン・公開でき、AI機能を試すための少量のAIクレジット（約500）が付く。",
+      "es": "Un plan gratuito permite diseñar y publicar en un subdominio de Framer con una pequeña asignación de créditos de IA (unos 500) para probar las funciones de IA.",
+      "fr": "Un plan gratuit permet de concevoir et publier sur un sous-domaine Framer avec une petite dotation de crédits IA (environ 500) pour essayer les fonctions IA."
+    },
+    "paid": {
+      "en": "Paid site plans start at Basic $10/month and Pro $30/month (billed annually), adding a custom domain, more pages, CMS capacity and higher AI limits; Enterprise is custom-priced. (Verified against the official pricing page, 2026-07-28.)",
+      "zh": "付费站点方案自 Basic $10/月、Pro $30/月起（年付计价），提供自定义域名、更多页面、CMS 容量与更高 AI 额度；Enterprise 为定制报价。（对照官方定价页核实，2026-07-28。）",
+      "ja": "有料サイトプランはBasic月$10、Pro月$30から（年払い計算）で、独自ドメイン・ページ数増・CMS容量・より高いAI上限が付く。Enterpriseは個別見積もり。（公式価格ページと照合、2026-07-28。）",
+      "es": "Los planes de sitio de pago empiezan en Basic $10/mes y Pro $30/mes (facturación anual), añadiendo dominio propio, más páginas, capacidad de CMS y límites de IA más altos; Enterprise tiene precio a medida. (Verificado con la página oficial de precios, 2026-07-28.)",
+      "fr": "Les forfaits de site payants démarrent à Basic 10 $/mois et Pro 30 $/mois (facturation annuelle), ajoutant un domaine personnalisé, plus de pages, de la capacité CMS et des limites IA plus élevées ; Enterprise est sur devis. (Vérifié avec la page tarifaire officielle, 2026-07-28.)"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Marketing and product landing pages shipped without a developer",
+      "Startups and creators launching a polished site fast",
+      "Designers turning a prompt or idea into a live, responsive page",
+      "Localized, A/B-tested pages optimized directly in the tool"
+    ],
+    "zh": [
+      "无需开发者即可上线的营销与产品落地页",
+      "初创团队与创作者快速上线一个精致站点",
+      "设计师把一句提示或想法变成上线的响应式页面",
+      "在工具内直接做本地化与 A/B 测试并优化的页面"
+    ],
+    "ja": [
+      "開発者なしで公開するマーケティング・製品ランディングページ",
+      "スタートアップやクリエイターが洗練されたサイトを素早く立ち上げ",
+      "デザイナーがプロンプトやアイデアを公開済みのレスポンシブページに",
+      "ツール内で直接ローカライズ・A/Bテストして最適化するページ"
+    ],
+    "es": [
+      "Landing pages de marketing y producto publicadas sin un desarrollador",
+      "Startups y creadores que lanzan un sitio pulido rápidamente",
+      "Diseñadores que convierten un prompt o idea en una página responsiva en vivo",
+      "Páginas localizadas y con pruebas A/B optimizadas directamente en la herramienta"
+    ],
+    "fr": [
+      "Pages d'atterrissage marketing et produit publiées sans développeur",
+      "Startups et créateurs qui lancent vite un site soigné",
+      "Designers transformant un prompt ou une idée en page responsive en ligne",
+      "Pages localisées et testées A/B optimisées directement dans l'outil"
+    ]
+  },
+  "pros": {
+    "en": [
+      "True design freedom on a canvas with production-grade output",
+      "AI page generation and localization speed up shipping a lot",
+      "Publishing, hosting and CDN are built in — no separate stack",
+      "Native desktop apps plus browser access on any platform"
+    ],
+    "zh": [
+      "画布上真正的设计自由，产出可直接上生产",
+      "AI 生成页面与本地化大幅加快上线速度",
+      "发布、托管与 CDN 内置一体，无需另搭一套技术栈",
+      "原生桌面应用加浏览器，任意平台皆可用"
+    ],
+    "ja": [
+      "キャンバス上の真のデザイン自由度と本番品質の出力",
+      "AIのページ生成とローカライズで公開が大幅に高速化",
+      "公開・ホスティング・CDNが内蔵、別スタック不要",
+      "ネイティブデスクトップアプリに加え、任意環境でブラウザ利用"
+    ],
+    "es": [
+      "Verdadera libertad de diseño en un lienzo con salida lista para producción",
+      "La generación de páginas y la localización con IA aceleran mucho la publicación",
+      "Publicación, alojamiento y CDN integrados — sin un stack aparte",
+      "Apps de escritorio nativas más acceso por navegador en cualquier plataforma"
+    ],
+    "fr": [
+      "Une vraie liberté de design sur un canevas avec un rendu prêt pour la production",
+      "La génération de pages et la localisation par IA accélèrent beaucoup la publication",
+      "Publication, hébergement et CDN intégrés — pas de stack séparé",
+      "Applications de bureau natives et accès navigateur sur toute plateforme"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Costs add up once you need custom domains, more pages and AI credits",
+      "Best suited to marketing sites, not complex web apps",
+      "The canvas has a learning curve for non-designers",
+      "AI credits on lower tiers run out quickly with heavy use"
+    ],
+    "zh": [
+      "一旦需要自定义域名、更多页面与 AI 额度，费用会累加",
+      "更适合营销型站点，而非复杂的 Web 应用",
+      "对非设计师而言，画布有一定学习曲线",
+      "低档位的 AI 额度在重度使用下很快耗尽"
+    ],
+    "ja": [
+      "独自ドメイン・ページ数増・AIクレジットが必要になると費用がかさむ",
+      "複雑なWebアプリより、マーケティングサイト向き",
+      "非デザイナーにとってキャンバスには学習曲線がある",
+      "下位プランのAIクレジットはヘビーユースだとすぐ尽きる"
+    ],
+    "es": [
+      "Los costes suben cuando necesitas dominios propios, más páginas y créditos de IA",
+      "Más adecuado para sitios de marketing que para apps web complejas",
+      "El lienzo tiene una curva de aprendizaje para no diseñadores",
+      "Los créditos de IA en niveles bajos se agotan rápido con uso intenso"
+    ],
+    "fr": [
+      "Les coûts grimpent dès qu'il faut des domaines personnalisés, plus de pages et des crédits IA",
+      "Mieux adapté aux sites marketing qu'aux applications web complexes",
+      "Le canevas a une courbe d'apprentissage pour les non-designers",
+      "Les crédits IA des offres basses s'épuisent vite en usage intensif"
+    ]
+  },
+  "latestUpdate": {
+    "en": "2026: Framer continued to deepen its AI features — prompt-to-page generation, AI localization and built-in A/B testing — while keeping its no-code canvas, CMS and global hosting as one integrated design-and-publish platform.",
+    "zh": "2026 年：Framer 持续深化 AI 能力——提示词生成页面、AI 本地化与内置 A/B 测试——同时将其无代码画布、CMS 与全球托管保持为一体化的「设计即发布」平台。",
+    "ja": "2026年：FramerはAI機能を深化させ続け——プロンプトからのページ生成、AIローカライズ、内蔵A/Bテスト——ノーコードキャンバス・CMS・グローバルホスティングを一体化した「デザイン＆公開」プラットフォームとして維持している。",
+    "es": "2026: Framer siguió profundizando sus funciones de IA — generación de página desde prompt, localización con IA y pruebas A/B integradas — manteniendo su lienzo sin código, CMS y alojamiento global como una plataforma integrada de diseño y publicación.",
+    "fr": "2026 : Framer a continué d'approfondir ses fonctions IA — génération de page depuis un prompt, localisation par IA et tests A/B intégrés — tout en gardant son canevas no-code, son CMS et son hébergement mondial comme une plateforme intégrée de design et publication."
+  },
+  "verdict": {
+    "badge": "Recommended",
+    "headline": {
+      "en": "The most complete way to design and ship a site without code",
+      "zh": "无需代码就能设计并上线站点的最完整方案",
+      "ja": "コードなしでサイトをデザインし公開する、最も完成度の高い方法",
+      "es": "La forma más completa de diseñar y publicar un sitio sin código",
+      "fr": "La manière la plus complète de concevoir et publier un site sans code"
+    },
+    "body": {
+      "en": "Framer sits in a rare sweet spot: it gives designers the freeform canvas they actually want, then handles publishing, hosting and a global CDN so a page goes live in one click. The AI layer is what pushes it from 'great website builder' to genuinely fast — you can describe a page and have Framer generate its structure, then use AI localization and built-in A/B testing to refine it after launch, all without leaving the tool. Add a real CMS for blogs and collections, plus native desktop apps for Windows and macOS on top of the browser, and it covers the whole path from blank canvas to shipped, optimized site. It isn't free of trade-offs: costs climb once you need custom domains, more pages and AI credits, the AI allowance on lower tiers runs down quickly, and it's built for marketing and product sites rather than complex web apps. But for the enormous number of people who just need a beautiful, fast, responsive site without hiring a developer, Framer is one of the strongest choices available — which is why it earns a clear recommendation.",
+      "zh": "Framer 处在一个难得的甜蜜点：它给设计师真正想要的自由画布，然后接管发布、托管与全球 CDN，让页面一键上线。真正把它从「优秀的建站工具」推向「确实快」的，是那层 AI——你可以描述一个页面，让 Framer 生成其结构，再用 AI 本地化与内置 A/B 测试在上线后打磨，全程不必离开工具。再加上可管理博客与集合的真正 CMS，以及浏览器之外的 Windows、macOS 原生桌面应用，它覆盖了从空白画布到上线、已优化站点的整条路径。它并非没有取舍：一旦需要自定义域名、更多页面与 AI 额度，费用会攀升；低档位的 AI 额度很快耗尽；它面向营销与产品站点，而非复杂的 Web 应用。但对数量庞大、只想不请开发者就要一个漂亮、快速、响应式站点的人来说，Framer 是眼下最强的选择之一——这正是它获得明确推荐的原因。",
+      "ja": "Framerは稀有な最適点にある。デザイナーが本当に欲しい自由なキャンバスを与え、そのうえで公開・ホスティング・グローバルCDNを引き受け、ワンクリックでページを公開する。「優れたサイトビルダー」から「本当に速い」へ押し上げるのがAI層だ——ページを説明すればFramerが構造を生成し、公開後はAIローカライズと内蔵A/Bテストで磨き込める。すべてツール内で完結する。ブログやコレクション向けの本物のCMS、ブラウザに加えWindows・macOSのネイティブアプリを備え、白紙のキャンバスから公開・最適化済みサイトまでの全経路をカバーする。トレードオフがないわけではない。独自ドメイン・ページ数・AIクレジットが必要になると費用は上がり、下位プランのAI枠はすぐ尽き、複雑なWebアプリより営業・製品サイト向けだ。しかし、開発者を雇わず美しく速いレスポンシブサイトが欲しいだけの膨大な人々にとって、Framerは今ある最強の選択肢の一つ——だからこそ明確に推奨する。",
+      "es": "Framer ocupa un punto óptimo poco común: da a los diseñadores el lienzo libre que realmente quieren y luego se encarga de la publicación, el alojamiento y una CDN global para que una página salga en vivo con un clic. La capa de IA es lo que lo lleva de 'gran creador de sitios' a genuinamente rápido — puedes describir una página y que Framer genere su estructura, y después usar localización con IA y pruebas A/B integradas para refinarla tras el lanzamiento, todo sin salir de la herramienta. Suma un CMS real para blogs y colecciones, más apps de escritorio nativas para Windows y macOS además del navegador, y cubre todo el camino del lienzo en blanco al sitio publicado y optimizado. No está libre de concesiones: los costes suben cuando necesitas dominios propios, más páginas y créditos de IA, la asignación de IA en niveles bajos se agota rápido, y está pensado para sitios de marketing y producto más que para apps web complejas. Pero para la enorme cantidad de gente que solo necesita un sitio bonito, rápido y responsivo sin contratar a un desarrollador, Framer es una de las opciones más fuertes que existen — por eso se gana una recomendación clara.",
+      "fr": "Framer occupe un point idéal rare : il offre aux designers le canevas libre qu'ils veulent vraiment, puis gère la publication, l'hébergement et un CDN mondial pour qu'une page soit en ligne en un clic. La couche IA est ce qui le fait passer de « excellent créateur de sites » à véritablement rapide — vous pouvez décrire une page et laisser Framer en générer la structure, puis utiliser la localisation par IA et les tests A/B intégrés pour l'affiner après le lancement, le tout sans quitter l'outil. Ajoutez un vrai CMS pour blogs et collections, plus des applications de bureau natives Windows et macOS en plus du navigateur, et il couvre tout le chemin du canevas vierge au site publié et optimisé. Il n'est pas sans compromis : les coûts grimpent dès qu'il faut des domaines personnalisés, plus de pages et des crédits IA, la dotation IA des offres basses s'épuise vite, et il est conçu pour les sites marketing et produit plutôt que pour des applications web complexes. Mais pour l'immense nombre de personnes qui veulent simplement un site beau, rapide et responsive sans embaucher de développeur, Framer est l'un des choix les plus solides disponibles — ce qui lui vaut une recommandation claire."
+    },
+    "bestFor": {
+      "en": [
+        "Designers and creators who want canvas freedom plus hosting",
+        "Startups shipping marketing and product landing pages fast",
+        "Teams wanting AI page generation, localization and A/B testing in one tool"
+      ],
+      "zh": [
+        "想要画布自由并自带托管的设计师与创作者",
+        "快速上线营销与产品落地页的初创团队",
+        "希望在一个工具里做 AI 生成页面、本地化与 A/B 测试的团队"
+      ],
+      "ja": [
+        "キャンバスの自由とホスティングの両方が欲しいデザイナー・クリエイター",
+        "マーケティング・製品ランディングを素早く公開するスタートアップ",
+        "AIページ生成・ローカライズ・A/Bテストを一つのツールで行いたいチーム"
+      ],
+      "es": [
+        "Diseñadores y creadores que quieren libertad de lienzo más alojamiento",
+        "Startups que publican rápido landing pages de marketing y producto",
+        "Equipos que quieren generación de páginas con IA, localización y A/B en una herramienta"
+      ],
+      "fr": [
+        "Designers et créateurs voulant la liberté du canevas plus l'hébergement",
+        "Startups publiant vite des landing pages marketing et produit",
+        "Équipes voulant génération de pages par IA, localisation et A/B dans un seul outil"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You're building a complex, data-heavy web app rather than a site (→ a full front-end framework)",
+        "You want a free, developer-first static site with no subscription (→ a static site generator on free hosting)"
+      ],
+      "zh": [
+        "你要构建的是复杂、重数据的 Web 应用而非站点（→ 完整的前端框架）",
+        "你想要免费、面向开发者、无订阅的静态站点（→ 免费托管上的静态站点生成器）"
+      ],
+      "ja": [
+        "サイトではなく複雑でデータ量の多いWebアプリを構築している（→ 本格的なフロントエンドフレームワーク）",
+        "無料で開発者向け・サブスク不要の静的サイトが欲しい（→ 無料ホスティング上の静的サイトジェネレーター）"
+      ],
+      "es": [
+        "Construyes una app web compleja y con muchos datos, no un sitio (→ un framework de front-end completo)",
+        "Quieres un sitio estático gratis, orientado a desarrolladores y sin suscripción (→ un generador de sitios estáticos en alojamiento gratuito)"
+      ],
+      "fr": [
+        "Vous construisez une application web complexe et riche en données, pas un site (→ un framework front-end complet)",
+        "Vous voulez un site statique gratuit, orienté développeur et sans abonnement (→ un générateur de site statique sur hébergement gratuit)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-28",
+    "verdictDate": "2026-07-28",
+    "pricingVerified": "2026-07-28",
+    "pricingUrl": "https://www.framer.com/pricing/"
+  }
+}

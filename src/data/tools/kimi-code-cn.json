@@ -1,0 +1,29 @@
+{
+  "slug": "kimi-code-cn",
+  "name": "Kimi Code",
+  "nameZh": "Kimi Code",
+  "description": "月之暗面 Kimi Code 中文版，面向国内开发者，提供高性能 CLI 与 VS Code 扩展，基于 Kimi 最新旗舰模型完成代码阅读、编辑与命令执行",
+  "descriptionEn": "Kimi Code China edition by Moonshot AI, for domestic developers, with a high-performance CLI and VS Code extension powered by Kimi's latest flagship model",
+  "descriptionJa": "Moonshot AI の Kimi Code 中国版。国内開発者向けに、高性能 CLI と VS Code 拡張を提供し、Kimi 最新フラッグシップモデルで動作",
+  "descriptionEs": "Kimi Code edición China de Moonshot AI, para desarrolladores nacionales, con un CLI de alto rendimiento y extensión de VS Code basada en el modelo insignia de Kimi",
+  "descriptionFr": "Kimi Code édition Chine de Moonshot AI, pour les développeurs nationaux, avec un CLI performant et une extension VS Code propulsée par le modèle phare de Kimi",
+  "url": "https://www.kimi.com/code/zh",
+  "logo": "/logos/tools/kimi-code-cn.png",
+  "category": "Code",
+  "tags": [
+    "Freemium"
+  ],
+  "featured": false,
+  "developer": "Moonshot AI",
+  "developerZh": "月之暗面",
+  "platforms": {
+    "web": false,
+    "windows": true,
+    "macos": true,
+    "ios": false,
+    "android": false,
+    "linux": true,
+    "browser_extension": false,
+    "api": true
+  }
+}

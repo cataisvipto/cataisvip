@@ -1,6 +1,6 @@
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import McpClient from './McpClient';
-import mcpServers from '@/data/mcp.json';
+import { mcp as mcpServers } from '@/data/aggregated';
 import { generateAlternates } from '@/lib/seo';
 
 export const revalidate = 3600;

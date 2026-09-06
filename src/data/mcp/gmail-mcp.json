@@ -1,0 +1,79 @@
+{
+  "slug": "gmail-mcp",
+  "name": "Gmail MCP Server",
+  "nameZh": "Gmail MCP 服务器",
+  "description": "让 AI 智能体集成 Gmail 的 MCP 服务器。支持在 Claude Desktop 中搜索邮件、阅读收件箱、发送和回复邮件，将邮箱变成 AI 可操作的工作台。",
+  "descriptionEn": "An MCP server that integrates Gmail with AI agents. Supports searching emails, reading your inbox, sending and replying to messages directly in Claude Desktop — turning your mailbox into an AI-accessible workspace.",
+  "descriptionJa": "Gmail を AI エージェントと統合する MCP サーバー。Claude Desktop 内でメールの検索、受信トレイの読み取り、メールの送信と返信をサポートし、メールボックスを AI 操作可能なワークスペースに変えます。",
+  "descriptionEs": "Un servidor MCP que integra Gmail con agentes de IA. Soporta búsqueda de correos, lectura de la bandeja de entrada, envío y respuesta de mensajes directamente en Claude Desktop — convirtiendo tu buzón en un espacio de trabajo accesible por IA.",
+  "descriptionFr": "Un serveur MCP qui intègre Gmail avec les agents IA. Prend en charge la recherche d'e-mails, la lecture de la boîte de réception, l'envoi et la réponse aux messages directement dans Claude Desktop — transformant votre boîte aux lettres en un espace de travail accessible par l'IA.",
+  "developer": "GongRzhe",
+  "developerZh": "GongRzhe",
+  "repo": "GongRzhe/Gmail-MCP-Server",
+  "clients": [
+    "claude",
+    "cursor",
+    "vscode",
+    "codex",
+    "generic"
+  ],
+  "category": "Communication",
+  "tags": [
+    "Free",
+    "Open Source"
+  ],
+  "installCommand": "npx -y gmail-mcp-server",
+  "logo": "/logos/mcp/gmail-mcp.png",
+  "stars": 1165,
+  "featured": false,
+  "faqs": [
+    {
+      "question": {
+        "zh": "Gmail MCP 能做什么？",
+        "en": "What can Gmail MCP do?",
+        "ja": "Gmail MCP は何ができますか？",
+        "es": "¿Qué puede hacer Gmail MCP?",
+        "fr": "Que peut faire Gmail MCP ?"
+      },
+      "answer": {
+        "zh": "让 AI 智能体操作你的 Gmail 邮箱：搜索邮件（支持关键词和日期过滤）、读取邮件内容和附件、发送新邮件、回复和转发邮件、管理收件箱标签。适合 AI 辅助邮件处理、自动回复和邮件分析。",
+        "en": "Lets AI agents operate your Gmail: search emails (with keyword and date filters), read email content and attachments, send new emails, reply and forward messages, and manage inbox labels. Ideal for AI-assisted email processing, auto-replies, and email analysis.",
+        "ja": "AI エージェントが Gmail を操作できます：メールの検索（キーワードと日付フィルター対応）、メール内容と添付ファイルの読み取り、新規メールの送信、返信と転送、受信トレイのラベル管理。AI によるメール処理支援、自動返信、メール分析に最適です。",
+        "es": "Permite a los agentes de IA operar tu Gmail: buscar correos (con filtros de palabras clave y fecha), leer contenido y adjuntos, enviar nuevos correos, responder y reenviar mensajes, y gestionar etiquetas de la bandeja de entrada. Ideal para procesamiento de correo asistido por IA, respuestas automáticas y análisis de correo.",
+        "fr": "Permet aux agents IA d'opérer votre Gmail : rechercher des e-mails (avec filtres par mot-clé et date), lire le contenu et les pièces jointes, envoyer de nouveaux e-mails, répondre et transférer des messages, et gérer les libellés de la boîte de réception. Idéal pour le traitement de courrier assisté par IA, les réponses automatiques et l'analyse de courrier."
+      }
+    },
+    {
+      "question": {
+        "zh": "Gmail MCP 需要 Google 账号授权吗？",
+        "en": "Does Gmail MCP need Google account authorization?",
+        "ja": "Gmail MCP には Google アカウントの認証が必要ですか？",
+        "es": "¿Gmail MCP necesita autorización de cuenta de Google?",
+        "fr": "Gmail MCP a-t-il besoin d'une autorisation de compte Google ?"
+      },
+      "answer": {
+        "zh": "需要。首次使用需要通过 OAuth 2.0 授权你的 Google 账号访问 Gmail。MCP 服务器会引导你完成浏览器授权流程，授权令牌存储在本地，不会上传到第三方。支持 Gmail API 的标准权限范围。",
+        "en": "Yes. First-time use requires OAuth 2.0 authorization to let the server access your Gmail. The MCP server guides you through the browser authorization flow, and the token is stored locally — never uploaded to third parties. Uses standard Gmail API permission scopes.",
+        "ja": "はい。初回使用時に OAuth 2.0 認証で Google アカウントの Gmail へのアクセスを許可する必要があります。MCP サーバーがブラウザでの認証フローを案内し、認証トークンはローカルに保存され、サードパーティにアップロードされることはありません。標準の Gmail API 権限スコープを使用します。",
+        "es": "Sí. El primer uso requiere autorización OAuth 2.0 para que el servidor acceda a tu Gmail. El servidor MCP te guía a través del flujo de autorización en el navegador, y el token se almacena en local — nunca se sube a terceros. Utiliza ámbitos de permisos estándar de la API de Gmail.",
+        "fr": "Oui. La première utilisation nécessite une autorisation OAuth 2.0 pour permettre au serveur d'accéder à votre Gmail. Le serveur MCP vous guide dans le flux d'autorisation du navigateur, et le jeton est stocké localement — jamais téléchargé vers des tiers. Utilise les portées d'autorisation standard de l'API Gmail."
+      }
+    },
+    {
+      "question": {
+        "zh": "Gmail MCP 安全吗？会泄露我的邮件吗？",
+        "en": "Is Gmail MCP safe? Will it leak my emails?",
+        "ja": "Gmail MCP は安全ですか？メールが漏洩しますか？",
+        "es": "¿Gmail MCP es seguro? ¿Filtrará mis correos?",
+        "fr": "Gmail MCP est-il sûr ? Va-t-il fuir mes e-mails ?"
+      },
+      "answer": {
+        "zh": "MCP 服务器在本地运行，OAuth 令牌存储在本地文件系统。AI 智能体只有在被明确指示时才会读取或发送邮件。建议使用前审查授权范围，并定期检查 Gmail 的已授权应用列表。",
+        "en": "The MCP server runs locally with OAuth tokens stored on your local file system. AI agents only read or send emails when explicitly instructed. Review the authorization scope before use, and periodically check Gmail's authorized apps list.",
+        "ja": "MCP サーバーはローカルで動作し、OAuth トークンはローカルファイルシステムに保存されます。AI エージェントは明示的に指示された場合のみメールの読み取りや送信を行います。使用前に認証範囲を確認し、Gmail の承認済みアプリ一覧を定期的に確認することをお勧めします。",
+        "es": "El servidor MCP se ejecuta en local con los tokens OAuth almacenados en tu sistema de archivos local. Los agentes de IA solo leen o envían correos cuando se les indica explícitamente. Revisa el alcance de la autorización antes de usar y verifica periódicamente la lista de aplicaciones autorizadas de Gmail.",
+        "fr": "Le serveur MCP s'exécute localement avec les jetons OAuth stockés sur votre système de fichiers local. Les agents IA ne lisent ou n'envoient des e-mails que sur instruction explicite. Vérifiez la portée de l'autorisation avant utilisation et vérifiez périodiquement la liste des applications autorisées de Gmail."
+      }
+    }
+  ]
+}

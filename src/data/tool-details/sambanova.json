@@ -1,0 +1,234 @@
+{
+  "features": {
+    "en": [
+      "SN40L Reconfigurable Dataflow Unit (RDU) chips purpose-built for fast, efficient inference",
+      "Full 16-bit precision serving — accuracy is not traded away for speed",
+      "OpenAI-compatible API hosting open models: DeepSeek R1/V3, Llama family and more",
+      "Free tier with rate limits, plus a self-serve Developer tier billed per token",
+      "Record-setting throughput on large reasoning models like DeepSeek R1",
+      "Enterprise options for on-prem and dedicated deployments"
+    ],
+    "zh": [
+      "SN40L 可重构数据流单元（RDU）芯片，为高速高效推理而生",
+      "全 16-bit 精度服务——不为速度牺牲精度",
+      "OpenAI 兼容 API，托管开源模型：DeepSeek R1/V3、Llama 系列等",
+      "带速率限制的免费档，另有按 token 计费的自助 Developer 档",
+      "在 DeepSeek R1 等大型推理模型上创下吞吐纪录",
+      "面向企业的本地部署与专属部署选项"
+    ],
+    "ja": [
+      "高速かつ効率的な推論のために設計されたSN40Lリコンフィギュラブル・データフロー・ユニット（RDU）チップ",
+      "フル16ビット精度での提供——速度のために精度を犠牲にしない",
+      "OpenAI互換APIでオープンモデルをホスト：DeepSeek R1/V3、Llamaファミリーなど",
+      "レート制限付きの無料枠に加え、トークン課金のセルフサーブDeveloperティア",
+      "DeepSeek R1などの大規模推論モデルで記録的なスループット",
+      "オンプレミスや専用デプロイ向けのエンタープライズオプション"
+    ],
+    "es": [
+      "Chips SN40L Reconfigurable Dataflow Unit (RDU) diseñados para inferencia rápida y eficiente",
+      "Servicio en precisión completa de 16 bits: no se sacrifica exactitud por velocidad",
+      "API compatible con OpenAI que aloja modelos abiertos: DeepSeek R1/V3, familia Llama y más",
+      "Nivel gratuito con límites de tasa, más un nivel Developer autoservicio facturado por token",
+      "Rendimiento récord en grandes modelos de razonamiento como DeepSeek R1",
+      "Opciones empresariales para despliegues on-premise y dedicados"
+    ],
+    "fr": [
+      "Puces SN40L Reconfigurable Dataflow Unit (RDU) conçues pour une inférence rapide et efficace",
+      "Service en pleine précision 16 bits — pas de compromis exactitude contre vitesse",
+      "API compatible OpenAI hébergeant des modèles ouverts : DeepSeek R1/V3, famille Llama et plus",
+      "Niveau gratuit avec limites de débit, plus un niveau Developer en libre-service facturé au token",
+      "Débit record sur de grands modèles de raisonnement comme DeepSeek R1",
+      "Options entreprise pour déploiements on-premise et dédiés"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "A free tier gives API access to supported open models under rate limits — enough to build and test without a card.",
+      "zh": "免费档在速率限制下提供受支持开源模型的 API 访问——无需信用卡即可开发测试。",
+      "ja": "無料枠では、レート制限付きで対応オープンモデルへのAPIアクセスを提供——カードなしで開発・テスト可能。",
+      "es": "Un nivel gratuito da acceso API a los modelos abiertos soportados bajo límites de tasa, suficiente para construir y probar sin tarjeta.",
+      "fr": "Un niveau gratuit donne un accès API aux modèles ouverts pris en charge sous limites de débit — suffisant pour développer et tester sans carte."
+    },
+    "paid": {
+      "en": "A self-serve Developer tier lets you pay for token consumption to unlock higher rate limits on the most popular models; enterprise and dedicated deployments are quoted separately. Exact per-token rates are shown in the SambaNova Cloud console. (Pricing model verified against official sources, 2026-07-28.)",
+      "zh": "自助 Developer 档按 token 用量付费，解锁热门模型更高的速率上限；企业与专属部署单独报价。具体每 token 单价以 SambaNova Cloud 控制台为准。（定价模式对照官方来源核实，2026-07-28。）",
+      "ja": "セルフサーブのDeveloperティアでは、トークン消費量に応じて支払うことで人気モデルのより高いレート制限を解放できる。エンタープライズや専用デプロイは別途見積もり。正確なトークン単価はSambaNova Cloudコンソールに表示。（価格モデルを公式ソースと照合、2026-07-28。）",
+      "es": "Un nivel Developer autoservicio permite pagar por consumo de tokens para desbloquear límites de tasa más altos en los modelos más populares; los despliegues empresariales y dedicados se cotizan aparte. Las tarifas exactas por token se muestran en la consola de SambaNova Cloud. (Modelo de precios verificado con fuentes oficiales, 2026-07-28.)",
+      "fr": "Un niveau Developer en libre-service permet de payer selon la consommation de tokens pour débloquer des limites de débit plus élevées sur les modèles les plus populaires ; les déploiements entreprise et dédiés sont devisés séparément. Les tarifs exacts au token sont affichés dans la console SambaNova Cloud. (Modèle tarifaire vérifié avec des sources officielles, 2026-07-28.)"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Serving large reasoning models like DeepSeek R1 at high speed and full precision",
+      "Enterprises that need on-prem or dedicated inference for data control",
+      "Replacing closed-model API calls with fast open models",
+      "Powering voice agents and assistants that need low-latency responses"
+    ],
+    "zh": [
+      "以高速与全精度部署 DeepSeek R1 等大型推理模型",
+      "需要本地或专属推理以掌控数据的企业",
+      "把闭源模型 API 调用换成高速开源模型",
+      "为需要低延迟响应的语音智能体与助手供能"
+    ],
+    "ja": [
+      "DeepSeek R1などの大規模推論モデルを高速かつフル精度で提供",
+      "データ管理のためにオンプレミスや専用推論が必要な企業",
+      "クローズドモデルのAPI呼び出しを高速なオープンモデルに置き換え",
+      "低レイテンシ応答が必要な音声エージェントやアシスタントの駆動"
+    ],
+    "es": [
+      "Servir grandes modelos de razonamiento como DeepSeek R1 a alta velocidad y precisión completa",
+      "Empresas que necesitan inferencia on-premise o dedicada para controlar los datos",
+      "Reemplazar llamadas a APIs de modelos cerrados por modelos abiertos rápidos",
+      "Impulsar agentes de voz y asistentes que necesitan respuestas de baja latencia"
+    ],
+    "fr": [
+      "Servir de grands modèles de raisonnement comme DeepSeek R1 à haute vitesse et pleine précision",
+      "Entreprises ayant besoin d'inférence on-premise ou dédiée pour le contrôle des données",
+      "Remplacer les appels d'API de modèles fermés par des modèles ouverts rapides",
+      "Alimenter des agents vocaux et assistants nécessitant des réponses à faible latence"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Fast inference without dropping to lower precision, unusual among speed-focused clouds",
+      "Strong pedigree — founded by Stanford chip and ML researchers",
+      "Good fit for large open reasoning models many GPU clouds struggle to serve quickly",
+      "Real enterprise and on-prem story for regulated deployments"
+    ],
+    "zh": [
+      "在不降精度的前提下做到快推理，在主打速度的云中少见",
+      "底蕴扎实——由斯坦福芯片与机器学习研究者创办",
+      "很适合许多 GPU 云难以快速服务的大型开源推理模型",
+      "面向受监管部署，有真实的企业与本地方案"
+    ],
+    "ja": [
+      "低精度に落とさずに高速推論を実現——速度重視のクラウドでは珍しい",
+      "強い出自——スタンフォードのチップおよびML研究者が創業",
+      "多くのGPUクラウドが高速に提供しづらい大規模オープン推論モデルに好適",
+      "規制対象のデプロイ向けに、実際のエンタープライズ・オンプレミス対応"
+    ],
+    "es": [
+      "Inferencia rápida sin bajar a menor precisión, algo poco común entre nubes centradas en velocidad",
+      "Fuerte pedigrí: fundada por investigadores de chips y ML de Stanford",
+      "Buen encaje para grandes modelos abiertos de razonamiento que muchas nubes GPU sirven con dificultad",
+      "Propuesta real de empresa y on-premise para despliegues regulados"
+    ],
+    "fr": [
+      "Inférence rapide sans descendre en précision, rare parmi les clouds axés vitesse",
+      "Solide pedigree — fondée par des chercheurs en puces et ML de Stanford",
+      "Bien adapté aux grands modèles ouverts de raisonnement que beaucoup de clouds GPU peinent à servir vite",
+      "Véritable offre entreprise et on-premise pour déploiements réglementés"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Model catalog is narrower than broad aggregators like Together or OpenRouter",
+      "No proprietary frontier model of its own",
+      "Custom RDU hardware means you depend on one vendor's roadmap",
+      "Public per-token pricing is less prominent than GPU-based rivals"
+    ],
+    "zh": [
+      "模型目录比 Together、OpenRouter 等广谱聚合商窄",
+      "没有自家的闭源前沿模型",
+      "自研 RDU 硬件意味着依赖单一厂商的路线图",
+      "公开的每 token 定价不如基于 GPU 的对手醒目"
+    ],
+    "ja": [
+      "モデルカタログはTogetherやOpenRouterのような広範なアグリゲーターより狭い",
+      "自社のクローズドなフロンティアモデルはない",
+      "独自RDUハードウェアのため、単一ベンダーのロードマップに依存する",
+      "公開のトークン単価はGPUベースの競合ほど目立たない"
+    ],
+    "es": [
+      "El catálogo de modelos es más estrecho que agregadores amplios como Together u OpenRouter",
+      "No tiene un modelo frontera propietario propio",
+      "El hardware RDU propio implica depender de la hoja de ruta de un solo proveedor",
+      "El precio público por token es menos visible que en rivales basados en GPU"
+    ],
+    "fr": [
+      "Le catalogue de modèles est plus étroit que les agrégateurs larges comme Together ou OpenRouter",
+      "Pas de modèle frontière propriétaire maison",
+      "Le matériel RDU maison implique une dépendance à la feuille de route d'un seul fournisseur",
+      "La tarification publique au token est moins visible que chez les rivaux basés sur GPU"
+    ]
+  },
+  "latestUpdate": {
+    "en": "2026: SambaNova keeps pushing its SN40L-powered cloud as one of the fastest full-precision inference services, with a live self-serve Developer tier and headline throughput on large open reasoning models such as DeepSeek R1 and the Llama family.",
+    "zh": "2026 年：SambaNova 持续把 SN40L 驱动的云打造成最快的全精度推理服务之一，自助 Developer 档已上线，并在 DeepSeek R1、Llama 系列等大型开源推理模型上跑出标杆吞吐。",
+    "ja": "2026年：SambaNovaはSN40L駆動のクラウドを、最速級のフル精度推論サービスの一つとして推進し続けている。セルフサーブのDeveloperティアが稼働し、DeepSeek R1やLlamaファミリーなどの大規模オープン推論モデルで目玉となるスループットを示している。",
+    "es": "2026: SambaNova sigue impulsando su nube con tecnología SN40L como uno de los servicios de inferencia en precisión completa más rápidos, con un nivel Developer autoservicio en vivo y un rendimiento destacado en grandes modelos abiertos de razonamiento como DeepSeek R1 y la familia Llama.",
+    "fr": "2026 : SambaNova continue de positionner son cloud propulsé par SN40L comme l'un des services d'inférence pleine précision les plus rapides, avec un niveau Developer en libre-service actif et un débit remarquable sur de grands modèles ouverts de raisonnement comme DeepSeek R1 et la famille Llama."
+  },
+  "verdict": {
+    "badge": "Worth Trying",
+    "headline": {
+      "en": "Fast open-model inference at full 16-bit precision, with an enterprise backbone",
+      "zh": "全 16-bit 精度的高速开源模型推理，还带企业级底盘",
+      "ja": "フル16ビット精度での高速オープンモデル推論、エンタープライズの土台付き",
+      "es": "Inferencia rápida de modelos abiertos a precisión completa de 16 bits, con columna vertebral empresarial",
+      "fr": "Inférence rapide de modèles ouverts en pleine précision 16 bits, avec une colonne vertébrale entreprise"
+    },
+    "body": {
+      "en": "SambaNova comes from a serious place: founders drawn from Stanford's chip and machine-learning research, and a custom Reconfigurable Dataflow Unit built specifically to serve large models fast. Its differentiator in a crowded inference market is that it delivers that speed at full 16-bit precision, so you are not quietly trading accuracy for tokens-per-second the way some aggressive quantized services do — which matters for large reasoning models like DeepSeek R1 where precision shows up in output quality. The free tier lets you test, and a self-serve Developer tier scales you up per token. The reasons it lands at Worth Trying rather than a blanket Recommended are practical: the model catalog is narrower than Together or OpenRouter, there is no proprietary frontier model, and public per-token pricing is less front-and-center than GPU rivals, so you will spend a little time in the console. But if you want fast, honest-precision serving of big open models — especially with an enterprise or on-prem path in your future — SambaNova is a strong, credible option worth benchmarking against Cerebras and Groq.",
+      "zh": "SambaNova 出身不俗：创始团队来自斯坦福的芯片与机器学习研究，芯片是专为快速服务大模型打造的可重构数据流单元（RDU）。在拥挤的推理市场里，它的差异化在于——这份速度是在全 16-bit 精度下给出的，不像某些激进的量化服务那样悄悄用精度换取每秒 token 数；这对 DeepSeek R1 这类大型推理模型尤其重要，因为精度会直接体现在输出质量上。免费档可供测试，自助 Developer 档按 token 扩容。它落在「值得一试」而非直接「推荐」，理由很实际：模型目录比 Together、OpenRouter 窄，没有闭源前沿模型，公开每 token 定价也不如 GPU 对手那么显眼，你得在控制台里花点时间。但如果你想要对大型开源模型做「诚实精度」的高速服务——尤其未来还可能走企业或本地部署——SambaNova 是一个强而可信的选择，值得与 Cerebras、Groq 放在一起对比。",
+      "ja": "SambaNovaの出自は本格的だ。スタンフォードのチップおよび機械学習研究出身の創業者と、大規模モデルを高速に提供するために専用設計されたリコンフィギュラブル・データフロー・ユニット（RDU）。混み合う推論市場での差別化は、その速度をフル16ビット精度で提供する点にある。一部の攻めた量子化サービスのように、こっそり精度を秒あたりトークン数と引き換えにしない——これはDeepSeek R1のような大規模推論モデルで、精度が出力品質に直結するため重要だ。無料枠でテストでき、セルフサーブのDeveloperティアがトークン単位でスケールさせる。総合「推奨」ではなく「試す価値あり」に落ち着く理由は現実的だ。モデルカタログはTogetherやOpenRouterより狭く、クローズドなフロンティアモデルはなく、公開のトークン単価もGPU競合ほど前面に出ていないため、コンソールで少し時間を使うことになる。しかし大規模オープンモデルを「誠実な精度」で高速に提供したいなら——特に将来エンタープライズやオンプレミスの道筋があるなら——SambaNovaは強く信頼できる選択肢であり、CerebrasやGroqと並べてベンチマークする価値がある。",
+      "es": "SambaNova viene de un lugar serio: fundadores procedentes de la investigación de chips y aprendizaje automático de Stanford, y una Reconfigurable Dataflow Unit hecha a medida para servir modelos grandes rápido. Su diferenciador en un mercado de inferencia saturado es que entrega esa velocidad a precisión completa de 16 bits, así que no cambias en silencio exactitud por tokens por segundo como hacen algunos servicios cuantizados agresivos, lo que importa en grandes modelos de razonamiento como DeepSeek R1 donde la precisión se nota en la calidad. El nivel gratuito permite probar, y un nivel Developer autoservicio te escala por token. Las razones por las que queda en Worth Trying y no en un Recommended rotundo son prácticas: el catálogo es más estrecho que Together u OpenRouter, no hay modelo frontera propietario y el precio público por token es menos visible que en rivales GPU, así que pasarás algo de tiempo en la consola. Pero si quieres servicio rápido de precisión honesta para grandes modelos abiertos —sobre todo con una vía empresarial u on-premise en tu futuro— SambaNova es una opción fuerte y creíble que vale la pena comparar con Cerebras y Groq.",
+      "fr": "SambaNova vient d'un endroit sérieux : des fondateurs issus de la recherche en puces et apprentissage automatique de Stanford, et une Reconfigurable Dataflow Unit conçue spécialement pour servir vite de grands modèles. Son facteur différenciant sur un marché de l'inférence encombré est qu'il délivre cette vitesse en pleine précision 16 bits, donc vous n'échangez pas discrètement l'exactitude contre des tokens par seconde comme le font certains services quantifiés agressifs — ce qui compte pour de grands modèles de raisonnement comme DeepSeek R1 où la précision se voit dans la qualité. Le niveau gratuit permet de tester, et un niveau Developer en libre-service vous fait monter en charge au token. Les raisons pour lesquelles il atterrit en Worth Trying plutôt qu'en Recommended sans réserve sont pratiques : le catalogue est plus étroit que Together ou OpenRouter, il n'y a pas de modèle frontière propriétaire, et la tarification publique au token est moins mise en avant que chez les rivaux GPU, vous passerez donc un peu de temps dans la console. Mais si vous voulez un service rapide en précision honnête pour de grands modèles ouverts — surtout avec une voie entreprise ou on-premise dans votre avenir — SambaNova est une option solide et crédible à comparer avec Cerebras et Groq."
+    },
+    "bestFor": {
+      "en": [
+        "Teams serving large open reasoning models where precision matters",
+        "Enterprises needing an on-prem or dedicated inference path",
+        "Developers benchmarking fast inference clouds beyond the GPU incumbents"
+      ],
+      "zh": [
+        "部署大型开源推理模型、且在意精度的团队",
+        "需要本地或专属推理路径的企业",
+        "在 GPU 老牌厂商之外对比高速推理云的开发者"
+      ],
+      "ja": [
+        "精度が重要な大規模オープン推論モデルを提供するチーム",
+        "オンプレミスや専用推論の道筋が必要な企業",
+        "GPUの既存勢を超えて高速推論クラウドをベンチマークする開発者"
+      ],
+      "es": [
+        "Equipos que sirven grandes modelos abiertos de razonamiento donde importa la precisión",
+        "Empresas que necesitan una vía de inferencia on-premise o dedicada",
+        "Desarrolladores que comparan nubes de inferencia rápidas más allá de los referentes GPU"
+      ],
+      "fr": [
+        "Équipes servant de grands modèles ouverts de raisonnement où la précision compte",
+        "Entreprises nécessitant une voie d'inférence on-premise ou dédiée",
+        "Développeurs comparant des clouds d'inférence rapides au-delà des acteurs GPU établis"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You want the broadest possible open-model catalog (→ Together AI / OpenRouter)",
+        "You need proprietary frontier models (→ OpenAI / Anthropic / Gemini)"
+      ],
+      "zh": [
+        "你想要尽可能广的开源模型目录（→ Together AI / OpenRouter）",
+        "你需要闭源前沿模型（→ OpenAI / Anthropic / Gemini）"
+      ],
+      "ja": [
+        "可能な限り広いオープンモデルカタログが欲しい（→ Together AI / OpenRouter）",
+        "クローズドなフロンティアモデルが必要（→ OpenAI / Anthropic / Gemini）"
+      ],
+      "es": [
+        "Quieres el catálogo de modelos abiertos más amplio posible (→ Together AI / OpenRouter)",
+        "Necesitas modelos frontera propietarios (→ OpenAI / Anthropic / Gemini)"
+      ],
+      "fr": [
+        "Vous voulez le catalogue de modèles ouverts le plus large possible (→ Together AI / OpenRouter)",
+        "Vous avez besoin de modèles frontière propriétaires (→ OpenAI / Anthropic / Gemini)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-28",
+    "verdictDate": "2026-07-28",
+    "pricingVerified": "2026-07-28"
+  }
+}

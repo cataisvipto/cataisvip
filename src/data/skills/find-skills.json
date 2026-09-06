@@ -1,0 +1,79 @@
+{
+  "slug": "find-skills",
+  "name": "Find Skills",
+  "nameZh": "Find Skills",
+  "description": "搜索并安装合适的 Agent Skill，快速扩展 AI 智能体能力",
+  "descriptionEn": "Search and install Agent Skills to extend AI agent capabilities",
+  "descriptionJa": "Agent Skillを検索してインストールし、AIエージェントの機能を拡張",
+  "descriptionEs": "Busca e instala Skills de agente para ampliar las capacidades de la IA",
+  "descriptionFr": "Recherchez et installez des Skills d'agent pour étendre les capacités de l'IA",
+  "developer": "Vercel Labs",
+  "developerZh": "Vercel Labs",
+  "repo": "vercel-labs/skills",
+  "agents": [
+    "claude",
+    "cursor",
+    "codex",
+    "github-copilot",
+    "windsurf"
+  ],
+  "category": "Developer",
+  "tags": [
+    "Free",
+    "Open Source"
+  ],
+  "installCommand": "git clone https://github.com/vercel-labs/skills.git ~/.codex/skills/vercel-labs-skills",
+  "logo": "/logos/skills/find-skills.png",
+  "stars": 30406,
+  "featured": false,
+  "faqs": [
+    {
+      "question": {
+        "en": "How do I install this skill?",
+        "zh": "如何安装这个技能？",
+        "ja": "このスキルをインストールするには？",
+        "es": "¿Cómo instalo este skill?",
+        "fr": "Comment installer ce skill ?"
+      },
+      "answer": {
+        "en": "Run the install command in your agent terminal.",
+        "zh": "在智能体的终端中运行安装命令。",
+        "ja": "エージェントのターミナルでインストールコマンドを実行します。",
+        "es": "Ejecuta el comando de instalación en la terminal de tu agente.",
+        "fr": "Exécutez la commande d'installation dans le terminal de votre agent."
+      }
+    },
+    {
+      "question": {
+        "en": "Which agents support this skill?",
+        "zh": "哪些智能体支持这个技能？",
+        "ja": "どのエージェントがこのスキルをサポートしていますか？",
+        "es": "¿Qué agentes son compatibles con este skill?",
+        "fr": "Quels agents supportent ce skill ?"
+      },
+      "answer": {
+        "en": "Claude Code, Cursor, Codex, and other MCP-compatible agents.",
+        "zh": "Claude Code、Cursor、Codex 和其他 MCP 兼容的智能体。",
+        "ja": "Claude Code、Cursor、Codex、およびその他のMCP互換エージェント。",
+        "es": "Claude Code, Cursor, Codex y otros agentes compatibles con MCP.",
+        "fr": "Claude Code, Cursor, Codex et autres agents compatibles MCP."
+      }
+    },
+    {
+      "question": {
+        "en": "Is this skill free?",
+        "zh": "这个技能免费吗？",
+        "ja": "このスキルは無料ですか？",
+        "es": "¿Este skill es gratuito?",
+        "fr": "Ce skill est-il gratuit ?"
+      },
+      "answer": {
+        "en": "Yes, it is free and open source.",
+        "zh": "是的，免费且开源。",
+        "ja": "はい、無料でオープンソースです。",
+        "es": "Sí, es gratuito y de código abierto.",
+        "fr": "Oui, il est gratuit et open source."
+      }
+    }
+  ]
+}

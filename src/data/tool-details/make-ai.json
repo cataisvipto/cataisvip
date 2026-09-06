@@ -1,0 +1,234 @@
+{
+  "features": {
+    "en": [
+      "Transparent AI agents built on Make's visual automation canvas",
+      "Connects 3,000+ apps so agents can act across your whole stack",
+      "Full visibility into agent decisions, connections and cost scaling",
+      "Library of ready-made agents to start from instead of a blank page",
+      "Agents combine with classic scenarios: deterministic steps + AI judgment",
+      "Team governance over which tools and data each agent can touch"
+    ],
+    "zh": [
+      "基于 Make 可视化自动化画布构建的透明 AI 智能体",
+      "连接 3000+ 应用，智能体可跨整个工具栈行动",
+      "智能体的决策过程、连接关系与成本变化全程可见",
+      "现成智能体库，不用从空白页开始",
+      "智能体可与经典场景组合：确定性步骤 + AI 判断",
+      "团队级治理，管控每个智能体可触达的工具与数据"
+    ],
+    "ja": [
+      "Makeのビジュアル自動化キャンバス上に構築される透明なAIエージェント",
+      "3,000以上のアプリと接続し、エージェントがスタック全体で行動",
+      "エージェントの意思決定・接続・コスト推移を完全に可視化",
+      "白紙から作らなくていい既製エージェントのライブラリ",
+      "エージェントと従来シナリオを組み合わせ：決定的ステップ＋AI判断",
+      "各エージェントが触れるツールとデータをチームレベルで統制"
+    ],
+    "es": [
+      "Agentes IA transparentes construidos sobre el lienzo visual de Make",
+      "Conecta más de 3000 apps para que los agentes actúen en todo tu stack",
+      "Visibilidad total de decisiones, conexiones y escalado de costes",
+      "Biblioteca de agentes listos para no empezar desde cero",
+      "Los agentes se combinan con escenarios clásicos: pasos deterministas + juicio IA",
+      "Gobernanza de equipo sobre qué herramientas y datos toca cada agente"
+    ],
+    "fr": [
+      "Agents IA transparents construits sur le canevas d'automatisation visuel de Make",
+      "Connexion à plus de 3000 apps pour agir sur toute votre pile d'outils",
+      "Visibilité complète sur les décisions, connexions et évolution des coûts",
+      "Bibliothèque d'agents prêts à l'emploi pour ne pas partir de zéro",
+      "Les agents se combinent aux scénarios classiques : étapes déterministes + jugement IA",
+      "Gouvernance d'équipe sur les outils et données accessibles à chaque agent"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Free plan with up to 1,000 credits/month — enough to test agents and simple scenarios on 3,000+ integrations",
+      "zh": "免费版每月最多 1000 积分——足够在 3000+ 集成上测试智能体与简单场景",
+      "ja": "無料プランは月最大1,000クレジット——3,000以上の連携でエージェントや簡単なシナリオを試すには十分",
+      "es": "Plan gratuito con hasta 1000 créditos/mes: suficiente para probar agentes y escenarios simples en más de 3000 integraciones",
+      "fr": "Plan gratuit jusqu'à 1 000 crédits/mois — assez pour tester agents et scénarios simples sur 3000+ intégrations"
+    },
+    "paid": {
+      "en": "Core $12/mo, Pro $21/mo and Teams $38/mo (each with 10K credits/mo, cheaper on annual billing, more credits by tier); Enterprise custom with advanced governance",
+      "zh": "Core 12 美元/月、Pro 21 美元/月、Teams 38 美元/月（均含每月 1 万积分，年付更低，可按档位加购积分）；企业版定制，含高级治理",
+      "ja": "Core 月額12ドル、Pro 月額21ドル、Teams 月額38ドル（いずれも月1万クレジット、年払いで割安、上位ほどクレジット増量可）、Enterpriseは高度なガバナンス付きカスタム",
+      "es": "Core 12 $/mes, Pro 21 $/mes y Teams 38 $/mes (cada uno con 10K créditos/mes, más barato en facturación anual, más créditos por nivel); Enterprise a medida con gobernanza avanzada",
+      "fr": "Core 12 $/mois, Pro 21 $/mois et Teams 38 $/mois (chacun avec 10K crédits/mois, moins cher en annuel, crédits croissants par palier) ; Enterprise sur mesure avec gouvernance avancée"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Customer support triage where an agent classifies and routes tickets",
+      "Lead enrichment and CRM hygiene running across sales tools",
+      "Content pipelines mixing scheduled scenarios with AI decision points",
+      "Back-office processes spanning invoicing, docs and notifications"
+    ],
+    "zh": [
+      "客服工单分诊：智能体自动分类并路由工单",
+      "跨销售工具运行的线索补全与 CRM 数据治理",
+      "定时场景与 AI 决策点混排的内容流水线",
+      "横跨发票、文档与通知的后台流程"
+    ],
+    "ja": [
+      "エージェントがチケットを分類・振り分けするカスタマーサポートのトリアージ",
+      "営業ツール横断で走るリードエンリッチとCRMデータ整備",
+      "定期実行シナリオとAI判断ポイントを組み合わせたコンテンツパイプライン",
+      "請求書・文書・通知にまたがるバックオフィス業務"
+    ],
+    "es": [
+      "Triaje de soporte donde un agente clasifica y enruta tickets",
+      "Enriquecimiento de leads e higiene del CRM entre herramientas de ventas",
+      "Pipelines de contenido que mezclan escenarios programados con decisiones IA",
+      "Procesos de back-office con facturas, documentos y notificaciones"
+    ],
+    "fr": [
+      "Triage du support client : un agent classe et route les tickets",
+      "Enrichissement de leads et hygiène CRM à travers les outils de vente",
+      "Pipelines de contenu mêlant scénarios planifiés et points de décision IA",
+      "Processus back-office couvrant factures, documents et notifications"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Transparency-first: you see why the agent did what it did",
+      "3,000+ integrations dwarf most standalone agent platforms",
+      "Gentle price curve from free to $12/mo Core",
+      "Visual canvas makes agents debuggable by non-engineers"
+    ],
+    "zh": [
+      "透明优先：智能体为什么这么做，你看得一清二楚",
+      "3000+ 集成远超多数独立智能体平台",
+      "从免费到 12 美元/月 Core，价格曲线平缓",
+      "可视化画布让非工程师也能调试智能体"
+    ],
+    "ja": [
+      "透明性ファースト：エージェントの行動理由がはっきり見える",
+      "3,000以上の連携は多くの独立系エージェントプラットフォームを圧倒",
+      "無料から月額12ドルのCoreまで、なだらかな価格カーブ",
+      "ビジュアルキャンバスでエンジニア以外でもエージェントをデバッグ可能"
+    ],
+    "es": [
+      "Transparencia ante todo: ves por qué el agente hizo lo que hizo",
+      "Más de 3000 integraciones superan a la mayoría de plataformas de agentes",
+      "Curva de precios suave desde gratis hasta Core a 12 $/mes",
+      "El lienzo visual permite depurar agentes sin ser ingeniero"
+    ],
+    "fr": [
+      "Transparence d'abord : vous voyez pourquoi l'agent a agi ainsi",
+      "3000+ intégrations écrasent la plupart des plateformes d'agents autonomes",
+      "Courbe tarifaire douce, du gratuit au Core à 12 $/mois",
+      "Le canevas visuel rend les agents débogables sans être ingénieur"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Agents are bound to the Make platform — no standalone deployment",
+      "Credit consumption of AI steps takes tuning to stay predictable",
+      "Agent capabilities are newer and less battle-tested than core scenarios",
+      "Complex branching canvases can get hard to maintain at scale"
+    ],
+    "zh": [
+      "智能体绑定 Make 平台——无法独立部署",
+      "AI 步骤的积分消耗需要调优才能保持可预期",
+      "智能体能力较新，不如核心场景功能久经考验",
+      "复杂分支画布规模大了以后维护吃力"
+    ],
+    "ja": [
+      "エージェントはMakeプラットフォームに紐付き——単独デプロイ不可",
+      "AIステップのクレジット消費は予測可能に保つのに調整が要る",
+      "エージェント機能は新しく、コアのシナリオ機能ほど実戦経験がない",
+      "複雑な分岐キャンバスは規模が大きくなると保守が大変"
+    ],
+    "es": [
+      "Los agentes están atados a la plataforma Make: sin despliegue independiente",
+      "El consumo de créditos de los pasos IA requiere ajuste para ser predecible",
+      "Las capacidades de agentes son más nuevas y menos probadas que los escenarios",
+      "Los lienzos con ramificaciones complejas cuestan de mantener a escala"
+    ],
+    "fr": [
+      "Les agents sont liés à la plateforme Make — pas de déploiement autonome",
+      "La consommation de crédits des étapes IA demande du réglage pour rester prévisible",
+      "Les capacités d'agents sont plus récentes et moins éprouvées que les scénarios",
+      "Les canevas très ramifiés deviennent durs à maintenir à grande échelle"
+    ]
+  },
+  "latestUpdate": {
+    "en": "2026: Make ships its next generation of AI Agents focused on transparency — visible decision-making, connection mapping and cost scaling — plus a library of ready-made agents, and moves pricing to a unified credits model",
+    "zh": "2026 年：Make 推出主打透明的新一代 AI Agents——决策过程、连接关系与成本变化全可见——并上线现成智能体库，定价切换为统一的积分模型",
+    "ja": "2026年：Makeは透明性を核とした次世代AI Agentsを発表——意思決定・接続マッピング・コスト推移を可視化——既製エージェントのライブラリも提供し、料金を統一クレジットモデルへ移行",
+    "es": "2026: Make lanza su nueva generación de AI Agents centrada en la transparencia —decisiones visibles, mapeo de conexiones y escalado de costes—, añade una biblioteca de agentes listos y unifica los precios en un modelo de créditos",
+    "fr": "2026 : Make lance sa nouvelle génération d'AI Agents axée sur la transparence — décisions visibles, cartographie des connexions et évolution des coûts — ajoute une bibliothèque d'agents prêts à l'emploi et unifie sa tarification autour des crédits"
+  },
+  "verdict": {
+    "badge": "Recommended",
+    "headline": {
+      "en": "AI agents with receipts — automation you can actually audit",
+      "zh": "带凭据的 AI 智能体——真正能审计的自动化",
+      "ja": "証跡付きのAIエージェント——本当に監査できる自動化",
+      "es": "Agentes IA con recibos: automatización que de verdad puedes auditar",
+      "fr": "Des agents IA avec justificatifs — une automatisation réellement auditable"
+    },
+    "body": {
+      "en": "While rivals sell autonomy, Make sells accountability. Its agents inherit a decade-old visual canvas, 3,000+ integrations, and a design philosophy that every decision, connection and dollar must be inspectable — exactly what businesses burned by black-box agents now ask for. The blend of deterministic scenarios with AI judgment steps is pragmatic: use AI only where rules fail. Agents cannot leave the platform and the newest capabilities still need seasoning, but if your team already thinks in workflows, this is the least risky on-ramp to agentic automation.",
+      "zh": "当对手在卖自主性时，Make 在卖可问责性。它的智能体继承了十年打磨的可视化画布、3000+ 集成，以及「每个决策、每条连接、每一块钱都必须可检视」的设计哲学——恰是被黑盒智能体坑过的企业现在最想要的。确定性场景与 AI 判断步骤的混搭也很务实：只在规则失效处用 AI。智能体离不开平台，最新能力也还需打磨，但如果你的团队本就习惯用工作流思考，这是通往智能体自动化风险最低的坡道。",
+      "ja": "ライバルが自律性を売る中、Makeは説明責任を売る。同社のエージェントは10年磨かれたビジュアルキャンバス、3,000以上の連携、そして「あらゆる決定・接続・支出は検査可能であるべき」という設計哲学を受け継ぐ——ブラックボックス型エージェントに痛い目を見た企業が今まさに求めるものだ。決定的シナリオとAI判断ステップの併用も実利的で、ルールが通用しない所だけAIを使えばいい。エージェントはプラットフォームの外に出られず、最新機能には熟成も必要だが、チームが既にワークフロー思考なら、エージェント自動化への最もリスクの低い入り口である。",
+      "es": "Mientras los rivales venden autonomía, Make vende rendición de cuentas. Sus agentes heredan un lienzo visual con una década de madurez, más de 3000 integraciones y una filosofía de diseño donde cada decisión, conexión y dólar debe ser inspeccionable: justo lo que piden las empresas escarmentadas por agentes de caja negra. La mezcla de escenarios deterministas con pasos de juicio IA es pragmática: usa IA solo donde las reglas fallan. Los agentes no pueden salir de la plataforma y las capacidades más nuevas aún maduran, pero si tu equipo ya piensa en flujos de trabajo, esta es la rampa menos arriesgada hacia la automatización agéntica.",
+      "fr": "Quand les rivaux vendent de l'autonomie, Make vend de la responsabilité. Ses agents héritent d'un canevas visuel mûri pendant dix ans, de 3000+ intégrations et d'une philosophie où chaque décision, connexion et dollar doit être inspectable — exactement ce que réclament les entreprises échaudées par les agents boîte noire. Le mélange de scénarios déterministes et d'étapes de jugement IA est pragmatique : n'utiliser l'IA que là où les règles échouent. Les agents ne quittent pas la plateforme et les capacités les plus récentes doivent encore mûrir, mais si votre équipe pense déjà en workflows, c'est la rampe la moins risquée vers l'automatisation agentique."
+    },
+    "bestFor": {
+      "en": [
+        "Existing Make users adding AI judgment to proven scenarios",
+        "Businesses requiring auditable, explainable agent behavior",
+        "Teams wanting agents across 3,000+ apps without writing code"
+      ],
+      "zh": [
+        "想给成熟场景加上 AI 判断的 Make 老用户",
+        "要求智能体行为可审计、可解释的企业",
+        "想不写代码就让智能体横跨 3000+ 应用的团队"
+      ],
+      "ja": [
+        "実績あるシナリオにAI判断を加えたい既存Makeユーザー",
+        "監査可能で説明可能なエージェント挙動を求める企業",
+        "コードを書かずに3,000+アプリを跨ぐエージェントが欲しいチーム"
+      ],
+      "es": [
+        "Usuarios de Make añadiendo juicio IA a escenarios probados",
+        "Empresas que exigen comportamiento de agentes auditable y explicable",
+        "Equipos que quieren agentes en más de 3000 apps sin escribir código"
+      ],
+      "fr": [
+        "Utilisateurs de Make ajoutant du jugement IA à des scénarios éprouvés",
+        "Entreprises exigeant un comportement d'agent auditable et explicable",
+        "Équipes voulant des agents sur 3000+ apps sans écrire de code"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You want agents you can self-host or take off-platform (→ Flowise, LangGraph)",
+        "Your automations are simple triggers between two apps (→ Zapier AI)"
+      ],
+      "zh": [
+        "你想要可自托管、可带离平台的智能体（→ Flowise、LangGraph）",
+        "你的自动化只是两个应用间的简单触发（→ Zapier AI）"
+      ],
+      "ja": [
+        "セルフホストやプラットフォーム外で動くエージェントが欲しい（→ Flowise、LangGraph）",
+        "自動化が2つのアプリ間の単純トリガーで済む（→ Zapier AI）"
+      ],
+      "es": [
+        "Quieres agentes autoalojables o fuera de la plataforma (→ Flowise, LangGraph)",
+        "Tus automatizaciones son disparadores simples entre dos apps (→ Zapier AI)"
+      ],
+      "fr": [
+        "Vous voulez des agents auto-hébergeables ou hors plateforme (→ Flowise, LangGraph)",
+        "Vos automatisations sont de simples déclencheurs entre deux apps (→ Zapier AI)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-27",
+    "verdictDate": "2026-07-27",
+    "pricingVerified": "2026-07-27"
+  }
+}

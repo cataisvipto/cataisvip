@@ -1,0 +1,256 @@
+{
+  "features": {
+    "en": [
+      "Qwen 3.7 Max agentic LLM",
+      "Qwen VL visual understanding",
+      "Qwen Audio speech processing",
+      "Qwen Code model",
+      "Alibaba Cloud Bailian platform",
+      "Open-source local deployment"
+    ],
+    "zh": [
+      "Qwen 3.7 Max 智能体大模型",
+      "通义千问 VL 视觉理解",
+      "通义千问 Audio 语音处理",
+      "通义千问 Code 代码模型",
+      "阿里云百炼平台集成",
+      "开源模型可本地部署"
+    ],
+    "ja": [
+      "Qwen 3.7 Max エージェント型 LLM",
+      "Qwen VL 視覚理解",
+      "Qwen Audio 音声処理",
+      "Qwen Code コードモデル",
+      "Alibaba Cloud Bailian プラットフォーム",
+      "オープンソースのローカル展開"
+    ],
+    "es": [
+      "LLM con agentes Qwen 3.7 Max",
+      "Comprensión visual Qwen VL",
+      "Procesamiento de voz Qwen Audio",
+      "Modelo de código Qwen Code",
+      "Plataforma Bailian de Alibaba Cloud",
+      "Despliegue local de código abierto"
+    ],
+    "fr": [
+      "LLM agentique Qwen 3.7 Max",
+      "Compréhension visuelle Qwen VL",
+      "Traitement de la parole Qwen Audio",
+      "Modèle de code Qwen Code",
+      "Plateforme Bailian d'Alibaba Cloud",
+      "Déploiement local open source"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Free web version",
+      "zh": "网页版免费使用",
+      "ja": "Web 版は無料",
+      "es": "Versión web gratuita",
+      "fr": "Version web gratuite"
+    },
+    "api": {
+      "en": "Pay-as-you-go, from ¥0.002/1K tokens",
+      "zh": "按量计费，低至 ¥0.002/千 tokens",
+      "ja": "従量課金、1,000トークンあたり ¥0.002〜",
+      "es": "Pago por uso, desde ¥0,002/1K tokens",
+      "fr": "Paiement à l'usage, à partir de ¥0,002/1K tokens"
+    },
+    "enterprise": {
+      "en": "Alibaba Cloud enterprise",
+      "zh": "阿里云企业定制",
+      "ja": "Alibaba Cloud エンタープライズ版",
+      "es": "Empresarial de Alibaba Cloud",
+      "fr": "Offre entreprise Alibaba Cloud"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Chinese content creation",
+      "Multilingual translation",
+      "Image understanding",
+      "Code development",
+      "Enterprise knowledge base",
+      "Smart customer service"
+    ],
+    "zh": [
+      "中文内容创作",
+      "多语言翻译",
+      "图像理解与描述",
+      "代码开发辅助",
+      "企业知识库",
+      "智能客服"
+    ],
+    "ja": [
+      "中国語コンテンツ制作",
+      "多言語翻訳",
+      "画像理解",
+      "コード開発",
+      "企業ナレッジベース",
+      "スマートカスタマーサービス"
+    ],
+    "es": [
+      "Creación de contenido en chino",
+      "Traducción multilingüe",
+      "Comprensión de imágenes",
+      "Desarrollo de código",
+      "Base de conocimiento empresarial",
+      "Atención al cliente inteligente"
+    ],
+    "fr": [
+      "Création de contenu en chinois",
+      "Traduction multilingue",
+      "Compréhension d'images",
+      "Développement de code",
+      "Base de connaissances d'entreprise",
+      "Service client intelligent"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Industry-leading Chinese capability",
+      "Comprehensive multimodal support",
+      "Mature open-source ecosystem",
+      "Deep Alibaba Cloud integration"
+    ],
+    "zh": [
+      "中文能力业界领先",
+      "多模态支持全面",
+      "开源生态完善",
+      "阿里云深度整合"
+    ],
+    "ja": [
+      "業界トップクラスの中国語能力",
+      "包括的なマルチモーダル対応",
+      "成熟したオープンソースエコシステム",
+      "Alibaba Cloud との深い統合"
+    ],
+    "es": [
+      "Capacidad en chino líder del sector",
+      "Amplio soporte multimodal",
+      "Ecosistema de código abierto maduro",
+      "Integración profunda con Alibaba Cloud"
+    ],
+    "fr": [
+      "Capacité en chinois leader du secteur",
+      "Prise en charge multimodale complète",
+      "Écosystème open source mature",
+      "Intégration poussée à Alibaba Cloud"
+    ]
+  },
+  "cons": {
+    "en": [
+      "International ecosystem developing",
+      "Some advanced features paid",
+      "Documentation mainly Chinese"
+    ],
+    "zh": [
+      "国际生态待完善",
+      "部分高级功能付费",
+      "文档以中文为主"
+    ],
+    "ja": [
+      "国際的なエコシステムは発展途上",
+      "一部の高度な機能は有料",
+      "ドキュメントは主に中国語"
+    ],
+    "es": [
+      "Ecosistema internacional en desarrollo",
+      "Algunas funciones avanzadas de pago",
+      "Documentación principalmente en chino"
+    ],
+    "fr": [
+      "Écosystème international en développement",
+      "Certaines fonctions avancées payantes",
+      "Documentation principalement en chinois"
+    ]
+  },
+  "latestUpdate": {
+    "en": "2026: Qwen 3.7 Max (agentic, 1000+ tool calls) and Qwen3.5-Omni multimodal released; Qwen3-Max-Thinking tops Alibaba's lineup",
+    "zh": "2026年：Qwen 3.7 Max（智能体，支持 1000+ 工具调用）与 Qwen3.5-Omni 多模态发布；Qwen3-Max-Thinking 登顶阿里旗舰",
+    "ja": "2026年：Qwen 3.7 Max（エージェント型、1000以上のツール呼び出し）と Qwen3.5-Omni マルチモーダルを発表。Qwen3-Max-Thinking が Alibaba の最上位に",
+    "es": "2026: se lanzan Qwen 3.7 Max (con agentes, más de 1000 llamadas a herramientas) y Qwen3.5-Omni multimodal; Qwen3-Max-Thinking encabeza la gama de Alibaba",
+    "fr": "2026 : lancement de Qwen 3.7 Max (agentique, plus de 1000 appels d'outils) et de Qwen3.5-Omni multimodal ; Qwen3-Max-Thinking domine la gamme d'Alibaba"
+  },
+  "verdict": {
+    "badge": "Recommended",
+    "headline": {
+      "en": "Alibaba's open-weight LLM that punches above its weight on multilingual tasks — especially strong for Chinese-English workflows.",
+      "zh": "阿里巴巴的开源大模型，在多语言任务上超越同级——中英双语工作流尤为出色。",
+      "ja": "多言語タスクで実力以上の成果を出すアリババのオープンウェイトLLM——特に中英ワークフローに強い。",
+      "es": "El LLM de pesos abiertos de Alibaba que supera expectativas en tareas multilingües — especialmente fuerte en flujos chino-inglés.",
+      "fr": "Le LLM à poids ouverts d'Alibaba qui surpasse son rang en tâches multilingues — particulièrement fort pour les workflows chinois-anglais."
+    },
+    "body": {
+      "en": "Qwen stands out in the crowded LLM landscape for two reasons: genuinely strong multilingual performance (particularly across Chinese, English, and other Asian languages) and an active open-source ecosystem that lets developers fine-tune and deploy it freely. The chat interface at chat.qwen.ai is clean and responsive, with tool-use capabilities that rival paid alternatives.\n\nFor teams working across Chinese and English, Qwen handles code-switching and cultural context more naturally than most Western-developed models. The model family spans multiple sizes, making it practical for both cloud deployment and local inference on consumer hardware. Alibaba's continued investment means regular model updates and expanding capabilities.\n\nThe limitations are most apparent in highly creative English writing (where Claude and ChatGPT still lead) and in ecosystem maturity—the plugin marketplace and third-party integrations are less developed. For pure English-only workflows, the multilingual advantage is less relevant, and you may find ChatGPT or Claude more polished in those scenarios.",
+      "zh": "Qwen 在拥挤的 LLM 市场中脱颖而出有两个原因：真正强劲的多语言性能（尤其是中文、英文及其他亚洲语言），以及活跃的开源生态让开发者可以自由微调和部署。chat.qwen.ai 的聊天界面简洁流畅，工具使用能力可与付费替代品匹敌。\n\n对于中英双语工作的团队，Qwen 处理语言切换和文化语境比大多数西方开发的模型更自然。模型家族涵盖多种尺寸，既适合云端部署也适合消费级硬件上的本地推理。阿里巴巴的持续投入意味着定期的模型更新和能力扩展。\n\n局限性主要体现在高度创意性的英文写作（Claude 和 ChatGPT 仍然领先）以及生态成熟度——插件市场和第三方集成不够发达。对于纯英文工作流，多语言优势相关性降低，在这些场景下你可能会觉得 ChatGPT 或 Claude 更为成熟。",
+      "ja": "Qwenが混雑したLLM市場で際立つ理由は2つあります：真に強力な多言語性能（特に中国語、英語、その他アジア言語）と、開発者が自由にファインチューニング・デプロイできる活発なオープンソースエコシステムです。chat.qwen.aiのインターフェースはクリーンでレスポンシブ、ツール使用能力は有料の代替品に匹敵します。\n\n中国語と英語をまたぐチームにとって、Qwenは言語切り替えと文化的コンテキストを西洋開発のモデルより自然に処理します。モデルファミリーは複数サイズにわたり、クラウドデプロイとコンシューマーハードウェアでのローカル推論の両方に実用的です。\n\n制限は高度にクリエイティブな英語ライティング（ClaudeとChatGPTがリード）とエコシステムの成熟度に最も顕著です。純粋な英語のみのワークフローでは多言語の優位性は薄れ、ChatGPTやClaudeの方が洗練されていると感じるかもしれません。",
+      "es": "Qwen destaca en el saturado panorama LLM por dos razones: rendimiento multilingüe genuinamente fuerte (particularmente en chino, inglés y otros idiomas asiáticos) y un ecosistema open-source activo que permite a los desarrolladores ajustar y desplegar libremente. La interfaz en chat.qwen.ai es limpia y responsive, con capacidades de uso de herramientas que rivalizan con alternativas de pago.\n\nPara equipos que trabajan entre chino e inglés, Qwen maneja el cambio de código y contexto cultural más naturalmente que la mayoría de modelos occidentales. La familia de modelos abarca múltiples tamaños, haciéndolo práctico tanto para despliegue en la nube como para inferencia local.\n\nLas limitaciones son más aparentes en escritura creativa en inglés (donde Claude y ChatGPT lideran) y en madurez del ecosistema. Para flujos exclusivamente en inglés, la ventaja multilingüe es menos relevante, y podrías encontrar ChatGPT o Claude más pulidos.",
+      "fr": "Qwen se distingue dans le paysage LLM encombré pour deux raisons : des performances multilingues véritablement fortes (en particulier chinois, anglais et autres langues asiatiques) et un écosystème open-source actif permettant aux développeurs de fine-tuner et déployer librement. L'interface chat à chat.qwen.ai est propre et réactive, avec des capacités d'utilisation d'outils rivalisant avec les alternatives payantes.\n\nPour les équipes travaillant entre chinois et anglais, Qwen gère le changement de langue et le contexte culturel plus naturellement que la plupart des modèles occidentaux. La famille de modèles couvre plusieurs tailles, pratique tant pour le déploiement cloud que l'inférence locale.\n\nLes limites sont plus apparentes en écriture créative anglaise (où Claude et ChatGPT mènent) et en maturité d'écosystème. Pour des workflows uniquement en anglais, l'avantage multilingue est moins pertinent, et ChatGPT ou Claude pourraient sembler plus aboutis."
+    },
+    "bestFor": {
+      "en": [
+        "Chinese-English bilingual workflows and translation",
+        "Developers wanting an open-weight model for self-hosting",
+        "Asian language tasks where Western models underperform",
+        "Cost-conscious teams needing capable multilingual AI"
+      ],
+      "zh": [
+        "中英双语工作流与翻译",
+        "想要开源模型进行自托管的开发者",
+        "西方模型表现不佳的亚洲语言任务",
+        "需要多语言能力但注重成本的团队"
+      ],
+      "ja": [
+        "中国語-英語バイリンガルワークフローと翻訳",
+        "セルフホスティング用オープンウェイトモデルを求める開発者",
+        "西洋モデルが苦手なアジア言語タスク",
+        "コスト重視で多言語AI能力が必要なチーム"
+      ],
+      "es": [
+        "Flujos de trabajo bilingües chino-inglés y traducción",
+        "Desarrolladores que quieren un modelo open-weight para auto-hospedaje",
+        "Tareas en idiomas asiáticos donde modelos occidentales fallan",
+        "Equipos conscientes del costo que necesitan IA multilingüe capaz"
+      ],
+      "fr": [
+        "Workflows bilingues chinois-anglais et traduction",
+        "Développeurs voulant un modèle open-weight pour auto-hébergement",
+        "Tâches en langues asiatiques où les modèles occidentaux sous-performent",
+        "Équipes soucieuses des coûts nécessitant une IA multilingue capable"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You primarily work in English only and want the most polished experience (→ ChatGPT, Claude)",
+        "You need a mature plugin ecosystem and broad integrations (→ ChatGPT)",
+        "You want the strongest open-source reasoning for self-hosting (→ DeepSeek, Llama)"
+      ],
+      "zh": [
+        "你主要只使用英文且想要最成熟的体验（→ ChatGPT、Claude）",
+        "你需要成熟的插件生态和广泛集成（→ ChatGPT）",
+        "你想要最强的开源推理能力用于自托管（→ DeepSeek、Llama）"
+      ],
+      "ja": [
+        "主に英語のみで最も洗練された体験が欲しい場合（→ ChatGPT、Claude）",
+        "成熟したプラグインエコシステムと幅広い統合が必要な場合（→ ChatGPT）",
+        "セルフホスティング用に最強のオープンソース推論が欲しい場合（→ DeepSeek、Llama）"
+      ],
+      "es": [
+        "Trabajas principalmente solo en inglés y quieres la experiencia más pulida (→ ChatGPT, Claude)",
+        "Necesitas un ecosistema de plugins maduro e integraciones amplias (→ ChatGPT)",
+        "Quieres el razonamiento open-source más fuerte para auto-hospedaje (→ DeepSeek, Llama)"
+      ],
+      "fr": [
+        "Vous travaillez principalement en anglais et voulez l'expérience la plus aboutie (→ ChatGPT, Claude)",
+        "Vous avez besoin d'un écosystème de plugins mature et d'intégrations larges (→ ChatGPT)",
+        "Vous voulez le raisonnement open-source le plus fort pour auto-hébergement (→ DeepSeek, Llama)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-27",
+    "verdictDate": "2026-07-27",
+    "pricingVerified": "2026-07-27"
+  }
+}

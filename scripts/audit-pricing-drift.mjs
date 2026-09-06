@@ -10,13 +10,16 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { createRequire } from 'node:module';
+const _require = createRequire(import.meta.url);
+const { loadToolDetails, loadSkillDetails, loadMcpDetails } = _require('./lib/load-data.cjs');
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 
 const COLLECTIONS = [
-  { file: 'src/data/toolDetails.json', label: '工具' },
-  { file: 'src/data/skillDetails.json', label: 'Skills' },
-  { file: 'src/data/mcpDetails.json', label: 'MCP' },
+  { load: loadToolDetails, label: '工具' },
+  { load: loadSkillDetails, label: 'Skills' },
+  { load: loadMcpDetails, label: 'MCP' },
 ];
 
 // 与 check-tool-liveness.mjs 一致：undici Agent + 大响应头 + 可选代理
@@ -84,8 +87,8 @@ const emit = (s) => {
 let totalWithUrl = 0;
 let totalEntities = 0;
 
-for (const { file, label } of COLLECTIONS) {
-  const details = JSON.parse(fs.readFileSync(path.join(ROOT, file), 'utf8'));
+for (const { load, label } of COLLECTIONS) {
+  const details = load();
   const slugs = Object.keys(details);
 
   // 待测清单：有 pricingUrl 且本站 pricing 里声明了具体价格的条目

@@ -1,0 +1,235 @@
+{
+  "features": {
+    "en": [
+      "Grounded Q&A over your own sources with inline citations",
+      "Audio Overviews turn sources into podcast-style discussions with customizable hosts",
+      "Video Overviews generate narrated slide explainers from your material",
+      "Deep Research agent gathers and synthesizes web sources into a notebook",
+      "Gemini 3-powered with a 1M-token context window and Data Tables",
+      "Renamed Gemini Notebook in July 2026, adding cloud code execution"
+    ],
+    "zh": [
+      "基于你自己资料的溯源问答，答案带内联引用",
+      "Audio Overviews 把资料变成播客式讨论，主持人可自定义",
+      "Video Overviews 从你的材料生成带解说的幻灯讲解",
+      "Deep Research 智能体检索并综合网络来源汇入笔记本",
+      "Gemini 3 驱动，1M token 上下文窗口与 Data Tables",
+      "2026 年 7 月更名 Gemini Notebook，并新增云端代码执行"
+    ],
+    "ja": [
+      "自分のソースに基づく根拠付きQ&A、インライン引用付き",
+      "Audio Overviewsがソースをポッドキャスト風の議論に変換、ホストはカスタマイズ可",
+      "Video Overviewsが資料からナレーション付きスライド解説を生成",
+      "Deep Researchエージェントがウェブソースを収集・統合してノートブックへ",
+      "Gemini 3搭載、100万トークンのコンテキストウィンドウとData Tables",
+      "2026年7月にGemini Notebookへ改名、クラウドコード実行を追加"
+    ],
+    "es": [
+      "Preguntas y respuestas fundamentadas sobre tus propias fuentes con citas en línea",
+      "Audio Overviews convierte fuentes en discusiones estilo pódcast con anfitriones personalizables",
+      "Video Overviews genera explicaciones narradas con diapositivas desde tu material",
+      "El agente Deep Research reúne y sintetiza fuentes web en un cuaderno",
+      "Impulsado por Gemini 3 con ventana de contexto de 1M tokens y Data Tables",
+      "Renombrado Gemini Notebook en julio de 2026, añadiendo ejecución de código en la nube"
+    ],
+    "fr": [
+      "Q&R ancrées sur vos propres sources avec citations en ligne",
+      "Audio Overviews transforme les sources en discussions façon podcast avec animateurs personnalisables",
+      "Video Overviews génère des explications narrées en diapositives depuis vos documents",
+      "L'agent Deep Research collecte et synthétise des sources web dans un carnet",
+      "Propulsé par Gemini 3 avec une fenêtre de contexte d'1 M de tokens et Data Tables",
+      "Renommé Gemini Notebook en juillet 2026, avec exécution de code dans le cloud"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "The free tier is roomy: 100 notebooks, 50 sources per notebook, 50 chats/day and 3 Audio or Video Overviews daily.",
+      "zh": "免费档相当宽裕：100 个笔记本、每本 50 个来源、每天 50 次对话，Audio 与 Video Overviews 各每天 3 次。",
+      "ja": "無料枠は余裕あり：ノートブック100冊、1冊あたりソース50、1日50チャット、AudioとVideo Overviewsは各1日3回。",
+      "es": "El nivel gratuito es amplio: 100 cuadernos, 50 fuentes por cuaderno, 50 chats/día y 3 Audio o Video Overviews diarios.",
+      "fr": "L'offre gratuite est spacieuse : 100 carnets, 50 sources par carnet, 50 chats/jour et 3 Audio ou Video Overviews quotidiens."
+    },
+    "paid": {
+      "en": "Higher limits come with Google AI Pro at $19.99/month (500 notebooks, 300 sources each, more Overviews) and Google AI Ultra for maximum quotas — there is no standalone Notebook subscription. (Verified against the official plans page, 2026-07-29.)",
+      "zh": "更高额度捆绑在 Google AI Pro（$19.99/月，500 笔记本、每本 300 来源、更多 Overviews）与 Google AI Ultra（最高配额）中——没有独立的 Notebook 订阅。（对照官方套餐页核实，2026-07-29。）",
+      "ja": "上位額度はGoogle AI Pro（月$19.99、ノートブック500冊・各300ソース・Overviews増量）とGoogle AI Ultra（最大クォータ）に同梱——Notebook単体のサブスクリプションはなし。（公式プランページと照合、2026-07-29。）",
+      "es": "Los límites superiores vienen con Google AI Pro a $19.99/mes (500 cuadernos, 300 fuentes cada uno, más Overviews) y Google AI Ultra para cuotas máximas — no hay suscripción independiente de Notebook. (Verificado con la página oficial de planes, 2026-07-29.)",
+      "fr": "Les quotas supérieurs viennent avec Google AI Pro à 19,99 $/mois (500 carnets, 300 sources chacun, plus d'Overviews) et Google AI Ultra pour les quotas maximaux — pas d'abonnement Notebook autonome. (Vérifié avec la page officielle des offres, 2026-07-29.)"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Students distilling lecture notes and readings into study guides",
+      "Researchers interrogating a corpus of papers with cited answers",
+      "Turning dense reports into commute-friendly Audio Overviews",
+      "Analysts combining Deep Research findings with their own documents"
+    ],
+    "zh": [
+      "学生把讲义与阅读材料提炼成学习指南",
+      "研究者对论文集提问并获得带引用的回答",
+      "把厚重报告转成通勤路上能听的 Audio Overviews",
+      "分析师把 Deep Research 结果与自有文档结合"
+    ],
+    "ja": [
+      "講義ノートと文献を学習ガイドに凝縮する学生",
+      "論文コーパスに引用付き回答で問いかける研究者",
+      "分厚いレポートを通勤で聴けるAudio Overviewsに変換",
+      "Deep Researchの発見と自前の文書を組み合わせるアナリスト"
+    ],
+    "es": [
+      "Estudiantes destilando apuntes y lecturas en guías de estudio",
+      "Investigadores interrogando un corpus de papers con respuestas citadas",
+      "Convertir informes densos en Audio Overviews para el trayecto",
+      "Analistas combinando hallazgos de Deep Research con sus propios documentos"
+    ],
+    "fr": [
+      "Étudiants distillant notes de cours et lectures en guides d'étude",
+      "Chercheurs interrogeant un corpus d'articles avec réponses citées",
+      "Transformer des rapports denses en Audio Overviews pour les trajets",
+      "Analystes combinant les résultats de Deep Research avec leurs propres documents"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Grounding in your sources sharply reduces hallucinated answers",
+      "Audio Overviews remain the category-defining feature others imitate",
+      "Generous free tier covers most students and casual researchers",
+      "Deep Research plus 1M context makes big-corpus work practical"
+    ],
+    "zh": [
+      "基于你的资料作答，大幅减少幻觉",
+      "Audio Overviews 仍是定义品类、被竞相模仿的功能",
+      "慷慨免费档足够多数学生与轻度研究者",
+      "Deep Research 加 1M 上下文让大语料工作切实可行"
+    ],
+    "ja": [
+      "ソースへのグラウンディングで幻覚回答が大幅減",
+      "Audio Overviewsは今もカテゴリを定義し模倣される機能",
+      "寛大な無料枠は大半の学生やカジュアルな研究者に十分",
+      "Deep Researchと100万コンテキストで大規模コーパス作業が現実的に"
+    ],
+    "es": [
+      "El anclaje en tus fuentes reduce drásticamente las respuestas alucinadas",
+      "Audio Overviews sigue siendo la función que define la categoría e imitan otros",
+      "El generoso nivel gratuito cubre a la mayoría de estudiantes e investigadores casuales",
+      "Deep Research más 1M de contexto hace viable el trabajo con corpus grandes"
+    ],
+    "fr": [
+      "L'ancrage dans vos sources réduit fortement les réponses hallucinées",
+      "Audio Overviews reste la fonction fondatrice de la catégorie, imitée par d'autres",
+      "L'offre gratuite généreuse suffit à la plupart des étudiants et chercheurs occasionnels",
+      "Deep Research plus le contexte d'1 M rendent le travail sur gros corpus praticable"
+    ]
+  },
+  "cons": {
+    "en": [
+      "The July 2026 rename to Gemini Notebook caused link and workflow churn",
+      "Answers are only as good as your sources — bad inputs, confident bad outputs",
+      "No standalone subscription; scaling up means the Google AI bundle",
+      "Audio Overviews can smooth over nuance and occasionally misread emphasis"
+    ],
+    "zh": [
+      "2026 年 7 月更名 Gemini Notebook 造成链接与工作流折腾",
+      "答案质量取决于来源——喂进去的资料差，输出错得也自信",
+      "无独立订阅；扩容意味着捆绑购买 Google AI 套餐",
+      "Audio Overviews 可能抹平细微差别，偶尔读错重点"
+    ],
+    "ja": [
+      "2026年7月のGemini Notebookへの改名でリンクとワークフローに混乱",
+      "回答の質はソース次第——悪い入力には自信満々の悪い出力",
+      "単体サブスクリプションなし。拡張はGoogle AIバンドルを意味する",
+      "Audio Overviewsはニュアンスを均し、時に強調を読み違える"
+    ],
+    "es": [
+      "El renombre a Gemini Notebook en julio de 2026 causó trastornos en enlaces y flujos",
+      "Las respuestas valen lo que tus fuentes — entradas malas, salidas malas y seguras",
+      "Sin suscripción independiente; escalar implica el paquete Google AI",
+      "Los Audio Overviews pueden alisar matices y a veces malinterpretar el énfasis"
+    ],
+    "fr": [
+      "Le renommage en Gemini Notebook en juillet 2026 a perturbé liens et flux de travail",
+      "Les réponses valent ce que valent vos sources — mauvaises entrées, mauvaises sorties assurées",
+      "Pas d'abonnement autonome ; monter en gamme signifie le bundle Google AI",
+      "Les Audio Overviews peuvent lisser les nuances et parfois mal placer l'accent"
+    ]
+  },
+  "latestUpdate": {
+    "en": "2026: renamed Gemini Notebook on July 16, 2026, gaining cloud code execution — after a year that added Deep Research (late 2025), customizable Audio Overview hosts (January 2026), Video Overviews, Data Tables and the Gemini 3 upgrade with 1M-token context.",
+    "zh": "2026 年：7 月 16 日更名 Gemini Notebook 并新增云端代码执行——此前一年陆续加入 Deep Research（2025 年底）、可自定义人设的 Audio Overviews（2026 年 1 月）、Video Overviews、Data Tables，以及带 1M token 上下文的 Gemini 3 升级。",
+    "ja": "2026年：7月16日にGemini Notebookへ改名しクラウドコード実行を獲得——それまでの1年でDeep Research（2025年末）、ホストをカスタマイズできるAudio Overviews（2026年1月）、Video Overviews、Data Tables、100万トークンコンテキストのGemini 3アップグレードが加わった。",
+    "es": "2026: renombrado Gemini Notebook el 16 de julio de 2026, ganando ejecución de código en la nube — tras un año que sumó Deep Research (finales de 2025), anfitriones personalizables en Audio Overviews (enero de 2026), Video Overviews, Data Tables y la mejora a Gemini 3 con contexto de 1M tokens.",
+    "fr": "2026 : renommé Gemini Notebook le 16 juillet 2026, avec exécution de code dans le cloud — après une année qui a ajouté Deep Research (fin 2025), les animateurs personnalisables d'Audio Overviews (janvier 2026), les Video Overviews, les Data Tables et le passage à Gemini 3 avec contexte d'1 M de tokens."
+  },
+  "verdict": {
+    "badge": "Recommended",
+    "headline": {
+      "en": "Still the best way to think with your own documents",
+      "zh": "依然是「带着自己的资料思考」的最佳方式",
+      "ja": "自分の資料とともに考える最良の方法、いまも健在",
+      "es": "Sigue siendo la mejor forma de pensar con tus propios documentos",
+      "fr": "Toujours la meilleure façon de penser avec vos propres documents"
+    },
+    "body": {
+      "en": "NotebookLM — renamed Gemini Notebook in July 2026, though most people still use the old name — solved a problem general chatbots never quite did: making AI answer from your material rather than its training data. Load up to 50 sources per notebook and every answer arrives with citations you can click to verify, which changes the trust equation entirely for students, researchers and analysts. Audio Overviews remain the feature that defines the category: two AI hosts (now customizable in tone and focus) discussing your documents is a genuinely better way to absorb a dense report on a commute, and Video Overviews extend the same trick to visual explainers. The 2026 upgrades — Gemini 3, a 1M-token window, Deep Research feeding web findings straight into notebooks, Data Tables and cloud code execution — have pushed it from study aid toward research workbench. Caveats: the rename churned links and muscle memory; output quality is ruthlessly bounded by source quality; and power users must buy the broader Google AI Pro bundle since no standalone tier exists. But with a free tier covering 100 notebooks and daily Overviews, the barrier to entry is effectively zero. For source-grounded work, this is the tool to beat.",
+      "zh": "NotebookLM——2026 年 7 月更名 Gemini Notebook，尽管多数人仍叫旧名——解决了通用聊天机器人一直没做好的事：让 AI 依据你的材料而非它的训练数据来回答。每个笔记本最多装 50 个来源，每条回答都带可点击核验的引用，这对学生、研究者与分析师而言彻底改变了信任等式。Audio Overviews 仍是定义这个品类的功能：两位 AI 主持人（如今语气与侧重均可自定义）讨论你的文档，确实是通勤路上消化厚重报告的更好方式；Video Overviews 又把同样的戏法延伸到视觉讲解。2026 年的升级——Gemini 3、1M token 窗口、把网络调研直接汇入笔记本的 Deep Research、Data Tables 与云端代码执行——已把它从学习辅助推向研究工作台。注意事项：更名折腾了链接与肌肉记忆；输出质量被来源质量无情地框定；重度用户只能买更大的 Google AI Pro 套餐，因为没有独立订阅。但免费档就有 100 个笔记本与每日 Overviews，入门门槛实际为零。做溯源型工作，它就是标杆。",
+      "ja": "NotebookLM——2026年7月にGemini Notebookへ改名されたが、大半の人はまだ旧名で呼ぶ——は汎用チャットボットがついに解けなかった問題を解決した：AIに訓練データではなくあなたの資料から答えさせることだ。ノートブックごとに最大50ソースを読み込み、すべての回答にクリックで検証できる引用が付く。これは学生・研究者・アナリストにとって信頼の方程式を根本から変える。Audio Overviewsは今もこのカテゴリを定義する機能だ：2人のAIホスト（現在はトーンも焦点もカスタマイズ可）があなたの文書を語り合う形式は、通勤中に分厚いレポートを消化する確かに優れた方法であり、Video Overviewsは同じ手品を視覚的解説に広げた。2026年のアップグレード——Gemini 3、100万トークンウィンドウ、ウェブ調査を直接ノートブックに流し込むDeep Research、Data Tables、クラウドコード実行——は本作を学習補助から研究ワークベンチへと押し上げた。注意点：改名でリンクと習慣が乱れた。出力の質はソースの質に容赦なく制約される。単体プランがないためパワーユーザーはGoogle AI Proバンドルを買うしかない。だが無料枠でノートブック100冊と毎日のOverviewsが使える以上、参入障壁は実質ゼロ。ソースに根ざした仕事なら、これが打倒すべき王者だ。",
+      "es": "NotebookLM — renombrado Gemini Notebook en julio de 2026, aunque casi todos siguen usando el nombre viejo — resolvió un problema que los chatbots generales nunca resolvieron del todo: hacer que la IA responda desde tu material y no desde sus datos de entrenamiento. Carga hasta 50 fuentes por cuaderno y cada respuesta llega con citas verificables con un clic, lo que cambia por completo la ecuación de confianza para estudiantes, investigadores y analistas. Audio Overviews sigue siendo la función que define la categoría: dos anfitriones IA (ahora personalizables en tono y enfoque) discutiendo tus documentos es una forma genuinamente mejor de absorber un informe denso en el trayecto, y Video Overviews extiende el mismo truco a explicaciones visuales. Las mejoras de 2026 — Gemini 3, ventana de 1M tokens, Deep Research vertiendo hallazgos web directamente en cuadernos, Data Tables y ejecución de código en la nube — lo han llevado de ayuda de estudio a banco de trabajo de investigación. Salvedades: el renombre trastocó enlaces y hábitos; la calidad de salida está implacablemente acotada por la calidad de las fuentes; y los usuarios intensivos deben comprar el paquete Google AI Pro al no existir plan independiente. Pero con un nivel gratis de 100 cuadernos y Overviews diarios, la barrera de entrada es prácticamente cero. Para trabajo anclado en fuentes, es la herramienta a batir.",
+      "fr": "NotebookLM — renommé Gemini Notebook en juillet 2026, même si la plupart des gens utilisent encore l'ancien nom — a résolu un problème que les chatbots généralistes n'ont jamais vraiment réglé : faire répondre l'IA à partir de vos documents plutôt que de ses données d'entraînement. Chargez jusqu'à 50 sources par carnet et chaque réponse arrive avec des citations vérifiables d'un clic, ce qui change entièrement l'équation de confiance pour étudiants, chercheurs et analystes. Audio Overviews reste la fonction qui définit la catégorie : deux animateurs IA (désormais personnalisables en ton et en angle) discutant vos documents est une façon réellement meilleure d'absorber un rapport dense en trajet, et Video Overviews étend la même astuce aux explications visuelles. Les améliorations 2026 — Gemini 3, fenêtre d'1 M de tokens, Deep Research versant ses trouvailles web directement dans les carnets, Data Tables et exécution de code dans le cloud — l'ont fait passer d'aide à l'étude à établi de recherche. Réserves : le renommage a bousculé liens et habitudes ; la qualité des sorties est impitoyablement bornée par celle des sources ; et les gros utilisateurs doivent acheter le bundle Google AI Pro faute d'offre autonome. Mais avec une offre gratuite de 100 carnets et des Overviews quotidiens, la barrière d'entrée est quasi nulle. Pour le travail ancré dans les sources, c'est l'outil à battre."
+    },
+    "bestFor": {
+      "en": [
+        "Students building study guides from lectures and readings",
+        "Researchers needing cited answers over a paper corpus",
+        "Anyone who prefers listening to reading dense material"
+      ],
+      "zh": [
+        "用讲义与阅读材料构建学习指南的学生",
+        "需要在论文集上获得带引用回答的研究者",
+        "更愿意用听代替读厚重材料的人"
+      ],
+      "ja": [
+        "講義と文献から学習ガイドを作る学生",
+        "論文コーパスに引用付き回答が必要な研究者",
+        "分厚い資料は読むより聴きたい人"
+      ],
+      "es": [
+        "Estudiantes creando guías de estudio desde clases y lecturas",
+        "Investigadores que necesitan respuestas citadas sobre un corpus",
+        "Quien prefiere escuchar antes que leer material denso"
+      ],
+      "fr": [
+        "Étudiants construisant des guides d'étude depuis cours et lectures",
+        "Chercheurs ayant besoin de réponses citées sur un corpus d'articles",
+        "Quiconque préfère écouter plutôt que lire des documents denses"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You want web-wide research synthesis rather than your own sources (→ Perplexity)",
+        "You need scientific-literature search with evidence meters (→ Consensus)"
+      ],
+      "zh": [
+        "你要的是全网调研综合而非基于自有资料（→ Perplexity）",
+        "你需要带证据计量的科学文献检索（→ Consensus）"
+      ],
+      "ja": [
+        "自分のソースではなくウェブ全体のリサーチ統合が欲しい（→ Perplexity）",
+        "エビデンスメーター付きの科学文献検索が必要（→ Consensus）"
+      ],
+      "es": [
+        "Quieres síntesis de investigación en toda la web y no sobre tus fuentes (→ Perplexity)",
+        "Necesitas búsqueda de literatura científica con medidores de evidencia (→ Consensus)"
+      ],
+      "fr": [
+        "Vous voulez une synthèse de recherche sur tout le web plutôt que vos propres sources (→ Perplexity)",
+        "Vous avez besoin de recherche de littérature scientifique avec indicateurs de preuve (→ Consensus)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-29",
+    "verdictDate": "2026-07-29",
+    "pricingVerified": "2026-07-29",
+    "pricingUrl": "https://notebooklm.google/plans"
+  }
+}

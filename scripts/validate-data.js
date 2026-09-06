@@ -10,6 +10,8 @@ const path = require('path');
 
 const DATA_DIR = path.resolve(__dirname, '..', 'src', 'data');
 // 语言列表从 messages/*.json 自动发现（单一 source of truth），新增语言无需改此脚本
+const { loadTools, loadToolDetails, loadSkills, loadMcp } = require('./lib/load-data.cjs');
+
 const LOCALES = fs.readdirSync(path.resolve(__dirname, '..', 'messages'))
   .filter((f) => f.endsWith('.json'))
   .map((f) => path.basename(f, '.json'))
@@ -66,7 +68,7 @@ function checkI18nKeys(obj, context, required = true) {
 // ─── 1. tools.json ───────────────────────────────────────────────
 function validateTools() {
   console.log('\n━━━ tools.json ━━━');
-  const data = loadJSON('tools.json');
+  const data = loadTools();
   if (!data) return;
 
   if (!Array.isArray(data)) {
@@ -117,7 +119,7 @@ function validateTools() {
 // ─── 2. toolDetails.json ─────────────────────────────────────────
 function validateToolDetails() {
   console.log('\n━━━ toolDetails.json ━━━');
-  const data = loadJSON('toolDetails.json');
+  const data = loadToolDetails();
   if (!data) return;
 
   if (typeof data !== 'object' || Array.isArray(data)) {
@@ -263,7 +265,7 @@ function validateBlogPosts() {
 // ─── 4. skills.json ──────────────────────────────────────────────
 function validateSkills() {
   console.log('\n━━━ skills.json ━━━');
-  const data = loadJSON('skills.json');
+  const data = loadSkills();
   if (!data) return;
 
   if (!Array.isArray(data)) {
@@ -322,8 +324,8 @@ function validateSkills() {
 function validateCrossReferences() {
   console.log('\n━━━ 交叉引用检查 ━━━');
 
-  const tools = loadJSON('tools.json');
-  const toolDetails = loadJSON('toolDetails.json');
+  const tools = loadTools();
+  const toolDetails = loadToolDetails();
   if (!tools || !toolDetails) return;
 
   const toolSlugs = new Set(tools.map(t => t.slug));
@@ -355,7 +357,7 @@ validateBlogPosts();
 // ─── 5. mcp.json ────────────────────────────────
 function validateMcp() {
   console.log('\n━━━ mcp.json ━━━');
-  const data = loadJSON('mcp.json');
+  const data = loadMcp();
   if (!data) return;
 
   if (!Array.isArray(data)) {

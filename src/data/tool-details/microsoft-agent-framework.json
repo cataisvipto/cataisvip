@@ -1,0 +1,234 @@
+{
+  "features": {
+    "en": [
+      "Official successor to AutoGen and Semantic Kernel, merged into one framework",
+      "Multi-agent workflows and orchestration in .NET, Python and Go",
+      "Native support for open standards: Model Context Protocol (MCP) and Agent-to-Agent (A2A)",
+      "Works with any model provider — OpenAI, Azure OpenAI, Anthropic and more",
+      "Deep Azure AI Foundry integration for hosted agents, observability and compliance",
+      "Official migration guides from Semantic Kernel and AutoGen projects"
+    ],
+    "zh": [
+      "AutoGen 与 Semantic Kernel 的官方继任者，二者合并为一个框架",
+      ".NET、Python、Go 三语言的多智能体工作流与编排",
+      "原生支持开放标准：模型上下文协议（MCP）与智能体互通协议（A2A）",
+      "兼容任意模型供应商——OpenAI、Azure OpenAI、Anthropic 等",
+      "深度集成 Azure AI Foundry：托管智能体、可观测性与合规",
+      "提供 Semantic Kernel 与 AutoGen 项目的官方迁移指南"
+    ],
+    "ja": [
+      "AutoGenとSemantic Kernelの公式後継として両者を統合した単一フレームワーク",
+      ".NET、Python、Goでのマルチエージェントワークフローとオーケストレーション",
+      "オープン標準をネイティブサポート：Model Context Protocol（MCP）とAgent-to-Agent（A2A）",
+      "OpenAI、Azure OpenAI、Anthropicなど任意のモデルプロバイダーに対応",
+      "Azure AI Foundryと深く統合：ホスト型エージェント、可観測性、コンプライアンス",
+      "Semantic KernelとAutoGenからの公式移行ガイドを提供"
+    ],
+    "es": [
+      "Sucesor oficial de AutoGen y Semantic Kernel, fusionados en un solo framework",
+      "Flujos y orquestación multiagente en .NET, Python y Go",
+      "Soporte nativo de estándares abiertos: Model Context Protocol (MCP) y Agent-to-Agent (A2A)",
+      "Funciona con cualquier proveedor de modelos: OpenAI, Azure OpenAI, Anthropic y más",
+      "Integración profunda con Azure AI Foundry: agentes alojados, observabilidad y cumplimiento",
+      "Guías oficiales de migración desde proyectos Semantic Kernel y AutoGen"
+    ],
+    "fr": [
+      "Successeur officiel d'AutoGen et Semantic Kernel, fusionnés en un seul framework",
+      "Workflows et orchestration multi-agents en .NET, Python et Go",
+      "Support natif des standards ouverts : Model Context Protocol (MCP) et Agent-to-Agent (A2A)",
+      "Compatible avec tout fournisseur de modèles — OpenAI, Azure OpenAI, Anthropic et plus",
+      "Intégration poussée avec Azure AI Foundry : agents hébergés, observabilité et conformité",
+      "Guides officiels de migration depuis les projets Semantic Kernel et AutoGen"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Fully free and open source (MIT license): the framework costs nothing, you pay only your model provider or Azure usage",
+      "zh": "完全免费开源（MIT 协议）：框架本身零费用，只需支付模型供应商或 Azure 用量",
+      "ja": "完全無料のオープンソース（MITライセンス）：フレームワーク自体は無料で、モデルプロバイダーまたはAzureの利用料のみ",
+      "es": "Totalmente gratuito y open source (licencia MIT): el framework no cuesta nada, solo pagas tu proveedor de modelos o el uso de Azure",
+      "fr": "Entièrement gratuit et open source (licence MIT) : le framework ne coûte rien, vous ne payez que votre fournisseur de modèles ou votre consommation Azure"
+    },
+    "paid": {
+      "en": "No paid tiers for the framework itself; hosted agents and enterprise features on Azure AI Foundry are billed as standard Azure consumption",
+      "zh": "框架本身无付费档；Azure AI Foundry 上的托管智能体与企业功能按标准 Azure 用量计费",
+      "ja": "フレームワーク自体に有料プランはなし。Azure AI Foundry上のホスト型エージェントとエンタープライズ機能は標準のAzure従量課金",
+      "es": "El framework no tiene niveles de pago; los agentes alojados y las funciones enterprise en Azure AI Foundry se facturan como consumo estándar de Azure",
+      "fr": "Pas d'offre payante pour le framework lui-même ; les agents hébergés et fonctions entreprise sur Azure AI Foundry sont facturés en consommation Azure standard"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Enterprise .NET shops adding production agents to existing systems",
+      "Migrating Semantic Kernel or AutoGen projects to a supported successor",
+      "Multi-agent workflows deployed and governed on Azure",
+      "Interoperable agents built on MCP and A2A open standards"
+    ],
+    "zh": [
+      "在既有系统中加入生产级智能体的企业 .NET 团队",
+      "把 Semantic Kernel 或 AutoGen 项目迁移到受支持的继任框架",
+      "在 Azure 上部署与治理的多智能体工作流",
+      "基于 MCP 与 A2A 开放标准构建可互操作的智能体"
+    ],
+    "ja": [
+      "既存システムに本番エージェントを追加するエンタープライズ.NETチーム",
+      "Semantic KernelやAutoGenプロジェクトをサポートされた後継へ移行",
+      "Azure上でデプロイ・ガバナンスするマルチエージェントワークフロー",
+      "MCPとA2Aのオープン標準に基づく相互運用可能なエージェント構築"
+    ],
+    "es": [
+      "Equipos .NET empresariales añadiendo agentes de producción a sistemas existentes",
+      "Migración de proyectos Semantic Kernel o AutoGen a un sucesor con soporte",
+      "Flujos multiagente desplegados y gobernados en Azure",
+      "Agentes interoperables construidos sobre los estándares abiertos MCP y A2A"
+    ],
+    "fr": [
+      "Équipes .NET d'entreprise ajoutant des agents de production aux systèmes existants",
+      "Migration de projets Semantic Kernel ou AutoGen vers un successeur supporté",
+      "Workflows multi-agents déployés et gouvernés sur Azure",
+      "Agents interopérables fondés sur les standards ouverts MCP et A2A"
+    ]
+  },
+  "pros": {
+    "en": [
+      "One official framework instead of two overlapping Microsoft projects",
+      "Rare multi-language parity across .NET, Python and Go",
+      "Open standards first: MCP and A2A baked in from day one",
+      "Enterprise-grade backing, security posture and Azure integration"
+    ],
+    "zh": [
+      "一个官方框架取代两个功能重叠的微软项目",
+      ".NET、Python、Go 三语言对齐，业界少见",
+      "开放标准优先：MCP 与 A2A 从第一天就内置",
+      "企业级背书、安全体系与 Azure 集成"
+    ],
+    "ja": [
+      "機能が重複する2つのMicrosoftプロジェクトを1つの公式フレームワークに統一",
+      ".NET、Python、Goの多言語同等性は業界でも稀",
+      "オープン標準ファースト：MCPとA2Aを初日から内蔵",
+      "エンタープライズ級の後ろ盾、セキュリティ体制、Azure統合"
+    ],
+    "es": [
+      "Un framework oficial en lugar de dos proyectos Microsoft solapados",
+      "Rara paridad multilenguaje entre .NET, Python y Go",
+      "Estándares abiertos primero: MCP y A2A integrados desde el día uno",
+      "Respaldo empresarial, postura de seguridad e integración con Azure"
+    ],
+    "fr": [
+      "Un framework officiel au lieu de deux projets Microsoft redondants",
+      "Rare parité multi-langage entre .NET, Python et Go",
+      "Standards ouverts d'abord : MCP et A2A intégrés dès le premier jour",
+      "Soutien de niveau entreprise, sécurité et intégration Azure"
+    ]
+  },
+  "cons": {
+    "en": [
+      "1.0 shipped in April 2026 — the ecosystem is still young",
+      "Migrating from Semantic Kernel/AutoGen requires real code changes",
+      "The best experience assumes an Azure-centric stack",
+      "Community content and third-party integrations trail LangChain's"
+    ],
+    "zh": [
+      "1.0 于 2026 年 4 月发布，生态仍然年轻",
+      "从 Semantic Kernel/AutoGen 迁移需要实打实的代码改动",
+      "最佳体验默认建立在 Azure 技术栈之上",
+      "社区内容与第三方集成落后于 LangChain"
+    ],
+    "ja": [
+      "1.0は2026年4月リリースでエコシステムはまだ若い",
+      "Semantic Kernel/AutoGenからの移行には実際のコード変更が必要",
+      "最良の体験はAzure中心のスタックが前提",
+      "コミュニティコンテンツとサードパーティ統合はLangChainに劣る"
+    ],
+    "es": [
+      "La 1.0 llegó en abril de 2026: el ecosistema aún es joven",
+      "Migrar desde Semantic Kernel/AutoGen exige cambios reales de código",
+      "La mejor experiencia asume un stack centrado en Azure",
+      "El contenido comunitario y las integraciones van por detrás de LangChain"
+    ],
+    "fr": [
+      "La 1.0 est sortie en avril 2026 — l'écosystème est encore jeune",
+      "Migrer depuis Semantic Kernel/AutoGen exige de vrais changements de code",
+      "La meilleure expérience suppose un stack centré sur Azure",
+      "Le contenu communautaire et les intégrations tierces restent derrière LangChain"
+    ]
+  },
+  "latestUpdate": {
+    "en": "April 3, 2026: version 1.0 GA officially merges Semantic Kernel and AutoGen into one production SDK; BUILD 2026 adds Agent Harness, Hosted Agents and CodeAct",
+    "zh": "2026 年 4 月 3 日：1.0 正式版将 Semantic Kernel 与 AutoGen 合并为单一生产级 SDK；BUILD 2026 大会新增 Agent Harness、托管智能体与 CodeAct",
+    "ja": "2026年4月3日：バージョン1.0 GAでSemantic KernelとAutoGenを単一の本番SDKに正式統合。BUILD 2026ではAgent Harness、Hosted Agents、CodeActを追加",
+    "es": "3 de abril de 2026: la versión 1.0 GA fusiona oficialmente Semantic Kernel y AutoGen en un solo SDK de producción; BUILD 2026 añade Agent Harness, Hosted Agents y CodeAct",
+    "fr": "3 avril 2026 : la version 1.0 GA fusionne officiellement Semantic Kernel et AutoGen en un seul SDK de production ; BUILD 2026 ajoute Agent Harness, Hosted Agents et CodeAct"
+  },
+  "verdict": {
+    "badge": "Recommended",
+    "headline": {
+      "en": "The default agent framework for Microsoft-stack enterprises",
+      "zh": "微软技术栈企业的默认智能体框架",
+      "ja": "Microsoftスタック企業のデフォルトエージェントフレームワーク",
+      "es": "El framework de agentes por defecto para empresas del stack Microsoft",
+      "fr": "Le framework d'agents par défaut pour les entreprises sous stack Microsoft"
+    },
+    "body": {
+      "en": "Microsoft did the right thing: instead of maintaining two overlapping projects, it merged AutoGen's multi-agent research DNA with Semantic Kernel's enterprise rigor into one supported framework. For .NET shops and Azure-centric organizations, this is now the obvious path — open standards, official migration guides and a long support runway. Outside the Microsoft orbit, LangGraph's ecosystem is still deeper, but nobody building on Azure should look elsewhere first.",
+      "zh": "微软做了正确的事：与其维护两个功能重叠的项目，不如把 AutoGen 的多智能体研究基因与 Semantic Kernel 的企业级严谨合并为一个受支持的框架。对 .NET 团队与 Azure 系组织，这已是显而易见的选择——开放标准、官方迁移指南、长期支持保障。在微软体系之外，LangGraph 生态仍更深厚，但在 Azure 上构建的团队没有理由先看别家。",
+      "ja": "Microsoftは正しい判断をした。機能が重複する2つのプロジェクトを維持する代わりに、AutoGenのマルチエージェント研究のDNAとSemantic Kernelのエンタープライズ品質を、サポートされた単一フレームワークに統合したのだ。.NETチームやAzure中心の組織にとって、これは今や自明の選択——オープン標準、公式移行ガイド、長期サポート。Microsoft圏外ではLangGraphのエコシステムがまだ深いが、Azureで構築するなら最初に検討すべきはこれだ。",
+      "es": "Microsoft hizo lo correcto: en lugar de mantener dos proyectos solapados, fusionó el ADN de investigación multiagente de AutoGen con el rigor empresarial de Semantic Kernel en un framework con soporte. Para equipos .NET y organizaciones centradas en Azure, este es ahora el camino obvio: estándares abiertos, guías oficiales de migración y soporte a largo plazo. Fuera de la órbita Microsoft, el ecosistema de LangGraph sigue siendo más profundo, pero nadie que construya sobre Azure debería mirar primero a otro lado.",
+      "fr": "Microsoft a fait le bon choix : plutôt que de maintenir deux projets redondants, il a fusionné l'ADN de recherche multi-agents d'AutoGen avec la rigueur entreprise de Semantic Kernel en un seul framework supporté. Pour les équipes .NET et les organisations centrées sur Azure, c'est désormais la voie évidente — standards ouverts, guides officiels de migration et support à long terme. Hors de l'orbite Microsoft, l'écosystème LangGraph reste plus profond, mais quiconque construit sur Azure devrait commencer ici."
+    },
+    "bestFor": {
+      "en": [
+        "Enterprise .NET and Azure-centric engineering teams",
+        "Teams migrating off Semantic Kernel or AutoGen",
+        "Organizations standardizing on MCP and A2A interoperability"
+      ],
+      "zh": [
+        "企业级 .NET 与 Azure 系工程团队",
+        "正在从 Semantic Kernel 或 AutoGen 迁出的团队",
+        "以 MCP 与 A2A 互操作为标准的组织"
+      ],
+      "ja": [
+        "エンタープライズ.NETとAzure中心のエンジニアリングチーム",
+        "Semantic KernelやAutoGenからの移行チーム",
+        "MCPとA2A相互運用性を標準とする組織"
+      ],
+      "es": [
+        "Equipos de ingeniería empresariales .NET y centrados en Azure",
+        "Equipos migrando desde Semantic Kernel o AutoGen",
+        "Organizaciones estandarizando la interoperabilidad MCP y A2A"
+      ],
+      "fr": [
+        "Équipes d'ingénierie entreprise .NET et centrées sur Azure",
+        "Équipes migrant depuis Semantic Kernel ou AutoGen",
+        "Organisations standardisant l'interopérabilité MCP et A2A"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You want the deepest Python ecosystem (→ LangGraph)",
+        "You need type-safe Python with minimal abstraction (→ Pydantic AI)"
+      ],
+      "zh": [
+        "你想要最深厚的 Python 生态（→ LangGraph）",
+        "你需要低抽象的类型安全 Python 框架（→ Pydantic AI）"
+      ],
+      "ja": [
+        "最も深いPythonエコシステムが欲しい（→ LangGraph）",
+        "最小限の抽象化で型安全なPythonが必要（→ Pydantic AI）"
+      ],
+      "es": [
+        "Quieres el ecosistema Python más profundo (→ LangGraph)",
+        "Necesitas Python con tipado seguro y mínima abstracción (→ Pydantic AI)"
+      ],
+      "fr": [
+        "Vous voulez l'écosystème Python le plus profond (→ LangGraph)",
+        "Vous cherchez du Python typé avec une abstraction minimale (→ Pydantic AI)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-27",
+    "verdictDate": "2026-07-27",
+    "pricingVerified": "2026-07-27"
+  }
+}

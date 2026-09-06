@@ -1,0 +1,564 @@
+{
+  "features": {
+    "en": [
+      "Core animations with GSAP's powerful timeline-based sequencing",
+      "ScrollTrigger for scroll-driven animations",
+      "MorphSVG, MotionPath, DrawSVG, Text and other premium plugins",
+      "Extremely fast performance (runs at 60fps even on mobile)",
+      "Lightweight core (~10KB gzipped) with modular plugin architecture",
+      "Cross-browser compatible including IE11"
+    ],
+    "zh": [
+      "基于时间线的强大动画序列编排",
+      "ScrollTrigger 滚动驱动动画",
+      "MorphSVG、MotionPath、DrawSVG、Text 等高级插件",
+      "极致性能（移动端也能保持 60fps）",
+      "轻量核心（~10KB gzipped）+ 模块化插件架构",
+      "跨浏览器兼容，包括 IE11"
+    ],
+    "ja": [
+      "強力なタイムラインベースのアニメーションシーケンス",
+      "スクロール駆動アニメーションのScrollTrigger",
+      "MorphSVG、MotionPath、DrawSVG、Textなどのプレミアムプラグイン",
+      "極めて高速なパフォーマンス（モバイルでも60fps）",
+      "軽量コア（約10KB gzipped）+ モジュラープラグインアーキテクチャ",
+      "IE11を含むクロスブラウザ対応"
+    ],
+    "es": [
+      "Animaciones potentes con secuenciación basada en líneas de tiempo",
+      "ScrollTrigger para animaciones impulsadas por desplazamiento",
+      "Complementos premium MorphSVG, MotionPath, DrawSVG, Text y más",
+      "Rendimiento extremadamente rápido (60fps incluso en móvil)",
+      "Núcleo ligero (~10KB comprimido) con arquitectura de plugins modular",
+      "Compatible con navegadores cruzados, incluido IE11"
+    ],
+    "fr": [
+      "Animations puissantes avec séquencement basé sur une timeline",
+      "ScrollTrigger pour les animations pilotées par le défilement",
+      "Plugins premium MorphSVG, MotionPath, DrawSVG, Text et plus",
+      "Performances extrêmement rapides (60fps même sur mobile)",
+      "Noyau léger (~10 KB compressé) avec architecture de plugins modulaire",
+      "Compatible avec tous les navigateurs, y compris IE11"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Free for most use cases",
+      "zh": "大部分场景免费",
+      "ja": "ほとんどの用途で無料",
+      "es": "Gratuito para la mayoría de los casos",
+      "fr": "Gratuit pour la plupart des cas d'utilisation"
+    },
+    "paid": {
+      "en": "Commercial license required for business use (based on user count)",
+      "zh": "商业使用需购买授权（按用户量计费）",
+      "ja": "業務利用には商用ライセンスが必要（ユーザー数に基づく）",
+      "es": "Se requiere licencia comercial para uso empresarial (según número de usuarios)",
+      "fr": "Licence commerciale requise pour un usage professionnel (basé sur le nombre d'utilisateurs)"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Website animations and interactive UI elements",
+      "Scroll-triggered animations and parallax effects",
+      "SVG animation and motion graphics",
+      "Game UI and interactive storytelling"
+    ],
+    "zh": [
+      "网站动画和交互式 UI 元素",
+      "滚动触发动画和视差效果",
+      "SVG 动画和运动图形",
+      "游戏 UI 和交互式叙事"
+    ],
+    "ja": [
+      "WebサイトアニメーションとインタラクティブUI要素",
+      "スクロールトリガーアニメーションとパララックス効果",
+      "SVGアニメーションとモーショングラフィックス",
+      "ゲームUIとインタラクティブストーリーテリング"
+    ],
+    "es": [
+      "Animaciones de sitios web y elementos UI interactivos",
+      "Animaciones activadas por desplazamiento y efectos de paralaje",
+      "Animación SVG y gráficos en movimiento",
+      "UI de juegos y narración interactiva"
+    ],
+    "fr": [
+      "Animations de sites web et éléments d'interface interactifs",
+      "Animations déclenchées par le défilement et effets de parallaxe",
+      "Animation SVG et graphiques animés",
+      "UI de jeux et narration interactive"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Industry standard for web animation with proven reliability",
+      "Exceptional performance even on low-end devices",
+      "Rich plugin ecosystem for advanced animation needs",
+      "Excellent documentation and active community"
+    ],
+    "zh": [
+      "Web 动画行业标准，可靠性经过验证",
+      "即使在低端设备上也有卓越性能",
+      "丰富的插件生态满足高级动画需求",
+      "优秀的文档和活跃的社区"
+    ],
+    "ja": [
+      "実績のあるWebアニメーションの業界標準",
+      "低スペックデバイスでも優れたパフォーマンス",
+      "高度なアニメーションニーズに対応する豊富なプラグインエコシステム",
+      "優れたドキュメントと活発なコミュニティ"
+    ],
+    "es": [
+      "Estándar de la industria para animación web con fiabilidad probada",
+      "Rendimiento excepcional incluso en dispositivos de gama baja",
+      "Ecosistema de plugins rico para necesidades avanzadas de animación",
+      "Documentación excelente y comunidad activa"
+    ],
+    "fr": [
+      "Standard de l'industrie pour l'animation web avec une fiabilité éprouvée",
+      "Performances exceptionnelles même sur les appareils bas de gamme",
+      "Écosystème de plugins riche pour des besoins d'animation avancés",
+      "Documentation excellente et communauté active"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Premium plugins require a paid Club GreenSock membership",
+      "Commercial licensing can be confusing for small teams",
+      "No official TypeScript types (community-maintained)"
+    ],
+    "zh": [
+      "高级插件需要付费 Club GreenSock 会员",
+      "商业授权对小型团队可能不够清晰",
+      "没有官方 TypeScript 类型声明（社区维护）"
+    ],
+    "ja": [
+      "プレミアムプラグインには有料のClub GreenSockメンバーシップが必要",
+      "商用ライセンスは小規模チームにはわかりにくい場合がある",
+      "公式のTypeScript型定義なし（コミュニティ保守）"
+    ],
+    "es": [
+      "Los plugins premium requieren una membresía paga de Club GreenSock",
+      "La licencia comercial puede ser confusa para equipos pequeños",
+      "Sin tipos oficiales de TypeScript (mantenidos por la comunidad)"
+    ],
+    "fr": [
+      "Les plugins premium nécessitent un abonnement payant Club GreenSock",
+      "La licence commerciale peut être déroutante pour les petites équipes",
+      "Pas de types TypeScript officiels (maintenus par la communauté)"
+    ]
+  },
+  "latestUpdate": {
+    "en": "2026-07: GSAP continues as the leading web animation library with active development",
+    "zh": "2026年7月：GSAP 继续保持领先的 Web 动画库地位，开发活跃",
+    "ja": "2026年7月：GSAPは引き続き主要なWebアニメーションライブラリとして活発に開発中",
+    "es": "Julio 2026: GSAP continúa como la biblioteca de animación web líder con desarrollo activo",
+    "fr": "Juillet 2026: GSAP continue d'être la bibliothèque d'animation web leader avec un développement actif"
+  },
+  "tutorial": {
+    "en": {
+      "title": "Get Started in 5 Steps",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Install via npm",
+          "content": "Add GSAP to your project using npm or yarn.",
+          "commands": [
+            {
+              "label": "npm",
+              "code": "npm install gsap"
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "title": "Import GSAP",
+          "content": "Import GSAP into your JavaScript file.",
+          "commands": [
+            {
+              "label": "JavaScript",
+              "code": "import { gsap } from \"gsap\";"
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "title": "Create a basic animation",
+          "content": "Animate any element with a simple tween.",
+          "commands": [
+            {
+              "label": "JavaScript",
+              "code": "gsap.to(\".box\", { x: 200, duration: 1, rotation: 360 });"
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "title": "Add ScrollTrigger",
+          "content": "Trigger animations based on scroll position.",
+          "commands": [
+            {
+              "label": "JavaScript",
+              "code": "gsap.to(\".section\", { scrollTrigger: \".section\", y: -100, opacity: 1 });"
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "title": "Build a timeline",
+          "content": "Sequence multiple animations with a timeline.",
+          "commands": [
+            {
+              "label": "JavaScript",
+              "code": "const tl = gsap.timeline(); tl.to(\".a\", { x: 100 }).to(\".b\", { y: 50 });"
+            }
+          ]
+        }
+      ]
+    },
+    "zh": {
+      "title": "5 步快速上手",
+      "steps": [
+        {
+          "step": 1,
+          "title": "通过 npm 安装",
+          "content": "使用 npm 或 yarn 将 GSAP 添加到项目。",
+          "commands": [
+            {
+              "label": "npm",
+              "code": "npm install gsap"
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "title": "导入 GSAP",
+          "content": "在 JavaScript 文件中导入 GSAP。",
+          "commands": [
+            {
+              "label": "JavaScript",
+              "code": "import { gsap } from \"gsap\";"
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "title": "创建基础动画",
+          "content": "用简单的 tween 动画任何元素。",
+          "commands": [
+            {
+              "label": "JavaScript",
+              "code": "gsap.to(\".box\", { x: 200, duration: 1, rotation: 360 });"
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "title": "添加 ScrollTrigger",
+          "content": "基于滚动位置触发动画。",
+          "commands": [
+            {
+              "label": "JavaScript",
+              "code": "gsap.to(\".section\", { scrollTrigger: \".section\", y: -100, opacity: 1 });"
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "title": "构建时间线",
+          "content": "用时间线编排多个动画。",
+          "commands": [
+            {
+              "label": "JavaScript",
+              "code": "const tl = gsap.timeline(); tl.to(\".a\", { x: 100 }).to(\".b\", { y: 50 });"
+            }
+          ]
+        }
+      ]
+    },
+    "ja": {
+      "title": "5ステップで始める",
+      "steps": [
+        {
+          "step": 1,
+          "title": "npmでインストール",
+          "content": "npmまたはyarnでGSAPをプロジェクトに追加。",
+          "commands": [
+            {
+              "label": "npm",
+              "code": "npm install gsap"
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "title": "GSAPをインポート",
+          "content": "JavaScriptファイルにGSAPをインポート。",
+          "commands": [
+            {
+              "label": "JavaScript",
+              "code": "import { gsap } from \"gsap\";"
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "title": "基本アニメーションを作成",
+          "content": "シンプルなトゥイーンで要素をアニメーション。",
+          "commands": [
+            {
+              "label": "JavaScript",
+              "code": "gsap.to(\".box\", { x: 200, duration: 1, rotation: 360 });"
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "title": "ScrollTriggerを追加",
+          "content": "スクロール位置に基づいてアニメーションをトリガー。",
+          "commands": [
+            {
+              "label": "JavaScript",
+              "code": "gsap.to(\".section\", { scrollTrigger: \".section\", y: -100, opacity: 1 });"
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "title": "タイムラインを構築",
+          "content": "タイムラインで複数のアニメーションを連続実行。",
+          "commands": [
+            {
+              "label": "JavaScript",
+              "code": "const tl = gsap.timeline(); tl.to(\".a\", { x: 100 }).to(\".b\", { y: 50 });"
+            }
+          ]
+        }
+      ]
+    },
+    "es": {
+      "title": "Comienza en 5 Pasos",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Instalar vía npm",
+          "content": "Agrega GSAP a tu proyecto usando npm o yarn.",
+          "commands": [
+            {
+              "label": "npm",
+              "code": "npm install gsap"
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "title": "Importar GSAP",
+          "content": "Importa GSAP en tu archivo JavaScript.",
+          "commands": [
+            {
+              "label": "JavaScript",
+              "code": "import { gsap } from \"gsap\";"
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "title": "Crear una animación básica",
+          "content": "Anima cualquier elemento con un tween simple.",
+          "commands": [
+            {
+              "label": "JavaScript",
+              "code": "gsap.to(\".box\", { x: 200, duration: 1, rotation: 360 });"
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "title": "Agregar ScrollTrigger",
+          "content": "Activa animaciones según la posición de desplazamiento.",
+          "commands": [
+            {
+              "label": "JavaScript",
+              "code": "gsap.to(\".section\", { scrollTrigger: \".section\", y: -100, opacity: 1 });"
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "title": "Construir una línea de tiempo",
+          "content": "Secuencia múltiples animaciones con una línea de tiempo.",
+          "commands": [
+            {
+              "label": "JavaScript",
+              "code": "const tl = gsap.timeline(); tl.to(\".a\", { x: 100 }).to(\".b\", { y: 50 });"
+            }
+          ]
+        }
+      ]
+    },
+    "fr": {
+      "title": "Démarrez en 5 Étapes",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Installer via npm",
+          "content": "Ajoutez GSAP à votre projet avec npm ou yarn.",
+          "commands": [
+            {
+              "label": "npm",
+              "code": "npm install gsap"
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "title": "Importer GSAP",
+          "content": "Importez GSAP dans votre fichier JavaScript.",
+          "commands": [
+            {
+              "label": "JavaScript",
+              "code": "import { gsap } from \"gsap\";"
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "title": "Créer une animation de base",
+          "content": "Animez n'importe quel élément avec un tween simple.",
+          "commands": [
+            {
+              "label": "JavaScript",
+              "code": "gsap.to(\".box\", { x: 200, duration: 1, rotation: 360 });"
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "title": "Ajouter ScrollTrigger",
+          "content": "Déclenchez des animations selon la position de défilement.",
+          "commands": [
+            {
+              "label": "JavaScript",
+              "code": "gsap.to(\".section\", { scrollTrigger: \".section\", y: -100, opacity: 1 });"
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "title": "Construire une timeline",
+          "content": "Séquencez plusieurs animations avec une timeline.",
+          "commands": [
+            {
+              "label": "JavaScript",
+              "code": "const tl = gsap.timeline(); tl.to(\".a\", { x: 100 }).to(\".b\", { y: 50 });"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "summary": {
+    "en": "GSAP is the de facto standard for high-performance web animations used by millions of sites. Its lightweight core and powerful plugin system make it suitable for everything from simple UI transitions to complex scroll-driven narratives.",
+    "zh": "GSAP 是高性能 Web 动画的事实标准，被数百万网站使用。轻量核心和强大的插件系统使其适用于从简单 UI 过渡到复杂滚动叙事的一切场景。",
+    "ja": "GSAPは、何百万ものサイトで使用されているハイパフォーマンスなWebアニメーションのデファクトスタンダードです。軽量なコアと強力なプラグインシステムにより、シンプルなUIトランジションから複雑なスクロール駆動のナラティブまで、あらゆるシーンに対応します。",
+    "es": "GSAP es el estándar de facto para animaciones web de alto rendimiento utilizado por millones de sitios. Su núcleo ligero y su potente sistema de plugins lo hacen adecuado para todo, desde transiciones UI simples hasta narrativas complejas impulsadas por desplazamiento.",
+    "fr": "GSAP est la norme de facto pour les animations web hautes performances utilisées par des millions de sites. Son noyau léger et son système de plugins puissant le rendent adapté à tout, des simples transitions d'interface aux récits complexes pilotés par le défilement."
+  },
+  "alternatives": [
+    "framer-motion",
+    "anime-js",
+    "lottie"
+  ],
+  "meta": {
+    "lastVerified": "2026-08-02",
+    "verdictDate": "2026-08-24",
+    "pricingVerified": "2026-08-02",
+    "pricingUrl": "https://gsap.com/pricing/"
+  },
+  "verdict": {
+    "badge": "Highly Recommended",
+    "headline": {
+      "en": "The animation workhorse behind 11M+ websites — unmatched in performance, compatibility, and ecosystem.",
+      "zh": "1100 万+ 网站都在用的动画基石——性能、兼容性、生态无人能及。",
+      "ja": "1100万サイト以上のアニメーションを支える中核エンジン——パフォーマンス、互換性、エコシステムで敵なし。",
+      "es": "El motor de animación detrás de más de 11M de sitios web — sin igual en rendimiento, compatibilidad y ecosistema.",
+      "fr": "Le moteur d'animation derrière plus de 11M de sites web — inégalé en performance, compatibilité et écosystème."
+    },
+    "body": {
+      "en": "GSAP (GreenSock Animation Platform) has ruled JavaScript animation for over 15 years and remains the most trusted frontend animation library in the world. Its core strength is performance — it consistently holds 60fps even on low-end mobile devices, while maintaining compatibility with legacy browsers like IE11. ScrollTrigger makes scroll-driven animations intuitive and is the industry standard for parallax, reveal, and timeline effects. Premium plugins like MorphSVG, MotionPath, and DrawSVG cover the full spectrum of SVG animation. The one soft spot is its commercial licensing threshold: projects crossing certain user-count thresholds must purchase a commercial license, which can be a cost consideration for solo indie developers. But for enterprise-grade projects and cross-browser scenarios, GSAP has no real alternative.",
+      "zh": "GSAP（GreenSock Animation Platform）已经统治 JavaScript 动画领域超过 15 年，是全球最被信任的前端动画库。它的核心优势在于极致性能——即使在低端移动设备上也能稳定保持 60fps，且兼容 IE11 这样的古老浏览器。ScrollTrigger 让滚动驱动动画变得简单直观，是 Parallax、reveal、timeline 效果的行业标准。MorphSVG、MotionPath、DrawSVG 等高级插件覆盖了 SVG 动画的全部场景。唯一的软肋是商业授权收费门槛：当网站用户量达到一定规模时需购买商业许可，对创业型独立开发者有一定成本。但对企业级项目和需要跨浏览器兼容的场景来说，GSAP 几乎没有替代品。",
+      "ja": "GSAP（GreenSock Animation Platform）は15年以上JavaScriptアニメーションを牽引し、世界中で最も信頼されるフロントエンドアニメーションライブラリです。中核はパフォーマンス——低スペックモバイルでも安定60fps、IE11のようなレガシーブラウザにも対応。ScrollTriggerはスクロール駆動アニメーションを直感的にし、パララックス・リビル・タイムライン効果の業界標準。MorphSVG、MotionPath、DrawSVGなどのプレミアムプラグインでSVGアニメーションを完全にカバー。唯一の弱点は商用ライセンスの課金基準で、ユーザー数を超えたプロジェクトは商用ライセンス購入が必要。ソロ開発者にはコスト面の考慮点ですが、エンタープライズ級プロジェクトとクロスブラウザ対応が必要な場合、GSAPに真の代替はありません。",
+      "es": "GSAP (GreenSock Animation Platform) ha dominado la animación en JavaScript durante más de 15 años y sigue siendo la biblioteca de animación frontend más confiable del mundo. Su fortaleza principal es el rendimiento: mantiene consistentemente 60fps incluso en dispositivos móviles de gama baja, mientras mantiene compatibilidad con navegadores antiguos como IE11. ScrollTrigger hace que las animaciones activadas por desplazamiento sean intuitivas y es el estándar de la industria para efectos parallax, revelado y de línea temporal. Plugins premium como MorphSVG, MotionPath y DrawSVG cubren todo el espectro de animación SVG. El único punto débil es su umbral de licencia comercial: proyectos que superan ciertos umbrales de usuarios deben comprar una licencia comercial, lo cual puede ser una consideración de costo para desarrolladores independientes. Pero para proyectos de nivel empresarial y escenarios de navegador cruzado, GSAP no tiene alternativa real.",
+      "fr": "GSAP (GreenSock Animation Platform) domine l'animation JavaScript depuis plus de 15 ans et reste la bibliothèque d'animation frontend la plus fiable au monde. Sa force principale réside dans ses performances : elle maintient constamment 60fps même sur des appareils mobiles d'entrée de gamme, tout en conservant la compatibilité avec des navigateurs legacy comme IE11. ScrollTrigger rend les animations pilotées par le défilement intuitives et est la norme industrielle pour les effets parallax, reveal et timeline. Les plugins premium comme MorphSVG, MotionPath et DrawSVG couvrent tout le spectre de l'animation SVG. Le seul point faible est son seuil de licence commerciale : les projets dépassant certains seuils d'utilisateurs doivent acheter une licence commerciale, ce qui peut être une considération de coût pour les développeurs indépendants. Mais pour les projets de niveau entreprise et les scénarios multi-navigateurs, GSAP n'a pas d'alternative réelle."
+    },
+    "bestFor": {
+      "en": [
+        "Production-grade website animations requiring stable 60fps",
+        "Scroll-driven animations with ScrollTrigger and parallax effects",
+        "SVG motion graphics (MorphSVG, MotionPath)",
+        "Enterprise projects requiring IE11 or legacy browser support",
+        "Complex multi-step timeline animation orchestration"
+      ],
+      "zh": [
+        "需要 60fps 稳定性能的生产级网站动画",
+        "ScrollTrigger 滚动驱动动画与视差效果",
+        "SVG 运动图形（MorphSVG、MotionPath）",
+        "需要兼容 IE11 或老旧浏览器的企业项目",
+        "复杂多步时间线动画编排"
+      ],
+      "ja": [
+        "60fps 安定パフォーマンスが必要な本番級サイトアニメーション",
+        "ScrollTrigger によるスクロール駆動アニメーションとパララックス",
+        "SVGモーショングラフィックス（MorphSVG、MotionPath）",
+        "IE11 やレガシーブラウザ対応が必要なエンタープライズ案件",
+        "複雑な複数ステップのタイムライン編成"
+      ],
+      "es": [
+        "Animaciones de sitio web de nivel producción que requieren 60fps estables",
+        "Animaciones activadas por desplazamiento con ScrollTrigger y efectos parallax",
+        "Motion graphics SVG (MorphSVG, MotionPath)",
+        "Proyectos empresariales que requieren IE11 o soporte de navegadores antiguos",
+        "Orquestación de líneas temporales complejas con múltiples pasos"
+      ],
+      "fr": [
+        "Animations de site web de niveau production nécessitant 60fps stables",
+        "Animations pilotées par le défilement avec ScrollTrigger et effets parallax",
+        "Motion graphics SVG (MorphSVG, MotionPath)",
+        "Projets d'entreprise nécessitant IE11 ou la prise en charge de navigateurs legacy",
+        "Orchestration de timelines complexes multi-étapes"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You only need simple page transitions or entrance animations (→ CSS Transitions, Framer Motion)",
+        "You prefer declarative animations in the React ecosystem (→ Framer Motion, React Spring)",
+        "You're on a tight budget with low website traffic (→ anime.js, Motion One)",
+        "You need only 3D animation (→ Three.js, Spline)"
+      ],
+      "zh": [
+        "你只需要简单的页面过渡或入场动画（→ CSS Transitions、Framer Motion）",
+        "你在 React 生态里更倾向声明式动画（→ Framer Motion、React Spring）",
+        "你的预算很紧且网站流量较小（→ anime.js、Motion One）",
+        "你只需要 3D 动画（→ Three.js、Spline）"
+      ],
+      "ja": [
+        "簡単なページ遷移や入りアニメーションだけが必要（→ CSS Transitions、Framer Motion）",
+        "React エコシステムで宣言型アニメーションを好む（→ Framer Motion、React Spring）",
+        "予算が厳しくサイトトラフィックが少ない（→ anime.js、Motion One）",
+        "3D アニメーションのみが必要（→ Three.js、Spline）"
+      ],
+      "es": [
+        "Solo necesitas transiciones de página simples o animaciones de entrada (→ CSS Transitions, Framer Motion)",
+        "Prefieres animaciones declarativas en el ecosistema React (→ Framer Motion, React Spring)",
+        "Tienes un presupuesto ajustado con poco tráfico web (→ anime.js, Motion One)",
+        "Solo necesitas animación 3D (→ Three.js, Spline)"
+      ],
+      "fr": [
+        "Vous avez seulement besoin de transitions de page simples ou d'animations d'entrée (→ CSS Transitions, Framer Motion)",
+        "Vous préférez les animations déclaratives dans l'écosystème React (→ Framer Motion, React Spring)",
+        "Vous avez un budget serré avec peu de trafic web (→ anime.js, Motion One)",
+        "Vous avez seulement besoin d'animation 3D (→ Three.js, Spline)"
+      ]
+    }
+  }
+}

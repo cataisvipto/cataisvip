@@ -1,0 +1,29 @@
+{
+  "slug": "pydantic-ai",
+  "name": "Pydantic AI",
+  "nameZh": "Pydantic AI",
+  "description": "Pydantic 团队的类型安全 Python 智能体框架：结构化输出校验、模型无关、深度集成 Logfire 可观测性",
+  "descriptionEn": "Type-safe Python agent framework by the Pydantic team: validated structured output, model-agnostic, deeply integrated with Logfire observability",
+  "descriptionJa": "Pydanticチームによる型安全なPythonエージェントフレームワーク。構造化出力の検証、モデル非依存、Logfire可観測性との深い統合",
+  "descriptionEs": "Framework de agentes Python con tipado seguro del equipo Pydantic: salida estructurada validada, agnóstico de modelos, integrado con la observabilidad de Logfire",
+  "descriptionFr": "Framework d'agents Python à typage sûr de l'équipe Pydantic : sorties structurées validées, indépendant du modèle, intégré à l'observabilité Logfire",
+  "url": "https://ai.pydantic.dev",
+  "logo": "/logos/tools/pydantic-ai.png",
+  "category": "Agent",
+  "tags": [
+    "Free",
+    "Open Source"
+  ],
+  "featured": false,
+  "developer": "Pydantic",
+  "platforms": {
+    "web": false,
+    "windows": true,
+    "macos": true,
+    "ios": false,
+    "android": false,
+    "linux": true,
+    "browser_extension": false,
+    "api": false
+  }
+}

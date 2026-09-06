@@ -1,0 +1,29 @@
+{
+  "slug": "mastra",
+  "name": "Mastra",
+  "nameZh": "Mastra",
+  "description": "开源 TypeScript 智能体框架：智能体、工作流、记忆、RAG 与评测一站式，内置交互式 Playground 与 Mastra Cloud 部署",
+  "descriptionEn": "Open-source TypeScript agent framework: agents, workflows, memory, RAG and evals in one stack, with an interactive playground and Mastra Cloud deployment",
+  "descriptionJa": "オープンソースのTypeScriptエージェントフレームワーク。エージェント、ワークフロー、メモリ、RAG、評価をワンストップで提供し、対話型PlaygroundとMastra Cloudデプロイを内蔵",
+  "descriptionEs": "Framework de agentes TypeScript de código abierto: agentes, flujos, memoria, RAG y evaluaciones en un solo stack, con playground interactivo y despliegue en Mastra Cloud",
+  "descriptionFr": "Framework d'agents TypeScript open source : agents, workflows, mémoire, RAG et évaluations en un seul stack, avec playground interactif et déploiement Mastra Cloud",
+  "url": "https://mastra.ai",
+  "logo": "/logos/tools/mastra.png",
+  "category": "Agent",
+  "tags": [
+    "Freemium",
+    "Open Source"
+  ],
+  "featured": false,
+  "developer": "Mastra",
+  "platforms": {
+    "web": true,
+    "windows": true,
+    "macos": true,
+    "ios": false,
+    "android": false,
+    "linux": true,
+    "browser_extension": false,
+    "api": true
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "dify",
+  "name": "Dify",
+  "nameZh": "Dify",
+  "description": "开源 LLM 应用开发平台，提供 AI 工作流、RAG 管道、Agent 能力和模型管理",
+  "descriptionEn": "Open-source LLM app development platform with AI workflows, RAG pipelines, agent capabilities and model management",
+  "descriptionJa": "オープンソースのLLMアプリ開発プラットフォーム。AIワークフロー、RAGパイプライン、エージェント機能、モデル管理を提供",
+  "descriptionEs": "Plataforma de desarrollo de aplicaciones LLM de código abierto con flujos de trabajo de IA, pipelines RAG, capacidades de agente y gestión de modelos",
+  "descriptionFr": "Plateforme de développement d'applications LLM open-source avec workflows IA, pipelines RAG, capacités d'agent et gestion de modèles",
+  "url": "https://dify.ai",
+  "logo": "/logos/tools/dify.png",
+  "category": "Agent",
+  "tags": [
+    "Free",
+    "Open Source",
+    "API"
+  ],
+  "featured": true,
+  "developer": "Dify",
+  "platforms": {
+    "web": true,
+    "windows": false,
+    "macos": false,
+    "ios": false,
+    "android": false,
+    "linux": false,
+    "browser_extension": false,
+    "api": true
+  }
+}

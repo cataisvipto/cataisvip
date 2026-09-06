@@ -1,0 +1,235 @@
+{
+  "features": {
+    "en": [
+      "Generate editable wireframes and hi-fi prototypes from one prompt",
+      "Mix screenshots, text and canvas selections as prompt inputs",
+      "Two-way Figma sync to move designs in and out",
+      "Export designs to production-ready code",
+      "An MCP server so AI agents and IDEs can drive Visily",
+      "Templates and design systems for consistent, on-brand screens"
+    ],
+    "zh": [
+      "一条提示即生成可编辑线框与高保真原型",
+      "混合截图、文字与画布选区作为提示输入",
+      "Figma 双向同步，设计可自由进出",
+      "把设计导出为可上生产的代码",
+      "提供 MCP 服务，让 AI 智能体与 IDE 驱动 Visily",
+      "模板与设计系统，保证画面一致且符合品牌"
+    ],
+    "ja": [
+      "1つのプロンプトから編集可能なワイヤーフレームと高精細プロトタイプを生成",
+      "スクリーンショット・テキスト・キャンバス選択をプロンプト入力に混在",
+      "Figma双方向同期でデザインを出し入れ",
+      "デザインを本番対応のコードに書き出し",
+      "AIエージェントやIDEがVisilyを操作できるMCPサーバー",
+      "一貫してブランドに沿った画面のためのテンプレートとデザインシステム"
+    ],
+    "es": [
+      "Genera wireframes editables y prototipos de alta fidelidad desde un prompt",
+      "Combina capturas, texto y selecciones del lienzo como entradas del prompt",
+      "Sincronización bidireccional con Figma para mover diseños de ida y vuelta",
+      "Exporta diseños a código listo para producción",
+      "Un servidor MCP para que agentes de IA e IDEs manejen Visily",
+      "Plantillas y sistemas de diseño para pantallas consistentes y de marca"
+    ],
+    "fr": [
+      "Génère wireframes éditables et prototypes haute fidélité depuis un prompt",
+      "Mélange captures, texte et sélections du canevas comme entrées de prompt",
+      "Synchronisation Figma bidirectionnelle pour faire entrer et sortir les designs",
+      "Exporte les designs en code prêt pour la production",
+      "Un serveur MCP pour que les agents IA et IDE pilotent Visily",
+      "Modèles et design systems pour des écrans cohérents et fidèles à la marque"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "A free Starter plan gives about 300 AI credits a month with core design and prototyping features.",
+      "zh": "免费 Starter 档每月约 300 个 AI 额度，含核心设计与原型功能。",
+      "ja": "無料のStarterプランは月約300のAIクレジットが付き、コアなデザインとプロトタイピング機能を利用できる。",
+      "es": "Un plan Starter gratuito da unos 300 créditos de IA al mes con funciones esenciales de diseño y prototipado.",
+      "fr": "Un plan Starter gratuit offre environ 300 crédits IA par mois avec les fonctions essentielles de design et prototypage."
+    },
+    "paid": {
+      "en": "Pro is about $11 per editor/month (billed annually) with more AI credits and advanced features, and Business is about $29 per editor/month adding team and admin controls; Enterprise is custom. (Verified against the official pricing page, 2026-07-28.)",
+      "zh": "Pro 约 $11/人·月（年付计价），含更多 AI 额度与高级功能；Business 约 $29/人·月，增加团队与管理控制；Enterprise 为定制。（对照官方定价页核实，2026-07-28。）",
+      "ja": "Proは編集者ごと月約$11（年払い計算）でAIクレジット増と高度機能、Businessは編集者ごと月約$29でチーム・管理者制御を追加。Enterpriseは個別。（公式価格ページと照合、2026-07-28。）",
+      "es": "Pro cuesta unos $11 por editor/mes (facturación anual) con más créditos de IA y funciones avanzadas, y Business unos $29 por editor/mes añadiendo controles de equipo y admin; Enterprise a medida. (Verificado con la página oficial de precios, 2026-07-28.)",
+      "fr": "Pro coûte environ 11 $ par éditeur/mois (facturation annuelle) avec plus de crédits IA et des fonctions avancées, et Business environ 29 $ par éditeur/mois ajoutant contrôles d'équipe et d'admin ; Enterprise sur mesure. (Vérifié avec la page tarifaire officielle, 2026-07-28.)"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Turning a rough idea or screenshot into an editable prototype fast",
+      "Product and non-design teams designing app screens without Figma skills",
+      "Bridging design and code with two-way Figma and code export",
+      "Letting AI agents draft or edit UI through the MCP server"
+    ],
+    "zh": [
+      "把粗略想法或截图快速变成可编辑原型",
+      "产品与非设计团队无需 Figma 技能也能设计应用画面",
+      "用 Figma 双向与代码导出打通设计与代码",
+      "通过 MCP 服务让 AI 智能体起草或修改 UI"
+    ],
+    "ja": [
+      "ラフなアイデアや画像を素早く編集可能なプロトタイプに",
+      "Figmaスキルなしで製品・非デザインチームがアプリ画面を設計",
+      "Figma双方向とコード書き出しでデザインとコードを橋渡し",
+      "MCPサーバー経由でAIエージェントにUIを起草・編集させる"
+    ],
+    "es": [
+      "Convertir una idea o captura en un prototipo editable rápido",
+      "Equipos de producto y no diseño que diseñan pantallas sin saber Figma",
+      "Puentear diseño y código con Figma bidireccional y exportación de código",
+      "Dejar que agentes de IA redacten o editen UI mediante el servidor MCP"
+    ],
+    "fr": [
+      "Transformer vite une idée ou capture en prototype éditable",
+      "Équipes produit et non-design concevant des écrans sans savoir Figma",
+      "Relier design et code avec Figma bidirectionnel et export de code",
+      "Laisser des agents IA rédiger ou éditer l'UI via le serveur MCP"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Flexible prompting mixes screenshots, text and canvas selections",
+      "Two-way Figma sync fits into existing design workflows",
+      "Code export and an MCP server push it beyond static mockups",
+      "Low barrier for non-designers with a generous-ish free tier"
+    ],
+    "zh": [
+      "灵活的提示方式，可混合截图、文字与画布选区",
+      "Figma 双向同步，融入既有设计工作流",
+      "代码导出与 MCP 服务让它超越静态稿",
+      "对非设计师门槛低，免费档相对慷慨"
+    ],
+    "ja": [
+      "スクリーンショット・テキスト・選択を混ぜる柔軟なプロンプト",
+      "Figma双方向同期が既存の設計ワークフローに馴染む",
+      "コード書き出しとMCPサーバーで静的モックを超える",
+      "非デザイナーに敷居が低く、無料枠もそこそこ寛容"
+    ],
+    "es": [
+      "Prompting flexible que mezcla capturas, texto y selecciones del lienzo",
+      "Sincronización Figma bidireccional que encaja en flujos existentes",
+      "Exportación de código y servidor MCP lo llevan más allá de maquetas estáticas",
+      "Baja barrera para no diseñadores con un nivel gratis bastante generoso"
+    ],
+    "fr": [
+      "Prompting flexible mêlant captures, texte et sélections du canevas",
+      "Synchronisation Figma bidirectionnelle qui s'intègre aux flux existants",
+      "L'export de code et un serveur MCP le portent au-delà des maquettes statiques",
+      "Barrière basse pour non-designers avec un niveau gratuit plutôt généreux"
+    ]
+  },
+  "cons": {
+    "en": [
+      "AI credits are consumed quickly on heavier generation",
+      "Per-editor pricing adds up for larger teams",
+      "Not as deep as Figma for complex, mature design systems",
+      "Generated code is a starting point, not final production output"
+    ],
+    "zh": [
+      "重度生成时 AI 额度消耗很快",
+      "按编辑者计价，团队一大成本就上去了",
+      "面对复杂、成熟的设计系统，深度不及 Figma",
+      "生成的代码只是起点，并非最终生产产物"
+    ],
+    "ja": [
+      "生成が重いとAIクレジットの消費が速い",
+      "編集者ごとの課金は大規模チームで費用がかさむ",
+      "複雑で成熟したデザインシステムではFigmaほど深くない",
+      "生成コードは出発点で、最終的な本番出力ではない"
+    ],
+    "es": [
+      "Los créditos de IA se consumen rápido con generación intensa",
+      "El precio por editor se acumula en equipos grandes",
+      "No tan profundo como Figma para sistemas de diseño complejos y maduros",
+      "El código generado es un punto de partida, no la salida final de producción"
+    ],
+    "fr": [
+      "Les crédits IA se consomment vite en génération intensive",
+      "Le prix par éditeur s'accumule pour les grandes équipes",
+      "Moins profond que Figma pour des design systems complexes et matures",
+      "Le code généré est un point de départ, pas la sortie finale de production"
+    ]
+  },
+  "latestUpdate": {
+    "en": "2026: Visily's v4.0 line leaned into flexible prompting (screenshots, text and canvas selections), tightened two-way Figma sync, added code export and shipped an MCP server so AI agents and IDEs can generate and edit designs directly.",
+    "zh": "2026 年：Visily 的 v4.0 线路主打灵活提示（截图、文字与画布选区），强化 Figma 双向同步，新增代码导出，并推出 MCP 服务，让 AI 智能体与 IDE 可直接生成与编辑设计。",
+    "ja": "2026年：Visilyのv4.0系は柔軟なプロンプト（スクリーンショット・テキスト・キャンバス選択）に注力し、Figma双方向同期を強化、コード書き出しを追加、AIエージェントやIDEが直接デザインを生成・編集できるMCPサーバーを投入した。",
+    "es": "2026: La línea v4.0 de Visily apostó por el prompting flexible (capturas, texto y selecciones del lienzo), estrechó la sincronización bidireccional con Figma, añadió exportación de código y lanzó un servidor MCP para que agentes de IA e IDEs generen y editen diseños directamente.",
+    "fr": "2026 : La lignée v4.0 de Visily a misé sur le prompting flexible (captures, texte et sélections du canevas), resserré la synchronisation Figma bidirectionnelle, ajouté l'export de code et lancé un serveur MCP pour que les agents IA et IDE génèrent et éditent les designs directement."
+  },
+  "verdict": {
+    "badge": "Worth Trying",
+    "headline": {
+      "en": "AI UI design that plays nicely with Figma and code",
+      "zh": "与 Figma 和代码都合得来的 AI UI 设计",
+      "ja": "Figmaともコードとも仲良くやるAI UIデザイン",
+      "es": "Diseño UI con IA que se lleva bien con Figma y el código",
+      "fr": "Du design UI par IA qui s'entend bien avec Figma et le code"
+    },
+    "body": {
+      "en": "Visily aims at the same 'anyone can design' audience as Uizard, but leans harder into flexibility and interoperability. Its most useful trick is mixed prompting: you can feed it a screenshot, some text and a hand-drawn selection on the canvas all at once, and it generates editable wireframes or hi-fi prototypes from that blend rather than a single text box. Where it really earns attention, though, is the exits it gives you — two-way Figma sync so designs move between Visily and a pro tool without lock-in, code export for handing developers a head start, and an MCP server that lets AI agents and IDEs generate and edit designs programmatically. That combination makes it a comfortable bridge between non-designers, designers and engineers. The limits are familiar: AI credits vanish quickly under heavy use, per-editor pricing climbs for bigger teams, and it still isn't a substitute for Figma's depth on complex design systems, while its exported code is a starting point rather than finished production. But as a fast, flexible, well-connected way to get from idea to a prototype others can build on, Visily is well worth trying.",
+      "zh": "Visily 瞄准的是与 Uizard 相同的「人人都能设计」人群，但更用力地押注灵活性与互操作。它最有用的招数是混合提示：你可以同时喂给它一张截图、一段文字，以及画布上手绘的一块选区，它会从这种混合、而非单个文本框里生成可编辑线框或高保真原型。不过真正让它值得关注的，是它给你的「出口」——Figma 双向同步，让设计在 Visily 与专业工具间往返而不被锁定；代码导出，让开发者赢在起跑线；以及 MCP 服务，让 AI 智能体与 IDE 以编程方式生成与编辑设计。这套组合让它成为非设计师、设计师与工程师之间舒服的桥梁。局限也是老面孔：重度使用下 AI 额度消失得快，按编辑者计价对大团队会攀升，面对复杂设计系统它仍无法替代 Figma 的深度，导出的代码也只是起点而非成品。但作为一条又快、又灵活、又连得通、能把想法变成别人可以接着做的原型的路径，Visily 很值得一试。",
+      "ja": "VisilyはUizardと同じ「誰でもデザインできる」層を狙うが、柔軟性と相互運用性により強く傾いている。最も便利な技は混合プロンプトだ。スクリーンショット、テキスト、キャンバス上の手描き選択を一度に与えると、単一のテキストボックスではなくその混合から編集可能なワイヤーフレームや高精細プロトタイプを生成する。だが本当に注目に値するのは、それが与える「出口」だ——Figma双方向同期でロックインなくVisilyとプロツールの間を行き来し、コード書き出しで開発者に先行の利を与え、MCPサーバーでAIエージェントやIDEがプログラム的にデザインを生成・編集できる。この組み合わせが、非デザイナー・デザイナー・エンジニアの間の心地よい橋渡しにする。限界はおなじみだ。ヘビーユースではAIクレジットがすぐ消え、編集者ごとの課金は大チームで上がり、複雑なデザインシステムではFigmaの深さの代替にはならず、書き出したコードは成品ではなく出発点だ。しかし、速く柔軟で接続性が高く、アイデアを他者が続けて作れるプロトタイプに変える方法として、Visilyは試す価値が十分ある。",
+      "es": "Visily apunta al mismo público de 'cualquiera puede diseñar' que Uizard, pero apuesta más fuerte por la flexibilidad y la interoperabilidad. Su truco más útil es el prompting mixto: puedes darle una captura, algo de texto y una selección dibujada a mano en el lienzo a la vez, y genera wireframes editables o prototipos de alta fidelidad de esa mezcla en lugar de una sola caja de texto. Donde realmente gana atención, sin embargo, es en las salidas que te da — sincronización bidireccional con Figma para que los diseños se muevan entre Visily y una herramienta pro sin bloqueo, exportación de código para dar ventaja a los desarrolladores, y un servidor MCP que permite a agentes de IA e IDEs generar y editar diseños programáticamente. Esa combinación lo hace un puente cómodo entre no diseñadores, diseñadores e ingenieros. Los límites son conocidos: los créditos de IA se esfuman rápido con uso intenso, el precio por editor sube en equipos grandes, y aún no sustituye la profundidad de Figma en sistemas de diseño complejos, mientras que su código exportado es un punto de partida más que producción terminada. Pero como forma rápida, flexible y bien conectada de pasar de la idea a un prototipo sobre el que otros pueden construir, Visily bien vale la pena probar.",
+      "fr": "Visily vise le même public « tout le monde peut concevoir » qu'Uizard, mais mise davantage sur la flexibilité et l'interopérabilité. Son astuce la plus utile est le prompting mixte : vous pouvez lui donner une capture, du texte et une sélection dessinée à la main sur le canevas en même temps, et il génère des wireframes éditables ou des prototypes haute fidélité à partir de ce mélange plutôt que d'une seule zone de texte. Mais là où il retient vraiment l'attention, ce sont les sorties qu'il offre — synchronisation Figma bidirectionnelle pour que les designs circulent entre Visily et un outil pro sans verrouillage, export de code pour donner une longueur d'avance aux développeurs, et un serveur MCP qui laisse les agents IA et IDE générer et éditer les designs par programmation. Cette combinaison en fait un pont confortable entre non-designers, designers et ingénieurs. Les limites sont familières : les crédits IA disparaissent vite en usage intensif, le prix par éditeur grimpe pour les grandes équipes, et il ne remplace toujours pas la profondeur de Figma sur les design systems complexes, tandis que son code exporté est un point de départ plutôt qu'une production finie. Mais comme moyen rapide, flexible et bien connecté de passer de l'idée à un prototype sur lequel d'autres peuvent bâtir, Visily vaut vraiment l'essai."
+    },
+    "bestFor": {
+      "en": [
+        "Non-designers and product teams designing app screens fast",
+        "Teams wanting two-way Figma and code export in one flow",
+        "People wiring AI agents into design via an MCP server"
+      ],
+      "zh": [
+        "快速设计应用画面的非设计师与产品团队",
+        "希望在一条流程里兼得 Figma 双向与代码导出的团队",
+        "通过 MCP 服务把 AI 智能体接入设计的人"
+      ],
+      "ja": [
+        "アプリ画面を素早く設計する非デザイナーや製品チーム",
+        "一つの流れでFigma双方向とコード書き出しを両立したいチーム",
+        "MCPサーバー経由でAIエージェントをデザインに繋ぐ人"
+      ],
+      "es": [
+        "No diseñadores y equipos de producto que diseñan pantallas rápido",
+        "Equipos que quieren Figma bidireccional y exportación de código en un flujo",
+        "Quienes conectan agentes de IA al diseño vía un servidor MCP"
+      ],
+      "fr": [
+        "Non-designers et équipes produit concevant vite des écrans",
+        "Équipes voulant Figma bidirectionnel et export de code dans un flux",
+        "Ceux qui branchent des agents IA au design via un serveur MCP"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You need Figma-grade depth for complex, mature design systems (→ Figma)",
+        "You want the absolute lowest-friction, no-frills mockup tool (→ Uizard)"
+      ],
+      "zh": [
+        "面对复杂、成熟的设计系统，你需要 Figma 级的深度（→ Figma）",
+        "你想要门槛最低、最简单直接的原型工具（→ Uizard）"
+      ],
+      "ja": [
+        "複雑で成熟したデザインシステムにFigma級の深さが必要（→ Figma）",
+        "最も摩擦の少ない飾らないモックツールが欲しい（→ Uizard）"
+      ],
+      "es": [
+        "Necesitas profundidad nivel Figma para sistemas de diseño complejos y maduros (→ Figma)",
+        "Quieres la herramienta de maquetas con menos fricción y sin adornos (→ Uizard)"
+      ],
+      "fr": [
+        "Vous avez besoin d'une profondeur niveau Figma pour des design systems complexes et matures (→ Figma)",
+        "Vous voulez l'outil de maquette le plus simple et sans friction (→ Uizard)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-28",
+    "verdictDate": "2026-07-28",
+    "pricingVerified": "2026-07-28",
+    "pricingUrl": "https://www.visily.ai/pricing/"
+  }
+}

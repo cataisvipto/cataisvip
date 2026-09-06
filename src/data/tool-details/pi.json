@@ -1,0 +1,235 @@
+{
+  "features": {
+    "en": [
+      "Minimal harness: just 4 tools (read, write, edit, bash) and a one-page system prompt",
+      "Model-agnostic pi-ai layer normalizes OpenAI, Anthropic, Google and others behind one interface",
+      "Reuses existing Claude Pro/Max, ChatGPT Plus/Pro or GitHub Copilot subscriptions — no extra API cost by default",
+      "TypeScript extensions with hot reload add tools, slash commands, event hooks and custom TUI/React UI",
+      "First-class sessions: auto-save, resume (pi -c / -r), plus /fork and /clone to branch the conversation tree",
+      "One-shot, JSON and RPC modes (stdin/stdout JSONL) for scripting and integration from any language"
+    ],
+    "zh": [
+      "极简骨架：仅 4 个工具（read、write、edit、bash），系统提示只有一页纸",
+      "模型无关的 pi-ai 层把 OpenAI、Anthropic、Google 等统一到一个接口后面",
+      "可直接复用已有的 Claude Pro/Max、ChatGPT Plus/Pro 或 GitHub Copilot 订阅——默认零额外 API 花费",
+      "TypeScript 扩展支持热重载，可加工具、斜杠命令、事件钩子与自定义 TUI/React 界面",
+      "会话是一等公民：自动保存、恢复（pi -c / -r），还能用 /fork、/clone 分叉对话树",
+      "one-shot、JSON 与 RPC 模式（stdin/stdout JSONL）便于脚本化与任意语言集成"
+    ],
+    "ja": [
+      "ミニマルなハーネス：ツールはわずか4つ（read、write、edit、bash）、システムプロンプトは1ページ",
+      "モデル非依存のpi-ai層がOpenAI、Anthropic、Googleなどを1つのインターフェースに統一",
+      "既存のClaude Pro/Max、ChatGPT Plus/Pro、GitHub Copilotのサブスクをそのまま利用——デフォルトで追加API費用なし",
+      "TypeScript拡張はホットリロード対応、ツール・スラッシュコマンド・イベントフック・独自TUI/React UIを追加可能",
+      "セッションが一級市民：自動保存、再開（pi -c / -r）、/forkと/cloneで会話ツリーを分岐",
+      "one-shot・JSON・RPCモード（stdin/stdout JSONL）でスクリプト化とあらゆる言語からの統合が可能"
+    ],
+    "es": [
+      "Harness minimalista: solo 4 herramientas (read, write, edit, bash) y un prompt de sistema de una página",
+      "La capa pi-ai, agnóstica de modelos, unifica OpenAI, Anthropic, Google y otros tras una sola interfaz",
+      "Reutiliza tus suscripciones de Claude Pro/Max, ChatGPT Plus/Pro o GitHub Copilot: sin coste extra de API por defecto",
+      "Extensiones TypeScript con recarga en caliente que añaden herramientas, comandos, hooks de eventos e interfaz TUI/React propia",
+      "Sesiones de primera clase: autoguardado, reanudar (pi -c / -r) y /fork y /clone para ramificar el árbol de conversación",
+      "Modos one-shot, JSON y RPC (stdin/stdout JSONL) para scripting e integración desde cualquier lenguaje"
+    ],
+    "fr": [
+      "Harness minimaliste : seulement 4 outils (read, write, edit, bash) et un prompt système d'une page",
+      "La couche pi-ai, indépendante du modèle, unifie OpenAI, Anthropic, Google et d'autres derrière une seule interface",
+      "Réutilise vos abonnements Claude Pro/Max, ChatGPT Plus/Pro ou GitHub Copilot — sans coût d'API supplémentaire par défaut",
+      "Extensions TypeScript avec rechargement à chaud ajoutant outils, commandes, hooks d'événements et UI TUI/React personnalisée",
+      "Sessions de première classe : sauvegarde auto, reprise (pi -c / -r), plus /fork et /clone pour ramifier l'arbre de conversation",
+      "Modes one-shot, JSON et RPC (stdin/stdout JSONL) pour le scripting et l'intégration depuis n'importe quel langage"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Fully free and open source. Install with npm install -g @earendil-works/pi-coding-agent — no license fee, no subscription for the tool itself. You bring your own model access.",
+      "zh": "完全免费开源。用 npm install -g @earendil-works/pi-coding-agent 安装——工具本身无授权费、无订阅费，模型访问由你自带。",
+      "ja": "完全無料のオープンソース。npm install -g @earendil-works/pi-coding-agent でインストール——ツール自体にライセンス料もサブスクもなし。モデルアクセスは自分で用意。",
+      "es": "Totalmente gratuito y de código abierto. Instálalo con npm install -g @earendil-works/pi-coding-agent: sin licencia ni suscripción por la herramienta en sí. Tú aportas el acceso al modelo.",
+      "fr": "Entièrement gratuit et open source. Installez-le avec npm install -g @earendil-works/pi-coding-agent — aucune licence ni abonnement pour l'outil lui-même. Vous apportez votre propre accès au modèle."
+    },
+    "paid": {
+      "en": "No paid tier for Pi. Your only cost is whatever model you plug in: reuse a Claude Pro/Max, ChatGPT Plus/Pro or GitHub Copilot subscription you already pay for, or connect provider API keys (OpenAI, Anthropic, Google, local models) billed directly by the provider — Pi adds no markup.",
+      "zh": "Pi 没有付费档。唯一花费来自你接入的模型：复用你已在付费的 Claude Pro/Max、ChatGPT Plus/Pro 或 GitHub Copilot 订阅，或接入供应商 API 密钥（OpenAI、Anthropic、Google、本地模型），由供应商直接计费——Pi 不加价。",
+      "ja": "Piに有料プランはない。唯一の費用は接続するモデル分だけ：既に支払っているClaude Pro/Max、ChatGPT Plus/Pro、GitHub Copilotのサブスクを再利用するか、プロバイダーのAPIキー（OpenAI、Anthropic、Google、ローカルモデル）を接続してプロバイダーに直接課金——Piは上乗せなし。",
+      "es": "Pi no tiene nivel de pago. Tu único coste es el modelo que conectes: reutiliza una suscripción de Claude Pro/Max, ChatGPT Plus/Pro o GitHub Copilot que ya pagues, o conecta claves API de proveedores (OpenAI, Anthropic, Google, modelos locales) facturadas directamente por el proveedor; Pi no añade recargo.",
+      "fr": "Pas de palier payant pour Pi. Votre seul coût est le modèle que vous branchez : réutilisez un abonnement Claude Pro/Max, ChatGPT Plus/Pro ou GitHub Copilot que vous payez déjà, ou connectez des clés API de fournisseurs (OpenAI, Anthropic, Google, modèles locaux) facturées directement par le fournisseur — Pi n'ajoute aucune marge."
+    }
+  },
+  "useCases": {
+    "en": [
+      "Terminal-native developers who want a fast, low-friction agent without leaving the shell",
+      "Power users building bespoke agent workflows and harnesses via TypeScript extensions",
+      "Running local models efficiently — the tiny system prompt wastes far fewer tokens",
+      "Reusing existing Claude/ChatGPT/Copilot subscriptions instead of paying separate API bills"
+    ],
+    "zh": [
+      "喜欢待在终端里、想要快速低摩擦智能体、不愿离开 shell 的开发者",
+      "想用 TypeScript 扩展打造专属智能体工作流与骨架的高级用户",
+      "高效跑本地模型——极小的系统提示浪费的 token 少得多",
+      "复用已有的 Claude/ChatGPT/Copilot 订阅，而不是另付一份 API 账单"
+    ],
+    "ja": [
+      "シェルを離れず、高速で摩擦の少ないエージェントを求めるターミナル志向の開発者",
+      "TypeScript拡張で専用のエージェントワークフローやハーネスを構築するパワーユーザー",
+      "ローカルモデルを効率的に実行——極小のシステムプロンプトで無駄なトークンが大幅に減る",
+      "別途API課金を払う代わりに既存のClaude/ChatGPT/Copilotサブスクを再利用"
+    ],
+    "es": [
+      "Desarrolladores nativos de terminal que quieren un agente rápido y sin fricción sin salir del shell",
+      "Usuarios avanzados que construyen flujos y harnesses de agente a medida con extensiones TypeScript",
+      "Ejecutar modelos locales de forma eficiente: el prompt de sistema diminuto desperdicia muchos menos tokens",
+      "Reutilizar suscripciones de Claude/ChatGPT/Copilot en vez de pagar facturas de API por separado"
+    ],
+    "fr": [
+      "Développeurs adeptes du terminal qui veulent un agent rapide et sans friction sans quitter le shell",
+      "Utilisateurs avancés construisant des workflows et harness d'agent sur mesure via des extensions TypeScript",
+      "Exécuter des modèles locaux efficacement — le minuscule prompt système gaspille bien moins de tokens",
+      "Réutiliser des abonnements Claude/ChatGPT/Copilot au lieu de payer des factures d'API séparées"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Free, open source and hugely popular (46,000+ GitHub stars) with zero vendor lock-in",
+      "Truly model-agnostic — reuse subscriptions you already pay for, no forced API spend",
+      "Minimal and stable by design: fewer features means fewer surprises and less flakiness",
+      "Best-in-class session model with fork, clone and resume for long iterative work"
+    ],
+    "zh": [
+      "免费开源且极受欢迎（GitHub 4.6 万+ star），零厂商锁定",
+      "真正模型无关——复用你已在付费的订阅，无强制 API 开销",
+      "刻意做到极简稳定：功能越少，意外和抽风就越少",
+      "同类最佳的会话模型，fork、clone、resume 让长链条迭代不丢状态"
+    ],
+    "ja": [
+      "無料・オープンソースで大人気（GitHubスター4.6万+）、ベンダーロックインなし",
+      "真にモデル非依存——既に支払っているサブスクを再利用、強制的なAPI課金なし",
+      "意図的にミニマルで安定：機能が少ないほど想定外や不安定さも減る",
+      "fork・clone・resumeを備えたクラス最高のセッションモデルで長い反復作業も安心"
+    ],
+    "es": [
+      "Gratuito, de código abierto y muy popular (más de 46 000 estrellas en GitHub) sin bloqueo de proveedor",
+      "Verdaderamente agnóstico de modelos: reutiliza suscripciones que ya pagas, sin gasto de API forzado",
+      "Minimalista y estable por diseño: menos funciones significan menos sorpresas y menos fallos",
+      "Modelo de sesiones líder con fork, clone y resume para trabajo iterativo largo"
+    ],
+    "fr": [
+      "Gratuit, open source et très populaire (plus de 46 000 étoiles GitHub) sans verrouillage fournisseur",
+      "Réellement indépendant du modèle — réutilisez des abonnements déjà payés, sans dépense API forcée",
+      "Minimaliste et stable par conception : moins de fonctions, donc moins de surprises et d'instabilité",
+      "Modèle de sessions de premier ordre avec fork, clone et resume pour un travail itératif long"
+    ]
+  },
+  "cons": {
+    "en": [
+      "No permissions system — you are \"living dangerously by default\" with no guardrails",
+      "No built-in plan mode or subagents; you build those capabilities yourself",
+      "Terminal-only with no polished official GUI (community GUIs like Paseo exist)",
+      "Docs are spread across many repo files rather than one polished site; rewards tinkering"
+    ],
+    "zh": [
+      "没有权限系统——默认就是「裸奔冒险」，没有任何护栏",
+      "不内置 plan 模式或子智能体；这些能力得你自己搭",
+      "只有终端，无打磨过的官方 GUI（社区有 Paseo 等 GUI）",
+      "文档散落在仓库众多文件里，没有一个精致的文档站；更适合爱折腾的人"
+    ],
+    "ja": [
+      "権限システムがない——デフォルトで「無防備に危険と隣り合わせ」、ガードレールなし",
+      "plan モードやサブエージェントは内蔵されず、自分で作る必要がある",
+      "ターミナル専用で洗練された公式GUIがない（Paseoなどコミュニティ製GUIは存在）",
+      "ドキュメントは1つの洗練されたサイトではなくリポジトリの多数ファイルに分散。いじり倒す人向け"
+    ],
+    "es": [
+      "Sin sistema de permisos: estás \"viviendo peligrosamente por defecto\", sin barreras de seguridad",
+      "Sin modo de planificación ni subagentes integrados; esas capacidades las construyes tú",
+      "Solo terminal, sin una GUI oficial pulida (existen GUIs comunitarias como Paseo)",
+      "La documentación está repartida en muchos archivos del repo en vez de un sitio pulido; premia el trasteo"
+    ],
+    "fr": [
+      "Pas de système de permissions — vous \"vivez dangereusement par défaut\", sans garde-fous",
+      "Pas de mode plan ni de sous-agents intégrés ; ces capacités, vous les construisez vous-même",
+      "Uniquement en terminal, sans GUI officielle soignée (des GUI communautaires comme Paseo existent)",
+      "La doc est éparpillée dans de nombreux fichiers du dépôt plutôt qu'un site soigné ; récompense le bricolage"
+    ]
+  },
+  "latestUpdate": {
+    "en": "2026: Pi crosses 46,000+ GitHub stars and becomes the foundation for Peter Steinberger's OpenClaw. Creator Mario Zechner (author of libgdx) doubles down on the self-modifying, minimal-harness philosophy, while the pi.dev package catalog of extensions, skills, prompt templates and themes keeps growing; multi-provider auth now covers Claude Pro/Max, ChatGPT Plus/Pro and GitHub Copilot.",
+    "zh": "2026 年：Pi 突破 4.6 万+ GitHub star，并成为 Peter Steinberger 的 OpenClaw 的底座。作者 Mario Zechner（libgdx 之父）继续押注「自我改造、极简骨架」理念；pi.dev 上的扩展、技能、提示模板与主题包目录持续壮大；多供应商登录现已覆盖 Claude Pro/Max、ChatGPT Plus/Pro 与 GitHub Copilot。",
+    "ja": "2026年：PiはGitHubスター4.6万+を突破し、Peter SteinbergerのOpenClawの基盤に。作者Mario Zechner（libgdxの生みの親）は「自己改変・ミニマルハーネス」思想をさらに推し進め、pi.devの拡張・スキル・プロンプトテンプレート・テーマのカタログは拡大中。マルチプロバイダー認証はClaude Pro/Max、ChatGPT Plus/Pro、GitHub Copilotに対応。",
+    "es": "2026: Pi supera las 46 000 estrellas en GitHub y se convierte en la base de OpenClaw de Peter Steinberger. Su creador Mario Zechner (autor de libgdx) redobla la filosofía de harness minimalista y automodificable, mientras el catálogo de extensiones, skills, plantillas y temas en pi.dev sigue creciendo; la autenticación multiproveedor ya cubre Claude Pro/Max, ChatGPT Plus/Pro y GitHub Copilot.",
+    "fr": "2026 : Pi dépasse les 46 000 étoiles GitHub et devient la base d'OpenClaw de Peter Steinberger. Son créateur Mario Zechner (auteur de libgdx) mise davantage sur la philosophie du harness minimaliste auto-modifiable, tandis que le catalogue d'extensions, skills, modèles de prompt et thèmes de pi.dev ne cesse de croître ; l'authentification multi-fournisseurs couvre désormais Claude Pro/Max, ChatGPT Plus/Pro et GitHub Copilot."
+  },
+  "verdict": {
+    "badge": "Recommended",
+    "headline": {
+      "en": "The anti-framework coding agent: four tools, no guardrails, infinite rope",
+      "zh": "反框架的编码智能体：四个工具、没有护栏、给你无限长的绳子",
+      "ja": "アンチフレームワークのコーディングエージェント：ツール4つ、ガードレールなし、自由という名の無限のロープ",
+      "es": "El agente de codificación antiframework: cuatro herramientas, sin barreras, cuerda infinita",
+      "fr": "L'agent de codage anti-framework : quatre outils, aucun garde-fou, une corde infinie"
+    },
+    "body": {
+      "en": "Pi is a reaction against feature creep. Mario Zechner — the libgdx creator — built it after Claude Code grew unpredictable, betting that an agent with just four tools and a one-page prompt would stay stable and do exactly what you tell it. That minimalism is the whole point: there's no plan mode, no subagents, and no permissions system, so out of the box you're \"living dangerously\" with an agent that will happily run any command. What you get in return is control. Pi is genuinely model-agnostic, so it reuses the Claude, ChatGPT or Copilot subscription you already pay for with no markup, and its tiny prompt makes it a favorite for local models. The real magic is the TypeScript extension system: developers describe building their own task trackers, ops dashboards and subagent \"fleets\" in an afternoon, and hot-reload them live. That it's free, open source, sitting above 46,000 GitHub stars, and now underpins Peter Steinberger's OpenClaw tells you the engineering crowd takes it seriously. The catch is equally clear — this is a tool that rewards tinkering, not a turnkey IDE. If you want safety rails, a GUI and a polished docs site, look elsewhere. If you want to shape your own one-person code factory and actually understand it, Pi is close to unbeatable.",
+      "zh": "Pi 是对功能膨胀的一次反击。作者 Mario Zechner——libgdx 之父——是在 Claude Code 变得越来越不可预测之后动手做的，他赌的是：一个只有四个工具、系统提示只有一页纸的智能体，会更稳定、也会严格照你说的做。这种极简就是它的全部要义：没有 plan 模式、没有子智能体、也没有权限系统，所以开箱即用时你其实是在「裸奔」，它会毫不犹豫地执行任何命令。作为交换，你得到的是掌控力。Pi 真正做到模型无关，能复用你已经在付费的 Claude、ChatGPT 或 Copilot 订阅且不加价，极小的提示还让它成为本地模型的宠儿。真正的魔法在 TypeScript 扩展系统：开发者们说，自己一个下午就搭出了任务追踪器、运维仪表盘、乃至子智能体「舰队」，还能热重载实时调试。它免费、开源、GitHub star 超过 4.6 万，如今还成了 Peter Steinberger 的 OpenClaw 的底座——这足以说明工程圈把它当真。代价同样明白：这是一个奖励折腾的工具，不是开箱即用的 IDE。想要安全护栏、图形界面和精致文档站，请另寻他处。但若你想打造并真正吃透一座「一人代码工厂」，Pi 几乎无可匹敌。",
+      "ja": "Piは機能過多への反発だ。作者Mario Zechner——libgdxの生みの親——は、Claude Codeが予測不能になっていくのを見て作り始めた。ツールがわずか4つ、プロンプトが1ページのエージェントの方が安定し、言われた通りに動くという賭けだ。このミニマリズムこそが核心：planモードもサブエージェントも権限システムもない。だから初期状態では、どんなコマンドも平然と実行するエージェントと「無防備に危険と隣り合わせ」だ。その代わりに得られるのは制御である。Piは真にモデル非依存で、既に支払っているClaude・ChatGPT・Copilotのサブスクを上乗せなしで再利用でき、極小のプロンプトはローカルモデルでも重宝される。真の魔法はTypeScript拡張システムだ。開発者たちは自作のタスク管理・運用ダッシュボード・サブエージェント「艦隊」を一晩で組み上げ、ホットリロードで即座に試すという。無料・オープンソースでGitHubスター4.6万超、いまやPeter SteinbergerのOpenClawの土台にもなっている——エンジニア界隈が本気で扱っている証だ。代償も明快で、これはいじり倒す人を報いる道具であって、すぐ使えるIDEではない。安全柵とGUIと洗練された公式ドキュメントが欲しいなら別を当たろう。だが、自分だけの「一人コード工場」を築き、それを本当に理解したいなら、Piはほぼ無敵だ。",
+      "es": "Pi es una reacción contra el exceso de funciones. Mario Zechner —el creador de libgdx— lo construyó después de que Claude Code se volviera impredecible, apostando a que un agente con solo cuatro herramientas y un prompt de una página se mantendría estable y haría exactamente lo que le dices. Ese minimalismo es todo el propósito: no hay modo de planificación, ni subagentes, ni sistema de permisos, así que de fábrica estás \"viviendo peligrosamente\" con un agente que ejecutará encantado cualquier comando. A cambio obtienes control. Pi es genuinamente agnóstico de modelos, así que reutiliza la suscripción de Claude, ChatGPT o Copilot que ya pagas sin recargo, y su prompt diminuto lo hace favorito para modelos locales. La verdadera magia es el sistema de extensiones TypeScript: los desarrolladores cuentan que construyen sus propios gestores de tareas, paneles de operaciones y \"flotas\" de subagentes en una tarde, recargándolos en caliente. Que sea gratis, de código abierto, por encima de 46 000 estrellas en GitHub y que ahora sostenga OpenClaw de Peter Steinberger indica que la comunidad de ingeniería lo toma en serio. La pega es igual de clara: es una herramienta que premia el trasteo, no un IDE llave en mano. Si quieres barreras de seguridad, una GUI y un sitio de documentación pulido, busca en otra parte. Si quieres moldear tu propia fábrica de código unipersonal y entenderla de verdad, Pi es casi imbatible.",
+      "fr": "Pi est une réaction contre la surenchère de fonctionnalités. Mario Zechner — le créateur de libgdx — l'a construit après que Claude Code soit devenu imprévisible, pariant qu'un agent doté de seulement quatre outils et d'un prompt d'une page resterait stable et ferait exactement ce qu'on lui demande. Ce minimalisme est tout l'enjeu : pas de mode plan, pas de sous-agents, pas de système de permissions ; d'emblée, vous \"vivez dangereusement\" avec un agent qui exécutera volontiers n'importe quelle commande. En échange, vous obtenez le contrôle. Pi est réellement indépendant du modèle : il réutilise l'abonnement Claude, ChatGPT ou Copilot que vous payez déjà, sans marge, et son prompt minuscule en fait un favori pour les modèles locaux. La vraie magie, c'est le système d'extensions TypeScript : des développeurs racontent avoir bâti leurs propres gestionnaires de tâches, tableaux de bord d'exploitation et \"flottes\" de sous-agents en une après-midi, rechargés à chaud. Qu'il soit gratuit, open source, au-dessus de 46 000 étoiles GitHub et désormais socle de l'OpenClaw de Peter Steinberger montre que le milieu de l'ingénierie le prend au sérieux. Le revers est tout aussi net : c'est un outil qui récompense le bricolage, pas un IDE clé en main. Si vous voulez des garde-fous, une GUI et un site de doc soigné, cherchez ailleurs. Mais si vous voulez façonner votre propre usine à code d'une personne et la comprendre vraiment, Pi est quasi imbattable."
+    },
+    "bestFor": {
+      "en": [
+        "Terminal-loving developers who want control and no vendor lock-in",
+        "Tinkerers who will build their own extensions, subagents and workflows",
+        "Local-model users who need a lean, token-efficient harness"
+      ],
+      "zh": [
+        "钟爱终端、要掌控力、拒绝厂商锁定的开发者",
+        "愿意自己搭扩展、子智能体与工作流的折腾派",
+        "跑本地模型、需要精简省 token 骨架的用户"
+      ],
+      "ja": [
+        "ターミナル好きで、制御を求めベンダーロックインを嫌う開発者",
+        "自分で拡張・サブエージェント・ワークフローを作るいじり派",
+        "ローカルモデルを使い、軽量でトークン効率の良いハーネスが必要な人"
+      ],
+      "es": [
+        "Desarrolladores amantes de la terminal que quieren control y sin bloqueo de proveedor",
+        "Trasteadores que construirán sus propias extensiones, subagentes y flujos",
+        "Usuarios de modelos locales que necesitan un harness ligero y eficiente en tokens"
+      ],
+      "fr": [
+        "Développeurs adeptes du terminal voulant le contrôle et aucun verrouillage fournisseur",
+        "Bricoleurs prêts à construire leurs propres extensions, sous-agents et workflows",
+        "Utilisateurs de modèles locaux ayant besoin d'un harness léger et économe en tokens"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You want a turnkey GUI/IDE experience with safety rails (→ Cursor, GitHub Copilot)",
+        "You prefer an out-of-the-box CLI that just works without extending (→ Claude Code, Aider)"
+      ],
+      "zh": [
+        "你想要开箱即用、带安全护栏的图形界面/IDE 体验（→ Cursor、GitHub Copilot）",
+        "你偏好无需扩展、拿来就能用的 CLI（→ Claude Code、Aider）"
+      ],
+      "ja": [
+        "安全柵付きのすぐ使えるGUI/IDE体験が欲しい（→ Cursor、GitHub Copilot）",
+        "拡張せずそのまま動くCLIが好み（→ Claude Code、Aider）"
+      ],
+      "es": [
+        "Quieres una experiencia GUI/IDE llave en mano con barreras de seguridad (→ Cursor, GitHub Copilot)",
+        "Prefieres una CLI lista para usar sin extender (→ Claude Code, Aider)"
+      ],
+      "fr": [
+        "Vous voulez une expérience GUI/IDE clé en main avec garde-fous (→ Cursor, GitHub Copilot)",
+        "Vous préférez une CLI prête à l'emploi sans extension (→ Claude Code, Aider)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-28",
+    "verdictDate": "2026-07-28",
+    "pricingVerified": "2026-07-28",
+    "pricingUrl": "https://pi.dev"
+  }
+}

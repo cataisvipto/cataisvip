@@ -1,0 +1,227 @@
+{
+  "features": {
+    "en": [
+      "Google DeepMind video gen",
+      "1080p high quality",
+      "Realistic motion & physics",
+      "Extended duration",
+      "Cinematic styles",
+      "Text & image to video"
+    ],
+    "zh": [
+      "Google DeepMind 视频",
+      "1080p 高质量",
+      "真实运动物理",
+      "长时间",
+      "电影风格",
+      "文本图像转视频"
+    ],
+    "ja": [
+      "Google DeepMind 製",
+      "1080p 対応",
+      "リアルな動き",
+      "長時間",
+      "映画スタイル",
+      "テキスト→動画"
+    ],
+    "es": [
+      "Google DeepMind",
+      "1080p",
+      "Física realista",
+      "Duración larga",
+      "Cinematográfico",
+      "Texto a vídeo"
+    ],
+    "fr": [
+      "Google DeepMind",
+      "1080p",
+      "Physique réaliste",
+      "Longue durée",
+      "Cinématographique",
+      "Texte vers vidéo"
+    ]
+  },
+  "useCases": {
+    "en": [
+      "Professional video",
+      "Film pre-visualization",
+      "Advertising",
+      "Concept prototyping",
+      "Education"
+    ],
+    "zh": [
+      "专业视频",
+      "电影预可视化",
+      "广告",
+      "概念原型",
+      "教育"
+    ],
+    "ja": [
+      "プロ動画",
+      "プリビジュアライゼーション",
+      "広告",
+      "プロトタイプ",
+      "教育"
+    ],
+    "es": [
+      "Vídeo pro",
+      "Previsualización",
+      "Publicidad",
+      "Prototipado",
+      "Educación"
+    ],
+    "fr": [
+      "Vidéo pro",
+      "Prévisualisation",
+      "Publicité",
+      "Prototypage",
+      "Éducation"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Google quality",
+      "Realistic output",
+      "DeepMind research",
+      "Cloud integration"
+    ],
+    "zh": [
+      "Google 质量",
+      "逼真输出",
+      "DeepMind 研究",
+      "云端集成"
+    ],
+    "ja": [
+      "Google 品質",
+      "リアル",
+      "DeepMind 製",
+      "クラウド"
+    ],
+    "es": [
+      "Calidad Google",
+      "Realista",
+      "DeepMind",
+      "Nube"
+    ],
+    "fr": [
+      "Qualité Google",
+      "Réaliste",
+      "DeepMind",
+      "Cloud"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Limited public access",
+      "API only",
+      "Cost can be high"
+    ],
+    "zh": [
+      "公开访问有限",
+      "仅 API",
+      "成本可能高"
+    ],
+    "ja": [
+      "一般利用限定",
+      "API のみ",
+      "コスト高"
+    ],
+    "es": [
+      "Acceso limitado",
+      "Solo API",
+      "Coste alto"
+    ],
+    "fr": [
+      "Accès limité",
+      "API seulement",
+      "Coût élevé"
+    ]
+  },
+  "pricing": {
+    "api": {
+      "en": "API via Google Cloud Vertex AI",
+      "zh": "Google Cloud Vertex AI API",
+      "ja": "Vertex AI API",
+      "es": "API Vertex AI",
+      "fr": "API Vertex AI"
+    }
+  },
+  "latestUpdate": {
+    "en": "2026: Veo 2 improves video quality",
+    "zh": "2026年：Veo 2 提升视频质量",
+    "ja": "2026年：Veo 2 が動画品質向上",
+    "es": "2026: Veo 2 mejora calidad vídeo",
+    "fr": "2026 : Veo 2 améliore la qualité vidéo"
+  },
+  "verdict": {
+    "badge": "For Specific Needs",
+    "headline": {
+      "en": "Google's video generation model producing high-fidelity clips from text and image prompts.",
+      "zh": "Google的视频生成模型，从文本和图像提示生成高保真视频片段。",
+      "ja": "Googleの動画生成モデル。テキストと画像プロンプトから高忠実度クリップを生成。",
+      "es": "El modelo de generación de video de Google que produce clips de alta fidelidad desde texto e imágenes.",
+      "fr": "Le modèle de génération vidéo de Google produisant des clips haute fidélité à partir de texte et d'images."
+    },
+    "body": {
+      "en": "Veo represents Google's entry into AI video generation, producing clips with strong visual coherence and natural motion. Access is limited through specific Google products, which limits its standalone usability compared to competitors.\n\nThe quality is competitive with Runway and Sora, but availability and pricing remain less flexible. Best for users already in Google's ecosystem who want video generation integrated into their existing workflow.",
+      "zh": "Veo 代表Google进入AI视频生成领域，生成的视频具有强视觉连贯性和自然动作。通过特定Google产品访问，限制了其独立可用性。\n\n质量与Runway和Sora竞争，但可用性和定价灵活性较低。适合已在Google生态中希望视频生成集成到现有工作流的用户。",
+      "ja": "VeoはGoogleのAI動画生成への参入で、強い視覚的一貫性と自然な動きのクリップを生成します。アクセスは特定のGoogle製品に限定されています。\n\n品質はRunwayやSoraと競争的ですが、利用可能性と価格設定の柔軟性は劣ります。Googleエコシステム内のユーザーに最適です。",
+      "es": "Veo es la entrada de Google en generación de video IA con fuerte coherencia visual y movimiento natural. Acceso limitado a productos específicos de Google.\n\nCalidad competitiva con Runway y Sora pero disponibilidad menos flexible. Ideal para usuarios ya en el ecosistema Google.",
+      "fr": "Veo représente l'entrée de Google dans la génération vidéo IA avec forte cohérence visuelle et mouvement naturel. Accès limité à des produits Google spécifiques.\n\nQualité compétitive avec Runway et Sora mais disponibilité moins flexible. Idéal pour les utilisateurs déjà dans l'écosystème Google."
+    },
+    "bestFor": {
+      "en": [
+        "Google Workspace users needing video generation",
+        "High-fidelity short video clips",
+        "Integration with Google's AI ecosystem"
+      ],
+      "zh": [
+        "Google Workspace用户的视频生成需求",
+        "高保真短视频片段",
+        "与Google AI生态的集成"
+      ],
+      "ja": [
+        "Google Workspaceユーザーの動画生成ニーズ",
+        "高忠実度ショートクリップ",
+        "Google AIエコシステムとの統合"
+      ],
+      "es": [
+        "Usuarios Google Workspace que necesitan generación de video",
+        "Clips de video cortos de alta fidelidad",
+        "Integración con ecosistema IA de Google"
+      ],
+      "fr": [
+        "Utilisateurs Google Workspace nécessitant la génération vidéo",
+        "Clips vidéo courts haute fidélité",
+        "Intégration avec l'écosystème IA Google"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You need standalone video generation (→ Runway, Sora)",
+        "You want Chinese-optimized video AI (→ Kling AI, Seedance)"
+      ],
+      "zh": [
+        "需要独立视频生成（→ Runway、Sora）",
+        "需要中文优化的视频AI（→ 可灵、Seedance）"
+      ],
+      "ja": [
+        "スタンドアロンの動画生成が必要な場合（→ Runway、Sora）",
+        "中国語最適化の動画AIが必要な場合（→ Kling AI、Seedance）"
+      ],
+      "es": [
+        "Necesitas generación de video independiente (→ Runway, Sora)",
+        "Quieres IA de video optimizada para chino (→ Kling AI, Seedance)"
+      ],
+      "fr": [
+        "Vous avez besoin de génération vidéo autonome (→ Runway, Sora)",
+        "Vous voulez une IA vidéo optimisée pour le chinois (→ Kling AI, Seedance)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-27",
+    "verdictDate": "2026-07-27",
+    "pricingVerified": "2026-07-27"
+  }
+}

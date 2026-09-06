@@ -1,0 +1,234 @@
+{
+  "features": {
+    "en": [
+      "Graph-based orchestration: model agent steps as nodes and edges with full control over state",
+      "Durable execution and checkpointing: workflows resume exactly where they failed",
+      "First-class human-in-the-loop: interrupt, inspect and resume agent runs",
+      "LangGraph Platform: one-click deployment with built-in LangSmith observability",
+      "Python and JavaScript/TypeScript SDKs with feature parity",
+      "Battle-tested in production at companies like Uber, LinkedIn and Klarna"
+    ],
+    "zh": [
+      "图编排：以节点和边建模智能体步骤，状态完全可控",
+      "持久执行与检查点：工作流可从失败处精确恢复",
+      "一等公民的人类介入：可中断、检查并恢复智能体运行",
+      "LangGraph Platform：一键部署，内置 LangSmith 可观测性",
+      "Python 与 JavaScript/TypeScript SDK 功能对齐",
+      "已在 Uber、LinkedIn、Klarna 等公司生产环境验证"
+    ],
+    "ja": [
+      "グラフベースのオーケストレーション：エージェントのステップをノードとエッジでモデル化し、状態を完全制御",
+      "永続実行とチェックポイント：ワークフローは失敗した地点から正確に再開",
+      "ヒューマンインザループを一級市民として提供：実行の中断・検査・再開が可能",
+      "LangGraph Platform：ワンクリックデプロイ、LangSmith可観測性を内蔵",
+      "PythonとJavaScript/TypeScript SDKが機能同等",
+      "Uber、LinkedIn、Klarnaなどの本番環境で実証済み"
+    ],
+    "es": [
+      "Orquestación en grafo: modela los pasos del agente como nodos y aristas con control total del estado",
+      "Ejecución durable y checkpoints: los flujos se reanudan exactamente donde fallaron",
+      "Humano en el bucle de primera clase: interrumpe, inspecciona y reanuda ejecuciones",
+      "LangGraph Platform: despliegue en un clic con observabilidad LangSmith integrada",
+      "SDKs de Python y JavaScript/TypeScript con paridad de funciones",
+      "Probado en producción en empresas como Uber, LinkedIn y Klarna"
+    ],
+    "fr": [
+      "Orchestration en graphe : modélisez les étapes de l'agent en nœuds et arêtes avec un contrôle total de l'état",
+      "Exécution durable et checkpoints : les workflows reprennent exactement là où ils ont échoué",
+      "Humain dans la boucle de premier ordre : interrompre, inspecter et reprendre les exécutions",
+      "LangGraph Platform : déploiement en un clic avec observabilité LangSmith intégrée",
+      "SDK Python et JavaScript/TypeScript à parité fonctionnelle",
+      "Éprouvé en production chez Uber, LinkedIn et Klarna"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Open-source framework is free (MIT license): build and self-host stateful agents, paying only your LLM providers; LangSmith Developer tier is free for solo use",
+      "zh": "开源框架免费（MIT 协议）：自建自托管有状态智能体，只需向 LLM 供应商付费；LangSmith Developer 档对个人免费",
+      "ja": "オープンソースフレームワークは無料（MITライセンス）：ステートフルエージェントを構築・セルフホストし、LLMプロバイダーへの支払いのみ。LangSmith Developerプランは個人利用無料",
+      "es": "El framework open source es gratuito (licencia MIT): crea y autoaloja agentes con estado pagando solo a tus proveedores de LLM; el nivel Developer de LangSmith es gratis para uso individual",
+      "fr": "Le framework open source est gratuit (licence MIT) : créez et auto-hébergez des agents avec état en ne payant que vos fournisseurs LLM ; l'offre Developer de LangSmith est gratuite en solo"
+    },
+    "paid": {
+      "en": "LangGraph Platform deployment via LangSmith Plus at $39/seat/month plus usage-based node execution fees; Enterprise plans with custom pricing",
+      "zh": "LangGraph Platform 部署经 LangSmith Plus 订阅（$39/席/月）另加按节点执行量计费；企业版定制报价",
+      "ja": "LangGraph PlatformのデプロイはLangSmith Plus（$39/シート/月）＋ノード実行量に応じた従量課金。エンタープライズプランは個別見積もり",
+      "es": "Despliegue en LangGraph Platform vía LangSmith Plus a 39 $/asiento/mes más tarifas por ejecución de nodos; planes Enterprise con precio a medida",
+      "fr": "Déploiement LangGraph Platform via LangSmith Plus à 39 $/siège/mois plus facturation à l'exécution de nœuds ; offres Enterprise sur devis"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Complex stateful agents with branching, loops and retries",
+      "Long-running workflows that must survive failures",
+      "Approval flows requiring human review mid-run",
+      "Production multi-agent systems with strict observability needs"
+    ],
+    "zh": [
+      "带分支、循环与重试的复杂有状态智能体",
+      "必须在故障后存活的长时间运行工作流",
+      "运行中需人工审核的审批流",
+      "有严格可观测性要求的生产级多智能体系统"
+    ],
+    "ja": [
+      "分岐・ループ・リトライを含む複雑なステートフルエージェント",
+      "障害を乗り越える必要のある長時間実行ワークフロー",
+      "実行途中で人間のレビューが必要な承認フロー",
+      "厳格な可観測性が求められる本番マルチエージェントシステム"
+    ],
+    "es": [
+      "Agentes con estado complejos con ramas, bucles y reintentos",
+      "Flujos de larga duración que deben sobrevivir a fallos",
+      "Flujos de aprobación con revisión humana a mitad de ejecución",
+      "Sistemas multiagente en producción con necesidades estrictas de observabilidad"
+    ],
+    "fr": [
+      "Agents à état complexes avec branches, boucles et reprises",
+      "Workflows de longue durée devant survivre aux pannes",
+      "Flux d'approbation nécessitant une revue humaine en cours d'exécution",
+      "Systèmes multi-agents en production aux exigences strictes d'observabilité"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Finest-grained control of any mainstream agent framework",
+      "Durable execution and checkpointing are genuinely production-grade",
+      "Huge ecosystem via LangChain integrations and LangSmith tooling",
+      "Proven at scale by large enterprises"
+    ],
+    "zh": [
+      "主流智能体框架中控制粒度最细",
+      "持久执行与检查点是真正的生产级能力",
+      "背靠 LangChain 集成与 LangSmith 工具的庞大生态",
+      "已被大型企业规模化验证"
+    ],
+    "ja": [
+      "主要エージェントフレームワークの中で最も細かい制御が可能",
+      "永続実行とチェックポイントは本物の本番級機能",
+      "LangChain統合とLangSmithツールによる巨大エコシステム",
+      "大企業によるスケール実証済み"
+    ],
+    "es": [
+      "El control más fino entre los frameworks de agentes principales",
+      "La ejecución durable y los checkpoints son de nivel producción real",
+      "Enorme ecosistema vía integraciones LangChain y herramientas LangSmith",
+      "Probado a escala por grandes empresas"
+    ],
+    "fr": [
+      "Le contrôle le plus fin parmi les frameworks d'agents majeurs",
+      "Exécution durable et checkpoints réellement de niveau production",
+      "Vaste écosystème via les intégrations LangChain et l'outillage LangSmith",
+      "Éprouvé à grande échelle par de grandes entreprises"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Steeper learning curve than role-based frameworks like CrewAI",
+      "Graph boilerplate feels heavy for simple single-agent tasks",
+      "Usage-based platform billing can be hard to forecast",
+      "Conventions are tied to the broader LangChain ecosystem"
+    ],
+    "zh": [
+      "学习曲线比 CrewAI 等角色制框架更陡",
+      "简单单智能体任务下图结构样板代码偏重",
+      "平台按用量计费难以预估成本",
+      "约定与整个 LangChain 生态深度绑定"
+    ],
+    "ja": [
+      "CrewAIのような役割ベースのフレームワークより学習曲線が急",
+      "単純なシングルエージェントタスクにはグラフの定型コードが重い",
+      "従量課金制のプラットフォーム費用は予測しづらい",
+      "規約がLangChainエコシステム全体に紐づいている"
+    ],
+    "es": [
+      "Curva de aprendizaje más pronunciada que frameworks por roles como CrewAI",
+      "El código repetitivo del grafo pesa en tareas simples de un solo agente",
+      "La facturación por uso de la plataforma es difícil de prever",
+      "Las convenciones están ligadas al ecosistema LangChain"
+    ],
+    "fr": [
+      "Courbe d'apprentissage plus raide que les frameworks par rôles comme CrewAI",
+      "Le code générique du graphe pèse pour les tâches simples à agent unique",
+      "La facturation à l'usage de la plateforme est difficile à prévoir",
+      "Les conventions sont liées à l'écosystème LangChain"
+    ]
+  },
+  "latestUpdate": {
+    "en": "2026: after the stable 1.0 release across Python and JS, LangGraph doubles down on durable execution, node caching and the LangGraph Platform, cementing its position as the production standard for stateful agents",
+    "zh": "2026 年：Python 与 JS 双端 1.0 稳定版发布后，LangGraph 持续强化持久执行、节点缓存与 LangGraph Platform，巩固其有状态智能体生产标准的地位",
+    "ja": "2026年：PythonとJS両方での1.0安定版リリース後、LangGraphは永続実行、ノードキャッシュ、LangGraph Platformを強化し、ステートフルエージェントの本番標準としての地位を固める",
+    "es": "2026: tras la versión estable 1.0 en Python y JS, LangGraph refuerza la ejecución durable, la caché de nodos y la LangGraph Platform, consolidándose como el estándar de producción para agentes con estado",
+    "fr": "2026 : après la version stable 1.0 en Python et JS, LangGraph renforce l'exécution durable, le cache de nœuds et la LangGraph Platform, consolidant son statut de standard de production pour les agents à état"
+  },
+  "verdict": {
+    "badge": "Highly Recommended",
+    "headline": {
+      "en": "The production standard for stateful agent orchestration",
+      "zh": "有状态智能体编排的生产标准",
+      "ja": "ステートフルエージェントオーケストレーションの本番標準",
+      "es": "El estándar de producción para la orquestación de agentes con estado",
+      "fr": "Le standard de production pour l'orchestration d'agents à état"
+    },
+    "body": {
+      "en": "When agent demos need to become dependable systems, teams keep landing on LangGraph. Its graph model demands more upfront thinking than role-based frameworks, but that investment buys precise state control, durable execution and real human-in-the-loop — the three things production agents actually need. With 1.0 stability and the deployment platform, it is the safest bet for serious agent engineering today.",
+      "zh": "当智能体 Demo 需要变成可靠系统时，团队最终总会选到 LangGraph。它的图模型比角色制框架要求更多前期思考，但这份投入换来的是精确的状态控制、持久执行与真正的人类介入——正是生产级智能体需要的三样东西。有了 1.0 稳定版与部署平台，它是当下严肃智能体工程最稳妥的选择。",
+      "ja": "エージェントのデモを信頼できるシステムに変える段階で、チームは結局LangGraphにたどり着く。グラフモデルは役割ベースのフレームワークより事前の設計を要求するが、その投資は正確な状態制御、永続実行、本物のヒューマンインザループという、本番エージェントに本当に必要な3つをもたらす。1.0の安定性とデプロイプラットフォームを備えた今、本格的なエージェント開発で最も堅実な選択だ。",
+      "es": "Cuando las demos de agentes deben convertirse en sistemas fiables, los equipos acaban eligiendo LangGraph. Su modelo de grafo exige más diseño previo que los frameworks por roles, pero esa inversión compra control preciso del estado, ejecución durable y humano en el bucle real: las tres cosas que los agentes en producción necesitan. Con la estabilidad 1.0 y su plataforma de despliegue, es la apuesta más segura para ingeniería de agentes seria.",
+      "fr": "Quand les démos d'agents doivent devenir des systèmes fiables, les équipes finissent par choisir LangGraph. Son modèle en graphe exige plus de conception en amont que les frameworks par rôles, mais cet investissement offre un contrôle précis de l'état, une exécution durable et un vrai humain dans la boucle — les trois choses dont les agents en production ont réellement besoin. Avec la stabilité 1.0 et sa plateforme de déploiement, c'est le choix le plus sûr pour l'ingénierie d'agents sérieuse."
+    },
+    "bestFor": {
+      "en": [
+        "Engineering teams shipping stateful agents to production",
+        "Workflows needing checkpoints, retries and human approval",
+        "Teams already invested in the LangChain/LangSmith ecosystem"
+      ],
+      "zh": [
+        "要把有状态智能体推向生产的工程团队",
+        "需要检查点、重试与人工审批的工作流",
+        "已投入 LangChain/LangSmith 生态的团队"
+      ],
+      "ja": [
+        "ステートフルエージェントを本番投入するエンジニアリングチーム",
+        "チェックポイント・リトライ・人間承認が必要なワークフロー",
+        "すでにLangChain/LangSmithエコシステムを利用しているチーム"
+      ],
+      "es": [
+        "Equipos de ingeniería llevando agentes con estado a producción",
+        "Flujos que necesitan checkpoints, reintentos y aprobación humana",
+        "Equipos ya invertidos en el ecosistema LangChain/LangSmith"
+      ],
+      "fr": [
+        "Équipes d'ingénierie mettant des agents à état en production",
+        "Workflows nécessitant checkpoints, reprises et approbation humaine",
+        "Équipes déjà investies dans l'écosystème LangChain/LangSmith"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You want the fastest role-based prototyping (→ CrewAI)",
+        "You build in TypeScript first (→ Mastra)"
+      ],
+      "zh": [
+        "你想要最快的角色制原型开发（→ CrewAI）",
+        "你以 TypeScript 为主开发（→ Mastra）"
+      ],
+      "ja": [
+        "役割ベースで最速のプロトタイピングをしたい（→ CrewAI）",
+        "TypeScriptファーストで開発している（→ Mastra）"
+      ],
+      "es": [
+        "Quieres el prototipado por roles más rápido (→ CrewAI)",
+        "Desarrollas primero en TypeScript (→ Mastra)"
+      ],
+      "fr": [
+        "Vous voulez le prototypage par rôles le plus rapide (→ CrewAI)",
+        "Vous développez d'abord en TypeScript (→ Mastra)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-27",
+    "verdictDate": "2026-07-27",
+    "pricingVerified": "2026-07-27"
+  }
+}

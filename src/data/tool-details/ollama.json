@@ -1,0 +1,237 @@
+{
+  "features": {
+    "en": [
+      "Local LLM runner",
+      "One-command model download",
+      "Llama, Mistral, Gemma, Phi & more",
+      "OpenAI-compatible API",
+      "Modelfile customization",
+      "Cross-platform"
+    ],
+    "zh": [
+      "本地 LLM 运行",
+      "一键下载模型",
+      "支持 Llama、Mistral、Gemma、Phi 等",
+      "OpenAI 兼容 API",
+      "Modelfile 自定义",
+      "跨平台"
+    ],
+    "ja": [
+      "ローカル LLM",
+      "ワンコマンド",
+      "Llama/Mistral/Gemma/Phi 等",
+      "OpenAI 互換 API",
+      "Modelfile カスタマイズ",
+      "クロスプラットフォーム"
+    ],
+    "es": [
+      "LLM local",
+      "Un comando",
+      "Llama/Mistral/Gemma/Phi",
+      "API OpenAI",
+      "Modelfile",
+      "Multiplataforma"
+    ],
+    "fr": [
+      "LLM local",
+      "Une commande",
+      "Llama/Mistral/Gemma/Phi",
+      "API OpenAI",
+      "Modelfile",
+      "Multiplateforme"
+    ]
+  },
+  "useCases": {
+    "en": [
+      "Local LLM experimentation",
+      "Private AI assistant",
+      "Development & testing",
+      "Research & education",
+      "Offline AI"
+    ],
+    "zh": [
+      "本地 LLM 实验",
+      "私有 AI 助手",
+      "开发与测试",
+      "研究与教育",
+      "离线 AI"
+    ],
+    "ja": [
+      "ローカル LLM 実験",
+      "プライベート AI",
+      "開発テスト",
+      "研究教育",
+      "オフライン AI"
+    ],
+    "es": [
+      "Experimentación LLM",
+      "Asistente privado",
+      "Desarrollo",
+      "Investigación",
+      "IA offline"
+    ],
+    "fr": [
+      "Expérimentation LLM",
+      "Assistant privé",
+      "Développement",
+      "Recherche",
+      "IA hors ligne"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Free & open-source",
+      "Extremely easy to use",
+      "Huge model library",
+      "Privacy-first"
+    ],
+    "zh": [
+      "免费开源",
+      "使用简便",
+      "模型库丰富",
+      "隐私保护"
+    ],
+    "ja": [
+      "無料・オープンソース",
+      "簡単",
+      "豊富なモデル",
+      "プライバシー"
+    ],
+    "es": [
+      "Gratuito open-source",
+      "Fácil",
+      "Biblioteca enorme",
+      "Privacidad"
+    ],
+    "fr": [
+      "Gratuit open-source",
+      "Très facile",
+      "Bibliothèque immense",
+      "Confidentialité"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Requires good hardware",
+      "No built-in fine-tuning",
+      "Manual model management"
+    ],
+    "zh": [
+      "需较好硬件",
+      "无内置微调",
+      "手动管理"
+    ],
+    "ja": [
+      "ハードウェア必要",
+      "微調整機能なし",
+      "手動管理"
+    ],
+    "es": [
+      "Buen hardware necesario",
+      "Sin ajuste fino",
+      "Gestión manual"
+    ],
+    "fr": [
+      "Bon matériel nécessaire",
+      "Pas de fine-tuning",
+      "Gestion manuelle"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Free & open-source",
+      "zh": "免费开源",
+      "ja": "無料・オープンソース",
+      "es": "Gratuito open-source",
+      "fr": "Gratuit open-source"
+    }
+  },
+  "latestUpdate": {
+    "en": "2026: Ollama remains #1 local LLM runner",
+    "zh": "2026年：Ollama 维持本地 LLM 第一名",
+    "ja": "2026年：Ollama はローカル LLM で首位",
+    "es": "2026: Ollama sigue #1 en LLM local",
+    "fr": "2026 : Ollama reste le #1 des LLM locaux"
+  },
+  "verdict": {
+    "badge": "Highly Recommended",
+    "headline": {
+      "en": "The simplest way to run open-source LLMs on your own hardware — full privacy, zero cloud dependency.",
+      "zh": "在本地硬件运行开源大模型最简单的方式——完全隐私，零云端依赖。",
+      "ja": "自分のハードウェアでオープンソースLLMを動かす最もシンプルな方法——完全なプライバシー、クラウド不要。",
+      "es": "La forma más simple de ejecutar LLMs de código abierto en tu propio hardware — privacidad total, sin dependencia de la nube.",
+      "fr": "La façon la plus simple d'exécuter des LLMs open-source sur votre matériel — confidentialité totale, zéro dépendance cloud."
+    },
+    "body": {
+      "en": "Ollama has become the de facto standard for running large language models locally. It wraps the complexity of model downloading, quantization, and inference into a single command-line tool that works on macOS, Linux, and Windows. If you can type `ollama run llama3`, you can have a working local LLM in under a minute.\n\nThe practical value is straightforward: your data never leaves your machine. For developers building AI applications, companies with sensitive data policies, or anyone who simply wants to experiment without API costs, Ollama removes the friction of self-hosting. It supports dozens of models including Llama, Mistral, Gemma, Phi, and Qwen.\n\nThe limitation is hardware-dependent. You need a decent GPU (or sufficient RAM for CPU inference) to get acceptable speeds, and local models still trail cloud-hosted frontier models in raw capability. But for many tasks—code completion, document summarization, conversational AI—local models via Ollama are now good enough for production use.",
+      "zh": "Ollama已经成为本地运行大语言模型的事实标准。它将模型下载、量化和推理的复杂性封装在一个命令行工具中，支持macOS、Linux和Windows。只要输入`ollama run llama3`，不到一分钟就能获得可用的本地LLM。\n\n实际价值很直观：你的数据永远不会离开你的机器。对于构建AI应用的开发者、有数据敏感政策的企业，或者任何想无API费用地实验的人，Ollama消除了自托管的摩擦。支持数十种模型包括Llama、Mistral、Gemma、Phi和Qwen。\n\n限制取决于硬件。你需要不错的GPU才能获得可接受的速度，本地模型在原始能力上仍落后于云端前沿模型。但对于许多任务，通过Ollama运行的本地模型现已达到生产可用水平。",
+      "ja": "Ollamaはローカルで大規模言語モデルを実行するためのデファクトスタンダードとなっています。モデルのダウンロード、量子化、推論の複雑さを単一のコマンドラインツールに包み、macOS、Linux、Windowsで動作します。\n\n実用的な価値は明確です：データは一切マシンから出ません。AIアプリケーションを構築する開発者、機密データポリシーを持つ企業、APIコストなしで実験したい人にとって、Ollamaはセルフホスティングの障壁を取り除きます。\n\n制限はハードウェアに依存します。適切なGPUが必要で、ローカルモデルの能力はクラウドのフロンティアモデルにまだ及びません。しかし多くのタスクにおいて、Ollama経由のローカルモデルは本番利用に十分な水準に達しています。",
+      "es": "Ollama se ha convertido en el estándar de facto para ejecutar modelos de lenguaje localmente. Envuelve la complejidad de descarga, cuantización e inferencia en una sola herramienta de línea de comandos.\n\nEl valor práctico es directo: tus datos nunca salen de tu máquina. Para desarrolladores, empresas con políticas de datos sensibles, o cualquiera que quiera experimentar sin costos de API, Ollama elimina la fricción del auto-alojamiento.\n\nLa limitación depende del hardware. Necesitas una GPU decente para velocidades aceptables, y los modelos locales aún quedan detrás de los modelos frontera. Pero para muchas tareas, los modelos locales via Ollama ya son suficientes para producción.",
+      "fr": "Ollama est devenu le standard de facto pour exécuter des modèles de langage localement. Il encapsule la complexité du téléchargement, de la quantification et de l'inférence dans un seul outil en ligne de commande.\n\nLa valeur pratique est directe : vos données ne quittent jamais votre machine. Pour les développeurs, les entreprises avec des politiques de données sensibles, ou quiconque veut expérimenter sans coûts d'API, Ollama supprime les frictions.\n\nLa limitation dépend du matériel. Vous avez besoin d'un GPU correct pour des vitesses acceptables. Mais pour de nombreuses tâches, les modèles locaux via Ollama sont maintenant suffisants pour un usage en production."
+    },
+    "bestFor": {
+      "en": [
+        "Privacy-sensitive AI usage where data must stay local",
+        "Developers prototyping AI apps without API costs",
+        "Experimenting with different open-source models quickly",
+        "Offline AI access in environments without internet"
+      ],
+      "zh": [
+        "数据必须留在本地的隐私敏感场景",
+        "开发者零API成本原型开发AI应用",
+        "快速试用不同开源模型",
+        "无网络环境下的离线AI访问"
+      ],
+      "ja": [
+        "データをローカルに保持する必要があるプライバシー重視の用途",
+        "APIコストなしでAIアプリのプロトタイプを作る開発者",
+        "様々なオープンソースモデルを素早く試す",
+        "インターネットのない環境でのオフラインAI利用"
+      ],
+      "es": [
+        "Uso de IA sensible a la privacidad donde los datos deben permanecer locales",
+        "Desarrolladores prototipando apps IA sin costos de API",
+        "Experimentar con diferentes modelos rápidamente",
+        "Acceso IA offline en entornos sin internet"
+      ],
+      "fr": [
+        "Usage IA sensible à la confidentialité où les données doivent rester locales",
+        "Développeurs prototypant des apps IA sans coûts d'API",
+        "Expérimenter rapidement avec différents modèles open-source",
+        "Accès IA hors ligne dans des environnements sans internet"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You need frontier-model quality and don't have GPU hardware (→ ChatGPT, Claude API)",
+        "You want a managed cloud inference service with scaling (→ Groq, OpenRouter)",
+        "You need a full MLOps platform for training and fine-tuning (→ Hugging Face)"
+      ],
+      "zh": [
+        "你需要前沿模型质量但没有GPU硬件（→ ChatGPT、Claude API）",
+        "你需要可扩展的托管云端推理服务（→ Groq、OpenRouter）",
+        "你需要完整的MLOps平台进行训练和微调（→ Hugging Face）"
+      ],
+      "ja": [
+        "フロンティアモデルの品質が必要だがGPUハードウェアがない場合（→ ChatGPT、Claude API）",
+        "スケーリング可能なマネージドクラウド推論サービスが必要な場合（→ Groq、OpenRouter）",
+        "トレーニングやファインチューニング用のフルMLOpsプラットフォームが必要な場合（→ Hugging Face）"
+      ],
+      "es": [
+        "Necesitas calidad de modelo frontera y no tienes hardware GPU (→ ChatGPT, Claude API)",
+        "Quieres un servicio de inferencia cloud gestionado con escalado (→ Groq, OpenRouter)",
+        "Necesitas una plataforma MLOps completa para entrenamiento (→ Hugging Face)"
+      ],
+      "fr": [
+        "Vous avez besoin de la qualité d'un modèle frontière sans matériel GPU (→ ChatGPT, Claude API)",
+        "Vous voulez un service d'inférence cloud géré avec mise à l'échelle (→ Groq, OpenRouter)",
+        "Vous avez besoin d'une plateforme MLOps complète pour l'entraînement (→ Hugging Face)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-30",
+    "verdictDate": "2026-07-27",
+    "pricingVerified": "2026-07-27"
+  }
+}

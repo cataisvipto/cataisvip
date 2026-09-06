@@ -1,0 +1,78 @@
+{
+  "slug": "serena",
+  "name": "Serena",
+  "nameZh": "Serena 代码工具箱",
+  "description": "开源编码智能体工具箱。基于语言服务器（LSP）提供符号级代码检索与编辑能力，以 MCP 服务器形态为任意智能体补上 IDE 级代码理解。",
+  "descriptionEn": "An open-source coding agent toolkit. Provides symbol-level code retrieval and editing via language servers (LSP), giving any agent IDE-grade code understanding as an MCP server.",
+  "descriptionJa": "オープンソースのコーディングエージェントツールキット。言語サーバー（LSP）によるシンボルレベルのコード検索・編集機能をMCPサーバーとして提供し、あらゆるエージェントにIDE級のコード理解を付与。",
+  "descriptionEs": "Un kit de herramientas open source para agentes de código. Proporciona recuperación y edición de código a nivel de símbolo mediante servidores de lenguaje (LSP), como servidor MCP.",
+  "descriptionFr": "Une boîte à outils open source pour agents de codage. Fournit la récupération et l'édition de code au niveau des symboles via les serveurs de langage (LSP), sous forme de serveur MCP.",
+  "developer": "Oraios AI",
+  "developerZh": "Oraios AI",
+  "repo": "oraios/serena",
+  "clients": [
+    "claude",
+    "codex",
+    "cursor",
+    "generic"
+  ],
+  "category": "Developer",
+  "tags": [
+    "Free",
+    "Open Source"
+  ],
+  "installCommand": "uvx --from git+https://github.com/oraios/serena serena start-mcp-server",
+  "logo": "/logos/mcp/serena.png",
+  "stars": 28826,
+  "featured": false,
+  "faqs": [
+    {
+      "question": {
+        "zh": "Serena 为什么能提升 AI 编码效率？",
+        "en": "Why does Serena make AI coding more efficient?",
+        "ja": "Serena はなぜ AI コーディングを効率化できるのですか？",
+        "es": "¿Por qué Serena hace más eficiente la codificación con IA?",
+        "fr": "Pourquoi Serena rend-elle le codage par IA plus efficace ?"
+      },
+      "answer": {
+        "zh": "它给 AI 装上了 IDE 级的语义检索与编辑能力：基于语言服务器（LSP）按符号精准定位和修改代码，不用把整个文件塞进上下文，大项目里省 token 又准确。",
+        "en": "It gives AI IDE-grade semantic retrieval and editing: powered by language servers (LSP), it locates and edits code at the symbol level, so whole files never need to be stuffed into context — saving tokens and improving accuracy in large projects.",
+        "ja": "AI に IDE 級のセマンティック検索・編集能力を与えます。言語サーバー（LSP）を基盤にシンボル単位でコードを正確に特定・修正するため、ファイル全体をコンテキストに詰め込む必要がなく、大規模プロジェクトでトークンを節約しつつ精度も向上します。",
+        "es": "Da a la IA recuperación y edición semántica de nivel IDE: basada en servidores de lenguaje (LSP), localiza y edita código a nivel de símbolo, sin meter archivos enteros en el contexto. Ahorra tokens y gana precisión en proyectos grandes.",
+        "fr": "Elle donne à l'IA des capacités de recherche et d'édition sémantiques dignes d'un IDE : basée sur les serveurs de langage (LSP), elle localise et modifie le code au niveau du symbole, sans charger des fichiers entiers dans le contexte — économie de tokens et précision accrue sur les grands projets."
+      }
+    },
+    {
+      "question": {
+        "zh": "怎么安装 Serena？",
+        "en": "How do I install Serena?",
+        "ja": "Serena をインストールするには？",
+        "es": "¿Cómo instalo Serena?",
+        "fr": "Comment installer Serena ?"
+      },
+      "answer": {
+        "zh": "需要 Python 的 uv 工具：uvx --from git+https://github.com/oraios/serena serena start-mcp-server。Claude Code 里用 claude mcp add serena 注册这条命令即可，支持几十种主流语言。",
+        "en": "It needs Python's uv tool: uvx --from git+https://github.com/oraios/serena serena start-mcp-server. In Claude Code, register that command via claude mcp add serena. Dozens of mainstream languages are supported.",
+        "ja": "Python の uv ツールが必要です：uvx --from git+https://github.com/oraios/serena serena start-mcp-server。Claude Code では claude mcp add serena でこのコマンドを登録すれば完了。主要な数十言語に対応しています。",
+        "es": "Necesita la herramienta uv de Python: uvx --from git+https://github.com/oraios/serena serena start-mcp-server. En Claude Code, registra ese comando con claude mcp add serena. Soporta decenas de lenguajes principales.",
+        "fr": "Elle nécessite l'outil uv de Python : uvx --from git+https://github.com/oraios/serena serena start-mcp-server. Dans Claude Code, enregistrez cette commande via claude mcp add serena. Des dizaines de langages majeurs sont pris en charge."
+      }
+    },
+    {
+      "question": {
+        "zh": "Serena 免费吗？会上传我的代码吗？",
+        "en": "Is Serena free? Does it upload my code?",
+        "ja": "Serena は無料ですか？コードはアップロードされますか？",
+        "es": "¿Serena es gratuita? ¿Sube mi código?",
+        "fr": "Serena est-elle gratuite ? Téléverse-t-elle mon code ?"
+      },
+      "answer": {
+        "zh": "完全免费开源（MIT），由 Oraios AI 维护。所有语义分析都在本地语言服务器里完成，代码不会被上传到任何第三方服务。",
+        "en": "Completely free and open source (MIT), maintained by Oraios AI. All semantic analysis happens in local language servers — your code is never uploaded to any third-party service.",
+        "ja": "完全無料のオープンソース（MIT）で、Oraios AI がメンテナンスしています。セマンティック解析はすべてローカルの言語サーバー内で行われ、コードが第三者サービスにアップロードされることはありません。",
+        "es": "Totalmente gratuita y de código abierto (MIT), mantenida por Oraios AI. Todo el análisis semántico ocurre en servidores de lenguaje locales: tu código nunca se sube a servicios de terceros.",
+        "fr": "Entièrement gratuite et open source (MIT), maintenue par Oraios AI. Toute l'analyse sémantique se fait dans des serveurs de langage locaux — votre code n'est jamais envoyé à un service tiers."
+      }
+    }
+  ]
+}

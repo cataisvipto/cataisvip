@@ -1,0 +1,256 @@
+{
+  "features": {
+    "en": [
+      "Stable Diffusion 4 open-source",
+      "Completely free local deployment",
+      "ComfyUI/WebUI interfaces",
+      "LoRA model fine-tuning",
+      "ControlNet precise control",
+      "Rich community models"
+    ],
+    "zh": [
+      "Stable Diffusion 4 开源模型",
+      "本地部署完全免费",
+      "ComfyUI/WebUI 界面",
+      "LoRA 模型微调",
+      "ControlNet 精确控制",
+      "社区模型丰富"
+    ],
+    "ja": [
+      "Stable Diffusion 4 オープンソース",
+      "完全無料のローカル展開",
+      "ComfyUI/WebUI インターフェース",
+      "LoRA モデルのファインチューニング",
+      "ControlNet による精密制御",
+      "豊富なコミュニティモデル"
+    ],
+    "es": [
+      "Stable Diffusion 4 de código abierto",
+      "Despliegue local totalmente gratuito",
+      "Interfaces ComfyUI/WebUI",
+      "Ajuste fino de modelos LoRA",
+      "Control preciso con ControlNet",
+      "Amplios modelos de la comunidad"
+    ],
+    "fr": [
+      "Stable Diffusion 4 open source",
+      "Déploiement local entièrement gratuit",
+      "Interfaces ComfyUI/WebUI",
+      "Fine-tuning de modèles LoRA",
+      "Contrôle précis avec ControlNet",
+      "Nombreux modèles communautaires"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Completely free open-source",
+      "zh": "完全免费开源",
+      "ja": "完全無料のオープンソース",
+      "es": "Código abierto totalmente gratuito",
+      "fr": "Open source entièrement gratuit"
+    },
+    "cloud": {
+      "en": "Cloud services pay-as-you-go",
+      "zh": "云服务按量计费",
+      "ja": "クラウドサービスは従量課金",
+      "es": "Servicios en la nube de pago por uso",
+      "fr": "Services cloud en paiement à l'usage"
+    },
+    "hardware": {
+      "en": "Requires local GPU hardware",
+      "zh": "需本地 GPU 硬件",
+      "ja": "ローカル GPU ハードウェアが必要",
+      "es": "Requiere hardware GPU local",
+      "fr": "Nécessite un GPU local"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Art creation and experimentation",
+      "Game art assets",
+      "Product design",
+      "Research and education",
+      "Personalized image generation",
+      "Commercial materials"
+    ],
+    "zh": [
+      "艺术创作与实验",
+      "游戏美术资产",
+      "产品设计与原型",
+      "研究与教育",
+      "个性化图像生成",
+      "商业素材制作"
+    ],
+    "ja": [
+      "アート制作と実験",
+      "ゲームアートアセット",
+      "製品デザイン",
+      "研究と教育",
+      "パーソナライズされた画像生成",
+      "商用素材の制作"
+    ],
+    "es": [
+      "Creación y experimentación artística",
+      "Recursos gráficos de videojuegos",
+      "Diseño de productos",
+      "Investigación y educación",
+      "Generación de imágenes personalizadas",
+      "Materiales comerciales"
+    ],
+    "fr": [
+      "Création et expérimentation artistiques",
+      "Assets graphiques de jeux",
+      "Design de produits",
+      "Recherche et éducation",
+      "Génération d'images personnalisées",
+      "Supports commerciaux"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Completely free open-source",
+      "Local deployment for privacy",
+      "Rich community ecosystem",
+      "Highly customizable"
+    ],
+    "zh": [
+      "完全免费开源",
+      "可本地部署保护隐私",
+      "社区生态丰富",
+      "可定制性强"
+    ],
+    "ja": [
+      "完全無料のオープンソース",
+      "プライバシーを守るローカル展開",
+      "豊かなコミュニティエコシステム",
+      "高いカスタマイズ性"
+    ],
+    "es": [
+      "Código abierto totalmente gratuito",
+      "Despliegue local para privacidad",
+      "Rico ecosistema comunitario",
+      "Muy personalizable"
+    ],
+    "fr": [
+      "Open source entièrement gratuit",
+      "Déploiement local pour la confidentialité",
+      "Riche écosystème communautaire",
+      "Hautement personnalisable"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Requires technical background",
+      "High hardware requirements",
+      "Steep learning curve"
+    ],
+    "zh": [
+      "需要技术基础",
+      "硬件要求较高",
+      "学习曲线陡峭"
+    ],
+    "ja": [
+      "技術的な知識が必要",
+      "ハードウェア要件が高い",
+      "学習曲線が急"
+    ],
+    "es": [
+      "Requiere conocimientos técnicos",
+      "Altos requisitos de hardware",
+      "Curva de aprendizaje pronunciada"
+    ],
+    "fr": [
+      "Nécessite des connaissances techniques",
+      "Exigences matérielles élevées",
+      "Courbe d'apprentissage abrupte"
+    ]
+  },
+  "latestUpdate": {
+    "en": "July 2026: Stable Diffusion 4 released with improved image quality and video support",
+    "zh": "2026年7月：Stable Diffusion 4 发布，图像质量和视频支持大幅提升",
+    "ja": "2026年7月：Stable Diffusion 4 を発表。画質が向上し、動画に対応",
+    "es": "Julio de 2026: se lanza Stable Diffusion 4 con mejor calidad de imagen y compatibilidad con vídeo",
+    "fr": "Juillet 2026 : lancement de Stable Diffusion 4 avec une meilleure qualité d'image et la prise en charge de la vidéo"
+  },
+  "verdict": {
+    "badge": "Highly Recommended",
+    "headline": {
+      "en": "The open-source image generation ecosystem that gives you total control — from model choice to pixel-level editing.",
+      "zh": "给你完全控制权的开源图像生成生态——从模型选择到像素级编辑。",
+      "ja": "モデル選択からピクセルレベルの編集まで完全なコントロールを与えるオープンソース画像生成エコシステム。",
+      "es": "El ecosistema de generación de imágenes open-source que te da control total — desde la elección de modelo hasta la edición a nivel de píxel.",
+      "fr": "L'écosystème de génération d'images open-source qui vous donne un contrôle total — du choix du modèle à l'édition au pixel près."
+    },
+    "body": {
+      "en": "Stable Diffusion isn't just a model—it's an entire ecosystem. ComfyUI, Automatic1111, Forge, and dozens of other interfaces give you workflow options that no closed platform can match. ControlNet for pose and composition guidance, LoRA models for style specialization, inpainting for precise edits, and img2img for iterative refinement create a toolkit that professional artists and studios rely on daily.\n\nThe cost equation is compelling: once set up, generation is essentially free beyond electricity and hardware costs. There are no per-image fees, no subscription tiers limiting resolution, and no content policy deciding what you can create. For studios producing hundreds of images daily, or developers integrating generation into products, the economics are unbeatable.\n\nThe honest trade-off is setup complexity. Getting Stable Diffusion running optimally—choosing the right checkpoint, installing extensions, configuring samplers—requires technical comfort that Midjourney's Discord prompt doesn't. Default outputs without careful prompting and model selection often look less refined than Midjourney. You're trading convenience for control, and that trade-off isn't right for everyone.",
+      "zh": "Stable Diffusion 不只是一个模型——它是整个生态系统。ComfyUI、Automatic1111、Forge 和数十个其他界面提供了封闭平台无法匹配的工作流选项。ControlNet 控制姿势和构图，LoRA 模型实现风格专精，修补功能进行精确编辑，img2img 做迭代优化——形成了专业艺术家和工作室日常依赖的工具包。\n\n成本方程式很有说服力：一旦设置完成，除电费和硬件成本外生成基本免费。没有按图收费，没有限制分辨率的订阅层级，没有内容政策决定你能创作什么。对于每天产出数百张图像的工作室或将生成集成到产品中的开发者，经济性无可匹敌。\n\n诚实的权衡是设置复杂度。让 Stable Diffusion 最优运行——选择正确的检查点、安装扩展、配置采样器——需要 Midjourney 的 Discord 提示词所不需要的技术基础。未经仔细提示和模型选择的默认输出通常不如 Midjourney 精致。你是在用便利性换取控制力，这种取舍并不适合所有人。",
+      "ja": "Stable Diffusionは単なるモデルではなく、エコシステム全体です。ComfyUI、Automatic1111、Forge、その他数十のインターフェースが、クローズドプラットフォームでは不可能なワークフローオプションを提供します。ControlNetによるポーズと構図のガイダンス、LoRAモデルによるスタイル特化、インペインティングによる精密編集、img2imgによる反復的改良が、プロのアーティストやスタジオが日常的に頼るツールキットを形成します。\n\nコスト方程式は魅力的です：セットアップ後は電気代とハードウェアコスト以外は本質的に無料です。画像ごとの料金なし、解像度を制限するサブスクリプションティアなし、作成内容を決めるコンテンツポリシーなし。\n\n正直なトレードオフはセットアップの複雑さです。最適に動作させるには技術的な快適さが必要で、MidjourneyのDiscordプロンプトには不要なものです。慎重なプロンプトとモデル選択なしのデフォルト出力は、Midjourneyより洗練度が低いことが多いです。",
+      "es": "Stable Diffusion no es solo un modelo—es un ecosistema completo. ComfyUI, Automatic1111, Forge y docenas de otras interfaces te dan opciones de flujo que ninguna plataforma cerrada puede igualar. ControlNet para guía de pose y composición, modelos LoRA para especialización de estilo, inpainting para ediciones precisas, e img2img para refinamiento iterativo crean un toolkit en el que artistas profesionales confían diariamente.\n\nLa ecuación de costos es convincente: una vez configurado, la generación es esencialmente gratuita más allá de electricidad y hardware. Sin tarifas por imagen, sin suscripciones limitando resolución, sin políticas de contenido decidiendo qué puedes crear.\n\nLa concesión honesta es la complejidad de configuración. Hacer funcionar Stable Diffusion óptimamente requiere comodidad técnica que el prompt de Discord de Midjourney no requiere. Los outputs por defecto sin prompting cuidadoso a menudo lucen menos refinados que Midjourney.",
+      "fr": "Stable Diffusion n'est pas qu'un modèle—c'est tout un écosystème. ComfyUI, Automatic1111, Forge et des dizaines d'autres interfaces offrent des options de workflow qu'aucune plateforme fermée ne peut égaler. ControlNet pour le guidage de pose et composition, les modèles LoRA pour la spécialisation de style, l'inpainting pour les éditions précises, et img2img pour le raffinement itératif forment une boîte à outils dont les artistes professionnels dépendent quotidiennement.\n\nL'équation de coût est convaincante : une fois configuré, la génération est essentiellement gratuite au-delà de l'électricité et du matériel. Pas de frais par image, pas d'abonnements limitant la résolution, pas de politique de contenu décidant ce que vous pouvez créer.\n\nLe compromis honnête est la complexité de configuration. Faire fonctionner Stable Diffusion de manière optimale nécessite un confort technique que le prompt Discord de Midjourney n'exige pas. Les sorties par défaut sans prompting soigné sont souvent moins raffinées que Midjourney."
+    },
+    "bestFor": {
+      "en": [
+        "Professional studios needing unlimited, cost-free generation at scale",
+        "Artists who want full control over every aspect of the generation pipeline",
+        "Developers integrating image generation into applications via API",
+        "Users who need unrestricted content creation without platform policies"
+      ],
+      "zh": [
+        "需要无限量、零成本规模化生成的专业工作室",
+        "想完全控制生成流程每个环节的艺术家",
+        "通过 API 将图像生成集成到应用中的开发者",
+        "需要无平台策略限制自由创作的用户"
+      ],
+      "ja": [
+        "無制限・コストフリーの大規模生成が必要なプロスタジオ",
+        "生成パイプラインのあらゆる側面を完全制御したいアーティスト",
+        "API経由で画像生成をアプリケーションに統合する開発者",
+        "プラットフォームポリシーなしで自由に制作したいユーザー"
+      ],
+      "es": [
+        "Estudios profesionales que necesitan generación ilimitada y sin costo a escala",
+        "Artistas que quieren control total sobre cada aspecto del pipeline de generación",
+        "Desarrolladores integrando generación de imágenes en aplicaciones vía API",
+        "Usuarios que necesitan creación de contenido sin restricciones de plataforma"
+      ],
+      "fr": [
+        "Studios professionnels nécessitant une génération illimitée et gratuite à grande échelle",
+        "Artistes voulant un contrôle total sur chaque aspect du pipeline de génération",
+        "Développeurs intégrant la génération d'images dans des applications via API",
+        "Utilisateurs nécessitant une création de contenu sans restriction de plateforme"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You want beautiful results with zero setup or technical knowledge (→ Midjourney)",
+        "You need quick one-off generations without installing anything (→ DALL-E, Adobe Firefly)",
+        "You prefer a managed service with guaranteed uptime and support (→ Midjourney, DALL-E)"
+      ],
+      "zh": [
+        "你想要零设置零技术知识就获得漂亮结果（→ Midjourney）",
+        "你需要快速一次性生成而不安装任何东西（→ DALL-E、Adobe Firefly）",
+        "你偏好有保障运行时间和支持的托管服务（→ Midjourney、DALL-E）"
+      ],
+      "ja": [
+        "セットアップや技術知識ゼロで美しい結果が欲しい場合（→ Midjourney）",
+        "何もインストールせずに素早い単発生成が必要な場合（→ DALL-E、Adobe Firefly）",
+        "稼働時間とサポートが保証されたマネージドサービスを好む場合（→ Midjourney、DALL-E）"
+      ],
+      "es": [
+        "Quieres resultados hermosos sin configuración ni conocimiento técnico (→ Midjourney)",
+        "Necesitas generaciones rápidas puntuales sin instalar nada (→ DALL-E, Adobe Firefly)",
+        "Prefieres un servicio gestionado con uptime garantizado y soporte (→ Midjourney, DALL-E)"
+      ],
+      "fr": [
+        "Vous voulez de beaux résultats sans configuration ni connaissances techniques (→ Midjourney)",
+        "Vous avez besoin de générations ponctuelles rapides sans rien installer (→ DALL-E, Adobe Firefly)",
+        "Vous préférez un service géré avec uptime garanti et support (→ Midjourney, DALL-E)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-27",
+    "verdictDate": "2026-07-27",
+    "pricingVerified": "2026-07-27"
+  }
+}

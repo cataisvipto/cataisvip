@@ -1,0 +1,30 @@
+{
+  "slug": "browser-use",
+  "name": "Browser Use",
+  "nameZh": "Browser Use",
+  "description": "让 AI 智能体操作浏览器的开源库与云服务：网页自动化、表单填写、数据采集，云端提供隐身浏览器与验证码处理",
+  "descriptionEn": "Open-source library and cloud service that lets AI agents control browsers: web automation, form filling, data extraction, with stealth browsers and CAPTCHA handling in the cloud",
+  "descriptionJa": "AIエージェントにブラウザを操作させるオープンソースライブラリ＆クラウドサービス。Web自動化、フォーム入力、データ収集に対応し、クラウドではステルスブラウザとCAPTCHA処理を提供",
+  "descriptionEs": "Biblioteca de código abierto y servicio en la nube que permite a agentes IA controlar navegadores: automatización web, relleno de formularios, extracción de datos, con navegadores sigilosos y gestión de CAPTCHA",
+  "descriptionFr": "Bibliothèque open source et service cloud permettant aux agents IA de contrôler des navigateurs : automatisation web, remplissage de formulaires, extraction de données, avec navigateurs furtifs et gestion des CAPTCHA",
+  "url": "https://browser-use.com",
+  "logo": "/logos/tools/browser-use.ico",
+  "category": "Agent",
+  "tags": [
+    "Freemium",
+    "Open Source",
+    "API"
+  ],
+  "featured": true,
+  "developer": "Browser Use",
+  "platforms": {
+    "web": true,
+    "windows": true,
+    "macos": true,
+    "ios": false,
+    "android": false,
+    "linux": true,
+    "browser_extension": false,
+    "api": true
+  }
+}

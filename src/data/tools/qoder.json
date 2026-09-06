@@ -1,0 +1,28 @@
+{
+  "slug": "qoder",
+  "name": "Qoder",
+  "nameZh": "Qoder",
+  "description": "AI 编码智能助手，支持代码生成、调试、项目管理，提供智能化的开发体验",
+  "descriptionEn": "AI coding assistant supporting code generation, debugging, and project management with intelligent development experience",
+  "descriptionJa": "AIコーディングアシスタント。コード生成、デバッグ、プロジェクト管理をサポート",
+  "descriptionEs": "Asistente de codificación IA que admite generación de código, depuración y gestión de proyectos",
+  "descriptionFr": "Assistant de codage IA prenant en charge la génération de code, le débogage et la gestion de projet",
+  "url": "https://qoder.com",
+  "logo": "/logos/tools/qoder.png",
+  "category": "Code",
+  "tags": [
+    "Freemium"
+  ],
+  "featured": true,
+  "developer": "Qoder",
+  "platforms": {
+    "web": false,
+    "windows": true,
+    "macos": true,
+    "ios": false,
+    "android": false,
+    "linux": true,
+    "browser_extension": false,
+    "api": "unknown"
+  }
+}

@@ -1,0 +1,249 @@
+{
+  "features": {
+    "en": [
+      "Ultra-fast LPU inference",
+      "Open-source model API",
+      "Sub-100ms Llama/Mixtral",
+      "Free developer API",
+      "High throughput",
+      "Enterprise scalable"
+    ],
+    "zh": [
+      "超快 LPU 推理",
+      "开源模型 API",
+      "Llama/Mixtral 响应时间 <100ms",
+      "免费开发者 API",
+      "高吞吐",
+      "可扩展"
+    ],
+    "ja": [
+      "超高速 LPU",
+      "オープンソース API",
+      "100ms 未満",
+      "無料開発者 API",
+      "高スループット",
+      "拡張可能"
+    ],
+    "es": [
+      "LPU ultrarrápida",
+      "API open-source",
+      "<100ms",
+      "API gratuita devs",
+      "Alto rendimiento",
+      "Escalable"
+    ],
+    "fr": [
+      "Inférence LPU ultra-rapide",
+      "API open-source",
+      "<100ms",
+      "API développeur gratuite",
+      "Haut débit",
+      "Évolutif"
+    ]
+  },
+  "useCases": {
+    "en": [
+      "High-speed inference",
+      "Real-time chat",
+      "Cost-effective LLM",
+      "Model experiments",
+      "Low-latency services"
+    ],
+    "zh": [
+      "高速推理",
+      "实时聊天",
+      "高性价比 LLM",
+      "模型实验",
+      "低延迟服务"
+    ],
+    "ja": [
+      "高速推論",
+      "リアルタイム",
+      "低コスト LLM",
+      "モデル実験",
+      "低遅延"
+    ],
+    "es": [
+      "Inferencia rápida",
+      "Chat tiempo real",
+      "LLM rentable",
+      "Experimentación",
+      "Baja latencia"
+    ],
+    "fr": [
+      "Inférence rapide",
+      "Chat temps réel",
+      "LLM économique",
+      "Expérimentations",
+      "Faible latence"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Blazing fast",
+      "Free tier",
+      "Open-source models",
+      "Dev-friendly"
+    ],
+    "zh": [
+      "极快",
+      "免费版",
+      "开源模型",
+      "开发者友好"
+    ],
+    "ja": [
+      "超高速",
+      "無料",
+      "オープンソース",
+      "開発者向け"
+    ],
+    "es": [
+      "Rapidísimo",
+      "Gratuito",
+      "Open-source",
+      "Fácil dev"
+    ],
+    "fr": [
+      "Ultra-rapide",
+      "Gratuit",
+      "Open-source",
+      "Conviviale"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Limited model selection",
+      "Free rate limits strict",
+      "No proprietary models",
+      "Growing platform"
+    ],
+    "zh": [
+      "模型选择有限",
+      "免费限速严格",
+      "无自有模型",
+      "平台成长中"
+    ],
+    "ja": [
+      "モデル少数",
+      "レート制限",
+      "独自モデルなし",
+      "発展途上"
+    ],
+    "es": [
+      "Modelos limitados",
+      "Límites estrictos",
+      "Sin modelos propios",
+      "Creciendo"
+    ],
+    "fr": [
+      "Modèles limités",
+      "Limites strictes",
+      "Pas de modèles",
+      "Croissance"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Free with rate limits",
+      "zh": "免费有限速",
+      "ja": "無料レート制限",
+      "es": "Gratuito límites",
+      "fr": "Gratuit limites débit"
+    },
+    "pro": {
+      "en": "Enterprise pay-as-you-go",
+      "zh": "企业按量计费",
+      "ja": "エンタープライズ従量",
+      "es": "Empresa por uso",
+      "fr": "Entreprise à la conso"
+    }
+  },
+  "latestUpdate": {
+    "en": "2026: Groq advances LPU hardware & models",
+    "zh": "2026年：Groq 推进 LPU 硬件和模型",
+    "ja": "2026年：Groq が LPU とモデルを進化",
+    "es": "2026: Groq avanza hardware LPU",
+    "fr": "2026 : Groq fait progresser le matériel LPU"
+  },
+  "verdict": {
+    "badge": "Recommended",
+    "headline": {
+      "en": "The fastest LLM inference available — purpose-built hardware that delivers responses before you finish reading the prompt.",
+      "zh": "最快的LLM推理——专用硬件在你读完提示之前就给出响应。",
+      "ja": "利用可能な最速のLLM推理——専用ハードウェアが即座に応答。",
+      "es": "La inferencia LLM más rápida disponible — hardware diseñado que entrega respuestas instantáneamente.",
+      "fr": "L'inférence LLM la plus rapide disponible — matériel dédié pour des réponses instantanées."
+    },
+    "body": {
+      "en": "Groq's custom LPU hardware achieves inference speeds that make other providers feel sluggish. Hundreds of tokens per second for models like Llama 3 and Mixtral—fast enough that responses feel instant.\n\nThe practical impact is significant for real-time applications: chatbots that respond as fast as conversation, agents making dozens of LLM calls without latency bottlenecks.\n\nThe limitation is model selection. Groq serves open-source models rather than proprietary ones like GPT-4 or Claude. Speed is excellent but with the capability ceiling of open-source models.",
+      "zh": "Groq的定制LPU硬件实现的推理速度让其他提供商相形见绌。Llama 3和Mixtral等模型达到每秒数百token。\n\n对实时应用影响显著：响应快如对话的聊天机器人、无延迟瓶颈的多次LLM调用。\n\n限制在于模型选择。Groq提供开源模型而非GPT-4或Claude等专有模型。",
+      "ja": "GroqのカスタムLPUハードウェアは他のプロバイダーが遅く感じる推論速度を実現します。Llama 3やMixtralで毎秒数百トークン。\n\nリアルタイムアプリへの影響は大きいです。\n\n制限はモデル選択です。Groqはオープンソースモデルを提供します。",
+      "es": "El hardware LPU de Groq logra velocidades de inferencia que hacen que otros parezcan lentos. Cientos de tokens por segundo.\n\nEl impacto es significativo para aplicaciones en tiempo real.\n\nLa limitación es la selección de modelos. Groq sirve modelos de código abierto.",
+      "fr": "Le matériel LPU de Groq atteint des vitesses d'inférence incomparables. Des centaines de tokens par seconde.\n\nL'impact est significatif pour les applications temps réel.\n\nLa limitation est la sélection de modèles. Groq sert des modèles open-source."
+    },
+    "bestFor": {
+      "en": [
+        "Real-time applications where response latency matters most",
+        "Multi-step AI agents making many sequential LLM calls",
+        "Developer prototyping with fast feedback loops",
+        "High-volume concurrent request applications"
+      ],
+      "zh": [
+        "响应延迟至关重要的实时应用",
+        "多次串行LLM调用的多步AI智能体",
+        "需要快速反馈循环的开发者原型",
+        "高并发请求的应用"
+      ],
+      "ja": [
+        "応答レイテンシーが最重要なリアルタイムアプリ",
+        "多数のLLM呼び出しを行うマルチステップエージェント",
+        "高速フィードバックループでのプロトタイピング",
+        "高ボリューム同時リクエストアプリ"
+      ],
+      "es": [
+        "Aplicaciones en tiempo real donde la latencia importa",
+        "Agentes IA multi-paso con muchas llamadas LLM",
+        "Prototipado con ciclos rápidos",
+        "Aplicaciones de alto volumen"
+      ],
+      "fr": [
+        "Applications temps réel où la latence est primordiale",
+        "Agents multi-étapes avec nombreux appels LLM",
+        "Prototypage avec boucles de feedback rapides",
+        "Applications à haut volume de requêtes"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You need frontier-model reasoning quality (→ Claude API, OpenAI API)",
+        "You want to run models locally for full privacy (→ Ollama)",
+        "You need a broader model selection including proprietary ones (→ OpenRouter)"
+      ],
+      "zh": [
+        "你需要前沿模型推理质量（→ Claude API、OpenAI API）",
+        "你想本地运行模型实现完全隐私（→ Ollama）",
+        "你需要包含专有模型的更广泛选择（→ OpenRouter）"
+      ],
+      "ja": [
+        "フロンティアモデルの推論品質が必要な場合（→ Claude API、OpenAI API）",
+        "完全なプライバシーのためモデルをローカル実行したい場合（→ Ollama）",
+        "プロプライエタリモデルを含むより広い選択が必要な場合（→ OpenRouter）"
+      ],
+      "es": [
+        "Necesitas calidad de razonamiento frontera (→ Claude API, OpenAI API)",
+        "Quieres ejecutar modelos localmente (→ Ollama)",
+        "Necesitas una selección más amplia de modelos (→ OpenRouter)"
+      ],
+      "fr": [
+        "Vous avez besoin de la qualité d'un modèle frontière (→ Claude API, OpenAI API)",
+        "Vous voulez exécuter des modèles localement (→ Ollama)",
+        "Vous avez besoin d'une sélection plus large de modèles (→ OpenRouter)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-27",
+    "verdictDate": "2026-07-27",
+    "pricingVerified": "2026-07-27"
+  }
+}

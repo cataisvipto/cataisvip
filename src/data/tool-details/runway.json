@@ -1,0 +1,263 @@
+{
+  "features": {
+    "en": [
+      "Gen-4.5 high-fidelity video model",
+      "Text/image-to-video generation",
+      "World-consistent characters and scenes",
+      "Video-to-video and editing tools",
+      "Act-One performance capture",
+      "API for developers"
+    ],
+    "zh": [
+      "Gen-4.5 高保真视频模型",
+      "文本/图像生成视频",
+      "角色与场景一致性保持",
+      "视频转视频与编辑工具",
+      "Act-One 表演捕捉",
+      "开发者 API"
+    ],
+    "ja": [
+      "Gen-4.5 高忠実度ビデオモデル",
+      "テキスト/画像から動画生成",
+      "世界観に一貫したキャラクターとシーン",
+      "動画から動画への変換と編集ツール",
+      "Act-One パフォーマンスキャプチャ",
+      "開発者向け API"
+    ],
+    "es": [
+      "Modelo de vídeo de alta fidelidad Gen-4.5",
+      "Generación de vídeo a partir de texto/imagen",
+      "Personajes y escenas coherentes",
+      "Herramientas de vídeo a vídeo y edición",
+      "Captura de interpretación Act-One",
+      "API para desarrolladores"
+    ],
+    "fr": [
+      "Modèle vidéo haute fidélité Gen-4.5",
+      "Génération de vidéo à partir de texte/image",
+      "Personnages et scènes cohérents",
+      "Outils de vidéo à vidéo et d'édition",
+      "Capture de performance Act-One",
+      "API pour les développeurs"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Limited credits, watermarked",
+      "zh": "有限额度，带水印",
+      "ja": "限定クレジット、透かし入り",
+      "es": "Créditos limitados, con marca de agua",
+      "fr": "Crédits limités, filigrané"
+    },
+    "standard": {
+      "en": "$12/month",
+      "zh": "$12/月",
+      "ja": "月額12ドル",
+      "es": "12 $/mes",
+      "fr": "12 $/mois"
+    },
+    "pro": {
+      "en": "$28/month",
+      "zh": "$28/月",
+      "ja": "月額28ドル",
+      "es": "28 $/mes",
+      "fr": "28 $/mois"
+    },
+    "unlimited": {
+      "en": "$76/month annual, $95 monthly (unlimited in relaxed mode)",
+      "zh": "$76/月（年付），月付 $95（宽松模式不限量）",
+      "ja": "年払い月額76ドル、月払い95ドル（リラックスモードで無制限）",
+      "es": "76 $/mes anual, 95 $ mensual (ilimitado en modo relajado)",
+      "fr": "76 $/mois annuel, 95 $ mensuel (illimité en mode détendu)"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Short films and cinematic clips",
+      "Advertising and marketing video",
+      "Music videos",
+      "Storyboarding and previz",
+      "Social media content",
+      "VFX and compositing"
+    ],
+    "zh": [
+      "短片与电影级片段",
+      "广告与营销视频",
+      "音乐视频",
+      "分镜与预演",
+      "社交媒体内容",
+      "视觉特效与合成"
+    ],
+    "ja": [
+      "短編映画と映画的な映像",
+      "広告・マーケティング動画",
+      "ミュージックビデオ",
+      "絵コンテとプレビズ",
+      "SNS コンテンツ",
+      "VFX と合成"
+    ],
+    "es": [
+      "Cortometrajes y clips cinematográficos",
+      "Vídeo de publicidad y marketing",
+      "Vídeos musicales",
+      "Storyboard y previsualización",
+      "Contenido para redes sociales",
+      "VFX y composición"
+    ],
+    "fr": [
+      "Courts métrages et clips cinématographiques",
+      "Vidéo publicitaire et marketing",
+      "Clips musicaux",
+      "Storyboard et prévisualisation",
+      "Contenu pour réseaux sociaux",
+      "VFX et compositing"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Top-rated video fidelity",
+      "Strong scene consistency",
+      "Rich editing toolset",
+      "Fast iteration"
+    ],
+    "zh": [
+      "视频保真度顶尖",
+      "场景一致性强",
+      "编辑工具丰富",
+      "迭代速度快"
+    ],
+    "ja": [
+      "最高評価の映像忠実度",
+      "強いシーンの一貫性",
+      "豊富な編集ツール",
+      "高速な反復"
+    ],
+    "es": [
+      "Fidelidad de vídeo mejor valorada",
+      "Fuerte coherencia de escenas",
+      "Amplio conjunto de herramientas de edición",
+      "Iteración rápida"
+    ],
+    "fr": [
+      "Fidélité vidéo la mieux notée",
+      "Forte cohérence des scènes",
+      "Riche panoplie d'outils d'édition",
+      "Itération rapide"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Credits consumed quickly",
+      "Free tier limited",
+      "Long clips still challenging"
+    ],
+    "zh": [
+      "额度消耗较快",
+      "免费额度有限",
+      "长片段仍具挑战"
+    ],
+    "ja": [
+      "クレジットの消費が速い",
+      "無料枠は限定的",
+      "長尺クリップはまだ難しい"
+    ],
+    "es": [
+      "Los créditos se consumen rápido",
+      "Plan gratuito limitado",
+      "Los clips largos siguen siendo un reto"
+    ],
+    "fr": [
+      "Crédits consommés rapidement",
+      "Offre gratuite limitée",
+      "Les clips longs restent difficiles"
+    ]
+  },
+  "latestUpdate": {
+    "en": "July 2026: Runway Gen-4.5 released as a top-rated video model with unprecedented fidelity and creative control",
+    "zh": "2026年7月：Runway Gen-4.5 发布，成为顶级视频模型，保真度与创作控制空前",
+    "ja": "2026年7月：Runway Gen-4.5 が最高評価のビデオモデルとして登場し、前例のない忠実度と創作コントロールを実現",
+    "es": "Julio de 2026: se lanza Runway Gen-4.5 como un modelo de vídeo mejor valorado con una fidelidad y un control creativo sin precedentes",
+    "fr": "Juillet 2026 : lancement de Runway Gen-4.5, modèle vidéo le mieux noté offrant une fidélité et un contrôle créatif sans précédent"
+  },
+  "verdict": {
+    "badge": "Recommended",
+    "headline": {
+      "en": "The most mature AI video generation platform — where creative professionals go when they need motion, not just stills.",
+      "zh": "最成熟的 AI 视频生成平台——创意专业人士需要动态而非静态时的首选。",
+      "ja": "最も成熟したAI動画生成プラットフォーム——静止画ではなくモーションが必要な時、クリエイティブのプロが頼る場所。",
+      "es": "La plataforma de generación de vídeo IA más madura — donde los profesionales creativos van cuando necesitan movimiento, no solo imágenes fijas.",
+      "fr": "La plateforme de génération vidéo IA la plus mature — là où les professionnels créatifs vont quand ils ont besoin de mouvement, pas seulement d'images fixes."
+    },
+    "body": {
+      "en": "Runway has been building AI video tools longer than most competitors have existed. The Gen-3 Alpha model produces clips with noticeably more coherent motion and fewer artifacts than alternatives. Motion Brush lets you selectively animate parts of an image, and the camera control features give you directorial precision that text-to-video alone cannot achieve.\n\nFor professional workflows—advertising agencies, film pre-visualization, social media content teams—Runway offers the most production-ready output quality currently available. The web interface is polished, rendering is fast on their cloud infrastructure, and the results frequently need minimal post-processing. It integrates into existing creative pipelines more naturally than research-oriented alternatives.\n\nThe limitations are cost and duration. Credits deplete quickly when generating at high resolution, and individual clips remain short (typically 4-10 seconds). Building longer sequences requires careful planning and editing. The quality also varies significantly by subject matter—human motion and complex physics still produce occasional uncanny results. For simple motion graphics or lower-budget needs, Pika or free alternatives may suffice.",
+      "zh": "Runway 构建 AI 视频工具的时间比大多数竞品存在的时间还长。Gen-3 Alpha 模型生成的片段运动连贯性明显更强、瑕疵更少。Motion Brush 让你选择性地动画化图像的部分区域，摄像机控制功能提供了纯文本转视频无法达到的导演级精度。\n\n对于专业工作流——广告公司、电影预可视化、社交媒体内容团队——Runway 提供了目前可用的最接近可直接使用的输出质量。网页界面精致，云端渲染快速，结果常常只需最少的后期处理。\n\n局限在于成本和时长。高分辨率生成会快速消耗积分，单个片段仍然很短（通常 4-10 秒）。构建更长序列需要仔细规划和剪辑。质量也因主题而异——人物运动和复杂物理仍偶尔产生违和感。对于简单动态图形或低预算需求，Pika 或免费替代品可能就够了。",
+      "ja": "Runwayは競合の多くが存在する前からAI動画ツールを構築してきました。Gen-3 Alphaモデルは代替品より明らかに一貫したモーションと少ないアーティファクトのクリップを生成します。Motion Brushで画像の部分を選択的にアニメーション化でき、カメラコントロール機能はテキストtoビデオだけでは達成できない演出の精度を提供します。\n\nプロのワークフロー——広告代理店、映画プリビズ、SNSコンテンツチーム——にとって、Runwayは現在利用可能な最もプロダクションレディな出力品質を提供します。\n\n制限はコストと尺です。高解像度生成ではクレジットが急速に消費され、個々のクリップは短いまま（通常4-10秒）です。長いシーケンスの構築には慎重な計画と編集が必要です。品質も題材により大きく異なります。",
+      "es": "Runway ha estado construyendo herramientas de vídeo IA más tiempo que la mayoría de competidores han existido. El modelo Gen-3 Alpha produce clips con movimiento notablemente más coherente y menos artefactos. Motion Brush permite animar selectivamente partes de una imagen, y los controles de cámara dan precisión directorial que el texto-a-vídeo solo no puede lograr.\n\nPara flujos profesionales—agencias de publicidad, previsualización de películas, equipos de contenido social—Runway ofrece la calidad de output más lista para producción actualmente disponible.\n\nLas limitaciones son costo y duración. Los créditos se agotan rápidamente al generar en alta resolución, y los clips individuales siguen siendo cortos (típicamente 4-10 segundos). La calidad también varía significativamente por tema. Para motion graphics simples o necesidades de menor presupuesto, Pika o alternativas gratuitas pueden ser suficientes.",
+      "fr": "Runway construit des outils vidéo IA depuis plus longtemps que la plupart des concurrents n'existent. Le modèle Gen-3 Alpha produit des clips avec un mouvement nettement plus cohérent et moins d'artefacts. Motion Brush permet d'animer sélectivement des parties d'une image, et les contrôles de caméra offrent une précision de réalisateur que le texte-à-vidéo seul ne peut atteindre.\n\nPour les workflows professionnels—agences de publicité, pré-visualisation de films, équipes de contenu social—Runway offre la qualité de sortie la plus prête pour la production actuellement disponible.\n\nLes limites sont le coût et la durée. Les crédits s'épuisent rapidement en haute résolution, et les clips individuels restent courts (typiquement 4-10 secondes). La qualité varie aussi significativement selon le sujet. Pour des motion graphics simples ou des besoins à moindre budget, Pika ou des alternatives gratuites peuvent suffire."
+    },
+    "bestFor": {
+      "en": [
+        "Advertising and marketing teams creating short video content",
+        "Film and TV pre-visualization workflows",
+        "Creative professionals who need controllable AI motion (Motion Brush, camera paths)",
+        "Social media teams producing high-volume short-form video"
+      ],
+      "zh": [
+        "创建短视频内容的广告和营销团队",
+        "影视预可视化工作流",
+        "需要可控 AI 运动的创意专业人士（Motion Brush、摄像机路径）",
+        "高产量短视频制作的社交媒体团队"
+      ],
+      "ja": [
+        "短い動画コンテンツを作成する広告・マーケティングチーム",
+        "映画・テレビのプリビジュアライゼーションワークフロー",
+        "制御可能なAIモーションが必要なクリエイティブプロフェッショナル",
+        "大量の短尺動画を制作するSNSチーム"
+      ],
+      "es": [
+        "Equipos de publicidad y marketing creando contenido de vídeo corto",
+        "Flujos de previsualización para cine y TV",
+        "Profesionales creativos que necesitan movimiento IA controlable (Motion Brush)",
+        "Equipos de redes sociales produciendo vídeo corto en alto volumen"
+      ],
+      "fr": [
+        "Équipes publicité et marketing créant du contenu vidéo court",
+        "Workflows de pré-visualisation pour cinéma et TV",
+        "Professionnels créatifs nécessitant un mouvement IA contrôlable (Motion Brush)",
+        "Équipes réseaux sociaux produisant du contenu vidéo court en volume"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You need longer-form video generation (30s+) in a single pass (→ Sora, Kling AI)",
+        "You want free or very low-cost video generation for experimentation (→ Pika, Luma)",
+        "You need full-length video editing, not just generation (→ Descript, traditional NLEs)"
+      ],
+      "zh": [
+        "你需要单次生成更长视频（30 秒以上）（→ Sora、Kling AI）",
+        "你想要免费或极低成本的视频生成来实验（→ Pika、Luma）",
+        "你需要完整的视频编辑而非仅生成（→ Descript、传统 NLE）"
+      ],
+      "ja": [
+        "単一パスでより長い動画生成（30秒以上）が必要な場合（→ Sora、Kling AI）",
+        "実験用に無料または非常に低コストの動画生成が欲しい場合（→ Pika、Luma）",
+        "生成だけでなく完全な動画編集が必要な場合（→ Descript、従来のNLE）"
+      ],
+      "es": [
+        "Necesitas generación de vídeo más largo (30s+) en un solo paso (→ Sora, Kling AI)",
+        "Quieres generación de vídeo gratuita o muy barata para experimentar (→ Pika, Luma)",
+        "Necesitas edición de vídeo completa, no solo generación (→ Descript, NLEs tradicionales)"
+      ],
+      "fr": [
+        "Vous avez besoin de génération vidéo plus longue (30s+) en un seul passage (→ Sora, Kling AI)",
+        "Vous voulez une génération vidéo gratuite ou très peu coûteuse pour expérimenter (→ Pika, Luma)",
+        "Vous avez besoin de montage vidéo complet, pas seulement de génération (→ Descript, NLEs traditionnels)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-29",
+    "verdictDate": "2026-07-27",
+    "pricingVerified": "2026-07-29"
+  }
+}

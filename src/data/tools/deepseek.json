@@ -1,0 +1,32 @@
+{
+  "slug": "deepseek",
+  "homeFeatured": true,
+  "name": "DeepSeek",
+  "nameZh": "DeepSeek 深度求索",
+  "description": "深度求索推出的开源大模型，推理能力强劲，性价比极高",
+  "descriptionEn": "Open-source LLM by DeepSeek with strong reasoning capabilities and excellent cost efficiency",
+  "descriptionJa": "DeepSeekのオープンソースLLM。強力な推論能力と高いコストパフォーマンスを誇る",
+  "descriptionEs": "LLM de código abierto de DeepSeek con fuerte capacidad de razonamiento y excelente relación calidad-precio",
+  "descriptionFr": "LLM open-source de DeepSeek avec de fortes capacités de raisonnement et un excellent rapport qualité-prix",
+  "url": "https://chat.deepseek.com",
+  "logo": "/logos/tools/deepseek.png",
+  "category": "Chat",
+  "tags": [
+    "Free",
+    "Open Source",
+    "API"
+  ],
+  "featured": true,
+  "developer": "DeepSeek",
+  "developerZh": "深度求索",
+  "platforms": {
+    "web": true,
+    "windows": false,
+    "macos": false,
+    "ios": true,
+    "android": true,
+    "linux": false,
+    "browser_extension": false,
+    "api": true
+  }
+}

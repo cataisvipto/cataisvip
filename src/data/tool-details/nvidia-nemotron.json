@@ -1,0 +1,234 @@
+{
+  "features": {
+    "en": [
+      "Open model family: Nano, Super and Ultra sizes",
+      "Reasoning toggle: switch thinking mode on or off",
+      "Optimized for agentic AI and tool calling",
+      "Open weights and training data on Hugging Face",
+      "Deploy anywhere via NIM microservices",
+      "Tuned for peak throughput on NVIDIA GPUs"
+    ],
+    "zh": [
+      "开放模型家族：Nano、Super、Ultra 三档",
+      "推理开关：可按需开启/关闭思考模式",
+      "为智能体 AI 与工具调用优化",
+      "权重与训练数据开放在 Hugging Face",
+      "通过 NIM 微服务随处部署",
+      "针对 NVIDIA GPU 极致吞吐调优"
+    ],
+    "ja": [
+      "オープンモデルファミリー：Nano・Super・Ultraの3サイズ",
+      "推論トグル：思考モードのオン/オフ切替可能",
+      "エージェントAIとツール呼び出しに最適化",
+      "重みと学習データをHugging Faceで公開",
+      "NIMマイクロサービスでどこでもデプロイ",
+      "NVIDIA GPUで最大スループットにチューニング"
+    ],
+    "es": [
+      "Familia de modelos abiertos: tamaños Nano, Super y Ultra",
+      "Interruptor de razonamiento: activa o desactiva el modo pensamiento",
+      "Optimizado para IA agéntica y llamadas a herramientas",
+      "Pesos y datos de entrenamiento abiertos en Hugging Face",
+      "Despliegue en cualquier lugar vía microservicios NIM",
+      "Ajustado para máximo rendimiento en GPUs NVIDIA"
+    ],
+    "fr": [
+      "Famille de modèles ouverts : tailles Nano, Super et Ultra",
+      "Bascule de raisonnement : mode réflexion activable à la demande",
+      "Optimisé pour l'IA agentique et l'appel d'outils",
+      "Poids et données d'entraînement ouverts sur Hugging Face",
+      "Déploiement partout via les microservices NIM",
+      "Réglé pour un débit maximal sur GPU NVIDIA"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Open weights free to download under NVIDIA Open Model License",
+      "zh": "开放权重可在 NVIDIA 开放模型许可下免费下载",
+      "ja": "NVIDIAオープンモデルライセンスの下で重みを無料ダウンロード可能",
+      "es": "Pesos abiertos descargables gratis bajo la NVIDIA Open Model License",
+      "fr": "Poids ouverts téléchargeables gratuitement sous la NVIDIA Open Model License"
+    },
+    "api": {
+      "en": "Free trial credits on build.nvidia.com; production via NVIDIA AI Enterprise",
+      "zh": "build.nvidia.com 提供免费试用额度，生产环境走 NVIDIA AI Enterprise",
+      "ja": "build.nvidia.comで無料試用クレジット、本番はNVIDIA AI Enterprise経由",
+      "es": "Créditos de prueba gratis en build.nvidia.com; producción vía NVIDIA AI Enterprise",
+      "fr": "Crédits d'essai gratuits sur build.nvidia.com ; production via NVIDIA AI Enterprise"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Building AI agents with efficient reasoning",
+      "Self-hosted LLM inference on NVIDIA hardware",
+      "RAG pipelines needing high-throughput models",
+      "Fine-tuning on open weights for vertical tasks",
+      "Cost-controlled reasoning by toggling think mode"
+    ],
+    "zh": [
+      "构建高效推理的 AI 智能体",
+      "NVIDIA 硬件上的自托管 LLM 推理",
+      "需要高吞吐模型的 RAG 流水线",
+      "基于开放权重做垂直任务微调",
+      "用思考开关控制推理成本"
+    ],
+    "ja": [
+      "効率的な推論を備えたAIエージェント構築",
+      "NVIDIAハードウェアでのセルフホストLLM推論",
+      "高スループットモデルが必要なRAGパイプライン",
+      "オープンな重みでの垂直タスク向けファインチューニング",
+      "思考モード切替による推論コスト管理"
+    ],
+    "es": [
+      "Construcción de agentes de IA con razonamiento eficiente",
+      "Inferencia LLM autoalojada en hardware NVIDIA",
+      "Pipelines RAG que requieren modelos de alto rendimiento",
+      "Ajuste fino sobre pesos abiertos para tareas verticales",
+      "Control de costes activando o no el modo pensamiento"
+    ],
+    "fr": [
+      "Construction d'agents IA au raisonnement efficace",
+      "Inférence LLM auto-hébergée sur matériel NVIDIA",
+      "Pipelines RAG nécessitant des modèles à haut débit",
+      "Fine-tuning sur poids ouverts pour des tâches verticales",
+      "Maîtrise des coûts via la bascule du mode réflexion"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Truly open: weights, data and recipes published",
+      "Excellent efficiency per GPU dollar",
+      "Reasoning on/off saves inference cost",
+      "First-class NVIDIA stack integration"
+    ],
+    "zh": [
+      "真开放：权重、数据、训练配方全公开",
+      "单位 GPU 成本效率出色",
+      "推理开关节省推理成本",
+      "与 NVIDIA 全栈一等整合"
+    ],
+    "ja": [
+      "真のオープン：重み・データ・レシピを公開",
+      "GPUコストあたりの効率が優秀",
+      "推論オン/オフで推論コスト削減",
+      "NVIDIAスタックとの一級統合"
+    ],
+    "es": [
+      "Verdaderamente abierto: pesos, datos y recetas publicados",
+      "Excelente eficiencia por dólar de GPU",
+      "El razonamiento conmutable ahorra costes de inferencia",
+      "Integración de primera clase con el stack NVIDIA"
+    ],
+    "fr": [
+      "Vraiment ouvert : poids, données et recettes publiés",
+      "Excellente efficacité par dollar de GPU",
+      "Le raisonnement commutable réduit les coûts d'inférence",
+      "Intégration de premier ordre au stack NVIDIA"
+    ]
+  },
+  "cons": {
+    "en": [
+      "No consumer chat product — developer-oriented",
+      "Best performance tied to NVIDIA hardware",
+      "Smaller community than Llama or Qwen"
+    ],
+    "zh": [
+      "无消费级对话产品，面向开发者",
+      "最佳性能绑定 NVIDIA 硬件",
+      "社区规模小于 Llama、Qwen"
+    ],
+    "ja": [
+      "消費者向けチャット製品はなく開発者向け",
+      "最高性能はNVIDIAハードウェア前提",
+      "コミュニティ規模はLlamaやQwenより小さい"
+    ],
+    "es": [
+      "Sin producto de chat de consumo — orientado a desarrolladores",
+      "Mejor rendimiento ligado a hardware NVIDIA",
+      "Comunidad más pequeña que Llama o Qwen"
+    ],
+    "fr": [
+      "Pas de produit de chat grand public — orienté développeurs",
+      "Meilleures performances liées au matériel NVIDIA",
+      "Communauté plus petite que Llama ou Qwen"
+    ]
+  },
+  "latestUpdate": {
+    "en": "2026: Nemotron family expands agentic-AI focus; open datasets and NIM deployment options keep growing",
+    "zh": "2026年：Nemotron 家族深化智能体方向，开放数据集与 NIM 部署选项持续扩充",
+    "ja": "2026年：NemotronファミリーはエージェントAI路線を強化、公開データセットとNIM展開オプションが拡大",
+    "es": "2026: la familia Nemotron amplía su enfoque en IA agéntica; los datasets abiertos y opciones NIM siguen creciendo",
+    "fr": "2026 : la famille Nemotron renforce son orientation IA agentique ; les jeux de données ouverts et options NIM continuent de croître"
+  },
+  "verdict": {
+    "badge": "Recommended",
+    "headline": {
+      "en": "The most transparent open model family — built to squeeze every drop out of NVIDIA GPUs.",
+      "zh": "最透明的开放模型家族——为榨干 NVIDIA GPU 的每一分性能而生。",
+      "ja": "最も透明性の高いオープンモデルファミリー——NVIDIA GPUの性能を絞り尽くすために作られた。",
+      "es": "La familia de modelos abiertos más transparente — hecha para exprimir cada gota de las GPUs NVIDIA.",
+      "fr": "La famille de modèles ouverts la plus transparente — conçue pour tirer le maximum des GPU NVIDIA."
+    },
+    "body": {
+      "en": "Nemotron's differentiator is radical openness: NVIDIA publishes not just weights but training datasets and post-training recipes, which almost no frontier lab does. The reasoning toggle is genuinely useful — you pay thinking-token costs only when a task needs them.\n\nIt is a developer platform, not a chat app. If you run inference on NVIDIA GPUs and want an efficient, commercially friendly open model for agents or RAG, Nemotron belongs on your shortlist alongside Llama and Qwen.",
+      "zh": "Nemotron 的差异化在于彻底的开放：NVIDIA 不仅开权重，还公开训练数据集与后训练配方——前沿实验室几乎没人这么做。推理开关非常实用，只在任务需要时才付出思考 token 的成本。\n\n它是开发者平台而非聊天应用。如果你在 NVIDIA GPU 上跑推理，想要一个高效、商用友好的开放模型做智能体或 RAG，Nemotron 值得与 Llama、Qwen 一起进入候选清单。",
+      "ja": "Nemotronの差別化要因は徹底したオープン性にある。NVIDIAは重みだけでなく学習データセットとポストトレーニングのレシピまで公開しており、フロンティアラボでは他にほぼ例がない。推論トグルは実用的で、タスクが必要とするときだけ思考トークンのコストを払えばよい。\n\nこれはチャットアプリではなく開発者プラットフォームだ。NVIDIA GPUで推論を回し、エージェントやRAG向けに効率的で商用フレンドリーなオープンモデルを求めるなら、LlamaやQwenと並んで候補に入れる価値がある。",
+      "es": "El diferenciador de Nemotron es su apertura radical: NVIDIA publica no solo los pesos sino los datasets de entrenamiento y las recetas de post-entrenamiento, algo que casi ningún laboratorio de frontera hace. El interruptor de razonamiento es realmente útil: solo pagas tokens de pensamiento cuando la tarea lo requiere.\n\nEs una plataforma para desarrolladores, no una app de chat. Si ejecutas inferencia en GPUs NVIDIA y quieres un modelo abierto eficiente y comercialmente amigable para agentes o RAG, Nemotron merece estar en tu lista junto a Llama y Qwen.",
+      "fr": "Le facteur différenciant de Nemotron est son ouverture radicale : NVIDIA publie non seulement les poids mais aussi les jeux de données d'entraînement et les recettes de post-entraînement, ce que presque aucun laboratoire de frontière ne fait. La bascule de raisonnement est réellement utile — vous ne payez les tokens de réflexion que lorsque la tâche l'exige.\n\nC'est une plateforme développeur, pas une app de chat. Si vous faites de l'inférence sur GPU NVIDIA et cherchez un modèle ouvert efficace et adapté au commercial pour agents ou RAG, Nemotron mérite sa place aux côtés de Llama et Qwen."
+    },
+    "bestFor": {
+      "en": [
+        "Agent builders on NVIDIA infrastructure",
+        "Teams needing open data and training transparency",
+        "Cost-sensitive reasoning workloads"
+      ],
+      "zh": [
+        "NVIDIA 基础设施上的智能体开发者",
+        "需要开放数据与训练透明度的团队",
+        "成本敏感的推理工作负载"
+      ],
+      "ja": [
+        "NVIDIAインフラ上のエージェント開発者",
+        "オープンデータと学習透明性が必要なチーム",
+        "コスト重視の推論ワークロード"
+      ],
+      "es": [
+        "Constructores de agentes en infraestructura NVIDIA",
+        "Equipos que necesitan datos abiertos y transparencia de entrenamiento",
+        "Cargas de razonamiento sensibles al coste"
+      ],
+      "fr": [
+        "Développeurs d'agents sur infrastructure NVIDIA",
+        "Équipes exigeant données ouvertes et transparence d'entraînement",
+        "Charges de raisonnement sensibles aux coûts"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You want the largest open ecosystem (→ Llama, Qwen)",
+        "You need a hosted frontier model (→ ChatGPT, Gemini)"
+      ],
+      "zh": [
+        "需要最大的开源生态（→ Llama、Qwen）",
+        "需要托管的前沿模型（→ ChatGPT、Gemini）"
+      ],
+      "ja": [
+        "最大のオープンエコシステムが必要な場合（→ Llama、Qwen）",
+        "ホスト型フロンティアモデルが必要な場合（→ ChatGPT、Gemini）"
+      ],
+      "es": [
+        "Quieres el mayor ecosistema abierto (→ Llama, Qwen)",
+        "Necesitas un modelo frontera alojado (→ ChatGPT, Gemini)"
+      ],
+      "fr": [
+        "Vous voulez le plus grand écosystème ouvert (→ Llama, Qwen)",
+        "Vous avez besoin d'un modèle frontière hébergé (→ ChatGPT, Gemini)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-27",
+    "verdictDate": "2026-07-27",
+    "pricingVerified": "2026-07-27"
+  }
+}

@@ -1,0 +1,235 @@
+{
+  "features": {
+    "en": [
+      "Voice cloning from just 10-30 seconds of reference audio, capturing timbre and style",
+      "S1/S2 model family delivers natural, emotionally expressive multilingual speech",
+      "Open-source roots: Fish Speech / OpenAudio models can be self-hosted for free",
+      "Voice Design lets paid users craft custom voices beyond simple cloning",
+      "Commercial use allowed on paid tiers, with professional voice slots",
+      "Pay-as-you-go developer API alongside the web studio"
+    ],
+    "zh": [
+      "仅需 10-30 秒参考音频即可克隆声音，还原音色与说话风格",
+      "S1/S2 模型系列输出自然、情感丰富的多语言语音",
+      "开源基因：Fish Speech / OpenAudio 模型可免费自部署",
+      "Voice Design 让付费用户在克隆之外自行设计音色",
+      "付费档允许商用，并提供专业声音位",
+      "网页工作台之外提供按量计费的开发者 API"
+    ],
+    "ja": [
+      "わずか10〜30秒の参照音声で声をクローンし、音色と話し方を再現",
+      "S1/S2モデルファミリーは自然で感情表現豊かな多言語音声を生成",
+      "オープンソースの出自：Fish Speech / OpenAudioモデルは無料でセルフホスト可能",
+      "Voice Designで有料ユーザーはクローンを超えたカスタム音声を設計可能",
+      "有料プランでは商用利用が可能、プロフェッショナル音声スロットも提供",
+      "Webスタジオに加え従量課金の開発者APIを用意"
+    ],
+    "es": [
+      "Clonación de voz con solo 10-30 segundos de audio de referencia, capturando timbre y estilo",
+      "La familia de modelos S1/S2 ofrece habla multilingüe natural y emocionalmente expresiva",
+      "Raíces de código abierto: los modelos Fish Speech / OpenAudio pueden autoalojarse gratis",
+      "Voice Design permite a los usuarios de pago crear voces personalizadas más allá del clonado",
+      "Uso comercial permitido en los niveles de pago, con huecos de voz profesional",
+      "API de desarrollador de pago por uso junto al estudio web"
+    ],
+    "fr": [
+      "Clonage vocal à partir de seulement 10-30 secondes d'audio de référence, capturant timbre et style",
+      "La famille de modèles S1/S2 offre une parole multilingue naturelle et émotionnellement expressive",
+      "Racines open source : les modèles Fish Speech / OpenAudio peuvent être auto-hébergés gratuitement",
+      "Voice Design permet aux abonnés de concevoir des voix personnalisées au-delà du simple clonage",
+      "Usage commercial autorisé sur les offres payantes, avec des emplacements de voix professionnels",
+      "API développeur à l'usage en plus du studio web"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Free tier includes 8,000 credits monthly (about 7 minutes of generation), up to 500 characters per generation and 3 public voice slots — no credit card needed. Self-hosting the open-source models is free.",
+      "zh": "免费档每月 8000 积分（约 7 分钟生成额度），单次最多 500 字符，3 个公共声音位——无需信用卡。自部署开源模型则完全免费。",
+      "ja": "無料プランは月8,000クレジット（生成約7分ぶん）、1回あたり最大500文字、公開音声スロット3つ——クレジットカード不要。オープンソースモデルのセルフホストは無料。",
+      "es": "El nivel gratuito incluye 8,000 créditos al mes (unos 7 minutos de generación), hasta 500 caracteres por generación y 3 huecos de voz públicos, sin tarjeta. Autoalojar los modelos de código abierto es gratis.",
+      "fr": "L'offre gratuite inclut 8 000 crédits par mois (environ 7 minutes de génération), jusqu'à 500 caractères par génération et 3 emplacements de voix publics — sans carte bancaire. L'auto-hébergement des modèles open source est gratuit."
+    },
+    "paid": {
+      "en": "Plus is $15/month or $5.5/month billed annually ($66/year, 250K credits ≈ 200 minutes). Pro is $100/month or $37.5/month annually ($450/year, 2M credits ≈ 1,620 minutes, 3 team seats). Max is $999/month or $749/month annually (25M credits). Enterprise is custom, and the API bills pay-as-you-go. (Verified against the official pricing page, 2026-07-28.)",
+      "zh": "Plus 月付 $15 或年付折合 $5.5/月（$66/年，25 万积分约 200 分钟）；Pro 月付 $100 或年付折合 $37.5/月（$450/年，200 万积分约 1620 分钟，含 3 个团队席位）；Max 月付 $999 或年付折合 $749/月（2500 万积分）；Enterprise 定制，API 按量计费。（对照官方定价页核实，2026-07-28。）",
+      "ja": "Plusは月$15、年払いなら月換算$5.5（年$66、25万クレジット≈200分）。Proは月$100、年払いなら月換算$37.5（年$450、200万クレジット≈1,620分、チーム3席込み）。Maxは月$999、年払いなら月換算$749（2,500万クレジット）。Enterpriseはカスタム、APIは従量課金。（公式価格ページと照合、2026-07-28。）",
+      "es": "Plus cuesta $15/mes o $5.5/mes con pago anual ($66/año, 250K créditos ≈ 200 minutos). Pro cuesta $100/mes o $37.5/mes anual ($450/año, 2M créditos ≈ 1,620 minutos, 3 asientos de equipo). Max cuesta $999/mes o $749/mes anual (25M créditos). Enterprise es a medida y la API se factura por uso. (Verificado con la página oficial de precios, 2026-07-28.)",
+      "fr": "Plus coûte 15 $/mois ou 5,5 $/mois en facturation annuelle (66 $/an, 250 K crédits ≈ 200 minutes). Pro coûte 100 $/mois ou 37,5 $/mois en annuel (450 $/an, 2 M crédits ≈ 1 620 minutes, 3 sièges d'équipe). Max coûte 999 $/mois ou 749 $/mois en annuel (25 M crédits). Enterprise est sur mesure et l'API est facturée à l'usage. (Vérifié avec la page tarifaire officielle, 2026-07-28.)"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Narrating videos, podcasts and audiobooks with a cloned or designed voice",
+      "Indie developers adding low-cost TTS to apps via API or self-hosted models",
+      "Localizing content into multiple languages with one consistent voice",
+      "Researchers and tinkerers running state-of-the-art open TTS locally"
+    ],
+    "zh": [
+      "用克隆或自设计的声音为视频、播客、有声书配音",
+      "独立开发者通过 API 或自部署模型为应用接入低成本 TTS",
+      "用同一个声音把内容本地化成多种语言",
+      "研究者与折腾党在本地跑最先进的开源 TTS"
+    ],
+    "ja": [
+      "クローンまたは設計した声で動画・ポッドキャスト・オーディオブックをナレーション",
+      "インディー開発者がAPIやセルフホストで低コストTTSをアプリに導入",
+      "1つの一貫した声でコンテンツを多言語にローカライズ",
+      "研究者やギークが最先端のオープンTTSをローカルで実行"
+    ],
+    "es": [
+      "Narrar videos, pódcasts y audiolibros con una voz clonada o diseñada",
+      "Desarrolladores indie que añaden TTS económico a sus apps vía API o modelos autoalojados",
+      "Localizar contenido a varios idiomas con una voz consistente",
+      "Investigadores y aficionados ejecutando TTS abierto de vanguardia en local"
+    ],
+    "fr": [
+      "Narration de vidéos, podcasts et livres audio avec une voix clonée ou conçue",
+      "Développeurs indés ajoutant une TTS économique à leurs apps via l'API ou les modèles auto-hébergés",
+      "Localiser du contenu en plusieurs langues avec une voix cohérente",
+      "Chercheurs et bidouilleurs exécutant une TTS open source de pointe en local"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Price-per-minute among the lowest of any premium-quality TTS service",
+      "Open-source model family means zero lock-in — self-host anytime",
+      "Voice cloning quality from short samples rivals far pricier competitors",
+      "Generous annual discounts (Plus effectively $5.5/month)"
+    ],
+    "zh": [
+      "按分钟算的价格在高质量 TTS 服务里数一数二地低",
+      "开源模型系列意味着零锁定——随时可以自部署",
+      "短样本声音克隆质量可与贵得多的竞品抗衡",
+      "年付折扣大方（Plus 实际低至 $5.5/月）"
+    ],
+    "ja": [
+      "分あたり価格はプレミアム品質TTSサービスの中でも最安級",
+      "オープンソースのモデル群でロックインゼロ——いつでもセルフホスト可能",
+      "短いサンプルからの声クローン品質は、はるかに高額な競合に匹敵",
+      "年払い割引が大きい（Plusは実質月$5.5）"
+    ],
+    "es": [
+      "Precio por minuto entre los más bajos de los TTS de calidad premium",
+      "La familia de modelos de código abierto significa cero dependencia: autoaloja cuando quieras",
+      "La calidad del clonado de voz con muestras cortas rivaliza con competidores mucho más caros",
+      "Descuentos anuales generosos (Plus queda en $5.5/mes efectivos)"
+    ],
+    "fr": [
+      "Prix à la minute parmi les plus bas des services TTS de qualité premium",
+      "La famille de modèles open source signifie zéro verrouillage — auto-hébergez à tout moment",
+      "La qualité du clonage vocal à partir d'échantillons courts rivalise avec des concurrents bien plus chers",
+      "Remises annuelles généreuses (Plus revient à 5,5 $/mois)"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Free tier's ~7 minutes per month is only enough for light testing",
+      "Voice library and dubbing ecosystem is smaller than ElevenLabs'",
+      "Commercial use of cloned voices requires ownership verification and paid plans",
+      "Self-hosting the models demands a capable GPU and technical setup"
+    ],
+    "zh": [
+      "免费档每月约 7 分钟只够轻度测试",
+      "声音库与配音生态比 ElevenLabs 小",
+      "克隆声音商用需要所有权验证且必须付费档",
+      "自部署模型需要像样的 GPU 和技术功底"
+    ],
+    "ja": [
+      "無料枠の月約7分はライトなテストにしか足りない",
+      "音声ライブラリと吹き替えエコシステムはElevenLabsより小規模",
+      "クローン音声の商用利用には所有権確認と有料プランが必要",
+      "モデルのセルフホストには相応のGPUと技術的セットアップが必要"
+    ],
+    "es": [
+      "Los ~7 minutos mensuales del nivel gratuito solo alcanzan para pruebas ligeras",
+      "La biblioteca de voces y el ecosistema de doblaje son menores que los de ElevenLabs",
+      "El uso comercial de voces clonadas exige verificación de propiedad y planes de pago",
+      "Autoalojar los modelos requiere una GPU capaz y configuración técnica"
+    ],
+    "fr": [
+      "Les ~7 minutes mensuelles de l'offre gratuite ne suffisent qu'à des tests légers",
+      "La bibliothèque de voix et l'écosystème de doublage sont plus petits que ceux d'ElevenLabs",
+      "L'usage commercial des voix clonées exige une vérification de propriété et une offre payante",
+      "L'auto-hébergement des modèles demande un GPU sérieux et une installation technique"
+    ]
+  },
+  "latestUpdate": {
+    "en": "2026: The S2 generation sharpened voice cloning from 10-30 second samples while the open-source Fish Speech / OpenAudio line (including the self-hostable S1-mini) keeps topping community TTS benchmarks. Pricing now spans a free 8,000-credit tier through Plus ($15/mo), Pro ($100/mo) and Max ($999/mo), with steep annual discounts and a pay-as-you-go API.",
+    "zh": "2026 年：S2 一代把 10-30 秒样本的声音克隆又磨利了一层，开源的 Fish Speech / OpenAudio 系列（含可自部署的 S1-mini）持续霸榜社区 TTS 基准。定价从免费 8000 积分档到 Plus（$15/月）、Pro（$100/月）、Max（$999/月），年付折扣力度大，另有按量 API。",
+    "ja": "2026年：S2世代は10〜30秒サンプルからの声クローンをさらに研ぎ澄まし、オープンソースのFish Speech / OpenAudioライン（セルフホスト可能なS1-miniを含む）はコミュニティのTTSベンチマークで首位を守り続けている。価格は無料8,000クレジット枠からPlus（月$15）、Pro（月$100）、Max（月$999）まで。年払い割引が大きく、従量課金APIもある。",
+    "es": "2026: La generación S2 afinó el clonado de voz con muestras de 10-30 segundos mientras la línea de código abierto Fish Speech / OpenAudio (incluido el autoalojable S1-mini) sigue liderando los benchmarks comunitarios de TTS. Los precios van del nivel gratuito de 8,000 créditos a Plus ($15/mes), Pro ($100/mes) y Max ($999/mes), con grandes descuentos anuales y una API de pago por uso.",
+    "fr": "2026 : la génération S2 a affûté le clonage vocal à partir d'échantillons de 10-30 secondes, tandis que la gamme open source Fish Speech / OpenAudio (dont le S1-mini auto-hébergeable) continue de dominer les benchmarks TTS communautaires. Les tarifs vont de l'offre gratuite de 8 000 crédits à Plus (15 $/mois), Pro (100 $/mois) et Max (999 $/mois), avec de fortes remises annuelles et une API à l'usage."
+  },
+  "verdict": {
+    "badge": "Recommended",
+    "headline": {
+      "en": "Near-ElevenLabs quality at a fraction of the price — with an open-source escape hatch",
+      "zh": "接近 ElevenLabs 的质量、零头级的价格——还留了一扇开源逃生门",
+      "ja": "ElevenLabsに迫る品質を数分の一の価格で——オープンソースという逃げ道つき",
+      "es": "Calidad cercana a ElevenLabs por una fracción del precio, con salida de emergencia open source",
+      "fr": "Une qualité proche d'ElevenLabs pour une fraction du prix — avec une porte de sortie open source"
+    },
+    "body": {
+      "en": "Fish Audio attacks the TTS market from an angle the incumbents cannot easily copy: it open-sources its core models. The Fish Speech / OpenAudio line routinely tops community benchmarks, and the hosted platform wraps those models in a studio that clones a voice from 10-30 seconds of audio with startling fidelity. The economics are the headline — Plus at an effective $5.5/month buys around 200 minutes of generation, a fraction of what equivalent quality costs at ElevenLabs, and developers who outgrow the platform can simply self-host S1-mini for free. The trade-offs are the ecosystem, not the engine: the voice marketplace is thinner than ElevenLabs', dubbing and audio-native tooling is younger, and commercial voice cloning rightly requires ownership checks and a paid plan. The free tier's seven-ish minutes a month is a taste, not a meal. But for narrators, indie developers and anyone doing serious TTS volume on a budget, Fish Audio is currently the strongest price-performance play in AI voice — and the open-source escape hatch means you are never trapped.",
+      "zh": "Fish Audio 用一个巨头难以复制的角度进攻 TTS 市场：把核心模型开源。Fish Speech / OpenAudio 系列常年霸榜社区基准，而托管平台把这些模型包装成一个工作台——10-30 秒音频就能以惊人的还原度克隆声音。经济账是最大看点：Plus 年付实际 $5.5/月就能买到约 200 分钟生成额度，只是 ElevenLabs 同等质量的零头；平台不够用了，开发者还可以免费自部署 S1-mini。取舍在生态而非引擎：声音市场比 ElevenLabs 单薄，配音与音频原生工具链更年轻，克隆声音商用理所当然地需要所有权验证与付费档。免费档每月七分钟左右只是试吃，算不上正餐。但对旁白创作者、独立开发者以及任何要在预算内跑大量 TTS 的人来说，Fish Audio 是当前 AI 语音领域性价比最强的一手——开源逃生门还保证你永远不会被锁死。",
+      "ja": "Fish Audioは既存大手が簡単には真似できない角度からTTS市場を攻めている：コアモデルのオープンソース化だ。Fish Speech / OpenAudioラインはコミュニティベンチマークの常連首位で、ホスト版プラットフォームはそれらのモデルを、10〜30秒の音声から驚くほど忠実に声をクローンするスタジオに仕立てている。最大の見どころは経済性——年払いで実質月$5.5のPlusで約200分の生成が買え、ElevenLabsの同等品質の数分の一。プラットフォームが物足りなくなった開発者はS1-miniを無料でセルフホストすればいい。トレードオフはエンジンではなくエコシステムにある：音声マーケットプレイスはElevenLabsより薄く、吹き替えや音声ネイティブなツール群は若く、クローン音声の商用利用には当然ながら所有権確認と有料プランが要る。無料枠の月7分程度は味見であって食事ではない。しかしナレーター、インディー開発者、予算内で本格的なTTS量をこなしたい人にとって、Fish Audioは現在のAI音声で最強のコスパの一手だ——そしてオープンソースの逃げ道が、決して閉じ込められないことを保証してくれる。",
+      "es": "Fish Audio ataca el mercado TTS desde un ángulo que los incumbentes no pueden copiar fácilmente: libera sus modelos centrales como código abierto. La línea Fish Speech / OpenAudio encabeza habitualmente los benchmarks comunitarios, y la plataforma alojada envuelve esos modelos en un estudio que clona una voz con 10-30 segundos de audio con fidelidad sorprendente. La economía es el titular: Plus a $5.5/mes efectivos compra unos 200 minutos de generación, una fracción de lo que cuesta calidad equivalente en ElevenLabs, y los desarrolladores que se queden cortos pueden autoalojar S1-mini gratis. Las concesiones están en el ecosistema, no en el motor: el mercado de voces es más delgado que el de ElevenLabs, las herramientas de doblaje son más jóvenes, y el clonado comercial exige, con razón, verificación de propiedad y plan de pago. Los ~7 minutos mensuales gratis son una degustación, no una comida. Pero para narradores, desarrolladores indie y cualquiera que haga volumen serio de TTS con presupuesto, Fish Audio es hoy la mejor jugada precio-rendimiento en voz IA, y la salida open source garantiza que nunca quedes atrapado.",
+      "fr": "Fish Audio attaque le marché de la TTS sous un angle que les acteurs installés ne peuvent pas facilement copier : il publie ses modèles cœurs en open source. La gamme Fish Speech / OpenAudio truste les benchmarks communautaires, et la plateforme hébergée habille ces modèles d'un studio qui clone une voix à partir de 10-30 secondes d'audio avec une fidélité saisissante. L'économie est le grand titre — Plus à 5,5 $/mois effectifs offre environ 200 minutes de génération, une fraction du prix d'une qualité équivalente chez ElevenLabs, et les développeurs à l'étroit peuvent simplement auto-héberger S1-mini gratuitement. Les compromis tiennent à l'écosystème, pas au moteur : le marché de voix est plus mince que celui d'ElevenLabs, l'outillage de doublage est plus jeune, et le clonage commercial exige à juste titre vérification de propriété et offre payante. Les quelque sept minutes gratuites par mois sont une dégustation, pas un repas. Mais pour les narrateurs, développeurs indés et quiconque produit un volume sérieux de TTS avec un budget serré, Fish Audio est aujourd'hui le meilleur rapport qualité-prix de la voix IA — et la porte de sortie open source garantit de ne jamais être piégé."
+    },
+    "bestFor": {
+      "en": [
+        "Creators producing narration at volume on a tight budget",
+        "Developers wanting cheap TTS APIs or free self-hosted models",
+        "Open-source enthusiasts who refuse vendor lock-in"
+      ],
+      "zh": [
+        "预算紧张但配音量大的创作者",
+        "想要低价 TTS API 或免费自部署模型的开发者",
+        "拒绝供应商锁定的开源爱好者"
+      ],
+      "ja": [
+        "限られた予算で大量のナレーションを制作するクリエイター",
+        "安価なTTS APIか無料セルフホストモデルが欲しい開発者",
+        "ベンダーロックインを拒むオープンソース愛好家"
+      ],
+      "es": [
+        "Creadores que producen narración en volumen con presupuesto ajustado",
+        "Desarrolladores que quieren APIs de TTS baratas o modelos autoalojados gratis",
+        "Entusiastas del código abierto que rechazan la dependencia del proveedor"
+      ],
+      "fr": [
+        "Créateurs produisant de la narration en volume avec un budget serré",
+        "Développeurs voulant des API TTS bon marché ou des modèles auto-hébergés gratuits",
+        "Passionnés d'open source refusant le verrouillage fournisseur"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You need the biggest voice marketplace and dubbing ecosystem (→ ElevenLabs)",
+        "You want TTS bundled with a broader Chinese AI suite (→ MiniMax Audio)"
+      ],
+      "zh": [
+        "你需要最大的声音市场与配音生态（→ ElevenLabs）",
+        "你想要与更大的国产 AI 套件绑定的 TTS（→ MiniMax语音）"
+      ],
+      "ja": [
+        "最大級の音声マーケットプレイスと吹き替えエコシステムが必要（→ ElevenLabs）",
+        "より広い中国AIスイートと一体のTTSが欲しい（→ MiniMax Audio）"
+      ],
+      "es": [
+        "Necesitas el mayor mercado de voces y ecosistema de doblaje (→ ElevenLabs)",
+        "Quieres TTS integrado en una suite IA china más amplia (→ MiniMax Audio)"
+      ],
+      "fr": [
+        "Vous avez besoin du plus grand marché de voix et écosystème de doublage (→ ElevenLabs)",
+        "Vous voulez une TTS intégrée à une suite IA chinoise plus large (→ MiniMax Audio)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-28",
+    "verdictDate": "2026-07-28",
+    "pricingVerified": "2026-07-28",
+    "pricingUrl": "https://fish.audio/plan/"
+  }
+}

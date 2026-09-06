@@ -1,0 +1,29 @@
+{
+  "slug": "stable-diffusion",
+  "name": "Stable Diffusion",
+  "nameZh": "Stable Diffusion",
+  "description": "开源 AI 图像生成模型，可本地部署，社区生态丰富",
+  "descriptionEn": "Open-source AI image generation model with rich community ecosystem",
+  "descriptionJa": "オープンソースのAI画像生成モデル。ローカルデプロイ可能、コミュニティエコシステムが豊富",
+  "descriptionEs": "Modelo de generación de imágenes IA de código abierto con rico ecosistema comunitario",
+  "descriptionFr": "Modèle de génération d'images IA open-source avec un riche écosystème communautaire",
+  "url": "https://stability.ai",
+  "logo": "/logos/tools/stable-diffusion.png",
+  "category": "Image",
+  "tags": [
+    "Free",
+    "Open Source"
+  ],
+  "featured": true,
+  "developer": "Stability AI",
+  "platforms": {
+    "web": true,
+    "windows": true,
+    "macos": true,
+    "ios": false,
+    "android": false,
+    "linux": true,
+    "browser_extension": false,
+    "api": true
+  }
+}

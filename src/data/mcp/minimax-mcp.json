@@ -1,0 +1,79 @@
+{
+  "slug": "minimax-mcp",
+  "name": "MiniMax MCP",
+  "nameZh": "MiniMax MCP",
+  "description": "MiniMax 官方 MCP 服务器。连接 MiniMax 多模态大模型能力：文本生成、语音合成（TTS）、图像生成与视频理解，让 AI 智能体直接调用 MiniMax 的模型矩阵。",
+  "descriptionEn": "The official MiniMax MCP server. Connects to MiniMax's multimodal model capabilities: text generation, text-to-speech (TTS), image generation, and video understanding — letting AI agents directly invoke MiniMax's model matrix.",
+  "descriptionJa": "MiniMax 公式 MCP サーバー。MiniMax のマルチモーダルモデル機能に接続：テキスト生成、音声合成（TTS）、画像生成、動画理解。AI エージェントが MiniMax のモデルマトリックスを直接呼び出せます。",
+  "descriptionEs": "El servidor MCP oficial de MiniMax. Conecta con las capacidades multimodales de MiniMax: generación de texto, texto a voz (TTS), generación de imágenes y comprensión de video — permitiendo a los agentes de IA invocar directamente la matriz de modelos de MiniMax.",
+  "descriptionFr": "Le serveur MCP officiel de MiniMax. Se connecte aux capacités multimodales de MiniMax : génération de texte, synthèse vocale (TTS), génération d'images et compréhension vidéo — permettant aux agents IA d'invoquer directement la matrice de modèles de MiniMax.",
+  "developer": "MiniMax",
+  "developerZh": "MiniMax（稀宇科技）",
+  "repo": "MiniMax-AI/MiniMax-MCP",
+  "clients": [
+    "claude",
+    "cursor",
+    "vscode",
+    "codex",
+    "generic"
+  ],
+  "category": "Media",
+  "tags": [
+    "Free",
+    "API"
+  ],
+  "installCommand": "uvx --from git+https://github.com/MiniMax-AI/MiniMax-MCP -- MiniMax-MCP --api-key YOUR_API_KEY",
+  "logo": "/logos/mcp/minimax-mcp.png",
+  "stars": 1576,
+  "featured": false,
+  "faqs": [
+    {
+      "question": {
+        "zh": "MiniMax MCP 能调用哪些能力？",
+        "en": "What capabilities can MiniMax MCP invoke?",
+        "ja": "MiniMax MCP はどのような機能を呼び出せますか？",
+        "es": "¿Qué capacidades puede invocar MiniMax MCP?",
+        "fr": "Quelles capacités MiniMax MCP peut-il invoquer ?"
+      },
+      "answer": {
+        "zh": "MiniMax MCP 集成 MiniMax 全模型矩阵：文本生成（abab 系列）、语音合成（TTS）、图像生成、视频理解。通过一个 MCP 服务器即可获得 MiniMax 的多模态 AI 能力。",
+        "en": "MiniMax MCP integrates MiniMax's full model matrix: text generation (abab series), text-to-speech (TTS), image generation, and video understanding. Access MiniMax's multimodal AI capabilities through a single MCP server.",
+        "ja": "MiniMax MCP は MiniMax の全モデルマトリックスを統合：テキスト生成（abab シリーズ）、音声合成（TTS）、画像生成、動画理解。1つの MCP サーバーで MiniMax のマルチモーダル AI 機能にアクセスできます。",
+        "es": "MiniMax MCP integra la matriz completa de modelos de MiniMax: generación de texto (serie abab), texto a voz (TTS), generación de imágenes y comprensión de video. Accede a las capacidades multimodales de MiniMax a través de un solo servidor MCP.",
+        "fr": "MiniMax MCP intègre la matrice complète des modèles MiniMax : génération de texte (série abab), synthèse vocale (TTS), génération d'images et compréhension vidéo. Accédez aux capacités IA multimodales de MiniMax via un seul serveur MCP."
+      }
+    },
+    {
+      "question": {
+        "zh": "MiniMax MCP 需要 API Key 吗？怎么获取？",
+        "en": "Does MiniMax MCP need an API key? How do I get one?",
+        "ja": "MiniMax MCP に API キーは必要ですか？どう取得しますか？",
+        "es": "¿MiniMax MCP necesita una clave API? ¿Cómo la obtengo?",
+        "fr": "MiniMax MCP a-t-il besoin d'une clé API ? Comment l'obtenir ?"
+      },
+      "answer": {
+        "zh": "需要。在 MiniMax 官网（minimax.io）注册账号并创建 API Key，然后用 --api-key 参数传入：npx -y @minimax/mcp-server --api-key 你的Key。MiniMax 提供免费额度供开发测试。",
+        "en": "Yes. Register at minimax.io, create an API key, and pass it with --api-key: npx -y @minimax/mcp-server --api-key YOUR_KEY. MiniMax offers a free tier for development and testing.",
+        "ja": "必要です。MiniMax の公式サイト（minimax.io）でアカウント登録し、API キーを作成して --api-key パラメータで渡します：npx -y @minimax/mcp-server --api-key YOUR_KEY。MiniMax は開発テスト用の無料枠を提供しています。",
+        "es": "Sí. Regístrate en minimax.io, crea una clave API y pásala con --api-key: npx -y @minimax/mcp-server --api-key TU_CLAVE. MiniMax ofrece un nivel gratuito para desarrollo y pruebas.",
+        "fr": "Oui. Inscrivez-vous sur minimax.io, créez une clé API et passez-la avec --api-key : npx -y @minimax/mcp-server --api-key VOTRE_CLÉ. MiniMax offre un niveau gratuit pour le développement et les tests."
+      }
+    },
+    {
+      "question": {
+        "zh": "MiniMax 的 TTS 和图像生成能力强吗？",
+        "en": "Are MiniMax's TTS and image generation capabilities good?",
+        "ja": "MiniMax の TTS と画像生成能力は優れていますか？",
+        "es": "¿Son buenas las capacidades de TTS y generación de imágenes de MiniMax?",
+        "fr": "Les capacités de TTS et de génération d'images de MiniMax sont-elles bonnes ?"
+      },
+      "answer": {
+        "zh": "MiniMax 的 TTS（语音合成）在中文自然度上表现突出，支持多种音色和情感语气调节；图像生成能力在中文场景理解上也有优势，适合面向中文用户的 AI 应用。",
+        "en": "MiniMax's TTS excels in natural Chinese speech synthesis, supporting multiple voices and emotional tone modulation. Its image generation also shows strength in Chinese context understanding, making it well-suited for Chinese-facing AI applications.",
+        "ja": "MiniMax の TTS（音声合成）は中国語の自然さで優れており、複数の音声と感情表現の調節に対応。画像生成も中国語コンテキストの理解に強みがあり、中国語ユーザー向けの AI アプリケーションに最適です。",
+        "es": "El TTS de MiniMax destaca en la naturalidad del habla china, con múltiples voces y modulación de tono emocional. Su generación de imágenes también muestra fortaleza en la comprensión de contexto chino, ideal para aplicaciones de IA orientadas a usuarios chinos.",
+        "fr": "Le TTS de MiniMax excelle dans le naturel de la synthèse vocale chinoise, prenant en charge plusieurs voix et la modulation émotionnelle. Sa génération d'images montre également des forces dans la compréhension du contexte chinois, idéale pour les applications IA destinées aux utilisateurs chinois."
+      }
+    }
+  ]
+}

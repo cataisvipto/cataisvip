@@ -1,0 +1,234 @@
+{
+  "features": {
+    "en": [
+      "AI video from text/image",
+      "Realistic motion",
+      "Dream Machine fast gen",
+      "Extended video",
+      "Multiple aspect ratios",
+      "API & web access"
+    ],
+    "zh": [
+      "文本/图像生成视频",
+      "逼真运动",
+      "快速生成",
+      "视频延长",
+      "多宽高比",
+      "API 及 Web 端支持"
+    ],
+    "ja": [
+      "テキスト→動画",
+      "リアルな動き",
+      "高速生成",
+      "延長",
+      "アスペクト比",
+      "API・Web"
+    ],
+    "es": [
+      "Texto a vídeo",
+      "Movimiento realista",
+      "Generación rápida",
+      "Vídeo extendido",
+      "Aspectos",
+      "API y web"
+    ],
+    "fr": [
+      "Texte vers vidéo",
+      "Mouvement réaliste",
+      "Génération rapide",
+      "Vidéo étendue",
+      "Formats",
+      "API et web"
+    ]
+  },
+  "useCases": {
+    "en": [
+      "Short video",
+      "Social media",
+      "Creative storytelling",
+      "Marketing",
+      "Concept visualization"
+    ],
+    "zh": [
+      "短视频",
+      "社交媒体",
+      "创意故事",
+      "营销",
+      "概念可视化"
+    ],
+    "ja": [
+      "ショート動画",
+      "SNS",
+      "ストーリー",
+      "マーケティング",
+      "可視化"
+    ],
+    "es": [
+      "Vídeos cortos",
+      "Redes sociales",
+      "Narrativa",
+      "Marketing",
+      "Visualización"
+    ],
+    "fr": [
+      "Vidéos courtes",
+      "Réseaux sociaux",
+      "Narration",
+      "Marketing",
+      "Visualisation"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Fast generation",
+      "Good motion quality",
+      "Easy to use",
+      "Active development"
+    ],
+    "zh": [
+      "生成速度快",
+      "运动效果好",
+      "界面友好",
+      "开发活跃"
+    ],
+    "ja": [
+      "高速",
+      "動き良好",
+      "簡単",
+      "活発"
+    ],
+    "es": [
+      "Rápido",
+      "Buena calidad",
+      "Fácil",
+      "Desarrollo activo"
+    ],
+    "fr": [
+      "Rapide",
+      "Bonne qualité",
+      "Facile",
+      "Développement actif"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Free credits limited",
+      "Quality varies",
+      "Less advanced than Sora"
+    ],
+    "zh": [
+      "免费点数有限",
+      "质量因提示词而定",
+      "不如 Sora"
+    ],
+    "ja": [
+      "無料制限",
+      "品質変動",
+      "Sora 劣る"
+    ],
+    "es": [
+      "Créditos limitados",
+      "Calidad variable",
+      "Menos que Sora"
+    ],
+    "fr": [
+      "Crédits limités",
+      "Qualité variable",
+      "Moins que Sora"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Free limited credits",
+      "zh": "免费有限点数",
+      "ja": "無料クレジット",
+      "es": "Créditos gratis",
+      "fr": "Crédits gratuits"
+    },
+    "pro": {
+      "en": "Pro for more usage",
+      "zh": "Pro 更多额度",
+      "ja": "Pro より多くの利用",
+      "es": "Pro más uso",
+      "fr": "Pro plus d'utilisation"
+    }
+  },
+  "latestUpdate": {
+    "en": "2026: Luma DM improves quality & speed",
+    "zh": "2026年：Luma Dream Machine 提升质量和速度",
+    "ja": "2026年：Luma DM が品質・速度向上",
+    "es": "2026: Luma DM mejora calidad y velocidad",
+    "fr": "2026 : Luma DM améliore qualité et vitesse"
+  },
+  "verdict": {
+    "badge": "Worth Trying",
+    "headline": {
+      "en": "AI video and 3D generation with a focus on cinematic motion and spatial understanding.",
+      "zh": "AI视频和3D生成，专注电影级运动和空间理解。",
+      "ja": "シネマティックなモーションと空間理解に焦点を当てたAI動画・3D生成。",
+      "es": "Generación de video y 3D con IA enfocada en movimiento cinematográfico y comprensión espacial.",
+      "fr": "Génération vidéo et 3D par IA axée sur le mouvement cinématographique et la compréhension spatiale."
+    },
+    "body": {
+      "en": "Luma Dream Machine produces AI video with notably smooth camera movements and spatial coherence. It also offers 3D generation capabilities, targeting creators who need both video and spatial content. The motion quality often surpasses simpler video generators.\n\nIt occupies a middle ground—more accessible than Runway's professional tools but more capable than entry-level generators like Pika. Best for creators who want cinematic-quality short clips without the complexity of professional pipelines.",
+      "zh": "Luma Dream Machine 生成的AI视频具有明显流畅的镜头运动和空间一致性。同时提供3D生成能力，面向需要视频和空间内容的创作者。运动质量通常超越更简单的视频生成器。\n\n它处于中间地带——比Runway的专业工具更易用，但比Pika等入门级生成器更强。适合想要电影品质短片又不需要专业管线复杂性的创作者。",
+      "ja": "Luma Dream Machineは滑らかなカメラの動きと空間的一貫性で注目されるAI動画を生成します。3D生成も可能で、動画と空間コンテンツの両方が必要なクリエイターをターゲットにしています。\n\nRunwayのプロツールよりアクセスしやすく、Pikaのような入門レベルより高機能な中間に位置します。プロパイプラインの複雑さなしにシネマティックな短尺クリップが欲しいクリエイターに最適です。",
+      "es": "Luma Dream Machine produce video IA con movimientos de cámara suaves y coherencia espacial notable. También ofrece generación 3D, dirigido a creadores que necesitan tanto video como contenido espacial.\n\nOcupa un terreno intermedio—más accesible que las herramientas profesionales de Runway pero más capaz que generadores de entrada como Pika. Ideal para creadores que quieren clips cinematográficos sin la complejidad profesional.",
+      "fr": "Luma Dream Machine produit de la vidéo IA avec des mouvements de caméra fluides et une cohérence spatiale remarquable. Il offre aussi la génération 3D pour les créateurs nécessitant vidéo et contenu spatial.\n\nIl occupe un terrain intermédiaire—plus accessible que les outils pro de Runway mais plus capable que les générateurs d'entrée comme Pika. Idéal pour les créateurs voulant des clips cinématographiques sans la complexité pro."
+    },
+    "bestFor": {
+      "en": [
+        "Cinematic short video clips",
+        "Creators needing smooth camera motion",
+        "Combined video and 3D content generation"
+      ],
+      "zh": [
+        "电影级短视频片段",
+        "需要流畅镜头运动的创作者",
+        "视频与3D内容联合生成"
+      ],
+      "ja": [
+        "シネマティックなショート動画",
+        "滑らかなカメラモーションが必要なクリエイター",
+        "動画と3Dコンテンツの統合生成"
+      ],
+      "es": [
+        "Clips cortos de video cinematográfico",
+        "Creadores que necesitan movimiento de cámara suave",
+        "Generación combinada de video y contenido 3D"
+      ],
+      "fr": [
+        "Clips vidéo courts cinématographiques",
+        "Créateurs nécessitant un mouvement de caméra fluide",
+        "Génération combinée vidéo et contenu 3D"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You need professional-grade video tools (→ Runway)",
+        "You want the longest AI video outputs (→ Kling AI, Sora)"
+      ],
+      "zh": [
+        "需要专业级视频工具（→ Runway）",
+        "需要最长的AI视频输出（→ 可灵AI、Sora）"
+      ],
+      "ja": [
+        "プロ級の動画ツールが必要な場合（→ Runway）",
+        "最も長いAI動画出力が必要な場合（→ Kling AI、Sora）"
+      ],
+      "es": [
+        "Necesitas herramientas de video profesional (→ Runway)",
+        "Quieres las salidas de video IA más largas (→ Kling AI, Sora)"
+      ],
+      "fr": [
+        "Vous avez besoin d'outils vidéo professionnels (→ Runway)",
+        "Vous voulez les sorties vidéo IA les plus longues (→ Kling AI, Sora)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-27",
+    "verdictDate": "2026-07-27",
+    "pricingVerified": "2026-07-27"
+  }
+}

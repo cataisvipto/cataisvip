@@ -6,7 +6,7 @@ import { Link } from '@/i18n/navigation';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { ArrowLeft, Target, Compass, ShieldCheck, Scale, Mail, Send, Check } from 'lucide-react';
-import tools from '@/data/tools.json';
+import { tools } from '@/data/aggregated';
 
 export default function AboutClient() {
   const locale = useLocale();

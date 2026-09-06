@@ -1,0 +1,278 @@
+{
+  "summary": {
+    "en": "WorkBuddy by Tencent Cloud is an all-scenario AI office workbench (International version) that leverages multi-Agent parallel collaboration. It handles document processing, data analysis, content creation, and can directly operate local files with a simple natural language command.",
+    "zh": "WorkBuddy 是腾讯云推出的全场景 AI 办公工作台（国际版），多 Agent 并行协作。输入自然语言指令即可自动完成文档处理、数据分析、内容创作等复杂办公任务，支持直接操作本地文件，显著提升工作效率。",
+    "ja": "WorkBuddyは、Tencent Cloudが提供するオールシーンAIオフィスワークベンチ（国際版）です。マルチエージェント並列協調により、ドキュメント処理、データ分析、コンテンツ作成などの複雑な業務を自然言語で自動化します。",
+    "es": "WorkBuddy de Tencent Cloud es un banco de trabajo AI para oficina de todos los escenarios (versión internacional) con colaboración paralela multi-agente. Automatiza el procesamiento de documentos, análisis de datos y creación de contenido con comandos de lenguaje natural.",
+    "fr": "WorkBuddy de Tencent Cloud est un poste de travail IA multi-scénarios (version internationale) avec collaboration parallèle multi-agent. Il automatise le traitement de documents, l'analyse de données et la création de contenu avec des commandes en langage naturel."
+  },
+  "features": {
+    "en": [
+      "Multi-Agent parallel architecture for complex task decomposition",
+      "Direct local file operation (Excel, PDF, Word, PPT)",
+      "Plan mode for fully autonomous task execution",
+      "Craft mode for step-by-step user approval",
+      "Multi-model support (Claude, GPT, Gemini)",
+      "Remote control via Slack, Discord, Telegram",
+      "100+ Skills expert roles and MCP protocol support",
+      "Automated scheduled tasks and report generation"
+    ],
+    "zh": [
+      "多 Agent 并行架构，自动拆解复杂任务",
+      "直接操作本地文件（Excel、PDF、Word、PPT）",
+      "Plan 模式全自动执行任务",
+      "Craft 模式逐步确认执行",
+      "多模型支持（Claude、GPT、Gemini）",
+      "通过 Slack、Discord、Telegram 远程操控",
+      "100+ Skills 专家角色和 MCP 协议支持",
+      "定时任务自动化和报告生成"
+    ],
+    "ja": [
+      "マルチエージェント並列アーキテクチャ",
+      "ローカルファイル直接操作（Excel、PDF、Word、PPT）",
+      "Planモードによる完全自律実行",
+      "Craftモードによる段階的承認",
+      "マルチモデル対応（Claude、GPT、Gemini）",
+      "Slack、Discord、Telegramからのリモート操作",
+      "100+ SkillsエキスパートロールとMCP対応",
+      "自動スケジュールタスクとレポート生成"
+    ],
+    "es": [
+      "Arquitectura multi-agente paralela",
+      "Operación directa de archivos locales",
+      "Modo Plan para ejecución autónoma total",
+      "Modo Craft para aprobación paso a paso",
+      "Soporte multi-modelo (Claude, GPT, Gemini)",
+      "Control remoto via Slack, Discord, Telegram",
+      "100+ Skills expertos y soporte MCP",
+      "Tareas programadas automáticas y generación de informes"
+    ],
+    "fr": [
+      "Architecture multi-agent parallèle",
+      "Opération directe des fichiers locaux",
+      "Mode Plan pour exécution autonome",
+      "Mode Craft pour approbation étape par étape",
+      "Support multi-modèle (Claude, GPT, Gemini)",
+      "Contrôle à distance via Slack, Discord, Telegram",
+      "100+ rôles d'experts Skills et support MCP",
+      "Tâches planifiées automatiques et génération de rapports"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Free tier with limited credits",
+      "zh": "免费版含有限额度",
+      "ja": "無料版は制限付き",
+      "es": "Plan gratuito con créditos limitados",
+      "fr": "Forfait gratuit avec crédits limités"
+    },
+    "pro": {
+      "en": "$9.95/mo (1,000 credits, all Skills)",
+      "zh": "$9.95/月（1000 积分，全部 Skills）",
+      "ja": "$9.95/月（1,000クレジット、全Skills）",
+      "es": "$9.95/mes (1,000 créditos, todos los Skills)",
+      "fr": "$9.95/mois (1 000 crédits, tous les Skills)"
+    },
+    "team": {
+      "en": "~$40/user/mo for team collaboration",
+      "zh": "约 $40/人/月（团队协作）",
+      "ja": "~$40/ユーザー/月（チームコラボレーション）",
+      "es": "~$40/usuario/mes para colaboración en equipo",
+      "fr": "~$40/utilisateur/mois pour la collaboration en équipe"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Document research and multi-file comparison",
+      "Data cleaning and spreadsheet processing",
+      "Market research and competitive analysis",
+      "Content creation and copywriting",
+      "AI-powered PPT generation",
+      "Automated daily/weekly reports"
+    ],
+    "zh": [
+      "文档研究与多文件对比",
+      "数据清洗与表格处理",
+      "市场调研与竞品分析",
+      "内容创作与文案撰写",
+      "一句话生成演示文稿",
+      "日报/周报自动生成"
+    ],
+    "ja": [
+      "ドキュメント調査と複数ファイル比較",
+      "データクリーニングと表処理",
+      "市場調査と競合分析",
+      "コンテンツ制作とコピーライティング",
+      "AIパワードPPT生成",
+      "日報/週報の自動生成"
+    ],
+    "es": [
+      "Investigación de documentos y comparación de archivos",
+      "Limpieza de datos y procesamiento de hojas de cálculo",
+      "Investigación de mercado y análisis competitivo",
+      "Creación de contenido y redacción",
+      "Generación de PPT con IA",
+      "Informes diarios/semanales automatizados"
+    ],
+    "fr": [
+      "Recherche documentaire et comparaison de fichiers",
+      "Nettoyage de données et traitement de tableurs",
+      "Étude de marché et analyse concurrentielle",
+      "Création de contenu et rédaction",
+      "Génération de présentations PPT par IA",
+      "Rapports quotidiens/hebdomadaires automatisés"
+    ]
+  },
+  "pros": {
+    "en": [
+      "True multi-Agent parallel execution",
+      "Local file direct manipulation",
+      "Very low entry barrier (3-minute setup)",
+      "Plan/Craft dual modes for flexibility",
+      "Rich ecosystem integrations",
+      "Cross-platform remote control"
+    ],
+    "zh": [
+      "真正的多 Agent 并行执行",
+      "直接操作本地文件",
+      "入门门槛极低（3分钟安装）",
+      "Plan/Craft 双模式兼顾效率与可控",
+      "丰富的生态集成",
+      "跨平台远程操控"
+    ],
+    "ja": [
+      "真のマルチエージェント並列実行",
+      "ローカルファイル直接操作",
+      "非常に低い導入障壁（3分でセットアップ）",
+      "Plan/Craftデュアルモード",
+      "豊富なエコシステム統合",
+      "クロスプラットフォームリモート操作"
+    ],
+    "es": [
+      "Verdadera ejecución multi-agente en paralelo",
+      "Manipulación directa de archivos locales",
+      "Barrera de entrada muy baja",
+      "Modos duales Plan/Craft",
+      "Integraciones de ecosistema ricas",
+      "Control remoto multiplataforma"
+    ],
+    "fr": [
+      "Véritable exécution multi-agent en parallèle",
+      "Manipulation directe des fichiers locaux",
+      "Barrière d'entrée très basse",
+      "Modes doubles Plan/Craft",
+      "Intégrations d'écosystème riches",
+      "Contrôle à distance multiplateforme"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Free tier credits are limited",
+      "No direct WeChat personal account support",
+      "Output requires human review for accuracy",
+      "Long text (>8000 chars) needs splitting"
+    ],
+    "zh": [
+      "免费额度有限",
+      "不支持个人微信直连",
+      "输出结果需要人工复核",
+      "长文本（>8000字）需拆分处理"
+    ],
+    "ja": [
+      "無料枠のクレジットが限られている",
+      "個人WeChat直接接続非対応",
+      "出力の正確性には人間による確認が必要",
+      "長文（>8000文字）は分割が必要"
+    ],
+    "es": [
+      "Créditos limitados en el plan gratuito",
+      "Sin soporte directo para WeChat personal",
+      "La salida requiere revisión humana",
+      "Textos largos requieren división"
+    ],
+    "fr": [
+      "Crédits limités dans le forfait gratuit",
+      "Pas de support WeChat personnel direct",
+      "La sortie nécessite une révision humaine",
+      "Les textes longs nécessitent une division"
+    ]
+  },
+  "latestUpdate": {
+    "en": "2026.07: Mobile app launched, monthly visits exceed 20M, integrated GLM-5.2 model, WAIC 2026 partnership with Liweike X-AI memory glasses",
+    "zh": "2026年7月：移动端 App 上线，月访问量突破 2000 万，内置 GLM-5.2 模型，WAIC 2026 宣布与李未可记忆眼镜合作",
+    "ja": "2026年7月：モバイルアプリ公開、月間訪問者数2000万突破、GLM-5.2モデル統合、WAIC 2026でLiweike X-AIメモリグラスと提携",
+    "es": "Julio 2026: App móvil lanzada, más de 20M de visitas mensuales, integración del modelo GLM-5.2, asociación WAIC 2026 con gafas de memoria Liweike X-AI",
+    "fr": "Juillet 2026 : application mobile lancée, plus de 20 millions de visites mensuelles, intégration du modèle GLM-5.2, partenariat WAIC 2026 avec les lunettes mémoire Liweike X-AI"
+  },
+  "verdict": {
+    "badge": "Worth Trying",
+    "headline": {
+      "en": "AI workplace assistant designed to streamline daily work tasks and team collaboration.",
+      "zh": "AI职场助手，旨在简化日常工作任务和团队协作。",
+      "ja": "日常業務タスクとチームコラボレーションを効率化するAI職場アシスタント。",
+      "es": "Asistente IA de trabajo diseñado para agilizar tareas diarias y colaboración en equipo.",
+      "fr": "Assistant IA de travail conçu pour simplifier les tâches quotidiennes et la collaboration d'équipe."
+    },
+    "body": {
+      "en": "WorkBuddy focuses on workplace productivity—meeting summaries, email drafting, task management, and team communication assistance. It integrates with common workplace tools to provide AI help where work actually happens.\n\nThe scope is narrower than general-purpose AI assistants, which can be both a strength (focused UX) and limitation (less flexible). Best for teams looking for a work-specific AI layer rather than a general-purpose chatbot.",
+      "zh": "WorkBuddy 专注于职场生产力——会议摘要、邮件起草、任务管理和团队沟通辅助。它与常见办公工具集成，在工作实际发生的地方提供AI帮助。\n\n范围比通用AI助手窄，这既是优势（聚焦UX）也是局限（灵活性不足）。适合寻找工作专属AI层而非通用聊天机器人的团队。",
+      "ja": "WorkBuddyは職場の生産性に焦点を当てています——会議要約、メール下書き、タスク管理、チームコミュニケーション支援。一般的な職場ツールと統合し、実際に仕事が行われる場所でAIヘルプを提供します。\n\nスコープは汎用AIアシスタントより狭く、強み（フォーカスされたUX）でもあり限界（柔軟性が低い）でもあります。汎用チャットボットではなく業務特化のAIレイヤーを求めるチームに最適です。",
+      "es": "WorkBuddy se enfoca en productividad laboral—resúmenes de reuniones, redacción de emails, gestión de tareas y asistencia de comunicación. Se integra con herramientas comunes de trabajo.\n\nEl alcance es más estrecho que asistentes de propósito general, siendo fortaleza (UX enfocada) y limitación. Ideal para equipos buscando una capa IA específica para trabajo.",
+      "fr": "WorkBuddy se concentre sur la productivité au travail—résumés de réunions, rédaction d'emails, gestion de tâches et assistance de communication. Il s'intègre aux outils de travail courants.\n\nLa portée est plus étroite que les assistants généralistes, ce qui est à la fois une force et une limite. Idéal pour les équipes cherchant une couche IA spécifique au travail."
+    },
+    "bestFor": {
+      "en": [
+        "Team workplace productivity automation",
+        "Meeting summaries and email drafting",
+        "Work-focused AI within existing tools"
+      ],
+      "zh": [
+        "团队职场生产力自动化",
+        "会议摘要和邮件起草",
+        "集成在现有工具中的工作专属AI"
+      ],
+      "ja": [
+        "チーム職場生産性自動化",
+        "会議要約とメール下書き",
+        "既存ツール内の業務特化AI"
+      ],
+      "es": [
+        "Automatización de productividad laboral en equipo",
+        "Resúmenes de reuniones y redacción de emails",
+        "IA enfocada en trabajo dentro de herramientas existentes"
+      ],
+      "fr": [
+        "Automatisation de productivité d'équipe",
+        "Résumés de réunions et rédaction d'emails",
+        "IA de travail dans les outils existants"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You need a general-purpose AI assistant (→ ChatGPT, Claude)",
+        "You want AI built into your existing workspace (→ Notion AI, Gemini)"
+      ],
+      "zh": [
+        "需要通用AI助手（→ ChatGPT、Claude）",
+        "需要内建在现有工作空间中的AI（→ Notion AI、Gemini）"
+      ],
+      "ja": [
+        "汎用AIアシスタントが必要な場合（→ ChatGPT、Claude）",
+        "既存ワークスペースに内蔵されたAIが必要な場合（→ Notion AI、Gemini）"
+      ],
+      "es": [
+        "Necesitas un asistente IA de propósito general (→ ChatGPT, Claude)",
+        "Quieres IA integrada en tu espacio existente (→ Notion AI, Gemini)"
+      ],
+      "fr": [
+        "Vous avez besoin d'un assistant IA généraliste (→ ChatGPT, Claude)",
+        "Vous voulez l'IA intégrée à votre espace existant (→ Notion AI, Gemini)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-27",
+    "verdictDate": "2026-07-27",
+    "pricingVerified": "2026-07-27"
+  }
+}

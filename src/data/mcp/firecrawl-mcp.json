@@ -1,0 +1,80 @@
+{
+  "slug": "firecrawl-mcp",
+  "name": "Firecrawl MCP",
+  "nameZh": "Firecrawl 网页抓取",
+  "description": "Firecrawl 官方 MCP 服务器。为智能体提供强大的网页抓取能力：JS 渲染、全站爬取、搜索与结构化数据提取，输出干净的 Markdown。",
+  "descriptionEn": "Firecrawl's official MCP server. Gives agents powerful web scraping capabilities: JS rendering, full-site crawling, search and structured data extraction with clean Markdown output.",
+  "descriptionJa": "Firecrawl公式MCPサーバー。JSレンダリング、サイト全体クロール、検索、構造化データ抽出などの強力なWebスクレイピング機能をエージェントに提供し、クリーンなMarkdownを出力。",
+  "descriptionEs": "El servidor MCP oficial de Firecrawl. Ofrece a los agentes scraping web potente: renderizado JS, rastreo de sitios completos, búsqueda y extracción de datos estructurados en Markdown limpio.",
+  "descriptionFr": "Le serveur MCP officiel de Firecrawl. Offre aux agents un scraping web puissant : rendu JS, exploration de sites complets, recherche et extraction de données structurées en Markdown propre.",
+  "developer": "Firecrawl (Mendable)",
+  "developerZh": "Firecrawl（Mendable）",
+  "repo": "firecrawl/firecrawl-mcp-server",
+  "clients": [
+    "claude",
+    "cursor",
+    "vscode",
+    "windsurf",
+    "generic"
+  ],
+  "category": "Search",
+  "tags": [
+    "Free",
+    "Open Source",
+    "API"
+  ],
+  "installCommand": "env FIRECRAWL_API_KEY=<key> npx -y firecrawl-mcp",
+  "logo": "/logos/mcp/firecrawl-mcp.png",
+  "stars": 7393,
+  "featured": false,
+  "faqs": [
+    {
+      "question": {
+        "zh": "Firecrawl MCP 和普通网页抓取有什么不同？",
+        "en": "How is Firecrawl MCP different from ordinary web scraping?",
+        "ja": "Firecrawl MCP は通常のウェブスクレイピングと何が違いますか？",
+        "es": "¿En qué se diferencia Firecrawl MCP del scraping web ordinario?",
+        "fr": "En quoi Firecrawl MCP diffère-t-il du scraping web ordinaire ?"
+      },
+      "answer": {
+        "zh": "它专为 LLM 设计：抓取后直接输出干净的 Markdown，支持 JS 渲染页面、全站爬取、搜索和结构化提取，AI 拿到的是可直接引用的内容而不是原始 HTML。",
+        "en": "It is built for LLMs: scraped pages come back as clean Markdown, with support for JS-rendered pages, full-site crawling, search and structured extraction. The AI gets citation-ready content instead of raw HTML.",
+        "ja": "LLM 専用設計です。取得したページはクリーンな Markdown で返され、JS レンダリングページ、サイト全体のクロール、検索、構造化抽出に対応。AI は生の HTML ではなくそのまま使えるコンテンツを受け取ります。",
+        "es": "Está diseñado para LLM: las páginas raspadas vuelven como Markdown limpio, con soporte para páginas renderizadas con JS, rastreo de sitios completos, búsqueda y extracción estructurada. La IA recibe contenido listo para citar, no HTML crudo.",
+        "fr": "Il est conçu pour les LLM : les pages récupérées reviennent en Markdown propre, avec prise en charge des pages rendues en JS, du crawl de sites entiers, de la recherche et de l'extraction structurée. L'IA reçoit du contenu prêt à citer, pas du HTML brut."
+      }
+    },
+    {
+      "question": {
+        "zh": "怎么安装 Firecrawl MCP？",
+        "en": "How do I install Firecrawl MCP?",
+        "ja": "Firecrawl MCP をインストールするには？",
+        "es": "¿Cómo instalo Firecrawl MCP?",
+        "fr": "Comment installer Firecrawl MCP ?"
+      },
+      "answer": {
+        "zh": "先在 firecrawl.dev 注册获取 API Key，然后在 MCP 配置中运行 env FIRECRAWL_API_KEY=<key> npx -y firecrawl-mcp。Cursor、Claude Code、Windsurf、VS Code 全都支持。",
+        "en": "Sign up at firecrawl.dev for an API key, then run env FIRECRAWL_API_KEY=<key> npx -y firecrawl-mcp in your MCP configuration. Cursor, Claude Code, Windsurf and VS Code are all supported.",
+        "ja": "まず firecrawl.dev で登録して API キーを取得し、MCP 設定で env FIRECRAWL_API_KEY=<key> npx -y firecrawl-mcp を実行します。Cursor、Claude Code、Windsurf、VS Code すべてに対応しています。",
+        "es": "Regístrate en firecrawl.dev para obtener una clave API y ejecuta env FIRECRAWL_API_KEY=<key> npx -y firecrawl-mcp en tu configuración MCP. Cursor, Claude Code, Windsurf y VS Code están soportados.",
+        "fr": "Inscrivez-vous sur firecrawl.dev pour obtenir une clé API, puis exécutez env FIRECRAWL_API_KEY=<key> npx -y firecrawl-mcp dans votre configuration MCP. Cursor, Claude Code, Windsurf et VS Code sont tous pris en charge."
+      }
+    },
+    {
+      "question": {
+        "zh": "Firecrawl 需要付费吗？",
+        "en": "Does Firecrawl cost money?",
+        "ja": "Firecrawl は有料ですか？",
+        "es": "¿Firecrawl es de pago?",
+        "fr": "Firecrawl est-il payant ?"
+      },
+      "answer": {
+        "zh": "MCP 服务器本身开源免费，但抓取走 Firecrawl 云端 API：免费套餐送一次性 500 积分额度，足够轻量使用；大量抓取需按积分付费订阅，也可以自托管开源版。",
+        "en": "The MCP server itself is open source and free, but scraping runs through the Firecrawl cloud API: the free plan includes a one-time 500-credit allowance, enough for light use. Heavy crawling requires a paid credit plan, or you can self-host the open-source version.",
+        "ja": "MCP サーバー自体はオープンソースで無料ですが、スクレイピングは Firecrawl クラウド API 経由です。無料プランには 500 クレジットの一回限りの枠があり、軽い用途には十分。大量クロールには有料プランが必要ですが、オープンソース版のセルフホストも可能です。",
+        "es": "El servidor MCP es de código abierto y gratuito, pero el scraping pasa por la API en la nube de Firecrawl: el plan gratuito incluye 500 créditos únicos, suficientes para uso ligero. El rastreo intensivo requiere plan de pago, o puedes autoalojar la versión open source.",
+        "fr": "Le serveur MCP est open source et gratuit, mais le scraping passe par l'API cloud Firecrawl : le plan gratuit inclut 500 crédits uniques, suffisants pour un usage léger. Le crawl intensif nécessite un plan payant, ou vous pouvez auto-héberger la version open source."
+      }
+    }
+  ]
+}

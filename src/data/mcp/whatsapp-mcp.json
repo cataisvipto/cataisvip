@@ -1,0 +1,78 @@
+{
+  "slug": "whatsapp-mcp",
+  "name": "WhatsApp MCP",
+  "nameZh": "WhatsApp MCP",
+  "description": "让 AI 智能体收发 WhatsApp 消息的 MCP 服务器。通过 WhatsApp Web 接口连接，支持发送文本消息、读取消息历史、管理联系人，实现 AI 驱动的 WhatsApp 自动化。",
+  "descriptionEn": "An MCP server that lets AI agents send and receive WhatsApp messages. Connects via WhatsApp Web, supporting text message sending, reading message history, and contact management — enabling AI-powered WhatsApp automation.",
+  "descriptionJa": "AI エージェントが WhatsApp メッセージを送受信できる MCP サーバー。WhatsApp Web インターフェースを介して接続し、テキストメッセージの送信、メッセージ履歴の読み取り、連絡先管理をサポート。AI 駆動の WhatsApp 自動化を実現します。",
+  "descriptionEs": "Un servidor MCP que permite a los agentes de IA enviar y recibir mensajes de WhatsApp. Se conecta a través de WhatsApp Web, permitiendo enviar mensajes de texto, leer el historial de mensajes y gestionar contactos — automatización de WhatsApp impulsada por IA.",
+  "descriptionFr": "Un serveur MCP qui permet aux agents IA d'envoyer et de recevoir des messages WhatsApp. Se connecte via WhatsApp Web, prenant en charge l'envoi de messages texte, la lecture de l'historique des messages et la gestion des contacts — une automatisation WhatsApp pilotée par l'IA.",
+  "developer": "Lukas Harries",
+  "developerZh": "Lukas Harries",
+  "repo": "lharries/whatsapp-mcp",
+  "clients": [
+    "claude",
+    "cursor",
+    "vscode",
+    "generic"
+  ],
+  "category": "Communication",
+  "tags": [
+    "Free",
+    "Open Source"
+  ],
+  "installCommand": "npx -y whatsapp-mcp",
+  "logo": "/logos/mcp/whatsapp-mcp.png",
+  "stars": 6230,
+  "featured": false,
+  "faqs": [
+    {
+      "question": {
+        "zh": "WhatsApp MCP 怎么工作的？安全吗？",
+        "en": "How does WhatsApp MCP work? Is it safe?",
+        "ja": "WhatsApp MCP はどのように動作しますか？安全ですか？",
+        "es": "¿Cómo funciona WhatsApp MCP? ¿Es seguro?",
+        "fr": "Comment fonctionne WhatsApp MCP ? Est-ce sûr ?"
+      },
+      "answer": {
+        "zh": "它通过 WhatsApp Web 协议连接，首次启动时需扫描二维码登录你的 WhatsApp。MCP 服务器在本地运行，消息不会通过第三方服务器中转。建议使用专用 WhatsApp 账号，避免个人账号被自动化操作影响。",
+        "en": "It connects via the WhatsApp Web protocol. On first launch, you'll need to scan a QR code to link your WhatsApp account. The MCP server runs locally and messages are not routed through third-party servers. Using a dedicated WhatsApp account is recommended to avoid affecting your personal account.",
+        "ja": "WhatsApp Web プロトコルを介して接続します。初回起動時に QR コードをスキャンして WhatsApp アカウントをリンクします。MCP サーバーはローカルで動作し、メッセージがサードパーティのサーバーを経由することはありません。個人アカウントへの影響を避けるため、専用の WhatsApp アカウントの使用をお勧めします。",
+        "es": "Se conecta mediante el protocolo WhatsApp Web. Al iniciar por primera vez, deberás escanear un código QR para vincular tu cuenta de WhatsApp. El servidor MCP se ejecuta en local y los mensajes no pasan por servidores de terceros. Se recomienda usar una cuenta de WhatsApp dedicada para evitar afectar tu cuenta personal.",
+        "fr": "Il se connecte via le protocole WhatsApp Web. Au premier lancement, vous devrez scanner un code QR pour lier votre compte WhatsApp. Le serveur MCP s'exécute localement et les messages ne transitent pas par des serveurs tiers. Il est recommandé d'utiliser un compte WhatsApp dédié pour éviter d'affecter votre compte personnel."
+      }
+    },
+    {
+      "question": {
+        "zh": "WhatsApp MCP 能批量发消息吗？",
+        "en": "Can WhatsApp MCP send bulk messages?",
+        "ja": "WhatsApp MCP は一括メッセージ送信ができますか？",
+        "es": "¿Puede WhatsApp MCP enviar mensajes masivos?",
+        "fr": "WhatsApp MCP peut-il envoyer des messages en masse ?"
+      },
+      "answer": {
+        "zh": "支持向多个联系人依次发送个性化消息，但需注意 WhatsApp 有反垃圾机制，短时间内大量发送可能导致账号被限制。建议合理控制发送频率，避免触发风控。",
+        "en": "It supports sending personalized messages to multiple contacts sequentially. However, WhatsApp has anti-spam mechanisms — sending too many messages in a short time may result in account restrictions. Control your sending frequency to avoid triggering rate limits.",
+        "ja": "複数の連絡先に個別メッセージを順次送信できます。ただし WhatsApp にはスパム対策機能があり、短時間に大量送信するとアカウント制限を受ける可能性があります。レート制限を避けるために送信頻度を適切に制御してください。",
+        "es": "Soporta el envío de mensajes personalizados a múltiples contactos de forma secuencial. Sin embargo, WhatsApp tiene mecanismos antispam — enviar demasiados mensajes en poco tiempo puede resultar en restricciones de la cuenta. Controla la frecuencia de envío para evitar límites de tasa.",
+        "fr": "Il supporte l'envoi de messages personnalisés à plusieurs contacts de manière séquentielle. Cependant, WhatsApp dispose de mécanismes anti-spam — envoyer trop de messages en peu de temps peut entraîner des restrictions de compte. Contrôlez votre fréquence d'envoi pour éviter les limitations de débit."
+      }
+    },
+    {
+      "question": {
+        "zh": "WhatsApp MCP 能读聊天记录吗？",
+        "en": "Can WhatsApp MCP read chat history?",
+        "ja": "WhatsApp MCP はチャット履歴を読めますか？",
+        "es": "¿Puede WhatsApp MCP leer el historial de chats?",
+        "fr": "WhatsApp MCP peut-il lire l'historique des conversations ?"
+      },
+      "answer": {
+        "zh": "能。它可以读取最近的聊天消息列表和指定对话的消息内容，方便 AI 智能体理解上下文后进行回复或分析。但只读取你 WhatsApp 中已有的消息，不会访问端到端加密的云端备份。",
+        "en": "Yes. It can read recent chat message lists and the content of specific conversations, allowing AI agents to understand context before replying or analyzing. It only reads messages already available in your WhatsApp — it does not access end-to-end encrypted cloud backups.",
+        "ja": "はい。最近のチャットメッセージ一覧と特定の会話のメッセージ内容を読み取れます。AI エージェントがコンテキストを理解してから返信や分析を行えます。ただし、既に WhatsApp 内にあるメッセージのみを読み取り、エンドツーエンド暗号化されたクラウドバックアップにはアクセスしません。",
+        "es": "Sí. Puede leer listas de mensajes recientes y el contenido de conversaciones específicas, permitiendo a los agentes de IA entender el contexto antes de responder o analizar. Solo lee mensajes ya disponibles en tu WhatsApp — no accede a copias de seguridad en la nube cifradas de extremo a extremo.",
+        "fr": "Oui. Il peut lire les listes de messages récents et le contenu de conversations spécifiques, permettant aux agents IA de comprendre le contexte avant de répondre ou d'analyser. Il lit uniquement les messages déjà disponibles dans votre WhatsApp — il n'accède pas aux sauvegardes cloud chiffrées de bout en bout."
+      }
+    }
+  ]
+}

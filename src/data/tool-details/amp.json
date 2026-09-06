@@ -1,0 +1,235 @@
+{
+  "features": {
+    "en": [
+      "Orbs: remote agents running in parallel on cloud machines",
+      "The Dial: four effort levels trading speed against depth, with multi-model scheduling",
+      "Oracle and Librarian sub-agents for planning and code search",
+      "CLI-first with a web dashboard — the VS Code extension was retired",
+      "Originated AGENTS.md, now a cross-tool convention",
+      "Slack integration and an SDK for scripting agents"
+    ],
+    "zh": [
+      "Orbs：在云端机器上并行运行的远程智能体",
+      "The Dial：四档力度旋钮权衡速度与深度，配多模型调度",
+      "Oracle 与 Librarian 子代理负责规划与代码检索",
+      "CLI 优先，配 Web 面板——VS Code 扩展已砍掉",
+      "AGENTS.md 的发起者，如今已成跨工具惯例",
+      "Slack 集成与可编程智能体的 SDK"
+    ],
+    "ja": [
+      "Orbs：クラウドマシン上で並列に走るリモートエージェント",
+      "The Dial：速度と深さを天秤にかける4段階の力加減、マルチモデル調度付き",
+      "計画とコード検索を担うOracleとLibrarianのサブエージェント",
+      "CLIファースト＋Webダッシュボード——VS Code拡張は廃止",
+      "いまや業界横断の慣習となったAGENTS.mdの発祥",
+      "Slack統合とエージェントをスクリプト化するSDK"
+    ],
+    "es": [
+      "Orbs: agentes remotos corriendo en paralelo en máquinas cloud",
+      "The Dial: cuatro niveles de esfuerzo equilibrando velocidad y profundidad, con orquestación multimodelo",
+      "Subagentes Oracle y Librarian para planificación y búsqueda de código",
+      "CLI primero con panel web — la extensión de VS Code fue retirada",
+      "Originó AGENTS.md, hoy una convención entre herramientas",
+      "Integración con Slack y un SDK para automatizar agentes"
+    ],
+    "fr": [
+      "Orbs : agents distants tournant en parallèle sur des machines cloud",
+      "The Dial : quatre niveaux d'effort arbitrant vitesse et profondeur, avec orchestration multi-modèles",
+      "Sous-agents Oracle et Librarian pour la planification et la recherche de code",
+      "CLI d'abord avec un tableau de bord web — l'extension VS Code a été retirée",
+      "À l'origine d'AGENTS.md, devenu une convention inter-outils",
+      "Intégration Slack et un SDK pour scripter les agents"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Amp Free (ad-supported, training-data trade-off) closed to new signups in February 2026; existing users keep access for now.",
+      "zh": "Amp Free（广告支持、以训练数据为交换）已于 2026 年 2 月停止新注册；存量用户暂时保留使用权。",
+      "ja": "Amp Free（広告付き・訓練データとの交換）は2026年2月に新規受付を停止。既存ユーザーは当面利用可能。",
+      "es": "Amp Free (con anuncios, a cambio de datos de entrenamiento) cerró a nuevos registros en febrero de 2026; los usuarios existentes mantienen el acceso por ahora.",
+      "fr": "Amp Free (financé par la pub, en échange de données d'entraînement) est fermé aux nouvelles inscriptions depuis février 2026 ; les utilisateurs existants gardent l'accès pour l'instant."
+    },
+    "paid": {
+      "en": "Subscriptions launched in beta in July 2026: Megawatt at $20/month and Gigawatt at $200/month with usage allowances, while classic pay-as-you-go credits remain available. (Verified against the official pricing page, 2026-07-29.)",
+      "zh": "订阅制于 2026 年 7 月以 Beta 推出：Megawatt $20/月、Gigawatt $200/月并含用量额度，经典的按量付费 credits 依然保留。（对照官方定价页核实，2026-07-29。）",
+      "ja": "サブスクリプションは2026年7月にベータで開始：Megawattは月$20、Gigawattは月$200で利用枠付き。従来の従量課金クレジットも引き続き利用可能。（公式価格ページと照合、2026-07-29。）",
+      "es": "Las suscripciones llegaron en beta en julio de 2026: Megawatt a $20/mes y Gigawatt a $200/mes con asignaciones de uso, mientras los créditos de pago por uso clásicos siguen disponibles. (Verificado con la página oficial de precios, 2026-07-29.)",
+      "fr": "Les abonnements sont arrivés en bêta en juillet 2026 : Megawatt à 20 $/mois et Gigawatt à 200 $/mois avec des quotas d'usage, les crédits classiques à la consommation restant disponibles. (Vérifié avec la page tarifaire officielle, 2026-07-29.)"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Power users running multiple agents in parallel via Orbs",
+      "Terminal-first developers who never wanted an IDE plugin anyway",
+      "Teams triggering coding agents from Slack conversations",
+      "Scripting custom agent pipelines with the SDK"
+    ],
+    "zh": [
+      "用 Orbs 并行跑多个智能体的重度用户",
+      "本就不想要 IDE 插件的终端优先开发者",
+      "从 Slack 会话直接触发编码智能体的团队",
+      "用 SDK 编排自定义智能体管线"
+    ],
+    "ja": [
+      "Orbsで複数エージェントを並列に走らせるパワーユーザー",
+      "そもそもIDEプラグインを求めないターミナルファーストの開発者",
+      "Slackの会話からコーディングエージェントを起動するチーム",
+      "SDKでカスタムエージェントパイプラインを構築"
+    ],
+    "es": [
+      "Usuarios avanzados corriendo múltiples agentes en paralelo vía Orbs",
+      "Desarrolladores de terminal que nunca quisieron un plugin de IDE",
+      "Equipos lanzando agentes de código desde conversaciones de Slack",
+      "Automatizar pipelines de agentes a medida con el SDK"
+    ],
+    "fr": [
+      "Utilisateurs avancés exécutant plusieurs agents en parallèle via les Orbs",
+      "Développeurs terminal-first qui n'ont jamais voulu de plugin IDE",
+      "Équipes déclenchant des agents de codage depuis des conversations Slack",
+      "Scripter des pipelines d'agents sur mesure avec le SDK"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Ships frontier features (Orbs, The Dial) months before competitors",
+      "Multi-model scheduling picks strong models per subtask automatically",
+      "Independent company post spin-out, laser-focused on one product",
+      "Deep community respect among agentic-coding early adopters"
+    ],
+    "zh": [
+      "前沿功能（Orbs、The Dial）比对手早几个月发布",
+      "多模型调度自动为每个子任务挑选强模型",
+      "拆分独立后的公司只聚焦这一款产品",
+      "在 agentic 编码尝鲜者社区中口碑深厚"
+    ],
+    "ja": [
+      "最先端機能（Orbs・The Dial）を競合より数ヶ月早く出荷",
+      "マルチモデル調度がサブタスクごとに強いモデルを自動選択",
+      "分社後の独立企業として1製品に集中",
+      "agenticコーディングのアーリーアダプター界隈で深い信頼"
+    ],
+    "es": [
+      "Lanza funciones de frontera (Orbs, The Dial) meses antes que la competencia",
+      "La orquestación multimodelo elige modelos fuertes por subtarea automáticamente",
+      "Empresa independiente tras la escisión, enfocada en un solo producto",
+      "Profundo respeto comunitario entre los pioneros del código agéntico"
+    ],
+    "fr": [
+      "Livre des fonctions de pointe (Orbs, The Dial) des mois avant les concurrents",
+      "L'orchestration multi-modèles choisit automatiquement les bons modèles par sous-tâche",
+      "Entreprise indépendante depuis la scission, concentrée sur un seul produit",
+      "Grand respect de la communauté des adopteurs précoces du codage agentique"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Aggressively cuts features: the VS Code extension was killed in February 2026",
+      "Free tier closed to new signups — trying it now costs money",
+      "Constant change makes it a poor fit for stability-minded teams",
+      "Costs can spike at higher Dial settings on pay-as-you-go"
+    ],
+    "zh": [
+      "砍功能毫不手软：VS Code 扩展 2026 年 2 月被砍",
+      "免费档已停新注册——现在尝鲜就得花钱",
+      "变化太快，不适合求稳的团队",
+      "按量付费下调高 Dial 档位时成本可能飙升"
+    ],
+    "ja": [
+      "機能削減が容赦ない：VS Code拡張は2026年2月に廃止",
+      "無料枠は新規停止——今試すにはお金がかかる",
+      "変化が速すぎて安定重視のチームには不向き",
+      "従量課金でDialを上げるとコストが跳ね上がることも"
+    ],
+    "es": [
+      "Recorta funciones sin piedad: la extensión de VS Code murió en febrero de 2026",
+      "El nivel gratuito cerró a nuevos registros — probarlo ahora cuesta dinero",
+      "El cambio constante lo hace mal encaje para equipos que buscan estabilidad",
+      "Los costes pueden dispararse con el Dial alto en pago por uso"
+    ],
+    "fr": [
+      "Coupe les fonctionnalités sans pitié : l'extension VS Code a été supprimée en février 2026",
+      "L'offre gratuite est fermée aux nouveaux inscrits — l'essayer coûte désormais de l'argent",
+      "Le changement permanent en fait un mauvais choix pour les équipes cherchant la stabilité",
+      "Les coûts peuvent flamber aux réglages élevés du Dial en paiement à l'usage"
+    ]
+  },
+  "latestUpdate": {
+    "en": "2026: now independent from Sourcegraph (spun out December 2025), Amp retired its VS Code extension to go CLI + web, closed Amp Free to new signups, and launched Megawatt ($20) and Gigawatt ($200) subscriptions in beta — with Orbs remote agents as the flagship capability.",
+    "zh": "2026 年：从 Sourcegraph 独立（2025 年 12 月拆分）后，Amp 砍掉 VS Code 扩展转向 CLI + Web，关闭 Amp Free 新注册，并以 Beta 推出 Megawatt（$20）与 Gigawatt（$200）订阅——旗舰能力是 Orbs 远程智能体。",
+    "ja": "2026年：Sourcegraphから独立（2025年12月分社）したAmpは、VS Code拡張を廃止してCLI + Webへ移行し、Amp Freeの新規受付を停止、Megawatt（$20）とGigawatt（$200）のサブスクリプションをベータで開始——旗艦機能はOrbsリモートエージェント。",
+    "es": "2026: ya independiente de Sourcegraph (escindida en diciembre de 2025), Amp retiró su extensión de VS Code para ser CLI + web, cerró Amp Free a nuevos registros y lanzó en beta las suscripciones Megawatt ($20) y Gigawatt ($200) — con los agentes remotos Orbs como capacidad estrella.",
+    "fr": "2026 : désormais indépendante de Sourcegraph (scission en décembre 2025), Amp a retiré son extension VS Code pour passer en CLI + web, fermé Amp Free aux nouvelles inscriptions et lancé en bêta les abonnements Megawatt (20 $) et Gigawatt (200 $) — avec les agents distants Orbs comme capacité phare."
+  },
+  "verdict": {
+    "badge": "Worth Trying",
+    "headline": {
+      "en": "The bleeding edge of agentic coding — sharp in both senses",
+      "zh": "agentic 编码的最前沿——「锋利」的两层含义都占",
+      "ja": "agenticコーディングの最先端——「鋭い」の両方の意味で",
+      "es": "El filo sangrante del código agéntico — afilado en ambos sentidos",
+      "fr": "La fine pointe du codage agentique — tranchante dans les deux sens"
+    },
+    "body": {
+      "en": "Amp is what an agentic coding tool looks like when nothing is sacred. Spun out of Sourcegraph in late 2025, the independent company ships at a pace nobody in the category matches — Orbs run agents in parallel on cloud machines while your laptop sleeps, The Dial lets you crank effort from quick-fix to deep-work with multi-model scheduling underneath, and Oracle and Librarian sub-agents handle planning and code search. This is also the team that gave the industry AGENTS.md. The same ruthlessness cuts the other way: the VS Code extension — how many users first met Amp — was killed in February 2026 in favor of CLI + web, and Amp Free closed to new signups the same month. The new Megawatt ($20) and Gigawatt ($200) subscriptions, still in beta, at least make costs predictable versus raw pay-as-you-go, where high Dial settings can burn money fast. The calculus is straightforward. If you want a tool that behaves the same next quarter, Amp will frustrate you — pick something steadier. But if you're an early adopter who wants to feel where agentic coding is going six months before it arrives everywhere else, Amp is the most interesting ticket on sale, and Worth Trying is exactly the right frame: try it, push it, and decide if you can live with its velocity.",
+      "zh": "Amp 展示了当一切皆可推翻时，agentic 编码工具的模样。2025 年底从 Sourcegraph 拆分独立后，这家公司以品类内无人能及的节奏发布——Orbs 让智能体在云端机器上并行干活，你的笔记本可以合盖睡觉；The Dial 让你把力度从快修拧到深耕，底下是多模型调度；Oracle 与 Librarian 子代理分管规划与代码检索。这也是给行业带来 AGENTS.md 的团队。同样的狠劲也会反噬：VS Code 扩展——多少用户初识 Amp 的地方——2026 年 2 月被砍，转向 CLI + Web；Amp Free 同月停止新注册。新的 Megawatt（$20）与 Gigawatt（$200）订阅虽仍在 Beta，至少让成本比裸按量付费可预测——后者在高 Dial 档位下烧钱很快。这笔账其实简单。如果你想要一款下个季度行为不变的工具，Amp 会让你恼火——选个更稳的。但如果你是想提前六个月体感 agentic 编码走向的尝鲜者，Amp 是市面上最有意思的一张票，「Worth Trying」正是恰当的框架：去试、去压榨，然后决定你能否与它的速度共处。",
+      "ja": "Ampは、何も神聖視しないときのagenticコーディングツールの姿だ。2025年末にSourcegraphから分社した独立企業は、このカテゴリーで誰も追いつけないペースで出荷する——OrbsはあなたのノートPCが眠っている間もクラウドマシン上でエージェントを並列に走らせ、The Dialはクイックフィックスから深い作業まで力加減を回せて、その下ではマルチモデル調度が動き、OracleとLibrarianのサブエージェントが計画とコード検索を担う。業界にAGENTS.mdをもたらしたのもこのチームだ。同じ容赦なさは逆にも切れる。多くのユーザーがAmpと出会った場所であるVS Code拡張は2026年2月に廃止されCLI + Webへ、Amp Freeも同月に新規受付を停止した。ベータ中の新サブスクリプションMegawatt（$20）とGigawatt（$200）は、少なくとも生の従量課金——Dialを上げると金が速く燃える——よりコストを予測可能にする。損得勘定は単純だ。来四半期も同じ挙動のツールが欲しいなら、Ampはあなたを苛立たせる——もっと堅実なものを選ぶべきだ。だが、agenticコーディングの行き先を他より半年早く体感したいアーリーアダプターなら、Ampは売り出し中で最も面白いチケットであり、「Worth Trying」はまさに正しい枠組みだ。試し、酷使し、その速度と共存できるか決めればいい。",
+      "es": "Amp es cómo luce una herramienta de código agéntico cuando nada es sagrado. Escindida de Sourcegraph a finales de 2025, la empresa independiente lanza a un ritmo que nadie en la categoría iguala — los Orbs ejecutan agentes en paralelo en máquinas cloud mientras tu portátil duerme, The Dial permite subir el esfuerzo de arreglo-rápido a trabajo-profundo con orquestación multimodelo debajo, y los subagentes Oracle y Librarian manejan planificación y búsqueda de código. Este es también el equipo que dio a la industria AGENTS.md. La misma crudeza corta en sentido contrario: la extensión de VS Code — donde tantos usuarios conocieron Amp — fue eliminada en febrero de 2026 a favor de CLI + web, y Amp Free cerró a nuevos registros el mismo mes. Las nuevas suscripciones Megawatt ($20) y Gigawatt ($200), aún en beta, al menos hacen los costes predecibles frente al pago por uso puro, donde el Dial alto quema dinero rápido. El cálculo es directo. Si quieres una herramienta que se comporte igual el próximo trimestre, Amp te frustrará — elige algo más estable. Pero si eres un adoptante temprano que quiere sentir hacia dónde va el código agéntico seis meses antes de que llegue a todas partes, Amp es el billete más interesante a la venta, y Worth Trying es el marco exacto: pruébalo, exprímelo y decide si puedes vivir con su velocidad.",
+      "fr": "Amp montre à quoi ressemble un outil de codage agentique quand rien n'est sacré. Détachée de Sourcegraph fin 2025, l'entreprise indépendante livre à un rythme que personne n'égale dans la catégorie — les Orbs font tourner des agents en parallèle sur des machines cloud pendant que votre portable dort, The Dial permet de monter l'effort du correctif rapide au travail profond avec l'orchestration multi-modèles en dessous, et les sous-agents Oracle et Librarian gèrent planification et recherche de code. C'est aussi l'équipe qui a donné AGENTS.md à l'industrie. La même férocité coupe dans l'autre sens : l'extension VS Code — par laquelle tant d'utilisateurs ont découvert Amp — a été supprimée en février 2026 au profit du CLI + web, et Amp Free a fermé aux nouvelles inscriptions le même mois. Les nouveaux abonnements Megawatt (20 $) et Gigawatt (200 $), encore en bêta, rendent au moins les coûts prévisibles face au paiement à l'usage brut, où un Dial élevé brûle vite l'argent. Le calcul est simple. Si vous voulez un outil au comportement identique le trimestre prochain, Amp vous frustrera — choisissez plus stable. Mais si vous êtes un adopteur précoce qui veut sentir où va le codage agentique six mois avant tout le monde, Amp est le billet le plus intéressant en vente, et Worth Trying est exactement le bon cadre : essayez-le, poussez-le, et décidez si vous pouvez vivre avec sa vélocité."
+    },
+    "bestFor": {
+      "en": [
+        "Early adopters chasing the frontier of agentic coding",
+        "Terminal-first developers comfortable with CLI + web workflows",
+        "Power users parallelizing work across Orbs remote agents"
+      ],
+      "zh": [
+        "追逐 agentic 编码前沿的尝鲜者",
+        "适应 CLI + Web 工作流的终端优先开发者",
+        "用 Orbs 远程智能体并行干活的重度用户"
+      ],
+      "ja": [
+        "agenticコーディングの最前線を追うアーリーアダプター",
+        "CLI + Webワークフローに慣れたターミナルファーストの開発者",
+        "Orbsリモートエージェントで作業を並列化するパワーユーザー"
+      ],
+      "es": [
+        "Adoptantes tempranos persiguiendo la frontera del código agéntico",
+        "Desarrolladores terminal-first cómodos con flujos CLI + web",
+        "Usuarios avanzados paralelizando trabajo con los agentes remotos Orbs"
+      ],
+      "fr": [
+        "Adopteurs précoces poursuivant la frontière du codage agentique",
+        "Développeurs terminal-first à l'aise avec les flux CLI + web",
+        "Utilisateurs avancés parallélisant le travail via les agents distants Orbs"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You want stability and an editor-based experience (→ Cursor)",
+        "You prefer a mature terminal agent with a calmer roadmap (→ Claude Code)"
+      ],
+      "zh": [
+        "你想要稳定性和编辑器形态的体验（→ Cursor）",
+        "你偏好路线图更沉稳的成熟终端智能体（→ Claude Code）"
+      ],
+      "ja": [
+        "安定性とエディタベースの体験が欲しい（→ Cursor）",
+        "より落ち着いたロードマップの成熟したターミナルエージェントが好み（→ Claude Code）"
+      ],
+      "es": [
+        "Quieres estabilidad y una experiencia basada en editor (→ Cursor)",
+        "Prefieres un agente de terminal maduro con hoja de ruta más calmada (→ Claude Code)"
+      ],
+      "fr": [
+        "Vous voulez de la stabilité et une expérience dans l'éditeur (→ Cursor)",
+        "Vous préférez un agent terminal mature à la feuille de route plus posée (→ Claude Code)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-29",
+    "verdictDate": "2026-07-29",
+    "pricingVerified": "2026-07-29",
+    "pricingUrl": "https://ampcode.com/pricing"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "coze-cn",
+  "name": "Coze",
+  "nameZh": "扣子",
+  "description": "字节跳动推出的 AI Bot 开发平台（中国版），支持自定义插件、知识库和工作流，深度整合火山引擎生态",
+  "descriptionEn": "ByteDance's AI bot development platform (China version), with custom plugins, knowledge base, workflows, deeply integrated with Volcano Engine ecosystem",
+  "descriptionJa": "ByteDanceのAIボット開発プラットフォーム（中国版）。カスタムプラグイン、ナレッジベース、ワークフローに対応、火山エンジンエコシステムと深く統合",
+  "descriptionEs": "Plataforma de desarrollo de bots IA de ByteDance (versión China), con plugins personalizados, base de conocimiento, flujos de trabajo, profundamente integrada con el ecosistema Volcano Engine",
+  "descriptionFr": "Plateforme de développement de bots IA de ByteDance (version Chine), avec plugins personnalisés, base de connaissances, workflows, profondément intégrée à l'écosystème Volcano Engine",
+  "url": "https://www.coze.cn/",
+  "logo": "/logos/tools/coze-cn.png",
+  "category": "Agent",
+  "tags": [
+    "Free"
+  ],
+  "featured": false,
+  "developer": "ByteDance",
+  "developerZh": "字节跳动",
+  "platforms": {
+    "web": true,
+    "windows": true,
+    "macos": true,
+    "ios": true,
+    "android": true,
+    "linux": "unknown",
+    "browser_extension": "unknown",
+    "api": true
+  }
+}

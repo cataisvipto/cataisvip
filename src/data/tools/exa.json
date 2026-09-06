@@ -1,0 +1,29 @@
+{
+  "slug": "exa",
+  "name": "Exa",
+  "nameZh": "Exa",
+  "description": "为 AI 智能体与 RAG 打造的神经搜索 API，理解语义而非关键词，直接返回干净页面内容免抓取，另有 Deep Search 与结构化 Websets，前约 10 条结果内容免费、送约 $10 额度",
+  "descriptionEn": "AI-native neural search API for agents and RAG: understands meaning rather than keywords and returns clean page content directly (no scraping), plus Deep Search and structured Websets; content on the top ~10 results is free with ~$10 in starter credits",
+  "descriptionJa": "AIエージェントとRAGのためのニューラル検索API。キーワードではなく意味を理解し、クリーンなページ内容を直接返す（スクレイピング不要）。Deep Searchと構造化Websetsも。上位約10件の結果内容は無料、約$10のクレジット付き",
+  "descriptionEs": "API de búsqueda neural nativa de IA para agentes y RAG: entiende el significado en vez de palabras clave y devuelve contenido limpio de páginas directamente (sin scraping), más Deep Search y Websets estructurados; el contenido de los ~10 primeros resultados es gratis con ~$10 de créditos",
+  "descriptionFr": "API de recherche neuronale native IA pour agents et RAG : comprend le sens plutôt que les mots-clés et renvoie directement le contenu propre des pages (sans scraping), plus Deep Search et Websets structurés ; le contenu des ~10 premiers résultats est gratuit avec ~10 $ de crédits",
+  "url": "https://exa.ai",
+  "logo": "/logos/tools/exa.png",
+  "category": "Search",
+  "tags": [
+    "Freemium",
+    "API"
+  ],
+  "featured": false,
+  "developer": "Exa",
+  "platforms": {
+    "web": true,
+    "windows": false,
+    "macos": false,
+    "ios": false,
+    "android": false,
+    "linux": false,
+    "browser_extension": false,
+    "api": true
+  }
+}

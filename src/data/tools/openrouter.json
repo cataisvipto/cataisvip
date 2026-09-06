@@ -1,0 +1,29 @@
+{
+  "slug": "openrouter",
+  "name": "OpenRouter",
+  "nameZh": "OpenRouter",
+  "description": "统一 AI 模型 API 网关，一个接口访问 200+ 模型，支持按量计费和模型对比",
+  "descriptionEn": "Unified AI model API gateway, access 200+ models through a single interface with pay-as-you-go pricing and model comparison",
+  "descriptionJa": "統一AIモデルAPIゲートウェイ。単一インターフェースで200以上のモデルにアクセス、従量課金とモデル比較に対応",
+  "descriptionEs": "Puerta de enlace API de modelos de IA unificada, accede a más de 200 modelos a través de una sola interfaz con pago por uso y comparación de modelos",
+  "descriptionFr": "Passerelle API unifiée pour modèles IA, accédez à plus de 200 modèles via une interface unique avec paiement à l'usage et comparaison de modèles",
+  "url": "https://openrouter.ai",
+  "logo": "/logos/tools/openrouter.png",
+  "category": "API Platform",
+  "tags": [
+    "Freemium",
+    "API"
+  ],
+  "featured": false,
+  "developer": "OpenRouter",
+  "platforms": {
+    "web": true,
+    "windows": false,
+    "macos": false,
+    "ios": false,
+    "android": false,
+    "linux": false,
+    "browser_extension": false,
+    "api": true
+  }
+}

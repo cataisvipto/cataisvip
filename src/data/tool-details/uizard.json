@@ -1,0 +1,235 @@
+{
+  "features": {
+    "en": [
+      "Autodesigner 2.0 generates multi-screen projects from a text prompt",
+      "Screenshot Scanner turns any screenshot into an editable mockup",
+      "Wireframe Scanner digitizes hand-drawn sketches into UI",
+      "Drag-and-drop editor with themes and reusable components",
+      "Clickable prototypes for quick, shareable user testing",
+      "Part of Miro, so designs connect to a broader collaboration suite"
+    ],
+    "zh": [
+      "Autodesigner 2.0 根据文字提示生成多屏项目",
+      "截图扫描器把任意截图转成可编辑稿",
+      "手绘线框扫描器把纸上草图数字化为 UI",
+      "拖拽式编辑器，配主题与可复用组件",
+      "可点击原型，便于快速、可分享的用户测试",
+      "隶属 Miro，设计可接入更广的协作套件"
+    ],
+    "ja": [
+      "Autodesigner 2.0がテキストプロンプトから複数画面のプロジェクトを生成",
+      "スクリーンショットスキャナーが任意の画像を編集可能なモックに変換",
+      "手書きワイヤーフレームスキャナーがスケッチをUIにデジタル化",
+      "テーマと再利用可能なコンポーネントを備えたドラッグ&ドロップエディタ",
+      "素早く共有できるユーザーテスト向けのクリック可能なプロトタイプ",
+      "Miroの一部で、デザインが広範なコラボスイートに連携"
+    ],
+    "es": [
+      "Autodesigner 2.0 genera proyectos multipantalla desde un prompt de texto",
+      "El Escáner de Capturas convierte cualquier captura en una maqueta editable",
+      "El Escáner de Wireframes digitaliza bocetos a mano en UI",
+      "Editor de arrastrar y soltar con temas y componentes reutilizables",
+      "Prototipos clicables para pruebas de usuario rápidas y compartibles",
+      "Parte de Miro, así que los diseños conectan con una suite de colaboración más amplia"
+    ],
+    "fr": [
+      "Autodesigner 2.0 génère des projets multi-écrans depuis un prompt texte",
+      "Le Scanner de captures transforme n'importe quelle capture en maquette éditable",
+      "Le Scanner de wireframes numérise les croquis à main levée en UI",
+      "Éditeur glisser-déposer avec thèmes et composants réutilisables",
+      "Prototypes cliquables pour des tests utilisateurs rapides et partageables",
+      "Partie de Miro, les designs se connectent à une suite de collaboration plus large"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "A Free plan lets you create with limited AI usage — around three AI generations per month — and a capped number of projects.",
+      "zh": "免费档可创作，但 AI 用量受限——每月约三次 AI 生成——项目数量也有上限。",
+      "ja": "無料プランでは限られたAI利用——月約3回のAI生成——と上限付きのプロジェクト数で作成できる。",
+      "es": "Un plan Free permite crear con uso de IA limitado — unas tres generaciones de IA al mes — y un número tope de proyectos.",
+      "fr": "Un plan Free permet de créer avec un usage IA limité — environ trois générations IA par mois — et un nombre plafonné de projets."
+    },
+    "paid": {
+      "en": "Pro is $12/month (billed annually) with around 500 AI generations, and Business is $39/month with about 5,000 generations and team features; larger organizations get custom Enterprise pricing. (Verified against the official pricing page, 2026-07-28.)",
+      "zh": "Pro 为 $12/月（年付计价），约 500 次 AI 生成；Business 为 $39/月，约 5,000 次生成并含团队功能；更大组织走定制 Enterprise 报价。（对照官方定价页核实，2026-07-28。）",
+      "ja": "Proは月$12（年払い計算）で約500回のAI生成、Businessは月$39で約5,000回の生成とチーム機能付き。より大きな組織は個別のEnterprise価格。（公式価格ページと照合、2026-07-28。）",
+      "es": "Pro cuesta $12/mes (facturación anual) con unas 500 generaciones de IA, y Business $39/mes con unas 5000 generaciones y funciones de equipo; las organizaciones mayores tienen precio Enterprise a medida. (Verificado con la página oficial de precios, 2026-07-28.)",
+      "fr": "Pro est à 12 $/mois (facturation annuelle) avec environ 500 générations IA, et Business à 39 $/mois avec environ 5 000 générations et des fonctions d'équipe ; les grandes organisations ont un tarif Enterprise sur mesure. (Vérifié avec la page tarifaire officielle, 2026-07-28.)"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Non-designers turning an idea into a UI mockup fast",
+      "Product managers sketching app flows before handing to design",
+      "Founders validating a concept with a clickable prototype",
+      "Digitizing hand-drawn wireframes or existing app screenshots"
+    ],
+    "zh": [
+      "非设计师把想法快速变成 UI 稿",
+      "产品经理在交付设计前先勾勒应用流程",
+      "创始人用可点击原型验证一个概念",
+      "把手绘线框或现有应用截图数字化"
+    ],
+    "ja": [
+      "非デザイナーがアイデアを素早くUIモックに",
+      "プロダクトマネージャーがデザイン引き渡し前にアプリフローを描く",
+      "創業者がクリック可能なプロトタイプでコンセプトを検証",
+      "手書きワイヤーフレームや既存アプリの画像をデジタル化"
+    ],
+    "es": [
+      "No diseñadores que convierten una idea en una maqueta UI rápido",
+      "Product managers que bosquejan flujos de app antes de pasarlos a diseño",
+      "Fundadores que validan un concepto con un prototipo clicable",
+      "Digitalizar wireframes a mano o capturas de apps existentes"
+    ],
+    "fr": [
+      "Non-designers transformant vite une idée en maquette UI",
+      "Product managers esquissant des flux d'app avant de les passer au design",
+      "Fondateurs validant un concept avec un prototype cliquable",
+      "Numériser des wireframes dessinés à la main ou des captures d'apps existantes"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Genuinely low barrier — usable with zero design background",
+      "Scanners turn screenshots and sketches into editable designs",
+      "Fast path from prompt to a clickable, testable prototype",
+      "Backing and integration of Miro give it staying power"
+    ],
+    "zh": [
+      "门槛真的低——零设计背景也能上手",
+      "扫描器把截图与草图变成可编辑设计",
+      "从提示到可点击、可测试原型的路径很快",
+      "Miro 的背书与整合让它更有持续力"
+    ],
+    "ja": [
+      "本当に低い敷居——デザイン経験ゼロでも使える",
+      "スキャナーが画像やスケッチを編集可能なデザインに",
+      "プロンプトからクリック可能でテスト可能なプロトタイプまで速い",
+      "Miroの後ろ盾と統合が継続性を与える"
+    ],
+    "es": [
+      "Barrera realmente baja — usable sin ninguna base de diseño",
+      "Los escáneres convierten capturas y bocetos en diseños editables",
+      "Camino rápido del prompt a un prototipo clicable y testeable",
+      "El respaldo y la integración de Miro le dan permanencia"
+    ],
+    "fr": [
+      "Barrière vraiment basse — utilisable sans aucune base en design",
+      "Les scanners transforment captures et croquis en designs éditables",
+      "Chemin rapide du prompt à un prototype cliquable et testable",
+      "Le soutien et l'intégration de Miro lui donnent de la pérennité"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Output leans toward lower-fidelity mockups than pro design tools",
+      "Free tier's ~3 generations a month is very limited",
+      "Not a replacement for Figma-grade precision and design systems",
+      "Advanced control and fine detailing are limited by design"
+    ],
+    "zh": [
+      "产出偏低保真稿，不及专业设计工具",
+      "免费档每月约 3 次生成，非常有限",
+      "无法替代 Figma 级的精度与设计系统",
+      "高级控制与精细刻画因定位而受限"
+    ],
+    "ja": [
+      "出力はプロ設計ツールより低忠実度のモック寄り",
+      "無料枠の月約3回生成は非常に限定的",
+      "Figma級の精度やデザインシステムの代替にはならない",
+      "高度な制御や細部の作り込みは設計上限られる"
+    ],
+    "es": [
+      "La salida tiende a maquetas de menor fidelidad que las herramientas pro",
+      "Las ~3 generaciones al mes del nivel gratis son muy limitadas",
+      "No sustituye la precisión y los sistemas de diseño de nivel Figma",
+      "El control avanzado y el detalle fino están limitados por diseño"
+    ],
+    "fr": [
+      "Le rendu tend vers des maquettes de plus faible fidélité que les outils pro",
+      "Les ~3 générations par mois du niveau gratuit sont très limitées",
+      "Ne remplace pas la précision et les design systems de niveau Figma",
+      "Le contrôle avancé et le détail fin sont limités par conception"
+    ]
+  },
+  "latestUpdate": {
+    "en": "2026: Now part of Miro, Uizard kept refining Autodesigner 2.0 for prompt-to-project generation alongside its Screenshot and Wireframe scanners, doubling down on being the easiest way for non-designers to go from idea to a testable UI.",
+    "zh": "2026 年：已归入 Miro 的 Uizard 持续打磨用于「提示生成项目」的 Autodesigner 2.0，以及截图与线框扫描器，进一步押注「让非设计师从想法到可测试 UI 的最简路径」。",
+    "ja": "2026年：Miro傘下となったUizardは、プロンプトからプロジェクトを生成するAutodesigner 2.0と、スクリーンショット・ワイヤーフレームのスキャナーを磨き続け、「非デザイナーがアイデアからテスト可能なUIへ至る最も簡単な方法」に一層注力している。",
+    "es": "2026: Ahora parte de Miro, Uizard siguió refinando Autodesigner 2.0 para la generación de proyecto desde prompt junto con sus escáneres de captura y wireframe, apostando por ser la forma más fácil de que los no diseñadores pasen de la idea a una UI testeable.",
+    "fr": "2026 : Désormais partie de Miro, Uizard a continué d'affiner Autodesigner 2.0 pour la génération de projet depuis un prompt ainsi que ses scanners de capture et de wireframe, misant sur le fait d'être le moyen le plus simple pour les non-designers de passer de l'idée à une UI testable."
+  },
+  "verdict": {
+    "badge": "Worth Trying",
+    "headline": {
+      "en": "The friendliest on-ramp from idea to a testable UI",
+      "zh": "从想法到可测试 UI，最友好的入口",
+      "ja": "アイデアからテスト可能なUIへ、最も親しみやすい入口",
+      "es": "La rampa más amable de la idea a una UI testeable",
+      "fr": "La rampe d'accès la plus accueillante de l'idée à une UI testable"
+    },
+    "body": {
+      "en": "Uizard's whole pitch is approachability, and it delivers: describe an app and Autodesigner 2.0 spins up a multi-screen project, point the Screenshot Scanner at any app and get an editable version, or snap a photo of a napkin wireframe and watch it become real UI. For a product manager, founder or anyone without a design background, that's a genuinely fast route from a vague idea to a clickable prototype you can put in front of users — no Figma learning curve required. Being part of Miro also means it's not a fragile side project; it plugs into a larger collaboration ecosystem. The catch is fidelity: Uizard is built for speed and low-fi mockups, not the pixel precision and mature design systems that professional teams rely on, and the free tier's roughly three AI generations a month runs out almost immediately. Think of it as the ideal starting point and validation tool rather than the place you'll finish production design. Within that lane it's excellent, and at $12/month for Pro it's easy to try — well worth a look if you value speed and accessibility over deep control.",
+      "zh": "Uizard 的整个卖点就是「好上手」，而它确实做到了：描述一个应用，Autodesigner 2.0 就生成多屏项目；把截图扫描器对准任意应用，就得到可编辑版本；给餐巾纸上的线框拍张照，看它变成真实 UI。对产品经理、创始人或任何没有设计背景的人来说，这是一条从模糊想法到可点击原型、能立刻拿去给用户看的快路——不需要 Figma 那套学习曲线。归入 Miro 也意味着它不是脆弱的副项目，而是接入了更大的协作生态。代价在于保真度：Uizard 为速度和低保真稿而生，而非专业团队依赖的像素精度与成熟设计系统，且免费档每月约三次 AI 生成几乎立刻用完。请把它当作理想的起点与验证工具，而非你完成生产级设计的地方。在这条赛道里它很出色，Pro 每月 $12 也很容易一试——若你更看重速度与易用而非深度控制，非常值得一看。",
+      "ja": "Uizardの売りは一貫して「とっつきやすさ」で、実際にそれを果たす。アプリを説明すればAutodesigner 2.0が複数画面のプロジェクトを立ち上げ、スクリーンショットスキャナーを任意のアプリに向ければ編集可能な版が得られ、ナプキンのワイヤーフレームを撮ればそれが本物のUIになる。プロダクトマネージャー、創業者、デザイン経験のない誰にとっても、曖昧なアイデアからユーザーに見せられるクリック可能なプロトタイプまでの本当に速い道だ——Figmaの学習曲線は不要。Miroの一部であることは、脆い副プロジェクトではなく、より大きなコラボ生態系に接続していることも意味する。難点は忠実度だ。Uizardは速度と低忠実度のモック向けで、プロチームが頼るピクセル精度や成熟したデザインシステム向けではなく、無料枠の月約3回のAI生成はほぼ即座に尽きる。生産設計を仕上げる場ではなく、理想的な出発点・検証ツールと考えるとよい。その領域では優秀で、Proは月$12と試しやすい——深い制御より速度と使いやすさを重視するなら一見の価値が十分ある。",
+      "es": "Todo el argumento de Uizard es la accesibilidad, y cumple: describe una app y Autodesigner 2.0 monta un proyecto multipantalla, apunta el Escáner de Capturas a cualquier app y obtén una versión editable, o fotografía el wireframe de una servilleta y míralo convertirse en UI real. Para un product manager, fundador o cualquiera sin base de diseño, es una ruta genuinamente rápida de una idea vaga a un prototipo clicable que puedes poner ante usuarios — sin la curva de aprendizaje de Figma. Ser parte de Miro también significa que no es un proyecto secundario frágil; se conecta a un ecosistema de colaboración mayor. El truco es la fidelidad: Uizard está hecho para la velocidad y las maquetas de baja fidelidad, no para la precisión de píxel y los sistemas de diseño maduros en que confían los equipos profesionales, y las tres generaciones de IA al mes del nivel gratis se agotan casi de inmediato. Piénsalo como el punto de partida y herramienta de validación ideal, no el lugar donde terminarás el diseño de producción. Dentro de ese carril es excelente, y a $12/mes por Pro es fácil de probar — bien vale un vistazo si valoras la velocidad y la accesibilidad sobre el control profundo.",
+      "fr": "Tout l'argumentaire d'Uizard est l'accessibilité, et il tient parole : décrivez une app et Autodesigner 2.0 monte un projet multi-écrans, pointez le Scanner de captures vers n'importe quelle app et obtenez une version éditable, ou photographiez le wireframe d'une serviette et regardez-le devenir une vraie UI. Pour un product manager, un fondateur ou quiconque sans base en design, c'est une route véritablement rapide d'une idée floue à un prototype cliquable que vous pouvez mettre devant des utilisateurs — sans la courbe d'apprentissage de Figma. Faire partie de Miro signifie aussi que ce n'est pas un projet secondaire fragile ; il se branche sur un écosystème de collaboration plus large. Le hic est la fidélité : Uizard est conçu pour la vitesse et les maquettes basse fidélité, pas pour la précision au pixel et les design systems matures sur lesquels s'appuient les équipes pro, et les trois générations IA par mois du niveau gratuit s'épuisent presque aussitôt. Voyez-le comme le point de départ et l'outil de validation idéal, pas l'endroit où vous finaliserez le design de production. Dans ce couloir il est excellent, et à 12 $/mois pour Pro il est facile à essayer — ça vaut le coup d'œil si vous privilégiez la vitesse et l'accessibilité au contrôle profond."
+    },
+    "bestFor": {
+      "en": [
+        "Non-designers and PMs turning ideas into UI fast",
+        "Founders validating concepts with clickable prototypes",
+        "Anyone digitizing sketches or screenshots into editable designs"
+      ],
+      "zh": [
+        "快速把想法变 UI 的非设计师与产品经理",
+        "用可点击原型验证概念的创始人",
+        "把草图或截图数字化为可编辑设计的任何人"
+      ],
+      "ja": [
+        "アイデアを素早くUIにする非デザイナーやPM",
+        "クリック可能なプロトタイプでコンセプトを検証する創業者",
+        "スケッチや画像を編集可能なデザインにデジタル化する人"
+      ],
+      "es": [
+        "No diseñadores y PMs que convierten ideas en UI rápido",
+        "Fundadores que validan conceptos con prototipos clicables",
+        "Cualquiera que digitalice bocetos o capturas en diseños editables"
+      ],
+      "fr": [
+        "Non-designers et PM transformant vite des idées en UI",
+        "Fondateurs validant des concepts avec des prototypes cliquables",
+        "Quiconque numérise croquis ou captures en designs éditables"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You need pixel-perfect, production-grade design and design systems (→ Figma)",
+        "You want to generate a live website rather than a UI mockup (→ Framer or a website builder)"
+      ],
+      "zh": [
+        "你需要像素级、可上生产的设计与设计系统（→ Figma）",
+        "你想生成上线网站、而非 UI 稿（→ Framer 或建站工具）"
+      ],
+      "ja": [
+        "ピクセル完璧で本番品質のデザインとデザインシステムが必要（→ Figma）",
+        "UIモックではなく公開できるWebサイトを生成したい（→ Framerやサイトビルダー）"
+      ],
+      "es": [
+        "Necesitas diseño de precisión de píxel, listo para producción y sistemas de diseño (→ Figma)",
+        "Quieres generar un sitio web en vivo en vez de una maqueta UI (→ Framer o un creador de sitios)"
+      ],
+      "fr": [
+        "Vous avez besoin d'un design au pixel près, prêt pour la production et de design systems (→ Figma)",
+        "Vous voulez générer un site web en ligne plutôt qu'une maquette UI (→ Framer ou un créateur de sites)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-28",
+    "verdictDate": "2026-07-28",
+    "pricingVerified": "2026-07-28",
+    "pricingUrl": "https://uizard.io/pricing/"
+  }
+}

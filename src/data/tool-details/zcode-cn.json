@@ -1,0 +1,224 @@
+{
+  "features": {
+    "en": [
+      "AI coding agent (China edition)",
+      "Officially tuned for GLM models",
+      "Plan, code, review and ship",
+      "Works with existing toolchains",
+      "Chinese-first experience",
+      "Domestic direct access"
+    ],
+    "zh": [
+      "AI 编程 Agent（中文版）",
+      "官方适配 GLM 系列模型",
+      "规划、编码、评审与上线",
+      "兼容现有工具链",
+      "中文优先体验",
+      "国内直连访问"
+    ],
+    "ja": [
+      "AI コーディング Agent（中国版）",
+      "GLM モデルに公式対応",
+      "計画・コーディング・レビュー・リリース",
+      "既存ツールチェーンと連携",
+      "中国語優先の体験",
+      "国内から直接アクセス"
+    ],
+    "es": [
+      "Agente de codificación IA (edición China)",
+      "Adaptado oficialmente a modelos GLM",
+      "Planificar, codificar, revisar y desplegar",
+      "Compatible con cadenas de herramientas existentes",
+      "Experiencia en chino primero",
+      "Acceso directo nacional"
+    ],
+    "fr": [
+      "Agent de codage IA (édition Chine)",
+      "Optimisé officiellement pour les modèles GLM",
+      "Planifier, coder, réviser et déployer",
+      "Compatible avec les chaînes d'outils existantes",
+      "Expérience en chinois d'abord",
+      "Accès direct national"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Free trial quota",
+      "zh": "免费试用额度",
+      "ja": "無料トライアル枠",
+      "es": "Cuota de prueba gratuita",
+      "fr": "Quota d'essai gratuit"
+    },
+    "pro": {
+      "en": "GLM Coding Plan subscription",
+      "zh": "GLM Coding Plan 订阅",
+      "ja": "GLM Coding Plan サブスク",
+      "es": "Suscripción GLM Coding Plan",
+      "fr": "Abonnement GLM Coding Plan"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Agentic coding",
+      "Refactoring",
+      "Code review",
+      "Terminal task automation"
+    ],
+    "zh": [
+      "智能体编程",
+      "代码重构",
+      "代码评审",
+      "终端任务自动化"
+    ],
+    "ja": [
+      "エージェント型コーディング",
+      "リファクタリング",
+      "コードレビュー",
+      "ターミナル作業の自動化"
+    ],
+    "es": [
+      "Codificación con agentes",
+      "Refactorización",
+      "Revisión de código",
+      "Automatización de tareas en terminal"
+    ],
+    "fr": [
+      "Codage agentique",
+      "Refactorisation",
+      "Revue de code",
+      "Automatisation de tâches en terminal"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Stable domestic access",
+      "Strong GLM coding performance",
+      "Chinese-friendly",
+      "Fits existing workflows"
+    ],
+    "zh": [
+      "国内访问稳定",
+      "GLM 编程性能强",
+      "中文友好",
+      "契合现有流程"
+    ],
+    "ja": [
+      "国内アクセスが安定",
+      "GLM のコーディング性能が高い",
+      "中国語に親和的",
+      "既存フローに適合"
+    ],
+    "es": [
+      "Acceso nacional estable",
+      "Buen rendimiento de codificación GLM",
+      "Amigable con el chino",
+      "Se adapta a flujos existentes"
+    ],
+    "fr": [
+      "Accès national stable",
+      "Bonnes performances de codage GLM",
+      "Adapté au chinois",
+      "S'intègre aux flux existants"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Best experience tied to GLM models",
+      "Newer product"
+    ],
+    "zh": [
+      "最佳体验依赖 GLM 模型",
+      "产品较新"
+    ],
+    "ja": [
+      "最良の体験は GLM モデルに依存",
+      "比較的新しい製品"
+    ],
+    "es": [
+      "La mejor experiencia depende de modelos GLM",
+      "Producto más reciente"
+    ],
+    "fr": [
+      "La meilleure expérience dépend des modèles GLM",
+      "Produit plus récent"
+    ]
+  },
+  "latestUpdate": {
+    "en": "2026: ZCode Chinese edition adapts to GLM-5.2 with stable domestic access",
+    "zh": "2026年：ZCode 中文版适配 GLM-5.2，国内访问稳定",
+    "ja": "2026年：ZCode 中国版が GLM-5.2 に対応し、国内アクセスが安定",
+    "es": "2026: la edición china de ZCode se adapta a GLM-5.2 con acceso nacional estable",
+    "fr": "2026 : l'édition chinoise de ZCode s'adapte à GLM-5.2 avec un accès national stable"
+  },
+  "verdict": {
+    "badge": "For Specific Needs",
+    "headline": {
+      "en": "Chinese edition of ZCode with domestic hosting for local developers.",
+      "zh": "ZCode中国版，国内托管服务面向本地开发者。",
+      "ja": "ローカル開発者向けの国内ホスティングを備えたZCodeの中国版。",
+      "es": "Edición china de ZCode con hosting doméstico para desarrolladores locales.",
+      "fr": "Édition chinoise de ZCode avec hébergement domestique pour développeurs locaux."
+    },
+    "body": {
+      "en": "ZCode CN provides the same code generation capabilities as ZCode but hosted domestically for Chinese developers. Low latency and compliance with local regulations make it accessible for teams operating within China.\n\nThe same feature limitations apply—it handles pattern-based generation but doesn't match the intelligence of more comprehensive coding tools. A practical choice for Chinese developers who need a locally-hosted code generation tool.",
+      "zh": "ZCode CN 提供与 ZCode 相同的代码生成能力但面向中国开发者本地托管。低延迟和合规性使其对国内运营的团队可用。\n\n相同的功能限制适用——它处理基于模式的生成但不及更全面编码工具的智能程度。对需要本地托管代码生成工具的中国开发者是实用选择。",
+      "ja": "ZCode CNはZCodeと同じコード生成能力を国内ホスティングで中国の開発者に提供します。低遅延と現地規制への準拠により中国国内のチームがアクセスできます。\n\n同じ機能制限が適用されます。中国でローカルホスティングのコード生成ツールが必要な開発者にとって実用的な選択です。",
+      "es": "ZCode CN proporciona las mismas capacidades pero hospedado domésticamente para desarrolladores chinos. Baja latencia y cumplimiento regulatorio lo hacen accesible para equipos en China.\n\nLas mismas limitaciones aplican. Una opción práctica para desarrolladores chinos que necesitan herramienta de generación de código hospedada localmente.",
+      "fr": "ZCode CN offre les mêmes capacités mais hébergé domestiquement pour les développeurs chinois. Faible latence et conformité réglementaire le rendent accessible en Chine.\n\nLes mêmes limitations s'appliquent. Un choix pratique pour les développeurs chinois nécessitant un outil de génération de code hébergé localement."
+    },
+    "bestFor": {
+      "en": [
+        "Chinese developers needing local code generation",
+        "Teams requiring domestic compliance",
+        "Low-latency coding assistance in China"
+      ],
+      "zh": [
+        "需要本地代码生成的中国开发者",
+        "需要国内合规的团队",
+        "国内低延迟编码辅助"
+      ],
+      "ja": [
+        "ローカルコード生成が必要な中国の開発者",
+        "国内コンプライアンスが必要なチーム",
+        "中国での低遅延コーディング支援"
+      ],
+      "es": [
+        "Desarrolladores chinos que necesitan generación de código local",
+        "Equipos que requieren cumplimiento doméstico",
+        "Asistencia de código de baja latencia en China"
+      ],
+      "fr": [
+        "Développeurs chinois nécessitant la génération de code locale",
+        "Équipes nécessitant la conformité domestique",
+        "Assistance de code à faible latence en Chine"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You're outside China (→ ZCode, Cursor)",
+        "You need comprehensive coding AI (→ Trae CN, Qoder)"
+      ],
+      "zh": [
+        "在海外（→ ZCode、Cursor）",
+        "需要全面的编程AI（→ Trae CN、Qoder）"
+      ],
+      "ja": [
+        "中国国外の場合（→ ZCode、Cursor）",
+        "包括的なコーディングAIが必要な場合（→ Trae CN、Qoder）"
+      ],
+      "es": [
+        "Estás fuera de China (→ ZCode, Cursor)",
+        "Necesitas IA de código completa (→ Trae CN, Qoder)"
+      ],
+      "fr": [
+        "Vous êtes hors de Chine (→ ZCode, Cursor)",
+        "Vous avez besoin d'une IA de code complète (→ Trae CN, Qoder)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-27",
+    "verdictDate": "2026-07-27",
+    "pricingVerified": "2026-07-27"
+  }
+}

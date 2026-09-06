@@ -1,0 +1,79 @@
+{
+  "slug": "cloudbase-mcp",
+  "name": "CloudBase AI Toolkit",
+  "nameZh": "腾讯云 CloudBase AI 工具包",
+  "description": "腾讯云 CloudBase 出品的 AI 编程后端工具包。为 AI 编码智能体提供数据库读写、用户认证、云函数调用、文件存储等后端能力，让智能体一键部署前后端应用。",
+  "descriptionEn": "An AI coding backend toolkit by Tencent Cloud CloudBase. Provides database read/write, user authentication, cloud function invocation, and file storage for AI coding agents — enabling one-click full-stack deployment.",
+  "descriptionJa": "Tencent Cloud の CloudBase による AI プログラミング用バックエンドツールキット。AI コーディングエージェントにデータベースの読み書き、ユーザー認証、クラウド関数の呼び出し、ファイルストレージなどのバックエンド機能を提供し、ワンクリックでフルスタックアプリをデプロイできます。",
+  "descriptionEs": "Un kit de herramientas backend de IA de Tencent Cloud CloudBase. Proporciona lectura/escritura de bases de datos, autenticación de usuarios, invocación de funciones cloud y almacenamiento de archivos para agentes de codificación de IA — permitiendo despliegue full-stack con un clic.",
+  "descriptionFr": "Une boîte à outils backend pour l'IA de Tencent Cloud CloudBase. Fournit la lecture/écriture de bases de données, l'authentification utilisateur, l'invocation de fonctions cloud et le stockage de fichiers pour les agents de codage IA — permettant un déploiement full-stack en un clic.",
+  "developer": "Tencent Cloud (CloudBase)",
+  "developerZh": "腾讯云 CloudBase",
+  "repo": "TencentCloudBase/CloudBase-AI-Toolkit",
+  "clients": [
+    "claude",
+    "cursor",
+    "vscode",
+    "codex",
+    "generic"
+  ],
+  "category": "Cloud",
+  "tags": [
+    "Free",
+    "Open Source"
+  ],
+  "installCommand": "npm install -g @cloudbase/cloudbase-mcp && cloudbase-mcp",
+  "logo": "/logos/mcp/cloudbase-mcp.png",
+  "stars": 1092,
+  "featured": false,
+  "faqs": [
+    {
+      "question": {
+        "zh": "CloudBase AI Toolkit 能做什么？",
+        "en": "What can CloudBase AI Toolkit do?",
+        "ja": "CloudBase AI Toolkit は何ができますか？",
+        "es": "¿Qué puede hacer CloudBase AI Toolkit?",
+        "fr": "Que peut faire CloudBase AI Toolkit ?"
+      },
+      "answer": {
+        "zh": "为 AI 编码智能体提供完整后端能力：创建和查询数据库集合、管理用户认证与登录、调用云函数、读写文件存储、部署静态网站，让智能体从编码到上线一条龙完成。",
+        "en": "It provides full backend capabilities for AI coding agents: create and query database collections, manage user authentication and login, invoke cloud functions, read/write file storage, and deploy static websites — from coding to production in one workflow.",
+        "ja": "AI コーディングエージェントに完全なバックエンド機能を提供します：データベースコレクションの作成・クエリ、ユーザー認証とログイン管理、クラウド関数の呼び出し、ファイルストレージの読み書き、静的サイトのデプロイまで、コーディングから本番公開までを一貫して行えます。",
+        "es": "Proporciona capacidades backend completas para agentes de codificación de IA: crear y consultar colecciones de base de datos, gestionar autenticación de usuarios, invocar funciones cloud, leer/escribir almacenamiento de archivos y desplegar sitios estáticos — del código a producción en un solo flujo.",
+        "fr": "Il fournit des capacités backend complètes pour les agents de codage IA : créer et interroger des collections de base de données, gérer l'authentification des utilisateurs, invoquer des fonctions cloud, lire/écrire du stockage de fichiers et déployer des sites statiques — du codage à la production en un seul flux."
+      }
+    },
+    {
+      "question": {
+        "zh": "怎么安装 CloudBase MCP？",
+        "en": "How do I install CloudBase MCP?",
+        "ja": "CloudBase MCP のインストール方法は？",
+        "es": "¿Cómo instalo CloudBase MCP?",
+        "fr": "Comment installer CloudBase MCP ?"
+      },
+      "answer": {
+        "zh": "全局安装 CLI：npm install -g @cloudbase/cloudbase-mcp，然后运行 cloudbase-mcp 启动。在 Claude Code 中用 claude mcp add cloudbase -- cloudbase-mcp 注册。首次使用需登录腾讯云账号。",
+        "en": "Install the CLI globally: npm install -g @cloudbase/cloudbase-mcp, then run cloudbase-mcp. Register it in Claude Code with claude mcp add cloudbase -- cloudbase-mcp. You'll need to log in with your Tencent Cloud account on first use.",
+        "ja": "CLI をグローバルインストール：npm install -g @cloudbase/cloudbase-mcp を実行し、cloudbase-mcp で起動します。Claude Code では claude mcp add cloudbase -- cloudbase-mcp で登録。初回利用時は Tencent Cloud アカウントへのログインが必要です。",
+        "es": "Instala la CLI globalmente: npm install -g @cloudbase/cloudbase-mcp, luego ejecuta cloudbase-mcp. Regístralo en Claude Code con claude mcp add cloudbase -- cloudbase-mcp. Necesitarás iniciar sesión con tu cuenta de Tencent Cloud al primer uso.",
+        "fr": "Installez la CLI globalement : npm install -g @cloudbase/cloudbase-mcp, puis exécutez cloudbase-mcp. Enregistrez-le dans Claude Code avec claude mcp add cloudbase -- cloudbase-mcp. Une connexion à votre compte Tencent Cloud sera nécessaire lors de la première utilisation."
+      }
+    },
+    {
+      "question": {
+        "zh": "CloudBase 有免费额度吗？",
+        "en": "Does CloudBase have a free tier?",
+        "ja": "CloudBase に無料枠はありますか？",
+        "es": "¿CloudBase tiene un nivel gratuito?",
+        "fr": "CloudBase a-t-il un niveau gratuit ?"
+      },
+      "answer": {
+        "zh": "CloudBase 提供免费额度，包括一定量的数据库读写次数、云函数调用次数和存储空间，适合个人开发和小型项目。超出部分按量计费。",
+        "en": "CloudBase offers a free tier including a certain amount of database reads/writes, cloud function invocations, and storage — suitable for personal development and small projects. Beyond the free tier, usage is billed per volume.",
+        "ja": "CloudBase には無料枠があり、一定量のデータベース読み書き、クラウド関数呼び出し、ストレージ容量が含まれます。個人開発や小規模プロジェクトに適しています。無料枠を超えた分は従量課金です。",
+        "es": "CloudBase ofrece un nivel gratuito que incluye una cantidad determinada de lecturas/escrituras de base de datos, invocaciones de funciones cloud y almacenamiento — adecuado para desarrollo personal y proyectos pequeños. Más allá del nivel gratuito, el uso se factura por volumen.",
+        "fr": "CloudBase offre un niveau gratuit incluant un certain nombre de lectures/écritures de base de données, d'invocations de fonctions cloud et de stockage — adapté au développement personnel et aux petits projets. Au-delà du niveau gratuit, l'utilisation est facturée au volume."
+      }
+    }
+  ]
+}

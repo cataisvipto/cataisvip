@@ -1,0 +1,28 @@
+{
+  "slug": "jetbrains-ai",
+  "name": "JetBrains AI Assistant",
+  "nameZh": "JetBrains AI 助手",
+  "description": "JetBrains 全家桶 IDE 的官方 AI：AI Assistant 补全/聊天/重构与编码智能体 Junie 共享一份订阅，免费档无限本地模型与无限代码补全独树一帜，AI Pro $10/月、Junie 重度用户建议 Ultimate $30/月",
+  "descriptionEn": "The official AI for JetBrains IDEs: AI Assistant (completion, chat, refactoring) and the Junie coding agent share one subscription, with a standout free tier of unlimited local models and unlimited code completion — AI Pro at $10/month, AI Ultimate at $30/month recommended for heavy Junie use",
+  "descriptionJa": "JetBrains全IDE公式のAI。AI Assistant（補完・チャット・リファクタリング）とコーディングエージェントJunieが1つのサブスクリプションを共有。無制限のローカルモデルと無制限コード補完という無料枠が際立つ。AI Proは月$10、Junieヘビーユーザーには月$30のAI Ultimateを推奨",
+  "descriptionEs": "La IA oficial de los IDE de JetBrains: AI Assistant (autocompletado, chat, refactorización) y el agente de código Junie comparten una sola suscripción, con un nivel gratuito destacado de modelos locales ilimitados y autocompletado ilimitado — AI Pro a $10/mes, AI Ultimate a $30/mes recomendado para uso intensivo de Junie",
+  "descriptionFr": "L'IA officielle des IDE JetBrains : AI Assistant (complétion, chat, refactorisation) et l'agent de codage Junie partagent un seul abonnement, avec une offre gratuite remarquable — modèles locaux illimités et complétion illimitée ; AI Pro à 10 $/mois, AI Ultimate à 30 $/mois conseillé pour un usage intensif de Junie",
+  "url": "https://www.jetbrains.com/ai/",
+  "logo": "/logos/tools/jetbrains-ai.png",
+  "category": "Code",
+  "tags": [
+    "Freemium"
+  ],
+  "featured": false,
+  "developer": "JetBrains",
+  "platforms": {
+    "web": false,
+    "windows": true,
+    "macos": true,
+    "ios": false,
+    "android": false,
+    "linux": true,
+    "browser_extension": false,
+    "api": false
+  }
+}

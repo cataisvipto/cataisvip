@@ -1,0 +1,75 @@
+{
+  "slug": "pyvideotrans",
+  "name": "PyVideoTrans",
+  "nameZh": "视频翻译配音",
+  "description": "视频翻译配音工具。支持视频语音识别、字幕翻译、语音合成、配音，将视频翻译为多语言版本。",
+  "descriptionEn": "Video translation and dubbing tool. Supports speech recognition, subtitle translation, voice synthesis, dubbing for multi-language video translation.",
+  "descriptionJa": "動画翻訳・吹き替えツール。音声認識、字幕翻訳、音声合成、吹き替えに対応し、動画を多言語化。",
+  "descriptionEs": "Herramienta de traducción y doblaje de video. Reconocimiento de voz, traducción de subtítulos, síntesis de voz, doblaje.",
+  "descriptionFr": "Outil de traduction et doublage vidéo. Reconnaissance vocale, traduction de sous-titres, synthèse vocale, doublage.",
+  "developer": "jianchang512",
+  "developerZh": "jianchang512",
+  "repo": "jianchang512/pyvideotrans",
+  "agents": [
+    "generic"
+  ],
+  "category": "Video",
+  "tags": [
+    "Free",
+    "Open Source"
+  ],
+  "installCommand": "pip install pyvideotrans",
+  "logo": "/logos/skills/pyvideotrans.png",
+  "stars": 18887,
+  "featured": false,
+  "faqs": [
+    {
+      "question": {
+        "zh": "PyVideoTrans 能做什么？",
+        "en": "What can PyVideoTrans do?",
+        "ja": "PyVideoTrans で何ができますか？",
+        "es": "¿Qué puede hacer PyVideoTrans?",
+        "fr": "Que peut faire PyVideoTrans ?"
+      },
+      "answer": {
+        "zh": "一站式视频翻译配音：自动识别视频语音、生成并翻译字幕、合成目标语言配音，最终输出带新配音和字幕的视频。把中文视频变成英语、日语版只需几步。",
+        "en": "One-stop video translation and dubbing: it recognizes speech in the video, generates and translates subtitles, synthesizes voice-over in the target language, and outputs a video with new dubbing and subtitles. Turning a Chinese video into English or Japanese takes just a few steps.",
+        "ja": "ワンストップの動画翻訳・吹き替えツールです。動画の音声を自動認識し、字幕を生成・翻訳し、目標言語の音声を合成して、新しい吹き替えと字幕付きの動画を出力します。中国語動画を英語版や日本語版にするのも数ステップです。",
+        "es": "Traducción y doblaje de vídeo todo en uno: reconoce el habla del vídeo, genera y traduce subtítulos, sintetiza la voz en el idioma objetivo y produce un vídeo con nuevo doblaje y subtítulos. Convertir un vídeo chino al inglés o japonés lleva solo unos pasos.",
+        "fr": "Traduction et doublage vidéo tout-en-un : il reconnaît la parole, génère et traduit les sous-titres, synthétise la voix dans la langue cible et produit une vidéo avec nouveau doublage et sous-titres. Passer une vidéo chinoise en anglais ou japonais ne prend que quelques étapes."
+      }
+    },
+    {
+      "question": {
+        "zh": "怎么安装 PyVideoTrans？",
+        "en": "How do I install PyVideoTrans?",
+        "ja": "PyVideoTrans をインストールするには？",
+        "es": "¿Cómo instalo PyVideoTrans?",
+        "fr": "Comment installer PyVideoTrans ?"
+      },
+      "answer": {
+        "zh": "Python 环境下运行 pip install pyvideotrans，Windows 用户也可以从 GitHub 下载预打包版本直接使用。支持接入多种语音识别与合成引擎，详细配置见 README。",
+        "en": "Run pip install pyvideotrans in a Python environment; Windows users can also download the prepackaged build from GitHub. Multiple speech recognition and synthesis engines are supported — see the README for configuration.",
+        "ja": "Python 環境で pip install pyvideotrans を実行します。Windows ユーザーは GitHub からパッケージ済みビルドをダウンロードしてそのまま使うこともできます。複数の音声認識・合成エンジンに対応しており、詳細設定は README を参照してください。",
+        "es": "Ejecuta pip install pyvideotrans en un entorno Python; los usuarios de Windows también pueden descargar la versión empaquetada desde GitHub. Soporta varios motores de reconocimiento y síntesis de voz; consulta el README para la configuración.",
+        "fr": "Exécutez pip install pyvideotrans dans un environnement Python ; les utilisateurs Windows peuvent aussi télécharger la version préempaquetée sur GitHub. Plusieurs moteurs de reconnaissance et de synthèse vocale sont pris en charge — voir le README."
+      }
+    },
+    {
+      "question": {
+        "zh": "PyVideoTrans 免费吗？翻译质量怎么样？",
+        "en": "Is PyVideoTrans free? How good is the translation quality?",
+        "ja": "PyVideoTrans は無料ですか？翻訳品質はどうですか？",
+        "es": "¿PyVideoTrans es gratuito? ¿Qué tal la calidad de traducción?",
+        "fr": "PyVideoTrans est-il gratuit ? Quelle est la qualité de traduction ?"
+      },
+      "answer": {
+        "zh": "软件免费开源。识别、翻译、配音引擎均可自选：全用免费引擎（如本地 Whisper + 免费 TTS）零成本但质量一般；接入付费 API 可显著提升配音自然度，成本由所选服务决定。",
+        "en": "The software is free and open source. Recognition, translation and dubbing engines are pluggable: an all-free stack (local Whisper + free TTS) costs nothing with acceptable quality, while paid APIs noticeably improve voice naturalness — cost depends on the services you pick.",
+        "ja": "ソフトウェアは無料のオープンソースです。認識・翻訳・吹き替えエンジンは自由に選択可能。すべて無料エンジン（ローカル Whisper + 無料 TTS）ならゼロコストで実用的な品質、有料 API を接続すれば音声の自然さが大きく向上します。コストは選ぶサービス次第です。",
+        "es": "El software es gratuito y de código abierto. Los motores de reconocimiento, traducción y doblaje son intercambiables: una pila totalmente gratuita (Whisper local + TTS gratis) no cuesta nada con calidad aceptable; las APIs de pago mejoran notablemente la naturalidad de la voz.",
+        "fr": "Le logiciel est gratuit et open source. Les moteurs de reconnaissance, traduction et doublage sont interchangeables : une pile entièrement gratuite (Whisper local + TTS gratuit) ne coûte rien avec une qualité correcte ; les API payantes améliorent nettement le naturel de la voix."
+      }
+    }
+  ]
+}

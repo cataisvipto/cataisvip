@@ -1,0 +1,29 @@
+{
+  "slug": "langchain",
+  "name": "LangChain",
+  "nameZh": "LangChain",
+  "description": "开源框架，帮助开发者快速构建基于大语言模型的应用",
+  "descriptionEn": "Open-source framework for building LLM-powered applications quickly",
+  "descriptionJa": "オープンソースフレームワーク。LLM搭載アプリケーションを迅速に構築",
+  "descriptionEs": "Framework de código abierto para construir aplicaciones basadas en LLM rápidamente",
+  "descriptionFr": "Framework open-source pour construire rapidement des applications basées sur des LLM",
+  "url": "https://www.langchain.com",
+  "logo": "/logos/tools/langchain.png",
+  "category": "Open Source",
+  "tags": [
+    "Free",
+    "Open Source"
+  ],
+  "featured": true,
+  "developer": "LangChain",
+  "platforms": {
+    "web": false,
+    "windows": true,
+    "macos": true,
+    "ios": false,
+    "android": false,
+    "linux": true,
+    "browser_extension": false,
+    "api": false
+  }
+}

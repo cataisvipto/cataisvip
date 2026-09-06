@@ -1,0 +1,76 @@
+{
+  "slug": "photo-stamp-archive",
+  "name": "Photo Stamp Archive",
+  "nameZh": "照片图章档案",
+  "description": "把照片转为克制、清爽的档案拼接作品：一侧忠实保留原照片，另一侧使用暖白纸张与定制手工图章。",
+  "descriptionEn": "Codex skill for transforming photos into restrained archival composites: a faithfully preserved photograph joined to a warm-white paper panel with a custom hand-pressed seal.",
+  "descriptionJa": "Codexスキル。写真を抑制的で清潔なアーカイブ拼接作品に変換：片側に保存された写真、もう片側に暖かい白紙パネルとカスタム押印。",
+  "descriptionEs": "Un skill de Codex que transforma fotos en composiciones archivísticas contenedoras: una fotografía fielmente preservada unida a un panel de papel cálido-blanco con sello de mano personalizado.",
+  "descriptionFr": "Un skill Codex pour transformer des photos en compositions d'archives retenues : une photographie fidèlement préservée jointe à un panneau papier blanc chaud avec un sceau manuel personnalisé.",
+  "developer": "Dlcccc71913",
+  "developerZh": "Dlcccc71913",
+  "repo": "Dlcccc71913/skill-make-photo-stamp-archive",
+  "agents": [
+    "codex",
+    "openai"
+  ],
+  "category": "Design",
+  "tags": [
+    "Free",
+    "Open Source"
+  ],
+  "installCommand": "git clone https://github.com/Dlcccc71913/skill-make-photo-stamp-archive ~/.codex/skills/photo-stamp-archive",
+  "logo": "/logos/skills/photo-stamp-archive.png",
+  "stars": 329,
+  "featured": false,
+  "faqs": [
+    {
+      "question": {
+        "zh": "授权？",
+        "en": "License?",
+        "ja": "ライセンス？",
+        "es": "¿Licencia?",
+        "fr": "Licence ?"
+      },
+      "answer": {
+        "zh": "MIT 协议，免费开源。",
+        "en": "MIT license, free and open source.",
+        "ja": "MITライセンス、無料のオープンソース。",
+        "es": "Licencia MIT, gratuita y de código abierto.",
+        "fr": "Licence MIT, gratuit et open source."
+      }
+    },
+    {
+      "question": {
+        "zh": "怎么使用？",
+        "en": "How to use?",
+        "ja": "使い方？",
+        "es": "¿Cómo usar?",
+        "fr": "Comment utiliser ?"
+      },
+      "answer": {
+        "zh": "克隆仓库到你的 Codex 技能目录。",
+        "en": "Clone the repo to your Codex skill directory.",
+        "ja": "Codexスキルディレクトリにクローン。",
+        "es": "Clona el repositorio en tu directorio de skills de Codex.",
+        "fr": "Clonez le dépôt dans votre répertoire de skills Codex."
+      }
+    },
+    {
+      "question": {
+        "zh": "支持哪些智能体？",
+        "en": "Which agents?",
+        "ja": "どんなエージェント対応？",
+        "es": "¿Qué agentes?",
+        "fr": "Quels agents ?"
+      },
+      "answer": {
+        "zh": "兼容 Codex、Claude Code、Cursor 等主流编码智能体。",
+        "en": "Compatible with Codex, Claude Code, Cursor and other main coding agents.",
+        "ja": "Codex、Claude Code、Cursor 等の主要コーディングエージェントと互換。",
+        "es": "Compatible con Codex, Claude Code, Cursor y otros agentes de codificación.",
+        "fr": "Compatible avec Codex, Claude Code, Cursor et autres agents de codage principaux."
+      }
+    }
+  ]
+}

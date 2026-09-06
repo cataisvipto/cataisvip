@@ -1,0 +1,29 @@
+{
+  "slug": "heygen",
+  "name": "HeyGen",
+  "nameZh": "HeyGen",
+  "description": "AI 数字人视频平台，支持 100+ 语言的虚拟主播视频生成，企业营销和培训首选",
+  "descriptionEn": "AI avatar video platform supporting 100+ languages for virtual presenter videos, ideal for enterprise marketing and training",
+  "descriptionJa": "AIアバター動画プラットフォーム。100以上の言語に対応、企業マーケティングやトレーニングに最適",
+  "descriptionEs": "Plataforma de video con avatares IA que soporta más de 100 idiomas, ideal para marketing empresarial y formación",
+  "descriptionFr": "Plateforme vidéo d'avatars IA supportant plus de 100 langues, idéal pour le marketing d'entreprise et la formation",
+  "url": "https://www.heygen.com",
+  "logo": "/logos/tools/heygen.png",
+  "category": "Avatar",
+  "tags": [
+    "Freemium",
+    "API"
+  ],
+  "featured": false,
+  "developer": "HeyGen",
+  "platforms": {
+    "web": true,
+    "windows": false,
+    "macos": false,
+    "ios": true,
+    "android": true,
+    "linux": false,
+    "browser_extension": false,
+    "api": true
+  }
+}

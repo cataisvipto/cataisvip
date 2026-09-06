@@ -1,0 +1,28 @@
+{
+  "slug": "sora",
+  "name": "Sora",
+  "nameZh": "Sora",
+  "description": "OpenAI 曾推出的 AI 视频生成模型，已于2026年4月停止服务",
+  "descriptionEn": "OpenAI's former AI video generation model, discontinued in April 2026",
+  "descriptionJa": "OpenAIの元AI動画生成モデル、2026年4月にサービス終了",
+  "descriptionEs": "Antiguo modelo de generación de vídeo IA de OpenAI, descontinuado en abril 2026",
+  "descriptionFr": "Ancien modèle de génération vidéo IA d'OpenAI, arrêté en avril 2026",
+  "url": "https://sora.com",
+  "logo": "/logos/tools/sora.png",
+  "category": "Video",
+  "tags": [
+    "Discontinued"
+  ],
+  "featured": false,
+  "developer": "OpenAI",
+  "platforms": {
+    "web": true,
+    "windows": false,
+    "macos": false,
+    "ios": true,
+    "android": true,
+    "linux": false,
+    "browser_extension": false,
+    "api": true
+  }
+}

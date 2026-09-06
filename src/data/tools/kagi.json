@@ -1,0 +1,30 @@
+{
+  "slug": "kagi",
+  "name": "Kagi",
+  "nameZh": "Kagi",
+  "description": "完全由用户付费驱动的高端无广告搜索引擎，零跟踪、结果可自定义排序，内置 Kagi Assistant 聚合多家旗舰大模型，欧美口碑极佳",
+  "descriptionEn": "A premium, ad-free search engine fully funded by its users. Zero tracking, customizable result ranking, and the built-in Kagi Assistant aggregates flagship LLMs; highly praised in Western tech communities",
+  "descriptionJa": "ユーザー課金のみで運営されるプレミアム広告なし検索エンジン。トラッキングゼロ、検索結果のカスタムランキングに対応。内蔵のKagi Assistantは主要フラッグシップLLMを統合し、欧米で高評価",
+  "descriptionEs": "Motor de búsqueda premium sin anuncios financiado íntegramente por sus usuarios. Cero rastreo, clasificación de resultados personalizable y el Kagi Assistant integrado agrega los LLM insignia; muy valorado en Occidente",
+  "descriptionFr": "Moteur de recherche premium sans publicité entièrement financé par ses utilisateurs. Zéro pistage, classement des résultats personnalisable, et l'assistant Kagi intégré agrège les LLM phares ; très apprécié dans les communautés tech occidentales",
+  "url": "https://kagi.com",
+  "logo": "/logos/tools/kagi.png",
+  "category": "Search",
+  "tags": [
+    "Paid",
+    "API"
+  ],
+  "featured": false,
+  "developer": "Kagi Inc.",
+  "developerZh": "Kagi",
+  "platforms": {
+    "web": true,
+    "windows": false,
+    "macos": false,
+    "ios": true,
+    "android": true,
+    "linux": false,
+    "browser_extension": true,
+    "api": true
+  }
+}

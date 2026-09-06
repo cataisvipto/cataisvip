@@ -1,0 +1,79 @@
+{
+  "slug": "unity-mcp",
+  "name": "Unity MCP",
+  "nameZh": "Unity MCP",
+  "description": "连接 AI 智能体与 Unity 编辑器的桥梁。让 AI 直接操作 Unity 场景：创建和修改游戏对象、编辑材质、运行脚本、控制编辑器状态，大幅提升游戏开发效率。",
+  "descriptionEn": "A bridge between AI assistants and the Unity Editor. Lets AI directly operate Unity scenes: create and modify game objects, edit materials, run scripts, and control editor state — dramatically boosting game development productivity.",
+  "descriptionJa": "AI アシスタントと Unity エディターを橋渡しするツール。AI が Unity シーンを直接操作可能：ゲームオブジェクトの作成・変更、マテリアルの編集、スクリプトの実行、エディター状態の制御。ゲーム開発の生産性を大幅に向上します。",
+  "descriptionEs": "Un puente entre los asistentes de IA y el Editor de Unity. Permite a la IA operar directamente escenas de Unity: crear y modificar objetos de juego, editar materiales, ejecutar scripts y controlar el estado del editor — aumentando drásticamente la productividad del desarrollo de juegos.",
+  "descriptionFr": "Un pont entre les assistants IA et l'éditeur Unity. Permet à l'IA d'opérer directement les scènes Unity : créer et modifier des objets de jeu, éditer des matériaux, exécuter des scripts et contrôler l'état de l'éditeur — augmentant considérablement la productivité du développement de jeux.",
+  "developer": "CoplayDev",
+  "developerZh": "CoplayDev",
+  "repo": "CoplayDev/unity-mcp",
+  "clients": [
+    "claude",
+    "cursor",
+    "vscode",
+    "codex",
+    "generic"
+  ],
+  "category": "Developer",
+  "tags": [
+    "Free",
+    "Open Source"
+  ],
+  "installCommand": "npx -y @coplay/unity-mcp",
+  "logo": "/logos/mcp/unity-mcp.png",
+  "stars": 13917,
+  "featured": false,
+  "faqs": [
+    {
+      "question": {
+        "zh": "Unity MCP 能做什么？",
+        "en": "What can Unity MCP do?",
+        "ja": "Unity MCP は何ができますか？",
+        "es": "¿Qué puede hacer Unity MCP?",
+        "fr": "Que peut faire Unity MCP ?"
+      },
+      "answer": {
+        "zh": "让 AI 智能体直接操作 Unity 编辑器：创建和删除游戏对象、修改 Transform 组件、编辑材质和着色器、运行和停止播放模式、执行 C# 脚本、查询场景层次结构。适用于 AI 辅助游戏开发、场景搭建和自动化测试。",
+        "en": "Lets AI agents directly operate the Unity Editor: create and delete game objects, modify Transform components, edit materials and shaders, start/stop Play mode, execute C# scripts, and query scene hierarchy. Ideal for AI-assisted game development, scene building, and automated testing.",
+        "ja": "AI エージェントが Unity エディターを直接操作できます：ゲームオブジェクトの作成・削除、Transform コンポーネントの変更、マテリアルとシェーダーの編集、再生モードの開始・停止、C# スクリプトの実行、シーン階層の照会。AI 支援によるゲーム開発、シーン構築、自動テストに最適です。",
+        "es": "Permite a los agentes de IA operar directamente el Editor de Unity: crear y eliminar objetos de juego, modificar componentes Transform, editar materiales y shaders, iniciar/detener el modo de reproducción, ejecutar scripts C# y consultar la jerarquía de escenas. Ideal para desarrollo de juegos asistido por IA, construcción de escenas y pruebas automatizadas.",
+        "fr": "Permet aux agents IA d'opérer directement l'éditeur Unity : créer et supprimer des objets de jeu, modifier les composants Transform, éditer des matériaux et shaders, démarrer/arrêter le mode Play, exécuter des scripts C# et interroger la hiérarchie des scènes. Idéal pour le développement de jeux assisté par IA, la construction de scènes et les tests automatisés."
+      }
+    },
+    {
+      "question": {
+        "zh": "Unity MCP 需要安装什么？",
+        "en": "What do I need to install for Unity MCP?",
+        "ja": "Unity MCP を使用するには何をインストールする必要がありますか？",
+        "es": "¿Qué necesito instalar para Unity MCP?",
+        "fr": "Que dois-je installer pour Unity MCP ?"
+      },
+      "answer": {
+        "zh": "需要 Unity Editor（2019.4 或更新版本）和 Node.js。MCP 服务器通过 Unity 的 Editor 脚本 API 连接，启动后会自动连接到正在运行的 Unity 实例。建议在 Unity 项目中安装配套的 Editor 包。",
+        "en": "You need Unity Editor (2019.4 or newer) and Node.js. The MCP server connects via Unity's Editor Scripting API and auto-connects to running Unity instances. It's recommended to install the companion Editor package in your Unity project.",
+        "ja": "Unity Editor（2019.4 以降）と Node.js が必要です。MCP サーバーは Unity の Editor スクリプティング API を介して接続し、起動後に実行中の Unity インスタンスに自動接続します。Unity プロジェクトに対応する Editor パッケージをインストールすることをお勧めします。",
+        "es": "Necesitas Unity Editor (2019.4 o superior) y Node.js. El servidor MCP se conecta a través de la API de scripting del Editor de Unity y se conecta automáticamente a instancias de Unity en ejecución. Se recomienda instalar el paquete Editor complementario en tu proyecto de Unity.",
+        "fr": "Vous avez besoin de Unity Editor (2019.4 ou plus récent) et de Node.js. Le serveur MCP se connecte via l'API de scripting de l'éditeur Unity et se connecte automatiquement aux instances Unity en cours d'exécution. Il est recommandé d'installer le package Editor compagnon dans votre projet Unity."
+      }
+    },
+    {
+      "question": {
+        "zh": "Unity MCP 免费吗？",
+        "en": "Is Unity MCP free?",
+        "ja": "Unity MCP は無料ですか？",
+        "es": "¿Unity MCP es gratuito?",
+        "fr": "Unity MCP est-il gratuit ?"
+      },
+      "answer": {
+        "zh": "完全免费开源（MIT 协议），无需 API Key。所有操作在本地 Unity 编辑器中执行，数据不会上传到第三方。",
+        "en": "Completely free and open source (MIT license), no API key needed. All operations execute in your local Unity Editor — data never leaves your machine.",
+        "ja": "完全無料・オープンソース（MIT ライセンス）で、API キー不要です。すべての操作はローカルの Unity エディター内で実行され、データが外部に送信されることはありません。",
+        "es": "Completamente gratuito y de código abierto (licencia MIT), sin necesidad de clave API. Todas las operaciones se ejecutan en tu Editor de Unity local — los datos nunca salen de tu máquina.",
+        "fr": "Entièrement gratuit et open source (licence MIT), sans clé API nécessaire. Toutes les opérations s'exécutent dans votre éditeur Unity local — les données ne quittent jamais votre machine."
+      }
+    }
+  ]
+}

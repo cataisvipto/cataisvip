@@ -1,0 +1,29 @@
+{
+  "slug": "photoroom",
+  "name": "Photoroom",
+  "nameZh": "Photoroom",
+  "description": "巴黎出品的 AI 抠图与商品图工具，移动端体验标杆：一键去背景、AI 场景生成、虚拟模特与幽灵模特等电商三件套（基于 gpt-image-1），批量处理数百张商品图，API 成熟；免费档可用、Pro 年付合 $7.50/月",
+  "descriptionEn": "The Paris-built AI background removal and product photo tool, the benchmark on mobile: one-tap cutouts, AI scene generation, Virtual Model and Ghost Mannequin e-commerce tools (powered by gpt-image-1), batch processing for hundreds of product shots and a mature API — free tier available, Pro works out to $7.50/month billed annually",
+  "descriptionJa": "パリ発のAI背景除去＆商品写真ツールでモバイル体験の標杆。ワンタップ切り抜き、AIシーン生成、バーチャルモデルやゴーストマネキンなどEC向けツール（gpt-image-1ベース）、数百枚の商品画像のバッチ処理、成熟したAPIを提供。無料枠あり、Proは年払いで月$7.50相当",
+  "descriptionEs": "La herramienta parisina de recorte de fondos y fotos de producto con IA, referente en móvil: recortes con un toque, generación de escenas con IA, Modelo Virtual y Maniquí Fantasma para e-commerce (con gpt-image-1), procesamiento por lotes de cientos de fotos y una API madura — nivel gratuito disponible, Pro sale a $7.50/mes con pago anual",
+  "descriptionFr": "L'outil parisien de détourage et de photos produit par IA, référence sur mobile : détourage en un geste, génération de scènes IA, Mannequin Virtuel et Mannequin Fantôme pour l'e-commerce (propulsés par gpt-image-1), traitement par lots de centaines de photos et une API mature — offre gratuite disponible, Pro revient à 7,50 $/mois en annuel",
+  "url": "https://www.photoroom.com",
+  "logo": "/logos/tools/photoroom.png",
+  "category": "Image",
+  "tags": [
+    "Freemium",
+    "API"
+  ],
+  "featured": false,
+  "developer": "Photoroom",
+  "platforms": {
+    "web": true,
+    "windows": false,
+    "macos": false,
+    "ios": true,
+    "android": true,
+    "linux": false,
+    "browser_extension": false,
+    "api": true
+  }
+}

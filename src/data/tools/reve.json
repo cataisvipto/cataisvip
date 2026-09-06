@@ -1,0 +1,28 @@
+{
+  "slug": "reve",
+  "name": "Reve",
+  "nameZh": "Reve",
+  "description": "自研模型的 AI 图像生成与编辑平台，以文字渲染和提示词遵循能力著称，支持自然语言编辑 + 拖拽式图像编辑器，前 Adobe/Stability 产品副总创办",
+  "descriptionEn": "AI image generation and editing platform with in-house models, known for text rendering and prompt adherence; combines natural-language edits with a drag-and-drop editor, founded by an ex-Adobe/Stability AI product VP",
+  "descriptionJa": "自社モデルによるAI画像生成・編集プラットフォーム。テキスト描写とプロンプト追従性に定評。自然言語編集とドラッグ＆ドロップ編集を融合。元Adobe/Stabilityの製品VPが創業",
+  "descriptionEs": "Plataforma de generación y edición de imágenes IA con modelos propios, conocida por el renderizado de texto y la adherencia al prompt; combina edición en lenguaje natural con editor drag-and-drop, fundada por un ex VP de producto de Adobe/Stability AI",
+  "descriptionFr": "Plateforme de génération et d'édition d'images IA avec modèles maison, reconnue pour le rendu du texte et le respect du prompt ; combine édition en langage naturel et éditeur par glisser-déposer, fondée par un ex-VP produit d'Adobe/Stability AI",
+  "url": "https://www.reve.com",
+  "logo": "/logos/tools/reve.png",
+  "category": "Image",
+  "tags": [
+    "Freemium"
+  ],
+  "featured": false,
+  "developer": "Reve AI, Inc.",
+  "platforms": {
+    "web": true,
+    "windows": false,
+    "macos": false,
+    "ios": "unknown",
+    "android": "unknown",
+    "linux": false,
+    "browser_extension": false,
+    "api": true
+  }
+}

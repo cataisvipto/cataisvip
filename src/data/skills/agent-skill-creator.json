@@ -1,0 +1,80 @@
+{
+  "slug": "agent-skill-creator",
+  "name": "Agent Skill Creator",
+  "nameZh": "Agent Skill Creator",
+  "description": "将任何工作流转化为可在 17 个平台上安装的可重用 AI 智能体技能。",
+  "descriptionEn": "Turn any workflow into reusable AI agent skills that install on 17 platforms.",
+  "descriptionJa": "あらゆるワークフローを17のプラットフォームにインストール可能な再利用可能なAIエージェントスキルに変換します。",
+  "descriptionEs": "Convierte cualquier flujo de trabajo en habilidades de IA reutilizables en 17 plataformas.",
+  "descriptionFr": "Transformez tout workflow en compétences d_agent IA réutilisables sur 17 plateformes.",
+  "repo": "FrancyJGLisboa/agent-skill-creator",
+  "category": "Platform",
+  "tags": [
+    "Free",
+    "Open Source"
+  ],
+  "featured": false,
+  "agents": [
+    "codex",
+    "claude-code",
+    "cursor",
+    "copilot",
+    "windsurf",
+    "gemini"
+  ],
+  "installCommand": "curl -fsSL https://raw.githubusercontent.com/FrancyJGLisboa/agent-skill-creator/main/scripts/bootstrap.sh | sh",
+  "logo": "/logos/skills/agent-skill-creator.png",
+  "stars": 2376,
+  "developer": "FrancyJGLisboa",
+  "developerZh": "FrancyJGLisboa",
+  "faqs": [
+    {
+      "question": {
+        "en": "What is Agent Skill Creator?",
+        "zh": "What is ASC?",
+        "ja": "What is ASC?",
+        "es": "What is ASC?",
+        "fr": "What is ASC?"
+      },
+      "answer": {
+        "en": "A tool that turns any workflow into reusable AI agent skills on 17 platforms.",
+        "zh": "A tool that turns any workflow into reusable AI agent skills on 17 platforms.",
+        "ja": "A tool that turns any workflow into reusable AI agent skills on 17 platforms.",
+        "es": "A tool that turns any workflow into reusable AI agent skills on 17 platforms.",
+        "fr": "A tool that turns any workflow into reusable AI agent skills on 17 platforms."
+      }
+    },
+    {
+      "question": {
+        "en": "Which platforms?",
+        "zh": "Which platforms?",
+        "ja": "Which platforms?",
+        "es": "Which platforms?",
+        "fr": "Which platforms?"
+      },
+      "answer": {
+        "en": "Claude Code, Copilot, Cursor, Windsurf, Codex, Gemini, Kiro, and 11 more.",
+        "zh": "Claude Code, Copilot, Cursor, Windsurf, Codex, Gemini, Kiro, and 11 more.",
+        "ja": "Claude Code, Copilot, Cursor, Windsurf, Codex, Gemini, Kiro, and 11 more.",
+        "es": "Claude Code, Copilot, Cursor, Windsurf, Codex, Gemini, Kiro, and 11 more.",
+        "fr": "Claude Code, Copilot, Cursor, Windsurf, Codex, Gemini, Kiro, and 11 more."
+      }
+    },
+    {
+      "question": {
+        "en": "How to install?",
+        "zh": "How to install?",
+        "ja": "How to install?",
+        "es": "How to install?",
+        "fr": "How to install?"
+      },
+      "answer": {
+        "en": "Run the bootstrap script from the repo.",
+        "zh": "Run the bootstrap script from the repo.",
+        "ja": "Run the bootstrap script from the repo.",
+        "es": "Run the bootstrap script from the repo.",
+        "fr": "Run the bootstrap script from the repo."
+      }
+    }
+  ]
+}

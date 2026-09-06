@@ -1,0 +1,29 @@
+{
+  "slug": "github-copilot",
+  "name": "GitHub Copilot",
+  "nameZh": "GitHub Copilot",
+  "description": "AI 编程助手，集成在 VS Code 等编辑器中，实时代码补全",
+  "descriptionEn": "AI coding assistant integrated in VS Code for real-time code completion",
+  "descriptionJa": "VS Code等に統合されたAIプログラミングアシスタント。リアルタイムコード補完",
+  "descriptionEs": "Asistente de programación IA integrado en VS Code para completado de código en tiempo real",
+  "descriptionFr": "Assistant de programmation IA intégré dans VS Code pour la complétion de code en temps réel",
+  "url": "https://github.com/features/copilot",
+  "logo": "/logos/tools/github-copilot.png",
+  "category": "Code",
+  "tags": [
+    "Paid",
+    "API"
+  ],
+  "featured": true,
+  "developer": "GitHub / Microsoft",
+  "platforms": {
+    "web": true,
+    "windows": true,
+    "macos": true,
+    "ios": true,
+    "android": true,
+    "linux": true,
+    "browser_extension": false,
+    "api": false
+  }
+}

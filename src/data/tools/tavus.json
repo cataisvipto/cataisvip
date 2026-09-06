@@ -1,0 +1,29 @@
+{
+  "slug": "tavus",
+  "name": "Tavus",
+  "nameZh": "Tavus",
+  "description": "实时对话视频 AI 开发者平台（CVI），Phoenix/Raven/Sparrow 模型让数字人能看、能听、能实时面对面交流，主打 API 构建视频 Agent",
+  "descriptionEn": "Developer platform for real-time conversational video AI (CVI). Its Phoenix, Raven and Sparrow models let avatars see, hear and hold face-to-face conversations — built API-first for video agents",
+  "descriptionJa": "リアルタイム対話型ビデオAI（CVI）の開発者プラットフォーム。Phoenix・Raven・Sparrowモデルによりアバターが見て、聞いて、対面で会話。API主導でビデオエージェントを構築",
+  "descriptionEs": "Plataforma para desarrolladores de video conversacional en tiempo real (CVI). Sus modelos Phoenix, Raven y Sparrow permiten a los avatares ver, oír y conversar cara a cara; API-first para agentes de video",
+  "descriptionFr": "Plateforme développeur de vidéo conversationnelle en temps réel (CVI). Ses modèles Phoenix, Raven et Sparrow permettent aux avatars de voir, entendre et converser en face à face — API-first pour les agents vidéo",
+  "url": "https://www.tavus.io",
+  "logo": "/logos/tools/tavus.png",
+  "category": "Avatar",
+  "tags": [
+    "Freemium",
+    "API"
+  ],
+  "featured": false,
+  "developer": "Tavus",
+  "platforms": {
+    "web": true,
+    "windows": false,
+    "macos": false,
+    "ios": false,
+    "android": false,
+    "linux": false,
+    "browser_extension": false,
+    "api": true
+  }
+}

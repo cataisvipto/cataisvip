@@ -1,0 +1,30 @@
+{
+  "slug": "stepfun",
+  "name": "StepFun",
+  "nameZh": "阶跃星辰",
+  "description": "前微软全球副总裁姜大昕创办的大模型公司，Step 系列模型在多模态和长文本领域表现突出",
+  "descriptionEn": "LLM startup founded by former Microsoft VP, Step series models excel in multimodal and long-context processing",
+  "descriptionJa": "元マイクロソフト副社長が創業したLLMスタートアップ。Stepシリーズはマルチモーダルと長文処理に優れる",
+  "descriptionEs": "Startup LLM fundada por exvicepresidente de Microsoft, la serie Step destaca en procesamiento multimodal y de contexto largo",
+  "descriptionFr": "Startup LLM fondée par un ancien VP de Microsoft, la série Step excelle dans le traitement multimodal et long contexte",
+  "url": "https://www.stepfun.com",
+  "logo": "/logos/tools/stepfun.png",
+  "category": "Foundation Models",
+  "tags": [
+    "Free",
+    "API"
+  ],
+  "featured": false,
+  "developer": "StepFun",
+  "developerZh": "阶跃星辰",
+  "platforms": {
+    "web": true,
+    "windows": false,
+    "macos": false,
+    "ios": true,
+    "android": true,
+    "linux": false,
+    "browser_extension": "unknown",
+    "api": true
+  }
+}

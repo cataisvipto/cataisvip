@@ -1,0 +1,31 @@
+{
+  "slug": "qm",
+  "name": "QM",
+  "nameZh": "QM",
+  "description": "面向团队的多智能体工作平台：每个成员拥有独立智能体工作区，支持 Slack 和 Web 协作、共享记忆、文件、技能、定时任务、Web 应用部署。",
+  "descriptionEn": "A multiplayer agent harness for work: each team member gets their own isolated agent workspace with Slack and Web collaboration, shared memory, files, skills, cron jobs, and web app deployment.",
+  "descriptionJa": "チーム向けマルチプレイヤーエージェントハーネス。各メンバーが独立したエージェントワークスペースを持ち、SlackとWebでのコラボレーション、共有メモリ、ファイル、スキル、cronジョブ、Webアプリデプロイをサポート。",
+  "descriptionEs": "Un arnés de agente multijugador para el trabajo: cada miembro del equipo tiene su propio espacio de trabajo de agente aislado con colaboración en Slack y Web, memoria compartida, archivos, habilidades, cron jobs y despliegue de apps web.",
+  "descriptionFr": "Un harnais d'agent multijoueur pour le travail : chaque membre de l'équipe dispose de son propre espace de travail d'agent isolé avec collaboration Slack et Web, mémoire partagée, fichiers, compétences, tâches cron et déploiement d'apps web.",
+  "url": "https://qm.software",
+  "logo": "/logos/tools/qm.png",
+  "category": "Agent",
+  "tags": [
+    "Open Source",
+    "Free"
+  ],
+  "featured": false,
+  "homeFeatured": false,
+  "developer": "yc-software",
+  "developerZh": "yc-software",
+  "platforms": {
+    "web": true,
+    "windows": true,
+    "macos": true,
+    "linux": true,
+    "ios": false,
+    "android": false,
+    "browser_extension": false,
+    "api": true
+  }
+}

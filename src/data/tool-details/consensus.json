@@ -1,0 +1,235 @@
+{
+  "features": {
+    "en": [
+      "Semantic search across 200M+ academic papers",
+      "Consensus Meter shows yes/no/maybe balance of the evidence",
+      "Pro Analysis synthesizes the top papers into a structured summary",
+      "Deep Search delivers a literature-review-grade report in about two minutes",
+      "Quality filters: study design, sample size, journal ranking, citations",
+      "Study Snapshots extract methods, population and outcomes at a glance"
+    ],
+    "zh": [
+      "对 2 亿+ 学术论文做语义搜索",
+      "Consensus Meter 展示证据的「是/否/存疑」倾向分布",
+      "Pro Analysis 把头部论文综合成结构化摘要",
+      "Deep Search 约两分钟产出文献综述级报告",
+      "质量过滤器：研究设计、样本量、期刊排名、引用数",
+      "Study Snapshot 一眼提取方法、人群与结论"
+    ],
+    "ja": [
+      "2億本超の学術論文をセマンティック検索",
+      "Consensus Meterがエビデンスのyes/no/maybeバランスを表示",
+      "Pro Analysisが上位論文を構造化サマリーに統合",
+      "Deep Searchが約2分で文献レビュー級のレポートを生成",
+      "品質フィルター：研究デザイン・サンプルサイズ・ジャーナルランク・被引用数",
+      "Study Snapshotで手法・対象集団・結果を一目で抽出"
+    ],
+    "es": [
+      "Búsqueda semántica en más de 200M de papers académicos",
+      "El Consensus Meter muestra el balance sí/no/quizá de la evidencia",
+      "Pro Analysis sintetiza los mejores papers en un resumen estructurado",
+      "Deep Search entrega un informe de nivel revisión bibliográfica en unos dos minutos",
+      "Filtros de calidad: diseño del estudio, tamaño muestral, ranking de revista, citas",
+      "Study Snapshots extraen métodos, población y resultados de un vistazo"
+    ],
+    "fr": [
+      "Recherche sémantique sur plus de 200 M d'articles académiques",
+      "Le Consensus Meter montre l'équilibre oui/non/peut-être des preuves",
+      "Pro Analysis synthétise les meilleurs articles en résumé structuré",
+      "Deep Search livre un rapport de niveau revue de littérature en deux minutes environ",
+      "Filtres de qualité : type d'étude, taille d'échantillon, rang de revue, citations",
+      "Les Study Snapshots extraient méthodes, population et résultats en un coup d'œil"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "The free tier includes unlimited basic searches with the Consensus Meter plus 3 Deep Reviews per month.",
+      "zh": "免费档包含无限次基础搜索（含 Consensus Meter）以及每月 3 次 Deep Review。",
+      "ja": "無料枠はConsensus Meter付きの無制限基本検索と月3回のDeep Reviewを含む。",
+      "es": "El nivel gratuito incluye búsquedas básicas ilimitadas con el Consensus Meter más 3 Deep Reviews al mes.",
+      "fr": "L'offre gratuite inclut des recherches de base illimitées avec le Consensus Meter plus 3 Deep Reviews par mois."
+    },
+    "paid": {
+      "en": "Pro is $11.99/month ($8.99/month billed yearly) for unlimited Pro Analysis; Deep at $65/month ($45/month yearly) unlocks heavy Deep Search usage for serious researchers. (Verified against the official pricing page, 2026-07-29.)",
+      "zh": "Pro $11.99/月（年付折合 $8.99/月）解锁无限 Pro Analysis；Deep $65/月（年付折合 $45/月）面向重度研究者放开 Deep Search 用量。（对照官方定价页核实，2026-07-29。）",
+      "ja": "Proは月$11.99（年払いで月$8.99）で無制限Pro Analysis。Deepは月$65（年払いで月$45）で本格研究者向けにDeep Searchの大量利用を解放。（公式価格ページと照合、2026-07-29。）",
+      "es": "Pro cuesta $11.99/mes ($8.99/mes con pago anual) con Pro Analysis ilimitado; Deep a $65/mes ($45/mes anual) desbloquea uso intensivo de Deep Search para investigadores serios. (Verificado con la página oficial de precios, 2026-07-29.)",
+      "fr": "Pro coûte 11,99 $/mois (8,99 $/mois en facturation annuelle) avec Pro Analysis illimité ; Deep à 65 $/mois (45 $/mois en annuel) débloque l'usage intensif de Deep Search pour les chercheurs sérieux. (Vérifié avec la page tarifaire officielle, 2026-07-29.)"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Checking what the science actually says on a contested question",
+      "Kicking off a literature review with Deep Search's cited reports",
+      "Screening papers by study design and sample size before reading",
+      "Evidence-backed writing for clinicians, nutritionists and journalists"
+    ],
+    "zh": [
+      "查证科学界对争议问题的真实结论",
+      "用 Deep Search 的带引报告启动文献综述",
+      "读论文前先按研究设计与样本量筛选",
+      "临床医生、营养师与记者的循证写作"
+    ],
+    "ja": [
+      "議論のある問いに科学が実際何と言っているかを確認",
+      "Deep Searchの引用付きレポートで文献レビューを開始",
+      "読む前に研究デザインとサンプルサイズで論文を選別",
+      "臨床医・栄養士・ジャーナリストのエビデンスに基づく執筆"
+    ],
+    "es": [
+      "Comprobar qué dice realmente la ciencia sobre una cuestión debatida",
+      "Arrancar una revisión bibliográfica con los informes citados de Deep Search",
+      "Cribar papers por diseño de estudio y tamaño muestral antes de leer",
+      "Escritura basada en evidencia para clínicos, nutricionistas y periodistas"
+    ],
+    "fr": [
+      "Vérifier ce que dit réellement la science sur une question débattue",
+      "Lancer une revue de littérature avec les rapports cités de Deep Search",
+      "Trier les articles par type d'étude et taille d'échantillon avant lecture",
+      "Rédaction fondée sur les preuves pour cliniciens, nutritionnistes et journalistes"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Purpose-built for scientific evidence, not general web content",
+      "Consensus Meter communicates evidence balance in seconds",
+      "Quality filters mirror how systematic reviewers actually screen",
+      "Trusted at scale: millions of users and thousands of universities"
+    ],
+    "zh": [
+      "为科学证据而生，不掺一般网页内容",
+      "Consensus Meter 数秒讲清证据倾向",
+      "质量过滤器复刻系统综述作者的真实筛选方式",
+      "规模化信任：数百万用户与数千所高校在用"
+    ],
+    "ja": [
+      "一般ウェブでなく科学的エビデンス専用に設計",
+      "Consensus Meterが数秒でエビデンスバランスを伝達",
+      "品質フィルターはシステマティックレビューの実際の選別を再現",
+      "数百万ユーザーと数千の大学が信頼する規模"
+    ],
+    "es": [
+      "Diseñado a propósito para evidencia científica, no contenido web general",
+      "El Consensus Meter comunica el balance de evidencia en segundos",
+      "Los filtros de calidad reflejan cómo criban los revisores sistemáticos",
+      "Confianza a escala: millones de usuarios y miles de universidades"
+    ],
+    "fr": [
+      "Conçu spécifiquement pour la preuve scientifique, pas le web généraliste",
+      "Le Consensus Meter communique l'équilibre des preuves en quelques secondes",
+      "Les filtres de qualité reproduisent le tri des auteurs de revues systématiques",
+      "Confiance à grande échelle : des millions d'utilisateurs et des milliers d'universités"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Narrow by design: useless for anything outside academic literature",
+      "The Deep tier's $65/month is steep next to general AI subscriptions",
+      "Consensus Meter can oversimplify genuinely contested science",
+      "Coverage skews toward abstracts; paywalled full texts limit depth"
+    ],
+    "zh": [
+      "设计上就窄：学术文献之外的问题帮不上忙",
+      "Deep 档 $65/月，比通用 AI 订阅贵出一截",
+      "Consensus Meter 可能把真正有争议的科学问题过度简化",
+      "覆盖偏重摘要；付费墙内全文限制了深度"
+    ],
+    "ja": [
+      "設計からしてニッチ：学術文献の外では役に立たない",
+      "Deepプランの月$65は汎用AIサブスクリプションと比べ高額",
+      "Consensus Meterは真に議論のある科学を単純化しすぎることがある",
+      "カバレッジは抄録寄り。有料の全文が深さを制限"
+    ],
+    "es": [
+      "Estrecho por diseño: inútil fuera de la literatura académica",
+      "Los $65/mes del plan Deep son caros frente a suscripciones de IA generales",
+      "El Consensus Meter puede simplificar en exceso ciencia genuinamente debatida",
+      "La cobertura se inclina a los abstracts; los textos completos de pago limitan la profundidad"
+    ],
+    "fr": [
+      "Étroit par conception : inutile hors de la littérature académique",
+      "Les 65 $/mois du plan Deep sont élevés face aux abonnements IA généralistes",
+      "Le Consensus Meter peut trop simplifier une science réellement débattue",
+      "La couverture penche vers les résumés ; les textes complets payants limitent la profondeur"
+    ]
+  },
+  "latestUpdate": {
+    "en": "2026: riding its $30M Series B from 2025, Consensus passed 2.5 million monthly users across 5,000+ universities — Deep Search matured into a two-minute literature-review engine and the corpus crossed 200 million papers.",
+    "zh": "2026 年：携 2025 年 3000 万美元 B 轮之势，Consensus 月活突破 250 万、覆盖 5000+ 高校——Deep Search 成熟为两分钟文献综述引擎，语料库突破 2 亿篇论文。",
+    "ja": "2026年：2025年の3,000万ドルシリーズBを追い風に、Consensusは月間ユーザー250万人・5,000超の大学に到達——Deep Searchは2分の文献レビューエンジンに成熟し、コーパスは2億本を突破。",
+    "es": "2026: impulsado por su Serie B de $30M de 2025, Consensus superó los 2,5 millones de usuarios mensuales en más de 5.000 universidades — Deep Search maduró como motor de revisión bibliográfica de dos minutos y el corpus superó los 200 millones de papers.",
+    "fr": "2026 : porté par sa série B de 30 M$ de 2025, Consensus a dépassé les 2,5 millions d'utilisateurs mensuels dans plus de 5 000 universités — Deep Search a mûri en moteur de revue de littérature en deux minutes et le corpus a franchi les 200 millions d'articles."
+  },
+  "verdict": {
+    "badge": "For Specific Needs",
+    "headline": {
+      "en": "When the question is 'what does the science say', nothing else comes close",
+      "zh": "当问题是「科学怎么说」，别的工具都差得远",
+      "ja": "「科学は何と言っているか」が問いなら、他は遠く及ばない",
+      "es": "Cuando la pregunta es «qué dice la ciencia», nada más se le acerca",
+      "fr": "Quand la question est « que dit la science », rien d'autre ne s'en approche"
+    },
+    "body": {
+      "en": "Consensus does one thing and does it better than anyone: answering questions from the peer-reviewed literature rather than the open web. Ask whether creatine helps cognition or whether remote work hurts productivity, and instead of blog posts you get a Consensus Meter summarizing the yes/no/maybe split across actual studies, with quality filters — study design, sample size, journal rank — that mirror how systematic reviewers screen papers. Deep Search compresses hours of literature-review legwork into a cited two-minute report, and at 2.5 million monthly users across 5,000+ universities, it has clearly earned academia's trust. The 'For Specific Needs' badge is about scope, not quality. If your questions live outside academic literature — market research, coding, current events — Consensus has nothing for you, and even within science it leans on abstracts when full texts sit behind paywalls. The Meter's tidy percentages can also flatten legitimately contested debates into false clarity, so treat it as a starting map rather than a verdict. Free covers unlimited basic searches; Pro at $8.99/year-billed is easy to justify for students; the $65 Deep tier only makes sense if literature reviews are your actual job. For evidence-based professionals, this belongs in the toolkit alongside — not instead of — a general assistant.",
+      "zh": "Consensus 只做一件事，而且做得比谁都好：从同行评审文献而非公开网络中回答问题。问「肌酸是否有助认知」或「远程办公是否损害生产力」，你得到的不是博客文章，而是一个汇总真实研究「是/否/存疑」分布的 Consensus Meter，外加复刻系统综述筛选逻辑的质量过滤器——研究设计、样本量、期刊排名。Deep Search 把数小时的文献综述跑腿活压缩成两分钟的带引报告；250 万月活、5000+ 高校的采用，说明它确实赢得了学术界的信任。「For Specific Needs」徽章说的是边界而非质量：如果你的问题在学术文献之外——市场调研、写代码、时事——Consensus 帮不上忙；即使在科学内部，全文被付费墙挡住时它也只能倚重摘要。Meter 干净利落的百分比还可能把真正有争议的辩论抹平成虚假的清晰，所以请把它当作起点地图而非最终裁决。免费档覆盖无限基础搜索；年付折合 $8.99 的 Pro 对学生来说很好证成；$65 的 Deep 档只有当文献综述就是你的本职工作时才划算。对循证工作者，它应当与通用助手并列进入工具箱——是补充，不是替代。",
+      "ja": "Consensusはただ一つのことを、誰よりもうまくやる：オープンウェブではなく査読済み文献から質問に答えることだ。クレアチンは認知に効くか、リモートワークは生産性を損なうか——と問えば、ブログ記事の代わりに実際の研究のyes/no/maybe分布をまとめたConsensus Meterが返り、研究デザイン・サンプルサイズ・ジャーナルランクといったシステマティックレビューの選別を再現する品質フィルターが付く。Deep Searchは何時間もの文献レビューの足仕事を引用付き2分レポートに圧縮し、月間250万ユーザー・5,000超の大学という規模は学術界の信頼を確かに勝ち取った証だ。「For Specific Needs」バッジは品質でなく守備範囲の話。市場調査・コーディング・時事など学術文献の外に問いがあるならConsensusは無力で、科学の中でも全文がペイウォールの向こうにあるときは抄録頼みになる。Meterの小綺麗なパーセンテージは、正当に争われている論争を偽りの明快さに均してしまうこともあるので、最終判決ではなく出発点の地図として扱おう。無料で基本検索は無制限。年払い換算$8.99のProは学生に容易に正当化でき、$65のDeepは文献レビューが本業の人にのみ意味がある。エビデンスベースの専門家にとって、これは汎用アシスタントの代わりではなく、隣に置くべき道具だ。",
+      "es": "Consensus hace una sola cosa y la hace mejor que nadie: responder preguntas desde la literatura revisada por pares y no desde la web abierta. Pregunta si la creatina ayuda a la cognición o si el teletrabajo daña la productividad, y en vez de posts de blog obtienes un Consensus Meter que resume el reparto sí/no/quizá entre estudios reales, con filtros de calidad — diseño, tamaño muestral, rango de revista — que reflejan cómo criban los revisores sistemáticos. Deep Search comprime horas de trabajo de revisión en un informe citado de dos minutos, y con 2,5 millones de usuarios mensuales en más de 5.000 universidades, se ha ganado claramente la confianza académica. La insignia «For Specific Needs» habla de alcance, no de calidad. Si tus preguntas viven fuera de la literatura académica — estudios de mercado, programación, actualidad — Consensus no tiene nada para ti, e incluso dentro de la ciencia se apoya en abstracts cuando los textos completos están tras muros de pago. Los porcentajes pulcros del Meter pueden además aplanar debates legítimamente abiertos en una falsa claridad, así que tómalo como mapa inicial y no como veredicto. El nivel gratis cubre búsquedas básicas ilimitadas; Pro a $8.99 anualizado se justifica fácil para estudiantes; el plan Deep de $65 solo tiene sentido si las revisiones bibliográficas son tu trabajo real. Para profesionales basados en evidencia, pertenece a la caja de herramientas junto a — no en lugar de — un asistente general.",
+      "fr": "Consensus fait une seule chose et la fait mieux que quiconque : répondre aux questions depuis la littérature évaluée par les pairs plutôt que le web ouvert. Demandez si la créatine aide la cognition ou si le télétravail nuit à la productivité, et au lieu d'articles de blog vous obtenez un Consensus Meter résumant la répartition oui/non/peut-être entre études réelles, avec des filtres de qualité — type d'étude, taille d'échantillon, rang de revue — qui reproduisent le tri des auteurs de revues systématiques. Deep Search compresse des heures de travail de revue en un rapport cité de deux minutes, et avec 2,5 millions d'utilisateurs mensuels dans plus de 5 000 universités, la confiance du monde académique est clairement acquise. Le badge « For Specific Needs » parle de périmètre, pas de qualité. Si vos questions vivent hors de la littérature académique — études de marché, code, actualité — Consensus n'a rien pour vous, et même en science il s'appuie sur les résumés quand les textes complets restent derrière des murs payants. Les pourcentages nets du Meter peuvent aussi aplatir des débats légitimement ouverts en fausse clarté : voyez-y une carte de départ, pas un verdict. Le gratuit couvre les recherches de base illimitées ; Pro à 8,99 $ annualisé se justifie aisément pour les étudiants ; le plan Deep à 65 $ n'a de sens que si les revues de littérature sont votre vrai métier. Pour les professionnels de la preuve, il a sa place dans la boîte à outils aux côtés — et non à la place — d'un assistant généraliste."
+    },
+    "bestFor": {
+      "en": [
+        "Researchers and students starting literature reviews",
+        "Clinicians and nutritionists needing evidence-backed answers",
+        "Science journalists fact-checking against actual studies"
+      ],
+      "zh": [
+        "启动文献综述的研究者与学生",
+        "需要循证答案的临床医生与营养师",
+        "对照真实研究做事实核查的科学记者"
+      ],
+      "ja": [
+        "文献レビューを始める研究者と学生",
+        "エビデンスに基づく回答が必要な臨床医と栄養士",
+        "実際の研究と照合する科学ジャーナリスト"
+      ],
+      "es": [
+        "Investigadores y estudiantes iniciando revisiones bibliográficas",
+        "Clínicos y nutricionistas que necesitan respuestas con evidencia",
+        "Periodistas científicos verificando contra estudios reales"
+      ],
+      "fr": [
+        "Chercheurs et étudiants lançant des revues de littérature",
+        "Cliniciens et nutritionnistes ayant besoin de réponses fondées sur les preuves",
+        "Journalistes scientifiques vérifiant les faits contre les études réelles"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You need general web research beyond academic papers (→ Perplexity)",
+        "You want to interrogate your own document collection with citations (→ NotebookLM)"
+      ],
+      "zh": [
+        "你需要学术论文之外的一般网络调研（→ Perplexity）",
+        "你想对自有文档集做带引用的问答（→ NotebookLM）"
+      ],
+      "ja": [
+        "学術論文を超えた一般的なウェブリサーチが必要（→ Perplexity）",
+        "自分の文書コレクションに引用付きで問いかけたい（→ NotebookLM）"
+      ],
+      "es": [
+        "Necesitas investigación web general más allá de papers académicos (→ Perplexity)",
+        "Quieres interrogar tu propia colección de documentos con citas (→ NotebookLM)"
+      ],
+      "fr": [
+        "Vous avez besoin de recherche web générale au-delà des articles académiques (→ Perplexity)",
+        "Vous voulez interroger votre propre collection de documents avec citations (→ NotebookLM)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-29",
+    "verdictDate": "2026-07-29",
+    "pricingVerified": "2026-07-29",
+    "pricingUrl": "https://consensus.app/pricing"
+  }
+}

@@ -1,0 +1,235 @@
+{
+  "features": {
+    "en": [
+      "AI-native search API built to feed LLMs and agents, not humans browsing",
+      "Neural/embeddings search that understands meaning, not just keywords",
+      "Returns clean page content directly, so no separate scraping step",
+      "Deep Search for multi-step research queries across the live web",
+      "Websets — curated, structured collections of entities matching a query",
+      "OpenAI-compatible tooling and SDKs for easy agent integration"
+    ],
+    "zh": [
+      "AI 原生搜索 API，为喂养 LLM 与智能体而生，而非给人浏览",
+      "神经/嵌入式搜索，理解语义而非仅匹配关键词",
+      "直接返回干净的页面内容，省去单独的抓取步骤",
+      "Deep Search 面向跨实时网络的多步研究型查询",
+      "Websets——匹配查询的实体经过整理、结构化的集合",
+      "OpenAI 兼容工具与 SDK，便于智能体集成"
+    ],
+    "ja": [
+      "人間の閲覧ではなくLLMやエージェントに供給するために作られたAIネイティブ検索API",
+      "キーワードだけでなく意味を理解するニューラル／埋め込み検索",
+      "クリーンなページ内容を直接返すため、別途スクレイピング不要",
+      "ライブウェブ全体にわたる多段階リサーチクエリ向けのDeep Search",
+      "Websets——クエリに一致するエンティティを整理・構造化したコレクション",
+      "エージェント統合を容易にするOpenAI互換ツールとSDK"
+    ],
+    "es": [
+      "API de búsqueda nativa de IA creada para alimentar LLMs y agentes, no para que humanos naveguen",
+      "Búsqueda neural/por embeddings que entiende el significado, no solo palabras clave",
+      "Devuelve contenido limpio de las páginas directamente, sin un paso de scraping aparte",
+      "Deep Search para consultas de investigación multipaso en la web en vivo",
+      "Websets: colecciones curadas y estructuradas de entidades que coinciden con una consulta",
+      "Herramientas y SDKs compatibles con OpenAI para una integración fácil de agentes"
+    ],
+    "fr": [
+      "API de recherche native IA conçue pour alimenter les LLM et agents, pas la navigation humaine",
+      "Recherche neuronale/par embeddings qui comprend le sens, pas seulement les mots-clés",
+      "Renvoie directement le contenu propre des pages, sans étape de scraping séparée",
+      "Deep Search pour des requêtes de recherche multi-étapes sur le web en direct",
+      "Websets — collections curées et structurées d'entités correspondant à une requête",
+      "Outils et SDK compatibles OpenAI pour une intégration facile des agents"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "New accounts get about $10 in free credits to try the API, and the content of the first ~10 results per search is returned at no extra charge.",
+      "zh": "新账号获约 $10 免费额度试用 API，每次搜索前约 10 条结果的内容免费返回。",
+      "ja": "新規アカウントにはAPIを試すための約$10の無料クレジットが付与され、1検索あたり最初の約10件の結果内容は追加料金なしで返される。",
+      "es": "Las cuentas nuevas reciben unos $10 en créditos gratis para probar la API, y el contenido de los primeros ~10 resultados por búsqueda se devuelve sin coste adicional.",
+      "fr": "Les nouveaux comptes reçoivent environ 10 $ de crédits gratuits pour essayer l'API, et le contenu des ~10 premiers résultats par recherche est renvoyé sans frais supplémentaires."
+    },
+    "paid": {
+      "en": "Usage-based: a Search (with content) runs about $7 per 1,000 requests and Deep Search about $12–15 per 1,000; content for the first ~10 results is free. Websets is a separate subscription from about $49/month (~8,000 credits). Exa simplified and lowered these rates in early 2026. (Verified against the official pricing page, 2026-07-28.)",
+      "zh": "按用量计费：Search（含内容）约 $7/千次，Deep Search 约 $12–15/千次；前约 10 条结果内容免费。Websets 为单独订阅，约 $49/月（约 8000 信用点）。Exa 于 2026 年初简化并下调了这些费率。（对照官方定价页核实，2026-07-28。）",
+      "ja": "従量課金：Search（コンテンツ付き）は約$7/1,000リクエスト、Deep Searchは約$12〜15/1,000。最初の約10件の結果コンテンツは無料。Websetsは別サブスクで約$49/月（約8,000クレジット）。Exaは2026年初頭にこれらの料率を簡素化・引き下げた。（公式価格ページと照合、2026-07-28。）",
+      "es": "Basado en uso: una Search (con contenido) cuesta unos $7 por 1000 solicitudes y Deep Search unos $12–15 por 1000; el contenido de los primeros ~10 resultados es gratis. Websets es una suscripción aparte desde unos $49/mes (~8000 créditos). Exa simplificó y bajó estas tarifas a comienzos de 2026. (Verificado con la página oficial de precios, 2026-07-28.)",
+      "fr": "Basé sur l'usage : une Search (avec contenu) coûte environ 7 $ pour 1 000 requêtes et Deep Search environ 12–15 $ pour 1 000 ; le contenu des ~10 premiers résultats est gratuit. Websets est un abonnement séparé à partir d'environ 49 $/mois (~8 000 crédits). Exa a simplifié et baissé ces tarifs début 2026. (Vérifié avec la page tarifaire officielle, 2026-07-28.)"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Giving AI agents live, meaning-based web search as a tool",
+      "Powering RAG pipelines with clean, ready-to-use page content",
+      "Automated research that needs multi-step Deep Search over the web",
+      "Building curated entity lists (companies, people, papers) with Websets"
+    ],
+    "zh": [
+      "把基于语义的实时网络搜索作为工具赋予 AI 智能体",
+      "用干净、开箱即用的页面内容驱动 RAG 管线",
+      "需要跨网络多步 Deep Search 的自动化研究",
+      "用 Websets 构建整理好的实体清单（公司、人物、论文）"
+    ],
+    "ja": [
+      "AIエージェントに意味ベースのライブウェブ検索をツールとして提供",
+      "クリーンですぐ使えるページ内容でRAGパイプラインを駆動",
+      "ウェブ全体を多段階Deep Searchする必要のある自動リサーチ",
+      "Websetsで整理済みのエンティティリスト（企業・人物・論文）を構築"
+    ],
+    "es": [
+      "Dar a los agentes de IA búsqueda web en vivo basada en significado como herramienta",
+      "Impulsar pipelines RAG con contenido de páginas limpio y listo para usar",
+      "Investigación automatizada que necesita Deep Search multipaso en la web",
+      "Construir listas curadas de entidades (empresas, personas, artículos) con Websets"
+    ],
+    "fr": [
+      "Donner aux agents IA une recherche web en direct basée sur le sens comme outil",
+      "Alimenter des pipelines RAG avec un contenu de page propre et prêt à l'emploi",
+      "Recherche automatisée nécessitant un Deep Search multi-étapes sur le web",
+      "Construire des listes curées d'entités (entreprises, personnes, articles) avec Websets"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Purpose-built for agents and RAG rather than retrofitted human search",
+      "Neural search surfaces semantically relevant pages keywords miss",
+      "Returns page content directly, removing a scraping/parsing step",
+      "Simplified, lowered pricing in 2026 with free content on top results"
+    ],
+    "zh": [
+      "为智能体与 RAG 而生，而非把人类搜索硬改而来",
+      "神经搜索能挖出关键词漏掉的语义相关页面",
+      "直接返回页面内容，省去抓取/解析步骤",
+      "2026 年简化并下调定价，头部结果内容免费"
+    ],
+    "ja": [
+      "人間向け検索の後付けではなく、エージェントとRAGのために設計",
+      "ニューラル検索がキーワードでは見逃す意味的に関連するページを掘り出す",
+      "ページ内容を直接返し、スクレイピング/パースの一手間を省く",
+      "2026年に価格を簡素化・引き下げ、上位結果のコンテンツは無料"
+    ],
+    "es": [
+      "Creado a propósito para agentes y RAG, no una búsqueda humana readaptada",
+      "La búsqueda neural muestra páginas semánticamente relevantes que las palabras clave omiten",
+      "Devuelve el contenido de la página directamente, eliminando un paso de scraping/parsing",
+      "Precios simplificados y más bajos en 2026 con contenido gratis en los primeros resultados"
+    ],
+    "fr": [
+      "Conçu pour les agents et le RAG, pas une recherche humaine réadaptée",
+      "La recherche neuronale fait remonter des pages sémantiquement pertinentes que les mots-clés manquent",
+      "Renvoie directement le contenu des pages, supprimant une étape de scraping/parsing",
+      "Tarifs simplifiés et abaissés en 2026 avec contenu gratuit sur les premiers résultats"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Usage-based billing makes costs hard to predict at scale",
+      "A developer API, not a consumer search engine you browse",
+      "Neural results can feel less precise than keywords for exact-match lookups",
+      "Websets sits behind a separate monthly subscription"
+    ],
+    "zh": [
+      "按量计费让规模化后的成本难以预测",
+      "面向开发者的 API，而非可浏览的消费级搜索引擎",
+      "精确匹配查询时，神经结果可能不如关键词精准",
+      "Websets 需另付月度订阅"
+    ],
+    "ja": [
+      "従量課金のため、規模が大きくなるとコストが予測しづらい",
+      "閲覧する消費者向け検索エンジンではなく、開発者向けAPI",
+      "完全一致の検索では、ニューラル結果がキーワードより精度が低く感じられることがある",
+      "Websetsは別途の月額サブスクの裏にある"
+    ],
+    "es": [
+      "La facturación por uso hace difícil predecir los costes a escala",
+      "Una API para desarrolladores, no un buscador de consumo que navegas",
+      "Los resultados neurales pueden parecer menos precisos que las palabras clave en búsquedas de coincidencia exacta",
+      "Websets está tras una suscripción mensual aparte"
+    ],
+    "fr": [
+      "La facturation à l'usage rend les coûts difficiles à prévoir à grande échelle",
+      "Une API pour développeurs, pas un moteur de recherche grand public à parcourir",
+      "Les résultats neuronaux peuvent sembler moins précis que les mots-clés pour les recherches à correspondance exacte",
+      "Websets est derrière un abonnement mensuel séparé"
+    ]
+  },
+  "latestUpdate": {
+    "en": "2026: Exa simplified and lowered its API pricing early in the year, keeping content for the top results free, and continued to position its neural search, Deep Search and Websets as the search layer for AI agents and RAG applications.",
+    "zh": "2026 年：Exa 于年初简化并下调 API 定价，头部结果内容保持免费，并持续把其神经搜索、Deep Search 与 Websets 定位为 AI 智能体与 RAG 应用的搜索层。",
+    "ja": "2026年：Exaは年初にAPI価格を簡素化・引き下げ、上位結果のコンテンツは無料のままとし、ニューラル検索・Deep Search・WebsetsをAIエージェントとRAGアプリケーションのための検索レイヤーとして位置づけ続けている。",
+    "es": "2026: Exa simplificó y bajó los precios de su API a comienzos de año, manteniendo gratis el contenido de los primeros resultados, y siguió posicionando su búsqueda neural, Deep Search y Websets como la capa de búsqueda para agentes de IA y aplicaciones RAG.",
+    "fr": "2026 : Exa a simplifié et abaissé les tarifs de son API en début d'année, gardant gratuit le contenu des premiers résultats, et a continué à positionner sa recherche neuronale, Deep Search et Websets comme la couche de recherche pour les agents IA et les applications RAG."
+  },
+  "verdict": {
+    "badge": "Worth Trying",
+    "headline": {
+      "en": "Web search rebuilt for AI agents instead of human eyeballs",
+      "zh": "为 AI 智能体、而非人类眼球重建的网络搜索",
+      "ja": "人間の目ではなくAIエージェントのために再構築されたウェブ検索",
+      "es": "Búsqueda web reconstruida para agentes de IA en lugar de ojos humanos",
+      "fr": "La recherche web reconstruite pour les agents IA plutôt que pour les yeux humains"
+    },
+    "body": {
+      "en": "Traditional search engines were built to hand a human ten blue links; Exa is built to hand an LLM the actual content it needs to reason. Its neural, embeddings-based search understands what you mean rather than matching keywords, and — crucially — it returns clean page content directly, so you skip the brittle scrape-and-parse step that plagues most agent pipelines. Layer on Deep Search for multi-step research and Websets for curated, structured entity lists, and Exa becomes a genuine search layer for RAG and agents rather than a chatbot bolted onto Google. Pricing is usage-based (roughly $7 per 1,000 searches, more for Deep Search), which Exa simplified and lowered in early 2026, with the content of the top ~10 results free and about $10 of credits to start. The caveats are inherent to the model: pay-as-you-go costs are hard to forecast at scale, this is a developer API rather than a site you browse, and for exact-match lookups keyword engines can still feel sharper. But if you're building agents or RAG and tired of gluing together a scraper and a search box, Exa is one of the cleanest answers going.",
+      "zh": "传统搜索引擎的设计目标是给人递上十条蓝色链接；Exa 的设计目标是把 LLM 推理所需的真实内容直接递过去。它基于嵌入的神经搜索理解你的意图而非匹配关键词，而且——关键在于——它直接返回干净的页面内容，于是你可以跳过困扰大多数智能体管线的、脆弱的「抓取再解析」步骤。再叠加面向多步研究的 Deep Search 和整理好的结构化实体清单 Websets，Exa 就成了 RAG 与智能体真正的搜索层，而不是硬套在 Google 上的聊天机器人。定价按用量计（约 $7/千次搜索，Deep Search 更高），Exa 于 2026 年初做了简化与下调，头部约 10 条结果内容免费，另送约 $10 额度起步。代价是这套模式固有的：按量成本在规模化时难以预测；它是开发者 API 而非可浏览的站点；做精确匹配查询时，关键词引擎可能仍更犀利。但如果你在构建智能体或 RAG，又厌倦了把抓取器和搜索框粘在一起，Exa 是眼下最干净的答案之一。",
+      "ja": "従来の検索エンジンは人間に10本の青いリンクを渡すために作られた。Exaは、LLMが推論に必要とする実際のコンテンツを渡すために作られている。埋め込みベースのニューラル検索はキーワードを照合するのではなく意図を理解し、そして決定的なのは、クリーンなページ内容を直接返すことで、多くのエージェントパイプラインを悩ませる脆いスクレイプ＆パースの工程を省ける点だ。多段階リサーチ向けのDeep Searchと、整理された構造化エンティティリストのWebsetsを重ねれば、ExaはGoogleに後付けしたチャットボットではなく、RAGとエージェントのための真の検索レイヤーになる。価格は従量制（検索約$7/1,000、Deep Searchはより高い）で、Exaは2026年初頭に簡素化・引き下げを行い、上位約10件の結果コンテンツは無料、約$10のクレジットで始められる。注意点はモデル固有のもの：従量コストは規模が大きくなると予測しづらい、閲覧するサイトではなく開発者向けAPIである、完全一致検索ではキーワードエンジンのほうが鋭く感じられることがある。しかしエージェントやRAGを構築していて、スクレイパーと検索窓を貼り合わせるのに疲れているなら、Exaは今ある最もクリーンな答えの一つだ。",
+      "es": "Los buscadores tradicionales se construyeron para entregar a un humano diez enlaces azules; Exa se construyó para entregar a un LLM el contenido real que necesita para razonar. Su búsqueda neural basada en embeddings entiende lo que quieres decir en vez de coincidir palabras clave y —crucialmente— devuelve contenido limpio de las páginas directamente, así te saltas el frágil paso de scraping y parsing que afecta a la mayoría de pipelines de agentes. Suma Deep Search para investigación multipaso y Websets para listas de entidades curadas y estructuradas, y Exa se convierte en una verdadera capa de búsqueda para RAG y agentes, no en un chatbot atornillado a Google. El precio es por uso (unos $7 por 1000 búsquedas, más para Deep Search), que Exa simplificó y bajó a comienzos de 2026, con el contenido de los ~10 primeros resultados gratis y unos $10 de créditos para empezar. Las advertencias son inherentes al modelo: los costes por uso son difíciles de prever a escala, es una API para desarrolladores y no un sitio que navegas, y para búsquedas de coincidencia exacta los motores de palabras clave aún pueden parecer más afilados. Pero si construyes agentes o RAG y estás cansado de pegar un scraper con una caja de búsqueda, Exa es una de las respuestas más limpias que existen.",
+      "fr": "Les moteurs de recherche traditionnels ont été conçus pour donner à un humain dix liens bleus ; Exa est conçu pour donner à un LLM le contenu réel dont il a besoin pour raisonner. Sa recherche neuronale basée sur les embeddings comprend ce que vous voulez dire au lieu d'apparier des mots-clés et — surtout — renvoie directement le contenu propre des pages, vous évitant l'étape fragile de scraping et parsing qui affecte la plupart des pipelines d'agents. Ajoutez Deep Search pour la recherche multi-étapes et Websets pour des listes d'entités curées et structurées, et Exa devient une véritable couche de recherche pour le RAG et les agents, pas un chatbot boulonné à Google. La tarification est à l'usage (environ 7 $ pour 1 000 recherches, plus pour Deep Search), qu'Exa a simplifiée et abaissée début 2026, avec le contenu des ~10 premiers résultats gratuit et environ 10 $ de crédits pour commencer. Les réserves sont inhérentes au modèle : les coûts à l'usage sont difficiles à prévoir à grande échelle, c'est une API pour développeurs et non un site que l'on parcourt, et pour les recherches à correspondance exacte les moteurs à mots-clés peuvent encore sembler plus précis. Mais si vous construisez des agents ou du RAG et en avez assez de coller un scraper à une barre de recherche, Exa est l'une des réponses les plus propres du marché."
+    },
+    "bestFor": {
+      "en": [
+        "Developers giving AI agents live web search as a tool",
+        "RAG pipelines that need clean page content without scraping",
+        "Automated research and curated entity lists via Deep Search / Websets"
+      ],
+      "zh": [
+        "为 AI 智能体提供实时网络搜索工具的开发者",
+        "需要无需抓取即得干净页面内容的 RAG 管线",
+        "通过 Deep Search / Websets 做自动化研究与整理实体清单"
+      ],
+      "ja": [
+        "AIエージェントにライブウェブ検索をツールとして提供する開発者",
+        "スクレイピングなしでクリーンなページ内容が必要なRAGパイプライン",
+        "Deep Search／Websetsによる自動リサーチと整理されたエンティティリスト"
+      ],
+      "es": [
+        "Desarrolladores que dan a agentes de IA búsqueda web en vivo como herramienta",
+        "Pipelines RAG que necesitan contenido de página limpio sin scraping",
+        "Investigación automatizada y listas de entidades curadas vía Deep Search / Websets"
+      ],
+      "fr": [
+        "Développeurs donnant aux agents IA une recherche web en direct comme outil",
+        "Pipelines RAG nécessitant un contenu de page propre sans scraping",
+        "Recherche automatisée et listes d'entités curées via Deep Search / Websets"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You want a consumer AI search product to use directly (→ Perplexity)",
+        "You need a cheap, predictable flat keyword-search API (→ a traditional search API)"
+      ],
+      "zh": [
+        "你想要可直接使用的消费级 AI 搜索产品（→ Perplexity）",
+        "你需要便宜、可预测的固定价关键词搜索 API（→ 传统搜索 API）"
+      ],
+      "ja": [
+        "直接使える消費者向けAI検索製品が欲しい（→ Perplexity）",
+        "安く予測可能な定額のキーワード検索APIが必要（→ 従来型の検索API）"
+      ],
+      "es": [
+        "Quieres un producto de búsqueda de IA de consumo para usar directamente (→ Perplexity)",
+        "Necesitas una API de búsqueda por palabras clave barata y predecible de precio fijo (→ una API de búsqueda tradicional)"
+      ],
+      "fr": [
+        "Vous voulez un produit de recherche IA grand public à utiliser directement (→ Perplexity)",
+        "Vous avez besoin d'une API de recherche par mots-clés bon marché et prévisible à prix fixe (→ une API de recherche traditionnelle)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-28",
+    "verdictDate": "2026-07-28",
+    "pricingVerified": "2026-07-28",
+    "pricingUrl": "https://exa.ai/pricing"
+  }
+}

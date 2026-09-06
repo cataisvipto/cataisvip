@@ -1,0 +1,29 @@
+{
+  "slug": "doubao",
+  "name": "Doubao",
+  "nameZh": "豆包",
+  "description": "字节跳动推出的 AI 助手，基于云雀和豆包大模型，支持智能对话和创作",
+  "descriptionEn": "ByteDance's AI assistant powered by Doubao LLM for intelligent conversation and creation",
+  "descriptionJa": "ByteDanceのAIアシスタント。Doubaoモデル搭載、知的な対話と創作をサポート",
+  "descriptionEs": "Asistente de IA de ByteDance impulsado por Doubao LLM para conversación y creación inteligente",
+  "descriptionFr": "Assistant IA de ByteDance powered by Doubao LLM pour la conversation et la création intelligentes",
+  "url": "https://www.doubao.com",
+  "logo": "/logos/tools/doubao.png",
+  "category": "Chat",
+  "tags": [
+    "Free"
+  ],
+  "featured": true,
+  "developer": "ByteDance",
+  "developerZh": "字节跳动",
+  "platforms": {
+    "web": true,
+    "windows": true,
+    "macos": true,
+    "ios": true,
+    "android": true,
+    "linux": false,
+    "browser_extension": true,
+    "api": true
+  }
+}

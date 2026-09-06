@@ -1,0 +1,78 @@
+{
+  "slug": "design",
+  "name": "Design",
+  "nameZh": "设计通用技能",
+  "description": "通用设计智能技能。覆盖品牌标识、设计 Token、UI 样式、Logo 生成、企业形象方案设计。",
+  "descriptionEn": "General design intelligence skill. Covers brand identity, design tokens, UI styling, logo generation, corporate identity program design.",
+  "descriptionJa": "汎用デザインインテリジェンススキル。ブランドアイデンティティ、デザイントークン、UIスタイリング、ロゴ生成。",
+  "descriptionEs": "Habilidad general de inteligencia de diseño. Identidad de marca, tokens de diseño, estilo UI, generación de logotipos.",
+  "descriptionFr": "Compétence générale d'intelligence de conception. Identité de marque, tokens de design, style UI, génération de logos.",
+  "developer": "nextlevelbuilder",
+  "developerZh": "nextlevelbuilder",
+  "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
+  "agents": [
+    "claude",
+    "cursor",
+    "codex",
+    "generic"
+  ],
+  "category": "Design",
+  "tags": [
+    "Free",
+    "Open Source"
+  ],
+  "installCommand": "Available via plugin marketplace. See README for details.",
+  "logo": "/logos/skills/design.png",
+  "stars": 125024,
+  "featured": false,
+  "faqs": [
+    {
+      "question": {
+        "zh": "Design 技能和其它设计类技能是什么关系？",
+        "en": "How does the Design skill relate to the other design skills?",
+        "ja": "Design スキルは他のデザイン系スキルとどんな関係ですか？",
+        "es": "¿Cómo se relaciona la habilidad Design con las demás de diseño?",
+        "fr": "Quel est le lien entre la compétence Design et les autres compétences design ?"
+      },
+      "answer": {
+        "zh": "它是全家桶式的通用设计智能：一个技能覆盖品牌标识、设计 Token、UI 样式、Logo 生成和企业形象方案。如果只想装一个设计技能，装它；需要深耕单一领域再补装专项技能。",
+        "en": "It is the all-in-one design intelligence: one skill covering brand identity, design tokens, UI styling, logo generation and corporate identity programs. If you only install one design skill, make it this one; add specialized skills later for deeper needs.",
+        "ja": "オールインワンの汎用デザインインテリジェンスです。ブランドアイデンティティ、デザイントークン、UI スタイリング、ロゴ生成、CI プログラムを 1 つのスキルでカバー。デザイン系を 1 つだけ入れるならこれを選び、特定分野を深めたい場合に専門スキルを追加してください。",
+        "es": "Es la inteligencia de diseño todo en uno: una sola habilidad que cubre identidad de marca, tokens de diseño, estilizado UI, generación de logos y programas de identidad corporativa. Si solo instalas una habilidad de diseño, que sea esta.",
+        "fr": "C'est l'intelligence design tout-en-un : une seule compétence couvrant identité de marque, design tokens, styling UI, génération de logos et programmes d'identité visuelle. Si vous n'installez qu'une compétence design, choisissez celle-ci."
+      }
+    },
+    {
+      "question": {
+        "zh": "怎么安装 Design 技能？",
+        "en": "How do I install the Design skill?",
+        "ja": "Design スキルをインストールするには？",
+        "es": "¿Cómo instalo la habilidad Design?",
+        "fr": "Comment installer la compétence Design ?"
+      },
+      "answer": {
+        "zh": "通过 Claude Code、Cursor 或 Codex 的插件市场添加，命令见 GitHub README。安装后直接用自然语言下设计需求，例如\"给我的咖啡品牌设计一套 Logo 方案\"。",
+        "en": "Add it via the Claude Code, Cursor or Codex plugin marketplace — commands in the GitHub README. Once installed, issue design requests in plain language, e.g. \"design a logo system for my coffee brand\".",
+        "ja": "Claude Code、Cursor、Codex のプラグインマーケットから追加します（コマンドは GitHub README 参照）。導入後は「コーヒーブランドのロゴ案を作って」のように自然言語でデザイン依頼するだけです。",
+        "es": "Añádela vía el marketplace de Claude Code, Cursor o Codex; comandos en el README de GitHub. Una vez instalada, pide diseños en lenguaje natural, p. ej. \"diseña un sistema de logo para mi marca de café\".",
+        "fr": "Ajoutez-la via le marketplace de Claude Code, Cursor ou Codex — commandes dans le README GitHub. Ensuite, formulez vos demandes en langage naturel, p. ex. « conçois un système de logo pour ma marque de café »."
+      }
+    },
+    {
+      "question": {
+        "zh": "Design 技能免费吗？",
+        "en": "Is the Design skill free?",
+        "ja": "Design スキルは無料ですか？",
+        "es": "¿La habilidad Design es gratuita?",
+        "fr": "La compétence Design est-elle gratuite ?"
+      },
+      "answer": {
+        "zh": "技能本身免费开源。若工作流中调用 AI 图像生成（如 Logo 出图），图像部分的费用取决于你接入的生成模型服务；纯规范、Token 和代码类产出零成本。",
+        "en": "The skill itself is free and open source. If the workflow calls AI image generation (e.g. rendering logos), that portion depends on the image model service you connect; guideline, token and code outputs cost nothing.",
+        "ja": "スキル自体は無料のオープンソースです。ワークフロー内で AI 画像生成（ロゴの出力など）を呼び出す場合、その部分の費用は接続する生成モデルサービスに依存します。規範・トークン・コード類の成果物はゼロコストです。",
+        "es": "La habilidad en sí es gratuita y de código abierto. Si el flujo llama a generación de imágenes IA (p. ej. renderizar logos), esa parte depende del servicio de modelo que conectes; las guías, tokens y código no cuestan nada.",
+        "fr": "La compétence est gratuite et open source. Si le flux fait appel à la génération d'images IA (rendu de logos), cette partie dépend du service de modèle connecté ; les chartes, tokens et sorties de code ne coûtent rien."
+      }
+    }
+  ]
+}

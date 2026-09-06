@@ -1,0 +1,235 @@
+{
+  "features": {
+    "en": [
+      "Spec-driven development: requirements → design → tasks with acceptance criteria",
+      "Agent Hooks trigger automation on file saves and other events",
+      "Autopilot mode for autonomous multi-file changes, plus a supervised vibe mode",
+      "Kiro Powers extend the agent with specialized capabilities",
+      "One subscription shared across the IDE, CLI and web",
+      "Auto model routing picks the right model per request"
+    ],
+    "zh": [
+      "spec 驱动开发：需求 → 设计 → 带验收标准的任务清单",
+      "Agent Hooks 在保存文件等事件时触发自动化",
+      "Autopilot 模式自主完成多文件修改，另有可监督的 vibe 模式",
+      "Kiro Powers 为智能体扩展专项能力",
+      "一份订阅在 IDE、CLI 与 Web 端通用",
+      "Auto 智能路由为每个请求挑选合适模型"
+    ],
+    "ja": [
+      "スペック駆動開発：要件 → 設計 → 受け入れ基準付きタスク",
+      "Agent Hooksがファイル保存などのイベントで自動化を起動",
+      "自律的な複数ファイル変更のAutopilotモードと監督付きvibeモード",
+      "Kiro Powersがエージェントに専門能力を追加",
+      "1つのサブスクリプションをIDE・CLI・Webで共有",
+      "Autoモデルルーティングがリクエストごとに最適モデルを選択"
+    ],
+    "es": [
+      "Desarrollo spec-driven: requisitos → diseño → tareas con criterios de aceptación",
+      "Los Agent Hooks disparan automatización al guardar archivos y otros eventos",
+      "Modo Autopilot para cambios multiarchivo autónomos, más un modo vibe supervisado",
+      "Los Kiro Powers extienden el agente con capacidades especializadas",
+      "Una suscripción compartida entre IDE, CLI y web",
+      "El enrutado Auto elige el modelo adecuado por petición"
+    ],
+    "fr": [
+      "Développement spec-driven : exigences → conception → tâches avec critères d'acceptation",
+      "Les Agent Hooks déclenchent l'automatisation à la sauvegarde de fichiers et autres événements",
+      "Mode Autopilot pour des changements multi-fichiers autonomes, plus un mode vibe supervisé",
+      "Les Kiro Powers étendent l'agent avec des capacités spécialisées",
+      "Un abonnement partagé entre l'IDE, la CLI et le web",
+      "Le routage Auto choisit le bon modèle à chaque requête"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "The free plan includes 50 credits a month across the IDE, CLI and web.",
+      "zh": "免费档每月 50 credits，IDE、CLI 与 Web 端通用。",
+      "ja": "無料プランは月50クレジットで、IDE・CLI・Webで共通。",
+      "es": "El plan gratuito incluye 50 créditos al mes entre IDE, CLI y web.",
+      "fr": "L'offre gratuite inclut 50 crédits par mois entre IDE, CLI et web."
+    },
+    "paid": {
+      "en": "Pro is $20/month for 1,000 credits, Pro+ $40 for 2,000, Pro Max $100 for 5,000 and Power $200 for 10,000, with overage at $0.04 per credit. (Verified against the official pricing page, 2026-07-29.)",
+      "zh": "Pro $20/月含 1000 credits，Pro+ $40 含 2000，Pro Max $100 含 5000，Power $200 含 10000，超额按每 credit $0.04 计。（对照官方定价页核实，2026-07-29。）",
+      "ja": "Proは月$20で1000クレジット、Pro+は$40で2000、Pro Maxは$100で5000、Powerは$200で10000。超過は1クレジット$0.04。（公式価格ページと照合、2026-07-29。）",
+      "es": "Pro cuesta $20/mes por 1000 créditos, Pro+ $40 por 2000, Pro Max $100 por 5000 y Power $200 por 10 000, con excedente a $0.04 por crédito. (Verificado con la página oficial de precios, 2026-07-29.)",
+      "fr": "Pro coûte 20 $/mois pour 1 000 crédits, Pro+ 40 $ pour 2 000, Pro Max 100 $ pour 5 000 et Power 200 $ pour 10 000, avec dépassement à 0,04 $ le crédit. (Vérifié avec la page tarifaire officielle, 2026-07-29.)"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Teams that want documented specs before AI writes any code",
+      "Turning vague feature requests into structured, reviewable task lists",
+      "Automating repetitive checks with event-driven Agent Hooks",
+      "AWS-centric shops standardizing on one AI coding workflow"
+    ],
+    "zh": [
+      "希望 AI 写码前先有成文 spec 的团队",
+      "把模糊的功能需求变成结构化、可评审的任务清单",
+      "用事件驱动的 Agent Hooks 自动化重复检查",
+      "以 AWS 为核心、想统一 AI 编码工作流的团队"
+    ],
+    "ja": [
+      "AIにコードを書かせる前に文書化されたスペックが欲しいチーム",
+      "曖昧な機能要望を構造化されたレビュー可能なタスクリストに変換",
+      "イベント駆動のAgent Hooksで反復チェックを自動化",
+      "AWS中心でAIコーディングワークフローを標準化したい組織"
+    ],
+    "es": [
+      "Equipos que quieren specs documentadas antes de que la IA escriba código",
+      "Convertir peticiones vagas en listas de tareas estructuradas y revisables",
+      "Automatizar comprobaciones repetitivas con Agent Hooks por eventos",
+      "Organizaciones centradas en AWS estandarizando un flujo de codificación con IA"
+    ],
+    "fr": [
+      "Équipes voulant des specs documentées avant que l'IA n'écrive du code",
+      "Transformer des demandes floues en listes de tâches structurées et révisables",
+      "Automatiser les vérifications répétitives avec des Agent Hooks événementiels",
+      "Structures centrées AWS standardisant un flux de codage IA"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Spec-driven flow produces documentation as a side effect of coding",
+      "Requirements and design docs make AI output reviewable by teams",
+      "One subscription covers IDE, CLI and web",
+      "AWS backing means serious long-term investment"
+    ],
+    "zh": [
+      "spec 驱动流程让文档成为编码的副产品",
+      "需求与设计文档让 AI 产出可被团队评审",
+      "一份订阅覆盖 IDE、CLI 与 Web",
+      "AWS 背书意味着认真的长期投入"
+    ],
+    "ja": [
+      "スペック駆動フローでドキュメントがコーディングの副産物として生まれる",
+      "要件・設計ドキュメントによりAIの成果物をチームでレビュー可能",
+      "1つのサブスクリプションでIDE・CLI・Webをカバー",
+      "AWSの後ろ盾は本気の長期投資を意味する"
+    ],
+    "es": [
+      "El flujo spec-driven produce documentación como efecto secundario de codificar",
+      "Los documentos de requisitos y diseño hacen revisable el resultado de la IA",
+      "Una suscripción cubre IDE, CLI y web",
+      "El respaldo de AWS implica inversión seria a largo plazo"
+    ],
+    "fr": [
+      "Le flux spec-driven produit de la documentation comme sous-produit du codage",
+      "Les documents d'exigences et de conception rendent la sortie IA révisable",
+      "Un abonnement couvre IDE, CLI et web",
+      "Le soutien d'AWS signifie un investissement sérieux à long terme"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Credit consumption draws polarized reviews — heavy tasks burn credits fast",
+      "Spec-first ceremony feels slow for quick fixes and prototypes",
+      "Early waitlist and pricing turbulence left some goodwill scars",
+      "Younger ecosystem than Cursor or Copilot"
+    ],
+    "zh": [
+      "credit 消耗口碑两极——重任务烧 credit 很快",
+      "spec 先行的仪式感对快修与原型显得拖沓",
+      "早期 waitlist 与定价风波留下了一些口碑伤痕",
+      "生态比 Cursor、Copilot 年轻"
+    ],
+    "ja": [
+      "クレジット消費の評判は二極化——重いタスクはクレジットを速く燃やす",
+      "スペック先行の手順はクイックフィックスやプロトタイプには遅く感じる",
+      "初期のwaitlistと価格騒動が多少の不信を残した",
+      "エコシステムはCursorやCopilotより若い"
+    ],
+    "es": [
+      "El consumo de créditos genera reseñas polarizadas — las tareas pesadas los queman rápido",
+      "La ceremonia spec-first se siente lenta para arreglos rápidos y prototipos",
+      "La lista de espera inicial y la turbulencia de precios dejaron cicatrices",
+      "Ecosistema más joven que Cursor o Copilot"
+    ],
+    "fr": [
+      "La consommation de crédits divise — les grosses tâches les brûlent vite",
+      "Le cérémonial spec-first paraît lent pour les correctifs rapides et prototypes",
+      "La liste d'attente initiale et les remous tarifaires ont laissé des traces",
+      "Écosystème plus jeune que Cursor ou Copilot"
+    ]
+  },
+  "latestUpdate": {
+    "en": "2026: Kiro is well past its GA launch of November 2025 — the lineup now spans IDE, CLI and web under one subscription, with Kiro Powers extending agents, Auto model routing, and Agent Hooks automating event-driven checks.",
+    "zh": "2026 年：Kiro 已远离 2025 年 11 月 GA 时的动荡——产品线如今横跨 IDE、CLI 与 Web 共享一份订阅，Kiro Powers 扩展智能体、Auto 智能路由与 Agent Hooks 事件自动化悉数就位。",
+    "ja": "2026年：Kiroは2025年11月のGAを経て安定期に——製品ラインは1つのサブスクリプションでIDE・CLI・Webにまたがり、エージェントを拡張するKiro Powers、Autoモデルルーティング、イベント駆動チェックを自動化するAgent Hooksが揃った。",
+    "es": "2026: Kiro dejó atrás su lanzamiento GA de noviembre de 2025 — la línea abarca ahora IDE, CLI y web bajo una suscripción, con Kiro Powers extendiendo agentes, enrutado Auto de modelos y Agent Hooks automatizando comprobaciones por eventos.",
+    "fr": "2026 : Kiro a dépassé son lancement GA de novembre 2025 — la gamme couvre désormais IDE, CLI et web sous un abonnement, avec les Kiro Powers étendant les agents, le routage Auto des modèles et les Agent Hooks automatisant les vérifications événementielles."
+  },
+  "verdict": {
+    "badge": "Worth Trying",
+    "headline": {
+      "en": "The AI IDE that makes you write the spec first — and that's the point",
+      "zh": "逼你先写 spec 的 AI IDE——而这正是它的意义",
+      "ja": "先にスペックを書かせるAI IDE——それこそが狙いだ",
+      "es": "El IDE de IA que te hace escribir la spec primero — y esa es la gracia",
+      "fr": "L'IDE IA qui vous fait d'abord écrire la spec — et c'est tout l'intérêt"
+    },
+    "body": {
+      "en": "Most AI coding tools optimize for the fastest path from prompt to diff. Kiro, AWS's entry in the race, deliberately slows you down: describe a feature and it first drafts requirements in EARS notation, then a design document, then a task list with acceptance criteria — and only then starts writing code. For solo hackers this ceremony can feel like bureaucracy, but for teams it solves the real problem of AI development: unreviewable, undocumented changes nobody can reason about six months later. The execution layer is capable too — Autopilot handles multi-file changes autonomously, Agent Hooks fire automation on events like file saves, Kiro Powers add specialized skills, and one subscription now spans the IDE, CLI and web with Auto routing picking models for you. The concerns are twofold. Credit economics draw genuinely polarized reviews: heavy agentic tasks can burn through the 1,000-credit Pro allowance quickly, and the $0.04 overage adds up. And Kiro's ecosystem is still younger than Cursor's or Copilot's. But the spec-driven bet is a distinctive, defensible position no major rival occupies. If your team has been burned by vibe-coded chaos, Kiro is very much worth trying.",
+      "zh": "多数 AI 编码工具都在优化从提示到 diff 的最短路径。AWS 出品的 Kiro 却刻意让你慢下来：描述一个功能，它先用 EARS 记法起草需求，再写设计文档，然后是带验收标准的任务清单——这之后才开始写代码。对单打独斗的开发者，这套仪式像官僚主义；但对团队，它解决了 AI 开发的真问题：不可评审、无文档的改动，六个月后没人能说清缘由。执行层同样能打——Autopilot 自主完成多文件修改，Agent Hooks 在保存文件等事件时触发自动化，Kiro Powers 增加专项技能，如今一份订阅横跨 IDE、CLI 与 Web，Auto 路由还会替你选模型。顾虑有二。credit 经济学口碑确实两极：重型智能体任务能快速烧穿 Pro 档 1000 credits，$0.04 的超额费会累积。而且 Kiro 的生态仍比 Cursor、Copilot 年轻。但 spec 驱动这个赌注是一个没有大对手占据的独特而可守的位置。如果你的团队吃过 vibe 编码乱局的亏，Kiro 非常值得一试。",
+      "ja": "大半のAIコーディングツールはプロンプトからdiffまでの最短経路を最適化する。AWSが送り出したKiroは意図的に減速させる。機能を説明すると、まずEARS記法で要件を起草し、次に設計ドキュメント、さらに受け入れ基準付きのタスクリストを作り——そこで初めてコードを書き始める。ソロハッカーにはこの手順は官僚主義に見えるだろうが、チームにとってはAI開発の本当の問題——半年後に誰も理由を説明できない、レビュー不能で文書のない変更——を解決する。実行層も有能だ。Autopilotは複数ファイル変更を自律処理し、Agent Hooksはファイル保存などのイベントで自動化を起動し、Kiro Powersは専門スキルを追加する。いまや1つのサブスクリプションがIDE・CLI・Webにまたがり、Autoルーティングがモデルを選んでくれる。懸念は2つ。クレジット経済の評判は本当に二極化しており、重いエージェントタスクはPro枠の1000クレジットを瞬く間に燃やし、$0.04の超過料金は積み上がる。そしてKiroのエコシステムはCursorやCopilotよりまだ若い。だがスペック駆動という賭けは、大手のどの競合も占めていない独自で守りやすい立ち位置だ。vibeコーディングの混沌に痛い目を見たチームなら、Kiroは大いに試す価値がある。",
+      "es": "La mayoría de herramientas de codificación con IA optimizan el camino más corto del prompt al diff. Kiro, la apuesta de AWS, te frena a propósito: describe una función y primero redacta requisitos en notación EARS, luego un documento de diseño, luego una lista de tareas con criterios de aceptación — y solo entonces empieza a escribir código. Para hackers en solitario esta ceremonia parece burocracia, pero para equipos resuelve el problema real del desarrollo con IA: cambios sin revisar ni documentar que nadie puede explicar seis meses después. La capa de ejecución también es capaz — Autopilot maneja cambios multiarchivo de forma autónoma, los Agent Hooks disparan automatización en eventos como guardar archivos, los Kiro Powers añaden habilidades especializadas, y una suscripción abarca ya IDE, CLI y web con enrutado Auto eligiendo modelos por ti. Las dudas son dos. La economía de créditos genera reseñas genuinamente polarizadas: las tareas agénticas pesadas pueden fundir rápido los 1000 créditos del Pro, y el excedente de $0.04 suma. Y el ecosistema de Kiro sigue siendo más joven que el de Cursor o Copilot. Pero la apuesta spec-driven es una posición distintiva y defendible que ningún gran rival ocupa. Si a tu equipo le quemó el caos del vibe coding, Kiro merece mucho la pena probarse.",
+      "fr": "La plupart des outils de codage IA optimisent le chemin le plus court du prompt au diff. Kiro, l'entrée d'AWS dans la course, vous ralentit délibérément : décrivez une fonctionnalité et il rédige d'abord les exigences en notation EARS, puis un document de conception, puis une liste de tâches avec critères d'acceptation — et seulement alors commence à écrire du code. Pour les hackers solo, ce cérémonial ressemble à de la bureaucratie, mais pour les équipes il résout le vrai problème du développement IA : des changements ni révisables ni documentés que personne ne peut expliquer six mois plus tard. La couche d'exécution est capable aussi — Autopilot gère les changements multi-fichiers en autonomie, les Agent Hooks déclenchent l'automatisation sur des événements comme la sauvegarde, les Kiro Powers ajoutent des compétences spécialisées, et un abonnement couvre désormais IDE, CLI et web avec le routage Auto qui choisit les modèles pour vous. Deux réserves. L'économie des crédits divise réellement : les grosses tâches agentiques peuvent engloutir vite les 1 000 crédits du Pro, et le dépassement à 0,04 $ s'accumule. Et l'écosystème de Kiro reste plus jeune que celui de Cursor ou Copilot. Mais le pari spec-driven est une position distinctive et défendable qu'aucun grand rival n'occupe. Si votre équipe a souffert du chaos du vibe coding, Kiro vaut vraiment l'essai."
+    },
+    "bestFor": {
+      "en": [
+        "Teams wanting reviewable specs and docs from AI development",
+        "Turning fuzzy requirements into structured task lists",
+        "AWS-centric organizations standardizing AI coding"
+      ],
+      "zh": [
+        "想让 AI 开发产出可评审 spec 与文档的团队",
+        "把模糊需求变成结构化任务清单",
+        "以 AWS 为核心、统一 AI 编码的组织"
+      ],
+      "ja": [
+        "AI開発からレビュー可能なスペックと文書を得たいチーム",
+        "曖昧な要件を構造化タスクリストに変換",
+        "AIコーディングを標準化するAWS中心の組織"
+      ],
+      "es": [
+        "Equipos que quieren specs y documentación revisables del desarrollo con IA",
+        "Convertir requisitos difusos en listas de tareas estructuradas",
+        "Organizaciones centradas en AWS estandarizando la codificación con IA"
+      ],
+      "fr": [
+        "Équipes voulant des specs et docs révisables du développement IA",
+        "Transformer des exigences floues en listes de tâches structurées",
+        "Organisations centrées AWS standardisant le codage IA"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You want the fastest prompt-to-code loop with a huge ecosystem (→ Cursor)",
+        "You prefer an agent that lives in your terminal (→ Claude Code)"
+      ],
+      "zh": [
+        "你要最快的提示到代码闭环和庞大生态（→ Cursor）",
+        "你更喜欢住在终端里的智能体（→ Claude Code）"
+      ],
+      "ja": [
+        "巨大なエコシステムと最速のプロンプト→コードのループが欲しい（→ Cursor）",
+        "ターミナルに住むエージェントが好み（→ Claude Code）"
+      ],
+      "es": [
+        "Quieres el bucle prompt-a-código más rápido con un gran ecosistema (→ Cursor)",
+        "Prefieres un agente que viva en tu terminal (→ Claude Code)"
+      ],
+      "fr": [
+        "Vous voulez la boucle prompt-code la plus rapide avec un vaste écosystème (→ Cursor)",
+        "Vous préférez un agent qui vit dans votre terminal (→ Claude Code)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-29",
+    "verdictDate": "2026-07-29",
+    "pricingVerified": "2026-07-29",
+    "pricingUrl": "https://kiro.dev/pricing"
+  }
+}

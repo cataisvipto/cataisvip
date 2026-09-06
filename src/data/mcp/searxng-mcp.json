@@ -1,0 +1,79 @@
+{
+  "slug": "searxng-mcp",
+  "name": "SearXNG MCP",
+  "nameZh": "SearXNG 搜索 MCP",
+  "description": "通过 SearXNG 元搜索引擎为 AI 智能体提供私密网页搜索的 MCP 服务器。支持 Claude、Cursor 等客户端，聚合多个搜索引擎结果，保护用户隐私。",
+  "descriptionEn": "An MCP server that provides private web search for AI assistants via SearXNG — a metasearch engine. Supports Claude, Cursor and more, aggregating results from multiple search engines while protecting user privacy.",
+  "descriptionJa": "SearXNG メタ検索エンジンを介して AI アシスタントにプライベートウェブ検索を提供する MCP サーバー。Claude、Cursor などをサポートし、複数の検索エンジンから結果を集約しながらユーザーのプライバシーを保護します。",
+  "descriptionEs": "Un servidor MCP que proporciona búsqueda web privada para asistentes de IA a través de SearXNG — un metabuscador. Soporta Claude, Cursor y más, agregando resultados de múltiples motores de búsqueda mientras protege la privacidad del usuario.",
+  "descriptionFr": "Un serveur MCP qui fournit une recherche web privée pour les assistants IA via SearXNG — un métamoteur de recherche. Prend en charge Claude, Cursor et plus, agrégeant les résultats de plusieurs moteurs de recherche tout en protégeant la vie privée de l'utilisateur.",
+  "developer": "ihor-sokoliuk",
+  "developerZh": "ihor-sokoliuk",
+  "repo": "ihor-sokoliuk/mcp-searxng",
+  "clients": [
+    "claude",
+    "cursor",
+    "vscode",
+    "codex",
+    "generic"
+  ],
+  "category": "Search",
+  "tags": [
+    "Free",
+    "Open Source"
+  ],
+  "installCommand": "npx -y mcp-searxng",
+  "logo": "/logos/mcp/searxng-mcp.png",
+  "stars": 1201,
+  "featured": false,
+  "faqs": [
+    {
+      "question": {
+        "zh": "SearXNG MCP 和 DuckDuckGo MCP 有什么区别？",
+        "en": "How is SearXNG MCP different from DuckDuckGo MCP?",
+        "ja": "SearXNG MCP と DuckDuckGo MCP の違いは？",
+        "es": "¿En qué se diferencia SearXNG MCP de DuckDuckGo MCP?",
+        "fr": "En quoi SearXNG MCP diffère-t-il de DuckDuckGo MCP ?"
+      },
+      "answer": {
+        "zh": "SearXNG 是元搜索引擎，聚合 Google、Bing、DuckDuckGo 等多个引擎的结果，搜索结果更全面。但需要自建 SearXNG 实例（可 Docker 部署），配置稍复杂。DuckDuckGo MCP 开箱即用，无需自建服务。",
+        "en": "SearXNG is a metasearch engine that aggregates results from Google, Bing, DuckDuckGo and more — providing more comprehensive results. However, it requires running your own SearXNG instance (Docker deployable), which adds setup complexity. DuckDuckGo MCP works out of the box with no self-hosting needed.",
+        "ja": "SearXNG はメタ検索エンジンで、Google、Bing、DuckDuckGo など複数のエンジンから結果を集約し、より包括的な検索結果を提供します。ただし、独自の SearXNG インスタンス（Docker デプロイ可能）を実行する必要があり、設定がやや複雑です。DuckDuckGo MCP は追加設定不要ですぐに使えます。",
+        "es": "SearXNG es un metabuscador que agrega resultados de Google, Bing, DuckDuckGo y más — proporcionando resultados más completos. Sin embargo, requiere ejecutar tu propia instancia de SearXNG (desplegable con Docker), lo que añade complejidad de configuración. DuckDuckGo MCP funciona directamente sin necesidad de autogestión.",
+        "fr": "SearXNG est un métamoteur qui agrège les résultats de Google, Bing, DuckDuckGo et plus — fournissant des résultats plus complets. Cependant, il nécessite l'exécution de votre propre instance SearXNG (déployable avec Docker), ce qui ajoute de la complexité. DuckDuckGo MCP fonctionne directement sans auto-hébergement."
+      }
+    },
+    {
+      "question": {
+        "zh": "SearXNG MCP 需要自建服务器吗？",
+        "en": "Does SearXNG MCP require self-hosting?",
+        "ja": "SearXNG MCP はセルフホスティングが必要ですか？",
+        "es": "¿SearXNG MCP necesita autogestión?",
+        "fr": "SearXNG MCP nécessite-t-il un auto-hébergement ?"
+      },
+      "answer": {
+        "zh": "是的，需要运行自己的 SearXNG 实例。推荐用 Docker 一键部署：docker run -d --name searxng -p 8888:8080 searxng/searxng。部署后配置实例 URL 即可使用。也可以使用公共 SearXNG 实例，但隐私性会降低。",
+        "en": "Yes, you need to run your own SearXNG instance. Docker one-liner recommended: docker run -d --name searxng -p 8888:8080 searxng/searxng. After deployment, configure the instance URL. You can also use public SearXNG instances, but that reduces privacy.",
+        "ja": "はい、独自の SearXNG インスタンスを実行する必要があります。Docker のワンライナーが推奨です：docker run -d --name searxng -p 8888:8080 searxng/searxng。デプロイ後にインスタンス URL を設定します。公開 SearXNG インスタンスも使用できますが、プライバシーは低下します。",
+        "es": "Sí, necesitas ejecutar tu propia instancia de SearXNG. Se recomienda Docker: docker run -d --name searxng -p 8888:8080 searxng/searxng. Después del despliegue, configura la URL de la instancia. También puedes usar instancias públicas de SearXNG, pero eso reduce la privacidad.",
+        "fr": "Oui, vous devez exécuter votre propre instance SearXNG. Docker recommandé : docker run -d --name searxng -p 8888:8080 searxng/searxng. Après le déploiement, configurez l'URL de l'instance. Vous pouvez aussi utiliser des instances publiques SearXNG, mais cela réduit la confidentialité."
+      }
+    },
+    {
+      "question": {
+        "zh": "SearXNG MCP 免费吗？",
+        "en": "Is SearXNG MCP free?",
+        "ja": "SearXNG MCP は無料ですか？",
+        "es": "¿SearXNG MCP es gratuito?",
+        "fr": "SearXNG MCP est-il gratuit ?"
+      },
+      "answer": {
+        "zh": "完全免费开源，SearXNG 本身也是开源项目。只需承担自建服务器的成本（如果有），MCP 服务器本身无需任何费用或 API Key。",
+        "en": "Completely free and open source — SearXNG itself is also an open source project. You only need to cover the cost of self-hosting (if any), with no fees or API keys required for the MCP server itself.",
+        "ja": "完全無料・オープンソースです。SearXNG 自体もオープンソースプロジェクトです。セルフホスティングのコスト（ある場合）のみで、MCP サーバー自体に費用や API キーは一切必要ありません。",
+        "es": "Completamente gratuito y de código abierto — SearXNG en sí también es un proyecto de código abierto. Solo necesitas cubrir el costo de la autogestión (si la hay), sin tarifas ni claves API requeridas para el servidor MCP en sí.",
+        "fr": "Entièrement gratuit et open source — SearXNG lui-même est aussi un projet open source. Vous n'avez qu'à couvrir le coût de l'auto-hébergement (le cas échéant), sans frais ni clés API requis pour le serveur MCP lui-même."
+      }
+    }
+  ]
+}

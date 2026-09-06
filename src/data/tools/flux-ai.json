@@ -1,0 +1,30 @@
+{
+  "slug": "flux-ai",
+  "name": "Flux",
+  "nameZh": "Flux",
+  "description": "Black Forest Labs 推出的开源 AI 图像生成模型，图像质量极高，支持本地部署",
+  "descriptionEn": "Open-source AI image generation model by Black Forest Labs with exceptional image quality, supports local deployment",
+  "descriptionJa": "Black Forest LabsのオープンソースAI画像生成モデル。画質が極めて高く、ローカル展開可能",
+  "descriptionEs": "Modelo de generación de imágenes IA de código abierto de Black Forest Labs con calidad de imagen excepcional, compatible con despliegue local",
+  "descriptionFr": "Modèle de génération d'images IA open-source de Black Forest Labs avec une qualité d'image exceptionnelle, déploiement local possible",
+  "url": "https://bfl.ai",
+  "logo": "/logos/tools/flux-ai.png",
+  "category": "Image",
+  "tags": [
+    "Free",
+    "Open Source",
+    "API"
+  ],
+  "featured": true,
+  "developer": "Black Forest Labs",
+  "platforms": {
+    "web": true,
+    "windows": true,
+    "macos": true,
+    "ios": false,
+    "android": false,
+    "linux": true,
+    "browser_extension": false,
+    "api": true
+  }
+}

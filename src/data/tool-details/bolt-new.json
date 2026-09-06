@@ -1,0 +1,239 @@
+{
+  "features": {
+    "en": [
+      "AI full-stack web app generation",
+      "Browser-based IDE with preview",
+      "One-click deploy to production",
+      "React, Vue, Svelte, Next.js",
+      "Real-time code editing",
+      "Prompt-to-app workflow"
+    ],
+    "zh": [
+      "AI 全栈 Web 应用生成",
+      "浏览器 IDE 实时预览",
+      "一键部署",
+      "支持 React、Vue、Svelte、Next.js",
+      "实时代码编辑",
+      "提示词到应用"
+    ],
+    "ja": [
+      "AI フルスタック Web アプリ",
+      "ブラウザ IDE",
+      "ワンクリックデプロイ",
+      "React/Vue/Svelte/Next.js 対応",
+      "リアルタイム編集",
+      "プロンプト→アプリ"
+    ],
+    "es": [
+      "App web full-stack AI",
+      "IDE en navegador",
+      "Despliegue 1 clic",
+      "React/Vue/Svelte/Next.js",
+      "Edición en vivo",
+      "Prompt a app"
+    ],
+    "fr": [
+      "App web full-stack IA",
+      "IDE navigateur",
+      "Déploiement 1 clic",
+      "React/Vue/Svelte/Next.js",
+      "Édition en direct",
+      "Prompt vers app"
+    ]
+  },
+  "useCases": {
+    "en": [
+      "Rapid prototyping",
+      "MVP building",
+      "Learning full-stack",
+      "Portfolio projects"
+    ],
+    "zh": [
+      "快速原型",
+      "MVP 构建",
+      "学习全栈",
+      "个人项目"
+    ],
+    "ja": [
+      "プロトタイピング",
+      "MVP 構築",
+      "フルスタック学習",
+      "ポートフォリオ"
+    ],
+    "es": [
+      "Prototipado",
+      "MVP",
+      "Aprender full-stack",
+      "Portafolio"
+    ],
+    "fr": [
+      "Prototypage",
+      "MVP",
+      "Apprendre full-stack",
+      "Portfolio"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Full-stack in minutes",
+      "Browser-based, no setup",
+      "One-click deploy",
+      "Wide framework support"
+    ],
+    "zh": [
+      "几分钟全栈",
+      "浏览器无需配置",
+      "一键部署",
+      "框架广泛"
+    ],
+    "ja": [
+      "数分でフルスタック",
+      "設定不要",
+      "ワンクリック",
+      "多フレームワーク"
+    ],
+    "es": [
+      "Full-stack en minutos",
+      "Sin configuración",
+      "Despliegue 1 clic",
+      "Multi-frameworks"
+    ],
+    "fr": [
+      "Full-stack minutes",
+      "Sans configuration",
+      "Déploiement 1 clic",
+      "Multi-frameworks"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Limited customization",
+      "Token costs add up",
+      "Not for complex apps"
+    ],
+    "zh": [
+      "自定义有限",
+      "Token 费用累积",
+      "不适合复杂应用"
+    ],
+    "ja": [
+      "カスタマイズ限定",
+      "トークン課金",
+      "複雑なアプリ不向き"
+    ],
+    "es": [
+      "Limitado",
+      "Coste tokens",
+      "No para apps complejas"
+    ],
+    "fr": [
+      "Limité",
+      "Coût tokens",
+      "Pas pour apps complexes"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Free tier limited tokens",
+      "zh": "免费版有限 token",
+      "ja": "無料版トークン制限",
+      "es": "Gratuito tokens",
+      "fr": "Gratuit tokens limités"
+    },
+    "pro": {
+      "en": "Pro $20-50/month",
+      "zh": "Pro $20-50/月",
+      "ja": "Pro 月額$20-50",
+      "es": "Pro 20-50$/mes",
+      "fr": "Pro 20-50$/mois"
+    }
+  },
+  "latestUpdate": {
+    "en": "2026: Bolt.new expands framework support",
+    "zh": "2026年：Bolt.new 扩展框架支持",
+    "ja": "2026年：Bolt.new がフレームワーク対応拡大",
+    "es": "2026: Bolt.new amplía soporte frameworks",
+    "fr": "2026 : Bolt.new étend le support des frameworks"
+  },
+  "verdict": {
+    "badge": "Recommended",
+    "headline": {
+      "en": "Build and deploy full-stack web apps entirely in the browser — from a text prompt to a running application in minutes.",
+      "zh": "完全在浏览器中构建和部署全栈Web应用——从文本提示到运行应用只需几分钟。",
+      "ja": "ブラウザだけでフルスタックWebアプリを構築・デプロイ——テキストプロンプトから数分で動くアプリへ。",
+      "es": "Construye apps web full-stack completamente en el navegador — de un prompt a una app funcionando en minutos.",
+      "fr": "Construisez des apps web full-stack entièrement dans le navigateur — d'un prompt à une app fonctionnelle en minutes."
+    },
+    "body": {
+      "en": "Bolt.new, built by StackBlitz, runs a complete development environment inside your browser using WebContainers. You describe what you want and it generates a working full-stack application with real dependencies, a running dev server, and instant preview.\n\nThe magic is in the immediacy: no local setup, no package installation. You go from idea to working prototype in minutes.\n\nThe trade-off is scalability. Bolt.new excels at prototyping and small-to-medium applications, but large production codebases will outgrow it.",
+      "zh": "Bolt.new由StackBlitz构建，使用WebContainers在浏览器内运行完整的开发环境。描述你想要的，它就生成一个全栈应用。\n\n魔力在于即时性：无需本地设置、无需安装包。从想法到原型只需几分钟。\n\n代价是可扩展性。Bolt.new擅长原型和中小型应用，大型生产代码库会超出能力范围。",
+      "ja": "Bolt.newはStackBlitzが構築した、ブラウザ内で完全な開発環境を実行するサービスです。欲しいものを説明すれば、フルスタックアプリケーションが生成されます。\n\n魅力は即時性にあります：セットアップ不要。数分で動くプロトタイプが完成します。\n\nトレードオフはスケーラビリティです。プロトタイピングと中小規模アプリに優れていますが、大規模な本番コードベースでは限界があります。",
+      "es": "Bolt.new ejecuta un entorno de desarrollo completo dentro del navegador. Describes lo que quieres y genera una aplicación full-stack funcional.\n\nLa magia está en la inmediatez: sin configuración local. De idea a prototipo en minutos.\n\nLa contrapartida es la escalabilidad. Destaca en prototipos pero bases de código grandes lo superarán.",
+      "fr": "Bolt.new exécute un environnement de développement complet dans votre navigateur. Vous décrivez ce que vous voulez et il génère une application full-stack.\n\nLa magie est dans l'immédiateté : pas de configuration locale. De l'idée au prototype en minutes.\n\nLe compromis est la scalabilité. Excelle pour le prototypage mais les grandes bases de code le dépasseront."
+    },
+    "bestFor": {
+      "en": [
+        "Rapid prototyping without any local development setup",
+        "Non-developers building functional web apps from descriptions",
+        "Hackathons and proof-of-concept demos",
+        "Quick iteration on UI/UX ideas with instant preview"
+      ],
+      "zh": [
+        "无需本地开发环境的快速原型",
+        "非开发者通过描述构建Web应用",
+        "黑客马拉松和概念验证Demo",
+        "即时预览的UI/UX快速迭代"
+      ],
+      "ja": [
+        "ローカル環境なしの高速プロトタイピング",
+        "非開発者が説明から機能的なWebアプリを構築",
+        "ハッカソンやPoC",
+        "即座プレビュー付きのUI/UXアイデア迅速反復"
+      ],
+      "es": [
+        "Prototipado rápido sin configuración local",
+        "No-desarrolladores construyendo apps web funcionales",
+        "Hackathones y demos de prueba de concepto",
+        "Iteración rápida de ideas UI/UX"
+      ],
+      "fr": [
+        "Prototypage rapide sans configuration locale",
+        "Non-développeurs construisant des apps fonctionnelles",
+        "Hackathons et démos de preuve de concept",
+        "Itération rapide sur des idées UI/UX"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You need production apps with complex backend infrastructure (→ traditional dev + Claude Code)",
+        "You want AI-generated React apps with more design polish (→ Lovable, v0)",
+        "You prefer working in a local IDE with full filesystem access (→ Cursor, Windsurf)"
+      ],
+      "zh": [
+        "你需要有复杂后端的生产应用（→ 传统开发 + Claude Code）",
+        "你想要设计更精美的AI生成React应用（→ Lovable、v0）",
+        "你偏好本地IDE有完整文件系统访问（→ Cursor、Windsurf）"
+      ],
+      "ja": [
+        "複雑なバックエンドの本番アプリが必要な場合（→ 従来開発 + Claude Code）",
+        "デザインが洗練されたAI生成Reactアプリが欲しい場合（→ Lovable、v0）",
+        "ローカルIDEを好む場合（→ Cursor、Windsurf）"
+      ],
+      "es": [
+        "Necesitas apps de producción con infraestructura compleja (→ desarrollo tradicional + Claude Code)",
+        "Quieres apps React con más diseño (→ Lovable, v0)",
+        "Prefieres un IDE local (→ Cursor, Windsurf)"
+      ],
+      "fr": [
+        "Vous devez construire des apps production complexes (→ dev traditionnel + Claude Code)",
+        "Vous voulez des apps React avec un design plus soigné (→ Lovable, v0)",
+        "Vous préférez un IDE local (→ Cursor, Windsurf)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-27",
+    "verdictDate": "2026-07-27",
+    "pricingVerified": "2026-07-27"
+  }
+}

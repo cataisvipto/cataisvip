@@ -1,0 +1,234 @@
+{
+  "features": {
+    "en": [
+      "Agents, workflows, memory, RAG and evals in one TypeScript stack",
+      "Suspend/resume workflows with branching and human input steps",
+      "Interactive local playground to chat with agents while developing",
+      "Model routing to 40+ providers via the AI SDK",
+      "Mastra Cloud for hosted deployment, plus deploy anywhere Node.js runs",
+      "Built by the founding team of Gatsby, with MCP support"
+    ],
+    "zh": [
+      "智能体、工作流、记忆、RAG 与评测集于一个 TypeScript 技术栈",
+      "支持挂起/恢复的工作流，含分支与人工输入步骤",
+      "交互式本地 Playground，开发时可直接与智能体对话",
+      "经 AI SDK 路由 40+ 模型供应商",
+      "Mastra Cloud 托管部署，也可部署到任何能跑 Node.js 的环境",
+      "由 Gatsby 创始团队打造，支持 MCP"
+    ],
+    "ja": [
+      "エージェント、ワークフロー、メモリ、RAG、評価を1つのTypeScriptスタックに統合",
+      "分岐や人間の入力ステップを含むサスペンド/レジューム対応ワークフロー",
+      "開発中にエージェントと対話できるインタラクティブなローカルPlayground",
+      "AI SDK経由で40以上のプロバイダーへモデルルーティング",
+      "Mastra Cloudでのホスト型デプロイに加え、Node.jsが動く環境ならどこでもデプロイ可能",
+      "Gatsby創業チームが開発、MCPサポート"
+    ],
+    "es": [
+      "Agentes, flujos, memoria, RAG y evaluaciones en un solo stack TypeScript",
+      "Flujos con suspensión/reanudación, ramas y pasos de entrada humana",
+      "Playground local interactivo para conversar con agentes mientras desarrollas",
+      "Enrutamiento a más de 40 proveedores de modelos vía AI SDK",
+      "Mastra Cloud para despliegue gestionado, además de desplegar donde corra Node.js",
+      "Creado por el equipo fundador de Gatsby, con soporte MCP"
+    ],
+    "fr": [
+      "Agents, workflows, mémoire, RAG et évaluations dans un seul stack TypeScript",
+      "Workflows suspendables/reprenables avec branches et étapes de saisie humaine",
+      "Playground local interactif pour dialoguer avec les agents pendant le développement",
+      "Routage vers plus de 40 fournisseurs de modèles via l'AI SDK",
+      "Mastra Cloud pour le déploiement géré, ou déploiement partout où Node.js tourne",
+      "Créé par l'équipe fondatrice de Gatsby, avec support MCP"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Open-source framework is free: build and self-host agents anywhere Node.js runs, paying only your LLM providers",
+      "zh": "开源框架免费：在任何能跑 Node.js 的环境构建与自托管智能体，只需向 LLM 供应商付费",
+      "ja": "オープンソースフレームワークは無料：Node.jsが動く環境ならどこでもエージェントを構築・セルフホストでき、LLMプロバイダーへの支払いのみ",
+      "es": "El framework open source es gratuito: crea y autoaloja agentes donde corra Node.js, pagando solo a tus proveedores de LLM",
+      "fr": "Le framework open source est gratuit : créez et auto-hébergez des agents partout où Node.js tourne, en ne payant que vos fournisseurs LLM"
+    },
+    "paid": {
+      "en": "Mastra Cloud hosted deployment with tiered plans; team and enterprise pricing published on the official site",
+      "zh": "Mastra Cloud 托管部署按档订阅；团队与企业定价以官网公布为准",
+      "ja": "Mastra Cloudのホスト型デプロイは段階制プラン。チーム・エンタープライズ価格は公式サイトを参照",
+      "es": "Despliegue gestionado Mastra Cloud con planes escalonados; precios de equipo y enterprise publicados en el sitio oficial",
+      "fr": "Déploiement géré Mastra Cloud avec plans par paliers ; tarifs équipe et entreprise publiés sur le site officiel"
+    }
+  },
+  "useCases": {
+    "en": [
+      "TypeScript product teams adding agents to Next.js and Node apps",
+      "Full-stack AI features combining workflows, memory and RAG",
+      "Rapid agent prototyping with the local playground",
+      "Deploying agent services alongside existing JS infrastructure"
+    ],
+    "zh": [
+      "在 Next.js 与 Node 应用中加入智能体的 TypeScript 产品团队",
+      "组合工作流、记忆与 RAG 的全栈 AI 功能",
+      "用本地 Playground 快速原型验证智能体",
+      "与既有 JS 基础设施并肩部署智能体服务"
+    ],
+    "ja": [
+      "Next.jsやNodeアプリにエージェントを追加するTypeScriptプロダクトチーム",
+      "ワークフロー・メモリ・RAGを組み合わせたフルスタックAI機能",
+      "ローカルPlaygroundでの高速エージェントプロトタイピング",
+      "既存JSインフラと並行したエージェントサービスのデプロイ"
+    ],
+    "es": [
+      "Equipos de producto TypeScript añadiendo agentes a apps Next.js y Node",
+      "Funciones IA full-stack combinando flujos, memoria y RAG",
+      "Prototipado rápido de agentes con el playground local",
+      "Despliegue de servicios de agentes junto a infraestructura JS existente"
+    ],
+    "fr": [
+      "Équipes produit TypeScript ajoutant des agents aux apps Next.js et Node",
+      "Fonctionnalités IA full-stack combinant workflows, mémoire et RAG",
+      "Prototypage rapide d'agents avec le playground local",
+      "Déploiement de services d'agents aux côtés de l'infrastructure JS existante"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Best-in-class developer experience for TypeScript AI",
+      "One coherent stack instead of stitching together five libraries",
+      "Local playground makes iteration genuinely fast",
+      "Strong momentum: YC-backed with a fast-growing community"
+    ],
+    "zh": [
+      "TypeScript AI 领域最佳的开发体验",
+      "一个连贯技术栈，无需缝合五个库",
+      "本地 Playground 让迭代真正提速",
+      "势头强劲：YC 投资，社区快速增长"
+    ],
+    "ja": [
+      "TypeScript AIで最高クラスの開発体験",
+      "5つのライブラリを繋ぎ合わせる代わりに1つの一貫したスタック",
+      "ローカルPlaygroundで本当に速いイテレーション",
+      "強い勢い：YC出資、急成長中のコミュニティ"
+    ],
+    "es": [
+      "Experiencia de desarrollo de primera clase para IA en TypeScript",
+      "Un stack coherente en vez de coser cinco bibliotecas",
+      "El playground local hace la iteración realmente rápida",
+      "Gran impulso: respaldado por YC con comunidad en rápido crecimiento"
+    ],
+    "fr": [
+      "Expérience développeur de premier ordre pour l'IA en TypeScript",
+      "Un stack cohérent au lieu d'assembler cinq bibliothèques",
+      "Le playground local rend l'itération vraiment rapide",
+      "Forte dynamique : soutenu par YC avec une communauté en croissance rapide"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Younger than Python rivals — fewer battle scars in production",
+      "TypeScript only; Python teams must look elsewhere",
+      "APIs still evolve quickly between releases",
+      "Third-party integration catalog smaller than LangChain's"
+    ],
+    "zh": [
+      "比 Python 竞品年轻，生产环境考验更少",
+      "仅支持 TypeScript，Python 团队需另寻方案",
+      "版本间 API 仍在快速演进",
+      "第三方集成目录小于 LangChain"
+    ],
+    "ja": [
+      "Python競合より若く、本番での実績はまだ少ない",
+      "TypeScriptのみでPythonチームは他を探す必要あり",
+      "リリース間でAPIがまだ速く変化する",
+      "サードパーティ統合カタログはLangChainより小規模"
+    ],
+    "es": [
+      "Más joven que los rivales Python: menos cicatrices de producción",
+      "Solo TypeScript; los equipos Python deben buscar otra opción",
+      "Las APIs aún evolucionan rápido entre versiones",
+      "Catálogo de integraciones de terceros menor que el de LangChain"
+    ],
+    "fr": [
+      "Plus jeune que les rivaux Python — moins d'expérience en production",
+      "TypeScript uniquement ; les équipes Python doivent chercher ailleurs",
+      "Les API évoluent encore vite entre les versions",
+      "Catalogue d'intégrations tierces plus petit que celui de LangChain"
+    ]
+  },
+  "latestUpdate": {
+    "en": "2026: Mastra consolidates its position as the leading TypeScript agent framework, expanding workspaces, streaming and Mastra Cloud while the JS AI ecosystem rallies around it",
+    "zh": "2026 年：Mastra 巩固其头部 TypeScript 智能体框架地位，扩展 Workspaces、流式能力与 Mastra Cloud，JS AI 生态加速向其聚拢",
+    "ja": "2026年：MastraはTypeScriptエージェントフレームワークの筆頭としての地位を固め、Workspaces、ストリーミング、Mastra Cloudを拡充。JS AIエコシステムの支持も拡大",
+    "es": "2026: Mastra consolida su posición como el framework de agentes TypeScript líder, ampliando workspaces, streaming y Mastra Cloud mientras el ecosistema JS de IA se agrupa a su alrededor",
+    "fr": "2026 : Mastra consolide sa position de framework d'agents TypeScript de référence, étendant workspaces, streaming et Mastra Cloud tandis que l'écosystème IA JS se rallie autour de lui"
+  },
+  "verdict": {
+    "badge": "Recommended",
+    "headline": {
+      "en": "The default agent stack for TypeScript teams",
+      "zh": "TypeScript 团队的默认智能体技术栈",
+      "ja": "TypeScriptチームのデフォルトエージェントスタック",
+      "es": "El stack de agentes por defecto para equipos TypeScript",
+      "fr": "Le stack d'agents par défaut pour les équipes TypeScript"
+    },
+    "body": {
+      "en": "For years, JavaScript developers building agents had to glue together ports of Python libraries. Mastra changed that: one TypeScript-native stack with agents, workflows, memory, RAG and evals that feels like it was designed — because it was — by people who understand JS tooling. It is younger than LangGraph and its APIs still move fast, but if your product lives in Next.js or Node, starting anywhere else now needs justification.",
+      "zh": "多年来，构建智能体的 JavaScript 开发者只能拼接 Python 库的移植版。Mastra 改变了这一点：一个 TypeScript 原生技术栈，集智能体、工作流、记忆、RAG 与评测于一体，出自真正懂 JS 工具链的人之手。它比 LangGraph 年轻，API 也仍在快速演进，但若你的产品生长在 Next.js 或 Node 里，如今不从 Mastra 开始反而需要理由。",
+      "ja": "長年、エージェントを作るJavaScript開発者はPythonライブラリの移植版を繋ぎ合わせるしかなかった。Mastraはそれを変えた。エージェント、ワークフロー、メモリ、RAG、評価を備えたTypeScriptネイティブの単一スタックで、JSツーリングを理解する人々によって設計されている。LangGraphより若くAPIもまだ速く動くが、プロダクトがNext.jsやNodeにあるなら、他から始める方が今や理由を要する。",
+      "es": "Durante años, los desarrolladores JavaScript que construían agentes tuvieron que pegar ports de bibliotecas Python. Mastra cambió eso: un stack nativo de TypeScript con agentes, flujos, memoria, RAG y evaluaciones diseñado por gente que entiende el tooling JS. Es más joven que LangGraph y sus APIs aún se mueven rápido, pero si tu producto vive en Next.js o Node, empezar en otro sitio ahora requiere justificación.",
+      "fr": "Pendant des années, les développeurs JavaScript construisant des agents devaient assembler des portages de bibliothèques Python. Mastra a changé la donne : un stack natif TypeScript avec agents, workflows, mémoire, RAG et évaluations, conçu par des gens qui comprennent l'outillage JS. Il est plus jeune que LangGraph et ses API bougent encore vite, mais si votre produit vit dans Next.js ou Node, commencer ailleurs demande désormais une justification."
+    },
+    "bestFor": {
+      "en": [
+        "TypeScript/JavaScript product teams building AI features",
+        "Next.js and Node.js apps needing agents plus RAG",
+        "Developers who want a playground-driven iteration loop"
+      ],
+      "zh": [
+        "构建 AI 功能的 TypeScript/JavaScript 产品团队",
+        "需要智能体加 RAG 的 Next.js 与 Node.js 应用",
+        "想要 Playground 驱动迭代闭环的开发者"
+      ],
+      "ja": [
+        "AI機能を構築するTypeScript/JavaScriptプロダクトチーム",
+        "エージェントとRAGが必要なNext.js・Node.jsアプリ",
+        "Playground駆動のイテレーションループを求める開発者"
+      ],
+      "es": [
+        "Equipos de producto TypeScript/JavaScript construyendo funciones IA",
+        "Apps Next.js y Node.js que necesitan agentes más RAG",
+        "Desarrolladores que quieren un ciclo de iteración guiado por playground"
+      ],
+      "fr": [
+        "Équipes produit TypeScript/JavaScript créant des fonctionnalités IA",
+        "Apps Next.js et Node.js nécessitant agents et RAG",
+        "Développeurs voulant une boucle d'itération pilotée par playground"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "Your team is Python-first (→ LangGraph, Pydantic AI)",
+        "You prefer visual no-code building (→ Flowise, Dify)"
+      ],
+      "zh": [
+        "你的团队以 Python 为主（→ LangGraph、Pydantic AI）",
+        "你更想可视化无代码搭建（→ Flowise、Dify）"
+      ],
+      "ja": [
+        "チームがPythonファースト（→ LangGraph、Pydantic AI）",
+        "ビジュアルなノーコード構築が好み（→ Flowise、Dify）"
+      ],
+      "es": [
+        "Tu equipo es Python-first (→ LangGraph, Pydantic AI)",
+        "Prefieres construcción visual sin código (→ Flowise, Dify)"
+      ],
+      "fr": [
+        "Votre équipe est Python d'abord (→ LangGraph, Pydantic AI)",
+        "Vous préférez la construction visuelle no-code (→ Flowise, Dify)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-27",
+    "verdictDate": "2026-07-27",
+    "pricingVerified": "2026-07-27"
+  }
+}

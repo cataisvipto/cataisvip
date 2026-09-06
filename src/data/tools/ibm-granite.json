@@ -1,0 +1,30 @@
+{
+  "slug": "ibm-granite",
+  "name": "IBM Granite",
+  "nameZh": "IBM Granite",
+  "description": "IBM 面向企业的开源小型高效模型家族，Apache 2.0 协议，可在 Hugging Face、Ollama 本地运行或通过 watsonx.ai 调用",
+  "descriptionEn": "IBM's enterprise-grade open model family under Apache 2.0, efficient and trustworthy, runnable locally via Hugging Face and Ollama or served through watsonx.ai",
+  "descriptionJa": "IBMのエンタープライズ向けオープンモデルファミリー。Apache 2.0ライセンス、高効率で信頼性重視、Hugging Face・Ollamaでローカル実行、watsonx.ai経由でも利用可",
+  "descriptionEs": "Familia de modelos abiertos de IBM de nivel empresarial bajo Apache 2.0, eficiente y confiable, ejecutable localmente vía Hugging Face y Ollama o servida a través de watsonx.ai",
+  "descriptionFr": "Famille de modèles ouverts d'IBM de niveau entreprise sous Apache 2.0, efficace et fiable, exécutable localement via Hugging Face et Ollama ou servie via watsonx.ai",
+  "url": "https://www.ibm.com/granite",
+  "logo": "/logos/tools/ibm-granite.png",
+  "category": "Foundation Models",
+  "tags": [
+    "Free",
+    "Open Source",
+    "API"
+  ],
+  "featured": false,
+  "developer": "IBM",
+  "platforms": {
+    "web": true,
+    "windows": true,
+    "macos": true,
+    "ios": false,
+    "android": false,
+    "linux": true,
+    "browser_extension": false,
+    "api": true
+  }
+}

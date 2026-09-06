@@ -1,0 +1,583 @@
+{
+  "features": {
+    "en": [
+      "Cross-platform unified AI agent",
+      "Telegram, Discord, Slack, WhatsApp, Signal support",
+      "Unified memory across all platforms",
+      "Email and CLI interfaces",
+      "Open-source by Nous Research",
+      "Self-hostable with full control"
+    ],
+    "zh": [
+      "跨平台统一 AI 智能体",
+      "支持 Telegram、Discord、Slack、WhatsApp、Signal",
+      "全平台统一记忆",
+      "邮件和 CLI 接口",
+      "Nous Research 开源",
+      "可自托管完全掌控"
+    ],
+    "ja": [
+      "クロスプラットフォーム統合 AI エージェント",
+      "Telegram・Discord・Slack・WhatsApp・Signal 対応",
+      "全プラットフォーム統一のメモリ",
+      "メールと CLI インターフェース",
+      "Nous Research によるオープンソース",
+      "完全な制御で自己ホスト可能"
+    ],
+    "es": [
+      "Agente de IA unificado multiplataforma",
+      "Compatible con Telegram, Discord, Slack, WhatsApp y Signal",
+      "Memoria unificada en todas las plataformas",
+      "Interfaces de correo y CLI",
+      "Código abierto por Nous Research",
+      "Autoalojable con control total"
+    ],
+    "fr": [
+      "Agent IA unifié multiplateforme",
+      "Prise en charge de Telegram, Discord, Slack, WhatsApp, Signal",
+      "Mémoire unifiée sur toutes les plateformes",
+      "Interfaces e-mail et CLI",
+      "Open source par Nous Research",
+      "Auto-hébergeable avec contrôle total"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Free and open-source",
+      "zh": "免费开源",
+      "ja": "無料かつオープンソース",
+      "es": "Gratis y de código abierto",
+      "fr": "Gratuit et open source"
+    },
+    "self-hosted": {
+      "en": "Self-host for free (need server)",
+      "zh": "免费自托管（需服务器）",
+      "ja": "無料で自己ホスト可（サーバーが必要）",
+      "es": "Autoalojamiento gratis (requiere servidor)",
+      "fr": "Auto-hébergement gratuit (serveur requis)"
+    },
+    "cloud": {
+      "en": "Cloud hosting varies by provider",
+      "zh": "云托管费用因供应商而异",
+      "ja": "クラウドホスティングは提供者により異なる",
+      "es": "El hosting en la nube varía según el proveedor",
+      "fr": "L'hébergement cloud varie selon le fournisseur"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Personal AI assistant across platforms",
+      "Team collaboration bot",
+      "Customer support automation",
+      "Research and experimentation",
+      "Custom workflow automation",
+      "Privacy-focused AI deployment"
+    ],
+    "zh": [
+      "跨平台个人 AI 助手",
+      "团队协作机器人",
+      "客户支持自动化",
+      "研究与实验",
+      "自定义工作流自动化",
+      "注重隐私的 AI 部署"
+    ],
+    "ja": [
+      "プラットフォーム横断の個人 AI アシスタント",
+      "チームコラボレーション用ボット",
+      "カスタマーサポートの自動化",
+      "研究と実験",
+      "カスタムワークフローの自動化",
+      "プライバシー重視の AI 展開"
+    ],
+    "es": [
+      "Asistente de IA personal en varias plataformas",
+      "Bot de colaboración en equipo",
+      "Automatización de atención al cliente",
+      "Investigación y experimentación",
+      "Automatización de flujos personalizados",
+      "Despliegue de IA centrado en la privacidad"
+    ],
+    "fr": [
+      "Assistant IA personnel multiplateforme",
+      "Bot de collaboration d'équipe",
+      "Automatisation du support client",
+      "Recherche et expérimentation",
+      "Automatisation de workflows personnalisés",
+      "Déploiement IA axé sur la confidentialité"
+    ]
+  },
+  "pros": {
+    "en": [
+      "True cross-platform unified memory",
+      "Open-source and self-hostable",
+      "Backed by Nous Research",
+      "Active community development"
+    ],
+    "zh": [
+      "真正的跨平台统一记忆",
+      "开源可自托管",
+      "Nous Research 背书",
+      "社区活跃开发"
+    ],
+    "ja": [
+      "真のクロスプラットフォーム統一メモリ",
+      "オープンソースで自己ホスト可能",
+      "Nous Research による支援",
+      "活発なコミュニティ開発"
+    ],
+    "es": [
+      "Verdadera memoria unificada multiplataforma",
+      "Código abierto y autoalojable",
+      "Respaldado por Nous Research",
+      "Desarrollo comunitario activo"
+    ],
+    "fr": [
+      "Véritable mémoire unifiée multiplateforme",
+      "Open source et auto-hébergeable",
+      "Soutenu par Nous Research",
+      "Développement communautaire actif"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Self-hosting requires technical setup",
+      "Documentation still evolving",
+      "Some platforms need API keys"
+    ],
+    "zh": [
+      "自托管需要技术配置",
+      "文档仍在完善中",
+      "部分平台需要 API 密钥"
+    ],
+    "ja": [
+      "自己ホストには技術的な設定が必要",
+      "ドキュメントは発展途上",
+      "一部プラットフォームは API キーが必要"
+    ],
+    "es": [
+      "El autoalojamiento requiere configuración técnica",
+      "La documentación aún está evolucionando",
+      "Algunas plataformas necesitan claves de API"
+    ],
+    "fr": [
+      "L'auto-hébergement nécessite une configuration technique",
+      "La documentation évolue encore",
+      "Certaines plateformes nécessitent des clés API"
+    ]
+  },
+  "latestUpdate": {
+    "en": "2026: Hermes Agent launched by Nous Research with multi-platform support and unified memory system",
+    "zh": "2026年：Nous Research 发布 Hermes Agent，支持多平台与统一记忆系统",
+    "ja": "2026年：Nous Research が Hermes Agent を公開。マルチプラットフォーム対応と統一メモリシステムを搭載",
+    "es": "2026: Nous Research lanzó Hermes Agent con soporte multiplataforma y un sistema de memoria unificada",
+    "fr": "2026 : Nous Research a lancé Hermes Agent avec la prise en charge multiplateforme et un système de mémoire unifiée"
+  },
+  "tutorial": {
+    "en": {
+      "title": "Quick Start Guide",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Install Hermes Agent",
+          "content": "Choose your OS and run the install command:",
+          "commands": [
+            {
+              "label": "Linux / macOS",
+              "code": "curl -fsSL https://hermes-agent.nousresearch.com/install.sh | bash"
+            },
+            {
+              "label": "Windows PowerShell",
+              "code": "iex (irm https://hermes-agent.nousresearch.com/install.ps1)"
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "title": "Reload shell and start",
+          "content": "Reload your shell, then run hermes to start chatting:",
+          "commands": [
+            {
+              "label": "Reload shell",
+              "code": "source ~/.bashrc"
+            },
+            {
+              "label": "Start chatting",
+              "code": "hermes"
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "title": "Configure LLM provider",
+          "content": "Choose your LLM provider, or use Nous Portal for the fastest setup:",
+          "commands": [
+            {
+              "label": "Quick setup (recommended)",
+              "code": "hermes setup --portal"
+            },
+            {
+              "label": "Manual provider config",
+              "code": "hermes model"
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "title": "Connect messaging platforms",
+          "content": "Connect Telegram, Discord, Slack, WhatsApp and more:",
+          "commands": [
+            {
+              "label": "Setup gateway",
+              "code": "hermes gateway setup"
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "title": "Done — your agent is ready",
+          "content": "Hermes Agent now learns from every conversation, creates skills, and remembers you across all connected platforms. No extra steps needed.",
+          "commands": []
+        }
+      ]
+    },
+    "zh": {
+      "title": "快速入门指南",
+      "steps": [
+        {
+          "step": 1,
+          "title": "安装 Hermes Agent",
+          "content": "根据你的系统选择安装命令：",
+          "commands": [
+            {
+              "label": "Linux / macOS",
+              "code": "curl -fsSL https://hermes-agent.nousresearch.com/install.sh | bash"
+            },
+            {
+              "label": "Windows PowerShell",
+              "code": "iex (irm https://hermes-agent.nousresearch.com/install.ps1)"
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "title": "重新加载 shell 并启动",
+          "content": "重新加载 shell 后运行 hermes 开始对话：",
+          "commands": [
+            {
+              "label": "重新加载 shell",
+              "code": "source ~/.bashrc"
+            },
+            {
+              "label": "开始对话",
+              "code": "hermes"
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "title": "配置 LLM 提供商",
+          "content": "选择 LLM 提供商，或使用 Nous Portal 快速配置：",
+          "commands": [
+            {
+              "label": "快速配置（推荐）",
+              "code": "hermes setup --portal"
+            },
+            {
+              "label": "手动配置",
+              "code": "hermes model"
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "title": "连接消息平台",
+          "content": "连接 Telegram、Discord、Slack、WhatsApp 等平台：",
+          "commands": [
+            {
+              "label": "设置网关",
+              "code": "hermes gateway setup"
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "title": "完成——你的智能体已就绪",
+          "content": "Hermes Agent 现在会从每次对话中学习，创建技能，并在所有连接的平台上记住你。无需额外配置。",
+          "commands": []
+        }
+      ]
+    },
+    "ja": {
+      "title": "クイックスタートガイド",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Hermes Agent をインストール",
+          "content": "お使いの OS を選んでインストールコマンドを実行します：",
+          "commands": [
+            {
+              "label": "Linux / macOS",
+              "code": "curl -fsSL https://hermes-agent.nousresearch.com/install.sh | bash"
+            },
+            {
+              "label": "Windows PowerShell",
+              "code": "iex (irm https://hermes-agent.nousresearch.com/install.ps1)"
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "title": "シェルを再読み込みして起動",
+          "content": "シェルを再読み込みし、hermes を実行して会話を開始します：",
+          "commands": [
+            {
+              "label": "シェルを再読み込み",
+              "code": "source ~/.bashrc"
+            },
+            {
+              "label": "会話を開始",
+              "code": "hermes"
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "title": "LLM プロバイダーを設定",
+          "content": "LLM プロバイダーを選ぶか、Nous Portal で素早く設定します：",
+          "commands": [
+            {
+              "label": "クイック設定（推奨）",
+              "code": "hermes setup --portal"
+            },
+            {
+              "label": "手動設定",
+              "code": "hermes model"
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "title": "メッセージングプラットフォームを接続",
+          "content": "Telegram、Discord、Slack、WhatsApp などを接続します：",
+          "commands": [
+            {
+              "label": "ゲートウェイを設定",
+              "code": "hermes gateway setup"
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "title": "完了——エージェントの準備完了",
+          "content": "Hermes Agent はこれから会話ごとに学習し、スキルを作成し、接続されたすべてのプラットフォームであなたを覚えています。追加の設定は不要です。",
+          "commands": []
+        }
+      ]
+    },
+    "es": {
+      "title": "Guía de inicio rápido",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Instalar Hermes Agent",
+          "content": "Elige tu sistema operativo y ejecuta el comando de instalación:",
+          "commands": [
+            {
+              "label": "Linux / macOS",
+              "code": "curl -fsSL https://hermes-agent.nousresearch.com/install.sh | bash"
+            },
+            {
+              "label": "Windows PowerShell",
+              "code": "iex (irm https://hermes-agent.nousresearch.com/install.ps1)"
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "title": "Recargar la shell e iniciar",
+          "content": "Recarga tu shell y luego ejecuta hermes para empezar a chatear:",
+          "commands": [
+            {
+              "label": "Recargar la shell",
+              "code": "source ~/.bashrc"
+            },
+            {
+              "label": "Empezar a chatear",
+              "code": "hermes"
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "title": "Configurar el proveedor de LLM",
+          "content": "Elige tu proveedor de LLM o usa Nous Portal para la configuración más rápida:",
+          "commands": [
+            {
+              "label": "Configuración rápida (recomendado)",
+              "code": "hermes setup --portal"
+            },
+            {
+              "label": "Configuración manual",
+              "code": "hermes model"
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "title": "Conectar plataformas de mensajería",
+          "content": "Conecta Telegram, Discord, Slack, WhatsApp y más:",
+          "commands": [
+            {
+              "label": "Configurar la pasarela",
+              "code": "hermes gateway setup"
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "title": "Listo: tu agente está preparado",
+          "content": "Hermes Agent ahora aprende de cada conversación, crea habilidades y te recuerda en todas las plataformas conectadas. No se necesitan pasos adicionales.",
+          "commands": []
+        }
+      ]
+    },
+    "fr": {
+      "title": "Guide de démarrage rapide",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Installer Hermes Agent",
+          "content": "Choisissez votre système d'exploitation et exécutez la commande d'installation :",
+          "commands": [
+            {
+              "label": "Linux / macOS",
+              "code": "curl -fsSL https://hermes-agent.nousresearch.com/install.sh | bash"
+            },
+            {
+              "label": "Windows PowerShell",
+              "code": "iex (irm https://hermes-agent.nousresearch.com/install.ps1)"
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "title": "Recharger le shell et démarrer",
+          "content": "Rechargez votre shell, puis exécutez hermes pour commencer à discuter :",
+          "commands": [
+            {
+              "label": "Recharger le shell",
+              "code": "source ~/.bashrc"
+            },
+            {
+              "label": "Commencer à discuter",
+              "code": "hermes"
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "title": "Configurer le fournisseur LLM",
+          "content": "Choisissez votre fournisseur LLM ou utilisez Nous Portal pour une configuration ultra-rapide :",
+          "commands": [
+            {
+              "label": "Configuration rapide (recommandé)",
+              "code": "hermes setup --portal"
+            },
+            {
+              "label": "Configuration manuelle",
+              "code": "hermes model"
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "title": "Connecter les plateformes de messagerie",
+          "content": "Connectez Telegram, Discord, Slack, WhatsApp et plus encore :",
+          "commands": [
+            {
+              "label": "Configurer la passerelle",
+              "code": "hermes gateway setup"
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "title": "Terminé : votre agent est prêt",
+          "content": "Hermes Agent apprend désormais de chaque conversation, crée des compétences et se souvient de vous sur toutes les plateformes connectées. Aucune étape supplémentaire n'est nécessaire.",
+          "commands": []
+        }
+      ]
+    }
+  },
+  "verdict": {
+    "badge": "For Specific Needs",
+    "headline": {
+      "en": "Open-source AI agent framework for building autonomous task-completion systems.",
+      "zh": "开源AI智能体框架，用于构建自主任务完成系统。",
+      "ja": "自律的なタスク完了システムを構築するためのオープンソースAIエージェントフレームワーク。",
+      "es": "Framework de agente IA de código abierto para construir sistemas autónomos de completación de tareas.",
+      "fr": "Framework d'agent IA open-source pour construire des systèmes autonomes de complétion de tâches."
+    },
+    "body": {
+      "en": "Hermes Agent provides a framework for building AI systems that can autonomously plan, execute, and iterate on complex tasks. It targets developers who want to create custom agent workflows with tool-use capabilities and multi-step reasoning.\n\nAs an open-source project, it offers full customization but requires technical expertise to set up and maintain. For most users who just want agent capabilities, products like Dify or Coze provide a more accessible path.",
+      "zh": "Hermes Agent 提供了构建能够自主规划、执行和迭代复杂任务的AI系统的框架。它面向希望创建具有工具使用能力和多步推理的自定义智能体工作流的开发者。\n\n作为开源项目，提供完全定制但需要技术专业知识来设置和维护。对于只想要智能体能力的大多数用户，Dify或Coze提供更可及的路径。",
+      "ja": "Hermes Agentは複雑なタスクを自律的に計画、実行、反復できるAIシステムを構築するフレームワークを提供します。ツール使用機能とマルチステップ推論のカスタムエージェントワークフローを作りたい開発者向けです。\n\nオープンソースとして完全なカスタマイズが可能ですが技術的専門知識が必要です。エージェント機能だけが必要な場合はDifyやCozeがよりアクセシブルです。",
+      "es": "Hermes Agent ofrece un framework para construir sistemas IA que planifican, ejecutan e iteran tareas complejas autónomamente. Dirigido a desarrolladores que quieren workflows de agente personalizados.\n\nComo proyecto open-source, ofrece total personalización pero requiere experiencia técnica. Para la mayoría, Dify o Coze ofrecen un camino más accesible.",
+      "fr": "Hermes Agent fournit un framework pour construire des systèmes IA qui planifient, exécutent et itèrent sur des tâches complexes de manière autonome.\n\nEn tant que projet open-source, il offre une personnalisation complète mais nécessite une expertise technique. Pour la plupart, Dify ou Coze offrent un chemin plus accessible."
+    },
+    "bestFor": {
+      "en": [
+        "Custom AI agent development",
+        "Research into autonomous AI systems",
+        "Developers wanting full agent control"
+      ],
+      "zh": [
+        "自定义AI智能体开发",
+        "自主AI系统研究",
+        "希望完全控制智能体的开发者"
+      ],
+      "ja": [
+        "カスタムAIエージェント開発",
+        "自律AIシステムの研究",
+        "エージェントの完全な制御を求める開発者"
+      ],
+      "es": [
+        "Desarrollo de agentes IA personalizados",
+        "Investigación en sistemas IA autónomos",
+        "Desarrolladores que quieren control total del agente"
+      ],
+      "fr": [
+        "Développement d'agents IA personnalisés",
+        "Recherche sur les systèmes IA autonomes",
+        "Développeurs voulant un contrôle total de l'agent"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You want a no-code agent builder (→ Dify, Coze)",
+        "You need production-ready orchestration (→ LangChain, AutoGPT)"
+      ],
+      "zh": [
+        "需要无代码智能体构建器（→ Dify、Coze）",
+        "需要生产就绪的编排（→ LangChain、AutoGPT）"
+      ],
+      "ja": [
+        "ノーコードのエージェントビルダーが必要な場合（→ Dify、Coze）",
+        "本番対応のオーケストレーションが必要な場合（→ LangChain、AutoGPT）"
+      ],
+      "es": [
+        "Quieres un constructor de agentes sin código (→ Dify, Coze)",
+        "Necesitas orquestación lista para producción (→ LangChain, AutoGPT)"
+      ],
+      "fr": [
+        "Vous voulez un constructeur d'agents no-code (→ Dify, Coze)",
+        "Vous avez besoin d'une orchestration prête pour la production (→ LangChain, AutoGPT)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-30",
+    "verdictDate": "2026-07-27",
+    "pricingVerified": "2026-07-27"
+  }
+}

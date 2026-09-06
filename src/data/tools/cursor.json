@@ -1,0 +1,28 @@
+{
+  "slug": "cursor",
+  "name": "Cursor",
+  "nameZh": "Cursor",
+  "description": "AI 原生代码编辑器，内置多模型支持，重新定义编程体验",
+  "descriptionEn": "AI-native code editor with multi-model support, redefining programming experience",
+  "descriptionJa": "AIネイティブなコードエディタ。多モデル対応でプログラミング体験を再定義",
+  "descriptionEs": "Editor de código nativo de IA con soporte multi-modelo, redefiniendo la experiencia de programación",
+  "descriptionFr": "Éditeur de code natif IA avec support multi-modèles, redéfinissant l'expérience de programmation",
+  "url": "https://cursor.com",
+  "logo": "/logos/tools/cursor.png",
+  "category": "Code",
+  "tags": [
+    "Freemium"
+  ],
+  "featured": true,
+  "developer": "Cursor",
+  "platforms": {
+    "web": true,
+    "windows": true,
+    "macos": true,
+    "ios": false,
+    "android": false,
+    "linux": true,
+    "browser_extension": false,
+    "api": true
+  }
+}

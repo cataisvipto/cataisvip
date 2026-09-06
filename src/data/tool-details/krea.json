@@ -1,0 +1,235 @@
+{
+  "features": {
+    "en": [
+      "Real-time image generation that updates as you type or sketch",
+      "Text-to-image, text-to-video and text-to-3D in one workspace",
+      "Upscaling and enhancement to bring generations to higher resolution",
+      "LoRA fine-tuning to train and share your own custom styles",
+      "Krea Nodes — a visual, node-based workflow builder for pipelines",
+      "A developer API to build Krea's generation into your own apps"
+    ],
+    "zh": [
+      "实时图像生成，随输入或涂鸦即时更新",
+      "文生图、文生视频与文生 3D 集于一个工作区",
+      "放大与增强，把生成结果提升到更高分辨率",
+      "LoRA 微调，训练并分享你自己的自定义风格",
+      "Krea Nodes——可视化、基于节点的工作流编排器",
+      "开发者 API，把 Krea 的生成能力嵌入你自己的应用"
+    ],
+    "ja": [
+      "入力やスケッチに合わせて即時更新されるリアルタイム画像生成",
+      "テキストから画像・動画・3Dを一つのワークスペースで",
+      "生成物をより高解像度にするアップスケールと強化",
+      "独自スタイルを学習・共有できるLoRAファインチューニング",
+      "Krea Nodes——視覚的でノードベースのワークフロービルダー",
+      "Kreaの生成を自作アプリに組み込む開発者API"
+    ],
+    "es": [
+      "Generación de imágenes en tiempo real que se actualiza mientras escribes o dibujas",
+      "Texto a imagen, texto a vídeo y texto a 3D en un solo espacio de trabajo",
+      "Escalado y mejora para llevar las generaciones a mayor resolución",
+      "Ajuste fino LoRA para entrenar y compartir tus propios estilos",
+      "Krea Nodes — un constructor visual de flujos basado en nodos",
+      "Una API para desarrolladores para integrar la generación de Krea en tus apps"
+    ],
+    "fr": [
+      "Génération d'images en temps réel qui se met à jour à mesure que vous tapez ou dessinez",
+      "Texte vers image, texte vers vidéo et texte vers 3D dans un seul espace",
+      "Upscaling et amélioration pour porter les générations en plus haute résolution",
+      "Fine-tuning LoRA pour entraîner et partager vos propres styles",
+      "Krea Nodes — un constructeur visuel de flux basé sur des nœuds",
+      "Une API développeur pour intégrer la génération de Krea à vos apps"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "A free plan gives about 100 compute units a day to try image, video and 3D generation with the standard models.",
+      "zh": "免费档每日约 100 个计算单位，可试用标准模型的图像、视频与 3D 生成。",
+      "ja": "無料プランでは1日約100の計算ユニットが付与され、標準モデルで画像・動画・3D生成を試せる。",
+      "es": "Un plan gratuito ofrece unas 100 unidades de cómputo al día para probar la generación de imagen, vídeo y 3D con los modelos estándar.",
+      "fr": "Un plan gratuit offre environ 100 unités de calcul par jour pour essayer la génération d'image, vidéo et 3D avec les modèles standard."
+    },
+    "paid": {
+      "en": "Paid plans are metered by monthly compute units — roughly Basic ~5,000, Pro ~20,000 and Max ~60,000 units — with yearly billing saving about 40% and pricing in the ~$10–60/month range depending on tier and billing. The API is priced separately. (Verified against the official pricing page, 2026-07-28; exact dollar amounts are rendered dynamically, so treat figures as approximate.)",
+      "zh": "付费档按每月计算单位计费——大致 Basic 约 5,000、Pro 约 20,000、Max 约 60,000 单位——年付约省 40%，视档位与计费方式落在约 $10–60/月区间。API 单独计价。（对照官方定价页核实，2026-07-28；美元数字为动态渲染，请将金额视为约值。）",
+      "ja": "有料プランは月間計算ユニットで従量課金——おおよそBasic約5,000、Pro約20,000、Max約60,000ユニット——年払いで約40%節約でき、プランと支払い方式により月$10〜60程度。APIは別料金。（公式価格ページと照合、2026-07-28。ドル金額は動的表示のため概算として扱う。）",
+      "es": "Los planes de pago se miden por unidades de cómputo mensuales — aproximadamente Basic ~5000, Pro ~20 000 y Max ~60 000 unidades — con facturación anual que ahorra un ~40% y precios en el rango de ~$10–60/mes según nivel y facturación. La API se cobra aparte. (Verificado con la página oficial de precios, 2026-07-28; las cifras en dólares se muestran dinámicamente, trátalas como aproximadas.)",
+      "fr": "Les plans payants sont mesurés en unités de calcul mensuelles — environ Basic ~5 000, Pro ~20 000 et Max ~60 000 unités — la facturation annuelle faisant économiser ~40 %, avec des prix dans la fourchette ~10–60 $/mois selon l'offre et la facturation. L'API est facturée séparément. (Vérifié avec la page tarifaire officielle, 2026-07-28 ; les montants en dollars sont affichés dynamiquement, à considérer comme approximatifs.)"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Creatives iterating on images live with real-time generation",
+      "Producing images, video and 3D assets from one subscription",
+      "Training LoRAs to lock in a brand or personal visual style",
+      "Building repeatable generation pipelines with Krea Nodes"
+    ],
+    "zh": [
+      "创作者用实时生成对图像做即时迭代",
+      "在一个订阅内产出图像、视频与 3D 素材",
+      "训练 LoRA 以固定品牌或个人视觉风格",
+      "用 Krea Nodes 搭建可复用的生成流水线"
+    ],
+    "ja": [
+      "リアルタイム生成で画像をライブに反復するクリエイター",
+      "一つのサブスクで画像・動画・3Dアセットを制作",
+      "ブランドや個人のビジュアルスタイルを固定するLoRA学習",
+      "Krea Nodesで再利用可能な生成パイプラインを構築"
+    ],
+    "es": [
+      "Creativos que iteran imágenes en vivo con generación en tiempo real",
+      "Producir imágenes, vídeo y activos 3D desde una sola suscripción",
+      "Entrenar LoRAs para fijar un estilo visual de marca o personal",
+      "Construir pipelines de generación repetibles con Krea Nodes"
+    ],
+    "fr": [
+      "Créatifs itérant sur des images en direct avec la génération temps réel",
+      "Produire images, vidéo et assets 3D depuis un seul abonnement",
+      "Entraîner des LoRA pour fixer un style visuel de marque ou personnel",
+      "Construire des pipelines de génération réutilisables avec Krea Nodes"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Real-time generation makes iterating feel fast and playful",
+      "One tool for image, video and 3D instead of many subscriptions",
+      "LoRA training and Krea Nodes give real control and repeatability",
+      "Large, active user base (40M) and an API for developers"
+    ],
+    "zh": [
+      "实时生成让迭代既快又好玩",
+      "一款工具搞定图像、视频与 3D，无需多个订阅",
+      "LoRA 训练与 Krea Nodes 带来真正的可控与可复用",
+      "庞大活跃的用户群（4000 万）与面向开发者的 API"
+    ],
+    "ja": [
+      "リアルタイム生成で反復が速く楽しく感じられる",
+      "画像・動画・3Dを一つのツールで、複数サブスク不要",
+      "LoRA学習とKrea Nodesが真の制御と再現性をもたらす",
+      "大規模で活発なユーザー基盤（4000万）と開発者向けAPI"
+    ],
+    "es": [
+      "La generación en tiempo real hace que iterar sea rápido y divertido",
+      "Una herramienta para imagen, vídeo y 3D en vez de muchas suscripciones",
+      "El entrenamiento LoRA y Krea Nodes dan control real y repetibilidad",
+      "Base de usuarios amplia y activa (40M) y una API para desarrolladores"
+    ],
+    "fr": [
+      "La génération en temps réel rend l'itération rapide et ludique",
+      "Un seul outil pour image, vidéo et 3D au lieu de plusieurs abonnements",
+      "L'entraînement LoRA et Krea Nodes offrent contrôle réel et répétabilité",
+      "Base d'utilisateurs large et active (40M) et une API pour développeurs"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Compute-unit metering makes heavy use burn credits fast",
+      "So many models and modes can overwhelm beginners",
+      "Video and 3D outputs still trail dedicated best-in-class tools",
+      "Exact pricing is rendered dynamically and shifts with model costs"
+    ],
+    "zh": [
+      "按计算单位计费，重度使用会很快烧掉额度",
+      "模型与模式繁多，新手容易眼花缭乱",
+      "视频与 3D 产出仍落后于各自领域的顶尖专用工具",
+      "确切定价为动态渲染，且随模型成本变动"
+    ],
+    "ja": [
+      "計算ユニット課金のため、ヘビーユースはクレジットをすぐ消費",
+      "モデルとモードが多すぎて初心者は戸惑いやすい",
+      "動画・3Dの出力は各分野の専用トップツールにまだ及ばない",
+      "正確な価格は動的表示で、モデルコストに応じて変動する"
+    ],
+    "es": [
+      "La medición por unidades de cómputo agota créditos rápido con uso intenso",
+      "Tantos modelos y modos pueden abrumar a los principiantes",
+      "Las salidas de vídeo y 3D aún quedan por detrás de herramientas dedicadas líderes",
+      "El precio exacto se muestra dinámicamente y cambia con los costes de los modelos"
+    ],
+    "fr": [
+      "La facturation à l'unité de calcul consomme vite les crédits en usage intensif",
+      "Autant de modèles et de modes peut submerger les débutants",
+      "Les sorties vidéo et 3D restent en retrait des meilleurs outils dédiés",
+      "Le prix exact est affiché dynamiquement et évolue avec le coût des modèles"
+    ]
+  },
+  "latestUpdate": {
+    "en": "2026: Krea kept expanding its all-in-one creative suite — real-time generation, its in-house Krea models, video and 3D, LoRA training and the Krea Nodes visual workflow builder — while serving a user base it puts at around 40 million and offering a developer API.",
+    "zh": "2026 年：Krea 持续扩展其一体化创作套件——实时生成、自研 Krea 模型、视频与 3D、LoRA 训练以及 Krea Nodes 可视化工作流编排器——服务其自称约 4000 万的用户群，并提供开发者 API。",
+    "ja": "2026年：Kreaはオールインワンの創作スイートを拡張し続けた——リアルタイム生成、自社Kreaモデル、動画・3D、LoRA学習、Krea Nodesの視覚的ワークフロービルダー——約4000万とする利用者基盤にサービスを提供し、開発者APIも用意する。",
+    "es": "2026: Krea siguió ampliando su suite creativa todo en uno — generación en tiempo real, sus modelos propios Krea, vídeo y 3D, entrenamiento LoRA y el constructor visual Krea Nodes — atendiendo a una base de usuarios que cifra en unos 40 millones y ofreciendo una API para desarrolladores.",
+    "fr": "2026 : Krea a continué d'étendre sa suite créative tout-en-un — génération temps réel, ses modèles maison Krea, vidéo et 3D, entraînement LoRA et le constructeur visuel Krea Nodes — au service d'une base d'utilisateurs qu'elle évalue à environ 40 millions et proposant une API développeur."
+  },
+  "verdict": {
+    "badge": "Recommended",
+    "headline": {
+      "en": "One creative playground for image, video and 3D — in real time",
+      "zh": "图像、视频与 3D 的一站式创作游乐场——还是实时的",
+      "ja": "画像・動画・3Dの創作遊び場を一つに——しかもリアルタイム",
+      "es": "Un patio creativo para imagen, vídeo y 3D — en tiempo real",
+      "fr": "Un terrain de jeu créatif pour image, vidéo et 3D — en temps réel"
+    },
+    "body": {
+      "en": "Most generative-media tools do one thing; Krea tries to be the whole studio, and largely pulls it off. Its signature is real-time generation — images update as you type or sketch, which turns prompting from a slot-machine wait into something that feels like drawing. Around that it stacks text-to-video, text-to-3D, upscaling, LoRA fine-tuning so you can train and share your own styles, and Krea Nodes, a visual node editor for building repeatable pipelines. That breadth is the appeal: instead of juggling separate subscriptions for each medium, you work from one canvas and one credit balance, and there's an API when you want to wire Krea into your own product. The trade-offs are the usual ones for a compute-metered platform — heavy use burns units quickly, the sheer number of models and modes can overwhelm newcomers, and its video and 3D outputs still trail the best dedicated tools in each category. Pricing is also rendered dynamically and moves with model costs, so plan around units rather than a fixed price. Even so, for creatives who want to explore across media in one fast, playful place, Krea is a standout — and worth recommending.",
+      "zh": "多数生成式媒体工具只做一件事；Krea 试图做整间工作室，而且基本做成了。它的招牌是实时生成——图像随输入或涂鸦即时更新，把「提示词等待如老虎机」变成了近似作画的体验。围绕这一点，它叠加了文生视频、文生 3D、放大、可训练并分享自有风格的 LoRA 微调，以及用于搭建可复用流水线的可视化节点编辑器 Krea Nodes。这种广度正是其魅力：你不必为每种媒介分别开订阅，而是在一个画布、一份额度里工作，想把 Krea 接入自家产品时还有 API。取舍是计算计费平台的老问题——重度使用会很快烧掉单位，繁多的模型与模式会让新手不知所措，其视频与 3D 产出仍落后于各领域最好的专用工具。定价也是动态渲染、随模型成本浮动，所以请围绕「单位」而非固定价来规划。即便如此，对想在一个又快又好玩的地方跨媒介探索的创作者来说，Krea 出类拔萃——值得推荐。",
+      "ja": "多くの生成メディアツールは一つのことをやる。Kreaはスタジオ丸ごとを目指し、概ね成功している。看板はリアルタイム生成——入力やスケッチに合わせて画像が即更新され、プロンプトの「スロットマシン待ち」を描画に近い体験へ変える。その周りにテキストから動画・3D、アップスケール、独自スタイルを学習・共有できるLoRAファインチューニング、再利用可能なパイプラインを組む視覚的ノードエディタKrea Nodesを積み重ねる。この幅広さこそ魅力だ。媒体ごとに別サブスクをやりくりせず、一つのキャンバスと一つのクレジット残高で作業でき、自社製品に組み込むためのAPIもある。トレードオフは計算従量プラットフォーム共通のもの——ヘビーユースはユニットをすぐ消費し、モデルとモードの多さは初心者を圧倒し、動画・3Dの出力は各分野最良の専用ツールにまだ及ばない。価格も動的表示でモデルコストに連動するため、固定価格ではなくユニットを軸に計画したい。それでも、速く楽しい一つの場所で媒体を横断して探求したいクリエイターにとって、Kreaは傑出しており——推奨に値する。",
+      "es": "La mayoría de herramientas de medios generativos hacen una cosa; Krea intenta ser todo el estudio, y en gran medida lo consigue. Su sello es la generación en tiempo real — las imágenes se actualizan mientras escribes o dibujas, lo que convierte el prompting de una espera de tragaperras en algo que se siente como dibujar. Alrededor apila texto a vídeo, texto a 3D, escalado, ajuste fino LoRA para entrenar y compartir tus propios estilos, y Krea Nodes, un editor visual de nodos para construir pipelines repetibles. Esa amplitud es el atractivo: en vez de malabarear suscripciones separadas para cada medio, trabajas desde un lienzo y un saldo de créditos, y hay una API cuando quieras integrar Krea en tu propio producto. Las concesiones son las habituales de una plataforma medida por cómputo — el uso intenso agota unidades rápido, la enorme cantidad de modelos y modos puede abrumar a los recién llegados, y sus salidas de vídeo y 3D aún quedan por detrás de las mejores herramientas dedicadas de cada categoría. El precio también se muestra dinámicamente y se mueve con los costes de los modelos, así que planifica en torno a unidades y no a un precio fijo. Aun así, para creativos que quieren explorar entre medios en un lugar rápido y divertido, Krea destaca — y merece recomendación.",
+      "fr": "La plupart des outils de médias génératifs font une chose ; Krea tente d'être tout le studio, et y parvient largement. Sa signature est la génération en temps réel — les images se mettent à jour à mesure que vous tapez ou dessinez, transformant le prompting d'une attente de machine à sous en quelque chose qui ressemble au dessin. Autour, il empile le texte vers vidéo, le texte vers 3D, l'upscaling, le fine-tuning LoRA pour entraîner et partager vos propres styles, et Krea Nodes, un éditeur visuel de nœuds pour bâtir des pipelines réutilisables. Cette ampleur fait l'attrait : au lieu de jongler avec des abonnements séparés pour chaque média, vous travaillez depuis un canevas et un solde de crédits, et il y a une API quand vous voulez brancher Krea dans votre produit. Les compromis sont ceux habituels d'une plateforme facturée au calcul — l'usage intensif brûle vite les unités, le nombre de modèles et de modes peut submerger les nouveaux venus, et ses sorties vidéo et 3D restent en retrait des meilleurs outils dédiés de chaque catégorie. Le prix est aussi affiché dynamiquement et évolue avec le coût des modèles, alors planifiez autour des unités plutôt que d'un prix fixe. Malgré tout, pour les créatifs qui veulent explorer plusieurs médias dans un lieu rapide et ludique, Krea se démarque — et mérite d'être recommandé."
+    },
+    "bestFor": {
+      "en": [
+        "Creatives who want image, video and 3D in one place",
+        "People who value fast, real-time iteration over one-shot renders",
+        "Users training custom LoRA styles or building node workflows"
+      ],
+      "zh": [
+        "想在一处搞定图像、视频与 3D 的创作者",
+        "看重快速实时迭代、而非一次性出图的人",
+        "训练自定义 LoRA 风格或搭建节点工作流的用户"
+      ],
+      "ja": [
+        "画像・動画・3Dを一箇所で行いたいクリエイター",
+        "一発生成より速いリアルタイム反復を重視する人",
+        "カスタムLoRAスタイルの学習やノードワークフロー構築をするユーザー"
+      ],
+      "es": [
+        "Creativos que quieren imagen, vídeo y 3D en un solo lugar",
+        "Quienes valoran la iteración rápida en tiempo real sobre renders de una sola vez",
+        "Usuarios que entrenan estilos LoRA propios o construyen flujos de nodos"
+      ],
+      "fr": [
+        "Créatifs voulant image, vidéo et 3D au même endroit",
+        "Ceux qui privilégient l'itération rapide en temps réel aux rendus uniques",
+        "Utilisateurs entraînant des styles LoRA personnalisés ou construisant des flux de nœuds"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You want best-in-class video generation only (→ a dedicated video model)",
+        "You need predictable flat pricing rather than metered compute units (→ a fixed-seat design tool)"
+      ],
+      "zh": [
+        "你只想要顶尖的视频生成（→ 专门的视频模型）",
+        "你需要可预测的固定价、而非按计算单位计费（→ 固定席位的设计工具）"
+      ],
+      "ja": [
+        "最高クラスの動画生成だけが欲しい（→ 専用の動画モデル）",
+        "計算ユニット従量ではなく予測可能な定額が必要（→ 固定席の設計ツール）"
+      ],
+      "es": [
+        "Quieres solo generación de vídeo líder en su clase (→ un modelo de vídeo dedicado)",
+        "Necesitas precio fijo predecible en vez de unidades de cómputo medidas (→ una herramienta de diseño por asiento fijo)"
+      ],
+      "fr": [
+        "Vous voulez uniquement la meilleure génération vidéo (→ un modèle vidéo dédié)",
+        "Vous avez besoin d'un prix fixe prévisible plutôt que d'unités de calcul mesurées (→ un outil de design par siège fixe)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-28",
+    "verdictDate": "2026-07-28",
+    "pricingVerified": "2026-07-28",
+    "pricingUrl": "https://www.krea.ai/pricing"
+  }
+}

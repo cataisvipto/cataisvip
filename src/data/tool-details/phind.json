@@ -1,0 +1,234 @@
+{
+  "features": {
+    "en": [
+      "AI search for developers",
+      "Code-specific results",
+      "Multi-step reasoning",
+      "Context-aware answers",
+      "VS Code extension",
+      "Real-time web knowledge"
+    ],
+    "zh": [
+      "开发者 AI 搜索",
+      "代码相关结果",
+      "多步推理",
+      "上下文感知",
+      "VS Code 扩展",
+      "实时网络知识"
+    ],
+    "ja": [
+      "開発者向け AI 検索",
+      "コード特化",
+      "多段階推論",
+      "コンテキスト認識",
+      "VS Code 対応",
+      "リアルタイム"
+    ],
+    "es": [
+      "Búsqueda IA devs",
+      "Resultados código",
+      "Razonamiento multi-paso",
+      "Contexto",
+      "Extensión VS Code",
+      "Web en vivo"
+    ],
+    "fr": [
+      "Recherche IA devs",
+      "Résultats code",
+      "Raisonnement multi-étapes",
+      "Contexte",
+      "Extension VS Code",
+      "Web temps réel"
+    ]
+  },
+  "useCases": {
+    "en": [
+      "Developer Q&A",
+      "Code research",
+      "Technical documentation",
+      "API reference",
+      "Problem solving"
+    ],
+    "zh": [
+      "开发者问答",
+      "代码研究",
+      "技术文档",
+      "API 参考",
+      "问题解决"
+    ],
+    "ja": [
+      "開発者 Q&A",
+      "コード研究",
+      "技術文書",
+      "API リファレンス",
+      "問題解決"
+    ],
+    "es": [
+      "Q&A devs",
+      "Investigación código",
+      "Documentación",
+      "Referencia API",
+      "Resolución"
+    ],
+    "fr": [
+      "Q&A devs",
+      "Recherche code",
+      "Documentation",
+      "Référence API",
+      "Résolution"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Developer-focused",
+      "Code-aware results",
+      "Fast & accurate",
+      "VS Code integration"
+    ],
+    "zh": [
+      "面向开发者",
+      "代码感知",
+      "快速准确",
+      "VS Code 集成"
+    ],
+    "ja": [
+      "開発者向け",
+      "コード認識",
+      "高速正確",
+      "VS Code 対応"
+    ],
+    "es": [
+      "Enfoque dev",
+      "Conciencia código",
+      "Rápido",
+      "Integración VS Code"
+    ],
+    "fr": [
+      "Axé développeur",
+      "Code contextuel",
+      "Rapide précis",
+      "Intégration VS Code"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Technical queries only",
+      "Free tier limits",
+      "Competes with Perplexity"
+    ],
+    "zh": [
+      "仅限技术查询",
+      "免费版限制",
+      "竞品包括 Perplexity"
+    ],
+    "ja": [
+      "技術のみ",
+      "無料制限",
+      "Perplexity 競合"
+    ],
+    "es": [
+      "Solo técnico",
+      "Límites gratis",
+      "Compite con Perplexity"
+    ],
+    "fr": [
+      "Technique seulement",
+      "Limites gratuites",
+      "Concurrence Perplexity"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Free limited searches",
+      "zh": "免费有限搜索",
+      "ja": "無料検索制限",
+      "es": "Búsquedas gratis limitadas",
+      "fr": "Recherches gratuites limitées"
+    },
+    "pro": {
+      "en": "Pro $15/month",
+      "zh": "Pro $15/月",
+      "ja": "Pro 月額15ドル",
+      "es": "Pro 15$/mes",
+      "fr": "Pro 15$/mois"
+    }
+  },
+  "latestUpdate": {
+    "en": "2026: Phind improves code understanding",
+    "zh": "2026年：Phind 提升代码理解",
+    "ja": "2026年：Phind がコード理解を向上",
+    "es": "2026: Phind mejora comprensión código",
+    "fr": "2026 : Phind améliore la compréhension du code"
+  },
+  "verdict": {
+    "badge": "For Specific Needs",
+    "headline": {
+      "en": "AI search built specifically for developers — answers coding questions with source references.",
+      "zh": "专为开发者打造的AI搜索——回答编程问题并附带来源引用。",
+      "ja": "開発者専用に構築されたAI検索——ソース参照付きでコーディング質問に回答。",
+      "es": "Búsqueda IA construida específicamente para desarrolladores — responde preguntas de código con referencias.",
+      "fr": "Recherche IA construite spécifiquement pour les développeurs — répond aux questions de code avec des références."
+    },
+    "body": {
+      "en": "Phind targets developers who want AI-powered answers to technical questions, combining LLM reasoning with web search to provide code solutions with context. It's like Perplexity but specifically tuned for programming queries.\n\nThe niche has gotten crowded—ChatGPT, Claude, and Perplexity all handle coding questions well now. Phind's value is in the developer-specific UX and focus, but it lacks the broader capabilities that make general assistants useful throughout the workday.",
+      "zh": "Phind 面向想要获得AI驱动的技术问题答案的开发者，将LLM推理与网络搜索结合，提供带上下文的代码解决方案。类似于 Perplexity 但专门为编程查询调优。\n\n这一利基已变得拥挤——ChatGPT、Claude 和 Perplexity 现在都能很好处理编程问题。Phind 的价值在于开发者专属的UX和聚焦，但缺乏使通用助手在整个工作日中有用的更广泛能力。",
+      "ja": "Phindは技術的な質問にAIの回答を求める開発者をターゲットに、LLM推論とWeb検索を組み合わせ、コンテキスト付きのコードソリューションを提供します。Perplexityに似ていますがプログラミングクエリに特化しています。\n\nこのニッチは混雑してきました——ChatGPT、Claude、Perplexityはすべてコーディング質問をうまく処理するようになりました。Phindの価値は開発者特化のUXと焦点ですが、汎用アシスタントを終日有用にする幅広い機能は欠けています。",
+      "es": "Phind apunta a desarrolladores que quieren respuestas IA a preguntas técnicas, combinando razonamiento LLM con búsqueda web para soluciones de código con contexto. Es como Perplexity pero afinado para consultas de programación.\n\nEl nicho se ha llenado—ChatGPT, Claude y Perplexity manejan bien preguntas de código ahora. El valor de Phind está en la UX específica para desarrolladores, pero carece de las capacidades más amplias de asistentes generales.",
+      "fr": "Phind cible les développeurs voulant des réponses IA à des questions techniques, combinant raisonnement LLM et recherche web pour des solutions de code contextualisées. C'est comme Perplexity mais ajusté pour les requêtes de programmation.\n\nLe créneau est devenu encombré—ChatGPT, Claude et Perplexity gèrent bien les questions de code maintenant. La valeur de Phind réside dans l'UX spécifique aux développeurs, mais il manque les capacités plus larges des assistants généraux."
+    },
+    "bestFor": {
+      "en": [
+        "Quick coding answers with web references",
+        "Developers wanting search-first AI experience",
+        "Technical documentation lookups"
+      ],
+      "zh": [
+        "带网络引用的快速编程答案",
+        "想要搜索优先AI体验的开发者",
+        "技术文档查询"
+      ],
+      "ja": [
+        "Web参照付きの素早いコーディング回答",
+        "検索ファーストのAI体験を求める開発者",
+        "技術ドキュメントの検索"
+      ],
+      "es": [
+        "Respuestas rápidas de código con referencias web",
+        "Desarrolladores que quieren experiencia IA search-first",
+        "Consultas de documentación técnica"
+      ],
+      "fr": [
+        "Réponses rapides de code avec références web",
+        "Développeurs voulant une expérience IA search-first",
+        "Recherche de documentation technique"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You want broader AI capabilities beyond search (→ ChatGPT, Claude)",
+        "You need AI integrated into your editor (→ Cursor, Qoder)"
+      ],
+      "zh": [
+        "需要搜索之外更广泛的AI能力（→ ChatGPT、Claude）",
+        "需要集成到编辑器中的AI（→ Cursor、Qoder）"
+      ],
+      "ja": [
+        "検索以上の幅広いAI機能が必要な場合（→ ChatGPT、Claude）",
+        "エディタに統合されたAIが必要な場合（→ Cursor、Qoder）"
+      ],
+      "es": [
+        "Quieres capacidades IA más amplias (→ ChatGPT, Claude)",
+        "Necesitas IA integrada en tu editor (→ Cursor, Qoder)"
+      ],
+      "fr": [
+        "Vous voulez des capacités IA plus larges (→ ChatGPT, Claude)",
+        "Vous avez besoin d'IA intégrée à votre éditeur (→ Cursor, Qoder)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-27",
+    "verdictDate": "2026-07-27",
+    "pricingVerified": "2026-07-27"
+  }
+}

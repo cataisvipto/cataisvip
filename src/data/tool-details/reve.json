@@ -1,0 +1,235 @@
+{
+  "features": {
+    "en": [
+      "In-house Reve models built for state-of-the-art text rendering and prompt adherence",
+      "Natural-language editing: describe a change in plain words and Reve applies it to the image",
+      "Drag-and-drop image editor combining generation, editing and remixing in one canvas",
+      "Multi-reference blending to combine styles and subjects while preserving intent",
+      "Reve 2.0 adds a 4K layout-aware model that grounds generation in spatial composition",
+      "Usage-based API for developers alongside the consumer web app"
+    ],
+    "zh": [
+      "自研 Reve 模型，主打业界领先的文字渲染与提示词遵循",
+      "自然语言编辑：用大白话描述改动，Reve 就把它应用到图像上",
+      "拖拽式图像编辑器，把生成、编辑与混剪集于一块画布",
+      "多参考图融合，在保留意图的同时组合风格与主体",
+      "Reve 2.0 新增 4K 布局感知模型，让生成扎根于空间构图",
+      "面向开发者的按量计费 API，与消费级网页应用并行"
+    ],
+    "ja": [
+      "自社製Reveモデル、最先端のテキスト描画とプロンプト忠実度を追求",
+      "自然言語編集：普通の言葉で変更を伝えると、Reveが画像に適用",
+      "生成・編集・リミックスを一つのキャンバスに集約したドラッグ&ドロップ編集器",
+      "マルチ参照ブレンドで、意図を保ちつつスタイルと被写体を組み合わせ",
+      "Reve 2.0は4Kレイアウト対応モデルを追加し、生成を空間構成に基づかせる",
+      "消費者向けWebアプリに加え、開発者向けの従量課金API"
+    ],
+    "es": [
+      "Modelos propios de Reve creados para un renderizado de texto y una fidelidad al prompt de vanguardia",
+      "Edición en lenguaje natural: describe un cambio con palabras y Reve lo aplica a la imagen",
+      "Editor de arrastrar y soltar que une generación, edición y remezcla en un mismo lienzo",
+      "Mezcla de múltiples referencias para combinar estilos y sujetos preservando la intención",
+      "Reve 2.0 añade un modelo 4K consciente del layout que ancla la generación en la composición espacial",
+      "API de uso medido para desarrolladores junto a la app web de consumo"
+    ],
+    "fr": [
+      "Modèles maison Reve conçus pour un rendu de texte et une fidélité au prompt de pointe",
+      "Édition en langage naturel : décrivez un changement en mots simples et Reve l'applique à l'image",
+      "Éditeur glisser-déposer réunissant génération, édition et remix sur un seul canevas",
+      "Fusion multi-références pour combiner styles et sujets tout en préservant l'intention",
+      "Reve 2.0 ajoute un modèle 4K sensible à la mise en page qui ancre la génération dans la composition spatiale",
+      "API à l'usage pour les développeurs, en parallèle de l'app web grand public"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Free plan at $0 with a generous daily \"energy\" allowance for image generation and editing, chat-based editing and basic storage.",
+      "zh": "免费版 $0，提供慷慨的每日「能量」额度用于生成与编辑，含对话式编辑与基础存储。",
+      "ja": "無料プランは$0で、生成・編集に使える1日あたりの潤沢な「エナジー」枠、チャット編集、基本ストレージを含む。",
+      "es": "Plan gratuito de $0 con una generosa asignación diaria de \"energía\" para generar y editar, edición por chat y almacenamiento básico.",
+      "fr": "Plan gratuit à 0 $ avec une allocation quotidienne généreuse d'« énergie » pour générer et éditer, l'édition par chat et un stockage de base."
+    },
+    "paid": {
+      "en": "Lite is $7.99/month (roughly 5x the free allowance and storage). Pro is $19.99/month for creating without practical limits. A separate usage-based API is billed by consumption for developers. (Verified against the official pricing page, 2026-07-28.)",
+      "zh": "Lite 版 $7.99/月（额度与存储约为免费版的 5 倍）。Pro 版 $19.99/月，几乎无限制地创作。面向开发者另有按用量计费的 API。（对照官方定价页核实，2026-07-28。）",
+      "ja": "Liteは月$7.99（無料枠とストレージの約5倍）。Proは月$19.99で実質無制限に作成可能。開発者向けには従量課金の別APIがある。（公式価格ページと照合、2026-07-28。）",
+      "es": "Lite cuesta $7.99/mes (unas 5 veces la asignación y el almacenamiento gratuitos). Pro cuesta $19.99/mes para crear sin límites prácticos. Hay una API aparte de uso medido facturada por consumo para desarrolladores. (Verificado con la página oficial, 2026-07-28.)",
+      "fr": "Lite est à 7,99 $/mois (environ 5x l'allocation et le stockage gratuits). Pro est à 19,99 $/mois pour créer sans limite pratique. Une API distincte à l'usage est facturée à la consommation pour les développeurs. (Vérifié avec la page officielle, 2026-07-28.)"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Generating images that need legible, accurate text — signs, labels, short logos",
+      "Iterative editing where you refine a picture through plain-language instructions",
+      "Blending several reference images into one coherent composition",
+      "Developers embedding image generation via the usage-based API"
+    ],
+    "zh": [
+      "生成需要清晰、准确文字的图像——招牌、标签、短 Logo",
+      "通过大白话指令反复打磨一张图的迭代式编辑",
+      "把多张参考图融合成一张连贯的构图",
+      "开发者通过按量计费 API 嵌入图像生成"
+    ],
+    "ja": [
+      "読みやすく正確なテキストが必要な画像の生成——看板・ラベル・短いロゴ",
+      "普通の言葉の指示で画像を磨き込む反復編集",
+      "複数の参照画像を一つの一貫した構図にブレンド",
+      "従量課金APIで画像生成を組み込む開発者"
+    ],
+    "es": [
+      "Generar imágenes que necesitan texto legible y preciso: carteles, etiquetas, logos cortos",
+      "Edición iterativa donde refinas una imagen con instrucciones en lenguaje llano",
+      "Combinar varias imágenes de referencia en una composición coherente",
+      "Desarrolladores que integran generación de imágenes vía la API de uso medido"
+    ],
+    "fr": [
+      "Générer des images nécessitant un texte lisible et exact — panneaux, étiquettes, logos courts",
+      "Édition itérative où l'on affine une image via des instructions en langage courant",
+      "Fusionner plusieurs images de référence en une composition cohérente",
+      "Développeurs intégrant la génération d'images via l'API à l'usage"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Among the best in the field at rendering legible in-image text and following prompts",
+      "Natural-language editing plus a drag-and-drop canvas make iteration fast and intuitive",
+      "Reve 2.0 ranks near the top of independent text-to-image arenas",
+      "Affordable paid tiers ($7.99 / $19.99) with a genuinely usable free plan"
+    ],
+    "zh": [
+      "在图内文字清晰度与提示词遵循上位居行业前列",
+      "自然语言编辑加拖拽画布，让迭代又快又直观",
+      "Reve 2.0 在独立的文生图竞技榜上名列前茅",
+      "付费档实惠（$7.99 / $19.99），且免费版真的够用"
+    ],
+    "ja": [
+      "画像内テキストの読みやすさとプロンプト遵守で業界トップクラス",
+      "自然言語編集とドラッグ&ドロップのキャンバスで反復が速く直感的",
+      "Reve 2.0は独立系の文章から画像生成アリーナで上位にランク",
+      "有料プランが手頃（$7.99／$19.99）で、無料プランも実用的"
+    ],
+    "es": [
+      "De los mejores del sector renderizando texto legible en imagen y siguiendo prompts",
+      "La edición en lenguaje natural más un lienzo de arrastrar y soltar hacen la iteración rápida e intuitiva",
+      "Reve 2.0 se sitúa cerca de lo más alto en arenas independientes de texto a imagen",
+      "Planes de pago asequibles ($7.99 / $19.99) con un plan gratuito realmente usable"
+    ],
+    "fr": [
+      "Parmi les meilleurs du secteur pour le rendu d'un texte lisible dans l'image et le respect des prompts",
+      "L'édition en langage naturel et un canevas glisser-déposer rendent l'itération rapide et intuitive",
+      "Reve 2.0 se classe près du sommet des arènes text-to-image indépendantes",
+      "Des offres payantes abordables (7,99 $ / 19,99 $) avec un plan gratuit réellement utilisable"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Can struggle with scale and proportion, and with fidelity on complex edit prompts",
+      "Longer passages of text are less reliable than short strings",
+      "A newer, less-known name than incumbents like Midjourney or Adobe",
+      "No native vector output — it's raster generation and editing only"
+    ],
+    "zh": [
+      "在尺度与比例、以及复杂编辑指令的遵循上可能吃力",
+      "长段文字的可靠性不如短字符串",
+      "相比 Midjourney、Adobe 等老牌，是更新、知名度更低的名字",
+      "无原生矢量输出——仅限位图生成与编辑"
+    ],
+    "ja": [
+      "スケールや比率、複雑な編集プロンプトの忠実度で苦戦することがある",
+      "長い文章は短い文字列ほど安定しない",
+      "MidjourneyやAdobeなど既存勢に比べ新参で知名度が低い",
+      "ネイティブのベクター出力なし——ラスターの生成・編集のみ"
+    ],
+    "es": [
+      "Puede tener problemas con escala y proporción, y con la fidelidad en prompts de edición complejos",
+      "Los pasajes largos de texto son menos fiables que las cadenas cortas",
+      "Un nombre más nuevo y menos conocido que veteranos como Midjourney o Adobe",
+      "Sin salida vectorial nativa: solo generación y edición ráster"
+    ],
+    "fr": [
+      "Peut peiner sur l'échelle et les proportions, et sur la fidélité des prompts d'édition complexes",
+      "Les longs passages de texte sont moins fiables que les chaînes courtes",
+      "Un nom plus récent et moins connu que des acteurs établis comme Midjourney ou Adobe",
+      "Pas de sortie vectorielle native — génération et édition raster uniquement"
+    ]
+  },
+  "latestUpdate": {
+    "en": "2026: Reve 2.0 lands as a 4K, layout-aware model that grounds generation in spatial composition, pushing Reve near the top of independent text-to-image arenas as a leading indie image lab. Consumer plans stay simple (Free, Lite $7.99, Pro $19.99) alongside a usage-based developer API.",
+    "zh": "2026 年：Reve 2.0 以 4K、布局感知模型登场，让生成扎根于空间构图，把 Reve 推到独立文生图竞技榜前列，成为领先的独立图像实验室。消费级套餐保持简单（Free、Lite $7.99、Pro $19.99），并配有按量计费的开发者 API。",
+    "ja": "2026年：Reve 2.0が4K・レイアウト対応モデルとして登場し、生成を空間構成に基づかせ、独立系の文章から画像生成アリーナで上位に。有力なインディー画像ラボとしての地位を固める。消費者向けはシンプル（Free、Lite $7.99、Pro $19.99）で、従量課金の開発者APIも併設。",
+    "es": "2026: Reve 2.0 llega como un modelo 4K consciente del layout que ancla la generación en la composición espacial, situando a Reve cerca de lo más alto de las arenas independientes de texto a imagen como laboratorio indie destacado. Los planes de consumo siguen siendo simples (Free, Lite $7.99, Pro $19.99) junto a una API de uso medido para desarrolladores.",
+    "fr": "2026 : Reve 2.0 arrive comme un modèle 4K sensible à la mise en page qui ancre la génération dans la composition spatiale, propulsant Reve près du sommet des arènes text-to-image indépendantes comme labo d'images indépendant de premier plan. Les offres grand public restent simples (Free, Lite 7,99 $, Pro 19,99 $) aux côtés d'une API à l'usage pour développeurs."
+  },
+  "verdict": {
+    "badge": "Recommended",
+    "headline": {
+      "en": "The indie image lab that nails text and takes plain-English edits",
+      "zh": "把文字做对、还听得懂大白话改图的独立图像实验室",
+      "ja": "テキストを正確に描き、普通の言葉の編集も効くインディー画像ラボ",
+      "es": "El laboratorio indie que clava el texto y acepta ediciones en lenguaje llano",
+      "fr": "Le labo d'images indépendant qui réussit le texte et accepte les retouches en langage courant"
+    },
+    "body": {
+      "en": "Reve is one of the most impressive independent image labs to emerge recently, and it earned attention the hard way — by beating better-known rivals on the two things that trip most models up: rendering legible in-image text and actually following the prompt. Founded by an ex-Adobe/Stability product leader, it pairs its in-house models with a workflow that feels modern: describe an edit in plain English and it applies it, or drag things around on a canvas, or blend several reference images into one coherent scene. Reve 2.0's 4K, layout-aware model pushed it near the top of independent text-to-image arenas. Reviewers are candid about the rough edges too — it can wobble on scale and proportion, complex edit prompts don't always land, and long text passages are less reliable than short ones. It's also a newer name without native vector output. But at $7.99–$19.99/month with a genuinely usable free tier, Reve is one of the best-value ways to get top-tier text and prompt fidelity, and it's well worth a place in any image-tool shortlist.",
+      "zh": "Reve 是近来最令人印象深刻的独立图像实验室之一，而它是靠硬实力赢得关注的——在大多数模型翻车的两件事上击败了更知名的对手：把图内文字渲染清晰，以及真正照提示词来。它由前 Adobe/Stability 产品负责人创办，把自研模型与一套现代化工作流结合：用大白话描述改动它就照做，或在画布上拖拽，或把多张参考图融合成一个连贯场景。Reve 2.0 的 4K、布局感知模型把它推到独立文生图竞技榜前列。评测者对它的毛边也很坦白——尺度与比例可能不稳，复杂编辑指令不总是奏效，长段文字不如短字符串可靠。它也是个更新、且无原生矢量输出的名字。但在 $7.99–$19.99/月、还配一个真的够用的免费档下，Reve 是获得顶级文字与提示词遵循的高性价比选择之一，值得进入任何图像工具的候选名单。",
+      "ja": "Reveは近年登場した中でも屈指の独立系画像ラボで、実力で注目を勝ち取った——多くのモデルがつまずく2点、すなわち画像内テキストを読みやすく描くことと、実際にプロンプトに従うことで、より有名なライバルを上回った。元Adobe/Stabilityの製品責任者が創業し、自社モデルにモダンなワークフローを組み合わせる。普通の言葉で編集を伝えれば適用され、キャンバス上でドラッグでき、複数の参照画像を一つの一貫したシーンに融合できる。Reve 2.0の4K・レイアウト対応モデルは、独立系の文章から画像生成アリーナで上位に押し上げた。レビュアーは粗さにも率直だ——スケールや比率が揺れ、複雑な編集プロンプトが常に決まるわけではなく、長い文章は短い文字列ほど安定しない。ネイティブのベクター出力もない新参の名前でもある。だが月$7.99〜$19.99で、実用的な無料枠も付くReveは、トップクラスのテキストとプロンプト忠実度を得る最もコスパの良い方法の一つで、どんな画像ツールの最終候補にも入れる価値がある。",
+      "es": "Reve es uno de los laboratorios de imagen independientes más impresionantes surgidos recientemente, y se ganó la atención por la vía difícil: superando a rivales más conocidos en las dos cosas que hacen tropezar a la mayoría de modelos: renderizar texto legible en imagen y seguir de verdad el prompt. Fundada por un ex responsable de producto de Adobe/Stability, combina sus modelos propios con un flujo que se siente moderno: describe una edición en lenguaje llano y la aplica, arrastra elementos en un lienzo o mezcla varias referencias en una escena coherente. El modelo 4K consciente del layout de Reve 2.0 lo llevó cerca de lo más alto de las arenas independientes. Los reseñadores también son francos sobre las asperezas: puede tambalearse en escala y proporción, los prompts de edición complejos no siempre aciertan y los textos largos son menos fiables que los cortos. Además es un nombre más nuevo y sin salida vectorial nativa. Pero a $7.99–$19.99/mes con un nivel gratuito realmente usable, Reve es una de las mejores relaciones calidad-precio para lograr texto y fidelidad de prompt de primer nivel, y merece un sitio en cualquier lista corta de herramientas de imagen.",
+      "fr": "Reve est l'un des labos d'images indépendants les plus impressionnants apparus récemment, et il a gagné l'attention à la dure — en battant des rivaux plus connus sur les deux points où la plupart des modèles trébuchent : le rendu d'un texte lisible dans l'image et le respect réel du prompt. Fondé par un ex-responsable produit d'Adobe/Stability, il associe ses modèles maison à un workflow qui paraît moderne : décrivez une retouche en langage courant et il l'applique, déplacez des éléments sur un canevas, ou fusionnez plusieurs références en une scène cohérente. Le modèle 4K sensible à la mise en page de Reve 2.0 l'a hissé près du sommet des arènes text-to-image indépendantes. Les testeurs sont aussi francs sur les aspérités — l'échelle et les proportions peuvent flancher, les prompts d'édition complexes ne passent pas toujours, et les longs textes sont moins fiables que les courts. C'est aussi un nom plus récent, sans sortie vectorielle native. Mais à 7,99–19,99 $/mois avec une offre gratuite réellement utilisable, Reve est l'un des meilleurs rapports qualité-prix pour obtenir un texte et une fidélité de prompt de premier ordre, et mérite une place dans toute liste restreinte d'outils d'image."
+    },
+    "bestFor": {
+      "en": [
+        "Anyone whose images need clean, accurate in-image text",
+        "Creators who like editing through plain-language instructions",
+        "Budget-conscious users wanting top-tier quality at a low monthly price"
+      ],
+      "zh": [
+        "任何图像需要干净、准确图内文字的人",
+        "喜欢用大白话指令改图的创作者",
+        "在意预算、想以低月费获得顶级质量的用户"
+      ],
+      "ja": [
+        "画像に美しく正確なテキストが必要な人",
+        "普通の言葉の指示で編集するのが好きなクリエイター",
+        "予算重視で、低い月額でトップ品質を求めるユーザー"
+      ],
+      "es": [
+        "Cualquiera cuyas imágenes necesiten texto limpio y preciso",
+        "Creadores a quienes les gusta editar con instrucciones en lenguaje llano",
+        "Usuarios con presupuesto ajustado que quieren calidad de primer nivel a bajo precio mensual"
+      ],
+      "fr": [
+        "Quiconque dont les images nécessitent un texte propre et exact",
+        "Créateurs qui aiment éditer via des instructions en langage courant",
+        "Utilisateurs soucieux du budget voulant une qualité de premier ordre à faible coût mensuel"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You need editable vector output for logos and icons (→ Recraft)",
+        "You want the largest ecosystem and community around a model (→ Midjourney)"
+      ],
+      "zh": [
+        "你需要用于 Logo 与图标的可编辑矢量输出（→ Recraft）",
+        "你想要围绕一个模型的最大生态与社区（→ Midjourney）"
+      ],
+      "ja": [
+        "ロゴやアイコン向けの編集可能なベクター出力が必要（→ Recraft）",
+        "モデルを取り巻く最大のエコシステムとコミュニティが欲しい（→ Midjourney）"
+      ],
+      "es": [
+        "Necesitas salida vectorial editable para logos e iconos (→ Recraft)",
+        "Quieres el mayor ecosistema y comunidad en torno a un modelo (→ Midjourney)"
+      ],
+      "fr": [
+        "Vous avez besoin d'une sortie vectorielle éditable pour logos et icônes (→ Recraft)",
+        "Vous voulez le plus grand écosystème et la plus grande communauté autour d'un modèle (→ Midjourney)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-28",
+    "verdictDate": "2026-07-28",
+    "pricingVerified": "2026-07-28",
+    "pricingUrl": "https://reve.com/pricing"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "ollama",
+  "name": "Ollama",
+  "nameZh": "Ollama",
+  "description": "开源本地大模型运行平台，一条命令即可运行 Llama、DeepSeek、Qwen 等数百种模型",
+  "descriptionEn": "Open-source platform for running LLMs locally, run hundreds of models like Llama, DeepSeek, Qwen with one command",
+  "descriptionJa": "オープンソースのローカルLLM実行プラットフォーム。一条のコマンドでLlama、DeepSeek、Qwenなど数百モデルを実行",
+  "descriptionEs": "Plataforma open-source para ejecutar LLMs localmente, ejecuta cientos de modelos como Llama, DeepSeek, Qwen con un comando",
+  "descriptionFr": "Plateforme open-source pour exécuter des LLMs localement, exécutez des centaines de modèles comme Llama, DeepSeek, Qwen en une commande",
+  "url": "https://ollama.com",
+  "logo": "/logos/tools/ollama.png",
+  "category": "Open Source",
+  "tags": [
+    "Free",
+    "Open Source"
+  ],
+  "featured": true,
+  "developer": "Ollama",
+  "platforms": {
+    "web": false,
+    "windows": true,
+    "macos": true,
+    "ios": false,
+    "android": false,
+    "linux": true,
+    "browser_extension": false,
+    "api": true
+  }
+}

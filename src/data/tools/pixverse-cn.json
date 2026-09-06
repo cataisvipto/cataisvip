@@ -1,0 +1,29 @@
+{
+  "slug": "pixverse-cn",
+  "name": "PixVerse",
+  "nameZh": "拍我AI",
+  "description": "PixVerse 国内版「拍我AI」，免费起步且无需 VPN，V6 模型文生/图生视频，支持智能对口型、电影级运镜与特效模板，网页端与 App 同步上线",
+  "descriptionEn": "PixVerse China edition 'Paiwo AI', free to start and no VPN required. The V6 model powers text-to-video and image-to-video with smart lip-sync, cinematic camera moves and effect templates, available on web and mobile apps",
+  "descriptionJa": "PixVerse中国版「拍我AI」。無料で始められVPN不要。V6モデルによるテキスト/画像からの動画生成、スマートリップシンク、映画級カメラワーク、エフェクトテンプレートに対応。Web版とアプリ版を同時提供",
+  "descriptionEs": "PixVerse edición China 'Paiwo AI', gratis para empezar y sin VPN. El modelo V6 impulsa texto-a-video e imagen-a-video con sincronización labial inteligente, movimientos de cámara cinematográficos y plantillas de efectos, disponible en web y apps móviles",
+  "descriptionFr": "PixVerse édition Chine « Paiwo AI », gratuit pour commencer et sans VPN. Le modèle V6 alimente la génération texte-vidéo et image-vidéo avec synchronisation labiale intelligente, mouvements de caméra cinématographiques et modèles d'effets, disponible sur web et applications mobiles",
+  "url": "https://pai.video",
+  "logo": "/logos/tools/pixverse-cn.png",
+  "category": "Video",
+  "tags": [
+    "Freemium"
+  ],
+  "featured": false,
+  "developer": "AIsphere",
+  "developerZh": "爱诗科技",
+  "platforms": {
+    "web": true,
+    "windows": false,
+    "macos": false,
+    "ios": true,
+    "android": true,
+    "linux": false,
+    "browser_extension": false,
+    "api": true
+  }
+}

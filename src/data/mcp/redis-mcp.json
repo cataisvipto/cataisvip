@@ -1,0 +1,78 @@
+{
+  "slug": "redis-mcp",
+  "name": "Redis MCP",
+  "nameZh": "Redis MCP",
+  "description": "Redis 官方 MCP 服务器，为智能体提供自然语言接口来管理和搜索 Redis 中的数据——读写键值、操作 Hash/List/Set、向量搜索与全文检索，适合为 AI 应用做记忆与缓存层。",
+  "descriptionEn": "Redis's official MCP server gives agents a natural-language interface to manage and search data in Redis — read/write keys, work with hashes/lists/sets, run vector and full-text search, ideal as a memory and cache layer for AI apps.",
+  "descriptionJa": "Redis 公式の MCP サーバー。エージェントに自然言語インターフェースを提供し、Redis 内のデータの管理と検索ができます。キーの読み書き、Hash/List/Set の操作、ベクトル検索や全文検索に対応し、AI アプリのメモリ・キャッシュ層に最適です。",
+  "descriptionEs": "El servidor MCP oficial de Redis da a los agentes una interfaz en lenguaje natural para gestionar y buscar datos en Redis: leer/escribir claves, trabajar con hashes/listas/sets, ejecutar búsqueda vectorial y de texto completo, ideal como capa de memoria y caché para apps de IA.",
+  "descriptionFr": "Le serveur MCP officiel de Redis offre aux agents une interface en langage naturel pour gérer et rechercher des données dans Redis : lire/écrire des clés, manipuler hashes/listes/sets, effectuer recherche vectorielle et plein texte, idéal comme couche de mémoire et de cache pour les applications IA.",
+  "developer": "Redis",
+  "developerZh": "Redis",
+  "repo": "redis/mcp-redis",
+  "clients": [
+    "claude",
+    "cursor",
+    "vscode",
+    "generic"
+  ],
+  "category": "Database",
+  "tags": [
+    "Free",
+    "Open Source"
+  ],
+  "installCommand": "uvx --from git+https://github.com/redis/mcp-redis.git redis-mcp-server",
+  "logo": "/logos/mcp/redis-mcp.png",
+  "stars": 615,
+  "featured": false,
+  "faqs": [
+    {
+      "question": {
+        "zh": "Redis MCP 主要用来做什么？",
+        "en": "What is Redis MCP mainly for?",
+        "ja": "Redis MCP は主に何に使いますか？",
+        "es": "¿Para qué sirve principalmente Redis MCP?",
+        "fr": "À quoi sert principalement Redis MCP ?"
+      },
+      "answer": {
+        "zh": "让智能体用自然语言直接操作 Redis：存取键值、管理 Hash/List/Set/Sorted Set、设置过期时间，还能用 Redis 的向量与全文检索能力。常见用途是给 AI 应用做对话记忆、语义缓存和会话状态存储。",
+        "en": "It lets agents operate Redis directly in natural language: get/set keys, manage hashes/lists/sets/sorted sets, set TTLs, and use Redis vector and full-text search. A common use is giving AI apps conversation memory, semantic caching and session-state storage.",
+        "ja": "エージェントが自然言語で Redis を直接操作できます。キーの取得・設定、Hash/List/Set/Sorted Set の管理、TTL の設定に加え、Redis のベクトル・全文検索も利用できます。よくある用途は、AI アプリの会話メモリ、セマンティックキャッシュ、セッション状態の保存です。",
+        "es": "Permite a los agentes operar Redis directamente en lenguaje natural: obtener/asignar claves, gestionar hashes/listas/sets/sorted sets, definir TTL y usar la búsqueda vectorial y de texto completo de Redis. Un uso común es dar a las apps de IA memoria de conversación, caché semántica y almacenamiento de estado de sesión.",
+        "fr": "Il permet aux agents d'exploiter Redis directement en langage naturel : lire/écrire des clés, gérer hashes/listes/sets/sorted sets, définir des TTL et utiliser la recherche vectorielle et plein texte de Redis. Un usage courant est de doter les applications IA de mémoire de conversation, de cache sémantique et de stockage d'état de session."
+      }
+    },
+    {
+      "question": {
+        "zh": "Redis MCP 怎么安装？",
+        "en": "How do I install Redis MCP?",
+        "ja": "Redis MCP のインストール方法は？",
+        "es": "¿Cómo instalo Redis MCP?",
+        "fr": "Comment installer Redis MCP ?"
+      },
+      "answer": {
+        "zh": "这是 Python 实现，推荐用 uvx 免安装运行：uvx --from git+https://github.com/redis/mcp-redis.git redis-mcp-server，再通过 --url redis://... 或环境变量传入你的 Redis 连接信息；也支持 pip 安装与 Docker。",
+        "en": "It is a Python implementation; the recommended way is a zero-install uvx run: uvx --from git+https://github.com/redis/mcp-redis.git redis-mcp-server, then pass your Redis connection via --url redis://... or environment variables. pip install and Docker are also supported.",
+        "ja": "これは Python 実装で、インストール不要の uvx 実行が推奨です：uvx --from git+https://github.com/redis/mcp-redis.git redis-mcp-server を実行し、--url redis://... または環境変数で Redis の接続情報を渡します。pip インストールや Docker にも対応します。",
+        "es": "Es una implementación en Python; la vía recomendada es una ejecución sin instalación con uvx: uvx --from git+https://github.com/redis/mcp-redis.git redis-mcp-server, y luego pasa tu conexión de Redis con --url redis://... o variables de entorno. También se admite pip y Docker.",
+        "fr": "C'est une implémentation Python ; la méthode recommandée est une exécution sans installation via uvx : uvx --from git+https://github.com/redis/mcp-redis.git redis-mcp-server, puis passez votre connexion Redis via --url redis://... ou des variables d'environnement. pip et Docker sont aussi pris en charge."
+      }
+    },
+    {
+      "question": {
+        "zh": "能连 Redis Cloud 吗？免费吗？",
+        "en": "Can it connect to Redis Cloud? Is it free?",
+        "ja": "Redis Cloud に接続できますか？無料ですか？",
+        "es": "¿Puede conectarse a Redis Cloud? ¿Es gratuito?",
+        "fr": "Peut-il se connecter à Redis Cloud ? Est-ce gratuit ?"
+      },
+      "answer": {
+        "zh": "能。用 rediss:// 连接串即可接 Redis Cloud 或任意兼容实例。MCP 服务器本身开源免费（MIT）；本地 Redis 与 Redis Cloud 免费层零成本，只有更高规格的托管实例才计费。",
+        "en": "Yes. Use a rediss:// connection string to reach Redis Cloud or any compatible instance. The MCP server itself is open source and free (MIT); local Redis and the Redis Cloud free tier cost nothing, and only larger hosted instances are billed.",
+        "ja": "できます。rediss:// の接続文字列で Redis Cloud や互換インスタンスに接続できます。MCP サーバー自体はオープンソースで無料（MIT）です。ローカル Redis と Redis Cloud の無料層は無料で、費用が発生するのは上位のホスト型インスタンスのみです。",
+        "es": "Sí. Usa una cadena de conexión rediss:// para llegar a Redis Cloud o cualquier instancia compatible. El servidor MCP en sí es de código abierto y gratuito (MIT); Redis local y el nivel gratuito de Redis Cloud no cuestan nada, y solo las instancias alojadas mayores se facturan.",
+        "fr": "Oui. Utilisez une chaîne de connexion rediss:// pour atteindre Redis Cloud ou toute instance compatible. Le serveur MCP lui-même est open source et gratuit (MIT) ; Redis local et l'offre gratuite de Redis Cloud ne coûtent rien, et seules les instances hébergées plus grandes sont facturées."
+      }
+    }
+  ]
+}

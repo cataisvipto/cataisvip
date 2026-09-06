@@ -1,0 +1,80 @@
+{
+  "slug": "desktop-commander",
+  "name": "Desktop Commander",
+  "nameZh": "Desktop Commander",
+  "description": "为 Claude 等 AI 智能体提供终端控制、文件系统搜索编辑、以及启动进程能力的 MCP 服务器。让智能体像人类一样操作桌面环境，执行命令与文件管理。",
+  "descriptionEn": "An MCP server that gives Claude and other AI agents terminal control, file system search and editing, and process launching capabilities. Lets agents operate the desktop environment like a human — executing commands and managing files.",
+  "descriptionJa": "Claude などの AI エージェントにターミナル制御、ファイルシステムの検索・編集、プロセス起動機能を提供する MCP サーバー。エージェントが人間のようにデスクトップ環境を操作し、コマンド実行やファイル管理を行えます。",
+  "descriptionEs": "Un servidor MCP que proporciona a Claude y otros agentes de IA control de terminal, búsqueda y edición del sistema de archivos, y capacidades de lanzamiento de procesos. Permite a los agentes operar el entorno de escritorio como un humano — ejecutando comandos y gestionando archivos.",
+  "descriptionFr": "Un serveur MCP qui donne à Claude et aux autres agents IA le contrôle du terminal, la recherche et l'édition du système de fichiers, et la capacité de lancer des processus. Permet aux agents d'opérer l'environnement de bureau comme un humain — exécutant des commandes et gérant des fichiers.",
+  "developer": "wonderwhy-er",
+  "developerZh": "wonderwhy-er",
+  "repo": "wonderwhy-er/DesktopCommanderMCP",
+  "clients": [
+    "claude",
+    "cursor",
+    "vscode",
+    "windsurf",
+    "codex",
+    "generic"
+  ],
+  "category": "Developer",
+  "tags": [
+    "Free",
+    "Open Source"
+  ],
+  "installCommand": "npx -y @wonderwhy-er/desktop-commander",
+  "logo": "/logos/mcp/desktop-commander.png",
+  "stars": 9483,
+  "featured": false,
+  "faqs": [
+    {
+      "question": {
+        "zh": "Desktop Commander 能做什么？",
+        "en": "What can Desktop Commander do?",
+        "ja": "Desktop Commander は何ができますか？",
+        "es": "¿Qué puede hacer Desktop Commander?",
+        "fr": "Que peut faire Desktop Commander ?"
+      },
+      "answer": {
+        "zh": "提供三大核心能力：终端命令执行（运行 shell 命令、脚本、编译等）、文件系统操作（搜索文件、读写编辑、创建目录）、进程管理（启动/监控后台进程）。让 AI 智能体拥有完整的桌面操作能力。",
+        "en": "It provides three core capabilities: terminal command execution (run shell commands, scripts, compilations), file system operations (search files, read/write/edit, create directories), and process management (start/monitor background processes). Giving AI agents full desktop control.",
+        "ja": "3 つのコア機能を提供します：ターミナルコマンド実行（シェルコマンド、スクリプト、コンパイルなど）、ファイルシステム操作（ファイル検索、読み書き編集、ディレクトリ作成）、プロセス管理（バックグラウンドプロセスの起動・監視）。AI エージェントに完全なデスクトップ操作能力を与えます。",
+        "es": "Proporciona tres capacidades principales: ejecución de comandos de terminal (shell, scripts, compilaciones), operaciones del sistema de archivos (buscar archivos, leer/escribir/editar, crear directorios), y gestión de procesos (iniciar/monitorear procesos en segundo plano). Dando a los agentes de IA control completo del escritorio.",
+        "fr": "Il fournit trois capacités principales : exécution de commandes terminal (shell, scripts, compilations), opérations sur le système de fichiers (recherche de fichiers, lecture/écriture/édition, création de répertoires), et gestion des processus (démarrage/surveillance de processus en arrière-plan). Donnant aux agents IA un contrôle complet du bureau."
+      }
+    },
+    {
+      "question": {
+        "zh": "Desktop Commander 安全吗？",
+        "en": "Is Desktop Commander safe?",
+        "ja": "Desktop Commander は安全ですか？",
+        "es": "¿Desktop Commander es seguro?",
+        "fr": "Desktop Commander est-il sûr ?"
+      },
+      "answer": {
+        "zh": "MCP 服务器在本地运行，所有操作都在你的桌面环境中执行。AI 智能体只有在被明确指示时才会执行命令或修改文件，建议在使用时注意审查智能体的操作，尤其涉及文件删除和命令执行时保持警惕。",
+        "en": "The MCP server runs locally, with all operations executing in your desktop environment. AI agents only execute commands or modify files when explicitly instructed. Always review agent actions carefully, especially when it involves file deletion or command execution.",
+        "ja": "MCP サーバーはローカルで動作し、すべての操作はデスクトップ環境内で実行されます。AI エージェントは明示的に指示された場合のみコマンドを実行したりファイルを変更します。特にファイル削除やコマンド実行に関わる操作は、エージェントの動作を慎重に確認することをお勧めします。",
+        "es": "El servidor MCP se ejecuta en local, con todas las operaciones ejecutándose en tu entorno de escritorio. Los agentes de IA solo ejecutan comandos o modifican archivos cuando se les indica explícitamente. Revisa siempre las acciones del agente con cuidado, especialmente cuando impliquen eliminación de archivos o ejecución de comandos.",
+        "fr": "Le serveur MCP s'exécute localement, toutes les opérations étant effectuées dans votre environnement de bureau. Les agents IA n'exécutent des commandes ou ne modifient des fichiers que sur instruction explicite. Examinez toujours attentivement les actions de l'agent, surtout lorsqu'il s'agit de suppression de fichiers ou d'exécution de commandes."
+      }
+    },
+    {
+      "question": {
+        "zh": "Desktop Commander 和普通终端工具有什么区别？",
+        "en": "How is Desktop Commander different from regular terminal tools?",
+        "ja": "Desktop Commander は通常の端末ツールとどう違いますか？",
+        "es": "¿En qué se diferencia Desktop Commander de las herramientas de terminal normales?",
+        "fr": "En quoi Desktop Commander est-il différent des outils de terminal classiques ?"
+      },
+      "answer": {
+        "zh": "它是一个 MCP 服务器，让 AI 智能体（而非人类）直接操作终端和文件系统。智能体可以自主执行多步操作、根据命令输出动态调整下一步动作，实现从编码到测试的全自动化工作流，远超普通终端工具的单步执行能力。",
+        "en": "It's an MCP server that lets AI agents (not humans) directly operate the terminal and file system. Agents can autonomously execute multi-step operations, dynamically adjust next steps based on command output, and achieve fully automated coding-to-testing workflows — far beyond the single-step capability of regular terminal tools.",
+        "ja": "これは MCP サーバーであり、人間ではなく AI エージェントが直接端末やファイルシステムを操作できるようにします。エージェントはマルチステップの操作を自律的に実行し、コマンド出力に基づいて次のアクションを動的に調整でき、コーディングからテストまでの完全自動化ワークフローを実現します。",
+        "es": "Es un servidor MCP que permite a los agentes de IA (no humanos) operar directamente la terminal y el sistema de archivos. Los agentes pueden ejecutar operaciones de múltiples pasos de forma autónoma, ajustar dinámicamente los siguientes pasos basados en la salida de comandos, y lograr flujos de trabajo completamente automatizados de codificación a pruebas.",
+        "fr": "C'est un serveur MCP qui permet aux agents IA (pas aux humains) d'opérer directement le terminal et le système de fichiers. Les agents peuvent exécuter des opérations multi-étapes de façon autonome, ajuster dynamiquement les étapes suivantes en fonction de la sortie des commandes, et réaliser des workflows entièrement automatisés du codage au test."
+      }
+    }
+  ]
+}

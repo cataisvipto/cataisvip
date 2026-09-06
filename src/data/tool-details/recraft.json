@@ -1,0 +1,235 @@
+{
+  "features": {
+    "en": [
+      "In-house Recraft V4 model, consistently top-ranked on text-to-image leaderboards for design work",
+      "Native vector (SVG) generation — the standout feature, producing editable, infinitely scalable graphics",
+      "Brand style controls: create and reuse custom styles so every asset stays on-brand",
+      "Icon sets, patterns and 3D mockups generated with clean geometry instead of warped overlays",
+      "Strong in-image text rendering and precise prompt fidelity tuned for logos, posters and marketing",
+      "Infinite canvas workspace with editing tools, upscaling and background removal in one place"
+    ],
+    "zh": [
+      "自研 Recraft V4 模型，在文生图设计榜单上长期名列前茅",
+      "原生矢量（SVG）生成——最亮眼的能力，产出可编辑、可无限缩放的图形",
+      "品牌风格控制：可创建并复用自定义风格，让每一张素材都保持品牌一致",
+      "图标套组、图案与 3D 样机以干净几何生成，而非扭曲贴图",
+      "强大的图内文字渲染与精准提示词遵循，专为 Logo、海报与营销物料调校",
+      "无限画布工作区，编辑、放大、去背景一站式完成"
+    ],
+    "ja": [
+      "自社製Recraft V4モデル、デザイン向けの文章から画像生成のランキングで常に上位",
+      "ネイティブなベクター（SVG）生成——最大の特徴で、編集可能かつ無限に拡大できるグラフィックを生成",
+      "ブランドスタイル制御：カスタムスタイルを作成・再利用し、あらゆる素材をブランドに統一",
+      "アイコンセット・パターン・3Dモックアップを歪んだ貼り付けでなく美しい幾何で生成",
+      "画像内テキストの高精度レンダリングと正確なプロンプト忠実度、ロゴ・ポスター・マーケ向けに最適化",
+      "無限キャンバスの作業空間で、編集・アップスケール・背景除去を一箇所で完結"
+    ],
+    "es": [
+      "Modelo propio Recraft V4, sistemáticamente entre los primeros en los rankings de texto a imagen para diseño",
+      "Generación vectorial (SVG) nativa: la función estrella, produce gráficos editables e infinitamente escalables",
+      "Controles de estilo de marca: crea y reutiliza estilos propios para que cada recurso mantenga la identidad",
+      "Conjuntos de iconos, patrones y mockups 3D generados con geometría limpia en vez de superposiciones deformadas",
+      "Sólido renderizado de texto en imagen y alta fidelidad al prompt, afinado para logos, pósters y marketing",
+      "Lienzo infinito con edición, escalado y eliminación de fondo en un mismo lugar"
+    ],
+    "fr": [
+      "Modèle maison Recraft V4, régulièrement en tête des classements text-to-image pour le design",
+      "Génération vectorielle (SVG) native — la fonction phare, produisant des graphiques éditables et infiniment redimensionnables",
+      "Contrôles de style de marque : créez et réutilisez des styles personnalisés pour garder chaque visuel cohérent",
+      "Jeux d'icônes, motifs et mockups 3D générés avec une géométrie propre plutôt que des placages déformés",
+      "Rendu de texte dans l'image solide et fidélité au prompt précise, calibrés pour logos, affiches et marketing",
+      "Espace de travail à canevas infini avec édition, upscaling et détourage réunis au même endroit"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Free plan at $0 with a limited daily credit allowance (around 50 credits/day) for personal, non-commercial exploration of the core AI features.",
+      "zh": "免费版 $0，提供有限的每日额度（约 50 积分/天），供个人非商业地体验核心 AI 功能。",
+      "ja": "無料プランは$0で、1日あたりのクレジットが限定的（約50クレジット/日）。個人・非商用でコア機能を試せる。",
+      "es": "Plan gratuito de $0 con una asignación diaria limitada de créditos (unos 50/día) para explorar las funciones básicas de forma personal y no comercial.",
+      "fr": "Plan gratuit à 0 $ avec une allocation quotidienne limitée de crédits (environ 50/jour) pour explorer les fonctions de base à usage personnel et non commercial."
+    },
+    "paid": {
+      "en": "Basic starts at $12/month (1,000 credits, or $10/month billed annually). Pro scales by credit tier from $20/month (2,000 credits) up to $160/month (16,000 credits), with annual billing up to 20% cheaper. Teams plans start at $22/month. All paid plans include private generation and commercial usage rights. (Verified on the official pricing page, 2026-07-28.)",
+      "zh": "Basic 版 $12/月（1000 积分，按年付则 $10/月）。Pro 版按积分档从 $20/月（2000 积分）到 $160/月（16000 积分），按年付最多便宜 20%。Teams 版 $22/月起。所有付费版含私有生成与商用授权。（官方定价页核实，2026-07-28。）",
+      "ja": "Basicは月$12（1,000クレジット、年払いなら月$10）。Proはクレジット階層で月$20（2,000）から月$160（16,000）まで、年払いで最大20%割引。Teamsは月$22から。全有料プランに非公開生成と商用利用権を含む。（公式価格ページで確認、2026-07-28。）",
+      "es": "Basic desde $12/mes (1.000 créditos, o $10/mes con pago anual). Pro escala por niveles de crédito desde $20/mes (2.000) hasta $160/mes (16.000), con hasta 20% de descuento anual. Teams desde $22/mes. Todos los planes de pago incluyen generación privada y derechos de uso comercial. (Verificado en la página oficial, 2026-07-28.)",
+      "fr": "Basic à partir de 12 $/mois (1 000 crédits, ou 10 $/mois en facturation annuelle). Pro évolue par palier de crédits de 20 $/mois (2 000) à 160 $/mois (16 000), avec jusqu'à 20 % de remise annuelle. Teams à partir de 22 $/mois. Tous les plans payants incluent la génération privée et les droits d'usage commercial. (Vérifié sur la page officielle, 2026-07-28.)"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Designers and brand teams producing on-brand logos, icons and marketing assets at scale",
+      "Creating editable vector graphics (SVG) that other AI image tools simply can't output",
+      "Generating product mockups and packaging with clean 3D geometry",
+      "Building reusable custom styles to keep a whole campaign visually consistent"
+    ],
+    "zh": [
+      "设计师与品牌团队批量产出符合品牌调性的 Logo、图标与营销素材",
+      "生成可编辑的矢量图形（SVG）——这是其他 AI 图像工具做不到的",
+      "以干净的 3D 几何生成产品样机与包装",
+      "构建可复用的自定义风格，让整场活动视觉统一"
+    ],
+    "ja": [
+      "デザイナーやブランドチームがブランド調のロゴ・アイコン・マーケ素材を大量制作",
+      "他のAI画像ツールでは出力できない編集可能なベクター（SVG）を生成",
+      "美しい3D幾何で製品モックアップやパッケージを生成",
+      "再利用可能なカスタムスタイルを構築し、キャンペーン全体の見た目を統一"
+    ],
+    "es": [
+      "Diseñadores y equipos de marca que producen logos, iconos y recursos de marketing a escala y con identidad",
+      "Crear gráficos vectoriales editables (SVG) que otras herramientas de IA no pueden generar",
+      "Generar mockups de producto y packaging con geometría 3D limpia",
+      "Construir estilos personalizados reutilizables para mantener toda una campaña visualmente coherente"
+    ],
+    "fr": [
+      "Designers et équipes de marque produisant logos, icônes et visuels marketing à grande échelle et cohérents",
+      "Créer des graphiques vectoriels éditables (SVG) que les autres outils d'IA ne savent pas générer",
+      "Générer des mockups produit et des packagings avec une géométrie 3D propre",
+      "Construire des styles personnalisés réutilisables pour garder toute une campagne cohérente"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Best-in-class native vector generation — a genuinely unique capability among AI image tools",
+      "Excellent in-image text and prompt fidelity, purpose-built for real design work",
+      "Custom brand styles keep output consistent across an entire project",
+      "All-in-one platform: generate, edit, upscale, remove backgrounds and mock up in one canvas"
+    ],
+    "zh": [
+      "一流的原生矢量生成——在 AI 图像工具中确实独此一家",
+      "出色的图内文字与提示词遵循，为真实设计工作而生",
+      "自定义品牌风格让整个项目的产出保持一致",
+      "一站式平台：生成、编辑、放大、去背景、样机都在同一画布完成"
+    ],
+    "ja": [
+      "クラス最高のネイティブベクター生成——AI画像ツールの中で本当に唯一無二の能力",
+      "画像内テキストとプロンプト忠実度が優秀、実務のデザイン向けに設計",
+      "カスタムブランドスタイルでプロジェクト全体の出力を統一",
+      "オールインワン：生成・編集・アップスケール・背景除去・モックアップを一つのキャンバスで"
+    ],
+    "es": [
+      "Generación vectorial nativa de primer nivel: una capacidad realmente única entre las herramientas de IA",
+      "Excelente texto en imagen y fidelidad al prompt, pensados para trabajo de diseño real",
+      "Los estilos de marca personalizados mantienen la coherencia en todo un proyecto",
+      "Plataforma todo en uno: generar, editar, escalar, quitar fondos y hacer mockups en un lienzo"
+    ],
+    "fr": [
+      "Génération vectorielle native de premier plan — une capacité réellement unique parmi les outils d'IA",
+      "Excellent rendu de texte dans l'image et fidélité au prompt, conçus pour le vrai travail de design",
+      "Les styles de marque personnalisés gardent la cohérence sur tout un projet",
+      "Plateforme tout-en-un : générer, éditer, upscaler, détourer et faire des mockups sur un seul canevas"
+    ]
+  },
+  "cons": {
+    "en": [
+      "More design-focused and less freewheeling than general models like Midjourney for pure art",
+      "Credit-based pricing means heavy users can burn through allowances quickly",
+      "Free tier is quite limited and personal/non-commercial only",
+      "The design-first workflow has a slight learning curve for casual users"
+    ],
+    "zh": [
+      "更偏设计、比 Midjourney 等通用模型在纯艺术创作上少了些天马行空",
+      "按积分计费，重度用户可能很快用完额度",
+      "免费档相当受限，且仅限个人非商用",
+      "以设计为先的工作流，对轻度用户有一点学习成本"
+    ],
+    "ja": [
+      "デザイン寄りで、純粋なアート用途ではMidjourneyなど汎用モデルほど自由奔放ではない",
+      "クレジット課金のため、ヘビーユーザーは配分をすぐ使い切る恐れ",
+      "無料枠はかなり限定的で、個人・非商用のみ",
+      "デザイン優先のワークフローはライトユーザーに多少の学習コスト"
+    ],
+    "es": [
+      "Más orientada al diseño y menos libre que modelos generales como Midjourney para arte puro",
+      "El precio por créditos hace que los usuarios intensivos agoten las asignaciones rápido",
+      "El nivel gratuito es bastante limitado y solo para uso personal/no comercial",
+      "El flujo centrado en diseño tiene una ligera curva de aprendizaje para usuarios casuales"
+    ],
+    "fr": [
+      "Plus orientée design et moins débridée que des modèles généraux comme Midjourney pour l'art pur",
+      "La tarification au crédit fait que les gros utilisateurs épuisent vite leurs allocations",
+      "L'offre gratuite est assez limitée et réservée à un usage personnel/non commercial",
+      "Le workflow orienté design a une légère courbe d'apprentissage pour les utilisateurs occasionnels"
+    ]
+  },
+  "latestUpdate": {
+    "en": "2026: Recraft V4 keeps its place among the top-ranked models on text-to-image leaderboards, with sharpened text rendering, richer 3D mockup geometry and expanded brand-style tooling. The credit-based subscription structure spans Free, Basic, Pro and Teams tiers, and commercial rights ship with every paid plan.",
+    "zh": "2026 年：Recraft V4 稳居文生图榜单前列，文字渲染更锐利、3D 样机几何更丰富、品牌风格工具进一步扩展。按积分的订阅结构覆盖 Free、Basic、Pro 与 Teams，所有付费版均含商用授权。",
+    "ja": "2026年：Recraft V4は文章から画像生成のランキングで上位を維持し、テキスト描画の精度向上、3Dモックアップ幾何の充実、ブランドスタイル機能の拡張が進む。クレジット制のサブスクはFree・Basic・Pro・Teamsをカバーし、全有料プランに商用権が付く。",
+    "es": "2026: Recraft V4 mantiene su lugar entre los mejores modelos en los rankings de texto a imagen, con renderizado de texto más nítido, geometría de mockup 3D más rica y más herramientas de estilo de marca. La suscripción por créditos abarca Free, Basic, Pro y Teams, y los derechos comerciales vienen en todos los planes de pago.",
+    "fr": "2026 : Recraft V4 conserve sa place parmi les meilleurs modèles des classements text-to-image, avec un rendu de texte plus net, une géométrie de mockup 3D plus riche et des outils de style de marque étendus. L'abonnement au crédit couvre Free, Basic, Pro et Teams, et les droits commerciaux sont inclus dans chaque plan payant."
+  },
+  "verdict": {
+    "badge": "Recommended",
+    "headline": {
+      "en": "The AI image tool that actually thinks like a designer",
+      "zh": "真正像设计师一样思考的 AI 图像工具",
+      "ja": "本当にデザイナーのように考えるAI画像ツール",
+      "es": "La herramienta de imagen con IA que realmente piensa como diseñador",
+      "fr": "L'outil d'image par IA qui pense vraiment comme un designer"
+    },
+    "body": {
+      "en": "Most AI image generators are built to make pretty pictures; Recraft is built to make design assets. Founded by the creator of CatBoost, it pairs its top-ranked in-house V4 model with the one feature the rest of the field still can't match: native, editable vector (SVG) output. That alone makes it indispensable for anyone producing logos, icons or illustrations that need to scale cleanly. Add genuinely strong in-image text, custom brand styles that hold consistency across a whole campaign, and clean 3D mockups, and you have a platform aimed squarely at professional workflows rather than one-off art. The trade-offs are the flip side of that focus: it's less freewheeling than Midjourney for pure creative exploration, and its credit-based pricing (Free is limited and non-commercial; paid runs $12–$160/month) can add up for heavy users. But if your work is brand and design rather than gallery pieces, Recraft's vector engine and consistency tools put it in a category of its own. For designers and brand teams, it's an easy recommendation.",
+      "zh": "大多数 AI 图像生成器的目标是产出好看的图片，而 Recraft 的目标是产出设计素材。它由 CatBoost 作者创办，把长期名列前茅的自研 V4 模型，与全行业至今仍无法匹敌的一项能力结合起来：原生、可编辑的矢量（SVG）输出。仅凭这一点，它对任何需要干净缩放的 Logo、图标或插画的人来说都不可或缺。再加上确实过硬的图内文字、能贯穿整场活动保持一致的自定义品牌风格，以及干净的 3D 样机，你得到的是一个瞄准专业工作流、而非一次性艺术的平台。代价正是这种专注的另一面：在纯创意探索上它不如 Midjourney 天马行空，按积分的定价（免费档受限且非商用；付费 $12–$160/月）对重度用户会累积成本。但如果你的工作是品牌与设计、而非画廊作品，Recraft 的矢量引擎与一致性工具让它自成一档。对设计师与品牌团队而言，这是一次轻松的推荐。",
+      "ja": "多くのAI画像生成は「きれいな絵」を作るために作られているが、Recraftは「デザイン素材」を作るために作られている。CatBoostの作者が創業し、上位ランクの自社製V4モデルに、業界が今も追随できない機能——ネイティブで編集可能なベクター（SVG）出力——を組み合わせる。この一点だけで、きれいに拡大できるロゴ・アイコン・イラストを作る人には欠かせない。さらに実力ある画像内テキスト、キャンペーン全体で一貫性を保つカスタムブランドスタイル、美しい3Dモックアップが加わり、一発芸ではなくプロのワークフローを狙ったプラットフォームになっている。代償はその特化の裏返しだ。純粋な創作探索ではMidjourneyほど自由でなく、クレジット課金（無料は限定・非商用、有料は月$12〜$160）はヘビーユーザーには積み上がる。だが仕事がギャラリー作品でなくブランドとデザインなら、Recraftのベクターエンジンと一貫性ツールは独自の地位にある。デザイナーとブランドチームには、迷わず勧められる。",
+      "es": "La mayoría de generadores de imágenes con IA están hechos para crear imágenes bonitas; Recraft está hecho para crear recursos de diseño. Fundada por el creador de CatBoost, combina su modelo propio V4, de los mejor clasificados, con la única función que el resto del sector aún no iguala: salida vectorial (SVG) nativa y editable. Solo eso lo vuelve indispensable para quien produce logos, iconos o ilustraciones que deben escalar sin perder calidad. Súmale un texto en imagen realmente sólido, estilos de marca personalizados que mantienen la coherencia en toda una campaña y mockups 3D limpios, y tienes una plataforma orientada a flujos profesionales, no al arte de una sola vez. Las contrapartidas son la cara b de ese enfoque: es menos libre que Midjourney para la exploración creativa pura, y su precio por créditos (el gratis es limitado y no comercial; el de pago va de $12 a $160/mes) puede acumularse para usuarios intensivos. Pero si tu trabajo es marca y diseño más que piezas de galería, el motor vectorial y las herramientas de coherencia de Recraft lo colocan en una categoría propia. Para diseñadores y equipos de marca, es una recomendación fácil.",
+      "fr": "La plupart des générateurs d'images par IA sont faits pour produire de belles images ; Recraft est fait pour produire des visuels de design. Fondé par le créateur de CatBoost, il associe son modèle maison V4 très bien classé à la seule fonction que le reste du secteur ne parvient toujours pas à égaler : une sortie vectorielle (SVG) native et éditable. Cela seul le rend indispensable à quiconque produit des logos, icônes ou illustrations devant se redimensionner proprement. Ajoutez un texte dans l'image vraiment solide, des styles de marque personnalisés qui tiennent la cohérence sur toute une campagne et des mockups 3D propres, et vous obtenez une plateforme visant les workflows professionnels plutôt que l'art ponctuel. Les compromis sont l'envers de cette spécialisation : il est moins débridé que Midjourney pour l'exploration créative pure, et sa tarification au crédit (le gratuit est limité et non commercial ; le payant va de 12 à 160 $/mois) peut s'accumuler pour les gros utilisateurs. Mais si votre travail relève de la marque et du design plutôt que d'œuvres de galerie, le moteur vectoriel et les outils de cohérence de Recraft le placent dans une catégorie à part. Pour les designers et les équipes de marque, c'est une recommandation facile."
+    },
+    "bestFor": {
+      "en": [
+        "Designers and brand teams needing consistent, on-brand assets",
+        "Anyone who needs editable vector (SVG) output from AI",
+        "Marketing and product teams producing logos, icons and mockups"
+      ],
+      "zh": [
+        "需要一致、符合品牌调性素材的设计师与品牌团队",
+        "任何需要 AI 产出可编辑矢量（SVG）的人",
+        "产出 Logo、图标与样机的营销与产品团队"
+      ],
+      "ja": [
+        "一貫したブランド調の素材が必要なデザイナー・ブランドチーム",
+        "AIから編集可能なベクター（SVG）出力が必要な人",
+        "ロゴ・アイコン・モックアップを作るマーケ・製品チーム"
+      ],
+      "es": [
+        "Diseñadores y equipos de marca que necesitan recursos coherentes y con identidad",
+        "Cualquiera que necesite salida vectorial (SVG) editable desde IA",
+        "Equipos de marketing y producto que producen logos, iconos y mockups"
+      ],
+      "fr": [
+        "Designers et équipes de marque ayant besoin de visuels cohérents et fidèles à la marque",
+        "Quiconque a besoin d'une sortie vectorielle (SVG) éditable depuis l'IA",
+        "Équipes marketing et produit produisant logos, icônes et mockups"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You want maximum creative range for artistic images (→ Midjourney, Stable Diffusion)",
+        "You need a free, unlimited generator without credit limits (→ general free image tools)"
+      ],
+      "zh": [
+        "你想要面向艺术图像的最大创作自由度（→ Midjourney、Stable Diffusion）",
+        "你需要一个免费、无积分限制的生成器（→ 通用免费图像工具）"
+      ],
+      "ja": [
+        "アート画像で最大の創作自由度が欲しい（→ Midjourney、Stable Diffusion）",
+        "クレジット制限のない無料・無制限の生成器が必要（→ 汎用の無料画像ツール）"
+      ],
+      "es": [
+        "Quieres el máximo rango creativo para imágenes artísticas (→ Midjourney, Stable Diffusion)",
+        "Necesitas un generador gratuito e ilimitado sin límites de crédito (→ herramientas de imagen gratuitas generales)"
+      ],
+      "fr": [
+        "Vous voulez un maximum de liberté créative pour des images artistiques (→ Midjourney, Stable Diffusion)",
+        "Vous avez besoin d'un générateur gratuit et illimité sans limites de crédits (→ outils d'image gratuits généraux)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-28",
+    "verdictDate": "2026-07-28",
+    "pricingVerified": "2026-07-28",
+    "pricingUrl": "https://www.recraft.ai/pricing"
+  }
+}

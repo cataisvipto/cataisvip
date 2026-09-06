@@ -1,0 +1,77 @@
+{
+  "slug": "humanizer",
+  "name": "Humanizer",
+  "nameZh": "Humanizer",
+  "description": "去除 AI 写作痕迹的 MCP 服务。检测 33 种 AI 模式，让 AI 生成文本更自然、更像人类写作。",
+  "descriptionEn": "An MCP server that removes AI writing traces. Detects 33 AI patterns to make AI-generated text more natural and human-like.",
+  "descriptionJa": "AIライティングの痕跡を除去するMCPサーバー。33種類のAIパターンを検出し、AI生成テキストをより自然に。",
+  "descriptionEs": "Un servidor MCP que elimina rastros de escritura IA. Detecta 33 patrones de IA para hacer el texto más natural.",
+  "descriptionFr": "Un serveur MCP qui supprime les traces d'écriture IA. Détecte 33 modèles d'IA pour un texte plus naturel.",
+  "developer": "blader",
+  "developerZh": "blader",
+  "repo": "blader/humanizer",
+  "agents": [
+    "claude",
+    "cursor",
+    "generic"
+  ],
+  "category": "Writing",
+  "tags": [
+    "Free",
+    "Open Source"
+  ],
+  "installCommand": "npx skills add blader/humanizer",
+  "logo": "/logos/skills/humanizer.png",
+  "stars": 42643,
+  "featured": false,
+  "faqs": [
+    {
+      "question": {
+        "zh": "Humanizer 是如何去除 AI 写作痕迹的？",
+        "en": "How does Humanizer remove AI writing patterns?",
+        "ja": "Humanizer はどうやって AI 文章の痕跡を除去しますか？",
+        "es": "¿Cómo elimina Humanizer los patrones de escritura de IA?",
+        "fr": "Comment Humanizer supprime-t-il les traces d'écriture IA ?"
+      },
+      "answer": {
+        "zh": "它内置了 33 种典型 AI 写作模式的检测规则——空洞的强调句、公式化过渡、堆砌的排比等——识别后引导模型重写成更自然、更有人味的表达，而不是简单同义词替换。",
+        "en": "It ships detection rules for 33 typical AI writing patterns — hollow emphasis, formulaic transitions, stacked parallelisms and more — then guides the model to rewrite them into natural, human-sounding prose rather than doing simple synonym swaps.",
+        "ja": "空虚な強調、定型的な接続表現、過剰な並列構造など、33 種類の典型的な AI 文章パターンの検出ルールを内蔵。検出後は単純な同義語置換ではなく、より自然で人間らしい表現への書き直しをモデルに促します。",
+        "es": "Incluye reglas de detección de 33 patrones típicos de escritura IA (énfasis vacío, transiciones formulaicas, paralelismos apilados, etc.) y guía al modelo para reescribirlos con un estilo natural y humano, en lugar de simples sustituciones de sinónimos.",
+        "fr": "Il embarque des règles de détection de 33 patterns typiques d'écriture IA — emphase creuse, transitions formatées, parallélismes empilés — puis guide le modèle vers une réécriture naturelle et humaine, au lieu de simples substitutions de synonymes."
+      }
+    },
+    {
+      "question": {
+        "zh": "怎么安装 Humanizer？",
+        "en": "How do I install Humanizer?",
+        "ja": "Humanizer をインストールするには？",
+        "es": "¿Cómo instalo Humanizer?",
+        "fr": "Comment installer Humanizer ?"
+      },
+      "answer": {
+        "zh": "在 Claude Code 里运行 npx @anthropic-ai/claude add mcp-server-humanizer 即可接入；Cursor 等客户端参照 GitHub README 配置。装好后直接让 AI\"humanize 这段文字\"就能触发。",
+        "en": "In Claude Code run npx @anthropic-ai/claude add mcp-server-humanizer; for Cursor and other clients follow the GitHub README. Once installed, just ask the AI to \"humanize this text\".",
+        "ja": "Claude Code で npx @anthropic-ai/claude add mcp-server-humanizer を実行すれば接続できます。Cursor などのクライアントは GitHub README を参照してください。導入後は「この文章を humanize して」と頼むだけで発動します。",
+        "es": "En Claude Code ejecuta npx @anthropic-ai/claude add mcp-server-humanizer; para Cursor y otros clientes sigue el README de GitHub. Una vez instalado, basta pedir a la IA que \"humanice este texto\".",
+        "fr": "Dans Claude Code, exécutez npx @anthropic-ai/claude add mcp-server-humanizer ; pour Cursor et autres clients, suivez le README GitHub. Une fois installé, demandez simplement à l'IA de « humaniser ce texte »."
+      }
+    },
+    {
+      "question": {
+        "zh": "Humanizer 适合哪些内容场景？",
+        "en": "What content is Humanizer best suited for?",
+        "ja": "Humanizer はどんなコンテンツに向いていますか？",
+        "es": "¿Para qué contenidos es más adecuado Humanizer?",
+        "fr": "Pour quels contenus Humanizer est-il le plus adapté ?"
+      },
+      "answer": {
+        "zh": "免费开源，适合博客文章、营销文案、社交内容、邮件等所有需要自然语感的场景。注意它的定位是提升写作质量，而非规避学术诚信检测——学术用途请遵守所在机构的规定。",
+        "en": "Free and open source, it suits blog posts, marketing copy, social content, emails — anywhere natural-sounding prose matters. Note its purpose is improving writing quality, not evading academic integrity checks; follow your institution’s rules for academic use.",
+        "ja": "無料のオープンソースで、ブログ記事、マーケティングコピー、SNS コンテンツ、メールなど自然な文体が求められるあらゆる場面に適しています。目的は文章品質の向上であり、学術不正検出の回避ではありません。学術用途では所属機関の規定に従ってください。",
+        "es": "Gratuito y de código abierto, es ideal para artículos de blog, textos de marketing, contenido social y correos: cualquier lugar donde importe una prosa natural. Su propósito es mejorar la calidad de escritura, no evadir controles de integridad académica.",
+        "fr": "Gratuit et open source, il convient aux articles de blog, textes marketing, contenus sociaux, e-mails — partout où une prose naturelle compte. Son but est d'améliorer la qualité d'écriture, pas de contourner les contrôles d'intégrité académique."
+      }
+    }
+  ]
+}

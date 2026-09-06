@@ -1,0 +1,28 @@
+{
+  "slug": "quillbot",
+  "name": "QuillBot",
+  "nameZh": "QuillBot",
+  "description": "Learneo 旗下的 AI 改写与语法工具，Paraphraser 多模式释义、AI 检测器与 Humanizer、摘要与 40+ 语言翻译一站集成，桌面/移动/浏览器插件全平台覆盖，免费档可用，Premium 年付合 $8.33/月",
+  "descriptionEn": "Learneo's AI rewriting and grammar toolkit: a multi-mode Paraphraser, AI Detector with Humanizer, Summarizer and translation across 40+ languages in one place, with desktop, mobile and browser extensions everywhere — free tier available, Premium works out to $8.33/month billed annually",
+  "descriptionJa": "Learneo傘下のAI書き換え・文法ツール。マルチモードのParaphraser、AI検出器とHumanizer、要約、40超言語の翻訳を一箇所に統合。デスクトップ・モバイル・ブラウザ拡張で全プラットフォーム対応。無料枠あり、Premiumは年払いで月$8.33相当",
+  "descriptionEs": "Kit de reescritura y gramática con IA de Learneo: Paraphraser multimodo, Detector de IA con Humanizer, resumidor y traducción a más de 40 idiomas en un solo lugar, con apps de escritorio, móvil y extensiones de navegador — nivel gratuito disponible, Premium sale a $8.33/mes con pago anual",
+  "descriptionFr": "Boîte à outils IA de réécriture et grammaire de Learneo : Paraphraser multi-modes, détecteur d'IA avec Humanizer, résumeur et traduction en 40+ langues au même endroit, avec apps bureau, mobile et extensions navigateur — offre gratuite disponible, Premium revient à 8,33 $/mois en annuel",
+  "url": "https://quillbot.com",
+  "logo": "/logos/tools/quillbot.png",
+  "category": "Writing",
+  "tags": [
+    "Freemium"
+  ],
+  "featured": false,
+  "developer": "Learneo",
+  "platforms": {
+    "web": true,
+    "windows": true,
+    "macos": true,
+    "ios": true,
+    "android": true,
+    "linux": false,
+    "browser_extension": true,
+    "api": false
+  }
+}

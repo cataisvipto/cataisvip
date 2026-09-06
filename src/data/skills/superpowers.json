@@ -1,0 +1,82 @@
+{
+  "slug": "superpowers",
+  "name": "Superpowers",
+  "nameZh": "Superpowers",
+  "description": "完整的 AI 编码智能体软件开发方法论，基于可组合技能。包含头脑风暴、测试驱动开发、方案编写、子智能体驱动开发、代码审查等工作流。",
+  "descriptionEn": "A complete AI coding agent software development methodology built on composable skills. Includes brainstorming, TDD, plan writing, subagent-driven development, code review and more.",
+  "descriptionJa": "コードエージェント向けの完全なソフトウェア開発方法論。ブレインストーミング、TDD、計画作成、サブエージェント駆動開発、コードレビューなどのスキルを搭載。",
+  "descriptionEs": "Una metodología completa de desarrollo de software para agentes de codificación IA. Incluye lluvia de ideas, TDD, redacción de planes, desarrollo impulsado por subagentes, revisión de código.",
+  "descriptionFr": "Une méthodologie complète de développement logiciel pour les agents de codage IA. Comprend le brainstorming, le TDD, la rédaction de plans, le développement piloté par sous-agents, la revue de code.",
+  "developer": "Prime Radiant (Jesse Vincent)",
+  "developerZh": "Prime Radiant（Jesse Vincent）",
+  "repo": "obra/superpowers",
+  "agents": [
+    "claude",
+    "cursor",
+    "codex",
+    "github-copilot",
+    "kimi-code",
+    "opencode",
+    "antigravity",
+    "factory-droid"
+  ],
+  "category": "Developer",
+  "tags": [
+    "Free",
+    "Open Source"
+  ],
+  "installCommand": "Available via Claude Code marketplace, Cursor /add-plugin, Codex plugin marketplace, and more. See README for details.",
+  "logo": "/logos/skills/superpowers.png",
+  "stars": 281790,
+  "featured": false,
+  "faqs": [
+    {
+      "question": {
+        "zh": "Superpowers 是什么？",
+        "en": "What is Superpowers?",
+        "ja": "Superpowers とは何ですか？",
+        "es": "¿Qué es Superpowers?",
+        "fr": "Qu'est-ce que Superpowers ?"
+      },
+      "answer": {
+        "zh": "它是一整套 AI 编码智能体的软件开发方法论技能集：头脑风暴、测试驱动开发、方案编写、子智能体调度、调试流程等可组合技能，让 AI 像资深工程师一样按流程工作，而不是想到哪写到哪。",
+        "en": "It is a complete software development methodology for AI coding agents: composable skills for brainstorming, test-driven development, plan writing, subagent dispatching and systematic debugging — making the AI work like a disciplined senior engineer instead of improvising.",
+        "ja": "AI コーディングエージェント向けの完全なソフトウェア開発方法論スキル集です。ブレインストーミング、テスト駆動開発、計画立案、サブエージェント調整、体系的デバッグなどの組み合わせ可能なスキルにより、AI が思いつきではなくベテランエンジニアのようにプロセスに沿って作業します。",
+        "es": "Es una metodología completa de desarrollo de software para agentes de codificación IA: habilidades componibles de lluvia de ideas, desarrollo guiado por pruebas, redacción de planes, despacho de subagentes y depuración sistemática, haciendo que la IA trabaje como un ingeniero senior disciplinado.",
+        "fr": "C'est une méthodologie complète de développement logiciel pour agents de codage IA : des compétences composables de brainstorming, développement piloté par les tests, rédaction de plans, coordination de sous-agents et débogage systématique — l'IA travaille comme un ingénieur senior discipliné au lieu d'improviser."
+      }
+    },
+    {
+      "question": {
+        "zh": "怎么安装 Superpowers？",
+        "en": "How do I install Superpowers?",
+        "ja": "Superpowers をインストールするには？",
+        "es": "¿Cómo instalo Superpowers?",
+        "fr": "Comment installer Superpowers ?"
+      },
+      "answer": {
+        "zh": "支持多个客户端的插件市场：Claude Code 的 marketplace、Cursor 的 /add-plugin、Codex 插件市场等都能直接安装；具体命令见 GitHub 仓库 README，装完技能会在对话中自动触发。",
+        "en": "It is available through multiple plugin marketplaces: Claude Code's marketplace, Cursor's /add-plugin, the Codex plugin marketplace and more. See the GitHub README for exact commands; once installed, skills trigger automatically in conversation.",
+        "ja": "複数クライアントのプラグインマーケットに対応しています。Claude Code のマーケットプレイス、Cursor の /add-plugin、Codex プラグインマーケットなどから直接インストール可能。詳しいコマンドは GitHub の README を参照してください。導入後、スキルは会話中に自動で発動します。",
+        "es": "Está disponible en varios marketplaces de plugins: el marketplace de Claude Code, /add-plugin de Cursor, el marketplace de Codex y más. Consulta el README de GitHub para los comandos exactos; una vez instalado, las habilidades se activan automáticamente.",
+        "fr": "Il est disponible sur plusieurs marketplaces de plugins : celui de Claude Code, /add-plugin de Cursor, le marketplace Codex, etc. Consultez le README GitHub pour les commandes exactes ; une fois installé, les compétences se déclenchent automatiquement en conversation."
+      }
+    },
+    {
+      "question": {
+        "zh": "Superpowers 免费吗？支持哪些 AI 编码工具？",
+        "en": "Is Superpowers free? Which AI coding tools does it support?",
+        "ja": "Superpowers は無料ですか？どの AI コーディングツールに対応していますか？",
+        "es": "¿Superpowers es gratuito? ¿Qué herramientas de codificación IA soporta?",
+        "fr": "Superpowers est-il gratuit ? Quels outils de codage IA prend-il en charge ?"
+      },
+      "answer": {
+        "zh": "完全免费开源，由 Jesse Vincent（Prime Radiant）维护。支持面极广：Claude Code、Cursor、Codex、GitHub Copilot、Kimi Code、OpenCode、Antigravity、Factory Droid 等主流智能体都能用。",
+        "en": "Completely free and open source, maintained by Jesse Vincent (Prime Radiant). Support is very broad: Claude Code, Cursor, Codex, GitHub Copilot, Kimi Code, OpenCode, Antigravity, Factory Droid and other mainstream agents.",
+        "ja": "完全無料のオープンソースで、Jesse Vincent（Prime Radiant）がメンテナンスしています。対応範囲は非常に広く、Claude Code、Cursor、Codex、GitHub Copilot、Kimi Code、OpenCode、Antigravity、Factory Droid など主要エージェントで利用できます。",
+        "es": "Totalmente gratuito y de código abierto, mantenido por Jesse Vincent (Prime Radiant). El soporte es muy amplio: Claude Code, Cursor, Codex, GitHub Copilot, Kimi Code, OpenCode, Antigravity, Factory Droid y otros agentes principales.",
+        "fr": "Entièrement gratuit et open source, maintenu par Jesse Vincent (Prime Radiant). La prise en charge est très large : Claude Code, Cursor, Codex, GitHub Copilot, Kimi Code, OpenCode, Antigravity, Factory Droid et d'autres agents majeurs."
+      }
+    }
+  ]
+}

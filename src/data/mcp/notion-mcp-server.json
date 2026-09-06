@@ -1,0 +1,79 @@
+{
+  "slug": "notion-mcp-server",
+  "name": "Notion MCP Server",
+  "nameZh": "Notion 官方 MCP",
+  "description": "Notion 官方 MCP 服务器。智能体可读写 Notion 页面与数据库、搜索工作区、管理评论，把知识库变成 AI 可操作的工作台。",
+  "descriptionEn": "Notion's official MCP server. Agents can read and write Notion pages and databases, search the workspace and manage comments — turning your knowledge base into an AI-operable workspace.",
+  "descriptionJa": "Notion公式MCPサーバー。エージェントがNotionページとデータベースの読み書き、ワークスペース検索、コメント管理を実行でき、ナレッジベースをAIが操作できる作業空間に。",
+  "descriptionEs": "El servidor MCP oficial de Notion. Los agentes pueden leer y escribir páginas y bases de datos de Notion, buscar en el espacio de trabajo y gestionar comentarios.",
+  "descriptionFr": "Le serveur MCP officiel de Notion. Les agents peuvent lire et écrire des pages et bases de données Notion, rechercher dans l'espace de travail et gérer les commentaires.",
+  "developer": "Notion",
+  "developerZh": "Notion",
+  "repo": "makenotion/notion-mcp-server",
+  "clients": [
+    "claude",
+    "cursor",
+    "vscode",
+    "generic"
+  ],
+  "category": "Productivity",
+  "tags": [
+    "Free",
+    "Open Source",
+    "API"
+  ],
+  "installCommand": "npx -y @notionhq/notion-mcp-server",
+  "logo": "/logos/mcp/notion-mcp-server.png",
+  "stars": 4622,
+  "featured": false,
+  "faqs": [
+    {
+      "question": {
+        "zh": "Notion MCP Server 有什么用？",
+        "en": "What is the Notion MCP Server for?",
+        "ja": "Notion MCP Server は何に使えますか？",
+        "es": "¿Para qué sirve Notion MCP Server?",
+        "fr": "À quoi sert le Notion MCP Server ?"
+      },
+      "answer": {
+        "zh": "它是 Notion 官方的 MCP 服务器，让 AI 直接搜索、读取、创建和更新你的 Notion 页面与数据库——整理会议记录、维护知识库、批量更新任务都能在对话里完成。",
+        "en": "It is Notion's official MCP server, letting AI search, read, create and update your Notion pages and databases — organizing meeting notes, maintaining wikis and bulk-updating tasks all from the conversation.",
+        "ja": "Notion 公式の MCP サーバーです。AI が Notion のページやデータベースを直接検索・読み取り・作成・更新でき、議事録の整理、ナレッジベースの管理、タスクの一括更新まで会話の中で完結します。",
+        "es": "Es el servidor MCP oficial de Notion. Permite a la IA buscar, leer, crear y actualizar tus páginas y bases de datos de Notion: organizar notas de reuniones, mantener wikis y actualizar tareas en masa desde la conversación.",
+        "fr": "C'est le serveur MCP officiel de Notion. L'IA peut rechercher, lire, créer et mettre à jour vos pages et bases de données Notion — organiser des comptes rendus, maintenir des wikis et mettre à jour des tâches en masse depuis la conversation."
+      }
+    },
+    {
+      "question": {
+        "zh": "怎么把 Notion 接入 Claude 或 Cursor？",
+        "en": "How do I connect Notion to Claude or Cursor?",
+        "ja": "Notion を Claude や Cursor に接続するには？",
+        "es": "¿Cómo conecto Notion a Claude o Cursor?",
+        "fr": "Comment connecter Notion à Claude ou Cursor ?"
+      },
+      "answer": {
+        "zh": "在 MCP 配置里加入 npx -y @notionhq/notion-mcp-server，环境变量提供 Notion 集成令牌（在 notion.so/profile/integrations 创建），再把要操作的页面分享给该集成即可。",
+        "en": "Add npx -y @notionhq/notion-mcp-server to your MCP config with a Notion integration token (created at notion.so/profile/integrations) as an environment variable, then share the target pages with that integration.",
+        "ja": "MCP 設定に npx -y @notionhq/notion-mcp-server を追加し、環境変数で Notion インテグレーショントークン（notion.so/profile/integrations で作成）を渡します。操作したいページをそのインテグレーションに共有すれば完了です。",
+        "es": "Añade npx -y @notionhq/notion-mcp-server a tu configuración MCP con un token de integración de Notion (creado en notion.so/profile/integrations) como variable de entorno, y comparte las páginas objetivo con esa integración.",
+        "fr": "Ajoutez npx -y @notionhq/notion-mcp-server à votre configuration MCP avec un jeton d'intégration Notion (créé sur notion.so/profile/integrations) en variable d'environnement, puis partagez les pages cibles avec cette intégration."
+      }
+    },
+    {
+      "question": {
+        "zh": "Notion MCP Server 免费吗？",
+        "en": "Is the Notion MCP Server free?",
+        "ja": "Notion MCP Server は無料ですか？",
+        "es": "¿Notion MCP Server es gratuito?",
+        "fr": "Le Notion MCP Server est-il gratuit ?"
+      },
+      "answer": {
+        "zh": "服务器免费开源（MIT），Notion 免费个人版账号即可创建集成令牌使用；AI 能访问的内容严格限于你分享给集成的页面，权限完全可控。",
+        "en": "The server is free and open source (MIT), and a free personal Notion account can create integration tokens. The AI can only access pages you explicitly share with the integration, keeping permissions fully under your control.",
+        "ja": "サーバーは無料のオープンソース（MIT）で、Notion の無料個人アカウントでもインテグレーショントークンを作成できます。AI がアクセスできるのは共有したページのみで、権限は完全にコントロールできます。",
+        "es": "El servidor es gratuito y de código abierto (MIT), y una cuenta personal gratuita de Notion puede crear tokens de integración. La IA solo accede a las páginas que compartas explícitamente, con permisos totalmente bajo tu control.",
+        "fr": "Le serveur est gratuit et open source (MIT), et un compte Notion personnel gratuit suffit pour créer un jeton d'intégration. L'IA n'accède qu'aux pages explicitement partagées — les permissions restent sous votre contrôle."
+      }
+    }
+  ]
+}

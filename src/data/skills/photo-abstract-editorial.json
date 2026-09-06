@@ -1,0 +1,74 @@
+{
+  "slug": "photo-abstract-editorial",
+  "name": "Photo Abstract Editorial",
+  "nameZh": "Photo Abstract Editorial",
+  "description": "将照片转为「原始摄影区域 + 抽象记忆面板 + 诗意英文标题」竖向编辑作品。保留照片真实内容，仅提炼空间关系、构图节奏和色彩关系。",
+  "descriptionEn": "Codex Skill that transforms photos into vertical editorials — original photo + abstract memory panel + poetic English title. Not a filter, redraw or style transfer.",
+  "descriptionJa": "Codexスキル。写真を縦型エディトリアル作品に変換——オリジナル写真+抽象メモリパネル+詩的な英語タイトル。フィルター/再描画/スタイル転送ではありません。",
+  "descriptionEs": "Un skill de Codex que transforma fotos en editoriales verticales — foto original + panel de memoria abstracto + título poético en inglés. No es filtro, redibujado ni transferencia de estilo.",
+  "descriptionFr": "Un skill Codex qui transforme des photos en éditoriaux verticaux — photo originale + panneau mémoire abstrait + titre poétique en anglais. Ce n'est ni filtre, ni redessin, ni transfert de style.",
+  "developer": "ZzzLc0405",
+  "developerZh": "ZzzLc0405",
+  "repo": "ZzzLc0405/photo-abstract-editorial",
+  "agents": [
+    "codex"
+  ],
+  "category": "Design",
+  "tags": [
+    "Free"
+  ],
+  "installCommand": "git clone https://github.com/ZzzLc0405/photo-abstract-editorial ~/.codex/skills/photo-abstract-editorial",
+  "logo": "/logos/skills/photo-abstract-editorial.png",
+  "stars": 5350,
+  "featured": false,
+  "faqs": [
+    {
+      "question": {
+        "zh": "授权？",
+        "en": "License?",
+        "ja": "ライセンスは？",
+        "es": "¿Licencia?",
+        "fr": "Licence ?"
+      },
+      "answer": {
+        "zh": "作者声明：个人/教育/非商业免费使用，商业用途需事先授权。建议署名 @AM。",
+        "en": "Free for personal, educational and non-commercial use. Commercial use requires prior authorization. Credit @AM appreciated.",
+        "ja": "個人/教育/非商用無料、商用使用前に要許諾。@AM へのクレジット推奨。",
+        "es": "Gratuito para uso personal/educativo/no comercial. Uso comercial requiere autorización previa. Crédito a @AM.",
+        "fr": "Gratuit pour usage personnel/éducatif/non commercial. Usage commercial nécessite autorisation préalable. Créditer @AM."
+      }
+    },
+    {
+      "question": {
+        "zh": "怎么使用？",
+        "en": "How to use?",
+        "ja": "使い方？",
+        "es": "¿Cómo usar?",
+        "fr": "Comment utiliser ?"
+      },
+      "answer": {
+        "zh": "克隆仓库到你的 Codex 技能目录。",
+        "en": "Clone the repo to your Codex skill directory.",
+        "ja": "Codexスキルディレクトリにクローン。",
+        "es": "Clona el repositorio en tu directorio de skills de Codex.",
+        "fr": "Clonez le dépôt dans votre répertoire de skills Codex."
+      }
+    },
+    {
+      "question": {
+        "zh": "支持哪些智能体？",
+        "en": "Which agents?",
+        "ja": "どんなエージェント対応？",
+        "es": "¿Qué agentes?",
+        "fr": "Quels agents ?"
+      },
+      "answer": {
+        "zh": "兼容 Codex、Claude Code、Cursor 等主流编码智能体。",
+        "en": "Compatible with Codex, Claude Code, Cursor and other main coding agents.",
+        "ja": "Codex、Claude Code、Cursor 等の主要コーディングエージェントと互換。",
+        "es": "Compatible con Codex, Claude Code, Cursor y otros agentes de codificación.",
+        "fr": "Compatible avec Codex, Claude Code, Cursor et autres agents de codage principaux."
+      }
+    }
+  ]
+}

@@ -1,0 +1,217 @@
+{
+  "features": {
+    "en": [
+      "AI-native IDE built on VS Code",
+      "Free, no VPN required",
+      "Integrates Doubao-1.5-pro and DeepSeek",
+      "Chinese natural-language coding",
+      "Real-time preview and bug fixing",
+      "Builder mode"
+    ],
+    "zh": [
+      "基于 VS Code 的 AI 原生 IDE",
+      "免费且无需 VPN",
+      "集成 Doubao-1.5-pro 与 DeepSeek",
+      "中文自然语言编程",
+      "实时预览与智能修复",
+      "Builder 模式"
+    ],
+    "ja": [
+      "VS Code ベースの AI ネイティブ IDE",
+      "無料で VPN 不要",
+      "Doubao-1.5-pro と DeepSeek を統合",
+      "中国語による自然言語コーディング",
+      "リアルタイムプレビューとバグ修正",
+      "Builder モード"
+    ],
+    "es": [
+      "IDE nativo de IA sobre VS Code",
+      "Gratis, sin VPN",
+      "Integra Doubao-1.5-pro y DeepSeek",
+      "Programación en chino por lenguaje natural",
+      "Vista previa y corrección de errores",
+      "Modo Builder"
+    ],
+    "fr": [
+      "IDE natif IA basé sur VS Code",
+      "Gratuit, sans VPN",
+      "Intègre Doubao-1.5-pro et DeepSeek",
+      "Codage en langage naturel chinois",
+      "Aperçu en direct et correction de bugs",
+      "Mode Builder"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Completely free",
+      "zh": "完全免费",
+      "ja": "完全無料",
+      "es": "Totalmente gratis",
+      "fr": "Entièrement gratuit"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Domestic app development",
+      "Frontend development",
+      "Rapid prototyping",
+      "Learning to code"
+    ],
+    "zh": [
+      "国内应用开发",
+      "前端开发",
+      "快速原型",
+      "学习编程"
+    ],
+    "ja": [
+      "国内向けアプリ開発",
+      "フロントエンド開発",
+      "迅速なプロトタイピング",
+      "プログラミング学習"
+    ],
+    "es": [
+      "Desarrollo de apps nacionales",
+      "Desarrollo frontend",
+      "Prototipado rápido",
+      "Aprender a programar"
+    ],
+    "fr": [
+      "Développement d'apps nationales",
+      "Développement frontend",
+      "Prototypage rapide",
+      "Apprentissage du code"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Free and no VPN needed",
+      "Strong Chinese support",
+      "Familiar VS Code experience",
+      "Local model integration"
+    ],
+    "zh": [
+      "免费且无需 VPN",
+      "中文支持好",
+      "熟悉的 VS Code 体验",
+      "本土模型集成"
+    ],
+    "ja": [
+      "無料で VPN 不要",
+      "中国語サポートが充実",
+      "馴染みのある VS Code 体験",
+      "国産モデル統合"
+    ],
+    "es": [
+      "Gratis y sin VPN",
+      "Buen soporte de chino",
+      "Experiencia VS Code familiar",
+      "Integración de modelos locales"
+    ],
+    "fr": [
+      "Gratuit et sans VPN",
+      "Bon support du chinois",
+      "Expérience VS Code familière",
+      "Intégration de modèles locaux"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Fewer international model options",
+      "Feature rollout may lag international edition"
+    ],
+    "zh": [
+      "国际模型选择较少",
+      "功能更新或滞后于国际版"
+    ],
+    "ja": [
+      "国際モデルの選択肢が少ない",
+      "機能更新が国際版より遅れる場合あり"
+    ],
+    "es": [
+      "Menos opciones de modelos internacionales",
+      "Las funciones pueden ir por detrás de la edición internacional"
+    ],
+    "fr": [
+      "Moins d'options de modèles internationaux",
+      "Les fonctionnalités peuvent être en retard sur l'édition internationale"
+    ]
+  },
+  "latestUpdate": {
+    "en": "2026: Trae China edition stays free with Doubao and DeepSeek, adding the Work assistant",
+    "zh": "2026年：Trae 国内版保持免费，集成 Doubao 与 DeepSeek，新增 Work 助手",
+    "ja": "2026年：Trae 中国版は無料を維持し、Doubao と DeepSeek を統合、Work アシスタントを追加",
+    "es": "2026: la edición China de Trae sigue gratis con Doubao y DeepSeek y añade el asistente Work",
+    "fr": "2026 : l'édition Chine de Trae reste gratuite avec Doubao et DeepSeek et ajoute l'assistant Work"
+  },
+  "verdict": {
+    "badge": "Worth Trying",
+    "headline": {
+      "en": "Chinese edition of Trae IDE with domestic model access and local hosting.",
+      "zh": "Trae IDE中国版，提供国内模型访问和本地托管。",
+      "ja": "国内モデルアクセスとローカルホスティングを備えたTrae IDEの中国版。",
+      "es": "Edición china de Trae IDE con acceso a modelos domésticos y hosting local.",
+      "fr": "Édition chinoise de Trae IDE avec accès aux modèles domestiques et hébergement local."
+    },
+    "body": {
+      "en": "Trae CN provides the same AI IDE experience as Trae but optimized for Chinese developers: domestic model hosting ensures low latency, and the interface and documentation are fully localized. It integrates well with Chinese development ecosystems.\n\nThe same maturity considerations apply—it's building rapidly but hasn't caught up to Cursor yet. For Chinese developers who face connectivity issues with international AI services, Trae CN offers a practical alternative.",
+      "zh": "Trae CN 提供与 Trae 相同的 AI IDE 体验但针对中国开发者优化：国内模型托管确保低延迟，界面和文档完全本地化。与国内开发生态集成良好。\n\n同样的成熟度考虑适用——快速构建中但尚未追上 Cursor。对于面临国际AI服务连接问题的中国开发者，Trae CN 提供了实用的替代方案。",
+      "ja": "Trae CNはTraeと同じAI IDE体験を提供しますが中国の開発者向けに最適化：国内モデルホスティングが低遅延を保証し、インターフェースとドキュメントが完全にローカライズされています。\n\n同じ成熟度の考慮が適用されます。国際AIサービスの接続問題に直面する中国の開発者にとって、Trae CNは実用的な代替です。",
+      "es": "Trae CN proporciona la misma experiencia IDE IA pero optimizada para desarrolladores chinos: hosting doméstico asegura baja latencia, y la interfaz está completamente localizada.\n\nLas mismas consideraciones de madurez aplican. Para desarrolladores chinos con problemas de conectividad internacional, Trae CN ofrece una alternativa práctica.",
+      "fr": "Trae CN offre la même expérience IDE IA mais optimisée pour les développeurs chinois : hébergement domestique pour faible latence, interface entièrement localisée.\n\nLes mêmes considérations de maturité s'appliquent. Pour les développeurs chinois avec des problèmes de connectivité internationale, Trae CN offre une alternative pratique."
+    },
+    "bestFor": {
+      "en": [
+        "Chinese developers needing low-latency AI IDE",
+        "Teams requiring domestic data compliance",
+        "Developers preferring Chinese-language tools"
+      ],
+      "zh": [
+        "需要低延迟AI IDE的中国开发者",
+        "需要国内数据合规的团队",
+        "偏好中文工具的开发者"
+      ],
+      "ja": [
+        "低遅延AI IDEが必要な中国の開発者",
+        "国内データコンプライアンスが必要なチーム",
+        "中国語ツールを好む開発者"
+      ],
+      "es": [
+        "Desarrolladores chinos que necesitan IDE IA de baja latencia",
+        "Equipos que requieren cumplimiento de datos doméstico",
+        "Desarrolladores que prefieren herramientas en chino"
+      ],
+      "fr": [
+        "Développeurs chinois nécessitant un IDE IA à faible latence",
+        "Équipes nécessitant la conformité des données domestiques",
+        "Développeurs préférant les outils en chinois"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You're outside China (→ Trae, Cursor)",
+        "You need the most advanced coding AI (→ Cursor, Qoder)"
+      ],
+      "zh": [
+        "在海外（→ Trae、Cursor）",
+        "需要最先进的编程AI（→ Cursor、Qoder）"
+      ],
+      "ja": [
+        "中国国外の場合（→ Trae、Cursor）",
+        "最先端のコーディングAIが必要な場合（→ Cursor、Qoder）"
+      ],
+      "es": [
+        "Estás fuera de China (→ Trae, Cursor)",
+        "Necesitas el IA de código más avanzado (→ Cursor, Qoder)"
+      ],
+      "fr": [
+        "Vous êtes hors de Chine (→ Trae, Cursor)",
+        "Vous avez besoin de l'IA de code la plus avancée (→ Cursor, Qoder)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-27",
+    "verdictDate": "2026-07-27",
+    "pricingVerified": "2026-07-27"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "slug": "browser-tools",
+  "name": "Browser Tools MCP",
+  "nameZh": "Browser Tools MCP",
+  "description": "从 Cursor 等兼容 MCP 的 IDE 中直接监控浏览器日志的 MCP 服务器。实时捕获浏览器控制台日志、网络请求、页面错误，让 AI 智能体在编码时就能看到运行时的调试信息。",
+  "descriptionEn": "An MCP server that lets you monitor browser logs directly from Cursor and other MCP-compatible IDEs. Captures real-time console logs, network requests, and page errors — giving AI agents runtime debugging info while you code.",
+  "descriptionJa": "Cursor などの MCP 互換 IDE から直接ブラウザログを監視できる MCP サーバー。コンソールログ、ネットワークリクエスト、ページエラーをリアルタイムでキャプチャし、コーディング中に AI エージェントに実行時のデバッグ情報を提供します。",
+  "descriptionEs": "Un servidor MCP que permite monitorizar los registros del navegador directamente desde Cursor y otros IDEs compatibles con MCP. Captura en tiempo real registros de consola, peticiones de red y errores de página — dando a los agentes de IA información de depuración en tiempo de ejecución mientras codificas.",
+  "descriptionFr": "Un serveur MCP qui permet de surveiller les logs du navigateur directement depuis Cursor et d'autres IDE compatibles MCP. Capture en temps réel les logs de console, les requêtes réseau et les erreurs de page — donnant aux agents IA des informations de débogage d'exécution pendant que vous codez.",
+  "developer": "AgentDeskAI",
+  "developerZh": "AgentDeskAI",
+  "repo": "AgentDeskAI/browser-tools-mcp",
+  "clients": [
+    "claude",
+    "cursor",
+    "vscode",
+    "windsurf",
+    "codex",
+    "generic"
+  ],
+  "category": "Browser",
+  "tags": [
+    "Free",
+    "Open Source"
+  ],
+  "installCommand": "npx -y @agentdeskai/browser-tools-mcp",
+  "logo": "/logos/mcp/browser-tools.png",
+  "stars": 7311,
+  "featured": false,
+  "faqs": [
+    {
+      "question": {
+        "zh": "Browser Tools 和 Browser MCP 有什么区别？",
+        "en": "How is Browser Tools different from Browser MCP?",
+        "ja": "Browser Tools と Browser MCP の違いは？",
+        "es": "¿En qué se diferencia Browser Tools de Browser MCP?",
+        "fr": "En quoi Browser Tools diffère-t-il de Browser MCP ?"
+      },
+      "answer": {
+        "zh": "Browser Tools 专注「监控」而非「控制」：它不操作浏览器，而是在 IDE 中实时显示浏览器控制台日志、网络请求和页面错误，让 AI 智能体在编码时就能看到调试信息。Browser MCP 则侧重控制浏览器执行操作。两者互补。",
+        "en": "Browser Tools focuses on 'monitoring' rather than 'controlling': it doesn't manipulate the browser, but displays real-time console logs, network requests, and page errors directly in your IDE — giving AI agents debugging info while you code. Browser MCP controls the browser to perform actions. They complement each other.",
+        "ja": "Browser Tools は「制御」ではなく「監視」に特化しています：ブラウザを操作するのではなく、IDE 上でリアルタイムにブラウザのコンソールログ、ネットワークリクエスト、ページエラーを表示し、コーディング中に AI エージェントにデバッグ情報を提供します。Browser MCP はブラウザを操作してアクションを実行します。両者は補完関係にあります。",
+        "es": "Browser Tools se centra en la 'monitorización' más que en el 'control': no manipula el navegador, sino que muestra en tiempo real los registros de consola, peticiones de red y errores de página directamente en tu IDE — dando a los agentes de IA información de depuración mientras codificas. Browser MCP controla el navegador para realizar acciones. Se complementan.",
+        "fr": "Browser Tools se concentre sur la 'surveillance' plutôt que le 'contrôle' : il ne manipule pas le navigateur, mais affiche en temps réel les logs de console, les requêtes réseau et les erreurs de page directement dans votre IDE — donnant aux agents IA des informations de débogage pendant que vous codez. Browser MCP contrôle le navigateur pour effectuer des actions. Ils sont complémentaires."
+      }
+    },
+    {
+      "question": {
+        "zh": "Browser Tools 怎么安装？",
+        "en": "How do I install Browser Tools?",
+        "ja": "Browser Tools のインストール方法は？",
+        "es": "¿Cómo instalo Browser Tools?",
+        "fr": "Comment installer Browser Tools ?"
+      },
+      "answer": {
+        "zh": "运行 npx -y @agentdeskai/browser-tools-mcp 启动，然后在 Claude Code 中用 claude mcp add browser-tools -- npx -y @agentdeskai/browser-tools-mcp 注册，或粘贴到 Cursor 的 MCP 设置中。需要同时安装浏览器扩展以实现日志捕获。",
+        "en": "Run npx -y @agentdeskai/browser-tools-mcp to start. Register it in Claude Code with claude mcp add browser-tools -- npx -y @agentdeskai/browser-tools-mcp, or paste into Cursor's MCP settings. You'll also need to install the browser extension for log capture.",
+        "ja": "npx -y @agentdeskai/browser-tools-mcp を実行して起動します。Claude Code では claude mcp add browser-tools -- npx -y @agentdeskai/browser-tools-mcp で登録、Cursor の MCP 設定に貼り付けます。ログキャプチャにはブラウザ拡張機能のインストールも必要です。",
+        "es": "Ejecuta npx -y @agentdeskai/browser-tools-mcp para iniciarlo. Regístralo en Claude Code con claude mcp add browser-tools -- npx -y @agentdeskai/browser-tools-mcp, o pégalo en los ajustes MCP de Cursor. También necesitarás instalar la extensión del navegador para la captura de logs.",
+        "fr": "Exécutez npx -y @agentdeskai/browser-tools-mcp pour le lancer. Enregistrez-le dans Claude Code avec claude mcp add browser-tools -- npx -y @agentdeskai/browser-tools-mcp, ou collez-le dans les réglages MCP de Cursor. Vous devrez également installer l'extension de navigateur pour la capture des logs."
+      }
+    },
+    {
+      "question": {
+        "zh": "Browser Tools 免费吗？",
+        "en": "Is Browser Tools free?",
+        "ja": "Browser Tools は無料ですか？",
+        "es": "¿Browser Tools es gratuito?",
+        "fr": "Browser Tools est-il gratuit ?"
+      },
+      "answer": {
+        "zh": "完全免费开源，社区活跃。MCP 服务器和浏览器扩展均免费使用，无需 API Key，所有数据在本地处理。",
+        "en": "Completely free and open source with an active community. Both the MCP server and browser extension are free to use, no API key needed, and all data is processed locally.",
+        "ja": "完全無料・オープンソースで、活発なコミュニティがあります。MCP サーバーとブラウザ拡張機能の両方が無料で利用でき、API キー不要、すべてのデータはローカルで処理されます。",
+        "es": "Completamente gratuito y de código abierto con una comunidad activa. Tanto el servidor MCP como la extensión del navegador son gratuitos, no necesitan clave API y todos los datos se procesan en local.",
+        "fr": "Entièrement gratuit et open source avec une communauté active. Le serveur MCP et l'extension de navigateur sont tous deux gratuits, sans clé API nécessaire, et toutes les données sont traitées localement."
+      }
+    }
+  ]
+}

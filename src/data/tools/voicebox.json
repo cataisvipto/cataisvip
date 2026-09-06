@@ -1,0 +1,31 @@
+{
+  "slug": "voicebox",
+  "name": "Voicebox",
+  "nameZh": "Voicebox",
+  "description": "开源 AI 语音工作室，本地运行的声音克隆/语音合成/听写/智能体语音一体化工具，免费替代 ElevenLabs + WisprFlow，支持 7 种 TTS 引擎和 23 种语言",
+  "descriptionEn": "Open-source AI voice studio running locally — voice cloning, TTS across 7 engines, dictation, and agent voice in one app. A free alternative to ElevenLabs and WisprFlow, supporting 23 languages.",
+  "descriptionJa": "ローカルで動作するオープンソースAI音声スタジオ。音声クローン、7つのTTSエンジンによる音声合成、ディクテーション、エージェント音声を1つのアプリで実現。ElevenLabsとWisprFlowの無料代替。23言語対応。",
+  "descriptionEs": "Estudio de voz AI de código abierto que se ejecuta localmente — clonación de voz, TTS en 7 motores, dictado y voz de agente en una sola app. Una alternativa gratuita a ElevenLabs y WisprFlow, compatible con 23 idiomas.",
+  "descriptionFr": "Studio vocal IA open source fonctionnant localement — clonage vocal, TTS sur 7 moteurs, dictée et voix d'agent dans une seule application. Une alternative gratuite à ElevenLabs et WisprFlow, prenant en charge 23 langues.",
+  "url": "https://voicebox.sh",
+  "logo": "/logos/tools/voicebox.png",
+  "category": "Audio",
+  "tags": [
+    "Free",
+    "Open Source",
+    "API"
+  ],
+  "featured": false,
+  "developer": "jamiepine",
+  "developerZh": "jamiepine",
+  "platforms": {
+    "web": false,
+    "windows": true,
+    "macos": true,
+    "ios": false,
+    "android": false,
+    "linux": true,
+    "browser_extension": false,
+    "api": true
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "slug": "mongodb-mcp",
+  "name": "MongoDB MCP",
+  "nameZh": "MongoDB MCP",
+  "description": "MongoDB 官方 MCP 服务器，让 AI 智能体用自然语言连接 MongoDB 数据库与 Atlas 集群——查询/写入文档、管理集合与索引、查看集群状态，支持只读模式保护生产数据。",
+  "descriptionEn": "MongoDB's official MCP server lets AI agents connect to MongoDB databases and Atlas clusters in natural language — query/write documents, manage collections and indexes, inspect cluster status, with a read-only mode to protect production data.",
+  "descriptionJa": "MongoDB 公式の MCP サーバー。AI エージェントが自然言語で MongoDB データベースや Atlas クラスターに接続でき、ドキュメントの照会・書き込み、コレクションやインデックスの管理、クラスター状態の確認が可能で、本番データを守る読み取り専用モードにも対応します。",
+  "descriptionEs": "El servidor MCP oficial de MongoDB permite a los agentes de IA conectarse a bases de datos MongoDB y clústeres de Atlas en lenguaje natural: consultar/escribir documentos, gestionar colecciones e índices, inspeccionar el estado del clúster, con un modo de solo lectura para proteger los datos de producción.",
+  "descriptionFr": "Le serveur MCP officiel de MongoDB permet aux agents IA de se connecter aux bases MongoDB et clusters Atlas en langage naturel : interroger/écrire des documents, gérer collections et index, inspecter l'état du cluster, avec un mode lecture seule pour protéger les données de production.",
+  "developer": "MongoDB",
+  "developerZh": "MongoDB",
+  "repo": "mongodb-js/mongodb-mcp-server",
+  "clients": [
+    "claude",
+    "cursor",
+    "vscode",
+    "generic"
+  ],
+  "category": "Database",
+  "tags": [
+    "Free",
+    "Open Source"
+  ],
+  "installCommand": "npx -y mongodb-mcp-server",
+  "logo": "/logos/mcp/mongodb-mcp.png",
+  "stars": 1122,
+  "featured": false,
+  "faqs": [
+    {
+      "question": {
+        "zh": "MongoDB MCP 支持连 Atlas 云和自建实例吗？",
+        "en": "Does MongoDB MCP support Atlas cloud and self-hosted instances?",
+        "ja": "MongoDB MCP は Atlas クラウドと自己ホストのインスタンスに対応していますか？",
+        "es": "¿MongoDB MCP admite Atlas en la nube e instancias autoalojadas?",
+        "fr": "MongoDB MCP prend-il en charge Atlas cloud et les instances auto-hébergées ?"
+      },
+      "answer": {
+        "zh": "都支持。通过标准 MongoDB 连接串即可连自建实例或副本集，也能接 MongoDB Atlas 云集群；针对 Atlas 还提供集群、项目等管理工具，方便智能体查看和运维云端资源。",
+        "en": "Both. It connects to self-hosted instances or replica sets via a standard MongoDB connection string, and also to MongoDB Atlas cloud clusters; for Atlas it adds cluster/project management tools so agents can inspect and operate cloud resources.",
+        "ja": "どちらも対応します。標準の MongoDB 接続文字列で自己ホストのインスタンスやレプリカセットに接続でき、MongoDB Atlas のクラウドクラスターにも接続できます。Atlas 向けにはクラスターやプロジェクトの管理ツールも提供され、エージェントがクラウドリソースを確認・運用できます。",
+        "es": "Ambos. Se conecta a instancias autoalojadas o conjuntos de réplicas mediante una cadena de conexión MongoDB estándar, y también a clústeres en la nube de MongoDB Atlas; para Atlas añade herramientas de gestión de clústeres/proyectos para que los agentes inspeccionen y operen recursos en la nube.",
+        "fr": "Les deux. Il se connecte aux instances auto-hébergées ou replica sets via une chaîne de connexion MongoDB standard, ainsi qu'aux clusters cloud MongoDB Atlas ; pour Atlas, il ajoute des outils de gestion de clusters/projets afin que les agents inspectent et exploitent les ressources cloud."
+      }
+    },
+    {
+      "question": {
+        "zh": "怎么防止智能体误改生产数据？",
+        "en": "How do I stop an agent from accidentally modifying production data?",
+        "ja": "エージェントが誤って本番データを変更するのをどう防ぎますか？",
+        "es": "¿Cómo evito que un agente modifique datos de producción por accidente?",
+        "fr": "Comment empêcher un agent de modifier accidentellement les données de production ?"
+      },
+      "answer": {
+        "zh": "启动时加 --readOnly 参数即可开启只读模式，屏蔽所有写操作，只允许查询；配合仅读权限的数据库账号双保险，能安全地让 AI 在生产库上做分析而不改动数据。",
+        "en": "Start it with the --readOnly flag to enable read-only mode, which blocks all writes and allows only queries; pairing that with a read-scoped database user gives double protection so the AI can safely analyze a production database without changing data.",
+        "ja": "起動時に --readOnly フラグを付けると読み取り専用モードになり、すべての書き込みをブロックして照会のみを許可します。読み取り権限だけの DB ユーザーと併用すれば二重の保護となり、本番 DB でも AI がデータを変更せず安全に分析できます。",
+        "es": "Inícialo con el flag --readOnly para activar el modo de solo lectura, que bloquea todas las escrituras y solo permite consultas; combinarlo con un usuario de base de datos con permisos de solo lectura da doble protección para que la IA analice con seguridad una base de producción sin cambiar datos.",
+        "fr": "Lancez-le avec l'option --readOnly pour activer le mode lecture seule, qui bloque toutes les écritures et n'autorise que les requêtes ; associé à un utilisateur de base à portée lecture seule, cela offre une double protection pour que l'IA analyse en toute sécurité une base de production sans modifier les données."
+      }
+    },
+    {
+      "question": {
+        "zh": "MongoDB MCP 免费吗？",
+        "en": "Is MongoDB MCP free?",
+        "ja": "MongoDB MCP は無料ですか？",
+        "es": "¿MongoDB MCP es gratuito?",
+        "fr": "MongoDB MCP est-il gratuit ?"
+      },
+      "answer": {
+        "zh": "MCP 服务器由 MongoDB 官方开源、免费（Apache-2.0）；连接的是你自己的数据库或 Atlas 集群。MongoDB Community 与 Atlas 免费层均可零成本使用，只有 Atlas 付费集群才涉及云端费用。",
+        "en": "The MCP server is officially open-sourced by MongoDB and free (Apache-2.0); it connects to your own database or Atlas cluster. MongoDB Community and the Atlas free tier cost nothing, and only paid Atlas clusters incur cloud charges.",
+        "ja": "MCP サーバーは MongoDB 公式がオープンソース化した無料（Apache-2.0）のものです。接続先はあなた自身のデータベースや Atlas クラスターです。MongoDB Community と Atlas の無料層は無料で使え、費用が発生するのは Atlas の有料クラスターのみです。",
+        "es": "El servidor MCP es de código abierto oficial de MongoDB y gratuito (Apache-2.0); se conecta a tu propia base de datos o clúster de Atlas. MongoDB Community y el nivel gratuito de Atlas no cuestan nada, y solo los clústeres de Atlas de pago generan cargos en la nube.",
+        "fr": "Le serveur MCP est officiellement open source par MongoDB et gratuit (Apache-2.0) ; il se connecte à votre propre base ou cluster Atlas. MongoDB Community et l'offre gratuite d'Atlas ne coûtent rien, et seuls les clusters Atlas payants entraînent des frais cloud."
+      }
+    }
+  ]
+}

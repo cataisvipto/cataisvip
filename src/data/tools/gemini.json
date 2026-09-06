@@ -1,0 +1,29 @@
+{
+  "slug": "gemini",
+  "name": "Gemini",
+  "nameZh": "Gemini",
+  "description": "Google 推出的多模态 AI 模型，支持文本、图像、代码理解与生成",
+  "descriptionEn": "Google's multimodal AI model for text, image, and code understanding",
+  "descriptionJa": "GoogleのマルチモーダルAIモデル。テキスト、画像、コードの理解と生成に対応",
+  "descriptionEs": "Modelo de IA multimodal de Google para comprensión de texto, imagen y código",
+  "descriptionFr": "Modèle IA multimodal de Google pour la compréhension de texte, image et code",
+  "url": "https://gemini.google.com",
+  "logo": "/logos/tools/gemini.png",
+  "category": "Chat",
+  "tags": [
+    "Free",
+    "API"
+  ],
+  "featured": true,
+  "developer": "Google",
+  "platforms": {
+    "web": true,
+    "windows": false,
+    "macos": true,
+    "ios": true,
+    "android": true,
+    "linux": false,
+    "browser_extension": false,
+    "api": true
+  }
+}

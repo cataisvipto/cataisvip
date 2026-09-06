@@ -1,0 +1,283 @@
+{
+  "summary": {
+    "en": "Coze (Kouzi) is ByteDance's AI Agent development platform (China version) for building AI bots, workflows, and applications with zero code. Deeply integrated with the ByteDance ecosystem (Feishu, Douyin, Jianying), it supports multiple domestic LLMs and provides rich plugin and knowledge base capabilities.",
+    "zh": "扣子（Coze）是字节跳动推出的一站式 AI Agent 智能办公与开发平台（中国版），零代码构建 AI 智能体、自动化工作流和应用。深度整合飞书、抖音、剪映等字节生态，支持豆包、DeepSeek、Kimi 等多种国产大模型。",
+    "ja": "Coze（扣子）は、ByteDanceのAI Agent開発プラットフォーム（中国版）です。ノーコードでAIボット、ワークフロー、アプリケーションを構築できます。ByteDanceエコシステム（飛書、抖音、剪映）と深く統合され、複数の国産LLMをサポートしています。",
+    "es": "Coze (Kouzi) es la plataforma de desarrollo de Agent IA de ByteDance (versión China) para construir Bots IA, flujos de trabajo y aplicaciones sin código. Integrada con el ecosistema ByteDance, soporta múltiples LLM domésticos.",
+    "fr": "Coze (Kouzi) est la plateforme de développement d'Agent IA de ByteDance (version Chine) pour construire des Bots IA, des flux de travail et des applications sans code. Intégrée à l'écosystème ByteDance, elle prend en charge plusieurs LLM nationaux."
+  },
+  "features": {
+    "en": [
+      "Zero-code AI bot building with visual editor",
+      "Multi-LLM support (Doubao, DeepSeek, Kimi, Qwen, GLM, etc.)",
+      "Rich plugin ecosystem (Feishu, Douyin, Jianying integration)",
+      "Knowledge base with RAG (PDF, Word, Excel, web pages)",
+      "Visual workflow editor with drag-and-drop",
+      "Project space with multi-Agent collaboration (Coze 3.0)",
+      "Local Agent integration (Claude Code, Codex CLI, OpenClaw)",
+      "Cross-platform sync (Mobile, Desktop, Web)"
+    ],
+    "zh": [
+      "零代码可视化构建 AI Bot",
+      "多模型支持（豆包、DeepSeek、Kimi、通义千问、GLM 等）",
+      "丰富插件生态（飞书、抖音、剪映等字节集成）",
+      "知识库 RAG 能力（PDF、Word、Excel、网页）",
+      "可视化拖拽式工作流编辑器",
+      "项目空间 + 多 Agent 协作（扣子 3.0）",
+      "本地 Agent 一键接入（Claude Code、Codex CLI、OpenClaw）",
+      "三端同步（手机、电脑、网页）"
+    ],
+    "ja": [
+      "ノーコードAIボット構築",
+      "マルチLLM対応（Doubao、DeepSeek、Kimi、Qwen、GLMなど）",
+      "豊富なプラグインエコシステム",
+      "RAGによるナレッジベース",
+      "ビジュアルワークフローエディター",
+      "プロジェクトスペース+マルチエージェント協調（Coze 3.0）",
+      "ローカルエージェント統合",
+      "クロスプラットフォーム同期"
+    ],
+    "es": [
+      "Construcción de Bots IA sin código",
+      "Soporte multi-LLM (Doubao, DeepSeek, Kimi, Qwen, GLM, etc.)",
+      "Ecosistema de plugins rico",
+      "Base de conocimientos con RAG",
+      "Editor visual de flujo de trabajo",
+      "Espacio de proyecto con colaboración multi-agente (Coze 3.0)",
+      "Integración de agente local",
+      "Sincronización multiplataforma"
+    ],
+    "fr": [
+      "Construction de Bots IA sans code",
+      "Support multi-LLM (Doubao, DeepSeek, Kimi, Qwen, GLM, etc.)",
+      "Écosystème de plugins riche",
+      "Base de connaissances avec RAG",
+      "Éditeur visuel de flux de travail",
+      "Espace projet avec collaboration multi-agent (Coze 3.0)",
+      "Intégration d'agent local",
+      "Synchronisation multiplateforme"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "500 points/day + 1,500 login bonus",
+      "zh": "500 点/天 + 登录奖励 1500 积分",
+      "ja": "500ポイント/日 + ログインボーナス1500",
+      "es": "500 puntos/día + 1500 de bonificación",
+      "fr": "500 points/jour + 1 500 de bonus de connexion"
+    },
+    "pro": {
+      "en": "¥39.9/mo (30K points) / ¥99/mo (99K points)",
+      "zh": "¥39.9/月（3万点）/ ¥99/月（9.9万点）",
+      "ja": "¥39.9/月（3万ポイント）/ ¥99/月（9.9万ポイント）",
+      "es": "¥39.9/mes (30K puntos) / ¥99/mes (99K puntos)",
+      "fr": "¥39.9/mois (30K points) / ¥99/mois (99K points)"
+    },
+    "enterprise": {
+      "en": "From ¥980/mo (Standard) to ¥8,980/mo (Flagship)",
+      "zh": "¥980/月起（标准版）至 ¥8,980/月（旗舰版）",
+      "ja": "¥980/月（スタンダード）〜¥8,980/月（フラッグシップ）",
+      "es": "Desde ¥980/mes (Estándar) hasta ¥8,980/mes (Flagship)",
+      "fr": "De ¥980/mois (Standard) à ¥8,980/mois (Flagship)"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Personal AI office assistant",
+      "Enterprise intelligent customer service bot",
+      "Content creation and social media management",
+      "Conversational app development (mini-program, web, app)",
+      "Automated workflow and data pipeline",
+      "Industry-specific solutions (finance, legal, research)"
+    ],
+    "zh": [
+      "个人 AI 办公助手",
+      "企业智能客服 Bot",
+      "内容创作与社交媒体运营",
+      "对话式应用开发（小程序/网页/App）",
+      "自动化工作流与数据处理",
+      "行业解决方案（金融、法务、科研）"
+    ],
+    "ja": [
+      "個人AIオフィスアシスタント",
+      "エンタープライズスマートカスタマーサービスBot",
+      "コンテンツ制作とSNS運用",
+      "会話型アプリ開発（ミニプログラム/Web/App）",
+      "自動化ワークフローとデータ処理",
+      "業界特化型ソリューション"
+    ],
+    "es": [
+      "Asistente personal de oficina AI",
+      "Bot de servicio al cliente inteligente empresarial",
+      "Creación de contenido y gestión de redes sociales",
+      "Desarrollo de aplicaciones conversacionales",
+      "Flujo de trabajo automatizado y procesamiento de datos",
+      "Soluciones específicas de la industria"
+    ],
+    "fr": [
+      "Assistant personnel AI de bureau",
+      "Bot de service client intelligent d'entreprise",
+      "Création de contenu et gestion des réseaux sociaux",
+      "Développement d'applications conversationnelles",
+      "Flux de travail automatisé et traitement de données",
+      "Solutions spécifiques à l'industrie"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Zero-code AI application development",
+      "Excellent Chinese ecosystem integration",
+      "Multiple domestic LLM choices",
+      "Visual workflow editor",
+      "Free tier available for basic use",
+      "Rapid version iteration (2.0 → 2.5 → 3.0)"
+    ],
+    "zh": [
+      "零代码 AI 应用开发",
+      "中文生态集成优秀",
+      "多国产大模型可选",
+      "可视化工作流编辑器",
+      "免费版可用",
+      "版本迭代快（2.0→2.5→3.0）"
+    ],
+    "ja": [
+      "ノーコードAIアプリ開発",
+      "中国エコシステムとの統合に優れる",
+      "複数の国産LLMから選択可能",
+      "ビジュアルワークフローエディター",
+      "無料版で基本機能利用可能",
+      "迅速なバージョンアップデート"
+    ],
+    "es": [
+      "Desarrollo de aplicaciones AI sin código",
+      "Excelente integración con ecosistema chino",
+      "Múltiples LLM domésticos disponibles",
+      "Editor visual de flujo de trabajo",
+      "Plan gratuito disponible",
+      "Iteración rápida de versiones"
+    ],
+    "fr": [
+      "Développement d'applications IA sans code",
+      "Excellente intégration de l'écosystème chinois",
+      "Plusieurs LLM nationaux disponibles",
+      "Éditeur visuel de flux de travail",
+      "Forfait gratuit disponible",
+      "Itération rapide des versions"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Points consumed quickly for video/image generation",
+      "Free tier feature limitations",
+      "No GPT-4V/DALL-E support (domestic models only)",
+      "Daily points do not accumulate",
+      "Closed-source SaaS (except enterprise)"
+    ],
+    "zh": [
+      "视频/图片生成积分消耗快",
+      "免费版功能有限",
+      "不支持 GPT-4V/DALL-E 等海外顶级模型",
+      "每日积分不累积",
+      "闭源 SaaS（企业版除外）"
+    ],
+    "ja": [
+      "動画・画像生成でのポイント消費が速い",
+      "無料版の機能制限",
+      "GPT-4V/DALL-E対応なし",
+      "デイリーポイントは翌日に持ち越し不可",
+      "クローズドソースSaaS"
+    ],
+    "es": [
+      "Puntos consumidos rápidamente en video/imagen",
+      "Limitaciones del plan gratuito",
+      "Sin soporte GPT-4V/DALL-E",
+      "Los puntos diarios no se acumulan",
+      "SaaS de código cerrado"
+    ],
+    "fr": [
+      "Points consommés rapidement pour vidéo/image",
+      "Limitations du forfait gratuit",
+      "Pas de support GPT-4V/DALL-E",
+      "Les points quotidiens ne s'accumulent pas",
+      "SaaS propriétaire"
+    ]
+  },
+  "latestUpdate": {
+    "en": "2026.06: Coze 3.0 launched with project spaces, multi-Agent collaboration, local Agent integration, cross-platform sync, and industry expert templates. Personal advanced tier changed to ¥39.9/mo",
+    "zh": "2026年6月：扣子 3.0 正式发布，引入项目空间、多人多 Agent 协作、本地 Agent 一键接入、三端同步和行业专家模板。个人进阶版调整为 ¥39.9/月",
+    "ja": "2026年6月：Coze 3.0リリース。プロジェクトスペース、マルチエージェント協調、ローカルエージェント統合、クロスプラットフォーム同期、業界エキスパートテンプレートを導入",
+    "es": "Junio 2026: Coze 3.0 lanzado con espacios de proyecto, colaboración multi-agente, integración de agente local, sincronización multiplataforma y plantillas de expertos de la industria",
+    "fr": "Juin 2026 : Coze 3.0 lancé avec espaces projet, collaboration multi-agent, intégration d'agent local, synchronisation multiplateforme et modèles d'experts sectoriels"
+  },
+  "verdict": {
+    "badge": "Recommended",
+    "headline": {
+      "en": "The Chinese edition of Coze — ByteDance's no-code AI bot builder with domestic integrations.",
+      "zh": "Coze中国版——字节跳动的无代码AI Bot构建器，配有国内集成。",
+      "ja": "Cozeの中国版——国内統合を備えたByteDanceのノーコードAIボットビルダー。",
+      "es": "La edición china de Coze — el constructor de bots IA sin código de ByteDance con integraciones domésticas.",
+      "fr": "L'édition chinoise de Coze — le constructeur de bots IA no-code de ByteDance avec intégrations domestiques."
+    },
+    "body": {
+      "en": "Coze CN (扣子) brings ByteDance's no-code AI bot platform to the Chinese market with integrations for domestic services—Feishu, Douyin, WeChat. It lets non-developers build custom AI assistants with plugins, knowledge bases, and workflow automation.\n\nFor Chinese users, it's one of the most accessible ways to create custom AI bots without coding. The platform is free-tier generous and the domestic integrations make deployment to Chinese channels straightforward. It's limited to the Chinese ecosystem but excels within that context.",
+      "zh": "扣子将字节跳动的无代码AI Bot平台带到中国市场，集成了飞书、抖音、微信等国内服务。让非开发者能够构建带有插件、知识库和工作流自动化的自定义AI助手。\n\n对于中国用户，它是无需编程创建自定义AI Bot最便捷的方式之一。平台免费额度充裕，国内集成使得部署到国内渠道很直接。局限于国内生态但在该环境中表现出色。",
+      "ja": "Coze CN（扣子）はByteDanceのノーコードAIボットプラットフォームを中国市場に展開し、Feishu、Douyin、WeChatなどの国内サービスと統合しています。非開発者がプラグイン、ナレッジベース、ワークフロー自動化付きのカスタムAIアシスタントを構築できます。\n\n中国ユーザーにとって、コーディングなしでカスタムAIボットを作成する最もアクセスしやすい方法の一つです。国内エコシステムに限定されますがその文脈で優れています。",
+      "es": "Coze CN trae la plataforma no-code de ByteDance al mercado chino con integraciones para Feishu, Douyin y WeChat. Permite a no-desarrolladores construir asistentes IA personalizados con plugins y automatización.\n\nPara usuarios chinos, es una de las formas más accesibles de crear bots IA sin código. La plataforma es generosa en su plan gratuito y las integraciones domésticas facilitan el despliegue. Limitado al ecosistema chino pero excelente dentro de él.",
+      "fr": "Coze CN apporte la plateforme no-code de ByteDance au marché chinois avec intégrations pour Feishu, Douyin et WeChat. Permet aux non-développeurs de construire des assistants IA personnalisés avec plugins et automatisation.\n\nPour les utilisateurs chinois, c'est l'un des moyens les plus accessibles de créer des bots IA sans code. Limité à l'écosystème chinois mais excellent dans ce contexte."
+    },
+    "bestFor": {
+      "en": [
+        "Building custom AI bots for Chinese platforms",
+        "Non-developers creating AI workflows in China",
+        "Deploying bots to Feishu, Douyin, or WeChat"
+      ],
+      "zh": [
+        "为国内平台构建自定义AI Bot",
+        "国内非开发者创建AI工作流",
+        "将Bot部署到飞书、抖音或微信"
+      ],
+      "ja": [
+        "中国プラットフォーム向けカスタムAIボット構築",
+        "中国の非開発者によるAIワークフロー作成",
+        "Feishu、Douyin、WeChatへのボットデプロイ"
+      ],
+      "es": [
+        "Construir bots IA para plataformas chinas",
+        "No-desarrolladores creando workflows IA en China",
+        "Desplegar bots en Feishu, Douyin o WeChat"
+      ],
+      "fr": [
+        "Construction de bots IA pour plateformes chinoises",
+        "Non-développeurs créant des workflows IA en Chine",
+        "Déploiement de bots sur Feishu, Douyin ou WeChat"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You need international platform integrations (→ Coze global, Dify)",
+        "You want to build agents with code (→ LangChain, AutoGPT)"
+      ],
+      "zh": [
+        "需要国际平台集成（→ Coze国际版、Dify）",
+        "需要用代码构建智能体（→ LangChain、AutoGPT）"
+      ],
+      "ja": [
+        "国際プラットフォーム統合が必要な場合（→ Cozeグローバル版、Dify）",
+        "コードでエージェントを構築したい場合（→ LangChain、AutoGPT）"
+      ],
+      "es": [
+        "Necesitas integraciones de plataforma internacional (→ Coze global, Dify)",
+        "Quieres construir agentes con código (→ LangChain, AutoGPT)"
+      ],
+      "fr": [
+        "Vous avez besoin d'intégrations de plateformes internationales (→ Coze global, Dify)",
+        "Vous voulez construire des agents avec du code (→ LangChain, AutoGPT)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-27",
+    "verdictDate": "2026-07-27",
+    "pricingVerified": "2026-07-27"
+  }
+}

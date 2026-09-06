@@ -1,0 +1,28 @@
+{
+  "slug": "qodercn",
+  "name": "QoderCN",
+  "nameZh": "QoderCN",
+  "description": "Qoder 中文版，专为中文开发者优化的 AI 编码助手，支持中文交互和本地化开发体验",
+  "descriptionEn": "Qoder Chinese version, AI coding assistant optimized for Chinese developers with Chinese language interaction and localized development experience",
+  "descriptionJa": "Qoder中国語版。中国語対応のAIコーディングアシスタント",
+  "descriptionEs": "Versión china de Qoder, asistente de codificación IA optimizado para desarrolladores chinos",
+  "descriptionFr": "Version chinoise de Qoder, assistant de codage IA optimisé pour les développeurs chinois",
+  "url": "https://qoder.cn",
+  "logo": "/logos/tools/qodercn.png",
+  "category": "Code",
+  "tags": [
+    "Freemium"
+  ],
+  "featured": true,
+  "developer": "Qoder",
+  "platforms": {
+    "web": false,
+    "windows": true,
+    "macos": true,
+    "ios": false,
+    "android": false,
+    "linux": true,
+    "browser_extension": false,
+    "api": "unknown"
+  }
+}

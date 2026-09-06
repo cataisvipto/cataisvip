@@ -1,0 +1,246 @@
+{
+  "features": {
+    "en": [
+      "Low-code visual agent builder",
+      "Reusable blocks and workflows",
+      "Autonomous multi-step task execution",
+      "Cloud-hosted and self-hosted options",
+      "Agent marketplace and templates",
+      "Open-source framework"
+    ],
+    "zh": [
+      "低代码可视化智能体构建器",
+      "可复用 blocks 与工作流",
+      "自主多步任务执行",
+      "云托管与自托管选项",
+      "智能体市场与模板",
+      "开源框架"
+    ],
+    "ja": [
+      "ローコードのビジュアルエージェントビルダー",
+      "再利用可能な blocks とワークフロー",
+      "自律的なマルチステップタスク実行",
+      "クラウド／セルフホストの選択肢",
+      "エージェントマーケットとテンプレート",
+      "オープンソースフレームワーク"
+    ],
+    "es": [
+      "Constructor visual de agentes low-code",
+      "Bloques y flujos reutilizables",
+      "Ejecución autónoma de tareas de varios pasos",
+      "Opciones en la nube y autoalojadas",
+      "Marketplace y plantillas de agentes",
+      "Framework de código abierto"
+    ],
+    "fr": [
+      "Constructeur visuel d'agents low-code",
+      "Blocs et workflows réutilisables",
+      "Exécution autonome de tâches multi-étapes",
+      "Options cloud et auto-hébergées",
+      "Marketplace et modèles d'agents",
+      "Framework open source"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Open-source, self-host free",
+      "zh": "开源，自托管免费",
+      "ja": "オープンソース、セルフホストは無料",
+      "es": "Código abierto, autoalojamiento gratis",
+      "fr": "Open source, auto-hébergement gratuit"
+    },
+    "cloud": {
+      "en": "Managed cloud (beta) tiers",
+      "zh": "托管云版（Beta）分级",
+      "ja": "マネージドクラウド版（ベータ）の各プラン",
+      "es": "Planes de nube gestionada (beta)",
+      "fr": "Offres cloud géré (bêta)"
+    },
+    "api": {
+      "en": "LLM API costs apply",
+      "zh": "另计 LLM API 费用",
+      "ja": "別途 LLM API 料金が発生",
+      "es": "Se aplican costes de API de LLM",
+      "fr": "Coûts d'API LLM en sus"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Automated research agents",
+      "Data collection and processing",
+      "Content generation pipelines",
+      "Task automation experiments",
+      "Custom AI agent building",
+      "Workflow prototyping"
+    ],
+    "zh": [
+      "自动化研究智能体",
+      "数据采集与处理",
+      "内容生成流水线",
+      "任务自动化实验",
+      "自定义 AI 智能体构建",
+      "工作流原型"
+    ],
+    "ja": [
+      "自動リサーチエージェント",
+      "データ収集と処理",
+      "コンテンツ生成パイプライン",
+      "タスク自動化の実験",
+      "カスタム AI エージェント構築",
+      "ワークフローのプロトタイピング"
+    ],
+    "es": [
+      "Agentes de investigación automatizados",
+      "Recopilación y procesamiento de datos",
+      "Pipelines de generación de contenido",
+      "Experimentos de automatización de tareas",
+      "Creación de agentes de IA personalizados",
+      "Prototipado de flujos de trabajo"
+    ],
+    "fr": [
+      "Agents de recherche automatisés",
+      "Collecte et traitement de données",
+      "Pipelines de génération de contenu",
+      "Expériences d'automatisation de tâches",
+      "Création d'agents IA personnalisés",
+      "Prototypage de workflows"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Open-source and free to self-host",
+      "Visual low-code builder",
+      "Reusable modular blocks",
+      "Active community"
+    ],
+    "zh": [
+      "开源且可免费自托管",
+      "可视化低代码构建",
+      "模块化可复用 blocks",
+      "社区活跃"
+    ],
+    "ja": [
+      "オープンソースで無料セルフホスト可",
+      "ビジュアルなローコードビルダー",
+      "モジュール式の再利用 blocks",
+      "活発なコミュニティ"
+    ],
+    "es": [
+      "Código abierto y autoalojable gratis",
+      "Constructor visual low-code",
+      "Bloques modulares reutilizables",
+      "Comunidad activa"
+    ],
+    "fr": [
+      "Open source et auto-hébergeable gratuitement",
+      "Constructeur visuel low-code",
+      "Blocs modulaires réutilisables",
+      "Communauté active"
+    ]
+  },
+  "cons": {
+    "en": [
+      "LLM API costs can be high",
+      "Autonomy can be unpredictable",
+      "Setup requires technical effort"
+    ],
+    "zh": [
+      "LLM API 成本可能较高",
+      "自主性结果不稳定",
+      "部署需一定技术投入"
+    ],
+    "ja": [
+      "LLM API コストが高くなり得る",
+      "自律動作は予測しにくい",
+      "導入に技術的な手間が必要"
+    ],
+    "es": [
+      "Los costes de API de LLM pueden ser altos",
+      "La autonomía puede ser impredecible",
+      "La configuración requiere esfuerzo técnico"
+    ],
+    "fr": [
+      "Les coûts d'API LLM peuvent être élevés",
+      "L'autonomie peut être imprévisible",
+      "L'installation demande un effort technique"
+    ]
+  },
+  "latestUpdate": {
+    "en": "July 2026: AutoGPT evolved into a low-code platform with a visual builder and reusable blocks for building agents",
+    "zh": "2026年7月：AutoGPT 演进为低代码平台，提供可视化构建器与可复用 blocks 来搭建智能体",
+    "ja": "2026年7月：AutoGPT は、エージェント構築のためのビジュアルビルダーと再利用可能な blocks を備えたローコードプラットフォームへ進化",
+    "es": "Julio de 2026: AutoGPT evolucionó a una plataforma low-code con un constructor visual y bloques reutilizables para crear agentes",
+    "fr": "Juillet 2026 : AutoGPT est devenu une plateforme low-code avec un constructeur visuel et des blocs réutilisables pour créer des agents"
+  },
+  "verdict": {
+    "badge": "Worth Trying",
+    "headline": {
+      "en": "The original autonomous AI agent framework — experimental but community-driven.",
+      "zh": "最初的自主AI智能体框架——实验性但社区驱动。",
+      "ja": "オリジナルの自律AIエージェントフレームワーク——実験的だがコミュニティ駆動。",
+      "es": "El framework original de agentes IA autónomos — experimental pero impulsado por la comunidad.",
+      "fr": "Le framework original d'agents IA autonomes — expérimental mais porté par la communauté."
+    },
+    "body": {
+      "en": "AutoGPT pioneered the concept of autonomous AI agents that can break down goals into sub-tasks and execute them independently. While the initial hype has normalized, the project continues evolving with a large community contributing improvements and use cases.\n\nReliability remains inconsistent for production use. It works best as an experimentation platform for understanding agent capabilities. For production agent systems, more structured frameworks like LangChain or managed platforms like Dify offer better reliability.",
+      "zh": "AutoGPT 开创了自主AI智能体的概念——能将目标分解为子任务并独立执行。虽然最初的热度已回归理性，项目仍在大规模社区推动下持续演进。\n\n生产用途的可靠性仍不稳定。它最适合作为理解智能体能力的实验平台。对于生产级智能体系统，LangChain等更结构化的框架或Dify等托管平台提供更好的可靠性。",
+      "ja": "AutoGPTは目標をサブタスクに分解し独立実行する自律AIエージェントの概念を開拓しました。初期のハイプは落ち着きましたが、大規模コミュニティの貢献で進化を続けています。\n\n本番利用の信頼性はまだ不安定です。エージェント機能を理解する実験プラットフォームとして最適です。本番エージェントシステムにはLangChainやDifyの方が信頼性が高いです。",
+      "es": "AutoGPT fue pionero en el concepto de agentes IA autónomos que descomponen objetivos en sub-tareas. Aunque el hype inicial se ha normalizado, el proyecto sigue evolucionando con una gran comunidad.\n\nLa fiabilidad sigue siendo inconsistente para producción. Funciona mejor como plataforma de experimentación. Para sistemas de agentes en producción, LangChain o Dify ofrecen mejor fiabilidad.",
+      "fr": "AutoGPT a été pionnier du concept d'agents IA autonomes décomposant les objectifs en sous-tâches. Bien que le hype initial se soit normalisé, le projet continue d'évoluer avec une grande communauté.\n\nLa fiabilité reste inconsistante pour la production. Il fonctionne mieux comme plateforme d'expérimentation. Pour les systèmes d'agents en production, LangChain ou Dify offrent une meilleure fiabilité."
+    },
+    "bestFor": {
+      "en": [
+        "Learning about autonomous AI agents",
+        "Experimental agent workflows",
+        "Community-driven agent development"
+      ],
+      "zh": [
+        "学习自主AI智能体",
+        "实验性智能体工作流",
+        "社区驱动的智能体开发"
+      ],
+      "ja": [
+        "自律AIエージェントについての学習",
+        "実験的エージェントワークフロー",
+        "コミュニティ駆動のエージェント開発"
+      ],
+      "es": [
+        "Aprender sobre agentes IA autónomos",
+        "Flujos de agentes experimentales",
+        "Desarrollo de agentes impulsado por comunidad"
+      ],
+      "fr": [
+        "Apprendre sur les agents IA autonomes",
+        "Workflows d'agents expérimentaux",
+        "Développement d'agents porté par la communauté"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You need production-ready agent orchestration (→ LangChain, Dify)",
+        "You want a managed no-code agent builder (→ Coze, Manus)"
+      ],
+      "zh": [
+        "需要生产就绪的智能体编排（→ LangChain、Dify）",
+        "需要托管的无代码智能体构建器（→ Coze、Manus）"
+      ],
+      "ja": [
+        "本番対応のエージェントオーケストレーションが必要な場合（→ LangChain、Dify）",
+        "マネージドなノーコードエージェントビルダーが必要な場合（→ Coze、Manus）"
+      ],
+      "es": [
+        "Necesitas orquestación de agentes lista para producción (→ LangChain, Dify)",
+        "Quieres un constructor de agentes no-code gestionado (→ Coze, Manus)"
+      ],
+      "fr": [
+        "Vous avez besoin d'orchestration d'agents prête pour la production (→ LangChain, Dify)",
+        "Vous voulez un constructeur d'agents no-code géré (→ Coze, Manus)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-29",
+    "verdictDate": "2026-07-27",
+    "pricingVerified": "2026-07-27"
+  }
+}

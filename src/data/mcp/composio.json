@@ -1,0 +1,78 @@
+{
+  "slug": "composio",
+  "name": "Composio",
+  "nameZh": "Composio",
+  "description": "Composio 是面向 AI 智能体的工具集平台，提供 1000+ 预授权工具集（Gmail、Slack、GitHub、Notion 等）、按用户会话、认证、触发器与沙箱，可通过 MCP 一键接入编码智能体。",
+  "descriptionEn": "Composio is a toolset platform for AI agents, offering 1,000+ pre-authenticated toolkits (Gmail, Slack, GitHub, Notion, etc.) plus per-user sessions, auth, triggers and a sandbox, all connectable to coding agents over MCP.",
+  "descriptionJa": "Composio は AI エージェント向けのツールセットプラットフォームで、1,000 以上の事前認証済みツールキット（Gmail、Slack、GitHub、Notion など）、ユーザーごとのセッション、認証、トリガー、サンドボックスを提供し、MCP 経由でコーディングエージェントに接続できます。",
+  "descriptionEs": "Composio es una plataforma de conjuntos de herramientas para agentes de IA que ofrece más de 1000 kits preautenticados (Gmail, Slack, GitHub, Notion, etc.), sesiones por usuario, autenticación, disparadores y un sandbox, todo conectable a agentes de código mediante MCP.",
+  "descriptionFr": "Composio est une plateforme de boîtes à outils pour agents IA offrant plus de 1000 kits pré-authentifiés (Gmail, Slack, GitHub, Notion, etc.), des sessions par utilisateur, l'authentification, des déclencheurs et un bac à sable, le tout connectable aux agents de codage via MCP.",
+  "developer": "Composio",
+  "developerZh": "Composio",
+  "repo": "ComposioHQ/composio",
+  "clients": [
+    "claude",
+    "cursor",
+    "vscode",
+    "generic"
+  ],
+  "category": "Registry",
+  "tags": [
+    "Free",
+    "Open Source"
+  ],
+  "installCommand": "npx -y @composio/mcp",
+  "logo": "/logos/mcp/composio.png",
+  "stars": 30050,
+  "featured": false,
+  "faqs": [
+    {
+      "question": {
+        "zh": "Composio 和普通 MCP 服务器有什么区别？",
+        "en": "How is Composio different from a single MCP server?",
+        "ja": "Composio は単一の MCP サーバーと何が違いますか？",
+        "es": "¿En qué se diferencia Composio de un servidor MCP individual?",
+        "fr": "En quoi Composio diffère-t-il d'un simple serveur MCP ?"
+      },
+      "answer": {
+        "zh": "普通 MCP 服务器通常只接一个应用，而 Composio 是聚合平台：一个入口即可为智能体接入 1000+ 应用工具集，并统一处理 OAuth 认证、多用户会话与触发器，省去逐个搭建服务器的麻烦。",
+        "en": "A typical MCP server connects to one app, whereas Composio is an aggregator: a single entry point gives your agent 1,000+ app toolkits and handles OAuth, multi-user sessions and triggers for you, so you avoid wiring up servers one by one.",
+        "ja": "通常の MCP サーバーは 1 つのアプリに接続しますが、Composio はアグリゲーターです。単一の入口でエージェントに 1,000 以上のアプリツールキットを提供し、OAuth 認証・マルチユーザーセッション・トリガーを一括処理するため、個別にサーバーを構築する手間が省けます。",
+        "es": "Un servidor MCP típico conecta con una sola app, mientras que Composio es un agregador: un único punto de entrada da a tu agente más de 1000 kits de apps y gestiona OAuth, sesiones multiusuario y disparadores, evitando montar servidores uno a uno.",
+        "fr": "Un serveur MCP classique se connecte à une seule application, alors que Composio est un agrégateur : un point d'entrée unique donne à votre agent plus de 1000 kits d'applications et gère l'OAuth, les sessions multi-utilisateurs et les déclencheurs, vous évitant de câbler les serveurs un par un."
+      }
+    },
+    {
+      "question": {
+        "zh": "Composio 怎么接入我的智能体？",
+        "en": "How do I connect Composio to my agent?",
+        "ja": "Composio をエージェントに接続するには？",
+        "es": "¿Cómo conecto Composio a mi agente?",
+        "fr": "Comment connecter Composio à mon agent ?"
+      },
+      "answer": {
+        "zh": "通过 npx -y @composio/mcp 命令行工具配置 MCP 连接即可，也可用 @composio/core SDK 直接集成到 OpenAI、Anthropic、LangChain 等框架。首次使用需在 composio.dev 注册获取 API Key。",
+        "en": "Use the npx -y @composio/mcp CLI to set up the MCP connection, or integrate directly via the @composio/core SDK with OpenAI, Anthropic, LangChain and more. You will need an API key from composio.dev on first use.",
+        "ja": "npx -y @composio/mcp の CLI で MCP 接続を設定するか、@composio/core SDK で OpenAI・Anthropic・LangChain などに直接統合できます。初回利用時は composio.dev で API キーを取得してください。",
+        "es": "Usa la CLI npx -y @composio/mcp para configurar la conexión MCP, o intégralo directamente con el SDK @composio/core en OpenAI, Anthropic, LangChain y más. Necesitarás una clave API de composio.dev la primera vez.",
+        "fr": "Utilisez la CLI npx -y @composio/mcp pour configurer la connexion MCP, ou intégrez-le directement via le SDK @composio/core avec OpenAI, Anthropic, LangChain, etc. Une clé API de composio.dev est requise lors de la première utilisation."
+      }
+    },
+    {
+      "question": {
+        "zh": "Composio 是开源和免费的吗？",
+        "en": "Is Composio open source and free?",
+        "ja": "Composio はオープンソースで無料ですか？",
+        "es": "¿Composio es de código abierto y gratuito?",
+        "fr": "Composio est-il open source et gratuit ?"
+      },
+      "answer": {
+        "zh": "核心 SDK 与 CLI 开源（GitHub 近 3 万星），提供免费额度；托管平台按调用量与高级功能分档收费，个人开发与小规模使用通常在免费额度内。",
+        "en": "The core SDK and CLI are open source (nearly 30k GitHub stars) with a free tier; the hosted platform charges by usage and advanced features, though individual and small-scale use usually fits within the free tier.",
+        "ja": "コア SDK と CLI はオープンソース（GitHub で約 3 万スター）で無料枠があります。ホスト型プラットフォームは利用量と高度な機能に応じて課金されますが、個人や小規模の利用は通常無料枠内に収まります。",
+        "es": "El SDK y la CLI centrales son de código abierto (casi 30k estrellas en GitHub) con un nivel gratuito; la plataforma alojada cobra por uso y funciones avanzadas, aunque el uso individual y a pequeña escala suele caber en el nivel gratuito.",
+        "fr": "Le SDK et la CLI de base sont open source (près de 30k étoiles GitHub) avec une offre gratuite ; la plateforme hébergée facture selon l'usage et les fonctionnalités avancées, mais l'usage individuel et à petite échelle tient généralement dans l'offre gratuite."
+      }
+    }
+  ]
+}

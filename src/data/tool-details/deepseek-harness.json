@@ -1,0 +1,640 @@
+{
+  "features": {
+    "en": [
+      "Cordis plugin architecture — everything is a plugin",
+      "Multiple agent modes: Standard, PTC (Code), Minimal, Creative",
+      "Trajectory view for full session replay and debugging",
+      "Plugin ecosystem with model, tool, skill, sandbox, storage, scheduling, and UI plugins",
+      "Web UI served at localhost:3080 by default",
+      "Session logging with append-only event stream for recovery, forking, and replay",
+      "Open source under MIT license"
+    ],
+    "zh": [
+      "Cordis 插件架构——一切皆插件",
+      "多种 Agent 模式：标准模式、PTC（代码）模式、极简模式、创造模式",
+      "Trajectory 视图，完整回放和调试运行过程",
+      "插件生态覆盖模型、工具、技能、沙箱、存储、调度、UI 等全部能力",
+      "Web UI 默认运行在 localhost:3080",
+      "仅追加的会话日志，支持恢复、分叉、检索与回放",
+      "MIT 开源许可证"
+    ],
+    "ja": [
+      "Cordis プラグインアーキテクチャ — すべてがプラグイン",
+      "複数のエージェントモード：標準、PTC（コード）、ミニマル、クリエイティブ",
+      "Trajectory ビューによる完全なセッションリプレイとデバッグ",
+      "モデル、ツール、スキル、サンドボックス、ストレージ、スケジューリング、UI をカバーするプラグインエコシステム",
+      "デフォルトで localhost:3080 で提供される Web UI",
+      "追記専用のイベントストリームによるセッションログ、復元、フォーク、リプレイに対応",
+      "MIT ライセンスのオープンソース"
+    ],
+    "es": [
+      "Arquitectura de plugins Cordis — todo es un plugin",
+      "Múltiples modos de agente: Estándar, PTC (Código), Mínimo, Creativo",
+      "Vista Trajectory para reproducción y depuración completa de sesiones",
+      "Ecosistema de plugins que cubre modelos, herramientas, habilidades, sandboxes, almacenamiento, programación y UI",
+      "Interfaz web servida en localhost:3080 por defecto",
+      "Registro de sesiones con flujo de eventos de solo añadido para recuperación, bifurcación y reproducción",
+      "Código abierto bajo licencia MIT"
+    ],
+    "fr": [
+      "Architecture de plugins Cordis — tout est un plugin",
+      "Plusieurs modes d'agent : Standard, PTC (Code), Minimal, Créatif",
+      "Vue Trajectory pour la relecture et le débogage complets des sessions",
+      "Écosystème de plugins couvrant modèles, outils, compétences, sandboxes, stockage, ordonnancement et UI",
+      "Interface web servie sur localhost:3080 par défaut",
+      "Journalisation des sessions avec flux d'événements append-only pour la récupération, le fork et la relecture",
+      "Open source sous licence MIT"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Free and open source (MIT)",
+      "zh": "免费开源（MIT）",
+      "ja": "無料でオープンソース（MIT）",
+      "es": "Gratuito y de código abierto (MIT)",
+      "fr": "Gratuit et open source (MIT)"
+    },
+    "paid": {
+      "en": "N/A — fully open source",
+      "zh": "不适用——完全开源",
+      "ja": "該当なし — 完全にオープンソース",
+      "es": "N/A — completamente open source",
+      "fr": "N/A — entièrement open source"
+    },
+    "freemium": {
+      "en": "N/A",
+      "zh": "不适用",
+      "ja": "該当なし",
+      "es": "N/A",
+      "fr": "N/A"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Building and deploying custom AI agents with a modular plugin architecture",
+      "Developing and testing new agent capabilities as Cordis plugins",
+      "Running coding agents in multiple modes (Standard, PTC, Minimal, Creative)",
+      "Debugging agent behavior through Trajectory session replay",
+      "Creating custom agent presets and configurations"
+    ],
+    "zh": [
+      "使用模块化插件架构构建和部署自定义 AI Agent",
+      "以 Cordis 插件形式开发和测试新的 Agent 能力",
+      "在多种模式（标准、PTC、极简、创造）下运行编码 Agent",
+      "通过 Trajectory 会话回放调试 Agent 行为",
+      "创建自定义 Agent 预设和配置"
+    ],
+    "ja": [
+      "モジュラープラグインアーキテクチャを使用したカスタム AI エージェントの構築とデプロイ",
+      "Cordis プラグインとしての新しいエージェント機能の開発とテスト",
+      "複数モード（標準、PTC、ミニマル、クリエイティブ）でのコーディングエージェントの実行",
+      "Trajectory セッションリプレイによるエージェント動作のデバッグ",
+      "カスタムエージェントプリセットと設定の作成"
+    ],
+    "es": [
+      "Construir y desplegar agentes de IA personalizados con una arquitectura modular de plugins",
+      "Desarrollar y probar nuevas capacidades de agente como plugins de Cordis",
+      "Ejecutar agentes de codificación en múltiples modos (Estándar, PTC, Mínimo, Creativo)",
+      "Depurar el comportamiento del agente mediante la reproducción de sesiones Trajectory",
+      "Crear presets y configuraciones de agente personalizados"
+    ],
+    "fr": [
+      "Construire et déployer des agents IA personnalisés avec une architecture modulaire de plugins",
+      "Développer et tester de nouvelles capacités d'agent en tant que plugins Cordis",
+      "Exécuter des agents de codage dans plusieurs modes (Standard, PTC, Minimal, Créatif)",
+      "Déboguer le comportement des agents via la relecture de sessions Trajectory",
+      "Créer des presets et configurations d'agent personnalisés"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Truly modular architecture — every capability is a plugin, enabling unlimited customization",
+      "Built on Cordis, a well-designed plugin system with academic foundations",
+      "Multiple agent modes cater to different use cases from full-featured to minimal",
+      "Trajectory view provides excellent debugging and observability",
+      "MIT licensed — fully open source with no restrictions",
+      "Backed by DeepSeek, a leading AI research company"
+    ],
+    "zh": [
+      "真正的模块化架构——每个能力都是插件，支持无限定制",
+      "基于 Cordis 构建，具有学术论文支撑的插件系统设计",
+      "多种 Agent 模式满足从全功能到极简的不同使用场景",
+      "Trajectory 视图提供出色的调试和可观测性",
+      "MIT 许可证——完全开源，无任何限制",
+      "由领先的 AI 研究公司深度求索背书"
+    ],
+    "ja": [
+      "真のモジュラーアーキテクチャ — すべての機能がプラグインで、無限のカスタマイズが可能",
+      "学術的な基盤を持つ Cordis プラグインシステム上に構築",
+      "複数のエージェントモードがフル機能からミニマルまで様々なユースケースに対応",
+      "Trajectory ビューが優れたデバッグと可観測性を提供",
+      "MIT ライセンス — 完全にオープンソースで制限なし",
+      "大手 AI 研究企業である DeepSeek がバックアップ"
+    ],
+    "es": [
+      "Arquitectura verdaderamente modular — cada capacidad es un plugin, permitiendo personalización ilimitada",
+      "Construido sobre Cordis, un sistema de plugins bien diseñado con fundamentos académicos",
+      "Múltiples modos de agente que se adaptan a diferentes casos de uso, desde completos hasta mínimos",
+      "La vista Trajectory proporciona excelente depuración y observabilidad",
+      "Con licencia MIT — completamente open source sin restricciones",
+      "Respaldado por DeepSeek, una empresa líder en investigación de IA"
+    ],
+    "fr": [
+      "Architecture véritablement modulaire — chaque capacité est un plugin, permettant une personnalisation illimitée",
+      "Construit sur Cordis, un système de plugins bien conçu avec des fondements académiques",
+      "Plusieurs modes d'agent répondant à différents cas d'utilisation, du complet au minimal",
+      "La vue Trajectory offre un excellent débogage et une observabilité",
+      "Sous licence MIT — entièrement open source sans restrictions",
+      "Soutenu par DeepSeek, une entreprise leader en recherche IA"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Developer preview — rapid iteration with breaking changes expected",
+      "Very new project (August 2026) — ecosystem and documentation are still maturing",
+      "Requires Node.js runtime — not a standalone binary",
+      "Web UI is local-only by default, no built-in cloud deployment",
+      "Plugin ecosystem is nascent — limited third-party plugins available"
+    ],
+    "zh": [
+      "开发者预览版——快速迭代中，存在破坏性变更",
+      "项目非常新（2026年8月）——生态和文档仍在完善中",
+      "需要 Node.js 运行环境——非独立二进制程序",
+      "Web UI 默认为本地运行，无内置云部署方案",
+      "插件生态尚处早期——第三方插件有限"
+    ],
+    "ja": [
+      "開発者プレビュー — 急速なイテレーション中で互換性を破壊する変更あり",
+      "非常に新しいプロジェクト（2026年8月）— エコシステムとドキュメントは発展途上",
+      "Node.js ランタイムが必要 — スタンドアロンバイナリではない",
+      "Web UI はデフォルトでローカルのみ、組み込みのクラウドデプロイメントはなし",
+      "プラグインエコシステムは初期段階 — サードパーティプラグインは限定的"
+    ],
+    "es": [
+      "Vista previa para desarrolladores — iteración rápida con cambios que rompen la compatibilidad",
+      "Proyecto muy nuevo (agosto 2026) — el ecosistema y la documentación aún están madurando",
+      "Requiere Node.js — no es un binario independiente",
+      "La interfaz web es solo local por defecto, sin implementación en la nube integrada",
+      "El ecosistema de plugins es incipiente — pocos plugins de terceros disponibles"
+    ],
+    "fr": [
+      "Aperçu développeur — itération rapide avec des changements de rupture attendus",
+      "Projet très récent (août 2026) — l'écosystème et la documentation sont encore en maturation",
+      "Nécessite l'environnement d'exécution Node.js — pas un binaire autonome",
+      "L'interface web est locale seulement par défaut, sans déploiement cloud intégré",
+      "L'écosystème de plugins est naissant — plugins tiers limités"
+    ]
+  },
+  "latestUpdate": {
+    "en": "2026-08-13 (Developer Preview)",
+    "zh": "2026-08-13（开发者预览版）",
+    "ja": "2026-08-13（開発者プレビュー）",
+    "es": "2026-08-13 (Vista previa para desarrolladores)",
+    "fr": "2026-08-13 (Aperçu développeur)"
+  },
+  "summary": {
+    "en": "DeepSeek Harness is an open-source agent platform built on the Cordis plugin system. Its \"everything is a plugin\" architecture allows developers to compose, replace, and extend every aspect of an AI agent — models, tools, skills, sessions, sandboxes, storage, scheduling, and UI — through configuration rather than code changes.",
+    "zh": "DeepSeek Harness 是一个基于 Cordis 插件系统的开源 Agent 平台。其\"一切皆插件\"架构让开发者可以通过配置而非代码修改，自由组合、替换和扩展 AI Agent 的每一个方面——模型、工具、技能、会话、沙箱、存储、调度和 UI。",
+    "ja": "DeepSeek Harness は、Cordis プラグインシステム上に構築されたオープンソースのエージェントプラットフォームです。「すべてがプラグイン」というアーキテクチャにより、開発者はコード変更ではなく設定を通じて、モデル、ツール、スキル、セッション、サンドボックス、ストレージ、スケジューリング、UI など AI エージェントのあらゆる側面を構成、置換、拡張できます。",
+    "es": "DeepSeek Harness es una plataforma de agentes de código abierto construida sobre el sistema de plugins Cordis. Su arquitectura de \"todo es un plugin\" permite a los desarrolladores componer, reemplazar y extender cada aspecto de un agente de IA — modelos, herramientas, habilidades, sesiones, sandboxes, almacenamiento, programación y UI — a través de la configuración en lugar de cambios de código.",
+    "fr": "DeepSeek Harness est une plateforme d'agent open-source construite sur le système de plugins Cordis. Son architecture « tout est un plugin » permet aux développeurs de composer, remplacer et étendre chaque aspect d'un agent IA — modèles, outils, compétences, sessions, sandboxes, stockage, ordonnancement et UI — via la configuration plutôt que des modifications de code."
+  },
+  "alternatives": [
+    "autogpt",
+    "dify"
+  ],
+  "verdict": {
+    "badge": "Game-Changing",
+    "headline": {
+      "en": "Redefining agent architecture with a truly modular plugin system",
+      "zh": "以真正模块化的插件系统重新定义 Agent 架构",
+      "ja": "真にモジュール化されたプラグインシステムでエージェントアーキテクチャを再定義",
+      "es": "Redefiniendo la arquitectura de agentes con un sistema de plugins verdaderamente modular",
+      "fr": "Redéfinir l'architecture des agents avec un système de plugins véritablement modulaire"
+    },
+    "body": {
+      "en": "DeepSeek Harness brings a paradigm shift to agent development by building everything on Cordis's plugin architecture. Every capability — from the model backend to the UI — is a swappable plugin, making it the most modular agent platform available. While still in developer preview with a nascent plugin ecosystem, its architectural elegance and backing by DeepSeek position it as a potential game-changer in the agent development space. The trajectory view, multiple agent modes, and session replay capabilities already provide a solid foundation for both development and production use.",
+      "zh": "DeepSeek Harness 将一切建立在 Cordis 插件架构之上，带来了 Agent 开发的范式转变。从模型后端到 UI，每一个能力都是可替换的插件，使其成为目前最模块化的 Agent 平台。虽然仍处于开发者预览版阶段，插件生态尚在早期，但其架构优雅性和深度求索的背书使其有潜力成为 Agent 开发领域的变革者。Trajectory 视图、多种 Agent 模式和会话回放能力已经为开发和生产使用提供了坚实基础。",
+      "ja": "DeepSeek Harness は、Cordis のプラグインアーキテクチャ上にすべてを構築することで、エージェント開発にパラダイムシフトをもたらします。モデルバックエンドから UI まですべての機能が交換可能なプラグインであり、現在最もモジュール化されたエージェントプラットフォームです。開発者プレビュー段階でプラグインエコシステムは初期段階ですが、そのアーキテクチャの優雅さと DeepSeek のバックアップにより、エージェント開発分野でゲームチェンジャーとなる可能性を秘めています。Trajectory ビュー、複数のエージェントモード、セッションリプレイ機能は、すでに開発と本番利用の両方に強固な基盤を提供しています。",
+      "es": "DeepSeek Harness trae un cambio de paradigma al desarrollo de agentes al construir todo sobre la arquitectura de plugins de Cordis. Cada capacidad — desde el backend del modelo hasta la UI — es un plugin intercambiable, lo que lo convierte en la plataforma de agentes más modular disponible. Aunque todavía está en vista previa para desarrolladores con un ecosistema de plugins incipiente, su elegancia arquitectónica y el respaldo de DeepSeek lo posicionan como un posible cambio de juego en el espacio de desarrollo de agentes. La vista Trajectory, los múltiples modos de agente y las capacidades de reproducción de sesiones ya proporcionan una base sólida tanto para el desarrollo como para el uso en producción.",
+      "fr": "DeepSeek Harness apporte un changement de paradigme au développement d'agents en construisant tout sur l'architecture de plugins de Cordis. Chaque capacité — du backend du modèle à l'interface utilisateur — est un plugin interchangeable, ce qui en fait la plateforme d'agents la plus modulaire disponible. Bien qu'encore en aperçu développeur avec un écosystème de plugins naissant, son élégance architecturale et le soutien de DeepSeek la positionnent comme un potentiel changeur de jeu dans le domaine du développement d'agents. La vue Trajectory, les multiples modes d'agent et les capacités de relecture de sessions fournissent déjà une base solide pour le développement et l'utilisation en production."
+    },
+    "bestFor": {
+      "en": [
+        "Developers building custom AI agents",
+        "Researchers exploring agent architectures",
+        "Teams wanting full control over agent stack"
+      ],
+      "zh": [
+        "构建自定义 AI Agent 的开发者",
+        "研究 Agent 架构的研究人员",
+        "希望完全控制 Agent 技术栈的团队"
+      ],
+      "ja": [
+        "カスタム AI エージェントを構築する開発者",
+        "エージェントアーキテクチャを探求する研究者",
+        "エージェントスタックを完全に制御したいチーム"
+      ],
+      "es": [
+        "Desarrolladores que construyen agentes de IA personalizados",
+        "Investigadores que exploran arquitecturas de agentes",
+        "Equipos que quieren control total sobre la pila de agentes"
+      ],
+      "fr": [
+        "Développeurs construisant des agents IA personnalisés",
+        "Chercheurs explorant les architectures d'agents",
+        "Équipes voulant un contrôle total sur la pile d'agents"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "AutoGPT (mature agent framework with broader ecosystem)",
+        "Dify (visual agent builder with more GUI tools)"
+      ],
+      "zh": [
+        "AutoGPT（成熟的 Agent 框架，生态更广泛）",
+        "Dify（可视化 Agent 构建器，GUI 工具更丰富）"
+      ],
+      "ja": [
+        "AutoGPT（成熟したエージェントフレームワーク、より広範なエコシステム）",
+        "Dify（より多くの GUI ツールを備えたビジュアルエージェントビルダー）"
+      ],
+      "es": [
+        "AutoGPT (marco de agente maduro con ecosistema más amplio)",
+        "Dify (constructor visual de agentes con más herramientas GUI)"
+      ],
+      "fr": [
+        "AutoGPT (framework d'agent mature avec un écosystème plus large)",
+        "Dify (constructeur visuel d'agents avec plus d'outils GUI)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-08-15",
+    "verdictDate": "2026-08-15",
+    "pricingVerified": "2026-08-15",
+    "pricingUrl": "https://github.com/deepseek-ai/deepseek-harness"
+  },
+  "tutorial": {
+    "en": {
+      "title": "Get Started with DeepSeek Harness in 5 Steps",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Install and start the Web UI",
+          "content": "Install Node.js, then run `npx @deepseek-ai/dsh web` to start the Web UI, served at http://127.0.0.1:3080 by default. The dsh process uses its invoking directory as the default filesystem location. To run from source, clone the repository, run pnpm install, pnpm run build, and pnpm dsh web.\n\n![](images/tutorials/dsh-web-ui-welcome.png)",
+          "commands": [
+            {
+              "label": "Start Web UI",
+              "code": "npx @deepseek-ai/dsh web"
+            },
+            {
+              "label": "Run from source",
+              "code": "git clone https://github.com/deepseek-ai/deepseek-harness.git && cd deepseek-harness && pnpm install && pnpm run build && pnpm dsh web"
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "title": "Configure a model",
+          "content": "Open Settings → Models, enter a DeepSeek API key, and save it. The model route becomes usable immediately without restarting the server. To add other providers, choose Add provider and select one from the installed catalog (Anthropic, OpenAI, etc.), or choose Add a custom provider for a company gateway or self-hosted OpenAI-compatible endpoint — supply a lowercase Provider ID, base URL, API protocol, credential, and at least one model. You can also fetch available models from the endpoint before saving.\n\n![](images/tutorials/dsh-settings-models.png)",
+          "commands": [
+            {
+              "label": "Custom provider YAML (vision model)",
+              "code": "llm-pi-ai:\n  providers:\n    my-gateway:\n      apiKeyEnv: GATEWAY_API_KEY\n      api: openai-completions\n      baseURL: https://gateway.example/v1\n      models:\n        - id: vision-preview\n          input: [text, image]"
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "title": "Choose a workspace",
+          "content": "Click Choose workspace, add the project directory where you started dsh, and select it. A fresh Web UI has no selected workspace until you add one — the session composer remains unavailable until a workspace is selected.",
+          "commands": [
+            {
+              "label": "Note",
+              "code": "A fresh Web UI requires selecting a workspace before the session composer is available."
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "title": "Run a task in a session",
+          "content": "Start a session and send a prompt, for example: \"Summarize this repository and identify its main packages.\" The agent can read and edit workspace files, run commands, delegate work, and maintain a plan. The Web UI asks before operations that require approval under the active permission policy.",
+          "commands": [
+            {
+              "label": "Example prompt",
+              "code": "Summarize this repository and identify its main packages."
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "title": "Go further: CLI modes and the Python SDK",
+          "content": "Beyond the Web UI, dsh offers CLI entry modes — run a single headless session with `dsh --profile headless \"job\"` for a one-shot persisted session. For programmatic use, install the Python SDK (`python -m pip install deepseek-harness-sdk`, Python 3.10+, Linux/macOS), set DEEPSEEK_API_KEY, and drive the harness from your own program.",
+          "commands": [
+            {
+              "label": "Headless CLI",
+              "code": "dsh --profile headless \"Inspect the repository and fix the failing tests.\""
+            },
+            {
+              "label": "Install Python SDK",
+              "code": "python -m venv .venv && . .venv/bin/activate && python -m pip install deepseek-harness-sdk && export DEEPSEEK_API_KEY=sk-..."
+            },
+            {
+              "label": "SDK usage",
+              "code": "from deepseek_harness import DeepSeekHarness\n\nwith DeepSeekHarness(\n    provider=\"deepseek-official\",\n    model=\"deepseek-v4-flash\",\n    max_tokens=49152,\n    cwd=\"/path/to/workspace\",\n    session_root=\"/path/to/sessions\",\n    cordis=\"examples/jsonrpc-agent/minimal.cordis.yml\",\n) as harness:\n    result = harness.run(\n        \"Inspect the repository and fix the failing tests.\",\n        session_id=\"example-001\",\n    )\n\nprint(result.final_response)"
+            }
+          ]
+        }
+      ]
+    },
+    "zh": {
+      "title": "5 步上手 DeepSeek Harness",
+      "steps": [
+        {
+          "step": 1,
+          "title": "安装并启动 Web UI",
+          "content": "安装 Node.js 后，运行 `npx @deepseek-ai/dsh web` 启动 Web UI，默认服务地址为 http://127.0.0.1:3080。dsh 进程会把调用目录作为默认文件系统位置。也可以从源码运行：克隆仓库后依次执行 pnpm install、pnpm run build、pnpm dsh web。\n\n![](images/tutorials/dsh-web-ui-welcome.png)",
+          "commands": [
+            {
+              "label": "启动 Web UI",
+              "code": "npx @deepseek-ai/dsh web"
+            },
+            {
+              "label": "从源码运行",
+              "code": "git clone https://github.com/deepseek-ai/deepseek-harness.git && cd deepseek-harness && pnpm install && pnpm run build && pnpm dsh web"
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "title": "配置模型",
+          "content": "打开「设置 → 模型」，输入 DeepSeek API 密钥并保存，模型路由会立即可用，无需重启服务器。要接入其他提供方，选择「添加提供方」并从已安装目录中选取（Anthropic、OpenAI 等）；对于公司网关或自建 OpenAI 兼容端点，选择「添加自定义提供方」——提供小写 Provider ID、基础 URL、API 协议、凭据和至少一个模型。保存前还可以从端点「获取可用模型」。\n\n![](images/tutorials/dsh-settings-models.png)",
+          "commands": [
+            {
+              "label": "自定义提供方 YAML（视觉模型示例）",
+              "code": "llm-pi-ai:\n  providers:\n    my-gateway:\n      apiKeyEnv: GATEWAY_API_KEY\n      api: openai-completions\n      baseURL: https://gateway.example/v1\n      models:\n        - id: vision-preview\n          input: [text, image]"
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "title": "选择工作区",
+          "content": "点击「选择工作区」，添加启动 dsh 时所在的项目目录并选中。新的 Web UI 在添加工作区前不会选中任何工作区——选中工作区前，会话输入框不可用。",
+          "commands": [
+            {
+              "label": "提示",
+              "code": "新的 Web UI 必须选择工作区后，会话输入框才可用。"
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "title": "在会话中运行任务",
+          "content": "启动一个会话并发送提示，例如：「Summarize this repository and identify its main packages.」。Agent 可以读取和编辑工作区文件、运行命令、委派工作并维护计划。当操作在当前权限策略下需要审批时，Web UI 会先询问你。",
+          "commands": [
+            {
+              "label": "示例提示词",
+              "code": "Summarize this repository and identify its main packages."
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "title": "进阶：CLI 模式与 Python SDK",
+          "content": "除了 Web UI，dsh 还提供 CLI 入口模式——使用 `dsh --profile headless \"job\"` 运行一次性持久会话并退出。需要编程调用时，可安装 Python SDK（`python -m pip install deepseek-harness-sdk`，要求 Python 3.10+、Linux/macOS），设置 DEEPSEEK_API_KEY 后即可在自己的程序中驱动 Harness。",
+          "commands": [
+            {
+              "label": "headless CLI",
+              "code": "dsh --profile headless \"Inspect the repository and fix the failing tests.\""
+            },
+            {
+              "label": "安装 Python SDK",
+              "code": "python -m venv .venv && . .venv/bin/activate && python -m pip install deepseek-harness-sdk && export DEEPSEEK_API_KEY=sk-..."
+            },
+            {
+              "label": "SDK 用法",
+              "code": "from deepseek_harness import DeepSeekHarness\n\nwith DeepSeekHarness(\n    provider=\"deepseek-official\",\n    model=\"deepseek-v4-flash\",\n    max_tokens=49152,\n    cwd=\"/path/to/workspace\",\n    session_root=\"/path/to/sessions\",\n    cordis=\"examples/jsonrpc-agent/minimal.cordis.yml\",\n) as harness:\n    result = harness.run(\n        \"Inspect the repository and fix the failing tests.\",\n        session_id=\"example-001\",\n    )\n\nprint(result.final_response)"
+            }
+          ]
+        }
+      ]
+    },
+    "ja": {
+      "title": "DeepSeek Harness を5ステップで始める",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Web UI のインストールと起動",
+          "content": "Node.js をインストールし、`npx @deepseek-ai/dsh web` を実行して Web UI を起動します。デフォルトでは http://127.0.0.1:3080 で提供されます。dsh プロセスは呼び出し元ディレクトリをデフォルトのファイルシステム位置として使用します。ソースから実行するには、リポジトリをクローンし、pnpm install、pnpm run build、pnpm dsh web を実行します。\n\n![](images/tutorials/dsh-web-ui-welcome.png)",
+          "commands": [
+            {
+              "label": "Web UI を起動",
+              "code": "npx @deepseek-ai/dsh web"
+            },
+            {
+              "label": "ソースから実行",
+              "code": "git clone https://github.com/deepseek-ai/deepseek-harness.git && cd deepseek-harness && pnpm install && pnpm run build && pnpm dsh web"
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "title": "モデルを設定する",
+          "content": "「設定 → モデル」を開き、DeepSeek API キーを入力して保存します。モデルルートはサーバー再起動なしで即座に利用可能になります。他のプロバイダーを追加するには「プロバイダーを追加」を選択してカタログから選ぶか（Anthropic、OpenAI など）、企業ゲートウェイやセルフホストの OpenAI 互換エンドポイントには「カスタムプロバイダーを追加」を選択します——小文字の Provider ID、ベース URL、API プロトコル、資格情報、少なくとも1つのモデルを指定します。保存前にエンドポイントから利用可能なモデルを取得することもできます。\n\n![](images/tutorials/dsh-settings-models.png)",
+          "commands": [
+            {
+              "label": "カスタムプロバイダー YAML（ビジョンモデル）",
+              "code": "llm-pi-ai:\n  providers:\n    my-gateway:\n      apiKeyEnv: GATEWAY_API_KEY\n      api: openai-completions\n      baseURL: https://gateway.example/v1\n      models:\n        - id: vision-preview\n          input: [text, image]"
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "title": "ワークスペースを選択する",
+          "content": "「ワークスペースを選択」をクリックし、dsh を起動したプロジェクトディレクトリを追加して選択します。新しい Web UI ではワークスペースを追加するまで何も選択されていません——ワークスペースが選択されるまでセッションコンポーザーは利用できません。",
+          "commands": [
+            {
+              "label": "注意",
+              "code": "新しい Web UI ではワークスペース選択後にセッションコンポーザーが利用可能になります。"
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "title": "セッションでタスクを実行する",
+          "content": "セッションを開始し、プロンプトを送信します。例：「Summarize this repository and identify its main packages.」。エージェントはワークスペース内のファイルの読み書き、コマンド実行、作業委任、プラン管理ができます。現在の権限ポリシーで承認が必要な操作は、Web UI が事前に確認します。",
+          "commands": [
+            {
+              "label": "プロンプト例",
+              "code": "Summarize this repository and identify its main packages."
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "title": "さらに進む：CLI モードと Python SDK",
+          "content": "Web UI に加えて、dsh は CLI エントリモードを提供します——`dsh --profile headless \"job\"` で一度きりの永続セッションを実行して終了できます。プログラムから利用するには Python SDK（`python -m pip install deepseek-harness-sdk`、Python 3.10+、Linux/macOS が必要）をインストールし、DEEPSEEK_API_KEY を設定して自分のプログラムから Harness を駆動します。",
+          "commands": [
+            {
+              "label": "headless CLI",
+              "code": "dsh --profile headless \"Inspect the repository and fix the failing tests.\""
+            },
+            {
+              "label": "Python SDK をインストール",
+              "code": "python -m venv .venv && . .venv/bin/activate && python -m pip install deepseek-harness-sdk && export DEEPSEEK_API_KEY=sk-..."
+            },
+            {
+              "label": "SDK の使い方",
+              "code": "from deepseek_harness import DeepSeekHarness\n\nwith DeepSeekHarness(\n    provider=\"deepseek-official\",\n    model=\"deepseek-v4-flash\",\n    max_tokens=49152,\n    cwd=\"/path/to/workspace\",\n    session_root=\"/path/to/sessions\",\n    cordis=\"examples/jsonrpc-agent/minimal.cordis.yml\",\n) as harness:\n    result = harness.run(\n        \"Inspect the repository and fix the failing tests.\",\n        session_id=\"example-001\",\n    )\n\nprint(result.final_response)"
+            }
+          ]
+        }
+      ]
+    },
+    "es": {
+      "title": "Empieza con DeepSeek Harness en 5 Pasos",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Instala y lanza la interfaz web",
+          "content": "Instala Node.js y ejecuta `npx @deepseek-ai/dsh web` para iniciar la interfaz web, servida en http://127.0.0.1:3080 por defecto. El proceso dsh usa su directorio de invocación como ubicación predeterminada del sistema de archivos. Para ejecutar desde el código fuente, clona el repositorio y ejecuta pnpm install, pnpm run build y pnpm dsh web.\n\n![](images/tutorials/dsh-web-ui-welcome.png)",
+          "commands": [
+            {
+              "label": "Iniciar interfaz web",
+              "code": "npx @deepseek-ai/dsh web"
+            },
+            {
+              "label": "Ejecutar desde el código fuente",
+              "code": "git clone https://github.com/deepseek-ai/deepseek-harness.git && cd deepseek-harness && pnpm install && pnpm run build && pnpm dsh web"
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "title": "Configura un modelo",
+          "content": "Abre Configuración → Modelos, introduce una clave de API de DeepSeek y guárdala. La ruta del modelo queda disponible de inmediato sin reiniciar el servidor. Para añadir otros proveedores, elige \"Añadir proveedor\" y selecciona uno del catálogo instalado (Anthropic, OpenAI, etc.), o elige \"Añadir un proveedor personalizado\" para una pasarela corporativa o un endpoint compatible con OpenAI autohospedado — proporciona un Provider ID en minúsculas, URL base, protocolo de API, credencial y al menos un modelo. También puedes obtener los modelos disponibles del endpoint antes de guardar.\n\n![](images/tutorials/dsh-settings-models.png)",
+          "commands": [
+            {
+              "label": "YAML de proveedor personalizado (modelo de visión)",
+              "code": "llm-pi-ai:\n  providers:\n    my-gateway:\n      apiKeyEnv: GATEWAY_API_KEY\n      api: openai-completions\n      baseURL: https://gateway.example/v1\n      models:\n        - id: vision-preview\n          input: [text, image]"
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "title": "Elige un espacio de trabajo",
+          "content": "Haz clic en \"Elegir espacio de trabajo\", añade el directorio del proyecto donde iniciaste dsh y selecciónalo. Una interfaz web nueva no tiene ningún espacio de trabajo seleccionado hasta que añadas uno — el compositor de sesiones permanece no disponible hasta que se selecciona un espacio de trabajo.",
+          "commands": [
+            {
+              "label": "Nota",
+              "code": "Una interfaz web nueva requiere seleccionar un espacio de trabajo antes de que el compositor de sesiones esté disponible."
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "title": "Ejecuta una tarea en una sesión",
+          "content": "Inicia una sesión y envía un prompt, por ejemplo: \"Summarize this repository and identify its main packages.\" El agente puede leer y editar archivos del espacio de trabajo, ejecutar comandos, delegar trabajo y mantener un plan. La interfaz web pregunta antes de operaciones que requieren aprobación según la política de permisos activa.",
+          "commands": [
+            {
+              "label": "Prompt de ejemplo",
+              "code": "Summarize this repository and identify its main packages."
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "title": "Ve más lejos: modos CLI y el SDK de Python",
+          "content": "Además de la interfaz web, dsh ofrece modos de entrada CLI — ejecuta una sesión persistente única con `dsh --profile headless \"job\"` para una sesión de un solo uso que imprime la respuesta y termina. Para uso programático, instala el SDK de Python (`python -m pip install deepseek-harness-sdk`, Python 3.10+, Linux/macOS), configura DEEPSEEK_API_KEY y controla el harness desde tu propio programa.",
+          "commands": [
+            {
+              "label": "CLI headless",
+              "code": "dsh --profile headless \"Inspect the repository and fix the failing tests.\""
+            },
+            {
+              "label": "Instalar SDK de Python",
+              "code": "python -m venv .venv && . .venv/bin/activate && python -m pip install deepseek-harness-sdk && export DEEPSEEK_API_KEY=sk-..."
+            },
+            {
+              "label": "Uso del SDK",
+              "code": "from deepseek_harness import DeepSeekHarness\n\nwith DeepSeekHarness(\n    provider=\"deepseek-official\",\n    model=\"deepseek-v4-flash\",\n    max_tokens=49152,\n    cwd=\"/path/to/workspace\",\n    session_root=\"/path/to/sessions\",\n    cordis=\"examples/jsonrpc-agent/minimal.cordis.yml\",\n) as harness:\n    result = harness.run(\n        \"Inspect the repository and fix the failing tests.\",\n        session_id=\"example-001\",\n    )\n\nprint(result.final_response)"
+            }
+          ]
+        }
+      ]
+    },
+    "fr": {
+      "title": "Démarrez avec DeepSeek Harness en 5 étapes",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Installez et lancez l'interface web",
+          "content": "Installez Node.js, puis exécutez `npx @deepseek-ai/dsh web` pour démarrer l'interface web, servie sur http://127.0.0.1:3080 par défaut. Le processus dsh utilise son répertoire d'invocation comme emplacement système de fichiers par défaut. Pour exécuter depuis les sources, clonez le dépôt, puis exécutez pnpm install, pnpm run build et pnpm dsh web.\n\n![](images/tutorials/dsh-web-ui-welcome.png)",
+          "commands": [
+            {
+              "label": "Démarrer l'interface web",
+              "code": "npx @deepseek-ai/dsh web"
+            },
+            {
+              "label": "Exécuter depuis les sources",
+              "code": "git clone https://github.com/deepseek-ai/deepseek-harness.git && cd deepseek-harness && pnpm install && pnpm run build && pnpm dsh web"
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "title": "Configurez un modèle",
+          "content": "Ouvrez Paramètres → Modèles, saisissez une clé API DeepSeek et enregistrez-la. La route du modèle devient utilisable immédiatement sans redémarrer le serveur. Pour ajouter d'autres fournisseurs, choisissez « Ajouter un fournisseur » et sélectionnez-en un dans le catalogue installé (Anthropic, OpenAI, etc.), ou choisissez « Ajouter un fournisseur personnalisé » pour une passerelle d'entreprise ou un endpoint compatible OpenAI auto-hébergé — fournissez un Provider ID en minuscules, une URL de base, un protocole API, une information d'identification et au moins un modèle. Vous pouvez aussi récupérer les modèles disponibles de l'endpoint avant d'enregistrer.\n\n![](images/tutorials/dsh-settings-models.png)",
+          "commands": [
+            {
+              "label": "YAML de fournisseur personnalisé (modèle de vision)",
+              "code": "llm-pi-ai:\n  providers:\n    my-gateway:\n      apiKeyEnv: GATEWAY_API_KEY\n      api: openai-completions\n      baseURL: https://gateway.example/v1\n      models:\n        - id: vision-preview\n          input: [text, image]"
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "title": "Choisissez un espace de travail",
+          "content": "Cliquez sur « Choisir l'espace de travail », ajoutez le répertoire du projet où vous avez lancé dsh et sélectionnez-le. Une interface web fraîche n'a aucun espace de travail sélectionné tant que vous n'en ajoutez pas un — le composeur de session reste indisponible jusqu'à la sélection d'un espace de travail.",
+          "commands": [
+            {
+              "label": "Remarque",
+              "code": "Une interface web fraîche exige de sélectionner un espace de travail avant que le composeur de session soit disponible."
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "title": "Exécutez une tâche dans une session",
+          "content": "Démarrez une session et envoyez un prompt, par exemple : « Summarize this repository and identify its main packages. » L'agent peut lire et modifier les fichiers de l'espace de travail, exécuter des commandes, déléguer du travail et maintenir un plan. L'interface web demande confirmation avant les opérations qui exigent une approbation selon la politique de permissions active.",
+          "commands": [
+            {
+              "label": "Exemple de prompt",
+              "code": "Summarize this repository and identify its main packages."
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "title": "Allez plus loin : modes CLI et SDK Python",
+          "content": "Outre l'interface web, dsh propose des modes d'entrée CLI — exécutez une session persistante unique avec `dsh --profile headless \"job\"` pour une session à usage unique qui imprime la réponse finale puis se termine. Pour une utilisation programmatique, installez le SDK Python (`python -m pip install deepseek-harness-sdk`, Python 3.10+, Linux/macOS), définissez DEEPSEEK_API_KEY, puis pilotez le harness depuis votre propre programme.",
+          "commands": [
+            {
+              "label": "CLI headless",
+              "code": "dsh --profile headless \"Inspect the repository and fix the failing tests.\""
+            },
+            {
+              "label": "Installer le SDK Python",
+              "code": "python -m venv .venv && . .venv/bin/activate && python -m pip install deepseek-harness-sdk && export DEEPSEEK_API_KEY=sk-..."
+            },
+            {
+              "label": "Utilisation du SDK",
+              "code": "from deepseek_harness import DeepSeekHarness\n\nwith DeepSeekHarness(\n    provider=\"deepseek-official\",\n    model=\"deepseek-v4-flash\",\n    max_tokens=49152,\n    cwd=\"/path/to/workspace\",\n    session_root=\"/path/to/sessions\",\n    cordis=\"examples/jsonrpc-agent/minimal.cordis.yml\",\n) as harness:\n    result = harness.run(\n        \"Inspect the repository and fix the failing tests.\",\n        session_id=\"example-001\",\n    )\n\nprint(result.final_response)"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

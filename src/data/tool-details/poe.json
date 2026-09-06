@@ -1,0 +1,235 @@
+{
+  "features": {
+    "en": [
+      "Aggregates 1,000+ models: GPT-5.5, Claude, Gemini, Grok and more in one subscription",
+      "Image, video and audio models share the same point pool as text",
+      "Side-by-side group chats to compare models on the same prompt",
+      "Bot creator economy: build custom bots and earn from usage",
+      "OpenAI-compatible API to use your subscription programmatically",
+      "Transparent per-message point pricing for every model"
+    ],
+    "zh": [
+      "聚合 1000+ 模型：GPT-5.5、Claude、Gemini、Grok 等一份订阅全包",
+      "图像、视频、音频模型与文本共用同一点数池",
+      "群聊并排比较：同一提示词同时问多个模型",
+      "Bot 创作者经济：搭建自定义 bot 并按用量赚取收益",
+      "OpenAI 兼容 API，把订阅额度用在程序里",
+      "每个模型的单条消息点数明码标价"
+    ],
+    "ja": [
+      "1,000以上のモデルを集約：GPT-5.5、Claude、Gemini、Grokなどを1つのサブスクリプションで",
+      "画像・動画・音声モデルもテキストと同じポイントプールを共有",
+      "同じプロンプトでモデルを並べて比較できるグループチャット",
+      "Botクリエイターエコノミー：カスタムBotを作り利用量に応じて収益化",
+      "サブスクリプションをプログラムから使えるOpenAI互換API",
+      "全モデルのメッセージ単価をポイントで明示"
+    ],
+    "es": [
+      "Agrega 1.000+ modelos: GPT-5.5, Claude, Gemini, Grok y más en una suscripción",
+      "Los modelos de imagen, vídeo y audio comparten el mismo fondo de puntos que el texto",
+      "Chats grupales lado a lado para comparar modelos con el mismo prompt",
+      "Economía de creadores de bots: crea bots personalizados y gana por uso",
+      "API compatible con OpenAI para usar tu suscripción programáticamente",
+      "Precios transparentes por mensaje en puntos para cada modelo"
+    ],
+    "fr": [
+      "Agrège plus de 1 000 modèles : GPT-5.5, Claude, Gemini, Grok et plus dans un seul abonnement",
+      "Les modèles d'image, vidéo et audio partagent le même pool de points que le texte",
+      "Chats de groupe côte à côte pour comparer les modèles sur le même prompt",
+      "Économie de créateurs de bots : créez des bots personnalisés et gagnez selon l'usage",
+      "API compatible OpenAI pour utiliser votre abonnement par programme",
+      "Tarification transparente par message en points pour chaque modèle"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "The free tier now grants only 300 points/day — slashed 90% from 3,000 in March 2026 — enough for a handful of frontier-model messages.",
+      "zh": "免费档现在每天仅 300 点——2026 年 3 月从 3000 点砍掉 90%——只够发几条前沿模型消息。",
+      "ja": "無料枠は現在1日300ポイントのみ——2026年3月に3,000から90%削減——フロンティアモデルのメッセージ数往復分。",
+      "es": "El nivel gratuito ahora da solo 300 puntos/día — recortado un 90% desde 3.000 en marzo de 2026 — suficiente para unos pocos mensajes con modelos de frontera.",
+      "fr": "L'offre gratuite n'accorde plus que 300 points/jour — sabrée de 90 % depuis 3 000 en mars 2026 — de quoi envoyer une poignée de messages aux modèles de pointe."
+    },
+    "paid": {
+      "en": "Plans span $4.99/month (10K points/day) to the flagship $19.99/month (1M points/month, $199.99/year) up to $249.99/month for heavy users. (Verified against the official pricing page, 2026-07-29.)",
+      "zh": "套餐从 $4.99/月（每天 1 万点）到主力档 $19.99/月（每月 100 万点，年付 $199.99），最高 $249.99/月供重度用户。（对照官方定价页核实，2026-07-29。）",
+      "ja": "プランは月$4.99（1日1万ポイント）から主力の月$19.99（月100万ポイント、年払い$199.99）、ヘビーユーザー向け月$249.99まで。（公式価格ページと照合、2026-07-29。）",
+      "es": "Los planes van de $4.99/mes (10K puntos/día) al buque insignia de $19.99/mes (1M puntos/mes, $199.99/año) hasta $249.99/mes para usuarios intensivos. (Verificado con la página oficial de precios, 2026-07-29.)",
+      "fr": "Les forfaits vont de 4,99 $/mois (10 K points/jour) au forfait phare à 19,99 $/mois (1 M points/mois, 199,99 $/an) jusqu'à 249,99 $/mois pour les gros utilisateurs. (Vérifié avec la page tarifaire officielle, 2026-07-29.)"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Sampling every frontier model with one subscription instead of five",
+      "Comparing model answers side by side before committing to one",
+      "Generating images and video from the same point pool as chat",
+      "Prototyping against many models via the OpenAI-compatible API"
+    ],
+    "zh": [
+      "一份订阅尝遍所有前沿模型，不用订五家",
+      "先并排比较各模型答案，再决定用哪家",
+      "用聊天同一点数池生成图像与视频",
+      "通过 OpenAI 兼容 API 对多模型做原型开发"
+    ],
+    "ja": [
+      "5つ契約する代わりに1つのサブスクリプションで全フロンティアモデルを試す",
+      "1つに決める前にモデルの回答を並べて比較",
+      "チャットと同じポイントプールで画像や動画を生成",
+      "OpenAI互換APIで多モデルに対するプロトタイピング"
+    ],
+    "es": [
+      "Probar todos los modelos de frontera con una suscripción en vez de cinco",
+      "Comparar respuestas de modelos lado a lado antes de decidirte por uno",
+      "Generar imágenes y vídeo del mismo fondo de puntos que el chat",
+      "Prototipar contra muchos modelos vía la API compatible con OpenAI"
+    ],
+    "fr": [
+      "Essayer tous les modèles de pointe avec un seul abonnement au lieu de cinq",
+      "Comparer les réponses des modèles côte à côte avant d'en choisir un",
+      "Générer images et vidéos depuis le même pool de points que le chat",
+      "Prototyper sur de nombreux modèles via l'API compatible OpenAI"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Unmatched model breadth: text, image, video and audio in one place",
+      "$19.99 tier is cheaper than subscribing to two frontier providers",
+      "Transparent point costs make model economics visible",
+      "API access turns the subscription into a developer tool"
+    ],
+    "zh": [
+      "模型广度无可匹敌：文本、图像、视频、音频一站式",
+      "$19.99 档比同时订两家前沿模型厂商更便宜",
+      "点数成本透明，模型经济账一目了然",
+      "API 访问让订阅变成开发者工具"
+    ],
+    "ja": [
+      "比類なきモデルの幅：テキスト・画像・動画・音声を一箇所で",
+      "$19.99プランはフロンティア2社を契約するより安い",
+      "透明なポイントコストでモデルの経済性が見える",
+      "APIアクセスでサブスクリプションが開発者ツールに"
+    ],
+    "es": [
+      "Amplitud de modelos inigualable: texto, imagen, vídeo y audio en un lugar",
+      "El plan de $19.99 sale más barato que suscribirse a dos proveedores de frontera",
+      "Los costes transparentes en puntos hacen visible la economía de cada modelo",
+      "El acceso API convierte la suscripción en herramienta de desarrollo"
+    ],
+    "fr": [
+      "Étendue de modèles inégalée : texte, image, vidéo et audio au même endroit",
+      "Le forfait à 19,99 $ coûte moins cher que deux abonnements de pointe",
+      "Les coûts transparents en points rendent l'économie des modèles visible",
+      "L'accès API transforme l'abonnement en outil de développeur"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Knowledge Base shutdown in 2026 deleted user-uploaded files with short notice, and refund complaints followed — back up anything you store here",
+      "Free tier was cut 90% to 300 points/day, gutting its usefulness",
+      "Point math gets confusing across hundreds of differently-priced models",
+      "Aggregator lag: new provider features arrive later than on native apps"
+    ],
+    "zh": [
+      "2026 年 Knowledge Base 功能关停时短时间预告即删除用户上传文件，且伴随退款投诉——存这里的东西务必自行备份",
+      "免费档被砍 90% 至每天 300 点，实用性大打折扣",
+      "数百个模型定价各异，点数账算起来令人头大",
+      "聚合器时差：厂商新功能上线晚于原生应用"
+    ],
+    "ja": [
+      "2026年のKnowledge Base終了では短い予告でユーザーのアップロードファイルが削除され、返金苦情も発生——ここに保存するものは必ず自分でバックアップを",
+      "無料枠は90%削減の1日300ポイントとなり実用性が激減",
+      "数百のモデルで価格が異なりポイント計算が紛らわしい",
+      "アグリゲーターの遅延：プロバイダーの新機能はネイティブアプリより遅れて到着"
+    ],
+    "es": [
+      "El cierre de Knowledge Base en 2026 borró archivos subidos por usuarios con poco preaviso, y siguieron quejas de reembolso — respalda todo lo que guardes aquí",
+      "El nivel gratuito se recortó un 90% a 300 puntos/día, vaciando su utilidad",
+      "La aritmética de puntos se vuelve confusa entre cientos de modelos con precios distintos",
+      "Retraso de agregador: las novedades de cada proveedor llegan más tarde que en sus apps nativas"
+    ],
+    "fr": [
+      "La fermeture de Knowledge Base en 2026 a supprimé des fichiers utilisateurs avec un court préavis, suivie de plaintes de remboursement — sauvegardez tout ce que vous y stockez",
+      "L'offre gratuite a été amputée de 90 % à 300 points/jour, ruinant son utilité",
+      "Le calcul des points devient confus entre des centaines de modèles aux prix différents",
+      "Décalage d'agrégateur : les nouveautés des fournisseurs arrivent après les apps natives"
+    ]
+  },
+  "latestUpdate": {
+    "en": "2026: Poe crossed 1,000 aggregated models including GPT-5.5 and the latest Claude, Gemini and Grok — but the year also brought a 90% free-tier cut to 300 points/day and the Knowledge Base shutdown that deleted user files, denting community trust.",
+    "zh": "2026 年：Poe 聚合模型突破 1000 个，含 GPT-5.5 与最新 Claude、Gemini、Grok——但这一年也发生了免费档砍 90% 至每天 300 点、Knowledge Base 关停删除用户文件两件事，社区信任受损。",
+    "ja": "2026年：Poeの集約モデルはGPT-5.5や最新のClaude・Gemini・Grokを含む1,000超に——だが同年、無料枠の90%削減（1日300ポイント）とユーザーファイルを削除したKnowledge Base終了もあり、コミュニティの信頼に傷。",
+    "es": "2026: Poe superó los 1.000 modelos agregados, incluidos GPT-5.5 y los últimos Claude, Gemini y Grok — pero el año también trajo el recorte del 90% al nivel gratis (300 puntos/día) y el cierre de Knowledge Base que borró archivos de usuarios, dañando la confianza de la comunidad.",
+    "fr": "2026 : Poe a dépassé les 1 000 modèles agrégés, dont GPT-5.5 et les derniers Claude, Gemini et Grok — mais l'année a aussi apporté la coupe de 90 % de l'offre gratuite (300 points/jour) et la fermeture de Knowledge Base qui a supprimé des fichiers utilisateurs, entamant la confiance de la communauté."
+  },
+  "verdict": {
+    "badge": "Worth Trying",
+    "headline": {
+      "en": "Every model in one place — just don't store anything you can't lose",
+      "zh": "所有模型一站集齐——但别把丢不起的东西存在这",
+      "ja": "全モデルを一箇所で——ただし失えないものは保存しないこと",
+      "es": "Todos los modelos en un lugar — pero no guardes nada que no puedas perder",
+      "fr": "Tous les modèles au même endroit — mais n'y stockez rien d'irremplaçable"
+    },
+    "body": {
+      "en": "Poe's value proposition remains genuinely compelling: for $19.99 a month you get metered access to over a thousand models — GPT-5.5, Claude, Gemini, Grok, plus image, video and audio generators — when subscribing to just two of those natively would cost $40. The side-by-side group chats are the best way to develop intuition about which model suits which task, and the OpenAI-compatible API quietly makes Poe one of the cheapest ways for developers to prototype across providers. But 2026 tested users' trust. The free tier was slashed 90% to 300 points a day, converting Poe from a viable free tool into a demo. Worse, the Knowledge Base feature was shut down with user-uploaded files deleted on short notice, and the refund complaints that followed were handled unevenly — a pattern worth weighing before you build workflows on any single Poe feature. Quora's aggregator also inevitably trails native apps on the newest provider features. Our advice: Poe earns its keep as a model sampler and comparison lab, and the $19.99 tier is honest value for multi-model tinkerers. Treat it as a stateless playground rather than a system of record, and it serves you well.",
+      "zh": "Poe 的价值主张依然很有吸引力：每月 $19.99 即可按量使用上千个模型——GPT-5.5、Claude、Gemini、Grok，外加图像、视频与音频生成器——而原生订阅其中任意两家就要 $40。群聊并排比较是培养「哪个模型适合哪类任务」直觉的最佳方式，OpenAI 兼容 API 更是悄悄让 Poe 成为开发者跨厂商原型开发的最省钱途径之一。但 2026 年考验了用户的信任：免费档被砍 90% 至每天 300 点，Poe 从可用的免费工具沦为演示品；更糟的是 Knowledge Base 功能关停时短时间预告即删除用户上传文件，随后的退款投诉处理也参差不齐——在任何单一 Poe 功能上搭建工作流之前，这个先例值得掂量。作为聚合器，Quora 在各厂商最新功能上也不可避免地落后于原生应用。我们的建议：Poe 作为模型试吃台与比较实验室物有所值，$19.99 档对多模型玩家是实在的性价比。把它当作无状态的游乐场而非数据存放地，它就能好好为你服务。",
+      "ja": "Poeの価値提案は依然として魅力的だ：月$19.99で1,000超のモデル——GPT-5.5、Claude、Gemini、Grok、さらに画像・動画・音声生成器——を従量利用できる。そのうち2社をネイティブに契約するだけで$40かかるのだから。グループチャットでの並列比較は「どのモデルがどのタスクに向くか」の直感を養う最良の方法であり、OpenAI互換APIはPoeを開発者がプロバイダー横断でプロトタイピングする最安の手段の一つにしている。だが2026年はユーザーの信頼が試された年だった。無料枠は90%削減の1日300ポイントとなり、Poeは使える無料ツールからデモ品に転落。さらに悪いことに、Knowledge Base機能は短い予告のままユーザーのアップロードファイルを削除して終了し、続いた返金苦情への対応もまちまちだった——Poeの単一機能の上にワークフローを築く前に、この前例は重く見るべきだ。アグリゲーターである以上、各社の最新機能でネイティブアプリに遅れることも避けられない。我々の助言：モデルの試食台・比較ラボとしてのPoeは十分元が取れるし、$19.99プランはマルチモデル愛好家に正直な価値がある。記録システムではなくステートレスな遊び場として扱えば、良い働きをしてくれる。",
+      "es": "La propuesta de valor de Poe sigue siendo genuinamente atractiva: por $19.99 al mes obtienes acceso medido a más de mil modelos — GPT-5.5, Claude, Gemini, Grok, más generadores de imagen, vídeo y audio — cuando suscribirse nativamente a solo dos costaría $40. Los chats grupales lado a lado son la mejor forma de desarrollar intuición sobre qué modelo sirve para qué tarea, y la API compatible con OpenAI convierte a Poe en una de las vías más baratas para que los desarrolladores prototipen entre proveedores. Pero 2026 puso a prueba la confianza. El nivel gratuito se recortó un 90% a 300 puntos diarios, convirtiendo a Poe de herramienta gratuita viable en una demo. Peor aún, Knowledge Base se cerró borrando archivos subidos con poco preaviso, y las quejas de reembolso posteriores se gestionaron de forma desigual — un patrón a sopesar antes de construir flujos sobre cualquier función de Poe. El agregador de Quora también va inevitablemente detrás de las apps nativas en las novedades. Nuestro consejo: Poe se gana el puesto como probador y laboratorio de comparación de modelos, y el plan de $19.99 es valor honesto para curiosos multimodelo. Trátalo como un patio de juegos sin estado y no como sistema de registro, y te servirá bien.",
+      "fr": "La proposition de valeur de Poe reste réellement convaincante : pour 19,99 $ par mois, vous obtenez un accès mesuré à plus de mille modèles — GPT-5.5, Claude, Gemini, Grok, plus des générateurs d'image, vidéo et audio — alors que s'abonner nativement à deux seulement coûterait 40 $. Les chats de groupe côte à côte sont le meilleur moyen de développer l'intuition du bon modèle pour la bonne tâche, et l'API compatible OpenAI fait discrètement de Poe l'un des moyens les moins chers de prototyper entre fournisseurs. Mais 2026 a mis la confiance à l'épreuve. L'offre gratuite a été sabrée de 90 % à 300 points par jour, transformant Poe d'outil gratuit viable en simple démo. Pire, la fonction Knowledge Base a fermé en supprimant les fichiers téléversés avec un court préavis, et les plaintes de remboursement qui ont suivi ont été traitées inégalement — un précédent à peser avant de bâtir des flux sur une fonctionnalité unique de Poe. L'agrégateur de Quora traîne aussi inévitablement derrière les apps natives sur les dernières nouveautés. Notre conseil : Poe mérite sa place comme échantillonneur et labo de comparaison de modèles, et le forfait à 19,99 $ est d'une valeur honnête pour les bricoleurs multi-modèles. Traitez-le comme un terrain de jeu sans état plutôt que comme un système d'archivage, et il vous servira bien."
+    },
+    "bestFor": {
+      "en": [
+        "Trying many frontier models under one affordable subscription",
+        "Comparing model outputs side by side before choosing",
+        "Developers prototyping across providers via one API"
+      ],
+      "zh": [
+        "用一份实惠订阅试遍多家前沿模型",
+        "选型前并排比较各模型输出",
+        "通过一个 API 跨厂商做原型的开发者"
+      ],
+      "ja": [
+        "1つの手頃なサブスクリプションで多くのフロンティアモデルを試す",
+        "選定前にモデルの出力を並べて比較",
+        "1つのAPIでプロバイダー横断プロトタイピングをする開発者"
+      ],
+      "es": [
+        "Probar muchos modelos de frontera con una suscripción asequible",
+        "Comparar salidas de modelos lado a lado antes de elegir",
+        "Desarrolladores prototipando entre proveedores vía una API"
+      ],
+      "fr": [
+        "Essayer de nombreux modèles de pointe sous un abonnement abordable",
+        "Comparer les sorties des modèles côte à côte avant de choisir",
+        "Développeurs prototypant entre fournisseurs via une seule API"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You want the deepest single-model experience with first-day features (→ ChatGPT)",
+        "You want a free assistant with frontier models built into your OS (→ Microsoft Copilot)"
+      ],
+      "zh": [
+        "你想要功能第一时间上线的最深度单模型体验（→ ChatGPT）",
+        "你想要内置于操作系统的免费前沿模型助手（→ Microsoft Copilot）"
+      ],
+      "ja": [
+        "初日から新機能が使える最も深い単一モデル体験が欲しい（→ ChatGPT）",
+        "OSに組み込まれたフロンティアモデルの無料アシスタントが欲しい（→ Microsoft Copilot）"
+      ],
+      "es": [
+        "Quieres la experiencia monomodal más profunda con funciones desde el día uno (→ ChatGPT)",
+        "Quieres un asistente gratis con modelos de frontera integrado en tu SO (→ Microsoft Copilot)"
+      ],
+      "fr": [
+        "Vous voulez l'expérience mono-modèle la plus aboutie avec les nouveautés dès le premier jour (→ ChatGPT)",
+        "Vous voulez un assistant gratuit avec modèles de pointe intégré à votre OS (→ Microsoft Copilot)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-29",
+    "verdictDate": "2026-07-29",
+    "pricingVerified": "2026-07-29",
+    "pricingUrl": "https://poe.com"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "skyvern",
+  "name": "Skyvern",
+  "nameZh": "Skyvern",
+  "description": "开源 AI 浏览器自动化平台（AGPL-3.0，20K+ stars）：计算机视觉 + LLM 取代脆弱选择器，原生处理登录/2FA/验证码",
+  "descriptionEn": "Open-source AI browser automation platform (AGPL-3.0, 20K+ stars): computer vision + LLMs instead of brittle selectors, handles logins/2FA/CAPTCHAs natively",
+  "descriptionJa": "オープンソースのAIブラウザ自動化プラットフォーム（AGPL-3.0、20K+スター）。コンピュータビジョン＋LLMで脆いセレクタを代替し、ログイン/2FA/CAPTCHAもネイティブに処理",
+  "descriptionEs": "Plataforma open source de automatización de navegador con IA (AGPL-3.0, más de 20K estrellas): visión por computadora + LLM en lugar de selectores frágiles, maneja logins/2FA/CAPTCHA de forma nativa",
+  "descriptionFr": "Plateforme open source d'automatisation de navigateur par IA (AGPL-3.0, 20K+ étoiles) : vision par ordinateur + LLM au lieu de sélecteurs fragiles, gère nativement connexions/2FA/CAPTCHA",
+  "url": "https://www.skyvern.com",
+  "logo": "/logos/tools/skyvern.png",
+  "category": "Agent",
+  "tags": [
+    "Freemium",
+    "Open Source",
+    "API"
+  ],
+  "featured": false,
+  "developer": "Skyvern",
+  "platforms": {
+    "web": true,
+    "windows": true,
+    "macos": true,
+    "ios": false,
+    "android": false,
+    "linux": true,
+    "browser_extension": false,
+    "api": true
+  }
+}

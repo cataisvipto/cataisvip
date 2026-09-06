@@ -1,0 +1,29 @@
+{
+  "slug": "crewai",
+  "name": "CrewAI",
+  "nameZh": "CrewAI",
+  "description": "开源多智能体编排框架，角色分工的 Crew 协作与 Flows 事件流编排，企业平台 AMP 覆盖大量财富 500 强",
+  "descriptionEn": "Open-source multi-agent orchestration framework with role-based Crews and event-driven Flows; its AMP enterprise platform is used across the Fortune 500",
+  "descriptionJa": "オープンソースのマルチエージェントオーケストレーションフレームワーク。役割分担型CrewとイベントドリブンFlowsを提供、企業向けAMPはFortune 500企業に広く採用",
+  "descriptionEs": "Framework de orquestación multiagente de código abierto con Crews basados en roles y Flows orientados a eventos; su plataforma empresarial AMP se usa en la Fortune 500",
+  "descriptionFr": "Framework open source d'orchestration multi-agents avec Crews par rôles et Flows événementiels ; sa plateforme entreprise AMP est adoptée par le Fortune 500",
+  "url": "https://www.crewai.com",
+  "logo": "/logos/tools/crewai.png",
+  "category": "Agent",
+  "tags": [
+    "Freemium",
+    "Open Source"
+  ],
+  "featured": true,
+  "developer": "CrewAI",
+  "platforms": {
+    "web": true,
+    "windows": true,
+    "macos": true,
+    "ios": false,
+    "android": false,
+    "linux": true,
+    "browser_extension": false,
+    "api": true
+  }
+}

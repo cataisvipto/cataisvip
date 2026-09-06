@@ -1,0 +1,28 @@
+{
+  "slug": "figma-ai",
+  "name": "Figma AI",
+  "nameZh": "Figma AI",
+  "description": "Figma 内置 AI 设计功能，支持一键生成原型、自动布局、智能重命名图层等",
+  "descriptionEn": "Built-in AI design features in Figma including one-click prototyping, auto layout, smart layer renaming and more",
+  "descriptionJa": "Figmaに組み込みのAIデザイン機能。ワンクリックプロトタイピング、自動レイアウト、スマートレイヤー命名など",
+  "descriptionEs": "Funciones de diseño IA integradas en Figma, incluyendo prototipado con un clic, diseño automático y renombrado inteligente",
+  "descriptionFr": "Fonctions de design IA intégrées dans Figma, y compris le prototypage en un clic, la mise en page automatique et le renommage intelligent",
+  "url": "https://www.figma.com",
+  "logo": "/logos/tools/figma-ai.png",
+  "category": "Design",
+  "tags": [
+    "Freemium"
+  ],
+  "featured": false,
+  "developer": "Figma",
+  "platforms": {
+    "web": true,
+    "windows": true,
+    "macos": true,
+    "ios": true,
+    "android": true,
+    "linux": false,
+    "browser_extension": false,
+    "api": true
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "hugging-face",
+  "name": "Hugging Face",
+  "nameZh": "Hugging Face",
+  "description": "最大的开源 AI 模型社区，提供模型托管、训练和部署",
+  "descriptionEn": "Largest open-source AI model community for hosting, training and deploying models",
+  "descriptionJa": "最大のオープンソースAIモデルコミュニティ。モデルのホスティング、トレーニング、デプロイメントを提供",
+  "descriptionEs": "La mayor comunidad de modelos IA de código abierto para alojar, entrenar y desplegar modelos",
+  "descriptionFr": "La plus grande communauté de modèles IA open-source pour l'hébergement, l'entraînement et le déploiement de modèles",
+  "url": "https://huggingface.co",
+  "logo": "/logos/tools/hugging-face.png",
+  "category": "Open Source",
+  "tags": [
+    "Free",
+    "Open Source"
+  ],
+  "featured": true,
+  "developer": "Hugging Face",
+  "platforms": {
+    "web": true,
+    "windows": true,
+    "macos": true,
+    "ios": true,
+    "android": true,
+    "linux": true,
+    "browser_extension": false,
+    "api": true
+  }
+}

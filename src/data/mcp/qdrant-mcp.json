@@ -1,0 +1,79 @@
+{
+  "slug": "qdrant-mcp",
+  "name": "Qdrant MCP Server",
+  "nameZh": "Qdrant MCP 服务器",
+  "description": "Qdrant 官方 MCP 服务器。让 AI 智能体直接操作 Qdrant 向量数据库：创建和搜索集合、插入向量数据、执行语义搜索，无需手动编写 API 请求。",
+  "descriptionEn": "The official Qdrant MCP server. Lets AI agents directly operate the Qdrant vector database: create and search collections, insert vector data, and perform semantic search — no manual API requests needed.",
+  "descriptionJa": "Qdrant 公式 MCP サーバー。AI エージェントが Qdrant ベクトルデータベースを直接操作できます：コレクションの作成と検索、ベクトルデータの挿入、セマンティック検索の実行。手動での API リクエストは不要です。",
+  "descriptionEs": "El servidor oficial de Qdrant MCP. Permite a los agentes de IA operar directamente la base de datos vectorial Qdrant: crear y buscar colecciones, insertar datos vectoriales y realizar búsqueda semántica — sin necesidad de peticiones API manuales.",
+  "descriptionFr": "Le serveur officiel Qdrant MCP. Permet aux agents IA d'opérer directement la base de données vectorielle Qdrant : créer et rechercher des collections, insérer des données vectorielles et effectuer des recherches sémantiques — sans requêtes API manuelles.",
+  "developer": "Qdrant",
+  "developerZh": "Qdrant",
+  "repo": "qdrant/mcp-server-qdrant",
+  "clients": [
+    "claude",
+    "cursor",
+    "vscode",
+    "codex",
+    "generic"
+  ],
+  "category": "Database",
+  "tags": [
+    "Free",
+    "Open Source"
+  ],
+  "installCommand": "uvx mcp-server-qdrant",
+  "logo": "/logos/mcp/qdrant-mcp.png",
+  "stars": 1520,
+  "featured": false,
+  "faqs": [
+    {
+      "question": {
+        "zh": "Qdrant MCP 能做什么？",
+        "en": "What can Qdrant MCP do?",
+        "ja": "Qdrant MCP は何ができますか？",
+        "es": "¿Qué puede hacer Qdrant MCP?",
+        "fr": "Que peut faire Qdrant MCP ?"
+      },
+      "answer": {
+        "zh": "让 AI 智能体直接操作 Qdrant 向量数据库：创建和管理集合（Collection）、插入和更新向量数据、执行语义相似度搜索、管理索引和过滤器。适用于构建 RAG（检索增强生成）应用、语义搜索、推荐系统等场景。",
+        "en": "Lets AI agents directly operate the Qdrant vector database: create and manage collections, insert and update vector data, perform semantic similarity search, and manage indexes and filters. Ideal for building RAG (Retrieval-Augmented Generation) apps, semantic search, and recommendation systems.",
+        "ja": "AI エージェントが Qdrant ベクトルデータベースを直接操作できます：コレクションの作成と管理、ベクトルデータの挿入と更新、セマンティック類似度検索の実行、インデックスとフィルターの管理。RAG（検索拡張生成）アプリ、セマンティック検索、レコメンデーションシステムなどの構築に最適です。",
+        "es": "Permite a los agentes de IA operar directamente la base de datos vectorial Qdrant: crear y gestionar colecciones, insertar y actualizar datos vectoriales, realizar búsqueda de similitud semántica, y gestionar índices y filtros. Ideal para construir aplicaciones RAG (Generación Aumentada por Recuperación), búsqueda semántica y sistemas de recomendación.",
+        "fr": "Permet aux agents IA d'opérer directement la base de données vectorielle Qdrant : créer et gérer des collections, insérer et mettre à jour des données vectorielles, effectuer des recherches de similarité sémantique, et gérer les index et filtres. Idéal pour construire des applications RAG (génération augmentée par récupération), la recherche sémantique et les systèmes de recommandation."
+      }
+    },
+    {
+      "question": {
+        "zh": "Qdrant MCP 需要连接 Qdrant 实例吗？",
+        "en": "Does Qdrant MCP need a Qdrant instance?",
+        "ja": "Qdrant MCP を使用するには Qdrant インスタンスが必要ですか？",
+        "es": "¿Qdrant MCP necesita una instancia de Qdrant?",
+        "fr": "Qdrant MCP a-t-il besoin d'une instance Qdrant ?"
+      },
+      "answer": {
+        "zh": "需要连接一个正在运行的 Qdrant 实例（可以是本地 Docker 部署或 Qdrant Cloud）。MCP 服务器通过 Qdrant 客户端 API 连接，需要配置实例的 URL 和 API Key（如有）。",
+        "en": "Yes, it needs a running Qdrant instance (either local Docker deployment or Qdrant Cloud). The MCP server connects via the Qdrant client API and requires the instance URL and API key (if applicable) to be configured.",
+        "ja": "実行中の Qdrant インスタンス（ローカルの Docker デプロイまたは Qdrant Cloud）への接続が必要です。MCP サーバーは Qdrant クライアント API を介して接続し、インスタンスの URL と API キー（該当する場合）の設定が必要です。",
+        "es": "Sí, necesita una instancia de Qdrant en ejecución (ya sea despliegue local con Docker o Qdrant Cloud). El servidor MCP se conecta a través de la API cliente de Qdrant y requiere la URL de la instancia y la clave API (si aplica) configuradas.",
+        "fr": "Oui, il nécessite une instance Qdrant en cours d'exécution (soit un déploiement Docker local, soit Qdrant Cloud). Le serveur MCP se connecte via l'API client Qdrant et nécessite la configuration de l'URL de l'instance et de la clé API (le cas échéant)."
+      }
+    },
+    {
+      "question": {
+        "zh": "Qdrant MCP 免费吗？",
+        "en": "Is Qdrant MCP free?",
+        "ja": "Qdrant MCP は無料ですか？",
+        "es": "¿Qdrant MCP es gratuito?",
+        "fr": "Qdrant MCP est-il gratuit ?"
+      },
+      "answer": {
+        "zh": "MCP 服务器本身开源免费（Apache 2.0）。Qdrant 提供开源版（可自托管，免费）和 Qdrant Cloud（有免费额度，超出后按量计费）。",
+        "en": "The MCP server itself is open source and free (Apache 2.0). Qdrant offers an open source version (self-hosted, free) and Qdrant Cloud (free tier available, usage-based billing beyond).",
+        "ja": "MCP サーバー自体はオープンソースで無料です（Apache 2.0）。Qdrant はオープンソース版（セルフホスト、無料）と Qdrant Cloud（無料枠あり、超過分は従量課金）を提供しています。",
+        "es": "El servidor MCP en sí es de código abierto y gratuito (Apache 2.0). Qdrant ofrece una versión de código abierto (autoalojada, gratuita) y Qdrant Cloud (nivel gratuito disponible, facturación basada en uso más allá).",
+        "fr": "Le serveur MCP lui-même est open source et gratuit (Apache 2.0). Qdrant propose une version open source (auto-hébergée, gratuite) et Qdrant Cloud (niveau gratuit disponible, facturation à l'usage au-delà)."
+      }
+    }
+  ]
+}

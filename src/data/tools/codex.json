@@ -1,0 +1,30 @@
+{
+  "slug": "codex",
+  "homeFeatured": true,
+  "name": "Codex",
+  "nameZh": "Codex",
+  "description": "OpenAI 推出的 AI 编程智能体桌面客户端（macOS），支持多智能体并行协作、代码生成、PR 管理、代码审查，同时提供终端 CLI 版本",
+  "descriptionEn": "OpenAI's AI coding agent desktop app (macOS), supporting multi-agent parallel collaboration, code generation, PR management, code review, also available as CLI",
+  "descriptionJa": "OpenAIのAIコーディングエージェントデスクトップアプリ（macOS）。マルチエージェント並列コラボレーション、コード生成、PR管理、コードレビューに対応、CLI版も利用可能",
+  "descriptionEs": "App de escritorio de agente de codificación IA de OpenAI (macOS), con colaboración paralela multiagente, generación de código, gestión de PR, revisión de código, también disponible como CLI",
+  "descriptionFr": "Application de bureau d'agent de codage IA d'OpenAI (macOS), avec collaboration multi-agent parallèle, génération de code, gestion de PR, revue de code, également disponible en CLI",
+  "url": "https://chatgpt.com/codex/",
+  "logo": "/logos/tools/codex.svg",
+  "category": "Code",
+  "tags": [
+    "Paid"
+  ],
+  "featured": true,
+  "developer": "OpenAI",
+  "platforms": {
+    "web": true,
+    "windows": true,
+    "macos": true,
+    "ios": true,
+    "android": true,
+    "linux": true,
+    "browser_extension": false,
+    "api": true
+  },
+  "logoDark": "/logos/tools/codex-white.svg"
+}

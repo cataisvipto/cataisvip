@@ -1,0 +1,29 @@
+{
+  "slug": "murf-ai",
+  "name": "Murf AI",
+  "nameZh": "Murf AI",
+  "description": "企业级 AI 配音与 TTS 平台，Gen2 模型提供 20+ 语言广播级拟真语音并支持语气、停顿与重音的细粒度控制，200+ 音色、语音克隆、多语言配音翻译与开发者 API 俱全，免费试用、Creator 年付 $19/月",
+  "descriptionEn": "An enterprise-grade AI voiceover and TTS platform: the Gen2 model delivers broadcast-quality voices in 20+ languages with fine-grained control over tone, pauses and emphasis, plus 200+ voices, voice cloning, multilingual dubbing and a developer API — free trial, Creator at $19/month billed annually",
+  "descriptionJa": "エンタープライズ級のAIナレーション＆TTSプラットフォーム。Gen2モデルが20超言語で放送品質のリアルな音声を提供し、トーン・ポーズ・強調を細かく制御可能。200超のボイス、音声クローン、多言語吹き替え、開発者APIも完備。無料トライアルあり、Creatorは年払いで月$19",
+  "descriptionEs": "Plataforma de locución y TTS con IA de nivel empresarial: el modelo Gen2 ofrece voces con calidad de emisión en más de 20 idiomas con control fino de tono, pausas y énfasis, además de 200+ voces, clonación de voz, doblaje multilingüe y API para desarrolladores — prueba gratuita, Creator a $19/mes con pago anual",
+  "descriptionFr": "Plateforme de voix off et TTS IA de niveau entreprise : le modèle Gen2 délivre des voix de qualité broadcast en 20+ langues avec un contrôle fin du ton, des pauses et de l'emphase, plus 200+ voix, clonage vocal, doublage multilingue et API développeur — essai gratuit, Creator à 19 $/mois en annuel",
+  "url": "https://murf.ai",
+  "logo": "/logos/tools/murf-ai.png",
+  "category": "Audio",
+  "tags": [
+    "Freemium",
+    "API"
+  ],
+  "featured": false,
+  "developer": "Murf",
+  "platforms": {
+    "web": true,
+    "windows": false,
+    "macos": false,
+    "ios": false,
+    "android": false,
+    "linux": false,
+    "browser_extension": false,
+    "api": true
+  }
+}

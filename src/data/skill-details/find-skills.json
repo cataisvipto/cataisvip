@@ -1,0 +1,104 @@
+{
+  "pros": {
+    "en": [
+      "Search and install skills from the skills.sh registry",
+      "Zero-config setup for Claude Code, Cursor, Codex",
+      "Discover trending skills by category"
+    ],
+    "zh": [
+      "从 skills.sh 注册表搜索安装技能",
+      "Claude Code、Cursor、Codex 零配置安装",
+      "按分类发现热门技能"
+    ],
+    "ja": [
+      "skills.shレジストリからスキルを検索してインストール",
+      "Claude Code、Cursor、Codexでゼロ設定",
+      "カテゴリ別に人気スキルを発見"
+    ],
+    "es": [
+      "Busca e instala skills desde el registro skills.sh",
+      "Configuración cero para Claude Code, Cursor, Codex",
+      "Descubre skills populares por categoría"
+    ],
+    "fr": [
+      "Recherchez et installez des skills depuis le registre skills.sh",
+      "Configuration zéro pour Claude Code, Cursor, Codex",
+      "Découvrez les skills populaires par catégorie"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Requires skills.sh CLI",
+      "Search results depend on network connectivity",
+      "Some skills may have compatibility issues"
+    ],
+    "zh": [
+      "需要 skills.sh CLI",
+      "搜索结果依赖网络连接",
+      "部分技能可能存在兼容性问题"
+    ],
+    "ja": [
+      "skills.sh CLIが必要",
+      "検索結果はネットワーク接続に依存",
+      "一部のスキルに互換性の問題がある可能性"
+    ],
+    "es": [
+      "Requiere CLI de skills.sh",
+      "Los resultados de búsqueda dependen de la conectividad de red",
+      "Algunos skills pueden tener problemas de compatibilidad"
+    ],
+    "fr": [
+      "Nécessite CLI skills.sh",
+      "Les résultats de recherche dépendent de la connectivité réseau",
+      "Certains skills peuvent avoir des problèmes de compatibilité"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Free and open source",
+      "zh": "免费开源",
+      "ja": "無料オープンソース",
+      "es": "Gratuito y de código abierto",
+      "fr": "Gratuit et open source"
+    }
+  },
+  "verdict": {
+    "en": "The essential entry point for the skills.sh ecosystem. With 2.8M total installs, it is the most widely used skill in the registry.",
+    "zh": "skills.sh 生态的必备入口。拥有 280 万总安装量，是注册表中使用最广泛的技能。",
+    "ja": "skills.shエコシステムの必須エントリーポイント。280万の総インストール数を誇り、レジストリで最も広く使われているスキルです。",
+    "es": "El punto de entrada esencial para el ecosistema skills.sh. Con 2.8M de instalaciones totales, es el skill más utilizado del registro.",
+    "fr": "Le point d'entrée essentiel pour l'écosystème skills.sh. Avec 2,8M d'installations totales, c'est le skill le plus utilisé du registre."
+  },
+  "useCases": {
+    "en": [
+      "Quickly discover and install new agent skills",
+      "Browse trending skills by category",
+      "Keep your agent skill set up to date"
+    ],
+    "zh": [
+      "快速发现和安装新的智能体技能",
+      "按分类浏览热门技能",
+      "保持智能体技能集最新"
+    ],
+    "ja": [
+      "新しいエージェントスキルを素早く発見してインストール",
+      "カテゴリ別にトレンドスキルを閲覧",
+      "エージェントスキルセットを最新に保つ"
+    ],
+    "es": [
+      "Descubre e instala rápidamente nuevos skills de agente",
+      "Navega por skills populares por categoría",
+      "Mantén actualizado tu conjunto de skills de agente"
+    ],
+    "fr": [
+      "Découvrez et installez rapidement de nouveaux skills d'agent",
+      "Parcourez les skills tendances par catégorie",
+      "Gardez votre ensemble de skills d'agent à jour"
+    ]
+  },
+  "meta": {
+    "lastVerified": "2026-08-11",
+    "verdictDate": "2026-08-11",
+    "pricingVerified": "2026-08-11"
+  }
+}

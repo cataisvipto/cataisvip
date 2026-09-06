@@ -1,0 +1,30 @@
+{
+  "slug": "tiangong-ai",
+  "name": "Skywork",
+  "nameZh": "天工AI",
+  "description": "昆仑万维推出的 AI 对话与搜索助手，整合大模型与实时搜索引擎，支持多模态交互",
+  "descriptionEn": "AI chat and search assistant by Kunlun, integrating LLM with real-time search engine, supporting multimodal interaction",
+  "descriptionJa": "KunlunのAI対話・検索アシスタント。LLMとリアルタイム検索エンジンを統合、マルチモーダル対応",
+  "descriptionEs": "Asistente de IA de chat y búsqueda de Kunlun, que integra LLM con motor de búsqueda en tiempo real, compatible con interacción multimodal",
+  "descriptionFr": "Assistant IA de chat et de recherche de Kunlun, intégrant LLM avec moteur de recherche en temps réel, supportant l'interaction multimodale",
+  "url": "https://www.tiangong.cn",
+  "logo": "/logos/tools/tiangong-ai.png",
+  "category": "Chat",
+  "tags": [
+    "Free",
+    "API"
+  ],
+  "featured": false,
+  "developer": "Kunlun",
+  "developerZh": "昆仑万维",
+  "platforms": {
+    "web": true,
+    "windows": "unknown",
+    "macos": "unknown",
+    "ios": true,
+    "android": true,
+    "linux": false,
+    "browser_extension": false,
+    "api": true
+  }
+}

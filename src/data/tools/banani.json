@@ -1,0 +1,28 @@
+{
+  "slug": "banani",
+  "name": "Banani",
+  "nameZh": "Banani",
+  "description": "text-to-UI 设计副驾，用自然语言几分钟生成可编辑的多屏交互原型，Agent 模式基于共享组件保持一致，付费档无限导出 Figma 与 HTML/CSS 代码，全档接入 MCP 连 Claude Code/Cursor，免费档不过期",
+  "descriptionEn": "Text-to-UI design copilot: describe an app in natural language and get editable multi-screen interactive prototypes in minutes, with an Agent mode that keeps designs consistent via shared components; paid tiers give unlimited Figma and HTML/CSS export, and MCP on every plan connects Claude Code/Cursor — the free plan never expires",
+  "descriptionJa": "text-to-UIデザインの副操縦士。自然言語でアプリを説明すると数分で編集可能な複数画面のインタラクティブプロトタイプを生成、Agentモードは共有コンポーネントで一貫性を維持。有料枠はFigmaとHTML/CSSの無制限書き出し、全プランのMCPがClaude Code/Cursorに接続。無料プランは無期限",
+  "descriptionEs": "Copiloto de diseño text-to-UI: describe una app en lenguaje natural y obtén prototipos interactivos multipantalla editables en minutos, con un modo Agente que mantiene la coherencia mediante componentes compartidos; los planes de pago dan exportación ilimitada a Figma y código HTML/CSS, y el MCP en todos los planes conecta Claude Code/Cursor; el plan gratuito no caduca",
+  "descriptionFr": "Copilote de design text-to-UI : décrivez une app en langage naturel et obtenez en quelques minutes des prototypes interactifs multi-écrans éditables, avec un mode Agent qui garde la cohérence via des composants partagés ; les offres payantes donnent l'export illimité vers Figma et le code HTML/CSS, et le MCP sur tous les plans connecte Claude Code/Cursor ; l'offre gratuite n'expire jamais",
+  "url": "https://www.banani.co",
+  "logo": "/logos/tools/banani.png",
+  "category": "Design",
+  "tags": [
+    "Freemium"
+  ],
+  "featured": false,
+  "developer": "Banani",
+  "platforms": {
+    "web": true,
+    "windows": false,
+    "macos": false,
+    "ios": false,
+    "android": false,
+    "linux": false,
+    "browser_extension": false,
+    "api": false
+  }
+}

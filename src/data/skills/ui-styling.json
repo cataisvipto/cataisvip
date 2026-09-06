@@ -1,0 +1,78 @@
+{
+  "slug": "ui-styling",
+  "name": "UI Styling",
+  "nameZh": "UI 样式指南",
+  "description": "UI 样式指南技能。覆盖 Tailwind CSS 工具类、shadcn/ui 组件、响应式设计、暗色模式、主题定制。",
+  "descriptionEn": "UI styling guide skill. Covers Tailwind CSS utilities, shadcn/ui components, responsive design, dark mode, theme customization.",
+  "descriptionJa": "UIスタイリングガイドスキル。Tailwind CSS、shadcn/uiコンポーネント、レスポンシブデザイン、ダークモード、テーマカスタマイズ。",
+  "descriptionEs": "Guía de estilo UI. Utilidades Tailwind CSS, componentes shadcn/ui, diseño responsive, modo oscuro, personalización de temas.",
+  "descriptionFr": "Guide de style UI. Utilitaires Tailwind CSS, composants shadcn/ui, design responsive, mode sombre, personnalisation du thème.",
+  "developer": "nextlevelbuilder",
+  "developerZh": "nextlevelbuilder",
+  "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
+  "agents": [
+    "claude",
+    "cursor",
+    "codex",
+    "generic"
+  ],
+  "category": "Design",
+  "tags": [
+    "Free",
+    "Open Source"
+  ],
+  "installCommand": "Available via plugin marketplace. See README for details.",
+  "logo": "/logos/skills/ui-styling.png",
+  "stars": 125024,
+  "featured": false,
+  "faqs": [
+    {
+      "question": {
+        "zh": "UI Styling 技能覆盖哪些内容？",
+        "en": "What does the UI Styling skill cover?",
+        "ja": "UI Styling スキルは何をカバーしますか？",
+        "es": "¿Qué cubre la habilidad UI Styling?",
+        "fr": "Que couvre la compétence UI Styling ?"
+      },
+      "answer": {
+        "zh": "覆盖现代前端样式的核心实践：Tailwind CSS 工具类、shadcn/ui 组件用法、响应式设计和暗色模式适配，让 AI 写出的界面代码风格统一、可维护、开箱好看。",
+        "en": "It covers the core practices of modern front-end styling: Tailwind CSS utilities, shadcn/ui component usage, responsive design and dark mode support — so AI-generated UI code is consistent, maintainable and good-looking out of the box.",
+        "ja": "モダンフロントエンドスタイリングの中核プラクティスをカバーします。Tailwind CSS ユーティリティ、shadcn/ui コンポーネントの使い方、レスポンシブデザイン、ダークモード対応など。AI が書く UI コードが統一され、保守しやすく、そのまま美しく仕上がります。",
+        "es": "Cubre las prácticas clave del estilizado frontend moderno: utilidades de Tailwind CSS, uso de componentes shadcn/ui, diseño responsive y modo oscuro, para que el código UI generado por la IA sea coherente, mantenible y atractivo desde el inicio.",
+        "fr": "Elle couvre les pratiques clés du styling front-end moderne : utilitaires Tailwind CSS, composants shadcn/ui, design responsive et mode sombre — pour un code UI généré par l'IA cohérent, maintenable et esthétique d'emblée."
+      }
+    },
+    {
+      "question": {
+        "zh": "怎么安装 UI Styling 技能？",
+        "en": "How do I install the UI Styling skill?",
+        "ja": "UI Styling スキルをインストールするには？",
+        "es": "¿Cómo instalo la habilidad UI Styling?",
+        "fr": "Comment installer la compétence UI Styling ?"
+      },
+      "answer": {
+        "zh": "通过 Claude Code、Cursor 或 Codex 的插件市场添加，具体命令见 GitHub README。安装后凡涉及界面样式的任务，AI 会自动套用其中的设计准则。",
+        "en": "Add it via the Claude Code, Cursor or Codex plugin marketplace — exact commands in the GitHub README. Once installed, any UI styling task automatically applies its design guidelines.",
+        "ja": "Claude Code、Cursor、Codex のプラグインマーケットから追加します（詳細コマンドは GitHub README 参照）。導入後は UI スタイリングに関わるタスクで自動的にデザインガイドラインが適用されます。",
+        "es": "Añádela vía el marketplace de plugins de Claude Code, Cursor o Codex; los comandos exactos están en el README de GitHub. Una vez instalada, cualquier tarea de estilizado UI aplica sus directrices automáticamente.",
+        "fr": "Ajoutez-la via le marketplace de plugins de Claude Code, Cursor ou Codex — commandes exactes dans le README GitHub. Ensuite, toute tâche de styling UI applique automatiquement ses règles de design."
+      }
+    },
+    {
+      "question": {
+        "zh": "它和直接让 AI 写 Tailwind 有什么区别？",
+        "en": "How is it different from just asking AI to write Tailwind?",
+        "ja": "AI にそのまま Tailwind を書かせるのと何が違いますか？",
+        "es": "¿En qué se diferencia de pedirle a la IA que escriba Tailwind sin más?",
+        "fr": "Quelle différence avec demander simplement à l'IA d'écrire du Tailwind ?"
+      },
+      "answer": {
+        "zh": "免费开源。裸写 Tailwind 时 AI 容易凭\"记忆\"混用任意值、硬编码颜色、忽略暗色模式；这个技能注入了一致的设计约束和组件规范，产出从\"能跑\"升级到\"专业\"。",
+        "en": "Free and open source. Without it, AI tends to mix arbitrary values, hard-code colors and forget dark mode from 'memory'. This skill injects consistent design constraints and component conventions, upgrading output from 'works' to 'professional'.",
+        "ja": "無料のオープンソースです。素の状態では AI は「記憶」に頼って任意の値を混在させたり、色をハードコードしたり、ダークモードを忘れがちです。このスキルは一貫したデザイン制約とコンポーネント規範を注入し、成果物を「動く」から「プロ品質」へ引き上げます。",
+        "es": "Gratuita y de código abierto. Sin ella, la IA tiende a mezclar valores arbitrarios, hardcodear colores y olvidar el modo oscuro. Esta habilidad inyecta restricciones de diseño coherentes y convenciones de componentes, elevando el resultado de 'funciona' a 'profesional'.",
+        "fr": "Gratuite et open source. Sans elle, l'IA mélange des valeurs arbitraires, code les couleurs en dur et oublie le mode sombre. Cette compétence injecte des contraintes de design cohérentes et des conventions de composants — le résultat passe de « ça marche » à « professionnel »."
+      }
+    }
+  ]
+}

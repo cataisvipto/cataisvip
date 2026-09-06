@@ -1,0 +1,30 @@
+{
+  "slug": "claude",
+  "homeFeatured": true,
+  "name": "Claude",
+  "nameZh": "Claude",
+  "description": "Anthropic 推出的 AI 助手，擅长长文本理解、分析和安全对话",
+  "descriptionEn": "AI assistant by Anthropic, excels at long-context understanding and safe conversation",
+  "descriptionJa": "Anthropic推出的AIアシスタント。長文理解と安全な対話に優れる",
+  "descriptionEs": "Asistente de IA de Anthropic, destaca en comprensión de textos largos y conversación segura",
+  "descriptionFr": "Assistant IA d'Anthropic, excelle dans la compréhension de longs contextes et la conversation sûre",
+  "url": "https://claude.com",
+  "logo": "/logos/tools/claude.png",
+  "category": "Chat",
+  "tags": [
+    "Freemium",
+    "API"
+  ],
+  "featured": true,
+  "developer": "Anthropic",
+  "platforms": {
+    "web": true,
+    "windows": true,
+    "macos": true,
+    "ios": true,
+    "android": true,
+    "linux": false,
+    "browser_extension": true,
+    "api": true
+  }
+}

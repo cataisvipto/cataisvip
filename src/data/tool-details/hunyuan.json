@@ -1,0 +1,234 @@
+{
+  "features": {
+    "en": [
+      "Full-stack model family: language, image, video and 3D",
+      "Open-source releases (Hunyuan3D, HunyuanVideo, etc.)",
+      "Tencent Cloud API with free token quota",
+      "Strong Chinese language understanding",
+      "Hyra research agent for deep research tasks",
+      "Powers Tencent products like Yuanbao and WeChat AI"
+    ],
+    "zh": [
+      "全链路模型家族：语言、生图、生视频、3D",
+      "多款模型开源（Hunyuan3D、HunyuanVideo 等）",
+      "腾讯云 API 提供免费 token 额度",
+      "中文理解能力突出",
+      "Hyra 研究智能体支持深度研究任务",
+      "驱动元宝、微信 AI 等腾讯系产品"
+    ],
+    "ja": [
+      "言語・画像・動画・3Dのフルスタックモデルファミリー",
+      "複数モデルをオープンソース化（Hunyuan3D、HunyuanVideoなど）",
+      "Tencent Cloud APIで無料トークン枠を提供",
+      "中国語理解能力に優れる",
+      "深層研究タスク向けHyraリサーチエージェント",
+      "元宝やWeChat AIなどTencent製品を支える"
+    ],
+    "es": [
+      "Familia de modelos full-stack: lenguaje, imagen, vídeo y 3D",
+      "Versiones de código abierto (Hunyuan3D, HunyuanVideo, etc.)",
+      "API de Tencent Cloud con cuota gratuita de tokens",
+      "Excelente comprensión del idioma chino",
+      "Agente de investigación Hyra para tareas profundas",
+      "Impulsa productos Tencent como Yuanbao y WeChat AI"
+    ],
+    "fr": [
+      "Famille de modèles full-stack : langage, image, vidéo et 3D",
+      "Versions open source (Hunyuan3D, HunyuanVideo, etc.)",
+      "API Tencent Cloud avec quota de tokens gratuit",
+      "Excellente compréhension du chinois",
+      "Agent de recherche Hyra pour les tâches approfondies",
+      "Propulse les produits Tencent comme Yuanbao et WeChat AI"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Web experience free; open models free to download",
+      "zh": "官网免费体验；开源模型免费下载",
+      "ja": "Web体験は無料、オープンモデルは無料ダウンロード可",
+      "es": "Experiencia web gratuita; modelos abiertos descargables gratis",
+      "fr": "Expérience web gratuite ; modèles ouverts téléchargeables gratuitement"
+    },
+    "api": {
+      "en": "Pay-as-you-go via Tencent Cloud, free quota for new users",
+      "zh": "腾讯云按量计费，新用户享免费额度",
+      "ja": "Tencent Cloud経由で従量課金、新規ユーザーに無料枠あり",
+      "es": "Pago por uso vía Tencent Cloud, cuota gratuita para nuevos usuarios",
+      "fr": "Paiement à l'usage via Tencent Cloud, quota gratuit pour les nouveaux utilisateurs"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Chinese content generation and understanding",
+      "Multimodal creation: image, video and 3D assets",
+      "Enterprise API integration on Tencent Cloud",
+      "Game and social scenarios in Tencent ecosystem",
+      "Research on open multimodal models"
+    ],
+    "zh": [
+      "中文内容生成与理解",
+      "多模态创作：图像、视频与 3D 资产",
+      "腾讯云企业级 API 集成",
+      "腾讯生态内游戏与社交场景",
+      "开源多模态模型研究"
+    ],
+    "ja": [
+      "中国語コンテンツの生成と理解",
+      "マルチモーダル制作：画像・動画・3Dアセット",
+      "Tencent Cloudでのエンタープライズ API 統合",
+      "Tencentエコシステム内のゲーム・ソーシャル用途",
+      "オープンマルチモーダルモデルの研究"
+    ],
+    "es": [
+      "Generación y comprensión de contenido en chino",
+      "Creación multimodal: imagen, vídeo y activos 3D",
+      "Integración API empresarial en Tencent Cloud",
+      "Escenarios de juegos y redes en el ecosistema Tencent",
+      "Investigación en modelos multimodales abiertos"
+    ],
+    "fr": [
+      "Génération et compréhension de contenu en chinois",
+      "Création multimodale : image, vidéo et actifs 3D",
+      "Intégration API d'entreprise sur Tencent Cloud",
+      "Scénarios jeux et réseaux sociaux dans l'écosystème Tencent",
+      "Recherche sur les modèles multimodaux ouverts"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Full multimodal coverage in one family",
+      "Strong open-source lineup (3D and video)",
+      "Deep Tencent ecosystem integration",
+      "Free quota lowers trial barrier"
+    ],
+    "zh": [
+      "一个家族覆盖全模态",
+      "开源阵容强（3D 与视频尤佳）",
+      "腾讯生态深度整合",
+      "免费额度降低试用门槛"
+    ],
+    "ja": [
+      "1ファミリーで全モダリティをカバー",
+      "強力なオープンソース陣容（3D・動画）",
+      "Tencentエコシステムとの深い統合",
+      "無料枠で試用ハードルが低い"
+    ],
+    "es": [
+      "Cobertura multimodal completa en una familia",
+      "Sólida oferta open source (3D y vídeo)",
+      "Integración profunda con el ecosistema Tencent",
+      "La cuota gratuita reduce la barrera de prueba"
+    ],
+    "fr": [
+      "Couverture multimodale complète en une famille",
+      "Solide offre open source (3D et vidéo)",
+      "Intégration profonde à l'écosystème Tencent",
+      "Le quota gratuit abaisse la barrière d'essai"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Less international recognition than GPT/Claude",
+      "Top-tier reasoning still behind frontier models",
+      "Ecosystem primarily oriented to Chinese market"
+    ],
+    "zh": [
+      "国际知名度低于 GPT/Claude",
+      "顶级推理能力与前沿模型仍有差距",
+      "生态主要面向国内市场"
+    ],
+    "ja": [
+      "GPT/Claudeより国際的知名度が低い",
+      "最上位の推論能力はフロンティアモデルに及ばない",
+      "エコシステムは主に中国市場向け"
+    ],
+    "es": [
+      "Menos reconocimiento internacional que GPT/Claude",
+      "El razonamiento de élite aún detrás de los modelos frontera",
+      "Ecosistema orientado principalmente al mercado chino"
+    ],
+    "fr": [
+      "Moins de notoriété internationale que GPT/Claude",
+      "Raisonnement d'élite encore derrière les modèles frontière",
+      "Écosystème principalement orienté vers le marché chinois"
+    ]
+  },
+  "latestUpdate": {
+    "en": "2026: Hyra-1.0 research agent released; open-source multimodal releases continue to expand",
+    "zh": "2026年：发布 Hyra-1.0 研究智能体，开源多模态阵容持续扩充",
+    "ja": "2026年：リサーチエージェントHyra-1.0をリリース、オープンソースのマルチモーダル陣容を継続拡充",
+    "es": "2026: lanzado el agente de investigación Hyra-1.0; siguen ampliándose las versiones multimodales abiertas",
+    "fr": "2026 : lancement de l'agent de recherche Hyra-1.0 ; l'offre multimodale open source continue de s'étendre"
+  },
+  "verdict": {
+    "badge": "Recommended",
+    "headline": {
+      "en": "Tencent's full-stack model family with an unusually strong open-source multimodal lineup.",
+      "zh": "腾讯全链路模型家族，开源多模态阵容罕见地强。",
+      "ja": "Tencentのフルスタックモデルファミリー、オープンソースのマルチモーダル陣容が際立って強い。",
+      "es": "La familia de modelos full-stack de Tencent con una oferta multimodal open source inusualmente fuerte.",
+      "fr": "La famille de modèles full-stack de Tencent avec une offre multimodale open source exceptionnellement forte."
+    },
+    "body": {
+      "en": "Hunyuan stands out less for its chat model and more for breadth: language, image, video and 3D under one roof, with several of those models released as open source. Hunyuan3D and HunyuanVideo are among the strongest open options in their fields.\n\nFor developers on Tencent Cloud, the free quota and unified API make it easy to adopt. As a pure LLM it is competitive in Chinese but not a frontier-level reasoner — pair it with a top-tier model if you need the strongest general intelligence.",
+      "zh": "混元的亮点不在单一对话模型，而在广度：语言、生图、生视频、3D 一站覆盖，且多款开源。Hunyuan3D 与 HunyuanVideo 是各自领域最强的开源选择之一。\n\n对腾讯云开发者，免费额度和统一 API 让接入很轻松。作为纯 LLM 它在中文场景有竞争力，但推理上限并非前沿水平——若需要最强通用智能，建议搭配顶级模型使用。",
+      "ja": "混元の魅力は単一チャットモデルではなく幅広さにある。言語・画像・動画・3Dを一括カバーし、複数モデルをオープンソース化。Hunyuan3DとHunyuanVideoは各分野で最強クラスのオープン選択肢だ。\n\nTencent Cloud開発者には無料枠と統一APIで導入が容易。純粋なLLMとしては中国語で競争力があるが、推論の上限はフロンティア級ではない——最強の汎用知能が必要なら上位モデルとの併用を推奨。",
+      "es": "Hunyuan destaca menos por su modelo de chat y más por su amplitud: lenguaje, imagen, vídeo y 3D bajo un mismo techo, con varios modelos liberados como open source. Hunyuan3D y HunyuanVideo están entre las opciones abiertas más fuertes de sus campos.\n\nPara desarrolladores en Tencent Cloud, la cuota gratuita y la API unificada facilitan la adopción. Como LLM puro es competitivo en chino pero no un razonador de frontera.",
+      "fr": "Hunyuan se distingue moins par son modèle de chat que par son ampleur : langage, image, vidéo et 3D sous un même toit, avec plusieurs modèles publiés en open source. Hunyuan3D et HunyuanVideo comptent parmi les options ouvertes les plus solides de leurs domaines.\n\nPour les développeurs sur Tencent Cloud, le quota gratuit et l'API unifiée facilitent l'adoption. Comme pur LLM, il est compétitif en chinois mais pas un raisonneur de niveau frontière."
+    },
+    "bestFor": {
+      "en": [
+        "Chinese multimodal content generation",
+        "Developers already on Tencent Cloud",
+        "Open-source 3D and video model research"
+      ],
+      "zh": [
+        "中文多模态内容生成",
+        "已在腾讯云上的开发者",
+        "开源 3D 与视频模型研究"
+      ],
+      "ja": [
+        "中国語マルチモーダルコンテンツ生成",
+        "既にTencent Cloudを使う開発者",
+        "オープンソース3D・動画モデル研究"
+      ],
+      "es": [
+        "Generación de contenido multimodal en chino",
+        "Desarrolladores ya en Tencent Cloud",
+        "Investigación en modelos abiertos de 3D y vídeo"
+      ],
+      "fr": [
+        "Génération de contenu multimodal en chinois",
+        "Développeurs déjà sur Tencent Cloud",
+        "Recherche sur les modèles ouverts 3D et vidéo"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You need frontier-level reasoning (→ ChatGPT, Claude)",
+        "You want a global-facing ecosystem (→ Gemini, Qwen)"
+      ],
+      "zh": [
+        "需要前沿级推理能力（→ ChatGPT、Claude）",
+        "需要面向全球的生态（→ Gemini、Qwen）"
+      ],
+      "ja": [
+        "フロンティア級の推論が必要な場合（→ ChatGPT、Claude）",
+        "グローバル向けエコシステムが必要な場合（→ Gemini、Qwen）"
+      ],
+      "es": [
+        "Necesitas razonamiento de nivel frontera (→ ChatGPT, Claude)",
+        "Quieres un ecosistema global (→ Gemini, Qwen)"
+      ],
+      "fr": [
+        "Vous avez besoin d'un raisonnement de niveau frontière (→ ChatGPT, Claude)",
+        "Vous voulez un écosystème mondial (→ Gemini, Qwen)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-27",
+    "verdictDate": "2026-07-27",
+    "pricingVerified": "2026-07-27"
+  }
+}

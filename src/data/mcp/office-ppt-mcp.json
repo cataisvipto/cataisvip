@@ -1,0 +1,79 @@
+{
+  "slug": "office-ppt-mcp",
+  "name": "Office PowerPoint MCP Server",
+  "nameZh": "Office PowerPoint MCP 服务器",
+  "description": "让 AI 智能体创建、读取和编辑 Microsoft PowerPoint 演示文稿的 MCP 服务器。支持生成 .pptx 文件、添加幻灯片、编辑文本和形状、应用主题，实现演示文稿自动化。",
+  "descriptionEn": "An MCP server that lets AI agents create, read, and edit Microsoft PowerPoint presentations. Supports generating .pptx files, adding slides, editing text and shapes, and applying themes — enabling automated presentation creation.",
+  "descriptionJa": "AI エージェントが Microsoft PowerPoint プレゼンテーションを作成、読み取り、編集できる MCP サーバー。.pptx ファイルの生成、スライドの追加、テキストや図形の編集、テーマの適用をサポートし、プレゼンテーション作成を自動化します。",
+  "descriptionEs": "Un servidor MCP que permite a los agentes de IA crear, leer y editar presentaciones de Microsoft PowerPoint. Soporta la generación de archivos .pptx, añadir diapositivas, editar texto y formas, y aplicar temas — permitiendo la creación automatizada de presentaciones.",
+  "descriptionFr": "Un serveur MCP qui permet aux agents IA de créer, lire et éditer des présentations Microsoft PowerPoint. Prend en charge la génération de fichiers .pptx, l'ajout de diapositives, l'édition de texte et de formes, et l'application de thèmes — permettant la création automatisée de présentations.",
+  "developer": "GongRzhe",
+  "developerZh": "GongRzhe",
+  "repo": "GongRzhe/Office-PowerPoint-MCP-Server",
+  "clients": [
+    "claude",
+    "cursor",
+    "vscode",
+    "codex",
+    "generic"
+  ],
+  "category": "Productivity",
+  "tags": [
+    "Free",
+    "Open Source"
+  ],
+  "installCommand": "pip install -r https://raw.githubusercontent.com/GongRzhe/Office-PowerPoint-MCP-Server/main/requirements.txt",
+  "logo": "/logos/mcp/office-ppt-mcp.png",
+  "stars": 1851,
+  "featured": false,
+  "faqs": [
+    {
+      "question": {
+        "zh": "Office PowerPoint MCP 能做什么？",
+        "en": "What can Office PowerPoint MCP do?",
+        "ja": "Office PowerPoint MCP は何ができますか？",
+        "es": "¿Qué puede hacer Office PowerPoint MCP?",
+        "fr": "Que peut faire Office PowerPoint MCP ?"
+      },
+      "answer": {
+        "zh": "让 AI 智能体直接操作 PowerPoint 演示文稿：创建新演示文稿并添加幻灯片、在幻灯片中添加和编辑文本框/形状/图片、应用主题和配色方案、设置幻灯片切换动画、导出为 PPTX 文件。适用于自动生成报告演示、批量创建幻灯片、内容提取等场景。",
+        "en": "Lets AI agents directly manipulate PowerPoint presentations: create new presentations with slides, add and edit text boxes/shapes/images on slides, apply themes and color schemes, set slide transitions, and export as PPTX files. Ideal for automated report presentations, batch slide creation, and content extraction.",
+        "ja": "AI エージェントが PowerPoint プレゼンテーションを直接操作できます：新しいプレゼンテーションの作成とスライドの追加、スライド上のテキストボックス/図形/画像の追加と編集、テーマと配色の適用、スライド切り替えアニメーションの設定、PPTX ファイルへのエクスポート。レポートの自動生成、スライドの一括作成、コンテンツ抽出などのシーンに最適です。",
+        "es": "Permite a los agentes de IA manipular directamente presentaciones de PowerPoint: crear nuevas presentaciones con diapositivas, añadir y editar cuadros de texto/formas/imágenes en diapositivas, aplicar temas y combinaciones de colores, establecer transiciones de diapositivas y exportar como archivos PPTX. Ideal para presentaciones de informes automatizadas, creación de lotes de diapositivas y extracción de contenido.",
+        "fr": "Permet aux agents IA de manipuler directement des présentations PowerPoint : créer de nouvelles présentations avec des diapositives, ajouter et modifier des zones de texte/formes/images sur les diapositives, appliquer des thèmes et des jeux de couleurs, définir des transitions de diapositives et exporter en fichiers PPTX. Idéal pour les présentations de rapports automatisées, la création par lots de diapositives et l'extraction de contenu."
+      }
+    },
+    {
+      "question": {
+        "zh": "Office PowerPoint MCP 需要安装 Microsoft Office 吗？",
+        "en": "Does Office PowerPoint MCP require Microsoft Office?",
+        "ja": "Office PowerPoint MCP を使用するには Microsoft Office のインストールが必要ですか？",
+        "es": "¿Office PowerPoint MCP necesita tener Microsoft Office instalado?",
+        "fr": "Office PowerPoint MCP nécessite-t-il Microsoft Office ?"
+      },
+      "answer": {
+        "zh": "不需要。MCP 服务器基于 python-pptx 库操作 .pptx 文件格式，不依赖 Microsoft Office。可以在 Windows、macOS、Linux 上运行，无需购买 Office 许可证。",
+        "en": "No. The MCP server is built on the python-pptx library, which operates on the .pptx file format directly without needing Microsoft Office. It runs on Windows, macOS, and Linux with no Office license required.",
+        "ja": "いいえ。MCP サーバーは python-pptx ライブラリをベースにしており、Microsoft Office を必要とせずに .pptx ファイル形式を直接操作します。Windows、macOS、Linux で動作し、Office ライセンスは不要です。",
+        "es": "No. El servidor MCP está construido sobre la librería python-pptx, que opera directamente sobre el formato de archivo .pptx sin necesidad de Microsoft Office. Se ejecuta en Windows, macOS y Linux sin necesidad de licencia de Office.",
+        "fr": "Non. Le serveur MCP est construit sur la bibliothèque python-pptx, qui opère directement sur le format de fichier .pptx sans nécessiter Microsoft Office. Il fonctionne sur Windows, macOS et Linux sans licence Office requise."
+      }
+    },
+    {
+      "question": {
+        "zh": "Office PowerPoint MCP 和 Word MCP 是同一作者吗？",
+        "en": "Are Office PowerPoint MCP and Word MCP by the same author?",
+        "ja": "Office PowerPoint MCP と Word MCP は同じ作者ですか？",
+        "es": "¿Office PowerPoint MCP y Word MCP son del mismo autor?",
+        "fr": "Office PowerPoint MCP et Word MCP sont-ils du même auteur ?"
+      },
+      "answer": {
+        "zh": "是的，两者都由 GongRzhe 开发，API 风格一致，可以组合使用实现 Office 文档的全流程自动化处理——从 Word 文档生成内容到 PPT 自动制作演示文稿。",
+        "en": "Yes, both are developed by GongRzhe with consistent API style. They can be combined for full-office automation — from content generation in Word to auto-creating presentations in PowerPoint.",
+        "ja": "はい、両方とも GongRzhe によって開発され、API スタイルは一貫しています。Word でのコンテンツ生成から PowerPoint でのプレゼンテーション自動作成まで、組み合わせて Office 文書の全工程自動化を実現できます。",
+        "es": "Sí, ambos están desarrollados por GongRzhe con un estilo de API consistente. Se pueden combinar para la automatización completa de Office — desde la generación de contenido en Word hasta la creación automática de presentaciones en PowerPoint.",
+        "fr": "Oui, les deux sont développés par GongRzhe avec un style d'API cohérent. Ils peuvent être combinés pour une automatisation complète d'Office — de la génération de contenu dans Word à la création automatique de présentations dans PowerPoint."
+      }
+    }
+  ]
+}

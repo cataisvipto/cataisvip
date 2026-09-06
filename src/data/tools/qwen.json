@@ -1,0 +1,31 @@
+{
+  "slug": "qwen",
+  "homeFeatured": true,
+  "name": "Qwen",
+  "nameZh": "通义千问",
+  "description": "阿里云推出的大语言模型，支持多语言、长文本和多模态理解",
+  "descriptionEn": "Alibaba Cloud's LLM supporting multilingual, long-context, and multimodal understanding",
+  "descriptionJa": "Alibaba CloudのLLM。多言語、長文コンテキスト、マルチモーダル理解に対応",
+  "descriptionEs": "LLM de Alibaba Cloud con soporte multilingüe, contexto largo y comprensión multimodal",
+  "descriptionFr": "LLM d'Alibaba Cloud supportant le multilinguisme, le long contexte et la compréhension multimodale",
+  "url": "https://chat.qwen.ai",
+  "logo": "/logos/tools/qwen.png",
+  "category": "Chat",
+  "tags": [
+    "Free",
+    "API"
+  ],
+  "featured": true,
+  "developer": "Alibaba Cloud",
+  "developerZh": "阿里云",
+  "platforms": {
+    "web": true,
+    "windows": true,
+    "macos": true,
+    "ios": true,
+    "android": true,
+    "linux": false,
+    "browser_extension": "unknown",
+    "api": true
+  }
+}

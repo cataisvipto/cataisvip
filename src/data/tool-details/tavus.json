@@ -1,0 +1,235 @@
+{
+  "features": {
+    "en": [
+      "Conversational Video Interface (CVI): real-time face-to-face AI conversations",
+      "Phoenix rendering, Raven perception and Sparrow turn-taking models built in-house",
+      "Personal replicas cloned from about two minutes of training footage",
+      "API-first platform with white-label embedding and Google Meet integration",
+      "Sub-second latency pipeline handling vision, speech and rendering together",
+      "100+ stock replicas plus multilingual speech support"
+    ],
+    "zh": [
+      "对话视频接口（CVI）：实时面对面的 AI 视频对话",
+      "自研 Phoenix 渲染、Raven 感知与 Sparrow 轮次对话模型",
+      "约两分钟训练素材即可克隆个人数字分身（replica）",
+      "API 优先平台，支持白标嵌入与 Google Meet 集成",
+      "亚秒级延迟管线，统一处理视觉、语音与渲染",
+      "100+ 库存数字分身与多语言语音支持"
+    ],
+    "ja": [
+      "会話型ビデオインターフェース（CVI）：リアルタイムの対面AI会話",
+      "自社開発のPhoenixレンダリング、Raven知覚、Sparrowターンテイキングモデル",
+      "約2分のトレーニング映像でパーソナルレプリカを複製",
+      "ホワイトラベル埋め込みとGoogle Meet統合に対応するAPIファーストのプラットフォーム",
+      "視覚・音声・レンダリングを統合処理するサブ秒レイテンシのパイプライン",
+      "100以上のストックレプリカと多言語音声サポート"
+    ],
+    "es": [
+      "Interfaz de Video Conversacional (CVI): conversaciones IA cara a cara en tiempo real",
+      "Modelos propios Phoenix (renderizado), Raven (percepción) y Sparrow (turnos de palabra)",
+      "Réplicas personales clonadas con unos dos minutos de material de entrenamiento",
+      "Plataforma API-first con integración white-label y de Google Meet",
+      "Pipeline de latencia subsegundo que maneja visión, voz y renderizado a la vez",
+      "Más de 100 réplicas de stock y soporte de voz multilingüe"
+    ],
+    "fr": [
+      "Interface Vidéo Conversationnelle (CVI) : conversations IA en face à face en temps réel",
+      "Modèles maison Phoenix (rendu), Raven (perception) et Sparrow (tours de parole)",
+      "Répliques personnelles clonées à partir d'environ deux minutes de séquences",
+      "Plateforme API-first avec intégration en marque blanche et Google Meet",
+      "Pipeline à latence sous la seconde gérant vision, parole et rendu ensemble",
+      "Plus de 100 répliques de stock et prise en charge vocale multilingue"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Free plan lets you experience the full CVI pipeline — real-time face-to-face conversations — with limited minutes before committing.",
+      "zh": "免费档可体验完整 CVI 管线——实时面对面对话——含有限分钟数，先试再买。",
+      "ja": "無料プランでは、コミット前に限られた分数でCVIパイプライン全体——リアルタイムの対面会話——を体験できる。",
+      "es": "El plan gratuito permite experimentar todo el pipeline CVI —conversaciones cara a cara en tiempo real— con minutos limitados antes de comprometerse.",
+      "fr": "L'offre gratuite permet d'expérimenter tout le pipeline CVI — conversations en face à face en temps réel — avec des minutes limitées avant de s'engager."
+    },
+    "paid": {
+      "en": "Starter $39/month with pay-as-you-go usage and 3 personal replica slots; Growth $375/month adds volume and concurrency; higher tiers around $975/month bundle about 4,000 conversational minutes, 15 replica slots and Google Meet configurations, with enterprise plans on request. (Verified against the official pricing page, 2026-07-28.)",
+      "zh": "Starter $39/月，按量计费，含 3 个个人分身位；Growth $375/月提升用量与并发；更高档约 $975/月，打包约 4000 对话分钟、15 个分身位与 Google Meet 配置，企业方案另议。（对照官方定价页核实，2026-07-28。）",
+      "ja": "Starterは月$39で従量課金、パーソナルレプリカ枠3つ付き。Growthは月$375でボリュームと同時実行数を拡大。上位プランは月約$975で約4,000会話分、レプリカ枠15、Google Meet設定をバンドル。エンタープライズは応相談。（公式価格ページと照合、2026-07-28。）",
+      "es": "Starter $39/mes con uso de pago por consumo y 3 huecos de réplica personal; Growth $375/mes añade volumen y concurrencia; los niveles superiores, en torno a $975/mes, incluyen unos 4.000 minutos conversacionales, 15 huecos de réplica y configuraciones de Google Meet, con planes enterprise bajo consulta. (Verificado con la página oficial de precios, 2026-07-28.)",
+      "fr": "Starter à 39 $/mois avec usage à la consommation et 3 emplacements de réplique personnelle ; Growth à 375 $/mois ajoute volume et concurrence ; les paliers supérieurs vers 975 $/mois regroupent environ 4 000 minutes conversationnelles, 15 emplacements de réplique et des configurations Google Meet, offres enterprise sur demande. (Vérifié avec la page tarifaire officielle, 2026-07-28.)"
+    }
+  },
+  "useCases": {
+    "en": [
+      "AI interviewers, tutors and coaches that hold face-to-face conversations",
+      "Customer-facing video agents for onboarding, sales demos and support",
+      "Healthcare intake, screening and companionship pilots with a human face",
+      "White-label conversational video inside SaaS products via API"
+    ],
+    "zh": [
+      "能面对面交谈的 AI 面试官、导师与教练",
+      "面向客户的视频 Agent：引导、销售演示与支持",
+      "带人脸的医疗问诊、初筛与陪伴类试点",
+      "通过 API 在 SaaS 产品内嵌白标对话视频"
+    ],
+    "ja": [
+      "対面会話ができるAI面接官・チューター・コーチ",
+      "オンボーディング・営業デモ・サポート向けの顧客対応ビデオエージェント",
+      "人間の顔を持つ医療問診・スクリーニング・コンパニオンの実証",
+      "API経由でSaaS製品にホワイトラベルの会話ビデオを組み込み"
+    ],
+    "es": [
+      "Entrevistadores, tutores y coaches IA que conversan cara a cara",
+      "Agentes de video de cara al cliente para onboarding, demos de ventas y soporte",
+      "Pilotos de admisión, cribado y compañía en salud con rostro humano",
+      "Video conversacional white-label dentro de productos SaaS vía API"
+    ],
+    "fr": [
+      "Recruteurs, tuteurs et coachs IA menant des conversations en face à face",
+      "Agents vidéo orientés client pour l'onboarding, les démos commerciales et le support",
+      "Pilotes de santé (admission, dépistage, compagnie) avec un visage humain",
+      "Vidéo conversationnelle en marque blanche dans les produits SaaS via API"
+    ]
+  },
+  "pros": {
+    "en": [
+      "The most complete real-time conversational video stack available as an API",
+      "In-house perception model means avatars actually see and react to users",
+      "Two-minute replica training is remarkably fast for personal clones",
+      "Free plan offers a genuine taste of the full pipeline before paying"
+    ],
+    "zh": [
+      "以 API 形态提供的最完整实时对话视频技术栈",
+      "自研感知模型让数字人真的能看到并回应用户",
+      "两分钟素材训练个人分身，速度惊人",
+      "免费档能真切体验完整管线后再付费"
+    ],
+    "ja": [
+      "APIとして提供される最も完成度の高いリアルタイム会話ビデオスタック",
+      "自社知覚モデルによりアバターが実際にユーザーを見て反応する",
+      "2分のトレーニングでパーソナルレプリカを作れる速さは驚異的",
+      "無料プランで支払い前にパイプライン全体を本格的に体験できる"
+    ],
+    "es": [
+      "El stack de video conversacional en tiempo real más completo disponible como API",
+      "El modelo de percepción propio hace que los avatares realmente vean y reaccionen al usuario",
+      "El entrenamiento de réplicas en dos minutos es notablemente rápido",
+      "El plan gratuito ofrece una muestra genuina del pipeline completo antes de pagar"
+    ],
+    "fr": [
+      "La pile de vidéo conversationnelle temps réel la plus complète disponible en API",
+      "Le modèle de perception maison permet aux avatars de réellement voir et réagir",
+      "L'entraînement de réplique en deux minutes est remarquablement rapide",
+      "L'offre gratuite donne un vrai aperçu du pipeline complet avant de payer"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Costs climb quickly: usage-based minutes on top of $39–$375+ subscriptions",
+      "Developer-first product — non-technical teams face a real learning curve",
+      "Not designed for scripted marketing videos; content tooling is thin",
+      "Replica quality varies with training footage and can dip in long sessions"
+    ],
+    "zh": [
+      "成本爬升快：$39–$375+ 订阅之外还要叠加按分钟计费",
+      "开发者优先的产品——非技术团队有实打实的学习曲线",
+      "并非为脚本化营销视频设计，内容制作工具单薄",
+      "分身质量取决于训练素材，长会话中可能下滑"
+    ],
+    "ja": [
+      "コストの上昇が速い：$39〜$375超のサブスクに加えて分単位の従量課金",
+      "開発者ファーストの製品——非技術チームには本物の学習曲線がある",
+      "スクリプト型マーケ動画向けではなく、コンテンツ制作ツールは手薄",
+      "レプリカ品質はトレーニング素材次第で、長いセッションでは低下することも"
+    ],
+    "es": [
+      "Los costes suben rápido: minutos por uso además de suscripciones de $39–$375+",
+      "Producto developer-first: los equipos no técnicos enfrentan una curva de aprendizaje real",
+      "No está diseñado para videos de marketing con guion; las herramientas de contenido son escasas",
+      "La calidad de la réplica varía según el material de entrenamiento y puede bajar en sesiones largas"
+    ],
+    "fr": [
+      "Les coûts grimpent vite : minutes à l'usage en plus des abonnements de 39 à 375 $+",
+      "Produit developer-first — vraie courbe d'apprentissage pour les équipes non techniques",
+      "Pas conçu pour les vidéos marketing scénarisées ; l'outillage contenu est mince",
+      "La qualité des répliques dépend des séquences d'entraînement et peut baisser sur les longues sessions"
+    ]
+  },
+  "latestUpdate": {
+    "en": "2026: Tavus doubled down on its 'human computing' vision — the CVI stack now runs Phoenix-4 rendering with Raven perception and Sparrow turn-taking, powering PAL-style conversational agents with sub-second latency, Google Meet integration and 100+ stock replicas. Plans span a free tier, $39/month Starter and $375/month Growth, with high-volume tiers around $975/month.",
+    "zh": "2026 年：Tavus 深耕「人本计算」愿景——CVI 技术栈现由 Phoenix-4 渲染、Raven 感知与 Sparrow 轮次对话驱动，以亚秒级延迟支撑 PAL 式对话 Agent，集成 Google Meet 并提供 100+ 库存分身。方案涵盖免费档、$39/月 Starter 与 $375/月 Growth，高用量档约 $975/月。",
+    "ja": "2026年：Tavusは「ヒューマンコンピューティング」ビジョンを推し進めた——CVIスタックはPhoenix-4レンダリング、Raven知覚、Sparrowターンテイキングで構成され、サブ秒レイテンシのPAL型会話エージェントを実現。Google Meet統合と100以上のストックレプリカを提供。プランは無料枠、月$39のStarter、月$375のGrowth、高容量帯は月約$975。",
+    "es": "2026: Tavus redobló su visión de 'computación humana': el stack CVI ahora ejecuta renderizado Phoenix-4 con percepción Raven y turnos Sparrow, impulsando agentes conversacionales estilo PAL con latencia subsegundo, integración con Google Meet y más de 100 réplicas de stock. Los planes van del nivel gratuito al Starter de $39/mes y Growth de $375/mes, con niveles de alto volumen en torno a $975/mes.",
+    "fr": "2026 : Tavus a intensifié sa vision du « human computing » — la pile CVI tourne désormais avec le rendu Phoenix-4, la perception Raven et les tours de parole Sparrow, animant des agents conversationnels de type PAL avec une latence sous la seconde, l'intégration Google Meet et plus de 100 répliques de stock. Les offres vont du gratuit au Starter à 39 $/mois et Growth à 375 $/mois, avec des paliers haut volume vers 975 $/mois."
+  },
+  "verdict": {
+    "badge": "Worth Trying",
+    "headline": {
+      "en": "When you need an AI that looks you in the eye and talks back",
+      "zh": "当你需要一个能看着你的眼睛、实时回话的 AI",
+      "ja": "目を見て話し返すAIが必要なとき",
+      "es": "Para cuando necesitas una IA que te mire a los ojos y responda",
+      "fr": "Quand il vous faut une IA qui vous regarde dans les yeux et vous répond"
+    },
+    "body": {
+      "en": "Tavus is not competing with Synthesia, and it barely pretends to. While the rest of the avatar market renders scripted presenters, Tavus builds the machinery for live conversation: a rendering model, a perception model that watches the user through the camera, and a turn-taking model that knows when to pause and when to jump in. Wire that pipeline to an LLM and you get something the demo videos genuinely undersell — an AI interviewer or tutor that reacts to your face in under a second. Developers rate it as the most complete conversational-video API on the market, and the two-minute replica training makes personal clones almost trivially easy. The costs of that ambition are equally real: usage-based minutes stack on top of subscriptions that leap from $39 to $375 and beyond, the product assumes engineering resources, and there is no serious tooling for plain scripted content. Treat the generous free tier as the deciding vote — run one live conversation with a replica, and you will know within minutes whether this is a toy for your roadmap or the foundation of your next product.",
+      "zh": "Tavus 没有在和 Synthesia 竞争，它也几乎不装作在竞争。当数字人市场的其他玩家都在渲染照本宣科的主播时，Tavus 在造实时对话的机器：一个渲染模型、一个透过摄像头观察用户的感知模型，以及一个知道何时停顿何时接话的轮次模型。把这条管线接上 LLM，你会得到演示视频远远低估了的东西——一个能在一秒内对你的表情做出反应的 AI 面试官或导师。开发者评价它是市面上最完整的对话视频 API，两分钟的分身训练更是让个人克隆变得近乎轻而易举。这份野心的代价同样真实：按分钟计费叠在从 $39 跳到 $375 再往上的订阅之上；产品默认你有工程资源；纯脚本内容的制作工具几乎没有。把慷慨的免费档当作决定性一票——用分身跑一场实时对话，几分钟内你就会知道，它对你的路线图而言是个玩具，还是下一款产品的地基。",
+      "ja": "TavusはSynthesiaと競合していないし、そのふりすらほとんどしない。アバター市場の他社が台本通りのプレゼンターをレンダリングする中、Tavusはライブ会話のための機構を作っている。レンダリングモデル、カメラ越しにユーザーを観察する知覚モデル、そしていつ間を取りいつ話し出すかを心得たターンテイキングモデルだ。このパイプラインをLLMに繋げば、デモ動画が控えめに見えるほどのもの——1秒以内にあなたの表情に反応するAI面接官やチューター——が手に入る。開発者は市場で最も完成された会話ビデオAPIと評価し、2分のレプリカトレーニングでパーソナルクローンはほぼ簡単に作れる。その野心の代償も同様に現実だ。従量課金の分数が$39から$375以上へ跳ねるサブスクの上に積み重なり、製品はエンジニアリングリソースを前提とし、単純なスクリプト型コンテンツ向けのツールはまともにない。寛大な無料枠を決め手にしよう——レプリカと1回ライブ会話をすれば、これが自分のロードマップにとっての玩具か、次の製品の土台か、数分で分かるはずだ。",
+      "es": "Tavus no compite con Synthesia, y apenas finge hacerlo. Mientras el resto del mercado de avatares renderiza presentadores con guion, Tavus construye la maquinaria de la conversación en vivo: un modelo de renderizado, un modelo de percepción que observa al usuario por la cámara y un modelo de turnos que sabe cuándo pausar y cuándo intervenir. Conecta ese pipeline a un LLM y obtienes algo que los videos de demostración se quedan cortos en mostrar: un entrevistador o tutor IA que reacciona a tu cara en menos de un segundo. Los desarrolladores la valoran como la API de video conversacional más completa del mercado, y el entrenamiento de réplicas en dos minutos hace los clones personales casi triviales. Los costes de esa ambición son igual de reales: los minutos por uso se apilan sobre suscripciones que saltan de $39 a $375 y más, el producto presupone recursos de ingeniería y no hay herramientas serias para contenido guionado simple. Usa el generoso nivel gratuito como voto decisivo: mantén una conversación en vivo con una réplica y sabrás en minutos si esto es un juguete para tu hoja de ruta o los cimientos de tu próximo producto.",
+      "fr": "Tavus ne concurrence pas Synthesia, et ne fait guère semblant. Pendant que le reste du marché des avatars rend des présentateurs scénarisés, Tavus construit la machinerie de la conversation en direct : un modèle de rendu, un modèle de perception qui observe l'utilisateur à travers la caméra, et un modèle de tours de parole qui sait quand se taire et quand intervenir. Branchez ce pipeline sur un LLM et vous obtenez quelque chose que les vidéos de démo sous-vendent réellement — un recruteur ou tuteur IA qui réagit à votre visage en moins d'une seconde. Les développeurs la considèrent comme l'API de vidéo conversationnelle la plus complète du marché, et l'entraînement de réplique en deux minutes rend les clones personnels presque triviaux. Les coûts de cette ambition sont tout aussi réels : les minutes à l'usage s'empilent sur des abonnements qui bondissent de 39 $ à 375 $ et au-delà, le produit suppose des ressources d'ingénierie, et il n'existe pas d'outillage sérieux pour du simple contenu scénarisé. Faites de l'offre gratuite généreuse le vote décisif — menez une conversation en direct avec une réplique, et vous saurez en quelques minutes si c'est un jouet pour votre feuille de route ou la fondation de votre prochain produit."
+    },
+    "bestFor": {
+      "en": [
+        "Product teams embedding live conversational avatars via API",
+        "Startups building AI interviewers, tutors, coaches or intake agents",
+        "Enterprises piloting face-to-face customer engagement at scale"
+      ],
+      "zh": [
+        "要通过 API 嵌入实时对话数字人的产品团队",
+        "构建 AI 面试官、导师、教练或问诊 Agent 的创业公司",
+        "试点规模化面对面客户互动的企业"
+      ],
+      "ja": [
+        "API経由でライブ会話アバターを組み込む製品チーム",
+        "AI面接官・チューター・コーチ・問診エージェントを作るスタートアップ",
+        "対面型の顧客エンゲージメントを大規模に試す企業"
+      ],
+      "es": [
+        "Equipos de producto que integran avatares conversacionales en vivo vía API",
+        "Startups que construyen entrevistadores, tutores, coaches o agentes de admisión IA",
+        "Empresas que pilotan interacción cara a cara con clientes a escala"
+      ],
+      "fr": [
+        "Équipes produit intégrant des avatars conversationnels en direct via API",
+        "Startups créant des recruteurs, tuteurs, coachs ou agents d'admission IA",
+        "Entreprises pilotant l'engagement client en face à face à grande échelle"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You mainly need scripted presenter videos, not live conversation (→ Synthesia / HeyGen)",
+        "You want the cheapest way to make a photo talk (→ D-ID)"
+      ],
+      "zh": [
+        "你主要需要脚本化主播视频而非实时对话（→ Synthesia / HeyGen）",
+        "你想用最便宜的方式让照片开口说话（→ D-ID）"
+      ],
+      "ja": [
+        "必要なのはライブ会話ではなくスクリプト型プレゼンター動画（→ Synthesia / HeyGen）",
+        "写真を喋らせる最も安価な方法が欲しい（→ D-ID）"
+      ],
+      "es": [
+        "Principalmente necesitas videos de presentador con guion, no conversación en vivo (→ Synthesia / HeyGen)",
+        "Quieres la forma más barata de hacer hablar una foto (→ D-ID)"
+      ],
+      "fr": [
+        "Vous avez surtout besoin de vidéos de présentateur scénarisées, pas de conversation en direct (→ Synthesia / HeyGen)",
+        "Vous voulez le moyen le moins cher de faire parler une photo (→ D-ID)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-28",
+    "verdictDate": "2026-07-28",
+    "pricingVerified": "2026-07-28",
+    "pricingUrl": "https://www.tavus.io/pricing"
+  }
+}

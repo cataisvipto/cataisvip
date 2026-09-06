@@ -1,0 +1,225 @@
+{
+  "features": {
+    "en": [
+      "Connect 160+ data sources (APIs, databases, file formats, SaaS) to LLMs",
+      "Index documents with advanced chunking, embedding, and metadata extraction",
+      "Query engine with retrieval-augmented generation (RAG)",
+      "Agent orchestration with tool use, planning, and multi-step reasoning",
+      "Structured data extraction from unstructured documents",
+      "Built-in evaluation framework for RAG pipeline quality",
+      "LlamaCloud managed service for production deployments",
+      "Strong community with 51K+ stars and extensive documentation"
+    ],
+    "zh": [
+      "连接 160+ 数据源（API、数据库、文件格式、SaaS）到大模型",
+      "文档索引：高级分块、嵌入和元数据提取",
+      "带检索增强生成（RAG）的查询引擎",
+      "智能体编排：工具使用、规划、多步推理",
+      "从非结构化文档中提取结构化数据",
+      "内置 RAG 流水线质量评估框架",
+      "LlamaCloud 托管服务用于生产部署",
+      "51K+ 星、文档丰富的强大社区"
+    ],
+    "ja": [
+      "160以上のデータソース（API、データベース、ファイル形式、SaaS）をLLMに接続",
+      "高度なチャンキング、埋め込み、メタデータ抽出によるドキュメントインデックス",
+      "検索拡張生成（RAG）を備えたクエリエンジン",
+      "ツール使用、計画、多段階推論を備えたエージェントオーケストレーション",
+      "非構造化ドキュメントからの構造化データ抽出",
+      "RAGパイプライン品質のための組み込み評価フレームワーク",
+      "本番デプロイ用のマネージドサービスLlamaCloud",
+      "51K+スターと豊富なドキュメントを持つ強力なコミュニティ"
+    ],
+    "es": [
+      "Conecta 160+ fuentes de datos (APIs, bases de datos, formatos de archivo, SaaS) a LLMs",
+      "Indexa documentos con chunking avanzado, embeddings y extracción de metadatos",
+      "Motor de consulta con generación aumentada por recuperación (RAG)",
+      "Orquestación de agentes con uso de herramientas, planificación y razonamiento multi-paso",
+      "Extracción de datos estructurados de documentos no estructurados",
+      "Framework de evaluación integrado para la calidad del pipeline RAG",
+      "Servicio gestionado LlamaCloud para despliegues de producción",
+      "Comunidad fuerte con 51K+ estrellas y documentación extensa"
+    ],
+    "fr": [
+      "Connecte 160+ sources de données (APIs, bases de données, formats de fichiers, SaaS) aux LLMs",
+      "Indexe les documents avec chunking avancé, embeddings et extraction de métadonnées",
+      "Moteur de requêtes avec génération augmentée par récupération (RAG)",
+      "Orchestration d'agents avec utilisation d'outils, planification et raisonnement multi-étapes",
+      "Extraction de données structurées à partir de documents non structurés",
+      "Framework d'évaluation intégré pour la qualité des pipelines RAG",
+      "Service géré LlamaCloud pour les déploiements de production",
+      "Communauté solide avec 51K+ étoiles et documentation extensive"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Free and open source (MIT). LlamaCloud managed service has paid tiers.",
+      "zh": "免费开源（MIT）。LlamaCloud 托管服务有付费层级。",
+      "ja": "無料のオープンソース（MIT）。LlamaCloudマネージドサービスには有料プランあり。",
+      "es": "Gratuito y de código abierto (MIT). El servicio gestionado LlamaCloud tiene niveles de pago.",
+      "fr": "Gratuit et open source (MIT). Le service géré LlamaCloud a des niveaux payants."
+    }
+  },
+  "useCases": {
+    "en": [
+      "Building RAG pipelines for document Q&A, customer support, and knowledge bases",
+      "Creating data agents that can query databases, APIs, and files on demand",
+      "Developing LLM-powered applications with structured data extraction"
+    ],
+    "zh": [
+      "构建文档问答、客户支持和知识库的 RAG 流水线",
+      "创建可查询数据库、API 和文件的数据智能体",
+      "开发带结构化数据提取的 LLM 驱动应用"
+    ],
+    "ja": [
+      "ドキュメントQA、カスタマーサポート、ナレッジベースのためのRAGパイプライン構築",
+      "データベース、API、ファイルをオンデマンドで照会できるデータエージェントを作成",
+      "構造化データ抽出を備えたLLM搭載アプリケーションの開発"
+    ],
+    "es": [
+      "Construir pipelines RAG para Q&A de documentos, soporte al cliente y bases de conocimiento",
+      "Crear agentes de datos que consultan bases de datos, APIs y archivos bajo demanda",
+      "Desarrollar aplicaciones potenciadas por LLM con extracción de datos estructurados"
+    ],
+    "fr": [
+      "Construire des pipelines RAG pour le Q&A documentaire, le support client et les bases de connaissances",
+      "Créer des agents de données qui interrogent bases de données, APIs et fichiers à la demande",
+      "Développer des applications propulsées par LLM avec extraction de données structurées"
+    ]
+  },
+  "pros": {
+    "en": [
+      "160+ data source connectors — most comprehensive in the ecosystem",
+      "Very active community (51K+ stars) and extensive documentation",
+      "Supports both simple RAG and complex multi-agent orchestration",
+      "MIT licensed, production-proven",
+      "Regular releases with new features and improvements"
+    ],
+    "zh": [
+      "160+ 数据源连接器——生态中最全面的",
+      "社区非常活跃（51K+ 星），文档丰富",
+      "同时支持简单 RAG 和复杂多智能体编排",
+      "MIT 协议，生产验证",
+      "定期发布新功能和改进"
+    ],
+    "ja": [
+      "160以上のデータソースコネクタ——エコシステムで最も包括的",
+      "非常に活発なコミュニティ（51K+スター）と豊富なドキュメント",
+      "シンプルなRAGから複雑なマルチエージェントオーケストレーションまで対応",
+      "MITライセンス、本番実績",
+      "新機能と改善を伴う定期的なリリース"
+    ],
+    "es": [
+      "160+ conectores de datos — el más completo del ecosistema",
+      "Comunidad muy activa (51K+ estrellas) y documentación extensa",
+      "Soporta tanto RAG simple como orquestación multi-agente compleja",
+      "Licencia MIT, probado en producción",
+      "Lanzamientos regulares con nuevas funciones y mejoras"
+    ],
+    "fr": [
+      "160+ connecteurs de données — le plus complet de l'écosystème",
+      "Communauté très active (51K+ étoiles) et documentation extensive",
+      "Prend en charge à la fois le RAG simple et l'orchestration multi-agents complexe",
+      "Licence MIT, éprouvé en production",
+      "Versions régulières avec nouvelles fonctionnalités et améliorations"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Steep learning curve for advanced features (agent orchestration, custom retrievers)",
+      "Documentation can be overwhelming due to breadth",
+      "Performance tuning requires understanding of chunking, embedding, and retrieval strategies"
+    ],
+    "zh": [
+      "高级功能（智能体编排、自定义检索器）学习曲线陡峭",
+      "文档因广度可能令人不知所措",
+      "性能调优需要理解分块、嵌入和检索策略"
+    ],
+    "ja": [
+      "高度な機能（エージェントオーケストレーション、カスタムリトリーバー）の学習曲線が急",
+      "ドキュメントは広範すぎて圧倒される可能性",
+      "パフォーマンス調整にはチャンキング、埋め込み、検索戦略の理解が必要"
+    ],
+    "es": [
+      "Curva de aprendizaje empinada para funciones avanzadas (orquestación de agentes, retrievers personalizados)",
+      "La documentación puede ser abrumadora por su amplitud",
+      "El ajuste de rendimiento requiere entender chunking, embeddings y estrategias de recuperación"
+    ],
+    "fr": [
+      "Courbe d'apprentissage abrupte pour les fonctions avancées (orchestration d'agents, retrieveurs personnalisés)",
+      "La documentation peut être écrasante par son étendue",
+      "L'optimisation des performances nécessite de comprendre le chunking, les embeddings et les stratégies de récupération"
+    ]
+  },
+  "latestUpdate": {
+    "en": "August 2026: LlamaIndex continues active development with expanded data source connectors, improved agent orchestration, and LlamaCloud managed service enhancements.",
+    "zh": "2026年8月：LlamaIndex 持续活跃开发，扩展数据源连接器，改进智能体编排，增强 LlamaCloud 托管服务。",
+    "ja": "2026年8月：LlamaIndexはデータソースコネクタの拡張、エージェントオーケストレーションの改善、LlamaCloudマネージドサービスの強化を継続。",
+    "es": "Agosto 2026: LlamaIndex continúa su desarrollo activo con conectores expandidos, mejor orquestación de agentes y mejoras en LlamaCloud.",
+    "fr": "Août 2026 : LlamaIndex poursuit son développement actif avec des connecteurs étendus, une meilleure orchestration d'agents et des améliorations de LlamaCloud."
+  },
+  "summary": {
+    "en": "LlamaIndex is the leading data framework for LLM applications, connecting 160+ data sources to LLMs with indexing, RAG, agent orchestration, and structured extraction. 51K+ stars, MIT licensed.",
+    "zh": "LlamaIndex 是领先的 LLM 应用数据框架，连接 160+ 数据源到大模型，提供索引、RAG、智能体编排和结构化提取。51K+ 星，MIT 协议。",
+    "ja": "LlamaIndexはLLMアプリケーションの主要なデータフレームワークであり、160以上のデータソースを索引、RAG、エージェントオーケストレーション、構造化抽出でLLMに接続します。51K+スター、MITライセンス。",
+    "es": "LlamaIndex es el framework de datos líder para aplicaciones LLM, conectando 160+ fuentes de datos con indexación, RAG, orquestación de agentes y extracción estructurada. 51K+ estrellas, licencia MIT.",
+    "fr": "LlamaIndex est le framework de données leader pour les applications LLM, connectant 160+ sources de données avec indexation, RAG, orchestration d'agents et extraction structurée. 51K+ étoiles, licence MIT."
+  },
+  "verdict": {
+    "badge": "Recommended",
+    "headline": {
+      "en": "The most comprehensive data framework for LLM applications — 160+ connectors, RAG, and agent orchestration.",
+      "zh": "最全面的 LLM 应用数据框架——160+ 连接器、RAG 和智能体编排。",
+      "ja": "LLMアプリケーションのための最も包括的なデータフレームワーク——160以上のコネクタ、RAG、エージェントオーケストレーション。",
+      "es": "El framework de datos más completo para aplicaciones LLM — 160+ conectores, RAG y orquestación de agentes.",
+      "fr": "Le framework de données le plus complet pour applications LLM — 160+ connecteurs, RAG et orchestration d'agents."
+    },
+    "body": {
+      "en": "LlamaIndex is the de-facto standard for connecting real-world data to LLMs. Its 160+ connectors, flexible RAG pipeline, and increasingly capable agent orchestration make it the go-to choice for production LLM applications. The learning curve is real, but the ecosystem is mature.",
+      "zh": "LlamaIndex 是将真实世界数据连接到 LLM 的事实标准。160+ 连接器、灵活的 RAG 流水线和日益强大的智能体编排使其成为生产型 LLM 应用的首选。学习曲线存在，但生态成熟。",
+      "ja": "LlamaIndexは、実世界のデータをLLMに接続する事実上の標準です。160以上のコネクタ、柔軟なRAGパイプライン、ますます高性能なエージェントオーケストレーションにより、本番LLMアプリケーションの第一選択となっています。学習曲線はありますが、エコシステムは成熟しています。",
+      "es": "LlamaIndex es el estándar de facto para conectar datos del mundo real a LLMs. Sus 160+ conectores, pipeline RAG flexible y orquestación de agentes cada vez más capaz lo convierten en la opción preferida para aplicaciones LLM de producción. La curva de aprendizaje es real, pero el ecosistema es maduro.",
+      "fr": "LlamaIndex est le standard de facto pour connecter des données réelles aux LLMs. Ses 160+ connecteurs, son pipeline RAG flexible et son orchestration d'agents de plus en plus performante en font le choix privilégié pour les applications LLM de production. La courbe d'apprentissage est réelle, mais l'écosystème est mature."
+    },
+    "bestFor": {
+      "en": [
+        "Developers and teams building production RAG pipelines, data agents, or LLM-powered applications with diverse data sources."
+      ],
+      "ja": [
+        "多様なデータソースを持つ本番RAGパイプライン、データエージェント、LLM搭載アプリケーションを構築する開発者とチーム。"
+      ],
+      "es": [
+        "Desarrolladores y equipos que construyen pipelines RAG de producción, agentes de datos o aplicaciones LLM con diversas fuentes de datos."
+      ],
+      "fr": [
+        "Développeurs et équipes construisant des pipelines RAG de production, des agents de données ou des applications LLM avec des sources de données variées."
+      ],
+      "zh": [
+        "构建生产 RAG 流水线、数据智能体或 LLM 驱动应用的开发者与团队，需要处理多样化的数据源。"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "If you need a simpler, more opinionated framework, consider LangChain; if you need a fully managed solution, consider LlamaCloud or commercial RAG platforms."
+      ],
+      "ja": [
+        "よりシンプルでopinionatedなフレームワークが必要ならLangChainを、完全マネージドソリューションが必要ならLlamaCloudや商用RAGプラットフォームを検討してください。"
+      ],
+      "es": [
+        "Si necesitas un framework más simple y con opiniones, considera LangChain; si necesitas una solución totalmente gestionada, considera LlamaCloud o plataformas RAG comerciales."
+      ],
+      "fr": [
+        "Si vous avez besoin d'un framework plus simple et plus opinionated, envisagez LangChain ; pour une solution entièrement gérée, envisagez LlamaCloud ou des plateformes RAG commerciales."
+      ],
+      "zh": [
+        "如果需要更简单、更有意见的框架，考虑 LangChain；如果需要完全托管方案，考虑 LlamaCloud 或商业 RAG 平台。"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-08-12",
+    "verdictDate": "2026-08-12",
+    "pricingVerified": "2026-08-12",
+    "pricingUrl": "https://www.llamaindex.ai"
+  }
+}

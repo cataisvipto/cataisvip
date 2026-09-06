@@ -1,0 +1,235 @@
+{
+  "features": {
+    "en": [
+      "Wafer-Scale Engine (WSE) inference — often benchmarked as the world's fastest, ~20x faster than GPU clouds",
+      "OpenAI-compatible API for open models: Llama, Qwen, GPT-OSS, DeepSeek and more",
+      "Self-serve Developer tier with pay-as-you-go token pricing and generous rate limits",
+      "Dedicated endpoints for production capacity when you need guaranteed throughput",
+      "Sub-second time-to-first-token that makes real-time agents and voice feel instant",
+      "$5 in free credits on signup to benchmark speed before committing"
+    ],
+    "zh": [
+      "晶圆级引擎（WSE）推理——常被评测为全球最快，约为 GPU 云的 20 倍",
+      "OpenAI 兼容 API，覆盖开源模型：Llama、Qwen、GPT-OSS、DeepSeek 等",
+      "自助 Developer 档，按量 token 计价，速率上限慷慨",
+      "生产场景可上专属端点，吞吐有保障",
+      "亚秒级首 token 延迟，让实时智能体与语音交互近乎即时",
+      "注册送 $5 免费额度，先测速再决定"
+    ],
+    "ja": [
+      "ウエハースケールエンジン（WSE）推論——世界最速とベンチマークされることが多く、GPUクラウドの約20倍",
+      "OpenAI互換API。Llama、Qwen、GPT-OSS、DeepSeekなどのオープンモデルに対応",
+      "セルフサーブのDeveloperティア。従量課金のトークン単価と寛容なレート制限",
+      "本番の処理能力が必要なときはスループット保証の専用エンドポイント",
+      "サブ秒の初回トークン応答で、リアルタイムエージェントや音声が瞬時に感じられる",
+      "登録時に$5の無料クレジット。コミット前に速度をベンチマーク可能"
+    ],
+    "es": [
+      "Inferencia con Wafer-Scale Engine (WSE): a menudo medida como la más rápida del mundo, ~20x más rápida que las nubes GPU",
+      "API compatible con OpenAI para modelos abiertos: Llama, Qwen, GPT-OSS, DeepSeek y más",
+      "Nivel Developer autoservicio con precios por token de pago por uso y límites de tasa generosos",
+      "Endpoints dedicados para capacidad de producción cuando necesitas rendimiento garantizado",
+      "Tiempo hasta el primer token por debajo de un segundo que hace que agentes en tiempo real y voz se sientan instantáneos",
+      "$5 en créditos gratis al registrarte para medir la velocidad antes de comprometerte"
+    ],
+    "fr": [
+      "Inférence Wafer-Scale Engine (WSE) — souvent mesurée comme la plus rapide au monde, ~20x plus rapide que les clouds GPU",
+      "API compatible OpenAI pour modèles ouverts : Llama, Qwen, GPT-OSS, DeepSeek et plus",
+      "Niveau Developer en libre-service avec tarification au token à l'usage et limites de débit généreuses",
+      "Endpoints dédiés pour la capacité de production quand un débit garanti est nécessaire",
+      "Temps jusqu'au premier token inférieur à la seconde, rendant les agents temps réel et la voix instantanés",
+      "5 $ de crédits gratuits à l'inscription pour mesurer la vitesse avant de s'engager"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "New accounts get $5 in free credits and access to all Cerebras-powered models with rate limits, enough to benchmark the speed before paying.",
+      "zh": "新账号获赠 $5 免费额度，可在速率限制下访问全部 Cerebras 驱动的模型，足以在付费前测速。",
+      "ja": "新規アカウントには$5の無料クレジットが付与され、レート制限付きですべてのCerebras対応モデルにアクセス可能。支払い前に速度をベンチマークするのに十分。",
+      "es": "Las cuentas nuevas reciben $5 en créditos gratis y acceso a todos los modelos con tecnología Cerebras con límites de tasa, suficiente para medir la velocidad antes de pagar.",
+      "fr": "Les nouveaux comptes reçoivent 5 $ de crédits gratuits et l'accès à tous les modèles propulsés par Cerebras avec des limites de débit, suffisant pour mesurer la vitesse avant de payer."
+    },
+    "paid": {
+      "en": "Pay-as-you-go token pricing — roughly $0.10 per million tokens for Llama 3.1 8B and about $0.60 per million input/output tokens for Llama 70B-class models; a self-serve Developer tier raises rate limits, and dedicated endpoints are quoted for production capacity. (Verified against the official pricing page, 2026-07-28.)",
+      "zh": "按量 token 计价——Llama 3.1 8B 约 $0.10/百万 token，Llama 70B 级模型约 $0.60/百万输入输出 token；自助 Developer 档提高速率上限，专属端点按产能报价。（对照官方定价页核实，2026-07-28。）",
+      "ja": "従量課金のトークン単価——Llama 3.1 8Bは約$0.10/100万トークン、Llama 70Bクラスは入出力約$0.60/100万トークン。セルフサーブのDeveloperティアでレート制限を引き上げ、専用エンドポイントは本番の処理能力に応じて見積もり。（公式価格ページと照合、2026-07-28。）",
+      "es": "Precios por token de pago por uso: aproximadamente $0.10 por millón de tokens para Llama 3.1 8B y unos $0.60 por millón de tokens de entrada/salida para modelos clase Llama 70B; un nivel Developer autoservicio eleva los límites de tasa y los endpoints dedicados se cotizan para capacidad de producción. (Verificado con la página oficial de precios, 2026-07-28.)",
+      "fr": "Tarification au token à l'usage — environ 0,10 $ par million de tokens pour Llama 3.1 8B et environ 0,60 $ par million de tokens entrée/sortie pour les modèles de classe Llama 70B ; un niveau Developer en libre-service augmente les limites de débit, et les endpoints dédiés sont devisés pour la capacité de production. (Vérifié avec la page tarifaire officielle, 2026-07-28.)"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Real-time agents and voice apps where every millisecond of latency is felt",
+      "High-throughput reasoning chains that would be too slow on GPU inference",
+      "Serving open models like Llama and Qwen at the fastest available speed",
+      "Prototyping latency-sensitive features on free credits before scaling"
+    ],
+    "zh": [
+      "对延迟极度敏感的实时智能体与语音应用",
+      "在 GPU 推理上会太慢的高吞吐推理链",
+      "以业界最快速度部署 Llama、Qwen 等开源模型",
+      "用免费额度先验证延迟敏感功能，再扩容"
+    ],
+    "ja": [
+      "1ミリ秒の遅延も体感されるリアルタイムエージェントや音声アプリ",
+      "GPU推論では遅すぎる高スループットの推論チェーン",
+      "LlamaやQwenなどのオープンモデルを最速で提供",
+      "無料クレジットでレイテンシ重視の機能を試作してからスケール"
+    ],
+    "es": [
+      "Agentes en tiempo real y apps de voz donde cada milisegundo de latencia se nota",
+      "Cadenas de razonamiento de alto rendimiento que serían demasiado lentas en inferencia GPU",
+      "Servir modelos abiertos como Llama y Qwen a la mayor velocidad disponible",
+      "Prototipar funciones sensibles a la latencia con créditos gratis antes de escalar"
+    ],
+    "fr": [
+      "Agents temps réel et applis vocales où chaque milliseconde de latence se ressent",
+      "Chaînes de raisonnement à haut débit qui seraient trop lentes en inférence GPU",
+      "Servir des modèles ouverts comme Llama et Qwen à la vitesse la plus rapide disponible",
+      "Prototyper des fonctionnalités sensibles à la latence avec des crédits gratuits avant de passer à l'échelle"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Genuinely category-leading inference speed backed by custom wafer-scale silicon",
+      "OpenAI-compatible API means migration is often a one-line base-URL change",
+      "Transparent per-token pricing that is competitive with GPU inference clouds",
+      "Free credits and a self-serve tier make it easy to benchmark before buying"
+    ],
+    "zh": [
+      "由自研晶圆级芯片支撑的推理速度确实是品类领先",
+      "OpenAI 兼容 API，迁移往往只需改一行 base URL",
+      "透明的按 token 计价，与 GPU 推理云相比有竞争力",
+      "免费额度加自助档，购买前很容易先测速"
+    ],
+    "ja": [
+      "独自のウエハースケールシリコンに裏打ちされた、真にカテゴリ最速の推論速度",
+      "OpenAI互換APIなので、移行はベースURLを1行変えるだけで済むことが多い",
+      "GPU推論クラウドと競争力のある透明なトークン単価",
+      "無料クレジットとセルフサーブ階層で、購入前のベンチマークが容易"
+    ],
+    "es": [
+      "Velocidad de inferencia líder en su categoría, respaldada por silicio wafer-scale propio",
+      "La API compatible con OpenAI hace que migrar sea a menudo cambiar una línea de URL base",
+      "Precios por token transparentes y competitivos frente a las nubes de inferencia GPU",
+      "Créditos gratis y un nivel autoservicio facilitan medir antes de comprar"
+    ],
+    "fr": [
+      "Vitesse d'inférence réellement leader de sa catégorie, portée par un silicium wafer-scale maison",
+      "L'API compatible OpenAI rend la migration souvent limitée à une ligne d'URL de base",
+      "Tarification au token transparente et compétitive face aux clouds d'inférence GPU",
+      "Crédits gratuits et niveau libre-service facilitent le benchmark avant l'achat"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Catalog is focused on open models — no proprietary frontier model of its own",
+      "Fewer supported models than broad aggregators like Together or OpenRouter",
+      "Peak speed advantage matters most for latency-bound apps, less for batch jobs",
+      "Dedicated production capacity requires talking to sales rather than pure self-serve"
+    ],
+    "zh": [
+      "目录聚焦开源模型——没有自家的闭源前沿模型",
+      "支持的模型数量少于 Together、OpenRouter 这类广谱聚合商",
+      "峰值速度优势对延迟受限的应用最有意义，对批处理作用较小",
+      "专属生产产能需对接销售，而非纯自助开通"
+    ],
+    "ja": [
+      "カタログはオープンモデル中心——自社のクローズドなフロンティアモデルはない",
+      "TogetherやOpenRouterのような広範なアグリゲーターより対応モデルが少ない",
+      "ピーク速度の優位はレイテンシ制約のアプリで最も効き、バッチ処理では効きにくい",
+      "専用の本番キャパシティは純粋なセルフサーブではなく営業との相談が必要"
+    ],
+    "es": [
+      "El catálogo se centra en modelos abiertos: no tiene un modelo frontera propietario propio",
+      "Menos modelos soportados que agregadores amplios como Together u OpenRouter",
+      "La ventaja de velocidad máxima importa más para apps limitadas por latencia que para lotes",
+      "La capacidad de producción dedicada requiere hablar con ventas en lugar de puro autoservicio"
+    ],
+    "fr": [
+      "Le catalogue est centré sur les modèles ouverts — pas de modèle frontière propriétaire maison",
+      "Moins de modèles pris en charge que les agrégateurs larges comme Together ou OpenRouter",
+      "L'avantage de vitesse de pointe compte surtout pour les applis limitées par la latence, moins pour le batch",
+      "La capacité de production dédiée exige de contacter le commercial plutôt qu'un pur libre-service"
+    ]
+  },
+  "latestUpdate": {
+    "en": "2026: Cerebras continues to top public inference-speed leaderboards for open models, expanding its hosted catalog (Llama, Qwen, GPT-OSS, DeepSeek) and pushing its self-serve Developer tier and dedicated endpoints for production teams that need guaranteed throughput.",
+    "zh": "2026 年：Cerebras 持续在开源模型的公开推理测速榜上领跑，扩充其托管目录（Llama、Qwen、GPT-OSS、DeepSeek），并主推自助 Developer 档与面向需要吞吐保障的生产团队的专属端点。",
+    "ja": "2026年：Cerebrasはオープンモデルの公開推論速度ランキングで首位を維持し続け、ホスト型カタログ（Llama、Qwen、GPT-OSS、DeepSeek）を拡充。スループット保証が必要な本番チーム向けに、セルフサーブのDeveloperティアと専用エンドポイントを推進している。",
+    "es": "2026: Cerebras sigue encabezando los rankings públicos de velocidad de inferencia para modelos abiertos, ampliando su catálogo alojado (Llama, Qwen, GPT-OSS, DeepSeek) e impulsando su nivel Developer autoservicio y endpoints dedicados para equipos de producción que necesitan rendimiento garantizado.",
+    "fr": "2026 : Cerebras continue de dominer les classements publics de vitesse d'inférence pour les modèles ouverts, élargissant son catalogue hébergé (Llama, Qwen, GPT-OSS, DeepSeek) et poussant son niveau Developer en libre-service ainsi que des endpoints dédiés pour les équipes de production ayant besoin d'un débit garanti."
+  },
+  "verdict": {
+    "badge": "Recommended",
+    "headline": {
+      "en": "The fastest way to run open models when latency is the product",
+      "zh": "当延迟就是产品体验时，跑开源模型最快的一条路",
+      "ja": "レイテンシこそが体験であるとき、オープンモデルを走らせる最速の道",
+      "es": "La forma más rápida de ejecutar modelos abiertos cuando la latencia es el producto",
+      "fr": "Le moyen le plus rapide d'exécuter des modèles ouverts quand la latence est le produit"
+    },
+    "body": {
+      "en": "Cerebras made a bet almost nobody else took seriously: instead of stitching together thousands of GPUs, build one chip the size of a dinner plate. That Wafer-Scale Engine is why Cerebras Inference routinely tops public speed leaderboards, generating tokens for open models like Llama and Qwen many times faster than GPU clouds. For most CRUD apps that speed is a nice-to-have, but for a whole class of products — real-time voice agents, interactive reasoning, anything where a user is watching text appear — it is the difference between magic and frustration. The API speaks OpenAI, so trying it is a one-line change, and pricing is honest pay-as-you-go with $5 of free credits to benchmark first. The honest caveats: this is a home for open models, not frontier proprietary ones, and the supported catalog is narrower than a broad aggregator's. If your workload is batch processing where throughput-per-dollar matters more than first-token latency, cheaper options exist. But if speed is a feature your users can feel, Cerebras is the one to beat — and right now it usually wins.",
+      "zh": "Cerebras 押了一个几乎没人当真的赌注：与其把上千块 GPU 拼在一起，不如造一块餐盘那么大的芯片。正是这块晶圆级引擎，让 Cerebras Inference 常年霸榜公开测速——为 Llama、Qwen 等开源模型生成 token 的速度是 GPU 云的数倍。对大多数增删改查应用，这种速度是锦上添花；但对一整类产品——实时语音智能体、交互式推理、任何用户盯着文字冒出来的场景——它是「惊艳」与「烦躁」之间的分水岭。API 说 OpenAI 方言，试用只需改一行；定价是诚实的按量付费，还有 $5 免费额度先测速。诚实的提醒：这里是开源模型的家，没有闭源前沿模型，支持的目录也比广谱聚合商窄。如果你的负载是批处理、更看重每美元吞吐而非首 token 延迟，有更便宜的选择。但只要「速度」是用户能感知的功能，Cerebras 就是那个要被超越的标杆——而眼下它通常赢。",
+      "ja": "Cerebrasは、ほぼ誰も本気にしなかった賭けに出た。数千個のGPUを繋ぎ合わせる代わりに、ディナープレートほどの大きさのチップを1枚作るという賭けだ。そのウエハースケールエンジンこそが、Cerebras Inferenceが公開速度ランキングで常に首位に立つ理由であり、LlamaやQwenなどのオープンモデルのトークン生成をGPUクラウドの何倍もの速さで行う。ほとんどのCRUDアプリではこの速度はあれば嬉しい程度だが、一群の製品——リアルタイム音声エージェント、対話型推論、ユーザーがテキストの出現を見つめるあらゆる場面——では、「魔法」と「苛立ち」の分かれ目になる。APIはOpenAI方言を話すので試用は1行の変更で済み、価格は誠実な従量課金で、まず$5の無料クレジットでベンチマークできる。正直な注意点：ここはオープンモデルの家であり、クローズドなフロンティアモデルはなく、対応カタログは広範なアグリゲーターより狭い。ワークロードがバッチ処理で、初回トークンのレイテンシより1ドルあたりのスループットが重要なら、より安い選択肢がある。しかし速度がユーザーに体感できる機能であるなら、Cerebrasは超えるべき基準であり——今のところ、たいてい勝つ。",
+      "es": "Cerebras hizo una apuesta que casi nadie se tomó en serio: en lugar de unir miles de GPUs, construir un solo chip del tamaño de un plato. Ese Wafer-Scale Engine es la razón por la que Cerebras Inference encabeza habitualmente los rankings públicos de velocidad, generando tokens para modelos abiertos como Llama y Qwen muchas veces más rápido que las nubes GPU. Para la mayoría de las apps CRUD esa velocidad es un extra, pero para toda una clase de productos —agentes de voz en tiempo real, razonamiento interactivo, cualquier cosa donde el usuario ve aparecer el texto— es la diferencia entre magia y frustración. La API habla OpenAI, así que probarla es cambiar una línea, y el precio es pago por uso honesto con $5 de créditos gratis para medir primero. Las advertencias honestas: este es un hogar para modelos abiertos, no para frontera propietaria, y el catálogo soportado es más estrecho que el de un agregador amplio. Si tu carga es procesamiento por lotes donde el rendimiento por dólar importa más que la latencia del primer token, existen opciones más baratas. Pero si la velocidad es una función que tus usuarios sienten, Cerebras es el rival a batir, y ahora mismo suele ganar.",
+      "fr": "Cerebras a fait un pari que presque personne n'a pris au sérieux : au lieu d'assembler des milliers de GPU, construire une seule puce de la taille d'une assiette. Ce Wafer-Scale Engine explique pourquoi Cerebras Inference domine régulièrement les classements publics de vitesse, générant des tokens pour des modèles ouverts comme Llama et Qwen bien plus vite que les clouds GPU. Pour la plupart des applis CRUD, cette vitesse est un plus, mais pour toute une classe de produits — agents vocaux temps réel, raisonnement interactif, tout ce où l'utilisateur regarde le texte apparaître — c'est la différence entre la magie et la frustration. L'API parle OpenAI, donc l'essayer tient en une ligne, et la tarification est un paiement à l'usage honnête avec 5 $ de crédits gratuits pour mesurer d'abord. Les réserves honnêtes : c'est un foyer pour modèles ouverts, pas pour du frontière propriétaire, et le catalogue pris en charge est plus étroit que celui d'un agrégateur large. Si votre charge est du traitement par lots où le débit par dollar compte plus que la latence du premier token, des options moins chères existent. Mais si la vitesse est une fonctionnalité que vos utilisateurs ressentent, Cerebras est la référence à battre — et pour l'instant, il gagne le plus souvent."
+    },
+    "bestFor": {
+      "en": [
+        "Teams building real-time voice or agent products on open models",
+        "Developers who need the lowest possible time-to-first-token",
+        "Anyone benchmarking inference speed before committing to a provider"
+      ],
+      "zh": [
+        "在开源模型上做实时语音或智能体产品的团队",
+        "需要尽可能低首 token 延迟的开发者",
+        "在锁定供应商前想先对比推理速度的人"
+      ],
+      "ja": [
+        "オープンモデルでリアルタイム音声やエージェント製品を作るチーム",
+        "可能な限り低い初回トークン応答時間が必要な開発者",
+        "プロバイダーを決める前に推論速度をベンチマークしたい人"
+      ],
+      "es": [
+        "Equipos que construyen productos de voz o agentes en tiempo real sobre modelos abiertos",
+        "Desarrolladores que necesitan el menor tiempo posible hasta el primer token",
+        "Cualquiera que mida la velocidad de inferencia antes de comprometerse con un proveedor"
+      ],
+      "fr": [
+        "Équipes construisant des produits vocaux ou agents temps réel sur modèles ouverts",
+        "Développeurs ayant besoin du temps jusqu'au premier token le plus bas possible",
+        "Quiconque compare la vitesse d'inférence avant de s'engager avec un fournisseur"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You need frontier proprietary models above all (→ OpenAI / Anthropic / Gemini)",
+        "You want the widest open-model catalog at the lowest batch cost (→ Together AI / OpenRouter)"
+      ],
+      "zh": [
+        "你最需要闭源前沿模型（→ OpenAI / Anthropic / Gemini）",
+        "你想要最广的开源模型目录与最低批处理成本（→ Together AI / OpenRouter）"
+      ],
+      "ja": [
+        "何よりクローズドなフロンティアモデルが必要（→ OpenAI / Anthropic / Gemini）",
+        "最も広いオープンモデルカタログと最低のバッチコストが欲しい（→ Together AI / OpenRouter）"
+      ],
+      "es": [
+        "Necesitas modelos frontera propietarios por encima de todo (→ OpenAI / Anthropic / Gemini)",
+        "Quieres el catálogo de modelos abiertos más amplio al menor coste por lotes (→ Together AI / OpenRouter)"
+      ],
+      "fr": [
+        "Vous avez avant tout besoin de modèles frontière propriétaires (→ OpenAI / Anthropic / Gemini)",
+        "Vous voulez le catalogue de modèles ouverts le plus large au coût de batch le plus bas (→ Together AI / OpenRouter)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-28",
+    "verdictDate": "2026-07-28",
+    "pricingVerified": "2026-07-28",
+    "pricingUrl": "https://www.cerebras.ai/pricing"
+  }
+}

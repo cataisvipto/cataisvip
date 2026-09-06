@@ -1,0 +1,30 @@
+{
+  "slug": "kling-ai",
+  "homeFeatured": true,
+  "name": "Kling AI",
+  "nameZh": "可灵AI",
+  "description": "快手推出的 AI 视频与图像生成平台，支持中英文双版本",
+  "descriptionEn": "Kuaishou's AI video and image generation platform with bilingual CN/EN support",
+  "descriptionJa": "快手（Kuaishou）のAI動画・画像生成プラットフォーム。中英バイリンガル対応",
+  "descriptionEs": "Plataforma de generación de vídeo e imágenes con IA de Kuaishou, con soporte bilingüe CN/EN",
+  "descriptionFr": "Plateforme de génération vidéo et d'images IA de Kuaishou, avec support bilingue CN/EN",
+  "url": "https://kling.ai",
+  "logo": "/logos/tools/kling-ai.png",
+  "category": "Video",
+  "tags": [
+    "Freemium"
+  ],
+  "featured": true,
+  "developer": "Kuaishou",
+  "developerZh": "快手",
+  "platforms": {
+    "web": true,
+    "windows": false,
+    "macos": false,
+    "ios": true,
+    "android": true,
+    "linux": false,
+    "browser_extension": false,
+    "api": true
+  }
+}

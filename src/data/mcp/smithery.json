@@ -1,0 +1,78 @@
+{
+  "slug": "smithery",
+  "name": "Smithery",
+  "nameZh": "Smithery",
+  "description": "Smithery 是 MCP 服务器市场与命令行安装管理器，收录数千个 MCP 服务器，一行命令即可从市场安装、列出与管理连接，为智能体快速扩展能力。",
+  "descriptionEn": "Smithery is an MCP server marketplace and command-line installer/manager cataloging thousands of MCP servers, letting you install, list and manage connections from the marketplace with a single command.",
+  "descriptionJa": "Smithery は MCP サーバーのマーケットプレイスであり、コマンドラインのインストーラー／マネージャーです。数千の MCP サーバーを収録し、1 つのコマンドでマーケットからインストール・一覧表示・接続管理ができます。",
+  "descriptionEs": "Smithery es un mercado de servidores MCP y un instalador/gestor de línea de comandos que cataloga miles de servidores MCP, permitiéndote instalar, listar y gestionar conexiones desde el mercado con un solo comando.",
+  "descriptionFr": "Smithery est une place de marché de serveurs MCP et un installateur/gestionnaire en ligne de commande répertoriant des milliers de serveurs MCP, vous permettant d'installer, lister et gérer les connexions depuis la place de marché avec une seule commande.",
+  "developer": "Smithery",
+  "developerZh": "Smithery",
+  "repo": "smithery-ai/cli",
+  "clients": [
+    "claude",
+    "cursor",
+    "vscode",
+    "generic"
+  ],
+  "category": "Registry",
+  "tags": [
+    "Free",
+    "Open Source"
+  ],
+  "installCommand": "npx -y @smithery/cli",
+  "logo": "/logos/mcp/smithery.png",
+  "stars": 832,
+  "featured": false,
+  "faqs": [
+    {
+      "question": {
+        "zh": "Smithery 是用来做什么的？",
+        "en": "What is Smithery used for?",
+        "ja": "Smithery は何に使いますか？",
+        "es": "¿Para qué se usa Smithery?",
+        "fr": "À quoi sert Smithery ?"
+      },
+      "answer": {
+        "zh": "Smithery 是 MCP 生态的\"应用商店 + 包管理器\"：在 smithery.ai 浏览数千个 MCP 服务器，再用 CLI 一行命令把选中的服务器安装进 Claude、Cursor 等客户端，免去手动改配置文件。",
+        "en": "Smithery is the \"app store + package manager\" for the MCP ecosystem: browse thousands of MCP servers on smithery.ai, then install any of them into Claude, Cursor and other clients with a single CLI command instead of hand-editing config files.",
+        "ja": "Smithery は MCP エコシステムの「アプリストア + パッケージマネージャー」です。smithery.ai で数千の MCP サーバーを閲覧し、CLI の 1 コマンドで Claude や Cursor などのクライアントにインストールでき、設定ファイルを手動編集する必要がありません。",
+        "es": "Smithery es la \"tienda de apps + gestor de paquetes\" del ecosistema MCP: explora miles de servidores MCP en smithery.ai y luego instala cualquiera en Claude, Cursor y otros clientes con un solo comando de CLI en vez de editar archivos de configuración a mano.",
+        "fr": "Smithery est « l'app store + gestionnaire de paquets » de l'écosystème MCP : parcourez des milliers de serveurs MCP sur smithery.ai, puis installez-en n'importe lequel dans Claude, Cursor et d'autres clients avec une seule commande CLI au lieu de modifier les fichiers de configuration à la main."
+      }
+    },
+    {
+      "question": {
+        "zh": "怎么用 Smithery 安装一个 MCP 服务器？",
+        "en": "How do I install an MCP server with Smithery?",
+        "ja": "Smithery で MCP サーバーをインストールするには？",
+        "es": "¿Cómo instalo un servidor MCP con Smithery?",
+        "fr": "Comment installer un serveur MCP avec Smithery ?"
+      },
+      "answer": {
+        "zh": "运行 npx -y @smithery/cli，用 smithery mcp add <url> 添加连接、smithery mcp list 查看已装、smithery mcp remove <id> 卸载。市场里每个服务器页面都会给出对应的一键命令。",
+        "en": "Run npx -y @smithery/cli, then smithery mcp add <url> to add a connection, smithery mcp list to see installed ones, and smithery mcp remove <id> to uninstall. Each server page in the marketplace shows its ready-made command.",
+        "ja": "npx -y @smithery/cli を実行し、smithery mcp add <url> で接続を追加、smithery mcp list でインストール済みを確認、smithery mcp remove <id> で削除します。マーケットの各サーバーページに対応するコマンドが表示されます。",
+        "es": "Ejecuta npx -y @smithery/cli y luego smithery mcp add <url> para añadir una conexión, smithery mcp list para ver las instaladas y smithery mcp remove <id> para desinstalar. Cada página de servidor del mercado muestra su comando listo para usar.",
+        "fr": "Lancez npx -y @smithery/cli, puis smithery mcp add <url> pour ajouter une connexion, smithery mcp list pour voir celles installées et smithery mcp remove <id> pour désinstaller. Chaque page de serveur du marché affiche sa commande prête à l'emploi."
+      }
+    },
+    {
+      "question": {
+        "zh": "Smithery 免费吗？",
+        "en": "Is Smithery free?",
+        "ja": "Smithery は無料ですか？",
+        "es": "¿Smithery es gratuito?",
+        "fr": "Smithery est-il gratuit ?"
+      },
+      "answer": {
+        "zh": "CLI 开源免费，浏览与安装市场里的 MCP 服务器不收费；部分服务器自身可能需要各自的 API Key 或订阅，托管运行的高级功能另计。",
+        "en": "The CLI is open source and free, and browsing/installing MCP servers from the marketplace costs nothing; individual servers may still require their own API keys or subscriptions, and hosted-run advanced features are separate.",
+        "ja": "CLI はオープンソースで無料、マーケットの MCP サーバーの閲覧・インストールも無料です。ただし各サーバー自体が固有の API キーやサブスクリプションを必要とする場合があり、ホスト実行の高度な機能は別料金です。",
+        "es": "La CLI es de código abierto y gratuita, y explorar/instalar servidores MCP del mercado no cuesta nada; algunos servidores pueden requerir sus propias claves API o suscripciones, y las funciones avanzadas de ejecución alojada son aparte.",
+        "fr": "La CLI est open source et gratuite, et parcourir/installer les serveurs MCP du marché ne coûte rien ; certains serveurs peuvent nécessiter leurs propres clés API ou abonnements, et les fonctionnalités avancées d'exécution hébergée sont facturées séparément."
+      }
+    }
+  ]
+}

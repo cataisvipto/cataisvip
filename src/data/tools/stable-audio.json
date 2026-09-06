@@ -1,0 +1,29 @@
+{
+  "slug": "stable-audio",
+  "name": "Stable Audio",
+  "nameZh": "Stable Audio",
+  "description": "Stability AI 出品的文本生成音频工具，以完全授权数据训练、商用安心，生成音乐、分轨与音效并支持音频到音频变换，免费档个人可用、Pro 约 $11.99/月起",
+  "descriptionEn": "Stability AI's text-to-audio tool trained on fully licensed data for commercial safety: generates music, stems and sound effects with audio-to-audio transformation; free tier for personal use, Pro from about $11.99/month",
+  "descriptionJa": "Stability AIによるテキストからのオーディオ生成ツール。完全ライセンス済みデータで学習し商用も安心。音楽・ステム・効果音を生成しオーディオ・トゥ・オーディオ変換に対応。無料枠は個人利用、Proは約$11.99/月から",
+  "descriptionEs": "Herramienta de texto a audio de Stability AI entrenada con datos totalmente licenciados para seguridad comercial: genera música, stems y efectos de sonido con transformación audio a audio; nivel gratuito para uso personal, Pro desde unos $11.99/mes",
+  "descriptionFr": "Outil de texte vers audio de Stability AI entraîné sur des données entièrement licenciées pour une sécurité commerciale : génère musique, stems et effets sonores avec transformation audio vers audio ; niveau gratuit pour usage personnel, Pro dès environ 11,99 $/mois",
+  "url": "https://stableaudio.com",
+  "logo": "/logos/tools/stable-audio.png",
+  "category": "Music",
+  "tags": [
+    "Freemium",
+    "API"
+  ],
+  "featured": false,
+  "developer": "Stability AI",
+  "platforms": {
+    "web": true,
+    "windows": false,
+    "macos": false,
+    "ios": false,
+    "android": false,
+    "linux": false,
+    "browser_extension": false,
+    "api": true
+  }
+}

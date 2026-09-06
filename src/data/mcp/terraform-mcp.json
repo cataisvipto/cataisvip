@@ -1,0 +1,79 @@
+{
+  "slug": "terraform-mcp",
+  "name": "Terraform MCP Server",
+  "nameZh": "Terraform MCP 服务器",
+  "description": "HashiCorp 官方出品的 Terraform MCP 服务器。让 AI 智能体与 Terraform 生态无缝集成：管理状态文件、规划执行、编写基础设施即代码（IaC）。",
+  "descriptionEn": "The official Terraform MCP server by HashiCorp. Lets AI agents seamlessly integrate with the Terraform ecosystem: manage state files, plan execution, and write Infrastructure as Code (IaC).",
+  "descriptionJa": "HashiCorp 公式の Terraform MCP サーバー。AI エージェントが Terraform エコシステムとシームレスに統合：状態ファイルの管理、プラン実行、Infrastructure as Code（IaC）の記述が可能です。",
+  "descriptionEs": "El servidor oficial de Terraform MCP de HashiCorp. Permite a los agentes de IA integrarse sin problemas con el ecosistema Terraform: gestionar archivos de estado, planificar ejecuciones y escribir Infraestructura como Código (IaC).",
+  "descriptionFr": "Le serveur officiel Terraform MCP par HashiCorp. Permet aux agents IA de s'intégrer de manière transparente avec l'écosystème Terraform : gérer les fichiers d'état, planifier l'exécution et écrire de l'infrastructure en tant que code (IaC).",
+  "developer": "HashiCorp",
+  "developerZh": "HashiCorp",
+  "repo": "hashicorp/terraform-mcp-server",
+  "clients": [
+    "claude",
+    "cursor",
+    "vscode",
+    "codex",
+    "generic"
+  ],
+  "category": "DevOps",
+  "tags": [
+    "Free",
+    "Open Source"
+  ],
+  "installCommand": "docker run -i --rm hashicorp/terraform-mcp-server",
+  "logo": "/logos/mcp/terraform-mcp.png",
+  "stars": 1522,
+  "featured": false,
+  "faqs": [
+    {
+      "question": {
+        "zh": "Terraform MCP 能做什么？",
+        "en": "What can Terraform MCP do?",
+        "ja": "Terraform MCP は何ができますか？",
+        "es": "¿Qué puede hacer Terraform MCP?",
+        "fr": "Que peut faire Terraform MCP ?"
+      },
+      "answer": {
+        "zh": "让 AI 智能体直接编写和执行 Terraform 配置：管理状态文件、查看和创建执行计划、预览资源变更、读取 Terraform 配置和输出。让基础设施管理变得更加智能和高效。",
+        "en": "Lets AI agents directly write and execute Terraform configurations: manage state files, view and create execution plans, preview resource changes, and read Terraform configurations and outputs. Making infrastructure management smarter and more efficient.",
+        "ja": "AI エージェントが Terraform 設定を直接記述・実行できます：状態ファイルの管理、実行計画の表示と作成、リソース変更のプレビュー、Terraform 設定と出力の読み取り。インフラ管理をよりスマートかつ効率的にします。",
+        "es": "Permite a los agentes de IA escribir y ejecutar configuraciones de Terraform directamente: gestionar archivos de estado, ver y crear planes de ejecución, previsualizar cambios de recursos, y leer configuraciones y salidas de Terraform. Haciendo la gestión de infraestructura más inteligente y eficiente.",
+        "fr": "Permet aux agents IA d'écrire et d'exécuter directement des configurations Terraform : gérer les fichiers d'état, visualiser et créer des plans d'exécution, prévisualiser les changements de ressources, et lire les configurations et sorties Terraform. Rendant la gestion d'infrastructure plus intelligente et efficace."
+      }
+    },
+    {
+      "question": {
+        "zh": "Terraform MCP 需要安装 Terraform 吗？",
+        "en": "Does Terraform MCP require Terraform to be installed?",
+        "ja": "Terraform MCP を使用するには Terraform のインストールが必要ですか？",
+        "es": "¿Terraform MCP necesita tener Terraform instalado?",
+        "fr": "Terraform MCP nécessite-t-il l'installation de Terraform ?"
+      },
+      "answer": {
+        "zh": "是的，需要本地安装 Terraform CLI。MCP 服务器通过调用本地 terraform 命令来执行操作，因此需要先安装 Terraform 并配置好云提供商凭据。",
+        "en": "Yes, you need Terraform CLI installed locally. The MCP server executes operations by calling the local terraform command, so you'll need Terraform installed and cloud provider credentials configured.",
+        "ja": "はい、ローカルに Terraform CLI のインストールが必要です。MCP サーバーはローカルの terraform コマンドを呼び出して操作を実行するため、Terraform のインストールとクラウドプロバイダーの認証情報の設定が必要です。",
+        "es": "Sí, necesitas tener Terraform CLI instalado localmente. El servidor MCP ejecuta operaciones llamando al comando terraform local, por lo que necesitarás Terraform instalado y credenciales de proveedor de nube configuradas.",
+        "fr": "Oui, vous devez avoir Terraform CLI installé localement. Le serveur MCP exécute les opérations en appelant la commande terraform locale, vous aurez donc besoin de Terraform installé et des identifiants du fournisseur cloud configurés."
+      }
+    },
+    {
+      "question": {
+        "zh": "Terraform MCP 免费吗？",
+        "en": "Is Terraform MCP free?",
+        "ja": "Terraform MCP は無料ですか？",
+        "es": "¿Terraform MCP es gratuito?",
+        "fr": "Terraform MCP est-il gratuit ?"
+      },
+      "answer": {
+        "zh": "完全免费开源（BUSL 协议），由 HashiCorp 官方维护。MCP 服务器本身免费，但使用 Terraform 管理云资源时，云服务商本身会按资源用量收费。",
+        "en": "Completely free and open source (BUSL license), officially maintained by HashiCorp. The MCP server itself is free, but managing cloud resources with Terraform will incur charges from your cloud provider based on resource usage.",
+        "ja": "完全無料・オープンソース（BUSL ライセンス）で、HashiCorp が公式メンテナンスしています。MCP サーバー自体は無料ですが、Terraform でクラウドリソースを管理する際、クラウドプロバイダーからリソース使用量に応じた料金が発生します。",
+        "es": "Completamente gratuito y de código abierto (licencia BUSL), mantenido oficialmente por HashiCorp. El servidor MCP en sí es gratuito, pero gestionar recursos en la nube con Terraform incurrirá en cargos de tu proveedor de nube según el uso de recursos.",
+        "fr": "Entièrement gratuit et open source (licence BUSL), officiellement maintenu par HashiCorp. Le serveur MCP lui-même est gratuit, mais la gestion des ressources cloud avec Terraform entraînera des frais de votre fournisseur cloud en fonction de l'utilisation des ressources."
+      }
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "slug": "aws-mcp",
+  "name": "AWS MCP Servers",
+  "nameZh": "AWS MCP",
+  "description": "AWS 官方开源的 MCP 服务器套件，让 AI 智能体用自然语言操作 AWS 云——查文档、管理基础设施、调用 CDK/Terraform、访问 S3/Lambda/EKS 等数十个专用服务器，核心服务器还能按需动态代理其他 AWS MCP。",
+  "descriptionEn": "AWS's official open-source suite of MCP servers lets AI agents work with the AWS cloud in natural language — read docs, manage infrastructure, drive CDK/Terraform, access S3/Lambda/EKS and dozens of purpose-built servers, with a core server that dynamically proxies other AWS MCPs on demand.",
+  "descriptionJa": "AWS 公式のオープンソース MCP サーバー群。AI エージェントが自然言語で AWS クラウドを操作でき、ドキュメント参照、インフラ管理、CDK/Terraform の実行、S3/Lambda/EKS など数十の専用サーバーへのアクセスが可能で、コアサーバーは必要に応じて他の AWS MCP を動的にプロキシします。",
+  "descriptionEs": "La suite oficial de código abierto de servidores MCP de AWS permite a los agentes de IA trabajar con la nube de AWS en lenguaje natural: leer documentación, gestionar infraestructura, usar CDK/Terraform, acceder a S3/Lambda/EKS y docenas de servidores especializados, con un servidor central que enruta dinámicamente otros MCP de AWS según se necesite.",
+  "descriptionFr": "La suite officielle open source de serveurs MCP d'AWS permet aux agents IA de travailler avec le cloud AWS en langage naturel : lire la documentation, gérer l'infrastructure, piloter CDK/Terraform, accéder à S3/Lambda/EKS et des dizaines de serveurs spécialisés, avec un serveur central qui relaie dynamiquement d'autres MCP AWS à la demande.",
+  "developer": "Amazon Web Services",
+  "developerZh": "Amazon Web Services",
+  "repo": "awslabs/mcp",
+  "clients": [
+    "claude",
+    "cursor",
+    "vscode",
+    "generic"
+  ],
+  "category": "Cloud",
+  "tags": [
+    "Free",
+    "Open Source"
+  ],
+  "installCommand": "uvx awslabs.core-mcp-server@latest",
+  "logo": "/logos/mcp/aws-mcp.png",
+  "stars": 9659,
+  "featured": false,
+  "faqs": [
+    {
+      "question": {
+        "zh": "AWS MCP 是一个服务器还是一套？",
+        "en": "Is AWS MCP one server or a suite?",
+        "ja": "AWS MCP は 1 つのサーバーですか、それともセットですか？",
+        "es": "¿AWS MCP es un servidor o una suite?",
+        "fr": "AWS MCP est-il un seul serveur ou une suite ?"
+      },
+      "answer": {
+        "zh": "是一整套。awslabs/mcp 仓库里有数十个按服务拆分的专用 MCP 服务器（文档、CDK、Terraform、S3、Lambda、EKS、成本分析等），你可以只装需要的那几个；其中 core-mcp-server 能作为动态代理，按环境变量按需加载其他 AWS MCP。",
+        "en": "A whole suite. The awslabs/mcp repo contains dozens of purpose-built MCP servers split by service (docs, CDK, Terraform, S3, Lambda, EKS, cost analysis, etc.); you install only the ones you need, and the core-mcp-server can act as a dynamic proxy that loads other AWS MCPs on demand via environment variables.",
+        "ja": "セット全体です。awslabs/mcp リポジトリにはサービス別に分かれた数十の専用 MCP サーバー（ドキュメント、CDK、Terraform、S3、Lambda、EKS、コスト分析など）があり、必要なものだけを導入できます。core-mcp-server は環境変数に応じて他の AWS MCP を動的に読み込むプロキシとして機能します。",
+        "es": "Una suite completa. El repositorio awslabs/mcp contiene decenas de servidores MCP especializados por servicio (docs, CDK, Terraform, S3, Lambda, EKS, análisis de costes, etc.); instalas solo los que necesitas, y core-mcp-server puede actuar como proxy dinámico que carga otros MCP de AWS bajo demanda mediante variables de entorno.",
+        "fr": "Une suite complète. Le dépôt awslabs/mcp contient des dizaines de serveurs MCP spécialisés par service (docs, CDK, Terraform, S3, Lambda, EKS, analyse des coûts, etc.) ; vous n'installez que ceux dont vous avez besoin, et core-mcp-server sert de proxy dynamique qui charge d'autres MCP AWS à la demande via des variables d'environnement."
+      }
+    },
+    {
+      "question": {
+        "zh": "安装 AWS MCP 需要什么前置条件？",
+        "en": "What prerequisites does AWS MCP need?",
+        "ja": "AWS MCP のインストールに必要な前提条件は？",
+        "es": "¿Qué requisitos previos necesita AWS MCP?",
+        "fr": "Quels prérequis AWS MCP nécessite-t-il ?"
+      },
+      "answer": {
+        "zh": "服务器用 Python 编写，通过 uv/uvx 运行（如 uvx awslabs.core-mcp-server@latest）；需先装好 uv 与 Python 3.10+，并配置有权限的 AWS 凭据（如 ~/.aws 或环境变量）。操作的是你自己 AWS 账户里的资源。",
+        "en": "The servers are written in Python and run via uv/uvx (e.g. uvx awslabs.core-mcp-server@latest); you need uv plus Python 3.10+ installed, and AWS credentials with appropriate permissions configured (e.g. ~/.aws or environment variables). It operates on resources in your own AWS account.",
+        "ja": "サーバーは Python 製で uv/uvx から実行します（例：uvx awslabs.core-mcp-server@latest）。uv と Python 3.10 以上、そして適切な権限を持つ AWS 認証情報（~/.aws や環境変数など）が必要です。操作対象はあなた自身の AWS アカウントのリソースです。",
+        "es": "Los servidores están escritos en Python y se ejecutan con uv/uvx (p. ej. uvx awslabs.core-mcp-server@latest); necesitas uv y Python 3.10+, además de credenciales de AWS con los permisos adecuados (p. ej. ~/.aws o variables de entorno). Opera sobre recursos de tu propia cuenta de AWS.",
+        "fr": "Les serveurs sont écrits en Python et s'exécutent via uv/uvx (par ex. uvx awslabs.core-mcp-server@latest) ; il faut uv et Python 3.10+, ainsi que des identifiants AWS avec les permissions appropriées (par ex. ~/.aws ou variables d'environnement). Il opère sur les ressources de votre propre compte AWS."
+      }
+    },
+    {
+      "question": {
+        "zh": "AWS MCP 免费吗？会产生云费用吗？",
+        "en": "Is AWS MCP free? Will it incur cloud costs?",
+        "ja": "AWS MCP は無料ですか？クラウド料金は発生しますか？",
+        "es": "¿AWS MCP es gratuito? ¿Genera costes en la nube?",
+        "fr": "AWS MCP est-il gratuit ? Génère-t-il des coûts cloud ?"
+      },
+      "answer": {
+        "zh": "MCP 服务器本身开源免费（Apache-2.0）。但它调用的是你真实的 AWS 服务，创建资源或调用付费 API 会按 AWS 正常计费——只读查询通常很便宜，涉及创建/运行资源前请留意成本。",
+        "en": "The MCP servers themselves are open source and free (Apache-2.0). But they call your real AWS services, so creating resources or invoking paid APIs is billed by AWS as usual — read-only queries are usually cheap, but watch costs before creating or running resources.",
+        "ja": "MCP サーバー自体はオープンソースで無料（Apache-2.0）です。ただし実際の AWS サービスを呼び出すため、リソースの作成や有料 API の呼び出しは AWS の通常料金で課金されます。読み取りクエリは通常安価ですが、リソースの作成・実行前にはコストに注意してください。",
+        "es": "Los servidores MCP en sí son de código abierto y gratuitos (Apache-2.0). Pero llaman a tus servicios reales de AWS, así que crear recursos o invocar APIs de pago se factura con AWS de forma habitual: las consultas de solo lectura suelen ser baratas, pero vigila los costes antes de crear o ejecutar recursos.",
+        "fr": "Les serveurs MCP eux-mêmes sont open source et gratuits (Apache-2.0). Mais ils appellent vos véritables services AWS, donc créer des ressources ou invoquer des API payantes est facturé par AWS comme d'habitude — les requêtes en lecture seule sont généralement bon marché, mais surveillez les coûts avant de créer ou d'exécuter des ressources."
+      }
+    }
+  ]
+}

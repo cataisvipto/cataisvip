@@ -1,0 +1,78 @@
+{
+  "slug": "grill-with-docs",
+  "name": "Grill With Docs",
+  "nameZh": "Grill With Docs",
+  "description": "结合代码与文档深度评审方案，确保实现与设计一致",
+  "descriptionEn": "Deeply review solutions by combining code and documentation for consistency",
+  "descriptionJa": "コードとドキュメントを組み合わせてソリューションを深くレビュー",
+  "descriptionEs": "Revisa profundamente las soluciones combinando código y documentación",
+  "descriptionFr": "Examinez les solutions en combinant code et documentation",
+  "developer": "Matt Pocock",
+  "developerZh": "Matt Pocock",
+  "repo": "mattpocock/skills",
+  "agents": [
+    "claude",
+    "cursor",
+    "codex",
+    "github-copilot"
+  ],
+  "category": "Developer",
+  "tags": [
+    "Free",
+    "Open Source"
+  ],
+  "installCommand": "git clone https://github.com/mattpocock/skills.git ~/.codex/skills/mattpocock-skills",
+  "logo": "/logos/skills/grill-with-docs.png",
+  "stars": 250238,
+  "featured": false,
+  "faqs": [
+    {
+      "question": {
+        "en": "How do I install this skill?",
+        "zh": "如何安装这个技能？",
+        "ja": "このスキルをインストールするには？",
+        "es": "¿Cómo instalo este skill?",
+        "fr": "Comment installer ce skill ?"
+      },
+      "answer": {
+        "en": "Run the install command in your agent terminal.",
+        "zh": "在智能体的终端中运行安装命令。",
+        "ja": "エージェントのターミナルでインストールコマンドを実行します。",
+        "es": "Ejecuta el comando de instalación en la terminal de tu agente.",
+        "fr": "Exécutez la commande d'installation dans le terminal de votre agent."
+      }
+    },
+    {
+      "question": {
+        "en": "Which agents support this skill?",
+        "zh": "哪些智能体支持这个技能？",
+        "ja": "どのエージェントがこのスキルをサポートしていますか？",
+        "es": "¿Qué agentes son compatibles con este skill?",
+        "fr": "Quels agents supportent ce skill ?"
+      },
+      "answer": {
+        "en": "Claude Code, Cursor, Codex, and other MCP-compatible agents.",
+        "zh": "Claude Code、Cursor、Codex 和其他 MCP 兼容的智能体。",
+        "ja": "Claude Code、Cursor、Codex、およびその他のMCP互換エージェント。",
+        "es": "Claude Code, Cursor, Codex y otros agentes compatibles con MCP.",
+        "fr": "Claude Code, Cursor, Codex et autres agents compatibles MCP."
+      }
+    },
+    {
+      "question": {
+        "en": "Is this skill free?",
+        "zh": "这个技能免费吗？",
+        "ja": "このスキルは無料ですか？",
+        "es": "¿Este skill es gratuito?",
+        "fr": "Ce skill est-il gratuit ?"
+      },
+      "answer": {
+        "en": "Yes, it is free and open source.",
+        "zh": "是的，免费且开源。",
+        "ja": "はい、無料でオープンソースです。",
+        "es": "Sí, es gratuito y de código abierto.",
+        "fr": "Oui, il est gratuit et open source."
+      }
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "slug": "slack-mcp",
+  "name": "Slack MCP Server",
+  "nameZh": "Slack MCP",
+  "description": "社区高人气的 Slack MCP 服务器，让 AI 智能体读写 Slack 工作区——收发消息、拉取频道与私信历史、检索会话，支持 stdio/SSE 传输与代理，主打\"无需管理员审批 App、免权限\"的接入方式。",
+  "descriptionEn": "A popular community Slack MCP server that lets AI agents read and write Slack workspaces — send/receive messages, pull channel and DM history, search conversations, with stdio/SSE transports and proxy support, notably able to connect without admin-approved app permissions.",
+  "descriptionJa": "コミュニティで人気の Slack MCP サーバー。AI エージェントが Slack ワークスペースを読み書きでき、メッセージの送受信、チャンネルや DM 履歴の取得、会話の検索が可能です。stdio/SSE トランスポートとプロキシに対応し、「管理者承認の App 不要・権限不要」で接続できる点が特長です。",
+  "descriptionEs": "Un popular servidor MCP de Slack de la comunidad que permite a los agentes de IA leer y escribir en espacios de Slack: enviar/recibir mensajes, obtener el historial de canales y DMs, buscar conversaciones, con transportes stdio/SSE y soporte de proxy, destacando por conectarse sin permisos de app aprobados por un administrador.",
+  "descriptionFr": "Un serveur MCP Slack communautaire populaire qui permet aux agents IA de lire et écrire dans les espaces Slack — envoyer/recevoir des messages, récupérer l'historique des canaux et DM, rechercher des conversations, avec transports stdio/SSE et prise en charge du proxy, se distinguant par une connexion sans permissions d'app approuvées par un administrateur.",
+  "developer": "korotovsky (community)",
+  "developerZh": "korotovsky（社区）",
+  "repo": "korotovsky/slack-mcp-server",
+  "clients": [
+    "claude",
+    "cursor",
+    "vscode",
+    "generic"
+  ],
+  "category": "Communication",
+  "tags": [
+    "Free",
+    "Open Source"
+  ],
+  "installCommand": "npx -y slack-mcp-server@latest",
+  "logo": "/logos/mcp/slack-mcp.png",
+  "stars": 1813,
+  "featured": false,
+  "faqs": [
+    {
+      "question": {
+        "zh": "Slack MCP 需要管理员审批 App 吗？",
+        "en": "Does Slack MCP need an admin-approved app?",
+        "ja": "Slack MCP には管理者承認の App が必要ですか？",
+        "es": "¿Slack MCP necesita una app aprobada por un administrador?",
+        "fr": "Slack MCP nécessite-t-il une app approuvée par un administrateur ?"
+      },
+      "answer": {
+        "zh": "这正是它的卖点：可以用浏览器会话令牌等方式连接，无需在工作区安装需管理员审批的 Slack App、也不必申请一堆 scope，个人使用门槛低。但请注意遵守你所在组织的 Slack 使用政策与安全规范。",
+        "en": "That is its selling point: it can connect using browser session tokens and similar, without installing an admin-approved Slack app in the workspace or requesting many scopes, keeping the barrier low for individuals. That said, follow your organization's Slack usage policy and security rules.",
+        "ja": "それがまさに特長です。ブラウザのセッショントークンなどで接続でき、管理者承認が必要な Slack App をワークスペースに入れたり、多数のスコープを申請したりせずに済むため、個人利用のハードルが低いです。ただし所属組織の Slack 利用ポリシーとセキュリティ規則には従ってください。",
+        "es": "Ese es precisamente su atractivo: puede conectarse usando tokens de sesión del navegador y similares, sin instalar una app de Slack aprobada por un administrador ni solicitar muchos scopes, manteniendo baja la barrera para individuos. Dicho esto, respeta la política de uso de Slack y las normas de seguridad de tu organización.",
+        "fr": "C'est justement son atout : il peut se connecter via des jetons de session de navigateur et similaires, sans installer d'app Slack approuvée par un administrateur ni demander de nombreux scopes, ce qui abaisse la barrière pour les particuliers. Cela dit, respectez la politique d'utilisation de Slack et les règles de sécurité de votre organisation."
+      }
+    },
+    {
+      "question": {
+        "zh": "它是官方产品吗？稳定吗？",
+        "en": "Is it an official product? Is it stable?",
+        "ja": "これは公式製品ですか？安定していますか？",
+        "es": "¿Es un producto oficial? ¿Es estable?",
+        "fr": "Est-ce un produit officiel ? Est-il stable ?"
+      },
+      "answer": {
+        "zh": "这是社区维护的开源项目（非 Slack 官方），用 Go 编写，星标与迭代都很活跃，是目前功能最全的 Slack MCP 之一。生产环境使用前建议评估权限范围与合规要求，并锁定版本。",
+        "en": "It is a community-maintained open-source project (not by Slack), written in Go, with active stars and iteration, and one of the most full-featured Slack MCPs today. For production use, evaluate the permission scope and compliance requirements and pin a version.",
+        "ja": "これはコミュニティが維持するオープンソースプロジェクト（Slack 公式ではありません）で、Go 製、スター数も更新も活発で、現在最も機能が充実した Slack MCP の一つです。本番利用の前には権限範囲とコンプライアンス要件を評価し、バージョンを固定することをおすすめします。",
+        "es": "Es un proyecto de código abierto mantenido por la comunidad (no de Slack), escrito en Go, con estrellas e iteración activas, y uno de los MCP de Slack más completos hoy. Para uso en producción, evalúa el alcance de permisos y los requisitos de cumplimiento y fija una versión.",
+        "fr": "C'est un projet open source maintenu par la communauté (pas par Slack), écrit en Go, avec des étoiles et des itérations actives, et l'un des MCP Slack les plus complets aujourd'hui. Pour un usage en production, évaluez la portée des permissions et les exigences de conformité, et figez une version."
+      }
+    },
+    {
+      "question": {
+        "zh": "Slack MCP 能做什么典型任务？",
+        "en": "What typical tasks can Slack MCP do?",
+        "ja": "Slack MCP でできる典型的なタスクは？",
+        "es": "¿Qué tareas típicas puede hacer Slack MCP?",
+        "fr": "Quelles tâches typiques Slack MCP peut-il accomplir ?"
+      },
+      "answer": {
+        "zh": "让智能体帮你总结频道未读、检索历史讨论找结论、把某段对话整理成待办、或按指令发消息/回复。配合日历、任务类工具，可搭出\"读群消息→提炼行动项→跨工具落地\"的自动化流。",
+        "en": "It lets an agent summarize unread channels, search past discussions for conclusions, turn a thread into to-dos, or send/reply messages on command. Combined with calendar and task tools, you can build a \"read chat → distill action items → act across tools\" automation.",
+        "ja": "エージェントに、未読チャンネルの要約、過去の議論の検索と結論の抽出、スレッドの ToDo 化、指示に応じたメッセージ送信・返信などを任せられます。カレンダーやタスク系ツールと組み合わせれば、「チャットを読む→アクション項目を抽出→各ツールで実行」という自動化を組めます。",
+        "es": "Permite a un agente resumir canales no leídos, buscar en discusiones pasadas para hallar conclusiones, convertir un hilo en tareas, o enviar/responder mensajes bajo demanda. Junto con herramientas de calendario y tareas, puedes crear una automatización de \"leer chat → destilar acciones → ejecutar en varias herramientas\".",
+        "fr": "Il permet à un agent de résumer les canaux non lus, de rechercher dans les discussions passées pour en tirer des conclusions, de transformer un fil en tâches, ou d'envoyer/répondre à des messages sur commande. Avec des outils d'agenda et de tâches, vous pouvez bâtir une automatisation « lire le chat → dégager les actions → exécuter sur plusieurs outils »."
+      }
+    }
+  ]
+}

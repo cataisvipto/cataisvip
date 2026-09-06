@@ -1,0 +1,29 @@
+{
+  "slug": "marvis",
+  "name": "Marvis",
+  "nameZh": "马维斯",
+  "description": "腾讯推出的操作系统级个人 AI 助手，内置端侧大模型，支持本地文件/图片智能搜索、手机远程操控电脑、一句话修改系统设置",
+  "descriptionEn": "OS-level personal AI assistant by Tencent with on-device LLMs, offering local file/image AI search, remote PC control from your phone, and one-sentence system settings",
+  "descriptionJa": "テンセントが提供する OS レベルの個人 AI アシスタント。オンデバイス大規模モデルを搭載し、ローカルのファイル/画像の AI 検索、スマホからの PC 遠隔操作、一言でのシステム設定変更に対応",
+  "descriptionEs": "Asistente de IA personal a nivel de sistema operativo de Tencent con LLM en el dispositivo, que ofrece búsqueda IA de archivos/imágenes locales, control remoto del PC desde el móvil y ajustes del sistema con una frase",
+  "descriptionFr": "Assistant IA personnel au niveau du système d'exploitation par Tencent, avec des LLM sur l'appareil, offrant une recherche IA de fichiers/images locaux, le contrôle du PC à distance depuis le mobile et des réglages système en une phrase",
+  "url": "https://marvis.qq.com/",
+  "logo": "/logos/tools/marvis.ico",
+  "category": "Agent",
+  "tags": [
+    "Free"
+  ],
+  "featured": false,
+  "developer": "Tencent",
+  "developerZh": "腾讯",
+  "platforms": {
+    "web": false,
+    "windows": true,
+    "macos": true,
+    "ios": true,
+    "android": true,
+    "linux": false,
+    "browser_extension": "unknown",
+    "api": "unknown"
+  }
+}

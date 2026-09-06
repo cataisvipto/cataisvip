@@ -1,0 +1,28 @@
+{
+  "slug": "canva-ai",
+  "name": "Canva AI",
+  "nameZh": "Canva AI",
+  "description": "Canva 内置的 AI 设计助手，一键生成海报、PPT 等设计",
+  "descriptionEn": "Built-in AI design assistant in Canva for generating posters, presentations and more",
+  "descriptionJa": "Canva組み込みのAIデザインアシスタント。ポスター、プレゼン資料などをワンクリックで生成",
+  "descriptionEs": "Asistente de diseño IA integrado en Canva para generar pósters, presentaciones y más",
+  "descriptionFr": "Assistant design IA intégré dans Canva pour générer des affiches, des présentations et plus encore",
+  "url": "https://www.canva.com/ai",
+  "logo": "/logos/tools/canva-ai.png",
+  "category": "Design",
+  "tags": [
+    "Freemium"
+  ],
+  "featured": false,
+  "developer": "Canva",
+  "platforms": {
+    "web": true,
+    "windows": true,
+    "macos": true,
+    "ios": true,
+    "android": true,
+    "linux": false,
+    "browser_extension": false,
+    "api": true
+  }
+}

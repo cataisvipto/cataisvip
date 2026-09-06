@@ -1,0 +1,79 @@
+{
+  "slug": "github-mcp-server",
+  "name": "GitHub MCP Server",
+  "nameZh": "GitHub 官方 MCP",
+  "description": "GitHub 官方 MCP 服务器。让 AI 智能体直接管理仓库、Issue、Pull Request 与 GitHub Actions，支持远程托管与本地两种模式。",
+  "descriptionEn": "GitHub's official MCP server. Lets AI agents manage repositories, issues, pull requests and GitHub Actions directly, with both remote-hosted and local modes.",
+  "descriptionJa": "GitHub公式MCPサーバー。AIエージェントがリポジトリ、Issue、Pull Request、GitHub Actionsを直接管理でき、リモートホスト型とローカル型の両方に対応。",
+  "descriptionEs": "El servidor MCP oficial de GitHub. Permite a los agentes de IA gestionar repositorios, issues, pull requests y GitHub Actions directamente, con modos remoto y local.",
+  "descriptionFr": "Le serveur MCP officiel de GitHub. Permet aux agents IA de gérer directement les dépôts, issues, pull requests et GitHub Actions, avec modes hébergé à distance et local.",
+  "developer": "GitHub",
+  "developerZh": "GitHub",
+  "repo": "github/github-mcp-server",
+  "clients": [
+    "claude",
+    "cursor",
+    "vscode",
+    "codex",
+    "generic"
+  ],
+  "category": "Developer",
+  "tags": [
+    "Free",
+    "Open Source"
+  ],
+  "installCommand": "claude mcp add --transport http github https://api.githubcopilot.com/mcp/",
+  "logo": "/logos/mcp/github-mcp-server.png",
+  "stars": 32715,
+  "featured": false,
+  "faqs": [
+    {
+      "question": {
+        "zh": "GitHub MCP Server 能让 AI 做什么？",
+        "en": "What can AI agents do with the GitHub MCP Server?",
+        "ja": "GitHub MCP Server で AI エージェントは何ができますか？",
+        "es": "¿Qué pueden hacer los agentes de IA con GitHub MCP Server?",
+        "fr": "Que peuvent faire les agents IA avec le GitHub MCP Server ?"
+      },
+      "answer": {
+        "zh": "它是 GitHub 官方的 MCP 服务器，让 AI 智能体直接读写仓库、管理 Issue 和 Pull Request、查看 CI 运行结果、搜索代码，把整个 GitHub 工作流搬进对话里。",
+        "en": "It is GitHub's official MCP server. AI agents can read and write repositories, manage issues and pull requests, inspect CI runs and search code — bringing the whole GitHub workflow into the conversation.",
+        "ja": "GitHub 公式の MCP サーバーです。AI エージェントがリポジトリの読み書き、Issue や Pull Request の管理、CI 実行結果の確認、コード検索を行え、GitHub ワークフロー全体を会話に持ち込めます。",
+        "es": "Es el servidor MCP oficial de GitHub. Los agentes de IA pueden leer y escribir repositorios, gestionar issues y pull requests, revisar ejecuciones de CI y buscar código, llevando todo el flujo de GitHub a la conversación.",
+        "fr": "C'est le serveur MCP officiel de GitHub. Les agents IA peuvent lire et écrire des dépôts, gérer issues et pull requests, consulter les exécutions CI et rechercher du code — tout le flux GitHub dans la conversation."
+      }
+    },
+    {
+      "question": {
+        "zh": "怎么安装 GitHub MCP Server 到 Claude Code？",
+        "en": "How do I install the GitHub MCP Server in Claude Code?",
+        "ja": "GitHub MCP Server を Claude Code にインストールするには？",
+        "es": "¿Cómo instalo GitHub MCP Server en Claude Code?",
+        "fr": "Comment installer le GitHub MCP Server dans Claude Code ?"
+      },
+      "answer": {
+        "zh": "推荐远程接入：claude mcp add --transport http github https://api.githubcopilot.com/mcp/，随后按提示完成 GitHub OAuth 授权即可，无需本地部署；也可以用 Docker 跑本地版。",
+        "en": "The recommended way is the hosted endpoint: claude mcp add --transport http github https://api.githubcopilot.com/mcp/, then complete the GitHub OAuth flow. No local deployment needed; a Docker-based local version is also available.",
+        "ja": "推奨はリモート接続です：claude mcp add --transport http github https://api.githubcopilot.com/mcp/ を実行し、GitHub OAuth 認証を完了するだけ。ローカル展開は不要で、Docker によるローカル版も利用できます。",
+        "es": "La forma recomendada es el endpoint alojado: claude mcp add --transport http github https://api.githubcopilot.com/mcp/, y completar el OAuth de GitHub. No requiere despliegue local; también hay versión local con Docker.",
+        "fr": "La méthode recommandée est l'endpoint hébergé : claude mcp add --transport http github https://api.githubcopilot.com/mcp/, puis complétez l'OAuth GitHub. Pas de déploiement local requis ; une version locale via Docker existe aussi."
+      }
+    },
+    {
+      "question": {
+        "zh": "GitHub MCP Server 免费吗？",
+        "en": "Is the GitHub MCP Server free?",
+        "ja": "GitHub MCP Server は無料ですか？",
+        "es": "¿GitHub MCP Server es gratuito?",
+        "fr": "Le GitHub MCP Server est-il gratuit ?"
+      },
+      "answer": {
+        "zh": "服务器本身免费开源（MIT），托管端点对 GitHub 账号免费开放，权限跟随你的 GitHub 授权范围；操作私有仓库时注意为它配置最小必要权限。",
+        "en": "The server itself is free and open source (MIT). The hosted endpoint is free for GitHub accounts, with permissions following your GitHub authorization scope. Grant the minimum necessary access when working with private repositories.",
+        "ja": "サーバー自体は無料のオープンソース（MIT）です。ホスト版エンドポイントは GitHub アカウントで無料利用でき、権限は GitHub の認可範囲に従います。プライベートリポジトリでは最小限の権限設定を推奨します。",
+        "es": "El servidor es gratuito y de código abierto (MIT). El endpoint alojado es gratis con cuenta de GitHub y los permisos siguen tu ámbito de autorización. Concede el acceso mínimo necesario para repositorios privados.",
+        "fr": "Le serveur est gratuit et open source (MIT). L'endpoint hébergé est gratuit avec un compte GitHub, les permissions suivant votre périmètre d'autorisation. Accordez l'accès minimal nécessaire pour les dépôts privés."
+      }
+    }
+  ]
+}

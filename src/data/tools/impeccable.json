@@ -1,0 +1,29 @@
+{
+  "slug": "impeccable",
+  "name": "Impeccable",
+  "nameZh": "Impeccable",
+  "description": "AI 智能体缺失的设计语言。去除 AI 生成界面中的俗套设计，让界面更专业。",
+  "descriptionEn": "The missing design vocabulary for AI agents. Strips the slop from AI-generated interfaces. Works with Codex CLI, Claude Code, Copilot, Cursor, Gemini CLI, and more.",
+  "descriptionJa": "AIエージェントに欠けていたデザインボキャブラリー。AI生成インターフェースからスロップを取り除きます。",
+  "descriptionEs": "El vocabulario de diseño que faltaba para los agentes de IA. Elimina la basura de las interfaces generadas por IA.",
+  "descriptionFr": "Le vocabulaire de design manquant pour les agents IA. Supprime le slop des interfaces générées par IA.",
+  "url": "https://impeccable.style",
+  "logo": "/logos/tools/impeccable.svg",
+  "category": "Design",
+  "tags": [
+    "Free",
+    "Open Source"
+  ],
+  "featured": false,
+  "developer": "pbakaus",
+  "platforms": {
+    "web": true,
+    "windows": false,
+    "macos": false,
+    "ios": false,
+    "android": false,
+    "linux": false,
+    "browser_extension": false,
+    "api": true
+  }
+}

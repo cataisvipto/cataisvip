@@ -1,0 +1,29 @@
+{
+  "slug": "cohere",
+  "name": "Cohere",
+  "nameZh": "Cohere",
+  "description": "企业级 AI 平台，专注 RAG、嵌入和对话模型，Command R+ 多语言能力出色",
+  "descriptionEn": "Enterprise AI platform specializing in RAG, embeddings and conversational models, Command R+ excels in multilingual",
+  "descriptionJa": "エンタープライズ向けAIプラットフォーム。RAG、埋め込み、対話モデルに特化、Command R+は多言語に優れる",
+  "descriptionEs": "Plataforma IA empresarial especializada en RAG, embeddings y modelos conversacionales, Command R+ destaca en multilingüe",
+  "descriptionFr": "Plateforme IA d'entreprise spécialisée dans le RAG, les embeddings et les modèles conversationnels, Command R+ excelle en multilingue",
+  "url": "https://cohere.com",
+  "logo": "/logos/tools/cohere.png",
+  "category": "Foundation Models",
+  "tags": [
+    "Freemium",
+    "API"
+  ],
+  "featured": false,
+  "developer": "Cohere",
+  "platforms": {
+    "web": true,
+    "windows": false,
+    "macos": false,
+    "ios": false,
+    "android": false,
+    "linux": false,
+    "browser_extension": false,
+    "api": true
+  }
+}

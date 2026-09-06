@@ -1,0 +1,31 @@
+{
+  "slug": "codex-dream-skin",
+  "name": "Codex Dream Skin",
+  "nameZh": "Codex Dream Skin（Codex 换肤工具）",
+  "description": "给 Codex 桌面端换肤的开源主题工具：本机 CDP 注入、不改官方安装包，支持 macOS 与 Windows，内置官方主题库 DreamSkin.cc 可一键换肤。",
+  "descriptionEn": "Open-source theming tool that skins the Codex desktop app — local CDP injection without modifying the official installer. Supports macOS and Windows, with the official DreamSkin.cc theme gallery for one-click skinning.",
+  "descriptionJa": "Codex デスクトップ版にテーマを適用するオープンソースのスキンツール。ローカルCDP注入方式で公式インストーラを変更せず、macOSとWindowsに対応。公式テーマライブラリ DreamSkin.cc からワンクリックでスキン変更可能。",
+  "descriptionEs": "Herramienta de temas de código abierto para personalizar la app de escritorio de Codex — inyección CDP local sin modificar el instalador oficial. Compatible con macOS y Windows, con la galería oficial DreamSkin.cc para cambiar de skin con un clic.",
+  "descriptionFr": "Outil de thèmes open source qui habille l'application de bureau Codex — injection CDP locale sans modifier l'installeur officiel. Compatible macOS et Windows, avec la galerie officielle DreamSkin.cc pour changer de skin en un clic.",
+  "url": "https://www.dreamskin.cc",
+  "logo": "/logos/tools/codex-dream-skin.svg",
+  "category": "Code",
+  "tags": [
+    "Open Source",
+    "Free"
+  ],
+  "featured": false,
+  "homeFeatured": false,
+  "developer": "Fei-Away",
+  "developerZh": "Fei-Away",
+  "platforms": {
+    "web": true,
+    "windows": true,
+    "macos": true,
+    "ios": false,
+    "android": false,
+    "linux": false,
+    "browser_extension": false,
+    "api": false
+  }
+}

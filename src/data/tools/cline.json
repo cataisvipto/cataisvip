@@ -1,0 +1,29 @@
+{
+  "slug": "cline",
+  "name": "Cline",
+  "nameZh": "Cline",
+  "description": "开源 AI 编程智能体，VS Code 扩展 + CLI，Plan/Act 双模式，支持 MCP 市场与自带任意模型密钥（BYOK），个人使用完全免费",
+  "descriptionEn": "Open-source AI coding agent for VS Code and CLI with Plan/Act modes, MCP marketplace, and bring-your-own-key model support; free for individuals",
+  "descriptionJa": "オープンソースのAIコーディングエージェント。VS Code拡張とCLIに対応、Plan/Actモード、MCPマーケットプレイス、任意のモデルAPIキー（BYOK）をサポート。個人利用は完全無料",
+  "descriptionEs": "Agente de programación IA de código abierto para VS Code y CLI con modos Plan/Act, mercado MCP y soporte de claves propias (BYOK); gratis para uso individual",
+  "descriptionFr": "Agent de codage IA open source pour VS Code et CLI avec modes Plan/Act, marketplace MCP et prise en charge de vos propres clés de modèles (BYOK) ; gratuit pour les particuliers",
+  "url": "https://cline.bot",
+  "logo": "/logos/tools/cline.png",
+  "category": "Code",
+  "tags": [
+    "Free",
+    "Open Source"
+  ],
+  "featured": false,
+  "developer": "Cline Bot Inc.",
+  "platforms": {
+    "web": false,
+    "windows": true,
+    "macos": true,
+    "ios": false,
+    "android": false,
+    "linux": true,
+    "browser_extension": false,
+    "api": false
+  }
+}

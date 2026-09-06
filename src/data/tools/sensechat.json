@@ -1,0 +1,30 @@
+{
+  "slug": "sensechat",
+  "name": "SenseChat",
+  "nameZh": "商量",
+  "description": "商汤科技推出的 AI 对话助手，基于日日新大模型，多模态理解和图像生成能力突出",
+  "descriptionEn": "AI chatbot by SenseTime powered by SenseNova LLM, with strong multimodal understanding and image generation capabilities",
+  "descriptionJa": "SenseTimeのAIチャットボット。日日新モデル搭載、マルチモーダル理解と画像生成に優れる",
+  "descriptionEs": "Chatbot de IA de SenseTime impulsado por SenseNova LLM, con gran capacidad de comprensión multimodal y generación de imágenes",
+  "descriptionFr": "Chatbot IA de SenseTime propulsé par SenseNova LLM, avec de fortes capacités de compréhension multimodale et de génération d'images",
+  "url": "https://chat.sensetime.com",
+  "logo": "/logos/tools/sensechat.png",
+  "category": "Chat",
+  "tags": [
+    "Free",
+    "API"
+  ],
+  "featured": false,
+  "developer": "SenseTime",
+  "developerZh": "商汤科技",
+  "platforms": {
+    "web": true,
+    "windows": false,
+    "macos": false,
+    "ios": true,
+    "android": true,
+    "linux": false,
+    "browser_extension": false,
+    "api": true
+  }
+}

@@ -1,0 +1,235 @@
+{
+  "features": {
+    "en": [
+      "Serverless inference for leading open models: DeepSeek, Qwen, Llama, Kimi and more",
+      "FireAttention custom inference engine tuned for low latency and high throughput",
+      "OpenAI- and Anthropic-compatible APIs for drop-in migration",
+      "Fine-tuning with LoRA, quantization-aware serving and speculative decoding",
+      "On-demand GPU deployments (H100/H200/B200) billed per second",
+      "Batch inference at 50% discount and compound AI workflows via FireFunction"
+    ],
+    "zh": [
+      "主流开源模型的 Serverless 推理：DeepSeek、Qwen、Llama、Kimi 等",
+      "自研 FireAttention 推理引擎，为低延迟高吞吐调优",
+      "OpenAI 与 Anthropic 双兼容 API，可直接平移迁入",
+      "微调支持 LoRA、量化感知部署与投机解码",
+      "按需 GPU 部署（H100/H200/B200），按秒计费",
+      "批量推理五折，另可用 FireFunction 编排复合 AI 工作流"
+    ],
+    "ja": [
+      "主要オープンモデルのサーバーレス推論：DeepSeek、Qwen、Llama、Kimiなど",
+      "低レイテンシ・高スループットに調整された独自推論エンジンFireAttention",
+      "OpenAIとAnthropic両互換のAPIでそのまま移行可能",
+      "LoRAファインチューニング、量子化対応サービング、投機的デコーディング",
+      "秒単位課金のオンデマンドGPUデプロイ（H100/H200/B200）",
+      "バッチ推論50%オフ、FireFunctionによる複合AIワークフロー"
+    ],
+    "es": [
+      "Inferencia serverless para los principales modelos abiertos: DeepSeek, Qwen, Llama, Kimi y más",
+      "Motor de inferencia propio FireAttention ajustado para baja latencia y alto rendimiento",
+      "APIs compatibles con OpenAI y Anthropic para migración directa",
+      "Fine-tuning con LoRA, serving consciente de cuantización y decodificación especulativa",
+      "Despliegues de GPU bajo demanda (H100/H200/B200) facturados por segundo",
+      "Inferencia por lotes con 50% de descuento y flujos de IA compuestos vía FireFunction"
+    ],
+    "fr": [
+      "Inférence serverless pour les principaux modèles ouverts : DeepSeek, Qwen, Llama, Kimi et plus",
+      "Moteur d'inférence maison FireAttention optimisé pour la faible latence et le haut débit",
+      "APIs compatibles OpenAI et Anthropic pour une migration directe",
+      "Fine-tuning avec LoRA, serving conscient de la quantification et décodage spéculatif",
+      "Déploiements GPU à la demande (H100/H200/B200) facturés à la seconde",
+      "Inférence par lots à 50 % de réduction et workflows d'IA composés via FireFunction"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "New accounts get $1 in free credits — enough to benchmark a few models — with no credit card required to start experimenting.",
+      "zh": "新账号赠 $1 免费额度——够跑几个模型的基准测试——上手实验无需信用卡。",
+      "ja": "新規アカウントには$1の無料クレジット付与——いくつかのモデルのベンチマークには十分——実験開始にクレジットカードは不要。",
+      "es": "Las cuentas nuevas reciben $1 en créditos gratuitos —suficiente para evaluar unos cuantos modelos— sin necesidad de tarjeta de crédito para empezar a experimentar.",
+      "fr": "Les nouveaux comptes reçoivent 1 $ de crédits gratuits — assez pour comparer quelques modèles — sans carte bancaire pour commencer à expérimenter."
+    },
+    "paid": {
+      "en": "Serverless pay-per-token pricing varies by model (small models from cents per million tokens up to several dollars for frontier-scale open models); batch requests are 50% off; on-demand GPUs bill per second (H100-class from about $5.80/hr); fine-tuning charged on tokens processed. (Verified against the official pricing page, 2026-07-28.)",
+      "zh": "Serverless 按 token 计价，随模型浮动（小模型每百万 token 几美分，前沿级开源大模型数美元）；批量请求五折；按需 GPU 按秒计费（H100 级约 $5.80/小时起）；微调按处理 token 数计费。（对照官方定价页核实，2026-07-28。）",
+      "ja": "サーバーレスのトークン従量課金はモデルにより変動（小型モデルは100万トークンあたり数セント、フロンティア級オープンモデルは数ドル）。バッチリクエストは50%オフ。オンデマンドGPUは秒単位課金（H100級で約$5.80/時から）。ファインチューニングは処理トークン数で課金。（公式価格ページと照合、2026-07-28。）",
+      "es": "Los precios serverless por token varían según el modelo (modelos pequeños desde centavos por millón de tokens hasta varios dólares para modelos abiertos de escala frontera); las solicitudes por lotes tienen 50% de descuento; las GPUs bajo demanda se facturan por segundo (clase H100 desde unos $5.80/hora); el fine-tuning se cobra por tokens procesados. (Verificado con la página oficial de precios, 2026-07-28.)",
+      "fr": "La tarification serverless au token varie selon le modèle (petits modèles à quelques centimes par million de tokens, jusqu'à plusieurs dollars pour les modèles ouverts d'échelle frontière) ; les requêtes par lots sont à moitié prix ; les GPU à la demande sont facturés à la seconde (classe H100 dès environ 5,80 $/h) ; le fine-tuning est facturé aux tokens traités. (Vérifié avec la page tarifaire officielle, 2026-07-28.)"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Latency-sensitive production apps: chatbots, copilots, real-time agents",
+      "Migrating OpenAI/Anthropic workloads to cheaper open models with one URL change",
+      "Serving fine-tuned models with speculative decoding for extra speed",
+      "Burst-scaling inference on per-second GPU deployments"
+    ],
+    "zh": [
+      "延迟敏感的生产应用：聊天机器人、Copilot、实时 Agent",
+      "改一个 URL 就把 OpenAI/Anthropic 负载迁到更便宜的开源模型",
+      "用投机解码部署微调模型，再提一档速度",
+      "在按秒计费的 GPU 部署上应对突发扩容"
+    ],
+    "ja": [
+      "レイテンシ重視の本番アプリ：チャットボット、コパイロット、リアルタイムエージェント",
+      "URLひとつの変更でOpenAI/Anthropicのワークロードを安価なオープンモデルへ移行",
+      "投機的デコーディングでファインチューニング済みモデルをさらに高速に提供",
+      "秒単位課金のGPUデプロイでバーストスケーリング"
+    ],
+    "es": [
+      "Apps de producción sensibles a la latencia: chatbots, copilots, agentes en tiempo real",
+      "Migrar cargas de OpenAI/Anthropic a modelos abiertos más baratos cambiando una URL",
+      "Servir modelos fine-tuneados con decodificación especulativa para más velocidad",
+      "Escalado por ráfagas en despliegues de GPU por segundo"
+    ],
+    "fr": [
+      "Apps de production sensibles à la latence : chatbots, copilotes, agents temps réel",
+      "Migrer des charges OpenAI/Anthropic vers des modèles ouverts moins chers en changeant une URL",
+      "Servir des modèles fine-tunés avec décodage spéculatif pour plus de vitesse",
+      "Montée en charge par rafales sur des déploiements GPU à la seconde"
+    ]
+  },
+  "pros": {
+    "en": [
+      "FireAttention delivers some of the lowest latencies among open-model hosts",
+      "Dual OpenAI/Anthropic compatibility makes migration nearly frictionless",
+      "Per-second GPU billing is unusually granular for on-demand hardware",
+      "Founded by the PyTorch core team — infrastructure depth is genuine"
+    ],
+    "zh": [
+      "FireAttention 让它在开源模型托管商里延迟名列前茅",
+      "OpenAI/Anthropic 双兼容，迁移几乎零摩擦",
+      "GPU 按秒计费，粒度在按需硬件里罕见地细",
+      "由 PyTorch 核心团队创立——基础设施功力是真的"
+    ],
+    "ja": [
+      "FireAttentionによりオープンモデルホストの中でも最低水準のレイテンシを実現",
+      "OpenAI/Anthropic両互換で移行はほぼ摩擦ゼロ",
+      "GPUの秒単位課金はオンデマンドハードウェアとしては異例の細かさ",
+      "PyTorchコアチームによる創業——インフラの深みは本物"
+    ],
+    "es": [
+      "FireAttention ofrece algunas de las latencias más bajas entre los hosts de modelos abiertos",
+      "La doble compatibilidad OpenAI/Anthropic hace la migración casi sin fricción",
+      "La facturación de GPU por segundo es inusualmente granular para hardware bajo demanda",
+      "Fundada por el equipo central de PyTorch: la profundidad de infraestructura es genuina"
+    ],
+    "fr": [
+      "FireAttention offre parmi les latences les plus basses des hébergeurs de modèles ouverts",
+      "La double compatibilité OpenAI/Anthropic rend la migration presque sans friction",
+      "La facturation GPU à la seconde est d'une granularité rare pour du matériel à la demande",
+      "Fondée par l'équipe cœur de PyTorch — la profondeur d'infrastructure est réelle"
+    ]
+  },
+  "cons": {
+    "en": [
+      "$1 of trial credit is symbolic — real evaluation requires paying up front",
+      "Model catalog is curated rather than exhaustive; niche models may be missing",
+      "No proprietary frontier models, same as every open-model host",
+      "Docs and tooling assume engineers; no-code users have little to hold onto"
+    ],
+    "zh": [
+      "$1 试用额度只是象征性的——认真评估得先充值",
+      "模型目录走精选路线而非大而全，小众模型可能缺位",
+      "和所有开源模型托管商一样，没有闭源前沿模型",
+      "文档与工具默认你是工程师，无代码用户几乎无从下手"
+    ],
+    "ja": [
+      "$1のトライアルクレジットは象徴的——本格的な評価には先払いが必要",
+      "モデルカタログは網羅型ではなく厳選型で、ニッチなモデルは欠けることも",
+      "他のオープンモデルホストと同様、独自のフロンティアモデルはない",
+      "ドキュメントとツールはエンジニア前提で、ノーコードユーザーには取っ掛かりが少ない"
+    ],
+    "es": [
+      "El crédito de prueba de $1 es simbólico: una evaluación real requiere pagar por adelantado",
+      "El catálogo de modelos es curado, no exhaustivo; pueden faltar modelos de nicho",
+      "Sin modelos frontera propietarios, como todo host de modelos abiertos",
+      "La documentación y las herramientas asumen ingenieros; los usuarios no-code tienen poco a lo que agarrarse"
+    ],
+    "fr": [
+      "Le crédit d'essai de 1 $ est symbolique — une vraie évaluation demande de payer d'avance",
+      "Le catalogue de modèles est sélectif plutôt qu'exhaustif ; des modèles de niche peuvent manquer",
+      "Pas de modèles frontière propriétaires, comme tout hébergeur de modèles ouverts",
+      "Docs et outillage supposent des ingénieurs ; les utilisateurs no-code ont peu de prise"
+    ]
+  },
+  "latestUpdate": {
+    "en": "2026: Fireworks AI keeps pressing its speed advantage — FireAttention now pairs with speculative decoding and quantization-aware serving across DeepSeek, Qwen and Llama lines, Anthropic-compatible endpoints joined the OpenAI-compatible ones, and B200-class GPUs entered the per-second on-demand fleet alongside 50%-off batch inference.",
+    "zh": "2026 年：Fireworks AI 继续放大速度优势——FireAttention 在 DeepSeek、Qwen、Llama 各系上叠加投机解码与量化感知部署，OpenAI 兼容端点之外新增 Anthropic 兼容端点，B200 级 GPU 加入按秒计费的按需集群，批量推理保持五折。",
+    "ja": "2026年：Fireworks AIはスピードの優位を押し広げ続けている——FireAttentionはDeepSeek、Qwen、Llama各系で投機的デコーディングと量子化対応サービングを組み合わせ、OpenAI互換に加えてAnthropic互換エンドポイントが登場。B200級GPUが秒単位課金のオンデマンド群に加わり、バッチ推論は50%オフを維持。",
+    "es": "2026: Fireworks AI sigue explotando su ventaja de velocidad: FireAttention ahora se combina con decodificación especulativa y serving consciente de cuantización en las líneas DeepSeek, Qwen y Llama, los endpoints compatibles con Anthropic se sumaron a los compatibles con OpenAI, y las GPUs clase B200 entraron en la flota bajo demanda por segundo junto a la inferencia por lotes al 50%.",
+    "fr": "2026 : Fireworks AI continue d'appuyer son avantage de vitesse — FireAttention se combine désormais au décodage spéculatif et au serving conscient de la quantification sur les gammes DeepSeek, Qwen et Llama, des endpoints compatibles Anthropic ont rejoint ceux compatibles OpenAI, et des GPU de classe B200 ont intégré la flotte à la demande facturée à la seconde, avec l'inférence par lots à moitié prix."
+  },
+  "verdict": {
+    "badge": "Worth Trying",
+    "headline": {
+      "en": "The speed specialist of open-model inference",
+      "zh": "开源模型推理里的速度专门户",
+      "ja": "オープンモデル推論のスピードスペシャリスト",
+      "es": "El especialista en velocidad de la inferencia de modelos abiertos",
+      "fr": "Le spécialiste de la vitesse en inférence de modèles ouverts"
+    },
+    "body": {
+      "en": "Fireworks and Together are often mentioned in the same breath, but they optimize for different things. Together wins on catalog breadth; Fireworks wins on the serving layer. FireAttention, speculative decoding and quantization-aware serving are the kind of infrastructure work you only get from a team that came out of PyTorch's core, and in latency-sensitive workloads the difference is measurable, not theoretical. The dual OpenAI-and-Anthropic compatibility is a quietly brilliant move — teams can reroute either vendor's traffic to open models by changing a URL. The hesitations are practical: the $1 trial credit makes serious evaluation a paid exercise, the curated catalog means your favorite niche model may be absent, and everything about the product assumes an engineer at the keyboard. The honest guidance: benchmark it. If your product lives or dies on time-to-first-token — a voice agent, a real-time copilot, a high-traffic chatbot — Fireworks frequently comes out on top, and per-second GPU billing sweetens scaling. If you just need the widest choice of models at prototype prices, Together remains the broader default.",
+      "zh": "Fireworks 和 Together 常被相提并论，但两者的优化方向不同：Together 赢在目录广度，Fireworks 赢在服务层。FireAttention、投机解码、量化感知部署，这类基础设施功夫只有 PyTorch 核心团队出身的人做得出来；在延迟敏感的负载上，差距是可测量的，不是理论上的。OpenAI 与 Anthropic 双兼容是步安静的妙棋——两家供应商的流量，改个 URL 就能改道去开源模型。犹豫点都很实际：$1 试用额度让认真评估变成付费练习；精选式目录意味着你钟爱的小众模型可能不在；产品的一切都默认键盘前坐着工程师。诚实的建议是：跑个基准。如果你的产品生死系于首 token 时间——语音 Agent、实时 Copilot、高流量聊天机器人——Fireworks 常常胜出，按秒计费的 GPU 还能让扩容更划算。如果你只是要在原型价位上挑最多的模型，Together 仍是更宽的默认选项。",
+      "ja": "FireworksとTogetherはよく並べて語られるが、最適化の方向が違う。Togetherはカタログの広さで勝ち、Fireworksはサービング層で勝つ。FireAttention、投機的デコーディング、量子化対応サービングは、PyTorchのコア出身チームだからこそ作れるインフラ仕事であり、レイテンシ重視のワークロードではその差は理論ではなく測定可能なものだ。OpenAIとAnthropicの両互換は静かに冴えた一手——どちらのベンダーのトラフィックも、URLを変えるだけでオープンモデルへ流し替えられる。ためらいは実務的なものだ。$1のトライアルクレジットでは本格評価は有料の作業になり、厳選型カタログではお気に入りのニッチモデルが欠けているかもしれず、製品のすべてがキーボードの前のエンジニアを前提とする。正直な助言はこうだ：ベンチマークを取れ。音声エージェント、リアルタイムコパイロット、高トラフィックのチャットボットなど、最初のトークンまでの時間が生死を分ける製品なら、Fireworksはしばしば首位に立ち、秒単位のGPU課金がスケーリングを後押しする。プロトタイプ価格で最も幅広いモデルから選びたいだけなら、Togetherがより広い既定解であり続ける。",
+      "es": "Fireworks y Together suelen mencionarse juntos, pero optimizan cosas distintas. Together gana en amplitud de catálogo; Fireworks gana en la capa de serving. FireAttention, la decodificación especulativa y el serving consciente de cuantización son el tipo de trabajo de infraestructura que solo sale de un equipo nacido del núcleo de PyTorch, y en cargas sensibles a la latencia la diferencia es medible, no teórica. La doble compatibilidad OpenAI-Anthropic es una jugada discretamente brillante: los equipos pueden redirigir el tráfico de cualquiera de los dos proveedores a modelos abiertos cambiando una URL. Las dudas son prácticas: el crédito de prueba de $1 convierte la evaluación seria en un ejercicio de pago, el catálogo curado implica que tu modelo de nicho favorito puede faltar, y todo el producto asume un ingeniero al teclado. El consejo honesto: haz un benchmark. Si tu producto vive o muere por el tiempo al primer token —un agente de voz, un copilot en tiempo real, un chatbot de alto tráfico—, Fireworks sale ganando con frecuencia, y la facturación de GPU por segundo endulza el escalado. Si solo necesitas la mayor variedad de modelos a precios de prototipo, Together sigue siendo el default más amplio.",
+      "fr": "Fireworks et Together sont souvent cités ensemble, mais ils n'optimisent pas la même chose. Together gagne sur la largeur du catalogue ; Fireworks gagne sur la couche de serving. FireAttention, le décodage spéculatif et le serving conscient de la quantification sont le genre de travail d'infrastructure qu'on n'obtient que d'une équipe issue du cœur de PyTorch, et sur les charges sensibles à la latence, la différence est mesurable, pas théorique. La double compatibilité OpenAI-Anthropic est un coup discrètement brillant — on peut rediriger le trafic de l'un ou l'autre vendeur vers des modèles ouverts en changeant une URL. Les hésitations sont pratiques : le crédit d'essai de 1 $ fait de l'évaluation sérieuse un exercice payant, le catalogue sélectif signifie que votre modèle de niche préféré peut manquer, et tout le produit suppose un ingénieur au clavier. Le conseil honnête : faites un benchmark. Si votre produit vit ou meurt du temps au premier token — agent vocal, copilote temps réel, chatbot à fort trafic — Fireworks l'emporte souvent, et la facturation GPU à la seconde adoucit le passage à l'échelle. S'il vous faut simplement le plus large choix de modèles à prix de prototype, Together reste le défaut le plus large."
+    },
+    "bestFor": {
+      "en": [
+        "Latency-critical products: voice agents, copilots, real-time chat",
+        "Teams rerouting OpenAI or Anthropic traffic to open models",
+        "Engineers who benchmark providers and pick by measured speed"
+      ],
+      "zh": [
+        "延迟攸关的产品：语音 Agent、Copilot、实时聊天",
+        "要把 OpenAI 或 Anthropic 流量改道开源模型的团队",
+        "习惯跑基准、按实测速度选供应商的工程师"
+      ],
+      "ja": [
+        "レイテンシが生命線の製品：音声エージェント、コパイロット、リアルタイムチャット",
+        "OpenAIやAnthropicのトラフィックをオープンモデルへ流し替えるチーム",
+        "プロバイダーをベンチマークし実測速度で選ぶエンジニア"
+      ],
+      "es": [
+        "Productos críticos en latencia: agentes de voz, copilots, chat en tiempo real",
+        "Equipos que redirigen tráfico de OpenAI o Anthropic a modelos abiertos",
+        "Ingenieros que hacen benchmarks y eligen proveedor por velocidad medida"
+      ],
+      "fr": [
+        "Produits critiques en latence : agents vocaux, copilotes, chat temps réel",
+        "Équipes redirigeant le trafic OpenAI ou Anthropic vers des modèles ouverts",
+        "Ingénieurs qui benchmarkent les fournisseurs et choisissent à la vitesse mesurée"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You want the broadest open-model catalog and a free prototyping tier (→ Together AI)",
+        "Your workloads are image, video or audio generation (→ Fal.ai / Replicate)"
+      ],
+      "zh": [
+        "你想要最广的开源模型目录和免费原型档（→ Together AI）",
+        "你的负载是图像、视频或音频生成（→ Fal.ai / Replicate）"
+      ],
+      "ja": [
+        "最も広いオープンモデルカタログと無料プロトタイプ枠が欲しい（→ Together AI）",
+        "ワークロードが画像・動画・音声生成（→ Fal.ai / Replicate）"
+      ],
+      "es": [
+        "Quieres el catálogo de modelos abiertos más amplio y un nivel gratuito para prototipar (→ Together AI)",
+        "Tus cargas son generación de imagen, video o audio (→ Fal.ai / Replicate)"
+      ],
+      "fr": [
+        "Vous voulez le catalogue de modèles ouverts le plus large et un niveau gratuit de prototypage (→ Together AI)",
+        "Vos charges sont de la génération d'image, vidéo ou audio (→ Fal.ai / Replicate)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-28",
+    "verdictDate": "2026-07-28",
+    "pricingVerified": "2026-07-28",
+    "pricingUrl": "https://fireworks.ai/pricing"
+  }
+}

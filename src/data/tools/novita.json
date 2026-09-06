@@ -1,0 +1,29 @@
+{
+  "slug": "novita",
+  "name": "Novita AI",
+  "nameZh": "Novita AI",
+  "description": "一站式模型 API + GPU 云，200+ 开源模型 OpenAI 兼容调用，另可按秒租 RTX 4090/5090、H100/H200，Spot 价省约 50%，新账号送入门额度",
+  "descriptionEn": "One-stop model API plus GPU cloud: 200+ open models via an OpenAI-compatible API, with per-second rental of RTX 4090/5090, H100 and H200 GPUs and spot pricing up to ~50% cheaper; starter credits on signup",
+  "descriptionJa": "モデルAPIとGPUクラウドのワンストップ。200以上のオープンモデルをOpenAI互換で呼び出し、RTX 4090/5090・H100/H200を秒単位でレンタル、スポット価格で最大約50%節約。新規にスタータークレジット",
+  "descriptionEs": "API de modelos y nube GPU todo en uno: más de 200 modelos abiertos vía API compatible con OpenAI, con alquiler por segundo de GPUs RTX 4090/5090, H100 y H200 y precios spot hasta ~50% más baratos; créditos iniciales al registrarse",
+  "descriptionFr": "API de modèles et cloud GPU tout-en-un : plus de 200 modèles ouverts via une API compatible OpenAI, avec location à la seconde de GPU RTX 4090/5090, H100 et H200 et des tarifs spot jusqu'à ~50 % moins chers ; crédits de départ à l'inscription",
+  "url": "https://novita.ai",
+  "logo": "/logos/tools/novita.png",
+  "category": "API Platform",
+  "tags": [
+    "Freemium",
+    "API"
+  ],
+  "featured": false,
+  "developer": "Novita AI",
+  "platforms": {
+    "web": true,
+    "windows": false,
+    "macos": false,
+    "ios": false,
+    "android": false,
+    "linux": false,
+    "browser_extension": false,
+    "api": true
+  }
+}

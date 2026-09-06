@@ -1,0 +1,28 @@
+{
+  "slug": "dalle",
+  "name": "DALL-E 3",
+  "nameZh": "DALL-E 3",
+  "description": "OpenAI 的图像生成模型，可通过 ChatGPT 直接使用",
+  "descriptionEn": "OpenAI's image generation model, accessible through ChatGPT",
+  "descriptionJa": "OpenAIの画像生成モデル。ChatGPTから直接利用可能",
+  "descriptionEs": "Modelo de generación de imágenes de OpenAI, accesible a través de ChatGPT",
+  "descriptionFr": "Modèle de génération d'images d'OpenAI, accessible via ChatGPT",
+  "url": "https://openai.com/dall-e-3",
+  "logo": "/logos/tools/dalle.png",
+  "category": "Image",
+  "tags": [
+    "Freemium"
+  ],
+  "featured": false,
+  "developer": "OpenAI",
+  "platforms": {
+    "web": true,
+    "windows": true,
+    "macos": true,
+    "ios": true,
+    "android": true,
+    "linux": false,
+    "browser_extension": false,
+    "api": true
+  }
+}

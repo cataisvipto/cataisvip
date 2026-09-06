@@ -1,0 +1,79 @@
+{
+  "slug": "figma-context-mcp",
+  "name": "Figma Context MCP",
+  "nameZh": "Figma 设计稿转代码",
+  "description": "向编码智能体提供 Figma 设计稿布局数据的 MCP 服务器。让 Cursor 等工具一次性还原设计稿，比贴截图的实现精度高得多。",
+  "descriptionEn": "An MCP server that provides Figma layout data to coding agents. Lets tools like Cursor implement designs in one shot — far more accurate than pasting screenshots.",
+  "descriptionJa": "Figmaのレイアウトデータをコーディングエージェントに提供するMCPサーバー。Cursorなどのツールがデザインをワンショットで実装でき、スクリーンショット貼り付けより遥かに高精度。",
+  "descriptionEs": "Un servidor MCP que proporciona datos de diseño de Figma a los agentes de código. Permite a herramientas como Cursor implementar diseños de una sola vez, con mucha más precisión que las capturas.",
+  "descriptionFr": "Un serveur MCP qui fournit les données de mise en page Figma aux agents de codage. Permet à des outils comme Cursor d'implémenter les maquettes en une seule fois, bien plus précisément que des captures d'écran.",
+  "developer": "Graham Lipsman",
+  "developerZh": "Graham Lipsman",
+  "repo": "GLips/Figma-Context-MCP",
+  "clients": [
+    "cursor",
+    "claude",
+    "windsurf",
+    "generic"
+  ],
+  "category": "Design",
+  "tags": [
+    "Free",
+    "Open Source",
+    "API"
+  ],
+  "installCommand": "npx -y figma-developer-mcp --figma-api-key=<key> --stdio",
+  "logo": "/logos/mcp/figma-context-mcp.png",
+  "stars": 15776,
+  "featured": false,
+  "faqs": [
+    {
+      "question": {
+        "zh": "Figma Context MCP 怎么提升设计稿还原度？",
+        "en": "How does Figma Context MCP improve design-to-code fidelity?",
+        "ja": "Figma Context MCP はデザイン再現度をどう高めますか？",
+        "es": "¿Cómo mejora Figma Context MCP la fidelidad del diseño al código?",
+        "fr": "Comment Figma Context MCP améliore-t-il la fidélité du design au code ?"
+      },
+      "answer": {
+        "zh": "它不给 AI 截图，而是读取 Figma API 返回的布局、颜色、字体等设计元数据，压缩简化后交给模型。相比看图写码，AI 拿到的是精确数值，一次性还原设计稿的准确率显著更高。",
+        "en": "Instead of screenshots, it reads layout, color and typography metadata from the Figma API, simplifies it and hands it to the model. With exact values instead of pixel guessing, one-shot design implementation accuracy improves dramatically.",
+        "ja": "スクリーンショットではなく、Figma API から取得したレイアウト・色・タイポグラフィのメタデータを簡約化してモデルに渡します。画像からの推測ではなく正確な数値を得られるため、デザインの一発再現精度が大幅に向上します。",
+        "es": "En lugar de capturas, lee metadatos de diseño (layout, colores, tipografía) de la API de Figma, los simplifica y los entrega al modelo. Con valores exactos en vez de adivinar píxeles, la precisión de implementación en un solo intento mejora notablemente.",
+        "fr": "Au lieu de captures d'écran, il lit les métadonnées de mise en page, couleurs et typographie via l'API Figma, les simplifie et les transmet au modèle. Avec des valeurs exactes plutôt que des suppositions, la fidélité d'implémentation en une passe s'améliore nettement."
+      }
+    },
+    {
+      "question": {
+        "zh": "怎么在 Cursor 里配置 Figma Context MCP？",
+        "en": "How do I configure Figma Context MCP in Cursor?",
+        "ja": "Cursor で Figma Context MCP を設定するには？",
+        "es": "¿Cómo configuro Figma Context MCP en Cursor?",
+        "fr": "Comment configurer Figma Context MCP dans Cursor ?"
+      },
+      "answer": {
+        "zh": "在 Figma 账号设置里生成个人访问令牌，然后在 Cursor 的 MCP 配置加入 npx -y figma-developer-mcp --figma-api-key=<key> --stdio。使用时把 Figma 文件或选区链接粘给 AI 即可。",
+        "en": "Generate a personal access token in your Figma account settings, then add npx -y figma-developer-mcp --figma-api-key=<key> --stdio to Cursor MCP config. To use it, just paste a Figma file or selection link to the AI.",
+        "ja": "Figma のアカウント設定でパーソナルアクセストークンを生成し、Cursor の MCP 設定に npx -y figma-developer-mcp --figma-api-key=<key> --stdio を追加します。使うときは Figma のファイルや選択範囲のリンクを AI に貼るだけです。",
+        "es": "Genera un token de acceso personal en los ajustes de tu cuenta de Figma y añade npx -y figma-developer-mcp --figma-api-key=<key> --stdio a la configuración MCP de Cursor. Para usarlo, pega un enlace de archivo o selección de Figma a la IA.",
+        "fr": "Générez un jeton d'accès personnel dans les paramètres de votre compte Figma, puis ajoutez npx -y figma-developer-mcp --figma-api-key=<key> --stdio à la configuration MCP de Cursor. Pour l'utiliser, collez simplement un lien de fichier ou de sélection Figma à l'IA."
+      }
+    },
+    {
+      "question": {
+        "zh": "使用 Figma Context MCP 需要 Figma 付费版吗？",
+        "en": "Do I need a paid Figma plan to use Figma Context MCP?",
+        "ja": "Figma Context MCP の利用に Figma 有料プランは必要ですか？",
+        "es": "¿Necesito un plan de pago de Figma para usar Figma Context MCP?",
+        "fr": "Faut-il un plan Figma payant pour utiliser Figma Context MCP ?"
+      },
+      "answer": {
+        "zh": "不需要。服务器免费开源（MIT），Figma 免费版账号即可生成 API 令牌读取自己的文件；只要你对目标文件有查看权限，AI 就能读取其设计数据。",
+        "en": "No. The server is free and open source (MIT), and a free Figma account can generate API tokens to read its own files. As long as you can view the target file, the AI can read its design data.",
+        "ja": "不要です。サーバーは無料のオープンソース（MIT）で、Figma の無料アカウントでも API トークンを生成して自分のファイルを読み取れます。対象ファイルの閲覧権限があれば AI はそのデザインデータを取得できます。",
+        "es": "No. El servidor es gratuito y de código abierto (MIT), y una cuenta gratuita de Figma puede generar tokens API para leer sus propios archivos. Mientras puedas ver el archivo objetivo, la IA podrá leer sus datos de diseño.",
+        "fr": "Non. Le serveur est gratuit et open source (MIT), et un compte Figma gratuit peut générer des jetons API pour lire ses propres fichiers. Tant que vous pouvez voir le fichier cible, l'IA peut lire ses données de design."
+      }
+    }
+  ]
+}

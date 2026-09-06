@@ -1,0 +1,75 @@
+{
+  "slug": "humanizer-zh",
+  "name": "Humanizer-zh",
+  "nameZh": "Humanizer-zh",
+  "description": "AI 写作去痕工具（中文版），消除文本中 AI 生成的痕迹。",
+  "descriptionEn": "AI writing humanizer (Chinese version). Removes AI-generated traces from text.",
+  "descriptionJa": "AIライティングの人間化ツール（中国語版）。テキストからAI生成の痕跡を除去します。",
+  "descriptionEs": "Humanizador de escritura AI (versión china). Elimina las trazas de IA del texto.",
+  "descriptionFr": "Humaniseur d_écriture IA (version chinoise). Supprime les traces d_IA du texte.",
+  "repo": "op7418/Humanizer-zh",
+  "category": "Writing",
+  "tags": [
+    "Free",
+    "Open Source"
+  ],
+  "featured": false,
+  "agents": [
+    "claude-code"
+  ],
+  "installCommand": "npx skills add op7418/Humanizer-zh",
+  "logo": "/logos/skills/humanizer-zh.png",
+  "stars": 16673,
+  "developer": "op7418",
+  "developerZh": "op7418",
+  "faqs": [
+    {
+      "question": {
+        "en": "What is Humanizer-zh?",
+        "zh": "What is Humanizer-zh?",
+        "ja": "What is Humanizer-zh?",
+        "es": "What is Humanizer-zh?",
+        "fr": "What is Humanizer-zh?"
+      },
+      "answer": {
+        "en": "A Chinese version of the AI writing humanizer that removes AI traces.",
+        "zh": "A Chinese version of the AI writing humanizer.",
+        "ja": "A Chinese version of the AI writing humanizer.",
+        "es": "A Chinese version of the AI writing humanizer.",
+        "fr": "A Chinese version of the AI writing humanizer."
+      }
+    },
+    {
+      "question": {
+        "en": "How to install?",
+        "zh": "How to install?",
+        "ja": "How to install?",
+        "es": "How to install?",
+        "fr": "How to install?"
+      },
+      "answer": {
+        "en": "npx skills add https://github.com/op7418/Humanizer-zh.git",
+        "zh": "npx skills add https://github.com/op7418/Humanizer-zh.git",
+        "ja": "npx skills add https://github.com/op7418/Humanizer-zh.git",
+        "es": "npx skills add https://github.com/op7418/Humanizer-zh.git",
+        "fr": "npx skills add https://github.com/op7418/Humanizer-zh.git"
+      }
+    },
+    {
+      "question": {
+        "en": "What patterns does it detect?",
+        "zh": "What patterns?",
+        "ja": "What patterns?",
+        "es": "What patterns?",
+        "fr": "What patterns?"
+      },
+      "answer": {
+        "en": "24 AI writing patterns in 4 categories (content, grammar, style, communication).",
+        "zh": "24 AI writing patterns in 4 categories.",
+        "ja": "24 AI writing patterns in 4 categories.",
+        "es": "24 AI writing patterns in 4 categories.",
+        "fr": "24 AI writing patterns in 4 categories."
+      }
+    }
+  ]
+}

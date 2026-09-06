@@ -1,0 +1,79 @@
+{
+  "slug": "xcodebuild-mcp",
+  "name": "XcodeBuild MCP",
+  "nameZh": "XcodeBuild MCP",
+  "description": "Sentry 出品的 MCP 服务器，为 AI 智能体提供 iOS/macOS 构建工具。支持 Xcode 项目构建、测试运行、模拟器管理，让编码智能体也能操作 Apple 开发环境。",
+  "descriptionEn": "An MCP server by Sentry that provides iOS/macOS build tools for AI agents. Supports Xcode project building, test running, and simulator management — letting coding agents operate the Apple development environment.",
+  "descriptionJa": "Sentry による MCP サーバーで、AI エージェントに iOS/macOS ビルドツールを提供します。Xcode プロジェクトのビルド、テスト実行、シミュレータ管理をサポートし、コーディングエージェントが Apple 開発環境を操作できるようにします。",
+  "descriptionEs": "Un servidor MCP de Sentry que proporciona herramientas de compilación de iOS/macOS para agentes de IA. Soporta compilación de proyectos Xcode, ejecución de pruebas y gestión de simuladores — permitiendo a los agentes de codificación operar el entorno de desarrollo de Apple.",
+  "descriptionFr": "Un serveur MCP par Sentry qui fournit des outils de build iOS/macOS pour les agents IA. Prend en charge la construction de projets Xcode, l'exécution de tests et la gestion de simulateurs — permettant aux agents de codage d'opérer l'environnement de développement Apple.",
+  "developer": "Sentry",
+  "developerZh": "Sentry",
+  "repo": "getsentry/XcodeBuildMCP",
+  "clients": [
+    "claude",
+    "cursor",
+    "vscode",
+    "codex",
+    "generic"
+  ],
+  "category": "Developer",
+  "tags": [
+    "Free",
+    "Open Source"
+  ],
+  "installCommand": "npx -y @getsentry/xcodebuild-mcp",
+  "logo": "/logos/mcp/xcodebuild-mcp.png",
+  "stars": 6339,
+  "featured": false,
+  "faqs": [
+    {
+      "question": {
+        "zh": "XcodeBuild MCP 能做什么？",
+        "en": "What can XcodeBuild MCP do?",
+        "ja": "XcodeBuild MCP は何ができますか？",
+        "es": "¿Qué puede hacer XcodeBuild MCP?",
+        "fr": "Que peut faire XcodeBuild MCP ?"
+      },
+      "answer": {
+        "zh": "让 AI 智能体在 macOS 上操作 Xcode 项目：构建项目并获取编译错误、运行测试套件查看结果、管理 iOS 模拟器（启动/关闭/重置）、获取设备日志。让 AI 辅助 Apple 平台开发的全流程。",
+        "en": "Lets AI agents operate Xcode projects on macOS: build projects and retrieve compilation errors, run test suites and view results, manage iOS simulators (start/stop/reset), and retrieve device logs. Enables AI-assisted end-to-end Apple platform development.",
+        "ja": "AI エージェントが macOS 上で Xcode プロジェクトを操作できます：プロジェクトのビルドとコンパイルエラーの取得、テストスイートの実行と結果確認、iOS シミュレータの管理（起動/停止/リセット）、デバイスログの取得。Apple プラットフォーム開発の全工程を AI が支援します。",
+        "es": "Permite a los agentes de IA operar proyectos Xcode en macOS: compilar proyectos y obtener errores de compilación, ejecutar suites de pruebas y ver resultados, gestionar simuladores de iOS (iniciar/parar/reiniciar), y obtener registros del dispositivo. Habilita el desarrollo de plataforma Apple asistido por IA de principio a fin.",
+        "fr": "Permet aux agents IA d'opérer des projets Xcode sur macOS : construire des projets et récupérer les erreurs de compilation, exécuter des suites de tests et voir les résultats, gérer les simulateurs iOS (démarrer/arrêter/réinitialiser), et récupérer les logs de périphérique. Permet un développement de plateforme Apple assisté par IA de bout en bout."
+      }
+    },
+    {
+      "question": {
+        "zh": "XcodeBuild MCP 需要 macOS 吗？",
+        "en": "Does XcodeBuild MCP require macOS?",
+        "ja": "XcodeBuild MCP には macOS が必要ですか？",
+        "es": "¿XcodeBuild MCP necesita macOS?",
+        "fr": "XcodeBuild MCP nécessite-t-il macOS ?"
+      },
+      "answer": {
+        "zh": "是的，必须在 macOS 上运行，且需要安装 Xcode 和 Command Line Tools。MCP 服务器通过 xcodebuild 命令行工具与 Xcode 交互，因此只能在 Apple 开发环境中使用。",
+        "en": "Yes, it must run on macOS with Xcode and Command Line Tools installed. The MCP server interacts with Xcode through the xcodebuild command-line tool, so it only works in the Apple development environment.",
+        "ja": "はい、macOS 上で動作し、Xcode と Command Line Tools のインストールが必要です。MCP サーバーは xcodebuild コマンドラインツールを介して Xcode と対話するため、Apple 開発環境でのみ動作します。",
+        "es": "Sí, debe ejecutarse en macOS con Xcode y las Command Line Tools instaladas. El servidor MCP interactúa con Xcode a través de la herramienta de línea de comandos xcodebuild, por lo que solo funciona en el entorno de desarrollo de Apple.",
+        "fr": "Oui, il doit fonctionner sur macOS avec Xcode et les outils en ligne de commande installés. Le serveur MCP interagit avec Xcode via l'outil en ligne de commande xcodebuild, donc il ne fonctionne que dans l'environnement de développement Apple."
+      }
+    },
+    {
+      "question": {
+        "zh": "XcodeBuild MCP 免费吗？",
+        "en": "Is XcodeBuild MCP free?",
+        "ja": "XcodeBuild MCP は無料ですか？",
+        "es": "¿XcodeBuild MCP es gratuito?",
+        "fr": "XcodeBuild MCP est-il gratuit ?"
+      },
+      "answer": {
+        "zh": "完全免费开源（MIT 协议），由 Sentry 官方维护。无需 API Key，在本地运行，所有构建操作在你的机器上执行。",
+        "en": "Completely free and open source (MIT license), officially maintained by Sentry. No API key needed — it runs locally with all build operations executing on your machine.",
+        "ja": "完全無料・オープンソース（MIT ライセンス）で、Sentry が公式メンテナンスしています。API キー不要でローカル実行され、すべてのビルド操作はあなたのマシン上で実行されます。",
+        "es": "Completamente gratuito y de código abierto (licencia MIT), mantenido oficialmente por Sentry. No necesita clave API — se ejecuta en local con todas las operaciones de compilación ejecutándose en tu máquina.",
+        "fr": "Entièrement gratuit et open source (licence MIT), officiellement maintenu par Sentry. Aucune clé API nécessaire — il s'exécute localement avec toutes les opérations de build s'exécutant sur votre machine."
+      }
+    }
+  ]
+}

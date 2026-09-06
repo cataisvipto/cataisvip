@@ -1,0 +1,30 @@
+{
+  "slug": "phi-4",
+  "name": "Phi-4",
+  "nameZh": "Phi-4",
+  "description": "微软推出的小参数高效大语言模型，14B 参数性能媲美更大模型，可在本地和云端部署",
+  "descriptionEn": "Microsoft's small yet powerful LLM, 14B parameters with performance rivaling much larger models, deployable locally and on cloud",
+  "descriptionJa": "Microsoftの小型高効率LLM。14Bパラメータでより大規模モデルに匹敵する性能、ローカルとクラウドで展開可能",
+  "descriptionEs": "LLM pequeño pero potente de Microsoft, 14B parámetros con rendimiento que rivaliza con modelos mucho más grandes, desplegable localmente y en la nube",
+  "descriptionFr": "LLM petit mais puissant de Microsoft, 14B paramètres avec des performances rivalisant avec des modèles beaucoup plus grands, déployable localement et dans le cloud",
+  "url": "https://azure.microsoft.com/en-us/products/phi",
+  "logo": "/logos/tools/phi-4.png",
+  "category": "Foundation Models",
+  "tags": [
+    "Free",
+    "Open Source",
+    "API"
+  ],
+  "featured": false,
+  "developer": "Microsoft",
+  "platforms": {
+    "web": true,
+    "windows": true,
+    "macos": true,
+    "ios": false,
+    "android": false,
+    "linux": true,
+    "browser_extension": false,
+    "api": true
+  }
+}

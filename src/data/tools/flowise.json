@@ -1,0 +1,30 @@
+{
+  "slug": "flowise",
+  "name": "Flowise",
+  "nameZh": "Flowise",
+  "description": "开源可视化 AI 智能体搭建平台：Assistant/Chatflow/Agentflow 三种可视化编排器，拖拽构建，支持自托管与云端",
+  "descriptionEn": "Open-source visual AI agent builder: three visual orchestrators (Assistant/Chatflow/Agentflow), drag-and-drop building, self-hosted or cloud",
+  "descriptionJa": "オープンソースのビジュアルAIエージェント構築プラットフォーム。Assistant/Chatflow/Agentflowの3種のビジュアルオーケストレーターでドラッグ＆ドロップ構築、セルフホストとクラウドに対応",
+  "descriptionEs": "Plataforma visual de código abierto para crear agentes IA: tres orquestadores visuales (Assistant/Chatflow/Agentflow), construcción con arrastrar y soltar, autoalojada o en la nube",
+  "descriptionFr": "Plateforme visuelle open source de création d'agents IA : trois orchestrateurs visuels (Assistant/Chatflow/Agentflow), construction par glisser-déposer, auto-hébergée ou cloud",
+  "url": "https://flowiseai.com",
+  "logo": "/logos/tools/flowise.png",
+  "category": "Agent",
+  "tags": [
+    "Freemium",
+    "Open Source",
+    "API"
+  ],
+  "featured": false,
+  "developer": "FlowiseAI",
+  "platforms": {
+    "web": true,
+    "windows": true,
+    "macos": true,
+    "ios": false,
+    "android": false,
+    "linux": true,
+    "browser_extension": false,
+    "api": true
+  }
+}

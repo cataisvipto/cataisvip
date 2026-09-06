@@ -1,8 +1,8 @@
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import SkillDetailClient from './SkillDetailClient';
-import skills from '@/data/skills.json';
-import skillDetails from '@/data/skillDetails.json';
+import { skills } from '@/data/aggregated';
+import { skillDetails } from '@/data/aggregated';
 import tutorials from '@/data/tutorials.json';
 import { generateAlternates, getSkillMetaDescription } from '@/lib/seo';
 import { routing } from '@/i18n/routing';

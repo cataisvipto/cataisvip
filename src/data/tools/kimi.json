@@ -1,0 +1,30 @@
+{
+  "slug": "kimi",
+  "homeFeatured": true,
+  "name": "Kimi",
+  "nameZh": "Kimi",
+  "description": "月之暗面推出的 AI 助手，以超长上下文处理能力著称",
+  "descriptionEn": "Moonshot AI's assistant known for ultra-long context processing capabilities",
+  "descriptionJa": "Moonshot AIのアシスタント。超長文コンテキスト処理能力で注目",
+  "descriptionEs": "Asistente de Moonshot AI conocido por su capacidad de procesamiento de contexto ultra-largo",
+  "descriptionFr": "Assistant de Moonshot AI connu pour ses capacités de traitement de contexte ultra-long",
+  "url": "https://www.kimi.com",
+  "logo": "/logos/tools/kimi.png",
+  "category": "Chat",
+  "tags": [
+    "Free"
+  ],
+  "featured": true,
+  "developer": "Moonshot AI",
+  "developerZh": "月之暗面",
+  "platforms": {
+    "web": true,
+    "windows": true,
+    "macos": true,
+    "ios": true,
+    "android": true,
+    "linux": false,
+    "browser_extension": true,
+    "api": true
+  }
+}

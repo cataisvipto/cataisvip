@@ -1,0 +1,239 @@
+{
+  "features": {
+    "en": [
+      "200+ AI models via 1 API",
+      "Single API key",
+      "Auto model fallback",
+      "Cost comparison",
+      "Multi-provider load balance",
+      "Usage tracking"
+    ],
+    "zh": [
+      "200+ 模型统一 API",
+      "一个 API 密钥",
+      "自动回退",
+      "成本对比",
+      "多供应商平衡",
+      "用量跟踪"
+    ],
+    "ja": [
+      "200+ モデル統合 API",
+      "単一 API キー",
+      "自動フォールバック",
+      "コスト比較",
+      "負荷分散",
+      "使用量追跡"
+    ],
+    "es": [
+      "200+ modelos 1 API",
+      "Una clave",
+      "Fallback auto",
+      "Comparación costes",
+      "Balance carga",
+      "Seguimiento"
+    ],
+    "fr": [
+      "200+ modèles 1 API",
+      "Une clé",
+      "Repli automatique",
+      "Comparaison coûts",
+      "Équilibrage",
+      "Suivi"
+    ]
+  },
+  "useCases": {
+    "en": [
+      "Multi-model dev",
+      "Cost-optimized routing",
+      "Model comparison",
+      "API redundancy",
+      "Single integration"
+    ],
+    "zh": [
+      "多模型开发",
+      "成本优化路由",
+      "模型对比",
+      "API 冗余",
+      "单一集成"
+    ],
+    "ja": [
+      "マルチモデル",
+      "コスト最適化",
+      "比較",
+      "冗長化",
+      "単一統合"
+    ],
+    "es": [
+      "Multi-modelo",
+      "Ruta optimizada",
+      "Comparación",
+      "Redundancia",
+      "Integración única"
+    ],
+    "fr": [
+      "Multi-modèles",
+      "Routage optimisé",
+      "Comparaison",
+      "Redondance",
+      "Intégration unique"
+    ]
+  },
+  "pros": {
+    "en": [
+      "200+ models",
+      "Single API key",
+      "Cost comparison",
+      "Auto failover"
+    ],
+    "zh": [
+      "200+ 模型",
+      "单一密钥",
+      "成本对比",
+      "自动切换"
+    ],
+    "ja": [
+      "200+ モデル",
+      "API キー1つ",
+      "コスト比較",
+      "自動フェイルオーバー"
+    ],
+    "es": [
+      "200+ modelos",
+      "Una clave",
+      "Comparación",
+      "Failover"
+    ],
+    "fr": [
+      "200+ modèles",
+      "Une clé",
+      "Comparaison",
+      "Basculement"
+    ]
+  },
+  "cons": {
+    "en": [
+      "No proprietary models",
+      "Extra latency vs direct",
+      "Free tier limited",
+      "Depends on providers"
+    ],
+    "zh": [
+      "无自有模型",
+      "额外延迟",
+      "免费有限",
+      "依赖供应商"
+    ],
+    "ja": [
+      "独自モデルなし",
+      "追加遅延",
+      "無料制限",
+      "プロバイダ依存"
+    ],
+    "es": [
+      "Sin modelos",
+      "Latencia extra",
+      "Gratuito limitado",
+      "Dependencia"
+    ],
+    "fr": [
+      "Pas de modèles",
+      "Latence supplémentaire",
+      "Gratuit limité",
+      "Dépendance"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Free limited models",
+      "zh": "免费有限模型",
+      "ja": "無料モデル制限",
+      "es": "Modelos gratis",
+      "fr": "Modèles gratuits"
+    },
+    "api": {
+      "en": "Pay-as-you-go",
+      "zh": "按量计费",
+      "ja": "従量課金",
+      "es": "Pago por uso",
+      "fr": "À la consommation"
+    }
+  },
+  "latestUpdate": {
+    "en": "2026: OpenRouter expands 200+ models",
+    "zh": "2026年：OpenRouter 扩展到 200+ 模型",
+    "ja": "2026年：OpenRouter が 200+ モデルに拡大",
+    "es": "2026: OpenRouter amplía a 200+ modelos",
+    "fr": "2026 : OpenRouter étend à 200+ modèles"
+  },
+  "verdict": {
+    "badge": "Recommended",
+    "headline": {
+      "en": "A unified API gateway that gives you access to dozens of LLMs through a single integration.",
+      "zh": "统一API网关，通过单一集成访问数十种LLM。",
+      "ja": "単一の統合で数十のLLMにアクセスできる統合APIゲートウェイ。",
+      "es": "Una puerta de enlace API unificada que da acceso a docenas de LLMs con una sola integración.",
+      "fr": "Une passerelle API unifiée donnant accès à des dizaines de LLMs via une seule intégration."
+    },
+    "body": {
+      "en": "OpenRouter solves a real developer pain point: instead of managing separate API keys and integrations for each model provider, you get a single endpoint that routes to GPT-4, Claude, Llama, Mistral, and many others. It handles billing, rate limiting, and fallback logic across providers.\n\nFor production applications, it adds a dependency layer. Some teams prefer direct API access for reliability. But for prototyping, model comparison, and applications that benefit from model flexibility, OpenRouter significantly reduces integration complexity.",
+      "zh": "OpenRouter 解决了开发者的一个真实痛点：无需为每个模型提供商管理单独的API密钥和集成，只需一个端点即可路由到GPT-4、Claude、Llama、Mistral等众多模型。它跨提供商处理计费、速率限制和故障转移逻辑。\n\n对于生产应用，它增加了一个依赖层。一些团队出于可靠性考虑偏好直连API。但对于原型开发、模型对比和受益于模型灵活性的应用，OpenRouter显著降低了集成复杂度。",
+      "ja": "OpenRouterは開発者の実際のペインポイントを解決します。各モデルプロバイダーの個別APIキーと統合を管理する代わりに、GPT-4、Claude、Llama、Mistralなど多くのモデルにルーティングする単一エンドポイントを提供します。\n\n本番アプリケーションでは依存レイヤーが追加されます。信頼性のため直接APIアクセスを好むチームもいます。しかしプロトタイピング、モデル比較、モデルの柔軟性が有益なアプリには統合の複雑さを大幅に軽減します。",
+      "es": "OpenRouter resuelve un dolor real de desarrolladores: en lugar de gestionar APIs separadas para cada proveedor, obtienes un solo endpoint que enruta a GPT-4, Claude, Llama, Mistral y muchos otros. Maneja facturación y lógica de fallback entre proveedores.\n\nPara producción, añade una capa de dependencia. Pero para prototipos, comparación de modelos y aplicaciones que se benefician de flexibilidad, OpenRouter reduce significativamente la complejidad de integración.",
+      "fr": "OpenRouter résout un vrai problème de développeur : au lieu de gérer des APIs séparées pour chaque fournisseur, vous obtenez un seul endpoint routant vers GPT-4, Claude, Llama, Mistral et bien d'autres. Il gère la facturation et la logique de fallback.\n\nEn production, il ajoute une couche de dépendance. Mais pour le prototypage, la comparaison de modèles et les applications bénéficiant de flexibilité, OpenRouter réduit considérablement la complexité d'intégration."
+    },
+    "bestFor": {
+      "en": [
+        "Developers needing multi-model API access",
+        "Rapid prototyping across different LLMs",
+        "Applications requiring model fallback logic"
+      ],
+      "zh": [
+        "需要多模型API访问的开发者",
+        "跨不同LLM的快速原型开发",
+        "需要模型故障转移逻辑的应用"
+      ],
+      "ja": [
+        "マルチモデルAPIアクセスが必要な開発者",
+        "異なるLLM間の高速プロトタイピング",
+        "モデルフォールバックロジックが必要なアプリ"
+      ],
+      "es": [
+        "Desarrolladores que necesitan acceso API multi-modelo",
+        "Prototipado rápido entre diferentes LLMs",
+        "Aplicaciones que requieren lógica de fallback"
+      ],
+      "fr": [
+        "Développeurs nécessitant un accès API multi-modèles",
+        "Prototypage rapide entre différents LLMs",
+        "Applications nécessitant une logique de fallback"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You want direct provider APIs for production reliability (→ direct OpenAI/Anthropic API)",
+        "You need a full AI development platform (→ LangChain, Dify)"
+      ],
+      "zh": [
+        "需要直连供应商API以确保生产可靠性（→ 直接使用OpenAI/Anthropic API）",
+        "需要完整的AI开发平台（→ LangChain、Dify）"
+      ],
+      "ja": [
+        "本番の信頼性のためプロバイダー直接APIが必要な場合（→ OpenAI/Anthropic直接API）",
+        "完全なAI開発プラットフォームが必要な場合（→ LangChain、Dify）"
+      ],
+      "es": [
+        "Quieres APIs directas del proveedor para fiabilidad (→ API directa OpenAI/Anthropic)",
+        "Necesitas una plataforma completa de desarrollo IA (→ LangChain, Dify)"
+      ],
+      "fr": [
+        "Vous voulez des APIs directes du fournisseur pour la fiabilité (→ API directe OpenAI/Anthropic)",
+        "Vous avez besoin d'une plateforme de développement IA complète (→ LangChain, Dify)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-27",
+    "verdictDate": "2026-07-27",
+    "pricingVerified": "2026-07-27"
+  }
+}

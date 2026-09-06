@@ -1,0 +1,251 @@
+{
+  "features": {
+    "en": [
+      "Llama 4 natively multimodal models",
+      "Text, image understanding and generation",
+      "Open-source model weights available",
+      "200+ language pretraining",
+      "Multiple model sizes (Scout, Maverick, Behemoth)",
+      "Up to 10M token context (Scout)"
+    ],
+    "zh": [
+      "Llama 4 原生多模态模型",
+      "文本、图像理解与生成",
+      "开源模型权重",
+      "200+ 语言预训练",
+      "多尺寸选择（Scout、Maverick、Behemoth）",
+      "最高 10M token 上下文（Scout）"
+    ],
+    "ja": [
+      "Llama 4 のネイティブマルチモーダルモデル",
+      "テキスト・画像の理解と生成",
+      "オープンソースモデルウェイト",
+      "200以上の言語で事前学習",
+      "複数サイズ（Scout・Maverick・Behemoth）",
+      "最大10Mトークンのコンテキスト（Scout）"
+    ],
+    "es": [
+      "Modelos nativos multimodales Llama 4",
+      "Comprensión y generación de texto e imagen",
+      "Pesos de modelo de código abierto",
+      "Preentrenamiento en 200+ idiomas",
+      "Múltiples tamaños (Scout, Maverick, Behemoth)",
+      "Contexto de hasta 10M tokens (Scout)"
+    ],
+    "fr": [
+      "Modèles nativement multimodaux Llama 4",
+      "Compréhension et génération de texte et d'image",
+      "Poids de modèle open-source",
+      "Pré-entraînement en 200+ langues",
+      "Plusieurs tailles (Scout, Maverick, Behemoth)",
+      "Contexte jusqu'à 10M tokens (Scout)"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Free to use via meta.ai",
+      "zh": "通过 meta.ai 免费使用",
+      "ja": "meta.ai で無料利用可",
+      "es": "Gratuito a través de meta.ai",
+      "fr": "Gratuit via meta.ai"
+    },
+    "open": {
+      "en": "Open weights, free to self-host",
+      "zh": "开放权重，免费自托管",
+      "ja": "オープンウェイト、無料セルフホスト可",
+      "es": "Pesos abiertos, autoalojamiento gratuito",
+      "fr": "Poids ouverts, auto-hébergement gratuit"
+    },
+    "cloud": {
+      "en": "Hosted API via providers (pay-as-you-go)",
+      "zh": "供应商托管 API（按量计费）",
+      "ja": "プロバイダー経由のホスト API（従量課金）",
+      "es": "API alojada por proveedores (pago por uso)",
+      "fr": "API hébergée via des fournisseurs (à la consommation)"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Building custom AI applications",
+      "Local and private LLM deployment",
+      "Multilingual AI assistants",
+      "Research and fine-tuning",
+      "Cost-efficient inference at scale"
+    ],
+    "zh": [
+      "构建自定义 AI 应用",
+      "本地与私有 LLM 部署",
+      "多语言 AI 助手",
+      "研究与微调",
+      "大规模高效推理"
+    ],
+    "ja": [
+      "カスタム AI アプリの構築",
+      "ローカル・プライベート LLM 展開",
+      "多言語 AI アシスタント",
+      "研究とファインチューニング",
+      "大規模な効率的推論"
+    ],
+    "es": [
+      "Creación de aplicaciones de IA personalizadas",
+      "Despliegue local y privado de LLM",
+      "Asistentes de IA multilingües",
+      "Investigación y ajuste fino",
+      "Inferencia eficiente a escala"
+    ],
+    "fr": [
+      "Création d'applications IA personnalisées",
+      "Déploiement local et privé de LLM",
+      "Assistants IA multilingues",
+      "Recherche et fine-tuning",
+      "Inférence efficace à grande échelle"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Open-source and free",
+      "Very long context (Scout 10M)",
+      "Strong multilingual performance",
+      "Large ecosystem support"
+    ],
+    "zh": [
+      "开源免费",
+      "超长上下文（Scout 10M）",
+      "多语言表现优秀",
+      "生态支持广泛"
+    ],
+    "ja": [
+      "オープンソースで無料",
+      "非常に長いコンテキスト（Scout 10M）",
+      "多言語で優れた性能",
+      "広範なエコシステム支援"
+    ],
+    "es": [
+      "Código abierto y gratuito",
+      "Contexto muy largo (Scout 10M)",
+      "Excelente rendimiento multilingüe",
+      "Amplio soporte del ecosistema"
+    ],
+    "fr": [
+      "Open-source et gratuit",
+      "Contexte très long (Scout 10M)",
+      "Excellentes performances multilingues",
+      "Large soutien de l'écosystème"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Large models need heavy hardware",
+      "Free tier has usage limits",
+      "Some license restrictions apply"
+    ],
+    "zh": [
+      "大模型需强算力硬件",
+      "免费版有使用限制",
+      "许可协议存在部分约束"
+    ],
+    "ja": [
+      "大規模モデルには強力なハードウェアが必要",
+      "無料版に利用制限あり",
+      "ライセンスに一部制約あり"
+    ],
+    "es": [
+      "Los modelos grandes requieren hardware potente",
+      "El plan gratuito tiene límites de uso",
+      "Se aplican algunas restricciones de licencia"
+    ],
+    "fr": [
+      "Les grands modèles nécessitent du matériel puissant",
+      "Le forfait gratuit a des limites d'utilisation",
+      "Certaines restrictions de licence s'appliquent"
+    ]
+  },
+  "latestUpdate": {
+    "en": "2026: Meta launched Llama 4 family (Scout, Maverick, Behemoth) with native multimodality and up to 10M token context",
+    "zh": "2026年：Meta 发布 Llama 4 系列（Scout、Maverick、Behemoth），原生多模态，最高 10M token 上下文",
+    "ja": "2026年：Meta が Llama 4 ファミリー（Scout・Maverick・Behemoth）を発表、ネイティブマルチモーダル対応、最大10Mトークン",
+    "es": "2026: Meta lanzó la familia Llama 4 (Scout, Maverick, Behemoth) con multimodalidad nativa y contexto de hasta 10M tokens",
+    "fr": "2026 : Meta a lancé la famille Llama 4 (Scout, Maverick, Behemoth) avec multimodalité native et contexte jusqu'à 10M tokens"
+  },
+  "verdict": {
+    "badge": "Recommended",
+    "headline": {
+      "en": "Meta's AI assistant embedded where billions already are — WhatsApp, Instagram, and Facebook Messenger.",
+      "zh": "Meta的AI助手嵌入在数十亿人已在使用的平台中。",
+      "ja": "数十億人がすでにいる場所に埋め込まれたMetaのAIアシスタント。",
+      "es": "El asistente IA de Meta integrado donde miles de millones ya están.",
+      "fr": "L'assistant IA de Meta intégré là où des milliards sont déjà."
+    },
+    "body": {
+      "en": "Meta AI's unique advantage isn't its model capability—it's distribution. By being built into WhatsApp, Instagram, Facebook, and Messenger, it reaches users who would never download a separate AI app.\n\nPowered by Llama models, Meta AI handles general conversation, creative tasks, and image generation competently. The integration is useful for quick tasks within messaging threads.\n\nThe limitation is capability depth. For serious research, coding, or professional content creation, dedicated tools offer more depth. Meta AI is optimized for convenience.",
+      "zh": "Meta AI的独特优势不在于模型能力——而在于分发。通过内置于WhatsApp、Instagram和Messenger，它触达了不会下载AI应用的用户。\n\n基于Llama模型，Meta AI能胜任一般对话和图像生成。集成对快速任务有用。\n\n限制在于能力深度。对于严肃研究或编码，专用工具提供更多深度。Meta AI针对便利性优化。",
+      "ja": "Meta AIのユニークな強みはモデル能力ではなく、ディストリビューションです。WhatsApp、Instagram、Messengerに組み込まれ、別のAIアプリをダウンロードしないユーザーにリーチします。\n\nLlamaモデルで動作し、一般会話と画像生成を処理します。\n\n制限は能力の深さです。Meta AIは利便性に最適化されています。",
+      "es": "La ventaja de Meta AI no es la capacidad del modelo—es la distribución. Al estar integrado en WhatsApp e Instagram, alcanza usuarios que nunca descargarían una app IA.\n\nManeja conversación general y generación de imágenes competentemente.\n\nLa limitación es la profundidad. Para investigación seria, herramientas dedicadas ofrecen más.",
+      "fr": "L'avantage de Meta AI n'est pas la capacité du modèle—c'est la distribution. Intégré dans WhatsApp et Instagram, il atteint des utilisateurs qui ne téléchargeraient jamais une app IA.\n\nIl gère la conversation générale et la génération d'images.\n\nLa limite est la profondeur. Pour la recherche sérieuse, des outils dédiés offrent plus."
+    },
+    "bestFor": {
+      "en": [
+        "Casual AI usage within messaging apps you already use",
+        "Quick image generation in WhatsApp group chats",
+        "Users who want AI help without installing new apps",
+        "Light information lookup during conversations"
+      ],
+      "zh": [
+        "在已使用的消息应用中进行休闲AI交互",
+        "WhatsApp群聊中的快速图像生成",
+        "不想安装新应用就获得AI帮助的用户",
+        "对话中的轻量级信息查询"
+      ],
+      "ja": [
+        "毎日使うメッセージアプリ内でのカジュアルAI利用",
+        "グループチャットでの素早い画像生成",
+        "新しいアプリなしにAI支援が欲しいユーザー",
+        "会話中の軽量な情報検索"
+      ],
+      "es": [
+        "Uso casual de IA en apps de mensajería",
+        "Generación rápida de imágenes en chats grupales",
+        "Usuarios que quieren IA sin instalar apps",
+        "Búsqueda ligera de información"
+      ],
+      "fr": [
+        "Usage casual de l'IA dans les apps de messagerie",
+        "Génération rapide d'images dans les chats",
+        "Utilisateurs voulant l'IA sans installer d'apps",
+        "Recherche légère d'informations"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You need deep reasoning or complex analytical tasks (→ ChatGPT, Claude)",
+        "You want AI with real-time web search and citations (→ Perplexity)",
+        "You need coding assistance or professional tools (→ GitHub Copilot, Claude Code)"
+      ],
+      "zh": [
+        "你需要深度推理或复杂分析（→ ChatGPT、Claude）",
+        "你需要带实时搜索和引用的AI（→ Perplexity）",
+        "你需要编码辅助或专业工具（→ GitHub Copilot、Claude Code）"
+      ],
+      "ja": [
+        "深い推論が必要な場合（→ ChatGPT、Claude）",
+        "リアルタイムWeb検索と引用が欲しい場合（→ Perplexity）",
+        "コーディング支援が必要な場合（→ GitHub Copilot、Claude Code）"
+      ],
+      "es": [
+        "Necesitas razonamiento profundo (→ ChatGPT, Claude)",
+        "Quieres IA con búsqueda web y citas (→ Perplexity)",
+        "Necesitas asistencia de código (→ GitHub Copilot, Claude Code)"
+      ],
+      "fr": [
+        "Vous avez besoin de raisonnement profond (→ ChatGPT, Claude)",
+        "Vous voulez une IA avec recherche web et citations (→ Perplexity)",
+        "Vous avez besoin d'aide au code (→ GitHub Copilot, Claude Code)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-27",
+    "verdictDate": "2026-07-27",
+    "pricingVerified": "2026-07-27"
+  }
+}

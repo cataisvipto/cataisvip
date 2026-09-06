@@ -1,0 +1,79 @@
+{
+  "slug": "context7",
+  "name": "Context7",
+  "nameZh": "Context7 文档服务",
+  "description": "Upstash 出品的实时文档 MCP 服务器。为编码智能体注入最新的、按版本区分的官方库文档与代码示例，杜绝过时 API 幻觉。",
+  "descriptionEn": "A real-time documentation MCP server by Upstash. Injects up-to-date, version-specific official library docs and code examples into coding agents, eliminating outdated-API hallucinations.",
+  "descriptionJa": "Upstash製のリアルタイムドキュメントMCPサーバー。最新のバージョン別公式ライブラリドキュメントとコード例をコーディングエージェントに注入し、古いAPIの幻覚を防止。",
+  "descriptionEs": "Un servidor MCP de documentación en tiempo real de Upstash. Inyecta documentación oficial actualizada y específica por versión en los agentes de código, eliminando alucinaciones de APIs obsoletas.",
+  "descriptionFr": "Un serveur MCP de documentation en temps réel par Upstash. Injecte la documentation officielle à jour et spécifique à chaque version dans les agents de codage, éliminant les hallucinations d'API obsolètes.",
+  "developer": "Upstash",
+  "developerZh": "Upstash",
+  "repo": "upstash/context7",
+  "clients": [
+    "claude",
+    "cursor",
+    "vscode",
+    "windsurf",
+    "generic"
+  ],
+  "category": "Developer",
+  "tags": [
+    "Free",
+    "Open Source"
+  ],
+  "installCommand": "npx -y @upstash/context7-mcp",
+  "logo": "/logos/mcp/context7.png",
+  "stars": 61625,
+  "featured": false,
+  "faqs": [
+    {
+      "question": {
+        "zh": "Context7 解决什么问题？",
+        "en": "What problem does Context7 solve?",
+        "ja": "Context7 はどんな問題を解決しますか？",
+        "es": "¿Qué problema resuelve Context7?",
+        "fr": "Quel problème Context7 résout-il ?"
+      },
+      "answer": {
+        "zh": "AI 编码时经常用过时的库 API 写出跑不起来的代码。Context7 在提示词阶段实时注入所查库的最新版本文档和代码示例，从根上消灭\"训练数据过期\"导致的幻觉。",
+        "en": "AI coding assistants often hallucinate outdated library APIs. Context7 injects up-to-date, version-specific documentation and code examples straight into the prompt, eliminating stale-training-data hallucinations at the source.",
+        "ja": "AI コーディングでは古いライブラリ API による動かないコードがよく生成されます。Context7 はプロンプト段階で対象ライブラリの最新バージョンのドキュメントとコード例をリアルタイム注入し、「学習データの陳腐化」による幻覚を根本から解消します。",
+        "es": "Los asistentes de IA suelen alucinar con APIs de librerías obsoletas. Context7 inyecta documentación actualizada y específica de versión con ejemplos de código directamente en el prompt, eliminando de raíz las alucinaciones por datos de entrenamiento caducos.",
+        "fr": "Les assistants IA hallucinent souvent des API de bibliothèques obsolètes. Context7 injecte une documentation à jour et propre à la version, avec des exemples de code, directement dans le prompt — éliminant à la source les hallucinations dues aux données d'entraînement périmées."
+      }
+    },
+    {
+      "question": {
+        "zh": "怎么在 Cursor 里安装 Context7？",
+        "en": "How do I install Context7 in Cursor?",
+        "ja": "Cursor に Context7 をインストールするには？",
+        "es": "¿Cómo instalo Context7 en Cursor?",
+        "fr": "Comment installer Context7 dans Cursor ?"
+      },
+      "answer": {
+        "zh": "在 Cursor 的 MCP 设置里添加命令 npx -y @upstash/context7-mcp 即可；Claude Code 用 claude mcp add context7 -- npx -y @upstash/context7-mcp。使用时在提示词里加一句 use context7。",
+        "en": "Add the command npx -y @upstash/context7-mcp in Cursor MCP settings; for Claude Code use claude mcp add context7 -- npx -y @upstash/context7-mcp. Then just append \"use context7\" to your prompt.",
+        "ja": "Cursor の MCP 設定に npx -y @upstash/context7-mcp を追加するだけです。Claude Code では claude mcp add context7 -- npx -y @upstash/context7-mcp を使います。利用時はプロンプトに「use context7」と一言添えてください。",
+        "es": "Añade el comando npx -y @upstash/context7-mcp en los ajustes MCP de Cursor; en Claude Code usa claude mcp add context7 -- npx -y @upstash/context7-mcp. Luego solo añade \"use context7\" a tu prompt.",
+        "fr": "Ajoutez la commande npx -y @upstash/context7-mcp dans les réglages MCP de Cursor ; pour Claude Code, utilisez claude mcp add context7 -- npx -y @upstash/context7-mcp. Ensuite, ajoutez simplement « use context7 » à votre prompt."
+      }
+    },
+    {
+      "question": {
+        "zh": "Context7 免费吗？有请求限制吗？",
+        "en": "Is Context7 free? Are there rate limits?",
+        "ja": "Context7 は無料ですか？リクエスト制限はありますか？",
+        "es": "¿Context7 es gratuito? ¿Hay límites de peticiones?",
+        "fr": "Context7 est-il gratuit ? Y a-t-il des limites de requêtes ?"
+      },
+      "answer": {
+        "zh": "开源且免费使用，无需 API Key 即可开始；匿名请求有频率限制，到 context7.com 免费注册拿 Key 后限额更高。背后由 Upstash 官方维护。",
+        "en": "Open source and free to use — you can start without an API key. Anonymous requests are rate-limited; registering for a free key at context7.com raises the limit. Officially maintained by Upstash.",
+        "ja": "オープンソースで無料です。API キーなしで使い始められます。匿名リクエストにはレート制限があり、context7.com で無料登録してキーを取得すると上限が上がります。Upstash が公式メンテナンスしています。",
+        "es": "De código abierto y gratuito: puedes empezar sin clave API. Las peticiones anónimas tienen límite de frecuencia; registrarte gratis en context7.com para obtener una clave lo aumenta. Mantenido oficialmente por Upstash.",
+        "fr": "Open source et gratuit — vous pouvez commencer sans clé API. Les requêtes anonymes sont limitées en fréquence ; une clé gratuite obtenue sur context7.com relève la limite. Maintenu officiellement par Upstash."
+      }
+    }
+  ]
+}

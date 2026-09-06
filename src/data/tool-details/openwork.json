@@ -1,0 +1,247 @@
+{
+  "features": {
+    "en": [
+      "50+ LLM support with bring-your-own API keys",
+      "Native browser automation for web tasks",
+      "Local-first privacy — files stay on your machine",
+      "Cross-platform: macOS, Windows, Linux",
+      "Team collaboration with shared skills and MCP servers",
+      "Open source (17K+ GitHub stars, Y Combinator backed)"
+    ],
+    "zh": [
+      "支持 50+ 大模型，自带 API Key 接入",
+      "原生浏览器自动化，处理网页任务",
+      "本地优先隐私保护——文件留在本地",
+      "跨平台：macOS、Windows、Linux",
+      "团队协作，共享技能和 MCP 服务器",
+      "开源项目（GitHub 17K+ Star，Y Combinator 孵化）"
+    ],
+    "ja": [
+      "50以上のLLM対応、自分のAPIキーで接続",
+      "ネイティブブラウザ自動化でWebタスクを処理",
+      "ローカルファーストのプライバシー保護",
+      "クロスプラットフォーム：macOS、Windows、Linux",
+      "チームコラボレーション、スキルとMCPサーバーの共有",
+      "オープンソース（GitHub 17K+ Star、Y Combinator支援）"
+    ],
+    "es": [
+      "Soporte para más de 50 LLMs con tus propias claves API",
+      "Automatización nativa del navegador para tareas web",
+      "Privacidad local: los archivos permanecen en tu máquina",
+      "Multiplataforma: macOS, Windows, Linux",
+      "Colaboración en equipo con skills y servidores MCP compartidos",
+      "Código abierto (17K+ estrellas en GitHub, respaldado por Y Combinator)"
+    ],
+    "fr": [
+      "Prise en charge de plus de 50 LLMs avec vos propres clés API",
+      "Automatisation native du navigateur pour les tâches web",
+      "Confidentialité locale : les fichiers restent sur votre machine",
+      "Multiplateforme : macOS, Windows, Linux",
+      "Collaboration d'équipe avec skills et serveurs MCP partagés",
+      "Open source (17K+ étoiles GitHub, soutenu par Y Combinator)"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Free desktop app (bring your own API keys)",
+      "zh": "免费桌面应用（自带 API Key）",
+      "ja": "無料デスクトップアプリ（自分のAPIキー使用）",
+      "es": "Aplicación de escritorio gratuita (usa tus propias claves API)",
+      "fr": "Application de bureau gratuite (apportez vos propres clés API)"
+    },
+    "team": {
+      "en": "$10/seat/month (first 5 seats free, API access + Extension Marketplace)",
+      "zh": "$10/席位/月（前 5 席位免费，API 访问 + 扩展市场）",
+      "ja": "月額10ドル/席（最初の5席無料、APIアクセス + 拡張マーケットプレイス）",
+      "es": "10 $/asiento/mes (primeros 5 asientos gratis, acceso API + Marketplace de extensiones)",
+      "fr": "10 €/siège/mois (5 premiers sièges gratuits, accès API + Marketplace d'extensions)"
+    },
+    "enterprise": {
+      "en": "Custom pricing (SSO, bring-your-own inference)",
+      "zh": "定制价格（SSO、自带推理服务）",
+      "ja": "カスタム料金（SSO、自社推論基盤）",
+      "es": "Precio personalizado (SSO, inferencia propia)",
+      "fr": "Tarif personnalisé (SSO, inférence propre)"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Browser automation and web data extraction",
+      "AI-powered file processing and analysis",
+      "Team workflow automation with shared agents",
+      "Multi-model comparison and switching",
+      "No-code AI agent creation for non-technical users"
+    ],
+    "zh": [
+      "浏览器自动化与网页数据提取",
+      "AI 驱动的文件处理与分析",
+      "团队工作流自动化，共享智能体",
+      "多模型对比与切换",
+      "无代码 AI 智能体创建，适合非技术用户"
+    ],
+    "ja": [
+      "ブラウザ自動化とWebデータ抽出",
+      "AI駆動のファイル処理と分析",
+      "チームワークフロー自動化、エージェント共有",
+      "マルチモデルの比較と切り替え",
+      "ノーコードAIエージェント作成（非技術者向け）"
+    ],
+    "es": [
+      "Automatización del navegador y extracción de datos web",
+      "Procesamiento y análisis de archivos con IA",
+      "Automatización de flujos de trabajo en equipo con agentes compartidos",
+      "Comparación y cambio entre múltiples modelos",
+      "Creación de agentes IA sin código para usuarios no técnicos"
+    ],
+    "fr": [
+      "Automatisation du navigateur et extraction de données web",
+      "Traitement et analyse de fichiers par IA",
+      "Automatisation des flux de travail d'équipe avec agents partagés",
+      "Comparaison et basculement entre modèles multiples",
+      "Création d'agents IA sans code pour utilisateurs non techniques"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Open source with active community (17K+ GitHub stars)",
+      "50+ LLMs supported, bring your own API keys",
+      "Local-first privacy — files never leave your machine",
+      "Native browser automation built-in"
+    ],
+    "zh": [
+      "开源项目，社区活跃（GitHub 17K+ Star）",
+      "支持 50+ 大模型，自带 API Key 接入",
+      "本地优先隐私保护——文件不离开本地",
+      "内置原生浏览器自动化"
+    ],
+    "ja": [
+      "活発なコミュニティのオープンソース（GitHub 17K+ Star）",
+      "50以上のLLM対応、自分のAPIキーで接続",
+      "ローカルファーストのプライバシー保護",
+      "ネイティブブラウザ自動化を内蔵"
+    ],
+    "es": [
+      "Código abierto con comunidad activa (17K+ estrellas en GitHub)",
+      "Más de 50 LLMs compatibles, usa tus propias claves API",
+      "Privacidad local: los archivos nunca salen de tu máquina",
+      "Automatización nativa del navegador integrada"
+    ],
+    "fr": [
+      "Open source avec communauté active (17K+ étoiles GitHub)",
+      "Plus de 50 LLMs pris en charge, apportez vos propres clés API",
+      "Confidentialité locale : les fichiers ne quittent jamais votre machine",
+      "Automatisation native du navigateur intégrée"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Requires own API keys (no built-in free model access)",
+      "Desktop app only — no web version available",
+      "Relatively new project, ecosystem still maturing"
+    ],
+    "zh": [
+      "需自备 API Key（无内置免费模型）",
+      "仅桌面端——无网页版",
+      "项目较新，生态仍在完善中"
+    ],
+    "ja": [
+      "自分のAPIキーが必要（無料モデル内蔵なし）",
+      "デスクトップアプリのみ（Web版なし）",
+      "比較的新しいプロジェクト、エコシステムはまだ成熟途上"
+    ],
+    "es": [
+      "Requiere claves API propias (sin acceso gratuito a modelos integrado)",
+      "Solo aplicación de escritorio — sin versión web",
+      "Proyecto relativamente nuevo, ecosistema aún en desarrollo"
+    ],
+    "fr": [
+      "Nécessite ses propres clés API (pas d'accès gratuit intégré)",
+      "Application de bureau uniquement — pas de version web",
+      "Projet relativement récent, écosystème encore en maturation"
+    ]
+  },
+  "alternatives": [
+    "claude",
+    "qoder",
+    "codex",
+    "cursor"
+  ],
+  "latestUpdate": {
+    "en": "2026: OpenWork launched as open-source Claude Cowork alternative with 50+ LLM support, browser automation, and Y Combinator backing",
+    "zh": "2026 年：OpenWork 作为 Claude Cowork 开源替代品发布，支持 50+ 大模型、浏览器自动化，Y Combinator 孵化",
+    "ja": "2026年：OpenWork が Claude Cowork のオープンソース代替としてローンチ、50以上のLLM対応、ブラウザ自動化、Y Combinator支援",
+    "es": "2026: OpenWork se lanzó como alternativa de código abierto a Claude Cowork con soporte para 50+ LLMs, automatización del navegador y respaldo de Y Combinator",
+    "fr": "2026 : OpenWork lancé comme alternative open source à Claude Cowork avec prise en charge de 50+ LLMs, automatisation du navigateur et soutien de Y Combinator"
+  },
+  "verdict": {
+    "badge": "Worth Trying",
+    "headline": {
+      "en": "Multi-AI agent collaboration platform where multiple AI models work together on tasks.",
+      "zh": "多AI智能体协作平台，多个AI模型协同完成任务。",
+      "ja": "複数のAIモデルがタスクを協力して処理するマルチAIエージェントコラボレーションプラットフォーム。",
+      "es": "Plataforma de colaboración multi-agente IA donde múltiples modelos trabajan juntos en tareas.",
+      "fr": "Plateforme de collaboration multi-agents IA où plusieurs modèles travaillent ensemble sur des tâches."
+    },
+    "body": {
+      "en": "OpenWork explores the emerging paradigm of multi-agent collaboration—letting different AI models take on specialized roles (researcher, writer, critic) to produce better outputs than any single model alone. It's an interesting approach to complex task decomposition.\n\nThe concept is promising but the execution is still maturing. For most everyday tasks, a single strong model (ChatGPT, Claude) remains more practical. OpenWork is best suited for users interested in experimenting with multi-agent workflows for complex projects.",
+      "zh": "OpenWork 探索多智能体协作的新兴范式——让不同AI模型承担专门角色（研究员、写手、评审）以产出优于单一模型的结果。这是一种有趣的复杂任务分解方式。\n\n理念很有前景但执行仍在成熟中。对于大多数日常任务，单一强模型（ChatGPT、Claude）仍然更实用。OpenWork 适合有兴趣用多智能体工作流实验复杂项目的用户。",
+      "ja": "OpenWorkはマルチエージェントコラボレーションの新興パラダイムを探索します。異なるAIモデルに専門的な役割（研究者、ライター、批評家）を持たせ、単一モデルよりも良い出力を生み出します。\n\nコンセプトは有望ですが実行はまだ成熟中です。多くの日常タスクでは単一の強力なモデルがより実用的です。複雑プロジェクトのマルチエージェントワークフローを実験したいユーザーに最適です。",
+      "es": "OpenWork explora el paradigma emergente de colaboración multi-agente—dejando que diferentes modelos tomen roles especializados para producir mejores resultados que un solo modelo. Es un enfoque interesante para descomposición de tareas complejas.\n\nEl concepto es prometedor pero la ejecución aún madura. Para tareas cotidianas, un solo modelo fuerte sigue siendo más práctico. Ideal para quienes quieren experimentar con workflows multi-agente.",
+      "fr": "OpenWork explore le paradigme émergent de collaboration multi-agents—laissant différents modèles prendre des rôles spécialisés pour de meilleurs résultats. Une approche intéressante pour la décomposition de tâches complexes.\n\nLe concept est prometteur mais l'exécution mûrit encore. Pour les tâches quotidiennes, un seul modèle fort reste plus pratique. Idéal pour expérimenter les workflows multi-agents."
+    },
+    "bestFor": {
+      "en": [
+        "Experimenting with multi-agent AI workflows",
+        "Complex project decomposition",
+        "Teams exploring collaborative AI approaches"
+      ],
+      "zh": [
+        "实验多智能体AI工作流",
+        "复杂项目分解",
+        "探索协作AI方法的团队"
+      ],
+      "ja": [
+        "マルチエージェントAIワークフローの実験",
+        "複雑プロジェクトの分解",
+        "協作AIアプローチを探索するチーム"
+      ],
+      "es": [
+        "Experimentar con workflows IA multi-agente",
+        "Descomposición de proyectos complejos",
+        "Equipos explorando enfoques IA colaborativos"
+      ],
+      "fr": [
+        "Expérimenter les workflows IA multi-agents",
+        "Décomposition de projets complexes",
+        "Équipes explorant les approches IA collaboratives"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You need a reliable single-model assistant (→ ChatGPT, Claude)",
+        "You want production-ready agent orchestration (→ LangChain, Dify)"
+      ],
+      "zh": [
+        "需要可靠的单模型助手（→ ChatGPT、Claude）",
+        "需要生产就绪的智能体编排（→ LangChain、Dify）"
+      ],
+      "ja": [
+        "信頼できる単一モデルアシスタントが必要な場合（→ ChatGPT、Claude）",
+        "本番対応のエージェントオーケストレーションが必要な場合（→ LangChain、Dify）"
+      ],
+      "es": [
+        "Necesitas un asistente de modelo único fiable (→ ChatGPT, Claude)",
+        "Quieres orquestación de agentes lista para producción (→ LangChain, Dify)"
+      ],
+      "fr": [
+        "Vous avez besoin d'un assistant mono-modèle fiable (→ ChatGPT, Claude)",
+        "Vous voulez une orchestration d'agents prête pour la production (→ LangChain, Dify)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-27",
+    "verdictDate": "2026-07-27",
+    "pricingVerified": "2026-07-27"
+  }
+}

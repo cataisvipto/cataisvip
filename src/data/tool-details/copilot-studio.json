@@ -1,0 +1,234 @@
+{
+  "features": {
+    "en": [
+      "Low-code graphical builder for AI agents using natural language",
+      "Publish agents to Teams, websites, Microsoft 365 Copilot and more",
+      "Deep Power Platform integration: 1,500+ connectors and Power Automate flows",
+      "Ground agents in SharePoint, Dataverse, websites and enterprise data",
+      "Autonomous agents that trigger on events, not just conversations",
+      "Enterprise governance via Microsoft Purview, DLP and admin controls"
+    ],
+    "zh": [
+      "用自然语言驱动的低代码图形化智能体构建器",
+      "可将智能体发布到 Teams、网站、Microsoft 365 Copilot 等渠道",
+      "深度集成 Power Platform：1500+ 连接器与 Power Automate 流程",
+      "智能体可扎根 SharePoint、Dataverse、网站与企业数据",
+      "支持事件触发的自主智能体，而不只是对话机器人",
+      "通过 Microsoft Purview、DLP 与管理中心实现企业级治理"
+    ],
+    "ja": [
+      "自然言語で操作できるローコードのグラフィカルなエージェントビルダー",
+      "エージェントをTeams、Webサイト、Microsoft 365 Copilotなどへ公開",
+      "Power Platformと深く統合：1,500以上のコネクタとPower Automateフロー",
+      "SharePoint、Dataverse、Webサイト、企業データにエージェントを接地",
+      "会話だけでなくイベントで起動する自律エージェントに対応",
+      "Microsoft Purview、DLP、管理センターによるエンタープライズガバナンス"
+    ],
+    "es": [
+      "Constructor gráfico low-code de agentes IA usando lenguaje natural",
+      "Publica agentes en Teams, sitios web, Microsoft 365 Copilot y más",
+      "Integración profunda con Power Platform: más de 1500 conectores y flujos de Power Automate",
+      "Ancla agentes en SharePoint, Dataverse, sitios web y datos corporativos",
+      "Agentes autónomos que se activan por eventos, no solo por conversaciones",
+      "Gobernanza enterprise vía Microsoft Purview, DLP y controles de administración"
+    ],
+    "fr": [
+      "Constructeur graphique low-code d'agents IA piloté en langage naturel",
+      "Publication des agents vers Teams, sites web, Microsoft 365 Copilot et plus",
+      "Intégration profonde à Power Platform : 1500+ connecteurs et flux Power Automate",
+      "Ancrage des agents dans SharePoint, Dataverse, sites web et données d'entreprise",
+      "Agents autonomes déclenchés par événements, pas seulement par conversations",
+      "Gouvernance d'entreprise via Microsoft Purview, DLP et contrôles d'administration"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "No standalone free plan; agent-building capabilities are included with Microsoft 365 Copilot ($30/user/mo) for lighter scenarios, and trials are available",
+      "zh": "无独立免费版；较轻量的智能体构建能力已包含在 Microsoft 365 Copilot（30 美元/用户/月）中，另提供试用",
+      "ja": "単体の無料プランなし。軽量なエージェント構築機能はMicrosoft 365 Copilot（月額30ドル/ユーザー）に含まれ、試用版も提供",
+      "es": "Sin plan gratuito independiente; las capacidades ligeras de creación de agentes se incluyen en Microsoft 365 Copilot (30 $/usuario/mes) y hay pruebas disponibles",
+      "fr": "Pas de plan gratuit autonome ; des capacités allégées de création d'agents sont incluses dans Microsoft 365 Copilot (30 $/utilisateur/mois), avec des essais disponibles"
+    },
+    "paid": {
+      "en": "$200/month per tenant for a 25,000 Copilot Credits pack (unused credits don't roll over), or pay-as-you-go at $0.01 per credit via an Azure subscription; different actions consume different credit amounts",
+      "zh": "200 美元/月/租户，含 25000 Copilot Credits 积分包（未用积分不结转）；或通过 Azure 订阅按量付费 0.01 美元/积分；不同动作消耗的积分数不同",
+      "ja": "テナントあたり月額200ドルで25,000 Copilot Creditsパック（未使用分は繰越不可）、またはAzureサブスクリプション経由の従量課金で1クレジット0.01ドル。アクションにより消費クレジット数は異なる",
+      "es": "200 $/mes por tenant con un paquete de 25 000 Copilot Credits (los créditos no usados no se acumulan), o pago por uso a 0,01 $ por crédito vía suscripción de Azure; cada acción consume distinta cantidad de créditos",
+      "fr": "200 $/mois par tenant pour un pack de 25 000 Copilot Credits (les crédits non utilisés ne sont pas reportés), ou paiement à l'usage à 0,01 $ le crédit via un abonnement Azure ; chaque action consomme un nombre de crédits différent"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Employee helpdesk agents in Teams answering HR and IT questions",
+      "Customer-facing website chatbots grounded in your knowledge base",
+      "Autonomous agents automating approvals and record updates in Dataverse",
+      "Extending Microsoft 365 Copilot with custom company-specific agents"
+    ],
+    "zh": [
+      "Teams 里回答 HR 与 IT 问题的员工服务台智能体",
+      "扎根企业知识库、面向客户的网站聊天机器人",
+      "在 Dataverse 中自动处理审批与记录更新的自主智能体",
+      "用定制化的公司专属智能体扩展 Microsoft 365 Copilot"
+    ],
+    "ja": [
+      "TeamsでHR・ITの質問に答える社内ヘルプデスクエージェント",
+      "自社ナレッジベースに接地した顧客向けWebサイトチャットボット",
+      "Dataverseで承認やレコード更新を自動化する自律エージェント",
+      "自社専用のカスタムエージェントでMicrosoft 365 Copilotを拡張"
+    ],
+    "es": [
+      "Agentes de helpdesk en Teams respondiendo dudas de RR. HH. y TI",
+      "Chatbots web de cara al cliente anclados en tu base de conocimiento",
+      "Agentes autónomos automatizando aprobaciones y registros en Dataverse",
+      "Extender Microsoft 365 Copilot con agentes personalizados de la empresa"
+    ],
+    "fr": [
+      "Agents helpdesk dans Teams répondant aux questions RH et IT",
+      "Chatbots web orientés clients ancrés dans votre base de connaissances",
+      "Agents autonomes automatisant approbations et mises à jour dans Dataverse",
+      "Extension de Microsoft 365 Copilot avec des agents personnalisés d'entreprise"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Unbeatable distribution: agents deploy straight into Teams and M365",
+      "1,500+ connectors inherited from the Power Platform ecosystem",
+      "Enterprise governance and compliance tooling out of the box",
+      "Low-code approach lets business teams ship without developers"
+    ],
+    "zh": [
+      "分发渠道无可匹敌：智能体直接部署进 Teams 与 M365",
+      "继承 Power Platform 生态的 1500+ 连接器",
+      "开箱即用的企业级治理与合规工具",
+      "低代码路线让业务团队不靠开发也能上线"
+    ],
+    "ja": [
+      "無敵の配布力：エージェントをTeamsとM365へ直接展開",
+      "Power Platformエコシステム由来の1,500以上のコネクタ",
+      "エンタープライズガバナンスとコンプライアンス機能が標準装備",
+      "ローコードで業務部門が開発者なしでリリース可能"
+    ],
+    "es": [
+      "Distribución imbatible: los agentes se despliegan directo en Teams y M365",
+      "Más de 1500 conectores heredados del ecosistema Power Platform",
+      "Gobernanza y cumplimiento enterprise listos para usar",
+      "El enfoque low-code permite a los equipos de negocio lanzar sin desarrolladores"
+    ],
+    "fr": [
+      "Distribution imbattable : les agents se déploient directement dans Teams et M365",
+      "1500+ connecteurs hérités de l'écosystème Power Platform",
+      "Gouvernance et conformité d'entreprise prêtes à l'emploi",
+      "L'approche low-code permet aux équipes métier de livrer sans développeurs"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Credit-based billing is hard to forecast — actions cost varying credits",
+      "$200/mo tenant pack with no rollover punishes uneven usage",
+      "Best value only inside the Microsoft 365 / Power Platform ecosystem",
+      "Advanced customization eventually requires Power Platform expertise"
+    ],
+    "zh": [
+      "积分制计费难以预估——不同动作消耗积分不同",
+      "200 美元/月的租户积分包不结转，用量不均会吃亏",
+      "只有在 Microsoft 365 / Power Platform 生态内才最划算",
+      "深度定制最终还是需要 Power Platform 专业技能"
+    ],
+    "ja": [
+      "クレジット制の課金は予測が難しい——アクションごとに消費量が異なる",
+      "月額200ドルのテナントパックは繰越不可で、利用量の波があると損",
+      "Microsoft 365 / Power Platformエコシステム内でこそ最大の価値",
+      "高度なカスタマイズには結局Power Platformの専門知識が必要"
+    ],
+    "es": [
+      "La facturación por créditos es difícil de prever: cada acción consume distinto",
+      "El paquete de 200 $/mes sin acumulación penaliza el uso irregular",
+      "Solo rinde al máximo dentro del ecosistema Microsoft 365 / Power Platform",
+      "La personalización avanzada acaba exigiendo experiencia en Power Platform"
+    ],
+    "fr": [
+      "La facturation par crédits est difficile à prévoir — chaque action consomme différemment",
+      "Le pack tenant à 200 $/mois sans report pénalise les usages irréguliers",
+      "Ne donne sa pleine valeur qu'au sein de l'écosystème Microsoft 365 / Power Platform",
+      "La personnalisation avancée finit par exiger une expertise Power Platform"
+    ]
+  },
+  "latestUpdate": {
+    "en": "2026: Copilot Studio unifies billing on Copilot Credits ($200/mo per tenant for 25K credits or $0.01/credit pay-as-you-go), expands autonomous event-triggered agents, and deepens publishing into Microsoft 365 Copilot and Teams",
+    "zh": "2026 年：Copilot Studio 将计费统一为 Copilot Credits（200 美元/月/租户含 2.5 万积分，或按量 0.01 美元/积分），扩展事件触发的自主智能体，并深化向 Microsoft 365 Copilot 与 Teams 的发布能力",
+    "ja": "2026年：Copilot Studioは課金をCopilot Creditsに統一（テナント月額200ドルで2.5万クレジット、または従量0.01ドル/クレジット）。イベント起動の自律エージェントを拡充し、Microsoft 365 CopilotとTeamsへの公開を強化",
+    "es": "2026: Copilot Studio unifica la facturación en Copilot Credits (200 $/mes por tenant con 25K créditos o 0,01 $/crédito por uso), amplía los agentes autónomos activados por eventos y profundiza la publicación en Microsoft 365 Copilot y Teams",
+    "fr": "2026 : Copilot Studio unifie la facturation sur les Copilot Credits (200 $/mois par tenant pour 25K crédits ou 0,01 $/crédit à l'usage), étend les agents autonomes déclenchés par événements et approfondit la publication vers Microsoft 365 Copilot et Teams"
+  },
+  "verdict": {
+    "badge": "Recommended",
+    "headline": {
+      "en": "The default choice for AI agents inside the Microsoft universe",
+      "zh": "微软宇宙里做 AI 智能体的默认选项",
+      "ja": "マイクロソフトの世界でAIエージェントを作るならデフォルトの選択肢",
+      "es": "La opción por defecto para agentes IA dentro del universo Microsoft",
+      "fr": "Le choix par défaut pour les agents IA dans l'univers Microsoft"
+    },
+    "body": {
+      "en": "Copilot Studio wins on distribution, not sophistication. If your company runs on Teams, SharePoint and Microsoft 365, no other platform lets business users build an agent in an afternoon and put it in front of every employee by evening — with IT's governance controls intact. The credit-based pricing takes effort to forecast and the platform's gravity pulls you deeper into Power Platform, but for Microsoft-centric organizations that's less a trap than a home-field advantage. Outside that ecosystem, look elsewhere.",
+      "zh": "Copilot Studio 赢在分发，而不是技术炫技。如果你的公司跑在 Teams、SharePoint 和 Microsoft 365 上，没有哪个平台能让业务人员一下午搭好智能体、傍晚就推到全员面前——还保留着 IT 部门的治理管控。积分制定价要花心思预估，平台引力也会把你越拽越深进 Power Platform，但对以微软为中心的组织来说，这与其说是陷阱，不如说是主场优势。生态之外，另请高明。",
+      "ja": "Copilot Studioの勝因は技術の洗練さではなく配布力だ。会社がTeams、SharePoint、Microsoft 365で回っているなら、業務部門が午後にエージェントを組み立て、夕方には全社員に届けられるプラットフォームは他にない——しかもIT部門のガバナンスは保たれたまま。クレジット制の料金は予測に手間がかかり、プラットフォームの引力でPower Platformの深みに引き込まれるが、マイクロソフト中心の組織にとってそれは罠というよりホームアドバンテージだ。エコシステムの外なら他を当たろう。",
+      "es": "Copilot Studio gana por distribución, no por sofisticación. Si tu empresa funciona sobre Teams, SharePoint y Microsoft 365, ninguna otra plataforma permite que usuarios de negocio construyan un agente en una tarde y lo pongan ante todos los empleados esa misma noche, con los controles de gobernanza de TI intactos. El precio por créditos cuesta de prever y la gravedad de la plataforma te arrastra hacia Power Platform, pero para organizaciones centradas en Microsoft eso es menos una trampa que ventaja de local. Fuera de ese ecosistema, busca otra opción.",
+      "fr": "Copilot Studio gagne par la distribution, pas par la sophistication. Si votre entreprise tourne sur Teams, SharePoint et Microsoft 365, aucune autre plateforme ne permet aux équipes métier de construire un agent en un après-midi et de le mettre devant chaque employé le soir même — avec les contrôles de gouvernance IT intacts. La tarification par crédits demande des efforts de prévision et la gravité de la plateforme vous attire toujours plus dans Power Platform, mais pour les organisations centrées sur Microsoft, c'est moins un piège qu'un avantage du terrain. Hors de cet écosystème, passez votre chemin."
+    },
+    "bestFor": {
+      "en": [
+        "Organizations standardized on Microsoft 365 and Teams",
+        "Business teams building internal helpdesk and process agents low-code",
+        "IT departments needing governed, compliant agent deployment"
+      ],
+      "zh": [
+        "以 Microsoft 365 与 Teams 为标准的组织",
+        "用低代码搭建内部服务台与流程智能体的业务团队",
+        "需要受治理、合规的智能体部署方案的 IT 部门"
+      ],
+      "ja": [
+        "Microsoft 365とTeamsで標準化された組織",
+        "ローコードで社内ヘルプデスクや業務エージェントを作る業務チーム",
+        "統制されコンプライアンスに沿ったエージェント展開が必要なIT部門"
+      ],
+      "es": [
+        "Organizaciones estandarizadas en Microsoft 365 y Teams",
+        "Equipos de negocio creando agentes internos de helpdesk y procesos en low-code",
+        "Departamentos de TI que necesitan despliegues de agentes gobernados y conformes"
+      ],
+      "fr": [
+        "Organisations standardisées sur Microsoft 365 et Teams",
+        "Équipes métier construisant des agents helpdesk et processus en low-code",
+        "Départements IT exigeant un déploiement d'agents gouverné et conforme"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "Your company isn't on Microsoft 365 (→ Dify, Coze, Gumloop)",
+        "You need CRM-native agents in Salesforce (→ Agentforce)"
+      ],
+      "zh": [
+        "你的公司不用 Microsoft 365（→ Dify、Coze、Gumloop）",
+        "你需要 Salesforce 里的 CRM 原生智能体（→ Agentforce）"
+      ],
+      "ja": [
+        "会社がMicrosoft 365を使っていない（→ Dify、Coze、Gumloop）",
+        "SalesforceでCRMネイティブなエージェントが必要（→ Agentforce）"
+      ],
+      "es": [
+        "Tu empresa no usa Microsoft 365 (→ Dify, Coze, Gumloop)",
+        "Necesitas agentes nativos del CRM en Salesforce (→ Agentforce)"
+      ],
+      "fr": [
+        "Votre entreprise n'est pas sur Microsoft 365 (→ Dify, Coze, Gumloop)",
+        "Vous avez besoin d'agents natifs CRM dans Salesforce (→ Agentforce)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-27",
+    "verdictDate": "2026-07-27",
+    "pricingVerified": "2026-07-27"
+  }
+}

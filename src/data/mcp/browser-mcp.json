@@ -1,0 +1,79 @@
+{
+  "slug": "browser-mcp",
+  "name": "Browser MCP",
+  "nameZh": "Browser MCP",
+  "description": "让 AI 智能体直接控制本地浏览器的 MCP 服务器。支持页面导航、内容提取、截图、表单填写、点击操作等，让智能体像人类一样浏览网页。",
+  "descriptionEn": "An MCP server that lets AI agents directly control a local browser. Supports page navigation, content extraction, screenshots, form filling, clicking, and more — letting agents browse the web like a human.",
+  "descriptionJa": "AI エージェントがローカルブラウザを直接制御できる MCP サーバー。ページナビゲーション、コンテンツ抽出、スクリーンショット、フォーム入力、クリック操作などをサポートし、エージェントが人間のようにウェブを閲覧できます。",
+  "descriptionEs": "Un servidor MCP que permite a los agentes de IA controlar directamente un navegador local. Soporta navegación por páginas, extracción de contenido, capturas de pantalla, relleno de formularios, clics y más — permitiendo a los agentes navegar por la web como un humano.",
+  "descriptionFr": "Un serveur MCP qui permet aux agents IA de contrôler directement un navigateur local. Prend en charge la navigation, l'extraction de contenu, les captures d'écran, le remplissage de formulaires, les clics et plus — permettant aux agents de naviguer sur le web comme un humain.",
+  "developer": "BrowserMCP",
+  "developerZh": "BrowserMCP",
+  "repo": "BrowserMCP/mcp",
+  "clients": [
+    "claude",
+    "cursor",
+    "vscode",
+    "codex",
+    "generic"
+  ],
+  "category": "Browser",
+  "tags": [
+    "Free",
+    "Open Source"
+  ],
+  "installCommand": "npx -y @browsermcp/mcp",
+  "logo": "/logos/mcp/browser-mcp.png",
+  "stars": 7049,
+  "featured": false,
+  "faqs": [
+    {
+      "question": {
+        "zh": "Browser MCP 和 Playwright MCP 有什么区别？",
+        "en": "How is Browser MCP different from Playwright MCP?",
+        "ja": "Browser MCP と Playwright MCP の違いは？",
+        "es": "¿En qué se diferencia Browser MCP de Playwright MCP?",
+        "fr": "En quoi Browser MCP diffère-t-il de Playwright MCP ?"
+      },
+      "answer": {
+        "zh": "Browser MCP 控制的是你本地正在使用的真实浏览器（Chrome/Firefox 等），可以访问已登录的网站、使用已有的会话和 Cookie。而 Playwright MCP 启动的是无头浏览器，适合自动化测试和爬虫场景。两者互补。",
+        "en": "Browser MCP controls your local real browser (Chrome/Firefox, etc.) that you're already using — it can access logged-in websites, existing sessions, and cookies. Playwright MCP launches a headless browser, making it better suited for automated testing and crawling. They complement each other.",
+        "ja": "Browser MCP はあなたが既に使っているローカルの実際のブラウザ（Chrome/Firefox など）を制御します。ログイン済みのウェブサイトや既存のセッション、Cookie にアクセスできます。Playwright MCP はヘッドレスブラウザを起動するため、自動テストやクローリングに適しています。両者は補完関係にあります。",
+        "es": "Browser MCP controla tu navegador local real (Chrome/Firefox, etc.) que ya estás usando — puede acceder a sitios web con sesión iniciada, sesiones existentes y cookies. Playwright MCP lanza un navegador headless, más adecuado para pruebas automatizadas y crawling. Se complementan.",
+        "fr": "Browser MCP contrôle votre vrai navigateur local (Chrome/Firefox, etc.) que vous utilisez déjà — il peut accéder aux sites connectés, aux sessions existantes et aux cookies. Playwright MCP lance un navigateur headless, mieux adapté aux tests automatisés et au crawling. Ils sont complémentaires."
+      }
+    },
+    {
+      "question": {
+        "zh": "Browser MCP 能做什么自动化任务？",
+        "en": "What automation tasks can Browser MCP do?",
+        "ja": "Browser MCP はどんな自動化タスクができますか？",
+        "es": "¿Qué tareas de automatización puede hacer Browser MCP?",
+        "fr": "Quelles tâches d'automatisation Browser MCP peut-il effectuer ?"
+      },
+      "answer": {
+        "zh": "可以自动填写和提交表单、提取网页内容、截图、点击按钮和链接、滚动页面、管理多标签页、读取登录状态。适用于数据采集、页面监控、自动化测试、内容管理等场景。",
+        "en": "It can auto-fill and submit forms, extract web content, take screenshots, click buttons and links, scroll pages, manage multiple tabs, and read login states. Suitable for data collection, page monitoring, automated testing, and content management.",
+        "ja": "フォームの自動入力と送信、ウェブコンテンツの抽出、スクリーンショット、ボタンやリンクのクリック、ページのスクロール、複数タブの管理、ログイン状態の読み取りなどが可能です。データ収集、ページ監視、自動テスト、コンテンツ管理などのシーンに適しています。",
+        "es": "Puede rellenar y enviar formularios automáticamente, extraer contenido web, tomar capturas de pantalla, hacer clic en botones y enlaces, desplazar páginas, gestionar múltiples pestañas y leer estados de inicio de sesión. Ideal para recopilación de datos, monitoreo de páginas, pruebas automatizadas y gestión de contenido.",
+        "fr": "Il peut remplir et soumettre des formulaires automatiquement, extraire du contenu web, prendre des captures d'écran, cliquer sur des boutons et liens, faire défiler les pages, gérer plusieurs onglets et lire les états de connexion. Adapté à la collecte de données, la surveillance de pages, les tests automatisés et la gestion de contenu."
+      }
+    },
+    {
+      "question": {
+        "zh": "Browser MCP 安全吗？会泄露我的浏览数据吗？",
+        "en": "Is Browser MCP safe? Will it leak my browsing data?",
+        "ja": "Browser MCP は安全ですか？ブラウジングデータが漏洩しますか？",
+        "es": "¿Browser MCP es seguro? ¿Filtrará mis datos de navegación?",
+        "fr": "Browser MCP est-il sûr ? Va-t-il fuir mes données de navigation ?"
+      },
+      "answer": {
+        "zh": "MCP 服务器在本地运行，通过浏览器调试协议（CDP）与你的浏览器通信，所有数据在本地处理，不会上传到第三方。AI 智能体只在被明确指示时才会操作浏览器，建议使用时注意审查智能体要访问的网站。",
+        "en": "The MCP server runs locally and communicates with your browser via the Chrome DevTools Protocol (CDP). All data is processed locally and never uploaded to third parties. AI agents only operate the browser when explicitly instructed. Review the sites your agent is asked to visit.",
+        "ja": "MCP サーバーはローカルで動作し、Chrome DevTools プロトコル（CDP）を介してブラウザと通信します。すべてのデータはローカルで処理され、サードパーティにアップロードされることはありません。AI エージェントは明示的に指示された場合のみブラウザを操作します。エージェントがアクセスするサイトは確認するようにしてください。",
+        "es": "El servidor MCP se ejecuta en local y se comunica con tu navegador a través del Protocolo de Chrome DevTools (CDP). Todos los datos se procesan en local y nunca se suben a terceros. Los agentes de IA solo operan el navegador cuando se les indica explícitamente. Revisa los sitios que se le pide visitar a tu agente.",
+        "fr": "Le serveur MCP s'exécute localement et communique avec votre navigateur via le protocole Chrome DevTools (CDP). Toutes les données sont traitées localement et jamais téléchargées vers des tiers. Les agents IA n'opèrent le navigateur que sur instruction explicite. Vérifiez les sites que votre agent est invité à visiter."
+      }
+    }
+  ]
+}

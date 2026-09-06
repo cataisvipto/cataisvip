@@ -1,0 +1,78 @@
+{
+  "slug": "brand",
+  "name": "Brand",
+  "nameZh": "品牌指南",
+  "description": "品牌视觉识别与指南技能。覆盖品牌色、字体、Logo 使用规范、品牌语调、资产管理和一致性检查。",
+  "descriptionEn": "Brand visual identity and guidelines skill. Covers brand colors, typography, logo usage, brand voice, asset management, and consistency checks.",
+  "descriptionJa": "ブランドビジュアルアイデンティティとガイドラインスキル。ブランドカラー、タイポグラフィ、ロゴ使用、ブランドボイス、一貫性チェック。",
+  "descriptionEs": "Habilidad de identidad visual y guías de marca. Colores, tipografía, uso de logotipo, voz de marca, gestión de activos.",
+  "descriptionFr": "Compétence d'identité visuelle et de directives de marque. Couleurs, typographie, utilisation du logo, voix de la marque.",
+  "developer": "nextlevelbuilder",
+  "developerZh": "nextlevelbuilder",
+  "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
+  "agents": [
+    "claude",
+    "cursor",
+    "codex",
+    "generic"
+  ],
+  "category": "Design",
+  "tags": [
+    "Free",
+    "Open Source"
+  ],
+  "installCommand": "Available via plugin marketplace. See README for details.",
+  "logo": "/logos/skills/brand.png",
+  "stars": 125024,
+  "featured": false,
+  "faqs": [
+    {
+      "question": {
+        "zh": "Brand 技能能帮我做什么？",
+        "en": "What can the Brand skill help me with?",
+        "ja": "Brand スキルは何を手伝ってくれますか？",
+        "es": "¿En qué puede ayudarme la habilidad Brand?",
+        "fr": "En quoi la compétence Brand peut-elle m’aider ?"
+      },
+      "answer": {
+        "zh": "它让 AI 掌握完整的品牌管理方法论：品牌色与字体规范、Logo 使用规则、品牌语调、资产管理和一致性检查。做品牌内容时 AI 会自动对照规范输出，避免视觉和语调跑偏。",
+        "en": "It gives AI a complete brand management methodology: brand colors and typography rules, logo usage guidelines, tone of voice, asset management and consistency checks. When producing branded content, the AI automatically follows the guidelines to prevent visual or tonal drift.",
+        "ja": "AI に完全なブランド管理方法論を与えます。ブランドカラーとタイポグラフィ規範、ロゴ使用ルール、ブランドトーン、アセット管理、一貫性チェックなど。ブランドコンテンツ制作時、AI が自動的に規範に沿って出力し、ビジュアルやトーンのブレを防ぎます。",
+        "es": "Da a la IA una metodología completa de gestión de marca: colores y tipografía, reglas de uso del logo, tono de voz, gestión de activos y comprobaciones de coherencia. Al producir contenido de marca, la IA sigue las directrices automáticamente.",
+        "fr": "Elle donne à l'IA une méthodologie complète de gestion de marque : couleurs et typographie, règles d'usage du logo, ton de voix, gestion des actifs et contrôles de cohérence. L'IA suit automatiquement la charte pour éviter toute dérive visuelle ou tonale."
+      }
+    },
+    {
+      "question": {
+        "zh": "怎么安装 Brand 技能？",
+        "en": "How do I install the Brand skill?",
+        "ja": "Brand スキルをインストールするには？",
+        "es": "¿Cómo instalo la habilidad Brand?",
+        "fr": "Comment installer la compétence Brand ?"
+      },
+      "answer": {
+        "zh": "通过插件市场安装：Claude Code、Cursor、Codex 的 marketplace 里搜索添加即可，具体命令见 GitHub 仓库 README。安装后在涉及品牌的任务中自动触发。",
+        "en": "Install via plugin marketplaces: search and add it in the Claude Code, Cursor or Codex marketplace — exact commands are in the GitHub README. Once installed, it triggers automatically on brand-related tasks.",
+        "ja": "プラグインマーケット経由でインストールします。Claude Code、Cursor、Codex のマーケットプレイスで検索・追加するだけです（詳細コマンドは GitHub README 参照）。導入後はブランド関連タスクで自動的に発動します。",
+        "es": "Instálala vía marketplace de plugins: búscala y añádela en el marketplace de Claude Code, Cursor o Codex; los comandos exactos están en el README de GitHub. Una vez instalada, se activa automáticamente en tareas de marca.",
+        "fr": "Installez-la via les marketplaces de plugins : recherchez-la dans celui de Claude Code, Cursor ou Codex — les commandes exactes sont dans le README GitHub. Elle se déclenche ensuite automatiquement sur les tâches liées à la marque."
+      }
+    },
+    {
+      "question": {
+        "zh": "Brand 技能免费吗？适合什么团队？",
+        "en": "Is the Brand skill free? Who is it for?",
+        "ja": "Brand スキルは無料ですか？どんなチームに向いていますか？",
+        "es": "¿La habilidad Brand es gratuita? ¿Para quién es?",
+        "fr": "La compétence Brand est-elle gratuite ? À qui s’adresse-t-elle ?"
+      },
+      "answer": {
+        "zh": "免费开源。特别适合没有专职品牌设计师的小团队和独立开发者——用它把品牌规范固化进 AI 工作流，产出的每份物料都自动保持一致。",
+        "en": "Free and open source. Especially useful for small teams and indie developers without a dedicated brand designer — bake your brand guidelines into the AI workflow and every asset stays consistent automatically.",
+        "ja": "無料のオープンソースです。専任のブランドデザイナーがいない小規模チームや個人開発者に特に有用で、ブランド規範を AI ワークフローに組み込むことで、あらゆる制作物の一貫性が自動的に保たれます。",
+        "es": "Gratuita y de código abierto. Especialmente útil para equipos pequeños y desarrolladores independientes sin diseñador de marca dedicado: integra tus directrices en el flujo de la IA y cada material se mantiene coherente automáticamente.",
+        "fr": "Gratuite et open source. Particulièrement utile pour les petites équipes et développeurs indépendants sans designer de marque dédié — intégrez votre charte dans le flux IA et chaque support reste cohérent automatiquement."
+      }
+    }
+  ]
+}

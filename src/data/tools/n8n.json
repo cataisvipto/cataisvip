@@ -1,0 +1,30 @@
+{
+  "slug": "n8n",
+  "name": "n8n",
+  "nameZh": "n8n",
+  "description": "面向技术团队的工作流自动化平台：可视化编辑器 + JS/Python 代码节点 + AI Agent 工作流，按「执行次数」而非步骤计费，Community 版可免费自托管，GitHub 近 20 万星",
+  "descriptionEn": "Workflow automation platform for technical teams: visual editor plus JS/Python code nodes plus AI agent workflows, priced per execution instead of per step, with a free self-hosted Community Edition and nearly 200k GitHub stars",
+  "descriptionJa": "技術チーム向けワークフロー自動化プラットフォーム。ビジュアルエディタ、JS/Pythonコードノード、AIエージェントワークフローを備え、ステップ数でなく実行回数で課金。Community版は無料でセルフホスト可能、GitHubスター約20万",
+  "descriptionEs": "Plataforma de automatización de flujos de trabajo para equipos técnicos: editor visual más nodos de código JS/Python más flujos de agentes de IA, con precio por ejecución en vez de por paso, edición Community gratuita autoalojada y casi 200k estrellas en GitHub",
+  "descriptionFr": "Plateforme d'automatisation de flux de travail pour équipes techniques : éditeur visuel plus nœuds de code JS/Python plus workflows d'agents IA, tarifée à l'exécution et non à l'étape, avec une édition Community auto-hébergée gratuite et près de 200k étoiles GitHub",
+  "url": "https://n8n.io",
+  "logo": "/logos/tools/n8n.png",
+  "category": "Automation",
+  "tags": [
+    "Freemium",
+    "Open Source",
+    "API"
+  ],
+  "featured": false,
+  "developer": "n8n GmbH",
+  "platforms": {
+    "web": true,
+    "windows": true,
+    "macos": true,
+    "ios": false,
+    "android": false,
+    "linux": true,
+    "browser_extension": false,
+    "api": true
+  }
+}

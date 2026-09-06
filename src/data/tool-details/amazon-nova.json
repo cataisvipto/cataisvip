@@ -1,0 +1,227 @@
+{
+  "features": {
+    "en": [
+      "Multi-tier models (Micro, Lite, Pro)",
+      "Deep AWS ecosystem integration",
+      "Text, image, video understanding",
+      "Enterprise-grade security and compliance",
+      "Cost-effective pay-as-you-go",
+      "Amazon Bedrock native support"
+    ],
+    "zh": [
+      "多级别模型（Micro、Lite、Pro）",
+      "深度集成 AWS 生态",
+      "文本、图像、视频理解",
+      "企业级安全与合规",
+      "高性价比按量计费",
+      "Amazon Bedrock 原生支持"
+    ],
+    "ja": [
+      "複数レベルのモデル（Micro・Lite・Pro）",
+      "AWS エコシステムと深く統合",
+      "テキスト・画像・動画理解",
+      "エンタープライズ級のセキュリティとコンプライアンス",
+      "コスト効率の高い従量課金",
+      "Amazon Bedrock ネイティブ対応"
+    ],
+    "es": [
+      "Modelos de varios niveles (Micro, Lite, Pro)",
+      "Integración profunda con el ecosistema AWS",
+      "Comprensión de texto, imagen y vídeo",
+      "Seguridad y cumplimiento de nivel empresarial",
+      "Pago por uso rentable",
+      "Soporte nativo de Amazon Bedrock"
+    ],
+    "fr": [
+      "Modèles multi-niveaux (Micro, Lite, Pro)",
+      "Intégration profonde à l'écosystème AWS",
+      "Compréhension de texte, d'image et de vidéo",
+      "Sécurité et conformité de niveau entreprise",
+      "Paiement à l'usage économique",
+      "Support natif Amazon Bedrock"
+    ]
+  },
+  "pricing": {
+    "api": {
+      "en": "Pay-as-you-go via Amazon Bedrock",
+      "zh": "通过 Amazon Bedrock 按量计费",
+      "ja": "Amazon Bedrock 経由で従量課金",
+      "es": "Pago por uso a través de Amazon Bedrock",
+      "fr": "Paiement à l'usage via Amazon Bedrock"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Enterprise AI application development",
+      "Content generation and analysis",
+      "Multilingual customer service",
+      "Document processing automation",
+      "AWS cloud-native AI integration"
+    ],
+    "zh": [
+      "企业级 AI 应用开发",
+      "内容生成与分析",
+      "多语言客服",
+      "文档处理自动化",
+      "AWS 云原生 AI 集成"
+    ],
+    "ja": [
+      "エンタープライズ AI アプリ開発",
+      "コンテンツ生成と分析",
+      "多言語カスタマーサービス",
+      "文書処理の自動化",
+      "AWS クラウドネイティブ AI 統合"
+    ],
+    "es": [
+      "Desarrollo de aplicaciones de IA empresarial",
+      "Generación y análisis de contenido",
+      "Atención al cliente multilingüe",
+      "Automatización del procesamiento de documentos",
+      "Integración de IA nativa en la nube AWS"
+    ],
+    "fr": [
+      "Développement d'applications IA d'entreprise",
+      "Génération et analyse de contenu",
+      "Service client multilingue",
+      "Automatisation du traitement de documents",
+      "Intégration IA cloud native AWS"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Seamless AWS integration",
+      "Multi-tier model choice",
+      "Enterprise security",
+      "Cost-effective scaling"
+    ],
+    "zh": [
+      "AWS 无缝集成",
+      "多级别模型选择",
+      "企业级安全",
+      "弹性成本控制"
+    ],
+    "ja": [
+      "AWS とのシームレスな統合",
+      "複数レベルのモデル選択",
+      "エンタープライズセキュリティ",
+      "コスト効率の良いスケーリング"
+    ],
+    "es": [
+      "Integración perfecta con AWS",
+      "Elección de modelos multinivel",
+      "Seguridad empresarial",
+      "Escalado rentable"
+    ],
+    "fr": [
+      "Intégration transparente avec AWS",
+      "Choix de modèles multi-niveaux",
+      "Sécurité d'entreprise",
+      "Mise à l'échelle économique"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Requires AWS account",
+      "Fewer model options vs some providers",
+      "Pricing can be complex"
+    ],
+    "zh": [
+      "需 AWS 账号",
+      "模型选择不如部分竞品丰富",
+      "定价结构复杂"
+    ],
+    "ja": [
+      "AWS アカウントが必要",
+      "一部プロバイダーよりモデル選択肢が少ない",
+      "料金体系が複雑"
+    ],
+    "es": [
+      "Requiere cuenta AWS",
+      "Menos opciones de modelo que algunos proveedores",
+      "Precios pueden ser complejos"
+    ],
+    "fr": [
+      "Nécessite un compte AWS",
+      "Moins d'options de modèles que certains fournisseurs",
+      "Tarification potentiellement complexe"
+    ]
+  },
+  "latestUpdate": {
+    "en": "2026: Amazon Nova series expanded with enhanced multimodal capabilities and deeper AWS service integration",
+    "zh": "2026年：Amazon Nova 系列扩展多模态能力，深化 AWS 服务集成",
+    "ja": "2026年：Amazon Nova シリーズがマルチモーダル機能を拡張、AWS サービス連携を強化",
+    "es": "2026: la serie Amazon Nova amplió sus capacidades multimodales y profundizó la integración con servicios AWS",
+    "fr": "2026 : la série Amazon Nova a élargi ses capacités multimodales et approfondi l'intégration des services AWS"
+  },
+  "verdict": {
+    "badge": "For Specific Needs",
+    "headline": {
+      "en": "Amazon's foundation models optimized for AWS integration and enterprise workloads.",
+      "zh": "亚马逊基础模型，针对AWS集成和企业工作负载优化。",
+      "ja": "AWS統合と企業ワークロードに最適化されたAmazonの基盤モデル。",
+      "es": "Los modelos fundacionales de Amazon optimizados para integración AWS y cargas empresariales.",
+      "fr": "Les modèles fondamentaux d'Amazon optimisés pour l'intégration AWS et les charges entreprise."
+    },
+    "body": {
+      "en": "Amazon Nova models are designed primarily for developers building on AWS through Bedrock. They offer competitive pricing and tight integration with Amazon's cloud infrastructure, making them practical for organizations already invested in the AWS ecosystem.\n\nAs standalone models, they don't match the capabilities of GPT-4, Claude, or Gemini. Their value proposition is ecosystem convenience—if your stack is AWS, Nova models reduce friction compared to integrating third-party models.",
+      "zh": "Amazon Nova 模型主要为通过 Bedrock 在 AWS 上构建的开发者设计。提供有竞争力的定价和与亚马逊云基础设施的紧密集成，对已投入AWS生态的组织很实用。\n\n作为独立模型，其能力不及 GPT-4、Claude 或 Gemini。其价值主张是生态便利性——如果你的技术栈是AWS，Nova模型比集成第三方模型减少了摩擦。",
+      "ja": "Amazon NovaモデルはBedrockを通じてAWS上で構築する開発者向けに設計されています。競争力のある価格とAmazonクラウドインフラとの緊密な統合を提供し、AWSエコシステムに投資済みの組織に実用的です。\n\n単独モデルとしてはGPT-4、Claude、Geminiの能力に及びません。価値提案はエコシステムの利便性——AWSスタックならサードパーティモデル統合より摩擦が少ないです。",
+      "es": "Los modelos Amazon Nova están diseñados para desarrolladores construyendo en AWS a través de Bedrock. Ofrecen precios competitivos e integración estrecha con la infraestructura cloud de Amazon.\n\nComo modelos independientes, no igualan GPT-4, Claude o Gemini. Su propuesta de valor es la conveniencia del ecosistema—si tu stack es AWS, reducen la fricción comparado con integrar modelos de terceros.",
+      "fr": "Les modèles Amazon Nova sont conçus pour les développeurs construisant sur AWS via Bedrock. Ils offrent des prix compétitifs et une intégration étroite avec l'infrastructure cloud d'Amazon.\n\nComme modèles autonomes, ils n'égalent pas GPT-4, Claude ou Gemini. Leur proposition de valeur est la commodité d'écosystème—si votre stack est AWS, ils réduisent la friction."
+    },
+    "bestFor": {
+      "en": [
+        "AWS-native application development",
+        "Cost-effective inference on Bedrock",
+        "Organizations committed to the AWS ecosystem"
+      ],
+      "zh": [
+        "AWS原生应用开发",
+        "Bedrock上的高性价比推理",
+        "深度绑定AWS生态的组织"
+      ],
+      "ja": [
+        "AWSネイティブアプリケーション開発",
+        "Bedrockでのコスパの良い推論",
+        "AWSエコシステムにコミットした組織"
+      ],
+      "es": [
+        "Desarrollo de aplicaciones nativas AWS",
+        "Inferencia rentable en Bedrock",
+        "Organizaciones comprometidas con AWS"
+      ],
+      "fr": [
+        "Développement d'applications natives AWS",
+        "Inférence rentable sur Bedrock",
+        "Organisations engagées dans l'écosystème AWS"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You need top model capabilities regardless of platform (→ Claude, GPT-4)",
+        "You want open-source flexibility (→ Llama, DeepSeek)"
+      ],
+      "zh": [
+        "需要不论平台的顶级模型能力（→ Claude、GPT-4）",
+        "需要开源灵活性（→ Llama、DeepSeek）"
+      ],
+      "ja": [
+        "プラットフォームに関係なくトップモデル能力が必要な場合（→ Claude、GPT-4）",
+        "オープンソースの柔軟性が必要な場合（→ Llama、DeepSeek）"
+      ],
+      "es": [
+        "Necesitas las mejores capacidades sin importar la plataforma (→ Claude, GPT-4)",
+        "Quieres flexibilidad open-source (→ Llama, DeepSeek)"
+      ],
+      "fr": [
+        "Vous avez besoin des meilleures capacités quel que soit la plateforme (→ Claude, GPT-4)",
+        "Vous voulez la flexibilité open-source (→ Llama, DeepSeek)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-27",
+    "verdictDate": "2026-07-27",
+    "pricingVerified": "2026-07-27"
+  }
+}

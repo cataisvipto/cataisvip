@@ -14,9 +14,9 @@ import Newsletter from '@/components/Newsletter';
 import SubmitCTA from '@/components/SubmitCTA';
 import Footer from '@/components/Footer';
 import LogoTile from '@/components/LogoTile';
-import tools from '@/data/tools.json';
-import skills from '@/data/skills.json';
-import mcp from '@/data/mcp.json';
+import { tools } from '@/data/aggregated';
+import { skills } from '@/data/aggregated';
+import { mcp } from '@/data/aggregated';
 import { Tool, getLocalizedDescription } from '@/components/ToolCard';
 import { CATEGORIES, categoryToSlug } from '@/lib/categories';
 

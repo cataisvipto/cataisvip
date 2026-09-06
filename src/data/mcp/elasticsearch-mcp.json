@@ -1,0 +1,78 @@
+{
+  "slug": "elasticsearch-mcp",
+  "name": "Elasticsearch MCP",
+  "nameZh": "Elasticsearch MCP",
+  "description": "Elastic 官方 MCP 服务器，让智能体用自然语言查询 Elasticsearch——列出索引、查看映射、执行 DSL 与 ES|QL 查询、做全文与向量检索，把搜索引擎里的数据直接接进 AI 对话。",
+  "descriptionEn": "Elastic's official MCP server lets agents query Elasticsearch in natural language — list indices, view mappings, run DSL and ES|QL queries, do full-text and vector search, bringing search-engine data straight into AI conversations.",
+  "descriptionJa": "Elastic 公式の MCP サーバー。エージェントが自然言語で Elasticsearch を照会でき、インデックスの一覧表示、マッピングの確認、DSL や ES|QL クエリの実行、全文・ベクトル検索が可能で、検索エンジン内のデータをそのまま AI の対話に取り込めます。",
+  "descriptionEs": "El servidor MCP oficial de Elastic permite a los agentes consultar Elasticsearch en lenguaje natural: listar índices, ver mapeos, ejecutar consultas DSL y ES|QL, hacer búsqueda de texto completo y vectorial, llevando los datos del motor de búsqueda directamente a las conversaciones de IA.",
+  "descriptionFr": "Le serveur MCP officiel d'Elastic permet aux agents d'interroger Elasticsearch en langage naturel : lister les index, voir les mappings, exécuter des requêtes DSL et ES|QL, faire de la recherche plein texte et vectorielle, amenant les données du moteur de recherche directement dans les conversations IA.",
+  "developer": "Elastic",
+  "developerZh": "Elastic",
+  "repo": "elastic/mcp-server-elasticsearch",
+  "clients": [
+    "claude",
+    "cursor",
+    "vscode",
+    "generic"
+  ],
+  "category": "Database",
+  "tags": [
+    "Free",
+    "Open Source"
+  ],
+  "installCommand": "npx -y @elastic/mcp-server-elasticsearch",
+  "logo": "/logos/mcp/elasticsearch-mcp.png",
+  "stars": 709,
+  "featured": false,
+  "faqs": [
+    {
+      "question": {
+        "zh": "Elasticsearch MCP 能做什么？",
+        "en": "What can Elasticsearch MCP do?",
+        "ja": "Elasticsearch MCP は何ができますか？",
+        "es": "¿Qué puede hacer Elasticsearch MCP?",
+        "fr": "Que peut faire Elasticsearch MCP ?"
+      },
+      "answer": {
+        "zh": "让 AI 用自然语言探索你的 Elasticsearch 集群：列出索引、查看字段映射、跑 Query DSL 或更简洁的 ES|QL 查询，做全文检索和向量相似度搜索。适合\"用聊天的方式问日志、问业务数据\"的排障与分析场景。",
+        "en": "It lets AI explore your Elasticsearch cluster in natural language: list indices, view field mappings, run Query DSL or the more concise ES|QL, and do full-text and vector-similarity search. Great for troubleshooting and analytics where you \"ask your logs or business data\" in chat.",
+        "ja": "AI が自然言語で Elasticsearch クラスターを探索できます。インデックスの一覧、フィールドマッピングの確認、Query DSL やより簡潔な ES|QL の実行、全文検索やベクトル類似検索が可能です。「ログや業務データにチャットで問い合わせる」トラブルシューティングや分析に適します。",
+        "es": "Permite a la IA explorar tu clúster de Elasticsearch en lenguaje natural: listar índices, ver mapeos de campos, ejecutar Query DSL o el más conciso ES|QL, y hacer búsqueda de texto completo y por similitud vectorial. Ideal para diagnóstico y analítica donde \"preguntas a tus logs o datos de negocio\" por chat.",
+        "fr": "Il permet à l'IA d'explorer votre cluster Elasticsearch en langage naturel : lister les index, voir les mappings de champs, exécuter Query DSL ou le plus concis ES|QL, et faire de la recherche plein texte et par similarité vectorielle. Idéal pour le dépannage et l'analyse où l'on « interroge ses logs ou données métier » en chat."
+      }
+    },
+    {
+      "question": {
+        "zh": "支持 Elastic Cloud 和自建集群吗？怎么认证？",
+        "en": "Does it support Elastic Cloud and self-hosted clusters? How does auth work?",
+        "ja": "Elastic Cloud と自己ホストのクラスターに対応していますか？認証は？",
+        "es": "¿Admite Elastic Cloud y clústeres autoalojados? ¿Cómo es la autenticación?",
+        "fr": "Prend-il en charge Elastic Cloud et les clusters auto-hébergés ? Comment fonctionne l'authentification ?"
+      },
+      "answer": {
+        "zh": "两者都支持。通过环境变量传入集群地址（ES_URL）与凭据即可：Elastic Cloud 用 API Key，自建集群可用 API Key 或用户名/密码。建议用只读权限的 API Key，避免智能体误改索引。",
+        "en": "Both are supported. Pass the cluster URL (ES_URL) and credentials via environment variables: use an API key for Elastic Cloud, or an API key or username/password for self-hosted. Prefer a read-only API key to keep the agent from altering indices.",
+        "ja": "どちらも対応します。環境変数でクラスターの URL（ES_URL）と認証情報を渡します。Elastic Cloud は API キー、自己ホストは API キーまたはユーザー名／パスワードを使用します。エージェントによるインデックスの誤変更を防ぐため、読み取り専用の API キーを推奨します。",
+        "es": "Ambos se admiten. Pasa la URL del clúster (ES_URL) y las credenciales por variables de entorno: usa una clave API para Elastic Cloud, o clave API o usuario/contraseña para autoalojado. Prefiere una clave API de solo lectura para evitar que el agente altere índices.",
+        "fr": "Les deux sont pris en charge. Passez l'URL du cluster (ES_URL) et les identifiants via des variables d'environnement : une clé API pour Elastic Cloud, ou clé API ou nom d'utilisateur/mot de passe pour l'auto-hébergé. Préférez une clé API en lecture seule pour éviter que l'agent ne modifie les index."
+      }
+    },
+    {
+      "question": {
+        "zh": "Elasticsearch MCP 免费吗？",
+        "en": "Is Elasticsearch MCP free?",
+        "ja": "Elasticsearch MCP は無料ですか？",
+        "es": "¿Elasticsearch MCP es gratuito?",
+        "fr": "Elasticsearch MCP est-il gratuit ?"
+      },
+      "answer": {
+        "zh": "MCP 服务器由 Elastic 官方开源、免费（Apache-2.0）；查询的是你自己的集群。本地或自建 Elasticsearch 零成本，Elastic Cloud 则按其订阅计费。",
+        "en": "The MCP server is officially open-sourced by Elastic and free (Apache-2.0); it queries your own cluster. Local or self-hosted Elasticsearch costs nothing, while Elastic Cloud is billed per its subscription.",
+        "ja": "MCP サーバーは Elastic 公式がオープンソース化した無料（Apache-2.0）のものです。照会先はあなた自身のクラスターです。ローカルや自己ホストの Elasticsearch は無料で、Elastic Cloud はそのサブスクリプションに応じて課金されます。",
+        "es": "El servidor MCP es de código abierto oficial de Elastic y gratuito (Apache-2.0); consulta tu propio clúster. Elasticsearch local o autoalojado no cuesta nada, mientras que Elastic Cloud se factura según su suscripción.",
+        "fr": "Le serveur MCP est officiellement open source par Elastic et gratuit (Apache-2.0) ; il interroge votre propre cluster. Elasticsearch local ou auto-hébergé ne coûte rien, tandis qu'Elastic Cloud est facturé selon son abonnement."
+      }
+    }
+  ]
+}

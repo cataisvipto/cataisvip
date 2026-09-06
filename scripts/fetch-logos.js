@@ -16,7 +16,7 @@ const fs = require('fs');
 const path = require('path');
 
 const ROOT = path.resolve(__dirname, '..');
-const TOOLS_FILE = path.join(ROOT, 'src/data/tools.json');
+const { loadTools, saveCollection, saveOrder } = require(path.join(__dirname, 'lib', 'load-data.cjs'));
 const OUT_DIR = path.join(ROOT, 'public/logos/tools');
 const TIMEOUT_MS = 12000;
 const RETRIES = 2;
@@ -122,7 +122,7 @@ async function siteIcon(domain) {
 
 async function main() {
   fs.mkdirSync(OUT_DIR, { recursive: true });
-  const tools = JSON.parse(fs.readFileSync(TOOLS_FILE, 'utf8'));
+  let tools = loadTools();
   const failed = [];
   let ok = 0;
 

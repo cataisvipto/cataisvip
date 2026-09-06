@@ -1,0 +1,80 @@
+{
+  "slug": "task-master",
+  "name": "Claude Task Master",
+  "nameZh": "Claude Task Master",
+  "description": "AI 驱动的任务管理系统，可嵌入 Cursor、Lovable、Windsurf 等 IDE。让 AI 智能体分解复杂任务、跟踪进度、管理依赖，将大型项目拆解为可执行的步骤。",
+  "descriptionEn": "An AI-powered task management system that drops into Cursor, Lovable, Windsurf, and more. Lets AI agents break down complex tasks, track progress, manage dependencies, and decompose large projects into executable steps.",
+  "descriptionJa": "Cursor、Lovable、Windsurf などの IDE に組み込める AI 駆動のタスク管理システム。AI エージェントが複雑なタスクを分解し、進捗を追跡し、依存関係を管理し、大規模プロジェクトを実行可能なステップに分割できます。",
+  "descriptionEs": "Un sistema de gestión de tareas impulsado por IA que se integra en Cursor, Lovable, Windsurf y más. Permite a los agentes de IA descomponer tareas complejas, rastrear el progreso, gestionar dependencias y desglosar proyectos grandes en pasos ejecutables.",
+  "descriptionFr": "Un système de gestion de tâches piloté par l'IA qui s'intègre dans Cursor, Lovable, Windsurf et plus. Permet aux agents IA de décomposer des tâches complexes, suivre la progression, gérer les dépendances et diviser les grands projets en étapes exécutables.",
+  "developer": "eyaltoledano",
+  "developerZh": "eyaltoledano",
+  "repo": "eyaltoledano/claude-task-master",
+  "clients": [
+    "claude",
+    "cursor",
+    "vscode",
+    "windsurf",
+    "codex",
+    "generic"
+  ],
+  "category": "Productivity",
+  "tags": [
+    "Free",
+    "Open Source"
+  ],
+  "installCommand": "npx -y task-master",
+  "logo": "/logos/mcp/task-master.png",
+  "stars": 28047,
+  "featured": false,
+  "faqs": [
+    {
+      "question": {
+        "zh": "Task Master 解决什么问题？",
+        "en": "What problem does Task Master solve?",
+        "ja": "Task Master はどんな問題を解決しますか？",
+        "es": "¿Qué problema resuelve Task Master?",
+        "fr": "Quel problème Task Master résout-il ?"
+      },
+      "answer": {
+        "zh": "AI 编码时经常遇到「大任务不知道从哪下手」的问题。Task Master 让智能体自动将复杂需求分解为结构化的任务列表，跟踪每个任务的完成状态，管理任务间的依赖关系，确保大型项目有条不紊地推进。",
+        "en": "AI coding often hits the 'where do I start with this big task' problem. Task Master lets agents automatically decompose complex requirements into structured task lists, track the completion status of each task, manage dependencies between tasks, and ensure large projects progress systematically.",
+        "ja": "AI コーディングでは「大きなタスクにどこから手をつければいいか」という問題がよく起こります。Task Master はエージェントが複雑な要件を構造化されたタスクリストに自動分解し、各タスクの完了状態を追跡し、タスク間の依存関係を管理して、大規模プロジェクトを体系的に進められるようにします。",
+        "es": "La codificación con IA a menudo se topa con el problema de 'por dónde empiezo con esta gran tarea'. Task Master permite a los agentes descomponer automáticamente requisitos complejos en listas de tareas estructuradas, rastrear el estado de finalización de cada tarea, gestionar dependencias entre tareas y asegurar que los proyectos grandes progresen sistemáticamente.",
+        "fr": "Le codage IA se heurte souvent au problème « par où commencer avec cette grosse tâche ». Task Master permet aux agents de décomposer automatiquement des exigences complexes en listes de tâches structurées, de suivre l'état d'avancement de chaque tâche, de gérer les dépendances entre les tâches et de garantir que les grands projets progressent systématiquement."
+      }
+    },
+    {
+      "question": {
+        "zh": "Task Master 怎么用？",
+        "en": "How do I use Task Master?",
+        "ja": "Task Master の使い方は？",
+        "es": "¿Cómo uso Task Master?",
+        "fr": "Comment utiliser Task Master ?"
+      },
+      "answer": {
+        "zh": "在 Cursor 或 Claude Code 中安装后，只需告诉智能体你的项目需求，它就会自动调用 Task Master 来创建任务分解、分配优先级、跟踪进度。支持查看任务列表、更新状态、标记完成等交互。",
+        "en": "After installing in Cursor or Claude Code, just tell the agent your project requirements and it will automatically call Task Master to create task breakdowns, assign priorities, and track progress. Supports viewing task lists, updating status, marking complete, and more.",
+        "ja": "Cursor や Claude Code にインストールした後、エージェントにプロジェクトの要件を伝えるだけで、自動的に Task Master を呼び出してタスク分解、優先順位の割り当て、進捗追跡を行います。タスク一覧の表示、ステータス更新、完了マークなどの操作に対応しています。",
+        "es": "Después de instalarlo en Cursor o Claude Code, solo dile al agente los requisitos de tu proyecto y automáticamente llamará a Task Master para crear desgloses de tareas, asignar prioridades y rastrear el progreso. Soporta ver listas de tareas, actualizar estados, marcar como completadas y más.",
+        "fr": "Après l'installation dans Cursor ou Claude Code, dites simplement à l'agent vos exigences de projet et il appellera automatiquement Task Master pour créer des décompositions de tâches, attribuer des priorités et suivre la progression. Prend en charge l'affichage des listes de tâches, la mise à jour des statuts, le marquage comme terminé, etc."
+      }
+    },
+    {
+      "question": {
+        "zh": "Task Master 免费吗？",
+        "en": "Is Task Master free?",
+        "ja": "Task Master は無料ですか？",
+        "es": "¿Task Master es gratuito?",
+        "fr": "Task Master est-il gratuit ?"
+      },
+      "answer": {
+        "zh": "完全免费开源，无需 API Key，本地运行即可。所有任务数据存储在本地文件系统中，不会上传到第三方服务器。",
+        "en": "Completely free and open source. No API key needed — it runs entirely locally. All task data is stored in your local file system and never uploaded to third-party servers.",
+        "ja": "完全無料・オープンソースです。API キー不要でローカル実行されます。すべてのタスクデータはローカルファイルシステムに保存され、サードパーティのサーバーにアップロードされることはありません。",
+        "es": "Completamente gratuito y de código abierto. No necesita clave API — se ejecuta totalmente en local. Todos los datos de las tareas se almacenan en tu sistema de archivos local y nunca se suben a servidores de terceros.",
+        "fr": "Entièrement gratuit et open source. Aucune clé API nécessaire — il s'exécute entièrement en local. Toutes les données de tâches sont stockées dans votre système de fichiers local et ne sont jamais téléchargées vers des serveurs tiers."
+      }
+    }
+  ]
+}

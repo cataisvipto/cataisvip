@@ -1,0 +1,29 @@
+{
+  "slug": "kimi-code",
+  "name": "Kimi Code",
+  "nameZh": "Kimi Code",
+  "description": "月之暗面推出的 AI 编程 Agent 与 CLI 工具（国际版），搭载 Kimi K3 模型，最高 100 万 token 上下文，兼容主流开发流程",
+  "descriptionEn": "AI coding agent and CLI by Moonshot AI (global), powered by Kimi K3 with up to 1M-token context, compatible with mainstream dev workflows",
+  "descriptionJa": "Moonshot AI が提供する AI コーディング Agent と CLI ツール（国際版）。Kimi K3 を搭載し、最大 100 万トークンのコンテキストに対応",
+  "descriptionEs": "Agente de codificación IA y CLI de Moonshot AI (versión global), con el modelo Kimi K3 y contexto de hasta 1M de tokens",
+  "descriptionFr": "Agent de codage IA et CLI de Moonshot AI (version internationale), propulsé par Kimi K3 avec un contexte allant jusqu'à 1M de tokens",
+  "url": "https://www.kimi.com/code",
+  "logo": "/logos/tools/kimi-code.png",
+  "category": "Code",
+  "tags": [
+    "Freemium"
+  ],
+  "featured": false,
+  "developer": "Moonshot AI",
+  "developerZh": "月之暗面",
+  "platforms": {
+    "web": false,
+    "windows": true,
+    "macos": true,
+    "ios": false,
+    "android": false,
+    "linux": true,
+    "browser_extension": false,
+    "api": true
+  }
+}

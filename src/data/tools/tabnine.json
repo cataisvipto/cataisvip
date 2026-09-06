@@ -1,0 +1,28 @@
+{
+  "slug": "tabnine",
+  "name": "Tabnine",
+  "nameZh": "Tabnine",
+  "description": "AI 代码补全工具，支持多种 IDE，注重代码隐私",
+  "descriptionEn": "AI code completion tool supporting multiple IDEs with code privacy focus",
+  "descriptionJa": "AIコード補完ツール。複数のIDEに対応、コードのプライバシーに注力",
+  "descriptionEs": "Herramienta de completado de código IA que soporta múltiples IDE con enfoque en la privacidad del código",
+  "descriptionFr": "Outil de complétion de code IA supportant plusieurs IDE avec un accent sur la confidentialité du code",
+  "url": "https://www.tabnine.com",
+  "logo": "/logos/tools/tabnine.png",
+  "category": "Code",
+  "tags": [
+    "Freemium"
+  ],
+  "featured": false,
+  "developer": "Tabnine",
+  "platforms": {
+    "web": false,
+    "windows": true,
+    "macos": true,
+    "ios": false,
+    "android": false,
+    "linux": true,
+    "browser_extension": false,
+    "api": "unknown"
+  }
+}

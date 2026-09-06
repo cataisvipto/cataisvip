@@ -1,0 +1,253 @@
+{
+  "features": {
+    "en": [
+      "ERNIE LLM 5.1",
+      "ERNIE Bot assistant",
+      "YiGe image generation",
+      "Code assistant",
+      "Baidu ecosystem integration",
+      "Enterprise API services"
+    ],
+    "zh": [
+      "文心大模型 5.1",
+      "ERNIE Bot 对话助手",
+      "文心一格图像生成",
+      "文心一言代码助手",
+      "百度生态深度整合",
+      "企业级 API 服务"
+    ],
+    "ja": [
+      "ERNIE 大規模言語モデル 5.1",
+      "ERNIE Bot アシスタント",
+      "YiGe 画像生成",
+      "コードアシスタント",
+      "Baidu エコシステム統合",
+      "エンタープライズ API サービス"
+    ],
+    "es": [
+      "LLM ERNIE 5.1",
+      "Asistente ERNIE Bot",
+      "Generación de imágenes YiGe",
+      "Asistente de código",
+      "Integración con el ecosistema de Baidu",
+      "Servicios de API empresariales"
+    ],
+    "fr": [
+      "LLM ERNIE 5.1",
+      "Assistant ERNIE Bot",
+      "Génération d'images YiGe",
+      "Assistant de code",
+      "Intégration à l'écosystème Baidu",
+      "Services d'API pour entreprises"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Basic conversation",
+      "zh": "基础对话功能",
+      "ja": "基本的な会話機能",
+      "es": "Conversación básica",
+      "fr": "Conversation de base"
+    },
+    "plus": {
+      "en": "Advanced subscription",
+      "zh": "高级功能订阅",
+      "ja": "高度な機能のサブスクリプション",
+      "es": "Suscripción avanzada",
+      "fr": "Abonnement avancé"
+    },
+    "api": {
+      "en": "Pay-as-you-go",
+      "zh": "按量计费",
+      "ja": "従量課金",
+      "es": "Pago por uso",
+      "fr": "Paiement à l'usage"
+    },
+    "enterprise": {
+      "en": "Baidu Cloud enterprise",
+      "zh": "百度智能云企业方案",
+      "ja": "Baidu Cloud エンタープライズ版",
+      "es": "Empresarial de Baidu Cloud",
+      "fr": "Offre entreprise Baidu Cloud"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Chinese Q&A",
+      "Content and marketing",
+      "Image generation",
+      "Code assistance",
+      "Smart customer service",
+      "Enterprise knowledge"
+    ],
+    "zh": [
+      "中文问答与对话",
+      "内容创作与营销",
+      "图像生成与设计",
+      "代码开发辅助",
+      "智能客服系统",
+      "企业知识管理"
+    ],
+    "ja": [
+      "中国語の Q&A",
+      "コンテンツとマーケティング",
+      "画像生成",
+      "コード支援",
+      "スマートカスタマーサービス",
+      "企業ナレッジ管理"
+    ],
+    "es": [
+      "Preguntas y respuestas en chino",
+      "Contenido y marketing",
+      "Generación de imágenes",
+      "Asistencia de código",
+      "Atención al cliente inteligente",
+      "Conocimiento empresarial"
+    ],
+    "fr": [
+      "Questions-réponses en chinois",
+      "Contenu et marketing",
+      "Génération d'images",
+      "Assistance au code",
+      "Service client intelligent",
+      "Connaissances d'entreprise"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Strong Chinese understanding",
+      "Baidu ecosystem integration",
+      "Comprehensive enterprise services",
+      "Stable domestic access"
+    ],
+    "zh": [
+      "中文理解能力强",
+      "百度生态整合",
+      "企业级服务完善",
+      "国内访问稳定"
+    ],
+    "ja": [
+      "優れた中国語理解",
+      "Baidu エコシステム統合",
+      "充実したエンタープライズサービス",
+      "国内での安定したアクセス"
+    ],
+    "es": [
+      "Sólida comprensión del chino",
+      "Integración con el ecosistema de Baidu",
+      "Servicios empresariales completos",
+      "Acceso nacional estable"
+    ],
+    "fr": [
+      "Bonne compréhension du chinois",
+      "Intégration à l'écosystème Baidu",
+      "Services d'entreprise complets",
+      "Accès national stable"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Limited international recognition",
+      "Multilingual support developing",
+      "Some features paid"
+    ],
+    "zh": [
+      "国际知名度有限",
+      "多语言支持待提升",
+      "部分功能需付费"
+    ],
+    "ja": [
+      "国際的な認知度は限定的",
+      "多言語対応は発展途上",
+      "一部機能は有料"
+    ],
+    "es": [
+      "Reconocimiento internacional limitado",
+      "Soporte multilingüe en desarrollo",
+      "Algunas funciones de pago"
+    ],
+    "fr": [
+      "Notoriété internationale limitée",
+      "Support multilingue en développement",
+      "Certaines fonctions payantes"
+    ]
+  },
+  "latestUpdate": {
+    "en": "2026: ERNIE 5.1 released with upgraded agent, reasoning, knowledge and deep-search capabilities via fully async reinforcement learning",
+    "zh": "2026年：文心大模型 5.1 发布，采用全异步强化学习，智能体、推理、知识与深度搜索能力全面升级",
+    "ja": "2026年：ERNIE 5.1 を発表。完全非同期の強化学習により、エージェント・推論・知識・ディープサーチの能力を全面的に強化",
+    "es": "2026: se lanza ERNIE 5.1 con capacidades mejoradas de agente, razonamiento, conocimiento y búsqueda profunda mediante aprendizaje por refuerzo totalmente asíncrono",
+    "fr": "2026 : lancement d'ERNIE 5.1 avec des capacités améliorées d'agent, de raisonnement, de connaissances et de recherche approfondie grâce à un apprentissage par renforcement entièrement asynchrone"
+  },
+  "verdict": {
+    "badge": "Worth Trying",
+    "headline": {
+      "en": "Baidu's AI assistant with deep integration into China's search and content ecosystem.",
+      "zh": "百度AI助手，深度融入中国搜索与内容生态。",
+      "ja": "中国の検索・コンテンツエコシステムに深く統合されたBaiduのAIアシスタント。",
+      "es": "El asistente IA de Baidu con integración profunda en el ecosistema de búsqueda chino.",
+      "fr": "L'assistant IA de Baidu intégré à l'écosystème de recherche et de contenu chinois."
+    },
+    "body": {
+      "en": "Wenxin (文心助手) leverages Baidu's decades of Chinese-language data and search infrastructure. It handles Chinese content tasks well—writing, summarization, and search-related queries benefit from Baidu's knowledge graph and web index.\n\nHowever, its reasoning and coding capabilities trail behind DeepSeek and Qwen. It's most useful for users who already rely on Baidu's ecosystem and need AI assistance that connects naturally to Baidu Search, Baidu Docs, and related services.",
+      "zh": "文心助手依托百度数十年的中文数据和搜索基础设施。在中文内容任务上表现出色——写作、摘要和搜索类查询受益于百度的知识图谱和网页索引。\n\n不过其推理和编程能力落后于 DeepSeek 和 Qwen。对已经依赖百度生态、需要与百度搜索和百度文库等服务自然连接的AI辅助的用户最有价值。",
+      "ja": "文心助手はBaiduの数十年にわたる中国語データと検索インフラを活用しています。中国語コンテンツタスク——執筆、要約、検索関連クエリはBaiduのナレッジグラフとWebインデックスの恩恵を受けます。\n\nただし推論とコーディング能力はDeepSeekやQwenに後れを取ります。Baiduエコシステムに依存し、Baidu検索やBaiduドキュメントと自然に連携するAI支援が必要なユーザーに最適です。",
+      "es": "Wenxin aprovecha décadas de datos en chino e infraestructura de búsqueda de Baidu. Maneja bien tareas de contenido chino—escritura, resumen y consultas de búsqueda se benefician del grafo de conocimiento de Baidu.\n\nSin embargo, sus capacidades de razonamiento y codificación van por detrás de DeepSeek y Qwen. Es más útil para usuarios que ya dependen del ecosistema Baidu y necesitan asistencia IA conectada naturalmente a Baidu Search.",
+      "fr": "Wenxin exploite des décennies de données chinoises et l'infrastructure de recherche de Baidu. Il gère bien les tâches de contenu chinois—rédaction, résumé et requêtes de recherche profitent du graphe de connaissances de Baidu.\n\nCependant, ses capacités de raisonnement et de codage sont en retrait par rapport à DeepSeek et Qwen. Plus utile pour les utilisateurs déjà dans l'écosystème Baidu nécessitant une IA connectée à Baidu Search."
+    },
+    "bestFor": {
+      "en": [
+        "Chinese content creation within Baidu ecosystem",
+        "Search-integrated Q&A in Chinese",
+        "Users already using Baidu services"
+      ],
+      "zh": [
+        "百度生态内的中文内容创作",
+        "结合搜索的中文问答",
+        "已经使用百度服务的用户"
+      ],
+      "ja": [
+        "Baiduエコシステム内での中国語コンテンツ作成",
+        "検索統合型中国語Q&A",
+        "すでにBaiduサービスを利用しているユーザー"
+      ],
+      "es": [
+        "Creación de contenido chino dentro del ecosistema Baidu",
+        "Q&A integrado con búsqueda en chino",
+        "Usuarios que ya usan servicios de Baidu"
+      ],
+      "fr": [
+        "Création de contenu chinois dans l'écosystème Baidu",
+        "Q&R intégré à la recherche en chinois",
+        "Utilisateurs déjà dans les services Baidu"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You need stronger reasoning or coding (→ DeepSeek, Qwen)",
+        "You want ecosystem-independent Chinese AI (→ Kimi, Doubao)"
+      ],
+      "zh": [
+        "需要更强的推理或编程能力（→ DeepSeek、Qwen）",
+        "需要不依赖特定生态的中文AI（→ Kimi、豆包）"
+      ],
+      "ja": [
+        "より強い推論やコーディングが必要な場合（→ DeepSeek、Qwen）",
+        "エコシステムに依存しない中国語AIが必要な場合（→ Kimi、Doubao）"
+      ],
+      "es": [
+        "Necesitas razonamiento o codificación más fuerte (→ DeepSeek, Qwen)",
+        "Quieres IA china independiente de ecosistema (→ Kimi, Doubao)"
+      ],
+      "fr": [
+        "Vous avez besoin de raisonnement ou codage plus fort (→ DeepSeek, Qwen)",
+        "Vous voulez une IA chinoise indépendante d'écosystème (→ Kimi, Doubao)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-27",
+    "verdictDate": "2026-07-27",
+    "pricingVerified": "2026-07-27"
+  }
+}

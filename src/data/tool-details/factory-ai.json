@@ -1,0 +1,234 @@
+{
+  "features": {
+    "en": [
+      "Droids: autonomous AI agents that code, test, review and deploy",
+      "droid CLI tops Terminal-Bench (63.1%), the leading terminal-agent benchmark",
+      "Works everywhere: terminal, IDE, Slack, Linear and the browser",
+      "Bring your own model — Claude, GPT, Gemini or open models via BYOK",
+      "Deep codebase understanding across large enterprise monorepos",
+      "Enterprise controls: SSO, audit logs and self-hosted options"
+    ],
+    "zh": [
+      "Droids：自主编码、测试、审查与部署的 AI 智能体",
+      "droid CLI 居 Terminal-Bench 榜首（63.1%），终端智能体权威基准",
+      "多入口作业：终端、IDE、Slack、Linear 与浏览器",
+      "自带模型——经 BYOK 使用 Claude、GPT、Gemini 或开源模型",
+      "对大型企业 monorepo 的深度代码库理解",
+      "企业级管控：SSO、审计日志与自托管选项"
+    ],
+    "ja": [
+      "Droids：コーディング、テスト、レビュー、デプロイを自律実行するAIエージェント",
+      "droid CLIはターミナルエージェント指標Terminal-Benchで首位（63.1%）",
+      "ターミナル、IDE、Slack、Linear、ブラウザのどこからでも作業可能",
+      "BYOKでClaude、GPT、Gemini、オープンモデルなど任意のモデルを持ち込み",
+      "大規模エンタープライズモノレポの深いコードベース理解",
+      "エンタープライズ管理：SSO、監査ログ、セルフホストオプション"
+    ],
+    "es": [
+      "Droids: agentes IA autónomos que programan, prueban, revisan y despliegan",
+      "droid CLI lidera Terminal-Bench (63,1%), el benchmark de agentes de terminal",
+      "Funciona en todas partes: terminal, IDE, Slack, Linear y el navegador",
+      "Trae tu propio modelo: Claude, GPT, Gemini o modelos abiertos vía BYOK",
+      "Comprensión profunda del código en grandes monorepos empresariales",
+      "Controles enterprise: SSO, registros de auditoría y opciones autoalojadas"
+    ],
+    "fr": [
+      "Droids : agents IA autonomes qui codent, testent, relisent et déploient",
+      "droid CLI en tête de Terminal-Bench (63,1 %), le benchmark des agents terminal",
+      "Fonctionne partout : terminal, IDE, Slack, Linear et navigateur",
+      "Apportez votre propre modèle — Claude, GPT, Gemini ou modèles ouverts via BYOK",
+      "Compréhension profonde du code sur les grands monorepos d'entreprise",
+      "Contrôles entreprise : SSO, journaux d'audit et options auto-hébergées"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Free tier with bring-your-own-key (BYOK): use the droid CLI with your own model API keys at no platform cost",
+      "zh": "免费档支持自带密钥（BYOK）：用自己的模型 API 密钥使用 droid CLI，平台不收费",
+      "ja": "BYOK（自前キー持ち込み）の無料枠：自分のモデルAPIキーでdroid CLIをプラットフォーム費用なしで利用可能",
+      "es": "Nivel gratuito con tu propia clave (BYOK): usa la CLI droid con tus claves API de modelos sin coste de plataforma",
+      "fr": "Offre gratuite avec vos propres clés (BYOK) : utilisez la CLI droid avec vos clés API de modèles sans frais de plateforme"
+    },
+    "paid": {
+      "en": "Pro from $20/month with bundled tokens; higher tiers run $200–2,000/month for teams, overage around $2.7 per million tokens",
+      "zh": "Pro 20 美元/月起含代币额度；团队高档为 200–2000 美元/月，超量约 2.7 美元/百万代币",
+      "ja": "Proは月額20ドルからでトークン込み。チーム向け上位プランは月額200〜2,000ドル、超過分は100万トークンあたり約2.7ドル",
+      "es": "Pro desde 20 $/mes con tokens incluidos; niveles superiores de 200–2000 $/mes para equipos, exceso a ~2,7 $ por millón de tokens",
+      "fr": "Pro dès 20 $/mois avec jetons inclus ; paliers supérieurs de 200 à 2 000 $/mois pour les équipes, dépassement à ~2,7 $ par million de jetons"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Delegating well-scoped coding tasks to autonomous agents",
+      "Large-scale refactors and migrations across big codebases",
+      "Automating incident response and ticket-to-PR workflows",
+      "Enterprise teams standardizing on agent-driven development"
+    ],
+    "zh": [
+      "把边界清晰的编码任务委派给自主智能体",
+      "跨大型代码库的大规模重构与迁移",
+      "自动化事故响应与工单到 PR 的工作流",
+      "在智能体驱动开发上做标准化的企业团队"
+    ],
+    "ja": [
+      "範囲が明確なコーディングタスクの自律エージェントへの委任",
+      "大規模コードベースを横断するリファクタリングと移行",
+      "インシデント対応やチケットからPRまでのワークフロー自動化",
+      "エージェント駆動開発を標準化するエンタープライズチーム"
+    ],
+    "es": [
+      "Delegar tareas de programación bien acotadas a agentes autónomos",
+      "Refactorizaciones y migraciones a gran escala en grandes bases de código",
+      "Automatizar respuesta a incidentes y flujos de ticket a PR",
+      "Equipos enterprise estandarizando el desarrollo dirigido por agentes"
+    ],
+    "fr": [
+      "Déléguer des tâches de codage bien cadrées à des agents autonomes",
+      "Refactorisations et migrations à grande échelle sur de grandes bases de code",
+      "Automatiser la réponse aux incidents et les workflows ticket-vers-PR",
+      "Équipes entreprise standardisant le développement piloté par agents"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Benchmark-leading autonomous coding: #1 on Terminal-Bench",
+      "Model-agnostic BYOK approach avoids vendor lock-in",
+      "Meets developers where they work: CLI, IDE, Slack, Linear",
+      "Built for enterprise scale, not just demos"
+    ],
+    "zh": [
+      "自主编码基准领先：Terminal-Bench 第一名",
+      "模型无关的 BYOK 路线，避免供应商锁定",
+      "在开发者工作的地方就位：CLI、IDE、Slack、Linear",
+      "面向企业规模而建，不只是演示"
+    ],
+    "ja": [
+      "ベンチマーク首位の自律コーディング：Terminal-Benchで1位",
+      "モデル非依存のBYOKアプローチでベンダーロックインを回避",
+      "CLI、IDE、Slack、Linearなど開発者の仕事場に寄り添う",
+      "デモではなくエンタープライズ規模のために構築"
+    ],
+    "es": [
+      "Codificación autónoma líder en benchmarks: n.º 1 en Terminal-Bench",
+      "El enfoque BYOK agnóstico de modelos evita el lock-in",
+      "Está donde trabajan los desarrolladores: CLI, IDE, Slack, Linear",
+      "Construido para escala enterprise, no solo demos"
+    ],
+    "fr": [
+      "Codage autonome en tête des benchmarks : n° 1 sur Terminal-Bench",
+      "L'approche BYOK indépendante du modèle évite le verrouillage fournisseur",
+      "Présent là où travaillent les développeurs : CLI, IDE, Slack, Linear",
+      "Conçu pour l'échelle entreprise, pas seulement pour les démos"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Team pricing climbs steeply — up to $2,000/month tiers",
+      "Autonomous agents still need careful review on critical code",
+      "Less mindshare than Claude Code or Cursor among individuals",
+      "Fine-tuning agent behavior takes onboarding effort"
+    ],
+    "zh": [
+      "团队定价爬升很快——最高达 2000 美元/月档位",
+      "自主智能体在关键代码上仍需仔细审查",
+      "在个人开发者中的声量不及 Claude Code 或 Cursor",
+      "调校智能体行为需要一定上手成本"
+    ],
+    "ja": [
+      "チーム向け価格は急上昇し、月額2,000ドルのプランまで存在",
+      "自律エージェントでも重要コードは慎重なレビューが必要",
+      "個人開発者の間ではClaude CodeやCursorほどの知名度はない",
+      "エージェント挙動の調整にはオンボーディングの手間がかかる"
+    ],
+    "es": [
+      "Los precios de equipo escalan mucho: hasta niveles de 2000 $/mes",
+      "Los agentes autónomos aún requieren revisión cuidadosa en código crítico",
+      "Menos popularidad que Claude Code o Cursor entre individuos",
+      "Ajustar el comportamiento del agente requiere esfuerzo de adaptación"
+    ],
+    "fr": [
+      "Les tarifs équipe grimpent vite — jusqu'à des paliers de 2 000 $/mois",
+      "Les agents autonomes exigent encore une relecture attentive du code critique",
+      "Moins de notoriété que Claude Code ou Cursor chez les particuliers",
+      "Le réglage du comportement des agents demande un effort d'adaptation"
+    ]
+  },
+  "latestUpdate": {
+    "en": "2026: Factory's droid CLI holds the #1 spot on Terminal-Bench at 63.1%, and the platform expands from terminal and IDE into Slack, Linear and browser entry points with BYOM support",
+    "zh": "2026 年：Factory 的 droid CLI 以 63.1% 稳居 Terminal-Bench 榜首，平台从终端与 IDE 扩展到 Slack、Linear 与浏览器入口，并支持自带模型（BYOM）",
+    "ja": "2026年：Factoryのdroid CLIは63.1%でTerminal-Bench首位を維持。プラットフォームはターミナルとIDEからSlack、Linear、ブラウザへ拡大し、BYOMにも対応",
+    "es": "2026: la CLI droid de Factory mantiene el n.º 1 en Terminal-Bench con 63,1%, y la plataforma se expande del terminal e IDE hacia Slack, Linear y el navegador con soporte BYOM",
+    "fr": "2026 : la CLI droid de Factory conserve la 1re place de Terminal-Bench à 63,1 %, et la plateforme s'étend du terminal et de l'IDE vers Slack, Linear et le navigateur avec support BYOM"
+  },
+  "verdict": {
+    "badge": "Worth Trying",
+    "headline": {
+      "en": "The enterprise bet on fully autonomous coding agents",
+      "zh": "企业级全自主编码智能体的一注",
+      "ja": "完全自律型コーディングエージェントへのエンタープライズの賭け",
+      "es": "La apuesta enterprise por agentes de código totalmente autónomos",
+      "fr": "Le pari entreprise des agents de codage totalement autonomes"
+    },
+    "body": {
+      "en": "While Cursor and Claude Code refine the pair-programming loop, Factory is betting on delegation: hand a Droid a ticket and get back a tested pull request. The Terminal-Bench crown (63.1%) shows the agents are genuinely capable, and the BYOK free tier makes trying it low-risk. The catch is economics and trust — team pricing escalates fast, and letting agents ship code autonomously still demands mature review practices. Ambitious teams should pilot it; individuals may find better value in Claude Code.",
+      "zh": "当 Cursor 和 Claude Code 还在打磨结对编程闭环时，Factory 押注的是委派：把工单交给 Droid，收回一个测试过的 Pull Request。Terminal-Bench 榜首（63.1%）证明其智能体确有实力，BYOK 免费档也让试用几乎零风险。问题在于经济账与信任——团队定价攀升很快，而让智能体自主交付代码仍需要成熟的审查流程。有野心的团队值得试点；个人开发者可能在 Claude Code 上找到更高性价比。",
+      "ja": "CursorやClaude Codeがペアプログラミングのループを磨く一方、Factoryは委任に賭けている。Droidにチケットを渡せば、テスト済みのプルリクエストが返ってくる。Terminal-Bench首位（63.1%）はエージェントの実力を証明し、BYOK無料枠のおかげで試すリスクも低い。課題は経済性と信頼だ。チーム向け価格は急上昇し、エージェントに自律的なコード出荷を任せるには成熟したレビュー体制が要る。野心的なチームは試験導入すべきだが、個人はClaude Codeの方が割に合うかもしれない。",
+      "es": "Mientras Cursor y Claude Code refinan el bucle de pair programming, Factory apuesta por la delegación: entrega un ticket a un Droid y recibe un pull request probado. La corona de Terminal-Bench (63,1%) demuestra que los agentes son realmente capaces, y el nivel gratuito BYOK hace que probarlo sea de bajo riesgo. El problema es la economía y la confianza: los precios de equipo escalan rápido, y dejar que los agentes publiquen código autónomamente aún exige prácticas de revisión maduras. Los equipos ambiciosos deberían pilotarlo; los individuos quizá encuentren mejor valor en Claude Code.",
+      "fr": "Pendant que Cursor et Claude Code peaufinent la boucle de pair programming, Factory parie sur la délégation : confiez un ticket à un Droid et récupérez une pull request testée. La couronne de Terminal-Bench (63,1 %) prouve que les agents sont réellement capables, et l'offre gratuite BYOK rend l'essai peu risqué. Le hic : l'économie et la confiance — les tarifs équipe grimpent vite, et laisser des agents livrer du code de façon autonome exige encore des pratiques de revue matures. Les équipes ambitieuses devraient le tester ; les particuliers trouveront peut-être un meilleur rapport qualité-prix avec Claude Code."
+    },
+    "bestFor": {
+      "en": [
+        "Engineering teams delegating scoped tasks to autonomous agents",
+        "Enterprises running large-scale refactors and migrations",
+        "Developers wanting the top Terminal-Bench agent in their CLI"
+      ],
+      "zh": [
+        "把边界清晰任务委派给自主智能体的工程团队",
+        "进行大规模重构与迁移的企业",
+        "想在 CLI 里用上 Terminal-Bench 冠军智能体的开发者"
+      ],
+      "ja": [
+        "範囲明確なタスクを自律エージェントに委任するエンジニアリングチーム",
+        "大規模リファクタリングと移行を行うエンタープライズ",
+        "CLIでTerminal-Bench首位のエージェントを使いたい開発者"
+      ],
+      "es": [
+        "Equipos de ingeniería delegando tareas acotadas a agentes autónomos",
+        "Empresas ejecutando refactorizaciones y migraciones a gran escala",
+        "Desarrolladores que quieren el mejor agente de Terminal-Bench en su CLI"
+      ],
+      "fr": [
+        "Équipes d'ingénierie déléguant des tâches cadrées à des agents autonomes",
+        "Entreprises menant des refactorisations et migrations à grande échelle",
+        "Développeurs voulant le meilleur agent Terminal-Bench dans leur CLI"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You want an interactive pair-programming CLI (→ Claude Code)",
+        "You prefer a free, open-source local agent (→ Goose, OpenHands)"
+      ],
+      "zh": [
+        "你想要交互式结对编程 CLI（→ Claude Code）",
+        "你更想要免费开源的本地智能体（→ Goose、OpenHands）"
+      ],
+      "ja": [
+        "対話的なペアプログラミングCLIが欲しい（→ Claude Code）",
+        "無料でオープンソースのローカルエージェントが好み（→ Goose、OpenHands）"
+      ],
+      "es": [
+        "Quieres una CLI interactiva de pair programming (→ Claude Code)",
+        "Prefieres un agente local gratuito y open source (→ Goose, OpenHands)"
+      ],
+      "fr": [
+        "Vous voulez une CLI interactive de pair programming (→ Claude Code)",
+        "Vous préférez un agent local gratuit et open source (→ Goose, OpenHands)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-27",
+    "verdictDate": "2026-07-27",
+    "pricingVerified": "2026-07-27"
+  }
+}

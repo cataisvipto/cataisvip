@@ -1,0 +1,283 @@
+{
+  "summary": {
+    "en": "OpenClaw is an open-source personal AI assistant that runs on your own infrastructure and connects via WhatsApp, Telegram, Discord, Slack and 12+ messaging platforms. It can execute commands, browse the web, manage files, and automate tasks autonomously.",
+    "zh": "OpenClaw 是一款开源自托管的个人 AI 助手，通过 WhatsApp、Telegram、Discord、Slack 等 12+ 即时通讯平台交互。它能自主执行命令、浏览网页、操作文件、自动化工作流，让 AI 真正成为你的数字员工。",
+    "ja": "OpenClawは、セルフホスティング型のオープンソース個人AIアシスタントです。WhatsApp、Telegram、Discord、Slackなど12以上のメッセージングプラットフォームに対応し、コマンド実行、Web閲覧、ファイル操作、タスク自動化を自律的に行います。",
+    "es": "OpenClaw es un asistente personal de IA de código abierto autoalojado que se conecta a través de WhatsApp, Telegram, Discord, Slack y más de 12 plataformas de mensajería. Ejecuta comandos, navega por la web, gestiona archivos y automatiza tareas de forma autónoma.",
+    "fr": "OpenClaw est un assistant IA personnel open-source auto-hébergé qui se connecte via WhatsApp, Telegram, Discord, Slack et plus de 12 plateformes de messagerie. Il exécute des commandes, navigue sur le Web, gère des fichiers et automatise des tâches de manière autonome."
+  },
+  "features": {
+    "en": [
+      "Self-hosted AI agent on your own infrastructure",
+      "12+ messaging platform support (WhatsApp, Telegram, Discord, Slack, etc.)",
+      "Autonomous command execution and file system access",
+      "Web browsing and information retrieval",
+      "Heartbeat background agent for proactive task execution",
+      "Long-term memory system via AGENTS.md, SOUL.md, MEMORY.md",
+      "Cron scheduling for automated recurring tasks",
+      "Multi-platform clients (macOS, iOS, Android, Windows, Linux)"
+    ],
+    "zh": [
+      "自托管 AI 智能体，数据完全掌控",
+      "支持 WhatsApp、Telegram、Discord、Slack 等 12+ 平台",
+      "自主执行终端命令和文件系统操作",
+      "网页浏览与信息抓取",
+      "Heartbeat 后台心跳主动执行任务",
+      "通过 AGENTS.md/SOUL.md/MEMORY.md 长期记忆系统",
+      "Cron 定时任务调度",
+      "多平台客户端（macOS、iOS、Android、Windows、Linux）"
+    ],
+    "ja": [
+      "セルフホスティングAIエージェント",
+      "12以上のメッセージングプラットフォーム対応",
+      "自律的なコマンド実行とファイルシステムアクセス",
+      "Web閲覧と情報収集",
+      "Heartbeatによるプロアクティブなタスク実行",
+      "AGENTS.md/SOUL.md/MEMORY.mdによる長期記憶",
+      "Cronスケジューリングによる自動化",
+      "マルチプラットフォーム対応"
+    ],
+    "es": [
+      "Agente IA autoalojado en tu propia infraestructura",
+      "Soporte para más de 12 plataformas de mensajería",
+      "Ejecución autónoma de comandos y acceso al sistema de archivos",
+      "Navegación web y recuperación de información",
+      "Heartbeat para ejecución proactiva de tareas",
+      "Sistema de memoria a largo plazo",
+      "Programación Cron para tareas recurrentes",
+      "Clientes multi-plataforma"
+    ],
+    "fr": [
+      "Agent IA auto-hébergé sur votre propre infrastructure",
+      "Support de plus de 12 plateformes de messagerie",
+      "Exécution autonome de commandes et accès au système de fichiers",
+      "Navigation Web et récupération d'informations",
+      "Heartbeat pour l'exécution proactive de tâches",
+      "Système de mémoire à long terme",
+      "Planification Cron pour tâches récurrentes",
+      "Clients multi-plateformes"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Open-source and completely free",
+      "zh": "开源完全免费",
+      "ja": "オープンソースで完全無料",
+      "es": "Código abierto y completamente gratuito",
+      "fr": "Open-source et entièrement gratuit"
+    },
+    "pro": {
+      "en": "Self-hosted: ~$5-50/mo for VPS",
+      "zh": "自托管：VPS 约 $5-50/月",
+      "ja": "セルフホスティング：VPS約$5-50/月",
+      "es": "Autoalojado: ~$5-50/mes para VPS",
+      "fr": "Auto-hébergé : ~$5-50/mois pour VPS"
+    },
+    "enterprise": {
+      "en": "API usage costs vary by model",
+      "zh": "模型 API 调用费用按量计费",
+      "ja": "モデルAPIの利用料は従量課金",
+      "es": "Los costos de API varían según el modelo",
+      "fr": "Les coûts d'API varient selon le modèle"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Personal inbox management and email automation",
+      "Schedule management and smart reminders",
+      "Information aggregation and news monitoring",
+      "Personal knowledge base and note-taking",
+      "Automated workflow and file management",
+      "Development assistance and code review"
+    ],
+    "zh": [
+      "个人收件箱管理与邮件自动化",
+      "日程管理与智能提醒",
+      "信息聚合与新闻监控",
+      "个人知识库与笔记管理",
+      "自动化工作流与文件管理",
+      "开发辅助与代码审查"
+    ],
+    "ja": [
+      "個人受信箱管理とメール自動化",
+      "スケジュール管理とスマートリマインダー",
+      "情報集約とニュース監視",
+      "個人ナレッジベースとメモ管理",
+      "自動化ワークフローとファイル管理",
+      "開発支援とコードレビュー"
+    ],
+    "es": [
+      "Gestión de bandeja de entrada y automatización de correo",
+      "Gestión de horarios y recordatorios inteligentes",
+      "Agregación de información y monitoreo de noticias",
+      "Base de conocimiento personal y toma de notas",
+      "Flujo de trabajo automatizado y gestión de archivos",
+      "Asistencia de desarrollo y revisión de código"
+    ],
+    "fr": [
+      "Gestion de la boîte de réception et automatisation des emails",
+      "Gestion du calendrier et rappels intelligents",
+      "Agrégation d'informations et veille d'actualités",
+      "Base de connaissances personnelle et prise de notes",
+      "Flux de travail automatisé et gestion de fichiers",
+      "Assistance au développement et révision de code"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Completely open-source and free",
+      "Full data control with self-hosting",
+      "12+ messaging platform support",
+      "Proactive AI with background tasks",
+      "Highly customizable via config files",
+      "Active community development"
+    ],
+    "zh": [
+      "完全开源免费",
+      "自托管，数据完全掌控",
+      "支持 12+ 即时通讯平台",
+      "主动式 AI，后台执行任务",
+      "通过配置文件高度自定义",
+      "社区活跃，持续更新"
+    ],
+    "ja": [
+      "完全オープンソース無料",
+      "セルフホスティングでデータ完全制御",
+      "12以上のメッセージングプラットフォーム対応",
+      "バックグラウンドでプロアクティブに動作",
+      "設定ファイルによる高度なカスタマイズ",
+      "活発なコミュニティ開発"
+    ],
+    "es": [
+      "Completamente open-source y gratuito",
+      "Control total de datos con autoalojamiento",
+      "Soporte para más de 12 plataformas",
+      "IA proactiva con tareas en segundo plano",
+      "Altamente personalizable",
+      "Comunidad activa en desarrollo"
+    ],
+    "fr": [
+      "Entièrement open-source et gratuit",
+      "Contrôle total des données avec auto-hébergement",
+      "Support de plus de 12 plateformes",
+      "IA proactive avec tâches en arrière-plan",
+      "Hautement personnalisable",
+      "Développement communautaire actif"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Complex setup requiring technical skills",
+      "Self-hosting requires ongoing maintenance",
+      "API costs can add up with heavy usage",
+      "Occasional stability issues",
+      "Limited out-of-the-box functionality"
+    ],
+    "zh": [
+      "安装配置复杂，需要技术基础",
+      "自托管需要持续维护",
+      "模型 API 费用随用量增加",
+      "偶发稳定性问题",
+      "开箱即用功能有限"
+    ],
+    "ja": [
+      "技術的なセットアップが必要",
+      "セルフホスティングの継続的なメンテナンスが必要",
+      "API費用が使用量に応じて増加",
+      "安定性の問題が発生する場合あり",
+      "初期機能が限定的"
+    ],
+    "es": [
+      "Configuración compleja que requiere habilidades técnicas",
+      "El autoalojamiento requiere mantenimiento continuo",
+      "Los costos de API aumentan con el uso intensivo",
+      "Problemas de estabilidad ocasionales",
+      "Funcionalidad limitada lista para usar"
+    ],
+    "fr": [
+      "Configuration complexe nécessitant des compétences techniques",
+      "L'auto-hébergement nécessite une maintenance continue",
+      "Les coûts d'API augmentent avec une utilisation intensive",
+      "Problèmes de stabilité occasionnels",
+      "Fonctionnalité prête à l'emploi limitée"
+    ]
+  },
+  "latestUpdate": {
+    "en": "2026.07: v2026.7.1 released with redesigned Control UI, major iOS/Android/macOS app updates, enhanced remote coding sessions and improved security channel handling",
+    "zh": "2026年7月：v2026.7.1 发布，全面重构 Control UI，iOS/Android/macOS 应用重大更新，增强远程编码会话和安全频道处理",
+    "ja": "2026年7月：v2026.7.1リリース。Control UI全面刷新、iOS/Android/macOSアプリの大幅アップデート、リモートコーディングセッションの強化とセキュリティ改善",
+    "es": "Julio 2026: v2026.7.1 con Control UI rediseñado, grandes actualizaciones de iOS/Android/macOS, sesiones de codificación remota mejoradas y gestión de canales de seguridad optimizada",
+    "fr": "Juillet 2026 : v2026.7.1 avec interface Control repensée, mises à jour majeures des applications iOS/Android/macOS, sessions de codage à distance améliorées et gestion sécurisée des canaux"
+  },
+  "verdict": {
+    "badge": "For Specific Needs",
+    "headline": {
+      "en": "Open-source AI agent framework for building autonomous task-completion systems.",
+      "zh": "用于构建自主任务完成系统的开源AI智能体框架。",
+      "ja": "自律的なタスク完了システムを構築するためのオープンソースAIエージェントフレームワーク。",
+      "es": "Framework de agentes IA de código abierto para construir sistemas autónomos de completado de tareas.",
+      "fr": "Framework d'agents IA open-source pour construire des systèmes autonomes d'exécution de tâches."
+    },
+    "body": {
+      "en": "OpenClaw provides an open-source foundation for building AI agents that can plan and execute multi-step tasks. It's aimed at developers who want to create custom autonomous systems without depending on proprietary agent platforms.\n\nThe project is still maturing, and the community is smaller than established alternatives like LangChain or AutoGPT. Best for developers who value open-source control and are comfortable contributing to an evolving project.",
+      "zh": "OpenClaw提供构建能规划和执行多步骤任务的AI智能体的开源基础。面向想创建自定义自主系统而不依赖专有平台的开发者。\n\n项目仍在成熟中，社区规模小于LangChain或AutoGPT等成熟替代方案。适合重视开源控制且愿意参与演进中项目的开发者。",
+      "ja": "OpenClawはマルチステップタスクを計画・実行できるAIエージェントを構築するオープンソース基盤を提供します。プロプライエタリなプラットフォームに依存せずカスタム自律システムを作りたい開発者向けです。\n\nプロジェクトはまだ成熟中で、コミュニティはLangChainやAutoGPTより小規模です。オープンソースの制御を重視し、進化中のプロジェクトへの貢献に抵抗がない開発者に最適です。",
+      "es": "OpenClaw proporciona una base open-source para construir agentes IA que planifican y ejecutan tareas multi-paso. Dirigido a desarrolladores que quieren crear sistemas autónomos personalizados.\n\nEl proyecto aún está madurando y su comunidad es menor que LangChain o AutoGPT. Ideal para desarrolladores que valoran el control open-source y están cómodos con proyectos en evolución.",
+      "fr": "OpenClaw fournit une base open-source pour construire des agents IA planifiant et exécutant des tâches multi-étapes. Destiné aux développeurs voulant créer des systèmes autonomes sans dépendre de plateformes propriétaires.\n\nLe projet mûrit encore et sa communauté est plus petite que LangChain ou AutoGPT. Idéal pour les développeurs valorisant le contrôle open-source."
+    },
+    "bestFor": {
+      "en": [
+        "Developers building custom AI agents",
+        "Open-source agent system experimentation",
+        "Teams wanting full control over agent logic"
+      ],
+      "zh": [
+        "构建自定义AI智能体的开发者",
+        "开源智能体系统实验",
+        "需要完全控制智能体逻辑的团队"
+      ],
+      "ja": [
+        "カスタムAIエージェントを構築する開発者",
+        "オープンソースエージェントシステムの実験",
+        "エージェントロジックの完全制御が必要なチーム"
+      ],
+      "es": [
+        "Desarrolladores construyendo agentes IA personalizados",
+        "Experimentación con sistemas de agentes open-source",
+        "Equipos que quieren control total sobre la lógica"
+      ],
+      "fr": [
+        "Développeurs construisant des agents IA personnalisés",
+        "Expérimentation de systèmes d'agents open-source",
+        "Équipes voulant un contrôle total sur la logique"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You want a mature agent framework (→ LangChain, AutoGPT)",
+        "You need a no-code agent builder (→ Coze, Dify)"
+      ],
+      "zh": [
+        "需要成熟的智能体框架（→ LangChain、AutoGPT）",
+        "需要无代码智能体构建器（→ Coze、Dify）"
+      ],
+      "ja": [
+        "成熟したエージェントフレームワークが必要な場合（→ LangChain、AutoGPT）",
+        "ノーコードエージェントビルダーが必要な場合（→ Coze、Dify）"
+      ],
+      "es": [
+        "Quieres un framework de agentes maduro (→ LangChain, AutoGPT)",
+        "Necesitas un constructor de agentes sin código (→ Coze, Dify)"
+      ],
+      "fr": [
+        "Vous voulez un framework d'agents mature (→ LangChain, AutoGPT)",
+        "Vous avez besoin d'un constructeur d'agents no-code (→ Coze, Dify)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-27",
+    "verdictDate": "2026-07-27",
+    "pricingVerified": "2026-07-27"
+  }
+}

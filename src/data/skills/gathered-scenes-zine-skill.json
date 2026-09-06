@@ -1,0 +1,74 @@
+{
+  "slug": "gathered-scenes-zine-skill",
+  "name": "Gathered Scenes Zine",
+  "nameZh": "拾景 Zine",
+  "description": "把普通画面变成值得停留的一页：先阅读场景，再选择保留真实现场或蒸馏为新的纸上作品。",
+  "descriptionEn": "Turn ordinary scenes into pages worth stopping for: read the scene first, then choose to preserve the real scene or distill it into a new paper work.",
+  "descriptionJa": "平凡な光景を、一ページ価値のあるものに変える：まず場を読み、真の現場を保持するか、新しい紙上の作品に蒸留するかを選択。",
+  "descriptionEs": "Convierte escenas ordinarias en páginas que valen la pena: lee la escena primero, luego elige preservar la escena real o distilarla en una nueva obra de papel.",
+  "descriptionFr": "Transformez des scènes ordinaires en pages qui méritent qu'on s'y arrête : lisez la scène d'abord, puis choisissez de préserver la scène réelle ou de la distiller en une nouvelle œuvre sur papier.",
+  "developer": "Zeejay0",
+  "developerZh": "Zeejay0（拾景 zine）",
+  "repo": "Zeejay0/gathered-scenes-zine-skill",
+  "agents": [
+    "codex"
+  ],
+  "category": "Design",
+  "tags": [
+    "Free"
+  ],
+  "installCommand": "git clone https://github.com/Zeejay0/gathered-scenes-zine-skill ~/.codex/skills/gathered-scenes-zine-skill",
+  "logo": "/logos/skills/gathered-scenes-zine-skill.png",
+  "stars": 4800,
+  "featured": false,
+  "faqs": [
+    {
+      "question": {
+        "zh": "作者官网？",
+        "en": "Author website?",
+        "ja": "作者サイト？",
+        "es": "¿Web del autor?",
+        "fr": "Site de l'auteur?"
+      },
+      "answer": {
+        "zh": "作者已上线官网 https://zeejayzine.com/（接入 GPT5.6+image2，国内可用）。",
+        "en": "Author's official site https://zeejayzine.com/ (integrated with GPT5.6+image2, usable in domestic China environment).",
+        "ja": "作者公式サイト https://zeejayzine.com/（GPT5.6+image2 対応、国内環境でも利用可能）。",
+        "es": "Sitio oficial https://zeejayzine.com/ (integrado con GPT5.6+image2, usable en China).",
+        "fr": "Site officiel https://zeejayzine.com/ (intégré GPT5.6+image2, utilisable en Chine)."
+      }
+    },
+    {
+      "question": {
+        "zh": "怎么使用？",
+        "en": "How to use?",
+        "ja": "使い方？",
+        "es": "¿Cómo usar?",
+        "fr": "Comment utiliser ?"
+      },
+      "answer": {
+        "zh": "克隆仓库到你的 Codex 技能目录。",
+        "en": "Clone the repo to your Codex skill directory.",
+        "ja": "Codexスキルディレクトリにクローン。",
+        "es": "Clona el repositorio en tu directorio de skills de Codex.",
+        "fr": "Clonez le dépôt dans votre répertoire de skills Codex."
+      }
+    },
+    {
+      "question": {
+        "zh": "支持哪些智能体？",
+        "en": "Which agents?",
+        "ja": "どんなエージェント対応？",
+        "es": "¿Qué agentes?",
+        "fr": "Quels agents ?"
+      },
+      "answer": {
+        "zh": "兼容 Codex、Claude Code、Cursor 等主流编码智能体。",
+        "en": "Compatible with Codex, Claude Code, Cursor and other main coding agents.",
+        "ja": "Codex、Claude Code、Cursor 等の主要コーディングエージェントと互換。",
+        "es": "Compatible con Codex, Claude Code, Cursor y otros agentes de codificación.",
+        "fr": "Compatible avec Codex, Claude Code, Cursor et autres agents de codage principaux."
+      }
+    }
+  ]
+}

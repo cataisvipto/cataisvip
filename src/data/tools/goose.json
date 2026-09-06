@@ -1,0 +1,29 @@
+{
+  "slug": "goose",
+  "name": "Goose",
+  "nameZh": "Goose",
+  "description": "Block 开源的本机通用 AI 智能体（现属 Linux 基金会 AAIF）：桌面端 + CLI + API，Rust 构建，基于 MCP 连接 70+ 扩展",
+  "descriptionEn": "Open-source on-machine AI agent from Block (now under the Linux Foundation's AAIF): desktop app + CLI + API, built in Rust, connects to 70+ extensions via MCP",
+  "descriptionJa": "Block発のオープンソース・オンマシンAIエージェント（現在はLinux Foundation AAIF傘下）。デスクトップ+CLI+API、Rust製、MCP経由で70以上の拡張に接続",
+  "descriptionEs": "Agente IA de código abierto que corre en tu máquina, creado por Block (ahora bajo la AAIF de la Linux Foundation): app de escritorio + CLI + API, hecho en Rust, conecta 70+ extensiones vía MCP",
+  "descriptionFr": "Agent IA open source s'exécutant sur votre machine, créé par Block (désormais sous l'AAIF de la Linux Foundation) : app de bureau + CLI + API, écrit en Rust, connecté à 70+ extensions via MCP",
+  "url": "https://goose-docs.ai",
+  "logo": "/logos/tools/goose.png",
+  "category": "Agent",
+  "tags": [
+    "Free",
+    "Open Source"
+  ],
+  "featured": false,
+  "developer": "Block / AAIF",
+  "platforms": {
+    "web": false,
+    "windows": true,
+    "macos": true,
+    "ios": false,
+    "android": false,
+    "linux": true,
+    "browser_extension": false,
+    "api": true
+  }
+}

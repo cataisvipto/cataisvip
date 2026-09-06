@@ -1,0 +1,244 @@
+{
+  "features": {
+    "en": [
+      "AI full-stack app builder",
+      "Visual editor + AI chat",
+      "Supabase backend",
+      "One-click deploy",
+      "Prompt-to-feature",
+      "React components"
+    ],
+    "zh": [
+      "AI 全栈应用构建",
+      "可视化编辑器+AI 聊天",
+      "Supabase 后端",
+      "一键部署",
+      "提示词到功能",
+      "React 组件"
+    ],
+    "ja": [
+      "AI フルスタック",
+      "ビジュアル+AI",
+      "Supabase 統合",
+      "ワンクリック",
+      "プロンプト→機能",
+      "React 対応"
+    ],
+    "es": [
+      "App full-stack IA",
+      "Editor+chat AI",
+      "Supabase",
+      "1 clic",
+      "Prompt a función",
+      "React"
+    ],
+    "fr": [
+      "App full-stack IA",
+      "Éditeur+chat IA",
+      "Supabase",
+      "1 clic",
+      "Prompt vers fonction",
+      "React"
+    ]
+  },
+  "useCases": {
+    "en": [
+      "Full-stack app dev",
+      "SaaS building",
+      "Prototype with backend",
+      "Internal tools",
+      "MVP creation"
+    ],
+    "zh": [
+      "全栈开发",
+      "SaaS 构建",
+      "带后端原型",
+      "内部工具",
+      "MVP"
+    ],
+    "ja": [
+      "フルスタック",
+      "SaaS アプリ開発",
+      "プロトタイプ",
+      "社内ツール",
+      "MVP"
+    ],
+    "es": [
+      "Full-stack",
+      "SaaS",
+      "Prototipo con backend",
+      "Herramientas",
+      "MVP"
+    ],
+    "fr": [
+      "Full-stack",
+      "SaaS",
+      "Prototypage backend",
+      "Outils internes",
+      "MVP"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Full-stack + backend",
+      "Visual + AI",
+      "Supabase integration",
+      "Fast deploy"
+    ],
+    "zh": [
+      "全栈+后端",
+      "可视化+AI",
+      "Supabase 集成",
+      "快速部署"
+    ],
+    "ja": [
+      "フルスタック",
+      "ビジュアルAI",
+      "Supabase 統合",
+      "高速デプロイ"
+    ],
+    "es": [
+      "Full-stack+backend",
+      "Visual+IA",
+      "Supabase",
+      "Rápido"
+    ],
+    "fr": [
+      "Full-stack+backend",
+      "Visuel+IA",
+      "Supabase",
+      "Déploiement rapide"
+    ]
+  },
+  "cons": {
+    "en": [
+      "More expensive",
+      "Vendor lock-in (Supabase)",
+      "Limited tech stack"
+    ],
+    "zh": [
+      "价格较高",
+      "Supabase 绑定",
+      "技术栈有限"
+    ],
+    "ja": [
+      "高価",
+      "Supabase 依存",
+      "技術限定的"
+    ],
+    "es": [
+      "Más caro",
+      "Dependencia Supabase",
+      "Stack limitado"
+    ],
+    "fr": [
+      "Plus cher",
+      "Dépendance Supabase",
+      "Stack limité"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Free tier for testing",
+      "zh": "免费测试",
+      "ja": "無料テスト",
+      "es": "Prueba gratis",
+      "fr": "Test gratuit"
+    },
+    "pro": {
+      "en": "From $38/month",
+      "zh": "从 $38/月",
+      "ja": "月額38ドルから",
+      "es": "Desde 38$/mes",
+      "fr": "À partir de 38$/mois"
+    }
+  },
+  "latestUpdate": {
+    "en": "2026: Lovable enhances Supabase integration",
+    "zh": "2026年：Lovable 增强 Supabase 集成",
+    "ja": "2026年：Lovable が Supabase 統合強化",
+    "es": "2026: Lovable mejora integración Supabase",
+    "fr": "2026 : Lovable améliore l'intégration Supabase"
+  },
+  "verdict": {
+    "badge": "Recommended",
+    "headline": {
+      "en": "Describe your app idea in plain language and get a production-quality React application — designed for non-developers.",
+      "zh": "用自然语言描述应用想法，获得生产级React应用——为非开发者设计。",
+      "ja": "アプリのアイデアを自然言語で説明するだけで本番品質のReactアプリを取得。",
+      "es": "Describe tu idea de app y obtén una aplicación React de calidad producción.",
+      "fr": "Décrivez votre idée d'app et obtenez une application React de qualité production."
+    },
+    "body": {
+      "en": "Lovable generates complete, deployable React applications from natural language descriptions. The output is genuinely production-ready: responsive design, proper component architecture, authentication flows, and database integration via Supabase.\n\nThe target user is someone with a clear app idea but without development skills. Product managers, entrepreneurs, or small businesses can go from idea to live application in hours rather than weeks.\n\nThe constraint is that you're working within Lovable's architectural decisions. For highly custom UIs or unusual technical requirements, you'll eventually need developer involvement.",
+      "zh": "Lovable从自然语言描述生成完整的、可部署的React应用。输出是真正的生产就绪：响应式设计、正确组件架构、认证流程和Supabase数据库集成。\n\n目标用户是有清晰应用想法但缺乏开发技能的人。产品经理、创业者可以在数小时内从想法到上线。\n\n约束在于你在Lovable做出的架构决策内工作。对于高度自定义的需求，最终需要开发者参与。",
+      "ja": "Lovableは自然言語の説明から完全でデプロイ可能なReactアプリを生成します。本番対応です。\n\nターゲットユーザーは明確なアプリアイデアはあるが開発スキルがない人です。\n\n制約はLovableのアーキテクチャ決定の中で作業すること。",
+      "es": "Lovable genera aplicaciones React completas desde descripciones en lenguaje natural. El resultado es listo para producción.\n\nEl usuario objetivo es alguien con una idea clara pero sin habilidades de desarrollo.\n\nLa restricción es que trabajas dentro de las decisiones de arquitectura de Lovable.",
+      "fr": "Lovable génère des applications React complètes à partir de descriptions en langage naturel. Prêt pour la production.\n\nL'utilisateur cible est quelqu'un avec une idée claire mais sans compétences de développement.\n\nLa contrainte est que vous travaillez dans les décisions d'architecture de Lovable."
+    },
+    "bestFor": {
+      "en": [
+        "Non-developers who need real, deployable web applications",
+        "MVP validation and rapid product prototyping",
+        "Internal business tools from plain-language specs",
+        "Entrepreneurs testing ideas before hiring a dev team"
+      ],
+      "zh": [
+        "需要真实可部署Web应用的非开发者",
+        "MVP验证和快速产品原型",
+        "从自然语言规格构建的内部工具",
+        "在招聘开发团队前测试想法的创业者"
+      ],
+      "ja": [
+        "デプロイ可能なWebアプリが必要な非開発者",
+        "MVP検証と高速プロトタイピング",
+        "自然言語仕様から構築する社内ツール",
+        "開発チーム採用前にアイデアをテストする起業家"
+      ],
+      "es": [
+        "No-desarrolladores que necesitan apps reales",
+        "Validación de MVP y prototipado rápido",
+        "Herramientas internas desde specs en lenguaje natural",
+        "Emprendedores probando ideas"
+      ],
+      "fr": [
+        "Non-développeurs ayant besoin d'apps déployables",
+        "Validation de MVP et prototypage rapide",
+        "Outils internes à partir de specs en langage naturel",
+        "Entrepreneurs testant des idées"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You're a developer who wants full code control (→ Cursor, Bolt.new)",
+        "You need highly custom designs or branding (→ Figma + custom development)",
+        "Your app requires complex backend logic beyond CRUD (→ traditional dev + Claude Code)"
+      ],
+      "zh": [
+        "你是想要完全代码控制的开发者（→ Cursor、Bolt.new）",
+        "你需要高度自定义设计或品牌化（→ Figma + 定制开发）",
+        "你的应用需要超越CRUD的复杂后端逻辑（→ 传统开发 + Claude Code）"
+      ],
+      "ja": [
+        "完全なコード制御が欲しい開発者の場合（→ Cursor、Bolt.new）",
+        "高度にカスタムなデザインが必要な場合（→ Figma + カスタム開発）",
+        "CRUDを超える複雑なバックエンドが必要な場合（→ 従来開発 + Claude Code）"
+      ],
+      "es": [
+        "Eres desarrollador y quieres control total (→ Cursor, Bolt.new)",
+        "Necesitas diseños altamente personalizados (→ Figma + desarrollo custom)",
+        "Tu app requiere lógica backend compleja (→ desarrollo tradicional + Claude Code)"
+      ],
+      "fr": [
+        "Vous êtes développeur et voulez un contrôle total (→ Cursor, Bolt.new)",
+        "Vous avez besoin de designs hautement personnalisés (→ Figma + dev custom)",
+        "Votre app nécessite une logique backend complexe (→ dev traditionnel + Claude Code)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-27",
+    "verdictDate": "2026-07-27",
+    "pricingVerified": "2026-07-27"
+  }
+}

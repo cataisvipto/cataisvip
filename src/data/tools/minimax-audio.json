@@ -1,0 +1,30 @@
+{
+  "slug": "minimax-audio",
+  "name": "MiniMax Audio",
+  "nameZh": "MiniMax语音",
+  "description": "MiniMax 旗下语音生成平台，Speech 系列模型支持 40+ 语言的超拟真 TTS 与 10 秒级声音克隆，情绪与音效标签可控，网页版免费试用",
+  "descriptionEn": "MiniMax's voice generation platform. The Speech model family delivers hyper-realistic TTS in 40+ languages with 10-second voice cloning, controllable emotion and sound-effect tags, and a free web trial",
+  "descriptionJa": "MiniMax傘下の音声生成プラットフォーム。Speechシリーズモデルは40以上の言語で超リアルなTTSと約10秒のサンプルによる声のクローンに対応。感情や効果音タグの制御が可能で、Web版は無料で試用できる",
+  "descriptionEs": "Plataforma de generación de voz de MiniMax. La familia de modelos Speech ofrece TTS hiperrealista en más de 40 idiomas con clonación de voz de 10 segundos, etiquetas controlables de emoción y efectos, y prueba web gratuita",
+  "descriptionFr": "Plateforme de génération vocale de MiniMax. La famille de modèles Speech offre une TTS hyper-réaliste dans plus de 40 langues avec clonage de voix en 10 secondes, des balises d'émotion et d'effets sonores contrôlables, et un essai web gratuit",
+  "url": "https://www.minimax.io/audio",
+  "logo": "/logos/tools/minimax-audio.png",
+  "category": "Audio",
+  "tags": [
+    "Freemium",
+    "API"
+  ],
+  "featured": false,
+  "developer": "MiniMax",
+  "developerZh": "MiniMax（稀宇科技）",
+  "platforms": {
+    "web": true,
+    "windows": false,
+    "macos": false,
+    "ios": false,
+    "android": false,
+    "linux": false,
+    "browser_extension": false,
+    "api": true
+  }
+}

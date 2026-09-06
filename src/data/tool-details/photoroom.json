@@ -1,0 +1,235 @@
+{
+  "features": {
+    "en": [
+      "One-tap background removal tuned for product photography",
+      "Instant Backgrounds place products into realistic AI scenes",
+      "Product Beautifier, Staging and Virtual Model powered by gpt-image-1",
+      "Ghost Mannequin effect for apparel shots without models",
+      "Batch editing up to 500 images in one pass",
+      "API pipeline from $20/month (about $0.02 per image)"
+    ],
+    "zh": [
+      "针对商品摄影调校的一键抠图",
+      "Instant Backgrounds 把商品置入逼真的 AI 场景",
+      "由 gpt-image-1 驱动的 Product Beautifier、Staging 与 Virtual Model",
+      "Ghost Mannequin 幽灵模特效果，服装图无需真人",
+      "批量编辑一次最多 500 张",
+      "API 管线 $20/月起（约每张 $0.02）"
+    ],
+    "ja": [
+      "商品撮影向けにチューニングされたワンタップ背景除去",
+      "Instant Backgroundsが商品をリアルなAIシーンに配置",
+      "gpt-image-1駆動のProduct Beautifier・Staging・Virtual Model",
+      "モデル不要で服を撮るGhost Mannequin効果",
+      "一度に最大500枚のバッチ編集",
+      "月$20からのAPIパイプライン（1枚約$0.02）"
+    ],
+    "es": [
+      "Eliminación de fondo con un toque afinada para fotografía de producto",
+      "Instant Backgrounds coloca productos en escenas IA realistas",
+      "Product Beautifier, Staging y Virtual Model impulsados por gpt-image-1",
+      "Efecto Ghost Mannequin para fotos de ropa sin modelos",
+      "Edición por lotes de hasta 500 imágenes de una vez",
+      "Pipeline API desde $20/mes (unos $0.02 por imagen)"
+    ],
+    "fr": [
+      "Suppression d'arrière-plan en un geste réglée pour la photo produit",
+      "Instant Backgrounds place les produits dans des scènes IA réalistes",
+      "Product Beautifier, Staging et Virtual Model propulsés par gpt-image-1",
+      "Effet Ghost Mannequin pour les photos de vêtements sans mannequin",
+      "Édition par lots jusqu'à 500 images en une passe",
+      "Pipeline API dès 20 $/mois (environ 0,02 $ par image)"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Free covers basic background removal and standard-resolution exports with Photoroom branding on AI backgrounds.",
+      "zh": "免费档覆盖基础抠图与标准分辨率导出，AI 背景带 Photoroom 水印。",
+      "ja": "無料版は基本の背景除去と標準解像度書き出しをカバー、AI背景にはPhotoroomブランディング付き。",
+      "es": "El plan gratis cubre eliminación básica de fondo y exportaciones en resolución estándar con marca de Photoroom en los fondos IA.",
+      "fr": "Le gratuit couvre la suppression de fond basique et les exports en résolution standard avec la marque Photoroom sur les fonds IA."
+    },
+    "paid": {
+      "en": "Pro is $7.50/month billed yearly ($12.99 monthly); Max around $20.99/month and Ultra from about $82.50/month add heavier AI credits and team features, while the API starts at $20/month. (Verified against the official pricing page, 2026-07-29.)",
+      "zh": "Pro 年付折合 $7.50/月（月付 $12.99）；Max 约 $20.99/月、Ultra 约 $82.50/月起，提供更多 AI 额度与团队功能；API $20/月起。（对照官方定价页核实，2026-07-29。）",
+      "ja": "Proは年払いで月$7.50（月払い$12.99）。Maxは月約$20.99、Ultraは月約$82.50からでAIクレジットとチーム機能を増量、APIは月$20から。（公式価格ページと照合、2026-07-29。）",
+      "es": "Pro cuesta $7.50/mes con pago anual ($12.99 mensual); Max ronda los $20.99/mes y Ultra desde unos $82.50/mes añaden más créditos IA y funciones de equipo, mientras la API empieza en $20/mes. (Verificado con la página oficial de precios, 2026-07-29.)",
+      "fr": "Pro coûte 7,50 $/mois en annuel (12,99 $ en mensuel) ; Max environ 20,99 $/mois et Ultra dès environ 82,50 $/mois ajoutent crédits IA et fonctions d'équipe, l'API démarrant à 20 $/mois. (Vérifié avec la page tarifaire officielle, 2026-07-29.)"
+    }
+  },
+  "useCases": {
+    "en": [
+      "E-commerce sellers producing marketplace-ready product shots",
+      "Resellers batch-cleaning hundreds of listing photos",
+      "Apparel brands shooting ghost-mannequin catalogs without studios",
+      "Developers automating image pipelines via the API"
+    ],
+    "zh": [
+      "电商卖家产出符合平台规范的商品图",
+      "二手卖家批量清理数百张 listing 照片",
+      "服装品牌不进棚拍出幽灵模特目录图",
+      "开发者用 API 自动化图片处理管线"
+    ],
+    "ja": [
+      "マーケットプレイス即応の商品写真を作るECセラー",
+      "数百枚の出品写真を一括整形する転売業者",
+      "スタジオなしでゴーストマネキンのカタログを撮るアパレルブランド",
+      "APIで画像パイプラインを自動化する開発者"
+    ],
+    "es": [
+      "Vendedores de e-commerce produciendo fotos de producto listas para marketplaces",
+      "Revendedores limpiando por lotes cientos de fotos de anuncios",
+      "Marcas de ropa creando catálogos con maniquí fantasma sin estudio",
+      "Desarrolladores automatizando pipelines de imagen vía la API"
+    ],
+    "fr": [
+      "Vendeurs e-commerce produisant des photos produit prêtes pour les marketplaces",
+      "Revendeurs nettoyant par lots des centaines de photos d'annonces",
+      "Marques de vêtements créant des catalogues mannequin fantôme sans studio",
+      "Développeurs automatisant des pipelines d'images via l'API"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Product-photo cutouts are cleaner than general-purpose removers",
+      "Batch of 500 plus API makes it real infrastructure for sellers",
+      "gpt-image-1 features (Virtual Model, Staging) rival studio shoots",
+      "Pro at $7.50/month annual is honest value for daily sellers"
+    ],
+    "zh": [
+      "商品图抠像比通用抠图工具更干净",
+      "500 张批量加 API，对卖家是真正的基础设施",
+      "gpt-image-1 功能（Virtual Model、Staging）可与棚拍叫板",
+      "Pro 年付折合 $7.50/月，对日常卖家是实在价"
+    ],
+    "ja": [
+      "商品写真の切り抜きは汎用ツールよりクリーン",
+      "500枚バッチとAPIでセラーの本物のインフラに",
+      "gpt-image-1機能（Virtual Model・Staging）はスタジオ撮影に匹敵",
+      "年払い月$7.50のProは毎日使うセラーに正直な価格"
+    ],
+    "es": [
+      "Los recortes de fotos de producto son más limpios que los removedores genéricos",
+      "Lotes de 500 más API lo hacen infraestructura real para vendedores",
+      "Las funciones gpt-image-1 (Virtual Model, Staging) rivalizan con sesiones de estudio",
+      "Pro a $7.50/mes anual es valor honesto para vendedores diarios"
+    ],
+    "fr": [
+      "Les détourages de photos produit sont plus propres que les outils généralistes",
+      "Les lots de 500 plus l'API en font une vraie infrastructure pour vendeurs",
+      "Les fonctions gpt-image-1 (Virtual Model, Staging) rivalisent avec le studio",
+      "Pro à 7,50 $/mois en annuel est d'une valeur honnête pour les vendeurs quotidiens"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Trustpilot sits around 2/5 with dense complaints about surprise renewals and hard-to-cancel subscriptions — manage billing in-app carefully and calendar your renewal",
+      "AI scenes can hallucinate reflections and shadows that mismatch the product",
+      "Heavier AI features burn through credits quickly on mid tiers",
+      "Web editor lags the mobile apps in features and polish"
+    ],
+    "zh": [
+      "Trustpilot 约 2/5 分，关于莫名续费与退订困难的投诉密集——请在应用内仔细管理计费并在日历上标记续费日",
+      "AI 场景可能幻觉出与商品不匹配的反光与阴影",
+      "重度 AI 功能在中间档位烧额度很快",
+      "网页编辑器在功能与打磨上落后移动 App"
+    ],
+    "ja": [
+      "Trustpilotは約2/5で、不意の更新と解約しづらさへの苦情が密集——アプリ内で課金を注意深く管理し、更新日をカレンダーに",
+      "AIシーンは商品と合わない反射や影を幻覚することがある",
+      "重いAI機能は中位プランでクレジットを急速に消費",
+      "ウェブエディタは機能と完成度でモバイルアプリに後れ"
+    ],
+    "es": [
+      "Trustpilot ronda el 2/5 con quejas densas sobre renovaciones sorpresa y suscripciones difíciles de cancelar — gestiona la facturación en la app con cuidado y agenda tu renovación",
+      "Las escenas IA pueden alucinar reflejos y sombras que no casan con el producto",
+      "Las funciones IA pesadas queman créditos rápido en los niveles medios",
+      "El editor web va detrás de las apps móviles en funciones y acabado"
+    ],
+    "fr": [
+      "Trustpilot tourne autour de 2/5 avec des plaintes denses sur les renouvellements surprises et les abonnements difficiles à résilier — gérez la facturation dans l'app avec soin et notez l'échéance",
+      "Les scènes IA peuvent halluciner reflets et ombres qui jurent avec le produit",
+      "Les fonctions IA lourdes brûlent vite les crédits aux paliers intermédiaires",
+      "L'éditeur web reste derrière les apps mobiles en fonctions et finition"
+    ]
+  },
+  "latestUpdate": {
+    "en": "2026: the Paris-based company wove gpt-image-1 through its commerce suite — Product Beautifier, Product Staging and Virtual Model — while batch editing scaled to 500 images and the $20/month API kept undercutting enterprise image pipelines.",
+    "zh": "2026 年：这家巴黎公司把 gpt-image-1 织入其电商套件——Product Beautifier、Product Staging 与 Virtual Model——批量编辑扩展到 500 张，$20/月的 API 继续以低价冲击企业级图片管线。",
+    "ja": "2026年：パリ拠点の同社はgpt-image-1をコマーススイート全体に編み込んだ——Product Beautifier・Product Staging・Virtual Model——バッチ編集は500枚に拡大し、月$20のAPIはエンタープライズ画像パイプラインを下から突き上げ続ける。",
+    "es": "2026: la empresa parisina tejió gpt-image-1 en su suite de comercio — Product Beautifier, Product Staging y Virtual Model — mientras la edición por lotes escaló a 500 imágenes y la API de $20/mes siguió rebajando los pipelines de imagen empresariales.",
+    "fr": "2026 : l'entreprise parisienne a tissé gpt-image-1 dans sa suite commerce — Product Beautifier, Product Staging et Virtual Model — tandis que l'édition par lots passait à 500 images et que l'API à 20 $/mois continuait de casser les prix des pipelines d'images d'entreprise."
+  },
+  "verdict": {
+    "badge": "Worth Trying",
+    "headline": {
+      "en": "The e-commerce photo studio in your pocket — mind the subscription",
+      "zh": "装进口袋的电商摄影棚——但看好你的订阅",
+      "ja": "ポケットに入るECフォトスタジオ——ただしサブスクリプションに注意",
+      "es": "El estudio fotográfico de e-commerce en tu bolsillo — vigila la suscripción",
+      "fr": "Le studio photo e-commerce dans votre poche — surveillez l'abonnement"
+    },
+    "body": {
+      "en": "For the specific job of making products look sellable, Photoroom outperforms tools many times its price. Its background removal is tuned on product imagery rather than portraits, so edges around jewelry, glass and fabric come out cleaner than general-purpose removers manage. Instant Backgrounds drops items into plausible lifestyle scenes, and the gpt-image-1-powered trio — Product Beautifier, Staging and Virtual Model — genuinely replaces studio shoots for small sellers, letting an apparel brand show garments on AI models it could never afford to hire. Batch processing at 500 images and an API from $20/month (roughly two cents an image) turn it from an app into seller infrastructure. The reason for the capped badge is not the product but the billing reputation: Photoroom's Trustpilot hovers around 2 out of 5, dominated by complaints of surprise renewals and cancellations that didn't take — a pattern consistent enough that we advise managing the subscription inside the app store rather than the website where possible, and calendaring your renewal date. Output-wise, AI scenes still occasionally hallucinate physics — reflections and shadows that don't match the product — so review before publishing. Sellers who stay on top of their billing will find the Pro tier pays for itself in a weekend of listings.",
+      "zh": "就「让商品看起来卖得动」这件具体的事，Photoroom 的表现超过许多贵它数倍的工具。它的抠图是针对商品图而非人像调校的，珠宝、玻璃与织物的边缘处理得比通用抠图工具干净。Instant Backgrounds 把商品放进可信的生活方式场景，gpt-image-1 驱动的三件套——Product Beautifier、Staging 与 Virtual Model——对小卖家来说真能替代棚拍，让服装品牌把衣服穿在自己永远请不起的 AI 模特身上。500 张批量处理加 $20/月起的 API（约合每张两美分），让它从一款 App 变成卖家基础设施。徽章封顶的原因不在产品而在计费口碑：Photoroom 的 Trustpilot 徘徊在 2/5 左右，投诉集中于莫名续费与「明明取消了却没生效」——这一模式出现得足够频繁，我们建议尽可能在应用商店而非官网管理订阅，并把续费日写进日历。输出层面，AI 场景偶尔仍会幻觉出不符物理的反光与阴影，发布前请过目。能看好自己账单的卖家会发现，Pro 档一个周末的上架量就能回本。",
+      "ja": "「商品を売れそうに見せる」という具体的な仕事において、Photoroomは何倍も高いツールを上回る。背景除去はポートレートでなく商品画像でチューニングされており、ジュエリー・ガラス・布地のエッジは汎用ツールより明らかにクリーンに仕上がる。Instant Backgroundsは商品をもっともらしいライフスタイルシーンに落とし込み、gpt-image-1駆動の三点セット——Product Beautifier・Staging・Virtual Model——は小規模セラーにとって本当にスタジオ撮影を代替する。アパレルブランドは到底雇えないAIモデルに服を着せられるのだ。500枚のバッチ処理と月$20からのAPI（1枚約2セント）は、これをアプリからセラーのインフラへ変える。バッジに上限を付けた理由は製品ではなく課金の評判だ：PhotoroomのTrustpilotは約2/5をさまよい、不意の更新と「解約したはずが効いていない」という苦情が支配的——このパターンは十分に一貫しているため、可能ならウェブサイトでなくアプリストア内でサブスクリプションを管理し、更新日をカレンダーに入れることを勧める。出力面では、AIシーンは今も時々物理法則を幻覚する——商品と合わない反射や影——ので公開前に確認を。請求をきちんと見張れるセラーなら、Proプランは週末の出品作業だけで元が取れるだろう。",
+      "es": "Para el trabajo específico de hacer que los productos parezcan vendibles, Photoroom supera a herramientas que cuestan varias veces más. Su eliminación de fondo está afinada con imágenes de producto y no retratos, así que los bordes de joyas, cristal y tela salen más limpios que con removedores genéricos. Instant Backgrounds coloca los artículos en escenas de estilo de vida verosímiles, y el trío impulsado por gpt-image-1 — Product Beautifier, Staging y Virtual Model — reemplaza de verdad las sesiones de estudio para vendedores pequeños, permitiendo a una marca de ropa mostrar prendas en modelos IA que jamás podría contratar. El procesamiento por lotes de 500 imágenes y una API desde $20/mes (unos dos céntimos por imagen) lo convierten de app en infraestructura de venta. La razón de la insignia limitada no es el producto sino la reputación de facturación: el Trustpilot de Photoroom ronda el 2 sobre 5, dominado por quejas de renovaciones sorpresa y cancelaciones que no surtieron efecto — un patrón lo bastante consistente como para aconsejar gestionar la suscripción desde la tienda de apps en vez de la web cuando sea posible, y agendar la fecha de renovación. En cuanto a resultados, las escenas IA aún alucinan física de vez en cuando — reflejos y sombras que no casan con el producto — así que revisa antes de publicar. Los vendedores que vigilen su facturación verán que el plan Pro se paga solo en un fin de semana de anuncios.",
+      "fr": "Pour la tâche précise de rendre des produits vendables, Photoroom surclasse des outils plusieurs fois plus chers. Sa suppression d'arrière-plan est réglée sur l'imagerie produit plutôt que le portrait, si bien que les contours des bijoux, du verre et des tissus ressortent plus propres qu'avec les outils généralistes. Instant Backgrounds place les articles dans des scènes lifestyle plausibles, et le trio propulsé par gpt-image-1 — Product Beautifier, Staging et Virtual Model — remplace réellement les séances studio pour les petits vendeurs, permettant à une marque de vêtements d'habiller des mannequins IA qu'elle ne pourrait jamais embaucher. Le traitement par lots de 500 images et une API dès 20 $/mois (environ deux cents l'image) en font une infrastructure de vente plus qu'une app. La raison du badge plafonné n'est pas le produit mais la réputation de facturation : le Trustpilot de Photoroom oscille autour de 2 sur 5, dominé par des plaintes de renouvellements surprises et d'annulations restées sans effet — un motif assez récurrent pour que nous conseillions de gérer l'abonnement via la boutique d'applications plutôt que le site quand c'est possible, et de noter la date de renouvellement. Côté rendu, les scènes IA hallucinent encore parfois la physique — reflets et ombres discordants — donc relisez avant de publier. Les vendeurs attentifs à leur facturation constateront que le plan Pro s'amortit en un week-end d'annonces."
+    },
+    "bestFor": {
+      "en": [
+        "E-commerce and marketplace sellers shooting product photos",
+        "Apparel brands needing ghost-mannequin and virtual models",
+        "Developers automating listing-image pipelines via API"
+      ],
+      "zh": [
+        "拍商品图的电商与平台卖家",
+        "需要幽灵模特与虚拟模特的服装品牌",
+        "用 API 自动化上架图管线的开发者"
+      ],
+      "ja": [
+        "商品写真を撮るECセラーとマーケットプレイス出品者",
+        "ゴーストマネキンとバーチャルモデルが必要なアパレルブランド",
+        "APIで出品画像パイプラインを自動化する開発者"
+      ],
+      "es": [
+        "Vendedores de e-commerce y marketplaces fotografiando productos",
+        "Marcas de ropa que necesitan maniquí fantasma y modelos virtuales",
+        "Desarrolladores automatizando pipelines de imágenes vía API"
+      ],
+      "fr": [
+        "Vendeurs e-commerce et marketplaces photographiant des produits",
+        "Marques de vêtements ayant besoin de mannequins fantômes et virtuels",
+        "Développeurs automatisant des pipelines d'images d'annonces via API"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You need full image editing and design beyond product shots (→ Canva)",
+        "You want frontier image generation for creative visuals (→ Midjourney)"
+      ],
+      "zh": [
+        "你需要商品图之外的完整图像编辑与设计（→ Canva）",
+        "你想要面向创意视觉的前沿图像生成（→ Midjourney）"
+      ],
+      "ja": [
+        "商品写真を超えた完全な画像編集とデザインが必要（→ Canva）",
+        "クリエイティブビジュアル向けの最先端画像生成が欲しい（→ Midjourney）"
+      ],
+      "es": [
+        "Necesitas edición y diseño de imagen completos más allá del producto (→ Canva)",
+        "Quieres generación de imagen de frontera para visuales creativos (→ Midjourney)"
+      ],
+      "fr": [
+        "Vous avez besoin d'édition et de design d'image complets au-delà du produit (→ Canva)",
+        "Vous voulez une génération d'images de pointe pour des visuels créatifs (→ Midjourney)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-29",
+    "verdictDate": "2026-07-29",
+    "pricingVerified": "2026-07-29",
+    "pricingUrl": "https://www.photoroom.com/pricing"
+  }
+}

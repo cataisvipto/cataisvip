@@ -1,0 +1,234 @@
+{
+  "features": {
+    "en": [
+      "Enterprise AI agents natively grounded in Salesforce CRM data",
+      "Atlas reasoning engine plans multi-step actions with guardrails",
+      "Prebuilt agents for service, sales (SDR), commerce and marketing",
+      "Agentforce Voice brings agents to phone calls and IVR replacement",
+      "Low-code Agent Builder plus pro-code extensibility via Apex and APIs",
+      "Consumption pricing: Flex Credits tie cost to actions performed"
+    ],
+    "zh": [
+      "原生扎根 Salesforce CRM 数据的企业级 AI 智能体",
+      "Atlas 推理引擎带护栏地规划多步动作",
+      "预置客服、销售（SDR）、电商与营销智能体",
+      "Agentforce Voice 让智能体接管电话与 IVR 替代场景",
+      "低代码 Agent Builder，另可用 Apex 与 API 做专业扩展",
+      "按消耗计价：Flex Credits 让成本与实际执行的动作挂钩"
+    ],
+    "ja": [
+      "Salesforce CRMデータにネイティブに根ざしたエンタープライズAIエージェント",
+      "Atlas推論エンジンがガードレール付きでマルチステップ行動を計画",
+      "サービス、営業（SDR）、コマース、マーケ向けの事前構築エージェント",
+      "Agentforce Voiceで電話対応やIVR置き換えにもエージェントを展開",
+      "ローコードのAgent Builderに加え、ApexとAPIによるプロコード拡張",
+      "消費ベース課金：Flex Creditsで実行アクション数にコストが連動"
+    ],
+    "es": [
+      "Agentes IA empresariales anclados nativamente en los datos CRM de Salesforce",
+      "El motor de razonamiento Atlas planifica acciones multipaso con guardarraíles",
+      "Agentes preconstruidos para servicio, ventas (SDR), comercio y marketing",
+      "Agentforce Voice lleva los agentes a llamadas telefónicas y reemplazo de IVR",
+      "Agent Builder low-code más extensibilidad pro-code vía Apex y APIs",
+      "Precios por consumo: los Flex Credits ligan el coste a las acciones ejecutadas"
+    ],
+    "fr": [
+      "Agents IA d'entreprise nativement ancrés dans les données CRM Salesforce",
+      "Le moteur de raisonnement Atlas planifie des actions multi-étapes avec garde-fous",
+      "Agents préconstruits pour le service client, la vente (SDR), le commerce et le marketing",
+      "Agentforce Voice amène les agents au téléphone et en remplacement d'IVR",
+      "Agent Builder low-code plus extensibilité pro-code via Apex et les API",
+      "Tarification à la consommation : les Flex Credits lient le coût aux actions exécutées"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "No free plan; limited Agentforce capabilities are bundled into Salesforce Foundations for existing customers to trial",
+      "zh": "无免费版；Salesforce Foundations 为现有客户附带有限的 Agentforce 能力可供试用",
+      "ja": "無料プランなし。既存顧客はSalesforce Foundationsに同梱される限定的なAgentforce機能で試用可能",
+      "es": "Sin plan gratuito; Salesforce Foundations incluye capacidades limitadas de Agentforce para que los clientes existentes prueben",
+      "fr": "Pas de plan gratuit ; Salesforce Foundations inclut des capacités Agentforce limitées pour que les clients existants puissent essayer"
+    },
+    "paid": {
+      "en": "Consumption-based Flex Credits: $500 per 100,000 credits, with each agent action consuming 20 credits ($0.10/action); per-user licensing and conversation-based options also available; enterprise contracts negotiated",
+      "zh": "按消耗的 Flex Credits：500 美元/10 万积分，每个智能体动作消耗 20 积分（0.10 美元/动作）；另有按用户席位与按会话的计价选项；企业合同单独议价",
+      "ja": "消費ベースのFlex Credits：10万クレジットで500ドル、エージェントの1アクションで20クレジット消費（0.10ドル/アクション）。ユーザー単位ライセンスや会話ベースの選択肢もあり、エンタープライズ契約は個別交渉",
+      "es": "Flex Credits por consumo: 500 $ por 100 000 créditos, cada acción del agente consume 20 créditos (0,10 $/acción); también hay licencias por usuario y opciones por conversación; contratos enterprise negociados",
+      "fr": "Flex Credits à la consommation : 500 $ pour 100 000 crédits, chaque action d'agent consommant 20 crédits (0,10 $/action) ; licences par utilisateur et options par conversation également disponibles ; contrats enterprise négociés"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Customer service agents resolving cases grounded in CRM history",
+      "SDR agents qualifying and nurturing inbound leads around the clock",
+      "Voice agents replacing legacy IVR trees on support lines",
+      "Employee-facing agents answering HR and IT questions from company data"
+    ],
+    "zh": [
+      "基于 CRM 历史记录解决工单的客服智能体",
+      "全天候筛选和培育入站线索的 SDR 智能体",
+      "在客服热线上替换老式 IVR 树的语音智能体",
+      "用公司数据回答 HR 与 IT 问题的员工端智能体"
+    ],
+    "ja": [
+      "CRM履歴に基づいてケースを解決するカスタマーサービスエージェント",
+      "インバウンドリードを24時間体制で選別・育成するSDRエージェント",
+      "サポート回線のレガシーIVRツリーを置き換える音声エージェント",
+      "社内データでHR・IT関連の質問に答える従業員向けエージェント"
+    ],
+    "es": [
+      "Agentes de servicio resolviendo casos basados en el historial CRM",
+      "Agentes SDR calificando y nutriendo leads entrantes las 24 horas",
+      "Agentes de voz reemplazando árboles IVR heredados en líneas de soporte",
+      "Agentes internos respondiendo dudas de RR. HH. y TI con datos corporativos"
+    ],
+    "fr": [
+      "Agents de service client résolvant les dossiers à partir de l'historique CRM",
+      "Agents SDR qualifiant et nourrissant les leads entrants 24h/24",
+      "Agents vocaux remplaçant les arborescences IVR sur les lignes de support",
+      "Agents internes répondant aux questions RH et IT à partir des données d'entreprise"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Unmatched grounding in CRM data no external agent can replicate",
+      "Enterprise trust layer: guardrails, audit trails, Einstein Trust Layer",
+      "Pay-per-action pricing ties spend to measurable outcomes",
+      "Prebuilt role agents shorten time-to-value dramatically"
+    ],
+    "zh": [
+      "对 CRM 数据的原生掌握，外部智能体无法复制",
+      "企业信任层：护栏、审计留痕、Einstein Trust Layer",
+      "按动作付费，把开销和可衡量的结果绑在一起",
+      "预置角色智能体大幅缩短见效时间"
+    ],
+    "ja": [
+      "外部エージェントには真似できないCRMデータへのネイティブな根ざし",
+      "エンタープライズ信頼レイヤー：ガードレール、監査証跡、Einstein Trust Layer",
+      "アクション単位課金で支出と測定可能な成果が連動",
+      "事前構築のロール別エージェントで価値実現までの時間を大幅短縮"
+    ],
+    "es": [
+      "Anclaje inigualable en datos CRM que ningún agente externo puede replicar",
+      "Capa de confianza enterprise: guardarraíles, auditoría, Einstein Trust Layer",
+      "El pago por acción liga el gasto a resultados medibles",
+      "Los agentes de rol preconstruidos acortan drásticamente el time-to-value"
+    ],
+    "fr": [
+      "Ancrage inégalé dans les données CRM qu'aucun agent externe ne peut répliquer",
+      "Couche de confiance entreprise : garde-fous, pistes d'audit, Einstein Trust Layer",
+      "Le paiement à l'action lie la dépense à des résultats mesurables",
+      "Les agents préconstruits par rôle raccourcissent nettement le time-to-value"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Only worthwhile inside the Salesforce ecosystem — heavy lock-in",
+      "Costs escalate fast: $0.10/action compounds on chatty workflows",
+      "Pricing model has changed repeatedly, complicating budgeting",
+      "Setup and data hygiene demands are significant for good results"
+    ],
+    "zh": [
+      "只在 Salesforce 生态内才划算——锁定极重",
+      "成本攀升快：0.10 美元/动作在高频流程里会滚雪球",
+      "计价模式反复调整，预算规划不省心",
+      "要出好效果，前期配置与数据治理投入不小"
+    ],
+    "ja": [
+      "Salesforceエコシステム内でしか価値がなく、ロックインが重い",
+      "コスト上昇が速い：0.10ドル/アクションは対話の多いフローで雪だるま式に",
+      "料金モデルが何度も変わり予算立てが難しい",
+      "良い結果を出すには初期設定とデータ整備の負担が大きい"
+    ],
+    "es": [
+      "Solo compensa dentro del ecosistema Salesforce: fuerte dependencia",
+      "Los costes escalan rápido: 0,10 $/acción se acumula en flujos conversacionales",
+      "El modelo de precios ha cambiado varias veces, complicando el presupuesto",
+      "La configuración y la higiene de datos exigen bastante para lograr buenos resultados"
+    ],
+    "fr": [
+      "Ne vaut le coup qu'au sein de l'écosystème Salesforce — fort verrouillage",
+      "Les coûts grimpent vite : 0,10 $/action s'accumule sur les flux bavards",
+      "Le modèle tarifaire a changé plusieurs fois, compliquant la budgétisation",
+      "La configuration et la qualité des données exigent un investissement conséquent"
+    ]
+  },
+  "latestUpdate": {
+    "en": "2026: Salesforce standardizes Agentforce pricing on Flex Credits ($500 per 100K credits, $0.10 per action) alongside per-user options, expands Agentforce Voice, and pushes hybrid human-agent workforce tooling across Service, Sales and Marketing clouds",
+    "zh": "2026 年：Salesforce 把 Agentforce 计价统一到 Flex Credits（500 美元/10 万积分、0.10 美元/动作），并保留按用户选项；扩展 Agentforce Voice，在服务云、销售云与营销云全面推进人机混合劳动力工具",
+    "ja": "2026年：SalesforceはAgentforceの料金をFlex Credits（10万クレジット500ドル、1アクション0.10ドル）に標準化しユーザー単位オプションも併存。Agentforce Voiceを拡充し、Service・Sales・Marketingの各クラウドで人間とエージェントのハイブリッド労働力ツールを推進",
+    "es": "2026: Salesforce estandariza los precios de Agentforce en Flex Credits (500 $ por 100K créditos, 0,10 $ por acción) junto a opciones por usuario, amplía Agentforce Voice e impulsa herramientas de fuerza laboral híbrida humano-agente en Service, Sales y Marketing",
+    "fr": "2026 : Salesforce standardise la tarification d'Agentforce sur les Flex Credits (500 $ pour 100K crédits, 0,10 $ par action) avec des options par utilisateur, étend Agentforce Voice et pousse les outils de main-d'œuvre hybride humain-agent sur les clouds Service, Sales et Marketing"
+  },
+  "verdict": {
+    "badge": "For Specific Needs",
+    "headline": {
+      "en": "The strongest agent play in enterprise software — if you already live in Salesforce",
+      "zh": "企业软件里最强的智能体布局——前提是你已经住在 Salesforce 里",
+      "ja": "エンタープライズソフトで最強のエージェント戦略——ただしSalesforceに住んでいるなら",
+      "es": "La apuesta de agentes más fuerte del software empresarial, si ya vives en Salesforce",
+      "fr": "Le pari d'agents le plus solide du logiciel d'entreprise — si vous vivez déjà dans Salesforce"
+    },
+    "body": {
+      "en": "Agentforce's moat is not the model — it is the data. An agent that natively reads your cases, opportunities and customer history, inside the same trust and permission layer your admins already govern, starts miles ahead of any bolt-on alternative. Voice, prebuilt role agents and pay-per-action pricing make the pitch concrete. But be clear-eyed: this is a Salesforce amplifier, not a general platform. Costs compound quickly at $0.10 an action, the pricing model keeps shifting, and none of the value travels outside the ecosystem. Existing Salesforce shops should pilot it; everyone else should look elsewhere.",
+      "zh": "Agentforce 的护城河不在模型，而在数据。一个原生读取你的工单、商机与客户历史、且运行在管理员已经在治理的信任与权限层里的智能体，起跑线就领先任何外挂方案好几条街。语音能力、预置角色智能体和按动作付费让卖点足够具体。但要看清：它是 Salesforce 的放大器，不是通用平台。0.10 美元/动作的成本滚起来很快，计价模式还在不断变化，而且所有价值都出不了这个生态。已经用 Salesforce 的公司值得试点；其他人还是另寻他处。",
+      "ja": "Agentforceの堀はモデルではなくデータにある。ケース、商談、顧客履歴をネイティブに読み取り、管理者が既に統治している信頼・権限レイヤーの中で動くエージェントは、後付けのどんな代替品よりも数マイル先からスタートする。音声機能、事前構築のロール別エージェント、アクション単位課金が売り文句を具体化する。ただし冷静に見るべきだ。これはSalesforceの増幅器であって汎用プラットフォームではない。0.10ドル/アクションのコストは急速に膨らみ、料金モデルは変わり続け、価値はエコシステムの外に持ち出せない。Salesforce利用企業は試験導入すべきだが、それ以外は他を当たるべきだ。",
+      "es": "El foso de Agentforce no es el modelo, son los datos. Un agente que lee nativamente tus casos, oportunidades e historial de clientes, dentro de la misma capa de confianza y permisos que tus administradores ya gobiernan, arranca kilómetros por delante de cualquier alternativa acoplada. La voz, los agentes de rol preconstruidos y el pago por acción concretan la propuesta. Pero sé realista: esto es un amplificador de Salesforce, no una plataforma general. Los costes se acumulan rápido a 0,10 $ por acción, el modelo de precios sigue cambiando y nada del valor sale del ecosistema. Las empresas ya en Salesforce deberían pilotarlo; el resto, mirar a otra parte.",
+      "fr": "La douve d'Agentforce n'est pas le modèle — ce sont les données. Un agent qui lit nativement vos dossiers, opportunités et historiques clients, au sein de la même couche de confiance et de permissions que vos admins gouvernent déjà, part avec des kilomètres d'avance sur toute alternative greffée. La voix, les agents préconstruits par rôle et le paiement à l'action rendent l'argumentaire concret. Mais soyons lucides : c'est un amplificateur de Salesforce, pas une plateforme générale. Les coûts s'accumulent vite à 0,10 $ l'action, le modèle tarifaire ne cesse de bouger, et rien de la valeur ne sort de l'écosystème. Les clients Salesforce devraient le piloter ; les autres, chercher ailleurs."
+    },
+    "bestFor": {
+      "en": [
+        "Salesforce-centric enterprises automating service and sales at scale",
+        "Support orgs replacing IVR with voice agents grounded in CRM data",
+        "Teams wanting agent spend tied to measurable actions and outcomes"
+      ],
+      "zh": [
+        "以 Salesforce 为中心、要规模化自动化服务与销售的企业",
+        "想用扎根 CRM 数据的语音智能体替换 IVR 的客服组织",
+        "希望智能体开销与可衡量动作和结果挂钩的团队"
+      ],
+      "ja": [
+        "サービスと営業を大規模自動化したいSalesforce中心の企業",
+        "CRMデータに根ざした音声エージェントでIVRを置き換えたいサポート部門",
+        "エージェント支出を測定可能なアクションと成果に紐付けたいチーム"
+      ],
+      "es": [
+        "Empresas centradas en Salesforce automatizando servicio y ventas a escala",
+        "Organizaciones de soporte reemplazando IVR con agentes de voz anclados en CRM",
+        "Equipos que quieren ligar el gasto en agentes a acciones y resultados medibles"
+      ],
+      "fr": [
+        "Entreprises centrées sur Salesforce automatisant service et ventes à grande échelle",
+        "Organisations support remplaçant l'IVR par des agents vocaux ancrés dans le CRM",
+        "Équipes voulant lier la dépense d'agents à des actions et résultats mesurables"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You are not a Salesforce customer (→ Copilot Studio, Flowise)",
+        "You need agents across arbitrary apps, not one CRM (→ Make AI, Gumloop)"
+      ],
+      "zh": [
+        "你不是 Salesforce 客户（→ Copilot Studio、Flowise）",
+        "你需要横跨任意应用而非单一 CRM 的智能体（→ Make AI、Gumloop）"
+      ],
+      "ja": [
+        "Salesforceの顧客ではない（→ Copilot Studio、Flowise）",
+        "単一CRMでなく任意のアプリを跨ぐエージェントが必要（→ Make AI、Gumloop）"
+      ],
+      "es": [
+        "No eres cliente de Salesforce (→ Copilot Studio, Flowise)",
+        "Necesitas agentes en apps arbitrarias, no en un solo CRM (→ Make AI, Gumloop)"
+      ],
+      "fr": [
+        "Vous n'êtes pas client Salesforce (→ Copilot Studio, Flowise)",
+        "Vous voulez des agents sur des apps variées, pas un seul CRM (→ Make AI, Gumloop)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-27",
+    "verdictDate": "2026-07-27",
+    "pricingVerified": "2026-07-27"
+  }
+}

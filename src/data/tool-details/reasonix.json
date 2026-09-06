@@ -1,0 +1,461 @@
+{
+  "features": {
+    "en": [
+      "Cache-first architecture: 90%+ prefix cache hit rate, ~1/5 input token cost",
+      "DeepSeek-native, append-only session history aligned with prefix-cache",
+      "MCP first-class: stdio, SSE, streamable HTTP",
+      "Plan mode with sandbox and permission controls",
+      "Subagents: explore, research, review, security-review",
+      "CLI/TUI, Desktop app, local Web UI, and ACP editor integration",
+      "Single Go binary, no CGO, cross-compiled for all platforms",
+      "Skill system with Markdown-based skill scripts",
+      "98+ community contributors, MIT license"
+    ],
+    "zh": [
+      "缓存优先架构：90%+ 前缀缓存命中率，输入 token 成本约 1/5",
+      "DeepSeek 原生，append-only 会话历史对齐 prefix-cache",
+      "MCP 一等公民：stdio、SSE、streamable HTTP",
+      "计划模式 + 沙箱 + 权限控制",
+      "子智能体：explore、research、review、security-review",
+      "CLI/TUI、桌面端、本地 Web UI、ACP 编辑器集成",
+      "单一 Go 二进制，无 CGO，交叉编译全平台",
+      "基于 Markdown 的技能系统",
+      "98+ 社区贡献者，MIT 许可证"
+    ],
+    "ja": [
+      "キャッシュファーストアーキテクチャ：90%+のプレフィックスキャッシュヒット率",
+      "DeepSeekネイティブ、append-onlyセッション履歴",
+      "MCPファーストクラス：stdio、SSE、streamable HTTP",
+      "サンドボックスと権限制御付きの計画モード",
+      "サブエージェント：explore、research、review、security-review",
+      "CLI/TUI、デスクトップ、ローカルWeb UI、ACPエディタ統合",
+      "単一Goバイナリ、CGO不要、全プラットフォーム対応",
+      "Markdownベースのスキルシステム",
+      "98+のコミュニティコントリビューター、MITライセンス"
+    ],
+    "es": [
+      "Arquitectura cache-first: 90%+ de tasa de acierto de caché",
+      "Nativo DeepSeek, historial de sesión append-only",
+      "MCP primera clase: stdio, SSE, streamable HTTP",
+      "Modo plan con sandbox y controles de permiso",
+      "Subagentes: explore, research, review, security-review",
+      "CLI/TUI, escritorio, Web UI local, integración editor ACP",
+      "Binario Go único, sin CGO, compilado para todas las plataformas",
+      "Sistema de skills basado en Markdown",
+      "98+ contribuidores comunitarios, licencia MIT"
+    ],
+    "fr": [
+      "Architecture cache-first : 90%+ de taux de hit du cache de préfixe",
+      "Natif DeepSeek, historique de session append-only",
+      "MCP première classe : stdio, SSE, streamable HTTP",
+      "Mode plan avec sandbox et contrôles de permission",
+      "Sous-agents : explore, research, review, security-review",
+      "CLI/TUI, bureau, Web UI locale, intégration éditeur ACP",
+      "Binaire Go unique, sans CGO, compilé pour toutes les plateformes",
+      "Système de skills basé sur Markdown",
+      "98+ contributeurs communautaires, licence MIT"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Free and open source (MIT)",
+      "zh": "免费开源（MIT）",
+      "ja": "無料オープンソース（MIT）",
+      "es": "Gratuito y de código abierto (MIT)",
+      "fr": "Gratuit et open source (MIT)"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Daily coding and development tasks",
+      "Long-running coding sessions with cost efficiency",
+      "Multi-repository project management",
+      "AI agent workflow with MCP tool integration"
+    ],
+    "zh": [
+      "日常编码和开发任务",
+      "长时间运行的编码会话，成本高效",
+      "多仓库项目管理",
+      "集成 MCP 工具的 AI 智能体工作流"
+    ],
+    "ja": [
+      "日常的なコーディングと開発タスク",
+      "長時間のコーディングセッション、コスト効率",
+      "マルチリポジトリプロジェクト管理",
+      "MCPツール統合を備えたAIエージェントワークフロー"
+    ],
+    "es": [
+      "Tareas diarias de codificación y desarrollo",
+      "Sesiones de codificación largas con eficiencia de costos",
+      "Gestión de proyectos multi-repositorio",
+      "Flujo de trabajo de agente IA con integración de herramientas MCP"
+    ],
+    "fr": [
+      "Tâches quotidiennes de codage et de développement",
+      "Sessions de codage longues avec efficacité des coûts",
+      "Gestion de projets multi-dépôts",
+      "Flux de travail d'agent IA avec intégration d'outils MCP"
+    ]
+  },
+  "pros": {
+    "en": [
+      "29K+ GitHub stars, rapidly growing",
+      "Cache-first architecture dramatically reduces costs",
+      "MCP first-class support for tool integration",
+      "Single Go binary, no runtime dependencies",
+      "Multiple UI modes: CLI, TUI, desktop, web, editor",
+      "DeepSeek-native, optimized for R1 series models",
+      "MIT licensed, 98+ community contributors"
+    ],
+    "zh": [
+      "29K+ GitHub 星标，快速增长",
+      "缓存优先架构大幅降低成本",
+      "MCP 一等公民支持工具集成",
+      "单一 Go 二进制，无运行时依赖",
+      "多种 UI 模式：CLI、TUI、桌面、Web、编辑器",
+      "DeepSeek 原生，针对 R1 系列优化",
+      "MIT 许可证，98+ 社区贡献者"
+    ],
+    "ja": [
+      "29K+ GitHubスター、急成長中",
+      "キャッシュファーストアーキテクチャがコストを大幅削減",
+      "MCPファーストクラスでツール統合をサポート",
+      "単一Goバイナリ、ランタイム依存なし",
+      "複数のUIモード：CLI、TUI、デスクトップ、Web、エディタ",
+      "DeepSeekネイティブ、R1シリーズに最適化",
+      "MITライセンス、98+のコミュニティコントリビューター"
+    ],
+    "es": [
+      "29K+ estrellas GitHub, crecimiento rápido",
+      "Arquitectura cache-first reduce drásticamente costos",
+      "Soporte MCP primera clase para integración de herramientas",
+      "Binario Go único, sin dependencias de runtime",
+      "Múltiples modos UI: CLI, TUI, escritorio, web, editor",
+      "Nativo DeepSeek, optimizado para serie R1",
+      "Licencia MIT, 98+ contribuidores comunitarios"
+    ],
+    "fr": [
+      "29K+ étoiles GitHub, croissance rapide",
+      "L'architecture cache-first réduit considérablement les coûts",
+      "Support MCP première classe pour l'intégration d'outils",
+      "Binaire Go unique, sans dépendances d'exécution",
+      "Modes UI multiples : CLI, TUI, bureau, web, éditeur",
+      "Natif DeepSeek, optimisé pour la série R1",
+      "Licence MIT, 98+ contributeurs communautaires"
+    ]
+  },
+  "cons": {
+    "en": [
+      "DeepSeek-specific, not optimized for other models",
+      "1,402 open issues indicate active but early-stage development",
+      "Relatively new project (April 2026)",
+      "Requires DeepSeek API key for use"
+    ],
+    "zh": [
+      "DeepSeek 专用，未针对其他模型优化",
+      "1,402 个开放 Issue，开发活跃但处于早期阶段",
+      "相对较新的项目（2026 年 4 月）",
+      "需要 DeepSeek API 密钥才能使用"
+    ],
+    "ja": [
+      "DeepSeek固有、他のモデルには最適化されていない",
+      "1,402のオープンIssue、活発だが初期段階",
+      "比較的新しいプロジェクト（2026年4月）",
+      "使用にはDeepSeek APIキーが必要"
+    ],
+    "es": [
+      "Específico de DeepSeek, no optimizado para otros modelos",
+      "1,402 issues abiertos, desarrollo activo pero temprano",
+      "Proyecto relativamente nuevo (abril 2026)",
+      "Requiere clave API de DeepSeek"
+    ],
+    "fr": [
+      "Spécifique à DeepSeek, non optimisé pour d'autres modèles",
+      "1,402 issues ouvertes, développement actif mais précoce",
+      "Projet relativement nouveau (avril 2026)",
+      "Nécessite une clé API DeepSeek"
+    ]
+  },
+  "latestUpdate": {
+    "en": "2026-08: v1.19.3 released, 29K+ GitHub stars, 98+ contributors",
+    "zh": "2026年8月：v1.19.3 发布，29K+ GitHub 星标，98+ 贡献者",
+    "ja": "2026年8月：v1.19.3リリース、29K+ GitHubスター、98+コントリビューター",
+    "es": "Agosto 2026: lanzamiento v1.19.3, 29K+ estrellas GitHub, 98+ contribuidores",
+    "fr": "Août 2026: version v1.19.3, 29K+ étoiles GitHub, 98+ contributeurs"
+  },
+  "tutorial": {
+    "en": {
+      "title": "Get Started in 3 Steps",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Install Reasonix",
+          "content": "Install globally via npm.",
+          "commands": [
+            {
+              "label": "Install",
+              "code": "npm i -g reasonix"
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "title": "Navigate to your project",
+          "content": "Point Reasonix at your repository. It maps your codebase once and keeps it warm in the prefix cache.",
+          "commands": [
+            {
+              "label": "Start",
+              "code": "cd your-project && reasonix"
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "title": "Open Web UI or keep in terminal",
+          "content": "Use the TUI in terminal, open the local Web UI, or connect via VS Code extension.",
+          "commands": [
+            {
+              "label": "Web UI",
+              "code": "reasonix serve --auth token"
+            }
+          ]
+        }
+      ]
+    },
+    "zh": {
+      "title": "3 步快速上手",
+      "steps": [
+        {
+          "step": 1,
+          "title": "安装 Reasonix",
+          "content": "通过 npm 全局安装。",
+          "commands": [
+            {
+              "label": "安装",
+              "code": "npm i -g reasonix"
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "title": "进入你的项目目录",
+          "content": "将 Reasonix 指向你的仓库，它会测绘一次代码库并常驻在缓存中。",
+          "commands": [
+            {
+              "label": "启动",
+              "code": "cd your-project && reasonix"
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "title": "打开 Web UI 或留在终端",
+          "content": "在终端中使用 TUI，打开本地 Web UI，或通过 VS Code 扩展连接。",
+          "commands": [
+            {
+              "label": "Web UI",
+              "code": "reasonix serve --auth token"
+            }
+          ]
+        }
+      ]
+    },
+    "ja": {
+      "title": "3ステップで始める",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Reasonixをインストール",
+          "content": "npmでグローバルインストール。",
+          "commands": [
+            {
+              "label": "インストール",
+              "code": "npm i -g reasonix"
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "title": "プロジェクトに移動",
+          "content": "Reasonixをリポジトリに向ける。",
+          "commands": [
+            {
+              "label": "起動",
+              "code": "cd your-project && reasonix"
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "title": "Web UIを開くかターミナルに留まる",
+          "content": "TUI、ローカルWeb UI、VS Code拡張機能で接続。",
+          "commands": [
+            {
+              "label": "Web UI",
+              "code": "reasonix serve --auth token"
+            }
+          ]
+        }
+      ]
+    },
+    "es": {
+      "title": "Comienza en 3 Pasos",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Instalar Reasonix",
+          "content": "Instala globalmente vía npm.",
+          "commands": [
+            {
+              "label": "Instalar",
+              "code": "npm i -g reasonix"
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "title": "Navega a tu proyecto",
+          "content": "Apunta Reasonix a tu repositorio.",
+          "commands": [
+            {
+              "label": "Iniciar",
+              "code": "cd your-project && reasonix"
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "title": "Abre Web UI o quédate en terminal",
+          "content": "Usa TUI, Web UI local, o extensión VS Code.",
+          "commands": [
+            {
+              "label": "Web UI",
+              "code": "reasonix serve --auth token"
+            }
+          ]
+        }
+      ]
+    },
+    "fr": {
+      "title": "Démarrez en 3 Étapes",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Installer Reasonix",
+          "content": "Installez globalement via npm.",
+          "commands": [
+            {
+              "label": "Installer",
+              "code": "npm i -g reasonix"
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "title": "Accédez à votre projet",
+          "content": "Pointez Reasonix vers votre dépôt.",
+          "commands": [
+            {
+              "label": "Démarrer",
+              "code": "cd your-project && reasonix"
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "title": "Ouvrez Web UI ou restez dans le terminal",
+          "content": "Utilisez TUI, Web UI locale, ou extension VS Code.",
+          "commands": [
+            {
+              "label": "Web UI",
+              "code": "reasonix serve --auth token"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "summary": {
+    "en": "Reasonix is a DeepSeek-native AI coding agent for the terminal, engineered around prefix-cache stability. Its cache-first architecture achieves 90%+ hit rates, reducing input token costs to approximately 1/5. With MCP first-class support, multiple UI modes, and a single Go binary, it is a powerful tool for long-running coding sessions.",
+    "zh": "Reasonix 是一款 DeepSeek 原生的终端编码 AI Agent，围绕前缀缓存稳定性设计。其缓存优先架构实现 90%+ 命中率，将输入 token 成本降至约 1/5。拥有 MCP 一等公民支持、多种 UI 模式和单一 Go 二进制，是长时间编码会话的强大工具。",
+    "ja": "Reasonixは、DeepSeekネイティブの端末向けAIコーディングエージェントです。キャッシュファーストアーキテクチャにより90%+のヒット率を実現し、入力トークンコストを約1/5に削減します。",
+    "es": "Reasonix es un agente de codificación AI nativo de DeepSeek para terminal. Su arquitectura cache-first logra 90%+ de tasa de acierto, reduciendo costos de token de entrada a aproximadamente 1/5.",
+    "fr": "Reasonix est un agent de codage IA natif DeepSeek pour terminal. Son architecture cache-first atteint 90%+ de taux de hit, réduisant les coûts de token d'entrée à environ 1/5."
+  },
+  "alternatives": [
+    "claude-code",
+    "codex"
+  ],
+  "verdict": {
+    "badge": "Highly Recommended",
+    "headline": {
+      "en": "A cost-efficient DeepSeek-native coding agent",
+      "zh": "一款成本高效的 DeepSeek 原生编码 Agent",
+      "ja": "コスト効率の高いDeepSeekネイティブコーディングエージェント",
+      "es": "Un agente de codificación nativo de DeepSeek rentable",
+      "fr": "Un agent de codage natif DeepSeek rentable"
+    },
+    "body": {
+      "en": "Reasonix stands out with its cache-first architecture that makes long coding sessions economically viable. With 29K+ GitHub stars in just 3 months, it has quickly become one of the most popular DeepSeek-native coding agents. The MCP first-class support, multiple UI modes, and single Go binary make it a compelling choice for developers who want to minimize API costs while maintaining productivity. The 1,402 open issues reflect its early-stage nature, but the rapid development pace and 98+ contributors suggest a strong trajectory.",
+      "zh": "Reasonix 以其缓存优先架构脱颖而出，使长时间编码会话在经济上可行。在短短 3 个月内获得 29K+ GitHub 星标，迅速成为最受欢迎的 DeepSeek 原生编码 Agent 之一。MCP 一等公民支持、多种 UI 模式和单一 Go 二进制使其成为希望最小化 API 成本同时保持生产力的开发者的有力选择。",
+      "ja": "Reasonixは、長時間のコーディングセッションを経済的に実現可能にするキャッシュファーストアーキテクチャで際立っています。わずか3ヶ月で29K+のGitHubスターを獲得し、最も人気のあるDeepSeekネイティブコーディングエージェントの1つになりました。",
+      "es": "Reasonix destaca con su arquitectura cache-first que hace que las sesiones largas de codificación sean económicamente viables. Con 29K+ estrellas GitHub en solo 3 meses, se ha convertido rápidamente en uno de los agentes de codificación nativos de DeepSeek más populares.",
+      "fr": "Reasonix se distingue par son architecture cache-first qui rend les sessions de codage longues économiquement viables. Avec 29K+ étoiles GitHub en seulement 3 mois, il est rapidement devenu l'un des agents de codage natifs DeepSeek les plus populaires."
+    },
+    "bestFor": {
+      "en": [
+        "DeepSeek R1 users who want cost-efficient coding",
+        "Developers needing long-running AI coding sessions",
+        "Teams wanting MCP-integrated agent workflows"
+      ],
+      "zh": [
+        "希望成本高效编码的 DeepSeek R1 用户",
+        "需要长时间运行 AI 编码会话的开发者",
+        "需要 MCP 集成智能体工作流的团队"
+      ],
+      "ja": [
+        "コスト効率の高いコーディングを求めるDeepSeek R1ユーザー",
+        "長時間のAIコーディングセッションが必要な開発者",
+        "MCP統合エージェントワークフローが必要なチーム"
+      ],
+      "es": [
+        "Usuarios de DeepSeek R1 que buscan codificación rentable",
+        "Desarrolladores que necesitan sesiones largas de codificación IA",
+        "Equipos que necesitan flujos de trabajo de agentes integrados con MCP"
+      ],
+      "fr": [
+        "Utilisateurs DeepSeek R1 recherchant un codage rentable",
+        "Développeurs ayant besoin de sessions de codage IA longues",
+        "Équipes ayant besoin de workflows d'agents intégrés MCP"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You use non-DeepSeek models (Claude Code, Codex)",
+        "You prefer a fully managed cloud solution"
+      ],
+      "zh": [
+        "你使用非 DeepSeek 模型（Claude Code、Codex）",
+        "你更喜欢完全托管的云解决方案"
+      ],
+      "ja": [
+        "DeepSeek以外のモデルを使用（Claude Code、Codex）",
+        "完全管理型クラウドソリューションを希望"
+      ],
+      "es": [
+        "Usas modelos que no son DeepSeek (Claude Code, Codex)",
+        "Prefieres una solución en la nube completamente gestionada"
+      ],
+      "fr": [
+        "Vous utilisez des modèles non DeepSeek (Claude Code, Codex)",
+        "Vous préférez une solution cloud entièrement gérée"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-08-03",
+    "verdictDate": "2026-08-03",
+    "pricingVerified": "2026-08-03",
+    "pricingUrl": "https://reasonix.io"
+  }
+}

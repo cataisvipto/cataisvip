@@ -1,0 +1,30 @@
+{
+  "slug": "openwork",
+  "name": "OpenWork",
+  "nameZh": "OpenWork",
+  "description": "开源 AI 智能体桌面应用，支持 50+ 大模型、浏览器自动化、团队协作，被称为 Claude Cowork 的开源替代",
+  "descriptionEn": "Open-source AI agent desktop app supporting 50+ LLMs, browser automation, and team collaboration — the open-source Claude Cowork alternative",
+  "descriptionJa": "50以上のLLMに対応するオープンソースAIエージェントデスクトップアプリ。ブラウザ自動化やチームコラボレーションをサポート",
+  "descriptionEs": "Aplicación de escritorio de agente IA de código abierto compatible con más de 50 LLMs, automatización del navegador y colaboración en equipo",
+  "descriptionFr": "Application de bureau d'agent IA open source prenant en charge plus de 50 LLMs, l'automatisation du navigateur et la collaboration d'équipe",
+  "url": "https://openworklabs.com",
+  "logo": "/logos/tools/openwork.png",
+  "category": "Agent",
+  "tags": [
+    "Free",
+    "Open Source"
+  ],
+  "featured": false,
+  "developer": "Different AI",
+  "developerZh": "Different AI",
+  "platforms": {
+    "web": false,
+    "windows": true,
+    "macos": true,
+    "ios": false,
+    "android": false,
+    "linux": true,
+    "browser_extension": "unknown",
+    "api": "unknown"
+  }
+}

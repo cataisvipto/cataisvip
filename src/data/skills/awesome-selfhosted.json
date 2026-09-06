@@ -1,0 +1,75 @@
+{
+  "slug": "awesome-selfhosted",
+  "name": "Awesome Selfhosted",
+  "nameZh": "自托管软件精选",
+  "description": "自托管软件精选清单。覆盖 400+ 自托管方案的分类索引，包括 CMS、分析、通信、存储等类别。",
+  "descriptionEn": "Curated list of self-hosted software. Categorized index of 400+ self-hosted solutions including CMS, analytics, communication, storage and more.",
+  "descriptionJa": "セルフホステッドソフトウェアの厳選リスト。CMS、分析、コミュニケーション、ストレージなど400以上のセルフホステッドソリューション。",
+  "descriptionEs": "Lista seleccionada de software autoalojado. Índice de 400+ soluciones autoalojadas incluyendo CMS, analytics, comunicación, almacenamiento.",
+  "descriptionFr": "Liste organisée de logiciels auto-hébergés. Index de 400+ solutions auto-hébergées incluant CMS, analytics, communication, stockage.",
+  "developer": "awesome-selfhosted",
+  "developerZh": "awesome-selfhosted",
+  "repo": "awesome-selfhosted/awesome-selfhosted",
+  "agents": [
+    "generic"
+  ],
+  "category": "Developer",
+  "tags": [
+    "Free",
+    "Open Source"
+  ],
+  "installCommand": "See README for details.",
+  "logo": "/logos/skills/awesome-selfhosted.png",
+  "stars": 317167,
+  "featured": false,
+  "faqs": [
+    {
+      "question": {
+        "zh": "Awesome Selfhosted 是什么？",
+        "en": "What is Awesome Selfhosted?",
+        "ja": "Awesome Selfhosted とは何ですか？",
+        "es": "¿Qué es Awesome Selfhosted?",
+        "fr": "Qu'est-ce qu'Awesome Selfhosted ?"
+      },
+      "answer": {
+        "zh": "它是 GitHub 上最权威的自托管软件精选清单，收录 400+ 可以部署在自己服务器上的开源方案，按 CMS、分析、通信、存储、自动化等类别索引，是逃离 SaaS 订阅、掌控自己数据的地图。",
+        "en": "It is the most authoritative curated list of self-hosted software on GitHub: 400+ open-source solutions you can run on your own server, indexed by category — CMS, analytics, communication, storage, automation and more. A map for escaping SaaS subscriptions and owning your data.",
+        "ja": "GitHub で最も権威あるセルフホストソフトウェアの精選リストです。自分のサーバーで運用できる 400 以上のオープンソースソリューションを、CMS、分析、コミュニケーション、ストレージ、自動化などのカテゴリ別に索引化。SaaS 課金から脱出し、データを自分で管理するための地図です。",
+        "es": "Es la lista curada más autorizada de software autoalojado en GitHub: más de 400 soluciones open source para tu propio servidor, indexadas por categoría (CMS, analítica, comunicación, almacenamiento, automatización). Un mapa para escapar de las suscripciones SaaS.",
+        "fr": "C'est la liste organisée la plus reconnue de logiciels auto-hébergés sur GitHub : plus de 400 solutions open source à déployer sur votre propre serveur, indexées par catégorie — CMS, analytique, communication, stockage, automatisation. Une carte pour échapper aux abonnements SaaS et posséder vos données."
+      }
+    },
+    {
+      "question": {
+        "zh": "作为 AI 技能它怎么用？",
+        "en": "How is it used as an AI skill?",
+        "ja": "AI スキルとしてはどう使いますか？",
+        "es": "¿Cómo se usa como habilidad de IA?",
+        "fr": "Comment l'utiliser comme compétence IA ?"
+      },
+      "answer": {
+        "zh": "把清单数据交给 AI 后，你可以直接用自然语言咨询：\"帮我选一个能替代 Notion 的自托管方案\"，AI 会基于清单比较各选项的活跃度、技术栈和部署要求给出建议。用法详见 GitHub README。",
+        "en": "With the list in the AI context, you can consult in plain language: \"find me a self-hosted alternative to Notion\" — the AI compares options by activity, tech stack and deployment requirements. See the GitHub README for usage.",
+        "ja": "リストのデータを AI に渡せば、「Notion の代わりになるセルフホスト方案を選んで」のように自然言語で相談できます。AI がリストに基づき各選択肢の活発度、技術スタック、デプロイ要件を比較して提案します。使い方は GitHub README を参照してください。",
+        "es": "Con la lista en el contexto de la IA, puedes consultar en lenguaje natural: \"búscame una alternativa autoalojada a Notion\". La IA compara opciones por actividad, stack tecnológico y requisitos de despliegue. Consulta el README de GitHub.",
+        "fr": "Avec la liste dans le contexte de l'IA, consultez en langage naturel : « trouve-moi une alternative auto-hébergée à Notion » — l'IA compare les options selon l'activité, la stack technique et les exigences de déploiement. Voir le README GitHub."
+      }
+    },
+    {
+      "question": {
+        "zh": "清单里的软件都免费吗？",
+        "en": "Is all the software on the list free?",
+        "ja": "リスト内のソフトウェアはすべて無料ですか？",
+        "es": "¿Todo el software de la lista es gratuito?",
+        "fr": "Tous les logiciels de la liste sont-ils gratuits ?"
+      },
+      "answer": {
+        "zh": "清单本身免费开源，收录的绝大多数是免费开源软件，少数为源码可见的商业产品（清单会明确标注协议）。自托管的真实成本主要是服务器和你的维护时间。",
+        "en": "The list itself is free and open source. The vast majority of entries are free open-source software, with a few source-available commercial products (licenses are clearly labeled). The real cost of self-hosting is the server and your maintenance time.",
+        "ja": "リスト自体は無料のオープンソースです。掲載ソフトの大多数は無料のオープンソースで、一部ソースコード公開型の商用製品もあります（ライセンスは明記されています）。セルフホストの実際のコストは、サーバー代とあなたのメンテナンス時間です。",
+        "es": "La lista es gratuita y de código abierto. La gran mayoría de las entradas son software libre; unas pocas son productos comerciales con código visible (las licencias están claramente etiquetadas). El coste real del autoalojamiento es el servidor y tu tiempo de mantenimiento.",
+        "fr": "La liste est gratuite et open source. La grande majorité des entrées sont des logiciels libres, quelques-unes des produits commerciaux à code visible (licences clairement indiquées). Le vrai coût de l'auto-hébergement : le serveur et votre temps de maintenance."
+      }
+    }
+  ]
+}

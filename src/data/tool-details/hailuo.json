@@ -1,0 +1,235 @@
+{
+  "features": {
+    "en": [
+      "Hailuo 2.3 model renowned for physically realistic human motion — dance, sports and complex body dynamics",
+      "Text-to-video and image-to-video generation up to 1080p with strong prompt adherence",
+      "Subject reference keeps a consistent character across shots from a single photo",
+      "Built-in AI image generation alongside video in one creative workspace",
+      "Full-platform coverage: web, iOS and Android apps plus the MiniMax developer API",
+      "Credit-based tiers widely regarded as a global cost-performance benchmark for AI video"
+    ],
+    "zh": [
+      "Hailuo 2.3 模型以物理真实的人物动作著称——舞蹈、运动与复杂肢体动态",
+      "文生视频与图生视频，最高 1080p，提示词遵循能力强",
+      "主体参照功能：一张照片即可让角色在多镜头间保持一致",
+      "内置 AI 图像生成，与视频同在一个创作工作台",
+      "全平台覆盖：网页端、iOS、Android，外加 MiniMax 开发者 API",
+      "积分制套餐被广泛视为 AI 视频领域的全球性价比标杆"
+    ],
+    "ja": [
+      "Hailuo 2.3モデルは物理的にリアルな人物の動きで有名——ダンス、スポーツ、複雑な身体動作",
+      "テキストと画像からの動画生成、最大1080p、高いプロンプト忠実度",
+      "被写体参照機能：写真1枚でキャラクターを複数ショット間で一貫させる",
+      "動画と同じワークスペースにAI画像生成も内蔵",
+      "全プラットフォーム対応：Web、iOS、Androidアプリ、MiniMax開発者API",
+      "クレジット制プランはAI動画のコストパフォーマンス世界基準と広く評価"
+    ],
+    "es": [
+      "El modelo Hailuo 2.3 es célebre por el movimiento humano físicamente realista: danza, deporte y dinámicas corporales complejas",
+      "Generación texto-a-video e imagen-a-video hasta 1080p con gran fidelidad al prompt",
+      "La referencia de sujeto mantiene un personaje coherente entre tomas a partir de una sola foto",
+      "Generación de imágenes IA integrada junto al video en un mismo espacio creativo",
+      "Cobertura total de plataformas: web, apps iOS y Android, más la API de desarrolladores de MiniMax",
+      "Niveles por créditos considerados un referente mundial de relación calidad-precio en video IA"
+    ],
+    "fr": [
+      "Le modèle Hailuo 2.3 est réputé pour ses mouvements humains physiquement réalistes — danse, sport et dynamiques corporelles complexes",
+      "Génération texte-vidéo et image-vidéo jusqu'en 1080p avec une forte fidélité au prompt",
+      "La référence de sujet garde un personnage cohérent entre les plans à partir d'une seule photo",
+      "Génération d'images IA intégrée aux côtés de la vidéo dans un même espace créatif",
+      "Couverture complète : web, apps iOS et Android, plus l'API développeur MiniMax",
+      "Des forfaits à crédits largement considérés comme la référence mondiale du rapport qualité-prix en vidéo IA"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Free sign-up grants a one-time batch of trial credits to test generation; there is no recurring daily free allowance, so the free tier is best treated as a trial.",
+      "zh": "免费注册赠送一次性试用积分用于体验生成；没有每日循环的免费额度，免费档更像一次试用。",
+      "ja": "無料登録で1回限りのお試しクレジットを付与。毎日更新される無料枠はなく、無料枠は実質お試し用。",
+      "es": "El registro gratuito otorga un lote único de créditos de prueba; no hay asignación diaria recurrente, así que el nivel gratuito funciona como una prueba.",
+      "fr": "L'inscription gratuite offre un lot unique de crédits d'essai ; il n'y a pas d'allocation quotidienne récurrente, le niveau gratuit s'apparente donc à un essai."
+    },
+    "paid": {
+      "en": "Standard is about $9.99/month (~1,000 credits). Pro runs $34.99–$54.99/month (~4,500 credits). Unlimited is $94.99/month (unlimited relaxed-mode generations, newest models restricted), Ultra $124.99/month and Max $199.99/month (12,000+ credits). Developers can use the pay-as-you-go MiniMax API instead. (Verified against the official pricing page, 2026-07-28.)",
+      "zh": "Standard 约 $9.99/月（约 1000 积分）；Pro $34.99–$54.99/月（约 4500 积分）；Unlimited $94.99/月（放松模式无限生成，最新模型受限）；Ultra $124.99/月；Max $199.99/月（12000+ 积分）。开发者也可改用按量计费的 MiniMax API。（对照官方定价页核实，2026-07-28。）",
+      "ja": "Standardは月約$9.99（約1,000クレジット）。Proは月$34.99〜$54.99（約4,500クレジット）。Unlimitedは月$94.99（リラックスモード無制限、最新モデルは制限あり）、Ultraは月$124.99、Maxは月$199.99（12,000+クレジット）。開発者は従量課金のMiniMax APIも利用可能。（公式価格ページと照合、2026-07-28。）",
+      "es": "Standard cuesta unos $9.99/mes (~1.000 créditos). Pro va de $34.99 a $54.99/mes (~4.500 créditos). Unlimited cuesta $94.99/mes (generación ilimitada en modo relajado, modelos más nuevos restringidos), Ultra $124.99/mes y Max $199.99/mes (12.000+ créditos). Los desarrolladores pueden usar la API de MiniMax de pago por uso. (Verificado con la página oficial, 2026-07-28.)",
+      "fr": "Standard coûte environ 9,99 $/mois (~1 000 crédits). Pro va de 34,99 $ à 54,99 $/mois (~4 500 crédits). Unlimited est à 94,99 $/mois (générations illimitées en mode détendu, derniers modèles restreints), Ultra à 124,99 $/mois et Max à 199,99 $/mois (12 000+ crédits). Les développeurs peuvent opter pour l'API MiniMax à l'usage. (Vérifié avec la page officielle, 2026-07-28.)"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Short-form videos featuring dancing, sports or expressive human motion",
+      "Turning product shots or character art into moving clips via image-to-video",
+      "Keeping one character consistent across a multi-shot story with subject reference",
+      "Developers adding video generation to apps through the MiniMax API"
+    ],
+    "zh": [
+      "以舞蹈、运动或富有表现力的人物动作为主的短视频",
+      "用图生视频把产品图或角色立绘变成动态片段",
+      "借助主体参照让同一角色贯穿多镜头故事",
+      "开发者通过 MiniMax API 为应用接入视频生成"
+    ],
+    "ja": [
+      "ダンス、スポーツ、表現力豊かな人物の動きを主役にしたショート動画",
+      "画像から動画への変換で商品写真やキャラアートを動かす",
+      "被写体参照でマルチショットの物語に同一キャラクターを貫かせる",
+      "MiniMax API でアプリに動画生成を組み込む開発者"
+    ],
+    "es": [
+      "Videos cortos protagonizados por danza, deporte o movimiento humano expresivo",
+      "Convertir fotos de producto o arte de personajes en clips animados con imagen-a-video",
+      "Mantener un personaje coherente en una historia de varias tomas con referencia de sujeto",
+      "Desarrolladores que añaden generación de video a sus apps mediante la API de MiniMax"
+    ],
+    "fr": [
+      "Vidéos courtes mettant en scène danse, sport ou mouvements humains expressifs",
+      "Transformer des photos produit ou des illustrations de personnages en clips animés via image-vidéo",
+      "Garder un personnage cohérent dans une histoire multi-plans grâce à la référence de sujet",
+      "Développeurs ajoutant la génération vidéo à leurs apps via l'API MiniMax"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Best-in-class physical realism for human motion — a frequent blind-test favorite",
+      "Excellent price-to-quality ratio versus Western rivals at similar fidelity",
+      "Full platform coverage: web, mobile apps and a mature developer API",
+      "Backed by MiniMax, a well-funded lab that ships model updates quickly"
+    ],
+    "zh": [
+      "人物动作物理真实感一流——盲测中常被选为最爱",
+      "对比同等质量的欧美对手，价格质量比出色",
+      "平台覆盖全面：网页、移动 App 与成熟的开发者 API",
+      "背靠资金充足的 MiniMax，模型更新节奏快"
+    ],
+    "ja": [
+      "人物の動きの物理的リアリズムはトップクラス——ブラインドテストで人気",
+      "同等品質の欧米ライバルと比べ価格対品質比が優秀",
+      "Web、モバイルアプリ、成熟した開発者APIとプラットフォームが充実",
+      "資金力のあるMiniMaxが支え、モデル更新が速い"
+    ],
+    "es": [
+      "Realismo físico del movimiento humano de primera clase, favorito frecuente en pruebas ciegas",
+      "Excelente relación precio-calidad frente a rivales occidentales de fidelidad similar",
+      "Cobertura completa de plataformas: web, apps móviles y una API de desarrollador madura",
+      "Respaldado por MiniMax, un laboratorio bien financiado que actualiza modelos con rapidez"
+    ],
+    "fr": [
+      "Réalisme physique du mouvement humain parmi les meilleurs — souvent plébiscité en test à l'aveugle",
+      "Excellent rapport prix-qualité face aux rivaux occidentaux à fidélité comparable",
+      "Couverture complète : web, apps mobiles et une API développeur mature",
+      "Soutenu par MiniMax, un labo bien financé qui livre des mises à jour de modèles rapidement"
+    ]
+  },
+  "cons": {
+    "en": [
+      "The free tier has shrunk to a one-time trial with no recurring daily credits",
+      "Top tiers get expensive, and Unlimited restricts access to the newest models",
+      "Clips remain short (seconds-long); longer narratives need stitching",
+      "Peak-time queues can be slow on lower tiers"
+    ],
+    "zh": [
+      "免费档已缩水为一次性试用，无每日循环积分",
+      "高档位价格不菲，且 Unlimited 对最新模型有限制",
+      "单段视频仍然很短（数秒级），长叙事需要拼接",
+      "低档位在高峰期排队可能较慢"
+    ],
+    "ja": [
+      "無料枠は1回限りのお試しに縮小され、毎日のクレジット付与はない",
+      "上位プランは高額で、Unlimitedは最新モデルへのアクセスに制限",
+      "1本の動画は依然短く（数秒）、長い物語はつなぎ合わせが必要",
+      "下位プランではピーク時のキューが遅くなりがち"
+    ],
+    "es": [
+      "El nivel gratuito se redujo a una prueba única sin créditos diarios recurrentes",
+      "Los niveles altos son caros y Unlimited restringe los modelos más nuevos",
+      "Los clips siguen siendo cortos (segundos); las narrativas largas requieren montaje",
+      "Las colas en horas punta pueden ser lentas en los niveles bajos"
+    ],
+    "fr": [
+      "Le niveau gratuit s'est réduit à un essai unique sans crédits quotidiens récurrents",
+      "Les forfaits supérieurs coûtent cher, et Unlimited restreint l'accès aux modèles les plus récents",
+      "Les clips restent courts (quelques secondes) ; les récits longs demandent du montage",
+      "Les files d'attente aux heures de pointe peuvent être lentes sur les petits forfaits"
+    ]
+  },
+  "latestUpdate": {
+    "en": "2026: Hailuo 2.3 headlines the platform with markedly better physical realism in human motion and stronger style consistency, while MiniMax keeps pushing the cost-per-clip down — cementing Hailuo's reputation as the value benchmark of AI video. The lineup now spans web, iOS, Android and the MiniMax API, with tiers from ~$9.99 Standard up to a $199.99 Max plan.",
+    "zh": "2026 年：Hailuo 2.3 领衔平台，人物动作的物理真实感与风格一致性显著提升，MiniMax 持续压低单条视频成本——巩固了海螺作为 AI 视频性价比标杆的口碑。产品线覆盖网页、iOS、Android 与 MiniMax API，套餐从约 $9.99 的 Standard 到 $199.99 的 Max。",
+    "ja": "2026年：Hailuo 2.3がプラットフォームの主役となり、人物動作の物理的リアリズムとスタイル一貫性が大幅に向上。MiniMaxはクリップ単価を下げ続け、AI動画のコスパ基準としての評判を固めた。Web、iOS、Android、MiniMax APIを網羅し、プランは約$9.99のStandardから$199.99のMaxまで。",
+    "es": "2026: Hailuo 2.3 encabeza la plataforma con un realismo físico notablemente mejor en el movimiento humano y mayor consistencia de estilo, mientras MiniMax sigue bajando el coste por clip, consolidando a Hailuo como el referente de valor del video IA. La oferta abarca web, iOS, Android y la API de MiniMax, con niveles desde ~$9.99 (Standard) hasta $199.99 (Max).",
+    "fr": "2026 : Hailuo 2.3 est la tête d'affiche de la plateforme, avec un réalisme physique nettement meilleur des mouvements humains et une cohérence de style renforcée, tandis que MiniMax continue de faire baisser le coût par clip — consolidant la réputation de Hailuo comme référence du rapport qualité-prix en vidéo IA. L'offre couvre web, iOS, Android et l'API MiniMax, avec des forfaits d'environ 9,99 $ (Standard) à 199,99 $ (Max)."
+  },
+  "verdict": {
+    "badge": "Recommended",
+    "headline": {
+      "en": "The value benchmark of AI video, with human motion few rivals can match",
+      "zh": "AI 视频的性价比标杆，人物动作少有对手",
+      "ja": "AI動画のコスパ基準、人物の動きは他の追随を許さない",
+      "es": "El referente de valor del video IA, con un movimiento humano difícil de igualar",
+      "fr": "La référence qualité-prix de la vidéo IA, avec des mouvements humains presque inégalés"
+    },
+    "body": {
+      "en": "Hailuo AI is MiniMax's video arm, and it has carved out a very specific reputation: when a clip involves people actually moving — dancing, fighting, playing sports — Hailuo's output tends to look more physically believable than most rivals at any price. The Hailuo 2.3 model doubled down on exactly that, and combined with credit prices that undercut Western competitors of similar quality, it has become the de facto value benchmark of AI video. The workflow is complete too: text-to-video and image-to-video on web and mobile, subject reference for character consistency, and a pay-as-you-go MiniMax API for developers. The caveats are real but manageable. The once-generous free tier has shrunk to a one-time trial, the top plans climb toward $200/month, and the Unlimited plan's fine print excludes the newest models. Clips are still seconds long, so longer stories mean stitching. But if you judge an AI video tool by what you get per dollar — especially for human motion — Hailuo is one of the first names to try.",
+      "zh": "海螺AI 是 MiniMax 的视频业务线，而它闯出了一个非常具体的名声：只要片段涉及真正的人物运动——跳舞、打斗、运动——海螺的输出在任何价位上往往都比大多数对手更符合物理规律。Hailuo 2.3 模型正是在这一点上加倍下注，再配上低于同等质量欧美竞品的积分价格，它已成为 AI 视频事实上的性价比标杆。工作流也很完整：网页与移动端的文生/图生视频、保证角色一致性的主体参照、面向开发者的按量计费 MiniMax API。缺点真实存在但可控：曾经慷慨的免费档缩水成一次性试用，顶级套餐逼近 $200/月，Unlimited 的细则还把最新模型排除在外。单段视频仍是数秒级，长故事需要拼接。但如果你用「每一美元能换到什么」来评判 AI 视频工具——尤其看重人物动作——海螺是最值得先试的名字之一。",
+      "ja": "海螺AI（Hailuo）はMiniMaxの動画部門であり、非常に明確な評判を築いてきた。ダンス、格闘、スポーツなど人が実際に動くクリップでは、Hailuoの出力はどの価格帯のライバルよりも物理的に説得力があることが多い。Hailuo 2.3モデルはまさにその強みを倍加させ、同等品質の欧米競合を下回るクレジット価格と相まって、AI動画の事実上のコスパ基準となった。ワークフローも完備：Webとモバイルでのテキスト/画像からの動画生成、キャラクター一貫性のための被写体参照、開発者向け従量課金のMiniMax API。注意点は実在するが対処可能だ。かつて寛大だった無料枠は1回限りのお試しに縮小し、上位プランは月$200近くまで上昇、Unlimitedプランの細則は最新モデルを除外している。クリップは依然数秒で、長い物語にはつなぎ合わせが必要。しかし「1ドルで何が得られるか」でAI動画ツールを評価するなら——特に人物の動き重視なら——Hailuoは最初に試すべき名前の一つだ。",
+      "es": "Hailuo AI es el brazo de video de MiniMax, y se ha labrado una reputación muy concreta: cuando un clip implica personas moviéndose de verdad —bailando, peleando, haciendo deporte—, su resultado suele verse más creíble físicamente que el de la mayoría de rivales a cualquier precio. El modelo Hailuo 2.3 redobló justo esa apuesta y, combinado con precios de créditos por debajo de competidores occidentales de calidad similar, se ha convertido en el referente de valor de facto del video IA. El flujo de trabajo también está completo: texto-a-video e imagen-a-video en web y móvil, referencia de sujeto para la coherencia de personajes y una API de MiniMax de pago por uso para desarrolladores. Las pegas son reales pero manejables: el otrora generoso nivel gratuito quedó en una prueba única, los planes altos rozan los $200/mes y la letra pequeña de Unlimited excluye los modelos más nuevos. Los clips siguen durando segundos, así que las historias largas requieren montaje. Pero si juzgas una herramienta de video IA por lo que obtienes por dólar —sobre todo en movimiento humano—, Hailuo es de los primeros nombres a probar.",
+      "fr": "Hailuo AI est la branche vidéo de MiniMax, et elle s'est taillé une réputation très précise : dès qu'un clip implique des personnes qui bougent vraiment — danse, combat, sport — le rendu de Hailuo paraît plus crédible physiquement que celui de la plupart des rivaux, à n'importe quel prix. Le modèle Hailuo 2.3 a redoublé sur ce point fort et, combiné à des prix de crédits inférieurs aux concurrents occidentaux de qualité comparable, il est devenu la référence qualité-prix de facto de la vidéo IA. Le workflow est complet : texte-vidéo et image-vidéo sur web et mobile, référence de sujet pour la cohérence des personnages, et une API MiniMax à l'usage pour les développeurs. Les réserves sont réelles mais gérables : le niveau gratuit autrefois généreux s'est réduit à un essai unique, les forfaits supérieurs frôlent les 200 $/mois, et les conditions d'Unlimited excluent les modèles les plus récents. Les clips durent encore quelques secondes, les histoires longues exigent donc du montage. Mais si vous jugez un outil de vidéo IA à ce qu'il offre par dollar — surtout pour le mouvement humain — Hailuo est l'un des premiers noms à essayer."
+    },
+    "bestFor": {
+      "en": [
+        "Creators whose clips center on realistic human motion — dance, sports, action",
+        "Budget-conscious users wanting near-top quality at lower credit prices",
+        "Developers integrating video generation via the MiniMax API"
+      ],
+      "zh": [
+        "以真实人物动作为核心的创作者——舞蹈、运动、动作戏",
+        "在意预算、想以更低积分价格获得接近顶级质量的用户",
+        "通过 MiniMax API 集成视频生成的开发者"
+      ],
+      "ja": [
+        "リアルな人物の動きが主役のクリエイター——ダンス、スポーツ、アクション",
+        "より低いクレジット価格でトップ級の品質を求める予算重視ユーザー",
+        "MiniMax APIで動画生成を組み込む開発者"
+      ],
+      "es": [
+        "Creadores cuyos clips giran en torno al movimiento humano realista: danza, deporte, acción",
+        "Usuarios con presupuesto ajustado que quieren calidad casi tope a precios de crédito más bajos",
+        "Desarrolladores que integran generación de video vía la API de MiniMax"
+      ],
+      "fr": [
+        "Créateurs dont les clips reposent sur des mouvements humains réalistes — danse, sport, action",
+        "Utilisateurs soucieux du budget voulant une qualité quasi haut de gamme à moindre coût en crédits",
+        "Développeurs intégrant la génération vidéo via l'API MiniMax"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You need a recurring free tier for daily practice (→ PixVerse)",
+        "You want the most cinematic, film-grade look regardless of price (→ Sora / Veo)"
+      ],
+      "zh": [
+        "你需要可每日循环的免费额度来日常练手（→ PixVerse）",
+        "你不计成本追求最电影级的画面质感（→ Sora / Veo）"
+      ],
+      "ja": [
+        "毎日更新される無料枠で日々練習したい（→ PixVerse）",
+        "価格を問わず最も映画的な画作りが欲しい（→ Sora / Veo）"
+      ],
+      "es": [
+        "Necesitas un nivel gratuito recurrente para practicar a diario (→ PixVerse)",
+        "Quieres el look más cinematográfico sin importar el precio (→ Sora / Veo)"
+      ],
+      "fr": [
+        "Vous avez besoin d'un niveau gratuit récurrent pour pratiquer au quotidien (→ PixVerse)",
+        "Vous voulez le rendu le plus cinématographique, quel que soit le prix (→ Sora / Veo)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-28",
+    "verdictDate": "2026-07-28",
+    "pricingVerified": "2026-07-28",
+    "pricingUrl": "https://hailuoai.video/pricing"
+  }
+}

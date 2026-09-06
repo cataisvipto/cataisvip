@@ -1,0 +1,29 @@
+{
+  "slug": "seedance",
+  "name": "Seedance",
+  "nameZh": "Seedance",
+  "description": "字节跳动推出的 AI 视频生成平台（国际版），即梦 AI 的国际版本，支持文本和图像生成高保真视频，物理模拟逼真",
+  "descriptionEn": "ByteDance's AI video generation platform (International version), the international version of Jimeng AI, supporting high-fidelity text-to-video and image-to-video with realistic physics simulation",
+  "descriptionJa": "ByteDanceのAI動画生成プラットフォーム（国際版）。即夢AIの国際版、テキストと画像から高忠実度の動画を生成、リアルな物理シミュレーション",
+  "descriptionEs": "Plataforma de generación de video IA de ByteDance (versión internacional), la versión internacional de Jimeng AI, compatible con conversión de texto a video y imagen a video de alta fidelidad con simulación física realista",
+  "descriptionFr": "Plateforme de génération vidéo IA de ByteDance (version internationale), la version internationale de Jimeng AI, prenant en charge la conversion texte-vidéo et image-vidéo haute fidélité avec simulation physique réaliste",
+  "url": "https://seed.bytedance.com/seedance",
+  "logo": "/logos/tools/seedance.png",
+  "category": "Video",
+  "tags": [
+    "Freemium"
+  ],
+  "featured": false,
+  "developer": "ByteDance",
+  "developerZh": "字节跳动",
+  "platforms": {
+    "web": true,
+    "windows": false,
+    "macos": false,
+    "ios": false,
+    "android": false,
+    "linux": false,
+    "browser_extension": false,
+    "api": true
+  }
+}

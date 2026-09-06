@@ -1,0 +1,31 @@
+{
+  "slug": "markitdown",
+  "name": "MarkItDown",
+  "nameZh": "MarkItDown",
+  "description": "微软开源的轻量文件转 Markdown 工具：把 PDF、PPT、Word、Excel、图片、音频、HTML、YouTube 等转换为结构化 Markdown，专门为 LLM 设计。",
+  "descriptionEn": "Microsoft's lightweight Python utility that converts files to Markdown for LLM use — supports PDF, PowerPoint, Word, Excel, images (EXIF+OCR), audio (transcription), HTML, YouTube URLs, EPUBs and more.",
+  "descriptionJa": "Microsoft 製の軽量ファイル→Markdown変換ツール。PDF、PowerPoint、Word、Excel、画像（EXIF+OCR）、音声（文字起こし）、HTML、YouTube URL、EPUBなどをLLM向けに構造化Markdownへ変換。",
+  "descriptionEs": "Utilidad ligera de Microsoft que convierte archivos a Markdown para LLM — soporta PDF, PowerPoint, Word, Excel, imágenes (EXIF+OCR), audio (transcripción), HTML, URLs de YouTube, EPUBs y más.",
+  "descriptionFr": "Utilitaire léger de Microsoft qui convertit des fichiers en Markdown pour les LLM — prend en charge PDF, PowerPoint, Word, Excel, images (EXIF+OCR), audio (transcription), HTML, URLs YouTube, EPUB et plus.",
+  "url": "https://github.com/microsoft/markitdown",
+  "logo": "/logos/tools/markitdown.png",
+  "category": "Code",
+  "tags": [
+    "Open Source",
+    "Free"
+  ],
+  "featured": false,
+  "homeFeatured": false,
+  "developer": "Microsoft",
+  "developerZh": "微软",
+  "platforms": {
+    "web": false,
+    "windows": true,
+    "macos": true,
+    "linux": true,
+    "ios": false,
+    "android": false,
+    "browser_extension": false,
+    "api": true
+  }
+}

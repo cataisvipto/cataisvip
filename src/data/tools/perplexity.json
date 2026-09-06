@@ -1,0 +1,29 @@
+{
+  "slug": "perplexity",
+  "name": "Perplexity",
+  "nameZh": "Perplexity",
+  "description": "AI 搜索引擎，实时联网搜索并提供带引用来源的答案",
+  "descriptionEn": "AI search engine providing real-time answers with cited sources",
+  "descriptionJa": "リアルタイム検索AIエンジン。引用元付きの回答を提供",
+  "descriptionEs": "Motor de búsqueda IA que proporciona respuestas en tiempo real con fuentes citadas",
+  "descriptionFr": "Moteur de recherche IA fournissant des réponses en temps réel avec sources citées",
+  "url": "https://www.perplexity.ai",
+  "logo": "/logos/tools/perplexity.png",
+  "category": "Search",
+  "tags": [
+    "Freemium",
+    "API"
+  ],
+  "featured": true,
+  "developer": "Perplexity AI",
+  "platforms": {
+    "web": true,
+    "windows": true,
+    "macos": true,
+    "ios": true,
+    "android": true,
+    "linux": false,
+    "browser_extension": true,
+    "api": true
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "slug": "supabase-mcp",
+  "name": "Supabase MCP",
+  "nameZh": "Supabase 官方 MCP",
+  "description": "Supabase 官方 MCP 服务器。让智能体直接管理 Supabase 项目：查询表结构、执行 SQL、应用迁移、管理配置，数据库开发全流程打通。",
+  "descriptionEn": "Supabase's official MCP server. Lets agents manage Supabase projects directly: inspect tables, run SQL, apply migrations and manage config — the full database development loop.",
+  "descriptionJa": "Supabase公式MCPサーバー。エージェントがSupabaseプロジェクトを直接管理：テーブル参照、SQL実行、マイグレーション適用、設定管理までデータベース開発を一気通貫。",
+  "descriptionEs": "El servidor MCP oficial de Supabase. Permite a los agentes gestionar proyectos Supabase directamente: inspeccionar tablas, ejecutar SQL, aplicar migraciones y gestionar la configuración.",
+  "descriptionFr": "Le serveur MCP officiel de Supabase. Permet aux agents de gérer directement les projets Supabase : inspection des tables, exécution SQL, migrations et gestion de la configuration.",
+  "developer": "Supabase",
+  "developerZh": "Supabase",
+  "repo": "supabase/mcp",
+  "clients": [
+    "claude",
+    "cursor",
+    "vscode",
+    "windsurf",
+    "generic"
+  ],
+  "category": "Cloud",
+  "tags": [
+    "Free",
+    "Open Source",
+    "API"
+  ],
+  "installCommand": "npx -y @supabase/mcp-server-supabase@latest",
+  "logo": "/logos/mcp/supabase-mcp.png",
+  "stars": 2890,
+  "featured": false,
+  "faqs": [
+    {
+      "question": {
+        "zh": "Supabase MCP 能帮 AI 做什么？",
+        "en": "What can AI do with the Supabase MCP server?",
+        "ja": "Supabase MCP で AI は何ができますか？",
+        "es": "¿Qué puede hacer la IA con el servidor MCP de Supabase?",
+        "fr": "Que peut faire l'IA avec le serveur MCP Supabase ?"
+      },
+      "answer": {
+        "zh": "它把你的 Supabase 项目接给 AI：查询和设计数据库表、执行 SQL、管理项目配置、拉取日志排障、生成 TypeScript 类型，适合全程在对话里完成后端开发。",
+        "en": "It connects your Supabase project to AI: querying and designing tables, running SQL, managing project config, fetching logs for debugging and generating TypeScript types — backend development without leaving the conversation.",
+        "ja": "Supabase プロジェクトを AI に接続します。テーブルの設計と照会、SQL 実行、プロジェクト設定の管理、ログ取得によるトラブルシューティング、TypeScript 型生成など、会話の中でバックエンド開発を完結できます。",
+        "es": "Conecta tu proyecto de Supabase a la IA: consultar y diseñar tablas, ejecutar SQL, gestionar la configuración, obtener logs para depurar y generar tipos TypeScript. Desarrollo backend sin salir de la conversación.",
+        "fr": "Il connecte votre projet Supabase à l'IA : interroger et concevoir des tables, exécuter du SQL, gérer la configuration, récupérer des logs pour déboguer et générer des types TypeScript — le développement backend sans quitter la conversation."
+      }
+    },
+    {
+      "question": {
+        "zh": "怎么安装 Supabase MCP？",
+        "en": "How do I install the Supabase MCP server?",
+        "ja": "Supabase MCP をインストールするには？",
+        "es": "¿Cómo instalo el servidor MCP de Supabase?",
+        "fr": "Comment installer le serveur MCP Supabase ?"
+      },
+      "answer": {
+        "zh": "在 MCP 客户端配置 npx -y @supabase/mcp-server-supabase@latest，并提供 Supabase 个人访问令牌（PAT）。建议加 --read-only 和 --project-ref 参数限定只读与单项目范围。",
+        "en": "Configure npx -y @supabase/mcp-server-supabase@latest in your MCP client and provide a Supabase personal access token (PAT). Adding --read-only and --project-ref flags to scope it to read-only, single-project access is recommended.",
+        "ja": "MCP クライアントに npx -y @supabase/mcp-server-supabase@latest を設定し、Supabase のパーソナルアクセストークン（PAT）を渡します。--read-only と --project-ref フラグで読み取り専用・単一プロジェクトに限定するのが推奨です。",
+        "es": "Configura npx -y @supabase/mcp-server-supabase@latest en tu cliente MCP y proporciona un token de acceso personal (PAT) de Supabase. Se recomienda añadir --read-only y --project-ref para limitarlo a solo lectura y un único proyecto.",
+        "fr": "Configurez npx -y @supabase/mcp-server-supabase@latest dans votre client MCP avec un jeton d'accès personnel (PAT) Supabase. Il est recommandé d'ajouter --read-only et --project-ref pour limiter l'accès en lecture seule à un seul projet."
+      }
+    },
+    {
+      "question": {
+        "zh": "Supabase MCP 在生产数据库上安全吗？",
+        "en": "Is the Supabase MCP server safe to use on production databases?",
+        "ja": "Supabase MCP は本番データベースで安全に使えますか？",
+        "es": "¿Es seguro usar el servidor MCP de Supabase en bases de datos de producción?",
+        "fr": "Le serveur MCP Supabase est-il sûr sur des bases de production ?"
+      },
+      "answer": {
+        "zh": "服务器免费开源，但官方建议不要直连生产库：优先在开发项目上使用，开启 --read-only，并只授予必要的项目范围，防止 AI 误操作破坏数据。",
+        "en": "The server is free and open source, but Supabase officially advises against pointing it at production: prefer development projects, enable --read-only, and grant only the necessary project scope to prevent accidental data damage by the AI.",
+        "ja": "サーバーは無料のオープンソースですが、公式は本番接続を推奨していません。開発プロジェクトでの利用を優先し、--read-only を有効にして必要最小限のプロジェクト範囲のみ許可することで、AI の誤操作によるデータ破損を防げます。",
+        "es": "El servidor es gratuito y de código abierto, pero Supabase desaconseja oficialmente conectarlo a producción: usa proyectos de desarrollo, activa --read-only y concede solo el ámbito necesario para evitar daños accidentales.",
+        "fr": "Le serveur est gratuit et open source, mais Supabase déconseille officiellement de le brancher sur la production : privilégiez les projets de développement, activez --read-only et n'accordez que le périmètre nécessaire pour éviter tout dégât accidentel."
+      }
+    }
+  ]
+}

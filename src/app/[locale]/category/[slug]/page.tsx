@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
-import tools from '@/data/tools.json';
+import { tools } from '@/data/aggregated';
 import { generateAlternates, getCategorySeo, BASE_URL } from '@/lib/seo';
 import type { Tool } from '@/components/ToolCard';
 import CategoryClient from './CategoryClient';

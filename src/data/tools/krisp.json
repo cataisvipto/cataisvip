@@ -1,0 +1,29 @@
+{
+  "slug": "krisp",
+  "name": "Krisp",
+  "nameZh": "Krisp",
+  "description": "AI 降噪赛道的事实标准，双向去除通话背景噪声与回声、兼容 800+ 通讯应用，AI 会议纪要无需机器人入会，2025 年主打的实时口音转换面向呼叫中心，另有 SDK；免费档每天 60 分钟、Pro 约 $8/月（年付）",
+  "descriptionEn": "The de-facto standard in AI noise cancellation: removes background noise and echo both ways across 800+ calling apps, takes AI meeting notes without a bot joining, and its 2025 flagship real-time Accent Conversion targets call centers, with an SDK for developers — free tier of 60 minutes a day, Pro around $8/month billed annually",
+  "descriptionJa": "AIノイズキャンセリングの事実上の標準。800超の通話アプリで双方向の背景ノイズとエコーを除去し、ボットを入室させずにAI議事録を作成。2025年の目玉であるリアルタイム訛り変換はコールセンター向け。開発者向けSDKも提供。無料枠は1日60分、Proは年払いで月約$8",
+  "descriptionEs": "El estándar de facto en cancelación de ruido con IA: elimina ruido de fondo y eco en ambos sentidos en más de 800 apps de llamadas, toma notas de reunión con IA sin que entre ningún bot, y su conversión de acento en tiempo real de 2025 apunta a los call centers, con SDK para desarrolladores — nivel gratuito de 60 minutos al día, Pro alrededor de $8/mes con pago anual",
+  "descriptionFr": "Le standard de fait de la réduction de bruit par IA : supprime bruit de fond et écho dans les deux sens sur plus de 800 apps d'appel, prend des notes de réunion IA sans bot invité, et sa conversion d'accent en temps réel phare de 2025 vise les centres d'appels, avec un SDK développeur — offre gratuite de 60 minutes par jour, Pro autour de 8 $/mois en annuel",
+  "url": "https://krisp.ai",
+  "logo": "/logos/tools/krisp.png",
+  "category": "Audio",
+  "tags": [
+    "Freemium",
+    "API"
+  ],
+  "featured": false,
+  "developer": "Krisp Technologies",
+  "platforms": {
+    "web": false,
+    "windows": true,
+    "macos": true,
+    "ios": true,
+    "android": true,
+    "linux": false,
+    "browser_extension": false,
+    "api": true
+  }
+}

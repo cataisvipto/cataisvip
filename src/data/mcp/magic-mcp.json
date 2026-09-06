@@ -1,0 +1,80 @@
+{
+  "slug": "magic-mcp",
+  "name": "Magic MCP",
+  "nameZh": "Magic MCP",
+  "description": "21st-dev 出品的 Magic MCP 服务器，让 AI 智能体在编码时搜索 10,000+ 个 React/Tailwind 组件，直接生成可用的 UI 代码。就像在 IDE 里内置了 v0。",
+  "descriptionEn": "The Magic MCP server by 21st-dev. Lets AI agents search 10,000+ React/Tailwind components while coding, generating production-ready UI code directly. It's like having v0 built into your IDE.",
+  "descriptionJa": "21st-dev による Magic MCP サーバー。AI エージェントがコーディング中に 10,000 以上の React/Tailwind コンポーネントを検索し、本番で使える UI コードを直接生成できます。IDE に v0 が組み込まれているような感覚です。",
+  "descriptionEs": "El servidor Magic MCP de 21st-dev. Permite a los agentes de IA buscar más de 10,000 componentes React/Tailwind mientras codifican, generando código UI listo para producción directamente. Es como tener v0 integrado en tu IDE.",
+  "descriptionFr": "Le serveur Magic MCP de 21st-dev. Permet aux agents IA de rechercher plus de 10 000 composants React/Tailwind pendant le codage, générant directement du code UI prêt pour la production. C'est comme avoir v0 intégré dans votre IDE.",
+  "developer": "21st-dev",
+  "developerZh": "21st-dev",
+  "repo": "21st-dev/magic-mcp",
+  "clients": [
+    "claude",
+    "cursor",
+    "vscode",
+    "windsurf",
+    "codex",
+    "generic"
+  ],
+  "category": "Developer",
+  "tags": [
+    "Free",
+    "API"
+  ],
+  "installCommand": "npx -y @21st-dev/magic-mcp",
+  "logo": "/logos/mcp/magic-mcp.png",
+  "stars": 5797,
+  "featured": false,
+  "faqs": [
+    {
+      "question": {
+        "zh": "Magic MCP 能做什么？",
+        "en": "What can Magic MCP do?",
+        "ja": "Magic MCP は何ができますか？",
+        "es": "¿Qué puede hacer Magic MCP?",
+        "fr": "Que peut faire Magic MCP ?"
+      },
+      "answer": {
+        "zh": "在编码过程中，AI 智能体可以搜索 10,000+ 个高质量 React/Tailwind 组件库，直接找到适合当前需求的 UI 组件并生成代码。包含按钮、表单、导航、卡片、弹窗等常见 UI 模式，减少从零写样式的时间。",
+        "en": "While coding, AI agents can search 10,000+ high-quality React/Tailwind component libraries, finding the right UI component for your current need and generating the code directly. Includes buttons, forms, navigation, cards, modals and common UI patterns — reducing time spent writing styles from scratch.",
+        "ja": "コーディング中に、AI エージェントが 10,000 以上の高品質な React/Tailwind コンポーネントライブラリを検索し、現在のニーズに合った UI コンポーネントを見つけてコードを直接生成します。ボタン、フォーム、ナビゲーション、カード、モーダルなどの一般的な UI パターンを含み、ゼロからスタイルを書く時間を削減します。",
+        "es": "Mientras codificas, los agentes de IA pueden buscar en más de 10,000 bibliotecas de componentes React/Tailwind de alta calidad, encontrar el componente UI adecuado para tu necesidad actual y generar el código directamente. Incluye botones, formularios, navegación, tarjetas, modales y patrones UI comunes — reduciendo el tiempo dedicado a escribir estilos desde cero.",
+        "fr": "Pendant le codage, les agents IA peuvent rechercher plus de 10 000 bibliothèques de composants React/Tailwind de haute qualité, trouver le composant UI adapté à votre besoin actuel et générer le code directement. Inclut boutons, formulaires, navigation, cartes, modales et motifs UI courants — réduisant le temps passé à écrire des styles from scratch."
+      }
+    },
+    {
+      "question": {
+        "zh": "Magic MCP 需要 API Key 吗？",
+        "en": "Does Magic MCP need an API key?",
+        "ja": "Magic MCP に API キーは必要ですか？",
+        "es": "¿Magic MCP necesita una clave API?",
+        "fr": "Magic MCP a-t-il besoin d'une clé API ?"
+      },
+      "answer": {
+        "zh": "需要。在 21st.dev 注册获取 API Key，通过 --api-key 参数传入。Magic MCP 提供免费额度供开发测试，超出后按使用量计费。",
+        "en": "Yes. Register at 21st.dev to get an API key, and pass it with --api-key. Magic MCP offers a free tier for development and testing, with usage-based billing beyond that.",
+        "ja": "必要です。21st.dev でアカウント登録して API キーを取得し、--api-key パラメータで渡します。Magic MCP は開発テスト用の無料枠を提供しており、それを超えると従量課金となります。",
+        "es": "Sí. Regístrate en 21st.dev para obtener una clave API y pásala con --api-key. Magic MCP ofrece un nivel gratuito para desarrollo y pruebas, con facturación basada en uso más allá de eso.",
+        "fr": "Oui. Inscrivez-vous sur 21st.dev pour obtenir une clé API et passez-la avec --api-key. Magic MCP offre un niveau gratuit pour le développement et les tests, avec une facturation à l'usage au-delà."
+      }
+    },
+    {
+      "question": {
+        "zh": "Magic MCP 和 v0 有什么区别？",
+        "en": "How is Magic MCP different from v0?",
+        "ja": "Magic MCP と v0 の違いは？",
+        "es": "¿En qué se diferencia Magic MCP de v0?",
+        "fr": "En quoi Magic MCP diffère-t-il de v0 ?"
+      },
+      "answer": {
+        "zh": "v0 是网页端工具，需要复制粘贴结果。Magic MCP 直接嵌入你的 IDE，AI 智能体在编码过程中自动搜索并生成组件代码，无需离开编辑器。组件库也经过专门筛选，更适合在实际项目中直接使用。",
+        "en": "v0 is a web-based tool requiring copy-paste. Magic MCP embeds directly into your IDE — AI agents automatically search and generate component code during coding without leaving your editor. The component library is also curated for real-world project use.",
+        "ja": "v0 は Web ベースのツールで、結果をコピー＆ペーストする必要があります。Magic MCP は IDE に直接組み込まれ、AI エージェントがコーディング中に自動的にコンポーネントを検索・生成するため、エディタから離れる必要がありません。コンポーネントライブラリも実際のプロジェクトで使いやすいよう厳選されています。",
+        "es": "v0 es una herramienta web que requiere copiar y pegar. Magic MCP se integra directamente en tu IDE — los agentes de IA buscan y generan automáticamente código de componentes durante la codificación sin salir del editor. La biblioteca de componentes también está curada para su uso en proyectos reales.",
+        "fr": "v0 est un outil web nécessitant du copier-coller. Magic MCP s'intègre directement dans votre IDE — les agents IA recherchent et génèrent automatiquement du code de composants pendant le codage sans quitter votre éditeur. La bibliothèque de composants est également organisée pour une utilisation dans des projets réels."
+      }
+    }
+  ]
+}

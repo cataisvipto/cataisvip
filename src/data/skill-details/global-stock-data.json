@@ -1,0 +1,118 @@
+{
+  "pros": {
+    "en": [
+      "13-layer architecture covering 30+ endpoints across all US stock data domains",
+      "Zero-auth: only requires the requests library",
+      "Official-source-first approach with compliance tiers for each data source",
+      "Self-contained Skill file — easy to add to any AI coding assistant",
+      "Apache 2.0 licensed, comprehensive documentation"
+    ],
+    "zh": [
+      "13 层架构覆盖 30+ 端点，涵盖所有美股数据领域",
+      "零认证：只需 requests 库",
+      "官方数据源优先，每个来源标注合规等级",
+      "自包含 Skill 文件——易于添加到任何 AI 编码助手",
+      "Apache 2.0 协议，文档全面"
+    ],
+    "ja": [
+      "13レイヤーアーキテクチャで30以上のエンドポイントをカバー",
+      "認証不要：requestsライブラリのみ必要",
+      "公式ソース優先アプローチ、各データソースにコンプライアンスレベル表示",
+      "自己完結型スキルファイル——AIコーディングアシスタントに簡単追加",
+      "Apache 2.0ライセンス、包括的なドキュメント"
+    ],
+    "es": [
+      "Arquitectura de 13 capas cubriendo 30+ endpoints",
+      "Zero-auth: solo requiere la biblioteca requests",
+      "Enfoque de fuente oficial con niveles de cumplimiento",
+      "Archivo Skill autónomo — fácil de añadir a cualquier asistente de codificación IA",
+      "Licencia Apache 2.0, documentación completa"
+    ],
+    "fr": [
+      "Architecture 13 couches couvrant 30+ endpoints",
+      "Zéro authentification : seulement la bibliothèque requests",
+      "Approche source officielle avec niveaux de conformité",
+      "Fichier Skill autonome — facile à ajouter à tout assistant de codage IA",
+      "Licence Apache 2.0, documentation complète"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Personal account maintenance (bus factor risk)",
+      "Missing SECURITY.md",
+      "Data depends on third-party source availability and terms",
+      "US market only — no global stock coverage"
+    ],
+    "zh": [
+      "个人账号维护（独角戏风险）",
+      "缺少 SECURITY.md",
+      "数据依赖第三方源可用性和使用条款",
+      "仅美股——没有全球股票覆盖"
+    ],
+    "ja": [
+      "個人アカウントによるメンテナンス（バスファクターリスク）",
+      "SECURITY.mdがない",
+      "データはサードパーティソースの可用性と利用規約に依存",
+      "米国株のみ——世界の株式をカバーしていない"
+    ],
+    "es": [
+      "Mantenimiento por cuenta personal (riesgo de factor bus)",
+      "Falta SECURITY.md",
+      "Los datos dependen de la disponibilidad y términos de fuentes terceras",
+      "Solo mercado de EE.UU. — sin cobertura global de acciones"
+    ],
+    "fr": [
+      "Maintenance par compte personnel (risque de bus factor)",
+      "SECURITY.md manquant",
+      "Les données dépendent de la disponibilité et des conditions des sources tierces",
+      "Marché US uniquement — pas de couverture mondiale"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Free and open source (Apache 2.0). Data sources may have their own usage terms.",
+      "zh": "免费开源（Apache 2.0）。数据源可能有自己的使用条款。",
+      "ja": "無料のオープンソース（Apache 2.0）。データソースには独自の利用規約がある場合があります。",
+      "es": "Gratuito y de código abierto (Apache 2.0). Las fuentes de datos pueden tener sus propios términos de uso.",
+      "fr": "Gratuit et open source (Apache 2.0). Les sources de données peuvent avoir leurs propres conditions d'utilisation."
+    }
+  },
+  "verdict": {
+    "en": "Global Stock Data is a well-crafted, self-contained Skill for AI coding assistants that need US stock market data. Its 13-layer architecture, 30+ endpoints, and zero-auth design make it easy to use. Best for developers who trade US equities and use AI coding assistants.",
+    "zh": "Global Stock Data 是一个精心制作的自包含 Skill，适合需要美股数据的 AI 编码助手。13 层架构、30+ 端点、零认证设计使其易于使用。最适合交易美股并使用 AI 编码助手的开发者。",
+    "ja": "Global Stock Dataは、米国株市場データを必要とするAIコーディングアシスタント向けの、よく作られた自己完結型スキルです。13レイヤーアーキテクチャ、30以上のエンドポイント、ゼロ認証設計により使いやすくなっています。米国株を取引しAIコーディングアシスタントを使用する開発者に最適です。",
+    "es": "Global Stock Data es un Skill autónomo bien elaborado para asistentes de codificación IA que necesitan datos del mercado de valores de EE.UU. Su arquitectura de 13 capas, 30+ endpoints y diseño zero-auth lo hacen fácil de usar. Mejor para desarrolladores que comercian con acciones de EE.UU. y usan asistentes de codificación IA.",
+    "fr": "Global Stock Data est un Skill autonome bien conçu pour les assistants de codage IA qui ont besoin de données boursières US. Son architecture 13 couches, ses 30+ endpoints et sa conception zéro authentification le rendent facile à utiliser. Idéal pour les développeurs qui négocient des actions US et utilisent des assistants de codage IA."
+  },
+  "useCases": {
+    "en": [
+      "Getting real-time US stock quotes and options Greeks via AI coding assistant",
+      "Analyzing SEC filings and short volume data programmatically",
+      "Building trading strategies with fundamentals and technical indicators"
+    ],
+    "zh": [
+      "通过 AI 编码助手获取实时美股行情和期权 Greeks",
+      "程序化分析 SEC 文件和空头量数据",
+      "用基本面和技术指标构建交易策略"
+    ],
+    "ja": [
+      "AIコーディングアシスタントによるリアルタイム米国株価格とオプションGreeksの取得",
+      "SEC提出書類と空売りデータのプログラム分析",
+      "ファンダメンタルズとテクニカル指標による取引戦略の構築"
+    ],
+    "es": [
+      "Obtener cotizaciones de acciones de EE.UU. y Opciones Greeks en tiempo real mediante asistente de codificación IA",
+      "Analizar presentaciones SEC y volumen corto mediante programación",
+      "Construir estrategias de trading con fundamentos e indicadores técnicos"
+    ],
+    "fr": [
+      "Obtenir des cours boursiers US en temps réel et des Options Greeks via un assistant de codage IA",
+      "Analyser les dépôts SEC et le volume court par programmation",
+      "Construire des stratégies de trading avec fondamentaux et indicateurs techniques"
+    ]
+  },
+  "meta": {
+    "lastVerified": "2026-08-12",
+    "pricingVerified": "2026-08-12"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "wordtune",
+  "name": "Wordtune",
+  "nameZh": "Wordtune",
+  "description": "AI21 Labs 旗下的 AI 英文改写助手：多候选重写、语气切换、缩写扩写、摘要与 AI 生成一体，Chrome 插件与 iOS 键盘随处可用，免费档每天 10 次重写，Unlimited 年付合 $6.99/月",
+  "descriptionEn": "AI21 Labs' AI English rewriting assistant: multiple rewrite suggestions, tone switching, shorten/expand, summaries and AI generation in one, available everywhere via Chrome extension and iOS keyboard — free tier offers 10 rewrites/day, Unlimited works out to $6.99/month billed annually",
+  "descriptionJa": "AI21 Labs傘下のAI英文リライトアシスタント。複数候補の書き換え、トーン切替、短縮・拡張、要約、AI生成を一体化。Chrome拡張とiOSキーボードでどこでも使え、無料枠は1日10回、Unlimitedは年払いで月$6.99相当",
+  "descriptionEs": "Asistente de reescritura en inglés con IA de AI21 Labs: múltiples sugerencias de reescritura, cambio de tono, acortar/expandir, resúmenes y generación con IA en uno, disponible en todas partes vía extensión de Chrome y teclado iOS — el nivel gratuito ofrece 10 reescrituras/día, Unlimited sale a $6.99/mes con pago anual",
+  "descriptionFr": "Assistant IA de réécriture en anglais d'AI21 Labs : plusieurs suggestions de réécriture, changement de ton, raccourcir/développer, résumés et génération IA en un, disponible partout via l'extension Chrome et le clavier iOS — l'offre gratuite donne 10 réécritures/jour, Unlimited revient à 6,99 $/mois en annuel",
+  "url": "https://www.wordtune.com",
+  "logo": "/logos/tools/wordtune.png",
+  "category": "Writing",
+  "tags": [
+    "Freemium"
+  ],
+  "featured": false,
+  "developer": "AI21 Labs",
+  "platforms": {
+    "web": true,
+    "windows": false,
+    "macos": false,
+    "ios": true,
+    "android": false,
+    "linux": false,
+    "browser_extension": true,
+    "api": false
+  }
+}

@@ -1,0 +1,263 @@
+{
+  "features": {
+    "en": [
+      "Eleven v3 expressive voice synthesis",
+      "70+ language support",
+      "Instant and professional voice cloning",
+      "Multi-speaker dialogue and direction",
+      "Speech-to-text (Scribe)",
+      "Voice agents and TTS API"
+    ],
+    "zh": [
+      "Eleven v3 富表现力语音合成",
+      "支持 70+ 种语言",
+      "即时与专业级声音克隆",
+      "多说话人对话与情绪指导",
+      "语音转文字（Scribe）",
+      "语音智能体与 TTS API"
+    ],
+    "ja": [
+      "Eleven v3 表現力豊かな音声合成",
+      "70以上の言語に対応",
+      "即時およびプロ品質の音声クローン",
+      "複数話者の対話と演出",
+      "音声認識（Scribe）",
+      "音声エージェントと TTS API"
+    ],
+    "es": [
+      "Síntesis de voz expresiva Eleven v3",
+      "Compatible con más de 70 idiomas",
+      "Clonación de voz instantánea y profesional",
+      "Diálogo multivoz y dirección",
+      "Voz a texto (Scribe)",
+      "Agentes de voz y API de TTS"
+    ],
+    "fr": [
+      "Synthèse vocale expressive Eleven v3",
+      "Prise en charge de plus de 70 langues",
+      "Clonage vocal instantané et professionnel",
+      "Dialogue multi-locuteurs et direction",
+      "Reconnaissance vocale (Scribe)",
+      "Agents vocaux et API TTS"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "$0 (10,000 credits/month)",
+      "zh": "$0（每月 10,000 额度）",
+      "ja": "$0（毎月10,000クレジット）",
+      "es": "0 $ (10 000 créditos/mes)",
+      "fr": "0 $ (10 000 crédits/mois)"
+    },
+    "starter": {
+      "en": "$6/month (30,000 credits)",
+      "zh": "$6/月（30,000 额度）",
+      "ja": "月額6ドル（30,000クレジット）",
+      "es": "6 $/mes (30 000 créditos)",
+      "fr": "6 $/mois (30 000 crédits)"
+    },
+    "creator": {
+      "en": "$22/month (121,000 credits)",
+      "zh": "$22/月（121,000 额度）",
+      "ja": "月額22ドル（121,000クレジット）",
+      "es": "22 $/mes (121 000 créditos)",
+      "fr": "22 $/mois (121 000 crédits)"
+    },
+    "pro": {
+      "en": "$99/month (higher limits)",
+      "zh": "$99/月（更高额度）",
+      "ja": "月額99ドル（上限アップ）",
+      "es": "99 $/mes (límites más altos)",
+      "fr": "99 $/mois (limites plus élevées)"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Audiobook and podcast narration",
+      "Video voiceovers and dubbing",
+      "Game and character voices",
+      "Accessibility and screen readers",
+      "Conversational voice agents",
+      "Multilingual localization"
+    ],
+    "zh": [
+      "有声书与播客旁白",
+      "视频配音与译制",
+      "游戏与角色配音",
+      "无障碍与屏幕阅读",
+      "对话式语音智能体",
+      "多语言本地化"
+    ],
+    "ja": [
+      "オーディオブックとポッドキャストのナレーション",
+      "動画のボイスオーバーと吹き替え",
+      "ゲーム・キャラクターの音声",
+      "アクセシビリティとスクリーンリーダー",
+      "対話型の音声エージェント",
+      "多言語ローカライズ"
+    ],
+    "es": [
+      "Narración de audiolibros y pódcast",
+      "Voces en off y doblaje de vídeo",
+      "Voces de juegos y personajes",
+      "Accesibilidad y lectores de pantalla",
+      "Agentes de voz conversacionales",
+      "Localización multilingüe"
+    ],
+    "fr": [
+      "Narration de livres audio et podcasts",
+      "Voix off et doublage vidéo",
+      "Voix de jeux et de personnages",
+      "Accessibilité et lecteurs d'écran",
+      "Agents vocaux conversationnels",
+      "Localisation multilingue"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Most natural, expressive voices",
+      "Broad language coverage",
+      "High-quality voice cloning",
+      "Robust API"
+    ],
+    "zh": [
+      "语音最自然、富表现力",
+      "语言覆盖广",
+      "声音克隆质量高",
+      "API 稳健"
+    ],
+    "ja": [
+      "最も自然で表現力豊かな音声",
+      "幅広い言語カバレッジ",
+      "高品質な音声クローン",
+      "堅牢な API"
+    ],
+    "es": [
+      "Voces más naturales y expresivas",
+      "Amplia cobertura de idiomas",
+      "Clonación de voz de alta calidad",
+      "API robusta"
+    ],
+    "fr": [
+      "Voix les plus naturelles et expressives",
+      "Large couverture linguistique",
+      "Clonage vocal de haute qualité",
+      "API robuste"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Credits deplete with heavy use",
+      "Voice cloning ethics concerns",
+      "Advanced features cost more"
+    ],
+    "zh": [
+      "重度使用额度消耗快",
+      "声音克隆存在伦理顾虑",
+      "高级功能费用更高"
+    ],
+    "ja": [
+      "ヘビーユースでクレジットが減る",
+      "音声クローンの倫理的懸念",
+      "高度な機能は費用が高い"
+    ],
+    "es": [
+      "Los créditos se agotan con un uso intenso",
+      "Preocupaciones éticas sobre la clonación de voz",
+      "Las funciones avanzadas cuestan más"
+    ],
+    "fr": [
+      "Les crédits s'épuisent en usage intensif",
+      "Préoccupations éthiques sur le clonage vocal",
+      "Les fonctions avancées coûtent plus cher"
+    ]
+  },
+  "latestUpdate": {
+    "en": "July 2026: Eleven v3 delivers more expressive, emotion-aware speech across 70+ languages with multi-speaker control",
+    "zh": "2026年7月：Eleven v3 带来更具表现力、情感感知的语音，支持 70+ 语言与多说话人控制",
+    "ja": "2026年7月：Eleven v3 が70以上の言語で、より表現力豊かで感情を捉えた音声を提供し、複数話者の制御にも対応",
+    "es": "Julio de 2026: Eleven v3 ofrece un habla más expresiva y consciente de las emociones en más de 70 idiomas con control multivoz",
+    "fr": "Juillet 2026 : Eleven v3 offre une parole plus expressive et sensible aux émotions dans plus de 70 langues, avec un contrôle multi-locuteurs"
+  },
+  "verdict": {
+    "badge": "Recommended",
+    "headline": {
+      "en": "The voice synthesis platform that finally makes AI-generated speech indistinguishable from human recordings in most contexts.",
+      "zh": "终于让 AI 生成的语音在大多数场景下与人类录音难以区分的语音合成平台。",
+      "ja": "ほとんどの場面でAI生成音声と人間の録音を区別不可能にした音声合成プラットフォーム。",
+      "es": "La plataforma de síntesis de voz que finalmente hace el habla generada por IA indistinguible de grabaciones humanas en la mayoría de contextos.",
+      "fr": "La plateforme de synthèse vocale qui rend enfin la parole générée par IA indiscernable des enregistrements humains dans la plupart des contextes."
+    },
+    "body": {
+      "en": "ElevenLabs has set a new bar for voice quality. The cloned voices capture not just timbre but pacing, breath patterns, and emotional micro-expressions that make listeners forget they're hearing synthetic speech. For audiobook narration, podcast production, video dubbing, and accessibility applications, the quality gap between ElevenLabs and most competitors is immediately audible.\n\nThe multilingual dubbing feature deserves special mention—it can take a voice clone and produce natural-sounding speech in dozens of languages while preserving the speaker's vocal identity. This is genuinely useful for content creators reaching international audiences without hiring voice actors for each language. The API is well-documented and integrates cleanly into production pipelines.\n\nThe pricing model is character-based, which becomes expensive at scale for long-form content. Voice cloning raises obvious ethical considerations that ElevenLabs addresses with consent verification, but the technology itself remains a double-edged tool. For short-form content or limited budgets, the free tier is restrictive, and cheaper alternatives like OpenAI's TTS may be sufficient if absolute quality isn't the priority.",
+      "zh": "ElevenLabs 为语音质量设定了新标杆。克隆的声音不仅捕捉音色，还有节奏、呼吸模式和情感微表情，让听众忘记他们听的是合成语音。对于有声书朗读、播客制作、视频配音和无障碍应用，ElevenLabs 与大多数竞品的质量差距一听即知。\n\n多语言配音功能值得特别提及——它能用声音克隆在数十种语言中产生自然的语音，同时保留说话者的声音特征。对于面向国际受众的内容创作者而言，无需为每种语言雇佣配音演员，这是真正有用的功能。API 文档完善，能干净地集成到生产流程中。\n\n定价按字符计费，对长篇内容规模化使用成本较高。声音克隆引发显而易见的伦理问题，ElevenLabs 通过同意验证来应对，但技术本身仍是一把双刃工具。对于短篇内容或有限预算，免费层限制较多，如果绝对质量不是首要考虑，OpenAI 的 TTS 等更便宜的替代品可能就够了。",
+      "ja": "ElevenLabsは音声品質の新たな基準を設定しました。クローンされた声は音色だけでなく、ペース、呼吸パターン、感情的な微表現までキャプチャし、リスナーに合成音声を聞いていることを忘れさせます。オーディオブックのナレーション、ポッドキャスト制作、動画吹き替え、アクセシビリティアプリケーションにおいて、品質の差は即座に聞き取れます。\n\n多言語吹き替え機能は特筆に値します。声のクローンを使い、話者の声のアイデンティティを保持しながら数十の言語で自然な音声を生成できます。各言語の声優を雇わずに国際的な視聴者にリーチするコンテンツクリエイターにとって本当に有用です。\n\n価格モデルは文字ベースで、長尺コンテンツのスケールでは高額になります。フリーティアは制限的で、絶対的な品質が最優先でなければOpenAIのTTSなどより安い代替品で十分かもしれません。",
+      "es": "ElevenLabs ha establecido un nuevo estándar para la calidad de voz. Las voces clonadas capturan no solo el timbre sino el ritmo, patrones de respiración y micro-expresiones emocionales que hacen que los oyentes olviden que escuchan habla sintética. Para narración de audiolibros, producción de podcasts, doblaje de vídeo y aplicaciones de accesibilidad, la brecha de calidad es inmediatamente audible.\n\nLa función de doblaje multilingüe merece mención especial—puede tomar un clon de voz y producir habla natural en docenas de idiomas preservando la identidad vocal del hablante. Es genuinamente útil para creadores que alcanzan audiencias internacionales sin contratar actores de voz.\n\nEl modelo de precios es por caracteres, lo que se vuelve costoso a escala para contenido largo. El nivel gratuito es restrictivo, y alternativas más baratas como TTS de OpenAI pueden ser suficientes si la calidad absoluta no es la prioridad.",
+      "fr": "ElevenLabs a établi une nouvelle référence en qualité vocale. Les voix clonées capturent non seulement le timbre mais le rythme, les patterns de respiration et les micro-expressions émotionnelles qui font oublier aux auditeurs qu'ils entendent de la parole synthétique. Pour la narration d'audiolivres, la production de podcasts, le doublage vidéo et les applications d'accessibilité, l'écart de qualité est immédiatement audible.\n\nLa fonction de doublage multilingue mérite une mention spéciale—elle peut prendre un clone vocal et produire de la parole naturelle dans des dizaines de langues tout en préservant l'identité vocale du locuteur. C'est véritablement utile pour les créateurs atteignant des audiences internationales.\n\nLe modèle tarifaire est basé sur les caractères, ce qui devient coûteux à grande échelle pour du contenu long. Le niveau gratuit est restrictif, et des alternatives moins chères comme le TTS d'OpenAI peuvent suffire si la qualité absolue n'est pas la priorité."
+    },
+    "bestFor": {
+      "en": [
+        "Audiobook and podcast narration requiring human-quality voice",
+        "Multilingual content dubbing while preserving speaker identity",
+        "Developers building voice-enabled applications via API",
+        "Accessibility tools that need natural-sounding text-to-speech"
+      ],
+      "zh": [
+        "需要人类质量语音的有声书和播客朗读",
+        "保留说话人特征的多语言内容配音",
+        "通过 API 构建语音应用的开发者",
+        "需要自然语音的无障碍工具"
+      ],
+      "ja": [
+        "人間品質の音声が必要なオーディオブック・ポッドキャストナレーション",
+        "話者のアイデンティティを保持した多言語コンテンツ吹き替え",
+        "API経由で音声対応アプリを構築する開発者",
+        "自然な音声のテキスト読み上げが必要なアクセシビリティツール"
+      ],
+      "es": [
+        "Narración de audiolibros y podcasts que requiere voz de calidad humana",
+        "Doblaje de contenido multilingüe preservando la identidad del hablante",
+        "Desarrolladores construyendo aplicaciones con voz vía API",
+        "Herramientas de accesibilidad que necesitan texto-a-voz natural"
+      ],
+      "fr": [
+        "Narration d'audiolivres et podcasts nécessitant une voix de qualité humaine",
+        "Doublage de contenu multilingue en préservant l'identité du locuteur",
+        "Développeurs construisant des applications vocales via API",
+        "Outils d'accessibilité nécessitant une synthèse vocale naturelle"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You only need basic TTS and cost is the primary concern (→ OpenAI TTS, Google Cloud TTS)",
+        "You need voice-to-voice real-time conversation, not just synthesis (→ ChatGPT Voice)",
+        "You want free unlimited text-to-speech for personal use (→ Edge TTS, system voices)"
+      ],
+      "zh": [
+        "你只需要基础 TTS 且成本是首要考虑（→ OpenAI TTS、Google Cloud TTS）",
+        "你需要实时语音对语音对话而非仅合成（→ ChatGPT Voice）",
+        "你想要免费无限制的个人用途语音合成（→ Edge TTS、系统语音）"
+      ],
+      "ja": [
+        "基本的なTTSだけでコストが最優先の場合（→ OpenAI TTS、Google Cloud TTS）",
+        "合成だけでなくリアルタイムの音声対音声会話が必要な場合（→ ChatGPT Voice）",
+        "個人用途で無料無制限のテキスト読み上げが欲しい場合（→ Edge TTS、システム音声）"
+      ],
+      "es": [
+        "Solo necesitas TTS básico y el costo es la preocupación principal (→ OpenAI TTS, Google Cloud TTS)",
+        "Necesitas conversación voz-a-voz en tiempo real, no solo síntesis (→ ChatGPT Voice)",
+        "Quieres texto-a-voz gratuito ilimitado para uso personal (→ Edge TTS, voces del sistema)"
+      ],
+      "fr": [
+        "Vous n'avez besoin que de TTS basique et le coût est la préoccupation principale (→ OpenAI TTS, Google Cloud TTS)",
+        "Vous avez besoin de conversation voix-à-voix en temps réel, pas seulement de synthèse (→ ChatGPT Voice)",
+        "Vous voulez du texte-à-parole gratuit illimité pour usage personnel (→ Edge TTS, voix système)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-27",
+    "verdictDate": "2026-07-27",
+    "pricingVerified": "2026-07-27"
+  }
+}

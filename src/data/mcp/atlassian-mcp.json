@@ -1,0 +1,78 @@
+{
+  "slug": "atlassian-mcp",
+  "name": "Atlassian MCP",
+  "nameZh": "Atlassian MCP",
+  "description": "Jira 与 Confluence 的 MCP 服务器（社区首选实现），支持 Cloud 与 Server/Data Center，让智能体用自然语言搜索、创建、更新 issue 与文档，兼容 API Token、PAT 与 OAuth 2.0。",
+  "descriptionEn": "An MCP server for Jira and Confluence (the community-favorite implementation) supporting Cloud and Server/Data Center, letting agents search, create and update issues and pages in natural language, with API token, PAT and OAuth 2.0 auth.",
+  "descriptionJa": "Jira と Confluence 向けの MCP サーバー（コミュニティで人気の実装）。Cloud と Server/Data Center に対応し、エージェントが自然言語で issue やページを検索・作成・更新でき、API トークン・PAT・OAuth 2.0 認証に対応します。",
+  "descriptionEs": "Un servidor MCP para Jira y Confluence (la implementación favorita de la comunidad) que admite Cloud y Server/Data Center, permitiendo a los agentes buscar, crear y actualizar issues y páginas en lenguaje natural, con autenticación por token API, PAT y OAuth 2.0.",
+  "descriptionFr": "Un serveur MCP pour Jira et Confluence (l'implémentation préférée de la communauté) prenant en charge Cloud et Server/Data Center, permettant aux agents de rechercher, créer et mettre à jour issues et pages en langage naturel, avec authentification par jeton API, PAT et OAuth 2.0.",
+  "developer": "sooperset (community)",
+  "developerZh": "sooperset（社区）",
+  "repo": "sooperset/mcp-atlassian",
+  "clients": [
+    "claude",
+    "cursor",
+    "vscode",
+    "generic"
+  ],
+  "category": "Productivity",
+  "tags": [
+    "Free",
+    "Open Source"
+  ],
+  "installCommand": "uvx mcp-atlassian",
+  "logo": "/logos/mcp/atlassian-mcp.png",
+  "stars": 5851,
+  "featured": false,
+  "faqs": [
+    {
+      "question": {
+        "zh": "Atlassian MCP 是官方出品的吗？",
+        "en": "Is Atlassian MCP an official product?",
+        "ja": "Atlassian MCP は公式製品ですか？",
+        "es": "¿Atlassian MCP es un producto oficial?",
+        "fr": "Atlassian MCP est-il un produit officiel ?"
+      },
+      "answer": {
+        "zh": "这是社区开发者 sooperset 维护的开源实现（GitHub 5000+ 星），并非 Atlassian 官方产品，但因功能完整、更新活跃，是目前接入 Jira/Confluence 最常用的 MCP 方案之一。",
+        "en": "It is an open-source implementation maintained by community developer sooperset (5,000+ GitHub stars), not an official Atlassian product — but its completeness and active upkeep make it one of the most widely used MCP options for Jira/Confluence today.",
+        "ja": "これはコミュニティ開発者 sooperset が維持するオープンソース実装（GitHub 5,000 スター超）で、Atlassian 公式製品ではありません。ただし機能が充実し更新も活発なため、現在 Jira/Confluence 接続で最もよく使われる MCP の 1 つです。",
+        "es": "Es una implementación de código abierto mantenida por el desarrollador comunitario sooperset (más de 5000 estrellas en GitHub), no un producto oficial de Atlassian, pero su integridad y mantenimiento activo la convierten en una de las opciones MCP más usadas hoy para Jira/Confluence.",
+        "fr": "Il s'agit d'une implémentation open source maintenue par le développeur communautaire sooperset (plus de 5000 étoiles GitHub), pas un produit officiel Atlassian — mais son exhaustivité et son entretien actif en font l'une des options MCP les plus utilisées aujourd'hui pour Jira/Confluence."
+      }
+    },
+    {
+      "question": {
+        "zh": "支持自托管的 Server / Data Center 吗？",
+        "en": "Does it support self-hosted Server / Data Center?",
+        "ja": "セルフホストの Server / Data Center に対応していますか？",
+        "es": "¿Admite Server / Data Center autoalojado?",
+        "fr": "Prend-il en charge le Server / Data Center auto-hébergé ?"
+      },
+      "answer": {
+        "zh": "支持。既能连 Atlassian Cloud，也能连自托管的 Jira/Confluence Server 与 Data Center，认证方式覆盖 API Token、个人访问令牌（PAT）与 OAuth 2.0，适配企业内网部署。",
+        "en": "Yes. It connects to Atlassian Cloud as well as self-hosted Jira/Confluence Server and Data Center, with auth via API token, Personal Access Token (PAT) and OAuth 2.0 — suitable for on-prem enterprise deployments.",
+        "ja": "対応しています。Atlassian Cloud に加え、セルフホストの Jira/Confluence Server と Data Center にも接続でき、認証は API トークン・個人アクセストークン（PAT）・OAuth 2.0 に対応し、企業内オンプレ展開に適します。",
+        "es": "Sí. Se conecta tanto a Atlassian Cloud como a Jira/Confluence Server y Data Center autoalojados, con autenticación por token API, token de acceso personal (PAT) y OAuth 2.0, apto para despliegues empresariales on-premise.",
+        "fr": "Oui. Il se connecte à Atlassian Cloud ainsi qu'aux Jira/Confluence Server et Data Center auto-hébergés, avec authentification par jeton API, jeton d'accès personnel (PAT) et OAuth 2.0 — adapté aux déploiements d'entreprise sur site."
+      }
+    },
+    {
+      "question": {
+        "zh": "怎么安装和配置？",
+        "en": "How do I install and configure it?",
+        "ja": "インストールと設定の方法は？",
+        "es": "¿Cómo lo instalo y configuro?",
+        "fr": "Comment l'installer et le configurer ?"
+      },
+      "answer": {
+        "zh": "用 uvx mcp-atlassian 运行（也支持 Docker、pip），通过环境变量传入 Jira/Confluence 地址与凭据（如 JIRA_URL、JIRA_USERNAME、API Token）。详细配置见项目文档站。",
+        "en": "Run it with uvx mcp-atlassian (Docker and pip are also supported), passing your Jira/Confluence URL and credentials via environment variables (e.g. JIRA_URL, JIRA_USERNAME, API token). See the project docs for full configuration.",
+        "ja": "uvx mcp-atlassian で実行し（Docker や pip も対応）、環境変数で Jira/Confluence の URL と認証情報（JIRA_URL、JIRA_USERNAME、API トークンなど）を渡します。詳細な設定はプロジェクトのドキュメントを参照してください。",
+        "es": "Ejecútalo con uvx mcp-atlassian (también se admite Docker y pip), pasando la URL y credenciales de Jira/Confluence mediante variables de entorno (p. ej. JIRA_URL, JIRA_USERNAME, token API). Consulta la documentación del proyecto para la configuración completa.",
+        "fr": "Lancez-le avec uvx mcp-atlassian (Docker et pip sont aussi pris en charge), en passant l'URL et les identifiants Jira/Confluence via des variables d'environnement (p. ex. JIRA_URL, JIRA_USERNAME, jeton API). Voir la documentation du projet pour la configuration complète."
+      }
+    }
+  ]
+}

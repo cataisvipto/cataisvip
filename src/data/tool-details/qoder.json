@@ -1,0 +1,313 @@
+{
+  "features": {
+    "en": [
+      "Agentic coding platform with autonomous AI agents",
+      "Multi-Agent expert collaboration for complex tasks",
+      "Repo Wiki — auto-generated codebase documentation",
+      "Knowledge Cards for persistent project memory",
+      "Quest — long-running autonomous task delegation",
+      "Context Engineering for deep codebase understanding",
+      "Supports 100k files for codebase analysis",
+      "Up to 26 hours maximum agent execution time",
+      "IDE plugins for VS Code, JetBrains, and CLI",
+      "QoderWork — AI work companion for everyday office tasks"
+    ],
+    "zh": [
+      "自主 AI 智能体编程平台",
+      "多智能体专家协作处理复杂任务",
+      "Repo Wiki — 自动生成代码库文档",
+      "知识卡片 — 持久化项目记忆",
+      "Quest — 长时间运行的自主任务委派",
+      "上下文工程 — 深度理解代码库",
+      "支持分析 10 万文件的代码库",
+      "最长 26 小时智能体执行时间",
+      "支持 VS Code、JetBrains 和 CLI 插件",
+      "QoderWork — 日常办公 AI 工作伴侣"
+    ],
+    "ja": [
+      "自律型 AI エージェントによるコーディングプラットフォーム",
+      "複雑なタスクのマルチエージェント協調",
+      "Repo Wiki — 自動生成のコードベース文書",
+      "永続的なプロジェクト記憶の知識カード",
+      "Quest — 長時間の自律タスク委任",
+      "コードベース深層理解のコンテキストエンジニアリング",
+      "最大 10 万ファイルのコードベース分析対応",
+      "最大 26 時間のエージェント実行",
+      "VS Code、JetBrains、CLI プラグイン対応",
+      "QoderWork — 日常業務の AI コンパニオン"
+    ],
+    "es": [
+      "Plataforma de codificación con agentes autónomos de IA",
+      "Colaboración multi-agente experta para tareas complejas",
+      "Repo Wiki — documentación de base de código autogenerada",
+      "Tarjetas de conocimiento para memoria persistente del proyecto",
+      "Quest — delegación autónoma de tareas de larga duración",
+      "Ingeniería de contexto para comprensión profunda del código",
+      "Soporta 100k archivos para análisis de código",
+      "Hasta 26 horas de ejecución de agente",
+      "Plugins para VS Code, JetBrains y CLI",
+      "QoderWork — asistente IA para trabajo diario"
+    ],
+    "fr": [
+      "Plateforme de codage avec agents IA autonomes",
+      "Collaboration multi-agent experte pour tâches complexes",
+      "Repo Wiki — documentation auto-générée du codebase",
+      "Fiches de connaissance pour mémoire persistante",
+      "Quest — délégation autonome de tâches longue durée",
+      "Ingénierie de contexte pour compréhension approfondie",
+      "Prend en charge 100k fichiers pour l'analyse",
+      "Jusqu'à 26 heures d'exécution d'agent",
+      "Plugins VS Code, JetBrains et CLI",
+      "QoderWork — assistant IA pour le travail quotidien"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Free plan with 14-day Pro trial",
+      "zh": "免费版，含 14 天 Pro 试用",
+      "ja": "無料プラン（14日間 Pro トライアル付き）",
+      "es": "Plan gratuito con prueba Pro de 14 días",
+      "fr": "Forfait gratuit avec essai Pro de 14 jours"
+    },
+    "pro": {
+      "en": "$20/month (2,000 credits/mo)",
+      "zh": "$20/月（2,000 积分/月）",
+      "ja": "月額20ドル（2,000 クレジット/月）",
+      "es": "20 $/mes (2,000 créditos/mes)",
+      "fr": "20 $/mois (2 000 crédits/mois)"
+    },
+    "proPlus": {
+      "en": "$60/month (6,000 credits/mo)",
+      "zh": "$60/月（6,000 积分/月）",
+      "ja": "月額60ドル（6,000 クレジット/月）",
+      "es": "60 $/mes (6,000 créditos/mes)",
+      "fr": "60 $/mois (6 000 crédits/mois)"
+    },
+    "ultra": {
+      "en": "$200/month (20,000 credits/mo)",
+      "zh": "$200/月（20,000 积分/月）",
+      "ja": "月額200ドル（20,000 クレジット/月）",
+      "es": "200 $/mes (20,000 créditos/mes)",
+      "fr": "200 $/mois (20 000 crédits/mois)"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Complex multi-file software development",
+      "Long-running autonomous coding tasks (Quest)",
+      "Codebase documentation and knowledge management",
+      "Code review and refactoring at scale",
+      "Test generation and quality assurance",
+      "Office workflow automation (QoderWork)",
+      "Enterprise-grade agent deployment (QoderWake)"
+    ],
+    "zh": [
+      "复杂的多文件软件开发",
+      "长时间运行的自主编程任务（Quest）",
+      "代码库文档化和知识管理",
+      "大规模代码审查和重构",
+      "测试生成和质量保证",
+      "办公工作流自动化（QoderWork）",
+      "企业级智能体部署（QoderWake）"
+    ],
+    "ja": [
+      "複雑なマルチファイルソフトウェア開発",
+      "長時間の自律コーディングタスク（Quest）",
+      "コードベースの文書化と知識管理",
+      "大規模なコードレビューとリファクタリング",
+      "テスト生成と品質保証",
+      "オフィスワークフロー自動化（QoderWork）",
+      "エンタープライズエージェント展開（QoderWake）"
+    ],
+    "es": [
+      "Desarrollo de software complejo multiarchivo",
+      "Tareas autónomas de codificación de larga duración (Quest)",
+      "Documentación de código y gestión del conocimiento",
+      "Revisión y refactorización de código a escala",
+      "Generación de pruebas y control de calidad",
+      "Automatización de flujos de oficina (QoderWork)",
+      "Despliegue de agentes empresariales (QoderWake)"
+    ],
+    "fr": [
+      "Développement logiciel multi-fichiers complexe",
+      "Tâches de codage autonomes longue durée (Quest)",
+      "Documentation du codebase et gestion des connaissances",
+      "Révision et refactorisation de code à l'échelle",
+      "Génération de tests et assurance qualité",
+      "Automatisation des flux de bureau (QoderWork)",
+      "Déploiement d'agents d'entreprise (QoderWake)"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Powerful multi-agent collaboration system",
+      "Excellent codebase understanding via Context Engineering",
+      "Long-running agent execution (up to 26h)",
+      "Repo Wiki and Knowledge Cards for team memory",
+      "Flexible pricing with credits-based system",
+      "Covers both coding and office automation",
+      "Active community with 1M+ global users",
+      "100k files support for large projects"
+    ],
+    "zh": [
+      "强大的多智能体协作系统",
+      "通过上下文工程深入理解代码库",
+      "长达 26 小时的智能体执行时间",
+      "Repo Wiki 和知识卡片助力团队记忆",
+      "灵活的积分制定价",
+      "覆盖编程和办公自动化场景",
+      "100 万+ 全球用户的活跃社区",
+      "支持 10 万文件级别的大项目"
+    ],
+    "ja": [
+      "強力なマルチエージェントコラボレーション",
+      "コンテキストエンジニアリングによる優れたコード理解",
+      "最大 26 時間の長時間エージェント実行",
+      "Repo Wiki と知識カードによるチーム知識管理",
+      "クレジットベースの柔軟な課金",
+      "コーディングと業務自動化の両対応",
+      "100 万以上のグローバルユーザー",
+      "10 万ファイル対応"
+    ],
+    "es": [
+      "Potente sistema de colaboración multiagente",
+      "Excelente comprensión del código mediante Ingeniería de Contexto",
+      "Ejecución de agente de larga duración (hasta 26h)",
+      "Repo Wiki y Tarjetas de Conocimiento para memoria del equipo",
+      "Precios flexibles con sistema de créditos",
+      "Cubre codificación y automatización de oficina",
+      "Comunidad activa con más de 1M de usuarios",
+      "Soporte para 100k archivos en proyectos grandes"
+    ],
+    "fr": [
+      "Système de collaboration multi-agent puissant",
+      "Excellente compréhension du code via l'ingénierie de contexte",
+      "Exécution d'agent longue durée (jusqu'à 26h)",
+      "Repo Wiki et fiches de connaissance pour la mémoire d'équipe",
+      "Tarification flexible avec système de crédits",
+      "Couverture du codage et de l'automatisation de bureau",
+      "Communauté active de plus d'1M d'utilisateurs",
+      "Prise en charge de 100k fichiers pour grands projets"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Credits-based system can be complex for new users",
+      "Free plan has very limited credits after trial",
+      "Pro+ and Ultra plans are premium-priced",
+      "Some features still developing and maturing",
+      "Qoder CN and EN versions split across domains",
+      "Less brand recognition than Cursor or Copilot"
+    ],
+    "zh": [
+      "积分制对新用户来说较复杂",
+      "试用结束后免费版积分非常有限",
+      "Pro+ 和 Ultra 价格较高",
+      "部分功能仍在开发和完善中",
+      "中英文版分属不同域名",
+      "品牌知名度不如 Cursor 或 Copilot"
+    ],
+    "ja": [
+      "クレジット制は初心者に複雑",
+      "トライアル終了後、無料版のクレジットは非常に限定的",
+      "Pro+ および Ultra プランは高額",
+      "一部の機能は開発中・成熟途上",
+      "英語版と中国語版でドメインが分かれている",
+      "Cursor や Copilot ほどの認知度はない"
+    ],
+    "es": [
+      "El sistema de créditos puede ser complejo para nuevos usuarios",
+      "El plan gratuito tiene créditos muy limitados después de la prueba",
+      "Los planes Pro+ y Ultra tienen precio premium",
+      "Algunas funciones aún están en desarrollo",
+      "Versiones CN y EN separadas en diferentes dominios",
+      "Menor reconocimiento de marca que Cursor o Copilot"
+    ],
+    "fr": [
+      "Le système de crédits peut être complexe pour les nouveaux",
+      "Le forfait gratuit a des crédits très limités après l'essai",
+      "Les forfaits Pro+ et Ultra sont premium",
+      "Certaines fonctionnalités sont encore en développement",
+      "Versions CN et EN séparées sur différents domaines",
+      "Moins de reconnaissance que Cursor ou Copilot"
+    ]
+  },
+  "latestUpdate": {
+    "en": "2026.07: Qoder launched full product suite including Qoder Desktop (autonomous development IDE), QoderWork (office AI companion), QoderWake (24/7 AI employees), Qoder CLI, and Cloud Agents. New credit-based pricing: Free/Pro $20/Pro+ $60/Ultra $200 per month. 1M+ global users. GitHub 400k+ Repo Wikis generated. Context Engineering supports up to 100k files.",
+    "zh": "2026年7月：Qoder 发布完整产品线，包括 Qoder Desktop（自主开发 IDE）、QoderWork（办公 AI 助理）、QoderWake（7×24 AI 员工）、Qoder CLI 和 Cloud Agents。新积分制定价：Free/Pro $20/Pro+ $60/Ultra $200。全球用户超 100 万，已生成 40 万+ Repo Wiki。",
+    "ja": "2026年7月：Qoder が Qoder Desktop、QoderWork、QoderWake、Qoder CLI、Cloud Agents を含む製品スイートを発表。新しいクレジット制：Free/Pro $20/Pro+ $60/Ultra $200。",
+    "es": "Julio 2026: Qoder lanzó su suite completa de productos: Qoder Desktop, QoderWork, QoderWake, Qoder CLI y Cloud Agents. Nuevos precios basados en créditos: Free/Pro 20$/Pro+ 60$/Ultra 200$ al mes.",
+    "fr": "Juillet 2026 : Qoder a lancé sa suite complète de produits incluant Qoder Desktop, QoderWork, QoderWake, Qoder CLI et Cloud Agents. Nouvelle tarification par crédits : Free/Pro 20$/Pro+ 60$/Ultra 200$/mois."
+  },
+  "verdict": {
+    "badge": "Recommended",
+    "headline": {
+      "en": "AI-powered IDE that combines deep code understanding with agentic workflow for professional developers.",
+      "zh": "AI驱动的IDE，结合深度代码理解与智能体工作流，面向专业开发者。",
+      "ja": "深いコード理解とエージェントワークフローを組み合わせたプロ開発者向けAI駆動IDE。",
+      "es": "IDE impulsado por IA que combina comprensión profunda del código con flujos agénticos para desarrolladores profesionales.",
+      "fr": "IDE alimenté par l'IA combinant compréhension profonde du code et workflows agentiques pour développeurs professionnels."
+    },
+    "body": {
+      "en": "Qoder is an AI IDE built for developers who want their tools to genuinely understand their codebase. It combines strong model access with agentic capabilities—reading files, running commands, making multi-file edits—within a familiar editor interface. The focus is on real productivity gains rather than flashy demos.\n\nWhat sets it apart is the depth of code context it maintains and its ability to execute complex multi-step development tasks autonomously. For developers working on substantial projects who want AI that acts as a true pair programmer rather than just a completion engine.",
+      "zh": "Qoder 是为希望工具真正理解代码库的开发者构建的AI IDE。它在熟悉的编辑器界面中结合强大的模型访问与智能体能力——读取文件、运行命令、进行多文件编辑。专注于真实生产力提升而非花哨演示。\n\n其特色在于维护的代码上下文深度以及自主执行复杂多步开发任务的能力。适合在大型项目上工作、希望AI作为真正结对编程伙伴而非仅仅是补全引擎的开发者。",
+      "ja": "Qoderはコードベースを真に理解するツールを求める開発者向けにAI IDEです。馴染みのエディタインターフェース内で強力なモデルアクセスとエージェント能力を組み合わせています。\n\n特徴は維持するコードコンテキストの深さと、複雑なマルチステップ開発タスクを自律的に実行する能力です。大規模プロジェクトでAIを真のペアプログラマーとして求める開発者に最適です。",
+      "es": "Qoder es un IDE IA construido para desarrolladores que quieren que sus herramientas entiendan genuinamente su código. Combina acceso a modelos fuertes con capacidades agénticas dentro de un editor familiar.\n\nLo distingue la profundidad del contexto de código y su capacidad para ejecutar tareas complejas autónomamente. Para desarrolladores en proyectos sustanciales que quieren un verdadero pair programmer.",
+      "fr": "Qoder est un IDE IA construit pour les développeurs qui veulent que leurs outils comprennent véritablement leur codebase. Il combine un accès à des modèles forts avec des capacités agentiques dans un éditeur familier.\n\nCe qui le distingue est la profondeur du contexte de code et sa capacité à exécuter des tâches complexes de manière autonome. Pour les développeurs sur des projets conséquents qui veulent un vrai pair programmer."
+    },
+    "bestFor": {
+      "en": [
+        "Professional developers on complex projects",
+        "Multi-file agentic code editing",
+        "Teams wanting deep codebase-aware AI"
+      ],
+      "zh": [
+        "处理复杂项目的专业开发者",
+        "多文件智能体代码编辑",
+        "需要深度感知代码库的AI的团队"
+      ],
+      "ja": [
+        "複雑プロジェクトのプロ開発者",
+        "マルチファイルエージェントコード編集",
+        "コードベース認識AIを求めるチーム"
+      ],
+      "es": [
+        "Desarrolladores profesionales en proyectos complejos",
+        "Edición de código agéntica multi-archivo",
+        "Equipos que quieren IA consciente del código"
+      ],
+      "fr": [
+        "Développeurs professionnels sur projets complexes",
+        "Édition de code agentique multi-fichiers",
+        "Équipes voulant une IA consciente de la codebase"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You prefer a lighter completion-focused tool (→ GitHub Copilot)",
+        "You want maximum community and extension ecosystem (→ Cursor)"
+      ],
+      "zh": [
+        "偏好更轻量的补全工具（→ GitHub Copilot）",
+        "需要最大的社区和扩展生态（→ Cursor）"
+      ],
+      "ja": [
+        "より軽量な補完特化ツールを好む場合（→ GitHub Copilot）",
+        "最大のコミュニティと拡張エコシステムが必要な場合（→ Cursor）"
+      ],
+      "es": [
+        "Prefieres una herramienta más ligera de completado (→ GitHub Copilot)",
+        "Quieres máximo ecosistema de comunidad (→ Cursor)"
+      ],
+      "fr": [
+        "Vous préférez un outil de complétion plus léger (→ GitHub Copilot)",
+        "Vous voulez un maximum d'écosystème communautaire (→ Cursor)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-27",
+    "verdictDate": "2026-07-27",
+    "pricingVerified": "2026-07-27"
+  }
+}

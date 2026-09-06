@@ -1,9 +1,9 @@
 import { MetadataRoute } from 'next';
-import tools from '@/data/tools.json';
+import { tools } from '@/data/aggregated';
 import blogPosts from '@/data/blogPosts.json';
 import tutorials from '@/data/tutorials.json';
-import skills from '@/data/skills.json';
-import mcpServers from '@/data/mcp.json';
+import { skills } from '@/data/aggregated';
+import { mcp as mcpServers } from '@/data/aggregated';
 import { routing, TEMP_NOINDEX_LOCALES } from '@/i18n/routing';
 import { CATEGORY_SLUGS } from '@/lib/categories';
 

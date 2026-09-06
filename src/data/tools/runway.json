@@ -1,0 +1,28 @@
+{
+  "slug": "runway",
+  "name": "Runway",
+  "nameZh": "Runway",
+  "description": "AI 视频生成和编辑工具，支持文本生成视频、视频编辑等",
+  "descriptionEn": "AI video generation and editing tool, supports text-to-video and video editing",
+  "descriptionJa": "AI動画生成・編集ツール。テキストから動画生成、動画編集に対応",
+  "descriptionEs": "Herramienta de generación y edición de video IA, soporta texto a video y edición de video",
+  "descriptionFr": "Outil de génération et d'édition vidéo IA, supporte la génération texte-vers-vidéo et l'édition vidéo",
+  "url": "https://runway.com",
+  "logo": "/logos/tools/runway.png",
+  "category": "Video",
+  "tags": [
+    "Freemium"
+  ],
+  "featured": true,
+  "developer": "Runway",
+  "platforms": {
+    "web": true,
+    "windows": false,
+    "macos": false,
+    "ios": true,
+    "android": true,
+    "linux": false,
+    "browser_extension": false,
+    "api": true
+  }
+}

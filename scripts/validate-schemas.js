@@ -7,6 +7,7 @@
 const fs = require('fs');
 const path = require('path');
 const Ajv = require('ajv');
+const { loadTools, loadToolDetails, loadSkills, loadSkillDetails, loadMcp, loadMcpDetails } = require('./lib/load-data.cjs');
 
 const DATA_DIR = path.resolve(__dirname, '..', 'src', 'data');
 const SCHEMA_DIR = path.resolve(__dirname, 'schemas');
@@ -14,13 +15,13 @@ const SCHEMA_DIR = path.resolve(__dirname, 'schemas');
 const ajv = new Ajv({ allErrors: true, verbose: true });
 
 const TASKS = [
-  { data: 'tools.json',       schema: 'tools.schema.json' },
-  { data: 'toolDetails.json', schema: 'toolDetails.schema.json' },
-  { data: 'skills.json',      schema: 'skills.schema.json' },
-  { data: 'skillDetails.json', schema: 'skillDetails.schema.json' },
-  { data: 'mcp.json',         schema: 'mcp.schema.json' },
-  { data: 'mcpDetails.json',  schema: 'mcpDetails.schema.json' },
-  { data: 'blogPosts.json',   schema: 'blogPosts.schema.json' },
+  { data: 'tools.json',       schema: 'tools.schema.json',       load: loadTools },
+  { data: 'toolDetails.json', schema: 'toolDetails.schema.json', load: loadToolDetails },
+  { data: 'skills.json',      schema: 'skills.schema.json',      load: loadSkills },
+  { data: 'skillDetails.json', schema: 'skillDetails.schema.json', load: loadSkillDetails },
+  { data: 'mcp.json',         schema: 'mcp.schema.json',         load: loadMcp },
+  { data: 'mcpDetails.json',  schema: 'mcpDetails.schema.json',  load: loadMcpDetails },
+  { data: 'blogPosts.json',   schema: 'blogPosts.schema.json',   load: () => JSON.parse(fs.readFileSync(path.join(DATA_DIR, 'blogPosts.json'), 'utf8')) },
 ];
 
 /** 加载并编译 schema */
@@ -39,13 +40,12 @@ function loadSchema(filename) {
   }
 }
 
-/** 加载 JSON 数据文件 */
-function loadData(filename) {
-  const filePath = path.join(DATA_DIR, filename);
+/** 加载 JSON 数据（拆分集合走 loader 装配，输出与拆分前等价；单文件直读） */
+function loadData(task) {
   try {
-    return JSON.parse(fs.readFileSync(filePath, 'utf8'));
+    return task.load();
   } catch (e) {
-    console.error(`[FATAL] 数据文件解析失败: ${filename} — ${e.message}`);
+    console.error(`[FATAL] 数据装配失败: ${task.data} — ${e.message}`);
     process.exit(1);
   }
 }
@@ -56,7 +56,7 @@ console.log('🔍 JSON Schema 结构校验开始\n');
 
 for (const task of TASKS) {
   const validate = loadSchema(task.schema);
-  const data = loadData(task.data);
+  const data = loadData(task);
 
   const valid = validate(data);
   if (valid) {

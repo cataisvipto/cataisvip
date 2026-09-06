@@ -1,0 +1,224 @@
+{
+  "features": {
+    "en": [
+      "AI coding agent with CLI",
+      "VS Code extension",
+      "Kimi flagship model",
+      "Ultra-long context",
+      "Chinese-first developer experience",
+      "Domestic direct access"
+    ],
+    "zh": [
+      "AI 编程 Agent（CLI）",
+      "VS Code 扩展插件",
+      "Kimi 旗舰模型",
+      "超长上下文",
+      "中文优先的开发体验",
+      "国内直连访问"
+    ],
+    "ja": [
+      "CLI 付き AI コーディング Agent",
+      "VS Code 拡張",
+      "Kimi フラッグシップモデル",
+      "超長コンテキスト",
+      "中国語優先の開発体験",
+      "国内から直接アクセス"
+    ],
+    "es": [
+      "Agente de codificación con CLI",
+      "Extensión de VS Code",
+      "Modelo insignia de Kimi",
+      "Contexto ultralargo",
+      "Experiencia en chino primero",
+      "Acceso directo nacional"
+    ],
+    "fr": [
+      "Agent de codage avec CLI",
+      "Extension VS Code",
+      "Modèle phare de Kimi",
+      "Contexte ultra-long",
+      "Expérience en chinois d'abord",
+      "Accès direct national"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Free tier with basic quota",
+      "zh": "免费额度（基础用量）",
+      "ja": "基本枠の無料プラン",
+      "es": "Nivel gratuito con cuota básica",
+      "fr": "Offre gratuite avec quota de base"
+    },
+    "pro": {
+      "en": "Kimi Code Plan (paid tiers unlock flagship model)",
+      "zh": "Kimi Code 套餐（付费档位解锁旗舰模型）",
+      "ja": "Kimi Code プラン（有料枠でフラッグシップ解放）",
+      "es": "Plan Kimi Code (niveles de pago desbloquean el modelo insignia)",
+      "fr": "Plan Kimi Code (niveaux payants débloquent le modèle phare)"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Code generation",
+      "Refactoring",
+      "Debugging",
+      "Cross-file project analysis"
+    ],
+    "zh": [
+      "代码生成",
+      "代码重构",
+      "调试排错",
+      "跨文件项目分析"
+    ],
+    "ja": [
+      "コード生成",
+      "リファクタリング",
+      "デバッグ",
+      "ファイル横断のプロジェクト分析"
+    ],
+    "es": [
+      "Generación de código",
+      "Refactorización",
+      "Depuración",
+      "Análisis de proyectos entre archivos"
+    ],
+    "fr": [
+      "Génération de code",
+      "Refactorisation",
+      "Débogage",
+      "Analyse de projet multi-fichiers"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Stable domestic access",
+      "Ultra-long context",
+      "Both CLI and IDE",
+      "Chinese-friendly"
+    ],
+    "zh": [
+      "国内访问稳定",
+      "超长上下文",
+      "CLI 与 IDE 双端",
+      "中文友好"
+    ],
+    "ja": [
+      "国内アクセスが安定",
+      "超長コンテキスト",
+      "CLI と IDE の両対応",
+      "中国語に親和的"
+    ],
+    "es": [
+      "Acceso nacional estable",
+      "Contexto ultralargo",
+      "CLI e IDE",
+      "Amigable con el chino"
+    ],
+    "fr": [
+      "Accès national stable",
+      "Contexte ultra-long",
+      "CLI et IDE",
+      "Adapté au chinois"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Top model requires a paid plan",
+      "Relatively new ecosystem"
+    ],
+    "zh": [
+      "顶级模型需付费套餐",
+      "生态相对较新"
+    ],
+    "ja": [
+      "最上位モデルは有料プランが必要",
+      "エコシステムが比較的新しい"
+    ],
+    "es": [
+      "El mejor modelo requiere plan de pago",
+      "Ecosistema relativamente nuevo"
+    ],
+    "fr": [
+      "Le meilleur modèle nécessite un plan payant",
+      "Écosystème relativement récent"
+    ]
+  },
+  "latestUpdate": {
+    "en": "2026: Chinese Kimi Code entry with the latest flagship model and VS Code extension",
+    "zh": "2026年：Kimi Code 中文入口，提供最新旗舰模型与 VS Code 扩展",
+    "ja": "2026年：中国語版 Kimi Code、最新フラッグシップモデルと VS Code 拡張を提供",
+    "es": "2026: acceso en chino a Kimi Code con el último modelo insignia y extensión de VS Code",
+    "fr": "2026 : accès chinois à Kimi Code avec le dernier modèle phare et l'extension VS Code"
+  },
+  "verdict": {
+    "badge": "Worth Trying",
+    "headline": {
+      "en": "Chinese edition of Kimi Code with domestic service integrations.",
+      "zh": "Kimi Code中国版，集成国内服务。",
+      "ja": "国内サービス統合を備えたKimi Codeの中国版。",
+      "es": "Edición china de Kimi Code con integraciones de servicios domésticos.",
+      "fr": "Édition chinoise de Kimi Code avec intégrations de services domestiques."
+    },
+    "body": {
+      "en": "Kimi Code CN is the domestically-accessible version of Moonshot's coding assistant, optimized for Chinese developers with local hosting and compliance. It shares the same long-context strengths but with better latency for users in China.\n\nFor Chinese developers, it offers a strong alternative to international tools that may face connectivity issues. The same limitations apply regarding IDE integration maturity compared to more established players.",
+      "zh": "Kimi Code CN 是月之暗面编程助手的国内可访问版本，针对国内开发者优化了本地托管和合规性。共享相同的长上下文优势，对国内用户有更好的延迟。\n\n对中国开发者而言，它是面对连接问题的国际工具的有力替代。在IDE集成成熟度方面与更成熟的产品相比有相同的局限。",
+      "ja": "Kimi Code CNはMoonshotコーディングアシスタントの国内アクセス版で、中国の開発者向けにローカルホスティングとコンプライアンスを最適化しています。同じ長コンテキストの強みを持ちながら、中国のユーザーにとって低遅延です。\n\n中国の開発者にとって、接続問題に直面する可能性のある国際ツールの強力な代替です。IDE統合の成熟度については同様の制限が適用されます。",
+      "es": "Kimi Code CN es la versión accesible domésticamente del asistente de código de Moonshot, optimizada para desarrolladores chinos con hosting local y cumplimiento. Comparte las mismas fortalezas de contexto largo con mejor latencia en China.\n\nPara desarrolladores chinos, ofrece una alternativa fuerte a herramientas internacionales con problemas de conectividad.",
+      "fr": "Kimi Code CN est la version domestique de l'assistant de code Moonshot, optimisée pour les développeurs chinois avec hébergement local et conformité. Mêmes forces de contexte long avec meilleure latence en Chine.\n\nPour les développeurs chinois, c'est une alternative solide aux outils internationaux pouvant avoir des problèmes de connectivité."
+    },
+    "bestFor": {
+      "en": [
+        "Chinese developers needing local coding AI",
+        "Large codebase analysis within China",
+        "Teams requiring domestic compliance"
+      ],
+      "zh": [
+        "需要本地编程AI的中国开发者",
+        "国内大型代码库分析",
+        "需要国内合规的团队"
+      ],
+      "ja": [
+        "ローカルコーディングAIが必要な中国の開発者",
+        "中国国内での大規模コードベース分析",
+        "国内コンプライアンスが必要なチーム"
+      ],
+      "es": [
+        "Desarrolladores chinos que necesitan IA de código local",
+        "Análisis de bases de código grandes en China",
+        "Equipos que requieren cumplimiento doméstico"
+      ],
+      "fr": [
+        "Développeurs chinois nécessitant une IA de code locale",
+        "Analyse de grandes bases de code en Chine",
+        "Équipes nécessitant la conformité domestique"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You want the most mature coding AI (→ GitHub Copilot, Cursor)",
+        "You're outside China and want better connectivity (→ Kimi Code)"
+      ],
+      "zh": [
+        "需要最成熟的编程AI（→ GitHub Copilot、Cursor）",
+        "在海外需要更好的连接（→ Kimi Code）"
+      ],
+      "ja": [
+        "最も成熟したコーディングAIが必要な場合（→ GitHub Copilot、Cursor）",
+        "中国国外でより良い接続が必要な場合（→ Kimi Code）"
+      ],
+      "es": [
+        "Quieres el IA de código más maduro (→ GitHub Copilot, Cursor)",
+        "Estás fuera de China y quieres mejor conectividad (→ Kimi Code)"
+      ],
+      "fr": [
+        "Vous voulez l'IA de code la plus mature (→ GitHub Copilot, Cursor)",
+        "Vous êtes hors de Chine et voulez une meilleure connectivité (→ Kimi Code)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-27",
+    "verdictDate": "2026-07-27",
+    "pricingVerified": "2026-07-27"
+  }
+}

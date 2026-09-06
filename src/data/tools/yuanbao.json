@@ -1,0 +1,29 @@
+{
+  "slug": "yuanbao",
+  "name": "Tencent Yuanbao",
+  "nameZh": "腾讯元宝",
+  "description": "腾讯推出的 AI 助手，基于混元大模型，深度整合微信生态",
+  "descriptionEn": "Tencent's AI assistant based on Hunyuan LLM, deeply integrated with WeChat ecosystem",
+  "descriptionJa": "TencentのAIアシスタント。混元モデル搭載、WeChatエコシステムと深く統合",
+  "descriptionEs": "Asistente de IA de Tencent basado en Hunyuan LLM, profundamente integrado con el ecosistema WeChat",
+  "descriptionFr": "Assistant IA de Tencent basé sur Hunyuan LLM, profondément intégré à l'écosystème WeChat",
+  "url": "https://yuanbao.tencent.com",
+  "logo": "/logos/tools/yuanbao.png",
+  "category": "Chat",
+  "tags": [
+    "Free"
+  ],
+  "featured": false,
+  "developer": "Tencent",
+  "developerZh": "腾讯",
+  "platforms": {
+    "web": true,
+    "windows": true,
+    "macos": true,
+    "ios": true,
+    "android": true,
+    "linux": false,
+    "browser_extension": "unknown",
+    "api": false
+  }
+}

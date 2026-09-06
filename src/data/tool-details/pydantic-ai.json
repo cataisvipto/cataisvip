@@ -1,0 +1,234 @@
+{
+  "features": {
+    "en": [
+      "Type-safe agents: structured outputs validated by Pydantic at runtime",
+      "Model-agnostic: OpenAI, Anthropic, Gemini, Mistral, Ollama and more",
+      "FastAPI-style dependency injection for tools and context",
+      "Built-in Logfire integration for tracing and observability",
+      "Durable execution support and built-in evals",
+      "MCP support for connecting external tools"
+    ],
+    "zh": [
+      "类型安全智能体：结构化输出经 Pydantic 运行时校验",
+      "模型无关：支持 OpenAI、Anthropic、Gemini、Mistral、Ollama 等",
+      "FastAPI 风格的依赖注入管理工具与上下文",
+      "内置 Logfire 集成，提供追踪与可观测性",
+      "支持持久执行与内置评测",
+      "支持 MCP 连接外部工具"
+    ],
+    "ja": [
+      "型安全なエージェント：構造化出力をPydanticが実行時に検証",
+      "モデル非依存：OpenAI、Anthropic、Gemini、Mistral、Ollamaなどに対応",
+      "FastAPIスタイルの依存性注入でツールとコンテキストを管理",
+      "Logfire統合を内蔵し、トレースと可観測性を提供",
+      "永続実行のサポートと組み込み評価機能",
+      "外部ツール接続のためのMCPサポート"
+    ],
+    "es": [
+      "Agentes con tipado seguro: salidas estructuradas validadas por Pydantic en tiempo de ejecución",
+      "Agnóstico de modelos: OpenAI, Anthropic, Gemini, Mistral, Ollama y más",
+      "Inyección de dependencias estilo FastAPI para herramientas y contexto",
+      "Integración Logfire incorporada para trazado y observabilidad",
+      "Soporte de ejecución durable y evaluaciones integradas",
+      "Soporte MCP para conectar herramientas externas"
+    ],
+    "fr": [
+      "Agents à typage sûr : sorties structurées validées par Pydantic à l'exécution",
+      "Indépendant du modèle : OpenAI, Anthropic, Gemini, Mistral, Ollama et plus",
+      "Injection de dépendances façon FastAPI pour outils et contexte",
+      "Intégration Logfire native pour le traçage et l'observabilité",
+      "Support d'exécution durable et évaluations intégrées",
+      "Support MCP pour connecter des outils externes"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Completely free and open source (MIT license): the framework has no paid tiers, you pay only your LLM providers",
+      "zh": "完全免费开源（MIT 协议）：框架无付费档，只需向 LLM 供应商付费",
+      "ja": "完全無料のオープンソース（MITライセンス）：フレームワークに有料プランはなく、LLMプロバイダーへの支払いのみ",
+      "es": "Completamente gratuito y open source (licencia MIT): el framework no tiene niveles de pago, solo pagas a tus proveedores de LLM",
+      "fr": "Entièrement gratuit et open source (licence MIT) : le framework n'a pas d'offre payante, vous ne payez que vos fournisseurs LLM"
+    },
+    "paid": {
+      "en": "Optional Pydantic Logfire observability platform: free tier available, paid plans scale with usage",
+      "zh": "可选的 Pydantic Logfire 可观测性平台：提供免费档，付费计划按用量扩展",
+      "ja": "オプションのPydantic Logfire可観測性プラットフォーム：無料枠あり、有料プランは使用量に応じて拡張",
+      "es": "Plataforma opcional de observabilidad Pydantic Logfire: nivel gratuito disponible, planes de pago según uso",
+      "fr": "Plateforme d'observabilité Pydantic Logfire optionnelle : offre gratuite disponible, plans payants selon l'usage"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Production Python apps where LLM output must be validated",
+      "Structured data extraction agents with strict schemas",
+      "Teams already building on Pydantic and FastAPI",
+      "Type-safe tool calling with dependency-injected context"
+    ],
+    "zh": [
+      "必须校验 LLM 输出的生产级 Python 应用",
+      "带严格 schema 的结构化数据提取智能体",
+      "已基于 Pydantic 与 FastAPI 构建的团队",
+      "依赖注入上下文的类型安全工具调用"
+    ],
+    "ja": [
+      "LLM出力の検証が必須な本番Pythonアプリ",
+      "厳格なスキーマを持つ構造化データ抽出エージェント",
+      "すでにPydanticとFastAPIで構築しているチーム",
+      "依存性注入コンテキストによる型安全なツール呼び出し"
+    ],
+    "es": [
+      "Apps Python en producción donde la salida del LLM debe validarse",
+      "Agentes de extracción de datos estructurados con esquemas estrictos",
+      "Equipos que ya construyen sobre Pydantic y FastAPI",
+      "Llamadas a herramientas con tipado seguro y contexto inyectado"
+    ],
+    "fr": [
+      "Apps Python en production où la sortie LLM doit être validée",
+      "Agents d'extraction de données structurées à schémas stricts",
+      "Équipes construisant déjà sur Pydantic et FastAPI",
+      "Appels d'outils typés avec contexte injecté"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Brings the FastAPI developer experience to agent building",
+      "Strict typing catches errors before they reach production",
+      "Lean core with no heavy abstraction layers",
+      "Maintained by the team behind Pydantic, the backbone of the Python LLM stack"
+    ],
+    "zh": [
+      "把 FastAPI 的开发体验带到了智能体构建",
+      "严格类型让错误在进入生产前就被捕获",
+      "核心精简，没有厚重的抽象层",
+      "由 Pydantic 团队维护——Python LLM 技术栈的基石"
+    ],
+    "ja": [
+      "FastAPIの開発体験をエージェント構築にもたらす",
+      "厳格な型付けにより本番前にエラーを捕捉",
+      "重い抽象化レイヤーのないリーンなコア",
+      "Python LLMスタックの基盤であるPydanticのチームがメンテナンス"
+    ],
+    "es": [
+      "Lleva la experiencia de desarrollo de FastAPI a la construcción de agentes",
+      "El tipado estricto captura errores antes de llegar a producción",
+      "Núcleo ligero sin capas pesadas de abstracción",
+      "Mantenido por el equipo detrás de Pydantic, columna del stack LLM de Python"
+    ],
+    "fr": [
+      "Apporte l'expérience développeur de FastAPI à la création d'agents",
+      "Le typage strict attrape les erreurs avant la production",
+      "Cœur léger sans couches d'abstraction lourdes",
+      "Maintenu par l'équipe derrière Pydantic, pilier du stack LLM Python"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Python only — no JavaScript/TypeScript story",
+      "Smaller integration ecosystem than LangChain",
+      "Complex multi-agent orchestration requires your own patterns",
+      "Fewer tutorials and community templates than older rivals"
+    ],
+    "zh": [
+      "仅支持 Python，没有 JavaScript/TypeScript 方案",
+      "集成生态比 LangChain 小",
+      "复杂多智能体编排需要自行设计模式",
+      "教程与社区模板少于更早的竞品"
+    ],
+    "ja": [
+      "PythonのみでJavaScript/TypeScript版はなし",
+      "統合エコシステムはLangChainより小規模",
+      "複雑なマルチエージェントオーケストレーションは独自パターンが必要",
+      "チュートリアルやコミュニティテンプレートが古参ライバルより少ない"
+    ],
+    "es": [
+      "Solo Python: sin versión JavaScript/TypeScript",
+      "Ecosistema de integraciones menor que LangChain",
+      "La orquestación multiagente compleja requiere patrones propios",
+      "Menos tutoriales y plantillas comunitarias que rivales más antiguos"
+    ],
+    "fr": [
+      "Python uniquement — pas de version JavaScript/TypeScript",
+      "Écosystème d'intégrations plus restreint que LangChain",
+      "L'orchestration multi-agents complexe demande vos propres patterns",
+      "Moins de tutoriels et de modèles communautaires que les rivaux plus anciens"
+    ]
+  },
+  "latestUpdate": {
+    "en": "2026: after reaching stable 1.0, Pydantic AI anchors the Pydantic end-to-end AI stack alongside Logfire observability and Evals, with durable execution and MCP support maturing rapidly",
+    "zh": "2026 年：达到 1.0 稳定版后，Pydantic AI 与 Logfire 可观测性、Evals 共同构成 Pydantic 端到端 AI 技术栈，持久执行与 MCP 支持快速成熟",
+    "ja": "2026年：安定版1.0到達後、Pydantic AIはLogfire可観測性やEvalsとともにPydanticのエンドツーエンドAIスタックの中核となり、永続実行とMCPサポートが急速に成熟",
+    "es": "2026: tras alcanzar la 1.0 estable, Pydantic AI ancla el stack de IA integral de Pydantic junto a la observabilidad Logfire y Evals, con ejecución durable y soporte MCP madurando rápidamente",
+    "fr": "2026 : après la 1.0 stable, Pydantic AI ancre le stack IA de bout en bout de Pydantic aux côtés de l'observabilité Logfire et des Evals, avec une exécution durable et un support MCP en pleine maturation"
+  },
+  "verdict": {
+    "badge": "Recommended",
+    "headline": {
+      "en": "The type-safety choice for production Python agents",
+      "zh": "生产级 Python 智能体的类型安全之选",
+      "ja": "本番Pythonエージェントの型安全という選択",
+      "es": "La opción de tipado seguro para agentes Python en producción",
+      "fr": "Le choix du typage sûr pour les agents Python en production"
+    },
+    "body": {
+      "en": "Pydantic AI bets that agents fail in production for the same reason APIs do: unvalidated data. By making every output a validated Pydantic model and borrowing FastAPI's dependency injection, it turns agent code into something that feels like normal, testable Python. It won't hand you a ready-made multi-agent topology like LangGraph or CrewAI — but for teams who value correctness over scaffolding, it is the cleanest foundation available.",
+      "zh": "Pydantic AI 的赌注是：智能体在生产中翻车的原因与 API 相同——未经校验的数据。它让每个输出都是经校验的 Pydantic 模型，并借用 FastAPI 的依赖注入，使智能体代码写起来像普通、可测试的 Python。它不会像 LangGraph 或 CrewAI 那样给你现成的多智能体拓扑——但对看重正确性胜过脚手架的团队，这是当下最干净的地基。",
+      "ja": "Pydantic AIの賭けはこうだ：エージェントが本番で失敗する理由はAPIと同じ、検証されていないデータだと。すべての出力を検証済みPydanticモデルにし、FastAPIの依存性注入を取り入れることで、エージェントのコードを普通のテスト可能なPythonのように書けるようにした。LangGraphやCrewAIのような既製のマルチエージェント構成は提供しないが、足場より正確性を重視するチームには、現状最もクリーンな基盤だ。",
+      "es": "Pydantic AI apuesta a que los agentes fallan en producción por la misma razón que las APIs: datos sin validar. Al hacer que cada salida sea un modelo Pydantic validado y tomar la inyección de dependencias de FastAPI, convierte el código de agentes en Python normal y testeable. No te dará una topología multiagente lista como LangGraph o CrewAI, pero para equipos que valoran la corrección sobre el andamiaje, es la base más limpia disponible.",
+      "fr": "Pydantic AI parie que les agents échouent en production pour la même raison que les API : des données non validées. En faisant de chaque sortie un modèle Pydantic validé et en reprenant l'injection de dépendances de FastAPI, il transforme le code d'agents en Python normal et testable. Il ne vous donnera pas une topologie multi-agents prête à l'emploi comme LangGraph ou CrewAI — mais pour les équipes qui privilégient la justesse à l'échafaudage, c'est la fondation la plus propre du moment."
+    },
+    "bestFor": {
+      "en": [
+        "Python teams shipping validated, structured LLM output",
+        "FastAPI/Pydantic shops adding agents to existing services",
+        "Data extraction pipelines with strict schemas"
+      ],
+      "zh": [
+        "需要交付经校验结构化 LLM 输出的 Python 团队",
+        "在既有服务中加入智能体的 FastAPI/Pydantic 团队",
+        "带严格 schema 的数据提取管线"
+      ],
+      "ja": [
+        "検証済み構造化LLM出力を提供するPythonチーム",
+        "既存サービスにエージェントを追加するFastAPI/Pydanticチーム",
+        "厳格なスキーマを持つデータ抽出パイプライン"
+      ],
+      "es": [
+        "Equipos Python entregando salida LLM estructurada y validada",
+        "Equipos FastAPI/Pydantic añadiendo agentes a servicios existentes",
+        "Pipelines de extracción de datos con esquemas estrictos"
+      ],
+      "fr": [
+        "Équipes Python livrant des sorties LLM structurées et validées",
+        "Équipes FastAPI/Pydantic ajoutant des agents aux services existants",
+        "Pipelines d'extraction de données à schémas stricts"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You need complex multi-agent graphs out of the box (→ LangGraph)",
+        "You want role-based crews with minimal code (→ CrewAI)"
+      ],
+      "zh": [
+        "你需要开箱即用的复杂多智能体图（→ LangGraph）",
+        "你想用最少代码实现角色分工（→ CrewAI）"
+      ],
+      "ja": [
+        "すぐ使える複雑なマルチエージェントグラフが必要（→ LangGraph）",
+        "最小限のコードで役割ベースのCrewが欲しい（→ CrewAI）"
+      ],
+      "es": [
+        "Necesitas grafos multiagente complejos listos para usar (→ LangGraph)",
+        "Quieres crews por roles con mínimo código (→ CrewAI)"
+      ],
+      "fr": [
+        "Vous avez besoin de graphes multi-agents complexes prêts à l'emploi (→ LangGraph)",
+        "Vous voulez des crews par rôles avec un minimum de code (→ CrewAI)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-27",
+    "verdictDate": "2026-07-27",
+    "pricingVerified": "2026-07-27"
+  }
+}

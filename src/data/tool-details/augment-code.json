@@ -1,0 +1,234 @@
+{
+  "features": {
+    "en": [
+      "Context Engine builds a structured map of your entire codebase, not just embeddings",
+      "Claimed ~33% fewer tokens per task thanks to precise context retrieval",
+      "IDE extensions for VS Code and JetBrains plus a terminal CLI",
+      "Remote agents and the new Cosmos product for parallel autonomous work",
+      "MCP support to connect internal tools and data sources",
+      "SOC 2 Type II certified; customer code is never used for training"
+    ],
+    "zh": [
+      "Context Engine 为整个代码库构建结构化地图，而不只是向量嵌入",
+      "官方宣称精准上下文检索让每个任务省约 33% token",
+      "提供 VS Code 与 JetBrains 的 IDE 扩展及终端 CLI",
+      "远程智能体与新品 Cosmos 支持并行自主作业",
+      "支持 MCP，可接入内部工具与数据源",
+      "SOC 2 Type II 认证；客户代码绝不用于训练"
+    ],
+    "ja": [
+      "Context Engineが埋め込みだけでなくコードベース全体の構造化マップを構築",
+      "精密なコンテキスト検索によりタスクあたり約33%のトークン削減を謳う",
+      "VS CodeとJetBrainsのIDE拡張、ターミナルCLIを提供",
+      "リモートエージェントと新製品Cosmosで並列自律作業に対応",
+      "MCPサポートで社内ツールやデータソースに接続",
+      "SOC 2 Type II認証取得。顧客コードを学習に使用しない"
+    ],
+    "es": [
+      "El Context Engine construye un mapa estructurado de toda tu base de código, no solo embeddings",
+      "Afirma ~33% menos tokens por tarea gracias a la recuperación precisa de contexto",
+      "Extensiones IDE para VS Code y JetBrains más una CLI de terminal",
+      "Agentes remotos y el nuevo producto Cosmos para trabajo autónomo en paralelo",
+      "Soporte MCP para conectar herramientas internas y fuentes de datos",
+      "Certificado SOC 2 Type II; el código del cliente nunca se usa para entrenar"
+    ],
+    "fr": [
+      "Le Context Engine construit une carte structurée de toute votre base de code, pas de simples embeddings",
+      "Environ 33 % de tokens en moins par tâche grâce à une récupération de contexte précise",
+      "Extensions IDE pour VS Code et JetBrains plus une CLI de terminal",
+      "Agents distants et le nouveau produit Cosmos pour un travail autonome en parallèle",
+      "Support MCP pour connecter outils internes et sources de données",
+      "Certifié SOC 2 Type II ; le code client n'est jamais utilisé pour l'entraînement"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "No free plan — Augment Code is sold to teams and enterprises only, though trials are available on request",
+      "zh": "没有免费版——Augment Code 只面向团队与企业销售，可按需申请试用",
+      "ja": "無料プランなし。Augment Codeはチーム・エンタープライズ向け専売。トライアルはリクエストで利用可能",
+      "es": "Sin plan gratuito: Augment Code se vende solo a equipos y empresas, aunque hay pruebas disponibles bajo petición",
+      "fr": "Pas de plan gratuit — Augment Code n'est vendu qu'aux équipes et entreprises, avec des essais disponibles sur demande"
+    },
+    "paid": {
+      "en": "Business: $100/month flat per team (up to 50 seats, no per-seat fee) including a $100 usage pool shared across the team; LLM usage billed at provider list price + 40% service fee, top-ups valid 12 months. Enterprise: custom, adds SSO/OIDC/SCIM, CMEK, ISO 42001 and data residency",
+      "zh": "Business 版：100 美元/月/团队固定价（最多 50 席，无席位费），含全团队共享的 100 美元用量池；LLM 用量按供应商牌价 + 40% 服务费计，充值 12 个月内有效。企业版定制，增加 SSO/OIDC/SCIM、CMEK、ISO 42001 与数据驻留",
+      "ja": "Business版：チームあたり月額100ドル固定（最大50席、席課金なし）、チーム全体で共有する100ドル分の利用プールを含む。LLM利用はプロバイダー定価+40%のサービス料で課金、チャージは12ヶ月有効。エンタープライズ版は個別見積りで、SSO/OIDC/SCIM、CMEK、ISO 42001、データレジデンシーを追加",
+      "es": "Business: 100 $/mes fijos por equipo (hasta 50 puestos, sin cuota por asiento) con un fondo de uso de 100 $ compartido por todo el equipo; el uso de LLM se factura a precio de lista del proveedor + 40% de tarifa de servicio, las recargas valen 12 meses. Enterprise: personalizado, añade SSO/OIDC/SCIM, CMEK, ISO 42001 y residencia de datos",
+      "fr": "Business : 100 $/mois forfaitaires par équipe (jusqu'à 50 sièges, sans frais par siège) avec un pool d'usage de 100 $ partagé par toute l'équipe ; l'usage LLM est facturé au tarif catalogue du fournisseur + 40 % de frais de service, les recharges valent 12 mois. Enterprise : sur mesure, ajoute SSO/OIDC/SCIM, CMEK, ISO 42001 et résidence des données"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Engineering teams navigating million-line legacy codebases",
+      "Enterprises with strict compliance needs: SOC 2, ISO 42001, CMEK",
+      "Cross-repo refactors where context precision matters more than speed",
+      "Organizations wanting predictable flat pricing instead of per-seat sprawl"
+    ],
+    "zh": [
+      "在百万行级遗留代码库里穿行的工程团队",
+      "有严格合规需求的企业：SOC 2、ISO 42001、CMEK",
+      "上下文精度比速度更重要的跨仓库重构",
+      "想要可预测固定价、拒绝按席位膨胀的组织"
+    ],
+    "ja": [
+      "数百万行のレガシーコードベースを扱うエンジニアリングチーム",
+      "SOC 2、ISO 42001、CMEKなど厳格なコンプライアンス要件を持つ企業",
+      "速度よりコンテキスト精度が重要なクロスレポジトリのリファクタリング",
+      "席数課金の膨張ではなく予測可能な定額制を求める組織"
+    ],
+    "es": [
+      "Equipos de ingeniería que navegan bases de código heredadas de millones de líneas",
+      "Empresas con necesidades estrictas de cumplimiento: SOC 2, ISO 42001, CMEK",
+      "Refactorizaciones entre repos donde la precisión del contexto importa más que la velocidad",
+      "Organizaciones que quieren precio fijo predecible en vez de expansión por asiento"
+    ],
+    "fr": [
+      "Équipes d'ingénierie naviguant dans des bases héritées de millions de lignes",
+      "Entreprises aux exigences strictes de conformité : SOC 2, ISO 42001, CMEK",
+      "Refactorisations multi-dépôts où la précision du contexte prime sur la vitesse",
+      "Organisations voulant un tarif fixe prévisible plutôt qu'une dérive par siège"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Context Engine is genuinely differentiated on very large codebases",
+      "Flat $100/mo for up to 50 seats undercuts per-seat competitors at scale",
+      "Serious enterprise posture: SOC 2 Type II, ISO 42001, no training on your code",
+      "Trusted by engineering teams at Adobe, MongoDB, Snyk and Webflow"
+    ],
+    "zh": [
+      "Context Engine 在超大代码库上有真正的差异化优势",
+      "100 美元/月封顶 50 席，规模化后比按席位计费的对手便宜",
+      "认真的企业级姿态：SOC 2 Type II、ISO 42001、不用你的代码训练",
+      "Adobe、MongoDB、Snyk、Webflow 的工程团队在用"
+    ],
+    "ja": [
+      "Context Engineは超大規模コードベースで本物の差別化要素",
+      "月額100ドルで最大50席は、規模が大きいほど席課金の競合より割安",
+      "本気のエンタープライズ体制：SOC 2 Type II、ISO 42001、コードを学習に使わない",
+      "Adobe、MongoDB、Snyk、Webflowのエンジニアリングチームが採用"
+    ],
+    "es": [
+      "El Context Engine está genuinamente diferenciado en bases de código muy grandes",
+      "Los 100 $/mes fijos hasta 50 puestos baten a los competidores por asiento a escala",
+      "Postura enterprise seria: SOC 2 Type II, ISO 42001, sin entrenar con tu código",
+      "Con la confianza de equipos de Adobe, MongoDB, Snyk y Webflow"
+    ],
+    "fr": [
+      "Le Context Engine est réellement différenciant sur les très grandes bases de code",
+      "Le forfait de 100 $/mois jusqu'à 50 sièges bat les concurrents au siège à grande échelle",
+      "Posture entreprise sérieuse : SOC 2 Type II, ISO 42001, pas d'entraînement sur votre code",
+      "Adopté par les équipes d'ingénierie d'Adobe, MongoDB, Snyk et Webflow"
+    ]
+  },
+  "cons": {
+    "en": [
+      "No free or individual plan — solo developers are simply not the market",
+      "LLM usage carries a 40% service fee on top of provider list prices",
+      "The $100 pooled usage allowance depletes fast across an active team",
+      "Pricing has shifted repeatedly, making long-term budgeting harder"
+    ],
+    "zh": [
+      "没有免费版或个人版——独立开发者根本不是目标市场",
+      "LLM 用量在供应商牌价之上还要加收 40% 服务费",
+      "100 美元的共享用量池在活跃团队里消耗很快",
+      "定价多次调整，长期预算规划变难"
+    ],
+    "ja": [
+      "無料プランも個人プランもなし——ソロ開発者はそもそも対象外",
+      "LLM利用はプロバイダー定価に40%のサービス料が上乗せ",
+      "100ドルの共有利用プールはアクティブなチームではすぐ枯渇",
+      "料金体系が何度も変わり、長期の予算計画が立てにくい"
+    ],
+    "es": [
+      "Sin plan gratuito ni individual: los desarrolladores solitarios no son el mercado",
+      "El uso de LLM lleva un 40% de tarifa de servicio sobre el precio de lista del proveedor",
+      "El fondo compartido de 100 $ se agota rápido en un equipo activo",
+      "El precio ha cambiado repetidamente, dificultando el presupuesto a largo plazo"
+    ],
+    "fr": [
+      "Pas de plan gratuit ni individuel — les développeurs solo ne sont pas la cible",
+      "L'usage LLM supporte 40 % de frais de service en plus des tarifs catalogue",
+      "Le pool d'usage de 100 $ s'épuise vite dans une équipe active",
+      "La tarification a changé plusieurs fois, compliquant la budgétisation à long terme"
+    ]
+  },
+  "latestUpdate": {
+    "en": "2026: Augment Code consolidates pricing into a flat $100/month Business plan (up to 50 seats, pooled usage, LLM at list price +40%) plus custom Enterprise, launches the Cosmos parallel-agent product, and earns ISO 42001 alongside SOC 2 Type II",
+    "zh": "2026 年：Augment Code 将定价整合为 100 美元/月的 Business 固定档（最多 50 席、用量池共享、LLM 按牌价 +40% 计费）加定制企业版，推出并行智能体新品 Cosmos，并在 SOC 2 Type II 之外拿下 ISO 42001 认证",
+    "ja": "2026年：Augment Codeは料金を月額100ドルのBusiness定額プラン（最大50席、利用プール共有、LLMは定価+40%）とカスタムのエンタープライズ版に集約。並列エージェント新製品Cosmosを発表し、SOC 2 Type IIに加えISO 42001認証を取得",
+    "es": "2026: Augment Code consolida su precio en un plan Business fijo de 100 $/mes (hasta 50 puestos, uso compartido, LLM a precio de lista +40%) más Enterprise personalizado, lanza el producto de agentes paralelos Cosmos y obtiene ISO 42001 junto a SOC 2 Type II",
+    "fr": "2026 : Augment Code consolide sa tarification en un plan Business forfaitaire à 100 $/mois (jusqu'à 50 sièges, usage mutualisé, LLM au tarif catalogue +40 %) plus un Enterprise sur mesure, lance le produit d'agents parallèles Cosmos et obtient ISO 42001 en plus de SOC 2 Type II"
+  },
+  "verdict": {
+    "badge": "For Specific Needs",
+    "headline": {
+      "en": "Built for the codebases that make other AI tools give up",
+      "zh": "为那些让其他 AI 工具缴械的代码库而生",
+      "ja": "他のAIツールが白旗を上げるコードベースのために作られた",
+      "es": "Hecho para las bases de código que hacen rendirse a otras herramientas IA",
+      "fr": "Conçu pour les bases de code qui font capituler les autres outils IA"
+    },
+    "body": {
+      "en": "Augment Code refuses to compete on vibes. Its Context Engine — a structured map of your repos rather than a pile of embeddings — is the real thing, and on sprawling legacy monorepos it retrieves context that makes competitors hallucinate. The business model matches the ambition: no free tier, a flat $100/month for up to 50 seats, and a 40% service fee on model usage that funds all that infrastructure. For a 30-engineer team drowning in a million-line codebase, that math is excellent. For individuals or small startups on greenfield projects, it's simply the wrong product — and Augment would be the first to tell you so.",
+      "zh": "Augment Code 拒绝拼氛围。它的 Context Engine——是代码仓库的结构化地图而非一堆向量嵌入——是真材实料，在盘根错节的遗留 monorepo 上，它检索出的上下文能让竞品当场幻觉。商业模式与野心匹配：没有免费档，100 美元/月封顶 50 席，模型用量加收 40% 服务费来养活那套基础设施。对一个在百万行代码里挣扎的 30 人工程团队，这笔账极其划算。对个人或做全新项目的小创业公司，它压根就是错的产品——而 Augment 自己会第一个告诉你这一点。",
+      "ja": "Augment Codeは雰囲気で勝負しない。Context Engine——埋め込みの山ではなくリポジトリの構造化マップ——は本物で、入り組んだレガシーモノレポでは競合がハルシネーションを起こすようなコンテキストを正確に取り出す。ビジネスモデルも野心に見合う。無料ティアなし、月額100ドルで最大50席、モデル利用に40%のサービス料を乗せてそのインフラを賄う。百万行のコードベースに溺れる30人のエンジニアチームにとって、この計算は極めて優秀だ。個人やグリーンフィールドの小さなスタートアップには端的に間違った製品——そしてそれはAugment自身が真っ先に認めるだろう。",
+      "es": "Augment Code se niega a competir por sensaciones. Su Context Engine —un mapa estructurado de tus repos en vez de una pila de embeddings— es genuino, y en monorepos heredados enrevesados recupera contexto donde los competidores alucinan. El modelo de negocio está a la altura de la ambición: sin nivel gratuito, 100 $/mes fijos hasta 50 puestos y un 40% de tarifa de servicio sobre el uso de modelos que financia toda esa infraestructura. Para un equipo de 30 ingenieros ahogado en un millón de líneas, las cuentas salen excelentes. Para individuos o startups pequeñas en proyectos nuevos, es sencillamente el producto equivocado, y Augment sería el primero en decírtelo.",
+      "fr": "Augment Code refuse de jouer sur l'ambiance. Son Context Engine — une carte structurée de vos dépôts plutôt qu'un tas d'embeddings — est du solide, et sur les monorepos hérités tentaculaires, il récupère un contexte là où les concurrents hallucinent. Le modèle économique est à la hauteur de l'ambition : pas de gratuit, un forfait de 100 $/mois jusqu'à 50 sièges, et 40 % de frais de service sur l'usage des modèles pour financer cette infrastructure. Pour une équipe de 30 ingénieurs noyée dans un million de lignes, le calcul est excellent. Pour les particuliers ou les petites startups sur des projets neufs, c'est tout simplement le mauvais produit — et Augment serait le premier à vous le dire."
+    },
+    "bestFor": {
+      "en": [
+        "Mid-size engineering teams (10–50) on large legacy codebases",
+        "Compliance-heavy enterprises needing SOC 2, ISO 42001 and CMEK",
+        "Teams tired of per-seat pricing sprawl who prefer flat billing"
+      ],
+      "zh": [
+        "扎在大型遗留代码库上的中型工程团队（10–50 人）",
+        "需要 SOC 2、ISO 42001 与 CMEK 的重合规企业",
+        "受够按席计费膨胀、偏好固定账单的团队"
+      ],
+      "ja": [
+        "大規模レガシーコードベースを抱える中規模エンジニアリングチーム（10～50人）",
+        "SOC 2、ISO 42001、CMEKが必要なコンプライアンス重視の企業",
+        "席課金の膨張にうんざりし定額制を好むチーム"
+      ],
+      "es": [
+        "Equipos de ingeniería medianos (10–50) en grandes bases de código heredadas",
+        "Empresas con alta carga de cumplimiento que necesitan SOC 2, ISO 42001 y CMEK",
+        "Equipos hartos de la expansión por asiento que prefieren facturación fija"
+      ],
+      "fr": [
+        "Équipes d'ingénierie moyennes (10–50) sur de grandes bases héritées",
+        "Entreprises à forte conformité exigeant SOC 2, ISO 42001 et CMEK",
+        "Équipes lassées de la dérive du prix par siège et préférant un forfait"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You're a solo developer or hobbyist (→ Cline, Aider, Cursor)",
+        "Your codebase is small enough for any tool to grasp (→ GitHub Copilot)"
+      ],
+      "zh": [
+        "你是独立开发者或业余爱好者（→ Cline、Aider、Cursor）",
+        "你的代码库小到任何工具都能吃透（→ GitHub Copilot）"
+      ],
+      "ja": [
+        "ソロ開発者やホビーユーザーである（→ Cline、Aider、Cursor）",
+        "コードベースが小さくどのツールでも把握できる（→ GitHub Copilot）"
+      ],
+      "es": [
+        "Eres desarrollador solitario o aficionado (→ Cline, Aider, Cursor)",
+        "Tu base de código es tan pequeña que cualquier herramienta la abarca (→ GitHub Copilot)"
+      ],
+      "fr": [
+        "Vous êtes développeur solo ou amateur (→ Cline, Aider, Cursor)",
+        "Votre base de code est assez petite pour n'importe quel outil (→ GitHub Copilot)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-27",
+    "verdictDate": "2026-07-27",
+    "pricingVerified": "2026-07-27"
+  }
+}

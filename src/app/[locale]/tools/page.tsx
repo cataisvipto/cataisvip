@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
-import tools from '@/data/tools.json';
+import { tools } from '@/data/aggregated';
 import { generateAlternates, BASE_URL } from '@/lib/seo';
 import type { Tool } from '@/components/ToolCard';
 import ToolsClient from './ToolsClient';

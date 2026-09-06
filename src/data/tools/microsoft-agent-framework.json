@@ -1,0 +1,29 @@
+{
+  "slug": "microsoft-agent-framework",
+  "name": "Microsoft Agent Framework",
+  "nameZh": "微软智能体框架",
+  "description": "微软开源智能体框架，AutoGen 与 Semantic Kernel 的官方继任者：.NET/Python/Go 多智能体工作流，原生支持 MCP 与 A2A",
+  "descriptionEn": "Microsoft's open-source agent framework, the official successor to AutoGen and Semantic Kernel: multi-agent workflows in .NET/Python/Go with native MCP and A2A support",
+  "descriptionJa": "MicrosoftのオープンソースエージェントフレームワークでAutoGenとSemantic Kernelの公式後継。.NET/Python/Goのマルチエージェントワークフロー、MCPとA2Aをネイティブサポート",
+  "descriptionEs": "Framework de agentes de código abierto de Microsoft, sucesor oficial de AutoGen y Semantic Kernel: flujos multiagente en .NET/Python/Go con soporte nativo de MCP y A2A",
+  "descriptionFr": "Framework d'agents open source de Microsoft, successeur officiel d'AutoGen et Semantic Kernel : workflows multi-agents en .NET/Python/Go avec support natif de MCP et A2A",
+  "url": "https://github.com/microsoft/agent-framework",
+  "logo": "/logos/tools/microsoft-agent-framework.png",
+  "category": "Agent",
+  "tags": [
+    "Free",
+    "Open Source"
+  ],
+  "featured": false,
+  "developer": "Microsoft",
+  "platforms": {
+    "web": false,
+    "windows": true,
+    "macos": true,
+    "ios": false,
+    "android": false,
+    "linux": true,
+    "browser_extension": false,
+    "api": false
+  }
+}

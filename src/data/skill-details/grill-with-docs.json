@@ -1,0 +1,104 @@
+{
+  "pros": {
+    "en": [
+      "Combines code and documentation analysis",
+      "Ensures implementation matches design",
+      "Catches documentation drift"
+    ],
+    "zh": [
+      "结合代码和文档分析",
+      "确保实现与设计一致",
+      "捕获文档漂移"
+    ],
+    "ja": [
+      "コードとドキュメント分析を組み合わせる",
+      "実装と設計の一致を確認",
+      "ドキュメントの乖離を発見"
+    ],
+    "es": [
+      "Combina análisis de código y documentación",
+      "Asegura que la implementación coincida con el diseño",
+      "Detecta desviación en la documentación"
+    ],
+    "fr": [
+      "Combine l'analyse du code et de la documentation",
+      "Assure que l'implémentation correspond à la conception",
+      "Détecte la dérive documentaire"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Requires well-maintained documentation",
+      "Longer review cycles",
+      "Best for significant changes only"
+    ],
+    "zh": [
+      "需要维护良好的文档",
+      "审查周期较长",
+      "仅适用于重大变更"
+    ],
+    "ja": [
+      "適切にメンテナンスされたドキュメントが必要",
+      "レビューサイクルが長い",
+      "重要な変更にのみ最適"
+    ],
+    "es": [
+      "Requiere documentación bien mantenida",
+      "Ciclos de revisión más largos",
+      "Mejor solo para cambios significativos"
+    ],
+    "fr": [
+      "Nécessite une documentation bien entretenue",
+      "Cycles de révision plus longs",
+      "Idéal uniquement pour les changements significatifs"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Free and open source",
+      "zh": "免费开源",
+      "ja": "無料オープンソース",
+      "es": "Gratuito y de código abierto",
+      "fr": "Gratuit et open source"
+    }
+  },
+  "verdict": {
+    "en": "An essential upgrade from grill-me for projects where documentation quality matters. 617K installs reflect its value in maintaining alignment between code and docs.",
+    "zh": "对于文档质量重要的项目，grill-me 的重要升级。61.7 万安装量反映了其在维护代码与文档一致性方面的价值。",
+    "ja": "ドキュメントの品質が重要なプロジェクトにおけるgrill-meの重要なアップグレード。61.7万のインストール数が、コードとドキュメントの整合性を維持する価値を反映しています。",
+    "es": "Una actualización esencial de grill-me para proyectos donde la calidad de la documentación importa. 617K instalaciones reflejan su valor para mantener la alineación entre código y documentación.",
+    "fr": "Une mise à niveau essentielle de grill-me pour les projets où la qualité de la documentation compte. 617K installations reflètent sa valeur pour maintenir l'alignement entre le code et la documentation."
+  },
+  "useCases": {
+    "en": [
+      "API documentation review",
+      "Architecture decision records",
+      "Cross-team code reviews"
+    ],
+    "zh": [
+      "API 文档审查",
+      "架构决策记录",
+      "跨团队代码审查"
+    ],
+    "ja": [
+      "APIドキュメントレビュー",
+      "アーキテクチャ決定記録",
+      "チーム間コードレビュー"
+    ],
+    "es": [
+      "Revisión de documentación de API",
+      "Registros de decisiones arquitectónicas",
+      "Revisiones de código entre equipos"
+    ],
+    "fr": [
+      "Révision de documentation d'API",
+      "Registres de décisions architecturales",
+      "Revues de code inter-équipes"
+    ]
+  },
+  "meta": {
+    "lastVerified": "2026-08-11",
+    "verdictDate": "2026-08-11",
+    "pricingVerified": "2026-08-11"
+  }
+}

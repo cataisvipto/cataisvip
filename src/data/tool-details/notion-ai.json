@@ -1,0 +1,253 @@
+{
+  "features": {
+    "en": [
+      "AI writing and summarization in docs",
+      "AI Meeting Notes transcription",
+      "Enterprise Search across connected apps",
+      "AI Connectors (Slack, Google Drive, etc.)",
+      "Custom AI agents and autofill",
+      "Q&A over your workspace"
+    ],
+    "zh": [
+      "文档内 AI 写作与摘要",
+      "AI 会议记录转写",
+      "跨互联应用的企业搜索",
+      "AI 连接器（Slack、Google Drive 等）",
+      "自定义 AI 智能体与自动填充",
+      "基于工作区的问答"
+    ],
+    "ja": [
+      "ドキュメント内での AI 執筆と要約",
+      "AI Meeting Notes による文字起こし",
+      "連携アプリを横断する Enterprise Search",
+      "AI コネクター（Slack、Google Drive など）",
+      "カスタム AI エージェントと自動入力",
+      "ワークスペース全体への Q&A"
+    ],
+    "es": [
+      "Redacción y resumen con IA en documentos",
+      "Transcripción de AI Meeting Notes",
+      "Enterprise Search en apps conectadas",
+      "AI Connectors (Slack, Google Drive, etc.)",
+      "Agentes de IA personalizados y autocompletado",
+      "Preguntas y respuestas sobre tu espacio de trabajo"
+    ],
+    "fr": [
+      "Rédaction et résumé par IA dans les documents",
+      "Transcription AI Meeting Notes",
+      "Enterprise Search sur les applis connectées",
+      "AI Connectors (Slack, Google Drive, etc.)",
+      "Agents IA personnalisés et remplissage automatique",
+      "Questions-réponses sur votre espace de travail"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Limited AI trial",
+      "zh": "有限 AI 试用",
+      "ja": "AI の限定トライアル",
+      "es": "Prueba de IA limitada",
+      "fr": "Essai IA limité"
+    },
+    "plus": {
+      "en": "$10/user/month (no AI features)",
+      "zh": "$10/人/月（不含 AI 功能）",
+      "ja": "1ユーザー月額10ドル（AI機能なし）",
+      "es": "10 $/usuario/mes (sin funciones de IA)",
+      "fr": "10 $/utilisateur/mois (sans fonctions IA)"
+    },
+    "business": {
+      "en": "$20/user/month annual, $24 monthly (AI included)",
+      "zh": "$20/人/月（年付），月付 $24（含 AI）",
+      "ja": "年払いで1ユーザー月額20ドル、月払い24ドル（AI込み）",
+      "es": "20 $/usuario/mes anual, 24 $ mensual (IA incluida)",
+      "fr": "20 $/utilisateur/mois annuel, 24 $ mensuel (IA incluse)"
+    },
+    "enterprise": {
+      "en": "Custom pricing",
+      "zh": "定制价格",
+      "ja": "カスタム料金",
+      "es": "Precio personalizado",
+      "fr": "Tarif personnalisé"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Team knowledge management",
+      "Meeting notes and action items",
+      "Content drafting and editing",
+      "Project documentation",
+      "Cross-app information search",
+      "Personal productivity"
+    ],
+    "zh": [
+      "团队知识管理",
+      "会议记录与待办提取",
+      "内容起草与编辑",
+      "项目文档",
+      "跨应用信息检索",
+      "个人效率提升"
+    ],
+    "ja": [
+      "チームのナレッジ管理",
+      "会議メモとアクションアイテム",
+      "コンテンツの下書きと編集",
+      "プロジェクトドキュメント",
+      "アプリを横断した情報検索",
+      "個人の生産性向上"
+    ],
+    "es": [
+      "Gestión del conocimiento del equipo",
+      "Notas de reuniones y tareas",
+      "Redacción y edición de contenido",
+      "Documentación de proyectos",
+      "Búsqueda de información entre apps",
+      "Productividad personal"
+    ],
+    "fr": [
+      "Gestion des connaissances de l'équipe",
+      "Notes de réunion et actions à mener",
+      "Rédaction et édition de contenu",
+      "Documentation de projet",
+      "Recherche d'informations inter-applis",
+      "Productivité personnelle"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Deeply integrated with Notion docs",
+      "Strong workspace-wide search",
+      "Meeting notes save time",
+      "Unified all-in-one workspace"
+    ],
+    "zh": [
+      "与 Notion 文档深度集成",
+      "全工作区搜索强大",
+      "会议记录节省时间",
+      "一体化工作空间"
+    ],
+    "ja": [
+      "Notion ドキュメントと深く統合",
+      "ワークスペース全体の強力な検索",
+      "会議メモで時間を節約",
+      "統合されたオールインワンのワークスペース"
+    ],
+    "es": [
+      "Profundamente integrado con los documentos de Notion",
+      "Potente búsqueda en todo el espacio de trabajo",
+      "Las notas de reuniones ahorran tiempo",
+      "Espacio de trabajo unificado todo en uno"
+    ],
+    "fr": [
+      "Profondément intégré aux documents Notion",
+      "Recherche puissante sur tout l'espace de travail",
+      "Les notes de réunion font gagner du temps",
+      "Espace de travail unifié tout-en-un"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Full AI locked to Business plan",
+      "Price increased over time",
+      "Requires Notion adoption"
+    ],
+    "zh": [
+      "完整 AI 需 Business 套餐",
+      "价格逐步上涨",
+      "需先采用 Notion"
+    ],
+    "ja": [
+      "完全な AI は Business プラン限定",
+      "価格が徐々に上昇",
+      "Notion の導入が前提"
+    ],
+    "es": [
+      "La IA completa está limitada al plan Business",
+      "El precio ha subido con el tiempo",
+      "Requiere adoptar Notion"
+    ],
+    "fr": [
+      "L'IA complète est réservée au forfait Business",
+      "Le prix a augmenté avec le temps",
+      "Nécessite l'adoption de Notion"
+    ]
+  },
+  "latestUpdate": {
+    "en": "July 2026: Notion AI bundled into Business plan with AI Meeting Notes, Enterprise Search, and AI Connectors",
+    "zh": "2026年7月：Notion AI 并入 Business 套餐，提供 AI 会议记录、企业搜索与 AI 连接器",
+    "ja": "2026年7月：Notion AI が Business プランに統合され、AI Meeting Notes、Enterprise Search、AI Connectors を提供",
+    "es": "Julio de 2026: Notion AI se incluye en el plan Business con AI Meeting Notes, Enterprise Search y AI Connectors",
+    "fr": "Juillet 2026 : Notion AI est intégré au forfait Business avec AI Meeting Notes, Enterprise Search et AI Connectors"
+  },
+  "verdict": {
+    "badge": "Worth Trying",
+    "headline": {
+      "en": "AI writing and knowledge assistance that lives where your notes already are.",
+      "zh": "AI写作与知识辅助，就在你笔记所在之处。",
+      "ja": "ノートがある場所に住むAIライティングとナレッジアシスタント。",
+      "es": "Asistencia de escritura e IA que vive donde ya están tus notas.",
+      "fr": "Assistance IA d'écriture et de connaissances là où vos notes se trouvent déjà."
+    },
+    "body": {
+      "en": "Notion AI's strength is context: it works within your existing workspace, drawing on your notes, databases, and documents to provide relevant assistance. For teams already using Notion for documentation, the AI features eliminate the need to copy-paste content into separate AI tools.\n\nThe limitations are real, though. It can't match dedicated writing tools like Jasper for marketing copy, or ChatGPT for general reasoning. It's best viewed as a productivity layer on top of Notion rather than a standalone AI assistant.",
+      "zh": "Notion AI 的优势在于上下文：它在你现有的工作空间中运行，利用你的笔记、数据库和文档提供相关辅助。对于已使用 Notion 做文档管理的团队，AI 功能免去了将内容复制到独立AI工具中的需要。\n\n不过局限性也很明显。在营销文案方面不如 Jasper，通用推理不如 ChatGPT。最好将其视为 Notion 之上的生产力层，而非独立的AI助手。",
+      "ja": "Notion AIの強みはコンテキストです。既存のワークスペース内で動作し、ノート、データベース、ドキュメントを活用して関連性の高い支援を提供します。すでにNotionでドキュメント管理しているチームにとって、AI機能により別ツールへのコピペが不要になります。\n\nただし限界もあります。マーケティングコピーではJasperに、汎用推論ではChatGPTに及びません。独立したAIアシスタントではなく、Notion上の生産性レイヤーと考えるのが最適です。",
+      "es": "La fortaleza de Notion AI es el contexto: trabaja dentro de tu espacio existente, aprovechando notas, bases de datos y documentos para ofrecer asistencia relevante. Para equipos que ya usan Notion, las funciones IA eliminan la necesidad de copiar contenido a herramientas separadas.\n\nSin embargo, no puede igualar herramientas dedicadas como Jasper para copy de marketing o ChatGPT para razonamiento general. Es mejor verlo como una capa de productividad sobre Notion, no como un asistente IA independiente.",
+      "fr": "La force de Notion AI est le contexte : il travaille dans votre espace existant, exploitant vos notes, bases de données et documents pour fournir une assistance pertinente. Pour les équipes utilisant déjà Notion, les fonctions IA éliminent le besoin de copier du contenu vers des outils séparés.\n\nMais les limites sont réelles. Il ne peut égaler Jasper pour le copy marketing ni ChatGPT pour le raisonnement général. C'est mieux vu comme une couche de productivité sur Notion plutôt qu'un assistant IA autonome."
+    },
+    "bestFor": {
+      "en": [
+        "Teams already using Notion for documentation",
+        "In-context writing and summarization",
+        "Knowledge base Q&A within workspace"
+      ],
+      "zh": [
+        "已在使用Notion做文档管理的团队",
+        "上下文内的写作与摘要",
+        "工作空间内的知识库问答"
+      ],
+      "ja": [
+        "すでにNotionでドキュメント管理しているチーム",
+        "コンテキスト内の執筆と要約",
+        "ワークスペース内のナレッジベースQ&A"
+      ],
+      "es": [
+        "Equipos que ya usan Notion para documentación",
+        "Escritura y resumen en contexto",
+        "Q&A de base de conocimientos dentro del espacio"
+      ],
+      "fr": [
+        "Équipes utilisant déjà Notion pour la documentation",
+        "Rédaction et résumé en contexte",
+        "Q&R de base de connaissances dans l'espace"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You need a general-purpose AI assistant (→ ChatGPT, Claude)",
+        "You need specialized marketing copy (→ Jasper, Copy.ai)"
+      ],
+      "zh": [
+        "需要通用AI助手（→ ChatGPT、Claude）",
+        "需要专业营销文案（→ Jasper、Copy.ai）"
+      ],
+      "ja": [
+        "汎用AIアシスタントが必要な場合（→ ChatGPT、Claude）",
+        "専門的なマーケティングコピーが必要な場合（→ Jasper、Copy.ai）"
+      ],
+      "es": [
+        "Necesitas un asistente IA de propósito general (→ ChatGPT, Claude)",
+        "Necesitas copy de marketing especializado (→ Jasper, Copy.ai)"
+      ],
+      "fr": [
+        "Vous avez besoin d'un assistant IA généraliste (→ ChatGPT, Claude)",
+        "Vous avez besoin de copy marketing spécialisé (→ Jasper, Copy.ai)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-29",
+    "verdictDate": "2026-07-27",
+    "pricingVerified": "2026-07-29"
+  }
+}

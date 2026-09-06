@@ -1,0 +1,30 @@
+{
+  "slug": "langgraph",
+  "name": "LangGraph",
+  "nameZh": "LangGraph",
+  "description": "LangChain 出品的有状态智能体编排框架：图结构工作流、持久化记忆与人类介入，配套 LangGraph Platform 一键部署",
+  "descriptionEn": "Stateful agent orchestration framework by LangChain: graph-based workflows, durable memory and human-in-the-loop, with the LangGraph Platform for one-click deployment",
+  "descriptionJa": "LangChainによるステートフルなエージェントオーケストレーションフレームワーク。グラフ型ワークフロー、永続メモリ、ヒューマンインザループに対応し、LangGraph Platformでワンクリックデプロイ",
+  "descriptionEs": "Framework de orquestación de agentes con estado de LangChain: flujos en grafo, memoria persistente e intervención humana, con la LangGraph Platform para desplegar en un clic",
+  "descriptionFr": "Framework d'orchestration d'agents avec état de LangChain : workflows en graphe, mémoire durable et humain dans la boucle, avec la LangGraph Platform pour un déploiement en un clic",
+  "url": "https://www.langchain.com/langgraph",
+  "logo": "/logos/tools/langgraph.png",
+  "category": "Agent",
+  "tags": [
+    "Freemium",
+    "Open Source",
+    "API"
+  ],
+  "featured": false,
+  "developer": "LangChain",
+  "platforms": {
+    "web": true,
+    "windows": true,
+    "macos": true,
+    "ios": false,
+    "android": false,
+    "linux": true,
+    "browser_extension": false,
+    "api": true
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "slug": "edgeone-pages-mcp",
+  "name": "EdgeOne Pages MCP",
+  "nameZh": "腾讯 EdgeOne Pages MCP",
+  "description": "腾讯 EdgeOne 出品的 MCP 服务，让 AI 智能体一键部署 HTML 内容到 EdgeOne Makers 平台并获取可公开访问的 URL。适合快速上线静态页面、落地页与小应用。",
+  "descriptionEn": "An MCP service by Tencent EdgeOne that lets AI agents deploy HTML content to the EdgeOne Makers platform with one click and obtain a publicly accessible URL. Ideal for quickly publishing static pages, landing pages, and small apps.",
+  "descriptionJa": "Tencent EdgeOne による MCP サービス。AI エージェントが HTML コンテンツを EdgeOne Makers プラットフォームにワンクリックでデプロイし、公開アクセス可能な URL を取得できます。静的なページ、ランディングページ、小規模アプリケーションの迅速な公開に最適です。",
+  "descriptionEs": "Un servicio MCP de Tencent EdgeOne que permite a los agentes de IA desplegar contenido HTML en la plataforma EdgeOne Makers con un clic y obtener una URL pública. Ideal para publicar rápidamente páginas estáticas, landing pages y pequeñas aplicaciones.",
+  "descriptionFr": "Un service MCP de Tencent EdgeOne qui permet aux agents IA de déployer du contenu HTML sur la plateforme EdgeOne Makers en un clic et d'obtenir une URL publiquement accessible. Idéal pour publier rapidement des pages statiques, des landing pages et des petites applications.",
+  "developer": "Tencent EdgeOne",
+  "developerZh": "腾讯 EdgeOne",
+  "repo": "TencentEdgeOne/edgeone-makers-mcp",
+  "clients": [
+    "claude",
+    "cursor",
+    "vscode",
+    "codex",
+    "generic"
+  ],
+  "category": "Cloud",
+  "tags": [
+    "Free",
+    "Open Source"
+  ],
+  "installCommand": "npx -y edgeone-pages-mcp",
+  "logo": "/logos/mcp/edgeone-pages-mcp.png",
+  "stars": 434,
+  "featured": false,
+  "faqs": [
+    {
+      "question": {
+        "zh": "EdgeOne Pages MCP 能做什么？",
+        "en": "What can EdgeOne Pages MCP do?",
+        "ja": "EdgeOne Pages MCP は何ができますか？",
+        "es": "¿Qué puede hacer EdgeOne Pages MCP?",
+        "fr": "Que peut faire EdgeOne Pages MCP ?"
+      },
+      "answer": {
+        "zh": "让 AI 智能体直接把 HTML 内容部署到 EdgeOne 边缘网络，生成可公开访问的 URL。适用于快速上线静态页面、营销落地页、原型演示、小工具页面等场景，无需手动配置服务器和域名。",
+        "en": "It lets AI agents deploy HTML content directly to EdgeOne's edge network, generating a publicly accessible URL. Perfect for quickly publishing static pages, marketing landing pages, prototype demos, and utility pages — no server or domain configuration needed.",
+        "ja": "AI エージェントが HTML コンテンツを EdgeOne のエッジネットワークに直接デプロイし、公開アクセス可能な URL を生成できます。静的ページ、マーケティング用ランディングページ、プロトタイプデモ、ユーティリティページの迅速な公開に最適で、サーバーやドメインの設定は不要です。",
+        "es": "Permite a los agentes de IA desplegar contenido HTML directamente en la red perimetral de EdgeOne, generando una URL pública. Ideal para publicar rápidamente páginas estáticas, landing pages de marketing, prototipos y páginas de utilidades — sin necesidad de configurar servidores ni dominios.",
+        "fr": "Il permet aux agents IA de déployer du contenu HTML directement sur le réseau EdgeOne, générant une URL publique. Idéal pour publier rapidement des pages statiques, des landing pages marketing, des prototypes et des pages utilitaires — sans configuration de serveur ni de domaine."
+      }
+    },
+    {
+      "question": {
+        "zh": "怎么安装 EdgeOne Pages MCP？",
+        "en": "How do I install EdgeOne Pages MCP?",
+        "ja": "EdgeOne Pages MCP のインストール方法は？",
+        "es": "¿Cómo instalo EdgeOne Pages MCP?",
+        "fr": "Comment installer EdgeOne Pages MCP ?"
+      },
+      "answer": {
+        "zh": "运行 npx -y @tencent/edgeone-pages-mcp 即可启动。在 Claude Code 中用 claude mcp add edgeone -- npx -y @tencent/edgeone-pages-mcp 注册，或粘贴到 Cursor 的 MCP 设置中。首次使用需登录腾讯云账号。",
+        "en": "Run npx -y @tencent/edgeone-pages-mcp to start. Register it in Claude Code with claude mcp add edgeone -- npx -y @tencent/edgeone-pages-mcp, or paste into Cursor's MCP settings. You'll need to log in with your Tencent Cloud account on first use.",
+        "ja": "npx -y @tencent/edgeone-pages-mcp を実行して起動します。Claude Code では claude mcp add edgeone -- npx -y @tencent/edgeone-pages-mcp で登録、Cursor の MCP 設定に貼り付けても使えます。初回利用時は Tencent Cloud アカウントでのログインが必要です。",
+        "es": "Ejecuta npx -y @tencent/edgeone-pages-mcp para iniciarlo. Regístralo en Claude Code con claude mcp add edgeone -- npx -y @tencent/edgeone-pages-mcp, o pégalo en los ajustes MCP de Cursor. Necesitarás iniciar sesión con tu cuenta de Tencent Cloud al primer uso.",
+        "fr": "Exécutez npx -y @tencent/edgeone-pages-mcp pour le lancer. Enregistrez-le dans Claude Code avec claude mcp add edgeone -- npx -y @tencent/edgeone-pages-mcp, ou collez-le dans les réglages MCP de Cursor. Une connexion à votre compte Tencent Cloud sera nécessaire lors de la première utilisation."
+      }
+    },
+    {
+      "question": {
+        "zh": "EdgeOne Pages 免费吗？",
+        "en": "Is EdgeOne Pages free?",
+        "ja": "EdgeOne Pages は無料ですか？",
+        "es": "¿EdgeOne Pages es gratuito?",
+        "fr": "EdgeOne Pages est-il gratuit ?"
+      },
+      "answer": {
+        "zh": "EdgeOne 提供免费额度，适合个人和小型项目。MCP 服务器本身是开源免费的。超出免费额度后按流量和请求量计费，详情可参考腾讯云 EdgeOne 官方定价页。",
+        "en": "EdgeOne offers a free tier suitable for personal and small projects. The MCP server itself is open source and free. Beyond the free tier, usage is billed by traffic and requests — see Tencent Cloud EdgeOne pricing for details.",
+        "ja": "EdgeOne には個人や小規模プロジェクト向けの無料枠があります。MCP サーバー自体はオープンソースで無料です。無料枠を超えた分はトラフィックとリクエスト数に応じて課金されます。詳細は Tencent Cloud EdgeOne の公式料金ページをご確認ください。",
+        "es": "EdgeOne ofrece un nivel gratuito adecuado para proyectos personales y pequeños. El servidor MCP en sí es de código abierto y gratuito. Más allá del nivel gratuito, el uso se factura por tráfico y solicitudes — consulta la página de precios oficial de Tencent Cloud EdgeOne.",
+        "fr": "EdgeOne offre un niveau gratuit adapté aux projets personnels et petits. Le serveur MCP lui-même est open source et gratuit. Au-delà du niveau gratuit, l'utilisation est facturée par trafic et requêtes — consultez la page de tarification officielle de Tencent Cloud EdgeOne."
+      }
+    }
+  ]
+}

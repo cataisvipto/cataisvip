@@ -1,0 +1,78 @@
+{
+  "slug": "kubernetes-mcp",
+  "name": "Kubernetes MCP Server",
+  "nameZh": "Kubernetes MCP",
+  "description": "社区高人气的 Kubernetes MCP 服务器，让 AI 智能体用自然语言运维集群——查看/创建/删除 Pod、Deployment、Service，读日志、执行 kubectl 与 Helm 操作，支持只读模式与非破坏性模式保护生产环境。",
+  "descriptionEn": "A popular community Kubernetes MCP server that lets AI agents operate clusters in natural language — view/create/delete Pods, Deployments and Services, read logs, run kubectl and Helm operations, with read-only and non-destructive modes to protect production.",
+  "descriptionJa": "コミュニティで人気の Kubernetes MCP サーバー。AI エージェントが自然言語でクラスターを運用でき、Pod・Deployment・Service の参照/作成/削除、ログ閲覧、kubectl や Helm 操作の実行が可能で、本番を守る読み取り専用モードや非破壊モードにも対応します。",
+  "descriptionEs": "Un popular servidor MCP de Kubernetes de la comunidad que permite a los agentes de IA operar clústeres en lenguaje natural: ver/crear/eliminar Pods, Deployments y Services, leer registros, ejecutar operaciones de kubectl y Helm, con modos de solo lectura y no destructivo para proteger producción.",
+  "descriptionFr": "Un serveur MCP Kubernetes communautaire populaire qui permet aux agents IA d'exploiter les clusters en langage naturel — voir/créer/supprimer Pods, Deployments et Services, lire les journaux, exécuter des opérations kubectl et Helm, avec des modes lecture seule et non destructif pour protéger la production.",
+  "developer": "Flux159 (community)",
+  "developerZh": "Flux159（社区）",
+  "repo": "Flux159/mcp-server-kubernetes",
+  "clients": [
+    "claude",
+    "cursor",
+    "vscode",
+    "generic"
+  ],
+  "category": "DevOps",
+  "tags": [
+    "Free",
+    "Open Source"
+  ],
+  "installCommand": "npx -y mcp-server-kubernetes",
+  "logo": "/logos/mcp/kubernetes-mcp.png",
+  "stars": 1576,
+  "featured": false,
+  "faqs": [
+    {
+      "question": {
+        "zh": "Kubernetes MCP 连的是哪个集群？",
+        "en": "Which cluster does Kubernetes MCP connect to?",
+        "ja": "Kubernetes MCP はどのクラスターに接続しますか？",
+        "es": "¿A qué clúster se conecta Kubernetes MCP?",
+        "fr": "À quel cluster Kubernetes MCP se connecte-t-il ?"
+      },
+      "answer": {
+        "zh": "它复用你本机的 kubeconfig（默认 ~/.kube/config 与当前 context），连的就是你 kubectl 当前指向的集群。切换 context 即可切集群，权限完全由该 context 的凭据决定，不会额外提权。",
+        "en": "It reuses your local kubeconfig (by default ~/.kube/config and the current context), so it connects to whatever cluster kubectl currently points to. Switch context to switch clusters; permissions are entirely determined by that context's credentials, with no extra privilege escalation.",
+        "ja": "ローカルの kubeconfig（既定では ~/.kube/config と現在の context）を再利用するため、kubectl が現在指しているクラスターに接続します。context を切り替えればクラスターを切り替えられ、権限はその context の認証情報だけで決まり、追加の権限昇格はありません。",
+        "es": "Reutiliza tu kubeconfig local (por defecto ~/.kube/config y el contexto actual), por lo que se conecta al clúster al que apunta kubectl en ese momento. Cambia de contexto para cambiar de clúster; los permisos los determinan por completo las credenciales de ese contexto, sin escalado de privilegios adicional.",
+        "fr": "Il réutilise votre kubeconfig local (par défaut ~/.kube/config et le contexte courant), il se connecte donc au cluster vers lequel kubectl pointe actuellement. Changez de contexte pour changer de cluster ; les permissions sont entièrement déterminées par les identifiants de ce contexte, sans élévation de privilèges supplémentaire."
+      }
+    },
+    {
+      "question": {
+        "zh": "会不会误删生产资源？",
+        "en": "Could it accidentally delete production resources?",
+        "ja": "本番リソースを誤って削除してしまうことはありますか？",
+        "es": "¿Podría eliminar accidentalmente recursos de producción?",
+        "fr": "Pourrait-il supprimer accidentellement des ressources de production ?"
+      },
+      "answer": {
+        "zh": "为此它提供只读模式与非破坏性模式：开启后禁用删除等危险操作，智能体只能查看和做安全变更。生产环境建议开只读或非破坏模式，并用权限受限的 context，把风险控制住。",
+        "en": "For that it offers read-only and non-destructive modes: when enabled, dangerous operations like delete are disabled and the agent can only view and make safe changes. For production, enable read-only or non-destructive mode and use a permission-limited context to keep risk contained.",
+        "ja": "そのために読み取り専用モードと非破壊モードを備えています。有効にすると削除などの危険な操作が無効になり、エージェントは参照と安全な変更しかできません。本番では読み取り専用または非破壊モードを有効にし、権限を絞った context を使ってリスクを抑えることをおすすめします。",
+        "es": "Para eso ofrece modos de solo lectura y no destructivo: al activarlos, se deshabilitan operaciones peligrosas como eliminar y el agente solo puede ver y hacer cambios seguros. En producción, activa el modo de solo lectura o no destructivo y usa un contexto con permisos limitados para contener el riesgo.",
+        "fr": "Pour cela, il propose des modes lecture seule et non destructif : une fois activés, les opérations dangereuses comme la suppression sont désactivées et l'agent ne peut que consulter et effectuer des modifications sûres. En production, activez le mode lecture seule ou non destructif et utilisez un contexte à permissions limitées pour maîtriser le risque."
+      }
+    },
+    {
+      "question": {
+        "zh": "支持 Helm 和多种资源吗？",
+        "en": "Does it support Helm and many resource types?",
+        "ja": "Helm や多様なリソースに対応していますか？",
+        "es": "¿Admite Helm y muchos tipos de recursos?",
+        "fr": "Prend-il en charge Helm et de nombreux types de ressources ?"
+      },
+      "answer": {
+        "zh": "支持。除 Pod/Deployment/Service/ConfigMap 等常见资源的增删查改外，还能执行 kubectl 通用命令、查看日志与事件、做 Helm chart 的安装与升级，覆盖日常排障与发布操作。",
+        "en": "Yes. Beyond CRUD on common resources like Pods/Deployments/Services/ConfigMaps, it can run general kubectl commands, view logs and events, and install/upgrade Helm charts, covering everyday troubleshooting and release operations.",
+        "ja": "はい。Pod/Deployment/Service/ConfigMap など一般的なリソースの作成・削除・参照・更新に加え、汎用の kubectl コマンド実行、ログやイベントの確認、Helm チャートのインストール・アップグレードにも対応し、日常のトラブルシューティングやリリース作業をカバーします。",
+        "es": "Sí. Además del CRUD sobre recursos comunes como Pods/Deployments/Services/ConfigMaps, puede ejecutar comandos generales de kubectl, ver registros y eventos, e instalar/actualizar charts de Helm, cubriendo la resolución de problemas y las operaciones de despliegue del día a día.",
+        "fr": "Oui. Au-delà du CRUD sur des ressources courantes comme Pods/Deployments/Services/ConfigMaps, il peut exécuter des commandes kubectl générales, consulter journaux et événements, et installer/mettre à niveau des charts Helm, couvrant le dépannage quotidien et les opérations de déploiement."
+      }
+    }
+  ]
+}

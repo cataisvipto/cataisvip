@@ -1,0 +1,246 @@
+{
+  "features": {
+    "en": [
+      "Open-source speech recognition",
+      "large-v3 model, 99 languages",
+      "Speech-to-text and translation",
+      "Robust to noise and accents",
+      "Local and API deployment",
+      "Free for commercial use"
+    ],
+    "zh": [
+      "开源语音识别",
+      "large-v3 模型，支持 99 种语言",
+      "语音转文字与翻译",
+      "抗噪声与口音能力强",
+      "支持本地与 API 部署",
+      "可免费商用"
+    ],
+    "ja": [
+      "オープンソースの音声認識",
+      "large-v3 モデル、99言語対応",
+      "音声のテキスト化と翻訳",
+      "ノイズやアクセントに強い",
+      "ローカル・API での展開",
+      "商用利用も無料"
+    ],
+    "es": [
+      "Reconocimiento de voz de código abierto",
+      "Modelo large-v3, 99 idiomas",
+      "Voz a texto y traducción",
+      "Robusto ante ruido y acentos",
+      "Despliegue local y por API",
+      "Gratis para uso comercial"
+    ],
+    "fr": [
+      "Reconnaissance vocale open source",
+      "Modèle large-v3, 99 langues",
+      "Parole vers texte et traduction",
+      "Robuste au bruit et aux accents",
+      "Déploiement local et par API",
+      "Gratuit pour un usage commercial"
+    ]
+  },
+  "pricing": {
+    "free": {
+      "en": "Open-source, free to self-host",
+      "zh": "开源，可免费自托管",
+      "ja": "オープンソース、無料セルフホスト可",
+      "es": "Código abierto, autoalojamiento gratis",
+      "fr": "Open source, auto-hébergement gratuit"
+    },
+    "api": {
+      "en": "OpenAI API $0.006/minute",
+      "zh": "OpenAI API $0.006/分钟",
+      "ja": "OpenAI API 1分あたり$0.006",
+      "es": "API de OpenAI $0,006/minuto",
+      "fr": "API OpenAI 0,006 $/minute"
+    },
+    "providers": {
+      "en": "Third-party hosted from ~$0.22/hr",
+      "zh": "第三方托管约 $0.22/小时起",
+      "ja": "サードパーティホスティング 約$0.22/時間〜",
+      "es": "Alojamiento de terceros desde ~0,22 $/h",
+      "fr": "Hébergement tiers à partir de ~0,22 $/h"
+    }
+  },
+  "useCases": {
+    "en": [
+      "Audio and video transcription",
+      "Subtitle generation",
+      "Meeting and interview notes",
+      "Multilingual translation",
+      "Voice interface backends",
+      "Accessibility captioning"
+    ],
+    "zh": [
+      "音视频转写",
+      "字幕生成",
+      "会议与访谈记录",
+      "多语言翻译",
+      "语音交互后端",
+      "无障碍字幕"
+    ],
+    "ja": [
+      "音声・動画の文字起こし",
+      "字幕生成",
+      "会議・インタビューの記録",
+      "多言語翻訳",
+      "音声インターフェースのバックエンド",
+      "アクセシビリティ用字幕"
+    ],
+    "es": [
+      "Transcripción de audio y vídeo",
+      "Generación de subtítulos",
+      "Notas de reuniones y entrevistas",
+      "Traducción multilingüe",
+      "Backends de interfaces de voz",
+      "Subtitulado de accesibilidad"
+    ],
+    "fr": [
+      "Transcription audio et vidéo",
+      "Génération de sous-titres",
+      "Notes de réunions et d'entretiens",
+      "Traduction multilingue",
+      "Backends d'interfaces vocales",
+      "Sous-titrage d'accessibilité"
+    ]
+  },
+  "pros": {
+    "en": [
+      "Free and open-source",
+      "High accuracy across languages",
+      "Local deployment for privacy",
+      "Robust to noise"
+    ],
+    "zh": [
+      "免费且开源",
+      "多语言识别准确",
+      "可本地部署保护隐私",
+      "抗噪声能力强"
+    ],
+    "ja": [
+      "無料かつオープンソース",
+      "多言語で高い精度",
+      "プライバシー保護のためのローカル展開",
+      "ノイズに強い"
+    ],
+    "es": [
+      "Gratis y de código abierto",
+      "Alta precisión en varios idiomas",
+      "Despliegue local para la privacidad",
+      "Robusto ante el ruido"
+    ],
+    "fr": [
+      "Gratuit et open source",
+      "Grande précision multilingue",
+      "Déploiement local pour la confidentialité",
+      "Robuste au bruit"
+    ]
+  },
+  "cons": {
+    "en": [
+      "Requires GPU for speed",
+      "No official real-time UI",
+      "Technical setup needed"
+    ],
+    "zh": [
+      "加速需 GPU",
+      "无官方实时界面",
+      "需一定技术部署"
+    ],
+    "ja": [
+      "高速化には GPU が必要",
+      "公式のリアルタイム UI がない",
+      "技術的なセットアップが必要"
+    ],
+    "es": [
+      "Requiere GPU para mayor velocidad",
+      "Sin interfaz oficial en tiempo real",
+      "Requiere configuración técnica"
+    ],
+    "fr": [
+      "Nécessite un GPU pour la rapidité",
+      "Pas d'interface temps réel officielle",
+      "Configuration technique nécessaire"
+    ]
+  },
+  "latestUpdate": {
+    "en": "July 2026: Whisper large-v3 remains a leading open ASR model with 99-language support and wide provider hosting",
+    "zh": "2026年7月：Whisper large-v3 仍是领先的开源 ASR 模型，支持 99 种语言且被广泛托管",
+    "ja": "2026年7月：Whisper large-v3 は 99言語対応と幅広いプロバイダーによるホスティングで、依然として主要なオープン ASR モデル",
+    "es": "Julio de 2026: Whisper large-v3 sigue siendo un modelo ASR abierto líder, con soporte de 99 idiomas y amplio alojamiento por proveedores",
+    "fr": "Juillet 2026 : Whisper large-v3 reste un modèle ASR ouvert de référence, avec la prise en charge de 99 langues et un large hébergement par les fournisseurs"
+  },
+  "verdict": {
+    "badge": "Recommended",
+    "headline": {
+      "en": "OpenAI's open-source speech-to-text model — accurate, multilingual, and free to run locally.",
+      "zh": "OpenAI的开源语音转文字模型——准确、多语言、可免费本地运行。",
+      "ja": "OpenAIのオープンソース音声テキスト変換モデル——正確、多言語、ローカル無料実行可能。",
+      "es": "El modelo de voz a texto open-source de OpenAI — preciso, multilingüe y gratuito para ejecutar localmente.",
+      "fr": "Le modèle speech-to-text open-source d'OpenAI — précis, multilingue et gratuit en local."
+    },
+    "body": {
+      "en": "Whisper set a new standard for open-source speech recognition. It handles multiple languages, accented speech, and noisy environments remarkably well. Because it's open-source, you can run it locally with full privacy, integrate it into custom pipelines, or use it via API—flexibility that proprietary alternatives don't offer.\n\nFor real-time transcription or production-scale deployment, you may want to explore optimized implementations like faster-whisper. But as a baseline transcription model that balances accuracy, language coverage, and accessibility, Whisper remains the reference point.",
+      "zh": "Whisper 为开源语音识别设定了新标准。它在多语言、带口音语音和噪声环境中表现出色。因为开源，你可以本地运行保证隐私，集成到自定义管道中，或通过API使用——专有方案不具备的灵活性。\n\n对于实时转录或生产级部署，你可能需要探索 faster-whisper 等优化实现。但作为平衡准确性、语言覆盖和可获取性的基准转录模型，Whisper 仍是参考标准。",
+      "ja": "Whisperはオープンソース音声認識の新基準を確立しました。多言語、アクセント付きの音声、ノイズの多い環境を驚くほどうまく処理します。オープンソースなので、ローカルで完全なプライバシーで実行、カスタムパイプラインへの統合、API経由での利用が可能——プロプライエタリな代替品にはない柔軟性です。\n\nリアルタイム文字起こしや本番規模のデプロイにはfaster-whisperなどの最適化実装を探索する価値があります。しかし精度、言語カバレッジ、アクセシビリティのバランスが取れたベースライン転写モデルとして、Whisperは依然として基準点です。",
+      "es": "Whisper estableció un nuevo estándar para reconocimiento de voz open-source. Maneja múltiples idiomas, habla con acento y ambientes ruidosos notablemente bien. Al ser open-source, puedes ejecutarlo localmente con privacidad total o integrarlo en pipelines personalizados.\n\nPara transcripción en tiempo real o despliegue a escala, conviene explorar implementaciones optimizadas como faster-whisper. Pero como modelo base que equilibra precisión, cobertura de idiomas y accesibilidad, Whisper sigue siendo la referencia.",
+      "fr": "Whisper a établi un nouveau standard pour la reconnaissance vocale open-source. Il gère plusieurs langues, la parole accentuée et les environnements bruyants remarquablement bien. Étant open-source, vous pouvez l'exécuter localement en toute confidentialité ou l'intégrer dans des pipelines personnalisés.\n\nPour la transcription en temps réel ou le déploiement à grande échelle, explorez des implémentations optimisées comme faster-whisper. Mais comme modèle de base équilibrant précision, couverture linguistique et accessibilité, Whisper reste la référence."
+    },
+    "bestFor": {
+      "en": [
+        "Offline/local speech-to-text transcription",
+        "Multilingual audio transcription projects",
+        "Custom speech processing pipelines"
+      ],
+      "zh": [
+        "离线/本地语音转文字",
+        "多语言音频转录项目",
+        "自定义语音处理管道"
+      ],
+      "ja": [
+        "オフライン/ローカル音声テキスト変換",
+        "多言語音声書き起こしプロジェクト",
+        "カスタム音声処理パイプライン"
+      ],
+      "es": [
+        "Transcripción de voz a texto offline/local",
+        "Proyectos de transcripción de audio multilingüe",
+        "Pipelines personalizados de procesamiento de voz"
+      ],
+      "fr": [
+        "Transcription vocale offline/locale",
+        "Projets de transcription audio multilingue",
+        "Pipelines personnalisés de traitement vocal"
+      ]
+    },
+    "considerAlternatives": {
+      "en": [
+        "You need real-time streaming transcription (→ Deepgram, AssemblyAI)",
+        "You want full audio/video editing beyond transcription (→ Descript)"
+      ],
+      "zh": [
+        "需要实时流式转录（→ Deepgram、AssemblyAI）",
+        "需要转录之外的完整音视频编辑（→ Descript）"
+      ],
+      "ja": [
+        "リアルタイムストリーミング文字起こしが必要な場合（→ Deepgram、AssemblyAI）",
+        "文字起こし以上の音声・動画編集が必要な場合（→ Descript）"
+      ],
+      "es": [
+        "Necesitas transcripción en streaming en tiempo real (→ Deepgram, AssemblyAI)",
+        "Quieres edición completa de audio/video más allá de transcripción (→ Descript)"
+      ],
+      "fr": [
+        "Vous avez besoin de transcription en streaming temps réel (→ Deepgram, AssemblyAI)",
+        "Vous voulez l'édition audio/vidéo complète au-delà de la transcription (→ Descript)"
+      ]
+    }
+  },
+  "meta": {
+    "lastVerified": "2026-07-30",
+    "verdictDate": "2026-07-27",
+    "pricingVerified": "2026-07-27"
+  }
+}
