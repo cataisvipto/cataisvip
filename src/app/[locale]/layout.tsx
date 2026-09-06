@@ -5,6 +5,7 @@ import { getMessages, setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import GoogleAnalytics from '../GoogleAnalytics';
 import AdSense from '../AdSense';
+import { ADSENSE_CLIENT } from '@/lib/adsense';
 import { ThemeProvider } from '@/components/ThemeProvider';
 import ConsentBanner from '@/components/ConsentBanner';
 import { routing, TEMP_NOINDEX_LOCALES } from '@/i18n/routing';
@@ -36,6 +37,8 @@ export async function generateMetadata({ params }: LayoutMetadataProps): Promise
     description: "Discover 180+ free and paid AI tools. Compare features, pricing and reviews — from ChatGPT, DeepSeek, Kling AI to Grok. Your AI toolkit starts here.",
     keywords: "AI portal, AI tools directory, AI models, AI agents, ChatGPT, DeepSeek, Kling AI, Grok, Gemini, Claude, AI reviews, free AI tools, artificial intelligence",
     authors: [{ name: "Cataito" }],
+    // AdSense 站点所有权元标记（配合根目录 public/ads.txt，双通道验证）
+    other: { "google-adsense-account": ADSENSE_CLIENT },
     icons: {
       icon: '/favicon.svg',
       apple: '/favicon.svg',
