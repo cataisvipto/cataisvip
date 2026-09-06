@@ -193,7 +193,7 @@ export default function Header({ searchQuery, onSearchChange, locale }: HeaderPr
             {/* Submit */}
             <Link
               href="/submit"
-              className="hidden sm:inline-flex items-center gap-1.5 px-4 py-1.5 text-sm font-medium text-white bg-[var(--primary)] hover:bg-[var(--primary-hover)] rounded-full transition shadow-sm"
+              className="hidden sm:inline-flex items-center gap-1.5 px-4 py-1.5 text-sm font-medium whitespace-nowrap text-white bg-[var(--primary)] hover:bg-[var(--primary-hover)] rounded-full transition shadow-sm"
             >
               {t('nav.submit')}
             </Link>
@@ -299,7 +299,7 @@ export default function Header({ searchQuery, onSearchChange, locale }: HeaderPr
               <Link
                 href="/submit"
                 onClick={() => setMobileMenuOpen(false)}
-                className="flex items-center justify-center gap-2 w-full py-2.5 text-sm font-medium text-white bg-[var(--primary)] hover:bg-[var(--primary-hover)] rounded-full transition"
+                className="flex items-center justify-center gap-2 w-full py-2.5 text-sm font-medium whitespace-nowrap text-white bg-[var(--primary)] hover:bg-[var(--primary-hover)] rounded-full transition"
               >
                 {t('nav.submit')}
               </Link>

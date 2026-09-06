@@ -61,6 +61,9 @@ CLAUDE.md
 .qoder/
 # 项目级 AI 代理技能（内部运营流程文档，含灾备/收录政策等内部信息）
 .agents/
+# multi-agent 交接文件（本地-only，归档于 backup/handoff-docs 分支）
+HANDOFF.md
+DECISIONS.md
 # 研究草稿文件
 *-research.md
 # 临时渲染文件
