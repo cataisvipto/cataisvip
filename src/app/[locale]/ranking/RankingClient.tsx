@@ -137,8 +137,7 @@ export default function RankingClient({ items, updatedAt: serverUpdatedAt, local
       try {
         const r = await fetch(RANK_LIVE_URL, {
           signal: controller.signal,
-          cache: 'force-cache',
-          headers: { 'Cache-Control': 'max-age=60' },
+          cache: 'no-cache',
         });
         if (!r.ok) {
           if (!settled) {
